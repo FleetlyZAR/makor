@@ -153,3 +153,16 @@ details.cascade[open] > summary { border-bottom: 1px solid var(--line); }
 .level-advanced { margin-top: 0.85rem; padding-top: 0.85rem; border-top: 1px dashed var(--line); }
 .level-advanced[hidden] { display: none; }
 .level-advanced h3:first-child { margin-top: 0; }
+
+/* Pre / post assessment flow */
+.step-label { font-family: var(--sans); text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.72rem; font-weight: 700; color: var(--light); margin: 1.9rem 0 0.4rem; }
+.assess { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 1.1rem 1.25rem; margin: 0.4rem 0; }
+.assess-intro { color: var(--muted); font-size: 0.95rem; margin: 0 0 1rem; }
+.open-study { margin-top: 1rem; font-family: var(--sans); font-size: 0.9rem; font-weight: 700; color: #fff; background: var(--water); border: none; border-radius: 999px; padding: 0.6rem 1.25rem; cursor: pointer; }
+.open-study:hover { background: var(--water-deep); }
+.open-study:disabled { background: var(--muted); cursor: default; }
+.compare { background: var(--light-soft); border: 1px solid var(--light); border-radius: 10px; padding: 1.1rem 1.25rem; margin: 1.1rem 0; }
+.compare-head { font-family: var(--serif); font-size: 1.3rem; font-weight: 600; color: var(--ink); margin: 0 0 0.3rem; }
+.compare-line { font-size: 1.05rem; margin: 0.2rem 0; }
+.compare-line span { color: var(--water); font-weight: 700; }
+.compare-msg { color: var(--ink); margin: 0.4rem 0 0; font-style: italic; }
