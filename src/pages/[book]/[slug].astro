@@ -447,4 +447,74 @@ const quiz = study.quiz ?? [];
       else { adv.setAttribute('hidden', ''); b.textContent = 'Go deeper'; }
     });
   });
+
+  // Glossary: underline hard words in the study prose and pop a plain definition on tap
+  const glossary = {
+    "polemic": "A piece of writing that argues strongly against an opposing view. Genesis 1 quietly argues against the creation myths of the surrounding nations.",
+    "toledot": "A Hebrew word meaning generations or account. The phrase 'these are the generations of' divides the book of Genesis into sections.",
+    "hermeneutics": "The art of reading and interpreting a text rightly: asking what the author meant, and how that kind of writing should be read.",
+    "typology": "The study of how earlier persons, events, or things in Scripture act as patterns or signposts pointing forward to Christ.",
+    "canonical": "Having to do with the whole Bible as one book. The canonical view asks where a passage sits in the sweep of all Scripture.",
+    "prescriptive": "Text that tells us what we should do, a command or pattern to follow, rather than text that simply describes what happened.",
+    "descriptive": "Text that describes what happened, without necessarily commanding us to copy it.",
+    "immanent": "Being present within and close to creation. God is immanent, near to all He has made.",
+    "transcendent": "Being above and beyond creation. God is transcendent, greater than all He has made.",
+    "cosmos": "The ordered universe. Genesis shows God turning a formless waste into an ordered cosmos.",
+    "prologue": "An opening section that sets the scene for what follows. Genesis 1 is the prologue to the whole Bible.",
+    "Torah": "The first five books of the Bible, also called the Law of Moses.",
+    "expository": "Teaching or preaching that carefully explains what a passage actually says, working through it in order.",
+    "allegorise": "To read hidden symbolic meanings into a text that the author did not intend. Makor avoids this.",
+    "redemptive": "Having to do with God's work of rescuing and restoring His people through Christ."
+  };
+  function escapeRe(str) { return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+  function linkGlossary() {
+    const containers = document.querySelectorAll('#study-gate .cascade-body');
+    containers.forEach((container) => {
+      Object.keys(glossary).forEach((term) => {
+        const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT, {
+          acceptNode(node) {
+            if (!node.nodeValue || !node.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+            const p = node.parentElement;
+            if (!p) return NodeFilter.FILTER_REJECT;
+            if (p.closest('button, a, .gloss, .lex, .gloss-pop, .lex-pop, .scripture, .quiz, .assess, .glossary')) return NodeFilter.FILTER_REJECT;
+            return NodeFilter.FILTER_ACCEPT;
+          },
+        });
+        const rx = new RegExp('\\b' + escapeRe(term) + '\\b', 'i');
+        let node;
+        while ((node = walker.nextNode())) {
+          const m = node.nodeValue.match(rx);
+          if (!m) continue;
+          const idx = m.index;
+          const before = node.nodeValue.slice(0, idx);
+          const matchText = node.nodeValue.slice(idx, idx + m[0].length);
+          const after = node.nodeValue.slice(idx + m[0].length);
+          const frag = document.createDocumentFragment();
+          if (before) frag.appendChild(document.createTextNode(before));
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'gloss';
+          btn.textContent = matchText;
+          const pop = document.createElement('span');
+          pop.className = 'gloss-pop';
+          pop.hidden = true;
+          pop.textContent = glossary[term];
+          frag.appendChild(btn);
+          frag.appendChild(pop);
+          if (after) frag.appendChild(document.createTextNode(after));
+          node.parentNode.replaceChild(frag, node);
+          break;
+        }
+      });
+    });
+  }
+  linkGlossary();
+  document.addEventListener('click', (e) => {
+    const b = e.target.closest('.gloss');
+    if (!b) return;
+    const pop = b.nextElementSibling;
+    if (!pop || !pop.classList.contains('gloss-pop')) return;
+    if (pop.hasAttribute('hidden')) pop.removeAttribute('hidden');
+    else pop.setAttribute('hidden', '');
+  });
 </script>

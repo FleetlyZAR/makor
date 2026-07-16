@@ -179,3 +179,9 @@ details.cascade[open] > summary { border-bottom: 1px solid var(--line); }
 .history-list { margin: 0; padding-left: 1.2rem; }
 .history-list li { margin: 0.3rem 0; font-family: var(--serif); }
 @media (max-width: 640px) { .descriptor { display: none; } }
+
+/* Glossary terms (plain-English definitions on tap) */
+.gloss { font: inherit; color: var(--ink); background: none; border: none; padding: 0; cursor: pointer; border-bottom: 1px dotted var(--light); }
+.gloss:hover { background: var(--light-soft); }
+.gloss-pop { display: block; background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--light); border-radius: 8px; padding: 0.7rem 0.9rem; margin: 0.5rem 0; font-family: var(--sans); font-size: 0.92rem; line-height: 1.5; color: var(--ink); }
+.gloss-pop[hidden] { display: none; }
