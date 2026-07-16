@@ -233,11 +233,9 @@ details.book[open] > summary .chev { transform: rotate(-135deg); }
 .soon-title { font-family: var(--serif); font-size: 1.1rem; color: var(--muted); }
 .soon-tag { display: inline-block; margin-left: 0.5rem; font-family: var(--sans); font-size: 0.66rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--light); border: 1px solid var(--light); border-radius: 999px; padding: 0.05rem 0.45rem; vertical-align: middle; }
 
-/* Ready movement rendered as a button */
-.movement-list li.ready { display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
+/* Ready movement rendered as a button (stays a numbered list item) */
 .movement-list li.ready a { display: inline-block; background: var(--water); color: #fff; font-family: var(--sans); font-size: 0.9rem; font-weight: 700; text-decoration: none; padding: 0.35rem 0.95rem; border-radius: 999px; }
 .movement-list li.ready a:hover { background: var(--water-deep); color: #fff; }
-.movement-list li.ready .ref { margin-left: 0; }
 
 /* Quiz answer letters (A, B, C, D) */
 .opt-letter { flex: none; min-width: 1.6rem; height: 1.6rem; display: inline-flex; align-items: center; justify-content: center; border-radius: 50%; background: var(--light-soft); color: var(--water-deep); font-family: var(--sans); font-weight: 700; font-size: 0.8rem; }
