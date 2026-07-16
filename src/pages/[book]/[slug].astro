@@ -19,6 +19,7 @@ const units = study.text?.units ?? [];
 const ctx = s.context ?? {};
 const herm = s.hermeneutics ?? {};
 const quiz = study.quiz ?? [];
+const smedia = s.media ?? {};
 ---
 <Base title={`${sec.title} | Makor`} description={sec.thesis}>
   <section class="hero">
@@ -47,6 +48,12 @@ const quiz = study.quiz ?? [];
           <div class="unit">
             {u.label && <div class="unit-label">{u.label}{u.note && <span class="unit-note"> &nbsp; {u.note}</span>}</div>}
             <p>{u.verses?.map((v) => <VerseText verse={v} lexicon={lex} />)}</p>
+            {u.media && u.media.kind === 'image' && (
+              <figure class="media"><img src={u.media.src} alt={u.media.alt || ''} loading="lazy" />{u.media.caption && <figcaption>{u.media.caption}</figcaption>}</figure>
+            )}
+            {u.media && u.media.kind === 'youtube' && (
+              <figure class="media"><div class="video"><iframe src={`https://www.youtube-nocookie.com/embed/${u.media.youtubeId}`} title={u.media.caption || 'Video'} loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>{u.media.caption && <figcaption>{u.media.caption}</figcaption>}</figure>
+            )}
           </div>
         ))}
       </div>
@@ -82,7 +89,6 @@ const quiz = study.quiz ?? [];
   <!-- Step 3: the study (revealed after the pre-test) -->
   <div id="study-gate" class:list={[quiz.length > 0 ? 'gated' : '']} hidden={quiz.length > 0}>
     <p class="step-label">Step 3. Study the passage</p>
-    <div class="cascade-controls"><button id="toggle-all" type="button">Open all</button></div>
 
     <details class="cascade">
       <summary><span class="cascade-title">Context</span><span class="chev" aria-hidden="true"></span></summary>
@@ -216,6 +222,9 @@ const quiz = study.quiz ?? [];
       <details class="cascade">
         <summary><span class="cascade-title">The one story</span><span class="chev" aria-hidden="true"></span></summary>
         <div class="cascade-body">
+          {smedia.oneStory && smedia.oneStory.kind === 'youtube' && (
+            <figure class="media"><div class="video"><iframe src={`https://www.youtube-nocookie.com/embed/${smedia.oneStory.youtubeId}`} title={smedia.oneStory.caption || 'Video'} loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>{smedia.oneStory.caption && <figcaption>{smedia.oneStory.caption}</figcaption>}</figure>
+          )}
           {basic.oneStory && <p class="level-basic">{basic.oneStory}</p>}
           {s.oneStory && (<><button class="go-deeper" type="button">Go deeper</button><div class="level-advanced" hidden><p>{s.oneStory}</p></div></>)}
         </div>
@@ -421,13 +430,14 @@ const quiz = study.quiz ?? [];
 
   // Open all / close all (panels inside the study)
   const btn = document.getElementById('toggle-all');
-  function panels() { return Array.from(document.querySelectorAll('#study-gate details.cascade')); }
+  function panels() { return Array.from(document.querySelectorAll('details.cascade')); }
   function refresh() {
     if (!btn) return;
     const anyClosed = panels().some((p) => !p.open);
     btn.textContent = anyClosed ? 'Open all' : 'Close all';
   }
   if (btn) {
+    btn.hidden = false;
     btn.addEventListener('click', () => {
       const anyClosed = panels().some((p) => !p.open);
       panels().forEach((p) => { p.open = anyClosed; });
