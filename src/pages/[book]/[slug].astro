@@ -33,139 +33,246 @@ const herm = s.hermeneutics ?? {};
     <div class="rationale"><strong>Structure</strong>{sec.frameNote}</div>
   )}
 
-  <!-- Scripture text -->
-  <div class="scripture">
-    {units.map((u) => (
-      <div class="unit">
-        {u.label && <div class="unit-label">{u.label}{u.note && <span class="unit-note"> &nbsp; {u.note}</span>}</div>}
-        <p>{u.verses?.map((v) => <VerseText verse={v} lexicon={lex} />)}</p>
+  <!-- Floating open all / close all -->
+  <div class="cascade-controls"><button id="toggle-all" type="button">Open all</button></div>
+
+  <!-- The passage -->
+  <details class="cascade">
+    <summary><span class="cascade-title">The passage</span><span class="cascade-ref">{sec.passageRef}</span><span class="chev" aria-hidden="true"></span></summary>
+    <div class="cascade-body">
+      <div class="scripture">
+        {units.map((u) => (
+          <div class="unit">
+            {u.label && <div class="unit-label">{u.label}{u.note && <span class="unit-note"> &nbsp; {u.note}</span>}</div>}
+            <p>{u.verses?.map((v) => <VerseText verse={v} lexicon={lex} />)}</p>
+          </div>
+        ))}
       </div>
-    ))}
-  </div>
+    </div>
+  </details>
 
   <!-- 1. Context -->
-  <section class="study-section">
-    <h2>Context</h2>
-    {ctx.literary && (<><h3>Literary</h3><p>{ctx.literary}</p></>)}
-    {ctx.historical && (<><h3>Historical</h3><p>{ctx.historical}</p></>)}
-    {ctx.canonical && (<><h3>Canonical</h3><p>{ctx.canonical}</p></>)}
-  </section>
+  <details class="cascade">
+    <summary><span class="cascade-title">Context</span><span class="chev" aria-hidden="true"></span></summary>
+    <div class="cascade-body">
+      {ctx.literary && (<><h3>Literary</h3><p>{ctx.literary}</p></>)}
+      {ctx.historical && (<><h3>Historical</h3><p>{ctx.historical}</p></>)}
+      {ctx.canonical && (<><h3>Canonical</h3><p>{ctx.canonical}</p></>)}
+    </div>
+  </details>
 
   <!-- 2. Hermeneutics -->
-  <section class="study-section">
-    <h2>Reading it rightly</h2>
-    {herm.authorIntent && (<><h3>Author's intent</h3><p>{herm.authorIntent}</p></>)}
-    {herm.descriptionVsPrescription && (<><h3>Description and prescription</h3><p>{herm.descriptionVsPrescription}</p></>)}
-    {(herm.debates ?? []).length > 0 && <h3>Debates</h3>}
-    {(herm.debates ?? []).map((d) => (
-      <div class="debate">
-        <p class="q">{d.question}</p>
-        <ul class="pairlist">
-          {(d.views ?? []).map((v) => (<li><span class="k">{v.label}:</span> {v.case}</li>))}
-        </ul>
-        {d.bearing && <p><em>{d.bearing}</em></p>}
-      </div>
-    ))}
-  </section>
+  <details class="cascade">
+    <summary><span class="cascade-title">Reading it rightly</span><span class="chev" aria-hidden="true"></span></summary>
+    <div class="cascade-body">
+      {herm.authorIntent && (<><h3>Author's intent</h3><p>{herm.authorIntent}</p></>)}
+      {herm.descriptionVsPrescription && (<><h3>Description and prescription</h3><p>{herm.descriptionVsPrescription}</p></>)}
+      {(herm.debates ?? []).length > 0 && <h3>Debates</h3>}
+      {(herm.debates ?? []).map((d) => (
+        <div class="debate">
+          <p class="q">{d.question}</p>
+          <ul class="pairlist">
+            {(d.views ?? []).map((v) => (<li><span class="k">{v.label}:</span> {v.case}</li>))}
+          </ul>
+          {d.bearing && <p><em>{d.bearing}</em></p>}
+        </div>
+      ))}
+    </div>
+  </details>
 
-  <!-- 3. Original languages -->
-  {s.originalLanguages && (
-    <section class="study-section">
-      <h2>The original languages</h2>
-      <p>{s.originalLanguages}</p>
-    </section>
+  <!-- 3. Original languages + word study -->
+  {(s.originalLanguages || Object.keys(lex).length > 0) && (
+    <details class="cascade">
+      <summary><span class="cascade-title">The original languages</span><span class="chev" aria-hidden="true"></span></summary>
+      <div class="cascade-body">
+        {s.originalLanguages && <p>{s.originalLanguages}</p>}
+        {Object.keys(lex).length > 0 && (
+          <dl class="glossary">
+            {Object.values(lex).map((e) => (
+              <div>
+                <dt>{e.lemma} {e.original && <span class="orig">{e.original}</span>} <span class="lang">({e.language})</span></dt>
+                <dd>{e.gloss}</dd>
+              </div>
+            ))}
+          </dl>
+        )}
+      </div>
+    </details>
   )}
 
   <!-- 4. Typology -->
   {(s.typology ?? []).length > 0 && (
-    <section class="study-section">
-      <h2>Types and shadows</h2>
-      <ul class="pairlist">
-        {s.typology.map((t) => (<li><span class="k">{t.type}:</span> {t.fulfillment}</li>))}
-      </ul>
-    </section>
+    <details class="cascade">
+      <summary><span class="cascade-title">Types and shadows</span><span class="chev" aria-hidden="true"></span></summary>
+      <div class="cascade-body">
+        <ul class="pairlist">
+          {s.typology.map((t) => (<li><span class="k">{t.type}:</span> {t.fulfillment}</li>))}
+        </ul>
+      </div>
+    </details>
   )}
 
   <!-- 5. Christ -->
   {s.christ && (
-    <section class="study-section">
-      <h2>Christ as the point</h2>
-      <p>{s.christ}</p>
-    </section>
+    <details class="cascade">
+      <summary><span class="cascade-title">Christ as the point</span><span class="chev" aria-hidden="true"></span></summary>
+      <div class="cascade-body"><p>{s.christ}</p></div>
+    </details>
   )}
 
   <!-- 6. God -->
   {s.god && (
-    <section class="study-section">
-      <h2>What we learn about God</h2>
-      <p>{s.god}</p>
-    </section>
+    <details class="cascade">
+      <summary><span class="cascade-title">What we learn about God</span><span class="chev" aria-hidden="true"></span></summary>
+      <div class="cascade-body"><p>{s.god}</p></div>
+    </details>
   )}
 
   <!-- 7. Cross references -->
   {(s.crossReferences ?? []).length > 0 && (
-    <section class="study-section">
-      <h2>Cross references</h2>
-      <ul class="pairlist">
-        {s.crossReferences.map((c) => (<li><span class="k">{c.ref}:</span> {c.note}</li>))}
-      </ul>
-    </section>
+    <details class="cascade">
+      <summary><span class="cascade-title">Cross references</span><span class="chev" aria-hidden="true"></span></summary>
+      <div class="cascade-body">
+        <ul class="pairlist">
+          {s.crossReferences.map((c) => (<li><span class="k">{c.ref}:</span> {c.note}</li>))}
+        </ul>
+      </div>
+    </details>
   )}
 
   <!-- 8. The one story -->
   {s.oneStory && (
-    <section class="study-section">
-      <h2>The one story</h2>
-      <p>{s.oneStory}</p>
-    </section>
-  )}
-
-  <!-- Lexicon glossary -->
-  {Object.keys(lex).length > 0 && (
-    <section class="study-section">
-      <h2>Word study</h2>
-      <dl class="glossary">
-        {Object.values(lex).map((e) => (
-          <div>
-            <dt>{e.lemma} {e.original && <span class="orig">{e.original}</span>} <span class="lang">({e.language})</span></dt>
-            <dd>{e.gloss}</dd>
-          </div>
-        ))}
-      </dl>
-    </section>
-  )}
-
-  <!-- 9. Sermon -->
-  {s.sermon && s.sermon.status === 'verified' && (
-    <section class="study-section">
-      <h2>Listen further</h2>
-      <div class="sermon">
-        <p><strong>{s.sermon.preacher}</strong>: {s.sermon.title}</p>
-        {s.sermon.url && <p><a href={s.sermon.url}>Open the sermon</a></p>}
-        {s.sermon.why && <p>{s.sermon.why}</p>}
-      </div>
-    </section>
+    <details class="cascade">
+      <summary><span class="cascade-title">The one story</span><span class="chev" aria-hidden="true"></span></summary>
+      <div class="cascade-body"><p>{s.oneStory}</p></div>
+    </details>
   )}
 
   <!-- Translation notes -->
   {(study.translationNotes ?? []).length > 0 && (
-    <section class="study-section">
-      <h2>Translation notes</h2>
-      <ul class="pairlist">
-        {study.translationNotes.map((n) => (<li><span class="k">{n.ref}:</span> {n.note}</li>))}
-      </ul>
-    </section>
+    <details class="cascade">
+      <summary><span class="cascade-title">Translation notes</span><span class="chev" aria-hidden="true"></span></summary>
+      <div class="cascade-body">
+        <ul class="pairlist">
+          {study.translationNotes.map((n) => (<li><span class="k">{n.ref}:</span> {n.note}</li>))}
+        </ul>
+      </div>
+    </details>
+  )}
+
+  <!-- Sermon (only if verified) -->
+  {s.sermon && s.sermon.status === 'verified' && (
+    <details class="cascade">
+      <summary><span class="cascade-title">Listen further</span><span class="chev" aria-hidden="true"></span></summary>
+      <div class="cascade-body">
+        <div class="sermon">
+          <p><strong>{s.sermon.preacher}</strong>: {s.sermon.title}</p>
+          {s.sermon.url && <p><a href={s.sermon.url}>Open the sermon</a></p>}
+          {s.sermon.why && <p>{s.sermon.why}</p>}
+        </div>
+      </div>
+    </details>
+  )}
+
+  <!-- Test your understanding (weighted quiz) -->
+  {(study.quiz ?? []).length > 0 && (
+    <details class="cascade">
+      <summary><span class="cascade-title">Test your understanding</span><span class="chev" aria-hidden="true"></span></summary>
+      <div class="cascade-body">
+        <p class="quiz-intro">Choose the best answer for each. Answers are weighted by how close they are to what the passage teaches, so partial understanding still counts.</p>
+        <div class="quiz">
+          {study.quiz.map((item, qi) => (
+            <div class="quiz-q" data-answered="0">
+              <p class="quiz-question">{qi + 1}. {item.q}</p>
+              <div class="quiz-options">
+                {(item.options ?? []).map((o) => (
+                  <button class="quiz-opt" type="button" data-weight={o.weight} data-note={o.note}>
+                    <span class="opt-text">{o.text}</span>
+                    <span class="opt-badge" aria-hidden="true"></span>
+                  </button>
+                ))}
+              </div>
+              <p class="quiz-feedback" hidden></p>
+            </div>
+          ))}
+        </div>
+        <p class="quiz-score" hidden>Your score so far: <span class="quiz-score-val">0</span>% <span class="quiz-score-meta"></span></p>
+      </div>
+    </details>
   )}
 
   <!-- Questions for reflection -->
   {(study.questions ?? []).length > 0 && (
-    <section class="study-section reflect-section">
-      <h2>Questions for reflection</h2>
-      <ol class="reflect">
-        {study.questions.map((q) => (<li>{q}</li>))}
-      </ol>
-    </section>
+    <details class="cascade reflect-section">
+      <summary><span class="cascade-title">Questions for reflection</span><span class="chev" aria-hidden="true"></span></summary>
+      <div class="cascade-body">
+        <ol class="reflect">
+          {study.questions.map((q) => (<li>{q}</li>))}
+        </ol>
+      </div>
+    </details>
   )}
 
   <a class="backlink" href="/">Back to all books</a>
 </Base>
+
+<script>
+  // Open all / close all
+  const btn = document.getElementById('toggle-all');
+  const panels = Array.from(document.querySelectorAll('details.cascade'));
+  function refresh() {
+    if (!btn) return;
+    const anyClosed = panels.some((p) => !p.open);
+    btn.textContent = anyClosed ? 'Open all' : 'Close all';
+  }
+  if (btn) {
+    btn.addEventListener('click', () => {
+      const anyClosed = panels.some((p) => !p.open);
+      panels.forEach((p) => { p.open = anyClosed; });
+      refresh();
+    });
+    panels.forEach((p) => p.addEventListener('toggle', refresh));
+    refresh();
+  }
+
+  // Shuffle quiz option order so the fullest answer is not always first.
+  document.querySelectorAll('.quiz-options').forEach((group) => {
+    const btns = Array.from(group.children);
+    btns.sort(() => Math.random() - 0.5).forEach((b) => group.appendChild(b));
+  });
+
+  // Weighted quiz scoring
+  const quiz = document.querySelector('.quiz');
+  if (quiz) {
+    const total = quiz.querySelectorAll('.quiz-q').length;
+    let answered = 0;
+    let sum = 0;
+    quiz.addEventListener('click', (e) => {
+      const opt = e.target.closest('.quiz-opt');
+      if (!opt) return;
+      const q = opt.closest('.quiz-q');
+      if (!q || q.dataset.answered === '1') return;
+      q.dataset.answered = '1';
+      const weight = Number(opt.dataset.weight);
+      sum += weight;
+      answered += 1;
+      q.querySelectorAll('.quiz-opt').forEach((o) => {
+        const w = Number(o.dataset.weight);
+        o.classList.add('locked', 'w' + w);
+        const badge = o.querySelector('.opt-badge');
+        if (badge) badge.textContent = w + '%';
+      });
+      opt.classList.add('chosen');
+      const fb = q.querySelector('.quiz-feedback');
+      if (fb) { fb.textContent = weight + '%: ' + (opt.dataset.note || ''); fb.hidden = false; }
+      const scoreEl = document.querySelector('.quiz-score');
+      const val = document.querySelector('.quiz-score-val');
+      const meta = document.querySelector('.quiz-score-meta');
+      if (scoreEl && val) {
+        scoreEl.hidden = false;
+        val.textContent = Math.round(sum / answered);
+        if (meta) meta.textContent = '(' + answered + ' of ' + total + ' answered)';
+      }
+    });
+  }
+</script>
