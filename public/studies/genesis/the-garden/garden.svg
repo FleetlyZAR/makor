@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-label="The garden of Eden with a central tree and four rivers">
+  <rect width="800" height="400" fill="#F6F3EC"/>
+  <path d="M0 300 Q200 250 400 300 T800 300 V400 H0 Z" fill="#0E2A2E"/>
+  <g stroke="#0F6C6C" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.85">
+    <path d="M400 300 C 300 330, 180 340, 60 380"/>
+    <path d="M400 300 C 500 330, 620 340, 740 380"/>
+    <path d="M400 300 C 360 340, 320 360, 300 396"/>
+    <path d="M400 300 C 440 340, 480 360, 500 396"/>
+  </g>
+  <rect x="392" y="150" width="16" height="150" fill="#0E2A2E"/>
+  <circle cx="400" cy="140" r="70" fill="#0F6C6C"/>
+  <circle cx="400" cy="140" r="14" fill="#B8862F"/>
+</svg>
