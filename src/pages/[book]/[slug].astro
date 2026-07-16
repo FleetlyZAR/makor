@@ -71,7 +71,7 @@ const smedia = s.media ?? {};
             <p class="quiz-question">{qi + 1}. {item.q}</p>
             <div class="quiz-options">
               {(item.options ?? []).map((o) => (
-                <button class="quiz-opt" type="button" data-weight={o.weight} data-note={o.note}>
+                <button class="quiz-opt" type="button" data-weight={o.weight} data-note={o.note}><span class="opt-letter" aria-hidden="true"></span>
                   <span class="opt-text">{o.text}</span>
                   <span class="opt-badge" aria-hidden="true"></span>
                 </button>
@@ -253,7 +253,7 @@ const smedia = s.media ?? {};
               <p class="quiz-question">{qi + 1}. {item.q}</p>
               <div class="quiz-options">
                 {(item.options ?? []).map((o) => (
-                  <button class="quiz-opt" type="button" data-weight={o.weight} data-note={o.note}>
+                  <button class="quiz-opt" type="button" data-weight={o.weight} data-note={o.note}><span class="opt-letter" aria-hidden="true"></span>
                     <span class="opt-text">{o.text}</span>
                     <span class="opt-badge" aria-hidden="true"></span>
                   </button>
@@ -313,8 +313,10 @@ const smedia = s.media ?? {};
 <script>
   function initQuiz(root, onComplete, reveal) {
     if (!root) return;
+    const letters = ['A', 'B', 'C', 'D', 'E', 'F'];
     root.querySelectorAll('.quiz-options').forEach((group) => {
       Array.from(group.children).sort(() => Math.random() - 0.5).forEach((b) => group.appendChild(b));
+      Array.from(group.children).forEach((b, i) => { const l = b.querySelector('.opt-letter'); if (l) l.textContent = letters[i] || ''; });
     });
     const total = root.querySelectorAll('.quiz-q').length;
     let answered = 0;

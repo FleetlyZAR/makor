@@ -123,7 +123,7 @@ const { title = 'Makor', description = 'Deep, Christ-centred study of every book
         const strip = document.getElementById('progress-strip');
         if (!strip) return;
         const { data: u } = await client.auth.getUser();
-        if (!u || !u.user) { strip.hidden = true; strip.innerHTML = ''; return; }
+        if (!u || !u.user) { strip.innerHTML = '<span class="ps-item ps-invite">Sign in to keep your progress. It is free, and always will be.</span>'; strip.hidden = false; return; }
         const rows = await window.makorAllAttempts();
         const totalMeta = document.querySelector('meta[name="makor:total-studies"]');
         const total = totalMeta ? Number(totalMeta.content) : 0;
