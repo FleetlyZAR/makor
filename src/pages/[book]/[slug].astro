@@ -384,10 +384,13 @@ const smedia = s.media ?? {};
   const pre = document.getElementById('pretest');
   const gate = document.getElementById('study-gate');
   const openBtn = document.getElementById('open-study');
-  initQuiz(pre, (avg) => {
+  initQuiz(pre, async (avg) => {
     preScore = avg;
     if (openBtn) openBtn.hidden = false;
-    if (window.makorSaveAttempt) window.makorSaveAttempt({ slug: meta.slug, book: meta.book, title: meta.title, phase: 'pre', score: avg });
+    if (window.makorSaveAttempt) {
+      await window.makorSaveAttempt({ slug: meta.slug, book: meta.book, title: meta.title, phase: 'pre', score: avg });
+      if (window.makorRefreshProgress) window.makorRefreshProgress();
+    }
   }, false);
   if (openBtn && gate) {
     openBtn.addEventListener('click', () => {
@@ -421,12 +424,36 @@ const smedia = s.media ?? {};
       } else {
         if (saveNote) saveNote.textContent = 'Saved to your account.';
         renderHistory();
+        if (window.makorRefreshProgress) window.makorRefreshProgress();
       }
     }
   }, true);
 
-  window.addEventListener('makor-auth', () => { renderHistory(); });
+  let gateInit = false;
+  async function initGate() {
+    if (gateInit || !window.makorAllAttempts || !meta.slug) return;
+    const rows = await window.makorAllAttempts();
+    const mine = rows.filter((r) => r.study_slug === meta.slug);
+    if (mine.some((r) => r.phase === 'pre')) {
+      gateInit = true;
+      if (gate) gate.hidden = false;
+      const preSec = document.getElementById('pretest');
+      if (preSec) {
+        const q = preSec.querySelector('.quiz'); if (q) q.remove();
+        const sc = preSec.querySelector('.quiz-score'); if (sc) sc.remove();
+        const ob = document.getElementById('open-study'); if (ob) ob.remove();
+        const lastPre = [...mine].reverse().find((r) => r.phase === 'pre');
+        preScore = lastPre ? lastPre.score : preScore;
+        const note = document.createElement('p');
+        note.className = 'assess-done';
+        note.textContent = 'You have answered the first questions already' + (lastPre ? ' (first score ' + lastPre.score + '%)' : '') + '. The study is open below.';
+        preSec.appendChild(note);
+      }
+    }
+  }
+  window.addEventListener('makor-auth', () => { renderHistory(); initGate(); });
   renderHistory();
+  initGate();
 
   // Open all / close all (panels inside the study)
   const btn = document.getElementById('toggle-all');

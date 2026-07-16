@@ -1,5 +1,7 @@
 ---
 import '../styles/global.css';
+import { getAllStudies } from '../lib/studies.js';
+const totalStudies = getAllStudies().length;
 const { title = 'Makor', description = 'Deep, Christ-centred study of every book of the Bible.' } = Astro.props;
 ---
 <!doctype html>
@@ -10,6 +12,7 @@ const { title = 'Makor', description = 'Deep, Christ-centred study of every book
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
     <link rel="icon" href="/favicon.svg" />
+    <meta name="makor:total-studies" content={String(totalStudies)} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet" />
@@ -32,6 +35,7 @@ const { title = 'Makor', description = 'Deep, Christ-centred study of every book
           <div class="auth" id="auth-area"></div>
         </div>
       </div>
+      <div class="progress-strip" id="progress-strip" hidden></div>
     </header>
     <main class="wrap">
       <slot />
@@ -107,13 +111,48 @@ const { title = 'Makor', description = 'Deep, Christ-centred study of every book
         return data || [];
       };
 
+      window.makorAllAttempts = async () => {
+        const { data: u } = await client.auth.getUser();
+        if (!u || !u.user) return [];
+        const { data } = await client.from('attempts')
+          .select('study_slug,phase,score,created_at')
+          .order('created_at', { ascending: true });
+        return data || [];
+      };
+      window.makorRefreshProgress = async () => {
+        const strip = document.getElementById('progress-strip');
+        if (!strip) return;
+        const { data: u } = await client.auth.getUser();
+        if (!u || !u.user) { strip.hidden = true; strip.innerHTML = ''; return; }
+        const rows = await window.makorAllAttempts();
+        const totalMeta = document.querySelector('meta[name="makor:total-studies"]');
+        const total = totalMeta ? Number(totalMeta.content) : 0;
+        const completed = new Set(rows.filter((r) => r.phase === 'post').map((r) => r.study_slug));
+        const pct = total ? Math.round((completed.size / total) * 100) : 0;
+        let cur = '';
+        const metaEl = document.getElementById('study-meta');
+        if (metaEl) {
+          const slug = metaEl.dataset.slug;
+          const mine = rows.filter((r) => r.study_slug === slug);
+          const lastPre = [...mine].reverse().find((r) => r.phase === 'pre');
+          const lastPost = [...mine].reverse().find((r) => r.phase === 'post');
+          if (lastPre || lastPost) {
+            cur = '<span class="ps-item">This study: ' + (lastPre ? 'first ' + lastPre.score + '%' : '') + (lastPre && lastPost ? ', ' : '') + (lastPost ? 'after ' + lastPost.score + '%' : '') + '</span>';
+          }
+        }
+        strip.innerHTML = cur + '<span class="ps-item">Progress: ' + completed.size + ' of ' + total + ' studies <span class="ps-bar"><span style="width:' + pct + '%"></span></span> ' + pct + '%</span>';
+        strip.hidden = false;
+      };
+
       const { data: { session } } = await client.auth.getSession();
       render(session ? session.user : null);
       window.makorUser = session ? session.user : null;
+      window.makorRefreshProgress();
       window.dispatchEvent(new CustomEvent('makor-auth', { detail: { user: window.makorUser } }));
       client.auth.onAuthStateChange((_e, sess) => {
         window.makorUser = sess ? sess.user : null;
         render(window.makorUser);
+        window.makorRefreshProgress();
         window.dispatchEvent(new CustomEvent('makor-auth', { detail: { user: window.makorUser } }));
       });
     </script>
