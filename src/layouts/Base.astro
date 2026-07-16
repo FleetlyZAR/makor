@@ -32,7 +32,10 @@ const { title = 'Makor', description = 'Deep, Christ-centred study of every book
         <div class="header-right">
           <span class="descriptor">Deep, Christ-centred study of every book of the Bible.</span>
           <button id="toggle-all" class="header-toggle" type="button" hidden>Open all</button>
-          <div class="auth" id="auth-area"></div>
+          <div class="menu-wrap">
+            <button id="menu-btn" class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+            <nav id="menu" class="menu" hidden></nav>
+          </div>
         </div>
       </div>
       <div class="progress-strip" id="progress-strip" hidden></div>
@@ -65,33 +68,43 @@ const { title = 'Makor', description = 'Deep, Christ-centred study of every book
       const client = createClient(SUPABASE_URL, SUPABASE_KEY);
       window.makorClient = client;
 
-      const authArea = document.getElementById('auth-area');
+      const menuEl = document.getElementById('menu');
+      const menuBtn = document.getElementById('menu-btn');
       function render(user) {
-        if (!authArea) return;
-        authArea.innerHTML = '';
+        if (!menuEl) return;
+        menuEl.innerHTML = '';
+        const home = document.createElement('a'); home.className = 'menu-item'; home.href = '/'; home.textContent = 'Home'; menuEl.appendChild(home);
+        const rank = document.createElement('a'); rank.className = 'menu-item'; rank.href = '/rankings/'; rank.textContent = 'Global rankings'; menuEl.appendChild(rank);
         if (user) {
           const name = (user.user_metadata && (user.user_metadata.full_name || user.user_metadata.name)) || user.email || 'Signed in';
-          const span = document.createElement('span');
-          span.className = 'auth-name';
-          span.textContent = name;
-          const out = document.createElement('button');
-          out.className = 'auth-btn';
-          out.type = 'button';
-          out.textContent = 'Sign out';
+          const who = document.createElement('div'); who.className = 'menu-user'; who.textContent = 'Signed in as ' + name; menuEl.appendChild(who);
+          const out = document.createElement('button'); out.className = 'menu-item menu-action'; out.type = 'button'; out.textContent = 'Sign out';
           out.addEventListener('click', async () => { await client.auth.signOut(); location.reload(); });
-          authArea.appendChild(span);
-          authArea.appendChild(out);
+          menuEl.appendChild(out);
         } else {
-          const inb = document.createElement('button');
-          inb.className = 'auth-btn';
-          inb.type = 'button';
-          inb.textContent = 'Sign in with Google';
-          inb.addEventListener('click', async () => {
-            await client.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: window.location.href } });
-          });
-          authArea.appendChild(inb);
+          const inb = document.createElement('button'); inb.className = 'menu-item menu-action'; inb.type = 'button'; inb.textContent = 'Sign in with Google';
+          inb.addEventListener('click', async () => { await client.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: window.location.href } }); });
+          menuEl.appendChild(inb);
         }
       }
+      if (menuBtn && menuEl) {
+        menuBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const closed = menuEl.hasAttribute('hidden');
+          if (closed) { menuEl.removeAttribute('hidden'); menuBtn.setAttribute('aria-expanded', 'true'); }
+          else { menuEl.setAttribute('hidden', ''); menuBtn.setAttribute('aria-expanded', 'false'); }
+        });
+        document.addEventListener('click', (e) => {
+          if (menuEl.hasAttribute('hidden')) return;
+          if (menuEl.contains(e.target) || menuBtn.contains(e.target)) return;
+          menuEl.setAttribute('hidden', ''); menuBtn.setAttribute('aria-expanded', 'false');
+        });
+      }
+      window.makorLeaderboard = async () => {
+        const { data, error } = await client.rpc('leaderboard');
+        if (error) return [];
+        return data || [];
+      };
 
       window.makorSaveAttempt = async (row) => {
         const { data } = await client.auth.getUser();
