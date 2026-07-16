@@ -26,7 +26,10 @@ const { title = 'Makor', description = 'Deep, Christ-centred study of every book
           </svg>
           <span class="wordmark-text">Makor</span>
         </a>
-        <span class="descriptor">Deep, Christ-centred study of every book of the Bible.</span>
+        <div class="header-right">
+          <span class="descriptor">Deep, Christ-centred study of every book of the Bible.</span>
+          <div class="auth" id="auth-area"></div>
+        </div>
       </div>
     </header>
     <main class="wrap">
@@ -47,6 +50,70 @@ const { title = 'Makor', description = 'Deep, Christ-centred study of every book
         const open = pop.hasAttribute('hidden');
         if (open) { pop.removeAttribute('hidden'); btn.setAttribute('aria-expanded', 'true'); }
         else { pop.setAttribute('hidden', ''); btn.setAttribute('aria-expanded', 'false'); }
+      });
+    </script>
+
+    <script is:inline type="module">
+      import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
+      const SUPABASE_URL = 'https://oztgjzncxgobcszcwibp.supabase.co';
+      const SUPABASE_KEY = 'sb_publishable_Fw_szIELBE9uFJwvsRygbA_HAibhMmh';
+      const client = createClient(SUPABASE_URL, SUPABASE_KEY);
+      window.makorClient = client;
+
+      const authArea = document.getElementById('auth-area');
+      function render(user) {
+        if (!authArea) return;
+        authArea.innerHTML = '';
+        if (user) {
+          const name = (user.user_metadata && (user.user_metadata.full_name || user.user_metadata.name)) || user.email || 'Signed in';
+          const span = document.createElement('span');
+          span.className = 'auth-name';
+          span.textContent = name;
+          const out = document.createElement('button');
+          out.className = 'auth-btn';
+          out.type = 'button';
+          out.textContent = 'Sign out';
+          out.addEventListener('click', async () => { await client.auth.signOut(); location.reload(); });
+          authArea.appendChild(span);
+          authArea.appendChild(out);
+        } else {
+          const inb = document.createElement('button');
+          inb.className = 'auth-btn';
+          inb.type = 'button';
+          inb.textContent = 'Sign in with Google';
+          inb.addEventListener('click', async () => {
+            await client.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: window.location.href } });
+          });
+          authArea.appendChild(inb);
+        }
+      }
+
+      window.makorSaveAttempt = async (row) => {
+        const { data } = await client.auth.getUser();
+        if (!data || !data.user) return { skipped: true };
+        return client.from('attempts').insert({
+          study_slug: row.slug, book: row.book, title: row.title,
+          phase: row.phase, score: row.score, answers: row.answers || null,
+        });
+      };
+      window.makorGetHistory = async (slug) => {
+        const { data: u } = await client.auth.getUser();
+        if (!u || !u.user) return [];
+        const { data } = await client.from('attempts')
+          .select('phase,score,created_at')
+          .eq('study_slug', slug)
+          .order('created_at', { ascending: true });
+        return data || [];
+      };
+
+      const { data: { session } } = await client.auth.getSession();
+      render(session ? session.user : null);
+      window.makorUser = session ? session.user : null;
+      window.dispatchEvent(new CustomEvent('makor-auth', { detail: { user: window.makorUser } }));
+      client.auth.onAuthStateChange((_e, sess) => {
+        window.makorUser = sess ? sess.user : null;
+        render(window.makorUser);
+        window.dispatchEvent(new CustomEvent('makor-auth', { detail: { user: window.makorUser } }));
       });
     </script>
   </body>

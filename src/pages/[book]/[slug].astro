@@ -35,6 +35,8 @@ const quiz = study.quiz ?? [];
     <div class="rationale"><strong>Structure</strong>{sec.frameNote}</div>
   )}
 
+  <div id="study-meta" data-slug={sec.slug} data-book={study.book} data-title={sec.title} hidden></div>
+
   <!-- Step 1: read the passage -->
   <p class="step-label">Step 1. Read the passage</p>
   <details class="cascade" open>
@@ -261,6 +263,12 @@ const quiz = study.quiz ?? [];
       <p class="compare-head">What changed today</p>
       <p class="compare-line">Before the study: <span id="pre-out">0</span>%. After the study: <span id="post-out">0</span>%.</p>
       <p class="compare-msg" id="compare-msg"></p>
+      <p class="compare-save" id="compare-save"></p>
+    </div>
+
+    <div class="history" id="history" hidden>
+      <p class="history-head">Your history for this study</p>
+      <ul class="history-list" id="history-list"></ul>
     </div>
 
     <!-- Questions for reflection -->
@@ -340,12 +348,37 @@ const quiz = study.quiz ?? [];
 
   let preScore = null;
 
+  const metaEl = document.getElementById('study-meta');
+  const meta = metaEl ? { slug: metaEl.dataset.slug, book: metaEl.dataset.book, title: metaEl.dataset.title } : {};
+
+  function fmtDate(iso) {
+    try { return new Date(iso).toLocaleDateString(undefined, { day: 'numeric', month: 'short', year: 'numeric' }); }
+    catch (e) { return iso; }
+  }
+  async function renderHistory() {
+    if (!window.makorGetHistory || !meta.slug) return;
+    const rows = await window.makorGetHistory(meta.slug);
+    const wrap = document.getElementById('history');
+    const list = document.getElementById('history-list');
+    if (!wrap || !list) return;
+    const posts = rows.filter((r) => r.phase === 'post');
+    if (posts.length === 0) { wrap.hidden = true; return; }
+    list.innerHTML = '';
+    posts.forEach((r) => {
+      const li = document.createElement('li');
+      li.textContent = fmtDate(r.created_at) + ': ' + r.score + '%';
+      list.appendChild(li);
+    });
+    wrap.hidden = false;
+  }
+
   const pre = document.getElementById('pretest');
   const gate = document.getElementById('study-gate');
   const openBtn = document.getElementById('open-study');
   initQuiz(pre, (avg) => {
     preScore = avg;
     if (openBtn) openBtn.hidden = false;
+    if (window.makorSaveAttempt) window.makorSaveAttempt({ slug: meta.slug, book: meta.book, title: meta.title, phase: 'pre', score: avg });
   }, false);
   if (openBtn && gate) {
     openBtn.addEventListener('click', () => {
@@ -357,7 +390,7 @@ const quiz = study.quiz ?? [];
   }
 
   const post = document.getElementById('posttest');
-  initQuiz(post, (avg) => {
+  initQuiz(post, async (avg) => {
     const cmp = document.getElementById('compare');
     const preOut = document.getElementById('pre-out');
     const postOut = document.getElementById('post-out');
@@ -371,7 +404,20 @@ const quiz = study.quiz ?? [];
       else msg.textContent = 'Scores can dip when questions make us think harder. Return to the passage and the study.';
     }
     if (cmp) { cmp.hidden = false; cmp.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
+    const saveNote = document.getElementById('compare-save');
+    if (window.makorSaveAttempt) {
+      const res = await window.makorSaveAttempt({ slug: meta.slug, book: meta.book, title: meta.title, phase: 'post', score: avg });
+      if (res && res.skipped) {
+        if (saveNote) saveNote.textContent = 'Sign in with Google, at the top of the page, to save this and track your growth over time.';
+      } else {
+        if (saveNote) saveNote.textContent = 'Saved to your account.';
+        renderHistory();
+      }
+    }
   }, true);
+
+  window.addEventListener('makor-auth', () => { renderHistory(); });
+  renderHistory();
 
   // Open all / close all (panels inside the study)
   const btn = document.getElementById('toggle-all');

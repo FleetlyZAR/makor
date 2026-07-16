@@ -166,3 +166,16 @@ details.cascade[open] > summary { border-bottom: 1px solid var(--line); }
 .compare-line { font-size: 1.05rem; margin: 0.2rem 0; }
 .compare-line span { color: var(--water); font-weight: 700; }
 .compare-msg { color: var(--ink); margin: 0.4rem 0 0; font-style: italic; }
+
+/* Accounts and history */
+.header-right { display: flex; align-items: center; gap: 1rem; }
+.auth { display: flex; align-items: center; gap: 0.5rem; }
+.auth-name { font-size: 0.85rem; color: var(--ink); font-weight: 600; }
+.auth-btn { font-family: var(--sans); font-size: 0.8rem; font-weight: 700; color: #fff; background: var(--water); border: none; border-radius: 999px; padding: 0.4rem 0.9rem; cursor: pointer; }
+.auth-btn:hover { background: var(--water-deep); }
+.compare-save { margin: 0.5rem 0 0; font-size: 0.9rem; color: var(--water-deep); font-weight: 700; }
+.history { margin: 1.1rem 0; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 1rem 1.25rem; }
+.history-head { font-family: var(--serif); font-weight: 600; font-size: 1.15rem; margin: 0 0 0.4rem; color: var(--ink); }
+.history-list { margin: 0; padding-left: 1.2rem; }
+.history-list li { margin: 0.3rem 0; font-family: var(--serif); }
+@media (max-width: 640px) { .descriptor { display: none; } }
