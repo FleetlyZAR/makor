@@ -20,6 +20,14 @@ const ctx = s.context ?? {};
 const herm = s.hermeneutics ?? {};
 const quiz = study.quiz ?? [];
 const smedia = s.media ?? {};
+
+const siblings = getAllStudies()
+  .filter((x) => x.book === study.book)
+  .sort((a, b) => (a.section?.order ?? 0) - (b.section?.order ?? 0));
+const idx = siblings.findIndex((x) => x.section?.slug === sec.slug);
+const prev = idx > 0 ? siblings[idx - 1] : null;
+const next = idx >= 0 && idx < siblings.length - 1 ? siblings[idx + 1] : null;
+const bslug = bookSlug(study.book);
 ---
 <Base title={`${sec.title} | Makor`} description={sec.thesis}>
   <section class="hero">
@@ -307,7 +315,15 @@ const smedia = s.media ?? {};
     )}
   </div>
 
-  <a class="backlink" href="/">Back to all books</a>
+  <nav class="study-nav">
+    {prev
+      ? <a class="nav-prev" href={`/${bslug}/${prev.section.slug}/`}><span class="nav-dir">Previous study</span><span class="nav-title">{prev.section.title}</span></a>
+      : <span class="nav-prev nav-empty"></span>}
+    <a class="nav-home" href="/">Back to all books</a>
+    {next
+      ? <a class="nav-next" href={`/${bslug}/${next.section.slug}/`}><span class="nav-dir">Next study</span><span class="nav-title">{next.section.title}</span></a>
+      : <span class="nav-next nav-empty"></span>}
+  </nav>
 </Base>
 
 <script>
