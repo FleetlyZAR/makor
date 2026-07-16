@@ -1,7 +1,23 @@
 ---
 import Base from '../layouts/Base.astro';
-import { getBooks } from '../lib/studies.js';
-const books = getBooks();
+import { getAllStudies, bookSlug } from '../lib/studies.js';
+import { books, plans } from '../data/plan.js';
+
+const studies = getAllStudies();
+const availableByBook = {};
+for (const s of studies) {
+  (availableByBook[s.book] ||= new Set()).add(s.section.slug);
+}
+function movementsFor(bookName) {
+  if (plans[bookName]) return plans[bookName];
+  return studies
+    .filter((s) => s.book === bookName)
+    .map((s) => ({ order: s.section.order, ref: s.section.passageRef, title: s.section.title, slug: s.section.slug }));
+}
+const testaments = [
+  { key: 'Old', label: 'Old Testament' },
+  { key: 'New', label: 'New Testament' },
+];
 ---
 <Base title="Makor | Back to the source" description="Deep, Christ-centred study of every book of the Bible.">
   <section class="hero">
@@ -11,21 +27,46 @@ const books = getBooks();
     <p class="motif">In Your light we see light. Psalm 36:9</p>
   </section>
 
-  {books.length === 0 && (
-    <p>No studies yet. Add a JSON file under <code>src/content/studies</code> and it will appear here.</p>
-  )}
-
-  {books.map((b) => (
-    <section class="index-book">
-      <h2>{b.book}</h2>
-      <ul class="study-list">
-        {b.studies.map((s) => (
-          <li>
-            <a href={`/${b.slug}/${s.section.slug}/`}>{s.section.title}</a>
-            <span class="ref"> &nbsp; {s.section.passageRef}</span>
-          </li>
-        ))}
-      </ul>
+  {testaments.map((t) => (
+    <section class="testament">
+      <h2 class="testament-head">{t.label}</h2>
+      {books.filter((b) => b.testament === t.key).map((b) => {
+        const movements = movementsFor(b.name);
+        const avail = availableByBook[b.name] || new Set();
+        const ready = movements.filter((m) => avail.has(m.slug)).length;
+        const slug = bookSlug(b.name);
+        const isGenesis = b.name === 'Genesis';
+        return (
+          <details class="book" open={isGenesis}>
+            <summary>
+              <span class="book-name">{b.name}</span>
+              <span class="book-count">{movements.length ? ready + ' of ' + movements.length : 'soon'}</span>
+              <span class="chev" aria-hidden="true"></span>
+            </summary>
+            <div class="book-body">
+              {movements.length === 0 && <p class="soon-note">Studies for this book are coming soon.</p>}
+              {movements.length > 0 && (
+                <ol class="movement-list">
+                  {movements.map((m) => (
+                    avail.has(m.slug) ? (
+                      <li class="ready">
+                        <a href={`/${slug}/${m.slug}/`}>{m.title}</a>
+                        <span class="ref">{m.ref}</span>
+                      </li>
+                    ) : (
+                      <li class="soon">
+                        <span class="soon-title">{m.title}</span>
+                        <span class="ref">{m.ref}</span>
+                        <span class="soon-tag">soon</span>
+                      </li>
+                    )
+                  ))}
+                </ol>
+              )}
+            </div>
+          </details>
+        );
+      })}
     </section>
   ))}
 </Base>
