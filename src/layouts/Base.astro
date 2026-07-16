@@ -1,0 +1,42 @@
+---
+import '../styles/global.css';
+const { title = 'Makor', description = '' } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+    <link rel="icon" href="/favicon.svg" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="wordmark" href="/">Ma<span>k</span>or</a>
+        <span class="tagline">Scripture, studied under the lordship of Christ</span>
+      </div>
+    </header>
+    <main class="wrap">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>Makor. Scripture text: Berean Standard Bible (BSB), public domain.</p>
+      </div>
+    </footer>
+    <script>
+      // Tap a highlighted word to open or close its lexicon note.
+      document.addEventListener('click', (e) => {
+        const btn = e.target.closest('.lex');
+        if (!btn) return;
+        const pop = btn.nextElementSibling;
+        if (!pop || !pop.classList.contains('lex-pop')) return;
+        const open = pop.hasAttribute('hidden');
+        if (open) { pop.removeAttribute('hidden'); btn.setAttribute('aria-expanded', 'true'); }
+        else { pop.setAttribute('hidden', ''); btn.setAttribute('aria-expanded', 'false'); }
+      });
+    </script>
+  </body>
+</html>

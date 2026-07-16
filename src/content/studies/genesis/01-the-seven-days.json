@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "1.0",
+  "book": "Genesis",
+  "section": {
+    "order": 1,
+    "slug": "the-seven-days",
+    "title": "The Seven Days",
+    "passageRef": "Genesis 1:1-2:3",
+    "sectionRationale": "The creation prologue is the opening movement before the first toledot heading at Genesis 2:4, so 1:1 to 2:3 is one deliberate unit sealed by the seventh day rest.",
+    "thesis": "Before the drama of a fallen world begins, God speaks a formless void into an ordered, good, and habitable home; this is act one of the whole story.",
+    "frameNote": "Two panels. Days one to three form the realms, light, sky and sea, land. Days four to six fill them. The seventh day stands apart as the goal."
+  },
+  "text": {
+    "spine": "BSB",
+    "units": [
+      {
+        "label": "Day One",
+        "note": "forms: light",
+        "emphasis": "",
+        "verses": [
+          { "chapter": 1, "n": 1, "text": "In the {{beginning|beginning}} {{elohim|God}} {{bara|created}} the heavens and the earth." },
+          { "chapter": 1, "n": 2, "text": "Now the earth was formless and void, and darkness was over the surface of the deep. And the Spirit of God was {{hover|hovering}} over the surface of the waters." },
+          { "chapter": 1, "n": 3, "text": "And God said, “Let there be {{light|light}},” and there was light." }
+        ]
+      },
+      {
+        "label": "Day Seven",
+        "note": "",
+        "emphasis": "sabbath",
+        "verses": [
+          { "chapter": 2, "n": 2, "text": "And by the seventh day God had finished the work He had been doing; so on that day He {{rest|rested}} from all His work." },
+          { "chapter": 2, "n": 3, "text": "Then God blessed the seventh day and sanctified it, because on that day He rested from all the work of creation that He had accomplished." }
+        ]
+      }
+    ]
+  },
+  "lexicon": {
+    "beginning": { "language": "Hebrew", "lemma": "reshith", "original": "ראשית", "gloss": "The first, the head of a thing. The whole book unfolds what this one word opens: there was a start, and God stood before it." },
+    "elohim": { "language": "Hebrew", "lemma": "Elohim", "original": "אלהים", "gloss": "A plural form joined to a singular verb. It signals majesty and fullness, and many hear a first quiet hint of the plurality later revealed as Father, Son, and Spirit." },
+    "bara": { "language": "Hebrew", "lemma": "bara", "original": "ברא", "gloss": "To create. In the Hebrew Bible this verb takes only God as its subject; whatever creating is happening here, it is a work no creature can do." },
+    "hover": { "language": "Hebrew", "lemma": "rachaph", "original": "רחף", "gloss": "To hover or flutter, the same verb used of an eagle over its young in Deuteronomy 32:11. The Spirit is attentively near the formless deep, poised to bring life." },
+    "light": { "language": "Hebrew", "lemma": "or", "original": "אור", "gloss": "Light, made on day one, before the sun on day four. The point is theological before astronomical: light comes from God. Paul later reads this as a picture of the new birth." },
+    "rest": { "language": "Hebrew", "lemma": "shabath", "original": "שבת", "gloss": "To cease, to rest, not from exhaustion but the settled rest of a finished good work. It gives us Sabbath and points forward to the rest that remains for God's people." }
+  },
+  "study": {
+    "context": {
+      "literary": "The prologue to Genesis and to the Torah, opening the first of the book's toledot units. The genre is exalted Hebrew narrative with poetic cadence, not myth and not a science manual.",
+      "historical": "Traditionally Moses, writing to Israel newly out of Egypt among Egyptian and Mesopotamian creation myths. Read against that backdrop it is polemic: sun, moon, sea, and man are not gods but creatures of the one God.",
+      "canonical": "The Bible's first page, establishing creation as the act on which fall, redemption, and new creation all depend."
+    },
+    "hermeneutics": {
+      "authorIntent": "To reveal God as the sole sovereign Creator who orders chaos into a cosmos fit to be His dwelling. The text signals its own structure of forming, filling, and rest.",
+      "descriptionVsPrescription": "The narrative describes God's acts. The prescriptive threads are the Sabbath pattern, later grounded in Exodus 20:11, and the mandate to image bearers.",
+      "debates": [
+        { "question": "What are the days?", "views": [ { "label": "Twenty four hour", "case": "The plain sequence of evening and morning." }, { "label": "Framework", "case": "The forming and filling pattern is literary, not a timetable." }, { "label": "Day age or analogical", "case": "Yom carries a longer or analogical span." } ], "bearing": "None of these touches the main claim, that God authored everything that is." }
+      ]
+    },
+    "originalLanguages": "The load bearing words move as a set: bara marks a divine only act, Elohim holds majesty, the Spirit rachaph hovers with life, and God names what He makes, which in the Ancient Near East is an act of dominion.",
+    "typology": [
+      { "type": "The seventh day rest", "fulfillment": "A type of the greater rest that remains for God's people in Hebrews 4." },
+      { "type": "Eden as the first dwelling of God with man", "fulfillment": "Prefigures tabernacle, temple, and the new creation." },
+      { "type": "Adam the image bearer given dominion", "fulfillment": "A pattern of the true Man to come, Romans 5:14." }
+    ],
+    "christ": "John opens by echoing this text, in the beginning was the Word, all things made through Him, John 1:1-3. Paul calls the Son the image of the invisible God in whom all things were created, Colossians 1:15-16, and applies day one to conversion, the God who said let light shine out of darkness has shone in our hearts, 2 Corinthians 4:6.",
+    "god": "Sovereign and powerful, creating by word alone. Good, and calling His work good. Orderly, personal, and generous. Transcendent over creation yet immanent within it. A God who works and then rests, dignifying both.",
+    "crossReferences": [
+      { "ref": "John 1:1-5", "note": "Deliberately reruns Genesis 1:1 with the Word as agent of creation." },
+      { "ref": "2 Corinthians 4:6", "note": "Paul quotes day one to describe the new birth." },
+      { "ref": "Exodus 20:11", "note": "The Sabbath command is grounded in the seventh day." },
+      { "ref": "Revelation 21-22", "note": "The motifs of light, image, and rest reach their resolution in the new creation." }
+    ],
+    "oneStory": "This is creation, the first act. The good world fractures in chapter three, but the same Creator calls Israel, comes as Christ, and makes a new heavens and new earth where the seventh day rest becomes unending. The very good about to be lost is what the whole Bible strains to see restored.",
+    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "No link verified in this session. Candidates worth verifying for this passage include Edmund Clowney, D.A. Carson, or Sinclair Ferguson on Genesis 1." }
+  },
+  "translationNotes": [
+    { "ref": "Genesis 1:1", "note": "Some translations render an initial dependent clause, when God began to create, rather than in the beginning God created. The difference bears on whether verse 1 is the first act or a summary title." }
+  ],
+  "meta": { "textToVerify": [], "notes": "" }
+}

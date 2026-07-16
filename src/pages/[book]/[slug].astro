@@ -1,0 +1,161 @@
+---
+import Base from '../../layouts/Base.astro';
+import VerseText from '../../components/VerseText.astro';
+import { getAllStudies, bookSlug } from '../../lib/studies.js';
+
+export function getStaticPaths() {
+  return getAllStudies().map((study) => ({
+    params: { book: bookSlug(study.book), slug: study.section.slug },
+    props: { study },
+  }));
+}
+
+const { study } = Astro.props;
+const sec = study.section ?? {};
+const s = study.study ?? {};
+const lex = study.lexicon ?? {};
+const units = study.text?.units ?? [];
+const ctx = s.context ?? {};
+const herm = s.hermeneutics ?? {};
+---
+<Base title={`${sec.title} | Makor`} description={sec.thesis}>
+  <section class="hero">
+    <p class="eyebrow">{study.book}</p>
+    <h1>{sec.title}</h1>
+    <p class="ref">{sec.passageRef}</p>
+    {sec.thesis && <p class="thesis">{sec.thesis}</p>}
+  </section>
+
+  {sec.sectionRationale && (
+    <div class="rationale"><strong>Why this section</strong>{sec.sectionRationale}</div>
+  )}
+  {sec.frameNote && (
+    <div class="rationale"><strong>Structure</strong>{sec.frameNote}</div>
+  )}
+
+  <!-- Scripture text -->
+  <div class="scripture">
+    {units.map((u) => (
+      <div class="unit">
+        {u.label && <div class="unit-label">{u.label}{u.note && <span class="unit-note"> &nbsp; {u.note}</span>}</div>}
+        <p>{u.verses?.map((v) => <VerseText verse={v} lexicon={lex} />)}</p>
+      </div>
+    ))}
+  </div>
+
+  <!-- 1. Context -->
+  <section class="study-section">
+    <h2>Context</h2>
+    {ctx.literary && (<><h3>Literary</h3><p>{ctx.literary}</p></>)}
+    {ctx.historical && (<><h3>Historical</h3><p>{ctx.historical}</p></>)}
+    {ctx.canonical && (<><h3>Canonical</h3><p>{ctx.canonical}</p></>)}
+  </section>
+
+  <!-- 2. Hermeneutics -->
+  <section class="study-section">
+    <h2>Reading it rightly</h2>
+    {herm.authorIntent && (<><h3>Author's intent</h3><p>{herm.authorIntent}</p></>)}
+    {herm.descriptionVsPrescription && (<><h3>Description and prescription</h3><p>{herm.descriptionVsPrescription}</p></>)}
+    {(herm.debates ?? []).length > 0 && <h3>Debates</h3>}
+    {(herm.debates ?? []).map((d) => (
+      <div class="debate">
+        <p class="q">{d.question}</p>
+        <ul class="pairlist">
+          {(d.views ?? []).map((v) => (<li><span class="k">{v.label}:</span> {v.case}</li>))}
+        </ul>
+        {d.bearing && <p><em>{d.bearing}</em></p>}
+      </div>
+    ))}
+  </section>
+
+  <!-- 3. Original languages -->
+  {s.originalLanguages && (
+    <section class="study-section">
+      <h2>The original languages</h2>
+      <p>{s.originalLanguages}</p>
+    </section>
+  )}
+
+  <!-- 4. Typology -->
+  {(s.typology ?? []).length > 0 && (
+    <section class="study-section">
+      <h2>Types and shadows</h2>
+      <ul class="pairlist">
+        {s.typology.map((t) => (<li><span class="k">{t.type}:</span> {t.fulfillment}</li>))}
+      </ul>
+    </section>
+  )}
+
+  <!-- 5. Christ -->
+  {s.christ && (
+    <section class="study-section">
+      <h2>Christ as the point</h2>
+      <p>{s.christ}</p>
+    </section>
+  )}
+
+  <!-- 6. God -->
+  {s.god && (
+    <section class="study-section">
+      <h2>What we learn about God</h2>
+      <p>{s.god}</p>
+    </section>
+  )}
+
+  <!-- 7. Cross references -->
+  {(s.crossReferences ?? []).length > 0 && (
+    <section class="study-section">
+      <h2>Cross references</h2>
+      <ul class="pairlist">
+        {s.crossReferences.map((c) => (<li><span class="k">{c.ref}:</span> {c.note}</li>))}
+      </ul>
+    </section>
+  )}
+
+  <!-- 8. The one story -->
+  {s.oneStory && (
+    <section class="study-section">
+      <h2>The one story</h2>
+      <p>{s.oneStory}</p>
+    </section>
+  )}
+
+  <!-- Lexicon glossary -->
+  {Object.keys(lex).length > 0 && (
+    <section class="study-section">
+      <h2>Word study</h2>
+      <dl class="glossary">
+        {Object.values(lex).map((e) => (
+          <div>
+            <dt>{e.lemma} {e.original && <span class="orig">{e.original}</span>} <span class="lang">({e.language})</span></dt>
+            <dd>{e.gloss}</dd>
+          </div>
+        ))}
+      </dl>
+    </section>
+  )}
+
+  <!-- 9. Sermon -->
+  {s.sermon && s.sermon.status === 'verified' && (
+    <section class="study-section">
+      <h2>Listen further</h2>
+      <div class="sermon">
+        <p><strong>{s.sermon.preacher}</strong>: {s.sermon.title}</p>
+        {s.sermon.url && <p><a href={s.sermon.url}>Open the sermon</a></p>}
+        {s.sermon.why && <p>{s.sermon.why}</p>}
+      </div>
+    </section>
+  )}
+
+  <!-- Translation notes -->
+  {(study.translationNotes ?? []).length > 0 && (
+    <section class="study-section">
+      <h2>Translation notes</h2>
+      <ul class="pairlist">
+        {study.translationNotes.map((n) => (<li><span class="k">{n.ref}:</span> {n.note}</li>))}
+      </ul>
+    </section>
+  )}
+
+  <a class="backlink" href="/">Back to all books</a>
+</Base>

@@ -1,0 +1,30 @@
+---
+import Base from '../layouts/Base.astro';
+import { getBooks } from '../lib/studies.js';
+const books = getBooks();
+---
+<Base title="Makor | Scripture study under the lordship of Christ" description="A growing, Christ-centred study of Scripture, book by book.">
+  <section class="hero">
+    <p class="eyebrow">Makor</p>
+    <h1>A study of Scripture, book by book.</h1>
+    <p class="thesis">Every study is an act of discipleship: context, the original languages, and how the whole of it points to Christ.</p>
+  </section>
+
+  {books.length === 0 && (
+    <p>No studies yet. Add a JSON file under <code>src/content/studies</code> and it will appear here.</p>
+  )}
+
+  {books.map((b) => (
+    <section class="index-book">
+      <h2>{b.book}</h2>
+      <ul class="study-list">
+        {b.studies.map((s) => (
+          <li>
+            <a href={`/${b.slug}/${s.section.slug}/`}>{s.section.title}</a>
+            <span class="ref"> &nbsp; {s.section.passageRef}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</Base>

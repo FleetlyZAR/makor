@@ -1,0 +1,24 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getBooks } from '../../lib/studies.js';
+
+export function getStaticPaths() {
+  return getBooks().map((b) => ({ params: { book: b.slug }, props: { book: b } }));
+}
+const { book } = Astro.props;
+---
+<Base title={`${book.book} | Makor`}>
+  <section class="hero">
+    <p class="eyebrow">Book</p>
+    <h1>{book.book}</h1>
+  </section>
+  <ul class="study-list">
+    {book.studies.map((s) => (
+      <li>
+        <a href={`/${book.slug}/${s.section.slug}/`}>{s.section.title}</a>
+        <span class="ref"> &nbsp; {s.section.passageRef}</span>
+      </li>
+    ))}
+  </ul>
+  <a class="backlink" href="/">Back to all books</a>
+</Base>
