@@ -1,0 +1,124 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="My progress | Makor" description="How you are growing in the Word.">
+  <section class="hero">
+    <p class="eyebrow">Your growth</p>
+    <h1>Growing in the Word</h1>
+    <p class="lead">How the studies are deepening your understanding: your score before each study, your score after, and how both are rising over time.</p>
+  </section>
+
+  <p id="prog-status" class="rank-status">Loading your progress...</p>
+
+  <div id="prog-wrap" hidden>
+    <div class="stat-row">
+      <div class="stat"><div class="stat-num" id="stat-count">0</div><div class="stat-label">studies completed</div></div>
+      <div class="stat"><div class="stat-num" id="stat-lift">0</div><div class="stat-label">average lift, after minus before</div></div>
+      <div class="stat"><div class="stat-num" id="stat-best">0%</div><div class="stat-label">best after score</div></div>
+    </div>
+
+    <div class="growth">
+      <h2>Understanding over time</h2>
+      <p class="growth-note" id="growth-note"></p>
+      <div id="chart"></div>
+      <div class="legend"><span class="dot dot-pre"></span> Before study <span class="dot dot-post"></span> After study</div>
+    </div>
+
+    <h2 class="prog-h2">Study by study</h2>
+    <table class="rank-table">
+      <thead><tr><th>Study</th><th>Before</th><th>After</th><th>Lift</th></tr></thead>
+      <tbody id="prog-body"></tbody>
+    </table>
+  </div>
+
+  <a class="backlink" href="/">Back to all books</a>
+</Base>
+
+<script>
+  function trendWord(series) {
+    if (series.length < 2) return 'steady so far';
+    const first = series[0];
+    const last = series[series.length - 1];
+    if (last > first + 2) return 'rising';
+    if (last < first - 2) return 'dipping a little';
+    return 'holding steady';
+  }
+  function linePath(scores, color) {
+    if (scores.length === 0) return '';
+    const w = 320, h = 90, pad = 8;
+    const n = scores.length;
+    const x = (i) => (n === 1 ? w / 2 : pad + (i * (w - 2 * pad)) / (n - 1));
+    const y = (v) => h - pad - (v / 100) * (h - 2 * pad);
+    let d = '';
+    scores.forEach((v, i) => { d += (i === 0 ? 'M' : 'L') + x(i).toFixed(1) + ' ' + y(v).toFixed(1) + ' '; });
+    let dots = '';
+    scores.forEach((v, i) => { dots += '<circle cx="' + x(i).toFixed(1) + '" cy="' + y(v).toFixed(1) + '" r="3" fill="' + color + '"/>'; });
+    return '<path d="' + d + '" fill="none" stroke="' + color + '" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>' + dots;
+  }
+  async function loadProgress() {
+    const status = document.getElementById('prog-status');
+    const wrap = document.getElementById('prog-wrap');
+    if (!window.makorClient) return;
+    const { data: u } = await window.makorClient.auth.getUser();
+    if (!u || !u.user) {
+      if (status) { status.hidden = false; status.textContent = 'Open the menu at the top and sign in to see your growth.'; }
+      if (wrap) wrap.hidden = true;
+      return;
+    }
+    const rows = window.makorAllAttempts ? await window.makorAllAttempts() : [];
+    const pre = rows.filter((r) => r.phase === 'pre');
+    const post = rows.filter((r) => r.phase === 'post');
+    if (pre.length === 0 && post.length === 0) {
+      if (status) { status.hidden = false; status.textContent = 'Complete a study to begin tracking your growth.'; }
+      if (wrap) wrap.hidden = true;
+      return;
+    }
+    const byStudy = {};
+    rows.forEach((r) => { (byStudy[r.study_slug] = byStudy[r.study_slug] || {})[r.phase] = r; });
+    const studies = Object.keys(byStudy);
+    const completed = studies.filter((s) => byStudy[s].post);
+    const lifts = completed.filter((s) => byStudy[s].pre).map((s) => byStudy[s].post.score - byStudy[s].pre.score);
+    const avgLift = lifts.length ? Math.round(lifts.reduce((a, b) => a + b, 0) / lifts.length) : 0;
+    const bestPost = post.length ? Math.max.apply(null, post.map((r) => r.score)) : 0;
+    document.getElementById('stat-count').textContent = String(completed.length);
+    document.getElementById('stat-lift').textContent = (avgLift > 0 ? '+' : '') + avgLift;
+    document.getElementById('stat-best').textContent = bestPost + '%';
+
+    const preSeries = pre.map((r) => r.score);
+    const postSeries = post.map((r) => r.score);
+    document.getElementById('growth-note').textContent =
+      'Your before-study scores are ' + trendWord(preSeries) + ', and your after-study scores are ' + trendWord(postSeries) +
+      '. On average the study lifts your understanding by ' + (avgLift > 0 ? '+' : '') + avgLift + ' points.';
+
+    const chart = document.getElementById('chart');
+    chart.innerHTML =
+      '<svg viewBox="0 0 320 90" width="100%" style="max-width:520px" role="img" aria-label="Your before and after scores over time">' +
+      '<line x1="8" y1="82" x2="312" y2="82" stroke="#E4DDCC" stroke-width="1"/>' +
+      linePath(preSeries, '#B8862F') +
+      linePath(postSeries, '#0F6C6C') +
+      '</svg>';
+
+    const body = document.getElementById('prog-body');
+    body.innerHTML = '';
+    completed.forEach((s) => {
+      const rec = byStudy[s];
+      const title = (rec.post && rec.post.title) || (rec.pre && rec.pre.title) || s;
+      const before = rec.pre ? rec.pre.score + '%' : '-';
+      const after = rec.post ? rec.post.score + '%' : '-';
+      const lift = (rec.pre && rec.post) ? ((rec.post.score - rec.pre.score) >= 0 ? '+' : '') + (rec.post.score - rec.pre.score) : '-';
+      const tr = document.createElement('tr');
+      [title, before, after, lift].forEach((c, ci) => {
+        const td = document.createElement('td');
+        td.textContent = c;
+        if (ci === 0) td.className = 'rank-name';
+        tr.appendChild(td);
+      });
+      body.appendChild(tr);
+    });
+
+    if (status) status.hidden = true;
+    if (wrap) wrap.hidden = false;
+  }
+  window.addEventListener('makor-auth', loadProgress);
+  loadProgress();
+</script>

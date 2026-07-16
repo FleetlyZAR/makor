@@ -283,3 +283,17 @@ details.book[open] > summary .chev { transform: rotate(-135deg); }
 .rank-table td { padding: 0.6rem; border-bottom: 1px solid var(--line); }
 .rank-table td.rank-name { font-family: var(--serif); font-size: 1.05rem; color: var(--ink); }
 .rank-table th:nth-child(n+3), .rank-table td:nth-child(n+3) { text-align: right; }
+
+/* My progress page */
+.stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.75rem; margin: 1rem 0 1.5rem; }
+.stat { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 1rem; text-align: center; }
+.stat-num { font-family: var(--serif); font-size: 2rem; font-weight: 600; color: var(--water); line-height: 1.1; }
+.stat-label { font-size: 0.78rem; color: var(--muted); margin-top: 0.25rem; }
+.growth { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 1.1rem 1.25rem; margin: 0 0 1.5rem; }
+.growth h2 { font-size: 1.3rem; margin: 0 0 0.4rem; }
+.growth-note { color: var(--ink); margin: 0 0 0.75rem; }
+.legend { font-size: 0.8rem; color: var(--muted); margin-top: 0.5rem; }
+.dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; vertical-align: middle; margin: 0 0.25rem 0 0.75rem; }
+.dot-pre { background: #B8862F; }
+.dot-post { background: #0F6C6C; }
+.prog-h2 { font-size: 1.4rem; margin: 1.5rem 0 0.5rem; }

@@ -74,7 +74,7 @@ const { title = 'Makor', description = 'Deep, Christ-centred study of every book
         if (!menuEl) return;
         menuEl.innerHTML = '';
         const home = document.createElement('a'); home.className = 'menu-item'; home.href = '/'; home.textContent = 'Home'; menuEl.appendChild(home);
-        const rank = document.createElement('a'); rank.className = 'menu-item'; rank.href = '/rankings/'; rank.textContent = 'Global rankings'; menuEl.appendChild(rank);
+        const prog = document.createElement('a'); prog.className = 'menu-item'; prog.href = '/progress/'; prog.textContent = 'My progress'; menuEl.appendChild(prog);
         if (user) {
           const name = (user.user_metadata && (user.user_metadata.full_name || user.user_metadata.name)) || user.email || 'Signed in';
           const who = document.createElement('div'); who.className = 'menu-user'; who.textContent = 'Signed in as ' + name; menuEl.appendChild(who);
@@ -100,11 +100,6 @@ const { title = 'Makor', description = 'Deep, Christ-centred study of every book
           menuEl.setAttribute('hidden', ''); menuBtn.setAttribute('aria-expanded', 'false');
         });
       }
-      window.makorLeaderboard = async () => {
-        const { data, error } = await client.rpc('leaderboard');
-        if (error) return [];
-        return data || [];
-      };
 
       window.makorSaveAttempt = async (row) => {
         const { data } = await client.auth.getUser();
@@ -128,7 +123,7 @@ const { title = 'Makor', description = 'Deep, Christ-centred study of every book
         const { data: u } = await client.auth.getUser();
         if (!u || !u.user) return [];
         const { data } = await client.from('attempts')
-          .select('study_slug,phase,score,created_at')
+          .select('study_slug,phase,score,created_at,title')
           .order('created_at', { ascending: true });
         return data || [];
       };
