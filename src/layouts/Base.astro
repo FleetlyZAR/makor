@@ -75,6 +75,9 @@ const { title = 'Makor', description = 'Deep, Christ-centred study of every book
         menuEl.innerHTML = '';
         const home = document.createElement('a'); home.className = 'menu-item'; home.href = '/'; home.textContent = 'Home'; menuEl.appendChild(home);
         const prog = document.createElement('a'); prog.className = 'menu-item'; prog.href = '/progress/'; prog.textContent = 'My progress'; menuEl.appendChild(prog);
+        if (user && ['luyanda@fleetly.co.za'].indexOf(user.email) !== -1) {
+          const adm = document.createElement('a'); adm.className = 'menu-item'; adm.href = '/admin/'; adm.textContent = 'Admin dashboard'; menuEl.appendChild(adm);
+        }
         if (user) {
           const name = (user.user_metadata && (user.user_metadata.full_name || user.user_metadata.name)) || user.email || 'Signed in';
           const who = document.createElement('div'); who.className = 'menu-user'; who.textContent = 'Signed in as ' + name; menuEl.appendChild(who);
@@ -125,6 +128,11 @@ const { title = 'Makor', description = 'Deep, Christ-centred study of every book
         const { data } = await client.from('attempts')
           .select('study_slug,phase,score,created_at,title')
           .order('created_at', { ascending: true });
+        return data || [];
+      };
+      window.makorAdminOverview = async () => {
+        const { data, error } = await client.rpc('admin_overview');
+        if (error) return { error: true };
         return data || [];
       };
       window.makorRefreshProgress = async () => {

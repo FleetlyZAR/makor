@@ -297,3 +297,7 @@ details.book[open] > summary .chev { transform: rotate(-135deg); }
 .dot-pre { background: #B8862F; }
 .dot-post { background: #0F6C6C; }
 .prog-h2 { font-size: 1.4rem; margin: 1.5rem 0 0.5rem; }
+
+/* Admin dashboard: let the wide table scroll on small screens */
+#admin-wrap { overflow-x: auto; }
+#admin-wrap .rank-table { min-width: 680px; }

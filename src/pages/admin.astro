@@ -1,0 +1,91 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Admin | Makor" description="Makor administration.">
+  <section class="hero">
+    <p class="eyebrow">Admin</p>
+    <h1>Dashboard</h1>
+    <p class="lead">Everyone who has signed up, what they have completed, and how they are growing. Private to administrators.</p>
+  </section>
+
+  <p id="admin-status" class="rank-status">Loading...</p>
+
+  <div id="admin-wrap" hidden>
+    <div class="stat-row">
+      <div class="stat"><div class="stat-num" id="a-users">0</div><div class="stat-label">people signed up</div></div>
+      <div class="stat"><div class="stat-num" id="a-active">0</div><div class="stat-label">active in last 7 days</div></div>
+      <div class="stat"><div class="stat-num" id="a-studies">0</div><div class="stat-label">studies completed, all people</div></div>
+    </div>
+
+    <table class="rank-table">
+      <thead>
+        <tr><th>Name</th><th>Email</th><th>Joined</th><th>Studies</th><th>Before</th><th>After</th><th>Last active</th></tr>
+      </thead>
+      <tbody id="admin-body"></tbody>
+    </table>
+  </div>
+
+  <a class="backlink" href="/">Back to all books</a>
+</Base>
+
+<script>
+  const ADMIN_EMAILS = ['luyanda@fleetly.co.za'];
+  function fmt(iso) {
+    if (!iso) return '-';
+    try { return new Date(iso).toLocaleDateString(undefined, { day: 'numeric', month: 'short', year: 'numeric' }); }
+    catch (e) { return '-'; }
+  }
+  function daysAgo(iso) {
+    if (!iso) return Infinity;
+    return (Date.now() - new Date(iso).getTime()) / 86400000;
+  }
+  async function loadAdmin() {
+    const status = document.getElementById('admin-status');
+    const wrap = document.getElementById('admin-wrap');
+    if (!window.makorClient) return;
+    const { data: u } = await window.makorClient.auth.getUser();
+    if (!u || !u.user) {
+      if (status) { status.hidden = false; status.textContent = 'Open the menu at the top and sign in.'; }
+      if (wrap) wrap.hidden = true;
+      return;
+    }
+    if (ADMIN_EMAILS.indexOf(u.user.email) === -1) {
+      if (status) { status.hidden = false; status.textContent = 'This page is for administrators only.'; }
+      if (wrap) wrap.hidden = true;
+      return;
+    }
+    const rows = window.makorAdminOverview ? await window.makorAdminOverview() : [];
+    if (rows && rows.error) {
+      if (status) { status.hidden = false; status.textContent = 'Could not load the dashboard.'; }
+      return;
+    }
+    document.getElementById('a-users').textContent = String(rows.length);
+    document.getElementById('a-active').textContent = String(rows.filter((r) => daysAgo(r.last_active) <= 7).length);
+    document.getElementById('a-studies').textContent = String(rows.reduce((a, r) => a + (r.studies_done || 0), 0));
+    const body = document.getElementById('admin-body');
+    body.innerHTML = '';
+    rows.forEach((r) => {
+      const tr = document.createElement('tr');
+      const cells = [
+        r.name || '-',
+        r.email || '-',
+        fmt(r.joined),
+        String(r.studies_done || 0),
+        r.pre_avg == null ? '-' : r.pre_avg + '%',
+        r.post_avg == null ? '-' : r.post_avg + '%',
+        fmt(r.last_active),
+      ];
+      cells.forEach((c, ci) => {
+        const td = document.createElement('td');
+        td.textContent = c;
+        if (ci === 0) td.className = 'rank-name';
+        tr.appendChild(td);
+      });
+      body.appendChild(tr);
+    });
+    if (status) status.hidden = true;
+    if (wrap) wrap.hidden = false;
+  }
+  window.addEventListener('makor-auth', loadAdmin);
+  loadAdmin();
+</script>
