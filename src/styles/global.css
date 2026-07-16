@@ -145,3 +145,11 @@ details.cascade[open] > summary { border-bottom: 1px solid var(--line); }
 .cascade-controls { position: sticky; top: 0.6rem; z-index: 20; display: flex; justify-content: flex-end; margin: 0.75rem 0 0; pointer-events: none; }
 .cascade-controls button { pointer-events: auto; font-family: var(--sans); font-size: 0.85rem; font-weight: 700; color: #fff; background: var(--water); border: none; border-radius: 999px; padding: 0.5rem 1.05rem; cursor: pointer; box-shadow: 0 2px 8px rgba(14,42,46,0.18); }
 .cascade-controls button:hover { background: var(--water-deep); }
+
+/* Basic / Advanced depth per panel */
+.level-basic { font-size: 1.05rem; }
+.go-deeper { margin: 0.75rem 0 0; font-family: var(--sans); font-size: 0.8rem; font-weight: 700; letter-spacing: 0.03em; color: var(--water); background: none; border: 1px solid var(--water); border-radius: 999px; padding: 0.35rem 0.9rem; cursor: pointer; }
+.go-deeper:hover { background: var(--light-soft); }
+.level-advanced { margin-top: 0.85rem; padding-top: 0.85rem; border-top: 1px dashed var(--line); }
+.level-advanced[hidden] { display: none; }
+.level-advanced h3:first-child { margin-top: 0; }
