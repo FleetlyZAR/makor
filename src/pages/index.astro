@@ -3,11 +3,12 @@ import Base from '../layouts/Base.astro';
 import { getBooks } from '../lib/studies.js';
 const books = getBooks();
 ---
-<Base title="Makor | Scripture study under the lordship of Christ" description="A growing, Christ-centred study of Scripture, book by book.">
+<Base title="Makor | Back to the source" description="Deep, Christ-centred study of every book of the Bible.">
   <section class="hero">
     <p class="eyebrow">Makor</p>
-    <h1>A study of Scripture, book by book.</h1>
-    <p class="thesis">Every study is an act of discipleship: context, the original languages, and how the whole of it points to Christ.</p>
+    <h1>Back to the source.</h1>
+    <p class="lead">Deep, Christ-centred study of every book of the Bible.</p>
+    <p class="motif">In Your light we see light. Psalm 36:9</p>
   </section>
 
   {books.length === 0 && (

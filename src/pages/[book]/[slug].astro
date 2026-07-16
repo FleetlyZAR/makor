@@ -157,5 +157,15 @@ const herm = s.hermeneutics ?? {};
     </section>
   )}
 
+  <!-- Questions for reflection -->
+  {(study.questions ?? []).length > 0 && (
+    <section class="study-section reflect-section">
+      <h2>Questions for reflection</h2>
+      <ol class="reflect">
+        {study.questions.map((q) => (<li>{q}</li>))}
+      </ol>
+    </section>
+  )}
+
   <a class="backlink" href="/">Back to all books</a>
 </Base>
