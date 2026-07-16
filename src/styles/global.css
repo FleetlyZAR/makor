@@ -297,3 +297,10 @@ details.book[open] > summary .chev { transform: rotate(-135deg); }
 .dot-pre { background: #B8862F; }
 .dot-post { background: #0F6C6C; }
 .prog-h2 { font-size: 1.4rem; margin: 1.5rem 0 0.5rem; }
+
+/* Read-aloud control */
+.reader { position: fixed; right: 1rem; bottom: 1rem; z-index: 70; display: flex; gap: 0.4rem; }
+.reader[hidden] { display: none; }
+.reader-btn { font-family: var(--sans); font-size: 0.9rem; font-weight: 700; color: #fff; background: var(--water); border: none; border-radius: 999px; padding: 0.6rem 1.15rem; cursor: pointer; box-shadow: 0 3px 10px rgba(14,42,46,0.22); }
+.reader-btn:hover { background: var(--water-deep); }
+.reader-stop { background: var(--ink); }

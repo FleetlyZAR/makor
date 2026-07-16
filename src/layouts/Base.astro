@@ -49,6 +49,58 @@ const { title = 'Makor', description = 'Deep, Christ-centred study of every book
         <p>Makor. Every study an act of discipleship. Scripture text: Berean Standard Bible (BSB), public domain.</p>
       </div>
     </footer>
+
+    <div class="reader" id="reader" hidden>
+      <button id="reader-play" type="button" class="reader-btn">Listen</button>
+      <button id="reader-stop" type="button" class="reader-btn reader-stop" hidden>Stop</button>
+    </div>
+    <script>
+      (function () {
+        if (!('speechSynthesis' in window)) return;
+        if (!document.getElementById('study-meta')) return;
+        const reader = document.getElementById('reader');
+        const playBtn = document.getElementById('reader-play');
+        const stopBtn = document.getElementById('reader-stop');
+        if (!reader || !playBtn || !stopBtn) return;
+        reader.hidden = false;
+        let playing = false, paused = false, watcher = null;
+        function clean(t) { return (t || '').replace(/\s+/g, ' ').trim(); }
+        function collect() {
+          const chunks = [];
+          const push = (t) => { t = clean(t); if (t) chunks.push(t); };
+          const h1 = document.querySelector('main h1'); if (h1) push(h1.textContent);
+          const thesis = document.querySelector('main .thesis'); if (thesis) push(thesis.textContent);
+          push('The passage.');
+          document.querySelectorAll('.scripture .unit').forEach((u) => {
+            const label = u.querySelector('.unit-label'); if (label) push(label.textContent);
+            const p = u.querySelector('p'); if (p) push(p.textContent);
+          });
+          document.querySelectorAll('#study-gate > details.cascade').forEach((d) => {
+            if (d.querySelector('.quiz')) return;
+            const title = d.querySelector('.cascade-title');
+            const reflect = d.querySelectorAll('.reflect li');
+            if (reflect.length) { if (title) push(title.textContent); reflect.forEach((li) => push(li.textContent)); return; }
+            const basic = d.querySelector('.level-basic');
+            if (basic) { if (title) push(title.textContent); push(basic.textContent); }
+          });
+          return chunks;
+        }
+        function reset() { playing = false; paused = false; playBtn.textContent = 'Listen'; stopBtn.hidden = true; if (watcher) { clearInterval(watcher); watcher = null; } }
+        function speak() {
+          const chunks = collect();
+          window.speechSynthesis.cancel();
+          chunks.forEach((t) => { const u = new SpeechSynthesisUtterance(t); u.rate = 0.97; window.speechSynthesis.speak(u); });
+          watcher = setInterval(() => { if (!window.speechSynthesis.speaking && !window.speechSynthesis.pending) reset(); }, 700);
+        }
+        playBtn.addEventListener('click', () => {
+          if (!playing) { playing = true; paused = false; playBtn.textContent = 'Pause'; stopBtn.hidden = false; speak(); }
+          else if (!paused) { window.speechSynthesis.pause(); paused = true; playBtn.textContent = 'Resume'; }
+          else { window.speechSynthesis.resume(); paused = false; playBtn.textContent = 'Pause'; }
+        });
+        stopBtn.addEventListener('click', () => { window.speechSynthesis.cancel(); reset(); });
+        window.addEventListener('beforeunload', () => window.speechSynthesis.cancel());
+      })();
+    </script>
     <script>
       document.addEventListener('click', (e) => {
         const btn = e.target.closest('.lex');
