@@ -301,3 +301,17 @@ details.book[open] > summary .chev { transform: rotate(-135deg); }
 /* Admin dashboard: let the wide table scroll on small screens */
 #admin-wrap { overflow-x: auto; }
 #admin-wrap .rank-table { min-width: 680px; }
+
+/* Home: intro info cascades (blue), all closed by default */
+:root { --info: #1e5aa8; --info-soft: #eef4fb; }
+.info-group { margin: 1.75rem 0 0.5rem; }
+details.info { border: 1px solid var(--line); border-left: 4px solid var(--info); border-radius: 10px; background: var(--surface); margin: 0.5rem 0; overflow: hidden; }
+details.info > summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 0.75rem; padding: 0.9rem 1.1rem; }
+details.info > summary::-webkit-details-marker { display: none; }
+.info-title { flex: 1; font-family: var(--serif); font-size: 1.2rem; font-weight: 600; color: var(--info); }
+details.info > summary:hover { background: var(--info-soft); }
+details.info[open] > summary { border-bottom: 1px solid var(--line); }
+details.info .chev { border-right: 2px solid var(--info); border-bottom: 2px solid var(--info); }
+details.info[open] > summary .chev { transform: rotate(-135deg); }
+.info-body { padding: 0.4rem 1.1rem 1.1rem; }
+.info-body p { margin: 0.3rem 0; color: var(--ink); }
