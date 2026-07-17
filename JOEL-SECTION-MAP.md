@@ -10,11 +10,11 @@ we generate them one at a time. Status: done means the JSON exists in
 
 | Order | Passage | Title | Slug | Status |
 |------|---------|-------|------|--------|
-| 01 | Joel 1:1-20 | The Locust Plague | the-locust-plague | planned |
-| 02 | Joel 2:1-11 | The Army and the Day of the LORD | the-army-and-the-day-of-the-lord | planned |
-| 03 | Joel 2:12-17 | Return to the LORD | return-to-the-lord | planned |
-| 04 | Joel 2:18-27 | The LORD's Answer and Restoration | the-lords-answer-and-restoration | planned |
-| 05 | Joel 2:28-32 | The Outpouring of the Spirit | the-outpouring-of-the-spirit | planned |
-| 06 | Joel 3:1-21 | The Nations Judged and Judah Blessed | the-nations-judged-and-judah-blessed | planned |
+| 01 | Joel 1:1-20 | The Locust Plague | the-locust-plague | done |
+| 02 | Joel 2:1-11 | The Army and the Day of the LORD | the-army-and-the-day-of-the-lord | done |
+| 03 | Joel 2:12-17 | Return to the LORD | return-to-the-lord | done |
+| 04 | Joel 2:18-27 | The LORD's Answer and Restoration | the-lords-answer-and-restoration | done |
+| 05 | Joel 2:28-32 | The Outpouring of the Spirit | the-outpouring-of-the-spirit | done |
+| 06 | Joel 3:1-21 | The Nations Judged and Judah Blessed | the-nations-judged-and-judah-blessed | done |
 
 Six movements in all. Boundaries can be adjusted as we go; two studies never share an order.
