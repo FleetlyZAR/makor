@@ -30,6 +30,7 @@ const { title = 'Makor', description = 'Deep, Christ-centred study of every book
           <span class="wordmark-text">Makor</span>
         </a>
         <div class="header-right">
+          <button id="header-min" class="header-min" type="button" aria-label="Minimize header" aria-expanded="true" title="Minimize"><span class="hm-chev" aria-hidden="true"></span></button>
           <span class="descriptor">Deep, Christ-centred study of every book of the Bible.</span>
           <button id="toggle-all" class="header-toggle" type="button" hidden>Open all</button>
           <div class="menu-wrap">
@@ -245,6 +246,25 @@ const { title = 'Makor', description = 'Deep, Christ-centred study of every book
         input.addEventListener('focus', () => { load(); if (input.value.trim()) run(); });
         input.addEventListener('keydown', (e) => { if (e.key === 'Escape') { input.value = ''; results.hidden = true; results.innerHTML = ''; input.blur(); } });
         document.addEventListener('click', (e) => { if (results.hidden) return; if (results.contains(e.target) || e.target === input) return; results.hidden = true; });
+      })();
+
+      // Minimize / restore the sticky header chrome (search, progress, sign-in) for distraction-free reading.
+      (function initHeaderMin() {
+        const header = document.querySelector('.site-header');
+        const btn = document.getElementById('header-min');
+        if (!header || !btn) return;
+        function apply(min) {
+          header.classList.toggle('header-collapsed', min);
+          document.body.classList.toggle('header-collapsed', min);
+          btn.setAttribute('aria-expanded', String(!min));
+          btn.setAttribute('aria-label', min ? 'Show header' : 'Minimize header');
+          btn.setAttribute('title', min ? 'Show' : 'Minimize');
+          try { localStorage.setItem('makor_header_min', min ? '1' : '0'); } catch (e) {}
+        }
+        let min = false;
+        try { min = localStorage.getItem('makor_header_min') === '1'; } catch (e) {}
+        apply(min);
+        btn.addEventListener('click', () => apply(!header.classList.contains('header-collapsed')));
       })();
 
       const { data: { session } } = await client.auth.getSession();

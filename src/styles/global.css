@@ -362,3 +362,13 @@ details.info[open] > summary .chev { transform: rotate(-135deg); }
 .resume-progress { display: flex; align-items: center; gap: 0.6rem; font-family: var(--sans); font-size: 0.8rem; color: var(--muted); }
 .resume-bartrack { display: inline-block; width: 140px; height: 7px; background: var(--line); border-radius: 999px; overflow: hidden; }
 .resume-bartrack > span { display: block; height: 100%; background: var(--water); }
+
+/* Minimize / restore the sticky header chrome */
+.header-min { display: inline-flex; align-items: center; justify-content: center; width: 34px; height: 34px; background: none; border: 1px solid var(--line); border-radius: 8px; cursor: pointer; flex: none; }
+.header-min:hover { background: var(--light-soft); }
+.hm-chev { display: inline-block; width: 0.5rem; height: 0.5rem; border-right: 2px solid var(--water); border-bottom: 2px solid var(--water); transform: rotate(-135deg); position: relative; top: 2px; transition: transform 0.2s ease; }
+.site-header.header-collapsed .hm-chev { transform: rotate(45deg); top: -2px; }
+.site-header.header-collapsed .search-wrap,
+.site-header.header-collapsed .progress-strip,
+.site-header.header-collapsed .signin-bar { display: none; }
+body.header-collapsed .cascade-controls { display: none; }
