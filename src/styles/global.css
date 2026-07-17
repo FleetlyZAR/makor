@@ -318,3 +318,47 @@ details.info .chev { border-right: 2px solid var(--gold-bright); border-bottom: 
 details.info[open] > summary .chev { transform: rotate(-135deg); }
 .info-body { padding: 0.9rem 1.1rem 1.1rem; background: var(--surface); }
 .info-body p { margin: 0.3rem 0; color: var(--ink); }
+
+/* Header smart search */
+.search-wrap { border-top: 1px solid var(--line); background: var(--surface); }
+.search-wrap .wrap { position: relative; padding-top: 0.6rem; padding-bottom: 0.6rem; }
+.site-search { width: 100%; font-family: var(--sans); font-size: 0.95rem; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 999px; padding: 0.6rem 1rem; outline: none; }
+.site-search:focus { border-color: var(--water); background: var(--surface); }
+.search-results { position: absolute; left: 1.25rem; right: 1.25rem; top: calc(100% - 0.2rem); background: var(--surface); border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 12px 30px rgba(14,42,46,0.16); max-height: 60vh; overflow-y: auto; z-index: 70; padding: 0.35rem; }
+.search-results[hidden] { display: none; }
+.sr-item { display: block; text-decoration: none; padding: 0.55rem 0.7rem; border-radius: 8px; color: var(--ink); }
+.sr-item:hover { background: var(--light-soft); }
+.sr-line { display: flex; align-items: center; gap: 0.5rem; }
+.sr-title { font-family: var(--serif); font-size: 1.02rem; font-weight: 600; }
+.sr-ref { font-family: var(--sans); font-size: 0.78rem; color: var(--muted); margin-top: 0.1rem; }
+.sr-snippet { font-family: var(--sans); font-size: 0.8rem; color: var(--muted); margin-top: 0.2rem; }
+.sr-tag { font-family: var(--sans); font-size: 0.6rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--water); border: 1px solid var(--water); border-radius: 999px; padding: 0.02rem 0.4rem; }
+.sr-soon { font-family: var(--sans); font-size: 0.6rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--light); border: 1px solid var(--light); border-radius: 999px; padding: 0.02rem 0.4rem; }
+.sr-empty { padding: 0.7rem; color: var(--muted); font-family: var(--sans); font-size: 0.9rem; }
+
+/* Floating sign-in bar (hidden when signed in) */
+.signin-bar { background: var(--water); color: #fff; }
+.signin-bar[hidden] { display: none; }
+.signin-bar-inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-top: 0.5rem; padding-bottom: 0.5rem; }
+.signin-text { font-family: var(--sans); font-size: 0.85rem; color: #fff; }
+.signin-actions { display: inline-flex; align-items: center; gap: 0.5rem; }
+.signin-btn { font-family: var(--sans); font-size: 0.82rem; font-weight: 700; color: var(--water); background: var(--gold-bright, #E8C15A); border: none; border-radius: 999px; padding: 0.4rem 0.9rem; cursor: pointer; }
+.signin-btn:hover { background: #fff; }
+.signin-dismiss { background: transparent; border: none; color: rgba(255,255,255,0.8); font-size: 0.9rem; cursor: pointer; padding: 0.2rem 0.4rem; line-height: 1; }
+.signin-dismiss:hover { color: #fff; }
+
+/* Home resume card */
+.resume { margin: 1.5rem 0 0.5rem; }
+.resume[hidden] { display: none; }
+.resume-inner { border: 1px solid var(--line); border-left: 4px solid var(--water); border-radius: 12px; background: var(--surface); padding: 1.1rem 1.25rem; }
+.resume-eyebrow { font-family: var(--sans); font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--water); margin: 0 0 0.2rem; }
+.resume-title { font-family: var(--serif); font-size: 1.4rem; margin: 0 0 0.15rem; color: var(--ink); }
+.resume-sub { font-family: var(--sans); font-size: 0.9rem; color: var(--muted); margin: 0 0 0.8rem; }
+.resume-actions { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-bottom: 0.7rem; }
+.btn-primary { display: inline-block; background: var(--water); color: #fff; font-family: var(--sans); font-size: 0.9rem; font-weight: 700; text-decoration: none; padding: 0.5rem 1.1rem; border-radius: 999px; }
+.btn-primary:hover { background: var(--water-deep); color: #fff; }
+.btn-secondary { display: inline-block; background: var(--surface); color: var(--water); border: 1px solid var(--water); font-family: var(--sans); font-size: 0.9rem; font-weight: 700; text-decoration: none; padding: 0.5rem 1.1rem; border-radius: 999px; }
+.btn-secondary:hover { background: var(--light-soft); }
+.resume-progress { display: flex; align-items: center; gap: 0.6rem; font-family: var(--sans); font-size: 0.8rem; color: var(--muted); }
+.resume-bartrack { display: inline-block; width: 140px; height: 7px; background: var(--line); border-radius: 999px; overflow: hidden; }
+.resume-bartrack > span { display: block; height: 100%; background: var(--water); }

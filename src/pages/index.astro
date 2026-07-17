@@ -27,6 +27,16 @@ const testaments = [
     <p class="motif">In Your light we see light. Psalm 36:9</p>
   </section>
 
+  <section id="resume" class="resume" hidden>
+    <div class="resume-inner">
+      <p class="resume-eyebrow"></p>
+      <h2 class="resume-title"></h2>
+      <p class="resume-sub"></p>
+      <div class="resume-actions"></div>
+      <div class="resume-progress"></div>
+    </div>
+  </section>
+
   <section class="info-group">
     <details class="info">
       <summary><span class="info-title">What Makor is</span><span class="chev" aria-hidden="true"></span></summary>
@@ -62,8 +72,59 @@ const testaments = [
     }
     window.addEventListener('makor-auth', markCompleted);
     markCompleted();
+
+    // Resume card: show the reader where they are and where to go next.
+    function bar(done, total) {
+      const pct = total ? Math.round((done / total) * 100) : 0;
+      return '<span class="resume-bartrack"><span style="width:' + pct + '%"></span></span> <span class="resume-count">' + done + ' of ' + total + ' studies</span>';
+    }
+    async function buildResume() {
+      const el = document.getElementById('resume');
+      if (!el) return;
+      let idx = [];
+      try { idx = await fetch('/search-index.json').then((r) => r.json()); } catch (e) {}
+      const avail = idx.filter((e) => e.available);
+      const total = avail.length;
+      const user = window.makorUser;
+      let rows = [];
+      if (user && typeof window.makorAllAttempts === 'function') { try { rows = await window.makorAllAttempts(); } catch (e) {} }
+      const post = new Set(rows.filter((r) => r.phase === 'post').map((r) => r.study_slug));
+      const pre = new Set(rows.filter((r) => r.phase === 'pre').map((r) => r.study_slug));
+      const eyebrow = el.querySelector('.resume-eyebrow');
+      const title = el.querySelector('.resume-title');
+      const sub = el.querySelector('.resume-sub');
+      const actions = el.querySelector('.resume-actions');
+      const prog = el.querySelector('.resume-progress');
+      const doneCount = avail.filter((e) => post.has(e.slug)).length;
+      const inProgress = avail.find((e) => pre.has(e.slug) && !post.has(e.slug));
+      const next = avail.find((e) => !post.has(e.slug));
+      const target = inProgress || next;
+      if (!user) {
+        eyebrow.textContent = 'Welcome to Makor';
+        title.textContent = avail[0] ? ('Start with ' + avail[0].book + ': ' + avail[0].title) : 'Start your first study';
+        sub.textContent = 'Read your first study, then sign in to save your progress.';
+        actions.innerHTML = (avail[0] ? '<a class="btn-primary" href="' + avail[0].url + '">Begin study</a>' : '') + '<a class="btn-secondary" href="#books">Browse all books</a>';
+        prog.innerHTML = '';
+      } else if (!target) {
+        eyebrow.textContent = 'Every available study complete';
+        title.textContent = 'You are all caught up';
+        sub.textContent = 'More books are on the way. Revisit a study or explore the outline.';
+        actions.innerHTML = '<a class="btn-secondary" href="#books">Browse all books</a>';
+        prog.innerHTML = bar(doneCount, total);
+      } else {
+        eyebrow.textContent = inProgress ? 'Continue where you left off' : 'Your next study';
+        title.textContent = target.book + ': ' + target.title;
+        sub.textContent = target.ref;
+        actions.innerHTML = '<a class="btn-primary" href="' + target.url + '">' + (inProgress ? 'Resume study' : 'Start study') + '</a><a class="btn-secondary" href="#books">Browse all books</a>';
+        prog.innerHTML = bar(doneCount, total);
+      }
+      el.hidden = false;
+    }
+    window.addEventListener('makor-auth', buildResume);
+    buildResume();
   </script>
 
+  <div id="books">
   {testaments.map((t) => (
     <section class="testament">
       <h2 class="testament-head">{t.label}</h2>
@@ -105,4 +166,5 @@ const testaments = [
       })}
     </section>
   ))}
+  </div>
 </Base>
