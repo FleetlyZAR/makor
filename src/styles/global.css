@@ -302,16 +302,16 @@ details.book[open] > summary .chev { transform: rotate(-135deg); }
 #admin-wrap { overflow-x: auto; }
 #admin-wrap .rank-table { min-width: 680px; }
 
-/* Home: intro info cascades (blue), all closed by default */
-:root { --info: #1e5aa8; --info-soft: #eef4fb; }
+/* Home: intro info cascades. Brand teal bar, gold heading. All closed by default. */
+:root { --gold-bright: #E8C15A; }
 .info-group { margin: 1.75rem 0 0.5rem; }
-details.info { border: 1px solid var(--line); border-left: 4px solid var(--info); border-radius: 10px; background: var(--surface); margin: 0.5rem 0; overflow: hidden; }
-details.info > summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 0.75rem; padding: 0.9rem 1.1rem; }
+details.info { border: 1px solid var(--water-deep); border-radius: 10px; background: var(--water); margin: 0.5rem 0; overflow: hidden; }
+details.info > summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 0.75rem; padding: 0.9rem 1.1rem; background: var(--water); }
 details.info > summary::-webkit-details-marker { display: none; }
-.info-title { flex: 1; font-family: var(--serif); font-size: 1.2rem; font-weight: 600; color: var(--info); }
-details.info > summary:hover { background: var(--info-soft); }
-details.info[open] > summary { border-bottom: 1px solid var(--line); }
-details.info .chev { border-right: 2px solid var(--info); border-bottom: 2px solid var(--info); }
+.info-title { flex: 1; font-family: var(--serif); font-size: 1.2rem; font-weight: 600; color: var(--gold-bright); }
+details.info > summary:hover { background: var(--water-deep); }
+details.info[open] > summary { border-bottom: 1px solid var(--water-deep); }
+details.info .chev { border-right: 2px solid var(--gold-bright); border-bottom: 2px solid var(--gold-bright); }
 details.info[open] > summary .chev { transform: rotate(-135deg); }
-.info-body { padding: 0.4rem 1.1rem 1.1rem; }
+.info-body { padding: 0.9rem 1.1rem 1.1rem; background: var(--surface); }
 .info-body p { margin: 0.3rem 0; color: var(--ink); }
