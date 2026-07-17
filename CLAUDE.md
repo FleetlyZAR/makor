@@ -18,6 +18,12 @@ Deploy facts: work is committed on the `main` branch and pushed to `origin`
 site is usually live within about two minutes. Any push to main is a live
 production deploy, so treat it with care.
 
+## Study waves (authoring the studies)
+
+The plan for authoring studies book by book, current progress, the wave method,
+and the validator live in `WAVE-HANDOFF.md` at the repo root. Read that before
+running the next wave.
+
 ## Section maps
 
 Each book of the Bible has a movement level plan at the repo root named
