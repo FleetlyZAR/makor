@@ -3,6 +3,7 @@ import '../styles/global.css';
 import { getAllStudies } from '../lib/studies.js';
 const totalStudies = getAllStudies().length;
 const { title = 'Makor', description = 'Deep, Christ-centred study of every book of the Bible.' } = Astro.props;
+const canonicalUrl = 'https://makor.co.za' + Astro.url.pathname;
 ---
 <!doctype html>
 <html lang="en">
@@ -11,6 +12,20 @@ const { title = 'Makor', description = 'Deep, Christ-centred study of every book
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
+    <meta property="og:site_name" content="Makor" />
+    <meta property="og:title" content={title} />
+    {description && <meta property="og:description" content={description} />}
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalUrl} />
+    <link rel="canonical" href={canonicalUrl} />
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Makor",
+      "alternateName": "Makor: back to the source",
+      "url": "https://makor.co.za",
+      "description": "Makor is a free, Christ-centred Bible study website offering a deep, careful study of every book of the Bible, showing how each passage points to Christ, made reachable for everyone."
+    })} />
     <link rel="icon" href="/favicon.svg" />
     <meta name="makor:total-studies" content={String(totalStudies)} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
