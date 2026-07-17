@@ -48,6 +48,22 @@ const testaments = [
     </details>
   </section>
 
+  <script is:inline type="module">
+    // Mark movements the reader has completed (a 'post' attempt) with the green 'done' pill.
+    async function markCompleted() {
+      if (typeof window.makorAllAttempts !== 'function') return;
+      let rows = [];
+      try { rows = await window.makorAllAttempts(); } catch (e) { return; }
+      const done = new Set((rows || []).filter((r) => r.phase === 'post').map((r) => r.study_slug));
+      document.querySelectorAll('.movement-list li.ready a[data-slug]').forEach((a) => {
+        if (done.has(a.dataset.slug)) a.classList.add('done');
+        else a.classList.remove('done');
+      });
+    }
+    window.addEventListener('makor-auth', markCompleted);
+    markCompleted();
+  </script>
+
   {testaments.map((t) => (
     <section class="testament">
       <h2 class="testament-head">{t.label}</h2>
@@ -70,7 +86,7 @@ const testaments = [
                   {movements.map((m) => (
                     avail.has(m.slug) ? (
                       <li class="ready">
-                        <a href={`/${slug}/${m.slug}/`}>{m.title}</a>
+                        <a data-slug={m.slug} href={`/${slug}/${m.slug}/`}>{m.title}</a>
                         <span class="ref">{m.ref}</span>
                       </li>
                     ) : (
