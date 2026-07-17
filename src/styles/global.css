@@ -372,3 +372,16 @@ details.info[open] > summary .chev { transform: rotate(-135deg); }
 .site-header.header-collapsed .progress-strip,
 .site-header.header-collapsed .signin-bar { display: none; }
 body.header-collapsed .cascade-controls { display: none; }
+
+/* Legal pages (privacy, terms) */
+.legal { max-width: 100%; padding-bottom: 1rem; }
+.legal h2 { font-size: 1.35rem; margin: 1.7rem 0 0.4rem; }
+.legal h3 { font-size: 1.05rem; margin: 1.1rem 0 0.2rem; color: var(--water); }
+.legal p { margin: 0.5rem 0; color: var(--ink); }
+.legal ul { padding-left: 1.3rem; margin: 0.5rem 0; }
+.legal li { margin: 0.35rem 0; color: var(--ink); }
+.legal .backlink { margin-top: 2rem; }
+.hero .updated { color: var(--muted); font-size: 0.95rem; margin: 0.4rem 0 0; }
+.footer-links { margin-top: 0.6rem; }
+.footer-links a { color: var(--water); text-decoration: none; }
+.footer-links a:hover { color: var(--water-deep); }
