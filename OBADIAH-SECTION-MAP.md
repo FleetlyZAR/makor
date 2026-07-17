@@ -8,8 +8,8 @@ one at a time. Status: done means the JSON exists in `src/content/studies/obadia
 
 | Order | Passage | Title | Slug | Status |
 |------|---------|-------|------|--------|
-| 01 | Obadiah 1:1-9 | The Coming Destruction of Edom | the-coming-destruction-of-edom | planned |
-| 02 | Obadiah 1:10-14 | Edom's Violence Against Jacob | edoms-violence-against-jacob | planned |
-| 03 | Obadiah 1:15-21 | The Day of the LORD and Israel's Restoration | the-day-of-the-lord-and-israels-restoration | planned |
+| 01 | Obadiah 1:1-9 | The Coming Destruction of Edom | the-coming-destruction-of-edom | done |
+| 02 | Obadiah 1:10-14 | Edom's Violence Against Jacob | edoms-violence-against-jacob | done |
+| 03 | Obadiah 1:15-21 | The Day of the LORD and Israel's Restoration | the-day-of-the-lord-and-israels-restoration | done |
 
 Three movements in all. Boundaries can be adjusted as we go; two studies never share an order.

@@ -8,9 +8,9 @@ in `src/content/studies/nahum/`.
 
 | Order | Passage | Title | Slug | Status |
 |------|---------|-------|------|--------|
-| 01 | Nahum 1:1-8 | The LORD's Avenging Power | the-lords-avenging-power | planned |
-| 02 | Nahum 1:9-15 | Judgment on Nineveh, Good News for Judah | judgment-on-nineveh-good-news-for-judah | planned |
-| 03 | Nahum 2:1-13 | The Fall of Nineveh | the-fall-of-nineveh | planned |
-| 04 | Nahum 3:1-19 | Woe to the City of Blood | woe-to-the-city-of-blood | planned |
+| 01 | Nahum 1:1-8 | The LORD's Avenging Power | the-lords-avenging-power | done |
+| 02 | Nahum 1:9-15 | Judgment on Nineveh, Good News for Judah | judgment-on-nineveh-good-news-for-judah | done |
+| 03 | Nahum 2:1-13 | The Fall of Nineveh | the-fall-of-nineveh | done |
+| 04 | Nahum 3:1-19 | Woe to the City of Blood | woe-to-the-city-of-blood | done |
 
 Four movements in all. Boundaries can be adjusted as we go; two studies never share an order.

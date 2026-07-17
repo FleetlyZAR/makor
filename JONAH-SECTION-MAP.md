@@ -8,9 +8,9 @@ means the JSON exists in `src/content/studies/jonah/`.
 
 | Order | Passage | Title | Slug | Status |
 |------|---------|-------|------|--------|
-| 01 | Jonah 1:1-16 | Jonah Flees and the Storm | jonah-flees-and-the-storm | planned |
-| 02 | Jonah 1:17-2:10 | Jonah's Prayer from the Fish | jonahs-prayer-from-the-fish | planned |
-| 03 | Jonah 3:1-10 | Nineveh Repents | nineveh-repents | planned |
-| 04 | Jonah 4:1-11 | Jonah's Anger and God's Mercy | jonahs-anger-and-gods-mercy | planned |
+| 01 | Jonah 1:1-16 | Jonah Flees and the Storm | jonah-flees-and-the-storm | done |
+| 02 | Jonah 1:17-2:10 | Jonah's Prayer from the Fish | jonahs-prayer-from-the-fish | done |
+| 03 | Jonah 3:1-10 | Nineveh Repents | nineveh-repents | done |
+| 04 | Jonah 4:1-11 | Jonah's Anger and God's Mercy | jonahs-anger-and-gods-mercy | done |
 
 Four movements in all. Boundaries can be adjusted as we go; two studies never share an order.

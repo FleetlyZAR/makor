@@ -4,10 +4,10 @@ The planned studies for Jude, a single chapter divided by its flow from the call
 
 | Order | Passage | Title | Slug | Status |
 |------|---------|-------|------|--------|
-| 01 | Jude 1:1-4 | Contend for the Faith | contend-for-the-faith | planned |
-| 02 | Jude 1:5-10 | Examples of Judgment | examples-of-judgment | planned |
-| 03 | Jude 1:11-16 | Woe to the False Teachers | woe-to-the-false-teachers | planned |
-| 04 | Jude 1:17-23 | A Call to Persevere | a-call-to-persevere | planned |
-| 05 | Jude 1:24-25 | Doxology | doxology | planned |
+| 01 | Jude 1:1-4 | Contend for the Faith | contend-for-the-faith | done |
+| 02 | Jude 1:5-10 | Examples of Judgment | examples-of-judgment | done |
+| 03 | Jude 1:11-16 | Woe to the False Teachers | woe-to-the-false-teachers | done |
+| 04 | Jude 1:17-23 | A Call to Persevere | a-call-to-persevere | done |
+| 05 | Jude 1:24-25 | Doxology | doxology | done |
 
 Five movements in all. Boundaries can be adjusted as we go; two studies never share an order.

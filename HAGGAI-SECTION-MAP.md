@@ -8,9 +8,9 @@ means the JSON exists in `src/content/studies/haggai/`.
 
 | Order | Passage | Title | Slug | Status |
 |------|---------|-------|------|--------|
-| 01 | Haggai 1:1-15 | A Call to Rebuild the Temple | a-call-to-rebuild-the-temple | planned |
-| 02 | Haggai 2:1-9 | The Coming Glory of the House | the-coming-glory-of-the-house | planned |
-| 03 | Haggai 2:10-19 | Blessings for a Defiled People | blessings-for-a-defiled-people | planned |
-| 04 | Haggai 2:20-23 | Zerubbabel the LORD's Signet | zerubbabel-the-lords-signet | planned |
+| 01 | Haggai 1:1-15 | A Call to Rebuild the Temple | a-call-to-rebuild-the-temple | done |
+| 02 | Haggai 2:1-9 | The Coming Glory of the House | the-coming-glory-of-the-house | done |
+| 03 | Haggai 2:10-19 | Blessings for a Defiled People | blessings-for-a-defiled-people | done |
+| 04 | Haggai 2:20-23 | Zerubbabel the LORD's Signet | zerubbabel-the-lords-signet | done |
 
 Four movements in all. Boundaries can be adjusted as we go; two studies never share an order.
