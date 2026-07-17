@@ -59,6 +59,15 @@ const testaments = [
   </section>
 
   <script is:inline type="module">
+    // Shared, cached fetch of the search index (also powers header search and the resume card).
+    let indexCache = null, indexPromise = null;
+    function loadIndex() {
+      if (indexCache) return Promise.resolve(indexCache);
+      if (!indexPromise) indexPromise = fetch('/search-index.json').then((r) => r.json()).then((d) => { indexCache = d; return d; }).catch(() => { indexCache = []; return []; });
+      return indexPromise;
+    }
+    function esc(s) { return String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
+
     // Mark movements the reader has completed (a 'post' attempt) with the green 'done' pill.
     async function markCompleted() {
       if (typeof window.makorAllAttempts !== 'function') return;
@@ -71,7 +80,26 @@ const testaments = [
       });
     }
     window.addEventListener('makor-auth', markCompleted);
-    markCompleted();
+
+    // Lazily render a book's movements the first time it is opened, keeping the initial page light.
+    async function loadBook(details) {
+      const body = details.querySelector('.book-body');
+      if (!body || body.dataset.loaded === 'true') return;
+      body.dataset.loaded = 'true';
+      const bookName = details.dataset.book;
+      const idx = await loadIndex();
+      const rows = idx.filter((e) => e.book === bookName);
+      if (!rows.length) { body.innerHTML = '<p class="soon-note">Studies for this book are coming soon.</p>'; return; }
+      const items = rows.map((e) => e.available
+        ? '<li class="ready"><a data-slug="' + esc(e.slug) + '" href="' + esc(e.url) + '">' + esc(e.title) + '</a> <span class="ref">' + esc(e.ref) + '</span></li>'
+        : '<li class="soon"><span class="soon-title">' + esc(e.title) + '</span> <span class="ref">' + esc(e.ref) + '</span> <span class="soon-tag">soon</span></li>'
+      ).join('');
+      body.innerHTML = '<ol class="movement-list">' + items + '</ol>';
+      markCompleted();
+    }
+    document.querySelectorAll('details.book').forEach((d) => {
+      d.addEventListener('toggle', () => { if (d.open) loadBook(d); });
+    });
 
     // Resume card: show the reader where they are and where to go next.
     function bar(done, total) {
@@ -81,8 +109,7 @@ const testaments = [
     async function buildResume() {
       const el = document.getElementById('resume');
       if (!el) return;
-      let idx = [];
-      try { idx = await fetch('/search-index.json').then((r) => r.json()); } catch (e) {}
+      const idx = await loadIndex();
       const avail = idx.filter((e) => e.available);
       const total = avail.length;
       const user = window.makorUser;
@@ -134,33 +161,13 @@ const testaments = [
         const ready = movements.filter((m) => avail.has(m.slug)).length;
         const slug = bookSlug(b.name);
         return (
-          <details class="book">
+          <details class="book" data-book={b.name} data-bookslug={slug}>
             <summary>
               <span class="book-name">{b.name}</span>
               <span class="book-count">{movements.length ? ready + ' of ' + movements.length : 'soon'}</span>
               <span class="chev" aria-hidden="true"></span>
             </summary>
-            <div class="book-body">
-              {movements.length === 0 && <p class="soon-note">Studies for this book are coming soon.</p>}
-              {movements.length > 0 && (
-                <ol class="movement-list">
-                  {movements.map((m) => (
-                    avail.has(m.slug) ? (
-                      <li class="ready">
-                        <a data-slug={m.slug} href={`/${slug}/${m.slug}/`}>{m.title}</a>
-                        <span class="ref">{m.ref}</span>
-                      </li>
-                    ) : (
-                      <li class="soon">
-                        <span class="soon-title">{m.title}</span>
-                        <span class="ref">{m.ref}</span>
-                        <span class="soon-tag">soon</span>
-                      </li>
-                    )
-                  ))}
-                </ol>
-              )}
-            </div>
+            <div class="book-body" data-loaded="false"></div>
           </details>
         );
       })}
