@@ -68,7 +68,7 @@ export const plans = {
     { order: 26, ref: 'Genesis 20:1-18', title: 'Abraham and Abimelech', slug: 'abraham-and-abimelech' },
     { order: 27, ref: 'Genesis 21:1-21', title: 'Isaac Born, Hagar Sent', slug: 'isaac-born' },
     { order: 28, ref: 'Genesis 21:22-34', title: 'The Treaty at Beersheba', slug: 'the-treaty-at-beersheba' },
-    { order: 29, ref: 'Genesis 22:1-19', title: 'The Binding of Isaac', slug: 'the-binding-of-isaac' },
+    { order: 29, ref: 'Genesis 22:1-24', title: 'The Binding of Isaac', slug: 'the-binding-of-isaac' },
     { order: 30, ref: 'Genesis 23:1-20', title: "Sarah's Burial", slug: 'sarahs-burial' },
     { order: 31, ref: 'Genesis 24:1-67', title: 'A Bride for Isaac', slug: 'a-bride-for-isaac' },
     { order: 32, ref: 'Genesis 25:1-11', title: 'The Death of Abraham', slug: 'the-death-of-abraham' },
