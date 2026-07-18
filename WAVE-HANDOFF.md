@@ -4,36 +4,72 @@ This file lets any new chat working in this repo pick up the study-authoring
 campaign. It assumes the Scripture Study Pipeline v1.2 project instructions are
 active and the repo is connected.
 
-## Progress (47 of 66 books, 603 studies)
+## Progress (52 of 66 books, 732 studies)
 
 Done: Genesis, Ruth, all 12 Minor Prophets (Hosea, Joel, Amos, Obadiah, Jonah,
 Micah, Nahum, Habakkuk, Zephaniah, Haggai, Zechariah, Malachi), all 21 New
 Testament epistles (Romans, 1-2 Corinthians, Galatians, Ephesians, Philippians,
 Colossians, 1-2 Thessalonians, 1-2 Timothy, Titus, Philemon, Hebrews, James,
 1-2 Peter, 1-3 John, Jude), the wave 5 short Old Testament books (Lamentations,
-Ezra, Esther, Song of Solomon, Daniel, Nehemiah, Ecclesiastes), and the wave 6
-Gospels and Acts (Matthew, Mark, Luke, John, Acts).
+Ezra, Esther, Song of Solomon, Daniel, Nehemiah, Ecclesiastes), the wave 6
+Gospels and Acts (Matthew, Mark, Luke, John, Acts), and the wave 7 histories so
+far (Joshua, Judges, 1-2 Samuel, 1 Kings).
 
-Remaining (19 books, 751 movements): Exodus, Leviticus, Numbers, Deuteronomy,
-Joshua, Judges, 1-2 Samuel, 1-2 Kings, 1-2 Chronicles, Job, Psalms, Proverbs,
-Isaiah, Jeremiah, Ezekiel, Revelation.
+Remaining (14 books, 622 movements): Exodus, Leviticus, Numbers, Deuteronomy,
+2 Kings, 1-2 Chronicles, Job, Psalms, Proverbs, Isaiah, Jeremiah, Ezekiel,
+Revelation.
 
-## Recommended next wave (wave 7)
+## Wave 7 in progress
 
-Wave 6 is complete (148 studies, validator clean). The whole New Testament and
-all the Minor Prophets are now done. Good next targets: the mid Old Testament
-histories (Joshua, Judges, 1-2 Samuel, 1-2 Kings, 1-2 Chronicles), or Revelation
-paired with the wisdom books (Job, Proverbs). The heaviest remaining lifts are
-Psalms (150 movements, three digit orders), Isaiah, Jeremiah, and Ezekiel; the
-Pentateuch (Exodus, Leviticus, Numbers, Deuteronomy) is also large.
+Wave 7 (mid Old Testament histories) is partly done: Joshua (26), Judges (25),
+1 Samuel (32), 2 Samuel (24), and 1 Kings (22) are written and their maps
+flipped to done. Still to author to finish wave 7: 2 Kings (25), 1 Chronicles
+(26), 2 Chronicles (34). After that, good targets are Revelation paired with the
+wisdom books (Job, Proverbs). The heaviest remaining lifts are Psalms (150
+movements, three digit orders), Isaiah, Jeremiah, and Ezekiel; the Pentateuch
+(Exodus, Leviticus, Numbers, Deuteronomy) is also large.
 
-Outstanding side task: a sermon-link pass. Many studies in waves 2 to 6 have
+Outstanding side task: a sermon-link pass. Many studies in waves 2 to 7 have
 sermon status "none" because web verification was unstable during authoring.
 Verified so far include wave 5 (Ezra 08 Piper; Esther 07 to 10 and Lamentations
-02 to 03 Begg) and wave 6 (Acts 08 to 09 Begg, Acts 10 to 11 Keller; Luke 01 to
-08, 10 to 12, 16 Begg, Luke 02 and 15 Keller, Luke 17 Piper). All of Matthew,
-Mark, John, and the rest await the link pass. Fill them once the network is
-steady, verifying each link by web search.
+02 to 03 Begg), wave 6 (Acts 08 to 09 Begg, Acts 10 to 11 Keller; Luke 01 to 08,
+10 to 12, 16 Begg, Luke 02 and 15 Keller, Luke 17 Piper), and wave 7 (1 Kings 02,
+08, 11, 19 Begg; 1 Kings 03, 17 Keller; 1 Kings 18 Piper). All of Matthew, Mark,
+John, Joshua, Judges, 1-2 Samuel, and the rest await the link pass. Fill them
+once the network is steady, verifying each link by web search.
+
+## Local scripture toolkit (use this for BSB text and cross refs)
+
+`tools/scripture/` is an offline BSB layer that replaces the live dependency on
+`bible.helloao.org`. Prefer it: it is faster, deterministic, and it seeds cross
+references and translation notes. It is a build time authoring tool only, never a
+shipped site asset; the renderer still reads finished studies from
+`src/content/studies`.
+
+Contents:
+
+- `makor-scripture.db` (about 20 MB): SQLite with all 66 books, all 31,086 exact
+  BSB verses, 4,846 BSB footnotes, and 344,799 scored cross references from
+  OpenBible.info.
+- `makor-scripture.mjs`: a zero dependency Node helper and CLI. Needs Node 22.5
+  or newer (uses the built in `node:sqlite`).
+
+Command line (book codes are three letter forms, GEN, EXO, PSA, JHN, 1SA, 2KI):
+
+```
+node tools/scripture/makor-scripture.mjs passage "1KI 8:1-66" --pretty
+node tools/scripture/makor-scripture.mjs xrefs "1KI 8:27" --limit 12
+node tools/scripture/makor-scripture.mjs footnotes 1KI 8
+node tools/scripture/makor-scripture.mjs books
+```
+
+Use it for three study steps: passage text (drop straight into `text.units`,
+still apply the no dashes rule), cross reference seeds for study step 7 (the
+scores rank strength; you still curate and write each `note` in Makor's voice),
+and footnotes that map onto `translationNotes` and often flag the load bearing
+words worth a `lexicon` entry. The cross reference dataset seeds, it does not
+decide. See `tools/scripture/README-makor-scripture.md` for the module API and
+rebuild notes.
 
 ## How to run a wave (what worked)
 
@@ -44,8 +80,10 @@ steady, verifying each link by web search.
    limits. Verify each sub-batch, then continue.
 3. Each agent reads its `<BOOK>-SECTION-MAP.md` (authoritative order and slug)
    plus `src/content/studies/genesis/03-the-fall.json` and a same-genre example
-   for format and depth; fetches exact BSB text from
-   `https://bible.helloao.org/api/BSB/<CODE>/<CHAPTER>.json`; writes one JSON file
+   for format and depth; pulls exact BSB text, cross reference seeds, and
+   footnotes from the local scripture toolkit (see the section below), falling
+   back to `https://bible.helloao.org/api/BSB/<CODE>/<CHAPTER>.json` only if the
+   toolkit is unavailable; writes one JSON file
    per map row to `src/content/studies/<book>/NN-slug.json` per schema v1.2; uses
    inline `{{lexKey|word}}` tokens that all resolve with no unused lexicon keys;
    gives every quiz item exactly one option at each weight 100, 75, 25, 0; writes
