@@ -103,7 +103,7 @@ const badgeConfig = {
   <script id="badge-config" type="application/json" set:html={JSON.stringify(badgeConfig)}></script>
 </Base>
 
-<style>
+<style is:global>
   /* Tier hero */
   .tier-hero { position: relative; overflow: hidden; background: linear-gradient(135deg, var(--ink), var(--water-deep)); color: #eaf4f3; border-radius: 14px; padding: 1.6rem 1.75rem; margin: 0.5rem 0 2rem; }
   .tier-hero[hidden] { display: none; }
