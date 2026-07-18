@@ -4,28 +4,32 @@ This file lets any new chat working in this repo pick up the study-authoring
 campaign. It assumes the Scripture Study Pipeline v1.2 project instructions are
 active and the repo is connected.
 
-## Progress (35 of 66 books, 379 studies)
+## Progress (42 of 66 books, 455 studies)
 
 Done: Genesis, Ruth, all 12 Minor Prophets (Hosea, Joel, Amos, Obadiah, Jonah,
-Micah, Nahum, Habakkuk, Zephaniah, Haggai, Zechariah, Malachi), and all 21 New
+Micah, Nahum, Habakkuk, Zephaniah, Haggai, Zechariah, Malachi), all 21 New
 Testament epistles (Romans, 1-2 Corinthians, Galatians, Ephesians, Philippians,
 Colossians, 1-2 Thessalonians, 1-2 Timothy, Titus, Philemon, Hebrews, James,
-1-2 Peter, 1-3 John, Jude).
+1-2 Peter, 1-3 John, Jude), and the wave 5 short Old Testament books
+(Lamentations, Ezra, Esther, Song of Solomon, Daniel, Nehemiah, Ecclesiastes).
 
-Remaining (31 books, 975 movements): Exodus, Leviticus, Numbers, Deuteronomy,
-Joshua, Judges, 1-2 Samuel, 1-2 Kings, 1-2 Chronicles, Ezra, Nehemiah, Esther,
-Job, Psalms, Proverbs, Ecclesiastes, Song of Solomon, Isaiah, Jeremiah,
-Lamentations, Ezekiel, Daniel, Matthew, Mark, Luke, John, Acts, Revelation.
+Remaining (24 books, 899 movements): Exodus, Leviticus, Numbers, Deuteronomy,
+Joshua, Judges, 1-2 Samuel, 1-2 Kings, 1-2 Chronicles, Job, Psalms, Proverbs,
+Isaiah, Jeremiah, Ezekiel, Matthew, Mark, Luke, John, Acts, Revelation.
 
-## Recommended next wave (wave 5)
+## Recommended next wave (wave 6)
 
-Short Old Testament books: Lamentations (5), Ezra (10), Esther (10), Song of
-Solomon (11), Daniel (12), Nehemiah (13), Ecclesiastes (15). About 76 movements.
-Alternatives: the Gospels and Acts, or the mid Old Testament histories.
+Wave 5 is complete (76 studies, validator clean). Good next targets: the Gospels
+and Acts (Matthew, Mark, Luke, John, Acts), or the mid Old Testament histories
+(Joshua, Judges, 1-2 Samuel, 1-2 Kings, 1-2 Chronicles). Job, Proverbs, and the
+big prophets (Isaiah, Jeremiah, Ezekiel) are the heaviest remaining lifts.
 
-Outstanding side task: a sermon-link pass. Many studies in waves 2 to 4 have
-sermon status "none" because web verification was unstable during authoring.
-Fill them once the network is steady, verifying each link by web search.
+Outstanding side task: a sermon-link pass. Many studies in waves 2 to 5 have
+sermon status "none" because web verification was unstable during authoring. In
+wave 5, Ezra 08 (Piper) and Esther 07 to 10 plus Lamentations 02 to 03 (Begg,
+Truth For Life) are verified; the rest of wave 5, and all of Daniel, Song of
+Solomon, Nehemiah, and Ecclesiastes, are "none" and await the link pass. Fill
+them once the network is steady, verifying each link by web search.
 
 ## How to run a wave (what worked)
 
