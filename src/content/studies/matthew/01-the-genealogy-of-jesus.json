@@ -1,0 +1,191 @@
+{
+  "schemaVersion": "1.2",
+  "book": "Matthew",
+  "section": {
+    "order": 1,
+    "slug": "the-genealogy-of-jesus",
+    "title": "The Genealogy of Jesus",
+    "passageRef": "Matthew 1:1-17",
+    "sectionRationale": "Matthew opens his Gospel where Israel's hope has always pointed: a family tree that runs from Abraham through David to Jesus the Christ. It is not a dry list but a carefully shaped argument, arranged in three sets of fourteen, that Jesus is the promised King and the true seed of Abraham, the one in whom the whole story of Israel finds its goal.",
+    "thesis": "By tracing Jesus back to David and to Abraham, and by folding into the line surprising sinners and outsiders, Matthew announces from his first sentence that Jesus is the long-awaited Messiah, the royal Son who fulfills God's promises and welcomes the unlikely into His story.",
+    "frameNote": "Five beats: the opening title, son of David and son of Abraham; the line from Abraham to David; the royal line from David to the exile; the line from the exile to the Christ; and the summary of three fourteens."
+  },
+  "text": {
+    "spine": "BSB",
+    "units": [
+      {
+        "label": "Son of David, son of Abraham",
+        "note": "the title over the whole Gospel",
+        "emphasis": "",
+        "verses": [
+          { "chapter": 1, "n": 1, "text": "This is the record of the {{geneseos|genealogy}} of Jesus {{christos|Christ}}, the son of {{david|David}}, the son of Abraham:" }
+        ]
+      },
+      {
+        "label": "From Abraham to David",
+        "note": "the promise carried through the patriarchs",
+        "emphasis": "",
+        "verses": [
+          { "chapter": 1, "n": 2, "text": "Abraham was the {{egennesen|father}} of Isaac, Isaac the father of Jacob, and Jacob the father of Judah and his brothers." },
+          { "chapter": 1, "n": 3, "text": "Judah was the father of Perez and Zerah by Tamar, Perez the father of Hezron, and Hezron the father of Ram." },
+          { "chapter": 1, "n": 4, "text": "Ram was the father of Amminadab, Amminadab the father of Nahshon, and Nahshon the father of Salmon." },
+          { "chapter": 1, "n": 5, "text": "Salmon was the father of Boaz by Rahab, Boaz the father of Obed by Ruth, Obed the father of Jesse," },
+          { "chapter": 1, "n": 6, "text": "and Jesse the father of David the king. Next: David was the father of Solomon by Uriah’s wife," }
+        ]
+      },
+      {
+        "label": "From David to the exile",
+        "note": "the kings of Judah, glory and decline",
+        "emphasis": "",
+        "verses": [
+          { "chapter": 1, "n": 7, "text": "Solomon the father of Rehoboam, Rehoboam the father of Abijah, and Abijah the father of Asa." },
+          { "chapter": 1, "n": 8, "text": "Asa was the father of Jehoshaphat, Jehoshaphat the father of Joram, and Joram the father of Uzziah." },
+          { "chapter": 1, "n": 9, "text": "Uzziah was the father of Jotham, Jotham the father of Ahaz, and Ahaz the father of Hezekiah." },
+          { "chapter": 1, "n": 10, "text": "Hezekiah was the father of Manasseh, Manasseh the father of Amon, Amon the father of Josiah," },
+          { "chapter": 1, "n": 11, "text": "and Josiah the father of Jeconiah and his brothers at the time of the exile to Babylon." }
+        ]
+      },
+      {
+        "label": "From the exile to the Christ",
+        "note": "the line preserved through judgment",
+        "emphasis": "",
+        "verses": [
+          { "chapter": 1, "n": 12, "text": "After the exile to Babylon: Jeconiah was the father of Shealtiel, Shealtiel the father of Zerubbabel," },
+          { "chapter": 1, "n": 13, "text": "Zerubbabel the father of Abiud, Abiud the father of Eliakim, and Eliakim the father of Azor." },
+          { "chapter": 1, "n": 14, "text": "Azor was the father of Zadok, Zadok the father of Achim, and Achim the father of Eliud." },
+          { "chapter": 1, "n": 15, "text": "Eliud was the father of Eleazar, Eleazar the father of Matthan, Matthan the father of Jacob," },
+          { "chapter": 1, "n": 16, "text": "and Jacob the father of Joseph, the husband of Mary, of whom was born Jesus, who is called Christ." }
+        ]
+      },
+      {
+        "label": "Fourteen, fourteen, fourteen",
+        "note": "the pattern that frames the whole",
+        "emphasis": "climax",
+        "verses": [
+          { "chapter": 1, "n": 17, "text": "In all, then, there were fourteen generations from Abraham to David, fourteen from David to the exile to Babylon, and fourteen from the exile to the Christ." }
+        ]
+      }
+    ]
+  },
+  "lexicon": {
+    "geneseos": { "language": "Greek", "lemma": "genesis", "original": "γένεσις", "gloss": "Origin, birth, genealogy. The opening phrase, biblos geneseos, book of the genealogy, deliberately echoes the Greek of Genesis 2:4 and 5:1, so that Matthew presents the coming of Jesus as a new beginning, the genesis of the renewed people of God." },
+    "christos": { "language": "Greek", "lemma": "Christos", "original": "Χριστός", "gloss": "Anointed One, the Greek translation of the Hebrew Messiah. Kings, priests, and prophets were anointed; the title gathers up the hope of the promised King from David's line. Matthew's whole Gospel argues that Jesus is this long-awaited Christ." },
+    "david": { "language": "Greek", "lemma": "Dauid", "original": "Δαυίδ", "gloss": "David, Israel's greatest king, to whom God promised a son whose throne would last forever, 2 Samuel 7. Son of David becomes a central messianic title in Matthew; the crowds, the blind, and the children will hail Jesus by it." },
+    "egennesen": { "language": "Greek", "lemma": "gennao", "original": "ἐγέννησεν", "gloss": "Begot, was the father of. The verb drums through the list like a heartbeat, generation after generation, until the pattern breaks at verse 16: not Joseph begot Jesus, but of Mary was born Jesus, signaling that this birth is unlike all the others." }
+  },
+  "study": {
+    "basic": {
+      "context": "Matthew begins his Gospel with a family tree. To modern readers a genealogy feels like a place to skip, but to a Jewish reader it was the headline. It answers the first question anyone would ask about a would-be Messiah: who are you, and what is your line? Matthew's answer is that Jesus is the son of David, the rightful King, and the son of Abraham, in whom the nations would be blessed.",
+      "hermeneutics": "This is a real historical line, but Matthew has shaped it as an argument. He arranges it in three sets of fourteen and even skips some names to make the pattern, which was an accepted way of teaching. The point is not a complete record but a claim: Jesus stands at the climax of Israel's whole story, its promises, its kings, its exile, and its hope of return.",
+      "originalLanguages": "The first words, book of the genealogy, echo the book of Genesis, hinting at a new beginning. The title Christ means Anointed One, the promised King. The verb father, or begot, repeats down the whole list until it breaks at verse 16, where Jesus is not begotten by Joseph but born of Mary, quietly preparing us for the virgin birth.",
+      "typology": "Abraham, David, and the exile are not just names but chapters of the one story. Jesus is the seed of Abraham through whom blessing comes to all peoples, the son of David who takes the everlasting throne, and the one who ends the true exile of God's people, their exile from God because of sin.",
+      "christ": "The whole list exists to name one person: Jesus, who is called Christ. He is the goal of Abraham's line and David's throne. Even the surprising names, Tamar, Rahab, Ruth, and Uriah's wife, show a Messiah who comes for sinners and outsiders, and who is not ashamed to have them in His family.",
+      "god": "God keeps His promises across a thousand years, through faithful kings and wicked ones, through glory and through the disaster of exile. He is patient, sovereign, and faithful, weaving even human failure and foreign women into the line that leads to the Savior.",
+      "crossReferences": "Genesis 12 and 22 promise blessing to the nations through Abraham's seed. 2 Samuel 7 promises David a son whose kingdom lasts forever. Galatians 3 says Christ is the seed of Abraham, and Ruth 4 gives the line from Perez to David that Matthew carries on.",
+      "oneStory": "Matthew opens the New Testament by tying it firmly to the Old. Every promise to Abraham and David, every hope carried through the kings and the exile, converges on Jesus the Christ. The long wait is over; the King has come, and the door is open to sinners and to the nations."
+    },
+    "context": {
+      "literary": "The opening sentence, book of the genealogy, functions as a title for the whole Gospel and echoes Genesis. Matthew orders the names into three sets of fourteen, a memorable and deliberate structure, and marks the two great turning points of Israel's story, the rise of David and the exile to Babylon. Four women and the phrase Uriah's wife interrupt the expected all-male list, drawing the eye.",
+      "historical": "In first century Judaism, descent mattered enormously; priestly and royal claims rested on documented lineage. A Messiah had to be of David's house, from the tribe of Judah. Matthew, writing to a largely Jewish-Christian audience, opens by establishing exactly this, and does so through Joseph, Jesus' legal father, which conferred royal descent.",
+      "canonical": "This genealogy is the hinge between the Testaments. It gathers the promises to Abraham, Genesis 12 and 22, and to David, 2 Samuel 7, and presents Jesus as their fulfillment. Luke gives a different genealogy, tracing back to Adam and stressing Jesus as Savior of all humanity; Matthew traces to Abraham, stressing Jesus as Israel's King and the seed of promise."
+    },
+    "hermeneutics": {
+      "authorIntent": "To establish, before a single event is narrated, that Jesus is the legitimate heir of David and the true seed of Abraham, the Christ in whom Israel's history and God's promises reach their appointed goal.",
+      "descriptionVsPrescription": "This passage is descriptive: it records a line and makes a claim about Jesus' identity. It does not prescribe practices to imitate. What it teaches is doctrine to believe, that Jesus is the promised Messiah, and it invites the response of trust and worship.",
+      "debates": [
+        {
+          "question": "Why are Tamar, Rahab, Ruth, and Uriah's wife included in a royal genealogy?",
+          "views": [
+            { "label": "They highlight grace to sinners and outsiders", "case": "Several were Gentiles or were touched by scandal; their presence signals that Jesus' kingdom will reach the morally broken and the non-Jew, anticipating the great commission to all nations." },
+            { "label": "They show God's providence through irregular unions", "case": "Each woman advanced the line in an unexpected, even improper way, underscoring that God, not human respectability, preserved the promised seed." }
+          ],
+          "bearing": "Both readings converge on grace: the Messiah's own family tree is stitched together from outsiders and sinners, so no one need think themselves too far from His kingdom."
+        },
+        {
+          "question": "How do we handle the neat three-times-fourteen pattern when names are clearly omitted?",
+          "views": [
+            { "label": "A deliberate mnemonic and theological device", "case": "Fourteen is the numerical value of David's name in Hebrew, and structuring the list around it foregrounds Jesus as the son of David; selective omission for symmetry was a normal ancient practice, not an error." },
+            { "label": "A strict count that must be defended literally", "case": "Some seek to reconcile every generation as a full record, but this strains the text; the count of father to son in the ancient sense allows for representative selection." }
+          ],
+          "bearing": "The structure is a teaching aid, not a modern registry; recognizing this guards us from false problems and lets the intended message, Jesus the son of David, ring clear."
+        }
+      ]
+    },
+    "originalLanguages": "The Gospel opens with biblos geneseos, book of the genealogy or of the origin, echoing Genesis and framing Jesus' coming as a new creation moment. Christos, Christ, is the Anointed One, Israel's promised King. The relentless verb egennesen, begot, marches through the list until it is broken at verse 16: Joseph is named as the husband of Mary, of whom, a feminine form, Jesus was born, so that the grammar itself refuses to say Joseph begot Jesus and prepares for the virgin conception.",
+    "typology": [
+      { "type": "Jesus as the seed of Abraham", "fulfillment": "In Him all the families of the earth are blessed, the promise of Genesis 12:3 fulfilled, Galatians 3:16." },
+      { "type": "Jesus as the son of David", "fulfillment": "He inherits the everlasting throne promised in 2 Samuel 7:12-16, reigning as the true and final King." },
+      { "type": "The exile and return", "fulfillment": "The return from Babylon foreshadows the greater deliverance in Christ, who ends the exile of sin and brings His people home to God." }
+    ],
+    "christ": "Every name in the list is a signpost pointing to the last one: Jesus, who is called Christ. He is the goal of the promise to Abraham and the heir of David's throne. Matthew stresses His identity as King before He tells a single story, so that we read the whole Gospel knowing who this is. And the four women woven into the line, Tamar, Rahab, Ruth, and the wife of Uriah, reveal the character of His kingdom: a Savior unashamed of a family of sinners and outsiders, come to seek and to save exactly such as these.",
+    "god": "The genealogy is a quiet monument to God's faithfulness. Across a thousand years, through patriarchs and kings, saints and scoundrels, triumph and the catastrophe of exile, God preserves the promised line and keeps every word He spoke to Abraham and David. He is sovereign over history and patient beyond measure, and He is not too holy to work through Rahab the prostitute, Ruth the Moabite, or the scandal behind Uriah's wife. The God of this list keeps promises.",
+    "crossReferences": [
+      { "ref": "Genesis 12:1-3", "note": "The promise that in Abraham all families of the earth will be blessed, fulfilled in his seed, Jesus." },
+      { "ref": "2 Samuel 7:12-16", "note": "God's covenant with David: a son whose throne will be established forever." },
+      { "ref": "Galatians 3:16", "note": "The promises were spoken to Abraham and to his seed, who is Christ." },
+      { "ref": "Ruth 4:18-22", "note": "The line from Perez to David, which Matthew carries forward to Jesus." }
+    ],
+    "oneStory": "Matthew's first sentence binds the whole Bible together. The promises to Abraham that the nations would be blessed, and to David that a King would reign forever, are not forgotten dreams but living threads that run straight to Jesus. Through faithfulness and failure, through the loss of everything in exile, God kept the line alive, and now the long-awaited Christ has come, ready to gather sinners and nations into His everlasting kingdom.",
+    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+  },
+  "quiz": [
+    {
+      "q": "What two titles does Matthew give Jesus in the opening verse?",
+      "options": [
+        { "text": "The son of David and the son of Abraham.", "weight": 100, "note": "Verse 1 names both, framing Jesus as the royal Messiah and the seed of promise." },
+        { "text": "The son of David, the promised King.", "weight": 75, "note": "True and central, but it leaves out son of Abraham, the other title Matthew highlights." },
+        { "text": "The son of Adam and the Savior of the world.", "weight": 25, "note": "That is closer to Luke's emphasis; Matthew's opening titles are son of David and son of Abraham." },
+        { "text": "The son of Moses and the giver of the law.", "weight": 0, "note": "Matthew never calls Jesus son of Moses; the opening titles are son of David and son of Abraham." }
+      ]
+    },
+    {
+      "q": "Why does Matthew include Tamar, Rahab, Ruth, and Uriah's wife in the line?",
+      "options": [
+        { "text": "To show a Messiah whose family includes sinners and outsiders, a sign of grace.", "weight": 100, "note": "Their presence anticipates a kingdom that reaches the broken and the nations." },
+        { "text": "To record God's providence through unexpected, irregular events.", "weight": 75, "note": "True as far as it goes, but it understates the deliberate theme of grace to outsiders." },
+        { "text": "Simply to be historically complete about the mothers.", "weight": 25, "note": "Genealogies normally omitted women; naming these four is pointed, not mere completeness." },
+        { "text": "To prove the line was ritually pure and unblemished.", "weight": 0, "note": "The opposite: these names carry scandal and foreignness, highlighting grace, not purity." }
+      ]
+    },
+    {
+      "q": "What is the significance of the three sets of fourteen generations?",
+      "options": [
+        { "text": "A deliberate structure foregrounding Jesus as the son of David, the number of David's name.", "weight": 100, "note": "Verse 17 states the pattern; fourteen ties the whole list to David and to Messiah." },
+        { "text": "A memory aid that organizes Israel's long history into stages.", "weight": 75, "note": "True, it aids memory, but it misses the pointed link to David and the Messiah." },
+        { "text": "A precise count of every single ancestor without omission.", "weight": 25, "note": "Matthew clearly omits some names to make the pattern; it is representative, not exhaustive." },
+        { "text": "An accidental coincidence with no intended meaning.", "weight": 0, "note": "Verse 17 makes the pattern explicit and intentional, not accidental." }
+      ]
+    },
+    {
+      "q": "How does the wording change at verse 16, and why does it matter?",
+      "options": [
+        { "text": "The chain of begot breaks: Joseph is husband of Mary, of whom Jesus was born, hinting at the virgin birth.", "weight": 100, "note": "The grammar refuses to say Joseph begot Jesus, preparing for the conception by the Spirit." },
+        { "text": "Joseph is called the father of Jesus, completing the royal line.", "weight": 75, "note": "Joseph gives Jesus legal Davidic descent, but the text pointedly avoids saying he begot Jesus." },
+        { "text": "Mary is named as a descendant of David directly.", "weight": 25, "note": "Matthew traces the line through Joseph, not through Mary's descent, in this passage." },
+        { "text": "The verse says Jesus begot the next generation.", "weight": 0, "note": "The list ends with Jesus; He is the goal, not a link to further generations here." }
+      ]
+    },
+    {
+      "q": "What does the genealogy reveal about God?",
+      "options": [
+        { "text": "He faithfully keeps His promises across centuries, through both faithful and sinful people.", "weight": 100, "note": "The line preserves the promises to Abraham and David through every generation." },
+        { "text": "He works only through the strong and successful kings.", "weight": 75, "note": "God did work through kings, but the list is full of failures and outsiders too, so this is too narrow." },
+        { "text": "He rewards only the morally pure ancestors.", "weight": 25, "note": "The line includes notorious sinners; the theme is grace and faithfulness, not moral reward." },
+        { "text": "He had abandoned His promises during the exile.", "weight": 0, "note": "The exile is a low point, yet God preserves the line through it, showing He never abandoned His word." }
+      ]
+    }
+  ],
+  "questions": [
+    "Matthew's first word about Jesus is His lineage, His belonging to a story bigger than Himself. How does it steady your faith to know Jesus stands at the climax of a thousand years of God keeping His promises?",
+    "The family tree of the Messiah is full of sinners and outsiders. What does it mean for you that Jesus was not ashamed to have such people in His line, and to seek such people still?",
+    "God preserved the promised line even through the disaster of exile. Where in your own life do you need to trust that God is keeping His purposes alive even in seasons that feel like loss?",
+    "The whole list exists to point to one name, Jesus the Christ. In what ways are you tempted to make the story about yourself rather than about Him?",
+    "Jesus is the son of Abraham, in whom the nations are blessed. How does this shape the way you pray for and reach people who are far from God?"
+  ],
+  "translationNotes": [
+    { "ref": "Matthew 1:1", "note": "The record of the genealogy renders biblos geneseos, literally book of the genealogy or of the origin, a phrase that echoes the Greek of Genesis 2:4 and 5:1." },
+    { "ref": "Matthew 1:6", "note": "Uriah's wife names Bathsheba without naming her, keeping the memory of David's sin in view even as the royal line continues through Solomon." },
+    { "ref": "Matthew 1:11", "note": "Jeconiah is also called Jehoiachin; the list telescopes some generations, a normal ancient practice, to preserve the pattern of three sets of fourteen." }
+  ],
+  "meta": { "textToVerify": [], "notes": "BSB text fetched this session from bible.helloao.org for Matthew 1:1-17. Verse text assembled by concatenating segment values in order; poem, lineBreak, and note markers were skipped. Section connectors within the genealogy (Next: at verse 6, After the exile to Babylon: at verse 12) were kept as they stand in the source. No em or en dashes appear. Sermon left as none; no expositor sermon URL verified this session." }
+}

@@ -4,32 +4,36 @@ This file lets any new chat working in this repo pick up the study-authoring
 campaign. It assumes the Scripture Study Pipeline v1.2 project instructions are
 active and the repo is connected.
 
-## Progress (42 of 66 books, 455 studies)
+## Progress (47 of 66 books, 603 studies)
 
 Done: Genesis, Ruth, all 12 Minor Prophets (Hosea, Joel, Amos, Obadiah, Jonah,
 Micah, Nahum, Habakkuk, Zephaniah, Haggai, Zechariah, Malachi), all 21 New
 Testament epistles (Romans, 1-2 Corinthians, Galatians, Ephesians, Philippians,
 Colossians, 1-2 Thessalonians, 1-2 Timothy, Titus, Philemon, Hebrews, James,
-1-2 Peter, 1-3 John, Jude), and the wave 5 short Old Testament books
-(Lamentations, Ezra, Esther, Song of Solomon, Daniel, Nehemiah, Ecclesiastes).
+1-2 Peter, 1-3 John, Jude), the wave 5 short Old Testament books (Lamentations,
+Ezra, Esther, Song of Solomon, Daniel, Nehemiah, Ecclesiastes), and the wave 6
+Gospels and Acts (Matthew, Mark, Luke, John, Acts).
 
-Remaining (24 books, 899 movements): Exodus, Leviticus, Numbers, Deuteronomy,
+Remaining (19 books, 751 movements): Exodus, Leviticus, Numbers, Deuteronomy,
 Joshua, Judges, 1-2 Samuel, 1-2 Kings, 1-2 Chronicles, Job, Psalms, Proverbs,
-Isaiah, Jeremiah, Ezekiel, Matthew, Mark, Luke, John, Acts, Revelation.
+Isaiah, Jeremiah, Ezekiel, Revelation.
 
-## Recommended next wave (wave 6)
+## Recommended next wave (wave 7)
 
-Wave 5 is complete (76 studies, validator clean). Good next targets: the Gospels
-and Acts (Matthew, Mark, Luke, John, Acts), or the mid Old Testament histories
-(Joshua, Judges, 1-2 Samuel, 1-2 Kings, 1-2 Chronicles). Job, Proverbs, and the
-big prophets (Isaiah, Jeremiah, Ezekiel) are the heaviest remaining lifts.
+Wave 6 is complete (148 studies, validator clean). The whole New Testament and
+all the Minor Prophets are now done. Good next targets: the mid Old Testament
+histories (Joshua, Judges, 1-2 Samuel, 1-2 Kings, 1-2 Chronicles), or Revelation
+paired with the wisdom books (Job, Proverbs). The heaviest remaining lifts are
+Psalms (150 movements, three digit orders), Isaiah, Jeremiah, and Ezekiel; the
+Pentateuch (Exodus, Leviticus, Numbers, Deuteronomy) is also large.
 
-Outstanding side task: a sermon-link pass. Many studies in waves 2 to 5 have
-sermon status "none" because web verification was unstable during authoring. In
-wave 5, Ezra 08 (Piper) and Esther 07 to 10 plus Lamentations 02 to 03 (Begg,
-Truth For Life) are verified; the rest of wave 5, and all of Daniel, Song of
-Solomon, Nehemiah, and Ecclesiastes, are "none" and await the link pass. Fill
-them once the network is steady, verifying each link by web search.
+Outstanding side task: a sermon-link pass. Many studies in waves 2 to 6 have
+sermon status "none" because web verification was unstable during authoring.
+Verified so far include wave 5 (Ezra 08 Piper; Esther 07 to 10 and Lamentations
+02 to 03 Begg) and wave 6 (Acts 08 to 09 Begg, Acts 10 to 11 Keller; Luke 01 to
+08, 10 to 12, 16 Begg, Luke 02 and 15 Keller, Luke 17 Piper). All of Matthew,
+Mark, John, and the rest await the link pass. Fill them once the network is
+steady, verifying each link by web search.
 
 ## How to run a wave (what worked)
 
