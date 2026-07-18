@@ -1,16 +1,83 @@
 ---
 import Base from '../layouts/Base.astro';
+import { books, plans } from '../data/plan.js';
+
+// Build the badge and tier config at build time from the movement plan.
+const bookTotals = {};
+let total = 0;
+for (const b of books) {
+  const n = (plans[b.name] || []).length;
+  if (n > 0) { bookTotals[b.name] = n; total += n; }
+}
+const testament = {};
+for (const b of books) testament[b.name] = b.testament;
+
+const tiers = [
+  { name: 'Sojourner', min: 0 },
+  { name: 'Berean', min: 1 },
+  { name: 'Disciple', min: Math.ceil(total * 0.15) },
+  { name: 'Steward of the Word', min: Math.ceil(total * 0.40) },
+  { name: 'Workman', min: Math.ceil(total * 0.70) },
+  { name: 'Discipled Scribe', min: total },
+];
+
+const badgeConfig = {
+  total,
+  bookTotals,
+  testament,
+  tiers,
+  torah: ['Genesis', 'Exodus', 'Leviticus', 'Numbers', 'Deuteronomy'],
+  gospels: ['Matthew', 'Mark', 'Luke', 'John'],
+  growthThreshold: 25,
+};
 ---
 <Base title="My progress | Makor" description="How you are growing in the Word.">
   <section class="hero">
     <p class="eyebrow">Your growth</p>
     <h1>Growing in the Word</h1>
-    <p class="lead">How the studies are deepening your understanding: your score before each study, your score after, and how both are rising over time.</p>
+    <p class="lead">Your title, your badges, and how the studies are deepening your understanding over time.</p>
   </section>
 
   <p id="prog-status" class="rank-status">Loading your progress...</p>
 
   <div id="prog-wrap" hidden>
+    <!-- Tier hero -->
+    <section class="tier-hero" id="tier-hero" hidden>
+      <svg class="tier-ripple" viewBox="0 0 200 200" fill="none" aria-hidden="true">
+        <circle cx="100" cy="100" r="90" stroke="#fff" stroke-width="2"/>
+        <circle cx="100" cy="100" r="64" stroke="#fff" stroke-width="2"/>
+        <circle cx="100" cy="100" r="38" stroke="#fff" stroke-width="2"/>
+        <circle cx="100" cy="100" r="12" fill="#B8862F"/>
+      </svg>
+      <p class="tier-label">Your title</p>
+      <h2 class="tier-title">You are a <span id="tier-name">Sojourner</span></h2>
+      <p class="tier-humility">Your title marks how far you have travelled through the Scriptures, not how far God has to go with any of us.</p>
+      <div class="tier-progress">
+        <div class="tier-progtop"><span>Whole Bible</span><span id="tier-count"></span></div>
+        <div class="tier-bar"><i id="tier-fill"></i></div>
+        <p class="tier-next" id="tier-next"></p>
+      </div>
+      <div class="tier-ladder" id="tier-ladder"></div>
+    </section>
+
+    <!-- Badges -->
+    <section class="badges-block">
+      <h2 class="prog-h2">Badges</h2>
+      <p class="badges-intro">Each badge is a ripple from the source: one study, touching one life, spreading outward. Earned badges hold the gold light at their centre; the rest wait, showing you what to reach for next.</p>
+      <div class="badge-summary">
+        <div class="badge-count"><span id="badge-earned">0</span><small> / <span id="badge-total">0</span> earned</small></div>
+        <div class="badge-sumbar"><i id="badge-sumfill"></i></div>
+      </div>
+      <div class="badge-filters" id="badge-filters">
+        <button data-filter="all" class="on" type="button">All</button>
+        <button data-filter="earned" type="button">Earned</button>
+        <button data-filter="locked" type="button">Still to earn</button>
+      </div>
+      <div id="badge-groups"></div>
+    </section>
+
+    <!-- Existing growth detail -->
+    <h2 class="prog-h2">Your understanding</h2>
     <div class="stat-row">
       <div class="stat"><div class="stat-num" id="stat-count">0</div><div class="stat-label">studies completed</div></div>
       <div class="stat"><div class="stat-num" id="stat-lift">0</div><div class="stat-label">average lift, after minus before</div></div>
@@ -32,7 +99,67 @@ import Base from '../layouts/Base.astro';
   </div>
 
   <a class="backlink" href="/">Back to all books</a>
+
+  <script id="badge-config" type="application/json" set:html={JSON.stringify(badgeConfig)}></script>
 </Base>
+
+<style>
+  /* Tier hero */
+  .tier-hero { position: relative; overflow: hidden; background: linear-gradient(135deg, var(--ink), var(--water-deep)); color: #eaf4f3; border-radius: 14px; padding: 1.6rem 1.75rem; margin: 0.5rem 0 2rem; }
+  .tier-hero[hidden] { display: none; }
+  .tier-ripple { position: absolute; right: -50px; top: -50px; width: 210px; height: 210px; opacity: 0.14; }
+  .tier-label { font-family: var(--sans); text-transform: uppercase; letter-spacing: 0.16em; font-size: 0.72rem; font-weight: 700; color: #8fc0bf; margin: 0 0 0.2rem; }
+  .tier-title { font-family: var(--serif); font-size: 2rem; margin: 0; color: #fff; }
+  .tier-title span { color: #e6c168; }
+  .tier-humility { font-family: var(--serif); font-style: italic; font-size: 1.02rem; color: #bcd6d5; margin: 0.5rem 0 1.2rem; max-width: 34rem; }
+  .tier-progress { max-width: 34rem; }
+  .tier-progtop { display: flex; justify-content: space-between; font-family: var(--sans); font-size: 0.85rem; color: #bcd6d5; margin-bottom: 0.4rem; }
+  .tier-bar { height: 11px; background: rgba(255,255,255,0.16); border-radius: 999px; overflow: hidden; }
+  .tier-bar > i { display: block; height: 100%; background: linear-gradient(90deg, var(--light), #e6c168); border-radius: 999px; }
+  .tier-next { font-family: var(--sans); font-size: 0.82rem; color: #a9cbca; margin: 0.6rem 0 0; }
+  .tier-next b { color: #e6c168; }
+  .tier-ladder { display: flex; justify-content: space-between; gap: 0.25rem; margin-top: 1.5rem; }
+  .tier-step { flex: 1; text-align: center; position: relative; }
+  .tier-step::before { content: ""; position: absolute; top: 10px; left: -50%; width: 100%; height: 2px; background: rgba(255,255,255,0.18); }
+  .tier-step:first-child::before { display: none; }
+  .tier-step.done::before, .tier-step.current::before { background: var(--light); }
+  .tier-dot { width: 22px; height: 22px; border-radius: 50%; margin: 0 auto 0.4rem; background: rgba(255,255,255,0.14); border: 2px solid rgba(255,255,255,0.3); position: relative; z-index: 1; }
+  .tier-step.done .tier-dot { background: var(--light); border-color: var(--light); }
+  .tier-step.current .tier-dot { background: #fff; border-color: var(--light); box-shadow: 0 0 0 5px rgba(184,134,47,0.35); }
+  .tier-step .tier-steplbl { font-family: var(--sans); font-size: 0.68rem; line-height: 1.2; color: #a9cbca; display: block; }
+  .tier-step.current .tier-steplbl { color: #fff; font-weight: 700; }
+
+  /* Badges */
+  .badges-intro { color: var(--muted); font-size: 0.98rem; margin: 0 0 1rem; max-width: 40rem; }
+  .badge-summary { display: flex; align-items: center; gap: 1.25rem; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 0.9rem 1.25rem; margin-bottom: 1rem; }
+  .badge-count { font-family: var(--serif); font-size: 1.9rem; font-weight: 600; color: var(--ink); line-height: 1; white-space: nowrap; }
+  .badge-count small { font-size: 1rem; color: var(--muted); }
+  .badge-sumbar { flex: 1; height: 8px; background: var(--line); border-radius: 999px; overflow: hidden; }
+  .badge-sumbar > i { display: block; height: 100%; background: linear-gradient(90deg, var(--water), var(--light)); }
+  .badge-filters { display: flex; gap: 0.5rem; margin: 0 0 1.5rem; }
+  .badge-filters button { font-family: var(--sans); font-size: 0.85rem; font-weight: 600; cursor: pointer; background: var(--surface); border: 1px solid var(--line); color: var(--muted); padding: 0.4rem 0.95rem; border-radius: 999px; }
+  .badge-filters button.on { background: var(--water); color: #fff; border-color: var(--water); }
+  .badge-group-title { font-family: var(--serif); font-size: 1.3rem; margin: 1.6rem 0 0.15rem; color: var(--ink); }
+  .badge-group-sub { color: var(--muted); font-size: 0.85rem; margin: 0 0 0.9rem; }
+  .badge-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; }
+  .badge-card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 1.3rem 1.1rem 1.1rem; display: flex; flex-direction: column; align-items: center; text-align: center; position: relative; }
+  .badge-card.locked { background: #faf7f0; }
+  .badge-med { width: 96px; height: 96px; margin-bottom: 0.7rem; }
+  .badge-med svg { width: 100%; height: 100%; display: block; }
+  .badge-title { font-family: var(--serif); font-size: 1.2rem; font-weight: 600; margin: 0 0 0.1rem; color: var(--ink); }
+  .badge-verse { font-family: var(--sans); font-size: 0.72rem; color: var(--light); font-weight: 700; letter-spacing: 0.02em; margin-bottom: 0.45rem; }
+  .badge-card.locked .badge-verse { color: #b0a084; }
+  .badge-desc { font-family: var(--sans); font-size: 0.82rem; color: var(--muted); margin: 0 0 0.8rem; min-height: 2.4em; }
+  .badge-state { width: 100%; margin-top: auto; }
+  .badge-earned { display: inline-flex; align-items: center; gap: 0.4rem; font-family: var(--sans); font-size: 0.78rem; font-weight: 700; color: var(--water-deep); background: #e3efee; border: 1px solid #cfe3e1; border-radius: 999px; padding: 0.3rem 0.75rem; }
+  .badge-locktag { font-family: var(--sans); font-size: 0.75rem; font-weight: 700; color: #b0a084; }
+  .badge-howto { font-family: var(--sans); font-size: 0.74rem; color: #b0a084; margin-top: 0.35rem; line-height: 1.35; }
+  .badge-mini { margin-top: 0.55rem; }
+  .badge-mini .track { height: 6px; background: var(--line); border-radius: 999px; overflow: hidden; }
+  .badge-mini .track > i { display: block; height: 100%; background: var(--water); }
+  .badge-mini .lbl { font-family: var(--sans); font-size: 0.7rem; color: #b0a084; margin-top: 0.25rem; }
+  .badge-ribbon { position: absolute; top: 0.7rem; right: 0.7rem; width: 22px; height: 22px; border-radius: 50%; background: var(--light); display: flex; align-items: center; justify-content: center; }
+</style>
 
 <script>
   function trendWord(series) {
@@ -55,6 +182,257 @@ import Base from '../layouts/Base.astro';
     scores.forEach((v, i) => { dots += '<circle cx="' + x(i).toFixed(1) + '" cy="' + y(v).toFixed(1) + '" r="3" fill="' + color + '"/>'; });
     return '<path d="' + d + '" fill="none" stroke="' + color + '" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>' + dots;
   }
+
+  // ---- Badge artwork ----
+  const ICONS = {
+    firstLight: '<line x1="10" y1="44" x2="54" y2="44"/><path d="M20 44a12 12 0 0 1 24 0"/><line x1="32" y1="14" x2="32" y2="21"/><line x1="17" y1="21" x2="22" y2="26"/><line x1="47" y1="21" x2="42" y2="26"/><line x1="9" y1="36" x2="15" y2="36"/><line x1="49" y1="36" x2="55" y2="36"/>',
+    scroll: '<rect x="20" y="13" width="24" height="28" rx="3"/><line x1="25" y1="20" x2="39" y2="20"/><line x1="25" y1="26" x2="39" y2="26"/><line x1="25" y1="32" x2="34" y2="32"/><circle cx="32" cy="48" r="6"/>',
+    testaments: '<path d="M32 20c-5-4-12-4-16-2v25c4-2 11-2 16 2"/><path d="M32 20c5-4 12-4 16-2v25c-4-2-11-2-16 2"/><line x1="32" y1="20" x2="32" y2="45"/>',
+    foundations: '<rect x="14" y="40" width="14" height="9"/><rect x="30" y="40" width="14" height="9"/><rect x="46" y="40" width="5" height="9"/><rect x="22" y="30" width="14" height="9"/><rect x="38" y="30" width="10" height="9"/><rect x="28" y="20" width="14" height="9"/>',
+    fourfold: '<rect x="16" y="16" width="14" height="14" rx="2"/><rect x="34" y="16" width="14" height="14" rx="2"/><rect x="16" y="34" width="14" height="14" rx="2"/><rect x="34" y="34" width="14" height="14" rx="2"/>',
+    wholeCounsel: '<path d="M32 24c-5-4-13-4-18-1v22c5-3 13-3 18 1"/><path d="M32 24c5-4 13-4 18-1v22c-5-3-13-3-18 1"/><line x1="32" y1="13" x2="32" y2="19"/><line x1="22" y1="15" x2="24" y2="20"/><line x1="42" y1="15" x2="40" y2="20"/>',
+    bread: '<path d="M16 40c0-9 7-16 16-16s16 7 16 16z"/><line x1="16" y1="40" x2="48" y2="40"/><line x1="26" y1="27" x2="23" y2="37"/><line x1="32" y1="25" x2="32" y2="37"/><line x1="38" y1="27" x2="41" y2="37"/>',
+    morning: '<line x1="10" y1="48" x2="54" y2="48"/><path d="M22 48a10 10 0 0 1 20 0"/><path d="M14 40a18 18 0 0 1 36 0" stroke-dasharray="3 4"/><line x1="32" y1="16" x2="32" y2="21"/>',
+    flame: '<path d="M32 15c6 8 10 12 10 20a10 10 0 0 1-20 0c0-5 3-8 5-12 1 3 3 4 5 4-1-4-2-8 0-12z"/>',
+    heart: '<path d="M32 46S18 38 18 28a8 8 0 0 1 14-5 8 8 0 0 1 14 5c0 10-14 18-14 18z"/><line x1="32" y1="30" x2="32" y2="36"/><line x1="29" y1="33" x2="35" y2="33"/>',
+    sword: '<line x1="32" y1="14" x2="32" y2="42"/><path d="M32 14l3 4-3 3-3-3z"/><line x1="24" y1="44" x2="40" y2="44"/><line x1="32" y1="44" x2="32" y2="50"/>',
+    treasure: '<rect x="16" y="28" width="32" height="20" rx="2"/><path d="M16 28a16 8 0 0 1 32 0"/><line x1="16" y1="36" x2="48" y2="36"/><rect x="29" y="33" width="6" height="7" rx="1"/>',
+    growth: '<path d="M32 46V28"/><path d="M32 30c-6 0-11-4-11-10 6 0 11 4 11 10z"/><path d="M32 34c6 0 11-4 11-10-6 0-11 4-11 10z"/><line x1="24" y1="49" x2="40" y2="49"/>',
+    sower: '<path d="M18 26c6 4 10 4 16 2"/><circle cx="40" cy="24" r="1.6"/><circle cx="45" cy="30" r="1.6"/><circle cx="43" cy="38" r="1.6"/><circle cx="48" cy="42" r="1.6"/><circle cx="38" cy="44" r="1.6"/><path d="M14 44h36" stroke-dasharray="2 4"/>',
+    horn: '<path d="M16 30c8-2 22-6 30-12v28c-8-6-22-10-30-12z"/><line x1="16" y1="30" x2="16" y2="34"/><path d="M48 22c3 3 3 15 0 20"/>',
+    onemore: '<circle cx="26" cy="26" r="6"/><path d="M16 46c0-6 4-10 10-10s10 4 10 10"/><circle cx="44" cy="30" r="4"/><path d="M39 46c0-4 2-7 5-7s5 3 5 7"/>'
+  };
+  function medallion(key, earned) {
+    if (earned) {
+      return '<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">' +
+        '<defs><radialGradient id="s_' + key + '" cx="42%" cy="36%" r="70%"><stop offset="0%" stop-color="#e9c877"/><stop offset="55%" stop-color="#c9993f"/><stop offset="100%" stop-color="#a5751f"/></radialGradient></defs>' +
+        '<circle cx="32" cy="32" r="30" fill="none" stroke="#0F6C6C" stroke-width="1.4" opacity="0.32"/>' +
+        '<circle cx="32" cy="32" r="25.5" fill="none" stroke="#0F6C6C" stroke-width="1.6" opacity="0.7"/>' +
+        '<circle cx="32" cy="32" r="21" fill="url(#s_' + key + ')" stroke="#8a6015" stroke-width="1.3"/>' +
+        '<g fill="none" stroke="#0E2A2E" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" transform="translate(32,32) scale(0.66) translate(-32,-32)">' + ICONS[key] + '</g></svg>';
+    }
+    return '<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">' +
+      '<circle cx="32" cy="32" r="30" fill="none" stroke="#e4ddcc" stroke-width="1.4"/>' +
+      '<circle cx="32" cy="32" r="25.5" fill="none" stroke="#e0d8c4" stroke-width="1.6"/>' +
+      '<circle cx="32" cy="32" r="21" fill="#f2ede1" stroke="#e0d8c4" stroke-width="1.3"/>' +
+      '<g fill="none" stroke="#b3a48a" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" transform="translate(32,32) scale(0.66) translate(-32,-32)">' + ICONS[key] + '</g></svg>';
+  }
+  var CHECK = '<svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="#0E2A2E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L19 7"/></svg>';
+
+  function fmtDate(iso) {
+    if (!iso) return '';
+    var d = new Date(iso);
+    var m = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    return d.getDate() + ' ' + m[d.getMonth()] + ' ' + d.getFullYear();
+  }
+
+  // ---- Badge definitions. Each evaluate(ctx) returns {earned, date} or {prog:{now,max,unit}} or {soon:true} ----
+  var BADGE_GROUPS = [
+    { title: 'Milestones', sub: 'Marks of ground covered in the Scriptures.', badges: [
+      { icon: 'firstLight', name: 'First Light', verse: 'Genesis 1:3', desc: 'Complete your first study.',
+        evaluate: function (c) { return c.totalCompleted >= 1 ? { earned: true, date: c.firstPostDate } : { prog: { now: 0, max: 1, unit: 'studies' } }; } },
+      { icon: 'scroll', name: 'Scroll Sealed', verse: 'A finished book', desc: 'Finish every movement of a single book.',
+        evaluate: function (c) { return c.completedBooks.length ? { earned: true, note: c.completedBooks[0] } : { prog: { now: c.bestBook.now, max: c.bestBook.max, unit: 'in ' + c.bestBook.name } }; } },
+      { icon: 'testaments', name: 'Both Testaments', verse: 'One story, two testaments', desc: 'Finish a book in the Old and one in the New.',
+        evaluate: function (c) { var ot = c.completedBooks.some(function (b) { return c.testament[b] === 'Old'; }); var nt = c.completedBooks.some(function (b) { return c.testament[b] === 'New'; }); return ot && nt ? { earned: true } : { prog: { now: (ot ? 1 : 0) + (nt ? 1 : 0), max: 2, unit: 'testaments' } }; } },
+      { icon: 'foundations', name: 'Foundations', verse: 'Genesis to Deuteronomy', desc: 'Complete all five books of the Torah.',
+        evaluate: function (c) { var n = c.torah.filter(function (b) { return c.completedBooks.indexOf(b) >= 0; }).length; return n >= 5 ? { earned: true } : { prog: { now: n, max: 5, unit: 'books' } }; } },
+      { icon: 'fourfold', name: 'The Fourfold Witness', verse: 'The four Gospels', desc: 'Complete Matthew, Mark, Luke, and John.',
+        evaluate: function (c) { var n = c.gospels.filter(function (b) { return c.completedBooks.indexOf(b) >= 0; }).length; return n >= 4 ? { earned: true } : { prog: { now: n, max: 4, unit: 'Gospels' } }; } },
+      { icon: 'wholeCounsel', name: 'The Whole Counsel', verse: 'Acts 20:27', desc: 'Finish every movement of the whole Bible.',
+        evaluate: function (c) { return c.totalCompleted >= c.total ? { earned: true } : { prog: { now: c.totalCompleted, max: c.total, unit: 'movements' } }; } },
+    ] },
+    { title: 'Consistency', sub: 'Marks of a steady, returning heart.', badges: [
+      { icon: 'bread', name: 'Daily Bread', verse: 'Matthew 6:11', desc: 'Study on 7 days in a row.',
+        evaluate: function (c) { return c.longestStreak >= 7 ? { earned: true } : { prog: { now: c.longestStreak, max: 7, unit: 'day streak' } }; } },
+      { icon: 'morning', name: 'Morning by Morning', verse: 'Lamentations 3:23', desc: 'Study on 30 days in a row.',
+        evaluate: function (c) { return c.longestStreak >= 30 ? { earned: true } : { prog: { now: c.longestStreak, max: 30, unit: 'day streak' } }; } },
+      { icon: 'flame', name: 'Faithful in Little', verse: 'Luke 16:10', desc: 'Study on 100 days in all.',
+        evaluate: function (c) { return c.activeDays >= 100 ? { earned: true } : { prog: { now: c.activeDays, max: 100, unit: 'days' } }; } },
+    ] },
+    { title: 'Depth and Mastery', sub: 'Marks of the Word understood, not only read.', badges: [
+      { icon: 'sword', name: 'Rightly Dividing', verse: '2 Timothy 2:15', desc: "Score full marks on a study's knowledge check.",
+        evaluate: function (c) { return c.hasPerfect ? { earned: true, date: c.perfectDate } : { prog: { now: c.bestPost, max: 100, unit: 'best after score' } }; } },
+      { icon: 'growth', name: 'Growth Shown', verse: 'Before and after', desc: 'Score far higher after a study than before it.',
+        evaluate: function (c) { return c.hasBigLift ? { earned: true } : { prog: { now: Math.max(0, c.bestLift), max: c.growthThreshold, unit: 'point lift' } }; } },
+      { icon: 'treasure', name: 'Treasure Old and New', verse: 'Matthew 13:52', desc: 'Full marks on every study in a whole book.',
+        evaluate: function (c) { return c.perfectBooks.length ? { earned: true, note: c.perfectBooks[0] } : { prog: { now: c.bestPerfectBook.now, max: c.bestPerfectBook.max, unit: 'in ' + c.bestPerfectBook.name } }; } },
+      { icon: 'heart', name: 'Ponder in the Heart', verse: 'Luke 2:19', desc: 'Answer the reflection questions on a study.',
+        evaluate: function () { return { soon: true }; } },
+    ] },
+    { title: 'Sharing and Community', sub: 'Marks of the Word passed on to others.', badges: [
+      { icon: 'sower', name: 'The Sower', verse: 'Matthew 13', desc: 'Share your first study.', evaluate: function () { return { soon: true }; } },
+      { icon: 'horn', name: 'Go and Tell', verse: 'Mark 5:19', desc: 'Share studies from ten different books.', evaluate: function () { return { soon: true }; } },
+      { icon: 'onemore', name: 'One More', verse: 'Fishers of men', desc: 'Invite someone who then completes a study.', evaluate: function () { return { soon: true }; } },
+    ] },
+  ];
+
+  var badgeFilter = 'all';
+
+  function readConfig() {
+    var el = document.getElementById('badge-config');
+    try { return JSON.parse(el.textContent); } catch (e) { return null; }
+  }
+
+  function buildContext(rows, cfg) {
+    // Group post attempts by book -> set of slugs; track earliest post date.
+    var postByBook = {};
+    var firstPostDate = null;
+    var perfectDate = null;
+    var hasPerfect = false;
+    var scores = {}; // book|slug -> {pre, post}
+    var dayset = {};
+    rows.forEach(function (r) {
+      var book = r.book || '';
+      var key = book + '|' + r.study_slug;
+      scores[key] = scores[key] || {};
+      if (r.phase === 'pre') scores[key].pre = r.score;
+      if (r.phase === 'post') {
+        scores[key].post = r.score;
+        (postByBook[book] = postByBook[book] || {})[r.study_slug] = true;
+        if (!firstPostDate) firstPostDate = r.created_at;
+        if (r.score >= 100 && !hasPerfect) { hasPerfect = true; perfectDate = r.created_at; }
+        if (r.created_at) { var d = new Date(r.created_at); dayset[d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate()] = d; }
+      }
+    });
+
+    var totalCompleted = 0;
+    var completedBooks = [];
+    var bestBook = { name: '', now: 0, max: 1, ratio: -1 };
+    Object.keys(postByBook).forEach(function (book) {
+      var done = Object.keys(postByBook[book]).length;
+      totalCompleted += done;
+      var max = cfg.bookTotals[book] || done;
+      if (max && done >= max) completedBooks.push(book);
+      var ratio = max ? done / max : 0;
+      if (ratio > bestBook.ratio && (!max || done < max)) bestBook = { name: book, now: done, max: max, ratio: ratio };
+    });
+    if (!bestBook.name) bestBook = { name: 'a book', now: 0, max: 1 };
+
+    // Perfect-book: every movement in the book has a post score of 100.
+    var perfectBooks = [];
+    var bestPerfectBook = { name: '', now: 0, max: 1, ratio: -1 };
+    Object.keys(postByBook).forEach(function (book) {
+      var max = cfg.bookTotals[book];
+      if (!max) return;
+      var perfect = 0;
+      Object.keys(postByBook[book]).forEach(function (slug) {
+        var s = scores[book + '|' + slug];
+        if (s && s.post >= 100) perfect++;
+      });
+      if (perfect >= max) perfectBooks.push(book);
+      else { var ratio = perfect / max; if (ratio > bestPerfectBook.ratio) bestPerfectBook = { name: book, now: perfect, max: max, ratio: ratio }; }
+    });
+    if (!bestPerfectBook.name) bestPerfectBook = { name: 'a book', now: 0, max: 1 };
+
+    // Lift and best scores.
+    var bestPost = 0, bestLift = 0, hasBigLift = false;
+    Object.keys(scores).forEach(function (k) {
+      var s = scores[k];
+      if (typeof s.post === 'number') bestPost = Math.max(bestPost, s.post);
+      if (typeof s.pre === 'number' && typeof s.post === 'number') {
+        var lift = s.post - s.pre;
+        bestLift = Math.max(bestLift, lift);
+        if (lift >= cfg.growthThreshold) hasBigLift = true;
+      }
+    });
+
+    // Streaks from distinct active days.
+    var days = Object.keys(dayset).map(function (k) { return dayset[k]; }).sort(function (a, b) { return a - b; });
+    var activeDays = days.length;
+    var longestStreak = days.length ? 1 : 0, run = days.length ? 1 : 0;
+    for (var i = 1; i < days.length; i++) {
+      var diff = Math.round((days[i] - days[i - 1]) / 86400000);
+      if (diff === 1) run++; else if (diff > 1) run = 1;
+      if (run > longestStreak) longestStreak = run;
+    }
+
+    return {
+      total: cfg.total, testament: cfg.testament, torah: cfg.torah, gospels: cfg.gospels, growthThreshold: cfg.growthThreshold,
+      totalCompleted: totalCompleted, completedBooks: completedBooks, bestBook: bestBook,
+      perfectBooks: perfectBooks, bestPerfectBook: bestPerfectBook,
+      bestPost: bestPost, bestLift: bestLift, hasBigLift: hasBigLift,
+      hasPerfect: hasPerfect, perfectDate: perfectDate, firstPostDate: firstPostDate,
+      activeDays: activeDays, longestStreak: longestStreak,
+    };
+  }
+
+  function currentTier(n, tiers) {
+    var idx = 0;
+    for (var i = 0; i < tiers.length; i++) if (n >= tiers[i].min) idx = i;
+    return idx;
+  }
+
+  function renderTier(ctx, cfg) {
+    var hero = document.getElementById('tier-hero');
+    var idx = currentTier(ctx.totalCompleted, cfg.tiers);
+    document.getElementById('tier-name').textContent = cfg.tiers[idx].name;
+    var pct = cfg.total ? (ctx.totalCompleted / cfg.total * 100) : 0;
+    document.getElementById('tier-count').innerHTML = '<b>' + ctx.totalCompleted + '</b> of ' + cfg.total + ' movements &middot; ' + pct.toFixed(1) + '%';
+    document.getElementById('tier-fill').style.width = Math.max(1.5, pct) + '%';
+    var next = cfg.tiers[idx + 1];
+    document.getElementById('tier-next').innerHTML = next
+      ? 'Next title, <b>' + next.name + '</b>, at ' + next.min + ' movements. ' + (next.min - ctx.totalCompleted) + ' to go.'
+      : 'You have finished the whole counsel of God. Well done.';
+    var ladder = document.getElementById('tier-ladder');
+    ladder.innerHTML = cfg.tiers.map(function (t, i) {
+      var cls = i < idx ? 'done' : (i === idx ? 'current' : '');
+      return '<div class="tier-step ' + cls + '"><div class="tier-dot"></div><span class="tier-steplbl">' + t.name + '</span></div>';
+    }).join('');
+    hero.hidden = false;
+  }
+
+  function renderBadges(ctx) {
+    var wrap = document.getElementById('badge-groups');
+    wrap.innerHTML = '';
+    var total = 0, earned = 0;
+    BADGE_GROUPS.forEach(function (g) {
+      var cards = [];
+      g.badges.forEach(function (b) {
+        var res = b.evaluate(ctx);
+        total++;
+        var isE = !!res.earned;
+        if (isE) earned++;
+        var show = badgeFilter === 'all' || (badgeFilter === 'earned' && isE) || (badgeFilter === 'locked' && !isE);
+        if (!show) return;
+        var state;
+        if (isE) {
+          state = '<span class="badge-earned">' + CHECK + ' Earned' + (res.date ? ' ' + fmtDate(res.date) : '') + (res.note ? ' &middot; ' + res.note : '') + '</span>';
+        } else if (res.soon) {
+          state = '<span class="badge-locktag">Locked</span><div class="badge-howto">Tracking coming soon</div>';
+        } else if (res.prog) {
+          var pct = Math.round(res.prog.now / res.prog.max * 100);
+          state = '<span class="badge-locktag">Locked</span><div class="badge-mini"><div class="track"><i style="width:' + pct + '%"></i></div><div class="lbl">' + res.prog.now + ' of ' + res.prog.max + ' ' + res.prog.unit + '</div></div>';
+        } else {
+          state = '<span class="badge-locktag">Locked</span><div class="badge-howto">' + b.desc + '</div>';
+        }
+        cards.push('<div class="badge-card ' + (isE ? '' : 'locked') + '">' +
+          (isE ? '<div class="badge-ribbon">' + CHECK + '</div>' : '') +
+          '<div class="badge-med">' + medallion(b.icon, isE) + '</div>' +
+          '<h4 class="badge-title">' + b.name + '</h4>' +
+          '<div class="badge-verse">' + b.verse + '</div>' +
+          '<p class="badge-desc">' + b.desc + '</p>' +
+          '<div class="badge-state">' + state + '</div></div>');
+      });
+      if (cards.length) {
+        wrap.insertAdjacentHTML('beforeend', '<h3 class="badge-group-title">' + g.title + '</h3><p class="badge-group-sub">' + g.sub + '</p><div class="badge-grid">' + cards.join('') + '</div>');
+      }
+    });
+    document.getElementById('badge-earned').textContent = earned;
+    document.getElementById('badge-total').textContent = total;
+    document.getElementById('badge-sumfill').style.width = total ? Math.round(earned / total * 100) + '%' : '0%';
+  }
+
+  var lastCtx = null;
+  document.getElementById('badge-filters').addEventListener('click', function (e) {
+    var btn = e.target.closest('button');
+    if (!btn) return;
+    Array.prototype.forEach.call(this.querySelectorAll('button'), function (b) { b.classList.remove('on'); });
+    btn.classList.add('on');
+    badgeFilter = btn.dataset.filter;
+    if (lastCtx) renderBadges(lastCtx);
+  });
+
   async function loadProgress() {
     const status = document.getElementById('prog-status');
     const wrap = document.getElementById('prog-wrap');
@@ -73,6 +451,16 @@ import Base from '../layouts/Base.astro';
       if (wrap) wrap.hidden = true;
       return;
     }
+
+    // Tier and badges from the same data.
+    const cfg = readConfig();
+    if (cfg) {
+      const ctx = buildContext(rows, cfg);
+      lastCtx = ctx;
+      renderTier(ctx, cfg);
+      renderBadges(ctx);
+    }
+
     const byStudy = {};
     rows.forEach((r) => { (byStudy[r.study_slug] = byStudy[r.study_slug] || {})[r.phase] = r; });
     const studies = Object.keys(byStudy);

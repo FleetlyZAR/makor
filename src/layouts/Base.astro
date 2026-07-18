@@ -159,7 +159,7 @@ const canonicalUrl = 'https://makor.co.za' + Astro.url.pathname;
         const { data: u } = await client.auth.getUser();
         if (!u || !u.user) return [];
         const { data } = await client.from('attempts')
-          .select('study_slug,phase,score,created_at,title')
+          .select('study_slug,book,phase,score,created_at,title')
           .order('created_at', { ascending: true });
         return data || [];
       };
