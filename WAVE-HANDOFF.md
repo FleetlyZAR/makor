@@ -4,7 +4,7 @@ This file lets any new chat working in this repo pick up the study-authoring
 campaign. It assumes the Scripture Study Pipeline v1.2 project instructions are
 active and the repo is connected.
 
-## Progress (52 of 66 books, 732 studies)
+## Progress (55 of 66 books, 817 studies)
 
 Done: Genesis, Ruth, all 12 Minor Prophets (Hosea, Joel, Amos, Obadiah, Jonah,
 Micah, Nahum, Habakkuk, Zephaniah, Haggai, Zechariah, Malachi), all 21 New
@@ -12,31 +12,30 @@ Testament epistles (Romans, 1-2 Corinthians, Galatians, Ephesians, Philippians,
 Colossians, 1-2 Thessalonians, 1-2 Timothy, Titus, Philemon, Hebrews, James,
 1-2 Peter, 1-3 John, Jude), the wave 5 short Old Testament books (Lamentations,
 Ezra, Esther, Song of Solomon, Daniel, Nehemiah, Ecclesiastes), the wave 6
-Gospels and Acts (Matthew, Mark, Luke, John, Acts), and the wave 7 histories so
-far (Joshua, Judges, 1-2 Samuel, 1 Kings).
+Gospels and Acts (Matthew, Mark, Luke, John, Acts), and the wave 7 mid Old
+Testament histories (Joshua, Judges, 1-2 Samuel, 1-2 Kings, 1-2 Chronicles).
 
-Remaining (14 books, 622 movements): Exodus, Leviticus, Numbers, Deuteronomy,
-2 Kings, 1-2 Chronicles, Job, Psalms, Proverbs, Isaiah, Jeremiah, Ezekiel,
-Revelation.
+Remaining (11 books, 537 movements): Exodus, Leviticus, Numbers, Deuteronomy,
+Job, Psalms, Proverbs, Isaiah, Jeremiah, Ezekiel, Revelation.
 
-## Wave 7 in progress
+## Recommended next wave (wave 8)
 
-Wave 7 (mid Old Testament histories) is partly done: Joshua (26), Judges (25),
-1 Samuel (32), 2 Samuel (24), and 1 Kings (22) are written and their maps
-flipped to done. Still to author to finish wave 7: 2 Kings (25), 1 Chronicles
-(26), 2 Chronicles (34). After that, good targets are Revelation paired with the
-wisdom books (Job, Proverbs). The heaviest remaining lifts are Psalms (150
-movements, three digit orders), Isaiah, Jeremiah, and Ezekiel; the Pentateuch
-(Exodus, Leviticus, Numbers, Deuteronomy) is also large.
+Wave 7 is complete (214 studies, validator clean). Every historical book from
+Genesis through 2 Chronicles is now done, along with the whole New Testament and
+the Minor Prophets. Good next targets: Revelation paired with the wisdom books
+(Job, Proverbs), or the rest of the Pentateuch (Exodus, Leviticus, Numbers,
+Deuteronomy). The heaviest remaining lifts are Psalms (150 movements, three digit
+orders), Isaiah, Jeremiah, and Ezekiel.
 
 Outstanding side task: a sermon-link pass. Many studies in waves 2 to 7 have
 sermon status "none" because web verification was unstable during authoring.
 Verified so far include wave 5 (Ezra 08 Piper; Esther 07 to 10 and Lamentations
 02 to 03 Begg), wave 6 (Acts 08 to 09 Begg, Acts 10 to 11 Keller; Luke 01 to 08,
 10 to 12, 16 Begg, Luke 02 and 15 Keller, Luke 17 Piper), and wave 7 (1 Kings 02,
-08, 11, 19 Begg; 1 Kings 03, 17 Keller; 1 Kings 18 Piper). All of Matthew, Mark,
-John, Joshua, Judges, 1-2 Samuel, and the rest await the link pass. Fill them
-once the network is steady, verifying each link by web search.
+08, 11, 19 Begg, 03, 17 Keller, 18 Piper; 2 Kings 05 Keller, 25 Begg; 1 Chron 26
+Keller; 2 Chron 05 Begg, 14 Piper, 18 and 24 Begg). All of Matthew, Mark, John,
+Joshua, Judges, 1-2 Samuel, and the rest await the link pass. Fill them once the
+network is steady, verifying each link by web search.
 
 ## Local scripture toolkit (use this for BSB text and cross refs)
 
