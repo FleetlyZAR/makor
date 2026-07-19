@@ -50,7 +50,7 @@ import Base from '../layouts/Base.astro';
         <div class="step">
           <label class="h">2 · How long</label>
           <div class="opts" id="years">
-            <div class="opt sel" data-years="1">1 year<small>the deep dive</small></div>
+            <div class="opt sel" data-years="1"><span class="rec">Recommended</span>1 year<small>the deep dive</small></div>
             <div class="opt" data-years="2">2 years<small>steady</small></div>
             <div class="opt" data-years="3">3 years<small>gentle</small></div>
             <div class="opt" data-years="4">4 years<small>one a day</small></div>
@@ -60,7 +60,7 @@ import Base from '../layouts/Base.astro';
         <div class="step">
           <label class="h">3 · How often</label>
           <div class="opts" id="cadence">
-            <div class="opt sel" data-cadence="daily">Every day<small>seven days a week</small></div>
+            <div class="opt sel" data-cadence="daily"><span class="rec">Recommended</span>Every day<small>seven days a week</small></div>
             <div class="opt" data-cadence="weekday">Weekdays<small>Monday to Friday</small></div>
           </div>
         </div>
@@ -457,6 +457,14 @@ function storeCalId(id){
 }
 
 function gcalAuth(){
+  var tries=0;
+  try{ tries=+(sessionStorage.getItem('makor_gcal_tries')||0); }catch(e){}
+  if(tries>=2){
+    try{ sessionStorage.removeItem('makor_gcal_tries'); }catch(e){}
+    gsay('Google did not grant Makor calendar access. Press the button to try again, and on the Google screen make sure the calendar permission checkbox is ticked.');
+    return;
+  }
+  try{ sessionStorage.setItem('makor_gcal_tries',String(tries+1)); }catch(e){}
   try{ localStorage.setItem('makor_gcal_pending',JSON.stringify(cfgFromState())); }catch(e){}
   window.makorClient.auth.signInWithOAuth({ provider:'google', options:{
     scopes:GCAL_SCOPE,
@@ -500,6 +508,7 @@ function gcalCreateAndFill(token,cfg){
       var startDay=new Date((cfg.start||new Date().toISOString().slice(0,10))+'T00:00:00');
       var evs=scheduleEvents(list,startDay,cfg);
       return gcalBatchInsert(cal.id,evs,token,gcalProgress).then(function(){
+        try{ sessionStorage.removeItem('makor_gcal_tries'); }catch(e){}
         gsay('Done. '+list.length+' studies are on your Google Calendar in the "Makor reading plan" calendar. As new studies are published, press the button again and we will add them.');
       });
     });
@@ -519,12 +528,17 @@ function gcalSync(cal,token){
         if(d&&(!lastDate||d>lastDate)) lastDate=d;
       });
       var missing=list.filter(function(x){ return !have[x.url]; });
-      if(!missing.length){ gsay('Your calendar already has every committed study ('+list.length+'). Check back after new studies are published.'); return; }
+      if(!missing.length){
+        try{ sessionStorage.removeItem('makor_gcal_tries'); }catch(e){}
+        gsay('Your calendar already has every committed study ('+list.length+'). Check back after new studies are published.');
+        return;
+      }
       var startDay=lastDate?new Date(String(lastDate).slice(0,10)+'T00:00:00'):new Date();
       startDay.setDate(startDay.getDate()+1);
       var evs=scheduleEvents(missing,startDay,cfg);
       gsay('Adding '+missing.length+' newly published studies to your calendar...');
       return gcalBatchInsert(cal.id,evs,token,gcalProgress).then(function(){
+        try{ sessionStorage.removeItem('makor_gcal_tries'); }catch(e){}
         gsay('Done. '+missing.length+' new studies added, continuing at your usual pace and times.');
       });
     });
@@ -554,14 +568,31 @@ document.getElementById('gcal').onclick=function(){
 };
 
 // Returning from the Google consent screen: restore choices and continue.
+// We resume whenever a pending request exists, not only when the ?gcal=resume
+// marker survives the round trip, because Supabase falls back to the site
+// homepage when /plan/ is missing from its redirect allow-list; the user
+// then returns here and the plan still completes.
 (function(){
-  if(location.search.indexOf('gcal=resume')<0) return;
+  var marked=location.search.indexOf('gcal=resume')>=0;
   var cfg=null;
-  try{ cfg=JSON.parse(localStorage.getItem('makor_gcal_pending')||'null'); localStorage.removeItem('makor_gcal_pending'); }catch(e){}
-  if(cfg) applyCfg(cfg);
-  try{ history.replaceState(null,'',location.pathname); }catch(e){}
-  gsay('Finishing your Google sign in...');
-  function go(){ gcalRun(cfg||cfgFromState()); }
+  try{ cfg=JSON.parse(localStorage.getItem('makor_gcal_pending')||'null'); }catch(e){}
+  if(!marked && !cfg) return;
+  if(marked){ try{ history.replaceState(null,'',location.pathname); }catch(e){} }
+  function go(){
+    window.makorClient.auth.getSession().then(function(r){
+      var sess=r.data&&r.data.session;
+      if(!(sess&&sess.provider_token)){
+        // No Google token in hand: a stale pending flag, clear it quietly.
+        try{ localStorage.removeItem('makor_gcal_pending'); }catch(e){}
+        if(marked) gsay('The Google sign in did not complete. Press the button to try again.');
+        return;
+      }
+      try{ localStorage.removeItem('makor_gcal_pending'); }catch(e){}
+      if(cfg) applyCfg(cfg);
+      gsay('Finishing your Google sign in...');
+      gcalRun(cfg||cfgFromState());
+    });
+  }
   if(window.makorClient) go();
   else window.addEventListener('makor-auth',go,{once:true});
 })();
