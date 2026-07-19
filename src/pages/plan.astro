@@ -345,6 +345,17 @@ document.getElementById('mp-about').onclick=function(){
 
 (function initPlanCard(){
   function boot(){
+    // Arriving from a group plan: load its settings, name the calendar
+    // after the group, and carry its Meet link into every sitting.
+    if(location.search.match(/[?&]group=(\d+)/) && window.makorClient){
+      loadGroupCtx().then(function(g){
+        if(!g){ gsay(window.makorUser?'That group plan could not be found.':'Sign in (menu, top right), then reopen the group link to set up its calendar.'); return; }
+        if(location.search.indexOf('gcal=resume')>=0) return; // the resume flow narrates from here
+        gsay('Group plan "'+g.name+'" loaded with its times and start date. Press "Add to my Google Calendar" or download the file, and every sitting lands on your calendar'+(GROUP_MEET?' with the group video call attached':'')+'.');
+        var bs=document.getElementById('builder-section'); if(bs){ bs.hidden=false; bs.scrollIntoView({behavior:'smooth'}); }
+      });
+      return;
+    }
     var saved=loadPlanLocal();
     if(!saved||!saved.cfg){
       var meta=window.makorUser&&window.makorUser.user_metadata&&window.makorUser.user_metadata.makor_plan_cfg;
@@ -369,8 +380,9 @@ function build(){
     var tm=en.time.split(':');
     var st0=at(en.date,+tm[0],+tm[1]);
     var titles=sittingTitle(en.items);
-    var desc=sittingDesc(en.items);
+    var desc=sittingDesc(en.items)+(GROUP_MEET?'\n\nGroup video call: '+GROUP_MEET:'');
     lines.push('BEGIN:VEVENT');
+    if(GROUP_MEET) lines.push('LOCATION:'+esc(GROUP_MEET));
     lines.push('UID:makor-'+stamp+'-'+i+'@makor.co.za');
     lines.push('DTSTAMP:'+stamp);
     lines.push('DTSTART:'+fmt(st0));
@@ -413,6 +425,7 @@ autoSelectSlots(); render(); loadIndex();
    ============================================================ */
 var GCAL_SCOPE='https://www.googleapis.com/auth/calendar.app.created';
 var CAL_SUMMARY='Makor reading plan';
+var GROUP_MEET=''; // set when arriving from a group plan; attached to every sitting
 var gstatus=document.getElementById('gstatus');
 var gstatus2=document.getElementById('gstatus2');
 
@@ -490,14 +503,16 @@ function scheduleEvents(list,startDay,cfg){
   return scheduleItems(list,startDay,cfg).map(function(en){
     var tm=en.time.split(':');
     var st0=at(en.date,+tm[0],+tm[1]);
-    return {
+    var ev={
       summary:'Makor: '+sittingTitle(en.items),
-      description:sittingDesc(en.items),
+      description:sittingDesc(en.items)+(GROUP_MEET?'\n\nGroup video call: '+GROUP_MEET:''),
       start:{dateTime:isoLocal(st0),timeZone:tz},
       end:{dateTime:isoLocal(addMin(st0,en.items.length>1?55:30)),timeZone:tz},
       reminders:{useDefault:false,overrides:[{method:'popup',minutes:10}]},
       extendedProperties:{private:{makorUrls:en.items.map(function(x){return x.url;}).join(' ')}}
     };
+    if(GROUP_MEET) ev.location=GROUP_MEET;
+    return ev;
   });
 }
 
@@ -560,6 +575,23 @@ function readCfgFromDescription(desc){
   }catch(e){ return null; }
 }
 
+// Group context: settings, calendar name, and Meet link from a group plan.
+var groupReady=null;
+function loadGroupCtx(){
+  if(groupReady) return groupReady;
+  var gm=location.search.match(/[?&]group=(\d+)/);
+  if(!gm||!window.makorClient){ groupReady=Promise.resolve(null); return groupReady; }
+  groupReady=window.makorClient.from('group_plans').select('*').eq('id',+gm[1]).maybeSingle().then(function(r){
+    var g=r.data; if(!g) return null;
+    CAL_SUMMARY='Makor: '+g.name;
+    GROUP_MEET=g.meet_link||'';
+    var slots={}; [1,2,3].forEach(function(s){ var sl=(g.slots||{})[s]||{}; slots[s]={on:!!sl.on,time:sl.time||SLOT_TIME_DEFAULT[s]}; });
+    applyCfg({order:g.plan_order,years:g.years,cadence:g.cadence,slots:slots,start:g.start_date});
+    return g;
+  }).catch(function(){ return null; });
+  return groupReady;
+}
+
 function storedCalId(sess){
   try{ return (sess&&sess.user&&sess.user.user_metadata&&sess.user.user_metadata.makor_gcal_id)||localStorage.getItem('makor_gcal_id')||null; }catch(e){ return null; }
 }
@@ -578,9 +610,10 @@ function gcalAuth(){
   }
   try{ sessionStorage.setItem('makor_gcal_tries',String(tries+1)); }catch(e){}
   try{ localStorage.setItem('makor_gcal_pending',JSON.stringify(cfgFromState())); }catch(e){}
+  var gm=location.search.match(/[?&]group=(\d+)/);
   window.makorClient.auth.signInWithOAuth({ provider:'google', options:{
     scopes:GCAL_SCOPE,
-    redirectTo:location.origin+'/plan/?gcal=resume',
+    redirectTo:location.origin+'/plan/?gcal=resume'+(gm?'&group='+gm[1]:''),
     queryParams:{ include_granted_scopes:'true' }
   }});
 }
@@ -714,9 +747,11 @@ document.getElementById('gcal').onclick=function(){
         return;
       }
       try{ localStorage.removeItem('makor_gcal_pending'); }catch(e){}
-      if(cfg) applyCfg(cfg);
       gsay('Finishing your Google sign in...');
-      gcalRun(cfg||cfgFromState());
+      loadGroupCtx().then(function(g){
+        if(!g && cfg) applyCfg(cfg);
+        gcalRun(g?cfgFromState():(cfg||cfgFromState()));
+      });
     });
   }
   if(window.makorClient) go();

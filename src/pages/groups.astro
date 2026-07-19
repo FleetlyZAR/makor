@@ -1,0 +1,138 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Group plans | Makor" description="Read the Bible together: shared reading plans with fixed times, study partners, and an optional Google Meet.">
+  <div class="groups-page">
+    <section class="hero">
+      <p class="eyebrow">Together</p>
+      <h1>Group reading plans</h1>
+      <p class="lead">Join a plan and read the same passages at the same time as your study partners, with an optional Google Meet for talking it through. Two are better than one.</p>
+    </section>
+
+    <p id="gp-status" class="gp-status">Loading...</p>
+    <div id="gp-list"></div>
+
+    <section id="gp-admin" class="gp-admin" hidden>
+      <h2>Create a group plan</h2>
+      <div class="gp-grid">
+        <div class="gp-field gp-wide"><label>Name</label><input id="ga-name" type="text" maxlength="90" /></div>
+        <div class="gp-field gp-wide"><label>Description</label><input id="ga-desc" type="text" maxlength="300" /></div>
+        <div class="gp-field"><label>Reading order</label>
+          <select id="ga-order"><option value="chronological">Chronological</option><option value="canonical">Canonical</option><option value="multitrack">Multi-track</option></select>
+        </div>
+        <div class="gp-field"><label>Length</label>
+          <select id="ga-years"><option value="1">1 year</option><option value="2">2 years</option><option value="3">3 years</option><option value="4">4 years</option></select>
+        </div>
+        <div class="gp-field"><label>Cadence</label>
+          <select id="ga-cadence"><option value="daily">Every day</option><option value="weekday">Weekdays</option></select>
+        </div>
+        <div class="gp-field"><label>Start date</label><input id="ga-start" type="date" /></div>
+        <div class="gp-field"><label>Sessions per day</label>
+          <select id="ga-sessions"><option value="1">One (morning)</option><option value="2">Two (morning, evening)</option><option value="3">Three (morning, midday, evening)</option></select>
+        </div>
+        <div class="gp-field"><label>Morning</label><input id="ga-t1" type="time" value="05:00" /></div>
+        <div class="gp-field"><label>Midday</label><input id="ga-t2" type="time" value="13:00" /></div>
+        <div class="gp-field"><label>Evening</label><input id="ga-t3" type="time" value="18:00" /></div>
+        <div class="gp-field gp-wide"><label>Google Meet link (optional)</label><input id="ga-meet" type="url" placeholder="https://meet.google.com/xxx-xxxx-xxx" />
+          <p class="gp-hint">Create one in two clicks at meet.google.com, choose "Create a meeting for later", and paste the link. It is attached to every sitting on members' calendars.</p>
+        </div>
+      </div>
+      <button id="ga-create" class="gp-btn" type="button">Create plan</button>
+      <span id="ga-done" class="gp-saved" hidden>Created.</span>
+    </section>
+  </div>
+</Base>
+
+<style is:global>
+  .groups-page .gp-status { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 1rem 1.2rem; font-size: 0.95rem; }
+  .groups-page .gp-card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 1.3rem 1.4rem; margin-bottom: 0.9rem; box-shadow: 0 24px 55px -38px rgba(14,42,46,.35); }
+  .groups-page .gp-card h2 { font-size: 1.3rem; margin: 0 0 0.3rem; }
+  .groups-page .gp-desc { font-size: 0.92rem; color: var(--muted); margin: 0 0 0.6rem; line-height: 1.55; }
+  .groups-page .gp-meta { font-size: 0.8rem; color: var(--water); margin: 0 0 0.8rem; }
+  .groups-page .gp-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .groups-page .gp-btn { background: var(--water); color: #fff; border: 0; border-radius: 8px; padding: 9px 15px; font-family: inherit; font-size: 0.87rem; cursor: pointer; }
+  .groups-page .gp-btn.alt { background: transparent; color: var(--water); border: 1px solid var(--line); }
+  .groups-page .gp-btn.gold { background: var(--light); }
+  .groups-page .gp-admin { border-top: 1px solid var(--line); margin-top: 1.6rem; padding-top: 1.4rem; }
+  .groups-page .gp-admin h2 { font-size: 1.25rem; }
+  .groups-page .gp-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem 1rem; }
+  .groups-page .gp-wide { grid-column: 1 / -1; }
+  @media (max-width: 560px) { .groups-page .gp-grid { grid-template-columns: 1fr; } }
+  .groups-page .gp-field label { display: block; font-size: 0.8rem; color: var(--muted); margin-bottom: 4px; }
+  .groups-page .gp-field input, .groups-page .gp-field select { width: 100%; box-sizing: border-box; background: #fff; border: 1px solid var(--line); color: var(--ink); border-radius: 8px; padding: 9px 11px; font-family: inherit; font-size: 0.92rem; }
+  .groups-page .gp-hint { font-size: 0.76rem; color: var(--muted); margin: 0.3rem 0 0; }
+  .groups-page .gp-saved { font-size: 0.85rem; color: var(--water); margin-left: 0.6rem; }
+</style>
+
+<script is:inline>
+var client=null, me=null;
+function $(id){ return document.getElementById(id); }
+function escH(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+var ORDER_LABEL={multitrack:'Multi-track',canonical:'Canonical',chronological:'Chronological'};
+var SLOT_NAME={1:'morning',2:'midday',3:'evening'};
+
+function paceLine(g){
+  var sits=[];
+  [1,2,3].forEach(function(s){ var sl=g.slots&&g.slots[s]; if(sl&&sl.on) sits.push(SLOT_NAME[s]+' '+(sl.time||'')); });
+  return (ORDER_LABEL[g.plan_order]||g.plan_order)+' · '+g.years+' year'+(g.years>1?'s':'')+' · '+
+    (g.cadence==='weekday'?'weekdays':'every day')+' · '+sits.join(', ')+' · starts '+g.start_date;
+}
+function load(){
+  client.rpc('list_group_plans').then(function(r){
+    var status=$('gp-status');
+    if(r.error){ status.textContent='Could not load group plans. Please try again in a minute.'; return; }
+    var rows=r.data||[];
+    if(!rows.length){ status.textContent='No group plans yet. Watch this space.'; return; }
+    status.hidden=true;
+    $('gp-list').innerHTML=rows.map(function(g){
+      var actions='';
+      if(g.is_member){
+        actions+='<a class="gp-btn gold" style="text-decoration:none" href="/plan/?group='+g.id+'">Add to my calendar</a>';
+        if(g.meet_link) actions+='<a class="gp-btn alt" style="text-decoration:none" href="'+escH(g.meet_link)+'" target="_blank" rel="noopener">Join the Meet</a>';
+        actions+='<button class="gp-btn alt" data-act="leave" data-id="'+g.id+'">Leave</button>';
+      } else {
+        actions+='<button class="gp-btn" data-act="join" data-id="'+g.id+'">Join this plan</button>';
+      }
+      return '<div class="gp-card">'+
+        '<h2>'+escH(g.name)+'</h2>'+
+        (g.description?'<p class="gp-desc">'+escH(g.description)+'</p>':'')+
+        '<p class="gp-meta">'+escH(paceLine(g))+' · '+g.member_count+' member'+(g.member_count==1?'':'s')+' · led by '+escH(g.creator_name)+'</p>'+
+        '<div class="gp-actions">'+actions+'</div>'+
+      '</div>';
+    }).join('');
+  });
+}
+document.addEventListener('click',function(e){
+  var btn=e.target.closest('button[data-act]'); if(!btn) return;
+  var id=+btn.dataset.id; btn.disabled=true;
+  if(btn.dataset.act==='join') client.from('group_plan_members').insert({plan_id:id,user_id:me.id}).then(load);
+  else if(btn.dataset.act==='leave'){ if(confirm('Leave this group plan?')) client.from('group_plan_members').delete().eq('plan_id',id).eq('user_id',me.id).then(load); else btn.disabled=false; }
+});
+
+function initAdmin(){
+  var t=new Date(); t.setDate(t.getDate()+7); $('ga-start').value=t.toISOString().slice(0,10);
+  $('ga-create').onclick=function(){
+    var n=+$('ga-sessions').value;
+    var slots={1:{on:true,time:$('ga-t1').value||'05:00'},2:{on:n>=3,time:$('ga-t2').value||'13:00'},3:{on:n>=2,time:$('ga-t3').value||'18:00'}};
+    client.from('group_plans').insert({
+      creator:me.id,
+      name:$('ga-name').value.trim(),
+      description:$('ga-desc').value.trim()||null,
+      plan_order:$('ga-order').value, years:+$('ga-years').value, cadence:$('ga-cadence').value,
+      slots:slots, start_date:$('ga-start').value, meet_link:$('ga-meet').value.trim()||null
+    }).then(function(r){
+      if(r.error){ alert('Could not create the plan: '+(r.error.message||'try again')); return; }
+      var s=$('ga-done'); s.hidden=false; setTimeout(function(){ s.hidden=true; },2500);
+      load();
+    });
+  };
+}
+function boot(){
+  client=window.makorClient; me=window.makorUser;
+  if(!me){ $('gp-status').innerHTML='Sign in to see and join group plans. Use the menu at the top right.'; return; }
+  load();
+  if(['luyanda@fleetly.co.za'].indexOf(me.email)!==-1){ $('gp-admin').hidden=false; initAdmin(); }
+}
+if(window.makorClient!==undefined&&window.makorUser!==undefined) boot();
+else window.addEventListener('makor-auth',boot,{once:true});
+</script>

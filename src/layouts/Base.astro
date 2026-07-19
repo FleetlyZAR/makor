@@ -108,6 +108,7 @@ const canonicalUrl = 'https://makor.co.za' + Astro.url.pathname;
         menuEl.innerHTML = '';
         const home = document.createElement('a'); home.className = 'menu-item'; home.href = '/'; home.textContent = 'Home'; menuEl.appendChild(home);
         const plan = document.createElement('a'); plan.className = 'menu-item'; plan.href = '/plan/'; plan.textContent = 'Reading plan'; menuEl.appendChild(plan);
+        const grp = document.createElement('a'); grp.className = 'menu-item'; grp.href = '/groups/'; grp.textContent = 'Group plans'; menuEl.appendChild(grp);
         const prog = document.createElement('a'); prog.className = 'menu-item'; prog.href = '/progress/'; prog.textContent = 'My progress'; menuEl.appendChild(prog);
         const prof = document.createElement('a'); prof.className = 'menu-item'; prof.href = '/profile/'; prof.textContent = 'My profile'; menuEl.appendChild(prof);
         const act = document.createElement('a'); act.className = 'menu-item'; act.href = '/activity/'; act.textContent = 'Friends'; menuEl.appendChild(act);
