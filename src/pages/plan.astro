@@ -12,7 +12,24 @@ import Base from '../layouts/Base.astro';
       <p class="lead">Read and study the whole Bible, one sitting at a time, until Scripture is not a place you visit but a place you live.</p>
     </section>
 
-    <section class="plan-section">
+    <section class="plan-section" id="myplan" hidden>
+      <h2>Your plan</h2>
+      <p id="mp-summary"></p>
+      <div class="mp-today" id="mp-today"></div>
+      <div class="mp-progress">
+        <div class="mp-bar"><i id="mp-fill"></i></div>
+        <span id="mp-count"></span>
+      </div>
+      <p class="mp-note" id="mp-note"></p>
+      <p class="mp-actions">
+        <button id="mp-sync" class="mp-btn" type="button">Check for new studies</button>
+        <button id="mp-change" class="mp-btn alt2" type="button">Change my plan</button>
+        <button id="mp-about" class="mp-btn alt2" type="button">About this plan</button>
+      </p>
+      <p class="gstatus" id="gstatus2" hidden></p>
+    </section>
+
+    <section class="plan-section plan-intro">
       <h2>Put the big rocks in first</h2>
       <p class="plead">There is an old picture of a jar. If you fill it first with sand and small pebbles, the big rocks never fit. But put the big rocks in first, and the sand and pebbles settle into the space around them. The jar holds everything.</p>
       <p>Time in God's Word is a big rock. Left to the leftover minutes of a day, it is the first thing crowded out by sand. So this plan does one simple thing: it puts the rock in first. It places your time in Scripture on your calendar, at hours you choose, before the day fills up. Not another thing to feel behind on. A fixed point the rest of your life can order itself around.</p>
@@ -21,7 +38,7 @@ import Base from '../layouts/Base.astro';
       </div>
     </section>
 
-    <section class="plan-section">
+    <section class="plan-section plan-intro">
       <h2>Why the number four matters</h2>
       <p>This is not only a good idea; it is a measured one. Over eight years the Center for Bible Engagement studied more than a hundred thousand people, asking a plain question: what difference does time in the Bible actually make?</p>
       <p>The answer surprised even the researchers. Reading Scripture once, twice, even three times a week made almost no measurable difference in a person's life. The line stayed flat. But at four times a week, something changed sharply.</p>
@@ -30,9 +47,9 @@ import Base from '../layouts/Base.astro';
       <p>Three days a week leaves you roughly where you started. Four days a week changes you. Every plan below is built to carry you past that line without your having to think about it, because the rhythm is already on your calendar.</p>
     </section>
 
-    <section class="plan-section">
-      <h2>Choose your plan</h2>
-      <p style="margin-bottom:6px">Pick how you want to move through the Bible, how long you want to take, how often you want to sit, and the times of day that fit your life. We will build a calendar you can add to Google Calendar, Apple Calendar, or Outlook in one step. Each entry names the passage, sums up the study, and links straight to it.</p>
+    <section class="plan-section" id="builder-section">
+      <h2 class="plan-intro">Choose your plan</h2>
+      <p class="plan-intro" style="margin-bottom:6px">Pick how you want to move through the Bible, how long you want to take, how often you want to sit, and the times of day that fit your life. We will build a calendar you can add to Google Calendar, Apple Calendar, or Outlook in one step. Each entry names the passage, sums up the study, and links straight to it.</p>
 
       <div class="builder">
         <h2 class="builder-h">Build your calendar</h2>
@@ -140,6 +157,22 @@ import Base from '../layouts/Base.astro';
   .plan-page .field { margin-top: 0.85rem; }
   .plan-page .field label { display: block; font-size: 0.85rem; color: var(--muted); margin-bottom: 6px; }
   .plan-page .field input[type=date] { background: #fff; border: 1px solid var(--line); color: var(--ink); border-radius: 7px; padding: 9px 11px; font-family: inherit; font-size: 0.9rem; width: 100%; max-width: 220px; }
+
+  /* your plan card */
+  .plan-page #myplan { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 1.5rem 1.5rem 1.2rem; margin-top: 1.2rem; box-shadow: 0 24px 55px -38px rgba(14,42,46,.45); }
+  .plan-page #myplan h2 { margin-top: 0; }
+  .plan-page .mp-today { background: var(--paper); border: 1px solid var(--line); border-left: 3px solid var(--light); border-radius: 10px; padding: 0.9rem 1.1rem; margin: 0.8rem 0; }
+  .plan-page .mp-today .mp-label { display: block; text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.68rem; font-weight: 700; color: var(--light); margin-bottom: 0.3rem; }
+  .plan-page .mp-today a { font-family: var(--serif); font-size: 1.1rem; }
+  .plan-page .mp-today .mp-sum { font-size: 0.85rem; color: var(--muted); margin: 0.25rem 0 0; }
+  .plan-page .mp-progress { display: flex; align-items: center; gap: 0.8rem; margin: 0.9rem 0 0.2rem; }
+  .plan-page .mp-bar { flex: 1; height: 8px; background: var(--paper); border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+  .plan-page .mp-bar i { display: block; height: 100%; background: var(--water); width: 0; }
+  .plan-page .mp-progress span { font-size: 0.82rem; color: var(--muted); white-space: nowrap; }
+  .plan-page .mp-note { font-size: 0.8rem; color: var(--muted); margin: 0.4rem 0 0; }
+  .plan-page .mp-actions { margin: 0.9rem 0 0; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .plan-page .mp-btn { background: var(--water); color: #fff; border: 0; border-radius: 8px; padding: 9px 14px; font-family: inherit; font-size: 0.85rem; cursor: pointer; }
+  .plan-page .mp-btn.alt2 { background: transparent; color: var(--water); border: 1px solid var(--line); }
 </style>
 
 <script is:inline>
@@ -217,74 +250,136 @@ function render(){
   b.innerHTML='Your calendar will cover the <b>'+commas(n)+'</b> studies committed so far, out of '+commas(WHOLE_BIBLE)+' movements in all. New studies are published continually; with Google Calendar, press the button again any time and we add only what is new. A downloaded file is a snapshot; download again later to extend it.';
 }
 
-// consume the ordered studies across active days, into each enabled sitting
-function buildSchedule(){
-  var slotsOrd=enabledOrdered(); if(!slotsOrd.length) slotsOrd=[1];
-  var start=new Date(document.getElementById('start').value+'T00:00:00');
-  var idx=0, day=new Date(start), acc=0, rate=ratePerDay(), guard=0;
-  var perSlot={}; slotsOrd.forEach(function(s){perSlot[s]=[];});
-  var activeDates=[];
-  while(idx<studies.length && guard<80000){
-    guard++;
-    var dow=day.getDay();
-    if(state.cadence==='weekday' && (dow===0||dow===6)){ day.setDate(day.getDate()+1); continue; }
-    acc+=rate; var count=Math.floor(acc+1e-9); acc-=count;
-    var d=new Date(day);
-    if(count>0){
-      var dist=distribute(count, slotsOrd);
-      slotsOrd.forEach(function(s){
-        var arr=[]; for(var k=0;k<dist[s] && idx<studies.length;k++){ arr.push(studies[idx++]); }
-        if(arr.length) perSlot[s].push({date:new Date(d), studies:arr});
-      });
-    }
-    activeDates.push(new Date(d));
-    day.setDate(day.getDate()+1);
-  }
-  return {perSlot:perSlot, slotsOrd:slotsOrd, activeDates:activeDates};
+/* ---------- Your plan: local record and the tracking card ---------- */
+function savePlanLocal(cfg){
+  try{ localStorage.setItem('makor_plan',JSON.stringify({cfg:cfg,at:Date.now()})); }catch(e){}
+  try{ if(window.makorClient&&window.makorUser) window.makorClient.auth.updateUser({data:{makor_plan_cfg:cfg}}); }catch(e){}
+}
+function loadPlanLocal(){
+  try{ return JSON.parse(localStorage.getItem('makor_plan')||'null'); }catch(e){ return null; }
+}
+function kebab(s){ return String(s).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,''); }
+function planKey(url){
+  var p=String(url).replace(/^https?:\/\/[^/]+/,'').split('/').filter(Boolean);
+  return p.length>=2?(p[0]+'/'+p[1]):url;
+}
+function escHtml(s){ return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+var ORDER_LABEL={multitrack:'Multi-track',canonical:'Canonical',chronological:'Chronological'};
+
+function showPlanCard(cfg){
+  var card=document.getElementById('myplan'); if(!card||!cfg) return;
+  card.hidden=false;
+  document.querySelectorAll('.plan-intro').forEach(function(el){ el.hidden=true; });
+  var bs=document.getElementById('builder-section'); if(bs) bs.hidden=true;
+
+  var sitBits=[];
+  PRIORITY.slice().sort().forEach(function(s){
+    if(cfg.slots&&cfg.slots[s]&&cfg.slots[s].on) sitBits.push(SLOT_NAME[s]+' at '+(cfg.slots[s].time||SLOT_TIME_DEFAULT[s]));
+  });
+  document.getElementById('mp-summary').textContent=
+    (ORDER_LABEL[cfg.order]||cfg.order)+' reading, '+cfg.years+' year'+(cfg.years>1?'s':'')+', '+
+    (cfg.cadence==='weekday'?'weekdays':'every day')+', '+sitBits.join(' and ')+
+    (cfg.start?', started '+cfg.start:'')+'.';
+
+  fetchIndex(cfg.order).then(function(list){
+    var startDay=new Date((cfg.start||new Date().toISOString().slice(0,10))+'T00:00:00');
+    var entries=scheduleItems(list,startDay,cfg);
+    var attempts=window.makorUser&&window.makorAllAttempts?window.makorAllAttempts():Promise.resolve([]);
+    Promise.resolve(attempts).then(function(rows){
+      var doneSet={};
+      (rows||[]).forEach(function(r){ if(r.phase==='post') doneSet[kebab(r.book)+'/'+r.study_slug]=1; });
+      var doneCount=0, next=null;
+      list.forEach(function(x){ if(doneSet[planKey(x.url)]) doneCount++; else if(!next) next=x; });
+
+      var today=document.getElementById('mp-today');
+      if(window.makorUser&&(rows||[]).length){
+        if(next){
+          today.innerHTML='<span class="mp-label">Continue where you left off</span>'+
+            '<a href="'+escHtml(next.url)+'">'+escHtml(next.title)+(next.ref?' ('+escHtml(next.ref)+')':'')+'</a>'+
+            (next.summary?'<p class="mp-sum">'+escHtml(next.summary)+'</p>':'');
+        } else {
+          today.innerHTML='<span class="mp-label">Well done</span>You have read every committed study. New ones are published continually.';
+        }
+      } else {
+        var now=new Date(); now.setHours(0,0,0,0);
+        var todays=entries.filter(function(en){ return en.date.getTime()===now.getTime(); });
+        var upcoming=todays.length?todays:entries.filter(function(en){ return en.date.getTime()>now.getTime(); }).slice(0,1);
+        var label=todays.length?'Today’s reading':'Next reading';
+        if(upcoming.length){
+          today.innerHTML='<span class="mp-label">'+label+'</span>'+upcoming.map(function(en){
+            return en.items.map(function(x){
+              return '<a href="'+escHtml(x.url)+'">'+escHtml(x.title)+(x.ref?' ('+escHtml(x.ref)+')':'')+'</a>';
+            }).join('<br>');
+          }).join('<br>');
+        } else { today.innerHTML='<span class="mp-label">Your plan</span>Your scheduled readings have all passed; press "Check for new studies" to extend the plan.'; }
+      }
+
+      var total=list.length, pct=0, countText='';
+      if(window.makorUser&&(rows||[]).length){
+        pct=total?Math.round(doneCount/total*100):0;
+        countText=doneCount+' of '+total+' studies read';
+      } else {
+        var now2=new Date(); now2.setHours(0,0,0,0);
+        var scheduled=0; entries.forEach(function(en){ if(en.date.getTime()<=now2.getTime()) scheduled+=en.items.length; });
+        pct=total?Math.round(scheduled/total*100):0;
+        countText=scheduled+' of '+total+' studies scheduled so far';
+        document.getElementById('mp-note').textContent='Sign in with Google (menu, top right) and complete each study’s quiz to track what you have actually read.';
+      }
+      document.getElementById('mp-fill').style.width=pct+'%';
+      document.getElementById('mp-count').textContent=countText;
+    });
+  });
 }
 
+document.getElementById('mp-sync').onclick=function(){
+  var saved=loadPlanLocal();
+  gcalRun((saved&&saved.cfg)||cfgFromState());
+};
+document.getElementById('mp-change').onclick=function(){
+  var bs=document.getElementById('builder-section'); if(bs){ bs.hidden=false; bs.scrollIntoView({behavior:'smooth'}); }
+};
+document.getElementById('mp-about').onclick=function(){
+  document.querySelectorAll('.plan-intro').forEach(function(el){ el.hidden=false; });
+  window.scrollTo({top:0,behavior:'smooth'});
+};
+
+(function initPlanCard(){
+  function boot(){
+    var saved=loadPlanLocal();
+    if(!saved||!saved.cfg){
+      var meta=window.makorUser&&window.makorUser.user_metadata&&window.makorUser.user_metadata.makor_plan_cfg;
+      if(meta) saved={cfg:meta};
+    }
+    if(saved&&saved.cfg) showPlanCard(saved.cfg);
+  }
+  if(window.makorClient) boot();
+  else window.addEventListener('makor-auth',boot,{once:true});
+})();
+
+// Each sitting is its own plain event. Recurring events with per-day
+// overrides read beautifully on paper, but Google's ICS importer drops
+// the overrides and leaves a generic entry with no reading in it, so
+// every day carries its full reading explicitly instead.
 function build(){
-  var sch=buildSchedule();
   var stamp=utcstamp();
+  var cfg=cfgFromState();
+  var startDay=new Date((cfg.start||new Date().toISOString().slice(0,10))+'T00:00:00');
   var lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Makor//Reading Plan//EN','CALSCALE:GREGORIAN','METHOD:PUBLISH','X-WR-CALNAME:Makor reading plan'];
-  sch.slotsOrd.forEach(function(slot){
-    var insts=sch.perSlot[slot]; if(!insts.length) return;
-    var uid='makor-'+SLOT_NAME[slot]+'-'+stamp+'@makor.co.za';
-    var tm=slotTime(slot).split(':'); var h=+tm[0], m=+tm[1];
-    var first=insts[0].date, last=insts[insts.length-1].date;
-    var firstStart=at(first,h,m), lastStart=at(last,h,m);
-    // one recurring master
+  scheduleItems(studies,startDay,cfg).forEach(function(en,i){
+    var tm=en.time.split(':');
+    var st0=at(en.date,+tm[0],+tm[1]);
+    var titles=sittingTitle(en.items);
+    var desc=sittingDesc(en.items);
     lines.push('BEGIN:VEVENT');
-    lines.push('UID:'+uid);
+    lines.push('UID:makor-'+stamp+'-'+i+'@makor.co.za');
     lines.push('DTSTAMP:'+stamp);
-    lines.push('DTSTART:'+fmt(firstStart));
-    lines.push('DTEND:'+fmt(addMin(firstStart,30)));
-    lines.push('RRULE:'+(state.cadence==='weekday' ? 'FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;UNTIL='+fmt(lastStart) : 'FREQ=DAILY;UNTIL='+fmt(lastStart)));
-    lines.push('SUMMARY:'+esc('Makor reading ('+SLOT_NAME[slot]+')'));
-    lines.push('DESCRIPTION:'+esc('Your Makor '+SLOT_NAME[slot]+' reading. Each day carries its own passage.'));
-    // skip active days this sitting has nothing for
-    var have={}; insts.forEach(function(it){ have[fmt(at(it.date,h,m))]=1; });
-    var ex=[]; sch.activeDates.forEach(function(dt){ if(dt<first||dt>last) return; var key=fmt(at(dt,h,m)); if(!have[key]) ex.push(key); });
-    if(ex.length) lines.push('EXDATE:'+ex.join(','));
-    lines.push('BEGIN:VALARM');lines.push('TRIGGER:-PT10M');lines.push('ACTION:DISPLAY');lines.push('DESCRIPTION:Makor reading');lines.push('END:VALARM');
+    lines.push('DTSTART:'+fmt(st0));
+    lines.push('DTEND:'+fmt(addMin(st0,en.items.length>1?55:30)));
+    lines.push('SUMMARY:'+esc('Makor: '+titles));
+    lines.push('DESCRIPTION:'+esc(desc));
+    if(en.items.length===1 && en.items[0].url) lines.push('URL:'+en.items[0].url);
+    lines.push('BEGIN:VALARM');lines.push('TRIGGER:-PT10M');lines.push('ACTION:DISPLAY');lines.push('DESCRIPTION:'+esc('Makor: '+titles));lines.push('END:VALARM');
     lines.push('END:VEVENT');
-    // per-day content as overrides on the same series
-    insts.forEach(function(it){
-      var st0=at(it.date,h,m);
-      var titles=it.studies.map(function(s){return s.title+(s.ref?' ('+s.ref+')':'');}).join('  +  ');
-      var desc=it.studies.map(function(s){return (s.summary?s.summary+'\n':'')+'Read: '+s.url;}).join('\n\n');
-      lines.push('BEGIN:VEVENT');
-      lines.push('UID:'+uid);
-      lines.push('RECURRENCE-ID:'+fmt(st0));
-      lines.push('DTSTAMP:'+stamp);
-      lines.push('DTSTART:'+fmt(st0));
-      lines.push('DTEND:'+fmt(addMin(st0, it.studies.length>1?55:30)));
-      lines.push('SUMMARY:'+esc('Makor: '+titles));
-      lines.push('DESCRIPTION:'+esc(desc));
-      if(it.studies.length===1 && it.studies[0].url) lines.push('URL:'+it.studies[0].url);
-      lines.push('BEGIN:VALARM');lines.push('TRIGGER:-PT10M');lines.push('ACTION:DISPLAY');lines.push('DESCRIPTION:'+esc('Makor: '+titles));lines.push('END:VALARM');
-      lines.push('END:VEVENT');
-    });
   });
   lines.push('END:VCALENDAR');
   return lines.join('\r\n');
@@ -302,6 +397,7 @@ document.getElementById('go').onclick=function(){
   var ics=build(); var blob=new Blob([ics],{type:'text/calendar;charset=utf-8'}); var url=URL.createObjectURL(blob);
   var a=document.createElement('a'); a.href=url; a.download='makor-reading-plan.ics'; document.body.appendChild(a); a.click(); document.body.removeChild(a);
   setTimeout(function(){URL.revokeObjectURL(url);},1500);
+  var cfg=cfgFromState(); savePlanLocal(cfg); showPlanCard(cfg);
 };
 
 autoSelectSlots(); render(); loadIndex();
@@ -318,8 +414,12 @@ autoSelectSlots(); render(); loadIndex();
 var GCAL_SCOPE='https://www.googleapis.com/auth/calendar.app.created';
 var CAL_SUMMARY='Makor reading plan';
 var gstatus=document.getElementById('gstatus');
+var gstatus2=document.getElementById('gstatus2');
 
-function gsay(msg){ gstatus.hidden=false; gstatus.textContent=msg; }
+function gsay(msg){
+  gstatus.hidden=false; gstatus.textContent=msg;
+  if(gstatus2){ gstatus2.hidden=false; gstatus2.textContent=msg; }
+}
 function userTz(){ try{ return Intl.DateTimeFormat().resolvedOptions().timeZone||'Africa/Johannesburg'; }catch(e){ return 'Africa/Johannesburg'; } }
 function isoLocal(d){ return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate())+'T'+pad(d.getHours())+':'+pad(d.getMinutes())+':00'; }
 
@@ -350,15 +450,13 @@ function applyCfg(cfg){
   }catch(e){}
 }
 
-// Schedule a list of studies onto days from startDay at the cfg pace.
-// Returns Google event resources, tagged with their study urls so a later
-// visit can tell exactly which studies are already on the calendar.
-function scheduleEvents(list,startDay,cfg){
+// Walk a list of studies onto days from startDay at the cfg pace.
+// Returns sittings: { date, slot, time, items } in order.
+function scheduleItems(list,startDay,cfg){
   var slotsOrd=PRIORITY.filter(function(s){return cfg.slots[s]&&cfg.slots[s].on;}); if(!slotsOrd.length) slotsOrd=[1];
   var perYear=cfg.cadence==='weekday'?261:365;
   var rate=WHOLE_BIBLE/(perYear*(cfg.years||1));
-  var tz=userTz();
-  var idx=0, day=new Date(startDay), acc=0, guard=0, evs=[];
+  var idx=0, day=new Date(startDay), acc=0, guard=0, out=[];
   while(idx<list.length && guard<80000){
     guard++;
     var dow=day.getDay();
@@ -370,23 +468,37 @@ function scheduleEvents(list,startDay,cfg){
         var s=slotsOrd[si];
         var arr=[]; for(var k=0;k<(dist[s]||0)&&idx<list.length;k++) arr.push(list[idx++]);
         if(!arr.length) continue;
-        var tm=(cfg.slots[s].time||SLOT_TIME_DEFAULT[s]).split(':');
-        var st0=at(day,+tm[0],+tm[1]);
-        var titles=arr.map(function(x){return x.title+(x.ref?' ('+x.ref+')':'');}).join('  +  ');
-        var desc=arr.map(function(x){return (x.summary?x.summary+'\n':'')+'Read: '+x.url;}).join('\n\n');
-        evs.push({
-          summary:'Makor: '+titles,
-          description:desc,
-          start:{dateTime:isoLocal(st0),timeZone:tz},
-          end:{dateTime:isoLocal(addMin(st0,arr.length>1?55:30)),timeZone:tz},
-          reminders:{useDefault:false,overrides:[{method:'popup',minutes:10}]},
-          extendedProperties:{private:{makorUrls:arr.map(function(x){return x.url;}).join(' ')}}
-        });
+        out.push({ date:new Date(day), slot:s, time:(cfg.slots[s].time||SLOT_TIME_DEFAULT[s]), items:arr });
       }
     }
     day.setDate(day.getDate()+1);
   }
-  return evs;
+  return out;
+}
+
+function sittingTitle(arr){ return arr.map(function(x){return x.title+(x.ref?' ('+x.ref+')':'');}).join('  +  '); }
+function sittingDesc(arr){
+  return arr.map(function(x){
+    return 'Read: '+x.title+(x.ref?' ('+x.ref+')':'')+'\n'+(x.summary?x.summary+'\n':'')+x.url;
+  }).join('\n\n');
+}
+
+// Google event resources, tagged with their study urls so a later
+// visit can tell exactly which studies are already on the calendar.
+function scheduleEvents(list,startDay,cfg){
+  var tz=userTz();
+  return scheduleItems(list,startDay,cfg).map(function(en){
+    var tm=en.time.split(':');
+    var st0=at(en.date,+tm[0],+tm[1]);
+    return {
+      summary:'Makor: '+sittingTitle(en.items),
+      description:sittingDesc(en.items),
+      start:{dateTime:isoLocal(st0),timeZone:tz},
+      end:{dateTime:isoLocal(addMin(st0,en.items.length>1?55:30)),timeZone:tz},
+      reminders:{useDefault:false,overrides:[{method:'popup',minutes:10}]},
+      extendedProperties:{private:{makorUrls:en.items.map(function(x){return x.url;}).join(' ')}}
+    };
+  });
 }
 
 function gapi(path,method,body,token){
@@ -509,6 +621,7 @@ function gcalCreateAndFill(token,cfg){
       var evs=scheduleEvents(list,startDay,cfg);
       return gcalBatchInsert(cal.id,evs,token,gcalProgress).then(function(){
         try{ sessionStorage.removeItem('makor_gcal_tries'); }catch(e){}
+        savePlanLocal(cfg); showPlanCard(cfg);
         gsay('Done. '+list.length+' studies are on your Google Calendar in the "Makor reading plan" calendar. As new studies are published, press the button again and we will add them.');
       });
     });
@@ -530,6 +643,7 @@ function gcalSync(cal,token){
       var missing=list.filter(function(x){ return !have[x.url]; });
       if(!missing.length){
         try{ sessionStorage.removeItem('makor_gcal_tries'); }catch(e){}
+        savePlanLocal(cfg); showPlanCard(cfg);
         gsay('Your calendar already has every committed study ('+list.length+'). Check back after new studies are published.');
         return;
       }
@@ -539,6 +653,7 @@ function gcalSync(cal,token){
       gsay('Adding '+missing.length+' newly published studies to your calendar...');
       return gcalBatchInsert(cal.id,evs,token,gcalProgress).then(function(){
         try{ sessionStorage.removeItem('makor_gcal_tries'); }catch(e){}
+        savePlanLocal(cfg); showPlanCard(cfg);
         gsay('Done. '+missing.length+' new studies added, continuing at your usual pace and times.');
       });
     });
