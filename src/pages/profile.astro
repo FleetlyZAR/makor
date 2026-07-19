@@ -137,16 +137,27 @@ function avatarSrc(u){ return u || 'data:image/svg+xml;utf8,' + encodeURICompone
 
 /* ---------- Places ---------- */
 var placesReady = false;
+var placesLoading = null;
 function loadPlaces(){
   if(!PLACES_KEY) return Promise.resolve(false);
   if(placesReady) return Promise.resolve(true);
-  return new Promise(function(res){
+  if(placesLoading) return placesLoading;
+  placesLoading = new Promise(function(res){
+    window.__makorPlacesCb=function(){
+      // With loading=async the places library must be imported explicitly;
+      // the old libraries= parameter no longer provides it.
+      google.maps.importLibrary('places').then(function(){
+        placesReady=true; res(true);
+      }).catch(function(e){
+        console.warn('Makor: places library failed to load', e); res(false);
+      });
+    };
     var s=document.createElement('script');
-    s.src='https://maps.googleapis.com/maps/api/js?key='+encodeURIComponent(PLACES_KEY)+'&libraries=places&v=weekly&loading=async&callback=__makorPlacesCb';
-    window.__makorPlacesCb=function(){ placesReady=true; res(true); };
-    s.onerror=function(){ res(false); };
+    s.src='https://maps.googleapis.com/maps/api/js?key='+encodeURIComponent(PLACES_KEY)+'&v=weekly&loading=async&callback=__makorPlacesCb';
+    s.onerror=function(){ console.warn('Makor: maps script failed to load'); res(false); };
     document.head.appendChild(s);
   });
+  return placesLoading;
 }
 function comp(components, type){
   var hit=(components||[]).filter(function(c){ return (c.types||[]).indexOf(type)>=0; })[0];
@@ -167,7 +178,7 @@ function attachAutocomplete(slotId, inputId, opts, onPick){
         try{ handle(ev.placePrediction.toPlace()); }catch(e){ if(ev.place) handle(ev.place); }
       });
       el.addEventListener('gmp-placeselect', function(ev){ if(ev.place) handle(ev.place); });
-    }catch(e){ /* fall back to plain input */ }
+    }catch(e){ console.warn('Makor: autocomplete unavailable, using plain input', e); }
   });
 }
 function placeText(p, field){

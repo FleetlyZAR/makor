@@ -111,6 +111,7 @@ const canonicalUrl = 'https://makor.co.za' + Astro.url.pathname;
         const prog = document.createElement('a'); prog.className = 'menu-item'; prog.href = '/progress/'; prog.textContent = 'My progress'; menuEl.appendChild(prog);
         const prof = document.createElement('a'); prof.className = 'menu-item'; prof.href = '/profile/'; prof.textContent = 'My profile'; menuEl.appendChild(prof);
         const act = document.createElement('a'); act.className = 'menu-item'; act.href = '/activity/'; act.textContent = 'Friends'; menuEl.appendChild(act);
+        const prefs = document.createElement('a'); prefs.className = 'menu-item'; prefs.href = '/email-preferences/'; prefs.textContent = 'Notification settings'; menuEl.appendChild(prefs);
         if (user && ['luyanda@fleetly.co.za'].indexOf(user.email) !== -1) {
           const adm = document.createElement('a'); adm.className = 'menu-item'; adm.href = '/admin/'; adm.textContent = 'Admin dashboard'; menuEl.appendChild(adm);
         }
