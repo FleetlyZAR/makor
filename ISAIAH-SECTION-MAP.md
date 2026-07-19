@@ -20,22 +20,22 @@ The planned studies for Isaiah, divided along the book's literary seams: the ope
 | 14 | Isaiah 13:1-14:23 | The Oracle against Babylon | the-oracle-against-babylon | planned |
 | 15 | Isaiah 14:24-32 | Against Assyria and Philistia | against-assyria-and-philistia | planned |
 | 16 | Isaiah 15:1-16:14 | The Oracle against Moab | the-oracle-against-moab | planned |
-| 17 | Isaiah 17:1-14 | The Oracle against Damascus | the-oracle-against-damascus | planned |
-| 18 | Isaiah 18:1-7 | The Oracle against Cush | the-oracle-against-cush | planned |
-| 19 | Isaiah 19:1-25 | The Oracle against Egypt | the-oracle-against-egypt | planned |
-| 20 | Isaiah 20:1-6 | The Sign against Egypt and Cush | the-sign-against-egypt-and-cush | planned |
-| 21 | Isaiah 21:1-17 | Oracles against Babylon, Edom, and Arabia | oracles-against-babylon-edom-and-arabia | planned |
-| 22 | Isaiah 22:1-25 | The Valley of Vision | the-valley-of-vision | planned |
-| 23 | Isaiah 23:1-18 | The Oracle against Tyre | the-oracle-against-tyre | planned |
-| 24 | Isaiah 24:1-23 | The Devastation of the Earth | the-devastation-of-the-earth | planned |
-| 25 | Isaiah 25:1-12 | Praise for Deliverance | praise-for-deliverance | planned |
-| 26 | Isaiah 26:1-21 | A Song of Trust | a-song-of-trust | planned |
-| 27 | Isaiah 27:1-13 | The Redemption of Israel | the-redemption-of-israel | planned |
-| 28 | Isaiah 28:1-29 | Woe to Ephraim and Jerusalem | woe-to-ephraim-and-jerusalem | planned |
-| 29 | Isaiah 29:1-24 | Woe to Ariel | woe-to-ariel | planned |
-| 30 | Isaiah 30:1-33 | Woe to the Obstinate Nation | woe-to-the-obstinate-nation | planned |
-| 31 | Isaiah 31:1-9 | Woe to Those Who Trust in Egypt | woe-to-those-who-trust-in-egypt | planned |
-| 32 | Isaiah 32:1-20 | A Reign of Righteousness | a-reign-of-righteousness | planned |
+| 17 | Isaiah 17:1-14 | The Oracle against Damascus | the-oracle-against-damascus | done |
+| 18 | Isaiah 18:1-7 | The Oracle against Cush | the-oracle-against-cush | done |
+| 19 | Isaiah 19:1-25 | The Oracle against Egypt | the-oracle-against-egypt | done |
+| 20 | Isaiah 20:1-6 | The Sign against Egypt and Cush | the-sign-against-egypt-and-cush | done |
+| 21 | Isaiah 21:1-17 | Oracles against Babylon, Edom, and Arabia | oracles-against-babylon-edom-and-arabia | done |
+| 22 | Isaiah 22:1-25 | The Valley of Vision | the-valley-of-vision | done |
+| 23 | Isaiah 23:1-18 | The Oracle against Tyre | the-oracle-against-tyre | done |
+| 24 | Isaiah 24:1-23 | The Devastation of the Earth | the-devastation-of-the-earth | done |
+| 25 | Isaiah 25:1-12 | Praise for Deliverance | praise-for-deliverance | done |
+| 26 | Isaiah 26:1-21 | A Song of Trust | a-song-of-trust | done |
+| 27 | Isaiah 27:1-13 | The Redemption of Israel | the-redemption-of-israel | done |
+| 28 | Isaiah 28:1-29 | Woe to Ephraim and Jerusalem | woe-to-ephraim-and-jerusalem | done |
+| 29 | Isaiah 29:1-24 | Woe to Ariel | woe-to-ariel | done |
+| 30 | Isaiah 30:1-33 | Woe to the Obstinate Nation | woe-to-the-obstinate-nation | done |
+| 31 | Isaiah 31:1-9 | Woe to Those Who Trust in Egypt | woe-to-those-who-trust-in-egypt | done |
+| 32 | Isaiah 32:1-20 | A Reign of Righteousness | a-reign-of-righteousness | done |
 | 33 | Isaiah 33:1-24 | Distress and Help | distress-and-help | planned |
 | 34 | Isaiah 34:1-17 | Judgment against the Nations | judgment-against-the-nations | planned |
 | 35 | Isaiah 35:1-10 | The Ransomed Shall Return | the-ransomed-shall-return | planned |
