@@ -692,10 +692,21 @@ document.getElementById('gcal').onclick=function(){
   var cfg=null;
   try{ cfg=JSON.parse(localStorage.getItem('makor_gcal_pending')||'null'); }catch(e){}
   if(!marked && !cfg) return;
-  if(marked){ try{ history.replaceState(null,'',location.pathname); }catch(e){} }
+  // Do NOT clean the URL here: the OAuth tokens ride back in it, and the
+  // Supabase client (a deferred module) has not read them yet. Clean only
+  // after the session is established, and only our own marker.
+  function cleanUrl(){
+    try{
+      var u=new URL(location.href);
+      u.searchParams.delete('gcal');
+      var q=u.searchParams.toString();
+      history.replaceState(null,'',u.pathname+(q?'?'+q:'')+u.hash);
+    }catch(e){}
+  }
   function go(){
     window.makorClient.auth.getSession().then(function(r){
       var sess=r.data&&r.data.session;
+      cleanUrl();
       if(!(sess&&sess.provider_token)){
         // No Google token in hand: a stale pending flag, clear it quietly.
         try{ localStorage.removeItem('makor_gcal_pending'); }catch(e){}
