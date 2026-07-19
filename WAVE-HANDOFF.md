@@ -4,7 +4,7 @@ This file lets any new chat working in this repo pick up the study-authoring
 campaign. It assumes the Scripture Study Pipeline v1.2 project instructions are
 active and the repo is connected.
 
-## Progress (62 of 66 books, 1057 studies)
+## Progress (63 of 66 books, 1121 studies)
 
 Done: Genesis, Ruth, all 12 Minor Prophets (Hosea, Joel, Amos, Obadiah, Jonah,
 Micah, Nahum, Habakkuk, Zephaniah, Haggai, Zechariah, Malachi), all 21 New
@@ -14,26 +14,26 @@ Colossians, 1-2 Thessalonians, 1-2 Timothy, Titus, Philemon, Hebrews, James,
 Ezra, Esther, Song of Solomon, Daniel, Nehemiah, Ecclesiastes), the wave 6
 Gospels and Acts (Matthew, Mark, Luke, John, Acts), the wave 7 mid Old
 Testament histories (Joshua, Judges, 1-2 Samuel, 1-2 Kings, 1-2 Chronicles),
-and the wave 8 books (Revelation, Job, Proverbs, and the rest of the Pentateuch:
-Exodus, Leviticus, Numbers, Deuteronomy). With Exodus through Deuteronomy done,
-the whole Torah, Genesis through Deuteronomy, is now complete.
+the wave 8 books (Revelation, Job, Proverbs, and the rest of the Pentateuch:
+Exodus, Leviticus, Numbers, Deuteronomy, which completes the whole Torah,
+Genesis through Deuteronomy), and Isaiah (the first of the wave 9 major prophets,
+all 64 movements).
 
-Remaining (4 books, 297 movements): Isaiah (64), Jeremiah (41), Ezekiel (42),
-Psalms (150).
+Remaining (3 books, 233 movements): Jeremiah (41), Ezekiel (42), Psalms (150).
 
 ## Recommended next wave (wave 9)
 
 Wave 8 is complete (240 studies, validator clean): Revelation, Job, Proverbs, and
 the Pentateuch remainder (Exodus, Leviticus, Numbers, Deuteronomy). The Torah,
 the Gospels and Acts, all the epistles, Revelation, the Minor Prophets, the wisdom
-books, and every historical book are now done. Only four books remain, all heavy:
-the three major prophets (Isaiah 64, Jeremiah 41, Ezekiel 42) and the Psalter
-(Psalms 150, three digit orders 001 to 150). Suggested order: the major prophets
-first (they are prophetic oracle, same genre as the Minor Prophets already done,
-so lean on those for the same-genre example), then Psalms last. Split every one of
-these books between agents: Isaiah, Jeremiah, and Ezekiel into halves; Psalms into
-several agents of about 25 to 30 psalms each, still only two agents running at
-once. A same-genre example for the prophets: any Minor Prophet study, for example
+books, and every historical book are now done. Isaiah is also complete (64
+studies, validator clean, authored in four chunks of sixteen). Three books remain,
+all heavy: Jeremiah 41, Ezekiel 42, and the Psalter (Psalms 150, three digit
+orders 001 to 150). Suggested order: Jeremiah and Ezekiel first (prophetic oracle,
+same genre as the Minor Prophets and Isaiah already done, so lean on those for the
+same-genre example), then Psalms last. Split every one of these books between
+agents: Jeremiah and Ezekiel into chunks of about 14 to 16; Psalms into several
+agents of about 25 to 30 psalms each, still only two agents running at once. A same-genre example for the prophets: any Minor Prophet study, for example
 `src/content/studies/hosea/` or `src/content/studies/amos/`; the wave 8 Job and
 Ecclesiastes studies are the closest models for the Hebrew poetry of the Psalms.
 
