@@ -4,7 +4,7 @@ This file lets any new chat working in this repo pick up the study-authoring
 campaign. It assumes the Scripture Study Pipeline v1.2 project instructions are
 active and the repo is connected.
 
-## Progress (55 of 66 books, 817 studies)
+## Progress (62 of 66 books, 1057 studies)
 
 Done: Genesis, Ruth, all 12 Minor Prophets (Hosea, Joel, Amos, Obadiah, Jonah,
 Micah, Nahum, Habakkuk, Zephaniah, Haggai, Zechariah, Malachi), all 21 New
@@ -12,20 +12,38 @@ Testament epistles (Romans, 1-2 Corinthians, Galatians, Ephesians, Philippians,
 Colossians, 1-2 Thessalonians, 1-2 Timothy, Titus, Philemon, Hebrews, James,
 1-2 Peter, 1-3 John, Jude), the wave 5 short Old Testament books (Lamentations,
 Ezra, Esther, Song of Solomon, Daniel, Nehemiah, Ecclesiastes), the wave 6
-Gospels and Acts (Matthew, Mark, Luke, John, Acts), and the wave 7 mid Old
-Testament histories (Joshua, Judges, 1-2 Samuel, 1-2 Kings, 1-2 Chronicles).
+Gospels and Acts (Matthew, Mark, Luke, John, Acts), the wave 7 mid Old
+Testament histories (Joshua, Judges, 1-2 Samuel, 1-2 Kings, 1-2 Chronicles),
+and the wave 8 books (Revelation, Job, Proverbs, and the rest of the Pentateuch:
+Exodus, Leviticus, Numbers, Deuteronomy). With Exodus through Deuteronomy done,
+the whole Torah, Genesis through Deuteronomy, is now complete.
 
-Remaining (11 books, 537 movements): Exodus, Leviticus, Numbers, Deuteronomy,
-Job, Psalms, Proverbs, Isaiah, Jeremiah, Ezekiel, Revelation.
+Remaining (4 books, 297 movements): Isaiah (64), Jeremiah (41), Ezekiel (42),
+Psalms (150).
 
-## Recommended next wave (wave 8)
+## Recommended next wave (wave 9)
 
-Wave 7 is complete (214 studies, validator clean). Every historical book from
-Genesis through 2 Chronicles is now done, along with the whole New Testament and
-the Minor Prophets. Good next targets: Revelation paired with the wisdom books
-(Job, Proverbs), or the rest of the Pentateuch (Exodus, Leviticus, Numbers,
-Deuteronomy). The heaviest remaining lifts are Psalms (150 movements, three digit
-orders), Isaiah, Jeremiah, and Ezekiel.
+Wave 8 is complete (240 studies, validator clean): Revelation, Job, Proverbs, and
+the Pentateuch remainder (Exodus, Leviticus, Numbers, Deuteronomy). The Torah,
+the Gospels and Acts, all the epistles, Revelation, the Minor Prophets, the wisdom
+books, and every historical book are now done. Only four books remain, all heavy:
+the three major prophets (Isaiah 64, Jeremiah 41, Ezekiel 42) and the Psalter
+(Psalms 150, three digit orders 001 to 150). Suggested order: the major prophets
+first (they are prophetic oracle, same genre as the Minor Prophets already done,
+so lean on those for the same-genre example), then Psalms last. Split every one of
+these books between agents: Isaiah, Jeremiah, and Ezekiel into halves; Psalms into
+several agents of about 25 to 30 psalms each, still only two agents running at
+once. A same-genre example for the prophets: any Minor Prophet study, for example
+`src/content/studies/hosea/` or `src/content/studies/amos/`; the wave 8 Job and
+Ecclesiastes studies are the closest models for the Hebrew poetry of the Psalms.
+
+Note on the mount: during wave 8 the workspace file mount intermittently threw
+"Resource deadlock avoided" on the section-map files under concurrent load. The
+study JSON files always read and wrote fine; only the shared maps contended.
+Reliable workarounds that worked: use the Edit tool (not bash sed) to flip map
+rows, and validate study files against a reconstructed in-code map when a
+`<BOOK>-SECTION-MAP.md` will not read. All wave 8 maps were flipped and confirmed
+clean regardless.
 
 Outstanding side task: a sermon-link pass. Many studies in waves 2 to 7 have
 sermon status "none" because web verification was unstable during authoring.

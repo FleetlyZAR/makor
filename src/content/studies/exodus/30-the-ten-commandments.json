@@ -1,0 +1,194 @@
+{
+  "schemaVersion": "1.2",
+  "book": "Exodus",
+  "section": {
+    "order": 30,
+    "slug": "the-ten-commandments",
+    "title": "The Ten Commandments",
+    "passageRef": "Exodus 20:1-21",
+    "sectionRationale": "This is the heart of the Sinai covenant, the ten words spoken directly by God to the whole nation, still trembling from the mountain's fire. They summarize the whole moral shape of a life rightly ordered toward God and neighbor, and the people's terror at hearing God's own voice shows why a mediator is needed.",
+    "thesis": "Having identified Himself as the God who redeemed Israel from slavery, the LORD speaks ten commandments covering love for Him alone and love for neighbor; the people, terrified by His voice, ask Moses to mediate, and Moses explains that this fear is meant to keep them from sin.",
+    "frameNote": "Seven movements: the LORD's self-identification and the first command, no other gods; the prohibition of idols; the command against misusing God's name; the Sabbath command; honoring parents; the five commands concerning neighbor, life, marriage, property, truth, and desire; and the people's terrified request for a mediator."
+  },
+  "text": {
+    "spine": "BSB",
+    "units": [
+      {
+        "label": "I am the LORD your God",
+        "note": "no other gods before Me",
+        "media": { "kind": "image", "src": "/studies/exodus/the-ten-commandments/sinai.svg", "alt": "A mountain wrapped in smoke and fire", "caption": "God speaks all these words from the fire of Sinai." },
+        "emphasis": "climax",
+        "verses": [
+          { "chapter": 20, "n": 1, "text": "And God spoke all these words:" },
+          { "chapter": 20, "n": 2, "text": "“I am the LORD your God, who brought you out of the land of Egypt, out of the house of slavery." },
+          { "chapter": 20, "n": 3, "text": "You shall have no other gods before Me." }
+        ]
+      },
+      {
+        "label": "No idols",
+        "note": "a jealous God, loving devotion to a thousand generations",
+        "emphasis": "",
+        "verses": [
+          { "chapter": 20, "n": 4, "text": "You shall not make for yourself an {{idol|idol}} in the form of anything in the heavens above, on the earth below, or in the waters beneath." },
+          { "chapter": 20, "n": 5, "text": "You shall not bow down to them or worship them; for I, the LORD your God, am a {{jealous|jealous}} God, visiting the iniquity of the fathers on their children to the third and fourth generations of those who hate Me," },
+          { "chapter": 20, "n": 6, "text": "but showing loving devotion to a thousand generations of those who love Me and keep My commandments." }
+        ]
+      },
+      {
+        "label": "The name of the LORD",
+        "note": "not in vain",
+        "emphasis": "",
+        "verses": [
+          { "chapter": 20, "n": 7, "text": "You shall not take the {{name|name}} of the LORD your God in vain, for the LORD will not leave anyone unpunished who takes His name in vain." }
+        ]
+      },
+      {
+        "label": "The Sabbath",
+        "note": "remember, and keep it holy",
+        "emphasis": "",
+        "verses": [
+          { "chapter": 20, "n": 8, "text": "{{remember|Remember}} the Sabbath day by keeping it holy." },
+          { "chapter": 20, "n": 9, "text": "Six days you shall labor and do all your work," },
+          { "chapter": 20, "n": 10, "text": "but the seventh day is a Sabbath to the LORD your God, on which you must not do any work, neither you, nor your son or daughter, nor your manservant or maidservant or livestock, nor the foreigner within your gates." },
+          { "chapter": 20, "n": 11, "text": "For in six days the LORD made the heavens and the earth and the sea and all that is in them, but on the seventh day He rested. Therefore the LORD blessed the Sabbath day and set it apart as holy." }
+        ]
+      },
+      {
+        "label": "Honor father and mother",
+        "note": "so that your days may be long",
+        "emphasis": "",
+        "verses": [
+          { "chapter": 20, "n": 12, "text": "Honor your father and mother, so that your days may be long in the land that the LORD your God is giving you." }
+        ]
+      },
+      {
+        "label": "Love of neighbor",
+        "note": "life, marriage, property, truth, desire",
+        "emphasis": "",
+        "verses": [
+          { "chapter": 20, "n": 13, "text": "You shall not murder." },
+          { "chapter": 20, "n": 14, "text": "You shall not commit adultery." },
+          { "chapter": 20, "n": 15, "text": "You shall not steal." },
+          { "chapter": 20, "n": 16, "text": "You shall not bear false witness against your neighbor." },
+          { "chapter": 20, "n": 17, "text": "You shall not covet your neighbor's house. You shall not covet your neighbor's wife, or his manservant or maidservant, or his ox or donkey, or anything that belongs to your neighbor.”" }
+        ]
+      },
+      {
+        "label": "The people's fear, and a mediator",
+        "note": "let God not speak to us, or we will die",
+        "emphasis": "",
+        "verses": [
+          { "chapter": 20, "n": 18, "text": "When all the people witnessed the thunder and lightning, the sounding of the ram's horn, and the mountain enveloped in smoke, they trembled and stood at a distance." },
+          { "chapter": 20, "n": 19, "text": "“Speak to us yourself and we will listen,” they said to Moses. “But do not let God speak to us, or we will die.”" },
+          { "chapter": 20, "n": 20, "text": "“Do not be afraid,” Moses replied. “For God has come to test you, so that the fear of Him may be before you, to keep you from sinning.”" },
+          { "chapter": 20, "n": 21, "text": "And the people stood at a distance as Moses approached the thick darkness where God was." }
+        ]
+      }
+    ]
+  },
+  "lexicon": {
+    "idol": { "language": "Hebrew", "lemma": "pesel", "original": "פסל", "gloss": "A carved image, an idol shaped by human hands. The command forbids not only worshiping other gods but manufacturing any physical representation to worship, since no image can capture the living God who speaks and acts." },
+    "jealous": { "language": "Hebrew", "lemma": "qanna", "original": "קנא", "gloss": "Jealous, zealous, allowing no rival. Applied to God, this is not petty insecurity but the fierce, faithful exclusivity appropriate to a covenant relationship, the same word used of a husband's rightful claim on his wife's fidelity." },
+    "name": { "language": "Hebrew", "lemma": "shav", "original": "שוא", "gloss": "Emptiness, falsehood, vanity, worthlessness. To take God's name shav is to invoke it carelessly, falsely, or for empty purposes, whether in false oaths, careless speech, or claiming His authority for what He has not said." },
+    "remember": { "language": "Hebrew", "lemma": "zakhor", "original": "זכר", "gloss": "Remember, an active, ongoing recollection meant to shape behavior, not a passing thought. Israel is to zakhor the Sabbath continually, letting the memory of God's own creation rest reorder their entire working week." }
+  },
+  "study": {
+    "basic": {
+      "context": "God speaks these ten commands directly to the whole nation of Israel from the fire and smoke of Sinai, right after they have promised to obey. They cover how to love God rightly and how to love neighbor rightly, and the people are so terrified by hearing God's own voice that they beg Moses to speak for them instead.",
+      "hermeneutics": "These are real, historical words spoken to a real covenant nation. Christians are not bound to keep every Old Testament ceremonial or civil law tied to Israel's specific nationhood, but the moral core of the Ten Commandments reflects God's unchanging character and is renewed, not abolished, in the New Testament's call to love God and neighbor.",
+      "originalLanguages": "God forbids any pesel, carved image, to represent Him, because He is qanna, jealous, rightly allowing no rival. To take His name shav, in vain or emptiness, is to misuse His authority. And Israel must zakhor, actively remember, the Sabbath, letting God's own creation rest shape their whole rhythm of work and rest.",
+      "typology": "The whole law given here, meant to be perfectly kept, exposes humanity's need for someone who actually keeps it; Jesus is that someone, fulfilling the law completely, Matthew 5:17, so that His righteousness, not our imperfect obedience, becomes the ground of our standing before God.",
+      "christ": "Jesus summarizes these ten commands as love for God and love for neighbor, Matthew 22:37-40, and He alone perfectly kept every one of them on behalf of His people. Where Israel trembled before the law's demand, believers now approach God through Christ, who fulfilled the law and bore its curse, Galatians 3:13.",
+      "god": "God is holy enough that His own people cannot bear to hear His voice directly, and He is also the one who redeemed them before ever giving a single command, 'I am the LORD your God, who brought you out.' Grace precedes law here; the commandments describe the shape of a life already rescued, not a ladder to climb toward rescue.",
+      "crossReferences": "Matthew 22:37-40 summarizes the whole law as love for God and neighbor. Romans 13:8-10 shows love fulfilling the specific commands about neighbor. Galatians 3:13 says Christ redeemed us from the law's curse by becoming a curse for us. Hebrews 12:18-21 recalls the people's terror at Sinai.",
+      "oneStory": "God rescues His people first, then gives them commands that describe how a rescued people are to live, loving Him wholly and their neighbor genuinely. The law's demand, impossible to keep perfectly, drives the whole story toward Christ, who keeps it fully and gives His righteousness to everyone who trusts Him."
+    },
+    "context": {
+      "literary": "The commandments open with God's self-identification as redeemer before any demand is made, then move from duties toward God, exclusive worship, no idols, right use of His name, Sabbath rest, to duties toward neighbor, honoring parents, protecting life, marriage, property, truth, and inner desire, closing with the people's terrified response.",
+      "historical": "These ten words become the constitutional core of Israel's covenant life, distinct from and foundational to the more detailed case laws that follow in chapters 21 through 23, remembered and recited throughout Israel's history as the summary of God's moral will.",
+      "canonical": "The Ten Commandments are quoted, echoed, and summarized throughout the rest of Scripture, cited by the prophets, affirmed by Jesus, and woven into apostolic ethical teaching, remaining a touchstone for understanding God's unchanging moral character even as the ceremonial and civil law given alongside them finds its fulfillment in Christ."
+    },
+    "hermeneutics": {
+      "authorIntent": "To give Israel, as a redeemed people, a clear summary of what covenant faithfulness looks like toward God and toward neighbor, rooted in gratitude for a rescue already accomplished rather than as a means of earning that rescue.",
+      "descriptionVsPrescription": "This passage prescribes Israel's covenant obligations under the old covenant given at Sinai, historically situated and addressed first to that specific nation. Its moral core, expressing God's unchanging character, carries forward as abiding truth for all people, while its national, covenantal form belongs to Israel's particular history, fulfilled and reissued under the new covenant in Christ.",
+      "debates": [
+        { "question": "Is it right to divide the law given at Sinai into moral, civil, and ceremonial categories?", "views": [ { "label": "The traditional threefold division", "case": "Many theologians distinguish the Ten Commandments as enduring moral law, the case laws in chapters 21 to 23 as civil law for Israel's specific nationhood, and the tabernacle and sacrificial instructions as ceremonial law fulfilled in Christ, allowing the moral law to remain binding while civil and ceremonial law is fulfilled or superseded." }, { "label": "Caution about the division's limits", "case": "Other interpreters note that Scripture itself does not explicitly categorize the law this way, and that moral, civil, and ceremonial elements are often interwoven even within the Decalogue itself, such as the Sabbath command's ties to both creation and Israel's specific covenant sign; they caution against applying the categories too rigidly or treating any part of the Sinai law as a direct rulebook for governing modern nations." } ], "bearing": "Both views agree the moral substance of the Ten Commandments, love for God and neighbor, remains binding, while the specific national and ceremonial forms given to Israel are fulfilled in Christ; the debate concerns how neatly that distinction can be drawn, not whether the law's moral heart still matters." }
+      ]
+    },
+    "originalLanguages": "God forbids Israel from making a pesel, any image, to represent Him, since He alone defines Himself by His words and acts, not by human craftsmanship. He is qanna, jealous, rightly demanding exclusive devotion, and forbids using His name in shav, empty or false ways. Israel is commanded to zakhor, actively remember, the Sabbath, an ongoing discipline of rest rooted in creation itself.",
+    "typology": [
+      { "type": "The law given at Sinai, demanding perfect obedience", "fulfillment": "Fulfilled completely by Christ's perfect obedience on behalf of His people, Matthew 5:17, Romans 10:4." },
+      { "type": "The Sabbath rest commanded here", "fulfillment": "Points to the greater rest believers find in Christ, Hebrews 4:9-10, and the eternal rest of the new creation." }
+    ],
+    "christ": "Jesus affirms that He did not come to abolish the law but to fulfill it, Matthew 5:17, and He summarizes its whole substance as love for God and love for neighbor, Matthew 22:37-40. Where every Israelite stood guilty before this law's perfect demand, Christ alone kept it fully, and His perfect righteousness, not our partial obedience, becomes the ground on which believers stand before God, Romans 8:3-4.",
+    "god": "God identifies Himself first as redeemer, 'who brought you out of the land of Egypt,' before issuing a single command, showing that grace precedes obligation. Yet He is also so holy that His own voice terrifies the people He has just saved, revealing that intimacy with God never means casualness about who He is.",
+    "crossReferences": [
+      { "ref": "Matthew 22:37-40", "note": "Jesus summarizes the whole law as love for God and love for neighbor." },
+      { "ref": "Romans 13:8-10", "note": "Love fulfills the specific commands about neighbor, adultery, murder, theft, and coveting." },
+      { "ref": "Galatians 3:13", "note": "Christ redeemed His people from the law's curse by becoming a curse for them." },
+      { "ref": "Hebrews 12:18-21", "note": "Recalls the terror at Sinai, contrasting it with the access believers now have through Christ." }
+    ],
+    "oneStory": "God rescues His people before He commands them, then gives commandments that describe the shape of a life already redeemed: wholehearted love for Him and genuine love for neighbor. That law's impossible demand for perfect obedience drives the whole biblical story toward Christ, who alone keeps it fully and offers His righteousness to everyone who trusts Him.",
+    "sermon": { "status": "verified", "preacher": "Alistair Begg", "title": "Who Takes First Place?", "url": "https://www.truthforlife.org/resources/sermon/who-takes-1st-place/", "why": "Part of Begg's 'Pathway to Freedom' series on the Ten Commandments, this sermon on Exodus 20:3 explains how the first commandment requires exclusive worship of God and exposes every rival that clamors for that place in the heart." }
+  },
+  "quiz": [
+    {
+      "q": "How does God introduce Himself before giving any of the Ten Commandments?",
+      "options": [
+        { "text": "As the LORD their God, who brought them out of Egypt, out of the house of slavery.", "weight": 100, "note": "Verse 2 shows grace and redemption stated before any command is given." },
+        { "text": "As a distant judge with no prior relationship to Israel.", "weight": 75, "note": "God explicitly identifies Himself by His prior act of redemption, not distant impersonality." },
+        { "text": "As one god among many for Israel to consider.", "weight": 25, "note": "The commandments that follow, especially verse 3, make clear He alone is to be worshiped, not one option among many." },
+        { "text": "No introduction is given before the commandments.", "weight": 0, "note": "Verse 2 gives a clear, redemptive self-introduction before the first command." }
+      ]
+    },
+    {
+      "q": "What reason does God give for keeping the Sabbath, according to verse 11?",
+      "options": [
+        { "text": "Because He made the heavens and earth in six days and rested on the seventh.", "weight": 100, "note": "The command is explicitly rooted in the pattern of creation itself." },
+        { "text": "Because Pharaoh had forced Israel to work seven days a week.", "weight": 75, "note": "While rest matters after slavery, this verse specifically grounds the command in creation, not merely relief from Egypt." },
+        { "text": "Because the seventh day was considered unlucky.", "weight": 25, "note": "No such superstition is given; the reasoning is theological, rooted in creation." },
+        { "text": "No reason is given for the Sabbath command.", "weight": 0, "note": "Verse 11 explicitly grounds it in God's own pattern of creation and rest." }
+      ]
+    },
+    {
+      "q": "Which of the following is NOT one of the Ten Commandments given in this chapter?",
+      "options": [
+        { "text": "You shall tithe a tenth of all your produce.", "weight": 100, "note": "Tithing is commanded elsewhere in the law, but it is not one of the Ten Commandments listed here." },
+        { "text": "You shall not murder.", "weight": 75, "note": "This is explicitly one of the ten, verse 13." },
+        { "text": "You shall not bear false witness against your neighbor.", "weight": 25, "note": "This is explicitly one of the ten, verse 16." },
+        { "text": "You shall not covet your neighbor's house.", "weight": 0, "note": "This is explicitly one of the ten, verse 17." }
+      ]
+    },
+    {
+      "q": "How did the people respond after witnessing the thunder, lightning, and smoke at the mountain?",
+      "options": [
+        { "text": "They trembled, stood at a distance, and asked Moses to speak to them instead of God directly.", "weight": 100, "note": "Verses 18 to 19 record this terrified request for a mediator." },
+        { "text": "They rushed forward eagerly to touch the mountain themselves.", "weight": 75, "note": "The opposite occurred; they stood at a distance in fear, not eagerness to approach." },
+        { "text": "They demanded Moses stop speaking altogether.", "weight": 25, "note": "They asked Moses to keep speaking to them, just not God directly; they did not want Moses silenced." },
+        { "text": "They showed no reaction at all.", "weight": 0, "note": "Verse 18 explicitly records that they trembled and stood at a distance." }
+      ]
+    },
+    {
+      "q": "According to Moses in verse 20, why had God come in this terrifying way?",
+      "options": [
+        { "text": "To test them, so that the fear of Him would keep them from sinning.", "weight": 100, "note": "This is Moses' exact explanation of the purpose behind the terrifying display." },
+        { "text": "To punish them for a specific sin they had just committed.", "weight": 75, "note": "No specific recent sin is cited; Moses frames it as a test meant to instill lasting reverence." },
+        { "text": "To frighten them into abandoning the covenant.", "weight": 25, "note": "The purpose given is the opposite, to keep them faithful to the covenant through godly fear, not to drive them away." },
+        { "text": "No explanation is given for the terrifying display.", "weight": 0, "note": "Verse 20 gives Moses' explicit explanation." }
+      ]
+    }
+  ],
+  "questions": [
+    "God introduced Himself as redeemer before giving a single command. How well do you keep that same order, resting in what God has done before trying to obey what He asks?",
+    "The command against idols forbids not just false gods but any human attempt to shape God into something manageable. What image of God have you quietly built that is smaller or safer than who He actually is?",
+    "Israel was so overwhelmed by God's holiness that they begged for a mediator rather than face Him directly. How does knowing Christ is now your mediator change the way you approach God in prayer?",
+    "Jesus summarized all ten commands as love for God and love for neighbor. Which of the ten do you find easiest to reduce to a technical rule rather than living out as an act of love?",
+    "Moses said the fear of God was meant to keep the people from sinning, not to drive them away. Is your own reverence for God currently more likely to keep you close to Him or push you toward hiding from Him?"
+  ],
+  "translationNotes": [
+    { "ref": "Exodus 20:5", "note": "Visiting the iniquity of the fathers on their children reflects the observable reality of generational patterns of sin, not a claim that children are punished for guilt that is not their own; verse 6 balances it with far greater emphasis on loving devotion to a thousand generations." },
+    { "ref": "Exodus 20:7", "note": "Take the name of the LORD in vain covers more than casual cursing; it includes false oaths, hollow worship, and claiming God's authority for what He has not actually said or done." },
+    { "ref": "Exodus 20:17", "note": "Covet renders a Hebrew verb describing an inward desire that leads toward taking action, addressing the heart's longing rather than merely outward behavior, making this the only commandment explicitly aimed at internal desire." }
+  ],
+  "meta": { "textToVerify": [], "notes": "" }
+}

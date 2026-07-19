@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.2",
+  "book": "Leviticus",
+  "section": {
+    "order": 10,
+    "slug": "nadab-and-abihu",
+    "title": "Nadab and Abihu",
+    "passageRef": "Leviticus 10:1-20",
+    "sectionRationale": "The ordination narrative's joy is shattered here. Two of Aaron's own sons offer unauthorized fire and are struck down instantly, and the LORD explains why: those who come near Him must treat Him as holy. The chapter then gives priestly regulations flowing directly from this event, and closes with a dispute over the sin offering that Moses resolves.",
+    "thesis": "When Nadab and Abihu offer fire the LORD had not commanded, He consumes them instantly, teaching that nearness to a holy God demands exact obedience, not personal innovation, while the chapter's aftermath shows God's continuing care for Aaron's grief and His people's need for careful distinctions between holy and common, clean and unclean.",
+    "frameNote": "Four movements: the unauthorized fire and sudden judgment; Moses' explanation and Aaron's silence; instructions for mourning and sobriety in the priesthood; and the dispute over the sin offering, resolved with mercy."
+  },
+  "text": {
+    "spine": "BSB",
+    "units": [
+      {
+        "label": "Unauthorized fire",
+        "note": "contrary to His command",
+        "emphasis": "climax",
+        "verses": [
+          { "chapter": 10, "n": 1, "text": "Now Aaron's sons Nadab and Abihu took their censers, put fire in them and added incense, and offered {{eishZarah|unauthorized fire}} before the LORD, contrary to His command." },
+          { "chapter": 10, "n": 2, "text": "So fire came out from the presence of the LORD and consumed them, and they died in the presence of the LORD." },
+          { "chapter": 10, "n": 3, "text": "Then Moses said to Aaron, “This is what the LORD meant when He said: ‘To those who come near Me I will show My {{qadosh|holiness}}, and in the sight of all the people I will reveal My glory.’” But Aaron remained silent." }
+        ]
+      },
+      {
+        "label": "Carried outside the camp",
+        "note": "no mourning for the priests on duty",
+        "emphasis": "",
+        "verses": [
+          { "chapter": 10, "n": 4, "text": "Moses summoned Mishael and Elzaphan, sons of Aaron's uncle Uzziel, and said to them, “Come here; carry the bodies of your cousins outside the camp, away from the front of the sanctuary.”" },
+          { "chapter": 10, "n": 5, "text": "So they came forward and carried them, still in their tunics, outside the camp, as Moses had directed." },
+          { "chapter": 10, "n": 6, "text": "Then Moses said to Aaron and his sons Eleazar and Ithamar, “Do not let your hair become disheveled and do not tear your garments, or else you will die, and the LORD will be angry with the whole congregation. But your brothers, the whole house of Israel, may mourn on account of the fire that the LORD has ignited." },
+          { "chapter": 10, "n": 7, "text": "You shall not go outside the entrance to the Tent of Meeting, or you will die, for the LORD's anointing oil is on you.” So they did as Moses instructed." }
+        ]
+      },
+      {
+        "label": "Sober service, holy and common",
+        "note": "no wine, teach the distinctions",
+        "emphasis": "",
+        "verses": [
+          { "chapter": 10, "n": 8, "text": "Then the LORD said to Aaron," },
+          { "chapter": 10, "n": 9, "text": "“You and your sons are not to drink wine or strong drink when you enter the Tent of Meeting, or else you will die; this is a permanent statute for the generations to come." },
+          { "chapter": 10, "n": 10, "text": "You must distinguish between the {{chol|holy and the common}}, between the {{tameTahor|clean and the unclean}}," },
+          { "chapter": 10, "n": 11, "text": "so that you may teach the Israelites all the statutes that the LORD has given them through Moses.”" }
+        ]
+      },
+      {
+        "label": "A dispute over the sin offering",
+        "note": "Moses satisfied by Aaron's answer",
+        "emphasis": "",
+        "verses": [
+          { "chapter": 10, "n": 12, "text": "And Moses said to Aaron and his remaining sons, Eleazar and Ithamar, “Take the grain offering that remains from the offerings made by fire to the LORD and eat it without leaven beside the altar, because it is most holy." },
+          { "chapter": 10, "n": 13, "text": "You shall eat it in a holy place, because it is your share and your sons' share of the offerings made by fire to the LORD; for this is what I have been commanded." },
+          { "chapter": 10, "n": 14, "text": "And you and your sons and daughters may eat the breast of the wave offering and the thigh of the contribution in a ceremonially clean place, because these portions have been assigned to you and your children from the peace offerings of the sons of Israel." },
+          { "chapter": 10, "n": 15, "text": "They are to bring the thigh of the contribution and the breast of the wave offering, together with the fat portions of the offerings made by fire, to wave as a wave offering before the LORD. It will belong permanently to you and your children, as the LORD has commanded.”" },
+          { "chapter": 10, "n": 16, "text": "Later, Moses searched carefully for the goat of the sin offering, and behold, it had been burned up. He was angry with Eleazar and Ithamar, Aaron's remaining sons, and asked," },
+          { "chapter": 10, "n": 17, "text": "“Why didn't you eat the sin offering in the holy place? For it is most holy; it was given to you to take away the guilt of the congregation by making atonement for them before the LORD." },
+          { "chapter": 10, "n": 18, "text": "Since its blood was not brought inside the holy place, you should have eaten it in the sanctuary area, as I commanded.”" },
+          { "chapter": 10, "n": 19, "text": "But Aaron replied to Moses, “Behold, this very day they presented their sin offering and their burnt offering before the LORD. Since these things have happened to me, if I had eaten the sin offering today, would it have been acceptable in the sight of the LORD?”" },
+          { "chapter": 10, "n": 20, "text": "And when Moses heard this explanation, he was satisfied." }
+        ]
+      }
+    ]
+  },
+  "lexicon": {
+    "eishZarah": { "language": "Hebrew", "lemma": "esh zarah", "original": "אש זרה", "gloss": "Strange or unauthorized fire, fire not taken from the source God had commanded. Whatever the exact procedural error, the fire itself was a substitute for what God had prescribed, an act of self willed worship rather than obedient worship." },
+    "qadosh": { "language": "Hebrew", "lemma": "qadosh", "original": "קדש", "gloss": "Holy, set apart. God's statement that He will show His holiness to those who come near Him means that nearness to Him is never neutral; He will either be honored as holy by careful obedience, or He will demonstrate His holiness in judgment against careless approach." },
+    "chol": { "language": "Hebrew", "lemma": "chol", "original": "חל", "gloss": "Common or ordinary, the opposite of holy, qadosh. The priests are commanded to teach Israel this distinction carefully, since confusing the holy with the common was, tragically, exactly what led to Nadab and Abihu's death." },
+    "tameTahor": { "language": "Hebrew", "lemma": "tame / tahor", "original": "טמא / טהור", "gloss": "Unclean and clean, a further distinction the priests must teach, separate from holy and common though related to it. Israel needed careful teachers to help them navigate a world where not everything was equally suitable for approaching God." }
+  },
+  "study": {
+    "basic": {
+      "context": "Right after the joyful inauguration of chapter nine, tragedy strikes. Aaron's own sons, Nadab and Abihu, offer fire the LORD had not commanded, and fire from the LORD instantly consumes them. Moses explains that God had always intended to show His holiness to those who draw near Him, and Aaron responds in silence. The rest of the chapter gives instructions flowing from this event, sobriety in service, teaching holy from common, and a dispute over how the sin offering was handled that Moses ultimately accepts.",
+      "hermeneutics": "This narrates an actual, historical judgment on two specific priests, not a template guaranteeing instant judgment for every act of disobedience today. Its abiding truth, stated explicitly by God Himself, is that those who come near Him must treat Him as holy; nearness to God is never a casual or self directed affair.",
+      "originalLanguages": "Nadab and Abihu offered esh zarah, strange or unauthorized fire, a substitute for what God had commanded rather than an act of obedient worship. God's own words, explained by Moses, declare that He will show His qadosh, holiness, to those who come near Him, whether through honoring obedience or through judgment when that holiness is disregarded.",
+      "typology": "The sudden, severe judgment on unauthorized worship anticipates the seriousness with which the New Testament treats casual approach to God, seen in Ananias and Sapphira's judgment in Acts 5. Aaron's silence in grief, followed by his continued faithful service, foreshadows the pattern of suffering met not with rebellion but with trust, fully realized in Christ.",
+      "christ": "Where Nadab and Abihu approached God on their own terms and were consumed, Christ alone approaches the Father in perfect obedience, doing only what the Father commands, John 5:19, and it is only through union with Him that sinners may safely draw near to God's holiness, Hebrews 4:16.",
+      "god": "God's holiness is not a passive quality; He actively shows it, either through the honor of those who approach Him rightly or through judgment on those who do not. Yet this same chapter reveals His compassion, His care for Aaron's grief in the instructions that follow, and His willingness to accept an honest explanation over a strict violation of an established procedure.",
+      "crossReferences": "Acts 5:1-11 shows Ananias and Sapphira struck down for deceit in worship, echoing the severity here. Hebrews 12:28-29 calls believers to worship God acceptably, with reverence and awe, for our God is a consuming fire. Hebrews 4:16 invites believers to draw near to the throne of grace with confidence, made possible only through Christ.",
+      "oneStory": "This sobering chapter teaches that nearness to a holy God is never casual; those who approach Him must do so on His terms, not their own invention. Yet the same chapter shows God's ongoing compassion toward His grieving priest, anticipating Christ, through whom alone sinners may now draw near to God's holiness with confidence rather than dread."
+    },
+    "context": {
+      "literary": "This chapter is placed immediately after the joyous climax of chapter nine, creating one of Scripture's most jarring narrative turns, the very day of the tabernacle's glorious inauguration becomes the day of Aaron's sons' death.",
+      "historical": "This event established, at the very outset of Israel's priesthood, that priestly office itself offered no protection from the consequences of disregarding God's explicit instructions, a sober lesson for every priest who would serve after Nadab and Abihu.",
+      "canonical": "The phrase to those who come near Me I will show My holiness becomes a defining statement in Scripture about the seriousness of approaching God, echoed in warnings throughout the Old and New Testaments about careless or presumptuous worship."
+    },
+    "hermeneutics": {
+      "authorIntent": "To record the historical judgment of Nadab and Abihu for offering unauthorized fire, establishing God's stated principle that He will show His holiness to those who draw near Him, and to give the priestly regulations that followed from this event.",
+      "descriptionVsPrescription": "This narrates a specific historical judgment; it does not prescribe that every act of disobedience today results in immediate physical death. Its abiding principle, stated by God Himself, is that approach to Him must be on His terms, treating His holiness with the seriousness it deserves.",
+      "debates": [
+        { "question": "What exactly was wrong with the fire Nadab and Abihu offered?", "views": [ { "label": "Fire taken from an unauthorized source", "case": "Leviticus 16:12 specifies that incense fire was to be taken from the altar itself; many argue Nadab and Abihu used some other source of fire, a direct violation of a specific, known command." }, { "label": "An act of unauthorized timing or self initiative more broadly", "case": "Others note the text does not specify the precise procedural fault, and see the core issue as broader presumption, offering worship God had not commanded at all, whatever its specific technical defect, perhaps combined with the wine prohibition given immediately afterward, verse 9." } ], "bearing": "Both readings agree that the fire's essential fault was that God had not commanded it; worship offered on human initiative rather than divine instruction, however sincere, was rejected." }
+      ]
+    },
+    "originalLanguages": "The esh zarah, strange or unauthorized fire, that Nadab and Abihu offered stood in direct contrast to whatever fire and procedure the LORD had actually commanded. God's declaration that He will show His qadosh, holiness, to those who come near Him frames the whole event, and the later instruction to distinguish chol, common, from qadosh, holy, and tame, unclean, from tahor, clean, shows the priests' ongoing duty to teach Israel these very distinctions Nadab and Abihu had themselves disregarded.",
+    "typology": [
+      { "type": "Judgment on unauthorized, self willed worship", "fulfillment": "The severity with which the New Testament treats deceit and presumption in worship, as in Ananias and Sapphira, Acts 5:1-11." },
+      { "type": "Aaron's silence in grief, continuing to serve faithfully", "fulfillment": "Suffering met with trust rather than rebellion, fully embodied in Christ, who entrusted Himself to the Father, 1 Peter 2:23." }
+    ],
+    "christ": "Where Nadab and Abihu approached God with worship of their own invention and were consumed, Jesus only ever did what He saw the Father doing, John 5:19, offering the Father perfect, obedient worship. Because of Christ's obedience and His atoning sacrifice, believers today are invited to draw near to the throne of grace with confidence, Hebrews 4:16, not because God's holiness has lessened, but because Christ has made a way through it.",
+    "god": "God's holiness is not merely an abstract attribute but something He actively demonstrates, whether in blessing those who approach Him rightly or in judgment on those who do not. This same chapter reveals His tenderness, His concern for Aaron's grief, and His willingness to accept an honest, reasoned explanation from Aaron rather than demanding rigid, unthinking compliance with every detail.",
+    "crossReferences": [
+      { "ref": "Acts 5:1-11", "note": "Ananias and Sapphira are struck down for deceit before God, echoing the severity of judgment on presumptuous or dishonest worship." },
+      { "ref": "Hebrews 12:28-29", "note": "Believers are called to worship God acceptably, with reverence and awe, for our God is a consuming fire." },
+      { "ref": "Hebrews 4:16", "note": "Believers may draw near to the throne of grace with confidence, made possible only through Christ." }
+    ],
+    "oneStory": "This chapter's sobering judgment on Nadab and Abihu teaches that approach to a holy God can never be on human terms or initiative; He must be treated as holy by those who draw near Him. Yet the same chapter's tenderness toward Aaron's grief anticipates Christ, through whose perfect obedience and finished sacrifice sinners may now draw near to that same holy God, not with dread, but with confidence.",
+    "sermon": { "status": "none", "preacher": "", "title": "", "why": "" }
+  },
+  "quiz": [
+    {
+      "q": "What did Nadab and Abihu do that led to their deaths?",
+      "options": [
+        { "text": "They offered unauthorized fire before the LORD, contrary to His command.", "weight": 100, "note": "Verse 1 explicitly states this as the cause of the judgment that follows." },
+        { "text": "They refused to enter the Tent of Meeting at all.", "weight": 75, "note": "The text describes the opposite, an unauthorized act of worship they performed, not a refusal to serve." },
+        { "text": "They stole from the offerings given to the priests.", "weight": 25, "note": "The chapter describes unauthorized fire, not theft, as the specific offense." },
+        { "text": "No reason is given for their deaths.", "weight": 0, "note": "Verse 1 explicitly states the reason." }
+      ]
+    },
+    {
+      "q": "What did Moses say was the meaning behind this judgment?",
+      "options": [
+        { "text": "That to those who come near God, He will show His holiness, and before all the people, His glory.", "weight": 100, "note": "Verse 3 records Moses explaining the judgment in exactly these terms." },
+        { "text": "That Aaron had failed to properly train his sons.", "weight": 75, "note": "Moses' explanation centers on God's own declared principle of holiness, not a statement blaming Aaron's training." },
+        { "text": "That God was punishing the whole nation for unrelated sins.", "weight": 25, "note": "The judgment fell specifically and immediately on Nadab and Abihu, not the whole nation, and Moses' explanation concerns God's holiness before those who draw near." },
+        { "text": "No explanation is given.", "weight": 0, "note": "Verse 3 explicitly records Moses' explanation." }
+      ]
+    },
+    {
+      "q": "What was Aaron and his remaining sons forbidden from doing in response to Nadab and Abihu's deaths?",
+      "options": [
+        { "text": "Disheveling their hair or tearing their garments, the customary signs of mourning.", "weight": 100, "note": "Verse 6 explicitly forbids these mourning practices for Aaron, Eleazar, and Ithamar specifically, on threat of death." },
+        { "text": "Leaving the wilderness camp entirely.", "weight": 75, "note": "The specific prohibition concerns mourning customs and leaving the Tent of Meeting entrance, verse 7, not leaving the camp generally." },
+        { "text": "Eating any food for the rest of that day.", "weight": 25, "note": "The chapter's later verses actually address what they should eat, rather than forbidding food altogether." },
+        { "text": "Nothing was forbidden; they mourned freely.", "weight": 0, "note": "Verse 6 explicitly forbids specific mourning customs to these priests on duty." }
+      ]
+    },
+    {
+      "q": "What permanent statute does God give Aaron immediately after this judgment, in verses 8 to 9?",
+      "options": [
+        { "text": "That he and his sons must not drink wine or strong drink when entering the Tent of Meeting.", "weight": 100, "note": "Verse 9 explicitly gives this statute, on threat of death, tied directly to the preceding events." },
+        { "text": "That they must offer a burnt offering every hour.", "weight": 75, "note": "No such hourly requirement is given; the statute concerns abstaining from wine and strong drink in service." },
+        { "text": "That only Aaron himself may ever enter the tent again.", "weight": 25, "note": "The statute addresses sobriety in service, not an exclusion of Aaron's remaining sons from ministry altogether." },
+        { "text": "No statute is given at this point.", "weight": 0, "note": "Verses 8 to 9 explicitly give a specific, permanent statute." }
+      ]
+    },
+    {
+      "q": "How did Moses respond to Aaron's explanation about the sin offering not being eaten, verses 19 to 20?",
+      "options": [
+        { "text": "He was satisfied by Aaron's explanation.", "weight": 100, "note": "Verse 20 explicitly states that Moses accepted Aaron's reasoning." },
+        { "text": "He punished Eleazar and Ithamar further.", "weight": 75, "note": "The text describes Moses being satisfied, not further punishment, once he heard Aaron's explanation." },
+        { "text": "He overruled Aaron and insisted the offering be eaten anyway.", "weight": 25, "note": "The offering had already been burned and could not be eaten; Moses accepted Aaron's reasoning rather than overruling it." },
+        { "text": "No resolution to the dispute is given.", "weight": 0, "note": "Verse 20 explicitly records the resolution." }
+      ]
+    }
+  ],
+  "questions": [
+    "Nadab and Abihu offered worship God had not commanded, perhaps out of enthusiasm rather than malice. Where might you be tempted to worship or serve God your own way rather than according to what He has actually asked?",
+    "Aaron responded to unbearable grief with silence rather than protest against God. When tragedy strikes in your life, is your instinct to question God's goodness or to trust Him even without full understanding?",
+    "God commanded the priests to distinguish holy from common, clean from unclean, and to teach these distinctions to the people. What careful discernment do you need help learning to distinguish in your own life right now?",
+    "Moses was willing to be corrected by Aaron's honest explanation rather than insisting on rigid enforcement of the letter of the law. Where do you need more grace toward others who have a reasonable explanation for what looks, at first, like disobedience?",
+    "This chapter shows that God's holiness is not softened by good intentions alone. How does knowing that Christ alone makes it safe to draw near to this same holy God change the way you approach Him in prayer and worship?"
+  ],
+  "translationNotes": [
+    { "ref": "Leviticus 10:1", "note": "Unauthorized fire translates esh zarah, literally strange fire, likely referring to fire taken from a source other than the altar itself, which Leviticus 16:12 specifies as the proper source for incense fire before the LORD." },
+    { "ref": "Leviticus 10:3", "note": "But Aaron remained silent renders a Hebrew phrase that can also carry the sense of being struck dumb or stunned into silence, capturing the depth of Aaron's grief even as he does not protest against God's judgment." },
+    { "ref": "Leviticus 10:19", "note": "Since these things have happened to me reflects Aaron's reasoning that his personal grief that day made it inappropriate for him to eat the most holy sin offering with a joyful heart, an explanation Moses ultimately accepted as valid." }
+  ],
+  "meta": { "textToVerify": [], "notes": "" }
+}
