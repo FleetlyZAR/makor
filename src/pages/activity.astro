@@ -1,0 +1,77 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Friend activity | Makor" description="What the friends walking with you through the Word have been reading.">
+  <div class="activity-page">
+    <section class="hero">
+      <p class="eyebrow">Friends</p>
+      <h1>Walking together in the Word</h1>
+      <p class="lead">The studies your friends have completed, so you can spur one another on. No scores here; formation is not a scoreboard.</p>
+    </section>
+
+    <p id="ac-status" class="ac-status">Loading...</p>
+    <div id="ac-feed" class="ac-feed"></div>
+  </div>
+</Base>
+
+<style is:global>
+  .activity-page .ac-status { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 1rem 1.2rem; font-size: 0.95rem; }
+  .activity-page .ac-day { text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.72rem; font-weight: 700; color: var(--water); margin: 1.6rem 0 0.5rem; }
+  .activity-page .ac-feed { margin-top: 0.8rem; }
+  .activity-page .ac-row { display: flex; align-items: center; gap: 0.9rem; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 0.7rem 1rem; margin-bottom: 0.5rem; }
+  .activity-page .ac-row img { width: 42px; height: 42px; border-radius: 50%; object-fit: cover; background: var(--paper); }
+  .activity-page .ac-row .ac-what { flex: 1; font-size: 0.95rem; line-height: 1.45; }
+  .activity-page .ac-row .ac-what a { font-family: var(--serif); }
+  .activity-page .ac-row .ac-time { font-size: 0.75rem; color: var(--muted); white-space: nowrap; }
+  .activity-page .ac-cta { margin-top: 0.8rem; }
+  .activity-page .ac-cta a { font-size: 0.9rem; }
+</style>
+
+<script is:inline>
+function $(id){ return document.getElementById(id); }
+function escH(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+function kebab(s){ return String(s).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,''); }
+function avatarSrc(u){ return u || 'data:image/svg+xml;utf8,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84 84"><circle cx="42" cy="42" r="42" fill="#E4DDCC"/><circle cx="42" cy="34" r="14" fill="#9BB0AD"/><ellipse cx="42" cy="66" rx="24" ry="16" fill="#9BB0AD"/></svg>'); }
+function dayLabel(d){
+  var now=new Date(); now.setHours(0,0,0,0);
+  var day=new Date(d); day.setHours(0,0,0,0);
+  var diff=Math.round((now-day)/86400000);
+  if(diff===0) return 'Today';
+  if(diff===1) return 'Yesterday';
+  return day.toLocaleDateString(undefined,{day:'numeric',month:'long',year:(day.getFullYear()===now.getFullYear()?undefined:'numeric')});
+}
+function timeLabel(d){ return new Date(d).toLocaleTimeString(undefined,{hour:'2-digit',minute:'2-digit'}); }
+
+function boot(){
+  var client=window.makorClient, me=window.makorUser;
+  var status=$('ac-status');
+  if(!me){
+    status.innerHTML='Sign in to see what your friends are reading. Use the menu at the top right, then visit <a href="/profile/">your profile</a> to add friends.';
+    return;
+  }
+  client.rpc('friend_activity').then(function(r){
+    var rows=r.data||[];
+    if(r.error){ status.textContent='Could not load the feed right now. Please try again in a minute.'; return; }
+    if(!rows.length){
+      status.innerHTML='Nothing here yet. <span class="ac-cta"><a href="/profile/">Add friends on your profile page</a></span> and their completed studies will appear here, alongside your own.';
+      return;
+    }
+    status.hidden=true;
+    var out='', lastDay='';
+    rows.forEach(function(x){
+      var dl=dayLabel(x.created_at);
+      if(dl!==lastDay){ out+='<p class="ac-day">'+escH(dl)+'</p>'; lastDay=dl; }
+      var who=(window.makorUser&&x.user_id===window.makorUser.id)?'You':(x.display_name||'A friend');
+      var url='/'+kebab(x.book||'')+'/'+encodeURIComponent(x.study_slug)+'/';
+      out+='<div class="ac-row">'+
+        '<img src="'+escH(avatarSrc(x.avatar_url))+'" alt="" referrerpolicy="no-referrer">'+
+        '<span class="ac-what"><b>'+escH(who)+'</b> completed <a href="'+escH(url)+'">'+escH(x.title||x.study_slug)+'</a>'+(x.book?' <span style="color:var(--muted)">('+escH(x.book)+')</span>':'')+'</span>'+
+        '<span class="ac-time">'+escH(timeLabel(x.created_at))+'</span>'+
+      '</div>';
+    });
+    $('ac-feed').innerHTML=out;
+  });
+}
+if(window.makorClient!==undefined&&window.makorUser!==undefined) boot();
+else window.addEventListener('makor-auth',boot,{once:true});
+</script>

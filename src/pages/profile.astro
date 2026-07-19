@@ -1,0 +1,372 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="My profile | Makor" description="Your Makor profile: who you are, where you fellowship, and the friends walking through the Word with you.">
+  <div class="profile-page">
+    <section class="hero">
+      <p class="eyebrow">Your profile</p>
+      <h1>Walking together</h1>
+      <p class="lead">Tell fellow readers who you are, and add friends to encourage one another in the Word. Your details are visible only to friends you accept.</p>
+    </section>
+
+    <p id="pr-signin" class="pr-status" hidden>
+      Sign in to create your profile and add friends.
+      <button id="pr-signin-btn" class="mpr-btn" type="button">Sign in with Google</button>
+    </p>
+
+    <div id="pr-wrap" hidden>
+      <section class="pr-section">
+        <h2>About you</h2>
+        <div class="pr-avatar-row">
+          <img id="pr-avatar" class="pr-avatar" src="" alt="Your profile photo" referrerpolicy="no-referrer" />
+          <div>
+            <label class="pr-file-btn" for="pr-file">Change photo</label>
+            <input id="pr-file" type="file" accept="image/*" hidden />
+            <p class="pr-hint">A square photo works best. We resize it for you.</p>
+          </div>
+        </div>
+
+        <div class="pr-grid">
+          <div class="pr-field">
+            <label for="pr-name">Display name</label>
+            <input id="pr-name" type="text" maxlength="60" />
+          </div>
+          <div class="pr-field">
+            <label for="pr-marital">Marital status</label>
+            <select id="pr-marital">
+              <option value="">Rather not say</option>
+              <option value="single">Single</option>
+              <option value="married">Married</option>
+              <option value="widowed">Widowed</option>
+              <option value="divorced">Divorced</option>
+            </select>
+          </div>
+          <div class="pr-field">
+            <label for="pr-occupation">Occupation</label>
+            <input id="pr-occupation" type="text" maxlength="80" placeholder="e.g. Driver, teacher, engineer" />
+          </div>
+          <div class="pr-field">
+            <label for="pr-years">Years walking with Christ</label>
+            <input id="pr-years" type="number" min="0" max="120" placeholder="e.g. 12" />
+          </div>
+          <div class="pr-field pr-wide">
+            <label for="pr-location">Where you live</label>
+            <div id="pr-location-slot"></div>
+            <input id="pr-location" type="text" placeholder="Start typing your suburb or town" autocomplete="off" />
+            <p class="pr-hint" id="pr-location-hint">Suburb or town only, never a street address.</p>
+            <p class="pr-chosen" id="pr-location-chosen" hidden></p>
+          </div>
+          <div class="pr-field pr-wide">
+            <label for="pr-church">Your church</label>
+            <div id="pr-church-slot"></div>
+            <input id="pr-church" type="text" placeholder="Start typing your church's name" autocomplete="off" />
+            <p class="pr-chosen" id="pr-church-chosen" hidden></p>
+          </div>
+        </div>
+
+        <button id="pr-save" class="mpr-btn" type="button">Save my profile</button>
+        <span id="pr-saved" class="pr-saved" hidden>Saved.</span>
+      </section>
+
+      <section class="pr-section">
+        <h2>Friends</h2>
+        <p class="pr-hint" style="margin-top:0">Find fellow readers by name. They see only your name and photo until you are friends.</p>
+        <div class="pr-field pr-wide">
+          <input id="fr-search" type="search" placeholder="Search people by name" autocomplete="off" />
+        </div>
+        <div id="fr-results" class="fr-list"></div>
+
+        <div id="fr-incoming-wrap" hidden>
+          <h3>Requests for you</h3>
+          <div id="fr-incoming" class="fr-list"></div>
+        </div>
+        <div id="fr-outgoing-wrap" hidden>
+          <h3>Requests you sent</h3>
+          <div id="fr-outgoing" class="fr-list"></div>
+        </div>
+        <h3>Your friends</h3>
+        <div id="fr-friends" class="fr-list"><p class="pr-hint">No friends yet. Search above to add your first.</p></div>
+        <div id="fr-profile" class="fr-profile" hidden></div>
+      </section>
+    </div>
+  </div>
+</Base>
+
+<style is:global>
+  .profile-page .pr-section { border-top: 1px solid var(--line); padding: 1.7rem 0; }
+  .profile-page h2 { font-size: 1.4rem; margin: 0 0 0.8rem; }
+  .profile-page h3 { font-size: 1.05rem; margin: 1.3rem 0 0.5rem; }
+  .profile-page .pr-status { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 1rem 1.2rem; }
+  .profile-page .pr-avatar-row { display: flex; align-items: center; gap: 1.1rem; margin-bottom: 1.2rem; }
+  .profile-page .pr-avatar { width: 84px; height: 84px; border-radius: 50%; object-fit: cover; border: 2px solid var(--line); background: var(--paper); }
+  .profile-page .pr-file-btn { display: inline-block; background: transparent; color: var(--water); border: 1px solid var(--line); border-radius: 8px; padding: 8px 13px; font-size: 0.85rem; cursor: pointer; }
+  .profile-page .pr-hint { font-size: 0.78rem; color: var(--muted); margin: 0.35rem 0 0; }
+  .profile-page .pr-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.9rem 1rem; }
+  .profile-page .pr-wide { grid-column: 1 / -1; }
+  @media (max-width: 560px) { .profile-page .pr-grid { grid-template-columns: 1fr; } }
+  .profile-page .pr-field label { display: block; font-size: 0.82rem; color: var(--muted); margin-bottom: 5px; }
+  .profile-page .pr-field input, .profile-page .pr-field select {
+    width: 100%; box-sizing: border-box; background: #fff; border: 1px solid var(--line); color: var(--ink);
+    border-radius: 8px; padding: 10px 12px; font-family: inherit; font-size: 0.95rem;
+  }
+  .profile-page .pr-chosen { font-size: 0.82rem; color: var(--water); margin: 0.35rem 0 0; }
+  .profile-page .mpr-btn { background: var(--water); color: #fff; border: 0; border-radius: 8px; padding: 10px 16px; font-family: inherit; font-size: 0.9rem; cursor: pointer; margin-top: 1.1rem; }
+  .profile-page .pr-saved { font-size: 0.85rem; color: var(--water); margin-left: 0.6rem; }
+  .profile-page .fr-list { display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.5rem; }
+  .profile-page .fr-row { display: flex; align-items: center; gap: 0.8rem; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 0.6rem 0.9rem; }
+  .profile-page .fr-row img { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; background: var(--paper); }
+  .profile-page .fr-row .fr-name { flex: 1; font-size: 0.95rem; }
+  .profile-page .fr-row button { background: transparent; color: var(--water); border: 1px solid var(--line); border-radius: 7px; padding: 6px 10px; font-size: 0.8rem; cursor: pointer; }
+  .profile-page .fr-row button.primary { background: var(--water); color: #fff; border-color: var(--water); }
+  .profile-page .fr-profile { background: var(--paper); border: 1px solid var(--line); border-left: 3px solid var(--light); border-radius: 10px; padding: 1rem 1.2rem; margin-top: 0.8rem; font-size: 0.92rem; }
+  .profile-page .fr-profile h4 { font-family: var(--serif); font-size: 1.15rem; margin: 0 0 0.4rem; }
+  .profile-page .fr-profile p { margin: 0.2rem 0; }
+  .profile-page gmp-place-autocomplete { width: 100%; }
+</style>
+
+<script is:inline>
+/* ============================================================
+   Profile and friends.
+   Location and church use Google Places autocomplete when a key
+   is present; otherwise the plain inputs below them take over.
+   Location is stored at suburb level only, never a street.
+   ============================================================ */
+var PLACES_KEY = ''; // Google Maps Platform key (Places API), restricted to makor.co.za
+
+var me = null, client = null, myProfile = null;
+
+function $(id){ return document.getElementById(id); }
+function escH(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+function avatarSrc(u){ return u || 'data:image/svg+xml;utf8,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84 84"><circle cx="42" cy="42" r="42" fill="#E4DDCC"/><circle cx="42" cy="34" r="14" fill="#9BB0AD"/><ellipse cx="42" cy="66" rx="24" ry="16" fill="#9BB0AD"/></svg>'); }
+
+/* ---------- Places ---------- */
+var placesReady = false;
+function loadPlaces(){
+  if(!PLACES_KEY) return Promise.resolve(false);
+  if(placesReady) return Promise.resolve(true);
+  return new Promise(function(res){
+    var s=document.createElement('script');
+    s.src='https://maps.googleapis.com/maps/api/js?key='+encodeURIComponent(PLACES_KEY)+'&libraries=places&v=weekly&loading=async&callback=__makorPlacesCb';
+    window.__makorPlacesCb=function(){ placesReady=true; res(true); };
+    s.onerror=function(){ res(false); };
+    document.head.appendChild(s);
+  });
+}
+function comp(components, type){
+  var hit=(components||[]).filter(function(c){ return (c.types||[]).indexOf(type)>=0; })[0];
+  return hit ? (hit.longText || hit.long_name || '') : '';
+}
+function attachAutocomplete(slotId, inputId, opts, onPick){
+  loadPlaces().then(function(ok){
+    if(!ok) return; // plain input stays
+    try{
+      var el=new google.maps.places.PlaceAutocompleteElement(opts.config||{});
+      $(slotId).appendChild(el);
+      $(inputId).style.display='none';
+      function handle(place){
+        Promise.resolve(place.fetchFields?place.fetchFields({fields:['displayName','formattedAddress','addressComponents','id']}):null)
+          .then(function(){ onPick(place); }).catch(function(){ onPick(place); });
+      }
+      el.addEventListener('gmp-select', function(ev){
+        try{ handle(ev.placePrediction.toPlace()); }catch(e){ if(ev.place) handle(ev.place); }
+      });
+      el.addEventListener('gmp-placeselect', function(ev){ if(ev.place) handle(ev.place); });
+    }catch(e){ /* fall back to plain input */ }
+  });
+}
+function placeText(p, field){
+  var v=p[field];
+  if(v==null) return '';
+  return typeof v==='string'?v:(v.text||v.toString());
+}
+
+var pickedLocation=null, pickedChurch=null;
+
+function initPlaceFields(){
+  attachAutocomplete('pr-location-slot','pr-location',
+    { config:{ includedPrimaryTypes:['sublocality_level_1','locality','postal_town','sublocality'] } },
+    function(place){
+      var comps=place.addressComponents||place.address_components||[];
+      pickedLocation={
+        suburb: comp(comps,'sublocality_level_1')||comp(comps,'sublocality')||comp(comps,'locality'),
+        city: comp(comps,'locality')||comp(comps,'postal_town'),
+        province: comp(comps,'administrative_area_level_1'),
+        country: comp(comps,'country'),
+        place_id: place.id||place.place_id||'',
+        label: placeText(place,'formattedAddress')||placeText(place,'displayName')
+      };
+      var c=$('pr-location-chosen'); c.hidden=false; c.textContent='Chosen: '+pickedLocation.label;
+    });
+  attachAutocomplete('pr-church-slot','pr-church',
+    { config:{ includedPrimaryTypes:['church'] } },
+    function(place){
+      var comps=place.addressComponents||place.address_components||[];
+      pickedChurch={
+        name: placeText(place,'displayName'),
+        locality: comp(comps,'locality')||comp(comps,'sublocality_level_1'),
+        place_id: place.id||place.place_id||'',
+        label: (placeText(place,'displayName')||'')+(comp(comps,'locality')?', '+comp(comps,'locality'):'')
+      };
+      var c=$('pr-church-chosen'); c.hidden=false; c.textContent='Chosen: '+pickedChurch.label;
+    });
+}
+
+/* ---------- Profile load and save ---------- */
+function loadProfile(){
+  return client.from('profiles').select('*').eq('id',me.id).maybeSingle().then(function(r){
+    myProfile=r.data||{id:me.id};
+    $('pr-name').value=myProfile.display_name||'';
+    $('pr-marital').value=(myProfile.marital_status==='prefer_not_to_say'?'':myProfile.marital_status)||'';
+    $('pr-occupation').value=myProfile.occupation||'';
+    $('pr-years').value=(myProfile.years_christian==null?'':myProfile.years_christian);
+    $('pr-avatar').src=avatarSrc(myProfile.avatar_url||(me.user_metadata&&(me.user_metadata.avatar_url||me.user_metadata.picture)));
+    if(myProfile.location&&myProfile.location.label){ $('pr-location').value=myProfile.location.label; var c=$('pr-location-chosen'); c.hidden=false; c.textContent='Saved: '+myProfile.location.label; }
+    if(myProfile.church&&myProfile.church.label){ $('pr-church').value=myProfile.church.label; var c2=$('pr-church-chosen'); c2.hidden=false; c2.textContent='Saved: '+myProfile.church.label; }
+  });
+}
+function saveProfile(){
+  var loc=pickedLocation||myProfile.location||null;
+  if(!PLACES_KEY||!placesReady){
+    var raw=$('pr-location').value.trim();
+    if(raw && (!loc||loc.label!==raw)) loc={label:raw};
+  }
+  var ch=pickedChurch||myProfile.church||null;
+  if(!PLACES_KEY||!placesReady){
+    var rawC=$('pr-church').value.trim();
+    if(rawC && (!ch||ch.label!==rawC)) ch={name:rawC,label:rawC};
+  }
+  var years=$('pr-years').value===''?null:Math.max(0,Math.min(120,parseInt($('pr-years').value,10)||0));
+  var row={
+    id:me.id,
+    display_name:$('pr-name').value.trim()||null,
+    marital_status:$('pr-marital').value||null,
+    occupation:$('pr-occupation').value.trim()||null,
+    years_christian:years,
+    location:loc, church:ch,
+    avatar_url:myProfile.avatar_url||null,
+    updated_at:new Date().toISOString()
+  };
+  return client.from('profiles').upsert(row).then(function(r){
+    if(r.error){ alert('Could not save your profile. Please try again.'); return; }
+    myProfile=row;
+    var s=$('pr-saved'); s.hidden=false; setTimeout(function(){ s.hidden=true; },2500);
+  });
+}
+
+/* ---------- Avatar upload ---------- */
+function handleAvatar(file){
+  var img=new Image();
+  var url=URL.createObjectURL(file);
+  img.onload=function(){
+    var size=256, c=document.createElement('canvas'); c.width=size; c.height=size;
+    var ctx=c.getContext('2d');
+    var m=Math.min(img.width,img.height);
+    ctx.drawImage(img,(img.width-m)/2,(img.height-m)/2,m,m,0,0,size,size);
+    URL.revokeObjectURL(url);
+    c.toBlob(function(blob){
+      if(!blob) return;
+      client.storage.from('avatars').upload(me.id+'.jpg',blob,{upsert:true,contentType:'image/jpeg',cacheControl:'3600'}).then(function(r){
+        if(r.error){ alert('Could not upload the photo. Please try again.'); return; }
+        var pub=client.storage.from('avatars').getPublicUrl(me.id+'.jpg');
+        var u=(pub.data&&pub.data.publicUrl?pub.data.publicUrl:'')+'?v='+Date.now();
+        myProfile.avatar_url=u;
+        $('pr-avatar').src=u;
+        client.from('profiles').upsert({id:me.id,avatar_url:u,updated_at:new Date().toISOString(),display_name:myProfile.display_name||($('pr-name').value.trim()||null)});
+      });
+    },'image/jpeg',0.85);
+  };
+  img.src=url;
+}
+
+/* ---------- Friends ---------- */
+var relState={}; // other_id -> {status, direction, fid}
+function rowHtml(p, actionsHtml){
+  return '<div class="fr-row" data-id="'+escH(p.other_id||p.id)+'">'+
+    '<img src="'+escH(avatarSrc(p.avatar_url))+'" alt="" referrerpolicy="no-referrer">'+
+    '<span class="fr-name">'+escH(p.display_name||'A Makor reader')+'</span>'+actionsHtml+'</div>';
+}
+function refreshFriends(){
+  return client.rpc('my_friendships').then(function(r){
+    var rows=r.data||[];
+    relState={};
+    rows.forEach(function(x){ relState[x.other_id]=x; });
+    var incoming=rows.filter(function(x){return x.status==='pending'&&x.direction==='incoming';});
+    var outgoing=rows.filter(function(x){return x.status==='pending'&&x.direction==='outgoing';});
+    var friends=rows.filter(function(x){return x.status==='accepted';});
+    $('fr-incoming-wrap').hidden=!incoming.length;
+    $('fr-outgoing-wrap').hidden=!outgoing.length;
+    $('fr-incoming').innerHTML=incoming.map(function(p){
+      return rowHtml(p,'<button class="primary" data-act="accept" data-fid="'+p.fid+'">Accept</button><button data-act="decline" data-fid="'+p.fid+'">Decline</button>');
+    }).join('');
+    $('fr-outgoing').innerHTML=outgoing.map(function(p){
+      return rowHtml(p,'<span class="pr-hint" style="margin:0">Waiting</span><button data-act="cancel" data-fid="'+p.fid+'">Cancel</button>');
+    }).join('');
+    $('fr-friends').innerHTML=friends.length?friends.map(function(p){
+      return rowHtml(p,'<button data-act="view">View</button><button data-act="remove" data-fid="'+p.fid+'">Remove</button>');
+    }).join(''):'<p class="pr-hint">No friends yet. Search above to add your first.</p>';
+  });
+}
+function searchPeople(q){
+  if(q.trim().length<2){ $('fr-results').innerHTML=''; return; }
+  client.rpc('search_profiles',{q:q.trim()}).then(function(r){
+    var rows=r.data||[];
+    $('fr-results').innerHTML=rows.length?rows.map(function(p){
+      var rel=relState[p.id];
+      var action;
+      if(rel&&rel.status==='accepted') action='<span class="pr-hint" style="margin:0">Friends</span>';
+      else if(rel&&rel.direction==='outgoing') action='<span class="pr-hint" style="margin:0">Requested</span>';
+      else if(rel&&rel.direction==='incoming') action='<button class="primary" data-act="accept" data-fid="'+rel.fid+'">Accept</button>';
+      else action='<button class="primary" data-act="add">Add friend</button>';
+      return rowHtml(p,action);
+    }).join(''):'<p class="pr-hint">No one found by that name yet.</p>';
+  });
+}
+function viewFriend(id){
+  client.from('profiles').select('*').eq('id',id).maybeSingle().then(function(r){
+    var p=r.data; var box=$('fr-profile');
+    if(!p){ box.hidden=true; return; }
+    var bits=[];
+    if(p.location&&p.location.label) bits.push('<p><b>Lives in:</b> '+escH(p.location.label)+'</p>');
+    if(p.church&&p.church.label) bits.push('<p><b>Church:</b> '+escH(p.church.label)+'</p>');
+    if(p.occupation) bits.push('<p><b>Occupation:</b> '+escH(p.occupation)+'</p>');
+    if(p.marital_status&&p.marital_status!=='prefer_not_to_say') bits.push('<p><b>Marital status:</b> '+escH(p.marital_status)+'</p>');
+    if(p.years_christian!=null) bits.push('<p><b>Walking with Christ:</b> '+escH(p.years_christian)+' years</p>');
+    box.innerHTML='<h4>'+escH(p.display_name||'A Makor reader')+'</h4>'+(bits.join('')||'<p class="pr-hint">They have not filled in their profile yet.</p>');
+    box.hidden=false;
+    box.scrollIntoView({behavior:'smooth',block:'nearest'});
+  });
+}
+document.addEventListener('click',function(e){
+  var btn=e.target.closest('.fr-row button'); if(!btn) return;
+  var row=btn.closest('.fr-row'); var oid=row.dataset.id; var act=btn.dataset.act; var fid=btn.dataset.fid;
+  btn.disabled=true;
+  var done=function(){ refreshFriends().then(function(){ searchPeople($('fr-search').value||''); }); };
+  if(act==='add') client.from('friendships').insert({requester:me.id,addressee:oid}).then(done);
+  else if(act==='accept') client.from('friendships').update({status:'accepted',responded_at:new Date().toISOString()}).eq('id',fid).then(done);
+  else if(act==='decline'||act==='cancel'||act==='remove'){
+    if(act==='remove'&&!confirm('Remove this friend?')){ btn.disabled=false; return; }
+    client.from('friendships').delete().eq('id',fid).then(function(){ $('fr-profile').hidden=true; done(); });
+  }
+  else if(act==='view'){ viewFriend(oid); btn.disabled=false; }
+});
+
+/* ---------- Boot ---------- */
+function boot(){
+  client=window.makorClient; me=window.makorUser;
+  if(!me){ $('pr-signin').hidden=false; return; }
+  $('pr-wrap').hidden=false;
+  initPlaceFields();
+  loadProfile();
+  refreshFriends();
+}
+$('pr-signin-btn').onclick=function(){
+  if(window.makorClient) window.makorClient.auth.signInWithOAuth({provider:'google',options:{redirectTo:location.href}});
+};
+$('pr-save').onclick=function(){ saveProfile(); };
+$('pr-file').addEventListener('change',function(){ if(this.files&&this.files[0]) handleAvatar(this.files[0]); });
+var st=null;
+$('fr-search').addEventListener('input',function(){ clearTimeout(st); var v=this.value; st=setTimeout(function(){ searchPeople(v); },250); });
+
+if(window.makorClient!==undefined&&window.makorUser!==undefined) boot();
+else window.addEventListener('makor-auth',boot,{once:true});
+</script>
