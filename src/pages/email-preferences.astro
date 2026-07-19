@@ -1,0 +1,82 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Email preferences | Makor" description="Choose which emails Makor sends you.">
+  <div class="prefs-page">
+    <section class="hero">
+      <p class="eyebrow">Your emails</p>
+      <h1>Email preferences</h1>
+      <p class="lead">Choose what we may send you. Every email exists to serve your walk in the Word, never to crowd your inbox.</p>
+    </section>
+
+    <p id="ep-signin" class="ep-status" hidden>
+      Sign in to manage your email preferences.
+      <button id="ep-signin-btn" class="ep-btn" type="button">Sign in with Google</button>
+    </p>
+
+    <div id="ep-wrap" hidden>
+      <div class="ep-card">
+        <label class="ep-row">
+          <input type="checkbox" id="ep-badges" />
+          <span>
+            <b>Milestones and badges</b>
+            <small>When you earn a badge or a new title on your journey through Scripture, we tell you and point you to your next study.</small>
+          </span>
+        </label>
+        <label class="ep-row">
+          <input type="checkbox" id="ep-friends" />
+          <span>
+            <b>Friend requests</b>
+            <small>When a fellow reader asks to be your friend on Makor, so requests never sit unseen.</small>
+          </span>
+        </label>
+      </div>
+      <button id="ep-save" class="ep-btn" type="button">Save my preferences</button>
+      <span id="ep-saved" class="ep-saved" hidden>Saved.</span>
+      <p class="ep-note">Emails you ask for directly, such as your reading plan calendar, are always sent. We never sell or share your address.</p>
+    </div>
+  </div>
+</Base>
+
+<style is:global>
+  .prefs-page .ep-status { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 1rem 1.2rem; }
+  .prefs-page .ep-card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 0.4rem 1.2rem; margin-top: 0.8rem; }
+  .prefs-page .ep-row { display: flex; gap: 0.9rem; align-items: flex-start; padding: 1rem 0; border-bottom: 1px solid var(--line); cursor: pointer; }
+  .prefs-page .ep-row:last-child { border-bottom: 0; }
+  .prefs-page .ep-row input { width: 20px; height: 20px; margin-top: 2px; accent-color: var(--water); flex: none; }
+  .prefs-page .ep-row b { display: block; font-size: 0.98rem; }
+  .prefs-page .ep-row small { display: block; color: var(--muted); font-size: 0.82rem; margin-top: 2px; line-height: 1.5; }
+  .prefs-page .ep-btn { background: var(--water); color: #fff; border: 0; border-radius: 8px; padding: 10px 16px; font-family: inherit; font-size: 0.9rem; cursor: pointer; margin-top: 1rem; }
+  .prefs-page .ep-saved { font-size: 0.85rem; color: var(--water); margin-left: 0.6rem; }
+  .prefs-page .ep-note { font-size: 0.78rem; color: var(--muted); margin-top: 1rem; }
+</style>
+
+<script is:inline>
+function $(id){ return document.getElementById(id); }
+function boot(){
+  var client=window.makorClient, me=window.makorUser;
+  if(!me){ $('ep-signin').hidden=false; return; }
+  $('ep-wrap').hidden=false;
+  client.from('user_prefs').select('badge_emails,friend_request_emails').eq('user_id',me.id).maybeSingle().then(function(r){
+    var p=r.data||{};
+    $('ep-badges').checked=p.badge_emails!==false;
+    $('ep-friends').checked=p.friend_request_emails!==false;
+  });
+  $('ep-save').onclick=function(){
+    client.from('user_prefs').upsert({
+      user_id:me.id,
+      badge_emails:$('ep-badges').checked,
+      friend_request_emails:$('ep-friends').checked,
+      updated_at:new Date().toISOString()
+    }).then(function(r){
+      if(r.error){ alert('Could not save. Please try again.'); return; }
+      var s=$('ep-saved'); s.hidden=false; setTimeout(function(){ s.hidden=true; },2500);
+    });
+  };
+}
+$('ep-signin-btn').onclick=function(){
+  if(window.makorClient) window.makorClient.auth.signInWithOAuth({provider:'google',options:{redirectTo:location.href}});
+};
+if(window.makorClient!==undefined&&window.makorUser!==undefined) boot();
+else window.addEventListener('makor-auth',boot,{once:true});
+</script>

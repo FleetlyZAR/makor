@@ -66,6 +66,7 @@ import Base from '../layouts/Base.astro';
 
         <button id="pr-save" class="mpr-btn" type="button">Save my profile</button>
         <span id="pr-saved" class="pr-saved" hidden>Saved.</span>
+        <p class="pr-hint"><a href="/email-preferences/">Manage which emails Makor sends you</a></p>
       </section>
 
       <section class="pr-section">
@@ -131,7 +132,7 @@ import Base from '../layouts/Base.astro';
    is present; otherwise the plain inputs below them take over.
    Location is stored at suburb level only, never a street.
    ============================================================ */
-var PLACES_KEY = ''; // Google Maps Platform key (Places API), restricted to makor.co.za
+var PLACES_KEY = 'AIzaSyDGL17t7XtmVE03MROIJIN46Ug6EGswCx4'; // Google Maps Platform key (Places API), restricted to makor.co.za
 
 var me = null, client = null, myProfile = null;
 
