@@ -91,8 +91,10 @@ import Base from '../layouts/Base.astro';
         <div class="summary" id="summary"></div>
         <div class="banner" id="banner" style="display:none"></div>
 
-        <button class="go" id="go">Add to my calendar</button>
-        <p class="note">Downloads a calendar file. In Google Calendar, open Settings, then Import and export, and choose the file. On a phone, opening the file adds it straight to your calendar. You can change or remove it any time; it is yours.</p>
+        <button class="go" id="gcal">Add to my Google Calendar</button>
+        <p class="gstatus" id="gstatus" hidden></p>
+        <button class="go alt" id="go">Download a calendar file (.ics) instead</button>
+        <p class="note">The Google button signs you in and places the plan in its own "Makor reading plan" calendar; Makor only receives permission to manage calendars it creates, never your existing ones, and you can remove the whole plan any time by deleting that calendar. As new studies are published, press the button again and we will add them. The file download works with Apple Calendar, Outlook, and Google Calendar (Settings, then Import and export); it is yours to change or remove.</p>
       </div>
     </section>
   </div>
@@ -131,6 +133,8 @@ import Base from '../layouts/Base.astro';
   .plan-page .summary b { color: var(--water); font-family: var(--serif); }
   .plan-page .go { display: block; width: 100%; background: var(--light); color: #fff; border: 0; border-radius: 10px; padding: 16px; font-family: var(--serif); font-weight: 600; font-size: 1.1rem; cursor: pointer; margin-top: 1.1rem; }
   .plan-page .go:hover { filter: brightness(1.05); }
+  .plan-page .go.alt { background: transparent; color: var(--water); border: 1px solid var(--line); font-weight: 500; font-size: 0.95rem; padding: 12px; margin-top: 0.6rem; }
+  .plan-page .gstatus { background: var(--paper); border: 1px solid var(--line); border-left: 3px solid var(--water); border-radius: 8px; padding: 10px 14px; font-size: 0.85rem; color: var(--ink); margin-top: 0.9rem; }
   .plan-page .note { font-size: 0.76rem; color: var(--muted); margin-top: 0.8rem; line-height: 1.5; }
   .plan-page .banner { background: var(--light-soft); border: 1px solid #ecdcae; color: #8a6d1f; border-radius: 8px; padding: 12px 14px; font-size: 0.8rem; margin-top: 0.9rem; }
   .plan-page .field { margin-top: 0.85rem; }
@@ -210,7 +214,7 @@ function render(){
   document.getElementById('summary').innerHTML=html;
   var n=indexLoaded?studies.length:COMMITTED_HINT;
   var b=document.getElementById('banner'); b.style.display='block';
-  b.innerHTML='Your download is one recurring plan, so deleting it removes every future day in one action. It covers the <b>'+commas(n)+'</b> studies committed so far and fills out to the full '+commas(WHOLE_BIBLE)+' as the rest are published.';
+  b.innerHTML='Your calendar will cover the <b>'+commas(n)+'</b> studies committed so far, out of '+commas(WHOLE_BIBLE)+' movements in all. New studies are published continually; with Google Calendar, press the button again any time and we add only what is new. A downloaded file is a snapshot; download again later to extend it.';
 }
 
 // consume the ordered studies across active days, into each enabled sitting
@@ -301,4 +305,264 @@ document.getElementById('go').onclick=function(){
 };
 
 autoSelectSlots(); render(); loadIndex();
+
+/* ============================================================
+   Google Calendar integration.
+   Signs in through the site's existing Supabase Google auth,
+   requesting only the calendar.app.created scope: Makor can
+   create its own calendar and manage events on it, and can
+   never see or touch the user's other calendars.
+   The plan lives in a dedicated "Makor reading plan" calendar;
+   pressing the button again adds only newly published studies.
+   ============================================================ */
+var GCAL_SCOPE='https://www.googleapis.com/auth/calendar.app.created';
+var CAL_SUMMARY='Makor reading plan';
+var gstatus=document.getElementById('gstatus');
+
+function gsay(msg){ gstatus.hidden=false; gstatus.textContent=msg; }
+function userTz(){ try{ return Intl.DateTimeFormat().resolvedOptions().timeZone||'Africa/Johannesburg'; }catch(e){ return 'Africa/Johannesburg'; } }
+function isoLocal(d){ return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate())+'T'+pad(d.getHours())+':'+pad(d.getMinutes())+':00'; }
+
+function cfgFromState(){
+  return { v:1, order:state.order, years:state.years, cadence:state.cadence,
+    slots:{ 1:{on:state.slots[1].on,time:slotTime(1)}, 2:{on:state.slots[2].on,time:slotTime(2)}, 3:{on:state.slots[3].on,time:slotTime(3)} },
+    start:document.getElementById('start').value };
+}
+function applyCfg(cfg){
+  try{
+    state.order=cfg.order||state.order; state.years=cfg.years||state.years; state.cadence=cfg.cadence||state.cadence;
+    [1,2,3].forEach(function(s){
+      if(!cfg.slots||!cfg.slots[s]) return;
+      state.slots[s].on=!!cfg.slots[s].on;
+      var el=document.querySelector('.slot[data-slot="'+s+'"]');
+      el.querySelector('input[type=checkbox]').checked=state.slots[s].on;
+      el.classList.toggle('off',!state.slots[s].on);
+      if(cfg.slots[s].time) el.querySelector('input[type=time]').value=cfg.slots[s].time;
+    });
+    if(cfg.start) document.getElementById('start').value=cfg.start;
+    ['order','years','cadence'].forEach(function(g){
+      document.querySelectorAll('#'+g+' .opt').forEach(function(o){
+        var v=o.dataset[g==='years'?'years':g]||o.dataset[g];
+        o.classList.toggle('sel', String(v)===String(state[g]));
+      });
+    });
+    render(); loadIndex();
+  }catch(e){}
+}
+
+// Schedule a list of studies onto days from startDay at the cfg pace.
+// Returns Google event resources, tagged with their study urls so a later
+// visit can tell exactly which studies are already on the calendar.
+function scheduleEvents(list,startDay,cfg){
+  var slotsOrd=PRIORITY.filter(function(s){return cfg.slots[s]&&cfg.slots[s].on;}); if(!slotsOrd.length) slotsOrd=[1];
+  var perYear=cfg.cadence==='weekday'?261:365;
+  var rate=WHOLE_BIBLE/(perYear*(cfg.years||1));
+  var tz=userTz();
+  var idx=0, day=new Date(startDay), acc=0, guard=0, evs=[];
+  while(idx<list.length && guard<80000){
+    guard++;
+    var dow=day.getDay();
+    if(cfg.cadence==='weekday'&&(dow===0||dow===6)){ day.setDate(day.getDate()+1); continue; }
+    acc+=rate; var count=Math.floor(acc+1e-9); acc-=count;
+    if(count>0){
+      var dist=distribute(count,slotsOrd);
+      for(var si=0;si<slotsOrd.length;si++){
+        var s=slotsOrd[si];
+        var arr=[]; for(var k=0;k<(dist[s]||0)&&idx<list.length;k++) arr.push(list[idx++]);
+        if(!arr.length) continue;
+        var tm=(cfg.slots[s].time||SLOT_TIME_DEFAULT[s]).split(':');
+        var st0=at(day,+tm[0],+tm[1]);
+        var titles=arr.map(function(x){return x.title+(x.ref?' ('+x.ref+')':'');}).join('  +  ');
+        var desc=arr.map(function(x){return (x.summary?x.summary+'\n':'')+'Read: '+x.url;}).join('\n\n');
+        evs.push({
+          summary:'Makor: '+titles,
+          description:desc,
+          start:{dateTime:isoLocal(st0),timeZone:tz},
+          end:{dateTime:isoLocal(addMin(st0,arr.length>1?55:30)),timeZone:tz},
+          reminders:{useDefault:false,overrides:[{method:'popup',minutes:10}]},
+          extendedProperties:{private:{makorUrls:arr.map(function(x){return x.url;}).join(' ')}}
+        });
+      }
+    }
+    day.setDate(day.getDate()+1);
+  }
+  return evs;
+}
+
+function gapi(path,method,body,token){
+  return fetch('https://www.googleapis.com/calendar/v3'+path,{
+    method:method||'GET',
+    headers:{'Authorization':'Bearer '+token,'Content-Type':'application/json'},
+    body:body?JSON.stringify(body):undefined
+  }).then(function(r){
+    if(!r.ok){ var err=new Error('gapi '+r.status); err.status=r.status; throw err; }
+    return r.status===204?null:r.json();
+  });
+}
+
+// Insert events 50 at a time through the Calendar batch endpoint,
+// pausing between batches to respect per-user rate limits. A chunk that
+// reports errors is retried once; anything still missed is picked up by
+// the next "check for new studies" pass, so the plan self-heals.
+function gcalBatchInsert(calId,events,token,onProgress){
+  var chunks=[]; for(var i=0;i<events.length;i+=50) chunks.push(events.slice(i,i+50));
+  var done=0;
+  function send(ci,attempt){
+    if(ci>=chunks.length) return Promise.resolve();
+    var boundary='makor_batch_'+ci+'_'+attempt;
+    var body=chunks[ci].map(function(ev,j){
+      return '--'+boundary+'\r\nContent-Type: application/http\r\nContent-ID: <item'+j+'>\r\n\r\n'+
+        'POST /calendar/v3/calendars/'+encodeURIComponent(calId)+'/events\r\nContent-Type: application/json\r\n\r\n'+
+        JSON.stringify(ev)+'\r\n';
+    }).join('')+'--'+boundary+'--';
+    return fetch('https://www.googleapis.com/batch/calendar/v3',{
+      method:'POST',
+      headers:{'Authorization':'Bearer '+token,'Content-Type':'multipart/mixed; boundary='+boundary},
+      body:body
+    }).then(function(r){
+      if(r.status===401||r.status===403){ var e=new Error('auth'); e.status=r.status; throw e; }
+      return r.text();
+    }).then(function(text){
+      var failed=(text.match(/"error"/g)||[]).length;
+      if(failed>0 && attempt<2){
+        return new Promise(function(res){setTimeout(res,4000);}).then(function(){ return send(ci,attempt+1); });
+      }
+      done+=chunks[ci].length;
+      onProgress(done,events.length);
+      return new Promise(function(res){setTimeout(res,2500);}).then(function(){ return send(ci+1,0); });
+    });
+  }
+  return send(0,0);
+}
+
+function fetchIndex(order){
+  return fetch('/plan-index-'+order+'.json').then(function(r){return r.json();})
+    .then(function(d){ return (Array.isArray(d)&&d.length)?d:SAMPLE; })
+    .catch(function(){ return SAMPLE; });
+}
+
+function readCfgFromDescription(desc){
+  try{
+    var m=String(desc||'').match(/Config:\s*(\{[\s\S]*\})/);
+    return m?JSON.parse(m[1]):null;
+  }catch(e){ return null; }
+}
+
+function storedCalId(sess){
+  try{ return (sess&&sess.user&&sess.user.user_metadata&&sess.user.user_metadata.makor_gcal_id)||localStorage.getItem('makor_gcal_id')||null; }catch(e){ return null; }
+}
+function storeCalId(id){
+  try{ localStorage.setItem('makor_gcal_id',id); }catch(e){}
+  try{ window.makorClient.auth.updateUser({data:{makor_gcal_id:id}}); }catch(e){}
+}
+
+function gcalAuth(){
+  try{ localStorage.setItem('makor_gcal_pending',JSON.stringify(cfgFromState())); }catch(e){}
+  window.makorClient.auth.signInWithOAuth({ provider:'google', options:{
+    scopes:GCAL_SCOPE,
+    redirectTo:location.origin+'/plan/?gcal=resume',
+    queryParams:{ include_granted_scopes:'true' }
+  }});
+}
+
+function findMakorCalendar(sess,token){
+  var known=storedCalId(sess);
+  var viaGet=known?gapi('/calendars/'+encodeURIComponent(known),'GET',null,token).catch(function(){return null;}):Promise.resolve(null);
+  return viaGet.then(function(cal){
+    if(cal&&cal.id) return cal;
+    return gapi('/users/me/calendarList','GET',null,token).then(function(list){
+      var hit=((list&&list.items)||[]).filter(function(c){return c.summary===CAL_SUMMARY;})[0];
+      return hit?gapi('/calendars/'+encodeURIComponent(hit.id),'GET',null,token).catch(function(){return hit;}):null;
+    }).catch(function(){ return null; });
+  });
+}
+
+function listPlanEvents(calId,token,pageToken,acc){
+  var q='/calendars/'+encodeURIComponent(calId)+'/events?maxResults=2500&fields=nextPageToken,items(start,extendedProperties)'+(pageToken?'&pageToken='+encodeURIComponent(pageToken):'');
+  return gapi(q,'GET',null,token).then(function(res){
+    acc=acc.concat((res&&res.items)||[]);
+    if(res&&res.nextPageToken) return listPlanEvents(calId,token,res.nextPageToken,acc);
+    return acc;
+  });
+}
+
+function gcalProgress(done,total){ gsay('Adding your readings: '+done+' of '+total+' entries placed...'); }
+
+function gcalCreateAndFill(token,cfg){
+  gsay('Creating your Makor reading plan calendar...');
+  return fetchIndex(cfg.order).then(function(list){
+    return gapi('/calendars','POST',{
+      summary:CAL_SUMMARY,
+      description:'Your Makor reading plan, managed from makor.co.za/plan. Delete this calendar to remove the whole plan. Config: '+JSON.stringify(cfg),
+      timeZone:userTz()
+    },token).then(function(cal){
+      storeCalId(cal.id);
+      var startDay=new Date((cfg.start||new Date().toISOString().slice(0,10))+'T00:00:00');
+      var evs=scheduleEvents(list,startDay,cfg);
+      return gcalBatchInsert(cal.id,evs,token,gcalProgress).then(function(){
+        gsay('Done. '+list.length+' studies are on your Google Calendar in the "Makor reading plan" calendar. As new studies are published, press the button again and we will add them.');
+      });
+    });
+  });
+}
+
+function gcalSync(cal,token){
+  gsay('You already have a Makor plan calendar. Checking for newly published studies...');
+  var cfg=readCfgFromDescription(cal.description)||cfgFromState();
+  return fetchIndex(cfg.order).then(function(list){
+    return listPlanEvents(cal.id,token,null,[]).then(function(items){
+      var have={}, lastDate=null;
+      items.forEach(function(ev){
+        var urls=ev.extendedProperties&&ev.extendedProperties.private&&ev.extendedProperties.private.makorUrls;
+        if(urls) urls.split(' ').forEach(function(u){ have[u]=1; });
+        var d=ev.start&&(ev.start.dateTime||ev.start.date);
+        if(d&&(!lastDate||d>lastDate)) lastDate=d;
+      });
+      var missing=list.filter(function(x){ return !have[x.url]; });
+      if(!missing.length){ gsay('Your calendar already has every committed study ('+list.length+'). Check back after new studies are published.'); return; }
+      var startDay=lastDate?new Date(String(lastDate).slice(0,10)+'T00:00:00'):new Date();
+      startDay.setDate(startDay.getDate()+1);
+      var evs=scheduleEvents(missing,startDay,cfg);
+      gsay('Adding '+missing.length+' newly published studies to your calendar...');
+      return gcalBatchInsert(cal.id,evs,token,gcalProgress).then(function(){
+        gsay('Done. '+missing.length+' new studies added, continuing at your usual pace and times.');
+      });
+    });
+  });
+}
+
+function gcalRun(cfg){
+  var btn=document.getElementById('gcal'); btn.disabled=true;
+  gsay('Connecting to Google...');
+  window.makorClient.auth.getSession().then(function(r){
+    var sess=r.data&&r.data.session;
+    var token=sess&&sess.provider_token;
+    if(!token){ gcalAuth(); return; }
+    return findMakorCalendar(sess,token).then(function(cal){
+      if(cal&&cal.id){ storeCalId(cal.id); return gcalSync(cal,token); }
+      return gcalCreateAndFill(token,cfg||cfgFromState());
+    }).catch(function(e){
+      if(e&&(e.status===401||e.status===403)){ gcalAuth(); return; }
+      gsay('Something went wrong talking to Google Calendar. Try again in a minute, or use the file download below.');
+    });
+  }).then(function(){ btn.disabled=false; }).catch(function(){ btn.disabled=false; });
+}
+
+document.getElementById('gcal').onclick=function(){
+  if(!window.makorClient){ gsay('One moment, the page is still loading, then press the button again.'); return; }
+  gcalRun(cfgFromState());
+};
+
+// Returning from the Google consent screen: restore choices and continue.
+(function(){
+  if(location.search.indexOf('gcal=resume')<0) return;
+  var cfg=null;
+  try{ cfg=JSON.parse(localStorage.getItem('makor_gcal_pending')||'null'); localStorage.removeItem('makor_gcal_pending'); }catch(e){}
+  if(cfg) applyCfg(cfg);
+  try{ history.replaceState(null,'',location.pathname); }catch(e){}
+  gsay('Finishing your Google sign in...');
+  function go(){ gcalRun(cfg||cfgFromState()); }
+  if(window.makorClient) go();
+  else window.addEventListener('makor-auth',go,{once:true});
+})();
 </script>

@@ -34,6 +34,13 @@ Deno.serve(async (req: Request) => {
     if (!type) return new Response(JSON.stringify({ skipped: ev?.type }), { headers: { "Content-Type": "application/json" } });
 
     const d = ev.data ?? {};
+    const sender = typeof d.from === "string" ? d.from : "";
+
+    // This Resend account also sends for fleetly.co.za. Only record Makor email.
+    if (!/makor\.co\.za/i.test(sender)) {
+      return new Response(JSON.stringify({ skipped: "not makor", sender }), { headers: { "Content-Type": "application/json" } });
+    }
+
     const recipient = Array.isArray(d.to) ? d.to[0] : (typeof d.to === "string" ? d.to : null);
     const link = d.click?.link ?? null;
     const campaign = d.broadcast_id ?? "transactional";
@@ -45,6 +52,7 @@ Deno.serve(async (req: Request) => {
       label,
       email_id: d.email_id ?? null,
       recipient,
+      sender,
       link,
       created_at: ev.created_at ?? new Date().toISOString(),
     });
