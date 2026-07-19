@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Live in the Word · A plan to study the whole Bible · Makor</title>
+<meta name="description" content="Read and study the whole Bible in one, two, three, or four years. Put the big rocks in first, and let Scripture become the place you live.">
+<meta property="og:title" content="Live in the Word · Makor">
+<meta property="og:description" content="A plan to study the whole Bible, on your calendar, until Scripture is the place you live.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+<style>
+  :root{--ink:#0E2A2E;--water:#0F6C6C;--light:#B8862F;--cream:#F4EEDF;--muted:#6A6357;
+    --vellum:#FBF8F1;--paper:#FFFDF8;--rule:#E6DECD;--mutedcream:#9BB0AD;}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--vellum);color:var(--ink);font-family:'Newsreader',Georgia,serif;line-height:1.65;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:760px;margin:0 auto;padding:0 22px}
+  a{color:var(--water)}
+  /* site header */
+  .site{text-align:center;padding:24px 22px 20px;border-bottom:1px solid var(--rule);background:var(--paper)}
+  .site .wordmark{font-family:'Fraunces',serif;font-weight:600;font-size:25px;letter-spacing:.18em;color:var(--water);text-decoration:none;text-transform:uppercase;padding-left:.18em}
+  .site .tag{font-size:14px;color:var(--muted);margin-top:6px;font-style:italic}
+  /* title band */
+  .titleband{text-align:center;padding:54px 22px 40px}
+  .titleband .eyebrow{font-family:'Fraunces',serif;font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--light);margin-bottom:14px}
+  .titleband h1{font-family:'Fraunces',serif;font-weight:400;font-size:46px;line-height:1.1;color:var(--ink);margin-bottom:16px}
+  .titleband .sub{font-size:19px;color:var(--muted);max-width:560px;margin:0 auto;line-height:1.55}
+  section{padding:44px 0}
+  h2{font-family:'Fraunces',serif;font-weight:500;font-size:28px;line-height:1.2;margin-bottom:18px;color:var(--ink)}
+  p.lead{font-size:19px;margin-bottom:18px}
+  p{font-size:18px;margin-bottom:16px}
+  .rocks{background:var(--paper);border:1px solid var(--rule);border-radius:14px;padding:26px 30px;margin-top:8px}
+  .stat{border-left:3px solid var(--light);padding:6px 0 6px 20px;margin:22px 0;font-family:'Fraunces',serif;font-size:22px;line-height:1.4;color:var(--ink)}
+  .src{font-size:13px;color:var(--muted);margin-top:8px}
+  em,i{color:var(--ink)}
+  .divider{height:1px;background:var(--rule);margin:0}
+  /* builder, light card */
+  .builder{background:var(--paper);border:1px solid var(--rule);border-radius:16px;padding:30px 28px;margin-top:10px;box-shadow:0 24px 55px -38px rgba(14,42,46,.45)}
+  .builder h2{color:var(--ink)}
+  .builder .step{margin:24px 0}
+  .builder label.h{display:block;font-family:'Fraunces',serif;font-weight:600;font-size:13px;letter-spacing:.08em;color:var(--light);margin-bottom:12px;text-transform:uppercase}
+  .opts{display:flex;flex-wrap:wrap;gap:10px}
+  .opt{flex:1 1 120px;border:1px solid var(--rule);background:var(--vellum);color:var(--ink);border-radius:10px;padding:14px 12px;text-align:center;cursor:pointer;font-family:'Fraunces',serif;font-size:16px;transition:.15s;position:relative}
+  .opt small{display:block;font-family:'Newsreader',serif;font-size:12.5px;color:var(--muted);margin-top:4px}
+  .opt.sel{background:var(--water);border-color:var(--water);color:#fff}
+  .opt.sel small{color:#dff0ee}
+  .rec{position:absolute;top:-9px;left:50%;transform:translateX(-50%);background:var(--light);color:#fff;font-family:'Newsreader',serif;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;padding:2px 8px;border-radius:20px;white-space:nowrap}
+  .explain{font-size:13.5px;color:var(--muted);margin-top:12px;line-height:1.55}
+  .slot{display:flex;align-items:center;gap:14px;background:var(--vellum);border:1px solid var(--rule);border-radius:10px;padding:12px 14px;margin-bottom:10px}
+  .slot .name{flex:1}
+  .slot .name b{font-family:'Fraunces',serif;font-weight:500;font-size:16px;color:var(--ink)}
+  .slot .name small{display:block;color:var(--muted);font-size:12.5px}
+  .slot input[type=time]{background:#fff;border:1px solid var(--rule);color:var(--ink);border-radius:7px;padding:8px 10px;font-family:inherit;font-size:15px}
+  .slot input[type=checkbox]{width:20px;height:20px;accent-color:var(--water)}
+  .slot.off{opacity:.55}
+  .summary{background:var(--vellum);border:1px solid var(--rule);border-radius:10px;padding:18px 20px;margin-top:8px;font-size:16px;line-height:1.6;color:var(--ink)}
+  .summary b{color:var(--water);font-family:'Fraunces',serif}
+  .go{display:block;width:100%;background:var(--light);color:#fff;border:0;border-radius:10px;padding:16px;font-family:'Fraunces',serif;font-weight:600;font-size:18px;cursor:pointer;margin-top:20px}
+  .note{font-size:13px;color:var(--muted);margin-top:14px;line-height:1.5}
+  .banner{background:#FBF3DE;border:1px solid #ecdcae;color:#8a6d1f;border-radius:8px;padding:12px 14px;font-size:13.5px;margin-top:16px}
+  .field{margin-top:14px}
+  .field label{display:block;font-size:14px;color:var(--muted);margin-bottom:6px}
+  .field input[type=date]{background:#fff;border:1px solid var(--rule);color:var(--ink);border-radius:7px;padding:9px 11px;font-family:inherit;font-size:15px;width:100%;max-width:220px}
+  /* site footer */
+  .site-foot{background:var(--ink);color:var(--mutedcream);text-align:center;padding:40px 22px;margin-top:44px}
+  .site-foot .fverse{font-family:'Fraunces',serif;font-size:17px;font-style:italic;color:var(--cream);margin-bottom:12px}
+  .site-foot .fverse span{color:var(--light);font-style:normal;font-size:13px;margin-left:8px}
+  .site-foot .fmotto{font-size:13px;color:var(--mutedcream);margin:0 auto 12px;max-width:540px;line-height:1.6}
+  .site-foot .flegal a{color:var(--water);text-decoration:none;font-size:13px}
+</style>
+</head>
+<body>
+
+<header class="site">
+  <a class="wordmark" href="https://makor.co.za/">Makor</a>
+  <p class="tag">Deep, Christ-centred study of every book of the Bible.</p>
+</header>
+
+<div class="titleband">
+  <p class="eyebrow">A reading plan</p>
+  <h1>Live in the Word</h1>
+  <p class="sub">Read and study the whole Bible, one sitting at a time, until Scripture is not a place you visit but a place you live.</p>
+</div>
+
+<div class="wrap">
+
+  <section>
+    <h2>Put the big rocks in first</h2>
+    <p class="lead">There is an old picture of a jar. If you fill it first with sand and small pebbles, the big rocks never fit. But put the big rocks in first, and the sand and pebbles settle into the space around them. The jar holds everything.</p>
+    <p>Time in God's Word is a big rock. Left to the leftover minutes of a day, it is the first thing crowded out by sand. So this plan does one simple thing: it puts the rock in first. It places your time in Scripture on your calendar, at hours you choose, before the day fills up. Not another thing to feel behind on. A fixed point the rest of your life can order itself around.</p>
+    <div class="rocks">
+      <p style="margin:0">The aim is not to finish a book. It is to be formed by One. Reading the whole Bible is simply what happens along the way, when you keep showing up to the fountain.</p>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section>
+    <h2>Why the number four matters</h2>
+    <p>This is not only a good idea; it is a measured one. Over eight years the Center for Bible Engagement studied more than a hundred thousand people, asking a plain question: what difference does time in the Bible actually make?</p>
+    <p>The answer surprised even the researchers. Reading Scripture once, twice, even three times a week made almost no measurable difference in a person's life. The line stayed flat. But at four times a week, something changed sharply.</p>
+    <div class="stat">At four or more days a week, the effect spiked: markedly less given to anger, addiction, and despair, markedly more likely to share their faith and to grow. They named it the Power of 4, and called frequent time in the Word the single strongest predictor of spiritual growth.</div>
+    <p class="src">Center for Bible Engagement, <i>Understanding the Bible Engagement Challenge: Scientific Evidence for the Power of 4</i> (2009), now the research arm of Our Daily Bread Ministries.</p>
+    <p>Three days a week leaves you roughly where you started. Four days a week changes you. Every plan below is built to carry you past that line without your having to think about it, because the rhythm is already on your calendar.</p>
+  </section>
+
+  <div class="divider"></div>
+
+  <section>
+    <h2>Choose your plan</h2>
+    <p style="margin-bottom:6px">Pick how you want to move through the Bible, how long you want to take, how often you want to sit, and the times of day that fit your life. We will build a calendar you can add to Google Calendar, Apple Calendar, or Outlook in one step. Each entry names the passage, sums up the study, and links straight to it.</p>
+
+    <div class="builder">
+      <h2 style="font-size:22px">Build your calendar</h2>
+
+      <div class="step">
+        <label class="h">1 · Reading order</label>
+        <div class="opts" id="order">
+          <div class="opt sel" data-order="multitrack"><span class="rec">Recommended</span>Multi-track<small>a little from several parts each day</small></div>
+          <div class="opt" data-order="canonical">Canonical<small>Genesis to Revelation, in order</small></div>
+          <div class="opt" data-order="chronological">Chronological<small>in the order events happened</small></div>
+        </div>
+        <p class="explain" id="orderExplain"></p>
+      </div>
+
+      <div class="step">
+        <label class="h">2 · How long</label>
+        <div class="opts" id="years">
+          <div class="opt sel" data-years="1">1 year<small>the deep dive</small></div>
+          <div class="opt" data-years="2">2 years<small>steady</small></div>
+          <div class="opt" data-years="3">3 years<small>gentle</small></div>
+          <div class="opt" data-years="4">4 years<small>one a day</small></div>
+        </div>
+      </div>
+
+      <div class="step">
+        <label class="h">3 · How often</label>
+        <div class="opts" id="cadence">
+          <div class="opt sel" data-cadence="daily">Every day<small>seven days a week</small></div>
+          <div class="opt" data-cadence="weekday">Weekdays<small>Monday to Friday</small></div>
+        </div>
+      </div>
+
+      <div class="step">
+        <label class="h">4 · Your sittings</label>
+        <div class="slot" data-slot="1">
+          <input type="checkbox" checked>
+          <div class="name"><b>Morning</b><small>any time from midnight to 8am</small></div>
+          <input type="time" value="05:00" min="00:00" max="07:59">
+        </div>
+        <div class="slot off" data-slot="2">
+          <input type="checkbox">
+          <div class="name"><b>Midday</b><small>any time from 8am to 4pm</small></div>
+          <input type="time" value="13:00" min="08:00" max="15:59">
+        </div>
+        <div class="slot off" data-slot="3">
+          <input type="checkbox">
+          <div class="name"><b>Evening</b><small>any time from 4pm to midnight</small></div>
+          <input type="time" value="18:00" min="16:00" max="23:59">
+        </div>
+        <div class="field">
+          <label>Start date</label>
+          <input type="date" id="start">
+        </div>
+      </div>
+
+      <div class="summary" id="summary"></div>
+      <div class="banner" id="banner" style="display:none"></div>
+
+      <button class="go" id="go">Add to my calendar</button>
+      <p class="note">Downloads a calendar file. In Google Calendar, open Settings, then Import and export, and choose the file. On a phone, opening the file adds it straight to your calendar. You can change or remove it any time; it is yours.</p>
+    </div>
+  </section>
+
+</div>
+
+<footer class="site-foot">
+  <p class="fverse">In Your light we see light. <span>Psalm 36:9</span></p>
+  <p class="fmotto">Makor. Every study an act of discipleship. Scripture text: Berean Standard Bible (BSB), public domain.</p>
+  <p class="flegal"><a href="https://makor.co.za/">Home</a> &middot; <a href="https://makor.co.za/privacy/">Privacy Policy</a> &middot; <a href="https://makor.co.za/terms/">Terms of Use</a></p>
+</footer>
+
+<script>
+/*
+  Publish one ordered index per reading order. The array order IS the reading order.
+    /plan-index-multitrack.json      (default, recommended)
+    /plan-index-canonical.json
+    /plan-index-chronological.json
+  Each item:
+    { "title":"The Seven Days",
+      "ref":"Genesis 1:1-2:3",
+      "summary":"God speaks a formless void into an ordered, good, and habitable home.",
+      "url":"https://makor.co.za/genesis/the-seven-days/" }
+*/
+var SAMPLE = [
+  {title:"The Seven Days", ref:"Genesis 1:1-2:3", summary:"God speaks a formless void into an ordered, good, and habitable home.", url:"https://makor.co.za/genesis/the-seven-days/"},
+  {title:"The Word Became Flesh", ref:"John 1:1-18", summary:"The One who spoke creation is given a name and a face.", url:"https://makor.co.za/john/the-word-became-flesh/"},
+  {title:"The Prophet's Grief and Hope", ref:"Lamentations 3:22-23", summary:"From the ashes of a fallen city, mercy new every morning.", url:"https://makor.co.za/lamentations/the-prophets-grief-and-hope/"}
+];
+var ORDER_TEXT = {
+  multitrack:"You walk in several parts of the Bible at once: an Old Testament story, a Gospel, a Psalm, a letter. Every day is a feast rather than a long march through one book. This is how most people who finish actually finish.",
+  canonical:"Straight through, Genesis to Revelation, in the Bible's own order. Simple and complete, though it holds you in the long books before you reach the Gospels.",
+  chronological:"In the rough order the events happened, so history reads as a single unfolding story from creation to the church."
+};
+var TOTAL_MOVEMENTS = 1354; // the pericope-level movements of Scripture
+var studies = SAMPLE.slice();
+var indexLoaded = false;
+var state = {order:'multitrack', years:1, cadence:'daily', slots:{1:{on:true},2:{on:false},3:{on:false}}};
+
+function loadIndex(){
+  fetch('/plan-index-'+state.order+'.json').then(function(r){return r.json();}).then(function(d){
+    if(Array.isArray(d) && d.length){ studies=d; indexLoaded=true; } else { studies=SAMPLE; indexLoaded=false; }
+    render();
+  }).catch(function(){ studies=SAMPLE; indexLoaded=false; render(); });
+}
+
+document.querySelectorAll('#order .opt').forEach(function(o){
+  o.onclick=function(){ setSel('#order',o); state.order=o.dataset.order; loadIndex(); };
+});
+document.querySelectorAll('#years .opt').forEach(function(o){
+  o.onclick=function(){ setSel('#years',o); state.years=+o.dataset.years; render(); };
+});
+document.querySelectorAll('#cadence .opt').forEach(function(o){
+  o.onclick=function(){ setSel('#cadence',o); state.cadence=o.dataset.cadence; render(); };
+});
+document.querySelectorAll('.slot').forEach(function(s){
+  var slot=+s.dataset.slot, cb=s.querySelector('input[type=checkbox]');
+  cb.onchange=function(){ state.slots[slot].on=cb.checked; s.classList.toggle('off',!cb.checked); render(); };
+});
+function setSel(group,el){ document.querySelectorAll(group+' .opt').forEach(function(x){x.classList.remove('sel');}); el.classList.add('sel'); }
+
+var sd=document.getElementById('start'); var t=new Date(); t.setDate(t.getDate()+1);
+sd.value=t.toISOString().slice(0,10); sd.onchange=render;
+
+function activePerYear(){ return state.cadence==='weekday'?261:365; }
+function totalStudies(){ return indexLoaded?studies.length:TOTAL_MOVEMENTS; }
+function totalActiveDays(){ return activePerYear()*state.years; }
+function avgPerDay(){ return totalStudies()/totalActiveDays(); }
+function paceWord(){ var a=avgPerDay();
+  if(a>=3.5)return 'about four'; if(a>=2.5)return 'about three';
+  if(a>=1.6)return 'about two'; if(a>=1.15)return 'one or two'; return 'about one'; }
+function commas(n){ return String(n).replace(/\B(?=(\d{3})+(?!\d))/g,','); }
+function enabledSlots(){ return [1,2,3].filter(function(s){return state.slots[s].on;}); }
+function distribute(n,S){ var base=Math.floor(n/S), rem=n%S, a=[]; for(var i=0;i<S;i++)a.push(base+(i<rem?1:0)); return a; }
+
+function render(){
+  document.getElementById('orderExplain').textContent = ORDER_TEXT[state.order];
+  var slots=enabledSlots();
+  if(!slots.length){ slots=[1]; state.slots[1].on=true; document.querySelector('.slot[data-slot="1"] input[type=checkbox]').checked=true; document.querySelector('.slot[data-slot="1"]').classList.remove('off'); }
+  var sitWord = slots.length===1?'one sitting':(slots.length===2?'two sittings':'three sittings');
+  var daysWord = state.cadence==='weekday'?'weekday':'day';
+  var html='This paces you at <b>'+paceWord()+'</b> movement'+(avgPerDay()>=1.6?'s':'')+' a '+daysWord+', across '+sitWord+'. ';
+  html+='That carries you well past four days a week. ';
+  html+='At this pace you move through all <b>'+commas(totalStudies())+'</b> movements of Scripture in <b>'+state.years+' year'+(state.years>1?'s':'')+'</b>.';
+  document.getElementById('summary').innerHTML=html;
+  var b=document.getElementById('banner');
+  if(!indexLoaded){ b.style.display='block'; b.innerHTML='The pace above is real, based on all '+commas(TOTAL_MOVEMENTS)+' movements. The downloadable calendar fills out completely once the index at /plan-index-'+state.order+'.json is published; for now it holds the '+studies.length+' studies that are live.'; }
+  else { b.style.display='none'; }
+}
+
+function esc(s){ return String(s).replace(/\\/g,'\\\\').replace(/;/g,'\\;').replace(/,/g,'\\,').replace(/\n/g,'\\n'); }
+function pad(n){ return String(n).padStart(2,'0'); }
+function fmt(d){ return d.getFullYear()+pad(d.getMonth()+1)+pad(d.getDate())+'T'+pad(d.getHours())+pad(d.getMinutes())+'00'; }
+function utcstamp(){ var d=new Date(); return d.getUTCFullYear()+pad(d.getUTCMonth()+1)+pad(d.getUTCDate())+'T'+pad(d.getUTCHours())+pad(d.getUTCMinutes())+pad(d.getUTCSeconds())+'Z'; }
+function slotTime(slot){ return document.querySelector('.slot[data-slot="'+slot+'"] input[type=time]').value || '05:00'; }
+
+function build(){
+  var slots=enabledSlots(); if(!slots.length)slots=[1];
+  var start=new Date(document.getElementById('start').value+'T00:00:00');
+  var lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Makor//Reading Plan//EN','CALSCALE:GREGORIAN','METHOD:PUBLISH','X-WR-CALNAME:Makor reading plan'];
+  var idx=0, day=new Date(start), guard=0, stamp=utcstamp(), acc=0, rate=avgPerDay();
+  while(idx<studies.length && guard<60000){
+    guard++;
+    var dow=day.getDay();
+    if(state.cadence==='weekday' && (dow===0||dow===6)){ day.setDate(day.getDate()+1); continue; }
+    acc += rate;
+    var todayCount = Math.floor(acc + 1e-9); acc -= todayCount;
+    if(todayCount<=0){ day.setDate(day.getDate()+1); continue; }
+    var counts=distribute(todayCount, slots.length);
+    for(var i=0;i<slots.length;i++){
+      var tm=slotTime(slots[i]).split(':'); var h=+tm[0], m=+tm[1];
+      for(var k=0;k<counts[i] && idx<studies.length;k++){
+        var st=studies[idx++];
+        var s=new Date(day); s.setHours(h, m+k*30, 0,0);
+        var e=new Date(s); e.setMinutes(e.getMinutes()+30);
+        lines.push('BEGIN:VEVENT');
+        lines.push('UID:makor-'+idx+'-'+stamp+'@makor.co.za');
+        lines.push('DTSTAMP:'+stamp);
+        lines.push('DTSTART:'+fmt(s));
+        lines.push('DTEND:'+fmt(e));
+        lines.push('SUMMARY:'+esc('Makor: '+st.title+(st.ref?' ('+st.ref+')':'')));
+        lines.push('DESCRIPTION:'+esc((st.summary?st.summary+'\n\n':'')+'Read the study: '+st.url));
+        if(st.url) lines.push('URL:'+st.url);
+        lines.push('BEGIN:VALARM'); lines.push('TRIGGER:-PT10M'); lines.push('ACTION:DISPLAY'); lines.push('DESCRIPTION:'+esc('Makor: '+st.title)); lines.push('END:VALARM');
+        lines.push('END:VEVENT');
+      }
+    }
+    day.setDate(day.getDate()+1);
+  }
+  lines.push('END:VCALENDAR');
+  return lines.join('\r\n');
+}
+
+document.getElementById('go').onclick=function(){
+  var ics=build();
+  var blob=new Blob([ics],{type:'text/calendar;charset=utf-8'});
+  var url=URL.createObjectURL(blob);
+  var a=document.createElement('a'); a.href=url; a.download='makor-reading-plan.ics';
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  setTimeout(function(){URL.revokeObjectURL(url);},1500);
+};
+
+loadIndex();
+</script>
+</body>
+</html>
