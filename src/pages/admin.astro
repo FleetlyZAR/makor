@@ -5,22 +5,58 @@ import Base from '../layouts/Base.astro';
   <section class="hero">
     <p class="eyebrow">Admin</p>
     <h1>Dashboard</h1>
-    <p class="lead">Everyone who has signed up, what they have completed, and how they are growing. Private to administrators.</p>
+    <p class="lead">Traffic, participation, email, and growth. Private to administrators.</p>
   </section>
 
   <p id="admin-status" class="rank-status">Loading...</p>
 
   <div id="admin-wrap" hidden>
+    <div class="period" id="period">
+      <span>Window:</span>
+      <button data-days="7" class="on" type="button">7 days</button>
+      <button data-days="30" type="button">30 days</button>
+    </div>
+
+    <!-- Traffic -->
+    <h2 class="prog-h2">Site traffic</h2>
+    <div class="stat-row">
+      <div class="stat"><div class="stat-num" id="t-views">0</div><div class="stat-label">page views</div></div>
+      <div class="stat"><div class="stat-num" id="t-sessions">0</div><div class="stat-label">visits (sessions)</div></div>
+      <div class="stat"><div class="stat-num" id="t-anon">0%</div><div class="stat-label">visits without an account</div></div>
+      <div class="stat"><div class="stat-num" id="t-signups">0</div><div class="stat-label">new sign-ups</div></div>
+    </div>
+    <div class="panel"><div class="panel-head">Page views per day <span class="legend2"><i class="sw sw-v"></i>views <i class="sw sw-s"></i>visits</span></div><div id="t-chart" class="bars"></div></div>
+
+    <!-- Participation -->
+    <h2 class="prog-h2">Non-account participation</h2>
+    <p class="muted-note">Readers using Makor without signing in. They can read every study; only signed-in readers save progress.</p>
+    <div class="stat-row">
+      <div class="stat"><div class="stat-num" id="p-anonsess">0</div><div class="stat-label">visits without account</div></div>
+      <div class="stat"><div class="stat-num" id="p-anonviews">0</div><div class="stat-label">page views without account</div></div>
+      <div class="stat"><div class="stat-num" id="p-authsess">0</div><div class="stat-label">visits signed in</div></div>
+    </div>
+    <div class="panel"><div class="panel-head">Most-read pages by visitors without an account</div><div id="p-pages" class="ranklist"></div></div>
+
+    <!-- Email -->
+    <h2 class="prog-h2">Email by campaign</h2>
+    <p class="muted-note">Opens and clicks are tracked from the moment tracking was enabled, so earlier sends may show delivery only.</p>
+    <div id="email-block"></div>
+
+    <!-- Attribution -->
+    <h2 class="prog-h2">What drove studies</h2>
+    <div class="panel"><div class="panel-head">Studies completed per day</div><div id="a-chart" class="bars"></div></div>
+    <div class="panel"><div class="panel-head">Studies completed within 48 hours of each campaign</div><div id="a-lift" class="ranklist"></div></div>
+    <div class="panel"><div class="panel-head">Study links most clicked from email</div><div id="a-links" class="ranklist"></div></div>
+
+    <!-- People -->
+    <h2 class="prog-h2">People</h2>
     <div class="stat-row">
       <div class="stat"><div class="stat-num" id="a-users">0</div><div class="stat-label">people signed up</div></div>
       <div class="stat"><div class="stat-num" id="a-active">0</div><div class="stat-label">active in last 7 days</div></div>
       <div class="stat"><div class="stat-num" id="a-studies">0</div><div class="stat-label">studies completed, all people</div></div>
     </div>
-
     <table class="rank-table">
-      <thead>
-        <tr><th>Name</th><th>Email</th><th>Joined</th><th>Studies</th><th>Before</th><th>After</th><th>Last active</th></tr>
-      </thead>
+      <thead><tr><th>Name</th><th>Email</th><th>Joined</th><th>Studies</th><th>Before</th><th>After</th><th>Last active</th></tr></thead>
       <tbody id="admin-body"></tbody>
     </table>
   </div>
@@ -28,37 +64,106 @@ import Base from '../layouts/Base.astro';
   <a class="backlink" href="/">Back to all books</a>
 </Base>
 
+<style is:global>
+  .period { display: flex; align-items: center; gap: 0.5rem; margin: 0.5rem 0 1.5rem; font-family: var(--sans); font-size: 0.85rem; color: var(--muted); }
+  .period button { font-family: var(--sans); font-size: 0.82rem; font-weight: 600; cursor: pointer; background: var(--surface); border: 1px solid var(--line); color: var(--muted); padding: 0.35rem 0.85rem; border-radius: 999px; }
+  .period button.on { background: var(--water); color: #fff; border-color: var(--water); }
+  .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 1rem 1.25rem; margin: 0 0 1.5rem; }
+  .panel-head { font-family: var(--sans); font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin-bottom: 0.85rem; display: flex; justify-content: space-between; align-items: center; }
+  .legend2 { font-weight: 600; letter-spacing: 0; text-transform: none; color: var(--muted); }
+  .sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; vertical-align: middle; margin: 0 0.25rem 0 0.6rem; }
+  .sw-v { background: var(--water); } .sw-s { background: var(--light); }
+  .bars { display: flex; align-items: flex-end; gap: 4px; height: 150px; }
+  .bar-col { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%; gap: 3px; }
+  .bar-pair { display: flex; align-items: flex-end; gap: 2px; width: 100%; justify-content: center; flex: 1; }
+  .bar { width: 42%; background: var(--water); border-radius: 3px 3px 0 0; min-height: 2px; }
+  .bar.b2 { background: var(--light); }
+  .bar-lbl { font-family: var(--sans); font-size: 0.62rem; color: var(--muted); white-space: nowrap; }
+  .bars-empty, .list-empty { font-family: var(--sans); color: var(--muted); font-style: italic; font-size: 0.9rem; }
+  .ranklist { display: flex; flex-direction: column; gap: 0.5rem; }
+  .rankrow { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; border-bottom: 1px solid var(--line); padding-bottom: 0.45rem; }
+  .rankrow:last-child { border-bottom: none; }
+  .rankrow .k { font-family: var(--sans); font-size: 0.9rem; color: var(--ink); word-break: break-word; }
+  .rankrow .v { font-family: var(--serif); font-weight: 600; color: var(--water); white-space: nowrap; }
+  .camp { border: 1px solid var(--line); border-radius: 10px; padding: 0.9rem 1.1rem; margin-bottom: 0.85rem; background: var(--surface); }
+  .camp-name { font-family: var(--serif); font-size: 1.15rem; font-weight: 600; color: var(--ink); margin-bottom: 0.5rem; }
+  .camp-stats { display: flex; flex-wrap: wrap; gap: 1.25rem; margin-bottom: 0.5rem; }
+  .camp-stat { font-family: var(--sans); }
+  .camp-stat b { display: block; font-family: var(--serif); font-size: 1.3rem; color: var(--water); line-height: 1.1; }
+  .camp-stat span { font-size: 0.72rem; color: var(--muted); }
+  .camp-links { margin-top: 0.5rem; }
+  .camp-links .lh { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin-bottom: 0.3rem; }
+</style>
+
 <script>
   const ADMIN_EMAILS = ['luyanda@fleetly.co.za'];
-  function fmt(iso) {
-    if (!iso) return '-';
-    try { return new Date(iso).toLocaleDateString(undefined, { day: 'numeric', month: 'short', year: 'numeric' }); }
-    catch (e) { return '-'; }
+  let currentDays = 7;
+
+  function fmt(iso) { if (!iso) return '-'; try { return new Date(iso).toLocaleDateString(undefined, { day: 'numeric', month: 'short', year: 'numeric' }); } catch (e) { return '-'; } }
+  function fmtDay(d) { try { return new Date(d + 'T00:00:00').toLocaleDateString(undefined, { day: 'numeric', month: 'short' }); } catch (e) { return d; } }
+  function daysAgo(iso) { if (!iso) return Infinity; return (Date.now() - new Date(iso).getTime()) / 86400000; }
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
+  function shortLink(u) { try { const x = new URL(u); return x.pathname + (x.search || ''); } catch (e) { return u; } }
+
+  function pairBars(el, rows, key1, key2, labelKey) {
+    if (!rows || !rows.length) { el.innerHTML = '<div class="bars-empty">No data yet.</div>'; el.classList.remove('bars'); return; }
+    el.classList.add('bars');
+    let max = 1;
+    rows.forEach((r) => { max = Math.max(max, r[key1] || 0, key2 ? (r[key2] || 0) : 0); });
+    el.innerHTML = rows.map((r) => {
+      const h1 = Math.round(((r[key1] || 0) / max) * 100);
+      const h2 = key2 ? Math.round(((r[key2] || 0) / max) * 100) : 0;
+      const title = (r[key1] || 0) + (key2 ? ' views, ' + (r[key2] || 0) + ' visits' : '');
+      const b2 = key2 ? '<div class="bar b2" style="height:' + h2 + '%" title="' + title + '"></div>' : '';
+      return '<div class="bar-col"><div class="bar-pair"><div class="bar" style="height:' + h1 + '%" title="' + title + '"></div>' + b2 + '</div><div class="bar-lbl">' + fmtDay(r[labelKey]) + '</div></div>';
+    }).join('');
   }
-  function daysAgo(iso) {
-    if (!iso) return Infinity;
-    return (Date.now() - new Date(iso).getTime()) / 86400000;
+
+  function rankList(el, rows, kfn, vfn, emptyMsg) {
+    if (!rows || !rows.length) { el.innerHTML = '<div class="list-empty">' + esc(emptyMsg || 'No data yet.') + '</div>'; return; }
+    el.innerHTML = rows.map((r) => '<div class="rankrow"><span class="k">' + esc(kfn(r)) + '</span><span class="v">' + esc(vfn(r)) + '</span></div>').join('');
   }
-  async function loadAdmin() {
-    const status = document.getElementById('admin-status');
-    const wrap = document.getElementById('admin-wrap');
-    if (!window.makorClient) return;
-    const { data: u } = await window.makorClient.auth.getUser();
-    if (!u || !u.user) {
-      if (status) { status.hidden = false; status.textContent = 'Open the menu at the top and sign in.'; }
-      if (wrap) wrap.hidden = true;
-      return;
+
+  function renderAnalytics(a) {
+    if (!a || a.error) return;
+    const p = a.participation || {};
+    // Traffic
+    document.getElementById('t-views').textContent = String(p.total_pageviews || 0);
+    document.getElementById('t-sessions').textContent = String(p.total_sessions || 0);
+    const anonPct = p.total_sessions ? Math.round((p.anon_sessions / p.total_sessions) * 100) : 0;
+    document.getElementById('t-anon').textContent = anonPct + '%';
+    document.getElementById('t-signups').textContent = String(p.signups || 0);
+    pairBars(document.getElementById('t-chart'), a.traffic, 'pageviews', 'sessions', 'd');
+    // Participation
+    document.getElementById('p-anonsess').textContent = String(p.anon_sessions || 0);
+    document.getElementById('p-anonviews').textContent = String(p.anon_pageviews || 0);
+    document.getElementById('p-authsess').textContent = String(p.auth_sessions || 0);
+    rankList(document.getElementById('p-pages'), p.top_anon_pages, (r) => r.path, (r) => r.views + ' views', 'No anonymous page views recorded yet.');
+    // Email
+    const eb = document.getElementById('email-block');
+    if (!a.email || !a.email.length) { eb.innerHTML = '<div class="panel"><div class="list-empty">No email events yet. New sends will appear here.</div></div>'; }
+    else {
+      eb.innerHTML = a.email.map((c) => {
+        const name = c.label || (c.campaign === 'transactional' ? 'Transactional (badge emails)' : c.campaign);
+        const links = (c.top_links && c.top_links.length)
+          ? '<div class="camp-links"><div class="lh">Links clicked</div>' + c.top_links.map((l) => '<div class="rankrow"><span class="k">' + esc(shortLink(l.link)) + '</span><span class="v">' + l.clicks + '</span></div>').join('') + '</div>'
+          : '';
+        return '<div class="camp"><div class="camp-name">' + esc(name) + '</div><div class="camp-stats">'
+          + '<div class="camp-stat"><b>' + (c.delivered || 0) + '</b><span>delivered</span></div>'
+          + '<div class="camp-stat"><b>' + (c.open_rate == null ? '-' : c.open_rate + '%') + '</b><span>open rate</span></div>'
+          + '<div class="camp-stat"><b>' + (c.ctr == null ? '-' : c.ctr + '%') + '</b><span>click rate</span></div>'
+          + '<div class="camp-stat"><b>' + (c.clicked || 0) + '</b><span>clicks</span></div>'
+          + '</div>' + links + '</div>';
+      }).join('');
     }
-    if (ADMIN_EMAILS.indexOf(u.user.email) === -1) {
-      if (status) { status.hidden = false; status.textContent = 'This page is for administrators only.'; }
-      if (wrap) wrap.hidden = true;
-      return;
-    }
-    const rows = window.makorAdminOverview ? await window.makorAdminOverview() : [];
-    if (rows && rows.error) {
-      if (status) { status.hidden = false; status.textContent = 'Could not load the dashboard.'; }
-      return;
-    }
+    // Attribution
+    const at = a.attribution || {};
+    pairBars(document.getElementById('a-chart'), at.completions_daily, 'completed', null, 'd');
+    rankList(document.getElementById('a-lift'), at.campaign_lift, (r) => (r.label || 'Campaign') + '  (' + fmt(r.sent_at) + ')', (r) => (r.completions_48h || 0) + ' completed', 'No campaigns sent yet.');
+    rankList(document.getElementById('a-links'), at.top_email_study_links, (r) => shortLink(r.link), (r) => r.clicks + ' clicks', 'No study links clicked from email yet.');
+  }
+
+  function renderPeople(rows) {
     document.getElementById('a-users').textContent = String(rows.length);
     document.getElementById('a-active').textContent = String(rows.filter((r) => daysAgo(r.last_active) <= 7).length);
     document.getElementById('a-studies').textContent = String(rows.reduce((a, r) => a + (r.studies_done || 0), 0));
@@ -66,26 +171,40 @@ import Base from '../layouts/Base.astro';
     body.innerHTML = '';
     rows.forEach((r) => {
       const tr = document.createElement('tr');
-      const cells = [
-        r.name || '-',
-        r.email || '-',
-        fmt(r.joined),
-        String(r.studies_done || 0),
-        r.pre_avg == null ? '-' : r.pre_avg + '%',
-        r.post_avg == null ? '-' : r.post_avg + '%',
-        fmt(r.last_active),
-      ];
-      cells.forEach((c, ci) => {
-        const td = document.createElement('td');
-        td.textContent = c;
-        if (ci === 0) td.className = 'rank-name';
-        tr.appendChild(td);
-      });
+      const cells = [r.name || '-', r.email || '-', fmt(r.joined), String(r.studies_done || 0), r.pre_avg == null ? '-' : r.pre_avg + '%', r.post_avg == null ? '-' : r.post_avg + '%', fmt(r.last_active)];
+      cells.forEach((c, ci) => { const td = document.createElement('td'); td.textContent = c; if (ci === 0) td.className = 'rank-name'; tr.appendChild(td); });
       body.appendChild(tr);
     });
+  }
+
+  async function loadAnalytics() {
+    if (!window.makorAnalytics) return;
+    const a = await window.makorAnalytics(currentDays);
+    renderAnalytics(a);
+  }
+
+  async function loadAdmin() {
+    const status = document.getElementById('admin-status');
+    const wrap = document.getElementById('admin-wrap');
+    if (!window.makorClient) return;
+    const { data: u } = await window.makorClient.auth.getUser();
+    if (!u || !u.user) { if (status) { status.hidden = false; status.textContent = 'Open the menu at the top and sign in.'; } if (wrap) wrap.hidden = true; return; }
+    if (ADMIN_EMAILS.indexOf(u.user.email) === -1) { if (status) { status.hidden = false; status.textContent = 'This page is for administrators only.'; } if (wrap) wrap.hidden = true; return; }
+
+    const rows = window.makorAdminOverview ? await window.makorAdminOverview() : [];
+    if (rows && rows.error) { if (status) { status.hidden = false; status.textContent = 'Could not load the dashboard.'; } return; }
+    renderPeople(rows);
+    await loadAnalytics();
     if (status) status.hidden = true;
     if (wrap) wrap.hidden = false;
   }
+
+  document.getElementById('period').addEventListener('click', function (e) {
+    const btn = e.target.closest('button'); if (!btn) return;
+    Array.prototype.forEach.call(this.querySelectorAll('button'), (b) => b.classList.remove('on'));
+    btn.classList.add('on'); currentDays = Number(btn.dataset.days) || 7; loadAnalytics();
+  });
+
   window.addEventListener('makor-auth', loadAdmin);
   loadAdmin();
 </script>

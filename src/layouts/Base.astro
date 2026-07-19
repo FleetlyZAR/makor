@@ -168,6 +168,25 @@ const canonicalUrl = 'https://makor.co.za' + Astro.url.pathname;
         if (error) return { error: true };
         return data || [];
       };
+      window.makorAnalytics = async (days) => {
+        const { data, error } = await client.rpc('admin_analytics', { p_days: days || 7 });
+        if (error) return { error: true };
+        return data || {};
+      };
+
+      // Cookieless page-view beacon. One per page load. No cookies, no cross-site.
+      (async () => {
+        try {
+          const TRACK_URL = 'https://oztgjzncxgobcszcwibp.supabase.co/functions/v1/track';
+          let sid = sessionStorage.getItem('mk_sid');
+          if (!sid) { sid = (crypto.randomUUID ? crypto.randomUUID() : String(Date.now()) + Math.random().toString(16).slice(2)); sessionStorage.setItem('mk_sid', sid); }
+          let uid = null, isAuth = false;
+          try { const { data } = await client.auth.getUser(); if (data && data.user) { uid = data.user.id; isAuth = true; } } catch (e) { /* anon */ }
+          const payload = JSON.stringify({ p: location.pathname, r: document.referrer || '', s: sid, u: uid, a: isAuth });
+          if (navigator.sendBeacon) navigator.sendBeacon(TRACK_URL, new Blob([payload], { type: 'application/json' }));
+          else fetch(TRACK_URL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: payload, keepalive: true }).catch(() => {});
+        } catch (e) { /* never break the page for analytics */ }
+      })();
       window.makorRefreshProgress = async () => {
         const strip = document.getElementById('progress-strip');
         if (!strip) return;

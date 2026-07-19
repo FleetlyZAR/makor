@@ -41,6 +41,32 @@ The opt-out link in every email. Verifies a signed token and sets
 That is all. New post-quizzes will trigger the email. The function skips sending
 if a reader has opted out, and never double-sends an award.
 
+## Analytics pipeline (admin dashboard)
+
+Three more pieces power the admin dashboard's traffic, participation, email, and
+attribution views. All are deployed and wired already.
+
+- `public.events` table: first-party analytics store (page views + email events),
+  RLS-locked so only the service role reads it.
+- `track` function: receives the cookieless page-view beacon from the site
+  (added in Base.astro) and writes page_view rows. verify_jwt=false.
+- `resend-events` function: receives Resend email webhooks (delivered, opened,
+  clicked, bounced, complained) and writes email rows. Authenticated by a token
+  in the URL (`?k=`, checked against app_config.resend_webhook_key).
+  verify_jwt=false.
+- `admin_analytics(p_days)` RPC: admin-gated (same admins check as
+  admin_overview), returns traffic, participation, email-by-campaign, and
+  attribution as one JSON object. The admin page calls it via
+  window.makorAnalytics(days).
+
+Resend open and click tracking are enabled on makor.co.za, and a Resend webhook
+points at the resend-events function. Opens and clicks are only captured from
+sends made after tracking was turned on.
+
+The only step that still needs a deploy is the site itself (the beacon in
+Base.astro and the dashboard in admin.astro). Traffic and participation start
+filling in once that ships.
+
 ## Redeploying after edits
 
 supabase functions deploy award-badges --no-verify-jwt --project-ref oztgjzncxgobcszcwibp
