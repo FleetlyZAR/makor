@@ -184,16 +184,12 @@
 
 <script>
 /*
-  Publish one ordered index per reading order. The array order IS the reading order.
-    /plan-index-multitrack.json      (default, recommended)
-    /plan-index-canonical.json
-    /plan-index-chronological.json
-  Each item:
-    { "title":"The Seven Days",
-      "ref":"Genesis 1:1-2:3",
-      "summary":"God speaks a formless void into an ordered, good, and habitable home.",
-      "url":"https://makor.co.za/genesis/the-seven-days/" }
+  Publish one ordered index per reading order (array order = reading order):
+    /plan-index-multitrack.json  (default)   /plan-index-canonical.json   /plan-index-chronological.json
+  Item: { "title","ref","summary","url" }
 */
+var WHOLE_BIBLE = 1354;      // total movements in Scripture; the plan paces to finish these
+var COMMITTED_HINT = 817;    // studies committed so far (fallback until the index loads)
 var SAMPLE = [
   {title:"The Seven Days", ref:"Genesis 1:1-2:3", summary:"God speaks a formless void into an ordered, good, and habitable home.", url:"https://makor.co.za/genesis/the-seven-days/"},
   {title:"The Word Became Flesh", ref:"John 1:1-18", summary:"The One who spoke creation is given a name and a face.", url:"https://makor.co.za/john/the-word-became-flesh/"},
@@ -204,7 +200,9 @@ var ORDER_TEXT = {
   canonical:"Straight through, Genesis to Revelation, in the Bible's own order. Simple and complete, though it holds you in the long books before you reach the Gospels.",
   chronological:"In the rough order the events happened, so history reads as a single unfolding story from creation to the church."
 };
-var TOTAL_MOVEMENTS = 1354; // the pericope-level movements of Scripture
+var SLOT_NAME = {1:'morning',2:'midday',3:'evening'};
+var SLOT_TIME_DEFAULT = {1:'05:00',2:'13:00',3:'18:00'};
+var PRIORITY = [1,3,2]; // morning first, then evening, then midday
 var studies = SAMPLE.slice();
 var indexLoaded = false;
 var state = {order:'multitrack', years:1, cadence:'daily', slots:{1:{on:true},2:{on:false},3:{on:false}}};
@@ -216,103 +214,138 @@ function loadIndex(){
   }).catch(function(){ studies=SAMPLE; indexLoaded=false; render(); });
 }
 
-document.querySelectorAll('#order .opt').forEach(function(o){
-  o.onclick=function(){ setSel('#order',o); state.order=o.dataset.order; loadIndex(); };
-});
-document.querySelectorAll('#years .opt').forEach(function(o){
-  o.onclick=function(){ setSel('#years',o); state.years=+o.dataset.years; render(); };
-});
-document.querySelectorAll('#cadence .opt').forEach(function(o){
-  o.onclick=function(){ setSel('#cadence',o); state.cadence=o.dataset.cadence; render(); };
-});
-document.querySelectorAll('.slot').forEach(function(s){
-  var slot=+s.dataset.slot, cb=s.querySelector('input[type=checkbox]');
-  cb.onchange=function(){ state.slots[slot].on=cb.checked; s.classList.toggle('off',!cb.checked); render(); };
-});
-function setSel(group,el){ document.querySelectorAll(group+' .opt').forEach(function(x){x.classList.remove('sel');}); el.classList.add('sel'); }
-
-var sd=document.getElementById('start'); var t=new Date(); t.setDate(t.getDate()+1);
-sd.value=t.toISOString().slice(0,10); sd.onchange=render;
-
-function activePerYear(){ return state.cadence==='weekday'?261:365; }
-function totalStudies(){ return indexLoaded?studies.length:TOTAL_MOVEMENTS; }
-function totalActiveDays(){ return activePerYear()*state.years; }
-function avgPerDay(){ return totalStudies()/totalActiveDays(); }
-function paceWord(){ var a=avgPerDay();
-  if(a>=3.5)return 'about four'; if(a>=2.5)return 'about three';
-  if(a>=1.6)return 'about two'; if(a>=1.15)return 'one or two'; return 'about one'; }
-function commas(n){ return String(n).replace(/\B(?=(\d{3})+(?!\d))/g,','); }
-function enabledSlots(){ return [1,2,3].filter(function(s){return state.slots[s].on;}); }
-function distribute(n,S){ var base=Math.floor(n/S), rem=n%S, a=[]; for(var i=0;i<S;i++)a.push(base+(i<rem?1:0)); return a; }
-
-function render(){
-  document.getElementById('orderExplain').textContent = ORDER_TEXT[state.order];
-  var slots=enabledSlots();
-  if(!slots.length){ slots=[1]; state.slots[1].on=true; document.querySelector('.slot[data-slot="1"] input[type=checkbox]').checked=true; document.querySelector('.slot[data-slot="1"]').classList.remove('off'); }
-  var sitWord = slots.length===1?'one sitting':(slots.length===2?'two sittings':'three sittings');
-  var daysWord = state.cadence==='weekday'?'weekday':'day';
-  var html='This paces you at <b>'+paceWord()+'</b> movement'+(avgPerDay()>=1.6?'s':'')+' a '+daysWord+', across '+sitWord+'. ';
-  html+='That carries you well past four days a week. ';
-  html+='At this pace you move through all <b>'+commas(totalStudies())+'</b> movements of Scripture in <b>'+state.years+' year'+(state.years>1?'s':'')+'</b>.';
-  document.getElementById('summary').innerHTML=html;
-  var b=document.getElementById('banner');
-  if(!indexLoaded){ b.style.display='block'; b.innerHTML='The pace above is real, based on all '+commas(TOTAL_MOVEMENTS)+' movements. The downloadable calendar fills out completely once the index at /plan-index-'+state.order+'.json is published; for now it holds the '+studies.length+' studies that are live.'; }
-  else { b.style.display='none'; }
+// how many sittings a duration needs, in priority order (morning, evening, midday)
+function slotsForYears(y){ if(y===1)return [1,3,2]; if(y===2)return [1,3]; return [1]; }
+function autoSelectSlots(){
+  var want=slotsForYears(state.years);
+  [1,2,3].forEach(function(s){
+    var on=want.indexOf(s)>=0;
+    state.slots[s].on=on;
+    var el=document.querySelector('.slot[data-slot="'+s+'"]');
+    el.querySelector('input[type=checkbox]').checked=on;
+    el.classList.toggle('off',!on);
+  });
 }
 
-function esc(s){ return String(s).replace(/\\/g,'\\\\').replace(/;/g,'\\;').replace(/,/g,'\\,').replace(/\n/g,'\\n'); }
+function activePerYear(){ return state.cadence==='weekday'?261:365; }
+function ratePerDay(){ return WHOLE_BIBLE/(activePerYear()*state.years); }
+function enabledOrdered(){ return PRIORITY.filter(function(s){return state.slots[s].on;}); }
+function distribute(n,slotsOrdered){ var S=slotsOrdered.length, base=Math.floor(n/S), rem=n%S, out={};
+  slotsOrdered.forEach(function(s,i){ out[s]=base+(i<rem?1:0); }); return out; }
+
 function pad(n){ return String(n).padStart(2,'0'); }
 function fmt(d){ return d.getFullYear()+pad(d.getMonth()+1)+pad(d.getDate())+'T'+pad(d.getHours())+pad(d.getMinutes())+'00'; }
 function utcstamp(){ var d=new Date(); return d.getUTCFullYear()+pad(d.getUTCMonth()+1)+pad(d.getUTCDate())+'T'+pad(d.getUTCHours())+pad(d.getUTCMinutes())+pad(d.getUTCSeconds())+'Z'; }
-function slotTime(slot){ return document.querySelector('.slot[data-slot="'+slot+'"] input[type=time]').value || '05:00'; }
+function esc(s){ return String(s).replace(/\\/g,'\\\\').replace(/;/g,'\\;').replace(/,/g,'\\,').replace(/\n/g,'\\n'); }
+function slotTime(slot){ var el=document.querySelector('.slot[data-slot="'+slot+'"] input[type=time]'); return (el&&el.value)||SLOT_TIME_DEFAULT[slot]; }
+function at(d,h,m){ var x=new Date(d); x.setHours(h,m,0,0); return x; }
+function addMin(d,mins){ var x=new Date(d); x.setMinutes(x.getMinutes()+mins); return x; }
+function commas(n){ return String(n).replace(/\B(?=(\d{3})+(?!\d))/g,','); }
 
-function build(){
-  var slots=enabledSlots(); if(!slots.length)slots=[1];
+function render(){
+  document.getElementById('orderExplain').textContent = ORDER_TEXT[state.order];
+  var slotsOrd=enabledOrdered(); if(!slotsOrd.length) slotsOrd=[1];
+  var rate=ratePerDay();
+  var per = rate>=3.5?'about four':rate>=2.5?'about three':rate>=1.6?'about two':rate>=1.15?'one or two':'about one';
+  var sitNames=slotsOrd.map(function(s){return SLOT_NAME[s];}).join(', ');
+  var daysWord = state.cadence==='weekday'?'weekday':'day';
+  var html='This paces you through all <b>'+commas(WHOLE_BIBLE)+'</b> movements of Scripture in <b>'+state.years+' year'+(state.years>1?'s':'')+'</b>, at <b>'+per+'</b> a '+daysWord+'. ';
+  html+='We set your sittings to the <b>'+sitNames+'</b> to suit this pace; adjust any if you like.';
+  document.getElementById('summary').innerHTML=html;
+  var n=indexLoaded?studies.length:COMMITTED_HINT;
+  var b=document.getElementById('banner'); b.style.display='block';
+  b.innerHTML='Your download is one recurring plan, so deleting it removes every future day in one action. It covers the <b>'+commas(n)+'</b> studies committed so far and fills out to the full '+commas(WHOLE_BIBLE)+' as the rest are published.';
+}
+
+// consume the ordered studies across active days, into each enabled sitting
+function buildSchedule(){
+  var slotsOrd=enabledOrdered(); if(!slotsOrd.length) slotsOrd=[1];
   var start=new Date(document.getElementById('start').value+'T00:00:00');
-  var lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Makor//Reading Plan//EN','CALSCALE:GREGORIAN','METHOD:PUBLISH','X-WR-CALNAME:Makor reading plan'];
-  var idx=0, day=new Date(start), guard=0, stamp=utcstamp(), acc=0, rate=avgPerDay();
-  while(idx<studies.length && guard<60000){
+  var idx=0, day=new Date(start), acc=0, rate=ratePerDay(), guard=0;
+  var perSlot={}; slotsOrd.forEach(function(s){perSlot[s]=[];});
+  var activeDates=[];
+  while(idx<studies.length && guard<80000){
     guard++;
     var dow=day.getDay();
     if(state.cadence==='weekday' && (dow===0||dow===6)){ day.setDate(day.getDate()+1); continue; }
-    acc += rate;
-    var todayCount = Math.floor(acc + 1e-9); acc -= todayCount;
-    if(todayCount<=0){ day.setDate(day.getDate()+1); continue; }
-    var counts=distribute(todayCount, slots.length);
-    for(var i=0;i<slots.length;i++){
-      var tm=slotTime(slots[i]).split(':'); var h=+tm[0], m=+tm[1];
-      for(var k=0;k<counts[i] && idx<studies.length;k++){
-        var st=studies[idx++];
-        var s=new Date(day); s.setHours(h, m+k*30, 0,0);
-        var e=new Date(s); e.setMinutes(e.getMinutes()+30);
-        lines.push('BEGIN:VEVENT');
-        lines.push('UID:makor-'+idx+'-'+stamp+'@makor.co.za');
-        lines.push('DTSTAMP:'+stamp);
-        lines.push('DTSTART:'+fmt(s));
-        lines.push('DTEND:'+fmt(e));
-        lines.push('SUMMARY:'+esc('Makor: '+st.title+(st.ref?' ('+st.ref+')':'')));
-        lines.push('DESCRIPTION:'+esc((st.summary?st.summary+'\n\n':'')+'Read the study: '+st.url));
-        if(st.url) lines.push('URL:'+st.url);
-        lines.push('BEGIN:VALARM'); lines.push('TRIGGER:-PT10M'); lines.push('ACTION:DISPLAY'); lines.push('DESCRIPTION:'+esc('Makor: '+st.title)); lines.push('END:VALARM');
-        lines.push('END:VEVENT');
-      }
+    acc+=rate; var count=Math.floor(acc+1e-9); acc-=count;
+    var d=new Date(day);
+    if(count>0){
+      var dist=distribute(count, slotsOrd);
+      slotsOrd.forEach(function(s){
+        var arr=[]; for(var k=0;k<dist[s] && idx<studies.length;k++){ arr.push(studies[idx++]); }
+        if(arr.length) perSlot[s].push({date:new Date(d), studies:arr});
+      });
     }
+    activeDates.push(new Date(d));
     day.setDate(day.getDate()+1);
   }
+  return {perSlot:perSlot, slotsOrd:slotsOrd, activeDates:activeDates};
+}
+
+function build(){
+  var sch=buildSchedule();
+  var stamp=utcstamp();
+  var lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Makor//Reading Plan//EN','CALSCALE:GREGORIAN','METHOD:PUBLISH','X-WR-CALNAME:Makor reading plan'];
+  sch.slotsOrd.forEach(function(slot){
+    var insts=sch.perSlot[slot]; if(!insts.length) return;
+    var uid='makor-'+SLOT_NAME[slot]+'-'+stamp+'@makor.co.za';
+    var tm=slotTime(slot).split(':'); var h=+tm[0], m=+tm[1];
+    var first=insts[0].date, last=insts[insts.length-1].date;
+    var firstStart=at(first,h,m), lastStart=at(last,h,m);
+    // one recurring master
+    lines.push('BEGIN:VEVENT');
+    lines.push('UID:'+uid);
+    lines.push('DTSTAMP:'+stamp);
+    lines.push('DTSTART:'+fmt(firstStart));
+    lines.push('DTEND:'+fmt(addMin(firstStart,30)));
+    lines.push('RRULE:'+(state.cadence==='weekday' ? 'FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;UNTIL='+fmt(lastStart) : 'FREQ=DAILY;UNTIL='+fmt(lastStart)));
+    lines.push('SUMMARY:'+esc('Makor reading ('+SLOT_NAME[slot]+')'));
+    lines.push('DESCRIPTION:'+esc('Your Makor '+SLOT_NAME[slot]+' reading. Each day carries its own passage.'));
+    // skip active days this sitting has nothing for
+    var have={}; insts.forEach(function(it){ have[fmt(at(it.date,h,m))]=1; });
+    var ex=[]; sch.activeDates.forEach(function(dt){ if(dt<first||dt>last) return; var key=fmt(at(dt,h,m)); if(!have[key]) ex.push(key); });
+    if(ex.length) lines.push('EXDATE:'+ex.join(','));
+    lines.push('BEGIN:VALARM');lines.push('TRIGGER:-PT10M');lines.push('ACTION:DISPLAY');lines.push('DESCRIPTION:Makor reading');lines.push('END:VALARM');
+    lines.push('END:VEVENT');
+    // per-day content as overrides on the same series
+    insts.forEach(function(it){
+      var st0=at(it.date,h,m);
+      var titles=it.studies.map(function(s){return s.title+(s.ref?' ('+s.ref+')':'');}).join('  +  ');
+      var desc=it.studies.map(function(s){return (s.summary?s.summary+'\n':'')+'Read: '+s.url;}).join('\n\n');
+      lines.push('BEGIN:VEVENT');
+      lines.push('UID:'+uid);
+      lines.push('RECURRENCE-ID:'+fmt(st0));
+      lines.push('DTSTAMP:'+stamp);
+      lines.push('DTSTART:'+fmt(st0));
+      lines.push('DTEND:'+fmt(addMin(st0, it.studies.length>1?55:30)));
+      lines.push('SUMMARY:'+esc('Makor: '+titles));
+      lines.push('DESCRIPTION:'+esc(desc));
+      if(it.studies.length===1 && it.studies[0].url) lines.push('URL:'+it.studies[0].url);
+      lines.push('BEGIN:VALARM');lines.push('TRIGGER:-PT10M');lines.push('ACTION:DISPLAY');lines.push('DESCRIPTION:'+esc('Makor: '+titles));lines.push('END:VALARM');
+      lines.push('END:VEVENT');
+    });
+  });
   lines.push('END:VCALENDAR');
   return lines.join('\r\n');
 }
 
+document.querySelectorAll('#order .opt').forEach(function(o){ o.onclick=function(){ setSel('#order',o); state.order=o.dataset.order; loadIndex(); }; });
+document.querySelectorAll('#years .opt').forEach(function(o){ o.onclick=function(){ setSel('#years',o); state.years=+o.dataset.years; autoSelectSlots(); render(); }; });
+document.querySelectorAll('#cadence .opt').forEach(function(o){ o.onclick=function(){ setSel('#cadence',o); state.cadence=o.dataset.cadence; render(); }; });
+document.querySelectorAll('.slot').forEach(function(s){ var slot=+s.dataset.slot, cb=s.querySelector('input[type=checkbox]');
+  cb.onchange=function(){ state.slots[slot].on=cb.checked; s.classList.toggle('off',!cb.checked); render(); }; });
+function setSel(g,el){ document.querySelectorAll(g+' .opt').forEach(function(x){x.classList.remove('sel');}); el.classList.add('sel'); }
+
+var sd=document.getElementById('start'); var t=new Date(); t.setDate(t.getDate()+1); sd.value=t.toISOString().slice(0,10); sd.onchange=render;
 document.getElementById('go').onclick=function(){
-  var ics=build();
-  var blob=new Blob([ics],{type:'text/calendar;charset=utf-8'});
-  var url=URL.createObjectURL(blob);
-  var a=document.createElement('a'); a.href=url; a.download='makor-reading-plan.ics';
-  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  var ics=build(); var blob=new Blob([ics],{type:'text/calendar;charset=utf-8'}); var url=URL.createObjectURL(blob);
+  var a=document.createElement('a'); a.href=url; a.download='makor-reading-plan.ics'; document.body.appendChild(a); a.click(); document.body.removeChild(a);
   setTimeout(function(){URL.revokeObjectURL(url);},1500);
 };
 
-loadIndex();
+autoSelectSlots(); render(); loadIndex();
+
 </script>
 </body>
 </html>
