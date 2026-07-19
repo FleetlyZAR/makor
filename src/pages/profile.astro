@@ -32,6 +32,17 @@ import Base from '../layouts/Base.astro';
             <input id="pr-name" type="text" maxlength="60" />
           </div>
           <div class="pr-field">
+            <label for="pr-visibility">Who can see my profile</label>
+            <select id="pr-visibility">
+              <option value="private">Private: only friends I accept</option>
+              <option value="public">Public: any signed-in member</option>
+            </select>
+          </div>
+          <div class="pr-field">
+            <label for="pr-age">Age</label>
+            <input id="pr-age" type="number" min="5" max="120" placeholder="e.g. 34" />
+          </div>
+          <div class="pr-field">
             <label for="pr-marital">Marital status</label>
             <select id="pr-marital">
               <option value="">Rather not say</option>
@@ -71,23 +82,7 @@ import Base from '../layouts/Base.astro';
 
       <section class="pr-section">
         <h2>Friends</h2>
-        <p class="pr-hint" style="margin-top:0">Find fellow readers by name. They see only your name and photo until you are friends.</p>
-        <div class="pr-field pr-wide">
-          <input id="fr-search" type="search" placeholder="Search people by name" autocomplete="off" />
-        </div>
-        <div id="fr-results" class="fr-list"></div>
-
-        <div id="fr-incoming-wrap" hidden>
-          <h3>Requests for you</h3>
-          <div id="fr-incoming" class="fr-list"></div>
-        </div>
-        <div id="fr-outgoing-wrap" hidden>
-          <h3>Requests you sent</h3>
-          <div id="fr-outgoing" class="fr-list"></div>
-        </div>
-        <h3>Your friends</h3>
-        <div id="fr-friends" class="fr-list"><p class="pr-hint">No friends yet. Search above to add your first.</p></div>
-        <div id="fr-profile" class="fr-profile" hidden></div>
+        <p class="pr-hint" style="margin-top:0">Find fellow readers, respond to requests, and see what your friends are reading on the <a href="/activity/">Friends page</a>.</p>
       </section>
     </div>
   </div>
@@ -217,6 +212,8 @@ function loadProfile(){
   return client.from('profiles').select('*').eq('id',me.id).maybeSingle().then(function(r){
     myProfile=r.data||{id:me.id};
     $('pr-name').value=myProfile.display_name||'';
+    $('pr-visibility').value=myProfile.visibility||'private';
+    $('pr-age').value=(myProfile.age==null?'':myProfile.age);
     $('pr-marital').value=(myProfile.marital_status==='prefer_not_to_say'?'':myProfile.marital_status)||'';
     $('pr-occupation').value=myProfile.occupation||'';
     $('pr-years').value=(myProfile.years_christian==null?'':myProfile.years_christian);
@@ -237,9 +234,12 @@ function saveProfile(){
     if(rawC && (!ch||ch.label!==rawC)) ch={name:rawC,label:rawC};
   }
   var years=$('pr-years').value===''?null:Math.max(0,Math.min(120,parseInt($('pr-years').value,10)||0));
+  var age=$('pr-age').value===''?null:Math.max(5,Math.min(120,parseInt($('pr-age').value,10)||0));
   var row={
     id:me.id,
     display_name:$('pr-name').value.trim()||null,
+    visibility:$('pr-visibility').value==='public'?'public':'private',
+    age:age,
     marital_status:$('pr-marital').value||null,
     occupation:$('pr-occupation').value.trim()||null,
     years_christian:years,
@@ -279,78 +279,6 @@ function handleAvatar(file){
   img.src=url;
 }
 
-/* ---------- Friends ---------- */
-var relState={}; // other_id -> {status, direction, fid}
-function rowHtml(p, actionsHtml){
-  return '<div class="fr-row" data-id="'+escH(p.other_id||p.id)+'">'+
-    '<img src="'+escH(avatarSrc(p.avatar_url))+'" alt="" referrerpolicy="no-referrer">'+
-    '<span class="fr-name">'+escH(p.display_name||'A Makor reader')+'</span>'+actionsHtml+'</div>';
-}
-function refreshFriends(){
-  return client.rpc('my_friendships').then(function(r){
-    var rows=r.data||[];
-    relState={};
-    rows.forEach(function(x){ relState[x.other_id]=x; });
-    var incoming=rows.filter(function(x){return x.status==='pending'&&x.direction==='incoming';});
-    var outgoing=rows.filter(function(x){return x.status==='pending'&&x.direction==='outgoing';});
-    var friends=rows.filter(function(x){return x.status==='accepted';});
-    $('fr-incoming-wrap').hidden=!incoming.length;
-    $('fr-outgoing-wrap').hidden=!outgoing.length;
-    $('fr-incoming').innerHTML=incoming.map(function(p){
-      return rowHtml(p,'<button class="primary" data-act="accept" data-fid="'+p.fid+'">Accept</button><button data-act="decline" data-fid="'+p.fid+'">Decline</button>');
-    }).join('');
-    $('fr-outgoing').innerHTML=outgoing.map(function(p){
-      return rowHtml(p,'<span class="pr-hint" style="margin:0">Waiting</span><button data-act="cancel" data-fid="'+p.fid+'">Cancel</button>');
-    }).join('');
-    $('fr-friends').innerHTML=friends.length?friends.map(function(p){
-      return rowHtml(p,'<button data-act="view">View</button><button data-act="remove" data-fid="'+p.fid+'">Remove</button>');
-    }).join(''):'<p class="pr-hint">No friends yet. Search above to add your first.</p>';
-  });
-}
-function searchPeople(q){
-  if(q.trim().length<2){ $('fr-results').innerHTML=''; return; }
-  client.rpc('search_profiles',{q:q.trim()}).then(function(r){
-    var rows=r.data||[];
-    $('fr-results').innerHTML=rows.length?rows.map(function(p){
-      var rel=relState[p.id];
-      var action;
-      if(rel&&rel.status==='accepted') action='<span class="pr-hint" style="margin:0">Friends</span>';
-      else if(rel&&rel.direction==='outgoing') action='<span class="pr-hint" style="margin:0">Requested</span>';
-      else if(rel&&rel.direction==='incoming') action='<button class="primary" data-act="accept" data-fid="'+rel.fid+'">Accept</button>';
-      else action='<button class="primary" data-act="add">Add friend</button>';
-      return rowHtml(p,action);
-    }).join(''):'<p class="pr-hint">No one found by that name yet.</p>';
-  });
-}
-function viewFriend(id){
-  client.from('profiles').select('*').eq('id',id).maybeSingle().then(function(r){
-    var p=r.data; var box=$('fr-profile');
-    if(!p){ box.hidden=true; return; }
-    var bits=[];
-    if(p.location&&p.location.label) bits.push('<p><b>Lives in:</b> '+escH(p.location.label)+'</p>');
-    if(p.church&&p.church.label) bits.push('<p><b>Church:</b> '+escH(p.church.label)+'</p>');
-    if(p.occupation) bits.push('<p><b>Occupation:</b> '+escH(p.occupation)+'</p>');
-    if(p.marital_status&&p.marital_status!=='prefer_not_to_say') bits.push('<p><b>Marital status:</b> '+escH(p.marital_status)+'</p>');
-    if(p.years_christian!=null) bits.push('<p><b>Walking with Christ:</b> '+escH(p.years_christian)+' years</p>');
-    box.innerHTML='<h4>'+escH(p.display_name||'A Makor reader')+'</h4>'+(bits.join('')||'<p class="pr-hint">They have not filled in their profile yet.</p>');
-    box.hidden=false;
-    box.scrollIntoView({behavior:'smooth',block:'nearest'});
-  });
-}
-document.addEventListener('click',function(e){
-  var btn=e.target.closest('.fr-row button'); if(!btn) return;
-  var row=btn.closest('.fr-row'); var oid=row.dataset.id; var act=btn.dataset.act; var fid=btn.dataset.fid;
-  btn.disabled=true;
-  var done=function(){ refreshFriends().then(function(){ searchPeople($('fr-search').value||''); }); };
-  if(act==='add') client.from('friendships').insert({requester:me.id,addressee:oid}).then(done);
-  else if(act==='accept') client.from('friendships').update({status:'accepted',responded_at:new Date().toISOString()}).eq('id',fid).then(done);
-  else if(act==='decline'||act==='cancel'||act==='remove'){
-    if(act==='remove'&&!confirm('Remove this friend?')){ btn.disabled=false; return; }
-    client.from('friendships').delete().eq('id',fid).then(function(){ $('fr-profile').hidden=true; done(); });
-  }
-  else if(act==='view'){ viewFriend(oid); btn.disabled=false; }
-});
-
 /* ---------- Boot ---------- */
 function boot(){
   client=window.makorClient; me=window.makorUser;
@@ -358,15 +286,12 @@ function boot(){
   $('pr-wrap').hidden=false;
   initPlaceFields();
   loadProfile();
-  refreshFriends();
 }
 $('pr-signin-btn').onclick=function(){
   if(window.makorClient) window.makorClient.auth.signInWithOAuth({provider:'google',options:{redirectTo:location.href}});
 };
 $('pr-save').onclick=function(){ saveProfile(); };
 $('pr-file').addEventListener('change',function(){ if(this.files&&this.files[0]) handleAvatar(this.files[0]); });
-var st=null;
-$('fr-search').addEventListener('input',function(){ clearTimeout(st); var v=this.value; st=setTimeout(function(){ searchPeople(v); },250); });
 
 if(window.makorClient!==undefined&&window.makorUser!==undefined) boot();
 else window.addEventListener('makor-auth',boot,{once:true});

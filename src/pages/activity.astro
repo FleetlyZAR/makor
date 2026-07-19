@@ -1,37 +1,91 @@
 ---
 import Base from '../layouts/Base.astro';
 ---
-<Base title="Friend activity | Makor" description="What the friends walking with you through the Word have been reading.">
+<Base title="Friends | Makor" description="The friends walking with you through the Word: what they are reading, and finding new ones.">
   <div class="activity-page">
     <section class="hero">
       <p class="eyebrow">Friends</p>
       <h1>Walking together in the Word</h1>
-      <p class="lead">The studies your friends have completed, so you can spur one another on. No scores here; formation is not a scoreboard.</p>
+      <p class="lead">See what your friends have been reading, find new ones, and spur one another on. No scores here; formation is not a scoreboard.</p>
     </section>
 
+    <div class="ac-tabs" id="ac-tabs" hidden>
+      <button class="ac-tab on" data-tab="feed" type="button">Activity</button>
+      <button class="ac-tab" data-tab="find" type="button">Find friends</button>
+      <button class="ac-tab" data-tab="mine" type="button">My friends <span id="ac-count" class="ac-badge">0</span></button>
+    </div>
+
     <p id="ac-status" class="ac-status">Loading...</p>
-    <div id="ac-feed" class="ac-feed"></div>
+
+    <div id="tab-feed" class="ac-pane">
+      <div id="ac-feed" class="ac-feed"></div>
+    </div>
+
+    <div id="tab-find" class="ac-pane" hidden>
+      <div class="fr-field">
+        <input id="fr-search" type="search" placeholder="Search people by name" autocomplete="off" />
+        <p class="fr-hint">They see only your name and photo until you are friends.</p>
+      </div>
+      <div id="fr-results" class="fr-list"></div>
+      <div id="fr-incoming-wrap" hidden>
+        <h3>Requests for you</h3>
+        <div id="fr-incoming" class="fr-list"></div>
+      </div>
+      <div id="fr-outgoing-wrap" hidden>
+        <h3>Requests you sent</h3>
+        <div id="fr-outgoing" class="fr-list"></div>
+      </div>
+    </div>
+
+    <div id="tab-mine" class="ac-pane" hidden>
+      <div id="fr-friends" class="fr-list"></div>
+      <div id="fr-profile" class="fr-profile" hidden></div>
+    </div>
   </div>
 </Base>
 
 <style is:global>
+  .activity-page .ac-tabs { display: flex; gap: 0.4rem; border-bottom: 1px solid var(--line); margin: 0.4rem 0 1rem; }
+  .activity-page .ac-tab { background: transparent; border: 1px solid transparent; border-bottom: 0; color: var(--muted); font-family: inherit; font-size: 0.92rem; padding: 9px 14px; cursor: pointer; border-radius: 9px 9px 0 0; }
+  .activity-page .ac-tab.on { background: var(--surface); border-color: var(--line); color: var(--ink); font-weight: 600; margin-bottom: -1px; }
+  .activity-page .ac-badge { display: inline-block; background: var(--water); color: #fff; border-radius: 999px; font-size: 0.7rem; padding: 1px 7px; margin-left: 4px; }
   .activity-page .ac-status { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 1rem 1.2rem; font-size: 0.95rem; }
   .activity-page .ac-day { text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.72rem; font-weight: 700; color: var(--water); margin: 1.6rem 0 0.5rem; }
-  .activity-page .ac-feed { margin-top: 0.8rem; }
   .activity-page .ac-row { display: flex; align-items: center; gap: 0.9rem; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 0.7rem 1rem; margin-bottom: 0.5rem; }
   .activity-page .ac-row img { width: 42px; height: 42px; border-radius: 50%; object-fit: cover; background: var(--paper); }
   .activity-page .ac-row .ac-what { flex: 1; font-size: 0.95rem; line-height: 1.45; }
   .activity-page .ac-row .ac-what a { font-family: var(--serif); }
   .activity-page .ac-row .ac-time { font-size: 0.75rem; color: var(--muted); white-space: nowrap; }
-  .activity-page .ac-cta { margin-top: 0.8rem; }
-  .activity-page .ac-cta a { font-size: 0.9rem; }
+  .activity-page h3 { font-size: 1.02rem; margin: 1.4rem 0 0.4rem; }
+  .activity-page .fr-field input { width: 100%; box-sizing: border-box; background: #fff; border: 1px solid var(--line); color: var(--ink); border-radius: 8px; padding: 10px 12px; font-family: inherit; font-size: 0.95rem; }
+  .activity-page .fr-hint { font-size: 0.78rem; color: var(--muted); margin: 0.35rem 0 0; }
+  .activity-page .fr-list { display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.7rem; }
+  .activity-page .fr-row { display: flex; align-items: center; gap: 0.8rem; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 0.6rem 0.9rem; }
+  .activity-page .fr-row img { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; background: var(--paper); }
+  .activity-page .fr-row .fr-name { flex: 1; font-size: 0.95rem; }
+  .activity-page .fr-row button { background: transparent; color: var(--water); border: 1px solid var(--line); border-radius: 7px; padding: 6px 10px; font-size: 0.8rem; cursor: pointer; }
+  .activity-page .fr-row button.primary { background: var(--water); color: #fff; border-color: var(--water); }
+  .activity-page .fr-profile { background: var(--paper); border: 1px solid var(--line); border-left: 3px solid var(--light); border-radius: 10px; padding: 1rem 1.2rem; margin-top: 0.8rem; font-size: 0.92rem; }
+  .activity-page .fr-profile h4 { font-family: var(--serif); font-size: 1.15rem; margin: 0 0 0.4rem; }
+  .activity-page .fr-profile p { margin: 0.2rem 0; }
 </style>
 
 <script is:inline>
+var client=null, me=null;
 function $(id){ return document.getElementById(id); }
 function escH(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
 function kebab(s){ return String(s).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,''); }
 function avatarSrc(u){ return u || 'data:image/svg+xml;utf8,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84 84"><circle cx="42" cy="42" r="42" fill="#E4DDCC"/><circle cx="42" cy="34" r="14" fill="#9BB0AD"/><ellipse cx="42" cy="66" rx="24" ry="16" fill="#9BB0AD"/></svg>'); }
+
+/* ---------- Tabs ---------- */
+document.querySelectorAll('.ac-tab').forEach(function(t){
+  t.onclick=function(){
+    document.querySelectorAll('.ac-tab').forEach(function(x){ x.classList.toggle('on',x===t); });
+    ['feed','find','mine'].forEach(function(k){ $('tab-'+k).hidden=(t.dataset.tab!==k); });
+  };
+});
+
+/* ---------- Activity feed ---------- */
 function dayLabel(d){
   var now=new Date(); now.setHours(0,0,0,0);
   var day=new Date(d); day.setHours(0,0,0,0);
@@ -41,19 +95,15 @@ function dayLabel(d){
   return day.toLocaleDateString(undefined,{day:'numeric',month:'long',year:(day.getFullYear()===now.getFullYear()?undefined:'numeric')});
 }
 function timeLabel(d){ return new Date(d).toLocaleTimeString(undefined,{hour:'2-digit',minute:'2-digit'}); }
-
-function boot(){
-  var client=window.makorClient, me=window.makorUser;
+function loadFeed(){
   var status=$('ac-status');
-  if(!me){
-    status.innerHTML='Sign in to see what your friends are reading. Use the menu at the top right, then visit <a href="/profile/">your profile</a> to add friends.';
-    return;
-  }
   client.rpc('friend_activity').then(function(r){
+    if(r.error){ status.hidden=false; status.textContent='Could not load the feed right now. Please try again in a minute.'; return; }
     var rows=r.data||[];
-    if(r.error){ status.textContent='Could not load the feed right now. Please try again in a minute.'; return; }
     if(!rows.length){
-      status.innerHTML='Nothing here yet. <span class="ac-cta"><a href="/profile/">Add friends on your profile page</a></span> and their completed studies will appear here, alongside your own.';
+      status.hidden=false;
+      status.innerHTML='Nothing here yet. Use the <b>Find friends</b> tab to add fellow readers, and their completed studies will appear here alongside your own.';
+      $('ac-feed').innerHTML='';
       return;
     }
     status.hidden=true;
@@ -61,7 +111,7 @@ function boot(){
     rows.forEach(function(x){
       var dl=dayLabel(x.created_at);
       if(dl!==lastDay){ out+='<p class="ac-day">'+escH(dl)+'</p>'; lastDay=dl; }
-      var who=(window.makorUser&&x.user_id===window.makorUser.id)?'You':(x.display_name||'A friend');
+      var who=(x.user_id===me.id)?'You':(x.display_name||'A friend');
       var url='/'+kebab(x.book||'')+'/'+encodeURIComponent(x.study_slug)+'/';
       out+='<div class="ac-row">'+
         '<img src="'+escH(avatarSrc(x.avatar_url))+'" alt="" referrerpolicy="no-referrer">'+
@@ -71,6 +121,101 @@ function boot(){
     });
     $('ac-feed').innerHTML=out;
   });
+}
+
+/* ---------- Friends management ---------- */
+var relState={};
+function rowHtml(p, actionsHtml){
+  return '<div class="fr-row" data-id="'+escH(p.other_id||p.id)+'">'+
+    '<img src="'+escH(avatarSrc(p.avatar_url))+'" alt="" referrerpolicy="no-referrer">'+
+    '<span class="fr-name">'+escH(p.display_name||'A Makor reader')+'</span>'+actionsHtml+'</div>';
+}
+function refreshFriends(){
+  return client.rpc('my_friendships').then(function(r){
+    var rows=r.data||[];
+    relState={};
+    rows.forEach(function(x){ relState[x.other_id]=x; });
+    var incoming=rows.filter(function(x){return x.status==='pending'&&x.direction==='incoming';});
+    var outgoing=rows.filter(function(x){return x.status==='pending'&&x.direction==='outgoing';});
+    var friends=rows.filter(function(x){return x.status==='accepted';});
+    $('ac-count').textContent=String(friends.length);
+    $('fr-incoming-wrap').hidden=!incoming.length;
+    $('fr-outgoing-wrap').hidden=!outgoing.length;
+    $('fr-incoming').innerHTML=incoming.map(function(p){
+      return rowHtml(p,'<button class="primary" data-act="accept" data-fid="'+p.fid+'">Accept</button><button data-act="decline" data-fid="'+p.fid+'">Decline</button>');
+    }).join('');
+    $('fr-outgoing').innerHTML=outgoing.map(function(p){
+      return rowHtml(p,'<span class="fr-hint" style="margin:0">Waiting</span><button data-act="cancel" data-fid="'+p.fid+'">Cancel</button>');
+    }).join('');
+    $('fr-friends').innerHTML=friends.length?friends.map(function(p){
+      return rowHtml(p,'<button data-act="view">View</button><button data-act="remove" data-fid="'+p.fid+'">Remove</button>');
+    }).join(''):'<p class="fr-hint">No friends yet. Use the Find friends tab to add your first.</p>';
+  });
+}
+function searchPeople(q){
+  if(q.trim().length<2){ $('fr-results').innerHTML=''; return; }
+  client.rpc('search_profiles',{q:q.trim()}).then(function(r){
+    var rows=r.data||[];
+    $('fr-results').innerHTML=rows.length?rows.map(function(p){
+      var rel=relState[p.id];
+      var action;
+      if(rel&&rel.status==='accepted') action='<button data-act="view">View</button><span class="fr-hint" style="margin:0">Friends</span>';
+      else if(rel&&rel.direction==='outgoing') action='<span class="fr-hint" style="margin:0">Requested</span>';
+      else if(rel&&rel.direction==='incoming') action='<button class="primary" data-act="accept" data-fid="'+rel.fid+'">Accept</button>';
+      else action='<button data-act="view">View</button><button class="primary" data-act="add">Add friend</button>';
+      return rowHtml(p,action);
+    }).join(''):'<p class="fr-hint">No one found by that name yet.</p>';
+  });
+}
+function viewProfile(id){
+  client.from('profiles').select('*').eq('id',id).maybeSingle().then(function(r){
+    var p=r.data; var box=$('fr-profile');
+    // Move the detail card into whichever tab is visible.
+    var pane=$('tab-mine').hidden?$('tab-find'):$('tab-mine');
+    pane.appendChild(box);
+    if(!p){
+      box.innerHTML='<p style="margin:0">This profile is private. Send a friend request, and once they accept you will see it here.</p>';
+      box.hidden=false; return;
+    }
+    var bits=[];
+    if(p.location&&p.location.label) bits.push('<p><b>Lives in:</b> '+escH(p.location.label)+'</p>');
+    if(p.church&&p.church.label) bits.push('<p><b>Church:</b> '+escH(p.church.label)+'</p>');
+    if(p.occupation) bits.push('<p><b>Occupation:</b> '+escH(p.occupation)+'</p>');
+    if(p.age!=null) bits.push('<p><b>Age:</b> '+escH(p.age)+'</p>');
+    if(p.marital_status&&p.marital_status!=='prefer_not_to_say') bits.push('<p><b>Marital status:</b> '+escH(p.marital_status)+'</p>');
+    if(p.years_christian!=null) bits.push('<p><b>Walking with Christ:</b> '+escH(p.years_christian)+' years</p>');
+    box.innerHTML='<h4>'+escH(p.display_name||'A Makor reader')+'</h4>'+(bits.join('')||'<p class="fr-hint">They have not filled in their profile yet.</p>');
+    box.hidden=false;
+    box.scrollIntoView({behavior:'smooth',block:'nearest'});
+  });
+}
+document.addEventListener('click',function(e){
+  var btn=e.target.closest('.fr-row button'); if(!btn) return;
+  var row=btn.closest('.fr-row'); var oid=row.dataset.id; var act=btn.dataset.act; var fid=btn.dataset.fid;
+  btn.disabled=true;
+  var done=function(){ refreshFriends().then(function(){ searchPeople($('fr-search').value||''); }); };
+  if(act==='add') client.from('friendships').insert({requester:me.id,addressee:oid}).then(done);
+  else if(act==='accept') client.from('friendships').update({status:'accepted',responded_at:new Date().toISOString()}).eq('id',fid).then(function(){ done(); loadFeed(); });
+  else if(act==='decline'||act==='cancel'||act==='remove'){
+    if(act==='remove'&&!confirm('Remove this friend?')){ btn.disabled=false; return; }
+    client.from('friendships').delete().eq('id',fid).then(function(){ $('fr-profile').hidden=true; done(); });
+  }
+  else if(act==='view'){ viewProfile(oid); btn.disabled=false; }
+});
+var st=null;
+$('fr-search').addEventListener('input',function(){ clearTimeout(st); var v=this.value; st=setTimeout(function(){ searchPeople(v); },250); });
+
+/* ---------- Boot ---------- */
+function boot(){
+  client=window.makorClient; me=window.makorUser;
+  var status=$('ac-status');
+  if(!me){
+    status.innerHTML='Sign in to see what your friends are reading and to add new ones. Use the menu at the top right.';
+    return;
+  }
+  $('ac-tabs').hidden=false;
+  loadFeed();
+  refreshFriends();
 }
 if(window.makorClient!==undefined&&window.makorUser!==undefined) boot();
 else window.addEventListener('makor-auth',boot,{once:true});
