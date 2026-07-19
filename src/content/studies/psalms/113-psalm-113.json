@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "1.2",
+  "book": "Psalms",
+  "section": {
+    "order": 113,
+    "slug": "psalm-113",
+    "title": "He Raises the Poor from the Dust",
+    "passageRef": "Psalm 113:1-9",
+    "sectionRationale": "The opening psalm of the Egyptian Hallel, Psalms 113-118, sung at Passover and other great feasts, this hymn celebrates the LORD who is exalted above all nations yet stoops to lift the poor from the dust and give the barren woman a home, the very pattern later sung by Hannah and Mary.",
+    "thesis": "The LORD who is exalted above the heavens stoops to notice the lowest of the earth, raising the poor from the dust and seating them with princes, a downward reach that is itself the shape of the gospel.",
+    "frameNote": "Three movements: a threefold call to praise stretching from sunrise to sunset, verses 1-3; the lofty King who stoops to look upon heaven and earth, verses 4-6; and the LORD who lifts the poor and the barren to honor and joy, verses 7-9."
+  },
+  "text": {
+    "spine": "BSB",
+    "units": [
+      {
+        "label": "Praise from where the sun rises to where it sets",
+        "note": "the call to praise, opening the Hallel",
+        "emphasis": "",
+        "verses": [
+          { "chapter": 113, "n": 1, "text": "Hallelujah! Give praise, O servants of the LORD; praise the name of the LORD." },
+          { "chapter": 113, "n": 2, "text": "Blessed be the name of the LORD both now and forevermore." },
+          { "chapter": 113, "n": 3, "text": "From where the sun rises to where it sets, the name of the LORD is praised." }
+        ]
+      },
+      {
+        "label": "He humbles Himself to behold the heavens and the earth",
+        "note": "the lofty King who stoops low",
+        "emphasis": "",
+        "verses": [
+          { "chapter": 113, "n": 4, "text": "The LORD is exalted over all the nations, His glory above the heavens." },
+          { "chapter": 113, "n": 5, "text": "Who is like the LORD our God, the One enthroned on high?" },
+          { "chapter": 113, "n": 6, "text": "He {{shaphel|humbles Himself}} to behold the heavens and the earth." }
+        ]
+      },
+      {
+        "label": "He raises the poor from the dust",
+        "note": "reversal of fortunes, echoed by Hannah and Mary",
+        "emphasis": "climax",
+        "verses": [
+          { "chapter": 113, "n": 7, "text": "He raises the poor from the {{dal|dust}} and lifts the needy from the dump" },
+          { "chapter": 113, "n": 8, "text": "to seat them with nobles, with the princes of His people." },
+          { "chapter": 113, "n": 9, "text": "He settles the barren woman in her home as a joyful mother to her children. Hallelujah!" }
+        ]
+      }
+    ]
+  },
+  "lexicon": {
+    "shaphel": { "language": "Hebrew", "lemma": "shaphel", "original": "שָׁפַל", "gloss": "To stoop, bring low, humble oneself. The verb pictures God, enthroned high above the heavens, bending down to look at, and act upon, the affairs of heaven and earth, a divine condescension fulfilled supremely in the incarnation." },
+    "dal": { "language": "Hebrew", "lemma": "dal", "original": "דַּל", "gloss": "Poor, low, weak, powerless. Paired with the needy in verse 7, this describes those with no resources or status of their own, whom the LORD lifts from the dust to seat among princes." }
+  },
+  "study": {
+    "basic": {
+      "context": "This psalm opens the Egyptian Hallel, Psalms 113 through 118, sung by pilgrims at Passover and other feasts, and later by Jesus and His disciples at the Last Supper, Matthew 26:30. It moves from a global summons to praise, to the wonder of God's transcendence, to the still greater wonder of His condescension to the lowly.",
+      "hermeneutics": "The psalm's shape, exaltation above the heavens paired with stooping to the dust, teaches that God's greatness is displayed not despite His care for the powerless but precisely in it, a pattern the New Testament identifies as the shape of the gospel itself.",
+      "originalLanguages": "God is described as shaphel, stooping or humbling Himself, verse 6, to behold heaven and earth, even though He is enthroned on high. He lifts the dal, the poor and powerless, verse 7, from the dust to seat them among princes, a reversal completed in giving the barren woman a home.",
+      "typology": "This psalm's reversal, God stooping from the heights to lift the lowly, directly anticipates the pattern of Hannah's song, 1 Samuel 2:8, and is echoed almost verbatim in Mary's Magnificat, Luke 1:52-53, both of which find their fulfillment in the incarnation, where the eternal Son stoops from heaven's throne to be born of a woman.",
+      "christ": "This psalm's picture of the exalted LORD humbling Himself to behold and to lift the lowly is fulfilled supremely in Christ, who, though in the form of God, emptied Himself and took the form of a servant, Philippians 2:6-8. He raises the spiritually poor and needy, seating them with Him in the heavenly realms, Ephesians 2:6, the ultimate answer to this psalm's raising of the poor from the dust.",
+      "god": "God is at once utterly exalted above every nation and every heaven, and personally near enough to notice, and to reverse, the plight of the poorest and most overlooked person on earth, including the sorrow of the barren woman.",
+      "crossReferences": "1 Samuel 2:8 supplies nearly identical language of God raising the poor from the dust, part of Hannah's song. Luke 1:52-53, Mary's Magnificat, echoes this same reversal of the humble being exalted. Philippians 2:6-8 shows Christ's own descent from glory as the ultimate fulfillment of God's stooping love.",
+      "oneStory": "The LORD who is exalted above every nation stoops to lift the poor from the dust and give joy to the barren, a pattern sung by Hannah and by Mary and fulfilled completely in Christ, who emptied Himself from the heights of glory to lift sinners from the dust of death and seat them with Him in the heavenly places."
+    },
+    "context": {
+      "literary": "A symmetrical hymn moving from a threefold call to praise, verses 1-3, to God's transcendence, verses 4-6, to His condescension to the lowly, verses 7-9, the double movement, upward to the throne and downward to the ash heap, creating the psalm's lyrical V-shape.",
+      "historical": "This psalm heads the Egyptian Hallel, Psalms 113-118, sung during Passover, recalling Israel's own rescue from slavery, and during Tabernacles and other feasts, making it the worship of a rescued people praising their Rescuer for lifting the lowly, as He once lifted them from Egypt.",
+      "canonical": "As the opening psalm of the Hallel that Jesus and His disciples would have sung at the Last Supper, Matthew 26:30, this psalm's themes of exaltation, condescension, and reversal set the tone for the entire collection that climaxes in Psalm 118's cornerstone and Hosanna."
+    },
+    "hermeneutics": {
+      "authorIntent": "To summon all peoples to praise the LORD precisely because His transcendent greatness is displayed in His willingness to stoop and notice the powerless, reversing the fortunes of the poor, the needy, and the barren.",
+      "descriptionVsPrescription": "The psalm describes God's character and His pattern of reversing human hopelessness; it prescribes ongoing, global praise as the fitting response, and models compassion for the marginalized as a reflection of God's own character.",
+      "debates": [
+        { "question": "Does verse 9's promise to the barren woman guarantee every faithful, childless woman will conceive?", "views": [ { "label": "The verse describes God's general pattern of reversing hopeless situations, illustrated by literal childbearing in the patriarchal narratives", "case": "The psalm draws on the specific stories of Sarah, Rebekah, Rachel, and Hannah, in which God did grant literal children, presenting this as a real and repeatable pattern of His compassion, not an ironclad promise to every individual." }, { "label": "The verse's ultimate scope is broader than literal childbirth, pointing to God's power to bring fruitfulness and joy out of any barren circumstance", "case": "The psalm's poetic parallelism pairs the barren woman with the poor lifted from the dust, both illustrations of a single principle, that God brings life and honor out of hopelessness, a principle Scripture applies elsewhere to spiritual fruitfulness as well as physical, such as Isaiah 54:1." } ], "bearing": "Both readings affirm that God's compassion reaches specifically into situations of human hopelessness, whether material poverty or the sorrow of childlessness, without either reducing the psalm to a formula or emptying it of its real, personal comfort." }
+      ]
+    },
+    "originalLanguages": "God shaphel, stoops or humbles Himself, verse 6, to behold heaven and earth, even from His throne on high. He lifts the dal, the poor and powerless, verse 7, from the dust to seat them among princes, culminating in giving the barren woman a joyful home.",
+    "typology": [
+      { "type": "Hannah's song of reversal, 1 Samuel 2:8", "fulfillment": "Directly echoed by this psalm's language of raising the poor from the dust, both anticipating Mary's Magnificat, Luke 1:52-53, and ultimately the incarnation of Christ." },
+      { "type": "The LORD who stoops from His throne to behold heaven and earth, verse 6", "fulfillment": "Fulfilled in Christ, who, though in the form of God, emptied Himself, taking the form of a servant, Philippians 2:6-8." }
+    ],
+    "christ": "This psalm's central movement, the exalted LORD stooping to lift the poor from the dust, is fulfilled supremely in Christ, who though in the form of God did not count equality with God a thing to be grasped but emptied Himself, taking the form of a servant, Philippians 2:6-8. He raises those who are spiritually poor and needy, seating them with Him in the heavenly places, Ephesians 2:6, the ultimate and eternal answer to this psalm's picture of reversal and honor.",
+    "god": "God is utterly exalted above every nation and every heaven, yet He is near enough to notice, and to act upon, the plight of the poorest and most overlooked, including the sorrow of the barren woman, turning hopeless situations into joy.",
+    "crossReferences": [
+      { "ref": "1 Samuel 2:8", "note": "Hannah's song supplies nearly identical language of God raising the poor from the dust and seating them with nobles." },
+      { "ref": "Luke 1:52-53", "note": "Mary's Magnificat echoes this same reversal, God bringing down the mighty and exalting the humble." },
+      { "ref": "Philippians 2:6-8", "note": "Christ's own descent from divine glory to servanthood is the ultimate fulfillment of God's stooping love described in this psalm." }
+    ],
+    "oneStory": "The LORD exalted above every nation stoops to lift the poor from the dust and to give joy to the barren, a reversal sung by Hannah and by Mary and fulfilled completely in Christ, who emptied Himself from the heights of glory to raise sinners from the dust of death and seat them with Him in the heavenly places forever.",
+    "sermon": { "status": "verified", "preacher": "Tim Keller", "title": "Grace and Glory", "url": "https://podcast.gospelinlife.com/e/grace-and-glory-1637087597/", "why": "Keller works through Psalm 113:1-9 alongside the song of Hannah and the song of Mary, showing how the psalm's protocol, the infinitely high becoming inconceivably low, is worked out through Jesus Christ's own life, tending directly to this psalm's christological climax." }
+  },
+  "quiz": [
+    {
+      "q": "How wide is the geographic and temporal scope of the praise called for in verses 1-3?",
+      "options": [
+        { "text": "From where the sun rises to where it sets, and both now and forevermore.", "weight": 100, "note": "The praise called for spans every place and every time, a truly universal summons." },
+        { "text": "Only within the borders of Israel during festival seasons.", "weight": 0, "note": "The text explicitly extends the call from sunrise to sunset, beyond any national border." },
+        { "text": "Only among the priesthood, never the general population.", "weight": 25, "note": "The call addresses all servants of the LORD, not a restricted priestly class alone." },
+        { "text": "Only during a single specific historical event.", "weight": 75, "note": "The language now and forevermore extends the call well beyond any single event." }
+      ]
+    },
+    {
+      "q": "What striking action does verse 6 attribute to the LORD despite His being enthroned on high?",
+      "options": [
+        { "text": "He humbles Himself to behold the heavens and the earth.", "weight": 100, "note": "This stooping from the heights is the psalm's central turn toward God's condescending compassion." },
+        { "text": "He refuses to look upon the earth at all.", "weight": 0, "note": "The verse says the opposite; He humbles Himself specifically to behold heaven and earth." },
+        { "text": "He delegates all earthly matters entirely to angels.", "weight": 25, "note": "The text describes God's own personal stooping, not a delegation to intermediaries." },
+        { "text": "He remains distant and uninvolved with human affairs.", "weight": 75, "note": "The whole point of the verse is God's active, personal involvement despite His transcendence." }
+      ]
+    },
+    {
+      "q": "According to verses 7-8, what does the LORD do for the poor and needy?",
+      "options": [
+        { "text": "He raises them from the dust and seats them with nobles and princes.", "weight": 100, "note": "This vivid reversal of status is the psalm's central picture of God's compassionate power." },
+        { "text": "He leaves them permanently in poverty as a test of character.", "weight": 0, "note": "The text describes active lifting and honoring, not permanent abandonment in poverty." },
+        { "text": "He gives them wealth but withholds any social standing.", "weight": 25, "note": "The text specifically says they are seated with princes, granting both honor and standing." },
+        { "text": "He requires them to lift themselves before He notices them.", "weight": 75, "note": "The action described is entirely God's initiative, He raises and lifts them." }
+      ]
+    },
+    {
+      "q": "What Old Testament song does this psalm's language of raising the poor from the dust closely echo?",
+      "options": [
+        { "text": "Hannah's song in 1 Samuel 2:8.", "weight": 100, "note": "Hannah's song uses nearly identical language of God lifting the poor and seating them with nobles." },
+        { "text": "The song of Moses at the Red Sea, Exodus 15.", "weight": 25, "note": "That song celebrates deliverance from Egypt but does not share this specific dust and dunghill imagery." },
+        { "text": "The song of Deborah in Judges 5.", "weight": 0, "note": "Deborah's song celebrates military victory, not this specific reversal-of-poverty imagery." },
+        { "text": "David's lament in 2 Samuel 1.", "weight": 75, "note": "That is a lament over Saul and Jonathan's deaths, not a song of reversal for the poor." }
+      ]
+    },
+    {
+      "q": "How does Philippians 2:6-8 relate to this psalm's central theme?",
+      "options": [
+        { "text": "It describes Christ's own stooping from divine glory to servanthood, the ultimate fulfillment of God's condescending love.", "weight": 100, "note": "Christ's self-emptying embodies exactly the pattern of exaltation stooping to lowliness that this psalm celebrates." },
+        { "text": "It has no relationship to this psalm's themes.", "weight": 0, "note": "Philippians 2 directly embodies this psalm's central movement of the exalted becoming lowly." },
+        { "text": "It describes only a future event with no present application.", "weight": 25, "note": "Christ's incarnation described there is a past, historical event with ongoing present significance." },
+        { "text": "It focuses solely on physical poverty, unrelated to spiritual humility.", "weight": 75, "note": "Philippians 2 focuses on Christ's spiritual and relational humility in taking on servanthood, not merely material poverty." }
+      ]
+    }
+  ],
+  "questions": [
+    "This psalm calls for praise stretching from sunrise to sunset, every place and every hour. What would it look like for your own praise of God to become a rhythm through your whole day, not just a moment on Sunday?",
+    "God is described as stooping from His throne to notice the lowly. Where in your own life do you need to remember that God's greatness is shown not despite His attention to the small and overlooked, but precisely through it?",
+    "The psalm celebrates God raising the poor from the dust and seating them with princes. Who in your community is currently overlooked or without status, and how might you reflect God's character by honoring them?",
+    "The barren woman is given a joyful home. What situation in your life currently feels hopeless or barren, and how does this psalm's picture of God's reversing power speak into it?",
+    "Christ emptied Himself from the highest glory to become a servant and lift sinners from the dust of death. How does reflecting on His descent for you shape the way you respond to His call to serve others humbly this week?"
+  ],
+  "translationNotes": [
+    { "ref": "Psalm 113:1", "note": "Hallelujah transliterates the Hebrew Hallelu Yah, Praise the LORD, appearing at both the opening and closing of the psalm, verses 1 and 9, forming an inclusio that frames the whole hymn as praise." },
+    { "ref": "Psalm 113:6", "note": "Humbles Himself renders shaphel, a verb of stooping or bringing low, applied here to God's own gracious condescension to observe and act within heaven and earth." },
+    { "ref": "Psalm 113:9", "note": "The barren woman's home echoes the matriarchal narratives of Sarah, Rebekah, Rachel, and especially Hannah, whose own song in 1 Samuel 2 shares this psalm's language of reversal almost word for word." }
+  ],
+  "meta": { "textToVerify": [], "notes": "BSB text fetched from biblehub.com/bsb/psalms/113.htm because the local makor-scripture toolkit returned a disk I/O error in this session. Verified 9 verses in order against the section map bounds Psalm 113:1-9. Sermon link verified this session via WebSearch and web_fetch confirming Tim Keller's sermon 'Grace and Glory' at podcast.gospelinlife.com, preached at Redeemer Presbyterian Church on December 19, 2004, Scripture Psalm 113:1-9." }
+}

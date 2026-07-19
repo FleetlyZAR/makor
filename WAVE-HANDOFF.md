@@ -4,7 +4,7 @@ This file lets any new chat working in this repo pick up the study-authoring
 campaign. It assumes the Scripture Study Pipeline v1.2 project instructions are
 active and the repo is connected.
 
-## Progress (64 of 66 books, 1162 studies)
+## Progress (66 of 66 books, 1354 studies): the whole Bible is drafted
 
 Done: Genesis, Ruth, all 12 Minor Prophets (Hosea, Joel, Amos, Obadiah, Jonah,
 Micah, Nahum, Habakkuk, Zephaniah, Haggai, Zechariah, Malachi), all 21 New
@@ -16,24 +16,50 @@ Gospels and Acts (Matthew, Mark, Luke, John, Acts), the wave 7 mid Old
 Testament histories (Joshua, Judges, 1-2 Samuel, 1-2 Kings, 1-2 Chronicles),
 the wave 8 books (Revelation, Job, Proverbs, and the rest of the Pentateuch:
 Exodus, Leviticus, Numbers, Deuteronomy, which completes the whole Torah,
-Genesis through Deuteronomy), and the wave 9 major prophets Isaiah (64) and
-Jeremiah (41).
+Genesis through Deuteronomy), and the wave 9 major prophets Isaiah (64),
+Jeremiah (41), and Ezekiel (42), and the Psalter (Psalms, all 150, three digit
+orders 001 to 150).
 
-Remaining (2 books, 192 movements): Ezekiel (42), Psalms (150).
+Remaining: none. All 66 books of the Bible now have study JSON on disk. What is
+left is verification and the sermon-link pass, not authoring. See the two open
+caveats below before treating Psalms as finally sealed.
+
+## Open caveats on Psalms (address on the next healthy run)
+
+1. Text source. During Psalms authoring the local scripture toolkit database
+   `tools/scripture/makor-scripture.db` became unreadable through the sandbox
+   file mount (persistent "disk I/O error" / "Resource deadlock avoided"), so
+   psalms roughly 059 to 150 were built from the exact Berean Standard Bible text
+   on biblehub.com rather than from the toolkit. Every agent cross checked each
+   psalm's verse count and its first and last verse against this section map, and
+   psalms 001 to 058 used the toolkit directly. Still, on the next run when the
+   toolkit reads cleanly, spot check a sample of the web sourced psalms
+   (say 060, 078, 104, 119, 145) verse by verse against
+   `node tools/scripture/makor-scripture.mjs passage "PSA N:1-M"` to confirm exact
+   BSB wording.
+
+2. Validation. The full validator could not complete in one pass because the file
+   mount intermittently deadlocked on individual psalm files under load. As of
+   this run, 119 of 150 psalm files were confirmed by script with zero issues
+   (JSON valid, no em or en dashes, quiz weights one each of 0/25/75/100, all
+   lexical tokens resolved), and several of the remaining files that the mount
+   would not read for the script (for example 002 and 034) were confirmed clean
+   by hand through the host file reader. Re run the validator below over
+   `psalms` once the mount is healthy to get a clean zero over all 150, and fix
+   any stray em dash the way the Ezekiel dashes were fixed this wave.
 
 ## Recommended next wave (wave 9)
 
 Wave 8 is complete (240 studies, validator clean): Revelation, Job, Proverbs, and
 the Pentateuch remainder (Exodus, Leviticus, Numbers, Deuteronomy). The Torah,
 the Gospels and Acts, all the epistles, Revelation, the Minor Prophets, the wisdom
-books, and every historical book are now done. Isaiah (64) and Jeremiah (41) are
-also complete and validator clean. Two books remain: Ezekiel 42 and the Psalter
-(Psalms 150, three digit orders 001 to 150). Suggested order: Ezekiel first
-(prophetic oracle and apocalyptic vision, same genre as the Minor Prophets,
-Isaiah, and Jeremiah already done, and Daniel and Revelation for the visions, so
-lean on those for the same-genre example), then Psalms last. Split both books
-between agents: Ezekiel into chunks of about 10 to 14; Psalms into several agents
-of about 25 to 30 psalms each, still only two agents running at once.
+books, and every historical book are now done. Isaiah (64), Jeremiah (41), and
+Ezekiel (42) are complete and validator clean, and the Psalter (all 150) is
+drafted, which finishes every book of the Bible. There is no authoring left. The
+next run is a finishing pass: clear the two Psalms caveats above (toolkit text
+spot check and one clean validator sweep over all 150 psalms), then work the
+long standing sermon-link pass across the whole site, verifying each link by web
+search.
 
 Note on chunk size: keep authoring chunks to about 6 to 8 studies. During
 Jeremiah, two subagents assigned 14 studies each were cut off by mid response API

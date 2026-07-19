@@ -1,0 +1,185 @@
+{
+  "schemaVersion": "1.2",
+  "book": "Psalms",
+  "section": {
+    "order": 102,
+    "slug": "psalm-102",
+    "title": "A Prayer of the Afflicted",
+    "passageRef": "Psalm 102:1-28",
+    "sectionRationale": "A deeply personal lament likely voiced from the ruins of exile, this psalm moves from raw physical and emotional affliction to confident hope in the LORD's compassion on Zion and, in its climactic verses, to praise of the eternal Creator, words the book of Hebrews applies directly to Christ as proof of His deity.",
+    "thesis": "Though his days vanish like smoke and his strength is broken, the afflicted psalmist's hope rests not in his own fleeting life but in the LORD who sits enthroned forever, will yet rebuild Zion, and remains eternally the same as heaven and earth wear out like a garment.",
+    "frameNote": "Five movements: an urgent cry for help, verses 1-2; the psalmist's physical and emotional affliction, verses 3-11; confident hope in the LORD's eternal reign and coming compassion on Zion, verses 12-17; hope for future generations and worldwide worship, verses 18-22; and a closing plea and praise of the unchanging, eternal Creator, verses 23-28."
+  },
+  "text": {
+    "spine": "BSB",
+    "units": [
+      {
+        "label": "Hear my prayer, O Lord",
+        "note": "an urgent cry for help",
+        "emphasis": "",
+        "verses": [
+          { "chapter": 102, "n": 1, "text": "A prayer of one who is {{ani|afflicted}}, when he grows faint and pours out his lament before the LORD. Hear my prayer, O LORD; let my cry for help come before You." },
+          { "chapter": 102, "n": 2, "text": "Do not hide Your face from me in my day of distress. Incline Your ear to me; answer me quickly when I call." }
+        ]
+      },
+      {
+        "label": "My days vanish like smoke",
+        "note": "the psalmist's physical and emotional affliction",
+        "emphasis": "",
+        "verses": [
+          { "chapter": 102, "n": 3, "text": "For my days vanish like smoke, and my bones burn like glowing embers." },
+          { "chapter": 102, "n": 4, "text": "My heart is afflicted, and withered like grass; I even forget to eat my bread." },
+          { "chapter": 102, "n": 5, "text": "Through my loud groaning my skin hangs on my bones." },
+          { "chapter": 102, "n": 6, "text": "I am like a desert owl, like an owl among the ruins." },
+          { "chapter": 102, "n": 7, "text": "I lie awake; I am like a lone bird on a housetop." },
+          { "chapter": 102, "n": 8, "text": "All day long my enemies taunt me; they ridicule me and curse me." },
+          { "chapter": 102, "n": 9, "text": "For I have eaten ashes like bread and mixed my drink with tears" },
+          { "chapter": 102, "n": 10, "text": "because of Your indignation and wrath, for You have picked me up and cast me aside." },
+          { "chapter": 102, "n": 11, "text": "My days are like lengthening shadows, and I wither away like grass." }
+        ]
+      },
+      {
+        "label": "You, O Lord, sit enthroned forever",
+        "note": "hope in the Lord's eternal reign and compassion on Zion",
+        "emphasis": "",
+        "verses": [
+          { "chapter": 102, "n": 12, "text": "But You, O LORD, sit enthroned {{olam|forever}}; Your renown endures to all generations." },
+          { "chapter": 102, "n": 13, "text": "You will rise up and have compassion on Zion, for it is time to show her favor, the appointed time has come." },
+          { "chapter": 102, "n": 14, "text": "For Your servants delight in her stones and take pity on her dust." },
+          { "chapter": 102, "n": 15, "text": "So the nations will fear the name of the LORD, and all the kings of the earth will fear Your glory." },
+          { "chapter": 102, "n": 16, "text": "For the LORD will rebuild Zion; He has appeared in His glory." },
+          { "chapter": 102, "n": 17, "text": "He will turn toward the prayer of the destitute; He will not despise their prayer." }
+        ]
+      },
+      {
+        "label": "A people not yet created may praise the Lord",
+        "note": "hope for future generations and worldwide worship",
+        "emphasis": "",
+        "verses": [
+          { "chapter": 102, "n": 18, "text": "Let this be written for the generation to come, so that a people not yet created may praise the LORD." },
+          { "chapter": 102, "n": 19, "text": "For He looked down from the heights of His sanctuary; the LORD gazed out from heaven to earth" },
+          { "chapter": 102, "n": 20, "text": "to hear a prisoner's groaning, to release those condemned to death," },
+          { "chapter": 102, "n": 21, "text": "that they may proclaim the name of the LORD in Zion and praise Him in Jerusalem," },
+          { "chapter": 102, "n": 22, "text": "when peoples and kingdoms assemble to serve the LORD." }
+        ]
+      },
+      {
+        "label": "You remain the same, and Your years will never end",
+        "note": "a closing plea and praise of the eternal Creator",
+        "emphasis": "climax",
+        "verses": [
+          { "chapter": 102, "n": 23, "text": "He has broken my strength on the way; He has cut short my days." },
+          { "chapter": 102, "n": 24, "text": "I say: \"O my God, do not take me in the midst of my days! Your years go on through all generations." },
+          { "chapter": 102, "n": 25, "text": "In the beginning You {{yasad|laid the foundations}} of the earth, and the heavens are the work of Your hands." },
+          { "chapter": 102, "n": 26, "text": "They will perish, but You remain; they will all wear out like a garment. Like clothing You will change them, and they will be passed on." },
+          { "chapter": 102, "n": 27, "text": "But You remain the same, and Your years will never end." },
+          { "chapter": 102, "n": 28, "text": "The children of Your servants will dwell securely, and their descendants will be established before You.\"" }
+        ]
+      }
+    ]
+  },
+  "lexicon": {
+    "ani": { "language": "Hebrew", "lemma": "ani", "original": "עָנִי", "gloss": "Afflicted, poor, humbled by suffering. The psalm's superscription names its speaker this way, one crushed by circumstance yet still pouring out an honest lament directly before the LORD." },
+    "yasad": { "language": "Hebrew", "lemma": "yasad", "original": "יָסַד", "gloss": "To found, lay a foundation. God's laying the foundations of the earth in verse 25 is quoted directly in Hebrews 1:10 and applied to the Son, identifying Christ as the eternal Creator this psalm praises." },
+    "olam": { "language": "Hebrew", "lemma": "olam", "original": "עוֹלָם", "gloss": "Forever, eternity, an unending duration. Twice this word marks God's throne, verse 12, and His years, verse 27, contrasting His endless permanence with the psalmist's own vanishing days." }
+  },
+  "study": {
+    "basic": {
+      "context": "Voiced by someone crushed with affliction, likely amid the ruins of Jerusalem during or after the exile, this psalm moves from raw complaint, days vanishing like smoke, sleepless nights, taunting enemies, to a confident hope that the LORD will yet have compassion on Zion, and finally to praise of the eternal God who laid the foundations of the earth and never changes.",
+      "hermeneutics": "This is real, personal suffering, not merely representative poetry, yet its pattern of honest lament followed by renewed hope in God's unchanging character offers a template for every generation of suffering believers, and its closing verses are treated by the New Testament as directly messianic.",
+      "originalLanguages": "The psalm's speaker is named ani, afflicted, one crushed by circumstance who nonetheless pours out an honest lament before the LORD. God's olam, eternal, throne and years stand in stark contrast to the psalmist's vanishing days, and His yasad, founding, of the earth's foundations becomes, in Hebrews 1:10, a direct title applied to Christ.",
+      "typology": "The rebuilding of Zion, verses 13-16, anticipates the full and final restoration of God's people, while the psalm's closing verses on the eternal, unchanging Creator, quoted directly of the Son in Hebrews 1:10-12, show that the very God this sufferer addresses is the same Christ who shares fully in the Father's eternal nature.",
+      "christ": "Hebrews 1:10-12 quotes Psalm 102:25-27 word for word and applies it directly to Jesus, declaring that the Son laid the foundations of the earth and that His years will never end, one of the New Testament's clearest and most direct assertions of Christ's full deity and eternality, spoken to a suffering man who cried out from the depths of affliction.",
+      "god": "God is compassionate toward the afflicted and the destitute, attentive even to a prisoner's groaning, yet He is also utterly transcendent, the eternal Creator who laid the foundations of the earth and whose years, unlike the fleeting days of any sufferer, will never end.",
+      "crossReferences": "Hebrews 1:10-12 quotes this psalm's closing verses directly of Christ, affirming His eternal, unchanging deity as Creator. Isaiah 40:6-8 likewise contrasts withering human life with the enduring word of God. Isaiah 62:1-7 and Zechariah 8:1-8 echo this psalm's hope for Zion's restoration. Acts 2:39 echoes the psalm's hope that a people not yet created might praise the LORD.",
+      "oneStory": "This afflicted sufferer's cry, moving from vanishing days to confident hope in Zion's restoration and the eternal, unchanging Creator, is answered directly in Hebrews, where the very words praising God's eternity are applied to Christ, the Creator who entered human affliction to secure an everlasting inheritance for His people."
+    },
+    "context": {
+      "literary": "The psalm alternates between intensely personal lament, verses 1-11 and 23-24, and confident praise addressing Zion's future and God's eternal nature, verses 12-22 and 25-28, moving outward in ever-widening circles from 'I' to 'Zion' to 'all peoples,' with vivid, memorable images, smoke, a lone bird, withering grass, turning raw emotion into unforgettable pictures.",
+      "historical": "Titled simply 'A prayer of one who is afflicted,' this psalm's focus on rebuilding Zion's ruined stones fits especially well with the period during or shortly after the Babylonian exile, when Jerusalem's temple and walls lay in rubble and God's people felt cast aside, 2 Kings 25, Lamentations 1.",
+      "canonical": "Occupies a pivotal place in Book IV of the Psalter, following the sustained praise of the enthronement psalms, Psalms 93-100, and Psalm 101's royal ideal, with a raw and personal cry that Hebrews 1:10-12 elevates into one of the New Testament's most direct Old Testament proofs of Christ's deity."
+    },
+    "hermeneutics": {
+      "authorIntent": "To voice honest, unrestrained lament over personal affliction and national ruin, while grounding renewed hope not in changing circumstances but in the LORD's eternal, unchanging character and His promised compassion on Zion.",
+      "descriptionVsPrescription": "The psalm describes one sufferer's specific historical affliction, likely tied to the ruin of Jerusalem; it prescribes for every generation an honest pattern of lament that does not stop short of hope, bringing raw pain directly to God while resting confidence in His eternal, unchanging nature.",
+      "debates": [
+        { "question": "How should believers read verses 25-27, given that the psalmist originally addresses these words to the LORD, yet Hebrews 1:10-12 applies them directly to the Son?", "views": [ { "label": "The words were always addressed to God generally, understood in fuller light to include the Son", "case": "The psalmist prays to Yahweh without distinguishing persons of the Godhead; Hebrews reads this later, fuller revelation back into the text, showing the Son shares fully in the divine identity the psalmist addressed." }, { "label": "Hebrews applies an Old Testament text about God to Christ as a deliberate, Spirit-guided argument for His deity", "case": "The author of Hebrews is building a case in chapter 1 that the Son is superior to angels and fully divine, and quoting this psalm's eternal, Creator language of the Son is a direct theological claim, not merely incidental application." } ], "bearing": "Both readings converge: this psalm's praise of the eternal, unchanging Creator applies fully and rightly to Jesus Christ, confirming His full deity from within the Old Testament's own words." }
+      ]
+    },
+    "originalLanguages": "The psalm's speaker is ani, afflicted, poured out in honest lament. God's olam, eternal, reign and years are set against the psalmist's fleeting days, and His yasad, founding, of the earth in verse 25 becomes, in Hebrews 1:10, a direct declaration of the Son's own eternal, creative power.",
+    "typology": [
+      { "type": "The LORD's promised rebuilding of Zion's ruins, verses 13-16", "fulfillment": "Anticipates the full and final restoration of God's people, ultimately realized in the new Jerusalem, Revelation 21:1-3." },
+      { "type": "The eternal, unchanging Creator who laid the foundations of the earth, verses 25-27", "fulfillment": "Hebrews 1:10-12 quotes these very verses of Christ, declaring the Son's full deity and unending years." }
+    ],
+    "christ": "Hebrews 1:10-12 takes Psalm 102:25-27, words the afflicted psalmist addresses to the LORD, and applies them word for word to Jesus Christ: 'You, Lord, laid the foundation of the earth in the beginning, and the heavens are the work of Your hands... You remain the same, and Your years will never end.' This is one of the clearest and most direct New Testament assertions that Christ shares fully in God's eternal, unchanging nature as Creator, spoken originally in a cry of deep human affliction.",
+    "god": "God is compassionate toward the afflicted and the destitute, attentive even to a prisoner's groaning and moved to rebuild Zion's ruins in His appointed time, yet He is also utterly transcendent, the eternal Creator whose throne endures forever and whose years, unlike the vanishing days of any sufferer, will never end.",
+    "crossReferences": [
+      { "ref": "Hebrews 1:10-12", "note": "Quotes Psalm 102:25-27 directly of Christ, affirming His eternal, unchanging deity as the Creator of heaven and earth." },
+      { "ref": "Isaiah 40:6-8", "note": "Likewise contrasts withering human life, like grass, with the enduring, unfailing word of God." },
+      { "ref": "Isaiah 62:1-7; Zechariah 8:1-8", "note": "Echo this psalm's hope for Zion's compassionate restoration and future favor." },
+      { "ref": "Acts 2:39", "note": "Echoes this psalm's hope that a people not yet created, including generations far off, might praise the LORD." }
+    ],
+    "oneStory": "This afflicted sufferer's honest lament, moving through vanishing days and taunting enemies to confident hope in Zion's restoration and the eternal, unchanging Creator, is answered directly in the New Testament, where the very praise of God's eternity is applied to Christ, who entered human suffering to secure an everlasting inheritance for His afflicted people.",
+    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+  },
+  "quiz": [
+    {
+      "q": "How does the psalmist describe his own suffering in verses 3-11?",
+      "options": [
+        { "text": "His days vanish like smoke, his bones burn, and he is like a lone bird on a housetop, taunted by enemies.", "weight": 100, "note": "These verses use vivid, physical, and emotional imagery to convey deep affliction and isolation." },
+        { "text": "He describes a season of unbroken prosperity and comfort.", "weight": 0, "note": "The psalmist describes affliction and suffering, the opposite of prosperity and comfort." },
+        { "text": "He describes only a minor, temporary inconvenience.", "weight": 25, "note": "The imagery, smoke, burning bones, forgetting to eat, conveys severe, not minor, suffering." },
+        { "text": "He describes primarily the suffering of a close friend rather than himself.", "weight": 75, "note": "The lament is written in the first person, describing the psalmist's own affliction directly." }
+      ]
+    },
+    {
+      "q": "What confident hope does the psalmist express in verses 12-16 despite his suffering?",
+      "options": [
+        { "text": "That the LORD sits enthroned forever and will rise up to have compassion on Zion, rebuilding it in His appointed time.", "weight": 100, "note": "These verses pivot from personal lament to confident hope in God's eternal reign and coming restoration of Zion." },
+        { "text": "That his own suffering will end immediately upon speaking these words.", "weight": 25, "note": "The confidence expressed is about God's eternal reign and Zion's future restoration, not an immediate personal resolution." },
+        { "text": "That Zion will remain in ruins permanently as a monument to judgment.", "weight": 0, "note": "The psalmist expresses hope that the LORD will rebuild Zion, not that it will remain in ruins forever." },
+        { "text": "That foreign nations will never again threaten Jerusalem.", "weight": 75, "note": "The specific hope named is the LORD's compassionate rebuilding of Zion, not a guarantee against all future threats." }
+      ]
+    },
+    {
+      "q": "What hope does the psalmist express for future generations in verses 18-22?",
+      "options": [
+        { "text": "That this be written down so a people not yet created may praise the LORD.", "weight": 100, "note": "Verse 18 explicitly expresses hope that this testimony will reach and encourage generations not yet born." },
+        { "text": "That future generations will never need to pray for help.", "weight": 25, "note": "The hope expressed is that future generations will praise the LORD, not that they will be free from all need of prayer." },
+        { "text": "That the psalmist's own name be remembered above God's name.", "weight": 0, "note": "The stated purpose is that the LORD's name be praised, not the psalmist's own name exalted." },
+        { "text": "That prisoners specifically be forgotten by history.", "weight": 75, "note": "The psalm expresses hope that the LORD will hear a prisoner's groaning and release the condemned, not that prisoners be forgotten." }
+      ]
+    },
+    {
+      "q": "What contrast does the psalmist draw between himself and God in verses 23-27?",
+      "options": [
+        { "text": "His own days are cut short and his strength broken, but God remains the same and His years will never end.", "weight": 100, "note": "This is the psalm's central contrast between fleeting human life and God's unchanging eternity." },
+        { "text": "He claims his own life will last exactly as long as God's.", "weight": 0, "note": "The psalm draws a sharp contrast, not an equivalence, between his brief days and God's endless years." },
+        { "text": "He claims God's power is limited compared to human strength.", "weight": 25, "note": "The psalm exalts God's unlimited, eternal power in contrast to human frailty, not the reverse." },
+        { "text": "He claims that heaven and earth, like God, will never wear out.", "weight": 75, "note": "The psalm specifically says heaven and earth will wear out like a garment, while God alone remains the same forever." }
+      ]
+    },
+    {
+      "q": "How does the book of Hebrews use Psalm 102:25-27?",
+      "options": [
+        { "text": "It quotes these verses directly and applies them to Christ, affirming His eternal deity as Creator.", "weight": 100, "note": "Hebrews 1:10-12 applies this psalm's praise of the eternal Creator directly to the Son, one of the New Testament's clearest statements of Christ's deity." },
+        { "text": "It quotes these verses only to describe the future destruction of the physical earth, with no reference to Christ.", "weight": 25, "note": "Hebrews specifically applies these verses to Christ Himself, not merely as a general prophecy of the earth's end." },
+        { "text": "It rejects the psalm's claims about God's eternity as poetic exaggeration.", "weight": 0, "note": "Hebrews affirms and applies these very claims of eternity directly and literally to Christ." },
+        { "text": "It applies these verses to the angels rather than to the Son.", "weight": 75, "note": "Hebrews 1 specifically contrasts the Son with angels, applying this eternal, creative language to the Son alone, not to angels." }
+      ]
+    }
+  ],
+  "questions": [
+    "This psalmist pours out raw, unfiltered pain, days vanishing like smoke, sleepless nights, taunting enemies, directly to God. What suffering are you tempted to hide from God rather than bring honestly before Him in prayer?",
+    "In the middle of his own affliction, the psalmist turns to hope for Zion's restoration and for generations not yet born. How might focusing on God's larger purposes, beyond your immediate circumstances, reshape your own season of difficulty?",
+    "The psalmist contrasts his own fleeting days with God's unchanging eternity, 'You remain the same, and Your years will never end.' What anxious, fleeting thing are you tempted to build your security on instead of God's unchanging character?",
+    "Hebrews applies this psalm's praise of the eternal Creator directly to Christ. How does knowing that Jesus Himself is the eternal, unchanging God who laid the earth's foundations change how you bring your own affliction to Him?",
+    "The psalmist hopes that his written testimony would help 'a people not yet created' praise the LORD. What testimony of God's faithfulness in your own affliction might you need to write down or share for the sake of someone who has not yet come to faith?"
+  ],
+  "translationNotes": [
+    { "ref": "Psalm 102:6", "note": "The 'desert owl' and 'owl among the ruins' translate Hebrew terms for birds associated with abandoned, desolate places, vividly conveying the psalmist's sense of isolation." },
+    { "ref": "Psalm 102:18", "note": "'A people not yet created' reflects the psalmist's confidence that his written lament and hope would continue to instruct and encourage generations born long after his own suffering had ended." },
+    { "ref": "Psalm 102:25-27", "note": "These verses are quoted nearly word for word in Hebrews 1:10-12, where the author applies praise originally addressed to the LORD directly to the Son, one of the New Testament's most explicit affirmations of Christ's full deity." }
+  ],
+  "meta": { "textToVerify": [], "notes": "The local scripture toolkit returned a disk I/O error in this sandbox, so the BSB text was obtained via WebSearch and web_fetch from biblehub.com/bsb/psalms/102.htm, cross-checked against the section map's 28-verse bound. Footnote markers were stripped and the em dash in verse 13 of the source was converted to a comma. The superscription was folded into verse 1 as printed by the source, keeping the verse count at 28. No sermon from the trusted cluster (Begg, Keller, Piper, Ferguson, Carson) could be confirmed this session as preached specifically on Psalm 102, so status is 'none' rather than risk fabrication." }
+}
