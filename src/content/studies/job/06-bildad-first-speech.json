@@ -115,16 +115,16 @@
       "q": "What harsh claim does Bildad make about Job's children in 8:4?",
       "options": [
         { "text": "That they died because they sinned against God, and He gave them over to their own rebellion.", "weight": 100, "note": "This is Bildad's direct, unevidenced accusation, made with no basis except his prior assumption that all suffering proves guilt." },
-        { "text": "That they died accidentally with no connection to sin.", "weight": 0, "note": "Bildad explicitly claims the opposite, a direct link between their deaths and their own sin." },
+        { "text": "That some unnamed rebellion against God brought about their sudden ruin.", "weight": 75, "note": "Captures the gist of Bildad's charge, though less precise than his direct claim that God gave them over specifically to their own sin." },
         { "text": "That Job himself was directly responsible for their deaths.", "weight": 25, "note": "Bildad accuses the children themselves, not Job directly, of the sin that supposedly caused their deaths." },
-        { "text": "That their deaths were a mystery beyond explanation.", "weight": 0, "note": "Bildad offers a confident explanation rather than acknowledging mystery." }
+        { "text": "That they died accidentally with no connection to sin.", "weight": 0, "note": "Bildad explicitly claims the opposite, a direct link between their deaths and their own sin." }
       ]
     },
     {
       "q": "What method of argument does Bildad use that differs from Eliphaz's approach?",
       "options": [
         { "text": "He appeals to the accumulated wisdom of past generations rather than a personal vision or experience.", "weight": 100, "note": "Bildad explicitly urges Job to inquire of past generations, verses 8-10, in contrast to Eliphaz's night vision in chapter 4." },
-        { "text": "He refuses to use any illustrations or imagery.", "weight": 0, "note": "Bildad's speech is rich with nature imagery, papyrus, spiders' webs, and rooted plants." },
+        { "text": "He urges Job to consider what earlier generations discovered, since our own brief lives teach us little on their own.", "weight": 75, "note": "A close paraphrase of Bildad's actual appeal, though slightly less precise than naming it directly as his core argumentative method." },
         { "text": "He quotes Job's own earlier words back to him.", "weight": 25, "note": "Bildad does echo Job's complaint about being a blustering wind, but his main argumentative method is appeal to tradition, not quotation of Job." },
         { "text": "He claims direct revelation from an angel.", "weight": 0, "note": "That was Eliphaz's method in the previous speech; Bildad instead appeals to inherited human wisdom." }
       ]
@@ -133,27 +133,27 @@
       "q": "What does the image of the spider's web (8:14-15) illustrate in Bildad's argument?",
       "options": [
         { "text": "The false confidence of the godless, which looks like security but cannot bear real weight and collapses when leaned upon.", "weight": 100, "note": "Bildad uses this image to argue that ill-gotten or godless security is inherently fragile." },
-        { "text": "The strength and endurance of the righteous under pressure.", "weight": 0, "note": "The image describes fragility and collapse, the opposite of endurance." },
+        { "text": "A security that seems solid at first glance but gives way as soon as anyone actually relies on it.", "weight": 75, "note": "Captures the picture's basic meaning, though less precise than naming it specifically as the godless man's confidence." },
         { "text": "The intricate wisdom of God's created order.", "weight": 25, "note": "While spiders' webs can illustrate design elsewhere in Scripture, Bildad's specific point here is about the fragility of false confidence, not divine craftsmanship." },
-        { "text": "The certainty that God will never test anyone.", "weight": 0, "note": "The image has nothing to do with testing; it illustrates the collapse of false security." }
+        { "text": "The strength and endurance of the righteous under pressure.", "weight": 0, "note": "The image describes fragility and collapse, the opposite of endurance." }
       ]
     },
     {
       "q": "What promise does Bildad make at the close of his speech (8:20-22), and how does it relate to the book's actual ending?",
       "options": [
         { "text": "He promises God will fill Job's mouth with laughter if he is pure and upright, a promise that echoes, though it does not fully explain, Job's eventual restoration in 42:12.", "weight": 100, "note": "The language of restored joy anticipates 42:12, though the book will show this comes through God's initiative, not Bildad's formula of proven innocence." },
-        { "text": "He promises Job will die immediately as further punishment.", "weight": 0, "note": "Bildad's closing promise is one of hoped-for restoration, not further punishment." },
-        { "text": "He promises that God will explain the reason for Job's suffering directly.", "weight": 0, "note": "No such promise appears in Bildad's speech; God's eventual speeches to Job will not explain the reason for his suffering either." },
-        { "text": "He promises Job's friends will apologize for their accusations.", "weight": 25, "note": "No such promise is made here; Bildad speaks only of Job's own restoration, not of the friends' future repentance, though Job 42:7-9 will in fact require exactly that." }
+        { "text": "He promises Job's enemies will be clothed in shame while Job himself is restored to joy.", "weight": 75, "note": "A true part of Bildad's closing promise, though less complete than the full picture of restored laughter and joy conditioned on Job's purity." },
+        { "text": "He promises Job's friends will apologize for their accusations.", "weight": 25, "note": "No such promise is made here; Bildad speaks only of Job's own restoration, not of the friends' future repentance, though Job 42:7-9 will in fact require exactly that." },
+        { "text": "He promises Job will die immediately as further punishment.", "weight": 0, "note": "Bildad's closing promise is one of hoped-for restoration, not further punishment." }
       ]
     },
     {
       "q": "Why does Bildad's appeal to ancestral wisdom not settle the question of Job's guilt?",
       "options": [
         { "text": "Because inherited general principles about the wicked's fragile hope do not by themselves prove that any specific sufferer, such as Job, is guilty of hidden sin.", "weight": 100, "note": "The chapter's error lies not in the wisdom tradition itself but in its presumptuous application to Job's unique and, as the reader knows, undeserved case." },
-        { "text": "Because Bildad's ancestors were known to be unreliable sources.", "weight": 0, "note": "The text presents Bildad's appeal to tradition as a legitimate method in general; the problem is its specific application, not the source's reliability." },
-        { "text": "Because the Bible elsewhere rejects learning from previous generations.", "weight": 0, "note": "Scripture elsewhere commends exactly this kind of appeal to inherited wisdom, such as Deuteronomy 4:32." },
-        { "text": "Because Job had already disproven every one of Bildad's claims earlier in the dialogue.", "weight": 25, "note": "Job has protested his innocence, but the deeper reason Bildad's argument fails is structural: general truths cannot settle a specific person's guilt without evidence, which the reader alone possesses from chapters 1 and 2." }
+        { "text": "Because general truths about the wicked cannot be applied to a specific person without actual evidence connecting them to that person's case.", "weight": 75, "note": "States the underlying logical problem accurately, though less specific than naming Job's own unique, undeserved case directly." },
+        { "text": "Because Job had already disproven every one of Bildad's claims earlier in the dialogue.", "weight": 25, "note": "Job has protested his innocence, but the deeper reason Bildad's argument fails is structural: general truths cannot settle a specific person's guilt without evidence, which the reader alone possesses from chapters 1 and 2." },
+        { "text": "Because Bildad's ancestors were known to be unreliable sources.", "weight": 0, "note": "The text presents Bildad's appeal to tradition as a legitimate method in general; the problem is its specific application, not the source's reliability." }
       ]
     }
   ],
