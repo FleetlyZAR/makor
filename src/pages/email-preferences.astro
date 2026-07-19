@@ -17,6 +17,20 @@ import Base from '../layouts/Base.astro';
     <div id="ep-wrap" hidden>
       <div class="ep-card">
         <label class="ep-row">
+          <input type="checkbox" id="ep-daily" />
+          <span>
+            <b>Daily readings</b>
+            <small>A short daily email with the day's reading, to keep the rhythm of time in the Word.</small>
+          </span>
+        </label>
+        <label class="ep-row">
+          <input type="checkbox" id="ep-sequence" />
+          <span>
+            <b>Weekly welcome series</b>
+            <small>A short weekly series for new readers on getting the most from Makor: the studies, the quizzes, and the reading plan.</small>
+          </span>
+        </label>
+        <label class="ep-row">
           <input type="checkbox" id="ep-badges" />
           <span>
             <b>Milestones and badges</b>
@@ -57,18 +71,20 @@ function boot(){
   var client=window.makorClient, me=window.makorUser;
   if(!me){ $('ep-signin').hidden=false; return; }
   $('ep-wrap').hidden=false;
-  client.from('user_prefs').select('badge_emails,friend_request_emails').eq('user_id',me.id).maybeSingle().then(function(r){
+  client.rpc('get_email_prefs').then(function(r){
     var p=r.data||{};
+    $('ep-daily').checked=p.daily_emails!==false;
+    $('ep-sequence').checked=p.sequence_emails!==false;
     $('ep-badges').checked=p.badge_emails!==false;
     $('ep-friends').checked=p.friend_request_emails!==false;
   });
   $('ep-save').onclick=function(){
-    client.from('user_prefs').upsert({
-      user_id:me.id,
+    client.rpc('set_email_prefs',{p:{
+      daily_emails:$('ep-daily').checked,
+      sequence_emails:$('ep-sequence').checked,
       badge_emails:$('ep-badges').checked,
-      friend_request_emails:$('ep-friends').checked,
-      updated_at:new Date().toISOString()
-    }).then(function(r){
+      friend_request_emails:$('ep-friends').checked
+    }}).then(function(r){
       if(r.error){ alert('Could not save. Please try again.'); return; }
       var s=$('ep-saved'); s.hidden=false; setTimeout(function(){ s.hidden=true; },2500);
     });
