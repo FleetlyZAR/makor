@@ -91,9 +91,12 @@ yet; generating one card per study is a separate rendering pipeline. The
 brand palette.
 
 ## Divergences from the old brief worth remembering
-- The site fonts are EB Garamond in the Astro pages; the hand made daily share
-  pages use Fraunces and Newsreader with the Ink, Water, Light palette. Both
-  are intentional; do not "correct" one to the other.
+- The site now uses Fraunces for display (headings and wordmark) and Newsreader
+  for body and reading text, matching the daily cards and the brand. This
+  replaced EB Garamond site wide. The tokens live in `src/styles/global.css`
+  (`--display` for Fraunces, `--serif` for Newsreader) and the font link is in
+  `src/layouts/Base.astro`. Small UI chrome (labels, pills, buttons) stays on the
+  system sans by design.
 - The `comms` schema (daily_pool, run_daily, run_weekly, send_batch) lives only
   in Supabase, not in the repo `supabase/` folder. Do not expect it in git.
 - Psalms studies use numeric slugs (for example `psalm-036`), so a Psalm study
