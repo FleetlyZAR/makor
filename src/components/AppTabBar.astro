@@ -5,7 +5,7 @@
 <nav class="app-tabbar" id="app-tabbar" hidden aria-label="Main">
   <a class="app-tab" data-tab="read" href="/">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5.5C10 4 6.5 4 4.5 5v13c2-1 5.5-1 7.5.5 2-1.5 5.5-1.5 7.5-.5V5c-2-1-5.5-1-7.5.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 5.5V19" stroke="currentColor" stroke-width="1.4"/></svg>
-    <span>Read</span>
+    <span>Study</span>
   </a>
   <a class="app-tab" data-tab="plans" href="/plan/">
     <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M4 9h16M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
@@ -66,5 +66,37 @@
     else if (p.indexOf('/profile') === 0) active = 'profile';
     var el = bar.querySelector('[data-tab="' + active + '"]');
     if (el) el.setAttribute('aria-current', 'page');
+
+    // The Study tab opens the most recently opened but unfinished study.
+    // If there is none, it opens the first study, Genesis.
+    var studyTab = bar.querySelector('[data-tab="read"]');
+    if (studyTab) {
+      studyTab.addEventListener('click', async function (ev) {
+        ev.preventDefault();
+        var target = '/genesis/the-seven-days/';
+        try {
+          var idx = await fetch('/search-index.json').then(function (r) { return r.json(); });
+          var avail = idx.filter(function (e) { return e.available; }).sort(function (a, b) { return a.i - b.i; });
+          var url = null;
+          if (window.makorAllAttempts) {
+            var rows = await window.makorAllAttempts();
+            if (rows && rows.length) {
+              var done = {};
+              rows.forEach(function (r) { if (r.phase === 'post') done[r.study_slug] = true; });
+              var recent = rows.slice().sort(function (a, b) { return new Date(b.created_at) - new Date(a.created_at); });
+              for (var k = 0; k < recent.length; k++) {
+                if (!done[recent[k].study_slug]) {
+                  var m = avail.find(function (e) { return e.slug === recent[k].study_slug; });
+                  if (m) { url = m.url; break; }
+                }
+              }
+            }
+          }
+          if (!url && avail.length) url = avail[0].url;
+          if (url) target = url;
+        } catch (e) {}
+        location.assign(target);
+      });
+    }
   })();
 </script>

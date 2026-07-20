@@ -1,0 +1,307 @@
+---
+// Native study top bar. Appears only in the installed app (Capacitor), and
+// only on study reading pages, which carry a #study-meta element. It replaces
+// the site header with two pills, the current book and the current movement,
+// plus a search icon. The book pill opens a pull up of every book; choosing a
+// book shows its movements as a grid, much like the website home page. The
+// movement pill opens the current book's movements. Search mirrors the site
+// search. Never renders on the website.
+---
+<div id="app-studybar" class="sb-bar" hidden>
+  <button id="sb-book" class="sb-pill" type="button" aria-label="Choose a book"><span class="sb-pill-label">Book</span></button>
+  <button id="sb-move" class="sb-pill sb-pill-move" type="button" aria-label="Movements in this book"><span class="sb-pill-label">Movement</span></button>
+  <span class="sb-spacer"></span>
+  <button id="sb-search-btn" class="sb-icon" type="button" aria-label="Search">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M16 16l4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+  </button>
+</div>
+
+<div id="sb-sheet" class="sb-sheet" hidden>
+  <div class="sb-sheet-backdrop" data-close="1"></div>
+  <div class="sb-sheet-panel" role="dialog" aria-modal="true" aria-label="Browse studies">
+    <div class="sb-sheet-grip"></div>
+    <div class="sb-sheet-head">
+      <button id="sb-back" class="sb-back" type="button" hidden aria-label="Back to books">Books</button>
+      <div id="sb-sheet-title" class="sb-sheet-title">Books</div>
+      <button class="sb-close" type="button" data-close="1" aria-label="Close">Done</button>
+    </div>
+    <div id="sb-sheet-body" class="sb-sheet-body"></div>
+  </div>
+</div>
+
+<div id="sb-searchwrap" class="sb-searchwrap" hidden>
+  <div class="sb-search-backdrop" data-close="1"></div>
+  <div class="sb-search-panel" role="dialog" aria-modal="true" aria-label="Search">
+    <div class="sb-search-top">
+      <input id="sb-search-input" class="sb-search-input" type="search" autocomplete="off" spellcheck="false" placeholder="Search books, movements, references, or words" aria-label="Search" />
+      <button class="sb-search-cancel" type="button" data-close="1">Cancel</button>
+    </div>
+    <div id="sb-search-results" class="sb-search-results"></div>
+  </div>
+</div>
+
+<style is:global>
+  body.has-studybar .site-header { display: none; }
+  body.has-studybar main.wrap { padding-top: calc(env(safe-area-inset-top) + 3.7rem); }
+
+  .sb-bar {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 90;
+    display: flex; align-items: center; gap: 8px;
+    padding: calc(env(safe-area-inset-top) + 8px) 12px 8px;
+    background: rgba(246, 243, 236, 0.94);
+    -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+  }
+  .sb-bar[hidden] { display: none; }
+  .sb-pill {
+    max-width: 42%;
+    display: inline-flex; align-items: center; gap: 6px;
+    background: var(--surface); color: var(--ink);
+    border: 1px solid var(--line); border-radius: 22px;
+    padding: 8px 14px; font-family: var(--sans); font-size: 0.86rem; font-weight: 600;
+    cursor: pointer; white-space: nowrap; overflow: hidden;
+  }
+  .sb-pill .sb-pill-label { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .sb-pill::after { content: ""; width: 7px; height: 7px; flex: 0 0 auto; border-right: 1.5px solid var(--muted); border-bottom: 1.5px solid var(--muted); transform: rotate(45deg); margin-top: -3px; }
+  .sb-pill-move { color: var(--water); border-color: var(--water); }
+  .sb-pill-move::after { border-color: var(--water); }
+  .sb-spacer { flex: 1; }
+  .sb-icon {
+    flex: 0 0 auto; width: 40px; height: 40px; border-radius: 50%;
+    display: inline-flex; align-items: center; justify-content: center;
+    background: var(--surface); color: var(--ink); border: 1px solid var(--line); cursor: pointer;
+  }
+  .sb-icon svg { width: 20px; height: 20px; }
+
+  /* Pull up sheet for browsing books and movements */
+  .sb-sheet, .sb-searchwrap { position: fixed; inset: 0; z-index: 110; }
+  .sb-sheet[hidden], .sb-searchwrap[hidden] { display: none; }
+  .sb-sheet-backdrop, .sb-search-backdrop { position: absolute; inset: 0; background: rgba(14, 42, 46, 0.45); }
+  .sb-sheet-panel {
+    position: absolute; left: 0; right: 0; bottom: 0; max-height: 86%;
+    display: flex; flex-direction: column;
+    background: var(--paper); border-radius: 18px 18px 0 0;
+    padding: 8px 0 calc(env(safe-area-inset-bottom) + 10px);
+    box-shadow: 0 -10px 30px rgba(14, 42, 46, 0.22);
+  }
+  .sb-sheet-grip { width: 42px; height: 4px; border-radius: 2px; background: var(--line); margin: 4px auto 8px; }
+  .sb-sheet-head { display: flex; align-items: center; gap: 10px; padding: 0 16px 10px; border-bottom: 1px solid var(--line); }
+  .sb-sheet-title { flex: 1; text-align: center; font-family: var(--serif); font-size: 1.15rem; font-weight: 600; color: var(--ink); }
+  .sb-back, .sb-close { background: transparent; border: 0; color: var(--water); font-family: var(--sans); font-size: 0.92rem; font-weight: 600; cursor: pointer; padding: 4px 2px; }
+  .sb-back[hidden] { visibility: hidden; }
+  .sb-sheet-body { overflow-y: auto; -webkit-overflow-scrolling: touch; padding: 8px 12px 4px; }
+
+  .sb-book-row {
+    display: flex; align-items: baseline; justify-content: space-between; gap: 10px;
+    width: 100%; text-align: left; background: transparent; border: 0;
+    border-bottom: 1px solid var(--line); padding: 13px 6px; cursor: pointer;
+    font-family: var(--serif); font-size: 1.05rem; color: var(--ink);
+  }
+  .sb-book-row .sb-book-count { font-family: var(--sans); font-size: 0.72rem; font-weight: 600; color: var(--muted); }
+  .sb-book-row.sb-current { color: var(--water); }
+
+  .sb-move-grid { display: grid; grid-template-columns: 1fr; gap: 8px; padding: 6px 0; }
+  .sb-move-card {
+    display: block; width: 100%; text-align: left; text-decoration: none;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+    padding: 12px 14px; cursor: pointer; color: var(--ink); font-family: var(--sans);
+  }
+  .sb-move-card .sb-move-title { font-family: var(--serif); font-size: 1.02rem; color: var(--ink); }
+  .sb-move-card .sb-move-ref { font-size: 0.78rem; color: var(--muted); margin-top: 2px; }
+  .sb-move-card.sb-soon { opacity: 0.72; }
+  .sb-move-card.sb-soon .sb-soon-tag { display: inline-block; margin-left: 6px; font-size: 0.66rem; font-weight: 700; color: var(--light); text-transform: uppercase; letter-spacing: 0.04em; }
+  .sb-move-card.sb-done { border-color: var(--water); }
+  .sb-move-card.sb-done .sb-move-title { color: var(--water); }
+
+  /* Search overlay */
+  .sb-search-panel {
+    position: absolute; left: 0; right: 0; top: 0; bottom: 0;
+    display: flex; flex-direction: column; background: var(--paper);
+    padding: calc(env(safe-area-inset-top) + 8px) 12px calc(env(safe-area-inset-bottom) + 8px);
+  }
+  .sb-search-top { display: flex; align-items: center; gap: 10px; }
+  .sb-search-input {
+    flex: 1; background: var(--surface); border: 1px solid var(--line); border-radius: 22px;
+    padding: 11px 16px; font-family: var(--sans); font-size: 0.95rem; color: var(--ink);
+  }
+  .sb-search-cancel { background: transparent; border: 0; color: var(--water); font-family: var(--sans); font-size: 0.92rem; font-weight: 600; cursor: pointer; }
+  .sb-search-results { flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; margin-top: 12px; }
+  .sb-sr-item { display: block; text-decoration: none; border-bottom: 1px solid var(--line); padding: 12px 4px; }
+  .sb-sr-line { display: flex; align-items: baseline; gap: 8px; }
+  .sb-sr-title { font-family: var(--serif); font-size: 1.02rem; color: var(--ink); }
+  .sb-sr-tag { font-size: 0.64rem; font-weight: 700; color: var(--water); text-transform: uppercase; letter-spacing: 0.04em; }
+  .sb-sr-soon { font-size: 0.64rem; font-weight: 700; color: var(--light); text-transform: uppercase; letter-spacing: 0.04em; }
+  .sb-sr-ref { font-size: 0.78rem; color: var(--muted); margin-top: 2px; }
+  .sb-sr-snippet { font-size: 0.82rem; color: var(--ink); margin-top: 4px; opacity: 0.85; }
+  .sb-sr-empty { color: var(--muted); font-family: var(--sans); padding: 16px 4px; }
+</style>
+
+<script is:inline>
+  (function () {
+    var C = window.Capacitor;
+    var isNative = !!(C && C.isNativePlatform && C.isNativePlatform());
+    if (!isNative) return; // website never shows the study bar
+
+    var meta = document.getElementById('study-meta');
+    if (!meta) return; // only on study reading pages
+
+    var bar = document.getElementById('app-studybar');
+    if (!bar) return;
+
+    var currentBook = meta.getAttribute('data-book') || '';
+    var currentSlug = meta.getAttribute('data-slug') || '';
+    var currentTitle = meta.getAttribute('data-title') || '';
+
+    document.body.classList.add('has-studybar');
+    bar.hidden = false;
+
+    var bookPill = document.getElementById('sb-book');
+    var movePill = document.getElementById('sb-move');
+    if (bookPill) bookPill.querySelector('.sb-pill-label').textContent = currentBook || 'Book';
+    if (movePill) movePill.querySelector('.sb-pill-label').textContent = currentTitle || 'Movement';
+
+    // Shared search index, loaded once.
+    var index = null, loading = null;
+    function loadIndex() {
+      if (index) return Promise.resolve(index);
+      if (!loading) loading = fetch('/search-index.json').then(function (r) { return r.json(); }).then(function (d) { index = d; return d; }).catch(function () { index = []; return []; });
+      return loading;
+    }
+
+    // Completed studies, refreshed from attempts.
+    var done = {};
+    function refreshDone() {
+      if (!window.makorAllAttempts) return Promise.resolve();
+      return window.makorAllAttempts().then(function (rows) {
+        done = {};
+        (rows || []).forEach(function (r) { if (r.phase === 'post') done[r.study_slug] = true; });
+      }).catch(function () {});
+    }
+
+    function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+
+    // Unique books in canonical order, derived from the search index order (e.i).
+    function booksFromIndex(idx) {
+      var seen = {}, out = [];
+      idx.slice().sort(function (a, b) { return a.i - b.i; }).forEach(function (e) {
+        if (!seen[e.book]) { seen[e.book] = { book: e.book, bookSlug: e.bookSlug, total: 0, ready: 0 }; out.push(seen[e.book]); }
+        seen[e.book].total += 1;
+        if (e.available) seen[e.book].ready += 1;
+      });
+      return out;
+    }
+    function movementsForBook(idx, bookName) {
+      return idx.filter(function (e) { return e.book === bookName; }).sort(function (a, b) { return (a.order || 0) - (b.order || 0) || a.i - b.i; });
+    }
+
+    // Sheet plumbing
+    var sheet = document.getElementById('sb-sheet');
+    var sheetBody = document.getElementById('sb-sheet-body');
+    var sheetTitle = document.getElementById('sb-sheet-title');
+    var backBtn = document.getElementById('sb-back');
+
+    function openSheet() { sheet.hidden = false; document.body.style.overflow = 'hidden'; }
+    function closeSheet() { sheet.hidden = true; document.body.style.overflow = ''; }
+
+    function renderBooks() {
+      backBtn.hidden = true;
+      sheetTitle.textContent = 'Books';
+      loadIndex().then(function (idx) {
+        var books = booksFromIndex(idx);
+        var html = '';
+        books.forEach(function (b) {
+          var count = b.ready > 0 ? (b.ready + ' of ' + b.total) : 'soon';
+          var cur = b.book === currentBook ? ' sb-current' : '';
+          html += '<button class="sb-book-row' + cur + '" data-book="' + esc(b.book) + '"><span>' + esc(b.book) + '</span><span class="sb-book-count">' + count + '</span></button>';
+        });
+        sheetBody.innerHTML = html;
+        sheetBody.scrollTop = 0;
+      });
+    }
+
+    function renderMovements(bookName) {
+      backBtn.hidden = false;
+      sheetTitle.textContent = bookName;
+      loadIndex().then(function (idx) {
+        var moves = movementsForBook(idx, bookName);
+        var html = '<div class="sb-move-grid">';
+        moves.forEach(function (e) {
+          if (e.available) {
+            var d = done[e.slug] ? ' sb-done' : '';
+            html += '<a class="sb-move-card' + d + '" href="' + esc(e.url) + '"><span class="sb-move-title">' + esc(e.title) + '</span><span class="sb-move-ref">' + esc(e.ref) + '</span></a>';
+          } else {
+            html += '<div class="sb-move-card sb-soon"><span class="sb-move-title">' + esc(e.title) + '<span class="sb-soon-tag">soon</span></span><span class="sb-move-ref">' + esc(e.ref) + '</span></div>';
+          }
+        });
+        html += '</div>';
+        sheetBody.innerHTML = html;
+        sheetBody.scrollTop = 0;
+      });
+    }
+
+    if (bookPill) bookPill.addEventListener('click', function () { openSheet(); renderBooks(); });
+    if (movePill) movePill.addEventListener('click', function () { openSheet(); renderMovements(currentBook); });
+    if (backBtn) backBtn.addEventListener('click', function () { renderBooks(); });
+
+    sheet.addEventListener('click', function (e) {
+      if (e.target && e.target.getAttribute && e.target.getAttribute('data-close')) { closeSheet(); return; }
+      var row = e.target.closest ? e.target.closest('.sb-book-row') : null;
+      if (row) { renderMovements(row.getAttribute('data-book')); }
+    });
+
+    // Search overlay, mirroring the site search.
+    var searchWrap = document.getElementById('sb-searchwrap');
+    var searchInput = document.getElementById('sb-search-input');
+    var searchResults = document.getElementById('sb-search-results');
+    var searchBtn = document.getElementById('sb-search-btn');
+    var timer = null;
+
+    function parseRef(q) { var m = q.trim().match(/^([1-3]?\s?[a-z][a-z ]*?)\s*(\d+)(?::(\d+))?$/i); if (!m) return null; return { book: m[1].trim().toLowerCase(), ch: parseInt(m[2], 10), vs: m[3] ? parseInt(m[3], 10) : null }; }
+    function inRange(ref, ch, vs) { var mm = ref.match(/(\d+):(\d+)\s*-\s*(?:(\d+):)?(\d+)/); if (!mm) return false; var sc = +mm[1], sv = +mm[2], ec = mm[3] ? +mm[3] : sc, ev = +mm[4]; if (vs == null) return ch >= sc && ch <= ec; var p = ch * 1000 + vs; return p >= sc * 1000 + sv && p <= ec * 1000 + ev; }
+    function snippet(text, q) { var t = text.toLowerCase(); var i = t.indexOf(q); if (i < 0) return ''; var s = Math.max(0, i - 30), e = Math.min(text.length, i + q.length + 45); return (s > 0 ? '... ' : '') + text.slice(s, e) + (e < text.length ? ' ...' : ''); }
+
+    function runSearch() {
+      var q = searchInput.value.trim();
+      if (!q) { searchResults.innerHTML = ''; return; }
+      loadIndex().then(function (idx) {
+        var ql = q.toLowerCase();
+        var ref = parseRef(q);
+        var out = [];
+        idx.forEach(function (e) {
+          var score = -1, tag = '', snip = '';
+          var title = e.title.toLowerCase(), book = e.book.toLowerCase();
+          if (ref && (book.indexOf(ref.book) === 0 || book.indexOf(ref.book) !== -1) && inRange(e.ref, ref.ch, ref.vs)) { score = 100; tag = 'reference'; }
+          if (score < 0) {
+            if (book === ql || title === ql) score = 92;
+            else if (book.indexOf(ql) === 0 || title.indexOf(ql) === 0) score = 82;
+            else if (book.indexOf(ql) !== -1 || title.indexOf(ql) !== -1) score = 64;
+            else if (e.ref.toLowerCase().indexOf(ql) !== -1) score = 58;
+            else if (e.available && e.text && e.text.toLowerCase().indexOf(ql) !== -1) { score = 30; tag = 'text'; snip = snippet(e.text, ql); }
+          }
+          if (score >= 0) out.push({ e: e, score: score, tag: tag, snip: snip });
+        });
+        out.sort(function (a, b) { return b.score - a.score || a.e.i - b.e.i; });
+        var top = out.slice(0, 12);
+        if (!top.length) { searchResults.innerHTML = '<div class="sb-sr-empty">No matches for "' + esc(q) + '"</div>'; return; }
+        searchResults.innerHTML = top.map(function (o) {
+          var e = o.e;
+          var soon = e.available ? '' : '<span class="sb-sr-soon">soon</span>';
+          var tg = o.tag === 'text' ? '<span class="sb-sr-tag">text</span>' : (o.tag === 'reference' ? '<span class="sb-sr-tag">reference</span>' : '');
+          var sn = o.snip ? '<div class="sb-sr-snippet">' + esc(o.snip) + '</div>' : '';
+          var href = e.available ? e.url : ('/' + e.bookSlug + '/');
+          return '<a class="sb-sr-item" href="' + href + '"><div class="sb-sr-line"><span class="sb-sr-title">' + esc(e.title) + '</span> ' + tg + ' ' + soon + '</div><div class="sb-sr-ref">' + esc(e.book) + ' · ' + esc(e.ref) + '</div>' + sn + '</a>';
+        }).join('');
+      });
+    }
+
+    function openSearch() { searchWrap.hidden = false; document.body.style.overflow = 'hidden'; loadIndex(); setTimeout(function () { searchInput.focus(); }, 50); }
+    function closeSearch() { searchWrap.hidden = true; document.body.style.overflow = ''; }
+
+    if (searchBtn) searchBtn.addEventListener('click', openSearch);
+    if (searchInput) searchInput.addEventListener('input', function () { clearTimeout(timer); timer = setTimeout(runSearch, 120); });
+    searchWrap.addEventListener('click', function (e) { if (e.target && e.target.getAttribute && e.target.getAttribute('data-close')) closeSearch(); });
+
+    refreshDone();
+    window.addEventListener('makor-auth', function () { refreshDone(); });
+  })();
+</script>

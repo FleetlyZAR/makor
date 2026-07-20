@@ -3,6 +3,8 @@ import '../styles/global.css';
 import { getAllStudies } from '../lib/studies.js';
 import AppTabBar from '../components/AppTabBar.astro';
 import AppWelcome from '../components/AppWelcome.astro';
+import AppStudyBar from '../components/AppStudyBar.astro';
+import AppDaily from '../components/AppDaily.astro';
 const totalStudies = getAllStudies().length;
 const { title = 'Makor', description = 'Deep, Christ-centred study of every book of the Bible.' } = Astro.props;
 const canonicalUrl = 'https://makor.co.za' + Astro.url.pathname;
@@ -85,6 +87,8 @@ const canonicalUrl = 'https://makor.co.za' + Astro.url.pathname;
     </footer>
     <AppTabBar />
     <AppWelcome />
+    <AppStudyBar />
+    <AppDaily />
     <script>
       document.addEventListener('click', (e) => {
         const btn = e.target.closest('.lex');
