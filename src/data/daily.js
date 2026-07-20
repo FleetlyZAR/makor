@@ -37,5 +37,27 @@ export const dailyEntries = [
       'This morning, His mercy is new again.'
     ],
     studyUrl: '/lamentations/the-prophets-grief-and-hope/'
+  },
+  {
+    slug: 'psalm-36-9',
+    ref: 'Psalm 36:9',
+    verse: 'For with You is the fountain of life; in Your light we see light.',
+    story: [
+      'David has just looked hard at the human heart with no fear of God in it, and found it a dry, self-flattering thing.',
+      'Then his eyes lift. With You, he says, is the fountain of life. The Hebrew word is mekor, the same word that gives Makor its name: not a tank we fill, but a spring that rises from God Himself and never runs dry. And in Your light we see light; we do not see anything truly until He shines.',
+      'Everything living, everything true, has one source. Come and drink from it.'
+    ],
+    studyUrl: '/psalms/psalm-036/'
+  },
+  {
+    slug: 'isaiah-55-1',
+    ref: 'Isaiah 55:1',
+    verse: '“Come, all you who are thirsty, come to the waters; and you without money, come, buy, and eat! Come, buy wine and milk without money and without cost!',
+    story: [
+      'Just after Isaiah sings of the Servant who was pierced for our transgressions, God flings the doors open and starts calling into the street.',
+      'Come, all you who are thirsty. And then, strangely, come and buy, you who have no money. The price has already been paid; the wine and milk are handed over without cost. This is grace doing its own arithmetic.',
+      'The only thing you need bring is your thirst. Come.'
+    ],
+    studyUrl: '/isaiah/an-invitation-to-the-thirsty/'
   }
 ];

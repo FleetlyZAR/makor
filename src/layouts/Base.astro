@@ -7,8 +7,11 @@ import AppStudyBar from '../components/AppStudyBar.astro';
 import AppTheme from '../components/AppTheme.astro';
 import AppHome from '../components/AppHome.astro';
 const totalStudies = getAllStudies().length;
-const { title = 'Makor', description = 'Deep, Christ-centred study of every book of the Bible.' } = Astro.props;
+const { title = 'Makor', description = 'Deep, Christ-centred study of every book of the Bible.', ogImage } = Astro.props;
 const canonicalUrl = 'https://makor.co.za' + Astro.url.pathname;
+const ogImageUrl = ogImage
+  ? (ogImage.startsWith('http') ? ogImage : 'https://makor.co.za' + ogImage)
+  : 'https://makor.co.za/og-default.png';
 ---
 <!doctype html>
 <html lang="en">
@@ -22,6 +25,11 @@ const canonicalUrl = 'https://makor.co.za' + Astro.url.pathname;
     {description && <meta property="og:description" content={description} />}
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={ogImageUrl} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content={ogImageUrl} />
     <link rel="canonical" href={canonicalUrl} />
     <script type="application/ld+json" set:html={JSON.stringify({
       "@context": "https://schema.org",
