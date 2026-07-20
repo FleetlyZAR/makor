@@ -1,19 +1,22 @@
 ---
 // Bottom tab bar. Appears only when running as the installed app (Capacitor),
-// never on the website. Tabs map to pages that already exist.
+// never on the website. Order: Home, Plans, Study (centre), Friends, You.
+// Home goes to the home page; Study opens the last unfinished study, or the
+// first study if there is none. It adds a body.has-tabbar class for bottom
+// padding and marks the active tab from location.pathname.
 ---
 <nav class="app-tabbar" id="app-tabbar" hidden aria-label="Main">
-  <a class="app-tab" data-tab="read" href="/">
-    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5.5C10 4 6.5 4 4.5 5v13c2-1 5.5-1 7.5.5 2-1.5 5.5-1.5 7.5-.5V5c-2-1-5.5-1-7.5.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 5.5V19" stroke="currentColor" stroke-width="1.4"/></svg>
-    <span>Study</span>
+  <a class="app-tab" data-tab="home" href="/">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11l8-7 8 7" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M6 10v9h12v-9" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+    <span>Home</span>
   </a>
   <a class="app-tab" data-tab="plans" href="/plan/">
     <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M4 9h16M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
     <span>Plans</span>
   </a>
-  <a class="app-tab" data-tab="progress" href="/progress/">
-    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-opacity=".5"/><path d="M12 12V4a8 8 0 016.9 4z" fill="currentColor"/></svg>
-    <span>Progress</span>
+  <a class="app-tab" data-tab="study" href="/">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5.5C10 4 6.5 4 4.5 5v13c2-1 5.5-1 7.5.5 2-1.5 5.5-1.5 7.5-.5V5c-2-1-5.5-1-7.5.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 5.5V19" stroke="currentColor" stroke-width="1.4"/></svg>
+    <span>Study</span>
   </a>
   <a class="app-tab" data-tab="friends" href="/activity/">
     <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3.2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3.5 19c.8-3.3 3-4.5 5.5-4.5S13.7 15.7 14.5 19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M16 5.2A3 3 0 0117 11" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
@@ -21,7 +24,7 @@
   </a>
   <a class="app-tab" data-tab="profile" href="/profile/">
     <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8.5" r="3.6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M5 20c1-4 4-5.5 7-5.5S18 16 19 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-    <span>Profile</span>
+    <span>You</span>
   </a>
 </nav>
 
@@ -58,18 +61,19 @@
     bar.hidden = false;
 
     var p = (location.pathname || '/').replace(/\/+$/, '') || '/';
-    var active = 'read';
-    if (p === '/' || p === '') active = 'read';
+    var active = 'study';
+    if (p === '/' || p === '') active = 'home';
     else if (p.indexOf('/plan') === 0) active = 'plans';
-    else if (p.indexOf('/progress') === 0) active = 'progress';
     else if (p.indexOf('/activity') === 0 || p.indexOf('/groups') === 0) active = 'friends';
-    else if (p.indexOf('/profile') === 0) active = 'profile';
+    else if (p.indexOf('/progress') === 0 || p.indexOf('/profile') === 0) active = 'profile';
+    else if (p.indexOf('/admin') === 0 || p.indexOf('/email') === 0 || p.indexOf('/privacy') === 0 || p.indexOf('/terms') === 0 || p.indexOf('/daily') === 0) active = 'home';
+    else active = 'study'; // book pages and study pages
     var el = bar.querySelector('[data-tab="' + active + '"]');
     if (el) el.setAttribute('aria-current', 'page');
 
     // The Study tab opens the most recently opened but unfinished study.
     // If there is none, it opens the first study, Genesis.
-    var studyTab = bar.querySelector('[data-tab="read"]');
+    var studyTab = bar.querySelector('[data-tab="study"]');
     if (studyTab) {
       studyTab.addEventListener('click', async function (ev) {
         ev.preventDefault();

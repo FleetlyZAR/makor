@@ -1,0 +1,48 @@
+---
+// App theme. Only in the installed app (Capacitor). Default is dark; the reader
+// can switch to light and the choice is remembered. It remaps the site's global
+// tokens to a dark, ink palette and darkens the fixed chrome. The website is
+// never touched. Toggle with window.makorToggleTheme().
+---
+<script is:inline>
+  (function () {
+    var C = window.Capacitor;
+    var isNative = !!(C && C.isNativePlatform && C.isNativePlatform());
+    if (!isNative) return; // website keeps its light design
+
+    var KEY = 'makor_theme';
+    function current() {
+      try { return localStorage.getItem(KEY) || 'dark'; } catch (e) { return 'dark'; }
+    }
+    function apply(t) {
+      document.documentElement.setAttribute('data-mk-theme', t);
+      try { localStorage.setItem(KEY, t); } catch (e) {}
+      window.dispatchEvent(new CustomEvent('makor-theme', { detail: { theme: t } }));
+    }
+    window.makorGetTheme = current;
+    window.makorSetTheme = apply;
+    window.makorToggleTheme = function () { apply(current() === 'dark' ? 'light' : 'dark'); };
+    apply(current());
+  })();
+</script>
+
+<style is:global>
+  html[data-mk-theme="dark"] {
+    --ink: #F1EAD9;
+    --water: #5FBDBD;
+    --water-deep: #4AA6A6;
+    --light: #D8B877;
+    --light-soft: #163F41;
+    --paper: #0E2A2E;
+    --surface: #143537;
+    --line: #23474A;
+    --muted: #A2BAB6;
+    --gold-bright: #E8C15A;
+  }
+  html[data-mk-theme="dark"] body { background: var(--paper); color: var(--ink); }
+  /* Darken the fixed chrome that uses hard coded light backgrounds. */
+  html[data-mk-theme="dark"] .app-tabbar { background: rgba(14, 42, 46, 0.92); }
+  html[data-mk-theme="dark"] .sb-bar { background: rgba(14, 42, 46, 0.92); }
+  html[data-mk-theme="dark"] .site-header { background: var(--surface); border-color: var(--line); }
+  html[data-mk-theme="dark"] .site-header .site-search { background: var(--paper); color: var(--ink); border-color: var(--line); }
+</style>

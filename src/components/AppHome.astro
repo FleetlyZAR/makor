@@ -1,0 +1,219 @@
+---
+// Native Home. Only in the installed app (Capacitor), only on the home page. It
+// replaces the website home content with an app home: a greeting, the verse of
+// the day with share, a Continue card that resumes the last unfinished study, a
+// reading plan nudge, and a quiet view of the reader's walk. Signed out, it
+// shows the verse and an invitation to sign in. The website is never touched.
+import { dailyEntries } from '../data/daily.js';
+---
+<script type="application/json" id="app-home-daily" set:html={JSON.stringify(dailyEntries)}></script>
+<div id="app-home" hidden>
+  <div class="ah-top">
+    <svg class="ah-mark" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="13.5" fill="none" stroke="var(--water)" stroke-width="1.4" opacity="0.35"/><circle cx="16" cy="16" r="9.5" fill="none" stroke="var(--water)" stroke-width="1.4" opacity="0.6"/><circle cx="16" cy="16" r="5.3" fill="none" stroke="var(--water)" stroke-width="1.4"/><circle cx="16" cy="16" r="2.1" fill="var(--light)"/></svg>
+    <span class="ah-word">Makor</span>
+    <span class="ah-grow"></span>
+    <button id="ah-theme" class="ah-icon" type="button" aria-label="Switch theme"></button>
+  </div>
+  <div id="app-home-body" class="ah-body"></div>
+</div>
+
+<style is:global>
+  body.has-apphome .site-header { display: none; }
+
+  #app-home { display: none; }
+  body.has-apphome #app-home { display: block; }
+  .ah-top { display: flex; align-items: center; gap: 10px; padding: calc(env(safe-area-inset-top) + 8px) 4px 10px; }
+  .ah-mark { width: 26px; height: 26px; }
+  .ah-word { font-family: var(--serif); font-weight: 600; font-size: 1.2rem; color: var(--ink); }
+  .ah-grow { flex: 1; }
+  .ah-icon { width: 38px; height: 38px; border-radius: 50%; border: 1px solid var(--line); background: var(--surface); color: var(--ink); display: inline-flex; align-items: center; justify-content: center; cursor: pointer; }
+  .ah-icon svg { width: 19px; height: 19px; }
+
+  .ah-greet { font-family: var(--serif); font-size: 1.5rem; font-weight: 600; color: var(--ink); margin: 4px 0 2px; }
+  .ah-date { color: var(--muted); font-size: 0.84rem; margin: 0 0 14px; }
+
+  .ah-card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 16px; margin-bottom: 14px; text-decoration: none; display: block; color: var(--ink); }
+  .ah-eyebrow { font-size: 0.64rem; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; color: var(--light); margin: 0 0 7px; }
+  .ah-votd { background: linear-gradient(150% 120% at 30% 0%, #16413f 0%, #0E2A2E 72%); color: #f1ead9; border: 0; }
+  .ah-votd .ah-eyebrow { color: #d8b877; }
+  .ah-verse { font-family: var(--serif); font-size: 1.35rem; line-height: 1.34; margin: 0 0 8px; }
+  .ah-ref { font-size: 0.8rem; font-weight: 600; color: #a9c4be; margin: 0 0 12px; }
+  .ah-row { display: flex; gap: 10px; flex-wrap: wrap; }
+  .ah-btn { display: inline-flex; align-items: center; justify-content: center; font-family: var(--sans); font-weight: 600; font-size: 0.9rem; border-radius: 22px; padding: 11px 18px; border: 1px solid var(--line); cursor: pointer; text-decoration: none; color: var(--ink); background: var(--surface); }
+  .ah-votd .ah-btn { background: rgba(255,255,255,0.1); color: #f1ead9; border-color: rgba(255,255,255,0.22); }
+  .ah-brass { background: var(--light); color: #1c1408; border-color: var(--light); }
+  .ah-teal { background: var(--water); color: #05201f; border-color: var(--water); }
+  .ah-title { font-family: var(--serif); font-size: 1.15rem; color: var(--ink); }
+  .ah-sub { color: var(--muted); font-size: 0.82rem; margin-top: 3px; }
+  .ah-bar { height: 7px; border-radius: 4px; background: var(--line); overflow: hidden; margin-top: 10px; }
+  .ah-bar > span { display: block; height: 100%; background: var(--water); }
+  .ah-grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 14px; }
+  .ah-stat { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 13px; text-align: center; }
+  .ah-stat .n { font-family: var(--serif); font-size: 1.7rem; font-weight: 600; color: var(--water); }
+  .ah-stat .l { font-size: 0.72rem; color: var(--muted); margin-top: 2px; }
+</style>
+
+<script is:inline>
+  (function () {
+    var C = window.Capacitor;
+    var isNative = !!(C && C.isNativePlatform && C.isNativePlatform());
+    if (!isNative) return; // website keeps its own home
+
+    var path = (location.pathname || '/');
+    var isHome = path === '/' || path === '' || path === '/index.html';
+    if (!isHome) return;
+
+    var home = document.getElementById('app-home');
+    var body = document.getElementById('app-home-body');
+    var dataEl = document.getElementById('app-home-daily');
+    if (!home || !body) return;
+
+    var entries = [];
+    try { entries = JSON.parse(dataEl.textContent || '[]'); } catch (e) {}
+
+    // Take over the home page: hide the site header and the default content.
+    document.body.classList.add('has-apphome');
+    var main = document.querySelector('main.wrap') || document.querySelector('main');
+    if (main && home.parentNode !== main) {
+      Array.prototype.forEach.call(main.children, function (c) { if (c !== home) c.style.display = 'none'; });
+      main.insertBefore(home, main.firstChild);
+    }
+    home.hidden = false;
+
+    // Theme toggle icon reflects the current theme.
+    var sun = '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.5 5.5l1.4 1.4M17.1 17.1l1.4 1.4M18.5 5.5l-1.4 1.4M6.9 17.1l-1.4 1.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>';
+    var moon = '<svg viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 019.5 4a7 7 0 100 16 8 8 0 0010.5-5.5z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+    var themeBtn = document.getElementById('ah-theme');
+    function reflectTheme() { var t = (window.makorGetTheme ? window.makorGetTheme() : 'dark'); themeBtn.innerHTML = t === 'dark' ? sun : moon; }
+    if (themeBtn) themeBtn.addEventListener('click', function () { if (window.makorToggleTheme) window.makorToggleTheme(); });
+    window.addEventListener('makor-theme', reflectTheme);
+    reflectTheme();
+
+    var base = 'https://makor.co.za';
+    function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+
+    // Verse of the day, one per calendar day.
+    function todaysVerse() {
+      if (!entries.length) return null;
+      var now = new Date();
+      var start = new Date(now.getFullYear(), 0, 0);
+      var day = Math.floor((now - start) / 86400000);
+      return entries[day % entries.length];
+    }
+    function shareVerse(entry) {
+      var shareText = '"' + entry.verse + '" (' + entry.ref + ')';
+      var shareUrl = base + '/daily/' + entry.slug + '/';
+      var imgUrl = base + '/daily/' + entry.slug + '.png';
+      (async function () {
+        try {
+          if (navigator.canShare) {
+            try {
+              var r = await fetch(imgUrl); var b = await r.blob();
+              var f = new File([b], entry.slug + '.png', { type: 'image/png' });
+              if (navigator.canShare({ files: [f] })) { await navigator.share({ files: [f], text: shareText + '\n\n' + shareUrl }); return; }
+            } catch (e) {}
+          }
+          if (navigator.share) { await navigator.share({ title: 'Makor', text: shareText, url: shareUrl }); return; }
+        } catch (e) { return; }
+        try { await navigator.clipboard.writeText(shareText + '\n\n' + shareUrl); alert('Link copied. Paste it anywhere to share.'); }
+        catch (e) { window.prompt('Copy this link to share:', shareUrl); }
+      })();
+    }
+
+    function greeting() {
+      var h = new Date().getHours();
+      return h < 12 ? 'Good morning' : (h < 18 ? 'Good afternoon' : 'Good evening');
+    }
+    function firstName() {
+      var u = window.makorUser;
+      if (!u) return '';
+      var n = (u.user_metadata && (u.user_metadata.full_name || u.user_metadata.name)) || '';
+      if (n) return n.split(' ')[0];
+      if (u.email) return u.email.split('@')[0];
+      return '';
+    }
+    function dateLine() {
+      try { return new Date().toLocaleDateString(undefined, { weekday: 'long', day: 'numeric', month: 'long' }); } catch (e) { return ''; }
+    }
+
+    var indexCache = null;
+    function loadIndex() {
+      if (indexCache) return Promise.resolve(indexCache);
+      return fetch('/search-index.json').then(function (r) { return r.json(); }).then(function (d) { indexCache = d; return d; }).catch(function () { indexCache = []; return []; });
+    }
+
+    function render() {
+      var u = window.makorUser;
+      var entry = todaysVerse();
+      var name = firstName();
+      var html = '';
+
+      html += '<div class="ah-greet">' + (u ? (greeting() + (name ? ', ' + esc(name) : '')) : 'Welcome to Makor') + '</div>';
+      html += '<div class="ah-date">' + esc(dateLine()) + '</div>';
+
+      if (entry) {
+        html += '<div class="ah-card ah-votd">'
+          + '<p class="ah-eyebrow">Verse of the day</p>'
+          + '<p class="ah-verse">' + esc(entry.verse) + '</p>'
+          + '<p class="ah-ref">' + esc(entry.ref) + '</p>'
+          + '<div class="ah-row"><a class="ah-btn ah-brass" href="' + esc(entry.studyUrl || '/') + '">Read</a>'
+          + '<button class="ah-btn" id="ah-share" type="button">Share</button></div>'
+          + '</div>';
+      }
+
+      if (u) {
+        html += '<a class="ah-card" id="ah-continue" href="#"><p class="ah-eyebrow">Continue</p><div class="ah-title" id="ah-cont-title">Loading your place</div><div class="ah-sub" id="ah-cont-sub"></div><div class="ah-bar"><span id="ah-cont-bar" style="width:0%"></span></div></a>';
+        html += '<a class="ah-card" href="/plan/"><p class="ah-eyebrow">Reading plans</p><div class="ah-title">Walk a path through Scripture</div><div class="ah-sub">Pick up your plan, or start a new one.</div></a>';
+        html += '<p class="ah-eyebrow">Your walk</p><div class="ah-grid2"><a class="ah-stat" href="/progress/" style="text-decoration:none;"><div class="n" id="ah-days">0</div><div class="l">days in the Word</div></a><a class="ah-stat" href="/progress/" style="text-decoration:none;"><div class="n" id="ah-done">0</div><div class="l">studies done</div></a></div>';
+      } else {
+        html += '<div class="ah-card"><p class="ah-eyebrow">Keep your walk</p><div class="ah-title">Sign in to save your progress</div><div class="ah-sub">Your studies, your streak, and your place, across every device. Free, and always will be.</div><div class="ah-row" style="margin-top:12px;"><button class="ah-btn ah-teal" id="ah-signin" type="button">Sign in with Google</button></div></div>';
+      }
+
+      body.innerHTML = html;
+
+      var shareBtn = document.getElementById('ah-share');
+      if (shareBtn && entry) shareBtn.addEventListener('click', function () { shareVerse(entry); });
+
+      var signinBtn = document.getElementById('ah-signin');
+      if (signinBtn) signinBtn.addEventListener('click', function () {
+        if (window.makorClient && window.makorClient.auth) window.makorClient.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: window.location.href } });
+      });
+
+      if (u) fillWalk();
+    }
+
+    function fillWalk() {
+      if (!window.makorAllAttempts) return;
+      Promise.all([window.makorAllAttempts(), loadIndex()]).then(function (res) {
+        var rows = res[0] || [], idx = res[1] || [];
+        var doneSet = {}, days = {};
+        rows.forEach(function (r) {
+          if (r.phase === 'post') doneSet[r.study_slug] = true;
+          if (r.created_at) days[String(r.created_at).slice(0, 10)] = true;
+        });
+        var doneEl = document.getElementById('ah-done'); if (doneEl) doneEl.textContent = Object.keys(doneSet).length;
+        var daysEl = document.getElementById('ah-days'); if (daysEl) daysEl.textContent = Object.keys(days).length;
+
+        // Continue: most recent study started but not completed; else first study.
+        var avail = idx.filter(function (e) { return e.available; }).sort(function (a, b) { return a.i - b.i; });
+        var target = null;
+        var recent = rows.slice().sort(function (a, b) { return new Date(b.created_at) - new Date(a.created_at); });
+        for (var k = 0; k < recent.length; k++) {
+          if (!doneSet[recent[k].study_slug]) { var m = avail.find(function (e) { return e.slug === recent[k].study_slug; }); if (m) { target = m; break; } }
+        }
+        var started = !!target;
+        if (!target && avail.length) target = avail[0];
+        var cont = document.getElementById('ah-continue');
+        if (cont && target) {
+          cont.setAttribute('href', target.url);
+          document.getElementById('ah-cont-title').textContent = target.book + ', ' + target.title;
+          document.getElementById('ah-cont-sub').textContent = started ? (target.ref + ' · pick up where you left off') : ('Start here: ' + target.ref);
+          document.getElementById('ah-cont-bar').style.width = started ? '45%' : '8%';
+        }
+      }).catch(function () {});
+    }
+
+    render();
+    window.addEventListener('makor-auth', render);
+  })();
+</script>

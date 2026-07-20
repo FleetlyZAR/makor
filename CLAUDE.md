@@ -13,6 +13,15 @@ Claude prepares the files in the repo, then hands back:
 and then stops. Claude only runs the push itself if Luyanda explicitly says so
 in that message.
 
+Commit handoff format (permanent): whenever work is ready, Claude gives a single
+ready to paste terminal block for the VS Code integrated terminal, containing the
+`git add` command (list the changed files, or `git add -A` when a delete is
+involved) followed by `git commit -m "..."`. Not just a bare message. Luyanda
+runs the block and pushes himself. No em dashes or en dashes in commit messages.
+
+The repo now lives at ~/Documents/Developer/makor, a plain local folder, not in
+iCloud. Do not use the old ~/Documents/makor or the iCloud Drive copy.
+
 Deploy facts: work is committed on the `main` branch and pushed to `origin`
 (GitHub, FleetlyZAR/makor). Cloudflare rebuilds automatically on push, and the
 site is usually live within about two minutes. Any push to main is a live
