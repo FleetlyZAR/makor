@@ -71,6 +71,7 @@ const canonicalUrl = 'https://makor.co.za' + Astro.url.pathname;
           <span class="signin-text">Save your progress across every study, free and always.</span>
           <span class="signin-actions">
             <button id="signin-google" class="signin-btn" type="button">Sign in with Google</button>
+            <button id="signin-apple" class="signin-btn" type="button">Sign in with Apple</button>
             <button id="signin-dismiss" class="signin-dismiss" type="button" aria-label="Dismiss">✕</button>
           </span>
         </div>
@@ -129,6 +130,7 @@ const canonicalUrl = 'https://makor.co.za' + Astro.url.pathname;
         if (user) {
           const name = (user.user_metadata && (user.user_metadata.full_name || user.user_metadata.name)) || user.email || 'Signed in';
           const who = document.createElement('div'); who.className = 'menu-user'; who.textContent = 'Signed in as ' + name; menuEl.appendChild(who);
+          const del = document.createElement('a'); del.className = 'menu-item'; del.href = '/delete-account/'; del.textContent = 'Delete account'; menuEl.appendChild(del);
           const out = document.createElement('button'); out.className = 'menu-item menu-action'; out.type = 'button'; out.textContent = 'Sign out';
           out.addEventListener('click', async () => { await client.auth.signOut(); location.reload(); });
           menuEl.appendChild(out);
@@ -136,6 +138,9 @@ const canonicalUrl = 'https://makor.co.za' + Astro.url.pathname;
           const inb = document.createElement('button'); inb.className = 'menu-item menu-action'; inb.type = 'button'; inb.textContent = 'Sign in with Google';
           inb.addEventListener('click', async () => { await client.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: window.location.href } }); });
           menuEl.appendChild(inb);
+          const inbA = document.createElement('button'); inbA.className = 'menu-item menu-action'; inbA.type = 'button'; inbA.textContent = 'Sign in with Apple';
+          inbA.addEventListener('click', async () => { await client.auth.signInWithOAuth({ provider: 'apple', options: { redirectTo: window.location.href } }); });
+          menuEl.appendChild(inbA);
         }
       }
       if (menuBtn && menuEl) {
@@ -237,6 +242,10 @@ const canonicalUrl = 'https://makor.co.za' + Astro.url.pathname;
       const signinGoogleBtn = document.getElementById('signin-google');
       if (signinGoogleBtn) signinGoogleBtn.addEventListener('click', async () => {
         await client.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: window.location.href } });
+      });
+      const signinAppleBtn = document.getElementById('signin-apple');
+      if (signinAppleBtn) signinAppleBtn.addEventListener('click', async () => {
+        await client.auth.signInWithOAuth({ provider: 'apple', options: { redirectTo: window.location.href } });
       });
       const signinDismissBtn = document.getElementById('signin-dismiss');
       if (signinDismissBtn) signinDismissBtn.addEventListener('click', () => {

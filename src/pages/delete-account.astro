@@ -1,0 +1,85 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Delete your account" description="Permanently delete your Makor account and all of your data.">
+  <section class="da">
+    <h1>Delete your account</h1>
+    <p class="da-lead">This permanently removes your Makor account and everything tied to it: your study progress and scores, your profile, your badges and streak, your friends and requests, your reading plans, and your notification settings. This cannot be undone.</p>
+
+    <div id="da-panel" class="da-panel">
+      <p class="da-muted">Checking your sign in status.</p>
+    </div>
+
+    <p class="da-help">You can also request deletion by emailing the contact address on our <a href="/privacy/">Privacy Policy</a>.</p>
+  </section>
+</Base>
+
+<style>
+  .da { max-width: 40rem; }
+  .da h1 { font-family: var(--serif); color: var(--ink); }
+  .da-lead { color: var(--ink); line-height: 1.6; }
+  .da-muted { color: var(--muted); }
+  .da-panel { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px; margin: 18px 0; }
+  .da-btn { display: inline-flex; align-items: center; justify-content: center; font-family: var(--sans); font-weight: 600; font-size: 0.95rem; border-radius: 24px; padding: 12px 20px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; }
+  .da-danger { background: #a3352e; color: #fff; border-color: #a3352e; }
+  .da-ghost { background: transparent; color: var(--muted); border: 0; margin-left: 8px; cursor: pointer; font-weight: 600; }
+  .da-help { color: var(--muted); font-size: 0.88rem; }
+  .da-note { color: var(--muted); font-size: 0.85rem; margin-top: 10px; }
+</style>
+
+<script is:inline>
+  (function () {
+    var panel = document.getElementById('da-panel');
+    if (!panel) return;
+
+    function signedOut() {
+      panel.innerHTML = '<p>You need to be signed in to delete your account.</p>'
+        + '<button class="da-btn" id="da-signin" type="button">Sign in with Google</button>';
+      var b = document.getElementById('da-signin');
+      if (b) b.addEventListener('click', function () {
+        if (window.makorClient) window.makorClient.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: window.location.href } });
+      });
+    }
+
+    function signedIn(user) {
+      var who = (user && user.email) ? (' (' + user.email + ')') : '';
+      panel.innerHTML = '<p>You are signed in' + who + '. This will permanently delete your account and all of your data.</p>'
+        + '<button class="da-btn da-danger" id="da-start" type="button">Delete my account</button>';
+      document.getElementById('da-start').addEventListener('click', confirmStep);
+    }
+
+    function confirmStep() {
+      panel.innerHTML = '<p><strong>Are you sure?</strong> This cannot be undone.</p>'
+        + '<button class="da-btn da-danger" id="da-confirm" type="button">Yes, delete everything</button>'
+        + '<button class="da-ghost" id="da-cancel" type="button">Cancel</button>';
+      document.getElementById('da-cancel').addEventListener('click', function () { boot(); });
+      document.getElementById('da-confirm').addEventListener('click', doDelete);
+    }
+
+    async function doDelete() {
+      panel.innerHTML = '<p class="da-muted">Deleting your account. Please wait.</p>';
+      try {
+        var res = await window.makorClient.functions.invoke('delete-account', { method: 'POST' });
+        if (res && res.error) throw res.error;
+        try { await window.makorClient.auth.signOut(); } catch (e) {}
+        panel.innerHTML = '<p>Your account and all of your data have been deleted. You have been signed out.</p>'
+          + '<p class="da-note">We are sorry to see you go. You are always welcome back.</p>';
+      } catch (e) {
+        panel.innerHTML = '<p>Something went wrong and your account was not deleted. Please try again, or email the address on our Privacy Policy.</p>'
+          + '<button class="da-btn da-danger" id="da-retry" type="button">Try again</button>';
+        var r = document.getElementById('da-retry'); if (r) r.addEventListener('click', confirmStep);
+      }
+    }
+
+    async function boot() {
+      if (!window.makorClient) { setTimeout(boot, 200); return; }
+      try {
+        var out = await window.makorClient.auth.getUser();
+        if (out && out.data && out.data.user) signedIn(out.data.user); else signedOut();
+      } catch (e) { signedOut(); }
+    }
+
+    boot();
+    window.addEventListener('makor-auth', boot);
+  })();
+</script>

@@ -166,7 +166,7 @@ import { dailyEntries } from '../data/daily.js';
         html += '<a class="ah-card" href="/plan/"><p class="ah-eyebrow">Reading plans</p><div class="ah-title">Walk a path through Scripture</div><div class="ah-sub">Pick up your plan, or start a new one.</div></a>';
         html += '<p class="ah-eyebrow">Your walk</p><div class="ah-grid2"><a class="ah-stat" href="/progress/" style="text-decoration:none;"><div class="n" id="ah-days">0</div><div class="l">days in the Word</div></a><a class="ah-stat" href="/progress/" style="text-decoration:none;"><div class="n" id="ah-done">0</div><div class="l">studies done</div></a></div>';
       } else {
-        html += '<div class="ah-card"><p class="ah-eyebrow">Keep your walk</p><div class="ah-title">Sign in to save your progress</div><div class="ah-sub">Your studies, your streak, and your place, across every device. Free, and always will be.</div><div class="ah-row" style="margin-top:12px;"><button class="ah-btn ah-teal" id="ah-signin" type="button">Sign in with Google</button></div></div>';
+        html += '<div class="ah-card"><p class="ah-eyebrow">Keep your walk</p><div class="ah-title">Sign in to save your progress</div><div class="ah-sub">Your studies, your streak, and your place, across every device. Free, and always will be.</div><div class="ah-row" style="margin-top:12px;"><button class="ah-btn" id="ah-signin-apple" type="button" style="background:#000;color:#fff;border-color:#000;">Sign in with Apple</button><button class="ah-btn ah-teal" id="ah-signin" type="button">Sign in with Google</button></div></div>';
       }
 
       body.innerHTML = html;
@@ -177,6 +177,10 @@ import { dailyEntries } from '../data/daily.js';
       var signinBtn = document.getElementById('ah-signin');
       if (signinBtn) signinBtn.addEventListener('click', function () {
         if (window.makorClient && window.makorClient.auth) window.makorClient.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: window.location.href } });
+      });
+      var signinAppleBtn = document.getElementById('ah-signin-apple');
+      if (signinAppleBtn) signinAppleBtn.addEventListener('click', function () {
+        if (window.makorClient && window.makorClient.auth) window.makorClient.auth.signInWithOAuth({ provider: 'apple', options: { redirectTo: window.location.href } });
       });
 
       if (u) fillWalk();
