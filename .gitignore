@@ -3,3 +3,8 @@ dist/
 .astro/
 .DS_Store
 *.log
+
+# Android signing secrets, never commit these
+keystore.properties
+*.jks
+*.keystore
