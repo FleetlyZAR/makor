@@ -1,6 +1,8 @@
 ---
 import '../styles/global.css';
 import { getAllStudies } from '../lib/studies.js';
+import AppTabBar from '../components/AppTabBar.astro';
+import AppWelcome from '../components/AppWelcome.astro';
 const totalStudies = getAllStudies().length;
 const { title = 'Makor', description = 'Deep, Christ-centred study of every book of the Bible.' } = Astro.props;
 const canonicalUrl = 'https://makor.co.za' + Astro.url.pathname;
@@ -81,6 +83,8 @@ const canonicalUrl = 'https://makor.co.za' + Astro.url.pathname;
         <p class="footer-links"><a href="/">Home</a> · <a href="/privacy/">Privacy Policy</a> · <a href="/terms/">Terms of Use</a></p>
       </div>
     </footer>
+    <AppTabBar />
+    <AppWelcome />
     <script>
       document.addEventListener('click', (e) => {
         const btn = e.target.closest('.lex');

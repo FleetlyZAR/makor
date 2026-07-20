@@ -1,0 +1,113 @@
+---
+// First launch welcome and onboarding. Appears only in the installed app,
+// only once (remembered in localStorage), never on the website.
+---
+<div id="app-welcome" class="app-welcome" hidden>
+  <div id="aw-stage" class="aw-stage"></div>
+</div>
+
+<style is:global>
+  .app-welcome {
+    position: fixed; inset: 0; z-index: 100;
+    background: radial-gradient(120% 90% at 50% 12%, #16413f 0%, var(--ink) 55%, #0a2023 100%);
+    color: #f1ead9; display: flex; flex-direction: column; font-family: var(--sans);
+    padding: calc(env(safe-area-inset-top) + 8px) 0 calc(env(safe-area-inset-bottom) + 10px);
+  }
+  .app-welcome[hidden] { display: none; }
+  .aw-stage { flex: 1; display: flex; flex-direction: column; }
+  .aw-body { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 0 34px; }
+  .aw-body.top { justify-content: flex-start; padding-top: 60px; }
+  .aw-spring { position: relative; width: 150px; height: 150px; margin-bottom: 8px; }
+  .aw-spring.sm { width: 92px; height: 92px; margin-bottom: 6px; }
+  .aw-spring svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .aw-ring { transform-origin: center; animation: awr 3.4s ease-out infinite; }
+  @keyframes awr { 0% { transform: scale(.5); opacity: 0; } 30% { opacity: .85; } 100% { transform: scale(1); opacity: .22; } }
+  .aw-word { font-family: var(--serif); font-weight: 600; font-size: 44px; letter-spacing: .5px; margin: 2px 0; color: #f6efdd; }
+  .aw-heb { font-family: var(--serif); font-size: 18px; color: #d8b877; margin-bottom: 18px; }
+  .aw-tag { font-family: var(--serif); font-weight: 500; font-size: 22px; color: #eadfc6; margin: 0 0 6px; }
+  .aw-title { font-family: var(--serif); font-weight: 600; font-size: 28px; line-height: 1.12; margin: 18px 0 12px; color: #f4ecd7; }
+  .aw-sub { font-size: 15px; line-height: 1.6; color: #a9c4be; max-width: 290px; margin: 0 auto; }
+  .aw-dots { display: flex; gap: 7px; justify-content: center; margin: 20px 0 4px; }
+  .aw-dots span { width: 7px; height: 7px; border-radius: 50%; background: rgba(255,255,255,.24); }
+  .aw-dots span.on { background: var(--light); width: 20px; border-radius: 5px; }
+  .aw-foot { padding: 0 30px; display: flex; flex-direction: column; gap: 10px; }
+  .aw-brass { background: var(--light); color: #1c1408; border: 0; border-radius: 26px; padding: 15px; font-size: 16px; font-weight: 700; cursor: pointer; font-family: var(--sans); }
+  .aw-ghost { background: transparent; color: #c7d6d2; border: 0; padding: 10px; font-size: 14px; font-weight: 600; cursor: pointer; font-family: var(--sans); }
+  .aw-google { background: #fff; color: #1a1a1a; border: 0; border-radius: 26px; padding: 14px; font-size: 15px; font-weight: 600; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 10px; font-family: var(--sans); }
+  .aw-motif { font-family: var(--serif); font-style: italic; font-size: 14px; color: #8fb0aa; text-align: center; padding-top: 20px; }
+</style>
+
+<script is:inline>
+  (function () {
+    var C = window.Capacitor;
+    var isNative = !!(C && C.isNativePlatform && C.isNativePlatform());
+    if (!isNative) return;                              // never on the website
+    var KEY = 'makor_welcome_seen';
+    try { if (localStorage.getItem(KEY) === '1') return; } catch (e) {}
+
+    var root = document.getElementById('app-welcome');
+    var stage = document.getElementById('aw-stage');
+    if (!root || !stage) return;
+    root.hidden = false;
+
+    var spring = '<div class="aw-spring"><svg viewBox="0 0 150 150">'
+      + '<circle class="aw-ring" cx="75" cy="75" r="58" fill="none" stroke="#cbe0da" stroke-width="1.5" style="animation-delay:0s"/>'
+      + '<circle class="aw-ring" cx="75" cy="75" r="44" fill="none" stroke="#cbe0da" stroke-width="1.5" style="animation-delay:.5s"/>'
+      + '<circle class="aw-ring" cx="75" cy="75" r="30" fill="none" stroke="#cbe0da" stroke-width="1.5" style="animation-delay:1s"/>'
+      + '<circle cx="75" cy="75" r="7" fill="#B8862F"/></svg></div>';
+    var springSm = '<div class="aw-spring sm"><svg viewBox="0 0 150 150">'
+      + '<circle cx="75" cy="75" r="58" fill="none" stroke="#fff" stroke-width="1.6" opacity=".5"/>'
+      + '<circle cx="75" cy="75" r="42" fill="none" stroke="#fff" stroke-width="1.6" opacity=".38"/>'
+      + '<circle cx="75" cy="75" r="26" fill="none" stroke="#fff" stroke-width="1.6" opacity=".26"/>'
+      + '<circle cx="75" cy="75" r="8" fill="#B8862F"/></svg></div>';
+    var g = '<svg viewBox="0 0 18 18" width="18" height="18" aria-hidden="true"><path d="M17.6 9.2c0-.6-.05-1.2-.15-1.7H9v3.4h4.8a4.1 4.1 0 01-1.8 2.7v2.2h2.9c1.7-1.6 2.7-3.9 2.7-6.6z" fill="#4285F4"/><path d="M9 18c2.4 0 4.5-.8 6-2.2l-2.9-2.2c-.8.5-1.8.9-3.1.9-2.4 0-4.4-1.6-5.1-3.8H.9v2.3A9 9 0 009 18z" fill="#34A853"/><path d="M3.9 10.7a5.4 5.4 0 010-3.4V5H.9a9 9 0 000 8z" fill="#FBBC05"/><path d="M9 3.6c1.3 0 2.5.5 3.4 1.3l2.6-2.6A9 9 0 00.9 5l3 2.3C4.6 5.2 6.6 3.6 9 3.6z" fill="#EA4335"/></svg>';
+
+    var step = 0;
+    function done() { try { localStorage.setItem(KEY, '1'); } catch (e) {} root.hidden = true; }
+    function signIn() {
+      try { localStorage.setItem(KEY, '1'); } catch (e) {}
+      var c = window.makorClient;
+      if (c && c.auth) { c.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: window.location.href } }); }
+      else { root.hidden = true; }
+    }
+    function render() {
+      var html = '';
+      if (step === 0) {
+        html = '<div class="aw-body">' + spring
+          + '<div class="aw-word">Makor</div><div class="aw-heb">\u05DE\u05B8\u05E7\u05D5\u05B9\u05E8</div>'
+          + '<div class="aw-tag">Back to the source.</div>'
+          + '<div class="aw-sub">Back to the text, and back to God.</div></div>'
+          + '<div class="aw-foot"><button class="aw-brass" data-act="next">Begin</button></div>'
+          + '<div class="aw-motif">In your light we see light. Psalm 36:9</div>';
+      } else if (step === 1) {
+        html = '<div class="aw-body top">' + springSm
+          + '<div class="aw-title">Deep study,<br>made reachable</div>'
+          + '<div class="aw-sub">A Christ centred walk through every book of the Bible. Written for working people first, not only the seminary trained. Depth you can actually follow.</div></div>'
+          + '<div class="aw-dots"><span></span><span class="on"></span><span></span></div>'
+          + '<div class="aw-foot"><button class="aw-brass" data-act="next">Continue</button><button class="aw-ghost" data-act="skip">Skip</button></div>';
+      } else if (step === 2) {
+        html = '<div class="aw-body top">' + springSm
+          + '<div class="aw-title">Read it, then<br>go deeper</div>'
+          + '<div class="aw-sub">Read the passage in plain flow, or open the study drawer for context, the original languages, and how it points to Christ. A short quiz helps it stay with you.</div></div>'
+          + '<div class="aw-dots"><span></span><span></span><span class="on"></span></div>'
+          + '<div class="aw-foot"><button class="aw-brass" data-act="next">Continue</button><button class="aw-ghost" data-act="skip">Skip</button></div>';
+      } else {
+        html = '<div class="aw-body">' + springSm
+          + '<div class="aw-title" style="margin-top:0">Keep your<br>progress</div>'
+          + '<div class="aw-sub">Sign in to save your progress and streak across every device. It is free, and always will be.</div></div>'
+          + '<div class="aw-foot"><button class="aw-google" data-act="signin">' + g + ' Sign in with Google</button>'
+          + '<button class="aw-ghost" data-act="skip">Maybe later</button></div>';
+      }
+      stage.innerHTML = html;
+    }
+    stage.addEventListener('click', function (e) {
+      var b = e.target.closest('[data-act]');
+      if (!b) return;
+      var a = b.getAttribute('data-act');
+      if (a === 'next') { step++; render(); }
+      else if (a === 'skip') { done(); }
+      else if (a === 'signin') { signIn(); }
+    });
+    render();
+  })();
+</script>

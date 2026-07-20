@@ -1,0 +1,70 @@
+---
+// Bottom tab bar. Appears only when running as the installed app (Capacitor),
+// never on the website. Tabs map to pages that already exist.
+---
+<nav class="app-tabbar" id="app-tabbar" hidden aria-label="Main">
+  <a class="app-tab" data-tab="read" href="/">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5.5C10 4 6.5 4 4.5 5v13c2-1 5.5-1 7.5.5 2-1.5 5.5-1.5 7.5-.5V5c-2-1-5.5-1-7.5.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 5.5V19" stroke="currentColor" stroke-width="1.4"/></svg>
+    <span>Read</span>
+  </a>
+  <a class="app-tab" data-tab="plans" href="/plan/">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M4 9h16M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+    <span>Plans</span>
+  </a>
+  <a class="app-tab" data-tab="progress" href="/progress/">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-opacity=".5"/><path d="M12 12V4a8 8 0 016.9 4z" fill="currentColor"/></svg>
+    <span>Progress</span>
+  </a>
+  <a class="app-tab" data-tab="friends" href="/activity/">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3.2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3.5 19c.8-3.3 3-4.5 5.5-4.5S13.7 15.7 14.5 19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M16 5.2A3 3 0 0117 11" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+    <span>Friends</span>
+  </a>
+  <a class="app-tab" data-tab="profile" href="/profile/">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8.5" r="3.6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M5 20c1-4 4-5.5 7-5.5S18 16 19 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+    <span>Profile</span>
+  </a>
+</nav>
+
+<style>
+  .app-tabbar {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 80;
+    display: flex;
+    background: rgba(246, 243, 236, 0.94);
+    -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+    border-top: 1px solid var(--line);
+    padding: 0.4rem 0.25rem calc(0.4rem + env(safe-area-inset-bottom));
+  }
+  .app-tabbar[hidden] { display: none; }
+  .app-tab {
+    flex: 1; display: flex; flex-direction: column; align-items: center; gap: 2px;
+    text-decoration: none; color: var(--muted);
+    font-family: var(--sans); font-size: 0.66rem; font-weight: 600;
+    padding: 0.25rem 0;
+  }
+  .app-tab svg { width: 24px; height: 24px; display: block; }
+  .app-tab[aria-current="page"] { color: var(--water); }
+  :global(body.has-tabbar) { padding-bottom: 4.75rem; }
+  :global(body.has-tabbar) .site-footer { margin-bottom: 1rem; }
+</style>
+
+<script is:inline>
+  (function () {
+    var C = window.Capacitor;
+    var isNative = !!(C && C.isNativePlatform && C.isNativePlatform());
+    if (!isNative) return; // website never shows the tab bar
+    var bar = document.getElementById('app-tabbar');
+    if (!bar) return;
+    document.body.classList.add('has-tabbar');
+    bar.hidden = false;
+
+    var p = (location.pathname || '/').replace(/\/+$/, '') || '/';
+    var active = 'read';
+    if (p === '/' || p === '') active = 'read';
+    else if (p.indexOf('/plan') === 0) active = 'plans';
+    else if (p.indexOf('/progress') === 0) active = 'progress';
+    else if (p.indexOf('/activity') === 0 || p.indexOf('/groups') === 0) active = 'friends';
+    else if (p.indexOf('/profile') === 0) active = 'profile';
+    var el = bar.querySelector('[data-tab="' + active + '"]');
+    if (el) el.setAttribute('aria-current', 'page');
+  })();
+</script>
