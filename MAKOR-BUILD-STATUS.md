@@ -41,7 +41,7 @@ pulled from the study JSON: title from `section.title`, ref from
 uses a book level chronological ordering, multitrack weaves four parallel
 streams so they finish together.
 
-### 3. The daily scriptures: FOUNDATION DONE, FULL 50 PENDING SOURCE
+### 3. The daily scriptures: DONE (all 50 wired both sides)
 The mechanism is split across two systems, which the old brief blurred:
 - The in app "verse of the day" reads from `src/data/daily.js` in this repo.
 - The daily email reads from `comms.daily_pool` in the private Supabase
@@ -50,31 +50,24 @@ The mechanism is split across two systems, which the old brief blurred:
   per recipient loop; Resend rate limits at about two per second on an account
   shared with Fleetly.
 
-Five verses are now fully wired on both sides: Genesis 1:1, John 1:1,
-Lamentations 3:22-23, Psalm 36:9, and Isaiah 55:1. In this session Psalm 36:9
-and Isaiah 55:1 were completed: their daily pages were built at
-`public/daily/psalm-36-9/index.html` and `public/daily/isaiah-55-1/index.html`
-(verse text pulled verbatim from the study JSON, brand palette, base64 card,
-native share, "Read the full study" button), added to `src/data/daily.js`, and
-their previously null `study_url` values were set in `comms.daily_pool`
-(psalm-36-9 to `/psalms/psalm-036/`, isaiah-55-1 to
-`/isaiah/an-invitation-to-the-thirsty/`). Both pool rows already carried
-verse_text, writeup_html, writeup_txt, images, and daily_page_url, so both are
-now send ready. Cards for both sizes were already deployed.
+All 50 verses from `MAKOR-DAILY-50.md` are now produced. For each: the reference
+was matched to its committed study JSON, exact BSB verse text and the real study
+slug were pulled, both cards were rendered (vertical 1080x1920 `<slug>.png` and
+landscape 1200x630 `<slug>-share.png`), the landing page was built at
+`public/daily/<slug>/index.html`, an entry was written to `src/data/daily.js`
+(50 entries), and a row was seeded in `comms.daily_pool`. The pool now holds 50
+active rows, every one with `study_url` and `daily_page_url` set, so the whole
+set is send ready and cues into the weekday rotation automatically.
 
-Outstanding: the full set of 50 daily scriptures needs the restored
-`MAKOR-DAILY-50.md` before the remaining verses can be produced. Each new verse
-needs, per verse: study JSON located, exact BSB verse text, title, slug and
-summary pulled; both cards rendered (vertical 1080x1920 to
-`public/daily/<slug>.png`, landscape 1200x630 to `<slug>-share.png`); a daily
-page at `public/daily/<slug>/index.html`; an entry in `src/data/daily.js`; and
-a row in `comms.daily_pool` with active true and study_url and daily_page_url
-set.
+The generator is vendored at `tools/daily/` (cards, reference-to-study matcher,
+build script, and a README) so the set can be regenerated or extended. Cards are
+rendered in the brand fonts Fraunces and Newsreader; verse size auto-fits so long
+verses stay clean.
 
-Note to resolve: the Isaiah 55:1 pool `verse_text` begins "Come, all you who
-are thirsty" without the leading opening quotation mark, while the new daily
-page and `daily.js` keep the verbatim JSON opening quote. Pick one form for
-consistency.
+Note carried forward: the daily card shows the verbatim BSB verse text, so a few
+longer verses (for example John 7:37-38) include their narrative frame. If you
+prefer a trimmed quotable line on the card while keeping the full verse in the
+study, that is a one-line change in the generator per verse.
 
 ### 4. Google Calendar for the plan: CODE DONE, EXTERNAL DEP PENDING
 `plan.astro` already contains the full Google Calendar integration described in
@@ -94,9 +87,8 @@ It accepts an optional `ogImage` prop (absolute URL or site relative path) so
 any page or study can override the default. Every one of the 1354 study pages
 now unfurls the branded default card when shared. Per study cards do not exist
 yet; generating one card per study is a separate rendering pipeline. The
-`og-default.png` shipped here was rendered with DejaVu Serif because Fraunces
-was not available in the build sandbox; it is intended to be swapped for a
-Fraunces rendered version whenever convenient.
+`og-default.png` is rendered in the brand fonts Fraunces and Newsreader in the
+brand palette.
 
 ## Divergences from the old brief worth remembering
 - The site fonts are EB Garamond in the Astro pages; the hand made daily share
