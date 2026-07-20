@@ -1,0 +1,124 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Notifications | Makor" description="Your Makor notifications: friend requests, badges earned, and more.">
+  <div class="notif-page">
+    <section class="hero">
+      <p class="eyebrow">Notifications</p>
+      <h1>Your notifications</h1>
+      <p class="lead">Friend requests, badges earned, and news from your reading. Tap one to open it.</p>
+    </section>
+
+    <div class="np-controls" id="np-controls" hidden>
+      <button id="np-allread" type="button" class="np-allread">Mark all read</button>
+    </div>
+
+    <p id="np-status" class="np-status">Loading...</p>
+    <div id="np-list" class="np-list"></div>
+  </div>
+</Base>
+
+<style is:global>
+  .notif-page .np-controls { display: flex; justify-content: flex-end; margin: 0.2rem 0 0.8rem; }
+  .notif-page .np-allread { background: transparent; border: 1px solid var(--line); color: var(--water); border-radius: 8px; padding: 7px 12px; font-family: var(--sans); font-size: 0.82rem; font-weight: 700; cursor: pointer; }
+  .notif-page .np-allread:hover { background: var(--light-soft); }
+  .notif-page .np-status { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 1rem 1.2rem; font-size: 0.95rem; }
+  .notif-page .np-group { text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.72rem; font-weight: 700; color: var(--water); margin: 1.4rem 0 0.5rem; }
+  .notif-page .np-row { display: flex; align-items: flex-start; gap: 0.8rem; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 0.8rem 1rem; margin-bottom: 0.5rem; }
+  .notif-page .np-row.unread { border-left: 3px solid var(--water); background: rgba(15,108,108,0.04); }
+  .notif-page .np-open { flex: 1; text-align: left; background: none; border: none; cursor: pointer; padding: 0; min-width: 0; }
+  .notif-page .np-title { font-family: var(--serif); font-size: 1rem; color: var(--ink); line-height: 1.4; }
+  .notif-page .np-body { font-family: var(--sans); font-size: 0.85rem; color: var(--muted); line-height: 1.45; margin-top: 0.15rem; }
+  .notif-page .np-time { display: block; font-family: var(--sans); font-size: 0.74rem; color: var(--muted); margin-top: 0.3rem; }
+  .notif-page .np-dismiss { flex: none; background: none; border: none; color: var(--muted); font-size: 1.1rem; line-height: 1; cursor: pointer; padding: 0.2rem 0.35rem; border-radius: 6px; }
+  .notif-page .np-dismiss:hover { background: var(--light-soft); color: var(--ink); }
+</style>
+
+<script is:inline>
+var client=null, me=null;
+function $(id){ return document.getElementById(id); }
+function escH(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+function groupLabel(d){
+  var now=new Date(); now.setHours(0,0,0,0);
+  var day=new Date(d); day.setHours(0,0,0,0);
+  var diff=Math.round((now-day)/86400000);
+  if(diff===0) return 'Today';
+  if(diff===1) return 'Yesterday';
+  if(diff<7) return 'This week';
+  return 'Earlier';
+}
+function timeLabel(d){
+  var day=new Date(d);
+  return day.toLocaleDateString(undefined,{day:'numeric',month:'short'})+' · '+day.toLocaleTimeString(undefined,{hour:'2-digit',minute:'2-digit'});
+}
+
+function render(rows){
+  var status=$('np-status');
+  var list=$('np-list');
+  if(!rows.length){
+    status.hidden=false;
+    status.textContent='You are all caught up. When a friend adds you or you earn a badge, it will show up here.';
+    list.innerHTML='';
+    $('np-controls').hidden=true;
+    return;
+  }
+  status.hidden=true;
+  $('np-controls').hidden=!rows.some(function(r){return !r.read_at;});
+  var out='', lastGroup='';
+  rows.forEach(function(r){
+    var g=groupLabel(r.created_at);
+    if(g!==lastGroup){ out+='<p class="np-group">'+escH(g)+'</p>'; lastGroup=g; }
+    var unread=r.read_at?'':' unread';
+    var body=r.body?'<span class="np-body">'+escH(r.body)+'</span>':'';
+    out+='<div class="np-row'+unread+'" data-id="'+escH(r.id)+'">'+
+      '<button class="np-open" data-link="'+escH(r.deep_link||'')+'">'+
+        '<span class="np-title">'+escH(r.title)+'</span>'+body+
+        '<span class="np-time">'+escH(timeLabel(r.created_at))+'</span>'+
+      '</button>'+
+      '<button class="np-dismiss" title="Dismiss" aria-label="Dismiss">&times;</button>'+
+    '</div>';
+  });
+  list.innerHTML=out;
+}
+
+function load(){
+  return client.from('notifications')
+    .select('id,type,title,body,deep_link,created_at,read_at')
+    .order('created_at',{ascending:false})
+    .then(function(r){ return r.data||[]; });
+}
+
+document.addEventListener('click', function(e){
+  var open=e.target.closest('.np-open');
+  var dismiss=e.target.closest('.np-dismiss');
+  if(open){
+    var row=open.closest('.np-row'); var id=row.dataset.id; var link=open.dataset.link;
+    if(id) client.from('notifications').update({read_at:new Date().toISOString()}).eq('id',id).is('read_at',null).then(function(){
+      if(link) window.location.href=link; else load().then(render);
+    });
+    return;
+  }
+  if(dismiss){
+    var row2=dismiss.closest('.np-row'); var id2=row2.dataset.id;
+    dismiss.disabled=true;
+    client.from('notifications').delete().eq('id',id2).then(function(){ load().then(render); });
+  }
+});
+
+var allBtn=$('np-allread');
+if(allBtn) allBtn.addEventListener('click', function(){
+  client.from('notifications').update({read_at:new Date().toISOString()}).is('read_at',null).then(function(){ load().then(render); });
+});
+
+function boot(){
+  client=window.makorClient; me=window.makorUser;
+  var status=$('np-status');
+  if(!me){
+    status.innerHTML='Sign in to see your notifications. Use the menu at the top right.';
+    return;
+  }
+  load().then(render);
+}
+if(window.makorClient!==undefined && window.makorUser!==undefined) boot();
+else window.addEventListener('makor-auth', boot, {once:true});
+</script>

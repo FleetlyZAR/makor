@@ -61,6 +61,13 @@ const ogImageUrl = ogImage
           <button id="header-min" class="header-min" type="button" aria-label="Minimize header" aria-expanded="true" title="Minimize"><span class="hm-chev" aria-hidden="true"></span></button>
           <span class="descriptor">Deep, Christ-centred study of every book of the Bible.</span>
           <button id="toggle-all" class="header-toggle" type="button" hidden>Open all</button>
+          <div id="notif-wrap" class="notif-wrap" hidden>
+            <button id="notif-btn" class="notif-btn" type="button" aria-label="Notifications" aria-expanded="false" title="Notifications">
+              <svg class="notif-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+              <span id="notif-badge" class="notif-badge" hidden></span>
+            </button>
+            <div id="notif-panel" class="notif-panel" hidden></div>
+          </div>
           <div class="menu-wrap">
             <button id="menu-btn" class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
             <nav id="menu" class="menu" hidden></nav>
@@ -131,6 +138,7 @@ const ogImageUrl = ogImage
         const prog = document.createElement('a'); prog.className = 'menu-item'; prog.href = '/progress/'; prog.textContent = 'My progress'; menuEl.appendChild(prog);
         const prof = document.createElement('a'); prof.className = 'menu-item'; prof.href = '/profile/'; prof.textContent = 'My profile'; menuEl.appendChild(prof);
         const act = document.createElement('a'); act.className = 'menu-item'; act.href = '/activity/'; act.textContent = 'Friends'; menuEl.appendChild(act);
+        const notif = document.createElement('a'); notif.className = 'menu-item'; notif.href = '/notifications/'; notif.textContent = 'Notifications'; menuEl.appendChild(notif);
         const prefs = document.createElement('a'); prefs.className = 'menu-item'; prefs.href = '/email-preferences/'; prefs.textContent = 'Notification settings'; menuEl.appendChild(prefs);
         if (user && ['luyanda@fleetly.co.za'].indexOf(user.email) !== -1) {
           const adm = document.createElement('a'); adm.className = 'menu-item'; adm.href = '/admin/'; adm.textContent = 'Admin dashboard'; menuEl.appendChild(adm);
@@ -345,6 +353,111 @@ const ogImageUrl = ogImage
         window.makorRefreshProgress();
         window.dispatchEvent(new CustomEvent('makor-auth', { detail: { user: window.makorUser } }));
       });
+
+      // Notifications: bell, unread badge, dropdown panel. Reads the notifications
+      // table (RLS scopes each user to their own rows), marks read, and links out.
+      window.makorLoadNotifications = async (limit) => {
+        const { data: u } = await client.auth.getUser();
+        if (!u || !u.user) return [];
+        const q = client.from('notifications')
+          .select('id,type,title,body,deep_link,created_at,read_at')
+          .order('created_at', { ascending: false });
+        const { data } = await (limit ? q.limit(limit) : q);
+        return data || [];
+      };
+      window.makorMarkNotificationRead = async (id) => {
+        return client.from('notifications').update({ read_at: new Date().toISOString() }).eq('id', id).is('read_at', null);
+      };
+      window.makorMarkAllNotificationsRead = async () => {
+        return client.from('notifications').update({ read_at: new Date().toISOString() }).is('read_at', null);
+      };
+      (function initNotifications() {
+        const wrap = document.getElementById('notif-wrap');
+        const btn = document.getElementById('notif-btn');
+        const badge = document.getElementById('notif-badge');
+        const panel = document.getElementById('notif-panel');
+        if (!wrap || !btn || !panel) return;
+        let poll = null;
+        function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
+        function ago(iso) {
+          const d = (Date.now() - new Date(iso).getTime()) / 1000;
+          if (d < 60) return 'just now';
+          if (d < 3600) return Math.floor(d / 60) + 'm ago';
+          if (d < 86400) return Math.floor(d / 3600) + 'h ago';
+          if (d < 604800) return Math.floor(d / 86400) + 'd ago';
+          return new Date(iso).toLocaleDateString();
+        }
+        function setBadge(n) {
+          if (n > 0) { badge.textContent = n > 9 ? '9+' : String(n); badge.hidden = false; btn.classList.add('has-unread'); }
+          else { badge.hidden = true; btn.classList.remove('has-unread'); }
+        }
+        async function refresh() {
+          const rows = await window.makorLoadNotifications(8);
+          const unread = rows.filter((r) => !r.read_at).length;
+          setBadge(unread);
+          return rows;
+        }
+        function renderPanel(rows) {
+          let html = '<div class="notif-head"><span>Notifications</span>';
+          if (rows.some((r) => !r.read_at)) html += '<button type="button" class="notif-allread">Mark all read</button>';
+          html += '</div>';
+          if (!rows.length) {
+            html += '<div class="notif-empty">You are all caught up. Nothing new here yet.</div>';
+          } else {
+            html += '<div class="notif-list">' + rows.map((r) => {
+              const unread = r.read_at ? '' : ' unread';
+              const body = r.body ? '<div class="notif-body">' + esc(r.body) + '</div>' : '';
+              const tag = 'data-id="' + esc(r.id) + '" data-link="' + esc(r.deep_link || '') + '"';
+              return '<button type="button" class="notif-item' + unread + '" ' + tag + '>'
+                + '<span class="notif-dot" aria-hidden="true"></span>'
+                + '<span class="notif-main"><span class="notif-title">' + esc(r.title) + '</span>' + body
+                + '<span class="notif-time">' + esc(ago(r.created_at)) + '</span></span></button>';
+            }).join('') + '</div>';
+          }
+          html += '<a class="notif-seeall" href="/notifications/">See all notifications</a>';
+          panel.innerHTML = html;
+        }
+        async function open() {
+          const rows = await refresh();
+          renderPanel(rows);
+          panel.removeAttribute('hidden');
+          btn.setAttribute('aria-expanded', 'true');
+        }
+        function close() { panel.setAttribute('hidden', ''); btn.setAttribute('aria-expanded', 'false'); }
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          if (panel.hasAttribute('hidden')) open(); else close();
+        });
+        panel.addEventListener('click', async (e) => {
+          const all = e.target.closest('.notif-allread');
+          if (all) { await window.makorMarkAllNotificationsRead(); const rows = await refresh(); renderPanel(rows); return; }
+          const item = e.target.closest('.notif-item');
+          if (item) {
+            const id = item.getAttribute('data-id');
+            const link = item.getAttribute('data-link');
+            if (id) { await window.makorMarkNotificationRead(id); }
+            if (link) { window.location.href = link; } else { const rows = await refresh(); renderPanel(rows); }
+          }
+        });
+        document.addEventListener('click', (e) => {
+          if (panel.hasAttribute('hidden')) return;
+          if (panel.contains(e.target) || btn.contains(e.target)) return;
+          close();
+        });
+        function start(user) {
+          if (user) {
+            wrap.hidden = false;
+            refresh();
+            if (!poll) poll = setInterval(refresh, 60000);
+          } else {
+            wrap.hidden = true;
+            setBadge(0);
+            if (poll) { clearInterval(poll); poll = null; }
+          }
+        }
+        window.addEventListener('makor-auth', (e) => start(e.detail && e.detail.user));
+        start(window.makorUser);
+      })();
     </script>
   </body>
 </html>

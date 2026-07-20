@@ -280,6 +280,35 @@ details.book[open] > summary .chev { transform: rotate(-135deg); }
 .menu-action { color: var(--water); font-weight: 700; }
 .menu-user { padding: 0.5rem 0.7rem; font-size: 0.8rem; color: var(--muted); border-top: 1px solid var(--line); margin-top: 0.3rem; }
 
+/* Notifications bell */
+.notif-wrap { position: relative; }
+.notif-wrap[hidden] { display: none; }
+.notif-btn { position: relative; display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 34px; background: none; border: 1px solid var(--line); border-radius: 8px; cursor: pointer; color: var(--ink); padding: 0; }
+.notif-btn:hover { background: var(--light-soft); }
+.notif-btn.has-unread { color: var(--water-deep); }
+.notif-ico { width: 20px; height: 20px; }
+.notif-badge { position: absolute; top: -6px; right: -6px; min-width: 17px; height: 17px; padding: 0 4px; border-radius: 999px; background: var(--light); color: #0A2023; font-family: var(--sans); font-size: 0.66rem; font-weight: 700; line-height: 17px; text-align: center; box-shadow: 0 0 0 2px var(--surface); }
+.notif-badge[hidden] { display: none; }
+.notif-panel { position: absolute; right: 0; top: calc(100% + 6px); width: 340px; max-width: 86vw; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 8px 24px rgba(14,42,46,0.14); z-index: 60; overflow: hidden; }
+.notif-panel[hidden] { display: none; }
+.notif-head { display: flex; align-items: center; justify-content: space-between; padding: 0.65rem 0.85rem; border-bottom: 1px solid var(--line); font-family: var(--display); font-weight: 600; font-size: 1rem; color: var(--ink); }
+.notif-allread { background: none; border: none; cursor: pointer; font-family: var(--sans); font-size: 0.78rem; font-weight: 700; color: var(--water); }
+.notif-allread:hover { color: var(--water-deep); }
+.notif-list { max-height: 60vh; overflow-y: auto; }
+.notif-item { display: flex; gap: 0.6rem; width: 100%; text-align: left; background: none; border: none; border-bottom: 1px solid var(--line); cursor: pointer; padding: 0.7rem 0.85rem; }
+.notif-item:last-child { border-bottom: none; }
+.notif-item:hover { background: var(--light-soft); }
+.notif-dot { flex: none; width: 8px; height: 8px; margin-top: 0.45rem; border-radius: 50%; background: transparent; }
+.notif-item.unread { background: rgba(15,108,108,0.05); }
+.notif-item.unread .notif-dot { background: var(--water); }
+.notif-main { display: flex; flex-direction: column; gap: 0.15rem; min-width: 0; }
+.notif-title { font-family: var(--serif); font-size: 0.95rem; color: var(--ink); line-height: 1.35; }
+.notif-body { font-family: var(--sans); font-size: 0.82rem; color: var(--muted); line-height: 1.4; }
+.notif-time { font-family: var(--sans); font-size: 0.72rem; color: var(--muted); }
+.notif-empty { padding: 1.4rem 0.95rem; text-align: center; font-family: var(--serif); font-size: 0.92rem; color: var(--muted); }
+.notif-seeall { display: block; text-align: center; padding: 0.6rem; font-family: var(--sans); font-size: 0.82rem; font-weight: 700; color: var(--water); text-decoration: none; border-top: 1px solid var(--line); background: var(--paper); }
+.notif-seeall:hover { color: var(--water-deep); }
+
 /* Rankings */
 .rank-status { color: var(--muted); font-style: italic; margin: 1rem 0; }
 .rank-table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-family: var(--sans); }
