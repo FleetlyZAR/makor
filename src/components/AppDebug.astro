@@ -1,0 +1,49 @@
+---
+// Temporary on-device error catcher. Only in the installed app (Capacitor).
+// Shows a red banner with the actual error text when any script throws, so we
+// can diagnose without a desktop inspector. Remove before final submission.
+---
+<div id="app-debug" hidden></div>
+<style is:global>
+  #app-debug {
+    position: fixed; left: 8px; right: 8px; bottom: calc(5.2rem + env(safe-area-inset-bottom)); z-index: 9999;
+    background: #7a1f1a; color: #fff; border: 1px solid #b5453c; border-radius: 12px;
+    font-family: var(--sans, sans-serif); font-size: 12px; line-height: 1.4;
+    max-height: 42vh; overflow-y: auto; padding: 10px 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+  }
+  #app-debug[hidden] { display: none; }
+  #app-debug .adg-h { font-weight: 700; display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+  #app-debug .adg-x { background: rgba(255,255,255,0.2); border: 0; color: #fff; border-radius: 6px; padding: 3px 9px; font-weight: 700; }
+  #app-debug .adg-item { border-top: 1px solid rgba(255,255,255,0.25); padding: 6px 0; word-break: break-word; }
+</style>
+<script is:inline>
+  (function () {
+    var C = window.Capacitor;
+    if (!(C && C.isNativePlatform && C.isNativePlatform())) return;
+    var box = document.getElementById('app-debug');
+    if (!box) return;
+    var errs = [];
+    function render() {
+      if (!errs.length) { box.hidden = true; return; }
+      var items = errs.map(function (e) { return '<div class="adg-item">' + e + '</div>'; }).join('');
+      box.innerHTML = '<div class="adg-h"><span>' + errs.length + ' error(s) on this screen</span><button class="adg-x" type="button" id="adg-clear">clear</button></div>' + items;
+      box.hidden = false;
+      var c = document.getElementById('adg-clear');
+      if (c) c.addEventListener('click', function () { errs = []; render(); });
+    }
+    function esc(s) { return String(s).replace(/[&<>]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]; }); }
+    function push(msg) { errs.push(esc(msg)); if (errs.length > 12) errs.shift(); render(); }
+    window.addEventListener('error', function (ev) {
+      var where = ev.filename ? (' [' + String(ev.filename).split('/').pop() + ':' + ev.lineno + ']') : '';
+      push((ev.message || 'Error') + where);
+    });
+    window.addEventListener('unhandledrejection', function (ev) {
+      var r = ev.reason; push('Promise: ' + ((r && (r.message || r.error_description || r.msg)) || (typeof r === 'string' ? r : JSON.stringify(r))));
+    });
+    var oerr = console.error;
+    console.error = function () {
+      try { push('console: ' + Array.prototype.map.call(arguments, function (a) { return (a && a.message) ? a.message : (typeof a === 'object' ? JSON.stringify(a) : String(a)); }).join(' ')); } catch (e) {}
+      return oerr.apply(console, arguments);
+    };
+  })();
+</script>
