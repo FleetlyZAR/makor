@@ -1,49 +1,42 @@
 ---
-// Temporary on-device error catcher. Only in the installed app (Capacitor).
-// Shows a red banner with the actual error text when any script throws, so we
-// can diagnose without a desktop inspector. Remove before final submission.
+// Temporary diagnostic. Always shows a small badge reporting whether the app is
+// detected as native, whether the Capacitor bridge exists, a build stamp, and
+// the current path. Also catches script errors and shows them. Remove before
+// final submission. This renders on every platform on purpose, so we can see
+// the detection result on the device.
 ---
-<div id="app-debug" hidden></div>
+<div id="app-debug"></div>
 <style is:global>
   #app-debug {
-    position: fixed; left: 8px; right: 8px; bottom: calc(5.2rem + env(safe-area-inset-bottom)); z-index: 9999;
-    background: #7a1f1a; color: #fff; border: 1px solid #b5453c; border-radius: 12px;
-    font-family: var(--sans, sans-serif); font-size: 12px; line-height: 1.4;
-    max-height: 42vh; overflow-y: auto; padding: 10px 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+    position: fixed; left: 6px; top: calc(env(safe-area-inset-top) + 2px); z-index: 99999;
+    background: rgba(10,20,22,0.9); color: #b7f0e6; border: 1px solid #2a5a5c; border-radius: 8px;
+    font-family: monospace; font-size: 11px; line-height: 1.35; padding: 5px 8px; max-width: 92vw;
+    pointer-events: auto;
   }
-  #app-debug[hidden] { display: none; }
-  #app-debug .adg-h { font-weight: 700; display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
-  #app-debug .adg-x { background: rgba(255,255,255,0.2); border: 0; color: #fff; border-radius: 6px; padding: 3px 9px; font-weight: 700; }
-  #app-debug .adg-item { border-top: 1px solid rgba(255,255,255,0.25); padding: 6px 0; word-break: break-word; }
+  #app-debug.err { background: #7a1f1a; color: #fff; border-color: #b5453c; }
+  #app-debug .adg-item { border-top: 1px solid rgba(255,255,255,0.25); padding-top: 4px; margin-top: 4px; word-break: break-word; }
 </style>
 <script is:inline>
   (function () {
-    var C = window.Capacitor;
-    if (!(C && C.isNativePlatform && C.isNativePlatform())) return;
     var box = document.getElementById('app-debug');
     if (!box) return;
+    var dbg = false;
+    try { if (/[?&]debug=1/.test(location.search)) localStorage.setItem('mk_debug', '1'); if (/[?&]debug=0/.test(location.search)) localStorage.removeItem('mk_debug'); dbg = localStorage.getItem('mk_debug') === '1'; } catch (e) {}
+    if (!dbg) { box.style.display = 'none'; return; }
+    var C = window.Capacitor;
+    var hasCap = !!C;
+    var isNative = !!(C && C.isNativePlatform && C.isNativePlatform());
+    var plat = (C && C.getPlatform) ? C.getPlatform() : 'n/a';
+    var STAMP = 'MK shell-v2';
+    var head = STAMP + ' | cap:' + hasCap + ' | native:' + isNative + ' | ' + plat + ' | ' + (location.pathname || '/');
     var errs = [];
-    function render() {
-      if (!errs.length) { box.hidden = true; return; }
-      var items = errs.map(function (e) { return '<div class="adg-item">' + e + '</div>'; }).join('');
-      box.innerHTML = '<div class="adg-h"><span>' + errs.length + ' error(s) on this screen</span><button class="adg-x" type="button" id="adg-clear">clear</button></div>' + items;
-      box.hidden = false;
-      var c = document.getElementById('adg-clear');
-      if (c) c.addEventListener('click', function () { errs = []; render(); });
+    function paint() {
+      box.className = errs.length ? 'err' : '';
+      box.innerHTML = '<div>' + head + '</div>' + errs.map(function (e) { return '<div class="adg-item">' + e + '</div>'; }).join('');
     }
-    function esc(s) { return String(s).replace(/[&<>]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]; }); }
-    function push(msg) { errs.push(esc(msg)); if (errs.length > 12) errs.shift(); render(); }
-    window.addEventListener('error', function (ev) {
-      var where = ev.filename ? (' [' + String(ev.filename).split('/').pop() + ':' + ev.lineno + ']') : '';
-      push((ev.message || 'Error') + where);
-    });
-    window.addEventListener('unhandledrejection', function (ev) {
-      var r = ev.reason; push('Promise: ' + ((r && (r.message || r.error_description || r.msg)) || (typeof r === 'string' ? r : JSON.stringify(r))));
-    });
-    var oerr = console.error;
-    console.error = function () {
-      try { push('console: ' + Array.prototype.map.call(arguments, function (a) { return (a && a.message) ? a.message : (typeof a === 'object' ? JSON.stringify(a) : String(a)); }).join(' ')); } catch (e) {}
-      return oerr.apply(console, arguments);
-    };
+    function esc(s){ return String(s).replace(/[&<>]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c];}); }
+    window.addEventListener('error', function (ev) { errs.push(esc((ev.message||'Error') + (ev.filename? ' ['+String(ev.filename).split('/').pop()+':'+ev.lineno+']':''))); if(errs.length>10)errs.shift(); paint(); });
+    window.addEventListener('unhandledrejection', function (ev) { var r=ev.reason; errs.push('Promise: '+esc((r&&(r.message||r.error_description))||(typeof r==='string'?r:JSON.stringify(r)))); if(errs.length>10)errs.shift(); paint(); });
+    paint();
   })();
 </script>

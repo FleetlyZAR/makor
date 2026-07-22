@@ -53,7 +53,7 @@
 <script is:inline>
   (function () {
     var C = window.Capacitor;
-    var isNative = !!(C && C.isNativePlatform && C.isNativePlatform());
+    var isNative = !!(window.makorIsApp && window.makorIsApp());
     if (!isNative) return; // website never shows the tab bar
     var bar = document.getElementById('app-tabbar');
     if (!bar) return;

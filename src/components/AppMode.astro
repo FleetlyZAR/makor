@@ -1,0 +1,28 @@
+---
+// Defines app mode. The site behaves like the app when it is installed (native
+// Capacitor or added to the home screen), when viewed in a mobile-width browser,
+// or when previewing with ?app=1. Desktop browser visitors keep the editorial
+// website. This must load before the other app components so the flag exists
+// when they run. Turn app mode off for a session with ?app=0.
+---
+<script is:inline>
+  (function () {
+    function compute() {
+      var C = window.Capacitor;
+      var native = !!(C && C.isNativePlatform && C.isNativePlatform());
+      var standalone = false;
+      try { standalone = (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) || window.navigator.standalone === true; } catch (e) {}
+      var mobile = false;
+      try { mobile = !!(window.matchMedia && window.matchMedia('(max-width: 820px)').matches); } catch (e) {}
+      var override = false;
+      try {
+        if (/[?&]app=1/.test(location.search)) localStorage.setItem('mk_app', '1');
+        if (/[?&]app=0/.test(location.search)) localStorage.removeItem('mk_app');
+        override = localStorage.getItem('mk_app') === '1';
+      } catch (e) {}
+      return native || standalone || mobile || override;
+    }
+    window.__mkApp = compute();
+    window.makorIsApp = function () { return window.__mkApp; };
+  })();
+</script>
