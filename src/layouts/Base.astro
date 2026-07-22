@@ -9,7 +9,6 @@ import AppTheme from '../components/AppTheme.astro';
 import AppHome from '../components/AppHome.astro';
 import AppShell from '../components/AppShell.astro';
 import AppMenu from '../components/AppMenu.astro';
-import AppDebug from '../components/AppDebug.astro';
 const totalStudies = getAllStudies().length;
 const { title = 'Makor', description = 'Deep, Christ-centred study of every book of the Bible.', ogImage } = Astro.props;
 const canonicalUrl = 'https://makor.co.za' + Astro.url.pathname;
@@ -114,7 +113,6 @@ const ogImageUrl = ogImage
     <AppHome />
     <AppShell />
     <AppMenu />
-    <AppDebug />
     <script>
       document.addEventListener('click', (e) => {
         const btn = e.target.closest('.lex');
