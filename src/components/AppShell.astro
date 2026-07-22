@@ -1,0 +1,84 @@
+---
+// Native app shell. Only in the installed app (Capacitor). Gives every ordinary
+// page a native top app bar with a title and, where appropriate, a back button,
+// hides the website header and footer, and pads the content below the bar and
+// above the tab bar. The home page (AppHome) and study reading pages
+// (AppStudyBar) manage their own top chrome, so this shell steps aside for them.
+// The website is never touched.
+---
+<div id="app-appbar" class="mkbar" hidden>
+  <button id="mkbar-back" class="mkbar-back" type="button" aria-label="Back" hidden>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+  <span id="mkbar-title" class="mkbar-title"></span>
+  <span class="mkbar-spacer"></span>
+</div>
+
+<style is:global>
+  body.has-appbar .site-header { display: none; }
+  body.has-appbar .site-footer { display: none; }
+  body.has-appbar main.wrap { padding-top: calc(env(safe-area-inset-top) + 60px); }
+
+  .mkbar {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 90;
+    display: flex; align-items: center; gap: 6px;
+    padding: calc(env(safe-area-inset-top) + 8px) 12px 10px;
+    background: color-mix(in srgb, var(--paper) 90%, transparent);
+    -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+  }
+  .mkbar[hidden] { display: none; }
+  .mkbar-back { flex: 0 0 auto; width: 40px; height: 40px; border-radius: 50%; border: 0; background: transparent; color: var(--water); display: inline-flex; align-items: center; justify-content: center; cursor: pointer; }
+  .mkbar-back[hidden] { display: none; }
+  .mkbar-back svg { width: 24px; height: 24px; }
+  .mkbar-title { flex: 1; text-align: center; font-family: var(--serif); font-size: 1.2rem; font-weight: 600; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .mkbar-spacer { flex: 0 0 40px; }
+</style>
+
+<script is:inline>
+  (function () {
+    var C = window.Capacitor;
+    if (!(C && C.isNativePlatform && C.isNativePlatform())) return; // website untouched
+
+    // Home and study reading pages manage their own top chrome.
+    if (document.getElementById('study-meta')) return;
+    var p = (location.pathname || '/').replace(/\/+$/, '');
+    if (p === '' || p === '/index.html') return; // home
+
+    // Reserved routes: title and whether it is a primary tab (no back button).
+    var TABS = { '/plan': 'Reading plans', '/activity': 'Friends', '/profile': 'You' };
+    var PAGES = {
+      '/progress': 'Your walk', '/groups': 'Groups', '/notifications': 'Notifications',
+      '/email-preferences': 'Notifications', '/privacy': 'Privacy', '/terms': 'Terms of Use',
+      '/delete-account': 'Delete account', '/admin': 'Admin'
+    };
+    var reserved = ['plan','progress','activity','profile','groups','notifications','email-preferences','privacy','terms','delete-account','admin','daily'];
+
+    function titleCase(s) {
+      return s.split('-').map(function (w) { return w ? w.charAt(0).toUpperCase() + w.slice(1) : w; }).join(' ');
+    }
+
+    var title = null, showBack = false, key = p;
+    // normalise to first two segments for matching
+    var segs = p.split('/').filter(Boolean);
+
+    if (segs.length === 1) {
+      var one = '/' + segs[0];
+      if (TABS[one]) { title = TABS[one]; showBack = false; }
+      else if (PAGES[one]) { title = PAGES[one]; showBack = true; }
+      else if (reserved.indexOf(segs[0]) === -1) { title = titleCase(segs[0]); showBack = true; } // a book page
+    }
+    if (title === null) return; // unknown or handled elsewhere
+
+    var bar = document.getElementById('app-appbar');
+    if (!bar) return;
+    document.getElementById('mkbar-title').textContent = title;
+    var back = document.getElementById('mkbar-back');
+    if (showBack && back) {
+      back.hidden = false;
+      back.addEventListener('click', function () { if (history.length > 1) history.back(); else location.assign('/'); });
+    }
+    document.body.classList.add('has-appbar');
+    bar.hidden = false;
+  })();
+</script>
