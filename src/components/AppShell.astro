@@ -11,7 +11,11 @@
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
   </button>
   <span id="mkbar-title" class="mkbar-title"></span>
-  <span class="mkbar-spacer"></span>
+  <span class="mk-actions">
+    <button class="mk-act" data-mk-act="theme" type="button" aria-label="Theme"></button>
+    <button class="mk-act" data-mk-act="bell" type="button" aria-label="Notifications"></button>
+    <button class="mk-act" data-mk-act="menu" type="button" aria-label="Menu"></button>
+  </span>
 </div>
 
 <style is:global>
@@ -37,8 +41,7 @@
 
 <script is:inline>
   (function () {
-    var C = window.Capacitor;
-    if (!(C && C.isNativePlatform && C.isNativePlatform())) return; // website untouched
+    if (!(window.makorIsApp && window.makorIsApp())) return; // desktop web untouched
 
     // Home and study reading pages manage their own top chrome.
     if (document.getElementById('study-meta')) return;

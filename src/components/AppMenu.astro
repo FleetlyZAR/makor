@@ -1,0 +1,98 @@
+---
+// Shared app controls. Provides the round action buttons (theme toggle,
+// notifications, menu) used in every app top bar, and the slide down menu the
+// menu button opens. Only active in app mode. Any top bar can include the
+// cluster with three buttons carrying data-mk-act of theme, bell, and menu;
+// this component fills their icons and handles their taps by delegation.
+---
+<div id="app-menu" class="mkm" hidden>
+  <div class="mkm-backdrop" data-mkm-close="1"></div>
+  <div class="mkm-panel" role="dialog" aria-modal="true" aria-label="Menu">
+    <div class="mkm-head">
+      <span class="mkm-title">Menu</span>
+      <button class="mkm-close" type="button" data-mkm-close="1" aria-label="Close">Done</button>
+    </div>
+    <div id="mkm-list" class="mkm-list"></div>
+  </div>
+</div>
+
+<style is:global>
+  .mk-actions { display: inline-flex; align-items: center; gap: 6px; flex: 0 0 auto; }
+  .mk-act { width: 38px; height: 38px; border-radius: 50%; border: 1px solid var(--line); background: var(--surface); color: var(--ink); display: inline-flex; align-items: center; justify-content: center; cursor: pointer; padding: 0; }
+  .mk-act svg { width: 19px; height: 19px; }
+
+  .mkm { position: fixed; inset: 0; z-index: 120; }
+  .mkm[hidden] { display: none; }
+  .mkm-backdrop { position: absolute; inset: 0; background: rgba(14,42,46,0.5); }
+  .mkm-panel { position: absolute; left: 0; right: 0; top: 0; background: var(--paper); border-radius: 0 0 18px 18px; padding: calc(env(safe-area-inset-top) + 8px) 0 12px; box-shadow: 0 10px 30px rgba(14,42,46,0.3); max-height: 86%; overflow-y: auto; }
+  .mkm-head { display: flex; align-items: center; justify-content: space-between; padding: 6px 18px 12px; border-bottom: 1px solid var(--line); }
+  .mkm-title { font-family: var(--serif); font-size: 1.2rem; font-weight: 600; color: var(--ink); }
+  .mkm-close { background: transparent; border: 0; color: var(--water); font-family: var(--sans); font-weight: 600; font-size: 0.95rem; cursor: pointer; }
+  .mkm-list { padding: 6px 0 4px; }
+  .mkm-item { display: block; width: 100%; text-align: left; background: transparent; border: 0; border-bottom: 1px solid var(--line); padding: 15px 20px; font-family: var(--sans); font-size: 1rem; color: var(--ink); cursor: pointer; text-decoration: none; }
+  .mkm-item.danger { color: #c2554c; }
+</style>
+
+<script is:inline>
+  (function () {
+    if (!(window.makorIsApp && window.makorIsApp())) return;
+
+    var ICONS = {
+      theme: null, // filled from current theme
+      bell: '<svg viewBox="0 0 24 24"><path d="M12 3a5 5 0 00-5 5v3.5L5.5 15h13L17 11.5V8a5 5 0 00-5-5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9.5 18a2.5 2.5 0 005 0" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>',
+      menu: '<svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>'
+    };
+    var SUN = '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.5 5.5l1.4 1.4M17.1 17.1l1.4 1.4M18.5 5.5l-1.4 1.4M6.9 17.1l-1.4 1.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>';
+    var MOON = '<svg viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 019.5 4a7 7 0 100 16 8 8 0 0010.5-5.5z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>';
+
+    function themeIcon() { return (window.makorGetTheme && window.makorGetTheme() === 'dark') ? SUN : MOON; }
+    function fillIcons() {
+      document.querySelectorAll('[data-mk-act]').forEach(function (b) {
+        var t = b.getAttribute('data-mk-act');
+        if (t === 'theme') b.innerHTML = themeIcon();
+        else if (ICONS[t]) b.innerHTML = ICONS[t];
+      });
+    }
+
+    var menu = document.getElementById('app-menu');
+    var list = document.getElementById('mkm-list');
+    function openMenu() { buildList(); menu.hidden = false; document.body.style.overflow = 'hidden'; }
+    function closeMenu() { menu.hidden = true; document.body.style.overflow = ''; }
+    window.makorOpenMenu = openMenu;
+
+    function buildList() {
+      var items = [
+        ['Home', '/'], ['Reading plans', '/plan/'], ['My progress', '/progress/'],
+        ['Friends', '/activity/'], ['Profile', '/profile/'], ['Notifications', '/notifications/'],
+        ['Notification settings', '/email-preferences/'], ['Privacy', '/privacy/'], ['Terms of Use', '/terms/']
+      ];
+      var html = items.map(function (i) { return '<a class="mkm-item" href="' + i[1] + '">' + i[0] + '</a>'; }).join('');
+      if (window.makorUser) {
+        html += '<a class="mkm-item" href="/delete-account/">Delete account</a>';
+        html += '<button class="mkm-item danger" type="button" id="mkm-signout">Sign out</button>';
+      }
+      list.innerHTML = html;
+      var so = document.getElementById('mkm-signout');
+      if (so) so.addEventListener('click', async function () {
+        try { if (window.makorClient) await window.makorClient.auth.signOut(); } catch (e) {}
+        location.assign('/');
+      });
+    }
+
+    // Delegated taps for the action cluster, anywhere in the app.
+    document.addEventListener('click', function (e) {
+      var b = e.target.closest ? e.target.closest('[data-mk-act]') : null;
+      if (b) {
+        var t = b.getAttribute('data-mk-act');
+        if (t === 'theme') { if (window.makorToggleTheme) window.makorToggleTheme(); }
+        else if (t === 'bell') { location.assign('/notifications/'); }
+        else if (t === 'menu') { openMenu(); }
+        return;
+      }
+      if (e.target.getAttribute && e.target.getAttribute('data-mkm-close')) closeMenu();
+    });
+
+    window.addEventListener('makor-theme', fillIcons);
+    fillIcons();
+  })();
+</script>

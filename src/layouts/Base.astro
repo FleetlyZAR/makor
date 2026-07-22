@@ -1,12 +1,14 @@
 ---
 import '../styles/global.css';
 import { getAllStudies } from '../lib/studies.js';
+import AppMode from '../components/AppMode.astro';
 import AppTabBar from '../components/AppTabBar.astro';
 import AppWelcome from '../components/AppWelcome.astro';
 import AppStudyBar from '../components/AppStudyBar.astro';
 import AppTheme from '../components/AppTheme.astro';
 import AppHome from '../components/AppHome.astro';
 import AppShell from '../components/AppShell.astro';
+import AppMenu from '../components/AppMenu.astro';
 import AppDebug from '../components/AppDebug.astro';
 const totalStudies = getAllStudies().length;
 const { title = 'Makor', description = 'Deep, Christ-centred study of every book of the Bible.', ogImage } = Astro.props;
@@ -104,12 +106,14 @@ const ogImageUrl = ogImage
         <p class="footer-links"><a href="/">Home</a> · <a href="/privacy/">Privacy Policy</a> · <a href="/terms/">Terms of Use</a></p>
       </div>
     </footer>
+    <AppMode />
     <AppTheme />
     <AppTabBar />
     <AppWelcome />
     <AppStudyBar />
     <AppHome />
     <AppShell />
+    <AppMenu />
     <AppDebug />
     <script>
       document.addEventListener('click', (e) => {
