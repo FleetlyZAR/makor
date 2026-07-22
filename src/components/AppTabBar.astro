@@ -60,7 +60,7 @@
     document.body.classList.add('has-tabbar');
     bar.hidden = false;
 
-    var p = (location.pathname || '/').replace(/\/+$/, '') || '/';
+    var p = (location.pathname || '/').replace(/\/index\.html$/i, '').replace(/\/+$/, '') || '/';
     var active = 'study';
     if (p === '/' || p === '') active = 'home';
     else if (p.indexOf('/plan') === 0) active = 'plans';

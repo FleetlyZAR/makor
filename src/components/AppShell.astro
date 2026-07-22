@@ -45,8 +45,8 @@
 
     // Home and study reading pages manage their own top chrome.
     if (document.getElementById('study-meta')) return;
-    var p = (location.pathname || '/').replace(/\/+$/, '');
-    if (p === '' || p === '/index.html') return; // home
+    var p = (location.pathname || '/').replace(/\/index\.html$/i, '').replace(/\/+$/, '');
+    if (p === '') return; // home, handled by AppHome
 
     // Reserved routes: title and whether it is a primary tab (no back button).
     var TABS = { '/plan': 'Reading plans', '/activity': 'Friends', '/profile': 'You' };
