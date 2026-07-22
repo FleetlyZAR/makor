@@ -299,7 +299,7 @@ function boot(){
   loadProfile();
 }
 $('pr-signin-btn').onclick=function(){
-  if(window.makorClient) window.makorClient.auth.signInWithOAuth({provider:'google',options:{redirectTo:location.href}});
+  if(window.makorSignIn) window.makorSignIn('google');
 };
 $('pr-save').onclick=function(){ saveProfile(); };
 $('pr-file').addEventListener('change',function(){ if(this.files&&this.files[0]) handleAvatar(this.files[0]); });

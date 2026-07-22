@@ -1,0 +1,56 @@
+---
+// Native-aware sign in. On the web (including mobile web) it uses the normal
+// Supabase OAuth redirect. In the installed app (Capacitor) the provider cannot
+// redirect back into the webview, so we open the login in an in-app browser and
+// return through a custom URL scheme, then exchange the code for a session.
+// Requires the @capacitor/app and @capacitor/browser plugins and the
+// za.co.makor.app URL scheme registered in iOS and Android.
+---
+<script is:inline>
+  (function () {
+    var SCHEME = 'za.co.makor.app://auth-callback';
+    function client() { return window.makorClient; }
+    function isNative() { var C = window.Capacitor; return !!(C && C.isNativePlatform && C.isNativePlatform()); }
+
+    window.makorSignIn = async function (provider) {
+      var c = client();
+      if (!c || !c.auth) return;
+      if (!isNative()) {
+        await c.auth.signInWithOAuth({ provider: provider, options: { redirectTo: window.location.href } });
+        return;
+      }
+      try {
+        var res = await c.auth.signInWithOAuth({ provider: provider, options: { redirectTo: SCHEME, skipBrowserRedirect: true } });
+        var url = res && res.data && res.data.url;
+        var Browser = window.Capacitor.Plugins && window.Capacitor.Plugins.Browser;
+        if (url && Browser) { await Browser.open({ url: url, presentationStyle: 'popover' }); }
+        else if (url) { window.location.href = url; }
+      } catch (e) {}
+    };
+
+    // Return handler: fires when the OAuth redirect re-enters the app.
+    var C = window.Capacitor;
+    if (isNative() && C.Plugins && C.Plugins.App) {
+      C.Plugins.App.addListener('appUrlOpen', async function (data) {
+        var url = data && data.url;
+        if (!url || url.indexOf('za.co.makor.app://auth-callback') !== 0) return;
+        var c = client();
+        try {
+          var query = url.indexOf('?') >= 0 ? url.substring(url.indexOf('?') + 1) : '';
+          var params = new URLSearchParams(query);
+          var code = params.get('code');
+          if (code && c && c.auth) {
+            await c.auth.exchangeCodeForSession(code);
+          } else {
+            var hash = url.indexOf('#') >= 0 ? url.substring(url.indexOf('#') + 1) : '';
+            var hp = new URLSearchParams(hash);
+            var at = hp.get('access_token'), rt = hp.get('refresh_token');
+            if (at && rt && c && c.auth) await c.auth.setSession({ access_token: at, refresh_token: rt });
+          }
+        } catch (e) {}
+        try { if (C.Plugins.Browser) await C.Plugins.Browser.close(); } catch (e) {}
+        location.assign('/');
+      });
+    }
+  })();
+</script>

@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import { getAllStudies } from '../lib/studies.js';
 import AppMode from '../components/AppMode.astro';
+import AppAuth from '../components/AppAuth.astro';
 import AppTabBar from '../components/AppTabBar.astro';
 import AppWelcome from '../components/AppWelcome.astro';
 import AppStudyBar from '../components/AppStudyBar.astro';
@@ -106,6 +107,7 @@ const ogImageUrl = ogImage
       </div>
     </footer>
     <AppMode />
+    <AppAuth />
     <AppTheme />
     <AppTabBar />
     <AppWelcome />
@@ -158,10 +160,10 @@ const ogImageUrl = ogImage
           menuEl.appendChild(out);
         } else {
           const inb = document.createElement('button'); inb.className = 'menu-item menu-action'; inb.type = 'button'; inb.textContent = 'Sign in with Google';
-          inb.addEventListener('click', async () => { await client.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: window.location.href } }); });
+          inb.addEventListener('click', () => { if (window.makorSignIn) window.makorSignIn('google'); });
           menuEl.appendChild(inb);
           const inbA = document.createElement('button'); inbA.className = 'menu-item menu-action'; inbA.type = 'button'; inbA.textContent = 'Sign in with Apple';
-          inbA.addEventListener('click', async () => { await client.auth.signInWithOAuth({ provider: 'apple', options: { redirectTo: window.location.href } }); });
+          inbA.addEventListener('click', () => { if (window.makorSignIn) window.makorSignIn('apple'); });
           menuEl.appendChild(inbA);
         }
       }
@@ -262,13 +264,9 @@ const ogImageUrl = ogImage
         bar.hidden = Boolean(user) || dismissed;
       }
       const signinGoogleBtn = document.getElementById('signin-google');
-      if (signinGoogleBtn) signinGoogleBtn.addEventListener('click', async () => {
-        await client.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: window.location.href } });
-      });
+      if (signinGoogleBtn) signinGoogleBtn.addEventListener('click', () => { if (window.makorSignIn) window.makorSignIn('google'); });
       const signinAppleBtn = document.getElementById('signin-apple');
-      if (signinAppleBtn) signinAppleBtn.addEventListener('click', async () => {
-        await client.auth.signInWithOAuth({ provider: 'apple', options: { redirectTo: window.location.href } });
-      });
+      if (signinAppleBtn) signinAppleBtn.addEventListener('click', () => { if (window.makorSignIn) window.makorSignIn('apple'); });
       const signinDismissBtn = document.getElementById('signin-dismiss');
       if (signinDismissBtn) signinDismissBtn.addEventListener('click', () => {
         sessionStorage.setItem('makor_signin_dismissed', '1');

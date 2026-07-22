@@ -91,7 +91,7 @@ function boot(){
   };
 }
 $('ep-signin-btn').onclick=function(){
-  if(window.makorClient) window.makorClient.auth.signInWithOAuth({provider:'google',options:{redirectTo:location.href}});
+  if(window.makorSignIn) window.makorSignIn('google');
 };
 if(window.makorClient!==undefined&&window.makorUser!==undefined) boot();
 else window.addEventListener('makor-auth',boot,{once:true});

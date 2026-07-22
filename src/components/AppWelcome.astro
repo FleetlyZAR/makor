@@ -68,15 +68,11 @@
     function done() { try { localStorage.setItem(KEY, '1'); } catch (e) {} root.hidden = true; }
     function signIn() {
       try { localStorage.setItem(KEY, '1'); } catch (e) {}
-      var c = window.makorClient;
-      if (c && c.auth) { c.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: window.location.href } }); }
-      else { root.hidden = true; }
+      if (window.makorSignIn) window.makorSignIn('google'); else root.hidden = true;
     }
     function signInApple() {
       try { localStorage.setItem(KEY, '1'); } catch (e) {}
-      var c = window.makorClient;
-      if (c && c.auth) { c.auth.signInWithOAuth({ provider: 'apple', options: { redirectTo: window.location.href } }); }
-      else { root.hidden = true; }
+      if (window.makorSignIn) window.makorSignIn('apple'); else root.hidden = true;
     }
     function render() {
       var html = '';

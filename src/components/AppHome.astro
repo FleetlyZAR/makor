@@ -172,13 +172,9 @@ import { dailyEntries } from '../data/daily.js';
       if (shareBtn && entry) shareBtn.addEventListener('click', function () { shareVerse(entry); });
 
       var signinBtn = document.getElementById('ah-signin');
-      if (signinBtn) signinBtn.addEventListener('click', function () {
-        if (window.makorClient && window.makorClient.auth) window.makorClient.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: window.location.href } });
-      });
+      if (signinBtn) signinBtn.addEventListener('click', function () { if (window.makorSignIn) window.makorSignIn('google'); });
       var signinAppleBtn = document.getElementById('ah-signin-apple');
-      if (signinAppleBtn) signinAppleBtn.addEventListener('click', function () {
-        if (window.makorClient && window.makorClient.auth) window.makorClient.auth.signInWithOAuth({ provider: 'apple', options: { redirectTo: window.location.href } });
-      });
+      if (signinAppleBtn) signinAppleBtn.addEventListener('click', function () { if (window.makorSignIn) window.makorSignIn('apple'); });
 
       if (u) fillWalk();
     }

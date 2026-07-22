@@ -36,9 +36,7 @@ import Base from '../layouts/Base.astro';
       panel.innerHTML = '<p>You need to be signed in to delete your account.</p>'
         + '<button class="da-btn" id="da-signin" type="button">Sign in with Google</button>';
       var b = document.getElementById('da-signin');
-      if (b) b.addEventListener('click', function () {
-        if (window.makorClient) window.makorClient.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: window.location.href } });
-      });
+      if (b) b.addEventListener('click', function () { if (window.makorSignIn) window.makorSignIn('google'); });
     }
 
     function signedIn(user) {
