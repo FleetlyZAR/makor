@@ -85,7 +85,7 @@
       if (b) {
         var t = b.getAttribute('data-mk-act');
         if (t === 'theme') { if (window.makorToggleTheme) window.makorToggleTheme(); }
-        else if (t === 'bell') { location.assign('/notifications/'); }
+        else if (t === 'bell') { location.assign(window.makorHref ? window.makorHref('/notifications/') : '/notifications/'); }
         else if (t === 'menu') { openMenu(); }
         return;
       }
