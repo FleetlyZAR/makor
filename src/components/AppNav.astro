@@ -1,0 +1,39 @@
+---
+// Directory URL fix for the installed app. Capacitor's iOS local server does
+// not serve /plan/ as /plan/index.html; it falls back to the root index.html.
+// So in the native app only, we rewrite same-origin directory links to their
+// explicit index.html file, which the server does serve. On the web (including
+// mobile web) nothing is changed, since real servers resolve directory URLs.
+// window.makorHref(url) applies the same fix for JavaScript driven navigation.
+---
+<script is:inline>
+  (function () {
+    var C = window.Capacitor;
+    var native = !!(C && C.isNativePlatform && C.isNativePlatform());
+    if (!native) { window.makorHref = function (u) { return u; }; return; }
+
+    function fix(url) {
+      if (typeof url !== 'string' || url.charAt(0) !== '/') return url;
+      var frag = '', q = '';
+      var h = url.indexOf('#'); if (h >= 0) { frag = url.slice(h); url = url.slice(0, h); }
+      var qi = url.indexOf('?'); if (qi >= 0) { q = url.slice(qi); url = url.slice(0, qi); }
+      var last = url.split('/').pop();
+      if (url === '/') url = '/index.html';
+      else if (url.slice(-1) === '/') url = url + 'index.html';
+      else if (last.indexOf('.') === -1) url = url + '/index.html';
+      return url + q + frag;
+    }
+    window.makorHref = fix;
+
+    document.addEventListener('click', function (e) {
+      var a = e.target && e.target.closest ? e.target.closest('a[href]') : null;
+      if (!a) return;
+      if (a.getAttribute('target') === '_blank') return;
+      if (a.getAttribute('data-tab') === 'study') return; // the Study tab resolves its own target
+      var href = a.getAttribute('href');
+      if (!href || href.charAt(0) !== '/') return;
+      var fixed = fix(href);
+      if (fixed !== href) { e.preventDefault(); location.assign(fixed); }
+    }, true);
+  })();
+</script>

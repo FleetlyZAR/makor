@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import { getAllStudies } from '../lib/studies.js';
 import AppMode from '../components/AppMode.astro';
+import AppNav from '../components/AppNav.astro';
 import AppAuth from '../components/AppAuth.astro';
 import AppTabBar from '../components/AppTabBar.astro';
 import AppWelcome from '../components/AppWelcome.astro';
@@ -107,6 +108,7 @@ const ogImageUrl = ogImage
       </div>
     </footer>
     <AppMode />
+    <AppNav />
     <AppAuth />
     <AppTheme />
     <AppTabBar />

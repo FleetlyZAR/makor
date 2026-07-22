@@ -99,7 +99,7 @@
           if (!url && avail.length) url = avail[0].url;
           if (url) target = url;
         } catch (e) {}
-        location.assign(target);
+        location.assign(window.makorHref ? window.makorHref(target) : target);
       });
     }
   })();

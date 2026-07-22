@@ -79,7 +79,7 @@
     var back = document.getElementById('mkbar-back');
     if (showBack && back) {
       back.hidden = false;
-      back.addEventListener('click', function () { if (history.length > 1) history.back(); else location.assign('/'); });
+      back.addEventListener('click', function () { if (history.length > 1) history.back(); else location.assign(window.makorHref ? window.makorHref('/') : '/'); });
     }
     document.body.classList.add('has-appbar');
     bar.hidden = false;

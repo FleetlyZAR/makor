@@ -75,7 +75,7 @@
       var so = document.getElementById('mkm-signout');
       if (so) so.addEventListener('click', async function () {
         try { if (window.makorClient) await window.makorClient.auth.signOut(); } catch (e) {}
-        location.assign('/');
+        location.assign(window.makorHref ? window.makorHref('/') : '/');
       });
     }
 

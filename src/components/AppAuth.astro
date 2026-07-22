@@ -49,7 +49,7 @@
           }
         } catch (e) {}
         try { if (C.Plugins.Browser) await C.Plugins.Browser.close(); } catch (e) {}
-        location.assign('/');
+        location.assign(window.makorHref ? window.makorHref('/') : '/');
       });
     }
   })();
