@@ -185,7 +185,7 @@ import { dailyEntries } from '../data/daily.js';
         var rows = res[0] || [], idx = res[1] || [];
         var doneSet = {}, days = {};
         rows.forEach(function (r) {
-          if (r.phase === 'post') doneSet[r.study_slug] = true;
+          if (r.phase === 'post' || r.phase === 'listen') doneSet[r.study_slug] = true;
           if (r.created_at) days[String(r.created_at).slice(0, 10)] = true;
         });
         var doneEl = document.getElementById('ah-done'); if (doneEl) doneEl.textContent = Object.keys(doneSet).length;

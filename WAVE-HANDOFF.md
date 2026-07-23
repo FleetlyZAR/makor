@@ -205,3 +205,61 @@ build-time endpoint) when a book is expanded, so new studies appear automaticall
 once deployed; no home-page edit is needed per wave. Movement pills have three
 states: green (reader completed), gold (available, not done), plain text with a
 soon tag (not yet written).
+
+## Audio narration (Kokoro, four voices)
+
+Every study can be narrated by Kokoro (free, Apache 2.0, self-hosted), cut by
+movement and by teaching step, in four voices (US and UK, male and female). The
+pipeline lives in `makor-audio/` (`generate_audio.py`, `pronounce.json`,
+`README.md`). Audio is generated once, stored as static MP3, and served from
+Cloudflare R2, never synthesised on a page view.
+
+Per study:
+
+```
+cd makor-audio
+python3 generate_audio.py \
+  --study ../src/content/studies/<book>/NN-slug.json \
+  --format mp3 --base https://audio.makor.co.za/
+```
+
+Output lands in `public/studies/<book>/<slug>/audio/`. Do NOT commit audio into
+git or the Pages deploy (Cloudflare Pages caps a deployment at 20,000 files).
+Upload to R2 instead, then it is served from the R2 public domain:
+
+```
+rclone copy public/studies r2:makor-audio/studies --transfers 8
+```
+
+Bulk run for the whole corpus (all 1354 studies already exist on disk, so this is
+a one-time batch, not incremental; budget roughly a day of unattended CPU for all
+four voices, then upload):
+
+```
+cd makor-audio
+find ../src/content/studies -name '*.json' | while read f; do
+  python3 generate_audio.py --study "$f" --format mp3 --base https://audio.makor.co.za/
+done
+rclone copy ../public/studies r2:makor-audio/studies --transfers 8
+```
+
+Before a book's bulk run, add its hard names to `makor-audio/pronounce.json` (for
+example Melchizedek, Nebuchadnezzar, Zerubbabel), since text to speech will
+otherwise mangle them. `--dry-run` prints the spoken text with fixes applied.
+
+### Renderer and completion wiring (done)
+
+`src/components/AppAudioPlayer.astro` renders an inline chapter/track player on
+every study page (`[book]/[slug].astro`), resolving the manifest from
+`PUBLIC_MAKOR_AUDIO_BASE` (set this env var in Cloudflare Pages; it defaults to
+`https://audio.makor.co.za/`). It hides itself when a study has no audio yet, so
+it is safe on studies not yet voiced.
+
+Listening all the way through saves an unscored completion: a new attempts row
+with `phase: 'listen'`, `score: 0`. This required widening the Supabase check
+constraint `attempts_phase_check` to allow `pre`, `post`, and `listen` (migration
+`attempts_phase_allow_listen`, already applied to the makor project). The app's
+six completion checks (Base, AppHome, AppTabBar, AppStudyBar, index, plan) now
+count `post` OR `listen` as done, while quiz scores and the perfect-score badge in
+`progress.astro` still come only from `post`. A study can be finished by listening
+through, by the quiz, or both; the quiz adds a score, listening does not.

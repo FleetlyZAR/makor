@@ -1,0 +1,8 @@
+# Kokoro model weights (about 340 MB, downloaded on first run)
+models/
+# Local listening output and any rendered audio
+demo-audio/
+*.wav
+*.mp3
+# Python cache
+__pycache__/

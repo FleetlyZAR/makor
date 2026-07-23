@@ -287,12 +287,16 @@ const badgeConfig = {
       var key = book + '|' + r.study_slug;
       scores[key] = scores[key] || {};
       if (r.phase === 'pre') scores[key].pre = r.score;
-      if (r.phase === 'post') {
-        scores[key].post = r.score;
+      // Completion counts a quiz post OR a listen-through; streaks and first-completion too.
+      if (r.phase === 'post' || r.phase === 'listen') {
         (postByBook[book] = postByBook[book] || {})[r.study_slug] = true;
         if (!firstPostDate) firstPostDate = r.created_at;
-        if (r.score >= 100 && !hasPerfect) { hasPerfect = true; perfectDate = r.created_at; }
         if (r.created_at) { var d = new Date(r.created_at); dayset[d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate()] = d; }
+      }
+      // Scores and the perfect-score badge come only from an actual quiz post.
+      if (r.phase === 'post') {
+        scores[key].post = r.score;
+        if (r.score >= 100 && !hasPerfect) { hasPerfect = true; perfectDate = r.created_at; }
       }
     });
 
@@ -446,7 +450,7 @@ const badgeConfig = {
     const rows = window.makorAllAttempts ? await window.makorAllAttempts() : [];
     const pre = rows.filter((r) => r.phase === 'pre');
     const post = rows.filter((r) => r.phase === 'post');
-    if (pre.length === 0 && post.length === 0) {
+    if (rows.length === 0) {
       if (status) { status.hidden = false; status.textContent = 'Complete a study to begin tracking your growth.'; }
       if (wrap) wrap.hidden = true;
       return;
@@ -464,8 +468,8 @@ const badgeConfig = {
     const byStudy = {};
     rows.forEach((r) => { (byStudy[r.study_slug] = byStudy[r.study_slug] || {})[r.phase] = r; });
     const studies = Object.keys(byStudy);
-    const completed = studies.filter((s) => byStudy[s].post);
-    const lifts = completed.filter((s) => byStudy[s].pre).map((s) => byStudy[s].post.score - byStudy[s].pre.score);
+    const completed = studies.filter((s) => byStudy[s].post || byStudy[s].listen);
+    const lifts = studies.filter((s) => byStudy[s].pre && byStudy[s].post).map((s) => byStudy[s].post.score - byStudy[s].pre.score);
     const avgLift = lifts.length ? Math.round(lifts.reduce((a, b) => a + b, 0) / lifts.length) : 0;
     const bestPost = post.length ? Math.max.apply(null, post.map((r) => r.score)) : 0;
     document.getElementById('stat-count').textContent = String(completed.length);

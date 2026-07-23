@@ -73,7 +73,7 @@ const testaments = [
       if (typeof window.makorAllAttempts !== 'function') return;
       let rows = [];
       try { rows = await window.makorAllAttempts(); } catch (e) { return; }
-      const done = new Set((rows || []).filter((r) => r.phase === 'post').map((r) => r.study_slug));
+      const done = new Set((rows || []).filter((r) => r.phase === 'post' || r.phase === 'listen').map((r) => r.study_slug));
       document.querySelectorAll('.movement-list li.ready a[data-slug]').forEach((a) => {
         if (done.has(a.dataset.slug)) a.classList.add('done');
         else a.classList.remove('done');
@@ -115,7 +115,7 @@ const testaments = [
       const user = window.makorUser;
       let rows = [];
       if (user && typeof window.makorAllAttempts === 'function') { try { rows = await window.makorAllAttempts(); } catch (e) {} }
-      const post = new Set(rows.filter((r) => r.phase === 'post').map((r) => r.study_slug));
+      const post = new Set(rows.filter((r) => r.phase === 'post' || r.phase === 'listen').map((r) => r.study_slug));
       const pre = new Set(rows.filter((r) => r.phase === 'pre').map((r) => r.study_slug));
       const eyebrow = el.querySelector('.resume-eyebrow');
       const title = el.querySelector('.resume-title');

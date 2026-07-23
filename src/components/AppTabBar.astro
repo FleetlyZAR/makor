@@ -86,7 +86,7 @@
             var rows = await window.makorAllAttempts();
             if (rows && rows.length) {
               var done = {};
-              rows.forEach(function (r) { if (r.phase === 'post') done[r.study_slug] = true; });
+              rows.forEach(function (r) { if (r.phase === 'post' || r.phase === 'listen') done[r.study_slug] = true; });
               var recent = rows.slice().sort(function (a, b) { return new Date(b.created_at) - new Date(a.created_at); });
               for (var k = 0; k < recent.length; k++) {
                 if (!done[recent[k].study_slug]) {

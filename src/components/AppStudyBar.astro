@@ -178,7 +178,7 @@
       if (!window.makorAllAttempts) return Promise.resolve();
       return window.makorAllAttempts().then(function (rows) {
         done = {};
-        (rows || []).forEach(function (r) { if (r.phase === 'post') done[r.study_slug] = true; });
+        (rows || []).forEach(function (r) { if (r.phase === 'post' || r.phase === 'listen') done[r.study_slug] = true; });
       }).catch(function () {});
     }
 

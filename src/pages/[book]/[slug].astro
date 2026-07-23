@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import VerseText from '../../components/VerseText.astro';
+import AppAudioPlayer from '../../components/AppAudioPlayer.astro';
 import { getAllStudies, bookSlug } from '../../lib/studies.js';
 
 export function getStaticPaths() {
@@ -45,6 +46,8 @@ const bslug = bookSlug(study.book);
   )}
 
   <div id="study-meta" data-slug={sec.slug} data-book={study.book} data-title={sec.title} hidden></div>
+
+  <AppAudioPlayer book={study.book} bookSlug={bslug} slug={sec.slug} title={sec.title} />
 
   <!-- Step 1: read the passage -->
   <p class="step-label">Step 1. Read the passage</p>

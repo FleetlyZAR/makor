@@ -8,3 +8,6 @@ dist/
 keystore.properties
 *.jks
 *.keystore
+
+# Rendered study audio is served from Cloudflare R2, never committed
+public/studies/**/audio/

@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "1.2",
+  "book": "Genesis",
+  "section": {
+    "order": 1,
+    "slug": "the-seven-days",
+    "title": "The Seven Days",
+    "passageRef": "Genesis 1:1-2:3",
+    "sectionRationale": "The creation prologue is the opening movement before the first toledot heading at Genesis 2:4, so 1:1 to 2:3 is one deliberate unit sealed by the seventh day rest.",
+    "thesis": "Before the drama of a fallen world begins, God speaks a formless void into an ordered, good, and habitable home; this is act one of the whole story.",
+    "frameNote": "Two panels. Days one to three form the realms; days four to six fill them; the seventh day stands apart as the goal."
+  },
+  "text": {
+    "spine": "BSB",
+    "units": [
+      {
+        "label": "Day One",
+        "note": "forms: light",
+        "emphasis": "",
+        "verses": [
+          { "chapter": 1, "n": 1, "text": "In the {{beginning|beginning}} {{elohim|God}} {{bara|created}} the heavens and the earth." },
+          { "chapter": 1, "n": 5, "text": "God called the light “day,” and the darkness He called “night.” And there was evening, and there was morning, the first day." }
+        ]
+      },
+      {
+        "label": "The Seventh Day",
+        "note": "God rests",
+        "emphasis": "sabbath",
+        "verses": [
+          { "chapter": 2, "n": 3, "text": "Then God blessed the seventh day and sanctified it, because on that day He rested from all the work of creation that He had accomplished." }
+        ]
+      }
+    ]
+  },
+  "lexicon": {
+    "beginning": { "language": "Hebrew", "lemma": "reshith", "original": "ראשית", "gloss": "The first, the head of a thing. The whole book unfolds what this one word opens." },
+    "elohim": { "language": "Hebrew", "lemma": "Elohim", "original": "אלהים", "gloss": "A plural form joined to a singular verb; it signals majesty and fullness." },
+    "bara": { "language": "Hebrew", "lemma": "bara", "original": "ברא", "gloss": "To create; in the Hebrew Bible this verb takes only God as its subject." }
+  },
+  "study": {
+    "basic": {
+      "context": "This is the very first page of the Bible, and it tells how God made everything. The nations around Israel worshipped the sun and the sea; Genesis says the one God made them all.",
+      "hermeneutics": "The main point is that God made everything and it was good. People ask how long the days were, and faithful Christians answer differently; that does not change the main point.",
+      "originalLanguages": "God here is Elohim, a full and majestic name. Created is bara, a word used only for what God does.",
+      "typology": "God's rest points to the rest Jesus gives; Adam points to Jesus, the true man.",
+      "christ": "Jesus was there in the beginning, and everything was made through Him.",
+      "god": "God is powerful; He speaks and it happens. He is good, and He rests, dignifying both work and rest.",
+      "crossReferences": "John 1 says the world was made through Jesus; Revelation shows a new heavens and a new earth.",
+      "oneStory": "The Bible story begins with a good world; people spoil it, and God restores it through Jesus."
+    },
+    "context": { "literary": "The prologue to Genesis and the Torah, the first toledot unit.", "historical": "Written to Israel among the creation myths of Egypt and Mesopotamia; read against them it is polemic.", "canonical": "The Bible's first page, the ground of fall, redemption, and new creation." },
+    "hermeneutics": {
+      "authorIntent": "To reveal God as sole sovereign Creator who orders chaos into a cosmos fit to be His dwelling.",
+      "descriptionVsPrescription": "The narrative describes God's acts; the Sabbath pattern is the prescriptive thread.",
+      "debates": [ { "question": "What are the days?", "views": [ { "label": "Twenty four hour", "case": "The plain sequence of evening and morning." }, { "label": "Framework", "case": "The forming and filling pattern is literary." } ], "bearing": "It does not touch the main claim that God authored everything." } ]
+    },
+    "originalLanguages": "bara marks a divine only act, Elohim holds majesty, and God names what He makes, an act of dominion.",
+    "typology": [ { "type": "The seventh day rest", "fulfillment": "The greater rest that remains for God's people, Hebrews 4." } ],
+    "christ": "John 1:1-3 reruns Genesis 1:1 with the Word as agent of creation; Colossians 1:15-16 says all things were created in Him.",
+    "god": "Sovereign, good, orderly, personal, generous; transcendent over creation yet immanent within it.",
+    "crossReferences": [ { "ref": "John 1:1-5", "note": "Reruns Genesis 1:1 with the Word as agent of creation." } ],
+    "oneStory": "Creation is act one; the good world fractures in chapter three, and the whole Bible strains to see it restored in Christ.",
+    "sermon": { "status": "verified", "preacher": "Sinclair B. Ferguson", "title": "What a Creation (Genesis 1:1-2:2)", "url": "", "why": "A clear, orthodox, expository treatment of this exact passage." }
+  },
+  "quiz": [],
+  "questions": [
+    "God is the fountain of living waters. Where are you drinking from cracked cisterns instead of from Him?",
+    "What in your life feels formless right now, and what would it look like to submit it to His word this week?"
+  ],
+  "translationNotes": [],
+  "meta": {
+    "textToVerify": [],
+    "notes": "TEST FIXTURE, not canonical content. Passage is truncated to two movements (Day One and the Seventh Day) purely to exercise the audio pipeline. Replace this file with your content pipeline's full Genesis 1:1-2:3 JSON before publishing. Teaching text is the worked-example Basic layer from the project instruction."
+  }
+}

@@ -241,7 +241,7 @@ const ogImageUrl = ogImage
         const rows = await window.makorAllAttempts();
         const totalMeta = document.querySelector('meta[name="makor:total-studies"]');
         const total = totalMeta ? Number(totalMeta.content) : 0;
-        const completed = new Set(rows.filter((r) => r.phase === 'post').map((r) => r.study_slug));
+        const completed = new Set(rows.filter((r) => r.phase === 'post' || r.phase === 'listen').map((r) => r.study_slug));
         const pct = total ? Math.round((completed.size / total) * 100) : 0;
         let cur = '';
         const metaEl = document.getElementById('study-meta');
