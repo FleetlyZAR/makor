@@ -101,6 +101,48 @@ def verses_to_text(unit: dict) -> str:
     return " ".join(p for p in parts if p)
 
 
+def advanced_for(key: str, study: dict) -> str:
+    """The 'Go deeper' (Advanced) content for a teaching step, as spoken prose.
+    Original-script characters are never included; only speakable text."""
+    s = study.get("study", {})
+    if key == "context":
+        c = s.get("context", {}) or {}
+        bits = []
+        if c.get("literary"): bits.append("Literary. " + clean(c["literary"]))
+        if c.get("historical"): bits.append("Historical. " + clean(c["historical"]))
+        if c.get("canonical"): bits.append("Canonical. " + clean(c["canonical"]))
+        return " ".join(bits)
+    if key == "hermeneutics":
+        h = s.get("hermeneutics", {}) or {}
+        bits = []
+        if h.get("authorIntent"): bits.append("The author's intent. " + clean(h["authorIntent"]))
+        if h.get("descriptionVsPrescription"): bits.append("Description and prescription. " + clean(h["descriptionVsPrescription"]))
+        for d in h.get("debates", []) or []:
+            q = clean(d.get("question", ""))
+            if q: bits.append("A question interpreters raise. " + q)
+            for v in d.get("views", []) or []:
+                lab, ca = clean(v.get("label", "")), clean(v.get("case", ""))
+                if lab or ca: bits.append((lab + ". " + ca) if lab else ca)
+            b = clean(d.get("bearing", ""))
+            if b: bits.append("On balance. " + b)
+        return " ".join(bits)
+    if key in ("originalLanguages", "christ", "god", "oneStory"):
+        return clean(s.get(key, ""))
+    if key == "typology":
+        out = []
+        for t in s.get("typology", []) or []:
+            ty, fu = clean(t.get("type", "")), clean(t.get("fulfillment", ""))
+            if ty or fu: out.append((ty + ". " + fu) if ty else fu)
+        return " ".join(out)
+    if key == "crossReferences":
+        out = []
+        for c in s.get("crossReferences", []) or []:
+            rf, nt = clean(c.get("ref", "")), clean(c.get("note", ""))
+            if rf or nt: out.append((rf + ". " + nt) if rf else nt)
+        return " ".join(out)
+    return ""
+
+
 def build_segments(study: dict, layer: str, overrides: dict) -> list[dict]:
     segments: list[dict] = []
     section = study.get("section", {})
@@ -131,11 +173,31 @@ def build_segments(study: dict, layer: str, overrides: dict) -> list[dict]:
             "crossReferences": "Cross references", "oneStory": "The one story",
         }
         for key, heading in step_titles.items():
-            val = clean(basic.get(key, ""))
-            if not val:
+            base_val = clean(basic.get(key, ""))
+            adv = advanced_for(key, study)
+            parts = [f"{heading}."]
+            if base_val:
+                parts.append(base_val)
+            if adv:
+                parts.append("Going deeper. " + adv)
+            if len(parts) == 1:
                 continue
             segments.append({"id": f"teaching-{key}", "label": heading, "kind": "teaching",
-                             "text": f"{heading}. {val}"})
+                             "text": " ".join(parts)})
+
+        # Round out the full study: translation notes, then reflection questions.
+        tn = []
+        for n in study.get("translationNotes", []) or []:
+            rf, nt = clean(n.get("ref", "")), clean(n.get("note", ""))
+            if rf or nt:
+                tn.append((rf + ". " + nt) if rf else nt)
+        if tn:
+            segments.append({"id": "teaching-translationNotes", "label": "Translation notes",
+                             "kind": "teaching", "text": "Translation notes. " + " ".join(tn)})
+        qs = [clean(x) for x in (study.get("questions", []) or []) if clean(x)]
+        if qs:
+            segments.append({"id": "questions", "label": "Questions for reflection",
+                             "kind": "teaching", "text": "Questions for reflection. " + " ".join(qs)})
 
     if overrides:
         for s in segments:
