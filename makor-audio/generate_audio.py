@@ -303,7 +303,8 @@ def main():
         print("Dry run only. Re-run without --dry-run to synthesise audio.")
         return
 
-    book = study.get("book", "book").lower().replace(" ", "-")
+    # Match the site's bookSlug() exactly: lower, non-alphanumerics to dashes, trim.
+    book = re.sub(r"[^a-z0-9]+", "-", study.get("book", "book").lower()).strip("-")
     slug = study.get("section", {}).get("slug", study_path.stem)
     outdir = Path(args.outdir) if args.outdir else Path(f"public/studies/{book}/{slug}/audio")
     outdir.mkdir(parents=True, exist_ok=True)
