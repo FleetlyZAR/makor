@@ -83,13 +83,21 @@ def s3_client(env):
     )
 
 
-def already_done(s3, bucket, key):
-    import botocore
+def study_current(s3, bucket, key, want_voices):
+    """A study is 'done' only if its manifest exists, was made by the current
+    build, and already contains every voice we are asking for. Otherwise it is
+    re-rendered. This keeps the run resumable while forcing a redo whenever the
+    spoken content or the voice set changes."""
     try:
-        s3.head_object(Bucket=bucket, Key=key)
-        return True
-    except botocore.exceptions.ClientError:
+        obj = s3.get_object(Bucket=bucket, Key=key)
+        data = json.loads(obj["Body"].read())
+    except Exception:
         return False
+    import generate_audio as ga
+    if data.get("build") != ga.BUILD_ID:
+        return False
+    have = set((data.get("voices") or {}).keys())
+    return set(want_voices).issubset(have)
 
 
 def remote_size(s3, bucket, key):
@@ -149,8 +157,9 @@ def main():
         study_path = f"studies/{bslug}/{slug}/audio/"
         manifest_key = study_path + "manifest.json"
 
+        want_voices = [v.strip() for v in args.voices.split(",") if v.strip()]
         try:
-            if not args.regen and already_done(s3, bucket, manifest_key):
+            if not args.regen and study_current(s3, bucket, manifest_key, want_voices):
                 done_skipped += 1
                 print(f"[{i}/{len(studies)}] done already: {bslug}/{slug}")
                 continue

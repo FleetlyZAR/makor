@@ -62,6 +62,9 @@ VOICES = {
     "bm_george":  {"label": "UK, male",   "lang": "en-gb"},
 }
 DEFAULT_VOICE = "am_michael"
+# Bump this whenever the spoken content changes, so the uploader knows to redo
+# studies whose audio was made by an older build (while staying resumable).
+BUILD_ID = "v2-fullstudy"
 
 # ---------------------------------------------------------------------------
 # Text assembly (verified by --dry-run; no model needed)
@@ -387,6 +390,7 @@ def main():
         "audioBase": args.base,                 # empty => player resolves next to manifest
         "studyPath": f"studies/{book}/{slug}/audio/",
         "format": ext,
+        "build": BUILD_ID,
         "defaultVoice": DEFAULT_VOICE if DEFAULT_VOICE in voices else voices[0],
         "voices": {},
     }
