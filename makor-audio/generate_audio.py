@@ -61,7 +61,7 @@ VOICES = {
     "bf_emma":    {"label": "UK, female", "lang": "en-gb"},
     "bm_george":  {"label": "UK, male",   "lang": "en-gb"},
 }
-DEFAULT_VOICE = "af_heart"
+DEFAULT_VOICE = "am_michael"
 
 # ---------------------------------------------------------------------------
 # Text assembly (verified by --dry-run; no model needed)

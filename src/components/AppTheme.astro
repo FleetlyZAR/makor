@@ -1,6 +1,6 @@
 ---
-// App theme. Only in the installed app (Capacitor). Default is dark; the reader
-// can switch to light and the choice is remembered. It remaps the site's global
+// App theme. Only in the installed app (Capacitor). Default is light; the reader
+// can switch to dark and the choice is remembered. It remaps the site's global
 // tokens to a dark, ink palette and darkens the fixed chrome. The website is
 // never touched. Toggle with window.makorToggleTheme().
 ---
@@ -12,7 +12,7 @@
 
     var KEY = 'makor_theme';
     function current() {
-      try { return localStorage.getItem(KEY) || 'dark'; } catch (e) { return 'dark'; }
+      try { return localStorage.getItem(KEY) || 'light'; } catch (e) { return 'light'; }
     }
     function apply(t) {
       document.documentElement.setAttribute('data-mk-theme', t);

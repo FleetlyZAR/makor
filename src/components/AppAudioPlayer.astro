@@ -99,6 +99,7 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
     if (!root) return;
     const audio = document.getElementById('mkap-audio');
     const REWIND = 90, FORWARD = 30;
+    const PREFERRED_VOICE = 'am_michael';
     const PLAY = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>';
     const PAUSE = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>';
     const KIND = { intro: 'Introduction', passage: 'The passage', teaching: 'The study' };
@@ -270,7 +271,7 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
       const murl = root.dataset.manifest;
       const dir = murl.slice(0, murl.lastIndexOf('/') + 1);
       base = m.audioBase ? (m.audioBase.replace(/\/?$/, '/') + (m.studyPath || '')) : dir;
-      voice = m.defaultVoice || Object.keys(m.voices)[0];
+      voice = m.voices[PREFERRED_VOICE] ? PREFERRED_VOICE : (m.defaultVoice || Object.keys(m.voices)[0]);
       $('mkap-title').textContent = m.study.title || 'Study';
       buildPlaylist(); renderVoices(); renderList();
       setPlayIcons();
