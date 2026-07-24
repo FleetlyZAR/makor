@@ -1,101 +1,96 @@
 ---
-// Inline audio player for a study. Reads a per-study manifest.json produced by
-// makor-audio/generate_audio.py and hosted on R2. Hides itself if a study has
-// no audio yet, so it is safe to render on every study before all are voiced.
+// Header-docked audio player for a study. A slim resting strip that pins under
+// whichever header is present (the sticky site header on the website, or the
+// fixed studybar in the app), plus a dropdown chapter panel. Reads a per-study
+// manifest.json from R2 and hides itself entirely when a study has no audio yet.
 //
-// Set the audio host once via an env var in Cloudflare Pages:
-//   PUBLIC_MAKOR_AUDIO_BASE = https://audio.makor.co.za/
-// Falls back to that default if the var is unset.
+// Audio host: PUBLIC_MAKOR_AUDIO_BASE (Cloudflare env), default below.
 const { book, bookSlug, slug, title } = Astro.props;
 const AUDIO_BASE = (import.meta.env.PUBLIC_MAKOR_AUDIO_BASE ?? 'https://audio.makor.co.za/').replace(/\/?$/, '/');
 const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.json`;
 ---
-<section
-  class="mkap"
-  id="mkap"
-  hidden
-  data-manifest={manifestUrl}
-  data-slug={slug}
-  data-book={book}
-  data-title={title}
->
-  <div class="mkap-head">
-    <p class="mkap-eyebrow">Listen to this study</p>
-    <div class="mkap-voices" id="mkap-voices"></div>
-  </div>
-
-  <div class="mkap-now">
-    <span class="mkap-kind" id="mkap-kind">The passage</span>
-    <span class="mkap-title" id="mkap-title">-</span>
-  </div>
-
-  <div class="mkap-track" id="mkap-trackbar"><i id="mkap-prog"></i></div>
-  <div class="mkap-time"><span id="mkap-time">0:00</span><span id="mkap-total">0:00</span></div>
-
-  <div class="mkap-ctrls">
-    <button class="mkap-btn" id="mkap-prev" type="button" aria-label="Previous section">
-      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/></svg>
-    </button>
-    <button class="mkap-btn mkap-skip" id="mkap-rew" type="button" aria-label="Back 90 seconds">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5V1L6 6l6 5V7a7 7 0 1 1-7 7" stroke-linecap="round" stroke-linejoin="round"/></svg><span>90</span>
-    </button>
-    <button class="mkap-btn mkap-main" id="mkap-play" type="button" aria-label="Play">
+<section class="mkap" id="mkap" hidden
+  data-manifest={manifestUrl} data-slug={slug} data-book={book} data-title={title}>
+  <div class="mkap-inner">
+    <button class="mkap-play" id="mkap-play" type="button" aria-label="Play">
       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
     </button>
-    <button class="mkap-btn mkap-skip" id="mkap-fwd" type="button" aria-label="Forward 30 seconds">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5V1l6 5-6 5V7a7 7 0 1 0 7 7" stroke-linecap="round" stroke-linejoin="round"/></svg><span>30</span>
+    <button class="mkap-now" id="mkap-toggle" type="button" aria-expanded="false" aria-label="Show sections">
+      <span class="mkap-eyebrow" id="mkap-eyebrow">Listen to this study</span>
+      <span class="mkap-title" id="mkap-title">&nbsp;</span>
     </button>
-    <button class="mkap-btn" id="mkap-next" type="button" aria-label="Next section">
-      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 6h2v12h-2zM6 18l8.5-6L6 6z"/></svg>
+    <div class="mkap-mini">
+      <button class="mkap-skip" id="mkap-rew" type="button" aria-label="Back 90 seconds">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5V1L6 6l6 5V7a7 7 0 1 1-7 7" stroke-linecap="round" stroke-linejoin="round"/></svg><span>90</span>
+      </button>
+      <button class="mkap-skip" id="mkap-fwd" type="button" aria-label="Forward 30 seconds">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5V1l6 5-6 5V7a7 7 0 1 0 7 7" stroke-linecap="round" stroke-linejoin="round"/></svg><span>30</span>
+      </button>
+      <span class="mkap-time" id="mkap-time">0:00 / 0:00</span>
+    </div>
+    <button class="mkap-chev" id="mkap-chev" type="button" aria-label="Show sections">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
     </button>
   </div>
+  <i class="mkap-prog" id="mkap-prog"></i>
 
-  <p class="mkap-badge" id="mkap-badge" hidden>Day complete: you listened all the way through. Unscored.</p>
-
-  <details class="mkap-list-wrap">
-    <summary>Sections</summary>
-    <div id="mkap-list"></div>
-  </details>
+  <div class="mkap-panel" id="mkap-panel" hidden>
+    <div class="mkap-panel-inner">
+      <div class="mkap-transport">
+        <button id="mkap-prev" type="button" aria-label="Previous section"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/></svg></button>
+        <button id="mkap-rew2" type="button" aria-label="Back 90 seconds"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5V1L6 6l6 5V7a7 7 0 1 1-7 7" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <button class="big" id="mkap-play2" type="button" aria-label="Play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
+        <button id="mkap-fwd2" type="button" aria-label="Forward 30 seconds"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5V1l6 5-6 5V7a7 7 0 1 0 7 7" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <button id="mkap-next" type="button" aria-label="Next section"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 6h2v12h-2zM6 18l8.5-6L6 6z"/></svg></button>
+      </div>
+      <div class="mkap-voices" id="mkap-voices"><span class="mkap-vlabel">Voice</span></div>
+      <div id="mkap-list"></div>
+      <p class="mkap-done" id="mkap-done" hidden>Listened all the way through. Day complete, unscored.</p>
+    </div>
+  </div>
 
   <audio id="mkap-audio" preload="metadata"></audio>
 </section>
 
-<style>
-  .mkap { border: 1px solid var(--line); border-left: 3px solid var(--light); border-radius: 12px; padding: 1.1rem 1.25rem; margin: 1.5rem 0; background: var(--surface, #fff); }
-  .mkap-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.6rem; }
-  .mkap-eyebrow { font-family: var(--sans); text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.72rem; font-weight: 700; color: var(--light); margin: 0; }
-  .mkap-voices { display: flex; flex-wrap: wrap; gap: 0.4rem; }
-  .mkap-voice { font-family: var(--sans); font-size: 0.78rem; padding: 0.25rem 0.7rem; border: 1px solid var(--line); border-radius: 999px; background: transparent; color: var(--muted); cursor: pointer; }
+<style is:global>
+  .mkap { position: sticky; top: 0; z-index: 45; width: 100vw; margin-left: calc(50% - 50vw); background: var(--surface); border-bottom: 2px solid var(--line); }
+  .mkap[hidden] { display: none; }
+  .mkap-inner { max-width: var(--maxw, 44rem); margin: 0 auto; display: flex; align-items: center; gap: 12px; padding: 8px 1.25rem; }
+  .mkap-play { flex: 0 0 auto; width: 40px; height: 40px; border-radius: 50%; border: none; background: var(--water); color: #fff; display: grid; place-items: center; cursor: pointer; }
+  .mkap-play svg { width: 18px; height: 18px; }
+  .mkap-now { flex: 1; min-width: 0; background: none; border: none; text-align: left; cursor: pointer; padding: 0; font: inherit; color: var(--ink); display: flex; flex-direction: column; gap: 1px; }
+  .mkap-eyebrow { font-family: var(--sans); font-size: 10px; letter-spacing: .16em; text-transform: uppercase; color: var(--light); }
+  .mkap-title { font-family: var(--display); font-size: 15px; line-height: 1.15; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .mkap-mini { display: flex; align-items: center; gap: 12px; color: var(--muted); }
+  .mkap-skip { background: none; border: none; color: var(--muted); cursor: pointer; display: flex; flex-direction: column; align-items: center; font-family: var(--sans); font-size: 8px; line-height: 1; padding: 0; }
+  .mkap-skip svg { width: 19px; height: 19px; }
+  .mkap-skip span { margin-top: -3px; }
+  .mkap-time { font-size: 11px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .mkap-chev { background: none; border: none; color: var(--light); cursor: pointer; flex: 0 0 auto; display: grid; place-items: center; padding: 0; }
+  .mkap-chev svg { width: 20px; height: 20px; transition: transform .2s ease; }
+  .mkap.open .mkap-chev svg { transform: rotate(180deg); }
+  .mkap-prog { position: absolute; left: 0; bottom: -2px; height: 2px; background: var(--light); width: 0; }
+
+  .mkap-panel { position: absolute; left: 0; right: 0; top: 100%; background: var(--surface); border-bottom: 1px solid var(--line); box-shadow: 0 12px 24px rgba(14,42,46,0.10); max-height: 62vh; overflow: auto; }
+  .mkap-panel[hidden] { display: none; }
+  .mkap-panel-inner { max-width: var(--maxw, 44rem); margin: 0 auto; padding: 10px 1.25rem 18px; }
+  .mkap-transport { display: flex; align-items: center; justify-content: center; gap: 18px; padding: 6px 0 10px; }
+  .mkap-transport button { background: none; border: none; color: var(--ink); cursor: pointer; display: grid; place-items: center; padding: 0; }
+  .mkap-transport svg { width: 22px; height: 22px; }
+  .mkap-transport .big { width: 48px; height: 48px; border-radius: 50%; background: var(--water); color: #fff; }
+  .mkap-voices { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 4px 0 2px; }
+  .mkap-vlabel { font-family: var(--sans); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-right: 2px; }
+  .mkap-voice { font-family: var(--sans); font-size: 12px; padding: 4px 12px; border: 1px solid var(--line); border-radius: 999px; background: transparent; color: var(--muted); cursor: pointer; }
   .mkap-voice.sel { background: var(--water); border-color: var(--water); color: #fff; }
-
-  .mkap-now { margin: 0.9rem 0 0.3rem; }
-  .mkap-kind { font-family: var(--sans); text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.66rem; font-weight: 700; color: var(--muted); margin-right: 0.5rem; }
-  .mkap-title { font-family: var(--serif); font-size: 1.05rem; color: var(--ink); }
-
-  .mkap-track { height: 5px; background: var(--line); border-radius: 3px; overflow: hidden; cursor: pointer; }
-  .mkap-track i { display: block; height: 100%; width: 0; background: var(--light); }
-  .mkap-time { display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); font-variant-numeric: tabular-nums; margin-top: 0.25rem; }
-
-  .mkap-ctrls { display: flex; align-items: center; justify-content: center; gap: 0.6rem; margin: 0.6rem 0 0.2rem; }
-  .mkap-btn { background: transparent; border: none; color: var(--ink); cursor: pointer; display: grid; place-items: center; width: 2.6rem; height: 2.6rem; border-radius: 50%; }
-  .mkap-btn svg { width: 1.4rem; height: 1.4rem; }
-  .mkap-skip { position: relative; color: var(--muted); }
-  .mkap-skip span { position: absolute; left: 0; right: 0; top: 50%; transform: translateY(-42%); text-align: center; font-size: 0.5rem; font-weight: 700; font-family: var(--sans); }
-  .mkap-main { width: 3.2rem; height: 3.2rem; background: var(--water); color: #fff; }
-  .mkap-main svg { width: 1.5rem; height: 1.5rem; }
-
-  .mkap-badge { display: block; background: var(--light-soft); border: 1px solid var(--line); color: var(--ink); border-radius: 8px; padding: 0.55rem 0.8rem; font-size: 0.9rem; margin: 0.8rem 0 0; }
-  .mkap-badge[hidden] { display: none; }
-
-  .mkap-list-wrap { margin-top: 0.8rem; }
-  .mkap-list-wrap summary { cursor: pointer; font-family: var(--sans); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
-  .mkap-group { font-family: var(--sans); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin: 0.8rem 0 0.2rem; }
-  .mkap-seg { display: flex; align-items: center; gap: 0.7rem; width: 100%; text-align: left; background: transparent; border: none; border-bottom: 1px solid var(--line); padding: 0.5rem 0.1rem; color: var(--ink); font-family: var(--sans); font-size: 0.92rem; cursor: pointer; }
-  .mkap-seg:hover { background: var(--light-soft); }
-  .mkap-seg.active { background: var(--light-soft); }
-  .mkap-seg .n { flex: 0 0 1.3rem; color: var(--light); font-weight: 700; text-align: center; font-size: 0.8rem; }
-  .mkap-seg .lbl { flex: 1 1 auto; }
-  .mkap-seg .d { flex: 0 0 auto; color: var(--muted); font-size: 0.8rem; font-variant-numeric: tabular-nums; }
+  .mkap-group { font-family: var(--sans); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 12px 0 2px; }
+  .mkap-seg { display: flex; align-items: center; gap: 10px; width: 100%; text-align: left; background: none; border: none; border-bottom: 1px solid var(--line); padding: 8px 2px; color: var(--ink); font: inherit; cursor: pointer; }
+  .mkap-seg:hover, .mkap-seg.active { background: var(--light-soft); }
+  .mkap-seg .n { width: 16px; text-align: center; color: var(--light); font-family: var(--display); font-size: 12px; }
+  .mkap-seg .lbl { flex: 1; font-family: var(--display); font-size: 14px; }
+  .mkap-seg .d { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+  .mkap-done { margin: 12px 0 0; background: var(--light-soft); border-radius: 8px; padding: 8px 10px; font-size: 13px; color: var(--ink); }
+  .mkap-done[hidden] { display: none; }
+  @media (max-width: 560px) { .mkap-mini { display: none; } }
 </style>
 
 <script>
@@ -110,15 +105,35 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
 
     const meta = { slug: root.dataset.slug, book: root.dataset.book, title: root.dataset.title };
     let M = null, base = '', voice = null, list = [], offsets = [], total = 0, idx = 0, pending = null, savedListen = false;
-
     const $ = (id) => document.getElementById(id);
     const fmt = (s) => { s = Math.max(0, Math.round(s || 0)); return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0'); };
+
+    function setPlayIcons() {
+      const html = audio.paused ? PLAY : PAUSE;
+      $('mkap-play').innerHTML = html;
+      const p2 = $('mkap-play2'); if (p2) p2.innerHTML = html;
+    }
+
+    // Dock the strip flush beneath whichever header is currently on screen.
+    function dockTop() {
+      let bottom = 0;
+      ['app-studybar', 'app-appbar'].forEach((id) => {
+        const el = document.getElementById(id);
+        if (el && !el.hasAttribute('hidden')) { const b = el.getBoundingClientRect().bottom; if (b > bottom) bottom = b; }
+      });
+      if (bottom === 0) {
+        const sh = document.querySelector('.site-header');
+        if (sh) { const cs = getComputedStyle(sh); if (cs.display !== 'none' && (cs.position === 'sticky' || cs.position === 'fixed')) bottom = sh.getBoundingClientRect().bottom; }
+      }
+      root.style.top = Math.max(0, Math.round(bottom)) + 'px';
+    }
+    let ticking = false;
+    function scheduleDock() { if (!ticking) { ticking = true; requestAnimationFrame(() => { dockTop(); ticking = false; }); } }
 
     function buildPlaylist() {
       list = M.voices[voice].segments.slice();
       offsets = []; total = 0;
       for (const s of list) { offsets.push(total); total += s.seconds || 0; }
-      $('mkap-total').textContent = fmt(total);
     }
     const globalTime = () => (offsets[idx] || 0) + (audio.currentTime || 0);
 
@@ -129,7 +144,7 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
       audio.src = base + seg.file;
       audio.load();
       if (autoplay) audio.play().catch(() => {});
-      $('mkap-kind').textContent = KIND[seg.kind] || 'Playing';
+      $('mkap-eyebrow').textContent = 'Listening · ' + (M.voices[voice].label || voice);
       $('mkap-title').textContent = seg.label;
       renderActive();
       setMediaMeta(seg);
@@ -144,36 +159,42 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
     audio.addEventListener('loadedmetadata', () => { if (pending != null) { try { audio.currentTime = pending; } catch (e) {} pending = null; } });
     audio.addEventListener('timeupdate', () => {
       const gt = globalTime();
-      $('mkap-time').textContent = fmt(gt);
+      $('mkap-time').textContent = fmt(gt) + ' / ' + fmt(total);
       $('mkap-prog').style.width = (total ? gt / total * 100 : 0) + '%';
       if ('mediaSession' in navigator && audio.duration) {
         try { navigator.mediaSession.setPositionState({ duration: audio.duration, position: audio.currentTime, playbackRate: 1 }); } catch (e) {}
       }
     });
-    audio.addEventListener('play', () => { $('mkap-play').innerHTML = PAUSE; renderActive(); });
-    audio.addEventListener('pause', () => { $('mkap-play').innerHTML = PLAY; renderActive(); });
+    audio.addEventListener('play', () => { setPlayIcons(); renderActive(); });
+    audio.addEventListener('pause', () => { setPlayIcons(); renderActive(); });
     audio.addEventListener('ended', () => { if (idx < list.length - 1) loadTrack(idx + 1, 0, true); else onListenedThrough(); });
 
-    $('mkap-play').onclick = () => { if (!audio.src) loadTrack(0, 0, true); else if (audio.paused) audio.play(); else audio.pause(); };
+    function togglePlay() { if (!audio.src) loadTrack(0, 0, true); else if (audio.paused) audio.play(); else audio.pause(); }
+    $('mkap-play').onclick = togglePlay;
+    $('mkap-play2').onclick = togglePlay;
+    $('mkap-rew').onclick = $('mkap-rew2').onclick = () => seekGlobal(globalTime() - REWIND);
+    $('mkap-fwd').onclick = $('mkap-fwd2').onclick = () => seekGlobal(globalTime() + FORWARD);
     $('mkap-prev').onclick = () => { if (globalTime() - (offsets[idx] || 0) > 3 || idx === 0) seekGlobal(offsets[idx] || 0); else loadTrack(idx - 1, 0, !audio.paused); };
     $('mkap-next').onclick = () => { if (idx < list.length - 1) loadTrack(idx + 1, 0, !audio.paused); };
-    $('mkap-rew').onclick = () => seekGlobal(globalTime() - REWIND);
-    $('mkap-fwd').onclick = () => seekGlobal(globalTime() + FORWARD);
-    $('mkap-trackbar').onclick = (e) => { const r = e.currentTarget.getBoundingClientRect(); seekGlobal((e.clientX - r.left) / r.width * total); };
+
+    function togglePanel() {
+      const open = root.classList.toggle('open');
+      $('mkap-panel').hidden = !open;
+      $('mkap-chev').setAttribute('aria-label', open ? 'Hide sections' : 'Show sections');
+      $('mkap-toggle').setAttribute('aria-expanded', open ? 'true' : 'false');
+    }
+    $('mkap-chev').onclick = togglePanel;
+    $('mkap-toggle').onclick = togglePanel;
 
     function renderActive() {
-      root.querySelectorAll('.mkap-seg').forEach((el) => {
-        const on = +el.dataset.i === idx;
-        el.classList.toggle('active', on);
-      });
+      root.querySelectorAll('.mkap-seg').forEach((el) => el.classList.toggle('active', +el.dataset.i === idx));
     }
 
     async function onListenedThrough() {
-      $('mkap-play').innerHTML = PLAY;
-      $('mkap-badge').hidden = false;
+      setPlayIcons();
+      $('mkap-done').hidden = false;
       if (savedListen) return;
       savedListen = true;
-      // Save an unscored completion so the day counts across the whole app.
       if (window.makorSaveAttempt) {
         try {
           await window.makorSaveAttempt({ slug: meta.slug, book: meta.book, title: meta.title, phase: 'listen', score: 0 });
@@ -213,7 +234,7 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
         segs.forEach((seg) => {
           const i = list.indexOf(seg); n++;
           const b = document.createElement('button');
-          b.className = 'mkap-seg'; b.dataset.i = i;
+          b.className = 'mkap-seg'; b.dataset.i = i; b.type = 'button';
           b.innerHTML = '<span class="n">' + n + '</span><span class="lbl"></span><span class="d">' + fmt(seg.seconds) + '</span>';
           b.querySelector('.lbl').textContent = seg.label;
           b.onclick = () => loadTrack(i, 0, true);
@@ -224,10 +245,11 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
     }
 
     function renderVoices() {
-      const box = $('mkap-voices'); box.innerHTML = '';
+      const box = $('mkap-voices');
+      box.querySelectorAll('.mkap-voice').forEach((el) => el.remove());
       Object.entries(M.voices).forEach(([id, v]) => {
         const b = document.createElement('button');
-        b.className = 'mkap-voice' + (id === voice ? ' sel' : ''); b.textContent = v.label; b.dataset.v = id;
+        b.className = 'mkap-voice' + (id === voice ? ' sel' : ''); b.textContent = v.label; b.dataset.v = id; b.type = 'button';
         b.onclick = () => switchVoice(id);
         box.appendChild(b);
       });
@@ -249,8 +271,13 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
       const dir = murl.slice(0, murl.lastIndexOf('/') + 1);
       base = m.audioBase ? (m.audioBase.replace(/\/?$/, '/') + (m.studyPath || '')) : dir;
       voice = m.defaultVoice || Object.keys(m.voices)[0];
+      $('mkap-title').textContent = m.study.title || 'Study';
       buildPlaylist(); renderVoices(); renderList();
+      setPlayIcons();
       root.hidden = false;
+      dockTop();
+      window.addEventListener('scroll', scheduleDock, { passive: true });
+      window.addEventListener('resize', scheduleDock);
     }).catch(() => { /* no audio for this study yet: stay hidden */ });
   })();
 </script>
