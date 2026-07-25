@@ -1,6 +1,8 @@
 ---
-// Renders one verse, turning {{lexKey|display}} tokens into tappable lexicon words.
-const { verse, lexicon = {} } = Astro.props;
+// Renders one verse, turning {{lexKey|display}} tokens into tappable lexicon
+// words. Each verse carries a stable anchor (id + human ref + plain text) so it
+// can be selected, shared, and deep linked.
+const { verse, lexicon = {}, book = '' } = Astro.props;
 const tokenRe = /\{\{([^|}]+)\|([^}]*)\}\}/g;
 const text = verse.text ?? '';
 const parts = [];
@@ -12,8 +14,12 @@ while ((m = tokenRe.exec(text)) !== null) {
   last = tokenRe.lastIndex;
 }
 if (last < text.length) parts.push({ type: 'text', value: text.slice(last) });
+const plain = parts.map((p) => (p.type === 'text' ? p.value : p.display)).join('').replace(/\s+/g, ' ').trim();
+const ch = verse.chapter;
+const vid = ch != null && verse.n != null ? `v${ch}-${verse.n}` : undefined;
+const vref = ch != null && verse.n != null ? `${book} ${ch}:${verse.n}`.trim() : undefined;
 ---
-<span class="verse">
+<span class="verse" id={vid} data-vref={vref} data-vtext={plain}>
   {verse.n != null && <sup class="vnum">{verse.n}</sup>}
   {parts.map((p) => {
     if (p.type === 'text') return p.value;

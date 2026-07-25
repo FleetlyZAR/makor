@@ -49,6 +49,15 @@ const bslug = bookSlug(study.book);
 
   <div id="study-meta" data-slug={sec.slug} data-book={study.book} data-title={sec.title} hidden></div>
 
+  <div class="mkshare" id="mkshare" hidden role="dialog" aria-label="Share verse">
+    <span class="mkshare-ref" id="mkshare-ref"></span>
+    <button class="mkshare-btn" id="mkshare-share" type="button">Share</button>
+    <button class="mkshare-btn" id="mkshare-copy" type="button">Copy</button>
+    <button class="mkshare-x" id="mkshare-close" type="button" aria-label="Close">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+
   <!-- Step 1: read the passage -->
   <p class="step-label">Step 1. Read the passage</p>
   <details class="cascade" open>
@@ -58,7 +67,7 @@ const bslug = bookSlug(study.book);
         {units.map((u) => (
           <div class="unit">
             {u.label && <div class="unit-label">{u.label}{u.note && <span class="unit-note"> &nbsp; {u.note}</span>}</div>}
-            <p>{u.verses?.map((v) => <VerseText verse={v} lexicon={lex} />)}</p>
+            <p>{u.verses?.map((v) => <VerseText verse={v} lexicon={lex} book={study.book} />)}</p>
             {u.media && u.media.kind === 'image' && (
               <figure class="media"><img src={u.media.src} alt={u.media.alt || ''} loading="lazy" />{u.media.caption && <figcaption>{u.media.caption}</figcaption>}</figure>
             )}
@@ -329,6 +338,28 @@ const bslug = bookSlug(study.book);
   </nav>
 </Base>
 
+<style is:global>
+  .scripture .verse { scroll-margin-top: 7rem; border-radius: 5px; cursor: pointer; transition: background-color .25s ease; padding: 0 2px; }
+  .scripture .verse:hover { background: var(--light-soft); }
+  .scripture .verse.selected { background: var(--light-soft); box-shadow: 0 0 0 2px var(--light-soft); }
+  .scripture .verse.flash { animation: mkflash 1.8s ease; }
+  @keyframes mkflash { 0%, 100% { background: transparent; } 25%, 65% { background: var(--light-soft); } }
+  .scripture .verse .lex { cursor: pointer; }
+
+  .mkshare {
+    position: fixed; left: 50%; transform: translateX(-50%); bottom: 1rem; z-index: 85;
+    display: flex; align-items: center; gap: 8px;
+    background: var(--ink); color: var(--paper);
+    padding: 8px 10px 8px 14px; border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(14, 42, 46, 0.28); max-width: min(92vw, 40rem);
+  }
+  .mkshare[hidden] { display: none; }
+  body.has-tabbar .mkshare { bottom: calc(4.9rem + env(safe-area-inset-bottom)); }
+  .mkshare-ref { font-family: var(--sans); font-size: 0.82rem; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .mkshare-btn { font-family: var(--sans); font-size: 0.82rem; background: var(--water); color: #fff; border: none; border-radius: 8px; padding: 6px 12px; cursor: pointer; }
+  .mkshare-x { background: none; border: none; color: var(--paper); cursor: pointer; display: grid; place-items: center; padding: 4px; opacity: 0.8; }
+</style>
+
 <script>
   function initQuiz(root, onComplete, reveal) {
     if (!root) return;
@@ -575,4 +606,65 @@ const bslug = bookSlug(study.book);
     if (pop.hasAttribute('hidden')) pop.removeAttribute('hidden');
     else pop.setAttribute('hidden', '');
   });
+
+  // Verse sharing and deep links. Tap a verse to select it, then Share or Copy
+  // its text in quotes with a link back to this movement at that verse.
+  (function () {
+    const bar = document.getElementById('mkshare');
+    const refEl = document.getElementById('mkshare-ref');
+    let selected = null;
+
+    function deselect() {
+      if (selected) selected.classList.remove('selected');
+      selected = null;
+      if (bar) bar.hidden = true;
+    }
+    function select(v) {
+      if (selected && selected !== v) selected.classList.remove('selected');
+      selected = v;
+      v.classList.add('selected');
+      if (refEl) refEl.textContent = v.dataset.vref || '';
+      if (bar) bar.hidden = false;
+    }
+    document.addEventListener('click', (e) => {
+      if (e.target.closest('.lex, .lex-pop, .gloss, .gloss-pop')) return;
+      const v = e.target.closest('.scripture .verse');
+      if (v) { selected === v ? deselect() : select(v); return; }
+      if (bar && !e.target.closest('.mkshare')) deselect();
+    });
+
+    function shareData() {
+      if (!selected) return null;
+      const text = '“' + (selected.dataset.vtext || '').trim() + '”\n— ' + (selected.dataset.vref || '');
+      const url = location.origin + location.pathname + '#' + selected.id;
+      return { text: text, url: url };
+    }
+    function flashBtn(btn, msg) { const o = btn.textContent; btn.textContent = msg; setTimeout(() => { btn.textContent = o; }, 1400); }
+    async function copy(btn) {
+      const d = shareData(); if (!d) return;
+      try { await navigator.clipboard.writeText(d.text + '\n' + d.url); flashBtn(btn, 'Copied'); } catch (e) {}
+    }
+    const shareBtn = document.getElementById('mkshare-share');
+    if (shareBtn) shareBtn.addEventListener('click', async () => {
+      const d = shareData(); if (!d) return;
+      if (navigator.share) { try { await navigator.share({ text: d.text, url: d.url }); } catch (e) {} }
+      else copy(shareBtn);
+    });
+    const copyBtn = document.getElementById('mkshare-copy');
+    if (copyBtn) copyBtn.addEventListener('click', () => copy(copyBtn));
+    const closeBtn = document.getElementById('mkshare-close');
+    if (closeBtn) closeBtn.addEventListener('click', deselect);
+
+    function openHash() {
+      if (!/^#v\d+-\d+$/.test(location.hash || '')) return;
+      const el = document.getElementById(location.hash.slice(1));
+      if (!el) return;
+      el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      select(el);
+      el.classList.add('flash');
+      setTimeout(() => el.classList.remove('flash'), 1800);
+    }
+    window.addEventListener('load', openHash);
+    window.addEventListener('hashchange', openHash);
+  })();
 </script>
