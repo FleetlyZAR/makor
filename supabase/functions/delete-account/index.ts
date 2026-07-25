@@ -30,13 +30,10 @@ Deno.serve(async (req: Request) => {
     if (userErr || !userData || !userData.user) return json({ error: 'Invalid session' }, 401);
     const uid = userData.user.id;
 
-    // Groups this user leads (with their invites/members), and any group the
-    // user was invited to or joined.
-    const { data: myGroups } = await admin.from('groups').select('id').eq('leader', uid);
-    const groupIds = (myGroups || []).map((g: { id: number }) => g.id);
-    if (groupIds.length) await admin.from('group_members').delete().in('group_id', groupIds);
-    await admin.from('group_members').delete().eq('user_id', uid);
-    if (groupIds.length) await admin.from('groups').delete().eq('leader', uid);
+    // The user's own plan (and its members), plus any memberships in friends' plans.
+    await admin.from('plan_members').delete().eq('owner', uid);
+    await admin.from('plan_members').delete().eq('member', uid);
+    await admin.from('plans').delete().eq('owner', uid);
 
     // User owned rows across the app.
     const tables = ['attempts', 'daily_activity', 'devices', 'notifications', 'study_progress', 'user_prefs', 'user_badges'];

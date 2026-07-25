@@ -103,6 +103,11 @@ import Base from '../layouts/Base.astro';
             <label>Start date</label>
             <input type="date" id="start">
           </div>
+          <div class="field">
+            <label>Google Meet link (optional, shared with friends you invite)</label>
+            <input type="url" id="meet" placeholder="https://meet.google.com/xxx-xxxx-xxx">
+            <p class="note" style="margin-top:6px">Create one in two clicks at meet.google.com (choose "Create a meeting for later") and paste it. It rides on every sitting, on your calendar and on the calendars of friends who join your plan.</p>
+          </div>
         </div>
 
         <div class="summary" id="summary"></div>
@@ -112,6 +117,28 @@ import Base from '../layouts/Base.astro';
         <p class="gstatus" id="gstatus" hidden></p>
         <button class="go alt" id="go">Download a calendar file (.ics) instead</button>
         <p class="note">The Google button signs you in and places the plan in its own "Makor reading plan" calendar; Makor only receives permission to manage calendars it creates, never your existing ones, and you can remove the whole plan any time by deleting that calendar. As new studies are published, press the button again and we will add them. The file download works with Apple Calendar, Outlook, and Google Calendar (Settings, then Import and export); it is yours to change or remove.</p>
+      </div>
+    </section>
+
+    <section class="plan-section" id="together-section" hidden>
+      <h2>Read together</h2>
+      <p class="plead">Invite friends to read on your plan. They must be your friends, and they must accept. Then you read the same passages at the same times, and your plan, with its Meet link, is theirs to add to their own calendar. Though one may be overpowered, two can defend themselves, and a cord of three strands is not quickly broken.</p>
+
+      <div class="tog-card" id="tog-invites" hidden>
+        <h3>Invitations to read together</h3>
+        <div id="tog-invite-list"></div>
+      </div>
+
+      <div class="tog-card" id="tog-joined" hidden>
+        <h3>Plans you are reading on</h3>
+        <div id="tog-joined-list"></div>
+      </div>
+
+      <div class="tog-card">
+        <h3>Invite friends to your plan</h3>
+        <p class="tog-hint" id="tog-need-plan" hidden>Save your plan first (add it to your calendar or download the file above), then invite friends here.</p>
+        <div id="tog-friends"></div>
+        <div id="tog-roster" class="tog-roster"></div>
       </div>
     </section>
   </div>
@@ -173,6 +200,23 @@ import Base from '../layouts/Base.astro';
   .plan-page .mp-actions { margin: 0.9rem 0 0; display: flex; flex-wrap: wrap; gap: 0.5rem; }
   .plan-page .mp-btn { background: var(--water); color: #fff; border: 0; border-radius: 8px; padding: 9px 14px; font-family: inherit; font-size: 0.85rem; cursor: pointer; }
   .plan-page .mp-btn.alt2 { background: transparent; color: var(--water); border: 1px solid var(--line); }
+
+  /* read together */
+  .plan-page .tog-card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 1.2rem 1.4rem; margin-top: 0.9rem; box-shadow: 0 24px 55px -38px rgba(14,42,46,.35); }
+  .plan-page .tog-card h3 { font-size: 1.15rem; margin: 0 0 0.6rem; }
+  .plan-page .tog-hint { font-size: 0.85rem; color: var(--muted); margin: 0 0 0.6rem; }
+  .plan-page .tog-row { display: flex; align-items: center; flex-wrap: wrap; gap: 0.5rem; padding: 0.6rem 0; border-bottom: 1px solid var(--line); }
+  .plan-page .tog-row:last-child { border-bottom: 0; }
+  .plan-page .tog-name { flex: 1; font-size: 0.95rem; min-width: 140px; }
+  .plan-page .tog-name small { display: block; color: var(--muted); font-size: 0.78rem; }
+  .plan-page .tog-friend { display: flex; align-items: center; gap: 10px; padding: 6px 0; font-size: 0.92rem; }
+  .plan-page .tog-friend input { width: 18px; height: 18px; accent-color: var(--water); }
+  .plan-page .tog-btn { background: var(--water); color: #fff; border: 0; border-radius: 8px; padding: 8px 14px; font-family: inherit; font-size: 0.85rem; cursor: pointer; text-decoration: none; display: inline-block; }
+  .plan-page .tog-btn.gold { background: var(--light); }
+  .plan-page .tog-btn.alt { background: transparent; color: var(--water); border: 1px solid var(--line); }
+  .plan-page .tog-btn.danger { background: transparent; color: #a3412f; border: 1px solid #e3c7c0; }
+  .plan-page .tog-roster { margin-top: 0.5rem; }
+  .plan-page .tog-empty { font-size: 0.88rem; color: var(--muted); }
 </style>
 
 <script is:inline>
@@ -254,6 +298,14 @@ function render(){
 function savePlanLocal(cfg){
   try{ localStorage.setItem('makor_plan',JSON.stringify({cfg:cfg,at:Date.now()})); }catch(e){}
   try{ if(window.makorClient&&window.makorUser) window.makorClient.auth.updateUser({data:{makor_plan_cfg:cfg}}); }catch(e){}
+  // Persist to the plans table so friends can read and join it, but never when
+  // we are adding a friend's shared plan (that cfg is theirs, not ours).
+  try{
+    if(window.makorClient&&window.makorUser&&!/[?&]share=/.test(location.search)){
+      window.makorClient.from('plans').upsert({owner:window.makorUser.id, cfg:cfg, meet_link:cfg.meet||null, updated_at:new Date().toISOString()});
+      if(window.makorRefreshTogether) window.makorRefreshTogether();
+    }
+  }catch(e){}
 }
 function loadPlanLocal(){
   try{ return JSON.parse(localStorage.getItem('makor_plan')||'null'); }catch(e){ return null; }
@@ -347,11 +399,11 @@ document.getElementById('mp-about').onclick=function(){
   function boot(){
     // Arriving from a group plan: load its settings, name the calendar
     // after the group, and carry its Meet link into every sitting.
-    if(location.search.match(/[?&]group=(\d+)/) && window.makorClient){
-      loadGroupCtx().then(function(g){
-        if(!g){ gsay(window.makorUser?'That group plan could not be found.':'Sign in (menu, top right), then reopen the group link to set up its calendar.'); return; }
+    if(location.search.match(/[?&]share=([0-9a-f-]{36})/i) && window.makorClient){
+      loadShareCtx().then(function(g){
+        if(!g){ gsay(window.makorUser?'That shared plan could not be found, or it is not shared with you.':'Sign in (menu, top right), then reopen the link to set up its calendar.'); return; }
         if(location.search.indexOf('gcal=resume')>=0) return; // the resume flow narrates from here
-        gsay('Group plan "'+g.name+'" loaded with its times and start date. Press "Add to my Google Calendar" or download the file, and every sitting lands on your calendar'+(GROUP_MEET?' with the group video call attached':'')+'.');
+        gsay(g.name+"’s plan loaded with its times and start date. Press “Add to my Google Calendar” or download the file, and every sitting lands on your calendar"+(SHARE_MEET?' with the group video call attached':'')+'.');
         var bs=document.getElementById('builder-section'); if(bs){ bs.hidden=false; bs.scrollIntoView({behavior:'smooth'}); }
       });
       return;
@@ -374,6 +426,7 @@ document.getElementById('mp-about').onclick=function(){
 function build(){
   var stamp=utcstamp();
   var cfg=cfgFromState();
+  GROUP_MEET = SHARE_MEET || cfg.meet || '';
   var startDay=new Date((cfg.start||new Date().toISOString().slice(0,10))+'T00:00:00');
   var lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Makor//Reading Plan//EN','CALSCALE:GREGORIAN','METHOD:PUBLISH','X-WR-CALNAME:Makor reading plan'];
   scheduleItems(studies,startDay,cfg).forEach(function(en,i){
@@ -425,7 +478,8 @@ autoSelectSlots(); render(); loadIndex();
    ============================================================ */
 var GCAL_SCOPE='https://www.googleapis.com/auth/calendar.app.created';
 var CAL_SUMMARY='Makor reading plan';
-var GROUP_MEET=''; // set when arriving from a group plan; attached to every sitting
+var GROUP_MEET=''; // the meet link attached to every sitting when building events
+var SHARE_MEET=''; // set when adding a friend's shared plan (?share=<owner>)
 var gstatus=document.getElementById('gstatus');
 var gstatus2=document.getElementById('gstatus2');
 
@@ -437,9 +491,11 @@ function userTz(){ try{ return Intl.DateTimeFormat().resolvedOptions().timeZone|
 function isoLocal(d){ return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate())+'T'+pad(d.getHours())+':'+pad(d.getMinutes())+':00'; }
 
 function cfgFromState(){
+  var meetEl=document.getElementById('meet');
   return { v:1, order:state.order, years:state.years, cadence:state.cadence,
     slots:{ 1:{on:state.slots[1].on,time:slotTime(1)}, 2:{on:state.slots[2].on,time:slotTime(2)}, 3:{on:state.slots[3].on,time:slotTime(3)} },
-    start:document.getElementById('start').value };
+    start:document.getElementById('start').value,
+    meet:(meetEl&&meetEl.value.trim())||'' };
 }
 function applyCfg(cfg){
   try{
@@ -453,6 +509,7 @@ function applyCfg(cfg){
       if(cfg.slots[s].time) el.querySelector('input[type=time]').value=cfg.slots[s].time;
     });
     if(cfg.start) document.getElementById('start').value=cfg.start;
+    var meetEl=document.getElementById('meet'); if(meetEl && cfg.meet!==undefined) meetEl.value=cfg.meet||'';
     ['order','years','cadence'].forEach(function(g){
       document.querySelectorAll('#'+g+' .opt').forEach(function(o){
         var v=o.dataset[g==='years'?'years':g]||o.dataset[g];
@@ -499,6 +556,7 @@ function sittingDesc(arr){
 // Google event resources, tagged with their study urls so a later
 // visit can tell exactly which studies are already on the calendar.
 function scheduleEvents(list,startDay,cfg){
+  GROUP_MEET = SHARE_MEET || (cfg&&cfg.meet) || '';
   var tz=userTz();
   return scheduleItems(list,startDay,cfg).map(function(en){
     var tm=en.time.split(':');
@@ -575,27 +633,27 @@ function readCfgFromDescription(desc){
   }catch(e){ return null; }
 }
 
-// Group context: settings, calendar name, and Meet link from a group plan.
-var groupReady=null;
-function loadGroupCtx(){
-  if(groupReady) return groupReady;
-  var gm=location.search.match(/[?&]group=(\d+)/);
-  if(!gm||!window.makorClient){ groupReady=Promise.resolve(null); return groupReady; }
-  // A group is now an instance of a plan template: the pace (order, years,
-  // cadence) lives on the template; the times, start date, and Meet link live
-  // on the group. RLS lets only its leader and members read the row.
-  groupReady=window.makorClient.from('groups')
-    .select('slots,start_date,meet_link,plan_templates(name,plan_order,years,cadence)')
-    .eq('id',+gm[1]).maybeSingle().then(function(r){
-    var g=r.data; if(!g) return null;
-    var t=g.plan_templates||{};
-    CAL_SUMMARY='Makor: '+(t.name||'reading group');
-    GROUP_MEET=g.meet_link||'';
-    var slots={}; [1,2,3].forEach(function(s){ var sl=(g.slots||{})[s]||{}; slots[s]={on:!!sl.on,time:sl.time||SLOT_TIME_DEFAULT[s]}; });
-    applyCfg({order:t.plan_order,years:t.years,cadence:t.cadence,slots:slots,start:g.start_date});
-    return {name:t.name||'reading group', meet_link:g.meet_link||''};
+// Shared plan context: a friend's whole plan, loaded by owner id from ?share=.
+// RLS lets only the owner and invited/accepted members read the plans row.
+var shareReady=null;
+function loadShareCtx(){
+  if(shareReady) return shareReady;
+  var gm=location.search.match(/[?&]share=([0-9a-f-]{36})/i);
+  if(!gm||!window.makorClient){ shareReady=Promise.resolve(null); return shareReady; }
+  var owner=gm[1];
+  shareReady=window.makorClient.from('plans').select('cfg,meet_link').eq('owner',owner).maybeSingle().then(function(r){
+    var p=r.data; if(!p) return null;
+    var cfg=p.cfg||{};
+    SHARE_MEET=p.meet_link||'';
+    return window.makorClient.from('profiles').select('display_name').eq('id',owner).maybeSingle().then(function(pr){
+      var nm=(pr.data&&pr.data.display_name)||'A friend';
+      CAL_SUMMARY='Makor: '+nm+'’s plan';
+      var slots={}; [1,2,3].forEach(function(s){ var sl=(cfg.slots||{})[s]||{}; slots[s]={on:!!sl.on,time:sl.time||SLOT_TIME_DEFAULT[s]}; });
+      applyCfg({order:cfg.order,years:cfg.years,cadence:cfg.cadence,slots:slots,start:cfg.start,meet:SHARE_MEET});
+      return {name:nm, meet_link:SHARE_MEET};
+    });
   }).catch(function(){ return null; });
-  return groupReady;
+  return shareReady;
 }
 
 function storedCalId(sess){
@@ -616,10 +674,10 @@ function gcalAuth(){
   }
   try{ sessionStorage.setItem('makor_gcal_tries',String(tries+1)); }catch(e){}
   try{ localStorage.setItem('makor_gcal_pending',JSON.stringify(cfgFromState())); }catch(e){}
-  var gm=location.search.match(/[?&]group=(\d+)/);
+  var gm=location.search.match(/[?&]share=([0-9a-f-]{36})/i);
   window.makorClient.auth.signInWithOAuth({ provider:'google', options:{
     scopes:GCAL_SCOPE,
-    redirectTo:location.origin+'/plan/?gcal=resume'+(gm?'&group='+gm[1]:''),
+    redirectTo:location.origin+'/plan/?gcal=resume'+(gm?'&share='+gm[1]:''),
     queryParams:{ include_granted_scopes:'true' }
   }});
 }
@@ -754,7 +812,7 @@ document.getElementById('gcal').onclick=function(){
       }
       try{ localStorage.removeItem('makor_gcal_pending'); }catch(e){}
       gsay('Finishing your Google sign in...');
-      loadGroupCtx().then(function(g){
+      loadShareCtx().then(function(g){
         if(!g && cfg) applyCfg(cfg);
         gcalRun(g?cfgFromState():(cfg||cfgFromState()));
       });
@@ -762,5 +820,130 @@ document.getElementById('gcal').onclick=function(){
   }
   if(window.makorClient) go();
   else window.addEventListener('makor-auth',go,{once:true});
+})();
+</script>
+
+<script is:inline>
+/* Read together: invite friends onto your plan, and accept invitations to read
+   on theirs. A person can own one plan and also be a member of friends' plans. */
+(function(){
+  var client=null, me=null, friends=[], hasPlan=false;
+  function $(id){ return document.getElementById(id); }
+  function escH(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+
+  function refresh(){
+    if(!me) return Promise.resolve();
+    return Promise.all([
+      client.rpc('my_friendships'),
+      client.rpc('my_plan_members'),
+      client.rpc('my_plan_memberships'),
+      client.from('plans').select('owner').eq('owner',me.id).maybeSingle()
+    ]).then(function(res){
+      friends=((res[0].data)||[]).filter(function(f){return f.status==='accepted';})
+        .map(function(f){return {id:f.other_id,name:f.display_name||'A reader'};});
+      hasPlan=!!(res[3].data);
+      render((res[1].data)||[], (res[2].data)||[]);
+    }).catch(function(){});
+  }
+  window.makorRefreshTogether=refresh;
+
+  function render(roster, memberships){
+    $('together-section').hidden=false;
+
+    // Invitations awaiting me (I am the member, still invited).
+    var invites=memberships.filter(function(m){return m.status==='invited';});
+    var invCard=$('tog-invites'), invList=$('tog-invite-list');
+    if(invites.length){
+      invCard.hidden=false;
+      invList.innerHTML=invites.map(function(m){
+        return '<div class="tog-row"><span class="tog-name">'+escH(m.owner_name)+' invited you to read together</span>'+
+          '<button class="tog-btn" data-act="accept" data-owner="'+escH(m.owner)+'">Accept</button>'+
+          '<button class="tog-btn alt" data-act="decline" data-owner="'+escH(m.owner)+'">Decline</button></div>';
+      }).join('');
+    } else { invCard.hidden=true; invList.innerHTML=''; }
+
+    // Plans I have joined (I am the member, accepted).
+    var joined=memberships.filter(function(m){return m.status==='accepted';});
+    var joinedCard=$('tog-joined'), joinedList=$('tog-joined-list');
+    if(joined.length){
+      joinedCard.hidden=false;
+      joinedList.innerHTML=joined.map(function(m){
+        return '<div class="tog-row"><span class="tog-name">Reading on '+escH(m.owner_name)+'’s plan</span>'+
+          '<a class="tog-btn gold" href="/plan/?share='+escH(m.owner)+'">Add to my calendar</a>'+
+          '<button class="tog-btn danger" data-act="leave" data-owner="'+escH(m.owner)+'">Leave</button></div>';
+      }).join('');
+    } else { joinedCard.hidden=true; joinedList.innerHTML=''; }
+
+    // My own plan's roster + friend picker.
+    $('tog-need-plan').hidden=hasPlan;
+    var inRoster={}; roster.forEach(function(r){ inRoster[r.member]=r.status; });
+    var available=friends.filter(function(f){ return !inRoster[f.id]; });
+    var fEl=$('tog-friends');
+    if(!friends.length){
+      fEl.innerHTML='<p class="tog-empty">Add friends on the <a href="/activity/">Friends</a> page first, then invite them to read with you.</p>';
+    } else if(available.length){
+      fEl.innerHTML=available.map(function(f){
+        return '<label class="tog-friend"><input type="checkbox" value="'+escH(f.id)+'"> '+escH(f.name)+'</label>';
+      }).join('')+'<div style="margin-top:.6rem"><button class="tog-btn" data-act="send">Send invites</button></div>';
+    } else {
+      fEl.innerHTML='<p class="tog-empty">Every friend is already on your plan.</p>';
+    }
+    var rEl=$('tog-roster');
+    if(roster.length){
+      rEl.innerHTML='<div class="tog-empty" style="margin-bottom:.3rem">On your plan:</div>'+roster.map(function(r){
+        return '<div class="tog-row"><span class="tog-name">'+escH(r.name)+'<small>'+(r.status==='accepted'?'reading with you':'invited, awaiting reply')+'</small></span>'+
+          '<button class="tog-btn danger" data-act="remove" data-member="'+escH(r.member)+'">Remove</button></div>';
+      }).join('');
+    } else { rEl.innerHTML=''; }
+  }
+
+  function ensurePlan(){
+    if(hasPlan) return Promise.resolve(true);
+    var cfg=null;
+    try{ var s=JSON.parse(localStorage.getItem('makor_plan')||'null'); cfg=s&&s.cfg; }catch(e){}
+    if(!cfg){ var m=me.user_metadata&&me.user_metadata.makor_plan_cfg; if(m) cfg=m; }
+    if(!cfg) return Promise.resolve(false);
+    return client.from('plans').upsert({owner:me.id, cfg:cfg, meet_link:cfg.meet||null, updated_at:new Date().toISOString()})
+      .then(function(r){ if(!r.error){ hasPlan=true; return true; } return false; });
+  }
+
+  $('together-section').addEventListener('click',function(e){
+    var btn=e.target.closest('button[data-act]'); if(!btn) return;
+    var act=btn.dataset.act;
+    if(act==='accept'){
+      btn.disabled=true;
+      client.from('plan_members').update({status:'accepted'}).eq('owner',btn.dataset.owner).eq('member',me.id)
+        .then(function(r){ if(r.error){ alert('Could not accept just now.'); btn.disabled=false; return; } refresh(); });
+    } else if(act==='decline'||act==='leave'){
+      if(act==='leave'&&!confirm('Leave this shared plan?')) return;
+      btn.disabled=true;
+      client.from('plan_members').delete().eq('owner',btn.dataset.owner).eq('member',me.id).then(refresh);
+    } else if(act==='remove'){
+      if(!confirm('Remove this reader from your plan?')) return;
+      btn.disabled=true;
+      client.from('plan_members').delete().eq('owner',me.id).eq('member',btn.dataset.member).then(refresh);
+    } else if(act==='send'){
+      var checked=[].slice.call($('tog-friends').querySelectorAll('input:checked')).map(function(c){return c.value;});
+      if(!checked.length){ alert('Choose at least one friend to invite.'); return; }
+      btn.disabled=true;
+      ensurePlan().then(function(ok){
+        if(!ok){ btn.disabled=false; alert('Build and save your plan first (add it to your calendar or download the file above), then invite friends.'); return; }
+        var rows=checked.map(function(uid){ return {owner:me.id, member:uid, status:'invited', invited_by:me.id}; });
+        client.from('plan_members').insert(rows).then(function(r){
+          btn.disabled=false;
+          if(r.error){ alert('Could not send the invites just now: '+(r.error.message||'try again')); return; }
+          refresh();
+        });
+      });
+    }
+  });
+
+  function boot(){
+    client=window.makorClient; me=window.makorUser;
+    if(!me) return; // signed out: the together section stays hidden
+    refresh();
+  }
+  if(window.makorClient!==undefined&&window.makorUser!==undefined) boot();
+  else window.addEventListener('makor-auth',boot,{once:true});
 })();
 </script>

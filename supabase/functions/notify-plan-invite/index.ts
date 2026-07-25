@@ -1,13 +1,14 @@
-// Makor: notify-group-invite
+// Makor: notify-plan-invite
 //
-// POST: triggered by a database trigger on INSERT into public.group_members.
-//   Emails the invited reader that a friend has asked them to join a reading
-//   group, unless they have turned group invite emails off in user_prefs.
-// GET ?u=<userId>&t=<hmac>: one-click opt out of group invite emails
-//   (used by the List-Unsubscribe header and the email footer).
+// POST: triggered by a database trigger on INSERT into public.plan_members.
+//   Emails the invited reader that a friend has asked them to read the Bible
+//   together on their plan, unless they have turned reading invite emails off.
+// GET ?u=<userId>&t=<hmac>: one-click opt out (List-Unsubscribe + footer).
 //
 // Auth: shared secret in x-makor-key (app_config.webhook_key), same pattern
-// as notify-friend-request, so deploy with verify_jwt=false.
+// as notify-friend-request, so deploy with verify_jwt=false. The opt-out reuses
+// the existing user_prefs.group_invite_emails flag (the "reading invitations"
+// email toggle).
 
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 
@@ -43,7 +44,7 @@ Deno.serve(async (req: Request) => {
       await admin.from("user_prefs").upsert({ user_id: u, group_invite_emails: false, updated_at: new Date().toISOString() });
       return new Response(
         `<!doctype html><html><body style=\"font-family:Georgia,serif;background:#F6F3EC;color:#0E2A2E;padding:40px 20px;text-align:center;\">` +
-        `<h1 style=\"font-size:26px;\">You will no longer receive group invite emails.</h1>` +
+        `<h1 style=\"font-size:26px;\">You will no longer receive reading invitation emails.</h1>` +
         `<p style=\"color:#566a6a;\">You can turn them back on any time at <a href=\"${SITE_URL}/email-preferences/\" style=\"color:#0F6C6C;\">makor.co.za/email-preferences</a>.</p>` +
         `</body></html>`,
         { headers: { "Content-Type": "text/html; charset=utf-8" } },
@@ -55,10 +56,10 @@ Deno.serve(async (req: Request) => {
   try {
     const body = await req.json().catch(() => ({}));
     const record = body.record ?? body;
-    const groupId = record?.group_id;
-    const invitee: string | undefined = record?.user_id;
-    const inviter: string | undefined = record?.invited_by;
-    if (!groupId || !invitee) return json({ skipped: "missing ids" });
+    const owner: string | undefined = record?.owner;
+    const invitee: string | undefined = record?.member;
+    const inviter: string | undefined = record?.invited_by ?? record?.owner;
+    if (!owner || !invitee) return json({ skipped: "missing ids" });
     if (record?.status && record.status !== "invited") return json({ skipped: "not a pending invite" });
 
     // Secrets from app_config; env overrides.
@@ -79,21 +80,14 @@ Deno.serve(async (req: Request) => {
     const { data: prefs } = await admin.from("user_prefs").select("group_invite_emails").eq("user_id", invitee).maybeSingle();
     if (prefs && prefs.group_invite_emails === false) return json({ ok: true, emailed: false, reason: "opted out" });
 
-    // The group and its plan template.
-    const { data: g } = await admin
-      .from("groups")
-      .select("id, start_date, meet_link, plan_templates(name, plan_order, years, cadence)")
-      .eq("id", groupId)
-      .maybeSingle();
-    if (!g) return json({ ok: true, emailed: false, reason: "group gone" });
-    const tpl = (g as { plan_templates?: { name?: string; plan_order?: string; years?: number; cadence?: string } }).plan_templates ?? {};
-    const planName = (tpl.name || "a reading plan").trim();
-    const pace = `${ORDER_LABEL[tpl.plan_order ?? ""] || tpl.plan_order || ""}, ${tpl.years ?? 1} year${(tpl.years ?? 1) > 1 ? "s" : ""}, ${tpl.cadence === "weekday" ? "weekdays" : "every day"}`;
+    // The owner's plan, for the pace line.
+    const { data: plan } = await admin.from("plans").select("cfg, meet_link").eq("owner", owner).maybeSingle();
+    const pcfg = (plan?.cfg ?? {}) as { order?: string; years?: number; cadence?: string };
+    const pace = `${ORDER_LABEL[pcfg.order ?? ""] || pcfg.order || "the whole Bible"}, ${pcfg.years ?? 1} year${(pcfg.years ?? 1) > 1 ? "s" : ""}, ${pcfg.cadence === "weekday" ? "weekdays" : "every day"}`;
+    const hasMeet = !!(plan?.meet_link);
 
     // Who is inviting, and who receives.
-    const { data: rp } = inviter
-      ? await admin.from("profiles").select("display_name").eq("id", inviter).maybeSingle()
-      : { data: null };
+    const { data: rp } = await admin.from("profiles").select("display_name").eq("id", inviter).maybeSingle();
     const inviterName = (rp?.display_name || "A fellow reader").trim();
     const { data: u } = await admin.auth.admin.getUserById(invitee);
     const to = u?.user?.email;
@@ -101,9 +95,9 @@ Deno.serve(async (req: Request) => {
     const firstName = (u?.user?.user_metadata?.full_name || u?.user?.user_metadata?.name || "").split(" ")[0] || "";
 
     const token = await sign(invitee);
-    const unsubUrl = `${FUNCTIONS_BASE}/notify-group-invite?u=${invitee}&t=${token}`;
+    const unsubUrl = `${FUNCTIONS_BASE}/notify-plan-invite?u=${invitee}&t=${token}`;
     const prefsUrl = `${SITE_URL}/email-preferences/`;
-    const respondUrl = `${SITE_URL}/groups/`;
+    const respondUrl = `${SITE_URL}/plan/`;
 
     const greeting = firstName ? `Dear ${esc(firstName)},` : "Dear reader,";
     const subject = `${inviterName} invited you to read the Bible together on Makor`;
@@ -115,23 +109,22 @@ Deno.serve(async (req: Request) => {
     <p style=\"font-size:16px;margin:0 0 6px;\">${greeting}</p>
     <p style=\"font-size:16px;color:#566a6a;margin:0 0 18px;\">Grace to you. Though one may be overpowered, two can defend themselves. A cord of three strands is not quickly broken. (Ecclesiastes 4:12)</p>
     <div style=\"background:#ffffff;border:1px solid #E4DDCC;border-radius:12px;padding:20px 22px;margin:0 0 20px;\">
-      <div style=\"font-family:Georgia,serif;font-size:20px;color:#0E2A2E;margin:0 0 6px;\"><strong>${esc(inviterName)}</strong> has invited you to a Makor reading group.</div>
-      <div style=\"font-family:Georgia,serif;font-size:16px;color:#0F6C6C;margin:0 0 8px;\">${esc(planName)}</div>
-      <div style=\"font-size:14px;color:#566a6a;\">${esc(pace)}, starting ${esc(String(g.start_date))}. You read the same passages at the same times${g.meet_link ? ", with a group video call to talk them through" : ""}, and each sitting lands on your calendar.</div>
+      <div style=\"font-family:Georgia,serif;font-size:20px;color:#0E2A2E;margin:0 0 6px;\"><strong>${esc(inviterName)}</strong> has invited you to read the Bible together on Makor.</div>
+      <div style=\"font-size:14px;color:#566a6a;\">Their plan: ${esc(pace)}. Accept, and the same passages at the same times${hasMeet ? ", with a group video call to talk them through," : ""} become yours to add to your own calendar.</div>
     </div>
     <a href=\"${respondUrl}\" style=\"display:inline-block;background:#0F6C6C;color:#ffffff;text-decoration:none;font-family:Arial,sans-serif;font-weight:bold;font-size:15px;padding:12px 22px;border-radius:999px;\">See the invitation</a>
-    <p style=\"font-size:13px;color:#566a6a;margin:14px 0 0;\">Joining is your choice. Accept on Makor and the plan is yours to add to your calendar.</p>
+    <p style=\"font-size:13px;color:#566a6a;margin:14px 0 0;\">Joining is your choice. Accept on your plan page and it is yours to add to your calendar.</p>
     <p style=\"font-family:Georgia,serif;font-style:italic;color:#0F6C6C;font-size:15px;margin:26px 0 0;\">In Your light we see light. (Psalm 36:9)</p>
     <hr style=\"border:none;border-top:1px solid #E4DDCC;margin:24px 0 12px;\">
-    <p style=\"font-size:12px;color:#8a9a9a;margin:0;\">You are receiving this because someone invited you to a reading group on Makor. <a href=\"${unsubUrl}\" style=\"color:#0F6C6C;\">Turn these emails off</a>, or <a href=\"${prefsUrl}\" style=\"color:#0F6C6C;\">manage all your email preferences</a>.</p>
+    <p style=\"font-size:12px;color:#8a9a9a;margin:0;\">You are receiving this because someone invited you to read together on Makor. <a href=\"${unsubUrl}\" style=\"color:#0F6C6C;\">Turn these emails off</a>, or <a href=\"${prefsUrl}\" style=\"color:#0F6C6C;\">manage all your email preferences</a>.</p>
   </div></body></html>`;
 
     const text = [
       greeting, "",
       "Grace to you. Though one may be overpowered, two can defend themselves. A cord of three strands is not quickly broken. (Ecclesiastes 4:12)", "",
-      `${inviterName} has invited you to a Makor reading group: ${planName} (${pace}), starting ${g.start_date}. You read the same passages at the same times${g.meet_link ? ", with a group video call" : ""}, and each sitting lands on your calendar.`, "",
+      `${inviterName} has invited you to read the Bible together on Makor. Their plan: ${pace}. Accept, and the same passages at the same times${hasMeet ? ", with a group video call," : ""} become yours to add to your own calendar.`, "",
       `See the invitation: ${respondUrl}`, "",
-      "Joining is your choice. Accept on Makor and the plan is yours to add to your calendar.", "",
+      "Joining is your choice. Accept on your plan page and it is yours to add to your calendar.", "",
       "In Your light we see light. (Psalm 36:9)", "",
       `Turn these emails off: ${unsubUrl}`,
       `Manage all your email preferences: ${prefsUrl}`,
