@@ -52,6 +52,7 @@ const bslug = bookSlug(study.book);
   <div class="mkshare" id="mkshare" hidden role="dialog" aria-label="Share verse">
     <span class="mkshare-ref" id="mkshare-ref"></span>
     <button class="mkshare-btn" id="mkshare-share" type="button">Share</button>
+    <button class="mkshare-btn" id="mkshare-image" type="button">Image</button>
     <button class="mkshare-btn" id="mkshare-copy" type="button">Copy</button>
     <button class="mkshare-x" id="mkshare-close" type="button" aria-label="Close">
       <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/></svg>
@@ -656,15 +657,17 @@ const bslug = bookSlug(study.book);
       const arr = ordered(); if (!arr.length) return '';
       const all = allVerses();
       const multi = arr.length > 1;
-      const bits = [];
-      let prev = null;
+      const lines = [];
+      let run = [], prev = null;
+      const flush = () => { if (run.length) { lines.push(run.join(' ')); run = []; } };
       arr.forEach((v) => {
         const i = all.indexOf(v), c = coords(v), t = (v.dataset.vtext || '').trim();
-        if (prev !== null && i - prev > 1) bits.push('...');
-        bits.push((multi && c) ? (c.n + ' ' + t) : t);
+        if (prev !== null && i - prev > 1) { flush(); lines.push('...'); }   // gap sits on its own line
+        run.push((multi && c) ? (c.n + ' ' + t) : t);
         prev = i;
       });
-      return bits.join(' ');
+      flush();
+      return lines.join('\n');
     }
     function shareData() {
       const arr = ordered(); if (!arr.length) return null;
@@ -687,6 +690,91 @@ const bslug = bookSlug(study.book);
     });
     const copyBtn = document.getElementById('mkshare-copy');
     if (copyBtn) copyBtn.addEventListener('click', () => copy(copyBtn));
+
+    // Share as image: the Makor scripture-card (tall 1080x1920 status format),
+    // drawn on a canvas from the same spec as tools/daily/gen_cards.py.
+    function cardText() {
+      const arr = ordered(); if (!arr.length) return '';
+      const all = allVerses(); const parts = []; let prev = null;
+      arr.forEach((v) => { const i = all.indexOf(v); if (prev !== null && i - prev > 1) parts.push('...'); parts.push((v.dataset.vtext || '').trim()); prev = i; });
+      return parts.join(' ');
+    }
+    function wrapText(ctx, text, maxw) {
+      const words = text.replace(/\s+/g, ' ').trim().split(' ');
+      const lines = []; let cur = '';
+      for (const w of words) { const trial = cur ? cur + ' ' + w : w; if (ctx.measureText(trial).width <= maxw || !cur) cur = trial; else { lines.push(cur); cur = w; } }
+      if (cur) lines.push(cur);
+      return lines;
+    }
+    function drawCard(ctx, S, verse, ref) {
+      const W = 1080 * S, H = 1920 * S, cx = 540 * S, rcy = 398 * S;
+      const gold = (a) => 'rgba(216,170,88,' + a + ')';
+      const maxd = Math.hypot(Math.max(cx, W - cx), Math.max(rcy, H - rcy));
+      const bg = ctx.createRadialGradient(cx, rcy, 0, cx, rcy, maxd);
+      bg.addColorStop(0, 'rgb(16,48,52)'); bg.addColorStop(1, 'rgb(11,33,36)');
+      ctx.fillStyle = bg; ctx.fillRect(0, 0, W, H);
+      const glowR = 172 * S;
+      for (let i = glowR; i > 0; i -= 2 * S) { const a = 0.165 * Math.pow(1 - i / glowR, 2); if (a <= 0) continue; ctx.beginPath(); ctx.fillStyle = gold(a); ctx.arc(cx, rcy, i, 0, 2 * Math.PI); ctx.fill(); }
+      [[20,150],[42,122],[68,96],[96,70],[124,48],[150,30]].forEach(([rad, al]) => { ctx.beginPath(); ctx.lineWidth = 2 * S; ctx.strokeStyle = 'rgba(184,134,47,' + (al / 255) + ')'; ctx.arc(cx, rcy, rad * S, 0, 2 * Math.PI); ctx.stroke(); });
+      ctx.beginPath(); ctx.fillStyle = gold(90 / 255); ctx.arc(cx, rcy, 17 * S, 0, 2 * Math.PI); ctx.fill();
+      ctx.beginPath(); ctx.fillStyle = 'rgb(242,216,150)'; ctx.arc(cx, rcy, 9.5 * S, 0, 2 * Math.PI); ctx.fill();
+      ctx.textBaseline = 'top';
+      const centered = (t, font, x, y, color) => { ctx.font = font; ctx.textAlign = 'center'; ctx.fillStyle = color; ctx.fillText(t, x, y); };
+      const tracked = (t, font, x, y, color, track) => {
+        ctx.font = font; ctx.textAlign = 'left'; ctx.fillStyle = color;
+        const chars = Array.from(t), ws = chars.map((ch) => ctx.measureText(ch).width);
+        const total = ws.reduce((a, b) => a + b, 0) + track * S * (chars.length - 1);
+        let xx = x - total / 2;
+        chars.forEach((ch, k) => { ctx.fillText(ch, xx, y); xx += ws[k] + track * S; });
+      };
+      tracked('MAKOR', '600 ' + (52 * S) + 'px Fraunces', cx, 672 * S, 'rgb(28,120,118)', 20);
+      ctx.fillStyle = 'rgb(184,134,47)'; ctx.fillRect(cx - 90 * S, 766 * S, 180 * S, 1.5 * S);
+      centered('Scripture of the day', 'italic 400 ' + (30 * S) + 'px Newsreader', cx, 790 * S, 'rgb(150,170,167)');
+      ctx.strokeStyle = 'rgb(70,96,96)'; ctx.lineWidth = Math.max(1, S);
+      ctx.beginPath(); ctx.moveTo(cx - 170 * S, 1735 * S); ctx.lineTo(cx + 170 * S, 1735 * S); ctx.stroke();
+      centered('Read the study', '400 ' + (30 * S) + 'px Newsreader', cx, 1775 * S, 'rgb(244,238,223)');
+      tracked('makor.co.za', '400 ' + (26 * S) + 'px Newsreader', cx, 1820 * S, 'rgb(28,120,118)', 3);
+      const sizes = [64, 60, 56, 52, 48, 44, 40], maxw = 780 * S, maxBlock = 640 * S, lhRatio = 1.42;
+      let vfont, lines, lh;
+      for (const s of sizes) { vfont = '400 ' + (s * S) + 'px Fraunces'; ctx.font = vfont; lines = wrapText(ctx, verse, maxw); lh = Math.round(s * lhRatio * S); if (lines.length * lh <= maxBlock) break; }
+      let vy = 1150 * S - (lh * lines.length) / 2;
+      lines.forEach((ln) => { centered(ln, vfont, cx, vy, 'rgb(244,238,223)'); vy += lh; });
+      tracked((ref || '').toUpperCase(), '600 ' + (34 * S) + 'px Fraunces', cx, vy + 34 * S, 'rgb(184,134,47)', 8);
+    }
+    async function makeCardBlob(verse, ref) {
+      try {
+        await Promise.all([
+          document.fonts.load('600 104px Fraunces'), document.fonts.load('400 128px Fraunces'),
+          document.fonts.load('italic 400 60px Newsreader'), document.fonts.load('400 60px Newsreader'),
+        ]);
+        await document.fonts.ready;
+      } catch (e) {}
+      const S = 2;
+      const big = document.createElement('canvas'); big.width = 1080 * S; big.height = 1920 * S;
+      drawCard(big.getContext('2d'), S, verse, ref);
+      const out = document.createElement('canvas'); out.width = 1080; out.height = 1920;
+      const octx = out.getContext('2d'); octx.imageSmoothingEnabled = true; octx.imageSmoothingQuality = 'high';
+      octx.drawImage(big, 0, 0, 1080, 1920);
+      return await new Promise((res) => out.toBlob(res, 'image/png'));
+    }
+    async function shareImage(btn) {
+      const arr = ordered(); if (!arr.length) return;
+      const ref = rangeRef(arr[0], arr[arr.length - 1]);
+      const verse = cardText();
+      flashBtn(btn, 'Rendering');
+      let blob; try { blob = await makeCardBlob(verse, ref); } catch (e) {}
+      if (!blob) { flashBtn(btn, 'Failed'); return; }
+      const file = new File([blob], 'makor-verse.png', { type: 'image/png' });
+      const d = shareData();
+      if (navigator.canShare && navigator.canShare({ files: [file] })) {
+        try { await navigator.share({ files: [file], text: d ? d.url : undefined }); return; } catch (e) { if (e && e.name === 'AbortError') return; }
+      }
+      const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'makor-verse.png';
+      document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 3000);
+    }
+    const imgBtn = document.getElementById('mkshare-image');
+    if (imgBtn) imgBtn.addEventListener('click', () => shareImage(imgBtn));
+
     const closeBtn = document.getElementById('mkshare-close');
     if (closeBtn) closeBtn.addEventListener('click', clearAll);
 
