@@ -1,22 +1,36 @@
 ---
 import Base from '../layouts/Base.astro';
 ---
-<Base title="Group plans | Makor" description="Read the Bible together: shared reading plans with fixed times, study partners, and an optional Google Meet.">
+<Base title="Group plans | Makor" description="Read the Bible together: start a shared reading plan, set your own times, and invite friends to walk it with you.">
   <div class="groups-page">
     <section class="hero">
       <p class="eyebrow">Together</p>
-      <h1>Group reading plans</h1>
-      <p class="lead">Join a plan and read the same passages at the same time as your study partners, with an optional Google Meet for talking it through. Two are better than one.</p>
+      <h1>Read together</h1>
+      <p class="lead">Start a reading plan, set your own sittings and start date, add an optional Google Meet, and invite friends to walk it with you. Two are better than one, and a cord of three strands is not quickly broken.</p>
     </section>
 
     <p id="gp-status" class="gp-status">Loading...</p>
-    <div id="gp-list"></div>
 
+    <!-- Layer B: the caller's own groups and invitations -->
+    <section id="yg-section" class="gp-block" hidden>
+      <h2>Your groups</h2>
+      <div id="yg-list"></div>
+    </section>
+
+    <!-- Layer A: the admin authored catalog of plans anyone can start -->
+    <section id="tpl-section" class="gp-block" hidden>
+      <h2>Plans you can start</h2>
+      <p class="gp-sub">Pick a plan, make it your own, and lead your friends through it.</p>
+      <div id="tpl-list"></div>
+    </section>
+
+    <!-- Admin only: author a new plan template -->
     <section id="gp-admin" class="gp-admin" hidden>
-      <h2>Create a group plan</h2>
+      <h2>Author a plan template</h2>
+      <p class="gp-sub">Templates are the catalog members start their own groups from. Only the plan definition is set here; each leader chooses their own times, start date, and Meet link.</p>
       <div class="gp-grid">
-        <div class="gp-field gp-wide"><label>Name</label><input id="ga-name" type="text" maxlength="90" /></div>
-        <div class="gp-field gp-wide"><label>Description</label><input id="ga-desc" type="text" maxlength="300" /></div>
+        <div class="gp-field gp-wide"><label>Name</label><input id="ga-name" type="text" maxlength="120" /></div>
+        <div class="gp-field gp-wide"><label>Description</label><input id="ga-desc" type="text" maxlength="400" /></div>
         <div class="gp-field"><label>Reading order</label>
           <select id="ga-order"><option value="chronological">Chronological</option><option value="canonical">Canonical</option><option value="multitrack">Multi-track</option></select>
         </div>
@@ -26,34 +40,30 @@ import Base from '../layouts/Base.astro';
         <div class="gp-field"><label>Cadence</label>
           <select id="ga-cadence"><option value="daily">Every day</option><option value="weekday">Weekdays</option></select>
         </div>
-        <div class="gp-field"><label>Start date</label><input id="ga-start" type="date" /></div>
-        <div class="gp-field"><label>Sessions per day</label>
-          <select id="ga-sessions"><option value="1">One (morning)</option><option value="2">Two (morning, evening)</option><option value="3">Three (morning, midday, evening)</option></select>
-        </div>
-        <div class="gp-field"><label>Morning</label><input id="ga-t1" type="time" value="05:00" /></div>
-        <div class="gp-field"><label>Midday</label><input id="ga-t2" type="time" value="13:00" /></div>
-        <div class="gp-field"><label>Evening</label><input id="ga-t3" type="time" value="18:00" /></div>
-        <div class="gp-field gp-wide"><label>Google Meet link (optional)</label><input id="ga-meet" type="url" placeholder="https://meet.google.com/xxx-xxxx-xxx" />
-          <p class="gp-hint">Create one in two clicks at meet.google.com, choose "Create a meeting for later", and paste the link. It is attached to every sitting on members' calendars.</p>
-        </div>
       </div>
-      <button id="ga-create" class="gp-btn" type="button">Create plan</button>
-      <span id="ga-done" class="gp-saved" hidden>Created.</span>
+      <button id="ga-create" class="gp-btn" type="button">Add template</button>
+      <span id="ga-done" class="gp-saved" hidden>Added.</span>
     </section>
   </div>
 </Base>
 
 <style is:global>
   .groups-page .gp-status { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 1rem 1.2rem; font-size: 0.95rem; }
+  .groups-page .gp-block { border-top: 1px solid var(--line); margin-top: 1.6rem; padding-top: 1.3rem; }
+  .groups-page .gp-block h2 { font-size: 1.4rem; margin: 0 0 0.2rem; }
+  .groups-page .gp-sub { font-size: 0.88rem; color: var(--muted); margin: 0 0 1rem; line-height: 1.5; }
   .groups-page .gp-card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 1.3rem 1.4rem; margin-bottom: 0.9rem; box-shadow: 0 24px 55px -38px rgba(14,42,46,.35); }
-  .groups-page .gp-card h2 { font-size: 1.3rem; margin: 0 0 0.3rem; }
+  .groups-page .gp-card h3 { font-size: 1.2rem; margin: 0 0 0.3rem; }
   .groups-page .gp-desc { font-size: 0.92rem; color: var(--muted); margin: 0 0 0.6rem; line-height: 1.55; }
   .groups-page .gp-meta { font-size: 0.8rem; color: var(--water); margin: 0 0 0.8rem; }
-  .groups-page .gp-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; }
-  .groups-page .gp-btn { background: var(--water); color: #fff; border: 0; border-radius: 8px; padding: 9px 15px; font-family: inherit; font-size: 0.87rem; cursor: pointer; }
+  .groups-page .gp-pill { display: inline-block; font-size: 0.7rem; letter-spacing: 0.05em; text-transform: uppercase; background: var(--light-soft, #f3e9cf); color: #8a6d1f; border-radius: 20px; padding: 2px 9px; margin-bottom: 0.5rem; }
+  .groups-page .gp-pill.invite { background: #e7f1f0; color: var(--water); }
+  .groups-page .gp-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
+  .groups-page .gp-btn { background: var(--water); color: #fff; border: 0; border-radius: 8px; padding: 9px 15px; font-family: inherit; font-size: 0.87rem; cursor: pointer; text-decoration: none; display: inline-block; }
   .groups-page .gp-btn.alt { background: transparent; color: var(--water); border: 1px solid var(--line); }
   .groups-page .gp-btn.gold { background: var(--light); }
-  .groups-page .gp-admin { border-top: 1px solid var(--line); margin-top: 1.6rem; padding-top: 1.4rem; }
+  .groups-page .gp-btn.danger { background: transparent; color: #a3412f; border: 1px solid #e3c7c0; }
+  .groups-page .gp-admin { border-top: 1px solid var(--line); margin-top: 1.8rem; padding-top: 1.4rem; }
   .groups-page .gp-admin h2 { font-size: 1.25rem; }
   .groups-page .gp-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem 1rem; }
   .groups-page .gp-wide { grid-column: 1 / -1; }
@@ -62,76 +72,262 @@ import Base from '../layouts/Base.astro';
   .groups-page .gp-field input, .groups-page .gp-field select { width: 100%; box-sizing: border-box; background: #fff; border: 1px solid var(--line); color: var(--ink); border-radius: 8px; padding: 9px 11px; font-family: inherit; font-size: 0.92rem; }
   .groups-page .gp-hint { font-size: 0.76rem; color: var(--muted); margin: 0.3rem 0 0; }
   .groups-page .gp-saved { font-size: 0.85rem; color: var(--water); margin-left: 0.6rem; }
+  .groups-page .gp-form { border-top: 1px dashed var(--line); margin-top: 0.9rem; padding-top: 0.9rem; }
+  .groups-page .gp-slot { display: flex; align-items: center; gap: 10px; background: var(--paper); border: 1px solid var(--line); border-radius: 9px; padding: 8px 11px; margin-bottom: 8px; }
+  .groups-page .gp-slot .nm { flex: 1; font-size: 0.9rem; }
+  .groups-page .gp-slot input[type=checkbox] { width: 18px; height: 18px; accent-color: var(--water); }
+  .groups-page .gp-slot input[type=time] { background: #fff; border: 1px solid var(--line); color: var(--ink); border-radius: 7px; padding: 6px 8px; font-family: inherit; font-size: 0.85rem; }
+  .groups-page .gp-invite { border-top: 1px dashed var(--line); margin-top: 0.9rem; padding-top: 0.8rem; }
+  .groups-page .gp-friend { display: flex; align-items: center; gap: 10px; padding: 6px 0; font-size: 0.9rem; }
+  .groups-page .gp-friend input { width: 18px; height: 18px; accent-color: var(--water); }
+  .groups-page .gp-roster { font-size: 0.82rem; color: var(--muted); margin: 0.4rem 0 0; line-height: 1.6; }
+  .groups-page .gp-empty { font-size: 0.9rem; color: var(--muted); }
 </style>
 
 <script is:inline>
-var client=null, me=null;
+var client=null, me=null, IS_ADMIN=false;
+var friends=[]; // accepted friends: {id, name}
 function $(id){ return document.getElementById(id); }
 function escH(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
 var ORDER_LABEL={multitrack:'Multi-track',canonical:'Canonical',chronological:'Chronological'};
 var SLOT_NAME={1:'morning',2:'midday',3:'evening'};
+var SLOT_DEFAULT={1:'05:00',2:'13:00',3:'18:00'};
 
-function paceLine(g){
+function planLine(t){
+  return (ORDER_LABEL[t.plan_order]||t.plan_order)+' · '+t.years+' year'+(t.years>1?'s':'')+' · '+
+    (t.cadence==='weekday'?'weekdays':'every day');
+}
+function groupLine(g){
   var sits=[];
   [1,2,3].forEach(function(s){ var sl=g.slots&&g.slots[s]; if(sl&&sl.on) sits.push(SLOT_NAME[s]+' '+(sl.time||'')); });
   return (ORDER_LABEL[g.plan_order]||g.plan_order)+' · '+g.years+' year'+(g.years>1?'s':'')+' · '+
     (g.cadence==='weekday'?'weekdays':'every day')+' · '+sits.join(', ')+' · starts '+g.start_date;
 }
+
+/* ---------- Load and render everything ---------- */
 function load(){
-  client.rpc('list_group_plans').then(function(r){
-    var status=$('gp-status');
-    if(r.error){ status.textContent='Could not load group plans. Please try again in a minute.'; return; }
-    var rows=r.data||[];
-    if(!rows.length){ status.textContent='No group plans yet. Watch this space.'; return; }
-    status.hidden=true;
-    $('gp-list').innerHTML=rows.map(function(g){
-      var actions='';
-      if(g.is_member){
-        actions+='<a class="gp-btn gold" style="text-decoration:none" href="/plan/?group='+g.id+'">Add to my calendar</a>';
-        if(g.meet_link) actions+='<a class="gp-btn alt" style="text-decoration:none" href="'+escH(g.meet_link)+'" target="_blank" rel="noopener">Join the Meet</a>';
-        actions+='<button class="gp-btn alt" data-act="leave" data-id="'+g.id+'">Leave</button>';
-      } else {
-        actions+='<button class="gp-btn" data-act="join" data-id="'+g.id+'">Join this plan</button>';
-      }
-      return '<div class="gp-card">'+
-        '<h2>'+escH(g.name)+'</h2>'+
-        (g.description?'<p class="gp-desc">'+escH(g.description)+'</p>':'')+
-        '<p class="gp-meta">'+escH(paceLine(g))+' · '+g.member_count+' member'+(g.member_count==1?'':'s')+' · led by '+escH(g.creator_name)+'</p>'+
-        '<div class="gp-actions">'+actions+'</div>'+
-      '</div>';
-    }).join('');
+  return Promise.all([
+    client.rpc('my_groups'),
+    client.rpc('list_plan_templates'),
+    client.rpc('my_friendships')
+  ]).then(function(res){
+    var groups=(res[0].data)||[], tpls=(res[1].data)||[], fr=(res[2].data)||[];
+    friends=fr.filter(function(f){ return f.status==='accepted'; }).map(function(f){ return {id:f.other_id, name:f.display_name||'A reader'}; });
+    $('gp-status').hidden=true;
+    renderGroups(groups);
+    renderTemplates(tpls);
+  }).catch(function(){
+    $('gp-status').textContent='Could not load your groups just now. Please try again in a minute.';
+    $('gp-status').hidden=false;
   });
 }
+
+function renderGroups(groups){
+  var sec=$('yg-section'), list=$('yg-list');
+  if(!groups.length){ sec.hidden=true; return; }
+  sec.hidden=false;
+  // invitations first, then groups you are in
+  groups.sort(function(a,b){ return (a.role==='invited'?0:1)-(b.role==='invited'?0:1); });
+  list.innerHTML=groups.map(function(g){
+    var pill = g.role==='invited'
+      ? '<span class="gp-pill invite">Invitation</span>'
+      : (g.role==='leader' ? '<span class="gp-pill">You lead this</span>' : '');
+    var actions='';
+    if(g.role==='invited'){
+      actions='<button class="gp-btn" data-act="accept" data-id="'+g.id+'">Accept</button>'+
+              '<button class="gp-btn alt" data-act="decline" data-id="'+g.id+'">Decline</button>';
+    } else {
+      actions+='<a class="gp-btn gold" href="/plan/?group='+g.id+'">Add to my calendar</a>';
+      if(g.meet_link) actions+='<a class="gp-btn alt" href="'+escH(g.meet_link)+'" target="_blank" rel="noopener">Join the Meet</a>';
+      if(g.role==='leader'){
+        actions+='<button class="gp-btn alt" data-act="invite" data-id="'+g.id+'">Invite friends</button>';
+        actions+='<button class="gp-btn danger" data-act="delete" data-id="'+g.id+'">Delete group</button>';
+      } else {
+        actions+='<button class="gp-btn danger" data-act="leave" data-id="'+g.id+'">Leave</button>';
+      }
+    }
+    var lead = g.role==='leader' ? 'you' : escH(g.leader_name);
+    return '<div class="gp-card" data-group="'+g.id+'">'+
+      pill+
+      '<h3>'+escH(g.name)+'</h3>'+
+      (g.description?'<p class="gp-desc">'+escH(g.description)+'</p>':'')+
+      '<p class="gp-meta">'+escH(groupLine(g))+' · '+g.member_count+' reader'+(g.member_count==1?'':'s')+' · led by '+lead+'</p>'+
+      '<div class="gp-actions">'+actions+'</div>'+
+      '<div class="gp-invite" data-invite="'+g.id+'" hidden></div>'+
+    '</div>';
+  }).join('');
+}
+
+function renderTemplates(tpls){
+  var sec=$('tpl-section'), list=$('tpl-list');
+  if(!tpls.length){ sec.hidden=true; return; }
+  sec.hidden=false;
+  list.innerHTML=tpls.map(function(t){
+    var today=new Date(); today.setDate(today.getDate()+7); var def=today.toISOString().slice(0,10);
+    return '<div class="gp-card">'+
+      '<h3>'+escH(t.name)+'</h3>'+
+      (t.description?'<p class="gp-desc">'+escH(t.description)+'</p>':'')+
+      '<p class="gp-meta">'+escH(planLine(t))+'</p>'+
+      '<div class="gp-actions"><button class="gp-btn" data-act="start" data-tpl="'+t.id+'">Start this plan</button></div>'+
+      '<div class="gp-form" data-startform="'+t.id+'" hidden>'+
+        '<div class="gp-slot"><input type="checkbox" data-s="1" checked><span class="nm">Morning</span><input type="time" data-t="1" value="05:00"></div>'+
+        '<div class="gp-slot"><input type="checkbox" data-s="2"><span class="nm">Midday</span><input type="time" data-t="2" value="13:00"></div>'+
+        '<div class="gp-slot"><input type="checkbox" data-s="3"><span class="nm">Evening</span><input type="time" data-t="3" value="18:00"></div>'+
+        '<div class="gp-field"><label>Start date</label><input type="date" data-start="1" value="'+def+'"></div>'+
+        '<div class="gp-field gp-wide"><label>Google Meet link (optional)</label><input type="url" data-meet="1" placeholder="https://meet.google.com/xxx-xxxx-xxx">'+
+          '<p class="gp-hint">Create one in two clicks at meet.google.com (choose "Create a meeting for later") and paste the link. It is attached to every sitting on your group’s calendars.</p></div>'+
+        '<div class="gp-actions"><button class="gp-btn" data-act="create-group" data-tpl="'+t.id+'">Create my group</button></div>'+
+      '</div>'+
+    '</div>';
+  }).join('');
+}
+
+/* ---------- Actions ---------- */
 document.addEventListener('click',function(e){
-  var btn=e.target.closest('button[data-act]'); if(!btn) return;
-  var id=+btn.dataset.id; btn.disabled=true;
-  if(btn.dataset.act==='join') client.from('group_plan_members').insert({plan_id:id,user_id:me.id}).then(load);
-  else if(btn.dataset.act==='leave'){ if(confirm('Leave this group plan?')) client.from('group_plan_members').delete().eq('plan_id',id).eq('user_id',me.id).then(load); else btn.disabled=false; }
+  var btn=e.target.closest('button[data-act], a.gp-btn'); if(!btn||!btn.dataset.act) return;
+  var act=btn.dataset.act, id=+btn.dataset.id;
+
+  if(act==='start'){
+    var f=document.querySelector('[data-startform="'+btn.dataset.tpl+'"]');
+    if(f) f.hidden=!f.hidden;
+    return;
+  }
+  if(act==='create-group'){ createGroup(btn); return; }
+  if(act==='accept'){
+    btn.disabled=true;
+    client.from('group_members').update({status:'accepted'}).eq('group_id',id).eq('user_id',me.id).then(function(r){
+      if(r.error){ alert('Could not accept just now. Please try again.'); btn.disabled=false; return; }
+      load();
+    });
+    return;
+  }
+  if(act==='decline'){
+    if(!confirm('Decline this invitation?')) return;
+    btn.disabled=true;
+    client.from('group_members').delete().eq('group_id',id).eq('user_id',me.id).then(load);
+    return;
+  }
+  if(act==='leave'){
+    if(!confirm('Leave this group?')) return;
+    btn.disabled=true;
+    client.from('group_members').delete().eq('group_id',id).eq('user_id',me.id).then(load);
+    return;
+  }
+  if(act==='delete'){
+    if(!confirm('Delete this group for everyone? This cannot be undone.')) return;
+    btn.disabled=true;
+    client.from('groups').delete().eq('id',id).then(function(r){
+      if(r.error){ alert('Could not delete the group just now.'); btn.disabled=false; return; }
+      load();
+    });
+    return;
+  }
+  if(act==='invite'){ openInvite(id); return; }
+  if(act==='send-invites'){ sendInvites(btn); return; }
 });
 
+function createGroup(btn){
+  var tplId=+btn.dataset.tpl;
+  var form=document.querySelector('[data-startform="'+tplId+'"]');
+  var slots={};
+  [1,2,3].forEach(function(s){
+    var cb=form.querySelector('input[data-s="'+s+'"]');
+    var tm=form.querySelector('input[data-t="'+s+'"]');
+    slots[s]={on:!!(cb&&cb.checked), time:(tm&&tm.value)||SLOT_DEFAULT[s]};
+  });
+  if(![1,2,3].some(function(s){return slots[s].on;})){ alert('Choose at least one sitting.'); return; }
+  var start=form.querySelector('input[data-start="1"]').value;
+  if(!start){ alert('Choose a start date.'); return; }
+  var meet=(form.querySelector('input[data-meet="1"]').value||'').trim()||null;
+  btn.disabled=true;
+  client.from('groups').insert({template_id:tplId, leader:me.id, slots:slots, start_date:start, meet_link:meet})
+    .select('id').single().then(function(r){
+      btn.disabled=false;
+      if(r.error){ alert('Could not start the group: '+(r.error.message||'try again')); return; }
+      form.hidden=true;
+      load().then(function(){
+        var card=document.querySelector('.gp-card[data-group="'+r.data.id+'"]');
+        if(card){ card.scrollIntoView({behavior:'smooth',block:'center'}); openInvite(r.data.id); }
+      });
+    });
+}
+
+function openInvite(gid){
+  var panel=document.querySelector('[data-invite="'+gid+'"]');
+  if(!panel) return;
+  if(!panel.hidden){ panel.hidden=true; return; }
+  panel.hidden=false;
+  panel.innerHTML='<p class="gp-roster">Loading friends...</p>';
+  // Current invitees/members for this group (leader can read the rows they sent).
+  client.from('group_members').select('user_id,status').eq('group_id',gid).then(function(r){
+    var existing={}; (r.data||[]).forEach(function(m){ existing[m.user_id]=m.status; });
+    var available=friends.filter(function(f){ return !existing[f.id]; });
+    var html='';
+    if(!friends.length){
+      html='<p class="gp-roster">You have no accepted friends yet. Add friends on the <a href="/activity/">Friends</a> page, then invite them here.</p>';
+    } else {
+      if(available.length){
+        html+='<p class="gp-roster">Invite friends to this group:</p>';
+        html+=available.map(function(f){
+          return '<label class="gp-friend"><input type="checkbox" value="'+escH(f.id)+'"> '+escH(f.name)+'</label>';
+        }).join('');
+        html+='<div class="gp-actions" style="margin-top:.6rem"><button class="gp-btn" data-act="send-invites" data-id="'+gid+'">Send invites</button></div>';
+      } else {
+        html+='<p class="gp-roster">Every friend is already invited to this group.</p>';
+      }
+      var inv=Object.keys(existing);
+      if(inv.length){
+        var names=inv.map(function(uid){
+          var f=friends.filter(function(x){return x.id===uid;})[0];
+          return (f?f.name:'A reader')+' ('+(existing[uid]==='accepted'?'joined':'invited')+')';
+        });
+        html+='<p class="gp-roster">Already here: '+escH(names.join(', '))+'.</p>';
+      }
+    }
+    panel.innerHTML=html;
+  });
+}
+
+function sendInvites(btn){
+  var gid=+btn.dataset.id;
+  var panel=document.querySelector('[data-invite="'+gid+'"]');
+  var checked=[].slice.call(panel.querySelectorAll('input[type=checkbox]:checked')).map(function(c){return c.value;});
+  if(!checked.length){ alert('Choose at least one friend to invite.'); return; }
+  btn.disabled=true;
+  var rows=checked.map(function(uid){ return {group_id:gid, user_id:uid, status:'invited', invited_by:me.id}; });
+  client.from('group_members').insert(rows).then(function(r){
+    btn.disabled=false;
+    if(r.error){ alert('Could not send the invites just now: '+(r.error.message||'try again')); return; }
+    panel.hidden=true; openInvite(gid); // reopen to refresh the roster
+    load();
+  });
+}
+
+/* ---------- Admin: author a template ---------- */
 function initAdmin(){
-  var t=new Date(); t.setDate(t.getDate()+7); $('ga-start').value=t.toISOString().slice(0,10);
   $('ga-create').onclick=function(){
-    var n=+$('ga-sessions').value;
-    var slots={1:{on:true,time:$('ga-t1').value||'05:00'},2:{on:n>=3,time:$('ga-t2').value||'13:00'},3:{on:n>=2,time:$('ga-t3').value||'18:00'}};
-    client.from('group_plans').insert({
-      creator:me.id,
-      name:$('ga-name').value.trim(),
+    var name=$('ga-name').value.trim();
+    if(!name){ alert('Give the template a name.'); return; }
+    client.from('plan_templates').insert({
+      name:name,
       description:$('ga-desc').value.trim()||null,
       plan_order:$('ga-order').value, years:+$('ga-years').value, cadence:$('ga-cadence').value,
-      slots:slots, start_date:$('ga-start').value, meet_link:$('ga-meet').value.trim()||null
+      created_by:me.id
     }).then(function(r){
-      if(r.error){ alert('Could not create the plan: '+(r.error.message||'try again')); return; }
+      if(r.error){ alert('Could not add the template: '+(r.error.message||'try again')); return; }
+      $('ga-name').value=''; $('ga-desc').value='';
       var s=$('ga-done'); s.hidden=false; setTimeout(function(){ s.hidden=true; },2500);
       load();
     });
   };
 }
+
 function boot(){
   client=window.makorClient; me=window.makorUser;
-  if(!me){ $('gp-status').innerHTML='Sign in to see and join group plans. Use the menu at the top right.'; return; }
+  if(!me){ $('gp-status').innerHTML='Sign in to start a reading plan and read with friends. Use the menu at the top right.'; return; }
+  IS_ADMIN=['luyanda@fleetly.co.za'].indexOf(me.email)!==-1;
+  if(IS_ADMIN){ $('gp-admin').hidden=false; initAdmin(); }
   load();
-  if(['luyanda@fleetly.co.za'].indexOf(me.email)!==-1){ $('gp-admin').hidden=false; initAdmin(); }
 }
 if(window.makorClient!==undefined&&window.makorUser!==undefined) boot();
 else window.addEventListener('makor-auth',boot,{once:true});

@@ -30,12 +30,13 @@ Deno.serve(async (req: Request) => {
     if (userErr || !userData || !userData.user) return json({ error: 'Invalid session' }, 401);
     const uid = userData.user.id;
 
-    // Group plans created by this user, and everyone's membership of them.
-    const { data: myPlans } = await admin.from('group_plans').select('id').eq('creator', uid);
-    const planIds = (myPlans || []).map((p: { id: number }) => p.id);
-    if (planIds.length) await admin.from('group_plan_members').delete().in('plan_id', planIds);
-    await admin.from('group_plan_members').delete().eq('user_id', uid);
-    if (planIds.length) await admin.from('group_plans').delete().eq('creator', uid);
+    // Groups this user leads (with their invites/members), and any group the
+    // user was invited to or joined.
+    const { data: myGroups } = await admin.from('groups').select('id').eq('leader', uid);
+    const groupIds = (myGroups || []).map((g: { id: number }) => g.id);
+    if (groupIds.length) await admin.from('group_members').delete().in('group_id', groupIds);
+    await admin.from('group_members').delete().eq('user_id', uid);
+    if (groupIds.length) await admin.from('groups').delete().eq('leader', uid);
 
     // User owned rows across the app.
     const tables = ['attempts', 'daily_activity', 'devices', 'notifications', 'study_progress', 'user_prefs', 'user_badges'];

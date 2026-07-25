@@ -44,6 +44,13 @@ import Base from '../layouts/Base.astro';
             <small>When a fellow reader asks to be your friend on Makor, so requests never sit unseen.</small>
           </span>
         </label>
+        <label class="ep-row">
+          <input type="checkbox" id="ep-groups" />
+          <span>
+            <b>Group invitations</b>
+            <small>When a friend invites you to read the Bible together in one of their reading groups.</small>
+          </span>
+        </label>
       </div>
       <button id="ep-save" class="ep-btn" type="button">Save my preferences</button>
       <span id="ep-saved" class="ep-saved" hidden>Saved.</span>
@@ -77,13 +84,15 @@ function boot(){
     $('ep-sequence').checked=p.sequence_emails!==false;
     $('ep-badges').checked=p.badge_emails!==false;
     $('ep-friends').checked=p.friend_request_emails!==false;
+    $('ep-groups').checked=p.group_invite_emails!==false;
   });
   $('ep-save').onclick=function(){
     client.rpc('set_email_prefs',{p:{
       daily_emails:$('ep-daily').checked,
       sequence_emails:$('ep-sequence').checked,
       badge_emails:$('ep-badges').checked,
-      friend_request_emails:$('ep-friends').checked
+      friend_request_emails:$('ep-friends').checked,
+      group_invite_emails:$('ep-groups').checked
     }}).then(function(r){
       if(r.error){ alert('Could not save. Please try again.'); return; }
       var s=$('ep-saved'); s.hidden=false; setTimeout(function(){ s.hidden=true; },2500);

@@ -1,0 +1,21 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["Z494XUP7NM.za.co.makor.app"],
+        "components": [
+          {
+            "/": "/.well-known/*",
+            "exclude": true,
+            "comment": "Keep the association file itself and other well-known paths in the browser."
+          },
+          {
+            "/": "/*",
+            "comment": "Every other makor.co.za path opens in the Makor app when it is installed."
+          }
+        ]
+      }
+    ]
+  }
+}

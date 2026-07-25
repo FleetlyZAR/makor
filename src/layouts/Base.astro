@@ -465,5 +465,43 @@ const ogImageUrl = ogImage
         start(window.makorUser);
       })();
     </script>
+
+    <script is:inline>
+      // Native shell only: route incoming Universal Links to the bundled page.
+      // When a makor.co.za study link is tapped in Calendar, Mail, or Messages,
+      // iOS opens the Makor app and Capacitor hands us the full https URL. We
+      // strip it to a path and load the matching page that ships inside the app,
+      // so a calendar reminder lands on the study rather than in the browser.
+      (function () {
+        var Cap = window.Capacitor;
+        if (!Cap || !(Cap.isNativePlatform && Cap.isNativePlatform())) return;
+        var App = Cap.Plugins && Cap.Plugins.App;
+        if (!App) return;
+
+        var HOSTS = { 'makor.co.za': 1, 'www.makor.co.za': 1 };
+        function routeTo(rawUrl) {
+          try {
+            var u = new URL(rawUrl);
+            if (!HOSTS[u.hostname]) return; // ignore other hosts (e.g. auth.makor.co.za)
+            var target = u.pathname + u.search + u.hash;
+            if (!target || target === '/') target = '/';
+            var here = location.pathname + location.search + location.hash;
+            if (target !== here) location.href = target;
+          } catch (e) { /* never break the app on a malformed link */ }
+        }
+
+        // A link tapped while the app is already running.
+        App.addListener('appUrlOpen', function (data) {
+          if (data && data.url) routeTo(data.url);
+        });
+
+        // A link that cold-started the app: honour it once the shell is up.
+        if (App.getLaunchUrl) {
+          App.getLaunchUrl().then(function (res) {
+            if (res && res.url) routeTo(res.url);
+          }).catch(function () {});
+        }
+      })();
+    </script>
   </body>
 </html>

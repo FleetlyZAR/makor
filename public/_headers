@@ -1,0 +1,5 @@
+# Apple requires the association file to be served as JSON over https with no redirect.
+# Cloudflare Pages would otherwise serve an extension-less file as octet-stream.
+/.well-known/apple-app-site-association
+  Content-Type: application/json
+  Cache-Control: public, max-age=3600

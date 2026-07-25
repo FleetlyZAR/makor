@@ -581,13 +581,19 @@ function loadGroupCtx(){
   if(groupReady) return groupReady;
   var gm=location.search.match(/[?&]group=(\d+)/);
   if(!gm||!window.makorClient){ groupReady=Promise.resolve(null); return groupReady; }
-  groupReady=window.makorClient.from('group_plans').select('*').eq('id',+gm[1]).maybeSingle().then(function(r){
+  // A group is now an instance of a plan template: the pace (order, years,
+  // cadence) lives on the template; the times, start date, and Meet link live
+  // on the group. RLS lets only its leader and members read the row.
+  groupReady=window.makorClient.from('groups')
+    .select('slots,start_date,meet_link,plan_templates(name,plan_order,years,cadence)')
+    .eq('id',+gm[1]).maybeSingle().then(function(r){
     var g=r.data; if(!g) return null;
-    CAL_SUMMARY='Makor: '+g.name;
+    var t=g.plan_templates||{};
+    CAL_SUMMARY='Makor: '+(t.name||'reading group');
     GROUP_MEET=g.meet_link||'';
     var slots={}; [1,2,3].forEach(function(s){ var sl=(g.slots||{})[s]||{}; slots[s]={on:!!sl.on,time:sl.time||SLOT_TIME_DEFAULT[s]}; });
-    applyCfg({order:g.plan_order,years:g.years,cadence:g.cadence,slots:slots,start:g.start_date});
-    return g;
+    applyCfg({order:t.plan_order,years:t.years,cadence:t.cadence,slots:slots,start:g.start_date});
+    return {name:t.name||'reading group', meet_link:g.meet_link||''};
   }).catch(function(){ return null; });
   return groupReady;
 }
