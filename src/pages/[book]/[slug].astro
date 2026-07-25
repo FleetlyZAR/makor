@@ -614,37 +614,49 @@ const bslug = bookSlug(study.book);
     else pop.setAttribute('hidden', '');
   });
 
-  // Verse sharing and deep links. Tap a verse to select it, then Share or Copy
-  // its text in quotes with a link back to this movement at that verse.
+  // Verse sharing and deep links. Tap verses to select them; each toggles on
+  // its own, so several can be held at once to share a whole passage. Share or
+  // Copy gives the selected text in quotes with a range reference (first to
+  // last) and a link back to this movement at that passage.
   (function () {
     const bar = document.getElementById('mkshare');
     const refEl = document.getElementById('mkshare-ref');
-    let selected = null;
+    const sel = new Set();
 
-    function deselect() {
-      if (selected) selected.classList.remove('selected');
-      selected = null;
-      if (bar) bar.hidden = true;
+    const allVerses = () => Array.from(document.querySelectorAll('.scripture .verse'));
+    const ordered = () => allVerses().filter((v) => sel.has(v));
+    function coords(v) { const m = (v.id || '').match(/^v(\d+)-(\d+)$/); return m ? { ch: +m[1], n: +m[2] } : null; }
+    function bookName(v) { return (v.dataset.vref || '').replace(/\s+\d+:\d+$/, ''); }
+    function rangeRef(a, b) {
+      const A = coords(a), B = coords(b), book = bookName(a);
+      if (!A) return a.dataset.vref || '';
+      if (!B || (A.ch === B.ch && A.n === B.n)) return book + ' ' + A.ch + ':' + A.n;
+      if (A.ch === B.ch) return book + ' ' + A.ch + ':' + A.n + '-' + B.n;
+      return book + ' ' + A.ch + ':' + A.n + '-' + B.ch + ':' + B.n;
     }
-    function select(v) {
-      if (selected && selected !== v) selected.classList.remove('selected');
-      selected = v;
-      v.classList.add('selected');
-      if (refEl) refEl.textContent = v.dataset.vref || '';
+    function refresh() {
+      const arr = ordered();
+      if (!arr.length) { if (bar) bar.hidden = true; return; }
+      if (refEl) refEl.textContent = rangeRef(arr[0], arr[arr.length - 1]);
       if (bar) bar.hidden = false;
     }
+    function toggle(v) { if (sel.has(v)) { sel.delete(v); v.classList.remove('selected'); } else { sel.add(v); v.classList.add('selected'); } refresh(); }
+    function clearAll() { sel.forEach((v) => v.classList.remove('selected')); sel.clear(); if (bar) bar.hidden = true; }
+
     document.addEventListener('click', (e) => {
       if (e.target.closest('.lex, .lex-pop, .gloss, .gloss-pop')) return;
       const v = e.target.closest('.scripture .verse');
-      if (v) { selected === v ? deselect() : select(v); return; }
-      if (bar && !e.target.closest('.mkshare')) deselect();
+      if (v) toggle(v);   // clicking elsewhere keeps the selection; Close clears it
     });
 
     function shareData() {
-      if (!selected) return null;
-      const text = '“' + (selected.dataset.vtext || '').trim() + '”\n— ' + (selected.dataset.vref || '');
-      const url = location.origin + location.pathname + '#' + selected.id;
-      return { text: text, url: url };
+      const arr = ordered(); if (!arr.length) return null;
+      const first = arr[0], last = arr[arr.length - 1];
+      const body = arr.map((v) => (v.dataset.vtext || '').trim()).filter(Boolean).join(' ');
+      const A = coords(first), B = coords(last);
+      let anchor = first.id;
+      if (A && B && (A.ch !== B.ch || A.n !== B.n)) anchor = first.id + '..' + B.ch + '-' + B.n;
+      return { text: '“' + body + '”\n— ' + rangeRef(first, last), url: location.origin + location.pathname + '#' + anchor };
     }
     function flashBtn(btn, msg) { const o = btn.textContent; btn.textContent = msg; setTimeout(() => { btn.textContent = o; }, 1400); }
     async function copy(btn) {
@@ -660,16 +672,22 @@ const bslug = bookSlug(study.book);
     const copyBtn = document.getElementById('mkshare-copy');
     if (copyBtn) copyBtn.addEventListener('click', () => copy(copyBtn));
     const closeBtn = document.getElementById('mkshare-close');
-    if (closeBtn) closeBtn.addEventListener('click', deselect);
+    if (closeBtn) closeBtn.addEventListener('click', clearAll);
 
     function openHash() {
-      if (!/^#v\d+-\d+$/.test(location.hash || '')) return;
-      const el = document.getElementById(location.hash.slice(1));
-      if (!el) return;
-      el.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      select(el);
-      el.classList.add('flash');
-      setTimeout(() => el.classList.remove('flash'), 1800);
+      const m = (location.hash || '').match(/^#v(\d+)-(\d+)(?:\.\.(\d+)-(\d+))?$/);
+      if (!m) return;
+      const startEl = document.getElementById('v' + m[1] + '-' + m[2]);
+      if (!startEl) return;
+      clearAll();
+      let endEl = startEl;
+      if (m[3]) { const e = document.getElementById('v' + m[3] + '-' + m[4]); if (e) endEl = e; }
+      const all = allVerses();
+      let i0 = all.indexOf(startEl), i1 = all.indexOf(endEl);
+      if (i0 > i1) { const t = i0; i0 = i1; i1 = t; }
+      for (let i = i0; i <= i1; i++) { sel.add(all[i]); all[i].classList.add('selected'); all[i].classList.add('flash'); setTimeout(((el) => () => el.classList.remove('flash'))(all[i]), 1800); }
+      refresh();
+      startEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
     window.addEventListener('load', openHash);
     window.addEventListener('hashchange', openHash);
