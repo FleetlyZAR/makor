@@ -295,7 +295,7 @@ function showPlanCard(cfg){
       if(window.makorUser&&(rows||[]).length){
         if(next){
           today.innerHTML='<span class="mp-label">Continue where you left off</span>'+
-            '<a href="'+escHtml(next.url)+'">'+escHtml(next.title)+(next.ref?' ('+escHtml(next.ref)+')':'')+'</a>'+
+            '<a href="'+escHtml(next.url+'?plan='+cfg.order)+'">'+escHtml(next.title)+(next.ref?' ('+escHtml(next.ref)+')':'')+'</a>'+
             (next.summary?'<p class="mp-sum">'+escHtml(next.summary)+'</p>':'');
         } else {
           today.innerHTML='<span class="mp-label">Well done</span>You have read every committed study. New ones are published continually.';
@@ -308,7 +308,7 @@ function showPlanCard(cfg){
         if(upcoming.length){
           today.innerHTML='<span class="mp-label">'+label+'</span>'+upcoming.map(function(en){
             return en.items.map(function(x){
-              return '<a href="'+escHtml(x.url)+'">'+escHtml(x.title)+(x.ref?' ('+escHtml(x.ref)+')':'')+'</a>';
+              return '<a href="'+escHtml(x.url+'?plan='+cfg.order)+'">'+escHtml(x.title)+(x.ref?' ('+escHtml(x.ref)+')':'')+'</a>';
             }).join('<br>');
           }).join('<br>');
         } else { today.innerHTML='<span class="mp-label">Your plan</span>Your scheduled readings have all passed; press "Check for new studies" to extend the plan.'; }

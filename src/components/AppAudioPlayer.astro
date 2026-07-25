@@ -4,13 +4,19 @@
 // fixed studybar in the app), plus a dropdown chapter panel. Reads a per-study
 // manifest.json from R2 and hides itself entirely when a study has no audio yet.
 //
+// Continuous play: when a study's audio finishes it records that study as
+// listened, then seamlessly loads and plays the next study, with no page
+// reload, so a driver keeps moving from study to study. Order is canonical book
+// order by default, or a reading plan's order when the page URL carries
+// ?plan=canonical|chronological|multitrack.
+//
 // Audio host: PUBLIC_MAKOR_AUDIO_BASE (Cloudflare env), default below.
 const { book, bookSlug, slug, title } = Astro.props;
 const AUDIO_BASE = (import.meta.env.PUBLIC_MAKOR_AUDIO_BASE ?? 'https://audio.makor.co.za/').replace(/\/?$/, '/');
 const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.json`;
 ---
 <section class="mkap" id="mkap" hidden
-  data-manifest={manifestUrl} data-slug={slug} data-book={book} data-title={title}>
+  data-manifest={manifestUrl} data-slug={slug} data-book={book} data-title={title} data-bookslug={bookSlug}>
   <div class="mkap-inner">
     <button class="mkap-play" id="mkap-play" type="button" aria-label="Play">
       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
@@ -45,7 +51,7 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
       </div>
       <div class="mkap-voices" id="mkap-voices"><span class="mkap-vlabel">Voice</span></div>
       <div id="mkap-list"></div>
-      <p class="mkap-done" id="mkap-done" hidden>Listened all the way through. Day complete, unscored.</p>
+      <p class="mkap-done" id="mkap-done" hidden>That is the end of the reading. Well done.</p>
     </div>
   </div>
 
@@ -59,7 +65,7 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
   .mkap-play { flex: 0 0 auto; width: 40px; height: 40px; border-radius: 50%; border: none; background: var(--water); color: #fff; display: grid; place-items: center; cursor: pointer; }
   .mkap-play svg { width: 18px; height: 18px; }
   .mkap-now { flex: 1; min-width: 0; background: none; border: none; text-align: left; cursor: pointer; padding: 0; font: inherit; color: var(--ink); display: flex; flex-direction: column; gap: 1px; }
-  .mkap-eyebrow { font-family: var(--sans); font-size: 10px; letter-spacing: .16em; text-transform: uppercase; color: var(--light); }
+  .mkap-eyebrow { font-family: var(--sans); font-size: 10px; letter-spacing: .16em; text-transform: uppercase; color: var(--light); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .mkap-title { font-family: var(--display); font-size: 15px; line-height: 1.15; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .mkap-mini { display: flex; align-items: center; gap: 12px; color: var(--muted); }
   .mkap-skip { background: none; border: none; color: var(--muted); cursor: pointer; display: flex; flex-direction: column; align-items: center; font-family: var(--sans); font-size: 8px; line-height: 1; padding: 0; }
@@ -102,10 +108,11 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
     const PREFERRED_VOICE = 'am_michael';
     const PLAY = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>';
     const PAUSE = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>';
-    const KIND = { intro: 'Introduction', passage: 'The passage', teaching: 'The study' };
 
-    const meta = { slug: root.dataset.slug, book: root.dataset.book, title: root.dataset.title };
-    let M = null, base = '', voice = null, list = [], offsets = [], total = 0, idx = 0, pending = null, savedListen = false;
+    let M = null, base = '', audioBase = '', voice = null;
+    let list = [], offsets = [], total = 0, idx = 0, pending = null, savedListen = false;
+    let meta = { slug: root.dataset.slug, book: root.dataset.book, title: root.dataset.title };
+    let queue = [], qpos = -1;                 // cross-study playlist and position
     const $ = (id) => document.getElementById(id);
     const fmt = (s) => { s = Math.max(0, Math.round(s || 0)); return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0'); };
 
@@ -145,7 +152,6 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
       audio.src = base + seg.file;
       audio.load();
       if (autoplay) audio.play().catch(() => {});
-      $('mkap-eyebrow').textContent = 'Listening · ' + (M.voices[voice].label || voice);
       $('mkap-title').textContent = seg.label;
       renderActive();
       setMediaMeta(seg);
@@ -155,6 +161,44 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
       let i = 0; while (i < list.length - 1 && t >= offsets[i] + (list[i].seconds || 0)) i++;
       const within = t - offsets[i];
       if (i === idx) audio.currentTime = within; else loadTrack(i, within, !audio.paused);
+    }
+
+    // Fetch one study's manifest and make it current. Keeps the chosen voice
+    // across studies. Returns false if that study has no audio.
+    async function loadStudyByUrl(url, opts) {
+      opts = opts || {};
+      let m;
+      try { const r = await fetch(url); if (!r.ok) return false; m = await r.json(); } catch (e) { return false; }
+      if (!m.voices || !Object.keys(m.voices).length) return false;
+      M = m;
+      const host = m.audioBase ? m.audioBase.replace(/\/?$/, '/') : url.replace(/studies\/.*$/, '');
+      if (!audioBase) audioBase = host;
+      base = host + (m.studyPath || '');
+      voice = (voice && m.voices[voice]) ? voice : (m.voices[PREFERRED_VOICE] ? PREFERRED_VOICE : (m.defaultVoice || Object.keys(m.voices)[0]));
+      meta = { slug: m.study.slug, book: m.study.book, title: m.study.title };
+      savedListen = false;
+      $('mkap-eyebrow').textContent = m.study.title || 'Listen';
+      $('mkap-done').hidden = true;
+      buildPlaylist(); renderVoices(); renderList(); setPlayIcons();
+      loadTrack(opts.startIndex || 0, 0, !!opts.autoplay);
+      return true;
+    }
+
+    function nextManifestUrl(entry) {
+      return audioBase + 'studies/' + entry.bookSlug + '/' + entry.slug + '/audio/manifest.json';
+    }
+
+    // Move to the next (dir +1) or previous (dir -1) study in the queue,
+    // skipping any that turn out to have no audio.
+    async function advanceStudy(dir, autoplay) {
+      if (qpos < 0 || !queue.length) return false;
+      let p = qpos + dir;
+      while (p >= 0 && p < queue.length) {
+        const ok = await loadStudyByUrl(nextManifestUrl(queue[p]), { autoplay: autoplay, startIndex: 0 });
+        if (ok) { qpos = p; return true; }
+        p += dir;
+      }
+      return false;
     }
 
     audio.addEventListener('loadedmetadata', () => { if (pending != null) { try { audio.currentTime = pending; } catch (e) {} pending = null; } });
@@ -168,15 +212,27 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
     });
     audio.addEventListener('play', () => { setPlayIcons(); renderActive(); });
     audio.addEventListener('pause', () => { setPlayIcons(); renderActive(); });
-    audio.addEventListener('ended', () => { if (idx < list.length - 1) loadTrack(idx + 1, 0, true); else onListenedThrough(); });
+    audio.addEventListener('ended', async () => {
+      if (idx < list.length - 1) { loadTrack(idx + 1, 0, true); return; }
+      recordListen();                                  // this study is finished
+      const moved = await advanceStudy(1, true);       // roll into the next study
+      if (!moved) { setPlayIcons(); $('mkap-done').hidden = false; }
+    });
 
     function togglePlay() { if (!audio.src) loadTrack(0, 0, true); else if (audio.paused) audio.play(); else audio.pause(); }
     $('mkap-play').onclick = togglePlay;
     $('mkap-play2').onclick = togglePlay;
     $('mkap-rew').onclick = $('mkap-rew2').onclick = () => seekGlobal(globalTime() - REWIND);
     $('mkap-fwd').onclick = $('mkap-fwd2').onclick = () => seekGlobal(globalTime() + FORWARD);
-    $('mkap-prev').onclick = () => { if (globalTime() - (offsets[idx] || 0) > 3 || idx === 0) seekGlobal(offsets[idx] || 0); else loadTrack(idx - 1, 0, !audio.paused); };
-    $('mkap-next').onclick = () => { if (idx < list.length - 1) loadTrack(idx + 1, 0, !audio.paused); };
+    $('mkap-next').onclick = async () => {
+      if (idx < list.length - 1) loadTrack(idx + 1, 0, !audio.paused);
+      else await advanceStudy(1, !audio.paused);
+    };
+    $('mkap-prev').onclick = async () => {
+      if (globalTime() - (offsets[idx] || 0) > 3) seekGlobal(offsets[idx] || 0);
+      else if (idx > 0) loadTrack(idx - 1, 0, !audio.paused);
+      else await advanceStudy(-1, !audio.paused);
+    };
 
     function togglePanel() {
       const open = root.classList.toggle('open');
@@ -191,16 +247,13 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
       root.querySelectorAll('.mkap-seg').forEach((el) => el.classList.toggle('active', +el.dataset.i === idx));
     }
 
-    async function onListenedThrough() {
-      setPlayIcons();
-      $('mkap-done').hidden = false;
-      if (savedListen) return;
-      savedListen = true;
+    // Record the current study as listened-through (unscored day complete).
+    function recordListen() {
+      if (savedListen) return; savedListen = true;
       if (window.makorSaveAttempt) {
-        try {
-          await window.makorSaveAttempt({ slug: meta.slug, book: meta.book, title: meta.title, phase: 'listen', score: 0 });
-          if (window.makorRefreshProgress) window.makorRefreshProgress();
-        } catch (e) {}
+        Promise.resolve(window.makorSaveAttempt({ slug: meta.slug, book: meta.book, title: meta.title, phase: 'listen', score: 0 }))
+          .then(() => { if (window.makorRefreshProgress) window.makorRefreshProgress(); })
+          .catch(() => {});
       }
       if (window.onMakorListenedThrough) window.onMakorListenedThrough(meta.slug);
     }
@@ -210,8 +263,8 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
       try {
         navigator.mediaSession.metadata = new MediaMetadata({
           title: seg.label,
-          artist: 'Makor  ·  ' + (M.voices[voice].label || voice),
-          album: (M.study.title || '') + '  ·  ' + (M.study.passageRef || ''),
+          artist: (M.study.title || '') + '  ·  ' + (M.voices[voice].label || voice),
+          album: 'Makor  ·  ' + (M.study.passageRef || ''),
         });
       } catch (e) {}
       const H = (a, fn) => { try { navigator.mediaSession.setActionHandler(a, fn); } catch (e) {} };
@@ -266,19 +319,37 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
       loadTrack(idx, Math.max(0, gt - (offsets[idx] || 0)), wasPlaying);
     }
 
-    fetch(root.dataset.manifest).then((r) => { if (!r.ok) throw 0; return r.json(); }).then((m) => {
-      M = m;
-      const murl = root.dataset.manifest;
-      const dir = murl.slice(0, murl.lastIndexOf('/') + 1);
-      base = m.audioBase ? (m.audioBase.replace(/\/?$/, '/') + (m.studyPath || '')) : dir;
-      voice = m.voices[PREFERRED_VOICE] ? PREFERRED_VOICE : (m.defaultVoice || Object.keys(m.voices)[0]);
-      $('mkap-title').textContent = m.study.title || 'Study';
-      buildPlaylist(); renderVoices(); renderList();
-      setPlayIcons();
+    // The queue of studies to roll through: a reading plan's order if the page
+    // carries ?plan=..., otherwise straight canonical order from the site index.
+    function pathIds(u) {
+      try { const p = new URL(u, location.origin).pathname.split('/').filter(Boolean); return p.length >= 2 ? { bookSlug: p[0], slug: p[1] } : null; }
+      catch (e) { return null; }
+    }
+    async function buildQueue() {
+      const bslug = root.dataset.bookslug, slug = root.dataset.slug;
+      const plan = new URLSearchParams(location.search).get('plan');
+      let arr = [];
+      try {
+        if (plan) {
+          const idxArr = await fetch('/plan-index-' + encodeURIComponent(plan) + '.json').then((r) => { if (!r.ok) throw 0; return r.json(); });
+          arr = idxArr.map((e) => pathIds(e.url)).filter(Boolean);
+        } else {
+          const idxArr = await fetch('/search-index.json').then((r) => r.json());
+          arr = idxArr.filter((e) => e.available).map((e) => ({ bookSlug: e.bookSlug, slug: e.slug }));
+        }
+      } catch (e) { arr = []; }
+      queue = arr;
+      qpos = queue.findIndex((x) => x.bookSlug === bslug && x.slug === slug);
+    }
+
+    (async function init() {
+      const ok = await loadStudyByUrl(root.dataset.manifest, { autoplay: false, startIndex: 0 });
+      if (!ok) return;                 // no audio for this study yet: stay hidden
       root.hidden = false;
       dockTop();
       window.addEventListener('scroll', scheduleDock, { passive: true });
       window.addEventListener('resize', scheduleDock);
-    }).catch(() => { /* no audio for this study yet: stay hidden */ });
+      buildQueue();
+    })();
   })();
 </script>
