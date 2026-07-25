@@ -622,6 +622,7 @@ const bslug = bookSlug(study.book);
     const bar = document.getElementById('mkshare');
     const refEl = document.getElementById('mkshare-ref');
     const sel = new Set();
+    const measCtx = document.createElement('canvas').getContext('2d');
 
     const allVerses = () => Array.from(document.querySelectorAll('.scripture .verse'));
     const ordered = () => allVerses().filter((v) => sel.has(v));
@@ -639,6 +640,8 @@ const bslug = bookSlug(study.book);
       if (!arr.length) { if (bar) bar.hidden = true; return; }
       if (refEl) refEl.textContent = rangeRef(arr[0], arr[arr.length - 1]);
       if (bar) bar.hidden = false;
+      const ib = document.getElementById('mkshare-image');   // hide the image option if too long to render legibly
+      if (ib) ib.style.display = imageFits() ? '' : 'none';
     }
     function toggle(v) { if (sel.has(v)) { sel.delete(v); v.classList.remove('selected'); } else { sel.add(v); v.classList.add('selected'); } refresh(); }
     function clearAll() { sel.forEach((v) => v.classList.remove('selected')); sel.clear(); if (bar) bar.hidden = true; }
@@ -705,23 +708,26 @@ const bslug = bookSlug(study.book);
       if (cur) lines.push(cur);
       return lines;
     }
-    const CARD = { eyebrowBottom: 850, topPad: 50, refGap: 34, refLh: 48, footerH: 210, bottomPad: 60, minH: 1920 };
-    // Choose the largest verse size that keeps the block within a target; at the
-    // floor the block may be taller, which grows the card instead of overlapping.
+    // Fixed 1080x1920 card. The verse is sized down and centred to fit the area
+    // between the eyebrow and the footer; V_SIZES ends at a legibility floor.
+    const CARD = { H: 1920, regionTop: 900, regionBottom: 1650, refGap: 34, refLh: 48, footerLine: 1735, readY: 1775, urlY: 1820 };
+    const V_SIZES = [64, 60, 56, 52, 48, 44, 40, 36, 34];
+    const V_MAXW = 780;
+    const V_MAXBLOCK = CARD.regionBottom - CARD.regionTop - CARD.refGap - CARD.refLh;
     function layoutVerse(ctx, verse, S) {
-      const sizes = [64, 60, 56, 52, 48, 44, 40], maxw = 780 * S, targetBlock = 820 * S, lhRatio = 1.42;
       let chosen = null;
-      for (const s of sizes) {
+      for (const s of V_SIZES) {
         ctx.font = '400 ' + (s * S) + 'px Fraunces';
-        const lines = wrapText(ctx, verse, maxw);
-        const lh = Math.round(s * lhRatio * S);
-        chosen = { s, lines, lh, bh: lines.length * lh };
-        if (chosen.bh <= targetBlock) break;
+        const lines = wrapText(ctx, verse, V_MAXW * S);
+        const lh = Math.round(s * 1.42 * S);
+        chosen = { s: s, lines: lines, lh: lh, bh: lines.length * lh, fits: lines.length * lh <= V_MAXBLOCK * S };
+        if (chosen.fits) break;
       }
       return chosen;
     }
-    function drawCard(ctx, S, ref, L, Hs) {
-      const W = 1080 * S, H = Hs, cx = 540 * S, rcy = 398 * S;
+    function imageFits() { return layoutVerse(measCtx, cardText(), 1).fits; }
+    function drawCard(ctx, S, ref, L) {
+      const W = 1080 * S, H = CARD.H * S, cx = 540 * S, rcy = 398 * S;
       const gold = (a) => 'rgba(216,170,88,' + a + ')';
       const maxd = Math.hypot(Math.max(cx, W - cx), Math.max(rcy, H - rcy));
       const bg = ctx.createRadialGradient(cx, rcy, 0, cx, rcy, maxd);
@@ -744,17 +750,17 @@ const bslug = bookSlug(study.book);
       tracked('MAKOR', '600 ' + (52 * S) + 'px Fraunces', cx, 672 * S, 'rgb(28,120,118)', 20);
       ctx.fillStyle = 'rgb(184,134,47)'; ctx.fillRect(cx - 90 * S, 766 * S, 180 * S, 1.5 * S);
       centered('Scripture of the day', 'italic 400 ' + (30 * S) + 'px Newsreader', cx, 790 * S, 'rgb(150,170,167)');
-      // verse group, centred between the eyebrow and the footer
+      // verse + reference, centred within the fixed area
       const groupH = L.bh + CARD.refGap * S + CARD.refLh * S;
-      const midTop = CARD.eyebrowBottom * S, midBottom = H - CARD.footerH * S - CARD.bottomPad * S;
-      let vy = midTop + Math.max(CARD.topPad * S, (midBottom - midTop - groupH) / 2);
+      const rTop = CARD.regionTop * S, rBot = CARD.regionBottom * S;
+      let vy = rTop + Math.max(0, (rBot - rTop - groupH) / 2);
       L.lines.forEach((ln) => { centered(ln, '400 ' + (L.s * S) + 'px Fraunces', cx, vy, 'rgb(244,238,223)'); vy += L.lh; });
       tracked((ref || '').toUpperCase(), '600 ' + (34 * S) + 'px Fraunces', cx, vy + CARD.refGap * S, 'rgb(184,134,47)', 8);
-      // footer pinned to the bottom of the (possibly taller) card
+      // footer at fixed positions
       ctx.strokeStyle = 'rgb(70,96,96)'; ctx.lineWidth = Math.max(1, S);
-      ctx.beginPath(); ctx.moveTo(cx - 170 * S, H - 185 * S); ctx.lineTo(cx + 170 * S, H - 185 * S); ctx.stroke();
-      centered('Read the study', '400 ' + (30 * S) + 'px Newsreader', cx, H - 145 * S, 'rgb(244,238,223)');
-      tracked('makor.co.za', '400 ' + (26 * S) + 'px Newsreader', cx, H - 100 * S, 'rgb(28,120,118)', 3);
+      ctx.beginPath(); ctx.moveTo(cx - 170 * S, CARD.footerLine * S); ctx.lineTo(cx + 170 * S, CARD.footerLine * S); ctx.stroke();
+      centered('Read the study', '400 ' + (30 * S) + 'px Newsreader', cx, CARD.readY * S, 'rgb(244,238,223)');
+      tracked('makor.co.za', '400 ' + (26 * S) + 'px Newsreader', cx, CARD.urlY * S, 'rgb(28,120,118)', 3);
     }
     async function makeCardBlob(verse, ref) {
       try {
@@ -766,17 +772,12 @@ const bslug = bookSlug(study.book);
       } catch (e) {}
       const S = 2;
       const clean = (verse || '').replace(/\s+/g, ' ').trim();
-      const meas = document.createElement('canvas').getContext('2d');
-      const L = layoutVerse(meas, clean, S);
-      const groupHbase = (L.bh / S) + CARD.refGap + CARD.refLh;
-      const needed = CARD.eyebrowBottom + CARD.topPad + groupHbase + CARD.bottomPad + CARD.footerH;
-      const Hbase = Math.max(CARD.minH, Math.ceil(needed));
-      const Hs = Hbase * S;
-      const big = document.createElement('canvas'); big.width = 1080 * S; big.height = Hs;
-      drawCard(big.getContext('2d'), S, ref, L, Hs);
-      const out = document.createElement('canvas'); out.width = 1080; out.height = Hbase;
+      const L = layoutVerse(measCtx, clean, S);
+      const big = document.createElement('canvas'); big.width = 1080 * S; big.height = CARD.H * S;
+      drawCard(big.getContext('2d'), S, ref, L);
+      const out = document.createElement('canvas'); out.width = 1080; out.height = CARD.H;
       const octx = out.getContext('2d'); octx.imageSmoothingEnabled = true; octx.imageSmoothingQuality = 'high';
-      octx.drawImage(big, 0, 0, 1080, Hbase);
+      octx.drawImage(big, 0, 0, 1080, CARD.H);
       return await new Promise((res) => out.toBlob(res, 'image/png'));
     }
     async function shareImage(btn) {
