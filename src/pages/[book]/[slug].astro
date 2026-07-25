@@ -649,14 +649,30 @@ const bslug = bookSlug(study.book);
       if (v) toggle(v);   // clicking elsewhere keeps the selection; Close clears it
     });
 
+    // Combined text of the selected verses in order. When several are selected
+    // each is prefixed with its verse number, and a gap between non-adjacent
+    // verses is shown as "...".
+    function selectionText() {
+      const arr = ordered(); if (!arr.length) return '';
+      const all = allVerses();
+      const multi = arr.length > 1;
+      const bits = [];
+      let prev = null;
+      arr.forEach((v) => {
+        const i = all.indexOf(v), c = coords(v), t = (v.dataset.vtext || '').trim();
+        if (prev !== null && i - prev > 1) bits.push('...');
+        bits.push((multi && c) ? (c.n + ' ' + t) : t);
+        prev = i;
+      });
+      return bits.join(' ');
+    }
     function shareData() {
       const arr = ordered(); if (!arr.length) return null;
       const first = arr[0], last = arr[arr.length - 1];
-      const body = arr.map((v) => (v.dataset.vtext || '').trim()).filter(Boolean).join(' ');
       const A = coords(first), B = coords(last);
       let anchor = first.id;
       if (A && B && (A.ch !== B.ch || A.n !== B.n)) anchor = first.id + '..' + B.ch + '-' + B.n;
-      return { text: '“' + body + '”\n— ' + rangeRef(first, last), url: location.origin + location.pathname + '#' + anchor };
+      return { text: '“' + selectionText() + '”\n— ' + rangeRef(first, last), url: location.origin + location.pathname + '#' + anchor };
     }
     function flashBtn(btn, msg) { const o = btn.textContent; btn.textContent = msg; setTimeout(() => { btn.textContent = o; }, 1400); }
     async function copy(btn) {
