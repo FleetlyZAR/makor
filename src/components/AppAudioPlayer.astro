@@ -214,10 +214,14 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
     }
 
     // Section step within a movement (seamless), crossing the boundary if needed.
+    let lastPrevTs = 0;
     async function prevSection() {
-      if (globalTime() - (offsets[idx] || 0) > 3) { seekGlobal(offsets[idx] || 0); return; }
-      if (idx > 0) loadTrack(idx - 1, 0, !audio.paused);
-      else await advanceStudy(-1, !audio.paused, true);   // previous movement's last section
+      const atStart = (globalTime() - (offsets[idx] || 0)) <= 3;
+      if (!atStart) { seekGlobal(offsets[idx] || 0); return; }         // restart the current section
+      if (idx > 0) { loadTrack(idx - 1, 0, !audio.paused); return; }   // step to the previous section
+      const now = Date.now();                                          // at the very start of the study
+      if (now - lastPrevTs < 1000) { lastPrevTs = 0; await advanceStudy(-1, !audio.paused, true); }  // second press within 1s: previous movement's last section
+      else { lastPrevTs = now; loadTrack(0, 0, !audio.paused); }       // first press: stay at the start of this study
     }
     async function nextSection() {
       if (idx < list.length - 1) loadTrack(idx + 1, 0, !audio.paused);
