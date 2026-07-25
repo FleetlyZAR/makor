@@ -677,7 +677,8 @@ const bslug = bookSlug(study.book);
       const A = coords(first), B = coords(last);
       let anchor = first.id;
       if (A && B && (A.ch !== B.ch || A.n !== B.n)) anchor = first.id + '..' + B.ch + '-' + B.n;
-      return { text: '“' + selectionText() + '”\n— ' + rangeRef(first, last), url: location.origin + location.pathname + '#' + anchor };
+      const path = location.pathname.replace(/index\.html$/, '');
+      return { text: '“' + selectionText() + '”\n— ' + rangeRef(first, last), url: 'https://makor.co.za' + path + '#' + anchor };
     }
     function flashBtn(btn, msg) { const o = btn.textContent; btn.textContent = msg; setTimeout(() => { btn.textContent = o; }, 1400); }
     async function copy(btn) {

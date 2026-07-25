@@ -18,7 +18,7 @@
         "note": "the call to give thanks",
         "emphasis": "",
         "verses": [
-          { "chapter": 136, "n": 1, "text": "Give thanks to the LORD, for He is good. His {{chesed|loving devotion}} endures forever." },
+          { "chapter": 136, "n": 1, "text": "{{yadah|Give thanks}} to the LORD, for He is good. His {{chesed|loving devotion}} endures forever." },
           { "chapter": 136, "n": 2, "text": "Give thanks to the God of gods. His loving devotion endures forever." },
           { "chapter": 136, "n": 3, "text": "Give thanks to the Lord of lords. His loving devotion endures forever." }
         ]
@@ -26,12 +26,13 @@
       {
         "label": "By His insight He made the heavens",
         "note": "wonders in creation",
+        "media": { "kind": "image", "src": "/studies/psalms/psalm-136/creation.svg", "alt": "The great lights over the waters: sun, moon, and stars", "caption": "Wonders in creation: the sun to rule the day, the moon and stars to govern the night." },
         "emphasis": "",
         "verses": [
-          { "chapter": 136, "n": 4, "text": "He alone does great wonders. His loving devotion endures forever." },
+          { "chapter": 136, "n": 4, "text": "He alone does {{niphlaot|great wonders}}. His loving devotion endures forever." },
           { "chapter": 136, "n": 5, "text": "By His insight He made the heavens. His loving devotion endures forever." },
           { "chapter": 136, "n": 6, "text": "He spread out the earth upon the waters. His loving devotion endures forever." },
-          { "chapter": 136, "n": 7, "text": "He made the great lights, His loving devotion endures forever." },
+          { "chapter": 136, "n": 7, "text": "He made the {{meorot|great lights}}, His loving devotion endures forever." },
           { "chapter": 136, "n": 8, "text": "the sun to rule the day, His loving devotion endures forever." },
           { "chapter": 136, "n": 9, "text": "the moon and stars to govern the night. His loving devotion endures forever." }
         ]
@@ -39,6 +40,7 @@
       {
         "label": "He divided the Red Sea",
         "note": "deliverance from Egypt",
+        "media": { "kind": "image", "src": "/studies/psalms/psalm-136/red-sea.svg", "alt": "The Red Sea divided in two, a dry path between walls of water", "caption": "He divided the Red Sea in two and led Israel through the midst." },
         "emphasis": "",
         "verses": [
           { "chapter": 136, "n": 10, "text": "He struck down the firstborn of Egypt His loving devotion endures forever." },
@@ -68,13 +70,14 @@
         "note": "personal remembrance and rescue",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 136, "n": 23, "text": "He remembered us in our low estate His loving devotion endures forever." },
+          { "chapter": 136, "n": 23, "text": "He {{zakar|remembered}} us in our low estate His loving devotion endures forever." },
           { "chapter": 136, "n": 24, "text": "and freed us from our enemies. His loving devotion endures forever." }
         ]
       },
       {
         "label": "Give thanks to the God of heaven",
         "note": "universal provision and closing praise",
+        "media": { "kind": "image", "src": "/studies/psalms/psalm-136/provision.svg", "alt": "Food given to every creature: grain scattered under an open sky", "caption": "He gives food to every creature; His provision reaches beyond Israel to all that lives." },
         "emphasis": "",
         "verses": [
           { "chapter": 136, "n": 25, "text": "He gives food to every creature. His loving devotion endures forever." },
@@ -84,7 +87,11 @@
     ]
   },
   "lexicon": {
-    "chesed": { "language": "Hebrew", "lemma": "chesed", "original": "חֶסֶד", "gloss": "Loving devotion, steadfast covenant love, loyal kindness. Repeated after every one of this psalm's twenty six lines, it names God's unbreakable commitment to His people across creation and history." }
+    "chesed": { "language": "Hebrew", "lemma": "chesed", "original": "חֶסֶד", "gloss": "Loving devotion, steadfast covenant love, loyal kindness. Repeated after every one of this psalm's twenty six lines, it names God's unbreakable commitment to His people across creation and history." },
+    "yadah": { "language": "Hebrew", "lemma": "yadah", "original": "יָדָה", "gloss": "To give thanks, to confess, to acknowledge publicly. The verb's root pictures the extended or lifted hand, so thanksgiving here is not a private feeling but an open, bodily confession of what God has done. The psalm opens with it three times, setting the whole hymn as an act of public acknowledgement." },
+    "niphlaot": { "language": "Hebrew", "lemma": "niphla'ot", "original": "נִפְלָאוֹת", "gloss": "Wonders, marvels, acts too high to be grasped. The word marks deeds that only God can do, whether in creation or in rescue, things that exceed human power and provoke awe rather than mere admiration. Verse 4 gathers everything that follows, cosmos and exodus alike, under this single heading of divine wonder." },
+    "meorot": { "language": "Hebrew", "lemma": "me'orot", "original": "מְאֹרוֹת", "gloss": "Lights, luminaries, light bearers. The same term used for the sun and moon in Genesis 1:16; the psalm deliberately echoes the creation account. By naming them light bearers rather than gods, both texts strip the sun and moon of the worship the surrounding nations gave them and set them under the LORD who made them." },
+    "zakar": { "language": "Hebrew", "lemma": "zakar", "original": "זָכַר", "gloss": "To remember, to call to mind so as to act. In Hebrew, God's remembering is never bare recall; it is covenant memory that moves Him to intervene, as when He remembered Noah, or remembered His covenant and brought Israel out of Egypt. At verse 23 it turns the whole psalm personal: the God of the cosmos remembers the lowly and moves to free them." }
   },
   "study": {
     "basic": {
@@ -106,7 +113,9 @@
       "authorIntent": "To teach worshipers to interpret creation, the exodus, the conquest, and personal deliverance all through a single lens, the LORD's covenant loving devotion, which never fails and never runs out.",
       "descriptionVsPrescription": "The psalm describes specific past acts of God as proof of His chesed; it prescribes as an abiding pattern that every act of God, in nature and in personal life, should be read through the same lens of enduring covenant love.",
       "debates": [
-        { "question": "Does the destruction of Pharaoh's army and the conquered kings fit comfortably under a refrain of 'loving devotion'?", "views": [ { "label": "The refrain describes God's loving devotion specifically toward His covenant people, not toward Egypt or the conquered kings", "case": "Each line's refrain follows an act that benefits Israel; judgment on Pharaoh and the kings is the necessary flip side of covenant loyalty toward God's own people, not a claim that judgment itself is loving toward its recipients." }, { "label": "The refrain reflects a single divine love that both judges evil and delivers the oppressed as one act", "case": "Scripture consistently ties God's covenant love to His justice; delivering the oppressed necessarily means opposing their oppressors, so judgment and loving devotion are two sides of the same righteous love." } ], "bearing": "Both readings agree the psalm's refrain is not naive optimism but covenant loyalty that includes real, historical judgment on those who opposed God's redemptive purposes for His people." }
+        { "question": "Does the destruction of Pharaoh's army and the conquered kings fit comfortably under a refrain of 'loving devotion'?", "views": [ { "label": "The refrain describes God's loving devotion specifically toward His covenant people, not toward Egypt or the conquered kings", "case": "Each line's refrain follows an act that benefits Israel; judgment on Pharaoh and the kings is the necessary flip side of covenant loyalty toward God's own people, not a claim that judgment itself is loving toward its recipients." }, { "label": "The refrain reflects a single divine love that both judges evil and delivers the oppressed as one act", "case": "Scripture consistently ties God's covenant love to His justice; delivering the oppressed necessarily means opposing their oppressors, so judgment and loving devotion are two sides of the same righteous love." } ], "bearing": "Both readings agree the psalm's refrain is not naive optimism but covenant loyalty that includes real, historical judgment on those who opposed God's redemptive purposes for His people." },
+        { "question": "What does 'He remembered us in our low estate' in verse 23 point to?", "views": [ { "label": "A specific historical low point, most likely the Babylonian exile and the return", "case": "The post exilic setting and the psalm's pairing with the historical Psalms 105 and 106 suggest the community is reading its own recent rescue from exile back into the long story of God's acts." }, { "label": "A deliberately open, timeless statement meant for every generation", "case": "Unlike verses 10 to 22, verse 23 names no event, king, or place; the plain 'us' and 'our low estate' let every worshiper, in any age, place their own humbling and rescue inside the same refrain." } ], "bearing": "The ambiguity is likely intended: the verse turns a national history into a personal confession, which is exactly why Mary can take it up in Luke 1:48 and why a driver or an owner today can pray it as their own." },
+        { "question": "Do the creation lines, verses 4 to 9, teach that the heavens themselves reveal God, a natural theology?", "views": [ { "label": "Yes, creation is a genuine witness to God's power and care", "case": "The psalm praises God from the observable order of sun, moon, and stars, echoing Psalm 19 and Romans 1:20, where what is made makes the Creator known to all people." }, { "label": "The witness of creation is real but never enough on its own", "case": "The psalm does not stop at the heavens; it moves at once to the exodus and the covenant, implying that creation raises the question but only God's saving acts, and His word, name Him truly." } ], "bearing": "Held together, the two views guard against both a faith that ignores creation and one that thinks a sunset alone can save; the same chesed spans both the cosmos and the cross." }
       ]
     },
     "originalLanguages": "The refrain chesed, loving devotion, appears after every line, the same word central to God's self revelation in Exodus 34:6 and to Israel's confidence in exile, Lamentations 3:22, tying creation's order and history's turning points to one unbroken covenant loyalty.",
@@ -123,7 +132,7 @@
       { "ref": "Matthew 6:26", "note": "Echoes verse 25's picture of God providing food for every creature, extended to His care for His people." }
     ],
     "oneStory": "This psalm's unbroken refrain of covenant love running through creation, exodus, conquest, and personal rescue finds its climax in Christ, in whom God's loving devotion is most fully and finally shown, remembering humanity in its low estate and freeing us forever from sin's dominion, a love that endures forever indeed.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "sermon": { "status": "verified", "preacher": "C.H. Spurgeon", "title": "A Song, A Solace, A Sermon, and A Summons (Psalm 136:1)", "url": "https://www.spurgeon.org/sermons/a-song-a-solace-a-sermon-and-a-summons", "why": "Spurgeon takes the psalm's refrain, 'His mercy endureth for ever,' and moves through the very stanzas this study follows, common mercies, redeeming love, and lifelong guidance, then presses the enduring covenant love toward Christ and toward the hearer. Orthodox, warm, and accessible to a first time reader." }
   },
   "quiz": [
     {
@@ -184,5 +193,5 @@
     { "ref": "Psalm 136:13", "note": "Red Sea can also be rendered Sea of Reeds, reflecting uncertainty over the precise body of water, though the historical reality of the crossing is not in question." },
     { "ref": "Psalm 136:15", "note": "Swept renders a Hebrew idiom literally meaning shook off, picturing Pharaoh's army being violently dislodged into the sea." }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched via web_fetch from biblehub.com/bsb/psalms/136.htm (Berean Standard Bible), verified against the section map bounds Psalm 136:1-26. Grouped into six stanzas per the map's guidance for this longer psalm. Two em dashes in the raw source text, verse 7 ('the great lights,') and verse 21 ('as an inheritance,'), were converted to commas; no other dashes remained. No verified sermon found this session from the trusted cluster specifically expounding Psalm 136 as its primary text, so sermon status is none." }
+  "meta": { "textToVerify": [], "notes": "BSB text fetched via web_fetch from biblehub.com/bsb/psalms/136.htm (Berean Standard Bible), verified against the section map bounds Psalm 136:1-26. Grouped into six stanzas per the map's guidance for this longer psalm. Two em dashes in the raw source text, verse 7 ('the great lights,') and verse 21 ('as an inheritance,'), were converted to commas; no other dashes remained. Pilot upgrade July 2026: lexicon expanded from one entry to five (added yadah, niphla'ot, me'orot, zakar) with inline tokens on verses 1, 4, 7, 23; two interpretive debates added (the referent of 'low estate' in verse 23, and whether the creation lines teach natural theology); three original SVG images added to the creation, Red Sea, and provision stanzas in the vellum, teal, brass house palette, none depicting God; sermon verified this session via web search: C.H. Spurgeon, 'A Song, A Solace, A Sermon, and A Summons' on Psalm 136:1, spurgeon.org." }
 }
