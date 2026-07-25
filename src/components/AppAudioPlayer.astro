@@ -26,11 +26,17 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
       <span class="mkap-title" id="mkap-title">&nbsp;</span>
     </button>
     <div class="mkap-mini">
+      <button class="mkap-skip mkap-mv" id="mkap-prevm" type="button" aria-label="Previous movement">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/></svg>
+      </button>
       <button class="mkap-skip" id="mkap-rew" type="button" aria-label="Previous section">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </button>
       <button class="mkap-skip" id="mkap-fwd" type="button" aria-label="Next section">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <button class="mkap-skip mkap-mv" id="mkap-nextm" type="button" aria-label="Next movement">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 6h2v12h-2zM6 18l8.5-6L6 6z"/></svg>
       </button>
       <span class="mkap-time" id="mkap-time">0:00 / 0:00</span>
     </div>
@@ -263,8 +269,8 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
     $('mkap-play2').onclick = togglePlay;
     $('mkap-rew').onclick = $('mkap-rew2').onclick = () => prevSection();   // step back a section
     $('mkap-fwd').onclick = $('mkap-fwd2').onclick = () => nextSection();   // step forward a section
-    $('mkap-prev').onclick = () => gotoMovement(-1);                        // previous movement (page)
-    $('mkap-next').onclick = () => gotoMovement(1);                         // next movement (page)
+    $('mkap-prev').onclick = $('mkap-prevm').onclick = () => gotoMovement(-1);   // previous movement (page)
+    $('mkap-next').onclick = $('mkap-nextm').onclick = () => gotoMovement(1);    // next movement (page)
 
     function togglePanel() {
       const open = root.classList.toggle('open');
