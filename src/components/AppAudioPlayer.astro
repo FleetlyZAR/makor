@@ -122,6 +122,16 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
       const p2 = $('mkap-play2'); if (p2) p2.innerHTML = html;
     }
 
+    // Tell the page which study segment is currently sounding, so it can
+    // highlight and follow the matching panel (read-along).
+    function emitSeg() {
+      try {
+        window.dispatchEvent(new CustomEvent('makor-audio-seg', {
+          detail: { slug: meta.slug, seg: (list[idx] && list[idx].id) || null, playing: !audio.paused },
+        }));
+      } catch (e) {}
+    }
+
     // Dock the strip flush beneath whichever header is currently on screen.
     function dockTop() {
       let bottom = 0;
@@ -155,6 +165,7 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
       $('mkap-title').textContent = seg.label;
       renderActive();
       setMediaMeta(seg);
+      emitSeg();
     }
     function seekGlobal(t) {
       t = Math.max(0, Math.min(total, t));
@@ -210,8 +221,8 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
         try { navigator.mediaSession.setPositionState({ duration: audio.duration, position: audio.currentTime, playbackRate: 1 }); } catch (e) {}
       }
     });
-    audio.addEventListener('play', () => { setPlayIcons(); renderActive(); });
-    audio.addEventListener('pause', () => { setPlayIcons(); renderActive(); });
+    audio.addEventListener('play', () => { setPlayIcons(); renderActive(); emitSeg(); });
+    audio.addEventListener('pause', () => { setPlayIcons(); renderActive(); emitSeg(); });
     audio.addEventListener('ended', async () => {
       if (idx < list.length - 1) { loadTrack(idx + 1, 0, true); return; }
       recordListen();                                  // this study is finished

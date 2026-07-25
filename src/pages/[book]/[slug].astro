@@ -358,6 +358,13 @@ const bslug = bookSlug(study.book);
   .mkshare-ref { font-family: var(--sans); font-size: 0.82rem; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .mkshare-btn { font-family: var(--sans); font-size: 0.82rem; background: var(--water); color: #fff; border: none; border-radius: 8px; padding: 6px 12px; cursor: pointer; }
   .mkshare-x { background: none; border: none; color: var(--paper); cursor: pointer; display: grid; place-items: center; padding: 4px; opacity: 0.8; }
+
+  /* Read-along: the panel currently being spoken by the audio. */
+  .hero.mkseg-active, .scripture .unit.mkseg-active, details.cascade.mkseg-active {
+    background: var(--light-soft); border-radius: 8px; box-shadow: inset 3px 0 0 var(--light);
+    transition: background-color .3s ease;
+  }
+  details.cascade.mkseg-active { padding-left: 4px; }
 </style>
 
 <script>
@@ -666,5 +673,50 @@ const bslug = bookSlug(study.book);
     }
     window.addEventListener('load', openHash);
     window.addEventListener('hashchange', openHash);
+  })();
+
+  // Read-along: highlight and gently follow the panel the audio is speaking.
+  (function () {
+    const metaEl = document.getElementById('study-meta');
+    const mySlug = metaEl ? metaEl.dataset.slug : null;
+    const SEG_TITLE = {
+      'teaching-context': 'Context',
+      'teaching-hermeneutics': 'Reading it rightly',
+      'teaching-originalLanguages': 'The original languages',
+      'teaching-typology': 'Types and shadows',
+      'teaching-christ': 'Christ as the point',
+      'teaching-god': 'What we learn about God',
+      'teaching-crossReferences': 'Cross references',
+      'teaching-oneStory': 'The one story',
+      'teaching-translationNotes': 'Translation notes',
+      'questions': 'Questions for reflection',
+    };
+    let cur = null;
+    function clear() { if (cur) { cur.classList.remove('mkseg-active'); cur = null; } }
+    function segElement(seg) {
+      if (!seg) return null;
+      if (seg === 'intro') return document.querySelector('.hero');
+      if (seg.indexOf('passage-') === 0) {
+        const n = parseInt(seg.slice(8), 10);
+        return document.querySelectorAll('.scripture .unit')[n - 1] || null;
+      }
+      const title = SEG_TITLE[seg];
+      if (!title) return null;
+      const t = Array.from(document.querySelectorAll('.cascade-title')).find((x) => x.textContent.trim() === title);
+      return t ? t.closest('details.cascade') : null;
+    }
+    function inView(el) { const r = el.getBoundingClientRect(); return r.top >= 64 && r.bottom <= window.innerHeight - 40; }
+    window.addEventListener('makor-audio-seg', (e) => {
+      const d = e.detail || {};
+      if (d.slug !== mySlug) { clear(); return; }   // audio has rolled to another study
+      const el = segElement(d.seg);
+      if (!el) { clear(); return; }
+      if (el !== cur) {
+        clear(); el.classList.add('mkseg-active'); cur = el;
+        const det = el.closest ? (el.matches('details') ? el : el.closest('details.cascade')) : null;
+        if (det && !det.open) det.open = true;       // open the panel so the read text shows
+        if (d.playing && !inView(el)) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    });
   })();
 </script>
