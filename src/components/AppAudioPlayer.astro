@@ -26,11 +26,11 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
       <span class="mkap-title" id="mkap-title">&nbsp;</span>
     </button>
     <div class="mkap-mini">
-      <button class="mkap-skip" id="mkap-rew" type="button" aria-label="Back 90 seconds">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5V1L6 6l6 5V7a7 7 0 1 1-7 7" stroke-linecap="round" stroke-linejoin="round"/></svg><span>90</span>
+      <button class="mkap-skip" id="mkap-rew" type="button" aria-label="Previous section">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </button>
-      <button class="mkap-skip" id="mkap-fwd" type="button" aria-label="Forward 30 seconds">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5V1l6 5-6 5V7a7 7 0 1 0 7 7" stroke-linecap="round" stroke-linejoin="round"/></svg><span>30</span>
+      <button class="mkap-skip" id="mkap-fwd" type="button" aria-label="Next section">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </button>
       <span class="mkap-time" id="mkap-time">0:00 / 0:00</span>
     </div>
@@ -43,11 +43,11 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
   <div class="mkap-panel" id="mkap-panel" hidden>
     <div class="mkap-panel-inner">
       <div class="mkap-transport">
-        <button id="mkap-prev" type="button" aria-label="Previous section"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/></svg></button>
-        <button id="mkap-rew2" type="button" aria-label="Back 90 seconds"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5V1L6 6l6 5V7a7 7 0 1 1-7 7" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <button id="mkap-prev" type="button" aria-label="Previous movement"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/></svg></button>
+        <button id="mkap-rew2" type="button" aria-label="Previous section"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         <button class="big" id="mkap-play2" type="button" aria-label="Play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
-        <button id="mkap-fwd2" type="button" aria-label="Forward 30 seconds"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5V1l6 5-6 5V7a7 7 0 1 0 7 7" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-        <button id="mkap-next" type="button" aria-label="Next section"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 6h2v12h-2zM6 18l8.5-6L6 6z"/></svg></button>
+        <button id="mkap-fwd2" type="button" aria-label="Next section"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <button id="mkap-next" type="button" aria-label="Next movement"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 6h2v12h-2zM6 18l8.5-6L6 6z"/></svg></button>
       </div>
       <div class="mkap-voices" id="mkap-voices"><span class="mkap-vlabel">Voice</span></div>
       <div id="mkap-list"></div>
@@ -96,7 +96,7 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
   .mkap-seg .d { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
   .mkap-done { margin: 12px 0 0; background: var(--light-soft); border-radius: 8px; padding: 8px 10px; font-size: 13px; color: var(--ink); }
   .mkap-done[hidden] { display: none; }
-  @media (max-width: 560px) { .mkap-mini { display: none; } }
+  @media (max-width: 560px) { .mkap-time { display: none; } }
 </style>
 
 <script>
@@ -191,7 +191,8 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
       $('mkap-eyebrow').textContent = m.study.title || 'Listen';
       $('mkap-done').hidden = true;
       buildPlaylist(); renderVoices(); renderList(); setPlayIcons();
-      loadTrack(opts.startIndex || 0, 0, !!opts.autoplay);
+      const startIndex = opts.startAtEnd ? (list.length - 1) : (opts.startIndex || 0);
+      loadTrack(startIndex, 0, !!opts.autoplay);
       return true;
     }
 
@@ -201,15 +202,38 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
 
     // Move to the next (dir +1) or previous (dir -1) study in the queue,
     // skipping any that turn out to have no audio.
-    async function advanceStudy(dir, autoplay) {
+    async function advanceStudy(dir, autoplay, startAtEnd) {
       if (qpos < 0 || !queue.length) return false;
       let p = qpos + dir;
       while (p >= 0 && p < queue.length) {
-        const ok = await loadStudyByUrl(nextManifestUrl(queue[p]), { autoplay: autoplay, startIndex: 0 });
+        const ok = await loadStudyByUrl(nextManifestUrl(queue[p]), { autoplay: autoplay, startAtEnd: !!startAtEnd });
         if (ok) { qpos = p; return true; }
         p += dir;
       }
       return false;
+    }
+
+    // Section step within a movement (seamless), crossing the boundary if needed.
+    async function prevSection() {
+      if (globalTime() - (offsets[idx] || 0) > 3) { seekGlobal(offsets[idx] || 0); return; }
+      if (idx > 0) loadTrack(idx - 1, 0, !audio.paused);
+      else await advanceStudy(-1, !audio.paused, true);   // previous movement's last section
+    }
+    async function nextSection() {
+      if (idx < list.length - 1) loadTrack(idx + 1, 0, !audio.paused);
+      else await advanceStudy(1, !audio.paused, false);   // next movement's first section
+    }
+    // Movement jump: navigate to the neighbouring study's page (change of page),
+    // asking it to auto-start. Preserves the reading plan if one is active.
+    function gotoMovement(dir) {
+      if (qpos < 0 || !queue.length) return;
+      const p = qpos + dir;
+      if (p < 0 || p >= queue.length) return;
+      const e = queue[p];
+      const plan = new URLSearchParams(location.search).get('plan');
+      let u = location.origin + '/' + e.bookSlug + '/' + e.slug + '/?autoplay=1';
+      if (plan) u += '&plan=' + encodeURIComponent(plan);
+      location.href = u;
     }
 
     audio.addEventListener('loadedmetadata', () => { if (pending != null) { try { audio.currentTime = pending; } catch (e) {} pending = null; } });
@@ -233,17 +257,10 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
     function togglePlay() { if (!audio.src) loadTrack(0, 0, true); else if (audio.paused) audio.play(); else audio.pause(); }
     $('mkap-play').onclick = togglePlay;
     $('mkap-play2').onclick = togglePlay;
-    $('mkap-rew').onclick = $('mkap-rew2').onclick = () => seekGlobal(globalTime() - REWIND);
-    $('mkap-fwd').onclick = $('mkap-fwd2').onclick = () => seekGlobal(globalTime() + FORWARD);
-    $('mkap-next').onclick = async () => {
-      if (idx < list.length - 1) loadTrack(idx + 1, 0, !audio.paused);
-      else await advanceStudy(1, !audio.paused);
-    };
-    $('mkap-prev').onclick = async () => {
-      if (globalTime() - (offsets[idx] || 0) > 3) seekGlobal(offsets[idx] || 0);
-      else if (idx > 0) loadTrack(idx - 1, 0, !audio.paused);
-      else await advanceStudy(-1, !audio.paused);
-    };
+    $('mkap-rew').onclick = $('mkap-rew2').onclick = () => prevSection();   // step back a section
+    $('mkap-fwd').onclick = $('mkap-fwd2').onclick = () => nextSection();   // step forward a section
+    $('mkap-prev').onclick = () => gotoMovement(-1);                        // previous movement (page)
+    $('mkap-next').onclick = () => gotoMovement(1);                         // next movement (page)
 
     function togglePanel() {
       const open = root.classList.toggle('open');
@@ -281,10 +298,10 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
       const H = (a, fn) => { try { navigator.mediaSession.setActionHandler(a, fn); } catch (e) {} };
       H('play', () => audio.play());
       H('pause', () => audio.pause());
-      H('previoustrack', () => $('mkap-prev').click());
-      H('nexttrack', () => $('mkap-next').click());
-      H('seekbackward', (e) => seekGlobal(globalTime() - ((e && e.seekOffset) || REWIND)));
-      H('seekforward', (e) => seekGlobal(globalTime() + ((e && e.seekOffset) || FORWARD)));
+      H('previoustrack', () => prevSection());
+      H('nexttrack', () => nextSection());
+      H('seekbackward', () => prevSection());
+      H('seekforward', () => nextSection());
       H('seekto', (e) => { if (e.fastSeek && 'fastSeek' in audio) { audio.fastSeek(e.seekTime); return; } audio.currentTime = e.seekTime; });
     }
 
@@ -354,13 +371,15 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
     }
 
     (async function init() {
-      const ok = await loadStudyByUrl(root.dataset.manifest, { autoplay: false, startIndex: 0 });
+      const wantAutoplay = new URLSearchParams(location.search).get('autoplay') === '1';
+      const ok = await loadStudyByUrl(root.dataset.manifest, { autoplay: wantAutoplay, startIndex: 0 });
       if (!ok) return;                 // no audio for this study yet: stay hidden
       root.hidden = false;
       dockTop();
       window.addEventListener('scroll', scheduleDock, { passive: true });
       window.addEventListener('resize', scheduleDock);
       buildQueue();
+      if (wantAutoplay) { try { const u = new URL(location.href); u.searchParams.delete('autoplay'); history.replaceState(null, '', u.pathname + u.search + u.hash); } catch (e) {} }
     })();
   })();
 </script>
