@@ -683,11 +683,13 @@ const bslug = bookSlug(study.book);
     function flashBtn(btn, msg) { const o = btn.textContent; btn.textContent = msg; setTimeout(() => { btn.textContent = o; }, 1400); }
     async function copy(btn) {
       const d = shareData(); if (!d) return;
+      if (window.makorLogShare) window.makorLogShare('study', d.url);
       try { await navigator.clipboard.writeText(d.text + '\n' + d.url); flashBtn(btn, 'Copied'); } catch (e) {}
     }
     const shareBtn = document.getElementById('mkshare-share');
     if (shareBtn) shareBtn.addEventListener('click', async () => {
       const d = shareData(); if (!d) return;
+      if (window.makorLogShare) window.makorLogShare('study', d.url);
       if (navigator.share) { try { await navigator.share({ text: d.text, url: d.url }); } catch (e) {} }
       else copy(shareBtn);
     });
@@ -790,6 +792,7 @@ const bslug = bookSlug(study.book);
       if (!blob) { flashBtn(btn, 'Failed'); return; }
       const file = new File([blob], 'makor-verse.png', { type: 'image/png' });
       const d = shareData();
+      if (window.makorLogShare) window.makorLogShare('image', d ? d.url : location.pathname);
       if (navigator.canShare && navigator.canShare({ files: [file] })) {
         try { await navigator.share({ files: [file], text: d ? d.url : undefined }); return; } catch (e) { if (e && e.name === 'AbortError') return; }
       }

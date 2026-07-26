@@ -1,71 +1,202 @@
 ---
 import Base from '../layouts/Base.astro';
+import { getAllStudies, bookSlug } from '../lib/studies.js';
+
+// Story picker source: every committed study, as { slug (url path), ref, title, book }.
+const stories = getAllStudies().map((s) => ({
+  slug: bookSlug(s.book) + '/' + (s.section?.slug ?? ''),
+  ref: s.section?.passageRef ?? '',
+  title: s.section?.title ?? '',
+  book: s.book ?? '',
+}));
 ---
 <Base title="Admin | Makor" description="Makor administration.">
   <section class="hero">
     <p class="eyebrow">Admin</p>
     <h1>Dashboard</h1>
-    <p class="lead">Traffic, participation, email, and growth. Private to administrators.</p>
+    <p class="lead">Stats, the Sunday email, plans and groups, and people. Private to administrators.</p>
   </section>
 
   <p id="admin-status" class="rank-status">Loading...</p>
 
   <div id="admin-wrap" hidden>
-    <div class="period" id="period">
-      <span>Window:</span>
-      <button data-days="7" class="on" type="button">7 days</button>
-      <button data-days="30" type="button">30 days</button>
-    </div>
 
-    <!-- Traffic -->
-    <h2 class="prog-h2">Site traffic</h2>
-    <div class="stat-row">
-      <div class="stat"><div class="stat-num" id="t-views">0</div><div class="stat-label">page views</div></div>
-      <div class="stat"><div class="stat-num" id="t-sessions">0</div><div class="stat-label">visits (sessions)</div></div>
-      <div class="stat"><div class="stat-num" id="t-anon">0%</div><div class="stat-label">visits without an account</div></div>
-      <div class="stat"><div class="stat-num" id="t-signups">0</div><div class="stat-label">new sign-ups</div></div>
-    </div>
-    <div class="panel"><div class="panel-head">Page views per day <span class="legend2"><i class="sw sw-v"></i>views <i class="sw sw-s"></i>visits</span></div><div id="t-chart" class="bars"></div></div>
+    <!-- ===================== STATS ===================== -->
+    <details class="acc" open>
+      <summary class="acc-h">Stats <span class="acc-sub">traffic, participation, email, attribution</span></summary>
+      <div class="acc-body">
+        <div class="period" id="period">
+          <span>Window:</span>
+          <button data-days="7" class="on" type="button">7 days</button>
+          <button data-days="30" type="button">30 days</button>
+        </div>
 
-    <!-- Participation -->
-    <h2 class="prog-h2">Non-account participation</h2>
-    <p class="muted-note">Readers using Makor without signing in. They can read every study; only signed-in readers save progress.</p>
-    <div class="stat-row">
-      <div class="stat"><div class="stat-num" id="p-anonsess">0</div><div class="stat-label">visits without account</div></div>
-      <div class="stat"><div class="stat-num" id="p-anonviews">0</div><div class="stat-label">page views without account</div></div>
-      <div class="stat"><div class="stat-num" id="p-authsess">0</div><div class="stat-label">visits signed in</div></div>
-    </div>
-    <div class="panel"><div class="panel-head">Most-read pages by visitors without an account</div><div id="p-pages" class="ranklist"></div></div>
+        <h2 class="prog-h2">Site traffic</h2>
+        <div class="stat-row">
+          <div class="stat"><div class="stat-num" id="t-views">0</div><div class="stat-label">page views</div></div>
+          <div class="stat"><div class="stat-num" id="t-sessions">0</div><div class="stat-label">visits (sessions)</div></div>
+          <div class="stat"><div class="stat-num" id="t-anon">0%</div><div class="stat-label">visits without an account</div></div>
+          <div class="stat"><div class="stat-num" id="t-signups">0</div><div class="stat-label">new sign-ups</div></div>
+        </div>
+        <div class="panel"><div class="panel-head">Page views per day <span class="legend2"><i class="sw sw-v"></i>views <i class="sw sw-s"></i>visits</span></div><div id="t-chart" class="bars"></div></div>
 
-    <!-- Email -->
-    <h2 class="prog-h2">Email by campaign</h2>
-    <p class="muted-note">Opens and clicks are tracked from the moment tracking was enabled, so earlier sends may show delivery only.</p>
-    <div id="email-block"></div>
+        <h2 class="prog-h2">Non-account participation</h2>
+        <p class="muted-note">Readers using Makor without signing in. They can read every study; only signed-in readers save progress.</p>
+        <div class="stat-row">
+          <div class="stat"><div class="stat-num" id="p-anonsess">0</div><div class="stat-label">visits without account</div></div>
+          <div class="stat"><div class="stat-num" id="p-anonviews">0</div><div class="stat-label">page views without account</div></div>
+          <div class="stat"><div class="stat-num" id="p-authsess">0</div><div class="stat-label">visits signed in</div></div>
+        </div>
+        <div class="panel"><div class="panel-head">Most-read pages by visitors without an account</div><div id="p-pages" class="ranklist"></div></div>
 
-    <!-- Attribution -->
-    <h2 class="prog-h2">What drove studies</h2>
-    <div class="panel"><div class="panel-head">Studies completed per day</div><div id="a-chart" class="bars"></div></div>
-    <div class="panel"><div class="panel-head">Studies completed within 48 hours of each campaign</div><div id="a-lift" class="ranklist"></div></div>
-    <div class="panel"><div class="panel-head">Study links most clicked from email</div><div id="a-links" class="ranklist"></div></div>
+        <h2 class="prog-h2">Email by campaign</h2>
+        <p class="muted-note">Opens and clicks are tracked from the moment tracking was enabled, so earlier sends may show delivery only.</p>
+        <div id="email-block"></div>
 
-    <!-- People -->
-    <h2 class="prog-h2">People</h2>
-    <div class="stat-row">
-      <div class="stat"><div class="stat-num" id="a-users">0</div><div class="stat-label">people signed up</div></div>
-      <div class="stat"><div class="stat-num" id="a-active">0</div><div class="stat-label">active in last 7 days</div></div>
-      <div class="stat"><div class="stat-num" id="a-studies">0</div><div class="stat-label">studies completed, all people</div></div>
-    </div>
-    <table class="rank-table">
-      <thead><tr><th>Name</th><th>Email</th><th>Joined</th><th>Studies</th><th>Before</th><th>After</th><th>Last active</th></tr></thead>
-      <tbody id="admin-body"></tbody>
-    </table>
+        <h2 class="prog-h2">What drove studies</h2>
+        <div class="panel"><div class="panel-head">Studies completed per day</div><div id="a-chart" class="bars"></div></div>
+        <div class="panel"><div class="panel-head">Studies completed within 48 hours of each campaign</div><div id="a-lift" class="ranklist"></div></div>
+        <div class="panel"><div class="panel-head">Study links most clicked from email</div><div id="a-links" class="ranklist"></div></div>
+
+        <h2 class="prog-h2">People</h2>
+        <div class="stat-row">
+          <div class="stat"><div class="stat-num" id="a-users">0</div><div class="stat-label">people signed up</div></div>
+          <div class="stat"><div class="stat-num" id="a-active">0</div><div class="stat-label">active in last 7 days</div></div>
+          <div class="stat"><div class="stat-num" id="a-studies">0</div><div class="stat-label">studies completed, all people</div></div>
+        </div>
+        <table class="rank-table">
+          <thead><tr><th>Name</th><th>Email</th><th>Joined</th><th>Studies</th><th>Before</th><th>After</th><th>Last active</th></tr></thead>
+          <tbody id="admin-body"></tbody>
+        </table>
+      </div>
+    </details>
+
+    <!-- ===================== SUNDAY EMAIL ===================== -->
+    <details class="acc">
+      <summary class="acc-h">Sunday email <span class="acc-sub">the story and feature going out this week</span></summary>
+      <div class="acc-body">
+        <p class="muted-note">Each card is one Sunday edition: the story it opens and the feature it highlights. Choose the next story and feature, generate the email, read the thinking, preview it, then approve and send.</p>
+
+        <div class="newed">
+          <div class="newed-head">Plan the next edition</div>
+          <div class="newed-grid">
+            <label class="fld">
+              <span>Story to focus on</span>
+              <input id="ne-story" list="story-list" type="text" placeholder="Search by title or reference" autocomplete="off" />
+              <input id="ne-story-slug" type="hidden" />
+              <input id="ne-story-ref" type="hidden" />
+            </label>
+            <label class="fld">
+              <span>Feature to highlight</span>
+              <input id="ne-feature" list="feature-list" type="text" placeholder="e.g. Live in the Word reading plan" autocomplete="off" />
+            </label>
+            <label class="fld">
+              <span>Send on (a Sunday)</span>
+              <input id="ne-date" type="date" />
+            </label>
+          </div>
+          <label class="fld">
+            <span>Instruction (what to draw out, tone, anything specific)</span>
+            <textarea id="ne-instruction" rows="3" placeholder="Optional. Left blank, the writer uses its judgement within the study discipline."></textarea>
+          </label>
+          <div class="newed-actions">
+            <button id="ne-save" class="btn" type="button">Save draft</button>
+            <button id="ne-gen" class="btn btn-primary" type="button">Save and generate</button>
+            <span id="ne-msg" class="ne-msg"></span>
+          </div>
+        </div>
+
+        <div id="editions" class="cards"></div>
+      </div>
+    </details>
+
+    <!-- ===================== PLANS AND GROUPS ===================== -->
+    <details class="acc">
+      <summary class="acc-h">Plans and groups <span class="acc-sub">reading plans, group members, and errors</span></summary>
+      <div class="acc-body">
+        <div class="stat-row">
+          <div class="stat"><div class="stat-num" id="pl-total">0</div><div class="stat-label">reading plans</div></div>
+          <div class="stat"><div class="stat-num" id="pl-group">0</div><div class="stat-label">group plans</div></div>
+          <div class="stat"><div class="stat-num" id="pl-solo">0</div><div class="stat-label">solo plans</div></div>
+          <div class="stat"><div class="stat-num" id="pl-members">0</div><div class="stat-label">members invited</div></div>
+          <div class="stat"><div class="stat-num" id="pl-accepted">0</div><div class="stat-label">members reading</div></div>
+          <div class="stat"><div class="stat-num" id="pl-pending">0</div><div class="stat-label">invites pending</div></div>
+        </div>
+        <h2 class="prog-h2">Error management</h2>
+        <div class="panel"><div class="panel-head">Bounced or failed emails</div><div id="pl-bounced" class="ranklist"></div></div>
+        <div class="panel"><div class="panel-head">Stuck invites, pending over a week</div><div id="pl-stuck" class="ranklist"></div></div>
+        <div class="panel"><div class="panel-head">Plans with no one reading along yet</div><div id="pl-orphan" class="ranklist"></div></div>
+        <div class="panel"><div class="panel-head">Send and delivery failures</div><div id="pl-fail" class="ranklist"></div></div>
+      </div>
+    </details>
+
+    <!-- ===================== USERS ===================== -->
+    <details class="acc">
+      <summary class="acc-h">Users <span class="acc-sub">sign-ups, sharing, and invites</span></summary>
+      <div class="acc-body">
+        <div class="stat-row">
+          <div class="stat"><div class="stat-num" id="us-total">0</div><div class="stat-label">users</div></div>
+          <div class="stat"><div class="stat-num" id="us-active">0</div><div class="stat-label">active in last 7 days</div></div>
+          <div class="stat"><div class="stat-num" id="us-shares">0</div><div class="stat-label">shares by users</div></div>
+          <div class="stat"><div class="stat-num" id="us-invites">0</div><div class="stat-label">invites sent by users</div></div>
+        </div>
+        <p class="muted-note">Shares are counted from the moment share tracking went live, so this begins near zero and grows.</p>
+        <table class="rank-table">
+          <thead><tr><th>Name</th><th>Email</th><th>Joined</th><th>Studies</th><th>Shares</th><th>Friend invites</th><th>Group invites</th><th>Last active</th></tr></thead>
+          <tbody id="users-body"></tbody>
+        </table>
+      </div>
+    </details>
+
   </div>
+
+  <!-- Preview modal for a generated edition -->
+  <div id="pv" class="pv" hidden>
+    <div class="pv-box">
+      <div class="pv-head">
+        <div>
+          <div class="pv-subject" id="pv-subject"></div>
+          <div class="pv-preview" id="pv-preview"></div>
+        </div>
+        <button class="pv-x" id="pv-close" type="button" aria-label="Close">Close</button>
+      </div>
+      <details class="pv-think"><summary>The thinking</summary><div id="pv-thinking" class="pv-thinking"></div></details>
+      <iframe id="pv-frame" class="pv-frame" sandbox="" title="Email preview"></iframe>
+      <div class="pv-actions">
+        <button id="pv-approve" class="btn" type="button">Approve</button>
+        <button id="pv-send" class="btn btn-primary" type="button">Send to all subscribers</button>
+        <span id="pv-msg" class="ne-msg"></span>
+      </div>
+    </div>
+  </div>
+
+  <datalist id="story-list"></datalist>
+  <datalist id="feature-list">
+    <option value="Live in the Word reading plan"></option>
+    <option value="Read the Bible together, group plans"></option>
+    <option value="The daily scripture email"></option>
+    <option value="Original languages, Hebrew and Greek"></option>
+    <option value="Listen, the audio player"></option>
+    <option value="Progress and badges"></option>
+    <option value="Search across every study"></option>
+  </datalist>
+
+  <script id="story-data" type="application/json" set:html={JSON.stringify(stories)}></script>
 
   <a class="backlink" href="/">Back to all books</a>
 </Base>
 
 <style is:global>
-  .period { display: flex; align-items: center; gap: 0.5rem; margin: 0.5rem 0 1.5rem; font-family: var(--sans); font-size: 0.85rem; color: var(--muted); }
+  .acc { border: 1px solid var(--line); border-radius: 12px; margin: 0 0 1rem; background: var(--surface); overflow: hidden; }
+  .acc > .acc-h { list-style: none; cursor: pointer; padding: 0.95rem 1.15rem; font-family: var(--sans); font-weight: 700; font-size: 1rem; color: var(--ink); display: flex; align-items: baseline; gap: 0.6rem; border-left: 3px solid var(--light); }
+  .acc > .acc-h::-webkit-details-marker { display: none; }
+  .acc > .acc-h::before { content: '+'; color: var(--water); font-weight: 700; width: 1ch; }
+  .acc[open] > .acc-h::before { content: '\2212'; }
+  .acc[open] > .acc-h { border-bottom: 1px solid var(--line); }
+  .acc-sub { font-weight: 500; font-size: 0.82rem; color: var(--muted); }
+  .acc-body { padding: 1rem 1.15rem 1.35rem; }
+
+  .period { display: flex; align-items: center; gap: 0.5rem; margin: 0 0 1.25rem; font-family: var(--sans); font-size: 0.85rem; color: var(--muted); }
   .period button { font-family: var(--sans); font-size: 0.82rem; font-weight: 600; cursor: pointer; background: var(--surface); border: 1px solid var(--line); color: var(--muted); padding: 0.35rem 0.85rem; border-radius: 999px; }
   .period button.on { background: var(--water); color: #fff; border-color: var(--water); }
   .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 1rem 1.25rem; margin: 0 0 1.5rem; }
@@ -93,11 +224,65 @@ import Base from '../layouts/Base.astro';
   .camp-stat span { font-size: 0.72rem; color: var(--muted); }
   .camp-links { margin-top: 0.5rem; }
   .camp-links .lh { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin-bottom: 0.3rem; }
+
+  /* New edition form */
+  .newed { border: 1px solid var(--line); border-radius: 12px; padding: 1.1rem 1.2rem; margin: 0 0 1.35rem; background: var(--surface); }
+  .newed-head { font-family: var(--sans); font-weight: 700; color: var(--ink); margin-bottom: 0.85rem; }
+  .newed-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.85rem; }
+  @media (max-width: 640px) { .newed-grid { grid-template-columns: 1fr; } }
+  .fld { display: flex; flex-direction: column; gap: 0.3rem; font-family: var(--sans); font-size: 0.82rem; color: var(--muted); margin-bottom: 0.85rem; }
+  .fld span { font-weight: 600; }
+  .fld input, .fld textarea { font-family: var(--sans); font-size: 0.92rem; color: var(--ink); background: var(--paper, #fff); border: 1px solid var(--line); border-radius: 8px; padding: 0.5rem 0.65rem; }
+  .newed-actions { display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
+  .btn { font-family: var(--sans); font-size: 0.85rem; font-weight: 600; cursor: pointer; background: var(--surface); border: 1px solid var(--line); color: var(--ink); padding: 0.5rem 1rem; border-radius: 999px; }
+  .btn-primary { background: var(--water); color: #fff; border-color: var(--water); }
+  .btn[disabled] { opacity: 0.5; cursor: default; }
+  .ne-msg { font-family: var(--sans); font-size: 0.82rem; color: var(--muted); }
+
+  /* Edition cards */
+  .cards { display: flex; flex-direction: column; gap: 0.85rem; }
+  .ecard { border: 1px solid var(--line); border-radius: 12px; padding: 0.95rem 1.1rem; background: var(--surface); display: flex; gap: 0.9rem; align-items: flex-start; }
+  .ecard-ord { display: flex; flex-direction: column; gap: 0.15rem; align-items: center; }
+  .ecard-ord button { border: 1px solid var(--line); background: var(--surface); color: var(--muted); border-radius: 6px; cursor: pointer; width: 26px; height: 22px; line-height: 1; }
+  .ecard-main { flex: 1; min-width: 0; }
+  .ecard-title { font-family: var(--serif); font-size: 1.1rem; font-weight: 600; color: var(--ink); }
+  .ecard-meta { font-family: var(--sans); font-size: 0.8rem; color: var(--muted); margin-top: 0.15rem; }
+  .ecard-sub { font-family: var(--sans); font-size: 0.85rem; color: var(--ink); margin-top: 0.35rem; }
+  .ecard-actions { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-top: 0.7rem; }
+  .ecard-actions .btn { padding: 0.35rem 0.75rem; font-size: 0.8rem; }
+  .st { font-family: var(--sans); font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; padding: 0.15rem 0.5rem; border-radius: 999px; white-space: nowrap; }
+  .st-draft { background: #eee; color: #555; }
+  .st-generating { background: #fff4d6; color: #8a6d1a; }
+  .st-generated { background: #dcefe8; color: #0F6C6C; }
+  .st-approved { background: #d7ead7; color: #2f6b2f; }
+  .st-scheduled { background: #e2e0f5; color: #4b3fa0; }
+  .st-sent { background: #0F6C6C; color: #fff; }
+  .st-error { background: #f6dada; color: #a33; }
+  .ecard-err { font-family: var(--sans); font-size: 0.8rem; color: #a33; margin-top: 0.4rem; }
+
+  /* Preview modal */
+  .pv { position: fixed; inset: 0; background: rgba(14,42,46,0.55); display: flex; align-items: center; justify-content: center; padding: 1rem; z-index: 60; }
+  .pv[hidden] { display: none; }
+  .pv-box { background: var(--surface); border-radius: 14px; width: min(680px, 100%); max-height: 90vh; overflow: auto; padding: 1.1rem 1.2rem 1.3rem; }
+  .pv-head { display: flex; justify-content: space-between; gap: 1rem; align-items: flex-start; }
+  .pv-subject { font-family: var(--serif); font-size: 1.25rem; font-weight: 600; color: var(--ink); }
+  .pv-preview { font-family: var(--sans); font-size: 0.85rem; color: var(--muted); margin-top: 0.2rem; }
+  .pv-x { background: none; border: 1px solid var(--line); border-radius: 999px; padding: 0.3rem 0.8rem; cursor: pointer; font-family: var(--sans); font-size: 0.8rem; color: var(--muted); }
+  .pv-think { margin: 0.8rem 0; font-family: var(--sans); font-size: 0.88rem; }
+  .pv-think summary { cursor: pointer; font-weight: 600; color: var(--water); }
+  .pv-thinking { white-space: pre-wrap; color: var(--ink); margin-top: 0.5rem; line-height: 1.5; }
+  .pv-frame { width: 100%; height: 55vh; border: 1px solid var(--line); border-radius: 10px; background: #fff; margin-top: 0.4rem; }
+  .pv-actions { display: flex; gap: 0.6rem; align-items: center; margin-top: 0.8rem; flex-wrap: wrap; }
 </style>
 
 <script>
   const ADMIN_EMAILS = ['luyanda@fleetly.co.za'];
   let currentDays = 7;
+  let editionsCache = [];
+  let pvId = null;
+
+  const stories = (() => { try { return JSON.parse(document.getElementById('story-data').textContent || '[]'); } catch (e) { return []; } })();
+  const storyByLabel = new Map();
 
   function fmt(iso) { if (!iso) return '-'; try { return new Date(iso).toLocaleDateString(undefined, { day: 'numeric', month: 'short', year: 'numeric' }); } catch (e) { return '-'; } }
   function fmtDay(d) { try { return new Date(d + 'T00:00:00').toLocaleDateString(undefined, { day: 'numeric', month: 'short' }); } catch (e) { return d; } }
@@ -127,19 +312,16 @@ import Base from '../layouts/Base.astro';
   function renderAnalytics(a) {
     if (!a || a.error) return;
     const p = a.participation || {};
-    // Traffic
     document.getElementById('t-views').textContent = String(p.total_pageviews || 0);
     document.getElementById('t-sessions').textContent = String(p.total_sessions || 0);
     const anonPct = p.total_sessions ? Math.round((p.anon_sessions / p.total_sessions) * 100) : 0;
     document.getElementById('t-anon').textContent = anonPct + '%';
     document.getElementById('t-signups').textContent = String(p.signups || 0);
     pairBars(document.getElementById('t-chart'), a.traffic, 'pageviews', 'sessions', 'd');
-    // Participation
     document.getElementById('p-anonsess').textContent = String(p.anon_sessions || 0);
     document.getElementById('p-anonviews').textContent = String(p.anon_pageviews || 0);
     document.getElementById('p-authsess').textContent = String(p.auth_sessions || 0);
     rankList(document.getElementById('p-pages'), p.top_anon_pages, (r) => r.path, (r) => r.views + ' views', 'No anonymous page views recorded yet.');
-    // Email
     const eb = document.getElementById('email-block');
     if (!a.email || !a.email.length) { eb.innerHTML = '<div class="panel"><div class="list-empty">No email events yet. New sends will appear here.</div></div>'; }
     else {
@@ -156,7 +338,6 @@ import Base from '../layouts/Base.astro';
           + '</div>' + links + '</div>';
       }).join('');
     }
-    // Attribution
     const at = a.attribution || {};
     pairBars(document.getElementById('a-chart'), at.completions_daily, 'completed', null, 'd');
     rankList(document.getElementById('a-lift'), at.campaign_lift, (r) => (r.label || 'Campaign') + '  (' + fmt(r.sent_at) + ')', (r) => (r.completions_48h || 0) + ' completed', 'No campaigns sent yet.');
@@ -177,6 +358,154 @@ import Base from '../layouts/Base.astro';
     });
   }
 
+  // ---------- Sunday email ----------
+  function statusLabel(s) { return { draft: 'Draft', generating: 'Generating', generated: 'Generated', approved: 'Approved', scheduled: 'Scheduled', sent: 'Sent', error: 'Error' }[s] || s; }
+
+  function renderEditions(rows) {
+    editionsCache = rows || [];
+    const el = document.getElementById('editions');
+    if (!editionsCache.length) { el.innerHTML = '<div class="list-empty">No editions yet. Plan the next one above.</div>'; return; }
+    el.innerHTML = editionsCache.map((e) => {
+      const acts = [];
+      if (e.status === 'draft' || e.status === 'error') acts.push('<button class="btn btn-primary" data-act="gen" data-id="' + e.id + '">Generate</button>');
+      if (e.status === 'generating') acts.push('<button class="btn" disabled>Generating...</button>');
+      if (['generated', 'approved', 'scheduled', 'sent'].indexOf(e.status) !== -1) acts.push('<button class="btn" data-act="preview" data-id="' + e.id + '">Preview</button>');
+      if (['generated', 'approved', 'scheduled'].indexOf(e.status) !== -1) acts.push('<button class="btn btn-primary" data-act="send" data-id="' + e.id + '">Send</button>');
+      if (['generated', 'approved', 'scheduled', 'sent', 'error'].indexOf(e.status) !== -1) acts.push('<button class="btn" data-act="regen" data-id="' + e.id + '">Regenerate</button>');
+      if (e.status !== 'sent') acts.push('<button class="btn" data-act="del" data-id="' + e.id + '">Delete</button>');
+      const err = e.error ? '<div class="ecard-err">' + esc(e.error) + '</div>' : '';
+      const when = e.status === 'sent' && e.sent_at ? 'Sent ' + fmt(e.sent_at) : (e.target_send_on ? 'For ' + fmt(e.target_send_on) : 'No date set');
+      return '<div class="ecard">'
+        + '<div class="ecard-ord"><button data-act="up" data-id="' + e.id + '" title="Move up">&uarr;</button><button data-act="down" data-id="' + e.id + '" title="Move down">&darr;</button></div>'
+        + '<div class="ecard-main">'
+        + '<div class="ecard-title">' + esc(e.story_title || e.subject || 'Untitled edition') + '</div>'
+        + '<div class="ecard-meta">' + esc(e.story_ref || '') + (e.story_ref ? '  |  ' : '') + esc(when) + '</div>'
+        + '<div class="ecard-sub">Feature: ' + esc(e.feature_label || e.feature_key || 'not set') + '</div>'
+        + (e.subject ? '<div class="ecard-sub">Subject: ' + esc(e.subject) + '</div>' : '')
+        + err
+        + '<div class="ecard-actions">' + acts.join('') + '</div>'
+        + '</div>'
+        + '<div><span class="st st-' + e.status + '">' + statusLabel(e.status) + '</span></div>'
+        + '</div>';
+    }).join('');
+  }
+
+  async function loadEditions() {
+    const { data, error } = await window.makorClient.rpc('admin_weekly_editions');
+    if (error) { document.getElementById('editions').innerHTML = '<div class="list-empty">Could not load editions.</div>'; return; }
+    renderEditions(data || []);
+  }
+
+  function nextSunday() {
+    const d = new Date();
+    d.setDate(d.getDate() + ((7 - d.getDay()) % 7 || 7));
+    return d.toISOString().slice(0, 10);
+  }
+
+  async function createEdition(generate) {
+    const msg = document.getElementById('ne-msg');
+    const label = document.getElementById('ne-story').value.trim();
+    const picked = storyByLabel.get(label);
+    const slug = picked ? picked.slug : (document.getElementById('ne-story-slug').value || '');
+    const ref = picked ? picked.ref : (document.getElementById('ne-story-ref').value || '');
+    const title = picked ? picked.title : label;
+    const feature = document.getElementById('ne-feature').value.trim();
+    const featureKey = feature.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+    const date = document.getElementById('ne-date').value || null;
+    const instruction = document.getElementById('ne-instruction').value.trim();
+    if (!title && !instruction) { msg.textContent = 'Pick a story or write an instruction first.'; return; }
+    msg.textContent = 'Saving...';
+    const { data: id, error } = await window.makorClient.rpc('admin_create_edition', {
+      p_story_slug: slug, p_story_ref: ref, p_story_title: title,
+      p_feature_key: featureKey, p_feature_label: feature, p_instruction: instruction, p_target_send_on: date,
+    });
+    if (error) { msg.textContent = 'Could not save. ' + (error.message || ''); return; }
+    document.getElementById('ne-story').value = '';
+    document.getElementById('ne-feature').value = '';
+    document.getElementById('ne-instruction').value = '';
+    msg.textContent = generate ? 'Saved. Generating...' : 'Saved.';
+    await loadEditions();
+    if (generate && id) { await generateEdition(id); msg.textContent = 'Generated. Open the card to preview.'; }
+  }
+
+  async function generateEdition(id) {
+    // Optimistic status so the card shows Generating.
+    const row = editionsCache.find((e) => e.id === id); if (row) { row.status = 'generating'; renderEditions(editionsCache); }
+    try {
+      const { data, error } = await window.makorClient.functions.invoke('generate-weekly-edition', { body: { edition_id: id } });
+      if (error) { /* the row will carry the error from the server */ }
+    } catch (e) { /* fall through to reload */ }
+    await loadEditions();
+  }
+
+  async function sendEdition(id) {
+    if (!confirm('Send this edition to every current subscriber now?')) return;
+    const { data, error } = await window.makorClient.rpc('admin_send_edition', { p_id: id });
+    if (error) { alert('Could not send. ' + (error.message || '')); return; }
+    if (data && data.ok === false) { alert('Not sent: ' + (data.error || 'unknown')); return; }
+    alert('Sent to ' + ((data && data.recipients) || 0) + ' subscribers.');
+    await loadEditions();
+  }
+
+  async function moveEdition(id, dir) { await window.makorClient.rpc('admin_move_edition', { p_id: id, p_dir: dir }); await loadEditions(); }
+  async function setStatus(id, status) { await window.makorClient.rpc('admin_set_edition_status', { p_id: id, p_status: status }); await loadEditions(); }
+  async function deleteEdition(id) { if (!confirm('Delete this edition?')) return; await window.makorClient.rpc('admin_delete_edition', { p_id: id }); await loadEditions(); }
+
+  function openPreview(id) {
+    const e = editionsCache.find((x) => x.id === id); if (!e) return;
+    pvId = id;
+    document.getElementById('pv-subject').textContent = e.subject || '(no subject)';
+    document.getElementById('pv-preview').textContent = e.preview_text || '';
+    document.getElementById('pv-thinking').textContent = e.thinking || 'No thinking recorded.';
+    const frame = document.getElementById('pv-frame');
+    frame.srcdoc = e.html || '<p style="font-family:sans-serif;padding:1rem;color:#888">No email body yet.</p>';
+    document.getElementById('pv-approve').style.display = (e.status === 'generated') ? '' : 'none';
+    document.getElementById('pv-send').style.display = (['generated', 'approved', 'scheduled'].indexOf(e.status) !== -1) ? '' : 'none';
+    document.getElementById('pv-msg').textContent = '';
+    document.getElementById('pv').hidden = false;
+  }
+  function closePreview() { document.getElementById('pv').hidden = true; pvId = null; }
+
+  // ---------- Plans and groups ----------
+  function renderPlans(j) {
+    if (!j || j.error) return;
+    document.getElementById('pl-total').textContent = String(j.total_plans || 0);
+    document.getElementById('pl-group').textContent = String(j.group_plans || 0);
+    document.getElementById('pl-solo').textContent = String(j.solo_plans || 0);
+    document.getElementById('pl-members').textContent = String(j.total_members || 0);
+    document.getElementById('pl-accepted').textContent = String(j.accepted_members || 0);
+    document.getElementById('pl-pending').textContent = String(j.pending_members || 0);
+    rankList(document.getElementById('pl-bounced'), j.err_bounced, (r) => r.recipient || 'unknown', (r) => fmt(r.created_at), 'No bounced or failed emails. Good.');
+    rankList(document.getElementById('pl-stuck'), j.err_stuck_invites, (r) => (r.owner_name || 'A reader') + ' invited ' + (r.member_name || 'a reader'), (r) => 'since ' + fmt(r.joined_at), 'No invites are stuck. Good.');
+    rankList(document.getElementById('pl-orphan'), j.err_orphan_plans, (r) => (r.owner_name || 'A reader') + "'s plan", (r) => 'updated ' + fmt(r.updated_at), 'Every plan has a reader. Good.');
+    rankList(document.getElementById('pl-fail'), j.err_send_failures, (r) => (r.email_key || 'send') + ' step ' + (r.step == null ? '-' : r.step), (r) => (r.status || 'failed') + ' ' + fmt(r.sent_at), 'No send failures. Good.');
+  }
+  async function loadPlans() {
+    const { data, error } = await window.makorClient.rpc('admin_plans_overview');
+    if (!error) renderPlans(data || {});
+  }
+
+  // ---------- Users ----------
+  function renderUsers(rows) {
+    rows = rows || [];
+    document.getElementById('us-total').textContent = String(rows.length);
+    document.getElementById('us-active').textContent = String(rows.filter((r) => daysAgo(r.last_active) <= 7).length);
+    document.getElementById('us-shares').textContent = String(rows.reduce((a, r) => a + Number(r.shares || 0), 0));
+    document.getElementById('us-invites').textContent = String(rows.reduce((a, r) => a + Number(r.friend_invites || 0) + Number(r.group_invites || 0), 0));
+    const body = document.getElementById('users-body');
+    body.innerHTML = '';
+    rows.forEach((r) => {
+      const tr = document.createElement('tr');
+      const cells = [r.name || '-', r.email || '-', fmt(r.joined), String(r.studies_done || 0), String(r.shares || 0), String(r.friend_invites || 0), String(r.group_invites || 0), fmt(r.last_active)];
+      cells.forEach((c, ci) => { const td = document.createElement('td'); td.textContent = c; if (ci === 0) td.className = 'rank-name'; tr.appendChild(td); });
+      body.appendChild(tr);
+    });
+  }
+  async function loadUsers() {
+    const { data, error } = await window.makorClient.rpc('admin_users_overview');
+    if (!error) renderUsers(data || []);
+  }
+
   async function loadAnalytics() {
     if (!window.makorAnalytics) return;
     const a = await window.makorAnalytics(currentDays);
@@ -194,16 +523,50 @@ import Base from '../layouts/Base.astro';
     const rows = window.makorAdminOverview ? await window.makorAdminOverview() : [];
     if (rows && rows.error) { if (status) { status.hidden = false; status.textContent = 'Could not load the dashboard.'; } return; }
     renderPeople(rows);
-    await loadAnalytics();
+    await Promise.all([loadAnalytics(), loadEditions(), loadPlans(), loadUsers()]);
     if (status) status.hidden = true;
     if (wrap) wrap.hidden = false;
   }
 
+  // Populate the story datalist and lookup map.
+  (function initStories() {
+    const dl = document.getElementById('story-list');
+    if (!dl) return;
+    const frag = document.createDocumentFragment();
+    stories.forEach((s) => {
+      const label = s.title + (s.ref ? ' (' + s.ref + ')' : '');
+      storyByLabel.set(label, s);
+      const opt = document.createElement('option'); opt.value = label; frag.appendChild(opt);
+    });
+    dl.appendChild(frag);
+    const dateEl = document.getElementById('ne-date'); if (dateEl && !dateEl.value) dateEl.value = nextSunday();
+  })();
+
+  // Wiring.
   document.getElementById('period').addEventListener('click', function (e) {
     const btn = e.target.closest('button'); if (!btn) return;
     Array.prototype.forEach.call(this.querySelectorAll('button'), (b) => b.classList.remove('on'));
     btn.classList.add('on'); currentDays = Number(btn.dataset.days) || 7; loadAnalytics();
   });
+
+  document.getElementById('ne-save').addEventListener('click', () => createEdition(false));
+  document.getElementById('ne-gen').addEventListener('click', () => createEdition(true));
+
+  document.getElementById('editions').addEventListener('click', function (e) {
+    const btn = e.target.closest('button[data-act]'); if (!btn) return;
+    const id = Number(btn.dataset.id); const act = btn.dataset.act;
+    if (act === 'gen' || act === 'regen') generateEdition(id);
+    else if (act === 'preview') openPreview(id);
+    else if (act === 'send') sendEdition(id);
+    else if (act === 'up') moveEdition(id, -1);
+    else if (act === 'down') moveEdition(id, 1);
+    else if (act === 'del') deleteEdition(id);
+  });
+
+  document.getElementById('pv-close').addEventListener('click', closePreview);
+  document.getElementById('pv').addEventListener('click', (e) => { if (e.target.id === 'pv') closePreview(); });
+  document.getElementById('pv-approve').addEventListener('click', async () => { if (pvId) { await setStatus(pvId, 'approved'); document.getElementById('pv-msg').textContent = 'Approved.'; } });
+  document.getElementById('pv-send').addEventListener('click', async () => { if (pvId) { await sendEdition(pvId); closePreview(); } });
 
   window.addEventListener('makor-auth', loadAdmin);
   loadAdmin();

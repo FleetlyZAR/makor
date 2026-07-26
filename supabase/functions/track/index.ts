@@ -26,17 +26,22 @@ Deno.serve(async (req: Request) => {
   if (req.method !== "POST") return new Response("method", { status: 405, headers: cors });
   try {
     const b = await req.json().catch(() => ({}));
+    // Event type: page_view by default, or share when the site logs a share.
+    const type = b.t === "share" ? "share" : "page_view";
     const path = clip(b.p, 300);
     if (!path) return new Response(JSON.stringify({ skipped: "no path" }), { headers: { ...cors, "Content-Type": "application/json" } });
 
     const admin = createClient(SUPABASE_URL, SERVICE_ROLE, { auth: { persistSession: false } });
     await admin.from("events").insert({
-      type: "page_view",
+      type,
       path,
       referrer: clip(b.r, 300),
       session_id: clip(b.s, 64),
       user_id: b.u && /^[0-9a-f-]{36}$/i.test(b.u) ? b.u : null,
       is_auth: !!b.a,
+      // For shares: label is what was shared (daily, study, verse), link is the url.
+      label: type === "share" ? clip(b.l, 120) : null,
+      link: type === "share" ? clip(b.k, 300) : null,
     });
     return new Response(JSON.stringify({ ok: true }), { headers: { ...cors, "Content-Type": "application/json" } });
   } catch (e) {

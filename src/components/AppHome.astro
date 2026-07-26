@@ -101,6 +101,7 @@ import { dailyEntries } from '../data/daily.js';
       var shareText = '"' + entry.verse + '" (' + entry.ref + ')';
       var shareUrl = base + '/daily/' + entry.slug + '/';
       var imgUrl = base + '/daily/' + entry.slug + '.png';
+      if (window.makorLogShare) window.makorLogShare('daily', shareUrl);
       (async function () {
         try {
           if (navigator.canShare) {
