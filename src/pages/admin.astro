@@ -104,8 +104,12 @@ const stories = getAllStudies().map((s) => ({
 
         <div id="editions" class="cards"></div>
 
-        <h2 class="prog-h2">Emails that have gone out</h2>
-        <p class="muted-note">Your weekly sequence and any editions already sent. Open one to read the exact email.</p>
+        <h2 class="prog-h2">The sequence</h2>
+        <p class="muted-note">Your weekly sequence in order, plus any editions already sent. Open one to read the exact email.</p>
+        <div class="hist-controls">
+          <button id="hist-last3" class="btn" type="button">Show only last 3</button>
+          <button id="hist-sent" class="btn" type="button">Hide sent emails</button>
+        </div>
         <div id="history" class="cards"></div>
       </div>
     </details>
@@ -257,6 +261,10 @@ const stories = getAllStudies().map((s) => ({
   .btn[disabled] { opacity: 0.5; cursor: default; }
   .ne-msg { font-family: var(--sans); font-size: 0.82rem; color: var(--muted); }
 
+  .hist-controls { display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 0 0 0.85rem; }
+  .hist-controls .btn { padding: 0.35rem 0.85rem; font-size: 0.8rem; }
+  .hist-controls .btn.on { background: var(--water); color: #fff; border-color: var(--water); }
+
   /* Edition cards */
   .cards { display: flex; flex-direction: column; gap: 0.85rem; }
   .ecard { border: 1px solid var(--line); border-radius: 12px; padding: 0.95rem 1.1rem; background: var(--surface); display: flex; gap: 0.9rem; align-items: flex-start; }
@@ -299,6 +307,9 @@ const stories = getAllStudies().map((s) => ({
   let editionsCache = [];
   let historyCache = [];
   let pvId = null;
+  let histHideSent = false, histLast3 = false;
+  try { histHideSent = localStorage.getItem('mk_hist_hidesent') === '1'; histLast3 = localStorage.getItem('mk_hist_last3') === '1'; } catch (e) { /* ignore */ }
+  function isSentItem(h) { return h.kind === 'Edition' || (h.kind === 'Sequence' && h.locked); }
 
   const stories = (() => { try { return JSON.parse(document.getElementById('story-data').textContent || '[]'); } catch (e) { return []; } })();
   const storyByLabel = new Map();
@@ -383,8 +394,11 @@ const stories = getAllStudies().map((s) => ({
   function renderEditions(rows) {
     editionsCache = rows || [];
     const el = document.getElementById('editions');
-    if (!editionsCache.length) { el.innerHTML = '<div class="list-empty">No editions yet. Plan the next one above.</div>'; return; }
-    el.innerHTML = editionsCache.map((e) => {
+    // Once an edition is queued into the sequence, it moves out of this list
+    // and lives in the sequence below. So only show ones not yet sequenced.
+    const shown = editionsCache.filter((e) => ['scheduled', 'sent'].indexOf(e.status) === -1);
+    if (!shown.length) { el.innerHTML = '<div class="list-empty">No drafts here. Plan the next one above, and sequenced ones appear below.</div>'; return; }
+    el.innerHTML = shown.map((e) => {
       const acts = [];
       if (e.status === 'draft' || e.status === 'error') acts.push('<button class="btn btn-primary" data-act="gen" data-id="' + e.id + '">Generate</button>');
       if (e.status === 'generating') acts.push('<button class="btn" disabled>Generating...</button>');
@@ -522,8 +536,19 @@ const stories = getAllStudies().map((s) => ({
 
   function renderHistory() {
     const el = document.getElementById('history');
+    const cSent = document.getElementById('hist-sent');
+    const cLast3 = document.getElementById('hist-last3');
+    if (cSent) { cSent.textContent = histHideSent ? 'Show sent emails' : 'Hide sent emails'; cSent.classList.toggle('on', histHideSent); }
+    if (cLast3) { cLast3.textContent = histLast3 ? 'Show all' : 'Show only last 3'; cLast3.classList.toggle('on', histLast3); }
     if (!historyCache.length) { el.innerHTML = '<div class="list-empty">Nothing has gone out yet.</div>'; return; }
-    el.innerHTML = historyCache.map((h, i) => {
+    // Preserve each item's real index so action buttons still resolve.
+    let items = historyCache.map((h, i) => ({ h, i }));
+    const total = items.length;
+    if (histHideSent) items = items.filter((x) => !isSentItem(x.h));
+    if (histLast3) items = items.slice(-3);
+    const hidden = total - items.length;
+    const note = hidden > 0 ? '<div class="list-empty">' + hidden + ' hidden. Use the controls above to show them.</div>' : '';
+    el.innerHTML = note + items.map(({ h, i }) => {
       let acts = '<button class="btn" data-hist="' + i + '">Read</button>';
       let ord = '';
       if (h.kind === 'Sequence') {
@@ -709,6 +734,17 @@ const stories = getAllStudies().map((s) => ({
     else if (btn.dataset.seqmove != null) moveSeq(Number(btn.dataset.step), btn.dataset.seqmove === 'up' ? -1 : 1);
     else if (btn.dataset.seqdel != null) delSeq(Number(btn.dataset.seqdel));
   });
+  document.getElementById('hist-sent').addEventListener('click', function () {
+    histHideSent = !histHideSent;
+    try { localStorage.setItem('mk_hist_hidesent', histHideSent ? '1' : '0'); } catch (e) { /* ignore */ }
+    renderHistory();
+  });
+  document.getElementById('hist-last3').addEventListener('click', function () {
+    histLast3 = !histLast3;
+    try { localStorage.setItem('mk_hist_last3', histLast3 ? '1' : '0'); } catch (e) { /* ignore */ }
+    renderHistory();
+  });
+
   document.getElementById('seq-close').addEventListener('click', closeSeqEdit);
   document.getElementById('seq').addEventListener('click', (e) => { if (e.target.id === 'seq') closeSeqEdit(); });
   document.getElementById('seq-save').addEventListener('click', saveSeqEdit);
