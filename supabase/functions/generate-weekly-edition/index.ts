@@ -95,9 +95,15 @@ Deno.serve(async (req: Request) => {
   const { data: ed, error: edErr } = await admin.rpc("gen_edition_read", { p_id: editionId });
   if (edErr || !ed) return json({ error: "edition not found", detail: edErr?.message }, 404);
 
-  if (!ANTHROPIC_API_KEY) {
-    await write({ status: "error", error: "ANTHROPIC_API_KEY is not set on the function" });
-    return json({ ok: false, error: "ANTHROPIC_API_KEY is not set on the function" }, 500);
+  // Key from the function env, or fall back to the vault (set in the database).
+  let apiKey = ANTHROPIC_API_KEY;
+  if (!apiKey) {
+    const { data: vaultKey } = await admin.rpc("gen_get_anthropic_key");
+    if (typeof vaultKey === "string" && vaultKey) apiKey = vaultKey;
+  }
+  if (!apiKey) {
+    await write({ status: "error", error: "No Anthropic API key found in the function env or the vault" });
+    return json({ ok: false, error: "no anthropic api key" }, 500);
   }
 
   await write({ status: "generating", error: null });
@@ -121,7 +127,7 @@ Deno.serve(async (req: Request) => {
     const res = await fetch("https://api.anthropic.com/v1/messages", {
       method: "POST",
       headers: {
-        "x-api-key": ANTHROPIC_API_KEY,
+        "x-api-key": apiKey,
         "anthropic-version": "2023-06-01",
         "Content-Type": "application/json",
       },
