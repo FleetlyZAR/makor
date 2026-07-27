@@ -81,24 +81,19 @@ const stories = getAllStudies().map((s) => ({
           <div class="newed-head">Plan the next edition</div>
           <div class="newed-grid">
             <label class="fld">
-              <span>Story to focus on</span>
+              <span>Story to focus on (optional)</span>
               <input id="ne-story" list="story-list" type="text" placeholder="Search by title or reference" autocomplete="off" />
               <input id="ne-story-slug" type="hidden" />
               <input id="ne-story-ref" type="hidden" />
             </label>
             <label class="fld">
-              <span>Feature to highlight</span>
+              <span>Feature to highlight (optional)</span>
               <input id="ne-feature" list="feature-list" type="text" placeholder="e.g. Live in the Word reading plan" autocomplete="off" />
-            </label>
-            <label class="fld">
-              <span>Send on (a Sunday)</span>
-              <input id="ne-date" type="date" />
-              <small id="ne-booked" class="fr-hint"></small>
             </label>
           </div>
           <label class="fld">
-            <span>Instruction (what to draw out, tone, anything specific)</span>
-            <textarea id="ne-instruction" rows="3" placeholder="Optional. Left blank, the writer uses its judgement within the study discipline."></textarea>
+            <span>Instruction (required)</span>
+            <textarea id="ne-instruction" rows="3" placeholder="What to draw out, the tone, anything specific. Editions go out in this order, one each Sunday."></textarea>
           </label>
           <div class="newed-actions">
             <button id="ne-save" class="btn" type="button">Save draft</button>
@@ -233,7 +228,7 @@ const stories = getAllStudies().map((s) => ({
   /* New edition form */
   .newed { border: 1px solid var(--line); border-radius: 12px; padding: 1.1rem 1.2rem; margin: 0 0 1.35rem; background: var(--surface); }
   .newed-head { font-family: var(--sans); font-weight: 700; color: var(--ink); margin-bottom: 0.85rem; }
-  .newed-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.85rem; }
+  .newed-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.85rem; }
   @media (max-width: 640px) { .newed-grid { grid-template-columns: 1fr; } }
   .fld { display: flex; flex-direction: column; gap: 0.3rem; font-family: var(--sans); font-size: 0.82rem; color: var(--muted); margin-bottom: 0.85rem; }
   .fld span { font-weight: 600; }
@@ -285,7 +280,6 @@ const stories = getAllStudies().map((s) => ({
   let currentDays = 7;
   let editionsCache = [];
   let historyCache = [];
-  let takenSundays = new Set();
   let pvId = null;
 
   const stories = (() => { try { return JSON.parse(document.getElementById('story-data').textContent || '[]'); } catch (e) { return []; } })();
@@ -370,7 +364,6 @@ const stories = getAllStudies().map((s) => ({
 
   function renderEditions(rows) {
     editionsCache = rows || [];
-    refreshSchedule();
     const el = document.getElementById('editions');
     if (!editionsCache.length) { el.innerHTML = '<div class="list-empty">No editions yet. Plan the next one above.</div>'; return; }
     el.innerHTML = editionsCache.map((e) => {
@@ -382,7 +375,7 @@ const stories = getAllStudies().map((s) => ({
       if (['generated', 'approved', 'scheduled', 'sent', 'error'].indexOf(e.status) !== -1) acts.push('<button class="btn" data-act="regen" data-id="' + e.id + '">Regenerate</button>');
       if (e.status !== 'sent') acts.push('<button class="btn" data-act="del" data-id="' + e.id + '">Delete</button>');
       const err = e.error ? '<div class="ecard-err">' + esc(e.error) + '</div>' : '';
-      const when = e.status === 'sent' && e.sent_at ? 'Sent ' + fmt(e.sent_at) : (e.target_send_on ? 'For ' + fmt(e.target_send_on) : 'No date set');
+      const when = e.status === 'sent' && e.sent_at ? 'Sent ' + fmt(e.sent_at) : 'In the sequence queue';
       return '<div class="ecard">'
         + '<div class="ecard-ord"><button data-act="up" data-id="' + e.id + '" title="Move up">&uarr;</button><button data-act="down" data-id="' + e.id + '" title="Move down">&darr;</button></div>'
         + '<div class="ecard-main">'
@@ -404,31 +397,6 @@ const stories = getAllStudies().map((s) => ({
     renderEditions(data || []);
   }
 
-  function fmtSunday(iso) { try { return new Date(iso + 'T00:00:00').toLocaleDateString(undefined, { day: 'numeric', month: 'short' }); } catch (e) { return iso; } }
-  function nextSundayIso(from) {
-    const d = from ? new Date(from + 'T00:00:00') : new Date();
-    d.setDate(d.getDate() + ((7 - d.getDay()) % 7 || 7));
-    return d.toISOString().slice(0, 10);
-  }
-  function nextFreeSunday() {
-    let iso = nextSundayIso();
-    let guard = 0;
-    while (takenSundays.has(iso) && guard++ < 260) { iso = nextSundayIso(iso); }
-    return iso;
-  }
-  // Recompute which Sundays are booked (editions with a date that are not errored),
-  // show them under the date field, and keep the date field off a booked Sunday.
-  function refreshSchedule() {
-    takenSundays = new Set(editionsCache.filter((e) => e.target_send_on && e.status !== 'error').map((e) => e.target_send_on));
-    const hint = document.getElementById('ne-booked');
-    if (hint) {
-      const dates = Array.from(takenSundays).sort();
-      hint.textContent = dates.length ? ('Booked: ' + dates.map(fmtSunday).join(', ')) : 'No Sundays booked yet.';
-    }
-    const dateEl = document.getElementById('ne-date');
-    if (dateEl && (!dateEl.value || takenSundays.has(dateEl.value))) dateEl.value = nextFreeSunday();
-  }
-
   async function createEdition(generate) {
     const msg = document.getElementById('ne-msg');
     const label = document.getElementById('ne-story').value.trim();
@@ -438,14 +406,13 @@ const stories = getAllStudies().map((s) => ({
     const title = picked ? picked.title : label;
     const feature = document.getElementById('ne-feature').value.trim();
     const featureKey = feature.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
-    const date = document.getElementById('ne-date').value || null;
     const instruction = document.getElementById('ne-instruction').value.trim();
-    if (!title && !instruction) { msg.textContent = 'Pick a story or write an instruction first.'; return; }
-    if (date && takenSundays.has(date)) { msg.textContent = 'That Sunday is already booked. Pick another; booked Sundays are listed under the date.'; return; }
+    if (!instruction) { msg.textContent = 'Write an instruction. It is required.'; return; }
+    if (!title && !feature) { msg.textContent = 'Add a story to focus on or a feature to highlight. At least one is needed.'; return; }
     msg.textContent = 'Saving...';
     const { data: id, error } = await window.makorClient.rpc('admin_create_edition', {
       p_story_slug: slug, p_story_ref: ref, p_story_title: title,
-      p_feature_key: featureKey, p_feature_label: feature, p_instruction: instruction, p_target_send_on: date,
+      p_feature_key: featureKey, p_feature_label: feature, p_instruction: instruction, p_target_send_on: null,
     });
     if (error) { msg.textContent = 'Could not save. ' + (error.message || ''); return; }
     document.getElementById('ne-story').value = '';
@@ -611,7 +578,6 @@ const stories = getAllStudies().map((s) => ({
       const opt = document.createElement('option'); opt.value = label; frag.appendChild(opt);
     });
     dl.appendChild(frag);
-    const dateEl = document.getElementById('ne-date'); if (dateEl && !dateEl.value) dateEl.value = nextSundayIso();
   })();
 
   // Wiring.
@@ -638,13 +604,6 @@ const stories = getAllStudies().map((s) => ({
   document.getElementById('history').addEventListener('click', function (e) {
     const btn = e.target.closest('button[data-hist]'); if (!btn) return;
     const h = historyCache[Number(btn.dataset.hist)]; if (h) openReadonly(h);
-  });
-
-  // Keep the date field honest as the admin edits it directly.
-  document.getElementById('ne-date').addEventListener('change', function () {
-    const msg = document.getElementById('ne-msg');
-    if (this.value && takenSundays.has(this.value)) { msg.textContent = 'That Sunday is already booked.'; }
-    else if (msg.textContent.indexOf('already booked') !== -1) { msg.textContent = ''; }
   });
 
   document.getElementById('pv-close').addEventListener('click', closePreview);
