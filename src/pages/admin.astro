@@ -424,12 +424,16 @@ const stories = getAllStudies().map((s) => ({
   }
 
   async function generateEdition(id) {
+    const msg = document.getElementById('ne-msg');
     // Optimistic status so the card shows Generating.
     const row = editionsCache.find((e) => e.id === id); if (row) { row.status = 'generating'; renderEditions(editionsCache); }
+    if (msg) msg.textContent = 'Generating...';
     try {
       const { data, error } = await window.makorClient.functions.invoke('generate-weekly-edition', { body: { edition_id: id } });
-      if (error) { /* the row will carry the error from the server */ }
-    } catch (e) { /* fall through to reload */ }
+      if (error) { if (msg) msg.textContent = 'Generation call failed: ' + (error.message || 'request blocked'); }
+      else if (data && data.ok === false) { if (msg) msg.textContent = 'Generation error: ' + (data.error || 'see the card'); }
+      else if (msg) { msg.textContent = 'Done. Open the card to preview.'; }
+    } catch (e) { if (msg) msg.textContent = 'Generation failed: ' + String(e); }
     await loadEditions();
   }
 
