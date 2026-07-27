@@ -170,6 +170,25 @@ const stories = getAllStudies().map((s) => ({
     </div>
   </div>
 
+  <!-- Sequence email edit modal -->
+  <div id="seq" class="pv" hidden>
+    <div class="pv-box">
+      <div class="pv-head">
+        <div class="pv-subject">Edit sequence email</div>
+        <button class="pv-x" id="seq-close" type="button" aria-label="Close">Close</button>
+      </div>
+      <label class="fld"><span>Subject</span><input id="seq-subject" type="text" /></label>
+      <label class="fld"><span>Preview text</span><input id="seq-preview" type="text" /></label>
+      <label class="fld"><span>HTML body</span><textarea id="seq-html" rows="10" style="font-family:monospace;font-size:0.8rem"></textarea></label>
+      <label class="fld"><span>Plain text body</span><textarea id="seq-txt" rows="5"></textarea></label>
+      <label class="fld" style="flex-direction:row;align-items:center;gap:0.5rem"><input id="seq-active" type="checkbox" style="width:auto" /><span>Active (sending is on)</span></label>
+      <div class="pv-actions">
+        <button id="seq-save" class="btn btn-primary" type="button">Save</button>
+        <span id="seq-msg" class="ne-msg"></span>
+      </div>
+    </div>
+  </div>
+
   <datalist id="story-list"></datalist>
   <datalist id="feature-list">
     <option value="Live in the Word reading plan"></option>
@@ -484,7 +503,8 @@ const stories = getAllStudies().map((s) => ({
     const sentEditions = editionsCache.filter((e) => e.status === 'sent');
     historyCache = [];
     seq.forEach((s) => historyCache.push({
-      kind: 'Sequence', subject: s.subject, preview_text: s.preview_text, html: s.html, thinking: '',
+      kind: 'Sequence', step: s.step, active: s.active, txt: s.txt,
+      subject: s.subject, preview_text: s.preview_text, html: s.html, thinking: '',
       meta: (s.cadence === 'weekly' ? 'Weekly' : (s.cadence || '')) + ', step ' + s.step + ', ' + (s.sent_count || 0) + ' sent' + (s.last_sent ? ', last ' + fmt(s.last_sent) : '') + (s.active ? '' : ', off'),
     }));
     sentEditions.forEach((e) => historyCache.push({
@@ -497,14 +517,77 @@ const stories = getAllStudies().map((s) => ({
   function renderHistory() {
     const el = document.getElementById('history');
     if (!historyCache.length) { el.innerHTML = '<div class="list-empty">Nothing has gone out yet.</div>'; return; }
-    el.innerHTML = historyCache.map((h, i) =>
-      '<div class="ecard"><div class="ecard-main">'
-      + '<div class="ecard-title">' + esc(h.subject || '(no subject)') + '</div>'
-      + '<div class="ecard-meta">' + esc(h.meta || '') + '</div>'
-      + (h.preview_text ? '<div class="ecard-sub">' + esc(h.preview_text) + '</div>' : '')
-      + '<div class="ecard-actions"><button class="btn" data-hist="' + i + '">Read</button></div>'
-      + '</div><div><span class="st st-sent">' + esc(h.kind) + '</span></div></div>'
-    ).join('');
+    el.innerHTML = historyCache.map((h, i) => {
+      let acts = '<button class="btn" data-hist="' + i + '">Read</button>';
+      let ord = '';
+      if (h.kind === 'Sequence') {
+        ord = '<div class="ecard-ord"><button data-seqmove="up" data-step="' + h.step + '" title="Move up">&uarr;</button><button data-seqmove="down" data-step="' + h.step + '" title="Move down">&darr;</button></div>';
+        acts += '<button class="btn" data-seqedit="' + i + '">Edit</button>'
+          + '<button class="btn" data-seqregen="' + i + '">Regenerate</button>'
+          + '<button class="btn" data-seqdel="' + h.step + '">Delete</button>';
+      }
+      const badge = h.kind === 'Sequence' ? (h.active ? 'Sequence' : 'Off') : 'Edition';
+      const badgeClass = (h.kind === 'Sequence' && !h.active) ? 'st-draft' : 'st-sent';
+      return '<div class="ecard">' + ord + '<div class="ecard-main">'
+        + '<div class="ecard-title">' + esc(h.subject || '(no subject)') + '</div>'
+        + '<div class="ecard-meta">' + esc(h.meta || '') + '</div>'
+        + (h.preview_text ? '<div class="ecard-sub">' + esc(h.preview_text) + '</div>' : '')
+        + '<div class="ecard-actions">' + acts + '</div>'
+        + '</div><div><span class="st ' + badgeClass + '">' + esc(badge) + '</span></div></div>';
+    }).join('');
+  }
+
+  // Sequence email edit modal.
+  let seqEditIndex = null;
+  function openSeqEdit(i) {
+    const h = historyCache[i]; if (!h) return;
+    seqEditIndex = i;
+    document.getElementById('seq-subject').value = h.subject || '';
+    document.getElementById('seq-preview').value = h.preview_text || '';
+    document.getElementById('seq-html').value = h.html || '';
+    document.getElementById('seq-txt').value = h.txt || '';
+    document.getElementById('seq-active').checked = !!h.active;
+    document.getElementById('seq-msg').textContent = '';
+    document.getElementById('seq').hidden = false;
+  }
+  function closeSeqEdit() { document.getElementById('seq').hidden = true; seqEditIndex = null; }
+  async function saveSeqEdit() {
+    if (seqEditIndex === null) return;
+    const h = historyCache[seqEditIndex]; if (!h) return;
+    const msg = document.getElementById('seq-msg'); msg.textContent = 'Saving...';
+    const { error } = await window.makorClient.rpc('admin_sequence_update', {
+      p_step: h.step,
+      p_subject: document.getElementById('seq-subject').value,
+      p_preview: document.getElementById('seq-preview').value,
+      p_html: document.getElementById('seq-html').value,
+      p_txt: document.getElementById('seq-txt').value,
+      p_active: document.getElementById('seq-active').checked,
+    });
+    if (error) { msg.textContent = 'Could not save. ' + (error.message || ''); return; }
+    closeSeqEdit();
+    await loadHistory();
+  }
+  async function regenSeq(i) {
+    const h = historyCache[i]; if (!h) return;
+    const instruction = window.prompt('How should this email be rewritten? Leave blank to just improve it within the discipline.', '');
+    if (instruction === null) return;
+    const el = document.getElementById('history');
+    el.style.opacity = '0.5';
+    try {
+      const { data, error } = await window.makorClient.functions.invoke('regenerate-sequence-email', { body: { step: h.step, instruction } });
+      if (error) alert('Regenerate failed: ' + (error.message || 'request blocked'));
+      else if (data && data.ok === false) alert('Regenerate error: ' + (data.error || 'unknown'));
+    } catch (e) { alert('Regenerate failed: ' + String(e)); }
+    el.style.opacity = '';
+    await loadHistory();
+  }
+  async function moveSeq(step, dir) { await window.makorClient.rpc('admin_sequence_move', { p_step: step, p_dir: dir }); await loadHistory(); }
+  async function delSeq(step) {
+    if (!confirm('Delete this sequence email? If it has already been sent, it cannot be deleted and you will be asked to turn it off instead.')) return;
+    const { data, error } = await window.makorClient.rpc('admin_sequence_delete', { p_step: step });
+    if (error) { alert('Could not delete. ' + (error.message || '')); return; }
+    if (data && data.ok === false) { alert(data.error || 'Could not delete.'); return; }
+    await loadHistory();
   }
 
   // ---------- Plans and groups ----------
@@ -606,9 +689,16 @@ const stories = getAllStudies().map((s) => ({
   });
 
   document.getElementById('history').addEventListener('click', function (e) {
-    const btn = e.target.closest('button[data-hist]'); if (!btn) return;
-    const h = historyCache[Number(btn.dataset.hist)]; if (h) openReadonly(h);
+    const btn = e.target.closest('button'); if (!btn) return;
+    if (btn.dataset.hist != null) { const h = historyCache[Number(btn.dataset.hist)]; if (h) openReadonly(h); }
+    else if (btn.dataset.seqedit != null) openSeqEdit(Number(btn.dataset.seqedit));
+    else if (btn.dataset.seqregen != null) regenSeq(Number(btn.dataset.seqregen));
+    else if (btn.dataset.seqmove != null) moveSeq(Number(btn.dataset.step), btn.dataset.seqmove === 'up' ? -1 : 1);
+    else if (btn.dataset.seqdel != null) delSeq(Number(btn.dataset.seqdel));
   });
+  document.getElementById('seq-close').addEventListener('click', closeSeqEdit);
+  document.getElementById('seq').addEventListener('click', (e) => { if (e.target.id === 'seq') closeSeqEdit(); });
+  document.getElementById('seq-save').addEventListener('click', saveSeqEdit);
 
   document.getElementById('pv-close').addEventListener('click', closePreview);
   document.getElementById('pv').addEventListener('click', (e) => { if (e.target.id === 'pv') closePreview(); });

@@ -52,8 +52,7 @@ const SYSTEM_PROMPT = [
   "Colours: Ink #0E2A2E, Water/teal #0F6C6C, Brass #B8862F, on a vellum #F6F3EC background. Use inline styles only (email safe). Center a single column at max width 560px. Open with a serif Makor wordmark and a short brass rule, exactly like Makor's other emails. Use a teal rounded button for the main link. Close with a short italic teal line of Scripture and a small footer that links to " + SITE_URL + "/email-preferences/ so readers can manage their emails.",
   "The main call to action link should point into makor.co.za (the study being featured, or the relevant feature page).",
   "",
-  "Return your answer as a single JSON object and nothing else, with exactly these string fields:",
-  '{ "subject": "...", "preview_text": "...", "thinking": "...", "html": "...", "txt": "..." }',
+  "Call the emit_edition tool exactly once with the finished email in these fields:",
   "subject: a compelling, honest subject line, no dashes.",
   "preview_text: one short preheader line.",
   "thinking: a few short paragraphs explaining the passage you chose to draw out, the redemptive and Christ centred thread, and why you framed the feature the way you did, so the editor can judge it before sending. Plain text, no dashes.",
@@ -133,8 +132,24 @@ Deno.serve(async (req: Request) => {
       },
       body: JSON.stringify({
         model: ANTHROPIC_MODEL,
-        max_tokens: 4096,
+        max_tokens: 12000,
         system: SYSTEM_PROMPT,
+        tools: [{
+          name: "emit_edition",
+          description: "Return the finished Sunday email.",
+          input_schema: {
+            type: "object",
+            properties: {
+              subject: { type: "string" },
+              preview_text: { type: "string" },
+              thinking: { type: "string" },
+              html: { type: "string" },
+              txt: { type: "string" },
+            },
+            required: ["subject", "preview_text", "thinking", "html", "txt"],
+          },
+        }],
+        tool_choice: { type: "tool", name: "emit_edition" },
         messages: [{ role: "user", content: userMessage }],
       }),
     });
@@ -145,19 +160,13 @@ Deno.serve(async (req: Request) => {
       return json({ ok: false, error: `model error ${res.status}`, detail: detail.slice(0, 500) }, 502);
     }
 
+    // Structured tool output: the fields arrive as a real object, no parsing.
     const data = await res.json();
-    const text: string = (data?.content ?? []).map((b: { type: string; text?: string }) => (b.type === "text" ? b.text ?? "" : "")).join("").trim();
-
-    // The model is asked for a bare JSON object; tolerate stray prose around it.
-    let parsed: { subject?: string; preview_text?: string; thinking?: string; html?: string; txt?: string } | null = null;
-    try { parsed = JSON.parse(text); }
-    catch (_) {
-      const s = text.indexOf("{"), e = text.lastIndexOf("}");
-      if (s >= 0 && e > s) { try { parsed = JSON.parse(text.slice(s, e + 1)); } catch (_2) { /* below */ } }
-    }
+    const toolUse = (data?.content ?? []).find((b: { type: string }) => b.type === "tool_use");
+    const parsed = (toolUse?.input ?? null) as { subject?: string; preview_text?: string; thinking?: string; html?: string; txt?: string } | null;
     if (!parsed || !parsed.html) {
-      await write({ status: "error", error: "could not parse model output as JSON" });
-      return json({ ok: false, error: "could not parse model output" }, 502);
+      await write({ status: "error", error: "model returned no email content" });
+      return json({ ok: false, error: "no content from model" }, 502);
     }
 
     const strip = (s: string | undefined) => String(s ?? "").replace(/[–—]/g, ", ");
