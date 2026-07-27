@@ -509,9 +509,9 @@ const stories = getAllStudies().map((s) => ({
     const sentEditions = editionsCache.filter((e) => e.status === 'sent');
     historyCache = [];
     seq.forEach((s) => historyCache.push({
-      kind: 'Sequence', step: s.step, active: s.active, txt: s.txt,
+      kind: 'Sequence', step: s.step, active: s.active, txt: s.txt, locked: (s.sent_count || 0) > 0,
       subject: s.subject, preview_text: s.preview_text, html: s.html, thinking: '',
-      meta: (s.cadence === 'weekly' ? 'Weekly' : (s.cadence || '')) + ', step ' + s.step + ', ' + (s.sent_count || 0) + ' sent' + (s.last_sent ? ', last ' + fmt(s.last_sent) : '') + (s.active ? '' : ', off'),
+      meta: (s.cadence === 'weekly' ? 'Weekly' : (s.cadence || '')) + ', step ' + s.step + ', ' + (s.sent_count || 0) + ' sent' + (s.last_sent ? ', last ' + fmt(s.last_sent) : '') + (s.active ? '' : ', off') + ((s.sent_count || 0) > 0 ? ', position locked' : ''),
     }));
     sentEditions.forEach((e) => historyCache.push({
       kind: 'Edition', subject: e.subject || e.story_title, preview_text: e.preview_text, html: e.html, thinking: e.thinking,
@@ -527,10 +527,12 @@ const stories = getAllStudies().map((s) => ({
       let acts = '<button class="btn" data-hist="' + i + '">Read</button>';
       let ord = '';
       if (h.kind === 'Sequence') {
-        ord = '<div class="ecard-ord"><button data-seqmove="up" data-step="' + h.step + '" title="Move up">&uarr;</button><button data-seqmove="down" data-step="' + h.step + '" title="Move down">&darr;</button></div>';
+        ord = h.locked
+          ? '<div class="ecard-ord" title="This email has gone out, so its position is locked"><span style="font-size:0.9rem" aria-label="locked">&#128274;</span></div>'
+          : '<div class="ecard-ord"><button data-seqmove="up" data-step="' + h.step + '" title="Move up">&uarr;</button><button data-seqmove="down" data-step="' + h.step + '" title="Move down">&darr;</button></div>';
         acts += '<button class="btn" data-seqedit="' + i + '">Edit</button>'
-          + '<button class="btn" data-seqregen="' + i + '">Regenerate</button>'
-          + '<button class="btn" data-seqdel="' + h.step + '">Delete</button>';
+          + '<button class="btn" data-seqregen="' + i + '">Regenerate</button>';
+        if (!h.locked) acts += '<button class="btn" data-seqdel="' + h.step + '">Delete</button>';
       }
       const badge = h.kind === 'Sequence' ? (h.active ? 'Sequence' : 'Off') : 'Edition';
       const badgeClass = (h.kind === 'Sequence' && !h.active) ? 'st-draft' : 'st-sent';
@@ -587,7 +589,12 @@ const stories = getAllStudies().map((s) => ({
     el.style.opacity = '';
     await loadHistory();
   }
-  async function moveSeq(step, dir) { await window.makorClient.rpc('admin_sequence_move', { p_step: step, p_dir: dir }); await loadHistory(); }
+  async function moveSeq(step, dir) {
+    const { data, error } = await window.makorClient.rpc('admin_sequence_move', { p_step: step, p_dir: dir });
+    if (error) { alert('Could not move. ' + (error.message || '')); return; }
+    if (data && data.ok === false && data.error && data.error.indexOf('neighbour') === -1) alert(data.error);
+    await loadHistory();
+  }
   async function delSeq(step) {
     if (!confirm('Delete this sequence email? If it has already been sent, it cannot be deleted and you will be asked to turn it off instead.')) return;
     const { data, error } = await window.makorClient.rpc('admin_sequence_delete', { p_step: step });
