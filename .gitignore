@@ -11,3 +11,10 @@ keystore.properties
 
 # Rendered study audio is served from Cloudflare R2, never committed
 public/studies/**/audio/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
