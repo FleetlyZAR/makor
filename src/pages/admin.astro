@@ -93,6 +93,7 @@ const stories = getAllStudies().map((s) => ({
             <label class="fld">
               <span>Send on (a Sunday)</span>
               <input id="ne-date" type="date" />
+              <small id="ne-booked" class="fr-hint"></small>
             </label>
           </div>
           <label class="fld">
@@ -107,6 +108,10 @@ const stories = getAllStudies().map((s) => ({
         </div>
 
         <div id="editions" class="cards"></div>
+
+        <h2 class="prog-h2">Emails that have gone out</h2>
+        <p class="muted-note">Your weekly sequence and any editions already sent. Open one to read the exact email.</p>
+        <div id="history" class="cards"></div>
       </div>
     </details>
 
@@ -279,6 +284,8 @@ const stories = getAllStudies().map((s) => ({
   const ADMIN_EMAILS = ['luyanda@fleetly.co.za'];
   let currentDays = 7;
   let editionsCache = [];
+  let historyCache = [];
+  let takenSundays = new Set();
   let pvId = null;
 
   const stories = (() => { try { return JSON.parse(document.getElementById('story-data').textContent || '[]'); } catch (e) { return []; } })();
@@ -363,6 +370,7 @@ const stories = getAllStudies().map((s) => ({
 
   function renderEditions(rows) {
     editionsCache = rows || [];
+    refreshSchedule();
     const el = document.getElementById('editions');
     if (!editionsCache.length) { el.innerHTML = '<div class="list-empty">No editions yet. Plan the next one above.</div>'; return; }
     el.innerHTML = editionsCache.map((e) => {
@@ -396,10 +404,29 @@ const stories = getAllStudies().map((s) => ({
     renderEditions(data || []);
   }
 
-  function nextSunday() {
-    const d = new Date();
+  function fmtSunday(iso) { try { return new Date(iso + 'T00:00:00').toLocaleDateString(undefined, { day: 'numeric', month: 'short' }); } catch (e) { return iso; } }
+  function nextSundayIso(from) {
+    const d = from ? new Date(from + 'T00:00:00') : new Date();
     d.setDate(d.getDate() + ((7 - d.getDay()) % 7 || 7));
     return d.toISOString().slice(0, 10);
+  }
+  function nextFreeSunday() {
+    let iso = nextSundayIso();
+    let guard = 0;
+    while (takenSundays.has(iso) && guard++ < 260) { iso = nextSundayIso(iso); }
+    return iso;
+  }
+  // Recompute which Sundays are booked (editions with a date that are not errored),
+  // show them under the date field, and keep the date field off a booked Sunday.
+  function refreshSchedule() {
+    takenSundays = new Set(editionsCache.filter((e) => e.target_send_on && e.status !== 'error').map((e) => e.target_send_on));
+    const hint = document.getElementById('ne-booked');
+    if (hint) {
+      const dates = Array.from(takenSundays).sort();
+      hint.textContent = dates.length ? ('Booked: ' + dates.map(fmtSunday).join(', ')) : 'No Sundays booked yet.';
+    }
+    const dateEl = document.getElementById('ne-date');
+    if (dateEl && (!dateEl.value || takenSundays.has(dateEl.value))) dateEl.value = nextFreeSunday();
   }
 
   async function createEdition(generate) {
@@ -414,6 +441,7 @@ const stories = getAllStudies().map((s) => ({
     const date = document.getElementById('ne-date').value || null;
     const instruction = document.getElementById('ne-instruction').value.trim();
     if (!title && !instruction) { msg.textContent = 'Pick a story or write an instruction first.'; return; }
+    if (date && takenSundays.has(date)) { msg.textContent = 'That Sunday is already booked. Pick another; booked Sundays are listed under the date.'; return; }
     msg.textContent = 'Saving...';
     const { data: id, error } = await window.makorClient.rpc('admin_create_edition', {
       p_story_slug: slug, p_story_ref: ref, p_story_title: title,
@@ -465,6 +493,48 @@ const stories = getAllStudies().map((s) => ({
     document.getElementById('pv').hidden = false;
   }
   function closePreview() { document.getElementById('pv').hidden = true; pvId = null; }
+
+  // Read-only view of a historic email (no approve or send).
+  function openReadonly(obj) {
+    pvId = null;
+    document.getElementById('pv-subject').textContent = obj.subject || '(no subject)';
+    document.getElementById('pv-preview').textContent = obj.preview_text || '';
+    document.getElementById('pv-thinking').textContent = obj.thinking || 'No thinking recorded for this email.';
+    document.getElementById('pv-frame').srcdoc = obj.html || '<p style="font-family:sans-serif;padding:1rem;color:#888">No email body.</p>';
+    document.getElementById('pv-approve').style.display = 'none';
+    document.getElementById('pv-send').style.display = 'none';
+    document.getElementById('pv-msg').textContent = '';
+    document.getElementById('pv').hidden = false;
+  }
+
+  async function loadHistory() {
+    const { data, error } = await window.makorClient.rpc('admin_sequence_emails');
+    const seq = (error || !data) ? [] : data;
+    const sentEditions = editionsCache.filter((e) => e.status === 'sent');
+    historyCache = [];
+    seq.forEach((s) => historyCache.push({
+      kind: 'Sequence', subject: s.subject, preview_text: s.preview_text, html: s.html, thinking: '',
+      meta: (s.cadence === 'weekly' ? 'Weekly' : (s.cadence || '')) + ', step ' + s.step + ', ' + (s.sent_count || 0) + ' sent' + (s.last_sent ? ', last ' + fmt(s.last_sent) : '') + (s.active ? '' : ', off'),
+    }));
+    sentEditions.forEach((e) => historyCache.push({
+      kind: 'Edition', subject: e.subject || e.story_title, preview_text: e.preview_text, html: e.html, thinking: e.thinking,
+      meta: 'Edition, sent ' + fmt(e.sent_at),
+    }));
+    renderHistory();
+  }
+
+  function renderHistory() {
+    const el = document.getElementById('history');
+    if (!historyCache.length) { el.innerHTML = '<div class="list-empty">Nothing has gone out yet.</div>'; return; }
+    el.innerHTML = historyCache.map((h, i) =>
+      '<div class="ecard"><div class="ecard-main">'
+      + '<div class="ecard-title">' + esc(h.subject || '(no subject)') + '</div>'
+      + '<div class="ecard-meta">' + esc(h.meta || '') + '</div>'
+      + (h.preview_text ? '<div class="ecard-sub">' + esc(h.preview_text) + '</div>' : '')
+      + '<div class="ecard-actions"><button class="btn" data-hist="' + i + '">Read</button></div>'
+      + '</div><div><span class="st st-sent">' + esc(h.kind) + '</span></div></div>'
+    ).join('');
+  }
 
   // ---------- Plans and groups ----------
   function renderPlans(j) {
@@ -523,7 +593,9 @@ const stories = getAllStudies().map((s) => ({
     const rows = window.makorAdminOverview ? await window.makorAdminOverview() : [];
     if (rows && rows.error) { if (status) { status.hidden = false; status.textContent = 'Could not load the dashboard.'; } return; }
     renderPeople(rows);
-    await Promise.all([loadAnalytics(), loadEditions(), loadPlans(), loadUsers()]);
+    await Promise.all([loadAnalytics(), loadPlans(), loadUsers()]);
+    await loadEditions();
+    await loadHistory();
     if (status) status.hidden = true;
     if (wrap) wrap.hidden = false;
   }
@@ -539,7 +611,7 @@ const stories = getAllStudies().map((s) => ({
       const opt = document.createElement('option'); opt.value = label; frag.appendChild(opt);
     });
     dl.appendChild(frag);
-    const dateEl = document.getElementById('ne-date'); if (dateEl && !dateEl.value) dateEl.value = nextSunday();
+    const dateEl = document.getElementById('ne-date'); if (dateEl && !dateEl.value) dateEl.value = nextSundayIso();
   })();
 
   // Wiring.
@@ -561,6 +633,18 @@ const stories = getAllStudies().map((s) => ({
     else if (act === 'up') moveEdition(id, -1);
     else if (act === 'down') moveEdition(id, 1);
     else if (act === 'del') deleteEdition(id);
+  });
+
+  document.getElementById('history').addEventListener('click', function (e) {
+    const btn = e.target.closest('button[data-hist]'); if (!btn) return;
+    const h = historyCache[Number(btn.dataset.hist)]; if (h) openReadonly(h);
+  });
+
+  // Keep the date field honest as the admin edits it directly.
+  document.getElementById('ne-date').addEventListener('change', function () {
+    const msg = document.getElementById('ne-msg');
+    if (this.value && takenSundays.has(this.value)) { msg.textContent = 'That Sunday is already booked.'; }
+    else if (msg.textContent.indexOf('already booked') !== -1) { msg.textContent = ''; }
   });
 
   document.getElementById('pv-close').addEventListener('click', closePreview);
