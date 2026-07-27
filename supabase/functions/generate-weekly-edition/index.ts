@@ -46,11 +46,10 @@ const SYSTEM_PROMPT = [
   "2. Scripture spine is the Berean Standard Bible (BSB, public domain). Quote verses accurately in the BSB. Do not use the NIV, ESV, or NLT.",
   "3. Plain, accessible English a working person or a first time reader can follow, warm and reverent, never talking down. This is discipleship, not display.",
   "4. Never use an em dash or an en dash anywhere, in prose or in html. Use commas, colons, semicolons, or clean sentence breaks.",
-  "5. Do not invent quotes, URLs, or citations. Do not put the reader's name in unless it is provided.",
+  "5. Do not invent quotes, URLs, or citations.",
   "",
-  "Brand and format for the html body:",
-  "Colours: Ink #0E2A2E, Water/teal #0F6C6C, Brass #B8862F, on a vellum #F6F3EC background. Use inline styles only (email safe). Center a single column at max width 560px. Open with a serif Makor wordmark and a short brass rule, exactly like Makor's other emails. Use a teal rounded button for the main link. Close with a short italic teal line of Scripture and a small footer that links to " + SITE_URL + "/email-preferences/ so readers can manage their emails.",
-  "The main call to action link should point into makor.co.za (the study being featured, or the relevant feature page).",
+  "Brand and format for the html body: you will be given the html of an existing Makor email as the house template. Reproduce its exact structure and inline styling, the header wordmark panel, the colours, the fonts, the teal rounded button, and the footer. Change only the body content to this week's email. Keep it email safe with inline styles only, single column, max width 560px.",
+  "You may greet the reader with the literal token {{first_name}} exactly as the house template does; the sender fills it in. The main call to action link should point into makor.co.za (the study being featured, or the relevant feature page).",
   "",
   "Call the emit_edition tool exactly once with the finished email in these fields:",
   "subject: a compelling, honest subject line, no dashes.",
@@ -107,6 +106,8 @@ Deno.serve(async (req: Request) => {
 
   await write({ status: "generating", error: null });
 
+  const { data: template } = await admin.rpc("gen_email_template");
+
   const userMessage = [
     "Write this Sunday's Makor email.",
     "",
@@ -120,6 +121,9 @@ Deno.serve(async (req: Request) => {
     "",
     "Editor's instruction:",
     `  ${ed.instruction || "(no extra instruction; use your judgement within the discipline)"}`,
+    "",
+    "House template to match exactly. Reproduce its header, colours, fonts, button, and footer; change only the body to this week's email:",
+    typeof template === "string" && template ? template : "(no template available; follow the brand description above)",
   ].join("\n");
 
   try {
