@@ -82,16 +82,23 @@ Deno.serve(async (req: Request) => {
   } catch (_) { /* handled below */ }
   if (!editionId) return json({ error: "missing edition_id" }, 400);
 
-  // Load the edition from the comms schema (service role, bypasses RLS).
-  const { data: ed, error: edErr } = await admin.schema("comms").from("weekly_editions").select("*").eq("id", editionId).maybeSingle();
-  if (edErr || !ed) return json({ error: "edition not found" }, 404);
+  // comms is not exposed to PostgREST, so read and write it through the
+  // service-role-only bridge functions in public.
+  const write = (f: Record<string, string | null>) => admin.rpc("gen_edition_write", {
+    p_id: editionId, p_subject: f.subject ?? null, p_preview: f.preview_text ?? null,
+    p_thinking: f.thinking ?? null, p_html: f.html ?? null, p_txt: f.txt ?? null,
+    p_model: f.model ?? null, p_status: f.status ?? null, p_error: f.error ?? null,
+  });
+
+  const { data: ed, error: edErr } = await admin.rpc("gen_edition_read", { p_id: editionId });
+  if (edErr || !ed) return json({ error: "edition not found", detail: edErr?.message }, 404);
 
   if (!ANTHROPIC_API_KEY) {
-    await admin.schema("comms").from("weekly_editions").update({ status: "error", error: "ANTHROPIC_API_KEY is not set on the function", updated_at: new Date().toISOString() }).eq("id", editionId);
+    await write({ status: "error", error: "ANTHROPIC_API_KEY is not set on the function" });
     return json({ ok: false, error: "ANTHROPIC_API_KEY is not set on the function" }, 500);
   }
 
-  await admin.schema("comms").from("weekly_editions").update({ status: "generating", error: null, updated_at: new Date().toISOString() }).eq("id", editionId);
+  await write({ status: "generating", error: null });
 
   const userMessage = [
     "Write this Sunday's Makor email.",
@@ -126,7 +133,7 @@ Deno.serve(async (req: Request) => {
 
     if (!res.ok) {
       const detail = await res.text();
-      await admin.schema("comms").from("weekly_editions").update({ status: "error", error: `model error ${res.status}: ${detail.slice(0, 500)}`, updated_at: new Date().toISOString() }).eq("id", editionId);
+      await write({ status: "error", error: `model error ${res.status}: ${detail.slice(0, 500)}` });
       return json({ ok: false, error: `model error ${res.status}`, detail: detail.slice(0, 500) }, 502);
     }
 
@@ -141,12 +148,12 @@ Deno.serve(async (req: Request) => {
       if (s >= 0 && e > s) { try { parsed = JSON.parse(text.slice(s, e + 1)); } catch (_2) { /* below */ } }
     }
     if (!parsed || !parsed.html) {
-      await admin.schema("comms").from("weekly_editions").update({ status: "error", error: "could not parse model output as JSON", updated_at: new Date().toISOString() }).eq("id", editionId);
+      await write({ status: "error", error: "could not parse model output as JSON" });
       return json({ ok: false, error: "could not parse model output" }, 502);
     }
 
     const strip = (s: string | undefined) => String(s ?? "").replace(/[–—]/g, ", ");
-    await admin.schema("comms").from("weekly_editions").update({
+    await write({
       subject: strip(parsed.subject),
       preview_text: strip(parsed.preview_text),
       thinking: strip(parsed.thinking),
@@ -155,13 +162,11 @@ Deno.serve(async (req: Request) => {
       model: ANTHROPIC_MODEL,
       status: "generated",
       error: null,
-      generated_at: new Date().toISOString(),
-      updated_at: new Date().toISOString(),
-    }).eq("id", editionId);
+    });
 
     return json({ ok: true, edition_id: editionId, status: "generated" });
   } catch (e) {
-    await admin.schema("comms").from("weekly_editions").update({ status: "error", error: String(e).slice(0, 500), updated_at: new Date().toISOString() }).eq("id", editionId);
+    await write({ status: "error", error: String(e).slice(0, 500) });
     return json({ ok: false, error: String(e) }, 500);
   }
 });
