@@ -479,7 +479,7 @@ const bslug = bookSlug(study.book);
     if (window.makorSaveAttempt) {
       const res = await window.makorSaveAttempt({ slug: meta.slug, book: meta.book, title: meta.title, phase: 'post', score: avg });
       if (res && res.skipped) {
-        if (saveNote) saveNote.textContent = 'Sign in with Google, at the top of the page, to save this and track your growth over time.';
+        if (saveNote) saveNote.textContent = 'Sign in with Apple or Google, at the top of the page, to save this and track your growth over time.';
       } else {
         if (saveNote) saveNote.textContent = 'Saved to your account.';
         renderHistory();

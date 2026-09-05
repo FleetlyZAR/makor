@@ -22,6 +22,7 @@ import Base from '../layouts/Base.astro';
   .da-panel { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px; margin: 18px 0; }
   .da-btn { display: inline-flex; align-items: center; justify-content: center; font-family: var(--sans); font-weight: 600; font-size: 0.95rem; border-radius: 24px; padding: 12px 20px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; }
   .da-danger { background: #a3352e; color: #fff; border-color: #a3352e; }
+  .da-apple { background: #000; color: #fff; border-color: #000; margin-right: 8px; }
   .da-ghost { background: transparent; color: var(--muted); border: 0; margin-left: 8px; cursor: pointer; font-weight: 600; }
   .da-help { color: var(--muted); font-size: 0.88rem; }
   .da-note { color: var(--muted); font-size: 0.85rem; margin-top: 10px; }
@@ -34,9 +35,12 @@ import Base from '../layouts/Base.astro';
 
     function signedOut() {
       panel.innerHTML = '<p>You need to be signed in to delete your account.</p>'
+        + '<button class="da-btn da-apple" id="da-signin-apple" type="button">Sign in with Apple</button>'
         + '<button class="da-btn" id="da-signin" type="button">Sign in with Google</button>';
       var b = document.getElementById('da-signin');
       if (b) b.addEventListener('click', function () { if (window.makorSignIn) window.makorSignIn('google'); });
+      var ba = document.getElementById('da-signin-apple');
+      if (ba) ba.addEventListener('click', function () { if (window.makorSignIn) window.makorSignIn('apple'); });
     }
 
     function signedIn(user) {

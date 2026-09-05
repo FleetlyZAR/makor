@@ -90,8 +90,8 @@ const ogImageUrl = ogImage
         <div class="wrap signin-bar-inner">
           <span class="signin-text">Save your progress across every study, free and always.</span>
           <span class="signin-actions">
-            <button id="signin-google" class="signin-btn" type="button">Sign in with Google</button>
             <button id="signin-apple" class="signin-btn" type="button">Sign in with Apple</button>
+            <button id="signin-google" class="signin-btn" type="button">Sign in with Google</button>
             <button id="signin-dismiss" class="signin-dismiss" type="button" aria-label="Dismiss">✕</button>
           </span>
         </div>
@@ -161,12 +161,12 @@ const ogImageUrl = ogImage
           out.addEventListener('click', async () => { await client.auth.signOut(); location.reload(); });
           menuEl.appendChild(out);
         } else {
-          const inb = document.createElement('button'); inb.className = 'menu-item menu-action'; inb.type = 'button'; inb.textContent = 'Sign in with Google';
-          inb.addEventListener('click', () => { if (window.makorSignIn) window.makorSignIn('google'); });
-          menuEl.appendChild(inb);
           const inbA = document.createElement('button'); inbA.className = 'menu-item menu-action'; inbA.type = 'button'; inbA.textContent = 'Sign in with Apple';
           inbA.addEventListener('click', () => { if (window.makorSignIn) window.makorSignIn('apple'); });
           menuEl.appendChild(inbA);
+          const inb = document.createElement('button'); inb.className = 'menu-item menu-action'; inb.type = 'button'; inb.textContent = 'Sign in with Google';
+          inb.addEventListener('click', () => { if (window.makorSignIn) window.makorSignIn('google'); });
+          menuEl.appendChild(inb);
         }
       }
       if (menuBtn && menuEl) {

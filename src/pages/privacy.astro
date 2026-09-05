@@ -18,7 +18,7 @@ import Base from '../layouts/Base.astro';
 
     <h2>What we collect</h2>
     <h3>Account information</h3>
-    <p>Signing in is optional. If you choose to sign in, we use Google Sign-In through our authentication provider, Supabase. When you sign in we receive from Google your name, your email address, and a Google account identifier. We never receive or store your Google password.</p>
+    <p>Signing in is optional. If you choose to sign in, you may use Sign in with Apple or Google Sign-In, both through our authentication provider, Supabase. We receive your name, your email address, and an account identifier from the provider you choose. If you use Sign in with Apple and choose to hide your email address, we receive only Apple's private relay address and never your real one. We never receive or store your Apple or Google password.</p>
 
     <h3>Your study progress</h3>
     <p>If you are signed in, we store the record of your learning so we can show you your growth: which studies you begin and complete, your quiz scores before and after each study, your selected answers, and the dates and times of those attempts. This information is linked to your account.</p>
@@ -32,7 +32,7 @@ import Base from '../layouts/Base.astro';
     <h2>Who processes your information for us</h2>
     <p>We rely on a small number of trusted service providers (operators, under POPIA) who process data on our behalf and under our instructions:</p>
     <ul>
-      <li>Google, for sign-in (authentication).</li>
+      <li>Apple and Google, for sign-in (authentication).</li>
       <li>Supabase, for authentication and for hosting the database that stores your account and progress.</li>
       <li>Cloudflare, for website hosting and content delivery.</li>
     </ul>

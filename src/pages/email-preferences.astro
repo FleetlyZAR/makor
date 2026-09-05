@@ -11,7 +11,10 @@ import Base from '../layouts/Base.astro';
 
     <p id="ep-signin" class="ep-status" hidden>
       Sign in to manage your email preferences.
-      <button id="ep-signin-btn" class="ep-btn" type="button">Sign in with Google</button>
+      <span class="ep-signin-row">
+        <button id="ep-signin-apple" class="ep-btn ep-apple" type="button">Sign in with Apple</button>
+        <button id="ep-signin-btn" class="ep-btn" type="button">Sign in with Google</button>
+      </span>
     </p>
 
     <div id="ep-wrap" hidden>
@@ -68,6 +71,8 @@ import Base from '../layouts/Base.astro';
   .prefs-page .ep-row b { display: block; font-size: 0.98rem; }
   .prefs-page .ep-row small { display: block; color: var(--muted); font-size: 0.82rem; margin-top: 2px; line-height: 1.5; }
   .prefs-page .ep-btn { background: var(--water); color: #fff; border: 0; border-radius: 8px; padding: 10px 16px; font-family: inherit; font-size: 0.9rem; cursor: pointer; margin-top: 1rem; }
+  .prefs-page .ep-apple { background: #000; }
+  .prefs-page .ep-signin-row { display: inline-flex; flex-wrap: wrap; gap: 10px; }
   .prefs-page .ep-saved { font-size: 0.85rem; color: var(--water); margin-left: 0.6rem; }
   .prefs-page .ep-note { font-size: 0.78rem; color: var(--muted); margin-top: 1rem; }
 </style>
@@ -101,6 +106,9 @@ function boot(){
 }
 $('ep-signin-btn').onclick=function(){
   if(window.makorSignIn) window.makorSignIn('google');
+};
+$('ep-signin-apple').onclick=function(){
+  if(window.makorSignIn) window.makorSignIn('apple');
 };
 if(window.makorClient!==undefined&&window.makorUser!==undefined) boot();
 else window.addEventListener('makor-auth',boot,{once:true});
