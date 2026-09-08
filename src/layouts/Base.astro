@@ -482,11 +482,18 @@ const ogImageUrl = ogImage
     </script>
 
     <script is:inline>
-      // Native shell only: route incoming Universal Links to the bundled page.
-      // When a makor.co.za study link is tapped in Calendar, Mail, or Messages,
-      // iOS opens the Makor app and Capacitor hands us the full https URL. We
-      // strip it to a path and load the matching page that ships inside the app,
-      // so a calendar reminder lands on the study rather than in the browser.
+      // Native shell only: route an incoming Universal Link to the bundled page.
+      // When a makor.co.za link is tapped in WhatsApp, Messages, Mail, or Calendar,
+      // iOS opens the Makor app and Capacitor hands us the full https URL.
+      //
+      // Two things this has to get right. First, Capacitor's local server does not
+      // resolve a directory URL: it serves the root index.html for any extensionless
+      // path, which is why a raw study path used to land on the website landing page
+      // inside the app. So the path goes through window.makorHref, the same fix
+      // AppNav applies to in-app link clicks. Second, a study published after this
+      // build of the app shipped is simply not in the bundle, so we confirm the page
+      // is there and open the link in the system browser when it is not, rather than
+      // stranding the reader on the landing page.
       (function () {
         var Cap = window.Capacitor;
         if (!Cap || !(Cap.isNativePlatform && Cap.isNativePlatform())) return;
@@ -494,15 +501,30 @@ const ogImageUrl = ogImage
         if (!App) return;
 
         var HOSTS = { 'makor.co.za': 1, 'www.makor.co.za': 1 };
+        function fix(path) { return window.makorHref ? window.makorHref(path) : path; }
+
+        function openOutside(rawUrl) {
+          var Browser = Cap.Plugins && Cap.Plugins.Browser;
+          if (Browser && Browser.open) { Browser.open({ url: rawUrl }).catch(function () {}); }
+          else { window.open(rawUrl, '_system'); }
+        }
+
         function routeTo(rawUrl) {
-          try {
-            var u = new URL(rawUrl);
-            if (!HOSTS[u.hostname]) return; // ignore other hosts (e.g. auth.makor.co.za)
-            var target = u.pathname + u.search + u.hash;
-            if (!target || target === '/') target = '/';
-            var here = location.pathname + location.search + location.hash;
-            if (target !== here) location.href = target;
-          } catch (e) { /* never break the app on a malformed link */ }
+          var u;
+          try { u = new URL(rawUrl); } catch (e) { return; }
+          if (!HOSTS[u.hostname]) return; // other hosts, the auth callback included, are not ours
+
+          var page = fix(u.pathname || '/');
+          var target = page + u.search + u.hash;
+          var here = fix(location.pathname) + location.search + location.hash;
+          if (target === here) return; // already on it, including the cold start home case
+
+          // A file that is not in the bundle fails the request rather than returning
+          // a 404, so a rejected fetch means this build of the app does not have it.
+          fetch(page, { cache: 'no-store' }).then(function (res) {
+            if (res && res.ok) location.assign(target);
+            else openOutside(rawUrl);
+          }).catch(function () { openOutside(rawUrl); });
         }
 
         // A link tapped while the app is already running.
@@ -510,7 +532,7 @@ const ogImageUrl = ogImage
           if (data && data.url) routeTo(data.url);
         });
 
-        // A link that cold-started the app: honour it once the shell is up.
+        // A link that cold started the app: honour it once the shell is up.
         if (App.getLaunchUrl) {
           App.getLaunchUrl().then(function (res) {
             if (res && res.url) routeTo(res.url);

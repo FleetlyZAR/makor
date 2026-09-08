@@ -11,8 +11,28 @@
             "comment": "Keep the association file itself and other well-known paths in the browser."
           },
           {
+            "/": "/_astro/*",
+            "exclude": true,
+            "comment": "Build assets are never a page a reader taps."
+          },
+          {
+            "/": "/*.json",
+            "exclude": true,
+            "comment": "Search and plan index endpoints stay data, not an app launch."
+          },
+          {
+            "/": "/*.xml",
+            "exclude": true,
+            "comment": "Sitemap and feeds stay in the browser."
+          },
+          {
+            "/": "/*.txt",
+            "exclude": true,
+            "comment": "robots.txt and similar stay in the browser."
+          },
+          {
             "/": "/*",
-            "comment": "Every other makor.co.za path opens in the Makor app when it is installed."
+            "comment": "Every other makor.co.za path opens in the Makor app when it is installed. The app resolves the path against its own bundle and opens anything it does not have in the browser instead."
           }
         ]
       }
