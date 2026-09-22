@@ -71,3 +71,15 @@ number. `CURRENT_PROJECT_VERSION` in `ios/App/App.xcodeproj/project.pbxproj` is
 set to the next unused number, 11 at the time of writing; bump it after every
 upload. Xcode Cloud numbers its own builds, so keep its "next build number"
 setting above the last upload as well.
+
+## iOS scene life cycle (permanent)
+
+Apps built with the iOS 27 SDK must use the UIScene life cycle or UIKit refuses
+to launch them (black screen, EXC_BREAKPOINT in
+_UIApplicationEvaluateRuntimeIssueForNoSceneLifecycleAdoption). Build 10 hit
+this. The app now declares `UIApplicationSceneManifest` in Info.plist and
+`ios/App/App/SceneDelegate.swift` owns the window and the Capacitor bridge.
+Under scenes, opened URLs and Universal Links arrive at the SceneDelegate, which
+forwards each one to Capacitor's `ApplicationDelegateProxy`, so `appUrlOpen` and
+`getLaunchUrl` behave as before. If `npx cap` ever regenerates the iOS project,
+check these two files survive.
