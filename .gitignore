@@ -11,3 +11,7 @@ keystore.properties
 
 # Rendered study audio is served from Cloudflare R2, never committed
 public/studies/**/audio/
+
+# Temporary files left by file sync mounts, never commit these
+.fuse_hidden*
+_wt_test
