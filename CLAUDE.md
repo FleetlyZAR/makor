@@ -62,3 +62,12 @@ The routing lives at the end of `src/layouts/Base.astro`: it normalises the path
 through `window.makorHref`, confirms the page exists in this build of the bundle,
 and opens the link in the system browser when it does not, because the bundle is
 frozen at build time while the site keeps gaining studies.
+
+## iOS build numbers (permanent)
+
+App Store Connect has used build numbers up to 10 (build 10 was the App Review
+fix for guidelines 4 and 2.1a, September 2026). Every new upload needs a higher
+number. `CURRENT_PROJECT_VERSION` in `ios/App/App.xcodeproj/project.pbxproj` is
+set to the next unused number, 11 at the time of writing; bump it after every
+upload. Xcode Cloud numbers its own builds, so keep its "next build number"
+setting above the last upload as well.
