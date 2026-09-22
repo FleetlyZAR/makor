@@ -94,7 +94,7 @@ document.addEventListener('click', function(e){
   if(open){
     var row=open.closest('.np-row'); var id=row.dataset.id; var link=open.dataset.link;
     if(id) client.from('notifications').update({read_at:new Date().toISOString()}).eq('id',id).is('read_at',null).then(function(){
-      if(link) window.location.href=link; else load().then(render);
+      if(link){ if(window.makorGo) window.makorGo(link); else window.location.href=link; } else load().then(render);
     });
     return;
   }

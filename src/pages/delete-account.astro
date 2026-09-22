@@ -35,8 +35,8 @@ import Base from '../layouts/Base.astro';
 
     function signedOut() {
       panel.innerHTML = '<p>You need to be signed in to delete your account.</p>'
-        + '<button class="da-btn da-apple" id="da-signin-apple" type="button">Sign in with Apple</button>'
-        + '<button class="da-btn" id="da-signin" type="button">Sign in with Google</button>';
+        + '<div class="auth-row"><button class="auth-btn auth-apple" id="da-signin-apple" type="button">Sign in with Apple</button>'
+        + '<button class="auth-btn auth-google" id="da-signin" type="button">Sign in with Google</button></div>';
       var b = document.getElementById('da-signin');
       if (b) b.addEventListener('click', function () { if (window.makorSignIn) window.makorSignIn('google'); });
       var ba = document.getElementById('da-signin-apple');

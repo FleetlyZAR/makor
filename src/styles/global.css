@@ -415,3 +415,30 @@ body.header-collapsed .cascade-controls { display: none; }
 .footer-links { margin-top: 0.6rem; }
 .footer-links a { color: var(--water); text-decoration: none; }
 .footer-links a:hover { color: var(--water-deep); }
+
+/* Sign in buttons. One style for every screen that offers sign in, built to
+   Apple's Sign in with Apple guidelines: the Apple logo and the exact title
+   "Sign in with Apple", a solid black button (white on dark backgrounds),
+   at least 44pt tall, and never smaller than the Google button beside it.
+   Google follows its own branding: white, outlined, the full colour G. */
+.auth-row { display: flex; flex-direction: column; align-items: stretch; gap: 10px; width: 100%; max-width: 340px; margin-top: 0.9rem; }
+.auth-btn { -webkit-appearance: none; appearance: none; display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; min-height: 48px; padding: 0 20px; border-radius: 24px; border: 1px solid transparent; font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 17px; font-weight: 500; line-height: 1; letter-spacing: -0.01em; text-decoration: none; white-space: nowrap; cursor: pointer; box-sizing: border-box; margin: 0; }
+.auth-btn::before { content: ""; flex: 0 0 auto; width: 18px; height: 18px; }
+.auth-apple { background: #000; color: #fff; border-color: #000; }
+.auth-apple::before { background: currentColor; margin-top: -3px; -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M16.365 1.43c0 1.14-.493 2.27-1.177 3.08-.744.9-1.99 1.57-2.987 1.57-.12 0-.23-.02-.3-.03-.01-.06-.04-.22-.04-.39 0-1.15.572-2.27 1.206-2.98.804-.94 2.142-1.64 3.248-1.68.03.13.05.28.05.43zm4.565 15.71c-.03.07-.463 1.58-1.518 3.12-.945 1.34-1.94 2.71-3.43 2.71-1.517 0-1.9-.88-3.63-.88-1.698 0-2.302.91-3.67.91-1.377 0-2.332-1.26-3.428-2.8-1.287-1.82-2.323-4.63-2.323-7.28 0-4.28 2.797-6.55 5.552-6.55 1.448 0 2.675.95 3.6.95.865 0 2.222-1.01 3.902-1.01.613 0 2.886.06 4.374 2.19-.13.09-2.383 1.37-2.383 4.19 0 3.26 2.854 4.42 2.955 4.45z'/%3E%3C/svg%3E") center / contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M16.365 1.43c0 1.14-.493 2.27-1.177 3.08-.744.9-1.99 1.57-2.987 1.57-.12 0-.23-.02-.3-.03-.01-.06-.04-.22-.04-.39 0-1.15.572-2.27 1.206-2.98.804-.94 2.142-1.64 3.248-1.68.03.13.05.28.05.43zm4.565 15.71c-.03.07-.463 1.58-1.518 3.12-.945 1.34-1.94 2.71-3.43 2.71-1.517 0-1.9-.88-3.63-.88-1.698 0-2.302.91-3.67.91-1.377 0-2.332-1.26-3.428-2.8-1.287-1.82-2.323-4.63-2.323-7.28 0-4.28 2.797-6.55 5.552-6.55 1.448 0 2.675.95 3.6.95.865 0 2.222-1.01 3.902-1.01.613 0 2.886.06 4.374 2.19-.13.09-2.383 1.37-2.383 4.19 0 3.26 2.854 4.42 2.955 4.45z'/%3E%3C/svg%3E") center / contain no-repeat; }
+.auth-google { background: #fff; color: #1f1f1f; border-color: #747775; }
+.auth-google::before { background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18'%3E%3Cpath d='M17.6 9.2c0-.6-.05-1.2-.15-1.7H9v3.4h4.8a4.1 4.1 0 01-1.8 2.7v2.2h2.9c1.7-1.6 2.7-3.9 2.7-6.6z' fill='%234285F4'/%3E%3Cpath d='M9 18c2.4 0 4.5-.8 6-2.2l-2.9-2.2c-.8.5-1.8.9-3.1.9-2.4 0-4.4-1.6-5.1-3.8H.9v2.3A9 9 0 009 18z' fill='%2334A853'/%3E%3Cpath d='M3.9 10.7a5.4 5.4 0 010-3.4V5H.9a9 9 0 000 8z' fill='%23FBBC05'/%3E%3Cpath d='M9 3.6c1.3 0 2.5.5 3.4 1.3l2.6-2.6A9 9 0 00.9 5l3 2.3C4.6 5.2 6.6 3.6 9 3.6z' fill='%23EA4335'/%3E%3C/svg%3E") center / contain no-repeat; }
+.auth-btn:active { opacity: 0.85; }
+.auth-btn:focus-visible { outline: 2px solid var(--light, #B8862F); outline-offset: 2px; }
+/* On a dark background Apple asks for the white style. */
+.auth-on-dark .auth-apple, html[data-mk-theme="dark"] .auth-apple { background: #fff; color: #000; border-color: #fff; }
+html[data-mk-theme="dark"] .auth-google { background: #131314; color: #e3e3e3; border-color: #8e918f; }
+.menu .auth-row { padding: 0.4rem 0.3rem 0.2rem; margin-top: 0.2rem; max-width: none; }
+.signin-bar .auth-row { flex-direction: row; max-width: none; width: auto; margin-top: 0; }
+.signin-bar .auth-btn { width: auto; min-width: 214px; min-height: 44px; font-size: 15px; }
+@media (max-width: 640px) {
+  .signin-bar-inner { flex-wrap: wrap; }
+  .signin-actions { width: 100%; align-items: flex-start; }
+  .signin-bar .auth-row { flex-direction: column; width: 100%; }
+  .signin-bar .auth-btn { width: 100%; }
+}

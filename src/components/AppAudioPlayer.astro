@@ -241,9 +241,11 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
       if (p < 0 || p >= queue.length) return;
       const e = queue[p];
       const plan = new URLSearchParams(location.search).get('plan');
-      let u = location.origin + '/' + e.bookSlug + '/' + e.slug + '/?autoplay=1';
+      let u = '/' + e.bookSlug + '/' + e.slug + '/?autoplay=1';
       if (plan) u += '&plan=' + encodeURIComponent(plan);
-      location.href = u;
+      // In the app a directory path must go through makorHref, or the local
+      // server serves the landing page instead of the next study.
+      location.href = window.makorHref ? window.makorHref(u) : u;
     }
 
     audio.addEventListener('loadedmetadata', () => { if (pending != null) { try { audio.currentTime = pending; } catch (e) {} pending = null; } });

@@ -90,8 +90,10 @@ const ogImageUrl = ogImage
         <div class="wrap signin-bar-inner">
           <span class="signin-text">Save your progress across every study, free and always.</span>
           <span class="signin-actions">
-            <button id="signin-apple" class="signin-btn" type="button">Sign in with Apple</button>
-            <button id="signin-google" class="signin-btn" type="button">Sign in with Google</button>
+            <span class="auth-row auth-on-dark">
+              <button id="signin-apple" class="auth-btn auth-apple" type="button">Sign in with Apple</button>
+              <button id="signin-google" class="auth-btn auth-google" type="button">Sign in with Google</button>
+            </span>
             <button id="signin-dismiss" class="signin-dismiss" type="button" aria-label="Dismiss">✕</button>
           </span>
         </div>
@@ -161,12 +163,14 @@ const ogImageUrl = ogImage
           out.addEventListener('click', async () => { await client.auth.signOut(); location.reload(); });
           menuEl.appendChild(out);
         } else {
-          const inbA = document.createElement('button'); inbA.className = 'menu-item menu-action'; inbA.type = 'button'; inbA.textContent = 'Sign in with Apple';
+          const authRow = document.createElement('div'); authRow.className = 'auth-row';
+          const inbA = document.createElement('button'); inbA.className = 'auth-btn auth-apple'; inbA.type = 'button'; inbA.textContent = 'Sign in with Apple';
           inbA.addEventListener('click', () => { if (window.makorSignIn) window.makorSignIn('apple'); });
-          menuEl.appendChild(inbA);
-          const inb = document.createElement('button'); inb.className = 'menu-item menu-action'; inb.type = 'button'; inb.textContent = 'Sign in with Google';
+          authRow.appendChild(inbA);
+          const inb = document.createElement('button'); inb.className = 'auth-btn auth-google'; inb.type = 'button'; inb.textContent = 'Sign in with Google';
           inb.addEventListener('click', () => { if (window.makorSignIn) window.makorSignIn('google'); });
-          menuEl.appendChild(inb);
+          authRow.appendChild(inb);
+          menuEl.appendChild(authRow);
         }
       }
       if (menuBtn && menuEl) {
@@ -457,7 +461,7 @@ const ogImageUrl = ogImage
             const id = item.getAttribute('data-id');
             const link = item.getAttribute('data-link');
             if (id) { await window.makorMarkNotificationRead(id); }
-            if (link) { window.location.href = link; } else { const rows = await refresh(); renderPanel(rows); }
+            if (link) { if (window.makorGo) window.makorGo(link); else window.location.href = link; } else { const rows = await refresh(); renderPanel(rows); }
           }
         });
         document.addEventListener('click', (e) => {
@@ -532,10 +536,22 @@ const ogImageUrl = ogImage
           if (data && data.url) routeTo(data.url);
         });
 
-        // A link that cold started the app: honour it once the shell is up.
+        // A link that cold started the app: honour it once, and only once.
+        // getLaunchUrl keeps returning the same launch URL for the whole life of
+        // the app, and this script runs on every page load. Without the guard,
+        // every tap away from the study (Home, Plan, another book) reloads a page
+        // that routes straight back to the launch link, so the reader is trapped.
+        // sessionStorage lives exactly as long as this run of the app, so a fresh
+        // cold start from a new link is still honoured.
         if (App.getLaunchUrl) {
           App.getLaunchUrl().then(function (res) {
-            if (res && res.url) routeTo(res.url);
+            if (!res || !res.url) return;
+            var KEY = 'makor.launchUrlHandled';
+            try {
+              if (sessionStorage.getItem(KEY) === res.url) return;
+              sessionStorage.setItem(KEY, res.url);
+            } catch (e) { if (window.__makorLaunchHandled) return; window.__makorLaunchHandled = true; }
+            routeTo(res.url);
           }).catch(function () {});
         }
       })();

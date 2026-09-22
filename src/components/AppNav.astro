@@ -10,7 +10,21 @@
   (function () {
     var C = window.Capacitor;
     var native = !!(C && C.isNativePlatform && C.isNativePlatform());
-    if (!native) { window.makorHref = function (u) { return u; }; return; }
+    // window.makorGo(link) navigates to any in-app link: a site path, or a full
+    // makor.co.za URL (notification links carry these). In the app it strips the
+    // host so the bundled page loads, and applies the directory fix below.
+    var HOSTS = { 'makor.co.za': 1, 'www.makor.co.za': 1 };
+    function toPath(link) {
+      if (typeof link !== 'string') return link;
+      if (link.charAt(0) === '/') return link;
+      try { var u = new URL(link); if (HOSTS[u.hostname]) return u.pathname + u.search + u.hash; } catch (e) {}
+      return link;
+    }
+    if (!native) {
+      window.makorHref = function (u) { return u; };
+      window.makorGo = function (link) { location.assign(link); };
+      return;
+    }
 
     function fix(url) {
       if (typeof url !== 'string' || url.charAt(0) !== '/') return url;
@@ -24,6 +38,7 @@
       return url + q + frag;
     }
     window.makorHref = fix;
+    window.makorGo = function (link) { location.assign(fix(toPath(link))); };
 
     document.addEventListener('click', function (e) {
       var a = e.target && e.target.closest ? e.target.closest('a[href]') : null;
