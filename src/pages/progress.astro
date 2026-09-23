@@ -443,7 +443,7 @@ const badgeConfig = {
     if (!window.makorClient) return;
     const { data: u } = await window.makorClient.auth.getUser();
     if (!u || !u.user) {
-      if (status) { status.hidden = false; status.textContent = 'Open the menu at the top and sign in to see your growth.'; }
+      if (status) { status.hidden = false; status.innerHTML = window.makorSignInBlock('Sign in to see your growth.'); }
       if (wrap) wrap.hidden = true;
       return;
     }

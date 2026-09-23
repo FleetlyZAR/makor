@@ -114,7 +114,7 @@ function boot(){
   client=window.makorClient; me=window.makorUser;
   var status=$('np-status');
   if(!me){
-    status.innerHTML='Sign in to see your notifications. Use the menu at the top right.';
+    status.innerHTML=window.makorSignInBlock('Sign in to see your notifications.');
     return;
   }
   load().then(render);

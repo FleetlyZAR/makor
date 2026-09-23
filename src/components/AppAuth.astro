@@ -28,6 +28,21 @@
       } catch (e) {}
     };
 
+    // Shared sign in block: a message with both buttons, for any page that asks a
+    // signed out reader to sign in. Buttons carry data-signin and are handled here.
+    window.makorSignInBlock = function (message) {
+      var esc = function (t) { return String(t).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
+      return '<span class="auth-prompt">' + esc(message) + '</span>'
+        + '<span class="auth-row">'
+        + '<button class="auth-btn auth-apple" type="button" data-signin="apple">Sign in with Apple</button>'
+        + '<button class="auth-btn auth-google" type="button" data-signin="google">Sign in with Google</button>'
+        + '</span>';
+    };
+    document.addEventListener('click', function (e) {
+      var b = e.target && e.target.closest ? e.target.closest('[data-signin]') : null;
+      if (b && window.makorSignIn) window.makorSignIn(b.getAttribute('data-signin'));
+    });
+
     // Return handler: fires when the OAuth redirect re-enters the app.
     var C = window.Capacitor;
     if (isNative() && C.Plugins && C.Plugins.App) {

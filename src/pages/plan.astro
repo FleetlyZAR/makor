@@ -375,7 +375,7 @@ function showPlanCard(cfg){
         var scheduled=0; entries.forEach(function(en){ if(en.date.getTime()<=now2.getTime()) scheduled+=en.items.length; });
         pct=total?Math.round(scheduled/total*100):0;
         countText=scheduled+' of '+total+' studies scheduled so far';
-        document.getElementById('mp-note').textContent='Sign in with Apple or Google (menu, top right) and complete each study’s quiz to track what you have actually read.';
+        document.getElementById('mp-note').innerHTML=window.makorSignInBlock('Sign in and complete each study’s quiz to track what you have actually read.');
       }
       document.getElementById('mp-fill').style.width=pct+'%';
       document.getElementById('mp-count').textContent=countText;

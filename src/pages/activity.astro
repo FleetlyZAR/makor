@@ -211,7 +211,7 @@ function boot(){
   client=window.makorClient; me=window.makorUser;
   var status=$('ac-status');
   if(!me){
-    status.innerHTML='Sign in to see what your friends are reading and to add new ones. Use the menu at the top right.';
+    status.innerHTML=window.makorSignInBlock('Sign in to see what your friends are reading and to add new ones.');
     return;
   }
   $('ac-tabs').hidden=false;
