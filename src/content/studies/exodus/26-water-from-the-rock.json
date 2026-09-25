@@ -18,9 +18,21 @@
         "note": "give us water to drink",
         "emphasis": "",
         "verses": [
-          { "chapter": 17, "n": 1, "text": "Then the whole congregation of Israel left the Desert of Sin, moving from place to place as the LORD commanded. They camped at Rephidim, but there was no water for the people to drink." },
-          { "chapter": 17, "n": 2, "text": "So the people contended with Moses, “Give us water to drink.” \n“Why do you contend with me?” Moses replied. “Why do you test the LORD?”" },
-          { "chapter": 17, "n": 3, "text": "But the people thirsted for water there, and they grumbled against Moses: “Why have you brought us out of Egypt, to make us and our children and livestock die of thirst?”" }
+          {
+            "chapter": 17,
+            "n": 1,
+            "text": "Then the whole congregation of Israel left the Desert of Sin, moving from place to place as the LORD commanded. They camped at Rephidim, but there was no water for the people to drink."
+          },
+          {
+            "chapter": 17,
+            "n": 2,
+            "text": "So the people contended with Moses, “Give us water to drink.” \n“Why do you contend with me?” Moses replied. “Why do you test the LORD?”"
+          },
+          {
+            "chapter": 17,
+            "n": 3,
+            "text": "But the people thirsted for water there, and they grumbled against Moses: “Why have you brought us out of Egypt, to make us and our children and livestock die of thirst?”"
+          }
         ]
       },
       {
@@ -28,9 +40,21 @@
         "note": "strike the rock, and water will come out",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 17, "n": 4, "text": "Then Moses cried out to the LORD, “What should I do with these people? A little more and they will stone me!”" },
-          { "chapter": 17, "n": 5, "text": "And the LORD said to Moses, “Walk on ahead of the people and take some of the elders of Israel with you. Take along in your hand the staff with which you struck the Nile, and go." },
-          { "chapter": 17, "n": 6, "text": "Behold, I will stand there before you by the {{rock|rock}} at Horeb. And when you strike the rock, water will come out of it for the people to drink.” \nSo Moses did this in the sight of the elders of Israel." }
+          {
+            "chapter": 17,
+            "n": 4,
+            "text": "Then Moses cried out to the LORD, “What should I do with these people? A little more and they will stone me!”"
+          },
+          {
+            "chapter": 17,
+            "n": 5,
+            "text": "And the LORD said to Moses, “Walk on ahead of the people and take some of the elders of Israel with you. Take along in your hand the staff with which you struck the Nile, and go."
+          },
+          {
+            "chapter": 17,
+            "n": 6,
+            "text": "Behold, I will stand there before you by the {{rock|rock}} at Horeb. And when you strike the rock, water will come out of it for the people to drink.” \nSo Moses did this in the sight of the elders of Israel."
+          }
         ]
       },
       {
@@ -38,15 +62,34 @@
         "note": "a lasting name for testing and quarreling",
         "emphasis": "",
         "verses": [
-          { "chapter": 17, "n": 7, "text": "He named the place {{massah|Massah}} and {{meribah|Meribah}} because the Israelites quarreled, and because they tested the LORD, saying, “Is the LORD among us or not?”" }
+          {
+            "chapter": 17,
+            "n": 7,
+            "text": "He named the place {{massah|Massah}} and {{meribah|Meribah}} because the Israelites quarreled, and because they tested the LORD, saying, “Is the LORD among us or not?”"
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "rock": { "language": "Hebrew", "lemma": "tsur", "original": "צור", "gloss": "A rock or rugged cliff face, often a picture of refuge and strength. The LORD stands upon this very rock before it is struck, and Paul later says plainly that the rock Israel drank from was Christ, 1 Corinthians 10:4." },
-    "massah": { "language": "Hebrew", "lemma": "massah", "original": "מסה", "gloss": "Testing. Built on the same root as the verb rendered test in verse 2, this name marks the place where Israel's demand became, in truth, a test of the LORD's presence and patience." },
-    "meribah": { "language": "Hebrew", "lemma": "meribah", "original": "מריבה", "gloss": "Quarreling, strife. Built on the same root as the verb rendered contended in verse 2, this name marks the place where Israel's complaint against Moses was, in truth, a quarrel with the LORD Himself." }
+    "rock": {
+      "language": "Hebrew",
+      "lemma": "tsur",
+      "original": "צור",
+      "gloss": "A rock or rugged cliff face, often a picture of refuge and strength. The LORD stands upon this very rock before it is struck, and Paul later says plainly that the rock Israel drank from was Christ, 1 Corinthians 10:4."
+    },
+    "massah": {
+      "language": "Hebrew",
+      "lemma": "massah",
+      "original": "מסה",
+      "gloss": "Testing. Built on the same root as the verb rendered test in verse 2, this name marks the place where Israel's demand became, in truth, a test of the LORD's presence and patience."
+    },
+    "meribah": {
+      "language": "Hebrew",
+      "lemma": "meribah",
+      "original": "מריבה",
+      "gloss": "Quarreling, strife. Built on the same root as the verb rendered contended in verse 2, this name marks the place where Israel's complaint against Moses was, in truth, a quarrel with the LORD Himself."
+    }
   },
   "study": {
     "basic": {
@@ -60,78 +103,252 @@
       "oneStory": "This is the pattern of the whole wilderness story: an undeserving, complaining people kept alive by nothing but God's provision. The rock struck for water points forward to Christ struck for sinners, so that everyone who thirsts may come to Him and never be turned away."
     },
     "context": {
-      "literary": "The chapter continues the wilderness testing cycle begun with Marah and manna: complaint, divine provision, and a lesson meant to be remembered. Unlike the earlier scenes, this one closes not with celebration but with a place name that memorializes Israel's failure.",
-      "historical": "Rephidim sits near Horeb, the mountain where Israel will soon receive the covenant. The generation that watched the Red Sea part and ate bread from heaven is the same generation that now accuses God of murderous intent within weeks, a memory Israel's later worship, Psalm 95, refuses to let its descendants forget.",
-      "canonical": "Massah and Meribah become permanent shorthand in Scripture for testing God and hardening the heart, cited directly in Psalm 95 and Hebrews 3 and 4, while the rock itself becomes a lasting image of God as refuge and, in Paul's reading, of Christ."
+      "literary": "Rephidim is the third crisis on the road from the sea to Sinai, and it is deliberately the worst. At Marah the water was bitter; here there is none at all. At Marah the people asked, 'What are we to drink?' Exodus 15:24; here they demand, 'Give us water to drink,' verse 2. In Exodus 16 their grumbling was about food; here it becomes an accusation of murder, 'to make us and our children and livestock die of thirst,' verse 3, and Moses fears for his life, verse 4. The sequence of wilderness stories escalates, and this one is the climax.\n\nThe seven verses are tightly built. Verses 1 to 3 are the crisis, told twice: once as a dispute, verse 2, and again as grumbling, verse 3. Verses 4 to 6 are the answer, beginning with Moses' cry and ending with his obedience 'in the sight of the elders.' Verse 7 is the verdict, a naming that sums up the whole scene. The two verbs of verse 2, contend and test, become the two names of verse 7, so the story is framed by its own vocabulary.\n\nThe climax of the passage is God's word in verse 6, 'Behold, I will stand there before you by the rock.' Everything turns on that promise of presence. The closing question of verse 7, 'Is the LORD among us or not?', is therefore ironic. The reader knows that the LORD has just stood before Moses at the rock.\n\nThe episode also connects to what follows. Exodus 17:8 begins, 'After this, the Amalekites came and attacked the Israelites at Rephidim.' The people who asked whether the LORD was among them are immediately given a battle in which they will learn that He is. The same staff that struck the rock is lifted over the fight, Exodus 17:9, and the chapter ends with an altar named 'The LORD Is My Banner,' Exodus 17:15.",
+      "historical": "Numbers 33:12-14 lists the stops between the Desert of Sin and Rephidim, Dophkah and Alush, and it repeats the key fact: Rephidim was a camp 'where there was no water for the people to drink.' The phrase 'moving from place to place,' verse 1, reflects that itinerary, stage by stage 'as the LORD commanded,' which means the cloud had led them to a dry camp.\n\nThe location is near Horeb, which the BSB footnote identifies with Sinai. The rock that gives water stands at the foot of the mountain of God, where Moses first met the LORD at the bush, Exodus 3:1, and where Israel will soon receive the covenant, Exodus 19. The miracle happens in the region where God is about to meet His people.\n\nThe threat of stoning is real. Stoning was a communal act of execution, and the people's anger was turning into a mob. Later in the wilderness the congregation would threaten to stone Joshua and Caleb, Numbers 14:10. Moses' question, 'What should I do with these people?', shows a leader at the end of his resources.\n\nThe staff Moses takes is 'the staff with which you struck the Nile,' verse 5, recalling the first plague when the Nile's water turned to blood, Exodus 7:20. That staff had been an instrument of judgment on Egypt. Now it strikes a rock and brings water for Israel. The elders go as witnesses, as Israel's representatives, a role they had played since the beginning of Moses' mission, Exodus 3:16 and 4:29.\n\nFor the first hearers the names Massah and Meribah became part of the map of memory. Psalm 95 sings them, Deuteronomy 6:16 commands Israel not to repeat them, and the names stayed attached to that ground as a warning for every later generation.",
+      "canonical": "Few wilderness episodes are recalled as often as this one. Deuteronomy turns it into a command: 'Do not test the LORD your God as you tested Him at Massah,' Deuteronomy 6:16, and Moses reminds Israel that they provoked the LORD 'at Massah,' Deuteronomy 9:22. In Moses' blessing, Levi is the one 'whom You tested at Massah and contested at the waters of Meribah,' Deuteronomy 33:8.\n\nA second water crisis near the end of the wilderness years takes the same name. In Numbers 20:2-13 the people again quarrel for water, God tells Moses to speak to the rock, and Moses strikes it twice, saying, 'must we bring you water out of this rock?' That act costs Moses and Aaron their entry into the land, and the place is called 'the waters of Meribah,' Numbers 20:13. The two stories frame the wilderness generation.\n\nThe Psalms sing the rock as a sign of God's abundance. 'He split the rocks in the wilderness and gave them drink as abundant as the seas,' Psalm 78:15. 'He opened a rock, and water gushed out; it flowed like a river in the desert,' Psalm 105:41. Psalm 114:8 praises the God 'who turned the rock into a pool.' Isaiah promises that in the new exodus God will do it again, 'He split the rock, and water gushed out,' Isaiah 48:21.\n\nPsalm 95 turns the story into a call to worship and a warning. It begins, 'let us shout to the Rock of our salvation,' Psalm 95:1, and later warns, 'do not harden your hearts as you did at Meribah, in the day at Massah in the wilderness,' Psalm 95:8. Hebrews 3 and 4 quote that psalm at length and apply it to the church, warning against 'a wicked heart of unbelief,' Hebrews 3:12.\n\nPaul makes the boldest reading. The fathers 'drank from the spiritual rock that accompanied them, and that rock was Christ,' 1 Corinthians 10:4. And Jesus, when tempted to throw Himself from the temple, answers from Deuteronomy's command about Massah: 'Do not put the Lord your God to the test,' Matthew 4:7."
     },
     "hermeneutics": {
-      "authorIntent": "To show that God provides for His people even in their unbelief, while marking the place forever as a warning: this is what happens when a rescued people test the LORD instead of trusting Him.",
-      "descriptionVsPrescription": "The passage describes a specific historical crisis and a specific miracle; it does not prescribe that God will always meet demands made in a spirit of quarreling. What carries forward is the abiding principle, warned against directly in Hebrews 3 and 4: do not harden your heart as Israel did at Massah and Meribah.",
+      "authorIntent": "Moses wanted Israel to see what their unbelief really was. The narrator names it with care: the people 'contended' and 'tested,' and their words were a question about God Himself, 'Is the LORD among us or not?' A request for water is not a sin; Israel's sin was to treat God as absent and hostile after everything He had done. Moses wanted every later reader to feel the seriousness of that.\n\nHe also wanted them to see God's astonishing answer. He does not strike the people; He commands Moses to strike the rock where He Himself stands. The narrative gives no rebuke, no plague and no punishment. Israel is given water, and the names given to the place fix the lesson instead.\n\nMoses meant the place names to preach. Every time Israel spoke of Massah and Meribah they would remember a day when God gave water to people who had accused Him. The names hold together two truths: the people failed, and God provided. Later generations were meant to learn from both, and to trust rather than test.",
+      "descriptionVsPrescription": "The passage describes a unique event: a specific rock, a specific staff and a specific command. It does not tell believers to expect water from rocks, nor does it give a method for bringing about miracles. The striking of the rock was commanded here and forbidden in Numbers 20, which shows that the action itself was not the point; obedience to God's word was.\n\nWhat it does teach, and what later Scripture draws out, is a command and a warning. The command is Deuteronomy 6:16, 'Do not test the LORD your God as you tested Him at Massah,' which Jesus Himself obeyed, Matthew 4:7. The warning is Psalm 95 as applied in Hebrews 3:7-19: believers are not to harden their hearts in unbelief. Bringing our needs to God is right; demanding that He prove His presence on our terms is testing Him.\n\nThe passage also models how to handle a crisis rightly. The people quarrelled; Moses cried out to the LORD, verse 4. That contrast is the one the text invites us to follow.",
       "debates": [
-        { "question": "Why does God command Moses to strike the rock here, when a very similar scene later in Numbers 20 results in judgment on Moses for striking rather than speaking?", "views": [ { "label": "The two events are simply different in God's instruction", "case": "Here God explicitly commands striking; in Numbers 20 He commands speaking, and Moses' sin is disobeying that specific word, not repeating an action once permitted." }, { "label": "The change highlights a picture already given", "case": "Some see the shift from striking to speaking as reflecting the rock already having been struck once for all in type; Moses' error in Numbers 20 is treating a settled picture of Christ as though it needed to be struck again." } ], "bearing": "Either way, the two episodes together caution against reducing God's works to a formula, and show that even Moses, Israel's mediator, needed grace as much as Israel did." }
+        {
+          "question": "Why does God command Moses to strike the rock here, when a similar scene in Numbers 20 brings judgment on Moses for striking rather than speaking?",
+          "views": [
+            {
+              "label": "Different commands for different situations",
+              "case": "Here God explicitly commands, 'strike the rock,' verse 6; in Numbers 20:8 He says, 'speak to the rock.' Moses' sin there is disobeying the specific word he was given, together with the anger and self-importance of 'must we bring you water out of this rock?' Numbers 20:10. God said Moses 'did not trust Me to show My holiness,' Numbers 20:12."
+            },
+            {
+              "label": "A picture already given once",
+              "case": "Some Christian interpreters add that the rock struck once in Exodus 17 pictured Christ struck once for His people. In Numbers 20 Moses strikes twice where he was told to speak, as if the rock needed striking again. Hebrews 9:28 says Christ was 'offered once to bear the sins of many.'"
+            }
+          ],
+          "bearing": "The first view is the clear sense of Numbers 20; the second is a typological reflection that the text does not state but that fits the New Testament's reading of the rock. Both warn against treating God's past way of working as a formula."
+        },
+        {
+          "question": "What does Paul mean by 'the spiritual rock that accompanied them, and that rock was Christ,' 1 Corinthians 10:4?",
+          "views": [
+            {
+              "label": "Christ was really present",
+              "case": "Paul means that the pre-incarnate Christ was actively present with Israel in the wilderness as the source of their provision. This fits his warning in 1 Corinthians 10:9, 'We should not test Christ, as some of them did,' though some manuscripts read 'the Lord' there, and the Old Testament's use of 'Rock' as a name for God, Deuteronomy 32:4."
+            },
+            {
+              "label": "The rock was a type of Christ",
+              "case": "Others read Paul as saying that the rock signified Christ, as the sea and cloud signified baptism, 1 Corinthians 10:2. He calls the food and drink 'spiritual' because they pointed beyond themselves, and he says these things happened as examples, 1 Corinthians 10:6."
+            },
+            {
+              "label": "Paul reuses a Jewish tradition",
+              "case": "Some note that later Jewish tradition told of a well or rock that travelled with Israel through the wilderness, and suggest that Paul alludes to that idea when he says the rock 'accompanied them.' If so, his point is not the legend but that Christ was their true source of life."
+            }
+          ],
+          "bearing": "The views are not exclusive. Paul's main point is that the same Lord who is present with the church was present with Israel, and their provision came from Him. That is why their unbelief is a warning to believers who share in Christ."
+        }
       ]
     },
-    "originalLanguages": "Israel's demand is described with riyb, contend, a term at home in the law courts, as though Moses himself stood accused. Moses turns the charge back: why do you test, nasah, the LORD? Both roots become fixed in the geography of Israel's memory, Meribah and Massah, so that the ground itself preaches against unbelief long after the water has flowed. The tsur, rock, that God stands upon becomes, in the New Testament's reading, nothing less than Christ.",
+    "originalLanguages": "The verb for 'contended' in verse 2 is riv, which belongs to the language of dispute and lawsuit. It can describe a quarrel, but it is also the word used when a case is brought before a judge. The prophets use it when the LORD brings His case against Israel: 'the LORD has a case against His people,' Micah 6:2, and 'the LORD has a case against the people of the land,' Hosea 4:1. At Rephidim the direction is reversed, and it is Israel that brings a case against God through Moses.\n\nThe other verb in verse 2 is nasah, 'to test.' At Marah God tested Israel, Exodus 15:25, and in the manna He tested whether they would follow His instructions, Exodus 16:4. Now Israel tests God. To test the LORD is to demand that He prove Himself on human terms, as though His past acts were not enough. That is why Deuteronomy 6:16 forbids it, and why Psalm 95:9 says, 'your fathers tested and tried Me, though they had seen My work.'\n\nThe names of verse 7 are formed from those roots. Massah is built on nasah, 'testing,' and Meribah on riv, 'quarreling,' as the BSB footnotes explain. The Greek Old Testament translated the names by their meanings, and Hebrews follows that tradition in its quotation of Psalm 95: 'as you did in the rebellion, in the day of testing in the wilderness,' Hebrews 3:8.\n\nThe rock at Horeb is tsur, a large rock or cliff. It is the word Moses uses in his song to name God: 'He is the Rock, His work is perfect,' Deuteronomy 32:4, the 'Rock of his salvation,' Deuteronomy 32:15, and 'the Rock who brought you forth,' Deuteronomy 32:18. Psalm 95:1 calls God 'the Rock of our salvation' just before it warns against Massah. In Numbers 20 a different word, sela, is used for the rock, which is one reason the two events are distinguished.\n\nIn verse 6 the LORD says, 'I will stand there before you by the rock.' The preposition al can mean 'on,' 'upon' or 'by,' so the phrase may be rendered 'upon the rock.' Either way, the verb 'stand,' with 'before you,' puts God at the place where the blow will fall.\n\nThe people's question in verse 7 is literally 'Is there the LORD in our midst or not?' The word 'midst,' qerev, returns at the crisis after the golden calf. God says He will not go up in Israel's midst, which the BSB renders 'I will not go with you,' Exodus 33:3, and Moses pleads for the Lord to go in their midst, 'please go with us,' Exodus 34:9. The whole tabernacle is built to answer that concern: 'I will dwell among the Israelites,' Exodus 29:45. The question of Rephidim becomes the question of the whole book.",
     "typology": [
-      { "type": "The rock struck at Horeb, Exodus 17:6", "fulfillment": "Christ, struck for sinners so that living water, the Spirit, flows freely to all who trust Him, 1 Corinthians 10:4, John 7:37-39." },
-      { "type": "Massah and Meribah, the place of testing and quarreling", "fulfillment": "Become a standing warning in Israel's worship and in Hebrews against hardening the heart, urging believers instead to trust the greater rest found in Christ, Hebrews 3:7-4:11." }
+      {
+        "type": "The rock struck to give water, Exodus 17:6",
+        "fulfillment": "God stood by the rock, the rock was struck, and water flowed for an undeserving people. Paul says, 'that rock was Christ,' 1 Corinthians 10:4. Isaiah says the Servant would be 'stricken by God, struck down and afflicted,' Isaiah 53:4, and when Jesus was pierced on the cross, 'immediately blood and water flowed out,' John 19:34. The escalation is that Christ is struck not only in the place of God's presence but as God present in the flesh, and the water He gives is the Spirit, John 7:39. The type falls short because the rock gave water that satisfied for a day."
+      },
+      {
+        "type": "Living water for the thirsty, Exodus 17:6",
+        "fulfillment": "The people thirsted and the rock became a spring. Jesus stood at the Feast of Tabernacles, a festival that recalled the wilderness years, and cried, 'If anyone is thirsty, let him come to Me and drink,' John 7:37. He told the Samaritan woman that whoever drinks the water He gives 'will never thirst,' John 4:14. The water of Rephidim ran out and Israel thirsted again at Meribah, Numbers 20:2; the water Christ gives becomes 'a fount of water springing up to eternal life.'"
+      },
+      {
+        "type": "The staff of judgment turned to grace, Exodus 17:5",
+        "fulfillment": "The staff that struck the Nile in judgment strikes the rock, and instead of death comes life. In Christ the blow of judgment falls on the Shepherd, 'Strike the Shepherd,' Zechariah 13:7, which Jesus applies to Himself, Matthew 26:31. The judgment that should fall on the people falls on the one God provides, and the result is life for them. The correspondence is a pattern rather than a declared type, and it is surpassed because Christ is both the one struck and the Lord who gives Himself willingly."
+      },
+      {
+        "type": "Massah and Meribah, the day of testing, Exodus 17:7",
+        "fulfillment": "The place names became a warning for later Israel, Psalm 95:8, and Hebrews applies the same warning to the church: 'Today, if you hear His voice, do not harden your hearts,' Hebrews 3:7-8. The wilderness generation failed to enter God's rest because of unbelief, Hebrews 3:19. The escalation is that believers now stand before a greater revelation in Christ, and a greater rest awaits those who trust, Hebrews 4:9-11. Christ Himself refused to test God, Matthew 4:7, and so leads His people where Israel stumbled."
+      }
     ],
-    "christ": "Paul's plain statement, they drank from the spiritual Rock that followed them, and that Rock was Christ, 1 Corinthians 10:4, reads this whole scene as gospel: undeserved life poured out for a grumbling, guilty people, secured by the One who would one day be struck in their place at the cross. Jesus later stands in the temple and cries out that anyone who thirsts should come to Him and drink, promising rivers of living water to all who believe, John 7:37-38, the true and final answer to Rephidim's dry ground.",
-    "god": "God meets accusation with provision rather than the judgment it deserved, standing at the very point of the miracle so that His own presence, not merely water, is what truly sustains His people. At the same time He does not erase the memory of Israel's unbelief; the place keeps its hard name, Massah and Meribah, a lasting testimony that His patience is real but His holiness is not mocked.",
+    "christ": "The passage leads to Christ first because the New Testament says so directly. Paul writes that the fathers 'all ate the same spiritual food and drank the same spiritual drink; for they drank from the spiritual rock that accompanied them, and that rock was Christ,' 1 Corinthians 10:3-4. Paul does not treat the rock as a random picture. He says that Christ was the source of Israel's life in the wilderness, and that the same Lord who gave them water is the Lord of the church.\n\nThe detail of verse 6 makes the connection deeper. God says He will stand before Moses at the rock, and then commands Moses to strike it. The staff of judgment, which had struck the Nile, now falls where God has placed Himself. The people deserved the blow; the rock receives it. The New Testament speaks of Christ in the same terms. He was 'stricken by God, struck down and afflicted,' Isaiah 53:4, and 'pierced for our transgressions,' Isaiah 53:5. On the cross, a soldier pierced His side, and blood and water flowed out, John 19:34. We should be careful not to overload the details, but the pattern is plain: the one who is struck is the one through whom life flows to a guilty people.\n\nJesus claims the role of the rock Himself. At the Feast of Tabernacles, which celebrated God's care in the wilderness, He stood up and cried, 'If anyone is thirsty, let him come to Me and drink,' John 7:37, and John explains that He was speaking of the Spirit, John 7:39. To the Samaritan woman He offered living water that would become 'a fount of water springing up to eternal life,' John 4:14.\n\nThe passage also points to Christ by contrast. Israel tested the LORD in the wilderness, demanding proof of His presence. When Jesus was tempted in the wilderness to throw Himself down from the temple and make God prove His care, He refused with the words of Deuteronomy 6:16, which recall this very place: 'Do not put the Lord your God to the test,' Matthew 4:7. Where Israel failed at Massah, the Son stood firm.\n\nFinally, the question of verse 7, 'Is the LORD among us or not?', is answered in Christ. He is Immanuel, 'God with us,' Matthew 1:23, and He promises, 'I am with you always, even to the end of the age,' Matthew 28:20.",
+    "god": "The passage shows a God who leads His people into need. The congregation moved 'as the LORD commanded,' verse 1, and He led them to a place with no water. That is part of His purpose: He tests to reveal and strengthen trust. He is not surprised by the dry camp, and He is not absent from it.\n\nHe is patient beyond what is deserved. The people quarrelled with Moses, tested the LORD and accused Him of trying to kill their children. Yet God does not answer with judgment. He gives no rebuke at all in the passage. He tells Moses to go ahead with the elders and promises water. His mercy is not a reward for their faith; it is given in the face of their unbelief.\n\nHe identifies Himself with the place of provision. 'I will stand there before you by the rock.' God does not merely send water from a distance; He places Himself at the point where the staff will fall. His presence and His provision cannot be separated. The water that flows is the answer to the question 'Is the LORD among us?'\n\nHe takes unbelief seriously. The names Massah and Meribah preserve Israel's sin, and later Scripture repeats them as warnings, Psalm 95 and Hebrews 3. God's mercy does not erase the truth. He remembers the sin in the names and the grace in the water.\n\nHe is the Rock. Moses' song calls Him 'the Rock, His work is perfect,' Deuteronomy 32:4, and Israel's worship sings of 'the Rock of our salvation,' Psalm 95:1. At Rephidim a physical rock becomes the place where God shows what He is like: solid, faithful and a source of life for those who have nothing.\n\nHe is also the God of the mediator. Moses cried out and God answered through him. God's grace comes to the people through the leader they had nearly stoned. That shows His way of saving through a chosen servant, a way that reaches its fullness in Christ, the one mediator, 1 Timothy 2:5.\n\nFor worship, the passage calls us to bring our thirst to God rather than our accusations, to trust His presence when we cannot see it, and to sing, with Psalm 95, to the Rock of our salvation while taking to heart the warning of Massah.",
     "crossReferences": [
-      { "ref": "1 Corinthians 10:4", "note": "Paul identifies the rock that gave Israel water in the wilderness as Christ Himself." },
-      { "ref": "Numbers 20:2-13", "note": "Decades later Israel quarrels over water again at a place also called Meribah; this time Moses strikes the rock in anger against God's word and is barred from entering the land." },
-      { "ref": "Psalm 95:7-9", "note": "Israel's own worship warns later generations, do not harden your hearts as at Meribah, as on the day at Massah in the wilderness." },
-      { "ref": "Hebrews 3:7-9, 4:7", "note": "Applies Psalm 95's warning directly to New Covenant believers, urging them not to repeat Israel's hardness of heart." },
-      { "ref": "John 7:37-38", "note": "Jesus cries out that whoever thirsts may come to Him and drink, offering Himself as the living water this chapter's water from the rock could only foreshadow." }
+      {
+        "ref": "Numbers 33:12-14",
+        "note": "The wilderness itinerary lists Dophkah and Alush between the Desert of Sin and Rephidim, 'where there was no water for the people to drink.' It confirms the stages behind Exodus 17:1 and repeats the fact on which the whole episode turns."
+      },
+      {
+        "ref": "Deuteronomy 6:16",
+        "note": "Moses turns this event into a command: 'Do not test the LORD your God as you tested Him at Massah.' The place name becomes a permanent rule for Israel's relationship with God, forbidding demands that He prove Himself on human terms."
+      },
+      {
+        "ref": "Matthew 4:5-7",
+        "note": "When the devil urges Jesus to throw Himself from the temple and make God rescue Him, Jesus quotes Deuteronomy 6:16. The Son refuses to test His Father in the very way Israel tested God at Massah, and so obeys where Israel failed."
+      },
+      {
+        "ref": "Numbers 20:2-13",
+        "note": "Decades later Israel again quarrels over water, and the place is again called Meribah. This time God commands Moses to speak to the rock, but he strikes it twice in anger, and he and Aaron are barred from entering the land. The two episodes frame the wilderness generation."
+      },
+      {
+        "ref": "Psalm 78:15-16",
+        "note": "The psalmist celebrates the abundance of God's provision: 'He split the rocks in the wilderness and gave them drink as abundant as the seas. He brought streams from the stone.' The water of Exodus 17:6 is remembered not as a trickle but as a river."
+      },
+      {
+        "ref": "Psalm 95:1, 8-9",
+        "note": "The psalm calls God 'the Rock of our salvation' and then warns, 'do not harden your hearts as you did at Meribah, in the day at Massah.' It turns Exodus 17 into both worship and warning, a model for how Israel's history was meant to be remembered."
+      },
+      {
+        "ref": "Hebrews 3:7-19",
+        "note": "Hebrews quotes Psalm 95 and applies it to believers, warning against 'a wicked heart of unbelief that turns away from the living God.' The generation that tested God at Massah failed to enter His rest because of unbelief, and the church is urged not to follow them."
+      },
+      {
+        "ref": "Deuteronomy 32:4",
+        "note": "Moses' song names God 'the Rock, His work is perfect; all His ways are just.' The physical rock of Exodus 17 becomes a title for God Himself, and the whole song contrasts the faithful Rock with Israel's unfaithfulness, Deuteronomy 32:18."
+      },
+      {
+        "ref": "1 Corinthians 10:1-6",
+        "note": "Paul says the fathers drank from 'the spiritual rock that accompanied them, and that rock was Christ.' He uses Exodus 17 to warn the church that sharing in God's gifts does not guarantee faithfulness, and that these things happened as examples for us."
+      },
+      {
+        "ref": "Isaiah 48:21",
+        "note": "Isaiah recalls the rock as a pledge for the return from exile: 'He made water flow for them from the rock; He split the rock, and water gushed out.' The God who provided in the first exodus will provide in the second."
+      },
+      {
+        "ref": "John 7:37-39",
+        "note": "At the Feast of Tabernacles Jesus cries out, 'If anyone is thirsty, let him come to Me and drink.' John explains He meant the Spirit. The water from the rock becomes a picture of the Spirit given through the glorified Christ."
+      },
+      {
+        "ref": "John 19:34",
+        "note": "When a soldier pierces Jesus' side, 'immediately blood and water flowed out.' Read alongside 1 Corinthians 10:4, the scene recalls the rock struck at Horeb, the place where life flowed out for a thirsty and guilty people."
+      }
     ],
-    "oneStory": "God provides water for an undeserving, accusing people by standing, Himself, at the point of the miracle, a pattern of grace running through the wilderness story. But Massah and Meribah becomes a permanent warning that trust, not testing, is what God's rescued people owe Him, a warning the New Testament presses home by pointing to Christ, the true Rock, struck once so that living water might flow forever to all who come to Him.",
-    "sermon": { "status": "verified", "preacher": "John Piper", "title": "Water from the Rock for Undeserving People", "url": "https://www.desiringgod.org/messages/water-from-the-rock-for-undeserving-people", "why": "Piper walks through the four scenes of Exodus 17:1-7 verse by verse, showing that God's astonishing grace toward a quarreling, undeserving people is owing to the blood of Christ, and that Paul's identification of the rock as Christ, 1 Corinthians 10:4, is the key to the whole passage." }
+    "oneStory": "In Eden a river flowed out to water the garden, Genesis 2:10, and life was sustained by God's direct provision. After the fall the world became a place of thirst, and the wilderness in Exodus is that fallen world in concentrated form. Rephidim answers the question of whether God will sustain His people in a land with no water, and whether He is truly among them.\n\nThe passage also exposes the deepest problem of the story. God's people had seen the plagues, the sea, the sweetened water and the manna, and still asked, 'Is the LORD among us or not?' The problem is not a lack of evidence but a heart that does not trust. That problem will run through the rest of Israel's history, from the golden calf to exile, and it is the problem the prophets say only a new heart can solve, Ezekiel 36:26.\n\nWhat the passage sets up is the long question of God's presence. At Sinai God will give the tabernacle so that He can dwell among His people, Exodus 29:45. After the golden calf, His presence will hang in the balance, Exodus 33:3. Later the temple will stand in Jerusalem, and Israel will be tempted to treat God's presence as a guarantee, 'Is not the LORD among us?' Micah 3:11. The question of Rephidim runs through the whole Old Testament.\n\nThe story reaches its centre in Christ. God comes among His people in the flesh, John 1:14. He is struck, and from Him flows the Spirit, the living water promised to all who thirst. The question 'Is the LORD among us?' is answered in the name Immanuel and in the promise that He is with His people always.\n\nThe story ends with the thirst of the wilderness ended forever. In the new creation God says, 'To the thirsty I will give freely from the spring of the water of life,' Revelation 21:6. The river of the water of life flows from the throne of God and of the Lamb, Revelation 22:1, and the invitation stands open: 'let the one who is thirsty come,' Revelation 22:17. The rock at Horeb, struck once in the wilderness, has become a river in the city of God.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "John Piper",
+      "title": "Water from the Rock for Undeserving People",
+      "url": "https://www.desiringgod.org/messages/water-from-the-rock-for-undeserving-people",
+      "why": "Piper walks through the four scenes of Exodus 17:1-7 verse by verse, showing that God's astonishing grace toward a quarreling, undeserving people is owing to the blood of Christ, and that Paul's identification of the rock as Christ, 1 Corinthians 10:4, is the key to the whole passage."
+    }
   },
   "quiz": [
     {
       "q": "How did the people respond to having no water at Rephidim?",
       "options": [
-        { "text": "They quarreled with Moses and grumbled that he had brought them out to kill them and their children with thirst.", "weight": 100, "note": "Verses 2 to 3 record their contention and their grumbling, accusing Moses, and so the LORD, of murderous intent." },
-        { "text": "They asked Moses respectfully to seek the LORD on their behalf.", "weight": 75, "note": "The text describes quarreling and accusation, not a calm, respectful request." },
-        { "text": "They blamed the Egyptians for their thirst.", "weight": 25, "note": "Their complaint was aimed squarely at Moses and, through him, at the LORD, not at Egypt." },
-        { "text": "They rejoiced, trusting that God would provide as He had with manna.", "weight": 0, "note": "The opposite is true; they doubted and quarreled despite having just seen God provide manna and quail." }
+        {
+          "text": "They quarreled with Moses and grumbled that he had brought them out to kill them and their children with thirst.",
+          "weight": 100,
+          "note": "Verses 2 to 3 record their contention and their grumbling, accusing Moses, and so the LORD, of murderous intent."
+        },
+        {
+          "text": "They asked Moses respectfully to seek the LORD on their behalf.",
+          "weight": 75,
+          "note": "The text describes quarreling and accusation, not a calm, respectful request."
+        },
+        {
+          "text": "They blamed the Egyptians for their thirst.",
+          "weight": 25,
+          "note": "Their complaint was aimed squarely at Moses and, through him, at the LORD, not at Egypt."
+        },
+        {
+          "text": "They rejoiced, trusting that God would provide as He had with manna.",
+          "weight": 0,
+          "note": "The opposite is true; they doubted and quarreled despite having just seen God provide manna and quail."
+        }
       ]
     },
     {
       "q": "What did Moses say the people were really doing when they quarreled with him?",
       "options": [
-        { "text": "They were testing the LORD, not merely quarreling with Moses.", "weight": 100, "note": "Moses makes explicit in verse 2 that their complaint against him was in truth a test of God's patience and presence." },
-        { "text": "They were simply expressing understandable fear.", "weight": 75, "note": "Their fear was real, but Moses names their action directly as testing the LORD, not mere fear." },
-        { "text": "They were following God's instructions to seek water.", "weight": 25, "note": "Nothing in the text suggests God instructed them to quarrel; this was unbelief, not obedience." },
-        { "text": "They were praising God for His faithfulness.", "weight": 0, "note": "The text describes contention and testing, the opposite of praise." }
+        {
+          "text": "They were testing the LORD, not merely quarreling with Moses.",
+          "weight": 100,
+          "note": "Moses makes explicit in verse 2 that their complaint against him was in truth a test of God's patience and presence."
+        },
+        {
+          "text": "They were simply expressing understandable fear.",
+          "weight": 75,
+          "note": "Their fear was real, but Moses names their action directly as testing the LORD, not mere fear."
+        },
+        {
+          "text": "They were following God's instructions to seek water.",
+          "weight": 25,
+          "note": "Nothing in the text suggests God instructed them to quarrel; this was unbelief, not obedience."
+        },
+        {
+          "text": "They were praising God for His faithfulness.",
+          "weight": 0,
+          "note": "The text describes contention and testing, the opposite of praise."
+        }
       ]
     },
     {
       "q": "What did the LORD command Moses to do about the water shortage?",
       "options": [
-        { "text": "Take the staff that struck the Nile and strike the rock at Horeb, where the LORD Himself would stand.", "weight": 100, "note": "Verses 5 to 6 give this exact instruction." },
-        { "text": "Pray silently and wait for rain to fall.", "weight": 75, "note": "The LORD's instruction was specific and active, striking the rock, not a call to silent waiting." },
-        { "text": "Send scouts ahead to search for a hidden spring.", "weight": 25, "note": "No search is commanded; the LORD points Moses directly to a specific rock." },
-        { "text": "Return the people to Egypt for supplies.", "weight": 0, "note": "The LORD's answer moves Israel forward, not back to Egypt." }
+        {
+          "text": "Take the staff that struck the Nile and strike the rock at Horeb, where the LORD Himself would stand.",
+          "weight": 100,
+          "note": "Verses 5 to 6 give this exact instruction."
+        },
+        {
+          "text": "Pray silently and wait for rain to fall.",
+          "weight": 75,
+          "note": "The LORD's instruction was specific and active, striking the rock, not a call to silent waiting."
+        },
+        {
+          "text": "Send scouts ahead to search for a hidden spring.",
+          "weight": 25,
+          "note": "No search is commanded; the LORD points Moses directly to a specific rock."
+        },
+        {
+          "text": "Return the people to Egypt for supplies.",
+          "weight": 0,
+          "note": "The LORD's answer moves Israel forward, not back to Egypt."
+        }
       ]
     },
     {
       "q": "Why is it significant that the LORD said, 'I will stand there before you by the rock'?",
       "options": [
-        { "text": "It shows God's own presence, not merely the water, was the true source of the people's life.", "weight": 100, "note": "God places Himself at the very point of the miracle before Moses ever strikes the rock." },
-        { "text": "It shows God stayed at a safe distance from sinful Israel.", "weight": 75, "note": "The text says the opposite: God draws near, standing directly at the rock." },
-        { "text": "It shows the miracle needed no divine involvement, only Moses' staff.", "weight": 25, "note": "The LORD's own presence at the rock is central to the miracle, not incidental." },
-        { "text": "It shows God abandoned Israel to fend for themselves.", "weight": 0, "note": "The opposite is true; God provides generously despite their unbelief." }
+        {
+          "text": "It shows God's own presence, not merely the water, was the true source of the people's life.",
+          "weight": 100,
+          "note": "God places Himself at the very point of the miracle before Moses ever strikes the rock."
+        },
+        {
+          "text": "It shows God stayed at a safe distance from sinful Israel.",
+          "weight": 75,
+          "note": "The text says the opposite: God draws near, standing directly at the rock."
+        },
+        {
+          "text": "It shows the miracle needed no divine involvement, only Moses' staff.",
+          "weight": 25,
+          "note": "The LORD's own presence at the rock is central to the miracle, not incidental."
+        },
+        {
+          "text": "It shows God abandoned Israel to fend for themselves.",
+          "weight": 0,
+          "note": "The opposite is true; God provides generously despite their unbelief."
+        }
       ]
     },
     {
       "q": "Why did Moses name the place Massah and Meribah?",
       "options": [
-        { "text": "Because the Israelites quarreled and tested the LORD there, asking, 'Is the LORD among us or not?'", "weight": 100, "note": "Verse 7 states this reason explicitly." },
-        { "text": "Because it commemorated God's provision of water, a name of thanksgiving.", "weight": 75, "note": "Moses named it for their failure, not for God's provision; the text ties the name to quarreling and testing." },
-        { "text": "Because it was the site where Israel first received the Ten Commandments.", "weight": 25, "note": "That event happens later at Sinai, a different occasion from this naming." },
-        { "text": "No reason is given for the name in the text.", "weight": 0, "note": "Verse 7 explicitly states the reason for the name." }
+        {
+          "text": "Because the Israelites quarreled and tested the LORD there, asking, 'Is the LORD among us or not?'",
+          "weight": 100,
+          "note": "Verse 7 states this reason explicitly."
+        },
+        {
+          "text": "Because it commemorated God's provision of water, a name of thanksgiving.",
+          "weight": 75,
+          "note": "Moses named it for their failure, not for God's provision; the text ties the name to quarreling and testing."
+        },
+        {
+          "text": "Because it was the site where Israel first received the Ten Commandments.",
+          "weight": 25,
+          "note": "That event happens later at Sinai, a different occasion from this naming."
+        },
+        {
+          "text": "No reason is given for the name in the text.",
+          "weight": 0,
+          "note": "Verse 7 explicitly states the reason for the name."
+        }
       ]
     }
   ],
@@ -143,9 +360,21 @@
     "Jesus stood and cried out, 'if anyone thirsts, let him come to me and drink.' What are you currently drinking from instead of coming to Christ for a thirst only He can satisfy?"
   ],
   "translationNotes": [
-    { "ref": "Exodus 17:2", "note": "The Hebrew verb rendered contend, riyb, is a term used for formal legal disputes as well as ordinary quarrels; Israel is effectively bringing a lawsuit against Moses and, through him, against the LORD." },
-    { "ref": "Exodus 17:6", "note": "Behold, I will stand there before you by the rock renders a striking Hebrew construction placing the LORD's own presence at the point of the miracle, before Moses ever lifts the staff." },
-    { "ref": "Exodus 17:7", "note": "Massah, testing, and Meribah, quarreling, are twin names built on the two Hebrew verbs used earlier in the passage, so the place itself becomes a permanent, spoken indictment of Israel's unbelief." }
+    {
+      "ref": "Exodus 17:2",
+      "note": "The Hebrew verb rendered contend, riyb, is a term used for formal legal disputes as well as ordinary quarrels; Israel is effectively bringing a lawsuit against Moses and, through him, against the LORD."
+    },
+    {
+      "ref": "Exodus 17:6",
+      "note": "Behold, I will stand there before you by the rock renders a striking Hebrew construction placing the LORD's own presence at the point of the miracle, before Moses ever lifts the staff."
+    },
+    {
+      "ref": "Exodus 17:7",
+      "note": "Massah, testing, and Meribah, quarreling, are twin names built on the two Hebrew verbs used earlier in the passage, so the place itself becomes a permanent, spoken indictment of Israel's unbelief."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "" }
+  "meta": {
+    "textToVerify": [],
+    "notes": ""
+  }
 }

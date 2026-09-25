@@ -18,10 +18,26 @@
         "note": "My Name is in him",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 23, "n": 20, "text": "Behold, I am sending an {{angel|angel}} before you to protect you along the way and to bring you to the place I have prepared." },
-          { "chapter": 23, "n": 21, "text": "Pay attention to him and listen to his voice; do not defy him, for he will not forgive rebellion, since My {{name|Name}} is in him." },
-          { "chapter": 23, "n": 22, "text": "But if you will listen carefully to his voice and do everything I say, I will be an enemy to your enemies and a foe to your foes." },
-          { "chapter": 23, "n": 23, "text": "For My angel will go before you and bring you into the land of the Amorites, Hittites, Perizzites, Canaanites, Hivites, and Jebusites, and I will annihilate them." }
+          {
+            "chapter": 23,
+            "n": 20,
+            "text": "Behold, I am sending an {{angel|angel}} before you to protect you along the way and to bring you to the place I have prepared."
+          },
+          {
+            "chapter": 23,
+            "n": 21,
+            "text": "Pay attention to him and listen to his voice; do not defy him, for he will not forgive rebellion, since My {{name|Name}} is in him."
+          },
+          {
+            "chapter": 23,
+            "n": 22,
+            "text": "But if you will listen carefully to his voice and do everything I say, I will be an enemy to your enemies and a foe to your foes."
+          },
+          {
+            "chapter": 23,
+            "n": 23,
+            "text": "For My angel will go before you and bring you into the land of the Amorites, Hittites, Perizzites, Canaanites, Hivites, and Jebusites, and I will annihilate them."
+          }
         ]
       },
       {
@@ -29,9 +45,21 @@
         "note": "bread, water, health, and full days",
         "emphasis": "",
         "verses": [
-          { "chapter": 23, "n": 24, "text": "You must not bow down to their gods or serve them or follow their practices. Instead, you are to demolish them and smash their sacred stones to pieces." },
-          { "chapter": 23, "n": 25, "text": "So you shall serve the LORD your God, and He will bless your bread and your water. And I will take away sickness from among you." },
-          { "chapter": 23, "n": 26, "text": "No woman in your land will miscarry or be barren; I will fulfill the number of your days." }
+          {
+            "chapter": 23,
+            "n": 24,
+            "text": "You must not bow down to their gods or serve them or follow their practices. Instead, you are to demolish them and smash their sacred stones to pieces."
+          },
+          {
+            "chapter": 23,
+            "n": 25,
+            "text": "So you shall serve the LORD your God, and He will bless your bread and your water. And I will take away sickness from among you."
+          },
+          {
+            "chapter": 23,
+            "n": 26,
+            "text": "No woman in your land will miscarry or be barren; I will fulfill the number of your days."
+          }
         ]
       },
       {
@@ -39,10 +67,26 @@
         "note": "little by little, until you are ready",
         "emphasis": "",
         "verses": [
-          { "chapter": 23, "n": 27, "text": "I will send My terror ahead of you and throw into confusion every nation you encounter. I will make all your enemies turn and run." },
-          { "chapter": 23, "n": 28, "text": "I will send the {{hornet|hornet}} before you to drive the Hivites and Canaanites and Hittites out of your way." },
-          { "chapter": 23, "n": 29, "text": "I will not drive them out before you in a single year; otherwise the land would become desolate and wild animals would multiply against you." },
-          { "chapter": 23, "n": 30, "text": "Little by little I will drive them out ahead of you, until you become fruitful and possess the land." }
+          {
+            "chapter": 23,
+            "n": 27,
+            "text": "I will send My terror ahead of you and throw into confusion every nation you encounter. I will make all your enemies turn and run."
+          },
+          {
+            "chapter": 23,
+            "n": 28,
+            "text": "I will send the {{hornet|hornet}} before you to drive the Hivites and Canaanites and Hittites out of your way."
+          },
+          {
+            "chapter": 23,
+            "n": 29,
+            "text": "I will not drive them out before you in a single year; otherwise the land would become desolate and wild animals would multiply against you."
+          },
+          {
+            "chapter": 23,
+            "n": 30,
+            "text": "Little by little I will drive them out ahead of you, until you become fruitful and possess the land."
+          }
         ]
       },
       {
@@ -50,18 +94,50 @@
         "note": "lest they become a snare",
         "emphasis": "",
         "verses": [
-          { "chapter": 23, "n": 31, "text": "And I will establish your borders from the Red Sea to the Sea of the Philistines, and from the desert to the Euphrates. For I will deliver the inhabitants into your hand, and you will drive them out before you." },
-          { "chapter": 23, "n": 32, "text": "You shall make no {{covenant|covenant}} with them or with their gods." },
-          { "chapter": 23, "n": 33, "text": "They must not remain in your land, lest they cause you to sin against Me. For if you serve their gods, it will surely be a snare to you.”" }
+          {
+            "chapter": 23,
+            "n": 31,
+            "text": "And I will establish your borders from the Red Sea to the Sea of the Philistines, and from the desert to the Euphrates. For I will deliver the inhabitants into your hand, and you will drive them out before you."
+          },
+          {
+            "chapter": 23,
+            "n": 32,
+            "text": "You shall make no {{covenant|covenant}} with them or with their gods."
+          },
+          {
+            "chapter": 23,
+            "n": 33,
+            "text": "They must not remain in your land, lest they cause you to sin against Me. For if you serve their gods, it will surely be a snare to you.”"
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "angel": { "language": "Hebrew", "lemma": "malak", "original": "מלאך", "gloss": "Angel, messenger, one who bears another's authority and word. This malak is no ordinary messenger; God says His own Name is in him, giving him the authority to forgive or not forgive, language that has led many interpreters to see here an appearance of God's own presence, sometimes called the Angel of the LORD elsewhere in Scripture." },
-    "name": { "language": "Hebrew", "lemma": "shem", "original": "שם", "gloss": "Name, standing for a person's character, authority, and presence itself. To say God's shem is in this angel is to say the angel carries God's own authority and, in some sense, God's own presence with Israel on the journey." },
-    "hornet": { "language": "Hebrew", "lemma": "tsir'ah", "original": "צרעה", "gloss": "A hornet, or possibly a figurative term for terror or plague sent ahead of Israel's advance. Whether literal insects or a picture of overwhelming dread, the point is that Israel's conquest would be accomplished by God's own action, not merely their own military strength." },
-    "covenant": { "language": "Hebrew", "lemma": "berit", "original": "ברית", "gloss": "Covenant, a binding agreement sealed with obligations on both sides. Israel is forbidden any berit with the nations or their gods, since a covenant with a rival would directly contradict and undo the covenant just sealed with the LORD at Sinai." }
+    "angel": {
+      "language": "Hebrew",
+      "lemma": "malak",
+      "original": "מלאך",
+      "gloss": "Angel, messenger, one who bears another's authority and word. This malak is no ordinary messenger; God says His own Name is in him, giving him the authority to forgive or not forgive, language that has led many interpreters to see here an appearance of God's own presence, sometimes called the Angel of the LORD elsewhere in Scripture."
+    },
+    "name": {
+      "language": "Hebrew",
+      "lemma": "shem",
+      "original": "שם",
+      "gloss": "Name, standing for a person's character, authority, and presence itself. To say God's shem is in this angel is to say the angel carries God's own authority and, in some sense, God's own presence with Israel on the journey."
+    },
+    "hornet": {
+      "language": "Hebrew",
+      "lemma": "tsir'ah",
+      "original": "צרעה",
+      "gloss": "A hornet, or possibly a figurative term for terror or plague sent ahead of Israel's advance. Whether literal insects or a picture of overwhelming dread, the point is that Israel's conquest would be accomplished by God's own action, not merely their own military strength."
+    },
+    "covenant": {
+      "language": "Hebrew",
+      "lemma": "berit",
+      "original": "ברית",
+      "gloss": "Covenant, a binding agreement sealed with obligations on both sides. Israel is forbidden any berit with the nations or their gods, since a covenant with a rival would directly contradict and undo the covenant just sealed with the LORD at Sinai."
+    }
   },
   "study": {
     "basic": {
@@ -75,77 +151,251 @@
       "oneStory": "God sends His own presence and authority ahead of His people to guard them and drive out every obstacle to the promise, while warning that compromise with rival gods becomes a trap that undoes everything grace has secured. This pattern of divine presence guiding and guarding God's people points to Christ, in whom God's Name and presence dwell fully and permanently with His people."
     },
     "context": {
-      "literary": "This passage closes the Book of the Covenant that began at 20:22, moving from detailed case law back to the grand narrative of conquest and covenant, promising both the means, an angel, terror, gradual displacement, and the conditions, undivided loyalty, for Israel's future in the land.",
-      "historical": "This promise anticipates the actual conquest narrated in Joshua, where Israel does experience both supernatural terror sent ahead of them, Joshua 2:9-11, and a gradual, incomplete displacement of the Canaanite nations that later becomes a recurring source of Israel's compromise and downfall in Judges.",
-      "canonical": "The warning against covenant with the nations and their gods becomes a defining theme through Joshua, Judges, and Kings, where Israel's repeated failure to heed exactly this warning leads directly to the syncretism and eventual exile the prophets decry."
+      "literary": "Exodus 23:20-33 is the epilogue of the Book of the Covenant. Ancient treaties often ended with blessings for loyalty and warnings for disloyalty, and this closing section does something similar, though in the form of promise rather than bare contract. It turns from law to the road ahead. The laws of 20:22 to 23:19 told Israel how to live; these verses tell them who will lead them and what they will find.\n\nThe section is framed by a single idea, \"before you.\" The angel is sent \"before you,\" verse 20, and \"My angel will go before you,\" verse 23; God's terror is sent \"ahead of you,\" verse 27, the hornet \"before you,\" verse 28, and the nations are driven out \"before you\" and \"ahead of you,\" verses 29 to 31. Everything that happens in the land is something God does first.\n\nThe movement alternates between promise and demand. Verses 20 to 22 give promise (an angel to guard and guide) and demand (listen to his voice). Verse 23 promises conquest, verse 24 demands the destruction of idols. Verses 25 and 26 promise blessing on bread, water, bodies and wombs for those who \"serve the LORD.\" Verses 27 to 31 promise terror, the hornet, a gradual conquest and wide borders. Verses 32 and 33 close with a double prohibition, \"no covenant with them or with their gods,\" and the reason: \"it will surely be a snare to you.\"\n\nThe key word \"serve\" links the section to the whole book. Israel had served Pharaoh with bitter labour, Exodus 1:14; God demanded that Pharaoh let His son go \"so that he may worship Me,\" Exodus 4:23, where \"worship\" is the same verb. Now Israel must choose whom to serve in the land: the LORD, verse 25, or the gods of the nations, verse 33. The last word of the Book of the Covenant is a warning that the freed slaves could be enslaved again by a different master.",
+      "historical": "Israel was camped at Sinai when these words were given, a people freshly out of Egypt with no land, no army to speak of and no experience of war. Ahead lay a land held by settled peoples with walled towns. The six nations named in verse 23 recur as a stock list of the inhabitants of Canaan: the Amorites, often used broadly of the hill country peoples; the Hittites, here probably groups in Canaan connected in some way with the great Anatolian empire of that name; the Perizzites, perhaps villagers of open country; the Canaanites of the coast and valleys; the Hivites of the central region, including Gibeon; and the Jebusites, who held Jerusalem until David took it.\n\nTheir religion was built around the gods of storm and fertility, with sacred stones, verse 24, and Asherah poles at local shrines. Such worship promised exactly what verses 25 and 26 attribute to the LORD: bread, water, health, fertility and long life. That is why the warning of verse 33 is so sharp. The temptation Israel would face in the land was not atheism but the belief that the local gods controlled rain and harvest.\n\nThe borders of verse 31 run from the Red Sea (or \"Sea of Reeds,\" as the footnote allows) to the Mediterranean, the \"Sea of the Philistines,\" and from the southern desert to the Euphrates. They match the promise to Abram, Genesis 15:18, and were reached, at least in terms of dominion, only under Solomon, 1 Kings 4:21.\n\nThe gradual conquest of verses 29 and 30 fits the realities of the land. An empty countryside would revert to scrub and wild animals, and a small population could not farm or hold it all at once. Israel's later history shows the process was indeed slow and incomplete, Judges 1:27-28. The book of Judges records the angel of the LORD rebuking Israel for making covenants with the inhabitants of the land, Judges 2:1-3, fulfilling the very warning of this passage.",
+      "canonical": "The angel of Exodus 23 has a history. The angel of God went before Israel's camp at the Red Sea, Exodus 14:19, and after the golden calf God promised again, \"My angel shall go before you,\" Exodus 32:34. But in Exodus 33:2-3 God says He will send an angel and yet \"I will not go with you.\" Moses pleads, and God answers, \"My Presence will go with you,\" Exodus 33:14, to which Moses replies that without that Presence he will not go at all. The contrast shows that the angel of 23:20 is somehow bound up with God's own presence, since the Name is \"in him.\"\n\nThe warnings of verses 24 to 33 are developed in Deuteronomy 7:1-5 and 7:20-22, which repeats the hornet and the \"little by little\" of verses 28 to 30. Joshua 24:12 looks back: \"I sent the hornet ahead of you.\" Judges 2:1-3 shows the angel of the LORD announcing that because Israel made covenants with the people of the land, \"their gods will be a snare to you,\" the very word of verse 33. Psalm 106:34-36 summarises the failure: \"They worshiped their idols, which became a snare to them.\" Solomon's foreign wives turned his heart after other gods, 1 Kings 11:1-4.\n\nThe prophets take up the sending of the messenger. Malachi 3:1 promises, \"Behold, I will send My messenger, who will prepare the way before Me,\" a clear echo of verse 20. Mark opens his Gospel by quoting it, and his wording, \"Behold, I will send My messenger ahead of You,\" follows the Greek of Exodus 23:20, Mark 1:2. Isaiah 63:9 remembers the wilderness: \"the Angel of His Presence saved them.\"\n\nIn the New Testament Paul echoes the warning against compromise with idols: \"What agreement can exist between the temple of God and idols?\" 2 Corinthians 6:16. And Jude 5, in the BSB, says it was Jesus who \"delivered His people out of the land of Egypt.\""
     },
     "hermeneutics": {
-      "authorIntent": "To promise Israel God's own guiding, protecting presence for the journey ahead, and to warn clearly that any compromise with the religious practices of the land's inhabitants would corrupt and eventually destroy the covenant relationship just established at Sinai.",
-      "descriptionVsPrescription": "This passage prescribes Israel's specific conduct toward the Canaanite nations during a particular historical conquest; it does not directly legislate how modern believers should relate to people of other religions in ordinary life. Its enduring principle, that God's presence guides and guards His people, and that syncretism with rival ultimate loyalties is spiritually corrosive, carries forward, while its specific commands regarding the conquest of Canaan belong to that unique redemptive-historical moment.",
+      "authorIntent": "Moses meant Israel to leave Sinai with confidence and caution in equal measure. Confidence, because the God who gave the law would go ahead of them in the person of His angel, fight their battles, bless their bread and water, heal their bodies and give them the land. They would not conquer Canaan by their own strength; God's terror and the hornet would go ahead of them, and the land would be given as it could be received.\n\nCaution, because the covenant just made was exclusive. Israel's safety depended on listening to the angel's voice and doing \"everything I say,\" verse 22. The great danger was not the military strength of the nations but the attraction of their gods. Moses wanted Israel to understand that coexistence with Canaan's religion would not be a neutral arrangement but a trap.\n\nThe first hearers were also meant to grasp that God's promises have a pace. The land would be theirs \"little by little,\" verse 30, and they would need patience as well as courage. Delay would not mean that God had failed; it would be His care for them. Finally, the promise of wide borders, echoing Genesis 15:18, told them that the law of Sinai was part of the older promise to Abraham, now coming to fulfilment.",
+      "descriptionVsPrescription": "The commands to drive out the nations, destroy their sacred stones and make no covenant with them were given to Israel for one unique moment, the entry into Canaan, under the direct command of God. They are not a pattern for Christian relations with neighbours of other faiths, and the New Testament never uses them that way. The church's warfare \"is not against flesh and blood,\" Ephesians 6:12, and its mission is to make disciples of all nations, Matthew 28:19, not to drive them out.\n\nWhat carries forward is the principle beneath the commands. God's people must not blend their worship of the true God with devotion to rival gods. Paul applies the passage's logic in 2 Corinthians 6:14-18, and John ends his first letter, \"Little children, keep yourselves from idols,\" 1 John 5:21. The promise that God goes ahead of His people is also renewed: \"surely I am with you always, even to the end of the age,\" Matthew 28:20. The specific material blessings of verses 25 and 26 belonged to Israel's covenant in the land; they are not a guarantee of health and wealth, though they show the goodness of the God who gives every good gift.",
       "debates": [
-        { "question": "Who is the angel described in verses 20 to 23, whose voice must be obeyed and who carries God's own Name?", "views": [ { "label": "A created angelic being with delegated divine authority", "case": "Scripture elsewhere describes angels acting with God's full delegated authority and speaking in the first person on His behalf, so this could simply be a powerful created angel uniquely commissioned for this task." }, { "label": "A preincarnate appearance of the Son", "case": "Many interpreters, ancient and modern, note that this figure's authority to forgive or withhold forgiveness and the statement that God's own Name is 'in him' go beyond what is typically said of created angels elsewhere, suggesting a preincarnate manifestation of the divine Son, similar to other 'Angel of the LORD' appearances in Genesis and Judges." } ], "bearing": "Both views agree this messenger carries unique, direct divine authority that Israel must heed as though hearing from God Himself; the identity question, while debated, does not change the passage's central demand of obedient trust." }
+        {
+          "question": "Who is the angel described in verses 20 to 23, whose voice must be obeyed and who carries God's own Name?",
+          "views": [
+            {
+              "label": "A created angelic being with delegated divine authority",
+              "case": "Scripture elsewhere describes angels acting with God's full delegated authority and speaking in the first person on His behalf, so this could simply be a powerful created angel uniquely commissioned for this task."
+            },
+            {
+              "label": "A preincarnate appearance of the Son",
+              "case": "Many interpreters, ancient and modern, note that this figure's authority to forgive or withhold forgiveness and the statement that God's own Name is 'in him' go beyond what is typically said of created angels elsewhere, suggesting a preincarnate manifestation of the divine Son, similar to other 'Angel of the LORD' appearances in Genesis and Judges."
+            }
+          ],
+          "bearing": "Both views agree this messenger carries unique, direct divine authority that Israel must heed as though hearing from God Himself; the identity question, while debated, does not change the passage's central demand of obedient trust."
+        },
+        {
+          "question": "How can a just and loving God command the driving out and destruction of the Canaanite nations?",
+          "views": [
+            {
+              "label": "A judgment on long-standing wickedness",
+              "case": "Genesis 15:16 says the land would be given only when 'the iniquity of the Amorites' was complete, centuries after Abraham. Leviticus 18:24-25 and Deuteronomy 9:4-5 insist that the nations were driven out 'because of their wickedness,' not Israel's righteousness. On this view the conquest was God's judgment after long patience, and Israel would face the same judgment if it copied them, Leviticus 18:28."
+            },
+            {
+              "label": "Primarily expulsion, described in the language of ancient warfare",
+              "case": "This passage mostly speaks of driving out rather than killing: the hornet drives them out, verse 28, and God drives them out little by little, verses 29 to 31. Many interpreters argue that the strong language of 'annihilate,' verse 23, belongs to the conventions of ancient war reports, and they point to Rahab and her family, who were spared and lived among Israel, Joshua 6:25, as evidence that the aim was the removal of Canaanite religion, not of every person."
+            },
+            {
+              "label": "A unique act in redemptive history, not a repeatable model",
+              "case": "The conquest was commanded directly by God, for one land, at one moment, as part of His plan to plant a holy nation from which blessing would reach every family on earth, Genesis 12:3. It gives no licence to any later people to wage holy war. It foreshadows the final judgment, when God alone judges the nations."
+            }
+          ],
+          "bearing": "These views are not mutually exclusive. The text itself grounds the command in God's judgment on sin and His promise to Abraham, stresses expulsion, and treats the event as God's own work. It cannot be used to justify violence in the name of religion today, but it does warn that God takes idolatry and its corruptions with deadly seriousness."
+        }
       ]
     },
-    "originalLanguages": "The malak, angel, sent here bears such authority that God says His own shem, Name, is in him, able to forgive or refuse forgiveness on God's behalf. Whether the tsir'ah is a literal hornet or a vivid figure for overwhelming terror, its function is the same, showing that the conquest of Canaan would be God's own doing, not Israel's unaided military achievement. And the strict prohibition of any berit, covenant, with the nations or their gods sets an unmistakable boundary around Israel's loyalty.",
+    "originalLanguages": "The opening words of verse 20, \"Behold, I am sending,\" are hinneh anokhi sholeach, with a participle that presents the sending as already under way. The Greek Septuagint renders it \"Behold, I send My angel before your face,\" and that Greek wording is exactly what Mark 1:2 uses, blending it with Malachi 3:1. The place the angel leads them to is \"the place I have prepared,\" from kun, to establish or make ready, a word that anticipates Jesus' \"I am going there to prepare a place for you,\" John 14:2.\n\nVerse 21 is full of weight. \"Pay attention to him\" is literally \"guard yourself before his face.\" The phrase \"he will not forgive rebellion\" uses nasa, to lift or bear, with pesha, rebellion or transgression. The same two words appear in God's self-description in Exodus 34:7, \"forgiving iniquity, transgression, and sin,\" literally \"bearing iniquity, transgression and sin.\" That this angel does not \"bear\" transgression shows that he acts with divine authority over sin, a power no ordinary messenger possesses. And \"My Name is in him\" is shemi beqirbo, \"My Name is in his inner part.\" In the Old Testament God's Name stands for His revealed presence and character; the same idea lies behind the place God would choose \"to establish as a dwelling for His Name,\" Deuteronomy 12:5.\n\nVerse 22 contains a neat wordplay: \"I will be an enemy to your enemies and a foe to your foes.\" In Hebrew each half pairs a verb and a noun from the same root, ayav with oyev and tsarar with tsorer. God binds Himself to Israel's cause as He had promised Abram, \"I will bless those who bless you and curse those who curse you,\" Genesis 12:3.\n\nIn verse 25 \"serve\" is avad, the verb of Israel's slavery in Egypt and of worship. The footnote notes that the Septuagint and Vulgate read \"I will bless\" where the Hebrew has \"He will bless,\" a small shift that reflects the way the passage moves between God speaking of Himself and of His angel. In verse 26 \"miscarry\" and \"barren\" are meshakkelah and aqarah; the second is the word used of Sarai, Genesis 11:30, and of Rebekah and Rachel. The promise answers the barrenness that marked the patriarchal families.\n\nIn verse 27 \"throw into confusion\" is from hamam, the verb of Exodus 14:24, where the LORD \"threw their camp into confusion\" at the Red Sea, and of Joshua 10:10 at Gibeon. The battles of Canaan would repeat the victory of the exodus. \"I will make all your enemies turn and run\" is literally \"I will give all your enemies to you as a back of the neck,\" that is, they will turn their backs in flight, the idiom behind Psalm 18:40.\n\nThe \"hornet\" of verse 28 is tsir'ah, which appears only here and in the two other passages about the conquest, Deuteronomy 7:20 and Joshua 24:12. Whether literal insects or a picture of panic, it is God's instrument, not Israel's sword; Joshua 24:12 adds \"but not by your own sword or bow.\" \"Little by little,\" verse 30, is me'at me'at, a doubled word that stresses gradualness.\n\nFinally, the \"snare\" of verse 33 is moqesh, a lure or trap; Amos 3:5 pairs it with the snare that catches a bird. The same word returns in Exodus 34:12, Deuteronomy 7:16, Judges 2:3 and Psalm 106:36. The gods of Canaan would not attack Israel openly; they would lure them.",
     "typology": [
-      { "type": "The angel bearing God's own Name and authority", "fulfillment": "Anticipates the Son, in whom God's Name and presence dwell fully among His people, John 1:14, 17:6." },
-      { "type": "God's gradual, patient driving out of the nations", "fulfillment": "A pattern echoed in the gradual, ongoing defeat of sin and evil in the believer's life, not accomplished all at once but progressively, Philippians 1:6." }
+      {
+        "type": "The angel who goes before Israel with God's Name in him, Exodus 23:20-21",
+        "fulfillment": "The angel guards Israel on the way, leads them to a prepared place, bears God's Name and holds authority over transgression. Jesus says to the Father, \"I have revealed Your name,\" and \"I protected and preserved them by Your name, the name You gave Me,\" John 17:6 and 17:12. He goes ahead \"to prepare a place for you,\" John 14:2, and God has given Him \"the name above all names,\" Philippians 2:9. Jude 5 says Jesus Himself delivered Israel from Egypt. The escalation is that the one who bears the Name now also bears transgression away. Where the angel would \"not forgive rebellion,\" Christ forgives the rebellious, bearing their sin Himself."
+      },
+      {
+        "type": "The prepared place and the journey to it, Exodus 23:20",
+        "fulfillment": "The angel brings Israel \"to the place I have prepared.\" For Israel it was a land with borders, verse 31. Jesus takes up the language of preparation: \"I am going there to prepare a place for you,\" and \"I will come back and welcome you into My presence,\" John 14:2-3. Hebrews says the land of Canaan did not exhaust the promise, for \"there remains, then, a Sabbath rest for the people of God,\" Hebrews 4:9. The type falls short because Canaan could be lost through unfaithfulness, and later was; the place Christ prepares is kept for those whom \"no one can snatch\" from His hand, John 10:28."
+      },
+      {
+        "type": "God's warfare against the enemies of His people, Exodus 23:22-23 and 27-28",
+        "fulfillment": "God promises to be an enemy to Israel's enemies, to send His terror before them and to give them victory \"not by your own sword or bow,\" Joshua 24:12. In Christ the enemy is not flesh and blood but sin, death and \"the spiritual forces of evil,\" Ephesians 6:12. Christ defeats them at the cross, and \"the God of peace will soon crush Satan under your feet,\" Romans 16:20. The escalation is from a regional conquest to a cosmic victory. The type falls short because Israel's enemies were human nations, many of whom God would later welcome; in Christ the nations themselves are invited to be blessed, Galatians 3:8."
+      },
+      {
+        "type": "The gradual driving out, little by little, Exodus 23:29-30",
+        "fulfillment": "God did not give Israel the whole land at once, lest it become desolate; He gave it as they grew to fill it. The pattern is echoed in the Christian life, where God, \"who began a good work in you will carry it on to completion until the day of Christ Jesus,\" Philippians 1:6. Sin is driven out progressively, not in a single year. The correspondence is real but should not be pressed too far: the text concerns land and population, not the inner life. The escalation is that Christ's work will be complete, and nothing unclean will remain, Revelation 21:27."
+      }
     ],
-    "christ": "This mysterious angel, carrying God's own Name and unable to overlook rebellion, has long been read by interpreters as a preincarnate glimpse of the eternal Son, who would one day tabernacle fully among His people, John 1:14. Where this angel could not forgive defiance, Christ, when He came, brought exactly the forgiveness this earlier revelation withheld, at the cost of His own life.",
-    "god": "God is present with His people through a sent messenger of His own authority, promising fierce protection yet insisting on undivided loyalty. His pacing of the conquest, little by little rather than all at once, shows a God whose patience serves His people's actual capacity to steward what He gives them, not merely His own timetable of power.",
+    "christ": "The passage leads to Christ first through its central figure. The angel is sent before Israel to guard them and bring them to a prepared place, and God says, \"My Name is in him,\" verse 21. The Old Testament often speaks of \"the angel of the LORD\" in ways that blur the line between God and His messenger. The angel who spoke from the bush, Exodus 3:2, identified himself as God, Exodus 3:14. The angel who met Hagar was named by her as \"the God who sees me,\" Genesis 16:13. The angel of God in Jacob's dream said, \"I am the God of Bethel,\" Genesis 31:13. Many of the church fathers saw in these appearances the Son before His incarnation. The New Testament does not say so directly of Exodus 23, but it comes close. Jude 5 says that \"Jesus had delivered His people out of the land of Egypt,\" and Paul warns, \"We should not test Christ, as some of them did,\" 1 Corinthians 10:9, placing Christ with Israel in the wilderness.\n\nThe link is strengthened by the Name. Jesus says to the Father, \"I have revealed Your name,\" John 17:6, and He speaks of \"Your name, the name You gave Me,\" John 17:11. The Word who \"made His dwelling among us,\" John 1:14, is the one in whom God's Name, His revealed presence, lives fully. The Son is \"the exact representation of His nature,\" Hebrews 1:3, and \"has made Him known,\" John 1:18.\n\nIt leads to Christ through the promise of a messenger. Malachi 3:1 echoes verse 20, \"Behold, I will send My messenger,\" and speaks of \"the Messenger of the covenant\" who will come to His temple. Mark begins his Gospel with that promise, using the very Greek words of Exodus 23:20, Mark 1:2. John the Baptist is the messenger who prepares the way, and Jesus is the Lord who comes.\n\nIt leads to Christ through a contrast. The angel \"will not forgive rebellion,\" verse 21. Christ does exactly that. He forgives sinners and bears their transgression Himself, \"the Lamb of God, who takes away the sin of the world,\" John 1:29. The authority over sin that made the angel fearsome becomes in Christ the authority to pardon.\n\nIt leads to Christ through the journey. The angel guards the people \"along the way\" and brings them to \"the place I have prepared.\" Jesus says, \"I am going there to prepare a place for you,\" John 14:2, and promises His people, \"surely I am with you always, even to the end of the age,\" Matthew 28:20.\n\nA caution: whether the angel of this passage is the preincarnate Son remains debated, and it is wise not to build too much on it. What is clear is that the New Testament sees Christ as the one in whom God's Name dwells and through whom God leads His people home.",
+    "god": "The God of this passage is present and active on His people's behalf. He does not send Israel into Canaan alone; He sends His angel, His terror and His hornet ahead of them. Every verb of conquest has God as its subject. \"I will annihilate them,\" verse 23; \"I will send My terror,\" verse 27; \"I will drive them out,\" verse 30; \"I will establish your borders,\" verse 31. Israel's part is to listen and obey. The victory belongs to God.\n\nHe is a God whose Name dwells with His messenger. The phrase \"My Name is in him\" tells us that God does not remain distant from His people. He makes His presence known through one who carries His authority, and He requires that this one be heard as God Himself. Exodus 33 shows how much this matters. Moses would not go without God's Presence: \"If Your Presence does not go with us, do not lead us up from here,\" Exodus 33:15.\n\nHe is holy and does not treat rebellion lightly. The angel \"will not forgive rebellion,\" verse 21, and God warns that the gods of the land would be a snare. The same God who blesses bread and water and heals bodies is the one who cannot share His people's worship with idols. His jealousy, Exodus 20:5, is not insecurity but the fierce love of a husband who will not share his bride.\n\nHe is generous. Verses 25 and 26 are a catalogue of ordinary blessings: bread, water, health, safe childbirth, fruitful wombs and a full span of life. The very gifts the Canaanites expected from their fertility gods are promised by the LORD. He is the true source of every good gift, and He delights to give them.\n\nHe is patient and wise. He will not drive out the nations in a single year, \"otherwise the land would become desolate and wild animals would multiply against you,\" verse 29. God paces His gifts to the capacity of those who receive them. His delays are not failures but kindness. This holds together His power, which could give everything at once, and His care, which gives what His people can bear.\n\nHe keeps His promises. The borders of verse 31 are those promised to Abram in Genesis 15:18. The God of Sinai is the God of Abraham, and centuries later Joshua could say, \"Not one of all the LORD's good promises to the house of Israel had failed,\" Joshua 21:45.\n\nHe is just in His judgments. The nations are driven out not for Israel's righteousness but because of their own wickedness, Deuteronomy 9:4-5, after long patience, Genesis 15:16. And Israel would be judged the same way if it followed their gods.\n\nFor worship, this means trusting God to go ahead of us, obeying His voice, rejecting every rival loyalty, and receiving our daily bread, our health and our future as gifts from the one God.",
     "crossReferences": [
-      { "ref": "John 1:14", "note": "The Word became flesh and dwelt among us, echoing this angel's bearing of God's own Name and presence." },
-      { "ref": "Joshua 5:13-15", "note": "Joshua encounters a commander of the LORD's army, widely understood as connected to this same divine messenger." },
-      { "ref": "2 Corinthians 6:14-18", "note": "Echoes this chapter's warning against being yoked together with idolatry and its gods." },
-      { "ref": "Judges 2:1-3", "note": "The angel of the LORD later rebukes Israel for making exactly the covenants with the nations forbidden here." }
+      {
+        "ref": "Exodus 14:19",
+        "note": "Before the Red Sea crossing \"the angel of God, who had gone before the camp of Israel, withdrew and went behind them.\" The same angel who led Israel out of Egypt now promises to lead them into the land. The guardian of the exodus becomes the guide of the conquest."
+      },
+      {
+        "ref": "Exodus 33:2-3, 14-15",
+        "note": "After the golden calf God says He will send an angel but \"I will not go with you.\" Moses pleads, God answers, \"My Presence will go with you,\" and Moses says he will not go without it. The episode shows that the angel of 23:20, with God's Name in him, was no substitute for God but a form of His own presence."
+      },
+      {
+        "ref": "Judges 2:1-3",
+        "note": "The angel of the LORD rebukes Israel at Bochim. He had told them, \"you are not to make a covenant with the people of this land,\" and He says, \"Yet you have not obeyed My voice.\" Because they disobeyed, \"their gods will be a snare to you.\" The warning of Exodus 23:32-33 is fulfilled almost word for word."
+      },
+      {
+        "ref": "Deuteronomy 7:20-22",
+        "note": "Moses repeats the promises of Exodus 23:28-30 to the next generation: God \"will send the hornet against them,\" and \"will drive out these nations before you little by little,\" lest \"the wild animals would multiply around you.\" The gradual conquest is presented as God's deliberate kindness."
+      },
+      {
+        "ref": "Joshua 24:12",
+        "note": "At the end of the conquest Joshua reminds Israel, \"I sent the hornet ahead of you, and it drove out the two Amorite kings before you, but not by your own sword or bow.\" The promise of Exodus 23:28 is remembered as fulfilled, and the credit is given to God, not to Israel's army."
+      },
+      {
+        "ref": "Psalm 106:34-36",
+        "note": "The psalmist looks back on Israel's failure: \"They did not destroy the peoples as the LORD had commanded them, but they mingled with the nations and adopted their customs. They worshiped their idols, which became a snare to them.\" The snare of Exodus 23:33 closed exactly as God had warned."
+      },
+      {
+        "ref": "Malachi 3:1",
+        "note": "\"Behold, I will send My messenger, who will prepare the way before Me.\" Malachi echoes Exodus 23:20 and speaks of \"the Messenger of the covenant\" coming to His temple. The angel who led Israel into the land becomes the pattern for the one who will prepare the way for the Lord Himself."
+      },
+      {
+        "ref": "Mark 1:2",
+        "note": "Mark opens his Gospel with \"Behold, I will send My messenger ahead of You, who will prepare Your way.\" The first half follows the Greek of Exodus 23:20, blended with Malachi 3:1. John the Baptist is the messenger, and Jesus is the one whose way is prepared, a new exodus led by God Himself."
+      },
+      {
+        "ref": "John 17:11-12",
+        "note": "Jesus prays, \"Holy Father, protect them by Your name, the name You gave Me,\" and says, \"While I was with them, I protected and preserved them by Your name.\" Like the angel who guards Israel on the way with God's Name in him, Jesus bears the Father's Name and keeps His people safe."
+      },
+      {
+        "ref": "Jude 1:5",
+        "note": "Jude says that \"Jesus had delivered His people out of the land of Egypt\" and destroyed those who did not believe. The New Testament places Christ at the head of the exodus journey, which gives weight to the ancient reading of the angel of Exodus 23 as the Son."
+      },
+      {
+        "ref": "1 Corinthians 10:9",
+        "note": "Paul warns, \"We should not test Christ, as some of them did, and were killed by snakes.\" The rebellion against the one who led Israel in the wilderness is described as testing Christ, just as Exodus 23:21 warns Israel not to defy the angel who bears God's Name."
+      },
+      {
+        "ref": "2 Corinthians 6:14-18",
+        "note": "Paul asks, \"What agreement can exist between the temple of God and idols?\" and calls believers to \"come out from among them and be separate.\" The prohibition of any covenant with the gods of Canaan becomes a call to undivided loyalty for the church, now itself the temple of the living God."
+      }
     ],
-    "oneStory": "God promises to go ahead of His people through His own sent presence, guarding and guiding them, while warning that any compromise with rival gods will become a snare that unravels everything grace has built. This pattern of divine presence and undivided loyalty runs through the rest of Israel's story and finds its fulfillment in Christ, in whom God's Name and presence dwell fully and permanently with His people forever.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "why": "" }
+    "oneStory": "In the beginning God placed humanity in a garden He had prepared, walked with them and gave them every good gift. After the fall they were driven out, and the way back was guarded. The story since then has been God's journey to bring His people home to a place He has prepared, with Himself dwelling among them.\n\nExodus 23:20-33 stands at a turning point in that journey. Israel has been redeemed from Egypt and bound to God by covenant at Sinai. Now God promises to lead them to the land He swore to Abraham, a land of bread and water, health and fruitful wombs, a partial return to the blessings of Eden. He will go ahead of them in His angel, fight for them and give them the land little by little. But He warns that the same land could become a trap if they serve its gods.\n\nWhat follows shows both halves coming true. Joshua records that none of God's good promises failed, Joshua 21:45. But Judges and Kings record that Israel made covenants with the nations, served their gods, and was caught in the snare, until Israel itself was driven out of the land, just as the Canaanites had been.\n\nThe story then moves toward a greater leader and a greater land. Malachi promises that God will send His messenger again, and Mark announces that the promise has come true. Jesus is the one in whom God's Name dwells, who leads a new exodus, defeats the true enemies of God's people and goes ahead to prepare a place for them. The promise to Abraham widens. His offspring will be \"heir of the world,\" Romans 4:13, and Jesus says of the meek, \"they will inherit the earth,\" Matthew 5:5. The borders of Exodus 23:31 are the first sketch of a kingdom that will fill the earth.\n\nThe story ends in a new creation where God's people are home. God Himself dwells with them, Revelation 21:3; the nations, no longer enemies, bring their glory into the city, Revelation 21:24-26; the leaves of the tree of life are \"for the healing of the nations,\" Revelation 22:2; and nothing that snares or corrupts will enter it, Revelation 21:27. The angel who led Israel along the way finds his fulfilment in the Lamb, who brings His people to the place prepared for them and stays with them for ever.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What does God say about the angel He is sending ahead of Israel in verse 21?",
       "options": [
-        { "text": "His Name is in him, and he will not forgive rebellion.", "weight": 100, "note": "This striking claim gives the angel unique divine authority, requiring careful attention and obedience." },
-        { "text": "He is merely a symbolic figure with no real authority.", "weight": 75, "note": "The text describes real, weighty authority, carrying God's own Name." },
-        { "text": "He will forgive any rebellion Israel commits against him.", "weight": 25, "note": "The text states the opposite, that he will not forgive rebellion." },
-        { "text": "No description of the angel's authority is given.", "weight": 0, "note": "Verse 21 gives an explicit and significant description." }
+        {
+          "text": "His Name is in him, and he will not forgive rebellion.",
+          "weight": 100,
+          "note": "This striking claim gives the angel unique divine authority, requiring careful attention and obedience."
+        },
+        {
+          "text": "He is merely a symbolic figure with no real authority.",
+          "weight": 75,
+          "note": "The text describes real, weighty authority, carrying God's own Name."
+        },
+        {
+          "text": "He will forgive any rebellion Israel commits against him.",
+          "weight": 25,
+          "note": "The text states the opposite, that he will not forgive rebellion."
+        },
+        {
+          "text": "No description of the angel's authority is given.",
+          "weight": 0,
+          "note": "Verse 21 gives an explicit and significant description."
+        }
       ]
     },
     {
       "q": "What blessings does God promise for obedience in verses 25 to 26?",
       "options": [
-        { "text": "Blessed bread and water, freedom from sickness, and full days of life.", "weight": 100, "note": "These specific blessings are named directly in the text." },
-        { "text": "Unlimited wealth and military conquest of the whole earth.", "weight": 75, "note": "The specific blessings named concern health, provision, and life span, not global conquest or unlimited wealth." },
-        { "text": "Freedom from all future work or labor.", "weight": 25, "note": "No such promise appears; the blessings concern health and sustenance, not the absence of labor." },
-        { "text": "No blessings are mentioned in this passage.", "weight": 0, "note": "Verses 25 to 26 give specific, named blessings." }
+        {
+          "text": "Blessed bread and water, freedom from sickness, and full days of life.",
+          "weight": 100,
+          "note": "These specific blessings are named directly in the text."
+        },
+        {
+          "text": "Unlimited wealth and military conquest of the whole earth.",
+          "weight": 75,
+          "note": "The specific blessings named concern health, provision, and life span, not global conquest or unlimited wealth."
+        },
+        {
+          "text": "Freedom from all future work or labor.",
+          "weight": 25,
+          "note": "No such promise appears; the blessings concern health and sustenance, not the absence of labor."
+        },
+        {
+          "text": "No blessings are mentioned in this passage.",
+          "weight": 0,
+          "note": "Verses 25 to 26 give specific, named blessings."
+        }
       ]
     },
     {
       "q": "Why did God say He would not drive out the nations from the land all at once, according to verse 29?",
       "options": [
-        { "text": "So the land would not become desolate and overrun by wild animals.", "weight": 100, "note": "This practical reason is given explicitly in the text." },
-        { "text": "Because God lacked the power to remove them quickly.", "weight": 75, "note": "The text presents this as a deliberate, wise choice, not a limitation of God's power." },
-        { "text": "Because Israel had asked for a slower conquest.", "weight": 25, "note": "The reason given is about the land's condition, not a request from Israel." },
-        { "text": "No reason is given for the gradual conquest.", "weight": 0, "note": "Verse 29 gives an explicit reason." }
+        {
+          "text": "So the land would not become desolate and overrun by wild animals.",
+          "weight": 100,
+          "note": "This practical reason is given explicitly in the text."
+        },
+        {
+          "text": "Because God lacked the power to remove them quickly.",
+          "weight": 75,
+          "note": "The text presents this as a deliberate, wise choice, not a limitation of God's power."
+        },
+        {
+          "text": "Because Israel had asked for a slower conquest.",
+          "weight": 25,
+          "note": "The reason given is about the land's condition, not a request from Israel."
+        },
+        {
+          "text": "No reason is given for the gradual conquest.",
+          "weight": 0,
+          "note": "Verse 29 gives an explicit reason."
+        }
       ]
     },
     {
       "q": "What warning does God give about the nations and their gods in verses 32 to 33?",
       "options": [
-        { "text": "Israel must make no covenant with them, or their gods would become a snare.", "weight": 100, "note": "This is the exact, direct warning given at the close of the passage." },
-        { "text": "Israel should make peace treaties with every neighboring nation.", "weight": 75, "note": "The text explicitly forbids covenant-making with these nations and their gods." },
-        { "text": "Israel should adopt some of their religious practices out of respect.", "weight": 25, "note": "The text explicitly forbids serving their gods or following their practices." },
-        { "text": "No warning about covenant or religious compromise is given.", "weight": 0, "note": "Verses 32 to 33 give an explicit and severe warning." }
+        {
+          "text": "Israel must make no covenant with them, or their gods would become a snare.",
+          "weight": 100,
+          "note": "This is the exact, direct warning given at the close of the passage."
+        },
+        {
+          "text": "Israel should make peace treaties with every neighboring nation.",
+          "weight": 75,
+          "note": "The text explicitly forbids covenant-making with these nations and their gods."
+        },
+        {
+          "text": "Israel should adopt some of their religious practices out of respect.",
+          "weight": 25,
+          "note": "The text explicitly forbids serving their gods or following their practices."
+        },
+        {
+          "text": "No warning about covenant or religious compromise is given.",
+          "weight": 0,
+          "note": "Verses 32 to 33 give an explicit and severe warning."
+        }
       ]
     },
     {
       "q": "How have many interpreters historically understood the angel described in this passage?",
       "options": [
-        { "text": "As possibly a preincarnate appearance of the divine Son, given his unique authority and God's Name in him.", "weight": 100, "note": "This is a longstanding interpretive tradition, connecting this figure to similar 'Angel of the LORD' appearances elsewhere in Scripture." },
-        { "text": "As a purely human military commander.", "weight": 75, "note": "The text describes a supernatural messenger, not a human military figure." },
-        { "text": "As an evil spirit sent to test Israel's faith.", "weight": 25, "note": "The angel is sent by God for Israel's protection and guidance, not as an adversarial or evil figure." },
-        { "text": "No interpretive tradition exists regarding this angel's identity.", "weight": 0, "note": "A significant and longstanding interpretive tradition surrounds this figure's identity." }
+        {
+          "text": "As possibly a preincarnate appearance of the divine Son, given his unique authority and God's Name in him.",
+          "weight": 100,
+          "note": "This is a longstanding interpretive tradition, connecting this figure to similar 'Angel of the LORD' appearances elsewhere in Scripture."
+        },
+        {
+          "text": "As a purely human military commander.",
+          "weight": 75,
+          "note": "The text describes a supernatural messenger, not a human military figure."
+        },
+        {
+          "text": "As an evil spirit sent to test Israel's faith.",
+          "weight": 25,
+          "note": "The angel is sent by God for Israel's protection and guidance, not as an adversarial or evil figure."
+        },
+        {
+          "text": "No interpretive tradition exists regarding this angel's identity.",
+          "weight": 0,
+          "note": "A significant and longstanding interpretive tradition surrounds this figure's identity."
+        }
       ]
     }
   ],
@@ -157,9 +407,21 @@
     "Some see in this mysterious angel an early glimpse of Christ, the one in whom God's Name and presence fully dwell. How does knowing Christ Himself now goes with you change the way you face the road ahead?"
   ],
   "translationNotes": [
-    { "ref": "Exodus 23:21", "note": "My Name is in him is a striking phrase in Hebrew, closely identifying this angel's authority with God's own, a detail that has driven much theological reflection on his identity throughout church history." },
-    { "ref": "Exodus 23:28", "note": "The hornet may be read literally, an actual insect causing panic among Israel's enemies, or as a figurative expression for the terror and confusion mentioned in verse 27; both readings preserve the underlying point that God Himself secures the victory." },
-    { "ref": "Exodus 23:31", "note": "The borders described, from the Red Sea to the Sea of the Philistines and from the desert to the Euphrates, represent the fullest extent of the promised land, only partially and temporarily realized even at the height of Solomon's kingdom, 1 Kings 4:21." }
+    {
+      "ref": "Exodus 23:21",
+      "note": "My Name is in him is a striking phrase in Hebrew, closely identifying this angel's authority with God's own, a detail that has driven much theological reflection on his identity throughout church history."
+    },
+    {
+      "ref": "Exodus 23:28",
+      "note": "The hornet may be read literally, an actual insect causing panic among Israel's enemies, or as a figurative expression for the terror and confusion mentioned in verse 27; both readings preserve the underlying point that God Himself secures the victory."
+    },
+    {
+      "ref": "Exodus 23:31",
+      "note": "The borders described, from the Red Sea to the Sea of the Philistines and from the desert to the Euphrates, represent the fullest extent of the promised land, only partially and temporarily realized even at the height of Solomon's kingdom, 1 Kings 4:21."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "" }
+  "meta": {
+    "textToVerify": [],
+    "notes": ""
+  }
 }

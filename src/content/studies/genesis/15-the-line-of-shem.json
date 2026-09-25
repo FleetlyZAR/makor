@@ -18,14 +18,46 @@
         "note": "the line after the flood",
         "emphasis": "",
         "verses": [
-          { "chapter": 11, "n": 10, "text": "This is the {{toledot|account}} of Shem. Two years after the flood, when Shem was 100 years old, he became the father of Arphaxad." },
-          { "chapter": 11, "n": 11, "text": "And after he had become the father of Arphaxad, Shem lived 500 years and had other sons and daughters." },
-          { "chapter": 11, "n": 12, "text": "When Arphaxad was 35 years old, he became the father of Shelah." },
-          { "chapter": 11, "n": 13, "text": "And after he had become the father of Shelah, Arphaxad lived 403 years and had other sons and daughters." },
-          { "chapter": 11, "n": 14, "text": "When Shelah was 30 years old, he became the father of {{eber|Eber}}." },
-          { "chapter": 11, "n": 15, "text": "And after he had become the father of Eber, Shelah lived 403 years and had other sons and daughters." },
-          { "chapter": 11, "n": 16, "text": "When Eber was 34 years old, he became the father of Peleg." },
-          { "chapter": 11, "n": 17, "text": "And after he had become the father of Peleg, Eber lived 430 years and had other sons and daughters." }
+          {
+            "chapter": 11,
+            "n": 10,
+            "text": "This is the {{toledot|account}} of Shem. Two years after the flood, when Shem was 100 years old, he became the father of Arphaxad."
+          },
+          {
+            "chapter": 11,
+            "n": 11,
+            "text": "And after he had become the father of Arphaxad, Shem lived 500 years and had other sons and daughters."
+          },
+          {
+            "chapter": 11,
+            "n": 12,
+            "text": "When Arphaxad was 35 years old, he became the father of Shelah."
+          },
+          {
+            "chapter": 11,
+            "n": 13,
+            "text": "And after he had become the father of Shelah, Arphaxad lived 403 years and had other sons and daughters."
+          },
+          {
+            "chapter": 11,
+            "n": 14,
+            "text": "When Shelah was 30 years old, he became the father of {{eber|Eber}}."
+          },
+          {
+            "chapter": 11,
+            "n": 15,
+            "text": "And after he had become the father of Eber, Shelah lived 403 years and had other sons and daughters."
+          },
+          {
+            "chapter": 11,
+            "n": 16,
+            "text": "When Eber was 34 years old, he became the father of Peleg."
+          },
+          {
+            "chapter": 11,
+            "n": 17,
+            "text": "And after he had become the father of Peleg, Eber lived 430 years and had other sons and daughters."
+          }
         ]
       },
       {
@@ -33,23 +65,74 @@
         "note": "narrowing to one family",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 11, "n": 18, "text": "When Peleg was 30 years old, he became the father of Reu." },
-          { "chapter": 11, "n": 19, "text": "And after he had become the father of Reu, Peleg lived 209 years and had other sons and daughters." },
-          { "chapter": 11, "n": 20, "text": "When Reu was 32 years old, he became the father of Serug." },
-          { "chapter": 11, "n": 21, "text": "And after he had become the father of Serug, Reu lived 207 years and had other sons and daughters." },
-          { "chapter": 11, "n": 22, "text": "When Serug was 30 years old, he became the father of Nahor." },
-          { "chapter": 11, "n": 23, "text": "And after he had become the father of Nahor, Serug lived 200 years and had other sons and daughters." },
-          { "chapter": 11, "n": 24, "text": "When Nahor was 29 years old, he became the father of Terah." },
-          { "chapter": 11, "n": 25, "text": "And after he had become the father of Terah, Nahor lived 119 years and had other sons and daughters." },
-          { "chapter": 11, "n": 26, "text": "When Terah was 70 years old, he became the father of {{abram|Abram}}, Nahor, and Haran." }
+          {
+            "chapter": 11,
+            "n": 18,
+            "text": "When Peleg was 30 years old, he became the father of Reu."
+          },
+          {
+            "chapter": 11,
+            "n": 19,
+            "text": "And after he had become the father of Reu, Peleg lived 209 years and had other sons and daughters."
+          },
+          {
+            "chapter": 11,
+            "n": 20,
+            "text": "When Reu was 32 years old, he became the father of Serug."
+          },
+          {
+            "chapter": 11,
+            "n": 21,
+            "text": "And after he had become the father of Serug, Reu lived 207 years and had other sons and daughters."
+          },
+          {
+            "chapter": 11,
+            "n": 22,
+            "text": "When Serug was 30 years old, he became the father of Nahor."
+          },
+          {
+            "chapter": 11,
+            "n": 23,
+            "text": "And after he had become the father of Nahor, Serug lived 200 years and had other sons and daughters."
+          },
+          {
+            "chapter": 11,
+            "n": 24,
+            "text": "When Nahor was 29 years old, he became the father of Terah."
+          },
+          {
+            "chapter": 11,
+            "n": 25,
+            "text": "And after he had become the father of Terah, Nahor lived 119 years and had other sons and daughters."
+          },
+          {
+            "chapter": 11,
+            "n": 26,
+            "text": "When Terah was 70 years old, he became the father of {{abram|Abram}}, Nahor, and Haran."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "toledot": { "language": "Hebrew", "lemma": "toledot", "original": "תּוֹלְדֹת", "gloss": "Generations, account, or family record. This heading word structures the whole book of Genesis, dividing it into ten sections. Here the account of Shem signals a fresh, purposeful movement: after the sprawl of Babel, the camera narrows to one line that carries the promise forward." },
-    "eber": { "language": "Hebrew", "lemma": "Eber", "original": "עֵבֶר", "gloss": "The ancestor from whom the term Hebrew is usually traced. His placement in the line marks the branch that leads to Abram the Hebrew and to Israel, quietly identifying which family God is preparing to call." },
-    "abram": { "language": "Hebrew", "lemma": "Abram", "original": "אַבְרָם", "gloss": "The name Abram means exalted father, later changed by God to Abraham, father of a multitude. The genealogy ends on his name like a held breath, for with him the story turns from the scattered nations to the one man through whom all nations will be blessed." }
+    "toledot": {
+      "language": "Hebrew",
+      "lemma": "toledot",
+      "original": "תּוֹלְדֹת",
+      "gloss": "Generations, account, or family record. This heading word structures the whole book of Genesis, dividing it into ten sections. Here the account of Shem signals a fresh, purposeful movement: after the sprawl of Babel, the camera narrows to one line that carries the promise forward."
+    },
+    "eber": {
+      "language": "Hebrew",
+      "lemma": "Eber",
+      "original": "עֵבֶר",
+      "gloss": "The ancestor from whom the term Hebrew is usually traced. His placement in the line marks the branch that leads to Abram the Hebrew and to Israel, quietly identifying which family God is preparing to call."
+    },
+    "abram": {
+      "language": "Hebrew",
+      "lemma": "Abram",
+      "original": "אַבְרָם",
+      "gloss": "The name Abram means exalted father, later changed by God to Abraham, father of a multitude. The genealogy ends on his name like a held breath, for with him the story turns from the scattered nations to the one man through whom all nations will be blessed."
+    }
   },
   "study": {
     "basic": {
@@ -63,76 +146,229 @@
       "oneStory": "After the world scatters at Babel, God does not start over with the whole earth; He starts with one family. This list is the thread of grace running from Shem to Abram, and on to Jesus, showing that God's rescue of the nations comes through one chosen line He faithfully preserves."
     },
     "context": {
-      "literary": "This is one of the ten toledot sections that structure Genesis, the account of Shem. It mirrors the genealogy of Genesis 5, moving in a steady formula of birth, years, and further children, and it deliberately bridges the scattering of Babel and the call of Abram, narrowing from all nations to one line.",
-      "historical": "The names locate the ancestral family in the world of Mesopotamia, ending with Terah in the region of Ur and Haran. The recorded lifespans are notably shorter than those before the flood, showing a gradual decline as the narrative moves from the primeval age toward the patriarchs.",
-      "canonical": "The line is picked up in 1 Chronicles 1 and in Luke's genealogy of Jesus, which traces the Saviour back through Terah, Shem, and Noah to Adam. This makes the passage a load-bearing link in the single genealogy of redemption that spans the whole Bible."
+      "literary": "Genesis 11:10-26 is built to be read beside Genesis 5. Both are linear genealogies, one name to the next in a single line, unlike the branching table of nations in Genesis 10. Both use a fixed formula: when X had lived so many years he became the father of Y, and after that he lived so many years and had other sons and daughters. Both end on a father with three sons, Noah with 'Shem, Ham, and Japheth,' Genesis 5:32, and Terah with 'Abram, Nahor, and Haran,' verse 26. Counting from Shem to Abram, the list has ten names, as Genesis 5 has ten from Adam to Noah. The shape tells the reader that a new era is being traced, from the new beginning after the flood to a new beginning with Abram.\n\nThere is one pointed difference. Genesis 5 closes every entry with a total and the refrain 'and then he died,' Genesis 5:5. Genesis 11 drops both. The Hebrew list does not toll the bell. It hurries forward, eyes on the name at the end.\n\nThe placement matters as much as the pattern. Genesis 10:21-31 had already listed Shem's descendants, but it followed the line through Eber's son Joktan and his thirteen sons. Now the account of Shem goes back and follows Eber's other son, Peleg. This is how Genesis handles every branch: the line that will not carry the promise is dealt with first and briefly, and then the chosen line is told at length, Ishmael before Isaac, Genesis 25:12 and 25:19, and Esau before Jacob, Genesis 36:1 and 37:2.\n\nFinally, the genealogy is the hinge between two stories about names. Babel ends with builders who wanted 'a name for ourselves,' Genesis 11:4, and received only the name of confusion. The very next words are 'This is the account of Shem,' and shem is the Hebrew word for name. The line of 'Name' is where God will give a great name to Abram, Genesis 12:2.",
+      "historical": "The list moves from the flood to the ancestral world of northern Mesopotamia. Several of the names cluster around the region of Haran. The city of Nahor appears later as the home of Abraham's relatives, 'Nahor's hometown in Aram-naharaim,' Genesis 24:10, and Laban is known as 'the grandson of Nahor,' Genesis 29:5. The genealogy is therefore not a list of abstractions but the family tree of a real clan whose descendants Israel knew by name.\n\nThe ages are the feature every reader notices. After the flood the lifespans fall steadily: Shem lives 600 years, Arphaxad 438, Shelah 433, Eber 464, then Peleg drops to 239, Reu 239, Serug 230, Nahor 148, and Terah 205, Genesis 11:32. The steepest fall comes with Peleg, in whose days 'the earth was divided,' Genesis 10:25. By Abraham's day a long life is 175 years, Genesis 25:7, Jacob calls his 130 years 'few and hard,' Genesis 47:9, and Moses' psalm speaks of seventy or eighty, Psalm 90:10. The ages of fatherhood fall too, from sixty-five and upward, often over a hundred, in Genesis 5 to about thirty here. The effect is to show the world settling into the ordinary pattern of human life that Israel knew.\n\nThe BSB footnote at verse 13 points to a real textual difference. The Greek Septuagint adds one generation, Cainan, between Arphaxad and Shelah, adds a hundred years to several fathers' ages, and includes the refrain 'and then he died.' Luke's genealogy of Jesus follows that Greek tradition, 'the son of Cainan, the son of Arphaxad,' Luke 3:36. Ancient readers already knew that the list could be transmitted in more than one form.\n\nRead as a continuous chronology, the Hebrew numbers would have Shem alive through most of Abraham's life and Eber outliving him. Whether that is how the list was meant to be read is part of the debate below.",
+      "canonical": "Shem's line is first marked out by Noah's blessing, 'Blessed be the LORD, the God of Shem!' Genesis 9:26, the first time God is called the God of a particular person. Everything in this genealogy is the working out of that blessing.\n\nThe list is taken up almost word for word in 1 Chronicles 1:24-27, 'So from Shem came Arphaxad, Shelah, Eber, Peleg, Reu, Serug, Nahor, Terah, and Abram (that is, Abraham).' The Chronicler opens Israel's history after the exile with the same names, telling a people who had come back from Babylon, of all places, that they still stood in the line God chose after Babel.\n\nTerah's household is remembered with honesty in Joshua 24:2, where Joshua reminds Israel that 'Terah the father of Abraham and Nahor, lived beyond the Euphrates and worshiped other gods.' The genealogy is a line of grace, not a line of saints. Eber's name is heard again in Balaam's oracle, which speaks of ships that 'will subdue Asshur and Eber,' Numbers 24:24, and Abram is called 'Abram the Hebrew,' Genesis 14:13.\n\nThe genealogy form itself runs on through Scripture. Ruth ends with the ten generations of Perez down to David, Ruth 4:18-22, another short linear line that ends on a chosen man. Matthew opens with 'Jesus Christ, the son of David, the son of Abraham,' Matthew 1:1, beginning where Genesis 11 ends. Luke runs the other way, from Jesus back through 'Terah, the son of Nahor, the son of Serug, the son of Reu, the son of Peleg, the son of Eber, the son of Shelah,' Luke 3:34-35, all the way to Adam. And Paul tells the Athenians that 'From one man He made every nation of men,' Acts 17:26, the conviction beneath every genealogy in Genesis."
     },
     "hermeneutics": {
-      "authorIntent": "To bridge Babel and the call of Abram by tracing the chosen line from Shem to Terah, showing that God is faithfully preserving one family through whom His promise of blessing will come.",
-      "descriptionVsPrescription": "This is descriptive record, not command. Its abiding truth is God's patient faithfulness across generations and His sovereign steering of history toward the promised seed.",
+      "authorIntent": "Moses wanted Israel to know where they came from and to know that it was not chance. The first hearers had their own genealogies and tribal lists, Numbers 1 and 26, and they understood that a family tree was a claim about identity and inheritance. This one tells them that the covenant people did not arise from nowhere. Their father Abraham was a real man with a real ancestry reaching back through Shem to Noah, and through Noah to Adam.\n\nHe also wanted them to see God's patience. The drama of Babel is followed by nine generations of births and deaths in which God does nothing that the text records, except keep the line going. Israel in Egypt, waiting four centuries, and Israel in exile, waiting seventy years, needed to know that the silent stretches of history are not empty. The promise is being carried even when no one is speaking it.\n\nAnd he wanted them to lean forward. The list is shaped like an arrow. It drops the refrain of death, it passes over the branches that do not carry the promise, and it lands on three sons, one of whom is Abram. The last verse leaves the reader on the edge of a new beginning, ready to hear what God will say to the tenth name.",
+      "descriptionVsPrescription": "A genealogy prescribes nothing directly. It records who fathered whom, and at what age. Nothing in it tells readers to trace their own ancestry, to marry young, or to expect a certain lifespan.\n\nYet it shapes faith in several ways. It teaches that God's purposes run through ordinary family life, through births and child raising and old age, so that faithful parenting across generations is part of how God keeps His promises, Deuteronomy 7:9. It warns against boasting in pedigree, since the line of promise includes Terah, who served other gods, Joshua 24:2. And it reminds believers that their own place in God's story is not earned by descent. The New Testament is clear that those who belong to Christ are Abraham's seed, Galatians 3:29, whatever their family tree.\n\nPaul also warns against 'endless genealogies' that promote speculation, 1 Timothy 1:4. The right use of this list is to marvel at God's faithfulness, not to build systems on its numbers.",
       "debates": [
         {
-          "question": "Do these genealogies give a complete, gap-free chronology of the years since the flood?",
+          "question": "Do these genealogies give a complete, gap-free chronology from the flood to Abram?",
           "views": [
-            { "label": "A precise chronology", "case": "Some read the ages strictly and add them to date the flood and creation, taking the list as a continuous, unbroken timeline." },
-            { "label": "A selective, telescoped line", "case": "Others note that biblical genealogies can skip generations and are shaped for theological ends, so the list traces a true line without necessarily giving every link or an exact total of years." }
+            {
+              "label": "A continuous chronology",
+              "case": "The list gives each father's age at the birth of the next name, which looks designed for counting. Read that way, the figures give about three centuries from the flood to Abram's birth, and older chronologies of the world, such as Archbishop Ussher's in the seventeenth century, were built on them."
+            },
+            {
+              "label": "A selective, telescoped line",
+              "case": "Biblical genealogies often skip generations. Matthew moves from 'Joram the father of Uzziah,' Matthew 1:8, passing over three kings named in 1 Chronicles 3:11-12, and Ezra's priestly line in Ezra 7:1-5 omits several names found in 1 Chronicles 6:3-14. Luke's inclusion of Cainan, Luke 3:36, missing from the Hebrew text of Genesis, shows the list was not treated as closed. 'Became the father of' can mean became the ancestor of."
+            }
           ],
-          "bearing": "Either way the theological point is secure: God preserves a real, traceable line from Shem to Abram, and the passage's purpose is the promise, not primarily a calendar."
+          "bearing": "The text never totals the years from the flood to Abram, as it does elsewhere when chronology is the point, for example Exodus 12:40. That suggests the list's purpose is to trace a true line rather than to date the world. Either way the theological point stands: God preserved a real family from Shem to Abram."
+        },
+        {
+          "question": "How should the long lifespans be understood?",
+          "views": [
+            {
+              "label": "Actual ages",
+              "case": "The numbers are given plainly and without comment, in the same form as later ages no one doubts, such as Abraham's 175 years. The steady decline fits a world that is moving away from its original vigour after the flood and toward the limit set in Genesis 6:3."
+            },
+            {
+              "label": "Numbers with a schematic or honorific meaning",
+              "case": "Other ancient lists, such as the Sumerian King List, give kings before the flood reigns of many thousands of years. Some read the biblical numbers as a restrained answer to that genre, using large ages to honour the ancestors and to mark the passing of eras, without intending modern biographical precision."
+            }
+          ],
+          "bearing": "Genesis is strikingly sober beside its neighbours, and its numbers fall toward the ordinary as the story reaches historical Israel. Whatever view one takes of the ages, the direction of the list is clear: humanity is moving from the primeval world into the world of Abraham, and death still has its hold."
+        },
+        {
+          "question": "What is the link between Eber and the word 'Hebrew'?",
+          "views": [
+            {
+              "label": "Named after the ancestor Eber",
+              "case": "Genesis 10:21 calls Shem 'the forefather of all the sons of Eber,' singling him out, and the word for Hebrew, ivri, is formed from the name Eber in the ordinary way Hebrew forms clan names. On this view Abram 'the Hebrew,' Genesis 14:13, is a son of Eber."
+            },
+            {
+              "label": "Connected with 'beyond'",
+              "case": "The word eber also means the region across or beyond, and Joshua 24:2 says Israel's fathers lived 'beyond the Euphrates.' Some hear in 'Hebrew' the sense of one from beyond the River, the one who crossed over."
+            }
+          ],
+          "bearing": "The views need not exclude each other, since the ancestor's name and the idea of crossing may have been heard together. Genesis itself puts the weight on descent: Eber is the ancestor through whom the chosen line runs."
         }
       ]
     },
-    "originalLanguages": "Three words carry the weight. The heading toledot, account, marks this as a fresh, deliberate movement in Genesis, not a random list. Eber sits in the line as the name behind Hebrew, quietly flagging the chosen branch. And the whole genealogy is drawn like an arrow toward Abram, exalted father, whose name God will soon enlarge to Abraham, father of a multitude, so that the list ends poised on the very edge of the promise.",
+    "originalLanguages": "The formula of the list turns on one verb. 'He became the father of' translates wayyoled, the causative stem of yalad, to bear or give birth, so literally 'he caused to be born.' The same form runs through Genesis 5 and through the royal lines of Chronicles. Because Hebrew uses 'son' and 'father' for descendants and ancestors as well as for the next generation, the verb can connect a man to a grandson or a more distant heir. That is why the genealogy can be both true and selective.\n\nThe phrase 'other sons and daughters,' banim uvanot, appears in every entry. It quietly insists that the named man is not the only child. Each father had a wider family, and the narrator chooses to follow only one. Genesis 10:21-31 had already shown one of those other branches, the sons of Joktan. Selection is built into the grammar of the list.\n\nTwo names carry a wordplay from the surrounding stories. The heading 'This is the account of Shem' uses shem, name, and follows directly on the builders' 'let us make a name for ourselves,' Genesis 11:4. And Peleg, verse 16, is the name explained in Genesis 10:25: 'in his days the earth was divided.' The verb is palag, to split or divide. The same verb appears in David's prayer, 'O Lord, confuse and confound their speech,' Psalm 55:9, where the second verb is palag and the object is literally their tongue. Peleg's name remembers the division of Babel inside the line of promise itself.\n\nEber, verses 14 to 17, is written with the same consonants as the ordinary noun and preposition meaning the other side or beyond. Joshua 24:2 uses it for the land 'beyond the Euphrates' where Terah's family lived. The name behind the word Hebrew is heard on either side of the River.\n\nThe flood is named with its own word, mabbul, 'two years after the flood,' verse 10. It is the technical term used throughout the flood account and once more in the Psalter, 'The LORD sits enthroned over the flood,' Psalm 29:10. The genealogy starts its clock from the judgment God brought and survived, and from the God enthroned over it.\n\nThe Greek Septuagint differs from the Hebrew in several ways here, as the BSB footnote on verse 13 explains. It inserts Cainan between Arphaxad and Shelah, adds a hundred years to the ages of several fathers, and adds the refrain 'and then he died,' as the footnote shows, bringing the list closer to Genesis 5. The Samaritan Pentateuch has its own set of figures as well. These differences do not touch the names of the chosen line, apart from Cainan, but they show that the numbers were handled with some freedom in transmission, which is a caution against building exact chronologies on them.\n\nFinally, the last verse, 'he became the father of Abram, Nahor, and Haran,' does not mean triplets. Genesis 11:32 and 12:4 together suggest Abram was born when Terah was 130, not 70, so verse 26 gives the age at which Terah began to have sons and names Abram first for his importance, as Genesis 5:32 names Shem first.",
     "typology": [
-      { "type": "The preserved covenant line from Shem to Abram", "fulfillment": "One strand of the single genealogy of redemption that runs to Christ, taken up by name in Luke 3." },
-      { "type": "Abram, the exalted father the list awaits", "fulfillment": "Fulfilled as father of many nations and, through his seed, the source of blessing in Jesus, Galatians 3." },
-      { "type": "God's faithfulness across ten silent generations", "fulfillment": "Points to the God who keeps covenant to a thousand generations and sends His Son in the fullness of time, Galatians 4:4." }
+      {
+        "type": "The line of Shem, whose name means 'name'",
+        "fulfillment": "The builders of Babel wanted to make a name; God traces the line of Shem, name, and gives Abram a great name, Genesis 12:2. The line runs on to David, to whom God says, 'I will make for you a name like the greatest in the land,' 2 Samuel 7:9, and it ends in Jesus, to whom God gave 'the name above all names,' Philippians 2:9. The escalation is that the final heir of the line does not merely receive a great name but bears the name at which every knee bows. The type falls short because Shem's line was also a line of sinners, while the last name in it is holy."
+      },
+      {
+        "type": "A tenth generation and a new beginning",
+        "fulfillment": "Genesis 5 runs ten names from Adam to Noah, through whom God made a new beginning after judgment. Genesis 11 runs ten names from Shem to Abram, through whom God makes a new beginning after Babel. Matthew arranges Jesus' ancestry into three sets of fourteen, Matthew 1:17, so that the story arrives at Him as the goal of a structured history, and Paul says God sent His Son 'when the time had fully come,' Galatians 4:4. The pattern points to a God who shapes history toward appointed turning points. It falls short because Noah and Abram were each only a fresh start, while Christ is the last and final one."
+      },
+      {
+        "type": "Life that shortens as the line moves on",
+        "fulfillment": "The falling ages of Genesis 11 show death tightening its grip even on the chosen line. The promise is carried by mortal men who each hand it on and die. Christ enters that line, 'born of a woman,' Galatians 4:4, and He too dies. But He is the one heir whose life does not fall away, for He was raised and 'lives to intercede' forever, Hebrews 7:25. The genealogy points forward by contrast: every name in it needed a successor, and the last Son of this line needs none, since He holds 'the power of an indestructible life,' Hebrews 7:16."
+      }
     ],
-    "christ": "This list is a section of Jesus' own family tree. Luke traces the Saviour back through Terah, Serug, Eber, Shelah, Arphaxad, and Shem to Noah and Adam, so every name here is a stepping stone toward Bethlehem. The line narrows from all the scattered nations to one family precisely so that from that family the Christ can come who will bless every nation again. God's patient bookkeeping of births and years is the slow, sure approach of the promised seed.",
-    "god": "God shows Himself faithful over long, quiet years. After the drama of Babel He works not with spectacle but with ordinary families, sons and daughters, lifespans and deaths, steadily keeping His purpose alive. He is sovereign over generations, unhurried yet certain, and He does not forget His promise to bless the nations even as the human story shrinks to a single household waiting in Mesopotamia.",
+    "christ": "The simplest link between this passage and Christ is literal. Luke's genealogy of Jesus runs through these names, 'the son of Terah, the son of Nahor, the son of Serug, the son of Reu, the son of Peleg, the son of Eber, the son of Shelah, the son of Cainan, the son of Arphaxad, the son of Shem,' Luke 3:34-36. These are not just ancestors of Israel. They are the human ancestors of the Son of God. The incarnation was not an abstract joining of God to humanity in general; the Word became flesh in one family, with a pedigree running through post-flood Mesopotamia.\n\nLuke's direction matters. Matthew begins with Abraham and moves forward, stressing Jesus as heir of Israel's promises. Luke begins with Jesus and moves back past Abraham, past Shem, past Noah, to 'Adam, the son of God,' Luke 3:38. By including this stretch of Genesis 11 Luke shows that Jesus belongs not only to Abraham's family but to Shem's and Noah's, the whole post-flood human race. The Saviour of the scattered nations of Genesis 10 is descended from the same ancestor they were.\n\nThe passage also leads to Christ by pattern. The genealogy narrows. Out of all Noah's sons it follows Shem, out of Eber's sons it follows Peleg, and out of Terah's three sons it will follow Abram. The narrowing continues through Isaac, Jacob, Judah and David until it rests on one man, 'to your seed, meaning One, who is Christ,' Galatians 3:16. Then the direction reverses. Through that one seed the blessing widens to 'all the families of the earth,' Genesis 12:3, and those who belong to Christ become 'Abraham's seed,' Galatians 3:29. The narrowing of Genesis 11 exists for the sake of the widening in Christ.\n\nIt leads to Christ by contrast as well. The Hebrew list leaves out the refrain 'and then he died,' but death is still there in the shortening years. Every man in the line passes the promise on because he cannot keep it himself. Jesus received the promise and died, but He did not pass it on. He rose and holds it forever, 'a priest forever,' Hebrews 7:17.\n\nA caution belongs here. Not every name in the list is a figure of Christ, and nothing is gained by hunting meanings in Arphaxad or Serug. The connection is historical and covenantal: God kept a line, and His Son was born in it. That is enough. The quiet faithfulness of God over these generations is itself the gospel's first shape, the same faithfulness that brought Jesus into the world 'when the time had fully come,' Galatians 4:4.",
+    "god": "This passage says very little about God directly. His name is not mentioned between Genesis 11:10 and 11:26. That silence is itself a revelation. God is the God who works through ordinary time. Babel had divine speech and dramatic judgment; the genealogy has only births, ages and more births. Yet the reader knows from Genesis 9:26 that the LORD is 'the God of Shem,' and from Genesis 12:1 that He has been steering the line all along. God's providence does not need to announce itself to be at work.\n\nHe is faithful across generations. The promise of a seed was spoken in Genesis 3:15 and carried through Seth, Noah and Shem. Here God keeps it through nine lives, many of them spanning centuries, without any record of a word from heaven. Moses later describes Him as 'the faithful God who keeps His covenant of loving devotion for a thousand generations,' Deuteronomy 7:9. Genesis 11 is a small picture of that thousand-generation faithfulness.\n\nHe is patient. The line from Shem to Abram, however it is counted, covers centuries. God does not hurry. 'With the Lord a day is like a thousand years, and a thousand years are like a day,' 2 Peter 3:8. The God who called Abram was not late; He had been preparing the family for generations.\n\nHe is sovereign over life and death. The ages fall steadily, and the limit set in Genesis 6:3 begins to be felt. God rules the span of each life and the timing of each birth. Paul says He 'determined their appointed times and the boundaries of their lands,' Acts 17:26. The ages in this list are not random; they belong to a God who numbers days.\n\nHe is gracious in His choosing. The line He follows is not especially righteous. Terah, the last of it, 'worshiped other gods,' Joshua 24:2. God does not choose Shem's line because it deserved to carry the promise. He chooses it and then makes it a blessing. The same grace will be seen in Abram, a man called out of idolatry, and in Jacob, chosen over Esau before either had done good or evil, Romans 9:11.\n\nHe is the God of the whole human family. The list follows one line, but its formula keeps reminding the reader of 'other sons and daughters.' God is working through one family for the sake of all the families, and the genealogy of Genesis 10 remains in view. His choosing of one is never a rejection of the rest but the means of reaching them.\n\nFor worship, the passage gives a reason to trust God in the long, unremarkable stretches of life. Most of the people in this list are known to us only by a name and two numbers. Yet each was part of God's plan to bring blessing to the world. Believers whose lives feel equally ordinary can praise the God who does His greatest work through faithful, unnoticed generations.",
     "crossReferences": [
-      { "ref": "Genesis 12:1-3", "note": "The genealogy ends on Abram; the next verses record God's call and promise to bless all nations through him." },
-      { "ref": "Luke 3:34-36", "note": "Jesus' genealogy runs back through Terah, Nahor, Serug, Reu, Peleg, Eber, Shelah, Arphaxad, and Shem." },
-      { "ref": "Joshua 24:2", "note": "Terah's family served other gods beyond the River before God graciously called Abram out." },
-      { "ref": "1 Chronicles 1:24-27", "note": "The same line from Shem to Abram is preserved as part of Israel's foundational record." }
+      {
+        "ref": "Genesis 5:3-32",
+        "note": "The pre-flood genealogy from Adam to Noah uses the same formula and also runs ten names to a father of three sons. Setting the two side by side shows the steady fall in ages and the absence of the refrain 'and then he died' in Genesis 11, and it marks Abram as the start of a new era, as Noah was."
+      },
+      {
+        "ref": "Genesis 9:26",
+        "note": "Noah declares, 'Blessed be the LORD, the God of Shem!' This is the first time God is identified as the God of one man. The genealogy of Shem is the outworking of that blessing, following the line in which the LORD has chosen to be known."
+      },
+      {
+        "ref": "Genesis 10:21-31",
+        "note": "The first list of Shem's descendants follows Eber's son Joktan and his thirteen sons. Genesis 11 goes back to follow the other son, Peleg. The two lists together show Genesis dealing with the side branch first and then following the chosen line to Abram."
+      },
+      {
+        "ref": "Genesis 10:25",
+        "note": "Peleg is named 'because in his days the earth was divided.' Placed in the chosen line in Genesis 11:16-19, his name carries the memory of Babel's scattering into the family through whom the scattered nations will be blessed. His generation is also where the ages fall most sharply."
+      },
+      {
+        "ref": "Joshua 24:2-3",
+        "note": "Joshua reminds Israel that Terah 'lived beyond the Euphrates and worshiped other gods,' and that God 'took your father Abraham from beyond the Euphrates.' The genealogy ends with a family of idolaters, which shows that the line of promise was sustained by grace rather than by the family's own faithfulness."
+      },
+      {
+        "ref": "1 Chronicles 1:24-27",
+        "note": "The Chronicler compresses the whole list into a single sentence, 'So from Shem came Arphaxad, Shelah, Eber, Peleg, Reu, Serug, Nahor, Terah, and Abram.' For a people back from exile in Babylon, the land of Shinar, this reaffirmed that they still stood in the line God had chosen after Babel."
+      },
+      {
+        "ref": "Luke 3:34-36",
+        "note": "Luke traces Jesus back through Terah, Nahor, Serug, Reu, Peleg, Eber, Shelah, Cainan, Arphaxad and Shem. He follows the Greek tradition that includes Cainan, as the BSB footnote on Genesis 11:13 notes. The names of this chapter are the human ancestry of the Son of God."
+      },
+      {
+        "ref": "Matthew 1:17",
+        "note": "Matthew arranges Jesus' ancestry in three groups of fourteen generations, omitting some names to do so. His method illustrates how biblical genealogies can be structured and selective, which bears on how the ten generations of Genesis 11 should be read."
+      },
+      {
+        "ref": "Acts 17:26",
+        "note": "Paul tells the Athenians, 'From one man He made every nation of men,' and that God 'determined their appointed times.' The genealogies of Genesis 10 and 11 stand behind this claim: all peoples share one descent, and God rules the times of every generation."
+      },
+      {
+        "ref": "Galatians 3:16",
+        "note": "Paul says the promises were spoken 'to Abraham and to his seed,' meaning one, Christ. The narrowing that runs from Shem through Eber and Peleg to Terah and Abram continues until it rests on a single descendant, in whom the blessing then widens to all nations."
+      },
+      {
+        "ref": "Deuteronomy 7:9",
+        "note": "Moses calls the LORD 'the faithful God who keeps His covenant of loving devotion for a thousand generations.' The genealogy of Shem is a concrete case of that faithfulness, carrying the promise through nine generations in which God's voice is not once recorded."
+      }
     ],
-    "oneStory": "When the nations scatter at Babel, the story could have ended in confusion. Instead God narrows the focus to one family and follows it, name by name, from Shem to Abram. This genealogy is the hidden hinge between the judgment of Babel and the promise to Abram, the thread of grace that God will draw all the way to Jesus, through whom the scattered nations are finally blessed and gathered.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "The Bible's story began with God blessing humanity and telling them to be fruitful and multiply, Genesis 1:28. Genealogies are that command being carried out, name after name. But the fall brought death into every line, and Genesis 5 tolled it for each generation before the flood. Genesis 11 is the first genealogy after the flood, the new humanity descended from Noah multiplying again as God told them to, Genesis 9:1.\n\nIt answers from before the question Babel leaves hanging. The nations have been scattered under judgment, their languages confused. Will God abandon them? The answer is a genealogy. God does not start again with a new race or a second flood. He follows one line out of the scattered world, the line of Shem, of whom it was said 'Blessed be the LORD, the God of Shem,' Genesis 9:26. The promise of a seed from Genesis 3:15 is still alive, and the list shows where it is.\n\nIt sets up what follows. The list lands on Terah and his three sons, and in the next verses God speaks to Abram. From here the Bible narrows its focus sharply. Abram, then Isaac rather than Ishmael, Jacob rather than Esau, Judah among his brothers, David among Jesse's sons. Each narrowing is for the sake of the whole world, as God tells Abram that 'all the families of the earth will be blessed through you,' Genesis 12:3.\n\nThe line ends in Christ. Luke's genealogy runs back through this very list, Luke 3:34-36, and Matthew calls Jesus 'the son of Abraham,' Matthew 1:1. He is the single seed in whom the promise comes to rest. In Him the narrowing turns into a widening. Those from every nation who belong to Him become Abraham's seed and heirs, Galatians 3:29. The genealogy that once traced one family now opens into a family no one can number.\n\nThe story ends in a new creation where genealogies of death are finished. The refrain Genesis 11 left out is abolished, for 'There will be no more death,' Revelation 21:4. A multitude 'from every nation and tribe and people and tongue,' Revelation 7:9, stands before the throne, the scattered descendants of Shem, Ham and Japheth gathered as one family. The patient line of names in Genesis 11 was a promise that this family would one day be complete.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "Why does the Bible include this list of names right after Babel?",
       "options": [
-        { "text": "To narrow the story to the one family through whom God will bless the nations.", "weight": 100, "note": "The genealogy bridges scattered Babel and the call of Abram." },
-        { "text": "To prove exactly how many years have passed since creation.", "weight": 25, "note": "Some read it for chronology, but its main purpose is the promise, not a calendar." },
-        { "text": "To fill space with names before the next story.", "weight": 0, "note": "The list is purposeful, tracing the covenant line to Abram." },
-        { "text": "To record Israel's family history for later generations.", "weight": 75, "note": "True in part, but the deeper aim is to point toward the promised line." }
+        {
+          "text": "To narrow the story to the one family through whom God will bless the nations.",
+          "weight": 100,
+          "note": "The genealogy bridges scattered Babel and the call of Abram."
+        },
+        {
+          "text": "To prove exactly how many years have passed since creation.",
+          "weight": 25,
+          "note": "Some read it for chronology, but its main purpose is the promise, not a calendar."
+        },
+        {
+          "text": "To fill space with names before the next story.",
+          "weight": 0,
+          "note": "The list is purposeful, tracing the covenant line to Abram."
+        },
+        {
+          "text": "To record Israel's family history for later generations.",
+          "weight": 75,
+          "note": "True in part, but the deeper aim is to point toward the promised line."
+        }
       ]
     },
     {
       "q": "On whose name does this genealogy end?",
       "options": [
-        { "text": "Abram, whom God is about to call.", "weight": 100, "note": "The list lands on Abram, setting up the turning point of chapter twelve." },
-        { "text": "Noah, the father of the line.", "weight": 25, "note": "The line begins from Shem, Noah's son, but it ends on Abram." },
-        { "text": "Terah alone, with no sons named.", "weight": 0, "note": "Terah's sons are named, and the focus falls on Abram." },
-        { "text": "Nahor, Abram's brother.", "weight": 75, "note": "Nahor is named, but the spotlight rests on Abram." }
+        {
+          "text": "Abram, whom God is about to call.",
+          "weight": 100,
+          "note": "The list lands on Abram, setting up the turning point of chapter twelve."
+        },
+        {
+          "text": "Noah, the father of the line.",
+          "weight": 25,
+          "note": "The line begins from Shem, Noah's son, but it ends on Abram."
+        },
+        {
+          "text": "Terah alone, with no sons named.",
+          "weight": 0,
+          "note": "Terah's sons are named, and the focus falls on Abram."
+        },
+        {
+          "text": "Nahor, Abram's brother.",
+          "weight": 75,
+          "note": "Nahor is named, but the spotlight rests on Abram."
+        }
       ]
     },
     {
       "q": "How does this genealogy connect to Jesus?",
       "options": [
-        { "text": "It is part of Jesus' family tree, traced by name in Luke 3.", "weight": 100, "note": "Luke runs Jesus' line back through these very names." },
-        { "text": "It has no link to Jesus at all.", "weight": 0, "note": "These names appear directly in the genealogy of Christ." },
-        { "text": "It lists people who all personally knew Jesus.", "weight": 25, "note": "They lived long before Jesus; the link is ancestry, not acquaintance." },
-        { "text": "It shows the line God preserved on the way to Christ.", "weight": 75, "note": "True and central, though the sharpest point is that Luke names these very people." }
+        {
+          "text": "It is part of Jesus' family tree, traced by name in Luke 3.",
+          "weight": 100,
+          "note": "Luke runs Jesus' line back through these very names."
+        },
+        {
+          "text": "It has no link to Jesus at all.",
+          "weight": 0,
+          "note": "These names appear directly in the genealogy of Christ."
+        },
+        {
+          "text": "It lists people who all personally knew Jesus.",
+          "weight": 25,
+          "note": "They lived long before Jesus; the link is ancestry, not acquaintance."
+        },
+        {
+          "text": "It shows the line God preserved on the way to Christ.",
+          "weight": 75,
+          "note": "True and central, though the sharpest point is that Luke names these very people."
+        }
       ]
     },
     {
       "q": "What does the passage reveal about how God works?",
       "options": [
-        { "text": "He works patiently across generations through ordinary families.", "weight": 100, "note": "God keeps His promise over long, quiet stretches of time." },
-        { "text": "He only acts through dramatic, public miracles.", "weight": 0, "note": "Here He works quietly through births and deaths, not spectacle." },
-        { "text": "He abandoned the world after Babel.", "weight": 25, "note": "The opposite; He preserves a line to bless the world." },
-        { "text": "He carries His purpose steadily toward the promised seed.", "weight": 75, "note": "True and close to the heart of it, alongside His patient use of ordinary people." }
+        {
+          "text": "He works patiently across generations through ordinary families.",
+          "weight": 100,
+          "note": "God keeps His promise over long, quiet stretches of time."
+        },
+        {
+          "text": "He only acts through dramatic, public miracles.",
+          "weight": 0,
+          "note": "Here He works quietly through births and deaths, not spectacle."
+        },
+        {
+          "text": "He abandoned the world after Babel.",
+          "weight": 25,
+          "note": "The opposite; He preserves a line to bless the world."
+        },
+        {
+          "text": "He carries His purpose steadily toward the promised seed.",
+          "weight": 75,
+          "note": "True and close to the heart of it, alongside His patient use of ordinary people."
+        }
       ]
     }
   ],
@@ -144,8 +380,17 @@
     "Terah's family once served other gods before God called them out. What in your family story has God been graciously redirecting toward Himself?"
   ],
   "translationNotes": [
-    { "ref": "Genesis 11:12-13", "note": "The Greek Old Testament, followed by Luke 3:35-36, inserts an extra generation, Cainan, between Arphaxad and Shelah, and gives longer lifespans; the differences show that these genealogies were transmitted in more than one form." },
-    { "ref": "Genesis 11:10", "note": "The heading this is the account of Shem uses the toledot formula that structures the whole of Genesis, marking a new and deliberate section rather than a mere list." }
+    {
+      "ref": "Genesis 11:12-13",
+      "note": "The Greek Old Testament, followed by Luke 3:35-36, inserts an extra generation, Cainan, between Arphaxad and Shelah, and gives longer lifespans; the differences show that these genealogies were transmitted in more than one form."
+    },
+    {
+      "ref": "Genesis 11:10",
+      "note": "The heading this is the account of Shem uses the toledot formula that structures the whole of Genesis, marking a new and deliberate section rather than a mere list."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "" }
+  "meta": {
+    "textToVerify": [],
+    "notes": ""
+  }
 }

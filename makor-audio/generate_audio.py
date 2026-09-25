@@ -20,9 +20,13 @@ Output layout, under --outdir (default public/studies/<book>/<slug>/audio):
     am_michael/...  bf_emma/...  bm_george/...
     manifest.json   (study meta, audioBase, and every voice's tracks)
 
-Pronunciation: put fixes in pronounce.json next to this script, e.g.
-    { "Elohim": "Eloheem", "toledot": "toh-leh-DOTE" }
-They are applied to the spoken text only, never to the on-screen study.
+Pronunciation: names/lexicon.json holds the exact spoken form of every Hebrew,
+Aramaic and Greek name or transliteration Kokoro would otherwise misread, as
+misaki phonemes for US and for UK voices. Each occurrence is wrapped in misaki's
+inline markup, [Zerubbabel](/zəɹˈʌbəbᵊl/), so the voice says exactly that.
+names/README.md explains how the lexicon is harvested, reviewed and rebuilt.
+pronounce.json remains for plain respellings of anything else. Both are applied
+to the spoken text only, never to the on-screen study.
 
 Design note: studies are permanent, static artifacts. Generate ONCE at build
 time, upload to R2, and serve static. Never synthesise on a page view.
@@ -45,6 +49,7 @@ import json
 import re
 import subprocess
 import sys
+import unicodedata
 import urllib.request
 import wave
 from pathlib import Path
@@ -64,7 +69,7 @@ VOICES = {
 DEFAULT_VOICE = "am_michael"
 # Bump this whenever the spoken content changes, so the uploader knows to redo
 # studies whose audio was made by an older build (while staying resumable).
-BUILD_ID = "v2-fullstudy"
+BUILD_ID = "v3-names"
 
 # ---------------------------------------------------------------------------
 # Text assembly (verified by --dry-run; no model needed)
@@ -89,7 +94,73 @@ def clean(text: str) -> str:
     text = LEX_TOKEN.sub(r"\1", text or "")
     for a, b in QUOTES.items():
         text = text.replace(a, b)
+    # Transliterations carry macrons and accents (parrēsia, diathēkē); speak the
+    # plain letters so each is read, and matched in the names lexicon, whole.
+    text = "".join(c for c in unicodedata.normalize("NFKD", text) if not unicodedata.combining(c))
     return re.sub(r"\s+", " ", text).strip()
+
+
+NAMES_PATH = Path(__file__).resolve().parent / "names" / "lexicon.json"
+_NAMES_CACHE: dict = {}
+
+
+def load_names() -> dict:
+    """names/lexicon.json -> {word: {"us": phonemes, "gb": phonemes, ...}}."""
+    if "data" not in _NAMES_CACHE:
+        data = {}
+        if NAMES_PATH.exists():
+            try:
+                data = json.loads(NAMES_PATH.read_text(encoding="utf-8")).get("entries", {})
+            except Exception as e:
+                print(f"  warning: could not read names/lexicon.json ({e}); ignoring it")
+        exact = {w: e for w, e in data.items() if e.get("case") != "any"}
+        anycase = {w.lower(): e for w, e in data.items() if e.get("case") == "any"}
+        words = sorted(set(exact) | set(anycase), key=len, reverse=True)
+        pattern = None
+        if words:
+            alt = "|".join(re.escape(w) for w in words)
+            # A word, never inside another word or an existing [..](/..) markup,
+            # with an optional possessive.
+            pattern = re.compile(rf"(?<![\w\[/])({alt})(['’]s)?(?![\w\]])", re.IGNORECASE)
+        _NAMES_CACHE["data"] = (exact, anycase, pattern)
+    return _NAMES_CACHE["data"]
+
+
+_VOICELESS = set("ptkfθ")
+_SIBILANT = set("szʃʒʧʤ")
+
+
+def _possessive(ps: str) -> str:
+    last = ps.rstrip("ˈˌː")[-1:] if ps else ""
+    if last in _SIBILANT:
+        return ps + "ᵻz"
+    return ps + ("s" if last in _VOICELESS else "z")
+
+
+def mark_names(text: str, voice: str) -> str:
+    """Wrap every lexicon word in misaki phoneme markup for this voice's accent.
+    US voices (a*) take the "us" form, UK voices (b*) the "gb" form."""
+    exact, anycase, pattern = load_names()
+    if not pattern:
+        return text
+    accent = "gb" if voice.startswith("b") else "us"
+
+    def sub(m):
+        word, poss = m.group(1), m.group(2)
+        e = exact.get(word) or anycase.get(word.lower())
+        if not e or not e.get(accent):
+            return m.group(0)
+        for phrase in e.get("avoid", []):
+            # Leave the word alone where it is ordinary English ("earthly plane").
+            i = phrase.lower().find(word.lower())
+            start = m.start() - i
+            if i >= 0 and start >= 0 and text[start:start + len(phrase)].lower() == phrase.lower():
+                return m.group(0)
+        ps = e[accent]
+        if poss:
+            ps = _possessive(ps)
+        return f"[{m.group(0)}](/{ps}/)"
+    return pattern.sub(sub, text)
 
 
 def apply_pronounce(text: str, overrides: dict) -> str:
@@ -290,13 +361,22 @@ def download_if_missing(url: str, dest: Path):
 
 
 def make_engine():
-    """Return create(text, voice) -> float32 samples, loading the model once."""
+    """Return create(text, voice) -> float32 samples, loading the model once.
+
+    Prefers the torch Kokoro build, which honours the names lexicon markup.
+    kokoro-onnx is only a fallback and reads names without the lexicon."""
+    try:
+        from kokoro import KPipeline  # noqa: F401
+        return make_torch_engine()
+    except ImportError:
+        pass
     try:
         from kokoro_onnx import Kokoro
     except ImportError:
         Kokoro = None
 
     if Kokoro is not None:
+        print("  warning: kokoro-onnx cannot apply names/lexicon.json; install the torch build (pip install kokoro)")
         models_dir = Path(__file__).resolve().parent / "models"
         model_path = models_dir / "kokoro-v1.0.onnx"
         voices_path = models_dir / "voices-v1.0.bin"
@@ -310,23 +390,36 @@ def make_engine():
             return samples
         return create
 
-    # Fallback: torch-based kokoro (one pipeline per language)
-    try:
-        from kokoro import KPipeline
-    except ImportError:
-        sys.exit(
-            "No Kokoro backend found. Install the ONNX build:\n"
-            "    pip install kokoro-onnx soundfile\n"
-        )
+    sys.exit(
+        "No Kokoro backend found. Install the torch build:\n"
+        "    pip install kokoro soundfile\n"
+    )
+
+
+def make_torch_engine(device: str | None = None):
+    """Torch Kokoro: one model shared by the US and UK pipelines, names marked
+    up per voice. Used by this script and by gpu_run.py."""
     import numpy as np
+    from kokoro import KModel, KPipeline
+    if device is None:
+        try:
+            import torch
+            device = "cuda" if torch.cuda.is_available() else "cpu"
+        except ImportError:
+            device = "cpu"
+    model = KModel().to(device).eval()
     pipes: dict[str, object] = {}
 
     def create(text: str, voice: str):
-        code = voice[0]
+        code = voice[0]  # 'a' US, 'b' UK
         if code not in pipes:
-            pipes[code] = KPipeline(lang_code=code)
-        chunks = [audio for _gs, _ps, audio in pipes[code](text, voice=voice, speed=1.0)]
-        return np.concatenate(chunks)
+            pipes[code] = KPipeline(lang_code=code, model=model)
+        chunks = []
+        for _gs, _ps, audio in pipes[code](mark_names(text, voice), voice=voice, speed=1.0):
+            a = audio.detach().cpu().numpy() if hasattr(audio, "detach") else np.asarray(audio)
+            chunks.append(a.astype("float32"))
+        return np.concatenate(chunks) if chunks else np.zeros(1, dtype="float32")
+    create.device = device
     return create
 
 
@@ -363,8 +456,9 @@ def main():
 
     if args.dry_run:
         for s in segments:
+            spoken = mark_names(s["text"], voices[0])
             print(f"[{s['id']}]  ({s['kind']}, {len(s['text'].split())} words)  {s['label']}")
-            print(f"    {s['text'][:280]}{'...' if len(s['text'])>280 else ''}\n")
+            print(f"    {spoken[:280]}{'...' if len(spoken)>280 else ''}\n")
         print("Dry run only. Re-run without --dry-run to synthesise audio.")
         return
 

@@ -1,0 +1,25 @@
+{
+ "about": "Hand edits applied on top of names/reviewed by names/build.py. An entry here replaces the reviewed one (or adds a word); \"drop\": true removes it. \"avoid\" lists phrases in which the word is ordinary English and must be left alone.",
+ "entries": {
+  "plane": {
+   "avoid": [
+    "earthly plane"
+   ]
+  },
+  "mare": {
+   "avoid": [
+    "a mare"
+   ]
+  },
+  "Hebrary": {
+   "drop": true
+  },
+  "arum": {
+   "us": "ɑɹˈum",
+   "gb": "ɑːɹˈuːm",
+   "say": "ah-ROOM",
+   "lang": "Hebrew",
+   "case": "exact"
+  }
+ }
+}

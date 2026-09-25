@@ -18,14 +18,46 @@
         "note": "Abraham's hospitality",
         "emphasis": "",
         "verses": [
-          { "chapter": 18, "n": 1, "text": "Then the LORD {{appeared|appeared}} to Abraham by the Oaks of Mamre in the heat of the day, while he was sitting at the entrance of his tent." },
-          { "chapter": 18, "n": 2, "text": "And Abraham looked up and saw three men standing nearby. When he saw them, he ran from the entrance of his tent to meet them and bowed low to the ground." },
-          { "chapter": 18, "n": 3, "text": "“My lord,” said Abraham, “if I have found favor in your sight, please do not pass your servant by." },
-          { "chapter": 18, "n": 4, "text": "Let a little water be brought, that you may wash your feet and rest yourselves under the tree." },
-          { "chapter": 18, "n": 5, "text": "And I will bring a bit of bread so that you may refresh yourselves. This is why you have passed your servant’s way. After that, you may continue on your way.” “Yes,” they replied, “you may do as you have said.”" },
-          { "chapter": 18, "n": 6, "text": "So Abraham hurried into the tent and said to Sarah, “Quick! Prepare three seahs of fine flour, knead it, and bake some bread.”" },
-          { "chapter": 18, "n": 7, "text": "Meanwhile, Abraham ran to the herd, selected a tender and choice calf, and gave it to a servant, who hurried to prepare it." },
-          { "chapter": 18, "n": 8, "text": "Then Abraham brought curds and milk and the calf that had been prepared, and he set them before the men and stood by them under the tree as they ate." }
+          {
+            "chapter": 18,
+            "n": 1,
+            "text": "Then the LORD {{appeared|appeared}} to Abraham by the Oaks of Mamre in the heat of the day, while he was sitting at the entrance of his tent."
+          },
+          {
+            "chapter": 18,
+            "n": 2,
+            "text": "And Abraham looked up and saw three men standing nearby. When he saw them, he ran from the entrance of his tent to meet them and bowed low to the ground."
+          },
+          {
+            "chapter": 18,
+            "n": 3,
+            "text": "“My lord,” said Abraham, “if I have found favor in your sight, please do not pass your servant by."
+          },
+          {
+            "chapter": 18,
+            "n": 4,
+            "text": "Let a little water be brought, that you may wash your feet and rest yourselves under the tree."
+          },
+          {
+            "chapter": 18,
+            "n": 5,
+            "text": "And I will bring a bit of bread so that you may refresh yourselves. This is why you have passed your servant’s way. After that, you may continue on your way.” “Yes,” they replied, “you may do as you have said.”"
+          },
+          {
+            "chapter": 18,
+            "n": 6,
+            "text": "So Abraham hurried into the tent and said to Sarah, “Quick! Prepare three seahs of fine flour, knead it, and bake some bread.”"
+          },
+          {
+            "chapter": 18,
+            "n": 7,
+            "text": "Meanwhile, Abraham ran to the herd, selected a tender and choice calf, and gave it to a servant, who hurried to prepare it."
+          },
+          {
+            "chapter": 18,
+            "n": 8,
+            "text": "Then Abraham brought curds and milk and the calf that had been prepared, and he set them before the men and stood by them under the tree as they ate."
+          }
         ]
       },
       {
@@ -33,21 +65,64 @@
         "note": "is anything too difficult for the LORD",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 18, "n": 9, "text": "“Where is your wife Sarah?” they asked. “There, in the tent,” he replied." },
-          { "chapter": 18, "n": 10, "text": "Then the LORD said, “I will surely return to you at this time next year, and your wife Sarah will have a son!” Now Sarah was behind him, listening at the entrance to the tent." },
-          { "chapter": 18, "n": 11, "text": "And Abraham and Sarah were already old and well along in years; Sarah had passed the age of childbearing." },
-          { "chapter": 18, "n": 12, "text": "So she {{laughed|laughed}} to herself, saying, “After I am worn out and my master is old, will I now have this pleasure?”" },
-          { "chapter": 18, "n": 13, "text": "And the LORD asked Abraham, “Why did Sarah laugh and say, ‘Can I really bear a child when I am old?’" },
-          { "chapter": 18, "n": 14, "text": "Is anything {{pala|too difficult}} for the LORD? At the appointed time I will return to you, in about a year, and Sarah will have a son.”" },
-          { "chapter": 18, "n": 15, "text": "But Sarah was afraid, so she denied it and said, “I did not laugh.” “No,” replied the LORD, “but you did laugh.”" }
+          {
+            "chapter": 18,
+            "n": 9,
+            "text": "“Where is your wife Sarah?” they asked. “There, in the tent,” he replied."
+          },
+          {
+            "chapter": 18,
+            "n": 10,
+            "text": "Then the LORD said, “I will surely return to you at this time next year, and your wife Sarah will have a son!” Now Sarah was behind him, listening at the entrance to the tent."
+          },
+          {
+            "chapter": 18,
+            "n": 11,
+            "text": "And Abraham and Sarah were already old and well along in years; Sarah had passed the age of childbearing."
+          },
+          {
+            "chapter": 18,
+            "n": 12,
+            "text": "So she {{laughed|laughed}} to herself, saying, “After I am worn out and my master is old, will I now have this pleasure?”"
+          },
+          {
+            "chapter": 18,
+            "n": 13,
+            "text": "And the LORD asked Abraham, “Why did Sarah laugh and say, ‘Can I really bear a child when I am old?’"
+          },
+          {
+            "chapter": 18,
+            "n": 14,
+            "text": "Is anything {{pala|too difficult}} for the LORD? At the appointed time I will return to you, in about a year, and Sarah will have a son.”"
+          },
+          {
+            "chapter": 18,
+            "n": 15,
+            "text": "But Sarah was afraid, so she denied it and said, “I did not laugh.” “No,” replied the LORD, “but you did laugh.”"
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "appeared": { "language": "Hebrew", "lemma": "raah", "original": "ראה", "gloss": "To see, to appear, to be seen. The narrator says plainly that the LORD appeared to Abraham, and it becomes clear that one of the three travelers is the LORD Himself. God draws near in visible, approachable form, a foreshadowing of the God who would come in flesh." },
-    "laughed": { "language": "Hebrew", "lemma": "tsachaq", "original": "צחק", "gloss": "To laugh, to mock, to jest. The same root gives the name Isaac, he laughs. Sarah's laughter here is doubt tinged with despair; the same word will later mark joy at the child's birth, turning skeptical laughter into worshipful delight." },
-    "pala": { "language": "Hebrew", "lemma": "pala", "original": "פלא", "gloss": "To be extraordinary, wonderful, or beyond one's power, too hard to do. God's question, is anything too pala for the LORD, is the theological center of the whole Abraham cycle: nothing lies beyond His power, not even life from a dead womb." }
+    "appeared": {
+      "language": "Hebrew",
+      "lemma": "raah",
+      "original": "ראה",
+      "gloss": "To see, to appear, to be seen. The narrator says plainly that the LORD appeared to Abraham, and it becomes clear that one of the three travelers is the LORD Himself. God draws near in visible, approachable form, a foreshadowing of the God who would come in flesh."
+    },
+    "laughed": {
+      "language": "Hebrew",
+      "lemma": "tsachaq",
+      "original": "צחק",
+      "gloss": "To laugh, to mock, to jest. The same root gives the name Isaac, he laughs. Sarah's laughter here is doubt tinged with despair; the same word will later mark joy at the child's birth, turning skeptical laughter into worshipful delight."
+    },
+    "pala": {
+      "language": "Hebrew",
+      "lemma": "pala",
+      "original": "פלא",
+      "gloss": "To be extraordinary, wonderful, or beyond one's power, too hard to do. God's question, is anything too pala for the LORD, is the theological center of the whole Abraham cycle: nothing lies beyond His power, not even life from a dead womb."
+    }
   },
   "study": {
     "basic": {
@@ -61,85 +136,248 @@
       "oneStory": "This visit fixes the date for the son of promise and answers doubt with the power of God. The impossible birth is a small picture of the greater impossibility God will overcome, raising Christ from the dead so that a people can be born who could never have been born by human strength."
     },
     "context": {
-      "literary": "The scene is rich with verbs of haste, ran, hurried, quick, showing Abraham's eager welcome, then slows to the quiet drama of a promise overheard and a laugh concealed. It opens the larger unit of chapter 18, setting the stage for Abraham's intercession that follows.",
-      "historical": "Hospitality to travelers was a sacred duty in the ancient Near East, especially in the desert heat where refusing shelter could be deadly. Abraham's generous meal, choice calf, fresh bread, curds, and milk, far exceeds his modest offer of a bit of bread and reflects honor toward his guests.",
-      "canonical": "The promise of a son at the appointed time is quoted in Romans 9 to establish that God's children are those born of promise. Hebrews 11 names Sarah's faith, and Hebrews 13 alludes to this scene in urging believers to show hospitality to strangers."
+      "literary": "The narrator opens by telling the reader something Abraham does not yet know. Verse 1 says \"the LORD appeared,\" but Abraham in verse 2 only \"looked up and saw three men.\" The reader watches the whole meal knowing who the guest is, while Abraham discovers it by degrees. That gap between what the reader knows and what the character sees gives the scene its quiet tension.\n\nThe passage falls into two halves of almost equal length. Verses 1 to 8 are all motion. Abraham \"ran,\" verse 2, \"hurried,\" verse 6, says \"Quick!\" to Sarah, \"ran\" again to the herd, verse 7, and a servant \"hurried\" to prepare the calf. A man of ninety-nine at the hottest hour of the day moves like a young servant. Then everything stops. In verse 8 Abraham \"stood by them under the tree as they ate,\" and from verse 9 the scene becomes a conversation in which the only movement is a laugh behind a tent flap.\n\nThe two halves turn on a reversal. In verse 2 the three are standing near Abraham, literally standing over him, while he sits. In verse 8 Abraham stands over them while they sit and eat. The host has become the servant of his guests, and then, in the second half, the guest becomes the host of a promise.\n\nSpeech is carefully managed. Abraham offers \"a little water\" and \"a bit of bread,\" verses 4 and 5, then delivers a feast: the understatement is part of courtesy. The visitors speak as a group in verse 9, \"they asked,\" but in verse 10 one speaker is named \"the LORD,\" and from there He alone speaks. Sarah's inner words in verse 12 are reported, then quoted back by the LORD in verse 13 in altered form, and the scene ends on a brief exchange of denial and correction, verse 15.\n\nThe scene looks back to Genesis 17, where the same promise was made and Abraham laughed, and forward to Genesis 21:1-7, where the promise is kept and Sarah laughs again, this time in joy. It also opens the larger unit of chapters 18 and 19: the same visitors who eat under Abraham's tree in the heat of the day will arrive at Lot's gate in the evening, Genesis 19:1, and the contrast between the two households drives the next two chapters.",
+      "historical": "Mamre lay near Hebron in the hill country of Judah, where Abram had settled and built an altar, Genesis 13:18. The BSB footnote notes that \"Oaks\" may also be rendered terebinths or great trees. Large trees often marked places of worship and meeting in the patriarchal stories, and this one becomes the shade under which God is entertained.\n\n\"The heat of the day\" is the early afternoon, when travel normally stopped and people rested in whatever shade they had. Three men on foot at that hour were exposed, and in the ancient Near East, especially in dry country, hospitality to strangers was a sacred obligation, not an optional kindness. Job later protests his innocence by saying \"no stranger had to lodge on the street,\" Job 31:32. A host was expected to offer water, food and rest, and to protect his guests while they were under his roof.\n\nThe quantity of the meal is extravagant. The BSB footnote estimates three seahs at about 22 liters of flour, far more bread than three men could eat. A tender calf was a rare luxury for a herding family, whose wealth lived on the hoof; meat was reserved for special occasions. Curds and milk were the everyday produce of the flocks. Abraham brings the best of what a wealthy pastoral household had, and he serves it himself, standing, as a servant would.\n\nWashing a guest's feet was the first courtesy offered to a traveller on dusty roads, as Genesis 19:2 and 24:32 show. Jesus later rebukes a Pharisee who failed to give Him \"water for My feet,\" Luke 7:44.\n\nThe tent was the household's centre. Sarah stays inside, behind Abraham at the entrance, as would be expected when male strangers were being entertained. That is why the visitors' first question, \"Where is your wife Sarah?\" verse 9, is so startling. Strangers passing through would not know her name, and they had not been told it. For Israel's first hearers, a promise delivered this way, in their ancestor's own camp, over a meal they could picture, made the birth of Isaac feel close and concrete.",
+      "canonical": "This scene is the second announcement of Isaac's birth. Genesis 17:21 promised him \"at this time next year\"; here the same phrase fixes the date again, and Genesis 21:1-2 reports that \"the LORD attended to Sarah as He had said,\" and she bore a son \"at the very time God had promised.\" The sequence of promise, doubt, sign and fulfilment becomes the pattern for later birth announcements to barren women: Rebekah, Genesis 25:21, Rachel, Genesis 30:22, Samson's mother, Judges 13, Hannah, 1 Samuel 1:5, and the Shunammite woman. Elisha's words to her echo verse 10 closely: \"At this time next year, you will hold a son in your arms,\" 2 Kings 4:16, and like Sarah she protests before she conceives.\n\nThe LORD's question in verse 14 becomes a confession. Jeremiah prays, \"Nothing is too difficult for You!\" and God answers, \"Is anything too difficult for Me?\" Jeremiah 32:17 and 32:27. Zechariah 8:6 asks whether what seems impossible to the remnant should be impossible to the LORD.\n\nLuke's birth narratives are full of this chapter. Zechariah and Elizabeth are old, Luke 1:18, and he doubts like Sarah and is struck silent. Gabriel's word to Mary, \"For no word from God will ever fail,\" Luke 1:37, echoes the Greek wording of Genesis 18:14. Mary answers not with laughter but with \"May it happen to me according to your word,\" Luke 1:38. Jesus uses the same logic of the impossible when He says \"with God all things are possible,\" Mark 10:27.\n\nPaul quotes verse 14 in Romans 9:9 to define the children of promise. Hebrews 11:11 names Sarah among the faithful, Hebrews 13:2 recalls that some \"have entertained angels without knowing it,\" and 1 Peter 3:6 draws on verse 12, where Sarah speaks of Abraham as her master, or lord, to commend her as a model."
     },
     "hermeneutics": {
-      "authorIntent": "To show the LORD drawing near to confirm and date the promise of Isaac, and to press the central conviction that nothing is too hard for God, exposing and answering the doubt of the human heart.",
-      "descriptionVsPrescription": "Abraham's hospitality models a virtue the New Testament commends, but the passage's main thrust is descriptive of God's character and power. The abiding truth is that God keeps His word against every human impossibility.",
+      "authorIntent": "Moses tells this story so that Israel would know their existence as a people began with a miracle announced at a meal. The birth of Isaac was not a natural event that faith later decorated. It was dated in advance by the LORD, to a woman past the age of childbearing, in the hearing of the whole scene.\n\nHe also wants the reader to see how near God is willing to come. The same God who appeared as El-Shaddai in chapter 17 now sits in the shade, washes the dust from His feet and eats. Israel's God is not remote. He visits, He accepts hospitality, and He knows the names and the private thoughts of those He visits.\n\nThird, Moses wants his hearers to face the question of verse 14 as their own. Sarah's laugh is not presented as uniquely wicked; it is the natural response of anyone who measures God's promise by what bodies and years can do. Israel would stand in her place again and again, in Egypt, in the wilderness, in exile, and the answer would always be the same question: is anything too difficult for the LORD?\n\nFinally, the story gently exposes and corrects. Sarah denies she laughed, and the LORD says, \"but you did laugh.\" God's grace in this story does not ignore unbelief, but it does not revoke the promise because of it either.",
+      "descriptionVsPrescription": "Much of the scene is description. Abraham's specific menu, the three seahs, the curds and milk and calf, are not a pattern to be copied, and the appearance of the LORD in human form is a unique event, not a promise that believers should expect visitors to be God in disguise.\n\nSome things, though, the New Testament explicitly draws out as instruction. Hebrews 13:2 uses this scene and Lot's to urge believers, \"Do not neglect to show hospitality to strangers.\" Paul says \"practice hospitality,\" Romans 12:13, and Peter adds \"without complaining,\" 1 Peter 4:9. Jesus says that the one who welcomes a stranger welcomes Him, Matthew 25:35. Abraham's eager, costly, self-humbling welcome is therefore a genuine model.\n\nThe main lesson, however, is not hospitality but faith. The question of verse 14 is addressed to every reader, and the right response is the one Hebrews 11:11 credits to Sarah in the end, to consider Him faithful who had promised.",
       "debates": [
         {
           "question": "Who are the three visitors, and is one of them the LORD Himself?",
           "views": [
-            { "label": "The LORD with two angels", "case": "The narrator says the LORD appeared, one speaker is repeatedly called the LORD, and the two who go on to Sodom are called angels in chapter 19; so one visitor is a visible appearance of the LORD." },
-            { "label": "A pre-incarnate appearance of the Son", "case": "Many in the church have read the LORD who appears and eats as the eternal Son condescending to be seen, an anticipation of the incarnation, since no one has seen the Father." }
+            {
+              "label": "The LORD with two angels",
+              "case": "Verse 1 says the LORD appeared, one speaker is repeatedly called the LORD, verses 10, 13 and 14, and when the two others leave for Sodom Abraham still stands before the LORD, Genesis 18:22. Chapter 19:1 calls those two \"the two angels.\" So one visitor is a visible appearance of the LORD accompanied by two angels."
+            },
+            {
+              "label": "A pre-incarnate appearance of the Son",
+              "case": "Many in the church, including early writers such as Justin Martyr, read the LORD who appears, speaks and eats here as the eternal Son making Himself visible ahead of the incarnation. They appeal to John 1:18, that no one has ever seen God but the Son has made Him known, and to the way the angel of the LORD elsewhere speaks as God and is treated as God."
+            },
+            {
+              "label": "A picture of the Trinity",
+              "case": "Some church fathers and a long tradition of Christian art saw in three visitors addressed as one a hint of the triune God. The alternation between \"my lord\" in the singular, verse 3, and plural address, verses 4 and 5, was noticed as suggestive. Most interpreters today treat this as a devotional reflection rather than the meaning of the text, since the narrative itself distinguishes the LORD from the two who go on to Sodom."
+            }
           ],
-          "bearing": "Either reading affirms that God truly drew near in approachable form; the scene prepares us to recognize the God who would fully take flesh in Christ."
+          "bearing": "The text clearly presents one visitor as the LORD and the other two as angels, so the first reading is the plainest. Whether that appearance is specifically the Son is a theological inference, a reasonable one given John 1:18, rather than something Genesis states. What all readings affirm is that God truly came near in a form that could be welcomed, which prepares for the God who would fully take flesh."
+        },
+        {
+          "question": "Was Sarah's laughter worse than Abraham's in Genesis 17:17?",
+          "views": [
+            {
+              "label": "Sarah's laugh was unbelief, Abraham's was wonder",
+              "case": "God rebukes Sarah's laugh, verse 13, but not Abraham's in chapter 17. Paul says Abraham did not waver through disbelief when he considered his body and Sarah's womb, Romans 4:19-20, so some read his laugh as astonished joy. Jesus says \"Abraham rejoiced that he would see My day,\" John 8:56. Sarah's laugh, followed by a frightened denial, seems different."
+            },
+            {
+              "label": "Both laughed in the same incredulity",
+              "case": "Others note that Abraham's words in Genesis 17:17 are the same kind of question Sarah asks, \"Can a child be born to a man who is a hundred years old?\" and that he immediately asks for Ishmael instead, Genesis 17:18. The difference in God's response may simply be that Sarah is hearing the promise for the first time in the text, and that her denial adds a lie to her doubt."
+            }
+          ],
+          "bearing": "The text does not rank the two. It shows that both parents found the promise laughable by human measure, and that God answered both by naming the child Isaac. Hebrews 11:11 shows that Sarah's doubt was not the end of her story: she came to consider Him faithful who had promised, and in Genesis 21:6 her laughter becomes joy."
         }
       ]
     },
-    "originalLanguages": "The narrator opens by saying the LORD raah, appeared or was seen, to Abraham, and God comes in a form that can be met, seated, and fed. Sarah tsachaq, laughed, to herself, the very root that will name the promised son Isaac, he laughs. God's question fastens on the word pala, is anything too wonderful, too extraordinary, too hard for the LORD. The whole cycle turns on the answer: nothing.",
+    "originalLanguages": "When Abraham greets the visitors in verse 3, he says \"My lord,\" adonay, and speaks in the singular: \"if I have found favor in your sight, please do not pass your servant by.\" In verses 4 and 5 he shifts to the plural, \"wash your feet and rest yourselves.\" He seems to recognise one of the three as the leader. The Jewish scribal tradition that added vowels to the text marked the word in verse 3 with the form reserved for God, while the similar greeting in Genesis 19:2, \"My lords,\" is marked as an ordinary plural of respect. The tradition read Abraham as addressing the LORD from the start.\n\nIn verse 2 the three are \"standing nearby,\" nitsavim alayw, literally standing over him or by him, while he sits. In verse 8 Abraham \"stood by them,\" omed alehem, the same preposition, while they eat. The small repetition marks the reversal of host and guest.\n\nThe first question the visitors ask is \"Where is your wife Sarah?\" verse 9. The word ayyeh, where, recalls God's first question in Scripture, \"Where are you?\" Genesis 3:9, and His question to Cain, Genesis 4:9. God's questions in Genesis are never requests for information. They bring the hidden into the open, as this one does with Sarah.\n\nThe promise of verse 10 contains an unusual time phrase, ka'et chayyah, rendered \"at this time next year.\" It is literally something like \"at the time reviving\" or \"when the time lives again,\" referring to the turn of the year. The same phrase appears in Elisha's promise to the Shunammite woman, 2 Kings 4:16-17, one of the clearest echoes of this scene in the Old Testament. In verse 14 the LORD adds that He will return lammo'ed, \"at the appointed time,\" using the noun that later names Israel's \"appointed feasts,\" Leviticus 23:4. The birth of Isaac is fixed on God's calendar as firmly as a festival.\n\nSarah's inner words in verse 12 are vivid. \"After I am worn out\" uses balah, the verb for clothing that wears out, Deuteronomy 8:4. She pictures herself as an old garment. The \"pleasure\" she doubts is ednah, a word that sounds like Eden, the garden of delight. She laughs at the thought that delight could return to a worn-out body. When the LORD reports her words in verse 13, He quotes her doubt, \"Can I really bear a child when I am old?\" but does not repeat her remark that \"my master is old.\" Jewish interpreters long noticed this tactful change, which protects the marriage while confronting the unbelief.\n\nThe key question of verse 14 turns on pala, too difficult, and on davar, a word that means both word and thing. \"Is anything too difficult for the LORD?\" can also be heard as \"Is any word too wonderful for the LORD?\" The root pala names what is beyond human capacity: a case \"too difficult\" for local judges, Deuteronomy 17:8, knowledge \"too wonderful for me,\" Psalm 139:6, and the \"wonders\" God performs in Egypt, Exodus 3:20. The Greek Old Testament rendered the question with the word for impossible and the word rhema, word, and Luke 1:37 answers it with the same words to Mary: \"For no word from God will ever fail.\"\n\nFinally, Sarah's denial in verse 15 and the LORD's reply use the same verb: \"I did not laugh,\" lo tsachaqti, and \"but you did laugh,\" ki tsachaqt. The last word of the scene is the root of Isaac's name.",
     "typology": [
-      { "type": "The LORD appearing as a traveler who eats with Abraham", "fulfillment": "God taking flesh in Christ, who ate with sinners and was welcomed by faith, John 1:14." },
-      { "type": "A son promised to a dead womb at an appointed time", "fulfillment": "The God who gives life to the dead, Romans 4:17, and who acts at the fullness of time, Galatians 4:4." },
-      { "type": "Sarah's laughter turned from doubt to joy", "fulfillment": "The joy of salvation that turns mourning into laughter for God's people, Psalm 126:2." }
+      {
+        "type": "The LORD appearing as a traveller and eating with Abraham, Genesis 18:1-8",
+        "fulfillment": "God comes to Abraham in a form that can sit, rest and eat, received as a guest before He reveals Himself. In Christ this becomes permanent and real flesh: \"The Word became flesh and made His dwelling among us,\" John 1:14. Jesus eats with sinners, Luke 15:2, invites Himself to Zacchaeus' house, Luke 19:5-6, and is recognised by the Emmaus disciples as He breaks bread, Luke 24:30-31. The type falls short because the appearance at Mamre was temporary; the incarnation is God taking a human nature forever, not merely borrowing a form."
+      },
+      {
+        "type": "A son promised to a barren womb at an appointed time, Genesis 18:10-14",
+        "fulfillment": "Isaac is dated in advance and born to a woman past childbearing, so that his very existence testifies to God's power. The pattern climbs through Hannah and the Shunammite to Elizabeth, and reaches its summit in the virgin conception, where Gabriel answers Mary with the same assurance given to Sarah, Luke 1:35-37. God sent His Son \"when the time had fully come,\" Galatians 4:4. The escalation is that Sarah's womb was aged, but Mary's had never known a man; Isaac was a gift of life, while Jesus is life itself."
+      },
+      {
+        "type": "Sarah's laughter turned from doubt to joy, Genesis 18:12 and 21:6",
+        "fulfillment": "Sarah laughs in disbelief, then laughs in joy when the promise is kept, and says everyone who hears will laugh with her. Isaiah 54:1 calls the barren woman to \"shout for joy,\" and Paul applies that verse to the church, the children of the free woman, Galatians 4:27. Jesus promises, \"Blessed are you who weep now, for you will laugh,\" Luke 6:21. The type points to the joy of the gospel, where what seemed impossible, the dead raised and sinners made children of God, becomes the cause of laughter that never ends."
+      },
+      {
+        "type": "Abraham serving his guests, Genesis 18:6-8",
+        "fulfillment": "Abraham, the great patriarch, runs, fetches and stands by his guests as a servant while they eat. In Christ the roles turn around completely. The divine guest becomes the servant: Jesus pours water and washes His disciples' feet, John 13:5, and says the Son of Man came \"not to be served, but to serve,\" Matthew 20:28. He \"emptied Himself, taking the form of a servant,\" Philippians 2:7. Abraham serves God as a man; in Christ God serves humanity, and gives not a calf but His own life."
+      }
     ],
-    "christ": "The LORD who appears as a guest, is welcomed, and shares a meal foreshadows Jesus, the God who took flesh, was received by some and doubted by others, and ate with sinners. The promise of a son by God's power alone is cited by Paul, at the appointed time I will return and Sarah will have a son, to prove that the true children of God are children of promise, born not of the flesh but by God's word, Romans 9:8-9. The One who opens a dead womb is the One who raises the dead, supremely in the resurrection of Christ.",
-    "god": "God is at once near and mighty: near enough to rest under a tree and eat curds and milk, mighty enough to bring life from a womb long past childbearing at a time He alone appoints. He hears Sarah's private laugh and her frightened denial, and He neither flatters her doubt nor crushes her, but presses the question that reorders everything, is anything too difficult for the LORD.",
+    "christ": "The passage leads to Christ first by the pattern of God drawing near. The LORD appears at Mamre in a form that can walk into a camp, sit in the shade and eat. The New Testament presents the incarnation as the fulfilment of every such approach: God, who once spoke \"in many different ways,\" has now spoken \"by His Son,\" Hebrews 1:1-2. What was temporary at Mamre becomes permanent in Jesus, who \"made His dwelling among us,\" John 1:14. Many in the church have gone further and seen the Son Himself as the one who appeared to Abraham, because \"no one has ever seen God\" except as the Son makes Him known, John 1:18. Jesus Himself says Abraham \"saw\" His day and was glad, John 8:56.\n\nIt leads to Christ by the shape of the promise. A son is announced to parents who cannot produce one, at a time God appoints, with a question that shuts every door but God's. Luke deliberately tells the births of John and Jesus in this key. Zechariah and Elizabeth are old like Abraham and Sarah, and Zechariah's doubt is answered with silence, Luke 1:18-20. Mary hears the same assurance Sarah heard: \"no word from God will ever fail,\" Luke 1:37. But where Sarah laughed, Mary says, \"May it happen to me according to your word,\" Luke 1:38. The promise of Isaac is the pattern, and the birth of Jesus is its greater fulfilment.\n\nIt leads to Christ by the meal. Abraham welcomes a guest who turns out to be the LORD, and the guest turns out to be the giver. The Gospels are full of meals where Jesus is received as a guest and then gives far more than He receives. At Emmaus He is invited in as a stranger, and then \"He took bread, spoke a blessing and broke it,\" and their eyes were opened, Luke 24:30-31. Jesus says many will come from east and west to share the banquet \"with Abraham, Isaac, and Jacob,\" Matthew 8:11. The meal under the oaks becomes a foretaste of the feast of the kingdom.\n\nIt leads to Christ by the impossible made possible. Paul quotes verse 14 in Romans 9:9 to show that the children of God are children of promise, born by God's word. That new birth rests on the greatest thing too difficult for man, the resurrection. Romans 4:19-25 ties Abraham's faith in a God who could bring life from Sarah's womb to our faith in the God \"who raised Jesus our Lord from the dead.\"\n\nA caution belongs here. The curds, the calf and the three seahs are not hidden symbols of the gospel. The link to Christ runs through God's coming near, the promise of a son, and the power that makes the impossible happen, the very points the New Testament itself draws out.",
+    "god": "The first thing this passage shows about God is His condescension. The God who called Himself El-Shaddai in Genesis 17:1 now comes as a traveller at noon, accepts water for His feet and eats. He does not wait for Abraham to climb to Him. He comes to the tent. The same God who is too great to be seen, Exodus 33:20, chooses to be seen in a form that can be served.\n\nHe knows what is hidden. Sarah is out of sight inside the tent, and her laugh is inward, \"to herself,\" verse 12. Yet the LORD asks at once, \"Why did Sarah laugh?\" He knows her name before being told it, verse 9, and knows her thoughts before they are spoken aloud. Psalm 139:4 says, \"Even before a word is on my tongue, You know all about it, O LORD,\" and Hebrews 4:13 says nothing in creation is hidden from His sight. That knowledge is not a threat to Sarah here. It is the reason the promise can be trusted: the one who knows her doubt also knows her body and her future.\n\nHe is omnipotent in a personal way. The question of verse 14, \"Is anything too difficult for the LORD?\" is not a philosophical claim that God can do anything conceivable. It is a claim about the promises He has made. The word pala describes what is beyond human reach, and God's power is exactly the power to do what He has said when no human means remain. Jeremiah would stand on the same truth when Jerusalem was falling, Jeremiah 32:17 and 32:27.\n\nHe keeps time. The promise is tied to \"the appointed time,\" verse 14, and Genesis 21:2 records that Sarah bore Isaac \"at the very time God had promised.\" God is not only able but punctual. He works on a calendar He sets, which is why believers can wait without despair.\n\nHe is truthful and gracious at once. Sarah lies out of fear, and the LORD does not let the lie stand: \"No, but you did laugh.\" Yet He does not withdraw the promise, punish her, or strike her silent as Zechariah was later struck. He corrects her and leaves the promise in place. His faithfulness does not depend on hers, 2 Timothy 2:13.\n\nFinally, God receives the worship of ordinary service. Abraham's running, baking, choosing and standing are all acts of honour to a guest, and God accepts them. Worship here is not only words at an altar but a whole household mobilised to welcome Him. For believers, the chapter teaches that God is near enough to be welcomed, great enough to be trusted with what is impossible, and kind enough to correct our doubts without casting us off.",
     "crossReferences": [
-      { "ref": "Romans 9:8-9", "note": "The children of promise are counted as offspring; Paul quotes the promise of a son at the appointed time." },
-      { "ref": "Hebrews 11:11", "note": "By faith Sarah received power to conceive, because she considered Him faithful who had promised." },
-      { "ref": "Hebrews 13:2", "note": "Do not neglect to show hospitality to strangers, for some have entertained angels unawares." },
-      { "ref": "Jeremiah 32:17", "note": "Nothing is too hard for You, echoing the LORD's question to Abraham." }
+      {
+        "ref": "Genesis 17:17-21",
+        "note": "The first announcement of Isaac's birth, where Abraham laughs and God names the child Isaac and dates him 'at this time next year.' Genesis 18 repeats the promise, this time in Sarah's hearing, so that both parents have heard it and both have laughed before it comes true."
+      },
+      {
+        "ref": "Genesis 21:1-7",
+        "note": "The fulfilment. The LORD attends to Sarah 'as He had said,' she bears a son at the very time promised, and her laughter is transformed: 'God has made me laugh, and everyone who hears of this will laugh with me.' The question of Genesis 18:14 is answered in a cradle."
+      },
+      {
+        "ref": "2 Kings 4:16-17",
+        "note": "Elisha promises the hospitable Shunammite woman, 'At this time next year, you will hold a son in your arms,' using the same time phrase as Genesis 18:10. She protests, as Sarah laughed, and conceives anyway. Hospitality to God's messenger is again met with the gift of a son."
+      },
+      {
+        "ref": "Jeremiah 32:17",
+        "note": "Jeremiah buys a field as Jerusalem falls and prays, 'Nothing is too difficult for You!' God answers in 32:27 with the question of Genesis 18:14, 'Is anything too difficult for Me?' The promise of land, like the promise of a son, rests on the same power."
+      },
+      {
+        "ref": "Luke 1:36-38",
+        "note": "Gabriel tells Mary of Elizabeth's pregnancy in old age and says, 'For no word from God will ever fail,' echoing the Greek of Genesis 18:14. Mary's response, 'May it happen to me according to your word,' shows the faith that Sarah first lacked and later found."
+      },
+      {
+        "ref": "Romans 9:8-9",
+        "note": "Paul quotes Genesis 18:14 to show that the true children of God are children of promise. Isaac was born because God spoke, not because Abraham and Sarah could produce him, and in the same way God's people are made by His word, not by descent."
+      },
+      {
+        "ref": "Romans 4:19-21",
+        "note": "Paul describes Abraham facing the decrepitness of his body and the lifelessness of Sarah's womb, the very facts behind Sarah's laugh in Genesis 18:11-12, yet being fully persuaded that God was able to do what He had promised."
+      },
+      {
+        "ref": "Hebrews 11:11",
+        "note": "By faith Sarah, barren and beyond the proper age, was enabled to conceive, because she considered Him faithful who had promised. The woman who laughed and denied it in Genesis 18 is remembered in the end for her faith, a mark of God's grace toward doubters."
+      },
+      {
+        "ref": "Hebrews 13:2",
+        "note": "Believers are urged not to neglect hospitality to strangers, 'for by so doing some people have entertained angels without knowing it.' The allusion is to Abraham and Lot, who welcomed visitors before learning who they were, Genesis 18:2-8 and 19:1-3."
+      },
+      {
+        "ref": "1 Peter 3:6",
+        "note": "Peter cites Sarah as calling Abraham 'lord,' drawing on Genesis 18:12, where she speaks of him as 'my master.' He holds her up as a model for believing wives who do what is right and refuse to give way to fear, the very fear Sarah showed in 18:15."
+      },
+      {
+        "ref": "Luke 24:30-31",
+        "note": "At Emmaus the risen Jesus is welcomed as a stranger, then takes bread, blesses and breaks it, and is recognised. As at Mamre, the guest turns out to be the Lord, and a meal becomes the place of revelation and promise."
+      }
     ],
-    "oneStory": "The LORD draws near to fix the date for the son of promise and to answer every doubt with His own power. The impossible birth is a small sign of a greater impossibility God delights to overcome. The story runs on to Christ, in whom God fully takes flesh and, by raising the dead, brings a people to birth who could never be born by human strength.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "In Eden God walked with humanity, and after the fall His presence became something to hide from, Genesis 3:8-10. Genesis 18 shows God still coming. He comes not in judgment, as He will in the next chapter, but as a guest under a tree, to eat with a man He has called and to bring a promise to a woman who has given up hope. The question of Eden, \"Where are you?\" becomes at Mamre \"Where is your wife Sarah?\" God is still seeking people out, but now to give them life.\n\nThe scene answers the long barrenness of Sarai, first mentioned in Genesis 11:30, which has hung over the whole Abraham story. Without a son the promise of nations, land and blessing for all families of the earth could not go forward. The appointed time of verse 14 fixes the point at which God will break that barrenness, and Genesis 21 records that He did.\n\nIt also sets a pattern that the rest of Scripture repeats. God works through impossible births: Isaac, Jacob and Esau, Joseph, Samson, Samuel, the son of the Shunammite, John the Baptist. Each time the message is the same. The people of God exist because God gives life where there is none. That pattern prepares for the birth of Jesus to a virgin, the answer to Sarah's question on a scale she could not imagine.\n\nIt points beyond birth to resurrection. Paul reads Sarah's dead womb as a picture of the death that God overcomes, and the faith of Abraham as faith in the God who raises the dead, Romans 4:17-25. The same power that gave Isaac raised Jesus, and by that resurrection a new people is born, children of promise, Romans 9:8.\n\nAnd it looks ahead to the final meal. Abraham fed his divine guest under the oaks; one day God will feed His people at the banquet of the kingdom, where many from east and west will sit down with Abraham, Isaac and Jacob, Matthew 8:11. Jesus stands at the door and knocks, promising to come in and dine, Revelation 3:20. The story that began with God as Abraham's guest ends with God as the host of the new creation, where \"God Himself will be with them,\" Revelation 21:3, and where the laughter that began in doubt becomes the joy that never ends.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What is the central question the LORD asks in this passage?",
       "options": [
-        { "text": "Is anything too difficult for the LORD?", "weight": 100, "note": "This question is the theological heart of the whole Abraham story." },
-        { "text": "Where is your wife Sarah?", "weight": 75, "note": "A real question in the scene, but not the central theological one." },
-        { "text": "Why have you doubted so long?", "weight": 25, "note": "God addresses Sarah's laughter, but this is not the wording or the point." },
-        { "text": "Will you obey My covenant?", "weight": 0, "note": "That belongs to the previous chapter, not this scene." }
+        {
+          "text": "Is anything too difficult for the LORD?",
+          "weight": 100,
+          "note": "This question is the theological heart of the whole Abraham story."
+        },
+        {
+          "text": "Where is your wife Sarah?",
+          "weight": 75,
+          "note": "A real question in the scene, but not the central theological one."
+        },
+        {
+          "text": "Why have you doubted so long?",
+          "weight": 25,
+          "note": "God addresses Sarah's laughter, but this is not the wording or the point."
+        },
+        {
+          "text": "Will you obey My covenant?",
+          "weight": 0,
+          "note": "That belongs to the previous chapter, not this scene."
+        }
       ]
     },
     {
       "q": "Why did Sarah laugh when she heard the promise?",
       "options": [
-        { "text": "Because she and Abraham were old and she had passed the age of childbearing.", "weight": 100, "note": "Her laughter is doubt at a humanly impossible promise." },
-        { "text": "Because she was overjoyed and could not contain her delight.", "weight": 75, "note": "Joyful laughter comes later at Isaac's birth; here it is doubt." },
-        { "text": "Because she thought the visitors were joking.", "weight": 25, "note": "Her issue was the impossibility, not that she took them for jesters." },
-        { "text": "Because she did not believe God existed.", "weight": 0, "note": "She believed in God, but doubted He could do this particular thing." }
+        {
+          "text": "Because she and Abraham were old and she had passed the age of childbearing.",
+          "weight": 100,
+          "note": "Her laughter is doubt at a humanly impossible promise."
+        },
+        {
+          "text": "Because she was overjoyed and could not contain her delight.",
+          "weight": 75,
+          "note": "Joyful laughter comes later at Isaac's birth; here it is doubt."
+        },
+        {
+          "text": "Because she thought the visitors were joking.",
+          "weight": 25,
+          "note": "Her issue was the impossibility, not that she took them for jesters."
+        },
+        {
+          "text": "Because she did not believe God existed.",
+          "weight": 0,
+          "note": "She believed in God, but doubted He could do this particular thing."
+        }
       ]
     },
     {
       "q": "How is the LORD present in this scene?",
       "options": [
-        { "text": "He appears among the three travelers and is welcomed and fed by Abraham.", "weight": 100, "note": "The narrator says the LORD appeared, drawing near in approachable form." },
-        { "text": "He speaks only from heaven, unseen.", "weight": 75, "note": "God does speak, but the striking point is that He appears visibly and shares a meal." },
-        { "text": "He sends a letter by messengers.", "weight": 25, "note": "There is no letter; the LORD Himself is present." },
-        { "text": "He is entirely absent and only angels come.", "weight": 0, "note": "The text explicitly says the LORD appeared to Abraham." }
+        {
+          "text": "He appears among the three travelers and is welcomed and fed by Abraham.",
+          "weight": 100,
+          "note": "The narrator says the LORD appeared, drawing near in approachable form."
+        },
+        {
+          "text": "He speaks only from heaven, unseen.",
+          "weight": 75,
+          "note": "God does speak, but the striking point is that He appears visibly and shares a meal."
+        },
+        {
+          "text": "He sends a letter by messengers.",
+          "weight": 25,
+          "note": "There is no letter; the LORD Himself is present."
+        },
+        {
+          "text": "He is entirely absent and only angels come.",
+          "weight": 0,
+          "note": "The text explicitly says the LORD appeared to Abraham."
+        }
       ]
     },
     {
       "q": "What does Abraham's response to the visitors reveal?",
       "options": [
-        { "text": "Eager, generous hospitality that far exceeds his modest offer.", "weight": 100, "note": "He runs, hurries, and prepares a lavish meal for his guests." },
-        { "text": "Reluctance and suspicion toward strangers.", "weight": 75, "note": "The opposite is true; he welcomes them with haste and honor." },
-        { "text": "Indifference, leaving Sarah to do all the work.", "weight": 25, "note": "Abraham himself runs to the herd and serves the meal." },
-        { "text": "Fear that drives him to hide in his tent.", "weight": 0, "note": "He runs out to meet them, not away from them." }
+        {
+          "text": "Eager, generous hospitality that far exceeds his modest offer.",
+          "weight": 100,
+          "note": "He runs, hurries, and prepares a lavish meal for his guests."
+        },
+        {
+          "text": "Reluctance and suspicion toward strangers.",
+          "weight": 75,
+          "note": "The opposite is true; he welcomes them with haste and honor."
+        },
+        {
+          "text": "Indifference, leaving Sarah to do all the work.",
+          "weight": 25,
+          "note": "Abraham himself runs to the herd and serves the meal."
+        },
+        {
+          "text": "Fear that drives him to hide in his tent.",
+          "weight": 0,
+          "note": "He runs out to meet them, not away from them."
+        }
       ]
     },
     {
       "q": "How does the New Testament use the promise of this chapter?",
       "options": [
-        { "text": "Paul cites it to show God's children are children of promise, born by His power.", "weight": 100, "note": "Romans 9:9 quotes the promise of a son at the appointed time." },
-        { "text": "It is used to prove that hospitality earns salvation.", "weight": 75, "note": "Hospitality is commended, but the promise is used to teach birth by God's power, not earning." },
-        { "text": "It is never referenced again in Scripture.", "weight": 25, "note": "Romans 9 and Hebrews 11 both draw on it." },
-        { "text": "It teaches that God's promises depend on human ability.", "weight": 0, "note": "The point is precisely that the birth exceeds human ability." }
+        {
+          "text": "Paul cites it to show God's children are children of promise, born by His power.",
+          "weight": 100,
+          "note": "Romans 9:9 quotes the promise of a son at the appointed time."
+        },
+        {
+          "text": "It is used to prove that hospitality earns salvation.",
+          "weight": 75,
+          "note": "Hospitality is commended, but the promise is used to teach birth by God's power, not earning."
+        },
+        {
+          "text": "It is never referenced again in Scripture.",
+          "weight": 25,
+          "note": "Romans 9 and Hebrews 11 both draw on it."
+        },
+        {
+          "text": "It teaches that God's promises depend on human ability.",
+          "weight": 0,
+          "note": "The point is precisely that the birth exceeds human ability."
+        }
       ]
     }
   ],
@@ -151,9 +389,21 @@
     "The LORD came near enough to sit and eat with Abraham. How does the nearness of God in Christ change the way you approach Him today?"
   ],
   "translationNotes": [
-    { "ref": "Genesis 18:1", "note": "The Oaks of Mamre may also be rendered terebinths or great trees; the location anchors several key moments in Abraham's life." },
-    { "ref": "Genesis 18:12", "note": "The verb laughed shares the root of Isaac's name; the same word carries doubt here and joy at the birth, a deliberate wordplay." },
-    { "ref": "Genesis 18:14", "note": "Too difficult renders a word meaning wonderful or extraordinary, beyond ordinary power; it frames the birth as a work only God can accomplish." }
+    {
+      "ref": "Genesis 18:1",
+      "note": "The Oaks of Mamre may also be rendered terebinths or great trees; the location anchors several key moments in Abraham's life."
+    },
+    {
+      "ref": "Genesis 18:12",
+      "note": "The verb laughed shares the root of Isaac's name; the same word carries doubt here and joy at the birth, a deliberate wordplay."
+    },
+    {
+      "ref": "Genesis 18:14",
+      "note": "Too difficult renders a word meaning wonderful or extraordinary, beyond ordinary power; it frames the birth as a work only God can accomplish."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "" }
+  "meta": {
+    "textToVerify": [],
+    "notes": ""
+  }
 }

@@ -16,102 +16,303 @@
       {
         "label": "Day One",
         "note": "forms: light",
-        "media": { "kind": "image", "src": "/studies/genesis/the-seven-days/day-1.svg", "alt": "Light divided from darkness", "caption": "Day one: light divided from darkness." },
+        "media": {
+          "kind": "image",
+          "src": "/studies/genesis/the-seven-days/day-1.svg",
+          "alt": "Light divided from darkness",
+          "caption": "Day one: light divided from darkness."
+        },
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 1, "text": "In the {{beginning|beginning}} {{elohim|God}} {{bara|created}} the heavens and the earth." },
-          { "chapter": 1, "n": 2, "text": "Now the earth was formless and void, and darkness was over the surface of the deep. And the Spirit of God was {{hover|hovering}} over the surface of the waters." },
-          { "chapter": 1, "n": 3, "text": "And God said, “Let there be {{light|light}},” and there was light." },
-          { "chapter": 1, "n": 4, "text": "And God saw that the light was good, and He separated the light from the darkness." },
-          { "chapter": 1, "n": 5, "text": "God called the light “day,” and the darkness He called “night.” And there was evening, and there was morning, the first day." }
+          {
+            "chapter": 1,
+            "n": 1,
+            "text": "In the {{beginning|beginning}} {{elohim|God}} {{bara|created}} the heavens and the earth."
+          },
+          {
+            "chapter": 1,
+            "n": 2,
+            "text": "Now the earth was formless and void, and darkness was over the surface of the deep. And the Spirit of God was {{hover|hovering}} over the surface of the waters."
+          },
+          {
+            "chapter": 1,
+            "n": 3,
+            "text": "And God said, “Let there be {{light|light}},” and there was light."
+          },
+          {
+            "chapter": 1,
+            "n": 4,
+            "text": "And God saw that the light was good, and He separated the light from the darkness."
+          },
+          {
+            "chapter": 1,
+            "n": 5,
+            "text": "God called the light “day,” and the darkness He called “night.” And there was evening, and there was morning, the first day."
+          }
         ]
       },
       {
         "label": "Day Two",
         "note": "forms: sky",
-        "media": { "kind": "image", "src": "/studies/genesis/the-seven-days/day-2.svg", "alt": "The expanse separating the waters", "caption": "Day two: the expanse, waters above and below." },
+        "media": {
+          "kind": "image",
+          "src": "/studies/genesis/the-seven-days/day-2.svg",
+          "alt": "The expanse separating the waters",
+          "caption": "Day two: the expanse, waters above and below."
+        },
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 6, "text": "And God said, “Let there be an expanse between the waters, to separate the waters from the waters.”" },
-          { "chapter": 1, "n": 7, "text": "So God made the expanse and separated the waters beneath it from the waters above. And it was so." },
-          { "chapter": 1, "n": 8, "text": "God called the expanse “sky.” And there was evening, and there was morning, the second day." }
+          {
+            "chapter": 1,
+            "n": 6,
+            "text": "And God said, “Let there be an expanse between the waters, to separate the waters from the waters.”"
+          },
+          {
+            "chapter": 1,
+            "n": 7,
+            "text": "So God made the expanse and separated the waters beneath it from the waters above. And it was so."
+          },
+          {
+            "chapter": 1,
+            "n": 8,
+            "text": "God called the expanse “sky.” And there was evening, and there was morning, the second day."
+          }
         ]
       },
       {
         "label": "Day Three",
         "note": "forms: land and sea",
-        "media": { "kind": "image", "src": "/studies/genesis/the-seven-days/day-3.svg", "alt": "Dry land, seas, and plants", "caption": "Day three: dry land, seas, and plants." },
+        "media": {
+          "kind": "image",
+          "src": "/studies/genesis/the-seven-days/day-3.svg",
+          "alt": "Dry land, seas, and plants",
+          "caption": "Day three: dry land, seas, and plants."
+        },
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 9, "text": "And God said, “Let the waters under the sky be gathered into one place, so that the dry land may appear.” And it was so." },
-          { "chapter": 1, "n": 10, "text": "God called the dry land “earth,” and the gathering of waters He called “seas.” And God saw that it was good." },
-          { "chapter": 1, "n": 11, "text": "Then God said, “Let the earth bring forth vegetation: seed-bearing plants and fruit trees, each bearing fruit with seed according to its kind.” And it was so." },
-          { "chapter": 1, "n": 12, "text": "The earth produced vegetation: seed-bearing plants according to their kinds and trees bearing fruit with seed according to their kinds. And God saw that it was good." },
-          { "chapter": 1, "n": 13, "text": "And there was evening, and there was morning, the third day." }
+          {
+            "chapter": 1,
+            "n": 9,
+            "text": "And God said, “Let the waters under the sky be gathered into one place, so that the dry land may appear.” And it was so."
+          },
+          {
+            "chapter": 1,
+            "n": 10,
+            "text": "God called the dry land “earth,” and the gathering of waters He called “seas.” And God saw that it was good."
+          },
+          {
+            "chapter": 1,
+            "n": 11,
+            "text": "Then God said, “Let the earth bring forth vegetation: seed-bearing plants and fruit trees, each bearing fruit with seed according to its kind.” And it was so."
+          },
+          {
+            "chapter": 1,
+            "n": 12,
+            "text": "The earth produced vegetation: seed-bearing plants according to their kinds and trees bearing fruit with seed according to their kinds. And God saw that it was good."
+          },
+          {
+            "chapter": 1,
+            "n": 13,
+            "text": "And there was evening, and there was morning, the third day."
+          }
         ]
       },
       {
         "label": "Day Four",
         "note": "fills: lights",
-        "media": { "kind": "image", "src": "/studies/genesis/the-seven-days/day-4.svg", "alt": "Sun, moon, and stars", "caption": "Day four: sun, moon, and stars." },
+        "media": {
+          "kind": "image",
+          "src": "/studies/genesis/the-seven-days/day-4.svg",
+          "alt": "Sun, moon, and stars",
+          "caption": "Day four: sun, moon, and stars."
+        },
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 14, "text": "And God said, “Let there be lights in the expanse of the sky to distinguish between the day and the night, and let them be signs to mark the seasons and days and years." },
-          { "chapter": 1, "n": 15, "text": "And let them serve as lights in the expanse of the sky to shine upon the earth.” And it was so." },
-          { "chapter": 1, "n": 16, "text": "God made two great lights: the greater light to rule the day and the lesser light to rule the night. And He made the stars as well." },
-          { "chapter": 1, "n": 17, "text": "God set these lights in the expanse of the sky to shine upon the earth," },
-          { "chapter": 1, "n": 18, "text": "to preside over the day and the night, and to separate the light from the darkness. And God saw that it was good." },
-          { "chapter": 1, "n": 19, "text": "And there was evening, and there was morning, the fourth day." }
+          {
+            "chapter": 1,
+            "n": 14,
+            "text": "And God said, “Let there be lights in the expanse of the sky to distinguish between the day and the night, and let them be signs to mark the seasons and days and years."
+          },
+          {
+            "chapter": 1,
+            "n": 15,
+            "text": "And let them serve as lights in the expanse of the sky to shine upon the earth.” And it was so."
+          },
+          {
+            "chapter": 1,
+            "n": 16,
+            "text": "God made two great lights: the greater light to rule the day and the lesser light to rule the night. And He made the stars as well."
+          },
+          {
+            "chapter": 1,
+            "n": 17,
+            "text": "God set these lights in the expanse of the sky to shine upon the earth,"
+          },
+          {
+            "chapter": 1,
+            "n": 18,
+            "text": "to preside over the day and the night, and to separate the light from the darkness. And God saw that it was good."
+          },
+          {
+            "chapter": 1,
+            "n": 19,
+            "text": "And there was evening, and there was morning, the fourth day."
+          }
         ]
       },
       {
         "label": "Day Five",
         "note": "fills: sea and sky",
-        "media": { "kind": "image", "src": "/studies/genesis/the-seven-days/day-5.svg", "alt": "Creatures of sea and sky", "caption": "Day five: creatures of sea and sky." },
+        "media": {
+          "kind": "image",
+          "src": "/studies/genesis/the-seven-days/day-5.svg",
+          "alt": "Creatures of sea and sky",
+          "caption": "Day five: creatures of sea and sky."
+        },
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 20, "text": "And God said, “Let the waters teem with living creatures, and let birds fly above the earth in the open expanse of the sky.”" },
-          { "chapter": 1, "n": 21, "text": "So God created the great sea creatures and every living thing that moves, with which the waters teemed according to their kinds, and every winged bird after its kind. And God saw that it was good." },
-          { "chapter": 1, "n": 22, "text": "Then God blessed them and said, “Be fruitful and multiply and fill the waters of the seas, and let birds multiply on the earth.”" },
-          { "chapter": 1, "n": 23, "text": "And there was evening, and there was morning, the fifth day." }
+          {
+            "chapter": 1,
+            "n": 20,
+            "text": "And God said, “Let the waters teem with living creatures, and let birds fly above the earth in the open expanse of the sky.”"
+          },
+          {
+            "chapter": 1,
+            "n": 21,
+            "text": "So God created the great sea creatures and every living thing that moves, with which the waters teemed according to their kinds, and every winged bird after its kind. And God saw that it was good."
+          },
+          {
+            "chapter": 1,
+            "n": 22,
+            "text": "Then God blessed them and said, “Be fruitful and multiply and fill the waters of the seas, and let birds multiply on the earth.”"
+          },
+          {
+            "chapter": 1,
+            "n": 23,
+            "text": "And there was evening, and there was morning, the fifth day."
+          }
         ]
       },
       {
         "label": "Day Six",
         "note": "fills: land creatures and man",
-        "media": { "kind": "image", "src": "/studies/genesis/the-seven-days/day-6.svg", "alt": "Land creatures and humankind", "caption": "Day six: land creatures and humankind." },
+        "media": {
+          "kind": "image",
+          "src": "/studies/genesis/the-seven-days/day-6.svg",
+          "alt": "Land creatures and humankind",
+          "caption": "Day six: land creatures and humankind."
+        },
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 24, "text": "And God said, “Let the earth bring forth living creatures according to their kinds: livestock, land crawlers, and beasts of the earth according to their kinds.” And it was so." },
-          { "chapter": 1, "n": 25, "text": "God made the beasts of the earth according to their kinds, the livestock according to their kinds, and everything that crawls upon the earth according to its kind. And God saw that it was good." },
-          { "chapter": 1, "n": 26, "text": "Then God said, “Let Us make man in Our image, after Our likeness, to rule over the fish of the sea and the birds of the air, over the livestock, and over all the earth itself, and every creature that crawls upon it.”" },
-          { "chapter": 1, "n": 27, "text": "So God created man in His own image; in the image of God He created him; male and female He created them." },
-          { "chapter": 1, "n": 28, "text": "God blessed them and said to them, “Be fruitful and multiply, and fill the earth and subdue it; rule over the fish of the sea and the birds of the air and every creature that crawls upon the earth.”" },
-          { "chapter": 1, "n": 29, "text": "Then God said, “Behold, I have given you every seed-bearing plant on the face of all the earth, and every tree whose fruit contains seed. They will be yours for food." },
-          { "chapter": 1, "n": 30, "text": "And to every beast of the earth and every bird of the air and every creature that crawls upon the earth, everything that has the breath of life in it, I have given every green plant for food.” And it was so." },
-          { "chapter": 1, "n": 31, "text": "And God looked upon all that He had made, and indeed, it was very good. And there was evening, and there was morning, the sixth day." }
+          {
+            "chapter": 1,
+            "n": 24,
+            "text": "And God said, “Let the earth bring forth living creatures according to their kinds: livestock, land crawlers, and beasts of the earth according to their kinds.” And it was so."
+          },
+          {
+            "chapter": 1,
+            "n": 25,
+            "text": "God made the beasts of the earth according to their kinds, the livestock according to their kinds, and everything that crawls upon the earth according to its kind. And God saw that it was good."
+          },
+          {
+            "chapter": 1,
+            "n": 26,
+            "text": "Then God said, “Let Us make man in Our image, after Our likeness, to rule over the fish of the sea and the birds of the air, over the livestock, and over all the earth itself, and every creature that crawls upon it.”"
+          },
+          {
+            "chapter": 1,
+            "n": 27,
+            "text": "So God created man in His own image; in the image of God He created him; male and female He created them."
+          },
+          {
+            "chapter": 1,
+            "n": 28,
+            "text": "God blessed them and said to them, “Be fruitful and multiply, and fill the earth and subdue it; rule over the fish of the sea and the birds of the air and every creature that crawls upon the earth.”"
+          },
+          {
+            "chapter": 1,
+            "n": 29,
+            "text": "Then God said, “Behold, I have given you every seed-bearing plant on the face of all the earth, and every tree whose fruit contains seed. They will be yours for food."
+          },
+          {
+            "chapter": 1,
+            "n": 30,
+            "text": "And to every beast of the earth and every bird of the air and every creature that crawls upon the earth, everything that has the breath of life in it, I have given every green plant for food.” And it was so."
+          },
+          {
+            "chapter": 1,
+            "n": 31,
+            "text": "And God looked upon all that He had made, and indeed, it was very good. And there was evening, and there was morning, the sixth day."
+          }
         ]
       },
       {
         "label": "Day Seven",
         "note": "the goal: rest",
-        "media": { "kind": "image", "src": "/studies/genesis/the-seven-days/day-7.svg", "alt": "The seventh day, rest", "caption": "Day seven: the rest of a finished, good work." },
+        "media": {
+          "kind": "image",
+          "src": "/studies/genesis/the-seven-days/day-7.svg",
+          "alt": "The seventh day, rest",
+          "caption": "Day seven: the rest of a finished, good work."
+        },
         "emphasis": "sabbath",
         "verses": [
-          { "chapter": 2, "n": 1, "text": "Thus the heavens and the earth were completed in all their vast array." },
-          { "chapter": 2, "n": 2, "text": "And by the seventh day God had finished the work He had been doing; so on that day He {{rest|rested}} from all His work." },
-          { "chapter": 2, "n": 3, "text": "Then God blessed the seventh day and sanctified it, because on that day He rested from all the work of creation that He had accomplished." }
+          {
+            "chapter": 2,
+            "n": 1,
+            "text": "Thus the heavens and the earth were completed in all their vast array."
+          },
+          {
+            "chapter": 2,
+            "n": 2,
+            "text": "And by the seventh day God had finished the work He had been doing; so on that day He {{rest|rested}} from all His work."
+          },
+          {
+            "chapter": 2,
+            "n": 3,
+            "text": "Then God blessed the seventh day and sanctified it, because on that day He rested from all the work of creation that He had accomplished."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "beginning": { "language": "Hebrew", "lemma": "reshith", "original": "ראשית", "gloss": "The first, the head of a thing. The whole book unfolds what this one word opens: there was a start, and God stood before it." },
-    "elohim": { "language": "Hebrew", "lemma": "Elohim", "original": "אלהים", "gloss": "A plural form joined to a singular verb. It signals majesty and fullness, and many hear a first quiet hint of the plurality later revealed as Father, Son, and Spirit." },
-    "bara": { "language": "Hebrew", "lemma": "bara", "original": "ברא", "gloss": "To create. In the Hebrew Bible this verb takes only God as its subject; whatever creating is happening here, it is a work no creature can do." },
-    "hover": { "language": "Hebrew", "lemma": "rachaph", "original": "רחף", "gloss": "To hover or flutter, the same verb used of an eagle over its young in Deuteronomy 32:11. The Spirit is attentively near the formless deep, poised to bring life." },
-    "light": { "language": "Hebrew", "lemma": "or", "original": "אור", "gloss": "Light, made on day one, before the sun on day four. The point is theological before astronomical: light comes from God. Paul later reads this as a picture of the new birth." },
-    "rest": { "language": "Hebrew", "lemma": "shabath", "original": "שבת", "gloss": "To cease, to rest, not from exhaustion but the settled rest of a finished good work. It gives us Sabbath and points forward to the rest that remains for God's people." }
+    "beginning": {
+      "language": "Hebrew",
+      "lemma": "reshith",
+      "original": "ראשית",
+      "gloss": "The first, the head of a thing. The whole book unfolds what this one word opens: there was a start, and God stood before it."
+    },
+    "elohim": {
+      "language": "Hebrew",
+      "lemma": "Elohim",
+      "original": "אלהים",
+      "gloss": "A plural form joined to a singular verb. It signals majesty and fullness, and many hear a first quiet hint of the plurality later revealed as Father, Son, and Spirit."
+    },
+    "bara": {
+      "language": "Hebrew",
+      "lemma": "bara",
+      "original": "ברא",
+      "gloss": "To create. In the Hebrew Bible this verb takes only God as its subject; whatever creating is happening here, it is a work no creature can do."
+    },
+    "hover": {
+      "language": "Hebrew",
+      "lemma": "rachaph",
+      "original": "רחף",
+      "gloss": "To hover or flutter, the same verb used of an eagle over its young in Deuteronomy 32:11. The Spirit is attentively near the formless deep, poised to bring life."
+    },
+    "light": {
+      "language": "Hebrew",
+      "lemma": "or",
+      "original": "אור",
+      "gloss": "Light, made on day one, before the sun on day four. The point is theological before astronomical: light comes from God. Paul later reads this as a picture of the new birth."
+    },
+    "rest": {
+      "language": "Hebrew",
+      "lemma": "shabath",
+      "original": "שבת",
+      "gloss": "To cease, to rest, not from exhaustion but the settled rest of a finished good work. It gives us Sabbath and points forward to the rest that remains for God's people."
+    }
   },
   "study": {
     "basic": {
@@ -124,83 +325,284 @@
       "crossReferences": "Other parts of the Bible pick up this story. John 1 says the world was made through Jesus, and Revelation shows God making a new heavens and a new earth at the end.",
       "oneStory": "This is where the whole Bible story begins. God makes a good world. Soon people spoil it through sin, but God promises to make everything new again through Jesus. The good world we see here is what God is working to bring back."
     },
-    "media": { "oneStory": { "kind": "youtube", "youtubeId": "GQI72THyO5I", "caption": "BibleProject overview of Genesis 1 to 11." } },
+    "media": {
+      "oneStory": {
+        "kind": "youtube",
+        "youtubeId": "GQI72THyO5I",
+        "caption": "BibleProject overview of Genesis 1 to 11."
+      }
+    },
     "context": {
-      "literary": "The prologue to Genesis and to the Torah, opening the first of the book's toledot units. The genre is exalted Hebrew narrative with poetic cadence, not myth and not a science manual.",
-      "historical": "Traditionally Moses, writing to Israel newly out of Egypt among Egyptian and Mesopotamian creation myths. Read against that backdrop it is polemic: sun, moon, sea, and man are not gods but creatures of the one God.",
-      "canonical": "The Bible's first page, establishing creation as the act on which fall, redemption, and new creation all depend."
+      "literary": "Genesis 1:1 to 2:3 stands in front of the first 'This is the account' heading at Genesis 2:4, the formula that divides the rest of the book into its movements. It is therefore an overture rather than one episode among many. Verse 1 is the headline, verse 2 describes the starting condition, and the six days then answer that condition point by point. The earth was 'formless and void,' two problems solved in two sets of three days. Days one to three give shape to the formless by separating light from darkness, the waters above from the waters below, and the sea from the dry land. Days four to six fill the void with lights, with birds and fish, and with animals and people. Each day of the second set answers a day of the first: lights for the light, sea creatures and birds for the sea and sky, land creatures and humanity for the dry ground.\n\nThe account runs on a handful of repeated formulas: 'And God said,' 'Let there be,' 'And it was so,' 'God saw that it was good,' and 'there was evening, and there was morning.' The repetition gives it the measured cadence of liturgy, and the variations carry the meaning. The approval is missing on day two and given twice on day three. Day six breaks the pattern with the deliberation of verse 26, 'Let Us make,' and with a three line poem in verse 27 in which the verb 'created' sounds three times. Day seven breaks it altogether. There is no speech, no 'it was good,' and no closing evening and morning, while the Hebrew names 'the seventh day' three times in two verses.\n\nThe unit is also framed. 'The heavens and the earth' of Genesis 1:1 returns in Genesis 2:1, and the verbs 'created' and 'work' gather at the close as the account comes to rest. The opening verse is seven Hebrew words long, and the whole passage leans toward the seventh day. Everything that follows in Genesis is told inside the world this frame sets up.",
+      "historical": "Israel first heard this chapter as the opening of the Torah, the instruction given through Moses to a people who had spent generations in Egypt and whose neighbours all told their own stories of how the world began. In the Babylonian epic known as Enuma Elish the god Marduk defeats the sea goddess Tiamat and splits her body to form sky and earth, and human beings are made to carry the labour of the gods so that the gods may rest. In Egypt the sun was worshipped as a god, and Pharaoh was presented as a son of the sun. Genesis speaks into that world with deliberate restraint.\n\nThere is no battle. The deep is simply there, and the Spirit of God is over it, verse 2. The 'great sea creatures' of verse 21, a word that elsewhere names the monsters of the sea, Psalm 74:13 and Isaiah 27:1, are simply creatures God made and blessed. The sun and moon are not even named. They are 'the greater light' and 'the lesser light,' lamps hung in the sky with a job to do, verse 16, and the stars are mentioned almost in passing. Humanity is not made to feed the gods; God feeds humanity, verse 29, and it is God, not the human race, who rests.\n\nThe first hearers would also have heard their own worship in the text. The lights mark the 'seasons,' the word used for Israel's appointed feasts, Leviticus 23:2. The account ends with work completed, inspected, blessed and set apart, which is exactly how the building of the tabernacle ends: the work 'was completed,' Moses 'inspected all the work,' and 'Moses blessed them,' Exodus 39:32 and 39:43. The world is the house God built for Himself, and the tabernacle is a small copy of it in the middle of the camp. The weekly Sabbath, which set Israel apart from every nation around it, was rooted in this seventh day, Exodus 20:11 and 31:17.",
+      "canonical": "The rest of the Old Testament keeps returning to this page. The psalms turn it into praise: 'By the word of the LORD the heavens were made,' and 'He spoke, and it came to be,' Psalm 33:6 and 33:9. Psalm 104 walks through the days in song, and Psalm 136:7-9 gives thanks for the great lights with the refrain of God's loving devotion. Psalm 8 marvels that the Maker of the moon and stars made man 'ruler of the works of Your hands,' Psalm 8:6. The Sabbath command in Exodus 20:11 quotes the seventh day, and God's own questions to Job, 'Where were you when I laid the foundations of the earth?' Job 38:4, assume it.\n\nThe prophets use creation as the ground of hope and the measure of judgment. Isaiah argues that the Creator who names every star, Isaiah 40:26, will not forget His people, and that He 'did not create it to be empty, but formed it to be inhabited,' Isaiah 45:18. Jeremiah sees judgment as creation run backward: 'I looked at the earth, and it was formless and void,' Jeremiah 4:23. Isaiah 65:17 promises that God 'will create new heavens and a new earth.'\n\nThe New Testament opens its own story with this one. John 1:1-3 begins with the same words, 'In the beginning,' and names the Word through whom all things were made. Paul reads day one as the pattern of conversion, 2 Corinthians 4:6, and calls the believer 'a new creation,' 2 Corinthians 5:17. Colossians 1:16 and Hebrews 1:2 make the Son the agent of creation, and Hebrews 11:3 teaches that the universe was formed at God's command. Jesus grounds marriage in Genesis 1:27, Matthew 19:4, and Hebrews 4:4 quotes Genesis 2:2 to speak of the rest still offered to God's people. Revelation closes the canon with a new heaven and a new earth, a city that needs no sun, Revelation 21:1 and 21:23, answering the first page with the last."
     },
     "hermeneutics": {
-      "authorIntent": "To reveal God as the sole sovereign Creator who orders chaos into a cosmos fit to be His dwelling. The text signals its own structure of forming, filling, and rest.",
-      "descriptionVsPrescription": "The narrative describes God's acts. The prescriptive threads are the Sabbath pattern, later grounded in Exodus 20:11, and the mandate to image bearers.",
+      "authorIntent": "Moses wanted Israel to know who their God was before they learned anything else about Him. The God who had just rescued them from Egypt, whose covenant name they would soon hear at Sinai, is not a local deity among many. He is the Maker of the sun that Egypt worshipped, the sea that the nations feared and the land they were about to enter. The account strips every rival of its divinity and hands the whole world back to one Lord.\n\nHe also meant them to know who they were. Slaves who had been treated as tools in Pharaoh's building projects are told that every human being, male and female, is made in the image of God and blessed with a royal calling, verses 26 to 28. That is a staggering word to people who had been counted as property.\n\nFinally, he wanted them to live by the rhythm the chapter sets. Work is good and is to be done in six days, as God worked. Rest is holy, and it is kept not because God was tired but because the seventh day is the goal of the whole work. Every Sabbath Israel kept would say that the world belongs to its Maker, that their time was His, and that they were free people and not slaves, Deuteronomy 5:15. The chapter was meant to be believed, and then to be lived week by week.",
+      "descriptionVsPrescription": "Most of the passage describes what God did, and it should not be turned into a set of instructions. It does not tell us how to do science, and it does not command a particular method of reading the days. What it does is make claims that bind every reader: God alone is Creator, the world is good, and every person bears His image, which is why Genesis 9:6 and James 3:9 treat harming or cursing a person as an offence against God.\n\nSome elements are addressed directly to humanity and so carry forward. The blessing and mandate of verse 28, to be fruitful, to fill the earth and to rule it, is repeated to Noah, Genesis 9:1, and still describes the human vocation, though it is exercised now in a fallen world and under Christ. The seventh day becomes a command for Israel in Exodus 20:8-11. Christians have disagreed about how that command applies after Christ, but the New Testament holds on to the pattern of work and rest, reads the rest as fulfilled and still offered in Christ, Hebrews 4:9-10, and hears Jesus say that 'the Sabbath was made for man,' Mark 2:27.",
       "debates": [
-        { "question": "What are the days?", "views": [ { "label": "Twenty four hour", "case": "The plain sequence of evening and morning." }, { "label": "Framework", "case": "The forming and filling pattern is literary, not a timetable." }, { "label": "Day age or analogical", "case": "Yom carries a longer or analogical span." } ], "bearing": "None of these touches the main claim, that God authored everything that is." }
+        {
+          "question": "What kind of days are the six days of creation?",
+          "views": [
+            {
+              "label": "Ordinary days",
+              "case": "Each day is numbered and closed with 'evening' and 'morning,' language that most naturally describes an ordinary day. Exodus 20:11 grounds Israel's working week directly in the six days and the seventh, which reads most simply if the days are the same kind of thing. This was the common reading through most of church history, though not the only one."
+            },
+            {
+              "label": "Long ages",
+              "case": "The word yom can mean a longer period, as in Genesis 2:4, where 'in the day' covers the whole creation. The seventh day has no closing evening and morning, and Hebrews 4:3-10 treats God's rest as still open, which suggests at least one of the days is not twenty four hours long. On this view each day stands for an age."
+            },
+            {
+              "label": "A framework or analogy",
+              "case": "The matching sets of three days, with the sun placed on day four after light on day one, suggest a topical rather than a strictly chronological arrangement. Some read the days as a literary frame; others as God's workdays described by analogy with a human working week. Augustine already doubted that the days were ordinary solar days, since the sun appears only on day four."
+            }
+          ],
+          "bearing": "Christians who hold the full truth of Scripture have held each of these views. The passage itself presses a different question, not how long God took but who He is and whose the world is. Every view must still reckon with the text's clear teaching that God created everything, that humanity is a distinct creation in His image, and that the week of work and rest is patterned on His own."
+        },
+        {
+          "question": "Should Genesis 1:1 be read 'In the beginning God created' or 'When God began to create'?",
+          "views": [
+            {
+              "label": "An independent opening statement",
+              "case": "The traditional reading, followed by the Septuagint and the BSB, takes verse 1 as a complete sentence and a summary of all that follows. God creates the heavens and the earth, and verse 2 then describes the earth at its first, unformed stage. On this reading nothing exists before God's creating word."
+            },
+            {
+              "label": "A dependent time clause",
+              "case": "Because the first Hebrew word has no article, some translate 'When God began to create the heavens and the earth, the earth was formless.' On this reading the passage begins with unformed matter already present and describes God ordering it, which sounds closer to other ancient accounts."
+            }
+          ],
+          "bearing": "The grammar of the first word can be argued either way, but the question of creation from nothing does not rest on it. The rest of Scripture teaches that God 'calls into being what does not yet exist,' Romans 4:17, that through the Word 'nothing was made that has been made' without Him, John 1:3, and that what is seen was not made out of what was visible, Hebrews 11:3."
+        },
+        {
+          "question": "Who is speaking when God says 'Let Us make man in Our image'?",
+          "views": [
+            {
+              "label": "A plural of majesty or deliberation",
+              "case": "Some take the plural as a royal or deliberative form, God speaking with Himself in solemn resolve. The singular verbs that follow, 'So God created man in His own image,' verse 27, fit this reading."
+            },
+            {
+              "label": "God addressing His heavenly court",
+              "case": "Others note that Scripture pictures God surrounded by a heavenly host, 1 Kings 22:19, and asking 'Who will go for Us?' Isaiah 6:8. On this view God announces His decision to the angels. The difficulty is that verse 27 makes God alone the Maker and humanity His image, not the angels'."
+            },
+            {
+              "label": "A first hint of plurality within God",
+              "case": "The church fathers widely read the plural as an early intimation of the Trinity, taken together with the Spirit of verse 2 and the Word through whom all things were made, John 1:3. The plural recurs in Genesis 3:22 and 11:7."
+            }
+          ],
+          "bearing": "Moses' first hearers would not have heard a doctrine of the Trinity in the verse, and it is wise not to claim they did. But the verse shows a God who is not solitary, and later revelation of Father, Son and Spirit fits the space it leaves open, which is why Christian readers have never found the plural an accident."
+        }
       ]
     },
-    "originalLanguages": "The load bearing words move as a set: bara marks a divine only act, Elohim holds majesty, the Spirit rachaph hovers with life, and God names what He makes, which in the Ancient Near East is an act of dominion.",
+    "originalLanguages": "Verse 2 describes the earth as tohu wabohu, 'formless and void.' Tohu on its own describes a wasteland or emptiness, and Isaiah 45:18 uses it to say God 'did not create it to be empty.' The pair appears together again in Jeremiah 4:23, where the prophet sees the land under judgment return to the condition of Genesis 1:2, and the same two words stand behind the 'line of chaos' and 'plumb line of destruction' stretched over Edom in Isaiah 34:11. The phrase is not a description of evil but of a world not yet shaped and not yet filled, and the six days answer both words in turn. 'The deep,' tehom, is the word for the primeval waters, which break out again in the flood, 'all the fountains of the great deep burst forth,' Genesis 7:11. Here it is simply there, lying under the presence of God's Spirit.\n\nThe 'expanse' of verse 6 is raqia, and the BSB footnote offers 'canopy,' 'firmament' or 'vault.' It comes from a verb meaning to spread or beat out. That verb is used of hammering gold into thin sheets, Exodus 39:3, and of the censers beaten into plating for the altar, Numbers 16:38, and of God spreading out the earth, Psalm 136:6. The picture is of the sky as something God has stretched out over the world like a craftsman's work.\n\nThe 'lights' of verses 14 to 16 are meorot, a word that elsewhere names the light of the tabernacle lampstand, 'olive oil for the light,' Exodus 25:6 and 27:20. The lights are to mark 'seasons,' moadim, the word for Israel's 'appointed feasts' in Leviticus 23:2. Sun and moon are not named by their ordinary Hebrew names; they are lamps in God's house that keep His calendar.\n\nTwo nouns carry the dignity of humanity in verse 26. 'Image,' tselem, is regularly used of a carved or cast image, as in Numbers 33:52, where Israel is told to destroy the 'carved images' of Canaan. 'Likeness,' demut, is a word for resemblance, used again and again in Ezekiel's vision, as in 'the likeness of a throne,' Ezekiel 1:26. Genesis 5:3 reverses the pair when Adam has a son 'in his own likeness, after his own image,' which shows that the words describe a family resemblance as well as a representative role. In a world full of idols, God places His own living image on the earth.\n\nThe two verbs of rule are strong. 'Rule,' radah, is used of a king's dominion, 'May he rule from sea to sea,' Psalm 72:8, and of the messianic King in Psalm 110:2. The same verb appears in the law's warning, 'You are not to rule over them harshly,' Leviticus 25:43, a reminder that rule under God is always accountable to Him. 'Subdue,' kabash, is used of a land brought under control, Joshua 18:1. Humanity's dominion is real and royal, but it is given, not seized.\n\nFinally, 'rested' in Genesis 2:2 is shabat, which means to stop or cease, and gives the Sabbath its name. God does not rest because He is tired; the Creator 'will not grow tired or weary,' Isaiah 40:28. He ceases because the work is finished. The Septuagint opens Genesis with the words en arche, 'in the beginning,' the very words with which John begins his Gospel, John 1:1.",
     "typology": [
-      { "type": "The seventh day rest", "fulfillment": "A type of the greater rest that remains for God's people in Hebrews 4." },
-      { "type": "Eden as the first dwelling of God with man", "fulfillment": "Prefigures tabernacle, temple, and the new creation." },
-      { "type": "Adam the image bearer given dominion", "fulfillment": "A pattern of the true Man to come, Romans 5:14." }
+      {
+        "type": "The seventh day rest, Genesis 2:2-3",
+        "fulfillment": "God's rest is not recovery from effort but enjoyment of a finished work, and He invites His people into it. Israel's weekly Sabbath was a sign of that rest, Exodus 31:17. Hebrews 4:9-10 says a Sabbath rest still remains for the people of God, and that whoever enters it rests from his own work as God did from His. Jesus offers that rest in person: 'Come to Me, all you who are weary and burdened, and I will give you rest,' Matthew 11:28, and He calls Himself 'Lord even of the Sabbath,' Mark 2:28. The type falls short because a weekly day can only point to a rest it cannot give; Christ gives the rest itself, and its fulness waits for the new creation."
+      },
+      {
+        "type": "Humanity, the image of God, crowned to rule, Genesis 1:26-28",
+        "fulfillment": "Adam and Eve were set in the world as God's living image, to represent His rule over creation. Psalm 8 marvels at that calling, and Hebrews 2:8-9 admits it is not yet fulfilled in us: 'at present we do not see everything subject to him. But we see Jesus.' Christ is 'the image of the invisible God,' Colossians 1:15, and 'the exact representation of His nature,' Hebrews 1:3, the true Man in whom the human calling is finally carried out. Those who belong to Him are 'conformed to the image of His Son,' Romans 8:29. The first image was damaged and the first rule was lost; Christ's image and rule are perfect and permanent."
+      },
+      {
+        "type": "The world as God's finished house, Genesis 2:1-3",
+        "fulfillment": "The account ends as the tabernacle account ends, with work completed, inspected, blessed and set apart, Exodus 39:32 and 39:43. The cosmos is the house God built to dwell in, and the tabernacle was a small model of it. In Christ the pattern escalates: 'The Word became flesh and made His dwelling among us,' John 1:14, and in the new creation there is no temple at all, 'because the Lord God Almighty and the Lamb are its temple,' Revelation 21:22. The type falls short because the first house could be defiled and the tabernacle could be abandoned; the final dwelling of God with man cannot be lost, Revelation 21:3."
+      },
+      {
+        "type": "Light spoken into darkness on the first day, Genesis 1:3",
+        "fulfillment": "The first word God speaks over the dark deep is 'Let there be light.' Paul reads it as the pattern of the new birth: the God who said 'Let light shine out of darkness' has made His light shine in our hearts 'in the face of Jesus Christ,' 2 Corinthians 4:6. John announces the Word in whom was the life that was 'the light of men,' John 1:4, and Jesus says, 'I am the light of the world,' John 8:12. The first light was divided from darkness each evening; in the city to come 'there will be no more night,' for the Lord God will shine on His people, Revelation 22:5."
+      }
     ],
-    "christ": "John opens by echoing this text, in the beginning was the Word, all things made through Him, John 1:1-3. Paul calls the Son the image of the invisible God in whom all things were created, Colossians 1:15-16, and applies day one to conversion, the God who said let light shine out of darkness has shone in our hearts, 2 Corinthians 4:6.",
-    "god": "Sovereign and powerful, creating by word alone. Good, and calling His work good. Orderly, personal, and generous. Transcendent over creation yet immanent within it. A God who works and then rests, dignifying both.",
+    "christ": "The New Testament does not treat Christ as a latecomer to the story of creation. It places Him at its beginning, its middle and its goal. John opens his Gospel with the opening words of Genesis and then names the one who was there: 'In the beginning was the Word,' and 'Through Him all things were made, and without Him nothing was made that has been made,' John 1:1-3. Genesis 1 shows God creating by speaking, ten times 'And God said.' John tells us that the Speech itself is a person, and that He 'became flesh,' John 1:14.\n\nPaul says more. All things were created 'through Him and for Him,' and 'in Him all things hold together,' Colossians 1:16-17. Hebrews adds that the Son is the one 'through whom He made the universe' and who is even now 'upholding all things by His powerful word,' Hebrews 1:2-3. The world of Genesis 1 was made by the Son and it was made for the Son. It is His inheritance before it is ours. Revelation 3:14 calls Him 'the Originator of God's creation.'\n\nThe chapter also leads to Christ through the image of God. Humanity was made to image God on earth and to rule under Him, but Psalm 8 and Hebrews 2:8-9 admit that the calling lies unfinished, until 'we see Jesus.' He is 'the image of God,' 2 Corinthians 4:4, the one true Man who shows what humanity was meant to be and who restores that image in His people, Colossians 3:10.\n\nThere is a pattern of new creation too. Paul reaches straight for day one to describe conversion, 2 Corinthians 4:6, and says that anyone in Christ 'is a new creation,' 2 Corinthians 5:17. The Gospels quietly mark the resurrection as a new beginning. Jesus lies in the tomb through the Sabbath, Luke 23:54, and rises 'on the first day of the week,' John 20:1. The first creation climbed toward a seventh day; the new creation begins on the first day of a new week.\n\nAnd there is rest. Jesus heals on the Sabbath and answers His critics, 'My Father is at His work, and I too am working,' John 5:17, claiming to share the work that God has never stopped doing in sustaining His world. He offers rest to the weary, Matthew 11:28, and He is 'Lord even of the Sabbath,' Mark 2:28.\n\nA caution belongs here. Genesis 1 does not hide Jesus in every detail; the waters, the plants and the animals are not coded pictures of Him. The links above rest on the New Testament's own reading of the chapter. What Genesis 1 gives us is the world that Christ made, the calling He fulfils, and the rest He finally opens.",
+    "god": "The chapter's first word about God is that He is before everything. It has no story of where God came from, no family tree of gods, no rival. Verse 1 simply begins with Him. Everything else in the passage has a beginning; He does not. That is the difference between the Creator and every creature, and it is why Paul can say that the nations 'worshiped and served the creature rather than the Creator,' Romans 1:25.\n\nHe is sovereign, and His sovereignty works through speech. Ten times God speaks, and each word does what it says. There is no struggle and no strain. 'He spoke, and it came to be; He commanded, and it stood firm,' Psalm 33:9. The same God who commands the light into being will speak the Ten Words at Sinai and will speak finally in His Son, Hebrews 1:2.\n\nHe is transcendent and also present. He stands wholly outside the world He makes, and yet the Spirit of God is over the waters, verse 2, and God speaks to the first humans directly, 'God blessed them and said to them,' verse 28. He is not a distant force. He addresses His creatures, blesses them and gives them food, verse 29.\n\nHe is a God of order and of delight. He separates and names, gives each thing its place and its role, and then looks at it and calls it good, seven times in all, the last time 'very good,' verse 31. The goodness of the world is not a human judgment but His. That means the material world, the body, food, the sea and the stars are not to be despised; God has looked at them with pleasure. Psalm 104:24 turns the same delight into worship: 'In wisdom You have made them all.'\n\nHe is generous. He fills what He forms. He gives blessing to fish and birds and people, fruitfulness, dominion and food, and He shares His rule with creatures made in His image. The whole account moves from emptiness to fullness because God gives.\n\nHe rests. The Creator does not grow tired, Isaiah 40:28, and so His rest is not weakness but satisfaction. He rests because the work is finished and good, and then He blesses and sanctifies a day, the first thing in the Bible to be made holy. Time itself belongs to Him.\n\nThe passage also leaves a door open. God speaks as 'Us,' verse 26, and His Spirit moves over the deep. Later revelation of Father, Son and Spirit fills that space without contradicting it.\n\nFor worship, the chapter calls us to join the song of heaven: 'Worthy are You, our Lord and God, to receive glory and honor and power, for You created all things,' Revelation 4:11. It teaches us to receive the world with thanks, to honour every person as bearing God's image, and to keep our own rhythm of work and rest as those who trust the God who finished His work.",
     "crossReferences": [
-      { "ref": "John 1:1-5", "note": "Deliberately reruns Genesis 1:1 with the Word as agent of creation." },
-      { "ref": "2 Corinthians 4:6", "note": "Paul quotes day one to describe the new birth." },
-      { "ref": "Exodus 20:11", "note": "The Sabbath command is grounded in the seventh day." },
-      { "ref": "Revelation 21-22", "note": "The motifs of light, image, and rest reach their resolution in the new creation." }
+      {
+        "ref": "John 1:1-5",
+        "note": "John begins with the same words as Genesis, 'In the beginning,' and then reveals the Word through whom all things were made. The light and darkness of day one reappear: 'The Light shines in the darkness, and the darkness has not overcome it.' The creation story is retold with its speaker named."
+      },
+      {
+        "ref": "Colossians 1:15-17",
+        "note": "Paul makes the Son the image of the invisible God and the one through whom and for whom all things were created. Genesis 1 shows humanity made in God's image; Colossians shows the Son as that image in person, and the whole creation holding together in Him."
+      },
+      {
+        "ref": "Hebrews 11:3",
+        "note": "The universe was formed at God's command, so that what is seen was not made out of what was visible. This is the New Testament's summary of Genesis 1: a world spoken into being by God's word, received and understood by faith rather than by observation alone."
+      },
+      {
+        "ref": "Psalm 33:6-9",
+        "note": "The psalm turns Genesis 1 into praise. The heavens were made by the word of the LORD, and all the stars by the breath of His mouth; He spoke, and it came to be. The response the psalm draws out is that all the earth should fear the LORD."
+      },
+      {
+        "ref": "Isaiah 45:18",
+        "note": "Isaiah picks up the tohu of Genesis 1:2, 'formless,' and says God did not create the earth to be empty but formed it to be inhabited. The purpose of the six days is a home, and Isaiah draws from it the claim 'I am the LORD, and there is no other.'"
+      },
+      {
+        "ref": "Jeremiah 4:23",
+        "note": "Jeremiah sees the land under judgment as formless and void, with no light in the heavens, the very words of Genesis 1:2. Sin, persisted in, runs creation backward. The vision shows how seriously Scripture treats the order God set in place."
+      },
+      {
+        "ref": "Exodus 20:8-11",
+        "note": "The fourth commandment grounds Israel's week of six working days and one day of rest in the pattern of creation: 'For in six days the LORD made the heavens and the earth.' The seventh day of Genesis 2:3 becomes the shape of a nation's life."
+      },
+      {
+        "ref": "Exodus 39:32-43",
+        "note": "The tabernacle account closes the way the creation account closes: the work was completed, Moses inspected all the work and saw that it had been done as commanded, and he blessed the people. Israel's sanctuary was built as a small copy of the world God made to dwell in."
+      },
+      {
+        "ref": "Genesis 9:6",
+        "note": "After the flood God forbids murder on the ground of Genesis 1:27: 'in His own image God has made mankind.' The image is not lost at the fall. It remains the reason every human life is precious and the basis of justice."
+      },
+      {
+        "ref": "Hebrews 4:9-10",
+        "note": "Hebrews reads God's seventh day rest as a rest still on offer: 'There remains, then, a Sabbath rest for the people of God.' Whoever enters God's rest rests from his own work, as God did from His, a rest entered by faith in Christ."
+      },
+      {
+        "ref": "2 Corinthians 4:6",
+        "note": "Paul quotes day one, 'Let light shine out of darkness,' and applies it to the new birth. The God who spoke light into the dark deep speaks the light of His glory into dark hearts, and that light is seen in the face of Jesus Christ."
+      },
+      {
+        "ref": "Revelation 21:1-5",
+        "note": "The Bible ends where it began, with God creating: a new heaven and a new earth, and the One on the throne saying, 'Behold, I make all things new.' The sea is gone, and the dwelling place of God is with man, the goal toward which Genesis 1 always pointed."
+      }
     ],
-    "oneStory": "This is creation, the first act. The good world fractures in chapter three, but the same Creator calls Israel, comes as Christ, and makes a new heavens and new earth where the seventh day rest becomes unending. The very good about to be lost is what the whole Bible strains to see restored.",
-    "sermon": { "status": "verified", "preacher": "D.A. Carson", "title": "The God Who Made Everything (Genesis 1 to 2)", "url": "https://www.thegospelcoalition.org/sermon/the-god-who-is-there-part-1-the-god-who-made-everything/", "why": "Carson opens his whole-Bible series on the creation account, showing how Genesis 1 and 2 ground the fall, redemption, and new creation, and how the biblical God differs from every rival. A clear, orthodox, expository treatment of this exact passage." }
+    "oneStory": "Every other part of the Bible's story is set inside the world this passage describes. Before there is a fall, a covenant, a nation or a cross, there is a Creator, a good world and a human race made in His image. The first page answers the questions a reader brings to all the others: who is God, what is the world for, and what are we?\n\nIt also establishes the standard by which everything after it is measured. Chapter 3 is a tragedy because chapter 1 was 'very good.' Death, violence and exile are wrong because they were not part of the world God made. The flood in Genesis 7 lets the waters of the deep return over the land, a creation undone, and after it God blesses Noah with the words He first spoke over Adam, Genesis 9:1. The call of Abraham, the law, the land and the temple can all be read as God working to restore, in one family and one place, what was given to all humanity at the start: life under His blessing, in His presence, with rest.\n\nThe seventh day matters to that story. It has no evening. God's rest is the goal of creation, and the rest of Scripture is a long journey toward entering it. Israel receives the Sabbath and a land of rest, but Hebrews 4:8-9 notes that Joshua did not give them the final rest, so 'there remains, then, a Sabbath rest for the people of God.'\n\nIn Christ the story reaches a new beginning. The Word through whom all things were made becomes flesh, the true image of God lives the human calling faithfully, and He rises on the first day of the week. Those joined to Him are already 'a new creation,' 2 Corinthians 5:17, even while the whole creation still groans, waiting to be set free, Romans 8:19-22.\n\nThe last pages of the Bible deliberately echo the first. There is a new heaven and a new earth, Revelation 21:1. The city 'has no need of sun or moon,' for the glory of God is its light, Revelation 21:23; the lamps of day four give way to God Himself. The sea, the old image of disorder, is no more. And God's people, restored to His image, 'will reign forever and ever,' Revelation 22:5, the royal calling of Genesis 1:28 at last fulfilled. The story that began with 'In the beginning God' ends with God dwelling among His people in a world made new.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "D.A. Carson",
+      "title": "The God Who Made Everything (Genesis 1 to 2)",
+      "url": "https://www.thegospelcoalition.org/sermon/the-god-who-is-there-part-1-the-god-who-made-everything/",
+      "why": "Carson opens his whole-Bible series on the creation account, showing how Genesis 1 and 2 ground the fall, redemption, and new creation, and how the biblical God differs from every rival. A clear, orthodox, expository treatment of this exact passage."
+    }
   },
   "translationNotes": [
-    { "ref": "Genesis 1:1", "note": "Some translations render an initial dependent clause, when God began to create, rather than in the beginning God created. The difference bears on whether verse 1 is the first act or a summary title." }
+    {
+      "ref": "Genesis 1:1",
+      "note": "Some translations render an initial dependent clause, when God began to create, rather than in the beginning God created. The difference bears on whether verse 1 is the first act or a summary title."
+    }
   ],
   "quiz": [
     {
       "q": "According to Genesis 1, how did God bring creation into being?",
       "options": [
-        { "text": "He spoke, and it came to be; He created by His word.", "weight": 100, "note": "The refrain 'And God said' drives the chapter. God creates by His word alone." },
-        { "text": "He fashioned light, land, and creatures across six days.", "weight": 75, "note": "True as a description, but it misses the heart of the account, creation by the spoken word." },
-        { "text": "He shaped and arranged matter that already existed.", "weight": 25, "note": "There is a formless deep in verse 2, but the text presents God as originating, not merely rearranging eternal matter." },
-        { "text": "He defeated rival gods and the forces of chaos in battle.", "weight": 0, "note": "Unlike the surrounding myths, there is no battle here; God simply speaks and it is so." }
+        {
+          "text": "He spoke, and it came to be; He created by His word.",
+          "weight": 100,
+          "note": "The refrain 'And God said' drives the chapter. God creates by His word alone."
+        },
+        {
+          "text": "He fashioned light, land, and creatures across six days.",
+          "weight": 75,
+          "note": "True as a description, but it misses the heart of the account, creation by the spoken word."
+        },
+        {
+          "text": "He shaped and arranged matter that already existed.",
+          "weight": 25,
+          "note": "There is a formless deep in verse 2, but the text presents God as originating, not merely rearranging eternal matter."
+        },
+        {
+          "text": "He defeated rival gods and the forces of chaos in battle.",
+          "weight": 0,
+          "note": "Unlike the surrounding myths, there is no battle here; God simply speaks and it is so."
+        }
       ]
     },
     {
       "q": "Light is made on day one, but the sun not until day four. Why does this matter?",
       "options": [
-        { "text": "Light comes from God Himself; the point is theological before it is astronomical.", "weight": 100, "note": "Day one teaches that light, and life, have their source in God, not in the sun. Paul reads this as a picture of the new birth in 2 Corinthians 4:6." },
-        { "text": "It shows the days are ordered by God, not governed by the sun.", "weight": 75, "note": "A true observation, though it stops short of the deeper point that God is Himself the source of light." },
-        { "text": "It is a small detail with no real significance.", "weight": 25, "note": "The ordering is deliberate and load bearing, not incidental." },
-        { "text": "It proves the account is simply mistaken about science.", "weight": 0, "note": "The text makes a theological claim about the source of light, not a modern scientific timetable." }
+        {
+          "text": "Light comes from God Himself; the point is theological before it is astronomical.",
+          "weight": 100,
+          "note": "Day one teaches that light, and life, have their source in God, not in the sun. Paul reads this as a picture of the new birth in 2 Corinthians 4:6."
+        },
+        {
+          "text": "It shows the days are ordered by God, not governed by the sun.",
+          "weight": 75,
+          "note": "A true observation, though it stops short of the deeper point that God is Himself the source of light."
+        },
+        {
+          "text": "It is a small detail with no real significance.",
+          "weight": 25,
+          "note": "The ordering is deliberate and load bearing, not incidental."
+        },
+        {
+          "text": "It proves the account is simply mistaken about science.",
+          "weight": 0,
+          "note": "The text makes a theological claim about the source of light, not a modern scientific timetable."
+        }
       ]
     },
     {
       "q": "What does the seventh day, when God rested, signify?",
       "options": [
-        { "text": "A settled rest from a finished, good work, pointing forward to the rest that remains for God's people.", "weight": 100, "note": "The verb shabath means to cease, not to recover. Hebrews 4 takes this rest as a pattern of the greater rest in Christ." },
-        { "text": "That creation was complete and God stopped working.", "weight": 75, "note": "True, but it misses that this rest points forward and grounds the Sabbath." },
-        { "text": "That God needed to recover from the effort of creating.", "weight": 25, "note": "This misreads the rest as fatigue. God does not grow weary." },
-        { "text": "It carries no ongoing importance today.", "weight": 0, "note": "The seventh day grounds the Sabbath command in Exodus 20:11 and points to Christ." }
+        {
+          "text": "A settled rest from a finished, good work, pointing forward to the rest that remains for God's people.",
+          "weight": 100,
+          "note": "The verb shabath means to cease, not to recover. Hebrews 4 takes this rest as a pattern of the greater rest in Christ."
+        },
+        {
+          "text": "That creation was complete and God stopped working.",
+          "weight": 75,
+          "note": "True, but it misses that this rest points forward and grounds the Sabbath."
+        },
+        {
+          "text": "That God needed to recover from the effort of creating.",
+          "weight": 25,
+          "note": "This misreads the rest as fatigue. God does not grow weary."
+        },
+        {
+          "text": "It carries no ongoing importance today.",
+          "weight": 0,
+          "note": "The seventh day grounds the Sabbath command in Exodus 20:11 and points to Christ."
+        }
       ]
     },
     {
       "q": "How does the New Testament connect Genesis 1 to Jesus?",
       "options": [
-        { "text": "All things were made through Him, the Word and the image of God; John 1 and Colossians 1.", "weight": 100, "note": "John 1:1-3 reruns Genesis 1:1 with the Son as the agent of creation; Colossians 1:15-16 says all things were created in Him." },
-        { "text": "He was present at creation in a general way.", "weight": 75, "note": "True but vague. Scripture says more: creation was made through Him." },
-        { "text": "He only enters the story later, at Bethlehem.", "weight": 25, "note": "This misses His eternal existence and His role as the agent of creation." },
-        { "text": "Genesis 1 has no real connection to Christ.", "weight": 0, "note": "The New Testament deliberately ties creation to the Son." }
+        {
+          "text": "All things were made through Him, the Word and the image of God; John 1 and Colossians 1.",
+          "weight": 100,
+          "note": "John 1:1-3 reruns Genesis 1:1 with the Son as the agent of creation; Colossians 1:15-16 says all things were created in Him."
+        },
+        {
+          "text": "He was present at creation in a general way.",
+          "weight": 75,
+          "note": "True but vague. Scripture says more: creation was made through Him."
+        },
+        {
+          "text": "He only enters the story later, at Bethlehem.",
+          "weight": 25,
+          "note": "This misses His eternal existence and His role as the agent of creation."
+        },
+        {
+          "text": "Genesis 1 has no real connection to Christ.",
+          "weight": 0,
+          "note": "The New Testament deliberately ties creation to the Son."
+        }
       ]
     },
     {
       "q": "What is the central claim of Genesis 1:1 to 2:3?",
       "options": [
-        { "text": "The one true God is the sovereign Creator of all things, ordering chaos into a good and habitable home.", "weight": 100, "note": "This is the main point on which fall, redemption, and new creation all depend." },
-        { "text": "God made the world in an orderly, structured way.", "weight": 75, "note": "True, but it describes the manner rather than the central claim about who God is." },
-        { "text": "The passage is mainly about the length of the creation days.", "weight": 25, "note": "The days are debated, but that debate does not touch the main claim that God authored everything." },
-        { "text": "The world came about by chance.", "weight": 0, "note": "This directly contradicts the text, where God is the deliberate Creator." }
+        {
+          "text": "The one true God is the sovereign Creator of all things, ordering chaos into a good and habitable home.",
+          "weight": 100,
+          "note": "This is the main point on which fall, redemption, and new creation all depend."
+        },
+        {
+          "text": "God made the world in an orderly, structured way.",
+          "weight": 75,
+          "note": "True, but it describes the manner rather than the central claim about who God is."
+        },
+        {
+          "text": "The passage is mainly about the length of the creation days.",
+          "weight": 25,
+          "note": "The days are debated, but that debate does not touch the main claim that God authored everything."
+        },
+        {
+          "text": "The world came about by chance.",
+          "weight": 0,
+          "note": "This directly contradicts the text, where God is the deliberate Creator."
+        }
       ]
     }
   ],
@@ -211,5 +613,8 @@
     "You are made in God's image and given dominion. How does that dignity change the way you approach your ordinary work, whether behind a wheel, at a desk, or in a home?",
     "On the first day God said, let there be light, before the sun existed, because light comes from Him. Where do you need to ask God to speak light into a dark place?"
   ],
-  "meta": { "textToVerify": [], "notes": "" }
+  "meta": {
+    "textToVerify": [],
+    "notes": ""
+  }
 }

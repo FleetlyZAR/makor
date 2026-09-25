@@ -9,3 +9,6 @@ __pycache__/
 # Secrets and staging (never commit)
 .env
 _stage/
+# Local Python env
+.venv/
+_logs/

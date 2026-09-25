@@ -25,7 +25,7 @@ those, preserving the folder layout, and copy them over:
 cd ~/Documents/Developer/makor
 tar czf /tmp/makor-run.tgz \
   makor-audio/generate_audio.py makor-audio/build_and_upload.py \
-  makor-audio/gpu_run.py makor-audio/pronounce.json makor-audio/.env \
+  makor-audio/gpu_run.py makor-audio/pronounce.json makor-audio/names/lexicon.json makor-audio/.env \
   src/content/studies
 scp /tmp/makor-run.tgz root@YOUR_BOX_IP:~/
 ```

@@ -18,8 +18,16 @@
         "note": "the dignity of humanity",
         "emphasis": "",
         "verses": [
-          { "chapter": 5, "n": 1, "text": "This is the book of the generations of Adam. In the day that God created man, He made him in His own {{likeness|likeness}}." },
-          { "chapter": 5, "n": 2, "text": "Male and female He created them, and He blessed them. And in the day they were created, He called them “man.”" }
+          {
+            "chapter": 5,
+            "n": 1,
+            "text": "This is the book of the generations of Adam. In the day that God created man, He made him in His own {{likeness|likeness}}."
+          },
+          {
+            "chapter": 5,
+            "n": 2,
+            "text": "Male and female He created them, and He blessed them. And in the day they were created, He called them “man.”"
+          }
         ]
       },
       {
@@ -27,24 +35,96 @@
         "note": "and then he died",
         "emphasis": "",
         "verses": [
-          { "chapter": 5, "n": 3, "text": "When Adam was 130 years old, he had a son in his own likeness, after his own image; and he named him Seth." },
-          { "chapter": 5, "n": 4, "text": "And after he had become the father of Seth, Adam lived 800 years and had other sons and daughters." },
-          { "chapter": 5, "n": 5, "text": "So Adam lived a total of 930 years, and then he {{died|died}}." },
-          { "chapter": 5, "n": 6, "text": "When Seth was 105 years old, he became the father of Enosh." },
-          { "chapter": 5, "n": 7, "text": "And after he had become the father of Enosh, Seth lived 807 years and had other sons and daughters." },
-          { "chapter": 5, "n": 8, "text": "So Seth lived a total of 912 years, and then he died." },
-          { "chapter": 5, "n": 9, "text": "When Enosh was 90 years old, he became the father of Kenan." },
-          { "chapter": 5, "n": 10, "text": "And after he had become the father of Kenan, Enosh lived 815 years and had other sons and daughters." },
-          { "chapter": 5, "n": 11, "text": "So Enosh lived a total of 905 years, and then he died." },
-          { "chapter": 5, "n": 12, "text": "When Kenan was 70 years old, he became the father of Mahalalel." },
-          { "chapter": 5, "n": 13, "text": "And after he had become the father of Mahalalel, Kenan lived 840 years and had other sons and daughters." },
-          { "chapter": 5, "n": 14, "text": "So Kenan lived a total of 910 years, and then he died." },
-          { "chapter": 5, "n": 15, "text": "When Mahalalel was 65 years old, he became the father of Jared." },
-          { "chapter": 5, "n": 16, "text": "And after he had become the father of Jared, Mahalalel lived 830 years and had other sons and daughters." },
-          { "chapter": 5, "n": 17, "text": "So Mahalalel lived a total of 895 years, and then he died." },
-          { "chapter": 5, "n": 18, "text": "When Jared was 162 years old, he became the father of Enoch." },
-          { "chapter": 5, "n": 19, "text": "And after he had become the father of Enoch, Jared lived 800 years and had other sons and daughters." },
-          { "chapter": 5, "n": 20, "text": "So Jared lived a total of 962 years, and then he died." }
+          {
+            "chapter": 5,
+            "n": 3,
+            "text": "When Adam was 130 years old, he had a son in his own likeness, after his own image; and he named him Seth."
+          },
+          {
+            "chapter": 5,
+            "n": 4,
+            "text": "And after he had become the father of Seth, Adam lived 800 years and had other sons and daughters."
+          },
+          {
+            "chapter": 5,
+            "n": 5,
+            "text": "So Adam lived a total of 930 years, and then he {{died|died}}."
+          },
+          {
+            "chapter": 5,
+            "n": 6,
+            "text": "When Seth was 105 years old, he became the father of Enosh."
+          },
+          {
+            "chapter": 5,
+            "n": 7,
+            "text": "And after he had become the father of Enosh, Seth lived 807 years and had other sons and daughters."
+          },
+          {
+            "chapter": 5,
+            "n": 8,
+            "text": "So Seth lived a total of 912 years, and then he died."
+          },
+          {
+            "chapter": 5,
+            "n": 9,
+            "text": "When Enosh was 90 years old, he became the father of Kenan."
+          },
+          {
+            "chapter": 5,
+            "n": 10,
+            "text": "And after he had become the father of Kenan, Enosh lived 815 years and had other sons and daughters."
+          },
+          {
+            "chapter": 5,
+            "n": 11,
+            "text": "So Enosh lived a total of 905 years, and then he died."
+          },
+          {
+            "chapter": 5,
+            "n": 12,
+            "text": "When Kenan was 70 years old, he became the father of Mahalalel."
+          },
+          {
+            "chapter": 5,
+            "n": 13,
+            "text": "And after he had become the father of Mahalalel, Kenan lived 840 years and had other sons and daughters."
+          },
+          {
+            "chapter": 5,
+            "n": 14,
+            "text": "So Kenan lived a total of 910 years, and then he died."
+          },
+          {
+            "chapter": 5,
+            "n": 15,
+            "text": "When Mahalalel was 65 years old, he became the father of Jared."
+          },
+          {
+            "chapter": 5,
+            "n": 16,
+            "text": "And after he had become the father of Jared, Mahalalel lived 830 years and had other sons and daughters."
+          },
+          {
+            "chapter": 5,
+            "n": 17,
+            "text": "So Mahalalel lived a total of 895 years, and then he died."
+          },
+          {
+            "chapter": 5,
+            "n": 18,
+            "text": "When Jared was 162 years old, he became the father of Enoch."
+          },
+          {
+            "chapter": 5,
+            "n": 19,
+            "text": "And after he had become the father of Enoch, Jared lived 800 years and had other sons and daughters."
+          },
+          {
+            "chapter": 5,
+            "n": 20,
+            "text": "So Jared lived a total of 962 years, and then he died."
+          }
         ]
       },
       {
@@ -52,10 +132,26 @@
         "note": "the break in the refrain",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 5, "n": 21, "text": "When Enoch was 65 years old, he became the father of Methuselah." },
-          { "chapter": 5, "n": 22, "text": "And after he had become the father of Methuselah, Enoch {{walked|walked with God}} 300 years and had other sons and daughters." },
-          { "chapter": 5, "n": 23, "text": "So Enoch lived a total of 365 years." },
-          { "chapter": 5, "n": 24, "text": "Enoch walked with God, and then he was no more, because God had {{took|taken him away}}." }
+          {
+            "chapter": 5,
+            "n": 21,
+            "text": "When Enoch was 65 years old, he became the father of Methuselah."
+          },
+          {
+            "chapter": 5,
+            "n": 22,
+            "text": "And after he had become the father of Methuselah, Enoch {{walked|walked with God}} 300 years and had other sons and daughters."
+          },
+          {
+            "chapter": 5,
+            "n": 23,
+            "text": "So Enoch lived a total of 365 years."
+          },
+          {
+            "chapter": 5,
+            "n": 24,
+            "text": "Enoch walked with God, and then he was no more, because God had {{took|taken him away}}."
+          }
         ]
       },
       {
@@ -63,24 +159,81 @@
         "note": "named for comfort",
         "emphasis": "",
         "verses": [
-          { "chapter": 5, "n": 25, "text": "When Methuselah was 187 years old, he became the father of Lamech." },
-          { "chapter": 5, "n": 26, "text": "And after he had become the father of Lamech, Methuselah lived 782 years and had other sons and daughters." },
-          { "chapter": 5, "n": 27, "text": "So Methuselah lived a total of 969 years, and then he died." },
-          { "chapter": 5, "n": 28, "text": "When Lamech was 182 years old, he had a son." },
-          { "chapter": 5, "n": 29, "text": "And he named him Noah, saying, “May this one {{comfort|comfort}} us in the labor and toil of our hands caused by the ground that the LORD has cursed.”" },
-          { "chapter": 5, "n": 30, "text": "And after he had become the father of Noah, Lamech lived 595 years and had other sons and daughters." },
-          { "chapter": 5, "n": 31, "text": "So Lamech lived a total of 777 years, and then he died." },
-          { "chapter": 5, "n": 32, "text": "After Noah was 500 years old, he became the father of Shem, Ham, and Japheth." }
+          {
+            "chapter": 5,
+            "n": 25,
+            "text": "When Methuselah was 187 years old, he became the father of Lamech."
+          },
+          {
+            "chapter": 5,
+            "n": 26,
+            "text": "And after he had become the father of Lamech, Methuselah lived 782 years and had other sons and daughters."
+          },
+          {
+            "chapter": 5,
+            "n": 27,
+            "text": "So Methuselah lived a total of 969 years, and then he died."
+          },
+          {
+            "chapter": 5,
+            "n": 28,
+            "text": "When Lamech was 182 years old, he had a son."
+          },
+          {
+            "chapter": 5,
+            "n": 29,
+            "text": "And he named him Noah, saying, “May this one {{comfort|comfort}} us in the labor and toil of our hands caused by the ground that the LORD has cursed.”"
+          },
+          {
+            "chapter": 5,
+            "n": 30,
+            "text": "And after he had become the father of Noah, Lamech lived 595 years and had other sons and daughters."
+          },
+          {
+            "chapter": 5,
+            "n": 31,
+            "text": "So Lamech lived a total of 777 years, and then he died."
+          },
+          {
+            "chapter": 5,
+            "n": 32,
+            "text": "After Noah was 500 years old, he became the father of Shem, Ham, and Japheth."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "likeness": { "language": "Hebrew", "lemma": "demut", "original": "דמות", "gloss": "Likeness, resemblance. Humanity is made in God's likeness, and Adam then fathers a son in his own likeness. The image of God is dented by the fall yet still passed down the generations, so every person in this list carries a God-given dignity even under the reign of death." },
-    "died": { "language": "Hebrew", "lemma": "muth", "original": "מות", "gloss": "To die. The refrain and then he died closes almost every entry, the drumbeat fulfillment of God's warning in the day you eat of it you will surely die. Long lives cannot outrun it; death reigns over the line of Adam and waits for a rescuer." },
-    "walked": { "language": "Hebrew", "lemma": "halak", "original": "הלך", "gloss": "To walk, to go about one's life. To walk with God describes an intimate, faithful life lived in step with Him, the same phrase later used of Noah. Enoch's walk breaks the chapter's refrain of death and shows that fellowship with God is possible even in a dying world." },
-    "took": { "language": "Hebrew", "lemma": "laqach", "original": "לקח", "gloss": "To take, to receive, to fetch. God took Enoch, and he did not see death. The same verb describes how the LORD would later take up Elijah, and it hints at a hope beyond the grave for those who walk with God, drawn out in Hebrews 11:5." },
-    "comfort": { "language": "Hebrew", "lemma": "nacham", "original": "נחם", "gloss": "To comfort, to bring relief. Lamech names his son Noah, hoping he will comfort them from the toil of the cursed ground. The longing for relief from the curse runs through the chapter and reaches far beyond Noah to the true comfort found in Christ." }
+    "likeness": {
+      "language": "Hebrew",
+      "lemma": "demut",
+      "original": "דמות",
+      "gloss": "Likeness, resemblance. Humanity is made in God's likeness, and Adam then fathers a son in his own likeness. The image of God is dented by the fall yet still passed down the generations, so every person in this list carries a God-given dignity even under the reign of death."
+    },
+    "died": {
+      "language": "Hebrew",
+      "lemma": "muth",
+      "original": "מות",
+      "gloss": "To die. The refrain and then he died closes almost every entry, the drumbeat fulfillment of God's warning in the day you eat of it you will surely die. Long lives cannot outrun it; death reigns over the line of Adam and waits for a rescuer."
+    },
+    "walked": {
+      "language": "Hebrew",
+      "lemma": "halak",
+      "original": "הלך",
+      "gloss": "To walk, to go about one's life. To walk with God describes an intimate, faithful life lived in step with Him, the same phrase later used of Noah. Enoch's walk breaks the chapter's refrain of death and shows that fellowship with God is possible even in a dying world."
+    },
+    "took": {
+      "language": "Hebrew",
+      "lemma": "laqach",
+      "original": "לקח",
+      "gloss": "To take, to receive, to fetch. God took Enoch, and he did not see death. The same verb describes how the LORD would later take up Elijah, and it hints at a hope beyond the grave for those who walk with God, drawn out in Hebrews 11:5."
+    },
+    "comfort": {
+      "language": "Hebrew",
+      "lemma": "nacham",
+      "original": "נחם",
+      "gloss": "To comfort, to bring relief. Lamech names his son Noah, hoping he will comfort them from the toil of the cursed ground. The longing for relief from the curse runs through the chapter and reaches far beyond Noah to the true comfort found in Christ."
+    }
   },
   "study": {
     "basic": {
@@ -94,85 +247,252 @@
       "oneStory": "Death reigns from Adam through these ten generations, exactly as God had warned. But the promised line does not fail, one man walks with God and escapes the grave, and the chapter ends looking to Noah for comfort, a hope that presses on toward Christ, who defeats death itself."
     },
     "context": {
-      "literary": "The first full toledot, the book of the generations of Adam, structured as ten symmetrical entries with a repeated formula, punctuated by the refrain and then he died and broken uniquely by Enoch. It deliberately echoes the language of creation and the fall.",
-      "historical": "For Israel, this list anchored their identity in a real line from Adam and explained the great ages of the ancients while insisting that even they died. It links the promise of a seed to a traceable family reaching Noah and the flood.",
-      "canonical": "This genealogy carries the promised seed of 3:15 forward and is picked up directly in the genealogy of Jesus in Luke 3, tying the whole line from Adam through Noah to Christ."
+      "literary": "Genesis 5 opens with a heading found nowhere else in the book, 'This is the book of the generations of Adam.' Every other toledot heading reads simply 'This is the account of,' as at Genesis 2:4 and 6:9, but here the word 'book' stands in front, as though Moses were quoting a written record. The heading is followed at once by a compressed replay of Genesis 1:26-28, likeness, male and female, and blessing, with one addition: God names them. The genealogy is placed under the banner of creation before a single death is recorded.\n\nThe entries then follow a fixed form of three beats: when X had lived so many years he fathered Y; after that X lived so many years and had other sons and daughters; so all the days of X were so many years, and then he died. The rhythm is deliberate. Because the formula is so regular, every departure from it becomes the message. Adam's entry expands to say that Seth was born in his likeness and image, verse 3. Enoch's entry replaces 'lived' with 'walked with God' and replaces 'and then he died' with 'and then he was no more,' verses 22 to 24. Lamech's entry stops to quote a spoken prayer, verse 29, the only speech in the chapter. Noah's entry does not close at all; it leaves him at five hundred years with three sons, verse 32, and his death formula is held back until Genesis 9:29.\n\nThe chapter is built as a mirror to Cain's line in Genesis 4:17-24. Both lines contain an Enoch and a Lamech, and several names sound alike: Kenan and Cain, Jared and Irad, Mahalalel and Mehujael, Methuselah and Methushael. The two Enochs and the two Lamechs are set against each other on purpose. Cain's Enoch has a city named after him; Seth's Enoch walks with God. Cain's Lamech boasts of vengeance 'seventy-sevenfold,' Genesis 4:24; Seth's Lamech lives 777 years and prays for comfort.\n\nTen generations run from Adam to Noah, and ten more will run from Shem to Abram in Genesis 11:10-26, each list ending with a father of three sons. The shape of the book is being laid down: a linear genealogy marks the chosen line and moves the story forward to the next man through whom God will act.",
+      "historical": "Genealogies were a familiar way of telling history in the ancient world. They established identity, inheritance and legitimacy, and Israel kept them carefully, as 1 Chronicles 1:1-4 shows by opening its whole history with these same names: 'Adam, Seth, Enosh, Kenan, Mahalalel, Jared, Enoch, Methuselah, Lamech.' For Israel this chapter said that their story did not begin with Abraham or Sinai. It ran back, name by name, to the first man God made.\n\nMesopotamia had its own lists of rulers before a great flood. The Sumerian King List names a short series of kings before the flood with reigns running to tens of thousands of years, and later tradition preserved in Berossus counts ten. Set beside those lists, Genesis 5 is restrained. Its numbers are long but not fantastic, its people are fathers rather than kings, and there is no hint that any of them became gods. The Mesopotamian lists celebrate royal power; Genesis records ordinary family life, sons and daughters, and a death at the end of each life.\n\nThe numbers themselves differ between the ancient witnesses. The Greek Septuagint generally gives the fathers a hundred more years before their first son, and the Samaritan Pentateuch has its own figures, so the total span from Adam to the flood varies from text to text. On the Hebrew figures the lives overlap in striking ways. Adam dies when Lamech is already fifty six. Enoch is taken fifty seven years after Adam's death, while his own father Jared is still alive. Methuselah, adding his 187 years, Lamech's 182, and Noah's 600, dies in the very year of the flood, Genesis 7:6.\n\nThe first hearers would also have noticed what is missing. No cities, crafts, music or weapons are recorded here, as they were in Cain's line, Genesis 4:20-22. The line that carries the promise is remembered not for what it built but for who begot whom, who walked with God, and who hoped.",
+      "canonical": "The list reappears almost untouched at the head of Chronicles, 1 Chronicles 1:1-4, where the Chronicler traces the story of Israel's kings and temple back to Adam. The whole later history is framed as the continuation of this line.\n\nThe chapter's great refrain answers Genesis 2:17, 'in the day that you eat of it, you will surely die.' Paul reads the same span of history in Romans 5:14: 'death reigned from Adam until Moses, even over those who did not sin in the way that Adam transgressed.' Genesis 5 is that reign in narrative form, and Hebrews 9:27 states its rule: 'man is appointed to die once, and after that to face judgment.'\n\nEnoch's taking gathers a small thread of Old Testament hope. The same verb is used when 'the LORD took Elijah up to heaven in a whirlwind,' 2 Kings 2:1, and it surfaces in the psalms: 'God will redeem my life from Sheol, for He will surely take me to Himself,' Psalm 49:15, and 'later receive me in glory,' Psalm 73:24. Hebrews 11:5-6 follows the Septuagint in saying Enoch 'pleased God,' and draws the lesson that without faith it is impossible to please Him. Jude 14-15 calls him 'the seventh from Adam' and gives him a prophecy of the Lord coming 'with myriads of His holy ones' in judgment, a line Jude takes from the Jewish book known as 1 Enoch.\n\nLamech's prayer for comfort becomes a prophetic cry: 'Comfort, comfort My people,' Isaiah 40:1, and Simeon is found 'waiting for the consolation of Israel,' Luke 2:25. Most directly, Luke 3:36-38 runs Jesus' ancestry backward through every name in this chapter to 'the son of Adam, the son of God.' Matthew 1:1 opens with 'the record of the genealogy,' the same Greek phrase the Septuagint used for the heading of Genesis 5:1, as if a new book of generations were beginning."
     },
     "hermeneutics": {
-      "authorIntent": "To trace the promised line from Adam to Noah, to show that death now reigns over humanity as God warned, and to hold out hope through Enoch's walk with God and Noah's name of comfort.",
-      "descriptionVsPrescription": "The chapter is largely descriptive record, yet Enoch stands as a quiet model, a life that walked with God is what pleases Him and what the reader is drawn to imitate.",
+      "authorIntent": "Moses wanted Israel to hold several truths together. First, each person in the line bears a dignity God gave at creation. The heading deliberately restates Genesis 1:26-28 before any death is told, and verse 3 says that what Adam passed on to Seth was still likeness and image. The fall has not erased what humanity is.\n\nSecond, Moses wanted them to feel the weight of death. The eight repetitions of the formula are not padding. They teach by accumulation that God's word in Genesis 2:17 came true, and that no length of years, however great, outruns it. A reader who hears 'and then he died' for the eighth time has been taught the theology of Romans 5 without a single abstract sentence.\n\nThird, he wanted them to notice the exceptions and to live toward them. Enoch shows that the relationship broken in Genesis 3:8, where the pair hid from the God who walked in the garden, can be lived again in a fallen world: a man can walk with God. Lamech's prayer shows that the godly line did not make peace with the curse but longed for God to lift it. Israel, living in a world still marked by toil and death, was meant to walk as Enoch walked and pray as Lamech prayed, and to keep watching the line through which God's answer would come.",
+      "descriptionVsPrescription": "Most of the chapter is record, and it should be read as record. The ages are not goals, the fathering of children at advanced ages is not a model, and nothing here tells believers to expect Enoch's exit from the world. Hebrews 9:27 states the normal path: 'man is appointed to die once.' Enoch is an exception God made, not a promise to every believer that they will escape death.\n\nWhat the chapter does commend, by the way it breaks its own pattern, is Enoch's walk. Later Scripture turns that description into instruction. God tells Abram, 'Walk before Me and be blameless,' Genesis 17:1, and Micah 6:8 sums up the life God requires as walking 'humbly with your God.' The New Testament asks believers to 'walk in the light,' 1 John 1:7, and to 'walk by the Spirit,' Galatians 5:16. Enoch also walked with God while raising sons and daughters, verse 22, so the text gives no support to the idea that godliness requires withdrawal from ordinary family life. And Lamech's prayer licenses honest lament: it is right to name the toil of a cursed world before God and ask Him for relief.",
       "debates": [
         {
           "question": "How should we understand the very long lifespans in this chapter?",
           "views": [
-            { "label": "Literal ages in a different early world", "case": "The numbers are given plainly as real ages, and the pre-flood world may have been physically different; the text presents them as straightforward history with no hint of exaggeration." },
-            { "label": "Meaningful or schematic numbers", "case": "Some of the figures carry symbolic weight, such as Enoch's 365 years matching the solar year and Lamech's 777, suggesting the numbers may also communicate theological meaning alongside record." }
+            {
+              "label": "Literal ages in a different early world",
+              "case": "The figures are given in the plain form of a family record, with ages at fathering, years remaining and totals that add up, and nothing in the text signals symbolism. Lifespans also decline steadily after the flood, from Shem's 600 years to Terah's 205 and on to Moses' 120, Deuteronomy 34:7, which fits the idea of a real change in the conditions of human life after the flood."
+            },
+            {
+              "label": "Meaningful or schematic numbers",
+              "case": "Some figures appear to carry weight beyond arithmetic. Enoch's 365 years match the days of a solar year, and Lamech's 777 years answer Cain's Lamech and his boast of vengeance seventy-sevenfold, Genesis 4:24. The ancient witnesses also differ on the numbers, and Mesopotamian king lists used enormous reigns to honour the distant past. On this reading the ages may be real but also shaped to teach."
+            },
+            {
+              "label": "Honorific or representative figures",
+              "case": "A smaller group reads the names as heads of clans or eras rather than single individuals, with the ages covering the span of a family's prominence. The view seeks to ease the historical questions, but it sits uneasily with the personal detail of fathers naming sons, verses 3 and 29, and with Luke's use of the list as a line of real sons, Luke 3:36-38."
+            }
           ],
-          "bearing": "On either view the chapter's central claim stands unshaken, these are real people in a real line, and despite their long lives, death still comes for all but the man who was taken."
+          "bearing": "On any of these views the chapter's claim stands: real people in a real line lived long lives, and death came for every one of them except the man God took. Whatever the numbers were meant to convey, they cannot be allowed to hide the refrain."
+        },
+        {
+          "question": "Is the genealogy complete, or does it skip generations?",
+          "views": [
+            {
+              "label": "A complete, unbroken chronology",
+              "case": "Unlike many biblical genealogies, this one gives the father's age at the birth of the son, which seems designed to allow the years to be added up. Many Jewish and Christian chronologies, including the dating that made the world about four thousand years old at Christ's birth, were built on that assumption."
+            },
+            {
+              "label": "A selective line that may compress generations",
+              "case": "Biblical genealogies do sometimes skip generations; Matthew 1 omits kings known from Kings and Chronicles, and 'son' can mean descendant. The neat pattern of ten names before the flood and ten after, Genesis 11:10-26, looks shaped, and Luke 3:36 includes a Cainan between Arphaxad and Shelah who does not appear in the Hebrew text of Genesis 11."
+            }
+          ],
+          "bearing": "The text itself never adds up the numbers or offers a date for creation, so the chapter's purpose is not a calendar. Its interest is the unbroken continuity of the promised line and the reign of death over it, which both readings affirm."
         }
       ]
     },
-    "originalLanguages": "The chapter is framed by two great words and lit by two others. It opens on demut, likeness: humanity bears God's likeness, and Adam passes that likeness on, so the dignity of the image survives the fall. But over that dignity falls the shadow of muth, to die, the refrain that closes nearly every life, the ringing proof that God's warning came true. Then the drumbeat stops for Enoch, who halak, walked, with God until God laqach, took, him, and he did not see death. The chapter ends on nacham, comfort, as Lamech names Noah in longing for relief from the cursed ground, a longing the whole Bible will carry to Christ.",
+    "originalLanguages": "The heading of verse 1 is sepher toledot adam, 'the book of the generations of Adam.' Toledot comes from the verb yalad, to bear or beget, and the same root runs through the whole chapter in the repeated 'he became the father of,' the causative form of that verb. The chapter is literally a book of begettings. The Septuagint rendered the heading with biblos geneseos, and Matthew opens his Gospel with the same phrase, Matthew 1:1.\n\nThe word adam shifts meaning within two verses. In verses 1 and 2 it is humanity, 'male and female He created them... He called them man,' and the BSB footnote notes the Hebrew is Adam. In verse 3 it becomes a personal name. The first man carries the name of the race, which is why what happens to him in the refrain happens to all.\n\nVerse 3 reuses the two creation words of Genesis 1:26, tselem, image, and demut, likeness, but reverses their order and swaps their prepositions. God made man 'in Our image, after Our likeness'; Adam fathers Seth 'in his own likeness, after his own image.' The effect is to show continuity with a difference. Seth truly inherits what Adam received from God, yet he now receives it through a mortal father. James 3:9 can still say that people 'have been made in God's likeness,' and Genesis 9:6 grounds the law against murder in that image after the flood.\n\nThe Hebrew of verses 22 and 24 uses the hithpael stem of halak, a reflexive and iterative form that suggests walking to and fro, walking about with someone over time. It is the stem used of the LORD God 'walking in the garden,' Genesis 3:8, and it is used again of Noah in Genesis 6:9. The preposition matters. 'Walk with God' is said only of Enoch and Noah in Genesis, and later of the faithful priest in Malachi 2:6, 'He walked with Me in peace and uprightness.' Abraham is told to 'walk before Me,' Genesis 17:1, the language of a servant living under his master's eye. Enoch's phrase is the language of companionship. The Septuagint translated it as 'Enoch pleased God,' as the footnote notes, and Hebrews 11:5 follows that rendering.\n\nThe close of verse 24 is two short words in Hebrew, 'and he was not,' ve'enennu, because God laqach, took him. The first phrase is what Jacob says in grief of his lost sons, 'Simeon is no more,' Genesis 42:36, so on its own it could mean simply that a person is gone. The second phrase tells us where he went. Laqach is an ordinary verb for taking, but in 2 Kings 2:3 it becomes the word for Elijah's departure, 'the LORD will take your master away from you today,' and Psalm 49:15 uses it for rescue from Sheol.\n\nFinally, the name Noah, noach, is explained by Lamech with the verb nacham, to comfort, in verse 29. The two words are not from the same root; the BSB footnote says only that Noah 'sounds like the Hebrew for rest or comfort.' The sound links forward. The ark 'came to rest,' nuach, Genesis 8:4; the dove found no 'place to rest,' Genesis 8:9; and the LORD smelled the 'pleasing aroma,' literally an aroma of rest, Genesis 8:21. And the very verb Lamech uses for comfort is the one used in Genesis 6:6 when 'the LORD regretted that He had made man.' Lamech asks God to nacham his people; the next time the verb appears, God nachams over having made them at all.",
     "typology": [
-      { "type": "Enoch taken up without dying", "fulfillment": "A foreshadow of resurrection and ascension, fulfilled in Christ who conquers death and in the future catching up of His people, Hebrews 11:5, 1 Thessalonians 4:17." },
-      { "type": "Noah, named comfort", "fulfillment": "Christ, who truly comforts and gives rest from the curse and toil, bearing the curse Himself, Matthew 11:28, Galatians 3:13." },
-      { "type": "The likeness of God passed down the line", "fulfillment": "Restored and perfected in Christ, the true image of God, into whose likeness His people are remade, Colossians 3:10." }
+      {
+        "type": "Enoch taken up without dying, Genesis 5:24",
+        "fulfillment": "Enoch's end shows that death is not the last word for one who walks with God. In Christ this becomes far more than an exception. Jesus is not merely spared death; He dies, is raised, and then 'was taken up, and a cloud hid Him from their sight,' Acts 1:9. His people will be 'caught up together' to meet Him, 1 Thessalonians 4:17, and Jesus promises that whoever believes in Him 'will never die,' John 11:26. The type falls short because Enoch was taken alone and left death reigning over everyone else, while Christ destroys death itself, 1 Corinthians 15:26."
+      },
+      {
+        "type": "Noah, named for comfort from the cursed ground, Genesis 5:29",
+        "fulfillment": "Lamech hoped his son would bring relief from the curse of Genesis 3:17. Noah did bring a measure of it: through him the world survived judgment and God promised never again to curse the ground because of man, Genesis 8:21. Yet Noah himself died, and his later work as a farmer ended in drunkenness and a curse, Genesis 9:20-25. Christ is the true Comforter of the weary, 'Come to Me... and I will give you rest,' Matthew 11:28, and He removes the curse by becoming a curse, Galatians 3:13. Simeon waiting for 'the consolation of Israel,' Luke 2:25, finds it in Him."
+      },
+      {
+        "type": "The image passed from Adam to Seth, Genesis 5:3",
+        "fulfillment": "Adam fathers a son in his own likeness, so that humanity bears God's image through a mortal and fallen parent. Paul draws the same line and then extends it: 'just as we have borne the likeness of the earthly man, so also shall we bear the likeness of the heavenly man,' 1 Corinthians 15:49. Christ is Himself 'the image of the invisible God,' Colossians 1:15, and believers are 'predestined to be conformed to the image of His Son,' Romans 8:29. Adam could pass on only what he had, an image shadowed by death; Christ renews the image in knowledge, Colossians 3:10, and raises it immortal."
+      },
+      {
+        "type": "The ten generations from Adam to Noah",
+        "fulfillment": "The line runs from the first man to a new beginning through Noah, and Luke reads it as part of a longer line ending in Jesus, the son of Adam, the son of God, Luke 3:38. Matthew opens with 'the record of the genealogy of Jesus Christ,' Matthew 1:1, echoing the Greek heading of Genesis 5:1. The correspondence is that God carries His purpose through real families across long years. The escalation is that the last name in the line is not another son who dies but the Son who gives life, 1 Corinthians 15:22. The type is limited: a genealogy shows continuity, but it cannot itself save anyone in it."
+      }
     ],
-    "christ": "Two figures in this chapter reach toward Jesus. Enoch, who walked with God and was taken so that he did not see death, is a signpost to the life beyond the grave that Christ secures; Hebrews 11:5 makes him a hero of faith who pleased God, and his rescue anticipates both Christ's own ascension and the promise that the dead in Christ will be raised and caught up. Noah, named for comfort from the cursed ground, points to the greater Comforter who bears the curse Himself and calls the weary to find rest in Him. Even the tolling of death through this list sets the stage for the last Adam, in whom death is finally undone.",
-    "god": "God is the giver of life and dignity, creating humanity male and female, blessing them, and naming them. He is faithful to His warning, for death now reigns as He said it would; He is no less faithful to His promise, carrying the chosen line unbroken from Adam to Noah. And He is the God who delights in fellowship, walking with Enoch and taking him to Himself. Judgment and mercy, warning and promise, all rest in the same steady hand that guides the generations.",
+    "christ": "The chapter leads to Christ first through its line. Luke 3:36-38 takes the names of Genesis 5 and reads them in reverse, 'the son of Noah, the son of Lamech, the son of Methuselah, the son of Enoch,' all the way to 'the son of Adam, the son of God.' Luke places that genealogy between Jesus' baptism and His temptation, so that the One the Father has just called 'My beloved Son' is shown to belong fully to the human family whose history this chapter records. He enters the line where death reigns in order to reverse it from within.\n\nIt leads to Christ by the refrain. Eight times the chapter ends a life with 'and then he died,' and the reader learns that no one in Adam escapes. Paul gives the other half of the sentence: 'For as in Adam all die, so in Christ all will be made alive,' 1 Corinthians 15:22. Hebrews says the Son shared our flesh and blood to 'free those who all their lives were held in slavery by their fear of death,' Hebrews 2:15. The refrain of Genesis 5 is the slavery; Christ is the freedom.\n\nIt leads to Christ by the exception of Enoch, though the correspondence is partial and should be held carefully. Enoch walked with God and was taken, and Hebrews 11:5 makes his taking a fruit of faith. Jesus goes further than Enoch in both directions. He walked with the Father in unbroken fellowship, 'I always do what pleases Him,' as John 8:29 records. Yet unlike Enoch He did not avoid death. He went through it, rose, and only then was taken up, Acts 1:9. Enoch is a single man spared; Jesus is the firstfruits of a harvest, and He promises, 'if anyone keeps My word, he will never see death,' John 8:51.\n\nIt leads to Christ by Lamech's prayer. The only spoken words in the chapter are a request for comfort from 'the ground that the LORD has cursed.' The Old Testament keeps praying that prayer, 'Comfort, comfort My people,' Isaiah 40:1, and the Gospels answer it. Simeon was 'waiting for the consolation of Israel,' Luke 2:25, and when he held the child Jesus he said he could now depart in peace. Jesus offers rest to those who labour, Matthew 11:28, and at the cross He wore the thorns that belonged to the cursed ground, Matthew 27:29, bearing the curse so that it might be lifted, Galatians 3:13.\n\nA caution keeps the reading honest. The chapter is not an allegory, and the names are not coded messages about Jesus. Its link to Christ lies in the promise of Genesis 3:15 that it carries forward, in the death it records and Christ defeats, and in the New Testament's own use of Enoch and of this line.",
+    "god": "The chapter first shows God as Creator who stamps His own likeness on humanity and then keeps affirming it. The heading restates Genesis 1:26-28 with its blessing and naming, and verse 3 insists that the image still passes from father to son. God does not withdraw His dignity from humanity because of the fall. This is why Genesis 9:6 and James 3:9 can still ground human worth in the image of God.\n\nHe shows Himself as the God whose word stands. God said in Genesis 2:17 that disobedience would bring death, and Genesis 5 records it happening, life after life, without comment. The narrator does not need to argue for God's truthfulness; he simply lets the refrain toll. The long ages also show patience. Death is certain, but it is not hurried. God lets these generations grow, marry, have sons and daughters, fill the earth as He commanded in Genesis 1:28. His judgment and His patience run side by side, a pairing that 2 Peter 3:9 later names directly.\n\nHe shows Himself as the God who desires companionship. The verb used of Enoch walking with God is the same form used of God walking in the garden, Genesis 3:8. The broken fellowship of Eden is not simply mourned from a distance; God makes it possible again in a fallen world. Enoch did not climb to God. God took him. The initiative in the last act of Enoch's life is entirely God's, and the chapter never tells us why Enoch was chosen, only that he walked with God.\n\nHe shows Himself as the God who can overrule death at will. The refrain is broken not by a hero's strength but by a divine act. That anticipates the Old Testament confessions that God can 'redeem my life from Sheol,' Psalm 49:15, and the New Testament confession that God raised Jesus from the dead.\n\nAnd He shows Himself as the God to whom sufferers may bring their complaint. Lamech names the LORD as the one who cursed the ground, verse 29, and in the same breath asks for comfort. He does not accuse God of injustice or pretend the curse is not there. The chapter holds a tension that the rest of Scripture keeps: God is the just Judge who cursed the ground, and God is the only one who can comfort those who labour under it. He is, in Paul's phrase, 'the God of all comfort,' 2 Corinthians 1:3.\n\nFor worship, the chapter teaches the humility of Psalm 90, 'You return man to dust,' Psalm 90:3, together with the hope of Enoch. We number our days honestly, we walk with God in them, and we trust Him with what happens at the end.",
     "crossReferences": [
-      { "ref": "Hebrews 11:5", "note": "By faith Enoch was taken up so that he did not see death, for he was commended as one who pleased God." },
-      { "ref": "Luke 3:36-38", "note": "The genealogy of Jesus runs directly through this line from Noah back to Adam." },
-      { "ref": "Romans 5:12-14", "note": "Death reigned from Adam onward, exactly the pattern this chapter records." },
-      { "ref": "Jude 1:14-15", "note": "Enoch, the seventh from Adam, prophesied of the Lord's coming in judgment." }
+      {
+        "ref": "Genesis 4:17-24",
+        "note": "Cain's line runs in parallel to this chapter, with its own Enoch and Lamech. Cain's Enoch lends his name to a city; Seth's Enoch walks with God. Cain's Lamech boasts of killing and vengeance seventy-sevenfold; Seth's Lamech prays for comfort and lives 777 years. The two lines show two ways of living east of Eden."
+      },
+      {
+        "ref": "Genesis 2:17",
+        "note": "The warning that stands behind the refrain. God said that in the day of eating 'you will surely die,' and Genesis 5 records that word being kept in every generation, beginning with Adam himself in verse 5. The chapter is the narrative proof that God's warnings are not empty."
+      },
+      {
+        "ref": "Romans 5:12-14",
+        "note": "Paul says 'death reigned from Adam until Moses,' even over those who did not sin as Adam did. Genesis 5 is that reign told as history. Paul then calls Adam 'a pattern of the One to come,' pointing from the head of this dying line to the head of a living one."
+      },
+      {
+        "ref": "Hebrews 11:5-6",
+        "note": "Hebrews follows the Septuagint's rendering of Genesis 5:22 and 24, 'he pleased God,' and quotes 'He could not be found, because God had taken him away.' It then draws the principle that without faith it is impossible to please God, so Enoch's walk is interpreted as a walk of faith."
+      },
+      {
+        "ref": "2 Kings 2:11",
+        "note": "The only other person in the Old Testament taken by God without dying. Elijah 'went up into heaven in a whirlwind,' and the narrative uses the same verb, take, that Genesis 5:24 uses for Enoch, 2 Kings 2:1 and 2:3. The two together keep alive the hope that God can carry His servants beyond death."
+      },
+      {
+        "ref": "Psalm 49:15",
+        "note": "The psalmist contrasts the wealthy who go down to Sheol with his own hope: 'God will redeem my life from Sheol, for He will surely take me to Himself.' The verb echoes Enoch's taking and turns it into the confident prayer of an ordinary believer facing death."
+      },
+      {
+        "ref": "Jude 1:14-15",
+        "note": "Jude calls Enoch 'the seventh from Adam,' which fits the count of Genesis 5 exactly, and cites a prophecy of the Lord coming with myriads of His holy ones to judge the ungodly. The man who walked with God is remembered as one who warned his generation of judgment."
+      },
+      {
+        "ref": "Luke 3:36-38",
+        "note": "Luke's genealogy of Jesus runs backward through every name of Genesis 5, ending at 'the son of Adam, the son of God.' Placed straight after Jesus' baptism, it shows the Son of God entering the very line over which death had reigned, so that He could undo that reign."
+      },
+      {
+        "ref": "1 Corinthians 15:22",
+        "note": "'For as in Adam all die, so in Christ all will be made alive.' The first half is Genesis 5 in a sentence. The second half is the answer the chapter could only hint at through Enoch: a new head of humanity whose line ends not in death but in resurrection."
+      },
+      {
+        "ref": "Genesis 8:21",
+        "note": "The sound of Noah's name returns after the flood. The LORD smells an aroma of rest from Noah's sacrifice and promises never again to curse the ground because of man. Lamech's prayer for comfort from the cursed ground receives a real, though partial, answer through his son."
+      },
+      {
+        "ref": "Isaiah 40:1",
+        "note": "'Comfort, comfort My people,' says your God. The verb is the one Lamech used when naming Noah. What a father once prayed over one son becomes God's own word over a people in exile, a comfort that Isaiah 40 ties to the coming of the LORD Himself."
+      },
+      {
+        "ref": "Matthew 11:28",
+        "note": "Jesus invites all who are weary and burdened to come to Him for rest. Lamech longed for relief from the toil of a cursed ground; the rest Christ gives reaches deeper than relief from labour, to rest for the soul, and so answers the longing Genesis 5:29 first voiced."
+      }
     ],
-    "oneStory": "From Adam the line runs on through ten generations, and over each one falls the same shadow, and then he died, the reign of death that entered at the fall. Yet the promised seed is not lost: it passes safely down to Noah. One man walks with God and escapes the grave, and the chapter closes in longing for comfort from the curse. That longing, and that unbroken line, press on toward Jesus, the last Adam, who breaks the refrain of death for good.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "Genesis 5 follows directly on two scenes: the murder of Abel and the spread of Cain's line in Genesis 4, and the small note that 'men began to call upon the name of the LORD,' Genesis 4:26. The reader already knows that God promised a seed of the woman in Genesis 3:15, and that Eve saw Seth as 'another seed in place of Abel,' Genesis 4:25. This chapter answers the question those scenes raise: will the promised line survive in a world where death has entered and violence is growing?\n\nIt answers yes, and it answers soberly. The line survives, but every link in it dies. The dignity of creation remains, since the image passes from father to son, but the curse of the fall remains too, and the chapter lets both stand side by side. Creation and fall are present in every entry.\n\nIt also sets up what follows. Lamech's prayer for comfort leads straight into Genesis 6, where the LORD grieves and the earth is filled with violence. Noah, the son named for comfort, becomes the man through whom God carries creation through judgment. The pattern of Genesis 5, a line of ten generations ending in a man with three sons, is repeated in Genesis 11 from Shem to Abram, and Abram becomes the one through whom all the families of the earth will be blessed, Genesis 12:3. The genealogies are the rails on which the promise travels.\n\nIn redemption the line runs on through Israel and David to Jesus, and Luke 3 walks it back to Adam to show that Jesus belongs to it. In Him the refrain is broken for good. He dies, as every name in Genesis 5 dies, but He rises, and His resurrection is 'the firstfruits' of all who belong to Him. Enoch was a single sign; Christ is the reality. Paul calls death 'the last enemy to be destroyed,' 1 Corinthians 15:26.\n\nThe new creation answers both halves of this chapter. The image of God, carried in mortal bodies through every generation, will be borne in its fullness when we bear 'the likeness of the heavenly man,' 1 Corinthians 15:49. And the refrain that tolled through Genesis 5 will be silenced: 'He will swallow up death forever,' Isaiah 25:8, and 'there will be no more death or mourning or crying or pain,' Revelation 21:4. The walk that Enoch began with God in a fallen world becomes the permanent life of all God's people, who 'will always be with the Lord,' 1 Thessalonians 4:17.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What refrain repeats through most of the chapter, and what does it teach?",
       "options": [
-        { "text": "And then he died, teaching that death now reigns over Adam's line as God warned.", "weight": 100, "note": "The refrain drums home the fulfillment of God's warning about death." },
-        { "text": "And he walked with God, teaching that everyone pleased the LORD.", "weight": 75, "note": "That phrase is used only of Enoch, the exception, not the rule of the chapter." },
-        { "text": "And he was fruitful, teaching that the population grew.", "weight": 25, "note": "Growth is present, but the defining refrain is death, not fruitfulness." },
-        { "text": "And the LORD blessed him, teaching only prosperity.", "weight": 0, "note": "The recurring note is death, not blessing." }
+        {
+          "text": "And then he died, teaching that death now reigns over Adam's line as God warned.",
+          "weight": 100,
+          "note": "The refrain drums home the fulfillment of God's warning about death."
+        },
+        {
+          "text": "And he walked with God, teaching that everyone pleased the LORD.",
+          "weight": 75,
+          "note": "That phrase is used only of Enoch, the exception, not the rule of the chapter."
+        },
+        {
+          "text": "And he was fruitful, teaching that the population grew.",
+          "weight": 25,
+          "note": "Growth is present, but the defining refrain is death, not fruitfulness."
+        },
+        {
+          "text": "And the LORD blessed him, teaching only prosperity.",
+          "weight": 0,
+          "note": "The recurring note is death, not blessing."
+        }
       ]
     },
     {
       "q": "What is unique about Enoch in this genealogy?",
       "options": [
-        { "text": "He walked with God and did not die; God took him away.", "weight": 100, "note": "Enoch alone breaks the refrain of death." },
-        { "text": "He lived the longest of all the fathers listed.", "weight": 75, "note": "The opposite; his 365 years are the shortest span, and he did not die at all." },
-        { "text": "He was the only one who had sons and daughters.", "weight": 25, "note": "Many in the list had sons and daughters; Enoch's uniqueness is walking with God and being taken." },
-        { "text": "He refused to have any children.", "weight": 0, "note": "The text says Enoch fathered Methuselah and other sons and daughters." }
+        {
+          "text": "He walked with God and did not die; God took him away.",
+          "weight": 100,
+          "note": "Enoch alone breaks the refrain of death."
+        },
+        {
+          "text": "He lived the longest of all the fathers listed.",
+          "weight": 75,
+          "note": "The opposite; his 365 years are the shortest span, and he did not die at all."
+        },
+        {
+          "text": "He was the only one who had sons and daughters.",
+          "weight": 25,
+          "note": "Many in the list had sons and daughters; Enoch's uniqueness is walking with God and being taken."
+        },
+        {
+          "text": "He refused to have any children.",
+          "weight": 0,
+          "note": "The text says Enoch fathered Methuselah and other sons and daughters."
+        }
       ]
     },
     {
       "q": "Why did Lamech name his son Noah?",
       "options": [
-        { "text": "He hoped this son would bring comfort from the toil of the cursed ground.", "weight": 100, "note": "Noah's name is tied to comfort and relief from the curse." },
-        { "text": "Because Noah means mighty warrior.", "weight": 75, "note": "Noah is linked to rest or comfort, not to warfare." },
-        { "text": "To honor his grandfather Enoch.", "weight": 25, "note": "The naming is about longed-for comfort, not honoring an ancestor." },
-        { "text": "For no stated reason at all.", "weight": 0, "note": "The text gives a clear reason, comfort from the cursed ground." }
+        {
+          "text": "He hoped this son would bring comfort from the toil of the cursed ground.",
+          "weight": 100,
+          "note": "Noah's name is tied to comfort and relief from the curse."
+        },
+        {
+          "text": "Because Noah means mighty warrior.",
+          "weight": 75,
+          "note": "Noah is linked to rest or comfort, not to warfare."
+        },
+        {
+          "text": "To honor his grandfather Enoch.",
+          "weight": 25,
+          "note": "The naming is about longed-for comfort, not honoring an ancestor."
+        },
+        {
+          "text": "For no stated reason at all.",
+          "weight": 0,
+          "note": "The text gives a clear reason, comfort from the cursed ground."
+        }
       ]
     },
     {
       "q": "How does Enoch point forward to the gospel?",
       "options": [
-        { "text": "Being taken up without dying, he anticipates resurrection hope and Christ's victory over death.", "weight": 100, "note": "Hebrews 11:5 makes Enoch a sign of life beyond the grave through faith." },
-        { "text": "He wrote the first book of the Bible.", "weight": 75, "note": "The text does not say this; his link to the gospel is his rescue from death." },
-        { "text": "He built an altar and offered sacrifice.", "weight": 25, "note": "That detail is not in the chapter; his significance is walking with God and being taken." },
-        { "text": "He has no connection to the gospel.", "weight": 0, "note": "Hebrews holds him up as a man of faith who pleased God." }
+        {
+          "text": "Being taken up without dying, he anticipates resurrection hope and Christ's victory over death.",
+          "weight": 100,
+          "note": "Hebrews 11:5 makes Enoch a sign of life beyond the grave through faith."
+        },
+        {
+          "text": "He wrote the first book of the Bible.",
+          "weight": 75,
+          "note": "The text does not say this; his link to the gospel is his rescue from death."
+        },
+        {
+          "text": "He built an altar and offered sacrifice.",
+          "weight": 25,
+          "note": "That detail is not in the chapter; his significance is walking with God and being taken."
+        },
+        {
+          "text": "He has no connection to the gospel.",
+          "weight": 0,
+          "note": "Hebrews holds him up as a man of faith who pleased God."
+        }
       ]
     },
     {
       "q": "What truth does the chapter affirm about human beings at its very start?",
       "options": [
-        { "text": "They are made in God's likeness, and that dignity is passed down the generations.", "weight": 100, "note": "Verses 1 to 3 anchor human dignity in the image of God." },
-        { "text": "They are mere accidents with no special worth.", "weight": 75, "note": "The chapter says the opposite; humanity bears God's likeness." },
-        { "text": "They were created only to work the ground.", "weight": 25, "note": "Work is real, but the chapter's opening truth is being made in God's likeness." },
-        { "text": "They lost the image of God completely at the fall.", "weight": 0, "note": "The likeness is dented yet still passed on, as Adam fathers a son in his likeness." }
+        {
+          "text": "They are made in God's likeness, and that dignity is passed down the generations.",
+          "weight": 100,
+          "note": "Verses 1 to 3 anchor human dignity in the image of God."
+        },
+        {
+          "text": "They are mere accidents with no special worth.",
+          "weight": 75,
+          "note": "The chapter says the opposite; humanity bears God's likeness."
+        },
+        {
+          "text": "They were created only to work the ground.",
+          "weight": 25,
+          "note": "Work is real, but the chapter's opening truth is being made in God's likeness."
+        },
+        {
+          "text": "They lost the image of God completely at the fall.",
+          "weight": 0,
+          "note": "The likeness is dented yet still passed on, as Adam fathers a son in his likeness."
+        }
       ]
     }
   ],
@@ -184,8 +504,17 @@
     "The promised line held together through generations of loss. Where do you need to trust that God is quietly keeping His promises across the long stretch of your family's story?"
   ],
   "translationNotes": [
-    { "ref": "Genesis 5:24", "note": "He was no more, because God had taken him away renders a Hebrew phrase the Greek Old Testament reads as he was not found, because God had taken him; Hebrews 11:5 follows that reading to say Enoch did not see death." },
-    { "ref": "Genesis 5:29", "note": "The name Noah sounds like the Hebrew word for rest or comfort, and Lamech's saying, may this one comfort us, plays on that sound; the wordplay ties Noah to relief from the curse of 3:17." }
+    {
+      "ref": "Genesis 5:24",
+      "note": "He was no more, because God had taken him away renders a Hebrew phrase the Greek Old Testament reads as he was not found, because God had taken him; Hebrews 11:5 follows that reading to say Enoch did not see death."
+    },
+    {
+      "ref": "Genesis 5:29",
+      "note": "The name Noah sounds like the Hebrew word for rest or comfort, and Lamech's saying, may this one comfort us, plays on that sound; the wordplay ties Noah to relief from the curse of 3:17."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "" }
+  "meta": {
+    "textToVerify": [],
+    "notes": ""
+  }
 }

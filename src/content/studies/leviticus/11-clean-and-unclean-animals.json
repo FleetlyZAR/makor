@@ -18,14 +18,46 @@
         "note": "split hoof and chewing the cud",
         "emphasis": "",
         "verses": [
-          { "chapter": 11, "n": 1, "text": "The LORD spoke again to Moses and Aaron, telling them," },
-          { "chapter": 11, "n": 2, "text": "“Say to the Israelites, ‘Of all the beasts of the earth, these ones you may eat:" },
-          { "chapter": 11, "n": 3, "text": "You may eat any animal that has a split hoof completely divided and that chews the cud." },
-          { "chapter": 11, "n": 4, "text": "But of those that only chew the cud or only have a divided hoof, you are not to eat the following: The camel, though it chews the cud, does not have a divided hoof; it is {{tame|unclean}} for you." },
-          { "chapter": 11, "n": 5, "text": "The rock badger, though it chews the cud, does not have a divided hoof; it is unclean for you." },
-          { "chapter": 11, "n": 6, "text": "The rabbit, though it chews the cud, does not have a divided hoof; it is unclean for you." },
-          { "chapter": 11, "n": 7, "text": "And the pig, though it has a split hoof completely divided, does not chew the cud; it is unclean for you." },
-          { "chapter": 11, "n": 8, "text": "You must not eat their meat or touch their carcasses; they are unclean for you." }
+          {
+            "chapter": 11,
+            "n": 1,
+            "text": "The LORD spoke again to Moses and Aaron, telling them,"
+          },
+          {
+            "chapter": 11,
+            "n": 2,
+            "text": "“Say to the Israelites, ‘Of all the beasts of the earth, these ones you may eat:"
+          },
+          {
+            "chapter": 11,
+            "n": 3,
+            "text": "You may eat any animal that has a split hoof completely divided and that chews the cud."
+          },
+          {
+            "chapter": 11,
+            "n": 4,
+            "text": "But of those that only chew the cud or only have a divided hoof, you are not to eat the following: The camel, though it chews the cud, does not have a divided hoof; it is {{tame|unclean}} for you."
+          },
+          {
+            "chapter": 11,
+            "n": 5,
+            "text": "The rock badger, though it chews the cud, does not have a divided hoof; it is unclean for you."
+          },
+          {
+            "chapter": 11,
+            "n": 6,
+            "text": "The rabbit, though it chews the cud, does not have a divided hoof; it is unclean for you."
+          },
+          {
+            "chapter": 11,
+            "n": 7,
+            "text": "And the pig, though it has a split hoof completely divided, does not chew the cud; it is unclean for you."
+          },
+          {
+            "chapter": 11,
+            "n": 8,
+            "text": "You must not eat their meat or touch their carcasses; they are unclean for you."
+          }
         ]
       },
       {
@@ -33,21 +65,81 @@
         "note": "fins and scales, detestable birds",
         "emphasis": "",
         "verses": [
-          { "chapter": 11, "n": 9, "text": "Of all the creatures that live in the water, whether in the seas or in the streams, you may eat anything with fins and scales." },
-          { "chapter": 11, "n": 10, "text": "But the following among all the teeming life and creatures in the water are detestable to you: everything in the seas or streams that does not have fins and scales." },
-          { "chapter": 11, "n": 11, "text": "They shall be an abomination to you; you must not eat their meat, and you must detest their carcasses." },
-          { "chapter": 11, "n": 12, "text": "Everything in the water that does not have fins and scales shall be detestable to you." },
-          { "chapter": 11, "n": 13, "text": "Additionally, you are to detest the following birds, and they must not be eaten because they are detestable: the eagle, the bearded vulture, the black vulture," },
-          { "chapter": 11, "n": 14, "text": "the kite, any kind of falcon," },
-          { "chapter": 11, "n": 15, "text": "any kind of raven," },
-          { "chapter": 11, "n": 16, "text": "the ostrich, the screech owl, the gull, any kind of hawk," },
-          { "chapter": 11, "n": 17, "text": "the little owl, the cormorant, the great owl," },
-          { "chapter": 11, "n": 18, "text": "the white owl, the desert owl, the osprey," },
-          { "chapter": 11, "n": 19, "text": "the stork, any kind of heron, the hoopoe, and the bat." },
-          { "chapter": 11, "n": 20, "text": "All flying insects that walk on all fours are detestable to you." },
-          { "chapter": 11, "n": 21, "text": "However, you may eat the following kinds of flying insects that walk on all fours: those having jointed legs above their feet for hopping on the ground." },
-          { "chapter": 11, "n": 22, "text": "Of these you may eat any kind of locust, katydid, cricket, or grasshopper." },
-          { "chapter": 11, "n": 23, "text": "All other flying insects that have four legs are detestable to you." }
+          {
+            "chapter": 11,
+            "n": 9,
+            "text": "Of all the creatures that live in the water, whether in the seas or in the streams, you may eat anything with fins and scales."
+          },
+          {
+            "chapter": 11,
+            "n": 10,
+            "text": "But the following among all the teeming life and creatures in the water are detestable to you: everything in the seas or streams that does not have fins and scales."
+          },
+          {
+            "chapter": 11,
+            "n": 11,
+            "text": "They shall be an abomination to you; you must not eat their meat, and you must detest their carcasses."
+          },
+          {
+            "chapter": 11,
+            "n": 12,
+            "text": "Everything in the water that does not have fins and scales shall be detestable to you."
+          },
+          {
+            "chapter": 11,
+            "n": 13,
+            "text": "Additionally, you are to detest the following birds, and they must not be eaten because they are detestable: the eagle, the bearded vulture, the black vulture,"
+          },
+          {
+            "chapter": 11,
+            "n": 14,
+            "text": "the kite, any kind of falcon,"
+          },
+          {
+            "chapter": 11,
+            "n": 15,
+            "text": "any kind of raven,"
+          },
+          {
+            "chapter": 11,
+            "n": 16,
+            "text": "the ostrich, the screech owl, the gull, any kind of hawk,"
+          },
+          {
+            "chapter": 11,
+            "n": 17,
+            "text": "the little owl, the cormorant, the great owl,"
+          },
+          {
+            "chapter": 11,
+            "n": 18,
+            "text": "the white owl, the desert owl, the osprey,"
+          },
+          {
+            "chapter": 11,
+            "n": 19,
+            "text": "the stork, any kind of heron, the hoopoe, and the bat."
+          },
+          {
+            "chapter": 11,
+            "n": 20,
+            "text": "All flying insects that walk on all fours are detestable to you."
+          },
+          {
+            "chapter": 11,
+            "n": 21,
+            "text": "However, you may eat the following kinds of flying insects that walk on all fours: those having jointed legs above their feet for hopping on the ground."
+          },
+          {
+            "chapter": 11,
+            "n": 22,
+            "text": "Of these you may eat any kind of locust, katydid, cricket, or grasshopper."
+          },
+          {
+            "chapter": 11,
+            "n": 23,
+            "text": "All other flying insects that have four legs are detestable to you."
+          }
         ]
       },
       {
@@ -55,23 +147,91 @@
         "note": "carcasses, pots, and crawling creatures",
         "emphasis": "",
         "verses": [
-          { "chapter": 11, "n": 24, "text": "These creatures will make you unclean. Whoever touches their carcasses will be unclean until evening," },
-          { "chapter": 11, "n": 25, "text": "and whoever picks up one of their carcasses must wash his clothes, and he will be unclean until evening." },
-          { "chapter": 11, "n": 26, "text": "Every animal with hooves not completely divided or that does not chew the cud is unclean for you. Whoever touches any of them will be unclean." },
-          { "chapter": 11, "n": 27, "text": "All the four-footed animals that walk on their paws are unclean for you; whoever touches their carcasses will be unclean until evening," },
-          { "chapter": 11, "n": 28, "text": "and anyone who picks up a carcass must wash his clothes, and he will be unclean until evening. They are unclean for you." },
-          { "chapter": 11, "n": 29, "text": "The following creatures that move along the ground are unclean for you: the mole, the mouse, any kind of great lizard," },
-          { "chapter": 11, "n": 30, "text": "the gecko, the monitor lizard, the common lizard, the skink, and the chameleon." },
-          { "chapter": 11, "n": 31, "text": "These animals are unclean for you among all the crawling creatures. Whoever touches them when they are dead shall be unclean until evening." },
-          { "chapter": 11, "n": 32, "text": "When one of them dies and falls on something, that article becomes unclean; any article of wood, clothing, leather, sackcloth, or any implement used for work must be rinsed with water and will remain unclean until evening; then it will be clean." },
-          { "chapter": 11, "n": 33, "text": "If any of them falls into a clay pot, everything in it will be unclean; you must break the pot." },
-          { "chapter": 11, "n": 34, "text": "Any food coming into contact with water from that pot will be unclean, and any drink in such a container will be unclean." },
-          { "chapter": 11, "n": 35, "text": "Anything upon which one of their carcasses falls will be unclean. If it is an oven or cooking pot, it must be smashed; it is unclean and will remain unclean for you." },
-          { "chapter": 11, "n": 36, "text": "Nevertheless, a spring or cistern containing water will remain clean, but one who touches a carcass in it will be unclean." },
-          { "chapter": 11, "n": 37, "text": "If a carcass falls on any seed for sowing, the seed is clean;" },
-          { "chapter": 11, "n": 38, "text": "but if water has been put on the seed and a carcass falls on it, it is unclean for you." },
-          { "chapter": 11, "n": 39, "text": "If an animal that you may eat dies, anyone who touches the carcass will be unclean until evening." },
-          { "chapter": 11, "n": 40, "text": "Whoever eats from the carcass must wash his clothes and will be unclean until evening, and anyone who picks up the carcass must wash his clothes and will be unclean until evening." }
+          {
+            "chapter": 11,
+            "n": 24,
+            "text": "These creatures will make you unclean. Whoever touches their carcasses will be unclean until evening,"
+          },
+          {
+            "chapter": 11,
+            "n": 25,
+            "text": "and whoever picks up one of their carcasses must wash his clothes, and he will be unclean until evening."
+          },
+          {
+            "chapter": 11,
+            "n": 26,
+            "text": "Every animal with hooves not completely divided or that does not chew the cud is unclean for you. Whoever touches any of them will be unclean."
+          },
+          {
+            "chapter": 11,
+            "n": 27,
+            "text": "All the four-footed animals that walk on their paws are unclean for you; whoever touches their carcasses will be unclean until evening,"
+          },
+          {
+            "chapter": 11,
+            "n": 28,
+            "text": "and anyone who picks up a carcass must wash his clothes, and he will be unclean until evening. They are unclean for you."
+          },
+          {
+            "chapter": 11,
+            "n": 29,
+            "text": "The following creatures that move along the ground are unclean for you: the mole, the mouse, any kind of great lizard,"
+          },
+          {
+            "chapter": 11,
+            "n": 30,
+            "text": "the gecko, the monitor lizard, the common lizard, the skink, and the chameleon."
+          },
+          {
+            "chapter": 11,
+            "n": 31,
+            "text": "These animals are unclean for you among all the crawling creatures. Whoever touches them when they are dead shall be unclean until evening."
+          },
+          {
+            "chapter": 11,
+            "n": 32,
+            "text": "When one of them dies and falls on something, that article becomes unclean; any article of wood, clothing, leather, sackcloth, or any implement used for work must be rinsed with water and will remain unclean until evening; then it will be clean."
+          },
+          {
+            "chapter": 11,
+            "n": 33,
+            "text": "If any of them falls into a clay pot, everything in it will be unclean; you must break the pot."
+          },
+          {
+            "chapter": 11,
+            "n": 34,
+            "text": "Any food coming into contact with water from that pot will be unclean, and any drink in such a container will be unclean."
+          },
+          {
+            "chapter": 11,
+            "n": 35,
+            "text": "Anything upon which one of their carcasses falls will be unclean. If it is an oven or cooking pot, it must be smashed; it is unclean and will remain unclean for you."
+          },
+          {
+            "chapter": 11,
+            "n": 36,
+            "text": "Nevertheless, a spring or cistern containing water will remain clean, but one who touches a carcass in it will be unclean."
+          },
+          {
+            "chapter": 11,
+            "n": 37,
+            "text": "If a carcass falls on any seed for sowing, the seed is clean;"
+          },
+          {
+            "chapter": 11,
+            "n": 38,
+            "text": "but if water has been put on the seed and a carcass falls on it, it is unclean for you."
+          },
+          {
+            "chapter": 11,
+            "n": 39,
+            "text": "If an animal that you may eat dies, anyone who touches the carcass will be unclean until evening."
+          },
+          {
+            "chapter": 11,
+            "n": 40,
+            "text": "Whoever eats from the carcass must wash his clothes and will be unclean until evening, and anyone who picks up the carcass must wash his clothes and will be unclean until evening."
+          }
         ]
       },
       {
@@ -79,20 +239,58 @@
         "note": "the ground for the whole chapter",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 11, "n": 41, "text": "Every creature that moves along the ground is detestable; it must not be eaten." },
-          { "chapter": 11, "n": 42, "text": "Do not eat any creature that moves along the ground, whether it crawls on its belly or walks on four or more feet; for such creatures are detestable." },
-          { "chapter": 11, "n": 43, "text": "Do not defile yourselves by any crawling creature; do not become unclean or defiled by them." },
-          { "chapter": 11, "n": 44, "text": "For I am the LORD your God; consecrate yourselves, therefore, and be {{qadosh|holy}}, because I am holy. You must not defile yourselves by any creature that crawls along the ground." },
-          { "chapter": 11, "n": 45, "text": "For I am the LORD, who brought you up out of the land of Egypt so that I would be your God; therefore be holy, because I am holy." },
-          { "chapter": 11, "n": 46, "text": "This is the law regarding animals, birds, all living creatures that move in the water, and all creatures that crawl along the ground." },
-          { "chapter": 11, "n": 47, "text": "You must distinguish between the unclean and the clean, between animals that may be eaten and those that may not.’”" }
+          {
+            "chapter": 11,
+            "n": 41,
+            "text": "Every creature that moves along the ground is detestable; it must not be eaten."
+          },
+          {
+            "chapter": 11,
+            "n": 42,
+            "text": "Do not eat any creature that moves along the ground, whether it crawls on its belly or walks on four or more feet; for such creatures are detestable."
+          },
+          {
+            "chapter": 11,
+            "n": 43,
+            "text": "Do not defile yourselves by any crawling creature; do not become unclean or defiled by them."
+          },
+          {
+            "chapter": 11,
+            "n": 44,
+            "text": "For I am the LORD your God; consecrate yourselves, therefore, and be {{qadosh|holy}}, because I am holy. You must not defile yourselves by any creature that crawls along the ground."
+          },
+          {
+            "chapter": 11,
+            "n": 45,
+            "text": "For I am the LORD, who brought you up out of the land of Egypt so that I would be your God; therefore be holy, because I am holy."
+          },
+          {
+            "chapter": 11,
+            "n": 46,
+            "text": "This is the law regarding animals, birds, all living creatures that move in the water, and all creatures that crawl along the ground."
+          },
+          {
+            "chapter": 11,
+            "n": 47,
+            "text": "You must distinguish between the unclean and the clean, between animals that may be eaten and those that may not.’”"
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "tame": { "language": "Hebrew", "lemma": "tame", "original": "טמא", "gloss": "Unclean, ceremonially unfit for approach to God or His sanctuary. Not a statement about hygiene or moral evil in itself, but a category marking certain creatures as outside the boundary of what a holy people may eat or touch without further ritual consequence." },
-    "qadosh": { "language": "Hebrew", "lemma": "qadosh", "original": "קדש", "gloss": "Holy, set apart. The chapter's repeated refrain, be holy, because I am holy, grounds every dietary distinction in God's own character; Israel's diet was meant to visibly embody their identity as a people set apart to Him." }
+    "tame": {
+      "language": "Hebrew",
+      "lemma": "tame",
+      "original": "טמא",
+      "gloss": "Unclean, ceremonially unfit for approach to God or His sanctuary. Not a statement about hygiene or moral evil in itself, but a category marking certain creatures as outside the boundary of what a holy people may eat or touch without further ritual consequence."
+    },
+    "qadosh": {
+      "language": "Hebrew",
+      "lemma": "qadosh",
+      "original": "קדש",
+      "gloss": "Holy, set apart. The chapter's repeated refrain, be holy, because I am holy, grounds every dietary distinction in God's own character; Israel's diet was meant to visibly embody their identity as a people set apart to Him."
+    }
   },
   "study": {
     "basic": {
@@ -106,76 +304,251 @@
       "oneStory": "This chapter forms Israel into a visibly distinct people through their diet, grounding every distinction in God's own holiness, be holy, because I am holy. The New Testament shows this entire system fulfilled in Christ, whose finished work makes people holy from the heart, tearing down the dietary wall that once separated Jew from Gentile."
     },
     "context": {
-      "literary": "This chapter immediately follows the charge given to Aaron in chapter 10:10-11 to distinguish holy from common and clean from unclean and to teach these distinctions to Israel; chapter 11 is that teaching put into detailed practice.",
-      "historical": "Surrounding ancient Near Eastern cultures had their own food taboos, but Israel's laws were distinctive in being grounded explicitly and repeatedly in the character of their God rather than in magic, taboo, or hygiene theory alone.",
-      "canonical": "This chapter's food laws become one of the clearest points at which the New Testament announces the fulfillment and setting aside of old covenant ceremonial law, discussed directly by Jesus, Mark 7, and applied to the early church's mission to the Gentiles in Acts 10 and 15."
+      "literary": "Leviticus 11 opens the book's long section on purity, chapters 11 to 15, which moves from food to childbirth, skin disease and bodily discharges before the Day of Atonement cleanses the whole sanctuary in chapter 16. It follows directly from the charge laid on Aaron in Leviticus 10:10-11 to 'distinguish between the holy and the common, between the clean and the unclean' and to teach Israel. The chapter is that teaching, and it closes with the same verb: 'You must distinguish between the unclean and the clean,' verse 47.\n\nThe structure follows the realms of the created world. Land animals come first, verses 2 to 8, sorted by two tests, a fully split hoof and chewing the cud, with four borderline cases named: camel, rock badger, rabbit and pig. Creatures of the water follow, verses 9 to 12, with a single test of fins and scales. Birds are given as a list without a test, verses 13 to 19, and flying insects are forbidden except those with jointed legs for hopping, verses 20 to 23. A long middle section then deals not with eating but with touching carcasses, verses 24 to 40, and the spread of uncleanness to garments, pots, ovens, food and seed. The chapter ends with the creatures that swarm on the ground, verses 41 to 45, and a summary, verses 46 to 47.\n\nThe language deliberately recalls Genesis 1. The categories are those of creation: 'livestock, land crawlers, and beasts of the earth,' Genesis 1:24, the teeming creatures of the waters and the birds of the sky, Genesis 1:20-21. The verb 'distinguish' is the verb God used when He 'separated the light from the darkness,' Genesis 1:4. Israel's kitchen becomes a small copy of God's ordering of the world.\n\nThe climax is theological, not dietary. Verses 44 and 45 twice say, 'be holy, because I am holy,' grounding the command in the LORD's identity and in the exodus, 'who brought you up out of the land of Egypt so that I would be your God.' The phrase will become the refrain of the holiness laws that follow, Leviticus 19:2 and 20:26.",
+      "historical": "The first hearers were a people on the move from Egypt toward Canaan, and the chapter speaks the language of a pastoral and farming economy. The permitted land animals are essentially the domesticated flocks and herds, cattle, sheep and goats, along with wild game of the same type; Deuteronomy 14:4-5 names the ox, sheep and goat, the deer, gazelle, ibex and antelope. The camel, the beast of desert traders, is excluded, and so is the pig.\n\nMany identifications are uncertain, as the BSB footnote to verse 4 says: 'The precise identification of some of the birds and animals in this chapter is uncertain.' The rock badger is the hyrax, footnoted as 'coney,' and the rabbit is included because both animals move their jaws in a way that looks like chewing the cud. The law uses the categories of ordinary observation, not modern zoology, and that is no defect in it.\n\nThe pig had special associations. Pigs were raised and eaten in the lands around Israel, and later prophets link pork with idolatrous rites, those who eat 'the meat of pigs and polluted broth,' Isaiah 65:4, and 'the flesh of swine and vermin and rats,' Isaiah 66:17. Centuries later, in the crisis under the Seleucid kings described in the books of the Maccabees, Jews chose death rather than eat pork, and the food laws became a badge of loyalty. Daniel in Babylon refused 'to defile himself with the king's food,' Daniel 1:8, and Ezekiel protested, 'No unclean meat has ever entered my mouth,' Ezekiel 4:14.\n\nThe rules about contact are practical as well as symbolic. A household with clay pots, ovens and water jars had to know what to do when a mouse or lizard fell dead into them, verses 32 to 35. The washing of garments and waiting 'until evening' built a rhythm into daily life, and the exception for springs and cisterns, verse 36, protected the community's water supply. By Jesus' day these laws had been extended by tradition into elaborate washings of 'cups, pitchers, kettles,' Mark 7:4, the background to His teaching in Mark 7.",
+      "canonical": "The distinction between clean and unclean animals is older than Sinai. Noah takes 'seven pairs of every kind of clean animal' into the ark, Genesis 7:2, and offers clean animals and birds after the flood, Genesis 8:20. Yet God then gives Noah 'everything that lives and moves' as food, Genesis 9:3. The dietary restriction of Leviticus 11 is a specific calling laid on Israel, not a rule for humanity as such. Deuteronomy 14:3-21 repeats the list for the generation entering the land and roots it in the same identity: 'you are a people holy to the LORD your God,' Deuteronomy 14:2.\n\nLeviticus itself gives the clearest explanation in Leviticus 20:24-26. God has 'set you apart from the peoples,' therefore Israel must 'distinguish between clean and unclean animals,' for 'I have set you apart from the nations to be My own.' The separation of animals mirrors the separation of Israel.\n\nThe New Testament turns on this chapter at a decisive point. Jesus declares that nothing entering from outside can defile a person, Mark 7:15, and Mark adds, 'Thus all foods are clean,' Mark 7:19. Peter's vision of a sheet holding 'all kinds of four-footed animals and reptiles of the earth, as well as birds of the air,' Acts 10:12, uses the categories of Leviticus 11, and the voice says, 'Do not call anything impure that God has made clean,' Acts 10:15. Peter immediately applies it to people: 'I should not call any man impure or unclean,' Acts 10:28. The Jerusalem council recognises that God 'cleansed their hearts by faith,' Acts 15:9. Paul writes that 'nothing is unclean in itself,' Romans 14:14, and Hebrews calls such rules 'external regulations imposed until the time of reform,' Hebrews 9:10.\n\nYet the chapter's refrain survives untouched. Peter quotes Leviticus 11:44 to Christians: 'Be holy, because I am holy,' 1 Peter 1:16, as the BSB footnote notes. The food laws pass away; the call to holiness does not."
     },
     "hermeneutics": {
-      "authorIntent": "To give Israel detailed dietary regulations distinguishing clean from unclean creatures, grounding the entire system explicitly in God's own holiness, so that Israel's daily life would visibly embody their calling as a people set apart to Him.",
-      "descriptionVsPrescription": "This prescribed actual dietary law for old covenant Israel; the New Testament explicitly and repeatedly declares it fulfilled and no longer binding on believers, Mark 7:19, Acts 10, Acts 15. What abides is the underlying principle, that God's people are called to visible holiness because He is holy, though the specific means of expressing that holiness has changed under the new covenant.",
+      "authorIntent": "The author wanted Israel to experience holiness as something that touched every meal and every day. A people who had been brought out of Egypt to be God's own could not treat any part of life as neutral. Each time an Israelite chose meat, cleaned a pot, or washed after carrying a carcass, he rehearsed the fact that he belonged to a holy God.\n\nHe wanted them to see the world as God had ordered it. The chapter's categories echo creation, and its tests are simple enough for any household to apply. The law trained Israel to make distinctions, which was the heart of the priestly calling in Leviticus 10:10, and in doing so trained the whole nation to think like a priestly people, Exodus 19:6.\n\nHe wanted them to be marked off from the nations. Leviticus 20:24-26 makes this explicit, and the food laws did it daily. Israelites could not easily share the table of peoples who ate what they could not, and that separation was a protective wall around their faith in the LORD.\n\nHe wanted them to know the difference between uncleanness and sin. Much of the chapter deals with defilement that was unavoidable, touching a dead animal or finding a lizard in a jar. The remedy is washing and waiting until evening, not a sin offering. Uncleanness was a state that barred one from the sanctuary, not a moral failure, and the law provided a simple way back.\n\nAbove all, he wanted them to connect everything to God's character and saving act. 'Be holy, because I am holy' and 'I am the LORD, who brought you up out of the land of Egypt,' verses 44 to 45, tell Israel that their distinctiveness was a response to redemption, not a means of earning it.",
+      "descriptionVsPrescription": "Leviticus 11 is prescription, not narrative. It was binding law for Israel under the Sinai covenant, and faithful Israelites kept it, often at great cost. The question for Christians is not whether it was commanded but how its command applies after Christ.\n\nThe New Testament answers directly. Jesus declared all foods clean, Mark 7:19; God told Peter not to call impure what He had cleansed, Acts 10:15; and Paul teaches that 'all food is clean,' Romans 14:20, and that 'nothing that is received with thanksgiving should be rejected,' 1 Timothy 4:4. Food laws are 'a shadow of the things to come, but the body that casts it belongs to Christ,' Colossians 2:17. Believers are therefore free to eat, and no one may judge them for it, Colossians 2:16.\n\nWhat carries forward is the principle and the pattern. God's people are still to be holy in all they do, 1 Peter 1:15, now in heart and conduct rather than in diet. They still must learn discernment, Hebrews 5:14, and still refuse what defiles, which Jesus locates in the heart, Mark 7:20-23. And Christian freedom is to be used in love, not to wound a weaker brother, Romans 14:20-21.",
       "debates": [
-        { "question": "Why were these particular animals designated unclean rather than others?", "views": [ { "label": "Symbolic association with death, violence, or disorder", "case": "Many scholars note that many forbidden animals are predators, scavengers, or creatures associated with carcasses and death, fitting patterns that would symbolically clash with a people called to represent life and order under a holy God." }, { "label": "A test of obedience without a fully explained rationale", "case": "Others argue Scripture itself never explains the specific logic behind each category, and caution against inventing a system the text does not state explicitly, viewing the primary point simply as visible obedience and distinctiveness, whatever the underlying reasoning." } ], "bearing": "Both views agree the laws served to mark Israel as visibly distinct and obedient to God, whether or not the precise logic behind each specific animal can be fully recovered." }
+        {
+          "question": "Why were these particular animals designated unclean rather than others?",
+          "views": [
+            {
+              "label": "Health and hygiene",
+              "case": "The medieval Jewish scholar Maimonides argued that the forbidden foods were generally harmful to the body, and many modern readers point to trichinosis in pork or disease in scavengers. The view has intuitive appeal, but it struggles with the text. The chapter never gives health as a reason, some permitted animals carry disease as readily as forbidden ones, and Jesus declared all foods clean, which would be strange if the laws were chiefly medical."
+            },
+            {
+              "label": "Symbols of moral qualities",
+              "case": "Ancient interpreters such as the Jewish Letter of Aristeas and the early Christian Epistle of Barnabas read the animals allegorically: chewing the cud as meditating on God's word, split hooves as walking rightly, birds of prey as violent men. The approach draws devotional lessons, but the text gives no hint of these meanings, and the symbols can be multiplied without control."
+            },
+            {
+              "label": "Wholeness, order and life",
+              "case": "The anthropologist Mary Douglas argued that clean animals are those that fit fully the pattern of their realm in creation, while unclean ones cross boundaries, like water creatures without fins and scales or creatures that swarm. Others add that many forbidden animals are predators or eaters of carrion, associated with blood and death, which clash with a God of life. This reading fits the chapter's echoes of Genesis 1 and its concern with carcasses, though it cannot explain every case."
+            }
+          ],
+          "bearing": "The text itself gives two reasons: God's holiness, verses 44 to 45, and Israel's separation from the nations, Leviticus 20:24-26. Any theory of the individual animals should serve those stated reasons rather than replace them. Humility is fitting where Scripture is silent, and the main point does not depend on solving every case."
+        },
+        {
+          "question": "Are the food laws of Leviticus 11 still to be kept by Christians in any sense?",
+          "views": [
+            {
+              "label": "Fulfilled and no longer binding",
+              "case": "The historic majority of the church reads Mark 7:19, Acts 10:15, Romans 14:14 and Colossians 2:16-17 as declaring the food laws fulfilled in Christ. Their purpose of marking Israel off from the nations ended when the gospel made Jew and Gentile one, Ephesians 2:14-15. Christians may eat freely with thanksgiving, 1 Timothy 4:4-5."
+            },
+            {
+              "label": "Still wise for health or witness",
+              "case": "Some Christian groups, such as the Seventh-day Adventists, hold that the clean and unclean distinction predates Sinai, Genesis 7:2, and so reflects a creation principle of health that believers should still follow. They read Mark 7 as dealing with ritual handwashing rather than with the animals of Leviticus 11, and Acts 10 as a vision about people rather than food."
+            },
+            {
+              "label": "Optional for Jewish believers as covenant identity",
+              "case": "Many Messianic Jewish believers keep the food laws not to gain salvation but as a faithful expression of Jewish identity, noting that thousands of Jewish believers in Jerusalem were 'zealous for the law,' Acts 21:20, and that Paul himself could live 'like a Jew' to win Jews, 1 Corinthians 9:20. They do not require Gentile believers to observe them."
+            }
+          ],
+          "bearing": "The New Testament plainly forbids making food a condition of salvation or of fellowship between Jew and Gentile, Galatians 2:12-14 and Acts 15:28-29, and plainly allows Christians to eat all foods. Within that freedom Romans 14:3 asks believers not to despise or judge one another over what they eat, for God has accepted both."
+        }
       ]
     },
-    "originalLanguages": "The word tame, unclean, marks a ritual and dietary category rather than necessarily a moral or hygienic one, placing certain creatures outside the boundary of what this set apart people could eat. The chapter's repeated ground, qadosh, holy, appearing four times in verses 44 to 45, ties this entire detailed system directly to God's own character as the reason Israel was to obey it.",
+    "originalLanguages": "Beyond tame, unclean, the chapter uses a second and sharper word, sheqets, 'detestable' or 'abomination,' with its verb shaqats, 'to detest.' It is used for creatures of the water without fins and scales, verses 10 to 12, for the forbidden birds, verse 13, for most winged insects, verses 20 and 23, and for the creatures that swarm on the ground, verses 41 to 42. The two words overlap but are not identical. Tame names a ritual status, one that can pass to a person, a garment or a pot and be removed by washing and waiting, verses 24 to 40. Sheqets names the attitude Israel was to take, a settled revulsion toward what God had excluded from their table.\n\nThe warning in verse 43, 'Do not defile yourselves by any crawling creature,' uses the same root: literally, 'Do not make your souls detestable,' al teshaqqetsu et nafshotekhem. The concern is not only with the stomach but with the self, the nephesh, which can be made abhorrent by what it takes in.\n\nThe creatures of verses 29 and 41 to 44 are sherets, 'swarming' or 'teeming' things, with the verb sharats. Genesis 1:20-21 uses the same verb when God says, 'Let the waters teem with living creatures.' The creatures that crawl or swarm on the ground are the lowest and most numerous class of living things, and Leviticus reserves its strongest language for them.\n\nVerse 42 speaks of what 'crawls on its belly,' holekh al gachon. The word gachon, belly, is the word used of the serpent in Genesis 3:14: 'On your belly will you go.' The creature that goes on its belly and eats dust stands under the curse of Eden, and Leviticus forbids Israel to eat anything that moves the same way.\n\nThe command of verse 44 has two verbs of holiness. 'Consecrate yourselves' is vehitqaddishtem, a reflexive form of qadash, meaning to make oneself holy or to keep oneself set apart. 'And be holy' is vihyitem qedoshim, the resulting state. Israel is to act in a way that expresses what God has already made them.\n\nThe verb 'distinguish' in verse 47 is lehavdil, from badal, to separate. It is God's creation verb in Genesis 1:4, 6 and 14, where He separates light from darkness and the waters above from the waters below, and it is God's election verb in Leviticus 20:24 and 20:26: 'I have set you apart from the nations.' Israel separates the clean from the unclean because God has separated Israel.\n\nFinally, the title for the LORD in verse 45 is hamma'aleh, 'who brought you up,' where Leviticus elsewhere says 'who brought you out,' Leviticus 19:36. It is the same verb used in verse 3 for chewing the cud, literally 'bringing up the cud.' Whether or not the echo is deliberate, the chapter ties Israel's food to the God who lifted them up out of Egypt. The Septuagint renders the holiness refrain with hagioi esesthe, 'you shall be holy,' the wording 1 Peter 1:16 follows.",
     "typology": [
-      { "type": "The boundary between clean and unclean foods", "fulfillment": "The breaking down of the wall between Jew and Gentile in Christ, Ephesians 2:14-15, and the declaration that all foods are clean, Mark 7:19." },
-      { "type": "Defilement by contact, spreading from carcass to vessel to person", "fulfillment": "The deeper truth that defilement actually flows from the human heart, addressed only by the cleansing Christ provides, Mark 7:20-23." }
+      {
+        "type": "The separation of clean and unclean animals mirroring the separation of Israel from the nations",
+        "fulfillment": "Leviticus 20:24-26 links the two separations: God set Israel apart, so Israel must set apart clean from unclean. Peter's vision in Acts 10 shows the link working in reverse. When God declares the animals clean, Peter concludes, 'I should not call any man impure or unclean,' Acts 10:28. In Christ the dividing wall comes down and Gentiles who were far away 'have been brought near through the blood of Christ,' Ephesians 2:13. The type served its purpose by guarding Israel until the Messiah came; it falls short because it could separate but could not cleanse the nations."
+      },
+      {
+        "type": "Uncleanness spreading by contact, verses 24 to 40",
+        "fulfillment": "In the chapter a carcass defiles whatever it touches, and Haggai 2:12-13 confirms the principle: holiness does not spread by touch, but defilement does. Jesus reverses the direction. He touches a leper, Mark 1:41, a bier, Luke 7:14, and a dead girl's hand, Mark 5:41, and instead of becoming unclean He makes clean and alive. The escalation is that holiness in Jesus has become contagious. The type falls short because the law could only quarantine uncleanness until evening; Christ removes it at its source."
+      },
+      {
+        "type": "Washing and waiting until evening for restoration",
+        "fulfillment": "The unclean person washed his clothes and waited until evening, and then was clean, verses 25 and 40. Uncleanness had an end, and the way back was provided by God. The New Testament speaks of believers as 'washed,' 'sanctified' and 'justified in the name of the Lord Jesus Christ,' 1 Corinthians 6:11, and of the blood of Christ that 'cleanses us from all sin,' 1 John 1:7. The difference is that the washing of Leviticus reached the clothes and the body; the washing of Christ reaches the conscience, Hebrews 9:14."
+      },
+      {
+        "type": "The creature that crawls on its belly, verse 42",
+        "fulfillment": "The word for belly recalls the serpent of Genesis 3:14, and the most emphatic prohibitions in the chapter fall on creatures that move as the serpent was cursed to move. Israel's table daily kept the curse of Eden at a distance. Christ is the seed who crushes the serpent's head, and God will soon 'crush Satan under your feet,' Romans 16:20. This link rests on a verbal echo rather than an explicit New Testament application, so it is best held as a resonance: the holiness the food laws pictured is fully secured by the victory of Christ."
+      }
     ],
-    "christ": "Jesus directly addresses this chapter's concerns in Mark 7:14-23, teaching that nothing entering a person from outside can defile them, since defilement comes from the heart, and Mark notes this declaration made all foods clean. Peter's vision in Acts 10:9-16, where God declares clean animals this chapter had called unclean, becomes the turning point that opens the gospel fully to Gentiles, since Christ's finished work removes the very boundary these food laws once marked out.",
-    "god": "God's concern for holiness reaches into the most ordinary details of daily life, what His people eat and touch, showing that no part of life sits outside His claim. The chapter's repeated refrain, I am holy, reveals a God who forms His people's whole identity, even something as basic as diet, around who He is.",
+    "christ": "The chapter leads to Christ first through His own words. In Mark 7 Jesus answers Pharisees who were troubled that His disciples ate without ritual washing, and He goes to the root of the whole purity system: 'Nothing that enters a man from the outside can defile him; but the things that come out of a man, these are what defile him,' Mark 7:15. Mark draws the conclusion for his readers: 'Thus all foods are clean,' Mark 7:19. Jesus does not dismiss Leviticus 11 as mistaken. He speaks as the Lord who gave it, declaring that its purpose has been reached and that the real uncleanness it pictured lies in the heart, Mark 7:20-23.\n\nIt leads to Christ through His touch. The law of this chapter teaches that uncleanness spreads by contact. The Gospels show Jesus touching the unclean again and again, and the direction of contagion is reversed. The leper becomes clean when Jesus touches him, Mark 1:41; the woman with a flow of blood is healed when she touches His garment, Mark 5:27-29; the dead are raised when He takes their hand, Mark 5:41. In Him holiness is stronger than defilement.\n\nIt leads to Christ through the gospel to the nations. The food laws were a daily wall between Israel and the Gentiles. When Peter hesitated to eat, 'I have never eaten anything impure or unclean,' Acts 10:14, God's answer opened the door for Cornelius. Paul explains the deeper reality: Christ 'has made the two one and has torn down the dividing wall of hostility by abolishing in His flesh the law of commandments and decrees,' Ephesians 2:14-15. The table that once separated Jew from Gentile becomes, in Christ, a table they share. Paul could therefore rebuke Peter when he drew back from Gentile believers at meals, Galatians 2:12-14.\n\nIt leads to Christ through the call to holiness. 'Be holy, because I am holy' is not abolished. Peter quotes it to Christians, 1 Peter 1:16, because Christ has redeemed His people, as God once brought Israel up from Egypt, verse 45. He 'gave Himself for us to redeem us from all lawlessness and to purify for Himself a people for His own possession,' Titus 2:14. The holiness that Israel's diet pictured is now worked into the heart by His blood and His Spirit.\n\nA caution is needed. The New Testament does not assign Christian meanings to the individual animals, and it is wise not to invent them. The link to Christ lies in the purpose of the whole system: to make a holy people, distinct from the world, fit for God's presence. Christ fulfils that purpose, which is why the shadow falls away and the call remains.",
+    "god": "The first thing the chapter shows about God is that He is the Lord of ordinary life. He speaks about hooves and fins, grasshoppers and lizards, clay pots and ovens. Nothing is too small for His concern, and nothing sits outside His claim. The same God who ordered the realms of creation in Genesis 1 orders the kitchen of His people.\n\nIt shows Him as the God of order. He separated light from darkness and the waters above from the waters below, and He made each creature 'according to its kind,' Genesis 1:25. The chapter's categories echo that work, and its verb for distinguishing is His creation verb. God is not a God of confusion. His holiness includes the rightness of each thing in its place.\n\nIt shows Him as the God who elects and separates. Leviticus 20:26 says, 'I have set you apart from the nations to be My own.' The food laws were a daily enactment of that choice. God is not indifferent to whether His people blend in with the world; He forms them to bear His likeness among the nations.\n\nIt shows the link between His holiness and His saving work. The ground of the command is double: 'I am holy,' and 'I am the LORD, who brought you up out of the land of Egypt so that I would be your God,' verses 44 to 45. God's holiness is not a cold standard set over His people but the character of the Redeemer who has made them His. Holiness is the family likeness of those He has rescued.\n\nIt shows His distinction between the moral and the ceremonial. Uncleanness in this chapter often comes without any sin, and it is removed by washing and waiting until evening. God's law recognises human life in a world of death and provides a simple way back into fellowship. He is holy, and He is also patient and practical with His people's frailty.\n\nIt shows His freedom to bring His own shadows to an end. The God who gave the food laws also declared them fulfilled, through Jesus in Mark 7:19 and through the voice to Peter in Acts 10:15. There is no contradiction here. The purpose was always His, and He decides when the purpose has been reached. The unchanging part is His character: 'Be holy, because I am holy' is as true in 1 Peter 1:16 as in Leviticus 11:44.\n\nFor worship, the chapter calls believers to offer all of life to God, including the ordinary routines of eating and drinking. Paul says, 'whether you eat or drink or whatever you do, do it all to the glory of God,' 1 Corinthians 10:31. Christians eat freely, receiving every good gift with thanksgiving, and they pursue a holiness that is deeper than diet because the God who called them is holy.",
     "crossReferences": [
-      { "ref": "Mark 7:14-23", "note": "Jesus teaches that defilement comes from the heart, not from food, and Mark notes this declaration made all foods clean." },
-      { "ref": "Acts 10:9-16", "note": "Peter's vision of the sheet with unclean animals, and God's declaration that what He has made clean should not be called unclean." },
-      { "ref": "Ephesians 2:14-15", "note": "Christ has broken down the dividing wall of hostility, abolishing the law's regulations that separated Jew from Gentile." }
+      {
+        "ref": "Genesis 1:20-25",
+        "note": "The chapter's categories come from creation: creatures that teem in the waters, birds of the sky, livestock, crawlers and beasts of the earth, each made according to its kind. Leviticus 11 asks Israel to honour this ordered world at every meal, and uses God's own creation verb for separating when it tells them to distinguish."
+      },
+      {
+        "ref": "Genesis 9:3",
+        "note": "After the flood God gives Noah everything that lives and moves as food. The restriction of Leviticus 11 is therefore not a rule for humanity from creation but a specific calling laid on Israel as a holy nation. When Christ ends that calling's separating function, the wider permission given to Noah comes back into view."
+      },
+      {
+        "ref": "Leviticus 20:24-26",
+        "note": "The clearest statement of the food laws' purpose. God has set Israel apart from the peoples, so Israel must distinguish between clean and unclean animals, for 'I have set you apart from the nations to be My own.' The separation on the plate mirrors the separation of the people."
+      },
+      {
+        "ref": "Daniel 1:8",
+        "note": "In Babylon Daniel resolves not to defile himself with the king's food and wine. His refusal shows how the food laws became a test of loyalty in exile, a way of remaining distinct in a foreign court. God honours his faithfulness, and the laws of Leviticus 11 become a witness to the nations."
+      },
+      {
+        "ref": "Matthew 23:24",
+        "note": "Jesus mocks the Pharisees for straining out a gnat but swallowing a camel, two unclean creatures from Leviticus 11. The joke assumes the food laws and turns them against a religion that was careful about the smallest defilement while ignoring justice, mercy and faithfulness, Matthew 23:23."
+      },
+      {
+        "ref": "Mark 7:14-23",
+        "note": "Jesus teaches that nothing entering from outside defiles a person, because food goes to the stomach, not the heart. Mark comments that He thereby declared all foods clean. The true source of defilement is the heart, from which come evil thoughts, sexual immorality, theft and the rest of the list Jesus gives."
+      },
+      {
+        "ref": "Acts 10:9-16",
+        "note": "Peter's vision of a sheet holding four-footed animals, reptiles and birds, the categories of Leviticus 11, with the command to kill and eat. When Peter protests that he has never eaten anything unclean, God answers that he must not call impure what God has made clean. The vision prepares him to welcome Cornelius, Acts 10:28."
+      },
+      {
+        "ref": "Romans 14:14-20",
+        "note": "Paul is persuaded in the Lord Jesus that nothing is unclean in itself and that all food is clean. Yet he urges believers not to destroy a brother for the sake of food. The freedom that Christ brings from Leviticus 11 is to be used in love, with patience toward those whose conscience is still tender."
+      },
+      {
+        "ref": "Colossians 2:16-17",
+        "note": "Paul tells believers not to let anyone judge them by what they eat or drink, because such things are a shadow of what was to come, while the substance belongs to Christ. The food laws of Leviticus 11 were real and good, but they pointed forward to a reality that has now arrived."
+      },
+      {
+        "ref": "1 Peter 1:14-16",
+        "note": "Peter quotes Leviticus 11:44 directly: 'Be holy, because I am holy.' He applies it to believers who have been redeemed by the blood of Christ, calling them to holiness in all their conduct. The food laws pass away, but the refrain at the heart of the chapter becomes the charter of Christian living."
+      },
+      {
+        "ref": "Revelation 21:27",
+        "note": "Nothing unclean will ever enter the new Jerusalem. The distinction between clean and unclean that Leviticus 11 taught at the table reaches its final form: not in foods, but in a people made wholly clean by the Lamb, whose names are written in His book of life."
+      }
     ],
-    "oneStory": "This chapter set Israel visibly apart through their diet, grounding the whole system in God's own holiness, be holy, because I am holy. The New Testament shows this entire system fulfilled and set aside in Christ, whose cleansing work addresses the deeper defilement of the human heart and whose gospel breaks down the very wall these food laws once maintained between Jew and Gentile.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "why": "" }
+    "oneStory": "The story began with a world ordered by God's word, each creature made according to its kind, and all of it 'very good,' Genesis 1:31. Humanity was given the fruit of the garden as food and was told to rule over fish, birds and every creeping thing, Genesis 1:28. Then came the first forbidden eating, and with it death, and the serpent cursed to crawl on its belly. From then on the world held both goodness and defilement, life and death, side by side.\n\nLeviticus 11 teaches Israel to live wisely in that world. God's chosen nation is to reflect His holiness by honouring the order of creation, keeping away from what is associated with death, and marking themselves off from the nations around them. Every meal becomes a small act of remembrance that they belong to the God who brought them up from Egypt. Yet the laws also expose a limit. They can keep uncleanness at a distance and wash it away until evening, but they cannot reach the heart, and Israel's history shows that a people with clean kitchens can still have defiled hearts.\n\nThe story moves toward Christ, who declares all foods clean and locates defilement where it truly lives, in the heart. He touches the unclean and makes them clean. He breaks down the wall that the food laws had kept between Jew and Gentile, and in Acts 10 the gospel crosses that wall with Peter's visit to Cornelius. The holy nation of Exodus 19:6 becomes a people from every nation, Revelation 7:9, and the call of Leviticus 11:44 is spoken over them all: 'Be holy, because I am holy.'\n\nThe story ends in a new creation where the distinction of clean and unclean is finally resolved. Isaiah pictures a world where the wolf lives with the lamb and 'they will neither harm nor destroy on all My holy mountain,' Isaiah 11:9. John sees a city into which 'nothing unclean will ever enter,' Revelation 21:27, not because every creature has been sorted, but because death, the source of defilement, is no more. The whole creation will be holy to the LORD, and God's people will eat and drink in His presence without fear of being defiled.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What two characteristics must a land animal have for Israel to eat it?",
       "options": [
-        { "text": "A completely divided hoof and chewing the cud.", "weight": 100, "note": "Verse 3 gives exactly these two required characteristics." },
-        { "text": "Living only in dry desert regions.", "weight": 75, "note": "Habitat is not the criterion given; the text specifies hoof and cud characteristics." },
-        { "text": "Being domesticated rather than wild.", "weight": 25, "note": "Domestication is not the stated criterion; several forbidden animals, like the pig, could be domesticated, while some permitted animals were wild." },
-        { "text": "No criteria are given.", "weight": 0, "note": "Verse 3 gives explicit, specific criteria." }
+        {
+          "text": "A completely divided hoof and chewing the cud.",
+          "weight": 100,
+          "note": "Verse 3 gives exactly these two required characteristics."
+        },
+        {
+          "text": "Living only in dry desert regions.",
+          "weight": 75,
+          "note": "Habitat is not the criterion given; the text specifies hoof and cud characteristics."
+        },
+        {
+          "text": "Being domesticated rather than wild.",
+          "weight": 25,
+          "note": "Domestication is not the stated criterion; several forbidden animals, like the pig, could be domesticated, while some permitted animals were wild."
+        },
+        {
+          "text": "No criteria are given.",
+          "weight": 0,
+          "note": "Verse 3 gives explicit, specific criteria."
+        }
       ]
     },
     {
       "q": "What characteristic makes a water creature clean and permissible to eat?",
       "options": [
-        { "text": "Having fins and scales.", "weight": 100, "note": "Verse 9 explicitly gives this requirement for water creatures." },
-        { "text": "Living exclusively in fresh water rivers.", "weight": 75, "note": "The text specifies both seas and streams, and the criterion given is fins and scales, not the type of water." },
-        { "text": "Being caught only by net, never by hook.", "weight": 25, "note": "The method of catching is not addressed; the criterion is physical, fins and scales." },
-        { "text": "No criterion is given.", "weight": 0, "note": "Verse 9 gives an explicit criterion." }
+        {
+          "text": "Having fins and scales.",
+          "weight": 100,
+          "note": "Verse 9 explicitly gives this requirement for water creatures."
+        },
+        {
+          "text": "Living exclusively in fresh water rivers.",
+          "weight": 75,
+          "note": "The text specifies both seas and streams, and the criterion given is fins and scales, not the type of water."
+        },
+        {
+          "text": "Being caught only by net, never by hook.",
+          "weight": 25,
+          "note": "The method of catching is not addressed; the criterion is physical, fins and scales."
+        },
+        {
+          "text": "No criterion is given.",
+          "weight": 0,
+          "note": "Verse 9 gives an explicit criterion."
+        }
       ]
     },
     {
       "q": "What happens to a clay pot if an unclean crawling creature falls into it?",
       "options": [
-        { "text": "It must be broken, since everything in it becomes unclean.", "weight": 100, "note": "Verse 33 explicitly requires breaking the clay pot in this situation." },
-        { "text": "It only needs to be rinsed with water.", "weight": 75, "note": "Rinsing is the remedy for wood, clothing, leather, or sackcloth, verse 32; a clay pot specifically must be broken, verse 33." },
-        { "text": "Nothing needs to be done; clay pots are unaffected.", "weight": 25, "note": "Verse 33 explicitly states the pot becomes unclean and must be broken." },
-        { "text": "The pot must be sold to a foreigner.", "weight": 0, "note": "No such instruction is given; the pot is simply broken." }
+        {
+          "text": "It must be broken, since everything in it becomes unclean.",
+          "weight": 100,
+          "note": "Verse 33 explicitly requires breaking the clay pot in this situation."
+        },
+        {
+          "text": "It only needs to be rinsed with water.",
+          "weight": 75,
+          "note": "Rinsing is the remedy for wood, clothing, leather, or sackcloth, verse 32; a clay pot specifically must be broken, verse 33."
+        },
+        {
+          "text": "Nothing needs to be done; clay pots are unaffected.",
+          "weight": 25,
+          "note": "Verse 33 explicitly states the pot becomes unclean and must be broken."
+        },
+        {
+          "text": "The pot must be sold to a foreigner.",
+          "weight": 0,
+          "note": "No such instruction is given; the pot is simply broken."
+        }
       ]
     },
     {
       "q": "What reason does God give repeatedly at the close of this chapter for Israel to observe these laws?",
       "options": [
-        { "text": "Because I am holy, so you must be holy.", "weight": 100, "note": "Verses 44 and 45 both repeat this exact grounding for the entire chapter's laws." },
-        { "text": "Because these animals carry disease.", "weight": 75, "note": "The text grounds the laws explicitly in God's holiness and Israel's calling, not in a stated medical or hygienic rationale." },
-        { "text": "Because neighboring nations demanded it.", "weight": 25, "note": "The stated reason is God's own holiness and His deliverance of Israel from Egypt, not the demands of other nations." },
-        { "text": "No reason is given.", "weight": 0, "note": "Verses 44 to 45 explicitly and repeatedly give the reason." }
+        {
+          "text": "Because I am holy, so you must be holy.",
+          "weight": 100,
+          "note": "Verses 44 and 45 both repeat this exact grounding for the entire chapter's laws."
+        },
+        {
+          "text": "Because these animals carry disease.",
+          "weight": 75,
+          "note": "The text grounds the laws explicitly in God's holiness and Israel's calling, not in a stated medical or hygienic rationale."
+        },
+        {
+          "text": "Because neighboring nations demanded it.",
+          "weight": 25,
+          "note": "The stated reason is God's own holiness and His deliverance of Israel from Egypt, not the demands of other nations."
+        },
+        {
+          "text": "No reason is given.",
+          "weight": 0,
+          "note": "Verses 44 to 45 explicitly and repeatedly give the reason."
+        }
       ]
     },
     {
       "q": "According to Mark 7:19 and Acts 10, how does the New Testament treat these Old Testament food laws?",
       "options": [
-        { "text": "Jesus declares all foods clean, and Peter's vision confirms that what God has made clean should not be called unclean.", "weight": 100, "note": "Mark 7:19 and Acts 10:9-16 both directly address and set aside this chapter's dietary distinctions." },
-        { "text": "The New Testament reaffirms these laws as permanently binding on all believers.", "weight": 75, "note": "Mark 7 and Acts 10 explicitly move in the opposite direction, declaring these distinctions fulfilled and set aside." },
-        { "text": "The New Testament never mentions food laws at all.", "weight": 25, "note": "Mark 7, Acts 10, and Acts 15 all address this topic directly and substantially." },
-        { "text": "No connection exists between this chapter and the New Testament.", "weight": 0, "note": "Mark 7 and Acts 10 draw a direct and explicit connection to this very chapter's categories." }
+        {
+          "text": "Jesus declares all foods clean, and Peter's vision confirms that what God has made clean should not be called unclean.",
+          "weight": 100,
+          "note": "Mark 7:19 and Acts 10:9-16 both directly address and set aside this chapter's dietary distinctions."
+        },
+        {
+          "text": "The New Testament reaffirms these laws as permanently binding on all believers.",
+          "weight": 75,
+          "note": "Mark 7 and Acts 10 explicitly move in the opposite direction, declaring these distinctions fulfilled and set aside."
+        },
+        {
+          "text": "The New Testament never mentions food laws at all.",
+          "weight": 25,
+          "note": "Mark 7, Acts 10, and Acts 15 all address this topic directly and substantially."
+        },
+        {
+          "text": "No connection exists between this chapter and the New Testament.",
+          "weight": 0,
+          "note": "Mark 7 and Acts 10 draw a direct and explicit connection to this very chapter's categories."
+        }
       ]
     }
   ],
@@ -187,9 +560,21 @@
     "This entire system of clean and unclean anticipated a deeper cleansing only Christ could provide. Do you still try to make yourself acceptable to God through external behavior, or do you rest in the cleansing He has already accomplished?"
   ],
   "translationNotes": [
-    { "ref": "Leviticus 11:7", "note": "The prohibition on pork, though it has a split hoof, does not chew the cud, is one of the best known food laws in this chapter and became a significant marker of Jewish identity throughout later history." },
-    { "ref": "Leviticus 11:20", "note": "Flying insects that walk on all fours likely describes insects like locusts, whose hind legs for jumping were distinguished from their other walking legs, explaining the permitted exception in verses 21 to 22." },
-    { "ref": "Leviticus 11:44", "note": "Consecrate yourselves translates a Hebrew reflexive form of qadash, indicating an active response Israel must make to God's holiness, not merely a passive status; the grounding for the command is repeated twice, verses 44 and 45, for emphasis." }
+    {
+      "ref": "Leviticus 11:7",
+      "note": "The prohibition on pork, though it has a split hoof, does not chew the cud, is one of the best known food laws in this chapter and became a significant marker of Jewish identity throughout later history."
+    },
+    {
+      "ref": "Leviticus 11:20",
+      "note": "Flying insects that walk on all fours likely describes insects like locusts, whose hind legs for jumping were distinguished from their other walking legs, explaining the permitted exception in verses 21 to 22."
+    },
+    {
+      "ref": "Leviticus 11:44",
+      "note": "Consecrate yourselves translates a Hebrew reflexive form of qadash, indicating an active response Israel must make to God's holiness, not merely a passive status; the grounding for the command is repeated twice, verses 44 and 45, for emphasis."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "" }
+  "meta": {
+    "textToVerify": [],
+    "notes": ""
+  }
 }

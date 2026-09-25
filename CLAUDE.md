@@ -84,3 +84,13 @@ Under scenes, opened URLs and Universal Links arrive at the SceneDelegate, which
 forwards each one to Capacitor's `ApplicationDelegateProxy`, so `appUrlOpen` and
 `getLaunchUrl` behave as before. If `npx cap` ever regenerates the iOS project,
 check these two files survive.
+
+## Go deeper campaign and audio names (permanent)
+
+`DEEPER-HANDOFF.md` is the plan and progress for rewriting every study's Go
+deeper level; `tools/deeper/check.py` validates it. Audio pronunciation of
+Hebrew, Aramaic and Greek names lives in `makor-audio/names/` (README there);
+refresh it after new or edited studies and before rendering audio. Audio build
+id `v3-names` forces a re-render. The Mac can render offline with
+`makor-audio/gpu_run.py --offline` and upload later with `--upload-staged`
+once `makor-audio/.env` holds the R2 keys.

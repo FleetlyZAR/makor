@@ -21,6 +21,8 @@ const ctx = s.context ?? {};
 const herm = s.hermeneutics ?? {};
 const quiz = study.quiz ?? [];
 const smedia = s.media ?? {};
+// Go deeper fields may hold several paragraphs, separated by a blank line.
+const paras = (t) => String(t ?? '').split(/\n\s*\n/).map((x) => x.trim()).filter(Boolean);
 
 const siblings = getAllStudies()
   .filter((x) => x.book === study.book)
@@ -119,9 +121,9 @@ const bslug = bookSlug(study.book);
           <>
             <button class="go-deeper" type="button">Go deeper</button>
             <div class="level-advanced" hidden>
-              {ctx.literary && (<><h3>Literary</h3><p>{ctx.literary}</p></>)}
-              {ctx.historical && (<><h3>Historical</h3><p>{ctx.historical}</p></>)}
-              {ctx.canonical && (<><h3>Canonical</h3><p>{ctx.canonical}</p></>)}
+              {ctx.literary && (<><h3>Literary</h3>{paras(ctx.literary).map((t) => <p>{t}</p>)}</>)}
+              {ctx.historical && (<><h3>Historical</h3>{paras(ctx.historical).map((t) => <p>{t}</p>)}</>)}
+              {ctx.canonical && (<><h3>Canonical</h3>{paras(ctx.canonical).map((t) => <p>{t}</p>)}</>)}
             </div>
           </>
         )}
@@ -136,8 +138,8 @@ const bslug = bookSlug(study.book);
           <>
             <button class="go-deeper" type="button">Go deeper</button>
             <div class="level-advanced" hidden>
-              {herm.authorIntent && (<><h3>Author's intent</h3><p>{herm.authorIntent}</p></>)}
-              {herm.descriptionVsPrescription && (<><h3>Description and prescription</h3><p>{herm.descriptionVsPrescription}</p></>)}
+              {herm.authorIntent && (<><h3>Author's intent</h3>{paras(herm.authorIntent).map((t) => <p>{t}</p>)}</>)}
+              {herm.descriptionVsPrescription && (<><h3>Description and prescription</h3>{paras(herm.descriptionVsPrescription).map((t) => <p>{t}</p>)}</>)}
               {(herm.debates ?? []).length > 0 && <h3>Debates</h3>}
               {(herm.debates ?? []).map((d) => (
                 <div class="debate">
@@ -163,7 +165,7 @@ const bslug = bookSlug(study.book);
             <>
               <button class="go-deeper" type="button">Go deeper</button>
               <div class="level-advanced" hidden>
-                {s.originalLanguages && <p>{s.originalLanguages}</p>}
+                {s.originalLanguages && paras(s.originalLanguages).map((t) => <p>{t}</p>)}
                 {Object.keys(lex).length > 0 && (
                   <dl class="glossary">
                     {Object.values(lex).map((e) => (
@@ -205,7 +207,7 @@ const bslug = bookSlug(study.book);
         <summary><span class="cascade-title">Christ as the point</span><span class="chev" aria-hidden="true"></span></summary>
         <div class="cascade-body">
           {basic.christ && <p class="level-basic">{basic.christ}</p>}
-          {s.christ && (<><button class="go-deeper" type="button">Go deeper</button><div class="level-advanced" hidden><p>{s.christ}</p></div></>)}
+          {s.christ && (<><button class="go-deeper" type="button">Go deeper</button><div class="level-advanced" hidden>{paras(s.christ).map((t) => <p>{t}</p>)}</div></>)}
         </div>
       </details>
     )}
@@ -215,7 +217,7 @@ const bslug = bookSlug(study.book);
         <summary><span class="cascade-title">What we learn about God</span><span class="chev" aria-hidden="true"></span></summary>
         <div class="cascade-body">
           {basic.god && <p class="level-basic">{basic.god}</p>}
-          {s.god && (<><button class="go-deeper" type="button">Go deeper</button><div class="level-advanced" hidden><p>{s.god}</p></div></>)}
+          {s.god && (<><button class="go-deeper" type="button">Go deeper</button><div class="level-advanced" hidden>{paras(s.god).map((t) => <p>{t}</p>)}</div></>)}
         </div>
       </details>
     )}
@@ -247,7 +249,7 @@ const bslug = bookSlug(study.book);
             <figure class="media"><div class="video"><iframe src={`https://www.youtube-nocookie.com/embed/${smedia.oneStory.youtubeId}`} title={smedia.oneStory.caption || 'Video'} loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>{smedia.oneStory.caption && <figcaption>{smedia.oneStory.caption}</figcaption>}</figure>
           )}
           {basic.oneStory && <p class="level-basic">{basic.oneStory}</p>}
-          {s.oneStory && (<><button class="go-deeper" type="button">Go deeper</button><div class="level-advanced" hidden><p>{s.oneStory}</p></div></>)}
+          {s.oneStory && (<><button class="go-deeper" type="button">Go deeper</button><div class="level-advanced" hidden>{paras(s.oneStory).map((t) => <p>{t}</p>)}</div></>)}
         </div>
       </details>
     )}
