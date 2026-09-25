@@ -13,6 +13,12 @@ Claude prepares the files in the repo, then hands back:
 and then stops. Claude only runs the push itself if Luyanda explicitly says so
 in that message.
 
+Standing exception (25 September 2026): the scheduled task `makor-go-deeper`
+may commit and push its own Go deeper batches to main after a clean
+`npm run build`, as set out in `tools/deeper/DAILY-RUN.md`. This covers only
+those runs and only the files they list; everything else still follows the
+rule above.
+
 Commit handoff format (permanent): whenever work is ready, Claude gives a single
 ready to paste terminal block that runs from ANY terminal on the Mac, not only
 one already sitting in the repo. The block opens with `cd ~/makor || exit 1`

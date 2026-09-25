@@ -84,6 +84,9 @@ def upload_staged():
 
 
 def collect_studies(args):
+    if getattr(args, "files", None):
+        lines = [l.strip() for l in Path(args.files).read_text().splitlines() if l.strip()]
+        return [(Path(l) if Path(l).is_absolute() else (bu.STUDIES_DIR.parents[2] / l)).resolve() for l in lines]
     if args.study:
         return [Path(args.study).resolve()]
     files = sorted(bu.STUDIES_DIR.rglob("*.json"))
@@ -99,6 +102,7 @@ def main():
     g.add_argument("--all", action="store_true")
     g.add_argument("--book")
     g.add_argument("--study")
+    g.add_argument("--files", help="a text file listing study JSON paths, one per line")
     g.add_argument("--upload-staged", action="store_true",
                    help="upload every finished study waiting in _stage (after an --offline render)")
     ap.add_argument("--offline", action="store_true",
