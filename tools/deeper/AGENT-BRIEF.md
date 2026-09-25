@@ -24,6 +24,10 @@ For each study you are given:
    level. Start where the basic paragraph stops. Real exegesis, grounded in the
    text, no fabrication, plain warm voice, no em or en dashes, paragraphs
    separated by a blank line, no `{{..}}` tokens, no original script.
+   Before writing, reread every Hebrew or Greek word you name and confirm it
+   is the word actually in that verse (for example Deuteronomy 18:18 and
+   Jeremiah 1:9 both use natan, "give", not sim). If you are not certain of
+   the exact word, describe the English phrase instead of naming a form.
 4. Write the study back with a Python script that loads the JSON, replaces only
    the Go deeper keys, and dumps with `json.dumps(doc, ensure_ascii=False,
    indent=2) + "\n"`. Never touch `study.basic`, `section`, `text`, `lexicon`,

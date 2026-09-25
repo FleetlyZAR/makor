@@ -96,12 +96,13 @@ good there and extend it to the bar; do not throw good material away.
 
 Tracked in `tools/deeper/progress.json` (written by `check.py --all --summary`).
 
-Paused 25 September 2026 at 191 of 1354: Genesis, Exodus, Leviticus and
-Numbers complete, Deuteronomy 1 to 16, plus the pilots Psalm 23 and Romans 5
-(Romans study 10). Resume with Deuteronomy 17. The run was paused to control
-cost: each four-study agent used about 230,000 tokens on Opus. Before resuming,
-decide the model (Sonnet is much cheaper), the concurrency, and whether to
-schedule it in small daily batches.
+Resumed 25 September 2026 in low-cost mode after 195 of 1354 (Genesis to
+Numbers, Deuteronomy 1 to 20, plus the pilots Psalm 23 and Romans 5). The
+first 191 used Opus agents at about 230,000 tokens per four studies. From
+Deuteronomy 17 the work runs on Sonnet agents, two at a time, through the
+scheduled task `makor-go-deeper` (09:00 and 21:00 daily, eight studies per run,
+steps in `tools/deeper/DAILY-RUN.md`). `tools/deeper/next.py` picks the next
+unfinished studies from the validator, so nothing needs tracking by hand.
 
 Issues agents noticed in frozen basic text are listed in `tools/deeper/FLAGS.md`
 for a separate, approved fix.
