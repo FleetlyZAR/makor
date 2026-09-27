@@ -5,8 +5,9 @@ Makor audio pipeline (multi-voice)
 
 Turns one Makor study JSON (schema v1.2) into narrated audio using Kokoro, a
 free, Apache 2.0 open source text to speech model. It renders one file per
-movement and one per Basic teaching step, plus a single whole-study track, for
-each requested voice, and writes a manifest the player reads.
+movement, one per Basic teaching step, and one per Go deeper step (kind
+"deeper", which the player leaves out unless the listener ticks Go deeper),
+plus a single whole-study track, for each requested voice, and writes a manifest the player reads.
 
 Backend: kokoro-onnx (no PyTorch, no system espeak). The model is loaded once
 and reused across all voices.
@@ -69,7 +70,7 @@ VOICES = {
 DEFAULT_VOICE = "am_michael"
 # Bump this whenever the spoken content changes, so the uploader knows to redo
 # studies whose audio was made by an older build (while staying resumable).
-BUILD_ID = "v3-names"
+BUILD_ID = "v4-deeper"
 
 # ---------------------------------------------------------------------------
 # Text assembly (verified by --dry-run; no model needed)
@@ -249,15 +250,14 @@ def build_segments(study: dict, layer: str, overrides: dict) -> list[dict]:
         for key, heading in step_titles.items():
             base_val = clean(basic.get(key, ""))
             adv = advanced_for(key, study)
-            parts = [f"{heading}."]
             if base_val:
-                parts.append(base_val)
+                segments.append({"id": f"teaching-{key}", "label": heading, "kind": "teaching",
+                                 "text": f"{heading}. {base_val}"})
+            # Go deeper is its own track, straight after its step, so the player
+            # can leave it out (the listener opts in; it is off by default).
             if adv:
-                parts.append("Going deeper. " + adv)
-            if len(parts) == 1:
-                continue
-            segments.append({"id": f"teaching-{key}", "label": heading, "kind": "teaching",
-                             "text": " ".join(parts)})
+                segments.append({"id": f"deeper-{key}", "label": f"{heading}: go deeper", "kind": "deeper",
+                                 "text": f"{heading}, going deeper. {adv}"})
 
         # Round out the full study: translation notes, then reflection questions.
         tn = []

@@ -90,7 +90,7 @@ good there and extend it to the bar; do not throw good material away.
   and follow it exactly", plus the chunk's files.
 - Per book, once every study passes: refresh the names lexicon
   (`makor-audio/names/README.md`, new words only), then render and upload that
-  book's audio (`makor-audio/GPU-RUN.md`; build id `v3-names` forces the redo).
+  book's audio (`makor-audio/GPU-RUN.md`; build id `v4-deeper` forces the redo; Go deeper is its own track, off by default in the player).
 
 ## Progress
 

@@ -10,6 +10,11 @@
 // order by default, or a reading plan's order when the page URL carries
 // ?plan=canonical|chronological|multitrack.
 //
+// Go deeper: each study step's Go deeper reading is its own track (kind
+// "deeper"). It is left out unless the listener ticks "Include Go deeper" in the
+// panel. The choice is remembered on the device (mk_audio_deeper) and applies to
+// every study, including the ones continuous play rolls into.
+//
 // Audio host: PUBLIC_MAKOR_AUDIO_BASE (Cloudflare env), default below.
 const { book, bookSlug, slug, title } = Astro.props;
 const AUDIO_BASE = (import.meta.env.PUBLIC_MAKOR_AUDIO_BASE ?? 'https://audio.makor.co.za/').replace(/\/?$/, '/');
@@ -56,6 +61,11 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
         <button id="mkap-next" type="button" aria-label="Next movement"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 6h2v12h-2zM6 18l8.5-6L6 6z"/></svg></button>
       </div>
       <div class="mkap-voices" id="mkap-voices"><span class="mkap-vlabel">Voice</span></div>
+      <label class="mkap-deeper" id="mkap-deeper-wrap" hidden>
+        <input type="checkbox" id="mkap-deeper" />
+        <span>Include Go deeper</span>
+        <span class="mkap-deeper-d" id="mkap-deeper-d"></span>
+      </label>
       <div id="mkap-list"></div>
       <p class="mkap-done" id="mkap-done" hidden>That is the end of the reading. Well done.</p>
     </div>
@@ -94,6 +104,11 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
   .mkap-vlabel { font-family: var(--sans); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-right: 2px; }
   .mkap-voice { font-family: var(--sans); font-size: 12px; padding: 4px 12px; border: 1px solid var(--line); border-radius: 999px; background: transparent; color: var(--muted); cursor: pointer; }
   .mkap-voice.sel { background: var(--water); border-color: var(--water); color: #fff; }
+  .mkap-deeper { display: flex; align-items: center; gap: 8px; padding: 10px 0 2px; font-family: var(--sans); font-size: 13px; color: var(--ink); cursor: pointer; }
+  .mkap-deeper[hidden] { display: none; }
+  .mkap-deeper input { width: 16px; height: 16px; margin: 0; accent-color: var(--water); cursor: pointer; }
+  .mkap-deeper-d { color: var(--muted); font-size: 12px; }
+  .mkap-seg.deeper .lbl { font-size: 13px; color: var(--muted); padding-left: 12px; }
   .mkap-group { font-family: var(--sans); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 12px 0 2px; }
   .mkap-seg { display: flex; align-items: center; gap: 10px; width: 100%; text-align: left; background: none; border: none; border-bottom: 1px solid var(--line); padding: 8px 2px; color: var(--ink); font: inherit; cursor: pointer; }
   .mkap-seg:hover, .mkap-seg.active { background: var(--light-soft); }
@@ -120,6 +135,12 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
     let meta = { slug: root.dataset.slug, book: root.dataset.book, title: root.dataset.title };
     let queue = [], qpos = -1;                 // cross-study playlist and position
     const $ = (id) => document.getElementById(id);
+
+    // Go deeper preference, shared by every study on this device. Off by default.
+    const DEEPER_KEY = 'mk_audio_deeper';
+    function deeperOn() { try { return localStorage.getItem(DEEPER_KEY) === '1'; } catch (e) { return false; } }
+    function storeDeeper(on) { try { if (on) localStorage.setItem(DEEPER_KEY, '1'); else localStorage.removeItem(DEEPER_KEY); } catch (e) {} }
+    let withDeeper = deeperOn();
     const fmt = (s) => { s = Math.max(0, Math.round(s || 0)); return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0'); };
 
     function setPlayIcons() {
@@ -155,7 +176,7 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
     function scheduleDock() { if (!ticking) { ticking = true; requestAnimationFrame(() => { dockTop(); ticking = false; }); } }
 
     function buildPlaylist() {
-      list = M.voices[voice].segments.slice();
+      list = M.voices[voice].segments.filter((s) => withDeeper || s.kind !== 'deeper');
       offsets = []; total = 0;
       for (const s of list) { offsets.push(total); total += s.seconds || 0; }
     }
@@ -196,7 +217,7 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
       savedListen = false;
       $('mkap-eyebrow').textContent = m.study.title || 'Listen';
       $('mkap-done').hidden = true;
-      buildPlaylist(); renderVoices(); renderList(); setPlayIcons();
+      buildPlaylist(); renderVoices(); renderDeeper(); renderList(); setPlayIcons();
       const startIndex = opts.startAtEnd ? (list.length - 1) : (opts.startIndex || 0);
       loadTrack(startIndex, 0, !!opts.autoplay);
       return true;
@@ -319,16 +340,16 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
 
     function renderList() {
       const box = $('mkap-list'); box.innerHTML = '';
-      const groups = [['passage', 'The passage, movement by movement'], ['teaching', 'The study, step by step'], ['intro', 'Introduction']];
+      const groups = [[['passage'], 'The passage, movement by movement'], [['teaching', 'deeper'], 'The study, step by step'], [['intro'], 'Introduction']];
       let n = 0;
-      groups.forEach(([kind, heading]) => {
-        const segs = list.filter((s) => s.kind === kind);
+      groups.forEach(([kinds, heading]) => {
+        const segs = list.filter((s) => kinds.includes(s.kind));
         if (!segs.length) return;
         const h = document.createElement('div'); h.className = 'mkap-group'; h.textContent = heading; box.appendChild(h);
         segs.forEach((seg) => {
           const i = list.indexOf(seg); n++;
           const b = document.createElement('button');
-          b.className = 'mkap-seg'; b.dataset.i = i; b.type = 'button';
+          b.className = 'mkap-seg' + (seg.kind === 'deeper' ? ' deeper' : ''); b.dataset.i = i; b.type = 'button';
           b.innerHTML = '<span class="n">' + n + '</span><span class="lbl"></span><span class="d">' + fmt(seg.seconds) + '</span>';
           b.querySelector('.lbl').textContent = seg.label;
           b.onclick = () => loadTrack(i, 0, true);
@@ -348,6 +369,40 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
         box.appendChild(b);
       });
     }
+    // The Go deeper tick box. Shown only when this study's audio has separate
+    // Go deeper tracks (older renders folded them into the step itself).
+    function renderDeeper() {
+      const segs = M.voices[voice].segments.filter((s) => s.kind === 'deeper');
+      $('mkap-deeper-wrap').hidden = !segs.length;
+      $('mkap-deeper').checked = withDeeper;
+      const secs = segs.reduce((a, s) => a + (s.seconds || 0), 0);
+      $('mkap-deeper-d').textContent = segs.length ? '(adds ' + Math.max(1, Math.round(secs / 60)) + ' min)' : '';
+    }
+    function setDeeper(on) {
+      on = !!on;
+      if (on === withDeeper) { if (M) renderDeeper(); return; }
+      withDeeper = on;
+      storeDeeper(on);
+      if (!M) return;
+      const all = M.voices[voice].segments;
+      const cur = list[idx], wasPlaying = !audio.paused, within = audio.currentTime || 0;
+      buildPlaylist(); renderDeeper(); renderList();
+      let i = cur ? list.findIndex((s) => s.id === cur.id) : 0;
+      if (i >= 0) {                                   // still in the playlist: keep the place
+        idx = i; recalcOnly(); return;
+      }
+      // The current track was a Go deeper one that is now left out: carry on
+      // with the next track that remains.
+      const from = all.findIndex((s) => s.id === cur.id);
+      const nextId = all.slice(from + 1).map((s) => s.id).find((id) => list.some((s) => s.id === id));
+      i = nextId ? list.findIndex((s) => s.id === nextId) : list.length - 1;
+      loadTrack(i, nextId ? 0 : within, wasPlaying);
+    }
+    function recalcOnly() { renderActive(); $('mkap-time').textContent = fmt(globalTime()) + ' / ' + fmt(total); }
+    window.makorAudioDeeper = function (on) { if (typeof on === 'boolean') setDeeper(on); return withDeeper; };
+    $('mkap-deeper').addEventListener('change', (e) => setDeeper(e.target.checked));
+    window.addEventListener('storage', (e) => { if (e.key === DEEPER_KEY) setDeeper(e.newValue === '1'); });
+
     function switchVoice(id) {
       if (id === voice) return;
       const gt = globalTime(), wasPlaying = !audio.paused, curId = list[idx].id;

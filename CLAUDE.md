@@ -97,6 +97,8 @@ check these two files survive.
 deeper level; `tools/deeper/check.py` validates it. Audio pronunciation of
 Hebrew, Aramaic and Greek names lives in `makor-audio/names/` (README there);
 refresh it after new or edited studies and before rendering audio. Audio build
-id `v3-names` forces a re-render. The Mac can render offline with
+id `v4-deeper` forces a re-render (v4 splits each Go deeper into its own
+track, kind "deeper", which the player leaves out unless the listener ticks
+"Include Go deeper"; the choice is remembered app wide in `mk_audio_deeper`). The Mac can render offline with
 `makor-audio/gpu_run.py --offline` and upload later with `--upload-staged`
 once `makor-audio/.env` holds the R2 keys.

@@ -851,7 +851,8 @@ const bslug = bookSlug(study.book);
         const n = parseInt(seg.slice(8), 10);
         return document.querySelectorAll('.scripture .unit')[n - 1] || null;
       }
-      const title = SEG_TITLE[seg];
+      // A Go deeper track reads the same panel as its step (deeper-x -> teaching-x).
+      const title = SEG_TITLE[seg.indexOf('deeper-') === 0 ? 'teaching-' + seg.slice(7) : seg];
       if (!title) return null;
       const t = Array.from(document.querySelectorAll('.cascade-title')).find((x) => x.textContent.trim() === title);
       return t ? t.closest('details.cascade') : null;
@@ -866,6 +867,10 @@ const bslug = bookSlug(study.book);
         clear(); el.classList.add('mkseg-active'); cur = el;
         const det = el.closest ? (el.matches('details') ? el : el.closest('details.cascade')) : null;
         if (det && !det.open) det.open = true;       // open the panel so the read text shows
+        if (d.seg && d.seg.indexOf('deeper-') === 0 && det) {   // and its Go deeper text
+          const b = det.querySelector('.go-deeper'), adv = b && b.nextElementSibling;
+          if (adv && adv.hasAttribute('hidden')) b.click();
+        }
         if (d.playing && !inView(el)) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
     });

@@ -31,6 +31,15 @@ the end to see the "day complete, unscored" badge.
 
 Generate a single voice while testing with `--voices af_heart`.
 
+## Go deeper is optional
+
+Each study step's Go deeper reading is its own track (`deeper-<step>`, kind
+`deeper`), placed straight after the step it expands. The site player leaves
+these out unless the listener ticks "Include Go deeper" in the player panel; the
+choice is remembered on the device and applies to every study. Audio rendered
+before build `v4-deeper` folded Go deeper into the step itself, so the tick box
+only appears once a study has been re-rendered.
+
 ## Pronunciation fixes
 
 Text to speech mispronounces Hebrew names and transliterations, which matters
