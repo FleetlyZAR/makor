@@ -18,9 +18,21 @@
         "note": "why did you not call us",
         "emphasis": "",
         "verses": [
-          { "chapter": 12, "n": 1, "text": "Then the men of Ephraim assembled and crossed the Jordan to Zaphon. They said to Jephthah, “Why have you crossed over to fight the Ammonites without calling us to go with you? We will burn your house down with you inside!”" },
-          { "chapter": 12, "n": 2, "text": "But Jephthah replied, “My people and I had a serious conflict with the Ammonites, and when I called, you did not save me out of their hands." },
-          { "chapter": 12, "n": 3, "text": "When I saw that you would not save me, I risked my life and crossed over to the Ammonites, and the LORD delivered them into my hand. Why then have you come today to fight against me?”" }
+          {
+            "chapter": 12,
+            "n": 1,
+            "text": "Then the men of Ephraim assembled and crossed the Jordan to Zaphon. They said to Jephthah, “Why have you crossed over to fight the Ammonites without calling us to go with you? We will burn your house down with you inside!”"
+          },
+          {
+            "chapter": 12,
+            "n": 2,
+            "text": "But Jephthah replied, “My people and I had a serious conflict with the Ammonites, and when I called, you did not save me out of their hands."
+          },
+          {
+            "chapter": 12,
+            "n": 3,
+            "text": "When I saw that you would not save me, I risked my life and crossed over to the Ammonites, and the LORD delivered them into my hand. Why then have you come today to fight against me?”"
+          }
         ]
       },
       {
@@ -28,7 +40,11 @@
         "note": "brother against brother",
         "emphasis": "",
         "verses": [
-          { "chapter": 12, "n": 4, "text": "Jephthah then gathered all the men of Gilead and fought against Ephraim. And the men of Gilead struck them down because the Ephraimites had said, “You Gileadites are {{palit|fugitives}} in Ephraim, living in the territories of Ephraim and Manasseh.”" }
+          {
+            "chapter": 12,
+            "n": 4,
+            "text": "Jephthah then gathered all the men of Gilead and fought against Ephraim. And the men of Gilead struck them down because the Ephraimites had said, “You Gileadites are {{palit|fugitives}} in Ephraim, living in the territories of Ephraim and Manasseh.”"
+          }
         ]
       },
       {
@@ -36,8 +52,16 @@
         "note": "he could not pronounce it correctly",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 12, "n": 5, "text": "The Gileadites captured the fords of the Jordan leading to Ephraim, and whenever a {{palit|fugitive}} from Ephraim would say, “Let me cross over,” the Gileadites would ask him, “Are you an Ephraimite?” If he answered, “No,”" },
-          { "chapter": 12, "n": 6, "text": "they told him, “Please say {{shibboleth|Shibboleth}}.” If he said, “Sibboleth,” because he could not pronounce it correctly, they seized him and killed him at the fords of the Jordan. So at that time 42,000 Ephraimites were killed." }
+          {
+            "chapter": 12,
+            "n": 5,
+            "text": "The Gileadites captured the fords of the Jordan leading to Ephraim, and whenever a {{palit|fugitive}} from Ephraim would say, “Let me cross over,” the Gileadites would ask him, “Are you an Ephraimite?” If he answered, “No,”"
+          },
+          {
+            "chapter": 12,
+            "n": 6,
+            "text": "they told him, “Please say {{shibboleth|Shibboleth}}.” If he said, “Sibboleth,” because he could not pronounce it correctly, they seized him and killed him at the fords of the Jordan. So at that time 42,000 Ephraimites were killed."
+          }
         ]
       },
       {
@@ -45,15 +69,34 @@
         "note": "he judged Israel six years",
         "emphasis": "",
         "verses": [
-          { "chapter": 12, "n": 7, "text": "Jephthah {{shophet|judged}} Israel six years, and when he died, he was buried in one of the cities of Gilead." }
+          {
+            "chapter": 12,
+            "n": 7,
+            "text": "Jephthah {{shophet|judged}} Israel six years, and when he died, he was buried in one of the cities of Gilead."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "shophet": { "language": "Hebrew", "lemma": "shaphat", "original": "שָׁפַט", "gloss": "To judge, govern, deliver. The word behind the whole book: a shophet is not mainly a courtroom judge but a Spirit-raised deliverer who rescues Israel and then leads them. Jephthah judged Israel six years, yet his brief rule ends amid civil war, a sign of how far the office and the nation have declined." },
-    "shibboleth": { "language": "Hebrew", "lemma": "shibboleth", "original": "שִׁבֹּלֶת", "gloss": "An ear of grain, or a flowing stream; here it is the test word at the fords. The Ephraimite dialect could not sound the opening sh, so a fugitive would say Sibboleth and betray himself. A single syllable now divides brother from brother and life from death, the tragedy of the scene distilled into one word." },
-    "palit": { "language": "Hebrew", "lemma": "palit", "original": "פָּלִיט", "gloss": "A fugitive, refugee, escaped one. Ephraim first hurls the word as an insult, calling the Gileadites mere fugitives; then the same word describes the Ephraimites themselves, fleeing for their lives at the fords. The taunt rebounds on the tribe that spoke it, and Israel's contempt for its own kin turns deadly." }
+    "shophet": {
+      "language": "Hebrew",
+      "lemma": "shaphat",
+      "original": "שָׁפַט",
+      "gloss": "To judge, govern, deliver. The word behind the whole book: a shophet is not mainly a courtroom judge but a Spirit-raised deliverer who rescues Israel and then leads them. Jephthah judged Israel six years, yet his brief rule ends amid civil war, a sign of how far the office and the nation have declined."
+    },
+    "shibboleth": {
+      "language": "Hebrew",
+      "lemma": "shibboleth",
+      "original": "שִׁבֹּלֶת",
+      "gloss": "An ear of grain, or a flowing stream; here it is the test word at the fords. The Ephraimite dialect could not sound the opening sh, so a fugitive would say Sibboleth and betray himself. A single syllable now divides brother from brother and life from death, the tragedy of the scene distilled into one word."
+    },
+    "palit": {
+      "language": "Hebrew",
+      "lemma": "palit",
+      "original": "פָּלִיט",
+      "gloss": "A fugitive, refugee, escaped one. Ephraim first hurls the word as an insult, calling the Gileadites mere fugitives; then the same word describes the Ephraimites themselves, fleeing for their lives at the fords. The taunt rebounds on the tribe that spoke it, and Israel's contempt for its own kin turns deadly."
+    }
   },
   "study": {
     "basic": {
@@ -67,93 +110,228 @@
       "oneStory": "In the long story of Judges, the deliverance cycle is spiraling downward, and here it reaches internal war. Israel beats the Ammonites only to butcher Ephraim, a nation set apart to bless the world now turning its sword on itself. The scene deepens the ache for a Deliverer who will not merely win battles but heal the fracture, the Prince of Peace who gathers the scattered into one."
     },
     "context": {
-      "literary": "This is the closing scene of the Jephthah narrative, and it darkens an already tragic account. The book has a pattern: after a great deliverance, the deliverer's flaws and the nation's decline show through. Gideon faced the same Ephraimite complaint and defused it; the deliberate echo invites comparison, and Jephthah comes off worse. The vivid detail of the Shibboleth test, and the staggering death toll, leave the reader shaken rather than triumphant.",
-      "historical": "The tribe of Ephraim was large and proud, and touchy about being left out of glorious victories. Gilead lay east of the Jordan, in territory tied to Manasseh, and the Ephraimites sneered at the Gileadites as runaways from the proper tribes. Regional dialects differed in the ancient world, and the Ephraimites evidently could not sound the sh in Shibboleth, so the word became an infallible tribal password. The fords of the Jordan were the natural chokepoints where fleeing men had to cross.",
-      "canonical": "The episode belongs to the long spiral of the book of Judges, where the refrain everyone did what was right in his own eyes describes a people unraveling. Inter-tribal violence, glimpsed here, will erupt again in the appalling civil war of Judges 20. Both anticipate the need for a righteous king, and beyond every earthly king, for the Messiah who alone unites and heals God's people."
+      "literary": "This is the closing scene of the Jephthah narrative, and it darkens an already tragic account. The book has a pattern: after a great deliverance, the deliverer's flaws and the nation's decline show through. Gideon faced the same Ephraimite complaint and defused it; the deliberate echo invites comparison, and Jephthah comes off worse. The vivid detail of the Shibboleth test, and the staggering death toll, leave the reader shaken rather than triumphant.\n\nNotice the economy of the telling. Seven verses record forty two thousand deaths, a ratio of narrated words to casualties found almost nowhere else in the Old Testament, and it stands in deliberate contrast to the forty verses the previous chapter spent on a single death inside Jephthah's own house. The narrator is not interested in dwelling on carnage for its own sake; the flatness of the reporting, no laments here, no named victims, only a number, is itself a literary choice that makes the horror feel almost administrative, which is arguably more disturbing than if it had been dramatized.\n\nThe scene also completes a small, escalating pair the author has built across two widely separated chapters. Ephraim picks an identical quarrel with Gideon in chapter 8 and is talked down; Ephraim picks it again with Jephthah here and is annihilated. Read together, the two scenes trace a line of moral decline running underneath the book's more famous deliverance stories, so that by the time the reader reaches chapter 12 the real crisis in Judges is no longer the foreign enemy at all.\n\nThe proportions of the scene again reveal where the narrator's interest lies. Three verses of dialogue, one verse summarizing an entire war, then two verses that slow almost to a frame by frame account of the test at the fords, and finally a single terse verse for Jephthah's own death. A book capable of compressing whole campaigns into a sentence lingers instead over the manner of dying, giving the shibboleth test far more space than the battle it follows from. The scene is also a deliberate echo with a twist: Ephraim raised the identical complaint against Gideon a generation earlier, Judges 8:1, and there a soft answer turned away wrath. The narrator expects readers to remember that earlier scene and feel the difference here as a measure of how far the nation, and its deliverers, have fallen in the meantime.",
+      "historical": "The tribe of Ephraim was large and proud, and touchy about being left out of glorious victories. Gilead lay east of the Jordan, in territory tied to Manasseh, and the Ephraimites sneered at the Gileadites as runaways from the proper tribes. Regional dialects differed in the ancient world, and the Ephraimites evidently could not sound the sh in Shibboleth, so the word became an infallible tribal password. The fords of the Jordan were the natural chokepoints where fleeing men had to cross.\n\nThe insult itself reaches back generations before this chapter. Reuben and Gad had already asked Moses for exactly this land east of the Jordan, wanting it for their large herds rather than crossing into Canaan proper, Numbers 32:1 to 5, a request granted but one that permanently marked the Transjordan tribes as living somewhat apart from the main body of Israel's settlement. Ephraim's taunt in verse 4, that the Gileadites are mere fugitives squatting inside Ephraim's and Manasseh's own territory, draws on that old geographical separateness and turns a settled arrangement from Moses' day into a fresh accusation of illegitimacy.\n\nThis was also not the first time these same two groups had nearly gone to war. A full generation earlier, at the very close of the conquest, Israel had assembled to fight the Transjordan tribes over a suspected act of religious rebellion, an altar built by the Jordan, Joshua 22:10 to 12. That earlier crisis was resolved through careful investigation before a single blow was struck. The historical memory of how narrowly Israel once avoided this exact civil war makes its actual outbreak here all the more damning.\n\nEphraim was no ordinary tribe among the twelve. Joshua himself was an Ephraimite, the central sanctuary at Shiloh sat within Ephraim's territory for generations, Judges 21:19, and centuries later the prophets use the name Ephraim as shorthand for the whole northern kingdom, Hosea 4:17 and Isaiah 7:2. A tribe accustomed to such prominence had real reason to feel slighted whenever a victory east of the Jordan proceeded without it. The fords of the Jordan near this stretch of the river offered a handful of natural, narrow crossing points, which is exactly what made a manned checkpoint feasible, a single line of soldiers could realistically screen every person trying to cross. And the sound difference behind the test, an inability to voice the initial sh, reflects a real dialect boundary among the tribes east and west of the Jordan, the kind of regional speech variation well attested elsewhere in the ancient Near East long before anyone thought to weaponize it.",
+      "canonical": "The episode belongs to the long spiral of the book of Judges, where the refrain everyone did what was right in his own eyes describes a people unraveling. Inter-tribal violence, glimpsed here, will erupt again in the appalling civil war of Judges 20. Both anticipate the need for a righteous king, and beyond every earthly king, for the Messiah who alone unites and heals God's people.\n\nSet beside Joshua 22, this scene reads like an answered prayer gone wrong. There the same tribes nearly come to blows over a misunderstood altar, and the crisis ends the moment Gilead explains itself: the whole congregation of Israel blesses God and speaks no more of war, Joshua 22:33. Here, Jephthah's explanation, that he had called Ephraim and Ephraim had refused to come, is entirely true, yet this time explanation changes nothing, and the fighting proceeds anyway. The book positions the two nearly identical crises a full generation of decline apart, so that the reader feels exactly how much ground Israel has lost.\n\nThe New Testament reaches back past every human attempt to hold Israel's tribes together and locates the only lasting cure in Christ, who is described as our peace, breaking down in His own body the dividing wall of hostility that separates estranged groups, Ephesians 2:14. Where Joshua's generation kept the peace through careful words and Jephthah's could not keep it at all, the New Testament's argument is that only a peace secured in a person, not merely negotiated between tribes, can finally hold.\n\nThis slaughter and the still worse civil war against Benjamin in Judges 19 to 21 form a grim pair of bookends across the second half of Judges, intertribal Israelite bloodshed opening and closing the book's final act, so that the reader cannot mistake the pattern for an isolated lapse. Ephraim's grievance here is also an early tremor of the fault line that eventually splits the united kingdom for good, when the ten northern tribes, still led in spirit by Ephraim, tear away from the house of David, 1 Kings 12:16-20. Psalm 78:9-11 later remembers Ephraim's armed men turning back on the day of battle because they forgot God's works, a separate incident but the same reputation, a tribe whose strength repeatedly outran its faithfulness."
     },
     "hermeneutics": {
-      "authorIntent": "To record, soberly and without praise, how Israel's internal fracture turned a victory over the Ammonites into a slaughter of fellow Israelites, and so to expose the depth of the nation's sin and its desperate need of a better Deliverer and King.",
-      "descriptionVsPrescription": "The narrative describes the civil war and the killing at the fords; it in no way prescribes them. Scripture reports this violence as tragedy, not example. What endures is the warning against pride and self-destruction among God's people, and the longing it stirs for the peace that only Christ can give.",
+      "authorIntent": "To record, soberly and without praise, how Israel's internal fracture turned a victory over the Ammonites into a slaughter of fellow Israelites, and so to expose the depth of the nation's sin and its desperate need of a better Deliverer and King.\n\nThe author wants the reader to notice that nothing supernatural or foreign causes this catastrophe; Ephraim's own wounded pride and Gilead's own retaliatory anger are entirely sufficient. By placing this scene immediately after Jephthah's hard won victory, with no pause for celebration, the narrator refuses his audience the relief a lesser storyteller might have granted them, insisting instead that they sit with the uncomfortable truth that Israel's judges keep winning battles against outsiders while losing the far more basic battle of loving their own kin. He wants a later generation reading this account to examine their own quarrels over credit and recognition, and to see how quickly wounded pride, left unchecked, escalates from words to weapons. The author also refuses to hand either side the moral high ground. Ephraim's threat to burn Jephthah's house down with him inside is naked aggression, yet Gilead's response, sealing every ford and killing every man who cannot manage a single syllable, goes far beyond winning a war into something closer to a massacre. By declining to excuse either party, the narrator forces the reader to feel the full weight of what a covenant people becomes once it has no shared king, no shared worship, and no real trust left between its own tribes, precisely the diagnosis the book is building toward its final chapters.",
+      "descriptionVsPrescription": "The narrative describes the civil war and the killing at the fords; it in no way prescribes them. Scripture reports this violence as tragedy, not example. What endures is the warning against pride and self-destruction among God's people, and the longing it stirs for the peace that only Christ can give.\n\nIt is also worth being precise about what the passage does and does not settle. It does not adjudicate, in the abstract, whether Ephraim's original grievance about being left out of the fight was fair; Jephthah's answer in verses 2 and 3 suggests it was not, since he says he did call them. What the passage clearly condemns, in its bare and unadorned reporting of forty two thousand deaths, is the response to that grievance, escalation into war and then into the killing of fleeing kinsmen identified only by their accent. A legitimate complaint handled illegitimately is still an illegitimate outcome, and the chapter's silence about any winner is itself part of its verdict. It is also worth noting what the text does not say. No verse claims the LORD commanded the fighting, approved the death toll, or was pleased with either tribe, and that silence should not be mistaken for divine endorsement. Scripture elsewhere gives explicit verdicts on far smaller matters; here it gives none, which means readers must measure Gilead's response against the rest of Scripture's teaching on anger, revenge, and the treatment of a defeated enemy rather than assuming the narrative's silence is quiet approval.",
       "debates": [
         {
           "question": "Is Jephthah presented as a righteous leader or as a tragic, failing one?",
           "views": [
-            { "label": "A flawed but faithful judge", "case": "Jephthah rightly credits the LORD with the victory, verse 3, and Hebrews 11 lists him among those who conquered kingdoms by faith; his defense of himself is understandable when threatened with death, and Ephraim is the aggressor." },
-            { "label": "A tragic figure caught in Israel's decline", "case": "Unlike Gideon, who calmed Ephraim with a soft answer, Jephthah escalates to war and presides over the slaughter of tens of thousands of Israelites; the narrative frames him as another sign of a nation and its deliverers spiraling downward." }
+            {
+              "label": "A flawed but faithful judge",
+              "case": "Jephthah rightly credits the LORD with the victory, verse 3, and Hebrews 11 lists him among those who conquered kingdoms by faith; his defense of himself is understandable when threatened with death, and Ephraim is the aggressor."
+            },
+            {
+              "label": "A tragic figure caught in Israel's decline",
+              "case": "Unlike Gideon, who calmed Ephraim with a soft answer, Jephthah escalates to war and presides over the slaughter of tens of thousands of Israelites; the narrative frames him as another sign of a nation and its deliverers spiraling downward."
+            }
           ],
           "bearing": "Either way the scene is a tragedy, not a triumph; both readings drive us to long for the greater Judge whose rule brings peace rather than fratricide."
         },
         {
           "question": "Why does the writer record the Shibboleth test in such vivid detail?",
           "views": [
-            { "label": "To underline the horror of civil war", "case": "The single mispronounced syllable that dooms a man makes the killing feel arbitrary and merciless, forcing the reader to feel how monstrous it is that brothers should slaughter brothers over the sound of a word." },
-            { "label": "To mark how far Israel has fractured", "case": "That Israelites can be identified as enemies by dialect alone shows the twelve tribes have split into rival groups; the test dramatizes a unity so broken that a fellow Israelite is now simply a target." }
+            {
+              "label": "To underline the horror of civil war",
+              "case": "The single mispronounced syllable that dooms a man makes the killing feel arbitrary and merciless, forcing the reader to feel how monstrous it is that brothers should slaughter brothers over the sound of a word."
+            },
+            {
+              "label": "To mark how far Israel has fractured",
+              "case": "That Israelites can be identified as enemies by dialect alone shows the twelve tribes have split into rival groups; the test dramatizes a unity so broken that a fellow Israelite is now simply a target."
+            }
           ],
           "bearing": "Both readings deepen the ache the book means us to feel: God's one people are tearing themselves apart, and only a true King and Prince of Peace can make them one."
         }
       ]
     },
-    "originalLanguages": "The vocabulary of the scene quietly tells its tragedy. Jephthah is a shophet, a judge, from a root that means to govern and to deliver; the judges were meant to rescue and lead God's people, yet this one's rule ends in Israelite blood, and the office itself looks worn out. The test word is shibboleth, ordinarily an innocent word for an ear of grain or a flowing stream, now weaponized so that a syllable decides who lives and who dies. And the taunt palit, fugitive, is the sharpest irony of all: Ephraim flings it at Gilead as an insult, sneering that they are mere runaways, but within a verse the Ephraimites themselves are the fugitives, cut down as they flee across the fords. The words turn back on the proud, and the reader is left feeling the full weight of a people at war with itself.",
+    "originalLanguages": "Jephthah is called a shophet in verse 7, the very verb Genesis puts in Abraham's mouth centuries earlier, will not the Judge of all the earth do what is right, Genesis 18:25, and the same office Israel will later demand be replaced by a king, appoint us a king to judge us like all the other nations, 1 Samuel 8:5. The word always carries both senses at once, to govern and to rescue, and it is worth noticing that by the time this chapter ends, the man holding that title has just rescued Israel from Ammon and then led it into slaughtering itself, the very word for the office now sitting uneasily beside the deed.\n\nShibboleth itself is a wonderfully ordinary word pressed into an extraordinary use. In its most common sense it names a head of grain, the very picture Pharaoh sees in his dream, seven heads of grain, plump and full, coming up on one stalk, Genesis 41:5 to 7, and elsewhere the same family of words can describe a flowing stream or channel. There is nothing sinister in the word on its own; the Gileadites simply reached for whichever everyday noun would force an accent to reveal itself, the sound of the opening consonant, not the meaning of the word, being the entire point of the test. A word for daily bread and water becomes, in a moment, the difference between crossing the river alive and dying at its edge.\n\nPalit, fugitive or escaped one, belongs to a family of words elsewhere used more hopefully, for those who survive a catastrophe to carry a future forward, as when Joseph tells his brothers that God sent him ahead of them to preserve life by a great escape, Genesis 45:7. Ephraim first slings the word at Gilead as pure contempt, you Gileadites are nothing but fugitives, verse 4, stripping the Gileadites of any claim to belong among Israel's proper tribes. Within two verses the word has attached itself to Ephraim instead, the very men now fleeing for the fords, so that a term that can elsewhere describe a remnant graciously preserved becomes, through Ephraim's own mouth, the label for its own dead.\n\nThe narrator's restraint is its own kind of eloquence. He does not linger on horror with adjectives; he simply reports the test, the mispronunciation, and the number, forty two thousand, in the flattest possible Hebrew narrative style, letting the arithmetic do what description never could.\n\nThree further details reward attention. Jephthah defends his earlier choice to fight Ammon by saying vaasimah naphshi bekhapi, I put my life in my hand, or as the BSB has it, I risked my life, an idiom for facing mortal danger used also of David before Saul, 1 Samuel 19:5 and 28:21, and of Job facing his own suffering, Job 13:14. The idiom underlines that Jephthah went to war against Ammon at real personal risk while Ephraim stayed home, sharpening the injustice of their complaint. The verb behind struck down in verse 4, nakah, is the Old Testament's ordinary word for a lethal military blow, the same verb that describes Israel striking down Canaanite armies throughout Joshua, so that its use here, Israelite striking Israelite, quietly signals that the category of enemy has collapsed inward. And the number forty two thousand in verse 6 uses the Hebrew word eleph, which most often means a thousand but can elsewhere denote a clan or a military unit rather than a strict head count, Judges 6:15. Interpreters differ over which sense is meant here, and the text itself gives no way to settle the question, so the honest reading holds the number seriously without claiming more precision than the word itself allows.",
     "typology": [
-      { "type": "A word that divides and condemns at the fords", "fulfillment": "Christ, the living Word, who instead gathers and reconciles, making peace between estranged peoples, Ephesians 2:14-16." },
-      { "type": "A deliverer whose people turn on one another", "fulfillment": "Christ, the greater Deliverer, who makes one new humanity out of divided tribes and nations, John 11:52 and Galatians 3:28." },
-      { "type": "The bloodshed of brother against brother", "fulfillment": "Christ the Prince of Peace, whose blood ends hostility rather than causing it, Colossians 1:20." }
+      {
+        "type": "A single word that separates the living from the dead at the fords",
+        "fulfillment": "At the Jordan's fords one syllable, mispronounced, was enough to mark a man for death, a linguistic test with no room for appeal or explanation. Paul takes up a very different kind of test centuries later and opens it to everyone, everyone who calls on the name of the Lord will be saved, Romans 10:13, a confession open to every tongue and accent rather than closed to one. Acts 2 shows the reversal directly, at Pentecost people of a dozen different languages hear the gospel each in their own tongue, verses 6 to 11, the opposite of a single required pronunciation. The type holds by contrast far more than by likeness, a test that kills by dialect against good news that welcomes every dialect."
+      },
+      {
+        "type": "Gilead's own deliverer leading Israelites to kill Israelites",
+        "fulfillment": "Jephthah's victory over Ammon is barely finished before the very man who won it presides over the slaughter of forty two thousand of his own countrymen, proof that no judge in this book can both defeat Israel's outward enemies and heal what divides it within. Ezekiel later pictures a coming shepherd king under whom Ephraim and Judah, the two halves so often at odds, become one stick in the LORD's hand, no longer two nations or two kingdoms, Ezekiel 37:15-22. Where Jephthah's rule widens the tribal wound, the true Shepherd's rule is the one place Scripture promises the wound will finally close for good."
+      },
+      {
+        "type": "Brother killing brother over an old grievance",
+        "fulfillment": "Ephraim's complaint is nearly identical to the one it raised against Gideon a generation earlier, Judges 8:1, but this time it ends in bloodshed rather than a soft answer, showing how quickly an old, unresolved grievance can turn lethal once nursed long enough. Paul warns a quarreling church in exactly this vocabulary, if you keep on biting and devouring one another, watch out, or you will be consumed by one another, Galatians 5:15, naming the very appetite this scene displays. Christ's own prayer that His people would be one, John 17:21, stands over against Gilead and Ephraim as the request no merely human leader, however Spirit anointed, has ever been able to answer on his own."
+      }
     ],
-    "christ": "This passage points to Christ chiefly by its darkness, by showing how badly He is needed. Israel's judges could win a war against the Ammonites but could not keep the peace among their own; the deliverance that beat the outside enemy dissolved into the slaughter of brothers. That is the wound no earthly deliverer can heal. Christ is the true Judge and the Prince of Peace who does what Jephthah could not: He breaks down the dividing wall of hostility and makes the two into one, reconciling divided peoples to God and to each other in one body through the cross, Ephesians 2:14-16. Where a spoken word at the fords marked men for death, the living Word speaks a better word that reconciles, so that in His kingdom no tribe or tongue is ever a death sentence, and people from every nation are gathered into one, Revelation 7:9.",
-    "god": "God is not absent even here. Jephthah confesses truly that the LORD delivered the Ammonites into his hand, so the victory that opened this chapter was God's gift, not human strength. Yet God, in His righteous patience, lets the pride and self-will of His people run their course, so that the horror of sin is exposed and the ache for a better Deliverer grows sharp. He remains faithful to save Israel from her outward enemies, but the narrative makes plain that her deepest enemy is now within, and that only God Himself, in the coming King and Prince of Peace, can finally deal with the heart that turns brother against brother.",
+    "christ": "This passage never mentions the LORD's pleasure or displeasure at what happens at the fords, and that silence is itself part of what makes the reader ache for a King who would not merely stay silent. Jephthah has just confessed rightly, in the previous chapter, that the LORD delivered the Ammonites into his hand, yet the same man's rule ends with a test that kills forty two thousand Israelites over an accent, a juxtaposition the book will not soften into either full praise or full blame.\n\nThe word that divides at the fords is worth weighing against the Word who came among divided peoples in John's prologue, the Word became flesh and dwelt among us, John 1:14, not to sort insiders from outsiders by an accident of birth or speech but to gather a people from every tribe and tongue, Revelation 7:9. Where Shibboleth could be tested only by an accident of upbringing no one chooses, the gospel's test is a confession anyone can make, everyone who calls on the name of the Lord will be saved, Romans 10:13, deliberately open rather than deliberately narrow.\n\nPaul's letter to a divided church supplies the fullest answer this scene demands but cannot give. Christ is our peace, who has made the two groups one and has destroyed the barrier, the dividing wall of hostility, Ephesians 2:14, language written first for Jew and Gentile but reaching backward to cover every fractured brotherhood the Old Testament records, Gilead against Ephraim included. He did this, Paul says, by abolishing in His flesh the law of commandments, so as to create in Himself one new man in place of the two, thus making peace, verse 15, a peace bought at the cost of His own body rather than at the cost of an enemy's.\n\nEven the death toll itself, staggering and unresolved by any recorded reconciliation, presses the reader toward the only death that ever actually ended a fratricidal history rather than merely adding to it. At the cross the hostility of Gilead and Ephraim, and of every enmity like it since, is what Christ bore and put to death, so that those who trust Him are reconciled to God in one body through the cross, Ephesians 2:16, the peace the fords of the Jordan needed and never received.",
+    "god": "God's presence in this scene is real but almost entirely behind the scenes, which is itself a claim worth sitting with. Jephthah credits the LORD with the Ammonite victory in the very words he flings back at Ephraim, verse 3, so the chapter does not deny that God has been at work, it simply refuses to attach His name to what happens next. No verse says the LORD gave Gilead the fords, or approved the death toll, or was angered by it. That silence is not indifference so much as restraint, Scripture regularly lets human sin run its own course without narrating a divine verdict on every detail, trusting readers to measure the scene against what God has already revealed rather than waiting to be told.\n\nWhat the silence does teach is that God's gifts can be genuinely used and badly used in the same short span. The Spirit came upon Jephthah for battle, chapter 11 verse 29, and here that same Spirit anointed leader turns his forces on fellow Israelites within a single chapter, a reminder that a real, verified work of God in a person's life is never a guarantee against that same person's pride, temper, or excess in what follows. God's faithfulness to raise up deliverers does not amount to a promise that every deliverer will act wisely once raised.\n\nThe passage also exposes, without stating it directly, how far short every human judge falls of the righteous rule God intends. A shophet is meant to embody something of God's own justice, yet here justice curdles into a linguistic trap with no trial, no appeal, and no distinction between a fleeing soldier and an innocent bystander who simply cannot manage the accent demanded of him. God's own justice, described throughout Scripture as no respecter of persons and blind to superficial marks of identity, Deuteronomy 10:17, stands in silent judgment over a test that kills on the basis of exactly such a superficial mark.\n\nAnd yet God does not abandon the story here. The genealogy of judges continues, verse 7 notes Jephthah's death and burial as simply one more entry in a sequence that keeps moving toward Samson and, eventually, toward Samuel and David, evidence that God's larger purposes for His people survive even a chapter this dark.",
     "crossReferences": [
-      { "ref": "Judges 8:1-3", "note": "Ephraim picks the same quarrel with Gideon, who answers gently and averts war, sharpening the contrast with the bloodshed under Jephthah." },
-      { "ref": "Proverbs 15:1", "note": "A soft answer turns away wrath, but a harsh word stirs up anger, the wisdom Gideon used and this scene lacks." },
-      { "ref": "Galatians 5:15", "note": "If you keep on biting and devouring one another, watch out, or you will be consumed by one another, a warning embodied at the fords." },
-      { "ref": "Ephesians 2:14-16", "note": "Christ is our peace, who broke down the dividing wall of hostility to make the two into one, the healing this fracture cries out for." }
+      {
+        "ref": "Judges 8:1-3",
+        "note": "Ephraim picks the identical quarrel with Gideon a generation earlier, angry at being left out of a victory, and Gideon's soft answer turns the anger aside without a single sword drawn. The deliberate echo makes the bloodshed under Jephthah feel less like an isolated flare up and more like an old grievance finally given a leader willing to fight rather than answer gently."
+      },
+      {
+        "ref": "Genesis 4:3-8",
+        "note": "The first brothers in Scripture already end in murder over a grievance about being favored or overlooked, Cain unable to master the anger crouching at his door. Gilead and Ephraim replay the same shape on a national scale, wounded pride curdling into bloodshed between people who share one father and one calling."
+      },
+      {
+        "ref": "Proverbs 15:1",
+        "note": "A gentle answer turns away wrath, but a harsh word stirs up anger, exactly the principle Gideon practiced and Jephthah abandoned. The proverb reads almost like a commentary written in advance on the difference between chapter 8 and chapter 12."
+      },
+      {
+        "ref": "1 Kings 12:16-20",
+        "note": "Centuries later the ten northern tribes, still identified in spirit with Ephraim, tear the kingdom away from David's house entirely, an old wound of pride and rivalry finally splitting the nation for good. The grievance nursed at the fords was an early tremor of that later, permanent fracture."
+      },
+      {
+        "ref": "James 4:1-2",
+        "note": "What causes quarrels and fights among you, James asks, is it not your passions at war within you, you desire and do not have, so you murder. The diagnosis fits Ephraim's wounded pride precisely, an unmet desire for recognition curdling into violence against its own kin."
+      },
+      {
+        "ref": "Psalm 133:1",
+        "note": "How good and pleasant it is when brothers dwell together in unity, the psalm sings, a picture this scene inverts point for point. The fords of the Jordan show exactly how far a covenant people can fall from that simple, celebrated ideal."
+      },
+      {
+        "ref": "Galatians 5:15",
+        "note": "If you keep on biting and devouring one another, watch out, or you will be consumed by one another, Paul warns a quarreling church, naming in one sentence the very appetite that leaves forty two thousand Ephraimites dead at the fords."
+      },
+      {
+        "ref": "Ephesians 2:14-16",
+        "note": "Christ is our peace, who made two hostile groups one and destroyed the dividing wall between them, reconciling both to God in one body through the cross, the exact healing this scene of tribal slaughter never receives and cannot produce on its own."
+      }
     ],
-    "oneStory": "In the downward spiral of Judges, the cycle of sin, oppression, and rescue keeps repeating, and here it collapses into civil war. Israel beats the Ammonites only to butcher Ephraim; a people called to bless the nations now turns its sword on itself, and a single word divides brother from brother at the fords. The scene deepens the whole Bible's ache for a Deliverer who will not merely win battles but heal the fracture, the true Judge and Prince of Peace, Jesus, who gathers the scattered children of God into one.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "The fracture at the fords belongs to a much older wound than tribal jealousy. Genesis records the first brothers, Cain and Abel, and the first murder follows a grievance over whose offering God favored, Genesis 4:3-8, a shape this scene repeats almost exactly, wounded pride over being overlooked, followed by blood. What God's good creation never intended, brothers destroying brothers, keeps recurring across the generations between Eden and Gilead, proof that the fall's damage runs through every relationship the world calls family.\n\nWithin Israel's own story this episode is not the last time Ephraim's pride and Israel's unity collide. The tribe's insistence on primacy resurfaces a few centuries later when ten tribes, still led in spirit by Ephraim, tear the kingdom away from David's house entirely, 1 Kings 12:16-20, so that the grievance nursed here at the fords is an early tremor of a fault line that eventually splits the nation for good. A people meant to bless every family of the earth, Genesis 12:3, instead spends long stretches of its history unable to keep peace within its own family.\n\nThe whole scene therefore intensifies rather than answers the ache Judges keeps building, that no merely human deliverer, however genuinely used by God, can end a nation's civil war from the inside. That ache is finally answered not by a stronger general but by a different kind of King, one who tears down dividing walls rather than building checkpoints at them, Ephesians 2:14, and who prays that His people would be one as He and the Father are one, John 17:21-23. The new creation completes what this scene cannot, a people gathered from every nation, tribe, and tongue standing together before the throne, Revelation 7:9-10, the fords of the Jordan finally, fully crossed in peace.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "Why did the men of Ephraim come armed against Jephthah?",
       "options": [
-        { "text": "They were angry at being left out of the war against the Ammonites and threatened to burn Jephthah's house down.", "weight": 100, "note": "Verse 1 records both the complaint about not being called and the threat to burn his house." },
-        { "text": "They were upset that they had not been invited to fight.", "weight": 75, "note": "True as far as it goes, but it omits the deadly threat that made the quarrel explode into war." },
-        { "text": "They wanted a share of the Ammonite plunder.", "weight": 25, "note": "The text names wounded pride at being left out, not a demand for plunder." },
-        { "text": "They came to congratulate Jephthah on his victory.", "weight": 0, "note": "They came armed and threatening, not to congratulate him." }
+        {
+          "text": "They were angry at being left out of the war against the Ammonites and threatened to burn Jephthah's house down.",
+          "weight": 100,
+          "note": "Verse 1 records both the complaint about not being called and the threat to burn his house."
+        },
+        {
+          "text": "They were upset that they had not been invited to fight.",
+          "weight": 75,
+          "note": "True as far as it goes, but it omits the deadly threat that made the quarrel explode into war."
+        },
+        {
+          "text": "They wanted a share of the Ammonite plunder.",
+          "weight": 25,
+          "note": "The text names wounded pride at being left out, not a demand for plunder."
+        },
+        {
+          "text": "They came to congratulate Jephthah on his victory.",
+          "weight": 0,
+          "note": "They came armed and threatening, not to congratulate him."
+        }
       ]
     },
     {
       "q": "How did Jephthah answer Ephraim's complaint?",
       "options": [
-        { "text": "He said he had called them, they had not come, and the LORD, not they, had given the victory.", "weight": 100, "note": "Verses 2-3 record his defense and his confession that the LORD delivered the Ammonites into his hand." },
-        { "text": "He reminded them that God had granted the victory.", "weight": 75, "note": "He did say this, but the answer also charged them with failing to come when called." },
-        { "text": "He apologized and offered to share the credit.", "weight": 25, "note": "He defended himself rather than apologizing, and the credit he gave was to God." },
-        { "text": "He said nothing and simply attacked.", "weight": 0, "note": "He first answered them in words before the fighting began." }
+        {
+          "text": "He said he had called them, they had not come, and the LORD, not they, had given the victory.",
+          "weight": 100,
+          "note": "Verses 2-3 record his defense and his confession that the LORD delivered the Ammonites into his hand."
+        },
+        {
+          "text": "He reminded them that God had granted the victory.",
+          "weight": 75,
+          "note": "He did say this, but the answer also charged them with failing to come when called."
+        },
+        {
+          "text": "He apologized and offered to share the credit.",
+          "weight": 25,
+          "note": "He defended himself rather than apologizing, and the credit he gave was to God."
+        },
+        {
+          "text": "He said nothing and simply attacked.",
+          "weight": 0,
+          "note": "He first answered them in words before the fighting began."
+        }
       ]
     },
     {
       "q": "What was the Shibboleth test at the fords of the Jordan?",
       "options": [
-        { "text": "Fleeing Ephraimites were asked to say Shibboleth, and those who said Sibboleth, unable to pronounce it, were killed.", "weight": 100, "note": "Verses 5-6 describe the dialect test that exposed and doomed the Ephraimites." },
-        { "text": "A password used to catch Ephraimites by their accent.", "weight": 75, "note": "Correct in essence, but it leaves out the deadly outcome and the huge number killed." },
-        { "text": "A riddle Jephthah set to prove who was loyal.", "weight": 25, "note": "It was a matter of pronunciation, not a riddle testing loyalty." },
-        { "text": "A peace treaty sworn between Gilead and Ephraim.", "weight": 0, "note": "It was the opposite of peace; it was the means of killing fleeing Ephraimites." }
+        {
+          "text": "Fleeing Ephraimites were asked to say Shibboleth, and those who said Sibboleth, unable to pronounce it, were killed.",
+          "weight": 100,
+          "note": "Verses 5-6 describe the dialect test that exposed and doomed the Ephraimites."
+        },
+        {
+          "text": "A password used to catch Ephraimites by their accent.",
+          "weight": 75,
+          "note": "Correct in essence, but it leaves out the deadly outcome and the huge number killed."
+        },
+        {
+          "text": "A riddle Jephthah set to prove who was loyal.",
+          "weight": 25,
+          "note": "It was a matter of pronunciation, not a riddle testing loyalty."
+        },
+        {
+          "text": "A peace treaty sworn between Gilead and Ephraim.",
+          "weight": 0,
+          "note": "It was the opposite of peace; it was the means of killing fleeing Ephraimites."
+        }
       ]
     },
     {
       "q": "What does this civil war reveal about Israel at this point?",
       "options": [
-        { "text": "The nation is so fractured that it turns its weapons on its own brothers after beating an outside enemy.", "weight": 100, "note": "The slaughter of 42,000 Ephraimites exposes how deep Israel's internal decline has gone." },
-        { "text": "Israel had some tension between the tribes.", "weight": 75, "note": "True but far too mild; the tension erupted into the killing of tens of thousands." },
-        { "text": "The problem was only Ephraim's pride, and the rest of Israel was fine.", "weight": 25, "note": "Ephraim's pride is real, but the whole scene shows a nation unraveling, not one guilty tribe." },
-        { "text": "Israel was strong, united, and at peace under its judges.", "weight": 0, "note": "The scene shows the opposite: a people at war with itself." }
+        {
+          "text": "The nation is so fractured that it turns its weapons on its own brothers after beating an outside enemy.",
+          "weight": 100,
+          "note": "The slaughter of 42,000 Ephraimites exposes how deep Israel's internal decline has gone."
+        },
+        {
+          "text": "Israel had some tension between the tribes.",
+          "weight": 75,
+          "note": "True but far too mild; the tension erupted into the killing of tens of thousands."
+        },
+        {
+          "text": "The problem was only Ephraim's pride, and the rest of Israel was fine.",
+          "weight": 25,
+          "note": "Ephraim's pride is real, but the whole scene shows a nation unraveling, not one guilty tribe."
+        },
+        {
+          "text": "Israel was strong, united, and at peace under its judges.",
+          "weight": 0,
+          "note": "The scene shows the opposite: a people at war with itself."
+        }
       ]
     },
     {
       "q": "How does this dark scene point us toward Christ?",
       "options": [
-        { "text": "By showing the fracture no earthly deliverer can heal, it makes us long for the Prince of Peace who makes divided peoples one.", "weight": 100, "note": "Christ breaks down the dividing wall of hostility, Ephesians 2:14-16, the peace this scene lacks." },
-        { "text": "It reminds us we need a Savior who brings peace.", "weight": 75, "note": "True, but it understates how the passage points to Christ precisely by the depth of the fracture." },
-        { "text": "It teaches that God approves of war between His people.", "weight": 25, "note": "The text records the fratricide as tragedy, not as something God approves." },
-        { "text": "It shows that Jephthah himself was the promised Messiah.", "weight": 0, "note": "Jephthah is a flawed deliverer who points forward by contrast, not the Messiah." }
+        {
+          "text": "By showing the fracture no earthly deliverer can heal, it makes us long for the Prince of Peace who makes divided peoples one.",
+          "weight": 100,
+          "note": "Christ breaks down the dividing wall of hostility, Ephesians 2:14-16, the peace this scene lacks."
+        },
+        {
+          "text": "It reminds us we need a Savior who brings peace.",
+          "weight": 75,
+          "note": "True, but it understates how the passage points to Christ precisely by the depth of the fracture."
+        },
+        {
+          "text": "It teaches that God approves of war between His people.",
+          "weight": 25,
+          "note": "The text records the fratricide as tragedy, not as something God approves."
+        },
+        {
+          "text": "It shows that Jephthah himself was the promised Messiah.",
+          "weight": 0,
+          "note": "Jephthah is a flawed deliverer who points forward by contrast, not the Messiah."
+        }
       ]
     }
   ],
@@ -165,9 +343,21 @@
     "This scene aches for the Prince of Peace who makes the two into one. How does Christ's reconciling work move you to pursue peace and unity in your church and family?"
   ],
   "translationNotes": [
-    { "ref": "Judges 12:6", "note": "Shibboleth means an ear of grain or a flowing stream; the point is not its meaning but its sound. The Ephraimite dialect could not voice the opening sh, so saying Sibboleth exposed a man as an Ephraimite and cost him his life." },
-    { "ref": "Judges 12:4", "note": "Fugitives renders a Hebrew word that Ephraim uses as an insult against Gilead; the same word for a fleeing refugee then describes the Ephraimites themselves at the fords, a deliberate and bitter irony." },
-    { "ref": "Judges 12:7", "note": "Buried in one of the cities of Gilead follows the Hebrew; the BSB footnote notes that the Septuagint reads in his city in Gilead, a minor variation that does not affect the sense." }
+    {
+      "ref": "Judges 12:6",
+      "note": "Shibboleth means an ear of grain or a flowing stream; the point is not its meaning but its sound. The Ephraimite dialect could not voice the opening sh, so saying Sibboleth exposed a man as an Ephraimite and cost him his life."
+    },
+    {
+      "ref": "Judges 12:4",
+      "note": "Fugitives renders a Hebrew word that Ephraim uses as an insult against Gilead; the same word for a fleeing refugee then describes the Ephraimites themselves at the fords, a deliberate and bitter irony."
+    },
+    {
+      "ref": "Judges 12:7",
+      "note": "Buried in one of the cities of Gilead follows the Hebrew; the BSB footnote notes that the Septuagint reads in his city in Gilead, a minor variation that does not affect the sense."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched this session from bible.helloao.org for Judges 12:1-7. Chapter 12 is prose narrative. none anywhere in the file. Sermon status none: no verified expository sermon on this specific movement was confirmed this session from the trusted cluster." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched this session from bible.helloao.org for Judges 12:1-7. Chapter 12 is prose narrative. none anywhere in the file. Sermon status none: no verified expository sermon on this specific movement was confirmed this session from the trusted cluster."
+  }
 }

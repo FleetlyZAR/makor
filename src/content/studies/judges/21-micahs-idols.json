@@ -18,10 +18,26 @@
         "note": "Blessed be my son by the LORD",
         "emphasis": "",
         "verses": [
-          { "chapter": 17, "n": 1, "text": "Now a man named Micah from the hill country of Ephraim" },
-          { "chapter": 17, "n": 2, "text": "said to his mother, “The eleven hundred shekels of silver that were taken from you and about which I heard you utter a curse, I have the silver here with me; I took it.” Then his mother said, “Blessed be my son by the LORD!”" },
-          { "chapter": 17, "n": 3, "text": "And when he had returned the eleven hundred shekels of silver to his mother, she said, “I wholly dedicate the silver to the LORD for my son's benefit, to make a {{pesel|graven image}} and a molten idol. Therefore I will now return it to you.”" },
-          { "chapter": 17, "n": 4, "text": "So he returned the silver to his mother, and she took two hundred shekels of silver and gave them to a silversmith, who made them into a graven image and a molten idol. And they were placed in the house of Micah." }
+          {
+            "chapter": 17,
+            "n": 1,
+            "text": "Now a man named Micah from the hill country of Ephraim"
+          },
+          {
+            "chapter": 17,
+            "n": 2,
+            "text": "said to his mother, “The eleven hundred shekels of silver that were taken from you and about which I heard you utter a curse, I have the silver here with me; I took it.” Then his mother said, “Blessed be my son by the LORD!”"
+          },
+          {
+            "chapter": 17,
+            "n": 3,
+            "text": "And when he had returned the eleven hundred shekels of silver to his mother, she said, “I wholly dedicate the silver to the LORD for my son's benefit, to make a {{pesel|graven image}} and a molten idol. Therefore I will now return it to you.”"
+          },
+          {
+            "chapter": 17,
+            "n": 4,
+            "text": "So he returned the silver to his mother, and she took two hundred shekels of silver and gave them to a silversmith, who made them into a graven image and a molten idol. And they were placed in the house of Micah."
+          }
         ]
       },
       {
@@ -29,8 +45,16 @@
         "note": "no king in Israel",
         "emphasis": "",
         "verses": [
-          { "chapter": 17, "n": 5, "text": "Now this man Micah had a shrine, and he made an {{ephod|ephod}} and some {{teraphim|household idols}}, and ordained one of his sons as his priest." },
-          { "chapter": 17, "n": 6, "text": "In those days there was no {{melek|king}} in Israel; everyone did what was right in his own eyes." }
+          {
+            "chapter": 17,
+            "n": 5,
+            "text": "Now this man Micah had a shrine, and he made an {{ephod|ephod}} and some {{teraphim|household idols}}, and ordained one of his sons as his priest."
+          },
+          {
+            "chapter": 17,
+            "n": 6,
+            "text": "In those days there was no {{melek|king}} in Israel; everyone did what was right in his own eyes."
+          }
         ]
       },
       {
@@ -38,9 +62,21 @@
         "note": "on my way to settle wherever I can find a place",
         "emphasis": "",
         "verses": [
-          { "chapter": 17, "n": 7, "text": "And there was a young Levite from Bethlehem in Judah who had been residing within the clan of Judah." },
-          { "chapter": 17, "n": 8, "text": "This man left the city of Bethlehem in Judah to settle where he could find a place. And as he traveled, he came to Micah's house in the hill country of Ephraim." },
-          { "chapter": 17, "n": 9, "text": "“Where are you from?” Micah asked him. “I am a Levite from Bethlehem in Judah,” he replied, “and I am on my way to settle wherever I can find a place.”" }
+          {
+            "chapter": 17,
+            "n": 7,
+            "text": "And there was a young Levite from Bethlehem in Judah who had been residing within the clan of Judah."
+          },
+          {
+            "chapter": 17,
+            "n": 8,
+            "text": "This man left the city of Bethlehem in Judah to settle where he could find a place. And as he traveled, he came to Micah's house in the hill country of Ephraim."
+          },
+          {
+            "chapter": 17,
+            "n": 9,
+            "text": "“Where are you from?” Micah asked him. “I am a Levite from Bethlehem in Judah,” he replied, “and I am on my way to settle wherever I can find a place.”"
+          }
         ]
       },
       {
@@ -48,19 +84,55 @@
         "note": "Now I know that the LORD will be good to me",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 17, "n": 10, "text": "“Stay with me,” Micah said to him, “and be my father and priest, and I will give you ten shekels of silver per year, a suit of clothes, and your provisions.” So the Levite went in" },
-          { "chapter": 17, "n": 11, "text": "and agreed to stay with him, and the young man became like a son to Micah." },
-          { "chapter": 17, "n": 12, "text": "Micah ordained the Levite, and the young man became his priest and lived in his house." },
-          { "chapter": 17, "n": 13, "text": "Then Micah said, “Now I know that the LORD will be good to me, because a Levite has become my priest.”" }
+          {
+            "chapter": 17,
+            "n": 10,
+            "text": "“Stay with me,” Micah said to him, “and be my father and priest, and I will give you ten shekels of silver per year, a suit of clothes, and your provisions.” So the Levite went in"
+          },
+          {
+            "chapter": 17,
+            "n": 11,
+            "text": "and agreed to stay with him, and the young man became like a son to Micah."
+          },
+          {
+            "chapter": 17,
+            "n": 12,
+            "text": "Micah ordained the Levite, and the young man became his priest and lived in his house."
+          },
+          {
+            "chapter": 17,
+            "n": 13,
+            "text": "Then Micah said, “Now I know that the LORD will be good to me, because a Levite has become my priest.”"
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "pesel": { "language": "Hebrew", "lemma": "pesel", "original": "פֶּסֶל", "gloss": "A carved or graven image, an idol shaped by hand. The second commandment forbids making a pesel, Exodus 20:4, yet here silver dedicated to the LORD is turned into one. The word exposes the heart of the chapter: worship of the true God twisted into the very thing He forbade." },
-    "ephod": { "language": "Hebrew", "lemma": "ephod", "original": "אֵפוֹד", "gloss": "A priestly garment. In the law only the high priest at the tabernacle wore the ephod, used to seek God's guidance, Exodus 28. Micah manufactures his own, along with idols, setting up a counterfeit priesthood in his house; earlier Gideon's ephod had already become a snare, Judges 8:27." },
-    "teraphim": { "language": "Hebrew", "lemma": "teraphim", "original": "תְּרָפִים", "gloss": "Household gods or idols, small images kept for divination and family religion. Rachel once hid them, Genesis 31; Samuel later ranks them with rebellion and witchcraft, 1 Samuel 15:23. Micah stocks his shrine with them, mixing pagan objects into the worship of the LORD." },
-    "melek": { "language": "Hebrew", "lemma": "melek", "original": "מֶלֶךְ", "gloss": "King, ruler. The refrain in those days there was no king in Israel, Judges 17:6, interprets the whole epilogue: with no king to uphold God's law, everyone did what was right in his own eyes. The cry points ahead to David and finally to Christ, the true King under whom worship is set right." }
+    "pesel": {
+      "language": "Hebrew",
+      "lemma": "pesel",
+      "original": "פֶּסֶל",
+      "gloss": "A carved or graven image, an idol shaped by hand. The second commandment forbids making a pesel, Exodus 20:4, yet here silver dedicated to the LORD is turned into one. The word exposes the heart of the chapter: worship of the true God twisted into the very thing He forbade."
+    },
+    "ephod": {
+      "language": "Hebrew",
+      "lemma": "ephod",
+      "original": "אֵפוֹד",
+      "gloss": "A priestly garment. In the law only the high priest at the tabernacle wore the ephod, used to seek God's guidance, Exodus 28. Micah manufactures his own, along with idols, setting up a counterfeit priesthood in his house; earlier Gideon's ephod had already become a snare, Judges 8:27."
+    },
+    "teraphim": {
+      "language": "Hebrew",
+      "lemma": "teraphim",
+      "original": "תְּרָפִים",
+      "gloss": "Household gods or idols, small images kept for divination and family religion. Rachel once hid them, Genesis 31; Samuel later ranks them with rebellion and witchcraft, 1 Samuel 15:23. Micah stocks his shrine with them, mixing pagan objects into the worship of the LORD."
+    },
+    "melek": {
+      "language": "Hebrew",
+      "lemma": "melek",
+      "original": "מֶלֶךְ",
+      "gloss": "King, ruler. The refrain in those days there was no king in Israel, Judges 17:6, interprets the whole epilogue: with no king to uphold God's law, everyone did what was right in his own eyes. The cry points ahead to David and finally to Christ, the true King under whom worship is set right."
+    }
   },
   "study": {
     "basic": {
@@ -74,93 +146,232 @@
       "oneStory": "This is Israel's religion in freefall: the true God's name mixed with stolen silver, idols, and a bought priest, because there is no king and no obedience to restrain them. The story exposes the need it cannot meet, and so it prepares us for the King and Priest to come, Jesus, who alone sets worship right and brings us truly to God."
     },
     "context": {
-      "literary": "Chapters 17 to 21 form the epilogue of Judges, two appendices with no judge in sight, showing the moral and religious rot beneath the cycles. This first story is tightly told: a confession, a dedication gone wrong, a shrine, and a hired priest, bracketed by the refrain about no king. It sets up chapter 18, where these same idols and this same Levite are carried off to found idolatry at Dan.",
-      "historical": "The events belong to the unsettled period before the monarchy, when the tabernacle stood at Shiloh, verse 31 of the next chapter, yet many Israelites worshiped at local shrines. Levites were meant to serve the sanctuary and live among the tribes, but here a displaced young Levite wanders looking for a living, a sign of a society that no longer supported the ordained worship of God. Household shrines and images were common in the surrounding culture, and Israel absorbed them.",
-      "canonical": "The chapter illustrates the covenant curses of a people who forsake the law, and it explains why Israel later needed a king and a central sanctuary. The idolatry begun here reaches its notorious end at Dan, which becomes a byword for false worship in the divided kingdom, 1 Kings 12. The refrain there was no king in Israel points forward to the monarchy and, beyond every earthly king, to the Messiah."
+      "literary": "Judges 17 opens the second, and final, movement of the book: two appendices, chapters 17 to 18 and 19 to 21, with no notice of a judge in either. The refrain there was no king in Israel appears four times across these chapters, 17:6, 18:1, 19:1 and 21:25, bracketing the whole double panel like a set of hinges and telling the reader how to weigh everything inside it. This first panel is built as four short scenes, tightly sequenced: a confession over stolen silver, a dedication that turns into idols, the fitting out of a private shrine, and the hiring of a wandering priest. The narrator lets direct speech carry almost the whole moral weight. Micah's mother blesses him 'by the LORD' in verse 2 before she diverts the silver to a graven image in verse 3, so that the divine name is invoked at the very moment it is being dishonored. Micah's own name, a shortened form of a Hebrew phrase meaning who is like the LORD, reads as an ironic title over a household that answers its own question by manufacturing gods it can control. The narrator also plants a numeric echo: the 'eleven hundred shekels of silver' Micah returns, verse 2, is the very sum each Philistine lord promised Delilah for Samson, Judges 16:5, tying this quiet domestic scene to the noisy collapse of the judge who came before it. Two failures, one military and public, one religious and private, are stitched together by a single number, as though the writer wants us to see one continuous unraveling.",
+      "historical": "The setting is the tribal, pre-monarchic hill country of Ephraim, the same region that produced Deborah's palm tree seat and Samson's Danite neighbors. The law had already assigned the Levites exclusively to Aaron and his sons to serve the whole congregation before the Tent of Meeting, Numbers 3:7-9, and any Levite who moved elsewhere was still meant to 'serve in the name of the LORD his God' at the one place He would choose, Deuteronomy 18:6-7. Micah's household priesthood breaks that pattern at every point: first his own son, then a passing young Levite, is ordained, literally in the Hebrew idiom his hand was filled, the very language used of Aaron's own installation, 'in this way you are to ordain Aaron and his sons,' Exodus 29:9, but performed in a private house rather than at the sanctuary. The silver itself is a serious sum, eleven hundred shekels, some 12.5 kilograms, enough to explain why Micah's mother had cursed its theft before she knew her own son was the thief; two hundred shekels of it go to a silversmith, a specialized trade attested throughout the ancient Near East, to cast the graven and molten image. Teraphim, household images used for guidance and family religion, were already old by this period; Rachel had carried her father's teraphim out of Paddan-aram generations earlier, Genesis 31:19 and 34. Micah's shrine gathers into one house exactly the elements the law had separated, an ephod meant for the sanctuary, teraphim borrowed from surrounding household religion, and a priesthood meant to be Aaron's alone.",
+      "canonical": "Micah's private shrine is not Israel's first experiment in manufactured worship. Gideon had already melted plunder into an ephod that 'became a snare to Gideon and his household,' and 'all Israel prostituted themselves by worshiping it there,' Judges 8:27, a warning the narrator expects readers to remember when Micah makes his own ephod a chapter later. The pattern reaches back further still: teraphim already existed in the family religion of the patriarchs, since Rachel stole her father's household idols on the way into Canaan, Genesis 31:19, showing that this corruption did not arrive from nowhere but had deep, old roots even among God's own people. Samuel will later rank teraphim with divination and rebellion in his rebuke of Saul, 'rebellion is like the sin of divination, and arrogance is like the wickedness of idolatry,' 1 Samuel 15:23, so the very objects Micah gathers into his shrine are elsewhere treated as evidence of a heart set against the LORD's word. Read forward, the chapter is the seed of a much larger harvest: these same objects and this same Levite travel to Dan in the next chapter, and the golden calves Jeroboam later sets up at Bethel and Dan, 1 Kings 12:28-30, complete what begins here in miniature. A private failure in one hill-country house becomes, within two generations of the narrative, a national institution of false worship."
     },
     "hermeneutics": {
-      "authorIntent": "To expose, through one representative household, how thoroughly Israel's worship had been corrupted when there was no king and no fear of God's word, and to make the reader long for a righteous king under whom true worship might be restored.",
-      "descriptionVsPrescription": "The narrative describes Micah's shrine and hired priest; it never approves them. The abiding truths are the danger of worship shaped by our own preferences, the emptiness of a religion we try to control, and the need for the King and Priest that Micah's counterfeit cannot supply.",
+      "authorIntent": "The writer who shaped Judges into its final form wanted Israel to see that formal religious vocabulary, blessing, dedication, ordination, priest, is worthless if it is not submitted to the LORD's own pattern for worship. Micah is not portrayed as an atheist or a cynic; he is portrayed as a man who wants God's favor badly enough to manufacture it himself, filling his house with every religious object he can gather and installing whichever priest is nearest to hand, first his son, then a stranger. The author wants the reader to feel how natural this looks, and how wrong it is, at the same time. He intends the chapter to function as an opening exhibit in a two part case, this quiet household scene, followed at once by its violent, national escalation in chapter 18, so that a reader who might excuse Micah as harmless will watch the very same objects fuel a massacre a few verses later. The refrain planted at the chapter's center, there was no king in Israel, is not offered as a political complaint but as the author's own diagnosis: absent a righteous authority who upholds God's revealed order, even devout sounding people build religion around their own convenience.",
+      "descriptionVsPrescription": "Nothing in this chapter functions as a command; it is entirely reported action, and the reader must supply the verdict from law already given rather than from any narrator's comment planted inside the scene itself. That is itself a teaching method worth noticing: Old Testament narrative often instructs by silent juxtaposition, setting a story beside commandments the audience already knows, the ban on images in Exodus 20, the centralizing instructions of Deuteronomy 12, and trusting the reader to measure Micah against them. What must never be carried forward as a pattern is Micah's confidence in verse 13, 'now I know that the LORD will be good to me,' as though sincere religious feeling were proof of God's favor. What does carry forward is the standing principle behind the silence: assurance before God rests on obedience to what He has revealed, not on the comfort we manufacture for ourselves out of borrowed religious furniture.",
       "debates": [
         {
           "question": "Was Micah a sincere worshiper of the LORD or a plain idolater?",
           "views": [
-            { "label": "Sincere but syncretistic", "case": "Micah repeatedly invokes the LORD, returns the stolen silver, and wants a real Levite as priest; he seems genuinely to think he is honoring the God of Israel, only mixing in images and a shrine of his own making." },
-            { "label": "Self-serving idolatry", "case": "Whatever his words, Micah breaks the clearest commands, makes carved images and household gods, and treats a priest as something to purchase for guaranteed blessing; the piety is a veneer over religion built to serve himself." }
+            {
+              "label": "Sincere but syncretistic",
+              "case": "Micah repeatedly invokes the LORD, returns the stolen silver, and wants a real Levite as priest; he seems genuinely to think he is honoring the God of Israel, only mixing in images and a shrine of his own making."
+            },
+            {
+              "label": "Self-serving idolatry",
+              "case": "Whatever his words, Micah breaks the clearest commands, makes carved images and household gods, and treats a priest as something to purchase for guaranteed blessing; the piety is a veneer over religion built to serve himself."
+            }
           ],
           "bearing": "Either way the chapter warns that sincerity is not enough; worship must be shaped by God's word, not our intentions, and a religion we control cannot save."
         },
         {
           "question": "What does the refrain there was no king in Israel mean?",
           "views": [
-            { "label": "A call for the monarchy", "case": "The phrase looks ahead to the kings, especially David, arguing that a godly central authority was needed to restrain the chaos and uphold true worship that this story depicts." },
-            { "label": "A call for God's kingship above all", "case": "The deepest problem is not the lack of a human ruler but that everyone did what was right in his own eyes rather than what was right in God's eyes; the refrain exposes hearts that will not submit to the LORD as King." }
+            {
+              "label": "A call for the monarchy",
+              "case": "The phrase looks ahead to the kings, especially David, arguing that a godly central authority was needed to restrain the chaos and uphold true worship that this story depicts."
+            },
+            {
+              "label": "A call for God's kingship above all",
+              "case": "The deepest problem is not the lack of a human ruler but that everyone did what was right in his own eyes rather than what was right in God's eyes; the refrain exposes hearts that will not submit to the LORD as King."
+            }
           ],
           "bearing": "Both readings converge on Christ, the righteous King in whom God's own rule comes near and under whom worship and life are finally set right."
         }
       ]
     },
-    "originalLanguages": "The vocabulary quietly preaches the ruin of true worship. The dedicated silver becomes a pesel, a carved image, the precise object the second commandment forbids, Exodus 20:4. Micah fashions an ephod, the priestly garment that belonged only to the sanctuary, and teraphim, household idols kept for divination and later ranked with witchcraft, 1 Samuel 15:23. Over the whole scene stands the word melek, king: in those days there was no king in Israel, so everyone did what was right in his own eyes. The absence of a king is not merely political; it names a people with no one to hold them to God's word, each person his own authority. The terms together show worship of the LORD dissolving into a religion of images, bought priests, and self-rule, and they make the reader ache for the King and Priest who can put it right.",
+    "originalLanguages": "Micah's furniture of false religion is named with precision. The pesel, the carved image, comes from a root that means to hew or carve, the very verb the LORD uses when He tells Moses to chisel new tablets of the law, 'chisel out two stone tablets like the originals,' Exodus 34:1. The two carvings, one shaping stone into commandments, one shaping silver into a god, share a verb and nothing else; Deuteronomy 27:15 pronounces a curse on 'the man who makes a carved idol or molten image,' calling it merely 'the work of the hands of a craftsman,' the same craftsman's hands at work in Micah's house, verse 4.\n\nThe ephod Micah manufactures was, by design, the garment of access: onyx stones on its shoulders bore the names of the twelve tribes as 'a memorial before the LORD,' Exodus 28:9-12, and its breastpiece carried the Urim and Thummim by which a true priest could answer, 'O LORD, God of Israel, please tell Your servant,' as Abiathar's ephod does for David, 1 Samuel 23:9-12. Micah's ephod imitates the shape of guidance while having no divine word behind it.\n\nTeraphim is grammatically plural in Hebrew even where a single image seems to be meant, the same pattern as elohim, so the noun itself blurs the line between one god and many, a fitting ambiguity for objects that mix devotion to the LORD with borrowed household religion. They were already circulating among Israel's ancestors long before Micah; Rachel hid her father's teraphim in her camel's saddlebag on the road out of Paddan-aram, Genesis 31:19 and 34.\n\nThe verb rendered ordained, literally filled the hand, is the identical idiom used for Aaron's own installation, 'in this way you are to ordain Aaron and his sons,' Exodus 29:9, and for the seven days it took, 'to ordain you,' at Sinai, Leviticus 8:33. Micah applies the same solemn word to his own son and then to a hired stranger, and the same corruption recurs later when Jeroboam 'ordained anyone who desired to be a priest of the high places,' 1 Kings 13:33, and the Chronicler accuses the north of making 'priests for yourselves as do the peoples of other lands,' 2 Chronicles 13:9.\n\nFinally, the refrain that everyone did what was right in his own eyes deliberately echoes Moses' own warning at the edge of the land, 'you are not to do as we are doing here today, where everyone does what seems right in his own eyes,' Deuteronomy 12:8. The narrator borrows Moses' own description of the wilderness generation's disorder and applies it, unchanged, to Israel in the land, as though nothing had been learned in the intervening centuries.",
     "typology": [
-      { "type": "Micah's hired, homemade priesthood", "fulfillment": "Christ, the Priest appointed by God rather than purchased by men, who serves God's purposes and not ours, Hebrews 7:23-28." },
-      { "type": "The private shrine that cannot give true access to God", "fulfillment": "Christ, through whom alone we draw near to God, the true and living way, Hebrews 10:19-22." },
-      { "type": "The refrain there was no king in Israel", "fulfillment": "Christ the righteous King, under whose reign worship and life are set right, Luke 1:32-33." }
+      {
+        "type": "Micah's hired, homemade priesthood",
+        "fulfillment": "Micah wants a priest he can select, pay, and dismiss, first his own son, verse 5, then a Levite he happens to meet, verse 12, installing each with the very verb used of Aaron's own ordination. Hebrews answers the whole arrangement: Jesus is a priest whose priesthood is permanent because He lives forever, appointed by God's own oath rather than a household's convenience, 'able to save completely those who draw near to God through Him, since He always lives to intercede for them,' Hebrews 7:24-25. Micah's Levite belongs to Micah until someone stronger takes him away, as chapter 18 shows; Christ's priesthood cannot be hired away because it was never for sale."
+      },
+      {
+        "type": "The private shrine that cannot give true access to God",
+        "fulfillment": "An ephod and teraphim assembled in a private house can imitate the shape of the sanctuary, shoulder stones, a breastpiece, objects for guidance, without any of its substance, since no blood of atonement and no appointed priesthood stand behind them. Hebrews describes the reality this shrine only apes: believers now have 'confidence to enter the Most Holy Place by the blood of Jesus, by the new and living way opened for us through the curtain of His body,' and so may 'draw near with a sincere heart in full assurance of faith,' Hebrews 10:19-22. Micah's shrine offers religious furniture with no way through; Christ is Himself the way through, opened once for all."
+      },
+      {
+        "type": "The refrain there was no king in Israel",
+        "fulfillment": "The refrain names an absence the chapter feels everywhere, no authority to hold Israel to God's own pattern of worship, so each household improvises one. Luke answers the vacancy directly: the angel tells Mary that her son will be great, 'and will be called the Son of the Most High. The Lord God will give Him the throne of His father David, and He will reign over the house of Jacob forever. His kingdom will never end,' Luke 1:32-33. Where Micah's Ephraim has no king to correct a religion built from stolen silver and borrowed idols, the true King's reign finally supplies what the whole epilogue is missing, a righteous rule under which worship answers to God rather than to private taste."
+      },
+      {
+        "type": "The Levite hired for wages, a suit of clothes, and his provisions",
+        "fulfillment": "Micah's wage, 'ten shekels of silver per year, a suit of clothes, and your provisions,' verse 10, turns the Levite into exactly the figure Jesus later warns against: 'the hired hand is not the shepherd, and the sheep are not his own... he abandons the sheep and runs away,' John 10:12-13. The young man does run, in chapter 18, to a better paying tribe the moment one appears. Jesus draws the contrast in His own mouth, 'I am the good shepherd. The good shepherd lays down His life for the sheep,' John 10:11 and 14-15. A hired priest serves as long as the wage holds; the true Shepherd serves at the cost of His own life and cannot be bought away from those who are His."
+      }
     ],
-    "christ": "Micah longs for what only Christ can give. He wants a priest of his own, access to God, and the assurance that the LORD will be good to him, and he tries to secure it all with silver, images, and a Levite he can house and pay. But a priest we buy and control can guarantee nothing. Jesus is the Priest appointed by God, not by men, who did not serve human agendas but offered Himself once for all and now lives to bring us to God, Hebrews 7. Micah's confident now I know the LORD will be good to me rests on a counterfeit; true and unshakable assurance rests on the real Priest and the real sacrifice. And the refrain there was no king in Israel aches for a righteous king; that longing is answered in Jesus, the King under whom worship is at last purified and true.",
-    "god": "The LORD is spoken of on every side yet obeyed by no one; His name is a decoration on a religion that ignores His commands. That the true God stays silent while Micah builds his shrine is part of the point: God will not endorse worship invented to suit ourselves. He is the God who spoke plainly about images, priesthood, and the place of worship, and this chapter shows the confusion and self-deception that follow when His people trade His revealed will for their own religious instincts. The story humbles us and drives us back to worship God as He has said, not as we see fit.",
+    "christ": "Everything Micah improvises, an ephod for guidance, teraphim for protection, a priest he can hire and house, exists in Scripture's full light as things Christ actually and finally supplies. Micah wants a mediator; the New Testament names one, 'there is one God, and there is one mediator between God and men, the man Christ Jesus,' 1 Timothy 2:5. Micah wants his religion certified by a professional; Christ Himself, without any human broker, 'always lives to intercede' for those who come to God through Him, Hebrews 7:25.\n\nThe chapter's silence about Micah's spiritual state, is he a true worshiper mixing in error, or an idolater wearing pious words, is answered in Christ by an entirely different kind of clarity. Where Micah's assurance rests on having 'a Levite' become 'my priest,' verse 13, a possession he can point to, the New Testament grounds assurance in a person who possesses His people rather than the reverse, 'I know My sheep and My sheep know Me,' John 10:14. Micah's arrangement can be renegotiated by the highest bidder, as the next chapter proves when six hundred armed men make the Levite a better offer; nothing about Christ's ownership of His people can be bought, outbid, or reassigned.\n\nThe chapter also exposes what a manufactured mediator cannot do. An ephod without the true breastpiece cannot actually inquire of God; the objects can be carried, hidden, or stolen, as they are within a chapter, because they are things and not a living way. Jesus is not a thing to be carried into a shrine but 'the way and the truth and the life,' John 14:6, a claim no ephod, however finely made, could ever answer for itself.\n\nAnd the whole scene still waits for the king the narrator says is missing. A private religion built by an unaccountable household is what happens when there is no king to hold worship to God's revealed pattern; the New Testament's answer is not merely a better law but a person who reigns, 'the Lord God will give Him the throne of His father David, and He will reign over the house of Jacob forever,' Luke 1:32-33. Micah's confidence in verse 13 rests on furniture he built; the confidence Christ gives rests on a throne He occupies forever.",
+    "god": "The one thing every actor in this chapter agrees on is the name they use: Micah's mother blesses 'my son by the LORD,' verse 2, dedicates silver 'to the LORD,' verse 3, and Micah is sure 'the LORD will be good to me,' verse 13. The covenant name appears again and again on human lips, yet the LORD Himself never speaks a word in the chapter, gives no command, no blessing, no rebuke recorded in His own voice. That contrast is itself theology: the God who identified Himself to Israel by that name at Sinai, 'I, the LORD your God, am a jealous God,' Exodus 20:5, does not share His glory with images or divide His worship with household gods no matter how devoutly His name is attached to them.\n\nGod's patience is visible too, and it is not softness. He does not strike Micah's house for the theft, the idol, or the counterfeit priesthood, even though His own law names a curse for such things, Deuteronomy 27:15. The narrative restraint mirrors God's own long patience with a covenant people who kept mixing His name with borrowed practices for generations, from Rachel's teraphim to Gideon's ephod to this household shrine, before He finally raised up prophets and kings to confront it directly.\n\nGod's ownership of true worship also shows through everything Micah's arrangement lacks. The real ephod carried the names of all twelve tribes as 'a memorial before the LORD,' Exodus 28:12, meaning true worship was never a private transaction between one household and its god but a covenant matter belonging to the whole people. Micah's private version quietly steals back what God had made corporate, one family claiming for itself a garment meant to represent the whole nation.\n\nFinally, the chapter reveals God's character by contrast with Micah's account of Him. Micah treats the LORD as a force to be secured through the right religious formula, professional priest, correct objects, proper vocabulary. But the God who gave the pattern in the first place cannot be managed this way; He is known and worshiped only on the terms He Himself has set, and the chapter's silence toward Micah is not endorsement but the sound of a God who will not be flattered into blessing what He has forbidden.",
     "crossReferences": [
-      { "ref": "Exodus 20:4-6", "note": "The second commandment forbids carved images, the very pesel Micah has made from dedicated silver." },
-      { "ref": "Deuteronomy 12:5-14", "note": "Israel is to worship only where and how God appoints, not as everyone thinks right, the exact opposite of Micah's shrine." },
-      { "ref": "Judges 21:25", "note": "The closing refrain of the book, there was no king in Israel; everyone did what was right in his own eyes, framing this whole epilogue." },
-      { "ref": "Hebrews 7:23-28", "note": "Christ the permanent, God-appointed Priest, set against every hired and self-made priesthood like Micah's." }
+      {
+        "ref": "Exodus 20:4-6",
+        "note": "The second commandment forbids exactly what Micah's mother commissions, a carved image and its worship, and warns that the LORD is jealous over divided devotion. Micah's household treats the commandment as negotiable the moment devotion to the LORD can be blended with a physical image kept close at hand."
+      },
+      {
+        "ref": "Deuteronomy 12:5-14",
+        "note": "Moses commanded Israel to bring every offering only to the place the LORD would choose, not wherever seemed right to the worshiper. Micah does the opposite, building a shrine in his own house, and the chapter's refrain borrows Moses' own words for the wilderness generation's disorder, everyone doing what is right in his own eyes."
+      },
+      {
+        "ref": "Genesis 31:19-35",
+        "note": "Rachel had already stolen her father's household idols generations before, hiding them under her in the tent while Laban searched in vain. The teraphim in Micah's shrine, and the ease with which they are later stolen from him in turn, show how long this borrowed household religion had already been circulating among Israel's own ancestors."
+      },
+      {
+        "ref": "Judges 8:22-27",
+        "note": "Gideon had already melted Midianite plunder into an ephod that became a snare to his own household and led all Israel to prostitute themselves in worship at Ophrah. Micah's manufactured ephod repeats Gideon's failure within a single generation, as though the book wants readers to recognize the pattern before it escalates further in chapter 18."
+      },
+      {
+        "ref": "1 Samuel 15:22-23",
+        "note": "Samuel later tells Saul that rebellion is like the sin of divination and stubbornness like the wickedness of teraphim, the very objects Micah gathers into his shrine. The comparison shows that Scripture treats household idols as evidence of a heart set against obedience, not as harmless religious decoration."
+      },
+      {
+        "ref": "Numbers 3:5-10",
+        "note": "The law assigned the Levites exclusively to Aaron for the service of the tabernacle, a corporate office belonging to the whole congregation. Micah privatizes that office for one household, first ordaining his own son and then a passing Levite, treating a tribal calling as personal property to be bought and installed at will."
+      },
+      {
+        "ref": "Judges 21:25",
+        "note": "The refrain that opens this epilogue closes the whole book as well, everyone did what was right in his own eyes. Micah's private religion is the refrain's first case study, an ordinary household improvising worship because there is no king, and no fear of God, to hold it to any other pattern."
+      },
+      {
+        "ref": "Hebrews 7:23-28",
+        "note": "Every priest Micah could hire eventually died or moved on, which is exactly the limitation Hebrews names in every human priesthood under the old order. Christ's priesthood is permanent because He lives forever, able to save completely those who come to God through Him, an assurance no wage or contract could ever purchase."
+      }
     ],
-    "oneStory": "Here Israel's worship comes apart in a single home: the true God's name laid over stolen silver, carved images, household gods, and a priest for hire, all because there is no king and no submission to God's word. The story cannot meet the need it exposes, and that is its point. It makes us long for the King and Priest who can, Jesus, under whom worship is cleansed and God is truly known, so that the whole broken scene bends toward the gospel.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "Genesis opens with God making humanity itself the image that represents Him in the world, 'let Us make man in Our image, after Our likeness,' Genesis 1:26. Judges 17 shows how far that calling has been inverted: image bearers now bear images of their own making, hiring a silversmith to cast a god out of silver rather than reflecting the living God to the world as they were made to do. What was meant to be worship radiating outward from a person becomes worship poured into an object kept in a house.\n\nThat inversion runs through the middle books of the story. The tabernacle and later the temple were meant to be the one place where the true God's presence dwelled among His people, guarded by an ordained priesthood and a single ephod at the center of the whole nation's worship. Micah's household reduces this to private property, a shrine, a garment, and a hired priest, all serving one family's convenience. The prophets will spend centuries confronting the exact failure captured here in miniature, kings who set up their own priests and their own shrines at Bethel and Dan, 1 Kings 12:28-30, following the very road Micah paves.\n\nAgainst this whole history of image making stands the true image, 'the Son is the image of the invisible God,' Colossians 1:15, the one Mediator no household can manufacture and no silversmith could ever cast. Where Micah's ephod and teraphim were carried, hidden, and finally stolen away in the very next chapter, Christ cannot be handled, relocated, or repossessed by anyone stronger.\n\nThe story God is telling ends where this chapter's failure is finally undone. Revelation pictures a city with no separate shrine at all, 'because the Lord God Almighty and the Lamb are its temple,' Revelation 21:22, worship no longer localized in one family's private religion but filling a whole renewed creation. And the specific corruption of Judges 17 is named and excluded there in so many words, 'outside are the dogs, the sorcerers, the sexually immoral, the murderers, the idolaters,' Revelation 22:15. The household shrine Micah built for his own comfort finds no place in the city where God Himself is the only temple His people will ever need.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What did Micah's mother do with the silver her son returned?",
       "options": [
-        { "text": "She dedicated it to the LORD and then had it made into a carved image and a molten idol.", "weight": 100, "note": "Verses 3-4 show the silver dedicated to the LORD yet turned into the very idols He forbids." },
-        { "text": "She gave a portion of it to a silversmith to make idols.", "weight": 75, "note": "True, she gave two hundred shekels to the silversmith, but the fuller point is that she dedicated it to the LORD and had it made into a graven image." },
-        { "text": "She used it to support the tabernacle at Shiloh.", "weight": 25, "note": "The silver went to a private shrine, not to the LORD's appointed sanctuary at Shiloh." },
-        { "text": "She returned it to the rightful owners she had cursed.", "weight": 0, "note": "No such restitution happens; the silver becomes an idol in Micah's house." }
+        {
+          "text": "She dedicated it to the LORD and then had it made into a carved image and a molten idol.",
+          "weight": 100,
+          "note": "Verses 3-4 show the silver dedicated to the LORD yet turned into the very idols He forbids."
+        },
+        {
+          "text": "She gave a portion of it to a silversmith to make idols.",
+          "weight": 75,
+          "note": "True, she gave two hundred shekels to the silversmith, but the fuller point is that she dedicated it to the LORD and had it made into a graven image."
+        },
+        {
+          "text": "She used it to support the tabernacle at Shiloh.",
+          "weight": 25,
+          "note": "The silver went to a private shrine, not to the LORD's appointed sanctuary at Shiloh."
+        },
+        {
+          "text": "She returned it to the rightful owners she had cursed.",
+          "weight": 0,
+          "note": "No such restitution happens; the silver becomes an idol in Micah's house."
+        }
       ]
     },
     {
       "q": "What does the refrain in verse 6 tell us about this period?",
       "options": [
-        { "text": "There was no king in Israel, so everyone did what was right in his own eyes.", "weight": 100, "note": "Verse 6 gives the narrator's verdict on the chaos of self-made religion." },
-        { "text": "The people lacked a strong human ruler to organize them.", "weight": 75, "note": "True in part, but the deeper problem is that each person made himself the authority instead of submitting to God." },
-        { "text": "The people were simply waiting patiently for God to send a judge.", "weight": 25, "note": "The refrain describes rebellion and self-rule, not patient waiting." },
-        { "text": "Israel was carefully obeying the law of Moses.", "weight": 0, "note": "The opposite is true; they were breaking God's clearest commands." }
+        {
+          "text": "There was no king in Israel, so everyone did what was right in his own eyes.",
+          "weight": 100,
+          "note": "Verse 6 gives the narrator's verdict on the chaos of self-made religion."
+        },
+        {
+          "text": "The people lacked a strong human ruler to organize them.",
+          "weight": 75,
+          "note": "True in part, but the deeper problem is that each person made himself the authority instead of submitting to God."
+        },
+        {
+          "text": "The people were simply waiting patiently for God to send a judge.",
+          "weight": 25,
+          "note": "The refrain describes rebellion and self-rule, not patient waiting."
+        },
+        {
+          "text": "Israel was carefully obeying the law of Moses.",
+          "weight": 0,
+          "note": "The opposite is true; they were breaking God's clearest commands."
+        }
       ]
     },
     {
       "q": "Why did Micah want a Levite to be his priest?",
       "options": [
-        { "text": "He believed it would secure the LORD's blessing, saying now I know the LORD will be good to me.", "weight": 100, "note": "Verse 13 shows Micah trusting a priest he controls rather than God's word." },
-        { "text": "He wanted proper worship according to God's appointed order.", "weight": 75, "note": "A Levite sounds proper, but Micah installs him in a shrine full of idols, not God's appointed worship." },
-        { "text": "He was commanded by the elders of Ephraim to hire one.", "weight": 25, "note": "No such command appears; Micah acts on his own to buy a priest." },
-        { "text": "He no longer wanted anything to do with the God of Israel.", "weight": 0, "note": "Micah constantly invokes the LORD; his error is corrupting that worship, not abandoning the name." }
+        {
+          "text": "He believed it would secure the LORD's blessing, saying now I know the LORD will be good to me.",
+          "weight": 100,
+          "note": "Verse 13 shows Micah trusting a priest he controls rather than God's word."
+        },
+        {
+          "text": "He wanted proper worship according to God's appointed order.",
+          "weight": 75,
+          "note": "A Levite sounds proper, but Micah installs him in a shrine full of idols, not God's appointed worship."
+        },
+        {
+          "text": "He was commanded by the elders of Ephraim to hire one.",
+          "weight": 25,
+          "note": "No such command appears; Micah acts on his own to buy a priest."
+        },
+        {
+          "text": "He no longer wanted anything to do with the God of Israel.",
+          "weight": 0,
+          "note": "Micah constantly invokes the LORD; his error is corrupting that worship, not abandoning the name."
+        }
       ]
     },
     {
       "q": "How should we read this account of Micah's shrine?",
       "options": [
-        { "text": "As a description of covenant collapse that the narrator condemns, not a pattern to follow.", "weight": 100, "note": "The refrain about no king shows the author is exposing the chaos, not approving it." },
-        { "text": "As a flawed but basically acceptable form of worshiping God.", "weight": 75, "note": "It is not acceptable; it breaks God's commands, though it does wear the language of devotion to the LORD." },
-        { "text": "As a neutral report with no moral judgment intended.", "weight": 25, "note": "The narrator's refrain makes clear this is a judgment on the times, not neutral reporting." },
-        { "text": "As a model for setting up personal worship however we prefer.", "weight": 0, "note": "The story warns against exactly this, worship shaped by our own eyes rather than God's word." }
+        {
+          "text": "As a description of covenant collapse that the narrator condemns, not a pattern to follow.",
+          "weight": 100,
+          "note": "The refrain about no king shows the author is exposing the chaos, not approving it."
+        },
+        {
+          "text": "As a flawed but basically acceptable form of worshiping God.",
+          "weight": 75,
+          "note": "It is not acceptable; it breaks God's commands, though it does wear the language of devotion to the LORD."
+        },
+        {
+          "text": "As a neutral report with no moral judgment intended.",
+          "weight": 25,
+          "note": "The narrator's refrain makes clear this is a judgment on the times, not neutral reporting."
+        },
+        {
+          "text": "As a model for setting up personal worship however we prefer.",
+          "weight": 0,
+          "note": "The story warns against exactly this, worship shaped by our own eyes rather than God's word."
+        }
       ]
     },
     {
       "q": "How does Micah's hired priesthood point us to Christ?",
       "options": [
-        { "text": "It is a counterfeit that makes us long for the true Priest, appointed by God rather than bought by men.", "weight": 100, "note": "Christ is the God-given Priest who brings us to God, unlike a priest we purchase and control, Hebrews 7." },
-        { "text": "It shows that any priest will do as long as we are sincere.", "weight": 75, "note": "Sincerity is not the point; the chapter exposes the emptiness of a self-made priesthood, pointing to the one true Priest." },
-        { "text": "It teaches that we can guarantee God's blessing by our religious efforts.", "weight": 25, "note": "Micah thought so and was deceived; assurance rests on Christ, not on rituals we control." },
-        { "text": "It has nothing to say about Christ or true worship.", "weight": 0, "note": "The failed priesthood and the cry for a king point directly to the Priest and King, Jesus." }
+        {
+          "text": "It is a counterfeit that makes us long for the true Priest, appointed by God rather than bought by men.",
+          "weight": 100,
+          "note": "Christ is the God-given Priest who brings us to God, unlike a priest we purchase and control, Hebrews 7."
+        },
+        {
+          "text": "It shows that any priest will do as long as we are sincere.",
+          "weight": 75,
+          "note": "Sincerity is not the point; the chapter exposes the emptiness of a self-made priesthood, pointing to the one true Priest."
+        },
+        {
+          "text": "It teaches that we can guarantee God's blessing by our religious efforts.",
+          "weight": 25,
+          "note": "Micah thought so and was deceived; assurance rests on Christ, not on rituals we control."
+        },
+        {
+          "text": "It has nothing to say about Christ or true worship.",
+          "weight": 0,
+          "note": "The failed priesthood and the cry for a king point directly to the Priest and King, Jesus."
+        }
       ]
     }
   ],
@@ -172,9 +383,21 @@
     "The refrain there was no king in Israel exposes hearts that do what is right in their own eyes. What would it look like this week to submit some area of your life afresh to Christ as King?"
   ],
   "translationNotes": [
-    { "ref": "Judges 17:2", "note": "The eleven hundred shekels is about 27.6 pounds or 12.5 kilograms of silver, a large sum; the same amount later reappears as the price paid to betray Samson, a deliberate echo across the book." },
-    { "ref": "Judges 17:5", "note": "Ordained renders a Hebrew idiom the BSB footnote gives as filled the hand of, the language of installing a priest; Micah applies to his own son and then a Levite an act reserved by the law for God's appointed priests." },
-    { "ref": "Judges 17:5", "note": "Ephod and household idols, the teraphim, were objects associated with seeking guidance; gathering them into a private shrine mixes the worship of the LORD with forbidden practices." }
+    {
+      "ref": "Judges 17:2",
+      "note": "The eleven hundred shekels is about 27.6 pounds or 12.5 kilograms of silver, a large sum; the same amount later reappears as the price paid to betray Samson, a deliberate echo across the book."
+    },
+    {
+      "ref": "Judges 17:5",
+      "note": "Ordained renders a Hebrew idiom the BSB footnote gives as filled the hand of, the language of installing a priest; Micah applies to his own son and then a Levite an act reserved by the law for God's appointed priests."
+    },
+    {
+      "ref": "Judges 17:5",
+      "note": "Ephod and household idols, the teraphim, were objects associated with seeking guidance; gathering them into a private shrine mixes the worship of the LORD with forbidden practices."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched this session from bible.helloao.org for Judges 17:1-13. none anywhere in the file. Sermon set to none; no verified expository sermon on Judges 17 from the trusted cluster confirmed this session." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched this session from bible.helloao.org for Judges 17:1-13. none anywhere in the file. Sermon set to none; no verified expository sermon on Judges 17 from the trusted cluster confirmed this session."
+  }
 }
