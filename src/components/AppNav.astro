@@ -46,8 +46,13 @@
       if (a.getAttribute('target') === '_blank') return;
       if (a.getAttribute('data-tab') === 'study') return; // the Study tab resolves its own target
       var href = a.getAttribute('href');
-      if (!href || href.charAt(0) !== '/') return;
-      var fixed = fix(href);
+      if (!href) return;
+      // A full makor.co.za URL (the reading plan links carry these, because the
+      // same index feeds the calendar export) would leave the bundle and open
+      // the live website in Safari. Keep it in the app as a bundled path.
+      var path = href.charAt(0) === '/' ? href : toPath(href);
+      if (typeof path !== 'string' || path.charAt(0) !== '/' || path.charAt(1) === '/') return;
+      var fixed = fix(path);
       if (fixed !== href) { e.preventDefault(); location.assign(fixed); }
     }, true);
   })();
