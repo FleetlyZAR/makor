@@ -18,12 +18,36 @@
         "note": "until the death of the high priest",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 20, "n": 1, "text": "Then the LORD said to Joshua," },
-          { "chapter": 20, "n": 2, "text": "“Tell the Israelites to designate the cities of refuge, as I instructed you through Moses," },
-          { "chapter": 20, "n": 3, "text": "so that anyone who kills another unintentionally or accidentally may flee there. These will be your {{miqlat|refuge}} from the {{goel|avenger}} of blood." },
-          { "chapter": 20, "n": 4, "text": "When someone flees to one of these cities, stands at the entrance of the city gate, and states his case before its elders, they are to bring him into the city and give him a place to live among them." },
-          { "chapter": 20, "n": 5, "text": "Now if the avenger of blood pursues him, they must not surrender the manslayer into his hand, because that man killed his neighbor accidentally without prior malice." },
-          { "chapter": 20, "n": 6, "text": "He is to stay in that city until he stands trial before the assembly and until the death of the {{kohen|high priest}} serving at that time. Then the manslayer may return to his own home in the city from which he fled.”" }
+          {
+            "chapter": 20,
+            "n": 1,
+            "text": "Then the LORD said to Joshua,"
+          },
+          {
+            "chapter": 20,
+            "n": 2,
+            "text": "“Tell the Israelites to designate the cities of refuge, as I instructed you through Moses,"
+          },
+          {
+            "chapter": 20,
+            "n": 3,
+            "text": "so that anyone who kills another unintentionally or accidentally may flee there. These will be your {{miqlat|refuge}} from the {{goel|avenger}} of blood."
+          },
+          {
+            "chapter": 20,
+            "n": 4,
+            "text": "When someone flees to one of these cities, stands at the entrance of the city gate, and states his case before its elders, they are to bring him into the city and give him a place to live among them."
+          },
+          {
+            "chapter": 20,
+            "n": 5,
+            "text": "Now if the avenger of blood pursues him, they must not surrender the manslayer into his hand, because that man killed his neighbor accidentally without prior malice."
+          },
+          {
+            "chapter": 20,
+            "n": 6,
+            "text": "He is to stay in that city until he stands trial before the assembly and until the death of the {{kohen|high priest}} serving at that time. Then the manslayer may return to his own home in the city from which he fled.”"
+          }
         ]
       },
       {
@@ -31,17 +55,44 @@
         "note": "cities for Israelites and foreigners alike",
         "emphasis": "",
         "verses": [
-          { "chapter": 20, "n": 7, "text": "So they set apart Kedesh in Galilee in the hill country of Naphtali, Shechem in the hill country of Ephraim, and Kiriath-arba (that is, Hebron) in the hill country of Judah." },
-          { "chapter": 20, "n": 8, "text": "And beyond the Jordan, east of Jericho, they designated Bezer on the wilderness plateau from the tribe of Reuben, Ramoth in Gilead from the tribe of Gad, and Golan in Bashan from the tribe of Manasseh." },
-          { "chapter": 20, "n": 9, "text": "These are the cities appointed for all the Israelites and foreigners among them, so that anyone who kills a person unintentionally may flee there and not die by the hand of the avenger of blood prior to standing trial before the assembly." }
+          {
+            "chapter": 20,
+            "n": 7,
+            "text": "So they set apart Kedesh in Galilee in the hill country of Naphtali, Shechem in the hill country of Ephraim, and Kiriath-arba (that is, Hebron) in the hill country of Judah."
+          },
+          {
+            "chapter": 20,
+            "n": 8,
+            "text": "And beyond the Jordan, east of Jericho, they designated Bezer on the wilderness plateau from the tribe of Reuben, Ramoth in Gilead from the tribe of Gad, and Golan in Bashan from the tribe of Manasseh."
+          },
+          {
+            "chapter": 20,
+            "n": 9,
+            "text": "These are the cities appointed for all the Israelites and foreigners among them, so that anyone who kills a person unintentionally may flee there and not die by the hand of the avenger of blood prior to standing trial before the assembly."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "miqlat": { "language": "Hebrew", "lemma": "miqlat", "original": "מִקְלָט", "gloss": "A place of refuge, asylum, a receiving place. The six cities of miqlat are havens where the one who has killed unintentionally is received and protected until justice is determined. They embody God's mercy woven into the land itself, a safe place from wrath for the one who flees to it, a vivid picture of finding refuge in God, Psalm 46:1." },
-    "goel": { "language": "Hebrew", "lemma": "goel", "original": "גֹּאֵל", "gloss": "The avenger of blood, literally the redeemer, the near kinsman responsible to avenge a relative's death. The same word means kinsman-redeemer; here it names the one who seeks the manslayer's life. The cities of refuge restrain private vengeance and ensure justice through due process, holding together the seriousness of shed blood and the protection of the innocent." },
-    "kohen": { "language": "Hebrew", "lemma": "kohen gadol", "original": "כֹּהֵן גָּדוֹל", "gloss": "The high priest, the chief mediator between God and Israel. The manslayer's release is tied to the death of the kohen gadol: only when the high priest dies may he return home free. This striking law binds the sinner's liberation to a priestly death, foreshadowing Christ, the great High Priest whose death frees His people and opens the way home." }
+    "miqlat": {
+      "language": "Hebrew",
+      "lemma": "miqlat",
+      "original": "מִקְלָט",
+      "gloss": "A place of refuge, asylum, a receiving place. The six cities of miqlat are havens where the one who has killed unintentionally is received and protected until justice is determined. They embody God's mercy woven into the land itself, a safe place from wrath for the one who flees to it, a vivid picture of finding refuge in God, Psalm 46:1."
+    },
+    "goel": {
+      "language": "Hebrew",
+      "lemma": "goel",
+      "original": "גֹּאֵל",
+      "gloss": "The avenger of blood, literally the redeemer, the near kinsman responsible to avenge a relative's death. The same word means kinsman-redeemer; here it names the one who seeks the manslayer's life. The cities of refuge restrain private vengeance and ensure justice through due process, holding together the seriousness of shed blood and the protection of the innocent."
+    },
+    "kohen": {
+      "language": "Hebrew",
+      "lemma": "kohen gadol",
+      "original": "כֹּהֵן גָּדוֹל",
+      "gloss": "The high priest, the chief mediator between God and Israel. The manslayer's release is tied to the death of the kohen gadol: only when the high priest dies may he return home free. This striking law binds the sinner's liberation to a priestly death, foreshadowing Christ, the great High Priest whose death frees His people and opens the way home."
+    }
   },
   "study": {
     "basic": {
@@ -55,77 +106,207 @@
       "oneStory": "In the middle of settling the land, God provides cities of refuge, weaving mercy and justice together and tying the guilty's freedom to the death of the high priest. This provision shines forward to Christ, the refuge to whom sinners flee and the High Priest whose death sets His people free, welcoming Israelite and foreigner alike into safety."
     },
     "context": {
-      "literary": "Chapter 20 sits between the tribal allotments and the Levitical cities, both concerned with how the land serves God's purposes of worship and justice. It briefly restates a law given more fully in Numbers 35 and Deuteronomy 19, now put into effect as the land is settled. The naming of the six cities, three west and three east of the Jordan, stresses accessibility. The detail that the manslayer stays until the death of the high priest, repeated from the Mosaic law, carries theological weight that the New Testament later unfolds.",
-      "historical": "In the ancient world, a relative of a slain person, the avenger of blood, bore the duty of exacting justice, which could lead to escalating blood feuds. The cities of refuge provided a God-ordained restraint: due process before the assembly, protection for the one who killed without intent, and a defined period of asylum. The six cities, Kedesh, Shechem, Hebron, Bezer, Ramoth, and Golan, were spread across the land and were also Levitical cities, so justice was administered in a setting of priestly instruction. Tying release to the high priest's death gave the system a fixed, non-arbitrary endpoint tied to the sacred office.",
-      "canonical": "The cities of refuge develop the biblical theme of God as the refuge of His people, sung throughout the Psalms, God is our refuge and strength, Psalm 46:1. The binding of the manslayer's freedom to the high priest's death becomes a rich type: as the high priest's death released the manslayer, so the death of Christ, the great High Priest, releases His people from guilt, Hebrews 9:11-15. The openness of the refuge to foreigners anticipates the gospel's welcome of the nations, and Hebrews 6:18 directly echoes the imagery of fleeing for refuge to the hope set before us in Christ."
+      "literary": "Every other chapter in this stretch of the book moves the land distribution forward, survey, boundary, city list; chapter 20 alone stops that forward motion to record a command that begins, the LORD said to Joshua, direct divine speech rather than administrative record, and it explicitly frames itself as renewal rather than invention, as I instructed you through Moses, verse 2. The chapter is built in two matched halves, each ending on the same note of safety secured: verse 6 closes with the manslayer free to return home, and verse 9 closes with anyone who kills unintentionally able to flee there and not die by the avenger's hand, an inclusio that opens and closes the unit on the identical promise of protection. Within that frame the law itself moves through a small, exact sequence, flight, a hearing at the gate, admission, protection from pursuit, trial, and only then release, so that the passage reads less like a simple decree and more like a short narrative of due process, one that could be walked through step by step for any Israelite who ever needed it. Placed exactly where it is, between the tribal allotments and the record of the Levitical cities that follows in chapter 21, this short unit insists that possessing land is never only a geographic question; a people cannot simply occupy ground, they must also order justice within it before the record can move on.",
+      "historical": "The elders who receive the fleeing man at the city gate, verse 4, were acting in the ordinary civic role gates served across ancient Israel, the customary place where legal business was transacted and disputes were heard in the presence of witnesses, the same setting where Boaz negotiates Ruth's redemption before the elders of Bethlehem, Ruth 4:1-2, and where Deuteronomy elsewhere instructs a rebellious son's case to be brought, Deuteronomy 21:19. Israel was not alone in the ancient world in recognizing some form of sanctuary for a fugitive; altars and shrines elsewhere could offer a kind of protection to someone who reached them, and Israel itself briefly shows a version of this when Adonijah grasps the horns of the altar in fear of Solomon, 1 Kings 1:50-51. But that same story also shows the limits of altar sanctuary compared to this law's careful design: a few chapters later Joab flees to that same altar and grasps its horns, yet Solomon has him struck down there anyway, because Joab's killings had been deliberate murder rather than an accident, 1 Kings 2:28-34. Altar refuge alone could be claimed by anyone regardless of guilt; the cities of refuge, by contrast, were never a blanket sanctuary but a fixed legal process built to distinguish exactly the kind of case Joab's was not.",
+      "canonical": "The provision reaches back further than Numbers 35 or Deuteronomy 19, the fuller statements of this law, all the way to the covenant code given at Sinai itself, where God first promises that if a man kills another without lying in wait, I will appoint you a place to which he may flee, Exodus 21:12-14, a place named in principle long before six actual cities existed to fulfill it. Deuteronomy makes the same principle vivid with a single scenario, a man swinging an axe whose head flies off the handle and kills his companion, a case with no hatred and no premeditation at all, Deuteronomy 19:4-6, exactly the category of killing this chapter has in view. What began as a promised, unnamed place in Exodus becomes law in Numbers and Deuteronomy and is finally, here in Joshua, made concrete on the ground, six named cities that any Israelite could actually run to. The chain shows Scripture's own pattern of promise given long before its full outworking, a pattern that will recur when a promise of rescue given to Israel's ancestors is likewise fulfilled only much later and in ways beyond what those who first heard it could see."
     },
     "hermeneutics": {
-      "authorIntent": "To record the appointment of the cities of refuge as commanded through Moses, showing God's provision of mercy and just process for the one who kills unintentionally, protecting the innocent from vengeance while upholding the seriousness of bloodshed.",
-      "descriptionVsPrescription": "The specific legal system of refuge cities and blood avengers belongs to Israel's ancient covenant life and is not a model for modern legal systems. What endures and instructs is the revealed character of God, just and merciful, and the typological pointer to Christ as the refuge of sinners and the High Priest whose death sets His people free.",
+      "authorIntent": "The narrator wants his readers to know that Israel's inheritance was never meant to be governed by fear or by the strongest family's grievance. By opening the chapter with the LORD speaking directly to Joshua and by grounding the whole provision in what Moses had already commanded, the author presents this not as Joshua's own innovation but as the deliberate carrying out of a promise God had made long before anyone crossed the Jordan. The careful sequence, flight, a hearing at the gate, protection from pursuit, and eventually a trial before the assembly, tells readers that mercy here is never simply declared and left vague; it is built step by step into an actual, walkable legal process available to anyone who needed it, native Israelite or foreigner alike. Placed just before the record of towns given to the Levites, the chapter also teaches that the priesthood's role in Israel was bound up with life and death in the most literal sense, since it would be a priest's own death that eventually released the guilty party, tying justice for bloodshed to the one office set apart to deal with guilt and atonement in every other area of Israel's worship.",
+      "descriptionVsPrescription": "The exact ancient legal machinery, an avenger of blood pursuing a kinsman, elders hearing a case at a city gate, confinement until a specific officeholder's death, belonged to Israel's own covenant order and is not a system modern courts are meant to reproduce. What does transfer is the moral instinct underneath it, one virtually every legal tradition since has recognized in some form: that killing done by accident and killing done with malice are not morally identical, and that a system claiming to be just must make room for that difference rather than punishing both alike. The passage also teaches, by its careful process, that mercy toward the accused was never meant to bypass truth; the manslayer still had to state his case and still had to stand trial before the assembly, so protection was granted only once the facts were established, not merely because someone claimed innocence and ran fast enough to reach a city gate.",
       "debates": [
         {
           "question": "Why was the manslayer's release tied to the death of the high priest?",
           "views": [
-            { "label": "A typological pointer to Christ's priestly death", "case": "The link between the high priest's death and the manslayer's freedom is unusual and pregnant with meaning; the church has long seen it as a shadow of Christ, the great High Priest, whose death releases His people from guilt and brings them home, Hebrews 9:11-15, so the law was designed to foreshadow the gospel." },
-            { "label": "A just and non-arbitrary end to the period of asylum", "case": "Practically, the death of the high priest, the highest sacred office, marked a natural, God-appointed close to an era, providing a fixed, impartial endpoint for the manslayer's confinement rather than an arbitrary term; some also see a sense in which the priest's death served representatively for the community's guilt over the shed blood." }
+            {
+              "label": "A typological pointer to Christ's priestly death",
+              "case": "The link between the high priest's death and the manslayer's freedom is unusual and pregnant with meaning; the church has long seen it as a shadow of Christ, the great High Priest, whose death releases His people from guilt and brings them home, Hebrews 9:11-15, so the law was designed to foreshadow the gospel."
+            },
+            {
+              "label": "A just and non-arbitrary end to the period of asylum",
+              "case": "Practically, the death of the high priest, the highest sacred office, marked a natural, God-appointed close to an era, providing a fixed, impartial endpoint for the manslayer's confinement rather than an arbitrary term; some also see a sense in which the priest's death served representatively for the community's guilt over the shed blood."
+            }
           ],
           "bearing": "Both readings can stand together: the provision gave a just endpoint in Israel's system while, in God's design, foreshadowing the death of the true High Priest, Christ, whose death frees the guilty and opens the way home."
+        },
+        {
+          "question": "Was the avenger of blood exercising a legitimate role that the law regulated, or a dangerous custom the law was working to restrain?",
+          "views": [
+            {
+              "label": "A legitimate, covenantal responsibility",
+              "case": "Genesis had already established that for the life of man, God would require a reckoning from every man's brother, Genesis 9:5-6, giving the near kinsman a real and recognized duty to see shed blood answered; the cities of refuge do not erase that duty but simply ensure it is carried out only once guilt is actually established, so an avenger who acts after due process is not a vigilante but a legitimate instrument of justice."
+            },
+            {
+              "label": "A dangerous custom in urgent need of restraint",
+              "case": "The law's insistence on a fixed city, a hearing at the gate, and a formal trial before the assembly, verses 4 to 6, suggests the lawgiver regarded unregulated private vengeance as a real and present danger, since left unchecked such retaliation could easily spiral into the kind of communal violence Israel's own later history shows all too well; on this reading the provision exists chiefly to contain a custom rather than to bless it."
+            }
+          ],
+          "bearing": "The text holds both concerns together without resolving them into one: it never denies that shed blood calls for a real reckoning, yet it refuses to let that reckoning happen outside due process, honoring the seriousness of the avenger's grievance while still building real, enforceable limits around how and when he may act on it."
         }
       ]
     },
-    "originalLanguages": "Three words open the depth of this brief chapter. The six cities are places of miqlat, refuge, a receiving-place where the one who has killed without intent is taken in and kept safe; the word pictures a haven from wrath, the very idea Scripture applies to God Himself, our refuge and strength, Psalm 46:1. The danger they shelter him from is the goel, the avenger of blood, and here lies a striking overlap: goel is the same word used for the kinsman-redeemer, the near relative who buys back his family; the one who avenges shed blood and the one who redeems are named by one word, and the cities of refuge restrain vengeance so that justice, not private fury, prevails. Most remarkable of all, the manslayer stays until the death of the kohen gadol, the high priest, and only then goes home free. That single provision binds a sinner's liberation to a priestly death, and it shines straight toward Christ: our great High Priest, whose death releases His people and opens the way home, Hebrews 9:11-15. Refuge, avenger, high priest: the vocabulary of this small chapter preaches the gospel in shadow.",
+    "originalLanguages": "Beyond the three words already named, four more features of the Hebrew shape this short law. The killing in view is described as shogeg, done in error or by mistake, verse 3, a technical term that later Jewish legal tradition would build an entire category around, distinguishing shogeg, the unintentional, from deliberate, premeditated killing; the word itself carries the sense of going astray or erring rather than choosing, so from the very first clause the law is already sorting cases by the state of the killer's will rather than only by the outcome of his hand. The fugitive presents himself at the sha'ar, the gate, verse 4, ordinary Hebrew for a city's gate but functionally its courthouse, the place where legal business of every kind was conducted in the ancient town; that he must go there at all, rather than simply hiding, shows the law expects an open, public accounting rather than a quiet disappearance. Stating his case is described, in the fuller Mosaic law this chapter assumes, with the idiom of speaking in the ears of the elders, an expression that pictures testimony as something spoken directly and audibly to real, present witnesses rather than filed as a private claim, the same idiom Abraham uses when he buys Sarah's burial cave in the hearing of the sons of Heth, Genesis 23:10-16. And the body that finally judges him is the edah, the assembly or congregation, verses 6 and 9, the identical term used across the Torah for Israel formally gathered under covenant, so that even a single manslayer's fate is decided not by one official's word but by the whole covenant community sitting in its most formal, corporate capacity. Error rather than malice, a gate that functions as a courtroom, testimony spoken aloud to witnesses, and a verdict resting with the whole assembly: the vocabulary insists that mercy here was never quiet, private, or merely assumed, but publicly tested and publicly granted. One more small detail rewards attention. The cities themselves are called miqlat in the singular idea but the text repeatedly uses the plural arey ha-miqlat, cities of refuge, treating refuge not as one exceptional place but as an ordinary category of city, multiplied deliberately across the land; safety was never meant to be scarce or hard to reach, but built in at multiple points, near enough that no tribe could claim the law simply did not reach them.",
     "typology": [
-      { "type": "The city of refuge, a haven from the avenger of blood", "fulfillment": "Christ, the refuge to whom sinners flee from the coming wrath, laying hold of the hope set before them, Hebrews 6:18 and Romans 8:1." },
-      { "type": "The manslayer freed at the death of the high priest", "fulfillment": "Christ, the great High Priest, whose death releases His people from guilt and brings them home, Hebrews 9:11-15." },
-      { "type": "Refuge open to Israelite and foreigner alike", "fulfillment": "The gospel refuge offered to all peoples who flee to Christ, near and far, Ephesians 2:13 and Acts 2:39." }
+      {
+        "type": "The elders at the gate who must first hear the fugitive's case before admitting him rather than granting shelter automatically to anyone who arrives, verse 4",
+        "fulfillment": "Entry into the place of safety is never a bare, uncontested claim; there is a hearing, a truth to be established, before shelter is confirmed. It foreshadows how entry into Christ's safety is likewise not mere claim without reality, since not everyone who says Lord, Lord will enter the kingdom, but the one who actually does the Father's will, Matthew 7:21-23, even while the one who does come to Christ in truth will never be turned away, John 6:37."
+      },
+      {
+        "type": "The avenger of blood barred from taking justice into his own hands while the manslayer stands under the city's protection, verse 5",
+        "fulfillment": "A real grievance and a real claim to justice are not denied, only restrained and placed under due process rather than let loose against the fleeing party. It anticipates how God's own just wrath against sin, fully real and fully deserved, is not unleashed against those who have fled to Christ for refuge, since there is now no condemnation for those in Him, Romans 8:1, wrath restrained not by ignoring sin but by having it fully answered elsewhere."
+      },
+      {
+        "type": "The manslayer confined to the city itself, forfeiting its protection the moment he stepped beyond its bounds, a rule spelled out in the fuller law this chapter assumes, Numbers 35:26-28",
+        "fulfillment": "Safety here was real but bounded, requiring the manslayer to remain within the place of refuge rather than merely having once arrived there. It pictures the call to abide continually in Christ as the condition of ongoing safety, since apart from Him no fruit and no shelter can be sustained, John 15:4-6, refuge entered once yet also inhabited every day after."
+      },
+      {
+        "type": "The trial before the assembly required even of one who fled in apparent good faith, verses 6 and 9",
+        "fulfillment": "No one, however sympathetic the case looked, bypassed the establishing of truth before the whole community. It foreshadows the necessity of a genuine, examined standing rather than a merely claimed one, and the perfect tribunal of the cross itself, where justice was fully and publicly rendered rather than quietly waived, so that mercy never comes at truth's expense, righteousness and peace meeting only because judgment was actually carried out, not skipped, Psalm 85:10."
+      }
     ],
-    "christ": "Few provisions in the law point so clearly to Christ. The city of refuge is a haven where the guilty flee from the avenger and are kept safe, and Hebrews uses exactly this picture of believers who have fled for refuge to lay hold of the hope set before us, our sure and steadfast anchor, Jesus, Hebrews 6:18. He is the refuge to whom the sinner runs from the wrath to come, and in Him there is no condemnation, Romans 8:1. But the deepest pointer is the strange, beautiful law that the manslayer could not go home free until the high priest died. The death of the priest was the moment of release. So it is with us: we are set free and brought home not by our own effort but by the death of our great High Priest, Jesus Christ, who by His own blood entered once for all into the holy places, securing an eternal redemption, Hebrews 9:11-12. The high priest's death opened the door; Christ's death throws it wide, and the refuge stands open to Israelite and foreigner alike, to all who will flee to Him.",
-    "god": "This chapter reveals a God who holds justice and mercy together perfectly. He takes the shedding of human blood, made in His image, with the utmost seriousness, and He will not let the guilty simply escape; there must be trial before the assembly, and the truth must be established. Yet He is merciful, refusing to abandon the one who killed without malice to the fury of the avenger, and He builds into the very map of the land a network of havens, accessible to all, so that mercy is never far away. He is impartial, opening the refuge to the foreigner as well as the Israelite, a sign that His mercy reaches beyond one people. And in the death of the high priest that frees the manslayer, He quietly writes the gospel into the law, revealing a God who will one day set the guilty free through the death of the true High Priest. Just, merciful, and gracious beyond Israel's borders, this is the God of the cities of refuge.",
+    "christ": "The fuller version of this law, which Joshua's chapter assumes rather than repeats, adds one detail that opens straight onto Christ: the officeholder whose death releases the guilty man is named as the high priest who was anointed with the holy oil, Numbers 35:25. Anointed in Hebrew is mashach, the very root behind mashiach, Messiah, the Anointed One; the law that frees a guilty man through the death of an anointed priest is, without yet naming Him, already describing the shape of the gospel centuries before Jesus is ever called the Christ. The parallel is real, and so is its limit. The high priest whose death released the manslayer died his own ordinary death, of age or illness, with no direct causal link to the manslayer's particular case; his death simply supplied a fixed, appointed end to the term of exile. Christ's death is nothing like an incidental endpoint. He does not merely happen to die while guilty people wait; He lays down His life as the actual payment for their guilt, bearing what Isaiah had already described as the punishment that brought us peace, Isaiah 53:5, and dying, as Paul says, while we were still sinners, in our place and for us, Romans 5:8. Where the law's provision released a man from confinement he had not himself chosen for a wrong he had not fully intended, Christ's death answers guilt of every kind, deliberate and accidental both, not by an accident of calendar but by a death deliberately given as the very payment sin required. And where the cities of refuge scattered mercy across six fixed points on a map, available only to those who could physically run there in time, Christ is Himself the refuge who is near to everyone who calls on Him in truth, Psalm 145:18, so that no fugitive from judgment is ever too far from the place of safety to reach it.",
+    "god": "This law reveals a God who legislates for mercy before mercy is ever needed, writing protection for a killing that has not yet happened into the very charter of the land itself, rather than waiting to improvise a response once tragedy strikes. That forward-looking care runs alongside an unflinching honesty about real loss: the victim's family and the avenger's grievance are never dismissed or waved away as unimportant, the text simply insists that grief and rage, however justified, do not get to become the final word on guilt. He is a God of process rather than of raw outcome, requiring testimony spoken aloud, elders who actually hear a case, and a whole assembly's judgment before anyone's fate is settled, so that even mercy toward someone who may be entirely innocent is never granted on the strength of a claim alone. And He draws no line between citizen and stranger in any of this; the same six cities and the same careful hearing stand open to the foreigner living among Israel exactly as to the native-born, verse 9, a detail easy to miss in a short legal chapter but remarkable for how plainly it refuses to make protection a privilege of birth. Perhaps most striking of all, He ties the guilty man's eventual freedom to an event entirely outside that man's own control or timeline, the death of whichever man happens to be serving as high priest, binding one person's liberty to another's mortality in a way that quietly teaches Israel that release from guilt was never something the guilty could simply arrange for themselves by waiting out a fixed sentence; it came, in the end, only through someone else's death. Even the geography of the provision speaks to this same character: three cities are placed west of the Jordan and three east, verses 7 and 8, a deliberate doubling that treats the tribes settled on the far side of the river, easily overlooked as an afterthought earlier in the book, as no less entitled to swift, reachable safety than the nine and a half tribes settled in the main body of the land.",
     "crossReferences": [
-      { "ref": "Numbers 35:9-28", "note": "The fuller law of the cities of refuge, including the release of the manslayer at the death of the high priest." },
-      { "ref": "Deuteronomy 19:1-13", "note": "Moses commands the setting apart of cities of refuge to protect the one who kills without intent." },
-      { "ref": "Hebrews 6:18", "note": "We who have fled for refuge to lay hold of the hope set before us, echoing the imagery of the cities of refuge." },
-      { "ref": "Hebrews 9:11-15", "note": "Christ, the great High Priest, by His death secures eternal redemption and frees His people, fulfilling the release at the high priest's death." },
-      { "ref": "Psalm 46:1", "note": "God is our refuge and strength, a very present help in trouble, the deeper reality the cities picture." }
+      {
+        "ref": "Exodus 21:12-14",
+        "note": "The earliest form of this law, given at Sinai itself, already distinguishes a man who kills by lying in wait from one who does not, promising that God will appoint a place for the second to flee, the promise this chapter finally makes concrete in six actual cities."
+      },
+      {
+        "ref": "Genesis 9:5-6",
+        "note": "God's own charter after the flood establishes that a reckoning will be required for every human life taken, the deep root of the avenger of blood's role and the reason this law restrains rather than abolishes that responsibility."
+      },
+      {
+        "ref": "Deuteronomy 19:4-6",
+        "note": "Moses gives the vivid test case behind this whole provision, a man whose axe head flies off its handle and kills his companion, a killing with no hatred and no lying in wait at all, precisely the kind of accident these cities exist to shelter."
+      },
+      {
+        "ref": "Numbers 35:25",
+        "note": "The fuller law names the officeholder specifically as the high priest who was anointed with the holy oil, a detail Joshua 20 assumes rather than repeats, and one that quietly anticipates the Anointed One whose own death would one day free the guilty."
+      },
+      {
+        "ref": "Numbers 35:26-28",
+        "note": "The manslayer forfeits the city's protection the moment he steps beyond its boundary before the high priest dies, showing that refuge had to be actively inhabited, not merely once entered, for its safety to remain in force."
+      },
+      {
+        "ref": "1 Kings 2:28-34",
+        "note": "Joab flees to the altar and grasps its horns exactly as Adonijah once had, yet Solomon has him struck down there anyway, because his killings were deliberate murder, the sharp contrast that shows why this law's careful process, rather than mere altar sanctuary, was needed."
+      },
+      {
+        "ref": "Matthew 7:21-23",
+        "note": "Not everyone who calls out to Christ is in fact received by Him, since He looks for those who do the Father's will, echoing how the elders at the gate first heard a case rather than granting shelter on a bare claim alone."
+      },
+      {
+        "ref": "Romans 8:1",
+        "note": "There is now no condemnation for those in Christ Jesus, the fuller reality behind the avenger of blood being barred from touching the manslayer once he stood safely within the city's protection."
+      }
     ],
-    "oneStory": "In the midst of settling the land, God provides cities of refuge, weaving mercy and justice together and tying the guilty person's freedom to the death of the high priest. This tender, striking provision points forward with unusual clarity to Christ, the refuge to whom sinners flee from wrath and the great High Priest whose death sets His people free and brings them home. And its openness to Israelite and foreigner alike foreshadows the gospel welcome extended to all who will run to Christ for safety.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "Since Eden, exile has been the Bible's default answer to bloodguilt; Cain, the first killer, is driven out to wander, and the ground itself is said to refuse his brother's blood, Genesis 4:10-12. This chapter marks something new within that long pattern: for the first time, God legislates not only judgment for the guilty but protected space within the promised land itself for the one whose hands are bloodied yet whose heart never intended murder, a pocket of safety built into a world still very much under the fall's shadow, where accidents still kill and grief still demands an answer. It is a small, local anticipation of a much larger movement in Scripture's own story, from a world where guilt only ever meant exile and a flaming sword barring the way back, toward a world where guilt can be answered without total banishment, because a place of refuge, however costly to maintain, has been provided by God Himself. The provision does not solve the deeper problem; it only manages one narrow category of it, killing done without malice, and it still costs someone his freedom for years and ties his release to a death he did not cause. But the shape of the answer, protection secured, truth still required, freedom finally coming through another's death, keeps pointing forward through the rest of the Bible's story toward the day when guilt of every kind, not only the accidental, is fully and finally answered, when the dividing wall between the safe and the exposed comes down for good, and when those once fugitives from judgment are welcomed, not into a city holding them until a priest dies, but into the presence of God Himself forever, the last and permanent refuge every city gate in this chapter only ever pointed toward.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What was the purpose of the cities of refuge?",
       "options": [
-        { "text": "To protect a person who killed someone unintentionally from the avenger of blood until a fair trial.", "weight": 100, "note": "Verses 3 to 6 establish the cities as havens for the accidental manslayer pending justice." },
-        { "text": "To imprison all murderers permanently.", "weight": 75, "note": "They were havens for those who killed without malice, not prisons for deliberate murderers." },
-        { "text": "To serve as military forts on the borders.", "weight": 25, "note": "They were places of legal refuge, not military fortifications." },
-        { "text": "To provide markets for trade among the tribes.", "weight": 0, "note": "Their purpose was refuge and justice, not commerce." }
+        {
+          "text": "To protect a person who killed someone unintentionally from the avenger of blood until a fair trial.",
+          "weight": 100,
+          "note": "Verses 3 to 6 establish the cities as havens for the accidental manslayer pending justice."
+        },
+        {
+          "text": "To imprison all murderers permanently.",
+          "weight": 75,
+          "note": "They were havens for those who killed without malice, not prisons for deliberate murderers."
+        },
+        {
+          "text": "To serve as military forts on the borders.",
+          "weight": 25,
+          "note": "They were places of legal refuge, not military fortifications."
+        },
+        {
+          "text": "To provide markets for trade among the tribes.",
+          "weight": 0,
+          "note": "Their purpose was refuge and justice, not commerce."
+        }
       ]
     },
     {
       "q": "Until when did the manslayer have to remain in the city of refuge?",
       "options": [
-        { "text": "Until he stood trial and until the death of the high priest, after which he could go home free.", "weight": 100, "note": "Verse 6 ties his release to trial and the death of the high priest." },
-        { "text": "Until he paid a fine to the victim's family.", "weight": 75, "note": "No fine is mentioned; his release was tied to trial and the death of the high priest." },
-        { "text": "For exactly seven years, regardless of circumstances.", "weight": 25, "note": "The term was not a fixed seven years but until the high priest's death." },
-        { "text": "For the rest of his life, with no possibility of return.", "weight": 0, "note": "He could return home after the high priest died; it was not a life sentence." }
+        {
+          "text": "Until he stood trial and until the death of the high priest, after which he could go home free.",
+          "weight": 100,
+          "note": "Verse 6 ties his release to trial and the death of the high priest."
+        },
+        {
+          "text": "Until he paid a fine to the victim's family.",
+          "weight": 75,
+          "note": "No fine is mentioned; his release was tied to trial and the death of the high priest."
+        },
+        {
+          "text": "For exactly seven years, regardless of circumstances.",
+          "weight": 25,
+          "note": "The term was not a fixed seven years but until the high priest's death."
+        },
+        {
+          "text": "For the rest of his life, with no possibility of return.",
+          "weight": 0,
+          "note": "He could return home after the high priest died; it was not a life sentence."
+        }
       ]
     },
     {
       "q": "Who could flee to the cities of refuge?",
       "options": [
-        { "text": "Any Israelite or foreigner among them who killed a person unintentionally.", "weight": 100, "note": "Verse 9 opens the refuge to Israelites and foreigners alike." },
-        { "text": "Only members of the priestly tribe of Levi.", "weight": 75, "note": "The cities were Levitical, but the refuge was open to any Israelite or foreigner, not only Levites." },
-        { "text": "Only wealthy landowners.", "weight": 25, "note": "Refuge was for anyone who killed unintentionally, regardless of wealth." },
-        { "text": "Only native-born Israelites, never foreigners.", "weight": 0, "note": "The text explicitly includes foreigners among them." }
+        {
+          "text": "Any Israelite or foreigner among them who killed a person unintentionally.",
+          "weight": 100,
+          "note": "Verse 9 opens the refuge to Israelites and foreigners alike."
+        },
+        {
+          "text": "Only members of the priestly tribe of Levi.",
+          "weight": 75,
+          "note": "The cities were Levitical, but the refuge was open to any Israelite or foreigner, not only Levites."
+        },
+        {
+          "text": "Only wealthy landowners.",
+          "weight": 25,
+          "note": "Refuge was for anyone who killed unintentionally, regardless of wealth."
+        },
+        {
+          "text": "Only native-born Israelites, never foreigners.",
+          "weight": 0,
+          "note": "The text explicitly includes foreigners among them."
+        }
       ]
     },
     {
       "q": "How do the cities of refuge point to Christ?",
       "options": [
-        { "text": "Christ is the refuge sinners flee to, and the High Priest whose death sets His people free, as the manslayer was freed at the high priest's death.", "weight": 100, "note": "Hebrews 6:18 and 9:11-15 tie the refuge and the high priest's death to Christ." },
-        { "text": "They show that God cares only about legal technicalities.", "weight": 75, "note": "They reveal God's mercy and justice and point to Christ, not mere technicalities." },
-        { "text": "They teach that sinners must save themselves by running fast enough.", "weight": 25, "note": "The refuge is God's provision received by fleeing to it; the deeper point is Christ our refuge, not self-salvation." },
-        { "text": "They have no connection to Christ or the gospel.", "weight": 0, "note": "The refuge and the release at the high priest's death point clearly to Christ." }
+        {
+          "text": "Christ is the refuge sinners flee to, and the High Priest whose death sets His people free, as the manslayer was freed at the high priest's death.",
+          "weight": 100,
+          "note": "Hebrews 6:18 and 9:11-15 tie the refuge and the high priest's death to Christ."
+        },
+        {
+          "text": "They show that God cares only about legal technicalities.",
+          "weight": 75,
+          "note": "They reveal God's mercy and justice and point to Christ, not mere technicalities."
+        },
+        {
+          "text": "They teach that sinners must save themselves by running fast enough.",
+          "weight": 25,
+          "note": "The refuge is God's provision received by fleeing to it; the deeper point is Christ our refuge, not self-salvation."
+        },
+        {
+          "text": "They have no connection to Christ or the gospel.",
+          "weight": 0,
+          "note": "The refuge and the release at the high priest's death point clearly to Christ."
+        }
       ]
     }
   ],
@@ -137,9 +318,21 @@
     "The manslayer had to actually flee to the city to be safe; the provision did no good unless he ran to it. Is there any way you are hesitating to run wholeheartedly to Christ for refuge?"
   ],
   "translationNotes": [
-    { "ref": "Joshua 20:3", "note": "Avenger of blood renders goel, the same Hebrew word used for the kinsman-redeemer; here it names the relative responsible to avenge a death, whom the cities of refuge restrain through due process." },
-    { "ref": "Joshua 20:6", "note": "The release of the manslayer at the death of the high priest, drawn from Numbers 35, carries typological weight, pointing to Christ, the High Priest whose death frees His people." },
-    { "ref": "Joshua 20:7", "note": "The six cities of refuge, Kedesh, Shechem, Hebron, Bezer, Ramoth, and Golan, were spread across the land and were also Levitical cities, set among priestly instruction." }
+    {
+      "ref": "Joshua 20:3",
+      "note": "Avenger of blood renders goel, the same Hebrew word used for the kinsman-redeemer; here it names the relative responsible to avenge a death, whom the cities of refuge restrain through due process."
+    },
+    {
+      "ref": "Joshua 20:6",
+      "note": "The release of the manslayer at the death of the high priest, drawn from Numbers 35, carries typological weight, pointing to Christ, the High Priest whose death frees His people."
+    },
+    {
+      "ref": "Joshua 20:7",
+      "note": "The six cities of refuge, Kedesh, Shechem, Hebron, Bezer, Ramoth, and Golan, were spread across the land and were also Levitical cities, set among priestly instruction."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched this session from bible.helloao.org for Joshua 20:1-9. Prose narrative. none anywhere in the file. Sermon left as none; no sermon URL was verified this session." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched this session from bible.helloao.org for Joshua 20:1-9. Prose narrative. none anywhere in the file. Sermon left as none; no sermon URL was verified this session."
+  }
 }
