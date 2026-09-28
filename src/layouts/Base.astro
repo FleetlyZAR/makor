@@ -367,14 +367,40 @@ const ogImageUrl = ogImage
         btn.addEventListener('click', () => apply(!header.classList.contains('header-collapsed')));
       })();
 
+      // Audio "Include Go deeper" choice, kept on the account (user_metadata
+      // makor_audio_deeper) so it follows the reader to every device they sign in
+      // on. The device copy (localStorage mk_audio_deeper) is what the player reads.
+      window.makorSaveAudioDeeper = async (on) => {
+        const u = window.makorUser;
+        if (!u) return;
+        const cur = u.user_metadata && u.user_metadata.makor_audio_deeper;
+        if (cur === !!on) return;
+        try { await client.auth.updateUser({ data: { makor_audio_deeper: !!on } }); } catch (e) {}
+      };
+      function syncAudioDeeper(user) {
+        if (!user) return;
+        const saved = user.user_metadata && user.user_metadata.makor_audio_deeper;
+        if (typeof saved === 'boolean') {
+          try { if (saved) localStorage.setItem('mk_audio_deeper', '1'); else localStorage.removeItem('mk_audio_deeper'); } catch (e) {}
+          if (window.makorAudioDeeper) window.makorAudioDeeper(saved);
+        } else {
+          // Nothing on the account yet: keep what they chose on this device before signing in.
+          let local = false;
+          try { local = localStorage.getItem('mk_audio_deeper') === '1'; } catch (e) {}
+          if (local) window.makorSaveAudioDeeper(true);
+        }
+      }
+
       const { data: { session } } = await client.auth.getSession();
       render(session ? session.user : null);
       window.makorUser = session ? session.user : null;
+      syncAudioDeeper(window.makorUser);
       window.makorRefreshProgress();
       window.dispatchEvent(new CustomEvent('makor-auth', { detail: { user: window.makorUser } }));
       client.auth.onAuthStateChange((_e, sess) => {
         window.makorUser = sess ? sess.user : null;
         render(window.makorUser);
+        syncAudioDeeper(window.makorUser);
         window.makorRefreshProgress();
         window.dispatchEvent(new CustomEvent('makor-auth', { detail: { user: window.makorUser } }));
       });

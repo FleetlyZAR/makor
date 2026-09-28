@@ -12,8 +12,10 @@
 //
 // Go deeper: each study step's Go deeper reading is its own track (kind
 // "deeper"). It is left out unless the listener ticks "Include Go deeper" in the
-// panel. The choice is remembered on the device (mk_audio_deeper) and applies to
-// every study, including the ones continuous play rolls into.
+// panel. The choice is remembered on the device (mk_audio_deeper) and, for a
+// signed-in reader, on their account (see makorSaveAudioDeeper in Base.astro), so
+// it holds on every device they sign in on. It applies to every study, including
+// the ones continuous play rolls into.
 //
 // Audio host: PUBLIC_MAKOR_AUDIO_BASE (Cloudflare env), default below.
 const { book, bookSlug, slug, title } = Astro.props;
@@ -400,7 +402,10 @@ const manifestUrl = `${AUDIO_BASE}studies/${bookSlug}/${slug}/audio/manifest.jso
     }
     function recalcOnly() { renderActive(); $('mkap-time').textContent = fmt(globalTime()) + ' / ' + fmt(total); }
     window.makorAudioDeeper = function (on) { if (typeof on === 'boolean') setDeeper(on); return withDeeper; };
-    $('mkap-deeper').addEventListener('change', (e) => setDeeper(e.target.checked));
+    $('mkap-deeper').addEventListener('change', (e) => {
+      setDeeper(e.target.checked);
+      if (window.makorSaveAudioDeeper) window.makorSaveAudioDeeper(e.target.checked);   // keep it on the account
+    });
     window.addEventListener('storage', (e) => { if (e.key === DEEPER_KEY) setDeeper(e.newValue === '1'); });
 
     function switchVoice(id) {
