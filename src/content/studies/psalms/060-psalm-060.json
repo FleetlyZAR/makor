@@ -18,11 +18,31 @@
         "note": "the shock of defeat and the prayer to be healed",
         "emphasis": "",
         "verses": [
-          { "chapter": 60, "n": 1, "text": "You have rejected us, O God; You have broken us; You have been angry; restore us!" },
-          { "chapter": 60, "n": 2, "text": "You have shaken the land and torn it open. Heal its fractures, for it is quaking." },
-          { "chapter": 60, "n": 3, "text": "You have shown Your people hardship; we are staggered from the wine You made us drink." },
-          { "chapter": 60, "n": 4, "text": "You have raised a {{nes|banner}} for those who fear You, that they may flee the bow. Selah" },
-          { "chapter": 60, "n": 5, "text": "Respond and save us with Your right hand, that Your beloved may be delivered." }
+          {
+            "chapter": 60,
+            "n": 1,
+            "text": "You have rejected us, O God; You have broken us; You have been angry; restore us!"
+          },
+          {
+            "chapter": 60,
+            "n": 2,
+            "text": "You have shaken the land and torn it open. Heal its fractures, for it is quaking."
+          },
+          {
+            "chapter": 60,
+            "n": 3,
+            "text": "You have shown Your people hardship; we are staggered from the wine You made us drink."
+          },
+          {
+            "chapter": 60,
+            "n": 4,
+            "text": "You have raised a {{nes|banner}} for those who fear You, that they may flee the bow. Selah"
+          },
+          {
+            "chapter": 60,
+            "n": 5,
+            "text": "Respond and save us with Your right hand, that Your beloved may be delivered."
+          }
         ]
       },
       {
@@ -30,9 +50,21 @@
         "note": "the divine oracle claiming the land",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 60, "n": 6, "text": "God has spoken from His sanctuary: \"I will triumph! I will parcel out Shechem and apportion the Valley of Succoth." },
-          { "chapter": 60, "n": 7, "text": "Gilead is Mine, and Manasseh is Mine; Ephraim is My helmet, Judah is My scepter." },
-          { "chapter": 60, "n": 8, "text": "Moab is My washbasin; upon Edom I toss My sandal; over Philistia I shout in triumph.\"" }
+          {
+            "chapter": 60,
+            "n": 6,
+            "text": "God has spoken from His sanctuary: \"I will triumph! I will parcel out Shechem and apportion the Valley of Succoth."
+          },
+          {
+            "chapter": 60,
+            "n": 7,
+            "text": "Gilead is Mine, and Manasseh is Mine; Ephraim is My helmet, Judah is My scepter."
+          },
+          {
+            "chapter": 60,
+            "n": 8,
+            "text": "Moab is My washbasin; upon Edom I toss My sandal; over Philistia I shout in triumph.\""
+          }
         ]
       },
       {
@@ -40,17 +72,43 @@
         "note": "the closing plea and confession of trust",
         "emphasis": "",
         "verses": [
-          { "chapter": 60, "n": 9, "text": "Who will bring me to the fortified city? Who will lead me to Edom?" },
-          { "chapter": 60, "n": 10, "text": "Have You not rejected us, O God? Will You no longer march out, O God, with our armies?" },
-          { "chapter": 60, "n": 11, "text": "Give us aid against the enemy, for the help of man is {{shav|worthless}}." },
-          { "chapter": 60, "n": 12, "text": "With God we will perform with valor, and He will trample our enemies." }
+          {
+            "chapter": 60,
+            "n": 9,
+            "text": "Who will bring me to the fortified city? Who will lead me to Edom?"
+          },
+          {
+            "chapter": 60,
+            "n": 10,
+            "text": "Have You not rejected us, O God? Will You no longer march out, O God, with our armies?"
+          },
+          {
+            "chapter": 60,
+            "n": 11,
+            "text": "Give us aid against the enemy, for the help of man is {{shav|worthless}}."
+          },
+          {
+            "chapter": 60,
+            "n": 12,
+            "text": "With God we will perform with valor, and He will trample our enemies."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "nes": { "language": "Hebrew", "lemma": "nes", "original": "נֵס", "gloss": "A banner or standard, raised to rally troops or mark a place of gathering. Even in the middle of national defeat, God has raised a banner for those who fear Him, a rallying point of hope precisely when the battle looks lost." },
-    "shav": { "language": "Hebrew", "lemma": "shav", "original": "שָׁוְא", "gloss": "Emptiness, futility, worthlessness, the same word used of false or vain things. The psalm's confession that human help is shav is not despair about people but a redirection of ultimate trust away from every human ally and onto God alone." }
+    "nes": {
+      "language": "Hebrew",
+      "lemma": "nes",
+      "original": "נֵס",
+      "gloss": "A banner or standard, raised to rally troops or mark a place of gathering. Even in the middle of national defeat, God has raised a banner for those who fear Him, a rallying point of hope precisely when the battle looks lost."
+    },
+    "shav": {
+      "language": "Hebrew",
+      "lemma": "shav",
+      "original": "שָׁוְא",
+      "gloss": "Emptiness, futility, worthlessness, the same word used of false or vain things. The psalm's confession that human help is shav is not despair about people but a redirection of ultimate trust away from every human ally and onto God alone."
+    }
   },
   "study": {
     "basic": {
@@ -64,76 +122,248 @@
       "oneStory": "Israel's honest cry over national defeat, met by God's own sworn claim over the land and every people in it, anticipates the final and complete triumph secured in Christ, the true King through whom God will fully, finally trample every enemy of His people."
     },
     "context": {
-      "literary": "A communal lament built around a central divine oracle, moving from the shock of defeat and prayer for restoration, verses 1-5, through God's own claim over the land and its neighboring peoples, verses 6-8, to renewed prayer and confession of trust, verses 9-12.",
-      "historical": "Composed, per its superscription, when David fought Aram-naharaim and Aram-zobah and Joab returned and struck down twelve thousand Edomites in the Valley of Salt, 2 Samuel 8:13-14, 1 Chronicles 18:12, a costly campaign that left Israel feeling shaken even amid eventual victory.",
-      "canonical": "Its closing verses, 9-12, reappear nearly word for word as the second half of Psalm 108, showing how Israel treasured and reused this confession of trust across different settings of national need."
+      "literary": "Psalm 60 is a community lament with a divine oracle set in the middle of it, and the structure does the arguing. It falls in three parts: a complaint that God has broken His people (verses 1 to 5), an answer spoken by God Himself (verses 6 to 8), and a second, sharper prayer that turns the answer into confidence (verses 9 to 12). The oracle is the hinge. Before it the people speak of what God has done to them. After it they speak of what God will do through them.\n\nThe opening is written as a string of accusations, each one addressed to God in the second person: You have rejected, You have broken, You have been angry, You have shaken, You have shown, You have made us drink. There is no hint that the enemy did this. The enemy is not named until verse 8, and the psalm holds the reader in the conviction that the defeat is, in the last analysis, a matter between Israel and their God. Yet the first verb of the prayer is 'restore', and the last verb of the complaint, in verse 5, is 'save'. The people blame God and ask God in the same breath.\n\nThe oracle in verses 6 to 8 is the climax, and it is written in a different key. God speaks in the first person and every line claims something as His: 'Gilead is Mine, and Manasseh is Mine'. The map He reads out is deliberately complete, east and west of the Jordan, north and south, tribes and then nations. Gone is the broken and staggering nation of verses 1 to 3; in its place the speaker holds the whole land in His hands.\n\nThe last part begins with questions (verses 9 and 10), because the oracle has made victory certain and yet the people have not yet seen it, and ends in the declaration of verse 12. The word 'rejected' from verse 1 comes back in verse 10, now in a question, and the answer to it is the trust of verse 12. The psalm thus circles back, but in a different place than where it began.",
+      "historical": "The heading places the psalm in a particular campaign: David fought Aram-naharaim and Aram-zobah, and Joab returned and struck down twelve thousand Edomites in the Valley of Salt. The wars with the Arameans are told in 2 Samuel 8:3-6 and 2 Samuel 10:16-18, where David defeats Hadadezer king of Zobah and then the Arameans of Damascus. The Edomites appear in 2 Samuel 8:13-14, which says that David made a name for himself when he returned from striking down eighteen thousand Edomites in the Valley of Salt. The figures differ, twelve thousand in the psalm heading, eighteen thousand in 2 Samuel 8 and eighteen thousand credited to Abishai in 1 Chronicles 18:12. The accounts most plausibly describe different stages or different commanders in one larger campaign, and the wider record speaks of Joab and all Israel staying in Edom six months (1 Kings 11:15-16).\n\nThe psalm's mood is the mood of a nation that has been hit from behind. If Edom struck in the south while the army was committed against the Arameans in the north, the news reaching Jerusalem would have sounded like a collapse, though the text does not say so. The broken land (verse 2) and the wine of staggering (verse 3) fit a moment when the borders gave way. The heading calls the psalm a song 'for teaching', and the word recalls David's command in 2 Samuel 1:18 that the men of Judah be taught the bow. The psalm was written down to be learned.\n\nThe oracle names a map the hearers would know. Shechem lies in the hill country west of the Jordan and Succoth in the valley east of it, so the two together cover both sides of the river. Gilead and Manasseh are in the east, Ephraim and Judah in the west. Then come Israel's three neighbours, Moab to the east, Edom to the south, Philistia to the west. Moab is the washbasin, the lowest domestic vessel, and Edom gets the sandal, the object thrown down as a sign of possession or of contempt, as in the transfer of property in Ruth 4:7. Every Israelite who heard it would have seen at once that the Lord was speaking as owner of the land.",
+      "canonical": "The psalm is one of several that speak after a defeat that seems to contradict God's covenant. Psalm 44 is its closest relative: 'But You have rejected and humbled us; You no longer go forth with our armies' (Psalm 44:9). Psalm 60:10 uses nearly the same words, and Psalm 89:38-39 states the same shock in a king's voice. The Law had foreseen the problem: among the covenant curses was being defeated before one's enemies (Deuteronomy 28:25), and after the defeat at Ai, Joshua's first reaction was to ask what God would do for His great name (Joshua 7:8-9). Psalm 60 belongs in this line of prayers that bring a defeat to God and appeal to His name.\n\nThe psalm is also quoted in a later psalm. The second half of Psalm 60, verses 5 to 12, is repeated almost word for word in Psalm 108:6-13, joined to a song of praise from Psalm 57. The editors of the Psalter deliberately placed the lament's answer next to a hymn, to show that the confidence of the oracle could be sung by itself, long after the crisis.\n\nThe oracle picks up threads from the Torah. 'Judah is My scepter' echoes Jacob's blessing that the scepter will not depart from Judah until Shiloh comes (Genesis 49:10). 'Israel will perform with valor', Balaam's word about Edom in Numbers 24:18, appears again in the psalm's last verse: 'With God we will perform with valor' (Psalm 60:12). The Edom against whom the oracle speaks is, in the prophets, a standing figure of pride that is brought low (Obadiah 1:3-4). In the New Testament, James quotes Amos 9:11-12, where the fallen tent of David is restored so that the remnant of Edom and all the nations that bear God's name are possessed, to explain the coming in of the Gentiles (Acts 15:16-17). The claim that 'all the nations are Mine' turns out to be a promise of welcome as much as of conquest, and Revelation 11:15 declares that the kingdom of the world has become the kingdom of the Lord and of His Christ."
     },
     "hermeneutics": {
-      "authorIntent": "To bring a real, painful national defeat honestly before God, and to ground renewed hope not in denial of the loss but in God's own sworn claim over the land and its peoples.",
-      "descriptionVsPrescription": "The psalm describes a specific military and political crisis in Israel's history; it prescribes as an abiding pattern honest lament joined to confident appeal to God's own promises, and a settled refusal to trust ultimately in human help.",
+      "authorIntent": "David, or whoever taught the psalm to the people, wanted Israel to be able to lose without losing their faith. The psalm is written to be learned, and what it teaches first is that the right response to disaster is not silence. It is to speak to God, to say what He has done, and to ask Him to do something else. The worshipper is allowed to say that God has been angry, because He has, and is allowed to ask Him to turn back.\n\nThe psalm also meant to shift the people's eyes from the evidence to the promise. The battle has gone badly, but God has already spoken from His sanctuary, and what He has said about the land is still true. Israel is meant to hold the defeat and the oracle together, and to let the oracle interpret the defeat rather than the other way round. A reader who has lost a campaign is told to ask what God has said about the land before asking what the enemy has done.\n\nAnd it aimed at teaching where to place confidence. The last two verses warn against putting trust in human help and then place it in God: 'the help of man is worthless... With God we will perform with valor'. Israel had an army, and the psalm does not despise it. It says the army will succeed if God marches out with it, and that otherwise it will not. A nation that knows this can go back to the battle without boasting.",
+      "descriptionVsPrescription": "The psalm describes the feelings and the prayers of a nation after a defeat, and it reports an oracle of God about the land. It does not command anyone to go to war, and it does not hand a later nation a deed to territory. The map of verses 6 to 8 belonged to the Israel of David's day, and the land promises were given to that people in that covenant. To read the passage as a licence for modern conquest mistakes a report for an order.\n\nWhat does carry forward is the shape of the prayer. Believers can say honestly that their sufferings sometimes feel like the work of God, because Scripture says that God wounds and heals (Deuteronomy 32:39) and that He tears and binds up (Hosea 6:1). They can bring defeats to Him without pretending they have not happened. They can ask Him to act on what He has said, and they can name the false supports they are tempted to lean on. The New Testament takes the point further: Paul says that in all our troubles we are more than conquerors through Him who loved us (Romans 8:37), and he asks what anyone can do against us if God is for us (Romans 8:31).\n\nIt helps to notice that the psalm does not treat the defeat as a proof that God had abandoned His people. It treats it as discipline and asks for healing. That is a safer reading than assuming every setback is a judgment for some particular sin, which the book of Job and the Lord's words about the man born blind warn against (John 9:3).",
       "debates": [
-        { "question": "How can the psalm say in verse 1 that God rejected and broke His people, yet in verse 4 that He has raised a banner of hope for them, without contradiction?", "views": [ { "label": "The psalm reflects two successive moments within the same crisis, first the experience of defeat as divine discipline, then a fresh word of hope grounded in God's covenant promises.", "case": "Verses 1-3 describe past and present hardship in the perfect tense, while verse 4 introduces a banner already raised, suggesting the psalm moves through, rather than denies, the reality of discipline toward renewed confidence." }, { "label": "The psalm holds both realities together at once as the normal shape of covenant lament, God's discipline and God's covenant faithfulness are never actually in tension for the psalmist, since even the discipline flows from a Father who has not abandoned His people.", "case": "The prayer 'restore us' in verse 1 assumes from the start that the God who broke them is the same God able and willing to heal, so rejection and banner are two sides of a single, ongoing relationship rather than sequential stages." } ], "bearing": "Both readings agree that the psalm refuses to let present hardship cancel God's covenant promises; discipline and hope are not competitors but are woven together in a single honest prayer." }
+        {
+          "question": "Why does the psalm say God Himself has done this to Israel?",
+          "views": [
+            {
+              "label": "Covenant discipline",
+              "case": "The Law warned that disobedience would bring defeat before enemies (Deuteronomy 28:25), and the prophets often read military disaster as God's discipline. The psalm's 'You have been angry' (verse 1) fits this. Hosea 6:1 uses the same language of tearing and healing for a people who return to the LORD."
+            },
+            {
+              "label": "A testing that teaches dependence",
+              "case": "The psalm does not confess a specific sin and ends by teaching that human help is worthless. On this view the defeat is a lesson for a people who had begun to trust their army. The psalm is 'for teaching' and the lesson is in verses 11 and 12."
+            },
+            {
+              "label": "The mystery of a setback within a promise",
+              "case": "Others point out that the psalm gives no reason at all. It says only that God did it and asks Him to restore. Like Psalm 44, which insists that Israel had not forgotten God, the lament is left as a question of how a faithful people can suffer, and it is answered by the oracle and not by an explanation."
+            }
+          ],
+          "bearing": "Whichever view is taken, the psalm teaches the same practice: go to the One who struck, because only He can heal (Hosea 6:1). The answer the psalm gives is a promise, not a diagnosis."
+        },
+        {
+          "question": "What does verse 4 mean, and is the 'banner' a rally or a mockery?",
+          "views": [
+            {
+              "label": "A banner to rally to, so they may flee the bow",
+              "case": "The BSB reads the verse as God raising a banner for those who fear Him so that they may flee the bow. A banner is a signal for scattered people to gather, and it fits the mood of a nation trying to regroup after a rout. It is a small mercy set inside the complaint."
+            },
+            {
+              "label": "A banner lifted so that truth may be displayed",
+              "case": "The BSB footnote gives the alternative 'that it may be displayed because of truth'. The Hebrew word for bow can also be heard as a word for truth, and on this reading the banner is raised to show God's faithfulness. The word play would be intended."
+            },
+            {
+              "label": "A bitter irony",
+              "case": "Some read the verse as a sad note: God has given a banner only so that His people may run. On this reading verse 4 still belongs to the complaint, and the real turn does not come until the oracle."
+            }
+          ],
+          "bearing": "The grammar leaves room for more than one reading, and the main line of the psalm does not depend on the choice. In every reading the banner is a gift from God, and the New Testament shows where the banner finally stands, in the lifted-up Son (John 12:32)."
+        }
       ]
     },
-    "originalLanguages": "God raises a nes, a rallying banner, even for a people staggering under hardship, verse 4, a visible sign of hope precisely when the battle looks lost. And the psalm's confession that human help is shav, empty and worthless, verse 11, redirects all ultimate trust away from allies and armies and onto God alone.",
+    "originalLanguages": "The vocabulary of the first verses is the vocabulary of a broken structure. In verse 1 God has 'rejected' the people, from zanach, a verb of throwing away that Psalm 44:9 also uses for God's casting off of Israel. Then He has 'broken' them, parats, a verb for making a breach in a wall, so that the people are pictured as a city whose defences have been knocked through. In verse 2 the land is shaken, an earthquake word, and 'torn open', and the prayer is that God would 'heal' its fractures. The metaphors run from wall to ground to body, and the cure is named in the same terms: to restore, shub, which means to bring back or turn around.\n\nVerse 3 has 'the wine You made us drink', which the BSB says causes staggering. The picture is of the cup of wrath. Isaiah 51:17 speaks of the cup of His fury that makes men stagger, and Jeremiah 25:15 of the wine of wrath that the nations must drink. To be handed such a cup by God Himself was to be put under judgment.\n\nVerse 4 has the word nes, 'banner'. It is the signal pole used to rally troops. Moses names an altar 'The LORD Is My Banner' in Exodus 17:15, and Isaiah 11:10 says that the Root of Jesse will stand as a banner for the peoples. The same word is used in Numbers 21:8-9 for the pole on which the bronze serpent was mounted. The second half of the verse is the subject of the debate above, because the word for bow can also be heard as a word for truth, which the BSB footnote notes.\n\nIn verse 5 the people are God's 'beloved', yedidim, a word of tender affection, and they are to be delivered by His right hand, the side of strength. The juxtaposition with the anger of verse 1 is deliberate. They are at once the people He has broken and the people He loves.\n\nThe oracle in verse 6 begins 'God has spoken from His sanctuary'. The BSB footnote offers 'in His holiness', and the two senses may be intended together: He speaks from His holy place, and He speaks by His holiness, that is, swears by it, as He does in Psalm 89:35. The next words, 'I will triumph', use a verb of exulting. In verse 7 Ephraim is 'My helmet', literally the strength of the head, and Judah is 'My scepter', literally the lawgiver or the commander's staff, the same word found in Genesis 49:10. The picture is of military protection and rule: Ephraim is the strongest tribe of the north and Judah is where the decree comes from.\n\nVerse 8 gives Moab as a washbasin, literally the basin of my washing, and Edom as the place on which the sandal is thrown. Verse 12 ends with 'perform with valor', chayil, the word for strength and military competence, which is the same phrase Balaam used in Numbers 24:18 of Israel. The last verb, 'trample', bus, is used in Psalm 44:5 of Israel trampling its foes through God's name, so the closing confidence is the reversal of the complaint of the earlier psalm.",
     "typology": [
-      { "type": "God's oracle claiming every tribe and neighboring nation as His own possession, verses 6-8", "fulfillment": "Anticipates the universal reign of Christ, to whom the Father has given the nations as His inheritance, Psalm 2:8, fully realized when the kingdoms of the world become the kingdom of our Lord and of His Christ, Revelation 11:15." },
-      { "type": "The confession that human help is worthless and only God secures the victory, verses 11-12", "fulfillment": "Fulfilled in Christ, the true and greater deliverer through whom God grants a triumph no human strength could ever secure, 1 Corinthians 15:57." }
+      {
+        "type": "The banner raised for those who fear God, verse 4",
+        "fulfillment": "A banner is a place where scattered people gather. The prophets promised that the Root of Jesse would stand as a banner for the peoples, and the nations would seek Him (Isaiah 11:10). The Hebrew word for banner is the one used for the pole on which Moses lifted the bronze serpent so that everyone bitten could look and live (Numbers 21:8-9), and Jesus joins the two when He says that as Moses lifted up the snake, so the Son of Man must be lifted up (John 3:14-15) and that when He is lifted up He will draw everyone to Himself (John 12:32). The escalation is that the banner is a person, and the rally is to Him. The type falls short because the ancient banner only gathered the army, while the cross gathers the defeated and gives them life."
+      },
+      {
+        "type": "The oracle that claims Judah and every neighbouring nation, verses 6 to 8",
+        "fulfillment": "God speaks as owner of Shechem and Succoth, Gilead and Manasseh, Ephraim and Judah, and then of the surrounding nations. The scepter of Judah points to the coming ruler of Genesis 49:10, and Psalm 2:8 says that the Father will give the Son the nations as His inheritance. After the resurrection Jesus says, 'All authority in heaven and on earth has been given to Me' (Matthew 28:18), and Revelation 11:15 announces that the kingdom of the world has become the kingdom of the Lord and of His Christ. The type falls short in how the nations are won: the psalm pictures Moab and Edom brought low, while the New Testament shows that the nations are gathered through the gospel, and Amos 9:11-12, quoted in Acts 15:16-17, says that Edom's remnant is to be possessed in order to be brought in."
+      },
+      {
+        "type": "The cup that makes the people stagger, verse 3",
+        "fulfillment": "The wine of wrath that Israel drank in defeat points to a cup that would one day be drunk by another. In Gethsemane Jesus prays, 'Father, if You are willing, take this cup from Me' (Luke 22:42), and Isaiah says that He took on our infirmities and carried our sorrows, though we thought Him stricken by God (Isaiah 53:4). The correspondence is that the cup of God's anger, which the people drank in part, was drunk to the dregs by the Son. The type falls short because Israel's staggering was a chastening with a limit, while Christ's cup bore the full penalty, so that the people might be restored (Romans 5:9)."
+      }
     ],
-    "christ": "The psalm's confession that human help is worthless and only God, marching with His people, can grant victory anticipates Christ, the true and greater deliverer who leads God's people to a triumph no human strength could ever secure. His oracle claiming every tribe and neighboring people as His own possession, verses 6-8, points forward to the universal reign given to God's Anointed, Psalm 2:8, fully realized when the kingdoms of this world become the kingdom of our Lord and of His Christ, Revelation 11:15.",
-    "god": "God is shown as the one who both shatters and heals His people, who sovereignly claims ownership over every people and territory named in the psalm, and whose ancient promises remain the true ground for hope even after real, painful national defeat.",
+    "christ": "The psalm leads to Christ first by promise. The oracle says Judah is God's scepter, and the promise in Genesis 49:10 that the scepter will not depart from Judah 'until Shiloh comes and the allegiance of the nations is his' finds its fulfilment in the Son of David who is also the Lion of Judah. The psalm's vision of a people who were defeated and then lifted by God's word matches the pattern of the Messiah's own life. The Son of David is proclaimed by the Father, 'You are My Son' (Psalm 2:7), and the nations are promised to Him (Psalm 2:8), which Psalm 60 has already depicted as a map.\n\nIt leads to Christ by the banner. The psalm says that God has raised a banner for those who fear Him, and the New Testament sees the lifted-up Christ as the place where the scattered gather. The pole of Numbers 21:8-9 and the banner of Isaiah 11:10 come together in the cross, and John 12:32 says that when He is lifted up He will draw everyone to Himself. A defeated army is gathered to a person, not a flag.\n\nIt leads to Christ in the matter of the cup and the rejection. The psalm opens with God rejecting and breaking His people and making them drink the wine of staggering. The cross shows the answer to a question the psalm leaves open: how can a God who has promised to keep His covenant be the one who rejects? The Son took the rejection in their place. 'My God, My God, why have You forsaken Me?' (Matthew 27:46) takes up the psalm's experience of being cast off, and the resurrection takes up its hope of being restored. Hebrews says that Jesus suffered outside the city gate to sanctify the people by His own blood (Hebrews 13:12).\n\nIt leads to Christ in the confession about human help. The psalm says the help of man is worthless, and Psalm 146:3 says not to trust in princes who cannot save. Israel was forever tempted to rely on alliances and armies, and the psalm refuses this. The New Testament shows the one in whom help is found, the one whom Hebrews calls the source of eternal salvation, and Paul can say that the weakness of God is stronger than man's strength (1 Corinthians 1:25).\n\nAnd it leads to Christ in the final triumph. 'With God we will perform with valor, and He will trample our enemies' (verse 12) looks to the day when Christ puts every enemy under His feet (1 Corinthians 15:25). At the cross He disarmed the powers (Colossians 2:15), and when He returns, Revelation 19 pictures Him treading the winepress of God's wrath, as Isaiah 63:1-6 does when it sees a figure coming from Edom, mighty to save. A caution keeps this honest: not every detail of the oracle is a code. The washbasin and the sandal are vivid pictures of rule and contempt, not hidden portraits of the Saviour. What leads to Christ is the promise of the ruler from Judah, the banner, the cup, and the victory that belongs to God alone.",
+    "god": "The psalm shows God as the one who acts in everything, including the things that hurt. It does not divide the world into good events that come from Him and bad events that come from somewhere else. The opening verses say You rejected, You broke, You shook, You made us drink. That is a hard thing to sing, and the psalm sings it. The teaching behind it is what Deuteronomy 32:39 says in His own words: 'I bring death and I give life; I wound and I heal, and there is no one who can deliver from My hand.' The God of this psalm is not a spectator of Israel's defeat and not a rival to the powers that beat them. He is over both.\n\nIt shows God as one who keeps His word even when His people are in ruins. The oracle of verses 6 to 8 is spoken 'from His sanctuary', and every line claims something for Himself. The land is His before it is Israel's, and the nations that press on it are His before they are enemies. A reader who has just seen a nation shattered is invited to hear God say 'I will triumph!' That is a statement about His character as much as His plans: He is the kind of God whose promises do not depend on how His people are doing this year.\n\nIt shows God's ownership and humour together. The washbasin and the sandal are almost comic pictures of Moab and Edom, put in the mouth of the Lord of hosts. Nations that seem to be great powers are, from His seat, household objects. This is the same perspective as Psalm 2:4, where the One enthroned in heaven laughs, and it is meant to deflate fear without teaching contempt for people.\n\nThe psalm holds a tension and does not resolve it. God is angry and God loves: the people are both the ones He has broken (verse 1) and His beloved (verse 5). He has cast off and He will march out (verse 10). Israel does not try to reconcile these. They put both in front of God and ask. The resolution is given only in the New Testament, where the Son bears the rejection so that the beloved may be restored. That tension is a lesson in how to pray: honesty about both is better than a tidy theory.\n\nFor worship, the psalm teaches believers to sing their defeats as well as their victories. Much of the church's singing is of one kind, and this psalm widens it. It also teaches a particular confession of where the army's strength comes from. 'With God we will perform with valor' is meant to be said by those who have already been humbled, which is why it can be said without pride. God is worthy of worship both as the one who shakes the land and as the one who heals its fractures, and the psalm keeps both in view.",
     "crossReferences": [
-      { "ref": "2 Samuel 8:13-14", "note": "Records David's victory over Edom in the Valley of Salt, the historical setting behind this psalm's superscription." },
-      { "ref": "Psalm 108:6-13", "note": "Repeats this psalm's closing section almost word for word, showing its lasting use in Israel's later worship." },
-      { "ref": "Revelation 11:15", "note": "Pictures the final, complete fulfillment of God's claim over all the kingdoms of the earth, now given to Christ." }
+      {
+        "ref": "2 Samuel 8:13-14",
+        "note": "David returns from striking down Edomites in the Valley of Salt, places garrisons in Edom, and the Lord gives him victory wherever he goes. It is the historical outcome that follows the crisis of the psalm and shows that the oracle was kept."
+      },
+      {
+        "ref": "Psalm 44:9-10",
+        "note": "'You have rejected and humbled us; You no longer go forth with our armies.' Another community lament, which uses almost the same words as Psalm 60:10. The two psalms show how Israel prayed after a defeat that seemed to contradict God's promise."
+      },
+      {
+        "ref": "Psalm 108:6-13",
+        "note": "The second half of Psalm 60 is repeated here, joined to a song of praise. It shows that the oracle and the closing confidence were meant to be sung beyond the original crisis and became part of Israel's regular worship."
+      },
+      {
+        "ref": "Deuteronomy 32:39",
+        "note": "'I wound and I heal, and there is no one who can deliver from My hand.' God's own word states the truth that Psalm 60 prays inside: the one who broke the land is the only one who can heal it."
+      },
+      {
+        "ref": "Hosea 6:1",
+        "note": "'He has torn us to pieces, but He will heal us; He has wounded us, but He will bind up our wounds.' A prophet's call to return to the God who struck, using the same language of tearing and healing as Psalm 60:1-2."
+      },
+      {
+        "ref": "Genesis 49:10",
+        "note": "'The scepter will not depart from Judah.' Psalm 60:7 calls Judah God's scepter, using the same word, and so ties the oracle to the old promise of a ruler from Judah to whom the nations would bring allegiance."
+      },
+      {
+        "ref": "Numbers 24:18",
+        "note": "Balaam says that Edom will become a possession and that Israel will perform with valor. The psalm's last verse uses the same phrase, which shows that David's campaign was being read as the fulfilment of an old word about Edom."
+      },
+      {
+        "ref": "Isaiah 11:10",
+        "note": "The Root of Jesse will stand as a banner for the peoples, and the nations will seek Him. It gives the banner of Psalm 60:4 a face, and it turns the rallying point for a beaten army into a rallying point for the nations."
+      },
+      {
+        "ref": "Amos 9:11-12",
+        "note": "God will restore the fallen tent of David so that they may possess the remnant of Edom and all the nations that bear His name. Acts 15:16-17 quotes it for the Gentiles. The psalm's claim on Edom thus opens toward welcome."
+      },
+      {
+        "ref": "Romans 8:31",
+        "note": "'If God is for us, who can be against us?' Paul's question is the settled form of the psalm's confidence in verse 12. It is asked of a church that has suffered, which is the same situation as the psalm's."
+      },
+      {
+        "ref": "Revelation 11:15",
+        "note": "'The kingdom of the world has become the kingdom of our Lord and of His Christ.' The final form of the oracle's claim on every nation, now announced as accomplished."
+      }
     ],
-    "oneStory": "Israel's honest cry over national defeat, met by God's own sworn claim over the land and every people in it, anticipates the final and complete triumph secured in Christ, the true King through whom God will fully, finally trample every enemy of His people.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "The psalm answers a question that runs back to the gift of the land. God promised Abraham a land, and in every generation Israel had to learn that holding it depended on God and not on their strength. The early chapters of the story show the same thing: a wall can be broken, a city lost, a people scattered. Joshua's prayer after Ai (Joshua 7:8-9) and the curses of Deuteronomy 28 already see how a defeat can seem to contradict a promise. Psalm 60 belongs to the long record of Israel's trying to hold a defeat and a promise in the same hand.\n\nIt sets up what follows by giving the promise a person. The scepter from Judah and the word about the nations are the thread that runs through David's house, the prophets, and on to the Messiah. The psalm is repeated in Psalm 108, which shows it being sung again and again, and its confidence moves from David's campaign to the hope of the exiles and the faith of the later church.\n\nThe centre of the story is the cross and the resurrection. The broken and rejected people of verse 1 meet the Son who was cast off on their behalf. The shaking of the earth (verse 2) has an echo at the moment Jesus dies, when the earth quaked and the rocks were split (Matthew 27:51). The banner of verse 4 is the cross on which He was lifted up, and the answer of verse 6 is the voice that raised Him. After the resurrection, He can say that all authority in heaven and on earth has been given to Him (Matthew 28:18), and the oracle's claim on Gilead and Judah, Moab and Edom, becomes a commission to all the nations.\n\nThe church now lives in the space of verses 9 and 10, when the victory has been promised and not yet completed. Believers still ask who will lead them to the fortified city, and they still pray with the honesty of a people who sometimes feel that God is not marching out with their armies. The answer is the same as in verse 12: with God we will perform with valor.\n\nIt ends in the new creation. Revelation 11:15 announces the kingdom of the world as the kingdom of the Lord and of His Christ, and Revelation 21:24-26 pictures the nations bringing their glory into the city. The washbasin and the sandal are gone, for the nations that were claimed are welcomed, and the land that was fought over becomes a world where no one stands against the people of God.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What national experience prompted this psalm's opening cry?",
       "options": [
-        { "text": "A painful military defeat that felt like God's own rejection and breaking of His people.", "weight": 100, "note": "Verses 1-3 describe the shock of hardship experienced as coming directly from God's hand." },
-        { "text": "A joyful coronation ceremony for a new king.", "weight": 0, "note": "The psalm opens with lament over hardship, not celebration." },
-        { "text": "A prolonged famine across the land.", "weight": 25, "note": "The crisis described is military and political defeat, tied to David's wars, not famine." },
-        { "text": "A dispute among the tribes over worship practices.", "weight": 75, "note": "The crisis is external, a military and territorial one, not an internal religious dispute." }
+        {
+          "text": "A painful military defeat that felt like God's own rejection and breaking of His people.",
+          "weight": 100,
+          "note": "Verses 1-3 describe the shock of hardship experienced as coming directly from God's hand."
+        },
+        {
+          "text": "A joyful coronation ceremony for a new king.",
+          "weight": 0,
+          "note": "The psalm opens with lament over hardship, not celebration."
+        },
+        {
+          "text": "A prolonged famine across the land.",
+          "weight": 25,
+          "note": "The crisis described is military and political defeat, tied to David's wars, not famine."
+        },
+        {
+          "text": "A dispute among the tribes over worship practices.",
+          "weight": 75,
+          "note": "The crisis is external, a military and territorial one, not an internal religious dispute."
+        }
       ]
     },
     {
       "q": "In the central oracle, verses 6-8, what does God claim as His own?",
       "options": [
-        { "text": "Every tribe of Israel and the surrounding nations, including Moab, Edom, and Philistia.", "weight": 100, "note": "God's oracle asserts sovereign ownership over Israel's tribes and its neighboring peoples alike." },
-        { "text": "Only the temple in Jerusalem.", "weight": 25, "note": "The oracle names territories and peoples far beyond the temple itself." },
-        { "text": "Only the tribe of Judah.", "weight": 75, "note": "Judah is named, verse 7, but so are Gilead, Manasseh, Ephraim, Moab, Edom, and Philistia." },
-        { "text": "Nothing; the oracle only describes what Israel must conquer for itself.", "weight": 0, "note": "The oracle is God's own claim of possession, not a task assigned to human armies alone." }
+        {
+          "text": "Every tribe of Israel and the surrounding nations, including Moab, Edom, and Philistia.",
+          "weight": 100,
+          "note": "God's oracle asserts sovereign ownership over Israel's tribes and its neighboring peoples alike."
+        },
+        {
+          "text": "Only the temple in Jerusalem.",
+          "weight": 25,
+          "note": "The oracle names territories and peoples far beyond the temple itself."
+        },
+        {
+          "text": "Only the tribe of Judah.",
+          "weight": 75,
+          "note": "Judah is named, verse 7, but so are Gilead, Manasseh, Ephraim, Moab, Edom, and Philistia."
+        },
+        {
+          "text": "Nothing; the oracle only describes what Israel must conquer for itself.",
+          "weight": 0,
+          "note": "The oracle is God's own claim of possession, not a task assigned to human armies alone."
+        }
       ]
     },
     {
       "q": "What does the psalm conclude about the value of human help, in verse 11?",
       "options": [
-        { "text": "The help of man is worthless; only God's aid truly matters.", "weight": 100, "note": "This confession redirects all ultimate trust away from human allies and onto God alone." },
-        { "text": "Human alliances are the surest guarantee of victory.", "weight": 0, "note": "The psalm explicitly denies this, calling human help worthless." },
-        { "text": "Human help is useful, but only after God's help fails.", "weight": 25, "note": "The psalm does not present human help as a backup plan; it calls it worthless outright." },
-        { "text": "Human help and divine help are equally necessary.", "weight": 75, "note": "The psalm sets these in contrast, not in equal partnership; only God secures the victory." }
+        {
+          "text": "The help of man is worthless; only God's aid truly matters.",
+          "weight": 100,
+          "note": "This confession redirects all ultimate trust away from human allies and onto God alone."
+        },
+        {
+          "text": "Human alliances are the surest guarantee of victory.",
+          "weight": 0,
+          "note": "The psalm explicitly denies this, calling human help worthless."
+        },
+        {
+          "text": "Human help is useful, but only after God's help fails.",
+          "weight": 25,
+          "note": "The psalm does not present human help as a backup plan; it calls it worthless outright."
+        },
+        {
+          "text": "Human help and divine help are equally necessary.",
+          "weight": 75,
+          "note": "The psalm sets these in contrast, not in equal partnership; only God secures the victory."
+        }
       ]
     },
     {
       "q": "What image in verse 4 pictures hope raised in the middle of hardship?",
       "options": [
-        { "text": "A banner raised for those who fear God, that they may flee the bow.", "weight": 100, "note": "The banner functions as a rallying point of hope even while the people stagger under hardship." },
-        { "text": "A rainbow appearing after a storm.", "weight": 0, "note": "The psalm's image is a raised military banner, not a rainbow." },
-        { "text": "A temple rebuilt from ruins.", "weight": 75, "note": "No rebuilt temple is mentioned; the image given is a banner raised for those who fear God." },
-        { "text": "A harvest gathered after famine.", "weight": 25, "note": "The psalm's crisis is military defeat, and its image of hope is a banner, not a harvest." }
+        {
+          "text": "A banner raised for those who fear God, that they may flee the bow.",
+          "weight": 100,
+          "note": "The banner functions as a rallying point of hope even while the people stagger under hardship."
+        },
+        {
+          "text": "A rainbow appearing after a storm.",
+          "weight": 0,
+          "note": "The psalm's image is a raised military banner, not a rainbow."
+        },
+        {
+          "text": "A temple rebuilt from ruins.",
+          "weight": 75,
+          "note": "No rebuilt temple is mentioned; the image given is a banner raised for those who fear God."
+        },
+        {
+          "text": "A harvest gathered after famine.",
+          "weight": 25,
+          "note": "The psalm's crisis is military defeat, and its image of hope is a banner, not a harvest."
+        }
       ]
     },
     {
       "q": "How does this psalm's confidence in God's ownership of the nations find its fulfillment in the New Testament?",
       "options": [
-        { "text": "In Christ's universal reign, where the kingdoms of the world become the kingdom of the Lord and His Christ.", "weight": 100, "note": "Revelation 11:15 pictures the final, complete fulfillment of God's claim over every nation, now given to Christ." },
-        { "text": "In the destruction of every nation except Israel.", "weight": 0, "note": "The New Testament vision is Christ's reign over all nations, not the destruction of every nation but Israel." },
-        { "text": "In a purely political alliance between Israel and Rome.", "weight": 25, "note": "The fulfillment is theological and christological, not a mere political arrangement." },
-        { "text": "In the abolition of all earthly kingdoms with nothing to replace them.", "weight": 75, "note": "The New Testament vision is not the abolition of all rule but its transformation under Christ's reign." }
+        {
+          "text": "In Christ's universal reign, where the kingdoms of the world become the kingdom of the Lord and His Christ.",
+          "weight": 100,
+          "note": "Revelation 11:15 pictures the final, complete fulfillment of God's claim over every nation, now given to Christ."
+        },
+        {
+          "text": "In the destruction of every nation except Israel.",
+          "weight": 0,
+          "note": "The New Testament vision is Christ's reign over all nations, not the destruction of every nation but Israel."
+        },
+        {
+          "text": "In a purely political alliance between Israel and Rome.",
+          "weight": 25,
+          "note": "The fulfillment is theological and christological, not a mere political arrangement."
+        },
+        {
+          "text": "In the abolition of all earthly kingdoms with nothing to replace them.",
+          "weight": 75,
+          "note": "The New Testament vision is not the abolition of all rule but its transformation under Christ's reign."
+        }
       ]
     }
   ],
@@ -145,9 +375,21 @@
     "The psalm closes, 'With God we will perform with valor, and He will trample our enemies,' verse 12. What would it look like this week to act with valor, trusting God for the outcome rather than waiting for certainty first?"
   ],
   "translationNotes": [
-    { "ref": "Psalm 60:4", "note": "Banner renders nes, a standard raised to rally troops or mark a gathering point; some translations render the clause as a banner displayed because of truth rather than for troops to flee to." },
-    { "ref": "Psalm 60:6", "note": "God has spoken from His sanctuary can also be rendered God has spoken in His holiness, emphasizing that the oracle following is God's own sworn, authoritative word rather than merely a hoped-for outcome." },
-    { "ref": "Psalm 60:9-12", "note": "These closing verses reappear nearly word for word in Psalm 108:6-13, evidence that this confession of trust was treasured and reused across different moments of Israel's national life." }
+    {
+      "ref": "Psalm 60:4",
+      "note": "Banner renders nes, a standard raised to rally troops or mark a gathering point; some translations render the clause as a banner displayed because of truth rather than for troops to flee to."
+    },
+    {
+      "ref": "Psalm 60:6",
+      "note": "God has spoken from His sanctuary can also be rendered God has spoken in His holiness, emphasizing that the oracle following is God's own sworn, authoritative word rather than merely a hoped-for outcome."
+    },
+    {
+      "ref": "Psalm 60:9-12",
+      "note": "These closing verses reappear nearly word for word in Psalm 108:6-13, evidence that this confession of trust was treasured and reused across different moments of Israel's national life."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text retrieved via bible.com (YouVersion, Berean Standard Bible, version 3034) after the local makor-scripture toolkit failed with a persistent disk I/O error reading the sandbox-mounted database. Verse numbering and count (12 verses) verified against Psalm 60:1-60:12 per PSALMS-SECTION-MAP.md. The historical and musical superscription is not rendered as verse text, consistent with the established convention in this corpus. No sermon link could be verified this session from the trusted cluster for Psalm 60 specifically, so sermon status is none." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text retrieved via bible.com (YouVersion, Berean Standard Bible, version 3034) after the local makor-scripture toolkit failed with a persistent disk I/O error reading the sandbox-mounted database. Verse numbering and count (12 verses) verified against Psalm 60:1-60:12 per PSALMS-SECTION-MAP.md. The historical and musical superscription is not rendered as verse text, consistent with the established convention in this corpus. No sermon link could be verified this session from the trusted cluster for Psalm 60 specifically, so sermon status is none."
+  }
 }
