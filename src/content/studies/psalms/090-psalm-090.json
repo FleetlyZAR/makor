@@ -18,8 +18,16 @@
         "note": "God's eternity before creation",
         "emphasis": "",
         "verses": [
-          { "chapter": 90, "n": 1, "text": "Lord, You have been our dwelling place through all generations." },
-          { "chapter": 90, "n": 2, "text": "Before the mountains were born or You brought forth the earth and the world, from {{olam|everlasting}} to everlasting You are God." }
+          {
+            "chapter": 90,
+            "n": 1,
+            "text": "Lord, You have been our dwelling place through all generations."
+          },
+          {
+            "chapter": 90,
+            "n": 2,
+            "text": "Before the mountains were born or You brought forth the earth and the world, from {{olam|everlasting}} to everlasting You are God."
+          }
         ]
       },
       {
@@ -27,10 +35,26 @@
         "note": "the brevity of human life",
         "emphasis": "",
         "verses": [
-          { "chapter": 90, "n": 3, "text": "You return man to dust, saying, \"Return, O sons of mortals.\"" },
-          { "chapter": 90, "n": 4, "text": "For in Your sight a thousand years are but a day that passes, or a watch of the night." },
-          { "chapter": 90, "n": 5, "text": "You sweep them away in their sleep; they are like the new grass of the morning," },
-          { "chapter": 90, "n": 6, "text": "in the morning it springs up new, but by evening it fades and withers." }
+          {
+            "chapter": 90,
+            "n": 3,
+            "text": "You return man to dust, saying, \"Return, O sons of mortals.\""
+          },
+          {
+            "chapter": 90,
+            "n": 4,
+            "text": "For in Your sight a thousand years are but a day that passes, or a watch of the night."
+          },
+          {
+            "chapter": 90,
+            "n": 5,
+            "text": "You sweep them away in their sleep; they are like the new grass of the morning,"
+          },
+          {
+            "chapter": 90,
+            "n": 6,
+            "text": "in the morning it springs up new, but by evening it fades and withers."
+          }
         ]
       },
       {
@@ -38,11 +62,31 @@
         "note": "the reality of divine judgment on sin",
         "emphasis": "",
         "verses": [
-          { "chapter": 90, "n": 7, "text": "For we are consumed by Your anger and terrified by Your wrath." },
-          { "chapter": 90, "n": 8, "text": "You have set our iniquities before You, our secret sins in the light of Your presence." },
-          { "chapter": 90, "n": 9, "text": "For all our days decline in Your fury; we finish our years with a sigh." },
-          { "chapter": 90, "n": 10, "text": "The length of our days is seventy years, or eighty if we are strong, yet their pride is but labor and sorrow, for they quickly pass, and we fly away." },
-          { "chapter": 90, "n": 11, "text": "Who knows the power of Your anger? Your wrath matches the fear You are due." }
+          {
+            "chapter": 90,
+            "n": 7,
+            "text": "For we are consumed by Your anger and terrified by Your wrath."
+          },
+          {
+            "chapter": 90,
+            "n": 8,
+            "text": "You have set our iniquities before You, our secret sins in the light of Your presence."
+          },
+          {
+            "chapter": 90,
+            "n": 9,
+            "text": "For all our days decline in Your fury; we finish our years with a sigh."
+          },
+          {
+            "chapter": 90,
+            "n": 10,
+            "text": "The length of our days is seventy years, or eighty if we are strong, yet their pride is but labor and sorrow, for they quickly pass, and we fly away."
+          },
+          {
+            "chapter": 90,
+            "n": 11,
+            "text": "Who knows the power of Your anger? Your wrath matches the fear You are due."
+          }
         ]
       },
       {
@@ -50,21 +94,65 @@
         "note": "a prayer for wisdom, joy, and enduring work",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 90, "n": 12, "text": "So teach us to number our days, that we may present a heart of {{chokmah|wisdom}}." },
-          { "chapter": 90, "n": 13, "text": "Return, O LORD! How long will it be? Have compassion on Your servants." },
-          { "chapter": 90, "n": 14, "text": "Satisfy us in the morning with Your {{chesed|loving devotion}}, that we may sing for joy and be glad all our days." },
-          { "chapter": 90, "n": 15, "text": "Make us glad for as many days as You have afflicted us, for as many years as we have seen evil." },
-          { "chapter": 90, "n": 16, "text": "May Your work be shown to Your servants, and Your splendor to their children." },
-          { "chapter": 90, "n": 17, "text": "May the {{noam|favor}} of the Lord our God rest upon us; establish for us the work of our hands, yes, establish the work of our hands!" }
+          {
+            "chapter": 90,
+            "n": 12,
+            "text": "So teach us to number our days, that we may present a heart of {{chokmah|wisdom}}."
+          },
+          {
+            "chapter": 90,
+            "n": 13,
+            "text": "Return, O LORD! How long will it be? Have compassion on Your servants."
+          },
+          {
+            "chapter": 90,
+            "n": 14,
+            "text": "Satisfy us in the morning with Your {{chesed|loving devotion}}, that we may sing for joy and be glad all our days."
+          },
+          {
+            "chapter": 90,
+            "n": 15,
+            "text": "Make us glad for as many days as You have afflicted us, for as many years as we have seen evil."
+          },
+          {
+            "chapter": 90,
+            "n": 16,
+            "text": "May Your work be shown to Your servants, and Your splendor to their children."
+          },
+          {
+            "chapter": 90,
+            "n": 17,
+            "text": "May the {{noam|favor}} of the Lord our God rest upon us; establish for us the work of our hands, yes, establish the work of our hands!"
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "olam": { "language": "Hebrew", "lemma": "olam", "original": "עוֹלָם", "gloss": "Everlasting, from ancient time to distant future, a span beyond human measure. God alone existed before creation and will exist after it, from everlasting to everlasting." },
-    "chokmah": { "language": "Hebrew", "lemma": "chokmah", "original": "חָכְמָה", "gloss": "Wisdom, skill in living rightly before God. Moses prays that numbering our brief days would produce not mere information but a heart genuinely shaped by this practical, godly wisdom." },
-    "chesed": { "language": "Hebrew", "lemma": "chesed", "original": "חֶסֶד", "gloss": "Steadfast, covenant love. Moses prays that this love, freshly given each morning, would be the true satisfaction that outweighs the toil and sorrow of mortal life." },
-    "noam": { "language": "Hebrew", "lemma": "no'am", "original": "נֹעַם", "gloss": "Favor, pleasantness, beauty. Moses closes by praying that this quality of God Himself would rest upon His people, giving lasting worth to work that would otherwise vanish like grass." }
+    "olam": {
+      "language": "Hebrew",
+      "lemma": "olam",
+      "original": "עוֹלָם",
+      "gloss": "Everlasting, from ancient time to distant future, a span beyond human measure. God alone existed before creation and will exist after it, from everlasting to everlasting."
+    },
+    "chokmah": {
+      "language": "Hebrew",
+      "lemma": "chokmah",
+      "original": "חָכְמָה",
+      "gloss": "Wisdom, skill in living rightly before God. Moses prays that numbering our brief days would produce not mere information but a heart genuinely shaped by this practical, godly wisdom."
+    },
+    "chesed": {
+      "language": "Hebrew",
+      "lemma": "chesed",
+      "original": "חֶסֶד",
+      "gloss": "Steadfast, covenant love. Moses prays that this love, freshly given each morning, would be the true satisfaction that outweighs the toil and sorrow of mortal life."
+    },
+    "noam": {
+      "language": "Hebrew",
+      "lemma": "no'am",
+      "original": "נֹעַם",
+      "gloss": "Favor, pleasantness, beauty. Moses closes by praying that this quality of God Himself would rest upon His people, giving lasting worth to work that would otherwise vanish like grass."
+    }
   },
   "study": {
     "basic": {
@@ -78,76 +166,270 @@
       "oneStory": "This psalm's contrast between God's eternity and human frailty, and its prayer that fleeting, toilsome lives would be established with lasting purpose, is answered in Christ, the eternal Son who entered our mortality, conquered death, and makes the work of His people in Him truly everlasting."
     },
     "context": {
-      "literary": "A prayer of Moses in four movements, moving from God's eternity, verses 1-2, to human frailty under judgment, verses 3-11, to a closing petition for wisdom, mercy, and enduring purpose, verses 12-17, opening Book IV of the Psalter.",
-      "historical": "Composed during or reflecting on Israel's forty years of wandering, when an entire generation, under God's judgment for unbelief at Kadesh-barnea, died in the wilderness without entering the promised land, Numbers 14:29-35.",
-      "canonical": "As the opening psalm of Book IV, following the crisis and unresolved longing that closed Book III in Psalm 89, this psalm reorients Israel's hope away from any earthly throne and back to the eternal LORD Himself as the true dwelling place of His people across every generation."
+      "literary": "Psalm 90 is a communal prayer that never once says \"I.\" Its speakers are \"we\" and \"us\" from first line to last, and it speaks to God in the second person all the way through: \"You have been,\" \"You return,\" \"You sweep,\" \"You have set.\" Only the people who pray, and the God who is prayed to, are on the stage. The form is a lament with a wisdom lesson folded inside it, and it moves in a pattern of descent and climb. Verses 1 and 2 stand on the rock of God's eternity. Verses 3 to 6 bring the listener down into the dust. Verses 7 to 11 go lower still, into the anger that explains the dust. Then the voice turns at verse 12 and climbs back up through six petitions to the closing plea of verse 17.\n\nThe psalm is held together by repeated words that change their meaning as they return. The verb \"return\" is God's word to mortals in verse 3, \"Return, O sons of mortals,\" and the people's word to God in verse 13, \"Return, O LORD.\" The morning is where the grass springs up and is gone by evening, verses 5 and 6, and it is also where the people ask to be satisfied with God's loving devotion, verse 14. The word \"days\" keeps ticking through the middle of the psalm, verses 9, 10, 12, 14 and 15, until the prayer turns the counting into a request. Verse 11 asks \"Who knows the power of Your anger?\" and verse 12 is the answer the psalm wants to give: no one, unless You teach us.\n\nThe final verse is built to ring. \"Establish for us the work of our hands\" is said twice, the second time with a fresh \"yes,\" as though the speaker cannot let the thought go. A psalm that began by looking back to before the mountains ends by asking God to make something last.",
+      "historical": "The title, \"A Prayer of Moses the man of God,\" is the only place in the Psalter that puts Moses' name over a psalm. The phrase \"man of God\" is the one that Deuteronomy 33:1 uses when it introduces his parting blessing, so the two poems are signed in the same voice. The psalm fits the wilderness years well. After the spies returned and the people refused to go in, God told them that their bodies would fall in the wilderness, \"everyone twenty years of age or older,\" Numbers 14:29, and that they would bear their guilt for forty years, \"a year for each day,\" Numbers 14:34. For a generation that sentence meant a long, slow funeral. Every camp was a few steps from a fresh grave.\n\nA people who had no fixed address also knew what it meant to need a dwelling place. They lived in tents and moved when the cloud moved, and their one settled point was the tabernacle where God had said, \"I may dwell among them,\" Exodus 25:8. To say \"Lord, You have been our dwelling place\" is the confession of a nation that owned no house at all.\n\nThe numbers in verse 10 also have a setting. Moses was a hundred and twenty when he died, Deuteronomy 34:7, and Caleb at eighty-five was still ready to take a mountain, Joshua 14:10. On the other side of Israel's story, Barzillai at eighty complains that he can no longer taste his food or hear singers, 2 Samuel 19:35. Seventy or eighty describes what a person could expect and what a strong person could reach, and the verse says that even the strong reach it tired.\n\nMany scholars doubt that Moses wrote the psalm and place it later. The title as it stands, together with its closeness to the Song of Moses in Deuteronomy 32, is the reason the church has read it in the wilderness, and its teaching does not depend on settling the question.",
+      "canonical": "Psalm 90 opens Book IV of the Psalter, and its place there is part of its meaning. Book III ended in the ruin of the Davidic hope. In Psalm 89 God's anointed is cast off, and the last complaint is \"How long, O LORD? Will You hide Yourself forever?\" and \"Remember the briefness of my lifespan,\" Psalm 89:46-47. Book IV answers by going back behind David to Moses and up above every throne to God Himself. Psalm 90:13 takes up the question, \"How long will it be?\", and the rest of the book answers it with the cry \"The LORD reigns\" in Psalms 93 and 95 to 99. Moses returns in Psalms 99:6, 103:7, 105:26 and 106:23, as though the book were held up by his prayer.\n\nWithin the Old Testament the psalm draws on the first chapters of Genesis and is drawn on in turn. The sentence \"You return man to dust\" is Genesis 3:19, and the refrain of Genesis 5, \"and then he died,\" is its long echo. Isaiah 40:6-8 takes the grass of verses 5 and 6 and sets a rock beside it: \"The grass withers and the flowers fall, but the word of our God stands forever.\" Psalm 103:15-17 borrows the same image and then adds the answer, \"But from everlasting to everlasting the loving devotion of the LORD extends to those who fear Him.\" Psalm 102:25-27 makes the same contrast between a world that wears out and a God whose years never end.\n\nThe New Testament quotes the psalm's clock. Peter uses verse 4 against scoffers who say the promise has failed, 2 Peter 3:8, and James turns verse 6 into a warning about planning as if tomorrow were owned, James 4:14. Hebrews 1:10-12 gives Psalm 102's words about the everlasting God to the Son, which is exactly the eternity that Psalm 90 confesses in its second verse."
     },
     "hermeneutics": {
-      "authorIntent": "To confess God's eternal, unshakeable being in contrast to human mortality under sin's judgment, and to pray for the wisdom that comes from honestly facing life's brevity, together with a plea for God's compassion and lasting purpose.",
-      "descriptionVsPrescription": "The psalm describes Israel's specific experience of wilderness judgment and mortality; it prescribes for every generation the abiding practice of numbering our days honestly and seeking God's favor to establish our necessarily limited work.",
+      "authorIntent": "Moses wrote for people who were under judgment and knew it. He did not want them to deny the sentence, and he did not want them to sink under it. He gives them a way to pray inside it. The first step is to place themselves in the right place, which is in God, and not in a land or a lifespan. The second is to name their condition honestly: the dust, the fleeting morning, the secret sins set in the light, the sigh at the end of the years.\n\nThe third step is the surprise. After six verses of hard truth he does not ask God to hide it, but to teach them to count. The aim of the counting is a heart of wisdom, which means a life lived with the end in view, so that the days are spent on what lasts. Only then come the petitions for God to return, to show compassion, to satisfy, to gladden in proportion to the grief, and to let the next generation see His work. Moses wanted Israel to hear that the sentence on the wilderness generation was not God's last word about them, and that they could ask for more. The same is true for the reader who comes to the psalm in any kind of loss.",
+      "descriptionVsPrescription": "Verses 3 to 11 describe. They record what happened to a judged generation and what mortality feels like under God's hand, and they should not be read as a rule for how long anyone may live or as a statement that every death is a penalty for the dying person's own sin. Jesus Himself refused that reading. Of a man born blind He said, \"Neither this man nor his parents sinned,\" John 9:3, and of the eighteen killed at Siloam He said they were no worse than others, Luke 13:4-5. Death is the common sentence of the fall, Romans 5:12, but it does not come with a personal account attached.\n\nVerse 12 and the petitions after it prescribe by example. They teach a way to pray: begin with who God is, tell the truth about our condition, ask for wisdom and not only relief, ask for gladness that answers the sorrow, and ask that the work of our hands matter. The call to \"number our days\" is not a call to gloom or to frantic activity. Paul puts it gently when he asks believers to walk as wise, \"redeeming the time,\" Ephesians 5:15-16.",
       "debates": [
-        { "question": "Does the 'seventy years, or eighty if we are strong' of verse 10 set a fixed, universal limit on human lifespan for all generations?", "views": [ { "label": "It describes a general, typical human lifespan rather than an absolute limit", "case": "The verse speaks descriptively of ordinary human experience under mortality; Moses himself lived to 120, Deuteronomy 34:7, showing the number is not presented as an inviolable ceiling." }, { "label": "It reflects the specific, shortened lifespans of the wilderness generation under God's judgment", "case": "Coming directly after verses describing God's wrath consuming that generation's days, the seventy or eighty years may specifically describe the judged wilderness generation rather than humanity in every age." } ], "bearing": "Either way, the psalm's larger point stands undiminished: human life, however long, is brief and fleeting before the eternal God, and calls for wisdom rather than presumption about the days we are given." }
+        {
+          "question": "Does the 'seventy years, or eighty if we are strong' of verse 10 set a fixed, universal limit on human lifespan for all generations?",
+          "views": [
+            {
+              "label": "It describes a general, typical human lifespan rather than an absolute limit",
+              "case": "The verse speaks descriptively of ordinary human experience under mortality; Moses himself lived to 120, Deuteronomy 34:7, showing the number is not presented as an inviolable ceiling."
+            },
+            {
+              "label": "It reflects the specific, shortened lifespans of the wilderness generation under God's judgment",
+              "case": "Coming directly after verses describing God's wrath consuming that generation's days, the seventy or eighty years may specifically describe the judged wilderness generation rather than humanity in every age."
+            }
+          ],
+          "bearing": "Either way, the psalm's larger point stands undiminished: human life, however long, is brief and fleeting before the eternal God, and calls for wisdom rather than presumption about the days we are given."
+        },
+        {
+          "question": "Whose anger and whose dust do verses 3 to 11 describe: Israel's in the wilderness, or the whole human race's?",
+          "views": [
+            {
+              "label": "The judged wilderness generation",
+              "case": "The psalm is headed with Moses' name and set in the forty years. The anger of verse 7 and the consumed days of verse 9 match the sentence of Numbers 14:29-35, which fell on a particular people for a particular act of unbelief. On this view the psalm is a pastoral prayer for Israel at that moment."
+            },
+            {
+              "label": "Humanity under the sentence of Genesis 3",
+              "case": "The language reaches well beyond Israel. 'Return to dust' is Genesis 3:19, and the word for people in verse 3 is 'sons of mortals,' the wider family of Adam. Paul speaks the same way when he says death passed to all men because all sinned, Romans 5:12, and that creation was subjected to futility, Romans 8:20."
+            },
+            {
+              "label": "Israel as a window onto Adam",
+              "case": "Moses reads the wilderness funeral as a picture of the human condition. The particular judgment shows the general one, because the same God and the same dust stand behind both. The psalm moves easily between 'we' as Israel and 'we' as mortals for that reason."
+            }
+          ],
+          "bearing": "The third view keeps what is sound in the other two. The psalm is rooted in Israel's graves, but it is offered for every generation, which is why verse 1 says 'through all generations.' The bearing on the reader is that the hard verses are not dealing with a special case. They describe the ordinary human situation, and the prayer of verses 12 to 17 is open to everyone who shares it."
+        },
+        {
+          "question": "Whose anger and whose dust do verses 3 to 11 describe: Israel's in the wilderness, or the whole human race's?",
+          "views": [
+            {
+              "label": "The judged wilderness generation",
+              "case": "The psalm is headed with Moses' name and set in the forty years. The anger of verse 7 and the consumed days of verse 9 match the sentence of Numbers 14:29-35, which fell on a particular people for a particular act of unbelief. On this view the psalm is a pastoral prayer for Israel at that moment."
+            },
+            {
+              "label": "Humanity under the sentence of Genesis 3",
+              "case": "The language reaches well beyond Israel. 'Return to dust' is Genesis 3:19, and the word for people in verse 3 is 'sons of mortals,' the wider family of Adam. Paul speaks the same way when he says death passed to all men because all sinned, Romans 5:12, and that creation was subjected to futility, Romans 8:20."
+            },
+            {
+              "label": "Israel as a window onto Adam",
+              "case": "Moses reads the wilderness funeral as a picture of the human condition. The particular judgment shows the general one, because the same God and the same dust stand behind both. The psalm moves easily between 'we' as Israel and 'we' as mortals for that reason."
+            }
+          ],
+          "bearing": "The third view keeps what is sound in the other two. The psalm is rooted in Israel's graves, but it is offered for every generation, which is why verse 1 says 'through all generations.' The bearing on the reader is that the hard verses are not dealing with a special case. They describe the ordinary human situation, and the prayer of verses 12 to 17 is open to everyone who shares it."
+        }
       ]
     },
-    "originalLanguages": "God is confessed as olam, everlasting, from before the mountains existed to beyond all ages, verse 2. Moses asks God to teach His people to number their days so that they gain a heart of chokmah, wisdom, verse 12, and prays for chesed, steadfast love, verse 14, and noam, favor, verse 17, to rest upon a people whose days otherwise vanish like grass.",
+    "originalLanguages": "Several Hebrew words in the psalm carry more than English shows. In verse 1 the dwelling place is ma'on, a word for a home or habitation, often used of where God lives and of His care for His people. Moses himself used its close relative at the end of his life: \"The eternal God is your dwelling place, and underneath are the everlasting arms,\" Deuteronomy 33:27. The same thought runs through his whole life: God is the home of His people, and Psalm 90 and his last blessing say it in the same words.\n\nVerse 2 says God \"brought forth the earth and the world.\" The verb is one of childbirth, used of labour pains, and it stands beside \"were born\" in the line before, so the mountains are pictured as born and the earth as brought forth in travail. The same verb returns in Moses' Song, \"You forgot the God who gave you birth,\" Deuteronomy 32:18. God is not a spectator of creation but the one who bore it, and He bears His people in the same way.\n\nThe verb \"return\" is shuv, and it is the hinge of the psalm. In verse 3 God says it to mortals as a sentence, \"Return, O sons of mortals,\" and in verse 13 the people use it as a plea, \"Return, O LORD.\" The first return is to dust. The second is a request that God turn back toward His people. The same sound answers itself across the psalm.\n\nIn verse 13 \"Have compassion\" is the verb nacham, which also means \"relent\" or \"change one's course.\" It is the very word of Moses' intercession after the golden calf: \"Turn from Your fierce anger and relent from doing harm to Your people,\" Exodus 32:12. Moses is praying as he has prayed before, and the psalm shows what that prayer sounds like in old age.\n\nThe \"affliction\" of verse 15 uses the verb anah, to humble or bring low. Deuteronomy 8:2-3 uses it for the forty years, when God 'humbled you' and fed the people with manna, and Deuteronomy 8:16 names the aim, that 'in the end He might cause you to prosper.' The psalm asks that the gladness be as long as the humbling, and the wilderness story says that this was always the purpose.\n\nFinally, verse 17 uses the verb kun, to establish or make firm, twice over. It is the word used of a throne set firmly in place and a world that cannot be moved, and Psalm 93, a few psalms later, will say that God's throne and the world are established in just that way. Moses asks that the little work of human hands be given a share in the firmness of God's own.",
     "typology": [
-      { "type": "The LORD as our dwelling place through all generations, verse 1", "fulfillment": "Points to Christ, in whom believers abide and who Himself is their true refuge and home, John 15:4, Hebrews 13:8." },
-      { "type": "Establishing the fleeting work of our hands, verse 17", "fulfillment": "Fulfilled in Christ's finished work, which secures that labor done in the Lord is never in vain, 1 Corinthians 15:58." }
+      {
+        "type": "The dwelling place of God, Psalm 90:1",
+        "fulfillment": "Israel had no fixed home in the wilderness and found its settled point in God, who also lived among them in the tabernacle, Exodus 25:8. The correspondence reaches its peak in Christ, of whom John says the Word 'made His dwelling among us,' John 1:14, and who called His own body the temple, John 2:19-21. Believers do not now find a place to live in a building but in a Person: 'Remain in Me, and I will remain in you,' John 15:4. The type falls short in that the tabernacle was carried and could be left behind, while those in Christ cannot be moved out of Him, Romans 8:38-39."
+      },
+      {
+        "type": "Moses the man of God in the breach",
+        "fulfillment": "Moses stood before God 'in the breach to divert His wrath,' Psalm 106:23, and his prayer in Psalm 90 is the prayer of a mediator who bears the people's sorrow as his own. Jesus is the greater Moses, counted worthy of greater glory, Hebrews 3:3, and He 'always lives to intercede' for those who come to God through Him, Hebrews 7:25. The correspondence is the standing between an angry holiness and a needy people. The pattern breaks because Moses could plead only for mercy, while Christ turned the wrath aside by bearing it, Galatians 3:13."
+      },
+      {
+        "type": "Return to dust and the man of dust, Psalm 90:3",
+        "fulfillment": "The sentence of Genesis 3:19 falls on everyone who descends from Adam, and Paul names the two heads of humanity: 'The first man was of the dust of the earth, the second man from heaven,' 1 Corinthians 15:47. Christ entered the dust of death and rose, so that 'just as we have borne the likeness of the earthly man, so also shall we bear the likeness of the heavenly man,' 1 Corinthians 15:49. The type is the universal rule of dust; its escalation is a rule that has been broken from the inside. The type still runs until the last day, when the final enemy is removed."
+      },
+      {
+        "type": "Satisfied in the morning, Psalm 90:14",
+        "fulfillment": "The psalm's prayer, 'Satisfy us in the morning,' has a striking echo in the Gospels: 'On the first day of the week, very early in the morning, the women came to the tomb,' Luke 24:1. This is an echo and not a declared fulfilment, since no Gospel quotes the verse. But the pattern is a true one: a night of grief, then a morning of loving devotion, Psalm 30:5. The escalation is that the morning of the resurrection is not a fresh day in the old world but the first day of the new creation, which is why the joy it brings does not fade by evening."
+      }
     ],
-    "christ": "Moses mourns a mortal life consumed by God's righteous anger against sin, the wages of sin being death, Romans 6:23. Christ, the eternal Son, entered fully into human frailty, and by His death and resurrection broke the power of death this psalm laments, 1 Corinthians 15:54-57, so that those united to Him have a dwelling place, a wisdom, and an enduring work that outlasts every fleeting mortal day.",
-    "god": "God is eternal, existing before the mountains were born and beyond every generation, yet He is also the righteous Judge whose anger at sin is real and terrifying. He is equally the compassionate LORD who can be asked to relent, to satisfy His people each morning with steadfast love, and to give their brief lives lasting purpose.",
+    "christ": "Psalm 90 does not name the Messiah, and it would be a mistake to make it a prediction. What it does is leave three great questions open, and the New Testament answers each one in Christ. The first question is how a mortal people can have a dwelling place that outlasts them. The second is what becomes of the anger that sets our secret sins in the light. The third is whether the work of our hands can be made to last.\n\nOn the first, John writes that the Word \"became flesh and made His dwelling among us,\" John 1:14, and Jesus speaks of the temple of His body, John 2:19-21. The Son shares the eternity of verse 2, for \"before Abraham was born, I am,\" John 8:58, and Hebrews gives Him the words the Psalter used of the everlasting LORD, Hebrews 1:10-12. The One who was God's dwelling before the mountains were born has become a man in whom mortals can dwell: \"Remain in Me, and I will remain in you,\" John 15:4.\n\nOn the second, verse 8 is the hardest line in the psalm: \"You have set our iniquities before You, our secret sins in the light of Your presence.\" The gospel does not deny that line. It says where the light fell. \"God made Him who knew no sin to be sin on our behalf,\" 2 Corinthians 5:21, and \"Christ redeemed us from the curse of the law by becoming a curse for us,\" Galatians 3:13. In Gethsemane the Son asked that the cup pass and then took it, Matthew 26:39. The consequence is stated in one sentence: \"there is now no condemnation for those who are in Christ Jesus,\" Romans 8:1. The consuming anger of verse 7 is real, and it has been spent.\n\nOn the third, Moses asks that God's work be shown to His servants and His splendor to their children, verse 16. John writes, \"We have seen His glory,\" and Jesus prays, \"I have glorified You on earth by accomplishing the work You gave Me to do,\" John 1:14 and 17:4. Jesus also numbered His days. \"While it is daytime, we must do the works of Him who sent Me. Night is coming,\" John 9:4. He is the wise man of verse 12 in the fullest sense, for He is \"the power of God and the wisdom of God,\" 1 Corinthians 1:24. Because He rose, Paul can write that the labour of those in Him is \"not in vain,\" 1 Corinthians 15:58, which is the answer to verse 17 in one line.\n\nA caution keeps the reading honest. Moses is praying for Israel and does not see the cross. The link is that Christ supplies what the prayer asks for, not that Moses secretly meant Him. The psalm remains the prayer of a mortal, and it comes to full strength only when heard beside the One who took mortality on and overcame it.",
+    "god": "The psalm's first word about God is that He is a place. To say \"Lord, You have been our dwelling place\" is to say that before anything else about Him is named, He is where His people live. Verse 2 pushes the thought back beyond all beginnings: before the mountains were born, \"from everlasting to everlasting You are God.\" The psalm does not try to explain eternity. It only contrasts it with a life that can be measured in sleep and grass, and the contrast is where worship begins.\n\nGod is sovereign over death in verse 3. The mortal goes back to dust because God says so, and the sentence is not an accident of nature. Verse 4 shows that He is not bound by time as we are. Peter draws the pastoral point that this is why delay is not neglect: \"The Lord is not slow in keeping His promise... but is patient with you,\" 2 Peter 3:8-9.\n\nThe psalm is unusually bold about God's anger. It does not soften it. It says that our iniquities, even the secret ones, are set \"in the light of Your presence,\" and that no one has measured the power of His wrath, verse 11. This is the anger of a holy God who is faithful to what He has said, and it fits what Moses heard at Sinai, that the LORD is \"slow to anger\" and yet \"will by no means leave the guilty unpunished,\" Exodus 34:6-7.\n\nThe same God can be asked to return and to relent. The psalm holds two truths that we tend to divide: God is angry, and God is approachable. Psalm 30:5 states them in one line, \"His anger is fleeting, but His favor lasts a lifetime,\" and Psalm 103:17 sets the loving devotion that runs from everlasting to everlasting against the passing grass. The tension is not resolved inside the psalm. It is resolved at the cross.\n\nThis God is also a giver of meaning. The prayer of verse 17 asks Him to put His own firmness under human labour, and the prayer is heard, because He is the God who makes things last.\n\nFor worship, the psalm teaches a pattern to follow: say who God is, say the truth about ourselves, and then ask boldly. It invites God's people to come with their grief undisguised and their hope fixed on Him. It also slows the pace of a hurried life, since the honest counting of our days is what teaches us to love the One who does not count them.",
     "crossReferences": [
-      { "ref": "2 Peter 3:8", "note": "Directly cites this psalm's truth that a day is like a thousand years to the Lord, and a thousand years like a day." },
-      { "ref": "James 4:14", "note": "Echoes this psalm's picture of human life as fleeting, like a mist that appears for a little while and vanishes." },
-      { "ref": "1 Corinthians 15:54-58", "note": "Answers this psalm's lament over death and futile labor with the promise of resurrection victory and labor that is never in vain." }
+      {
+        "ref": "Genesis 3:19",
+        "note": "The sentence that verse 3 takes up: 'to dust you shall return.' Moses hears God's word to Adam still sounding over every grave in the camp, and he treats the wilderness deaths as part of that old sentence, not as an unrelated disaster."
+      },
+      {
+        "ref": "Deuteronomy 33:27",
+        "note": "Moses' own last blessing calls the eternal God Israel's dwelling place and adds 'underneath are the everlasting arms.' It is the same confession as Psalm 90:1, from the same man, and it shows that the prayer of the psalm rests on a lifetime of knowing God."
+      },
+      {
+        "ref": "Exodus 32:12",
+        "note": "Moses' prayer after the golden calf uses the verb 'relent' that verse 13 echoes as 'have compassion.' He asks the same mercy he once won on Sinai, and the parallel shows that the psalm is the voice of a proven intercessor."
+      },
+      {
+        "ref": "Psalm 89:46-48",
+        "note": "The end of Book III cries 'How long, O LORD?' and 'Remember the briefness of my lifespan.' Psalm 90 begins the next book by answering with eternity. The two psalms sit back to back so that the reader hears the complaint and its first reply together."
+      },
+      {
+        "ref": "Isaiah 40:6-8",
+        "note": "Isaiah's grass that withers is the grass of Psalm 90:5-6, but Isaiah adds what the psalm only hopes for: 'the word of our God stands forever.' Where Moses prays that something might last, the prophet points at the word that already does."
+      },
+      {
+        "ref": "Psalm 103:15-17",
+        "note": "David draws on the same picture of a human life as grass and then answers it in verse 17: 'from everlasting to everlasting the loving devotion of the LORD extends to those who fear Him.' It reads like Psalm 90:14 granted."
+      },
+      {
+        "ref": "2 Peter 3:8-9",
+        "note": "Peter uses verse 4 to correct impatient scoffers. A day and a thousand years are the same to the Lord, so what looks like delay is patience, 'not wanting anyone to perish.' The psalm's line about God's clock becomes a reason to repent and not to doubt."
+      },
+      {
+        "ref": "James 4:14",
+        "note": "James turns the brevity of verses 5 and 6 into a warning for planners: 'You are a mist that appears for a little while and then vanishes.' Like Moses, he wants people to number their days so that they say 'if the Lord wills' and not 'tomorrow we will.'"
+      },
+      {
+        "ref": "Hebrews 1:10-12",
+        "note": "The writer applies Psalm 102's words about the Lord who founded the earth and whose 'years will never end' to the Son. The eternal God of Psalm 90:2 is the same God in whose person the Son is named, which is the New Testament's clearest claim about who Jesus is."
+      },
+      {
+        "ref": "Ephesians 5:15-16",
+        "note": "Paul's 'redeeming the time' is the New Testament form of 'number our days.' Wisdom for him means walking carefully, because the days are evil, and it is the same heart of wisdom that Psalm 90:12 asks God to give."
+      },
+      {
+        "ref": "1 Corinthians 15:58",
+        "note": "Paul closes the great resurrection chapter by saying that the labour of those in the Lord 'is not in vain.' That is the answer to verse 17's prayer that God would establish the work of our hands: resurrection is what gives toil an endpoint."
+      },
+      {
+        "ref": "Revelation 21:3-4",
+        "note": "The dwelling place of God comes to be with man, and death, mourning and pain are gone. The psalm's opening confession and its sorrow are both met at the end of the Bible. God becomes the home of His people, and He wipes away the tears that verses 7 to 11 drew."
+      }
     ],
-    "oneStory": "Moses' prayer contrasts the eternal God with fleeting, sin-judged human life, and asks for wisdom, mercy, and enduring purpose. That prayer is answered in Christ, the eternal One who took on our mortality, conquered the death this psalm mourns, and became the true and lasting dwelling place of His people forever.",
-    "sermon": { "status": "verified", "preacher": "Alistair Begg", "title": "Frail As Summer's Flower", "url": "https://www.truthforlife.org/resources/sermon/frail-summers-flower/", "why": "Preaching directly from Psalm 90, Begg contrasts the brevity of human life with God's eternity, showing that only trust in the provision God has made in Christ allows believers to number their days aright, the very prayer at the heart of this psalm." }
+    "oneStory": "Psalm 90 answers a question that Genesis leaves hanging. After the fall, God said, \"to dust you shall return,\" Genesis 3:19, and the next chapters show it happening. Genesis 5 is a list of long lives that each end the same way, \"and then he died,\" and God in Genesis 6:3 sets the limit at 120 years. Moses, who wrote that history, stands at the end of the line in the wilderness, watching a generation go down into the ground, and he writes the psalm from inside the sentence. His prayer is the first time the Bible gives the fallen world a voice to speak back to God in its mortality.\n\nWhat the psalm sets up is what the rest of Scripture has to supply. Its prayer for God to return is answered in part when a new generation crosses the Jordan, but the deeper longing runs on. Israel's own history repeats the wilderness. Exile is another funeral, and the prophets answer it with Isaiah's word that the grass withers and the word of God stands, Isaiah 40:6-8. The psalm also sets Book IV's hope in motion. The throne of David has fallen, and so Israel is told to seek its dwelling place in the LORD Himself, who reigns.\n\nThe story comes to its centre in Christ. He takes up human dust and in His death carries the anger the psalm names. On the third day, the morning, He rises, and the morning joy of verse 14 finally has a morning that does not turn to evening. He is the dwelling place of His people and they are in Him, and the work they do in Him is not lost, 1 Corinthians 15:58. The church lives in the meantime as Israel lived in the wilderness, in tents, with the land in view, and Hebrews says the same: \"here we do not have a permanent city, but we are looking for the city that is to come,\" Hebrews 13:14.\n\nThe new creation is the psalm answered. John hears the voice say, \"the dwelling place of God is with man, and He will dwell with them,\" Revelation 21:3. The people who began by saying \"Lord, You have been our dwelling place\" find that the Lord has made His dwelling with them. The last enemy is gone, \"there will be no more death or mourning or crying or pain,\" Revelation 21:4, and the labour of hands that Moses asked God to establish is carried into a world that does not fade.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "Alistair Begg",
+      "title": "Frail As Summer's Flower",
+      "url": "https://www.truthforlife.org/resources/sermon/frail-summers-flower/",
+      "why": "Preaching directly from Psalm 90, Begg contrasts the brevity of human life with God's eternity, showing that only trust in the provision God has made in Christ allows believers to number their days aright, the very prayer at the heart of this psalm."
+    }
   },
   "quiz": [
     {
       "q": "How does the psalm describe God in verses 1-2?",
       "options": [
-        { "text": "As the eternal dwelling place of His people, existing from everlasting to everlasting before creation.", "weight": 100, "note": "These verses confess God's eternity, existing before the mountains or the earth were made." },
-        { "text": "As a God who came into being at creation.", "weight": 0, "note": "The psalm explicitly says God existed before the mountains and the earth were formed." },
-        { "text": "As a distant, uninvolved deity.", "weight": 25, "note": "The psalm describes an intimately involved God who is Himself a dwelling place for His people." },
-        { "text": "As the Creator of the mountains and the earth.", "weight": 75, "note": "This is true, part of verse 2, though the fuller point of these verses is God's eternity from everlasting to everlasting, not merely His role as Creator." }
+        {
+          "text": "As the eternal dwelling place of His people, existing from everlasting to everlasting before creation.",
+          "weight": 100,
+          "note": "These verses confess God's eternity, existing before the mountains or the earth were made."
+        },
+        {
+          "text": "As a God who came into being at creation.",
+          "weight": 0,
+          "note": "The psalm explicitly says God existed before the mountains and the earth were formed."
+        },
+        {
+          "text": "As a distant, uninvolved deity.",
+          "weight": 25,
+          "note": "The psalm describes an intimately involved God who is Himself a dwelling place for His people."
+        },
+        {
+          "text": "As the Creator of the mountains and the earth.",
+          "weight": 75,
+          "note": "This is true, part of verse 2, though the fuller point of these verses is God's eternity from everlasting to everlasting, not merely His role as Creator."
+        }
       ]
     },
     {
       "q": "What image does the psalm use in verses 5-6 to describe human life?",
       "options": [
-        { "text": "New grass that springs up in the morning but fades and withers by evening.", "weight": 100, "note": "This vivid image captures the brief, fleeting nature of mortal life." },
-        { "text": "A mighty cedar that stands for centuries.", "weight": 0, "note": "The image used is fragile grass, the opposite of an enduring cedar." },
-        { "text": "An unshakeable mountain.", "weight": 25, "note": "Mountains represent God's eternity in verse 2, not the brevity of human life." },
-        { "text": "Something swept away suddenly, like a dream.", "weight": 75, "note": "This echoes verse 5's 'You sweep them away,' but the specific and vivid image named in verses 5-6 is grass springing up new in the morning and withering by evening." }
+        {
+          "text": "New grass that springs up in the morning but fades and withers by evening.",
+          "weight": 100,
+          "note": "This vivid image captures the brief, fleeting nature of mortal life."
+        },
+        {
+          "text": "A mighty cedar that stands for centuries.",
+          "weight": 0,
+          "note": "The image used is fragile grass, the opposite of an enduring cedar."
+        },
+        {
+          "text": "An unshakeable mountain.",
+          "weight": 25,
+          "note": "Mountains represent God's eternity in verse 2, not the brevity of human life."
+        },
+        {
+          "text": "Something swept away suddenly, like a dream.",
+          "weight": 75,
+          "note": "This echoes verse 5's 'You sweep them away,' but the specific and vivid image named in verses 5-6 is grass springing up new in the morning and withering by evening."
+        }
       ]
     },
     {
       "q": "According to verse 10, what characterizes the length of human days?",
       "options": [
-        { "text": "About seventy or eighty years, yet marked by labor and sorrow, quickly passing.", "weight": 100, "note": "The verse names a typical lifespan and describes it as full of toil that passes swiftly." },
-        { "text": "Hundreds of years for every person without exception.", "weight": 0, "note": "The psalm describes a typical lifespan far shorter than centuries." },
-        { "text": "A life entirely free from trouble.", "weight": 25, "note": "The verse specifically names labor and sorrow as characterizing these years." },
-        { "text": "A short span best measured in decades, not centuries.", "weight": 75, "note": "This is essentially correct, though the verse gives a more specific figure, seventy years, or eighty if we are strong, together with its labor and sorrow." }
+        {
+          "text": "About seventy or eighty years, yet marked by labor and sorrow, quickly passing.",
+          "weight": 100,
+          "note": "The verse names a typical lifespan and describes it as full of toil that passes swiftly."
+        },
+        {
+          "text": "Hundreds of years for every person without exception.",
+          "weight": 0,
+          "note": "The psalm describes a typical lifespan far shorter than centuries."
+        },
+        {
+          "text": "A life entirely free from trouble.",
+          "weight": 25,
+          "note": "The verse specifically names labor and sorrow as characterizing these years."
+        },
+        {
+          "text": "A short span best measured in decades, not centuries.",
+          "weight": 75,
+          "note": "This is essentially correct, though the verse gives a more specific figure, seventy years, or eighty if we are strong, together with its labor and sorrow."
+        }
       ]
     },
     {
       "q": "What does Moses ask God to teach His people in verse 12?",
       "options": [
-        { "text": "To number their days, that they may gain a heart of wisdom.", "weight": 100, "note": "This is the psalm's central petition, connecting honest awareness of life's brevity to genuine wisdom." },
-        { "text": "To ignore the passage of time entirely.", "weight": 0, "note": "The prayer is for careful awareness of time, not for ignoring it." },
-        { "text": "To build a temple as quickly as possible.", "weight": 25, "note": "The request concerns wisdom for living, not a building project." },
-        { "text": "To live each day with careful, deliberate purpose.", "weight": 75, "note": "This is a fair summary of the prayer's intent, though the psalm's exact words ask specifically to number our days so that we gain a heart of wisdom." }
+        {
+          "text": "To number their days, that they may gain a heart of wisdom.",
+          "weight": 100,
+          "note": "This is the psalm's central petition, connecting honest awareness of life's brevity to genuine wisdom."
+        },
+        {
+          "text": "To ignore the passage of time entirely.",
+          "weight": 0,
+          "note": "The prayer is for careful awareness of time, not for ignoring it."
+        },
+        {
+          "text": "To build a temple as quickly as possible.",
+          "weight": 25,
+          "note": "The request concerns wisdom for living, not a building project."
+        },
+        {
+          "text": "To live each day with careful, deliberate purpose.",
+          "weight": 75,
+          "note": "This is a fair summary of the prayer's intent, though the psalm's exact words ask specifically to number our days so that we gain a heart of wisdom."
+        }
       ]
     },
     {
       "q": "How does Christ answer the lament of this psalm over mortality and futile labor?",
       "options": [
-        { "text": "By entering human frailty and, through His resurrection, breaking the power of death, so labor in Him is never in vain.", "weight": 100, "note": "1 Corinthians 15:54-58 directly answers this psalm's lament with the promise of resurrection victory in Christ." },
-        { "text": "By eliminating the need for any prayer about wisdom or mortality.", "weight": 0, "note": "The New Testament deepens rather than eliminates the call to live wisely in light of life's brevity." },
-        { "text": "By extending every believer's earthly lifespan indefinitely.", "weight": 25, "note": "Christ's answer is resurrection life and eternal purpose, not an indefinite extension of mortal years." },
-        { "text": "By assuring believers of resurrection life beyond the grave.", "weight": 75, "note": "This is true and very close to correct, though the fullest connection is 1 Corinthians 15's specific declaration that death is swallowed up in victory through Christ, directly answering this psalm's lament." }
+        {
+          "text": "By entering human frailty and, through His resurrection, breaking the power of death, so labor in Him is never in vain.",
+          "weight": 100,
+          "note": "1 Corinthians 15:54-58 directly answers this psalm's lament with the promise of resurrection victory in Christ."
+        },
+        {
+          "text": "By eliminating the need for any prayer about wisdom or mortality.",
+          "weight": 0,
+          "note": "The New Testament deepens rather than eliminates the call to live wisely in light of life's brevity."
+        },
+        {
+          "text": "By extending every believer's earthly lifespan indefinitely.",
+          "weight": 25,
+          "note": "Christ's answer is resurrection life and eternal purpose, not an indefinite extension of mortal years."
+        },
+        {
+          "text": "By assuring believers of resurrection life beyond the grave.",
+          "weight": 75,
+          "note": "This is true and very close to correct, though the fullest connection is 1 Corinthians 15's specific declaration that death is swallowed up in victory through Christ, directly answering this psalm's lament."
+        }
       ]
     }
   ],
@@ -159,9 +441,21 @@
     "The psalm closes praying that God would establish the work of our hands. What work or labor in your life do you long to know is not in vain, and how does Christ's resurrection answer that longing?"
   ],
   "translationNotes": [
-    { "ref": "Psalm 90 title", "note": "The heading, 'A prayer of Moses the man of God,' links this psalm to Israel's wilderness era, making it likely the oldest psalm in the Psalter." },
-    { "ref": "Psalm 90:4", "note": "This verse is directly cited in 2 Peter 3:8 to describe God's relationship to time as utterly unlike human experience of it." },
-    { "ref": "Psalm 90:17", "note": "Favor can also be rendered beauty, and the verse's closing repetition, 'establish the work of our hands, yes, establish the work of our hands,' emphasizes the psalmist's earnest longing for lasting purpose." }
+    {
+      "ref": "Psalm 90 title",
+      "note": "The heading, 'A prayer of Moses the man of God,' links this psalm to Israel's wilderness era, making it likely the oldest psalm in the Psalter."
+    },
+    {
+      "ref": "Psalm 90:4",
+      "note": "This verse is directly cited in 2 Peter 3:8 to describe God's relationship to time as utterly unlike human experience of it."
+    },
+    {
+      "ref": "Psalm 90:17",
+      "note": "Favor can also be rendered beauty, and the verse's closing repetition, 'establish the work of our hands, yes, establish the work of our hands,' emphasizes the psalmist's earnest longing for lasting purpose."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text obtained via WebSearch and web_fetch from biblehub.com's BSB (Berean Standard Bible), cross-checked against the section map bounds (Psalm 90:1-17, 17 verses). This psalm opens Book IV of the Psalter (Psalms 90-106). Sermon link verified this session via WebSearch and web_fetch confirming Alistair Begg's message 'Frail As Summer's Flower' on Psalm 90 at truthforlife.org." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text obtained via WebSearch and web_fetch from biblehub.com's BSB (Berean Standard Bible), cross-checked against the section map bounds (Psalm 90:1-17, 17 verses). This psalm opens Book IV of the Psalter (Psalms 90-106). Sermon link verified this session via WebSearch and web_fetch confirming Alistair Begg's message 'Frail As Summer's Flower' on Psalm 90 at truthforlife.org."
+  }
 }
