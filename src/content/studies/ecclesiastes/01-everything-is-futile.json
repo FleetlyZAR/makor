@@ -18,9 +18,21 @@
         "note": "everything is futile",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 1, "text": "These are the words of the Teacher, the son of David, king in Jerusalem:" },
-          { "chapter": 1, "n": 2, "text": "“{{hevel|Futility}} of futilities,” says the Teacher, “futility of futilities! Everything is futile!”" },
-          { "chapter": 1, "n": 3, "text": "What does a man {{yitron|gain}} from all his {{amal|labor}}, at which he toils under the sun?" }
+          {
+            "chapter": 1,
+            "n": 1,
+            "text": "These are the words of the Teacher, the son of David, king in Jerusalem:"
+          },
+          {
+            "chapter": 1,
+            "n": 2,
+            "text": "“{{hevel|Futility}} of futilities,” says the Teacher, “futility of futilities! Everything is futile!”"
+          },
+          {
+            "chapter": 1,
+            "n": 3,
+            "text": "What does a man {{yitron|gain}} from all his {{amal|labor}}, at which he toils under the sun?"
+          }
         ]
       },
       {
@@ -28,10 +40,26 @@
         "note": "the generations and the elements",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 4, "text": "Generations come and generations go, but the earth remains forever." },
-          { "chapter": 1, "n": 5, "text": "The sun rises and the sun sets; it hurries back to where it rises." },
-          { "chapter": 1, "n": 6, "text": "The {{ruach|wind}} blows southward, then turns northward; round and round it swirls, ever returning on its course." },
-          { "chapter": 1, "n": 7, "text": "All the rivers flow into the sea, yet the sea is never full; to the place from which the streams come, there again they flow." }
+          {
+            "chapter": 1,
+            "n": 4,
+            "text": "Generations come and generations go, but the earth remains forever."
+          },
+          {
+            "chapter": 1,
+            "n": 5,
+            "text": "The sun rises and the sun sets; it hurries back to where it rises."
+          },
+          {
+            "chapter": 1,
+            "n": 6,
+            "text": "The {{ruach|wind}} blows southward, then turns northward; round and round it swirls, ever returning on its course."
+          },
+          {
+            "chapter": 1,
+            "n": 7,
+            "text": "All the rivers flow into the sea, yet the sea is never full; to the place from which the streams come, there again they flow."
+          }
         ]
       },
       {
@@ -39,19 +67,55 @@
         "note": "the verdict on life under the sun",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 8, "text": "All things are wearisome, more than one can describe; the eye is not satisfied with seeing, nor the ear content with hearing." },
-          { "chapter": 1, "n": 9, "text": "What has been will be again, and what has been done will be done again; there is nothing new under the sun." },
-          { "chapter": 1, "n": 10, "text": "Is there a case where one can say, “Look, this is new”? It has already existed in the ages before us." },
-          { "chapter": 1, "n": 11, "text": "There is no remembrance of those who came before, and those yet to come will not be remembered by those who follow after." }
+          {
+            "chapter": 1,
+            "n": 8,
+            "text": "All things are wearisome, more than one can describe; the eye is not satisfied with seeing, nor the ear content with hearing."
+          },
+          {
+            "chapter": 1,
+            "n": 9,
+            "text": "What has been will be again, and what has been done will be done again; there is nothing new under the sun."
+          },
+          {
+            "chapter": 1,
+            "n": 10,
+            "text": "Is there a case where one can say, “Look, this is new”? It has already existed in the ages before us."
+          },
+          {
+            "chapter": 1,
+            "n": 11,
+            "text": "There is no remembrance of those who came before, and those yet to come will not be remembered by those who follow after."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "hevel": { "language": "Hebrew", "lemma": "hevel", "original": "הבל", "gloss": "Literally vapor or breath, a puff of air that appears and vanishes. It is the keyword of Ecclesiastes, translated futility, meaningless, or fleeting. It does not mean life is worthless, but that life grasped only under the sun is as fleeting and ungraspable as a breath on a cold morning." },
-    "yitron": { "language": "Hebrew", "lemma": "yitron", "original": "יתרון", "gloss": "Gain, profit, advantage, what is left over when the accounts are settled. A commercial word: the Teacher asks what net surplus a person can bank from all their toil under the sun, and finds the ledger empty." },
-    "amal": { "language": "Hebrew", "lemma": "amal", "original": "עמל", "gloss": "Toil, laborious work, and the trouble that comes with it. The word carries the sweat and weariness of Genesis 3, the burdened labor that fills a person's days under the sun." },
-    "ruach": { "language": "Hebrew", "lemma": "ruach", "original": "רוח", "gloss": "Wind, breath, or spirit. Here it is the wind that circles endlessly and arrives nowhere. Later in the book the same word names our striving as a pursuit of the wind, and finally the breath or spirit that returns to God who gave it." }
+    "hevel": {
+      "language": "Hebrew",
+      "lemma": "hevel",
+      "original": "הבל",
+      "gloss": "Literally vapor or breath, a puff of air that appears and vanishes. It is the keyword of Ecclesiastes, translated futility, meaningless, or fleeting. It does not mean life is worthless, but that life grasped only under the sun is as fleeting and ungraspable as a breath on a cold morning."
+    },
+    "yitron": {
+      "language": "Hebrew",
+      "lemma": "yitron",
+      "original": "יתרון",
+      "gloss": "Gain, profit, advantage, what is left over when the accounts are settled. A commercial word: the Teacher asks what net surplus a person can bank from all their toil under the sun, and finds the ledger empty."
+    },
+    "amal": {
+      "language": "Hebrew",
+      "lemma": "amal",
+      "original": "עמל",
+      "gloss": "Toil, laborious work, and the trouble that comes with it. The word carries the sweat and weariness of Genesis 3, the burdened labor that fills a person's days under the sun."
+    },
+    "ruach": {
+      "language": "Hebrew",
+      "lemma": "ruach",
+      "original": "רוח",
+      "gloss": "Wind, breath, or spirit. Here it is the wind that circles endlessly and arrives nowhere. Later in the book the same word names our striving as a pursuit of the wind, and finally the breath or spirit that returns to God who gave it."
+    }
   },
   "study": {
     "basic": {
@@ -65,93 +129,256 @@
       "oneStory": "Ecclesiastes opens the Bible's most honest book about life in a broken world. It names the ache that the rest of Scripture answers: everything under the sun is a passing breath. That verdict is not despair but a signpost, pointing past the endless circling of the sun and the wind to the God above the sun and, in the fullness of time, to Christ, who alone makes our fleeting days count forever."
     },
     "context": {
-      "literary": "The prologue of Ecclesiastes. A prose superscription, 1:1, is followed by the motto in poetic form, 1:2-3, and then a poem on the ceaseless motion of nature, 1:4-11. The structure moves from verdict to illustration to verdict, framing the whole book with the refrain hevel and the horizon phrase under the sun.",
-      "historical": "The Teacher speaks as a Davidic king in Jerusalem with unrivalled wisdom and wealth, the ideal vantage point from which to test whether anything under the sun can satisfy. Wisdom literature across the ancient Near East wrestled with the limits of life and the certainty of death; Ecclesiastes engages those questions from within Israel's faith.",
-      "canonical": "Ecclesiastes stands among the wisdom books, alongside Job and Proverbs, as Israel's reckoning with the hard edges of life. Its refrain of breath and its horizon under the sun set up the whole canon's answer: that lasting hope is found only above the sun, in the God who raises the dead."
+      "literary": "The opening of Ecclesiastes is built like a courtroom opening statement. Verse 1 is a superscription in a third-person voice, naming the speaker by title and lineage. Verse 2 is the motto, in which the root behind 'futile' falls five times in a single verse, and the same words return almost unchanged in 12:8, so the book is wrapped in an inclusio. Verse 3 is the question the whole book will test: what is the gain? Everything after is evidence.\n\nVerses 4 to 11 form a poem, and its movement is worth watching. It begins with generations and the earth, verse 4, passes to the sun, verse 5, the wind, verse 6, and the rivers, verse 7, so that earth, sun, wind and water are all drawn into one picture. The participles pile up in these verses, going, coming, rising, setting, blowing, turning, flowing, so that the reader feels the motion without a destination. Nothing in the picture is broken. That is the sting: the cycle works perfectly and arrives nowhere.\n\nVerse 8 turns from the cosmos to the person. The eye and the ear, the two gates through which a person takes in the world, are never filled. Verses 9 and 10 draw the lesson in two lines of near-identical shape, 'what has been will be again' and 'there is nothing new', and then verse 11 turns the lens on time itself, past and future, and finds no remembrance in either direction.\n\nThe shape of the passage is a circle. It opens with a question about profit and ends with the loss of memory, the last thing that might have seemed profitable. Its rhythm is slow and its vocabulary plain, as if the author wants us to feel weariness before we reach the word for it in verse 8. The Teacher is also teaching in a particular genre. This is wisdom reflection, not law or prophecy, and it argues by observation, 'I have seen', rather than by a command from God.",
+      "historical": "The superscription gives the speaker three markers: 'the Teacher', 'son of David' and 'king in Jerusalem'. The word translated Teacher is qoheleth, a feminine form of a verb tied to assembling a gathering. It sounds like a title of office more than a personal name, which is why the Greek Bible called the book Ekklesiastes, and why the BSB footnote offers 'the Convener', 'the Preacher' or 'leader of the assembly'. Jewish and early Christian tradition identified the figure with Solomon, whose wisdom, wealth and building projects fit the confessions of chapter 2, 1 Kings 4:29-34, and whose reign in Jerusalem the book's first lines recall. Many modern scholars notice features of the Hebrew that seem later and treat the Teacher as a voice speaking in Solomon's role. The book itself never calls him Solomon, and its message does not rest on the answer.\n\nThe world the Teacher describes is the world of the ancient Near East, where wise men reflected on the brevity of life. Egyptian and Mesopotamian writings also pondered death and urged people to enjoy their days while they could. Ecclesiastes belongs in this conversation, but it differs by keeping God in the picture. The Teacher's questions are asked by someone who still believes God is in heaven and that he is on earth, 5:2.\n\nThe concern with remembrance in verse 11 reflects an ancient value. A person lived on through a name, children and a tomb or monument, and Proverbs 10:7 says the name of the righteous is blessed while the name of the wicked rots. To say that nobody is remembered was to take away the nearest thing the ancient world had to immortality.\n\nThe agricultural setting matters as well. Israel lived by the weather, the sun's course and the seasonal streams. Daily observation of these things was not scientific theory but the rhythm of life. The Teacher draws his evidence from what every farmer and shepherd saw outside the door.",
+      "canonical": "The poem of verses 4 to 11 looks back to Genesis. The weariness of toil in verse 3 recalls the sentence in Genesis 3:17-19, where the ground is cursed and a man eats 'by the sweat of your brow' until he returns to the dust. The Teacher is not adding a new idea; he is reading the world through the lens of that sentence. The steady rhythm of sun and season is at the same time the good order God promised after the flood, Genesis 8:22, and the Psalms celebrate the same sun running its course with joy, Psalm 19:4-6. The cycle is gift and burden together, and the Teacher sees the burden because he asks what lasts.\n\nThe word 'futile' has a deep root in Scripture. It is the name Abel bears, Genesis 4:2, a short life breathed out and gone, and Hebrews 11:4 says that by faith he still speaks. It is the word the Psalms use of human life: man is a breath, Psalm 144:4; each man at his best is but a breath, Psalm 39:5; the lowborn and the exalted alike are a vapour, Psalm 62:9. Job says 'my life is but a breath', Job 7:7, and speaks of man as a flower and a fleeting shadow, Job 14:1-2. James uses a similar image: 'You are a mist that appears for a little while and then vanishes,' James 4:14.\n\nThe New Testament picks up the verdict and gives it a cause and a cure. Romans 8:20-21 says creation was subjected to futility in hope that it will be set free, and Romans 8:22 adds that it groans like a woman in labour. Isaiah 40:6-8 puts the human condition and the answer side by side: all flesh is grass, but the word of our God stands forever.\n\nThe Teacher's claim that nothing is new is answered by Isaiah 43:18-19, where God says He is about to do something new, and by Revelation 21:5, where the One on the throne says, 'Behold, I make all things new.' Paul declares that anyone in Christ is a new creation, 2 Corinthians 5:17. The verdict of Ecclesiastes 1 therefore stands as honest observation and is overtaken in the gospel."
     },
     "hermeneutics": {
-      "authorIntent": "To state the book's thesis at the outset, that everything under the sun is hevel, and to press it home with the tireless, fruitless motion of the created order, so that the reader will stop expecting ultimate profit from life on its own terms and begin to look higher.",
-      "descriptionVsPrescription": "These verses describe the world as it is when weighed only under the sun; they do not prescribe cynicism. The abiding truths are that life apart from God yields no lasting profit, that death and forgetting level every human achievement, and that this honest reckoning is meant to drive us to God.",
+      "authorIntent": "The Teacher wants to shake his hearers out of an assumption that the good life can be secured by effort, achievement or being remembered. He begins with the hardest observation, not the gentlest, because a comfortable reader will not listen to anything else. By opening with a motto and a question, he forces everyone to ask what, if anything, will be left when the work is done.\n\nHe is not teaching atheism or despair. The epilogue, 12:9-14, tells the reader that the Teacher was wise and that his words are carefully arranged to guide, and it ends with the call to fear God and keep His commandments, 12:13. So the opening is the first step in an argument whose end is faith. He wants the first hearers to feel the limit of every horizon that does not reach beyond the sun, and then to look for something that does.\n\nHe also wants them to be honest. In a religious culture that could talk easily about blessing, the Teacher gives permission to name what is hard. The sun's circuit and the passing of generations are not hidden from the faithful. Those who trust God do not need to pretend that the world is simpler than it is, and a faith that cannot look at futility has not yet understood what it is trusting God to redeem.",
+      "descriptionVsPrescription": "The opening describes what the Teacher has seen. It is not a command, and it is not a doctrine of God. When he says there is nothing new under the sun, he is stating what it looks like from the vantage of ordinary human observation, and the rest of the Bible shows that this is not the last word. Isaiah 43:19 has God say that He is doing a new thing, which does not contradict Ecclesiastes but places it in a larger frame. The Teacher is right about the horizon he has chosen, 'under the sun', and the book is honest enough to say so.\n\nThis matters for how we apply it. A believer should not conclude that work is pointless, that history is a closed loop or that remembering the dead is wasted effort. Those would be conclusions the Teacher himself resists later, with his repeated advice to enjoy the gifts of God, 2:24, and to remember the Creator, 12:1. The right application of the opening is to let it expose the idols that promise profit under the sun, and then to ask what in our lives rests on something more durable. It is a diagnosis to be taken honestly, not a creed to be recited.",
       "debates": [
         {
-          "question": "What does hevel mean: meaningless and absurd, or fleeting vapor?",
+          "question": "What does hevel mean, and how should it be translated?",
           "views": [
-            { "label": "Meaningless or absurd", "case": "Many read hevel as a verdict of emptiness: life under the sun makes no ultimate sense, its labors are absurd, and the honest observer must admit that nothing finally adds up. This captures the sting of the Teacher's tone and his repeated cry that all is vanity." },
-            { "label": "Fleeting vapor or breath", "case": "The literal sense is a puff of breath, something real but transient and impossible to grasp. On this reading the Teacher is not denying meaning but naming life's brevity and elusiveness: our days and gains slip through the fingers like mist, so they cannot be our final hope." }
+            {
+              "label": "Breath or vapour: life is fleeting",
+              "case": "The literal sense is a puff of breath or mist, as the BSB footnote on verse 2 says. On this reading the point is transience: life passes quickly and leaves nothing to hold. It fits the Psalms, where man is 'a breath', Psalm 144:4, and James 4:14, where life is a mist that vanishes."
+            },
+            {
+              "label": "Futile or meaningless: life has no lasting yield",
+              "case": "Many translations, including the BSB, render the word as 'futile' or 'meaningless' because the Teacher links it so closely to the question of profit in verse 3. Something done under the sun gives no lasting gain, so it is empty. The Greek Bible translates the word with a term that Paul uses in Romans 8:20, which favours the sense of futility."
+            },
+            {
+              "label": "Enigmatic: life does not add up",
+              "case": "A third reading stresses the puzzles. The word describes things that seem to make no sense, such as the righteous perishing and the wicked prospering. Hevel here means that the world cannot be mastered or explained by observation, so that the right response is humility."
+            }
           ],
-          "bearing": "The vapor sense fits the imagery best and keeps the book from mere nihilism: life is not worthless but fleeting, and that is precisely why it cannot bear the weight we put on it and must send us to God."
+          "bearing": "The meanings overlap, and the Teacher plays on all of them. For this passage, the question of verse 3 is about gain, and so futility and transience fit best, but the enigmatic sense becomes more important in the chapters that follow."
         },
         {
-          "question": "Is the Teacher's outlook cynical pessimism or faith facing reality honestly?",
+          "question": "Who is the Teacher, and when was the book written?",
           "views": [
-            { "label": "Cynical pessimism", "case": "The relentless refrain that all is futile, the weariness of the eye and ear, and the erasure of all remembrance can read as a jaded, world weary despair that has given up on finding any point to life." },
-            { "label": "Faith facing reality under the sun", "case": "The Teacher is a believer who refuses pious clichés. He looks squarely at a world subjected to futility and reports it truthfully, precisely so that the reader will stop trusting in life under the sun and turn to fear God, who gives every good gift, as the book itself resolves in 2:24-26 and 12:13." }
+            {
+              "label": "Solomon himself",
+              "case": "The titles 'son of David' and 'king in Jerusalem' fit Solomon, whose wisdom and wealth match the claims of the first two chapters. The Jewish tradition and the early church mostly held this view, and it explains the confidence with which the author speaks of surpassing all who came before in Jerusalem."
+            },
+            {
+              "label": "A later wise man writing in Solomon's voice",
+              "case": "The Hebrew of the book has features that many consider later than Solomon's time, and the author speaks of the king in the past tense in 1:12. On this view the book adopts Solomon as a literary persona, much as other wisdom writings of the ancient world used a royal figure, and the epilogue's third-person comments in 12:9-14 come from a later editor."
+            },
+            {
+              "label": "An open question",
+              "case": "Some readers hold that the text itself does not name Solomon and so we should say only what it says: the Teacher is a son of David who reigned in Jerusalem and whose words were collected by a wise editor."
+            }
           ],
-          "bearing": "Read canonically the honesty is a servant of faith: the darkness is named so that the light above the sun will be sought, and the book will not let us rest in either denial or despair."
+          "bearing": "The message does not depend on the answer. All views agree the book is inspired wisdom, addressed to Israel, and framed so that its hard observations end in the fear of God."
         }
       ]
     },
-    "originalLanguages": "The keynote is hevel, a breath or vapor: real but fleeting, visible but impossible to hold. The Teacher frames the whole book as a search for yitron, profit or surplus, the bottom line left after all the toil is added up, and he finds the account empty under the sun. That toil is amal, laborious and sweat soaked work, the burdened labor of a fallen world. And the ruach, the wind, becomes a living emblem of it all: forever circling, forever returning, never arriving anywhere new.",
+    "originalLanguages": "The double phrase in verse 2, hevel havalim, is a Hebrew way of forming a superlative, as in 'Song of Songs' or 'the Holy of Holies'. It means the most futile of futile things, or the ultimate breath. With the third use of the root in 'everything is futile', the verse names the word five times. The Teacher is hammering one nail.\n\nThe word for 'gain' in verse 3 is yitron, a profit or surplus, a business word for what remains on the ledger after the costs are counted. The question is accountant's language applied to life: when all the labour is totalled, what is left? It is a word the book makes its own, and it will recur in the Teacher's attempts to find a surplus anywhere under the sun.\n\nThe word for 'labor' is amal, toil that is wearying and often troubling. It is the word of Psalm 90:10, where the best of our years is 'toil and trouble', and the Teacher uses it as a label for the work that comes to nothing. Pair it with 'under the sun', tachat hashemesh, a phrase that marks the boundary of the investigation. It is not a statement about where God is, but about the perspective being tested: life seen from the human side of the sky.\n\nIn verse 4 the earth 'remains', a verb that literally means to stand. Generations pass, but the earth stands. The contrast is not that the earth is eternal in the Teacher's mind, since the word 'forever', le'olam, simply means as far as the horizon goes. It gives the point: the stage outlasts the players.\n\nIn verse 5 the sun 'hurries back', from a verb that often means to pant or gasp. The sun is a runner, breathless to reach the place where it begins again, and the image is far from the joy of Psalm 19:5, where the sun runs like a champion rejoicing. The same sun, seen through weariness, becomes a labourer.\n\nVerse 6 uses ruach, the word for wind, breath and spirit. The wind that goes round and round is the same word as the 'wind' the Teacher will say people chase in 1:14. The poem therefore prepares for the later image: the wind that circles without arriving is what a human life resembles when it is pursued apart from God.\n\nIn verse 8, 'all things' translates devarim, a word that can mean both 'words' and 'things'. The ambiguity is useful: the world's speech and the world's affairs are both wearisome. And in verse 11 'remembrance' is zikaron, the noun from the verb to remember, a word associated elsewhere with memorials. The Teacher says there is no memorial for earlier ages, and none will be left for ours.",
     "typology": [
-      { "type": "Creation's ceaseless, fruitless motion", "fulfillment": "The creation subjected to futility, Romans 8:20-21, groaning for the freedom that comes when the children of God are revealed in Christ." },
-      { "type": "The toil and weariness under the sun", "fulfillment": "The curse of Genesis 3 lifted by the last Adam, whose obedient labor and resurrection make our labor not in vain, 1 Corinthians 15:58." },
-      { "type": "Life as a passing breath", "fulfillment": "The eternal life given in Christ, who takes our fleeting days and hides them with God so that they last forever, Colossians 3:3-4." }
+      {
+        "type": "The cursed ground and its weary cycle, Ecclesiastes 1:3-8",
+        "fulfillment": "Adam was told that the ground would yield toil and that he would return to dust, Genesis 3:17-19, and the Teacher describes a world still under that sentence. Paul says creation was subjected to futility in hope, Romans 8:20-21, and groans like a woman in labour, Romans 8:22. In Christ the cycle is broken at its root: He bears the curse, Galatians 3:13, and rises as the firstfruits, 1 Corinthians 15:20. The type falls short because the Teacher can only describe the weariness, while Christ ends the sentence behind it."
+      },
+      {
+        "type": "Abel, the name that means breath, Genesis 4:2",
+        "fulfillment": "The word the Teacher uses for futility is the name of the first man to die. Abel's life was a breath, quickly gone, yet Hebrews 11:4 says that by faith he still speaks. His story prefigures the righteous sufferer whose short life is not lost to God. In Christ the pattern is completed: Hebrews 12:24 says the blood of Jesus speaks a better word than Abel's. The link between the name and the word is plain in Hebrew, though the Teacher himself does not mention Abel."
+      },
+      {
+        "type": "The king who sets out to find what lasts, Ecclesiastes 1:1",
+        "fulfillment": "The Teacher is a son of David and king in Jerusalem, a figure of royal wisdom who nevertheless finds the limit of his own search. Jesus says that 'One greater than Solomon is here,' Matthew 12:42. Where the Teacher exhausts every resource and still asks what is gained, the greater Son of David holds all wisdom and gives life that does not run out. The type is surpassed in power and in outcome, for the Teacher's wisdom ends in a question and Christ's ends in an answer."
+      },
+      {
+        "type": "The earth that remains while generations go, Ecclesiastes 1:4",
+        "fulfillment": "The earth outlasts each generation, but Scripture says it too will be renewed. Isaiah promises new heavens and a new earth, and Peter and John describe them, 2 Peter 3:13 and Revelation 21:1. What Ecclesiastes sees as a stage that stays while actors leave is, in Christ, the place where the redeemed will live. The type is limited because the Teacher only sees the stage as lasting, while the New Testament shows it being made new."
+      }
     ],
-    "christ": "The Teacher describes a world of tireless motion that never arrives, a creation caught in futility. Paul takes up the very word: creation was subjected to futility, the Greek rendering of hevel, in hope that it would be set free, Romans 8:20-21. Jesus steps into this breath-thin world, is Himself made subject to its futility and death, and then rises, breaking the endless circling with something genuinely new under heaven. The sun that only ever returns to where it rose is answered by the Son who goes down into death and comes up into unending life, so that in Him our fleeting labor is finally not in vain.",
-    "god": "God stands at the edge of these opening verses on purpose, for this is the world seen under the sun rather than under heaven. Even so He is the unspoken necessity of the whole poem: only a God above the endless round of nature could give what nature cannot, a gain that outlasts death and a remembrance that never fades. The Teacher's very honesty about a God shaped absence is a summons to seek the God who fills it, the giver of every good and lasting gift.",
+    "christ": "The opening leads to Christ first by the cure it implies. The Teacher's verdict is that nothing under the sun yields lasting gain, and the Bible's answer is that someone has come from above the sun. John says that the Word through whom all things were made became flesh and dwelt among us, John 1:3, 14. The One who stands behind the sun and the wind and the rivers has entered the cycle He made. Hebrews says that in these last days God has spoken to us by His Son, through whom He made the universe, Hebrews 1:1-2. The Teacher's question of verse 3, what is the gain, is met by a person.\n\nIt leads to Christ by the problem of death. The poem of verses 4 to 11 passes over death in silence, but its undertow is the one fact that makes every labour futile: generations go. Genesis 3:19 had said that dust returns to dust. Christ meets that sentence by taking it on Himself and rising. Paul calls Him the firstfruits of those who have fallen asleep, 1 Corinthians 15:20, and says that if our hope in Christ were only for this life we would be the most pitiable of all men, 1 Corinthians 15:19. That is Ecclesiastes put as a conditional: if there is nothing beyond the sun, nothing is gained. The resurrection is the 'beyond the sun'. Paul then adds the line that answers verse 3: your labour in the Lord is not in vain, 1 Corinthians 15:58.\n\nIt leads to Christ by the claim that nothing is new. Isaiah has God say that He is about to do something new, Isaiah 43:19. In Christ the claim becomes concrete: anyone in Him is a new creation, 2 Corinthians 5:17, and the One on the throne says, 'Behold, I make all things new,' Revelation 21:5. The cycle that closes in on itself is opened by the cross and the empty tomb.\n\nIt also leads to Christ by the matter of remembrance. The Teacher says no one is remembered. Yet Jesus tells His disciples that their names are written in heaven, Luke 10:20, and the thief on the cross asks, 'Jesus, remember me,' Luke 23:42. To be remembered by the King is the only remembrance that lasts.\n\nA word of caution keeps the reading honest. Ecclesiastes 1 does not predict Christ by name, and the link is not an allegory of the sun or the rivers. The connection rests on the way the New Testament picks up the language of futility and answers it, and on the deep pattern that the Teacher exposes a need that only the gospel meets. Jesus is the one who enters the world of hevel, becomes a breath Himself in dying, and does not stay in the grave.",
+    "god": "The Teacher barely uses the name of God in this section, and that silence is itself teaching. The picture of a world that runs without arrival is what creation looks like when it is viewed with God left out of the frame. Yet the text allows the reader to see Him at the edges. It is God who made the sun, set the earth to stand and gave the rivers their course, Psalm 104:19, and the endurance of the earth and the faithfulness of the seasons is His promise, Genesis 8:22. The cycle is not chaos. It is ordered, constant and reliable, and the Teacher's complaint is that order is not the same as meaning.\n\nIt shows a God who is faithful even in the cycles. The sun rising again and again is evidence of a Creator who keeps His word. The wearisome part is not the regularity but the human attempt to find ultimate profit in it. Seen from above the sun, the rhythm is a daily proof of covenant faithfulness; seen from below, it is a treadmill. The same facts are given two meanings by the viewpoint.\n\nIt shows a God who is greater than human achievement. The Teacher's line that none are remembered is a reminder that Isaiah 40:6-8 puts differently: all flesh is like grass, and the word of our God stands forever. God alone endures, and the praise of human beings is as fragile as breath. This is a blow to pride and an invitation to humility.\n\nIt shows a God who allows people to feel the limit of the world so that they will look up. The Teacher says later that God has set eternity in the hearts of men, Ecclesiastes 3:11, and that everything God does endures forever so that people will fear Him, 3:14. The dissatisfaction of the eye and ear in verse 8 is not a defect to be fixed by a better distraction. It is a sign that people are made for more than what they see and hear.\n\nFor worship, the opening teaches honesty. We can bring to God the weariness we feel and the fear that nothing lasts. The God of Scripture does not forbid the question, 'What is the gain?' He answers it in His Son. We praise Him as the One who does not grow weary or tired, who alone is remembered forever, and who gives meaning to the work of our hands.",
     "crossReferences": [
-      { "ref": "Genesis 3:17-19", "note": "The ground is cursed and labor becomes toil and sweat, the futility the Teacher observes across creation." },
-      { "ref": "Romans 8:20-21", "note": "Creation was subjected to futility, the same word as hevel, in hope of being set free through Christ." },
-      { "ref": "Psalm 39:4-6", "note": "Each person's life is a mere breath, hevel, an image that undergirds the Teacher's verdict." },
-      { "ref": "1 Corinthians 15:58", "note": "Because Christ is risen, labor in the Lord is not in vain, the gospel answer to life under the sun." }
+      {
+        "ref": "Genesis 3:17-19",
+        "note": "The ground is cursed because of Adam, and he will eat by toil and sweat until he returns to dust. The Teacher's weary description of labour in verse 3 is the long echo of this sentence, and the dust of Genesis 3:19 is the destination behind the passing generations of verse 4."
+      },
+      {
+        "ref": "Genesis 4:2",
+        "note": "Abel, the first man to die, bears the name that the Teacher uses for futility. His life was a short breath. Hebrews 11:4 says he still speaks by faith, which shows that a life that is a breath in earthly terms can be remembered by God."
+      },
+      {
+        "ref": "Genesis 8:22",
+        "note": "After the flood God promised that seedtime and harvest, cold and heat, day and night would never cease as long as the earth endures. The sun and seasons of the Teacher's poem are therefore the faithful gift of a covenant keeping God, even when their endless repeating feels wearying."
+      },
+      {
+        "ref": "Psalm 19:4-6",
+        "note": "The same sun that hurries back in Ecclesiastes 1:5 runs its course here like a champion rejoicing. The two poems describe one phenomenon with two moods, and the difference shows how much depends on whether the sun is read as testimony to God or as a treadmill."
+      },
+      {
+        "ref": "Psalm 39:5-6",
+        "note": "David says each man at his best is but a breath, a phantom that bustles in vain and heaps up riches without knowing who will haul them away. The Psalm shares the Teacher's vocabulary and his verdict, and then turns to hope in the Lord, Psalm 39:7."
+      },
+      {
+        "ref": "Job 7:7",
+        "note": "Job says his life is but a breath. In the mouth of a suffering believer the same word that opens Ecclesiastes becomes a prayer, showing that the Teacher's sense of transience can be spoken honestly to God."
+      },
+      {
+        "ref": "James 4:14",
+        "note": "James describes life as a mist that appears for a little while and then vanishes. He draws a practical lesson, to say 'if the Lord wills' about our plans, James 4:15, which is the pastoral edge of the Teacher's observation."
+      },
+      {
+        "ref": "Romans 8:20-21",
+        "note": "Creation was subjected to futility, not by its own will, in hope that it will be set free. Paul gives the cause and the cure of the Teacher's observation. The weariness of the world is real, but it is temporary and it is oriented toward liberation."
+      },
+      {
+        "ref": "Isaiah 40:6-8",
+        "note": "All flesh is grass and its glory is like a flower, but the word of our God stands forever. It answers the Teacher's claim that no one is remembered by pointing to the one thing that does not pass, and invites the reader to build life on it."
+      },
+      {
+        "ref": "Isaiah 43:18-19",
+        "note": "God says that He is about to do something new, even now it is coming. It contradicts the Teacher's 'nothing new' not by denying his observation but by announcing an act of God that breaks into the cycle. Verse 9 describes what is natural; Isaiah promises what is divine."
+      },
+      {
+        "ref": "1 Corinthians 15:58",
+        "note": "Paul closes his chapter on the resurrection by saying that because of it, labour in the Lord is not in vain. It is the direct answer to the question of verse 3, with the resurrection supplying the gain that nothing under the sun can."
+      },
+      {
+        "ref": "Revelation 21:5",
+        "note": "The One on the throne says, 'Behold, I make all things new.' The final book of the Bible answers the Teacher's 'nothing new' with an announcement from the throne of God, and the end of the old order of sun, sea and tears."
+      }
     ],
-    "oneStory": "Ecclesiastes begins where honest people live: in a world that moves without ceasing and yet seems to go nowhere, where the sun, the wind, and the rivers labor forever and nothing new appears and no one is remembered. This is the Bible naming the ache that the whole story exists to heal. The verdict hevel is not the end but a signpost, turning the reader from life under the sun to the God above it, and finally to Christ, in whom the futile round is broken and the fleeting made to last.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "The opening of Ecclesiastes sits in the story at the point after Eden and before the cross. Genesis 1 and 2 give a world where work was a gift and rest was the goal, and the sun, wind and water were all good. Genesis 3 brings the curse, and from that point the cycles of creation continue under a shadow. The Teacher is the voice of someone who lives east of Eden and wants to know what a person gains from labour when the ground resists and death waits. His poem is a sort of commentary on Genesis 3:17-19 from the perspective of someone who has lived with it.\n\nThe book belongs to the wisdom writings, whose task is to teach people to live in the world as it is. After Proverbs has set out the ordered path of the wise, Ecclesiastes sets out the limits of that path. Proverbs says that diligence leads to prosperity. Ecclesiastes says that even prosperity does not satisfy and that death levels everyone. Together they keep faith from becoming either naive or cynical.\n\nThe story looks ahead to what the Teacher cannot yet see. The prophets promise something new: a new covenant, a new heart, new heavens and a new earth, Isaiah 43:19 and 65:17. The Teacher's honest observation of a world without arrival creates the longing that the prophets' promise answers. The more clearly someone sees the futility, the more eagerly they wait for a God who acts.\n\nThe answer arrives in Christ. He enters the world of toil and dust, grows weary, dies, and is raised as the firstfruits of the new creation, 1 Corinthians 15:20. Because of Him the cycle of birth and death has a break in it. Paul says that creation will be set free and brought into the freedom of the children of God, Romans 8:21, and that believers can labour with the knowledge that their work is not in vain, 1 Corinthians 15:58.\n\nThe new creation is the place where the Teacher's complaints are answered one by one. The earth that stood while generations passed is renewed, and the people who once passed away live in it. The eye and the ear that were never satisfied are filled by the sight and sound of God, and the saints will see His face, Revelation 22:4. The One who said 'I make all things new' ends the weary circling of sun and wind, and no one who belongs to Him will be forgotten.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What does the Teacher mean when he says everything is hevel, futile?",
       "options": [
-        { "text": "That life measured only under the sun is fleeting like a breath and cannot give lasting profit.", "weight": 100, "note": "Hevel pictures a vapor: real but transient, so it cannot bear our ultimate hope." },
-        { "text": "That everything in life is completely pointless and absurd.", "weight": 75, "note": "It captures the sting, but the literal image is fleeting vapor rather than sheer meaninglessness." },
-        { "text": "That material things are bad and should be avoided.", "weight": 25, "note": "The Teacher enjoys good things later; the issue is not that they are evil but that they do not last." },
-        { "text": "That God does not exist and life has no maker.", "weight": 0, "note": "The Teacher is a believer; the book resolves in fearing God and receiving His gifts." }
+        {
+          "text": "That life measured only under the sun is fleeting like a breath and cannot give lasting profit.",
+          "weight": 100,
+          "note": "Hevel pictures a vapor: real but transient, so it cannot bear our ultimate hope."
+        },
+        {
+          "text": "That everything in life is completely pointless and absurd.",
+          "weight": 75,
+          "note": "It captures the sting, but the literal image is fleeting vapor rather than sheer meaninglessness."
+        },
+        {
+          "text": "That material things are bad and should be avoided.",
+          "weight": 25,
+          "note": "The Teacher enjoys good things later; the issue is not that they are evil but that they do not last."
+        },
+        {
+          "text": "That God does not exist and life has no maker.",
+          "weight": 0,
+          "note": "The Teacher is a believer; the book resolves in fearing God and receiving His gifts."
+        }
       ]
     },
     {
       "q": "What is the point of the images of the sun, the wind, and the rivers?",
       "options": [
-        { "text": "They move ceaselessly yet arrive nowhere new, picturing a world of tireless motion without lasting gain.", "weight": 100, "note": "Creation labors endlessly and returns to its starting point, mirroring human toil under the sun." },
-        { "text": "They show how beautiful and orderly the natural world is.", "weight": 75, "note": "There is order, but the Teacher's point is the wearying, going nowhere repetition." },
-        { "text": "They teach that nature is more reliable than people.", "weight": 25, "note": "The comparison is about futile motion, not nature's reliability over humans." },
-        { "text": "They prove that the earth will last forever and never change.", "weight": 0, "note": "The images serve the theme of fruitless repetition, not a doctrine of the earth's permanence." }
+        {
+          "text": "They move ceaselessly yet arrive nowhere new, picturing a world of tireless motion without lasting gain.",
+          "weight": 100,
+          "note": "Creation labors endlessly and returns to its starting point, mirroring human toil under the sun."
+        },
+        {
+          "text": "They show how beautiful and orderly the natural world is.",
+          "weight": 75,
+          "note": "There is order, but the Teacher's point is the wearying, going nowhere repetition."
+        },
+        {
+          "text": "They teach that nature is more reliable than people.",
+          "weight": 25,
+          "note": "The comparison is about futile motion, not nature's reliability over humans."
+        },
+        {
+          "text": "They prove that the earth will last forever and never change.",
+          "weight": 0,
+          "note": "The images serve the theme of fruitless repetition, not a doctrine of the earth's permanence."
+        }
       ]
     },
     {
       "q": "What does under the sun signal in these verses?",
       "options": [
-        { "text": "Life viewed on its own terms, on the horizontal plane, apart from God above.", "weight": 100, "note": "It marks the vantage point from which everything looks futile, the world without reference to heaven." },
-        { "text": "The daytime hours when people do their work.", "weight": 25, "note": "It is a figure for the earthly sphere of life, not literally daylight working hours." },
-        { "text": "The hot climate of the ancient Near East.", "weight": 0, "note": "It is a theological horizon, not a comment on weather." },
-        { "text": "Life lived in the presence and gift of God.", "weight": 75, "note": "That is under heaven, the answer the book moves toward, not the under the sun horizon itself." }
+        {
+          "text": "Life viewed on its own terms, on the horizontal plane, apart from God above.",
+          "weight": 100,
+          "note": "It marks the vantage point from which everything looks futile, the world without reference to heaven."
+        },
+        {
+          "text": "The daytime hours when people do their work.",
+          "weight": 25,
+          "note": "It is a figure for the earthly sphere of life, not literally daylight working hours."
+        },
+        {
+          "text": "The hot climate of the ancient Near East.",
+          "weight": 0,
+          "note": "It is a theological horizon, not a comment on weather."
+        },
+        {
+          "text": "Life lived in the presence and gift of God.",
+          "weight": 75,
+          "note": "That is under heaven, the answer the book moves toward, not the under the sun horizon itself."
+        }
       ]
     },
     {
       "q": "How should we read the Teacher's bleak opening within the whole Bible?",
       "options": [
-        { "text": "As an honest diagnosis of life apart from God, meant to drive us to seek Him.", "weight": 100, "note": "The darkness is named truthfully so that the reader will look above the sun to God." },
-        { "text": "As one faithful believer refusing easy answers about a hard world.", "weight": 75, "note": "True and important, though it understates that the diagnosis is aimed at turning us to God." },
-        { "text": "As proof that the Bible teaches despair.", "weight": 25, "note": "The book resolves in fearing God and enjoying His gifts; despair is the problem it addresses." },
-        { "text": "As a mistake later corrected by happier books.", "weight": 0, "note": "Ecclesiastes belongs in the canon by design; its honesty prepares for the gospel." }
+        {
+          "text": "As an honest diagnosis of life apart from God, meant to drive us to seek Him.",
+          "weight": 100,
+          "note": "The darkness is named truthfully so that the reader will look above the sun to God."
+        },
+        {
+          "text": "As one faithful believer refusing easy answers about a hard world.",
+          "weight": 75,
+          "note": "True and important, though it understates that the diagnosis is aimed at turning us to God."
+        },
+        {
+          "text": "As proof that the Bible teaches despair.",
+          "weight": 25,
+          "note": "The book resolves in fearing God and enjoying His gifts; despair is the problem it addresses."
+        },
+        {
+          "text": "As a mistake later corrected by happier books.",
+          "weight": 0,
+          "note": "Ecclesiastes belongs in the canon by design; its honesty prepares for the gospel."
+        }
       ]
     },
     {
       "q": "How does the New Testament pick up the word futility from Ecclesiastes?",
       "options": [
-        { "text": "Paul says creation was subjected to futility in hope of being set free through Christ, Romans 8:20-21.", "weight": 100, "note": "The Greek word echoes hevel; Christ's resurrection is the promised liberation." },
-        { "text": "Paul says labor in the Lord is not in vain because Christ is risen.", "weight": 75, "note": "A true and related answer, 1 Corinthians 15:58, though Romans 8 uses the very word for futility." },
-        { "text": "Jesus repeats that everything is meaningless and leaves it there.", "weight": 25, "note": "Jesus enters the futility to break it; He does not simply restate the problem." },
-        { "text": "The New Testament never touches the theme again.", "weight": 0, "note": "It engages it directly in Romans 8 and 1 Corinthians 15." }
+        {
+          "text": "Paul says creation was subjected to futility in hope of being set free through Christ, Romans 8:20-21.",
+          "weight": 100,
+          "note": "The Greek word echoes hevel; Christ's resurrection is the promised liberation."
+        },
+        {
+          "text": "Paul says labor in the Lord is not in vain because Christ is risen.",
+          "weight": 75,
+          "note": "A true and related answer, 1 Corinthians 15:58, though Romans 8 uses the very word for futility."
+        },
+        {
+          "text": "Jesus repeats that everything is meaningless and leaves it there.",
+          "weight": 25,
+          "note": "Jesus enters the futility to break it; He does not simply restate the problem."
+        },
+        {
+          "text": "The New Testament never touches the theme again.",
+          "weight": 0,
+          "note": "It engages it directly in Romans 8 and 1 Corinthians 15."
+        }
       ]
     }
   ],
@@ -163,9 +390,21 @@
     "Paul says creation was subjected to futility in hope. Where do you need the hope of Christ's resurrection to break into a place that feels stuck and fruitless this week?"
   ],
   "translationNotes": [
-    { "ref": "Ecclesiastes 1:2", "note": "Futility translates hevel, literally vapor or breath. The doubled phrase futility of futilities is a Hebrew way of saying the utmost, the very height of fleetingness, like holy of holies for the holiest place." },
-    { "ref": "Ecclesiastes 1:3", "note": "Under the sun recurs throughout the book as the horizon phrase for life on the earthly plane, weighed on its own terms apart from God above; it is answered by under heaven and by the God who gives." },
-    { "ref": "Ecclesiastes 1:6", "note": "The word for wind is ruach, which also means breath or spirit. Its endless circling here anticipates the recurring verdict that human striving is a pursuit of the wind." }
+    {
+      "ref": "Ecclesiastes 1:2",
+      "note": "Futility translates hevel, literally vapor or breath. The doubled phrase futility of futilities is a Hebrew way of saying the utmost, the very height of fleetingness, like holy of holies for the holiest place."
+    },
+    {
+      "ref": "Ecclesiastes 1:3",
+      "note": "Under the sun recurs throughout the book as the horizon phrase for life on the earthly plane, weighed on its own terms apart from God above; it is answered by under heaven and by the God who gives."
+    },
+    {
+      "ref": "Ecclesiastes 1:6",
+      "note": "The word for wind is ruach, which also means breath or spirit. Its endless circling here anticipates the recurring verdict that human striving is a pursuit of the wind."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Ecclesiastes 1:1-11. Poetic lines rendered as flowing prose within each verse." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Ecclesiastes 1:1-11. Poetic lines rendered as flowing prose within each verse."
+  }
 }
