@@ -18,7 +18,11 @@
         "note": "how is your beloved better",
         "emphasis": "",
         "verses": [
-          { "chapter": 5, "n": 9, "text": "How is your beloved better than others, O {{yafah|most beautiful}} among women? How is your beloved better than another, that you charge us so?" }
+          {
+            "chapter": 5,
+            "n": 9,
+            "text": "How is your beloved better than others, O {{yafah|most beautiful}} among women? How is your beloved better than another, that you charge us so?"
+          }
         ]
       },
       {
@@ -26,13 +30,41 @@
         "note": "outstanding among ten thousand, altogether lovely",
         "emphasis": "",
         "verses": [
-          { "chapter": 5, "n": 10, "text": "My {{dodi|beloved}} is dazzling and ruddy, outstanding among ten thousand." },
-          { "chapter": 5, "n": 11, "text": "His head is purest gold; his hair is wavy and black as a raven." },
-          { "chapter": 5, "n": 12, "text": "His eyes are like doves beside the streams of water, bathed in milk and mounted like jewels." },
-          { "chapter": 5, "n": 13, "text": "His cheeks are like beds of spice, towers of perfume. His lips are like lilies, dripping with flowing myrrh." },
-          { "chapter": 5, "n": 14, "text": "His arms are rods of gold set with beryl. His body is polished ivory bedecked with sapphires." },
-          { "chapter": 5, "n": 15, "text": "His legs are pillars of marble set on bases of pure gold. His appearance is like Lebanon, as majestic as the cedars." },
-          { "chapter": 5, "n": 16, "text": "His mouth is most sweet; he is altogether lovely. This is my beloved, and this is my {{rea|friend}}, O daughters of Jerusalem." }
+          {
+            "chapter": 5,
+            "n": 10,
+            "text": "My {{dodi|beloved}} is dazzling and ruddy, outstanding among ten thousand."
+          },
+          {
+            "chapter": 5,
+            "n": 11,
+            "text": "His head is purest gold; his hair is wavy and black as a raven."
+          },
+          {
+            "chapter": 5,
+            "n": 12,
+            "text": "His eyes are like doves beside the streams of water, bathed in milk and mounted like jewels."
+          },
+          {
+            "chapter": 5,
+            "n": 13,
+            "text": "His cheeks are like beds of spice, towers of perfume. His lips are like lilies, dripping with flowing myrrh."
+          },
+          {
+            "chapter": 5,
+            "n": 14,
+            "text": "His arms are rods of gold set with beryl. His body is polished ivory bedecked with sapphires."
+          },
+          {
+            "chapter": 5,
+            "n": 15,
+            "text": "His legs are pillars of marble set on bases of pure gold. His appearance is like Lebanon, as majestic as the cedars."
+          },
+          {
+            "chapter": 5,
+            "n": 16,
+            "text": "His mouth is most sweet; he is altogether lovely. This is my beloved, and this is my {{rea|friend}}, O daughters of Jerusalem."
+          }
         ]
       },
       {
@@ -40,17 +72,44 @@
         "note": "I belong to my beloved and he belongs to me",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 6, "n": 1, "text": "Where has your beloved gone, O most beautiful among women? Which way has he turned? We will seek him with you." },
-          { "chapter": 6, "n": 2, "text": "My beloved has gone down to his garden, to the beds of spices, to pasture his flock in the gardens and to gather lilies." },
-          { "chapter": 6, "n": 3, "text": "I belong to my beloved and he belongs to me; he pastures his flock among the lilies." }
+          {
+            "chapter": 6,
+            "n": 1,
+            "text": "Where has your beloved gone, O most beautiful among women? Which way has he turned? We will seek him with you."
+          },
+          {
+            "chapter": 6,
+            "n": 2,
+            "text": "My beloved has gone down to his garden, to the beds of spices, to pasture his flock in the gardens and to gather lilies."
+          },
+          {
+            "chapter": 6,
+            "n": 3,
+            "text": "I belong to my beloved and he belongs to me; he pastures his flock among the lilies."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "yafah": { "language": "Hebrew", "lemma": "yafah", "original": "יָפָה", "gloss": "Beautiful, fair. The daughters address the bride as the most beautiful among women even as they press her question; her beauty is not in doubt, only whether her beloved is worth such devotion." },
-    "dodi": { "language": "Hebrew", "lemma": "dod", "original": "דּוֹדִי", "gloss": "My beloved. The bride's recurring name for the man, literally my love or my dear one. It runs through the Song as the language of settled, mutual belonging, my beloved is mine and I am his." },
-    "rea": { "language": "Hebrew", "lemma": "rea", "original": "רֵעַ", "gloss": "Friend, companion. At the end of her praise the bride says, this is my beloved, and this is my friend, joining passion and friendship: the one she desires is also the one she most delights to be with." }
+    "yafah": {
+      "language": "Hebrew",
+      "lemma": "yafah",
+      "original": "יָפָה",
+      "gloss": "Beautiful, fair. The daughters address the bride as the most beautiful among women even as they press her question; her beauty is not in doubt, only whether her beloved is worth such devotion."
+    },
+    "dodi": {
+      "language": "Hebrew",
+      "lemma": "dod",
+      "original": "דּוֹדִי",
+      "gloss": "My beloved. The bride's recurring name for the man, literally my love or my dear one. It runs through the Song as the language of settled, mutual belonging, my beloved is mine and I am his."
+    },
+    "rea": {
+      "language": "Hebrew",
+      "lemma": "rea",
+      "original": "רֵעַ",
+      "gloss": "Friend, companion. At the end of her praise the bride says, this is my beloved, and this is my friend, joining passion and friendship: the one she desires is also the one she most delights to be with."
+    }
   },
   "study": {
     "basic": {
@@ -64,86 +123,256 @@
       "oneStory": "When the world asks the church what makes her Lord worth such devotion, she answers as the bride does, with confident praise of the one who is altogether lovely, her beloved and her friend, and rests in the certainty that she is His and He is hers."
     },
     "context": {
-      "literary": "A dialogue that turns into a wasf, a descriptive praise poem, this time the bride praising the man, the only sustained portrait of the bridegroom in the Song. It is framed by the friends' question at 5:9 and their offer at 6:1, and it closes with the refrain of mutual belonging at 6:3, which echoes 2:16.",
-      "historical": "The praise draws on the wealth and craft of the ancient world: purest gold, beryl and sapphires, polished ivory, pillars of marble, and the cedars of Lebanon. To liken the beloved to such things is to say he is precious, strong, and kingly, the finest imaginable.",
-      "canonical": "The confident testimony to a surpassing beloved runs through Scripture, from the king fairer than the sons of men in Psalm 45, to the one altogether lovely here, to the Lamb who alone is worthy in Revelation. The refrain I am my beloved's and my beloved is mine anticipates the covenant bond of Christ and His church."
+      "literary": "The passage is built like a conversation with a pivot in the middle. It opens with a question from the chorus in 5:9, repeated in two parts, and it ends with a second question in 6:1. Between the two stands the bride's long answer, and after the second question comes a shorter one. The pattern is question, answer, question, answer, with the second answer far briefer than the first and far more settled.\n\nThe friends' question quietly depends on what has just happened. They ask 'that you charge us so', which refers back to the oath of 5:8, where she made them swear to tell her beloved she was faint with love. They are asking, in effect, what could be worth such an oath. Her reply is the only extended portrait of the man in the Song, so it should be read against the poems in which he praises her, 4:1-7 and 6:4-10 and 7:1-9. His praise of her draws from animals and landscapes, and hers of him is mostly metal, stone and architecture: gold, ivory, sapphire, marble. She sees him as something wrought and valuable, almost as a statue, and yet the portrait ends not on a feature but on his mouth and then on a relationship.\n\nThe two answers that follow are very different in tone. The long answer is poetry. The short answer in 6:2-3 is calm and nearly plain. She no longer needs to describe him because she knows where he is, and the passage ends with the refrain 'I belong to my beloved and he belongs to me', a reversal of the order in 2:16, where she said first 'My beloved is mine' and then 'I am his'. The poem therefore moves from describing his worth to resting in a belonging that has become the stronger thought.",
+      "historical": "The materials of the portrait are the materials of the ancient craftsman and the royal court. Gold was refined for temples and thrones, ivory was carved for palaces, and Solomon's throne was made of ivory overlaid with gold, 1 Kings 10:18. The 'sapphire' of verse 14 is a deep blue stone, probably what we would call lapis, and Exodus 24:10 describes a pavement of sapphire under the feet of the God of Israel. The 'marble' of verse 15 is the white stone also used for the pillars of the Persian king's palace in Esther 1:6. To the first hearers, a man described in these terms was dignified, strong and costly, a living monument.\n\nThe description of the head and coloring would also have been familiar. 'Ruddy' is the word used of the young David when Samuel sees him, 1 Samuel 16:12, and the pairing of a dazzling whiteness with a ruddy glow appears in Lamentations 4:7 in the description of Zion's dignitaries. The hair 'black as a raven' marks youth and vigor, and the cedars of Lebanon were the standard of height and majesty in the region.\n\nThe daughters of Jerusalem are a chorus, probably the women of the city who attend the bride and stand beside her at the wedding. They address her by the same title the bridegroom used, 'most beautiful among women,' as in 1:8 and 6:1, and by offering to search with her in 6:1 they show how a community of friends shared in the joys and troubles of courtship and marriage.\n\nFinally, the gardens and the flock of 6:2 belong to a world where a king or a prince might keep both, and where a shepherd's work, gathering lilies and feeding sheep, was an image of attentive care that Israel applied to its leaders.",
+      "canonical": "Within the Song, this poem links to several earlier lines. The question of 5:9 echoes 1:8, where the bride is first called the most beautiful of women. The refrain of 6:3 turns the order of 2:16 around, and the book's third form of the refrain, 'I belong to my beloved, and his desire is for me,' comes in 7:10. The word for desire in that last line occurs only three times in the Old Testament, here, in Genesis 3:16 and in Genesis 4:7, and in the Song it is the opposite of the broken desire of the fall: a desire that belongs to him and is returned. The reader who has followed the Song to this point finds the curse's tension reversed.\n\nThe language of praise for the beloved is used of the Lord elsewhere. Psalm 45:2 says to the king, 'You are the most handsome of men; grace has anointed your lips.' John's vision of the risen Christ in Revelation 1:13-16 uses similar materials: a golden sash, feet like polished bronze, a face like the sun. Isaiah 53:2 stands in tension with these, since the Servant had no stately form or beauty that we should desire Him, and the New Testament holds both: the cross hides what the resurrection reveals.\n\nThe friend language of verse 16 joins a long biblical line. The LORD spoke to Moses 'face to face, as a man speaks to his friend,' Exodus 33:11, and Jesus says 'I have called you friends,' John 15:15. The bride's explanation of why her beloved is better is also what Paul says in Philippians 3:8, that he counts all things loss 'compared to the surpassing excellence of knowing Christ Jesus my Lord'. The testimony before outsiders is taken up in 1 Peter 3:15, where believers are told to give a defense to everyone who asks the reason for their hope."
     },
     "hermeneutics": {
-      "authorIntent": "To show love giving a glad reason for itself: when challenged to say why her beloved surpasses all others, the bride answers with wholehearted praise and rests in settled, mutual belonging.",
-      "descriptionVsPrescription": "The passage describes the bride's praise rather than commanding it, yet it models something abiding: love that can speak well and confidently of the one it loves, and that finds its security in belonging to and being loved by the beloved.",
+      "authorIntent": "The poet means to show a woman who loves with her mind as well as her heart. The friends press her for reasons, and she gives them. Love in the Song is not a blind impulse: it can speak about its object, name his qualities and tell the truth about why he is worth the cost. The hearers are being taught that a person's praise of a spouse is a form of honor, and that giving reasons for love is part of loving well.\n\nThe poem also means to correct the lopsided impression left by the earlier chapters, where the man praises the woman at length. Here the praise runs the other way, and the book gives her an equal voice and an equal admiration. The first hearers would have been surprised, and the poet wants them to see that delight in a spouse should be mutual.\n\nFinally, the poet wants hearers to feel the movement from question to rest. Her night of longing in 5:2-8 ended in an appeal for help. Here the appeal is answered not by the friends finding him but by her recovered confidence. She knows where he is, and she knows who she is: she belongs to him. The poet is teaching that the way through the ache of absence is remembering who the beloved is and who we are to him.",
+      "descriptionVsPrescription": "The portrait of the beloved is the poet's art and no reader is expected to match it. No man is required to have golden arms or ivory skin, and no wife is obliged to describe her husband in jewels. The language belongs to this couple and to the culture of the Song, and it would be a mistake to turn it into a standard of appearance.\n\nWhat carries over is the practice behind the poetry. A person who loves can give an account of why the beloved is worth loving, and the Bible values such speech. Proverbs 31:28-29 has a husband and children praise the excellent wife, and here a wife praises her husband. Speaking well of a spouse in front of others is a good habit that the passage models.\n\nThe passage also describes and does not command when it speaks of belonging. 'I belong to my beloved and he belongs to me' is a statement of fact in their marriage. It reads as a fitting pattern for any covenant, in which two people give themselves to each other, and it does not instruct a person to give up their identity or their freedom. The mutuality of the line is what makes it safe: each belongs, and neither owns.",
       "debates": [
         {
           "question": "What kind of book is the Song: a celebration of married love, an allegory of Christ and the church, or both?",
           "views": [
-            { "label": "A celebration of covenant married love", "case": "Here a wife answers a plain question with glad praise of her husband and rests in belonging to him; Scripture openly honors such delight and faithfulness within marriage, Proverbs 5:18 to 19 and Genesis 2:24." },
-            { "label": "An allegory of Christ and the church, or God and Israel", "case": "The church has long heard in outstanding among ten thousand and altogether lovely the surpassing beauty of Christ, and in the refrain I am my beloved's the covenant bond, in keeping with Psalm 45 and Ephesians 5." },
-            { "label": "Both, the literal love as a God-given sign", "case": "The wisest reading holds both: the poem truly celebrates a wife's confident love for her husband, and because marriage is a God-given sign of Christ and the church, Ephesians 5:31 to 32, her praise of the one altogether lovely rightly lifts our eyes to Christ." }
+            {
+              "label": "A celebration of covenant married love",
+              "case": "Here a wife answers a plain question with glad praise of her husband and rests in belonging to him; Scripture openly honors such delight and faithfulness within marriage, Proverbs 5:18 to 19 and Genesis 2:24."
+            },
+            {
+              "label": "An allegory of Christ and the church, or God and Israel",
+              "case": "The church has long heard in outstanding among ten thousand and altogether lovely the surpassing beauty of Christ, and in the refrain I am my beloved's the covenant bond, in keeping with Psalm 45 and Ephesians 5."
+            },
+            {
+              "label": "Both, the literal love as a God-given sign",
+              "case": "The wisest reading holds both: the poem truly celebrates a wife's confident love for her husband, and because marriage is a God-given sign of Christ and the church, Ephesians 5:31 to 32, her praise of the one altogether lovely rightly lifts our eyes to Christ."
+            }
           ],
           "bearing": "Holding both keeps the passage honest: it honors a wife's glad testimony to her husband and follows it up to the Beloved who is truly outstanding among ten thousand and altogether lovely."
+        },
+        {
+          "question": "Where has the beloved gone: to a real garden, or to the bride herself?",
+          "views": [
+            {
+              "label": "To a literal garden or the beds of a spice farm",
+              "case": "The text says he has gone down to his garden, to the beds of spices, to pasture his flock and gather lilies. A prince might keep gardens, and a shepherd image fits a man tending sheep, so the verse can be read at face value, as a simple answer to the daughters' question."
+            },
+            {
+              "label": "To the bride, whose body and love are his garden",
+              "case": "Earlier the poem has called her a garden and invited him to 'come into his garden,' 4:16, and he replied 'I have come to my garden,' 5:1. When she says he has gone to his garden she may mean that he is not lost: he is with her, in the place that is his. The search is already over, because the garden is the one she is."
+            },
+            {
+              "label": "Both, a place and a relationship",
+              "case": "The poem allows the image to carry more than one meaning. The garden may be a real place of meeting, and also the word for the shared life of the two, so that her answer is calm in either sense."
+            }
+          ],
+          "bearing": "The second reading explains why she is not anxious in 6:2-3 as she was in 5:6-8. Whichever view one takes, the verse shows a change of heart: the woman who could not find him now knows where he is, and knows that he is hers."
         }
       ]
     },
-    "originalLanguages": "The daughters call the bride yafah, most beautiful, but the question presses on her dodi, her beloved, the name of settled belonging that runs through the Song. She answers with adoring description, gold and jewels and cedar, and lands on the word rea, friend: this is my beloved, and this is my friend, joining desire and companionship in one breath. Then, asked where he is, she needs no search, for she rests in the refrain, I belong to my beloved and he belongs to me, the covenant heartbeat of the whole poem.",
+    "originalLanguages": "The friends call the bride 'most beautiful among women', and the question they put to her uses a small play on words. The Hebrew word for beloved comes from a root meaning to love, and they ask 'what is your beloved more than another beloved?' The repeated word makes the question sound almost like a riddle: what makes this beloved different from any other beloved?\n\nHer answer starts with two colour words, 'dazzling and ruddy'. The first means bright or clear, a word used of sunlit whiteness, and the second means red or ruddy, the word applied to David in 1 Samuel 16:12. Lamentations 4:7 uses the same two ideas together of the dignitaries of Zion, 'brighter than snow, whiter than milk; their bodies more ruddy than rubies,' which suggests that the pair belongs to the Hebrew language of health and beauty. The next word, 'outstanding among ten thousand', gives a number that means a vast multitude. He is one man standing out from a crowd that cannot be counted.\n\nThe head is 'purest gold', and the word used for gold is a poetic term for refined gold, not the common word. The hair is 'wavy', a rare word, and 'black as a raven'. The eyes are doves, a bird already used of her eyes in 1:15 and 4:1, and the picture of doves beside water, bathed in milk and set like jewels, speaks of gentleness, cleanness and value. The cheeks are 'beds of spice' and the lips are 'lilies', yet they drip with myrrh, so that even lips like flowers carry the signature perfume of the Song.\n\nAt the end of the portrait, 'His mouth is most sweet', and the BSB footnote notes that the Hebrew word is palate, so the sweetness of his speech is in view. Then 'he is altogether lovely'. The Hebrew phrase is built on the root for desire, the same root as the word for 'desirable' in Genesis 3:6, where the tree was desirable for obtaining wisdom, and in Psalm 19:10, where God's words are more precious than gold. It is also the root of the command not to covet, Exodus 20:17. The poem takes a word that Scripture often warns about and sets it in the mouth of a wife who may rightly call her husband entirely desirable.\n\nThe title 'friend' is the final word of the portrait. The Hebrew word covers a companion or neighbor and in the Bible is the word of a friend who loves at all times, Proverbs 17:17, and of the friend with whom Moses spoke, Exodus 33:11. A beloved who is a friend is a lover in whom desire and trust are joined.\n\nIn 6:1 the friends use a verb for seeking that has been the verb of the lover's night search in 3:2 and 5:6, and now it is spoken in the plural, 'We will seek him with you.' The solitary search of the night becomes a shared search by day.",
     "typology": [
-      { "type": "The bride asked to say why her beloved is better", "fulfillment": "The church called to give a reason for the hope within her, always ready to testify to her Lord, 1 Peter 3:15." },
-      { "type": "The beloved outstanding among ten thousand, altogether lovely", "fulfillment": "Christ, fairer than the sons of men, in whom all beauty is found, Psalm 45:2 and Colossians 1:19." },
-      { "type": "The refrain, I belong to my beloved and he belongs to me", "fulfillment": "The mutual belonging of Christ and His church, who are His and to whom He gives Himself, John 10:14 and Ephesians 5:29 to 30." }
+      {
+        "type": "The beloved outstanding among ten thousand, 5:10",
+        "fulfillment": "The bride's claim that no one compares to her beloved is made of Christ by the New Testament. He is 'the image of the invisible God, the firstborn over all creation,' and in all things He is to have preeminence, Colossians 1:15-18. Paul counts all things loss for 'the surpassing excellence of knowing Christ Jesus my Lord,' Philippians 3:8. The correspondence is incomparability: there is none like Him. The type falls short because the bride speaks from desire, while the church speaks from a revealed reality, that all things are created through Him and for Him."
+      },
+      {
+        "type": "The beauty of gold, ivory and sapphire, 5:11-15",
+        "fulfillment": "The portrait is the poet's way of describing someone beyond ordinary words. John sees the risen Christ with a golden sash, feet like polished bronze and a face like the sun at its brightest, Revelation 1:13-16, and Psalm 45:2 calls the king 'the most handsome of men'. The correspondence is that glory finds its words in costly materials. The type falls short because Isaiah 53:2 says the Servant had no beauty that we should desire Him; the Christ who is altogether lovely was first despised, and His glory is seen through the cross."
+      },
+      {
+        "type": "This is my beloved and my friend, 5:16",
+        "fulfillment": "The bride's words join love and friendship. Jesus says to His disciples, 'No longer do I call you servants... But I have called you friends,' John 15:15, and the Lord spoke to Moses as a man speaks to his friend, Exodus 33:11. The type pictures a Lord who is both beloved and friend, who can be adored and trusted. It falls short because the Song's friendship is between equals, while the friendship of Christ is the gift of One who laid down His life for His friends, John 15:13."
+      },
+      {
+        "type": "I belong to my beloved, 6:3",
+        "fulfillment": "The settled refrain of belonging is taken up in the New Testament as the believer's confession: 'whether we live or die, we belong to the Lord,' Romans 14:8. Jesus says that His sheep know His voice and that no one can snatch them from His hand, John 10:27-28, and Paul says that nothing 'will be able to separate us from the love of God that is in Christ Jesus our Lord,' Romans 8:39. The type falls short because the Song's belonging is mutual in a marriage, whereas ours is founded on what He did for us."
+      }
     ],
-    "christ": "The bride's answer becomes the church's confession. When the world asks how her beloved is better than any other, she points to the one who is dazzling and ruddy, outstanding among ten thousand, altogether lovely. The church has long borrowed these very words for Christ, the chief among ten thousand, fairer than the sons of men, in whom the fullness of God was pleased to dwell. And she names Him not only Lord but friend, the one who calls His people friends and lays down His life for them. Her rest, I belong to my beloved, is the believer's rest in the covenant love of Christ.",
-    "god": "God does not merely require obedience; He gives His people a Beloved to delight in and welcomes their glad testimony to His worth. He is not embarrassed to be praised with such affection. In Christ He shows Himself both the Lord who is altogether lovely and the friend of sinners who draws near, so that His people can say with confidence, this is my beloved, and this is my friend.",
+    "christ": "The passage leads to Christ by the shape of its question. The daughters ask what makes this beloved better than any other, and the church has been asked the same question for two thousand years. The answer of the Song is not an argument but a portrait, and the Christian answer is likewise a portrait. Colossians 1:15-18 gives the outline: He is the image of the invisible God, the firstborn over creation, the one through whom and for whom all things were made, the head of the church, the one who holds all things together and has first place in everything. When someone asks what makes Jesus different, the believer points to Him, and then adds with the bride, 'This is my beloved, and this is my friend.'\n\nThe praise of the beloved in verse 10, 'outstanding among ten thousand', is realised in Him in a way no human lover could match. Psalm 45:2 says of the king, 'You are the most handsome of men; grace has anointed your lips,' and Hebrews applies that psalm to the Son. John's vision of the risen Christ in Revelation 1 has gold, bronze, white and radiance, and it is natural to hear an echo of the Song's materials in the gold and ivory of the bride's portrait. This is a pattern, not a code. We are not to match each limb with a doctrine; the Song's images are one woman's poetry, and what they offer is the permission to describe the Lord's glory in the finest words we have.\n\nThere is a necessary correction. Isaiah 53:2 says that the Servant had no stately form or majesty, no beauty that we should desire Him. The Lord who is altogether lovely was disfigured for us, and the beauty the church sees is the beauty of the cross as well as the throne. The bride's praise is therefore rooted in His love for her, which is also the reason she can say 'I belong to my beloved.'\n\nThe word 'friend' is deeply Christlike. Jesus says to His disciples 'I have called you friends, because everything I have learned from My Father I have made known to you,' John 15:15, and the friend of the bridegroom is the one who rejoices at His voice, John 3:29. In Him the Lord who is infinitely above us comes close enough to be called friend.\n\nLast, the refrain of belonging reflects the security He gives. 'I give them eternal life, and they will never perish. No one can snatch them out of My hand,' John 10:28. The believer's 'I am my beloved's' rests on His prior 'you are Mine', Isaiah 43:1, and nothing in all creation can separate us from His love, Romans 8:38-39.",
+    "god": "This passage shows a God who is worth speaking about. The poem gives the believer a way of talking about the Lord that is warm, concrete and glad, and the Bible does not shrink from it. Psalm 45:2 praises the king as the most handsome of men, and Psalm 19:10 says of God's words that they are more precious than gold, sweeter than honey from the comb. The same word for desirable that appears in the bride's description appears there, so the Bible teaches that what is lovely in God is truly to be desired. A faith that never speaks of delight has missed something the Scriptures say.\n\nThe passage also shows God as the one who is not exhausted by comparison. The friends ask how the beloved is better than others, and her answer is that there is no other like him. The God of the Bible makes the same claim: He asks in Isaiah 40:25 to whom His people will liken Him. The uniqueness of God is not an arid doctrine but the ground of worship.\n\nThere is a tension the text holds together well, which is that the beloved is both exalted and near. He is gold and marble, a tower of Lebanon cedar, and he is also 'my friend'. God is the same: the high and holy One who is transcendent and yet speaks to His servant as to a friend, Exodus 33:11. The One who is infinitely beyond us does not stay beyond us.\n\nThe scene also shows God as the One who makes belonging possible. The line 'I belong to my beloved and he belongs to me' is a covenant formula in miniature, and the Lord says in Isaiah 43:1, 'I have redeemed you; I have called you by your name; you are Mine!' His people say with Paul that they belong to the Lord, Romans 14:8. The Lord does not give Himself in part, and in giving Himself He asks us to give ourselves.\n\nFor worship, this means we are allowed and encouraged to praise Him in particular terms, to say why He is better, and to say it out loud before others. It also means that when the world asks what is so special about our Lord, we are not meant to be embarrassed. 1 Peter 3:15 says to be ready to give a defense to everyone who asks the reason for our hope, and the Song suggests that the best defense is also the happiest: a testimony of delight.",
     "crossReferences": [
-      { "ref": "1 Peter 3:15", "note": "Always be prepared to give a reason for the hope that is in you, with gentleness and respect, as the bride answers the question put to her." },
-      { "ref": "Psalm 45:2", "note": "The king is fairer than the sons of men, grace poured out on his lips, language echoed in the praise of the altogether lovely beloved." },
-      { "ref": "John 15:14-15", "note": "No longer servants but friends, echoing this is my beloved, and this is my friend." },
-      { "ref": "Song of Solomon 2:16", "note": "My beloved is mine and I am his, the refrain of belonging repeated here at 6:3." }
+      {
+        "ref": "Song of Solomon 2:16",
+        "note": "'My beloved is mine and I am his; he pastures his flock among the lilies.' The refrain first appears here with the man belonging to her before she to him. In 6:3 the order is reversed, so the two verses together show belonging growing from receiving to giving."
+      },
+      {
+        "ref": "Song of Solomon 7:10",
+        "note": "'I belong to my beloved, and his desire is for me.' The third form of the refrain adds his desire, using the rare word found in Genesis 3:16 and 4:7. The Song's belonging answers the broken desire of the fall."
+      },
+      {
+        "ref": "Song of Solomon 4:16",
+        "note": "She invites him to 'come into his garden'. When she later says he has gone down to his garden, 6:2, she is using her own invitation, which explains why she is no longer anxious about where he is."
+      },
+      {
+        "ref": "Psalm 45:2",
+        "note": "The king is the most handsome of men and grace anoints his lips. The psalm is the nearest biblical parallel to the bride's praise and is applied to the Son in Hebrews 1:8-9, which makes it a bridge from the Song to Christ."
+      },
+      {
+        "ref": "Isaiah 53:2",
+        "note": "The Servant had no stately form or beauty that we should desire Him. Set against 'altogether lovely', it shows that Christ's beauty is hidden in the cross and revealed in His resurrection."
+      },
+      {
+        "ref": "Revelation 1:13-16",
+        "note": "The risen Christ appears with a golden sash, feet like bronze, and a face like the sun. His portrait draws on gold and brightness as the bride's does, and shows that Scripture reaches for costly images to describe Him."
+      },
+      {
+        "ref": "Colossians 1:15-18",
+        "note": "Christ is the image of the invisible God, the firstborn over creation, and has first place in everything. It supplies the full content of the bride's claim that her beloved is 'outstanding among ten thousand', and shows who is worth that praise."
+      },
+      {
+        "ref": "Philippians 3:8",
+        "note": "Paul counts all things loss compared to the surpassing excellence of knowing Christ. It is the believer's version of the bride's answer, with the beloved set above every other thing."
+      },
+      {
+        "ref": "John 15:15",
+        "note": "Jesus calls His disciples friends, since He has made known to them everything He has learned from the Father. It gives the Song's 'my friend' its fullest New Testament meaning."
+      },
+      {
+        "ref": "Exodus 33:11",
+        "note": "The LORD spoke to Moses face to face, as a man speaks to his friend. The friendship the bride praises has an Old Testament precedent in the Lord's own closeness to His people."
+      },
+      {
+        "ref": "1 Peter 3:15",
+        "note": "Believers should always be prepared to give a defense to everyone who asks the reason for their hope. The friends' question and the bride's answer are a picture of that moment, offered with gentleness."
+      },
+      {
+        "ref": "Romans 14:8",
+        "note": "Whether we live or die, we belong to the Lord. It is the apostolic form of 'I belong to my beloved', placing our belonging under His lordship, and giving the settled heart of the Song its place in Christian confession."
+      }
     ],
-    "oneStory": "Asked to say why her beloved surpasses all others, the bride does not argue but adores, praising the one who is altogether lovely and naming him her beloved and her friend. Her confident testimony and her rest in mutual belonging point beyond every earthly love to Christ, outstanding among ten thousand, in whom the church finds every beauty and to whom she gladly belongs.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "The passage belongs to the story of a God who creates a people to be His own and teaches them to say so. In creation, the man and woman are made for each other, and belonging is part of the original goodness, 'a man will leave his father and mother and be united to his wife,' Genesis 2:24. The fall bends that belonging into rivalry and rule, and desire becomes a place of conflict, Genesis 3:16. The Song's refrain of mutual belonging is the repair of that wound, a love in which desire is given and returned.\n\nThe Old Testament's story of Israel develops the same language. The Lord says to His people 'You are Mine,' Isaiah 43:1, and the covenant formula 'I will be your God and you will be My people' runs from Exodus to the prophets. The relationship is also marked by seeking and being sought, by nights of absence and mornings of return, and the Song's two scenes, the missed knock and the glad answer, put that rhythm into a marriage.\n\nIn redemption, the one who is altogether lovely comes to be known. John says 'We have seen His glory, the glory of the one and only Son from the Father,' John 1:14, and the apostles' testimony is a long answer to the question 'how is your beloved better?' The Lord who is the image of the invisible God calls His disciples friends, John 15:15, and gives them the assurance that they belong to Him, John 10:27-28. The church's witness, 1 Peter 3:15, is the bride's answer: not an argument alone but a delighted account of Him.\n\nThe story ends in a union that is both perfect belonging and perfect delight. Revelation 21:2 shows the holy city as a bride adorned for her husband, and Revelation 19:7 shows the marriage of the Lamb. The daughters who asked 'how is your beloved better?' find that the answer is to see Him. Where the bride once said 'we will seek him with you', the whole company of the redeemed will see His face. Until then the church says what the bride says: this is my beloved, and this is my friend, and I belong to Him as He belongs to me.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What question do the daughters of Jerusalem put to the bride?",
       "options": [
-        { "text": "How is your beloved better than any other, that you charge us so to find him?", "weight": 100, "note": "Their question sets up the bride's whole praise of the beloved." },
-        { "text": "Why have you stopped loving your beloved?", "weight": 25, "note": "Her intense state does prompt their question, but she has not stopped loving him; she is sick with love and longs for him." },
-        { "text": "Where did you first meet your beloved?", "weight": 75, "note": "They are curious about her beloved, as this question is, but they ask what makes him better than any other, not where she first met him." },
-        { "text": "Why is your beloved angry with you?", "weight": 0, "note": "There is no anger here; the question is about his surpassing worth." }
+        {
+          "text": "How is your beloved better than any other, that you charge us so to find him?",
+          "weight": 100,
+          "note": "Their question sets up the bride's whole praise of the beloved."
+        },
+        {
+          "text": "Why have you stopped loving your beloved?",
+          "weight": 25,
+          "note": "Her intense state does prompt their question, but she has not stopped loving him; she is sick with love and longs for him."
+        },
+        {
+          "text": "Where did you first meet your beloved?",
+          "weight": 75,
+          "note": "They are curious about her beloved, as this question is, but they ask what makes him better than any other, not where she first met him."
+        },
+        {
+          "text": "Why is your beloved angry with you?",
+          "weight": 0,
+          "note": "There is no anger here; the question is about his surpassing worth."
+        }
       ]
     },
     {
       "q": "How does the bride describe her beloved in 5:10?",
       "options": [
-        { "text": "Dazzling and ruddy, outstanding among ten thousand.", "weight": 100, "note": "She praises him as surpassing all others, language the church lifts to Christ." },
-        { "text": "Ordinary, but pleasant enough.", "weight": 25, "note": "He is indeed pleasant, but far from ordinary; she calls him dazzling and outstanding among ten thousand." },
-        { "text": "One among many equals.", "weight": 75, "note": "She does set him among ten thousand others, but she lifts him out as outstanding among them, not merely one among many equals." },
-        { "text": "Fading and frail.", "weight": 0, "note": "She praises his strength and majesty, like marble and cedar." }
+        {
+          "text": "Dazzling and ruddy, outstanding among ten thousand.",
+          "weight": 100,
+          "note": "She praises him as surpassing all others, language the church lifts to Christ."
+        },
+        {
+          "text": "Ordinary, but pleasant enough.",
+          "weight": 25,
+          "note": "He is indeed pleasant, but far from ordinary; she calls him dazzling and outstanding among ten thousand."
+        },
+        {
+          "text": "One among many equals.",
+          "weight": 75,
+          "note": "She does set him among ten thousand others, but she lifts him out as outstanding among them, not merely one among many equals."
+        },
+        {
+          "text": "Fading and frail.",
+          "weight": 0,
+          "note": "She praises his strength and majesty, like marble and cedar."
+        }
       ]
     },
     {
       "q": "How does the bride sum up her beloved at the end of her praise, in 5:16?",
       "options": [
-        { "text": "This is my beloved, and this is my friend.", "weight": 100, "note": "She joins desire and friendship, the one she loves and delights to be with." },
-        { "text": "This is my master, and I am only his servant.", "weight": 75, "note": "She is indeed wholly devoted to him, but she names him her beloved and her friend, not a master she serves beneath." },
-        { "text": "This is a stranger I hardly know.", "weight": 0, "note": "She knows him deeply and calls him her friend." },
-        { "text": "This is one of many I admire.", "weight": 25, "note": "She does admire him greatly, but he is her one beloved, altogether lovely, not one among many she admires." }
+        {
+          "text": "This is my beloved, and this is my friend.",
+          "weight": 100,
+          "note": "She joins desire and friendship, the one she loves and delights to be with."
+        },
+        {
+          "text": "This is my master, and I am only his servant.",
+          "weight": 75,
+          "note": "She is indeed wholly devoted to him, but she names him her beloved and her friend, not a master she serves beneath."
+        },
+        {
+          "text": "This is a stranger I hardly know.",
+          "weight": 0,
+          "note": "She knows him deeply and calls him her friend."
+        },
+        {
+          "text": "This is one of many I admire.",
+          "weight": 25,
+          "note": "She does admire him greatly, but he is her one beloved, altogether lovely, not one among many she admires."
+        }
       ]
     },
     {
       "q": "What refrain of belonging does the bride return to in 6:3?",
       "options": [
-        { "text": "I belong to my beloved and he belongs to me.", "weight": 100, "note": "The covenant heartbeat of the Song, mutual belonging, repeated from 2:16." },
-        { "text": "My beloved belongs to everyone alike.", "weight": 0, "note": "Their love is exclusive and mutual, not shared with all." },
-        { "text": "I hope one day to belong to my beloved.", "weight": 75, "note": "She does confess belonging to her beloved, but as a settled present reality, not merely a hope for one day." },
-        { "text": "My beloved once belonged to me.", "weight": 25, "note": "The belonging is real, but it is present and secure, not a thing of the past that once was." }
+        {
+          "text": "I belong to my beloved and he belongs to me.",
+          "weight": 100,
+          "note": "The covenant heartbeat of the Song, mutual belonging, repeated from 2:16."
+        },
+        {
+          "text": "My beloved belongs to everyone alike.",
+          "weight": 0,
+          "note": "Their love is exclusive and mutual, not shared with all."
+        },
+        {
+          "text": "I hope one day to belong to my beloved.",
+          "weight": 75,
+          "note": "She does confess belonging to her beloved, but as a settled present reality, not merely a hope for one day."
+        },
+        {
+          "text": "My beloved once belonged to me.",
+          "weight": 25,
+          "note": "The belonging is real, but it is present and secure, not a thing of the past that once was."
+        }
       ]
     },
     {
       "q": "How does this passage point beyond marriage to the gospel?",
       "options": [
-        { "text": "The church answers the world's question by praising Christ, altogether lovely, her beloved and friend.", "weight": 100, "note": "The bride's confident testimony pictures the believer giving a reason for her hope in Christ." },
-        { "text": "It teaches that we should never speak to others about who we love.", "weight": 25, "note": "The passage is indeed about how she speaks of her beloved, but it commends glad testimony to his worth, not silence about whom we love." },
-        { "text": "It shows that God finds no beauty worth praising.", "weight": 0, "note": "The passage overflows with praise of the beloved's surpassing beauty." },
-        { "text": "It has no connection to Christ or the church.", "weight": 75, "note": "The passage truly praises a human beloved, yet the church has long heard the surpassing worth of Christ in outstanding among ten thousand and altogether lovely, so it does point beyond marriage." }
+        {
+          "text": "The church answers the world's question by praising Christ, altogether lovely, her beloved and friend.",
+          "weight": 100,
+          "note": "The bride's confident testimony pictures the believer giving a reason for her hope in Christ."
+        },
+        {
+          "text": "It teaches that we should never speak to others about who we love.",
+          "weight": 25,
+          "note": "The passage is indeed about how she speaks of her beloved, but it commends glad testimony to his worth, not silence about whom we love."
+        },
+        {
+          "text": "It shows that God finds no beauty worth praising.",
+          "weight": 0,
+          "note": "The passage overflows with praise of the beloved's surpassing beauty."
+        },
+        {
+          "text": "It has no connection to Christ or the church.",
+          "weight": 75,
+          "note": "The passage truly praises a human beloved, yet the church has long heard the surpassing worth of Christ in outstanding among ten thousand and altogether lovely, so it does point beyond marriage."
+        }
       ]
     }
   ],
@@ -155,9 +384,21 @@
     "The bride knew where her beloved had gone, to his garden. Where do you go to meet with the Lord, and how might you seek Him there more deliberately?"
   ],
   "translationNotes": [
-    { "ref": "Song of Solomon 5:9", "note": "The friends' question, how is your beloved better than another, invites the praise that follows; it is a real question, not mockery." },
-    { "ref": "Song of Solomon 5:16", "note": "The Hebrew rendered mouth is literally palate; the phrase this is my friend joins covenant love with deep companionship." },
-    { "ref": "Song of Solomon 6:3", "note": "I belong to my beloved and he belongs to me repeats the refrain of 2:16, the settled language of mutual, exclusive belonging." }
+    {
+      "ref": "Song of Solomon 5:9",
+      "note": "The friends' question, how is your beloved better than another, invites the praise that follows; it is a real question, not mockery."
+    },
+    {
+      "ref": "Song of Solomon 5:16",
+      "note": "The Hebrew rendered mouth is literally palate; the phrase this is my friend joins covenant love with deep companionship."
+    },
+    {
+      "ref": "Song of Solomon 6:3",
+      "note": "I belong to my beloved and he belongs to me repeats the refrain of 2:16, the settled language of mutual, exclusive belonging."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Song of Solomon 5:9-6:3, spanning chapters 5 and 6. Verse text assembled by concatenating segment text values in order; embedded speaker labels such as The Friends and The Bride were treated as headings and excluded. none remain." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Song of Solomon 5:9-6:3, spanning chapters 5 and 6. Verse text assembled by concatenating segment text values in order; embedded speaker labels such as The Friends and The Bride were treated as headings and excluded. none remain."
+  }
 }

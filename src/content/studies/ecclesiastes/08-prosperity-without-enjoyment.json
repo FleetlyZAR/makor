@@ -18,8 +18,16 @@
         "note": "a sickness that weighs on mankind",
         "emphasis": "",
         "verses": [
-          { "chapter": 6, "n": 1, "text": "There is another evil I have seen under the sun, and it weighs heavily upon mankind:" },
-          { "chapter": 6, "n": 2, "text": "God gives a man riches, wealth, and honor, so that he lacks nothing his heart desires; but God does not allow him to enjoy them. Instead, a stranger will enjoy them. This is {{hevel|futile}} and a grievous affliction." }
+          {
+            "chapter": 6,
+            "n": 1,
+            "text": "There is another evil I have seen under the sun, and it weighs heavily upon mankind:"
+          },
+          {
+            "chapter": 6,
+            "n": 2,
+            "text": "God gives a man riches, wealth, and honor, so that he lacks nothing his heart desires; but God does not allow him to enjoy them. Instead, a stranger will enjoy them. This is {{hevel|futile}} and a grievous affliction."
+          }
         ]
       },
       {
@@ -27,10 +35,26 @@
         "note": "the shocking comparison",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 6, "n": 3, "text": "A man may father a hundred children and live for many years; yet no matter how long he lives, if he is unsatisfied with his prosperity and does not even receive a proper burial, I say that a stillborn child is better off than he." },
-          { "chapter": 6, "n": 4, "text": "For a stillborn child enters in {{hevel|futility}} and departs in darkness, and his name is shrouded in obscurity." },
-          { "chapter": 6, "n": 5, "text": "The child, though neither seeing the sun nor knowing anything, has more rest than that man," },
-          { "chapter": 6, "n": 6, "text": "even if he lives a thousand years twice over but fails to enjoy his prosperity. Do not all go to the same place?" }
+          {
+            "chapter": 6,
+            "n": 3,
+            "text": "A man may father a hundred children and live for many years; yet no matter how long he lives, if he is unsatisfied with his prosperity and does not even receive a proper burial, I say that a stillborn child is better off than he."
+          },
+          {
+            "chapter": 6,
+            "n": 4,
+            "text": "For a stillborn child enters in {{hevel|futility}} and departs in darkness, and his name is shrouded in obscurity."
+          },
+          {
+            "chapter": 6,
+            "n": 5,
+            "text": "The child, though neither seeing the sun nor knowing anything, has more rest than that man,"
+          },
+          {
+            "chapter": 6,
+            "n": 6,
+            "text": "even if he lives a thousand years twice over but fails to enjoy his prosperity. Do not all go to the same place?"
+          }
         ]
       },
       {
@@ -38,20 +62,59 @@
         "note": "our limits under the sun",
         "emphasis": "",
         "verses": [
-          { "chapter": 6, "n": 7, "text": "All a man’s {{amal|labor}} is for his mouth, yet his appetite is never satisfied." },
-          { "chapter": 6, "n": 8, "text": "What {{yitron|advantage}}, then, has the wise man over the fool? What gain comes to the poor man who knows how to conduct himself before others?" },
-          { "chapter": 6, "n": 9, "text": "Better what the eye can see than the wandering of desire. This too is {{hevel|futile}} and a pursuit of the wind." },
-          { "chapter": 6, "n": 10, "text": "Whatever exists was named long ago, and it is known what man is; but he cannot contend with one stronger than he." },
-          { "chapter": 6, "n": 11, "text": "For the more words, the more {{hevel|futility}}, and how does that profit anyone?" },
-          { "chapter": 6, "n": 12, "text": "For who knows what is good for a man during the few days in which he passes through his {{hevel|fleeting}} life like a shadow? Who can tell a man what will come after him under the sun?" }
+          {
+            "chapter": 6,
+            "n": 7,
+            "text": "All a man’s {{amal|labor}} is for his mouth, yet his appetite is never satisfied."
+          },
+          {
+            "chapter": 6,
+            "n": 8,
+            "text": "What {{yitron|advantage}}, then, has the wise man over the fool? What gain comes to the poor man who knows how to conduct himself before others?"
+          },
+          {
+            "chapter": 6,
+            "n": 9,
+            "text": "Better what the eye can see than the wandering of desire. This too is {{hevel|futile}} and a pursuit of the wind."
+          },
+          {
+            "chapter": 6,
+            "n": 10,
+            "text": "Whatever exists was named long ago, and it is known what man is; but he cannot contend with one stronger than he."
+          },
+          {
+            "chapter": 6,
+            "n": 11,
+            "text": "For the more words, the more {{hevel|futility}}, and how does that profit anyone?"
+          },
+          {
+            "chapter": 6,
+            "n": 12,
+            "text": "For who knows what is good for a man during the few days in which he passes through his {{hevel|fleeting}} life like a shadow? Who can tell a man what will come after him under the sun?"
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "hevel": { "language": "Hebrew", "lemma": "hevel", "original": "הבל", "gloss": "Vapor, breath, mist, the drumbeat word of Ecclesiastes, translated 'futile,' 'futility,' or 'fleeting.' It names things as transient and impossible to grasp. A full barn with an empty heart is hevel: real, yet slipping away like breath, unable to be held or truly enjoyed." },
-    "amal": { "language": "Hebrew", "lemma": "amal", "original": "עמל", "gloss": "Toil, labor, the wearying effort of making a living. Here a man's whole amal goes 'for his mouth,' feeding an appetite that is never finally full, a picture of endless work chasing a satisfaction it cannot reach." },
-    "yitron": { "language": "Hebrew", "lemma": "yitron", "original": "יתרון", "gloss": "Gain, profit, advantage, the surplus left when the accounts are closed. The Teacher asks what real advantage the wise man has over the fool if both die and neither can secure the future; the honest answer under the sun is troublingly little." }
+    "hevel": {
+      "language": "Hebrew",
+      "lemma": "hevel",
+      "original": "הבל",
+      "gloss": "Vapor, breath, mist, the drumbeat word of Ecclesiastes, translated 'futile,' 'futility,' or 'fleeting.' It names things as transient and impossible to grasp. A full barn with an empty heart is hevel: real, yet slipping away like breath, unable to be held or truly enjoyed."
+    },
+    "amal": {
+      "language": "Hebrew",
+      "lemma": "amal",
+      "original": "עמל",
+      "gloss": "Toil, labor, the wearying effort of making a living. Here a man's whole amal goes 'for his mouth,' feeding an appetite that is never finally full, a picture of endless work chasing a satisfaction it cannot reach."
+    },
+    "yitron": {
+      "language": "Hebrew",
+      "lemma": "yitron",
+      "original": "יתרון",
+      "gloss": "Gain, profit, advantage, the surplus left when the accounts are closed. The Teacher asks what real advantage the wise man has over the fool if both die and neither can secure the future; the honest answer under the sun is troublingly little."
+    }
   },
   "study": {
     "basic": {
@@ -65,93 +128,252 @@
       "oneStory": "Prosperity without enjoyment is the sharpest proof that our hunger is too deep for this world to fill. The Teacher lets the ache stand unrelieved, and the whole Bible carries that ache toward Christ, the bread and water of life, the only one who can grant both the gift and the God given power to enjoy it, now and forever."
     },
     "context": {
-      "literary": "Chapter 6 is the hinge and low point of the book's middle, deliberately answering the enjoyment passage of 5:18 to 20 with its opposite. It opens with a diagnosis, 6:1 to 2, sharpens into the extreme comparison with a stillborn child, 6:3 to 6, and closes with a cluster of sayings on the unfilled appetite and the unknowable future, 6:7 to 12, which forms a bridge into the proverbs of chapter 7.",
-      "historical": "In the ancient world, many children, long life, and a proper burial were the marks of a blessed man, and losing one's estate to a 'stranger' rather than an heir was a bitter dishonor. The Teacher takes every visible sign of blessing and shows that without the inner gift of enjoyment they add up to nothing.",
-      "canonical": "The chapter deepens Scripture's realism about wealth and mortality. Its 'mere breath' view of life echoes the Psalms, and its portrait of endless craving sets up the New Testament's answer in Christ, who alone satisfies the hunger that possessions expose but cannot meet."
+      "literary": "Chapter 6 is built as a mirror of the passage before it. In 5:19 God 'enabled' a man to enjoy his riches; in 6:2 God does not 'allow' him to. In 5:18 to 20 the man has a few days to receive as a lot; in 6:3 to 6 he has a hundred children and a very long life and still has nothing. The Teacher has tuned the two passages so that they can be read side by side, and the verbs match even where the outcomes are opposite.\n\nThe chapter has a clear shape. Verses 1 to 2 give the diagnosis in two sentences, the second ending with a deliberate pairing of 'futile' and 'grievous affliction'. Verses 3 to 6 then press it with an extreme case, and the argument is built with the pattern 'even if... yet', stacking benefits until the comparison with a stillborn child lands. The stack runs: a hundred children, many years, a thousand years twice over. The opposite pole is a child who 'enters in futility and departs in darkness' and whose name is unknown. The closing question of verse 6, 'Do not all go to the same place?', takes the reader to the point the Teacher made in 3:20, that human and animal alike return to dust.\n\nVerses 7 to 12 are looser, a string of short sayings. Several of them end on questions that the book returns to later, 'who knows' in 6:12, and 'who can tell a man what will come after him' ends the section just as 'who can tell him what is to come?' will appear again in 8:7. That final cluster works as a hinge. It closes the long run on wealth and enjoyment that began at 5:8 and opens the sequence of chapters 7 and 8 on what wisdom can and cannot do. The Teacher passes from a man who cannot enjoy what he has to the larger confession that no one can know what is good for a man or what will follow him.",
+      "historical": "The measures of blessing in verses 2 and 3 are those of the Old Testament world. Wealth, honour and a name were what Solomon was given when he asked for wisdom, 'riches and wealth and honor unlike anything given to the kings before you or after you', 2 Chronicles 1:12, and the three words in Ecclesiastes 6:2 are almost the same three, which is part of why many hearers have felt the book's voice is that of a king looking back on his own gifts. Children were the sign of favour in the family psalms, Psalm 127:3 to 5, and a long life was the sign of obedience in the Torah. The Teacher takes the whole list and says that it adds up to nothing if God withholds the power to enjoy.\n\nBurial mattered more than a modern reader may feel. To be left unburied was a curse, Deuteronomy 28:26, and a king whose people made no fire in his honour died with a mark against his name, as with Jehoram, who 'died, to no one's regret', 2 Chronicles 21:19 to 20. The phrase 'does not even receive a proper burial' in verse 3 can mean that the man is literally left unburied, or that he is buried without mourners or honour. Either way it is the opposite of the picture of being 'gathered to his fathers' in good old age.\n\nA 'stranger' enjoying a man's goods was equally painful. Moses told Israel that, as a curse for disobedience, a people they did not know would eat the produce of their land, Deuteronomy 28:33, and a psalmist says of the dying that 'they leave their wealth to others', Psalm 49:10. In a culture that tied name and land to the household, losing your estate to someone outside the family broke the line.\n\nFinally, the stillborn child. In the ancient world miscarriage and stillbirth were common, and the child had no name, no burial rites to speak of, and no place in the family record. Job had used the same figure when he wished he had died at birth, Job 3:16, so the Teacher's choice of image draws on a familiar language of lament.",
+      "canonical": "Chapter 6 sits close to Job and the Psalms. Job's third chapter is the nearest relative: he wishes he had been 'hidden like a stillborn child, like an infant who never sees daylight', and describes the grave as a place where the wicked cease from raging and the weary find rest, Job 3:16 to 17. The Teacher uses the same figure, but his point is different. Job asks why he was born into suffering. The Teacher asks what is the use of a full life that has no joy in it. Earlier in his own book he had said that the unborn are better off than both the living and the dead, because they have not seen the evil done under the sun, Ecclesiastes 4:2 to 3. Chapter 6 gathers those comments into a single case.\n\nThe Psalms supply the language for the brevity of life. 'Man is like a breath; his days are like a passing shadow', Psalm 144:4, and 'Surely every man goes about like a phantom; surely he bustles in vain; he heaps up riches not knowing who will haul them away', Psalm 39:6. Both sayings sit comfortably beside Ecclesiastes 6:12, which speaks of days passed 'like a shadow'. Proverbs speaks of the unsatisfied appetite too: 'Sheol and Abaddon are never satisfied; so the eyes of man are never satisfied', Proverbs 27:20.\n\nThe New Testament takes the chapter up in at least three ways. Jesus tells of the rich fool who has a harvest and nothing else, Luke 12:16 to 21. He also offers the bread and water that remove the appetite the Teacher says cannot be filled, John 4:14 and John 6:35. And Paul, quoting Isaiah on the clay and the potter, closes off any attempt to argue with the One who gives and withholds: 'Who are you, O man, to talk back to God?', Romans 9:20, which is the sense of the Teacher's verse 10, that a man 'cannot contend with one stronger than he'."
     },
     "hermeneutics": {
-      "authorIntent": "To show that prosperity is worthless without the God given power to enjoy it, to press this truth to its most shocking form so the reader feels it, and to humble us before our own limits, the appetite we cannot fill and the future we cannot see or secure.",
-      "descriptionVsPrescription": "The chapter is almost entirely diagnosis, not command. It describes a real and common misery and refuses to explain it away. The implied counsel is indirect: since enjoyment is God's gift and the future is beyond us, we are driven to seek satisfaction from God rather than from accumulation.",
+      "authorIntent": "The Teacher expects his hearers to nod along to verse 2 and then be shaken by verse 3. Every item he lists, wealth, honour, children, a long life and a full burial, was something his culture prayed for. He deliberately loads the scale with everything a good life could contain, so that the missing piece stands out. The Hebrew word for 'lacks nothing' in verse 2 is almost a boast, and the next clause punctures it.\n\nHe means the stillborn comparison to be felt, not defended. He does not say that the child's life is good, since the child 'enters in futility' and leaves in darkness, with no name. His point is relational: of two bad ends, the unenjoyed life is worse, because the child at least has rest. A listener who feels the sting has understood the teaching. Nobody is meant to leave the chapter wishing for a stillbirth. They are meant to leave knowing that the thing missing in a life of unenjoyed plenty is not an extra thing at all, but a gift that cannot be purchased.\n\nHe means the closing sayings to humble. The wise man has no advantage in verse 8 that the fool does not share, because both are bound by appetite, by the unspoken limits of verse 10, and by a future neither can see. The aim is not to make his hearers despise wisdom, since chapter 7 will praise it, but to make them stop trusting it to do what only God can do. A person who has learned that he cannot argue with one who is stronger, cannot name his own future, and cannot fill his own appetite is ready to receive from God what he cannot take for himself.",
+      "descriptionVsPrescription": "The chapter is description of a situation, not a rule for one. When the Teacher says God gives a man wealth and does not allow him to enjoy it, he is reporting an experience that is seen under the sun, and he is not saying that God hates the man or that it is a punishment. Careless readers have sometimes treated the passage as a proof that the unhappy rich are being punished. The text does not say so, and Job's friends made the same mistake with suffering.\n\nIt is equally important not to read the stillborn comparison as a doctrine about the unborn or about the value of any person's life. The comparison is hyperbole in a wisdom setting, a way of saying 'worse than the worst you can imagine'. The Bible elsewhere treats the unborn as persons known to God, Psalm 139:13 to 16. Any use of verses 3 to 5 to belittle life would turn the Teacher's lament into an argument he is not making.\n\nWhat the chapter does ask of the reader is humility. It teaches that enjoyment is something to pray for, as Paul prays that God would fill believers 'with all joy and peace', Romans 15:13. It also offers a diagnostic for a restless soul, which is to ask whether the problem is a lack of things or a lack of the capacity to receive them.",
       "debates": [
         {
-          "question": "Is 6:1-6 an outburst of despair, or a clear eyed diagnosis of prosperity without the God given power to enjoy?",
+          "question": "What does it mean that the man 'does not even receive a proper burial' in verse 3?",
           "views": [
-            { "label": "It is despair, the book's bleakest note", "case": "Saying a stillborn child is better off than a man with a hundred children and long life sounds like raw pessimism, a cry that existence itself may not be worth it." },
-            { "label": "It is a diagnosis meant to redirect us", "case": "The comparison is a wisdom device, an extreme case that makes one point unmistakable: without the capacity to enjoy, given only by God, 5:19, even total prosperity is empty. It exposes the disease so we will seek the cure in God." }
+            {
+              "label": "He is literally left unburied",
+              "case": "Being left without a grave was among the most dreaded fates in the Old Testament, Deuteronomy 28:26 and Jeremiah 22:19. On this reading the Teacher completes his picture of ruin: wealth, children and years, and then a body cast out. The phrase would then be a deliberate extreme to match the stillborn child, who is at least put away."
+            },
+            {
+              "label": "He is buried without honour or mourners",
+              "case": "A grave without honour is another way of speaking of a life that was not celebrated. Jehoram was buried in the City of David but 'not in the tombs of the kings', and 'died, to no one's regret', 2 Chronicles 21:19 to 20. On this reading the man in verse 3 has a grave and has nothing else, with no family to mourn him and no name to remember."
+            },
+            {
+              "label": "The phrase is figurative for a life that never reached rest",
+              "case": "Some read the line as one more way of saying that he found no peace, in line with the 'rest' denied to him in verse 5. Burial is shorthand for a settled and honoured end, and the lack of it simply underlines that his long life ended in nothing."
+            }
           ],
-          "bearing": "Read as diagnosis, the passage is not the last word but a setup: it makes us feel the futility of accumulation so that the enjoyment God gives, and ultimately the satisfaction found in Christ, lands with full force."
+          "bearing": "The Hebrew is spare, and the three readings differ in how far they press the image. All three leave the main point intact, that the man has every outward sign of blessing and none of the inward gift. The first and second suit the culture best, and the argument does not depend on choosing between them."
         },
         {
-          "question": "What does hevel mean when applied to a life like this?",
+          "question": "Does 'the more words, the more futility' in verse 11 mean speeches, or things?",
           "views": [
-            { "label": "Meaningless, life stripped of value", "case": "Translated 'vanity' or 'meaningless,' hevel can read as a verdict that such a life, and perhaps life in general, has no worth." },
-            { "label": "Fleeting and ungraspable, breath and shadow", "case": "Hevel means vapor or breath; 6:12 spells it out, life 'passes like a shadow.' The word names transience and elusiveness, not sheer worthlessness. The man's misery is that his fleeting days yield nothing he can hold or enjoy." }
+            {
+              "label": "Words: the more talk, the more empty it is",
+              "case": "The BSB reads this way, and it fits the book's repeated warnings about many words, Ecclesiastes 5:2 and 5:3. Verse 10 has just spoken of arguing with God, and verse 11 adds that long arguments do not increase profit. It also anticipates 10:14, where the fool multiplies words."
+            },
+            {
+              "label": "Things: the more possessions and pursuits, the more futility",
+              "case": "The Hebrew noun can mean either 'word' or 'thing' or 'matter'. The verse closes a section about appetite and wealth, and it can be read as 'the more things there are, the more emptiness'. That would tie it neatly to 5:11, where when goods increase, so do those who consume them."
+            }
           ],
-          "bearing": "Taking hevel as 'fleeting' keeps the Teacher coherent: life is brief and slippery, so the failure to enjoy God's gifts within it is a genuine tragedy, and the call is to receive satisfaction from God while the breath lasts."
+          "bearing": "The noun does mean both, and the Teacher may have intended the doubleness. Either way, increase in speech or increase in goods does not yield the advantage a person hopes for, and the question that follows, 'how does that profit anyone?', fits both. The wise reader will hold both without forcing a choice."
         }
       ]
     },
-    "originalLanguages": "Hevel, breath or vapor, threads the whole chapter: possessions unenjoyed are 'futile,' the stillborn 'enters in futility,' more words breed more 'futility,' and life is a 'fleeting' shadow, 6:12. A man's amal, his toil, is all 'for his mouth,' feeding an appetite that is never filled. And the Teacher's cutting question about yitron, advantage, 6:8, exposes that neither wisdom nor wealth secures any surplus a person can carry past death, since 'he cannot contend with one stronger than he,' 6:10.",
+    "originalLanguages": "The most useful word in the chapter is the verb behind 'does not allow' in verse 2. It comes from the root that means to rule or have power over, and in 5:19 the same root is used positively: God 'enabled' a man to enjoy his riches. The mirror is exact. The same verb stem is in 5:19 and in 6:2, one with a positive and the other with a negative. The Teacher wants the reader to see that the capacity to enjoy is a delegated authority, something God lends and can withhold. In 8:4 and 8:8, the same family of words speaks of the king's supreme word and of the absence of anyone with authority over the day of death.\n\nThe second word is the 'stillborn', in Hebrew nephel. The noun refers to an untimely birth or miscarried child and is used in Job 3:16 and Psalm 58:8. The Teacher says that the child 'has more rest' than the unsatisfied man, and the word for rest is related to the verb for settling down in Job 3:13, 'I would be lying down in peace; I would be asleep and at rest'. Job's passage and the Teacher's draw on the same image of rest as the absence of striving.\n\nThe third is the 'appetite' of verse 7, nephesh. The word covers the whole self, the soul, the throat, the living being, and the desire that comes from it. The BSB footnote notes that the verse says literally the appetite is not 'filled'. The proverb in Proverbs 16:26, 'A worker's appetite works for him because his hunger drives him onward', uses the same word and gives the idea its positive side. In Ecclesiastes the same drive is shown to have no end. The wording of verse 9, 'the wandering of desire', is literally something like 'the walking of the nephesh', the self on the move after what it does not have, and the Teacher prefers 'what the eye can see', that is, what is in front of you.\n\nThe fourth is the verb of verse 10, 'was named'. In the Hebrew way of thinking, naming is the act of assigning a thing its identity and its place, as when Adam named the animals in Genesis 2:19 to 20. 'Whatever exists was named long ago' can then be heard as an echo of that, a quiet statement that the order of the world was fixed before we arrived, and that the one who named it is the 'one stronger' with whom we cannot dispute. That connection to Genesis 2 is likely, though the text does not draw it explicitly.\n\nThe fifth is the 'shadow' of verse 12. The Hebrew word, tsel, is also the word used of the shade of a tree or the shelter of a roof, and in 7:12 the Teacher will say that wisdom and money are each a 'shelter', literally a shadow. The same word that describes a short life as a shadow is the word that describes the protection of wisdom, a sign that the Teacher is deliberately setting the shelters of human life against its brevity. And, as a note on the closing questions, the 'who knows' of 6:12 is the same question form that returns at 7:24 and 8:1, 8:7.",
     "typology": [
-      { "type": "The unsatisfied rich man whose goods pass to a stranger", "fulfillment": "Jesus' rich fool, whose stored goods went to others the night he died, a warning to be rich toward God, Luke 12:16-21." },
-      { "type": "The appetite that is never satisfied, 6:7", "fulfillment": "The deep human hunger Christ alone fills as the bread of life and the giver of living water, John 6:35, John 4:14." },
-      { "type": "Life as a passing shadow, 6:12", "fulfillment": "The New Testament call to fix our brief lives on the eternal, and the resurrection hope that outlasts the vapor, 2 Corinthians 4:17-18." }
+      {
+        "type": "The rich man whose goods go to a stranger, Ecclesiastes 6:2",
+        "fulfillment": "Jesus' rich fool plans bigger barns, tells himself to relax, and is told 'This very night your life will be required of you. Then who will own what you have accumulated?', Luke 12:16 to 21. The man of Ecclesiastes 6 has the same ending in a different shape: the goods are left and others enjoy them. In Christ the pattern is reversed. He who was rich became poor, 2 Corinthians 8:9, and what He gave away, His people now enjoy as heirs, Romans 8:17. The type falls short because the Teacher's rich man is a warning with no deliverer, while the parable points the listener to being 'rich toward God', Luke 12:21."
+      },
+      {
+        "type": "The appetite that is never filled, 6:7",
+        "fulfillment": "A hunger that is never full is answered in the gospel by the One who says, 'I am the bread of life. Whoever comes to Me will never hunger, and whoever believes in Me will never thirst', John 6:35. At the well He offers a spring within, John 4:14. The Old Testament had already pointed this way: 'He satisfies the thirsty and fills the hungry with good things', Psalm 107:9, and Isaiah asks, 'Why spend money on that which is not bread?', Isaiah 55:2. The type is fulfilled in Christ, and the full satisfaction awaits the new creation, where the hungry will hunger no more, Revelation 7:16."
+      },
+      {
+        "type": "Life as a breath and a passing shadow, 6:12",
+        "fulfillment": "The shadow of a short life meets the One who is called 'the light of the world', John 8:12, and whose resurrection means that mortality is not the last word. Paul sets 'our light and momentary affliction' against 'an eternal glory that is far beyond comparison', 2 Corinthians 4:17 to 18, and calls Christ 'the firstfruits of those who have fallen asleep', 1 Corinthians 15:20. The correspondence is more contrast than likeness. The shadow is the condition He enters, and the resurrection is the way out. The type falls short because the Teacher can only note the brevity, while Christ changes it."
+      },
+      {
+        "type": "The one stronger than we are, 6:10",
+        "fulfillment": "The Teacher's 'one stronger' is God as sovereign, whom no one can contend with. Paul uses the same posture in Romans 9:20, 'who are you, O man, to talk back to God?', and Isaiah pictures the clay and the potter, Isaiah 45:9. In Christ the strong One comes among the weak. Jesus describes Himself as the stronger man who binds the strong man and plunders his house, Luke 11:21 to 22, and Paul says that 'the weakness of God is stronger than man's strength', 1 Corinthians 1:25. The fulfilment stays modest, since the Teacher is not describing Christ directly, but the gospel shows what the stronger One does with His strength."
+      }
     ],
-    "christ": "The horror of this chapter is prosperity that cannot satisfy, a full life with an empty center. It uncovers a hunger no amount of possession can fill, and Jesus speaks directly into that emptiness: 'I am the bread of life; whoever comes to Me will never go hungry,' and 'whoever drinks the water I give will never thirst.' The Teacher's grim truth that a man 'cannot contend with one stronger than he' becomes gospel when the stronger One, the Lord Himself, comes not to overpower but to give life. Where accumulation leaves the heart starving and the future dark, Christ gives both the gift and the God granted power to enjoy it, and a future secured beyond the grave.",
-    "god": "God is shown as sovereign even over the capacity for joy: He gives one man riches and withholds from him the power to enjoy them. He is 'one stronger' than any of us, with whom we cannot contend. This is a hard truth, yet it is not despairing, because it means satisfaction is God's to grant. The same God who withholds also gives, 5:19, and the chapter, by exposing how empty life is without His gift, quietly points us to seek it from His hand rather than from our own accumulating.",
+    "christ": "Christ answers this chapter by being what the chapter lacks. The Teacher describes a man with every possession who cannot enjoy any of it, and who is sent to his rest with less than a stillborn child. The root of the problem is not what he owns but what God has not given him. Jesus names that gift directly in the Gospels. 'Whoever comes to Me will never hunger, and whoever believes in Me will never thirst', John 6:35, and 'whoever drinks the water I give him will never thirst', John 4:14. This is no parallel to the Teacher's pleasure of food and drink, but the same hunger met at a deeper level. The appetite that is 'never satisfied', 6:7, is real, and the gospel does not deny it; it says that there is a Person who fills it.\n\nHe is also the answer to the limits of verse 10, where man 'cannot contend with one stronger than he'. The New Testament does not soften the point. Paul tells us not to talk back to God, Romans 9:20. But the One who is stronger has come in the form of the weaker, and the cross reveals His power as love. 'Though He was rich, yet for your sakes He became poor', 2 Corinthians 8:9, so that His people receive from Him the very thing the rich man of verse 2 could not take: the ability to enjoy God's gifts as gifts.\n\nThe chapter's closing question, 'Who can tell a man what will come after him under the sun?', 6:12, receives its answer in the person of Jesus Christ, who does tell his disciples what is coming. He speaks about the resurrection, the judgment and the kingdom, and He rose from the dead as the proof, Acts 17:31. The future the Teacher says no one can know is made known by the One who has been through death and come back. Paul can therefore say that 'in the Lord your labor is not in vain', 1 Corinthians 15:58, which reverses the Teacher's complaint about the pointlessness of toil.\n\nThere is also a pattern in the stillborn comparison. The child 'enters in futility and departs in darkness' without a name, and Jesus enters life in obscurity, is buried in a borrowed tomb, and is raised so that His people may have names in the book of life, Revelation 3:5. Here a note of caution is needed. The Teacher is not predicting Christ in the stillborn image, and it would be wrong to find hidden messages in each detail. The links are through the New Testament's own claims: that hunger is satisfied in Christ, that the stronger One has come in mercy, and that the future is no longer a blank.",
+    "god": "The chapter's first lesson about God is uncomfortable and honest: He is the one who gives, and He is the one who holds back. The Teacher does not blame bad luck or the stranger who takes the goods. He says, 'God gives a man riches, wealth, and honor... but God does not allow him to enjoy them.' It is not the picture of a God who is arbitrary, since the book has already said that the ability to enjoy is a gift from God's hand, Ecclesiastes 2:24 to 25 and 5:19. It is a picture of a God who is not obliged to us. He cannot be bribed with a full barn, and He is not bound to add gladness to goods.\n\nThe second is that God is the 'one stronger', and the Teacher is unembarrassed about it. This is the same truth that Job meets in the whirlwind: 'Who is this who obscures My counsel by words without knowledge?', Job 38:2, and that Job answers: 'Surely I spoke of things I did not understand, things too wonderful for me to know', Job 42:3. The passage forbids the human habit of putting God on trial, which is a habit that also lies beneath the 'more words' of verse 11. For worship this means that silence is sometimes the right response, and that the right answer to the unanswerable is trust.\n\nThe third is that God is the one who names and fixes the order of things. 'Whatever exists was named long ago' places every created thing, and every person, within a design the person did not draw. This is a doctrine of providence, one that Paul uses when he says that God determined the times set for people and the boundaries of their dwelling, Acts 17:26. It is not fatalism, since the Teacher holds that God gives real enjoyment and that real responsibility remains. But it is a reminder that a human being is a creature, not a maker.\n\nThe fourth is that God is the satisfier. The hunger of verse 7 is not a design fault. It is how the creature is made, and the Bible says it is meant to be met in Him: 'He satisfies the thirsty and fills the hungry with good things', Psalm 107:9, and 'Listen carefully to Me, and eat what is good, and your soul will delight in the richest of foods', Isaiah 55:2. The inability of wealth to fill the soul is not a sign that God is stingy. It is a sign that He made us for Himself.\n\nThe chapter closes the way it has to, by emptying our hands. Worship is therefore a kind of receiving. A person who prays for joy and thanks God for daily bread, Matthew 6:11, is acting out what the Teacher means when he says that the ability to enjoy is a gift. The practical lesson is to ask for it.",
     "crossReferences": [
-      { "ref": "Luke 12:16-21", "note": "The rich fool who laid up goods for himself but was not rich toward God, and whose wealth passed to others at death." },
-      { "ref": "Psalm 39:5-6", "note": "Each person is 'a mere breath'; we heap up wealth not knowing who will gather it, the same hevel outlook." },
-      { "ref": "John 6:35", "note": "Christ the bread of life, in whom the never satisfied appetite of 6:7 is finally met." },
-      { "ref": "John 4:13-14", "note": "The water Christ gives becomes a spring welling up to eternal life, so that one never thirsts again." }
+      {
+        "ref": "Ecclesiastes 5:19",
+        "note": "The mirror image of 6:2. There God gives riches and also enables a man to enjoy them; here He gives riches but does not allow it. The same verb, built on the root for authority and power, shows that the ability to enjoy is a delegated gift God can give or withhold."
+      },
+      {
+        "ref": "Job 3:11-19",
+        "note": "Job wishes he had been hidden like a stillborn child, and describes the grave as a place of rest where the weary find peace. The Teacher draws on the same image, but with a different question. Job asks why he was born into pain. The Teacher asks what a full life is worth without joy."
+      },
+      {
+        "ref": "Ecclesiastes 4:2-3",
+        "note": "Earlier in the book the Teacher said that better than both the living and the dead is the one who has not yet existed, who has not seen the evil done under the sun. Chapter 6 takes the same thought and presses it against the man who is unsatisfied despite his prosperity."
+      },
+      {
+        "ref": "Psalms 39:5-6",
+        "note": "The psalmist says each man at his best is a breath and that he heaps up riches without knowing who will gather them. It matches Ecclesiastes 6:2 and 6:12 closely, and it turns the thought into prayer, which shows where the Teacher's pessimism is meant to lead."
+      },
+      {
+        "ref": "Psalms 144:3-4",
+        "note": "Man is like a breath, and his days are like a passing shadow. The language of Ecclesiastes 6:12 is almost the same, with the word 'hevel' and the shadow side by side. It places the Teacher's lament in a tradition of wonder that God should even regard so fleeting a creature."
+      },
+      {
+        "ref": "Proverbs 27:20",
+        "note": "Sheol and Abaddon are never satisfied, and the eyes of man are never satisfied. It is the proverbial form of Ecclesiastes 6:7 and 6:9, tying human craving to death itself. Wanting without end belongs to the same family as dying without end."
+      },
+      {
+        "ref": "Luke 12:16-21",
+        "note": "A rich man stores up his harvest, tells himself to relax, and is called a fool that same night. The question 'who will own what you have accumulated?' is the stranger of Ecclesiastes 6:2 given a voice. Jesus ends with the remedy the Teacher can only point toward: to be rich toward God."
+      },
+      {
+        "ref": "John 6:35",
+        "note": "Jesus says that whoever comes to Him will never hunger and whoever believes in Him will never thirst. This meets the unfilled appetite of Ecclesiastes 6:7 head on. The longing the Teacher says nothing under the sun can satisfy is promised a satisfaction in a person."
+      },
+      {
+        "ref": "Romans 9:20",
+        "note": "Paul asks, 'Who are you, O man, to talk back to God?' and speaks of the thing formed and the One who formed it. It is the New Testament voice behind Ecclesiastes 6:10, where no one can contend with one stronger, and it shows the humility of the creature as the right response."
+      },
+      {
+        "ref": "Genesis 5:27",
+        "note": "Methuselah is the longest life in Scripture at 969 years, and he still died. The Teacher's 'thousand years twice over' in Ecclesiastes 6:6 goes beyond what any person has lived, to make the point that length of days alone cannot rescue a life from futility."
+      },
+      {
+        "ref": "Isaiah 55:2",
+        "note": "The Lord asks why anyone would spend money on what is not bread, and labour on what does not satisfy, and invites the listener to eat what is good. It is the invitation that answers Ecclesiastes 6:7, since the labour that is for the mouth finds its end in a feast that is given."
+      },
+      {
+        "ref": "1 Kings 3:13",
+        "note": "God gave Solomon what he did not ask for, both riches and honour. The Teacher's list in Ecclesiastes 6:2 draws on the same gifts, and for a reader who connects the Teacher with Solomon the point is sharp: a man who had been given all of it is the one saying it can be empty."
+      }
     ],
-    "oneStory": "A man with everything and no power to enjoy it is Scripture's sharpest proof that our hunger runs deeper than this world can reach. The Teacher refuses to relieve the ache, and the Bible carries it forward until Christ answers it: the bread of life and the living water, the stronger One who comes to satisfy rather than to crush, giving both the gift and the joy of it, now and beyond the fleeting shadow of our days.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "The Bible's first chapters describe a world in which enjoyment came without anxiety. The man and woman were given the garden and told they could eat freely, Genesis 2:16, and the narrator says they were naked and not ashamed. The loss of this ease is the root of Ecclesiastes 6. After the fall the same earth is a place of toil, thorns and appetite, and the ability to enjoy what one has is no longer simply given. The Teacher has not discovered a new problem. He has described what it feels like to live east of Eden.\n\nIn the rest of the Old Testament, the people of God feel this distance repeatedly. Israel is brought to a land flowing with milk and honey and warned that the full life depends on God's presence, Deuteronomy 8:10 to 14. The prophets speak of wealth that cannot satisfy, Isaiah 55:2 and Haggai 1:6, where people sow much and harvest little, eat but are never satisfied, and earn wages to put into a bag with holes. The Psalms put the sorrow into prayer. Chapter 6 belongs among them as a sober entry in the book of those who ask why a full hand and a full house can be an empty life.\n\nThe New Testament does not leave the ache. It names the One who fills. In Jesus the bread of life has come, John 6:35, and the water that wells up to eternal life has been offered, John 4:14. Jesus' parable of the rich fool takes the Teacher's observation and finishes it with the call to be rich toward God. The gospel does not remove the Teacher's honesty about prosperity. It gives it a resolution. A believer is told to enjoy God's gifts, to hold them loosely, and to find his satisfaction in the Giver, which is the contentment Paul describes in Philippians 4:11 to 13.\n\nThe story ends in a feast. The new creation is described as a place where the hungry will hunger no more and the thirsty no more, Revelation 7:16, and where God will wipe away every tear, Revelation 7:17. The tree of life stands again, Revelation 22:2. Where the Teacher says the appetite of man is never filled, the last chapters of the Bible say it will be filled, and by a Person. The stillborn child in the dark has a counterpart in those who see His face, Revelation 22:4, and whose names are written in the Lamb's book of life, Revelation 21:27.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What is the 'evil' or affliction the Teacher names in 6:1-2?",
       "options": [
-        { "text": "A man has riches, wealth, and honor but is not granted the power to enjoy them, and a stranger enjoys them instead.", "weight": 100, "note": "The tragedy is prosperity without the God given ability to enjoy it." },
-        { "text": "A wealthy man loses everything and dies in poverty.", "weight": 75, "note": "Loss appears elsewhere, but here the man keeps his wealth and still cannot enjoy it." },
-        { "text": "A poor man is oppressed by officials.", "weight": 25, "note": "That was chapter 5; here the subject is an unenjoyed abundance." },
-        { "text": "A man refuses to work and so has nothing.", "weight": 0, "note": "The man lacks nothing his heart desires; the problem is the missing gift of enjoyment." }
+        {
+          "text": "A man has riches, wealth, and honor but is not granted the power to enjoy them, and a stranger enjoys them instead.",
+          "weight": 100,
+          "note": "The tragedy is prosperity without the God given ability to enjoy it."
+        },
+        {
+          "text": "A wealthy man loses everything and dies in poverty.",
+          "weight": 75,
+          "note": "Loss appears elsewhere, but here the man keeps his wealth and still cannot enjoy it."
+        },
+        {
+          "text": "A poor man is oppressed by officials.",
+          "weight": 25,
+          "note": "That was chapter 5; here the subject is an unenjoyed abundance."
+        },
+        {
+          "text": "A man refuses to work and so has nothing.",
+          "weight": 0,
+          "note": "The man lacks nothing his heart desires; the problem is the missing gift of enjoyment."
+        }
       ]
     },
     {
       "q": "Why does the Teacher say a stillborn child is better off than the unsatisfied rich man?",
       "options": [
-        { "text": "Because the child has rest, while the man, for all his years and children, never enjoys his prosperity.", "weight": 100, "note": "The extreme comparison drives home that a life unenjoyed is worse than one never lived." },
-        { "text": "Because both finally go to the same place.", "weight": 75, "note": "Verse 6 says this, but the sharper point is the man's failure to enjoy what he has." },
-        { "text": "Because the child avoids the oppression of officials.", "weight": 25, "note": "That theme belongs to chapter 5, not this comparison." },
-        { "text": "Because children are always better off than adults.", "weight": 0, "note": "The comparison is specific and shocking, not a general claim about children." }
+        {
+          "text": "Because the child has rest, while the man, for all his years and children, never enjoys his prosperity.",
+          "weight": 100,
+          "note": "The extreme comparison drives home that a life unenjoyed is worse than one never lived."
+        },
+        {
+          "text": "Because both finally go to the same place.",
+          "weight": 75,
+          "note": "Verse 6 says this, but the sharper point is the man's failure to enjoy what he has."
+        },
+        {
+          "text": "Because the child avoids the oppression of officials.",
+          "weight": 25,
+          "note": "That theme belongs to chapter 5, not this comparison."
+        },
+        {
+          "text": "Because children are always better off than adults.",
+          "weight": 0,
+          "note": "The comparison is specific and shocking, not a general claim about children."
+        }
       ]
     },
     {
       "q": "What does 6:7-12 say about human limits?",
       "options": [
-        { "text": "Our appetite is never satisfied, and we cannot see or secure what comes after us under the sun.", "weight": 100, "note": "The closing verses stress the unfilled hunger and the unknowable future." },
-        { "text": "The wise man clearly outgains the fool in every way.", "weight": 75, "note": "The text actually questions how much advantage the wise man really has, 6:8." },
-        { "text": "Hard work always leads to lasting satisfaction.", "weight": 25, "note": "Verse 7 says the opposite: labor feeds an appetite never filled." },
-        { "text": "We can fully control our own future if we plan well.", "weight": 0, "note": "Verse 12 says no one can tell what will come after him under the sun." }
+        {
+          "text": "Our appetite is never satisfied, and we cannot see or secure what comes after us under the sun.",
+          "weight": 100,
+          "note": "The closing verses stress the unfilled hunger and the unknowable future."
+        },
+        {
+          "text": "The wise man clearly outgains the fool in every way.",
+          "weight": 75,
+          "note": "The text actually questions how much advantage the wise man really has, 6:8."
+        },
+        {
+          "text": "Hard work always leads to lasting satisfaction.",
+          "weight": 25,
+          "note": "Verse 7 says the opposite: labor feeds an appetite never filled."
+        },
+        {
+          "text": "We can fully control our own future if we plan well.",
+          "weight": 0,
+          "note": "Verse 12 says no one can tell what will come after him under the sun."
+        }
       ]
     },
     {
       "q": "Is 6:1-6 best read as pure despair or as a diagnosis?",
       "options": [
-        { "text": "As a diagnosis: an extreme case exposing that prosperity is empty without the God given power to enjoy it.", "weight": 100, "note": "The shocking comparison is a wisdom device to make us feel the disease and seek the cure in God." },
-        { "text": "As the book's bleakest and most pessimistic note.", "weight": 75, "note": "It is genuinely dark, but read as diagnosis it sets up the gift of enjoyment and the satisfaction found in God." },
-        { "text": "As advice never to have children or wealth.", "weight": 25, "note": "The passage does not counsel against children or wealth; it targets the inability to enjoy them." },
-        { "text": "As proof that life has no meaning whatsoever.", "weight": 0, "note": "The Teacher elsewhere commends real joy; this passage exposes a specific tragedy, not universal meaninglessness." }
+        {
+          "text": "As a diagnosis: an extreme case exposing that prosperity is empty without the God given power to enjoy it.",
+          "weight": 100,
+          "note": "The shocking comparison is a wisdom device to make us feel the disease and seek the cure in God."
+        },
+        {
+          "text": "As the book's bleakest and most pessimistic note.",
+          "weight": 75,
+          "note": "It is genuinely dark, but read as diagnosis it sets up the gift of enjoyment and the satisfaction found in God."
+        },
+        {
+          "text": "As advice never to have children or wealth.",
+          "weight": 25,
+          "note": "The passage does not counsel against children or wealth; it targets the inability to enjoy them."
+        },
+        {
+          "text": "As proof that life has no meaning whatsoever.",
+          "weight": 0,
+          "note": "The Teacher elsewhere commends real joy; this passage exposes a specific tragedy, not universal meaninglessness."
+        }
       ]
     },
     {
       "q": "How does this chapter point us toward Christ?",
       "options": [
-        { "text": "It uncovers a hunger no wealth can fill, which Christ alone satisfies as the bread of life and living water.", "weight": 100, "note": "The never satisfied appetite finds its answer in Jesus, John 6:35 and John 4:14." },
-        { "text": "It reminds us that life is short, as the gospel also teaches.", "weight": 75, "note": "True, but it underplays the direct line to Christ who satisfies the deepest hunger." },
-        { "text": "It promises that the faithful will always be wealthy.", "weight": 25, "note": "The chapter runs the other way, exposing the emptiness of unenjoyed wealth." },
-        { "text": "It has nothing to do with Christ.", "weight": 0, "note": "Its theme of unsatisfied hunger runs straight to Jesus, the bread and water of life." }
+        {
+          "text": "It uncovers a hunger no wealth can fill, which Christ alone satisfies as the bread of life and living water.",
+          "weight": 100,
+          "note": "The never satisfied appetite finds its answer in Jesus, John 6:35 and John 4:14."
+        },
+        {
+          "text": "It reminds us that life is short, as the gospel also teaches.",
+          "weight": 75,
+          "note": "True, but it underplays the direct line to Christ who satisfies the deepest hunger."
+        },
+        {
+          "text": "It promises that the faithful will always be wealthy.",
+          "weight": 25,
+          "note": "The chapter runs the other way, exposing the emptiness of unenjoyed wealth."
+        },
+        {
+          "text": "It has nothing to do with Christ.",
+          "weight": 0,
+          "note": "Its theme of unsatisfied hunger runs straight to Jesus, the bread and water of life."
+        }
       ]
     }
   ],
@@ -163,9 +385,21 @@
     "Jesus offers bread and water that finally satisfy. What would it look like this week to bring your deepest hunger to Him instead of to your possessions or achievements?"
   ],
   "translationNotes": [
-    { "ref": "Ecclesiastes 6:2", "note": "'Futile' renders hevel, breath or vapor; the misery is not that the wealth is worthless but that it slips through the man's grasp unenjoyed, like mist. 'A stranger will enjoy them' means an outsider rather than an heir, a bitter dishonor in that culture." },
-    { "ref": "Ecclesiastes 6:11", "note": "The line mocks the idea that piling up words secures anything." },
-    { "ref": "Ecclesiastes 6:12", "note": "'Fleeting life like a shadow' again renders hevel and its imagery. 'Under the sun' is the Teacher's phrase for life viewed within this world alone, apart from what God reveals of eternity." }
+    {
+      "ref": "Ecclesiastes 6:2",
+      "note": "'Futile' renders hevel, breath or vapor; the misery is not that the wealth is worthless but that it slips through the man's grasp unenjoyed, like mist. 'A stranger will enjoy them' means an outsider rather than an heir, a bitter dishonor in that culture."
+    },
+    {
+      "ref": "Ecclesiastes 6:11",
+      "note": "The line mocks the idea that piling up words secures anything."
+    },
+    {
+      "ref": "Ecclesiastes 6:12",
+      "note": "'Fleeting life like a shadow' again renders hevel and its imagery. 'Under the sun' is the Teacher's phrase for life viewed within this world alone, apart from what God reveals of eternity."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Ecclesiastes 6:1-12. Verse content segments concatenated in order; poetic lines rendered as flowing prose within each verse." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Ecclesiastes 6:1-12. Verse content segments concatenated in order; poetic lines rendered as flowing prose within each verse."
+  }
 }
