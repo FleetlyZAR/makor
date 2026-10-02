@@ -18,10 +18,26 @@
         "note": "praise in the assembly",
         "emphasis": "",
         "verses": [
-          { "chapter": 111, "n": 1, "text": "Hallelujah! I will give thanks to the LORD with all my heart in the council of the upright and in the assembly." },
-          { "chapter": 111, "n": 2, "text": "Great are the works of the LORD; they are pondered by all who delight in them." },
-          { "chapter": 111, "n": 3, "text": "Splendid and majestic is His work; His righteousness endures forever." },
-          { "chapter": 111, "n": 4, "text": "He has caused His wonders to be remembered; the LORD is gracious and {{rachum|compassionate}}." }
+          {
+            "chapter": 111,
+            "n": 1,
+            "text": "Hallelujah! I will give thanks to the LORD with all my heart in the council of the upright and in the assembly."
+          },
+          {
+            "chapter": 111,
+            "n": 2,
+            "text": "Great are the works of the LORD; they are pondered by all who delight in them."
+          },
+          {
+            "chapter": 111,
+            "n": 3,
+            "text": "Splendid and majestic is His work; His righteousness endures forever."
+          },
+          {
+            "chapter": 111,
+            "n": 4,
+            "text": "He has caused His wonders to be remembered; the LORD is gracious and {{rachum|compassionate}}."
+          }
         ]
       },
       {
@@ -29,8 +45,16 @@
         "note": "provision and inheritance",
         "emphasis": "",
         "verses": [
-          { "chapter": 111, "n": 5, "text": "He provides food for those who fear Him; He remembers His {{berit|covenant}} forever." },
-          { "chapter": 111, "n": 6, "text": "He has shown His people the power of His works by giving them the inheritance of the nations." }
+          {
+            "chapter": 111,
+            "n": 5,
+            "text": "He provides food for those who fear Him; He remembers His {{berit|covenant}} forever."
+          },
+          {
+            "chapter": 111,
+            "n": 6,
+            "text": "He has shown His people the power of His works by giving them the inheritance of the nations."
+          }
         ]
       },
       {
@@ -38,18 +62,49 @@
         "note": "trustworthy precepts, redemption, and awe",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 111, "n": 7, "text": "The works of His hands are truth and justice; all His precepts are trustworthy." },
-          { "chapter": 111, "n": 8, "text": "They are upheld forever and ever, enacted in truth and uprightness." },
-          { "chapter": 111, "n": 9, "text": "He has sent redemption to His people; He has ordained His covenant forever; holy and awesome is His name." },
-          { "chapter": 111, "n": 10, "text": "The fear of the LORD is the beginning of {{chokmah|wisdom}}; all who follow His precepts gain rich understanding. His praise endures forever!" }
+          {
+            "chapter": 111,
+            "n": 7,
+            "text": "The works of His hands are truth and justice; all His precepts are trustworthy."
+          },
+          {
+            "chapter": 111,
+            "n": 8,
+            "text": "They are upheld forever and ever, enacted in truth and uprightness."
+          },
+          {
+            "chapter": 111,
+            "n": 9,
+            "text": "He has sent redemption to His people; He has ordained His covenant forever; holy and awesome is His name."
+          },
+          {
+            "chapter": 111,
+            "n": 10,
+            "text": "The fear of the LORD is the beginning of {{chokmah|wisdom}}; all who follow His precepts gain rich understanding. His praise endures forever!"
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "rachum": { "language": "Hebrew", "lemma": "rachum", "original": "רַחוּם", "gloss": "Compassionate, tender in mercy, from the same root as womb, picturing a parent's deep tenderness. Paired with gracious, chanun, this phrase echoes God's self-revelation to Moses in Exodus 34:6." },
-    "berit": { "language": "Hebrew", "lemma": "berit", "original": "בְּרִית", "gloss": "Covenant, a solemn binding agreement. God's remembrance of His covenant forever is the ground of both His provision for His people, verse 5, and the redemption He has sent them, verse 9." },
-    "chokmah": { "language": "Hebrew", "lemma": "chokmah", "original": "חָכְמָה", "gloss": "Wisdom, skillful living rightly ordered toward God. The fear of the LORD, reverent awe before His holiness, is named as its very starting point, a truth repeated across the wisdom literature, Proverbs 1:7, 9:10." }
+    "rachum": {
+      "language": "Hebrew",
+      "lemma": "rachum",
+      "original": "רַחוּם",
+      "gloss": "Compassionate, tender in mercy, from the same root as womb, picturing a parent's deep tenderness. Paired with gracious, chanun, this phrase echoes God's self-revelation to Moses in Exodus 34:6."
+    },
+    "berit": {
+      "language": "Hebrew",
+      "lemma": "berit",
+      "original": "בְּרִית",
+      "gloss": "Covenant, a solemn binding agreement. God's remembrance of His covenant forever is the ground of both His provision for His people, verse 5, and the redemption He has sent them, verse 9."
+    },
+    "chokmah": {
+      "language": "Hebrew",
+      "lemma": "chokmah",
+      "original": "חָכְמָה",
+      "gloss": "Wisdom, skillful living rightly ordered toward God. The fear of the LORD, reverent awe before His holiness, is named as its very starting point, a truth repeated across the wisdom literature, Proverbs 1:7, 9:10."
+    }
   },
   "study": {
     "basic": {
@@ -63,76 +118,248 @@
       "oneStory": "The great works of God, from creation to the giving of the land to sending redemption, all flow from His covenant faithfulness and compassionate character, a pattern completed in Christ, whose redemption and everlasting covenant fulfill this psalm's praise and whose person is the very wisdom that reverent fear of the LORD leads toward."
     },
     "context": {
-      "literary": "An alphabetic acrostic, each half-verse beginning with a successive Hebrew letter, twenty-two segments in all, a structure signaling completeness, that God's praiseworthy works span from A to Z, and forming a matched pair with the similarly structured Psalm 112.",
-      "historical": "Likely sung in post-exilic temple worship when renewed emphasis on covenant, Torah, and communal praise was needed, its opening Hallelujah and communal assembly setting fitting the corporate thanksgiving of restored worshipers.",
-      "canonical": "Twinned with Psalm 112, this psalm describes the great God while its companion describes the flourishing life of the one who fears Him, together forming a single lesson in piety and its fruit."
+      "literary": "The alphabet is the skeleton of this psalm, and it is worth noticing how the poet fits a wide subject into a narrow frame. Each half-line starts with the next Hebrew letter, and the lines are very short, only a few words each. The poem opens with the first two letters in verse 1 and then gives two lines to each verse through verse 8. Verses 9 and 10 have three lines each, which brings the count to twenty-two. That small change of rhythm at the end is not an accident: the last two verses carry the conclusion, and the extra line lets the poem slow down.\n\nThe poem has no argument in the sense of a sermon. It circles. The works of God, in verses 2, 3, 4, 6 and 7, return again and again, and each time a different quality is added: great, splendid, wonderful, powerful, true. Verse 3 says that His righteousness endures forever, and verse 8 says that His precepts are upheld forever and ever. Verse 5 and verse 9 both mention His covenant forever. The effect is of a thing seen from several sides. The word 'forever' appears at the end of the main sections, so the psalm keeps lifting the eye from what God did to what God is.\n\nThe shape of the content is a movement from public praise to private fear. Verse 1 is spoken in the assembly, 'the council of the upright,' and the final verse speaks of the single person who 'follows His precepts.' The final line, 'His praise endures forever,' returns to the beginning. The acrostic also adds a structural point. The line about wisdom begins with resh, the third letter from the end of the alphabet, so the proverb about the fear of the LORD stands where the alphabet is nearly finished, as though it were the last word on everything.",
+      "historical": "The acrostic form was a mark of memorable, teachable poetry in Israel. The Psalter has several other alphabetical poems, among them Psalms 9 and 10, 25, 34, 37, 112 and 145, and the long Psalm 119. The form suited a psalm meant to be learned by heart and said again in the assembly. The psalm is sung 'in the council of the upright and in the assembly,' verse 1. The first of those two words, sod, means a circle of confidants, and it is used of the heavenly council in Psalm 89:7, so the poet pictures a gathering of close friends of God as well as a congregation.\n\nThe works the psalm describes are drawn from Israel's national memory, and a first hearer would have supplied the details. 'He provides food for those who fear Him,' verse 5, would call to mind the manna that God rained from heaven in the wilderness, Exodus 16:4 and Psalm 78:24-25. 'He remembers His covenant forever' recalls the oath to Abraham, which Psalm 105:42-45 recounts in nearly the same terms, ending with the gift of 'the lands of the nations' as an inheritance. Verse 9's 'redemption' belongs to the Exodus, since Deuteronomy 7:8 says that the LORD 'redeemed you from the house of slavery.' And verse 4's gracious and compassionate God quotes the self-description given to Moses in Exodus 34:6, a verse Israel returned to in times of trouble, as in Nehemiah 9:17.\n\nThe setting is worship. The psalm gives thanks first and then explains the reasons, which is the usual way of a hymn of praise. It does not mention a specific crisis or a particular king, which makes it suitable for any generation. The confidence of verses 7 and 8 that the precepts are trustworthy reads like the verdict of a community that had lived with the commandments and tested them.",
+      "canonical": "Psalm 111 draws deeply on the earlier books and passes its own language on. The description of God as 'gracious and compassionate' in verse 4 comes from Exodus 34:6, and the same pair is used again in Psalm 145:8 and Nehemiah 9:17. The language of covenant, redemption and inheritance recalls the Exodus and the gift of the land, and a reader of Deuteronomy would also hear its charge to observe the commandments and fear the LORD, Deuteronomy 6:24. The final verse sums up what the wisdom tradition teaches. Proverbs 9:10 says almost the same thing, 'The fear of the LORD is the beginning of wisdom,' and Proverbs 1:7 says it of knowledge. Job 28:28 and Ecclesiastes 12:13 state the same thing as the end of the matter, which is a hint that the fear of God is both the starting point and the goal of wisdom.\n\nThe psalm also shares more than a form with the one that follows. Psalm 112 repeats several lines word for word but applies them to the person who fears the LORD. The two form a pair, a hymn about God and a portrait of the godly, and they must be read together.\n\nThe New Testament does not quote Psalm 111 directly, but its phrases carry through. Mary's song shows how thoroughly the psalm shaped Israel's piety: 'Holy is His name,' 'His mercy extends to those who fear Him,' and 'remembering to be merciful,' Luke 1:49-54. Zechariah's song echoes the same words, 'He has visited and redeemed His people,' and 'to remember His holy covenant,' Luke 1:68-72. In Revelation 15:3-4 the song of Moses and the Lamb says 'Great and wonderful are Your works,' and then asks who will not fear Him, which almost repeats verses 2 and 9 of the psalm."
     },
     "hermeneutics": {
-      "authorIntent": "To lead worshipers from admiring meditation on God's great works into confident trust in His covenant faithfulness, concluding that reverent fear of this God is the necessary starting point for all true wisdom.",
-      "descriptionVsPrescription": "The psalm describes God's historical works, creation, covenant, conquest, and redemption; it prescribes the ongoing pattern of meditating on these works, delighting in them, and living in reverent fear that issues in following His trustworthy precepts.",
+      "authorIntent": "The psalmist means to teach by praise. He does not argue that God is great; he invites the congregation to look at what God has done and to see what follows. The first thing he wants them to grasp is that God's works are meant to be studied. Verse 2 says they are 'pondered by all who delight in them,' and so worship here involves the mind. A person who loves God is expected to look closely at His acts, and to find in them a record of His character.\n\nThe second purpose is to ground the covenant in memory. God 'has caused His wonders to be remembered,' verse 4, and He Himself 'remembers His covenant forever,' verse 5. Israel's remembering matches God's remembering, and the psalm wants the first to follow the second. A people who forget the Exodus and the manna will begin to treat the commandments as arbitrary rules. A people who remember will see them as the instructions of the one who redeemed them.\n\nThe third purpose comes in the closing verse. After so much about God's works, the psalmist concludes with a practical word for the listener: the right response is fear, and the wise are those who act on what they have learned. Wisdom is not given to the clever but to the reverent. The first hearers were meant to leave the assembly not just full of admiration but ready to live differently on the following morning.",
+      "descriptionVsPrescription": "Most of this psalm describes God, and very little of it commands. The only direct summons is in the opening line, and it is really the psalmist's own resolve, 'I will give thanks.' What he describes about God's works, His provision and His covenant is a statement of what is true, and the reader is not asked to copy it. We cannot give an inheritance of the nations or send redemption. The proper response is gratitude and trust, not imitation.\n\nThe last verse is the one place where the psalm moves toward instruction, and it is careful in how it does so. 'The fear of the LORD is the beginning of wisdom' is a principle, not a technique. It does not promise that a believer will have every answer, but it says where understanding starts. The line 'all who follow His precepts gain rich understanding' offers a general truth about the way wisdom grows through obedience, in the manner of proverbs, and is not a guarantee that obedience always brings every kind of insight at once. Applied today, the psalm invites believers to join their praise with their study of what God has done, and to expect that those who practise what they know will understand more.",
       "debates": [
-        { "question": "Does verse 6, giving them the inheritance of the nations, refer only to the conquest of Canaan or does it anticipate a wider inheritance?", "views": [ { "label": "The verse refers specifically to Israel's historical conquest and possession of Canaan", "case": "The immediate context of covenant, provision, and God's works among His people fits the concrete historical inheritance of the promised land, as in Joshua 21:43-45." }, { "label": "The verse anticipates a wider, typological inheritance fulfilled in the church's inheritance in Christ", "case": "The New Testament repeatedly reframes the promised inheritance in terms of the believer's inheritance in Christ, Ephesians 1:11, suggesting the historical conquest foreshadows a greater fulfillment." } ], "bearing": "Both readings affirm the same truth: God powerfully and faithfully grants His people an inheritance they did not earn, whether the land of Canaan historically or the fuller inheritance secured in Christ." }
+        {
+          "question": "In verse 10, what does 'beginning' mean in 'the beginning of wisdom'?",
+          "views": [
+            {
+              "label": "The starting point, the first step",
+              "case": "The Hebrew word reshit can mean the first in a series. On this view, fear of the LORD is where a person begins, and wisdom grows from there into other kinds of understanding. The idea fits Proverbs 1:7, where the fear of the LORD is the beginning of knowledge, and a person who starts in the wrong place never arrives."
+            },
+            {
+              "label": "The foundation or chief part",
+              "case": "Others hold that reshit means the chief or essential element, the thing everything else depends on and which stays for ever. Job 28:28 supports this by saying 'the fear of the Lord, that is wisdom,' and Ecclesiastes 12:13 calls it 'the whole duty of man.' Psalm 19:9 adds that the fear of the LORD is 'pure, enduring forever,' which suggests it is never left behind."
+            }
+          ],
+          "bearing": "Both are probably true. Fear of the LORD is where wisdom starts and what it never outgrows, so a person does not graduate from reverence into wisdom as though they were two stages."
+        },
+        {
+          "question": "Does verse 6, giving them 'the inheritance of the nations,' refer only to the conquest of Canaan?",
+          "views": [
+            {
+              "label": "It speaks only of the land",
+              "case": "Psalm 105:44 uses almost identical wording of the settlement in Canaan, and Joshua 21:43-45 records that 'not one of all the LORD's good promises' had failed. The psalm lists what God has already done, and in this reading the land belongs among those completed acts."
+            },
+            {
+              "label": "It has a wider reach that the New Testament takes up",
+              "case": "The land was always a pledge of something greater. The New Testament speaks of an inheritance for believers in Christ, Ephesians 1:11-14, and an unshakable kingdom, Hebrews 12:28. On this view the first inheritance prepared Israel to understand the larger one."
+            }
+          ],
+          "bearing": "The psalm itself speaks of a past gift, so the first reading governs the plain sense. The wider meaning rests on what Scripture later does with the land, and the two do not compete."
+        }
       ]
     },
-    "originalLanguages": "God is rachum, compassionate, and gracious, verse 4, echoing His self-revelation in Exodus 34:6. His berit, covenant, is the ground of both provision, verse 5, and redemption, verse 9. And chokmah, wisdom, is declared to begin precisely at reverent fear of Him, verse 10, a truth repeated throughout the wisdom literature.",
+    "originalLanguages": "The first word in the poem after the call to praise, odeh, 'I will give thanks,' comes from a root, yadah, that means to confess or acknowledge, so thanksgiving here is a public declaration that God has done what He has done. It is a verb of speaking out, and verse 1 places it 'with all my heart' in the assembly, so the heart and the congregation are both involved.\n\nIn verse 2 the works are 'pondered,' derushim in Hebrew, from the verb darash, to seek, inquire or study. The same verb is used elsewhere of seeking God and of inquiring into His law, so the works are meant to be sought out. The word 'delight,' chephets, is a strong word for desire, and it shows that the people who study God's works do so from love.\n\nVerse 4 uses the word zeker, a memorial, for the way God has made His wonders remembered. The word 'wonders' is a form of the verb pala, to be extraordinary, the word used in Exodus 15:11 of the LORD 'performing wonders.' The acrostic forces a change of order in the next line. In Exodus 34:6 and Nehemiah 9:17 the pair is rachum, compassionate, then chanun, gracious. Here the line must begin with the letter chet, so it reads chanun and then rachum. The effect is only a shift in order, but it shows how the poet holds fast to the traditional pair even under the pressure of the form.\n\nVerse 5 says that God 'provides food,' using the word teref. The word is uncommon, and elsewhere it can mean prey, as in the blessing on Judah in Genesis 49:9, though it appears for ordinary household food in Proverbs 31:15. The psalm uses it for the food God gives to those who fear Him. The next phrase, 'He remembers His covenant forever,' uses the verb zakar, so memory and provision are placed side by side.\n\nIn verse 7, the precepts are 'trustworthy,' from the verb aman, the root that gives us amen and emunah. They are something a person can lean on and build on. Psalm 119:86 uses a word from the same root of God's commandments, 'faithful.' Verse 8 adds that they are 'upheld,' samuk, a term for being propped or supported.\n\nThe word 'redemption' in verse 9, pedut, comes from the family of padah, which means to ransom or to buy back. Deuteronomy 7:8 uses the verb of the Exodus. The psalm does not say what God redeemed His people from, so the word is left open to the Exodus and to every later deliverance.\n\nIn verse 9 the name is 'awesome,' nora, and in verse 10 the 'fear' of the LORD is yirat, and both come from the same root, yare. So the last two verses are tied together by a wordplay that English hides: God's name is to be feared, and fearing it is the beginning of wisdom.",
     "typology": [
-      { "type": "The redemption sent to His people, verse 9", "fulfillment": "Fulfilled in Christ's redemption accomplished at the cross, sealing an everlasting covenant in His own blood, Hebrews 13:20." },
-      { "type": "The fear of the LORD as the beginning of wisdom, verse 10", "fulfillment": "Fulfilled in Christ, in whom are hidden all the treasures of wisdom and knowledge, Colossians 2:3, the wisdom this psalm points every reverent worshiper toward." }
+      {
+        "type": "The food God provides, verse 5, and the manna",
+        "fulfillment": "The provision of verse 5 recalls the manna that God rained from heaven for His people in the wilderness, Exodus 16:4 and Psalm 78:24-25, a gift given daily and enough for the day. Jesus uses that picture of Himself: 'it was not Moses who gave you the bread from heaven, but it is My Father who gives you the true bread,' and 'I am the bread of life,' John 6:32-35. The correspondence is of a gift from God sustaining those who trust Him. The escalation is that manna fed the body for a day, while the true bread gives life to the world. The type falls short in that those who ate manna died, John 6:49-50."
+      },
+      {
+        "type": "The memorial of His wonders, verse 4",
+        "fulfillment": "God 'has caused His wonders to be remembered,' and Israel kept the Passover and the feasts to hold the Exodus in memory. At the last supper Jesus took the bread and the cup and said, 'do this in remembrance of Me,' Luke 22:19-20, so that His people would keep a memorial of a greater redemption. The correspondence is of a meal that recalls a rescue. Where the Passover looked back at deliverance from Egypt, the Lord's Supper looks to the cross and 'the new covenant in My blood.' The type falls short because the first memorial pointed to a redemption that had to be repeated each year in a worship that could not remove sin, Hebrews 10:3-4."
+      },
+      {
+        "type": "Redemption sent to His people, verse 9",
+        "fulfillment": "The Exodus was Israel's great redemption, and Deuteronomy 7:8 says that the LORD 'redeemed you from the house of slavery.' Zechariah praises God because 'He has visited and redeemed His people,' Luke 1:68, and then applies the redemption to the coming of a 'horn of salvation' from David's house. Paul says that Christ Jesus has become for us 'our righteousness, holiness, and redemption,' 1 Corinthians 1:30. The escalation is from a rescue out of a nation's bondage to a rescue from sin and death. The earlier pattern is a true picture, but it freed a people for a land, while the greater one frees them for God."
+      },
+      {
+        "type": "The covenant ordained forever, verse 9",
+        "fulfillment": "The covenant of verses 5 and 9 is rooted in the promise to Abraham, which the psalm ties to the gift of the land. Jesus takes the cup and says 'This cup is the new covenant in My blood,' Luke 22:20, and the author of Hebrews speaks of 'the blood of the eternal covenant,' Hebrews 13:20. The correspondence is of a covenant that never ends. The escalation is that the new covenant secures what the old one could only point to, a forgiveness that does not need to be repeated. The type falls short in that the first covenant was ratified with the blood of animals, while the new one rests on a better sacrifice."
+      }
     ],
-    "christ": "The redemption this psalm celebrates as already accomplished, verse 9, finds its fullest and final form in Jesus Christ, whose blood establishes the everlasting covenant, Hebrews 13:20. Christ is Himself the wisdom in whom this psalm's promised understanding is fully realized, Colossians 2:3, and the wonders of God's work, verse 4, are supremely displayed in Him, through whom all things were made, John 1:3.",
-    "god": "God is great in His works, gracious and compassionate in character, faithful to remember His covenant across every generation, and trustworthy down to every precept He gives, holy and awesome, yet near enough to provide daily food for those who fear Him.",
+    "christ": "This psalm does not name the Messiah, and it would be wrong to force Him into every line. What it does is describe a God whose works, covenant and redemption are all aimed at a future, and the New Testament shows that Christ is where they arrive.\n\nThe redemption of verse 9 is the clearest link. Zechariah's song in Luke 1 shows a godly Israelite hearing the psalm's own words and recognising that they are now being fulfilled: 'He has visited and redeemed His people,' and 'to remember His holy covenant,' Luke 1:68-72. Mary sings of 'Holy is His name' and of mercy to those who fear Him, Luke 1:49-50. Those who had the psalm in their memory heard the birth of Jesus as the moment God's remembered covenant came into action.\n\nThe memorial of verse 4 reaches its form at the last supper. Jesus said of the bread, 'do this in remembrance of Me,' and of the cup, 'the new covenant in My blood,' Luke 22:19-20. The covenant 'ordained forever' of verse 9 is the one the writer of Hebrews calls the 'eternal covenant' and sets beside the resurrection of the great Shepherd, Hebrews 13:20. The God who remembers His covenant forever remembers it by sending His Son.\n\nThe provision of verse 5 meets Christ as the one who gives bread from heaven, John 6:35. Where the manna kept Israel alive for the day, He gives life that does not end. The 'food for those who fear Him' becomes food of a different kind.\n\nThe close of the psalm meets Christ too. The wisdom that begins with the fear of the LORD is not an abstract quality. Paul says that Christ 'has become for us wisdom from God: our righteousness, holiness, and redemption,' 1 Corinthians 1:30, and that in Him 'are hidden all the treasures of wisdom and knowledge,' Colossians 2:3. Isaiah promised that on the coming Branch the Spirit of 'knowledge and fear of the LORD' would rest, and that 'He will delight in the fear of the LORD,' Isaiah 11:2-3. In Jesus the fear of the LORD is perfectly lived, and in Him the wisdom the psalm points to is found.\n\nA caution applies. The psalm is written for those who already know the LORD and does not predict a coming person. The Christological reading relies on what the New Testament does with the same words, and on the unity of the God who acts in both Testaments.",
+    "god": "This psalm is almost entirely about God, and each verse adds something to the portrait. The first thing it teaches is that God is to be known through what He does. The psalm does not begin with attributes in the abstract but with 'works,' a word that comes back again and again in the poem. His greatness, splendour and majesty are seen in what He has made and done, and a believer who wants to know Him better is invited to study His acts.\n\nHe is righteous and unchanging. 'His righteousness endures forever,' verse 3, and His precepts are 'upheld forever and ever,' verse 8. In a world where what is right changes with the times, the psalm sets a God whose standards are fixed. The works of His hands are 'truth and justice,' verse 7, and the commandments flow from the same character, so they are as dependable as His acts.\n\nHe is gracious and compassionate. The statement in verse 4 is taken from the description God gave of Himself to Moses, Exodus 34:6, and it is placed in the middle of the psalm, at the point where the praise turns from His greatness to His kindness. Here the doctrine of God holds two things together that people often separate: a God who is great and awesome, and a God who is near and generous. He provides food for those who fear Him, and 'holy and awesome is His name,' in the same breath.\n\nHe is faithful. He 'remembers His covenant forever,' verse 5, and He 'ordained His covenant forever,' verse 9. God's remembering is not a mental act of recalling something that had slipped from His mind but a commitment to act. The Exodus is the proof, and Psalm 105:42 says so, 'He remembered His holy promise to Abraham.'\n\nHe is holy. The word 'awesome' in verse 9 is the word that gives the psalm its last turn. The God who redeemed is the God who is to be feared. The psalm does not see a conflict between compassion and awe. The redemption is the reason for the fear, not a reason to relax it, and Hebrews 12:28-29 shows the same combination: 'reverence and awe,' and 'our God is a consuming fire.'\n\nFor worship, the psalm teaches that praise should have reasons. It should be specific, and drawn from what God has done, and it should be given in company, in the assembly, as well as alone. It also teaches that the right end of praise is reverence. A congregation that has understood the works of the LORD will not only sing but will grow in the wisdom that begins with fear, and that fear will be the root of a life lived by His precepts.",
     "crossReferences": [
-      { "ref": "Exodus 34:6", "note": "Supplies the language of gracious and compassionate that this psalm directly echoes in describing God's character." },
-      { "ref": "Luke 1:49-55", "note": "Mary's Magnificat mirrors this psalm's themes of God's mighty deeds, covenant remembrance, and holy name." },
-      { "ref": "Hebrews 13:20", "note": "Names the everlasting covenant sealed in Christ's blood, the ultimate redemption this psalm anticipates in verse 9." }
+      {
+        "ref": "Exodus 34:6-7",
+        "note": "God's self-description to Moses is the source of 'gracious and compassionate' in verse 4. The psalm takes the central confession of Israel's faith and sets it among the works that God has done."
+      },
+      {
+        "ref": "Psalm 105:42-45",
+        "note": "A historical psalm that tells the same story at greater length. It uses the same ideas of remembering the promise to Abraham and giving the lands of the nations, so the two can be read side by side."
+      },
+      {
+        "ref": "Proverbs 9:10",
+        "note": "The proverb states what verse 10 says, 'The fear of the LORD is the beginning of wisdom,' and adds that knowledge of the Holy One is understanding. Psalm 111 sets the same teaching at the end of a hymn."
+      },
+      {
+        "ref": "Job 28:28",
+        "note": "After a long search for wisdom, the poem concludes that fear of the Lord is wisdom and turning from evil is understanding. This shows the fear of God as both the beginning and the content of wisdom."
+      },
+      {
+        "ref": "Deuteronomy 7:8",
+        "note": "The Exodus is described as redemption from the house of slavery, because the LORD loved His people and kept His oath. This is the background of the redemption God 'sent' in verse 9."
+      },
+      {
+        "ref": "Exodus 16:4",
+        "note": "God rains down bread from heaven and gives it day by day, to test whether the people will follow His instructions. It lies behind the food that God provides to those who fear Him in verse 5."
+      },
+      {
+        "ref": "Luke 1:46-55",
+        "note": "Mary's song uses the language of the psalm, 'Holy is His name,' mercy to those who fear Him, remembering to be merciful. It shows a faithful Israelite hearing Psalm 111 fulfilled in the coming of Jesus."
+      },
+      {
+        "ref": "Luke 1:68-73",
+        "note": "Zechariah praises the God who has 'visited and redeemed His people' and who remembers 'His holy covenant.' The words match verse 9 and show that the redemption the psalm celebrates is being renewed."
+      },
+      {
+        "ref": "Luke 22:19-20",
+        "note": "At the last supper Jesus commands remembrance and speaks of the new covenant in His blood. The memorial of verse 4 and the covenant of verse 9 are given a new form in the Lord's Supper."
+      },
+      {
+        "ref": "1 Corinthians 1:30",
+        "note": "Christ has become wisdom from God for believers, and is also their righteousness, holiness and redemption. Several of the psalm's key words, wisdom, righteousness and redemption, are brought together in Him."
+      },
+      {
+        "ref": "Isaiah 11:1-3",
+        "note": "The Spirit of wisdom and of the fear of the LORD rests on the coming Branch, who delights in the fear of the LORD. The psalm's ideal of wisdom is shown in a person."
+      },
+      {
+        "ref": "Revelation 15:3-4",
+        "note": "The saints sing 'Great and wonderful are Your works' and ask who will not fear the Lord and glorify His name. The language gathers up verses 2, 4 and 9 and places them at the end of the story."
+      }
     ],
-    "oneStory": "The great works of God, spanning creation, covenant, provision, and redemption, all flow from His gracious and compassionate character, a pattern brought to completion in Christ, whose redemption seals an everlasting covenant and who is Himself the wisdom that reverent fear of the LORD leads every worshiper to find.",
-    "sermon": { "status": "verified", "preacher": "Tim Keller", "title": "God at Work", "url": "https://gospelinlife.com/sermon/god-at-work/", "why": "Keller preaches Psalm 111 within the series Open My Lips: Studies in the Psalms, teaching on a powerful, involved God, a supernaturally changed life, and how to connect the power of God to one's own life, drawing on the twin relationship between Psalm 111 and Psalm 112." }
+    "oneStory": "The story of the Bible begins with a God who makes, and this psalm is a response to the God who makes and then rescues. The works of verses 2 and 3 include creation, since 'splendid and majestic is His work' echoes the way Genesis 1 ends, with God looking on all He had made. The fall, however, meant that the works had to be followed by redemption, and the psalm moves directly from His works to His covenant and from His covenant to the redemption He sent.\n\nThe shape of the psalm is the shape of Israel's history: provision in the wilderness, the oath to Abraham, the inheritance of the land, and the redemption from Egypt. Each of these is a promise kept. But Israel's history also shows how easily the people forgot. Nehemiah 9:17 laments that they 'failed to remember the wonders You performed.' The line 'He has caused His wonders to be remembered' is therefore both a gift and a need, since a people who forgot would be a people without wisdom.\n\nThe line of redemption continues through the prophets, who promised a new covenant that would be written on the heart, and arrives with Jesus. Mary and Zechariah heard the language of this psalm fulfilled in their own days, Luke 1:49-73. At the last supper the memorial was given a new form, and at the cross the covenant was sealed in His blood. The risen Christ is the source of wisdom, righteousness, holiness and redemption for His people, 1 Corinthians 1:30.\n\nThe psalm also looks ahead. The 'inheritance of the nations' of verse 6 becomes the inheritance of all who are in Christ, Ephesians 1:11-14, and the reverent fear of verse 10 finds its final form in the worship of heaven. In Revelation 15:3-4 the redeemed sing of the great and wonderful works of the Lord, and all nations come and worship before Him. The wonders that God made remembered at the beginning are, in the new creation, simply seen, and the praise that 'endures forever' in the last line of the psalm is exactly what the redeemed are doing.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "Tim Keller",
+      "title": "God at Work",
+      "url": "https://gospelinlife.com/sermon/god-at-work/",
+      "why": "Keller preaches Psalm 111 within the series Open My Lips: Studies in the Psalms, teaching on a powerful, involved God, a supernaturally changed life, and how to connect the power of God to one's own life, drawing on the twin relationship between Psalm 111 and Psalm 112."
+    }
   },
   "quiz": [
     {
       "q": "Where does the psalmist resolve to give thanks to the LORD, according to verse 1?",
       "options": [
-        { "text": "With all his heart, in the council of the upright and in the assembly.", "weight": 100, "note": "The praise is both wholehearted and public, private devotion overflowing into corporate worship." },
-        { "text": "Only in private, away from any public gathering.", "weight": 0, "note": "The verse explicitly names the council of the upright and the assembly, a public setting." },
-        { "text": "Only when circumstances are comfortable and easy.", "weight": 25, "note": "No such condition is placed on the thanksgiving described; it is a resolved, wholehearted commitment." },
-        { "text": "Through written psalms alone, never spoken aloud.", "weight": 75, "note": "The setting described, the assembly, implies spoken, communal praise, not merely written composition." }
+        {
+          "text": "With all his heart, in the council of the upright and in the assembly.",
+          "weight": 100,
+          "note": "The praise is both wholehearted and public, private devotion overflowing into corporate worship."
+        },
+        {
+          "text": "Only in private, away from any public gathering.",
+          "weight": 0,
+          "note": "The verse explicitly names the council of the upright and the assembly, a public setting."
+        },
+        {
+          "text": "Only when circumstances are comfortable and easy.",
+          "weight": 25,
+          "note": "No such condition is placed on the thanksgiving described; it is a resolved, wholehearted commitment."
+        },
+        {
+          "text": "Through written psalms alone, never spoken aloud.",
+          "weight": 75,
+          "note": "The setting described, the assembly, implies spoken, communal praise, not merely written composition."
+        }
       ]
     },
     {
       "q": "What does verse 5 say God provides, and what does He remember forever?",
       "options": [
-        { "text": "He provides food for those who fear Him and remembers His covenant forever.", "weight": 100, "note": "This pairs daily provision with covenant faithfulness as the ground of security." },
-        { "text": "He provides wealth for the powerful and forgets the poor.", "weight": 0, "note": "The verse specifically names those who fear Him, not the powerful, as recipients of provision." },
-        { "text": "He provides only military victories, with no mention of covenant.", "weight": 25, "note": "The verse explicitly names both food and the remembrance of His covenant, not merely military matters." },
-        { "text": "He provides temporary blessings that expire after one generation.", "weight": 75, "note": "The text says He remembers His covenant forever, not for a single generation only." }
+        {
+          "text": "He provides food for those who fear Him and remembers His covenant forever.",
+          "weight": 100,
+          "note": "This pairs daily provision with covenant faithfulness as the ground of security."
+        },
+        {
+          "text": "He provides wealth for the powerful and forgets the poor.",
+          "weight": 0,
+          "note": "The verse specifically names those who fear Him, not the powerful, as recipients of provision."
+        },
+        {
+          "text": "He provides only military victories, with no mention of covenant.",
+          "weight": 25,
+          "note": "The verse explicitly names both food and the remembrance of His covenant, not merely military matters."
+        },
+        {
+          "text": "He provides temporary blessings that expire after one generation.",
+          "weight": 75,
+          "note": "The text says He remembers His covenant forever, not for a single generation only."
+        }
       ]
     },
     {
       "q": "According to verse 10, what is the beginning of wisdom?",
       "options": [
-        { "text": "The fear of the LORD.", "weight": 100, "note": "This foundational wisdom principle is echoed throughout Proverbs, 1:7 and 9:10." },
-        { "text": "Accumulating great wealth.", "weight": 0, "note": "The verse identifies reverent fear of the LORD, not wealth, as wisdom's foundation." },
-        { "text": "Following the customs of surrounding nations.", "weight": 25, "note": "The verse points to following God's own precepts, not foreign customs." },
-        { "text": "Avoiding all forms of worship and religious practice.", "weight": 75, "note": "The psalm as a whole is a call to worship, the opposite of avoiding religious practice." }
+        {
+          "text": "The fear of the LORD.",
+          "weight": 100,
+          "note": "This foundational wisdom principle is echoed throughout Proverbs, 1:7 and 9:10."
+        },
+        {
+          "text": "Accumulating great wealth.",
+          "weight": 0,
+          "note": "The verse identifies reverent fear of the LORD, not wealth, as wisdom's foundation."
+        },
+        {
+          "text": "Following the customs of surrounding nations.",
+          "weight": 25,
+          "note": "The verse points to following God's own precepts, not foreign customs."
+        },
+        {
+          "text": "Avoiding all forms of worship and religious practice.",
+          "weight": 75,
+          "note": "The psalm as a whole is a call to worship, the opposite of avoiding religious practice."
+        }
       ]
     },
     {
       "q": "How does verse 9 describe what God has done and ordained for His people?",
       "options": [
-        { "text": "He has sent redemption to His people and ordained His covenant forever.", "weight": 100, "note": "This redemption anticipates the fuller redemption accomplished in Christ, sealed in an everlasting covenant." },
-        { "text": "He has withdrawn all covenant promises from His people.", "weight": 0, "note": "The verse says the opposite; He has ordained His covenant forever, not withdrawn it." },
-        { "text": "He has sent redemption only to a select few individuals.", "weight": 25, "note": "The verse describes redemption sent to His people broadly, not a narrow select group." },
-        { "text": "He has ordained a covenant that expires at the end of each century.", "weight": 75, "note": "The text explicitly says forever, not a covenant with a fixed expiration." }
+        {
+          "text": "He has sent redemption to His people and ordained His covenant forever.",
+          "weight": 100,
+          "note": "This redemption anticipates the fuller redemption accomplished in Christ, sealed in an everlasting covenant."
+        },
+        {
+          "text": "He has withdrawn all covenant promises from His people.",
+          "weight": 0,
+          "note": "The verse says the opposite; He has ordained His covenant forever, not withdrawn it."
+        },
+        {
+          "text": "He has sent redemption only to a select few individuals.",
+          "weight": 25,
+          "note": "The verse describes redemption sent to His people broadly, not a narrow select group."
+        },
+        {
+          "text": "He has ordained a covenant that expires at the end of each century.",
+          "weight": 75,
+          "note": "The text explicitly says forever, not a covenant with a fixed expiration."
+        }
       ]
     },
     {
       "q": "How does this psalm's picture of redemption and covenant connect to Christ?",
       "options": [
-        { "text": "Christ's blood seals the everlasting covenant, fulfilling the redemption this psalm celebrates as already sent.", "weight": 100, "note": "Hebrews 13:20 names this everlasting covenant sealed in Jesus' blood, completing what this psalm anticipates." },
-        { "text": "The psalm has no meaningful connection to the New Testament at all.", "weight": 0, "note": "The psalm's language of redemption and everlasting covenant is directly picked up in Hebrews 13:20." },
-        { "text": "It connects only to the Old Testament conquest of Canaan, with no further significance.", "weight": 25, "note": "While the historical conquest is one referent, the psalm's covenant and redemption language reaches forward typologically to Christ." },
-        { "text": "It predicts the exact date of a future political kingdom in Jerusalem.", "weight": 75, "note": "The psalm speaks of covenant faithfulness and redemption in general terms, not a specific future political date." }
+        {
+          "text": "Christ's blood seals the everlasting covenant, fulfilling the redemption this psalm celebrates as already sent.",
+          "weight": 100,
+          "note": "Hebrews 13:20 names this everlasting covenant sealed in Jesus' blood, completing what this psalm anticipates."
+        },
+        {
+          "text": "The psalm has no meaningful connection to the New Testament at all.",
+          "weight": 0,
+          "note": "The psalm's language of redemption and everlasting covenant is directly picked up in Hebrews 13:20."
+        },
+        {
+          "text": "It connects only to the Old Testament conquest of Canaan, with no further significance.",
+          "weight": 25,
+          "note": "While the historical conquest is one referent, the psalm's covenant and redemption language reaches forward typologically to Christ."
+        },
+        {
+          "text": "It predicts the exact date of a future political kingdom in Jerusalem.",
+          "weight": 75,
+          "note": "The psalm speaks of covenant faithfulness and redemption in general terms, not a specific future political date."
+        }
       ]
     }
   ],
@@ -144,9 +371,21 @@
     "This psalm's redemption and covenant are fulfilled in Christ's blood, which seals an everlasting covenant. How does knowing your covenant with God can never expire change the way you face present uncertainty?"
   ],
   "translationNotes": [
-    { "ref": "Psalm 111:1", "note": "Hallelujah transliterates the Hebrew Hallelu Yah, meaning Praise the LORD, and functions as both an opening exclamation and a summons to the assembly." },
-    { "ref": "Psalm 111:4", "note": "Gracious and compassionate translates chanun and rachum, the same pairing of terms God uses to describe Himself to Moses in Exodus 34:6." },
-    { "ref": "Psalm 111:1-10", "note": "The psalm is an acrostic; in Hebrew each of its twenty-two half-verses begins with a successive letter of the alphabet, a structural device signaling the comprehensive, A to Z completeness of God's praiseworthy character and works." }
+    {
+      "ref": "Psalm 111:1",
+      "note": "Hallelujah transliterates the Hebrew Hallelu Yah, meaning Praise the LORD, and functions as both an opening exclamation and a summons to the assembly."
+    },
+    {
+      "ref": "Psalm 111:4",
+      "note": "Gracious and compassionate translates chanun and rachum, the same pairing of terms God uses to describe Himself to Moses in Exodus 34:6."
+    },
+    {
+      "ref": "Psalm 111:1-10",
+      "note": "The psalm is an acrostic; in Hebrew each of its twenty-two half-verses begins with a successive letter of the alphabet, a structural device signaling the comprehensive, A to Z completeness of God's praiseworthy character and works."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from biblehub.com/bsb/psalms/111.htm because the local makor-scripture toolkit returned a disk I/O error in this session. Verified 10 verses in order against the section map bounds Psalm 111:1-10. Sermon link verified this session via WebSearch and web_fetch confirming Tim Keller's sermon 'God at Work' at gospelinlife.com, preached at Redeemer Presbyterian Church on August 25, 2013, Scripture Psalm 111." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from biblehub.com/bsb/psalms/111.htm because the local makor-scripture toolkit returned a disk I/O error in this session. Verified 10 verses in order against the section map bounds Psalm 111:1-10. Sermon link verified this session via WebSearch and web_fetch confirming Tim Keller's sermon 'God at Work' at gospelinlife.com, preached at Redeemer Presbyterian Church on August 25, 2013, Scripture Psalm 111."
+  }
 }

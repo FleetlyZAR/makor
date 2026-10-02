@@ -18,11 +18,31 @@
         "note": "resolved praise before the dawn",
         "emphasis": "",
         "verses": [
-          { "chapter": 108, "n": 1, "text": "A song. A Psalm of David. My heart is {{kun|steadfast}}, O God; I will sing and make music with all my being." },
-          { "chapter": 108, "n": 2, "text": "Awake, O harp and lyre! I will awaken the dawn." },
-          { "chapter": 108, "n": 3, "text": "I will praise You, O LORD, among the nations; I will sing Your praises among the peoples." },
-          { "chapter": 108, "n": 4, "text": "For Your {{chesed|loving devotion}} extends beyond the heavens, and Your faithfulness reaches to the clouds." },
-          { "chapter": 108, "n": 5, "text": "Be exalted, O God, above the heavens; may Your glory cover all the earth." }
+          {
+            "chapter": 108,
+            "n": 1,
+            "text": "A song. A Psalm of David. My heart is {{kun|steadfast}}, O God; I will sing and make music with all my being."
+          },
+          {
+            "chapter": 108,
+            "n": 2,
+            "text": "Awake, O harp and lyre! I will awaken the dawn."
+          },
+          {
+            "chapter": 108,
+            "n": 3,
+            "text": "I will praise You, O LORD, among the nations; I will sing Your praises among the peoples."
+          },
+          {
+            "chapter": 108,
+            "n": 4,
+            "text": "For Your {{chesed|loving devotion}} extends beyond the heavens, and Your faithfulness reaches to the clouds."
+          },
+          {
+            "chapter": 108,
+            "n": 5,
+            "text": "Be exalted, O God, above the heavens; may Your glory cover all the earth."
+          }
         ]
       },
       {
@@ -30,10 +50,26 @@
         "note": "the LORD claims the land",
         "emphasis": "",
         "verses": [
-          { "chapter": 108, "n": 6, "text": "Respond and save us with Your right hand, that Your beloved may be delivered." },
-          { "chapter": 108, "n": 7, "text": "God has spoken from His sanctuary: \"I will triumph! I will parcel out Shechem and apportion the Valley of Succoth." },
-          { "chapter": 108, "n": 8, "text": "Gilead is Mine, and Manasseh is Mine; Ephraim is My helmet, Judah is My scepter." },
-          { "chapter": 108, "n": 9, "text": "Moab is My washbasin; upon Edom I toss My sandal; over Philistia I shout in triumph.\"" }
+          {
+            "chapter": 108,
+            "n": 6,
+            "text": "Respond and save us with Your right hand, that Your beloved may be delivered."
+          },
+          {
+            "chapter": 108,
+            "n": 7,
+            "text": "God has spoken from His sanctuary: \"I will triumph! I will parcel out Shechem and apportion the Valley of Succoth."
+          },
+          {
+            "chapter": 108,
+            "n": 8,
+            "text": "Gilead is Mine, and Manasseh is Mine; Ephraim is My helmet, Judah is My scepter."
+          },
+          {
+            "chapter": 108,
+            "n": 9,
+            "text": "Moab is My washbasin; upon Edom I toss My sandal; over Philistia I shout in triumph.\""
+          }
         ]
       },
       {
@@ -41,18 +77,49 @@
         "note": "human help is worthless, God is not",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 108, "n": 10, "text": "Who will bring me to the fortified city? Who will lead me to Edom?" },
-          { "chapter": 108, "n": 11, "text": "Have You not rejected us, O God? Will You no longer march out, O God, with our armies?" },
-          { "chapter": 108, "n": 12, "text": "Give us aid against the enemy, for the help of man is worthless." },
-          { "chapter": 108, "n": 13, "text": "With God we will perform with {{chayil|valor}}, and He will trample our enemies." }
+          {
+            "chapter": 108,
+            "n": 10,
+            "text": "Who will bring me to the fortified city? Who will lead me to Edom?"
+          },
+          {
+            "chapter": 108,
+            "n": 11,
+            "text": "Have You not rejected us, O God? Will You no longer march out, O God, with our armies?"
+          },
+          {
+            "chapter": 108,
+            "n": 12,
+            "text": "Give us aid against the enemy, for the help of man is worthless."
+          },
+          {
+            "chapter": 108,
+            "n": 13,
+            "text": "With God we will perform with {{chayil|valor}}, and He will trample our enemies."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "kun": { "language": "Hebrew", "lemma": "kun", "original": "כּוּן", "gloss": "Firm, fixed, established. David's heart is not wavering between doubt and faith but settled, ready to praise before the outcome of the battle is known." },
-    "chesed": { "language": "Hebrew", "lemma": "chesed", "original": "חֶסֶד", "gloss": "Steadfast, covenant love and loyalty. This love is pictured as vaster than the heavens themselves, the ground of both praise, verses 1-5, and petition, verses 6-13." },
-    "chayil": { "language": "Hebrew", "lemma": "chayil", "original": "חַיִל", "gloss": "Strength, valor, capability for battle. The psalm insists this valor is never self-generated; it comes only through God, who alone tramples the enemy." }
+    "kun": {
+      "language": "Hebrew",
+      "lemma": "kun",
+      "original": "כּוּן",
+      "gloss": "Firm, fixed, established. David's heart is not wavering between doubt and faith but settled, ready to praise before the outcome of the battle is known."
+    },
+    "chesed": {
+      "language": "Hebrew",
+      "lemma": "chesed",
+      "original": "חֶסֶד",
+      "gloss": "Steadfast, covenant love and loyalty. This love is pictured as vaster than the heavens themselves, the ground of both praise, verses 1-5, and petition, verses 6-13."
+    },
+    "chayil": {
+      "language": "Hebrew",
+      "lemma": "chayil",
+      "original": "חַיִל",
+      "gloss": "Strength, valor, capability for battle. The psalm insists this valor is never self-generated; it comes only through God, who alone tramples the enemy."
+    }
   },
   "study": {
     "basic": {
@@ -66,77 +133,248 @@
       "oneStory": "A steadfast heart praises before the victory arrives because it trusts the God whose love is higher than the heavens; this same confidence carries forward to Christ, in whom every nation is finally claimed and every enemy, even death, is trampled underfoot."
     },
     "context": {
-      "literary": "A composite psalm: verses 1-5 draw from Psalm 57:7-11 and verses 6-13 from Psalm 60:5-12, joined to form a single new song of praise and petition for a later occasion.",
-      "historical": "The petition for aid against Edom recalls the wars recorded in 2 Samuel 8 and 1 Chronicles 18, when Israel sought territory east and south of the Jordan and faced setbacks that only God's intervention could reverse.",
-      "canonical": "Standing at the head of Book V's cluster of Davidic psalms, 108 through 110, it models how earlier praise is remembered and repurposed, a pattern that anticipates how the whole Psalter is prayed and re-prayed by later generations, including the church."
+      "literary": "The psalm is a seam, not a seamless poem, and the seam is the point. It takes the second half of Psalm 57, verses 7 to 11, and the second half of Psalm 60, verses 5 to 12, and sets them side by side. What it leaves behind is revealing. Psalm 57 had begun in a cave with the cry 'Have mercy on me' and ended in a vow of praise. Psalm 60 had begun with 'You have rejected us' and moved toward an oracle and a plea. Psalm 108 keeps only the confident close of the first and only the resolution of the second. The laments are cut away and the faith that survives them is kept.\n\nThe small changes are as telling as the borrowing. Where Psalm 57:7 repeats 'my heart is steadfast' twice, Psalm 108:1 says it once and adds a line that puts the singer's whole self in the song, 'with all my being,' which the footnote notes may be read 'with my glory.' In 57:10 God's love reaches 'to the heavens'; here, in verse 4, it extends 'beyond' them. Small as they are, the changes sharpen the praise, so that the song does not simply repeat an old text but reads it again for a new day.\n\nThe shape that results is simple and strong. Verses 1 to 5 are a vow of praise that ends on a prayer for God's glory over all the earth. Verses 6 to 9 are an oracle of God's claim to the land, and verses 10 to 13 are a prayer that asks who will lead the way, concludes that human help is useless, and ends in confidence. The oracle is the hinge: the praise in the first section is the ground of the oracle, and the oracle is the ground of the prayer.\n\nThe oracle itself is built on a pattern of places. West and east of the Jordan are named first, Shechem and Succoth, then the central tribes of Gilead, Manasseh, Ephraim and Judah, then the neighbouring enemies of Moab, Edom and Philistia. The movement is from the heartland to the borders, and the images move from the king's military kit, helmet and scepter, to the humble household objects of a washbasin and a sandal. The effect is a verbal map of who belongs to the LORD and how.",
+      "historical": "The title ties the psalm to David, and the sources it borrows from are Davidic. Psalm 57 is set when David fled from Saul into the cave, and Psalm 60 carries a title about David's wars with the Arameans and Edom in the Valley of Salt, where the record in 2 Samuel 8:13 and 14 says David struck down eighteen thousand Edomites and placed garrisons throughout Edom. The crisis in the psalm, a setback in the campaign that threatened the kingdom's southern border, belongs to such a time. The cry 'Who will bring me to the fortified city? Who will lead me to Edom?' is the cry of a king who needs a way into a stronghold.\n\nThe names in the oracle are a snapshot of David's kingdom. Shechem and Succoth stand on the west and east sides of the Jordan, Gilead and Manasseh are in the Transjordan, Ephraim and Judah are the leading tribes of north and south. Moab, Edom and Philistia are the three neighbours with whom Israel had the sharpest contests. The 'washbasin' and the 'sandal' are household images of subjugation. The washbasin suggests a vessel for the king's feet, and the thrown sandal is generally read as a sign of taking possession, though scholars hold varied views on the gesture.\n\nThere is another possible setting. Edom's treachery when Jerusalem fell in 586 is remembered with bitterness in Psalm 137:7 and Obadiah 10 to 14. A community that had lost the land, and that knew Edom to be a hostile neighbour, might have found Psalm 108 an apt prayer. Placed in Book V, among the hopes of the returning exiles, the psalm would sound like a plea for the land to be restored. Whether it was first assembled in David's day or reshaped later for worship, its use in the temple would have been the same: to remind Israel that the land belongs to the LORD and that no human ally can defend it.\n\nThe original instruments in verse 2, the harp and lyre, belong to temple worship, and the notion of waking the dawn suggests an early morning service. Whoever the singer was, he stood in the court at dawn with a harp and sang to the nations.",
+      "canonical": "The psalm's placement is part of its meaning. It heads a cluster of three Davidic psalms, 108, 109 and 110, in Book V. Psalm 108 is confident petition for victory, Psalm 109 is a cry under slander, and Psalm 110 is the oracle of the priest-king at God's right hand. Together they move from David's plea for help to the promise of One who sits at God's right hand until His enemies become His footstool.\n\nThe borrowing from Psalms 57 and 60 shows the Psalter reading itself. A song that began in a cave is lifted out, joined to a song of national crisis, and given to a new generation. This is what the book as a whole does with every earlier prayer. The church's own use of the Psalms follows the same logic. The old words are sung again in a new situation and take on new weight.\n\nThe oracle in verses 7 to 9 connects with the wider promises. Judah as the 'scepter' recalls Genesis 49:10, where the scepter will not depart from Judah until the one to whom the nations' allegiance belongs comes. Edom as a possession recalls Numbers 24:18, where the verb for Israel 'performing with valor' is the one used in verse 13. The nations are not only subjects. Psalm 87:4 pictures Philistia among those said to be born in Zion, and Amos 9:11 and 12 promises that David's fallen tent will be rebuilt so that Israel possesses the remnant of Edom and all the nations that bear God's name. The same list of enemies, then, can become a list of those to be gathered in.\n\nThe New Testament carries these themes forward in several ways. Paul writes that if God is for us, no one can be against us, Romans 8:31, and he closes the great passage on love with the confidence that nothing, in height or depth, can separate us from the love of God in Christ, Romans 8:38 and 39, which echoes the psalm's claim that God's love reaches beyond the heavens. And Revelation 11:15 announces that the kingdom of the world has become the kingdom of the Lord and of His Christ, which is the fullest answer to the oracle of verse 7."
     },
     "hermeneutics": {
-      "authorIntent": "To fuse remembered praise with present petition, teaching that thanksgiving for God's greatness and urgent prayer for God's help belong together, not as contradictory postures but as one steadfast heart's full expression.",
-      "descriptionVsPrescription": "The psalm describes a specific military crisis over Edom; it prescribes the abiding pattern of resolved praise preceding and sustaining bold petition, and of trusting God's strength rather than human help in every conflict.",
+      "authorIntent": "The composer wants his hearers to see that faith is not an escape from a hard situation but a stance within it. By taking an old song of praise and attaching it to an old song of need, he shows that the same heart which can sing at dawn can also admit that the army has been turned back. The confidence of the opening is not naive. It is the confidence of a man who has learned to praise before the outcome, and he puts that confidence first because the later petition rests on it.\n\nHe also wants his hearers to trust the oracle more than the map. When he cites what God has spoken from the sanctuary, he is placing the claim of the LORD above every territorial arrangement. The land, with its peoples and its rivals, is already assigned. The peoples that seem to hold the upper hand are described as a washbasin and a sandal. The prayer is therefore not a request that God take a side; it is a plea that God would act out the word He has already spoken.\n\nAnd he wants his hearers to give up on every other source of rescue. 'The help of man is worthless,' verse 12, is not a counsel of despair but of focus. It means that armies, treaties and strong cities are fine as tools, but they are never the ground of hope. The psalm ends with a confident future, 'He will trample our enemies,' because the singer has put his weight where it can hold.",
+      "descriptionVsPrescription": "The psalm describes a king's prayer in the middle of a war, together with a divine oracle concerning territories in the ancient Near East. It does not prescribe a policy of conquest for the church or for any modern nation. The land of Shechem, Gilead and Edom was assigned to Israel by a particular covenant, and the New Testament does not transfer those claims to any earthly state. Using verses 7 to 9 to support a territorial claim today would turn a prayer about God's rule into a charter for earthly power.\n\nWhat the psalm does prescribe is a way of praying. Praise comes first and is not postponed until the problem is solved. Remembered promises are brought before God as the ground of the request. Honest questions are allowed: 'Have You not rejected us?' is permitted, so long as it is followed by 'Give us aid.' And the final stance is dependence on God and not on human strength, which applies to every Christian who fights an enemy of the soul, Ephesians 6:10 to 12.\n\nThe borrowing also carries a lesson. Believers are free to use older prayers, whether psalms or hymns, as their own in a new crisis. The psalmist did not feel obliged to compose something fresh, and his reuse shows that inherited words can be exactly right.",
       "debates": [
-        { "question": "Why does a psalm of confident praise, verses 1-5, turn immediately to a plea that seems to admit past rejection, verse 11?", "views": [ { "label": "The psalm holds together settled faith and honest lament without contradiction", "case": "Hebrew prayer regularly moves between praise and complaint in the same breath; verse 11 names present hardship even as verses 1-5 have already resolved to trust and praise." }, { "label": "Verses 6-13, borrowed from Psalm 60, retain their original tone of crisis even though verses 1-5 were composed in a season of settled worship", "case": "Because the psalm is a splice of two earlier compositions, the shift in tone reflects its composite origin rather than a single unified emotional arc." } ], "bearing": "Either way, the psalm teaches that steadfast praise and urgent petition are not sequential stages to move past, but a single posture of faith that can hold both at once." }
+        {
+          "question": "Why does the psalm join two earlier psalms, and what does the join mean?",
+          "views": [
+            {
+              "label": "David himself recombined his own songs",
+              "case": "The title assigns the psalm to David, and the two sources are Davidic. A king facing a new campaign might take the praise he had sung in the cave and the prayer he had sung after a defeat and make them one. On this reading the psalm shows the king's own method of prayer."
+            },
+            {
+              "label": "A later editor or liturgist assembled it for worship",
+              "case": "The excerpts are clean cuts, with the laments of both psalms removed. That fits a deliberate liturgical piece created for use in the temple, perhaps after the exile when the land was again in question. On this view the compiler is the author of the new psalm, working with the received text."
+            },
+            {
+              "label": "It shows how the Psalter was prayed over time",
+              "case": "Some stress that the question of who first joined them matters less than the fact that the Psalter keeps the joined version beside the originals. The community held the original and the recomposed psalm side by side, which tells us that Israel treated its songs as living and reusable."
+            }
+          ],
+          "bearing": "The text does not settle the question, and the meaning does not depend on it. In every case the joined psalm teaches that praise and petition belong together, and that earlier faithfulness gives grounds for present hope."
+        },
+        {
+          "question": "How are the oracle's claims on Moab, Edom and Philistia to be read?",
+          "views": [
+            {
+              "label": "As a promise of military dominance for Israel",
+              "case": "The images of the washbasin, the sandal and the shout of triumph are those of conquest, and in David's day Israel did subdue these neighbours, 2 Samuel 8:1 to 14. The psalm records God's claim over the neighbouring lands as a historical fact and a promise."
+            },
+            {
+              "label": "As a claim of God's lordship that includes mercy",
+              "case": "Elsewhere the same peoples appear as those who may be brought in. Psalm 87:4 lists Philistia among those registered as born in Zion, and Amos 9:12 speaks of the remnant of Edom as a people over whom David's restored house will rule in the name of the LORD. On this reading the claim is of ownership, and the final purpose of ownership is the nations' belonging to God."
+            }
+          ],
+          "bearing": "Verse 3 already says the singer will praise the LORD 'among the nations,' so the psalm itself holds the two readings together. The nations that are made a washbasin are also the nations before whom the praise is sung. The New Testament resolves the tension by showing the King who conquers by being lifted up and who draws all people to Himself, John 12:32."
+        }
       ]
     },
-    "originalLanguages": "David's heart is kun, fixed and unwavering, able to praise before the outcome is certain. God's chesed reaches beyond the heavens. And the chayil, the valor, Israel needs for victory comes only through God, never through the worthless help of man.",
+    "originalLanguages": "The first word in the psalm worth pausing over is the verb kun in verse 1, translated 'steadfast.' It means to be firmly set or established, and it is the verb that describes a throne or a house made secure. Psalm 112:7 uses the same word of the righteous man who does not fear bad news because 'his heart is steadfast, trusting in the LORD.' The word is therefore not about feelings but about footing. In Psalm 57 the repeated phrase 'my heart is steadfast' is the answer to fear in the cave; in Psalm 108 it is the opening note for a king facing a new war.\n\nThe promise of verse 2, 'I will awaken the dawn,' puts the singer's voice in charge of the morning. The usual picture is that the dawn wakes people. Here the worshipper rises before the light and makes music so early that it is his song which stirs the day. Whether the phrase is intended with some poetic daring or as plain early-morning devotion, it conveys a heart that is ahead of its circumstances.\n\nIn verse 4 the two great words of God's covenant character appear side by side: chesed, loving devotion, and emet, faithfulness. They are the pair God declared to Moses, Exodus 34:6, and they appear together again and again in the Psalter. Psalm 57 says they reach 'to the heavens,' and this psalm says they extend 'beyond' them. The Hebrew preposition makes the point that God's love is not bounded by the highest thing a human can see.\n\nIn verse 7 the oracle begins 'God has spoken from His sanctuary.' The footnote notes the alternative 'in His holiness,' which is a real difference in how the Hebrew can be read. If it is 'in His holiness,' the claim rests on His character, and if it is 'from His sanctuary,' it rests on the place where He dwells. Both ideas are present in the Old Testament, and either way the point is the authority of what is said.\n\nThe images of verse 8, Ephraim as God's 'helmet' and Judah as His 'scepter,' use a second word worth noting. The Hebrew term for scepter here, a ruler's staff, is the same word used in Genesis 49:10 of Judah, where the ruler's staff does not depart from between his feet. Ephraim as helmet is the strength of the north, Judah as staff the authority of the south. Both belong to God, who is portrayed as a warrior-king wearing and holding them.\n\nThe idiom of verse 13 is 'we will perform with valor,' literally to do chayil. The same phrase appears in Numbers 24:18, in Balaam's oracle about Edom, where Israel 'will perform with valor' while Edom becomes a possession. The echo is deliberate: a prayer about Edom reaches back to a prophecy about Edom. Then comes a verb for what God does, 'trample,' the verb of treading down, used in Isaiah 63:6 of the LORD's treading the peoples in His anger. The whole sentence sets the human 'we' beside the divine 'He,' and gives the victory to the second.",
     "typology": [
-      { "type": "The king who receives the nations as inheritance, verses 7-9", "fulfillment": "Fulfilled in great David's greater Son, to whom the Father says, Ask of Me, and I will make the nations Your heritage, Psalm 2:8, ultimately realized when every kingdom of the world becomes the kingdom of our Lord and of His Christ, Revelation 11:15." },
-      { "type": "Valor and victory that come only through God, verse 13", "fulfillment": "Fulfilled in Christ's triumph over every enemy, culminating in His conquest of death itself, 1 Corinthians 15:57, a victory in which His people share only because it is His, not their own." }
+      {
+        "type": "Judah as the scepter, verse 8",
+        "fulfillment": "The ruler's staff of Judah recalls Jacob's blessing, where the scepter does not leave Judah until the one to whom the allegiance of the nations belongs comes, Genesis 49:10. David held the staff in his day, but the promise looked beyond him. Matthew opens with Jesus as son of David and son of Abraham, Matthew 1:1, and Hebrews 7:14 observes that our Lord was descended from Judah. Revelation calls Him the Lion of the tribe of Judah, Revelation 5:5. The type falls short because David's rule over Moab and Edom was partial and passed to his heirs, while Christ's scepter is a righteous scepter forever, Hebrews 1:8."
+      },
+      {
+        "type": "The king who receives the nations, verses 7 to 9",
+        "fulfillment": "The oracle assigns the neighbours of Israel to the LORD and His king. Psalm 2:8 states the promise to the Messiah: 'Ask of Me, and I will make the nations Your inheritance.' Jesus claims 'all authority in heaven and on earth' and sends His disciples to make disciples of all nations, Matthew 28:18 to 20. The escalation is that the nations are not a washbasin to be used but a harvest to be gathered, Revelation 7:9. The type falls short because David's conquest was by sword, while the greater Son wins by the word and the cross."
+      },
+      {
+        "type": "Help that is not of man, verses 11 to 13",
+        "fulfillment": "David's weakness, a setback when the army seemed to be abandoned, makes room for God's strength. Paul takes the same pattern when he says that Christ's power is made perfect in weakness, 2 Corinthians 12:9, and that God chose the weak things of the world to shame the strong, 1 Corinthians 1:27. In Christ the principle becomes a person. The cross looks like defeat and is the victory, Colossians 2:15. The type falls short because David's prayer was for a battlefield, while the church's is against spiritual powers, Ephesians 6:12."
+      },
+      {
+        "type": "Praise among the nations, verse 3",
+        "fulfillment": "The vow to praise the LORD among the peoples looks beyond Israel's borders. Paul quotes the same promise from Psalm 18:49, 'I will praise You among the Gentiles,' to show that Christ's mission included the nations, Romans 15:9. In Christ the vow is taken up by the Son, who sings in the midst of the congregation, Hebrews 2:12. The type falls short because the psalmist could only imagine the nations hearing his song, while the church sees them joining it, Revelation 5:9."
+      }
     ],
-    "christ": "David's claim that the nations, Shechem, Gilead, Manasseh, Ephraim, Judah, and even hostile Edom and Philistia, belong to God anticipates the greater King to whom the Father grants the nations as an inheritance, Psalm 2:8. The psalm's insistence that human help is worthless and that valor comes only through God finds its fullest answer in Christ, who alone secures the victory His people could never win for themselves, trampling sin, death, and every hostile power through His cross and resurrection.",
-    "god": "God's covenant love is not parochial; it extends beyond the heavens and covers all the earth. He speaks with sovereign authority, distributing lands as though they were already His own possession, and He alone, not human strength or alliance, grants real and lasting victory to His people.",
+    "christ": "The psalm leads to Christ first through the figure of the king. David speaks as God's anointed, and in the oracle God lays claim to the land through him. The New Testament insists that the real subject of such language is the greater Son of David. The phrase 'great David's greater Son' is not a poetic flourish; it is the structure of the Psalter, in which royal psalms keep pointing beyond each historical king. The Father says to the Son, 'Ask of Me, and I will make the nations Your inheritance,' Psalm 2:8, and the psalm that stands next in the book, Psalm 110, shows the king seated at God's right hand until his enemies are made a footstool. Psalm 108 is the cry for that victory, and Psalm 110 is the promise of it.\n\nIt leads to Christ by the theme of unaided human weakness. 'The help of man is worthless,' verse 12, has its most striking illustration in the garden, where the disciples sleep and then run, Matthew 26:40 and 56. Jesus faces the final enemy alone. What the singer asks of God, 'Give us aid against the enemy,' God answers in the cross and resurrection, where the enemy is not driven back from a border but deprived of its power, Hebrews 2:14 and 15. Paul writes that God gives the victory through our Lord Jesus Christ, 1 Corinthians 15:57, and the verb 'trample' of verse 13 comes into its own when he says that God will soon crush Satan under believers' feet, Romans 16:20.\n\nIt leads to Christ in the matter of love. The psalm claims that the LORD's chesed extends beyond the heavens. Paul prays that believers may grasp the breadth and length and height and depth of the love of Christ that surpasses knowledge, Ephesians 3:18 and 19, and he is certain that neither height nor depth can separate us from it, Romans 8:38 and 39. What the psalmist could only picture with the sky, the apostle finds in a person.\n\nIt leads to Christ in the vow to praise among the nations. The Son takes the psalmist's vow to Himself, declaring God's name to His brothers and singing praise in the midst of the congregation, Hebrews 2:12. Paul links Gentile worship to Christ's own ministry, Romans 15:8 and 9.\n\nA caution keeps this honest. Psalm 108 does not name the Messiah, and the oracle of verses 7 to 9 is about particular tribes and neighbours. The links to Christ are those which the Old Testament itself sets up, through the covenant with David, the scepter of Judah and the promise of the nations to the king, and those which the New Testament confirms. Single details such as the washbasin and the sandal are not to be allegorised.",
+    "god": "The psalm presents a God whose love is larger than any boundary. The words that open verse 4 do not say that His love is greater than the heavens in some vague sense. They say it 'extends beyond' them, which means that no distance, no height and no shut door can hold it. At the same time the psalm anchors that love in a specific place. God speaks 'from His sanctuary' and concerns Himself with Shechem and Succoth, with Edom and Philistia. His love is cosmic and His care is local. This is the pattern of the whole Bible, a God who is above the heavens and who comes down to a particular people.\n\nHe is a God who speaks. The oracle of verses 7 to 9 is in the first person, and the first words, 'I will triumph,' are His own. The singer is not guessing at God's will. He is quoting it. This gives the prayer its footing. The hard questions of verses 10 and 11 are not asked into silence; they are asked in the light of a word already given. God's sovereignty over land and nations is thus presented not as a doctrine but as a speech, and the right response to a speech is to answer it, as the psalm does.\n\nHe is a God who owns. 'Gilead is Mine, and Manasseh is Mine.' The language is of possession, and it covers friends and enemies alike. Ephraim and Judah are His helmet and His scepter, the instruments of His warfare and His rule. Moab and Edom, the traditional enemies, are His washbasin and His sandal. This is the same God who, in the Psalter, owns the whole earth, Psalm 24:1, and nothing in the psalm suggests that His claim is limited to Israel.\n\nHe is a God who can seem to be absent and is not. Verse 11 asks the hardest question a believer can ask: 'Have You not rejected us, O God?' The question is placed inside the prayer, and God does not rebuke it. The psalm shows that honest complaint is not unbelief but a form of trust, since only someone who believes God can march with the army would be troubled that He has stopped. The Bible holds this tension openly, and the psalm teaches that the right response is neither to hide the question nor to give up on God, but to bring both together.\n\nHe is a God who gives victory by taking the weak side. 'With God we will perform with valor.' The valor is not Israel's; it is a gift in Israel's hands. This matches the way the LORD works in the Old Testament, as when He reduces Gideon's army, Judges 7:2, or when He says through Zechariah, 'Not by might nor by power, but by My Spirit,' Zechariah 4:6. The doctrine of grace is already here: the strength of the people is that God fights for them.\n\nFor worship, the psalm teaches that praise is a matter of timing. We praise before the dawn and before the victory, because God's character is already settled and does not wait for the result. The singer's heart is steadfast because God is. He sings before the answer and prays after the song, and the order is itself a confession of faith.",
     "crossReferences": [
-      { "ref": "Psalm 57:7-11", "note": "Supplies the psalm's opening praise almost verbatim, showing how earlier worship is remembered and repurposed." },
-      { "ref": "Psalm 60:5-12", "note": "Supplies the psalm's closing petition, rooted in an earlier crisis over Edom." },
-      { "ref": "Romans 8:31", "note": "Echoes the psalm's confidence that God for us guarantees the outcome no human opposition can overturn." },
-      { "ref": "Revelation 11:15", "note": "The final, complete fulfillment of God's claim over every nation and kingdom." }
+      {
+        "ref": "Psalm 57:7-11",
+        "note": "The source of verses 1 to 5. Psalm 57 was prayed in a cave, hiding from Saul, and ends in a vow of praise. Comparing the two shows the small changes: the repeated 'steadfast' is trimmed, the love that reaches 'to' the heavens now extends 'beyond' them, and a prayer for safety becomes a song for a king."
+      },
+      {
+        "ref": "Psalm 60:1-4",
+        "note": "The opening laments that Psalm 108 leaves out: 'You have rejected us, O God.' Reading them shows how deep the crisis was, and that verse 11 of our psalm preserves a trace of that grief even though the rest has been trimmed away."
+      },
+      {
+        "ref": "Psalm 112:7",
+        "note": "The same word for steadfast is applied to the righteous man who does not fear bad news. It shows that the steadfast heart of verse 1 is a trait of the person who trusts the LORD, not a one-off mood of David's."
+      },
+      {
+        "ref": "Genesis 49:10",
+        "note": "Jacob's blessing on Judah promises that the scepter will not depart until the one to whom the nations' allegiance belongs comes. Verse 8's 'Judah is My scepter' draws on this promise and ties David's rule to a longer story."
+      },
+      {
+        "ref": "Numbers 24:17-19",
+        "note": "Balaam foresees a star and a scepter from Israel, Edom becoming a possession, and Israel performing with valor. The idiom of verse 13 and the focus on Edom in verses 9 and 10 make this the closest prophetic parallel to the psalm's confidence."
+      },
+      {
+        "ref": "2 Samuel 8:13-14",
+        "note": "The historical background to the Edom campaign: David struck down eighteen thousand Edomites in the Valley of Salt and placed garrisons throughout Edom. It shows that the psalm's confidence had a basis in what God had already done."
+      },
+      {
+        "ref": "Psalm 87:4-6",
+        "note": "Philistia is listed with other nations as being counted as born in Zion. Placed beside verse 9, where the LORD shouts over Philistia, it shows that God's claim on the nations can end in welcome as well as victory."
+      },
+      {
+        "ref": "Psalm 146:3",
+        "note": "'Put not your trust in princes, in mortal man, who cannot save.' It gives the same verdict as verse 12, that the help of man is worthless, and shows that the conclusion belongs to the whole Psalter's wisdom."
+      },
+      {
+        "ref": "Romans 8:31",
+        "note": "Paul asks, 'If God is for us, who can be against us?' The question gathers up verse 13: with God the victory is certain. Paul places it after a catalogue of sufferings, which confirms that the psalm's confidence is for people under pressure."
+      },
+      {
+        "ref": "Romans 15:9",
+        "note": "Paul quotes a vow like that of verse 3, 'I will praise You among the Gentiles,' as part of the case that Christ's ministry confirms the promises and brings the nations to glorify God for His mercy."
+      },
+      {
+        "ref": "Revelation 11:15",
+        "note": "The seventh trumpet announces that the kingdom of the world has become the kingdom of the Lord and of His Christ. It is the full answer to the oracle of verse 7 and shows the claim over the lands becoming a reign over the whole earth."
+      }
     ],
-    "oneStory": "A steadfast heart can praise before the victory is seen because God's covenant love towers over the heavens; the same voice that pleads for help against Edom ultimately points forward to Christ, in whom every nation is claimed and every enemy, even death, is trampled underfoot by God's own valor, not man's.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "Psalm 108 belongs to the long conflict that runs from Genesis 3 to Revelation 20, the contest over who rules the earth. In Eden the human pair were meant to exercise dominion under God, Genesis 1:28, and they gave it away. The rest of the Bible is the story of how God reclaims the world. He does it through a chosen people, a chosen land, and a chosen king, and this psalm is a prayer from the middle of that story, when the land is under threat and the king needs help. The oracle, 'I will triumph! I will parcel out Shechem,' is God's own summary of what He is doing, and it is why the psalm is so confident.\n\nWhat the psalm sets up is the awkward gap between God's claim and the present reality. The land belongs to the LORD, and yet Edom stands in the way. The king has the promise, and yet the army seems to be turned back. The Old Testament never closes this gap by itself. David subdues Edom, and in later centuries Edom stands against Israel again. The Prophets promise a day when the fallen tent of David will be rebuilt and the nations that bear God's name will be possessed, Amos 9:11 and 12, and when a ruler will come from Jacob, Numbers 24:19. The psalm is a prayer in that gap.\n\nIn Christ the claim and the reality meet. He is the son of David and the Lion of Judah, the one to whom the Father gives the nations. His kingdom is not limited to Shechem and Gilead but extends to all nations, Matthew 28:18 to 20, and the means of conquest is a cross. The victory over the final enemy is won at the empty tomb, 1 Corinthians 15:54 to 57, and the church lives between that victory and its full display, as David did between the promise and the possession.\n\nThe new creation fulfils what the psalm prays. The song of Revelation 11:15 declares that the kingdom of the world has become the kingdom of the Lord and of His Christ, who will reign forever. The nations that were once counted as a washbasin or a sandal now bring their glory into the city, Revelation 21:24, and the praise the singer promised 'among the nations' is sung by a multitude from every tribe and language, Revelation 7:9. The steadfast heart that sang before the dawn is finally answered by a dawn that does not end, for there will be no night there, Revelation 22:5.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What does David resolve to do even before the outcome of the battle is known?",
       "options": [
-        { "text": "Praise God with a steadfast heart, singing among the nations.", "weight": 100, "note": "Verses 1-3 show praise preceding and sustaining the petition that follows." },
-        { "text": "Wait until victory is certain before offering any praise.", "weight": 0, "note": "The opposite is true; David's heart is already steadfast in praise." },
-        { "text": "Seek help from Edom's allies first.", "weight": 25, "note": "The psalm explicitly rejects human help, verse 12." },
-        { "text": "Remain silent until God explains His plan.", "weight": 75, "note": "David is not silent; he sings and makes music immediately." }
+        {
+          "text": "Praise God with a steadfast heart, singing among the nations.",
+          "weight": 100,
+          "note": "Verses 1-3 show praise preceding and sustaining the petition that follows."
+        },
+        {
+          "text": "Wait until victory is certain before offering any praise.",
+          "weight": 0,
+          "note": "The opposite is true; David's heart is already steadfast in praise."
+        },
+        {
+          "text": "Seek help from Edom's allies first.",
+          "weight": 25,
+          "note": "The psalm explicitly rejects human help, verse 12."
+        },
+        {
+          "text": "Remain silent until God explains His plan.",
+          "weight": 75,
+          "note": "David is not silent; he sings and makes music immediately."
+        }
       ]
     },
     {
       "q": "According to verse 4, how vast is God's loving devotion?",
       "options": [
-        { "text": "It extends beyond the heavens, and His faithfulness reaches to the clouds.", "weight": 100, "note": "This cosmic scale grounds the psalm's confident praise." },
-        { "text": "It is limited to the borders of Israel.", "weight": 0, "note": "The psalm describes love reaching beyond the heavens, not confined to any border." },
-        { "text": "It depends on Israel's obedience that week.", "weight": 25, "note": "The psalm grounds love in God's own character, not in performance." },
-        { "text": "It is measured only in military victories.", "weight": 75, "note": "The love described is cosmic in scope, not merely tied to battle outcomes." }
+        {
+          "text": "It extends beyond the heavens, and His faithfulness reaches to the clouds.",
+          "weight": 100,
+          "note": "This cosmic scale grounds the psalm's confident praise."
+        },
+        {
+          "text": "It is limited to the borders of Israel.",
+          "weight": 0,
+          "note": "The psalm describes love reaching beyond the heavens, not confined to any border."
+        },
+        {
+          "text": "It depends on Israel's obedience that week.",
+          "weight": 25,
+          "note": "The psalm grounds love in God's own character, not in performance."
+        },
+        {
+          "text": "It is measured only in military victories.",
+          "weight": 75,
+          "note": "The love described is cosmic in scope, not merely tied to battle outcomes."
+        }
       ]
     },
     {
       "q": "In verses 7-9, on what basis does God claim Shechem, Gilead, Manasseh, and even Moab and Edom?",
       "options": [
-        { "text": "He speaks from His sanctuary, asserting sovereign ownership over them all.", "weight": 100, "note": "God's own oracle claims both Israelite territory and hostile nations as His." },
-        { "text": "Israel had already fully conquered every one of these regions.", "weight": 25, "note": "The psalm's plea for aid in verses 10-13 shows the conquest is not yet complete." },
-        { "text": "David purchased the land through treaties.", "weight": 0, "note": "The claim is God's own sovereign declaration, not a political treaty." },
-        { "text": "The nations volunteered to submit to Israel.", "weight": 75, "note": "The oracle is God's assertion of ownership, not a voluntary surrender by the nations." }
+        {
+          "text": "He speaks from His sanctuary, asserting sovereign ownership over them all.",
+          "weight": 100,
+          "note": "God's own oracle claims both Israelite territory and hostile nations as His."
+        },
+        {
+          "text": "Israel had already fully conquered every one of these regions.",
+          "weight": 25,
+          "note": "The psalm's plea for aid in verses 10-13 shows the conquest is not yet complete."
+        },
+        {
+          "text": "David purchased the land through treaties.",
+          "weight": 0,
+          "note": "The claim is God's own sovereign declaration, not a political treaty."
+        },
+        {
+          "text": "The nations volunteered to submit to Israel.",
+          "weight": 75,
+          "note": "The oracle is God's assertion of ownership, not a voluntary surrender by the nations."
+        }
       ]
     },
     {
       "q": "What does the psalm say about the value of human help in verse 12?",
       "options": [
-        { "text": "The help of man is worthless.", "weight": 100, "note": "This blunt statement redirects all trust toward God alone." },
-        { "text": "Human help is sufficient if enough allies are gathered.", "weight": 0, "note": "The text says the opposite; human help is called worthless." },
-        { "text": "Human help matters more than divine help.", "weight": 25, "note": "The psalm reverses this priority entirely." },
-        { "text": "Human help is useful only in defensive wars.", "weight": 75, "note": "The verse makes no such distinction; it flatly calls human help worthless." }
+        {
+          "text": "The help of man is worthless.",
+          "weight": 100,
+          "note": "This blunt statement redirects all trust toward God alone."
+        },
+        {
+          "text": "Human help is sufficient if enough allies are gathered.",
+          "weight": 0,
+          "note": "The text says the opposite; human help is called worthless."
+        },
+        {
+          "text": "Human help matters more than divine help.",
+          "weight": 25,
+          "note": "The psalm reverses this priority entirely."
+        },
+        {
+          "text": "Human help is useful only in defensive wars.",
+          "weight": 75,
+          "note": "The verse makes no such distinction; it flatly calls human help worthless."
+        }
       ]
     },
     {
       "q": "How does this psalm's vision of the nations point toward Christ?",
       "options": [
-        { "text": "It anticipates the greater King to whom the Father grants all nations as an inheritance, fulfilled ultimately when every kingdom becomes Christ's.", "weight": 100, "note": "Psalm 2:8 and Revelation 11:15 complete what this psalm foreshadows." },
-        { "text": "It has no connection to the New Testament.", "weight": 0, "note": "The psalm's claim over the nations directly anticipates Christ's universal reign." },
-        { "text": "It predicts the exact modern borders of Israel.", "weight": 25, "note": "The psalm's scope is about God's sovereign claim, not modern political geography." },
-        { "text": "It shows that only ethnic Israel will ever belong to God.", "weight": 75, "note": "The psalm's vision widens, in the whole canon, to every nation belonging to Christ." }
+        {
+          "text": "It anticipates the greater King to whom the Father grants all nations as an inheritance, fulfilled ultimately when every kingdom becomes Christ's.",
+          "weight": 100,
+          "note": "Psalm 2:8 and Revelation 11:15 complete what this psalm foreshadows."
+        },
+        {
+          "text": "It has no connection to the New Testament.",
+          "weight": 0,
+          "note": "The psalm's claim over the nations directly anticipates Christ's universal reign."
+        },
+        {
+          "text": "It predicts the exact modern borders of Israel.",
+          "weight": 25,
+          "note": "The psalm's scope is about God's sovereign claim, not modern political geography."
+        },
+        {
+          "text": "It shows that only ethnic Israel will ever belong to God.",
+          "weight": 75,
+          "note": "The psalm's vision widens, in the whole canon, to every nation belonging to Christ."
+        }
       ]
     }
   ],
@@ -148,9 +386,21 @@
     "This psalm ultimately points to a King who receives the nations as His inheritance and tramples every enemy. How does knowing that Christ has already secured final victory shape the way you face today's opposition?"
   ],
   "translationNotes": [
-    { "ref": "Psalm 108:1", "note": "Steadfast renders the Hebrew kun, a heart that is fixed or established, not wavering between fear and faith." },
-    { "ref": "Psalm 108:7", "note": "The oracle in verses 7-9 is spoken in God's own first-person voice from His sanctuary, claiming territories as legal possessions rather than merely describing a future hope." },
-    { "ref": "Psalm 108:13", "note": "Valor renders chayil, the same term used for military strength; the psalm insists this strength is granted by God rather than generated by human effort." }
+    {
+      "ref": "Psalm 108:1",
+      "note": "Steadfast renders the Hebrew kun, a heart that is fixed or established, not wavering between fear and faith."
+    },
+    {
+      "ref": "Psalm 108:7",
+      "note": "The oracle in verses 7-9 is spoken in God's own first-person voice from His sanctuary, claiming territories as legal possessions rather than merely describing a future hope."
+    },
+    {
+      "ref": "Psalm 108:13",
+      "note": "Valor renders chayil, the same term used for military strength; the psalm insists this strength is granted by God rather than generated by human effort."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from biblehub.com/bsb/psalms/108.htm because the local makor-scripture toolkit returned a disk I/O error in this session. Verified 13 verses in order against the section map bounds Psalm 108:1-13. No sermon from the trusted cluster (Begg, Keller, Piper, Ferguson, Carson) was confirmed for this specific psalm this session, so sermon status is none." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from biblehub.com/bsb/psalms/108.htm because the local makor-scripture toolkit returned a disk I/O error in this session. Verified 13 verses in order against the section map bounds Psalm 108:1-13. No sermon from the trusted cluster (Begg, Keller, Piper, Ferguson, Carson) was confirmed for this specific psalm this session, so sermon status is none."
+  }
 }

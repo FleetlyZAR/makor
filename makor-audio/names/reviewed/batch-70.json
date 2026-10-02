@@ -1,0 +1,440 @@
+[
+ {
+  "word": "Notice",
+  "action": "skip"
+ },
+ {
+  "word": "Several",
+  "action": "skip"
+ },
+ {
+  "word": "Inside",
+  "action": "skip"
+ },
+ {
+  "word": "Knowledge",
+  "action": "skip"
+ },
+ {
+  "word": "Searcher",
+  "action": "skip"
+ },
+ {
+  "word": "arev",
+  "action": "fix",
+  "us": "ɑɹˈɛv",
+  "gb": "ɑːɹˈɛv",
+  "say": "ah-REV",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "aru",
+  "action": "fix",
+  "us": "ɑɹˈu",
+  "gb": "ɑːɹˈuː",
+  "say": "ah-ROO",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "moqeshim",
+  "action": "fix",
+  "us": "mOkɛʃˈim",
+  "gb": "mQkɛʃˈiːm",
+  "say": "moh-keh-SHEEM",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "Babylons",
+  "action": "ok"
+ },
+ {
+  "word": "Sion",
+  "action": "fix",
+  "us": "sˈIən",
+  "gb": "sˈIən",
+  "say": "SY-on",
+  "lang": "Latin",
+  "case": "exact"
+ },
+ {
+  "word": "Tsion",
+  "action": "fix",
+  "us": "tsiˈOn",
+  "gb": "tsiːˈQn",
+  "say": "tsee-OHN",
+  "lang": "Hebrew",
+  "case": "exact"
+ },
+ {
+  "word": "Yerushalayim",
+  "action": "fix",
+  "us": "jɛɹuʃɑlˈɑjim",
+  "gb": "jɛɹuːʃɑːlˈɑːjiːm",
+  "say": "yeh-roo-shah-LAH-yim",
+  "lang": "Hebrew",
+  "case": "exact"
+ },
+ {
+  "word": "abir",
+  "action": "fix",
+  "us": "ɑbˈiɹ",
+  "gb": "ɑːbˈiː",
+  "say": "ah-BEER",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "admat",
+  "action": "fix",
+  "us": "ɑdmˈɑt",
+  "gb": "ɑːdmˈɑːt",
+  "say": "ad-MAHT",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "akshub",
+  "action": "fix",
+  "us": "ɑkʃˈuv",
+  "gb": "ɑːkʃˈuːv",
+  "say": "ak-SHOOV",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "barukh",
+  "action": "fix",
+  "us": "bɑɹˈux",
+  "gb": "bɑːɹˈuːx",
+  "say": "bah-ROOKH",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "bitvunah",
+  "action": "fix",
+  "us": "bɪtvunˈɑ",
+  "gb": "bɪtvuːnˈɑː",
+  "say": "bit-voo-NAH",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "chamasim",
+  "action": "fix",
+  "us": "xɑmɑsˈim",
+  "gb": "xɑːmɑːsˈiːm",
+  "say": "khah-mah-SEEM",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "chatsir",
+  "action": "fix",
+  "us": "xɑtsˈiɹ",
+  "gb": "xɑːtsˈiː",
+  "say": "khah-TSEER",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "chavalim",
+  "action": "fix",
+  "us": "xɑvɑlˈim",
+  "gb": "xɑːvɑːlˈiːm",
+  "say": "khah-vah-LEEM",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "gaggot",
+  "action": "fix",
+  "us": "ɡɑɡˈOt",
+  "gb": "ɡɑːɡˈQt",
+  "say": "gahg-GOHT",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "gamar",
+  "action": "fix",
+  "us": "ɡɑmˈɑɹ",
+  "gb": "ɡɑːmˈɑː",
+  "say": "gah-MAR",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "gavoah",
+  "action": "fix",
+  "us": "ɡɑvˈOɑ",
+  "gb": "ɡɑːvˈQɑː",
+  "say": "gah-VOH-ah",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "gedolot",
+  "action": "fix",
+  "us": "ɡɛdOlˈOt",
+  "gb": "ɡɛdQlˈQt",
+  "say": "geh-doh-LOHT",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "gezarim",
+  "action": "fix",
+  "us": "ɡɛzɑɹˈim",
+  "gb": "ɡɛzɑːɹˈiːm",
+  "say": "geh-zah-REEM",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "golmi",
+  "action": "fix",
+  "us": "ɡOlmˈi",
+  "gb": "ɡQlmˈiː",
+  "say": "gohl-MEE",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "levaddo",
+  "action": "fix",
+  "us": "lɛvɑdˈO",
+  "gb": "lɛvɑːdˈQ",
+  "say": "leh-vahd-DOH",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "mas'at",
+  "action": "fix",
+  "us": "mɑsˈɑt",
+  "gb": "mɑːsˈɑːt",
+  "say": "mas-AHT",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "memshelet",
+  "action": "fix",
+  "us": "mɛmʃˈɛlɛt",
+  "gb": "mɛmʃˈɛlɛt",
+  "say": "mem-SHEH-let",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "minchat",
+  "action": "fix",
+  "us": "mɪnxˈɑt",
+  "gb": "mɪnxˈɑːt",
+  "say": "meen-KHAHT",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "na'im",
+  "action": "fix",
+  "us": "nɑˈim",
+  "gb": "nɑːˈiːm",
+  "say": "nah-EEM",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "natsrah",
+  "action": "fix",
+  "us": "nɑtsɹˈɑ",
+  "gb": "nɑːtsɹˈɑː",
+  "say": "nahts-RAH",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "nifla'ot",
+  "action": "fix",
+  "us": "nɪflɑˈOt",
+  "gb": "nɪflɑːˈQt",
+  "say": "nif-lah-OHT",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "nishba",
+  "action": "fix",
+  "us": "nɪʃbˈɑ",
+  "gb": "nɪʃbˈɑː",
+  "say": "neesh-BAH",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "oseh",
+  "action": "fix",
+  "us": "Osˈɛ",
+  "gb": "Qsˈɛ",
+  "say": "oh-SEH",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "paraq",
+  "action": "fix",
+  "us": "pɑɹˈɑk",
+  "gb": "pɑːɹˈɑːk",
+  "say": "pah-RAHK",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "profundis",
+  "action": "fix",
+  "us": "pɹəfˈʌndɪs",
+  "gb": "pɹəfˈʌndɪs",
+  "say": "pruh-FUN-dis",
+  "lang": "Latin",
+  "case": "any"
+ },
+ {
+  "word": "qitstsets",
+  "action": "fix",
+  "us": "kɪtstsˈɛts",
+  "gb": "kɪtstsˈɛts",
+  "say": "kits-TSETS",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "ra'ot",
+  "action": "fix",
+  "us": "ɹɑˈOt",
+  "gb": "ɹɑːˈQt",
+  "say": "rah-OHT",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "rahav",
+  "action": "fix",
+  "us": "ɹˈɑhɑv",
+  "gb": "ɹˈɑːhɑːv",
+  "say": "RAH-hahv",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "raqa",
+  "action": "fix",
+  "us": "ɹɑkˈɑ",
+  "gb": "ɹɑːkˈɑː",
+  "say": "rah-KAH",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "shamrah",
+  "action": "fix",
+  "us": "ʃɑmɹˈɑ",
+  "gb": "ʃɑːmɹˈɑː",
+  "say": "shahm-RAH",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "shetilim",
+  "action": "fix",
+  "us": "ʃɛtilˈim",
+  "gb": "ʃɛtiːlˈiːm",
+  "say": "sheh-tee-LEEM",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "shiphleinu",
+  "action": "fix",
+  "us": "ʃɪflˈAnu",
+  "gb": "ʃɪflˈAnuː",
+  "say": "shif-LAY-noo",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "shoken",
+  "action": "fix",
+  "us": "ʃOkˈɛn",
+  "gb": "ʃQkˈɛn",
+  "say": "shoh-KEN",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "shomerim",
+  "action": "fix",
+  "us": "ʃOmɛɹˈim",
+  "gb": "ʃQmɛɹˈiːm",
+  "say": "shoh-meh-REEM",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "simchati",
+  "action": "fix",
+  "us": "sɪmxɑtˈi",
+  "gb": "sɪmxɑːtˈiː",
+  "say": "seem-khah-TEE",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "taklit",
+  "action": "fix",
+  "us": "tɑklˈit",
+  "gb": "tɑːklˈiːt",
+  "say": "tak-LEET",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "tsivvah",
+  "action": "fix",
+  "us": "tsɪvˈɑ",
+  "gb": "tsɪvˈɑː",
+  "say": "tsiv-VAH",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "yedekem",
+  "action": "fix",
+  "us": "jɛdɛxˈɛm",
+  "gb": "jɛdɛxˈɛm",
+  "say": "yeh-deh-KHEM",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "yevarekhekha",
+  "action": "fix",
+  "us": "jɛvɑɹɛxˈɛxɑ",
+  "gb": "jɛvɑːɹɛxˈɛxɑː",
+  "say": "yeh-vah-reh-KHEH-khah",
+  "lang": "Hebrew",
+  "case": "any"
+ },
+ {
+  "word": "yitnecham",
+  "action": "fix",
+  "us": "jɪtnɛxˈɛm",
+  "gb": "jɪtnɛxˈɛm",
+  "say": "yit-neh-KHEM",
+  "lang": "Hebrew",
+  "case": "any"
+ }
+]
