@@ -18,12 +18,36 @@
         "note": "why this book was written",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 1, "text": "These are the proverbs of Solomon son of David, king of Israel," },
-          { "chapter": 1, "n": 2, "text": "for gaining {{chokmah|wisdom}} and {{musar|discipline}}, for comprehending words of insight," },
-          { "chapter": 1, "n": 3, "text": "and for receiving instruction in wise living and in righteousness, justice, and equity." },
-          { "chapter": 1, "n": 4, "text": "To impart prudence to the simple and knowledge and discretion to the young," },
-          { "chapter": 1, "n": 5, "text": "let the wise listen and gain instruction, and the discerning acquire wise counsel" },
-          { "chapter": 1, "n": 6, "text": "by understanding the {{mashal|proverbs}} and parables, the sayings and riddles of the wise." }
+          {
+            "chapter": 1,
+            "n": 1,
+            "text": "These are the proverbs of Solomon son of David, king of Israel,"
+          },
+          {
+            "chapter": 1,
+            "n": 2,
+            "text": "for gaining {{chokmah|wisdom}} and {{musar|discipline}}, for comprehending words of insight,"
+          },
+          {
+            "chapter": 1,
+            "n": 3,
+            "text": "and for receiving instruction in wise living and in righteousness, justice, and equity."
+          },
+          {
+            "chapter": 1,
+            "n": 4,
+            "text": "To impart prudence to the simple and knowledge and discretion to the young,"
+          },
+          {
+            "chapter": 1,
+            "n": 5,
+            "text": "let the wise listen and gain instruction, and the discerning acquire wise counsel"
+          },
+          {
+            "chapter": 1,
+            "n": 6,
+            "text": "by understanding the {{mashal|proverbs}} and parables, the sayings and riddles of the wise."
+          }
         ]
       },
       {
@@ -31,16 +55,40 @@
         "note": "where all wisdom begins",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 7, "text": "The {{yirah|fear of the LORD}} is the beginning of knowledge, but fools despise wisdom and discipline." }
+          {
+            "chapter": 1,
+            "n": 7,
+            "text": "The {{yirah|fear of the LORD}} is the beginning of knowledge, but fools despise wisdom and discipline."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "chokmah": { "language": "Hebrew", "lemma": "chokmah", "original": "חכמה", "gloss": "Wisdom, the practical skill of living well and rightly before God. It is not mere information but a trained ability to see life truly and respond to it rightly, the master theme of the whole book." },
-    "musar": { "language": "Hebrew", "lemma": "musar", "original": "מוסר", "gloss": "Discipline, instruction, or correction, often the kind a parent gives a child. It can mean verbal teaching or the corrective experience of consequences, and Proverbs treats both as gifts, not punishments to be resented." },
-    "mashal": { "language": "Hebrew", "lemma": "mashal", "original": "משל", "gloss": "A proverb, parable, or comparison, a short saying that captures a truth by likeness or contrast so it can be remembered and applied. The book takes its Hebrew name, Mishley, from this word." },
-    "yirah": { "language": "Hebrew", "lemma": "yirah", "original": "יראה", "gloss": "Fear, in the sense of reverent awe, humble trust, and glad submission before the LORD. It is not cringing dread but the posture of a creature who knows its Maker is holy, good, and to be taken seriously in every choice." }
+    "chokmah": {
+      "language": "Hebrew",
+      "lemma": "chokmah",
+      "original": "חכמה",
+      "gloss": "Wisdom, the practical skill of living well and rightly before God. It is not mere information but a trained ability to see life truly and respond to it rightly, the master theme of the whole book."
+    },
+    "musar": {
+      "language": "Hebrew",
+      "lemma": "musar",
+      "original": "מוסר",
+      "gloss": "Discipline, instruction, or correction, often the kind a parent gives a child. It can mean verbal teaching or the corrective experience of consequences, and Proverbs treats both as gifts, not punishments to be resented."
+    },
+    "mashal": {
+      "language": "Hebrew",
+      "lemma": "mashal",
+      "original": "משל",
+      "gloss": "A proverb, parable, or comparison, a short saying that captures a truth by likeness or contrast so it can be remembered and applied. The book takes its Hebrew name, Mishley, from this word."
+    },
+    "yirah": {
+      "language": "Hebrew",
+      "lemma": "yirah",
+      "original": "יראה",
+      "gloss": "Fear, in the sense of reverent awe, humble trust, and glad submission before the LORD. It is not cringing dread but the posture of a creature who knows its Maker is holy, good, and to be taken seriously in every choice."
+    }
   },
   "study": {
     "basic": {
@@ -54,76 +102,266 @@
       "oneStory": "The Bible's wisdom literature begins here, with a claim that will run through the whole book, and indeed the whole Bible: knowing how to live starts with rightly fearing the LORD. That thread runs forward until it reaches Christ, the wisdom of God made flesh, in whom the fear of the LORD and the knowledge of God are fully and finally revealed."
     },
     "context": {
-      "literary": "A formal prologue in two parts, a title identifying the author and audience, verse 1, followed by a purpose statement in an extended sentence, verses 2 to 6, and capped by the book's governing motto, verse 7. This same motto reappears at the hinge of the sentence proverbs in 9:10, framing the discourses of chapters 1 to 9.",
-      "historical": "Solomon, famed for wisdom given by God, 1 Kings 3, stands behind the book's early chapters, though later collections name other wise men and Solomon's successors, showing the book to be a curated anthology of Israel's wisdom tradition compiled over time.",
-      "canonical": "Proverbs sits within the wisdom literature alongside Job and Ecclesiastes. Where Job wrestles with wisdom's limits and Ecclesiastes presses its boundaries, Proverbs states the ordinary path of wisdom plainly, and its motto, the fear of the LORD, becomes a refrain across the wisdom books and the Psalms."
+      "literary": "Verses 2 to 6 are one long sentence in Hebrew, a string of purpose clauses each opening with an infinitive: to know wisdom, to understand words of insight, to receive instruction, to give prudence, and finally to understand a proverb. The effect is a book announcing its curriculum before the first lesson. Read slowly, the list has more than ten near synonyms for what the book is after, from wisdom and discipline to prudence, discretion and counsel. No single English word catches the breadth, and the pile of terms is itself the point: wisdom is a whole way of being, not one skill.\n\nThe sentence also has an audience built into it. Verse 4 is addressed to the simple and the young, who have everything to learn. Verse 5, which stands slightly apart as an invitation, turns to the wise and the discerning and says that they too should listen and grow. Verse 6 returns to method: the book will work through proverbs, parables, sayings and riddles, forms that make a reader think. So the book is for the beginner and the veteran alike, and it will not hand over everything on a plate.\n\nVerse 7 then breaks from the long sentence into a short two line saying, a pair of opposites, the fear of the LORD against the fool who despises wisdom. Its first word, reshit, begins the verse as the book itself begins. The motto returns, with a change of word, in Proverbs 9:10, closing the nine opening discourses, and the book ends the same way, with a woman who fears the LORD praised in Proverbs 31:30. The whole book is held between two statements of the same truth.\n\nThe prologue also tells us what to expect next. Chapters 1 to 9 are longer poems from a father to a son, and a second title at Proverbs 10:1, 'The proverbs of Solomon,' opens the collection of short sentences.",
+      "historical": "Solomon is the figure on the title page because Israel remembered him as the wisest of kings. He asked God for an understanding heart to judge the people and was given a wise and discerning heart beyond any other, 1 Kings 3:9-12. The record says he composed three thousand proverbs, that his wisdom surpassed all the wisdom of the East and of Egypt, and that people from all nations came to listen, 1 Kings 4:29-34. A court that traded with and watched its neighbours would have known the long tradition of wisdom writing in Egypt and Mesopotamia, and the book shows that contact. Proverbs 22:17 to 24:22 has a close and well recognised relationship with an Egyptian instruction text, the Instruction of Amenemope, a sign that Israel's sages worked in the open air of the ancient world, and yet put the LORD at the centre where no neighbour did.\n\nThe book did not arrive in a day. The heading of Proverbs 25:1 says that more of Solomon's proverbs were copied by the men of Hezekiah king of Judah, more than two centuries after Solomon, and the later chapters add the words of Agur, Proverbs 30:1, and of King Lemuel, taught by his mother, Proverbs 31:1. Verse 1 therefore names the founding author and the tradition he began. Solomon's own story is also a warning: when he grew old his wives turned his heart after other gods, 1 Kings 11:4, so the book that opens with his name holds the wisdom of a king who did not always keep it.\n\nThe setting of the teaching is first the household and then the court. Israel was commanded to teach the commandments diligently to its children, Deuteronomy 6:6-9, and to see wisdom and understanding in keeping them before the nations, Deuteronomy 4:6. 'My son' is the speech of a family where learning was passed along, and, at the same time, the language of scribes training young men for public service. The word for wisdom itself was at home in the workshop: it names the skill of the craftsmen who built the tabernacle, whom God filled with the Spirit of God, with skill, ability and knowledge, Exodus 31:3. The sages treated living well as a craft to be learned.",
+      "canonical": "Proverbs is one of the wisdom books, and its first page sets the key for the others. Job puts the same conclusion in the mouth of God after the long search in Job 28: 'the fear of the Lord, that is wisdom, and to turn away from evil is understanding,' Job 28:28. The Psalms take it up, Psalm 111:10, and invite the young to come and learn the fear of the LORD, Psalm 34:11. Ecclesiastes, after all its probing, closes with 'Fear God and keep His commandments,' Ecclesiastes 12:13. Placed together, the three books look like a conversation about one motto: Proverbs states it, Job tests it in suffering, and Ecclesiastes tests it against the brevity of life.\n\nThe Law stands behind it as well. Moses told the frightened people at Sinai not to be afraid, because God had come so that the fear of Him might be before them to keep them from sinning, Exodus 20:20. Wisdom reads the Torah's call to fear the LORD as a way of life, Deuteronomy 10:12, which is why Psalm 19:7 can say that the law of the LORD makes the simple wise.\n\nThe prophets bring the theme forward in a person. Isaiah describes the Branch from Jesse on whom the Spirit of wisdom and the fear of the LORD will rest, Isaiah 11:1-3. The Gospels present Jesus as one greater than Solomon, Matthew 12:42, and the apostles say that in Him are hidden all the treasures of wisdom and knowledge, Colossians 2:3. James tells those lacking wisdom to ask God, who gives generously, James 1:5, and Paul reminds Timothy that the holy Scriptures can make a person wise for salvation through faith in Christ Jesus, 2 Timothy 3:15."
     },
     "hermeneutics": {
-      "authorIntent": "To announce, before any specific proverb is given, both what wisdom accomplishes in a life, verses 2 to 6, and where it begins, verse 7, so that every proverb that follows is read as flowing from a right relationship with God rather than as mere worldly cleverness.",
-      "descriptionVsPrescription": "This opening is prescriptive by design, it states the book's purpose and demands a response, fear the LORD or remain a fool. But the individual proverbs that follow are, in the main, general observations about how life under God usually goes, not ironclad promises. That distinction, sharpened later in the book, is already implied here, since verse 7 speaks of two paths and their general outcomes, not a guarantee for every single case.",
+      "authorIntent": "The compilers wanted a reader to arrive at wisdom with the right posture before the right information. The prologue puts ethics inside the definition: the instruction is in 'wise living and in righteousness, justice, and equity,' verse 3, so cleverness that serves oneself is not what is being offered. The book is training for character as much as for success, and for community as much as for the individual, since justice and equity are public goods.\n\nThey also meant to make wisdom look reachable. The addressees include the simple and the young, who are not written off, and the wise, who are not finished. Wisdom here is learned, as a craft is learned, through listening, imitation and correction over many years.\n\nThe prologue prepares the reader for how to read what follows. A proverb is a compressed saying meant to be turned over, and verse 6 includes 'riddles of the wise' in the list. The sages did not expect their sayings to read like legal clauses. They are meant to be weighed against one another and against situations, with judgment, and the person who knows when each applies has already begun to be wise.\n\nBehind the whole is a first lesson in humility. Verse 7 puts God before method, so the one who comes to the book with hands full of self confidence has not yet begun.",
+      "descriptionVsPrescription": "The prologue states the book's purposes, so it describes what the proverbs are for; it also contains a command in verse 5 to listen and a verdict in verse 7 on two kinds of people. Within the book the individual sayings usually describe how life under God tends to go, and they invite the reader to align with that grain. Proverbs 26:4-5 sits two sayings side by side, 'Do not answer a fool according to his folly' and 'Answer a fool according to his folly,' and the placement is deliberate: the sages knew that the right word depends on the moment, so a proverb is not a rule with no exceptions.\n\nThat shapes how the book is applied. Proverbs 22:6, to train up a child, states a pattern of how formation tends to work; it does not guarantee any particular child's path, and Ecclesiastes 7:15 admits that a righteous person sometimes perishes in his righteousness. Read as wisdom rather than promise, the proverbs encourage without cruelty, and they steer the reader away from using a general truth to judge a particular sufferer.\n\nWhat does carry over directly is the call of verse 7 and the posture of verse 5: to listen, to fear the LORD and to take correction. The Lord Jesus says that the one who hears His words and acts on them is wise, Matthew 7:24, which keeps wisdom a matter of doing as well as knowing.",
       "debates": [
-        { "question": "Is the fear of the LORD in verse 7 servile dread or something else?", "views": [ { "label": "Reverent awe and trust", "case": "Across Proverbs, those who fear the LORD are also said to trust Him, Proverbs 3:5, and to hate evil, Proverbs 8:13, showing the fear in view is a relational reverence, not terror of an arbitrary God." }, { "label": "A sober awareness of God as Judge", "case": "The same fear is set against the certain judgment on fools, verses 26 to 27, so it retains a genuine weight of accountability, not merely warm feeling." } ], "bearing": "Both elements belong together, the fear of the LORD is reverent trust that takes God's holiness and judgment with full seriousness; neither warmth without weight nor weight without warmth captures it alone." }
+        {
+          "question": "What does 'fear of the LORD' mean in verse 7?",
+          "views": [
+            {
+              "label": "Reverent awe and trust, a loving fear",
+              "case": "Moses told Israel not to be afraid at Sinai and in the same sentence said that the fear of God would keep them from sinning, Exodus 20:20, so the two are not opposites. Proverbs says the fear of the LORD leads to life, Proverbs 19:23, and sets it beside trust and the hatred of evil, Proverbs 3:5-7 and Proverbs 8:13. Psalm 130:4 says that forgiveness is why God may be feared, so the fear grows with grace."
+            },
+            {
+              "label": "A sober dread of God as Judge",
+              "case": "The same chapter that states the motto warns of calamity for those who did not choose the fear of the LORD, Proverbs 1:26-29, and Psalm 2:11 says to serve with fear and rejoice with trembling. This view insists that the word still has weight of accountability, and that a faith with no fear in it has not met the God of Scripture."
+            }
+          ],
+          "bearing": "Both are held in the Old Testament's own usage, and 1 John 4:18 does not cancel the first, since it speaks of a fear that expects punishment. The fear of the LORD is awe that takes God's holiness and judgment seriously and trusts His goodness enough to obey."
+        },
+        {
+          "question": "Does 'beginning' in verse 7 mean the first step or the foundation?",
+          "views": [
+            {
+              "label": "A starting point that the learner then leaves behind",
+              "case": "Reshit can mean the first in order, as the beginning of a journey, and on this reading the fear of the LORD is the entrance requirement for the school of wisdom. Proverbs 9:10 uses a different word for beginning, which fits the idea of a first stage."
+            },
+            {
+              "label": "The chief and controlling part, the foundation that stays",
+              "case": "The word can also mean the best or principal part, and Proverbs 15:33 says that the fear of the LORD is the instruction of wisdom itself, not merely a prelude. Job 28:28 identifies the fear of the Lord as wisdom, not only as its door. On this reading it is the root from which all knowing grows, and the lifelong posture of the wise."
+            }
+          ],
+          "bearing": "The two are not rivals: a thing that is the first step may also be the foundation on which every later step rests. The practical lesson is that a person never graduates from the fear of the LORD."
+        },
+        {
+          "question": "In what sense are these proverbs 'of Solomon', verse 1?",
+          "views": [
+            {
+              "label": "Written by Solomon in the main, collected and added to later",
+              "case": "First Kings 4:32 records three thousand proverbs, Proverbs 10:1 and 25:1 give Solomon as the source of whole collections, and the later headings of Agur and Lemuel show the editorial layers. The title honours the founder while allowing later hands."
+            },
+            {
+              "label": "A tradition associated with Solomon as patron of the wisdom schools",
+              "case": "The preposition can express attribution or association, and Israel's wisdom writers may have placed their work under the king's name as a patron. On this reading verse 1 names the tradition more than a single pen."
+            }
+          ],
+          "bearing": "Either way the book speaks with the authority of a royal and divinely given wisdom, and every reader is invited to receive it as a gift of God to Israel, not a private opinion."
+        }
       ]
     },
-    "originalLanguages": "The book announces its aim with two paired words, chokmah, wisdom, and musar, discipline, held together from the very first purpose clause, since wisdom in this book is always a disciplined, correctable wisdom. Its very title, Mishley, comes from mashal, a proverb built on comparison. And its governing word, yirah, fear, names the reverent trust that verse 7 sets as the one path into everything the book offers; those who reject it are simply named fools.",
+    "originalLanguages": "Reshit, the word for beginning in verse 7, is the first word of the Hebrew Bible's first verse, Genesis 1:1, and the sage chooses it deliberately: knowledge also has a beginning, and it is the fear of the LORD. The name in the motto is the covenant name, Yahweh, not a generic word for deity. The fear in view is of the God who made promises to Israel, which makes it closer to the trust of a child than to the dread of an unknown power. The word for knowledge, da'at, comes from yada, a verb of personal acquaintance, which is why Jeremiah 9:24 can speak of a person who 'understands and knows Me.' Knowing in this book is more like knowing a friend or a trade than knowing a fact.\n\nThe word for prudence in verse 4, ormah, shares its root with the adjective that describes the serpent as crafty in Genesis 3:1. The serpent used shrewdness against God. The sage wants that same capacity to be taught to the young and turned the other way, so that cunning serves the fear of the LORD. The word for the simple, peti, comes from a root that means to be open. The simple person is the open, unformed mind, neither wicked nor wise, who can be taught or can be led astray. The verb for entice in Proverbs 1:10 is generally taken to be from the same family, which is why the book fears for the simple so much. Psalm 19:7 shows the happy side: the law of the LORD makes wise the simple.\n\nThe triad in verse 3, tsedeq, mishpat and meisharim, righteousness, justice and equity, is a set of public virtues. Meisharim comes from the root for straight, so it carries the idea of putting things level, and the same word is used for God's judging of the peoples with equity in Psalm 98:9. The triad returns in Proverbs 2:9, and it tells the reader that wisdom has a social face. The word for instruction in wise living, haskel, belongs to a verb for acting with insight, so that wisdom is thought of in terms of behaviour and not mere information.\n\nVerse 6 names two further forms beside the proverb. The word melitsah, rendered sayings, is a figure or oblique saying, and it occurs with mashal and chidah in the taunt song of Habakkuk 2:6. The chidah is a riddle, like Samson's riddle at the wedding feast, Judges 14:12-14, and the psalmist who will 'incline my ear to a proverb' and 'express my riddle with the harp,' Psalm 49:4. The Greek Old Testament commonly renders mashal with parabole, parable, which is why Matthew can say that Jesus' parables fulfilled the words of Psalm 78:2, 'I will open My mouth in parables,' Matthew 13:34-35. Finally the fool of verse 7 is the ewil, a word for the thick, stubborn person who is closed to correction, and the verb for despise, buz, describes a contempt that actually weighs the thing and finds it light.",
     "typology": [
-      { "type": "The fear of the LORD as the beginning of wisdom, Proverbs 1:7", "fulfillment": "Christ, on whom rested the Spirit of wisdom and of the fear of the LORD, Isaiah 11:2 to 3, the one perfect wise and God fearing man." }
+      {
+        "type": "Solomon, the wise king who teaches, verse 1",
+        "fulfillment": "Solomon is the Old Testament's picture of wisdom on the throne. He asked for a discerning heart and was given it beyond all others, 1 Kings 3:9-12, and the nations came to hear him, 1 Kings 4:34. Jesus draws the comparison Himself, saying that the Queen of the South came from the ends of the earth to hear Solomon's wisdom, 'and now One greater than Solomon is here,' Matthew 12:42. The people of Nazareth marvelled, 'Where did this man get such wisdom?' Matthew 13:54. The type fails where Solomon failed: his heart was turned after other gods, 1 Kings 11:4, while Christ never wavered and teaches with authority, not as the scribes, Matthew 7:29."
+      },
+      {
+        "type": "The son who listens and grows in wisdom, verses 5 and 8",
+        "fulfillment": "The book is shaped around a son who must learn. The Gospel of Luke tells of the Child who was filled with wisdom, Luke 2:40, and who grew in wisdom and stature, Luke 2:52. Hebrews says of Jesus that although He was a Son, He learned obedience from what He suffered, and that He was heard because of His reverence, Hebrews 5:7-8. Here is a Son who lived the fear of the LORD without the folly that the book warns against. The type is limited because the sons in Proverbs begin as simple and must be rescued from their foolishness, while Jesus was without sin and became the pattern and Saviour, not a pupil in need of correction."
+      },
+      {
+        "type": "The simple and the young who receive wisdom, verse 4",
+        "fulfillment": "The prologue says wisdom is for the simple and the young, those with nothing to boast of. The pattern repeats in the ministry of Jesus. He thanks the Father that He has hidden these things from the wise and learned and revealed them to little children, Matthew 11:25-26. The Sanhedrin saw that Peter and John were unschooled, ordinary men and realized they had been with Jesus, Acts 4:13. Paul says God chose the foolish things of the world to shame the wise, 1 Corinthians 1:27. The escalation is that the wisdom given is the gospel itself. The type still needs a caution, because the simple in Proverbs must turn from their simplicity, Proverbs 9:6, while the little ones of the Gospels are blessed because they are humble, not because they are naive."
+      },
+      {
+        "type": "The Spirit of wisdom and of the fear of the LORD on the coming Branch, verse 7",
+        "fulfillment": "Isaiah foresees a shoot from the stump of Jesse on whom rests the Spirit of wisdom and understanding, the Spirit of counsel and strength, the Spirit of knowledge and fear of the LORD, and He will delight in the fear of the LORD, Isaiah 11:1-3. The motto of Proverbs becomes a description of a person. The Gospels show that fulfilment in the life of Jesus, who was anointed with the Spirit at His baptism and lived in reverent obedience, Hebrews 5:7. The correspondence deepens because the Branch not only practises the fear of the LORD but gives the Spirit to others, John 20:22. It falls short only in this sense: Isaiah 11 speaks of a king who judges the poor with righteousness, a further horizon still awaiting the end of the age."
+      }
     ],
-    "christ": "The book's opening claim, that wisdom begins with fearing the LORD, is not abandoned in the New Testament but fulfilled in a person. Isaiah promised a coming shoot from Jesse on whom the Spirit of wisdom and of the fear of the LORD would rest, Isaiah 11:2 to 3, and the church came to see this fulfilled in Jesus. Paul goes further still, calling Christ Himself the wisdom of God, 1 Corinthians 1:24, in whom are hidden all the treasures of wisdom and knowledge, Colossians 2:3. So the motto of Proverbs, far from being surpassed by the gospel, is answered by it, true wisdom is found in knowing and fearing God as He is revealed in His Son.",
-    "god": "God is the giver of wisdom, offering it through this book to the naive, the young, and the discerning without partiality. He is also the one whose fear, whose reverent, trusting acknowledgment, forms the non negotiable starting point of all real understanding; to bypass Him in the name of cleverness is, in the book's own terms, simply foolishness.",
+    "christ": "Proverbs 1:1-7 does not mention a Messiah, and it would be a mistake to find Christ in each of its words. The links are the ones the New Testament itself makes, and they are strong.\n\nFirst, Jesus stands in the line of the sages and surpasses it. He taught in parables, which the Greek Old Testament calls by the very word it uses for proverbs, Matthew 13:34-35, so the 'parables and sayings and riddles of the wise' of verse 6 find their master in Him. The crowds were astonished at His teaching because He taught as one who had authority, Matthew 7:28-29, and He ended the Sermon on the Mount with two builders, one wise and one foolish, Matthew 7:24-27, the exact pair of the prologue, divided by whether they hear and do. He says that the wisdom of God sent prophets and apostles, Luke 11:49, and that wisdom is vindicated by her actions, Matthew 11:19. And He claims, unmistakably, to be greater than Solomon, Matthew 12:42.\n\nSecond, He is the one who fully lives verse 7. Isaiah promised a Branch who would delight in the fear of the LORD, Isaiah 11:2-3, and Hebrews says Jesus was heard because of His reverence, Hebrews 5:7. In Him the motto is not only taught but embodied.\n\nThird, the cross reverses what verse 7 would predict. The fool despises wisdom, yet the wisdom of God looks foolish to the wise of this age, and Paul says that the message of the cross is foolishness to those who are perishing but is the power of God and the wisdom of God to those who are called, 1 Corinthians 1:18-25. The world's cleverness, left to itself, cannot find God, so God was pleased to save through what looked foolish. The prologue's claim that wisdom begins in the fear of the LORD is vindicated in an unexpected way.\n\nFourth, the book's invitation to acquire wisdom is answered with a gift. Paul says Jesus 'has become for us wisdom from God: our righteousness, holiness, and redemption,' 1 Corinthians 1:30, and that in Him are hidden all the treasures of wisdom and knowledge, Colossians 2:2-3. The one who searches for wisdom like silver, as Proverbs will say, finds that the treasure has a face.\n\nA caution keeps this honest. Proverbs 1 speaks of Solomon's teaching and the fear of the LORD, not of Jesus by name. The New Testament does not treat every proverb as a prediction, but it does show that the wisdom Israel sought, the wisdom that begins in reverence and ends in life, has come to rest in the person of the Son.",
+    "god": "The prologue shows God as the starting point of knowledge, and not merely a topic within it. To say the fear of the LORD is the beginning of knowledge is to claim that no one reasons from neutral ground: either the mind begins before the Creator or it begins in contempt for Him. That is why the second half of verse 7 does not describe fools as ignorant but as people who 'despise wisdom and discipline.' The doctrine underneath is that God has made a world with a moral and rational order, and that this order can be known by those who begin where they should. Proverbs 3:19 says the LORD founded the earth by wisdom, and Psalm 104:24 that He made all His works in wisdom.\n\nHe is the covenant God. The name in verse 7 is Yahweh, the One who bound Himself to Israel, so the wisdom He gives is relational. Wisdom is to know Him, and Jeremiah 9:24 says He delights in loving devotion, justice and righteousness, which are the very virtues of verse 3. He is concerned with the public life of the world, not only private piety, and Psalm 98:9 says He judges the world with righteousness and the peoples with equity.\n\nHe is a teacher who disciplines. The word musar in verse 2 is the instruction that corrects, and Proverbs 3:11-12 says the LORD disciplines the one He loves, as a father the son in whom he delights, a text Hebrews 12:5-6 takes up for believers. The same God who gives wisdom also corrects when His children go wrong, and the correction is a sign of His affection.\n\nHe is generous and approachable. Wisdom is offered to the simple and the young, who have no claim on it, and James says that God gives generously to all without finding fault, James 1:5. The prologue gathers the humble beginner and the experienced sage under the same invitation, so His wisdom is as open as it is deep.\n\nHe is also beyond mastery. Job 28 asks where wisdom can be found, and the answer is that God understands its way and knows its place, Job 28:23. The fear of the LORD is therefore a form of honesty: the creature acknowledges that it did not make the world, does not hold the meaning of it, and receives understanding from the One who does.\n\nFor worship, this means that reading Proverbs is an act of prayer. The right posture before each saying is the one verse 7 sets, a listening humility before God, and the right request is the one James gives.",
     "crossReferences": [
-      { "ref": "Job 28:28", "note": "Behold, the fear of the Lord, that is wisdom, and to depart from evil is understanding, the same motto from another wisdom book." },
-      { "ref": "Psalm 111:10", "note": "The fear of the LORD is the beginning of wisdom, echoing Proverbs almost word for word." },
-      { "ref": "James 1:5", "note": "If anyone lacks wisdom, he should ask God, who gives generously to all without finding fault." },
-      { "ref": "Colossians 2:3", "note": "In Christ are hidden all the treasures of wisdom and knowledge." }
+      {
+        "ref": "Job 28:23-28",
+        "note": "After a long search for wisdom with no answer from the sea or the earth, God Himself tells man that the fear of the Lord is wisdom and turning from evil is understanding. It is the same motto as Proverbs 1:7 with the road to it shown: wisdom is found by God's word, not by exploration."
+      },
+      {
+        "ref": "Psalm 111:10",
+        "note": "The psalmist says the fear of the LORD is the beginning of wisdom and that those who follow His precepts gain understanding. It repeats the motto and joins it to obedience, showing that the fear in view is a practical response and not only a feeling."
+      },
+      {
+        "ref": "Proverbs 9:10",
+        "note": "The motto returns at the close of the nine opening discourses, with 'wisdom' in place of 'knowledge' and 'the Holy One' in place of 'LORD' in the second line. It frames chapters 1 to 9 as an inclusio and shows the reader that the prologue's claim has been argued for, not merely asserted."
+      },
+      {
+        "ref": "Ecclesiastes 12:13",
+        "note": "After all his searching the Teacher concludes, 'Fear God and keep His commandments.' It puts the book of Proverbs' first word at the last word of Ecclesiastes, so that the wisdom books begin and end on the same note even when they disagree on how neatly life obeys it."
+      },
+      {
+        "ref": "Exodus 20:18-20",
+        "note": "At Sinai the people trembled, and Moses said not to be afraid, because God had come so that the fear of Him might be before them to keep them from sinning. It shows that the fear of the LORD is a gift of the covenant and that terror and trust belong together."
+      },
+      {
+        "ref": "1 Kings 4:29-34",
+        "note": "God gave Solomon wisdom beyond all the men of the East and of Egypt, and he composed three thousand proverbs. It is the background to the title of verse 1, explaining why the book carries his name and why nations came to listen."
+      },
+      {
+        "ref": "Psalm 19:7",
+        "note": "The law of the LORD is perfect, making wise the simple. It uses the same word for the simple as Proverbs 1:4 and shows that the book's offer to the naive is the Torah's own, so wisdom and revelation are not rivals."
+      },
+      {
+        "ref": "Isaiah 11:1-3",
+        "note": "The Spirit of wisdom and the fear of the LORD rests on the coming Branch from Jesse, who delights in that fear. It lifts the motto of Proverbs into messianic hope, which Jesus enters in His life."
+      },
+      {
+        "ref": "Matthew 7:24-27",
+        "note": "Jesus closes the Sermon on the Mount with a wise builder on rock and a foolish builder on sand. It takes the prologue's pair of the wise and the fool and makes the difference one of hearing and doing, with Himself as the voice to be obeyed."
+      },
+      {
+        "ref": "Matthew 13:34-35",
+        "note": "Jesus teaches only in parables, and Matthew says this fulfilled Psalm 78:2, 'I will open My mouth in parables.' The proverbs and riddles of verse 6 find their great teacher here, who speaks the hidden things of God in the forms the sages loved."
+      },
+      {
+        "ref": "1 Corinthians 1:18-25",
+        "note": "The message of the cross is folly to the perishing and the power and wisdom of God to the called. It takes up the contest between the wise and the fool in Proverbs 1:7 and shows that God's wisdom appears in the least expected place."
+      },
+      {
+        "ref": "Colossians 2:2-3",
+        "note": "In Christ are hidden all the treasures of wisdom and knowledge. The book's picture of wisdom as treasure, developed in Proverbs 2:4, comes to rest in a person, and the believer's search ends in knowing Him."
+      },
+      {
+        "ref": "James 1:5",
+        "note": "Anyone who lacks wisdom should ask God, who gives generously without finding fault. It turns the prologue into prayer and assures the learner that the God who begins wisdom is also glad to grant it."
+      }
     ],
-    "oneStory": "Proverbs opens by naming its whole purpose in a few lines and then planting its flag, wisdom starts with fearing the LORD. That single claim shapes every proverb that follows, and it carries forward through the wisdom literature until it meets its fullest answer in Christ, the wisdom of God, in whom the fear of the LORD is perfectly realized and freely given to all who trust Him.",
-    "sermon": { "status": "verified", "preacher": "Alistair Begg", "title": "The Beginning of Wisdom", "url": "https://www.truthforlife.org/resources/sermon/beginning-wisdom/", "why": "Begg works directly through Proverbs 1:7, explaining the fear of the LORD as humility, trust, confidence, and obedience grounded in the love shown in Christ, and identifying Jesus as the wisdom and righteousness of God in whom true wisdom is found." }
+    "oneStory": "The first chapters of the Bible tell of a bid for wisdom made in the wrong way. The tree in the garden was 'desirable for obtaining wisdom,' Genesis 3:6, and the serpent whose craft is named with the same root as the prudence of Proverbs 1:4 persuaded the woman that she could have it without trusting God's word. Seen against that story, Proverbs 1:7 is the reversal: the beginning of knowledge is the fear of the LORD, not the grasp at independence. The book's whole purpose is to teach what the garden failed to learn.\n\nThe rest of the Old Testament shows how hard that lesson is. Moses told Israel that keeping the law would show their wisdom to the nations, Deuteronomy 4:6. Solomon asked for a discerning heart and received it, 1 Kings 3:9-12, and yet in old age he turned from the LORD, 1 Kings 11:4. The prophets announced the end of that road: 'since they have rejected the word of the LORD, what wisdom do they really have?' Jeremiah 8:9. Israel went into exile as a nation of the simple who loved their simple ways, as the next chapter of Proverbs will say. The wisdom tradition then asks whether wisdom can be had at all, as Job wrestles and Ecclesiastes sighs, and the answer is left unfinished.\n\nIt finds its answer in Christ. The Son who grew in wisdom, Luke 2:52, taught as the sages never could, was crucified by the rulers who did not understand the hidden wisdom of God, 1 Corinthians 2:8, and rose to become for His people wisdom from God, 1 Corinthians 1:30. Paul prays that believers may be filled with the knowledge of God's will in all spiritual wisdom and understanding, Colossians 1:9. The Spirit now writes on hearts what Proverbs tried to say to the ear.\n\nThe story ends where the book's motto promised. The earth will be full of the knowledge of the LORD as the sea is full of water, Isaiah 11:9, and what is known in part will be known fully, 1 Corinthians 13:12. The garden's lie, that wisdom might be had apart from God, will be forgotten, and in the city where His servants see His face, Revelation 22:3-4, the fear of the LORD will be what it was meant to be, the joy of creatures who know their Maker.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "Alistair Begg",
+      "title": "The Beginning of Wisdom",
+      "url": "https://www.truthforlife.org/resources/sermon/beginning-wisdom/",
+      "why": "Begg works directly through Proverbs 1:7, explaining the fear of the LORD as humility, trust, confidence, and obedience grounded in the love shown in Christ, and identifying Jesus as the wisdom and righteousness of God in whom true wisdom is found."
+    }
   },
   "quiz": [
     {
       "q": "According to verses 2 to 6, what is Proverbs meant to accomplish?",
       "options": [
-        { "text": "To teach wisdom, discipline, righteous living, and discernment to the simple and the wise alike.", "weight": 100, "note": "This is exactly the stated purpose of the book in its opening sentence." },
-        { "text": "To record the political history of Solomon's reign.", "weight": 25, "note": "Proverbs is wisdom literature, not a royal history." },
-        { "text": "To provide legal rulings for Israel's courts.", "weight": 0, "note": "That role belongs to the Law, not to this book of proverbs." },
-        { "text": "To entertain readers with clever riddles only.", "weight": 75, "note": "Riddles and sayings are mentioned, verse 6, but the deeper aim is moral and practical wisdom, not entertainment." }
+        {
+          "text": "To teach wisdom, discipline, righteous living, and discernment to the simple and the wise alike.",
+          "weight": 100,
+          "note": "This is exactly the stated purpose of the book in its opening sentence."
+        },
+        {
+          "text": "To record the political history of Solomon's reign.",
+          "weight": 25,
+          "note": "Proverbs is wisdom literature, not a royal history."
+        },
+        {
+          "text": "To provide legal rulings for Israel's courts.",
+          "weight": 0,
+          "note": "That role belongs to the Law, not to this book of proverbs."
+        },
+        {
+          "text": "To entertain readers with clever riddles only.",
+          "weight": 75,
+          "note": "Riddles and sayings are mentioned, verse 6, but the deeper aim is moral and practical wisdom, not entertainment."
+        }
       ]
     },
     {
       "q": "What is the book's motto, stated in verse 7?",
       "options": [
-        { "text": "The fear of the LORD is the beginning of knowledge.", "weight": 100, "note": "This is the exact governing statement of the book." },
-        { "text": "Wisdom is available to anyone who works hard enough.", "weight": 25, "note": "Effort matters in Proverbs, but the starting point named here is the fear of the LORD, not sheer effort." },
-        { "text": "Kings alone can attain true wisdom.", "weight": 0, "note": "The book addresses the simple and the young as much as the wise, not kings alone." },
-        { "text": "Knowledge and the fear of the LORD are separate paths.", "weight": 75, "note": "Close in naming both terms, but the verse ties them together as one path, not two separate ones." }
+        {
+          "text": "The fear of the LORD is the beginning of knowledge.",
+          "weight": 100,
+          "note": "This is the exact governing statement of the book."
+        },
+        {
+          "text": "Wisdom is available to anyone who works hard enough.",
+          "weight": 25,
+          "note": "Effort matters in Proverbs, but the starting point named here is the fear of the LORD, not sheer effort."
+        },
+        {
+          "text": "Kings alone can attain true wisdom.",
+          "weight": 0,
+          "note": "The book addresses the simple and the young as much as the wise, not kings alone."
+        },
+        {
+          "text": "Knowledge and the fear of the LORD are separate paths.",
+          "weight": 75,
+          "note": "Close in naming both terms, but the verse ties them together as one path, not two separate ones."
+        }
       ]
     },
     {
       "q": "What does it mean that fools 'despise wisdom and discipline', verse 7?",
       "options": [
-        { "text": "They reject correction and reverence for God, choosing self reliance instead.", "weight": 100, "note": "This is the contrast the verse draws with those who fear the LORD." },
-        { "text": "They simply lack information or schooling.", "weight": 25, "note": "Biblical folly is a moral and relational stance, not mere ignorance." },
-        { "text": "They are people God has predestined never to learn.", "weight": 0, "note": "The book repeatedly calls fools to turn and listen, assuming a real choice is possible." },
-        { "text": "They are people who have not yet had the chance to hear wisdom.", "weight": 75, "note": "Some fools may indeed be untaught, but the verse's own emphasis is on despising, an active rejection, not mere lack of exposure." }
+        {
+          "text": "They reject correction and reverence for God, choosing self reliance instead.",
+          "weight": 100,
+          "note": "This is the contrast the verse draws with those who fear the LORD."
+        },
+        {
+          "text": "They simply lack information or schooling.",
+          "weight": 25,
+          "note": "Biblical folly is a moral and relational stance, not mere ignorance."
+        },
+        {
+          "text": "They are people God has predestined never to learn.",
+          "weight": 0,
+          "note": "The book repeatedly calls fools to turn and listen, assuming a real choice is possible."
+        },
+        {
+          "text": "They are people who have not yet had the chance to hear wisdom.",
+          "weight": 75,
+          "note": "Some fools may indeed be untaught, but the verse's own emphasis is on despising, an active rejection, not mere lack of exposure."
+        }
       ]
     },
     {
       "q": "How does the book intend its proverbs, mashal, to function, per verse 6?",
       "options": [
-        { "text": "As memorable comparisons and sayings that train discernment when rightly understood.", "weight": 100, "note": "Verse 6 speaks of understanding proverbs, parables, sayings, and riddles, tools for training discernment." },
-        { "text": "As binding legal statutes with fixed penalties.", "weight": 0, "note": "Proverbs are wisdom sayings, not law code statutes." },
-        { "text": "As poetic decoration with no practical use.", "weight": 25, "note": "The stated purpose is training in wise living, not decoration." },
-        { "text": "As predictions that always come true without exception.", "weight": 75, "note": "This overstates the genre; proverbs generally describe how life under God tends to go, not ironclad predictions in every case." }
+        {
+          "text": "As memorable comparisons and sayings that train discernment when rightly understood.",
+          "weight": 100,
+          "note": "Verse 6 speaks of understanding proverbs, parables, sayings, and riddles, tools for training discernment."
+        },
+        {
+          "text": "As binding legal statutes with fixed penalties.",
+          "weight": 0,
+          "note": "Proverbs are wisdom sayings, not law code statutes."
+        },
+        {
+          "text": "As poetic decoration with no practical use.",
+          "weight": 25,
+          "note": "The stated purpose is training in wise living, not decoration."
+        },
+        {
+          "text": "As predictions that always come true without exception.",
+          "weight": 75,
+          "note": "This overstates the genre; proverbs generally describe how life under God tends to go, not ironclad predictions in every case."
+        }
       ]
     },
     {
       "q": "How does Christ relate to the book's opening motto?",
       "options": [
-        { "text": "He is the wisdom of God in person, the one on whom the Spirit of wisdom and the fear of the LORD perfectly rested.", "weight": 100, "note": "Isaiah 11:2 to 3 and 1 Corinthians 1:24, 30 draw this connection directly." },
-        { "text": "He has no connection to Old Testament wisdom themes.", "weight": 0, "note": "The New Testament explicitly identifies Christ with wisdom, contradicting this." },
-        { "text": "He replaces the fear of the LORD with a purely intellectual faith.", "weight": 25, "note": "This misreads both fear and faith; in Christ, reverent trust is deepened, not replaced with mere intellectual assent." },
-        { "text": "He is only an example of a wise teacher, like Solomon.", "weight": 75, "note": "Correct as far as it goes, but understates the New Testament's stronger claim that Christ Himself is the wisdom of God, not merely a wise teacher." }
+        {
+          "text": "He is the wisdom of God in person, the one on whom the Spirit of wisdom and the fear of the LORD perfectly rested.",
+          "weight": 100,
+          "note": "Isaiah 11:2 to 3 and 1 Corinthians 1:24, 30 draw this connection directly."
+        },
+        {
+          "text": "He has no connection to Old Testament wisdom themes.",
+          "weight": 0,
+          "note": "The New Testament explicitly identifies Christ with wisdom, contradicting this."
+        },
+        {
+          "text": "He replaces the fear of the LORD with a purely intellectual faith.",
+          "weight": 25,
+          "note": "This misreads both fear and faith; in Christ, reverent trust is deepened, not replaced with mere intellectual assent."
+        },
+        {
+          "text": "He is only an example of a wise teacher, like Solomon.",
+          "weight": 75,
+          "note": "Correct as far as it goes, but understates the New Testament's stronger claim that Christ Himself is the wisdom of God, not merely a wise teacher."
+        }
       ]
     }
   ],
@@ -135,9 +373,21 @@
     "Christ is called the wisdom of God. What would it look like this week to seek wisdom for a real decision by turning first to Him rather than only to your own reasoning?"
   ],
   "translationNotes": [
-    { "ref": "Proverbs 1:4", "note": "The Hebrew word rendered simple in Proverbs refers to one who is naive, without moral direction, or inclined toward evil, not merely young or inexperienced." },
-    { "ref": "Proverbs 1:6", "note": "Riddles renders a Hebrew term for enigmatic or twisted sayings, showing that Proverbs expects readers to think hard, not just receive information passively." },
-    { "ref": "Proverbs 1:7", "note": "The Hebrew words rendered fool throughout Proverbs denote one who is morally deficient, not simply unintelligent; the term carries an ethical and spiritual weight from its first use here." }
+    {
+      "ref": "Proverbs 1:4",
+      "note": "The Hebrew word rendered simple in Proverbs refers to one who is naive, without moral direction, or inclined toward evil, not merely young or inexperienced."
+    },
+    {
+      "ref": "Proverbs 1:6",
+      "note": "Riddles renders a Hebrew term for enigmatic or twisted sayings, showing that Proverbs expects readers to think hard, not just receive information passively."
+    },
+    {
+      "ref": "Proverbs 1:7",
+      "note": "The Hebrew words rendered fool throughout Proverbs denote one who is morally deficient, not simply unintelligent; the term carries an ethical and spiritual weight from its first use here."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched via the makor-scripture toolkit for Proverbs 1:1-7. none used anywhere in the file." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched via the makor-scripture toolkit for Proverbs 1:1-7. none used anywhere in the file."
+  }
 }
