@@ -18,8 +18,16 @@
         "note": "You have comforted me",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 12, "n": 1, "text": "In that day you will say: \n“O LORD, I will praise You. Although You were angry with me, Your anger has turned away, and You have comforted me." },
-          { "chapter": 12, "n": 2, "text": "Surely God is my {{yeshuah|salvation}}; I will trust and not be afraid. For the LORD GOD is my strength and my song, and He also has become my salvation.”" }
+          {
+            "chapter": 12,
+            "n": 1,
+            "text": "In that day you will say: \n“O LORD, I will praise You. Although You were angry with me, Your anger has turned away, and You have comforted me."
+          },
+          {
+            "chapter": 12,
+            "n": 2,
+            "text": "Surely God is my {{yeshuah|salvation}}; I will trust and not be afraid. For the LORD GOD is my strength and my song, and He also has become my salvation.”"
+          }
         ]
       },
       {
@@ -27,18 +35,49 @@
         "note": "wells of salvation, declared among the nations",
         "emphasis": "",
         "verses": [
-          { "chapter": 12, "n": 3, "text": "With joy you will draw water from the springs of {{yeshuah2|salvation}}," },
-          { "chapter": 12, "n": 4, "text": "and on that day you will say: \n“Give praise to the LORD; proclaim His name! Make His works known among the peoples; declare that His name is exalted." },
-          { "chapter": 12, "n": 5, "text": "Sing to the LORD, for He has done glorious things. Let this be known in all the earth." },
-          { "chapter": 12, "n": 6, "text": "Cry out and sing, O citizen of Zion, for great among you is the {{qadosh4|Holy One}} of Israel.”" }
+          {
+            "chapter": 12,
+            "n": 3,
+            "text": "With joy you will draw water from the springs of {{yeshuah2|salvation}},"
+          },
+          {
+            "chapter": 12,
+            "n": 4,
+            "text": "and on that day you will say: \n“Give praise to the LORD; proclaim His name! Make His works known among the peoples; declare that His name is exalted."
+          },
+          {
+            "chapter": 12,
+            "n": 5,
+            "text": "Sing to the LORD, for He has done glorious things. Let this be known in all the earth."
+          },
+          {
+            "chapter": 12,
+            "n": 6,
+            "text": "Cry out and sing, O citizen of Zion, for great among you is the {{qadosh4|Holy One}} of Israel.”"
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "yeshuah": { "language": "Hebrew", "lemma": "yeshuah", "original": "יְשׁוּעָה", "gloss": "Salvation, deliverance, rescue, from the same root that gives us the name Yeshua, Jesus. Twice in verse 2 this word appears, God is my yeshuah and has become my yeshuah, directly anticipating the name given to Mary's son, whose very name means the LORD saves, Matthew 1:21." },
-    "yeshuah2": { "language": "Hebrew", "lemma": "yeshuah", "original": "יְשׁוּעָה", "gloss": "Salvation, deliverance. The wells or springs of yeshuah, salvation, from which the redeemed draw water with joy, an image later drawn on by Jesus Himself in John 4:14 and John 7:37-38, offering living water that satisfies forever." },
-    "qadosh4": { "language": "Hebrew", "lemma": "qadosh", "original": "קָדוֹשׁ", "gloss": "Holy, set apart. The Holy One of Israel closes this brief hymn just as it opened the whole book's indictment in chapter 1, showing that the same holiness that once exposed Judah's sin is now the very reason for their praise once redemption is accomplished." }
+    "yeshuah": {
+      "language": "Hebrew",
+      "lemma": "yeshuah",
+      "original": "יְשׁוּעָה",
+      "gloss": "Salvation, deliverance, rescue, from the same root that gives us the name Yeshua, Jesus. Twice in verse 2 this word appears, God is my yeshuah and has become my yeshuah, directly anticipating the name given to Mary's son, whose very name means the LORD saves, Matthew 1:21."
+    },
+    "yeshuah2": {
+      "language": "Hebrew",
+      "lemma": "yeshuah",
+      "original": "יְשׁוּעָה",
+      "gloss": "Salvation, deliverance. The wells or springs of yeshuah, salvation, from which the redeemed draw water with joy, an image later drawn on by Jesus Himself in John 4:14 and John 7:37-38, offering living water that satisfies forever."
+    },
+    "qadosh4": {
+      "language": "Hebrew",
+      "lemma": "qadosh",
+      "original": "קָדוֹשׁ",
+      "gloss": "Holy, set apart. The Holy One of Israel closes this brief hymn just as it opened the whole book's indictment in chapter 1, showing that the same holiness that once exposed Judah's sin is now the very reason for their praise once redemption is accomplished."
+    }
   },
   "study": {
     "basic": {
@@ -52,77 +91,247 @@
       "oneStory": "This brief hymn shows the intended end of the whole redemptive story: not merely deliverance accomplished, but a redeemed people singing that God Himself has become their salvation. That salvation, yeshuah, finds its personal name and full accomplishment in Jesus, whose name means exactly what this song declares, and whose living water finally and forever satisfies the thirst these ancient words anticipated."
     },
     "context": {
-      "literary": "This short psalm functions as the doxological conclusion to the entire block of Immanuel oracles running from chapter 7 through chapter 11, deliberately structured as two brief songs, each introduced by 'in that day you will say,' moving from personal, individual praise (verses 1-2) to corporate, missionary proclamation (verses 4-6). Its language and structure closely echo the Song of the Sea in Exodus 15, reinforcing the 'second exodus' theme just concluded in chapter 11.",
-      "historical": "Rather than describing a specific historical event, this chapter anticipates a future celebration once the promises of the preceding oracles, the child-King's reign, the felling of Assyria's pride, and the gathering of the remnant, are realized; it functions less as a historical report and more as liturgy prepared in advance for a hoped-for future.",
-      "canonical": "As a short thanksgiving psalm embedded within prophetic material, this chapter parallels other Old Testament victory songs, Exodus 15, Judges 5, 1 Samuel 2, and its language of drawing water joyfully from wells of salvation becomes directly significant in the Gospel of John's development of Jesus as the source of living water."
+      "literary": "Isaiah 12 is a hinge in the architecture of the book. It is the last word of chapters 7 to 12, the section often called the Book of Immanuel, and it answers the opening of that section by contrast. Chapter 7 began with a frightened king and a shaking heart, and the word of the LORD to him was a command not to fear. Chapter 12 ends with a people who say, in their own mouths, 'I will trust and not be afraid,' verse 2. Fear is where the section starts and where it is undone.\n\nThe chapter is built from two songs, and the seams are marked. Each begins with the same formula, 'In that day you will say,' verses 1 and 4. The first song is private and addressed to God: it is full of 'You' and 'me.' The second is public and addressed to others: it is full of imperatives, praise, make known, declare, sing, cry out. The movement is from the worshipper's own experience of rescue to the summons to tell it. Notice too a small grammatical shift. In verse 1 the 'you' who speaks is singular, a single voice, while in verses 3 and 4 the 'you' is plural, a whole congregation. One person's thanks becomes a chorus.\n\nThe chapter also closes a loop with chapters 1 and 2. The Holy One of Israel, whom the nation had despised at the start, 1:4, is now the great One in the midst of Zion, verse 6. The anger that fell on the people, Isaiah 5:25 and 9:12, is now said to have turned away. The song is therefore an inclusio for the whole first part of the book: the charge of chapter 1 and the praise of chapter 12 are the two ends of one arch. After this the book turns to the nations, chapters 13 to 23, and the oracles of woe that follow are, in a sense, the other side of this song, for Zion's comfort means the fall of those who oppressed her.",
+      "historical": "The chapter gives no date and names no king. That silence is deliberate. The surrounding material is anchored in the reign of Ahaz and the Assyrian crisis of the 730s and 720s BC, when the northern kingdom was being swallowed and Judah was being squeezed. A song set 'in that day' lifts the hearers above that crisis to the other side of it, so that a frightened people in the days of Ahaz or Hezekiah could rehearse in advance the words they would sing when the LORD had acted.\n\nTo Israelite ears the setting would have sounded like worship. The language of verses 4 to 6 is the vocabulary of the temple liturgy: 'Give praise to the LORD,' 'proclaim His name,' 'sing,' 'make His works known.' Psalm 105:1 begins with almost the same words, 'Give thanks to the LORD, call upon His name; make known His deeds among the nations,' and the Psalter is full of calls to sing to the LORD for the glorious things He has done. Isaiah, who knew the temple, 6:1, lets the people of Zion borrow the psalmist's voice.\n\nThe image of drawing water would have been vivid in a land where water was precious and drawing it was daily labour, usually the work of women and servants, Genesis 24:11 and John 4:7. A spring, unlike a cistern, gives living water that does not run out. Later Jewish practice at the Feast of Tabernacles included a ceremony of drawing water, and these verses are often linked with it. That detail matters for John 7:37, where Jesus speaks on the last and greatest day of the feast, with the water of the festival in the background.\n\nFinally, the song of Exodus 15 was the great national song of rescue, remembered at every Passover and sung at the water's edge. When Isaiah's hearers heard 'my strength and my song' they would have recognised the older hymn at once, and understood that a second deliverance of that size was being promised.",
+      "canonical": "Behind Isaiah 12 stands the Song of the Sea. Verse 2 repeats Exodus 15:2 almost word for word, and Psalm 118:14 repeats it again, so the line had become a standing confession of Israel's worship. The pattern of the Old Testament is that every great rescue produces a song: Exodus 15 after the sea, Judges 5 after Sisera, 1 Samuel 2 and the psalms of thanksgiving after private deliverance. Isaiah 12 is the song for a rescue not yet given.\n\nThe same prophet carries the theme further. Isaiah 25:9 uses nearly the same frame, 'in that day it will be said, Surely this is our God; we have waited for Him, and He has saved us,' and 26:1 says 'In that day this song will be sung in the land of Judah.' The water imagery grows too: 'with joy you will draw water' meets the invitation of 55:1, 'Come, all you who are thirsty, come to the waters,' and the promise of 44:3 that God will pour water on the thirsty land and His Spirit on the next generation. The word 'comforted' in verse 1 looks forward to 40:1, 'Comfort, comfort My people.' Chapter 12 is, in a real sense, the seed of chapter 40.\n\nThe New Testament takes up the water and the name. Jesus stands in the temple court and calls the thirsty to come to Him, John 7:37 to 39, and John explains that He meant the Spirit. At the very end of the Bible the invitation is renewed, Revelation 21:6 and 22:17, to take the water of life freely. The song of Moses returns once more in Revelation 15:3, where the redeemed standing by the sea sing 'the song of God's servant Moses and of the Lamb.' What Isaiah promised for 'that day' reaches its fullest voice there."
     },
     "hermeneutics": {
-      "authorIntent": "To provide the redeemed community with the actual words of praise they will one day sing once God's promised salvation through the Branch and the gathered remnant is realized, closing the Immanuel section with worship rather than mere prediction.",
-      "descriptionVsPrescription": "This is a prophetic song anticipating future praise rather than a prescription for a specific liturgical formula that must be used verbatim. The enduring principle is that genuine encounter with God's salvation should produce exactly this kind of response: personal trust replacing fear, and corporate proclamation of God's greatness to the nations.",
+      "authorIntent": "Isaiah wanted a people who had just heard of the Branch, the Assyrian terror, and the scattered exiles, to know what the whole sequence is for. The answer he gives is not a programme but a song. The deliverance he has described is not an end in itself. It is meant to produce a particular kind of people: trusting, unafraid, grateful, and outward looking.\n\nHe also meant the song to work backwards. The phrase 'in that day you will say' is addressed to the hearers now. A community still living under the shadow of Assyria was being handed lines to learn. To rehearse the words of thanksgiving before the rescue is itself an act of faith, because it commits the singer to believing that the anger really will turn and the comfort really will come.\n\nTwo particular claims carry the weight. The first is verse 1, that the anger of God was real, 'You were angry with me,' and that it ends. Isaiah does not let his readers pretend God was never angry, nor that His anger is His last word. The second is verse 2, that the LORD is not only the giver of salvation but His people's own strength and song. The hearers were to learn that they would need nothing beyond Him, and that what they had in Him could not be taken away by a king or an army.",
+      "descriptionVsPrescription": "The chapter predicts a song; it does not legislate a liturgy. It would be a mistake to read it as a script that must be recited in a set form, or to treat its words as a statement that every believer already feels the anger of God to have turned. What is recorded is what the redeemed will say.\n\nWhat carries forward is the shape of response. A people who have been rescued are to say it aloud, to God first, and then to one another and to the nations. The sequence matters: thanks, then trust, then testimony. Believers today borrow these words with good reason, because the New Testament says the day has come in Christ, Romans 5:1 and 5:9 to 10, and the church has sung Isaiah 12 in this way for centuries.\n\nThere is also a caution. The song belongs to those who have actually been brought to the springs. It is not an invitation to assume comfort without the turning of anger first. The path in Isaiah runs through judgment to rescue, and the song is for those who have come that way.",
       "debates": [
-        { "question": "Is 'that day' in this chapter the same near-term day as the fall of Assyria and Ahaz's crisis, or does it point toward the ultimate messianic and eschatological fulfillment described in chapter 11?", "views": [ { "label": "Primarily the same near horizon as the surrounding oracles", "case": "The phrase 'in that day' throughout chapters 7-12 has often referred to the more immediate resolution of the Assyrian crisis, so this song may function as the anticipated response to that specific, nearer deliverance." }, { "label": "The ultimate, messianic and eschatological horizon of chapter 11", "case": "Chapter 12 follows immediately after chapter 11's full description of the Messiah's reign and the second exodus gathering of the whole remnant, suggesting this song responds to that fuller, more ultimate fulfillment rather than merely the Assyrian crisis alone." } ], "bearing": "Given Isaiah's consistent pattern of near and far fulfillment throughout this section, the song likely functions on both levels: a genuine, appropriate response to any real deliverance God grants His people now, while pointing toward and anticipating the fullest, final response of praise when Christ's kingdom is completely realized." }
+        {
+          "question": "Is 'that day' the near deliverance from Assyria, or the end-time salvation of the whole people of God?",
+          "views": [
+            {
+              "label": "The near horizon first",
+              "case": "The song follows directly on chapters 10 and 11, where Assyria is cut down like a forest and a remnant returns, and the wording 'your anger has turned away' echoes 10:25, where God's fury against His people 'will subside' in a little while. On this reading the first hearers could expect a real turning in their own history, in the days of Hezekiah, 37:36 to 38."
+            },
+            {
+              "label": "The final, messianic day",
+              "case": "The setting is the day of the Branch and the second gathering of the exiles from the ends of the earth, 11:10 to 12. The phrase 'in that day' is used in Isaiah for the great reversal, and the nations are summoned to hear, verses 4 and 5, which reaches beyond any one local deliverance. The New Testament applies the water imagery to Jesus, which suggests the fullest sense lies there."
+            },
+            {
+              "label": "Both, as a pattern",
+              "case": "Isaiah regularly sees one horizon through another, so that a partial rescue is a down payment on a final one. The song fits the relief of 701 BC and then the return from exile, and finds its full voice in Christ and in the new creation."
+            }
+          ],
+          "bearing": "The third view best matches how Isaiah writes. The song was true in part in every rescue and is complete only when the people of God are fully gathered, so it is rightly sung now in hope and will be sung finally in sight."
+        },
+        {
+          "question": "When John 7:38 says 'as the Scripture has said,' which passage does Jesus mean?",
+          "views": [
+            {
+              "label": "Isaiah 12:3 and the wells of salvation",
+              "case": "The water imagery of this chapter was tied to the water ceremony of the feast, and the 'springs of salvation' are the nearest verbal match. Jesus, speaking at the feast, would then be pointing to the promise that the thirsty will draw from God Himself."
+            },
+            {
+              "label": "Another water text, such as Isaiah 44:3, 55:1 or 58:11 or Zechariah 14:8",
+              "case": "No single Old Testament verse matches John's wording exactly. Isaiah 44:3 joins water and the Spirit, 55:1 invites the thirsty, 58:11 speaks of a spring that never fails, and Zechariah 14:8 describes living water flowing out from Jerusalem. John may have in mind the combined sense of these."
+            },
+            {
+              "label": "The whole stream of prophetic promise",
+              "case": "'The Scripture' may be a summary of the Old Testament's water-of-life theme rather than a quotation, from the rock in the wilderness, 1 Corinthians 10:4, to the river from the temple in Ezekiel's vision."
+            }
+          ],
+          "bearing": "Isaiah 12 does not need to be the one text for it to be one of the clearest. Whatever John has in mind, the point is that the water promised in the prophets is the Spirit, and Jesus is the one who gives it."
+        }
       ]
     },
-    "originalLanguages": "The word yeshuah, salvation, appears twice in verse 2 alone, God is my yeshuah, He has become my yeshuah, the very root behind the name Yeshua, Jesus, given because He would save His people from their sins. The redeemed draw water joyfully from the wells of yeshuah, and declare that the qadosh, Holy One, of Israel, the very title that opened Judah's indictment in chapter 1, is now great among them and worthy of praise.",
+    "originalLanguages": "Five words and constructions in this short song reward a closer look beyond the ones already named.\n\nFirst, the verb of verse 1, 'I will praise You,' is from the root yadah. Its basic idea is to acknowledge or confess in public, which is why it is translated both 'thank' and 'praise.' Israel did not thank God in silence. The root also gives the noun todah, thank offering, and the Hebrew name of this section's theme is therefore closer to 'public acknowledgment' than to a private feeling. Verse 4 opens with the plural imperative of the same verb, so the singular thanks of verse 1 becomes a command to everyone.\n\nSecond, 'turned away' in verse 1 is the verb shuv, to turn or return, the great verb of repentance in the prophets. It is used here of God. The people had been told to turn, 'a remnant will return,' 10:21, and the refrain 'His anger is not turned away' ran through 5:25 and 9:12 to 9:21. Now the same verb is reversed, and God's anger itself turns. The following verb, 'You have comforted me,' is from nacham, the root of 'comfort, comfort My people' in 40:1. The two verbs sit in a neat chain, anger turns, then comfort comes.\n\nThird, verse 2 says 'the LORD GOD,' literally Yah Yahweh, using the short form Yah, the same short form found in the Song of the Sea, Exodus 15:2, and in Isaiah 26:4. The BSB renders 'strength and my song' in the same words as Exodus 15:2 and Psalm 118:14, which is what makes the echo audible in English. 'Song' here is zimrah, a word of praise that is sung, and it is joined to 'strength,' so that God is both the power and the music.\n\nFourth, the 'wells' of verse 3 are in Hebrew ma'yanei, a plural of ma'yan, which means a spring or fountain rather than a dug well, for which Hebrew has another word. The BSB's 'springs' is the more exact translation. The point of the image is that God's salvation is a source that does not run dry. 'Draw water' uses sha'av, the ordinary verb for fetching water from a source, and it is joined with 'with joy,' so that a chore becomes a celebration.\n\nFifth, verse 4 says 'proclaim His name,' literally 'call on His name.' The same phrase describes the response of those who pray, Genesis 4:26, and of those who preach, Psalm 105:1. Verse 6's 'Cry out' translates a verb often used for a shrill, ringing shout of joy, and 'citizen of Zion' is feminine singular, addressing Zion as a woman, a daughter, as in 1:8 and 10:32.",
     "typology": [
-      { "type": "The wells of salvation from which the redeemed draw water joyfully, Isaiah 12:3", "fulfillment": "Jesus's offer of living water that becomes an eternal spring in believers, John 4:14, and His invitation to the thirsty to come and drink, John 7:37-38." },
-      { "type": "God's anger turned to comfort, Isaiah 12:1", "fulfillment": "The full reconciliation accomplished at the cross, where God's wrath against sin is satisfied and comfort flows freely to those in Christ." }
+      {
+        "type": "The springs of salvation, verse 3",
+        "fulfillment": "A spring that never runs dry is Isaiah's picture of what God gives. In the wilderness God brought water from the rock, Exodus 17:6, and Paul says that rock 'was Christ,' 1 Corinthians 10:4. At the feast Jesus cries out to the thirsty to come to Him and drink, and John says He spoke of the Spirit, John 7:37 to 39. The escalation is from water that sustained a body to the Spirit who gives life. Revelation 22:17 carries the offer to the end of the Bible. The type falls short because springs, in Isaiah's day, were drawn from by those who stood near them, while the Spirit is poured out on all who believe."
+      },
+      {
+        "type": "The turning of the anger, verse 1",
+        "fulfillment": "Anger turned to comfort is the shape of every rescue, but it is only fully explained at the cross. Paul says we are 'justified by His blood' and so 'saved from wrath through Him,' Romans 5:9, and that we were 'reconciled to Him through the death of His Son,' 5:10. Isaiah does not say how the anger turns, though 53:5 speaks of a suffering Servant by whose wounds we are healed. The correspondence is that the people who were under wrath now sing; the escalation is that the cost is named in Christ, and the comfort is permanent, no condemnation, Romans 8:1. The type is incomplete without the cross."
+      },
+      {
+        "type": "The song of the redeemed, verses 1 to 6",
+        "fulfillment": "The Song of the Sea was sung on the far shore of the Red Sea, and Isaiah's song is sung on the far shore of exile. Revelation 15:3 shows the redeemed standing beside a sea mixed with fire and singing 'the song of God's servant Moses and of the Lamb,' joining the old song to the new. The pattern is that every deliverance creates a singing people, and the final deliverance creates the final song. The limit of the type is that Israel's songs were sung by one nation on one day, whereas Revelation promises 'all nations will come and worship before You,' 15:4, the fulfilment of verses 4 and 5 here."
+      },
+      {
+        "type": "'He has become my salvation,' verse 2",
+        "fulfillment": "The Hebrew word for salvation here is the root of the name Joshua, and in the Greek of the New Testament the same name appears as Jesus. When the angel tells Joseph to name the child Jesus because 'He will save His people from their sins,' Matthew 1:21, the song's confession takes a human face. Simeon, holding the infant, says 'my eyes have seen Your salvation,' Luke 2:30. The escalation is from salvation as something God does to salvation as someone God sends. The type is not an allegory of every detail but a name that carries a promise."
+      }
     ],
-    "christ": "The word yeshuah, salvation, declared twice over in this brief song, is the very root of the name given to Mary's son, Jesus, whose name literally means the LORD saves, Matthew 1:21, so this hymn's central confession, God has become my salvation, finds its personal, historical fulfillment in Christ Himself. Jesus later draws directly on this chapter's image of joyfully drawn wells of salvation, offering living water that becomes in believers a spring welling up to eternal life, John 4:14, and inviting all who thirst to come to Him and drink, John 7:37-38.",
-    "god": "God's anger, real and justly provoked, is shown here to give way to comfort once His redemptive purposes are accomplished, revealing that wrath is never His final or ultimate disposition toward a redeemed and repentant people. He is not merely the giver of salvation from a distance but is Himself the salvation His people receive personally, becoming their strength and their song.",
+    "christ": "The chapter leads to Christ most plainly through its centre sentence, 'He also has become my salvation,' verse 2. The final phrase is a quotation from Exodus 15:2, and the key word is the Hebrew root of the name Jesus. Isaiah's hearers could only mean that God Himself would be their rescue. The Gospels tell us how that is true: God did not send a mere agent. In Christ He came Himself. Matthew writes that the name is given 'because He will save His people from their sins,' Matthew 1:21, and in the next breath adds the name Immanuel, 'God with us,' 1:23, which is the very theme of the section that this chapter closes. Isaiah 7:14, the child Immanuel, and 12:2, God become salvation, are the two ends of the same story.\n\nIt leads to Christ by the water. The chapter sets a joyful drawing from springs of salvation, and Jesus at the feast takes up the image and makes Himself the source, 'If anyone is thirsty, let him come to Me and drink,' John 7:37. In John 4:10 He tells the woman at the well that she would have asked Him for living water, and in John 4:14 that water becomes in the one who drinks a spring welling up to eternal life. Isaiah's springs were God's gift to the people; in the Gospel the springs have a name and an address.\n\nIt leads to Christ by the turning of the anger. The first song depends on the sentence 'Though You were angry with me, Your anger has turned away.' The Bible answers how a holy God can say that and remain holy. Paul's answer is the cross: we are 'saved from wrath through Him,' Romans 5:9, and 'there is now no condemnation for those in Christ Jesus,' Romans 8:1. The anger of God is not set aside; it is borne by the one who stands in our place, and so the comfort of Isaiah's second line can be said without any false note.\n\nIt leads to Christ by the outward summons. 'Make His works known among the peoples,' verse 4, becomes the Great Commission, Matthew 28:19, and the praise 'in all the earth,' verse 5, becomes the song of the nations in Revelation 5:9. The Holy One of Israel who is 'great among you' in verse 6 is, in the Gospels, the Holy One of God, Mark 1:24, who is in the midst of His people.\n\nA caution keeps the reading honest. The chapter is not a coded prediction of the Gospel of John. Isaiah's point was a real rescue of a real people, and the apostles' use of his images rests on the pattern he gave, not on a hidden message in every phrase. The pattern holds, because the God who is 'my salvation' in verse 2 is the same God who stands at the feast and cries out, and who in the end gives the water of life without cost.",
+    "god": "This short song says more about God than its length suggests, and the first thing it says is that His anger is real and personal. 'You were angry with me.' The singer does not say that the circumstances were hard or that fortune turned. He says that God was angry, and that God stopped. That is a doctrine of the holiness of God as much as of His mercy. Holiness is why the anger was just, and the tension between the two is resolved only in a God who is both, in a way that human anger never is. Our anger, once spent, leaves us poorer; His, turned away, leaves us comforted.\n\nHe is a God who comforts. The verb in verse 1, nacham, is the same that Isaiah uses of a mother, 66:13, 'As a mother comforts her son, so will I comfort you,' and of the whole people in chapter 40. The God of Isaiah is not content to cease from wrath; He draws near with tenderness. The turn from anger to comfort is not a cold settlement but the movement of a heart, as God says elsewhere, 'My compassion is stirred,' Hosea 11:8.\n\nHe is the whole of His people's rescue, strength and song and salvation at once. The grammar says that the gift and the Giver cannot be separated. People often want what God provides and little of God Himself. The song refuses the division. To be saved is to have Him. This also guards against fear: someone who has God as their strength cannot be undone by anything that can be taken away, which is the force of 'I will trust and not be afraid,' verse 2, in a book that began with a king too afraid to trust, 7:9.\n\nHe is a God whose name is to be made known. Verse 4 pairs 'His name' with 'exalted,' and verse 6 calls Him 'the Holy One of Israel,' the title Isaiah uses most. The doctrine of God here is missionary at the root: He wants to be known among the peoples, and His works are the means of that knowing, 'Make His works known.' The nations are not an afterthought. God's glory is the point of rescue, as Isaiah 43:7 and 48:11 teach.\n\nHe is present with His people. 'Great among you' in verse 6 says the Holy One is not far away in heaven only, but in Zion's midst. That is the same affirmation as the name Immanuel in 7:14, and it is why the song ends in praise rather than in a request.\n\nFor worship this means that thanksgiving is the right response to a rescue that cost God something. The song does not ask for more. It rests, remembers, and sings. And because the song is plural at the end, the church is shown that worship is something the redeemed do together and publicly, not only privately.",
     "crossReferences": [
-      { "ref": "Exodus 15:1-2", "note": "Provides the model for this song, celebrating God as strength and song after Israel's first great deliverance through the sea." },
-      { "ref": "Matthew 1:21", "note": "Explains that Jesus's name means the LORD saves, directly rooted in the same Hebrew word, yeshuah, sung twice in this chapter." },
-      { "ref": "John 4:13-14", "note": "Jesus offers living water that becomes an eternal spring welling up within believers." },
-      { "ref": "John 7:37-38", "note": "Jesus invites the thirsty to come to Him and drink, directly echoing this chapter's wells of salvation." }
+      {
+        "ref": "Exodus 15:1-2",
+        "note": "The model for the song. Isaiah's second line is almost a quotation: 'The LORD is my strength and my song, and He has become my salvation.' After the sea, Moses and Israel sang it; Isaiah promises that a second rescue will bring it back. Reading the two together shows that Isaiah is teaching his hearers to expect a deliverance of the same order as the exodus."
+      },
+      {
+        "ref": "Psalm 118:14",
+        "note": "The same words appear again in a psalm of thanksgiving sung at the temple gates, Psalm 118:19 to 21. The line had become part of Israel's regular worship, so that Isaiah's hearers did not meet it as new but as a familiar confession being set in the mouth of a future generation."
+      },
+      {
+        "ref": "Isaiah 10:25",
+        "note": "'My anger will turn to their destruction.' The turn that Isaiah 12:1 celebrates is first announced here: God's fury against His own people will subside, and His anger will be turned against Assyria. The two verses show that the comfort of the people and the judgment of the oppressor are one act seen from two sides."
+      },
+      {
+        "ref": "Isaiah 40:1-2",
+        "note": "'Comfort, comfort My people.' Isaiah 12:1 uses the same verb for being comforted, so the second half of the book opens by repeating the first half's closing song. The anger that turned away in 12:1 is the pardon announced in 40:2, 'her iniquity has been pardoned.'"
+      },
+      {
+        "ref": "Isaiah 26:1",
+        "note": "'In that day this song will be sung in the land of Judah.' A second song set in the same day, so that chapter 12 is not an isolated hymn but the first of a series of songs that Isaiah places across the book to carry the people's hope through each of the long sections of judgment."
+      },
+      {
+        "ref": "Isaiah 55:1",
+        "note": "'Come, all you who are thirsty, come to the waters.' The springs of salvation are here offered to all without money and without cost. The movement from drawing water to receiving it freely shows that the salvation Isaiah describes is gift, not wage."
+      },
+      {
+        "ref": "John 7:37-39",
+        "note": "On the last and greatest day of the feast Jesus calls the thirsty to come to Him and drink, and John explains that He meant the Spirit. The setting at the feast, when water was drawn in procession, makes it likely that Isaiah 12:3 is in the background. Jesus claims to be the source of the springs."
+      },
+      {
+        "ref": "Matthew 1:21",
+        "note": "The angel's explanation of the name Jesus, 'for He will save His people from their sins,' rests on the Hebrew root behind the 'salvation' of Isaiah 12:2. The song's confession, God become my salvation, is given a name and a mission. The same Gospel introduces Immanuel at 1:23, quoting Isaiah 7:14, so both ends of the Immanuel section are claimed for one child."
+      },
+      {
+        "ref": "Revelation 15:3-4",
+        "note": "The redeemed beside the sea sing the song of Moses and of the Lamb, and the song includes the nations coming to worship. It gathers the Exodus song and the Isaiah promise into one: a people delivered, singing, with the invitation to every nation fulfilled."
+      },
+      {
+        "ref": "Revelation 21:6",
+        "note": "'To the thirsty I will give freely from the spring of the water of life.' The springs of Isaiah 12:3 reach their last form here, in the new creation, where the water is given without cost and the thirst is finally satisfied. The drawing with joy becomes a drinking in peace."
+      }
     ],
-    "oneStory": "This brief hymn reveals the intended end of the whole redemptive story: not merely deliverance accomplished but a redeemed people singing that God Himself has become their salvation. That salvation, yeshuah, receives its personal name and full accomplishment in Jesus, whose name means precisely what this song declares, and whose living water finally and forever satisfies the thirst these ancient words first anticipated.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "why": "" }
+    "oneStory": "The Bible begins with a good world and a people in fellowship with God, and then comes the break, Genesis 3. The question running from there to the end is how the breach will be healed, and Isaiah 12 gives one answer in miniature. It is the moment at which the breach is healed and the healed people open their mouths. The anger that came with the exile from Eden, the thorns and the sentence, is said to have turned. The fellowship that was lost is restored, and the first sign of restoration is a song.\n\nIt answers what came before in the book. Isaiah's first chapter ended with a people laid waste and a call to wash and be clean, 1:16, while chapters 7 to 11 offered a child, a Branch and a remnant. Here the story reaches the people's own response. The section that started with a king who would not trust ends with a nation that does.\n\nIt sets up what follows. The oracles against the nations that come next show what 'that day' means for those who oppose God, and then the book turns to another song in chapter 26 and to the great banquet of chapter 25, where God 'will swallow up death forever' and wipe away every tear, 25:8. In the second half of the book, chapter 40 will open with the comfort promised here, and chapter 55 will extend the water to everyone.\n\nIn the story as a whole the song is fulfilled in stages. The exodus gave its model, the return from Babylon gave a partial answer, and the coming of Christ gave the content: God became salvation, and the Spirit was given like water. The church sings the song now, in the tension of a world still waiting, and Paul says that creation itself is groaning for the full freedom of God's children, Romans 8:21 to 22.\n\nThe new creation is where the song stops being a promise. John sees a river of the water of life flowing from the throne, Revelation 22:1, and the thirsty invited to drink, 22:17. The Holy One of Israel is no longer great among them from a distance; God Himself dwells with His people, 21:3. The singing of the redeemed, from the sea of glass to the springs of the new Jerusalem, is the song Isaiah taught them to learn in advance.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What transformation does the first song in verses 1-2 celebrate?",
       "options": [
-        { "text": "God's anger has turned away and become comfort, and He Himself has become the singer's salvation.", "weight": 100, "note": "This is the heart of the song, a personal declaration of reconciliation and trust." },
-        { "text": "The complete destruction of all Judah's enemies with no mention of God's own disposition.", "weight": 0, "note": "The song centers specifically on the change in God's own disposition toward His people, anger turned to comfort." },
-        { "text": "A military victory won through human strength.", "weight": 25, "note": "The song attributes salvation entirely to God, not human military achievement." },
-        { "text": "The restoration of the temple's physical structure.", "weight": 75, "note": "The song's focus is personal and relational, God's turned anger and salvation, not physical temple restoration specifically." }
+        {
+          "text": "God's anger has turned away and become comfort, and He Himself has become the singer's salvation.",
+          "weight": 100,
+          "note": "This is the heart of the song, a personal declaration of reconciliation and trust."
+        },
+        {
+          "text": "The complete destruction of all Judah's enemies with no mention of God's own disposition.",
+          "weight": 0,
+          "note": "The song centers specifically on the change in God's own disposition toward His people, anger turned to comfort."
+        },
+        {
+          "text": "A military victory won through human strength.",
+          "weight": 25,
+          "note": "The song attributes salvation entirely to God, not human military achievement."
+        },
+        {
+          "text": "The restoration of the temple's physical structure.",
+          "weight": 75,
+          "note": "The song's focus is personal and relational, God's turned anger and salvation, not physical temple restoration specifically."
+        }
       ]
     },
     {
       "q": "What is significant about the Hebrew word yeshuah, salvation, appearing twice in verse 2?",
       "options": [
-        { "text": "It is the very root of the name Jesus, whose name means the LORD saves.", "weight": 100, "note": "Matthew 1:21 explains Jesus's name means exactly this, directly connecting this ancient hymn to Christ." },
-        { "text": "It is an unrelated word with no connection to any New Testament name.", "weight": 0, "note": "Yeshuah is directly the root of Yeshua, Jesus's Hebrew name." },
-        { "text": "It refers only to physical healing from illness.", "weight": 25, "note": "The term carries the broader sense of deliverance and rescue, not merely physical healing." },
-        { "text": "It is used only once, not twice, in this passage.", "weight": 75, "note": "The word yeshuah appears twice in verse 2 alone, both times describing God Himself as salvation." }
+        {
+          "text": "It is the very root of the name Jesus, whose name means the LORD saves.",
+          "weight": 100,
+          "note": "Matthew 1:21 explains Jesus's name means exactly this, directly connecting this ancient hymn to Christ."
+        },
+        {
+          "text": "It is an unrelated word with no connection to any New Testament name.",
+          "weight": 0,
+          "note": "Yeshuah is directly the root of Yeshua, Jesus's Hebrew name."
+        },
+        {
+          "text": "It refers only to physical healing from illness.",
+          "weight": 25,
+          "note": "The term carries the broader sense of deliverance and rescue, not merely physical healing."
+        },
+        {
+          "text": "It is used only once, not twice, in this passage.",
+          "weight": 75,
+          "note": "The word yeshuah appears twice in verse 2 alone, both times describing God Himself as salvation."
+        }
       ]
     },
     {
       "q": "What does the second song, verses 3-6, call the redeemed people to do?",
       "options": [
-        { "text": "Draw water joyfully from the wells of salvation and proclaim God's name and works to all the earth.", "weight": 100, "note": "The song moves from personal praise to corporate, outward-facing proclamation to the nations." },
-        { "text": "Keep their deliverance a private, personal secret.", "weight": 0, "note": "The song explicitly calls for making God's works known among the peoples and declaring Him in all the earth." },
-        { "text": "Focus exclusively on internal, personal devotion with no missionary dimension.", "weight": 25, "note": "The song explicitly has a global, missionary dimension, declaring God's name among the peoples." },
-        { "text": "Mourn their past sins rather than celebrate deliverance.", "weight": 75, "note": "The tone throughout is joyful praise and proclamation, not ongoing mourning." }
+        {
+          "text": "Draw water joyfully from the wells of salvation and proclaim God's name and works to all the earth.",
+          "weight": 100,
+          "note": "The song moves from personal praise to corporate, outward-facing proclamation to the nations."
+        },
+        {
+          "text": "Keep their deliverance a private, personal secret.",
+          "weight": 0,
+          "note": "The song explicitly calls for making God's works known among the peoples and declaring Him in all the earth."
+        },
+        {
+          "text": "Focus exclusively on internal, personal devotion with no missionary dimension.",
+          "weight": 25,
+          "note": "The song explicitly has a global, missionary dimension, declaring God's name among the peoples."
+        },
+        {
+          "text": "Mourn their past sins rather than celebrate deliverance.",
+          "weight": 75,
+          "note": "The tone throughout is joyful praise and proclamation, not ongoing mourning."
+        }
       ]
     },
     {
       "q": "How does this chapter's imagery connect to Jesus's ministry in the Gospel of John?",
       "options": [
-        { "text": "Jesus directly echoes the image of wells of salvation, offering living water that satisfies eternally.", "weight": 100, "note": "John 4:14 and John 7:37-38 both draw on exactly this kind of water-and-salvation imagery." },
-        { "text": "There is no connection between this chapter and John's Gospel.", "weight": 0, "note": "Jesus's living water discourses closely parallel this chapter's wells-of-salvation imagery." },
-        { "text": "Jesus rejects the imagery of water as a symbol of spiritual life.", "weight": 25, "note": "Jesus embraces and develops this very imagery rather than rejecting it." },
-        { "text": "The connection is only to Jesus's crucifixion, not His teaching ministry.", "weight": 75, "note": "The clearest connections are to Jesus's teaching about living water in John 4 and 7, not specifically the crucifixion narrative." }
+        {
+          "text": "Jesus directly echoes the image of wells of salvation, offering living water that satisfies eternally.",
+          "weight": 100,
+          "note": "John 4:14 and John 7:37-38 both draw on exactly this kind of water-and-salvation imagery."
+        },
+        {
+          "text": "There is no connection between this chapter and John's Gospel.",
+          "weight": 0,
+          "note": "Jesus's living water discourses closely parallel this chapter's wells-of-salvation imagery."
+        },
+        {
+          "text": "Jesus rejects the imagery of water as a symbol of spiritual life.",
+          "weight": 25,
+          "note": "Jesus embraces and develops this very imagery rather than rejecting it."
+        },
+        {
+          "text": "The connection is only to Jesus's crucifixion, not His teaching ministry.",
+          "weight": 75,
+          "note": "The clearest connections are to Jesus's teaching about living water in John 4 and 7, not specifically the crucifixion narrative."
+        }
       ]
     },
     {
       "q": "What earlier biblical song does Isaiah 12 most closely echo in form and theme?",
       "options": [
-        { "text": "The Song of the Sea in Exodus 15, celebrating God as strength and song after Israel's first great deliverance.", "weight": 100, "note": "Both songs share the language of God as 'my strength and my song' and celebrate deliverance through water imagery." },
-        { "text": "A song found nowhere else in Scripture.", "weight": 0, "note": "The parallels to Exodus 15 are widely recognized by readers of Isaiah." },
-        { "text": "The book of Lamentations.", "weight": 25, "note": "Lamentations is a mourning text, the opposite tone from this joyful thanksgiving song." },
-        { "text": "The curses of Deuteronomy 28.", "weight": 75, "note": "Isaiah 12 is a song of blessing and praise, not a list of covenant curses." }
+        {
+          "text": "The Song of the Sea in Exodus 15, celebrating God as strength and song after Israel's first great deliverance.",
+          "weight": 100,
+          "note": "Both songs share the language of God as 'my strength and my song' and celebrate deliverance through water imagery."
+        },
+        {
+          "text": "A song found nowhere else in Scripture.",
+          "weight": 0,
+          "note": "The parallels to Exodus 15 are widely recognized by readers of Isaiah."
+        },
+        {
+          "text": "The book of Lamentations.",
+          "weight": 25,
+          "note": "Lamentations is a mourning text, the opposite tone from this joyful thanksgiving song."
+        },
+        {
+          "text": "The curses of Deuteronomy 28.",
+          "weight": 75,
+          "note": "Isaiah 12 is a song of blessing and praise, not a list of covenant curses."
+        }
       ]
     }
   ],
@@ -134,9 +343,21 @@
     "This whole song functions as the intended response to everything promised in the preceding chapters. Does your own life currently include regular, genuine praise in response to what God has done, or has it become mostly requests and complaints?"
   ],
   "translationNotes": [
-    { "ref": "Isaiah 12:1", "note": "'In that day' is a recurring phrase throughout chapters 7-12 marking a decisive future moment, here marking the fitting response of praise once the preceding promises are realized." },
-    { "ref": "Isaiah 12:2", "note": "'The LORD GOD is my strength and my song' closely echoes Exodus 15:2 almost word for word, deliberately tying this hymn to the original song sung after Israel's exodus deliverance." },
-    { "ref": "Isaiah 12:3", "note": "'Springs of salvation' uses plural 'wells' or 'springs,' possibly evoking the ceremonial water-drawing rituals later associated with the Feast of Tabernacles, the very festival during which Jesus stood and offered living water in John 7:37-38." }
+    {
+      "ref": "Isaiah 12:1",
+      "note": "'In that day' is a recurring phrase throughout chapters 7-12 marking a decisive future moment, here marking the fitting response of praise once the preceding promises are realized."
+    },
+    {
+      "ref": "Isaiah 12:2",
+      "note": "'The LORD GOD is my strength and my song' closely echoes Exodus 15:2 almost word for word, deliberately tying this hymn to the original song sung after Israel's exodus deliverance."
+    },
+    {
+      "ref": "Isaiah 12:3",
+      "note": "'Springs of salvation' uses plural 'wells' or 'springs,' possibly evoking the ceremonial water-drawing rituals later associated with the Feast of Tabernacles, the very festival during which Jesus stood and offered living water in John 7:37-38."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from the Makor scripture toolkit for Isaiah 12:1-6." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from the Makor scripture toolkit for Isaiah 12:1-6."
+  }
 }

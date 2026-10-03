@@ -18,8 +18,16 @@
         "note": "swift envoys sent across the sea",
         "emphasis": "",
         "verses": [
-          { "chapter": 18, "n": 1, "text": "Woe to the land of {{tselatsal|whirring}} wings, along the rivers of Cush," },
-          { "chapter": 18, "n": 2, "text": "which sends couriers by sea, in papyrus vessels on the waters. Go, swift messengers, to a people tall and smooth-skinned, to a people widely feared, to a powerful nation of strange speech, whose land is divided by rivers." }
+          {
+            "chapter": 18,
+            "n": 1,
+            "text": "Woe to the land of {{tselatsal|whirring}} wings, along the rivers of Cush,"
+          },
+          {
+            "chapter": 18,
+            "n": 2,
+            "text": "which sends couriers by sea, in papyrus vessels on the waters. Go, swift messengers, to a people tall and smooth-skinned, to a people widely feared, to a powerful nation of strange speech, whose land is divided by rivers."
+          }
         ]
       },
       {
@@ -27,7 +35,11 @@
         "note": "seen and heard by everyone",
         "emphasis": "",
         "verses": [
-          { "chapter": 18, "n": 3, "text": "All you people of the world and dwellers of the earth, when a banner is raised on the mountains, you will see it; when a ram's horn sounds, you will hear it." }
+          {
+            "chapter": 18,
+            "n": 3,
+            "text": "All you people of the world and dwellers of the earth, when a banner is raised on the mountains, you will see it; when a ram's horn sounds, you will hear it."
+          }
         ]
       },
       {
@@ -35,9 +47,21 @@
         "note": "unhurried, unshaken sovereignty",
         "emphasis": "",
         "verses": [
-          { "chapter": 18, "n": 4, "text": "For this is what the LORD has told me: “I will quietly look on from My dwelling place, like shimmering heat in the sunshine, like a cloud of dew in the heat of harvest.”" },
-          { "chapter": 18, "n": 5, "text": "For before the harvest, when the blossom is gone and the flower becomes a ripening grape, He will cut off the shoots with a pruning knife and remove and discard the branches." },
-          { "chapter": 18, "n": 6, "text": "They will all be left to the mountain birds of prey, and to the beasts of the land. The birds will feed on them in summer, and all the wild animals in winter." }
+          {
+            "chapter": 18,
+            "n": 4,
+            "text": "For this is what the LORD has told me: “I will quietly look on from My dwelling place, like shimmering heat in the sunshine, like a cloud of dew in the heat of harvest.”"
+          },
+          {
+            "chapter": 18,
+            "n": 5,
+            "text": "For before the harvest, when the blossom is gone and the flower becomes a ripening grape, He will cut off the shoots with a pruning knife and remove and discard the branches."
+          },
+          {
+            "chapter": 18,
+            "n": 6,
+            "text": "They will all be left to the mountain birds of prey, and to the beasts of the land. The birds will feed on them in summer, and all the wild animals in winter."
+          }
         ]
       },
       {
@@ -45,14 +69,28 @@
         "note": "the feared nation turns to worship",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 18, "n": 7, "text": "At that time {{minchah|gifts}} will be brought to the LORD of Hosts, from a people tall and smooth-skinned, from a people widely feared, from a powerful nation of strange speech, whose land is divided by rivers, to Mount Zion, the place of the Name of the LORD of Hosts." }
+          {
+            "chapter": 18,
+            "n": 7,
+            "text": "At that time {{minchah|gifts}} will be brought to the LORD of Hosts, from a people tall and smooth-skinned, from a people widely feared, from a powerful nation of strange speech, whose land is divided by rivers, to Mount Zion, the place of the Name of the LORD of Hosts."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "tselatsal": { "language": "Hebrew", "lemma": "tselatsal kenaphayim", "original": "צְלָצַל כְּנָפָיִם", "gloss": "A whirring or buzzing of wings, likely referring to the drone of insects along the Nile or Cush's rivers, or possibly to the sails and rumor of ships and armies. The unusual phrase signals a distant, teeming, and formidable land that even Judah has heard of but never seen." },
-    "minchah": { "language": "Hebrew", "lemma": "minchah", "original": "מִנְחָה", "gloss": "A gift or tribute offering, often used of an offering brought to God or to a king in homage. The same feared nation once sending swift envoys of war is pictured at the end bringing this same word, tribute, to the LORD of Hosts at Zion." }
+    "tselatsal": {
+      "language": "Hebrew",
+      "lemma": "tselatsal kenaphayim",
+      "original": "צְלָצַל כְּנָפָיִם",
+      "gloss": "A whirring or buzzing of wings, likely referring to the drone of insects along the Nile or Cush's rivers, or possibly to the sails and rumor of ships and armies. The unusual phrase signals a distant, teeming, and formidable land that even Judah has heard of but never seen."
+    },
+    "minchah": {
+      "language": "Hebrew",
+      "lemma": "minchah",
+      "original": "מִנְחָה",
+      "gloss": "A gift or tribute offering, often used of an offering brought to God or to a king in homage. The same feared nation once sending swift envoys of war is pictured at the end bringing this same word, tribute, to the LORD of Hosts at Zion."
+    }
   },
   "study": {
     "basic": {
@@ -66,67 +104,219 @@
       "oneStory": "God calmly rules even the most feared and far off nations, unshaken by their power, and He is already at work drawing them toward Zion. This anticipates the day when Christ gathers worshipers from every corner of the earth, so that even those once feared as enemies become bearers of tribute to the LORD."
     },
     "context": {
-      "literary": "A brief, almost meditative oracle compared to its neighbors, built around two images: a farmer watching his vineyard ripen, and a diplomatic embassy crossing the sea. Its structure moves from description of Cush, to a universal summons to watch and listen, to the LORD's calm oversight, and finally to worship at Zion.",
-      "historical": "Likely set in the era when Cushite pharaohs of Egypt's twenty fifth dynasty, roughly the late eighth century BC, were seen by smaller nations as a potential ally against Assyrian expansion; Cushite envoys crossing to seek alliances fits this backdrop, though Isaiah counsels trust in the LORD rather than in foreign alliances.",
-      "canonical": "One of several oracles against the nations, chapters 13 to 23, that together declare the LORD's rule over the whole earth, not merely Israel and her immediate neighbors, extending His moral government even to the distant and exotic peoples beyond Egypt."
+      "literary": "Isaiah 18 is the shortest of the oracles in this run, and it is strange in its shape. It begins with a woe, hoy, and a long portrait of a far away people, then turns to the whole world with a call to watch for a banner and a horn, then moves into the heart of the chapter, a message the LORD has given to Isaiah, and finally returns to the people of the opening and describes them in the very same words. Verse 2 and verse 7 are almost identical: 'a people tall and smooth-skinned, a people widely feared, a powerful nation of strange speech, whose land is divided by rivers.' The repeated description makes a frame. What happens between the two descriptions changes the people from an object of fear to a source of worship.\n\nAt the center is a picture of a God who does nothing. In verse 4 the LORD says He will 'quietly look on' from His dwelling place, like shimmering heat or a cloud of dew at harvest. Then in verse 5 the stillness breaks, and the blade comes through the vines at the very moment the grapes are ripening. The sequence is stillness, then one decisive stroke, then silence again as the birds and beasts settle on what is left, verse 6. The pattern of waiting and sudden action is repeated in the next chapters as God watches Egypt in turmoil.\n\nThe emphasis falls on the contrast between the busy messengers of verse 2 and the quiet God of verse 4. Cush runs about in boats carrying plans, and the LORD sits still and has the last word. The chapter does not tell us what the envoys wanted. It does not need to, because its argument is that no diplomacy in the world is as active as the unhurried rule of God.",
+      "historical": "Cush is the upper Nile region, roughly Nubia and what is now northern Sudan. Genesis lists Cush among the sons of Ham, Genesis 10:6, and Moses' wife is called a Cushite, Numbers 12:1. In the late eighth century Cushite kings, the so called twenty fifth dynasty, extended their power north and ruled Egypt as well. Isaiah's hearers knew Cush as a rising power, and Tirhakah king of Cush would later march out to fight Assyria, 2 Kings 19:9, in the days of Hezekiah.\n\nThe occasion of the chapter is a round of diplomacy. Envoys went to and fro between the small states of the Levant and the great river powers while Assyria pressed westward. The Ashdod revolt of about 713 to 711 BC, which chapter 20 mentions, was part of this ferment, and Judah was being urged to join a coalition that looked to the south. The date of chapter 18 is disputed, and some place it in the years before 711 and others closer to 701, but nothing in the text requires a single year.\n\nThe details have the look of an eyewitness description. The 'papyrus vessels' of verse 2 are light boats made of the reed that grew along the Nile; the same word describes the ark of papyrus in which the baby Moses floated, Exodus 2:3. The people are 'tall' and 'smooth-skinned,' which reads as admiration as much as alarm. The land is 'divided by rivers,' a fair description of the many tributaries of the upper Nile. The harvest imagery in verses 4 to 6 would have rung true for any farming people, and the banner and the ram's horn of verse 3 belong to the language of war, Isaiah 5:26 and 11:12, so Isaiah's world hears this as a muster.\n\nVerse 7 closes with Mount Zion, 'the place of the Name of the LORD of Hosts.' Judah's own king had been inclined to turn to foreign capitals for protection. Isaiah reminds him of the capital that actually counts.",
+      "canonical": "Cush appears across the Old Testament as a far off power that is neither wholly friend nor wholly enemy. Amos asks Israel, 'Are you not like the Cushites to Me, O children of Israel?' Amos 9:7, putting them among the peoples the LORD guides in their own exoduses. In Hezekiah's day Tirhakah king of Cush marches out to fight, Isaiah 37:9. Jeremiah's Ebed-melech the Cushite is the man who pulls the prophet out of the cistern when Jerusalem's own officials had left him there, Jeremiah 38:7-13.\n\nThe promise of verse 7 has companions elsewhere. 'Envoys will arrive from Egypt; Cush will stretch out her hands to God,' Psalm 68:31. Zephaniah looks to a day when 'from beyond the rivers of Cush My worshipers, My scattered people, will bring Me an offering,' Zephaniah 3:10. Psalm 87:4 lists Cush among the nations counted as born in Zion, and Isaiah 45:14 speaks of the merchandise of Cush coming to Israel with a confession that 'God is indeed with you, and there is no other.' Isaiah 11:11 counts Cush among the places from which the LORD will recover His scattered people.\n\nThe New Testament gives the verse a face. Philip meets 'an Ethiopian eunuch, a court official in charge of the entire treasury of Candace,' who had traveled to Jerusalem to worship and was reading Isaiah on his way home, Acts 8:27-28. The Greek Old Testament renders Cush as Ethiopia, so a man from the land of Cush is baptised after reading the very book that promised such a day. Revelation then pictures every nation in the city, Revelation 21:24-26, where the 'kings of the earth will bring their glory' into it."
     },
     "hermeneutics": {
-      "authorIntent": "To assure Judah that the LORD is not rattled by powerful, feared nations forming alliances, and to promise that even those nations will one day turn their tribute toward Zion rather than toward war.",
-      "descriptionVsPrescription": "The passage describes God's sovereign, unhurried oversight of a specific ancient alliance situation and anticipates a future ingathering of worship; it does not prescribe a specific method for engaging distant nations today. The abiding truth is God's calm sovereignty over history and His intention to draw the nations to Himself.",
+      "authorIntent": "Isaiah wanted his hearers in Jerusalem to be calm about a nation that frightened them and to stop looking to it as a rescuer. The portrait of Cush in verse 2 is not meant to impress but to put in perspective: this is a people the whole region fears and flatters, with swift envoys and impressive boats, and yet the prophet says the LORD is sitting still. The aim is to make the reader see the scale of God's rule against the apparent scale of the great powers.\n\nThe chapter also has a second audience, the world. Verse 3 turns to 'all you people of the world and dwellers of the earth' and tells them to watch for a banner. Isaiah wanted Judah to understand that its small history was being told on a global stage, and that what God does with Zion will be visible to every nation. The goal is not only to calm fear but to give Judah a mission-shaped imagination, so that Zion is seen as the place to which even the most distant peoples will finally bring their gifts.\n\nFinally, he meant the oracle to be a comfort that did not lessen the warning. Pruning shears are severe, and verses 5 and 6 are not softened. A hearer is told both that God will cut the proud down at the right moment and that He intends a worshiping harvest, and is invited to be on the right side of both.",
+      "descriptionVsPrescription": "The chapter describes what God will do to Cush and what He will do through Zion. It does not instruct Judah on a foreign policy and it does not authorise any attitude of contempt toward the Nubian people. The ethnic details in verse 2 are descriptive and respectful, and verse 7 makes the same people worshipers. A reader who used the chapter to disparage a nation, or to treat it as doomed by its race, would be reading against the grain of the oracle itself.\n\nThe passage does model how believers are to hold two things at once. It tells us that God is not hurrying, and that His apparent stillness is no sign of absence. It also tells us that there is a moment when He acts. The prescriptive center is faith: rest in His unhurried rule, do not panic at the movements of the powers, and do not run to them for rescue. That fits the posture of Isaiah 30:15, 'your strength would lie in quiet confidence,' in a different setting, and it fits Jesus' sleeping in the boat in Mark 4:38 before He stood up and spoke.",
       "debates": [
-        { "question": "Is the harvest imagery in verses 4 to 6 a picture of judgment on Cush, on Cush's enemies, or on both?", "views": [ { "label": "Judgment falls on Cush's pride and its allies", "case": "The pruning and abandonment to birds and beasts suggests the LORD will cut short whatever plans this powerful nation and its coalition partners are forming, regardless of their strength." }, { "label": "The pruning targets whichever power threatens Judah at the time", "case": "Since the oracle is deliberately unspecific about who is pruned, some read it as describing God cutting down any nation, Cush included or excluded depending on circumstances, that threatens His people." } ], "bearing": "Both readings agree that human power, however feared, is subject to God's timing and pruning; the specifics matter less than the certainty that the LORD, not the nations, directs the outcome." }
+        {
+          "question": "What does the opening phrase 'land of whirring wings' refer to?",
+          "views": [
+            {
+              "label": "Buzzing insects along the Nile",
+              "case": "The phrase uses a word that suggests a whirring or buzzing sound, and the BSB footnote offers 'or of many locusts.' The upper Nile has teeming insect life, and the picture would suit a land known to the prophet's hearers from the reports of travelers."
+            },
+            {
+              "label": "The sails or boats of a river people",
+              "case": "Verse 2 immediately mentions boats on the water, and wings are a natural image for sails. On this reading the phrase describes the flurry of Cushite shipping and diplomacy."
+            },
+            {
+              "label": "The wings of an army or a protective power",
+              "case": "Some see a reference to the wings of a force, since the nation is described as 'widely feared.' Others link the word with a shadow of wings, which would suggest a land that casts its protection over others, as Judah hoped Cush would do."
+            }
+          ],
+          "bearing": "The Hebrew is unusual and we cannot be certain which sense was primary. All three suit the chapter's contrast between a busy, impressive people and the quiet God who is above them, so nothing of the teaching depends on resolving the question. The honest approach is to hold the translation lightly and keep the contrast."
+        },
+        {
+          "question": "Who brings the gifts in verse 7, and are they a conversion or a captured tribute?",
+          "views": [
+            {
+              "label": "Cushites themselves, converted and worshiping at Zion",
+              "case": "Verse 7 takes the same description of verse 2 and sets the people before the LORD at Zion. Psalm 68:31 and Zephaniah 3:10 speak of Cush stretching out hands to God and bringing offerings, and the New Testament shows an Ethiopian official worshiping in Jerusalem, Acts 8:27."
+            },
+            {
+              "label": "Tribute offered by a defeated or humbled power",
+              "case": "The chapter's mood is one of pruning, and the word for gift can describe tribute that a vassal gives a king, as in Psalm 76:11. On this view the gift is the homage owed by a nation that has learned the LORD rules it, not necessarily a new faith."
+            },
+            {
+              "label": "Jewish exiles returning from Cush",
+              "case": "Some read the gifts as brought by Israelites dispersed beyond the rivers of Cush, following Zephaniah 3:10, 'My scattered people.'"
+            }
+          ],
+          "bearing": "The first reading best fits the symmetry of verses 2 and 7, but the readings are not rivals. In Isaiah, the nations that come to Zion do so by being brought under the LORD, which includes both honor and submission, and some of them are his own scattered people. The text invites trust that the God who prunes also gathers."
+        }
       ]
     },
-    "originalLanguages": "The unusual opening phrase tselatsal kenaphayim, whirring of wings, paints Cush as a strange, humming, faraway land known by report more than by sight. The closing word minchah, tribute or gift, is the same term used for offerings brought to the LORD, turning what began as a description of feared military couriers into a picture of worshipers approaching Zion.",
+    "originalLanguages": "The opening phrase, in the lexicon as tselatsal, is one of the more disputed expressions in Isaiah. The word is built from a root that imitates a whirring or clanging sound, and the BSB footnote offers 'many locusts' as an alternative to 'whirring wings.' The ancient versions took it in different ways, and some linked it to the Hebrew word for shadow. It is a piece of honest uncertainty, and the best course is to hold the picture loosely: a land of a restless, rustling teemingness that seems both abundant and threatening.\n\nVerse 1 also says 'along the rivers of Cush.' The Hebrew preposition can mean beside or beyond, and the same phrase appears in Zephaniah 3:10 as 'from beyond the rivers of Cush,' which has led many readers to take it as a statement about distance. Isaiah may mean that Cush lies on the far side of the rivers from Judah's point of view, in the remote south. In either case the point is that this is a land at the edge of the known world.\n\nIn verse 2 the people is described as 'strange speech.' The Hebrew has a doubled word, qav qav, whose sense is debated. It may describe a foreign tongue, and Isaiah uses a similar doubled pattern in 28:10 for the sing-song speech of mockers. Some translators take it as 'line upon line,' a nation that measures out and tramples its neighbours. Both senses suit a feared and alien people, and the BSB's choice emphasises that they are strange in speech.\n\nIn verse 3 the 'banner' (nes) and the 'ram's horn' (shofar) are two staple signals of ancient war. A banner is raised on a mountain so that scattered troops can see where to gather, as in Isaiah 5:26 and 11:12, and the shofar is blown to summon and warn. Isaiah is describing a muster that the whole world will notice, and he does not say whose. In Isaiah 11:10 the banner is the Root of Jesse, and in 49:22 God Himself raises a banner for the peoples.\n\nIn verse 4 God speaks of looking on 'from My dwelling place.' The word for dwelling place, makon, is a firm place, a settled site, and Solomon uses it of heaven in his prayer, 1 Kings 8:39. The verb 'look on' is nabat, the verb of attentive gaze. The same verb is used when Isaiah rebukes Judah for not looking to its Maker in 22:11, and when verse 5 of chapter 20 says Egypt and Cush were 'their hope,' literally what they looked to. God's calm look from heaven thus stands against every nation's frantic look for help.\n\nFinally, the gifts of verse 7 are described with the word shai, a tribute or present given to a superior. The same word appears in Psalm 68:29, 'Because of Your temple at Jerusalem kings will bring You gifts,' and in Psalm 76:11, where neighbouring lands are told to 'bring tribute to Him who is to be feared.' The word thus carries the tone of homage, not just generosity.",
     "typology": [
-      { "type": "The feared nation bringing tribute to Zion", "fulfillment": "The nations bringing their glory and honor into the New Jerusalem through Christ, Revelation 21:24-26, and the multitude from every nation worshiping the Lamb, Revelation 7:9." }
+      {
+        "type": "The pruning at the point of ripening, Isaiah 18:5",
+        "fulfillment": "The LORD cuts away shoots and branches just as grapes begin to ripen, so that the vine is shaped by judgment and not simply destroyed. Jesus takes the vine as a picture of Himself and His Father: every branch that does bear fruit, 'He prunes to make it even more fruitful,' John 15:2. The escalation is that the pruning no longer cuts off a nation but shapes a people who abide in Him. The type falls short because Isaiah's blade falls on Cush's pride and on its power, while in John the pruning falls on those already in Christ and has a gentler, fruit-bearing goal."
+      },
+      {
+        "type": "The gift brought to Zion, Isaiah 18:7",
+        "fulfillment": "Cush, a people once only feared, brings a gift to the place of the Name. The pattern is fulfilled in Christ, whom the magi from the east worship with gifts, Matthew 2:11, and in the Ethiopian official who comes to Jerusalem to worship and returns baptised, Acts 8:27-39. The escalation is that the gifts are no longer brought to a mountain but to a Person, and in Him the Gentiles themselves become the offering, Romans 15:16. The type falls short because it speaks of tribute while the New Testament speaks of sonship, as 'strangers and foreigners' become 'fellow citizens,' Ephesians 2:19."
+      },
+      {
+        "type": "The quiet watching God, Isaiah 18:4",
+        "fulfillment": "The LORD looks on from His dwelling place and acts at the exact moment. The same pattern is seen at the cross and the resurrection. For a long time God appears silent, and then 'when the time had fully come, God sent His Son,' Galatians 4:4. Jesus Himself is a picture of unhurried authority: He sleeps in the boat, and then He speaks, Mark 4:38-39. The correspondence is of pattern and not of a prophecy about a single event, and the type falls short in that the God of Isaiah 18 acts from a distance, while in Christ He comes down."
+      }
     ],
-    "christ": "The chapter's final image, a powerful and once-feared nation bringing its tribute to the LORD of Hosts at Zion, anticipates the full ingathering of the nations that Christ accomplishes. What Cush foreshadows in miniature, the gospel fulfills in full: people from every nation, tribe, and tongue bringing their worship to the Lamb, Revelation 5:9, so that the place of the Name of the LORD becomes a house of prayer for all peoples, Isaiah 56:7.",
-    "god": "God is neither intimidated nor hurried by the might of nations; He watches quietly as a farmer waits for harvest, unbothered by the noise of couriers and banners and horns. His patience is purposeful: He prunes proud plans in His own time and draws even the most feared nations toward worship at His dwelling place.",
+    "christ": "Isaiah 18 leads to Christ most clearly through its last verse. A people feared by the whole region comes to Zion with gifts. In the story of Jesus this movement from the ends of the earth to the place of the Name takes shape in persons. The magi from the east come with gifts, Matthew 2:11. Greeks at a feast ask to see Jesus, and He answers that the hour has come and speaks of the kernel of wheat that dies to bear much fruit, John 12:20-24. And an Ethiopian official, a Cushite by the old geography, reads Isaiah on a desert road until Philip joins him and tells him the good news about Jesus, Acts 8:26-39. The passage he is reading is the Servant's song of Isaiah 53, from the same book, and the pattern is complete: the man from Cush who came to worship at Jerusalem finds in Isaiah the One in whom his journey ends.\n\nIt leads to Christ by the banner. Isaiah says that when a banner is raised on the mountains the world will see it. A banner in the later chapters is the Root of Jesse, 'a banner for the peoples,' Isaiah 11:10, and Paul quotes the verse that follows to say that the Gentiles put their hope in Him, Romans 15:12. Jesus says, 'I, when I am lifted up from the earth, will draw everyone to Myself,' John 12:32, and John adds that He said this to show the kind of death He would die. The cross is the banner lifted up for the nations. There is a hard irony in that, since the thing that looks like defeat is the signal that brings a worldwide gathering.\n\nIt leads to Christ by the quiet that precedes the stroke. God watches 'like shimmering heat' and then prunes. Jesus fits this pattern in His own person. He sleeps in the stern while the storm rages, and then 'rebuked the wind and the sea,' Mark 4:38-39, and the disciples ask who this is. The One who is unhurried when the world is frantic is the One who has authority to speak the word that ends the storm. The pruning and the gathering, which Isaiah sets together in a single chapter, are also joined in Him, who judges the world and also draws the world to Himself, John 12:31-32.\n\nIt leads to Christ by the phrase 'the place of the Name of the LORD of Hosts.' The Name was where God chose to dwell, and Jesus says that now something greater than the temple is here, Matthew 12:6, and that true worshipers will worship the Father in spirit and truth, John 4:23. Zion becomes a Person. The gifts that Cush brings are therefore finally gifts brought to Christ, and the nations walk by the light of the Lamb, Revelation 21:23-24.\n\nNone of this should be forced into the details, as if the rivers or the papyrus boats were codes. What the chapter gives is a pattern, and the New Testament supplies the Person.",
+    "god": "The chapter's first lesson about God is that He is not a hurried God. 'I will quietly look on from My dwelling place' is among the most unusual statements the prophets make about Him, because they usually speak of His thunder and fire. Here He is like shimmering heat on a summer day or a cloud of dew at harvest. The images suggest a presence that is real, steady and unforced. The LORD does not have to hurry because He is not afraid of arriving late, and He does not have to shout because He is not afraid of being unheard.\n\nSecond, His patience is purposeful. The stillness lasts until the grapes are ripening, and then comes the knife. The details show that God sees the point where a nation's ambition is at its fullest and cuts there, so that what the nations built is removed when it is ripe for judgment and not before. That is a very different thing from indifference, and the next verse shows that it can also mean leaving the cut branches for the birds of prey as a sign of how complete the work is.\n\nThird, He is personally involved in the affairs of the most powerful peoples. Cush is not a minor kingdom, and the way the chapter piles up its titles tells us that Isaiah was not playing down the real weight of its power. He is saying that God is greater, and that the people who frighten everyone else do so only by His allowance. At the same time the oracle says that He has a purpose for them beyond judgment. The same people will come to Zion, and the same God who prunes is the God who gathers.\n\nFourth, He is the God who has a dwelling place, a makon, and a place for His Name. The chapter ends at Mount Zion, which tells us that God is both far above the world, looking from heaven, and tied by covenant to a specific mountain where He can be found. That combination of transcendence and nearness is held in a few verses, and it later becomes the shape of the incarnation.\n\nFifth, He is a God who calls the world to attention. The banner and the horn are signals to every inhabitant of the earth, and what He does with His people is not a private matter. Isaiah is claiming that the history of Zion is the world's business.\n\nFor worship, the chapter teaches us to sit still in a restless world. It does not forbid action, but it takes away the panic that makes action a form of unbelief. We can rest in the knowledge that the God who looks on will act at the right hour, and we can pray for the day when the people who frighten us are bringing their gifts to the same place we do.",
     "crossReferences": [
-      { "ref": "Psalm 68:31", "note": "Cush is pictured stretching out her hands to God, an early anticipation of this chapter's closing image of tribute brought to the LORD." },
-      { "ref": "Zephaniah 3:10", "note": "Worshipers are expected to come to the LORD from beyond the rivers of Cush, echoing Isaiah's picture of a distant nation turning toward Zion." },
-      { "ref": "Revelation 7:9", "note": "A multitude from every nation worshiping before the throne, the final fulfillment of nations bringing tribute to the LORD." },
-      { "ref": "Revelation 21:24-26", "note": "The kings of the earth bring their glory into the New Jerusalem, the ultimate ingathering this chapter's final verse anticipates." }
+      {
+        "ref": "Psalm 68:29-31",
+        "note": "A psalm of the LORD who rides the clouds, which says that 'Because of Your temple at Jerusalem kings will bring You gifts' and that 'Cush will stretch out her hands to God.' It is a close parallel to Isaiah 18:7, with the same word for gifts, and shows that the hope was already old in Israel's worship."
+      },
+      {
+        "ref": "Zephaniah 3:9-10",
+        "note": "The LORD will give the peoples pure lips so that they may call on His name, and 'from beyond the rivers of Cush My worshipers, My scattered people, will bring Me an offering.' The echo of Isaiah's phrase suggests that the hope of Isaiah 18 was heard as a promise of worldwide worship that includes both foreigners and scattered Israelites."
+      },
+      {
+        "ref": "Psalm 87:4-6",
+        "note": "The LORD lists Cush among the nations whose people are registered as born in Zion. This is the same movement as Isaiah 18:7, but with the language of birth and citizenship, so that arrival at the mountain becomes a new identity."
+      },
+      {
+        "ref": "Isaiah 45:14",
+        "note": "The merchandise of Cush will come to Israel, and the Cushites will confess that 'God is indeed with you, and there is no other.' The offering of Isaiah 18:7 comes with a confession here, and the picture is of a people brought in by recognition of who God is."
+      },
+      {
+        "ref": "Isaiah 11:10-12",
+        "note": "The Root of Jesse stands as a banner for the peoples, and the LORD recovers His people from Cush and elsewhere. The banner of Isaiah 18:3 finds its meaning here, as a signal that the nations will seek the Davidic king."
+      },
+      {
+        "ref": "Acts 8:26-39",
+        "note": "An Ethiopian court official, who has come to Jerusalem to worship, reads Isaiah and is baptised after Philip tells him about Jesus. Luke does not quote Isaiah 18, but the scene is a visible piece of the harvest that chapter 18 promised from beyond the rivers of Cush."
+      },
+      {
+        "ref": "Amos 9:7",
+        "note": "God asks Israel whether they are not like the Cushites to Him, and reminds them that He brought other peoples up from their lands too. It prevents any reading of Isaiah 18 that treats Cush as a mere foil, and it fits the final verse where the same people come to Zion."
+      },
+      {
+        "ref": "Mark 4:35-41",
+        "note": "Jesus sleeps through the storm and then rebukes it. The quiet that gives way to a word is the same rhythm as the LORD who looks on quietly and then acts, and the disciples' question about who He is receives its fullest answer in Isaiah's picture of the God who rules the powers."
+      },
+      {
+        "ref": "John 12:20-33",
+        "note": "Greeks come to see Jesus, and He speaks of the hour of His glory and of being lifted up to draw everyone to Himself. It is the banner for the nations of Isaiah 18:3 and the coming of distant peoples of 18:7 gathered at the point where Jesus is raised up."
+      },
+      {
+        "ref": "Revelation 21:22-27",
+        "note": "The nations walk by the light of God and the Lamb and the kings of the earth bring their glory into the city. It is the endpoint of the gifts brought to Zion in Isaiah 18:7, in a city where the Lamb is the temple."
+      }
     ],
-    "oneStory": "Even a nation as feared and far off as Cush lies under the LORD's calm, unhurried sovereignty, and He intends to draw its people toward worship at Zion rather than leave them only as objects of judgment. This small oracle is a preview of the greater ingathering Christ accomplishes, when the nations of the earth, once alien and threatening, come bearing their tribute to the true and living God.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "why": "", "url": "" }
+    "oneStory": "Isaiah 18 stands near a turning point in the Bible's story of the nations. In Genesis the nations come out of Noah and scatter at Babel, and God's answer is to call one man and promise that through him 'all the families of the earth will be blessed,' Genesis 12:3. Everything that happens to Israel afterwards is, in some sense, for the sake of that promise. Isaiah's oracles against the nations are not asides to the main story but a window into it. They show the LORD already at work among the peoples Israel is afraid of, and already planning to bring them in.\n\nThe oracle touches the question the whole book has been asking, which is how a God who loves one people can also be the God of all. Chapter 18 gives a first answer. He watches from His dwelling place as the Lord of everyone, He prunes the pride of the strongest, and He draws the same people to Zion with their gifts. It is a scene that Israel's psalms and prophets will repeat, in Psalm 68:31, Psalm 87:4 and Zephaniah 3:10.\n\nThe story is carried to its center in Jesus, the One lifted up like a banner on a hill, who draws everyone to Himself, John 12:32. After His resurrection He sends His people to make disciples of all nations, Matthew 28:19, and the book of Acts begins to record the harvest. The Ethiopian official on the road to Gaza is an early firstfruit, and the promise to Abraham is being kept in that very scene, as Paul says when he reads the gospel as foretold to Abraham, Galatians 3:8.\n\nThe story reaches its end in Revelation. The people from every tribe and tongue and people and nation are purchased by the Lamb, Revelation 5:9, and the 'kings of the earth will bring their glory' into the city, Revelation 21:24. Cush, once feared by everyone, is among them. The hand that held the pruning knife in Isaiah's oracle is the same hand that holds a gathered people, and the last picture of the world is the picture the chapter promised: the nations at the place of the Name, bringing gifts and staying to worship.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "why": "",
+      "url": ""
+    }
   },
   "quiz": [
     {
       "q": "What is distinctive about Isaiah's tone toward Cush compared to many other oracles against the nations?",
       "options": [
-        { "text": "It emphasizes the LORD's calm, unhurried watching more than immediate destruction.", "weight": 100, "note": "Verses 4 to 6 picture God quietly observing before He acts, a notably patient tone." },
-        { "text": "It promises Cush total and immediate annihilation with no future hope.", "weight": 0, "note": "The chapter actually ends with Cush bringing tribute to Zion, not annihilation." },
-        { "text": "It focuses entirely on Cush's military technology.", "weight": 25, "note": "The couriers and banners are mentioned, but the chapter's focus is God's sovereignty, not military detail." },
-        { "text": "It reads almost identically to the oracle against Babylon.", "weight": 75, "note": "There are shared themes of divine sovereignty over nations, but this oracle's calm, watching tone is distinct." }
+        {
+          "text": "It emphasizes the LORD's calm, unhurried watching more than immediate destruction.",
+          "weight": 100,
+          "note": "Verses 4 to 6 picture God quietly observing before He acts, a notably patient tone."
+        },
+        {
+          "text": "It promises Cush total and immediate annihilation with no future hope.",
+          "weight": 0,
+          "note": "The chapter actually ends with Cush bringing tribute to Zion, not annihilation."
+        },
+        {
+          "text": "It focuses entirely on Cush's military technology.",
+          "weight": 25,
+          "note": "The couriers and banners are mentioned, but the chapter's focus is God's sovereignty, not military detail."
+        },
+        {
+          "text": "It reads almost identically to the oracle against Babylon.",
+          "weight": 75,
+          "note": "There are shared themes of divine sovereignty over nations, but this oracle's calm, watching tone is distinct."
+        }
       ]
     },
     {
       "q": "What does the LORD say He will do from His dwelling place in verse 4?",
       "options": [
-        { "text": "Quietly look on, like shimmering heat or a cloud of dew, before acting.", "weight": 100, "note": "This is exactly the image given: unhurried, watchful patience." },
-        { "text": "Immediately send fire down upon Cush without warning.", "weight": 0, "note": "The text describes patient watching first, not sudden fire." },
-        { "text": "Send angels to physically remove the Cushite envoys.", "weight": 25, "note": "Not found in this text." },
-        { "text": "Ignore the situation entirely and take no action at all.", "weight": 75, "note": "He does watch quietly, but He is not indifferent; He later prunes and gathers worship." }
+        {
+          "text": "Quietly look on, like shimmering heat or a cloud of dew, before acting.",
+          "weight": 100,
+          "note": "This is exactly the image given: unhurried, watchful patience."
+        },
+        {
+          "text": "Immediately send fire down upon Cush without warning.",
+          "weight": 0,
+          "note": "The text describes patient watching first, not sudden fire."
+        },
+        {
+          "text": "Send angels to physically remove the Cushite envoys.",
+          "weight": 25,
+          "note": "Not found in this text."
+        },
+        {
+          "text": "Ignore the situation entirely and take no action at all.",
+          "weight": 75,
+          "note": "He does watch quietly, but He is not indifferent; He later prunes and gathers worship."
+        }
       ]
     },
     {
       "q": "What happens to the feared nation of Cush by the end of the chapter?",
       "options": [
-        { "text": "It brings gifts, tribute, to the LORD of Hosts at Mount Zion.", "weight": 100, "note": "Verse 7 pictures this same people bringing tribute to Zion." },
-        { "text": "It is utterly destroyed with no survivors mentioned.", "weight": 25, "note": "Verses 5 to 6 mention pruning and exposure, but the chapter's final word is tribute at Zion, not total destruction." },
-        { "text": "It conquers Jerusalem and takes control of the temple.", "weight": 0, "note": "The opposite; Cush comes in tribute, not conquest." },
-        { "text": "It forms a permanent military alliance with Judah.", "weight": 75, "note": "Close in spirit to alliance, but the specific image is worship and tribute, not a military pact." }
+        {
+          "text": "It brings gifts, tribute, to the LORD of Hosts at Mount Zion.",
+          "weight": 100,
+          "note": "Verse 7 pictures this same people bringing tribute to Zion."
+        },
+        {
+          "text": "It is utterly destroyed with no survivors mentioned.",
+          "weight": 25,
+          "note": "Verses 5 to 6 mention pruning and exposure, but the chapter's final word is tribute at Zion, not total destruction."
+        },
+        {
+          "text": "It conquers Jerusalem and takes control of the temple.",
+          "weight": 0,
+          "note": "The opposite; Cush comes in tribute, not conquest."
+        },
+        {
+          "text": "It forms a permanent military alliance with Judah.",
+          "weight": 75,
+          "note": "Close in spirit to alliance, but the specific image is worship and tribute, not a military pact."
+        }
       ]
     },
     {
       "q": "How does the closing image of Isaiah 18:7 anticipate the New Testament?",
       "options": [
-        { "text": "It foreshadows the nations bringing their worship and glory to God through Christ.", "weight": 100, "note": "Revelation 7:9 and 21:24-26 picture the full ingathering this verse anticipates in miniature." },
-        { "text": "It shows that only Israel will ever worship the true God.", "weight": 0, "note": "The verse specifically envisions a Gentile nation bringing tribute, opposing an Israel-only reading." },
-        { "text": "It predicts the political unification of Africa and the Middle East.", "weight": 25, "note": "This is a political reading that misses the worship focus of the text." },
-        { "text": "It is purely about ancient trade relationships with no theological significance.", "weight": 75, "note": "Trade language is present, but the term used, minchah, specifically signals worship, not mere commerce." }
+        {
+          "text": "It foreshadows the nations bringing their worship and glory to God through Christ.",
+          "weight": 100,
+          "note": "Revelation 7:9 and 21:24-26 picture the full ingathering this verse anticipates in miniature."
+        },
+        {
+          "text": "It shows that only Israel will ever worship the true God.",
+          "weight": 0,
+          "note": "The verse specifically envisions a Gentile nation bringing tribute, opposing an Israel-only reading."
+        },
+        {
+          "text": "It predicts the political unification of Africa and the Middle East.",
+          "weight": 25,
+          "note": "This is a political reading that misses the worship focus of the text."
+        },
+        {
+          "text": "It is purely about ancient trade relationships with no theological significance.",
+          "weight": 75,
+          "note": "Trade language is present, but the term used, minchah, specifically signals worship, not mere commerce."
+        }
       ]
     }
   ],
@@ -138,8 +328,17 @@
     "The nations are pictured finally bringing gifts to the LORD's dwelling. What would it look like for you to bring the best of what you have as an offering to God this week?"
   ],
   "translationNotes": [
-    { "ref": "Isaiah 18:1", "note": "Whirring wings renders a rare Hebrew phrase, tselatsal kenaphayim, whose precise sense (insect drone, sailing ships, or rustling banners) is debated among translators; BSB follows the natural sense of a buzzing or whirring sound." },
-    { "ref": "Isaiah 18:7", "note": "Verse 7 repeats the description of the people from verse 2 in apposition." }
+    {
+      "ref": "Isaiah 18:1",
+      "note": "Whirring wings renders a rare Hebrew phrase, tselatsal kenaphayim, whose precise sense (insect drone, sailing ships, or rustling banners) is debated among translators; BSB follows the natural sense of a buzzing or whirring sound."
+    },
+    {
+      "ref": "Isaiah 18:7",
+      "note": "Verse 7 repeats the description of the people from verse 2 in apposition."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched via the makor-scripture tool for Isaiah 18:1-7. Poetic line breaks joined into running verse text." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched via the makor-scripture tool for Isaiah 18:1-7. Poetic line breaks joined into running verse text."
+  }
 }
