@@ -15,3 +15,21 @@ public/studies/**/audio/
 # Temporary files left by file sync mounts, never commit these
 .fuse_hidden*
 _wt_test
+
+# API keys live in the macOS Keychain; never commit env files
+.env
+makor-audio/.env
+
+# Makor films: large media never goes into git. Scripts, prompts and markdown do.
+films/**/clips/
+films/**/audio/
+films/**/exports/*
+!films/**/exports/*.md
+films/**/edit/*
+!films/**/edit/*.sh
+!films/**/edit/*.py
+!films/**/edit/*.md
+!films/**/edit/*.ass
+
+# Python bytecode
+__pycache__/
