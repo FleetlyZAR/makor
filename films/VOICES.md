@@ -14,7 +14,7 @@ by shot.
   never doubled, no reverb tails that turn it into a choir.
 - Chosen by Luyanda, 5 October 2026 (Day One pilot).
 
-## NARRATOR
+## READER (was NARRATOR in the Day One pilot)
 
 - ElevenLabs voice id: `pRrdgJxlE0SsVTIYEjli` (account name "Makor GOD candidate 2")
 - Made in the same Voice Design call as GOD, from the same brief.
@@ -22,6 +22,25 @@ by shot.
 - Chosen by Luyanda, 5 October 2026, in place of the site narrator (Kokoro
   `am_michael`). The Kokoro renders are kept in
   `audio/narrator/kokoro-am_michael/` for comparison.
+
+## GUIDE
+
+- Kokoro `am_michael`, speed 1.0, through `makor-audio` (the voice that reads
+  every study on the site), rendered with `films/tools/narrate.py`.
+- Speaks every word in a film that is not Scripture: Makor's own commentary
+  drawn from the study. Never reads Scripture.
+- Chosen by Luyanda, 5 October 2026.
+
+## Who says what (permanent)
+
+- READER (`pRrdgJxlE0SsVTIYEjli`): all Scripture, including quotations of other
+  passages, except God's direct speech.
+- GOD (`bItqJOjNBHK6rbwcdlOT`): God's direct speech in the passage being filmed,
+  verbatim, plus Revelation 21:5 where the One on the throne speaks. Words of
+  Jesus are read by the READER as quotation; Christ is never voiced as a character.
+- GUIDE (`am_michael`): everything that is not Scripture.
+- Shorts that are not a full movement are Scripture only (READER and GOD). A
+  short that explains a whole movement in a minute is GUIDE led.
 
 ## Unused candidates
 

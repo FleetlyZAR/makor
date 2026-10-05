@@ -51,6 +51,27 @@ or neon blues. Whites are warm (a pale gold cream), never pure white.
   that means no sun disc, no moon, no stars, no land, no sky dome or clouds (the
   expanse is Day Two), no plants, no creatures, no people.
 
+## People (from Day Six onward)
+
+- People appear only where the text puts them. Paint them at a distance, in
+  natural light, seen from behind or in profile, faces not detailed, partly
+  framed by landscape (tall grass, trees, rock). Modest and unposed. Never a
+  close up of a face.
+- The suffix "no people, no figures" is dropped only for those shots; every
+  other shot keeps it.
+
+## Christ
+
+- Never the face of Christ, never a figure meant to be Him. Scenes the New
+  Testament gives may be shown by their setting alone, for example the stone
+  rolled back from an empty tomb at first light (John 20:1), with no figures.
+
+## History and the nations
+
+- Context about Egypt, Babylon and other nations is shown through objects and
+  landscapes only: rivers, brick kilns, clay tablets, seas, cities at a
+  distance. Never images or statues of their gods.
+
 ## Banned prompt words
 
 Never put these words in any prompt, including in a negative ("no ..."):
