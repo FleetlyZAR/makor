@@ -18,20 +18,60 @@
         "note": "the love that grounds the covenant",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 1, "text": "This is the {{massa|burden}} of the word of the LORD to Israel through {{malaki|Malachi}}:" },
-          { "chapter": 1, "n": 2, "text": "“I have {{ahav|loved}} you,” says the LORD. But you ask, “How have You loved us?” “Was not Esau Jacob’s brother?” declares the LORD. “Yet Jacob I have loved," },
-          { "chapter": 1, "n": 3, "text": "but Esau I have {{sane|hated}}, and I have made his mountains a wasteland and left his inheritance to the desert jackals.”" },
-          { "chapter": 1, "n": 4, "text": "Though Edom may say, “We have been devastated, but we will rebuild the ruins,” this is what the LORD of Hosts says: “They may build, but I will demolish. They will be called the Land of Wickedness, and a people with whom the LORD is indignant forever." },
-          { "chapter": 1, "n": 5, "text": "You will see this with your own eyes, and you yourselves will say, ‘The LORD is great, even beyond the borders of Israel.’”" }
+          {
+            "chapter": 1,
+            "n": 1,
+            "text": "This is the {{massa|burden}} of the word of the LORD to Israel through {{malaki|Malachi}}:"
+          },
+          {
+            "chapter": 1,
+            "n": 2,
+            "text": "“I have {{ahav|loved}} you,” says the LORD. But you ask, “How have You loved us?” “Was not Esau Jacob’s brother?” declares the LORD. “Yet Jacob I have loved,"
+          },
+          {
+            "chapter": 1,
+            "n": 3,
+            "text": "but Esau I have {{sane|hated}}, and I have made his mountains a wasteland and left his inheritance to the desert jackals.”"
+          },
+          {
+            "chapter": 1,
+            "n": 4,
+            "text": "Though Edom may say, “We have been devastated, but we will rebuild the ruins,” this is what the LORD of Hosts says: “They may build, but I will demolish. They will be called the Land of Wickedness, and a people with whom the LORD is indignant forever."
+          },
+          {
+            "chapter": 1,
+            "n": 5,
+            "text": "You will see this with your own eyes, and you yourselves will say, ‘The LORD is great, even beyond the borders of Israel.’”"
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "massa": { "language": "Hebrew", "lemma": "massa", "original": "משא", "gloss": "A burden, a load, and so an oracle laid on a prophet to carry and deliver. The word pictures a weighty word from God that presses on the messenger until it is spoken. It signals that what follows is a solemn, authoritative pronouncement, not casual advice." },
-    "malaki": { "language": "Hebrew", "lemma": "malaki", "original": "מלאכי", "gloss": "The name Malachi means My messenger. It is the same root used in 3:1 for the messenger who prepares the way and in 2:7 for the priest who should be the LORD's messenger. The prophet's very name announces the book's great theme: God sends His messenger to His people." },
-    "ahav": { "language": "Hebrew", "lemma": "ahav", "original": "אהב", "gloss": "To love, with the settled, committed love of the covenant rather than mere sentiment. When God says I have loved you, He points to a love that chose Israel, redeemed her, and keeps her. This electing love is the ground on which the whole book stands." },
-    "sane": { "language": "Hebrew", "lemma": "sane", "original": "שנא", "gloss": "To hate, but in covenant contexts often to reject or not choose, set in contrast to the love that elects. Paul cites Jacob I loved, but Esau I hated in Romans 9:13 to teach God's sovereign freedom in mercy. It speaks of God's righteous rejection of Edom, not petty malice." }
+    "massa": {
+      "language": "Hebrew",
+      "lemma": "massa",
+      "original": "משא",
+      "gloss": "A burden, a load, and so an oracle laid on a prophet to carry and deliver. The word pictures a weighty word from God that presses on the messenger until it is spoken. It signals that what follows is a solemn, authoritative pronouncement, not casual advice."
+    },
+    "malaki": {
+      "language": "Hebrew",
+      "lemma": "malaki",
+      "original": "מלאכי",
+      "gloss": "The name Malachi means My messenger. It is the same root used in 3:1 for the messenger who prepares the way and in 2:7 for the priest who should be the LORD's messenger. The prophet's very name announces the book's great theme: God sends His messenger to His people."
+    },
+    "ahav": {
+      "language": "Hebrew",
+      "lemma": "ahav",
+      "original": "אהב",
+      "gloss": "To love, with the settled, committed love of the covenant rather than mere sentiment. When God says I have loved you, He points to a love that chose Israel, redeemed her, and keeps her. This electing love is the ground on which the whole book stands."
+    },
+    "sane": {
+      "language": "Hebrew",
+      "lemma": "sane",
+      "original": "שנא",
+      "gloss": "To hate, but in covenant contexts often to reject or not choose, set in contrast to the love that elects. Paul cites Jacob I loved, but Esau I hated in Romans 9:13 to teach God's sovereign freedom in mercy. It speaks of God's righteous rejection of Edom, not petty malice."
+    }
   },
   "study": {
     "basic": {
@@ -45,93 +85,258 @@
       "oneStory": "Malachi is the last voice of the Old Testament before four hundred years of silence, and it opens with the word the whole Bible rests on: I have loved you. That covenant love, given freely to the undeserving, runs from Jacob straight to the manger and the cross."
     },
     "context": {
-      "literary": "The superscription and first of six disputations that structure the book. Each follows the same rhythm of divine claim, human objection, and prophetic reply. This first exchange is foundational: God establishes His love before He names any sin, so that every rebuke to come is heard as the correction of a Father who loves His children.",
-      "historical": "Malachi prophesied in the Persian period, likely around 460 to 430 BC, roughly the time of Ezra and Nehemiah. The temple had been rebuilt for decades, but the glorious restoration the earlier prophets pictured had not materialized. Edom had been overrun by outside peoples such as the Nabateans, a visible sign of God's ongoing judgment that stood in contrast to Israel's survival.",
-      "canonical": "This passage is quoted in Romans 9:13 to expound God's sovereign election. It stands in a long line of texts on God's free choice of the younger over the elder, Genesis 25 and 27, and it anchors the New Testament teaching that salvation flows from God's initiating love, not human worth."
+      "literary": "The opening verses do three things in quick succession: a heading (verse 1), a claim (verse 2a), and a first exchange of the kind that will organize the whole book (verses 2b to 5). The heading uses the word massa, \"burden,\" as Zechariah 9:1 and 12:1 do, so the last three prophetic oracles of the Old Testament share a title. Malachi's name means \"my messenger,\" and the same word appears in 3:1, where God says He will send \"My messenger.\"\n\nThe disputation has a clear pattern. God makes a statement that cannot be argued with (\"I have loved you\"). The people respond with a question that mixes doubt and impertinence (\"How have You loved us?\"). God answers not with a feeling but with a fact from the past (Esau and Jacob were brothers), and then with a fact from the present (Edom's ruin). The people's question in Hebrew is one short word, bammah, \"in what?\", and it is the question that the book will repeat in 1:6, 1:7, 2:17, 3:7, 3:8 and 3:13. The people deny every charge. God's answers are the substance of the book.\n\nWithin the answer there is a small turn in verse 4. Edom is quoted as saying they will rebuild, and God's reply is given in a matched pair of verbs: \"They may build, but I will demolish.\" The speech closes in verse 5 with a line that looks past the people altogether: \"The LORD is great, even beyond the borders of Israel.\" The same idea returns in the middle of the book at 1:11, where His name is great among the nations, and in 1:14, where He is a great King whose name is feared among the nations. These three statements form a frame around the first main section, so that the opening comfort and the following rebuke are both heard against the background of a God known worldwide.",
+      "historical": "The Persian period is the setting. The exiles had returned from 538 BC onward, and the temple was finished in 516 or 515 (Ezra 6:15). By Malachi's day, probably in the middle of the fifth century, the community had lived with the rebuilt house for two generations. The glory Haggai and Zechariah had promised had not arrived, and Ezra and Nehemiah show how hard those years were: mixed marriages, neglected tithes, a priesthood going through the motions, and a city whose walls were still broken until Nehemiah's day. Malachi's reproaches in the rest of the book fit that situation, and the opening question, \"How have You loved us?\", is the sort of question such people would ask.\n\nEdom lay to the southeast of Judah, a mountainous territory around Mount Seir and its rock fortresses. The Edomites were descendants of Esau (Genesis 36:1), and the two peoples were bound by kinship and rivalry from the start. When Jerusalem fell in 586 BC, Edom took part in the plundering and was denounced for it by the prophets (Obadiah 10-14, Psalm 137:7, Lamentations 4:21-22, Ezekiel 35). By the time of Malachi, Edom's land was probably already losing ground to Arab peoples pushing in from the desert, which fits what the text describes as the mountains made a wasteland and the inheritance given to jackals. The Edomites reply that they will rebuild, a natural wish, and Malachi reports God's answer.\n\nThe people of Judah had the same Persian rulers as Edom. Both peoples were small provinces on the edge of an empire, and from a human angle there was little to choose between them. That is what makes the argument pointed: the difference between Jacob's line and Esau's was not a matter of the size or strength of the two peoples but of God's choice.",
+      "canonical": "The first word of Malachi is also its summary: love. It takes up the oldest statement of covenant love in the Old Testament, Deuteronomy 7:7-8, where God says He set His affection on Israel not because they were many but because He loved them and kept His oath. The two texts say the same thing from two ends of the story, one at the beginning when the people were about to enter the land, the other at the end when they have tried it and are unsure.\n\nThe pairing of Jacob and Esau goes back to Genesis 25:23, where the LORD tells Rebekah that two nations are in her womb and that the older will serve the younger. The prophets pick up the rivalry. Obadiah is a prophecy against Edom in the same spirit as Malachi 1:3-4, with the clefts of the rock and the pride that says \"Who can bring me down?\" (Obadiah 3-4). Isaiah 63:1-6 sees the divine warrior coming from Edom, and Isaiah 34 and Ezekiel 35 foretell Edom's desolation.\n\nPaul quotes Malachi 1:2-3 in Romans 9:13, and the BSB footnote marks the citation. He is using it to explain how the promise of God has not failed even though many of Israel have not believed: God's purpose of election stands \"not by works but by Him who calls\" (Romans 9:11-12). The thread of God's choosing before any merit continues in Ephesians 1:4-5, where believers are chosen in Christ before the foundation of the world, in love.\n\nThe book also leads into the Gospels. Malachi 3:1 promises a messenger to prepare the way, and Jesus identifies him as John the Baptist (Matthew 11:10, Luke 1:76). Malachi 4:5-6 promises Elijah before the day of the LORD, and Luke 1:17 applies it to John. Malachi's last word is the cue for the New Testament's first."
     },
     "hermeneutics": {
-      "authorIntent": "To confront a discouraged, cynical people with the reality of God's covenant love, to move them from doubting His care to honoring His name, and to lay the loving foundation on which the book's later rebukes and the closing promises rest.",
-      "descriptionVsPrescription": "The passage describes God's sovereign, electing love and His judgment on Edom; it does not prescribe human hatred of anyone. The abiding truths are that God loves His people freely, that His love is the ground of the covenant, and that He is just toward proud nations.",
+      "authorIntent": "Malachi wrote to people who had lost the ability to be surprised by God. Their religion continued, but their hearts had cooled, and the first thing they needed was not a rebuke but a reminder of who God is to them. So he begins where no complaint can start: the LORD has loved them. The question that follows is honest. It is the question of people who looked at their circumstances and could not see the love.\n\nThe prophet's answer is to take them back to their beginnings. They have not been picked out because of their strength, for they are not stronger than Edom. They are the people of Jacob because God set His love on Jacob, and everything else has followed from that: the land, the temple, the survival through exile. The contrast with Edom is meant to wake them up. Edom, which had every reason to bounce back, is still in ruins, and Israel, which had every reason to vanish, is still there.\n\nThe author also wants his hearers to lift their eyes. The LORD is great beyond the borders of Israel, and the covenant people exist to display a God who is known to the nations. That is the right setting for the rebuke that follows, because a people who have been loved this way cannot treat their God with contempt.",
+      "descriptionVsPrescription": "The passage describes what God has done and says. It does not tell anyone to hate Edom or any other people, and it should never be read as a license for contempt. The words are God's, about His own choices, and they are spoken to a people who had to be told that His love had not failed.\n\nWhat carries forward is the pattern of the opening. Before any command or correction comes the declaration of love, and a church that wants to address a cold congregation, or a person who is spiritually flat, is wise to begin in the same place. The passage also trains believers to answer their doubts by looking at what God has done and not at how their circumstances feel. And it warns against pride: the contrast between Jacob and Edom is a reminder that no one is chosen because they deserve it.",
       "debates": [
         {
-          "question": "What does it mean that God hated Esau?",
+          "question": "What does it mean that God 'hated' Esau?",
           "views": [
-            { "label": "Covenant non-election", "case": "In this covenant setting, loved and hated are relational terms of choosing and not choosing; God set His covenant love on Jacob's line and passed over Esau's, as Paul explains in Romans 9." },
-            { "label": "Judicial rejection of Edom", "case": "The hatred is expressed concretely against the nation of Edom for its pride and violence against Israel, seen in the ruin of its mountains, so it is God's righteous judgment on a people, not arbitrary spite." }
+            {
+              "label": "Covenant language for not choosing",
+              "case": "In the Old Testament, love and hate can be terms of preference and choice. Genesis 29:30-31 says Jacob loved Rachel more than Leah and that Leah was unloved, the same Hebrew word, and Deuteronomy 21:15-17 speaks of a man with a loved wife and an unloved one. Read this way, Malachi 1:3 means God chose Jacob and did not choose Esau, as Paul explains in Romans 9."
+            },
+            {
+              "label": "Judicial rejection of Edom for its pride and violence",
+              "case": "The hatred is described in concrete terms: mountains made a wasteland, a nation called the land of wickedness. This is God's justice on a nation that gloated over Jacob's ruin (Obadiah 10-14), not arbitrary spite."
+            },
+            {
+              "label": "Strong emotional language to be taken at face value",
+              "case": "Some insist the word keeps its harder edge here and that the verse tells of a real divine opposition to Edom as a nation. They point to the permanence of verse 4, a people with whom the LORD is indignant forever."
+            }
           ],
-          "bearing": "Both guard against reading petty emotion into God. His love is free grace to the undeserving and His judgment is righteous, and both magnify that salvation is by mercy, not merit."
+          "bearing": "The first two guard against reading the verse as a statement that God dislikes people for no reason. The passage deals with nations and a covenant setting, and it speaks about a pattern God has actually carried out."
         },
         {
-          "question": "Why did the people doubt God's love?",
+          "question": "Is the election in this passage about individuals or about nations?",
           "views": [
-            { "label": "Hard circumstances", "case": "Poor harvests, foreign domination, and an unimpressive temple made them feel forgotten, so they measured God's love by their comfort and concluded it was lacking." },
-            { "label": "A forgetful, ungrateful heart", "case": "They had lost sight of the exodus, the return from exile, and the covenant itself; the problem was spiritual amnesia more than genuine hardship." }
+            {
+              "label": "Corporate election of Jacob and Esau as peoples",
+              "case": "Malachi is speaking of the nations Israel and Edom, as Genesis 25:23 does (two nations). Paul's argument in Romans 9 is about who counts as Israel, and the choice is of a people for a purpose, with each individual's response still called for."
+            },
+            {
+              "label": "Election reaching individuals",
+              "case": "Paul's words, 'before the twins were born or had done anything good or bad, in order that God's plan of election might stand,' speak of God's choice before works, and Paul applies it to individuals in the church (Ephesians 1:4-5), so that the principle runs from the nation down to each person."
+            }
           ],
-          "bearing": "Both warn us against gauging God's love by our circumstances rather than by His covenant acts, supremely the cross, where His love is proven once for all."
+          "bearing": "Both views agree on what matters for the passage: God's love is a gift that precedes any merit. They differ on how far the category extends, a disagreement that has divided careful readers since Augustine and Pelagius, and Calvin and Arminius."
+        },
+        {
+          "question": "Is 'Malachi' a personal name or a title?",
+          "views": [
+            {
+              "label": "A personal name",
+              "case": "The book is headed in the same way as other prophetic books, with a prophet's name, and the form 'my messenger' is a possible name, like others that express a function or hope."
+            },
+            {
+              "label": "A title meaning 'my messenger'",
+              "case": "The word is identical to the one used in 3:1, and the book never mentions a father, a place or a king, so some think it is a descriptive title for an anonymous prophet."
+            }
+          ],
+          "bearing": "Nothing in the message depends on settling it. The book is the word of the LORD, and the prophet's function as a messenger is the point."
         }
       ]
     },
-    "originalLanguages": "The book opens as a massa, a burden, the weighty oracle a prophet must carry and deliver. The messenger is named Malachi, My messenger, tuning the reader's ear to the book's theme of God's sent messengers. God's central claim uses ahav, to love with covenant commitment: Jacob I have loved. Its contrast is sane, to hate, which in this covenant idiom means to reject or not choose rather than to feel malice. So the couplet declares God's sovereign freedom to set His saving love on undeserving Jacob while passing over Esau, the point Paul draws out in Romans 9.",
+    "originalLanguages": "Massa, \"burden\" (1:1). It comes from the verb nasa, \"to lift or carry,\" and so a burden is both a load and a message lifted up. The word heads Zechariah 9:1 and 12:1 as well as Malachi, and the three together close the prophets. The prophet carries God's word as a weight he cannot put down and delivers it as a weight for the listener.\n\nAhav, \"love,\" in the perfect tense (1:2). \"I have loved you\" uses the Hebrew perfect, ahavti, which presents the love as a settled fact with continuing effect: I loved you, and still do. It is the same verb that Deuteronomy 7:8 uses when God says He loved Israel. The love is not a mood. It is a decision that has already been carried out. The same verb appears in the second half of the verse, \"Yet Jacob I have loved.\"\n\nSane, \"hate\" (1:3). The word is the opposite of ahav and is often used in covenant and family settings where one is preferred to another. In Genesis 29:31, the BSB renders it \"unloved\" for Leah, in contrast with Rachel; Deuteronomy 21:15 uses it of a wife who is not favored. In the New Testament Jesus uses the same kind of speech when he says that anyone who does not \"hate\" father and mother cannot follow Him (Luke 14:26). The word is therefore not a purely emotional term in the Bible. It names the side of a choice that is not taken. That does not remove all its sharpness; in Malachi 1:3-4 it is followed by a description of ruin.\n\nAch, \"brother\" (1:2). The question \"Was not Esau Jacob's brother?\" insists on equality. They were twins, and Esau the elder (Genesis 25:24-26). So all the usual grounds for preference, birth order, merit, are absent. Nothing in the setup explains the difference. The word brother also recalls the sin of Edom named in Obadiah 10, \"the violence against your brother Jacob.\"\n\nTannot, \"jackals\" (1:3). The word is feminine plural, usually taken as desert jackals, though the BSB notes the alternative readings \"serpents of the wilderness\" or \"dragons.\" The picture is of wild animals in ruined land, the same sort of image used for abandoned cities in Isaiah 34:13 and Jeremiah 9:11.\n\nGevul rish'ah, \"territory of wickedness\" (1:4). The noun gevul means boundary or territory, and the same word appears in \"beyond the borders of Israel\" in verse 5. The two uses are a deliberate pair: Edom's territory is labeled with its character, and Israel's boundary is surpassed by God's greatness. The verb of verse 5, yigdal, \"be great,\" is the word that returns for the name in 1:11 and 1:14.",
     "typology": [
-      { "type": "Jacob, the undeserving younger brother, freely loved", "fulfillment": "The gospel pattern of God loving and choosing the unworthy, fulfilled in Christ who loved us while we were still sinners, Romans 5:8 and Romans 9:10-13." },
-      { "type": "Edom, the proud kingdom that builds against God", "fulfillment": "Every self-reliant power set against the LORD, brought low so that His greatness is seen beyond the borders of Israel, Obadiah 1-4 and Revelation 18." },
-      { "type": "The LORD great beyond the borders of Israel", "fulfillment": "The gospel going to all nations, where God's name is honored among the peoples, Malachi 1:11 and Matthew 28:19." }
+      {
+        "type": "Jacob, the younger brother freely loved",
+        "fulfillment": "Jacob is chosen over his older twin before either is born, Genesis 25:23, and Paul reads it as the pattern of grace in Romans 9:10-13, a choice not by works but by Him who calls. The pattern is fulfilled in Christ, who loved us while we were still sinners, Romans 5:8, and in the church, chosen in Him before the foundation of the world, Ephesians 1:4-5. The type falls short because Jacob was a flawed man whose life shows God's patience, whereas the one through whom God's love finally reaches the world is without sin."
+      },
+      {
+        "type": "Edom, the proud kingdom that builds against God",
+        "fulfillment": "Edom's boast that it can rebuild what God has torn down stands for every power that trusts its own strength. Obadiah 3-4 says its pride deceived it, and Revelation 18 shows the great city that says it will never mourn brought down in an hour. The escalation is from one small nation to the whole world-system set against God. The type is limited, though, because Edom is a particular people with a particular offense, and the New Testament offers a way home to those who were once enemies, as Paul himself had been."
+      },
+      {
+        "type": "The LORD great beyond the borders of Israel",
+        "fulfillment": "The promise that the nations will see and say that God is great is fulfilled as the gospel goes out. Jesus tells his disciples that they will be witnesses to the ends of the earth, Acts 1:8, and Revelation 7:9-10 shows a multitude from every nation worshiping before the throne. Malachi 1:11 expects pure offerings in every place. The type falls short because Malachi sees the borders of Israel as the center from which God's greatness spreads, whereas in Christ the center is a person and not a place."
+      },
+      {
+        "type": "The prophet as messenger preparing the way",
+        "fulfillment": "Malachi's name, 'my messenger,' sounds again in 3:1, where God sends a messenger to prepare the way before Him. Jesus identifies that messenger as John the Baptist, Matthew 11:10, and Luke 1:76 and 1:17 echo it. The escalation is from a prophet who delivers the words to a forerunner who points to a person. John himself says he is not the light, but bears witness to it, John 1:6-8. The type falls short because every prophet's message points beyond himself, and only Jesus is the Word."
+      }
     ],
-    "christ": "God's opening word, I have loved you, finds its deepest proof not in Israel's circumstances but at the cross. Paul quotes Jacob I loved, but Esau I hated in Romans 9 precisely to show that God saves sinners by sovereign grace and not by works, the same grace that reaches its climax in Christ crucified for the ungodly. The undeserving younger brother, chosen and kept, foreshadows a people chosen in Christ before the foundation of the world, Ephesians 1:4. And the promise that the LORD is great beyond the borders of Israel opens toward the day when His name is honored among all nations through the gospel of His Son.",
-    "god": "God is a God of covenant love, setting His affection on His people freely and keeping them through generations. That love is not sentimental but sovereign and faithful, unshaken by their doubts. He is also just, holding proud Edom to account and demolishing what it rebuilds. And He is great beyond the borders of Israel, the Lord of all the earth whose glory will be confessed by the nations.",
+    "christ": "The book begins with a declaration of love that the whole New Testament answers by pointing to a person. When the people ask how God has loved them, Malachi can only point to the choice of Jacob. The apostles can point to the cross: \"God proves His love for us in that while we were still sinners, Christ died for us\" (Romans 5:8), and \"love consists in this: not that we loved God, but that He loved us and sent His Son as the atoning sacrifice for our sins\" (1 John 4:10). The question that Malachi's hearers asked, \"How have You loved us?\", is answered in a way they could not have imagined.\n\nPaul draws the thread directly. In Romans 9 he quotes Malachi 1:2-3 to show that God's promise works by calling, not by descent or achievement, and that those who are saved are saved by mercy. The Jacob who is loved is a picture of every sinner who has been loved by grace, and the One through whom that love reaches us is Christ. In Ephesians 1:4-6 the choice is made \"in Him\" before the foundation of the world; the love that began in Jacob's case before his birth is, for the church, a love that is found in the Son.\n\nThe book as a whole faces forward to the coming of the Lord. Malachi 3:1 promises that the Lord whom they seek will suddenly come to His temple, and Jesus does so: He enters the temple, drives out the traders, and teaches there. John the Baptist, the messenger, goes before Him. So the first claim of the book, \"I have loved you,\" is to be tested in a visit.\n\nThere are two cautions. First, the contrast of Jacob and Esau should not be read as a picture of Christ and His enemies. Jacob himself is not the Christ, and the point is the grace God shows to the undeserving, not the quality of the one chosen. Second, it should not be said that Edom is lost without hope. The New Testament offers hope to all nations, and the prophets themselves speak of Edom being part of the future people of God (Amos 9:12). The love that began with Jacob is the love that goes to the nations in Christ.",
+    "god": "The first thing this passage shows about God is that He speaks first. Before the people complain, He declares: \"I have loved you.\" The relationship rests on His initiative. It is not that He responds to Israel's goodness or even to their questions; He tells them the fact on which everything else depends. That ordering matters for every doctrine of God: He loves before He is loved, and His love is not caused by what He finds in us (Deuteronomy 7:7-8, 1 John 4:10).\n\nThe second thing is that His love is particular. He loved Jacob and not Esau. The passage does not apologize for this, and does not give a reason beyond His own choice. It forces the question of the freedom of God, that He is under no obligation to distribute His favor evenly, and that His mercy is truly mercy because it is not owed. Paul meets the objection head on in Romans 9:14-16, where he asks whether God is unjust, denies it, and rests the matter on God's mercy and not on human desire or effort. The text asks us to hold two things together, God's freedom to choose and His justice toward those who are not chosen, and not to trade either for the other.\n\nThe third is justice. Edom is not described as an innocent victim. Its mountains are made a wasteland and its rebuilding is refused, and the surrounding prophets say why: pride and violence against a brother (Obadiah 3-4, 10). God's love for His people is not a blindness to wrong. It is the other side of a God who cannot be indifferent to wickedness. The word \"forever\" in verse 4 is a sobering reminder that the same God who loves with a covenant love judges with a covenant justice.\n\nThe fourth is the God whose greatness is not bounded by Israel. Verse 5 says that \"the LORD is great, even beyond the borders of Israel.\" He is not a national god. Israel's election was never a limit on His rule, and the people who thought their God small because their circumstances were small are told that He is large enough to be seen from outside. This keeps election from becoming a private possession. The people He loves are chosen to make Him known.\n\nFor worship this gives a pattern. Praise begins with the recognition that we are loved before we are good. It then goes forward in humility, because the difference between Jacob and Esau was not in Jacob. And it widens to mission, since a God great beyond Israel's borders is a God to be proclaimed among the nations.",
     "crossReferences": [
-      { "ref": "Romans 9:10-13", "note": "Paul quotes Jacob I loved, but Esau I hated to teach that God's saving purpose stands on His free choice, not human works." },
-      { "ref": "Deuteronomy 7:7-8", "note": "God set His love on Israel not because they were numerous but simply because He loved them and kept His oath, the same free covenant love." },
-      { "ref": "Obadiah 1:1-4", "note": "A whole prophecy against Edom's pride, filling out Malachi's picture of the ruined mountains and the kingdom God will not let stand." },
-      { "ref": "Romans 5:8", "note": "God proves His love in that Christ died for us while we were still sinners, the ultimate answer to How have You loved us." }
+      {
+        "ref": "Deuteronomy 7:7-8",
+        "note": "God did not set His affection on Israel because they were more numerous. He loved them and kept His oath. This is the oldest explanation of the love Malachi announces. Both texts insist that the cause of God's love is found in God Himself, never in the people loved."
+      },
+      {
+        "ref": "Genesis 25:23",
+        "note": "The LORD tells Rebekah that two nations are in her womb and that the older will serve the younger. Malachi's contrast of Jacob and Esau begins here, before either twin was born, and the story of the two peoples is the unfolding of this word."
+      },
+      {
+        "ref": "Romans 9:10-13",
+        "note": "Paul quotes Malachi 1:2-3 to show that God's choice stands not by works but by Him who calls. The twins had done nothing good or bad when the word came. He uses the verse to explain that God's purpose has not failed, and that grace is free."
+      },
+      {
+        "ref": "Genesis 29:30-31",
+        "note": "Jacob loved Rachel more than Leah, and Leah is described as unloved. The same Hebrew pair of loved and unloved shows that the language is about preference and choice and not about a feeling of hostility, which helps in reading Malachi 1:2-3."
+      },
+      {
+        "ref": "Obadiah 1:3-4",
+        "note": "Edom's pride in its rock fortresses, the boast 'Who can bring me down to the ground?', is answered by God's promise to bring it down even from among the stars. It is the background to Malachi's picture of Edom saying it will rebuild, and God saying He will demolish."
+      },
+      {
+        "ref": "Obadiah 1:10",
+        "note": "The cause of Edom's ruin is named: violence against your brother Jacob. It shows that God's disfavor in Malachi 1:3-4 is not arbitrary but follows from what Edom did to its kin when Jerusalem fell."
+      },
+      {
+        "ref": "Malachi 1:11",
+        "note": "In the same chapter God says His name will be great among the nations, from the rising to the setting of the sun. It repeats and enlarges 1:5, and it shows that the opening claim about God's greatness beyond Israel is the theme of the whole section."
+      },
+      {
+        "ref": "Malachi 3:1",
+        "note": "God promises to send His messenger to prepare the way, and the Lord they seek will come to His temple. The prophet whose name means my messenger announces a greater messenger, who points ahead to the visit of the Lord Himself."
+      },
+      {
+        "ref": "Ephesians 1:4-5",
+        "note": "Believers are chosen in Christ before the foundation of the world, in love predestined for adoption. It carries Malachi's free love from Jacob to the whole church, and ties the love to the Son who is its means."
+      },
+      {
+        "ref": "1 John 4:10",
+        "note": "Love consists in this: not that we loved God, but that He loved us and sent His Son as the atoning sacrifice. It is the New Testament's version of Malachi's first claim, and it answers the question, How have You loved us, with the cross."
+      }
     ],
-    "oneStory": "Malachi is God's last recorded word before four centuries of silence, and He begins where the whole Bible rests: I have loved you. This free, choosing, covenant love reaches back to Jacob and forward to Bethlehem and Calvary. When a discouraged people ask how God has loved them, the answer the New Testament shouts is the sending of His Son, so that His name might be great beyond the borders of Israel among every nation.",
-    "sermon": { "status": "verified", "preacher": "David Legge", "title": "Malachi's Message On Love (Malachi's Modern Message Part 1)", "url": "https://www.preachtheword.com/sermon/mmm01.shtml", "why": "The opening message of Legge's expository series through Malachi, covering 1:1-5. It works through the disputation over God's love, the meaning of Jacob loved and Esau hated, and the call to see God's covenant love afresh, an orthodox exposition that grounds the book's love in the grace ultimately shown in Christ." }
+    "oneStory": "The story of the Bible is a story of love that comes before anything in return. In Genesis God makes the world and calls it good before any creature can respond. He chooses Abram out of an idolatrous family for no stated reason except that He wills to bless the families of the earth through him (Genesis 12:1-3). He chooses Jacob over Esau before they are born (Genesis 25:23). He sets His love on a people too few to deserve it (Deuteronomy 7:7). Malachi 1:2 is a late echo of this long line, spoken to people who felt the line had gone cold.\n\nThe passage also stands at a point of tension in the story. The exile was the great discipline, and the return was supposed to be the great restoration. But the restoration looked small. Malachi stands in that gap and says that the love is as real as it was, and that the evidence is Israel's survival and Edom's ruin. At the same time his book, and the Old Testament with it, ends unfinished: a promised messenger, a coming Lord, and a warning of a curse if hearts are not turned (Malachi 4:5-6).\n\nWhat follows is the New Testament. The messenger comes in John the Baptist. The Lord comes to His temple in Jesus. The love declared in the first verse is shown at the cross, when the one who is Son of Jacob's line gives Himself for enemies. Paul quotes this very passage to explain why the gospel goes to Gentiles and Jews alike, and why no one can boast (Romans 9, Ephesians 2:8-9).\n\nAt the end of the story, the same love is on display in a new creation. Revelation 21:3 says that God will dwell with His people and be their God. The people who once asked how they were loved will find that the answer was always the same: He chose them, He stayed with them, He came for them. The line from Jacob to the cross to the new Jerusalem is one love, spoken first to a doubting remnant, and kept to the end.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "David Legge",
+      "title": "Malachi's Message On Love (Malachi's Modern Message Part 1)",
+      "url": "https://www.preachtheword.com/sermon/mmm01.shtml",
+      "why": "The opening message of Legge's expository series through Malachi, covering 1:1-5. It works through the disputation over God's love, the meaning of Jacob loved and Esau hated, and the call to see God's covenant love afresh, an orthodox exposition that grounds the book's love in the grace ultimately shown in Christ."
+    }
   },
   "quiz": [
     {
       "q": "How does the book of Malachi open?",
       "options": [
-        { "text": "With God's declaration of covenant love, I have loved you, before any rebuke.", "weight": 100, "note": "Verse 2 sets love as the foundation before God addresses sin." },
-        { "text": "With a list of the people's sins and God's anger.", "weight": 75, "note": "The rebukes come later; God begins with love, not accusation." },
-        { "text": "With a call to rebuild the temple.", "weight": 25, "note": "The temple was already rebuilt; the issue is the heart, not the building." },
-        { "text": "With a promise of immediate prosperity.", "weight": 0, "note": "God opens with covenant love, not a promise of comfort." }
+        {
+          "text": "With God's declaration of covenant love, I have loved you, before any rebuke.",
+          "weight": 100,
+          "note": "Verse 2 sets love as the foundation before God addresses sin."
+        },
+        {
+          "text": "With a list of the people's sins and God's anger.",
+          "weight": 75,
+          "note": "The rebukes come later; God begins with love, not accusation."
+        },
+        {
+          "text": "With a call to rebuild the temple.",
+          "weight": 25,
+          "note": "The temple was already rebuilt; the issue is the heart, not the building."
+        },
+        {
+          "text": "With a promise of immediate prosperity.",
+          "weight": 0,
+          "note": "God opens with covenant love, not a promise of comfort."
+        }
       ]
     },
     {
       "q": "What was wrong with the people's question, How have You loved us?",
       "options": [
-        { "text": "It revealed a jaded heart that measured God's love by circumstances and forgot His covenant acts.", "weight": 100, "note": "Their cynicism gauged love by comfort rather than by God's faithfulness." },
-        { "text": "It was an honest question God rebuked them for asking at all.", "weight": 75, "note": "God answers it patiently; the problem is the unbelief behind it, not curiosity." },
-        { "text": "They were asking for more detailed theology.", "weight": 25, "note": "It was doubt of His love, not a request for instruction." },
-        { "text": "They were praising God for His love.", "weight": 0, "note": "The opposite: they were doubting whether He loved them at all." }
+        {
+          "text": "It revealed a jaded heart that measured God's love by circumstances and forgot His covenant acts.",
+          "weight": 100,
+          "note": "Their cynicism gauged love by comfort rather than by God's faithfulness."
+        },
+        {
+          "text": "It was an honest question God rebuked them for asking at all.",
+          "weight": 75,
+          "note": "God answers it patiently; the problem is the unbelief behind it, not curiosity."
+        },
+        {
+          "text": "They were asking for more detailed theology.",
+          "weight": 25,
+          "note": "It was doubt of His love, not a request for instruction."
+        },
+        {
+          "text": "They were praising God for His love.",
+          "weight": 0,
+          "note": "The opposite: they were doubting whether He loved them at all."
+        }
       ]
     },
     {
       "q": "What does Jacob I loved, but Esau I hated chiefly teach?",
       "options": [
-        { "text": "God's sovereign, free choice to set His covenant love on the undeserving.", "weight": 100, "note": "Paul uses it in Romans 9 to teach salvation by grace, not merit." },
-        { "text": "That God feels petty malice toward certain individuals.", "weight": 75, "note": "In covenant idiom, hated means rejected or not chosen, not spiteful emotion." },
-        { "text": "That Esau was a worse sinner than Jacob.", "weight": 25, "note": "The choice was made before either had done good or bad; it rests on grace." },
-        { "text": "That God loves everyone exactly the same in every way.", "weight": 0, "note": "The verse highlights God's distinguishing, electing love." }
+        {
+          "text": "God's sovereign, free choice to set His covenant love on the undeserving.",
+          "weight": 100,
+          "note": "Paul uses it in Romans 9 to teach salvation by grace, not merit."
+        },
+        {
+          "text": "That God feels petty malice toward certain individuals.",
+          "weight": 75,
+          "note": "In covenant idiom, hated means rejected or not chosen, not spiteful emotion."
+        },
+        {
+          "text": "That Esau was a worse sinner than Jacob.",
+          "weight": 25,
+          "note": "The choice was made before either had done good or bad; it rests on grace."
+        },
+        {
+          "text": "That God loves everyone exactly the same in every way.",
+          "weight": 0,
+          "note": "The verse highlights God's distinguishing, electing love."
+        }
       ]
     },
     {
       "q": "What did God point to as proof of His love?",
       "options": [
-        { "text": "His choice of Jacob and His ongoing judgment of proud Edom.", "weight": 100, "note": "Verses 2-4 offer Jacob's election and Edom's ruin as the evidence." },
-        { "text": "A season of rich harvests He had just given them.", "weight": 75, "note": "Their harvests were thin; God points to His covenant choice instead." },
-        { "text": "The military strength of Israel.", "weight": 25, "note": "Israel was a small, dominated province; the proof is God's faithfulness, not their power." },
-        { "text": "Nothing; He simply asserted it.", "weight": 0, "note": "He gives concrete evidence in Jacob's election and Edom's downfall." }
+        {
+          "text": "His choice of Jacob and His ongoing judgment of proud Edom.",
+          "weight": 100,
+          "note": "Verses 2-4 offer Jacob's election and Edom's ruin as the evidence."
+        },
+        {
+          "text": "A season of rich harvests He had just given them.",
+          "weight": 75,
+          "note": "Their harvests were thin; God points to His covenant choice instead."
+        },
+        {
+          "text": "The military strength of Israel.",
+          "weight": 25,
+          "note": "Israel was a small, dominated province; the proof is God's faithfulness, not their power."
+        },
+        {
+          "text": "Nothing; He simply asserted it.",
+          "weight": 0,
+          "note": "He gives concrete evidence in Jacob's election and Edom's downfall."
+        }
       ]
     },
     {
       "q": "How is God's electing love here fulfilled in Christ?",
       "options": [
-        { "text": "The free love that chose undeserving Jacob is proven at the cross, where Christ died for the ungodly.", "weight": 100, "note": "Romans 5:8 and Romans 9 tie this covenant love to the gospel of grace." },
-        { "text": "It shows that only ethnic Israel can ever be loved by God.", "weight": 75, "note": "The passage ends by pointing beyond Israel's borders to the nations." },
-        { "text": "It teaches that God's love must be earned by good works.", "weight": 25, "note": "The love is free and sovereign, given before merit." },
-        { "text": "It has no connection to Christ at all.", "weight": 0, "note": "Paul directly applies it to salvation by grace in Christ." }
+        {
+          "text": "The free love that chose undeserving Jacob is proven at the cross, where Christ died for the ungodly.",
+          "weight": 100,
+          "note": "Romans 5:8 and Romans 9 tie this covenant love to the gospel of grace."
+        },
+        {
+          "text": "It shows that only ethnic Israel can ever be loved by God.",
+          "weight": 75,
+          "note": "The passage ends by pointing beyond Israel's borders to the nations."
+        },
+        {
+          "text": "It teaches that God's love must be earned by good works.",
+          "weight": 25,
+          "note": "The love is free and sovereign, given before merit."
+        },
+        {
+          "text": "It has no connection to Christ at all.",
+          "weight": 0,
+          "note": "Paul directly applies it to salvation by grace in Christ."
+        }
       ]
     }
   ],
@@ -143,8 +348,17 @@
     "God says He is great beyond the borders of Israel. How does it enlarge your prayers to remember that His name is meant to be honored among all the nations?"
   ],
   "translationNotes": [
-    { "ref": "Malachi 1:1", "note": "The word rendered burden means a weighty oracle laid on the prophet. A BSB footnote observes that the name Malachi means My messenger, tying the prophet's name to the book's theme." },
-    { "ref": "Malachi 1:3", "note": "But Esau I have hated is cited in Romans 9:13 to teach God's sovereign election; in covenant idiom hated means rejected or not chosen. The BSB footnote notes desert jackals may also be rendered serpents or dragons of the wilderness." }
+    {
+      "ref": "Malachi 1:1",
+      "note": "The word rendered burden means a weighty oracle laid on the prophet. A BSB footnote observes that the name Malachi means My messenger, tying the prophet's name to the book's theme."
+    },
+    {
+      "ref": "Malachi 1:3",
+      "note": "But Esau I have hated is cited in Romans 9:13 to teach God's sovereign election; in covenant idiom hated means rejected or not chosen. The BSB footnote notes desert jackals may also be rendered serpents or dragons of the wilderness."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Malachi 1:1-5. All 5 verses reproduced in order. BSB footnotes at 1:1 (Malachi means My messenger), 1:3 (cited in Romans 9:13; alternate rendering of desert jackals) are reflected in the study and translation notes." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Malachi 1:1-5. All 5 verses reproduced in order. BSB footnotes at 1:1 (Malachi means My messenger), 1:3 (cited in Romans 9:13; alternate rendering of desert jackals) are reflected in the study and translation notes."
+  }
 }

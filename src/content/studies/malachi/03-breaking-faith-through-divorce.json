@@ -18,9 +18,21 @@
         "note": "treachery against the covenant of the fathers",
         "emphasis": "",
         "verses": [
-          { "chapter": 2, "n": 10, "text": "Do we not all have {{echad|one}} Father? Did not one God create us? Why then do we {{bagad|break faith}} with one another so as to {{chalal|profane}} the covenant of our fathers?" },
-          { "chapter": 2, "n": 11, "text": "Judah has broken faith; an abomination has been committed in Israel and in Jerusalem. For Judah has profaned the LORD’s beloved sanctuary by marrying the daughter of a foreign god." },
-          { "chapter": 2, "n": 12, "text": "As for the man who does this, may the LORD cut off from the tents of Jacob everyone who is awake and aware, even if he brings an offering to the LORD of Hosts." }
+          {
+            "chapter": 2,
+            "n": 10,
+            "text": "Do we not all have {{echad|one}} Father? Did not one God create us? Why then do we {{bagad|break faith}} with one another so as to {{chalal|profane}} the covenant of our fathers?"
+          },
+          {
+            "chapter": 2,
+            "n": 11,
+            "text": "Judah has broken faith; an abomination has been committed in Israel and in Jerusalem. For Judah has profaned the LORD’s beloved sanctuary by marrying the daughter of a foreign god."
+          },
+          {
+            "chapter": 2,
+            "n": 12,
+            "text": "As for the man who does this, may the LORD cut off from the tents of Jacob everyone who is awake and aware, even if he brings an offering to the LORD of Hosts."
+          }
         ]
       },
       {
@@ -28,20 +40,61 @@
         "note": "God witnesses, and God hates divorce",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 2, "n": 13, "text": "And this is another thing you do: You cover the altar of the LORD with tears, with weeping and groaning, because He no longer regards your offerings or receives them gladly from your hands." },
-          { "chapter": 2, "n": 14, "text": "Yet you ask, “Why?” It is because the LORD has been a witness between you and the wife of your youth, against whom you have broken faith, though she is your companion and your wife by covenant." },
-          { "chapter": 2, "n": 15, "text": "Has not the LORD made them one, having a portion of the Spirit? And why one? Because He seeks godly {{zera|offspring}}. So guard yourselves in your spirit and do not break faith with the wife of your youth." },
-          { "chapter": 2, "n": 16, "text": "“For I hate {{shalach|divorce}},” says the LORD, the God of Israel. “He who divorces his wife covers his garment with violence,” says the LORD of Hosts. So guard yourselves in your spirit and do not break faith." }
+          {
+            "chapter": 2,
+            "n": 13,
+            "text": "And this is another thing you do: You cover the altar of the LORD with tears, with weeping and groaning, because He no longer regards your offerings or receives them gladly from your hands."
+          },
+          {
+            "chapter": 2,
+            "n": 14,
+            "text": "Yet you ask, “Why?” It is because the LORD has been a witness between you and the wife of your youth, against whom you have broken faith, though she is your companion and your wife by covenant."
+          },
+          {
+            "chapter": 2,
+            "n": 15,
+            "text": "Has not the LORD made them one, having a portion of the Spirit? And why one? Because He seeks godly {{zera|offspring}}. So guard yourselves in your spirit and do not break faith with the wife of your youth."
+          },
+          {
+            "chapter": 2,
+            "n": 16,
+            "text": "“For I hate {{shalach|divorce}},” says the LORD, the God of Israel. “He who divorces his wife covers his garment with violence,” says the LORD of Hosts. So guard yourselves in your spirit and do not break faith."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "echad": { "language": "Hebrew", "lemma": "echad", "original": "אחד", "gloss": "One, a unity. The same word confesses the one God in the Shema, Deuteronomy 6:4, and here it grounds human faithfulness: one Father, one God, and a husband and wife made one. Because God is one and has made His people one, treachery among them tears at that unity." },
-    "bagad": { "language": "Hebrew", "lemma": "bagad", "original": "בגד", "gloss": "To act treacherously, to deal faithlessly, to betray. It is the key word of this disputation, repeated of breaking faith with one another, with the covenant, and with the wife of one's youth. It describes covenant betrayal, the opposite of the steadfast faithfulness God shows and requires." },
-    "chalal": { "language": "Hebrew", "lemma": "chalal", "original": "חלל", "gloss": "To profane, defile, or treat as common what is holy. By breaking faith the men profaned the covenant of the fathers and the LORD's beloved sanctuary. The word marks the seriousness of the sin: it drags something sacred down to the level of the ordinary and unclean." },
-    "zera": { "language": "Hebrew", "lemma": "zera", "original": "זרע", "gloss": "Seed, offspring, descendants. God made husband and wife one because He seeks godly offspring, a faithful generation raised in the covenant. The word ties marriage to God's larger purpose of a holy people and, across Scripture, to the promised seed who blesses all nations." },
-    "shalach": { "language": "Hebrew", "lemma": "shalach", "original": "שלח", "gloss": "To send away, to dismiss, and so to divorce. God declares that He hates the sending away of a wife and calls it covering one's garment with violence. The verse is textually difficult, but on any reading God stands against the treacherous breaking of the marriage covenant." }
+    "echad": {
+      "language": "Hebrew",
+      "lemma": "echad",
+      "original": "אחד",
+      "gloss": "One, a unity. The same word confesses the one God in the Shema, Deuteronomy 6:4, and here it grounds human faithfulness: one Father, one God, and a husband and wife made one. Because God is one and has made His people one, treachery among them tears at that unity."
+    },
+    "bagad": {
+      "language": "Hebrew",
+      "lemma": "bagad",
+      "original": "בגד",
+      "gloss": "To act treacherously, to deal faithlessly, to betray. It is the key word of this disputation, repeated of breaking faith with one another, with the covenant, and with the wife of one's youth. It describes covenant betrayal, the opposite of the steadfast faithfulness God shows and requires."
+    },
+    "chalal": {
+      "language": "Hebrew",
+      "lemma": "chalal",
+      "original": "חלל",
+      "gloss": "To profane, defile, or treat as common what is holy. By breaking faith the men profaned the covenant of the fathers and the LORD's beloved sanctuary. The word marks the seriousness of the sin: it drags something sacred down to the level of the ordinary and unclean."
+    },
+    "zera": {
+      "language": "Hebrew",
+      "lemma": "zera",
+      "original": "זרע",
+      "gloss": "Seed, offspring, descendants. God made husband and wife one because He seeks godly offspring, a faithful generation raised in the covenant. The word ties marriage to God's larger purpose of a holy people and, across Scripture, to the promised seed who blesses all nations."
+    },
+    "shalach": {
+      "language": "Hebrew",
+      "lemma": "shalach",
+      "original": "שלח",
+      "gloss": "To send away, to dismiss, and so to divorce. God declares that He hates the sending away of a wife and calls it covering one's garment with violence. The verse is textually difficult, but on any reading God stands against the treacherous breaking of the marriage covenant."
+    }
   },
   "study": {
     "basic": {
@@ -55,84 +108,248 @@
       "oneStory": "Malachi ties covenant faithfulness in marriage to covenant faithfulness with God. The betrayal it exposes cries out for the faithful Bridegroom, Christ, who keeps covenant perfectly and gathers a pure bride, restoring the one-flesh union to its true meaning."
     },
     "context": {
-      "literary": "The third disputation, marked like the others by a divine charge and the people's question, here Why in verse 14. It moves from the community-wide sin of intermarriage with pagans, verses 10-12, to the personal sin of betraying the wife of one's youth, verses 13-16, with the repeated word break faith binding the two together.",
-      "historical": "In the post-exilic community, described also in Ezra 9-10 and Nehemiah 13, Jewish men were marrying women who worshiped foreign gods, often after divorcing their Jewish wives. This threatened the covenant identity and the raising of godly children. Malachi addresses the same crisis the reformers Ezra and Nehemiah confronted, exposing the treachery behind it.",
-      "canonical": "The passage reaches back to Genesis 2:24, the two becoming one flesh, and to the covenant with the fathers. It looks ahead to Jesus's teaching on marriage in Matthew 19, which appeals to God's original design, and to Ephesians 5, where marriage images the union of Christ and His church."
+      "literary": "The unit begins with three questions fired in a row, 2:10, and ends with a command repeated word for word, 'So guard yourselves in your spirit and do not break faith,' in verses 15 and 16. Those two frames hold everything between them. The questions ask for agreement on three things the listeners already believe, one Father, one Creator and one covenant, and the commands draw the practical conclusion.\n\nThe central word is bagad, to deal treacherously, and it falls five times in these seven verses, in verses 10, 11, 14, 15 and 16. It names the whole offence from three angles. In verse 10 it is a wrong done 'with one another,' in verse 11 it is a wrong against God's sanctuary and in verse 14 it is a wrong against a wife. The prophet's argument is that these are one sin. A man who breaks faith with his wife has already broken faith with the God who witnessed the vow and with the community that stands on the same covenant.\n\nThere is a visible turn at verse 13, 'And this is another thing you do.' Verses 10 to 12 deal with intermarriage with the worshipers of other gods, and verses 13 to 16 deal with divorce of the wife of one's youth. Many readers see two separate offences, and some see one story in which the foreign marriage was the reason for the divorce. The text does not say, and the passage reads best by keeping both in view.\n\nThe unit is also the book's most difficult piece of Hebrew. Verse 15 is obscure in grammar, and verse 16 can be read at least three ways, so careful readers do well to hold what is clear firmly, namely the repeated charge, the witness, the oneness and the command, and what is disputed lightly. The pattern of charge, protest and reply is kept in the middle, where the people ask 'Why?' in verse 14 and are answered with 'It is because the LORD has been a witness.'",
+      "historical": "The crisis is the same one that confronted Ezra and Nehemiah. Ezra 9:1 to 2 reports that leaders had taken wives from the surrounding peoples and that 'the leaders and officials have taken the lead in this unfaithfulness,' and Ezra 10 records the people's covenant to send away those wives. Nehemiah, visiting Jerusalem again, found Jews married to women from Ashdod, Ammon and Moab whose children could not speak the language of Judah, Nehemiah 13:23 to 27, and held up Solomon as the warning. Malachi speaks into a community where this was happening, and it is probable that the divorce of Jewish wives went along with it, though Malachi never links them in so many words.\n\nThe law against intermarriage was never about race. Deuteronomy 7:3 to 4 gives the reason in plain terms: 'they will turn your sons away from following Me to serve other gods.' Exodus 34:16 says the same. The danger was idolatry carried into the home, and the Bible shows a foreign woman who crossed the line into faith and was welcomed, Ruth's 'your people will be my people, and your God will be my God,' Ruth 1:16. Malachi's phrase 'the daughter of a foreign god' in verse 11 is therefore a statement about worship, not about blood.\n\nIn a world with no state-backed protection for women, a divorced wife of a husband's youth was left without a home or support. Deuteronomy 24:1 to 4 regulated the practice by requiring a written certificate, which gave a divorced woman legal standing and let her remarry. The law did not command divorce, it limited a practice already in place. Divorce for gain or for a younger partner would have been easy for a man who held the economic power, and Malachi's picture of tears on the altar shows that the wives were not silent.\n\nThe oath also had a witness. In the ancient world a marriage was sworn before God, as in Genesis 31:50, where Laban reminds Jacob that 'God is a witness between you and me.' Malachi claims the same for each marriage in Judah: the Lord was present at the wedding.",
+      "canonical": "The passage draws on Genesis in at least two places. The ground of the argument is the creation of the first marriage, 'they will become one flesh,' Genesis 2:24, and the verse about God making them one reaches back to it. The reason for it is the first purpose of humanity in Genesis 1:28, to be fruitful, so verse 15's 'godly offspring' is the stated aim of the union. Proverbs treats the same bond as a covenant before God, speaking of the woman who 'forgets the covenant of her God,' Proverbs 2:17, and urges a man to 'rejoice in the wife of your youth,' Proverbs 5:18.\n\nThe prophets use marriage as the standard picture of God and Israel. Ezekiel 16:8 has God spread His cloak over Jerusalem and enter a covenant with her, Hosea 2:19 to 20 has Him betroth her forever, and Isaiah 54:6 speaks of the 'rejected wife of one's youth' whom the Lord calls back. The same image makes divorce a hard topic, since Jeremiah 3:8 speaks of God giving faithless Israel a certificate of divorce and sending her away, Isaiah 50:1 asks where that certificate is, and the hope in Jeremiah 3 is that He will take her back. The marriage covenant is the model of God's own loyalty, and its abuse is a counterfeit of it.\n\nThe New Testament takes up Malachi's argument in three places. Jesus answers the Pharisees by going back to the beginning, Matthew 19:4 to 6, and explains that Moses allowed divorce because of hardness of heart, 19:8. Paul gives the command not to divorce and treats the case of an abandoning unbeliever as a freedom of conscience, 1 Corinthians 7:10 to 15. Ephesians 5:25 to 32 makes marriage a living picture of Christ and the church. The marriage supper of the Lamb in Revelation 19:7 and the bride in Revelation 21:2 are the end of the story that Malachi's husbands were betraying."
     },
     "hermeneutics": {
-      "authorIntent": "To expose the treachery of men breaking faith with their wives and the covenant, to show that such betrayal makes their worship unacceptable, and to call them to guard themselves and remain faithful because God Himself witnesses and hates covenant-breaking.",
-      "descriptionVsPrescription": "The passage prescribes covenant faithfulness in marriage and describes God's hatred of treacherous divorce; it is not a blanket condemnation of every person touched by divorce, nor does it address every circumstance Scripture elsewhere considers. The abiding truth is that God takes the marriage covenant seriously and calls His people to faithfulness.",
+      "authorIntent": "Malachi wants his hearers to see a connection they have been refusing to see. They treat worship and home as two compartments, grieving at the altar and cheating at the hearth, and the prophet insists that the two are the same life. Verse 13 is the sharpest line in the section: the altar is flooded with tears, yet 'He no longer regards your offerings,' because the God who is being addressed is the God who was present at the wedding. The point is not that they should dry their eyes and try harder at ritual but that no amount of devotion can stand in for a kept promise.\n\nThe argument also pulls the listener out of the position of the injured party. The people are accustomed to asking where God is when things go wrong, as 2:17 shows. Here the question is turned round, and God comes as the witness to the wife who had been wronged. It is a rare moment in prophecy when the one who is usually unseen in the story, the abandoned woman, is taken seriously by name. Her tears, the narrator implies, are not the same as the husbands'. They are the weeping that God hears.\n\nThe final command is protective. 'Guard yourselves in your spirit' is aimed at the inner decision before the outward act, because treachery starts as a private permission. Malachi intends the listeners to leave with a task, not only a guilt: guard the heart, keep the vow, and let the God who is one hold a people who are one.",
+      "descriptionVsPrescription": "Two things are described here and one thing is commanded. What is described is the community's habit of marrying outside the faith and discarding the wives of their youth, and God's refusal of their worship. What is commanded, twice, is the guarding of the spirit and the keeping of faith. The passage is not a code of marriage law. It does not set out grounds for divorce, and it gives no instruction about what a wounded spouse should do. Other texts do that work, Deuteronomy 24, Matthew 5:31 to 32 and 19:3 to 9, and 1 Corinthians 7, and a faithful reading brings them in rather than letting this passage speak for them.\n\nThe warning against marrying 'the daughter of a foreign god' needs the same care. Paul's counsel not to be 'unequally yoked' with unbelievers, 2 Corinthians 6:14, and to marry 'as long as he belongs to the Lord,' 1 Corinthians 7:39, carries the principle over for believers who are free to choose a spouse. It does not command a believer who is already married to an unbeliever to leave. Paul says the reverse: the believing partner is not to divorce and the marriage sanctifies the household, 1 Corinthians 7:12 to 14.\n\nThe verse with the sharpest edge, 2:16, is sometimes used as a weapon on people who have been divorced against their will, who are victims and not the 'he who divorces' of the text. It was spoken against men who broke faith with a wife for their own convenience. It protects the wronged and warns the one who is tempted. Christians with a divorce behind them are to hear it as an account of God's grief over the broken covenant, and as the reason He is a defender of the injured.",
       "debates": [
         {
-          "question": "How should the difficult verse 16 be translated and applied?",
+          "question": "How should verse 16 be translated?",
           "views": [
-            { "label": "God says plainly, I hate divorce", "case": "The traditional rendering has God declaring His hatred of divorce itself as covenant treachery, a strong statement of the seriousness of breaking the marriage bond." },
-            { "label": "For the man who hates and divorces his wife", "case": "A well-supported alternative reads it as condemning the man who, hating his wife, divorces her and so covers his garment with violence; the focus falls on the treacherous husband." }
+            {
+              "label": "God says 'I hate divorce'",
+              "case": "This is the BSB and the traditional rendering. The Hebrew says literally 'For He hates sending away,' as the footnote records, with God as the one who hates and divorce as the thing hated, and the second line then says the man who sends away a wife 'covers his garment with violence.' The reading makes the verse a general statement of God's attitude to the breaking of the marriage covenant."
+            },
+            {
+              "label": "'The man who hates and divorces his wife'",
+              "case": "Some translators read the verb so that the man is the one who hates: 'if he hates and divorces,' with the words 'says the LORD' closing the thought and the garment of violence as the consequence. The case for it is that it fits Deuteronomy 24:1 and 3, where the husband finds the wife displeasing and 'hates her,' so the verse condemns the man who sends away a wife he has come to resent."
+            },
+            {
+              "label": "A condition with no condemnation of every divorce",
+              "case": "A third group notes that on either reading the verse speaks of sending away done in cruelty and for convenience, the kind that 'covers his garment with violence,' and that it does not address every circumstance. They point out that Scripture elsewhere speaks of God Himself divorcing faithless Israel, Jeremiah 3:8, and of a separation Paul permits when an unbeliever leaves, 1 Corinthians 7:15."
+            }
           ],
-          "bearing": "On either reading God stands against the treacherous breaking of the marriage covenant and for the protection of the wronged spouse; the verse must be handled pastorally, not as a weapon against the already broken." }
+          "bearing": "On all three readings God is on the side of the abandoned wife and opposed to treachery in the marriage covenant. The wise course is to build nothing on the disputed grammar alone and to read the verse with its context, Jesus' use of it in Matthew 19, and Paul's careful teaching in 1 Corinthians 7."
+        },
+        {
+          "question": "What does verse 15 mean when it says God made them 'one'?",
+          "views": [
+            {
+              "label": "God made husband and wife one flesh",
+              "case": "The BSB takes 'one' as the pair, with 'a portion of the Spirit' meaning that God gave breath and Spirit to the union. The echo of Genesis 2:24 and the appeal Jesus makes in Matthew 19:5 to 6 support this reading, as does the question 'And why one?' answered by 'godly offspring.'"
+            },
+            {
+              "label": "Abraham, the one man God made father of the covenant people",
+              "case": "Some take 'one' as Abraham, who alone was called, Isaiah 51:2, and who sought a seed from God. On this view, the question concerns the one father of the faithful and the aim of godly seed for the covenant people, and the verse rebukes those who would dilute it."
+            },
+            {
+              "label": "Nobody with a share of the Spirit does this",
+              "case": "A third reading takes the verse as a negation: not one who has any remnant of the Spirit would do it. It reads the verse as a protest against the husbands' conduct, and it explains the abruptness of the Hebrew."
+            }
+          ],
+          "bearing": "The verse is one of the hardest in the Old Testament, and no view has settled it. Every reading contains the same elements, God as author of the union, a purpose of godly seed and a call to guard the spirit, which is why the passage can still be taught with confidence about the main point."
+        }
       ]
     },
-    "originalLanguages": "The disputation hammers one word: bagad, to break faith, to betray. Judah has betrayed one another, betrayed the covenant, and betrayed the wife of his youth. The ground of the charge is oneness: we have echad, one, Father, one God made us, and God has made husband and wife one. To betray is to chalal, to profane, the covenant of the fathers and the LORD's beloved sanctuary. God made the two one because He seeks godly zera, offspring, a faithful generation. And He hates shalach, the sending away of a wife, calling it covering one's garment with violence. Verse 16 is famously hard to render, but its force is unmistakable: God is against covenant-breaking treachery in marriage.",
+    "originalLanguages": "The first term is toevah, 'abomination,' in verse 11. It is a strong word, used in Deuteronomy for idolatry and for the practices of the nations, and Malachi uses it for a deed that has taken place 'in Israel and in Jerusalem,' meaning in the very center of the covenant people. The word 'profaned' that goes with it is a word for making common what was holy, and the thing made common is 'the LORD's beloved sanctuary.' Whether 'sanctuary' means the temple or, more broadly, the holy people is disputed, but the sense is the same: something set apart for God has been made ordinary.\n\nThe phrase 'the daughter of a foreign god' in verse 11 is literal and compact: a woman identified by the god she belongs to. The charge is that such a marriage brings a foreign worship into the home of a man who belongs to the LORD.\n\nIn verse 14 the wife is called a 'companion' and a 'wife by covenant,' literally 'the wife of your covenant.' The first word speaks of partnership, and Proverbs 2:17 puts a like idea beside a like covenant when it speaks of the abandoned 'partner of her youth' and 'the covenant of her God.' The second word makes the marriage a covenant, so that God is its witness, a word used of a witness at an oath, Genesis 31:50. The phrase 'wife of your youth' is repeated in Proverbs 5:18 and Isaiah 54:6, and it means not that she is old but that she was the wife of the early, formative years of a man's life.\n\nVerse 15 gives two places for the word ruach, spirit. First there is 'a portion of the Spirit' in the footing of the marriage, and then the double command, 'guard yourselves in your spirit,' repeated at the end of verse 16. The same verb for guarding is used of keeping a commandment or a watch, and a man is told to put a watch on his own spirit. The English 'godly offspring' translates two Hebrew words that could be read as 'seed of God,' that is, descendants who belong to God, and the sense is that the marriage is aimed at a generation who will fear Him.\n\nAt verse 16 the root behind 'hate' is sane, the same root used in Deuteronomy 24:3 of the second husband who 'hates her.' Whether God or the husband is the one who hates in verse 16 is why its translation is disputed. Finally 'violence,' chamas, is the word for the corruption that filled the earth before the flood, Genesis 6:11. A man's 'garment' covered by violence is a vivid picture, as Psalm 73:6 speaks of 'a garment of violence.' It carries a second suggestion that the garment is also the cloak a husband spread over his wife in marriage, as Ruth asks Boaz to do, Ruth 3:9, and as God did for Jerusalem, Ezekiel 16:8. The divorcer takes the marriage garment and stains it.",
     "typology": [
-      { "type": "The one-flesh marriage covenant witnessed by God", "fulfillment": "The union of Christ and His church, the mystery marriage was made to picture, Genesis 2:24 and Ephesians 5:31-32." },
-      { "type": "God as the faithful husband to an unfaithful people", "fulfillment": "Christ the Bridegroom who loves and keeps His bride and never breaks faith, Hosea 2:19-20 and Ephesians 5:25-27." },
-      { "type": "Marriage aimed at godly offspring", "fulfillment": "The holy people God gathers in Christ and the promised seed who blesses the nations, Malachi 2:15 and Galatians 3:16." }
+      {
+        "type": "The one-flesh union witnessed by God, Genesis 2:24",
+        "fulfillment": "Malachi's appeal to God's making husband and wife one is quoted by Jesus from the beginning of Genesis, Matthew 19:4 to 6, and is deepened by Paul, who quotes the same verse and says 'This mystery is profound, but I am speaking about Christ and the church,' Ephesians 5:31 to 32. The first marriage was always meant to point to the last. The type falls short in that human marriage ends at death, Romans 7:2, and cannot fully bear the weight of the pattern it signifies."
+      },
+      {
+        "type": "The husband who keeps covenant with a wife who has been faithless, Hosea 2:19 to 20",
+        "fulfillment": "The prophets picture God as a husband loyal to an unfaithful bride, Isaiah 54:5 to 6 and Hosea 3:1. Christ is the Bridegroom who 'loved the church and gave Himself up for her,' Ephesians 5:25 to 27, and whose bride is at last 'adorned for her husband,' Revelation 21:2. The correspondence is closest in the willingness to pay for a wife who has not deserved it. The type falls short in that Hosea's pursuit of Gomer was an acted parable and she was a woman, while Christ's pursuit is of a whole people at the cost of His life."
+      },
+      {
+        "type": "The wronged wife whose tears God hears, Malachi 2:13 to 14",
+        "fulfillment": "The picture of the injured woman crying out and the Lord acting as witness for her is picked up in the figure of the God who 'defends the cause of the fatherless and the widow,' Deuteronomy 10:18, and in Jesus' dealings with women whose standing in society was fragile, as in John 8:1 to 11. It is a pattern of divine advocacy more than a typological prediction, and should be held lightly. It points to Christ as the One who sees the one nobody else will defend."
+      },
+      {
+        "type": "Godly offspring, Malachi 2:15",
+        "fulfillment": "The marriage is aimed at 'godly offspring,' a generation who belong to God. Paul says the promised seed is Christ, Galatians 3:16, and that all who belong to Christ are Abraham's seed and heirs, Galatians 3:29. The many children of faith born of the spiritual family are the fulfilled sense of the verse, 'Here am I, and the children God has given Me,' Hebrews 2:13, the type finding its end in the household of God. It falls short only in that physical descent was never enough, John 1:12 to 13."
+      }
     ],
-    "christ": "The men of Judah broke faith with their wives just as Israel had broken faith with God, yet the LORD remained the faithful husband to an unfaithful people. That covenant faithfulness is fulfilled in Christ, the Bridegroom who loved the church and gave Himself for her, cleansing her and presenting her to Himself without spot, and who will never divorce His bride. Jesus upholds the very foundation Malachi appeals to, that God made them one, when He teaches on marriage in Matthew 19. The passage that exposes human treachery drives us to the one who keeps covenant perfectly and makes His people faithful.",
-    "god": "God is one, the Father and Creator who has bound His people together and joined husband and wife as one. He is a covenant-keeping God who witnesses every marriage and takes betrayal with utmost seriousness, refusing the worship of those who weep at the altar while wronging their wives. He hates the violence of treacherous divorce because He is faithful and loves faithfulness, and He stands as witness and advocate for the one who has been betrayed.",
+    "christ": "The passage speaks twice of a witness, and both times it is the LORD. That is the first path to Christ. He is the witness who was at every wedding, and in the end He is also the husband the wedding was meant to illustrate. Paul reads the marriage covenant as a living parable of Christ and the church, 'Husbands, love your wives, just as Christ loved the church and gave Himself up for her,' Ephesians 5:25. The husbands of Malachi's day are exposed by their treachery, and the standard they fail to meet is not a legal minimum but a love that gives itself up.\n\nThe second path is through God's own faithfulness. The prophets say the covenant was broken by Israel, and Jeremiah 3:8 reports that God had given faithless Israel a certificate of divorce. The Old Testament never lets that be the last word. Isaiah 54:6 calls her back as 'the rejected wife of one's youth,' and Hosea 2:19 to 20 says 'I will betroth you to Me forever.' The tension is resolved at the cross: the Husband takes the penalty of the unfaithfulness so that the marriage can stand. Christ's faithfulness is not the absence of any hard word to His people but the cost He paid so that He will never send His bride away.\n\nThe third path is through Jesus' own use of the passage. When the Pharisees ask about divorce, He goes behind Moses to the creation, Matthew 19:4 to 6, and then tells them that the provision for divorce was a concession to 'hardness of heart,' 19:8. In so doing He steps into Malachi's role. He speaks as a prophet but also as the Lord who made them one, and He holds the standard where the prophets had to appeal to it. The same Lord shows compassion in the case of the woman at the well, with five husbands behind her, John 4:16 to 18, and in the woman taken in adultery, John 8:11, neither condoning the sin nor crushing the sinner.\n\nThe fourth path is through the 'godly offspring.' Malachi says the marriage was for a family that belongs to God. In Christ the family is gathered, 'Here am I, and the children God has given Me,' Hebrews 2:13, and the goal of the first marriage is reached in a household of faith.\n\nA caution is in order. The passage is not a code about Jesus, and not every line of it should be read as a type. The wronged wife and the abandoned household are real people whose cause God takes up, and it would be a loss to turn them into symbols. The link to Christ runs along the themes the text itself presses: witness, covenant, oneness and the cost of faithfulness.",
+    "god": "The God of this passage is introduced by an argument from creation, not from law. 'Do we not all have one Father? Did not one God create us?' The oneness of God is the basis for the oneness of His people, and the oneness of a husband and wife is a small copy of it. A God who is one cannot be served through division, and the passage shows He is the source and guarantor of every real bond.\n\nHe is a witness. Verse 14 gives a startling picture of the Creator standing as a bystander at a wedding and then, years later, as a plaintiff on behalf of the wronged. It tells us something about God's knowledge. Nothing said in private promises is private to Him, and He keeps those words in mind when they are broken. It also tells us about His character: the invisible, unaccountable promise is the very kind of thing He guards.\n\nHe is a listener. The altar is covered with tears, and verse 13 says He refuses the gift that comes with them. That is not coldness but moral clarity. God hears weeping, and He distinguishes between sorrow over the consequences of sin and sorrow over the sin itself. Those who weep at the altar because God has withdrawn His favor are told that the cause lies in their own homes, and that the real weeping that matters is the wife's.\n\nHe is holy in a way that includes the intimate and the ordinary. People often think of God's holiness as belonging to temples and rituals. Malachi will not allow it. The 'LORD's beloved sanctuary' and the marriage bed are linked by the same word 'profane,' and God cares about both as a thing set apart. He calls Himself 'the God of Israel' in verse 16 and gives His name 'LORD of Hosts,' the God who commands armies and also keeps watch over a single marriage.\n\nHe is a God who hates, and it is important to read that rightly. The hatred is God's clear and settled opposition to what destroys covenant, violence against a wife, and it flows from love for those who are harmed. It is a different thing from the contempt of a husband in Deuteronomy 24:3 who 'hates' the woman he sends away. For worship it means that we cannot come to Him in the morning with our liturgy and leave our promises on the doorstep. He wants whole people, with every part of the life gathered into the one offering.",
     "crossReferences": [
-      { "ref": "Genesis 2:24", "note": "The two become one flesh, the design Malachi appeals to and Jesus returns to in teaching on marriage." },
-      { "ref": "Matthew 19:4-6", "note": "Jesus grounds the permanence of marriage in God's making them one, echoing Malachi's argument." },
-      { "ref": "Ephesians 5:25-32", "note": "Marriage images the faithful, self-giving union of Christ and His church, the fulfillment of covenant faithfulness." },
-      { "ref": "Ezra 9:1-3", "note": "The same post-exilic crisis of intermarriage with pagan peoples that Malachi confronts as covenant treachery." }
+      {
+        "ref": "Genesis 2:24",
+        "note": "The first marriage and the basis of Malachi's argument. A man 'will be united to his wife, and they will become one flesh.' The verb for being united speaks of a cleaving, and the passage shows that the unity is created by God and not merely by the couple, which is why breaking faith touches Him."
+      },
+      {
+        "ref": "Deuteronomy 7:3-4",
+        "note": "The law behind Malachi's complaint about foreign wives. The stated reason is spiritual, that such marriages would 'turn your sons away from following Me to serve other gods,' so the offence in Malachi 2:11 is the importing of rival worship, not the nationality of the wife."
+      },
+      {
+        "ref": "Ezra 10:2-3",
+        "note": "The remedy that Ezra's community chose in the same crisis, a covenant to send away foreign wives and their children. Reading it beside Malachi shows how painful the situation was and why the matter calls for care: the cure had costs of its own, and Malachi's concern for the wronged wife stands as a counterweight."
+      },
+      {
+        "ref": "Nehemiah 13:23-27",
+        "note": "Nehemiah finds men married to women of Ashdod, Ammon and Moab whose children could not speak the language of Judah, and he holds up Solomon as a warning. It confirms the setting of Malachi 2:11 and shows the long consequence of the sin for the faith of the next generation."
+      },
+      {
+        "ref": "Proverbs 2:17",
+        "note": "The woman who 'abandons the partner of her youth and forgets the covenant of her God.' It uses the same two ideas as Malachi 2:14, the companion of youth and the covenant before God, and shows that wisdom literature also treats marriage as a promise made in God's sight."
+      },
+      {
+        "ref": "Isaiah 54:5-6",
+        "note": "The Lord is the husband of His people, and He calls them back like the 'rejected wife of one's youth.' The same phrase Malachi uses for a human wife is used of God's own love for His people, so the prophet's appeal to the wife of youth is set within God's pattern of faithfulness."
+      },
+      {
+        "ref": "Jeremiah 3:8",
+        "note": "God Himself is said to have given faithless Israel a certificate of divorce, and yet He goes on to call her back in 3:14. It is a warning not to treat Malachi 2:16 as a flat rule with no context, and a reminder that God's own case was one of long-suffering against a persistent betrayal."
+      },
+      {
+        "ref": "Matthew 19:3-9",
+        "note": "Jesus answers the question of divorce by appealing to creation and by calling Moses' provision a concession to hardness of heart. It is the New Testament's authoritative commentary on Malachi 2:15 and 16 and shows the permanent weight of the one-flesh union."
+      },
+      {
+        "ref": "1 Corinthians 7:10-15",
+        "note": "Paul's practical application: no divorce between believers, no divorce of a willing unbelieving partner, and freedom when an unbeliever leaves. It shows how the apostles took the principle of Malachi into households where only one partner believed, and why Malachi 2:11 cannot be read as demanding separation from an existing spouse."
+      },
+      {
+        "ref": "Ephesians 5:25-32",
+        "note": "Paul grounds the husband's love in Christ's self-giving for the church and says the one-flesh union points to Christ and the church. It is the New Testament's answer to treachery, a love that gives itself up and not one that discards."
+      }
     ],
-    "oneStory": "Malachi binds faithfulness in marriage to faithfulness with God, exposing a people who betray both. This treachery cries out for the faithful Bridegroom, Christ, who keeps covenant where His people fail, loves His bride to the end, and restores the one-flesh union to the glory it was made to display. From the one Father comes the call to be one, fulfilled in the union of Christ and His church.",
-    "sermon": { "status": "verified", "preacher": "David Legge", "title": "Malachi's Message On Marriage (Malachi's Modern Message Part 4)", "url": "https://www.preachtheword.com/sermon/mmm04.shtml", "why": "The fourth message of Legge's expository series through Malachi, covering 2:10-16. It handles the treachery of breaking faith, the seriousness of the marriage covenant, and the difficult verse on divorce with pastoral care, an orthodox exposition that points to God's covenant faithfulness fulfilled in Christ the Bridegroom." }
+    "oneStory": "The whole Bible is bracketed by a wedding. In Genesis 2 the first man and woman are brought together and become one flesh, and in Revelation 19 and 21 the Lamb's bride is adorned for her husband. Malachi 2 sits in the dark middle of that story, where the promise of marriage is being broken and the picture of God's own love is being marred. The question it raises is what becomes of a covenant when people will not keep it.\n\nThe Old Testament's answer is that God keeps it for them. He is the husband who pursues an unfaithful wife, Hosea 3:1, who calls her back as 'the rejected wife of one's youth,' Isaiah 54:6, and who promises, 'I will betroth you to Me forever,' Hosea 2:19. The fidelity of God is what makes the infidelity of Judah's husbands so grievous. They are copies of the covenant-keeper who are acting as covenant-breakers. At the same time, the intermarriage that so alarmed Ezra and Nehemiah is a re-run of Solomon, Nehemiah 13:26, and ultimately of Eden, where a voice from outside the covenant drew a husband and wife away from the word of God.\n\nWhat the passage sets up is a longing for a Husband who will not fail and a family that is really God's own. Malachi's 'godly offspring' reaches forward to Christ, in whom a people are gathered who belong to God, Galatians 3:29. The book ends at 4:5 to 6 with a promise of reconciliation of fathers and children, and the first thing the angel says of John, who comes in the spirit of Elijah, is that he will turn the hearts of fathers to their children, Luke 1:17.\n\nChrist answers it in His person. He is the faithful witness, Revelation 1:5, who keeps the covenant and gives Himself for His bride. He tells the Pharisees to look back to Genesis, and He quotes the verse that Malachi had in view, Matthew 19:5. His church, washed and 'holy and blameless,' Ephesians 5:27, is the bride Malachi's husbands could not be faithful to. The final scene, 'the marriage of the Lamb has come, and His bride has made herself ready,' Revelation 19:7, closes the story. The vow that was spoken at Eden and broken in Judah is finally kept, by God, for good, and nothing and no one can send the bride away.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "David Legge",
+      "title": "Malachi's Message On Marriage (Malachi's Modern Message Part 4)",
+      "url": "https://www.preachtheword.com/sermon/mmm04.shtml",
+      "why": "The fourth message of Legge's expository series through Malachi, covering 2:10-16. It handles the treachery of breaking faith, the seriousness of the marriage covenant, and the difficult verse on divorce with pastoral care, an orthodox exposition that points to God's covenant faithfulness fulfilled in Christ the Bridegroom."
+    }
   },
   "quiz": [
     {
       "q": "What word runs through this whole disputation?",
       "options": [
-        { "text": "Breaking faith, or treachery, against one another, the covenant, and the wife of one's youth.", "weight": 100, "note": "The Hebrew bagad, to betray, is repeated throughout verses 10-16." },
-        { "text": "Sacrifice, the theme of proper offerings.", "weight": 75, "note": "Offerings appear, but the driving word is breaking faith, not sacrifice." },
-        { "text": "Wealth, the theme of tithing.", "weight": 25, "note": "Tithing is the next disputation; this one is about covenant treachery in marriage." },
-        { "text": "Idolatry alone, with no mention of marriage.", "weight": 0, "note": "Marriage and the wife of one's youth are central here." }
+        {
+          "text": "Breaking faith, or treachery, against one another, the covenant, and the wife of one's youth.",
+          "weight": 100,
+          "note": "The Hebrew bagad, to betray, is repeated throughout verses 10-16."
+        },
+        {
+          "text": "Sacrifice, the theme of proper offerings.",
+          "weight": 75,
+          "note": "Offerings appear, but the driving word is breaking faith, not sacrifice."
+        },
+        {
+          "text": "Wealth, the theme of tithing.",
+          "weight": 25,
+          "note": "Tithing is the next disputation; this one is about covenant treachery in marriage."
+        },
+        {
+          "text": "Idolatry alone, with no mention of marriage.",
+          "weight": 0,
+          "note": "Marriage and the wife of one's youth are central here."
+        }
       ]
     },
     {
       "q": "Why were the people's tears at the altar not accepted?",
       "options": [
-        { "text": "Because they were breaking faith with the wives of their youth even as they wept.", "weight": 100, "note": "Verses 13-14 tie the rejected worship to their treachery at home." },
-        { "text": "Because they did not cry loudly enough.", "weight": 75, "note": "The issue was not the volume of grief but the betrayal behind it." },
-        { "text": "Because they brought the wrong kind of grain.", "weight": 25, "note": "The problem was covenant treachery, not the offering's ingredients." },
-        { "text": "Because God never accepts tears.", "weight": 0, "note": "God receives genuine repentance; here the tears masked ongoing betrayal." }
+        {
+          "text": "Because they were breaking faith with the wives of their youth even as they wept.",
+          "weight": 100,
+          "note": "Verses 13-14 tie the rejected worship to their treachery at home."
+        },
+        {
+          "text": "Because they did not cry loudly enough.",
+          "weight": 75,
+          "note": "The issue was not the volume of grief but the betrayal behind it."
+        },
+        {
+          "text": "Because they brought the wrong kind of grain.",
+          "weight": 25,
+          "note": "The problem was covenant treachery, not the offering's ingredients."
+        },
+        {
+          "text": "Because God never accepts tears.",
+          "weight": 0,
+          "note": "God receives genuine repentance; here the tears masked ongoing betrayal."
+        }
       ]
     },
     {
       "q": "Why did God make husband and wife one?",
       "options": [
-        { "text": "Because He seeks godly offspring, a faithful generation raised in the covenant.", "weight": 100, "note": "Verse 15 gives godly offspring as the purpose behind the oneness." },
-        { "text": "Only to provide companionship with no larger purpose.", "weight": 75, "note": "Companionship is real, but the verse names godly offspring as the aim." },
-        { "text": "To increase the nation's military strength.", "weight": 25, "note": "The purpose is godly children, not armies." },
-        { "text": "For no stated reason at all.", "weight": 0, "note": "God explicitly states the reason: He seeks godly offspring." }
+        {
+          "text": "Because He seeks godly offspring, a faithful generation raised in the covenant.",
+          "weight": 100,
+          "note": "Verse 15 gives godly offspring as the purpose behind the oneness."
+        },
+        {
+          "text": "Only to provide companionship with no larger purpose.",
+          "weight": 75,
+          "note": "Companionship is real, but the verse names godly offspring as the aim."
+        },
+        {
+          "text": "To increase the nation's military strength.",
+          "weight": 25,
+          "note": "The purpose is godly children, not armies."
+        },
+        {
+          "text": "For no stated reason at all.",
+          "weight": 0,
+          "note": "God explicitly states the reason: He seeks godly offspring."
+        }
       ]
     },
     {
       "q": "How should we handle God's statement that He hates divorce?",
       "options": [
-        { "text": "As a revelation of God's heart against covenant treachery, handled with pastoral care.", "weight": 100, "note": "The verse exposes betrayal and is not a weapon against the already wounded." },
-        { "text": "As permission to look down on anyone who has been divorced.", "weight": 75, "note": "It condemns treachery, not the wronged; it is not a license for contempt." },
-        { "text": "As proof that marriage does not really matter to God.", "weight": 25, "note": "The opposite: it shows how seriously God takes the marriage covenant." },
-        { "text": "As an outdated rule with no meaning today.", "weight": 0, "note": "It reveals God's abiding heart for faithfulness in marriage." }
+        {
+          "text": "As a revelation of God's heart against covenant treachery, handled with pastoral care.",
+          "weight": 100,
+          "note": "The verse exposes betrayal and is not a weapon against the already wounded."
+        },
+        {
+          "text": "As permission to look down on anyone who has been divorced.",
+          "weight": 75,
+          "note": "It condemns treachery, not the wronged; it is not a license for contempt."
+        },
+        {
+          "text": "As proof that marriage does not really matter to God.",
+          "weight": 25,
+          "note": "The opposite: it shows how seriously God takes the marriage covenant."
+        },
+        {
+          "text": "As an outdated rule with no meaning today.",
+          "weight": 0,
+          "note": "It reveals God's abiding heart for faithfulness in marriage."
+        }
       ]
     },
     {
       "q": "How does this passage point to Christ?",
       "options": [
-        { "text": "God's faithfulness to an unfaithful people is fulfilled in Christ, the Bridegroom who never breaks faith with His bride.", "weight": 100, "note": "Ephesians 5 shows marriage picturing Christ's faithful love for the church." },
-        { "text": "It teaches that Christ abolished marriage.", "weight": 75, "note": "Christ upholds marriage, grounding it in God's making them one." },
-        { "text": "It shows that human treachery is acceptable to God.", "weight": 25, "note": "God hates treachery; Christ keeps covenant where we fail." },
-        { "text": "It has nothing to do with Christ.", "weight": 0, "note": "It points directly to Christ the faithful Bridegroom of His church." }
+        {
+          "text": "God's faithfulness to an unfaithful people is fulfilled in Christ, the Bridegroom who never breaks faith with His bride.",
+          "weight": 100,
+          "note": "Ephesians 5 shows marriage picturing Christ's faithful love for the church."
+        },
+        {
+          "text": "It teaches that Christ abolished marriage.",
+          "weight": 75,
+          "note": "Christ upholds marriage, grounding it in God's making them one."
+        },
+        {
+          "text": "It shows that human treachery is acceptable to God.",
+          "weight": 25,
+          "note": "God hates treachery; Christ keeps covenant where we fail."
+        },
+        {
+          "text": "It has nothing to do with Christ.",
+          "weight": 0,
+          "note": "It points directly to Christ the faithful Bridegroom of His church."
+        }
       ]
     }
   ],
@@ -144,8 +361,17 @@
     "Christ is the Bridegroom who never breaks faith with His bride. How does His unfailing faithfulness to you steady and encourage you when you feel your own faithfulness faltering?"
   ],
   "translationNotes": [
-    { "ref": "Malachi 2:15", "note": "Verse 15 is grammatically difficult in Hebrew; the BSB renders the thrust that God made the couple one and seeks godly offspring, grounding the call not to break faith." },
-    { "ref": "Malachi 2:16", "note": "This verse is one of the hardest in the Old Testament to translate. The BSB gives For I hate divorce and carries a footnote offering the alternative, For the man who hates his wife and divorces her covers his garment with violence; on either reading God opposes treacherous covenant-breaking in marriage." }
+    {
+      "ref": "Malachi 2:15",
+      "note": "Verse 15 is grammatically difficult in Hebrew; the BSB renders the thrust that God made the couple one and seeks godly offspring, grounding the call not to break faith."
+    },
+    {
+      "ref": "Malachi 2:16",
+      "note": "This verse is one of the hardest in the Old Testament to translate. The BSB gives For I hate divorce and carries a footnote offering the alternative, For the man who hates his wife and divorces her covers his garment with violence; on either reading God opposes treacherous covenant-breaking in marriage."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Malachi 2:10-16. All 7 verses reproduced in order. The BSB footnote at 2:16 offering the alternative rendering of the divorce clause is reflected in the translation notes and hermeneutics debate." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Malachi 2:10-16. All 7 verses reproduced in order. The BSB footnote at 2:16 offering the alternative rendering of the divorce clause is reflected in the translation notes and hermeneutics debate."
+  }
 }

@@ -18,7 +18,11 @@
         "note": "words that weary the LORD",
         "emphasis": "",
         "verses": [
-          { "chapter": 2, "n": 17, "text": "You have wearied the LORD with your words; yet you ask, “How have we wearied Him?” By saying, “All who do evil are good in the sight of the LORD, and in them He delights,” or, “Where is the God of justice?”" }
+          {
+            "chapter": 2,
+            "n": 17,
+            "text": "You have wearied the LORD with your words; yet you ask, “How have we wearied Him?” By saying, “All who do evil are good in the sight of the LORD, and in them He delights,” or, “Where is the God of justice?”"
+          }
         ]
       },
       {
@@ -26,21 +30,66 @@
         "note": "the refiner's fire and the swift witness",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 3, "n": 1, "text": "“Behold, I will send My {{malak|messenger}}, who will prepare the way before Me. Then the {{adon|Lord}} whom you seek will {{pitom|suddenly}} come to His temple, the Messenger of the covenant, in whom you delight, see, He is coming,” says the LORD of Hosts." },
-          { "chapter": 3, "n": 2, "text": "But who can endure the day of His coming? And who can stand when He appears? For He will be like a {{tsaraf|refiner’s}} fire, like a launderer’s soap." },
-          { "chapter": 3, "n": 3, "text": "And He will sit as a refiner and {{taher|purifier}} of silver; He will purify the sons of Levi and refine them like gold and silver. Then they will present offerings to the LORD in righteousness." },
-          { "chapter": 3, "n": 4, "text": "Then the offerings of Judah and Jerusalem will please the LORD, as in days of old and years gone by." },
-          { "chapter": 3, "n": 5, "text": "“Then I will draw near to you for judgment. And I will be a swift witness against sorcerers and adulterers and perjurers, against oppressors of the widowed and fatherless, and against those who defraud laborers of their wages and deny justice to the foreigner but do not fear Me,” says the LORD of Hosts." }
+          {
+            "chapter": 3,
+            "n": 1,
+            "text": "“Behold, I will send My {{malak|messenger}}, who will prepare the way before Me. Then the {{adon|Lord}} whom you seek will {{pitom|suddenly}} come to His temple, the Messenger of the covenant, in whom you delight, see, He is coming,” says the LORD of Hosts."
+          },
+          {
+            "chapter": 3,
+            "n": 2,
+            "text": "But who can endure the day of His coming? And who can stand when He appears? For He will be like a {{tsaraf|refiner’s}} fire, like a launderer’s soap."
+          },
+          {
+            "chapter": 3,
+            "n": 3,
+            "text": "And He will sit as a refiner and {{taher|purifier}} of silver; He will purify the sons of Levi and refine them like gold and silver. Then they will present offerings to the LORD in righteousness."
+          },
+          {
+            "chapter": 3,
+            "n": 4,
+            "text": "Then the offerings of Judah and Jerusalem will please the LORD, as in days of old and years gone by."
+          },
+          {
+            "chapter": 3,
+            "n": 5,
+            "text": "“Then I will draw near to you for judgment. And I will be a swift witness against sorcerers and adulterers and perjurers, against oppressors of the widowed and fatherless, and against those who defraud laborers of their wages and deny justice to the foreigner but do not fear Me,” says the LORD of Hosts."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "malak": { "language": "Hebrew", "lemma": "malak", "original": "מלאך", "gloss": "Messenger, envoy, one sent ahead with another's word; the same root as the prophet's name Malachi. Here it is the forerunner who prepares the way before the Lord, identified in the Gospels as John the Baptist. The word gathers up the book's theme of God sending His messengers to His people." },
-    "adon": { "language": "Hebrew", "lemma": "adon", "original": "אדון", "gloss": "Lord, master, sovereign. The Lord whom you seek will come to His temple; the term marks divine ownership of the temple, the Lord coming to His own house. In the New Testament this sudden coming of the Lord to His temple is seen fulfilled in the ministry of Jesus." },
-    "pitom": { "language": "Hebrew", "lemma": "pitom", "original": "פתאם", "gloss": "Suddenly, unexpectedly. The Lord the people so casually demand will arrive without warning at His temple. The word carries a note of warning: those who flippantly ask where God is may be caught unprepared when He actually appears." },
-    "tsaraf": { "language": "Hebrew", "lemma": "tsaraf", "original": "צרף", "gloss": "To refine, smelt, purify metal by fire, and so to test and purge. The coming Lord is like a refiner's fire that melts away impurity. Refining is painful but purposeful: it removes the dross so that what remains is pure and precious." },
-    "taher": { "language": "Hebrew", "lemma": "taher", "original": "טהר", "gloss": "To purify, cleanse, make ceremonially and morally clean. The refiner sits to purify the sons of Levi so they can present offerings in righteousness. The word looks beyond ritual to the deep cleansing of God's people that the gospel finally provides in Christ." }
+    "malak": {
+      "language": "Hebrew",
+      "lemma": "malak",
+      "original": "מלאך",
+      "gloss": "Messenger, envoy, one sent ahead with another's word; the same root as the prophet's name Malachi. Here it is the forerunner who prepares the way before the Lord, identified in the Gospels as John the Baptist. The word gathers up the book's theme of God sending His messengers to His people."
+    },
+    "adon": {
+      "language": "Hebrew",
+      "lemma": "adon",
+      "original": "אדון",
+      "gloss": "Lord, master, sovereign. The Lord whom you seek will come to His temple; the term marks divine ownership of the temple, the Lord coming to His own house. In the New Testament this sudden coming of the Lord to His temple is seen fulfilled in the ministry of Jesus."
+    },
+    "pitom": {
+      "language": "Hebrew",
+      "lemma": "pitom",
+      "original": "פתאם",
+      "gloss": "Suddenly, unexpectedly. The Lord the people so casually demand will arrive without warning at His temple. The word carries a note of warning: those who flippantly ask where God is may be caught unprepared when He actually appears."
+    },
+    "tsaraf": {
+      "language": "Hebrew",
+      "lemma": "tsaraf",
+      "original": "צרף",
+      "gloss": "To refine, smelt, purify metal by fire, and so to test and purge. The coming Lord is like a refiner's fire that melts away impurity. Refining is painful but purposeful: it removes the dross so that what remains is pure and precious."
+    },
+    "taher": {
+      "language": "Hebrew",
+      "lemma": "taher",
+      "original": "טהר",
+      "gloss": "To purify, cleanse, make ceremonially and morally clean. The refiner sits to purify the sons of Levi so they can present offerings in righteousness. The word looks beyond ritual to the deep cleansing of God's people that the gospel finally provides in Christ."
+    }
   },
   "study": {
     "basic": {
@@ -54,84 +103,248 @@
       "oneStory": "This prophecy bridges the Old Testament and the Gospels: a messenger will prepare the way, then the Lord will come to His temple. Four hundred years later John the Baptist arrives, and behind him comes Jesus, the Messenger of the covenant, exactly as Malachi foretold."
     },
     "context": {
-      "literary": "The fourth disputation, opening with the people's complaint at the end of chapter 2 and answered through 3:1-5. The people's cry Where is the God of justice is met with the announcement of the messenger, the sudden coming of the Lord, and the double edge of that coming: refining for His people and swift witness against the wicked.",
-      "historical": "The post-exilic community was disillusioned, watching the wicked prosper and doubting God's justice. Malachi answers that God will act, though His coming will first purify His own people, especially the corrupt priesthood, the sons of Levi rebuked earlier in the book. The chapter divisions here differ between traditions, but the flow of thought runs continuously from 2:17 into chapter 3.",
-      "canonical": "Verse 1 is quoted in Matthew 11:10, Mark 1:2, and Luke 7:27 of John the Baptist. The Lord coming to His temple is echoed in Jesus's temple ministry, and the refiner's fire connects to John's promise that Christ would baptize with the Holy Spirit and fire, Matthew 3:11-12. The Messenger of the covenant anticipates Christ the mediator of the new covenant in Hebrews."
+      "literary": "The unit is a complaint and its answer, and the answer is built on the complaint's own vocabulary. The people say, in effect, that God is not just. Malachi 2:17 reports two sayings, 'All who do evil are good in the sight of the LORD,' and 'Where is the God of justice?' The reply in 3:1 to 5 is an announcement that takes the second saying seriously. The word for justice is the same word in 2:17 and in 3:5. They ask where the God of mishpat is, and He says 'I will draw near to you for judgment,' the same word. The answer to the question is the arrival of the very thing they demanded.\n\nThe passage is also a chain of sudden turns. In 3:1 the speaker moves from 'I will send My messenger' to 'the Lord whom you seek will suddenly come,' and the first person of God and the third person of 'the Lord' stand in the same sentence. The Lord they seek, the Messenger they delight in, are the objects of a desire the people have just voiced aloud in complaint. In 3:2 the tone turns on two questions with no answer given, 'who can endure... who can stand,' which are the response of someone who has understood what the longing meant. Verses 3 and 4 shift again, from threat to a strange hope, the cleansed worship of Judah 'as in days of old.' Verse 5 closes with a list of the sins he will judge.\n\nThe unit also looks backward to what has just happened. The priests have been warned in 2:1 to 9 and the husbands in 2:10 to 16. The one who comes is the answer to all three failures, and the purifying of the sons of Levi in 3:3 picks up the broken covenant with Levi in 2:8. The book's own name is the first pun of the section: 'My messenger,' in Hebrew malaki, is the title of the book as well as the first figure of verse 1.",
+      "historical": "The speakers are a generation that has heard great promises and seen small results. Haggai and Zechariah had spoken of a temple filled with the glory of God and a kingdom restored. The temple was finished, but no king sat on David's throne, the land was a province of a foreign empire, and the harvest was uncertain. In that climate the old problem of the prosperous wicked, which troubled Habakkuk, Habakkuk 1:2 to 4, Jeremiah, Jeremiah 12:1, and the psalmist, Psalm 73:3, returned with an edge of cynicism. Malachi 3:14 to 15 voices the same mood later in the book: 'It is futile to serve God.'\n\nThe language of waiting is real to this community. They had been told by the earlier prophets that the Lord would return to Zion, and Malachi's contemporaries kept the temple routines in hope of that arrival. The message of 3:1 is that the longing they have been trading in cynical talk is going to be answered, but not on the terms they imagine. A people who ask for the Lord to come and set things right are not thinking of themselves as part of what needs setting right.\n\nThe figures in the passage had background. The 'messenger' who prepares the way recalls the practice of sending an envoy ahead of a king to clear the road, a picture Isaiah 40:3 had already used with the words 'Prepare the way for the LORD in the wilderness.' The 'refiner' and the 'launderer' are trades the hearers saw every day: a silversmith who heated metal to separate it from its dross and a fuller who washed and trod cloth in water with strong cleansers. Both are trades of removal, which hold something worthwhile by taking away what does not belong.\n\nThe sins listed in 3:5 are those of ordinary social life in a small agricultural community: charms and spells, adultery, false oaths, withheld wages, and the widow, orphan and foreigner pushed aside. They are the commands of the covenant for everyday life, Exodus 22:21 to 24, Leviticus 19:13 and Deuteronomy 24:14 to 15, which shows what God means by justice.",
+      "canonical": "Verse 1 sits at the meeting point of three great Old Testament texts. The 'messenger' sent ahead recalls Exodus 23:20, where God sends an angel before Israel to guard them on the way. The command to 'prepare the way' recalls Isaiah 40:3. And the Elijah promise at Malachi 4:5 to 6 closes the book on the same note, a forerunner before the great Day. Mark's opening lines show the New Testament reading all three together: Mark 1:2 quotes the messenger, and Mark 1:3 quotes the voice crying in the wilderness. Matthew 11:10 and Luke 7:27 quote Malachi 3:1 of John the Baptist, and Jesus says of John, 'he is the Elijah who was to come,' Matthew 11:14. Luke 1:17 and 1:76 apply it to his birth.\n\nThe refiner's fire has a long history in the prophets. God promises to purge the dross, Isaiah 1:25, and to refine His people like silver, Zechariah 13:9. The question 'who can endure' recalls Joel 2:11, 'The Day of the LORD is great and very dreadful. Who can endure it?' and its New Testament counterpart in Revelation 6:17. The vision of Joshua the high priest in filthy clothes, Zechariah 3:1 to 5, is a close parallel, as the filth is removed and he is clothed anew.\n\nThe New Testament takes the coming of the Lord to His temple as being fulfilled in Jesus, who entered Jerusalem and the temple courts and overturned tables, Mark 11:15 to 17, John 2:13 to 17, with a quotation about zeal for God's house. John the Baptist promises that the One to come will baptize with the Holy Spirit and fire, Luke 3:16 to 17. Hebrews 9:15 and 12:24 call Jesus the mediator of a new covenant, and Paul says that Christ's coming brings the final judgment and purification, 1 Corinthians 3:13. The passage is therefore a doorway between the testaments."
     },
     "hermeneutics": {
-      "authorIntent": "To rebuke the people's cynical charge that God is unjust, to announce that God will indeed come in justice, and to warn that His coming, preceded by a messenger, will first refine His own people before judging the wicked, so that they should long for it with reverence rather than flippancy.",
-      "descriptionVsPrescription": "The passage predicts God's coming and describes its refining and judging character; it does not merely give timeless advice. The abiding truths are that God is just and will act, that meeting God purifies and tests, and that He defends the vulnerable and opposes the oppressor.",
+      "authorIntent": "Malachi is answering a question that the people thought was a good one and has turned out to be a trap. 'Where is the God of justice?' sounds like faith under pressure, and Malachi's reply is that it is really an accusation, since it assumes that whatever justice means, the questioner is on the right side of it. The prophet means his hearers to realize that the day they long for will test them first. This is why the passage moves so quickly from the announcement to the sudden question, 'who can endure the day of His coming?'\n\nHe also intends to give real hope. The cynical talk of 2:17 had declared that the wicked prosper and God delights in them. The announcement of 3:1 is that this is not so and not forever: God is coming, He is coming to His temple, and He will deal with evil. The hearers are told that their longing is not misplaced and that their waiting will end.\n\nThe third aim is the point of the refining. It does not only punish. The result named in verse 3 is that 'they will present offerings to the LORD in righteousness,' and verse 4 says those offerings will please Him. The prophet is promising a restored worship, not a destroyed people. The people who heard the passage would have understood that the purifying fire begins with the priests, which is why the promise lands on the 'sons of Levi' rather than on the nation at large.",
+      "descriptionVsPrescription": "This is a passage of announcement, not of instruction. It describes what God will do, send a messenger, come to His temple, refine, and judge. It does not command the reader to do anything beyond the implied answer to its questions. That has two effects on how it is applied. First, we are not to produce the refining ourselves: the picture is of a refiner who sits over the crucible, and the work is His. Second, we are not to read the list of sins in verse 5 as a full code of the Christian life. It is a sample of covenant offences that mark a people who 'do not fear Me,' with the heart of the matter being that last phrase.\n\nThe New Testament does apply the passage, and it applies it in the order Malachi gives it. John the Baptist is the messenger, so any reader after the Gospels must take the forerunner as a fact of history and not a hope. The Lord's coming to His temple is read as the work of Jesus, so the cleansing of the temple is a fulfillment, not only an illustration. The refining fire, however, is read in more than one way by Christians: as the discipline God uses on believers, 1 Peter 1:7, as the testing of every person's work on the last day, 1 Corinthians 3:13 to 15, and as the final judgment on the unrepentant, Luke 3:17.\n\nThe question of 2:17 deserves a straight application. It is lawful to ask God about justice, as Habakkuk and Jeremiah did. What the passage rules out is the accusation that He delights in evil, and the assumption that the one asking is exempt from the answer.",
       "debates": [
         {
-          "question": "Are the messenger of verse 1 and the Messenger of the covenant the same figure?",
+          "question": "Who is 'the Messenger of the covenant' in verse 1?",
           "views": [
-            { "label": "Two distinct figures", "case": "The first messenger prepares the way, John the Baptist, while the Messenger of the covenant is the Lord Himself who then comes to His temple, Christ; the New Testament clearly identifies the forerunner with John." },
-            { "label": "A closely linked pair", "case": "The verse deliberately weaves the two together so that the forerunner's coming and the Lord's coming are announced as one great event, the arrival of God to His people." }
+            {
+              "label": "The Lord Himself, the same as 'the Lord whom you seek'",
+              "case": "The sentence runs 'the Lord whom you seek will suddenly come to His temple, the Messenger of the covenant, in whom you delight.' The two titles stand side by side and are most naturally the same person, who comes to His own temple. The Hebrew for 'the Lord' carries the article and is used of God, as in Isaiah 1:24 and 3:1. The Messenger is therefore God in His coming, and the New Testament sees this person in Jesus, Hebrews 9:15 and 12:24."
+            },
+            {
+              "label": "The Angel of the LORD",
+              "case": "Others link the title to the Angel of the LORD who goes before Israel in Exodus 23:20 and bears God's name in him. That figure is both sent by God and identified with Him, so the 'Messenger of the covenant' joins the idea of a sent one and of God present. On this view Malachi's phrase picks up the older figure and announces his return."
+            },
+            {
+              "label": "A human reformer or a second forerunner",
+              "case": "A smaller number take the figure to be a prophet or priest-like reformer, perhaps the Elijah of 4:5, so that verse 1 describes two stages of the same prophetic work, with the Lord coming after. This view rests on the use of 'messenger' elsewhere in Malachi for the priest, 2:7, and the human forerunner. It struggles with the claim that the figure comes to 'His temple.'"
+            }
           ],
-          "bearing": "Either way the New Testament reads the forerunner as John and the Lord who comes to His temple as Jesus, the Messenger of the covenant, so the prophecy anchors the coming of Christ." }
+          "bearing": "The best-attested reading in the New Testament is that the forerunner is John and the Lord who comes to His temple is Jesus, Mark 1:2 to 3 and Matthew 11:10. Whichever view of the title is held, the coming is the coming of God Himself to His people, and the passage should be read as a promise that cannot be met by a mere reformer."
+        },
+        {
+          "question": "Is the coming of verses 1 to 5 a past event or a future one?",
+          "views": [
+            {
+              "label": "Fulfilled at Christ's first coming",
+              "case": "John the Baptist is the messenger, and Jesus came to the temple, taught there and cleansed it, Mark 11:15 to 17. The refining of Levi's sons is seen in the change in the priesthood after Pentecost, Acts 6:7, and the judgment of verse 5 is seen in the fall of Jerusalem and the temple in AD 70. The passage is thus read as a prophecy fulfilled in the Gospels and the generation after."
+            },
+            {
+              "label": "Awaiting Christ's return",
+              "case": "The question 'Who can endure the day of His coming?' belongs to the language of the final Day of the LORD, Joel 2:11, Revelation 6:17, and verse 5 speaks of judgment on all sins and sinners without limit. The messenger has come but the full coming, the refining and the swift witness, is the second advent."
+            },
+            {
+              "label": "Two comings seen as one, in prophetic perspective",
+              "case": "Many hold that Malachi, like other prophets, sees the Lord's arrival as a single event whose phases the New Testament distinguishes. Jesus quotes Malachi 3:1 for John and the same chapter reaches to the last judgment, so the one prophecy has a first fulfillment and a second. This allows Luke 3:16 to 17 to speak of both the baptism of the Spirit and the fire of judgment."
+            }
+          ],
+          "bearing": "The passage will not let the reader keep the question at a safe distance. If it began to be fulfilled in Jesus' first coming, it is no less a warning now, since the refiner's work continues in His people and the swift witness is still promised. The practical bearing is the same either way: to meet the question 'who can stand' by taking refuge in the One who comes."
+        }
       ]
     },
-    "originalLanguages": "God answers the cynics by announcing His malak, His messenger, who will prepare the way, and then the adon, the Lord, the sovereign owner of the temple, who will pitom, suddenly, come to His own house as the Messenger of the covenant. His coming is no gentle formality: He is like a tsaraf, a refiner's fire, and like a launderer's soap, sitting to taher, to purify, the sons of Levi like gold and silver until they present offerings in righteousness. Then He draws near for judgment as a swift witness against sorcery, adultery, perjury, and the oppression of the weak. The question shifts from where is God to who can endure the day of His coming.",
+    "originalLanguages": "The first word of the answer is the title of the book. 'My messenger' in 3:1 is malaki, the same word that gives the prophet his name, and the footnote at 1:1 notes that Malachi means My messenger. The pun is not an accident of translation. A book whose title is 'My messenger' announces within itself that a messenger is coming, and the prophet who speaks stands in the same line as the figure he announces. The Hebrew word for messenger is also the word for angel, which is why the New Testament could draw Exodus 23:20 into the picture, and the priest was called a messenger in 2:7, so three kinds of messenger are on the page together.\n\nThe verb in 'prepare the way' is the one that means to turn, to clear, to face something toward the road. It is the language Isaiah uses in 40:3, and Malachi has it in a form that says the messenger will clear the road. In the New Testament quotations the pronoun shifts, so that Malachi's 'before Me' becomes 'before You' in Matthew 11:10 and Luke 7:27. The quotation has been adjusted so that the messenger goes before the Messiah, who is in some sense the Lord who speaks.\n\nThe adverb in 'suddenly' is pitom, which does not describe the speed of the arrival so much as its unannounced character. The Lord comes without a signal that the people can use to get ready. The place of the arrival is called His heikhal, a word that can mean either temple or palace. It is the house of a king, so the verse says that the Lord returns to His own royal residence, to inspect it.\n\nThe pair of verbs in 3:1, 'seek' and 'delight,' are those of longing. The word for delight, chafetz, returns in the last chapter of the passage, 3:12, where the land will be a 'land of delight.' The people who delight in the Messenger of the covenant here are not told that this delight is false; they are told it will be answered and it will test them.\n\nThe question 'who can endure' uses a verb that means to contain, as a vessel holds what is poured into it, and it is used of the Day of the LORD in Joel 2:11. The second question, 'who can stand,' asks who will remain upright when He appears. Both questions imagine a person who cannot bear the weight of what has come.\n\nThe two trades in verse 2 are the refiner, tsoref, and the launderer, whose soap is the cleansing agent in the process. Verse 3 adds that He 'will sit as a refiner and purifier,' and the verb suggests unhurried attention to the work. The picture has patience in it. The verb for 'purify' is the one used for ritual cleansing, so the work is not only moral but liturgical, and its goal is stated in the same verse as offerings 'in righteousness.'\n\nIn verse 5 He is a 'swift witness,' a phrase that sounds like a courtroom and is the language of a covenant lawsuit. The accusation is the deprivation of the weak, and the last clause names the cause: 'but do not fear Me.'",
     "typology": [
-      { "type": "The messenger who prepares the way", "fulfillment": "John the Baptist, the forerunner who prepared the way for Jesus, Mark 1:2-4 and Matthew 11:10." },
-      { "type": "The Lord who suddenly comes to His temple", "fulfillment": "Jesus entering and cleansing the temple, the Lord coming to His own house, John 2:13-17 and Matthew 21:12-13." },
-      { "type": "The refiner's fire purifying the sons of Levi", "fulfillment": "Christ purifying a people for Himself and baptizing with the Holy Spirit and fire, Matthew 3:11-12 and Titus 2:14." }
+      {
+        "type": "The forerunner who prepares the way, Malachi 3:1",
+        "fulfillment": "The envoy sent ahead of a king is fulfilled in John the Baptist, whom Jesus names as the one about whom Malachi wrote, Matthew 11:10, and who came 'in the spirit and power of Elijah,' Luke 1:17. John himself pointed away from himself, saying 'Make straight the way for the Lord,' John 1:23. The correspondence is that John clears the road and Christ walks it. The type falls short only in that John was not himself the Elijah of popular expectation, John 1:21, and his ministry was preparatory, not the arrival itself."
+      },
+      {
+        "type": "The Lord coming suddenly to His temple, Malachi 3:1",
+        "fulfillment": "Jesus comes to the temple courts and drives out the sellers, saying, 'My house will be called a house of prayer for all the nations,' Mark 11:15 to 17, and the disciples remember 'Zeal for Your house will consume Me,' John 2:17. The arrival is both a presence and a purge. The escalation is that the temple is itself a shadow of a greater dwelling, and John 2:19 to 21 applies the word 'temple' to His own body. The type is still open in that the final dwelling of God with His people awaits the new Jerusalem, where 'the Lord God Almighty and the Lamb are its temple,' Revelation 21:22."
+      },
+      {
+        "type": "The refiner's fire and the launderer's soap, Malachi 3:2 to 3",
+        "fulfillment": "The imagery of fire as a purifying agent is carried forward in John's promise that the Coming One will baptize with the Holy Spirit and fire, Luke 3:16 to 17, and in Peter's teaching that trials prove faith as fire proves gold, 1 Peter 1:7. The refining that Malachi promises for Levi's sons becomes a work on all who belong to Christ, who are made 'a holy priesthood,' 1 Peter 2:5. The type is not exhausted by present purification, since Paul says the fire will test every person's work on the last day, 1 Corinthians 3:13."
+      },
+      {
+        "type": "The Messenger of the covenant, Malachi 3:1",
+        "fulfillment": "The one who comes carrying the covenant is Christ, 'the mediator of a new covenant,' Hebrews 9:15 and 12:24. He is both the content and the courier of the covenant, bringing its terms and sealing them with His blood. Where the earlier messengers, priests and prophets, brought God's word to the people, He brings God to them. The type is fulfilled but not outgrown: the title 'messenger' keeps its place as the highest description of His mission, in the same way that the Son speaks the Father's word, John 7:16."
+      }
     ],
-    "christ": "This is among the plainest messianic prophecies in the Old Testament, and the New Testament claims it explicitly. Mark opens his Gospel by quoting I will send My messenger of John the Baptist, the forerunner who prepared the way. Behind John comes the Lord to His temple, Jesus, who is the Messenger of the covenant, the mediator of the new covenant in His blood, Hebrews 9:15. He comes as a refiner's fire, purifying a people to offer righteous worship, and He will draw near for final judgment as the swift witness against all evil. Astonishingly, the refiner also became the refined: at the cross Christ endured the fire of judgment in our place so that we might be purified rather than consumed.",
-    "god": "God is just and will not let evil prosper unanswered; the day of justice the cynics demanded is truly coming. He is holy, a refining fire and a launderer's soap before whom impurity cannot stand, so that no one meets Him unchanged. Yet His refining is merciful, purposed to purify His people rather than destroy them, leaving them able to worship in righteousness. And He is the defender of the widow, the fatherless, the laborer, and the foreigner, a swift witness against those who exploit the weak.",
+    "christ": "The passage is among the most direct announcements of Jesus in the Old Testament, and the way it leads to Him is worth following slowly. The first step is that Malachi announces the coming of the Lord Himself. The people have asked where God is, and the answer is not an idea or a policy but a person who will 'suddenly come to His temple.' That is what the Gospels report. When Jesus enters the temple, He does not arrive as a prophet speaking about God but as the one who has authority over God's house, Mark 11:15 to 17, John 2:16. The messenger who prepares His way is John, and Jesus Himself says so in the words of this passage, Matthew 11:10.\n\nThe second step is the shift in pronouns that the New Testament makes. Malachi has God say, 'I will send My messenger, who will prepare the way before Me.' Matthew 11:10 and Luke 7:27 have, 'who will prepare Your way before You,' with the words spoken to the Messiah. Jesus does not correct Malachi but places Himself where the Lord of Malachi stood. The New Testament never separates the one who comes from God, since 'the Lord' in Mark 1:3 is the Lord of Isaiah 40:3.\n\nThe third step is the character of His coming. The prophet warns that the day will be hard to bear and the Gospels do not hide it. John says He will baptize with the Holy Spirit and fire, with a winnowing fork in His hand, Luke 3:16 to 17. The people who wanted vindication discover that the Lord will first sort His own household. Yet the Gospels also show the refining at work in a surprising way. The fire that Malachi pictured burning off impurity falls first on the One who comes: He is the One who became 'a curse for us,' Galatians 3:13, and bears our sins in His body on the tree, 1 Peter 2:24. He is the refiner, and He enters the furnace in the place of those He refines. The one who asks 'who can stand?' has also borne the answer so that sinners can.\n\nThe fourth step is the title 'Messenger of the covenant.' The Letter to the Hebrews calls Jesus the 'mediator of a new covenant,' Hebrews 9:15, whose sprinkled blood 'speaks a better word,' 12:24. In Him the covenant and the one who brings it are joined. And because He is the mediator, the promise that the offerings of Judah and Jerusalem will 'please the LORD as in days of old' is realized in His people, who now offer 'spiritual sacrifices acceptable to God through Jesus Christ,' 1 Peter 2:5.\n\nA word of care is needed. Not every phrase in Malachi 3 is a coded reference to Jesus; the list of sorcerers, adulterers and oppressors in verse 5 describes real sins in a real community, and those sins matter in themselves. The link to Christ runs through the announcement, the sudden arrival, the refining and the covenant, which the New Testament itself picks up.",
+    "god": "The passage opens with a charge that God is unjust, and the first thing it shows about Him is that He takes the charge seriously. He does not dismiss the question as impertinent. He answers it with an announcement: 'I will draw near to you for judgment.' The God of the Bible is not afraid of being asked about justice, and His answer is that justice is coming in person.\n\nHe is weary, and He says so. 'You have wearied the LORD with your words.' The language of weariness is the language of a God who is involved, who listens and is burdened by what He hears, not an impassive absolute. The same verb appears in Isaiah 43:24, 'you have wearied Me with your iniquities,' where it stands next to the great promise that He blots out transgressions for His own sake. The weariness and the mercy sit close together. Patient love can be worn by long carelessness and still not give up.\n\nHe is the God who sends before He comes. The messenger is an act of grace, because the warning arrives ahead of the thing warned about, as with every prophet. Judgment in Scripture is rarely a surprise to those who have listened. Second Peter 3:9 says the Lord is patient 'not wanting anyone to perish but everyone to come to repentance,' and the forerunner is that patience in human form.\n\nHe is holy in a way that is dangerous to the unprepared. 'Who can endure the day of His coming? And who can stand when He appears?' The questions are asked in the context of a people who think they are on the right side. A holy God is not a threat to the innocent but He does not recognize anyone as innocent by self-description. Verse 3 shows that His holiness has a purpose: it is the energy by which He makes a people fit to bring offerings 'in righteousness.'\n\nHe is also the defender of the weak. The list in verse 5 is a roll call of people with no one to speak for them: the hired worker whose pay is withheld, the widow, the orphan and the foreigner. A God who comes as a 'swift witness' on their behalf is a God for whom injustice is personal. The ground of His judgment is the way the vulnerable are treated.\n\nFor worship, the passage means that we meet God neither as a distant referee nor as an indulgent friend. He is the Lord we long for, and our longing is met with a fire that cleans. The right response is the one that the people could not give in 2:17, to stop accusing and begin asking, 'Who can stand?', and to take shelter in the Messenger He has provided.",
     "crossReferences": [
-      { "ref": "Mark 1:2-4", "note": "Mark applies I will send My messenger to John the Baptist, preparing the way for Jesus, the Lord who comes." },
-      { "ref": "Matthew 11:10-14", "note": "Jesus identifies John as the promised messenger and links him to the Elijah to come of Malachi 4." },
-      { "ref": "Matthew 3:11-12", "note": "John promises that the coming one will baptize with the Holy Spirit and fire, the refiner's fire of this prophecy." },
-      { "ref": "Hebrews 9:15", "note": "Jesus is the mediator of a new covenant, the reality behind the Messenger of the covenant." }
+      {
+        "ref": "Isaiah 40:3",
+        "note": "The voice in the wilderness commanding 'Prepare the way for the LORD.' Malachi 3:1 uses the same road-clearing language, and the Gospels combine the two texts so that John's ministry is announced by both the earlier prophet and the later one. The 'LORD' whose way is prepared is God Himself."
+      },
+      {
+        "ref": "Exodus 23:20",
+        "note": "God says He is sending an angel before Israel to guard them on the way. The word for angel and for messenger is the same, and the Exodus promise gives the 'Messenger of the covenant' of Malachi 3:1 its background: a sent one who goes before the people and bears the name and authority of the One who sends."
+      },
+      {
+        "ref": "Malachi 4:5",
+        "note": "The book's closing promise of Elijah the prophet before the great Day. Read beside 3:1 it fills out the forerunner, and Jesus uses it, saying of John the Baptist, 'he is the Elijah who was to come,' Matthew 11:14, so that the two passages together describe a single ministry."
+      },
+      {
+        "ref": "Matthew 11:10-14",
+        "note": "Jesus quotes Malachi 3:1 about John and names him as Elijah. It is the clearest New Testament statement that the messenger of the passage has come, and it shows Jesus placing Himself in the position of the Lord whose way is prepared."
+      },
+      {
+        "ref": "Mark 11:15-17",
+        "note": "Jesus enters the temple courts and drives out the buyers and sellers, quoting Isaiah on a house of prayer for all nations. It is the sudden coming of the Lord to His temple in action, with purification as its first act, as Malachi had foretold."
+      },
+      {
+        "ref": "Luke 3:16-17",
+        "note": "John promises One who will baptize with the Holy Spirit and with fire, with a winnowing fork to clear the threshing floor. It combines the refiner's fire with the sorting of wheat and chaff and shows that the one coming brings both purification and judgment."
+      },
+      {
+        "ref": "Zechariah 13:9",
+        "note": "God will bring a remnant through the fire, refining them like silver and testing them like gold, until they call on His name and He answers. It is the closest Old Testament counterpart to Malachi 3:3, and ends where Malachi's refining ends, with a people who belong to God and say so."
+      },
+      {
+        "ref": "Joel 2:11",
+        "note": "The Day of the LORD is great and very dreadful, 'Who can endure it?' Malachi 3:2 asks the same question of the day of the Lord's coming, so that the people's longing for the Day is set beside the Day's real weight."
+      },
+      {
+        "ref": "Hebrews 9:15",
+        "note": "Christ is the mediator of a new covenant, having died to redeem transgressions committed under the first. It is the New Testament's way of naming the Messenger of the covenant, and it shows what He brings: a covenant secured by death and offered as an inheritance."
+      },
+      {
+        "ref": "1 Peter 1:7",
+        "note": "The proven character of faith is more precious than gold refined by fire and results in praise at the revelation of Jesus Christ. It carries the refiner's picture of Malachi 3:3 into the life of believers, where trials serve a purpose and end in glory."
+      }
     ],
-    "oneStory": "This prophecy is the hinge between the Testaments. The cynics ask where the God of justice is, and God answers by promising a messenger to prepare the way and then His own sudden coming to His temple. After four centuries of silence John the Baptist steps forward, and behind him comes Jesus, the Messenger of the covenant and refiner of His people, who bore the fire of judgment at the cross and will return to draw near for justice at the last.",
-    "sermon": { "status": "verified", "preacher": "David Legge", "title": "Malachi's Message On Messiah (Malachi's Modern Message Part 5)", "url": "https://www.preachtheword.com/sermon/mmm05.shtml", "why": "The fifth message of Legge's expository series through Malachi, covering 2:17-3:6. It works through the cynical complaint, the promised messenger, the sudden coming of the Lord to His temple, and the refiner's fire, an orthodox exposition that identifies the forerunner as John the Baptist and the Messenger of the covenant as Christ." }
+    "oneStory": "The question at the head of this passage is the question the Bible asks from beginning to end: where is God while evil flourishes? It is already in Abel's blood crying out from the ground, Genesis 4:10, and in the groans of Israel in Egypt, Exodus 2:23 to 25, and in the psalms of the righteous who envy the prosperity of the wicked, Psalm 73. The answer given in Scripture is always the same: God sees, God hears, and God will come. Malachi's contribution is to say how He will come and what that will mean for those who have been asking.\n\nThe passage sits at the very end of the Old Testament, and it is built to hand over to the New. In the Christian Bible the very next page after Malachi is the opening genealogy of Matthew, and the arrangement is a fitting one. Four centuries of silence follow, and the first voice to break it is the forerunner in the wilderness, Mark 1:2 to 4, exactly as promised. Malachi 3:1 is the hinge on which the two testaments turn.\n\nWhat it sets up is a Lord who comes to His house. From the first chapters of Exodus, the story has been about God coming to dwell with His people, in the tabernacle, Exodus 40:34, in the temple, 1 Kings 8:10 to 11, and then in the absence marked by the exile, when the glory leaves, Ezekiel 10. The hope of the prophets was that He would return, Ezekiel 43:1 to 5. Malachi announces that the return is coming and that it will be sudden and searching.\n\nThe New Testament declares that it has come. 'The Word became flesh and dwelt among us,' John 1:14, and the one who dwelt among us purified the temple and then made Himself the temple. He is the refiner who undergoes the fire, the witness who is also the sacrifice, and the mediator of the covenant He announces. The gift of the Spirit at Pentecost carries the refining into the lives of His people, Acts 2, and the church is the temple in which He now lives, 1 Corinthians 3:16.\n\nThe story ends with the question answered. Revelation 6:17 asks, 'who is able to withstand it?' and Revelation 7 answers with a great crowd who have washed their robes in the blood of the Lamb. The cleansing that Malachi pictured with the launderer's soap finds its answer in that blood. At the end the God of justice comes in person, the wicked are judged and the widow, orphan and foreigner are at home, and there is no temple in the city because the Lord God Almighty and the Lamb are its temple, Revelation 21:22.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "David Legge",
+      "title": "Malachi's Message On Messiah (Malachi's Modern Message Part 5)",
+      "url": "https://www.preachtheword.com/sermon/mmm05.shtml",
+      "why": "The fifth message of Legge's expository series through Malachi, covering 2:17-3:6. It works through the cynical complaint, the promised messenger, the sudden coming of the Lord to His temple, and the refiner's fire, an orthodox exposition that identifies the forerunner as John the Baptist and the Messenger of the covenant as Christ."
+    }
   },
   "quiz": [
     {
       "q": "What cynical complaint does this disputation answer?",
       "options": [
-        { "text": "That evildoers prosper and God does nothing, so where is the God of justice.", "weight": 100, "note": "Verse 17 records the weary charge that God delights in the wicked or is absent." },
-        { "text": "That the temple was too small.", "weight": 75, "note": "The complaint is about God's justice, not the building's size." },
-        { "text": "That the harvests had failed again.", "weight": 25, "note": "Harvests are addressed elsewhere; here the issue is doubting God's justice." },
-        { "text": "That the priests were too strict.", "weight": 0, "note": "The complaint is that God ignores evil, not that the priests were harsh." }
+        {
+          "text": "That evildoers prosper and God does nothing, so where is the God of justice.",
+          "weight": 100,
+          "note": "Verse 17 records the weary charge that God delights in the wicked or is absent."
+        },
+        {
+          "text": "That the temple was too small.",
+          "weight": 75,
+          "note": "The complaint is about God's justice, not the building's size."
+        },
+        {
+          "text": "That the harvests had failed again.",
+          "weight": 25,
+          "note": "Harvests are addressed elsewhere; here the issue is doubting God's justice."
+        },
+        {
+          "text": "That the priests were too strict.",
+          "weight": 0,
+          "note": "The complaint is that God ignores evil, not that the priests were harsh."
+        }
       ]
     },
     {
       "q": "Who is the messenger who prepares the way?",
       "options": [
-        { "text": "John the Baptist, as the New Testament directly applies this verse.", "weight": 100, "note": "Mark 1:2 and Matthew 11:10 identify the forerunner as John." },
-        { "text": "Malachi himself, prophesying in his own day.", "weight": 75, "note": "Malachi's name means my messenger, but the forerunner foretold is John." },
-        { "text": "The Persian governor.", "weight": 25, "note": "The messenger prepares the way for the Lord, not a civil ruler." },
-        { "text": "Elijah returned in person from heaven.", "weight": 0, "note": "The forerunner comes in the spirit of Elijah, fulfilled in John, not Elijah himself." }
+        {
+          "text": "John the Baptist, as the New Testament directly applies this verse.",
+          "weight": 100,
+          "note": "Mark 1:2 and Matthew 11:10 identify the forerunner as John."
+        },
+        {
+          "text": "Malachi himself, prophesying in his own day.",
+          "weight": 75,
+          "note": "Malachi's name means my messenger, but the forerunner foretold is John."
+        },
+        {
+          "text": "The Persian governor.",
+          "weight": 25,
+          "note": "The messenger prepares the way for the Lord, not a civil ruler."
+        },
+        {
+          "text": "Elijah returned in person from heaven.",
+          "weight": 0,
+          "note": "The forerunner comes in the spirit of Elijah, fulfilled in John, not Elijah himself."
+        }
       ]
     },
     {
       "q": "What is the character of the Lord's coming to His temple?",
       "options": [
-        { "text": "Like a refiner's fire and launderer's soap, purifying His people and judging evil.", "weight": 100, "note": "Verses 2-3 describe the coming as refining and cleansing, not merely comforting." },
-        { "text": "A quiet visit that changes nothing.", "weight": 75, "note": "His coming is powerful and purifying, so that who can endure it is the real question." },
-        { "text": "A coming only to bless, with no refining.", "weight": 25, "note": "The refining fire and swift witness show judgment as well as blessing." },
-        { "text": "A coming only to destroy, with no purifying.", "weight": 0, "note": "He refines and purifies His people, not only judging the wicked." }
+        {
+          "text": "Like a refiner's fire and launderer's soap, purifying His people and judging evil.",
+          "weight": 100,
+          "note": "Verses 2-3 describe the coming as refining and cleansing, not merely comforting."
+        },
+        {
+          "text": "A quiet visit that changes nothing.",
+          "weight": 75,
+          "note": "His coming is powerful and purifying, so that who can endure it is the real question."
+        },
+        {
+          "text": "A coming only to bless, with no refining.",
+          "weight": 25,
+          "note": "The refining fire and swift witness show judgment as well as blessing."
+        },
+        {
+          "text": "A coming only to destroy, with no purifying.",
+          "weight": 0,
+          "note": "He refines and purifies His people, not only judging the wicked."
+        }
       ]
     },
     {
       "q": "Whom does God name as a swift witness against, in verse 5?",
       "options": [
-        { "text": "Sorcerers, adulterers, perjurers, and oppressors of the vulnerable.", "weight": 100, "note": "Verse 5 lists these sins, including defrauding laborers and denying justice to the foreigner." },
-        { "text": "Only those who failed to rebuild the temple.", "weight": 75, "note": "The temple is built; the witness targets moral and social sins." },
-        { "text": "Foreigners in general.", "weight": 25, "note": "God defends the foreigner and judges those who deny him justice." },
-        { "text": "No one in particular.", "weight": 0, "note": "God names specific sins He will testify against swiftly." }
+        {
+          "text": "Sorcerers, adulterers, perjurers, and oppressors of the vulnerable.",
+          "weight": 100,
+          "note": "Verse 5 lists these sins, including defrauding laborers and denying justice to the foreigner."
+        },
+        {
+          "text": "Only those who failed to rebuild the temple.",
+          "weight": 75,
+          "note": "The temple is built; the witness targets moral and social sins."
+        },
+        {
+          "text": "Foreigners in general.",
+          "weight": 25,
+          "note": "God defends the foreigner and judges those who deny him justice."
+        },
+        {
+          "text": "No one in particular.",
+          "weight": 0,
+          "note": "God names specific sins He will testify against swiftly."
+        }
       ]
     },
     {
       "q": "Who is the Messenger of the covenant?",
       "options": [
-        { "text": "Jesus, the Lord who comes to His temple and mediates the new covenant.", "weight": 100, "note": "The New Testament identifies the coming Lord as Christ, Hebrews 9:15." },
-        { "text": "An angel with no connection to Christ.", "weight": 75, "note": "The term can mean messenger, but here it is the Lord Himself, fulfilled in Christ." },
-        { "text": "The high priest Joshua of the return.", "weight": 25, "note": "The figure is the coming Lord, not a contemporary priest." },
-        { "text": "The prophet Malachi.", "weight": 0, "note": "Malachi announces the coming one; he is not the Messenger of the covenant." }
+        {
+          "text": "Jesus, the Lord who comes to His temple and mediates the new covenant.",
+          "weight": 100,
+          "note": "The New Testament identifies the coming Lord as Christ, Hebrews 9:15."
+        },
+        {
+          "text": "An angel with no connection to Christ.",
+          "weight": 75,
+          "note": "The term can mean messenger, but here it is the Lord Himself, fulfilled in Christ."
+        },
+        {
+          "text": "The high priest Joshua of the return.",
+          "weight": 25,
+          "note": "The figure is the coming Lord, not a contemporary priest."
+        },
+        {
+          "text": "The prophet Malachi.",
+          "weight": 0,
+          "note": "Malachi announces the coming one; he is not the Messenger of the covenant."
+        }
       ]
     }
   ],
@@ -143,9 +356,21 @@
     "Christ the refiner became the refined, bearing judgment in your place. How does that change the way you face God's purifying work in your life?"
   ],
   "translationNotes": [
-    { "ref": "Malachi 3:1", "note": "A BSB footnote notes the verse is cited in Matthew 11:10, Mark 1:2, and Luke 7:27, all of John the Baptist." },
-    { "ref": "Malachi 2:17", "note": "The chapter division falls between traditions, but the complaint of 2:17 belongs with the answer of 3:1-5 as a single disputation about God's justice." },
-    { "ref": "Malachi 3:2", "note": "Refiner's fire and launderer's soap are two images of purifying power; both stress that the Lord's coming cleanses and tests rather than merely comforts." }
+    {
+      "ref": "Malachi 3:1",
+      "note": "A BSB footnote notes the verse is cited in Matthew 11:10, Mark 1:2, and Luke 7:27, all of John the Baptist."
+    },
+    {
+      "ref": "Malachi 2:17",
+      "note": "The chapter division falls between traditions, but the complaint of 2:17 belongs with the answer of 3:1-5 as a single disputation about God's justice."
+    },
+    {
+      "ref": "Malachi 3:2",
+      "note": "Refiner's fire and launderer's soap are two images of purifying power; both stress that the Lord's coming cleanses and tests rather than merely comforts."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Malachi 2:17-3:5. All 6 verses reproduced in order (2:17 with 3:1-5). The BSB footnote at 3:1 (cited in Matthew 11:10, Mark 1:2, Luke 7:27) is reflected in the study and translation notes." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Malachi 2:17-3:5. All 6 verses reproduced in order (2:17 with 3:1-5). The BSB footnote at 3:1 (cited in Matthew 11:10, Mark 1:2, Luke 7:27) is reflected in the study and translation notes."
+  }
 }

@@ -18,7 +18,11 @@
         "note": "judgment on the arrogant",
         "emphasis": "",
         "verses": [
-          { "chapter": 4, "n": 1, "text": "“For behold, the day is coming, burning like a {{tannur|furnace}}, when all the arrogant and every evildoer will be stubble; the day is coming when I will set them ablaze,” says the LORD of Hosts. “Not a root or branch will be left to them.”" }
+          {
+            "chapter": 4,
+            "n": 1,
+            "text": "“For behold, the day is coming, burning like a {{tannur|furnace}}, when all the arrogant and every evildoer will be stubble; the day is coming when I will set them ablaze,” says the LORD of Hosts. “Not a root or branch will be left to them.”"
+          }
         ]
       },
       {
@@ -26,8 +30,16 @@
         "note": "healing for those who fear His name",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 4, "n": 2, "text": "“But for you who fear My name, the sun of {{tsedaqah|righteousness}} will rise with {{marpe|healing}} in its wings, and you will go out and leap like calves from the stall." },
-          { "chapter": 4, "n": 3, "text": "Then you will trample the wicked, for they will be ashes under the soles of your feet on the day I am preparing,” says the LORD of Hosts." }
+          {
+            "chapter": 4,
+            "n": 2,
+            "text": "“But for you who fear My name, the sun of {{tsedaqah|righteousness}} will rise with {{marpe|healing}} in its wings, and you will go out and leap like calves from the stall."
+          },
+          {
+            "chapter": 4,
+            "n": 3,
+            "text": "Then you will trample the wicked, for they will be ashes under the soles of your feet on the day I am preparing,” says the LORD of Hosts."
+          }
         ]
       },
       {
@@ -35,19 +47,56 @@
         "note": "the last words before the silence",
         "emphasis": "",
         "verses": [
-          { "chapter": 4, "n": 4, "text": "“Remember the law of My servant Moses, the statutes and ordinances I commanded him for all Israel at Horeb." },
-          { "chapter": 4, "n": 5, "text": "Behold, I will send you Elijah the prophet before the coming of the great and awesome Day of the LORD." },
-          { "chapter": 4, "n": 6, "text": "And he will {{shuv|turn}} the hearts of the fathers to their children, and the hearts of the children to their fathers. Otherwise, I will come and strike the land with a {{cherem|curse}}.”" }
+          {
+            "chapter": 4,
+            "n": 4,
+            "text": "“Remember the law of My servant Moses, the statutes and ordinances I commanded him for all Israel at Horeb."
+          },
+          {
+            "chapter": 4,
+            "n": 5,
+            "text": "Behold, I will send you Elijah the prophet before the coming of the great and awesome Day of the LORD."
+          },
+          {
+            "chapter": 4,
+            "n": 6,
+            "text": "And he will {{shuv|turn}} the hearts of the fathers to their children, and the hearts of the children to their fathers. Otherwise, I will come and strike the land with a {{cherem|curse}}.”"
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "tannur": { "language": "Hebrew", "lemma": "tannur", "original": "תנור", "gloss": "An oven or furnace. The Day of the LORD is pictured burning like a tannur, a fierce clay oven; the arrogant become stubble consumed within it, a vivid image of swift and decisive judgment on the proud." },
-    "tsedaqah": { "language": "Hebrew", "lemma": "tsedaqah", "original": "צדקה", "gloss": "Righteousness, justice, right standing. The light that rises over those who fear God is the sun of tsedaqah, a righteousness that both judges evil and restores the faithful. Read as a title, it points to the Messiah in whom God's righteousness dawns." },
-    "marpe": { "language": "Hebrew", "lemma": "marpe", "original": "מרפא", "gloss": "Healing, a cure, restoration, health. The sun of righteousness rises with marpe, healing, in its wings. The same dawning light that consumes the proud brings wholeness and life to those who fear God's name." },
-    "shuv": { "language": "Hebrew", "lemma": "shuv", "original": "שוב", "gloss": "To turn, return, restore. Here in the causative sense, to turn back: the promised Elijah will turn the hearts of fathers and children to one another, a work of repentance and restoration prepared before the great Day of the LORD." },
-    "cherem": { "language": "Hebrew", "lemma": "cherem", "original": "חרם", "gloss": "A ban, something devoted to destruction, a curse. If hearts are not turned, God warns that He will strike the land with cherem, total devotion to judgment. This final Old Testament word is answered when Christ becomes a curse for us." }
+    "tannur": {
+      "language": "Hebrew",
+      "lemma": "tannur",
+      "original": "תנור",
+      "gloss": "An oven or furnace. The Day of the LORD is pictured burning like a tannur, a fierce clay oven; the arrogant become stubble consumed within it, a vivid image of swift and decisive judgment on the proud."
+    },
+    "tsedaqah": {
+      "language": "Hebrew",
+      "lemma": "tsedaqah",
+      "original": "צדקה",
+      "gloss": "Righteousness, justice, right standing. The light that rises over those who fear God is the sun of tsedaqah, a righteousness that both judges evil and restores the faithful. Read as a title, it points to the Messiah in whom God's righteousness dawns."
+    },
+    "marpe": {
+      "language": "Hebrew",
+      "lemma": "marpe",
+      "original": "מרפא",
+      "gloss": "Healing, a cure, restoration, health. The sun of righteousness rises with marpe, healing, in its wings. The same dawning light that consumes the proud brings wholeness and life to those who fear God's name."
+    },
+    "shuv": {
+      "language": "Hebrew",
+      "lemma": "shuv",
+      "original": "שוב",
+      "gloss": "To turn, return, restore. Here in the causative sense, to turn back: the promised Elijah will turn the hearts of fathers and children to one another, a work of repentance and restoration prepared before the great Day of the LORD."
+    },
+    "cherem": {
+      "language": "Hebrew",
+      "lemma": "cherem",
+      "original": "חרם",
+      "gloss": "A ban, something devoted to destruction, a curse. If hearts are not turned, God warns that He will strike the land with cherem, total devotion to judgment. This final Old Testament word is answered when Christ becomes a curse for us."
+    }
   },
   "study": {
     "basic": {
@@ -61,84 +110,248 @@
       "oneStory": "The Old Testament ends the way the whole story is going: a Day of reckoning, a sunrise of healing for those who fear God, and a promised messenger. After four hundred silent years that messenger comes as John the Baptist, and the sun of righteousness rises in Jesus Christ, so the last page of the Old Testament and the first of the New reach for the same Saviour."
     },
     "context": {
-      "literary": "The final movement of Malachi and the close of the Book of the Twelve and of the Old Testament. It answers the earlier complaint about God's justice with the certainty of the Day of the LORD, sets fire for the arrogant against healing for the God-fearing, and ends with a double command that points beyond the silence to come.",
-      "historical": "Malachi speaks to a people who doubted that God would ever act. His closing vision assures them that the Day of the LORD is certain. These final words became the last God spoke through a prophet for some four hundred years, until John the Baptist broke the silence as the promised Elijah, preparing the way for Jesus.",
-      "canonical": "The Day of the LORD theme runs through the prophets, from Joel and Amos to Zephaniah, and is taken up in the New Testament for the coming of Christ. The sending of Elijah is fulfilled in John the Baptist, Luke 1:17, Matthew 11:14, and 17:10-13, and the sun of righteousness is echoed in the dawn from on high in Luke 1:78."
+      "literary": "The paragraph is a small diptych with a coda. Verses 1 to 3 set two destinies side by side: stubble in a furnace, and calves let out into the sun. Verse 1 is introduced with 'For behold' and verse 2 with 'But for you,' so that the reader feels the sudden pivot from third person to second. The wicked are spoken about, the faithful are spoken to. Then verses 4 to 6 step back from the vision and give two commands to the present: remember, and watch.\n\nThe unit is tied to its neighbours by repeated words. The 'arrogant' and 'evildoer' of verse 1 are the very people the grumblers called blessed in Malachi 3:15, so the furnace is a direct answer. 'Those who fear My name' in verse 2 are the remnant of 3:16. The 'day I am preparing' in verse 3 echoes 'the day when I prepare My treasured possession' in 3:17. And 'Elijah the prophet' in verse 5 answers the 'messenger' of Malachi 3:1, so that the book's closing promise and its opening movement are made to meet.\n\nWithin the unit there is a pattern of fire and light. Verse 1 is all burning, verse 2 is all sunrise, verse 3 returns to ashes. The healing of verse 2 is therefore sandwiched between two scenes of burning, as if the same Day does both jobs at once: the same blaze that consumes chaff is the dawn that warms the faithful.\n\nThe last verse closes with the word 'curse,' a stern ending, and the Jewish reading tradition has long repeated verse 5 after the last line so that public reading would not close on that word. Whatever one makes of the custom, it shows that the first readers felt the weight of the final sentence. Malachi ends the Christian Old Testament, but in the Hebrew order the Writings come after the Prophets and the Bible closes with Chronicles. Either way, the last prophetic voice is a call to remember and to wait.",
+      "historical": "Malachi probably spoke around the middle of the fifth century before Christ, some decades after the second temple was finished in 516 before Christ, Ezra 6:14-15. The prophets of the restoration, Haggai and Zechariah, had promised that the Lord would shake the nations and fill the house with glory, and those promises seemed to have drifted away. Judah was a small province under Persia, and the expected reversal had not come.\n\nIn that setting the Day of the LORD was a loaded phrase. The people had long taken it as a day of their own vindication, which is why Amos had to warn, 'Woe to you who long for the Day of the LORD! ... It will be darkness and not light,' Amos 5:18. Zephaniah called it 'a day of wrath, a day of trouble and distress,' Zephaniah 1:15. Joel linked it with 'the great and awesome Day of the LORD,' Joel 2:31, the words Malachi uses of Elijah's coming. Malachi inherits the whole tradition and sharpens it: it will be a day of fire for the arrogant, and still a sunrise for the humble.\n\nThe images would have been vivid to people who lived by farm and furnace. Stubble was the useless stalk left after harvest and was burned. A baking or smelting oven was part of the village landscape. A winged sun disc was a familiar emblem across the ancient Near East, in Egypt and in the Persian empire that ruled Judah. Malachi uses that familiar picture and says that the true sun is the sun of righteousness. The calf released from the stall is the picture of a young animal let out after a winter inside.\n\nThe command to remember Moses speaks to a community whose life depended on the law. Ezra and Nehemiah had taught that law publicly, and Malachi's book is full of its breached provisions: tithes, offerings, marriage and justice. The mention of Horeb, the name Deuteronomy prefers for Sinai, ties the instruction to the original covenant. The mention of Elijah anchors the promise in the memory of the prophet who stood against Baal and who had met God at Horeb, 1 Kings 19:8. After this book, the prophetic voice falls silent for about four centuries until John comes.",
+      "canonical": "The Day of the LORD is one of the major threads of the prophets, and Malachi's version collects it. Isaiah 66:15-16 pictures the LORD coming with fire. Joel 2 and Zephaniah 1 describe a day of darkness and gloom. Amos 5:18 says it will be darkness and not light for those who presume on it. What Malachi adds is the explicit setting of fire and sunrise side by side. Peter takes up the picture of judgment by fire in 2 Peter 3:10, and the writer to the Hebrews says 'our God is a consuming fire,' Hebrews 12:29.\n\nThe sun of righteousness is taken up in Zechariah's song at the birth of his son John: 'the Dawn will visit us from on high, to shine on those who live in darkness and in the shadow of death,' Luke 1:78-79. Jesus says 'I am the light of the world,' John 8:12, and Revelation closes with Jesus as 'the bright Morning Star,' Revelation 22:16. The healing is picked up in the Gospels, where Jesus heals crowds, and in 1 Peter 2:24, 'By His stripes you are healed.'\n\nThe two closing commands reach back and forward. Remembering Moses draws on the long Deuteronomic habit of remembering the covenant, Deuteronomy 4:10, and on the charge to Joshua to keep all the law that 'My servant Moses commanded you,' Joshua 1:7. Jesus himself declares that He came not to abolish the Law or the Prophets but to fulfill them, Matthew 5:17.\n\nThe Elijah promise is cited by all the Gospels. Luke 1:17 draws on Malachi's wording for John's mission. Matthew 11:10 and Luke 7:27 quote Malachi 3:1 of John, and Matthew 11:14 and 17:12-13 name him as the Elijah who was to come. At the Transfiguration, Moses and Elijah appear with Jesus, Matthew 17:3, and the disciples' question about Elijah follows at once. The two commands of Malachi 4:4-5, the law and the prophet, are literally standing on the mountain with the Son."
     },
     "hermeneutics": {
-      "authorIntent": "To assure a doubting people that the Day of the LORD is coming, bringing judgment on the arrogant and healing to those who fear God, and to send them into the coming silence with two anchors: remember the law of Moses, and watch for the Elijah who will prepare the way before the great Day.",
-      "descriptionVsPrescription": "The vision of the Day describes what God will certainly do; the two closing commands, remember the law and await Elijah, are given as abiding instruction. The enduring truths are the certainty of judgment and salvation, the call to heed God's word, and the fulfillment of the Elijah promise in John the Baptist.",
+      "authorIntent": "Malachi wanted a people who doubted God's justice to see how the story ends. The first move is to take the Day of the LORD, which they had been taking either as a distant threat or as a cause of cynicism, and show that it is both fearful and good, depending on where a person stands. The arrogant, whom the people have been envying, will be stubble. The humble, whom the people have been pitying, will go out leaping. The prophet wants the hearers to choose their side now.\n\nHe also meant to send them away with practice, not only prediction. The two commands, remember the law and wait for Elijah, are what a faithful community does in between. Remembering is active: it means keeping the statutes and ordinances that God gave for 'all Israel,' not only for the priests. Waiting is not idleness; it is living in the expectation of a messenger who will turn the generations toward each other.\n\nThe final threat of a curse is not an afterthought. It tells the first hearers that the stakes of the family-level reconciliation are as large as the stakes of the Day. In a community of broken marriages and neglected worship, fathers and children needed to be turned toward each other and toward God, or the land would face the ban. The prophet's whole book is thus gathered into one last appeal: return before the Day arrives, and live as people who expect it.",
+      "descriptionVsPrescription": "The vision of the furnace and the sunrise describes what God will do. It is not an instruction for the faithful to bring the fire themselves. The language of trampling the wicked in verse 3 is a picture of the final vindication, not a mandate for violence. In the New Testament believers are told to leave vengeance to God, and the whole passage is spoken as a promise to people who are waiting, not as orders to people who are to act.\n\nThe two commands in verses 4 and 5 are different. 'Remember the law of My servant Moses' is a direct instruction to the community, and it carries forward in a particular way: Christians do not keep the ceremonial and civil statutes of Moses as Israel did, but they honor the law as God's word, as Jesus did, Matthew 5:17-18, and read it through Him. 'I will send you Elijah' is a promise rather than a command, and it has been fulfilled in John, so no Christian is told to wait for a further Elijah as a condition of anything. What continues is the shape: remember what God has already said, and live toward the reconciliation that His messenger announced, the turning of hearts across the generations, with eyes on the coming Day.",
       "debates": [
         {
           "question": "Who is the Elijah God promises to send?",
           "views": [
-            { "label": "A literal return of Elijah", "case": "Some expect the historical prophet Elijah himself to reappear before the final Day, sometimes linked to the two witnesses of Revelation 11." },
-            { "label": "John the Baptist in the spirit and power of Elijah", "case": "Jesus plainly says John is the Elijah who was to come, Matthew 11:14 and 17:12-13, and Luke 1:17 describes John coming in Elijah's spirit and power; this is the primary fulfillment." }
+            {
+              "label": "A literal return of Elijah",
+              "case": "Some expect the historical prophet Elijah himself to reappear before the final Day, sometimes linked to the two witnesses of Revelation 11. They note that Elijah never died, 2 Kings 2:11, and that John the Baptist himself said 'I am not' when asked whether he was Elijah, John 1:21."
+            },
+            {
+              "label": "John the Baptist in the spirit and power of Elijah",
+              "case": "Jesus plainly says John is the Elijah who was to come, Matthew 11:14 and 17:12-13, and Luke 1:17 describes John coming 'in the spirit and power of Elijah.' Read this way, John's denial in John 1:21 means that he was not Elijah himself returned, while Jesus' affirmation means that he fulfilled the role."
+            }
           ],
-          "bearing": "The New Testament settles the main sense: John the Baptist fulfilled the promise as the herald of Christ, whatever further horizon some see before the last Day." }
+          "bearing": "The New Testament settles the main sense: John the Baptist fulfilled the promise as the herald of Christ, whatever further horizon some see before the last Day. The two statements about John are reconciled by the distinction between the person and the office."
+        },
+        {
+          "question": "Who or what is the 'sun of righteousness'?",
+          "views": [
+            {
+              "label": "The Messiah, a person",
+              "case": "The sun rises 'with healing in its wings' for those who fear God's name, and the early church read it of Christ. Luke 1:78 speaks of the Dawn visiting us from on high, and Jesus is called the Morning Star, Revelation 22:16. A sun that heals and is addressed in connection with a coming figure reads naturally as a person."
+            },
+            {
+              "label": "God's own righteous rule or saving justice, personified",
+              "case": "Within the book, the figure may be the visible shining of God's righteousness at the Day, without a separate messianic figure in view. Righteousness here would be the quality of the dawn, which the faithful experience as vindication and healing; the passage does not name a person, and Malachi 3:1 speaks of the LORD Himself coming."
+            }
+          ],
+          "bearing": "Even on the second reading the dawn that Malachi describes is God's own arrival, and the New Testament shows that this arrival happened in Christ. The two readings differ in precision about the figure, not about the God who comes."
+        }
       ]
     },
-    "originalLanguages": "The Day comes burning like a tannur, a furnace, and the arrogant become stubble, root and branch. But for those who fear God's name the sun of tsedaqah, righteousness, rises with marpe, healing, in its wings, and the freed people leap like calves. God then calls them to remember the law given at Horeb, and promises to send Elijah to shuv, to turn back, the hearts of fathers and children to one another, lest He come and strike the land with a cherem, a curse of utter devotion to destruction. The Old Testament closes on that word, curse, and waits four centuries for the One who would become a curse for us.",
+    "originalLanguages": "Several features of the Hebrew make the paragraph more exact than English can. The first is how the Day is introduced. Verse 1 says literally 'the day is coming, burning like a furnace,' and the participle of coming appears twice in verse 1. The Hebrew word for furnace, tannur, is the baking oven, and the same word is used of the smoking firepot that passed between the pieces in Abraham's covenant vision, Genesis 15:17. The wicked are 'stubble,' the dry stalk that has no use after harvest, and the image that Isaiah and Nahum also use of those the LORD burns up. The fire leaves 'neither root nor branch,' which is a farm image of total removal.\n\nThe second is the sun. The Hebrew word for righteousness, tsedaqah, can mean righteous character, vindication or salvation, and the sun's rising 'with healing in its wings' brings all three together. The word for healing, marpe, is the noun for health and cure. Jeremiah used it for the hope of a time of healing that had not come, Jeremiah 8:15, and Malachi now says it will arrive. The word kanaph, usually translated 'wings,' also names the edge or corner of a garment, as in the tassels on the corners of garments in Numbers 15:38. Readers differ on whether the image is the rays of the sun or the winged sun disc, and the translation 'wings' keeps both open.\n\nThe third is the picture of going out and leaping. The nearer image is a calf let out of its stall into the sun after a winter shut in, and the verse speaks of the faithful going out, which readers have heard as an echo of Israel going out of Egypt, though the text does not say so. The point is release into open ground after confinement.\n\nThe fourth is the command to remember. The imperative is the word zakar, the same root as the 'remembrance' in the scroll of Malachi 3:16. God remembers the faithful, and the faithful are told to remember the law. The word 'servant' in 'My servant Moses' is the title that Joshua 1:7 and Deuteronomy 34:5 give Moses, and 'Horeb' is Deuteronomy's name for Sinai.\n\nThe fifth is the verb in verse 6, shuv, to turn or return. It is the dominant verb of Malachi 3:7, and here it is in the causative: Elijah will cause hearts to turn. Luke 1:17 uses the Greek verb for turning, the same one used for conversion elsewhere in the New Testament. The word for the great and awesome Day uses a form of the verb for fear, so the BSB footnote rightly says 'Or dreadful,' and the Septuagint reads 'glorious' instead.\n\nThe last is the word cherem, rendered 'curse,' the ban. It names what is devoted to God for destruction, as Jericho was, Joshua 6:17, and the people in the land were meant to be, Deuteronomy 7:26. The threat is that, if the hearts are not turned, the land itself will be put under the ban which Israel was commissioned to carry out against others.",
     "typology": [
-      { "type": "The day burning like a furnace", "fulfillment": "The Day of the LORD and final judgment, brought near in Christ, 2 Thessalonians 1:7-9 and 2 Peter 3:7." },
-      { "type": "The sun of righteousness rising with healing", "fulfillment": "Christ, the light of the world and dawn from on high, who heals those who fear God, Luke 1:78 and John 8:12." },
-      { "type": "Elijah sent before the great Day", "fulfillment": "John the Baptist, who came in the spirit and power of Elijah to prepare the way, Luke 1:17 and Matthew 11:14." }
+      {
+        "type": "The Day burning like a furnace",
+        "fulfillment": "The fire of the Day of the LORD is pictured as an oven, and the New Testament uses the same fire for the judgment brought by Christ. John the Baptist says that He will 'burn up the chaff with unquenchable fire,' Matthew 3:12, and Peter writes that the heavens and earth are stored up for fire on the day of judgment, 2 Peter 3:7 and 3:10. The correspondence is the pairing of fire for chaff and a barn for wheat. The escalation is that the one holding the winnowing fork is the Messiah Himself. The type falls short where it speaks only of an event; the New Testament teaches that the coming has two stages, a first coming in mercy and a second in judgment."
+      },
+      {
+        "type": "The sun of righteousness rising with healing",
+        "fulfillment": "Malachi's sunrise is fulfilled when 'the Dawn will visit us from on high,' Luke 1:78. Jesus says 'I am the light of the world,' John 8:12, and Paul says God made His light shine in our hearts 'in the face of Jesus Christ,' 2 Corinthians 4:6. The healings of the Gospels are the early rays of the healing, and the cross is where the deepest healing happens, 1 Peter 2:24. The escalation is from a sun that rises and sets to a light that will never be put out, for the new Jerusalem 'has no need of sun or moon,' Revelation 21:23. The image of a sun falls short because it cannot say that the light is a person who died."
+      },
+      {
+        "type": "Elijah sent before the great Day",
+        "fulfillment": "Elijah as a prophet who turned Israel back to the LORD on Carmel, 1 Kings 18:37, is the pattern for John. John wears Elijah's clothing, a garment of camel's hair with a leather belt, Matthew 3:4, compare 2 Kings 1:8, and he calls Israel to repent and prepare the way, Luke 3:3-6. Jesus says plainly that John is the Elijah who was to come, Matthew 11:14. The escalation is that John is a forerunner of the Lord Himself, not a restorer of one nation's worship. The type falls short because Elijah turned the people from Baal, whereas John turns them to a person whose sandals he is not worthy to carry, Matthew 3:11."
+      },
+      {
+        "type": "Remember Moses, with Elijah and the Son",
+        "fulfillment": "The two figures named in Malachi 4:4-5, Moses and Elijah, are the law and the prophets in person, and they appear with Jesus on the mountain of the Transfiguration, Matthew 17:3. The Father's voice then directs the disciples to the Son, 'Listen to Him,' Matthew 17:5. The escalation is that the law and the prophets do not compete with Christ but point to Him, and Jesus says that He came to fulfill them, Matthew 5:17. The type falls short on its own because the law and the prophets could tell the people what to remember and whom to expect, but only the Son could accomplish what they announced."
+      }
     ],
-    "christ": "The sun of righteousness who rises with healing in His wings is Jesus Christ, the dawn from on high who has visited us to give light to those in darkness. To the arrogant His coming is a consuming fire, but to those who fear God's name it is healing and freedom, like calves let loose from the stall. The Elijah God promised came in John the Baptist, who turned hearts and pointed to the Lamb of God. So the Old Testament ends gazing at Christ: after four hundred silent years the herald appears, and the Sun rises. The final word, curse, is answered at the cross, where Christ became a curse for us so that the blessing might come.",
-    "god": "God is just, coming against arrogant evil like a furnace that leaves neither root nor branch. He is the healer and Saviour of all who fear His name, rising over them like the sun with healing in its wings. He is patient and gracious, sending a messenger to turn hardened hearts before the great and awesome Day. And He is utterly faithful to His word, closing the Old Testament with a promise that the Gospels open by fulfilling.",
+    "christ": "The paragraph leads to Christ most directly through the sun of righteousness. The prophet promises a dawn that brings healing for those who fear God's name. In Luke 1:78-79 Zechariah says that 'the Dawn will visit us from on high, to shine on those who live in darkness and in the shadow of death, to guide our feet into the path of peace.' The Greek word he uses means a rising, as of the sun or a star, and the Septuagint also uses it for the Branch of David's line, so the birth of the Messiah is in view. Jesus says 'I am the light of the world,' John 8:12, and the last chapter of the Bible calls Him 'the bright Morning Star,' Revelation 22:16. The healing that the sun brings is the forgiveness and restoration He gives, 'By His stripes we are healed,' Isaiah 53:5, quoted in 1 Peter 2:24.\n\nIt leads to Christ also through the herald. The New Testament does not leave the Elijah promise vague. Gabriel tells Zechariah that John 'will go on before the Lord in the spirit and power of Elijah, to turn the hearts of the fathers to their children,' Luke 1:17, and Jesus says 'he is the Elijah who was to come,' Matthew 11:14. A herald implies a king. By identifying John as Elijah, Jesus is claiming that the Day of the LORD that Malachi describes has begun with His own coming, and that He is the Lord who was to come to His temple, Malachi 3:1.\n\nIt leads to Christ by the double outcome of the Day. Malachi sets fire and healing in one coming, and the Gospels show that the coming of Jesus does both. John the Baptist says that He will baptize with the Holy Spirit and with fire and will burn the chaff, Matthew 3:11-12. At the first coming the healing is offered; at the second the fire follows. The mercy and the judgment are not two gods but one Christ. The offer is real because the Day is real.\n\nIt leads to Christ in the two commands. Moses and Elijah, the law and the prophets, appear with Jesus on the mountain, Matthew 17:3, and the voice from heaven says 'Listen to Him.' Remembering Moses leads to the one of whom Moses wrote, and watching for Elijah leads to the one Elijah's successor announced. Jesus said that not a stroke will disappear from the Law until everything is accomplished, Matthew 5:18, and on the cross He said 'It is finished,' John 19:30.\n\nA caution is needed. The passage itself does not say 'Messiah,' and the sun of righteousness may be read more generally, as the debate above shows. The Christian reading rests on the way the New Testament uses the passage and on the fact that the Gospels open exactly where Malachi stops. The last words of the Old Testament are not a closed door; they are the sentence that Matthew's first chapter finishes.",
+    "god": "The paragraph shows God as a judge whose anger is neither petty nor arbitrary. The arrogant and the evildoer are named, and the fire is aimed at them, which answers the people's earlier charge that God did not care about justice. He is the God who sees evil and has set a day for it. The language of 'the day I am preparing' shows that judgment is not an outburst but an appointed act. He is not caught by surprise by evil, and He does not delay out of weakness.\n\nIt shows God as healer. The same Day that burns the proud rises as a sun over the humble. The Lord says of Himself in Exodus 15:26, 'I am the LORD who heals you,' and in Malachi the healing is promised without conditions beyond fearing His name. The two aspects are not in tension, for the same holiness that consumes sin is the light in which the faithful live. Hebrews 12:29 says 'our God is a consuming fire,' and Psalm 84:11 says 'the LORD God is a sun and a shield.' The prophet joins both in one image.\n\nIt shows God as faithful across generations. He promises Elijah before the Day, so that there will be a messenger and not a surprise. The prophecy would be fulfilled more than four centuries after it was spoken, which is a measure of the patience of a God who is not hurried by human calendars. The sending of a herald is itself an act of mercy: the God who has every right to arrive and judge sends someone first to turn hearts, and the threat of the curse is the reason for the herald, not the opposite.\n\nIt shows a God who cares for families. The sending of Elijah is to turn the hearts of fathers and children toward each other. The restoration He is after is not only individual; it includes the health of homes. The Lord who will come to a land where marriages have been broken and children neglected will not accept a religion that leaves the household untouched.\n\nFor worship, this means that the proper response to the Day is neither dread alone nor casual confidence. Those who fear His name are the ones who see the sun. The fear is the reverence that keeps a person on the right side of the burning and the healing, and the command to remember the law keeps that reverence rooted in what God has actually said. The believer can sing of the Judge and the Healer together, and look for the Day with hope, as Paul does in 2 Timothy 4:8.",
     "crossReferences": [
-      { "ref": "Luke 1:17", "note": "John the Baptist goes before the Lord in the spirit and power of Elijah, turning hearts, directly fulfilling Malachi 4:5-6." },
-      { "ref": "Matthew 11:13-14", "note": "Jesus says John the Baptist is the Elijah who was to come." },
-      { "ref": "Matthew 17:10-13", "note": "Jesus teaches that Elijah has already come in John the Baptist." },
-      { "ref": "Luke 1:78-79", "note": "The dawn from on high gives light to those in darkness, echoing the sun of righteousness." }
+      {
+        "ref": "Malachi 3:1-3",
+        "note": "The messenger who prepares the way, and the Lord who suddenly comes to His temple and who will be like a refiner's fire. Malachi 4:5 names the messenger as Elijah. The refiner's fire of chapter 3 and the furnace of chapter 4 are the same fire, which purifies the faithful and consumes the proud."
+      },
+      {
+        "ref": "Amos 5:18-20",
+        "note": "Amos warns those who long for the Day of the LORD that it will be darkness and not light. Malachi keeps the warning for the arrogant but adds, for those who fear God, a light that heals. The two prophets together show that the Day is as the person is: darkness for the presumptuous, dawn for the humble."
+      },
+      {
+        "ref": "Joel 2:31",
+        "note": "Joel calls the Day 'the great and awesome Day of the LORD,' the phrase Malachi uses in verse 5 of the day Elijah precedes. Peter quotes Joel at Pentecost, Acts 2:20, which shows the early church reading the last days as already begun."
+      },
+      {
+        "ref": "1 Kings 18:36-37",
+        "note": "Elijah's prayer on Carmel that the LORD would turn the hearts of the people back again. Malachi's promise that Elijah will turn hearts is a recollection of this prayer, and John's ministry of repentance is the sequel."
+      },
+      {
+        "ref": "Luke 1:16-17",
+        "note": "Gabriel's announcement of John's birth quotes Malachi 4:6 and adds that the aim is 'to make ready a people prepared for the Lord.' It is the clearest New Testament statement that the Elijah promise is being fulfilled in John."
+      },
+      {
+        "ref": "Matthew 11:13-14",
+        "note": "Jesus says that all the Prophets and the Law prophesied until John, and that, if the hearers are willing to accept it, John is the Elijah who was to come. The 'if you are willing' shows that the identification requires an open heart, not only information."
+      },
+      {
+        "ref": "Matthew 17:10-13",
+        "note": "After the Transfiguration, the disciples ask about the scribal teaching that Elijah must come first. Jesus answers that Elijah has already come and was not recognised, and that the Son of Man will suffer likewise. The fulfillment of Malachi includes the rejection of the herald and the king."
+      },
+      {
+        "ref": "John 1:21",
+        "note": "Asked whether he is Elijah, John says 'I am not.' The verse is the main reason some look for a further coming of Elijah, and it is best read alongside Jesus' statement as the difference between being the returned prophet and fulfilling his role."
+      },
+      {
+        "ref": "Luke 1:78-79",
+        "note": "Zechariah's song speaks of the Dawn visiting from on high to shine on those in darkness. It is the nearest New Testament echo of the sun of righteousness, and it comes in the same chapter as the Elijah promise, so the two halves of Malachi's ending are heard together."
+      },
+      {
+        "ref": "Matthew 3:11-12",
+        "note": "John tells the crowds that the One coming after him will baptize with the Holy Spirit and with fire, and burn the chaff with unquenchable fire. The two halves of Malachi's Day, healing and fire, are put into the hand of one person."
+      },
+      {
+        "ref": "2 Peter 3:10-13",
+        "note": "The Day of the Lord comes like a thief, with the elements destroyed by fire, and then believers look for new heavens and a new earth where righteousness dwells. It is Malachi's fire and dawn translated into the final horizon, and it supplies the hope beyond the burning."
+      },
+      {
+        "ref": "Revelation 22:16",
+        "note": "Jesus calls Himself the Root and Offspring of David and the bright Morning Star. The final chapter of the Bible echoes Malachi's closing image, and it presents the dawn as the person who speaks."
+      }
     ],
-    "oneStory": "The Old Testament ends the way the whole Bible moves: toward a Day of judgment and healing and a promised forerunner. After four hundred silent years John the Baptist comes as the Elijah, and the sun of righteousness rises in Jesus, who bears the curse so that those who fear God's name go out leaping in the light.",
-    "sermon": { "status": "verified", "preacher": "David Legge", "title": "Malachi's Message On The Future (Malachi's Modern Message Part 8)", "url": "https://www.preachtheword.com/sermon/mmm08.shtml", "why": "The final message of Legge's expository series through Malachi, covering 4:1-6, this closing passage directly. It expounds the Day of the LORD as burning for the arrogant and healing for the God-fearing, reads the sun of righteousness as Christ, and traces the Elijah promise through John the Baptist across the four hundred silent years into the Gospels." }
+    "oneStory": "Malachi sits at the end of the Old Testament, and its last paragraph is a bridge. It looks back to the story of promise and failure that began in Eden and passed through Sinai, the kings and the exile. The people have the law from Horeb, the covenant, the temple and the prophets, and they are still waiting. The end of the book gathers every theme of the prophets into a Day that judges and heals, and ends on a single sentence about hearts turning.\n\nIt sets up everything that follows in the New Testament. The Gospels begin with a messenger in the wilderness, in clothes of the prophet of Horeb, calling Israel to prepare the way, Mark 1:2-4. They record that after four hundred quiet years a priest in the temple is told that his son will fulfil Malachi's word, Luke 1:17. The Day that Malachi describes has an inbreaking in Jesus: His first coming is the dawn, and the New Testament holds that His second coming is the furnace and the full sunrise.\n\nThe pattern of this paragraph is the pattern of the whole story. Humanity was made to live in light and was driven into darkness; God promised that a seed would crush the serpent, Genesis 3:15, and in Malachi that promise is a sun with healing in its wings. The law was given to be remembered, and it is remembered by being fulfilled. The family broken in Eden, in Cain, in the generations of Israel, is the family that the herald is sent to turn. The word 'curse' is the old word for what entered the world when the ground was cursed, Genesis 3:17, and the book ends with the threat that the land might suffer it again, even as the hope of its removal is on the horizon.\n\nIt ends in the new creation, where the curse is finally gone: 'No longer will there be any curse,' Revelation 22:3. The sun of righteousness is the Lamb, who is the lamp of the city, Revelation 21:23. The tree of life has leaves for the healing of the nations, Revelation 22:2. The calves of the stall are the redeemed leaping in the open. The arrogant have been taken away, and those who feared His name are His for ever. What Malachi sees at a distance, as a Day coming, John sees as a city come down, and the last verses of the Old Testament are the first line of a sentence that the whole Bible finishes.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "David Legge",
+      "title": "Malachi's Message On The Future (Malachi's Modern Message Part 8)",
+      "url": "https://www.preachtheword.com/sermon/mmm08.shtml",
+      "why": "The final message of Legge's expository series through Malachi, covering 4:1-6, this closing passage directly. It expounds the Day of the LORD as burning for the arrogant and healing for the God-fearing, reads the sun of righteousness as Christ, and traces the Elijah promise through John the Baptist across the four hundred silent years into the Gospels."
+    }
   },
   "quiz": [
     {
       "q": "What will the Day of the LORD be for the arrogant and evildoers?",
       "options": [
-        { "text": "A day burning like a furnace that leaves them neither root nor branch.", "weight": 100, "note": "Verse 1 pictures decisive judgment on the proud." },
-        { "text": "A day of mild correction they will soon forget.", "weight": 75, "note": "The image is complete consuming, not mild correction." },
-        { "text": "A day that never actually arrives.", "weight": 25, "note": "The passage insists the Day is certainly coming." },
-        { "text": "A day of reward for their arrogance.", "weight": 0, "note": "The opposite: it is judgment against the arrogant." }
+        {
+          "text": "A day burning like a furnace that leaves them neither root nor branch.",
+          "weight": 100,
+          "note": "Verse 1 pictures decisive judgment on the proud."
+        },
+        {
+          "text": "A day of mild correction they will soon forget.",
+          "weight": 75,
+          "note": "The image is complete consuming, not mild correction."
+        },
+        {
+          "text": "A day that never actually arrives.",
+          "weight": 25,
+          "note": "The passage insists the Day is certainly coming."
+        },
+        {
+          "text": "A day of reward for their arrogance.",
+          "weight": 0,
+          "note": "The opposite: it is judgment against the arrogant."
+        }
       ]
     },
     {
       "q": "What will that day be for those who fear God's name?",
       "options": [
-        { "text": "The sun of righteousness will rise with healing in its wings, and they will go out leaping like calves.", "weight": 100, "note": "Verse 2 promises healing and joyful freedom to the God-fearing." },
-        { "text": "A narrow escape with nothing to gain.", "weight": 75, "note": "It brings healing and joy, far more than a bare escape." },
-        { "text": "The same fiery judgment as the wicked.", "weight": 25, "note": "For them the same light means healing, not judgment." },
-        { "text": "Continued mourning and gloom.", "weight": 0, "note": "The opposite: they leap like freed calves." }
+        {
+          "text": "The sun of righteousness will rise with healing in its wings, and they will go out leaping like calves.",
+          "weight": 100,
+          "note": "Verse 2 promises healing and joyful freedom to the God-fearing."
+        },
+        {
+          "text": "A narrow escape with nothing to gain.",
+          "weight": 75,
+          "note": "It brings healing and joy, far more than a bare escape."
+        },
+        {
+          "text": "The same fiery judgment as the wicked.",
+          "weight": 25,
+          "note": "For them the same light means healing, not judgment."
+        },
+        {
+          "text": "Continued mourning and gloom.",
+          "weight": 0,
+          "note": "The opposite: they leap like freed calves."
+        }
       ]
     },
     {
       "q": "Who is the sun of righteousness?",
       "options": [
-        { "text": "Jesus Christ, the dawn from on high who rises with healing for those who fear God.", "weight": 100, "note": "The New Testament links this rising light to Christ, Luke 1:78." },
-        { "text": "The nation of Israel restored to power.", "weight": 75, "note": "The healing light is a person, the Messiah, not the nation itself." },
-        { "text": "A symbol of better weather for the crops.", "weight": 25, "note": "It pictures the Messiah's coming, not merely improved harvests." },
-        { "text": "Any good ruler who brings peace.", "weight": 0, "note": "It points specifically to Christ, not to rulers in general." }
+        {
+          "text": "Jesus Christ, the dawn from on high who rises with healing for those who fear God.",
+          "weight": 100,
+          "note": "The New Testament links this rising light to Christ, Luke 1:78."
+        },
+        {
+          "text": "The nation of Israel restored to power.",
+          "weight": 75,
+          "note": "The healing light is a person, the Messiah, not the nation itself."
+        },
+        {
+          "text": "A symbol of better weather for the crops.",
+          "weight": 25,
+          "note": "It pictures the Messiah's coming, not merely improved harvests."
+        },
+        {
+          "text": "Any good ruler who brings peace.",
+          "weight": 0,
+          "note": "It points specifically to Christ, not to rulers in general."
+        }
       ]
     },
     {
       "q": "Who is the Elijah God promises to send before the great Day?",
       "options": [
-        { "text": "John the Baptist, who came in the spirit and power of Elijah to prepare the way for Christ.", "weight": 100, "note": "Jesus identifies John as this Elijah, Matthew 11:14 and Luke 1:17." },
-        { "text": "The prophet Malachi himself.", "weight": 75, "note": "The promised messenger is Elijah, fulfilled in John the Baptist, not Malachi." },
-        { "text": "A symbol with no real fulfillment.", "weight": 25, "note": "The New Testament names a real fulfillment in John the Baptist." },
-        { "text": "The Messiah in person.", "weight": 0, "note": "Elijah prepares the way before the Lord; he is the herald, not the Messiah." }
+        {
+          "text": "John the Baptist, who came in the spirit and power of Elijah to prepare the way for Christ.",
+          "weight": 100,
+          "note": "Jesus identifies John as this Elijah, Matthew 11:14 and Luke 1:17."
+        },
+        {
+          "text": "The prophet Malachi himself.",
+          "weight": 75,
+          "note": "The promised messenger is Elijah, fulfilled in John the Baptist, not Malachi."
+        },
+        {
+          "text": "A symbol with no real fulfillment.",
+          "weight": 25,
+          "note": "The New Testament names a real fulfillment in John the Baptist."
+        },
+        {
+          "text": "The Messiah in person.",
+          "weight": 0,
+          "note": "Elijah prepares the way before the Lord; he is the herald, not the Messiah."
+        }
       ]
     },
     {
       "q": "What are the final commands that close the Old Testament?",
       "options": [
-        { "text": "Remember the law of Moses, and watch for the Elijah who will turn hearts before the great Day.", "weight": 100, "note": "Verses 4 to 6 give both anchors before the silence that follows." },
-        { "text": "Rebuild the temple and resume the sacrifices.", "weight": 75, "note": "The closing charge is to remember the law and await Elijah, not a building program." },
-        { "text": "Wait passively until the Day arrives.", "weight": 25, "note": "The commands call for active remembering and watching, not passivity." },
-        { "text": "Forget the past and start a new religion.", "weight": 0, "note": "The opposite: remember Moses and heed the coming messenger." }
+        {
+          "text": "Remember the law of Moses, and watch for the Elijah who will turn hearts before the great Day.",
+          "weight": 100,
+          "note": "Verses 4 to 6 give both anchors before the silence that follows."
+        },
+        {
+          "text": "Rebuild the temple and resume the sacrifices.",
+          "weight": 75,
+          "note": "The closing charge is to remember the law and await Elijah, not a building program."
+        },
+        {
+          "text": "Wait passively until the Day arrives.",
+          "weight": 25,
+          "note": "The commands call for active remembering and watching, not passivity."
+        },
+        {
+          "text": "Forget the past and start a new religion.",
+          "weight": 0,
+          "note": "The opposite: remember Moses and heed the coming messenger."
+        }
       ]
     }
   ],
@@ -150,10 +363,25 @@
     "The Old Testament ends on the word curse, answered when Christ became a curse for us. How does the cross change the way you read the warning that closes Malachi?"
   ],
   "translationNotes": [
-    { "ref": "Malachi 4:2", "note": "The BSB footnotes an alternate rendering, the Sun of Righteousness will rise with healing in His wings, reading the phrase as a title of the Messiah." },
-    { "ref": "Malachi 4:4", "note": "Horeb is another name for Mount Sinai, where the law was given; the BSB notes it may denote a mountain in that range." },
-    { "ref": "Malachi 4:5", "note": "Great and awesome is footnoted as also dreadful, with the Septuagint reading glorious; the Day of the LORD is both terrible and majestic." },
-    { "ref": "Malachi 4:6", "note": "The BSB notes this verse is cited in Luke 1:17 of John the Baptist, who came in the spirit and power of Elijah." }
+    {
+      "ref": "Malachi 4:2",
+      "note": "The BSB footnotes an alternate rendering, the Sun of Righteousness will rise with healing in His wings, reading the phrase as a title of the Messiah."
+    },
+    {
+      "ref": "Malachi 4:4",
+      "note": "Horeb is another name for Mount Sinai, where the law was given; the BSB notes it may denote a mountain in that range."
+    },
+    {
+      "ref": "Malachi 4:5",
+      "note": "Great and awesome is footnoted as also dreadful, with the Septuagint reading glorious; the Day of the LORD is both terrible and majestic."
+    },
+    {
+      "ref": "Malachi 4:6",
+      "note": "The BSB notes this verse is cited in Luke 1:17 of John the Baptist, who came in the spirit and power of Elijah."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Malachi 4:1-6. All 6 verses reproduced in order. BSB footnotes at 4:2 (Sun of Righteousness as a title), 4:4 (Horeb as Mount Sinai), 4:5 (great and awesome, also dreadful, LXX glorious), and 4:6 (cited in Luke 1:17) are reflected in the translation notes." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Malachi 4:1-6. All 6 verses reproduced in order. BSB footnotes at 4:2 (Sun of Righteousness as a title), 4:4 (Horeb as Mount Sinai), 4:5 (great and awesome, also dreadful, LXX glorious), and 4:6 (cited in Luke 1:17) are reflected in the translation notes."
+  }
 }

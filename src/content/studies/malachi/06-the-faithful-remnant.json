@@ -18,9 +18,21 @@
         "note": "the faithless complaint",
         "emphasis": "",
         "verses": [
-          { "chapter": 3, "n": 13, "text": "“Your words against Me have been harsh,” says the LORD. “Yet you ask, ‘What have we spoken against You?’" },
-          { "chapter": 3, "n": 14, "text": "You have said, ‘It is {{shav|futile}} to serve God. What have we gained by keeping His requirements and walking mournfully before the LORD of Hosts?" },
-          { "chapter": 3, "n": 15, "text": "So now we call the {{zed|arrogant}} blessed. Not only do evildoers prosper, they even test God and escape.’”" }
+          {
+            "chapter": 3,
+            "n": 13,
+            "text": "“Your words against Me have been harsh,” says the LORD. “Yet you ask, ‘What have we spoken against You?’"
+          },
+          {
+            "chapter": 3,
+            "n": 14,
+            "text": "You have said, ‘It is {{shav|futile}} to serve God. What have we gained by keeping His requirements and walking mournfully before the LORD of Hosts?"
+          },
+          {
+            "chapter": 3,
+            "n": 15,
+            "text": "So now we call the {{zed|arrogant}} blessed. Not only do evildoers prosper, they even test God and escape.’”"
+          }
         ]
       },
       {
@@ -28,19 +40,56 @@
         "note": "God treasures those who fear Him",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 3, "n": 16, "text": "At that time those who {{yare|feared}} the LORD spoke with one another, and the LORD listened and heard them. So a scroll of {{zikkaron|remembrance}} was written before Him regarding those who feared the LORD and honored His name." },
-          { "chapter": 3, "n": 17, "text": "“They will be Mine,” says the LORD of Hosts, “on the day when I prepare My {{segullah|treasured possession}}. And I will spare them as a man spares his own son who serves him." },
-          { "chapter": 3, "n": 18, "text": "So you will again distinguish between the righteous and the wicked, between those who serve God and those who do not.”" }
+          {
+            "chapter": 3,
+            "n": 16,
+            "text": "At that time those who {{yare|feared}} the LORD spoke with one another, and the LORD listened and heard them. So a scroll of {{zikkaron|remembrance}} was written before Him regarding those who feared the LORD and honored His name."
+          },
+          {
+            "chapter": 3,
+            "n": 17,
+            "text": "“They will be Mine,” says the LORD of Hosts, “on the day when I prepare My {{segullah|treasured possession}}. And I will spare them as a man spares his own son who serves him."
+          },
+          {
+            "chapter": 3,
+            "n": 18,
+            "text": "So you will again distinguish between the righteous and the wicked, between those who serve God and those who do not.”"
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "shav": { "language": "Hebrew", "lemma": "shav", "original": "שוא", "gloss": "Emptiness, vanity, futility, worthlessness. The disheartened called serving God shav, a waste of effort. The word exposes a heart that measures obedience only by its visible payoff, judging God's service pointless when reward is not immediately seen." },
-    "zed": { "language": "Hebrew", "lemma": "zed", "original": "זד", "gloss": "Arrogant, proud, presumptuous, insolent. The cynical called the zed, the arrogant, blessed, envying those who defy God and yet prosper. Scripture consistently sets the proud under God's opposition, so to call them blessed is to invert God's own judgment." },
-    "yare": { "language": "Hebrew", "lemma": "yare", "original": "ירא", "gloss": "To fear, revere, stand in awe. Those who are yare, who fear the LORD, are not terrified but reverent, holding God in awe and honoring His name. This godly fear marks the faithful remnant that God notices and treasures." },
-    "zikkaron": { "language": "Hebrew", "lemma": "zikkaron", "original": "זכרון", "gloss": "Remembrance, memorial, a record. God has a zikkaron, a scroll of remembrance, written before Him. It pictures a King who keeps a lasting record of those who fear Him, an assurance that He will not forget a single one of His own." },
-    "segullah": { "language": "Hebrew", "lemma": "segullah", "original": "סגלה", "gloss": "A treasured possession, personal property, prized treasure. God calls the faithful His segullah, the same word spoken over Israel at Sinai in Exodus 19:5. It speaks of a people specially owned and cherished, held close by God as a king holds his personal treasure." }
+    "shav": {
+      "language": "Hebrew",
+      "lemma": "shav",
+      "original": "שוא",
+      "gloss": "Emptiness, vanity, futility, worthlessness. The disheartened called serving God shav, a waste of effort. The word exposes a heart that measures obedience only by its visible payoff, judging God's service pointless when reward is not immediately seen."
+    },
+    "zed": {
+      "language": "Hebrew",
+      "lemma": "zed",
+      "original": "זד",
+      "gloss": "Arrogant, proud, presumptuous, insolent. The cynical called the zed, the arrogant, blessed, envying those who defy God and yet prosper. Scripture consistently sets the proud under God's opposition, so to call them blessed is to invert God's own judgment."
+    },
+    "yare": {
+      "language": "Hebrew",
+      "lemma": "yare",
+      "original": "ירא",
+      "gloss": "To fear, revere, stand in awe. Those who are yare, who fear the LORD, are not terrified but reverent, holding God in awe and honoring His name. This godly fear marks the faithful remnant that God notices and treasures."
+    },
+    "zikkaron": {
+      "language": "Hebrew",
+      "lemma": "zikkaron",
+      "original": "זכרון",
+      "gloss": "Remembrance, memorial, a record. God has a zikkaron, a scroll of remembrance, written before Him. It pictures a King who keeps a lasting record of those who fear Him, an assurance that He will not forget a single one of His own."
+    },
+    "segullah": {
+      "language": "Hebrew",
+      "lemma": "segullah",
+      "original": "סגלה",
+      "gloss": "A treasured possession, personal property, prized treasure. God calls the faithful His segullah, the same word spoken over Israel at Sinai in Exodus 19:5. It speaks of a people specially owned and cherished, held close by God as a king holds his personal treasure."
+    }
   },
   "study": {
     "basic": {
@@ -54,84 +103,248 @@
       "oneStory": "Through the whole Bible God keeps a remnant and remembers His own by name. That remembering runs to the Lamb's book of life and to Christ, who loses none the Father gave Him, and who secures forever the people God calls His treasured possession."
     },
     "context": {
-      "literary": "The sixth disputation, following the charge of robbing God and preceding the final vision of the Day of the LORD. It sets the faithless complaint of verses 13 to 15 against the faithful remnant of verses 16 to 18, and its promise of a day that distinguishes righteous from wicked leads directly into chapter 4.",
-      "historical": "In the discouraged post-exilic community, the promised restoration had not arrived as hoped, and cynicism set in: keeping God's requirements seemed to gain nothing while arrogant people flourished. Malachi names that mood and answers it with the assurance that God notices and records the faithful.",
-      "canonical": "The scroll of remembrance recalls the books kept before God in Psalm 56:8, Daniel 7:10, and Exodus 32:32, and looks ahead to the book of life in Revelation. God's treasured possession draws on Exodus 19:5 and Deuteronomy 7:6 and is applied to the church in 1 Peter 2:9 and Titus 2:14."
+      "literary": "Malachi is built as a string of disputations, each opening with a divine charge, then the people's offended question, then God's answer. This is the sixth, and it is the only one where the question the people ask ('What have we spoken against You?', verse 13) is followed by an answer that quotes them at length. The speech the LORD plays back in verses 14 and 15 is the fullest sample of what the earlier disputations only hinted at, and it is knit to them. 'Where is the God of justice?' in Malachi 2:17 returns here as the claim that evildoers prosper and 'escape'.\n\nThe passage turns on a hinge at verse 16, 'At that time.' Before it, people speak against God and God hears. After it, people speak with one another and God hears again. The same verb of speaking carries both halves, so the passage is a study in two kinds of talk that reach the same listener. Between them the LORD is not silent: He is the one who 'listened and heard' in both.\n\nA second thread is the word serve. The complaint says it is useless to serve God, verse 14. The promise says God will spare them 'as a man spares his own son who serves him,' verse 17. The closing line separates those 'who serve God' from those 'who do not,' verse 18. The answer to the charge of futility is built from the very word the charge used.\n\nThe unit ends with the verb of return. The BSB's 'you will again distinguish' stands for a Hebrew idiom that literally says 'you will return and see.' That sends the reader back to 'Return to Me, and I will return to you' in Malachi 3:7, and forward to the turning of hearts in Malachi 4:6. Nothing about the Day itself is described here; the paragraph only promises that when it comes, the difference will be visible, and chapter 4 supplies the fire and the sunrise.",
+      "historical": "The setting is Judah some time after the rebuilt temple was dedicated, in the period when Haggai and Zechariah had promised glory and the glory had not appeared. The returned community was small, poor and governed by a Persian-appointed official. Malachi 1:8 mentions a governor, and the prophet's rebukes over tithes, priests and marriages in chapters 1 to 3 show a people whose first zeal had cooled.\n\nTheir complaint belongs to a very old family of laments. Job's friends and Job himself argued about why the wicked prosper, Job 21:7-15. Psalm 73:12-14 speaks almost like the grumblers of Malachi 3: the wicked are 'always carefree as they increase their wealth,' while 'in vain I have kept my heart pure.' What is new in Malachi's day is that the protest has hardened into a settled creed, and the prophet reports it as speech spoken to God's face. Psalm 73 turns the corner when the singer enters God's sanctuary and discerns the end of the wicked, verse 17; Malachi's answer is also about an end that is still ahead.\n\nThe idea of a record kept before a king was familiar to every first hearer. Persian courts kept written chronicles of those who had done the crown a service, and the book of Esther shows a sleepless king having his records read aloud and discovering that Mordecai was never rewarded, Esther 6:1-3. Malachi uses the same picture in the opposite direction: God, the great king, never loses a debt of loyalty, and no one who honored His name goes unrewarded.\n\nThe word that the BSB translates 'treasured possession' belonged to royal life as well. It names what a ruler personally holds apart from the common treasury. When David gave from his 'personal treasures of gold and silver' for the temple, 1 Chronicles 29:3, and when Solomon gathered 'the treasure of kings and provinces,' Ecclesiastes 2:8, this same word was used. The humble remnant of Judah is told that it is the king's private jewel.",
+      "canonical": "The strands of this paragraph reach in four directions. The first is the book kept before God. Moses asks to be blotted out of the book God has written, and God answers that He will blot out of His book whoever has sinned against Him, Exodus 32:32-33. Psalm 56:8 asks whether the psalmist's tears are 'not in Your book.' Daniel 12:1 promises deliverance to 'everyone whose name is found written in the book.' The pictures differ, but each shows a God who records and does not forget, and Malachi adds that He records conversation among the faithful.\n\nThe second is the treasured possession. The phrase comes from Sinai, Exodus 19:5, where Israel is promised that it will be God's treasured possession out of all the nations 'for the whole earth is Mine,' and from Deuteronomy 7:6, where the same people is chosen not for their size. Malachi takes that covenant title, which the nation as a whole had forfeited by its unfaithfulness, and gives it to the faithful within the nation. Paul does something close to this when he says that not all who descend from Israel are Israel, Romans 9:6.\n\nThe third is the sparing of a son. The passage's picture of a father who spares a servant son stands behind Romans 8:32, where Paul says that God 'did not spare His own Son but gave Him up for us all.' Behind that stands Genesis 22:12, where Abraham 'did not withhold' his only son.\n\nThe fourth is the day of separation. Revelation 20:12 and Philippians 4:3 speak of the book of life, Hebrews 12:23 speaks of the 'firstborn, enrolled in heaven,' and Luke 10:20 tells the disciples to rejoice that their names are written there. Jesus' own parable of the sheep and goats is a New Testament picture of the same distinguishing, Matthew 25:31-46."
     },
     "hermeneutics": {
-      "authorIntent": "To expose the faithless complaint that serving God is worthless, to comfort the God-fearing remnant with the assurance that God hears and records them, and to promise a coming day when the LORD will openly distinguish those who serve Him from those who do not.",
-      "descriptionVsPrescription": "The passage describes the cynicism of the disheartened without commending it, and it records God's response as an abiding promise. The enduring truths are that God treasures those who fear Him, that faithful service is never wasted, and that a day of clear reckoning is certain.",
+      "authorIntent": "Malachi wrote for people who were close to giving up, and he does not scold them into hope. He first names what they said, so that they have to hear their own words as God heard them. Then he turns to the quiet few and tells them they were not unobserved. The first hearers were meant to see that the question 'What do we gain?' misreads the whole relation. Service to God had been treated as a wage claim, and the prophet replaces it with a picture of a father who delights in a son who serves.\n\nHe also meant them to link their conversation to their standing. The faithful are those who talk to one another about the LORD while the cynics talk against Him. In a small, discouraged community, mutual encouragement was not a pleasant extra; it was how the remnant stayed a remnant. The scroll, the jewel and the sparing father together tell them that none of this is lost.\n\nFinally, Malachi wanted a visible reversal to be a hope and not only a private comfort. 'You will again distinguish' promises that the moral confusion of the present will be corrected in a way that the community will see, and so the right response is perseverance in the fear of the LORD rather than a bitter judgement of God's government.",
+      "descriptionVsPrescription": "The passage records a complaint and records God's reply; it does not tell anyone to complain, and it does not say that the arrogant are in fact blessed. The speakers' claim that doing evil pays is the very thing God answers, so it must never be lifted out as a teaching about how the world works. In the same way, the scroll of remembrance describes what God does with those who honor Him. It is not a command to keep a private tally of one's own merits.\n\nWhat does carry forward is example and promise. The example is a company of believers who talk together about the LORD at a bleak time. The promise is that God hears and records, claims His own, and will make the difference between the righteous and the wicked plain. Believers are not told that obedience will bring wealth in this life. Psalm 73 and the book of Job already refuse that bargain. They are told that faithfulness is seen, remembered and finally vindicated, and that is a ground for patience, not a formula for prosperity.",
       "debates": [
         {
           "question": "What is the scroll of remembrance?",
           "views": [
-            { "label": "A ledger of deeds earning reward", "case": "Some take it as a record of works by which the faithful earn their standing, making acceptance a matter of merit." },
-            { "label": "God's assurance that He remembers His own", "case": "The scroll pictures God treasuring and never forgetting those who fear Him; it grounds security in His faithful memory rather than a wage owed, and it anticipates the book of life." }
+            {
+              "label": "A ledger of deeds earning reward",
+              "case": "Some take it as a record of works by which the faithful earn their standing, making acceptance a matter of merit. They point to the phrase 'feared the LORD and honored His name' as a description of conduct that is being logged, and to the language of 'serve' and 'wages' that runs through the passage."
+            },
+            {
+              "label": "God's assurance that He remembers His own",
+              "case": "The scroll pictures God treasuring and never forgetting those who fear Him. It grounds security in His faithful memory rather than a wage owed, and it anticipates the book of life. The word 'mine' in verse 17 and the father-son image make the relation one of family, not payroll."
+            }
           ],
-          "bearing": "Read rightly, it comforts rather than threatens: God does not overlook the faithful, and their names are kept safe with Him." }
+          "bearing": "Read rightly, it comforts rather than threatens: God does not overlook the faithful, and their names are kept safe with Him. The merit reading makes the passage repeat the very bargain the grumblers had in mind."
+        },
+        {
+          "question": "Who are 'the righteous' and 'those who feared the LORD' in this passage?",
+          "views": [
+            {
+              "label": "The sinless or morally outstanding few",
+              "case": "Because they are set against the wicked and called righteous in verse 18, some read them as a class of blameless believers who stand apart from a corrupt majority."
+            },
+            {
+              "label": "The humble who fear God and rely on His mercy",
+              "case": "The same prophet has just told the whole nation that they have turned from God's statutes, Malachi 3:7, so the remnant cannot be sinless. Being 'spared' implies being forgiven, and the Bible's wider witness treats righteousness as a status God grants to those who trust Him, as Abraham was credited, Genesis 15:6."
+            }
+          ],
+          "bearing": "The remnant is marked by reverence and trust, not by perfection. That makes the promise open to every discouraged believer and keeps the text from becoming a boast."
+        }
       ]
     },
-    "originalLanguages": "The disillusioned say it is shav, futile and empty, to serve God, and they call the zed, the arrogant and presumptuous, blessed. Over against them a remnant who are yare, who fear and revere the LORD, speak with one another, and God listens. He has a zikkaron, a scroll of remembrance, written before Him for those who fear His name, and He pledges to make them His segullah, His treasured possession, the same word once spoken over Israel at Sinai. The heart of it is that the God who seems silent is in fact attending to every word and keeping His own.",
+    "originalLanguages": "Several small words carry the weight of this passage. The first is the verb of speech. In verse 13 the people ask, 'What have we spoken against You?', and in verse 16 the faithful 'spoke with one another.' Both are the same Hebrew verb of speaking in the reflexive or reciprocal stem, a verb that suggests talk back and forth, conversation rather than speech. The grumblers' conversation and the remnant's conversation are therefore the same sort of act, aimed in opposite directions, and God hears both.\n\nThe second is the verb for hearing. The BSB's 'the LORD listened and heard them' translates a pair of verbs, one meaning to pay close attention and the other the ordinary word for hearing. The first is the idiom of an ear bent toward a speaker. God does not merely register noise; He leans in.\n\nThe third is serve. The Hebrew verb for serve, the one used of Israel serving the LORD in the Exodus story, appears at the heart of verses 14, 17 and 18. In verse 14 the complaint is that serving God is futile, and the word 'futile' is the same shav used elsewhere for the empty and the worthless. In verse 17 the participle appears in 'a son who serves him,' and in verse 18 the verb again divides the two groups. The complaint reads service as a transaction. The promise reads service as the loyalty of a son.\n\nThe fourth is the verb behind 'spare.' It means to have compassion or pity, and it is the verb used of Pharaoh's daughter when she saw the weeping baby, Exodus 2:6, and of the LORD's pity on His people in Joel 2:18. The sparing of verse 17 is therefore not mere exemption from punishment; it carries the warmth of a parent's pity. It sits beside the sentence 'They will be Mine,' which is the language of belonging.\n\nThe fifth is the Hebrew idiom in verse 18, rendered 'you will again distinguish.' Literally the verb is 'you will return and see,' the same verb of turning that the book uses for repentance, Malachi 3:7. The phrase suggests that seeing the difference between righteous and wicked will be tied to a returning, a change of mind and direction as well as a fresh look. The prophet is not only promising a revelation; he is hinting that the cynics who now cannot tell the difference may yet learn to.\n\nFinally, 'treasured possession' is the rare word segullah. It occurs in Exodus 19:5, Deuteronomy 7:6 and 1 Chronicles 29:3, and in each place it names a possession held apart for a king's own use. Malachi 3:17 applies it to individuals, and the LORD says He is 'preparing,' literally making, the day on which He gathers them.",
     "typology": [
-      { "type": "The scroll of remembrance", "fulfillment": "The Lamb's book of life in which the names of the redeemed are written, Revelation 20:12 and 21:27." },
-      { "type": "God's treasured possession", "fulfillment": "The church, a people for God's own possession, redeemed by Christ, Titus 2:14 and 1 Peter 2:9." },
-      { "type": "The father who spares his devoted son", "fulfillment": "The Father who did not spare His own Son so that He might spare and claim His people, Romans 8:32." }
+      {
+        "type": "The scroll of remembrance",
+        "fulfillment": "The record kept before God for those who feared Him becomes, in the New Testament, the book of life. Paul says his fellow workers' names are in it, Philippians 4:3, Jesus tells the seventy to rejoice that theirs are 'written in heaven,' Luke 10:20, and Revelation 3:5 promises the overcomer that his name will never be blotted out. The escalation is that the book is in Revelation called the Lamb's, Revelation 13:8, so the names are secure because of His sacrifice and not because of the quality of anyone's memory. The type falls short in one respect: Malachi's scroll is written 'regarding those who feared the LORD,' while the Lamb's book rests wholly on what the Lamb has done."
+      },
+      {
+        "type": "The treasured possession",
+        "fulfillment": "Israel was told at Sinai that it would be God's treasured possession if it obeyed, Exodus 19:5, and Malachi gives the title to the faithful within Israel. The New Testament carries it to all who belong to Christ: He 'gave Himself for us to redeem us from all wickedness and to purify for Himself a people for His own possession,' Titus 2:14, and Peter calls the church 'a people for God's own possession,' 1 Peter 2:9. The escalation is the price. A possession bought by the blood of Christ is more secure than one held by covenant obedience, and the people now include the nations. The correspondence is limited by the fact that Israel's title was national and conditional, while the church's is personal and secured in Christ."
+      },
+      {
+        "type": "A father spares a son who serves",
+        "fulfillment": "The image of a father showing pity to a serving son is a picture of the relation, and at the cross it meets its limit. Abraham, who 'did not withhold' his only son, was stopped at the last moment, Genesis 22:12. The Father did not stop. Paul says He 'did not spare His own Son but gave Him up for us all,' Romans 8:32. The escalation is exact: those spared in Malachi are spared because the Son was not. The type falls short because Malachi's son is spared from judgment by compassion alone, while here the sparing costs the Father His own Son."
+      },
+      {
+        "type": "The faithful remnant",
+        "fulfillment": "The few who fear the LORD in Malachi's day belong to a remnant pattern older than the prophet. In Elijah's day God said He had kept seven thousand in Israel who had not bowed to Baal, 1 Kings 19:18, and Paul reads that as the pattern for his own time, 'a remnant chosen by grace,' Romans 11:2-5. The escalation in Christ is that the remnant is gathered round one faithful Servant, and the many are counted as faithful in Him. The type is imperfect because every member of the Old Testament remnant was himself imperfect; the true Remnant is Christ."
+      }
     ],
-    "christ": "The remnant who feared the LORD and were written in His scroll are, in the end, those kept safe in Christ, who says, I know My own and My own know Me, and no one will snatch them out of My hand. Their names stand in the Lamb's book of life. The promise to spare His treasured possession, as a man spares his own son who serves him, is secured by the Son the Father did not spare but gave up for us all. So the service that looked futile is proved never to be in vain in the Lord, and the God who remembers His own has bound Himself to them forever in Christ.",
-    "god": "God is attentive, listening even to the quiet encouragement of a faithful few and forgetting none of it. He is faithful, keeping a scroll of remembrance so that His own are never lost to Him. He is tender, treasuring His people as a special possession and sparing them as a father spares a devoted son. And He is just, promising a day when the difference between the righteous and the wicked, now blurred, will be made unmistakably plain.",
+    "christ": "This passage leads to Christ by promise, by pattern and by contrast. By promise: the people who say it is futile to serve God have missed the one for whom serving God was never futile. Jesus kept the whole law, and Hebrews says He learned obedience through what He suffered, Hebrews 5:8. When the arrogant seemed to win, He was the one who was truly righteous and was struck down. The cry 'What have we gained?' meets its answer in a Servant whose obedience seemed to gain nothing at the cross and gained everything on the third day.\n\nBy pattern: the father who spares a son who serves him finds its most solemn fulfillment in the Son who did not receive that sparing. 'He who did not spare His own Son but gave Him up for us all,' Romans 8:32. Malachi promises that the faithful will be spared as a man spares a serving son; the New Testament explains how that is possible. The Son stood where the guilty stand so that the guilty could be named as sons. Those who fear the LORD are written in the book, and the book is the Lamb's, Revelation 13:8 and 21:27.\n\nBy contrast: the grumblers called the arrogant blessed. Jesus stands the idea on its head in the Beatitudes: blessed are the poor in spirit, the meek, the persecuted, Matthew 5:3-10. The ones who looked like losers are called blessed, and the ones the world calls fortunate are warned, Luke 6:24-26. Malachi's reversal, 'you will again distinguish,' is the day Jesus describes when He separates sheep from goats, Matthew 25:32.\n\nIt leads to Christ also through the phrase 'They will be Mine.' Jesus says of His own, 'I give them eternal life, and they will never perish. No one can snatch them out of My hand,' John 10:28. In Malachi the guarantee is a remembered name; in John it is a hand that holds. The sense of belonging is the same, and the Shepherd has become the pledge.\n\nA word of care keeps the reading honest. The passage does not mention a Messiah, and the scroll is not a code for Jesus. The link rests on the way the New Testament takes up the book of life, the treasured people and the sparing of a son, and on the way the Gospels present Jesus as the one for whom faithfulness truly cost something and was truly vindicated.",
+    "god": "The passage shows a God who hears. Before the faithful remnant ever speaks, the LORD has already heard the complaint of verses 13 to 15, quoted back almost word for word. Nothing said against Him is lost, and nothing said in His honor is lost either. His attention is so close that He listens while two people talk with each other, which is a picture of intimate, personal knowledge.\n\nIt shows a God who is just and does not forget wrongs. The people said evildoers escape, and the LORD answers that a day is coming when the difference will be seen. Justice here is not merely retribution; it is the setting right of what has been confused. His remembering of the faithful and His final distinguishing are one act seen from two sides. The same God who writes names down also keeps the whole account.\n\nIt shows a God who is a father and a king at once. The father who spares a serving son is warm and tender, and the king who holds a treasured possession is sovereign and exacting. Malachi does not choose between them. Just before this the LORD said 'I, the LORD, do not change,' Malachi 3:6, and that unchanging character is why a scroll kept in the present can be trusted in the future.\n\nThe passage also holds together two things that can seem to pull apart. God is patient with a faithless complaint, and He is firm that the complaint is wrong. He answers harshness with an invitation to see more clearly, and He answers doubt with a promise rather than an argument. The same verse that reproves the people tells them they are heard.\n\nFor worship this means that fear and comfort belong together. The faithful are called 'those who feared the LORD and honored His name,' and their reward is not a threat but a belonging. To fear God rightly is to take Him seriously as the one who hears, records and acts, and that is a ground for confidence. It also means that discouraged prayer is not wasted prayer: Psalm 56:8 asks whether our tears are 'not in Your book,' and Malachi answers yes. Honest speech to God and honest conversation with one another are both heard by the same ear.",
     "crossReferences": [
-      { "ref": "Exodus 19:5", "note": "God first calls Israel His treasured possession, the word behind Malachi 3:17." },
-      { "ref": "1 Peter 2:9", "note": "The church is God's own people and treasured possession, the fulfillment of this promise." },
-      { "ref": "Revelation 20:12", "note": "The books and the book of life are opened at the judgment, echoing the scroll of remembrance." },
-      { "ref": "Romans 8:32", "note": "God did not spare His own Son, the ground of His sparing His treasured possession." }
+      {
+        "ref": "Malachi 2:17",
+        "note": "The earlier charge that the people had wearied the LORD by saying that all who do evil are good in His sight and asking 'Where is the God of justice?' The complaint of 3:14-15 is the same grievance in sharper form, and 3:18 is the answer to it: a day when the difference will be seen."
+      },
+      {
+        "ref": "Psalm 73:12-17",
+        "note": "The singer's own temptation is almost identical: the wicked are carefree and wealthy while he has kept his heart pure 'in vain.' It is troublesome until he enters the sanctuary and discerns the end of the wicked. Malachi gives the same resolution to the whole community, an end that is certain but not yet visible."
+      },
+      {
+        "ref": "Exodus 32:32-33",
+        "note": "Moses asks to be blotted out of the book God has written, and God answers that He blots out whoever has sinned against Him. This is the earliest picture of a divine book with names in it. It shows that the scroll is a matter of life and death before God, not a mere record of actions."
+      },
+      {
+        "ref": "Psalm 56:8",
+        "note": "David asks whether his tears are not in God's book. Together with Malachi it shows that the God who writes records the suffering and the speech of the faithful, not only their official acts, and that nothing done in fear of the LORD falls into silence."
+      },
+      {
+        "ref": "Exodus 19:5-6",
+        "note": "The origin of 'treasured possession.' Israel is promised that it will be God's own out of all the nations, a kingdom of priests and a holy nation. Malachi applies the title to the faithful remnant when the nation as a whole had failed the condition of obedience."
+      },
+      {
+        "ref": "Romans 8:32",
+        "note": "Paul's argument that the Father who did not spare His own Son will freely give all things. It answers the question of how a God who spares those who serve Him can also be just: the sparing has been paid for, and the Son is the price."
+      },
+      {
+        "ref": "Revelation 20:12",
+        "note": "The books are opened at the final judgment, and the dead are judged by what is written in them, with the book of life among them. This is where the day of distinguishing in Malachi 3:18 finally arrives, and where the scroll's meaning is made plain."
+      },
+      {
+        "ref": "Philippians 4:3",
+        "note": "Paul names Clement and the other fellow workers as those 'whose names are in the Book of Life.' It shows that the first Christians understood the heavenly record as a present comfort for ordinary, laboring believers, not only as a future threat."
+      },
+      {
+        "ref": "Luke 10:20",
+        "note": "Jesus tells the disciples not to rejoice that spirits submit, but that their names are written in heaven. It moves the believer's joy from outcomes that can disappear to a standing that God keeps, which is exactly the point of the scroll in Malachi."
+      },
+      {
+        "ref": "Hebrews 12:23",
+        "note": "The writer says believers have come to 'the congregation of the firstborn, enrolled in heaven.' The family language and the register of names meet here, as they do in Malachi's picture of a scroll and a father."
+      },
+      {
+        "ref": "1 Peter 2:9",
+        "note": "The church is called 'a people for God's own possession.' Peter has taken the Sinai phrase that Malachi applied to the remnant and applied it to the whole body of believers in Christ, Jew and Gentile alike."
+      },
+      {
+        "ref": "Matthew 25:31-46",
+        "note": "Jesus' picture of the sheep and the goats is the New Testament's most direct portrait of the final distinguishing between those who serve God and those who do not. It describes the day that Malachi promises will make the difference plain."
+      }
     ],
-    "oneStory": "Across Scripture God preserves a remnant and remembers His own by name, even when serving Him looks pointless. That faithful remembering runs to Christ, who keeps every name in the Lamb's book of life and loses none the Father gave Him, and who makes the faithful God's treasured possession forever.",
-    "sermon": { "status": "verified", "preacher": "David Legge", "title": "Malachi's Message On Faithfulness (Malachi's Modern Message Part 7)", "url": "https://www.preachtheword.com/sermon/mmm07.shtml", "why": "The seventh message of Legge's expository series through Malachi, covering 3:13-18, this disputation directly. It handles the faithless complaint that serving God is futile, the LORD's scroll of remembrance, and His pledge to treasure and spare the God-fearing remnant, pointing to their security in Christ." }
+    "oneStory": "The passage answers a question that runs from the early chapters of Genesis: if God is good, why do the wicked flourish and the faithful suffer? Abel's blood cried out from the ground, Genesis 4:10. Job, the psalmists and Habakkuk asked the same thing. Malachi does not give a full theory. He gives a promise that God hears, records and will distinguish, and he places the answer at the end of the Old Testament as a hinge for what comes next.\n\nIt sets up what follows in three ways. First, the very next paragraph describes the Day itself: a furnace for the arrogant and a sunrise with healing for those who fear His name, Malachi 4:1-3. The distinguishing promised in 3:18 is carried out there. Second, the idea of a people God claims as His own is carried through the New Testament: the treasured possession of Sinai becomes the church, Titus 2:14, 1 Peter 2:9. Third, the sparing of a serving son finds its explanation at the cross, where the Father does not spare His own Son, Romans 8:32.\n\nThe remnant is one of the Bible's recurring patterns. After the flood there is Noah's family, after the apostasy of Elijah's day there are seven thousand who did not bow, 1 Kings 19:18, after the exile there is a returned few, and Paul speaks of 'a remnant chosen by grace,' Romans 11:5. Each remnant is small, each is kept by God, and each prepares the way for a larger work. The faithful of Malachi's day are waiting for the moment when the Messenger of the covenant comes to His temple, Malachi 3:1, and the book closes on that expectation.\n\nIt ends in the new creation. In Revelation the book of life is opened, and the names written in it are those of people from every nation, Revelation 21:27. The wicked who seemed to prosper are gone, and the people who were told it was futile to serve God see the Lord face to face. The same God who listened to a few people talking in a discouraged province is the God who will wipe every tear from their eyes, Revelation 21:4. The conversation among the faithful does not end; it becomes the praise of the redeemed, who are named, known and kept.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "David Legge",
+      "title": "Malachi's Message On Faithfulness (Malachi's Modern Message Part 7)",
+      "url": "https://www.preachtheword.com/sermon/mmm07.shtml",
+      "why": "The seventh message of Legge's expository series through Malachi, covering 3:13-18, this disputation directly. It handles the faithless complaint that serving God is futile, the LORD's scroll of remembrance, and His pledge to treasure and spare the God-fearing remnant, pointing to their security in Christ."
+    }
   },
   "quiz": [
     {
       "q": "What complaint did the disheartened make against God?",
       "options": [
-        { "text": "That it is futile to serve God, since keeping His requirements seemed to gain them nothing.", "weight": 100, "note": "Verse 14 voices the cynical charge that obedience is a waste." },
-        { "text": "That God had abandoned Israel entirely.", "weight": 75, "note": "Their complaint was that serving Him gained nothing, not that He had left them." },
-        { "text": "That the temple sacrifices were too costly.", "weight": 25, "note": "The issue was the perceived worthlessness of serving God, not the expense of sacrifice." },
-        { "text": "That God demanded too little of them.", "weight": 0, "note": "The opposite: they felt their obedience went unrewarded." }
+        {
+          "text": "That it is futile to serve God, since keeping His requirements seemed to gain them nothing.",
+          "weight": 100,
+          "note": "Verse 14 voices the cynical charge that obedience is a waste."
+        },
+        {
+          "text": "That God had abandoned Israel entirely.",
+          "weight": 75,
+          "note": "Their complaint was that serving Him gained nothing, not that He had left them."
+        },
+        {
+          "text": "That the temple sacrifices were too costly.",
+          "weight": 25,
+          "note": "The issue was the perceived worthlessness of serving God, not the expense of sacrifice."
+        },
+        {
+          "text": "That God demanded too little of them.",
+          "weight": 0,
+          "note": "The opposite: they felt their obedience went unrewarded."
+        }
       ]
     },
     {
       "q": "How did the LORD respond to those who feared Him?",
       "options": [
-        { "text": "He listened, and had a scroll of remembrance written for those who feared Him and honored His name.", "weight": 100, "note": "Verse 16 shows God attending to and recording the faithful." },
-        { "text": "He immediately punished the arrogant in front of them.", "weight": 75, "note": "His immediate response was to record the faithful; open judgment is promised for the day to come." },
-        { "text": "He stayed silent and did nothing.", "weight": 25, "note": "Far from silent, He listened and had their names recorded." },
-        { "text": "He rebuked the remnant for speaking.", "weight": 0, "note": "He honored them; the rebuke fell on the faithless complaint." }
+        {
+          "text": "He listened, and had a scroll of remembrance written for those who feared Him and honored His name.",
+          "weight": 100,
+          "note": "Verse 16 shows God attending to and recording the faithful."
+        },
+        {
+          "text": "He immediately punished the arrogant in front of them.",
+          "weight": 75,
+          "note": "His immediate response was to record the faithful; open judgment is promised for the day to come."
+        },
+        {
+          "text": "He stayed silent and did nothing.",
+          "weight": 25,
+          "note": "Far from silent, He listened and had their names recorded."
+        },
+        {
+          "text": "He rebuked the remnant for speaking.",
+          "weight": 0,
+          "note": "He honored them; the rebuke fell on the faithless complaint."
+        }
       ]
     },
     {
       "q": "What does God promise to call the faithful remnant?",
       "options": [
-        { "text": "His treasured possession, whom He will spare as a father spares his devoted son.", "weight": 100, "note": "Verse 17 names them God's own treasure, spared like a beloved son." },
-        { "text": "His hired servants, paid for their labor.", "weight": 75, "note": "They are treasured as sons, not merely paid as hired workers." },
-        { "text": "A remnant to be tested further before acceptance.", "weight": 25, "note": "The promise is present treasuring, not a further trial." },
-        { "text": "Strangers with no claim on Him.", "weight": 0, "note": "The opposite: they are His own treasured possession." }
+        {
+          "text": "His treasured possession, whom He will spare as a father spares his devoted son.",
+          "weight": 100,
+          "note": "Verse 17 names them God's own treasure, spared like a beloved son."
+        },
+        {
+          "text": "His hired servants, paid for their labor.",
+          "weight": 75,
+          "note": "They are treasured as sons, not merely paid as hired workers."
+        },
+        {
+          "text": "A remnant to be tested further before acceptance.",
+          "weight": 25,
+          "note": "The promise is present treasuring, not a further trial."
+        },
+        {
+          "text": "Strangers with no claim on Him.",
+          "weight": 0,
+          "note": "The opposite: they are His own treasured possession."
+        }
       ]
     },
     {
       "q": "What day does the passage promise is coming?",
       "options": [
-        { "text": "A day when God will again distinguish between the righteous and the wicked.", "weight": 100, "note": "Verse 18 promises a clear reckoning between those who serve God and those who do not." },
-        { "text": "A day when everyone will finally be treated the same.", "weight": 75, "note": "The promise is distinction, not sameness." },
-        { "text": "A day of purely material prosperity for all.", "weight": 25, "note": "The promise concerns God distinguishing the righteous, not blanket prosperity." },
-        { "text": "A day when God overlooks all wrongdoing.", "weight": 0, "note": "The opposite: He will tell righteous and wicked apart." }
+        {
+          "text": "A day when God will again distinguish between the righteous and the wicked.",
+          "weight": 100,
+          "note": "Verse 18 promises a clear reckoning between those who serve God and those who do not."
+        },
+        {
+          "text": "A day when everyone will finally be treated the same.",
+          "weight": 75,
+          "note": "The promise is distinction, not sameness."
+        },
+        {
+          "text": "A day of purely material prosperity for all.",
+          "weight": 25,
+          "note": "The promise concerns God distinguishing the righteous, not blanket prosperity."
+        },
+        {
+          "text": "A day when God overlooks all wrongdoing.",
+          "weight": 0,
+          "note": "The opposite: He will tell righteous and wicked apart."
+        }
       ]
     },
     {
       "q": "How is the scroll of remembrance fulfilled in Christ?",
       "options": [
-        { "text": "The names of the redeemed are kept in the Lamb's book of life, secure in the Christ who loses none the Father gave Him.", "weight": 100, "note": "The scroll points to the book of life and to Christ keeping His own." },
-        { "text": "It becomes a ledger of works by which believers earn heaven.", "weight": 75, "note": "It assures God's remembering, not a wage earned by merit." },
-        { "text": "It was lost when the temple fell.", "weight": 25, "note": "The record is kept before God, fulfilled in the book of life." },
-        { "text": "It has no connection to the New Testament.", "weight": 0, "note": "It anticipates the Lamb's book of life in Revelation." }
+        {
+          "text": "The names of the redeemed are kept in the Lamb's book of life, secure in the Christ who loses none the Father gave Him.",
+          "weight": 100,
+          "note": "The scroll points to the book of life and to Christ keeping His own."
+        },
+        {
+          "text": "It becomes a ledger of works by which believers earn heaven.",
+          "weight": 75,
+          "note": "It assures God's remembering, not a wage earned by merit."
+        },
+        {
+          "text": "It was lost when the temple fell.",
+          "weight": 25,
+          "note": "The record is kept before God, fulfilled in the book of life."
+        },
+        {
+          "text": "It has no connection to the New Testament.",
+          "weight": 0,
+          "note": "It anticipates the Lamb's book of life in Revelation."
+        }
       ]
     }
   ],
@@ -143,9 +356,21 @@
     "Your name written in the Lamb's book of life is secure in Christ. How does that assurance free you to keep serving even when it seems fruitless?"
   ],
   "translationNotes": [
-    { "ref": "Malachi 3:14", "note": "It is futile renders a Hebrew word for emptiness or vanity; the complaint is that serving God yields nothing, the very mindset the passage rebukes." },
-    { "ref": "Malachi 3:16", "note": "Scroll of remembrance is also rendered book of remembrance; it pictures a royal record kept before God of those who fear Him." },
-    { "ref": "Malachi 3:17", "note": "Treasured possession renders the Hebrew segullah, a prized personal treasure, the same word spoken over Israel at Sinai in Exodus 19:5." }
+    {
+      "ref": "Malachi 3:14",
+      "note": "It is futile renders a Hebrew word for emptiness or vanity; the complaint is that serving God yields nothing, the very mindset the passage rebukes."
+    },
+    {
+      "ref": "Malachi 3:16",
+      "note": "Scroll of remembrance is also rendered book of remembrance; it pictures a royal record kept before God of those who fear Him."
+    },
+    {
+      "ref": "Malachi 3:17",
+      "note": "Treasured possession renders the Hebrew segullah, a prized personal treasure, the same word spoken over Israel at Sinai in Exodus 19:5."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Malachi 3:13-18. All 6 verses reproduced in order. No BSB footnotes fall within this range." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Malachi 3:13-18. All 6 verses reproduced in order. No BSB footnotes fall within this range."
+  }
 }
