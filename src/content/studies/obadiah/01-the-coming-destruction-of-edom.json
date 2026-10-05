@@ -18,7 +18,11 @@
         "note": "a message and an envoy",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 1, "text": "This is the vision of {{obadiah|Obadiah}}: This is what the Lord GOD says about {{edom|Edom}}: We have heard a message from the LORD; an envoy has been sent among the nations to say, “Rise up, and let us go to battle against her!”" }
+          {
+            "chapter": 1,
+            "n": 1,
+            "text": "This is the vision of {{obadiah|Obadiah}}: This is what the Lord GOD says about {{edom|Edom}}: We have heard a message from the LORD; an envoy has been sent among the nations to say, “Rise up, and let us go to battle against her!”"
+          }
         ]
       },
       {
@@ -26,9 +30,21 @@
         "note": "though you soar like the eagle",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 2, "text": "“Behold, I will make you small among the nations; you will be deeply despised." },
-          { "chapter": 1, "n": 3, "text": "The {{zadon|pride}} of your heart has deceived you, O dwellers in the clefts of the rocks whose habitation is the heights, who say in your heart, ‘Who can bring me down to the ground?’" },
-          { "chapter": 1, "n": 4, "text": "Though you soar like the eagle and make your nest among the stars, even from there I will bring you down,” declares the LORD." }
+          {
+            "chapter": 1,
+            "n": 2,
+            "text": "“Behold, I will make you small among the nations; you will be deeply despised."
+          },
+          {
+            "chapter": 1,
+            "n": 3,
+            "text": "The {{zadon|pride}} of your heart has deceived you, O dwellers in the clefts of the rocks whose habitation is the heights, who say in your heart, ‘Who can bring me down to the ground?’"
+          },
+          {
+            "chapter": 1,
+            "n": 4,
+            "text": "Though you soar like the eagle and make your nest among the stars, even from there I will bring you down,” declares the LORD."
+          }
         ]
       },
       {
@@ -36,20 +52,60 @@
         "note": "plundered, betrayed, and cut down",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 5, "text": "“If thieves came to you, if robbers by night, oh, how you will be ruined, would they not steal only what they wanted? If grape gatherers came to you, would they not leave some gleanings?" },
-          { "chapter": 1, "n": 6, "text": "But how {{esau|Esau}} will be pillaged, his hidden treasures sought out!" },
-          { "chapter": 1, "n": 7, "text": "All the men allied with you will drive you to the border; the men at peace with you will deceive and overpower you. Those who eat your bread will set a trap for you without your awareness of it." },
-          { "chapter": 1, "n": 8, "text": "In that day, declares the LORD, will I not destroy the wise men of Edom and the men of understanding in the mountains of Esau?" },
-          { "chapter": 1, "n": 9, "text": "Then your mighty men, O Teman, will be terrified, so that everyone in the mountains of Esau will be cut down in the slaughter." }
+          {
+            "chapter": 1,
+            "n": 5,
+            "text": "“If thieves came to you, if robbers by night, oh, how you will be ruined, would they not steal only what they wanted? If grape gatherers came to you, would they not leave some gleanings?"
+          },
+          {
+            "chapter": 1,
+            "n": 6,
+            "text": "But how {{esau|Esau}} will be pillaged, his hidden treasures sought out!"
+          },
+          {
+            "chapter": 1,
+            "n": 7,
+            "text": "All the men allied with you will drive you to the border; the men at peace with you will deceive and overpower you. Those who eat your bread will set a trap for you without your awareness of it."
+          },
+          {
+            "chapter": 1,
+            "n": 8,
+            "text": "In that day, declares the LORD, will I not destroy the wise men of Edom and the men of understanding in the mountains of Esau?"
+          },
+          {
+            "chapter": 1,
+            "n": 9,
+            "text": "Then your mighty men, O Teman, will be terrified, so that everyone in the mountains of Esau will be cut down in the slaughter."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "obadiah": { "language": "Hebrew", "lemma": "Ovadyah", "original": "עֹבַדְיָה", "gloss": "The prophet's name means servant of the LORD, or worshipper of the LORD, from eved, servant, joined to a shortened form of the divine name. The lowly servant of the LORD is sent to announce the downfall of the proudest of nations, a fitting contrast at the very head of the book." },
-    "edom": { "language": "Hebrew", "lemma": "Edom", "original": "אֱדוֹם", "gloss": "Edom means red. It is the nation descended from Esau, Jacob's twin brother, who was named for the red stew for which he sold his birthright and for his ruddy appearance, Genesis 25:25-30. Edom settled in the rugged red mountains of Seir, south of the Dead Sea." },
-    "zadon": { "language": "Hebrew", "lemma": "zadon", "original": "זָדוֹן", "gloss": "Insolent pride, arrogance, presumption. It is the self-exalting confidence that trusts its own strength and defies any who would challenge it. Obadiah names this pride as the deceiver of Edom's heart, the root sin that blinds the nation to its coming fall." },
-    "esau": { "language": "Hebrew", "lemma": "Esav", "original": "עֵשָׂו", "gloss": "Esau, the elder twin of Jacob and father of the Edomites. Naming Edom as Esau keeps the family bond in view: this is no distant foe but the brother-nation. The old rivalry begun in Rebekah's womb, Genesis 25:23, echoes through the whole prophecy." }
+    "obadiah": {
+      "language": "Hebrew",
+      "lemma": "Ovadyah",
+      "original": "עֹבַדְיָה",
+      "gloss": "The prophet's name means servant of the LORD, or worshipper of the LORD, from eved, servant, joined to a shortened form of the divine name. The lowly servant of the LORD is sent to announce the downfall of the proudest of nations, a fitting contrast at the very head of the book."
+    },
+    "edom": {
+      "language": "Hebrew",
+      "lemma": "Edom",
+      "original": "אֱדוֹם",
+      "gloss": "Edom means red. It is the nation descended from Esau, Jacob's twin brother, who was named for the red stew for which he sold his birthright and for his ruddy appearance, Genesis 25:25-30. Edom settled in the rugged red mountains of Seir, south of the Dead Sea."
+    },
+    "zadon": {
+      "language": "Hebrew",
+      "lemma": "zadon",
+      "original": "זָדוֹן",
+      "gloss": "Insolent pride, arrogance, presumption. It is the self-exalting confidence that trusts its own strength and defies any who would challenge it. Obadiah names this pride as the deceiver of Edom's heart, the root sin that blinds the nation to its coming fall."
+    },
+    "esau": {
+      "language": "Hebrew",
+      "lemma": "Esav",
+      "original": "עֵשָׂו",
+      "gloss": "Esau, the elder twin of Jacob and father of the Edomites. Naming Edom as Esau keeps the family bond in view: this is no distant foe but the brother-nation. The old rivalry begun in Rebekah's womb, Genesis 25:23, echoes through the whole prophecy."
+    }
   },
   "study": {
     "basic": {
@@ -63,84 +119,248 @@
       "oneStory": "Obadiah opens the case against Edom, the brother turned enemy. In the larger story it shows God humbling proud human power, a theme that runs from Babel to Babylon and finds its end in the kingdom that belongs to the LORD, secured by Christ."
     },
     "context": {
-      "literary": "Obadiah is a single chapter of twenty-one verses, the shortest book in the Old Testament, written mostly as tight Hebrew poetry. It opens like a herald's dispatch: a vision received, a message heard, an envoy summoning the nations to war. Verses 1 to 9 form the announcement of judgment, rich in vivid images of eagles, stars, thieves, and gleaners, before the indictment for violence in verse 10 explains the reason.",
-      "historical": "Edom descended from Esau and settled in the mountainous region of Seir, south of the Dead Sea, whose capital strongholds such as Sela and later Bozrah sat high among the cliffs. Edom was famed for its wise men and its rock fortresses, which fed a sense of security. The oracle likely follows Jerusalem's fall in 586 BC, when Edom gloated over and profited from Judah's ruin; Edom itself was later overrun and displaced, and by the intertestamental period had ceased to exist as a nation.",
-      "canonical": "Obadiah shares much wording with Jeremiah 49:7-22, and both draw on a common prophetic tradition against Edom that also appears in Amos, Ezekiel 35, and Psalm 137. Edom becomes a standing symbol in Scripture for the proud, hostile world set against God's people, so its judgment carries weight far beyond one small nation."
+      "literary": "Obadiah is a single oracle with a clear three-part design, and the verses of this study are its first movement. Verses 1 to 9 announce the sentence on Edom. Verses 10 to 14 give the grounds for it, the day Edom stood by while Jerusalem fell. Verses 15 to 21 widen to the Day of the LORD on all nations and end with Zion's deliverance and the words 'the kingdom will belong to the LORD.' The book is built so that its two halves answer each other. What Edom did to Jacob in the day of Jacob's disaster is what will be done to Edom, verse 15.\n\nThe first movement itself has a shape. It opens with a summons, verse 1, in which the prophet and the nations hear a message from the LORD and an envoy goes out to rally armies. Then three short pictures of fall follow. Verses 2 to 4 deal with height: Edom, small and despised, who lives on the heights, will be brought down. Verses 5 to 7 deal with plunder: a thief takes only what he wants, but Esau will be stripped to the last hidden thing and betrayed by his friends. Verses 8 and 9 deal with the mind and the arm, the wise men and the mighty men. The three movements strip Edom of its position, its wealth and its security in turn, and the last two take away what a proud nation would trust in at the end: its allies, its counsel and its soldiers.\n\nObadiah's rhetoric depends on questions. 'Who can bring me down to the ground?' is the question Edom asks in its heart, verse 3. Two further questions, verses 5 and 8, are God's. If thieves came, would they not steal only what they wanted? Will I not destroy the wise men of Edom? The proud nation's one question is answered by the LORD's questions and by the single declaration 'from there I will bring you down,' verse 4.\n\nThe oracle is closely related to Jeremiah 49:7-22, and the verbal overlap is striking. Obadiah 1 and 4 match Jeremiah 49:14 and 16, and Obadiah 5 matches Jeremiah 49:9. The overlap is a feature of the book, not a flaw: prophets restated one another's oracles, and the shared words show that Edom's pride was a recurring concern.",
+      "historical": "Edom was the land south and east of the Dead Sea, a rugged highland of red sandstone cut by deep ravines. Its people descended from Esau, who settled in Mount Seir, Genesis 36:8, and its early rulers are listed in Genesis 36. The terrain is the key to Obadiah 3. Edomite towns were perched on cliffs and high ridges, and its capital in the north was Bozrah, Amos 1:12. A strong fortress could hold the passes, and the land looked impregnable. 'Dwellers in the clefts of the rocks' is a literal description of people living in caves and cliff dwellings, and it recalls Sela, 'rock,' the name of an Edomite stronghold that Amaziah captured and renamed Joktheel, 2 Kings 14:7.\n\nThe relationship between Edom and Israel was long and bitter. When Israel came from Egypt, Moses asked Edom for passage along the King's Highway and was refused with a threat of the sword, Numbers 20:14-21, even though Moses opened with the words 'This is what your brother Israel says.' Deuteronomy commands Israel not to provoke Edom and not to despise an Edomite, because he is a brother, Deuteronomy 2:4-5 and 23:7. David subjected Edom, 2 Samuel 8:13-14, and Edom rebelled in the days of Jehoram, 2 Kings 8:20-22, and remained in rebellion 'to this day.'\n\nThe decisive event for Obadiah is the fall of Jerusalem to Babylon in 586 BC. Psalm 137:7 recalls the sons of Edom saying on the day Jerusalem fell, 'Destroy it, tear it down to its foundations!' Lamentations 4:21-22, Ezekiel 25:12-14 and 35:5 all accuse Edom of acting vengefully, of an 'ancient hatred,' at the very time of Judah's disaster. Verses 10 to 14 of Obadiah describe the actual behaviour: standing aloof, gloating, looting and cutting off fugitives. Many scholars therefore date the book shortly after 586 BC, though some argue for an earlier invasion.\n\nEdom's later fate was gradual displacement. Malachi, writing after the exile, notes the nation's desolation and its plan to rebuild, Malachi 1:3-4. Many historians describe Arab traders, the Nabateans, moving into Edom's land in the following centuries, and Edomites moving into southern Judah, which later became known as Idumea. That pattern fits Obadiah 7, where friends and allies turn on Edom. By the New Testament, Herod the Great, who ruled Judea when Jesus was born, Matthew 2:1, came from an Idumean family.",
+      "canonical": "Obadiah is the last stop in a long story that begins with twin boys in Rebekah's womb. God told Rebekah that 'two nations are in your womb' and that 'the older will serve the younger,' Genesis 25:23. Esau sold his birthright for a bowl of red stew and 'despised' it, Genesis 25:34, and was nicknamed Edom, 'red,' Genesis 25:30. The hostility continues through Isaac's blessing, which says Esau will live by the sword but will one day tear the yoke from his neck, Genesis 27:39-40. Yet the two brothers also embraced, Genesis 33:4. Obadiah comes at the end of the history as a verdict on how the brother treated the brother.\n\nEdom is a standing subject of the prophets. Amos has already condemned it for pursuing 'his brother with the sword' and stifling compassion, Amos 1:11-12. Isaiah 34 makes Edom the example of nations under judgment, Isaiah 34:5-6, and Isaiah 63:1-4 shows a warrior returning from Edom and Bozrah with garments red, a picture later taken up for Christ. Ezekiel 35 devotes a full chapter to Mount Seir. Joel 3:19 and Malachi 1:2-5 mention Edom again, and Malachi's 'Jacob I have loved, but Esau I have hated' is quoted by Paul in Romans 9:13 in a discussion of God's electing purpose.\n\nObadiah's closing note, 'the kingdom will belong to the LORD,' verse 21, is the book's contribution to the great theme of divine kingship. It is the same note that sounds when the seventh angel blows his trumpet: 'The kingdom of the world has become the kingdom of our Lord and of His Christ,' Revelation 11:15.\n\nPride that falls is a major biblical pattern. Isaiah 2:11-12 says the Day of the LORD is against all the proud and lofty. Proverbs 11:2 and 16:18 state the principle. Jesus applies it, 'everyone who exalts himself will be humbled,' Luke 14:11, and James quotes Proverbs, 'God opposes the proud, but gives grace to the humble,' James 4:6. Revelation's Babylon, who says 'I sit as queen,' Revelation 18:7, speaks with Edom's voice."
     },
     "hermeneutics": {
-      "authorIntent": "To announce, in the LORD's name, the certain and total downfall of proud Edom, exposing the arrogance of the heart that thought itself beyond reach, and to assure God's afflicted people that the LORD rules over the nations and repays wrong.",
-      "descriptionVsPrescription": "The oracle describes God's judgment on a specific nation; it does not prescribe human vengeance. The abiding truths are that God opposes pride, that no earthly security can save from His hand, and that He is just to repay.",
+      "authorIntent": "Obadiah wrote to people who had watched their capital fall and their brothers rejoice. His first aim is to answer the grievance. The survivors of Judah needed to hear that the betrayal of a brother did not go unseen. 'We have heard a message from the LORD,' verse 1, says that heaven has taken their side, and the envoy among the nations gives that conviction a political shape.\n\nHis second aim is to name the root of the offence. The sin of Edom is not only violence but the confidence that made violence seem costless. The heights, the allies and the wise men were all things Edom trusted in place of the LORD, and the prophet takes them away one at a time. The charge is that Edom believed itself safe from accountability.\n\nHis third aim is to turn the oracle toward hope. The book does not end with the destruction of Edom but with Zion and the kingdom of the LORD. The first hearers were meant to hold to two things at once: the God who judged their enemy has not forgotten them, and they have a part in His coming kingdom. The oracle is as much for the sufferer as against the oppressor.",
+      "descriptionVsPrescription": "Obadiah describes what God announced against one nation for specific acts. It does not prescribe contempt for the people descended from Esau, and the law explicitly forbids it: 'Do not despise an Edomite, for he is your brother,' Deuteronomy 23:7. Nor does it justify personal revenge. The judgment is the LORD's, and the book places it in His hands in the day of the LORD, verse 15.\n\nWhere the passage does speak across the ages is in its diagnosis of pride. The words 'who can bring me down?' can be said by an individual, a family, a church or a state. The practical lesson is that security built on height, allies and cleverness is not security. A person who has found ease in a high place needs to ask whether the ease has made him deaf to God.\n\nIt also teaches how to read judgments on enemies. Believers are not called to enjoy the fall of their enemies. Proverbs 24:17 warns against gloating, and Obadiah's own charge against Edom is that it gloated over a brother's misfortune, verse 12. The oracle is meant to comfort the oppressed and warn the oppressor, and it should humble anyone who finds himself in either position.",
       "debates": [
         {
-          "question": "When was Obadiah written, and how does it relate to Jeremiah 49?",
+          "question": "When was Obadiah written, and which disaster does it describe?",
           "views": [
-            { "label": "After Jerusalem's fall in 586 BC", "case": "Verses 11 to 14 describe Edom standing by and profiting on the day foreigners entered Jerusalem's gate and cast lots for the city, which fits the Babylonian destruction of 586 BC most naturally." },
-            { "label": "An earlier revolt or raid", "case": "Some point to an earlier assault on Jerusalem, such as under Jehoram, 2 Chronicles 21, arguing the language could describe a lesser sacking and an earlier date." }
+            {
+              "label": "After the fall of Jerusalem in 586 BC",
+              "case": "The description of strangers carrying off wealth, foreigners entering the gate and casting lots for Jerusalem, and Edom standing aloof, verses 11 to 14, matches the fall to Babylon. Psalm 137:7, Lamentations 4:21-22 and Ezekiel 25:12-14 and 35:5 accuse Edom of the same behaviour at that time. This is the majority view."
+            },
+            {
+              "label": "In the reign of Jehoram, around the mid ninth century",
+              "case": "2 Kings 8:20-22 records Edom's rebellion in the days of Jehoram, and 2 Chronicles 21:16-17 describes Philistines and Arabs invading Judah and carrying off the royal household. On this view Obadiah responds to an earlier sack of Jerusalem, and Jeremiah 49 later reuses his words."
+            },
+            {
+              "label": "The date cannot be settled with confidence",
+              "case": "The book names no king, and its language fits more than one crisis. Some conclude that the message applies to any day when Edom stood aloof from Judah's trouble, and that the exact moment matters less than the pattern."
+            }
           ],
-          "bearing": "The dating affects how we read the overlap with Jeremiah 49, whether Obadiah drew on Jeremiah, Jeremiah on Obadiah, or both on a shared oracle, but it does not change the message: Edom's pride and its treachery against its brother bring certain judgment."
+          "bearing": "The message does not depend on the date. Whichever disaster lies behind it, Edom is condemned for what it did to its brother, and the sentence is announced by the LORD of all the nations. A later date gives the oracle the force of a response to the exile, while an earlier date makes it one of the oldest prophetic voices."
+        },
+        {
+          "question": "How do Obadiah and Jeremiah 49:7-22 relate?",
+          "views": [
+            {
+              "label": "Jeremiah borrowed from Obadiah",
+              "case": "Jeremiah regularly quotes earlier prophets, and Obadiah's compact form could be the original. On this reading the shared lines in Jeremiah 49:9, 14 and 16 are a reuse of an existing oracle."
+            },
+            {
+              "label": "Obadiah borrowed from Jeremiah",
+              "case": "Obadiah may be adapting a set of lines known from Jeremiah. Jeremiah's version is more detailed, and Obadiah has arranged and sharpened them for a single message about Edom's treachery."
+            },
+            {
+              "label": "Both drew on a common source",
+              "case": "The overlap may come from a shared prophetic tradition or from an earlier oracle used by both. That would explain why the material is similar and yet not identical."
+            }
+          ],
+          "bearing": "Inspiration does not require originality. What matters is that two prophets heard the same word about Edom's pride and spoke it into their own situations. The shared words strengthen rather than weaken the message, since they appear as a repeated witness to the same verdict."
         }
       ]
     },
-    "originalLanguages": "The section turns on pride and its fall. Obadiah, the servant of the LORD, is set against Edom, the red nation of Esau. The pride named in verse 3 is zadon, an insolent, self-exalting arrogance that deceives the heart into saying, who can bring me down. God answers the boast with its exact reversal: though you nest among the stars, even from there I will bring you down. The images pile up, thieves who at least leave some loot and gatherers who leave gleanings, to say that Edom's ruin will be more thorough than any of them, its hidden treasures sought out and even its celebrated wise men and mighty men of Teman brought to nothing.",
+    "originalLanguages": "The oracle's central word, zadon, 'pride,' names a presumption that goes beyond ordinary arrogance. It comes from a root for acting presumptuously, and in Deuteronomy 18:20 the related verb describes a prophet who 'presumes' to speak in God's name. Edom's pride is the presumption that it can act without accountability.\n\nThe statement that this pride 'has deceived you' in verse 3 uses the verb nasha, 'to deceive.' It is the very verb the woman used in the garden, 'The serpent deceived me,' Genesis 3:13. The echo is not accidental. Pride is the lie that tells a creature it will not be called to account. Jeremiah 49:16 has the same verb, and in both places the deceiver is the heart's own boast.\n\nThe nation that 'despised' its birthright is now 'despised.' In verse 2 God says Edom will be 'deeply despised,' and the Hebrew uses the same root that Genesis 25:34 used of Esau: 'Thus Esau despised his birthright.' The brother who treated his inheritance as nothing becomes the one treated as nothing. The reversal is small in the Hebrew and heavy in the story.\n\nThe word for 'dwellers in the clefts of the rock' in verse 3 includes the noun sela, 'rock,' which is also the name of an Edomite stronghold, 2 Kings 14:7. The plural 'clefts' is also the word in Jeremiah 49:16. The phrase 'whose habitation is the heights' stresses the idea of a home set above everything else. The sound of the words carries the sense of a nest built in a cliff.\n\nThe eagle and the stars in verse 4 are pictures of the highest place a creature can imagine. The comparison to Isaiah 14:13-15 is close: 'I will raise my throne above the stars of God,' and the answer is 'you will be brought down to Sheol.' The phrase 'from there I will bring you down' echoes Amos 9:2, 'from there I will pull them down.' The two prophets use the same words of God, and the same pattern: wherever a creature goes, God is already there.\n\nIn verse 7 the allies are literally 'the men of your covenant,' anshei verithekha, and 'the men at peace with you.' These are treaty partners and friends, not strangers. The betrayal is the betrayal of covenant, and the word choice makes Edom suffer the very treachery it practised on Judah. The word translated 'trap' in the last line is rare, and its meaning is debated. Some versions read 'wound' or 'net.' The overall sense, of being undone by those at one's own table, 'those who eat your bread,' is clear.\n\nVerse 6 speaks of Esau's 'hidden treasures,' from a root meaning to hide or store up. The thieves' limit in verse 5 is that they would take only what they wanted. The judgment on Edom has no such limit: the searchers dig out what was concealed.",
     "typology": [
-      { "type": "Edom, the brother-nation turned enemy", "fulfillment": "The proud, hostile world that opposes God's people, whose fall is certain, answered fully when Christ's kingdom overcomes every rival power." },
-      { "type": "The fortress in the heights brought down", "fulfillment": "Every proud human stronghold humbled before God, as the lofty are laid low and the LORD alone is exalted, Isaiah 2:11-17." }
+      {
+        "type": "Edom, the brother who becomes the enemy",
+        "fulfillment": "Esau and Jacob are the first instance of a brother turned adversary, and the pattern recurs in Cain and Abel, in Ishmael and Isaac, and in the elder brother of the prodigal. Hebrews warns against being 'godless like Esau,' Hebrews 12:16-17, and Paul reads the pair as an example of God's electing call, Romans 9:10-13. In Christ the picture is intensified: His own did not receive Him, John 1:11, and a Herod from Edom's land seeks His life, Matthew 2:1. The type falls short because Edom is a nation among others, while the world's hostility to Christ is not limited to one people."
+      },
+      {
+        "type": "The eagle's nest brought down",
+        "fulfillment": "The high place of human pride is brought low, as in Babel, Genesis 11, and Isaiah's king of Babylon, Isaiah 14:13-15. In Christ the same pattern is reversed in a person: He did not grasp equality with God but 'emptied Himself' and became obedient to death on a cross, and 'therefore God exalted Him,' Philippians 2:6-9. Mary sings that He 'has brought down rulers from their thrones, but has exalted the humble,' Luke 1:52. The type falls short because Obadiah announces a fall only, while the gospel pairs the fall of the proud with the exaltation of the humble."
+      },
+      {
+        "type": "The betrayal by those who eat your bread",
+        "fulfillment": "The men at peace with Edom turn on it, and those who eat its bread set a trap. The pattern is turned back on Christ Himself, who is betrayed by one who ate with Him, as Psalm 41:9 anticipates and John 13:18 applies. The correspondence is the cruelty of a betrayal from within the circle of trust. The escalation is that Christ takes the treachery into Himself rather than repaying it. The type falls short, since Edom's betrayal is judgment, while Christ's is undeserved."
+      },
+      {
+        "type": "Mount Zion and the kingdom of the LORD",
+        "fulfillment": "The oracle ends with deliverance on Mount Zion and the kingdom belonging to the LORD, verse 21. In Christ the kingdom is announced as near, Mark 1:15, and the writer to the Hebrews tells the church it has come 'to Mount Zion, to the city of the living God,' Hebrews 12:22. The final form is described in Revelation 11:15, where the kingdom of the world becomes the kingdom of the Lord and of His Christ. The type falls short as geography: the Zion of the gospel is a people and a city, not a hill."
+      }
     ],
-    "christ": "The logic that governs Edom's fall, God brings down the proud and lifts the lowly, is the very logic fulfilled in Christ. Jesus is the true servant of the LORD, whose name Obadiah bears in shadow; He humbled Himself to the point of death and was therefore exalted to the highest place, Philippians 2:6-11. Edom trusted its heights and was brought down; Christ descended low and was raised up, and in Him every proud power arrayed against God is destined to be pillaged and left with no survivor. The kingdom that Edom's fall clears the way for is His.",
-    "god": "The LORD is sovereign over all nations, summoning them like a general marshalling troops. He is the God who resists pride, seeing through the boasts of the heart and toppling the strongest fortress. He is thorough in justice, searching out hidden treasures and turning trusted allies into betrayers, so that no false security remains. Yet even this severity serves His faithfulness to His own people, whom Edom had wronged.",
+    "christ": "Obadiah is a short and severe book, and the connection with Christ is not on its surface. It runs through pride, kingship and the brother, and each of them is worth following with care.\n\nThe first thread is the reversal of pride. Edom's boast, 'Who can bring me down to the ground?' is answered by 'from there I will bring you down,' verse 4. Isaiah 14:13-15 uses the same pattern of the one who says in his heart, 'I will ascend to the heavens,' and 'I will make myself like the Most High.' The pattern shows a creature grasping at God's place. Against it the New Testament sets Christ, who 'did not consider equality with God something to be grasped, but emptied Himself, taking the form of a servant,' Philippians 2:6-7. The one who was in the form of God went down, and 'therefore God exalted Him to the highest place,' Philippians 2:9. Jesus drew the rule from His own path: 'everyone who exalts himself will be humbled, and the one who humbles himself will be exalted,' Luke 14:11. Obadiah is the dark side of that sentence, and the cross and the resurrection are the bright side.\n\nThe second thread is the Day of the LORD. Verse 15 says that this day is near for all nations, and that what Edom did will be done to it. The New Testament teaches that the Father has given all judgment to the Son, John 5:22, and that every knee will bow, Philippians 2:10-11. The day of Obadiah is the day Christ will bring. It makes sense of Isaiah 63:1-4, where a warrior coming from Edom and Bozrah with stained garments announces vindication and is 'mighty to save,' language the book of Revelation applies to the rider on the white horse, Revelation 19:11-16.\n\nThe third thread is the brother. Edom's offence is against 'your brother Jacob,' verse 10. It is a story of fraternal betrayal in which the one who should have protected stood aside. The gospel answers with a different Brother. Hebrews says Christ is not ashamed to call His people brothers, Hebrews 2:11. Where Edom stood aloof on the day of disaster, Christ entered the day of disaster for His people and shared their flesh and blood, Hebrews 2:14. Where Edom cut off the fugitives, Christ went after the lost, Luke 19:10.\n\nThe fourth thread is the kingdom. Obadiah's final sentence, 'the kingdom will belong to the LORD,' is the point toward which the book moves. In Christ the kingdom has come near, Mark 1:15, and the writer of Hebrews says believers have come to Mount Zion, the city of the living God, Hebrews 12:22. Revelation 11:15 describes the day when the kingdom of the world becomes the kingdom of the Lord and of His Christ.\n\nObadiah is not a hidden allegory about Jesus, and Edom should not be read as a code for any single enemy of the church. The links rest on patterns the New Testament itself uses: the fall of the proud, the exaltation of the humble, the Day of the LORD and the kingdom of God.",
+    "god": "Obadiah shows a God who governs nations and who is not deceived by the walls and ledges of the powerful. The oracle begins, 'This is what the Lord GOD says about Edom,' verse 1, and it takes for granted that the LORD of Israel is the Judge of a foreign people who do not know His name. He assembles the nations as His envoys, and the very powers that Edom counted on become His instruments. This is a God whose sovereignty is not limited by borders.\n\nHe sees what is hidden. 'His hidden treasures sought out,' verse 6, and 'the pride of your heart,' verse 3, are alike open to Him. The prophet describes a God who knows what a nation says in its heart. Edom said, 'Who can bring me down?' in a place where no one else could hear it, and the LORD answers the unspoken boast. The same truth appears in Hebrews 4:13: 'Nothing in all creation is hidden from God's sight.'\n\nHe is just, and His justice answers like for like. Verse 15 states the principle, 'As you have done, it will be done to you.' The punishment of Edom corresponds to its sin. The brother who stood aloof will be stood aloof from, and the friend who betrayed will be betrayed. This is not arbitrary severity but proportion.\n\nHe opposes the proud. The holiness of God does not allow a rival. Isaiah 2:11 says 'the LORD alone will be exalted in that day.' James 4:6 says 'God opposes the proud, but gives grace to the humble.' The same God who brings down Edom's nest gives grace to those who bow, and the oracle leaves room for that grace. Even the most severe prophecy about Edom sits beside the Torah's command not to despise an Edomite, Deuteronomy 23:7, and Amos's promise that the remnant of Edom is included in David's restored tent, Amos 9:12.\n\nHe is faithful to a wounded people. The oracle is addressed to Edom, but it is spoken for Judah. The God who hears the cry of 'Tear it down!' in Psalm 137:7 does not forget it. In judging the nation that gloated, He declares that the suffering of His people is not invisible to Him. His faithfulness to His covenant is the reason the book ends with Zion's deliverance.\n\nHe is the king. The final line, 'the kingdom will belong to the LORD,' says that the rule of God is the destination of history and that all lesser kingdoms are provisional. This is the heart of the book's doctrine of God.\n\nFor worship, the oracle asks us to bring our high places to God. It invites us to thank Him that He is a defender of the wronged, and to ask Him to search the nests we have built for ourselves. It calls for trembling at His justice and trust in His kingdom.",
     "crossReferences": [
-      { "ref": "Genesis 25:23-30", "note": "The birth of Jacob and Esau and the sale of the birthright, the origin of the brother-nations and their rivalry." },
-      { "ref": "Jeremiah 49:7-22", "note": "A closely parallel oracle against Edom, sharing much wording with Obadiah 1:1-9." },
-      { "ref": "Proverbs 16:18", "note": "Pride goes before destruction, and a haughty spirit before a fall, the very pattern of Edom's downfall." },
-      { "ref": "James 4:6", "note": "God opposes the proud but gives grace to the humble, the New Testament summary of Edom's judgment." }
+      {
+        "ref": "Jeremiah 49:7-22",
+        "note": "Jeremiah's own oracle on the same nation. Verse 9 matches Obadiah 5, and Jeremiah 49:14-16 matches Obadiah 1 to 4, including the envoy among the nations, the eagle's nest and the line 'even from there I will bring you down.' Reading the two together shows two prophets repeating a settled word about Edom's pride."
+      },
+      {
+        "ref": "Genesis 25:23-34",
+        "note": "The oracle of Obadiah is the end of a story that begins here. Two nations are in Rebekah's womb, the older will serve the younger, and Esau despises his birthright for a bowl of red stew. The word for despised in Genesis 25:34 returns in Obadiah 2, where Edom will be despised among the nations."
+      },
+      {
+        "ref": "Genesis 3:13",
+        "note": "The woman says, 'The serpent deceived me,' using the same verb that Obadiah 3 uses when it says the pride of Edom's heart has deceived it. The two verses place pride in the same family as the garden lie, a deception that persuades a creature it will not be held to account."
+      },
+      {
+        "ref": "Numbers 20:14-21",
+        "note": "Moses sends a courteous message to the king of Edom, asking for passage on the King's Highway and promising to pay for water. Edom comes out with a large army to block him. The refusal is the first recorded act of Edom's hostility to a brother nation, and it explains why Obadiah calls Israel Edom's brother."
+      },
+      {
+        "ref": "Psalm 137:7",
+        "note": "The sons of Edom said on the day Jerusalem fell, 'Destroy it, tear it down to its foundations!' This is the cry that Obadiah answers. The psalmist asks the LORD to remember it, and the prophet's oracle is the LORD's reply."
+      },
+      {
+        "ref": "Amos 1:11-12",
+        "note": "Amos had already condemned Edom for pursuing his brother with the sword and stifling all compassion, and promised fire on Teman and the citadels of Bozrah. Teman appears again in Obadiah 9. The two prophets bring the same charge, from different centuries, against the same sin."
+      },
+      {
+        "ref": "Ezekiel 35:5",
+        "note": "Ezekiel's oracle against Mount Seir accuses Edom of an 'ancient hatred' that delivered Israel to the sword in the time of her disaster. The 'ancient' word links the sin to Esau and Jacob, and the chapter develops the theme that Edom's boast against Israel was a boast against the LORD."
+      },
+      {
+        "ref": "Isaiah 14:13-15",
+        "note": "The king who says in his heart, 'I will ascend to the heavens,' is brought down to Sheol. It is the same pattern as Obadiah 3 and 4, where the heart's boast is answered by 'from there I will bring you down.' Both oracles show pride aiming at the stars and God removing the ladder."
+      },
+      {
+        "ref": "Malachi 1:2-5",
+        "note": "Long after the destruction, Edom speaks of rebuilding the ruins, and the LORD says they may build but He will demolish. Malachi ends with Israel's recognizing that the LORD is great beyond its borders, which is the response Obadiah hopes for from the survivors."
+      },
+      {
+        "ref": "James 4:6",
+        "note": "'God opposes the proud, but gives grace to the humble.' James quotes Proverbs 3:34, and the verse states in a sentence what Obadiah shows in a nation. The opposition to the proud and the grace to the humble are the two halves of God's response to every heart."
+      }
     ],
-    "oneStory": "Obadiah opens the indictment of Edom, Jacob's brother turned foe, whose pride perched among the rocks is about to be pulled down. In the sweep of Scripture this is one more instance of God humbling proud human power, from Babel to Babylon to Edom, and it clears the ground for the promise at the book's close: the kingdom will belong to the LORD, a kingdom secured in the humble, exalted Christ.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "No sermon on Obadiah 1:1-9 from a trusted expositor could be confirmed by web search in this session, so none is listed." }
+    "oneStory": "The Bible's story is about a rift and its healing, and the rift begins within a family. Cain kills Abel, Ishmael is sent from Isaac, and Esau and Jacob struggle in the womb. Each generation seems to repeat the first fracture of Genesis 3, in which a creature distrusts God and then blames or harms another. Obadiah belongs to this line. It is the story of the brother who, on the day his brother was thrown down, stood aloof and then joined the plunder.\n\nThe book also answers a question the story has been asking since Eden: does anyone get away with it? Edom thought so. The heights, the allies, the wise men and the mighty men made a world in which no judgment could reach. In the Genesis account the first attempt to hide from God is a failure, and Obadiah's 'from there I will bring you down' is the same truth said to a nation. The pride that told Eve she would not die is the pride that told Edom no one could bring it down.\n\nThe oracle also fits the story of exile. Israel is sent from the land by Babylon, and Edom takes advantage. The prophets who comfort the exiles often do so by promising that the oppressors will be called to account. Psalm 137 begins with weeping and ends with a cry for justice, and Obadiah is part of God's answer. The kingdom, in the end, will not belong to Edom or Babylon but to the LORD, and the exiles who were scattered will return, verses 17 to 21.\n\nAmos 9:12 makes clear that this is not the whole message about Edom. David's fallen tent is to be rebuilt so that the remnant of Edom and all the nations bearing God's name may be included. The God who humbles Edom's pride also opens a place for its people. Paul sees the same pattern when he quotes the old prophecy about Jacob and Esau and then goes on to describe a mercy that gathers both Jew and Gentile, Romans 9:13 and 9:24.\n\nThe story ends with the kingdom of the world becoming the kingdom of the Lord and of His Christ, Revelation 11:15. The proud are brought down, the humble are raised, and the brothers who were estranged are gathered in one household. Babylon, who sits as queen and says she will never see grief, falls as Edom fell, Revelation 18:7. And the Lamb, who humbled Himself to death, is the one who reigns.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": "No sermon on Obadiah 1:1-9 from a trusted expositor could be confirmed by web search in this session, so none is listed."
+    }
   },
   "quiz": [
     {
       "q": "What is the root sin for which Edom is judged in this passage?",
       "options": [
-        { "text": "The pride of its heart, which deceived it into thinking it could not be brought down.", "weight": 100, "note": "Verse 3 names the pride of your heart as the deceiver at the core of Edom's fall." },
-        { "text": "Its worship of foreign idols.", "weight": 75, "note": "Idolatry is a real evil, but this passage centres on pride, not idolatry." },
-        { "text": "Its failure to build strong enough fortresses.", "weight": 25, "note": "Edom's fortresses were strong; the point is that no height can save from God." },
-        { "text": "Its refusal to trade with the surrounding nations.", "weight": 0, "note": "The text says nothing of trade refusal; the issue is arrogant pride." }
+        {
+          "text": "The pride of its heart, which deceived it into thinking it could not be brought down.",
+          "weight": 100,
+          "note": "Verse 3 names the pride of your heart as the deceiver at the core of Edom's fall."
+        },
+        {
+          "text": "Its worship of foreign idols.",
+          "weight": 75,
+          "note": "Idolatry is a real evil, but this passage centres on pride, not idolatry."
+        },
+        {
+          "text": "Its failure to build strong enough fortresses.",
+          "weight": 25,
+          "note": "Edom's fortresses were strong; the point is that no height can save from God."
+        },
+        {
+          "text": "Its refusal to trade with the surrounding nations.",
+          "weight": 0,
+          "note": "The text says nothing of trade refusal; the issue is arrogant pride."
+        }
       ]
     },
     {
       "q": "How does God answer Edom's boast, ‘Who can bring me down to the ground?’",
       "options": [
-        { "text": "Though you nest among the stars, even from there I will bring you down.", "weight": 100, "note": "Verse 4 answers the boast with its exact reversal by the LORD's own hand." },
-        { "text": "He warns them to fortify their cities further.", "weight": 25, "note": "The opposite: no fortification can help; God Himself will bring them down." },
-        { "text": "He promises to spare them if they pay tribute.", "weight": 0, "note": "No offer of tribute appears; judgment is announced as certain." },
-        { "text": "He leaves the matter to the surrounding nations to decide.", "weight": 75, "note": "God summons the nations as His instrument, but the decisive bringing down is His own act." }
+        {
+          "text": "Though you nest among the stars, even from there I will bring you down.",
+          "weight": 100,
+          "note": "Verse 4 answers the boast with its exact reversal by the LORD's own hand."
+        },
+        {
+          "text": "He warns them to fortify their cities further.",
+          "weight": 25,
+          "note": "The opposite: no fortification can help; God Himself will bring them down."
+        },
+        {
+          "text": "He promises to spare them if they pay tribute.",
+          "weight": 0,
+          "note": "No offer of tribute appears; judgment is announced as certain."
+        },
+        {
+          "text": "He leaves the matter to the surrounding nations to decide.",
+          "weight": 75,
+          "note": "God summons the nations as His instrument, but the decisive bringing down is His own act."
+        }
       ]
     },
     {
       "q": "What does the name Obadiah mean, and why does it fit the book?",
       "options": [
-        { "text": "Servant of the LORD; a lowly servant is sent against the proudest of nations.", "weight": 100, "note": "The humble servant announcing the fall of pride is a fitting contrast at the head of the book." },
-        { "text": "Warrior of the LORD; it signals a call to arms.", "weight": 25, "note": "There is a summons to battle, but the name means servant, not warrior." },
-        { "text": "Vision of God; it names the prophetic gift.", "weight": 75, "note": "The book does open with a vision, but the name itself means servant of the LORD." },
-        { "text": "Judge of Edom; it names his office over Edom.", "weight": 0, "note": "Obadiah is a prophet, not a judge, and the name means servant of the LORD." }
+        {
+          "text": "Servant of the LORD; a lowly servant is sent against the proudest of nations.",
+          "weight": 100,
+          "note": "The humble servant announcing the fall of pride is a fitting contrast at the head of the book."
+        },
+        {
+          "text": "Warrior of the LORD; it signals a call to arms.",
+          "weight": 25,
+          "note": "There is a summons to battle, but the name means servant, not warrior."
+        },
+        {
+          "text": "Vision of God; it names the prophetic gift.",
+          "weight": 75,
+          "note": "The book does open with a vision, but the name itself means servant of the LORD."
+        },
+        {
+          "text": "Judge of Edom; it names his office over Edom.",
+          "weight": 0,
+          "note": "Obadiah is a prophet, not a judge, and the name means servant of the LORD."
+        }
       ]
     },
     {
       "q": "How complete will Edom's ruin be, according to verses 5 to 9?",
       "options": [
-        { "text": "More thorough than thieves or gleaners; even hidden treasures, wise men, and mighty men are undone.", "weight": 100, "note": "Verses 5 to 9 stress a ruin that leaves nothing, unlike thieves who take only some or gatherers who leave gleanings." },
-        { "text": "Partial, leaving the wise men and warriors untouched.", "weight": 75, "note": "The opposite: the wise men and mighty men are named as failing too." },
-        { "text": "Limited to the loss of a few border towns.", "weight": 25, "note": "The judgment is national and total, not a minor border loss." },
-        { "text": "Only a temporary setback soon reversed.", "weight": 0, "note": "The oracle describes a lasting downfall, not a passing setback." }
+        {
+          "text": "More thorough than thieves or gleaners; even hidden treasures, wise men, and mighty men are undone.",
+          "weight": 100,
+          "note": "Verses 5 to 9 stress a ruin that leaves nothing, unlike thieves who take only some or gatherers who leave gleanings."
+        },
+        {
+          "text": "Partial, leaving the wise men and warriors untouched.",
+          "weight": 75,
+          "note": "The opposite: the wise men and mighty men are named as failing too."
+        },
+        {
+          "text": "Limited to the loss of a few border towns.",
+          "weight": 25,
+          "note": "The judgment is national and total, not a minor border loss."
+        },
+        {
+          "text": "Only a temporary setback soon reversed.",
+          "weight": 0,
+          "note": "The oracle describes a lasting downfall, not a passing setback."
+        }
       ]
     },
     {
       "q": "Who is Edom, and why does that matter to the message?",
       "options": [
-        { "text": "The nation of Esau, Jacob's twin brother; the brother-bond deepens the offence of its treachery.", "weight": 100, "note": "Edom descends from Esau, so its coming violence against Jacob is betrayal of a brother." },
-        { "text": "A distant unrelated empire with no link to Israel.", "weight": 25, "note": "Edom is not unrelated; it is the brother-nation, which is central to the book." },
-        { "text": "A tribe within Israel that had rebelled.", "weight": 75, "note": "Edom is kin to Israel, but a separate nation descended from Esau, not a tribe within Israel." },
-        { "text": "Another name for the Babylonians.", "weight": 0, "note": "Babylon was the invader; Edom is the brother-nation that stood by and gloated." }
+        {
+          "text": "The nation of Esau, Jacob's twin brother; the brother-bond deepens the offence of its treachery.",
+          "weight": 100,
+          "note": "Edom descends from Esau, so its coming violence against Jacob is betrayal of a brother."
+        },
+        {
+          "text": "A distant unrelated empire with no link to Israel.",
+          "weight": 25,
+          "note": "Edom is not unrelated; it is the brother-nation, which is central to the book."
+        },
+        {
+          "text": "A tribe within Israel that had rebelled.",
+          "weight": 75,
+          "note": "Edom is kin to Israel, but a separate nation descended from Esau, not a tribe within Israel."
+        },
+        {
+          "text": "Another name for the Babylonians.",
+          "weight": 0,
+          "note": "Babylon was the invader; Edom is the brother-nation that stood by and gloated."
+        }
       ]
     }
   ],
@@ -152,9 +372,21 @@
     "Scripture says God opposes the proud but gives grace to the humble. Where do you need to humble yourself before Him this week and receive that grace?"
   ],
   "translationNotes": [
-    { "ref": "Obadiah 1:3", "note": "The clefts of the rocks renders a phrase the BSB footnote also gives as the retreats of Sela; Sela, meaning rock, was an Edomite stronghold in the heights, so the image and the place name reinforce one another." },
-    { "ref": "Obadiah 1:7", "note": "Those who eat your bread is marked in the BSB footnote as not present in the Hebrew, which reads more compactly; the phrase is supplied for sense, naming the trusted table companions who betray Edom." },
-    { "ref": "Obadiah 1:9", "note": "Teman is a chief district or city of Edom, here standing for Edom's warriors as a whole; its mighty men are said to be terrified and cut down." }
+    {
+      "ref": "Obadiah 1:3",
+      "note": "The clefts of the rocks renders a phrase the BSB footnote also gives as the retreats of Sela; Sela, meaning rock, was an Edomite stronghold in the heights, so the image and the place name reinforce one another."
+    },
+    {
+      "ref": "Obadiah 1:7",
+      "note": "Those who eat your bread is marked in the BSB footnote as not present in the Hebrew, which reads more compactly; the phrase is supplied for sense, naming the trusted table companions who betray Edom."
+    },
+    {
+      "ref": "Obadiah 1:9",
+      "note": "Teman is a chief district or city of Edom, here standing for Edom's warriors as a whole; its mighty men are said to be terrified and cut down."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Obadiah 1:1-9." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Obadiah 1:1-9."
+  }
 }

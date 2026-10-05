@@ -18,10 +18,26 @@
         "note": "the temple struck down",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 9, "n": 1, "text": "I saw the Lord standing beside the {{mizbeach|altar}}, and He said: “Strike the tops of the pillars so that the thresholds shake. Topple them on the heads of all the people, and I will kill the rest with the sword. None of those who flee will get away; none of the fugitives will escape." },
-          { "chapter": 9, "n": 2, "text": "Though they dig down to {{sheol|Sheol}}, from there My hand will take them; and though they climb up to heaven, from there I will pull them down." },
-          { "chapter": 9, "n": 3, "text": "Though they hide themselves atop Carmel, there I will track them and seize them; and though they hide from Me at the bottom of the sea, there I will command the serpent to bite them." },
-          { "chapter": 9, "n": 4, "text": "Though they are driven by their enemies into captivity, there I will command the sword to slay them. I will fix My eyes upon them for harm and not for good.”" }
+          {
+            "chapter": 9,
+            "n": 1,
+            "text": "I saw the Lord standing beside the {{mizbeach|altar}}, and He said: “Strike the tops of the pillars so that the thresholds shake. Topple them on the heads of all the people, and I will kill the rest with the sword. None of those who flee will get away; none of the fugitives will escape."
+          },
+          {
+            "chapter": 9,
+            "n": 2,
+            "text": "Though they dig down to {{sheol|Sheol}}, from there My hand will take them; and though they climb up to heaven, from there I will pull them down."
+          },
+          {
+            "chapter": 9,
+            "n": 3,
+            "text": "Though they hide themselves atop Carmel, there I will track them and seize them; and though they hide from Me at the bottom of the sea, there I will command the serpent to bite them."
+          },
+          {
+            "chapter": 9,
+            "n": 4,
+            "text": "Though they are driven by their enemies into captivity, there I will command the sword to slay them. I will fix My eyes upon them for harm and not for good.”"
+          }
         ]
       },
       {
@@ -29,9 +45,21 @@
         "note": "He touches the earth and it melts",
         "emphasis": "",
         "verses": [
-          { "chapter": 9, "n": 5, "text": "The Lord GOD of Hosts, He who touches the earth and it melts, and all its dwellers mourn, all the land rises like the Nile, then sinks like the river of Egypt," },
-          { "chapter": 9, "n": 6, "text": "He builds His upper rooms in the heavens and founds His vault upon the earth. He summons the waters of the sea and pours them over the face of the earth. The LORD is His name." },
-          { "chapter": 9, "n": 7, "text": "“Are you not like the Cushites to Me, O children of Israel?” declares the LORD. “Did I not bring Israel up from the land of Egypt, the Philistines from Caphtor, and the Arameans from Kir?" }
+          {
+            "chapter": 9,
+            "n": 5,
+            "text": "The Lord GOD of Hosts, He who touches the earth and it melts, and all its dwellers mourn, all the land rises like the Nile, then sinks like the river of Egypt,"
+          },
+          {
+            "chapter": 9,
+            "n": 6,
+            "text": "He builds His upper rooms in the heavens and founds His vault upon the earth. He summons the waters of the sea and pours them over the face of the earth. The LORD is His name."
+          },
+          {
+            "chapter": 9,
+            "n": 7,
+            "text": "“Are you not like the Cushites to Me, O children of Israel?” declares the LORD. “Did I not bring Israel up from the land of Egypt, the Philistines from Caphtor, and the Arameans from Kir?"
+          }
         ]
       },
       {
@@ -39,16 +67,38 @@
         "note": "the sinful kingdom destroyed, Jacob preserved",
         "emphasis": "",
         "verses": [
-          { "chapter": 9, "n": 8, "text": "Surely the eyes of the Lord GOD are on the sinful kingdom, and I will destroy it from the face of the earth. Yet I will not utterly destroy the house of Jacob,” declares the LORD." },
-          { "chapter": 9, "n": 9, "text": "“For surely I will give the command, and I will shake the house of Israel among all the nations as grain is sifted in a sieve; but not a pebble will reach the ground." },
-          { "chapter": 9, "n": 10, "text": "All the sinners among My people will die by the sword, all those who say, ‘Disaster will never draw near or confront us.’”" }
+          {
+            "chapter": 9,
+            "n": 8,
+            "text": "Surely the eyes of the Lord GOD are on the sinful kingdom, and I will destroy it from the face of the earth. Yet I will not utterly destroy the house of Jacob,” declares the LORD."
+          },
+          {
+            "chapter": 9,
+            "n": 9,
+            "text": "“For surely I will give the command, and I will shake the house of Israel among all the nations as grain is sifted in a sieve; but not a pebble will reach the ground."
+          },
+          {
+            "chapter": 9,
+            "n": 10,
+            "text": "All the sinners among My people will die by the sword, all those who say, ‘Disaster will never draw near or confront us.’”"
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "mizbeach": { "language": "Hebrew", "lemma": "mizbeach", "original": "מִזְבֵּחַ", "gloss": "An altar, the place of sacrifice where sinners came to seek atonement and favor. In the final vision the LORD stands beside the mizbeach, not to receive worship but to command its destruction, toppling the very sanctuary on the heads of the worshipers. The place they trusted for safety becomes the epicenter of judgment, for an altar approached with unrepentant hearts and corrupted worship offers no shelter from God." },
-    "sheol": { "language": "Hebrew", "lemma": "she'ol", "original": "שְׁאוֹל", "gloss": "Sheol, the realm of the dead, the grave, the deepest place imaginable. Amos names it as the lowest point of a cosmic sweep, from Sheol below to heaven above, from Carmel's heights to the sea's floor, to declare that no place in all creation lies beyond God's reach. The God from whom the guilty try to flee is the God who fills every region of the universe; there is nowhere to hide from His hand." }
+    "mizbeach": {
+      "language": "Hebrew",
+      "lemma": "mizbeach",
+      "original": "מִזְבֵּחַ",
+      "gloss": "An altar, the place of sacrifice where sinners came to seek atonement and favor. In the final vision the LORD stands beside the mizbeach, not to receive worship but to command its destruction, toppling the very sanctuary on the heads of the worshipers. The place they trusted for safety becomes the epicenter of judgment, for an altar approached with unrepentant hearts and corrupted worship offers no shelter from God."
+    },
+    "sheol": {
+      "language": "Hebrew",
+      "lemma": "she'ol",
+      "original": "שְׁאוֹל",
+      "gloss": "Sheol, the realm of the dead, the grave, the deepest place imaginable. Amos names it as the lowest point of a cosmic sweep, from Sheol below to heaven above, from Carmel's heights to the sea's floor, to declare that no place in all creation lies beyond God's reach. The God from whom the guilty try to flee is the God who fills every region of the universe; there is nowhere to hide from His hand."
+    }
   },
   "study": {
     "basic": {
@@ -61,85 +111,248 @@
       "crossReferences": "Psalm 139:7-12 asks where one can flee from God's presence, and finds nowhere. Luke 22:31-32 shows Satan seeking to sift Peter, yet Christ praying that his faith not fail. John 6:39 says Christ will lose none the Father gives Him. Romans 11:5 speaks of a remnant chosen by grace."
     },
     "context": {
-      "literary": "This fifth vision differs from the first four in form: there is no basket or plumb line to interpret, but the LORD Himself acting and speaking at the altar. It is followed by a creation hymn, the third in the book, magnifying the God no one can flee. The unit moves from total judgment to a carefully qualified mercy, the hinge word being the yet of verse eight, Yet I will not utterly destroy the house of Jacob, which prepares for the restoration promised in the closing verses.",
-      "historical": "The altar is most likely the one at Bethel, the royal shrine already condemned, so its destruction strikes at the heart of the northern kingdom's false worship. Carmel's wooded heights and caves offered natural hiding places, and the sea represented the farthest edge of the known world. The reminder about the Cushites, Philistines from Caphtor, and Arameans from Kir shatters Israel's assumption that the exodus made them untouchable; God directs the migrations of all peoples.",
-      "canonical": "The theme of nowhere to hide echoes Psalm 139 and looks ahead to the final judgment. The promise that not one grain is lost in the sifting joins the remnant thread running through the prophets, is echoed in Christ's prayer that Peter's faith not fail, and is fulfilled in Jesus keeping all the Father gives Him. The distinction between the sinful kingdom destroyed and the house of Jacob preserved sets up the restoration of David's fallen tent in the book's final movement."
+      "literary": "This is the fifth and last vision, and it differs from the other four in form. There is no basket, no plumb line, no swarm of locusts and no 'what do you see?' Amos simply says, 'I saw the Lord standing beside the altar,' Amos 9:1, and the vision turns at once into a command. The visual image of the earlier four has given way to the presence of the Judge Himself. The change in form matches the change in message: after four signs, the sign is God.\n\nVerses 1 to 4 are built like a fugue on one word, 'though.' Each hiding place is paired with its opposite. Down to Sheol and up to heaven, verse 2, then the top of Carmel and the bottom of the sea, verse 3, so that the first two pairs cover the vertical axis of the cosmos and the full range from mountaintop to seabed. Verse 4 then adds the horizontal axis, captivity among enemies, and ends with God's eyes, which were the instrument of rescue elsewhere and are here fixed on them 'for harm and not for good.' Each 'though' is answered by a 'there,' so wherever the fugitive runs, God is already there.\n\nAt the centre of the passage stands the hymn of verses 5 and 6, the third of three doxologies in the book, after Amos 4:13 and 5:8-9. Each doxology interrupts a judgment with a statement of who is judging. This one describes the same earthquake as 8:8, the land rising and sinking like the Nile, and then goes on to the cosmic architecture, the upper rooms in the heavens and the vault on the earth. The hymn ends on the name, 'The LORD is His name,' which the earlier hymns also use as their last line.\n\nThe last third, verses 7 to 10, is the surprise. Verse 7 asks two questions that seem to lower Israel's status, verse 8 says the sinful kingdom will be wiped from the earth, and then a hinge word, 'yet,' brings the sieve in verse 9. The passage ends with a restatement of the target, 'all the sinners among My people,' who say 'Disaster will never draw near,' verse 10. The structure never lets the promise hide the sentence or the sentence swallow the promise.",
+      "historical": "The altar is almost certainly the one at Bethel, the royal sanctuary where Amaziah ordered Amos to stop prophesying because it was 'the sanctuary of the king,' Amos 7:13. Amos had already said that God would visit destruction on 'the altars of Bethel' and that the horns of the altar would be cut off, Amos 3:14. The horns of an altar were the place of last resort. A man in danger could seize them, as Joab did in his final hour, 1 Kings 2:28-30, though the law said a deliberate murderer was to be taken from God's altar and put to death, Exodus 21:14. So the vision shows the place where hunted people ran for safety becoming the place where the sentence is carried out.\n\nThe hiding places would have meant something to every listener. Mount Carmel was a thickly wooded headland on the northern coast, a known refuge, and also the place where Elijah had confronted the prophets of Baal a century earlier, 1 Kings 18:19-20. The sea was where Jonah, a contemporary from the same reign, tried to run from the LORD, Jonah 1:3 and 1:4, and learned that the LORD could hurl a wind upon it. Sheol and heaven describe the edges of all that can be imagined.\n\nVerse 7 would have been a shock. Israel prided itself on the exodus. Amos says that the LORD brought up the Philistines from Caphtor, which the Old Testament treats as their homeland across the sea, Deuteronomy 2:23 and Jeremiah 47:4, and the Arameans from Kir, the place Amos has already named as their destination in exile, Amos 1:5. The Cushites came from the far south beyond Egypt, a byword for distance. Israel's neighbours had histories of movement under God too.\n\nThe sentence came as predicted. Jeroboam's son Zechariah was assassinated within months of taking the throne, 2 Kings 15:8-10, and Assyria captured Samaria and deported the Israelites, 2 Kings 17:6. The 'sword' and the 'captivity' of verse 4 were not abstractions but the events of the next three decades.",
+      "canonical": "Behind this passage stands Israel's whole understanding of God's presence. Psalm 139 asks the same question in the first person, 'Where can I flee from Your presence?', and answers with the same list of places: heaven, Sheol, the farthest sea, even the darkness, Psalm 139:7-12. Amos and the psalmist are drawing on a shared confession, but the emotional note is reversed. For the psalmist, God's hand 'will hold me fast.' For Amos, the hand takes. Jeremiah 23:23-24 puts it as a question from God Himself: 'Can a man hide in secret places where I cannot see him?' And Hebrews 4:13 states the lesson for the church: 'Nothing in all creation is hidden from God's sight.'\n\nThe hiding places recur. The call to be covered by the mountains returns in Hosea 10:8, is quoted by Jesus on the road to Calvary, Luke 23:30, and appears at the opening of the sixth seal, where kings and slaves alike hide in caves and call on the rocks to fall on them, Revelation 6:15-17. In Amos the fugitives cannot hide. In Revelation they try, and the answer is the same.\n\nThe altar scene has a close relative in Ezekiel 9, where the executioners stand beside the bronze altar and the slaughter begins at the sanctuary, with a mark placed on those who grieve, Ezekiel 9:1-6. Isaiah's thresholds shook at the voice of the seraphim, Isaiah 6:4, and the vision of Amos turns that glory into judgment.\n\nThe closing sieve has its own long line. The remnant that survives judgment is a major Old Testament theme, Isaiah 6:13, Isaiah 10:20-22 and Zephaniah 3:12-13, and Paul uses it to argue that God's word has not failed, since 'not all who are descended from Israel are Israel,' Romans 9:6 and 11:5. Jesus tells Peter that Satan has asked to sift him like wheat, Luke 22:31-32, and He promises that none of those the Father gave Him will be lost, John 6:39 and 18:9."
     },
     "hermeneutics": {
-      "authorIntent": "To announce that judgment on the unrepentant kingdom is total and inescapable, to strip away every false refuge including privileged history, and yet to reveal that God will preserve a true remnant even through the shaking, so that His justice and His faithfulness stand together.",
-      "descriptionVsPrescription": "The vision describes the judgment coming on Israel and the preserving of a remnant; it is not prescribing human action so much as revealing God's character and purpose. The abiding truths are that none can flee God's justice, that privilege is no substitute for repentance, and that God faithfully keeps His own.",
+      "authorIntent": "Amos wanted the nation to lose its last illusion. The people had come to believe that being Israel was itself a guarantee, that the sanctuary at Bethel would protect them, and that the exodus was a debt God owed them forever. The final vision removes each supposed refuge in turn: the altar becomes the scene of judgment, the hiding places become traps, and the exodus becomes one of several migrations God directed.\n\nHe also wanted the first hearers to take their own election seriously rather than lightly. Amos 3:2 had said, 'Only you have I known from all the families of the earth; therefore I will punish you for all your iniquities.' Verse 7 does not contradict that. It strips away the complacent half of the doctrine, the part that says privilege equals immunity, and leaves the responsible half. Because God knows them, He cannot leave their sin alone.\n\nThe final verses are meant to guard the book from despair. The sieve in verse 9 is not a loophole for the guilty, since verse 10 immediately names the 'sinners among My people' who say disaster will never come. But it assures the faithful that the shaking is an act of care. Not a pebble is lost. The prophet who has spent eight chapters in a prosecutor's voice now speaks as a witness to God's fidelity.",
+      "descriptionVsPrescription": "The passage describes what God will do to a nation that has rejected Him. The command 'Strike the tops of the pillars' is addressed to an unnamed agent and is not a mandate for believers to act against any place of worship. Nor does verse 7 give permission to treat any people as less than another. It describes God's sovereignty, not human hierarchy.\n\nWhat it prescribes by implication is humility and honest self-examination. Those who lean on their religious heritage, their denomination, their baptism or their upbringing as security are in the position of verse 10. The text does not ask believers to be anxious about being lost, since verse 9 is as much a promise as a threat. It asks them to stop saying 'Disaster will never draw near' and to take God's word seriously while there is time.\n\nIt also gives a way to read hardship. Not every shaking is a sign of God's anger, and the passage does not turn suffering into a diagnosis of individual sin. But it does teach that God can use the sieve and the storm, and that a church that is being shaken should ask what is being separated rather than assume nothing is.",
       "debates": [
         {
-          "question": "Does the sifting in verse nine describe judgment on the wicked or protection of the faithful?",
+          "question": "What does verse 7 mean when God says Israel is 'like the Cushites' to Him?",
           "views": [
-            { "label": "Primarily the preserving of the true remnant", "case": "The image of a sieve that lets no good grain fall to the ground stresses that God's shaking, though it scatters Israel among the nations, will not lose a single true kernel; the emphasis falls on faithful preservation through judgment." },
-            { "label": "Primarily the exposure and removal of the sinners", "case": "Verse ten immediately says all the sinners among My people will die by the sword, so the sieve chiefly separates out the worthless who presumed disaster would never touch them, and judgment is the dominant note." }
+            {
+              "label": "Israel's election is cancelled or levelled",
+              "case": "The first question asks, 'Are you not like the Cushites to Me?' and the second adds that He also brought up the Philistines and Arameans. On this reading the exodus gives no special immunity, and election as a status is dismissed. Some readers take this as a rhetorical leveling to shatter the nation's pride."
+            },
+            {
+              "label": "Israel's election stands but no longer protects",
+              "case": "Amos 3:1-2 says God has known Israel alone, and chapter 9 continues to speak of 'My people,' verses 9 and 10. The question is rhetorical, aimed at the assumption that election is a safeguard. Israel is chosen for responsibility, not for exemption."
+            },
+            {
+              "label": "God's sovereignty extends to every nation's history",
+              "case": "The Philistines and Arameans also have exoduses. Their movements are God's work, so no nation lives outside His care and judgment. This fits Isaiah 19:24-25, where Egypt is 'My people' and Assyria 'My handiwork,' and the nations are also to be blessed."
+            }
           ],
-          "bearing": "Both belong together: the same sifting that removes the presumptuous sinners preserves every true grain. Judgment and salvation work through one act, and the remnant is kept precisely by the shaking that destroys false security."
+          "bearing": "These readings need not exclude each other, and the second and third together are the safest. The passage does not abolish election, because the book still speaks of a remnant and a restored tent, Amos 9:11. It does remove the idea that God is Israel's private possession. His rule is wider than the covenant, and the covenant is therefore more demanding, not less."
+        },
+        {
+          "question": "Does 'not a pebble will reach the ground' promise the safety of every individual believer?",
+          "views": [
+            {
+              "label": "The promise is corporate and national",
+              "case": "The sieve shakes 'the house of Israel among all the nations,' verse 9. The text speaks of a people kept through exile, and the survivors are the remnant of Israel as a community. Individuals were killed, and verse 10 says so."
+            },
+            {
+              "label": "The promise reaches every true member of the people",
+              "case": "The pebble is small and individual, and the contrast with 'all the sinners' in verse 10 suggests a division by persons. The New Testament takes up the idea at the level of persons, John 6:39 and 10:28."
+            },
+            {
+              "label": "It holds both",
+              "case": "The remnant is a community, but it is made of persons whom God knows. Jesus' promise to lose none the Father gave Him fits both: God keeps a people by keeping each of them."
+            }
+          ],
+          "bearing": "The surest reading holds both layers. The passage guarantees that God will preserve a people through judgment, and the New Testament applies the same principle to each person the Father gives to the Son. It does not tell any individual that they cannot fall, because verse 10 is addressed to those who assume so."
         }
       ]
     },
-    "originalLanguages": "The vision opens with the LORD stationed beside the mizbeach, the altar, the very place of sacrifice and supposed safety, now the launching point of judgment as the sanctuary is toppled on the worshipers. Amos then sweeps the whole cosmos to show there is no refuge: down to Sheol, the realm of the dead, up to the heavens, atop Carmel, at the bottom of the sea, even into captivity, God's hand reaches all. The creation hymn names Him the one who touches the earth and it melts, who builds His chambers in the heavens and pours out the waters of the sea, the LORD is His name. Then comes the turn: He will destroy the sinful kingdom yet not utterly destroy the house of Jacob, and He will sift Israel among the nations as grain in a sieve so that not one good kernel falls to the ground. Though the word she'erit, remnant, is not used, its reality is unmistakable, the preserved few kept safe through the shaking.",
+    "originalLanguages": "A few details in the Hebrew show how the passage is built.\n\nAmos says the Lord was 'standing beside' the altar, verse 1. The preposition is al, which can mean beside or upon, and it is the same construction used in the third vision, where the Lord was 'standing by a wall' with a plumb line, Amos 7:7. The difference is the object. A wall is measured; an altar is where blood is offered. The vision keeps the pose and changes the scene, so that what had been a surveyor's stance becomes an executioner's.\n\nIn verse 3 the Lord says, 'I will command the serpent to bite them.' The word is nachash, the same word used for the serpent of Genesis 3:1. It is also used of the creature in the sea whom God punishes in Isaiah 27:1, 'Leviathan the fleeing serpent,' the 'dragon of the sea.' Amos does not say which serpent he means, but a hearer who knew Genesis and the sea traditions would hear that even the most chaotic creature in the deep is God's employee. If there is a refuge in the sea, it has already been staffed.\n\nVerse 4 closes the first stanza with an idiom, 'I will fix My eyes upon them for harm and not for good.' The verb is the ordinary verb to set, and the phrase turns a familiar covenant promise upside down. Jeremiah 24:6, speaking of the good figs among the exiles, says, 'I will keep My eyes on them for good.' The same eyes are in the two verses; their purpose is opposite. In chapter 9 God's watchfulness is no longer protective.\n\nVerse 8 uses the root chata, to miss the mark, twice. God has His eyes on 'the sinful kingdom,' hamamlakhah hachatta'ah, and verse 10 speaks of 'the sinners' of His people from the same root. The kingdom as an institution and the sinners as persons are described by one word. The target is not Israel as an ethnic body but sinfulness, wherever it is found, including inside the covenant people.\n\nThe same verse says 'I will not utterly destroy,' using the strong construction in which an infinitive stands beside the finite verb, the form that elsewhere intensifies a promise or warning, as in 'you will surely die' in Genesis 2:17. Here it is negated: not totally, not completely. A threat built from the strongest grammar of destruction is then limited by the 'yet' of the same sentence, and the limit is as firm as the threat.\n\nIn verse 9 the verb 'shake' and the noun 'sieve' belong to the same picture, and the 'pebble' is a word that can also mean a small bag or bundle, as in the bag of silver in Genesis 42:35. Whether it is a pebble or a small stone, it is a thing that falls through a coarse sieve, so what the sieve keeps is the grain, and what it drops is what is worthless. The point of the image is its precision.",
     "typology": [
-      { "type": "The altar that becomes the place of judgment, 9:1", "fulfillment": "The cross, the true altar where the fullness of God's judgment falls on Christ in the place of His people, Hebrews 13:10-12." },
-      { "type": "The God from whom none can hide, 9:2-4", "fulfillment": "The risen Christ before whom all are laid bare, who pursues sinners to save as well as to judge, Hebrews 4:13, Luke 19:10." },
-      { "type": "The sifting that loses no true grain, 9:9", "fulfillment": "Christ, who loses none the Father gives Him and prays that the faith of His own will not fail, John 6:39, Luke 22:31-32." }
+      {
+        "type": "The altar as the place of safety and of judgment",
+        "fulfillment": "A guilty man could run to the horns of the altar, but Joab found it no protection, 1 Kings 2:28-30, and Amos sees God Himself standing there. In Christ the altar becomes the place where the Judge and the sacrifice are one. Hebrews says believers have 'an altar' from which those who serve the old tent cannot eat, Hebrews 13:10, and that Jesus suffered outside the gate, Hebrews 13:12. The type falls short because the altar of Bethel was a human construction and could not protect; the cross is God's own provision."
+      },
+      {
+        "type": "The sieve and the kept grain",
+        "fulfillment": "God shakes Israel as grain in a sieve and loses nothing of value. Jesus takes the image to Peter, saying that Satan has asked to sift all the disciples like wheat while He has prayed that Peter's faith will not fail, Luke 22:31-32, and John says Jesus kept every one the Father gave Him, John 17:12 and 18:9. The correspondence is that sifting divides and preserves at once. The escalation is that Christ's prayer is the thing that holds the grain. The type falls short because the sieve of Amos shakes a nation, while Christ keeps persons by name."
+      },
+      {
+        "type": "The remnant of the house of Jacob",
+        "fulfillment": "The 'house of Jacob' that survives is the seed from which the story goes on. Isaiah calls it a holy seed, a stump from which a shoot grows, Isaiah 6:13 and 11:1. Paul sees the remnant in his own day as those chosen by grace, Romans 11:5, and Christ as the root that grows from it. The correspondence is that God always keeps a few in order to keep His promise. The type falls short because the remnant is saved by grace and not by size or merit, and in Christ that remnant is gathered from every nation, Romans 9:24-26."
+      },
+      {
+        "type": "The inescapable pursuit",
+        "fulfillment": "The relentless hand that finds the fugitive anywhere echoes in Psalm 139, where the same pursuit is grace, and in Luke 15, where the shepherd goes out until he finds the lost sheep, Luke 15:4. In Christ the pursuer who tracks every hiding place is the One who comes seeking and saving the lost, Luke 19:10. The correspondence is the same relentlessness. The type falls short in its purpose: Amos says 'for harm and not for good,' while the Son of Man comes to save."
+      }
     ],
-    "christ": "The final vision opens at the altar, where the God of judgment topples the sanctuary on unrepentant worshipers; the gospel opens at another altar, the cross, where that same judgment falls not on the guilty but on Christ, the true and final sacrifice who bears the wrath in His people's place. The God from whom no sinner can flee, not into Sheol nor heaven nor sea, is the God who in Christ pursues sinners to the ends of the earth, not only to expose but to rescue, for the Son of Man came to seek and to save the lost. And the sifting that lets no true grain fall to the ground is fulfilled in Jesus, who holds His own so securely that He will lose none the Father has given Him, and who prayed for Peter when Satan demanded to sift him, that his faith would not fail. Judgment and salvation meet in Christ: He endures the shaking so that His people are kept.",
-    "god": "God is inescapable, for He is the Creator who fills and rules every region of the universe He made; the guilty imagination cannot conceive a hiding place He does not already occupy. He is impartial, refusing to let Israel hide behind its privileged history, since the God who brought Israel from Egypt also guided the Philistines and Arameans and holds all nations in His hand. He is terrifying in justice, standing at the altar to bring down the house of false worship. Yet in the same breath He is faithful in mercy, drawing a firm line between the sinful kingdom He will destroy and the house of Jacob He will not utterly destroy, and promising that His sifting will lose no true grain. He is at once the God no one can flee and the God who will not let His own be lost.",
+    "christ": "Amos 9 does not mention a Messiah, and it is better to say so plainly than to hunt for hidden code. The passage leads to Christ by the New Testament's own habits of thought, and there are four of them.\n\nThe first is the altar. In Amos the altar is where the Lord stands to strike, because the worship around it has become a refuge for the guilty. In the New Testament the altar is where the Lord Himself is offered. Hebrews tells believers that Jesus 'suffered outside the gate' to make the people holy through His own blood, Hebrews 13:12, and the cross is the place where judgment and mercy meet in one person. The judgment Amos hears falling from the altar falls, in the gospel, on the One who went there for others.\n\nThe second is the shaking. Amos pictures a God who shakes the thresholds and shakes Israel in the sieve. Hebrews picks up the language of shaking and applies it to the final day, 'Once more I will shake not only the earth, but heaven as well,' Hebrews 12:26. The point is that what can be shaken will go, so that the unshakable may remain, and believers receive an unshakable kingdom, Hebrews 12:27-28. Christ is the foundation that remains.\n\nThe third is the kept grain. Jesus told His disciples that He would lose none of those the Father gave Him, John 6:39. In the garden He said, 'I have not lost one of those You have given Me,' John 18:9, and He said of His sheep, 'No one can snatch them out of My hand,' John 10:28. The hand of Amos 9:2, which pulls the sinner down from heaven, is replaced in John 10 by a hand that nobody can pry open. The same grasp that no fugitive can escape is the grasp that no believer can be pulled from. This is why the passage can threaten and comfort without contradicting itself: the God who finds His enemies is the God who keeps His own.\n\nThe fourth is the leveling of verse 7, which prepares for the gospel's welcome of the nations. If the Cushites and Philistines are as much His concern as Israel, then the way is open for a salvation that crosses ethnic lines. Peter learned this at Cornelius's house, 'God does not show favoritism, but welcomes those from every nation who fear Him and do what is right,' Acts 10:34-35. The passage that humbles Israel is the same one that, at the end of the chapter, will promise the rebuilding of David's tent so that the nations may seek the Lord, Amos 9:11-12.\n\nA caution keeps the reading honest. The passage is not an allegory in which the sieve is the cross or the pillars are Calvary. What can be said is that Amos describes the inescapable justice and the preserving grace of God, and Christ is where both are met.",
+    "god": "The God of this passage is a God of unlimited presence, and Amos does not soften it. 'Though they dig down to Sheol, from there My hand will take them,' verse 2. His reach covers the deepest place, the highest, the wildest and the sea. This is the same God whom the psalmist found comforting in Psalm 139:7-12, and the difference is not in God but in the heart of the person who faces Him. The omnipresence of God is good news for a person who longs to be held and bad news for one who wants to hide.\n\nHe is also the Creator of the cosmos, as the hymn of verses 5 and 6 declares. He builds His chambers in the heavens and founds His vault on the earth, and He summons the sea and pours it out over the land. The power that can cause the earth to melt and the land to rise and sink like the Nile is the same power that determines where every Philistine and Aramean settled. There is no part of the world where another authority governs. The title 'LORD God of Hosts' in verse 5 gathers all the armies of heaven under His command.\n\nHe is impartial and yet covenant-keeping. Verse 7 says He does not treat Israel as exempt from His standards, and Romans 2:11 will say that God 'does not show favoritism.' Yet He does not drop the covenant: 'I will not utterly destroy the house of Jacob,' verse 8. The tension between impartial justice and faithful promise is one of the major tensions in the doctrine of God, and the passage holds it in a single breath. Israel will be judged more severely because it knew more, and it will not be destroyed because God promised more.\n\nHe is a God who judges His own house first. The sinners 'among My people' die by the sword, verse 10. Peter says it plainly, 'it is time for judgment to begin with the family of God,' 1 Peter 4:17. Those who assume that membership shields them from judgment have misread the God who made the covenant.\n\nHe is also a God who preserves with precision. The sieve is an image of discernment. He shakes the whole nation, and He loses no grain. His knowledge extends to the individual pebble, and His power is sufficient to keep it. Deuteronomy 32:39 says, 'I wound and I heal, and there is no one who can deliver from My hand,' and the verse cuts both ways: no one can deliver from His hand, and no one can take from it.\n\nFor worship, the passage calls us to fear and trust at once. The fear is the right response to a God who sees through every hiding place. The trust is the right response to a God who does not lose what is His. We are not asked to choose between them, only to bring both to Him.",
     "crossReferences": [
-      { "ref": "Psalm 139:7-12", "note": "Where can one flee from God's presence? Not to heaven, Sheol, or the far sea, the same cosmic sweep Amos uses to show no escape." },
-      { "ref": "Luke 22:31-32", "note": "Satan demanded to sift Peter like wheat, but Christ prayed that his faith would not fail, fulfilling the promise that no true grain is lost." },
-      { "ref": "John 6:39", "note": "Christ will lose none of all that the Father has given Him but will raise them up, the fulfillment of the preserving sieve." },
-      { "ref": "Romans 11:5", "note": "At the present time there is a remnant chosen by grace, the surviving people whose preservation Amos foresees." }
+      {
+        "ref": "Psalm 139:7-12",
+        "note": "The same list of places, heaven, Sheol, the far sea and the dark, but treated in the first person as comfort. Reading it beside Amos 9:2-3 shows that God's omnipresence is neither good nor bad news in itself; it depends on whether one is running toward Him or from Him."
+      },
+      {
+        "ref": "Jonah 1:3",
+        "note": "Jonah, a prophet of Amos's own era, tries to flee from the presence of the LORD by sea, and the LORD hurls a wind upon the water. Jonah is the living example of what Amos 9:3 means when it speaks of hiding at the bottom of the sea. The story also shows that a pursuing God can pursue for rescue."
+      },
+      {
+        "ref": "1 Kings 2:28-30",
+        "note": "Joab flees to the tent of the LORD and takes hold of the horns of the altar, but Solomon's officer finds him there. The scene shows what the altar had come to mean as a place of refuge, and why Amos's picture of the Lord standing beside the altar to strike is so unsettling."
+      },
+      {
+        "ref": "Amos 3:2",
+        "note": "The key to verse 7. God has known Israel alone among all the families of the earth, and that is the reason He will punish them. Election does not cancel responsibility; it raises it. Read together, the two verses show that Amos is dismantling a misuse of election, not the election itself."
+      },
+      {
+        "ref": "Isaiah 19:24-25",
+        "note": "Egypt is called 'My people,' Assyria 'My handiwork' and Israel 'My inheritance.' This is the positive side of Amos 9:7: the nations that God moved are also the nations He blesses. It shows that the levelling of verse 7 can lead to blessing as well as judgment."
+      },
+      {
+        "ref": "Hosea 10:8",
+        "note": "The people will say to the mountains, 'Cover us!' and to the hills, 'Fall on us!' It is the same hope of hiding that Amos 9:3 refuses, and Jesus quotes it on the way to the cross in Luke 23:30. Hiding behind creation is the human response to judgment throughout Scripture."
+      },
+      {
+        "ref": "Luke 22:31-32",
+        "note": "Satan has asked to sift the disciples like wheat, but Jesus has prayed for Peter's faith. The image of sifting is the same as Amos 9:9, with the added detail that the Lord's prayer is what holds the grain. Peter is shaken, and he does not fall through."
+      },
+      {
+        "ref": "John 6:39",
+        "note": "'That I shall lose none of those He has given Me.' This is the New Testament form of 'not a pebble will reach the ground.' The promise of preservation is rooted in the Father's gift to the Son, and its guarantee is the Son's own will."
+      },
+      {
+        "ref": "Romans 11:5",
+        "note": "Paul says that even now there is 'a remnant chosen by grace.' He is answering whether God has rejected His people, and his answer rests on the pattern Amos 9:8 sets out, that judgment on a sinful kingdom never reaches the end of the house of Jacob."
+      },
+      {
+        "ref": "Hebrews 12:26-29",
+        "note": "The shaking of the earth, now extended to heaven, removes the created things that can be shaken so that the unshakable may remain. It carries the thresholds and sieve of Amos 9 to the last day, and it tells the church that the kingdom it receives cannot be shaken, so worship is to be offered with reverence and awe."
+      }
     ],
-    "oneStory": "The last vision brings judgment to its height: the LORD at the altar, no hiding place in all creation, the sinful kingdom destroyed. Yet the same shaking that removes the presumptuous keeps every true grain, and the house of Jacob is not utterly destroyed. The thread runs to Christ, who bears the altar's judgment at the cross, pursues the lost to save them, and loses none the Father gives Him, so that judgment itself becomes the means of preserving a people.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "The first thing Adam and Eve did after they sinned was hide, Genesis 3:8. Amos 9:1 to 4 is the end of that story told as a hunt. Every place that humanity has tried to conceal itself from God since the garden is listed and closed, and the same God who walked in the garden in the cool of the day is standing beside the altar. The two scenes are bound together by the serpent, who appears in Genesis 3 as the tempter and in Amos 9:3 as the creature God commands to bite. The fall began with a failed attempt to hide, and the prophets keep returning to it.\n\nThe passage also belongs to the story of God's people. The exodus, which verse 7 mentions, was the moment God made Israel His people. He brought them up out of Egypt, and the covenant that followed made them His treasured possession. Yet the prophets insist that this privilege is not a possession but a calling. Genesis 12:3 promised that all the families of the earth would be blessed through Abraham, and Amos's reminder that God also brought up Philistines and Arameans prepares for a story in which the blessing of Abraham reaches those peoples too.\n\nThe sieve points to the thread that holds the Old Testament together, the remnant. After Eden there was Noah, after Babel there was Abraham, after the exile there is a remnant that returns. Each time judgment falls, a seed is kept. Isaiah's holy stump, Isaiah 6:13, and Amos's grain are the same promise. That remnant is the line through which the Messiah comes, and Paul shows that it is also the pattern by which God saves in his own day, Romans 11:5.\n\nThe passage reaches its end in Christ. The altar of Amos 9:1 is where the sentence is carried out, and the cross is where the sentence is borne by the One standing in the place of the guilty. The sinners who say 'Disaster will never draw near' are answered by the Son who tasted that disaster for them. The Father gives people to the Son, and the Son loses none of them, John 6:39.\n\nThe new creation answers the hiding and the pursuit. The kings who hid in caves in Revelation 6:15-17 are not the last word. The city has no more curse, God and the Lamb dwell in it, and His people 'will see His face,' Revelation 22:3-4. What the fugitives of Amos could not bear is what the redeemed will delight in, because the face they feared has already borne their judgment.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What happens in the fifth vision at the altar?",
       "options": [
-        { "text": "The LORD commands the temple to be struck down on the worshipers, and declares no one will escape.", "weight": 100, "note": "The place of worship becomes the place of inescapable judgment." },
-        { "text": "The LORD accepts a great sacrifice and blesses the people.", "weight": 0, "note": "He stands at the altar to bring judgment, not to receive worship." },
-        { "text": "God brings judgment beginning at the sanctuary itself.", "weight": 75, "note": "Right, and specifically by toppling the temple on the heads of the people." },
-        { "text": "The priests repent and the altar is spared.", "weight": 25, "note": "There is no repentance here; the altar becomes the epicenter of judgment." }
+        {
+          "text": "The LORD commands the temple to be struck down on the worshipers, and declares no one will escape.",
+          "weight": 100,
+          "note": "The place of worship becomes the place of inescapable judgment."
+        },
+        {
+          "text": "The LORD accepts a great sacrifice and blesses the people.",
+          "weight": 0,
+          "note": "He stands at the altar to bring judgment, not to receive worship."
+        },
+        {
+          "text": "God brings judgment beginning at the sanctuary itself.",
+          "weight": 75,
+          "note": "Right, and specifically by toppling the temple on the heads of the people."
+        },
+        {
+          "text": "The priests repent and the altar is spared.",
+          "weight": 25,
+          "note": "There is no repentance here; the altar becomes the epicenter of judgment."
+        }
       ]
     },
     {
       "q": "What does the sweep from Sheol to heaven to the sea teach?",
       "options": [
-        { "text": "There is no place in all creation where sinners can hide from God's hand.", "weight": 100, "note": "The Creator fills every region; no refuge is beyond His reach." },
-        { "text": "That God lives only in heaven and cannot reach the sea.", "weight": 0, "note": "The point is the opposite: His hand reaches every place." },
-        { "text": "That God's presence extends everywhere.", "weight": 75, "note": "Right, and specifically that this leaves the guilty no hiding place." },
-        { "text": "That people should travel far to find God.", "weight": 25, "note": "The passage is about God finding them, not the reverse." }
+        {
+          "text": "There is no place in all creation where sinners can hide from God's hand.",
+          "weight": 100,
+          "note": "The Creator fills every region; no refuge is beyond His reach."
+        },
+        {
+          "text": "That God lives only in heaven and cannot reach the sea.",
+          "weight": 0,
+          "note": "The point is the opposite: His hand reaches every place."
+        },
+        {
+          "text": "That God's presence extends everywhere.",
+          "weight": 75,
+          "note": "Right, and specifically that this leaves the guilty no hiding place."
+        },
+        {
+          "text": "That people should travel far to find God.",
+          "weight": 25,
+          "note": "The passage is about God finding them, not the reverse."
+        }
       ]
     },
     {
       "q": "What mercy breaks through in the midst of this judgment?",
       "options": [
-        { "text": "God will sift Israel yet lose no true grain, and will not utterly destroy the house of Jacob.", "weight": 100, "note": "The sifting preserves a faithful remnant even as the sinful kingdom falls." },
-        { "text": "God cancels the judgment entirely.", "weight": 0, "note": "The judgment stands; mercy is the preserving of a remnant through it." },
-        { "text": "God keeps a faithful remnant safe through the shaking.", "weight": 75, "note": "Right; the image of the sieve losing no grain captures this preserving grace." },
-        { "text": "God promises no one will suffer at all.", "weight": 25, "note": "The sinners will die by the sword; the mercy is the preserved remnant." }
+        {
+          "text": "God will sift Israel yet lose no true grain, and will not utterly destroy the house of Jacob.",
+          "weight": 100,
+          "note": "The sifting preserves a faithful remnant even as the sinful kingdom falls."
+        },
+        {
+          "text": "God cancels the judgment entirely.",
+          "weight": 0,
+          "note": "The judgment stands; mercy is the preserving of a remnant through it."
+        },
+        {
+          "text": "God keeps a faithful remnant safe through the shaking.",
+          "weight": 75,
+          "note": "Right; the image of the sieve losing no grain captures this preserving grace."
+        },
+        {
+          "text": "God promises no one will suffer at all.",
+          "weight": 25,
+          "note": "The sinners will die by the sword; the mercy is the preserved remnant."
+        }
       ]
     },
     {
       "q": "How does the altar of judgment point to Christ?",
       "options": [
-        { "text": "At the cross, the true altar, God's judgment falls on Christ in the place of His people.", "weight": 100, "note": "Christ bears at the cross the wrath that fell on the temple." },
-        { "text": "It only teaches that church buildings can be destroyed.", "weight": 0, "note": "The altar points to the cross, not merely to buildings." },
-        { "text": "It shows that Jesus also spoke about the temple.", "weight": 75, "note": "True, but the deeper link is that He bears the altar's judgment for us." },
-        { "text": "It has no connection to Jesus.", "weight": 25, "note": "The altar of judgment is fulfilled at the cross where Christ is the sacrifice." }
+        {
+          "text": "At the cross, the true altar, God's judgment falls on Christ in the place of His people.",
+          "weight": 100,
+          "note": "Christ bears at the cross the wrath that fell on the temple."
+        },
+        {
+          "text": "It only teaches that church buildings can be destroyed.",
+          "weight": 0,
+          "note": "The altar points to the cross, not merely to buildings."
+        },
+        {
+          "text": "It shows that Jesus also spoke about the temple.",
+          "weight": 75,
+          "note": "True, but the deeper link is that He bears the altar's judgment for us."
+        },
+        {
+          "text": "It has no connection to Jesus.",
+          "weight": 25,
+          "note": "The altar of judgment is fulfilled at the cross where Christ is the sacrifice."
+        }
       ]
     },
     {
       "q": "How is the sifting that loses no grain fulfilled in Christ?",
       "options": [
-        { "text": "Jesus keeps all the Father gives Him and loses none, preserving His people through every shaking.", "weight": 100, "note": "Christ prayed for Peter's faith and loses none of His own." },
-        { "text": "It means believers will never face any trials.", "weight": 25, "note": "The sifting is real; the promise is that no true one is lost through it." },
-        { "text": "It shows that God is generally protective.", "weight": 75, "note": "Right in part, but the specific fulfillment is Christ keeping all the Father gives." },
-        { "text": "It has nothing to do with Jesus.", "weight": 0, "note": "Christ explicitly keeps every one the Father gives Him." }
+        {
+          "text": "Jesus keeps all the Father gives Him and loses none, preserving His people through every shaking.",
+          "weight": 100,
+          "note": "Christ prayed for Peter's faith and loses none of His own."
+        },
+        {
+          "text": "It means believers will never face any trials.",
+          "weight": 25,
+          "note": "The sifting is real; the promise is that no true one is lost through it."
+        },
+        {
+          "text": "It shows that God is generally protective.",
+          "weight": 75,
+          "note": "Right in part, but the specific fulfillment is Christ keeping all the Father gives."
+        },
+        {
+          "text": "It has nothing to do with Jesus.",
+          "weight": 0,
+          "note": "Christ explicitly keeps every one the Father gives Him."
+        }
       ]
     }
   ],
@@ -151,9 +364,21 @@
     "At the cross Christ bore the judgment of the altar so His people could be kept. How does that turn the terror of a God no one can flee into the comfort of a Savior who will not lose you?"
   ],
   "translationNotes": [
-    { "ref": "Amos 9:1", "note": "The altar is most likely the royal sanctuary at Bethel; the command to strike the pillars so the thresholds shake pictures the whole temple collapsing on the worshipers gathered within." },
-    { "ref": "Amos 9:3", "note": "The serpent at the bottom of the sea renders the Hebrew nachash, often a snake; here it evokes a dread sea-creature under God's command, underscoring that even the ocean floor is no refuge." },
-    { "ref": "Amos 9:9", "note": "Not a pebble will reach the ground can also be rendered not a kernel; the image is a sieve that shakes out the worthless while every true grain is kept, picturing a preserved remnant." }
+    {
+      "ref": "Amos 9:1",
+      "note": "The altar is most likely the royal sanctuary at Bethel; the command to strike the pillars so the thresholds shake pictures the whole temple collapsing on the worshipers gathered within."
+    },
+    {
+      "ref": "Amos 9:3",
+      "note": "The serpent at the bottom of the sea renders the Hebrew nachash, often a snake; here it evokes a dread sea-creature under God's command, underscoring that even the ocean floor is no refuge."
+    },
+    {
+      "ref": "Amos 9:9",
+      "note": "Not a pebble will reach the ground can also be rendered not a kernel; the image is a sieve that shakes out the worthless while every true grain is kept, picturing a preserved remnant."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Amos 9:1-10. Poetic line fragments joined into running verse text; footnote markers omitted." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Amos 9:1-10. Poetic line fragments joined into running verse text; footnote markers omitted."
+  }
 }

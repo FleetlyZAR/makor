@@ -18,7 +18,11 @@
         "note": "three days and three nights",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 17, "text": "Now the LORD had {{manah|appointed}} a great fish to swallow Jonah, and Jonah spent three days and three nights in the belly of the fish." }
+          {
+            "chapter": 1,
+            "n": 17,
+            "text": "Now the LORD had {{manah|appointed}} a great fish to swallow Jonah, and Jonah spent three days and three nights in the belly of the fish."
+          }
         ]
       },
       {
@@ -26,15 +30,51 @@
         "note": "descent, remembrance, and rescue",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 2, "n": 1, "text": "From inside the fish, Jonah prayed to the LORD his God," },
-          { "chapter": 2, "n": 2, "text": "saying: “In my distress I called to the LORD, and He answered me. From the belly of {{sheol|Sheol}} I called for help, and You heard my voice." },
-          { "chapter": 2, "n": 3, "text": "For You cast me into the deep, into the heart of the seas, and the current swirled about me; all Your breakers and waves swept over me." },
-          { "chapter": 2, "n": 4, "text": "At this, I said, ‘I have been banished from Your sight; yet I will look once more toward Your holy temple.’" },
-          { "chapter": 2, "n": 5, "text": "The waters engulfed me to take my life; the watery depths closed around me; the seaweed wrapped around my head." },
-          { "chapter": 2, "n": 6, "text": "To the roots of the mountains I descended; the earth beneath me barred me in forever! But You raised my life from the pit, O LORD my God!" },
-          { "chapter": 2, "n": 7, "text": "As my life was fading away, I remembered the LORD. My prayer went up to You, to Your holy temple." },
-          { "chapter": 2, "n": 8, "text": "Those who cling to worthless idols forsake His {{chesed|loving devotion}}." },
-          { "chapter": 2, "n": 9, "text": "But I, with the voice of thanksgiving, will sacrifice to You. I will fulfill what I have vowed. {{yeshuah|Salvation}} is from the LORD!”" }
+          {
+            "chapter": 2,
+            "n": 1,
+            "text": "From inside the fish, Jonah prayed to the LORD his God,"
+          },
+          {
+            "chapter": 2,
+            "n": 2,
+            "text": "saying: “In my distress I called to the LORD, and He answered me. From the belly of {{sheol|Sheol}} I called for help, and You heard my voice."
+          },
+          {
+            "chapter": 2,
+            "n": 3,
+            "text": "For You cast me into the deep, into the heart of the seas, and the current swirled about me; all Your breakers and waves swept over me."
+          },
+          {
+            "chapter": 2,
+            "n": 4,
+            "text": "At this, I said, ‘I have been banished from Your sight; yet I will look once more toward Your holy temple.’"
+          },
+          {
+            "chapter": 2,
+            "n": 5,
+            "text": "The waters engulfed me to take my life; the watery depths closed around me; the seaweed wrapped around my head."
+          },
+          {
+            "chapter": 2,
+            "n": 6,
+            "text": "To the roots of the mountains I descended; the earth beneath me barred me in forever! But You raised my life from the pit, O LORD my God!"
+          },
+          {
+            "chapter": 2,
+            "n": 7,
+            "text": "As my life was fading away, I remembered the LORD. My prayer went up to You, to Your holy temple."
+          },
+          {
+            "chapter": 2,
+            "n": 8,
+            "text": "Those who cling to worthless idols forsake His {{chesed|loving devotion}}."
+          },
+          {
+            "chapter": 2,
+            "n": 9,
+            "text": "But I, with the voice of thanksgiving, will sacrifice to You. I will fulfill what I have vowed. {{yeshuah|Salvation}} is from the LORD!”"
+          }
         ]
       },
       {
@@ -42,16 +82,40 @@
         "note": "the LORD commands the fish",
         "emphasis": "",
         "verses": [
-          { "chapter": 2, "n": 10, "text": "And the LORD commanded the fish, and it vomited Jonah onto dry land." }
+          {
+            "chapter": 2,
+            "n": 10,
+            "text": "And the LORD commanded the fish, and it vomited Jonah onto dry land."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "manah": { "language": "Hebrew", "lemma": "manah", "original": "מנה", "gloss": "To appoint, assign, or ordain. The LORD appoints the great fish here, and later the plant, the worm, and the wind in chapter 4. The word shows God quietly commanding creation to serve His purposes, even to rescue and to teach a stubborn prophet." },
-    "sheol": { "language": "Hebrew", "lemma": "sheol", "original": "שאול", "gloss": "The grave, the realm of the dead, the place of the departed. Jonah describes the belly of the fish as the belly of Sheol; he speaks as one already as good as dead, so that his rescue is spoken of as being raised up from the pit." },
-    "chesed": { "language": "Hebrew", "lemma": "chesed", "original": "חסד", "gloss": "Loving devotion, steadfast love, covenant faithfulness. It is the loyal, merciful love God shows His people. Jonah says idolaters forsake this very love, yet the irony is that Jonah has been fleeing the God whose chesed reaches even to Nineveh." },
-    "yeshuah": { "language": "Hebrew", "lemma": "yeshuah", "original": "ישועה", "gloss": "Salvation, deliverance, rescue. The climax of the prayer, Salvation is from the LORD, is the theological heart of the book. The Hebrew is the root behind the name Jesus, Yeshua, the LORD saves." }
+    "manah": {
+      "language": "Hebrew",
+      "lemma": "manah",
+      "original": "מנה",
+      "gloss": "To appoint, assign, or ordain. The LORD appoints the great fish here, and later the plant, the worm, and the wind in chapter 4. The word shows God quietly commanding creation to serve His purposes, even to rescue and to teach a stubborn prophet."
+    },
+    "sheol": {
+      "language": "Hebrew",
+      "lemma": "sheol",
+      "original": "שאול",
+      "gloss": "The grave, the realm of the dead, the place of the departed. Jonah describes the belly of the fish as the belly of Sheol; he speaks as one already as good as dead, so that his rescue is spoken of as being raised up from the pit."
+    },
+    "chesed": {
+      "language": "Hebrew",
+      "lemma": "chesed",
+      "original": "חסד",
+      "gloss": "Loving devotion, steadfast love, covenant faithfulness. It is the loyal, merciful love God shows His people. Jonah says idolaters forsake this very love, yet the irony is that Jonah has been fleeing the God whose chesed reaches even to Nineveh."
+    },
+    "yeshuah": {
+      "language": "Hebrew",
+      "lemma": "yeshuah",
+      "original": "ישועה",
+      "gloss": "Salvation, deliverance, rescue. The climax of the prayer, Salvation is from the LORD, is the theological heart of the book. The Hebrew is the root behind the name Jesus, Yeshua, the LORD saves."
+    }
   },
   "study": {
     "basic": {
@@ -65,93 +129,254 @@
       "oneStory": "Even the prophet who fled must be saved by sheer grace, from the belly of death. His rescue and his confession, salvation is from the LORD, point straight to the death and resurrection of Jesus, in whom that salvation reaches the whole world."
     },
     "context": {
-      "literary": "A narrative frame, the fish appointed and the fish releasing him, wrapped around a poem. The psalm is a thanksgiving for rescue rather than a plea for it, spoken as though the deliverance is already sure. Its structure descends to the roots of the mountains and then rises to salvation is from the LORD.",
-      "historical": "Jonah prays in the idiom of Israel's temple worship, looking toward the holy temple in Jerusalem, the appointed place of God's presence and sacrifice. The psalm draws heavily on the language of the Psalter, the shared songbook of God's people.",
-      "canonical": "The prayer belongs to the great biblical pattern of crying to God from the depths and being lifted out, and it becomes, in Jesus' own words, a sign of His burial and resurrection, tying this movement to the centre of the gospel."
+      "literary": "The prayer of chapter 2 is the centre of the book's first half and a genre shift in the middle of a story. Everything before it is narrative, and everything after verse 9 returns to narrative in one short sentence, verse 10. Between them stands a psalm, and the reader is meant to feel the change of register: the quick, ironic prose gives way to the language of worship.\n\nThe psalm has a clear structure, often described as a chiasm or as a movement from distress to deliverance in two passes. Verse 2 states the thesis in miniature: I called, You answered. Verses 3 to 6a then describe the descent in detail, first as something God did, 'You cast me into the deep', then in the images of waves, weeds and the roots of mountains. A turn comes at the end of verse 6, 'But You raised my life from the pit', and verse 7 repeats the cry in memory, 'I remembered the LORD', this time ending at the temple. Verses 8 and 9 close with a contrast: those who cling to idols, and 'I' who sacrifice with thanksgiving.\n\nNotice that the verbs of verses 2 to 9 are mainly in the past tense. Jonah describes the rescue as if it had already happened, though he is still in the fish, and only verse 10 shows the fish releasing him. The psalm is therefore a thanksgiving, not a plea, and its confidence is striking. It also contains no confession of the sin that put him there and no mention of Nineveh, a silence the narrator leaves for the reader to notice.\n\nThe frame matters too. The chapter begins with 'the LORD had appointed a great fish' and ends with 'the LORD commanded the fish'. The prayer sits in the middle of two acts of God, and it is God who begins and ends the rescue. Jonah's words fill the space between.",
+      "historical": "The original readers knew a rich body of psalms, and the prayer of Jonah is made almost entirely of their language. It would have sounded to them like a collage of familiar lines, and that was the point. To hear a man in the belly of a fish speak in the words of the temple's songbook was to hear one praying out of the faith of the community.\n\nThe imagery is that of the ancient sea. For Israel the deep was a place of chaos, held back by God's boundaries, Job 38:8-11, and the bars and doors of that passage reappear in Jonah's 'the earth beneath me barred me in forever', verse 6. The sea and Sheol were two faces of the same threat, and the psalms regularly mix them, so that drowning and death are one picture, Psalm 18:4-6 and Psalm 69:1-2. Jonah's 'belly of Sheol' belongs to that world.\n\nThe temple is a historical fixture of the prayer. Solomon had dedicated it with a prayer that people far from Jerusalem who turned toward it in their distress would be heard, 1 Kings 8:38-39, and Daniel would later pray with windows open toward Jerusalem, Daniel 6:10. Jonah's 'I will look once more toward Your holy temple' is the practice of that tradition. A northern prophet looking toward the Jerusalem temple is a small surprise, since the northern kingdom had its own shrines, and it reflects where the author thinks God's house truly stands.\n\nIdol worship was an everyday reality, and verse 8 speaks to it. The sailors' gods have just proved useless in the storm, and those who 'cling to worthless idols' are a ready picture of the nations around, but also of Israel's own temptation.",
+      "canonical": "Jonah's psalm is woven from other psalms, because almost every clause has a partner elsewhere. 'In my distress I called to the LORD, and He answered me', verse 2, matches Psalm 120:1 almost word for word. The waves that 'swept over' him in verse 3 are the breakers of Psalm 42:7: 'all Your breakers and waves have rolled over me.' His 'I have been banished from Your sight', verse 4, is close to Psalm 31:22, 'I am cut off from Your sight', and the same psalm, 31:6, has the line that becomes verse 8: 'I hate those who cling to worthless idols.' Verse 5's engulfing waters are those of Psalm 69:1-2, and verse 6's pit is the Pit of Psalm 30:3 and Psalm 103:4. The vow of verse 9 is the thank offering and vow of Psalm 50:14 and 116:17-18. And 'Salvation is from the LORD' is the line of Psalm 3:8.\n\nThe destination of the prayer is as significant as its sources. It rises toward 'Your holy temple', which in the later canon is the place where God hears. The New Testament moves that centre of hearing to Christ: He calls His own body the temple, John 2:19-21, and Hebrews describes Him as the one who opens the way to God's presence. The shape of the prayer, from the deep to the temple, is the shape of redemption.\n\nThe sign passages complete the picture. Matthew 12:40 says that 'as Jonah was three days and three nights in the belly of the great fish, so the Son of Man will be three days and three nights in the heart of the earth.' The Gospel uses Jonah's phrase 'the heart of the seas' but turns it to 'the heart of the earth'. Hosea 6:2, 'on the third day He will raise us up', and 1 Corinthians 15:4, 'raised on the third day according to the Scriptures', belong to the same rhythm of death and rising. Finally Revelation 7:10 takes the closing line of the psalm into heaven: 'Salvation to our God, who sits on the throne, and to the Lamb!'"
     },
     "hermeneutics": {
-      "authorIntent": "To show that even the rebel prophet is saved only by grace, from the place of death, and to place on his lips the book's thesis that salvation is from the LORD, so the reader sees mercy at work before Nineveh is ever reached.",
-      "descriptionVsPrescription": "The psalm both describes Jonah's rescue and models true response: remembering the LORD, giving thanks, renouncing idols, and confessing that salvation is God's alone. That confession is prescriptive for every believer.",
+      "authorIntent": "The author wants his hearers to see what faith sounds like when everything else has been stripped away. Jonah has run, been caught, been thrown into the sea, and been swallowed, and what comes out of him is not a complaint but a hymn made from his people's songs. The writer does not tell us Jonah had learned his lesson. He shows a man whose reflexes, at the bottom, are still those of Israel's worship, and he lets us measure the distance between the words and the heart.\n\nThere is a teaching purpose in the order of the prayer. The distress comes first, the cry second, the answer third, the vow last. That is the way Israel was taught to move through trouble. The author means to say that no place is too low for this prayer: not the sea, not the grave, not the belly of a fish.\n\nThere is also an argument. By placing a prayer of thanksgiving at the very moment of hopelessness, the author insists that salvation belongs to the LORD and to nobody else. Jonah can do nothing. He cannot swim, bargain or repent his way out. The deliverance is God's from first to last, and in a book about a prophet who resents God's freedom to save Nineveh, the line has a pointed edge, because the grace he praises here is the very grace he will resent there.",
+      "descriptionVsPrescription": "The chapter records an extraordinary event and a prayer. It does not tell believers to expect to be swallowed by fish, or to pray in the exact words of Jonah's psalm. The miracle is God's act, appointed for a purpose, and nobody is told to look for a repeat.\n\nThe prayer, however, does carry weight as a pattern. It shows a believer reaching for Scripture when words fail, and it shows the right order of a thanksgiving: remembering distress, naming God's answer, renouncing false trust and promising to worship. We are free to borrow the shape of it, particularly the habit of praying the psalms back to God. What we should not do is treat Jonah's words as a full measure of repentance. The prayer is honest and true as far as it goes, but it does not mention his flight or his reluctance, and the final chapter shows that something remained untouched. The chapter commends the prayer's confession, 'Salvation is from the LORD', and invites us to go further than Jonah did.",
       "debates": [
         {
           "question": "Is Jonah's prayer genuine repentance or does it fall short?",
           "views": [
-            { "label": "Genuine thanksgiving and faith", "case": "Jonah turns to the LORD, renounces idols, gives thanks, and confesses salvation is from the LORD; the psalm is a true prayer of faith from the depths." },
-            { "label": "Real yet incomplete", "case": "The prayer never mentions Nineveh or his sin of fleeing, and chapter 4 shows his heart is still hard, so some read it as sincere gratitude that stops short of full repentance of his resentment." }
+            {
+              "label": "Genuine thanksgiving and faith",
+              "case": "Jonah turns to the LORD, renounces idols, gives thanks, and confesses salvation is from the LORD; the psalm is a true prayer of faith from the depths."
+            },
+            {
+              "label": "Real yet incomplete",
+              "case": "The prayer never mentions Nineveh or his sin of fleeing, and chapter 4 shows his heart is still hard, so some read it as sincere gratitude that stops short of full repentance of his resentment."
+            }
           ],
           "bearing": "Either way the psalm rightly confesses that salvation is God's gift; and the tension with chapter 4 warns that we can praise God for rescuing us while still resenting His mercy to others."
         },
         {
           "question": "What are the three days and three nights?",
           "views": [
-            { "label": "A real span of time", "case": "The account reports a literal period Jonah spent in the fish, which Jesus treats as historical, Matthew 12:40." },
-            { "label": "An idiom of a set, complete period", "case": "In Hebrew reckoning the phrase can denote a whole and appointed period rather than exact hours, which also fits how the phrase is applied to Jesus." }
+            {
+              "label": "A real span of time",
+              "case": "The account reports a literal period Jonah spent in the fish, which Jesus treats as historical, Matthew 12:40."
+            },
+            {
+              "label": "An idiom of a set, complete period",
+              "case": "In Hebrew reckoning the phrase can denote a whole and appointed period rather than exact hours, which also fits how the phrase is applied to Jesus. Esther says 'for three days, night or day' and then appears before the king 'on the third day', Esther 4:16 and 5:1, and the New Testament says Christ was raised 'on the third day', 1 Corinthians 15:4."
+            }
           ],
           "bearing": "On either reading the point is a definite, God-appointed time of death-like descent followed by rescue, which Jesus applies to His burial and resurrection."
+        },
+        {
+          "question": "Why is the psalm a thanksgiving in the past tense when Jonah is still inside the fish?",
+          "views": [
+            {
+              "label": "Faith speaks of the rescue as already done",
+              "case": "Hebrew prophets and psalmists often describe a certain deliverance as accomplished. Jonah had prayed, he had been preserved alive in the fish, and that preservation was itself the first part of the answer. His thanks are for the life he still has."
+            },
+            {
+              "label": "The psalm was composed after the rescue",
+              "case": "Others take the prayer as a poem Jonah wrote on reflection and set into the narrative, with the narrator introducing it as spoken from the fish because it describes what he prayed there in substance."
+            }
+          ],
+          "bearing": "Both views keep the main point, that the God who has begun to save will finish. The past tense teaches that the rescue is as good as complete once God has taken the matter in hand."
         }
       ]
     },
-    "originalLanguages": "The words work together to tell a descent and a rescue. God appoints, manah, the fish, the first of four appointments by which He commands creation to serve His will. Jonah names his place the belly of Sheol, the grave, so he prays as one already dead. He accuses idolaters of forsaking chesed, God's loyal covenant love, unaware how sharply it indicts his own flight. And the whole prayer rises to yeshuah, salvation, the root that stands behind the name Jesus, the LORD saves.",
+    "originalLanguages": "Start with the setting, 'the heart of the seas', verse 3. The Hebrew word for heart, levav, is used for the centre of anything, and it is this phrase that Jesus reshapes into 'the heart of the earth' in Matthew 12:40. The belly of the fish is a place within the deep, and the deep within a still larger deep. The language stacks enclosures one inside another: fish, sea, mountains, earth.\n\nThe 'belly of Sheol' in verse 2 uses the word for the underworld, sheol, in the way the psalms do, as the place where the dead go and the place of the nearly dead. Psalm 30:3 says 'You pulled me up from Sheol', and Psalm 18:5 speaks of 'the cords of Sheol'. For Jonah it is a metaphor and yet more than a metaphor: he is as near to death as a living man can be, and the narrator will not let the reader soften that.\n\nIn verse 4 the word for 'banished', nigrashti, comes from garash, 'to drive out'. It is the verb used of Adam driven from the garden in Genesis 3:24 and of Cain who says he has been 'driven' from the face of the earth in Genesis 4:14. Jonah's banishment is the old exile, and yet the verse continues with 'yet I will look once more toward Your holy temple'. The conjunction turns exile into hope.\n\nVerse 5 says the waters came 'to take my life', and the Hebrew behind 'life' is nephesh, the word for the whole self, throat and breath. It is the same word in verse 6, 'You raised my life from the pit', and in verse 7, 'my life was fading away'. The nephesh goes down and the nephesh is brought up. The word 'pit', shachat, is a common name for the grave in the psalms, for instance Psalm 16:10, which Peter quotes of the resurrection in Acts 2:27, and Psalm 103:4. The verbs of descent in verses 3 to 6 then reverse in 'raised', a verb of lifting up.\n\nVerse 8 concerns those who 'cling to worthless idols'. The word for worthless, hevel, is the word for breath or vapour that Ecclesiastes makes famous, and the idols are 'vapours of emptiness'. The BSB reads the chesed as 'His loving devotion', and its footnote notes the range of the word, which includes love, kindness, faithfulness and loyalty to a covenant. Many translators take the Hebrew pronoun here as 'their', so that the idol-worshippers forsake the very mercy that could be theirs. Either way the verse says that false gods give nothing back, while the LORD's chesed is what holds the drowning.\n\nVerse 9 gathers three acts: 'the voice of thanksgiving', 'sacrifice', and 'what I have vowed'. The first is todah, which names both the praise and the offering made with it, Psalm 50:14 and Psalm 116:17-18. The last words, 'Salvation is from the LORD', are literally 'to the LORD belongs salvation', yeshuah, the root of the name Jesus, as the basic level notes. Psalm 3:8 has the same clause, and Revelation 7:10 sings it again.\n\nFinally, the verb in verse 10. The BSB says the fish 'vomited' Jonah, from a Hebrew verb of the same family as the one used of the land vomiting out its inhabitants in Leviticus 18:25. It is not a dignified word, and the narrator wants it that way: God's rescue of the prophet is unglamorous, and a command from the LORD is enough to settle the sea monster.",
     "typology": [
-      { "type": "Three days and three nights in the belly of the fish", "fulfillment": "The sign of Jonah, fulfilled in Jesus' three days in the heart of the earth before His resurrection, Matthew 12:40." },
-      { "type": "Raised up alive from the pit", "fulfillment": "A picture of resurrection, life brought up out of death by the power of God." },
-      { "type": "Looking toward the holy temple from the depths", "fulfillment": "Prayer answered from the true sanctuary, fulfilled in Christ, the temple and mediator through whom our prayers are heard." }
+      {
+        "type": "The descent into the deep and the pit",
+        "fulfillment": "Jonah goes down 'to the roots of the mountains' and speaks of the pit, verses 5 and 6. Christ's own descent into death is described in Ephesians 4:9, 'He also descended to the lower parts of the earth', and in Romans 10:7 as going down into the Abyss. The escalation is that Jonah goes for his own sin and is rescued, while Christ goes for ours and is raised, Acts 2:24. The type falls short because Jonah is delivered from the edge of death, and Christ passes through it."
+      },
+      {
+        "type": "Looking toward the holy temple",
+        "fulfillment": "The prayer rises to God's house, verses 4 and 7. Jesus calls His body the temple and says it will be raised in three days, John 2:19-21, so the temple toward which Jonah looks is fulfilled in Him. Because of Him, believers no longer need to look toward a building; they come to the throne of grace through Him, Hebrews 4:16. The limit of the type is that Jonah's temple could only receive his prayers, whereas Christ is both the place and the mediator."
+      },
+      {
+        "type": "The vow of sacrifice and thanksgiving",
+        "fulfillment": "Jonah promises 'with the voice of thanksgiving' to sacrifice, verse 9. In Hebrews 13:15 believers are told to offer through Jesus 'a sacrifice of praise to God, the fruit of lips that confess His name'. The correspondence is the thanksgiving that answers rescue; the escalation is that the sacrifice is now offered through the one great sacrifice already made. The weakness of the type is that Jonah's vow is a promise, and the book will test whether he keeps it."
+      },
+      {
+        "type": "The sign of Jonah",
+        "fulfillment": "Jesus names Jonah's time in the fish as the sign of His burial, Matthew 12:40. The correspondence is the length of the stay and the reappearance, and Paul gives the resurrection on the third day the weight of Scripture, 1 Corinthians 15:3-4. The sign has limits: Jonah lived inside the fish, and the Son of Man truly died, was buried and was raised."
+      }
     ],
-    "christ": "This is the movement Jesus points to directly: an evil generation seeks a sign, but none will be given except the sign of Jonah the prophet, for as Jonah was three days and three nights in the belly of the great fish, so the Son of Man will be three days and three nights in the heart of the earth, Matthew 12:39-40. Jonah is brought up alive from the pit; Jesus is raised from the dead. And Jonah's climactic cry, salvation is from the LORD, Jonah 2:9, is answered in the One whose name, Yeshua, means the LORD saves.",
-    "god": "The LORD hears prayer from the belly of Sheol, the farthest place from His temple, showing that no depth is beyond His reach. He commands the great fish, as He will command the plant, worm, and wind, ruling every creature to accomplish His purpose. Above all He is the God of salvation: He alone rescues, and He does it freely for a prophet who does not deserve it.",
+    "christ": "Of all the chapters of Jonah, this is the one Jesus names. 'No sign will be given except the sign of the prophet Jonah. For as Jonah was three days and three nights in the belly of the great fish, so the Son of Man will be three days and three nights in the heart of the earth', Matthew 12:39-40. It is worth asking what exactly the sign is, and the chapter itself helps us answer.\n\nThe sign is not just the length of time. It is the pattern of a man cast out, swallowed by death, and brought back by God's command. Jonah's own words show how seriously the story takes the grave: he speaks from 'the belly of Sheol', the earth 'barred me in forever', and the LORD 'raised my life from the pit'. These are the words of a man whose rescue is a kind of resurrection, and the Gospels invite us to hear Jesus's burial in them. Peter in Acts 2:24-27 quotes Psalm 16:10, 'You will not abandon my soul to Sheol, nor will You let Your Holy One see decay', and says it was fulfilled in the resurrection. The songbook that Jonah's prayer borrows from also holds the psalm of the risen Christ.\n\nThe contrast is as instructive as the likeness. Jonah is in the fish because he ran from God, and the sea took him because it was his fault. Jesus goes into death because He did not run from the Father's will. Where Jonah says, 'I will fulfill what I have vowed', Jesus fulfils the entire will of God, and where Jonah left an unfinished mission, Jesus finished His, John 19:30. The 'one greater than Jonah', Matthew 12:41, does what the first Jonah could not do for himself, and He does it for others.\n\nThe temple of Jonah's hope is also fulfilled. When Jonah says, 'I will look once more toward Your holy temple', he looks to the place of atonement and presence. Jesus says, 'Destroy this temple, and in three days I will raise it up again', and John explains, 'He was speaking about the temple of His body', John 2:19-21. The prayer that rises to the temple finds its answer in a body that is both destroyed and raised.\n\nFinally, the confession 'Salvation is from the LORD' lands on the very name of Jesus, whose Hebrew form means the LORD saves. Peter says there is 'no other name under heaven given to men by which we must be saved', Acts 4:12, and the multitude in Revelation sings 'Salvation to our God, who sits on the throne, and to the Lamb!' Jonah's cry from the deep becomes the song of heaven.\n\nThe reading should stay sober. Jonah is not a hidden description of the cross in every line, and the fish is not a coffin by design. The New Testament uses the story as a sign for the burial and the rising, and the rest rests on that authority.",
+    "god": "Jonah's prayer is a short lesson in the doctrine of God, taught by someone who has nothing left to bring but what he knows.\n\nGod is the one who hears from anywhere. 'From the belly of Sheol I called for help, and You heard my voice.' There is no depth outside His hearing, and the psalm that sits behind this one, Psalm 139, says that even Sheol is not dark to Him. The practical weight is considerable: the worst place a person can reach, in guilt or grief, is still within earshot.\n\nGod is the one who is behind the trouble as well as the rescue. Jonah does not say that the sailors threw him in; he says, 'You cast me into the deep.' He sees the storm, the sea and the swallowing as God's hand. That does not make God cruel, because the same hand lifts him out, but it does mean that Scripture will not hand suffering to chance or to a rival power. This is a hard and consoling teaching, which Jonah holds together without explanation: the God who disciplines and the God who saves are one.\n\nGod is sovereign over His creatures. The fish is 'appointed', and then it is 'commanded'. A creature of the deep behaves as obediently as a soldier, which says something about what disobedience looks like in a prophet. The control extends to timing: three days is a duration God sets and God ends.\n\nGod is the exclusive source of salvation. The prayer ends by setting everything else aside: 'Those who cling to worthless idols forsake His loving devotion.' Idols are nothing to a drowning man. This is not just a claim about Israel's God against others but a claim about the shape of reality, in which rescue is gift, not wage. Salvation is from the LORD; it cannot be earned, bought or taken.\n\nGod is faithful to a servant who has failed. Jonah's prayer shows no great repentance, and God still saves him. The holy temple toward which Jonah looks is the place where God has said He will meet His people, and He meets him there, outside the temple, in the deep. Here God's character is displayed before it is spelled out in 4:2, 'gracious and compassionate, slow to anger, abounding in loving devotion'.\n\nThe tension to hold is between God's severity and His kindness. The same sea that is God's judgment is the place of His mercy. For worship the chapter teaches us to pray from where we are, in the psalms God has given us, and to end where Jonah ends, not with a promise to do better but with a confession: salvation belongs to the LORD.",
     "crossReferences": [
-      { "ref": "Matthew 12:39-41", "note": "Jesus makes the three days in the fish a sign of His burial and resurrection." },
-      { "ref": "Psalm 18:4-6", "note": "The cords of death and the cry from distress that God hears, the pattern Jonah's prayer follows." },
-      { "ref": "Psalm 30:2-3", "note": "You brought up my soul from Sheol, the very rescue Jonah gives thanks for." },
-      { "ref": "Jonah 2:9", "note": "Salvation is from the LORD, the theological heart of the book and the gospel in miniature." }
+      {
+        "ref": "Psalm 120:1",
+        "note": "'In my distress I cried to the LORD, and He answered me.' Jonah opens with the opening of this psalm of ascent, and so places himself among the pilgrims who sing it. The line sets the pattern for the whole prayer: distress, cry, answer."
+      },
+      {
+        "ref": "Psalm 42:7",
+        "note": "'Deep calls to deep in the roar of Your waterfalls; all Your breakers and waves have rolled over me.' Jonah's third verse is a close paraphrase. The psalmist writes of longing for God in exile, and Jonah applies the language literally to the sea."
+      },
+      {
+        "ref": "Psalm 31:22",
+        "note": "'In my alarm I said, I am cut off from Your sight! But You heard my plea for mercy.' Jonah's banishment from God's sight, followed by hope, follows this psalm, and the same psalm gives him his verse on idols, Psalm 31:6."
+      },
+      {
+        "ref": "Psalm 69:1-2",
+        "note": "'The waters are up to my neck... I have drifted into deep waters, where the flood engulfs me.' The picture of waters closing over a life is a standard way for the psalmists to describe near death, and Jonah is the one man for whom it was nearly literal."
+      },
+      {
+        "ref": "Psalm 30:3",
+        "note": "'You pulled me up from Sheol; You spared me from descending into the Pit.' The thanksgiving of a man brought back from the edge of death. It stands behind Jonah's 'You raised my life from the pit' and gives the language of resurrection to a rescue still within this life."
+      },
+      {
+        "ref": "Psalm 16:10",
+        "note": "'You will not abandon my soul to Sheol, nor will You let Your Holy One see decay.' Peter quotes this in Acts 2 as fulfilled in Christ's resurrection. It links Jonah's 'raised from the pit' with the greater rescue of the Holy One."
+      },
+      {
+        "ref": "Hosea 6:1-2",
+        "note": "'On the third day He will raise us up, that we may live in His presence.' A prophet near Jonah's time speaks of third day restoration after wounding. It shows that death and rising on the third day was already a way Israel spoke of God's rescue."
+      },
+      {
+        "ref": "Matthew 12:39-41",
+        "note": "Jesus gives the sign of Jonah: three days and three nights in the belly of the great fish, and three in the heart of the earth. He uses Jonah's own experience as the image of His burial and says that the Ninevites will rise to condemn his hearers."
+      },
+      {
+        "ref": "John 2:19-21",
+        "note": "'Destroy this temple, and in three days I will raise it up again.' John explains that Jesus spoke of the temple of His body. Jonah looks toward the temple twice, and here the temple itself is the one who dies and rises."
+      },
+      {
+        "ref": "Revelation 7:10",
+        "note": "The great multitude cries, 'Salvation to our God, who sits on the throne, and to the Lamb!' It lifts Jonah's last line into heaven's worship and adds the Lamb, so that the confession of a drowning prophet becomes the song of all the redeemed."
+      }
     ],
-    "oneStory": "The runaway prophet is himself saved only by grace, lifted alive from the grave of the sea. His rescue rehearses the whole gospel: descent into death, a God-appointed span, and resurrection to new life, with the confession that salvation belongs to the LORD. What is pictured in Jonah is accomplished in Christ, and through Him that salvation reaches the nations Jonah despised.",
-    "sermon": { "status": "verified", "preacher": "Alistair Begg", "title": "Salvation Comes from the Lord", "url": "https://www.truthforlife.org/resources/sermon/salvation-comes-from-the-lord/", "why": "From Begg's expository series A Study in Jonah, this message treats Jonah's prayer from the fish, Jonah 2:1-10, drawing out that his ordeal was meant for his redemption and that salvation belongs to the LORD alone. A faithful, orthodox handling of this exact passage." }
+    "oneStory": "Jonah 2 is the story of the whole Bible at the scale of a single man. The fall plunged humanity into death, and the deep is the Bible's oldest picture of death and chaos, the sea over which the Spirit hovered at creation, Genesis 1:2, and from which God drew the dry land. When Jonah sinks to the roots of the mountains, he enters the place the fall made, and when he prays from there, he does what Adam did not: he calls on the LORD from the pit.\n\nThe answer he receives is the shape of every rescue in Scripture. The LORD who saved Noah through the flood and Israel through the sea does not remove the water; He brings His people up out of it. Exodus has the sea parted and closed over the enemy; Jonah has the sea opened and closed over him, and then the fish casts him up on dry land. The pattern is a sort of baptism, going down in judgment and rising by grace, and Paul will make it the pattern of the believer's union with Christ, Romans 6:3-4.\n\nThe chapter prepares for redemption by showing what redemption costs and who provides it. Jonah has nothing to offer. All he can do is vow and give thanks. The One who does the saving is the LORD. The New Testament shows how: the Son goes down into the heart of the earth and comes up on the third day, 1 Corinthians 15:3-4, so that everyone who calls on His name is brought up from the pit with Him. Hosea's third day, Jonah's three days, and the Gospel's third day make one line, and Jesus's own use of Jonah as a sign ties the chapter to the centre of the gospel.\n\nThe chapter also points to the new creation. The sea that holds Jonah is the same sea that Revelation 21:1 says will be no more, and the death that swallows is the last enemy that will be destroyed, 1 Corinthians 15:26. The prayer's last cry, 'Salvation is from the LORD', is taken up in the multitude of Revelation 7:10, from every nation, tribe, people and language, including the Ninevites Jonah did not want to meet.\n\nAnd it sets up the rest of the book. Jonah has been rescued from death by the LORD's mercy, and chapter 3 will ask whether he can stand to see the same mercy given to Nineveh. The tension between a grace gratefully received and a grace reluctantly shared is the tension the gospel itself puts before every believer, and it is the question the book of Jonah leaves open at its final verse.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "Alistair Begg",
+      "title": "Salvation Comes from the Lord",
+      "url": "https://www.truthforlife.org/resources/sermon/salvation-comes-from-the-lord/",
+      "why": "From Begg's expository series A Study in Jonah, this message treats Jonah's prayer from the fish, Jonah 2:1-10, drawing out that his ordeal was meant for his redemption and that salvation belongs to the LORD alone. A faithful, orthodox handling of this exact passage."
+    }
   },
   "quiz": [
     {
       "q": "What is the climactic confession of Jonah's prayer?",
       "options": [
-        { "text": "Salvation is from the LORD.", "weight": 100, "note": "Jonah 2:9 is the theological heart of the book, that rescue is God's work and gift." },
-        { "text": "That he would fulfill the vows he had made.", "weight": 75, "note": "He does vow this, but it flows from the greater truth that salvation is God's." },
-        { "text": "That he was sorry for fleeing to Tarshish.", "weight": 25, "note": "Strikingly, the prayer never mentions his flight or Nineveh." },
-        { "text": "That he had saved himself by his own resolve.", "weight": 0, "note": "The prayer says the opposite: salvation belongs entirely to the LORD." }
+        {
+          "text": "Salvation is from the LORD.",
+          "weight": 100,
+          "note": "Jonah 2:9 is the theological heart of the book, that rescue is God's work and gift."
+        },
+        {
+          "text": "That he would fulfill the vows he had made.",
+          "weight": 75,
+          "note": "He does vow this, but it flows from the greater truth that salvation is God's."
+        },
+        {
+          "text": "That he was sorry for fleeing to Tarshish.",
+          "weight": 25,
+          "note": "Strikingly, the prayer never mentions his flight or Nineveh."
+        },
+        {
+          "text": "That he had saved himself by his own resolve.",
+          "weight": 0,
+          "note": "The prayer says the opposite: salvation belongs entirely to the LORD."
+        }
       ]
     },
     {
       "q": "How does Jesus use Jonah's three days in the fish?",
       "options": [
-        { "text": "As the sign of Jonah, pointing to His own three days in the grave before rising.", "weight": 100, "note": "Matthew 12:40 makes this the great sign of Jesus' death and resurrection." },
-        { "text": "As an example of patience in hardship.", "weight": 75, "note": "There is endurance here, but Jesus applies it specifically to His burial and resurrection." },
-        { "text": "As a warning against sea travel.", "weight": 25, "note": "This misses the point entirely; Jesus makes it a sign of the resurrection." },
-        { "text": "Jesus never refers to Jonah.", "weight": 0, "note": "Jesus explicitly names the sign of Jonah in the Gospels." }
+        {
+          "text": "As the sign of Jonah, pointing to His own three days in the grave before rising.",
+          "weight": 100,
+          "note": "Matthew 12:40 makes this the great sign of Jesus' death and resurrection."
+        },
+        {
+          "text": "As an example of patience in hardship.",
+          "weight": 75,
+          "note": "There is endurance here, but Jesus applies it specifically to His burial and resurrection."
+        },
+        {
+          "text": "As a warning against sea travel.",
+          "weight": 25,
+          "note": "This misses the point entirely; Jesus makes it a sign of the resurrection."
+        },
+        {
+          "text": "Jesus never refers to Jonah.",
+          "weight": 0,
+          "note": "Jesus explicitly names the sign of Jonah in the Gospels."
+        }
       ]
     },
     {
       "q": "What does the word manah, appointed, teach about God in this book?",
       "options": [
-        { "text": "God commands His creation, the fish and later the plant, worm, and wind, to serve His purposes.", "weight": 100, "note": "The repeated word shows God quietly ruling every creature to accomplish His will." },
-        { "text": "God occasionally intervenes in nature when asked.", "weight": 75, "note": "It is stronger than that: God actively appoints creatures to do His bidding." },
-        { "text": "The fish acted on its own instinct.", "weight": 25, "note": "The text says the LORD appointed the fish and commanded it." },
-        { "text": "God has little to do with the natural world.", "weight": 0, "note": "The book shows God sovereignly directing creation throughout." }
+        {
+          "text": "God commands His creation, the fish and later the plant, worm, and wind, to serve His purposes.",
+          "weight": 100,
+          "note": "The repeated word shows God quietly ruling every creature to accomplish His will."
+        },
+        {
+          "text": "God occasionally intervenes in nature when asked.",
+          "weight": 75,
+          "note": "It is stronger than that: God actively appoints creatures to do His bidding."
+        },
+        {
+          "text": "The fish acted on its own instinct.",
+          "weight": 25,
+          "note": "The text says the LORD appointed the fish and commanded it."
+        },
+        {
+          "text": "God has little to do with the natural world.",
+          "weight": 0,
+          "note": "The book shows God sovereignly directing creation throughout."
+        }
       ]
     },
     {
       "q": "Why does Jonah describe the fish as the belly of Sheol?",
       "options": [
-        { "text": "He speaks as one already as good as dead, so his rescue is like being raised from the grave.", "weight": 100, "note": "Sheol is the realm of the dead; his deliverance is spoken of as life brought up from the pit." },
-        { "text": "He is describing the physical darkness of the fish.", "weight": 75, "note": "The darkness is real, but Sheol points to death itself, not just to darkness." },
-        { "text": "He believes he has literally died and gone to the underworld.", "weight": 25, "note": "He is alive and praying; Sheol is the language of one on the brink of death." },
-        { "text": "It is simply a poetic flourish with no real meaning.", "weight": 0, "note": "It carries deep meaning, framing his rescue as resurrection from death." }
+        {
+          "text": "He speaks as one already as good as dead, so his rescue is like being raised from the grave.",
+          "weight": 100,
+          "note": "Sheol is the realm of the dead; his deliverance is spoken of as life brought up from the pit."
+        },
+        {
+          "text": "He is describing the physical darkness of the fish.",
+          "weight": 75,
+          "note": "The darkness is real, but Sheol points to death itself, not just to darkness."
+        },
+        {
+          "text": "He believes he has literally died and gone to the underworld.",
+          "weight": 25,
+          "note": "He is alive and praying; Sheol is the language of one on the brink of death."
+        },
+        {
+          "text": "It is simply a poetic flourish with no real meaning.",
+          "weight": 0,
+          "note": "It carries deep meaning, framing his rescue as resurrection from death."
+        }
       ]
     },
     {
       "q": "How should we read the tension between this prayer and Jonah's anger in chapter 4?",
       "options": [
-        { "text": "We can genuinely thank God for saving us while still resenting His mercy toward others.", "weight": 100, "note": "The prayer is real, yet chapter 4 exposes a heart still hard toward Nineveh, a sober warning." },
-        { "text": "The prayer proves Jonah was fully changed and never struggled again.", "weight": 75, "note": "Chapter 4 shows his heart was not yet fully changed, so this overstates it." },
-        { "text": "The prayer was completely insincere.", "weight": 25, "note": "The psalm is a real prayer of faith; the issue is that gratitude had not yet reshaped his heart toward enemies." },
-        { "text": "There is no tension; the two chapters are unrelated.", "weight": 0, "note": "The book deliberately holds them together to probe the reader's heart." }
+        {
+          "text": "We can genuinely thank God for saving us while still resenting His mercy toward others.",
+          "weight": 100,
+          "note": "The prayer is real, yet chapter 4 exposes a heart still hard toward Nineveh, a sober warning."
+        },
+        {
+          "text": "The prayer proves Jonah was fully changed and never struggled again.",
+          "weight": 75,
+          "note": "Chapter 4 shows his heart was not yet fully changed, so this overstates it."
+        },
+        {
+          "text": "The prayer was completely insincere.",
+          "weight": 25,
+          "note": "The psalm is a real prayer of faith; the issue is that gratitude had not yet reshaped his heart toward enemies."
+        },
+        {
+          "text": "There is no tension; the two chapters are unrelated.",
+          "weight": 0,
+          "note": "The book deliberately holds them together to probe the reader's heart."
+        }
       ]
     }
   ],
@@ -163,9 +388,21 @@
     "Jonah's rescue from the deep is the sign Jesus took up for His own death and resurrection. How does the certainty of Christ's resurrection change the way you face your fears this week?"
   ],
   "translationNotes": [
-    { "ref": "Jonah 1:17", "note": "In the Hebrew text this verse begins chapter 2; English Bibles keep it as 1:17. It introduces the fish that frames the whole prayer." },
-    { "ref": "Jonah 2:2", "note": "Sheol denotes the grave or realm of the dead; the belly of Sheol pictures Jonah as one already sinking into death." },
-    { "ref": "Jonah 2:8", "note": "Loving devotion translates chesed, God's loyal covenant love; the BSB footnote notes its range includes love, kindness, faithfulness, mercy, and covenant loyalty." }
+    {
+      "ref": "Jonah 1:17",
+      "note": "In the Hebrew text this verse begins chapter 2; English Bibles keep it as 1:17. It introduces the fish that frames the whole prayer."
+    },
+    {
+      "ref": "Jonah 2:2",
+      "note": "Sheol denotes the grave or realm of the dead; the belly of Sheol pictures Jonah as one already sinking into death."
+    },
+    {
+      "ref": "Jonah 2:8",
+      "note": "Loving devotion translates chesed, God's loyal covenant love; the BSB footnote notes its range includes love, kindness, faithfulness, mercy, and covenant loyalty."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Jonah 1:17-2:10. The poetic lines of the prayer are rendered as flowing prose within each verse." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Jonah 1:17-2:10. The poetic lines of the prayer are rendered as flowing prose within each verse."
+  }
 }

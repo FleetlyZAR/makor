@@ -18,9 +18,21 @@
         "note": "the word comes again",
         "emphasis": "",
         "verses": [
-          { "chapter": 3, "n": 1, "text": "Then the word of the LORD came to Jonah a second time:" },
-          { "chapter": 3, "n": 2, "text": "“Get up! Go to the great city of Nineveh and {{qara|proclaim}} to it the message that I give you.”" },
-          { "chapter": 3, "n": 3, "text": "This time Jonah got up and went to Nineveh, in accordance with the word of the LORD. Now Nineveh was an exceedingly great city, requiring a three-day journey." }
+          {
+            "chapter": 3,
+            "n": 1,
+            "text": "Then the word of the LORD came to Jonah a second time:"
+          },
+          {
+            "chapter": 3,
+            "n": 2,
+            "text": "“Get up! Go to the great city of Nineveh and {{qara|proclaim}} to it the message that I give you.”"
+          },
+          {
+            "chapter": 3,
+            "n": 3,
+            "text": "This time Jonah got up and went to Nineveh, in accordance with the word of the LORD. Now Nineveh was an exceedingly great city, requiring a three-day journey."
+          }
         ]
       },
       {
@@ -28,9 +40,21 @@
         "note": "from the greatest to the least",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 3, "n": 4, "text": "On the first day of his journey, Jonah set out into the city and proclaimed, “Forty more days and Nineveh will be {{haphak|overturned}}!”" },
-          { "chapter": 3, "n": 5, "text": "And the Ninevites believed God. They proclaimed a fast and dressed in sackcloth, from the greatest of them to the least." },
-          { "chapter": 3, "n": 6, "text": "When word reached the king of Nineveh, he got up from his throne, took off his royal robe, covered himself with sackcloth, and sat in ashes." }
+          {
+            "chapter": 3,
+            "n": 4,
+            "text": "On the first day of his journey, Jonah set out into the city and proclaimed, “Forty more days and Nineveh will be {{haphak|overturned}}!”"
+          },
+          {
+            "chapter": 3,
+            "n": 5,
+            "text": "And the Ninevites believed God. They proclaimed a fast and dressed in sackcloth, from the greatest of them to the least."
+          },
+          {
+            "chapter": 3,
+            "n": 6,
+            "text": "When word reached the king of Nineveh, he got up from his throne, took off his royal robe, covered himself with sackcloth, and sat in ashes."
+          }
         ]
       },
       {
@@ -38,20 +62,61 @@
         "note": "who knows? God may relent",
         "emphasis": "",
         "verses": [
-          { "chapter": 3, "n": 7, "text": "Then he issued a proclamation in Nineveh: “By the decree of the king and his nobles: Let no man or beast, herd or flock, taste anything at all. They must not eat or drink." },
-          { "chapter": 3, "n": 8, "text": "Furthermore, let both man and beast be covered with sackcloth, and have everyone call out earnestly to God. Let each one {{shuv|turn}} from his {{raah|evil}} ways and from the violence in his hands." },
-          { "chapter": 3, "n": 9, "text": "Who knows? God may turn and {{nacham|relent}}; He may turn from His fierce anger, so that we will not perish.”" },
-          { "chapter": 3, "n": 10, "text": "When God saw their actions, that they had turned from their evil ways, He {{nacham|relented}} from the disaster He had threatened to bring upon them." }
+          {
+            "chapter": 3,
+            "n": 7,
+            "text": "Then he issued a proclamation in Nineveh: “By the decree of the king and his nobles: Let no man or beast, herd or flock, taste anything at all. They must not eat or drink."
+          },
+          {
+            "chapter": 3,
+            "n": 8,
+            "text": "Furthermore, let both man and beast be covered with sackcloth, and have everyone call out earnestly to God. Let each one {{shuv|turn}} from his {{raah|evil}} ways and from the violence in his hands."
+          },
+          {
+            "chapter": 3,
+            "n": 9,
+            "text": "Who knows? God may turn and {{nacham|relent}}; He may turn from His fierce anger, so that we will not perish.”"
+          },
+          {
+            "chapter": 3,
+            "n": 10,
+            "text": "When God saw their actions, that they had turned from their evil ways, He {{nacham|relented}} from the disaster He had threatened to bring upon them."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "qara": { "language": "Hebrew", "lemma": "qara", "original": "קרא", "gloss": "To call, proclaim, or cry out. The LORD calls Jonah to proclaim, Jonah proclaims to the city, the Ninevites proclaim a fast, and everyone is to call out to God. The one word ties together God's summons, the preached word, and the people's cry for mercy." },
-    "haphak": { "language": "Hebrew", "lemma": "haphak", "original": "הפך", "gloss": "To overturn, overthrow, or turn about. The same verb destroyed Sodom, yet it can also mean to be transformed. Jonah says Nineveh will be overturned, and it is, not in ruin but in repentance; the threatened overthrow becomes an overturning of hearts." },
-    "shuv": { "language": "Hebrew", "lemma": "shuv", "original": "שוב", "gloss": "To turn, return, or repent. The Ninevites turn from their evil ways, and they hope God may turn from His anger. It is the great Old Testament word for repentance, a turning of the whole life back toward God." },
-    "raah": { "language": "Hebrew", "lemma": "raah", "original": "רעה", "gloss": "Evil, wickedness, or disaster. It names the evil ways the city abandons and, in the same breath, the disaster God had threatened. The word binds together the sin, the judgment it deserves, and the mercy that turns it aside." },
-    "nacham": { "language": "Hebrew", "lemma": "nacham", "original": "נחם", "gloss": "To relent, be moved to compassion, or change a course of action. God relents from the threatened disaster when the city turns. This is not a change in God's character but the outworking of His consistent mercy toward the repentant." }
+    "qara": {
+      "language": "Hebrew",
+      "lemma": "qara",
+      "original": "קרא",
+      "gloss": "To call, proclaim, or cry out. The LORD calls Jonah to proclaim, Jonah proclaims to the city, the Ninevites proclaim a fast, and everyone is to call out to God. The one word ties together God's summons, the preached word, and the people's cry for mercy."
+    },
+    "haphak": {
+      "language": "Hebrew",
+      "lemma": "haphak",
+      "original": "הפך",
+      "gloss": "To overturn, overthrow, or turn about. The same verb destroyed Sodom, yet it can also mean to be transformed. Jonah says Nineveh will be overturned, and it is, not in ruin but in repentance; the threatened overthrow becomes an overturning of hearts."
+    },
+    "shuv": {
+      "language": "Hebrew",
+      "lemma": "shuv",
+      "original": "שוב",
+      "gloss": "To turn, return, or repent. The Ninevites turn from their evil ways, and they hope God may turn from His anger. It is the great Old Testament word for repentance, a turning of the whole life back toward God."
+    },
+    "raah": {
+      "language": "Hebrew",
+      "lemma": "raah",
+      "original": "רעה",
+      "gloss": "Evil, wickedness, or disaster. It names the evil ways the city abandons and, in the same breath, the disaster God had threatened. The word binds together the sin, the judgment it deserves, and the mercy that turns it aside."
+    },
+    "nacham": {
+      "language": "Hebrew",
+      "lemma": "nacham",
+      "original": "נחם",
+      "gloss": "To relent, be moved to compassion, or change a course of action. God relents from the threatened disaster when the city turns. This is not a change in God's character but the outworking of His consistent mercy toward the repentant."
+    }
   },
   "study": {
     "basic": {
@@ -65,93 +130,240 @@
       "oneStory": "The repentance of Nineveh is one of the Old Testament's clearest previews of the gospel going to the nations. A prophet raised from the deep preaches, Gentiles repent, and God shows mercy, pointing straight to Christ risen and the church sent to all peoples."
     },
     "context": {
-      "literary": "The second half of the book mirrors the first: the same call, but now obedience instead of flight. The scene builds from Jonah's terse sermon to the city's sweeping response, greatest to least, man and beast, climaxing in God relenting. The repetition of turn and evil binds the human repentance to the divine mercy.",
-      "historical": "Nineveh was a principal city of Assyria, an empire notorious for cruelty, later the destroyer of the northern kingdom. A citywide fast in sackcloth, decreed by the king, fits ancient practices of national mourning and appeal to the gods in the face of threatened calamity.",
-      "canonical": "Nineveh's repentance stands out sharply against Israel's frequent refusal to heed her prophets. It anticipates the wideness of God's mercy celebrated across Scripture and becomes, on Jesus' lips, a witness against those who reject a greater prophet."
+      "literary": "Jonah 3 opens the second half of the book by deliberately repeating the first. Verse 1 is almost the opening of Jonah 1:1, the word of the LORD coming to Jonah, now with the added 'a second time.' Verse 2 repeats the commission of Jonah 1:2, 'Get up! Go to the great city of Nineveh.' Verse 3 then answers Jonah 1:3 point for point. There he got up and fled toward Tarshish; here he got up and went, 'in accordance with the word of the LORD.' The same verb, to rise, carries the whole turn. Chapter 1 ended with pagan sailors fearing the LORD, and chapter 3 widens that into a pagan metropolis. The author wants the reader to notice, a little uncomfortably, that outsiders keep responding to God faster than the prophet does.\n\nThe chapter moves in three scenes that tighten like a funnel. Verses 1 to 4 follow one man: the call, the obedience, the sermon. Verses 5 to 9 follow the whole city, then the king, then a decree that reaches the animals. Verse 10 is a single sentence in which God answers. The scale swings from a lone prophet to a great city and back to one verdict from heaven. Notice also how the story handles speech. Jonah gets one line, five words in Hebrew, and nothing more is said of how he delivered it. The king, by contrast, receives a full decree. The narrator gives the pagan more words than the prophet.\n\nThe word 'great' is the thread through the book: a great city, a great wind, a great fish, great fear. Here it appears in verse 3, where Nineveh is 'exceedingly great,' and in the phrase 'from the greatest of them to the least,' verse 5. The phrase has a pattern of reversals inside it: the great city is humbled from its greatest to its least, and the king himself leaves his throne for ashes, verse 6.\n\nVerse 10 is the hinge of the book's argument. God 'saw their actions,' and the narrator mirrors the pairing of verse 8: they turned from their evil ways, and God relented from the disaster. Human turning and divine relenting are set side by side so that the reader hears the exchange as a single movement. Chapter 4 will then ask what Jonah makes of it.",
+      "historical": "Jonah son of Amittai was a real prophet from Gath-hepher in the days of Jeroboam II of Israel, 2 Kings 14:25, which puts him in the first half of the eighth century before Christ. In his own day Assyria was a threat but not yet the conqueror it would become. Within a generation of the prophets who followed him, Assyria captured Samaria and carried Israel away, 2 Kings 17:6, and under Sennacherib it overran the fortified cities of Judah, 2 Kings 18:13. Jonah did not need much imagination to understand what was at stake in asking him to warn Nineveh. Warning a city of Israel's enemy, and being proved right only if they changed, meant risking the enemy's survival.\n\nNineveh stood on the Tigris and was one of the great cities of Assyria. Genesis 10:11 says Nimrod built it, so its roots go back to the world after the flood and Babel. Nahum, who prophesied against it later, called it 'the city of blood, full of lies, full of plunder,' Nahum 3:1, and Zephaniah foretold that God would make it 'a desolation,' Zephaniah 2:13. The 'violence in his hands,' verse 8, matches that reputation.\n\nThe 'three-day journey' of verse 3 is understood in different ways. The BSB footnotes give two possibilities: that Nineveh was a great city 'to God,' or that the journey was three days around or through the district of towns that made up greater Nineveh. In either case it points to the size and importance of the place rather than to a precise measurement. Verse 4 says Jonah began on the first day of his journey, so the sermon was delivered as he moved, not from a single square.\n\nSackcloth and fasting were the ordinary language of ancient grief and appeal. Israel used them in national crisis. King Ahab put on sackcloth and fasted after Elijah's word of judgment, 1 Kings 21:27, and Hezekiah put on sackcloth when Sennacherib's threat reached him, 2 Kings 19:1. A king leaving the throne to sit in ashes was a dramatic act of public humility. The book never names the Assyrian king, and no outside record of this event is claimed here; the point of the story does not depend on identifying him.",
+      "canonical": "Jonah 3 is the only place in the Old Testament where a Gentile city responds to an Israelite prophet with a repentance that God accepts. It therefore stands as a standing counter-example to the habit of the covenant people. Jeremiah complains that Israel refuses to listen, and the Lord answers that no nation need be doomed if it turns, Jeremiah 18:7-8. Jonah 3 is the case study of that principle with a hostile pagan nation as the subject. The king's hopeful 'Who knows? God may turn and relent' in verse 9 is borrowed language: David spoke the same way when his child was sick, 2 Samuel 12:22, and Joel summoned Judah with almost the same words, Joel 2:14. Pagan Nineveh is using the vocabulary of Israel's own prayer.\n\nMoses had asked for just this kind of mercy at Sinai: 'Turn from Your fierce anger and relent,' Exodus 32:12, and 'the LORD relented from the calamity,' Exodus 32:14. Jonah 3:9-10 echoes both halves of that pair, which tells us the book is aware of the golden calf and of the character of God revealed there, a point that becomes explicit in Jonah 4:2.\n\nThe New Testament takes the chapter up directly. Jesus says the men of Nineveh will stand at the judgment with His generation and condemn it, 'for they repented at the preaching of Jonah, and now One greater than Jonah is here,' Matthew 12:41, repeated in Luke 11:32. In Luke 11:30 He adds that Jonah was a sign to the Ninevites as the Son of Man would be to His generation. In Acts the church has to learn what Jonah learned, and when Peter reports the conversion of Cornelius' household, the believers conclude, 'God has granted even the Gentiles repentance unto life,' Acts 11:18. The story ends where Revelation 7:9 finds a multitude from every nation standing before the throne.\n\nNineveh's repentance did not last. Within a century or so Nahum and Zephaniah were announcing its fall, Zephaniah 2:13. The canon holds both truths at once: God's mercy to the repentant is real, and a later generation can forget it. The point is not that Nineveh was permanently converted, but that the door of mercy was opened for a time to the worst of Israel's neighbours, and that the door is God's to open."
     },
     "hermeneutics": {
-      "authorIntent": "To confront Israel with the spectacle of her worst enemy repenting at a mere five-word sermon, and to display a God so merciful that He relents from disaster the moment a people turn, pressing the reader toward both repentance and joy over the salvation of outsiders.",
-      "descriptionVsPrescription": "The narrative describes Nineveh's repentance and God's relenting. The abiding truths are that God calls all people to turn from evil, that genuine repentance is met with mercy, and that no one is beyond the reach of grace.",
+      "authorIntent": "The author of Jonah is writing for a people who knew the story of Assyria and who had every reason to hope Nineveh would perish. He gives them a story in which the prophet who shared their feelings is the one who looks bad, and the enemy is the one who looks teachable. The purpose of chapter 3 is not to praise Nineveh for its virtue, since the king still calls the city's habits 'violence in his hands,' but to show what God does when anyone, anywhere, turns to Him. The first hearers were meant to feel the force of the contrast with their own history. Israel had Moses, Elijah and a long line of prophets and still did not turn. A foreign city with one short sermon from a reluctant stranger did.\n\nThe author also wants his readers to learn how repentance actually looks. It begins with belief, 'the Ninevites believed God,' verse 5, and it shows itself in action: fasting, humility from the top of society down, and a change of conduct, 'turn from his evil ways and from the violence in his hands,' verse 8. The author notices that God responds to what He 'saw,' their actions, verse 10, and not to the ritual alone. A reader who had been tempted to treat sackcloth as a technique is shown that it is a sign of a heart turning.\n\nFinally, the author is quietly handing his readers a task. If God can relent toward Nineveh, then no one on earth lies beyond mercy, and a believer who has been given the word is under an obligation to carry it. Chapter 4 will press that point on Jonah, and so on the reader.",
+      "descriptionVsPrescription": "The chapter records what happened in one city at one time. It does not command every church to preach forty-day warnings, or promise that any city that fasts will be spared. The prophecy was addressed to Nineveh, and its outcome depended on the Lord's decision to relent. What the chapter does give is a revealed principle, the one stated in Jeremiah 18:7-8, that a warning of judgment from God is meant to bring about repentance, and that repentance is met with mercy.\n\nThe fasting of animals and the sackcloth on cattle describe the king's decree, not a model for worship. They show the whole community, including its livelihood, coming under the humility of the moment. What applies now is that repentance is public as well as private, reaches into economic and political life ('violence in his hands'), and is led most effectively by those with power setting aside their dignity.\n\nIt is also worth noticing what is not prescribed. Nobody is told that repentance earns forgiveness or that God owes anything in return. The king himself says only, 'Who knows?' Believers today are meant to preach the whole counsel of God, including warnings, with the confidence the New Testament gives, that in Christ forgiveness is promised to everyone who repents and believes, Luke 24:47.",
       "debates": [
         {
-          "question": "What does it mean that God relented from the disaster?",
+          "question": "Did Nineveh experience a lasting conversion?",
           "views": [
-            { "label": "God's unchanging mercy meeting repentance", "case": "Scripture says God does not change and does not lie; His relenting is the consistent outworking of His stated character, which always spares the truly repentant, as Jeremiah 18:7-8 explains." },
-            { "label": "A real divine response in the narrative", "case": "The text speaks plainly of God seeing their turning and relenting, portraying a genuine, responsive relationship rather than a fixed script; the language is meant to be taken seriously." }
+            {
+              "label": "A genuine turning to the true God",
+              "case": "The text says the Ninevites 'believed God,' verse 5, using the same construction as Abram's faith in Genesis 15:6, and that God 'saw their actions,' verse 10. Jesus treats them as true penitents who will rise to condemn His generation, Matthew 12:41. On this view their repentance was real, even if it did not pass to later generations."
+            },
+            {
+              "label": "A real but temporary humbling",
+              "case": "Nineveh's later history, with Nahum and Zephaniah announcing its fall, shows that the turning did not last. Some also point out that the king speaks only of 'God,' verse 9, and never of the LORD by name, and that the book never says they gave up their own gods. They read it as a sincere crisis response that bought the city a reprieve."
+            }
           ],
-          "bearing": "Both guard the same truth: God is not capricious. His threat was aimed at repentance, and His mercy is sure for those who turn, so the relenting reveals His heart rather than a change in His nature."
+          "bearing": "The chapter itself only claims what it shows: belief, fasting and turning from violence, met by God's relenting. A reprieve is not a lasting covenant, but it is mercy all the same, and Jesus's own verdict on the Ninevites is the strongest reading of their sincerity."
         },
         {
-          "question": "How could a whole pagan city repent so suddenly and completely?",
+          "question": "How should we read the claim that God relented, given that Scripture also says He does not change His mind?",
           "views": [
-            { "label": "A sovereign work of God", "case": "The same God who appointed the fish moved the city; the astonishing scale is exactly the point, magnifying grace and rebuking Israel's hardness." },
-            { "label": "A historically plausible crisis response", "case": "A city under threat, perhaps shaken by omens or Jonah's own strange account, could plausibly humble itself in a national fast; the details fit ancient practice." }
+            {
+              "label": "Relenting is the same unchanging character, applied to a changed situation",
+              "case": "Numbers 23:19 and 1 Samuel 15:29 say God is not a man who changes His mind, and yet Exodus 32:14 and Jonah 3:10 say He relented. Jeremiah 18:7-8 resolves the apparent conflict: God's stated principle is that He will spare the nation that turns. When the situation changes, His constant character produces a different outcome."
+            },
+            {
+              "label": "God genuinely responds within real relationship",
+              "case": "Others stress that the text speaks of God seeing, answering and relenting as a person, and that this is not merely a figure of speech. On this reading, God's freedom includes the freedom to let human choices make a real difference, while His purposes and nature stay fixed."
+            }
           ],
-          "bearing": "Whether one stresses the miracle or the plausibility, the writer holds it up as real repentance that shames the covenant people and glorifies God's mercy to the nations."
+          "bearing": "Both views agree on what matters for the reader: the threat in verse 4 was never a fixed decree to destroy. It was a summons to turn, and God's relenting shows His faithfulness to His own stated character, not a loss of control."
         }
       ]
     },
-    "originalLanguages": "The key words turn the scene on repentance and mercy. Qara, to call or proclaim, links God's summons, Jonah's preaching, and the people's cry to God. Haphak, overturned, is a deliberate pun: the verb that overthrew Sodom, yet also meaning to be transformed, so the threatened overthrow becomes an overturning of hearts. Shuv is the great word for turning, repentance, used of the people turning from evil and their hope that God will turn from anger. Ra'ah names both their evil and the disaster it deserved, and nacham describes God relenting, moved to spare them.",
+    "originalLanguages": "Several quieter words in this chapter carry a great deal of weight. The first is the verb for belief in verse 5, 'the Ninevites believed God.' It comes from the root aman, to be firm or reliable, in a form that means to treat as firm, to put trust in. The construction, belief with a preposition meaning 'in' or 'on,' is the same one used of Abram in Genesis 15:6, 'Abram believed the LORD,' and of Israel at the sea, Exodus 14:31. The author chooses the language of covenant faith for a pagan city. The sermon contained no promise and no call to repent, only a threat, yet the Hebrew says they believed.\n\nThe name for God changes with the audience. In this chapter the narrator uses the covenant name, the LORD, only for the word that comes to Jonah, verses 1 and 3. The Ninevites and their king speak of Elohim, 'God,' in verses 5, 8, 9 and 10, the general term for deity. They have not been given the name revealed to Moses, yet God answers them, verse 10, and chapter 4 will show that the LORD is the God who relents. The choice reminds the reader that the one whom Israel calls by name is also the God of all peoples.\n\nIn verse 7 the king's decree is introduced by the word ta'am, 'by the decree of the king.' In ordinary Hebrew this noun means taste or discernment, and the same family of words appears in the decree itself, 'let no man or beast, herd or flock, taste anything at all.' The play is quiet, but the sound of the decree and of the fast are the same word.\n\nThe 'violence' of verse 8 is chamas, the same word that describes the world before the flood, 'full of violence,' Genesis 6:11. It is not a mild word for impoliteness. It names bloodshed, brutality and oppression, which fits the description of Nineveh given by Nahum, 'full of plunder,' Nahum 3:1. The king calls his people to turn from it, and the phrase 'in his hands' makes it personal: the hands that grasped must open.\n\nThe king's 'Who knows?' in verse 9, in Hebrew mi yodea, is a set formula of hopeful uncertainty. David used it of his sick child, 2 Samuel 12:22, and Joel used it of Judah, Joel 2:14. It admits that the outcome is God's to give. The wording of the hope, that God 'may turn from His fierce anger' uses the Hebrew charon af, the burning of the nose, the same expression Moses uses of God's wrath in Exodus 32:12.\n\nVerse 10 says God saw 'their actions,' the plural of ma'aseh, 'deed' or 'work.' It is the same word used for human works throughout the Old Testament, and here it carries the weight of the passage: what moved God's mercy was the visible evidence, not the words only.",
     "typology": [
-      { "type": "Jonah preaching after his death-like ordeal", "fulfillment": "The risen Christ sending the gospel of repentance to all nations, Luke 24:46-47." },
-      { "type": "A Gentile city repenting at the word", "fulfillment": "The ingathering of the nations in the book of Acts, as pagans believe and turn to God." },
-      { "type": "The threatened overthrow turned to salvation", "fulfillment": "Judgment borne and mercy given in Christ, so that those under sentence are spared." }
+      {
+        "type": "The sign of Jonah, Jonah 3:3-4",
+        "fulfillment": "Jesus says that as Jonah was a sign to the Ninevites, so the Son of Man will be a sign to His generation, Luke 11:30, and ties the sign to being three days and three nights in the heart of the earth, Matthew 12:39-40. A man delivered from the depths comes to a pagan city with a message from God. In Christ the pattern becomes a real death and resurrection, and the one who preaches is also the one who rose. The type falls short because Jonah did not die for anyone and did not preach willingly; Christ did both."
+      },
+      {
+        "type": "The king who leaves his throne for ashes, Jonah 3:6",
+        "fulfillment": "The king of Nineveh gets up from his throne, strips off his robe and sits in ashes, a real humbling for a ruler. The pattern is Paul's picture of Christ, who 'emptied Himself' and 'humbled Himself and became obedient to death,' Philippians 2:7-8. The correspondence lies in the descent from honour. It falls short in the reason: the king humbled himself for his own guilt and his city's, and Christ did so for the guilt of others, with no sin of His own."
+      },
+      {
+        "type": "The reprieve given to a condemned city, Jonah 3:4,10",
+        "fulfillment": "Forty days are given between sentence and execution, and the sentence is lifted when the city turns. It pictures the patience of God that Peter describes, 'not wanting anyone to perish but everyone to come to repentance,' 2 Peter 3:9. In Christ the reprieve rests on something solid, since God 'passed over' sins in forbearance and at the cross showed how He can do that and still be just, Romans 3:25-26. Nineveh's reprieve, by contrast, did not remove the sin, which is why Nahum later describes the city's fall."
+      },
+      {
+        "type": "Gentiles who repent at Israel's prophet, Jonah 3:5",
+        "fulfillment": "A pagan city turns to God through a Jewish prophet. This anticipates the church's mission, in which repentance and forgiveness are preached 'to all nations,' Luke 24:47, and the surprised conclusion of the Jerusalem believers, 'God has granted even the Gentiles repentance unto life,' Acts 11:18. The correspondence is real but partial. Nineveh's turning is a single event within one city, while the gospel creates a people drawn from every nation and united in Christ."
+      }
     ],
-    "christ": "Jesus points to this very scene: the men of Nineveh will stand up at the judgment with this generation and condemn it, for they repented at the preaching of Jonah, and now One greater than Jonah is here, Matthew 12:41; Luke 11:32. The logic is piercing: if a reluctant prophet's brief warning turned a pagan city, how much more should people heed the risen Christ. Jonah's ministry to Gentiles after his deliverance foreshadows the gospel of repentance preached in Christ's name to all nations.",
-    "god": "The LORD is patient, giving Nineveh forty days and a prophet. He is merciful, relenting from disaster the moment the city turns, showing that His threats aim at repentance. He is sovereign, able to move a whole hostile city to its knees. And His compassion is wide, embracing the very enemies His prophet despised, for He is God of the nations, not of Israel only.",
+    "christ": "The chapter leads to Christ most plainly because Jesus used it to speak about Himself. When the leaders asked for a sign, He gave them only the sign of Jonah, Matthew 12:39-40, and added that the men of Nineveh will rise at the judgment and condemn that generation, 'for they repented at the preaching of Jonah, and now One greater than Jonah is here,' Matthew 12:41. The logic of the argument rests on this chapter. A reluctant prophet with five words moved a violent pagan city. The Son of God, with infinitely more authority, mercy and evidence, was refused by the people who had the Scriptures. The comparison is not meant to flatter Nineveh but to shame those who hear Christ and do not turn.\n\nJonah 3 also gives the pattern of Christ's commission. The words 'Get up! Go' are the words the risen Lord speaks to His church, 'repentance and forgiveness of sins will be proclaimed to all nations,' Luke 24:47. Jonah went to Nineveh with a forty-day warning and no promise. The disciples go with the whole message of what Christ has done. The king said 'Who knows?' because he had no assurance. The gospel gives assurance: 'Repent, for the kingdom of heaven is near,' Matthew 4:17, and in the New Testament forgiveness is promised, not guessed at.\n\nThere is a deeper link in the question of how God can relent without compromising His justice. Nineveh was spared, yet its violence did not vanish by decree, and the Old Testament never explains how mercy and righteousness agree. Paul does, in Romans 3:25-26. God 'in His forbearance' passed over earlier sins, but He presented Christ as the atoning sacrifice 'in order to demonstrate His righteousness,' so that He might be 'just and the one who justifies.' The relenting of Jonah 3:10 is made safe at the cross. Peter says Christ suffered 'once for all, the righteous for the unrighteous, to bring you to God,' 1 Peter 3:18. Every reprieve God ever gave was drawing on that account.\n\nThe king's descent is also instructive. He leaves a throne and sits in ashes for a city that deserved judgment. Christ left a far higher throne and humbled Himself, Philippians 2:6-8, not for his own sin but for ours. The contrast should be drawn carefully; the king is not a symbol of Christ, and his repentance is not a sacrifice.\n\nA caution keeps the reading honest. The text does not hint that Nineveh's fast or the animals' sackcloth is a picture of Christ's work. The links above rest on the New Testament's own use of Jonah, on the pattern of Gentile repentance, and on the doctrine of how God can be merciful and just. The chapter sets the problem and the hope, and Jesus supplies the answer.",
+    "god": "The first thing this chapter shows about God is that He speaks again. Verse 1 reads, 'the word of the LORD came to Jonah a second time,' and the second chance is given to the very man who ran. God does not abandon a disobedient servant, and He does not withdraw His commission when it is resisted. The same word that was given before is given again, and this time Jonah moves. God's patience with His prophet is the quiet counterpart of His patience with the city.\n\nHe is the God of all nations. Nineveh is not the Lord's people, yet He has seen its wickedness, Jonah 1:2, sent His servant to warn it, and responds when it turns. The God of Israel is not a tribal deity. His sovereignty reaches a foreign capital and its king and cattle, and He holds them accountable for violence done in the world. At the same time He treats them with the same terms He gives Israel: turn and live, Jeremiah 18:7-8, Ezekiel 18:23.\n\nHe is just. The threat of verse 4 was serious, and the disaster would have fallen had the city not turned. The book does not treat judgment as a bluff. Nahum and Zephaniah later show that the justice of God was only postponed, not cancelled, for a city that returned to its ways. God's mercy does not make Him soft on violence.\n\nHe is also free. The king's 'Who knows?' in verse 9 correctly senses that no one can put God in a position where He must forgive. Mercy is not owed. Yet it is also not arbitrary, because Exodus 34:6 and Psalm 103:8 describe the God who is 'compassionate and gracious, slow to anger, abounding in loving devotion,' and the narrative shows that character in action. The doctrine of God holds together two things that some find hard to hold: that He does not change, Numbers 23:19, and that He relents, Exodus 32:14. The resolution is that His unchanging character is exactly what makes Him respond to a humbled people with mercy.\n\nHe judges by what He sees. Verse 10 says God saw 'their actions,' and the word of the king in verse 8 had asked for just that kind of change. God is not impressed by sackcloth alone. The Lord who sees hearts also reads conduct, which means that repentance has a visible face, in violence given up and in plunder returned.\n\nFor worship, the chapter teaches us to praise a God whose mercy is bigger than our map of who deserves it. It also teaches us to stand more humbly before His word, since a word of threat is never merely a threat. It is an invitation, and the right response is the one Nineveh gave, to believe, to humble ourselves, to call out earnestly, and to hope in His mercy.",
     "crossReferences": [
-      { "ref": "Jeremiah 18:7-8", "note": "If a nation turns from its evil, God relents from the disaster He planned, the principle behind Jonah 3:10." },
-      { "ref": "Matthew 12:41", "note": "The men of Nineveh repented at Jonah's preaching and will condemn those who reject One greater than Jonah." },
-      { "ref": "Luke 11:32", "note": "Jesus again holds up Nineveh's repentance as a witness against unbelief." },
-      { "ref": "Joel 2:12-14", "note": "Return to God with fasting, for He is gracious and may relent, the same pattern of turning and mercy." }
+      {
+        "ref": "Jonah 1:1-3",
+        "note": "The first call is the pattern for the second. The same words come to Jonah, 'Get up! Go to the great city of Nineveh,' but in chapter 1 he rises and flees. Reading the two beginnings side by side shows that chapter 3 is a deliberate answer to chapter 1, and that the only change is Jonah's obedience, not God's commission."
+      },
+      {
+        "ref": "Jonah 1:14-16",
+        "note": "Pagan sailors cry to the LORD, fear Him greatly and offer sacrifice after the storm calms. The foreign city of chapter 3 does the same on a much larger scale. The book shows twice that the Gentiles are more responsive than the prophet, and prepares the reader for his anger in chapter 4."
+      },
+      {
+        "ref": "Genesis 15:6",
+        "note": "Abram believed the LORD, and it was credited to him as righteousness. Jonah 3:5 uses the same construction for the Ninevites believing God. The author borrows the language of covenant faith for a pagan city, so the reader hears the family resemblance."
+      },
+      {
+        "ref": "1 Kings 21:27-29",
+        "note": "Ahab put on sackcloth and fasted after Elijah's word of doom, and God said, 'Because he has humbled himself before Me,' He would hold back the calamity. If God responded to the humility of the worst king of Israel, it is no surprise that He responds to Nineveh. Mercy follows humility wherever it is found."
+      },
+      {
+        "ref": "Joel 2:12-14",
+        "note": "Joel calls Judah to return with fasting and torn hearts, and ends with 'Who knows? He may turn and relent.' The king's hope in Jonah 3:9 uses the same words. The prophet and the pagan king stand on the same ground, trusting only the character of God."
+      },
+      {
+        "ref": "Jeremiah 18:7-10",
+        "note": "God states the principle: if He announces destruction on a nation and it turns from evil, He will relent. Jonah 3 is the plain demonstration of it. The chapter also shows that the principle runs both ways, and warns that blessing can be withdrawn from a nation that turns to evil."
+      },
+      {
+        "ref": "Exodus 32:11-14",
+        "note": "Moses asks God to turn from His fierce anger and relent, and God relents from the calamity He had threatened. Jonah 3:9-10 uses the same pair of words for anger and relenting. The echo ties Nineveh's rescue to Israel's own rescue at the golden calf, both resting on the character of God."
+      },
+      {
+        "ref": "Matthew 12:39-41",
+        "note": "Jesus uses Jonah as a sign and holds up Nineveh's repentance as a witness against His own generation. This is the New Testament's own reading of Jonah 3, and the reason this chapter is more than a historical curiosity. The men of Nineveh will stand at the judgment, and Jesus says One greater is here."
+      },
+      {
+        "ref": "Romans 3:25-26",
+        "note": "Paul explains how God could pass over sins in His forbearance and still be righteous: by presenting Christ as the atoning sacrifice. The mercy shown to Nineveh and every earlier sinner is justified at the cross, which is why God can be both just and the justifier."
+      },
+      {
+        "ref": "Acts 11:18",
+        "note": "The Jerusalem believers hear that Cornelius and his household received the Spirit and conclude that God has granted repentance to the Gentiles. It is the same lesson Jonah had to learn, now learned by the church. The wideness of God's mercy that startles Jonah is the shape of the gospel."
+      }
     ],
-    "oneStory": "Nineveh's repentance is a vivid preview of the gospel going to the nations. A prophet brought up from the deep preaches, and Gentiles the covenant people feared turn to God and are spared. It points forward to the risen Christ, greater than Jonah, whose call to repentance goes out to every people, and to the joy of heaven over enemies made into worshippers.",
-    "sermon": { "status": "verified", "preacher": "Alistair Begg", "title": "The Obedient Prophet", "url": "https://www.truthforlife.org/resources/sermon/the-obedient-prophet/", "why": "From Begg's expository series A Study in Jonah, this message covers Jonah 3:1-10, Jonah's renewed commission and Nineveh's repentance, unfolding God's mercy to a pagan city and the breadth of His grace. A clear, orthodox exposition of this passage." }
+    "oneStory": "The Bible begins with a world made good and then filled with violence, Genesis 6:11. After the flood, humanity gathers again and builds, and Genesis 10:11 records that Nimrod, going into Assyria, built Nineveh. The city that Jonah enters is therefore not a stranger in the story. It belongs to the line of human power that rises in rebellion from Babel onward. Into that history God sends a prophet with five words.\n\nThe call of Abraham in Genesis 12:3 promised that all the families of the earth would be blessed through him, and Israel was meant to be the people through whom that blessing reached the nations. Jonah is a test case. The prophet of the chosen people is asked to carry the word to the world's most feared city, and the book shows both what the nations are capable of, a repentance that stuns the reader, and what the chosen people are capable of, a flight from the mission. Isaiah later sees the same horizon: 'Blessed be Egypt My people, Assyria My handiwork, and Israel My inheritance,' Isaiah 19:25. The God who raised up Assyria as a rod, Isaiah 10:5-6, will one day call it His handiwork.\n\nNineveh's story also teaches that mercy is not the end of justice. The reprieve of Jonah 3:10 was real, and the later fall of the city, announced by Nahum and Zephaniah 2:13, was also real. The tension is not resolved in the Old Testament. It waits for the cross, where God shows His righteousness and justifies the ungodly together, Romans 3:25-26. In Christ the forty days become the long patience of 2 Peter 3:9 and the open door of the gospel.\n\nAfter the resurrection the commission Jonah resisted is given to the whole church: repentance and forgiveness 'to all nations, beginning in Jerusalem,' Luke 24:47. Acts records the first Gentiles to turn and the astonished conclusion of the church, Acts 11:18. The Bible's last picture is a crowd that no one can count from every nation, tribe, people and tongue, standing before the throne and the Lamb, Revelation 7:9. Nineveh's sackcloth is one early installment of that crowd, a sign that the God who called a reluctant prophet twice is gathering the nations in the end.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "Alistair Begg",
+      "title": "The Obedient Prophet",
+      "url": "https://www.truthforlife.org/resources/sermon/the-obedient-prophet/",
+      "why": "From Begg's expository series A Study in Jonah, this message covers Jonah 3:1-10, Jonah's renewed commission and Nineveh's repentance, unfolding God's mercy to a pagan city and the breadth of His grace. A clear, orthodox exposition of this passage."
+    }
   },
   "quiz": [
     {
       "q": "What was Jonah's message to Nineveh?",
       "options": [
-        { "text": "A stark warning: forty more days and Nineveh will be overturned.", "weight": 100, "note": "Jonah 3:4 records a brief, blunt announcement of coming judgment." },
-        { "text": "A detailed call to worship the God of Israel.", "weight": 75, "note": "The sermon was far shorter and sharper than that, a bare warning of overthrow." },
-        { "text": "A promise that the city would prosper.", "weight": 25, "note": "The message threatened disaster, not prosperity." },
-        { "text": "A message he made up on his own.", "weight": 0, "note": "It was the message the LORD gave him to proclaim." }
+        {
+          "text": "A stark warning: forty more days and Nineveh will be overturned.",
+          "weight": 100,
+          "note": "Jonah 3:4 records a brief, blunt announcement of coming judgment."
+        },
+        {
+          "text": "A detailed call to worship the God of Israel.",
+          "weight": 75,
+          "note": "The sermon was far shorter and sharper than that, a bare warning of overthrow."
+        },
+        {
+          "text": "A promise that the city would prosper.",
+          "weight": 25,
+          "note": "The message threatened disaster, not prosperity."
+        },
+        {
+          "text": "A message he made up on his own.",
+          "weight": 0,
+          "note": "It was the message the LORD gave him to proclaim."
+        }
       ]
     },
     {
       "q": "How did the city respond to the preaching?",
       "options": [
-        { "text": "They believed God and repented, from the greatest to the least, in fasting and sackcloth.", "weight": 100, "note": "Jonah 3:5-6 shows a sweeping, citywide turning, even the king." },
-        { "text": "Only a handful of people took it seriously.", "weight": 75, "note": "The response was total, from king to commoner, not a handful." },
-        { "text": "They mocked Jonah and ignored the warning.", "weight": 25, "note": "This is what we might expect, but the opposite happened." },
-        { "text": "They attacked Jonah for his message.", "weight": 0, "note": "Far from attacking him, they humbled themselves before God." }
+        {
+          "text": "They believed God and repented, from the greatest to the least, in fasting and sackcloth.",
+          "weight": 100,
+          "note": "Jonah 3:5-6 shows a sweeping, citywide turning, even the king."
+        },
+        {
+          "text": "Only a handful of people took it seriously.",
+          "weight": 75,
+          "note": "The response was total, from king to commoner, not a handful."
+        },
+        {
+          "text": "They mocked Jonah and ignored the warning.",
+          "weight": 25,
+          "note": "This is what we might expect, but the opposite happened."
+        },
+        {
+          "text": "They attacked Jonah for his message.",
+          "weight": 0,
+          "note": "Far from attacking him, they humbled themselves before God."
+        }
       ]
     },
     {
       "q": "What does it mean that God relented from the disaster?",
       "options": [
-        { "text": "His unchanging mercy met their repentance; the threat had always aimed at their turning.", "weight": 100, "note": "God's relenting reveals His consistent character, not a change in His nature, Jeremiah 18:7-8." },
-        { "text": "God changed His mind and became a different God.", "weight": 75, "note": "The relenting is real, but it is His steady mercy at work, not a change in who He is." },
-        { "text": "God had never really intended to judge them.", "weight": 25, "note": "The threat was genuine; the mercy came in response to genuine repentance." },
-        { "text": "God was forced to back down against His will.", "weight": 0, "note": "Nothing forces God; He freely shows the mercy that is His nature." }
+        {
+          "text": "His unchanging mercy met their repentance; the threat had always aimed at their turning.",
+          "weight": 100,
+          "note": "God's relenting reveals His consistent character, not a change in His nature, Jeremiah 18:7-8."
+        },
+        {
+          "text": "God changed His mind and became a different God.",
+          "weight": 75,
+          "note": "The relenting is real, but it is His steady mercy at work, not a change in who He is."
+        },
+        {
+          "text": "God had never really intended to judge them.",
+          "weight": 25,
+          "note": "The threat was genuine; the mercy came in response to genuine repentance."
+        },
+        {
+          "text": "God was forced to back down against His will.",
+          "weight": 0,
+          "note": "Nothing forces God; He freely shows the mercy that is His nature."
+        }
       ]
     },
     {
       "q": "How does Jesus use the repentance of Nineveh?",
       "options": [
-        { "text": "As a witness against unbelief: they repented at Jonah, yet One greater than Jonah is here.", "weight": 100, "note": "Matthew 12:41 and Luke 11:32 hold up Nineveh to shame those who reject Christ." },
-        { "text": "As proof that preaching is usually ineffective.", "weight": 75, "note": "The opposite: it shows preaching bearing astonishing fruit." },
-        { "text": "As an example of a city God finally destroyed.", "weight": 25, "note": "Here God spared the city; this misses the point of mercy." },
-        { "text": "Jesus makes no use of Nineveh's repentance.", "weight": 0, "note": "Jesus directly appeals to it in the Gospels." }
+        {
+          "text": "As a witness against unbelief: they repented at Jonah, yet One greater than Jonah is here.",
+          "weight": 100,
+          "note": "Matthew 12:41 and Luke 11:32 hold up Nineveh to shame those who reject Christ."
+        },
+        {
+          "text": "As proof that preaching is usually ineffective.",
+          "weight": 75,
+          "note": "The opposite: it shows preaching bearing astonishing fruit."
+        },
+        {
+          "text": "As an example of a city God finally destroyed.",
+          "weight": 25,
+          "note": "Here God spared the city; this misses the point of mercy."
+        },
+        {
+          "text": "Jesus makes no use of Nineveh's repentance.",
+          "weight": 0,
+          "note": "Jesus directly appeals to it in the Gospels."
+        }
       ]
     },
     {
       "q": "What is the wordplay in Nineveh will be overturned?",
       "options": [
-        { "text": "The verb can mean both destroyed and transformed; the city is overturned by repentance, not ruin.", "weight": 100, "note": "Haphak carries both senses, so the threatened overthrow becomes an overturning of hearts." },
-        { "text": "It simply means the city walls would collapse.", "weight": 75, "note": "The literal sense of destruction is there, but the pun points to transformation too." },
-        { "text": "It refers to a change of government only.", "weight": 25, "note": "The turning is a repentance of the whole city before God, deeper than politics." },
-        { "text": "There is no wordplay; it means nothing beyond destruction.", "weight": 0, "note": "The double meaning is deliberate and central to the scene." }
+        {
+          "text": "The verb can mean both destroyed and transformed; the city is overturned by repentance, not ruin.",
+          "weight": 100,
+          "note": "Haphak carries both senses, so the threatened overthrow becomes an overturning of hearts."
+        },
+        {
+          "text": "It simply means the city walls would collapse.",
+          "weight": 75,
+          "note": "The literal sense of destruction is there, but the pun points to transformation too."
+        },
+        {
+          "text": "It refers to a change of government only.",
+          "weight": 25,
+          "note": "The turning is a repentance of the whole city before God, deeper than politics."
+        },
+        {
+          "text": "There is no wordplay; it means nothing beyond destruction.",
+          "weight": 0,
+          "note": "The double meaning is deliberate and central to the scene."
+        }
       ]
     }
   ],
@@ -163,9 +375,21 @@
     "God's mercy reached the very enemies Jonah feared. Whose repentance would surprise or even trouble you, and how does God's heart for them reshape your prayers?"
   ],
   "translationNotes": [
-    { "ref": "Jonah 3:3", "note": "An exceedingly great city, requiring a three-day journey, may describe its size or, as the BSB footnote notes, be rendered a great city to God; the phrase stresses Nineveh's vastness." },
-    { "ref": "Jonah 3:4", "note": "Overturned translates haphak, the verb used of Sodom's overthrow, which can also mean transformed; the term carries a deliberate double sense." },
-    { "ref": "Jonah 3:10", "note": "Relented translates nacham; it describes God being moved to spare, in keeping with His revealed mercy toward the repentant, not a change in His character." }
+    {
+      "ref": "Jonah 3:3",
+      "note": "An exceedingly great city, requiring a three-day journey, may describe its size or, as the BSB footnote notes, be rendered a great city to God; the phrase stresses Nineveh's vastness."
+    },
+    {
+      "ref": "Jonah 3:4",
+      "note": "Overturned translates haphak, the verb used of Sodom's overthrow, which can also mean transformed; the term carries a deliberate double sense."
+    },
+    {
+      "ref": "Jonah 3:10",
+      "note": "Relented translates nacham; it describes God being moved to spare, in keeping with His revealed mercy toward the repentant, not a change in His character."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Jonah 3:1-10." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Jonah 3:1-10."
+  }
 }
