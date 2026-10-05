@@ -18,10 +18,26 @@
         "note": "the gracious summons",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 1, "text": "In the eighth month of the second year of Darius, the word of the LORD came to the prophet Zechariah son of Berechiah, the son of Iddo, saying:" },
-          { "chapter": 1, "n": 2, "text": "“The LORD was very {{qatsaph|angry}} with your fathers." },
-          { "chapter": 1, "n": 3, "text": "So tell the people that this is what the {{lordOfHosts|LORD of Hosts}} says: ‘{{shub|Return}} to Me, declares the LORD of Hosts, and I will return to you, says the LORD of Hosts.’" },
-          { "chapter": 1, "n": 4, "text": "Do not be like your fathers, to whom the former prophets proclaimed that this is what the LORD of Hosts says: ‘{{shub|Turn}} now from your evil ways and deeds.’ But they did not listen or pay attention to Me, declares the LORD." }
+          {
+            "chapter": 1,
+            "n": 1,
+            "text": "In the eighth month of the second year of Darius, the word of the LORD came to the prophet Zechariah son of Berechiah, the son of Iddo, saying:"
+          },
+          {
+            "chapter": 1,
+            "n": 2,
+            "text": "“The LORD was very {{qatsaph|angry}} with your fathers."
+          },
+          {
+            "chapter": 1,
+            "n": 3,
+            "text": "So tell the people that this is what the {{lordOfHosts|LORD of Hosts}} says: ‘{{shub|Return}} to Me, declares the LORD of Hosts, and I will return to you, says the LORD of Hosts.’"
+          },
+          {
+            "chapter": 1,
+            "n": 4,
+            "text": "Do not be like your fathers, to whom the former prophets proclaimed that this is what the LORD of Hosts says: ‘{{shub|Turn}} now from your evil ways and deeds.’ But they did not listen or pay attention to Me, declares the LORD."
+          }
         ]
       },
       {
@@ -29,17 +45,45 @@
         "note": "My word overtook them",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 5, "text": "Where are your fathers now? And the prophets, do they live forever?" },
-          { "chapter": 1, "n": 6, "text": "But did not My words and My statutes, which I commanded My servants the prophets, {{nasag|overtake}} your fathers? They repented and said, ‘Just as the LORD of Hosts purposed to do to us according to our ways and deeds, so He has done to us.’”" }
+          {
+            "chapter": 1,
+            "n": 5,
+            "text": "Where are your fathers now? And the prophets, do they live forever?"
+          },
+          {
+            "chapter": 1,
+            "n": 6,
+            "text": "But did not My words and My statutes, which I commanded My servants the prophets, {{nasag|overtake}} your fathers? They repented and said, ‘Just as the LORD of Hosts purposed to do to us according to our ways and deeds, so He has done to us.’”"
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "qatsaph": { "language": "Hebrew", "lemma": "qatsaph", "original": "קצף", "gloss": "To be wroth, to break out in anger. The word describes a settled, righteous displeasure, here directed at the fathers whose sin brought the exile. Zechariah names God's past anger honestly, so that the call to return is heard as a real rescue from real judgment, not empty religious talk." },
-    "lordOfHosts": { "language": "Hebrew", "lemma": "YHWH tseva'ot", "original": "יהוה צבאות", "gloss": "The LORD of Hosts, the LORD of Armies, commander of all the powers of heaven and earth. Zechariah's favorite title for God, it sounds again and again through the book. In verse 3 it is stacked three times, pressing home that the God who commands every army is the God who pleads, Return to Me." },
-    "shub": { "language": "Hebrew", "lemma": "shub", "original": "שוב", "gloss": "To turn, return, come back. It is the great prophetic word for repentance, a turning of the whole life back toward God. Here it works both ways: return to Me, and I will return to you. God's movement toward His people and their movement toward Him meet in this single word." },
-    "nasag": { "language": "Hebrew", "lemma": "nasag", "original": "נשג", "gloss": "To reach, overtake, catch up with. God's words and statutes are pictured as pursuers that ran down the fathers and caught them, exactly as warned. The image underlines that God's word is not idle; it accomplishes what it says, whether in judgment or in mercy." }
+    "qatsaph": {
+      "language": "Hebrew",
+      "lemma": "qatsaph",
+      "original": "קצף",
+      "gloss": "To be wroth, to break out in anger. The word describes a settled, righteous displeasure, here directed at the fathers whose sin brought the exile. Zechariah names God's past anger honestly, so that the call to return is heard as a real rescue from real judgment, not empty religious talk."
+    },
+    "lordOfHosts": {
+      "language": "Hebrew",
+      "lemma": "YHWH tseva'ot",
+      "original": "יהוה צבאות",
+      "gloss": "The LORD of Hosts, the LORD of Armies, commander of all the powers of heaven and earth. Zechariah's favorite title for God, it sounds again and again through the book. In verse 3 it is stacked three times, pressing home that the God who commands every army is the God who pleads, Return to Me."
+    },
+    "shub": {
+      "language": "Hebrew",
+      "lemma": "shub",
+      "original": "שוב",
+      "gloss": "To turn, return, come back. It is the great prophetic word for repentance, a turning of the whole life back toward God. Here it works both ways: return to Me, and I will return to you. God's movement toward His people and their movement toward Him meet in this single word."
+    },
+    "nasag": {
+      "language": "Hebrew",
+      "lemma": "nasag",
+      "original": "נשג",
+      "gloss": "To reach, overtake, catch up with. God's words and statutes are pictured as pursuers that ran down the fathers and caught them, exactly as warned. The image underlines that God's word is not idle; it accomplishes what it says, whether in judgment or in mercy."
+    }
   },
   "study": {
     "basic": {
@@ -53,93 +97,262 @@
       "oneStory": "Zechariah begins where the whole biblical story turns: repentance. God calls a fragile, restored people back to Himself, warning them by their fathers' failure and assuring them by His unfailing word. The call anticipates the gospel summons in Christ, in whom God finally and fully returns to His people."
     },
     "context": {
-      "literary": "The prologue to the entire book, deliberately set before the night visions of 1:7 to 6:8. It is undated by day, marked only as the eighth month of Darius's second year, falling between Haggai's oracles. Its shape is a sandwich: a call to return framed by the memory of the fathers' anger and the fathers' late repentance, so that grace and warning hold each other in tension.",
-      "historical": "The setting is post-exilic Judah under Persian rule, about 520 BC. A remnant had returned from Babylon, the temple foundation was laid but the work had stalled and only recently resumed under Haggai. The community was small, poor, and surrounded by hostile neighbors, tempted to think God's anger still hung over them. Zechariah speaks into that fragile hope.",
-      "canonical": "Zechariah stands among the twelve Minor Prophets as one of three post-exilic voices, with Haggai and Malachi. Its opening recalls the pre-exilic prophets, the former prophets, whose warnings the fathers spurned, and it links the exile explicitly to that refusal. The call to return sets the theme that the coming visions and oracles will unfold, ending in the universal reign of the LORD."
+      "literary": "These six verses are a prologue, and they work like a hinge. Before the eight night visions of 1:7 to 6:8, before the questions about fasting in chapters 7 and 8, and before the two burdens of chapters 9 to 14, the book opens with a sermon. It has the shape of a prophetic address in miniature: the report of a word (verse 1), a verdict on the past (verse 2), a command and promise for the present (verse 3), a warning drawn from history (verse 4), and a closing argument made by two questions and an answer (verses 5 and 6).\n\nThe most striking device is the repeated verb for turning. The verb shub appears four times in these verses: \"Return to Me... and I will return to you\" in verse 3, \"Turn now from your evil ways\" in verse 4, and \"They repented\" in verse 6. The fathers receive the same summons that the present hearers receive, and the only time the fathers actually turn is at the end of the passage, after judgment has caught them. The reader is invited to see which side of that sentence he would rather turn on.\n\nThe fathers frame the whole of Zechariah 1 to 8. They appear here, in 1:2 to 6, then in 7:11 to 14 where their stubbornness is spelled out, and in 8:14 to 15 where God says He will now resolve to do good with the same determination He once resolved to do harm. The prologue therefore is not an introduction that the book leaves behind. It sets up the contrast that chapter 8 resolves.\n\nNotice too who is addressed. Haggai's messages were aimed at Zerubbabel and Joshua. This one begins with the prophet, then moves to \"the people,\" verse 3. The call to return is put into the ordinary person's mouth and ear.",
+      "historical": "The date is the eighth month of Darius's second year, October to November 520 BC. Haggai's first message had come two months earlier, and by the twenty-fourth day of the sixth month the leaders and people had obeyed it and begun to build, Haggai 1:12-14. On the twenty-first day of the seventh month Haggai had met the elders' discouragement, \"Does it not appear to you like nothing in comparison?\" Haggai 2:1-3. Zechariah comes in between the second and third of Haggai's messages, so the two prophets are working the same field.\n\nThe background is the long stoppage. Cyrus's decree in 538 BC let the exiles go home to build, Ezra 1:1-3, and the foundation was laid, but opposition halted the work until Darius's second year, Ezra 4:24. For some sixteen years the temple site lay half finished. Meanwhile the land was failing, with harvests that did not satisfy, Haggai 1:6. People were asking whether God was still against them.\n\nZechariah himself is introduced with his lineage, \"son of Berechiah, the son of Iddo.\" Ezra 5:1 and 6:14 simply call him son of Iddo, which fits the Hebrew habit of naming a grandfather. Nehemiah 12:4 and 12:16 list Iddo's house among the priestly families who returned with Zerubbabel, and Zechariah is named there as head of it, so he probably belonged to the priesthood as well as the prophets. His name means \"the LORD remembers,\" and the prologue is about exactly that: the God who remembered what the fathers did, and who has not forgotten the present.\n\nThe \"fathers\" are the generations before the exile. Jerusalem fell in 586 BC, and 2 Chronicles 36:15-21 tells how the LORD sent messenger after messenger, how they were mocked, and how the land then lay desolate until the seventy years were done.",
+      "canonical": "The language of the prologue is the language of Deuteronomy. \"Overtake\" in verse 6 is the verb that Deuteronomy 28 uses of the blessings and curses of the covenant: they \"will come upon you and overtake you,\" Deuteronomy 28:2, 15 and 45. Zechariah is saying that the fathers' history was not random misfortune. It was the covenant doing what Moses said it would do. The promise of restoration is likewise Mosaic. Deuteronomy 30:1-3 says that when the people \"return to the LORD your God,\" He will \"restore you from captivity and have compassion on you,\" and Leviticus 26:40-42 says that when they confess, God will remember His covenant.\n\nThe call to return is also prophetic bread and butter. Jeremiah 3:12-14 says, \"Return, O faithless Israel,\" Hosea 14:1-2 says, \"Return, O Israel, to the LORD your God,\" and Joel 2:12-13 says, \"return to Me with all your heart.\" Jeremiah 25:4-7 describes precisely the former prophets of Zechariah 1:4, \"the LORD has sent all His servants the prophets to you again and again, but you have not listened.\" Daniel 9:6 and Nehemiah 9:26-30 supply the exiles' own verdict, \"We have not listened to Your servants the prophets,\" which is what verse 6 means by \"they repented and said.\"\n\nThe words are echoed after Zechariah. Malachi 3:7 repeats \"Return to Me, and I will return to you,\" and the New Testament carries the line into the gospel: Jesus opens His ministry with \"Repent, for the kingdom of heaven is near,\" Matthew 3:2 and 4:17, and James 4:8 says, \"Draw near to God, and He will draw near to you.\" Stephen's sermon in Acts 7:51-52 puts Zechariah's second paragraph into the mouth of the early church: \"Which of the prophets did your fathers fail to persecute?\""
     },
     "hermeneutics": {
-      "authorIntent": "To ground the restored community's future on repentance, calling them to return wholeheartedly to God, warning them by the fate of the fathers who ignored the prophets, and assuring them that God's word is certain, so that the visions and promises to follow land on hearts already turned to the LORD.",
-      "descriptionVsPrescription": "The historical note about the fathers is description; the call to return is prescription for every generation. The abiding truths are the necessity of heartfelt repentance, the reliability of God's word, and God's readiness to draw near to those who draw near to Him.",
+      "authorIntent": "Zechariah meant his hearers to begin their season of prophecy on their knees. Haggai had got the people to work, and the work was under way. But busy hands do not prove a turned heart, and the community could still repeat their fathers' pattern. The prologue tells them that God is not primarily interested in the building as an achievement. He wants them, and that is why His first word is a call, not a plan.\n\nIt is a call with a promise in its first sentence. \"Return to Me\" is bound to \"I will return to you.\" The people who thought God's anger still covered them are told that His face can be turned toward them on the simple condition of turning theirs. The warning of verses 4 to 6 is not there to frighten them back into the dust. It is there so they do not mistake their reprieve for permission. The earlier generation heard the same call and ignored it, and the sentence fell. The only wise reading of that history is to answer the call while it is still a call.\n\nThe author intends the whole book to be heard in that light. When the visions arrive with their glorious promises, the hearers have already been told on what ground those promises stand: not on the strength of Judah, but on the God who comes back to those who come back.",
+      "descriptionVsPrescription": "The verses mix report and command. The statement that the LORD \"was very angry with your fathers,\" and the report that the fathers \"did not listen,\" are descriptions of a past generation. The imperatives, \"Return to Me\" and \"Do not be like your fathers,\" are prescriptions that apply to every hearer. The promise that follows the first imperative is a statement of how God deals with those who obey it, and later writers apply it across generations, as Malachi 3:7 and James 4:8 do.\n\nOne caution is worth making. The passage does not teach that God's favour is bought by repentance, as though He were a creditor who can be paid. The same prophets elsewhere ask God to do the returning in their hearts, as in Lamentations 5:21, \"Restore us to Yourself, O LORD, so we may return.\" The command sets out what is required of us, and the surrounding Scripture shows who makes it possible. To apply the passage faithfully is to obey the command and to pray the prayer together, \"Restore me, that I may return,\" Jeremiah 31:18.\n\nNor does the text tell us that every hardship comes from a particular sin. It tells us that the fathers' sin was a real cause of a real judgment. It does not reduce the present community's troubles to the same cause.",
       "debates": [
         {
           "question": "Is return to Me chiefly about outward obedience, such as rebuilding the temple, or inward repentance?",
           "views": [
-            { "label": "Primarily inward repentance", "case": "The language turn from your evil ways and deeds and the appeal to the heart point to a genuine turning of the whole person to God, of which temple work is the fruit, not the root." },
-            { "label": "Inward repentance expressed in obedient action", "case": "In the setting alongside Haggai, returning to God and getting on with the LORD's work belong together; true repentance shows itself in renewed obedience." }
+            {
+              "label": "Primarily inward repentance",
+              "case": "The language turn from your evil ways and deeds and the appeal to the heart point to a genuine turning of the whole person to God, of which temple work is the fruit, not the root."
+            },
+            {
+              "label": "Inward repentance expressed in obedient action",
+              "case": "In the setting alongside Haggai, returning to God and getting on with the LORD's work belong together; true repentance shows itself in renewed obedience."
+            }
           ],
           "bearing": "Either way the demand is a real change of heart toward God; the debate only concerns emphasis, not whether repentance is required."
         },
         {
           "question": "Who are the former prophets in verse 4?",
           "views": [
-            { "label": "The pre-exilic writing and speaking prophets", "case": "Figures like Isaiah, Jeremiah, and the earlier Twelve, whose warnings of judgment for sin the fathers refused, leading to exile." },
-            { "label": "The whole prophetic witness before the exile", "case": "A broader reference to all the prophets God sent early and often, summarized in 2 Chronicles 36, whom the people mocked until there was no remedy." }
+            {
+              "label": "The pre-exilic writing and speaking prophets",
+              "case": "Figures like Isaiah, Jeremiah, and the earlier Twelve, whose warnings of judgment for sin the fathers refused, leading to exile."
+            },
+            {
+              "label": "The whole prophetic witness before the exile",
+              "case": "A broader reference to all the prophets God sent early and often, summarized in 2 Chronicles 36, whom the people mocked until there was no remedy."
+            }
           ],
           "bearing": "Both readings make the same point: God warned persistently, the fathers refused, and the exile proved His word true, so this generation must not repeat their deafness."
+        },
+        {
+          "question": "What does \"They repented\" in verse 6 tell us about the fathers?",
+          "views": [
+            {
+              "label": "The exile produced real, saving repentance",
+              "case": "Verse 6 records what the fathers said, \"Just as the LORD of Hosts purposed to do to us according to our ways and deeds, so He has done to us.\" That is a confession that the sentence was just, the posture of Daniel 9:4-6 and Nehemiah 9:33. On this reading the exile did what discipline is meant to do, and the lesson to the present generation is that the same turning is open to them without having to pass through the same loss."
+            },
+            {
+              "label": "A reluctant acknowledgment that the word had been true",
+              "case": "Others point out that the fathers admit God's justice only after they have been overtaken. The words concede that the prophets were right, and they do not necessarily describe a change of heart. Zechariah 7:11-14 and Nehemiah 9:26-30 show a long pattern in which confession followed calamity and then faded."
+            },
+            {
+              "label": "Both, in different members of the generation",
+              "case": "The remnant that survived the exile included people who turned and people who merely endured. Ezekiel and Jeremiah both speak of a faithful remnant within the unfaithful whole, so verse 6 can describe the turning of some, whose confession God used to keep the covenant line alive."
+            }
+          ],
+          "bearing": "Whichever reading is taken, the lesson is the same for Zechariah's hearers. A confession that comes after the blow is better than none, but it is far better to turn while the word is still a summons. The text says the fathers acknowledged God's justice, and invites the present generation to do it in time."
         }
       ]
     },
-    "originalLanguages": "The prologue turns on a few weighty words. God had been very angry, qatsaph, with the fathers, a righteous wrath that the exile expressed. Now the LORD of Hosts, YHWH tseva'ot, the commander of heaven's armies, does not thunder but pleads, shub, return to Me, the great prophetic verb for repentance, a turning of the whole life Godward; the same root stands behind turn now from your evil ways in verse 4. And the sobering proof of God's faithfulness is nasag, overtook: God's words and statutes are hunters that ran the fathers down and caught them, exactly as spoken. The stacking of the divine title three times in verse 3 seals the promise: the God of every army is the God who longs to be returned to.",
+    "originalLanguages": "Look first at the construction in verse 2. The Hebrew sets a verb and its own noun side by side, \"was angry with anger,\" and the English \"very angry\" is the best the BSB can do to carry it. The same idiom of intensity returns in 1:15, where God is \"fiercely angry\" with the nations. The two verses bracket the first vision: the same intense wrath that once fell on the fathers now turns on the nations who overdid the discipline. That is a warning to read the passage with the visions that follow.\n\nThe two verbs of hearing in verse 4 are worth noticing. \"They did not listen or pay attention\" pairs shama, to hear, with qashav, to give careful attention. The first is the ordinary word for hearing, and in the Bible it regularly means to obey. The second adds the idea of listening closely. The fathers did neither. Zechariah 7:11 describes the same refusal with a physical image: they \"turned a stubborn shoulder\" and \"stopped up their ears.\"\n\nThe expression \"the former prophets\" is the Hebrew han'vi'im harishonim, \"the first prophets,\" and the same title returns in Zechariah 7:7 and 7:12. It implies a line of prophets with a continuing message, and Zechariah places himself in it. The prophets are called God's \"servants,\" as in Jeremiah 25:4, and the objects of their commission are \"My words and My statutes,\" which means the content of the Torah itself. Zechariah 7:12 speaks of \"the law\" and \"the words that the LORD of Hosts had sent by His Spirit through the earlier prophets.\" The prophets did not bring a new revelation but pressed an old one.\n\nThe verb in \"purposed\" in verse 6, zamam, is a word of deliberate planning, and it is used here of God's intention to do harm. Lamentations 2:17 uses the same root: \"The LORD has done what He planned.\" The exiles read that verse and verse 6 together. Zechariah 8:14-15 then applies the very same verb to God's intention to do good, \"so now I have resolved to do good again to Jerusalem and Judah.\" The God who purposed harm with the same earnestness now purposes blessing.\n\nThe title \"LORD of Hosts\" occurs three times in verse 3 alone and five times in these six verses. It is the title of a God commanding every army, and it gives the plea of verse 3 an odd edge. The One who needs no people's help invites a handful of returnees to come back to Him.\n\nOne last point of grammar concerns \"Return to Me\" itself. The command is plural, and God speaks to the nation as a whole, which makes repentance a community's business as well as each person's.",
     "typology": [
-      { "type": "The call return to Me and I will return to you", "fulfillment": "The gospel call in Christ, in whom God draws near to all who turn to Him, James 4:8 and Luke 15:20." },
-      { "type": "The former prophets, sent and rejected", "fulfillment": "The Son sent last of all after the servants, the true and final Prophet, Matthew 21:33-39 and Hebrews 1:1-2." },
-      { "type": "God's word that always overtakes and comes true", "fulfillment": "Jesus, the living Word in whom every promise of God is Yes and Amen, John 1:14 and 2 Corinthians 1:20." }
+      {
+        "type": "\"I will return to you\"",
+        "fulfillment": "God's promise to come back to those who come back is fulfilled when He draws near in His Son. John 1:14 says the Word \"made His dwelling among us,\" and 2 Corinthians 5:19 says \"God was reconciling the world to Himself in Christ.\" The father in Luke 15:20 who sees his son \"while he was still in the distance\" and runs to him shows the shape of the promise. The type falls short because in Zechariah God answers a turning, while in Christ He comes first, and the turning is itself His gift, Acts 5:31."
+      },
+      {
+        "type": "The former prophets, sent and rejected",
+        "fulfillment": "The prophets whom the fathers refused are sent in line, \"again and again,\" Jeremiah 25:4. In the parable of Matthew 21:33-41 the landowner sends servants and then his own son, and the tenants kill the son. Hebrews 1:1-2 states the climax: \"God spoke to our fathers through the prophets. But in these last days He has spoken to us by His Son.\" The prophets are the preparation; the Son is the full word. They could be ignored and killed. He rises."
+      },
+      {
+        "type": "The word that overtakes",
+        "fulfillment": "The words of the prophets \"overtook\" the fathers like a pursuer. In the New Testament it is Christ's word that has this standing. Jesus says, \"The word that I have spoken will judge him on the last day,\" John 12:48, and Hebrews 4:12 says the word of God \"judges the thoughts and intentions of the heart.\" Isaiah 55:11 promised that God's word would not return empty. The same word that overtakes the hardened is the word that saves those who receive it. The type is limited because the prophets' words were messages about God, while Christ is the Word who is God, John 1:1."
+      },
+      {
+        "type": "The confession that justifies God",
+        "fulfillment": "The fathers' words, \"so He has done to us,\" declare God just in His sentence. The same pattern appears at the cross, where one criminal says, \"We are punished justly, for we are receiving what our actions deserve,\" and hears \"today you will be with Me in Paradise,\" Luke 23:41-43. It is also what 1 John 1:9 promises, that those who confess find God \"faithful and just to forgive.\" The correspondence is that honest admission opens the door. The fathers' confession came after the sentence had fallen, while the thief's came before the sentence was carried out and was answered by the One who bore it."
+      }
     ],
-    "christ": "The heart of this opening word, return to Me and I will return to you, is answered in Jesus. In Him God does not merely wait to be returned to; He comes near, seeking and saving the lost, so that turning to God and finding God meet in the same person. The pattern of prophets sent and rejected, which Zechariah presses on his hearers, is the very pattern Jesus traces in the parable of the tenants, where the owner sends servant after servant and finally his son, whom they kill. Zechariah is one more voice in that long line, and Christ is the Son to whom every prophet pointed, the living Word whose ministry opens with the same summons: repent, for the kingdom of heaven is at hand.",
-    "god": "This prologue reveals a God who is both holy and gracious. He is honestly named as one who was very angry with sin, an anger the exile made plain, so no one may treat sin lightly. Yet the same God takes the initiative, pleading with the children of those who rejected Him, offering to return to a people who return to Him. He is utterly reliable: His word, whether of warning or of promise, always overtakes its hearers and comes true. He is a God worth turning to, because turning to Him is never met with a closed door but with His own drawing near.",
+    "christ": "The prologue to Zechariah leads to Christ first by its central promise. \"Return to Me... and I will return to you\" is the shape of the whole gospel stated in a line. In Jesus the God who promised to return to His people does so in person. John says the Word became flesh \"and made His dwelling among us,\" John 1:14, and Luke records Zechariah the priest's hymn, \"Blessed be the Lord, the God of Israel, because He has visited and redeemed His people,\" Luke 1:68. When Jesus enters Jerusalem and weeps, He ties the failure to Zechariah's theme, \"you did not recognize the time of your visitation from God,\" Luke 19:44.\n\nIt leads to Christ by the pattern of the prophets. Zechariah looks back on a line of servants sent and refused. The Gospels place Jesus at the end of that line. His parable of the vineyard follows the fathers' history, servants beaten and killed, and then names the new factor: \"Finally, he sent his son to them,\" Matthew 21:37. The Letter to the Hebrews gives the same shape: \"On many past occasions and in many different ways, God spoke to our fathers through the prophets. But in these last days He has spoken to us by His Son,\" Hebrews 1:1-2. Jesus knows the prophetic history and walks into it, \"O Jerusalem, Jerusalem, who kills the prophets and stones those sent to her, how often I have longed to gather your children together... but you were unwilling,\" Matthew 23:37.\n\nIt leads to Christ by His own message. The first words of His preaching are Zechariah's first words: \"Repent, for the kingdom of heaven is near,\" Matthew 3:2 and 4:17, and \"The time is fulfilled... Repent and believe in the gospel,\" Mark 1:15. When He sends His disciples, repentance is to be proclaimed \"in His name... to all nations, beginning in Jerusalem,\" Luke 24:47, which is the very city Zechariah addressed. Peter in Acts 5:31 completes the thought: God exalted Jesus \"to grant repentance and forgiveness of sins.\" What Zechariah commanded, Christ gives.\n\nThe passage also shows why Christ was needed. The prologue sets out a problem it cannot itself solve. The fathers were told to turn and did not, and a second generation is told the same. The prophets elsewhere admit that the heart must be changed from within. Jeremiah 24:7 promises God will \"give them a heart to know Me,\" and Ezekiel 36:26-27 promises a new heart and a new spirit. Zechariah 12:10 later says God will \"pour out... a spirit of grace and prayer,\" and the New Testament identifies the One they pierced as Jesus, John 19:37. The call to return is therefore answered by the One who makes the return possible.\n\nA caution applies. Zechariah 1:1-6 is not a hidden prediction of Jesus, and the fathers are not types of anyone but themselves. The link to Christ comes through the promise, the prophetic pattern, and the New Testament's own reading. The prologue states the human problem and the divine invitation; the gospel announces the One in whom the invitation is fulfilled.",
+    "god": "This short prologue states the doctrine of God more fully than its length suggests. First, God is truly angry. The word is not softened, and it is repeated in the Hebrew form of verse 2. His wrath is no mood, since verse 6 shows it as the outworking of His word and statutes. It falls where His warnings said it would. A God who could not be angry would not be moral, and a God whose anger were uncontrolled would not be trustworthy. The text shows neither. The anger is just, as the fathers themselves finally admit.\n\nSecond, God takes the first step toward reconciliation. The command to return is addressed to a people who had no claim on Him, and it is accompanied by a promise rather than a threat. This is the God of Exodus 34:6, \"compassionate and gracious, slow to anger, abounding in loving devotion and faithfulness,\" whose patience is described in 2 Chronicles 36:15 as the reason He kept sending messengers: \"because He had compassion on them and on His dwelling place.\" Romans 2:4 says that God's kindness leads to repentance, and the prologue is an example.\n\nThird, His word is trustworthy in both directions. Verse 5 asks where the fathers are and whether the prophets live forever. The answer is that neither lasts, but the word does, as Isaiah 40:8 says, \"the word of our God stands forever.\" What He warned of came to pass, and so what He promises will come to pass. The same reliability that made the exile certain makes restoration certain, Zechariah 8:14-15. A people who have just seen the first half of that argument fulfilled have grounds to trust the second.\n\nFourth, the passage holds together two things that are often pulled apart. God calls people to repent as though the first move were theirs, and the Bible elsewhere teaches that He gives the repentance. Lamentations 5:21, \"Restore us to Yourself, O LORD, so we may return,\" and Jeremiah 31:18 are not corrections of the call but its companion. The same God who commands the turn is the One who turns hearts. Neither truth is allowed to swallow the other.\n\nFifth, He is God of Hosts. The title, three times in verse 3, claims every power in heaven and earth for the speaker. The plea to return does not come from a weak deity bargaining for loyalty but from the One who is Lord of all armies and who nevertheless asks.\n\nFor worship, the prologue calls for confession that agrees with God's verdict and for trust that He will do as He says. The psalmist's prayer, \"Restore us, O God, and cause Your face to shine upon us, that we may be saved,\" Psalm 80:3, is the answer to the call.",
     "crossReferences": [
-      { "ref": "Malachi 3:7", "note": "Return to Me and I will return to you, the same covenant appeal renewed to the next post-exilic generation." },
-      { "ref": "2 Chronicles 36:15-16", "note": "God sent His messengers again and again, but the fathers mocked them until there was no remedy, the background to Zechariah's warning." },
-      { "ref": "Jeremiah 25:4-7", "note": "The former prophets called the fathers to turn from their evil ways, and they would not listen." },
-      { "ref": "James 4:8", "note": "Draw near to God and He will draw near to you, the New Testament echo of return to Me and I will return to you." }
+      {
+        "ref": "Deuteronomy 28:15",
+        "note": "The curses of the covenant \"will come upon you and overtake you,\" using the same verb as Zechariah 1:6. The prophet is saying the fathers' exile was not an accident but exactly what the covenant had said would happen if the people rejected the prophets' warnings."
+      },
+      {
+        "ref": "Deuteronomy 30:1-3",
+        "note": "Even after the blessings and curses have fallen, Moses says, if the people return to the LORD with all their heart, He will restore them and have compassion. Zechariah's call to return stands on that promise, and the returnees are the proof it can come true."
+      },
+      {
+        "ref": "Jeremiah 25:4-7",
+        "note": "The prophetic summons Zechariah recalls in verse 4 appears here in almost the same words, \"Turn now, each of you, from your evil ways and deeds.\" It shows the single refrain of the former prophets and the refusal that brought judgment."
+      },
+      {
+        "ref": "2 Chronicles 36:15-21",
+        "note": "The chronicler tells the story behind verses 5 and 6: God sent messengers because of His compassion, the people mocked them until there was no remedy, and the land lay desolate until seventy years were complete. It is the history that Zechariah asks the people to learn from."
+      },
+      {
+        "ref": "Lamentations 5:21",
+        "note": "The exiles ask God to restore them so that they may return. It balances the call of Zechariah 1:3 by showing that the people knew their turning depended on His, and it supplies the prayer that follows the command."
+      },
+      {
+        "ref": "Nehemiah 9:26-30",
+        "note": "The returned community's own prayer looks back on the same refusal: the prophets \"admonished them to return to You,\" but they would not listen. Nehemiah's confession shows that Zechariah's hearers had learned to read their history the way he does."
+      },
+      {
+        "ref": "Malachi 3:7",
+        "note": "Malachi repeats the invitation to the next generation: \"Return to Me, and I will return to you.\" The people's reply, \"How can we return?\" reveals that the call needed to be taught anew, and it shows the promise holds across generations."
+      },
+      {
+        "ref": "Zechariah 8:14-15",
+        "note": "The counterweight of the prologue. God says that as He resolved to bring disaster when the fathers provoked Him, so He has resolved to do good to Jerusalem and Judah. The same determination now works for blessing, which is what the call to return was for."
+      },
+      {
+        "ref": "Matthew 21:33-41",
+        "note": "Jesus's parable of the tenants retells Zechariah's history of rejected servants, and then adds the Son sent last of all. It shows that the prophets' reception is not a closed chapter but the pattern that leads to the cross."
+      },
+      {
+        "ref": "James 4:8",
+        "note": "\"Draw near to God, and He will draw near to you\" restates the promise of verse 3 for believers. James adds the call to cleanse hands and purify hearts, which is the inward turning Zechariah's call required."
+      },
+      {
+        "ref": "Luke 15:20",
+        "note": "The father who sees his son far off and runs to meet him is the picture of \"I will return to you\" in action. The story shows that God's return is not a reluctant concession but a joy that outruns the child's repentance."
+      }
     ],
-    "oneStory": "Zechariah opens the whole story of restoration with the one thing that must come first: a turning of the heart back to God. God recalls His past anger and the fathers' late repentance, not to crush the remnant but to spare them from the same road. The promise return to Me and I will return to you runs like a thread through Scripture and finds its fullness in Christ, in whom God draws near to all who turn to Him, carrying the story on toward the day when the LORD will be King over all the earth.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "From the garden onward the Bible's story has a recurring question and a recurring answer. In Genesis 3:9 God goes looking for hiding people with the question, \"Where are you?\" The rest of the Old Testament is a long record of that seeking and of the refusals that met it. When Israel came into the land, Moses already knew they would fail and wrote the way back into the law: if they would return to the LORD, He would restore them, Deuteronomy 30:1-3. The prophets, again and again, announced the path. The exile was the moment the fathers learned that the word of warning was true.\n\nZechariah's prologue stands at the point where the exile has ended and the story has to start again. The returnees were not the first generation to hold the land and they could easily be the next to lose it. The book begins, therefore, with a word about what the story is for. It is not a story about a temple, though a temple will be built, nor about a nation, though a nation is gathered. It is a story about a God who returns to those who return.\n\nThat story moves ahead to a decisive turn in Christ. The Word becomes flesh and the Father's return to His people becomes visible, John 1:14. His first word is the prophetic one, \"Repent,\" and He becomes the One who both calls and enables the turn, Acts 5:31. The prophets' rejection reaches its climax at the cross, and the cross becomes the place where the justice the fathers confessed in verse 6 is satisfied and mercy flows. Because of Him the call to return is the gospel itself.\n\nIt ends in the new creation. The prologue promises that God will draw near to those who draw near to Him. Zechariah 8:3 expands this to \"I will return to Zion and dwell in Jerusalem.\" The Bible's last chapters carry it to its end: \"Behold, the dwelling place of God is with man, and He will dwell with them,\" Revelation 21:3. The fathers who hid, the fathers who were overtaken, and the fathers who confessed too late are answered by a people who are at home with God and will not need to be called again.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What is God's opening appeal to the restored community?",
       "options": [
-        { "text": "Return to Me, and I will return to you.", "weight": 100, "note": "Verse 3 sets the whole book on the foundation of repentance and God's answering nearness." },
-        { "text": "Finish the temple and I will overlook everything else.", "weight": 75, "note": "The temple work matters, but the first call is a turning of the heart to God Himself." },
-        { "text": "Mourn endlessly for the sins of your fathers.", "weight": 25, "note": "God calls them to turn, not merely to grieve the past." },
-        { "text": "There is nothing you can do; judgment still stands.", "weight": 0, "note": "The opposite: God graciously invites them to return and promises to return to them." }
+        {
+          "text": "Return to Me, and I will return to you.",
+          "weight": 100,
+          "note": "Verse 3 sets the whole book on the foundation of repentance and God's answering nearness."
+        },
+        {
+          "text": "Finish the temple and I will overlook everything else.",
+          "weight": 75,
+          "note": "The temple work matters, but the first call is a turning of the heart to God Himself."
+        },
+        {
+          "text": "Mourn endlessly for the sins of your fathers.",
+          "weight": 25,
+          "note": "God calls them to turn, not merely to grieve the past."
+        },
+        {
+          "text": "There is nothing you can do; judgment still stands.",
+          "weight": 0,
+          "note": "The opposite: God graciously invites them to return and promises to return to them."
+        }
       ]
     },
     {
       "q": "Why does God bring up the fathers in this passage?",
       "options": [
-        { "text": "As a warning not to repeat their refusal to listen to the prophets, which led to exile.", "weight": 100, "note": "Verses 4-6 hold up the fathers' deafness and its consequences as a lesson." },
-        { "text": "To prove the fathers were beyond all hope.", "weight": 75, "note": "In fact the fathers eventually repented and owned that God was just; the point is warning, not despair." },
-        { "text": "To boast about the achievements of past generations.", "weight": 25, "note": "The reference is a caution, not a celebration." },
-        { "text": "To excuse the present generation from responsibility.", "weight": 0, "note": "It does the reverse: it presses this generation to respond rightly." }
+        {
+          "text": "As a warning not to repeat their refusal to listen to the prophets, which led to exile.",
+          "weight": 100,
+          "note": "Verses 4-6 hold up the fathers' deafness and its consequences as a lesson."
+        },
+        {
+          "text": "To prove the fathers were beyond all hope.",
+          "weight": 75,
+          "note": "In fact the fathers eventually repented and owned that God was just; the point is warning, not despair."
+        },
+        {
+          "text": "To boast about the achievements of past generations.",
+          "weight": 25,
+          "note": "The reference is a caution, not a celebration."
+        },
+        {
+          "text": "To excuse the present generation from responsibility.",
+          "weight": 0,
+          "note": "It does the reverse: it presses this generation to respond rightly."
+        }
       ]
     },
     {
       "q": "What does it mean that God's words overtook the fathers?",
       "options": [
-        { "text": "God's warnings came true exactly as spoken, catching up with them in judgment.", "weight": 100, "note": "Verse 6 pictures God's word as a pursuer that ran them down; His word never fails." },
-        { "text": "God's words confused and misled them.", "weight": 75, "note": "The words were clear and true; the fathers simply refused to heed them." },
-        { "text": "God changed His mind about what He had said.", "weight": 25, "note": "The point is the opposite: God did exactly what He purposed and warned." },
-        { "text": "The prophets invented the messages themselves.", "weight": 0, "note": "These were God's own words and statutes commanded to His servants the prophets." }
+        {
+          "text": "God's warnings came true exactly as spoken, catching up with them in judgment.",
+          "weight": 100,
+          "note": "Verse 6 pictures God's word as a pursuer that ran them down; His word never fails."
+        },
+        {
+          "text": "God's words confused and misled them.",
+          "weight": 75,
+          "note": "The words were clear and true; the fathers simply refused to heed them."
+        },
+        {
+          "text": "God changed His mind about what He had said.",
+          "weight": 25,
+          "note": "The point is the opposite: God did exactly what He purposed and warned."
+        },
+        {
+          "text": "The prophets invented the messages themselves.",
+          "weight": 0,
+          "note": "These were God's own words and statutes commanded to His servants the prophets."
+        }
       ]
     },
     {
       "q": "How does this opening call point to Christ?",
       "options": [
-        { "text": "In Jesus, God Himself draws near to seek and save those who turn to Him, fulfilling return to Me and I will return to you.", "weight": 100, "note": "Christ embodies God coming near, and He opens His ministry with the call to repent." },
-        { "text": "It has no connection to Jesus at all.", "weight": 75, "note": "The call to return and the pattern of rejected prophets both lead to Christ." },
-        { "text": "It proves that repentance is no longer needed after Jesus.", "weight": 25, "note": "Jesus Himself preaches repentance; the call is deepened, not abolished." },
-        { "text": "It shows God finally gave up on His people.", "weight": 0, "note": "God keeps pursuing His people, supremely by sending His Son." }
+        {
+          "text": "In Jesus, God Himself draws near to seek and save those who turn to Him, fulfilling return to Me and I will return to you.",
+          "weight": 100,
+          "note": "Christ embodies God coming near, and He opens His ministry with the call to repent."
+        },
+        {
+          "text": "It has no connection to Jesus at all.",
+          "weight": 75,
+          "note": "The call to return and the pattern of rejected prophets both lead to Christ."
+        },
+        {
+          "text": "It proves that repentance is no longer needed after Jesus.",
+          "weight": 25,
+          "note": "Jesus Himself preaches repentance; the call is deepened, not abolished."
+        },
+        {
+          "text": "It shows God finally gave up on His people.",
+          "weight": 0,
+          "note": "God keeps pursuing His people, supremely by sending His Son."
+        }
       ]
     },
     {
       "q": "What does this passage reveal about God?",
       "options": [
-        { "text": "He is holy and can be truly angered by sin, yet He graciously takes the first step to call His people back.", "weight": 100, "note": "God names His past anger honestly, then pleads for return, joining holiness and grace." },
-        { "text": "He is indifferent to whether people turn to Him or not.", "weight": 75, "note": "He actively pleads, Return to Me, which is far from indifference." },
-        { "text": "He is quick-tempered and impossible to please.", "weight": 25, "note": "His anger is righteous, but He is eager to return to those who return to Him." },
-        { "text": "He no longer keeps His word once spoken.", "weight": 0, "note": "His word always overtakes and comes true, in both judgment and mercy." }
+        {
+          "text": "He is holy and can be truly angered by sin, yet He graciously takes the first step to call His people back.",
+          "weight": 100,
+          "note": "God names His past anger honestly, then pleads for return, joining holiness and grace."
+        },
+        {
+          "text": "He is indifferent to whether people turn to Him or not.",
+          "weight": 75,
+          "note": "He actively pleads, Return to Me, which is far from indifference."
+        },
+        {
+          "text": "He is quick-tempered and impossible to please.",
+          "weight": 25,
+          "note": "His anger is righteous, but He is eager to return to those who return to Him."
+        },
+        {
+          "text": "He no longer keeps His word once spoken.",
+          "weight": 0,
+          "note": "His word always overtakes and comes true, in both judgment and mercy."
+        }
       ]
     }
   ],
@@ -151,9 +364,21 @@
     "In Christ, God has drawn near to seek and save. How does seeing return to Me fulfilled in Jesus deepen your own repentance and hope?"
   ],
   "translationNotes": [
-    { "ref": "Zechariah 1:3", "note": "Return renders shub, the standard prophetic word for repentance; the same verb undergirds turn now in verse 4, tying God's appeal and the fathers' summons together." },
-    { "ref": "Zechariah 1:6", "note": "Overtake renders nasag, to reach or catch up with; God's words and statutes are pictured as pursuers that ran the fathers down, stressing that His word unfailingly accomplishes what it says." },
-    { "ref": "Zechariah 1:3", "note": "The title LORD of Hosts, YHWH tseva'ot, appears three times in this one verse, a deliberate stacking that presses the authority and earnestness of the appeal to return." }
+    {
+      "ref": "Zechariah 1:3",
+      "note": "Return renders shub, the standard prophetic word for repentance; the same verb undergirds turn now in verse 4, tying God's appeal and the fathers' summons together."
+    },
+    {
+      "ref": "Zechariah 1:6",
+      "note": "Overtake renders nasag, to reach or catch up with; God's words and statutes are pictured as pursuers that ran the fathers down, stressing that His word unfailingly accomplishes what it says."
+    },
+    {
+      "ref": "Zechariah 1:3",
+      "note": "The title LORD of Hosts, YHWH tseva'ot, appears three times in this one verse, a deliberate stacking that presses the authority and earnestness of the appeal to return."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Zechariah 1:1-6. All 6 verses reproduced in order." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Zechariah 1:1-6. All 6 verses reproduced in order."
+  }
 }

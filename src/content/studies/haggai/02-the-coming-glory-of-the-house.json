@@ -18,11 +18,31 @@
         "note": "does it not appear like nothing",
         "emphasis": "",
         "verses": [
-          { "chapter": 2, "n": 1, "text": "On the twenty-first day of the seventh month, the word of the LORD came through Haggai the prophet, saying:" },
-          { "chapter": 2, "n": 2, "text": "“Speak to Zerubbabel son of Shealtiel, governor of Judah, and to Joshua son of Jehozadak, the high priest, and also to the remnant of the people. Ask them," },
-          { "chapter": 2, "n": 3, "text": "‘Who is left among you who saw this house in its former glory? How does it look to you now? Does it not appear to you like nothing in comparison?’" },
-          { "chapter": 2, "n": 4, "text": "But now be {{chazaq|strong}}, O Zerubbabel, declares the {{lordOfHosts|LORD}}. Be strong, O Joshua son of Jehozadak, the high priest. And be strong, all you people of the land, declares the LORD. Work! For I am with you, declares the LORD of Hosts." },
-          { "chapter": 2, "n": 5, "text": "This is the promise I made to you when you came out of Egypt. And My {{ruach|Spirit}} remains among you; do not be afraid.”" }
+          {
+            "chapter": 2,
+            "n": 1,
+            "text": "On the twenty-first day of the seventh month, the word of the LORD came through Haggai the prophet, saying:"
+          },
+          {
+            "chapter": 2,
+            "n": 2,
+            "text": "“Speak to Zerubbabel son of Shealtiel, governor of Judah, and to Joshua son of Jehozadak, the high priest, and also to the remnant of the people. Ask them,"
+          },
+          {
+            "chapter": 2,
+            "n": 3,
+            "text": "‘Who is left among you who saw this house in its former glory? How does it look to you now? Does it not appear to you like nothing in comparison?’"
+          },
+          {
+            "chapter": 2,
+            "n": 4,
+            "text": "But now be {{chazaq|strong}}, O Zerubbabel, declares the {{lordOfHosts|LORD}}. Be strong, O Joshua son of Jehozadak, the high priest. And be strong, all you people of the land, declares the LORD. Work! For I am with you, declares the LORD of Hosts."
+          },
+          {
+            "chapter": 2,
+            "n": 5,
+            "text": "This is the promise I made to you when you came out of Egypt. And My {{ruach|Spirit}} remains among you; do not be afraid.”"
+          }
         ]
       },
       {
@@ -30,22 +50,73 @@
         "note": "the latter glory will be greater",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 2, "n": 6, "text": "For this is what the LORD of Hosts says: “Once more, in a little while, I will {{shake|shake}} the heavens and the earth, the sea and the dry land." },
-          { "chapter": 2, "n": 7, "text": "I will shake all the nations, and they will come with all their {{chemdat|treasures}}, and I will fill this house with {{kavod|glory}}, says the LORD of Hosts." },
-          { "chapter": 2, "n": 8, "text": "The silver is Mine, and the gold is Mine, declares the LORD of Hosts." },
-          { "chapter": 2, "n": 9, "text": "The latter glory of this house will be greater than the former, says the LORD of Hosts. And in this place I will provide {{shalom|peace}}, declares the LORD of Hosts.”" }
+          {
+            "chapter": 2,
+            "n": 6,
+            "text": "For this is what the LORD of Hosts says: “Once more, in a little while, I will {{shake|shake}} the heavens and the earth, the sea and the dry land."
+          },
+          {
+            "chapter": 2,
+            "n": 7,
+            "text": "I will shake all the nations, and they will come with all their {{chemdat|treasures}}, and I will fill this house with {{kavod|glory}}, says the LORD of Hosts."
+          },
+          {
+            "chapter": 2,
+            "n": 8,
+            "text": "The silver is Mine, and the gold is Mine, declares the LORD of Hosts."
+          },
+          {
+            "chapter": 2,
+            "n": 9,
+            "text": "The latter glory of this house will be greater than the former, says the LORD of Hosts. And in this place I will provide {{shalom|peace}}, declares the LORD of Hosts.”"
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "chazaq": { "language": "Hebrew", "lemma": "chazaq", "original": "חזק", "gloss": "To be strong, to take courage, to hold firm. It is the word God spoke to Joshua before entering Canaan and David spoke to Solomon before building the first temple. Here it rings out three times, one for each hearer, turning discouraged builders into a courageous, working people." },
-    "lordOfHosts": { "language": "Hebrew", "lemma": "YHWH tseva'ot", "original": "יהוה צבאות", "gloss": "The LORD of Hosts, or LORD of Armies, commander of the ranks of heaven and all the powers of creation. The title is stacked again and again through this short oracle, grounding every command and promise in the limitless power of the God who speaks." },
-    "ruach": { "language": "Hebrew", "lemma": "ruach", "original": "רוח", "gloss": "Breath, wind, spirit. My Spirit remains among you recalls the presence of God that led Israel from Egypt and filled the tabernacle. The same Spirit who empowered the first exodus abides with this small remnant, so they need not fear." },
-    "shake": { "language": "Hebrew", "lemma": "ra'ash", "original": "רעש", "gloss": "To quake, tremble, shake violently. God will shake heaven, earth, sea, and nations, an image of His sovereign upheaval of all things. Hebrews 12:26-28 takes up this word to point to the final shaking that leaves only the unshakable kingdom." },
-    "chemdat": { "language": "Hebrew", "lemma": "chemdah", "original": "חמדה", "gloss": "That which is desired, precious, or treasured. The phrase can be read as the treasures of the nations flowing in, or, in an older reading, the desire of all nations, understood by many as pointing to the Messiah. Either way the nations' true wealth is brought to honor God's house." },
-    "kavod": { "language": "Hebrew", "lemma": "kavod", "original": "כבוד", "gloss": "Glory, weight, honor, splendor. The kavod once filled Solomon's temple as a visible cloud. God promises to fill this humble house with a glory that will surpass the former, a promise fulfilled supremely when the Lord Himself entered the second temple in the person of Christ." },
-    "shalom": { "language": "Hebrew", "lemma": "shalom", "original": "שלום", "gloss": "Peace, wholeness, well-being, flourishing. More than the absence of conflict, it is the full harmony God gives. In this place I will provide peace points beyond the building to the peace with God secured in Christ, who is our peace." }
+    "chazaq": {
+      "language": "Hebrew",
+      "lemma": "chazaq",
+      "original": "חזק",
+      "gloss": "To be strong, to take courage, to hold firm. It is the word God spoke to Joshua before entering Canaan and David spoke to Solomon before building the first temple. Here it rings out three times, one for each hearer, turning discouraged builders into a courageous, working people."
+    },
+    "lordOfHosts": {
+      "language": "Hebrew",
+      "lemma": "YHWH tseva'ot",
+      "original": "יהוה צבאות",
+      "gloss": "The LORD of Hosts, or LORD of Armies, commander of the ranks of heaven and all the powers of creation. The title is stacked again and again through this short oracle, grounding every command and promise in the limitless power of the God who speaks."
+    },
+    "ruach": {
+      "language": "Hebrew",
+      "lemma": "ruach",
+      "original": "רוח",
+      "gloss": "Breath, wind, spirit. My Spirit remains among you recalls the presence of God that led Israel from Egypt and filled the tabernacle. The same Spirit who empowered the first exodus abides with this small remnant, so they need not fear."
+    },
+    "shake": {
+      "language": "Hebrew",
+      "lemma": "ra'ash",
+      "original": "רעש",
+      "gloss": "To quake, tremble, shake violently. God will shake heaven, earth, sea, and nations, an image of His sovereign upheaval of all things. Hebrews 12:26-28 takes up this word to point to the final shaking that leaves only the unshakable kingdom."
+    },
+    "chemdat": {
+      "language": "Hebrew",
+      "lemma": "chemdah",
+      "original": "חמדה",
+      "gloss": "That which is desired, precious, or treasured. The phrase can be read as the treasures of the nations flowing in, or, in an older reading, the desire of all nations, understood by many as pointing to the Messiah. Either way the nations' true wealth is brought to honor God's house."
+    },
+    "kavod": {
+      "language": "Hebrew",
+      "lemma": "kavod",
+      "original": "כבוד",
+      "gloss": "Glory, weight, honor, splendor. The kavod once filled Solomon's temple as a visible cloud. God promises to fill this humble house with a glory that will surpass the former, a promise fulfilled supremely when the Lord Himself entered the second temple in the person of Christ."
+    },
+    "shalom": {
+      "language": "Hebrew",
+      "lemma": "shalom",
+      "original": "שלום",
+      "gloss": "Peace, wholeness, well-being, flourishing. More than the absence of conflict, it is the full harmony God gives. In this place I will provide peace points beyond the building to the peace with God secured in Christ, who is our peace."
+    }
   },
   "study": {
     "basic": {
@@ -59,93 +130,252 @@
       "oneStory": "This promise carries the temple story forward: a humble house that will one day hold a glory greater than Solomon's, because the Lord Himself will come to it. It looks ahead to Christ, the true glory, and to the nations gathered and given peace, and finally to the new creation, the house filled with the glory of God forever."
     },
     "context": {
-      "literary": "The second of four dated oracles, and the first of the two encouraging, forward looking messages. It answers the discouragement voiced in verse 3 with a rising sequence: a threefold be strong, the reassurance of God's presence and Spirit, and then the sweeping cosmic promise of verses 6-9, punctuated repeatedly by the title LORD of Hosts, which lends divine weight to every clause.",
-      "historical": "The word came on the twenty-first day of the seventh month, during the Feast of Tabernacles, when Israel remembered the wilderness and the first temple's dedication under Solomon had once occurred. Some present were old enough to have seen Solomon's temple before its destruction in 586 BC, and the contrast with the modest rebuild, noted also in Ezra 3:12-13, sapped the people's resolve.",
-      "canonical": "The promise of shaking the nations is directly cited in Hebrews 12:26-28 and read there as pointing to the unshakable kingdom. The greater glory and the peace given in this place are drawn into the New Testament's presentation of Christ as the true temple and our peace, and into the vision of the nations gathered to worship God."
+      "literary": "Haggai 2:1 to 9 is the second of the book's dated oracles, and it is built as a three part answer to a single complaint. The oracle opens with a question, verse 3, that gives voice to the discouragement of the older generation: 'How does it look to you now? Does it not appear to you like nothing?' The prophet then answers in three movements. Verses 4 and 5 command courage and ground it in presence. Verses 6 and 7 give the promise of a shaking and a filling. Verses 8 and 9 give the reason the promise can be trusted, that the silver and gold already belong to the LORD, and the verdict that the latter glory will be greater.\n\nThe oracle is shaped by repetition. 'Be strong' appears three times in verse 4, once to each group addressed: the governor, the high priest, and all the people of the land. The declaration 'declares the LORD' or 'says the LORD of Hosts' appears in almost every verse, and the name 'LORD of Hosts' recurs in every verse from 6 to 9. The heaped formulae turn a short speech into a series of hammer blows, and they make the promise sound like a legal pronouncement rather than an opinion.\n\nThe passage also looks backward in order to look forward. Verse 3 names the past, 'its former glory,' verse 5 reaches back to the exodus, and verse 9 closes with the 'latter' glory beside the 'former.' The word 'once more' in verse 6 marks the point where memory turns to hope. The oracle sits between Haggai 1, where the work begins, and Haggai 2:10 to 19, where the people are told what is wrong with their work. It supplies the encouragement that keeps the work going once the first enthusiasm has faded.",
+      "historical": "The date, the twenty-first day of the seventh month, falls in the last days of the Feast of Tabernacles, which began on the fifteenth of that month and lasted seven days, with a final gathering on the eighth, Leviticus 23:34 to 36. In 520 BC that is mid October. It is only about four weeks after the work resumed in Haggai 1:15. The people had gathered in Jerusalem for a feast that recalled the wilderness years and the harvest, and they would have felt keenly that the fields had been poor. Solomon had dedicated his temple at this same feast, 1 Kings 8:2, so the choice of date was deeply resonant. The feast of Solomon's dedication was now the feast at which the rebuilding generation heard that the new house looked like nothing.\n\nThe older members of the community had seen the first temple. Solomon's temple was destroyed in 586 BC, so anyone who remembered it in its glory was at least in their late seventies in 520 BC. Ezra 3:12 records that when the foundation was laid, 'many of the older priests, Levites, and family heads who had seen the first temple wept loudly.' The memory of gold overlay, cedar panelling, and a cloud of glory made the second foundation seem small. The community was also small: a province of the Persian empire with a limited tax base, no king and few resources.\n\nThe words 'the silver is Mine, and the gold is Mine' answer the practical problem that the people had little to build with. The nations that would bring their treasures to the house had been the nations that carried Judah's treasures away. In the days of Darius, the Persian king confirmed Cyrus's decree and ordered that the cost be paid from royal funds, Ezra 6:8 to 12. The oracle is thus spoken to a community whose building would in fact be paid for, in part, by the empire that ruled them. The completed temple stood in the sixth year of Darius, Ezra 6:15, and lasted until Herod's rebuilding beginning around 20 BC.",
+      "canonical": "The oracle is full of references to the founding stories of Israel. 'This is the promise I made to you when you came out of Egypt' recalls the Sinai covenant, and particularly the promise in Exodus 29:45 to 46, 'I will dwell among the Israelites and be their God.' The command not to be afraid because God is with them recalls the words to Joshua before the conquest, Joshua 1:9, and to Solomon before he built the first temple, 1 Chronicles 28:20. The word 'glory' links to the tabernacle and the first temple, Exodus 40:34 to 35 and 1 Kings 8:10 to 11, where the glory of the LORD filled the house.\n\nThe promise of the nations coming with their treasures finds its parallels in the prophets. Isaiah 60:5 to 7 speaks of the wealth of the nations coming to Zion and of 'gold and frankincense' brought with the praises of the LORD, and Isaiah 2:2 to 3 pictures all nations streaming to the mountain of the house of the LORD. Zechariah, preaching in the same years, promises that 'many nations will join themselves to the LORD,' Zechariah 2:11.\n\nThe New Testament picks up the shaking directly. Hebrews 12:26 to 28 quotes Haggai's 'Once more I will shake not only the earth, but heaven as well,' and reads it as the removal of created things 'so that the unshakable may remain,' and calls believers to gratitude and worship because they are receiving an unshakable kingdom. Luke 2:27 to 32 shows Simeon taking the infant Jesus up in the temple courts and calling Him 'a light for revelation to the Gentiles, and for glory to Your people Israel.' John 2:19 to 21 identifies the body of Jesus as the true temple. Ephesians 2:14 says, 'He Himself is our peace,' which brings the promise of peace in Haggai 2:9 to its center. Revelation 21:22 to 24 finally sees the nations bringing their glory into a city where God and the Lamb are the temple."
     },
     "hermeneutics": {
-      "authorIntent": "To lift a discouraged, comparison weary people out of despair by anchoring them in God's presence, His covenant faithfulness since the exodus, and His sovereign promise to fill their humble work with a glory and peace far surpassing the former temple.",
-      "descriptionVsPrescription": "The passage describes a specific promise to the builders of the second temple; it does not prescribe material splendor for churches. The abiding truths are that God is present with His discouraged people, that He does not despise small beginnings, and that His purposes reach a glory we cannot yet see.",
+      "authorIntent": "Haggai meant to rescue the work from despair. He does not argue that the second temple was in fact as splendid as the first. He grants the comparison, 'Does it not appear to you like nothing?', and then moves the question from what the eye sees to what the word of God promises. The people are to measure their labour not by the building but by the One who commands it.\n\nHe also meant to give them a basis for courage that did not depend on their own strength. Three times he says 'Be strong,' but each time the command is paired with a reason that rests on God: 'I am with you,' 'My Spirit remains among you,' 'The silver is Mine.' The strength they need is borrowed from the presence of God, and their work is not a human enterprise but a response to a promise.\n\nThe oracle also stretches the hearers' horizon. A small group working on a plain stone building is told that what they build belongs to a story in which nations will bring their treasures and heaven and earth will be shaken. Haggai wants them to work with the end in view, to know that no stone laid for God is wasted, and to find in a promised future the courage to go on when the present looks poor.",
+      "descriptionVsPrescription": "The chapter describes a promise made to a particular generation about a particular house, and most of its verbs are God's own: I will shake, I will fill, I will provide. It does not prescribe that later buildings must be glorious, nor does it promise that every humble work will in the end appear great. To read it as a pledge of numerical growth or architectural grandeur for churches would be a serious misuse.\n\nThe commands are short and apply broadly: be strong, work, do not be afraid. They are addressed to the leaders and the whole community together, and they are grounded in the promised presence of God. A modern believer can take from them the pattern that discouragement is answered by a reminder of God's nearness and an invitation to keep working. The New Testament does the same in 1 Corinthians 15:58, 'your labor in the Lord is not in vain.'\n\nThe prophecy of the shaking and the latter glory is not a command at all but a forecast. Interpreters differ on how it unfolds, and responsible application keeps to what the New Testament says it means: Hebrews 12:28 draws the lesson that believers should be grateful and worship God with reverence and awe, since they are receiving a kingdom that cannot be shaken.",
       "debates": [
         {
-          "question": "What is the desired of all nations, or the treasures of the nations, in verse 7?",
+          "question": "What is 'the treasures' of all nations in verse 7?",
           "views": [
-            { "label": "The treasures or wealth of the nations", "case": "The grammar and the parallel with silver and gold in verse 8 favor the nations' precious things being brought to honor God's house, as the BSB renders it." },
-            { "label": "The Messiah, the Desire of nations", "case": "An older and cherished reading takes the singular sense as a person, the One whom the nations long for, fulfilled when Christ, the true treasure and glory, came to the temple." }
+            {
+              "label": "The wealth of the nations",
+              "case": "The BSB reads 'they will come with all their treasures.' The verb is plural, 'they will come,' and verse 8 follows at once with 'The silver is Mine, and the gold is Mine,' which makes sense of wealth brought as tribute to the house. Isaiah 60:5 to 7 uses the same picture of the wealth of the nations flowing to Zion. The Septuagint reads as a plural, 'the choice things of all the nations.'"
+            },
+            {
+              "label": "The Desire of all nations, the Messiah",
+              "case": "The Hebrew noun is a singular form meaning something desired, and the Latin Vulgate rendered it 'the desired one of all nations,' which became a title of Christ in Christian tradition. On this reading the verse promises a person for whom the nations long, who will fill the house with glory by entering it."
+            },
+            {
+              "label": "The chosen ones themselves",
+              "case": "Some take the singular noun as a collective, the desirable ones of the nations, meaning people who come to worship. This fits Zechariah 2:11 and Isaiah 66:20, where the nations themselves are brought as an offering."
+            }
           ],
-          "bearing": "Both readings converge on Christ: whether the nations' wealth flows in or the Desire of nations Himself comes, the house is filled with a glory that finds its center in the Lord who enters it."
+          "bearing": "The grammar permits more than one reading, which is why modern translations lean on the plural verb. Whatever the noun means, the picture of nations coming to the house is secure, and it is fulfilled in Christ, in whom the nations are gathered. The messianic reading adds a reason, but it should not be made to carry the whole weight of the verse."
         },
         {
-          "question": "How is the latter glory greater than the former?",
+          "question": "In what sense is the latter glory greater than the former?",
           "views": [
-            { "label": "Fulfilled ultimately in Christ's presence", "case": "The second temple never rivaled Solomon's in splendor, so the greater glory is best understood as the coming of the Lord Himself, God's glory in the flesh, into that very temple." },
-            { "label": "Including the temple's later expansion and the gathering of nations", "case": "Herod's lavish enlargement and the streaming of Gentiles toward the God of Israel also express a widening glory, all of it climaxing in Christ." }
+            {
+              "label": "Fulfilled when Christ entered the second temple",
+              "case": "The glory of the second house is the presence of the incarnate Son, who was presented in it, Luke 2:22 to 32, taught in it, and cleansed it, Matthew 21:12 to 13. God's glory in a person is greater than God's glory in a cloud, John 1:14."
+            },
+            {
+              "label": "Fulfilled in the Herodian rebuilding or in later history",
+              "case": "The temple was repaired and enlarged by Herod beginning around 20 BC, and John 2:20 records forty-six years of building. A few readers have connected the grander structure with the promise, though a larger building says little about glory in the sense of verse 9."
+            },
+            {
+              "label": "Fulfilled in the church and the new creation",
+              "case": "Hebrews 12:26 to 28 applies the shaking to the whole created order, and Revelation 21:22 sees a city where God and the Lamb are the temple. On this reading the 'house' includes the people of God, and the glory is complete only in the age to come."
+            }
           ],
-          "bearing": "The promise was not about outshining Solomon in gold but about the surpassing glory of God present among His people, realized when Jesus taught in that house and secured peace for the nations."
+          "bearing": "These views are not exclusive. The promise began to be kept when God's Son came to the second temple, continues in a church built of living stones, and ends in the city with no temple. Readers should be cautious about tying it to the architecture of Herod."
         }
       ]
     },
-    "originalLanguages": "The oracle is built on courage and glory. Three times God says chazaq, be strong, take hold, the very word He gave Joshua before Canaan and David gave Solomon before building the temple. He assures them His ruach, His Spirit, remains among them as at the exodus, so they need not fear. He will ra'ash, shake, the heavens, earth, sea, and nations, a sovereign upheaval that Hebrews 12 takes up. The chemdah of the nations, their desired treasures, will come in, and He will fill the house with kavod, the weighty glory that once filled Solomon's temple. And in this place He will give shalom, the wholeness and peace that finds its fullness in Christ.",
+    "originalLanguages": "The command in verse 4 to 'work' is a simple imperative, 'do' or 'make,' and it is the plain word for ordinary labour. In Hebrew it is a single short word set directly before the reason: 'Work! For I am with you.' The prophet gives them no elaborate programme. The order is to get on with the task, and the reason comes second. The same verb appears for what God has done and will do, so human work and divine work are described in a word that joins them.\n\nVerse 5 reads literally, 'the word which I cut with you when you came out of Egypt.' The verb is the verb of making a covenant, which is why older translations say 'according to the word that I covenanted.' The BSB turns it into 'the promise I made.' The picture is of a covenant cut with a sacrifice, as in Genesis 15 and Exodus 24. Haggai is reminding the builders that their work rests on the covenant at Sinai, not only on an oracle of the day. The next clause says that God's Spirit 'remains' among them, using a participle that means standing or abiding. It is a present, continuing presence, the same Spirit who was with Israel in the wilderness, Isaiah 63:11, now standing among a group of builders.\n\nThe phrase 'once more, in a little while' in verse 6 is quoted in Hebrews 12:26 as 'once more.' The Hebrew has a double expression, 'yet once, it is a little,' and Hebrews 12:27 draws a theological point from the 'once more,' that it signifies the removal of what can be shaken. The verb 'shake' is the one used of earthquakes and of trembling at God's presence, as in Judges 5:4, and Joel 3:16 pictures heaven and earth trembling when the LORD roars from Zion. The shaking in Haggai is a theophany, God coming to act.\n\nVerse 7 turns on a noun that is singular in form with a plural verb. The noun for 'treasures' is a form of a word that means something desired or precious. The verb that follows, 'they will come,' is plural, which is why most modern translations take the noun as a collective, 'the treasures,' and why the Septuagint renders it as a plural, 'the choice things.' The older English version, 'the desire of all nations,' follows the singular form and the Latin Vulgate.\n\nThe verb 'fill' in 'I will fill this house with glory' is the same verb used when the glory of the LORD filled the tabernacle and Solomon's temple, Exodus 40:34 and 1 Kings 8:11. It is the language of presence. And the word 'glory' itself comes from a root meaning weight; glory is the weight of God's presence, what makes Him impressive and the place where He is heavy with significance.\n\nFinally, the BSB's 'provide' in 'I will provide peace' translates the ordinary Hebrew verb for give. God does not promise to find peace or to obtain it but to give it, as a gift. The word for peace, shalom, is wholeness and not only absence of war. It echoes the priestly blessing, 'The LORD turn His face toward you and give you peace,' Numbers 6:26, and Haggai's promise draws on that blessing.",
     "typology": [
-      { "type": "The glory that filled the former temple", "fulfillment": "Jesus, the glory of God in the flesh, who entered the second temple in person, John 1:14 and Malachi 3:1." },
-      { "type": "The shaking of the nations and their treasures brought in", "fulfillment": "The nations gathered to God through the gospel and offering their worship, Revelation 21:24-26." },
-      { "type": "Peace provided in this place", "fulfillment": "Christ Himself, who is our peace and makes peace by His cross, Ephesians 2:14-17." }
+      {
+        "type": "The shaking of the nations and the filling of the house, Haggai 2:6 to 7",
+        "fulfillment": "God moves nations so that the house is filled with glory and the treasures of the nations arrive. In Christ the nations come, first the Magi with gold and frankincense, Matthew 2:11, then Gentiles from every people through the gospel, Acts 10:45 and Revelation 21:24. Hebrews 12:26 to 28 reads the shaking as the removal of everything temporary so that an unshakable kingdom remains. The type falls short in that the treasure of Haggai is silver and gold, while the true treasure is persons gathered to Christ."
+      },
+      {
+        "type": "The latter glory of the house, Haggai 2:9",
+        "fulfillment": "The second temple held no ark and no cloud that Scripture records. The glory greater than Solomon's came when the Word became flesh and 'made His dwelling among us,' John 1:14, and when Simeon held the child in the temple courts, Luke 2:27 to 32. Jesus declares that something greater than the temple is here, Matthew 12:6. The type falls short in that the temple was a building in one city; Christ is the presence of God for every place, and in the end the temple gives way to the Lord God and the Lamb, Revelation 21:22."
+      },
+      {
+        "type": "Peace given in this place, Haggai 2:9",
+        "fulfillment": "The promise of peace in the house is kept in the person who is Himself 'our peace,' Ephesians 2:14. The angels sing of peace at His birth, Luke 2:14, and Paul says that believers have 'peace with God through our Lord Jesus Christ,' Romans 5:1. The old temple stood as a place of reconciliation through sacrifice; in Christ the sacrifice is complete and the peace is secure. The type falls short because the second temple could not remove sin once and for all, as Hebrews 10:1 to 4 says of the old order."
+      },
+      {
+        "type": "The small beginning of the house, Haggai 2:3",
+        "fulfillment": "The builders were tempted to despise a day of small things, Zechariah 4:10, yet the plan was God's. Jesus likens the kingdom to a mustard seed, Matthew 13:31 to 32, and was Himself born small in Bethlehem, Micah 5:2. Paul says God chooses the lowly things of the world, 1 Corinthians 1:27 to 29. The correspondence is that God works from small beginnings. The type falls short because the humble start of the temple was marked by human weakness, while Christ's smallness was a chosen humbling."
+      }
     ],
-    "christ": "The promise that the latter glory would surpass the former was fulfilled not in gold but in a Person. The Lord whom they sought came suddenly to His temple, Malachi 3:1, when Jesus, the very glory of God, was carried into it as a child, taught within its courts, and cleansed it as His Father's house. He is greater than the temple, Matthew 12:6, the true meeting place of God and humanity. Through Him the nations are gathered, their treasures laid before God, and in this place, in Christ, God provides the deepest peace, reconciliation with Himself, for He is our peace, Ephesians 2:14.",
-    "god": "God is tender toward the discouraged, meeting their despair with a threefold command to be strong and the assurance of His presence. He does not despise small beginnings but promises to fill them with His glory. He is utterly sovereign, able to shake heaven, earth, and nations, and He owns all the wealth of the world, so His purposes never lack resources. And He is the giver of peace, providing in His house the shalom that no human effort can secure.",
+    "christ": "The oracle leads to Christ most directly by promise. The latter glory of this house is to be greater than the former, and the Gospels show that glory arriving in a person. John writes, 'We have seen His glory, the glory of the one and only Son from the Father,' John 1:14, and the verb 'made His dwelling' recalls the tabernacle in which the glory first settled. Colossians 2:9 gathers it into a sentence: 'in Christ all the fullness of the Deity dwells in bodily form.' The glory that filled Solomon's temple as a cloud now fills a body that walks the earth. Malachi had said that the Lord whom the people sought would 'suddenly come to His temple,' Malachi 3:1, and in the second temple He did.\n\nThe passage leads to Christ by peace. 'In this place I will provide peace' reaches its centre in Ephesians 2:14, 'He Himself is our peace.' The wall between Jew and Gentile in the temple courts is torn down in Him. Romans 5:1 speaks of peace with God through our Lord Jesus, and John 14:27 records Jesus giving peace that the world cannot give. The peace promised in the place of sacrifice comes at the cross.\n\nIt leads to Christ by the nations. The shaking and the gathering of treasures look forward to the Magi's gifts, Matthew 2:11, and to the church of the Gentiles. Isaiah 2:2 to 3 and Zechariah 2:11 foresee the nations joining themselves to the LORD, and the end of the story shows 'the kings of the earth' bringing their glory into the city, Revelation 21:24. If the Vulgate's 'desired of all nations' is allowed to stand beside the plural reading, it can be heard as a pointer to one for whom the nations wait, though the plain sense of the Hebrew verse does not depend on it.\n\nIt leads to Christ by the shaking. Hebrews 12:26 to 28 quotes Haggai and sets believers in the line of a kingdom that cannot be shaken. At the cross, the earth shook and the temple curtain was torn, Matthew 27:51, and at the final day heaven and earth will be shaken once more. The risen Christ is the one who will carry out that shaking and who remains when everything else is removed.\n\nIt leads to Christ by the call to be strong. The risen Lord says, 'I am with you always,' Matthew 28:20, in words that echo Haggai 2:4. The discouraged builders are reassured not by the quality of their work but by the promise of presence. The same Christ now encourages His church in her small and often unimpressive labours, saying that nothing done in the Lord is wasted, 1 Corinthians 15:58.\n\nA caution: the passage does not name the Messiah, and the New Testament does not claim that Haggai foresaw every detail of the incarnation. The links rest on what the New Testament does say, in Hebrews 12 and in the Gospels' account of the glory of the incarnate Son, and they should be held with that restraint.",
+    "god": "The oracle shows a God who knows the state of His people's hearts. He asks the elders to compare what they see with what they remember, verse 3, because He knows that the memory of a glorious past is draining the courage from the present. A God who asks this question understands human discouragement, and He does not rebuke it harshly. He answers it with a word of strength.\n\nHe is a God of presence. The words 'I am with you' appear in the same verse as the command to work, and verse 5 adds that His Spirit remains among them. The promise is grounded in the history of the exodus: the God who came out of Egypt with His people is the same God now standing with a handful of builders. His presence does not vary with the size of the building.\n\nHe is the sovereign Lord of history and creation. The shaking of heaven, earth, sea and dry land, verse 6, speaks of a God who is not confined to a temple or a nation, and the shaking of the nations in verse 7 shows that kings and empires are in His hand. Haggai's hearers lived under the Persian empire, and they are told that empires move at the word of the LORD of Hosts. The same title, LORD of Hosts, is repeated through the oracle to fix this truth.\n\nHe owns everything, and therefore He is generous. 'The silver is Mine, and the gold is Mine,' verse 8, is not a boast but a reassurance. The builders do not need to wonder where the resources will come from, because the God who commands the work holds the wealth. Psalm 50:10 to 12 and 1 Chronicles 29:14 teach the same truth, that everything given to God is already His own.\n\nHe is a God who keeps promises and chooses to do so with glory. The promise that the latter house will outshine the former is a promise that He will act in a way that surpasses the past. He does not merely restore what was lost; He gives more. Ephesians 3:20 speaks of God doing 'immeasurably more than all we ask or imagine,' and Haggai 2:9 anticipates it.\n\nHe is the giver of peace. The word 'provide' in the BSB is the plain verb for give, and shalom is a rich word for wholeness. The God who shakes the nations is the same God who gives peace, and the two belong together: He removes what opposes Him in order to give His people rest.\n\nFor worship, the passage teaches a believer to distrust the eye in the matter of God's work and to trust the word. It invites worshipers to measure their labour by the presence of the One who asks it, and to say with Hebrews 12:28 that since we receive a kingdom that cannot be shaken, we offer worship with gratitude, reverence and awe.",
     "crossReferences": [
-      { "ref": "Ezra 3:12-13", "note": "The older men who had seen the first temple wept at the foundation of the second, the very discouragement this oracle addresses." },
-      { "ref": "Hebrews 12:26-28", "note": "Quotes God's promise to shake heaven and earth and points to the kingdom that cannot be shaken." },
-      { "ref": "Malachi 3:1", "note": "The Lord will suddenly come to His temple, pointing to the greater glory fulfilled in Christ's coming." },
-      { "ref": "Ephesians 2:14-22", "note": "Christ is our peace and builds Jew and Gentile into a holy temple, God's dwelling by the Spirit." }
+      {
+        "ref": "Ezra 3:10-13",
+        "note": "At the laying of the foundation the people shouted for joy while the older generation who had seen the first temple wept aloud, and the sounds were indistinguishable. It supplies the scene behind Haggai 2:3 and explains the discouragement the prophet is addressing."
+      },
+      {
+        "ref": "Zechariah 4:6-10",
+        "note": "Speaking in the same years, Zechariah says the work will succeed 'by My Spirit' and asks, 'who has despised the day of small things?' It joins Haggai in giving the builders the same answer to the same discouragement."
+      },
+      {
+        "ref": "1 Kings 8:10-11",
+        "note": "The cloud filled the house of the LORD so that the priests could not stand to minister. It is the former glory against which the second house is measured, and the same filling language reappears in Haggai 2:7."
+      },
+      {
+        "ref": "Exodus 29:45-46",
+        "note": "God says He will dwell among the Israelites and be their God. This is the promise made when Israel came out of Egypt to which Haggai 2:5 points, and it shows why the temple matters, as the sign of that dwelling."
+      },
+      {
+        "ref": "Isaiah 60:5-7",
+        "note": "The wealth of the nations comes to Zion with gold, frankincense and the praises of the LORD, and God adorns His glorious house. It is a close parallel to the nations bringing treasures in Haggai 2:7."
+      },
+      {
+        "ref": "Zechariah 2:10-11",
+        "note": "The LORD says He is coming to dwell among Zion and that many nations will join themselves to Him. It confirms that the shaking and gathering of the nations in Haggai is aimed at their coming to worship."
+      },
+      {
+        "ref": "Hebrews 12:26-28",
+        "note": "The writer quotes the promise of one more shaking of earth and heaven and explains that it removes what is created so that the unshakable may remain. He draws the lesson that believers receive an unshakable kingdom and should worship with gratitude."
+      },
+      {
+        "ref": "Luke 2:27-32",
+        "note": "Simeon, led by the Spirit into the temple courts, takes the infant Jesus in his arms and calls Him a light for the Gentiles and glory for Israel. It shows the second temple receiving the glory greater than the former."
+      },
+      {
+        "ref": "John 2:19-21",
+        "note": "Jesus answers the demand for a sign by saying 'Destroy this temple, and in three days I will raise it up again,' speaking of the temple of His body. It identifies the true house that the second temple pointed to."
+      },
+      {
+        "ref": "Ephesians 2:14",
+        "note": "Paul says that Christ 'Himself is our peace,' tearing down the wall of hostility between Jew and Gentile. It shows how the promise to give peace in this place is kept in a person who unites the nations."
+      },
+      {
+        "ref": "Revelation 21:22-24",
+        "note": "John sees no temple in the city, because the Lord God Almighty and the Lamb are its temple, and the kings of the earth bring their glory into it. It is the final form of the filling and the gathering that Haggai 2:7 foresees."
+      }
     ],
-    "oneStory": "This promise moves the temple story toward its climax. A house that looked like nothing would hold a glory greater than Solomon's, because the Lord Himself would enter it. It points to Christ, the true glory and our peace, to the nations gathered in, and finally to the new creation, where the whole city is filled with the glory of God and there is no temple, for the Lord God and the Lamb are its temple.",
-    "sermon": { "status": "verified", "preacher": "John Piper", "title": "Take Courage: You Build More Than You See", "url": "https://www.desiringgod.org/messages/take-courage-you-build-more-than-you-see", "why": "Piper preaches directly on Haggai 2:1-9, surveying the whole book to set the context and then dwelling on God's threefold call to take courage, His promise of presence, and the promise to fill the house with glory greater than the former, tracing its fulfillment in Christ and the new creation. A rich, orthodox exposition of this passage." }
+    "oneStory": "The book of Genesis closes the first act of the Bible with a world that has lost its Eden, and the rest of the Old Testament tells how God makes places where heaven meets earth: the tabernacle, the temple, and the land. Haggai 2 stands where that story was at its lowest. The glory had left, the city lay in ruins, and a small band of returned exiles worked with limited resources on a temple that seemed to confirm that the great days were over. Into that moment God says, in effect, that the story is not over and that the best is still to come.\n\nThe oracle answers the questions which the exile had raised: Did the promises of Sinai still stand? Would the glory return? The reply is that the covenant made at the exodus stands, 'My Spirit remains among you,' and that the glory will come again. The story does not simply restore the past; it promises something greater than it. This is the shape of the whole Bible's hope, in which the end exceeds the beginning, so that the garden becomes a city.\n\nThe promise connects forward in at least three ways. First, it points to Christ, who enters the second temple and in whom the fullness of God dwells, John 1:14 and Colossians 2:9. Second, it points to the gathering of the nations, which begins when Gentile wise men bring gifts to a child and continues at Pentecost and in the missionary expansion of Acts. Third, it points to the end of the age. The writer to the Hebrews applies the shaking to the whole created order, Hebrews 12:26 to 28, and teaches that the kingdom now being received is the one that cannot be shaken.\n\nThe story finishes in Revelation, where the pieces of Haggai's promise fall into place. There is a city, the nations walk by its light, kings bring their glory into it, and there is no temple 'because the Lord God Almighty and the Lamb are its temple,' Revelation 21:22 to 24. The glory that Solomon's priests could not stand before is now the light of the whole city. The humble stones of 520 BC are part of a long road leading to that city, and the God who said 'I am with you' to a few builders keeps the same promise to a multitude no one can count, Revelation 7:9.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "John Piper",
+      "title": "Take Courage: You Build More Than You See",
+      "url": "https://www.desiringgod.org/messages/take-courage-you-build-more-than-you-see",
+      "why": "Piper preaches directly on Haggai 2:1-9, surveying the whole book to set the context and then dwelling on God's threefold call to take courage, His promise of presence, and the promise to fill the house with glory greater than the former, tracing its fulfillment in Christ and the new creation. A rich, orthodox exposition of this passage."
+    }
   },
   "quiz": [
     {
       "q": "Why were the builders so discouraged in this passage?",
       "options": [
-        { "text": "The new temple seemed like nothing compared to the remembered glory of Solomon's temple.", "weight": 100, "note": "Verse 3 names the comparison with the former house as the root of their despair." },
-        { "text": "They had run completely out of building materials.", "weight": 75, "note": "The text points to discouragement from comparison, not a shortage of supplies." },
-        { "text": "Their enemies had attacked the work again.", "weight": 25, "note": "Earlier opposition stalled the work, but here the issue is the smallness of the result." },
-        { "text": "God had told them to stop building.", "weight": 0, "note": "The opposite: God tells them to be strong and keep working." }
+        {
+          "text": "The new temple seemed like nothing compared to the remembered glory of Solomon's temple.",
+          "weight": 100,
+          "note": "Verse 3 names the comparison with the former house as the root of their despair."
+        },
+        {
+          "text": "They had run completely out of building materials.",
+          "weight": 75,
+          "note": "The text points to discouragement from comparison, not a shortage of supplies."
+        },
+        {
+          "text": "Their enemies had attacked the work again.",
+          "weight": 25,
+          "note": "Earlier opposition stalled the work, but here the issue is the smallness of the result."
+        },
+        {
+          "text": "God had told them to stop building.",
+          "weight": 0,
+          "note": "The opposite: God tells them to be strong and keep working."
+        }
       ]
     },
     {
       "q": "What is the heart of God's encouragement in verses 4-5?",
       "options": [
-        { "text": "Be strong and work, for I am with you and My Spirit remains among you.", "weight": 100, "note": "The threefold be strong rests on God's presence and abiding Spirit." },
-        { "text": "Try harder and the building will impress everyone.", "weight": 75, "note": "The comfort is God's presence, not the promise of an impressive result by effort." },
-        { "text": "Do not worry, the work does not really matter.", "weight": 25, "note": "The work does matter; God calls them to it and promises to be with them in it." },
-        { "text": "Wait until conditions improve before working.", "weight": 0, "note": "God says Work! now, precisely because He is with them." }
+        {
+          "text": "Be strong and work, for I am with you and My Spirit remains among you.",
+          "weight": 100,
+          "note": "The threefold be strong rests on God's presence and abiding Spirit."
+        },
+        {
+          "text": "Try harder and the building will impress everyone.",
+          "weight": 75,
+          "note": "The comfort is God's presence, not the promise of an impressive result by effort."
+        },
+        {
+          "text": "Do not worry, the work does not really matter.",
+          "weight": 25,
+          "note": "The work does matter; God calls them to it and promises to be with them in it."
+        },
+        {
+          "text": "Wait until conditions improve before working.",
+          "weight": 0,
+          "note": "God says Work! now, precisely because He is with them."
+        }
       ]
     },
     {
       "q": "How is the promise that the latter glory will surpass the former best understood?",
       "options": [
-        { "text": "Fulfilled supremely when the Lord Himself, God's glory in the flesh, came to that temple in Christ.", "weight": 100, "note": "The second temple never outshone Solomon's in gold; the greater glory was Christ's presence, Malachi 3:1." },
-        { "text": "The second temple would eventually hold more gold than Solomon's.", "weight": 75, "note": "There is a widening glory, but the deepest fulfillment is the Lord's own coming, not sheer wealth." },
-        { "text": "It refers only to a future millennial temple.", "weight": 25, "note": "Some look ahead, but the New Testament centers the fulfillment on Christ present in that very house." },
-        { "text": "The promise was never fulfilled.", "weight": 0, "note": "Scripture presents it as fulfilled in Christ, the glory who entered the temple." }
+        {
+          "text": "Fulfilled supremely when the Lord Himself, God's glory in the flesh, came to that temple in Christ.",
+          "weight": 100,
+          "note": "The second temple never outshone Solomon's in gold; the greater glory was Christ's presence, Malachi 3:1."
+        },
+        {
+          "text": "The second temple would eventually hold more gold than Solomon's.",
+          "weight": 75,
+          "note": "There is a widening glory, but the deepest fulfillment is the Lord's own coming, not sheer wealth."
+        },
+        {
+          "text": "It refers only to a future millennial temple.",
+          "weight": 25,
+          "note": "Some look ahead, but the New Testament centers the fulfillment on Christ present in that very house."
+        },
+        {
+          "text": "The promise was never fulfilled.",
+          "weight": 0,
+          "note": "Scripture presents it as fulfilled in Christ, the glory who entered the temple."
+        }
       ]
     },
     {
       "q": "What does God's shaking of the heavens, earth, and nations reveal?",
       "options": [
-        { "text": "His sovereign power to overturn all things and gather the nations to Himself.", "weight": 100, "note": "The shaking shows God's rule over creation and the nations, taken up in Hebrews 12." },
-        { "text": "That the world will simply fall into random chaos.", "weight": 75, "note": "It is God's purposeful, sovereign act, not random chaos." },
-        { "text": "That God is angry and merely wants to destroy.", "weight": 25, "note": "The shaking serves His saving purpose, filling His house with glory and giving peace." },
-        { "text": "That earthly kingdoms are the ones truly in control.", "weight": 0, "note": "The point is the opposite: God shakes the nations; He is in control." }
+        {
+          "text": "His sovereign power to overturn all things and gather the nations to Himself.",
+          "weight": 100,
+          "note": "The shaking shows God's rule over creation and the nations, taken up in Hebrews 12."
+        },
+        {
+          "text": "That the world will simply fall into random chaos.",
+          "weight": 75,
+          "note": "It is God's purposeful, sovereign act, not random chaos."
+        },
+        {
+          "text": "That God is angry and merely wants to destroy.",
+          "weight": 25,
+          "note": "The shaking serves His saving purpose, filling His house with glory and giving peace."
+        },
+        {
+          "text": "That earthly kingdoms are the ones truly in control.",
+          "weight": 0,
+          "note": "The point is the opposite: God shakes the nations; He is in control."
+        }
       ]
     },
     {
       "q": "What does in this place I will provide peace ultimately point to?",
       "options": [
-        { "text": "The peace with God secured in Christ, who is Himself our peace.", "weight": 100, "note": "The shalom of God's house finds its fullness in Christ, Ephesians 2:14." },
-        { "text": "A period of political calm for the nation of Judah.", "weight": 75, "note": "There may be a near horizon, but the promise reaches to the peace given in Christ." },
-        { "text": "Simply the absence of noise during worship.", "weight": 25, "note": "Shalom means wholeness and reconciliation, far more than quiet." },
-        { "text": "A peace that people must earn by their building.", "weight": 0, "note": "God provides the peace; it is His gift, fulfilled in Christ." }
+        {
+          "text": "The peace with God secured in Christ, who is Himself our peace.",
+          "weight": 100,
+          "note": "The shalom of God's house finds its fullness in Christ, Ephesians 2:14."
+        },
+        {
+          "text": "A period of political calm for the nation of Judah.",
+          "weight": 75,
+          "note": "There may be a near horizon, but the promise reaches to the peace given in Christ."
+        },
+        {
+          "text": "Simply the absence of noise during worship.",
+          "weight": 25,
+          "note": "Shalom means wholeness and reconciliation, far more than quiet."
+        },
+        {
+          "text": "A peace that people must earn by their building.",
+          "weight": 0,
+          "note": "God provides the peace; it is His gift, fulfilled in Christ."
+        }
       ]
     }
   ],
@@ -157,9 +387,21 @@
     "God promises peace in His house, fulfilled in Christ our peace. Where do you most need to receive that peace with God rather than trying to manufacture it yourself?"
   ],
   "translationNotes": [
-    { "ref": "Haggai 2:5", "note": "This is the promise I made to you when you came out of Egypt ties God's present assurance to His covenant word at the exodus; some render it as a reference to that covenant, My word stands." },
-    { "ref": "Haggai 2:7", "note": "They will come with all their treasures renders a phrase also famously translated the Desire of all nations, taken by many older readers as a title for the Messiah; the sense of glory brought to God's house holds in either reading." },
-    { "ref": "Haggai 2:9", "note": "The latter glory of this house will be greater than the former; glory renders kavod, the weighty splendor of God's presence, fulfilled when the Lord Himself came to the temple." }
+    {
+      "ref": "Haggai 2:5",
+      "note": "This is the promise I made to you when you came out of Egypt ties God's present assurance to His covenant word at the exodus; some render it as a reference to that covenant, My word stands."
+    },
+    {
+      "ref": "Haggai 2:7",
+      "note": "They will come with all their treasures renders a phrase also famously translated the Desire of all nations, taken by many older readers as a title for the Messiah; the sense of glory brought to God's house holds in either reading."
+    },
+    {
+      "ref": "Haggai 2:9",
+      "note": "The latter glory of this house will be greater than the former; glory renders kavod, the weighty splendor of God's presence, fulfilled when the Lord Himself came to the temple."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Haggai 2:1-9. All 9 verses reproduced in order. BSB footnote at 2:6 notes the citation in Hebrews 12:26." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Haggai 2:1-9. All 9 verses reproduced in order. BSB footnote at 2:6 notes the citation in Hebrews 12:26."
+  }
 }

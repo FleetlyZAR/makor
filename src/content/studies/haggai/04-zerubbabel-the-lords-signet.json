@@ -18,9 +18,21 @@
         "note": "I am about to shake the heavens and the earth",
         "emphasis": "",
         "verses": [
-          { "chapter": 2, "n": 20, "text": "For the second time that day, the twenty-fourth day of the month, the word of the LORD came to Haggai, saying," },
-          { "chapter": 2, "n": 21, "text": "“Tell Zerubbabel governor of Judah that I am about to {{shake|shake}} the heavens and the earth:" },
-          { "chapter": 2, "n": 22, "text": "I will {{haphak|overturn}} royal thrones and destroy the power of the kingdoms of the nations. I will overturn chariots and their riders; horses and their riders will fall, each by the sword of his brother." }
+          {
+            "chapter": 2,
+            "n": 20,
+            "text": "For the second time that day, the twenty-fourth day of the month, the word of the LORD came to Haggai, saying,"
+          },
+          {
+            "chapter": 2,
+            "n": 21,
+            "text": "“Tell Zerubbabel governor of Judah that I am about to {{shake|shake}} the heavens and the earth:"
+          },
+          {
+            "chapter": 2,
+            "n": 22,
+            "text": "I will {{haphak|overturn}} royal thrones and destroy the power of the kingdoms of the nations. I will overturn chariots and their riders; horses and their riders will fall, each by the sword of his brother."
+          }
         ]
       },
       {
@@ -28,18 +40,52 @@
         "note": "I will make you like My signet ring",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 2, "n": 23, "text": "On that day, declares the {{lordOfHosts|LORD of Hosts}}, I will take you, My {{ebed|servant}}, Zerubbabel son of Shealtiel, declares the LORD, and I will make you like My {{chotam|signet ring}}, for I have {{bachar|chosen}} you, declares the LORD of Hosts.”" }
+          {
+            "chapter": 2,
+            "n": 23,
+            "text": "On that day, declares the {{lordOfHosts|LORD of Hosts}}, I will take you, My {{ebed|servant}}, Zerubbabel son of Shealtiel, declares the LORD, and I will make you like My {{chotam|signet ring}}, for I have {{bachar|chosen}} you, declares the LORD of Hosts.”"
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "shake": { "language": "Hebrew", "lemma": "ra'ash", "original": "רעש", "gloss": "To quake, tremble, shake violently. The same word that opened the second oracle now closes the book, framing God's promises with His power to convulse creation and topple empires. What looks unshakable to human eyes, thrones and armies, trembles at His word." },
-    "haphak": { "language": "Hebrew", "lemma": "haphak", "original": "הפך", "gloss": "To overturn, overthrow, turn upside down. The verb used of the overthrow of Sodom now describes God toppling royal thrones and the might of the nations. Human power is not permanent; God overturns it, while establishing His own chosen servant." },
-    "lordOfHosts": { "language": "Hebrew", "lemma": "YHWH tseva'ot", "original": "יהוה צבאות", "gloss": "The LORD of Hosts, or LORD of Armies, commander of every power in heaven and earth. Stacked three times in this single verse, the title underlines that the God who topples the armies of the nations is the same God who chooses and secures His servant Zerubbabel." },
-    "ebed": { "language": "Hebrew", "lemma": "ebed", "original": "עבד", "gloss": "Servant, one who serves. My servant is a title of honor given to Abraham, Moses, and supremely to David and to the coming Servant of the LORD. Applied to Zerubbabel, it links him to the Davidic promise and points ahead to the true Servant, Christ." },
-    "chotam": { "language": "Hebrew", "lemma": "chotam", "original": "חותם", "gloss": "A signet ring or seal, worn to stamp a king's authority on documents. To be made like God's signet ring is to be His authorized representative, precious and secure. It pointedly reverses Jeremiah 22:24, where God had torn Jehoiachin, Zerubbabel's ancestor, off like a signet ring in judgment." },
-    "bachar": { "language": "Hebrew", "lemma": "bachar", "original": "בחר", "gloss": "To choose, elect, select. God's choice is the ground of Zerubbabel's honor: for I have chosen you. The same electing love that set apart David and Israel now rests on Zerubbabel, carrying the messianic line forward to the chosen One, Jesus." }
+    "shake": {
+      "language": "Hebrew",
+      "lemma": "ra'ash",
+      "original": "רעש",
+      "gloss": "To quake, tremble, shake violently. The same word that opened the second oracle now closes the book, framing God's promises with His power to convulse creation and topple empires. What looks unshakable to human eyes, thrones and armies, trembles at His word."
+    },
+    "haphak": {
+      "language": "Hebrew",
+      "lemma": "haphak",
+      "original": "הפך",
+      "gloss": "To overturn, overthrow, turn upside down. The verb used of the overthrow of Sodom now describes God toppling royal thrones and the might of the nations. Human power is not permanent; God overturns it, while establishing His own chosen servant."
+    },
+    "lordOfHosts": {
+      "language": "Hebrew",
+      "lemma": "YHWH tseva'ot",
+      "original": "יהוה צבאות",
+      "gloss": "The LORD of Hosts, or LORD of Armies, commander of every power in heaven and earth. Stacked three times in this single verse, the title underlines that the God who topples the armies of the nations is the same God who chooses and secures His servant Zerubbabel."
+    },
+    "ebed": {
+      "language": "Hebrew",
+      "lemma": "ebed",
+      "original": "עבד",
+      "gloss": "Servant, one who serves. My servant is a title of honor given to Abraham, Moses, and supremely to David and to the coming Servant of the LORD. Applied to Zerubbabel, it links him to the Davidic promise and points ahead to the true Servant, Christ."
+    },
+    "chotam": {
+      "language": "Hebrew",
+      "lemma": "chotam",
+      "original": "חותם",
+      "gloss": "A signet ring or seal, worn to stamp a king's authority on documents. To be made like God's signet ring is to be His authorized representative, precious and secure. It pointedly reverses Jeremiah 22:24, where God had torn Jehoiachin, Zerubbabel's ancestor, off like a signet ring in judgment."
+    },
+    "bachar": {
+      "language": "Hebrew",
+      "lemma": "bachar",
+      "original": "בחר",
+      "gloss": "To choose, elect, select. God's choice is the ground of Zerubbabel's honor: for I have chosen you. The same electing love that set apart David and Israel now rests on Zerubbabel, carrying the messianic line forward to the chosen One, Jesus."
+    }
   },
   "study": {
     "basic": {
@@ -53,93 +99,262 @@
       "oneStory": "This closing promise keeps the messianic hope burning through the fragile post-exilic years. God overturns the kingdoms of the world but secures the line of David in Zerubbabel, His chosen signet, carrying the story forward to Jesus, the King whose throne endures when all others fall."
     },
     "context": {
-      "literary": "The fourth and shortest of the dated oracles, given on the same day as the third and forming a deliberate pair with the second: both speak of God shaking the heavens and the earth. It moves from a cosmic, universal scope, the overturning of all the kingdoms, to a single, personal focus on Zerubbabel, ending the book on the note of God's chosen servant and the title LORD of Hosts.",
-      "historical": "Zerubbabel was the Persian appointed governor of Judah and a grandson of King Jehoiachin, the last reigning heir of David's line taken into exile. In a world dominated by the vast Persian Empire, a promise that God would overturn the nations and exalt this modest Davidic governor as His signet ring spoke directly to a small, vulnerable community's longing for the restoration of David's house.",
-      "canonical": "The oracle reverses the judgment of Jeremiah 22:24-30, where Jehoiachin, called Coniah, was cast off like a signet ring and declared childless of a reigning heir. By making Zerubbabel His signet, God signals the renewal of the Davidic covenant. Zerubbabel then appears in the genealogies of Jesus, Matthew 1:12-13 and Luke 3:27, so the promise finds its fulfillment in the Messiah."
+      "literary": "Haggai is the most carefully dated book in the Twelve. Its four messages fall on the first day of the sixth month (Haggai 1:1), the twenty-first day of the seventh (2:1), and then twice on the twenty-fourth day of the ninth (2:10 and 2:20). The first message rebukes, the second steadies the builders, the third turns on a priestly question about what is clean and unclean, and the fourth, our passage, closes the book with a promise addressed to one man. The movement is from a people who must be stirred, to a people who are working, to a people who are blessed, to a governor who is held.\n\nTwo threads tie the last two messages together. Both use the same announcement, \"I will shake the heavens and the earth,\" at Haggai 2:6 and again at 2:21. Yet the shaking has two faces. In the second message the nations are shaken so that their treasures flow into the house, 2:7. In the fourth they are shaken so that their thrones fall and their armies turn on each other, 2:22. The same divine act is mercy for the temple and ruin for the empires that oppose it.\n\nThe verse that ends the book is built on three first person verbs, \"I will take you,\" \"I will make you,\" \"I have chosen you,\" and the oracle formula \"declares the LORD\" falls three times inside this single verse. Nothing else in the book is sealed so heavily. Notice also what is missing. The word \"temple\" does not appear in the fourth message at all. The book that began with a call to build ends not with a building but with a person, as though the house were only the occasion and the servant the point.",
+      "historical": "The date is the twenty-fourth day of the ninth month of Darius's second year, about 18 December 520 BC, and it is the very day Haggai 2:18 names as the day the foundation of the LORD's temple was laid. Darius had taken the Persian throne in 522 BC and spent his early years putting down revolts in many provinces, a struggle his own Behistun inscription records. A prophecy of overturned thrones, fallen chariots and soldiers turning on one another would have sounded like the news of the day, and a small, poor community in Judah had every reason to wonder whether the shaking would reach them.\n\nZerubbabel had come back from Babylon at the head of the first returnees, Ezra 2:2, and had set up the altar, Ezra 3:2. He governed Judah as an officer of the Persian crown, and Ezra 5:2 shows him rising with Jeshua to resume the work. He was also Jehoiachin's grandson. Jehoiachin was an eighteen year old king who surrendered to Nebuchadnezzar after a reign of three months, 2 Kings 24:8-12, and who spent decades as a captive. Babylonian ration tablets even list oil and grain for \"Yaukin, king of Judah.\" In 2 Kings 25:27-30 he is finally released and given a seat above other captive kings, a small light at the end of the history.\n\nThe signet was the ancient equivalent of a signature. A king or official pressed it into clay or wax to make a document binding, as Pharaoh's ring did for Joseph in Genesis 41:42 and the king's ring did for the Persian decree in Esther 8:8. To hold the signet was to speak with the king's voice. To lose it was to lose standing.",
+      "canonical": "The oracle stands at the end of a long conversation about David's house. God swore that David's offspring and throne would endure, 2 Samuel 7:8-16 and Psalm 89:3-4, and the exile seemed to cancel it. Psalm 89:38-39 laments that the covenant was renounced and the crown \"sullied in the dust,\" and Jeremiah 22:24-30 puts Jehoiachin's rejection in the starkest picture, a signet ring pulled from God's right hand. Haggai 2:23 is the first clear word that the ring has been put back on, and it does so using the same Hebrew word for signet.\n\nThe conversation continues in Zechariah, who prophesied in the same months. Zechariah 4:6-10 promises that Zerubbabel's hands will complete the house \"not by might nor by power, but by My Spirit,\" and Zechariah 3:8 and 6:12 speak of the Branch, a figure the book sets beside Zerubbabel's work. Ezra 5:1-2 and 6:14-15 record the building that fulfilled the first part, and the temple was finished in 516 BC, Zerubbabel's name notably absent from the dedication account.\n\nThe New Testament takes up both halves. Matthew 1:12-13 and Luke 3:27 place Zerubbabel in the line of Jesus. Hebrews 12:26-28 quotes the shaking of Haggai 2:6 and applies it to the removal of everything created, \"so that the unshakable may remain.\" What Haggai said to a governor, the New Testament says about a kingdom."
     },
     "hermeneutics": {
-      "authorIntent": "To assure the vulnerable post-exilic community, through their Davidic governor, that God rules over the rise and fall of all empires and that He has chosen and secured the line of David, reviving the hope of the promised King even in a day of small things.",
-      "descriptionVsPrescription": "The passage describes a specific promise to Zerubbabel and, through him, to David's line; it is not a general promise that every believer becomes a signet ring. The abiding truths are God's sovereignty over the nations, the certainty of His covenant with David, and the security of those He chooses, all fulfilled in Christ.",
+      "authorIntent": "Haggai wanted the governor, and everyone who overheard the oracle, to hear that the house of David was not finished. Four things hang together. First, history is not out of control, because the God who tells Haggai to speak is the One who shakes thrones. Second, the exile did not have the last word on David's line, because the signet cast off in Jeremiah's day is picked up again. Third, the ground of the promise is God's own choice, \"for I have chosen you,\" not Zerubbabel's record or the strength of Judah. Fourth, the promise belongs to the day of small things. The community had just laid a foundation that the old men called \"nothing\" beside Solomon's, Haggai 2:3, and a promise about kings could easily have seemed absurd.\n\nThe first hearers were to draw courage and keep building. They were not told to wait idly for a new king. The same chapter that promises the shaking commands work, \"Be strong, all you people of the land... Work!\" Haggai 2:4. Hope and labour belong together in the book, and the final oracle is the reason the labour is not wasted.",
+      "descriptionVsPrescription": "The verse describes what God said He would do for one named man at one named moment. It does not turn every believer into a signet ring, and it does not give a template for how God treats every political leader. A reader who takes \"I will make you like My signet ring\" as a general promise of status or success has stepped outside the text. What does carry over is the character of the God who speaks. He governs the powers, He keeps covenants after they seem broken, and He chooses people by grace.\n\nThe command around the promise is prescriptive for any age: be strong and work, because He is with you, Haggai 2:4. Applying that well means the work is done under His promise and not instead of it. The New Testament moves the promise to Christ and then, derivatively, to those united to Him. It speaks of believers being sealed with the Holy Spirit, Ephesians 1:13, and of being given a share in His kingdom, Hebrews 12:28. That is a different step from reading the Zerubbabel oracle as addressed to us, and it keeps the first meaning intact.",
       "debates": [
         {
           "question": "How is the signet ring promise fulfilled, given that Zerubbabel never reigned as king?",
           "views": [
-            { "label": "Fulfilled ultimately in Christ", "case": "Zerubbabel represents and carries the Davidic line rather than fulfilling the promise himself; the promise climaxes in his descendant Jesus, the true King and signet, listed in both genealogies." },
-            { "label": "Realized in part in Zerubbabel's honored role", "case": "Zerubbabel was genuinely exalted as leader of the restored community and rebuilder of the temple, a real down payment on the larger promise that reaches its fullness in Christ." }
+            {
+              "label": "Fulfilled ultimately in Christ",
+              "case": "Zerubbabel represents and carries the Davidic line rather than fulfilling the promise himself; the promise climaxes in his descendant Jesus, the true King and signet, listed in both genealogies."
+            },
+            {
+              "label": "Realized in part in Zerubbabel's honored role",
+              "case": "Zerubbabel was genuinely exalted as leader of the restored community and rebuilder of the temple, a real down payment on the larger promise that reaches its fullness in Christ."
+            }
           ],
           "bearing": "Both keep the messianic trajectory intact: the promise revives David's line and points forward to Jesus, in whom the chosen servant and everlasting King finally comes."
         },
         {
           "question": "When is the shaking and overturning of the nations accomplished?",
           "views": [
-            { "label": "Across history and consummated at the end", "case": "God has repeatedly overturned empires, and Hebrews 12 reads the promise as pointing to a final shaking that leaves only the unshakable kingdom of Christ." },
-            { "label": "Inaugurated in Christ's first coming", "case": "The decisive overturning of the powers began with Christ, who disarmed the rulers and authorities at the cross and now reigns above every earthly throne." }
+            {
+              "label": "Across history and consummated at the end",
+              "case": "God has repeatedly overturned empires, and Hebrews 12 reads the promise as pointing to a final shaking that leaves only the unshakable kingdom of Christ."
+            },
+            {
+              "label": "Inaugurated in Christ's first coming",
+              "case": "The decisive overturning of the powers began with Christ, who disarmed the rulers and authorities at the cross and now reigns above every earthly throne."
+            }
           ],
           "bearing": "Whether one stresses the ongoing, the final, or the inaugurated shaking, the point stands: earthly powers are provisional, and God's chosen King and kingdom endure."
+        },
+        {
+          "question": "Did Haggai expect Zerubbabel himself to take the throne?",
+          "views": [
+            {
+              "label": "Yes, and the hope was not realised in his day",
+              "case": "Some read the language of overturned thrones and the signet as an expectation that Zerubbabel would shortly become a king when the Persian order fell, noting that he disappears from the record after the temple work. On this reading the oracle was tied to the upheavals of 520 BC and went unfulfilled in the form first hoped."
+            },
+            {
+              "label": "No, the signet is a guarantee of the line, not an offer of a crown",
+              "case": "The text never says king, throne or Messiah of Zerubbabel. It says servant and signet, words of delegated authority and covenant security. Jeremiah 22:30 had said no descendant of Jehoiachin would prosper on David's throne, and Haggai does not contradict it. He restores the line's standing in God's purposes without promising Zerubbabel a throne."
+            },
+            {
+              "label": "A promise of both kinds, conditional in form and Messianic in end",
+              "case": "Prophecy often speaks to the present leader while aiming at the one he represents. Zerubbabel is the immediate bearer of the promise, and what he receives is only fully given to the Son of David who comes from his line."
+            }
+          ],
+          "bearing": "The second and third readings fit the wording best. Haggai names a servant and a seal, which are Davidic terms, not a coronation. The honest result is that the oracle is real for Zerubbabel and larger than Zerubbabel, which is how Matthew 1:12-13 treats his place in the genealogy."
         }
       ]
     },
-    "originalLanguages": "The final oracle is framed by God's power and His choice. He will ra'ash, shake, the heavens and the earth and haphak, overturn, the thrones and armies of the nations, the same verb used of the overthrow of Sodom, so that human might collapses on itself, each by the sword of his brother. Against that backdrop God names Zerubbabel ebed, My servant, the honored Davidic title, and makes him like His chotam, His signet ring, the seal that stamps royal authority, deliberately reversing the curse on Jehoiachin in Jeremiah 22:24. The whole rests on bachar, I have chosen you, God's electing love, and the title LORD of Hosts sounds three times to seal it.",
+    "originalLanguages": "Start with the closing formula. Verse 23 has \"declares the LORD of Hosts,\" \"declares the LORD,\" and \"declares the LORD of Hosts\" inside one sentence, each translating the Hebrew ne'um, the word of an oracle spoken and certified by God. It appears throughout Haggai, but nowhere is it packed as densely as here. The verse is signed three times over.\n\nThe verb \"take\" in \"I will take you\" is the common laqach. It can mean simply to receive, but it also has an electing sense, as when God tells David, \"I took you from the pasture, from following the flock, to be the ruler over My people Israel,\" 2 Samuel 7:8. Haggai uses the same verb to the same kind of person. A descendant of that David is lifted by the same action.\n\nThe phrase \"I will make you\" uses sim, to set or place, and the comparison is a simile with the preposition ka. God does not say \"you are My signet\" but \"I will set you as one.\" The same pairing appears in Song of Songs 8:6, \"Set me as a seal over your heart,\" where the seal sits beside \"jealousy as unrelenting as Sheol.\" The signet language belongs to the vocabulary of covenant love as well as authority. The contrast with Jeremiah 22:24 is exact. There the word is a hypothetical, \"even if you were a signet ring on My right hand, I would pull you off.\" Here the ring is put on.\n\nA quieter link joins verse 22 to the call at 2:4. God tells Zerubbabel, \"Be strong,\" from the root chazaq, and then promises \"to destroy the power of the kingdoms of the nations,\" where \"power\" is chozeq, the noun from the same root. The strength he is asked to have is a small copy of the strength God will break in empires.\n\nThe verb \"fall\" in \"horses and their riders will fall\" is literally to go down, and the phrase \"each by the sword of his brother\" is the language of divine panic. Judges 7:22 tells how the LORD set every man's sword against his companion in the Midianite camp, and Ezekiel 38:21 uses nearly the same words, \"every man's sword will be against his brother.\" Haggai does not say who the armies are. He says God will do to the empires what He did at Gideon's spring.\n\nFinally, the pairing of \"My servant\" with \"I have chosen\" has an earlier home. Isaiah 41:9 says, \"You are My servant. I have chosen and not rejected you.\" Zerubbabel's family had known rejection. These two words are God's answer to it.",
     "typology": [
-      { "type": "Zerubbabel, God's chosen servant", "fulfillment": "Jesus, the true chosen Servant of the LORD who perfectly does the Father's will, Isaiah 42:1 and Matthew 12:18." },
-      { "type": "The signet ring reversing the curse on Jehoiachin", "fulfillment": "Christ, in whom the Davidic line and covenant are restored and secured, Matthew 1:12-16 and Luke 1:32-33." },
-      { "type": "The overturning of the kingdoms of the nations", "fulfillment": "Christ's kingdom, which cannot be shaken and outlasts every earthly power, Hebrews 12:28 and Daniel 2:44." }
+      {
+        "type": "The signet ring on God's hand",
+        "fulfillment": "A signet makes a person's will legally present wherever it is pressed. Zerubbabel is given that place beside God. The correspondence in Christ is closer than anything Zerubbabel could be: the Son is \"the exact representation of His nature,\" Hebrews 1:3, and the Father \"has placed His seal of approval\" on Him, John 6:27. Where a ring only carries an imprint, Christ is the one whose word is God's word in person. The type falls short because a ring is an object under the wearer's control, whereas Christ shares the Father's own authority."
+      },
+      {
+        "type": "The curse on Jehoiachin reversed",
+        "fulfillment": "Jeremiah's word had cast the line out like a discarded ring. Haggai brings it back. In Christ the reversal goes further, because Matthew 1:12 names Jeconiah in the very line from which Jesus is born. The line under judgment becomes the line of the Saviour. Christ redeems from the curse by \"becoming a curse for us,\" Galatians 3:13. Zerubbabel's reversal was a restored standing; Christ's is a cancelled debt. The type also stops short of the throne, which Zerubbabel never took."
+      },
+      {
+        "type": "The shaking of heaven and earth",
+        "fulfillment": "Haggai's shaking puts down kingdoms so that God's purpose for His people stands. Hebrews 12:26-27 quotes the promise and says it means \"the removal of what can be shaken, that is, created things, so that the unshakable may remain.\" Believers are \"receiving an unshakable kingdom,\" 12:28. Daniel 2:44 adds that it \"will never be destroyed.\" The type ends where its fulfillment begins, since Haggai describes political upheaval while Hebrews places the shaking in the whole created order."
+      },
+      {
+        "type": "The builder whose hands lay and finish the house",
+        "fulfillment": "Zerubbabel laid the foundation and, Zechariah 4:9 says, would complete the house. Zechariah 6:12-13 then looks beyond him to the Branch who \"will build the temple of the LORD.\" Jesus says He will raise the temple of His body, John 2:19-21, and builds a church on Himself as cornerstone, Matthew 16:18 and Ephesians 2:20-22. The pattern holds in that a Davidic servant builds God's house. It breaks in that Zerubbabel's temple needed later repair, while Christ's is complete."
+      }
     ],
-    "christ": "This quiet closing promise carries the whole weight of the messianic hope. God had declared through Jeremiah that Jehoiachin, Zerubbabel's grandfather, was cast off like a signet ring, with no descendant to reign on David's throne. Now God reverses that judgment: Zerubbabel is made like His signet ring, His chosen servant, and David's line lives on. Zerubbabel appears by name in the genealogies of Jesus in Matthew 1 and Luke 3, so the promise runs straight to Christ, the true Servant, the King who bears all the Father's authority as His seal, and whose throne stands firm when God shakes and overturns every kingdom of this world.",
-    "god": "God is Lord of Hosts, sovereign over the whole sweep of history, able to shake heaven and earth and to topple the proudest thrones. Yet He is also the God who chooses, who stoops to name a single servant and treasure him like a royal seal. His grand purposes for the nations run through the people He elects by grace, and His covenant promises, though they may hang by a thread through exile and small beginnings, are never lost. What He chooses, He secures, all the way to Christ.",
+    "christ": "Haggai's final oracle leads to Christ by line, by title and by kingdom. By line, because the Gospels set Zerubbabel in the family tree of Jesus: Matthew 1:12-13 gives \"Jeconiah was the father of Shealtiel, Shealtiel the father of Zerubbabel,\" and Luke 3:27 has \"the son of Zerubbabel, the son of Shealtiel.\" The curse of Jeremiah 22:30 had said that none of Jehoiachin's descendants would prosper on David's throne. Haggai does not undo that sentence by placing Zerubbabel on the throne. He keeps the line alive and leaves the throne to the One who would come through it, whose right to it does not rest on Jehoiachin's merits.\n\nCareful readers have long noticed the genealogies do not match line for line, and 1 Chronicles 3:19 calls Zerubbabel a son of Pedaiah while Ezra 5:2 and Haggai 1:1 say Shealtiel. Writers have explained this by a levirate arrangement, by Luke recording a different line, or by Matthew tracing legal descent. The point does not depend on settling the details. Both Gospels hold that Jesus is truly David's son through Zerubbabel's family, and Matthew's emphasis on the virgin birth, Matthew 1:18-23, preserves the pattern in which a cursed line yields a Saviour whose life comes from God.\n\nBy title, because the two words God gives Zerubbabel become the signature descriptions of the Messiah. \"My servant\" is Isaiah's word for the one who \"will bring justice to the nations,\" Isaiah 42:1, quoted of Jesus in Matthew 12:18. Zechariah, in the same months as Haggai, says God will bring \"My servant, the Branch,\" Zechariah 3:8, and Jeremiah 23:5 speaks of a \"righteous Branch\" raised for David. \"Chosen\" belongs to the same family of words. Zerubbabel receives in miniature what the Servant receives in full.\n\nBy kingdom, because the shaking leaves a kingdom. When the writer of Hebrews reads Haggai 2:6, he concludes that \"we are receiving an unshakable kingdom,\" Hebrews 12:28. Jesus is the King of whom the angel said that the Lord God \"will give Him the throne of His father David,\" Luke 1:32. Revelation 22:16 has Him say, \"I am the Root and the Offspring of David.\"\n\nA caution keeps the reading honest. Zerubbabel is not simply a code name for Jesus. The oracle was spoken to a governor who laid a foundation, and the text claims no more for him. What it supplies is a pattern and a pledge: God keeps hold of a family He seemed to throw away, and the line He holds ends in the One who bears the full weight of His authority. Where Zerubbabel was a seal on loan, Christ is the one on whom the Father has set His seal.",
+    "god": "The oracle shows God as the one who governs history from both ends. He is the shaker of the heavens and the earth, the overturner of thrones, the One who sets soldiers against one another. Yet the same speech turns to one named man in a provincial post and calls him \"My servant.\" Greatness and nearness are not rivals in this God. The scale of the first half only makes the tenderness of the second more striking.\n\nHis word is not bound by His earlier sentences, but neither does He contradict them. Jeremiah 22 said a signet would be pulled off and Jeremiah 22:30 said the line would not prosper. Haggai 2:23 does not call those words false. He gives the family back its place on His own terms and for His own reasons. That is the shape of God's mercy throughout the Bible: judgment is real, and it is not the end. Even Psalm 89:38-39, which mourns that the covenant seemed renounced, closes with a plea to remember, and Haggai is part of the answer.\n\nHis choosing is free. The sentence \"I have chosen you\" gives no ground in Zerubbabel's character, strength or history. Isaiah 41:9, \"I have chosen and not rejected you,\" shows the same pattern with Israel. The grace begins in God. That fits Deuteronomy 7:7-8, where Israel was chosen not for being numerous, and it fits Paul's argument that \"God's plan of election might stand,\" Romans 9:11. It also explains why the promise comes to a man who commands no army.\n\nHe is the God of fidelity across centuries. The promise to David in 2 Samuel 7 was made nearly five centuries before this day, and the exile did not extinguish it. Jeremiah 33:17 says David \"will never lack a man to sit on the throne,\" and Haggai shows that God was still working it out in a Persian province.\n\nHe is also the God of holiness and jealousy. The shaking is not arbitrary violence. Hebrews 12:29 ties it to the truth that \"our God is a consuming fire.\" The same fire that removes what is created and rebellious is the fire of a love that Song of Songs 8:6 compares to a seal. Worship that is shaped by this chapter combines awe and confidence. We bow because the One who rules the nations is not impressed by their power, and we work without panic because He has named His own.",
     "crossReferences": [
-      { "ref": "Jeremiah 22:24-30", "note": "God casts off Jehoiachin like a signet ring in judgment; Haggai's promise deliberately reverses this over his grandson Zerubbabel." },
-      { "ref": "Matthew 1:12-16", "note": "Zerubbabel stands in the royal genealogy leading to Jesus the Messiah, showing where the signet promise lands." },
-      { "ref": "Haggai 2:6-7", "note": "The earlier promise to shake the heavens and earth, paired with this closing oracle that shakes and overturns the nations." },
-      { "ref": "Hebrews 12:26-28", "note": "Takes up the shaking of heaven and earth and points to the kingdom that cannot be shaken, the reign of Christ." }
+      {
+        "ref": "Jeremiah 22:24-30",
+        "note": "The sentence that Haggai 2:23 answers. Coniah, another name for Jehoiachin, is told that even if he were a signet ring on God's right hand he would be pulled off, and that none of his descendants would prosper on David's throne. Haggai uses the same word, signet, and reverses the verb."
+      },
+      {
+        "ref": "2 Kings 25:27-30",
+        "note": "After thirty seven years of exile, Jehoiachin is freed and given a place at the Babylonian king's table. It is a faint sign that the line had not been extinguished, and it prepares for the grandson who in Haggai's day is called God's servant."
+      },
+      {
+        "ref": "Haggai 2:4-9",
+        "note": "The earlier word that shares the shaking. There the nations come bringing treasure and the house is filled with glory, and the promise of peace follows. Read together, the two oracles show one act of God with two outcomes, blessing for His house and overthrow for its enemies."
+      },
+      {
+        "ref": "Zechariah 4:6-10",
+        "note": "A word to Zerubbabel from the same months. The work will be done \"not by might nor by power, but by My Spirit,\" and his hands, which laid the foundation, will complete the house. Together with Haggai it shows the promise of the signet being worked out through a modest builder and God's own Spirit."
+      },
+      {
+        "ref": "Zechariah 6:11-13",
+        "note": "Zechariah is told to set a crown on Joshua the high priest and speak of the Branch who will build the temple and sit on His throne as a priest. The oracle reaches beyond both governor and priest to one figure who unites their offices, which Zerubbabel's signet only anticipated."
+      },
+      {
+        "ref": "Matthew 1:12-16",
+        "note": "Matthew's genealogy names Jeconiah, Shealtiel and Zerubbabel on the road to Jesus. The line that Jeremiah cast out and Haggai restored is the very line the opening of the first Gospel claims for Christ."
+      },
+      {
+        "ref": "Luke 3:27",
+        "note": "Luke records Zerubbabel and Shealtiel too, though in a differently traced line. That both Gospels include him confirms the early church's conviction that this governor's family is part of the Messiah's story."
+      },
+      {
+        "ref": "Hebrews 12:25-29",
+        "note": "Quotes the shaking of Haggai 2:6 and reads it as the removal of everything created so that an unshakable kingdom remains. It adds the warning not to refuse the One who speaks and calls for gratitude and reverent worship."
+      },
+      {
+        "ref": "Song of Songs 8:6",
+        "note": "The lover asks to be set \"as a seal over your heart,\" using the same pairing of verb and noun as Haggai 2:23. It shows that a seal in the Bible can mean not only authority but belonging, held close and guarded with fierce love."
+      },
+      {
+        "ref": "Isaiah 41:8-10",
+        "note": "God calls Israel His servant, says He has chosen and not rejected her, and promises, \"Do not fear, for I am with you.\" The pairing of servant and chosen in Haggai belongs to this family of promises and carries the same assurance against the fear of rejection."
+      },
+      {
+        "ref": "Psalm 89:3-4",
+        "note": "The covenant oath to David, \"I will establish your offspring forever.\" Haggai 2:23 is a word to a descendant of that David in a time when the psalm's later verses, 89:38-39, had seemed to be the last word."
+      }
     ],
-    "oneStory": "Haggai ends by guarding the flame of the Davidic promise. God will overturn the kingdoms of the world, but He secures the line of David in Zerubbabel, His chosen signet ring, reversing an earlier curse and keeping the royal hope alive through fragile years. The line runs on to Jesus, the chosen Servant and everlasting King, whose kingdom cannot be shaken and stands when every earthly throne has fallen.",
-    "sermon": { "status": "verified", "preacher": "David Legge", "title": "His Day Will Come (Haggai Part 4)", "url": "https://www.preachtheword.com/sermon/hag04.shtml", "why": "The closing message of Legge's expository series Majoring On The Minors: Haggai, covering Haggai 2:20-23, the shaking of the nations and the promise to Zerubbabel as God's signet ring, tracing the reversal of the curse on Jehoiachin and the line to Christ. A sound, orthodox exposition of this passage." }
+    "oneStory": "Genesis 3:15 promised a seed who would crush the serpent, and the rest of the Old Testament follows that seed as it narrows to Abraham, to Judah, to David. At every step the line seems about to be cut. Haggai 2:23 is one of those moments, and it is among the most fragile. The temple lies in ruins, the king is a captive's grandson, the throne has stood empty for decades and Persia rules the world. The oracle says the seed is still held.\n\nThe story behind it is a long story of kings. Saul and David and Solomon show what a king might be, and Israel's kings repeatedly show what a king should not be. Jehoiachin was the last in the line to wear the crown, and Jeremiah's verdict on him was the end of the monarchy as Israel had known it. The remainder of the Old Testament turns therefore to the question of who will sit on that throne. Ezekiel 34:23-24 promises \"My servant David\" as shepherd and prince, and Ezekiel 37:24-25 says the same. Zechariah's Branch is the next form of the answer. Haggai's signet is a link between the promise to David and the Branch.\n\nThe New Testament answers the question with a name. Jesus is born into the line and born under the law, Galatians 4:4, and the angel promises that He will reign on David's throne forever, Luke 1:32-33. In Him the signet is no longer worn by a governor of a Persian province but by the King at God's right hand. The shaking that Haggai announces becomes the shaking Hebrews describes: what is made falls away, and the kingdom that cannot be shaken remains.\n\nThe new creation completes the picture. Revelation 5:5 introduces \"the Root of David\" as the Lion who has triumphed, Revelation 11:15 hears loud voices saying that the kingdom of the world has become the kingdom of our Lord and of His Christ, and Revelation 22:16 closes the book with Jesus naming Himself the Root and Offspring of David. Every empire that Haggai watched rise and fall is behind us. The people of the signet are sealed with the Spirit, Ephesians 1:13, and wait for the day when the One who bears God's own seal reigns and the earth is no longer shaken.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "David Legge",
+      "title": "His Day Will Come (Haggai Part 4)",
+      "url": "https://www.preachtheword.com/sermon/hag04.shtml",
+      "why": "The closing message of Legge's expository series Majoring On The Minors: Haggai, covering Haggai 2:20-23, the shaking of the nations and the promise to Zerubbabel as God's signet ring, tracing the reversal of the curse on Jehoiachin and the line to Christ. A sound, orthodox exposition of this passage."
+    }
   },
   "quiz": [
     {
       "q": "What does God announce He will do to the kingdoms of the nations?",
       "options": [
-        { "text": "Shake the heavens and earth and overturn royal thrones and the power of the nations.", "weight": 100, "note": "Verses 21-22 describe God shaking creation and toppling the kingdoms." },
-        { "text": "Leave the great empires untouched and permanent.", "weight": 75, "note": "The opposite: God declares He will overturn even the mightiest thrones." },
-        { "text": "Hand permanent control of the world to Persia.", "weight": 25, "note": "God shows every earthly power to be provisional under His hand." },
-        { "text": "Destroy only Judah's local enemies.", "weight": 0, "note": "The scope is cosmic and universal, the kingdoms of the nations." }
+        {
+          "text": "Shake the heavens and earth and overturn royal thrones and the power of the nations.",
+          "weight": 100,
+          "note": "Verses 21-22 describe God shaking creation and toppling the kingdoms."
+        },
+        {
+          "text": "Leave the great empires untouched and permanent.",
+          "weight": 75,
+          "note": "The opposite: God declares He will overturn even the mightiest thrones."
+        },
+        {
+          "text": "Hand permanent control of the world to Persia.",
+          "weight": 25,
+          "note": "God shows every earthly power to be provisional under His hand."
+        },
+        {
+          "text": "Destroy only Judah's local enemies.",
+          "weight": 0,
+          "note": "The scope is cosmic and universal, the kingdoms of the nations."
+        }
       ]
     },
     {
       "q": "What does it mean that God will make Zerubbabel like His signet ring?",
       "options": [
-        { "text": "He will be God's honored, authorized representative, precious and secure, reversing the curse on his family line.", "weight": 100, "note": "The signet promise deliberately reverses Jeremiah 22:24 over Jehoiachin's house." },
-        { "text": "He will simply be given a piece of expensive jewelry.", "weight": 75, "note": "The signet is a symbol of royal authority and favor, not merely an ornament." },
-        { "text": "He will personally become the greatest emperor on earth.", "weight": 25, "note": "Zerubbabel never reigned as king; he carries the line toward the true King." },
-        { "text": "He will be rejected and cast aside by God.", "weight": 0, "note": "The opposite: he is chosen and secured, reversing an earlier rejection." }
+        {
+          "text": "He will be God's honored, authorized representative, precious and secure, reversing the curse on his family line.",
+          "weight": 100,
+          "note": "The signet promise deliberately reverses Jeremiah 22:24 over Jehoiachin's house."
+        },
+        {
+          "text": "He will simply be given a piece of expensive jewelry.",
+          "weight": 75,
+          "note": "The signet is a symbol of royal authority and favor, not merely an ornament."
+        },
+        {
+          "text": "He will personally become the greatest emperor on earth.",
+          "weight": 25,
+          "note": "Zerubbabel never reigned as king; he carries the line toward the true King."
+        },
+        {
+          "text": "He will be rejected and cast aside by God.",
+          "weight": 0,
+          "note": "The opposite: he is chosen and secured, reversing an earlier rejection."
+        }
       ]
     },
     {
       "q": "Why does this promise matter for the coming of Christ?",
       "options": [
-        { "text": "It revives David's line, and Zerubbabel appears in the genealogy of Jesus the Messiah.", "weight": 100, "note": "Matthew 1 and Luke 3 list Zerubbabel; the signet promise keeps the messianic hope alive." },
-        { "text": "It has no bearing on Jesus at all.", "weight": 75, "note": "In fact it directly preserves the royal line that leads to Christ." },
-        { "text": "It proves Zerubbabel himself was the Messiah.", "weight": 25, "note": "Zerubbabel points to the Messiah; he is not himself the promised King." },
-        { "text": "It cancels God's covenant with David.", "weight": 0, "note": "It renews the Davidic covenant rather than canceling it." }
+        {
+          "text": "It revives David's line, and Zerubbabel appears in the genealogy of Jesus the Messiah.",
+          "weight": 100,
+          "note": "Matthew 1 and Luke 3 list Zerubbabel; the signet promise keeps the messianic hope alive."
+        },
+        {
+          "text": "It has no bearing on Jesus at all.",
+          "weight": 75,
+          "note": "In fact it directly preserves the royal line that leads to Christ."
+        },
+        {
+          "text": "It proves Zerubbabel himself was the Messiah.",
+          "weight": 25,
+          "note": "Zerubbabel points to the Messiah; he is not himself the promised King."
+        },
+        {
+          "text": "It cancels God's covenant with David.",
+          "weight": 0,
+          "note": "It renews the Davidic covenant rather than canceling it."
+        }
       ]
     },
     {
       "q": "What is the ground of Zerubbabel's honor in this promise?",
       "options": [
-        { "text": "God's own choice: for I have chosen you.", "weight": 100, "note": "Verse 23 rests everything on God's electing love, not human merit." },
-        { "text": "Zerubbabel's military strength and conquests.", "weight": 75, "note": "The promise rests on God's choice, not on Zerubbabel's power." },
-        { "text": "The wealth Zerubbabel had accumulated.", "weight": 25, "note": "Nothing is said of wealth; the ground is God choosing him." },
-        { "text": "The people's vote of confidence in him.", "weight": 0, "note": "It is God who chooses and secures him, not popular support." }
+        {
+          "text": "God's own choice: for I have chosen you.",
+          "weight": 100,
+          "note": "Verse 23 rests everything on God's electing love, not human merit."
+        },
+        {
+          "text": "Zerubbabel's military strength and conquests.",
+          "weight": 75,
+          "note": "The promise rests on God's choice, not on Zerubbabel's power."
+        },
+        {
+          "text": "The wealth Zerubbabel had accumulated.",
+          "weight": 25,
+          "note": "Nothing is said of wealth; the ground is God choosing him."
+        },
+        {
+          "text": "The people's vote of confidence in him.",
+          "weight": 0,
+          "note": "It is God who chooses and secures him, not popular support."
+        }
       ]
     },
     {
       "q": "What does this closing oracle reveal about God?",
       "options": [
-        { "text": "He is sovereign over the rise and fall of empires, yet He chooses and secures a single servant to carry His purposes.", "weight": 100, "note": "God shakes the nations and treasures His chosen servant, joining vast power to personal choice." },
-        { "text": "He is powerful but indifferent to individual people.", "weight": 75, "note": "He shakes the nations, yet He names and treasures one servant by choice." },
-        { "text": "He is limited by the strength of earthly kingdoms.", "weight": 25, "note": "He overturns those kingdoms; they do not limit Him." },
-        { "text": "He has abandoned His covenant with David.", "weight": 0, "note": "He renews the Davidic hope, carrying it forward to Christ." }
+        {
+          "text": "He is sovereign over the rise and fall of empires, yet He chooses and secures a single servant to carry His purposes.",
+          "weight": 100,
+          "note": "God shakes the nations and treasures His chosen servant, joining vast power to personal choice."
+        },
+        {
+          "text": "He is powerful but indifferent to individual people.",
+          "weight": 75,
+          "note": "He shakes the nations, yet He names and treasures one servant by choice."
+        },
+        {
+          "text": "He is limited by the strength of earthly kingdoms.",
+          "weight": 25,
+          "note": "He overturns those kingdoms; they do not limit Him."
+        },
+        {
+          "text": "He has abandoned His covenant with David.",
+          "weight": 0,
+          "note": "He renews the Davidic hope, carrying it forward to Christ."
+        }
       ]
     }
   ],
@@ -151,9 +366,21 @@
     "Zerubbabel points forward to Jesus, the chosen King whose throne cannot be shaken. How does belonging to that unshakable kingdom shape the way you face an uncertain world?"
   ],
   "translationNotes": [
-    { "ref": "Haggai 2:22", "note": "Overturn renders haphak, the verb used of the overthrow of Sodom; God topples thrones and armies so that they fall by mutual slaughter, each by the sword of his brother." },
-    { "ref": "Haggai 2:23", "note": "Signet ring renders chotam, a seal of royal authority; the promise pointedly reverses Jeremiah 22:24, where Jehoiachin was cast off like a signet ring in judgment." },
-    { "ref": "Haggai 2:23", "note": "My servant and I have chosen you are covenant terms tied to David and to the Servant of the LORD, marking the messianic trajectory fulfilled in Christ." }
+    {
+      "ref": "Haggai 2:22",
+      "note": "Overturn renders haphak, the verb used of the overthrow of Sodom; God topples thrones and armies so that they fall by mutual slaughter, each by the sword of his brother."
+    },
+    {
+      "ref": "Haggai 2:23",
+      "note": "Signet ring renders chotam, a seal of royal authority; the promise pointedly reverses Jeremiah 22:24, where Jehoiachin was cast off like a signet ring in judgment."
+    },
+    {
+      "ref": "Haggai 2:23",
+      "note": "My servant and I have chosen you are covenant terms tied to David and to the Servant of the LORD, marking the messianic trajectory fulfilled in Christ."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Haggai 2:20-23. All 4 verses reproduced in order." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Haggai 2:20-23. All 4 verses reproduced in order."
+  }
 }

@@ -18,9 +18,21 @@
         "note": "a brand snatched from the fire",
         "emphasis": "",
         "verses": [
-          { "chapter": 3, "n": 1, "text": "Then the angel showed me Joshua the high priest standing before the angel of the LORD, with {{satan|Satan}} standing at his right hand to accuse him." },
-          { "chapter": 3, "n": 2, "text": "And the LORD said to Satan: “The LORD rebukes you, Satan! Indeed, the LORD, who has chosen Jerusalem, rebukes you! Is not this man a firebrand snatched from the fire?”" },
-          { "chapter": 3, "n": 3, "text": "Now Joshua was dressed in filthy garments as he stood before the angel." }
+          {
+            "chapter": 3,
+            "n": 1,
+            "text": "Then the angel showed me Joshua the high priest standing before the angel of the LORD, with {{satan|Satan}} standing at his right hand to accuse him."
+          },
+          {
+            "chapter": 3,
+            "n": 2,
+            "text": "And the LORD said to Satan: “The LORD rebukes you, Satan! Indeed, the LORD, who has chosen Jerusalem, rebukes you! Is not this man a firebrand snatched from the fire?”"
+          },
+          {
+            "chapter": 3,
+            "n": 3,
+            "text": "Now Joshua was dressed in filthy garments as he stood before the angel."
+          }
         ]
       },
       {
@@ -28,8 +40,16 @@
         "note": "clean garments for the priest",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 3, "n": 4, "text": "So the angel said to those standing before him, “Take off his {{tso'im|filthy}} clothes!” Then he said to Joshua, “See, I have removed your iniquity, and I will clothe you with splendid robes.”" },
-          { "chapter": 3, "n": 5, "text": "Then I said, “Let them put a clean turban on his head.” So a clean turban was placed on his head, and they clothed him, as the angel of the LORD stood by." }
+          {
+            "chapter": 3,
+            "n": 4,
+            "text": "So the angel said to those standing before him, “Take off his {{tso'im|filthy}} clothes!” Then he said to Joshua, “See, I have removed your iniquity, and I will clothe you with splendid robes.”"
+          },
+          {
+            "chapter": 3,
+            "n": 5,
+            "text": "Then I said, “Let them put a clean turban on his head.” So a clean turban was placed on his head, and they clothed him, as the angel of the LORD stood by."
+          }
         ]
       },
       {
@@ -37,19 +57,54 @@
         "note": "iniquity removed in a single day",
         "emphasis": "",
         "verses": [
-          { "chapter": 3, "n": 6, "text": "Then the angel of the LORD gave this charge to Joshua:" },
-          { "chapter": 3, "n": 7, "text": "“This is what the LORD of Hosts says: ‘If you walk in My ways and keep My instructions, then you will govern My house and will also have charge of My courts; and I will give you a place among these who are standing here." },
-          { "chapter": 3, "n": 8, "text": "Hear now, O high priest Joshua, you and your companions seated before you, who are indeed a sign. For behold, I am going to bring My servant, the {{tsemach|Branch}}." },
-          { "chapter": 3, "n": 9, "text": "See the stone I have set before Joshua; on that one stone are seven eyes. Behold, I will engrave on it an inscription, declares the LORD of Hosts, and I will remove the iniquity of this land in a single day." },
-          { "chapter": 3, "n": 10, "text": "On that day, declares the LORD of Hosts, you will each invite your neighbor to sit under your own vine and fig tree.’”" }
+          {
+            "chapter": 3,
+            "n": 6,
+            "text": "Then the angel of the LORD gave this charge to Joshua:"
+          },
+          {
+            "chapter": 3,
+            "n": 7,
+            "text": "“This is what the LORD of Hosts says: ‘If you walk in My ways and keep My instructions, then you will govern My house and will also have charge of My courts; and I will give you a place among these who are standing here."
+          },
+          {
+            "chapter": 3,
+            "n": 8,
+            "text": "Hear now, O high priest Joshua, you and your companions seated before you, who are indeed a sign. For behold, I am going to bring My servant, the {{tsemach|Branch}}."
+          },
+          {
+            "chapter": 3,
+            "n": 9,
+            "text": "See the stone I have set before Joshua; on that one stone are seven eyes. Behold, I will engrave on it an inscription, declares the LORD of Hosts, and I will remove the iniquity of this land in a single day."
+          },
+          {
+            "chapter": 3,
+            "n": 10,
+            "text": "On that day, declares the LORD of Hosts, you will each invite your neighbor to sit under your own vine and fig tree.’”"
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "satan": { "language": "Hebrew", "lemma": "satan", "original": "שטן", "gloss": "The accuser or adversary, literally the one who opposes in a legal sense, as at a trial. He stands at Joshua's right hand to press charges. The New Testament names him the accuser of the brethren who accuses them day and night, and shows him silenced by the blood of the Lamb." },
-    "tso'im": { "language": "Hebrew", "lemma": "tso'im", "original": "צואים", "gloss": "Filthy, soiled, the strongest word for defilement, used of excrement-stained garments. Joshua's filthy clothes picture the guilt and uncleanness of the priest and the people he represents. That God strips them off and reclothes him is a vivid picture of sin removed and righteousness given." },
-    "tsemach": { "language": "Hebrew", "lemma": "tsemach", "original": "צמח", "gloss": "A sprout, shoot, or branch that grows up from a stump or root. It becomes a messianic title for the coming Davidic King, the Branch who will build the temple and reign. Jeremiah calls Him the righteous Branch; Zechariah names Him My servant, the Branch, God's chosen priest-king." }
+    "satan": {
+      "language": "Hebrew",
+      "lemma": "satan",
+      "original": "שטן",
+      "gloss": "The accuser or adversary, literally the one who opposes in a legal sense, as at a trial. He stands at Joshua's right hand to press charges. The New Testament names him the accuser of the brethren who accuses them day and night, and shows him silenced by the blood of the Lamb."
+    },
+    "tso'im": {
+      "language": "Hebrew",
+      "lemma": "tso'im",
+      "original": "צואים",
+      "gloss": "Filthy, soiled, the strongest word for defilement, used of excrement-stained garments. Joshua's filthy clothes picture the guilt and uncleanness of the priest and the people he represents. That God strips them off and reclothes him is a vivid picture of sin removed and righteousness given."
+    },
+    "tsemach": {
+      "language": "Hebrew",
+      "lemma": "tsemach",
+      "original": "צמח",
+      "gloss": "A sprout, shoot, or branch that grows up from a stump or root. It becomes a messianic title for the coming Davidic King, the Branch who will build the temple and reign. Jeremiah calls Him the righteous Branch; Zechariah names Him My servant, the Branch, God's chosen priest-king."
+    }
   },
   "study": {
     "basic": {
@@ -63,93 +118,262 @@
       "oneStory": "The fourth vision shows God justifying a guilty priest, silencing the accuser and clothing him in splendor, then pointing to the Branch who removes the land's sin in a single day. This is the gospel in shadow, fulfilled at the cross, and it carries the story forward to the day God's people stand clean before Him."
     },
     "context": {
-      "literary": "The fourth and central-turning vision, distinct in form: instead of Zechariah asking questions, he watches a courtroom drama unfold, then hears an oracle. It pairs closely with the fifth vision of the lampstand in chapter 4, together addressing the two leaders of the restoration, Joshua the priest and Zerubbabel the governor. The vision moves from accusation to cleansing to the promise of the Branch, deepening from a personal pardon to the removal of the whole land's iniquity.",
-      "historical": "Joshua son of Jehozadak was the actual high priest of the returned community, serving alongside the governor Zerubbabel as the temple was being rebuilt. A priesthood freshly emerged from exile, ministering in a half-built temple, might well feel unworthy and defiled, and hostile neighbors were accusing the community before Persian authorities. The vision assures the priest and people that God has cleansed them for service.",
-      "canonical": "The scene draws on the Day of Atonement imagery of the high priest, filthy garments, and cleansing, and on the courtroom picture of the accuser found in Job and echoed in Revelation. The Branch title links back to Isaiah and Jeremiah and forward to Zechariah 6, where the Branch is crowned as priest-king. The removal of iniquity in a single day anticipates the once-for-all atonement of Hebrews."
+      "literary": "The fourth vision is built like a trial, with an accused, an accuser and a judge, and then it changes into a ceremony of investiture. The order is the surprise. Verse 1 names the defendant and the accuser, verse 2 gives the verdict, and only in verse 3 does the narrator tell us what Joshua is wearing. The LORD's rebuke of the accuser comes before the evidence is described, so the ground of the acquittal cannot be the state of the defendant's clothing. It rests on the LORD's choice: 'the LORD, who has chosen Jerusalem, rebukes you.'\n\nThe scene then moves in three beats. Verses 4 and 5 are action: the filthy clothes come off, the word of pardon is spoken, and a clean turban and robes go on. Verses 6 and 7 are a charge with a conditional, 'if you walk in My ways.' Verses 8 to 10 are a promise that outruns Joshua, introducing the Branch, the stone and the single day. The prophet himself steps into the scene in verse 5, 'Then I said, \"Let them put a clean turban on his head,\"' a rare moment in the night visions when Zechariah acts and does not only watch. The vision invites the seer to share God's mind about the sinner.\n\nThe speakers blur in a way familiar from earlier Scripture. The 'angel of the LORD' in verse 1 is called simply 'the LORD' in verse 2, and the one who says 'I have removed your iniquity' in verse 4 is the same figure. Joshua's 'companions' in verse 8 are priests seated in front of him, who are called 'a sign,' so the whole priesthood becomes a pointer to something yet to come.\n\nChapter 3 pairs with chapter 4. Together they supply the priest and the governor, and Zechariah 6:9 to 15 will bring them together again when Joshua is crowned and the word 'Branch' is attached to a man.",
+      "historical": "Joshua had a painful family history. His grandfather Seraiah, the chief priest, was taken from the burning city by the Babylonians and put to death at Riblah (2 Kings 25:18 to 21), and his father Jehozadak went into exile (1 Chronicles 6:14 and 6:15). Joshua was therefore a child of the exile, a man who knew the word 'firebrand' from his own family: a stick pulled from the fire with the marks of it. When the first returnees built the altar, he was the priest at their head (Ezra 3:2), and in 520 BC the word of the LORD came to him and to Zerubbabel through Haggai (Haggai 1:1).\n\nDefilement was a live issue. Only two months before Zechariah's night visions, Haggai had asked the priests for a ruling and concluded that the people and all that they offered were unclean (Haggai 2:10 to 14). A priesthood that has ministered in a ruined city, in a land of exile, and at an altar built on rubble would quite reasonably wonder whether it could stand before God.\n\nThere was also a human accuser. The enemies of the returned community kept up a campaign against them with the Persian officials. Ezra 4:6 records that 'an accusation was lodged against the people of Judah and Jerusalem,' and Ezra 5 shows a provincial governor questioning the rebuilding. The noun behind 'accusation' in Ezra 4:6 shares its root with the title Satan. The vision gives the community a glimpse of the heavenly reality behind the earthly opposition.\n\nThe high priest's dress mattered. Exodus 28 describes the garments, the turban and the gold plate engraved 'HOLY TO THE LORD,' and on the Day of Atonement the high priest laid aside his splendid clothes for plain linen before entering the Most Holy Place (Leviticus 16:4 and 16:23). A priest in filthy clothes could not serve at all.",
+      "canonical": "Satan appears here as the accuser, a role the Old Testament shows him in on other occasions. In Job 1:6 he comes among the sons of God to present himself before the LORD, and challenges Job's motives (Job 1:9 to 11), and the LORD permits him only within limits (Job 1:12). In Psalm 109:6 the wicked man's accuser stands at the right hand, as in Zechariah 3:1. In 1 Chronicles 21:1 he incites David. The New Testament extends the picture: Jesus tells Peter that Satan has asked to sift the disciples (Luke 22:31), and Revelation 12:10 calls him 'the accuser of our brothers,' who accuses them day and night before our God. Jude 9 recalls that Michael, in dispute with the devil, did not presume to bring a charge but said, 'The Lord rebuke you!', which closely echoes Zechariah 3:2.\n\nThe clothing motif is one of the Bible's steadiest. God clothes Adam and Eve after their own coverings fail (Genesis 3:7 and 3:21). Isaiah says that even 'our righteous acts are like filthy rags' (Isaiah 64:6) and then speaks of 'garments of salvation' and 'a robe of righteousness' (Isaiah 61:10). In Revelation the redeemed wear white, washed 'in the blood of the Lamb' (Revelation 7:14), and the fine linen of the bride 'is the righteous acts of the saints' (Revelation 19:8).\n\nThe title Branch begins in Isaiah 4:2 and Jeremiah 23:5 and 23:6, and is applied to a man in Zechariah 6:12. The picture of each man under his own vine and fig tree comes from Solomon's reign (1 Kings 4:25) and from Micah 4:4, where it is the sign of the age of peace."
     },
     "hermeneutics": {
-      "authorIntent": "To assure the high priest and the whole community, through this courtroom vision, that God has silenced their accuser, removed their guilt, and clothed them for holy service, and to fix their hope on the coming servant, the Branch, and the day when God will remove the land's iniquity once for all.",
-      "descriptionVsPrescription": "The vision describes God's gracious act of cleansing and His promise of the Branch; the condition in verse 7, if you walk in My ways, is a real call to faithful obedience that flows from the cleansing already given. The abiding truths are justification by God's grace, the silencing of the accuser, and the coming of the Messiah.",
+      "authorIntent": "Zechariah wrote for a priesthood and a people who had good reason to feel unfit. Haggai had told them that their works were unclean; their enemies were accusing them; their leader's family had been scarred by the destruction of Jerusalem. The vision's first purpose is to tell them that unworthiness is not the last word, and that the way it will be dealt with is God's initiative from first to last. He rebukes, He removes, He clothes. The priest does nothing but stand there.\n\nThe second purpose is to restore the priesthood to its work. The cleansing of verse 4 is not an end in itself; the charge of verse 7 follows at once, giving Joshua authority over the house and its courts and 'a place among these who are standing here,' that is, access to the heavenly council. A cleansed man is a commissioned one. The community is to understand that the temple they are building will be served by a priest who has been pardoned by God.\n\nThe third purpose is to turn their eyes forward. Joshua and his fellow priests are 'a sign' (verse 8), an acted promise that God will bring a greater servant. The cleansing of one man in one scene is a pledge that the whole land will be cleansed 'in a single day.' The hope of verse 10, neighbours inviting one another to sit under vine and fig tree, is the kind of peace that comes only when guilt has been removed.",
+      "descriptionVsPrescription": "The scene records what God did for Joshua on a particular night; it does not set out a ritual to be repeated. The believer is not asked to look for a literal change of clothes or to confront the accuser. Jude 9 is a useful guard here: even the archangel Michael did not rebuke the devil on his own authority but said, 'The Lord rebuke you!' The rebuke in Zechariah 3:2 is the LORD's own, and the vision shows the proper place to take an accusation.\n\nThe conditional in verse 7 is addressed to Joshua as high priest and concerns his authority over the house and his access among the attendants. It is not a statement that pardon must be earned by good conduct, since the pardon of verse 4 has already been spoken. What it teaches is the pattern that obedience follows forgiveness and flows from it.\n\nThe final promise of vine and fig tree describes the peace that comes with the Branch. It is not a guarantee of private property or comfort to individual readers now. It carries forward as hope for the age when sin is gone, and as an invitation, since the verse pictures neighbours inviting neighbours.",
       "debates": [
         {
           "question": "What is the stone with seven eyes set before Joshua?",
           "views": [
-            { "label": "A messianic symbol tied to the Branch and the cornerstone", "case": "The stone stands alongside the Branch as a picture of the Messiah, the tested cornerstone of Isaiah 28 and the stone the builders rejected, on whom God's full sight, the seven eyes, rests." },
-            { "label": "A symbol of the temple, the community, or God's watchful care", "case": "Others read the stone as the foundation or capstone of the rebuilt temple, or the seven eyes as God's all-seeing providence over the work, later linked to the seven eyes that scan the whole earth in 4:10." }
+            {
+              "label": "A messianic symbol tied to the Branch and the cornerstone",
+              "case": "The stone stands alongside the Branch as a picture of the Messiah, the tested cornerstone of Isaiah 28:16 and the stone the builders rejected. Peter calls Christ 'the living stone, rejected by men but chosen and precious in God's sight' (1 Peter 2:4). In Revelation 5:6 the Lamb has seven eyes, which represent 'the seven Spirits of God sent out into all the earth.'"
+            },
+            {
+              "label": "A symbol of the temple, the community, or God's watchful care",
+              "case": "Others read the stone as the foundation or capstone of the rebuilt temple, in line with Zechariah 4:7 and 4:10, or the seven eyes as God's all-seeing providence over the work. The BSB footnote notes that 'eyes' may also be translated 'facets,' which suits a carved and inscribed stone."
+            }
           ],
-          "bearing": "Whatever the precise referent, the stone is bound to the promise of iniquity removed in a single day, so its meaning centers on God's provision for cleansing, which the New Testament sees fulfilled in Christ."
+          "bearing": "Whatever the precise referent, the stone is bound to the promise of iniquity removed in a single day, so its meaning centres on God's provision for cleansing, which the New Testament sees fulfilled in Christ."
         },
         {
-          "question": "How does the condition if you walk in My ways relate to the free cleansing already given?",
+          "question": "How does the condition 'if you walk in My ways' relate to the free cleansing already given?",
           "views": [
-            { "label": "Obedience flows from grace, not the reverse", "case": "God removes Joshua's iniquity and clothes him first, unconditionally; the charge to walk faithfully is the fruit and privilege of that cleansing, granting responsibility in God's house." },
-            { "label": "Continued privilege depends on faithful service", "case": "The specific privileges of governing God's house and having access among the heavenly attendants are held out as things to be entered by ongoing obedience." }
+            {
+              "label": "Obedience flows from grace, not the reverse",
+              "case": "God removes Joshua's iniquity and clothes him first, unconditionally; the charge to walk faithfully is the fruit and privilege of that cleansing, granting responsibility in God's house."
+            },
+            {
+              "label": "Continued privilege depends on faithful service",
+              "case": "The specific privileges of governing God's house and having access among the heavenly attendants are held out as things to be entered by ongoing obedience, as other priests lost their office through unfaithfulness."
+            }
           ],
           "bearing": "Both agree the cleansing itself is God's free gift; the debate concerns the role of the subsequent obedience, which Scripture treats as the response to grace, not its price."
+        },
+        {
+          "question": "Are the filthy garments Joshua's own sin or the people's?",
+          "views": [
+            {
+              "label": "The sin of the people, borne by their representative",
+              "case": "The high priest wore the plate on his forehead so that he might 'bear the iniquity of the holy things' (Exodus 28:38), and he stood before God for the nation. Joshua's garments would then stand for the guilt of the whole community that had come from exile."
+            },
+            {
+              "label": "Joshua's own sin, as one of them",
+              "case": "The text says 'your iniquity' to Joshua directly (verse 4), and the later record shows his family among those who married foreign women (Ezra 10:18). On this reading the priest is cleansed as a sinner in his own right."
+            }
+          ],
+          "bearing": "The text does not choose, and it need not. A priest who bears the people's guilt and has his own is cleansed on the same terms, and the vision shows God dealing with both the man and the office."
         }
       ]
     },
-    "originalLanguages": "The vision unfolds as a trial and turns on three words. At Joshua's right hand stands the satan, the accuser or adversary, the legal opponent who presses charges, later named the accuser of the brethren. Joshua is clothed in tso'im garments, the strongest Hebrew word for filthy, used of excrement-stained cloth, a stark picture of the guilt of priest and people. God does not dispute the filth; He removes it, declaring, I have removed your iniquity, and clothes Joshua in splendor. Then the oracle names the hope: God will bring His servant the tsemach, the Branch, the sprout from David's stump, a messianic title for the coming priest-king who will build the temple and reign. Bound to Him is the promise to remove the iniquity of this land in a single day, the one day the New Testament finds at the cross.",
+    "originalLanguages": "Several words in the passage carry more than English shows.\n\nStart with the rebuke. The verb ga'ar, 'rebukes,' is spoken twice in verse 2, and the second time it is attached to a reason: 'the LORD, who has chosen Jerusalem.' The verb bachar, 'to choose,' is the verb of election, and the ground of the rebuke is God's choice, not Joshua's innocence. The same verse calls Joshua a 'firebrand,' an ud, a burning stick. Amos 4:11 uses the same word for survivors of Sodom-like destruction who were 'like a firebrand snatched from a blaze.' The verb for 'snatched' is passive, so the one rescued did not escape; someone pulled him out.\n\n'I have removed your iniquity' in verse 4 uses the verb avar in its causative form, 'to cause to pass over or away.' It is the verb Nathan uses when David confesses: 'The LORD has taken away your sin' (2 Samuel 12:13). The pronouncement is in the perfect, 'I have removed,' so it is stated as a settled act before the new clothes are on. There is a pointed contrast with Exodus 28:38, where the high priest's plate is worn so that Aaron 'may bear the iniquity of the holy things.' The man whose office is to carry the people's guilt has his own taken from him.\n\nThe robes are called machalatsot, a word for festal clothing, which Isaiah 3:22 lists among the finery of Zion's daughters. The clean turban is a tsanif, and the priestly turban of Exodus 28 and 29 comes from the same root. So the garment Zechariah asks for belongs to the priestly office. The adjective he uses for it, tahor, is the ordinary word for ritually clean.\n\nIn verse 7 the BSB renders a rare noun as 'a place among these who are standing here.' It is built on the verb halakh, 'to walk,' and so it points to the freedom to walk among them. That fits the verse, in which the condition is to 'walk in My ways' and the reward is a place to walk among the attendants. Obedience and access share a root.\n\nIn verse 8 the priests are 'a sign,' mofet. The same word describes Isaiah and his children (Isaiah 8:18, 'signs and symbols in Israel') and, in Ezekiel, the prophet who acts out the coming exile. A mofet is a person or act that points beyond itself. Finally, the 'inscription' the LORD will engrave in verse 9 uses pittuach, the verb for the engraving of the gold plate in Exodus 28:36, 'engrave on it as on a seal.' A priestly inscription is being given to the stone.",
     "typology": [
-      { "type": "Filthy garments removed and splendid robes given", "fulfillment": "Justification in Christ, our sin taken away and His righteousness put on, Isaiah 61:10 and 2 Corinthians 5:21." },
-      { "type": "The accuser silenced by God's choice, not Joshua's merit", "fulfillment": "Satan the accuser overcome by the blood of the Lamb, so no charge stands against God's elect, Revelation 12:10-11 and Romans 8:33-34." },
-      { "type": "My servant, the Branch, and iniquity removed in a single day", "fulfillment": "Christ the Davidic priest-king who removes sin once for all on the day of the cross, Jeremiah 23:5-6 and Hebrews 10:10-14." }
+      {
+        "type": "Joshua the high priest, Zechariah 3:1",
+        "fulfillment": "The Septuagint renders Joshua's name 'Iesous,' the form of the name Jesus. The angel told Joseph to name the child Jesus 'because He will save His people from their sins' (Matthew 1:21), which is exactly the thing Joshua's namesake stands before God to receive. The correspondence is a priest in God's presence, interceding for a people. The escalation is that the new High Priest is 'holy, innocent, undefiled, set apart from sinners,' and 'does not need to offer daily sacrifices, first for His own sins' (Hebrews 7:26 and 7:27). The type fails at the point of Joshua's own filth."
+      },
+      {
+        "type": "Filthy garments exchanged for splendid robes, Zechariah 3:4",
+        "fulfillment": "Isaiah 61:10 speaks of garments of salvation, and Paul says believers 'have clothed yourselves with Christ' (Galatians 3:27) and that in Him we become 'the righteousness of God' (2 Corinthians 5:21). Paul longs to be found in Christ, 'not having my own righteousness from the law' (Philippians 3:9). The escalation is from a change of dress to a union with a person. The scene is silent about what the exchange costs, and Revelation 7:14, in which the robes are washed 'in the blood of the Lamb,' supplies what Zechariah leaves unsaid."
+      },
+      {
+        "type": "Iniquity removed in a single day, Zechariah 3:9",
+        "fulfillment": "The high priest's year turned on one day, the Day of Atonement, when atonement was made 'once a year' (Leviticus 16:34). The one day Zechariah promises is of a different order, since it removes the iniquity of the land. Hebrews says Christ 'entered the Most Holy Place once for all by His own blood, thus securing eternal redemption' (Hebrews 9:12) and that 'by a single offering He has made perfect for all time those who are being sanctified' (Hebrews 10:14). The annual rite is repeated; the single day is not."
+      },
+      {
+        "type": "The Branch, the servant and the stone, Zechariah 3:8 and 3:9",
+        "fulfillment": "The Branch (Isaiah 4:2; Jeremiah 23:5) is a Davidic king who will reign wisely, and 'My servant' recalls the suffering servant of Isaiah 53, who will 'justify many' by bearing their iniquities (Isaiah 53:11). Luke 1:78 says that 'the Dawn will visit us from on high,' using a Greek word the Septuagint uses for Branch. The stone becomes in Peter's language 'a chosen and precious cornerstone' (1 Peter 2:6). The type is fulfilled in the one who is both servant and king, and priest as well, as Zechariah 6:13 will say."
+      }
     ],
-    "christ": "Few Old Testament scenes preach the gospel as clearly as this one. Joshua stands guilty and defiled, the accuser at his side, and by every measure of justice he should be condemned. Instead God rebukes the accuser, strips off the filthy garments, and clothes him in splendor, saying, I have removed your iniquity. This is justification in picture: the guilty declared clean, not because the charges were false but because God Himself takes the guilt away and gives righteousness in its place, exactly what Christ accomplishes for the believer, who is made the righteousness of God in Him. The accuser is silenced not by Joshua's worth but by God's electing choice of Jerusalem, just as Satan is finally overcome by the blood of the Lamb. And the oracle names the one through whom it all holds: My servant, the Branch, the Davidic priest-king, and the promise to remove the iniquity of the land in a single day, fulfilled on the single day of Calvary when Christ put away sin once for all.",
-    "god": "This vision reveals God as the righteous Judge who justifies the ungodly. He is holy, and He does not pretend the filth away; the garments really are defiled, the sin really is there. Yet He is gracious beyond reckoning: He takes the initiative to silence the accuser, to remove the iniquity, and to clothe the guilty in splendor, all on the ground of His own choice rather than the priest's merit. He is a God who provides the very cleansing He requires, who fixes His people's hope on His coming servant the Branch, and who plans to deal with sin decisively and finally in a single day. Justice and mercy meet in Him, and the outcome is a cleansed people restored to holy service.",
+    "christ": "Start with the name. Joshua and Jesus are the same name in Hebrew, and the Septuagint writes Zechariah's Joshua as Iesous. A man who bears that name stands before God, accused, in garments that cannot bear inspection. The Gospel of Matthew begins by telling us that another Jesus will be born, and that He will save His people from their sins (Matthew 1:21). The gospel is not that a better Joshua replaces the old one but that the true Jeshua comes to do what the first could only stand for.\n\nWhat changes sides is the place of standing. Joshua is the accused, and the accuser stands at his right hand. The Psalms promise that the LORD 'stands at the right hand of the needy one, to save him from the condemners of his soul' (Psalm 109:31), and the New Testament puts Christ at the right hand of God, 'interceding for us' (Romans 8:34). Paul's answer to every charge is the reality behind this scene: 'It is God who justifies' (Romans 8:33). John adds that 'we have an advocate before the Father,' Jesus Christ the Righteous One (1 John 2:1). The defendant of Zechariah 3 has an advocate who is not himself, and the advocate does not argue that the clothes were clean.\n\nThe vision also says how God's justice is satisfied, though only in outline. Zechariah 3 shows the removal of iniquity but not its cost. Isaiah 53:11 supplies the means: God's 'righteous Servant will justify many, and He will bear their iniquities.' The Servant of Zechariah 3:8 is that Servant. Paul sums up the exchange: 'God made Him who knew no sin to be sin on our behalf, so that in Him we might become the righteousness of God' (2 Corinthians 5:21). Romans 4:5 describes the God who 'justifies the wicked.' Joshua's story is that verse in a picture.\n\nThe Branch is given three faces across the prophets. He is a king in Jeremiah 23:5, a servant here, and, in Zechariah 6:12 and 6:13, a man who builds the temple and 'will be a priest on His throne.' No Old Testament figure holds all three offices, and the New Testament shows Jesus holding them. The stone with seven eyes is less clear, but Peter calls Jesus the living stone, and the Lamb of Revelation 5:6 has seven eyes.\n\nThe 'single day' is the cross. John the Baptist says, 'Look, the Lamb of God, who takes away the sin of the world!' (John 1:29), and Hebrews sets the single sacrifice against the daily and yearly offerings of the old priests (Hebrews 10:11 to 14). The fountain of Zechariah 13:1, opened 'to cleanse them from sin and impurity,' continues the same theme.\n\nA caution helps. Joshua is not simply a picture of Christ: his filth is real and Christ's is not. And the debated stone should not be forced. The central link is the pardon and the Servant, and these are secure.",
+    "god": "The passage shows God as a judge who is also the defender of the accused. In the heavenly court of this scene, the LORD does not wait for the prosecution to finish. He speaks first, and His rebuke of the accuser is grounded in something outside the defendant: 'the LORD, who has chosen Jerusalem.' His election is older than the accusation, and it cannot be dislodged by anything Satan can truthfully say about Joshua. This is a God whose commitments are not renegotiated by the failings of those He has chosen.\n\nHe is also holy, and the passage does not hide it. Joshua cannot stand before God in filthy clothes; the garments must come off. The pardon is not a way of ignoring the stain. Revelation 21:27 remarks that nothing unclean will ever enter the city of God, and Zechariah 3 shows how a person who is unclean can nevertheless be brought in. God removes the iniquity, and the new clothes are given. Holiness and mercy are not set against each other here; the mercy is the way holiness gets what it requires.\n\nHis sovereignty over the accuser is quietly displayed. Satan 'stands' where the LORD allows him to stand, and he is silenced by a word. Job 1:12 shows the same restraint, with Satan permitted to go only as far as the LORD lets him. The adversary is real and active, but he is not a rival power; he appears as a creature under rebuke.\n\nHe invites participation. In verse 5 the prophet, who has been watching, speaks up and asks for a clean turban, and the request is granted. God lets His servant add to the scene because the heart of the scene is something Zechariah can share. In the same way, the commission to Joshua in verse 7 puts real responsibility on a man whom God has just pardoned. God's grace does not make people passive.\n\nHe plans ahead. The promise of the servant, the stone and the single day shows a God who is not improvising. He does not rest content with cleansing one priest on one night; He announces that He will bring a servant and remove the iniquity of a whole land. The details are left for later, but the purpose is clear, and the pledge is God's own: 'I will remove the iniquity of this land.'\n\nHe delights in the peace that results. The final verse pictures people inviting their neighbours to sit under vine and fig tree, an image of safety and friendship. The God who deals with sin does so in order to bring His people into rest.\n\nFor worship, the passage shapes confession and assurance together. We need not deny our filth, since the LORD does not, and we need not live under accusation, since He has spoken.",
     "crossReferences": [
-      { "ref": "Isaiah 61:10", "note": "God clothes His people with garments of salvation and a robe of righteousness, the reality behind Joshua's splendid robes." },
-      { "ref": "Revelation 12:10-11", "note": "Satan the accuser is thrown down and overcome by the blood of the Lamb, fulfilling the LORD rebukes you, Satan." },
-      { "ref": "Jeremiah 23:5-6", "note": "The LORD will raise up for David a righteous Branch who will reign, the messianic title Zechariah uses here." },
-      { "ref": "Hebrews 10:11-14", "note": "By a single offering Christ has perfected for all time those being sanctified, fulfilling iniquity removed in a single day." }
+      {
+        "ref": "Job 1:6-12",
+        "note": "Satan comes before the LORD among the sons of God, makes his accusation against Job, and is permitted to act only within a boundary that the LORD sets. The scene is the clearest Old Testament parallel to Zechariah 3:1, with the accuser in the heavenly court and under the LORD's control."
+      },
+      {
+        "ref": "Amos 4:11",
+        "note": "The LORD says that some of His people were 'like a firebrand snatched from a blaze, yet you did not return to Me.' It uses the same image as Zechariah 3:2 but with a sorrowful ending. Joshua is saved from the fire and returns, which is the hope the Amos verse says was missed."
+      },
+      {
+        "ref": "2 Samuel 12:13",
+        "note": "When David confesses, Nathan answers, 'The LORD has taken away your sin.' The verb is the one Zechariah 3:4 uses for iniquity removed. Both are spoken after a sinner stands exposed and both give the forgiveness as a gift of God, with no condition spoken first."
+      },
+      {
+        "ref": "Exodus 28:36-38",
+        "note": "The high priest wears a gold plate engraved 'HOLY TO THE LORD' on his forehead so that he may 'bear the iniquity of the holy things.' The priest's office is to carry guilt, which makes it striking that Joshua's own iniquity has to be removed first, and that the stone in Zechariah 3:9 is also to be engraved."
+      },
+      {
+        "ref": "Isaiah 64:6",
+        "note": "'All our righteous acts are like filthy rags.' This confession from the exile states the condition that Joshua's clothes picture, and it explains why the pardon has to come from outside. A people with such garments cannot dress themselves."
+      },
+      {
+        "ref": "Haggai 2:10-14",
+        "note": "Haggai asks the priests whether uncleanness spreads by touch, and concludes that the people and all that they offer are defiled. This oracle came in the ninth month of the second year of Darius, and the vision of Joshua comes two months later as God's reply to the problem."
+      },
+      {
+        "ref": "Jude 1:9",
+        "note": "Michael, disputing with the devil, 'did not presume to bring a slanderous charge against him, but said, \"The Lord rebuke you!\"' Jude takes the words of Zechariah 3:2 as the right response to the adversary, which is to appeal to the Lord and not to argue in one's own strength."
+      },
+      {
+        "ref": "Zechariah 6:11-13",
+        "note": "Joshua is crowned, and a prophecy follows about a man whose name is the Branch, who will build the temple and 'be a priest on His throne.' This is the sequel to chapter 3, in which the title is attached to a man who unites priest and king."
+      },
+      {
+        "ref": "Romans 8:33-34",
+        "note": "'It is God who justifies.' Paul's reply to every accuser has the same shape as Zechariah 3. It rests on God's verdict, and it adds the work of Christ, who died, was raised, and now intercedes at God's right hand."
+      },
+      {
+        "ref": "Hebrews 7:26-27",
+        "note": "The high priest who 'truly befits us' is holy, undefiled and has no need to sacrifice for his own sins first. This is the point at which Joshua's story is surpassed. Zechariah's high priest needed cleansing, and the High Priest of Hebrews does not."
+      },
+      {
+        "ref": "Revelation 7:13-14",
+        "note": "The multitude in white robes 'have washed their robes and made them white in the blood of the Lamb.' This is the fullest answer to Zechariah 3:4, because it tells what the clean robes cost, which the vision leaves unstated."
+      },
+      {
+        "ref": "Micah 4:4",
+        "note": "'Each man will sit under his own vine and under his own fig tree, with no one to frighten him.' Micah's picture of peace is the one Zechariah 3:10 closes with, so that the final image of the vision is a community at rest after sin has been dealt with."
+      }
     ],
-    "oneStory": "The fourth night vision stages the gospel centuries before the cross: a guilty priest, an accuser, and a holy God who removes the filth, silences the charge, clothes the sinner in splendor, and promises to take away the land's iniquity in a single day through His servant the Branch. The scene runs straight to Christ, in whom our filthy garments are exchanged for His righteousness and sin is dealt with once for all at Calvary, carrying the story on toward the day God's cleansed people rest secure under vine and fig tree.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "The Bible's story opens with a man and a woman who feel their nakedness for the first time and sew fig leaves to cover it (Genesis 3:7), and then with a God who makes garments of skin and clothes them (Genesis 3:21). Between those two verses an accuser has already done his work, and the guilty have already learned to hide. Zechariah 3 is a late scene in the same drama, and it replays the order: an accuser, a stained person, a covering supplied by God.\n\nWithin the story of Israel the priest is the one who stands between a holy God and a sinful people. When the priest himself stands before God in filthy garments, the whole arrangement seems to have collapsed. That is the fear of the returned exiles. The answer in this vision is not to find a cleaner priest, but to show the LORD cleansing the one He has. The Old Testament offers repeated cleansings, from the yearly Day of Atonement to every sacrifice at the altar, and each of them points beyond itself. Zechariah's promise of a single day, a servant, a Branch and a stone declares that the repeated rites are not the end.\n\nThe New Testament says that the single day has come. Christ the High Priest is without stain, offers Himself once for all, and sits at God's right hand, where the accuser once stood. The accuser's sentence is passed in Revelation 12:10 and 12:11, where he is thrown down and the saints conquer him 'by the blood of the Lamb.' Those who share the pardon wear white, and the church is dressed in 'fine linen, bright and pure' (Revelation 19:8).\n\nThe story ends where this vision points. In the city of God 'nothing unclean will ever enter' (Revelation 21:27), and yet the multitude of the redeemed are in it, because they have been clothed by God. The vine and fig tree of Zechariah 3:10 becomes the peace of the new creation, where nothing hurts or destroys and neighbour invites neighbour in without fear. Joshua's one night in the court is the story's whole movement from shame to clothing, held in a single scene.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "How does God respond to Satan's accusation of Joshua?",
       "options": [
-        { "text": "He rebukes the accuser and points to His own choice of Jerusalem, calling Joshua a brand snatched from the fire.", "weight": 100, "note": "Verse 2 shows God silencing the accuser on the ground of His grace, not Joshua's merit." },
-        { "text": "He agrees with Satan and condemns Joshua.", "weight": 75, "note": "The filth is real, but God removes it rather than condemning; He rebukes the accuser." },
-        { "text": "He ignores the accusation entirely.", "weight": 25, "note": "God directly answers and rebukes the accuser rather than ignoring him." },
-        { "text": "He tells Joshua to defend himself.", "weight": 0, "note": "Joshua says nothing; God Himself acts to cleanse and defend him." }
+        {
+          "text": "He rebukes the accuser and points to His own choice of Jerusalem, calling Joshua a brand snatched from the fire.",
+          "weight": 100,
+          "note": "Verse 2 shows God silencing the accuser on the ground of His grace, not Joshua's merit."
+        },
+        {
+          "text": "He agrees with Satan and condemns Joshua.",
+          "weight": 75,
+          "note": "The filth is real, but God removes it rather than condemning; He rebukes the accuser."
+        },
+        {
+          "text": "He ignores the accusation entirely.",
+          "weight": 25,
+          "note": "God directly answers and rebukes the accuser rather than ignoring him."
+        },
+        {
+          "text": "He tells Joshua to defend himself.",
+          "weight": 0,
+          "note": "Joshua says nothing; God Himself acts to cleanse and defend him."
+        }
       ]
     },
     {
       "q": "What do the filthy garments and clean robes picture?",
       "options": [
-        { "text": "Sin removed and righteousness given, a picture of justification.", "weight": 100, "note": "Verse 4 shows iniquity taken away and splendid robes given, the gospel in shadow." },
-        { "text": "A change of ordinary work clothes.", "weight": 75, "note": "The garments are symbolic of guilt and righteousness, not everyday attire." },
-        { "text": "That Joshua was being demoted from the priesthood.", "weight": 25, "note": "He is cleansed and restored to service, not demoted." },
-        { "text": "That appearances do not matter to God.", "weight": 0, "note": "The garments matter precisely because they picture spiritual guilt and cleansing." }
+        {
+          "text": "Sin removed and righteousness given, a picture of justification.",
+          "weight": 100,
+          "note": "Verse 4 shows iniquity taken away and splendid robes given, the gospel in shadow."
+        },
+        {
+          "text": "A change of ordinary work clothes.",
+          "weight": 75,
+          "note": "The garments are symbolic of guilt and righteousness, not everyday attire."
+        },
+        {
+          "text": "That Joshua was being demoted from the priesthood.",
+          "weight": 25,
+          "note": "He is cleansed and restored to service, not demoted."
+        },
+        {
+          "text": "That appearances do not matter to God.",
+          "weight": 0,
+          "note": "The garments matter precisely because they picture spiritual guilt and cleansing."
+        }
       ]
     },
     {
       "q": "Who is My servant, the Branch?",
       "options": [
-        { "text": "The coming messianic priest-king, fulfilled in Jesus Christ.", "weight": 100, "note": "The Branch is a Davidic messianic title, fulfilled in Christ the servant-King." },
-        { "text": "Simply another name for Joshua himself.", "weight": 75, "note": "Joshua is a sign pointing to the Branch, not the Branch himself." },
-        { "text": "The rebuilt temple building.", "weight": 25, "note": "The Branch is a person, God's servant, who will build the temple." },
-        { "text": "The Persian king Darius.", "weight": 0, "note": "The Branch is the promised Davidic Messiah, not a pagan king." }
+        {
+          "text": "The coming messianic priest-king, fulfilled in Jesus Christ.",
+          "weight": 100,
+          "note": "The Branch is a Davidic messianic title, fulfilled in Christ the servant-King."
+        },
+        {
+          "text": "Simply another name for Joshua himself.",
+          "weight": 75,
+          "note": "Joshua is a sign pointing to the Branch, not the Branch himself."
+        },
+        {
+          "text": "The rebuilt temple building.",
+          "weight": 25,
+          "note": "The Branch is a person, God's servant, who will build the temple."
+        },
+        {
+          "text": "The Persian king Darius.",
+          "weight": 0,
+          "note": "The Branch is the promised Davidic Messiah, not a pagan king."
+        }
       ]
     },
     {
       "q": "What does I will remove the iniquity of this land in a single day point to?",
       "options": [
-        { "text": "The once-for-all removal of sin accomplished by Christ at the cross.", "weight": 100, "note": "The single day anticipates Calvary, where sin was dealt with once for all." },
-        { "text": "A single festival day of the year with no lasting effect.", "weight": 75, "note": "It points beyond any repeated ritual to a decisive, final removal of sin." },
-        { "text": "That sin can never really be removed.", "weight": 25, "note": "The promise is exactly that iniquity will be removed, fulfilled in Christ." },
-        { "text": "A day when the people would cleanse themselves.", "weight": 0, "note": "God says I will remove the iniquity; the cleansing is His work." }
+        {
+          "text": "The once-for-all removal of sin accomplished by Christ at the cross.",
+          "weight": 100,
+          "note": "The single day anticipates Calvary, where sin was dealt with once for all."
+        },
+        {
+          "text": "A single festival day of the year with no lasting effect.",
+          "weight": 75,
+          "note": "It points beyond any repeated ritual to a decisive, final removal of sin."
+        },
+        {
+          "text": "That sin can never really be removed.",
+          "weight": 25,
+          "note": "The promise is exactly that iniquity will be removed, fulfilled in Christ."
+        },
+        {
+          "text": "A day when the people would cleanse themselves.",
+          "weight": 0,
+          "note": "God says I will remove the iniquity; the cleansing is His work."
+        }
       ]
     },
     {
       "q": "What does this vision reveal about God?",
       "options": [
-        { "text": "He is the righteous Judge who justifies the guilty by removing their sin and clothing them in righteousness.", "weight": 100, "note": "God does not deny the filth but takes it away, joining justice and grace." },
-        { "text": "He overlooks sin as if it did not matter.", "weight": 75, "note": "He does not overlook the filth; He removes it, which honors both justice and mercy." },
-        { "text": "He justifies people on the basis of their own merit.", "weight": 25, "note": "Joshua is cleansed by God's choice and grace, not his own worth." },
-        { "text": "He sides with the accuser against His people.", "weight": 0, "note": "He rebukes the accuser and defends His chosen people." }
+        {
+          "text": "He is the righteous Judge who justifies the guilty by removing their sin and clothing them in righteousness.",
+          "weight": 100,
+          "note": "God does not deny the filth but takes it away, joining justice and grace."
+        },
+        {
+          "text": "He overlooks sin as if it did not matter.",
+          "weight": 75,
+          "note": "He does not overlook the filth; He removes it, which honors both justice and mercy."
+        },
+        {
+          "text": "He justifies people on the basis of their own merit.",
+          "weight": 25,
+          "note": "Joshua is cleansed by God's choice and grace, not his own worth."
+        },
+        {
+          "text": "He sides with the accuser against His people.",
+          "weight": 0,
+          "note": "He rebukes the accuser and defends His chosen people."
+        }
       ]
     }
   ],
@@ -161,9 +385,21 @@
     "God promised to remove iniquity in a single day, fulfilled at the cross. How does the finished, once-for-all work of Christ free you from trying to earn your standing with God?"
   ],
   "translationNotes": [
-    { "ref": "Zechariah 3:1", "note": "Satan renders the Hebrew satan, the accuser or adversary; a footnote gives that is, the Accuser or the Adversary. He stands at the right hand, the accuser's place in a trial." },
-    { "ref": "Zechariah 3:4", "note": "Filthy renders tso'im, the strongest word for defilement, used of excrement-stained clothing; the removal pictures the taking away of guilt." },
-    { "ref": "Zechariah 3:8", "note": "Branch renders tsemach, a sprout or shoot; it is a messianic title for the coming Davidic priest-king, developed in Jeremiah 23:5, 33:15 and Zechariah 6:12." }
+    {
+      "ref": "Zechariah 3:1",
+      "note": "Satan renders the Hebrew satan, the accuser or adversary; a footnote gives that is, the Accuser or the Adversary. He stands at the right hand, the accuser's place in a trial."
+    },
+    {
+      "ref": "Zechariah 3:4",
+      "note": "Filthy renders tso'im, the strongest word for defilement, used of excrement-stained clothing; the removal pictures the taking away of guilt."
+    },
+    {
+      "ref": "Zechariah 3:8",
+      "note": "Branch renders tsemach, a sprout or shoot; it is a messianic title for the coming Davidic priest-king, developed in Jeremiah 23:5, 33:15 and Zechariah 6:12."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Zechariah 3:1-10. All 10 verses reproduced in order." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Zechariah 3:1-10. All 10 verses reproduced in order."
+  }
 }
