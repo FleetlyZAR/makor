@@ -18,9 +18,21 @@
         "note": "affliction will not rise a second time",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 9, "text": "Whatever you plot against the LORD, He will bring to an end. Affliction will not rise up a second time." },
-          { "chapter": 1, "n": 10, "text": "For they will be entangled as with thorns and consumed like the drink of a drunkard, like stubble that is fully dry." },
-          { "chapter": 1, "n": 11, "text": "From you, O Nineveh, comes forth a plotter of evil against the LORD, a counselor of {{belial|wickedness}}." }
+          {
+            "chapter": 1,
+            "n": 9,
+            "text": "Whatever you plot against the LORD, He will bring to an end. Affliction will not rise up a second time."
+          },
+          {
+            "chapter": 1,
+            "n": 10,
+            "text": "For they will be entangled as with thorns and consumed like the drink of a drunkard, like stubble that is fully dry."
+          },
+          {
+            "chapter": 1,
+            "n": 11,
+            "text": "From you, O Nineveh, comes forth a plotter of evil against the LORD, a counselor of {{belial|wickedness}}."
+          }
         ]
       },
       {
@@ -28,9 +40,21 @@
         "note": "a word to Judah, a word to Nineveh",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 12, "text": "This is what the LORD says: “Though they are allied and numerous, yet they will be cut down and pass away. Though I have {{anah|afflicted}} you, O Judah, I will afflict you no longer." },
-          { "chapter": 1, "n": 13, "text": "For I will now break their {{ol|yoke}} from your neck and tear away your shackles.”" },
-          { "chapter": 1, "n": 14, "text": "The LORD has issued a command concerning you, O Nineveh: “There will be no descendants to carry on your name. I will cut off the carved image and cast idol from the house of your gods; I will prepare your grave, for you are contemptible.”" }
+          {
+            "chapter": 1,
+            "n": 12,
+            "text": "This is what the LORD says: “Though they are allied and numerous, yet they will be cut down and pass away. Though I have {{anah|afflicted}} you, O Judah, I will afflict you no longer."
+          },
+          {
+            "chapter": 1,
+            "n": 13,
+            "text": "For I will now break their {{ol|yoke}} from your neck and tear away your shackles.”"
+          },
+          {
+            "chapter": 1,
+            "n": 14,
+            "text": "The LORD has issued a command concerning you, O Nineveh: “There will be no descendants to carry on your name. I will cut off the carved image and cast idol from the house of your gods; I will prepare your grave, for you are contemptible.”"
+          }
         ]
       },
       {
@@ -38,17 +62,46 @@
         "note": "good news and peace on the mountains",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 15, "text": "Look to the mountains, the feet of one who brings {{basar|good news}}, who proclaims {{shalom|peace}}! Celebrate your feasts, O Judah; fulfill your vows. For the wicked will never again march through you; they will be utterly cut off." }
+          {
+            "chapter": 1,
+            "n": 15,
+            "text": "Look to the mountains, the feet of one who brings {{basar|good news}}, who proclaims {{shalom|peace}}! Celebrate your feasts, O Judah; fulfill your vows. For the wicked will never again march through you; they will be utterly cut off."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "belial": { "language": "Hebrew", "lemma": "beliyyaal", "original": "בְּלִיַּעַל", "gloss": "Worthlessness, wickedness, ruin; the word later becomes almost a name for the utterly lawless. Nahum brands the Assyrian schemer a counselor of belial, one whose whole purpose is destructive evil. The New Testament picks up the term when Paul asks what accord Christ has with Belial, 2 Corinthians 6:15." },
-    "anah": { "language": "Hebrew", "lemma": "anah", "original": "עָנָה", "gloss": "To afflict, humble, or oppress. God says He has afflicted Judah, owning that even their suffering under Assyria passed through His hand for their discipline. Yet the same verb marks the turn of mercy: He will afflict them no longer." },
-    "ol": { "language": "Hebrew", "lemma": "ol", "original": "עֹל", "gloss": "A yoke, the heavy wooden bar laid on the neck of an ox or a captive people. It pictures the crushing bondage of Assyrian domination. God promises to break this yoke from Judah's neck, the language of liberation that runs throughout Scripture." },
-    "basar": { "language": "Hebrew", "lemma": "basar", "original": "בָּשַׂר", "gloss": "To bring good news, to herald glad tidings, especially of victory and salvation. It is the Old Testament word behind the idea of gospel. The same picture of beautiful feet on the mountains appears in Isaiah 52:7 and is applied to gospel preachers in Romans 10:15." },
-    "shalom": { "language": "Hebrew", "lemma": "shalom", "original": "שָׁלוֹם", "gloss": "Peace, wholeness, well-being, the flourishing that comes when everything is set right. It is far richer than the mere absence of war. The herald proclaims shalom to a people long crushed, and its deepest fulfillment is the peace with God secured by Christ." }
+    "belial": {
+      "language": "Hebrew",
+      "lemma": "beliyyaal",
+      "original": "בְּלִיַּעַל",
+      "gloss": "Worthlessness, wickedness, ruin; the word later becomes almost a name for the utterly lawless. Nahum brands the Assyrian schemer a counselor of belial, one whose whole purpose is destructive evil. The New Testament picks up the term when Paul asks what accord Christ has with Belial, 2 Corinthians 6:15."
+    },
+    "anah": {
+      "language": "Hebrew",
+      "lemma": "anah",
+      "original": "עָנָה",
+      "gloss": "To afflict, humble, or oppress. God says He has afflicted Judah, owning that even their suffering under Assyria passed through His hand for their discipline. Yet the same verb marks the turn of mercy: He will afflict them no longer."
+    },
+    "ol": {
+      "language": "Hebrew",
+      "lemma": "ol",
+      "original": "עֹל",
+      "gloss": "A yoke, the heavy wooden bar laid on the neck of an ox or a captive people. It pictures the crushing bondage of Assyrian domination. God promises to break this yoke from Judah's neck, the language of liberation that runs throughout Scripture."
+    },
+    "basar": {
+      "language": "Hebrew",
+      "lemma": "basar",
+      "original": "בָּשַׂר",
+      "gloss": "To bring good news, to herald glad tidings, especially of victory and salvation. It is the Old Testament word behind the idea of gospel. The same picture of beautiful feet on the mountains appears in Isaiah 52:7 and is applied to gospel preachers in Romans 10:15."
+    },
+    "shalom": {
+      "language": "Hebrew",
+      "lemma": "shalom",
+      "original": "שָׁלוֹם",
+      "gloss": "Peace, wholeness, well-being, the flourishing that comes when everything is set right. It is far richer than the mere absence of war. The herald proclaims shalom to a people long crushed, and its deepest fulfillment is the peace with God secured by Christ."
+    }
   },
   "study": {
     "basic": {
@@ -62,85 +115,270 @@
       "oneStory": "The runner on the mountains announcing that the enemy is finished is a preview of the gospel itself. The story of God breaking the yoke of His people and proclaiming peace runs from Judah's relief here to the day every enemy is cut off and the peace of Christ fills the earth."
     },
     "context": {
-      "literary": "The poem shifts from the sweeping hymn of verses 1-8 into pointed direct address, alternating between Nineveh and Judah. Pronouns turn sharply: a word of doom to the plotters, a word of comfort to God's people, then doom again, before the movement lifts to the joyful cry of verse 15. That final verse also serves as a hinge into the battle scenes of chapters two and three.",
-      "historical": "The plotter of evil and counselor of wickedness likely reflects Assyrian kings such as Sennacherib, whose boasts and threats against Judah and the LORD are recorded in 2 Kings 18-19. Assyria's yoke was literal: tribute, deportation, and the constant threat of siege. To promise that this yoke would be shattered was to promise the unthinkable.",
-      "canonical": "Verse 15 is quoted and echoed across Scripture. Isaiah 52:7 sings of the herald announcing peace and the reign of God, and Paul in Romans 10:15 uses the beautiful feet to describe the preaching of the gospel. Nahum thus feeds directly into the New Testament vocabulary of good news."
+      "literary": "After the hymn of verses 2 to 8, the poem turns to address, and the pronouns do the work of the passage. Verse 9 speaks to a plural 'you' who plot against the LORD. Verses 10 and 11 shift to 'they,' then to Nineveh by name. Verse 12 begins with the messenger formula, 'This is what the LORD says,' the first time in the book that the LORD speaks in His own voice, and then the address flips to Judah, 'though I have afflicted you, O Judah, I will afflict you no longer,' before returning to Nineveh in verse 14 and to Judah in verse 15. The alternation of 'you' for Nineveh and 'you' for Judah is deliberate, and the reader must keep track of which is which. The passage works like two hands, one closing on the oppressor while the other opens to the oppressed.\n\nSeveral words stitch the verses together. The Hebrew word translated 'wicked' in verse 15 is the same word, beliyya'al, that stands behind 'wickedness' in verse 11, so the counsellor of worthlessness who came out of Nineveh is the one who will never again pass through Judah. The verb 'pass away' in verse 12 and the verb 'march through' in verse 15 are the same Hebrew verb, avar, so that the enemy who passes through is the one who passes away. The word for 'affliction' in verse 9 is the word for 'distress' in verse 7, so the day of distress for which God is a stronghold is the one that will not rise twice.\n\nVerse 15 is numbered as 2:1 in the Hebrew Bible, and that detail shows how the chapters were heard. The herald stands at the opening of the next movement, the battle poem, as well as at the end of this one. He is a hinge: the good news is announced, and then the reader is shown what makes it good.",
+      "historical": "The words 'whatever you plot against the LORD' belong in the period when Assyria was challenging Judah's God directly. The Rabshakeh at Jerusalem told the people not to let Hezekiah persuade them that the LORD would deliver them, and his master's letter listed the gods of the nations that had not saved them, 2 Kings 18:19 to 25 and Isaiah 37:10 to 13. The 'plotter of evil against the LORD' in verse 11 fits that style of boasting, and the reader is not required to name a single king. Sennacherib is the obvious candidate, and Isaiah 37:36 to 38 tells what became of him: after the angel struck the Assyrian camp, he returned to Nineveh and, while worshipping in the temple of his god, was cut down by his own sons. The prophecy of verse 14, 'I will cut off the carved image and cast idol from the house of your gods,' reads differently once you know that Assyria's king died in just such a house.\n\nThe yoke of verse 13 was not a metaphor to the hearers. Assyria collected tribute each year, deported populations and imposed treaty oaths in the names of its gods. The word for yoke is the bar laid across the neck of an ox. When Hananiah in Jeremiah 28:10 to 13 breaks the wooden yoke off Jeremiah's neck, the same object is meant. Judah had been a vassal since the days of Ahaz, and to hear that the bonds would be torn off was to hear of release from an international order that nobody expected to end.\n\nThe call to celebrate feasts and fulfil vows in verse 15 also had a practical meaning. Under foreign domination, pilgrimage and festival were always at risk. The promise that the wicked would no more march through Judah was in part a promise that the roads to Jerusalem would be safe.",
+      "canonical": "Verse 15 is almost word for word a line that Isaiah 52:7 took up and enlarged: 'How beautiful on the mountains are the feet of those who bring good news, who proclaim peace.' Nahum has no 'beautiful,' and no 'salvation' or 'Your God reigns.' Isaiah adds them, applying the herald to the return from Babylon. Paul then quotes Isaiah in Romans 10:15 to describe those who preach the gospel, and Ephesians 2:17 says Christ 'came and preached peace' to those far away and near. Acts 10:36 calls the message 'the gospel of peace through Jesus Christ.' The line therefore passes from Nahum to Isaiah to Paul, and each time it widens.\n\nThe broken yoke has its own history. God told Israel in Leviticus 26:13 that He had broken the bars of their yoke in Egypt, so the exodus gives the picture its meaning. Isaiah 10:24 to 27 told Judah not to fear Assyria, because the yoke would be taken from their neck. Isaiah 14:24 to 27 says that God will break Assyria in His land and remove its yoke from His people, and asks who can thwart Him. Nahum is the later chapter of this same promise. Jesus returns to the image when He says, 'Take My yoke upon you,' Matthew 11:28 to 30, and Paul tells the Galatians that Christ has set them free so they should not be fastened again to a yoke of slavery, Galatians 5:1.\n\nThe notion that God frustrates the plans of those who set themselves against Him is found in Psalm 2:1 to 4, Psalm 33:10 and 11, and Proverbs 21:30. The 'no second time' idea also appears in the Book of Zephaniah, which names Nineveh's ruin in Zephaniah 2:13 to 15."
     },
     "hermeneutics": {
-      "authorIntent": "To assure God's afflicted people that the empire's plots against the LORD will fail, that their own discipline has a limit, and that God Himself is sending good news of peace and freedom, so that they celebrate and trust Him rather than despair.",
-      "descriptionVsPrescription": "The passage describes what God will do to Nineveh and for Judah; it does not prescribe human vengeance. The abiding truths are God's sovereignty over hostile powers, the measured nature of His discipline, and the gift of peace announced by His herald.",
+      "authorIntent": "The passage was meant to be heard as God's own counter to the Assyrian boast. Where the Rabshakeh had said that the gods of the nations had not saved them and the LORD would not save Judah either, Nahum says the LORD will end the plot and break the yoke. The first hearers needed more than a general principle that God is just. They needed to hear that the particular, named, unmovable thing they had lived under for a century had an end. Nahum gives them that, and he gives them something to do with it: to keep the feasts and to fulfil the vows they had made when they were afraid.\n\nHe also intends to correct a quiet assumption, that suffering means abandonment. 'Though I have afflicted you, O Judah' is a startling line, because God claims the affliction as His own. He is not saying Assyria was out of control and God has now stepped in. He is saying that He had used the rod, that He is now laying it down, and that He is the one who decides how long it lasts. This is a comfort for people who had wondered whether the empire's power was a sign that other gods were stronger.\n\nThe prophet means finally to set before the reader a decision. The plot against the LORD is not a harmless idea; it is something that ends in thorns, stubble and a grave. The herald on the mountains is also an invitation. Those who hear are asked to be among those who celebrate and not among those who plot.",
+      "descriptionVsPrescription": "The passage describes what God does to a particular empire and for a particular people at a particular time. It does not instruct us to expect every oppressor to be removed in the way Nineveh was, nor to treat the tragedies of other nations as God's direct sentence on them. When Jesus was asked about people killed when a tower fell, He refused to draw that line from event to guilt, Luke 13:1 to 5.\n\nIt does carry principles. A person or system that sets itself against God will not prevail, whatever it seems to have in hand. God's disciplining of His people has a limit that He sets. The news of peace is something to be announced, and the verse itself shows that it needs a messenger. That last point is the most directly prescriptive: if the herald brings the news and the mountains are where he runs, then the news is meant to be carried to others, as Paul draws out in Romans 10:14 and 15.\n\nThe call to celebrate feasts and fulfil vows applies directly. When God has delivered, the right response is worship, not just relief. The passage gives no basis for gloating over the fallen, which Obadiah 12 and Proverbs 24:17 condemn, and the surrounding text shows that Nahum's delight is in God's justice and in his people's freedom, not in watching a city burn.",
       "debates": [
         {
           "question": "Who is the plotter of evil, the counselor of wickedness, in verses 9 and 11?",
           "views": [
-            { "label": "A specific Assyrian king", "case": "The language of scheming against the LORD fits kings like Sennacherib, whose defiance of God and threats against Jerusalem are recorded in 2 Kings 18-19; the counselor of belial personifies Assyria's leadership." },
-            { "label": "Assyria's evil counsel embodied", "case": "Others read it less as one named individual and more as the spirit of Nineveh itself, the collective wickedness that continually devises harm against God and His people." }
+            {
+              "label": "A specific Assyrian king",
+              "case": "The language of scheming against the LORD fits kings like Sennacherib, whose defiance of God and threats against Jerusalem are recorded in 2 Kings 18-19; the counselor of belial personifies Assyria's leadership. Isaiah 37:10 to 13 preserves the very message he sent, and verse 14's idol-house fits the way he died, Isaiah 37:38."
+            },
+            {
+              "label": "Assyria's evil counsel embodied",
+              "case": "Others read it less as one named individual and more as the spirit of Nineveh itself, the collective wickedness that continually devises harm against God and His people. The singular 'plotter' then stands for a whole imperial policy."
+            },
+            {
+              "label": "A figure with a wider horizon",
+              "case": "Because the Hebrew word beliyya'al later became a name for the powers of evil, some readers hear in the passage the pattern of every ruler who counsels rebellion against God. Paul uses the name in 2 Corinthians 6:15, 'What harmony is there between Christ and Belial?' That is a later use, though, and not what Nahum's hearers first heard."
+            }
           ],
           "bearing": "Either way the point stands: the mightiest human plotting against God is doomed to fail, and behind the historical enemy Scripture discerns the deeper pattern of evil that Christ finally defeats."
+        },
+        {
+          "question": "What does 'Affliction will not rise up a second time' mean in verse 9?",
+          "views": [
+            {
+              "label": "God will not need to strike twice",
+              "case": "The line is addressed to the plotters. When the LORD brings them to an end, the end is complete, so that a second blow is unnecessary. This fits 'He will bring to an end' in the same verse."
+            },
+            {
+              "label": "Judah will not be afflicted again",
+              "case": "The Hebrew word for affliction is the same as the 'distress' of verse 7, and verse 12 says explicitly that God will afflict Judah no more. On this view the sentence promises Judah that the trouble from Assyria will not come round again."
+            },
+            {
+              "label": "Both hearers at once",
+              "case": "The line can be a double-edged promise. For Nineveh it means a single decisive end; for Judah it means a single and final deliverance. Prophetic speech often lets one sentence serve both audiences."
+            }
+          ],
+          "bearing": "The view that Judah is addressed fits the structure of the passage best, since verse 12 states it plainly, but the first view is also true. The same single act that closes Nineveh's account opens Judah's freedom."
+        },
+        {
+          "question": "Who is the herald of verse 15?",
+          "views": [
+            {
+              "label": "A literal messenger of Nineveh's fall",
+              "case": "A runner crossing the Judean hills to announce that the enemy has been beaten was a familiar sight in ancient warfare. On this view the verse describes an event in Nahum's own time, and Isaiah, Paul and the gospel writers later widened the picture."
+            },
+            {
+              "label": "A messianic or end-time figure",
+              "case": "Isaiah 52:7 applies the line to the herald of God's reign, and the New Testament applies it to Christ and His messengers. Some see the verse as already pointing past Nineveh to the final peace."
+            },
+            {
+              "label": "The prophetic word itself",
+              "case": "Because Nahum is called a book of vision, some say the herald is the prophet's message, which stands on the mountains of Judah announcing what God will do. Hebrew poetry often leaves its messenger unidentified so that the focus rests on the news."
+            }
+          ],
+          "bearing": "The verse is first about the news of Nineveh's end, and it becomes a picture of the gospel because the same God does the same kind of thing at greater scale. The herald is anyone sent to say that the enemy is beaten and peace has come."
         }
       ]
     },
-    "originalLanguages": "The Assyrian strategist is a counselor of belial, worthlessness or ruin, a word so weighty it later becomes a title for the lawless one. God tells Judah He has afflicted them, anah, taking responsibility for their discipline, but declares the affliction over. He will break their ol, the yoke of slavery laid across the neck. Then the movement climbs to its peak: feet on the mountains that basar, herald good news, and proclaim shalom, the full peace of a people set right and set free. These two words, good news and peace, are the seeds of the New Testament gospel.",
+    "originalLanguages": "Verse 9 and verse 11 are bracketed by the same Hebrew verb of devising. 'Whatever you plot' and 'a plotter of evil' both come from the root chashav, to think or to devise. The same root occurs in Genesis 50:20, where Joseph tells his brothers that what they 'intended against me for evil, God intended for good.' The word is a reminder that human planning and divine planning are placed side by side in Scripture, and here the first is set against the second. The mind of Nineveh devises evil; the mind of God has already devised its end.\n\nThe counsellor of verse 11 is the yoetz, the one who gives counsel, a title of honour in the royal courts. It is the same title as in 'Wonderful Counselor' in Isaiah 9:6, and that gives the verse a shadowed contrast. Nineveh's counsellor is called a counsellor of worthlessness, beliyya'al, a word meaning something like 'without worth,' while the child to be given is a counsellor whose counsel is wonderful. The word beliyya'al comes back at the end of the passage, in verse 15, where the BSB renders it 'the wicked.' The worthless one will not pass through again.\n\nThe yoke of verse 13 is the Hebrew mot, the pole or bar of the yoke, and 'shackles' is the word for bonds or ties. Leviticus 26:13 speaks of the 'bars of your yoke' that God broke in Egypt, using the same word for bars. The verb 'tear away' fits the picture of cords being snapped. Judah is promised the exodus of Egypt over again, but this time out from Assyria.\n\nVerse 12 is hard to translate. The BSB reads 'allied and numerous,' but the Hebrew word that stands behind 'allied' normally means whole or complete, and many translations read 'at full strength and many.' The reading matters little for the sense, since either way the sentence says that strength and numbers will not save. The verb 'cut down' evokes a shearing or cutting off, and 'pass away' is the verb avar, the same verb that returns in verse 15 as 'march through.'\n\nThe Hebrew of verse 10 is notoriously difficult, and translations vary. The picture is of things that are tangled, drunken, and dry, three images of helplessness, and it should be read as a cluster of pictures and not as a single logical figure. In Isaiah 27:4 thorns and briers are the image of what God would trample and burn.\n\nIn verse 14 the sentence 'there will be no descendants to carry on your name' uses the verb for sowing seed, as though the name of Nineveh were a crop that will not be sown again. 'You are contemptible' comes from a verb meaning to be light, to be of no weight or honour. The empire that was thought weighty is weighed and found to be light.\n\nIn verse 15, the herald is the mevasser, from the verb basar, and 'celebrate' and 'fulfill' point to feasts and vows. The verb 'fulfill,' shalem, belongs to the same family as shalom, which the herald proclaims in the same verse. Peace and the paying of vows are of one root: when God makes things whole, His people make their vows whole.",
     "typology": [
-      { "type": "The yoke broken from Judah's neck", "fulfillment": "Christ lifting the yoke of sin and giving rest to the weary, Matthew 11:28-30." },
-      { "type": "The feet of the herald bringing good news of peace", "fulfillment": "The preaching of the gospel of Christ, Romans 10:15, and the announcement of peace with God through Him, Ephesians 2:17." },
-      { "type": "Nineveh's name and idols cut off forever", "fulfillment": "The final and complete overthrow of every power that sets itself against God, Revelation 19-20." }
+      {
+        "type": "The yoke broken from the neck, Nahum 1:13",
+        "fulfillment": "A yoke across the neck was Assyria's mark of ownership, and God promises to snap it as He did Egypt's, Leviticus 26:13. In Christ the picture deepens. He offers a different yoke to the weary, 'My yoke is easy and My burden is light,' Matthew 11:28 to 30, and Paul says, 'It is for freedom that Christ has set us free,' Galatians 5:1. The correspondence is that a conquering hand breaks the bondage and gives rest. The escalation is that the slavery is no longer to a foreign empire but to sin and death. The type falls short in that Judah's relief lasted a few decades, while Christ's freedom is final."
+      },
+      {
+        "type": "The herald on the mountains, Nahum 1:15",
+        "fulfillment": "A runner brings good news that the enemy is finished and peace has come. Isaiah 52:7 carries the picture to the proclamation that 'Your God reigns,' and the angels at Bethlehem announce 'good news of great joy' and peace on earth, Luke 2:10 to 14. Jesus claims Isaiah's herald for Himself in Luke 4:18 and 19, and Ephesians 2:17 says that He 'came and preached peace' to far and near. Where the runner of Nahum reported a battle won by others, Christ is the herald who is also the victor, and the message He brings is peace with God, Romans 5:1. The type falls short because Nahum's messenger announces a peace of this world; the gospel announces the peace that Jesus says the world cannot give, John 14:27."
+      },
+      {
+        "type": "The enemy cut off and never to return, Nahum 1:15",
+        "fulfillment": "The promise that the wicked will never again march through Judah is a first picture of the city where evil cannot enter. Isaiah 52:1 told Zion that the unclean would no longer enter her, and Revelation 21:27 says of the new Jerusalem that 'nothing unclean will ever enter it.' Colossians 2:15 says the powers were disarmed at the cross, and Hebrews 2:14 says Christ shared our flesh and blood 'so that by His death He might destroy him who holds the power of death.' The correspondence is the end of the oppressor's access. The type is partial because Nineveh's end was local and historical; the final exclusion of evil is cosmic."
+      },
+      {
+        "type": "The idol and the grave prepared for the oppressor, Nahum 1:14",
+        "fulfillment": "God announces that the gods of Nineveh will be cut off and that He will prepare the empire's grave, and the Bible shows how little those gods could do for their worshippers, Isaiah 37:38. The pattern is fulfilled at larger scale when Christ triumphs over the powers behind the idols. Paul says that 'He made a public spectacle of them, triumphing over them by the cross,' Colossians 2:15, and Revelation 18:21 shows Babylon, the last such city, thrown down like a millstone in the sea. The type falls short in that Nahum's judgment is on a single city's gods, while the cross confronts the evil behind every idol."
+      }
     ],
-    "christ": "The heart of this movement is a herald racing over the mountains with news that the oppressor is finished and peace has come. The New Testament seizes on that very image: Paul quotes it in Romans 10:15 to describe those who preach the good news of Jesus. Christ is the one who truly breaks the yoke, not merely of Assyria but of sin and death, and who is Himself our peace, Ephesians 2:14. The feasts Judah is told to celebrate find their fulfillment in the feast of the gospel, where the wicked will never march through God's people again.",
-    "god": "The LORD is sovereign over the plotting of empires; whatever they devise against Him He brings to an end. He is intimately involved with His people, owning even their discipline as His and setting a firm limit to it. He is a yoke-breaker and a peace-bringer, who does not leave the oppressed without hope but sends a herald with good news.",
+    "christ": "The passage leads to Christ chiefly by the figure of the herald. Nahum 1:15 is the first appearance of a picture that Isaiah enlarges and the New Testament applies directly to the gospel. Isaiah 52:7 adds that the one who brings good news says to Zion, 'Your God reigns!' and Isaiah 61:1 to 2 gives a herald who is anointed by the Spirit to preach good news to the poor and proclaim liberty to the captives. In the synagogue at Nazareth Jesus reads that passage and says it is being fulfilled, Luke 4:18 and 19. In Him the herald and the news are one. The angels at His birth announce good news of great joy, Luke 2:10, and Paul says He 'preached peace to you who were far away and peace to those who were near,' Ephesians 2:17. Acts 10:36 sums up the gospel as 'the gospel of peace through Jesus Christ, who is Lord of all.'\n\nIt leads to Christ also by the peace the herald proclaims. Nahum's peace is the end of an empire's pressure. The peace Paul describes is deeper: 'since we have been justified through faith, we have peace with God through our Lord Jesus Christ,' Romans 5:1. Ephesians 2:14 says that Christ 'Himself is our peace,' who tore down the wall of hostility and reconciled both groups to God 'through the cross.' What Nahum announced as the end of a foreign yoke, the New Testament announces as the end of the enmity between us and God.\n\nThe broken yoke is another route. Nahum puts it in God's mouth, 'I will now break their yoke from your neck.' Jesus offers rest to the weary and burdened and invites them to take His yoke, which is easy, Matthew 11:28 to 30. Galatians 5:1 says Christ has set us free. The text that began as a word to a people under Assyria is now a word to everyone under a heavier master. Hebrews 2:14 says Christ shared in our humanity so that by His death He might destroy him who holds the power of death, and in so doing set free those who all their lives were held in slavery by fear of death. That is the yoke at its deepest.\n\nThere is a quieter link in God's claim to have afflicted His own people. 'Though I have afflicted you, O Judah, I will afflict you no longer' echoes forward to Isaiah 40:2, where Jerusalem is told her iniquity has been pardoned, and to the Servant of Isaiah 53 who bears what the people deserved. Judah's affliction ends because another is afflicted. The cross is where the affliction of God's people is finished at its root.\n\nA caution keeps the reading faithful. Nahum does not name Jesus here, and the passage is mainly about Nineveh and Judah. The link is by the pattern of the herald and the broken yoke, which the New Testament itself takes up. The details of thorns and stubble, drunkards and graves, should not be treated as coded predictions. What the passage provides is the form of the good news, an enemy beaten and a people set free, and the New Testament names the one who fills that form.",
+    "god": "This part of Nahum shows God as the one who answers plans. 'Whatever you plot against the LORD, He will bring to an end.' The point is not that God is threatened by plots but that He is above them. Psalm 33:10 and 11 puts it directly: the LORD frustrates the plans of the nations, but His counsel stands forever. Proverbs 21:30 says no counsel can prevail against Him. The God of Nahum 1:9 does not need to scramble in response to Nineveh's schemes. He has already decided how the story ends, and He tells His people ahead of time, so that they can stand in the interval without fear.\n\nHe is also the Lord of history in both directions. God says, 'Though I have afflicted you, O Judah,' which means that the power Assyria exercised was never beyond His hand. This is difficult and consoling at once. It is difficult because it says the suffering was not outside His purposes. It is consoling because it means the suffering has a limit that He sets, 'I will afflict you no longer.' It also means that Assyria's domination was not the triumph of other gods. Isaiah 10:5 calls Assyria the rod of His anger, which He then judges for its pride. God can use an instrument and hold it responsible.\n\nHe is a God who speaks in His own voice. The first half of the chapter described Him in the third person. In verse 12 He steps forward with 'This is what the LORD says,' and in verse 14 He issues a command. The God who is spoken about is also the God who speaks, and He speaks both judgment and release.\n\nHe is just toward the proud. The sentence on Nineveh is specific, and it matches the crime: a name that was proud will not be carried on, the gods it trusted will be cut off, and the grave will be prepared for it. Judgment fits the life lived. The text calls Nineveh contemptible, and what God says is not an insult but an evaluation, an empire that thought itself weighty is found light.\n\nHe is also the God who frees. He breaks the yoke and tears away the shackles. The language is from the exodus, and it tells us that the same compassion that heard Israel in Egypt hears Judah under Assyria. The two kinds of action, binding the oppressor and freeing the oppressed, are one action seen from two sides.\n\nFor worship, the passage teaches us that thanks is concrete. When God delivers, His people are to keep the feasts and fulfil the vows. The command is not to be silent in relief but to bring it to Him. Psalm 116:14 shows the same impulse, 'I will fulfill my vows to the LORD in the presence of all His people.' And it invites us to trust the one who sends messengers of peace, because the peace is His doing and not ours.",
     "crossReferences": [
-      { "ref": "2 Kings 19:20-28", "note": "The LORD answers Sennacherib's plotting and boasting against Him, the very kind of scheming Nahum says will be brought to nothing." },
-      { "ref": "Isaiah 52:7", "note": "How beautiful are the feet of him who brings good news, who proclaims peace, the twin of Nahum 1:15." },
-      { "ref": "Romans 10:15", "note": "Paul applies the beautiful feet of the herald to those who preach the gospel of Christ." },
-      { "ref": "Matthew 11:28-30", "note": "Jesus lifts the heavy yoke and gives rest, fulfilling the promise to break Judah's yoke." }
+      {
+        "ref": "Isaiah 52:7",
+        "note": "The fullest form of the line in Nahum 1:15. Isaiah keeps the mountains, the feet and the proclamation of peace, and adds 'beautiful,' 'salvation' and the cry 'Your God reigns!' It shows the herald being enlarged from a report of one city's fall into an announcement of God's kingship, and it is the verse Paul quotes in Romans 10:15."
+      },
+      {
+        "ref": "Romans 10:15",
+        "note": "Paul asks how people can preach unless they are sent and quotes the beautiful feet of those who bring good news. He applies the herald of Nahum and Isaiah to those who carry the gospel of Christ, which makes every missionary and witness a successor of the runner on the mountains."
+      },
+      {
+        "ref": "Ephesians 2:14-17",
+        "note": "Christ Himself is our peace, tearing down the wall of hostility and reconciling both groups to God through the cross, and then He 'came and preached peace.' The herald of Nahum 1:15 turns out to be the one who made the peace he announces."
+      },
+      {
+        "ref": "Isaiah 10:24-27",
+        "note": "God tells His people not to fear Assyria because in a little while His anger will turn to its destruction and the yoke will be lifted from their necks. It is the earlier form of Nahum 1:12 and 13. The two passages together show that the promise to break the yoke was given long before it was fulfilled."
+      },
+      {
+        "ref": "Leviticus 26:13",
+        "note": "God reminds Israel that He broke the bars of their yoke when He brought them out of Egypt. The Hebrew word for the yoke bar is the one Nahum uses in 1:13, so the promise to Judah is an exodus promise. What God did in Egypt He will do again in Assyria."
+      },
+      {
+        "ref": "Isaiah 37:36-38",
+        "note": "Records the angel striking the Assyrian camp and Sennacherib's death at the hands of his sons while worshipping in the temple of his god. It reads as an early instalment of Nahum 1:14, in which the gods of Nineveh are cut off and its end prepared, and shows how little the idol house protected its king."
+      },
+      {
+        "ref": "Genesis 50:20",
+        "note": "Joseph says that what his brothers intended for evil, God intended for good. The same verb of intending stands behind the 'plot' of Nahum 1:9 and 1:11. Human plans and divine plans are set against each other, and God's plan prevails by turning evil into the means of rescue."
+      },
+      {
+        "ref": "Psalm 2:1-4",
+        "note": "The nations rage and the peoples plot in vain against the LORD, and the One enthroned in heaven laughs. The psalm gives the posture behind Nahum 1:9: plotting against God is futile, and the God who is plotted against is unmoved. It applies to Nineveh and to every power set against the Anointed."
+      },
+      {
+        "ref": "Matthew 11:28-30",
+        "note": "Jesus invites all who are weary and burdened to take His yoke, which is easy. The breaking of Assyria's yoke in Nahum 1:13 becomes, in Christ, the offer of rest from a heavier burden, and a different yoke which He shares with us."
+      },
+      {
+        "ref": "Revelation 21:27",
+        "note": "Nothing unclean will ever enter the new Jerusalem. Nahum 1:15 says the wicked will never again march through Judah, and Isaiah 52:1 says the unclean will no longer enter Zion. The promise is completed in the city that finally has no enemy within its gates."
+      },
+      {
+        "ref": "Zephaniah 2:13-15",
+        "note": "Another prophet's word on Nineveh's end. God will stretch out His hand against the north and make Nineveh a desolation. It confirms that Nahum was not alone, and it adds the detail of a city that had said, 'I am it, and there is none besides me,' a proud boast which Nahum's oracle answers."
+      }
     ],
-    "oneStory": "The runner on the mountains crying peace because the enemy is defeated is a preview of the gospel. God's pattern of breaking the yoke of His people and announcing good news runs from Judah's relief here, through the cross where the true enemy is beaten, to the day when the wicked will never again march through the city of God and the peace of Christ covers the earth.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "Nahum 1:9 to 15 belongs to the long conflict in the Bible between the plans of the nations and the purposes of God. It starts in Genesis 3, where a plot to question God's word began the whole trouble, and it continues at Babel, in Egypt, and in every empire that sets itself up as the last word. The Psalms say the nations plot in vain, Psalm 2:1, and the prophets keep announcing the end of one power after another. Nahum is Assyria's turn.\n\nThe passage also sits on the thread of the broken yoke. God's first act of redemption in the story was to break Israel's yoke in Egypt, and the people were told to remember it, Leviticus 26:13. Whenever a new oppression arises, the prophets return to that act as the pattern, as Isaiah does about Assyria and Nahum does here. The people live their history as a series of exoduses, and each is promise and preview of a final one.\n\nThe herald stands for the other thread, the announcement of good news. Isaiah 40 begins with a command to speak tenderly to Jerusalem and cry that her warfare is ended, and Isaiah 52 gives the line its fullest form. When Jesus begins His ministry He reads from Isaiah, and He sends out His followers to say the same thing, and Paul explains that the whole movement of mission depends on messengers being sent. The line from Nahum to the Great Commission is straight.\n\nThe passage also looks to the cross. The wrath on Nineveh is not set aside by mercy; it is carried by the Son so that those who take refuge in Him go free, and the news of that victory is what the herald brings. The yoke that is broken in the gospel is the yoke of sin and death, and the plotting of the enemy comes to its end when Christ triumphs over the powers, Colossians 2:15.\n\nIn the new creation, the promise of verse 15 is complete. The wicked do not pass through, because there is nothing unclean in the city, Revelation 21:27. The festivals of Judah become the unending worship of the nations, and the vows are all fulfilled. The peace that the herald announced on the mountains is seen in full, and every plot against the LORD has been ended, as He said it would be.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What does God say will happen to those who plot against Him, verse 9?",
       "options": [
-        { "text": "He will bring their scheming to an end; their affliction will not rise a second time.", "weight": 100, "note": "The mightiest plotting against the LORD is doomed to fail." },
-        { "text": "He may let their plots run for a time, but He will finally bring them to nothing.", "weight": 75, "note": "Partly right: God is patient, yet the verse stresses He definitively ends the plot, not that He forgets." },
-        { "text": "He will simply ignore them and do nothing.", "weight": 25, "note": "God actively brings the scheme to nothing; He does not stand by." },
-        { "text": "He will reward them for their cleverness.", "weight": 0, "note": "Their plotting leads to ruin, not reward." }
+        {
+          "text": "He will bring their scheming to an end; their affliction will not rise a second time.",
+          "weight": 100,
+          "note": "The mightiest plotting against the LORD is doomed to fail."
+        },
+        {
+          "text": "He may let their plots run for a time, but He will finally bring them to nothing.",
+          "weight": 75,
+          "note": "Partly right: God is patient, yet the verse stresses He definitively ends the plot, not that He forgets."
+        },
+        {
+          "text": "He will simply ignore them and do nothing.",
+          "weight": 25,
+          "note": "God actively brings the scheme to nothing; He does not stand by."
+        },
+        {
+          "text": "He will reward them for their cleverness.",
+          "weight": 0,
+          "note": "Their plotting leads to ruin, not reward."
+        }
       ]
     },
     {
       "q": "What does God promise Judah in verses 12-13?",
       "options": [
-        { "text": "Though He has afflicted them, He will do so no longer and will break their yoke.", "weight": 100, "note": "His discipline is real but measured, and He promises liberation." },
-        { "text": "That they will never experience any hardship at all.", "weight": 75, "note": "He owns that He has afflicted them; the promise is that the affliction now ends." },
-        { "text": "That their bondage to Assyria will simply continue.", "weight": 25, "note": "The opposite: He will break the yoke from their neck." },
-        { "text": "That He has abandoned them for good.", "weight": 0, "note": "This is a promise of rescue, not abandonment." }
+        {
+          "text": "Though He has afflicted them, He will do so no longer and will break their yoke.",
+          "weight": 100,
+          "note": "His discipline is real but measured, and He promises liberation."
+        },
+        {
+          "text": "That they will never experience any hardship at all.",
+          "weight": 75,
+          "note": "He owns that He has afflicted them; the promise is that the affliction now ends."
+        },
+        {
+          "text": "That their bondage to Assyria will simply continue.",
+          "weight": 25,
+          "note": "The opposite: He will break the yoke from their neck."
+        },
+        {
+          "text": "That He has abandoned them for good.",
+          "weight": 0,
+          "note": "This is a promise of rescue, not abandonment."
+        }
       ]
     },
     {
       "q": "What is the significance of the herald's feet on the mountains in verse 15?",
       "options": [
-        { "text": "It is the image of good news and peace, later applied to gospel preaching in Romans 10:15.", "weight": 100, "note": "Nahum and Isaiah 52:7 give the picture the New Testament uses for the gospel." },
-        { "text": "It is only about a military messenger and has no wider meaning.", "weight": 75, "note": "It is a battlefield messenger, but Scripture develops it into the gospel image." },
-        { "text": "It is a warning of more war to come for Judah.", "weight": 25, "note": "It announces peace and the enemy's defeat, not more war." },
-        { "text": "It has nothing to do with the good news of salvation.", "weight": 0, "note": "The New Testament directly links this image to the preaching of Christ." }
+        {
+          "text": "It is the image of good news and peace, later applied to gospel preaching in Romans 10:15.",
+          "weight": 100,
+          "note": "Nahum and Isaiah 52:7 give the picture the New Testament uses for the gospel."
+        },
+        {
+          "text": "It is only about a military messenger and has no wider meaning.",
+          "weight": 75,
+          "note": "It is a battlefield messenger, but Scripture develops it into the gospel image."
+        },
+        {
+          "text": "It is a warning of more war to come for Judah.",
+          "weight": 25,
+          "note": "It announces peace and the enemy's defeat, not more war."
+        },
+        {
+          "text": "It has nothing to do with the good news of salvation.",
+          "weight": 0,
+          "note": "The New Testament directly links this image to the preaching of Christ."
+        }
       ]
     },
     {
       "q": "What does the Hebrew word shalom, peace, mean in this passage?",
       "options": [
-        { "text": "Wholeness and flourishing when everything is set right, far more than the absence of war.", "weight": 100, "note": "Shalom is rich well-being, fulfilled ultimately in peace with God through Christ." },
-        { "text": "Merely a temporary ceasefire between armies.", "weight": 75, "note": "It includes the end of war but means far more: full well-being." },
-        { "text": "A private, inner calm with no outward change.", "weight": 25, "note": "Shalom is comprehensive, touching every part of life, not only feelings." },
-        { "text": "Nothing more than silence or quiet.", "weight": 0, "note": "Shalom is positive flourishing, not mere quiet." }
+        {
+          "text": "Wholeness and flourishing when everything is set right, far more than the absence of war.",
+          "weight": 100,
+          "note": "Shalom is rich well-being, fulfilled ultimately in peace with God through Christ."
+        },
+        {
+          "text": "Merely a temporary ceasefire between armies.",
+          "weight": 75,
+          "note": "It includes the end of war but means far more: full well-being."
+        },
+        {
+          "text": "A private, inner calm with no outward change.",
+          "weight": 25,
+          "note": "Shalom is comprehensive, touching every part of life, not only feelings."
+        },
+        {
+          "text": "Nothing more than silence or quiet.",
+          "weight": 0,
+          "note": "Shalom is positive flourishing, not mere quiet."
+        }
       ]
     },
     {
       "q": "How is the breaking of Judah's yoke fulfilled in Christ?",
       "options": [
-        { "text": "Jesus lifts the yoke of sin and death and gives rest to the weary, Matthew 11:28-30.", "weight": 100, "note": "Christ is the true yoke-breaker and our peace, Ephesians 2:14." },
-        { "text": "Jesus brings real freedom, though the yoke He chiefly breaks is sin, not politics.", "weight": 75, "note": "True that He frees, but the deepest bondage He lifts is sin and death." },
-        { "text": "The yoke is never really lifted at all.", "weight": 25, "note": "Christ genuinely gives rest and freedom to those who come to Him." },
-        { "text": "Christ has no connection to this promise.", "weight": 0, "note": "The New Testament ties the yoke-breaking and peace directly to Him." }
+        {
+          "text": "Jesus lifts the yoke of sin and death and gives rest to the weary, Matthew 11:28-30.",
+          "weight": 100,
+          "note": "Christ is the true yoke-breaker and our peace, Ephesians 2:14."
+        },
+        {
+          "text": "Jesus brings real freedom, though the yoke He chiefly breaks is sin, not politics.",
+          "weight": 75,
+          "note": "True that He frees, but the deepest bondage He lifts is sin and death."
+        },
+        {
+          "text": "The yoke is never really lifted at all.",
+          "weight": 25,
+          "note": "Christ genuinely gives rest and freedom to those who come to Him."
+        },
+        {
+          "text": "Christ has no connection to this promise.",
+          "weight": 0,
+          "note": "The New Testament ties the yoke-breaking and peace directly to Him."
+        }
       ]
     }
   ],
@@ -152,9 +390,21 @@
     "Jesus says His yoke is easy and His burden light. What heavy yoke are you still carrying that He is inviting you to hand over to Him?"
   ],
   "translationNotes": [
-    { "ref": "Nahum 1:11", "note": "Counselor of wickedness renders a counselor of belial, a word for worthlessness or ruin that later becomes almost a proper name for the lawless one, echoed in 2 Corinthians 6:15." },
-    { "ref": "Nahum 1:12", "note": "The Hebrew moves between Nineveh, they, and Judah, you; the sense is that though Assyria is strong and numerous, it will be cut down, while Judah's affliction will end." },
-    { "ref": "Nahum 1:15", "note": "This verse is numbered 2:1 in the Hebrew text; its imagery of good news and peace matches Isaiah 52:7 and is quoted in Romans 10:15 of gospel preaching." }
+    {
+      "ref": "Nahum 1:11",
+      "note": "Counselor of wickedness renders a counselor of belial, a word for worthlessness or ruin that later becomes almost a proper name for the lawless one, echoed in 2 Corinthians 6:15."
+    },
+    {
+      "ref": "Nahum 1:12",
+      "note": "The Hebrew moves between Nineveh, they, and Judah, you; the sense is that though Assyria is strong and numerous, it will be cut down, while Judah's affliction will end."
+    },
+    {
+      "ref": "Nahum 1:15",
+      "note": "This verse is numbered 2:1 in the Hebrew text; its imagery of good news and peace matches Isaiah 52:7 and is quoted in Romans 10:15 of gospel preaching."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Nahum 1:9-15. Poetic line fragments joined into running verse text; Note that Hebrew versification places 1:15 as 2:1." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Nahum 1:9-15. Poetic line fragments joined into running verse text; Note that Hebrew versification places 1:15 as 2:1."
+  }
 }

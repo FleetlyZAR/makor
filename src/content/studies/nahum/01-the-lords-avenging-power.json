@@ -18,7 +18,11 @@
         "note": "the vision of Nahum",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 1, "text": "This is the {{massa|burden}} against Nineveh, the book of the vision of Nahum the Elkoshite:" }
+          {
+            "chapter": 1,
+            "n": 1,
+            "text": "This is the {{massa|burden}} against Nineveh, the book of the vision of Nahum the Elkoshite:"
+          }
         ]
       },
       {
@@ -26,11 +30,31 @@
         "note": "slow to anger, great in power",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 2, "text": "The LORD is a {{qanna|jealous}} and {{naqam|avenging}} God; the LORD is avenging and full of wrath. The LORD takes vengeance on His foes and reserves wrath for His enemies." },
-          { "chapter": 1, "n": 3, "text": "The LORD is slow to anger and great in power; the LORD will by no means leave the guilty unpunished. His path is in the whirlwind and storm, and clouds are the dust beneath His feet." },
-          { "chapter": 1, "n": 4, "text": "He rebukes the sea and dries it up; He makes all the rivers run dry. Bashan and Carmel wither, and the flower of Lebanon wilts." },
-          { "chapter": 1, "n": 5, "text": "The mountains quake before Him, and the hills melt away; the earth trembles at His presence, the world and all its dwellers." },
-          { "chapter": 1, "n": 6, "text": "Who can withstand His indignation? Who can endure His burning anger? His wrath is poured out like fire; even rocks are shattered before Him." }
+          {
+            "chapter": 1,
+            "n": 2,
+            "text": "The LORD is a {{qanna|jealous}} and {{naqam|avenging}} God; the LORD is avenging and full of wrath. The LORD takes vengeance on His foes and reserves wrath for His enemies."
+          },
+          {
+            "chapter": 1,
+            "n": 3,
+            "text": "The LORD is slow to anger and great in power; the LORD will by no means leave the guilty unpunished. His path is in the whirlwind and storm, and clouds are the dust beneath His feet."
+          },
+          {
+            "chapter": 1,
+            "n": 4,
+            "text": "He rebukes the sea and dries it up; He makes all the rivers run dry. Bashan and Carmel wither, and the flower of Lebanon wilts."
+          },
+          {
+            "chapter": 1,
+            "n": 5,
+            "text": "The mountains quake before Him, and the hills melt away; the earth trembles at His presence, the world and all its dwellers."
+          },
+          {
+            "chapter": 1,
+            "n": 6,
+            "text": "Who can withstand His indignation? Who can endure His burning anger? His wrath is poured out like fire; even rocks are shattered before Him."
+          }
         ]
       },
       {
@@ -38,18 +62,51 @@
         "note": "a stronghold, and an overwhelming flood",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 7, "text": "The LORD is {{tov|good}}, a {{maoz|stronghold}} in the day of distress; He cares for those who trust in Him." },
-          { "chapter": 1, "n": 8, "text": "But with an overwhelming flood He will make an end of Nineveh and pursue His enemies into darkness." }
+          {
+            "chapter": 1,
+            "n": 7,
+            "text": "The LORD is {{tov|good}}, a {{maoz|stronghold}} in the day of distress; He cares for those who trust in Him."
+          },
+          {
+            "chapter": 1,
+            "n": 8,
+            "text": "But with an overwhelming flood He will make an end of Nineveh and pursue His enemies into darkness."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "massa": { "language": "Hebrew", "lemma": "massa", "original": "מַשָּׂא", "gloss": "A burden or oracle, a weighty pronouncement laid upon the prophet. The word can mean a heavy load and a solemn message of judgment at the same time. Nahum opens by naming his book a burden against Nineveh, a divine sentence so heavy it cannot be lifted off or set aside." },
-    "qanna": { "language": "Hebrew", "lemma": "qanna", "original": "קַנָּא", "gloss": "Jealous, a word used in Scripture only of God. Divine jealousy is not petty envy but the fierce, protective love of a husband for his bride and a king for his honor. Because the LORD is jealous, He will not share His glory with idols or leave the abuse of His covenant people unanswered." },
-    "naqam": { "language": "Hebrew", "lemma": "naqam", "original": "נָקַם", "gloss": "To avenge, to take vengeance, to repay wrong with just recompense. Vengeance here belongs to God, who alone judges without malice or excess. Nahum stacks the word three times in a single verse to declare that Nineveh's long cruelty will meet a righteous and certain reckoning." },
-    "tov": { "language": "Hebrew", "lemma": "tov", "original": "טוֹב", "gloss": "Good, kind, generous. In the very hymn that thunders with wrath, Nahum declares that the LORD is good, a refuge for all who trust Him. His goodness and His judgment are not at war; the same God who is a stronghold for His people is the flood that overwhelms their enemies." },
-    "maoz": { "language": "Hebrew", "lemma": "maoz", "original": "מָעוֹז", "gloss": "A place of safety, a fortress or refuge. The word pictures a fortified height where the weak flee for protection. In the day of distress the LORD Himself is this stronghold, and He knows and cares for those who take shelter in Him." }
+    "massa": {
+      "language": "Hebrew",
+      "lemma": "massa",
+      "original": "מַשָּׂא",
+      "gloss": "A burden or oracle, a weighty pronouncement laid upon the prophet. The word can mean a heavy load and a solemn message of judgment at the same time. Nahum opens by naming his book a burden against Nineveh, a divine sentence so heavy it cannot be lifted off or set aside."
+    },
+    "qanna": {
+      "language": "Hebrew",
+      "lemma": "qanna",
+      "original": "קַנָּא",
+      "gloss": "Jealous, a word used in Scripture only of God. Divine jealousy is not petty envy but the fierce, protective love of a husband for his bride and a king for his honor. Because the LORD is jealous, He will not share His glory with idols or leave the abuse of His covenant people unanswered."
+    },
+    "naqam": {
+      "language": "Hebrew",
+      "lemma": "naqam",
+      "original": "נָקַם",
+      "gloss": "To avenge, to take vengeance, to repay wrong with just recompense. Vengeance here belongs to God, who alone judges without malice or excess. Nahum stacks the word three times in a single verse to declare that Nineveh's long cruelty will meet a righteous and certain reckoning."
+    },
+    "tov": {
+      "language": "Hebrew",
+      "lemma": "tov",
+      "original": "טוֹב",
+      "gloss": "Good, kind, generous. In the very hymn that thunders with wrath, Nahum declares that the LORD is good, a refuge for all who trust Him. His goodness and His judgment are not at war; the same God who is a stronghold for His people is the flood that overwhelms their enemies."
+    },
+    "maoz": {
+      "language": "Hebrew",
+      "lemma": "maoz",
+      "original": "מָעוֹז",
+      "gloss": "A place of safety, a fortress or refuge. The word pictures a fortified height where the weak flee for protection. In the day of distress the LORD Himself is this stronghold, and He knows and cares for those who take shelter in Him."
+    }
   },
   "study": {
     "basic": {
@@ -63,85 +120,248 @@
       "oneStory": "Nahum stands in the long story of a God who is patient with sinners yet finally just with evil. The same holiness that dooms Nineveh is the holiness satisfied at the cross, so that the good God who is a stronghold can gather sinners from every nation safely to Himself."
     },
     "context": {
-      "literary": "The book opens with a hymn, partly following an acrostic pattern, that functions as an overture to the whole prophecy. It sets the key: this is a book about the character of God before it is a book about the fall of a city. Storm, sea, mountain, and fire imagery portray the LORD as the sovereign warrior whose coming no power can resist.",
-      "historical": "Assyria terrorized the ancient Near East, deporting whole peoples and boasting in its atrocities. It destroyed the northern kingdom of Israel in 722 BC and pressed hard against Judah. Nahum writes after the fall of Thebes in 663 BC, which he mentions in chapter three, and before Nineveh's fall in 612 BC, to a people crushed under Assyrian dominance.",
-      "canonical": "One of the Twelve, Nahum is deliberately the sequel to Jonah. Jonah shows God's mercy to a repentant Nineveh; Nahum shows God's justice on a Nineveh returned to its violence. Together they display the two truths of Exodus 34:6-7, that God is merciful and gracious yet will by no means clear the guilty."
+      "literary": "The opening of Nahum is a title and then a poem. Verse 1 gives the book two names, a 'burden' and 'the book of the vision,' and the second phrase is unusual: the vision comes as something written. The poem that follows, verses 2 to 8, has long been noticed for traces of an alphabetic pattern, with line openings moving through the first letters of the Hebrew alphabet. The pattern is partial and not perfect, so it is best treated as a deliberate ordering device that gives the hymn a sense of completeness, from beginning to end of the alphabet of praise, and not as a strict acrostic.\n\nThe poem moves in three stages. Verses 2 and 3a name who God is, and three times in one verse the language of vengeance falls on His foes. Verses 3b to 6 show Him coming: whirlwind and storm, a rebuke that dries the sea, wilting mountains, trembling earth and a rhetorical double question that no one can answer. Verse 7 then does something surprising. After the thunder it stops and states, in a short line with a different rhythm, that the LORD is good and a stronghold. Verse 8 returns to the storm, and now the target is named, Nineveh.\n\nThe structure of the hymn is its argument. The reader does not meet Nineveh until verse 8, so that by the time the city appears, the question has already been settled: it is not a city facing an army, but a creature facing its Creator. The hymn is also an overture. Its themes, flood, fire, refuge and the end of a proud city, are the ones the rest of the book will fill with detail, and a reader who has understood these eight verses has understood the book.",
+      "historical": "Nahum names himself an Elkoshite, 1:1, but the location of Elkosh is not certain, and ancient and later traditions place it in more than one region, so it is wise to say only that we do not know where he lived. What we can say is when he spoke. The book looks back on the fall of Thebes in Egypt, 3:8 to 10, which the Assyrians sacked in 663 BC, and forward to the fall of Nineveh, which took place in 612 BC. Nahum is therefore speaking sometime in the middle of the seventh century BC, when Assyria still looked unbeatable.\n\nThe people he addressed had lived under Assyrian overlord for generations. Northern Israel had been deported, and Judah survived as a vassal. Isaiah had earlier told the people that the Assyrian king was the rod of God's anger and that the rod would be broken, Isaiah 10:5 to 12 and 24 to 27. Nahum is the late fulfilment of that word. The question ordinary Judeans must have been asking was the one Habakkuk puts, 'How long, O LORD?' Habakkuk 1:2. Nahum answers: not forever.\n\nThe imagery of verse 8 has a pointed background. Isaiah 8:7 and 8 had described Assyria as the mighty floodwaters of the Euphrates sweeping into Judah. Nahum turns the picture around. The power that flooded the nations is now flooded. It was also a standard feature of how Assyrian kings spoke about themselves to claim the favour of their gods, and so a prophecy that the God of a small subject people would end the empire was a claim about which God was truly in control. The whirlwind, the dried-up sea and the quaking mountains would also have been recognised as the language of Sinai and of the exodus, where the same God had shown Himself over Egypt, Exodus 19:18.",
+      "canonical": "Nahum 1:2 and 3 quotes Exodus 34:6 and 7, the self-revelation God gave after the golden calf, and it quotes it selectively. Nahum keeps 'slow to anger' and the warning that He will 'by no means leave the guilty unpunished,' and he adds 'great in power,' but he leaves the words 'compassionate and gracious' unquoted. The effect is not to deny them but to stress the other half for a hearer who needs it. Joel 2:13 and Jonah 4:2 use the same confession and lean the opposite way, towards mercy. Micah 7:18 and 19, in the book just before Nahum, draws on the same text for forgiveness. The Twelve thus read the confession of Exodus 34 from several sides, and Nahum is its justice side.\n\nThe whirlwind appearance is a regular pattern. The LORD answers Job out of the whirlwind, Job 38:1, and Habakkuk 3:3 to 6 pictures Him coming with mountains crumbling. Psalm 18:7 to 9 has the earth shaking and smoke rising from His nostrils. The question in verse 6, 'Who can withstand His indignation?', is asked again in Psalm 76:7, Malachi 3:2 and Revelation 6:17, where the kings of the earth hide in caves and cry out, 'who is able to withstand it?' Revelation takes the question and applies it to the Lamb's wrath.\n\nVerse 7, the LORD is good and a refuge, is echoed by Psalm 34:8 and Psalm 18:2, and the phrase 'those who take refuge in Him' matches Psalm 2:12. Paul draws on this tension in Romans 11:22 when he says to 'take notice, therefore, of the kindness and severity of God.' Hebrews 10:30 and 31 and 12:29 repeat the severity without losing the refuge."
     },
     "hermeneutics": {
-      "authorIntent": "To comfort an oppressed people by revealing the character of the God who is about to judge their oppressor, so that the reader trusts God's justice, takes refuge in His goodness, and stops fearing the powers that seem invincible.",
-      "descriptionVsPrescription": "The hymn describes who God is and what He will do to Nineveh; it does not license personal revenge. The abiding truths are the justice, patience, sovereignty, and goodness of God, and the call to take refuge in Him rather than to fear or envy the wicked.",
+      "authorIntent": "Nahum wants his hearers to believe a statement about God before he asks them to believe a statement about Nineveh. The poem comes first because the people addressed cannot hear a prophecy of Assyria's fall as anything other than wishful thinking until they have been shown who is behind it. An empire that has deported nations and sacked Thebes cannot be answered by another empire; it can only be answered by the Lord of the whirlwind. So the prophet makes his case from the character of God.\n\nHe also intends a particular comfort. The hymn tells the oppressed that their suffering has been seen and that God's patience is not blindness. It assures them that the end of Assyria is not an accident of politics but the outworking of a settled attribute, His jealousy for His own name and His own people. And in verse 7 Nahum draws the line between two groups: those who take refuge in Him, and those who are His enemies. The book is not a general prediction about empires but an invitation to be on the right side of that line.\n\nHe means, too, to warn. If God does not clear the guilty, then it matters that Judah was not guiltless either, and the reader who hears 'He knows those who take refuge in Him' is also invited to ask where he is taking refuge.",
+      "descriptionVsPrescription": "The hymn describes what God is and does; it does not instruct believers to do the same. Vengeance in Nahum is exercised by the LORD alone, and the New Testament holds that line: 'Do not avenge yourselves, beloved, but leave room for God's wrath,' Romans 12:19, quoting the same truth that vengeance belongs to Him. The poem is meant to take vengeance out of the hands of the oppressed and to put it in the only hands able to wield it justly.\n\nThe imagery of a storm-riding God is also description. Believers are not to expect the sea to dry up on demand or to treat every disaster as a message about a particular nation. The text speaks of one empire and one moment. What carries forward is the character it reveals: a God who is patient and also just, who is a refuge to those who trust Him, and who will end the cruelty of those who will not repent.\n\nThe pastoral use is specific. Where people suffer under power that seems unanswerable, the passage gives them permission to say that God sees and will act, without requiring them to pretend that wrong is not wrong. Where we ourselves are tempted to presume on God's patience, it reminds us that patience is not the same as approval.",
       "debates": [
         {
           "question": "How can God be slow to anger and yet by no means clear the guilty, 1:3?",
           "views": [
-            { "label": "Two truths held together", "case": "Nahum quotes Exodus 34:6-7, where God's mercy and His justice are stated in the same breath. His patience is real, giving space for repentance as Jonah showed, but patience is not indifference; unrepented evil will finally be judged." },
-            { "label": "A tension resolved only at the cross", "case": "Some stress that the deepest answer lies ahead: at Calvary God is shown to be both just and the justifier, punishing sin fully in Christ while sparing the guilty who trust Him, Romans 3:25-26." }
+            {
+              "label": "Two truths held together",
+              "case": "Nahum quotes Exodus 34:6-7, where God's mercy and His justice are stated in the same breath. His patience is real, giving space for repentance as Jonah showed, but patience is not indifference; unrepented evil will finally be judged. Romans 2:4 and 5 states it: kindness meant to lead to repentance, and wrath stored up for the unrepentant."
+            },
+            {
+              "label": "A tension resolved only at the cross",
+              "case": "Some stress that the deepest answer lies ahead: at Calvary God is shown to be both just and the justifier, punishing sin fully in Christ while sparing the guilty who trust Him, Romans 3:25-26. Without the cross, the claim that God neither clears the guilty nor leaves them unforgiven would remain unexplained."
+            }
           ],
           "bearing": "Both readings are true and complementary. God's patience is not weakness and His justice is not cruelty; the two meet perfectly in the gospel, which is why Nahum's wrath is finally good news for those who take refuge in Him."
+        },
+        {
+          "question": "Is Nahum's vengeful God at odds with the God revealed in Jesus?",
+          "views": [
+            {
+              "label": "One God, one character",
+              "case": "The New Testament uses the same language. Hebrews 10:30 and 31 says it is a fearful thing to fall into the hands of the living God, and Revelation 19:11 to 16 shows Christ judging and making war with righteousness. Jesus Himself weeps over Jerusalem, Luke 19:41 to 44, and warns of judgment. On this view Nahum and the Gospels reveal one holy God."
+            },
+            {
+              "label": "Vengeance as justice for the oppressed",
+              "case": "Nahum's wrath is not temper but the response of a ruler to cruelty. Nineveh is judged for violence and plunder, 3:1 to 4, and the cry of the victims is part of what is heard. Read this way, a God who never acted against such evil would be less loving, not more."
+            },
+            {
+              "label": "A stage in a developing revelation",
+              "case": "Others say the Old Testament pictures are real but partial, and that the cross gives the fullest word on how God deals with evil, in taking its penalty on Himself. Nahum is not wrong, but it points beyond itself."
+            }
+          ],
+          "bearing": "The first two views cohere in the third. The God of Nahum is the God of Jesus, and the cross does not cancel the wrath but answers how a righteous God can be both just and the justifier."
         }
       ]
     },
-    "originalLanguages": "The overture is built on loaded words. The book is a massa, a burden, a heavy oracle of judgment. God is qanna, jealous, a term reserved for Him alone, expressing His zeal for His honor and His people. He is naqam, avenging, and Nahum repeats the root three times in verse two so the reader cannot miss it. Verse three lifts a line straight from Exodus 34: slow to anger, yet by no means clearing the guilty. Then the hinge of the poem, verse seven: the LORD is tov, good, and a maoz, a stronghold, for those who trust Him, so that the same power that floods Nineveh shelters His own.",
+    "originalLanguages": "Verse 3 says the LORD is 'slow to anger,' literally long of nostrils, erek appayim, and the idiom depends on the Hebrew picture of anger as hot breath through the nose. The same word for nostril or face, af, returns in verse 6 in 'burning anger,' charon af, so that the same anger which is long, slow to ignite, in verse 3 is shown burning in verse 6. The hymn places both pictures of the same organ side by side. The phrase 'slow to anger' comes directly from Exodus 34:6, and so does the construction behind 'by no means leave the guilty unpunished,' in which the verb is doubled for emphasis, an infinitive set beside the finite verb. The same structure occurs in Exodus 34:7. Nahum has added 'great in power,' a phrase that is his own and fits his subject.\n\nVerse 2 describes God as 'full of wrath,' literally the owner or master of wrath, ba'al chemah. The idiom pictures wrath as something He holds and governs, not something that governs Him. The master of wrath does not lose his temper; he decides when to release it. This is a quiet corrective to the idea that divine anger is an emotional outburst.\n\nThe 'whirlwind and storm' of verse 3 give the first word, se'arah, the same word with which the LORD answered Job in Job 38:1. In the same verse 'the dust beneath His feet' says that what looks to us like a towering storm cloud is only the dust raised by His walking. Nahum measures the sky against God's stride.\n\nVerse 4 says He 'rebukes' the sea, using the verb ga'ar, which the Psalms use of the LORD's rebuke of the Red Sea, Psalm 106:9. It is the word of a commander speaking to a subordinate. The sea is the old picture of chaos and of Israel's enemies, and it obeys.\n\nVerse 7 contains the surprising turn. 'Stronghold' translates maoz, a place of refuge to which one flees, and 'those who trust in Him' translates a verb meaning to take refuge, the same phrase that closes Psalm 2:12, 'Blessed are all who take refuge in Him.' In between, 'cares for' renders the ordinary Hebrew verb to know, yada. To be known by the LORD in this sense is to be acknowledged and held in covenant, as in Amos 3:2, 'Only you have I known from all the families of the earth.' The text says God knows those who flee to Him, and the knowledge is the opposite of the 'darkness' in which He pursues His enemies in verse 8.\n\nVerse 8 speaks of an 'overwhelming flood,' shetef, a word of overflowing water, and says He will 'make an end,' from the root kalah, to bring to completion. The same word returns in verse 9, so the verb of ending ties the hymn to the next movement. The BSB footnote notes the literal Hebrew 'of her place,' so the end falls not only on the people but on the very site of the city.",
     "typology": [
-      { "type": "The LORD coming in whirlwind, storm, and fire", "fulfillment": "The Lord Jesus revealed from heaven in blazing fire, dealing out justice at His return, 2 Thessalonians 1:7-8." },
-      { "type": "The overwhelming flood that makes an end of God's enemies", "fulfillment": "The final judgment that sweeps away all evil, prefigured also in the flood of Noah, from which one refuge saved a people." },
-      { "type": "The LORD as a stronghold in the day of distress", "fulfillment": "Christ as the refuge for sinners, in whom there is no condemnation for those who take shelter in Him, Romans 8:1." }
+      {
+        "type": "The God who comes in the storm, Nahum 1:3 to 6",
+        "fulfillment": "Whirlwind, fire, quaking mountains and a rebuke to the sea reach back to Sinai, where the mountain was wrapped in smoke 'because the LORD had descended on it in fire,' Exodus 19:18. In the New Testament the same signs gather around the coming of Christ. He is the one who stands in the boat and 'rebuked the wind and the sea,' Mark 4:39, and the disciples ask, 'Who is this, that even the wind and the sea obey Him?' Mark 4:41. At His return the powers of heaven will be shaken. The type falls short at one point: Nahum's storm is for one city, while the second coming involves the whole world."
+      },
+      {
+        "type": "The overwhelming flood, Nahum 1:8",
+        "fulfillment": "A flood that sweeps away the proud recalls the days of Noah, which Jesus uses as a pattern of the coming of the Son of Man: people carried on with ordinary life 'until the flood came and swept them all away,' Matthew 24:37 to 39. Nahum applies the pattern within history to Nineveh, and Jesus applies it to the last day. The correspondence is that unrepentant security is overtaken suddenly. The type is incomplete because in Noah's day an ark stood ready, and in Nahum there is a stronghold. The refuge in the flood is a person, not a place."
+      },
+      {
+        "type": "The stronghold in the day of distress, Nahum 1:7",
+        "fulfillment": "The stronghold of verse 7 answers the question of verse 6, and the New Testament names it. Hebrews 6:18 speaks of those 'who have fled to take hold of the hope set before us,' and 6:19 describes that hope as an anchor that enters behind the curtain. Jesus Himself says of His sheep, 'No one can snatch them out of My hand,' John 10:28. The escalation is that the refuge is no longer a fortified place that can fall, as Nineveh's did, but a living Saviour who has already gone through the judgment on behalf of those who flee to Him."
+      },
+      {
+        "type": "The darkness that pursues God's enemies, Nahum 1:8",
+        "fulfillment": "Darkness is where the enemies of God are driven, and it is the plague that fell on Egypt before the exodus. At the cross the Gospels record that 'darkness came over all the land' from the sixth hour until the ninth, Luke 23:44, and that Jesus then cried, 'My God, My God, why have You forsaken Me?' Mark 15:34. The correspondence is startling: the judgment that Nahum describes as pursuing the enemy fell on the Son who took the place of His enemies. The type does not claim that Jesus was an enemy of God; Paul explains it as Christ becoming a curse for us, Galatians 3:13."
+      }
     ],
-    "christ": "Nahum insists that God will by no means clear the guilty, and that is terrifying until we come to the cross. There the jealous, avenging God poured out His just wrath upon His own Son, so that the guilty who trust Him are not swept away in the flood but hidden in the stronghold. The good God of verse seven, who knows and cares for those who take refuge in Him, is seen most clearly in Jesus, who welcomes the helpless and bears the storm in their place. His return will complete what Nahum foresaw, when every enemy of God is finally judged and every refuge-seeker is safe.",
-    "god": "The LORD is jealous for His honor and His people, patient beyond what His enemies deserve, and sovereign over sea, mountain, and storm, so that no power can withstand Him. He is perfectly just: He will not treat evil as though it did not matter. And in the same breath He is good, a stronghold who knows those who trust Him. His goodness and His severity are not in conflict; they flow from one holy character.",
+    "christ": "Nahum 1:2 to 8 leads to Christ most surely by asking the question it cannot itself answer: if the LORD is jealous and avenging, and 'who can withstand His indignation,' how can anyone be a person who 'takes refuge in Him'? The poem posits a stronghold for those who flee, but it does not explain how a refuge can be built inside a judgment. The New Testament says that this is exactly what the cross does. God put forward Christ 'as the atoning sacrifice through faith in His blood, in order to demonstrate His righteousness,' Romans 3:25, so that He might be 'just and the justifier.' The righteous anger that Nahum calls vengeance is real, and it is not waved away. It is borne. Isaiah 53:6 says the LORD laid on His Servant the iniquity of us all.\n\nThe pattern of the poem, wrath and then refuge, also matches how Paul speaks of Jesus. He is 'Jesus our deliverer from the coming wrath,' 1 Thessalonians 1:10. The fire and flood of Nahum are not toned down in the New Testament; they are described with the same vocabulary, and they are said to be what Jesus rescues us from. This is why the gospel can be offered urgently, not as a mild improvement to life but as a rescue.\n\nThe poem connects to the person of Christ in a second way, through His authority over the elements. Nahum's God rebukes the sea and dries it up. In Mark 4:39 Jesus rebukes the wind and the sea and they obey, and the disciples, steeped in the Old Testament, are 'overwhelmed with fear' and ask who this is. The question is not answered by the Gospels with a theory but by the very picture Nahum painted: the LORD, whose path is in the storm, was in the boat.\n\nThere is also the matter of the day of wrath at the end. Revelation 19:11 to 16 shows the one called Faithful and True, who 'with righteousness judges and wages war,' and who 'treads the winepress of the fury of the wrath of God the Almighty.' The warrior of Nahum 1 and the Lamb of Revelation are the same person, and the Lamb's wrath is the matter of Revelation 6:16 and 17, where the question of Nahum 1:6 is asked again. Yet the same Christ says of those who belong to Him that no one can snatch them from His hand, John 10:28.\n\nA caution keeps this honest. Nahum does not name the Messiah, and the passage is not a coded prediction of Jesus. It leads to Him by theme and by the questions it raises, and the New Testament's use of its vocabulary of wrath and refuge supplies the link. What the text supplies is the problem, a holy God and sinners, and the first part of the solution: He knows those who take refuge in Him.",
+    "god": "Nahum 1:2 to 8 is one of the most concentrated pictures of God's character in the Old Testament, and it begins with something many readers find uncomfortable. God is called jealous in the opening verse, and avenging again and again, and the meaning is not the petty envy of human jealousy but the right of a covenant Lord to the loyalty that is His, as in Exodus 34:14, 'the LORD, whose name is Jealous, is a jealous God.' A God who was indifferent to being betrayed, or to His people being devoured, would not be a loving God. His jealousy is the other side of His faithfulness.\n\nHe is shown to be sovereign over creation. He rebukes the sea, withers Bashan and Carmel and Lebanon, which were the lushest places the hearers knew, and shakes the mountains. These are not the actions of a local deity but of the maker of everything, who can switch off fertility and shake the foundations at will. The imagery also tells us He is not part of nature but over it.\n\nHe is patient and powerful at the same time. Verse 3 sets 'slow to anger' next to 'great in power,' and the two belong together. Only someone who could act at any moment can truly be patient; patience in the weak is only helplessness. God's slowness is therefore strength, a decision to hold back what He has the might to do. And the same verse says patience has a limit: He 'will by no means leave the guilty unpunished.' Ecclesiastes 8:11 describes what happens when sentence is delayed, that human hearts become set on evil, and Nahum answers that delay is not cancellation.\n\nHe is just and holy. Psalm 7:11 says God is 'a righteous judge and a God who feels indignation each day,' and verse 6's questions, 'Who can withstand His indignation?', are a question about holiness, not about temperament. The anger is poured out like fire because He is perfectly opposed to cruelty. A God without such anger could not be trusted by the victims of Nineveh.\n\nAnd He is good. This is the hinge of the hymn. After six verses of storm and fire the poem says, simply, that the LORD is good. The goodness is not in tension with the wrath but is shown in it: it is because He is good that He opposes what destroys. He is also personally attentive. The verb 'knows' says He is not an impersonal force but one who recognises each person who runs to Him.\n\nFor worship, Nahum teaches reverence and trust together. Hebrews 12:28 and 29 says that we should worship 'with reverence and awe' because 'our God is a consuming fire.' The right response is neither terror that keeps us away nor casual familiarity, but the confidence of those who have found the stronghold. It also frees us from fear of tyrants. If this God opposes the most powerful empire of the age, then no earthly power is the last word, and the prayer 'How long?' is heard.",
     "crossReferences": [
-      { "ref": "Exodus 34:6-7", "note": "The source Nahum draws on: the LORD is slow to anger and abounding in love, yet He will by no means clear the guilty." },
-      { "ref": "Jonah 3:10", "note": "Nineveh once repented and was spared, showing God's patience; Nahum shows the justice that falls when that patience is spurned." },
-      { "ref": "Romans 12:19", "note": "Vengeance belongs to God, so His people can entrust wrongs to Him rather than avenging themselves." },
-      { "ref": "Psalm 46:1", "note": "God is our refuge and strength, a very present help in trouble, the same comfort as Nahum 1:7." }
+      {
+        "ref": "Exodus 34:6-7",
+        "note": "The text Nahum 1:2 and 3 draws on. After the golden calf God proclaimed Himself compassionate, slow to anger and abounding in loving devotion, yet one who 'will by no means leave the guilty unpunished.' Nahum quotes the second half for a people who need to hear it, while Micah 7:18 and 19 and Jonah 4:2 stress the first half."
+      },
+      {
+        "ref": "Jonah 3:4-10",
+        "note": "The earlier chapter in Nineveh's story. When Jonah warned the city, the king and people turned from their evil and violence and God relented. Nahum speaks to a later generation of the same city that has gone back to its violence. Together the two books show that God's mercy to Nineveh was real, and so is His justice when mercy is spurned."
+      },
+      {
+        "ref": "Isaiah 8:7-8",
+        "note": "Isaiah describes Assyria as the mighty floodwaters of the Euphrates overflowing and sweeping into Judah. Nahum 1:8 reverses the picture: the flood that swept over the nations will itself be overwhelmed, and the destroyer will be destroyed. The same image serves both oracles, one of coming trouble and the other of its ending."
+      },
+      {
+        "ref": "Isaiah 10:24-27",
+        "note": "God tells His people not to fear Assyria, because in a little while His fury against them will subside and turn to the destruction of their oppressor. The yoke will be broken. Nahum is the working out of that promise, and shows that the rod God used for discipline would not escape judgment."
+      },
+      {
+        "ref": "Psalm 2:12",
+        "note": "The close of the psalm says, 'Blessed are all who take refuge in Him,' using the same phrase as Nahum 1:7. Psalm 2 also warns the kings of the earth to serve the LORD with fear lest He be angry and they perish. The two texts set the same choice before the powerful and the weak: flee to Him or face Him."
+      },
+      {
+        "ref": "Habakkuk 3:3-6",
+        "note": "Another prophet's picture of God coming in glory, with mountains crumbling and nations startled. Habakkuk also asks how long the wicked can prosper, and his book is the natural companion to Nahum. Both show a God who is not distant from violence but moves against it in His own time."
+      },
+      {
+        "ref": "Romans 12:19",
+        "note": "Paul quotes the principle that vengeance is God's and tells believers to leave room for God's wrath. This sets the right use of Nahum 1:2 to 6: the passage does not authorise personal revenge but takes it out of human hands, and trusts the Judge who sees what we cannot."
+      },
+      {
+        "ref": "Romans 3:25-26",
+        "note": "Explains how the God of Nahum 1 can both be a judge who does not clear the guilty and a refuge for those who trust in Him. God put forward Christ as the atoning sacrifice, so that He might be just and the justifier of those who have faith in Jesus."
+      },
+      {
+        "ref": "Mark 4:39-41",
+        "note": "Jesus rebukes the wind and the sea and they obey. The verb of Nahum 1:4, where God rebukes the sea and dries it up, is the Old Testament background of the disciples' fear. They ask who this is, and the Old Testament has already shown who rebukes the sea."
+      },
+      {
+        "ref": "Hebrews 12:28-29",
+        "note": "Calls believers to worship with reverence and awe because 'our God is a consuming fire,' quoting Deuteronomy 4:24. The writer holds together the unshakable kingdom we receive and the fire that surrounds the holy God, which is exactly the double picture of Nahum 1:2 to 8."
+      },
+      {
+        "ref": "Revelation 6:15-17",
+        "note": "The kings, nobles and the mighty hide in caves and among the rocks and ask who is able to withstand the great day of wrath. It is the question of Nahum 1:6 taken up in the final judgment, where the answer is that only those who have taken refuge in the Lamb stand."
+      }
     ],
-    "oneStory": "Nahum belongs to the great biblical account of a God who is patient with sinners yet will not let evil stand forever. The holiness that dooms Nineveh is the very holiness satisfied at the cross, where wrath and mercy meet. So the good God who is a stronghold in the day of distress can gather the helpless from every nation and keep them safe when the flood of judgment finally comes.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "No verified expository sermon on Nahum 1:1-8 from a trusted expositor could be confirmed this session; a passage-level exposition can be added later." }
+    "oneStory": "Nahum 1:2 to 8 stands at the point in the story where the question of evil becomes a question about power. The early chapters of Genesis show human violence rising to the flood, and the next big empire to rise, Babel, builds against heaven. From the exodus on, the story has been of a God who hears the cry of the oppressed and comes down. Egypt is the first great case, with a sea that is rebuked and dried up, and Assyria is a later one. Nahum shows the same God doing the same thing again, so that the exodus is revealed as a pattern and not an isolated event.\n\nThe passage also fills in a part of God's self-revelation that the story needs. After the golden calf, God showed Moses His character, Exodus 34, and Nahum reads half of that character aloud to an oppressed people. What the story is teaching is that mercy and justice are not rivals. The prophets will go on to speak of a day of the LORD, Isaiah of the winepress, Malachi of the refiner's fire, and each time the same God is in view.\n\nThe passage is in the middle of a long answer to a single prayer: 'How long, O LORD?' The answer for Nineveh is within a few decades. The answer for the whole world is longer, and the story keeps teaching its readers to wait, as Habakkuk and Micah do. 2 Peter 3:9 says the delay is patience, 'not wanting anyone to perish but everyone to come to repentance.'\n\nThe story then comes to its centre in the cross, where the whirlwind and the stronghold are united. The wrath is borne, and a refuge is opened to those who flee to Him, whether Ninevite or Judean. The same Christ who stilled the storm will return, and the second coming is the day Nahum's hymn points to, when 'the wrath of the Lamb' is revealed and the powers that devoured the weak are ended, Revelation 6:16 and 17.\n\nIn the new creation the question 'Who can withstand His indignation?' is gone, because all that provoked it is gone. The refuge no longer has to be a place to flee to; there is no more curse, and God's people live in His presence, Revelation 22:3. The sea that Nahum's God rebukes is, in John's vision, no more, Revelation 21:1, and the creation that withered and shook finally rests.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": "No verified expository sermon on Nahum 1:1-8 from a trusted expositor could be confirmed this session; a passage-level exposition can be added later."
+    }
   },
   "quiz": [
     {
       "q": "How does the opening hymn hold together God's patience and His justice, 1:3?",
       "options": [
-        { "text": "He is slow to anger, yet He will by no means leave the guilty unpunished.", "weight": 100, "note": "Nahum quotes Exodus 34: real patience and real justice belong to the same God." },
-        { "text": "He is patient now but will simply overlook sin in the end.", "weight": 75, "note": "His patience is real, but the verse insists the guilty are not left unpunished." },
-        { "text": "He is only angry and never patient at all.", "weight": 25, "note": "The verse plainly calls Him slow to anger; his patience is genuine." },
-        { "text": "His patience means He never judges anyone.", "weight": 0, "note": "The whole book announces His just judgment on Nineveh." }
+        {
+          "text": "He is slow to anger, yet He will by no means leave the guilty unpunished.",
+          "weight": 100,
+          "note": "Nahum quotes Exodus 34: real patience and real justice belong to the same God."
+        },
+        {
+          "text": "He is patient now but will simply overlook sin in the end.",
+          "weight": 75,
+          "note": "His patience is real, but the verse insists the guilty are not left unpunished."
+        },
+        {
+          "text": "He is only angry and never patient at all.",
+          "weight": 25,
+          "note": "The verse plainly calls Him slow to anger; his patience is genuine."
+        },
+        {
+          "text": "His patience means He never judges anyone.",
+          "weight": 0,
+          "note": "The whole book announces His just judgment on Nineveh."
+        }
       ]
     },
     {
       "q": "What does the Hebrew word qanna, jealous, tell us about God in verse 2?",
       "options": [
-        { "text": "It is His fierce, protective zeal for His honor and His people, not petty envy.", "weight": 100, "note": "Qanna is used only of God and expresses covenant love that will not share His glory." },
-        { "text": "It means God is insecure and easily threatened.", "weight": 25, "note": "Divine jealousy is nothing like human insecurity; it is holy, protective love." },
-        { "text": "It stirs God's anger against rivals to His glory, though it is far more than mere anger.", "weight": 75, "note": "Jealousy does provoke God's anger against idols, but at root it is protective covenant love." },
-        { "text": "It shows God is indifferent to how He is treated.", "weight": 0, "note": "Jealousy is the opposite of indifference; God cares deeply for His glory." }
+        {
+          "text": "It is His fierce, protective zeal for His honor and His people, not petty envy.",
+          "weight": 100,
+          "note": "Qanna is used only of God and expresses covenant love that will not share His glory."
+        },
+        {
+          "text": "It means God is insecure and easily threatened.",
+          "weight": 25,
+          "note": "Divine jealousy is nothing like human insecurity; it is holy, protective love."
+        },
+        {
+          "text": "It stirs God's anger against rivals to His glory, though it is far more than mere anger.",
+          "weight": 75,
+          "note": "Jealousy does provoke God's anger against idols, but at root it is protective covenant love."
+        },
+        {
+          "text": "It shows God is indifferent to how He is treated.",
+          "weight": 0,
+          "note": "Jealousy is the opposite of indifference; God cares deeply for His glory."
+        }
       ]
     },
     {
       "q": "Right in the middle of a hymn about wrath, what does verse 7 declare?",
       "options": [
-        { "text": "The LORD is good, a stronghold in distress, who cares for those who trust Him.", "weight": 100, "note": "The same God who floods His enemies is a refuge to those who take shelter in Him." },
-        { "text": "The LORD is good only to those who have never sinned.", "weight": 75, "note": "The refuge is for those who trust Him, the helpless who take shelter, not the sinless." },
-        { "text": "The LORD is good, so no one ever faces His judgment.", "weight": 25, "note": "His goodness stands alongside real judgment on His enemies in the very next verse." },
-        { "text": "The LORD is distant and cares for no one.", "weight": 0, "note": "The verse says He knows and cares for those who trust in Him." }
+        {
+          "text": "The LORD is good, a stronghold in distress, who cares for those who trust Him.",
+          "weight": 100,
+          "note": "The same God who floods His enemies is a refuge to those who take shelter in Him."
+        },
+        {
+          "text": "The LORD is good only to those who have never sinned.",
+          "weight": 75,
+          "note": "The refuge is for those who trust Him, the helpless who take shelter, not the sinless."
+        },
+        {
+          "text": "The LORD is good, so no one ever faces His judgment.",
+          "weight": 25,
+          "note": "His goodness stands alongside real judgment on His enemies in the very next verse."
+        },
+        {
+          "text": "The LORD is distant and cares for no one.",
+          "weight": 0,
+          "note": "The verse says He knows and cares for those who trust in Him."
+        }
       ]
     },
     {
       "q": "Why is Nahum called the sequel to Jonah?",
       "options": [
-        { "text": "Jonah shows God sparing a repentant Nineveh; Nahum shows His justice on a Nineveh returned to its cruelty.", "weight": 100, "note": "Together they display God's mercy and His justice, as in Exodus 34:6-7." },
-        { "text": "Both concern the same city, Nineveh, though the tie is only that shared setting.", "weight": 75, "note": "They do share the city of Nineveh, but the deeper link is the pairing of mercy and justice." },
-        { "text": "Nahum repeats Jonah's story word for word.", "weight": 25, "note": "Nahum is a distinct prophecy roughly a century later, not a retelling." },
-        { "text": "The two books have nothing to do with each other.", "weight": 0, "note": "They are deliberately paired around the same city of Nineveh." }
+        {
+          "text": "Jonah shows God sparing a repentant Nineveh; Nahum shows His justice on a Nineveh returned to its cruelty.",
+          "weight": 100,
+          "note": "Together they display God's mercy and His justice, as in Exodus 34:6-7."
+        },
+        {
+          "text": "Both concern the same city, Nineveh, though the tie is only that shared setting.",
+          "weight": 75,
+          "note": "They do share the city of Nineveh, but the deeper link is the pairing of mercy and justice."
+        },
+        {
+          "text": "Nahum repeats Jonah's story word for word.",
+          "weight": 25,
+          "note": "Nahum is a distinct prophecy roughly a century later, not a retelling."
+        },
+        {
+          "text": "The two books have nothing to do with each other.",
+          "weight": 0,
+          "note": "They are deliberately paired around the same city of Nineveh."
+        }
       ]
     },
     {
       "q": "How does Nahum's picture of God's wrath become good news in Christ?",
       "options": [
-        { "text": "At the cross that just wrath fell on Jesus, so the guilty who trust Him find the stronghold instead of the flood.", "weight": 100, "note": "God is shown to be both just and the justifier of those who have faith, Romans 3:26." },
-        { "text": "Christ shows that God was never really going to judge sin.", "weight": 25, "note": "The cross is God taking sin's judgment with full seriousness, not setting it aside." },
-        { "text": "Christ turns God's wrath away from us so that we know His favor.", "weight": 75, "note": "Close: Christ does turn the wrath away, but by bearing it Himself, not by it simply vanishing." },
-        { "text": "Jesus has no connection to the God of Nahum.", "weight": 0, "note": "Jesus reveals and satisfies the very justice and goodness Nahum proclaims." }
+        {
+          "text": "At the cross that just wrath fell on Jesus, so the guilty who trust Him find the stronghold instead of the flood.",
+          "weight": 100,
+          "note": "God is shown to be both just and the justifier of those who have faith, Romans 3:26."
+        },
+        {
+          "text": "Christ shows that God was never really going to judge sin.",
+          "weight": 25,
+          "note": "The cross is God taking sin's judgment with full seriousness, not setting it aside."
+        },
+        {
+          "text": "Christ turns God's wrath away from us so that we know His favor.",
+          "weight": 75,
+          "note": "Close: Christ does turn the wrath away, but by bearing it Himself, not by it simply vanishing."
+        },
+        {
+          "text": "Jesus has no connection to the God of Nahum.",
+          "weight": 0,
+          "note": "Jesus reveals and satisfies the very justice and goodness Nahum proclaims."
+        }
       ]
     }
   ],
@@ -153,8 +373,17 @@
     "The wrath Nahum describes fell on Jesus for all who trust Him. How does knowing you are hidden in that stronghold free you from fear of the powers that once seemed unbeatable?"
   ],
   "translationNotes": [
-    { "ref": "Nahum 1:1", "note": "Burden, Hebrew massa, can mean both a heavy load and a prophetic oracle; the double sense fits a message of judgment that weighs heavily on the one who bears it and on the city it names." },
-    { "ref": "Nahum 1:2-3", "note": "These verses echo Exodus 34:6-7 closely, deliberately setting God's patience and His justice side by side; Nahum draws the accent onto the justice that Nineveh has spurned." }
+    {
+      "ref": "Nahum 1:1",
+      "note": "Burden, Hebrew massa, can mean both a heavy load and a prophetic oracle; the double sense fits a message of judgment that weighs heavily on the one who bears it and on the city it names."
+    },
+    {
+      "ref": "Nahum 1:2-3",
+      "note": "These verses echo Exodus 34:6-7 closely, deliberately setting God's patience and His justice side by side; Nahum draws the accent onto the justice that Nineveh has spurned."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Nahum 1:1-8. Poetic line fragments joined into running verse text." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Nahum 1:1-8. Poetic line fragments joined into running verse text."
+  }
 }

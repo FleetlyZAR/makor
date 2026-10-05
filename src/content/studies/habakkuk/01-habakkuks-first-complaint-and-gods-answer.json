@@ -18,10 +18,26 @@
         "note": "how long, O LORD",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 1, "text": "This is the {{massa|burden}} that Habakkuk the prophet received in a vision:" },
-          { "chapter": 1, "n": 2, "text": "How long, O LORD, must I call for help but You do not hear, or cry out to You, “{{chamas|Violence!}}” but You do not save?" },
-          { "chapter": 1, "n": 3, "text": "Why do You make me see iniquity? Why do You tolerate wrongdoing? Destruction and violence are before me. Strife is ongoing, and conflict abounds." },
-          { "chapter": 1, "n": 4, "text": "Therefore the law is paralyzed, and justice never goes forth. For the wicked hem in the {{tsaddiq|righteous}}, so that justice is perverted." }
+          {
+            "chapter": 1,
+            "n": 1,
+            "text": "This is the {{massa|burden}} that Habakkuk the prophet received in a vision:"
+          },
+          {
+            "chapter": 1,
+            "n": 2,
+            "text": "How long, O LORD, must I call for help but You do not hear, or cry out to You, “{{chamas|Violence!}}” but You do not save?"
+          },
+          {
+            "chapter": 1,
+            "n": 3,
+            "text": "Why do You make me see iniquity? Why do You tolerate wrongdoing? Destruction and violence are before me. Strife is ongoing, and conflict abounds."
+          },
+          {
+            "chapter": 1,
+            "n": 4,
+            "text": "Therefore the law is paralyzed, and justice never goes forth. For the wicked hem in the {{tsaddiq|righteous}}, so that justice is perverted."
+          }
         ]
       },
       {
@@ -29,22 +45,70 @@
         "note": "look and be astounded",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 5, "text": "“Look at the nations and observe, be utterly astounded! For I am doing a work in your days that you would never believe even if someone told you." },
-          { "chapter": 1, "n": 6, "text": "For behold, I am raising up the {{kasdim|Chaldeans}}, that ruthless and impetuous nation, which marches through the breadth of the earth to seize dwellings not their own." },
-          { "chapter": 1, "n": 7, "text": "They are dreaded and feared; from themselves they derive justice and sovereignty." },
-          { "chapter": 1, "n": 8, "text": "Their horses are swifter than leopards, fiercer than wolves of the night. Their horsemen charge ahead, and their cavalry comes from afar. They fly like a vulture, swooping down to devour." },
-          { "chapter": 1, "n": 9, "text": "All of them come bent on violence; their hordes advance like the east wind; they gather prisoners like sand." },
-          { "chapter": 1, "n": 10, "text": "They scoff at kings and make rulers an object of scorn. They laugh at every fortress and build up siege ramps to seize it." },
-          { "chapter": 1, "n": 11, "text": "Then they sweep by like the wind and pass through. They are guilty; their own strength is their god.”" }
+          {
+            "chapter": 1,
+            "n": 5,
+            "text": "“Look at the nations and observe, be utterly astounded! For I am doing a work in your days that you would never believe even if someone told you."
+          },
+          {
+            "chapter": 1,
+            "n": 6,
+            "text": "For behold, I am raising up the {{kasdim|Chaldeans}}, that ruthless and impetuous nation, which marches through the breadth of the earth to seize dwellings not their own."
+          },
+          {
+            "chapter": 1,
+            "n": 7,
+            "text": "They are dreaded and feared; from themselves they derive justice and sovereignty."
+          },
+          {
+            "chapter": 1,
+            "n": 8,
+            "text": "Their horses are swifter than leopards, fiercer than wolves of the night. Their horsemen charge ahead, and their cavalry comes from afar. They fly like a vulture, swooping down to devour."
+          },
+          {
+            "chapter": 1,
+            "n": 9,
+            "text": "All of them come bent on violence; their hordes advance like the east wind; they gather prisoners like sand."
+          },
+          {
+            "chapter": 1,
+            "n": 10,
+            "text": "They scoff at kings and make rulers an object of scorn. They laugh at every fortress and build up siege ramps to seize it."
+          },
+          {
+            "chapter": 1,
+            "n": 11,
+            "text": "Then they sweep by like the wind and pass through. They are guilty; their own strength is their god.”"
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "massa": { "language": "Hebrew", "lemma": "massa", "original": "משא", "gloss": "A burden, or a prophetic oracle. The word can mean a heavy load lifted up and carried, and it becomes a term for a weighty word from God. Habakkuk's message is literally a burden: a heavy revelation he must bear and then speak." },
-    "chamas": { "language": "Hebrew", "lemma": "chamas", "original": "חמס", "gloss": "Violence, wrong, cruelty, the ruin that people inflict on one another. It is the same word used of the earth in the days of Noah, Genesis 6:11. Habakkuk shouts this one word at God as his whole complaint: the covenant people are drowning in violence." },
-    "tsaddiq": { "language": "Hebrew", "lemma": "tsaddiq", "original": "צדיק", "gloss": "The righteous one, the person who is in the right and lives rightly before God. The wicked in Judah hem in the righteous so that justice is twisted. This same word anchors the book's great line, the righteous will live by faith, in 2:4." },
-    "kasdim": { "language": "Hebrew", "lemma": "Kasdim", "original": "כשדים", "gloss": "The Chaldeans, that is the Babylonians, the rising imperial power that would soon sweep across the Near East. God names them as the very instrument He is raising up, a rescuer's answer that sounds at first like a nightmare." }
+    "massa": {
+      "language": "Hebrew",
+      "lemma": "massa",
+      "original": "משא",
+      "gloss": "A burden, or a prophetic oracle. The word can mean a heavy load lifted up and carried, and it becomes a term for a weighty word from God. Habakkuk's message is literally a burden: a heavy revelation he must bear and then speak."
+    },
+    "chamas": {
+      "language": "Hebrew",
+      "lemma": "chamas",
+      "original": "חמס",
+      "gloss": "Violence, wrong, cruelty, the ruin that people inflict on one another. It is the same word used of the earth in the days of Noah, Genesis 6:11. Habakkuk shouts this one word at God as his whole complaint: the covenant people are drowning in violence."
+    },
+    "tsaddiq": {
+      "language": "Hebrew",
+      "lemma": "tsaddiq",
+      "original": "צדיק",
+      "gloss": "The righteous one, the person who is in the right and lives rightly before God. The wicked in Judah hem in the righteous so that justice is twisted. This same word anchors the book's great line, the righteous will live by faith, in 2:4."
+    },
+    "kasdim": {
+      "language": "Hebrew",
+      "lemma": "Kasdim",
+      "original": "כשדים",
+      "gloss": "The Chaldeans, that is the Babylonians, the rising imperial power that would soon sweep across the Near East. God names them as the very instrument He is raising up, a rescuer's answer that sounds at first like a nightmare."
+    }
   },
   "study": {
     "basic": {
@@ -58,84 +122,240 @@
       "oneStory": "The book opens on the problem the whole Bible addresses: a world, even God's own people, ruined by violence, and a God who seems silent. God's answer begins the long road that runs through judgment and exile toward the coming of Christ, in whom God does the work no one would have believed."
     },
     "context": {
-      "literary": "The book begins as a dialogue rather than a typical prophetic address. Verse 1 is a superscription; then the prophet speaks to God in the form of a lament, how long and why, and God replies in verses 5 to 11. This question-and-answer shape drives the whole first two chapters.",
-      "historical": "Habakkuk prophesies in Judah in the years around 605 before Christ, after the fall of Assyria and as Babylon under Nebuchadnezzar becomes the dominant power. Judah is inwardly corrupt and outwardly about to be overrun. The rising Chaldeans God names are the empire that will besiege and destroy Jerusalem in 586.",
-      "canonical": "Habakkuk stands among the twelve Minor Prophets and is unique for taking the form of a sustained argument with God. Its central verse, 2:4, becomes one of the most quoted Old Testament texts in the New, shaping the doctrine of justification by faith."
+      "literary": "The passage is a two-voice exchange, and its structure is a quiet argument about seeing. Habakkuk's half, verses 2 to 4, is fed by the verb for looking. He asks why God makes him 'see' iniquity and why God 'tolerates' wrongdoing, and the word the BSB renders 'tolerate' in verse 3 is the Hebrew verb for gazing, nabat. God's reply opens with the same verb as a command: 'Look at the nations,' verse 5. The prophet complained that God looks on evil and does nothing; God answers, in effect, 'You look, and see what I am doing.' The verb returns in the next section when Habakkuk says God's eyes are too pure to 'look' on evil, 1:13.\n\nThe complaint is shaped as two questions with one stern conclusion. 'How long' and 'Why' in verses 2 and 3 are followed by a 'therefore' in verse 4 that lists what has become of the law, and the verse is built on a reversal. The Hebrew for 'justice' in verse 4, mishpat, 'never goes forth' while the wicked 'hem in' the righteous. In the answer, verse 7, Babylon's own mishpat 'goes forth' from itself, using the same verb. In Judah, justice cannot go out; in Babylon, justice is whatever the Babylonian decides. The irony is the answer's sharpest edge.\n\nThe oracle of verses 5 to 11 is a descent through the senses. Verse 6 introduces the nation by name and character, verses 7 to 9 move through their reputation, their cavalry and their advance, verse 10 shows their contempt for fortresses, and verse 11 closes with a verdict on the whole: 'They are guilty; their own strength is their god.' The reader expects a pronouncement of triumph and gets, in the final clause, a charge of guilt. Even as God raises them, He indicts them.\n\nThe paragraph also sets the book's frame. The whole of Habakkuk is a dialogue of complaint and answer, then complaint and answer, and this section is the first round. The prophet receives the first of three answers: here the answer about Babylon, then in chapter 2 the answer about the proud and the righteous, then in chapter 3 the answer of a vision of God.",
+      "historical": "The book carries no king's name, but its pressure points to the closing decades of the seventh century BC. Josiah, the reforming king, was killed at Megiddo in 609 when he went out against Pharaoh Neco, 2 Kings 23:29. After him came sons who undid his work. Jehoiakim reigned as an Egyptian vassal and then a Babylonian one, and the portrait of him in the books of Jeremiah explains the ache of Habakkuk's first complaint. Jeremiah accuses him of building a palace 'by unrighteousness' and shedding innocent blood, Jeremiah 22:13 to 17. He killed the prophet Uriah, Jeremiah 26:20 to 23, and burned Jeremiah's scroll in a firepot, Jeremiah 36:23. Law was 'paralyzed' in precisely the way verse 4 says.\n\nThe Chaldeans in verse 6 were the people of southern Mesopotamia who seized the Assyrian empire. Nineveh fell in 612 BC, and after the defeat of Egypt at Carchemish in 605 the Babylonians under Nebuchadnezzar became the master power of the region. Daniel dates the first siege of Jerusalem to the third year of Jehoiakim, Daniel 1:1 to 2, and 2 Kings 24:1 to 2 says the LORD sent Chaldean raiders against him 'according to the word that the LORD had spoken through His servants the prophets.' When God says in verse 5 that He is 'doing a work in your days,' the fact that no one yet believes it fits the years before the first deportation, when Babylon was feared but not yet seen as God's instrument.\n\nHabakkuk's description of the army is of cavalry-led warfare. The horses 'swifter than leopards' and the comparison to a vulture have an older echo: Moses had warned of 'a nation from afar,' 'to swoop down upon you like an eagle,' a 'ruthless nation,' Deuteronomy 28:49 to 50. Jeremiah's preaching under Josiah and Jehoiakim carried the same warning, Jeremiah 5:15 to 17. The covenant had spelled out what would happen to Judah if she broke it, and the Chaldeans are the fulfilment of the curses she had agreed to.\n\nThe siege ramps of verse 10 are real. Ancient armies built earthen ramps against a city's wall, and Babylon was known for the skill and persistence with which it did so. A people living inside a walled city could see the consequences long before the army arrived.",
+      "canonical": "The first words of the book belong to a wide family of Old Testament cries that begin 'How long?' David asks it of God in Psalm 13:1 to 2, and the saints under the altar ask it in Revelation 6:10. Habakkuk is in the line of lament that the Psalms and Lamentations make a normal part of faith, and what is distinctive about him is that his complaint is not against an enemy but against the way God seems to handle an injustice within His own people.\n\nThe violence of verse 2 recalls the flood, 'the earth is full of violence,' Genesis 6:11 and 13. Habakkuk's cry therefore says that Judah has become the world before Noah. Jeremiah's call for Judah to 'administer justice and righteousness' and 'do no wrong or violence,' Jeremiah 22:3, and Amos's 'let justice roll on like a river,' Amos 5:24, are the standard Habakkuk sees violated.\n\nGod's answer is anticipated by the covenant itself. The Chaldeans of verse 6 are the 'nation from afar' of Deuteronomy 28:49, and Jeremiah 25:9 names Nebuchadnezzar as God's 'servant' for this task. Isaiah had made the pattern explicit with Assyria, who was 'the rod of My anger,' Isaiah 10:5, and who would then be judged for her pride, Isaiah 10:12. Habakkuk applies the same pattern to the new empire.\n\nThe New Testament quotes verse 5. Paul, preaching in the synagogue at Pisidian Antioch, announces the forgiveness of sins through Jesus and then warns that the prophets' word should not 'happen to you': 'Look, you scoffers, wonder and perish! For I am doing a work in your days that you would never believe, even if someone told you,' Acts 13:38 to 41. The BSB footnote notes that the Greek follows the Septuagint here, which reads 'scoffers' where the Hebrew has 'nations.' Paul takes God's astonishing deed in the days of Babylon as the pattern of His astonishing deed in the days of the gospel: a salvation announced to people who will not believe it.\n\nBeyond this, the long arc of Isaiah 42, where the Servant will 'bring forth justice,' Isaiah 42:3, answers the Habakkuk 1:4 grief that justice 'never goes forth.'"
     },
     "hermeneutics": {
-      "authorIntent": "To record honestly the prophet's protest against the violence and injustice within Judah, and God's startling answer that He is raising up Babylon, so that the reader is drawn into the tension the rest of the book will resolve.",
-      "descriptionVsPrescription": "The passage describes Habakkuk's lament and God's specific historical answer to Judah. It does not prescribe that God will always send an empire, but it does model bringing honest questions to God, and it teaches the abiding truth that God sovereignly rules the nations.",
+      "authorIntent": "Habakkuk wrote for the believing remnant who were being crushed by lawless rulers and by their own doubts. He gives them words to say. The honest prayer of verses 2 to 4 is a gift: it shows that a person can say 'You do not hear' and 'You do not save' to God and still be speaking faith, since the complaint is addressed to the LORD and not about Him. A people who feel abandoned are shown that God allows such speech.\n\nHe also meant his hearers to learn that God's answers do not always arrive in the shape we ask for. The prophet wanted reform and received invasion. The point of putting both halves in the book is to prepare readers for the way God's providence works, which is often neither what we wanted nor what we expected. The astonishment God calls for, 'be utterly astounded,' is the right posture: not that God is absent, but that His work is bigger and stranger than the prophet's categories.\n\nFinally, he meant Judah to understand that Babylon is no accident. The people had assumed their sins would be handled gently and that the nations were just the nations. Verses 6 to 11 say the opposite: God directs history, and the coming army is the answer of a Judge who has heard the cry of the oppressed. That should have moved Judah to repentance, and it should move later readers to take injustice as seriously as God does.",
+      "descriptionVsPrescription": "The chapter records a prophet's complaint and God's reply. It does not command anyone to pray in exactly this way, and it does not teach that God will always answer injustice by sending a foreign army. What it describes is the situation of a righteous person in a lawless age, and the way God dealt with that situation in one period of Judah's history.\n\nWhat carries forward is a pattern of prayer, not a formula. Believers are invited to bring the heaviest questions to God, to name the wrong without softening it, and to expect an answer. The Psalms confirm the pattern, Psalm 13:1 to 2, and Jesus Himself prays a verse of the same kind from the cross, Matthew 27:46.\n\nThe answer in verses 5 to 11 should not be read as a rule that any nation's invader is God's agent. It is a particular word about a particular empire at a particular time, and the text itself tells us what makes it more than a rule: it calls the Chaldeans 'guilty' in the same breath as it calls them God's instrument. We are not given permission to treat a modern conqueror as a divine messenger, or to excuse cruelty by calling it providence.",
       "debates": [
         {
-          "question": "Is Habakkuk's complaint a sin of unbelief or an act of faith?",
+          "question": "Whose violence is Habakkuk complaining about in 1:2 to 4?",
           "views": [
-            { "label": "An act of faith", "case": "He brings his questions to God rather than abandoning Him; lament is a recognized form of biblical prayer, and God answers rather than rebukes him." },
-            { "label": "A wavering to be corrected", "case": "The sharp how long and why show real strain, and the book's journey is Habakkuk being brought from protest to trust, so his opening posture is not yet where God will lead him." }
+            {
+              "label": "Judah's own leaders and courts",
+              "case": "The text speaks of the law being 'paralyzed' and justice 'perverted,' and the Hebrew word for law is torah, which points to a society that has the covenant law in hand. God's answer, to raise up the Chaldeans to deal with it, would be natural as a judgment on Judah. The reign of Jehoiakim, with its bloodshed and oppression, Jeremiah 22:17, supplies the context. This is the majority view."
+            },
+            {
+              "label": "Assyrian or Egyptian oppression of Judah",
+              "case": "Some read the opening as a lament about foreign domination, with the answer of Babylon coming as a rescue. They point to verse 12, 'We will not die,' as a confession that Judah expects to survive, and to the way Habakkuk is surprised that Babylon is the answer. The difficulty is that Babylon is not a rescuer, and the prophet complains that law is paralyzed, which sounds like a domestic failure."
+            }
           ],
-          "bearing": "Either way the passage shows that God receives the honest cry of His people and patiently leads them from confusion to faith."
+          "bearing": "The first reading best fits the vocabulary and the later complaint, where Babylon is judged as the worse evil. Either way, God answers a cry about injustice by acting in history, and the prophet's surprise comes from the means, not the aim."
+        },
+        {
+          "question": "What does 'Look at the nations' in verse 5 mean, and what does Acts 13:41 do with it?",
+          "views": [
+            {
+              "label": "The Hebrew text, 'nations'",
+              "case": "The Masoretic text reads goyim, 'nations,' and fits the context: God is pointing Habakkuk to the rise of Babylon among the peoples of the world. The call to look at the nations answers the prophet's complaint about what he is made to see."
+            },
+            {
+              "label": "The Septuagint, 'scoffers'",
+              "case": "The BSB footnote says the Septuagint reads, 'Look, you scoffers, wonder and perish!' Acts 13:41 follows that form. The Septuagint translators probably worked from a different Hebrew word, and Paul's use turns the verse from a word to a prophet into a warning to unbelievers."
+            }
+          ],
+          "bearing": "Either way, the astonishing work is the same, and the audience is the one who will not believe it. Paul's use of the Greek form does not contradict the Hebrew; it applies the principle that God's deeds in history ask for belief and punish scorn."
         }
       ]
     },
-    "originalLanguages": "The prophet's message is a massa, a burden, a heavy oracle he must lift and carry. His complaint condenses to one shouted word, chamas, violence, which Scripture uses for the corruption that filled the earth before the flood; Judah has become that kind of place. The wicked hem in the tsaddiq, the righteous, the very term that will carry the book's climactic promise in 2:4. And God's reply centers on the Kasdim, the Chaldeans, the Babylonians He is deliberately raising up, whose strength has become their god.",
+    "originalLanguages": "The first word to look at is the verb of seeing that runs through the complaint and the reply. In verse 3 Habakkuk asks why God 'tolerates' wrongdoing, and the Hebrew verb is nabat, 'to look at, to gaze.' The prophet means that God looks at wrong and does nothing. In verse 5 God says 'Look at the nations,' habbitu, the same verb in the command form, and in 1:13 Habakkuk will say God's eyes are too pure to 'look' on evil, again nabat. A modern reader loses this because the BSB uses different English words, but the Hebrew has one word in all three places, and it makes the two speakers answer one another.\n\nThe phrase in verse 5, 'I am doing a work,' sets a participle beside a noun from the same root, literally 'working a work,' an emphatic pairing that stresses something done in earnest. God's work is going on now, 'in your days,' and it is a work no one 'would believe' even if told, from the verb aman whose noun, emunah, will carry the weight of 2:4. So the story of faith begins here, with unbelief: the prophet is told of a work he will find hard to believe, and the book will end by showing what it is to trust anyway.\n\nIn verse 4 the 'law' is torah, and it is said to be 'paralyzed.' The verb, pug, means to grow numb or slack. The same root describes Jacob's heart going numb at the news that Joseph was alive, Genesis 45:26. The torah has lost its pulse. Next to it, mishpat, justice, 'never goes forth,' and the verb for 'goes forth,' yatsa, is used in verse 7 of Babylon, whose mishpat 'goes forth' from itself. A reader who knows these two verses sees that the empire's justice moves freely while Judah's cannot.\n\nThe description of the Chaldeans in verse 6 uses two words that sound like what they describe. The nation is mar, bitter, and nimhar, hasty: a people of harsh temper and sudden speed. They are 'dreaded and feared,' verse 7, and then the clause says that 'from themselves' their justice and dignity come forth. In other words, they recognise no authority above themselves.\n\nVerse 11 begins with the Hebrew adverb 'then,' az, and a wordplay on ruach, 'wind' or 'spirit': they 'sweep by like the wind.' The next clause says that 'they are guilty,' ve-asham, a verb of guilt and liability. This is the central moral fact in the whole passage. God raises Babylon, yet a nation that makes its own strength its god carries the guilt.\n\nThe introduction to the prayer, 'How long,' is ad-anah, a short expression that occurs in many laments, Psalm 13:1 to 2 among them, so the prophet is using a recognised form. The one who says it expects that God can hear, and that He will speak back.",
     "typology": [
-      { "type": "The prophet bearing the burden and interceding", "fulfillment": "Christ, the true and final prophet, who carries the burden of His people's sin and intercedes for them." },
-      { "type": "The cry how long from a suffering saint", "fulfillment": "Answered in Christ's coming and consummated at His return, when He wipes away every tear and ends all violence, Revelation 6:10 and 21:4." }
+      {
+        "type": "The prophet who stands with the suffering and brings their cry to God, Habakkuk 1:2 to 4",
+        "fulfillment": "Habakkuk bears a burden for others and speaks it aloud to God. This pattern finds its answer in Christ, who 'took on our infirmities and carried our diseases,' Matthew 8:17, and who cried 'My God, My God, why have You forsaken Me?' Matthew 27:46, taking up the lament of Psalm 22:1. The escalation is that the prophet voices the cry, while Christ is the one who enters it. The type falls short because Habakkuk stands outside the violence he describes and cannot remove it. Christ bears its weight on the cross and, in the end, ends it."
+      },
+      {
+        "type": "The astonishing work done in the people's days, Habakkuk 1:5",
+        "fulfillment": "God's work in raising Babylon was a shock to Judah. Paul sees a greater work: that 'through Jesus the forgiveness of sins is proclaimed to you,' Acts 13:38 to 39, and that the Righteous One whom they rejected has been raised, Acts 13:30 and 37. Both are acts of God that unbelief cannot take in. The correspondence is that an announced work meets scorn, and the escalation is that the work is now salvation rather than judgment. The type falls short because Babylon's coming was a work of judgment on Judah, while the work of Christ is one in which judgment falls on Him."
+      },
+      {
+        "type": "The empire raised up and yet called guilty, Habakkuk 1:6 and 11",
+        "fulfillment": "God uses a guilty power to carry out His purpose without sharing its guilt. The cross shows the pattern at its fullest: 'delivered up by God's set plan and foreknowledge,' and yet 'by the hands of the lawless,' Acts 2:23, with Herod and Pilate doing 'what Your hand and will had decided beforehand,' Acts 4:27 to 28. The escalation is that the greatest evil in history is the means of the greatest good. The correspondence is not perfect: Babylon was an instrument of judgment on a people, while Pilate and Herod were instruments in the judgment-bearing of the sinless One."
+      }
     ],
-    "christ": "Habakkuk's protest voices the ache of every believer who longs for God to act against evil, and that longing is answered in Jesus. God's declaration in verse 5, I am doing a work in your days that you would never believe, is taken up by Paul in Acts 13:41 and applied to the gospel itself: God has done in Christ a saving work so staggering that many refuse to believe it. The prophet who stands in the gap between a sinful people and a holy God foreshadows the one Mediator, Jesus, who bore our violence and will one day silence it forever.",
-    "god": "God is not deaf or distant, though He can seem so; He sees the violence and will answer in His time. He is sovereign over history, able to raise up and direct even a ruthless pagan empire to accomplish His purposes, yet without excusing that empire, for He calls the Chaldeans guilty whose own strength has become their god. His ways are higher than ours, and His answers often confound our expectations.",
+    "christ": "Habakkuk 1 leads to Christ first by promise, through the shape of the complaint and the answer. The prophet's grief is that justice 'never goes forth.' Isaiah's Servant is the one who answers it in the same words: 'He will faithfully bring forth justice,' Isaiah 42:3. The Hebrew verb 'bring forth' is the one Habakkuk used when he said justice never goes forth in 1:4, so the promise is a reply to the lament in the language of the lament itself. Matthew sees it fulfilled in Jesus: 'till He leads justice to victory,' Matthew 12:20. The prophet cries that the law is numb, and the Servant is the one in whom justice is finally alive.\n\nIt leads to Christ by the pattern of the righteous man hemmed in by the wicked. Verse 4 says the wicked 'hem in the righteous,' and Peter and Stephen speak of Jesus by that very name: 'the Holy and Righteous One,' Acts 3:14, and 'the Righteous One' whom they betrayed and murdered, Acts 7:52. Peter says that Christ suffered 'the righteous for the unrighteous, to bring you to God,' 1 Peter 3:18. Habakkuk could only ask why the righteous are surrounded. The cross answers that the Righteous One was surrounded so that the unrighteous might be brought in.\n\nIt leads to Christ by the astonishing work. Verse 5 is quoted in Acts 13:41, where Paul has just proclaimed the resurrection and the forgiveness of sins through Jesus, Acts 13:30 to 39. The resurrection is the work 'you would never believe even if someone told you.' The prophet's astonishment at Babylon is only a first sign of the great astonishment of Easter morning, and the warning is the same: those who scoff, perish. At the same time the verse tells us that unbelief at the gospel is not new, since people have always found God's saving work too large to believe.\n\nIt leads to Christ by the answer to 'How long.' The believer's question, which Revelation 6:10 repeats from under the altar, is answered when the Rider called 'Faithful and True' comes, and 'with righteousness He judges and wages war,' Revelation 19:11. Jesus told a parable to say the same: God will 'promptly carry out justice' for those who cry to Him day and night, Luke 18:7 to 8. He ends the parable with a question that Habakkuk's whole book presses: 'when the Son of Man comes, will He find faith on earth?'\n\nA caution is in order. Babylon is not Christ's enemy in a coded sense, and the prophet's complaint is not a veiled prayer of Jesus. The links lie in the themes the New Testament itself picks up: justice, the Righteous One, God's astonishing work and the question of how long.",
+    "god": "The first thing this passage shows is that God allows complaint. He does not rebuke Habakkuk for 'How long?' and 'Why?' The answer begins at once, and it begins with a command to look. A God who is a wounded parent or a distant clockmaker would not answer so. The God of this passage is near enough to be accused and strong enough to bear it.\n\nHe is not indifferent to violence. The charge that He 'tolerates' wrongdoing is a charge the book does not let stand. Though He seems silent, the very answer of verse 5 says 'I am doing a work,' and the participle describes continuing action. He has not been idle; He has been at work in ways the prophet could not see. The patience of God is not inaction, and the passage lets us see its end: the day when His slowness gives way to a decisive act.\n\nHe is sovereign over the nations. 'I am raising up the Chaldeans' says that the rise of Babylon, a political and military fact, is God's own act. Nebuchadnezzar would later confess the same truth in his own words, that God 'does as He pleases with the army of heaven and the peoples of the earth,' Daniel 4:35. The passage joins this sovereignty to moral clarity. Babylon is raised, yet 'They are guilty,' verse 11. God never becomes the author of sin, and He never excuses the tool that He uses. Isaiah 10:15 supplies the same logic: an axe cannot boast over the one who swings it.\n\nHe is the true God over the false god of power. The line 'their own strength is their god' accuses the empire of idolatry, and by saying it, God claims the title of the only real God. Power that worships itself is a counterfeit, and the passage shows that the Lord keeps the rank of Judge over every empire. The first commandment, Exodus 20:3, is applied to a nation that never heard it.\n\nHe is a God who answers on His own terms. The reply is stranger than the prayer, and that is part of the revelation. His ways are not ours, and His justice includes means that disturb His own prophet. Yet He does not leave Habakkuk without speech; the dialogue continues.\n\nFor worship, the chapter teaches us to pray with candour, to give God the weight of what we see, and to expect that the answer may be a larger work than we imagined. It teaches us to say 'How long?' without losing the sense that He is the Holy One, and it teaches us to fear the God who raises and judges empires.",
     "crossReferences": [
-      { "ref": "Acts 13:41", "note": "Paul quotes Habakkuk 1:5, the work you would never believe, as a warning to those tempted to reject the gospel." },
-      { "ref": "Psalm 13:1-2", "note": "How long, O LORD; the same lament posture of faith crying out to God." },
-      { "ref": "2 Kings 24:1-4", "note": "The historical rise of Nebuchadnezzar and Babylon against Judah, the work God announces here." },
-      { "ref": "Jeremiah 25:8-11", "note": "God summons Babylon as His instrument of judgment on Judah, parallel to Habakkuk's oracle." }
+      {
+        "ref": "Genesis 6:11-13",
+        "note": "The flood generation's 'violence' is the same word Habakkuk shouts in verse 2, and the earth in Noah's day was 'full of violence.' By choosing it, Habakkuk says that Judah has reached the stage at which God once judged the whole world."
+      },
+      {
+        "ref": "Deuteronomy 28:49-50",
+        "note": "Moses had warned that God would bring 'a nation from afar' to 'swoop down upon you like an eagle,' a 'ruthless nation.' Habakkuk's description of the Chaldeans as ruthless and swooping like a vulture is the fulfilment of this covenant curse, and shows that the answer to his prayer was written down long before."
+      },
+      {
+        "ref": "Jeremiah 5:15-17",
+        "note": "Jeremiah, preaching in the same period, describes the invader as an ancient nation whose language Judah does not know, devouring harvest, sons and daughters and fortified cities. His words fill in what Habakkuk sees from the watchtower, and confirm that the warning was not Habakkuk's alone."
+      },
+      {
+        "ref": "Jeremiah 22:13-17",
+        "note": "Jeremiah's indictment of Jehoiakim, who builds a palace by unrighteousness and sheds innocent blood, supplies a face for the injustice of verses 3 and 4. It shows what a 'paralyzed' law looked like on the throne."
+      },
+      {
+        "ref": "Isaiah 10:5-15",
+        "note": "Assyria was God's rod of anger, then judged for her boast that she did it by her own strength. The same pattern governs Habakkuk 1: Babylon is raised, and then, in verse 11, called guilty because her strength is her god."
+      },
+      {
+        "ref": "Psalm 13:1-2",
+        "note": "'How long, O LORD?' is the language of a recognised lament, repeated four times in David's psalm. Habakkuk's cry in verse 2 joins that tradition, and so teaches that such prayer is a form of faith, not a failure of it."
+      },
+      {
+        "ref": "Isaiah 42:1-4",
+        "note": "The Servant 'will faithfully bring forth justice' and will not grow weak until He has 'established justice on the earth.' It speaks directly to Habakkuk 1:4, where justice never goes forth, and is quoted of Jesus in Matthew 12:18 to 21."
+      },
+      {
+        "ref": "Acts 13:38-41",
+        "note": "Paul quotes Habakkuk 1:5 at the end of his sermon, after proclaiming the forgiveness of sins through Jesus. The astonishing work of the verse now includes the resurrection and the offer of justification, and the warning is for those who will not believe."
+      },
+      {
+        "ref": "Daniel 4:34-35",
+        "note": "Babylon's own king confesses that God does as He pleases with the nations and that no one can say to Him, 'What have You done?' It is the later vindication of the claim that God raises the Chaldeans, and spoken by their greatest king."
+      },
+      {
+        "ref": "Revelation 6:10",
+        "note": "The martyrs under the altar ask, 'How long, O Lord, holy and true, until You avenge our blood?' The cry of Habakkuk becomes the cry of the whole church, and the book of Revelation is the answer that God will judge those who dwell on the earth."
+      },
+      {
+        "ref": "Luke 18:7-8",
+        "note": "Jesus teaches that God will 'promptly carry out justice' for those who cry to Him day and night, and asks whether the Son of Man will find faith when He comes. It is the New Testament's answer to the complaint that God does not hear, and it ends with Habakkuk's own concern."
+      }
     ],
-    "oneStory": "This first exchange opens the wound the whole Bible sets out to heal: a world, and even God's covenant people, corrupted by violence, and a God who seems silent. God's answer sets history moving toward judgment, exile, and ultimately toward Christ, in whom God accomplishes the work no one would have believed, the salvation of sinners through the cross.",
-    "sermon": { "status": "verified", "preacher": "Alistair Begg", "title": "How Long and Why?", "url": "https://www.truthforlife.org/resources/sermon/how-long-and-why/", "why": "From Begg's series A Study in Habakkuk, this message treats the prophet's opening complaint, Habakkuk 1:1-4, showing that God welcomes the honest questions of faith and remains at work even when He seems silent. A faithful, orthodox handling of the passage that opens this movement." }
+    "oneStory": "Habakkuk 1 begins at the place where the Bible's story has always begun to ache: a world made good and filled by God with justice, now spoiled by violence. Genesis 1:26 to 28 gave humanity the rule of the earth, and by Genesis 6 the earth was 'full of violence.' Habakkuk's first word to God is that this is happening again in the people to whom He gave the law. The covenant nation, meant to be a light, has the same disease as the world around.\n\nThe passage answers the problem at two levels. At the nearest level, God will deal with Judah's sin by the Chaldeans, in the exile that closes the Old Testament history of kings. This is the 'work in your days.' The covenant curses of Deuteronomy 28 come due. At a deeper level, the passage places the reader in the middle of a question that no earlier chapter had answered: if God is just, why does He wait? The whole prophetic literature raises the question, and the Psalms, Job and Ecclesiastes keep asking it.\n\nThe passage also sets up what follows. The prophet will say, in 1:12 to 17, that this answer is worse than the problem, and God will reply in chapter 2 that the proud will fall and the righteous will live by faith. The faith of chapter 2 is therefore built on the unbelief of chapter 1: a person who is told of a work he will not believe is exactly the person who must learn to believe.\n\nThe story moves through exile and return to the coming of Christ, who fulfils the justice that 1:4 says never goes forth. Isaiah's Servant 'will faithfully bring forth justice,' Isaiah 42:3, and 'will not grow weak or discouraged before He has established justice on the earth,' Isaiah 42:4. The astonishing work of verse 5 is picked up by Paul in the preaching of the resurrection, Acts 13:41, and so Habakkuk's first round is bound into the New Testament's account of salvation.\n\nThe end of the story is the answer to 'How long.' In the new creation there are no more cries, since God 'will wipe away every tear' and 'there will be no more death or mourning or crying or pain,' Revelation 21:4. Law will not be paralyzed, and no wicked will hem in the righteous. The people who once cried 'Violence!' will live in the city where, as Isaiah says, 'They will neither harm nor destroy on all My holy mountain,' Isaiah 11:9.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "Alistair Begg",
+      "title": "How Long and Why?",
+      "url": "https://www.truthforlife.org/resources/sermon/how-long-and-why/",
+      "why": "From Begg's series A Study in Habakkuk, this message treats the prophet's opening complaint, Habakkuk 1:1-4, showing that God welcomes the honest questions of faith and remains at work even when He seems silent. A faithful, orthodox handling of the passage that opens this movement."
+    }
   },
   "quiz": [
     {
       "q": "What is Habakkuk complaining about in his first cry to God?",
       "options": [
-        { "text": "The violence and injustice among God's own people, and God's apparent silence.", "weight": 100, "note": "His complaint is the violence within Judah and courts where justice never works." },
-        { "text": "That the wicked oppress the righteous and justice is perverted in Judah.", "weight": 75, "note": "True and part of his cry, but the fuller complaint is the pervasive violence and God's apparent silence." },
-        { "text": "That a foreign army has already destroyed Jerusalem.", "weight": 25, "note": "The invasion is still future here; his complaint is about internal corruption." },
-        { "text": "That God has been too harsh and quick to punish.", "weight": 0, "note": "The opposite: he protests that God seems slow to act against evil." }
+        {
+          "text": "The violence and injustice among God's own people, and God's apparent silence.",
+          "weight": 100,
+          "note": "His complaint is the violence within Judah and courts where justice never works."
+        },
+        {
+          "text": "That the wicked oppress the righteous and justice is perverted in Judah.",
+          "weight": 75,
+          "note": "True and part of his cry, but the fuller complaint is the pervasive violence and God's apparent silence."
+        },
+        {
+          "text": "That a foreign army has already destroyed Jerusalem.",
+          "weight": 25,
+          "note": "The invasion is still future here; his complaint is about internal corruption."
+        },
+        {
+          "text": "That God has been too harsh and quick to punish.",
+          "weight": 0,
+          "note": "The opposite: he protests that God seems slow to act against evil."
+        }
       ]
     },
     {
       "q": "What is startling about God's answer in verses 5 to 11?",
       "options": [
-        { "text": "God is raising up the ruthless Babylonians as His instrument.", "weight": 100, "note": "The answer to violence in Judah is a more violent empire, an answer no one would believe." },
-        { "text": "God says He is already doing a work so astonishing no one would believe it.", "weight": 75, "note": "True and startling, but the specific shock is that the instrument is Babylon." },
-        { "text": "God promises to fix everything immediately and painlessly.", "weight": 25, "note": "His answer is anything but painless; it sets up the prophet's next complaint." },
-        { "text": "God refuses to answer at all.", "weight": 0, "note": "God does answer, and the answer itself is the shock." }
+        {
+          "text": "God is raising up the ruthless Babylonians as His instrument.",
+          "weight": 100,
+          "note": "The answer to violence in Judah is a more violent empire, an answer no one would believe."
+        },
+        {
+          "text": "God says He is already doing a work so astonishing no one would believe it.",
+          "weight": 75,
+          "note": "True and startling, but the specific shock is that the instrument is Babylon."
+        },
+        {
+          "text": "God promises to fix everything immediately and painlessly.",
+          "weight": 25,
+          "note": "His answer is anything but painless; it sets up the prophet's next complaint."
+        },
+        {
+          "text": "God refuses to answer at all.",
+          "weight": 0,
+          "note": "God does answer, and the answer itself is the shock."
+        }
       ]
     },
     {
       "q": "How does the New Testament use God's words in verse 5?",
       "options": [
-        { "text": "Paul quotes it in Acts 13:41 as a warning about refusing the astonishing work of the gospel.", "weight": 100, "note": "The work you would never believe is applied to God's saving work in Christ." },
-        { "text": "It is applied to the surprising, hard-to-believe work of God in salvation.", "weight": 75, "note": "Right in substance, but the precise reference is Paul's warning in Acts 13:41." },
-        { "text": "Jesus quotes it about the destruction of the temple.", "weight": 25, "note": "It is Paul in Acts who takes it up, applied to the gospel." },
-        { "text": "It is never referenced in the New Testament.", "weight": 0, "note": "It is directly quoted in Acts 13:41." }
+        {
+          "text": "Paul quotes it in Acts 13:41 as a warning about refusing the astonishing work of the gospel.",
+          "weight": 100,
+          "note": "The work you would never believe is applied to God's saving work in Christ."
+        },
+        {
+          "text": "It is applied to the surprising, hard-to-believe work of God in salvation.",
+          "weight": 75,
+          "note": "Right in substance, but the precise reference is Paul's warning in Acts 13:41."
+        },
+        {
+          "text": "Jesus quotes it about the destruction of the temple.",
+          "weight": 25,
+          "note": "It is Paul in Acts who takes it up, applied to the gospel."
+        },
+        {
+          "text": "It is never referenced in the New Testament.",
+          "weight": 0,
+          "note": "It is directly quoted in Acts 13:41."
+        }
       ]
     },
     {
       "q": "What does this passage teach about God and the nations?",
       "options": [
-        { "text": "God sovereignly rules and even directs pagan empires, yet still holds them accountable.", "weight": 100, "note": "He raises up the Chaldeans and calls them guilty; sovereignty and justice hold together." },
-        { "text": "God is able to use even a wicked nation to accomplish His purposes.", "weight": 75, "note": "True, but it omits that He still holds that nation guilty for its evil." },
-        { "text": "God approves of everything Babylon does.", "weight": 25, "note": "He uses them yet calls them guilty; He does not approve their violence." },
-        { "text": "God has no control over powerful nations like Babylon.", "weight": 0, "note": "The passage says the opposite: God Himself is raising them up." }
+        {
+          "text": "God sovereignly rules and even directs pagan empires, yet still holds them accountable.",
+          "weight": 100,
+          "note": "He raises up the Chaldeans and calls them guilty; sovereignty and justice hold together."
+        },
+        {
+          "text": "God is able to use even a wicked nation to accomplish His purposes.",
+          "weight": 75,
+          "note": "True, but it omits that He still holds that nation guilty for its evil."
+        },
+        {
+          "text": "God approves of everything Babylon does.",
+          "weight": 25,
+          "note": "He uses them yet calls them guilty; He does not approve their violence."
+        },
+        {
+          "text": "God has no control over powerful nations like Babylon.",
+          "weight": 0,
+          "note": "The passage says the opposite: God Himself is raising them up."
+        }
       ]
     },
     {
       "q": "What does Habakkuk's honest lament model for us?",
       "options": [
-        { "text": "That faith can bring its hardest questions directly to God.", "weight": 100, "note": "Lament is a form of prayer; God receives the honest cry of His people." },
-        { "text": "That God is patient with those who wrestle honestly with Him.", "weight": 75, "note": "True and comforting, but the main point is that faith takes its questions to God." },
-        { "text": "That questioning God is always sinful unbelief.", "weight": 25, "note": "His wrestling is within faith; God engages rather than rejects him." },
-        { "text": "That we should keep our doubts hidden from God.", "weight": 0, "note": "Habakkuk does the opposite, and God answers him." }
+        {
+          "text": "That faith can bring its hardest questions directly to God.",
+          "weight": 100,
+          "note": "Lament is a form of prayer; God receives the honest cry of His people."
+        },
+        {
+          "text": "That God is patient with those who wrestle honestly with Him.",
+          "weight": 75,
+          "note": "True and comforting, but the main point is that faith takes its questions to God."
+        },
+        {
+          "text": "That questioning God is always sinful unbelief.",
+          "weight": 25,
+          "note": "His wrestling is within faith; God engages rather than rejects him."
+        },
+        {
+          "text": "That we should keep our doubts hidden from God.",
+          "weight": 0,
+          "note": "Habakkuk does the opposite, and God answers him."
+        }
       ]
     }
   ],
@@ -147,9 +367,21 @@
     "Paul applied God's astonishing work to the gospel itself. Where do you struggle to believe that God is truly at work, and how might the cross reassure you?"
   ],
   "translationNotes": [
-    { "ref": "Habakkuk 1:1", "note": "The word rendered burden, massa, is also a standard term for a prophetic oracle; it carries the sense of a weighty word the prophet must lift up and deliver." },
-    { "ref": "Habakkuk 1:5", "note": "The Septuagint reads Look, you scoffers, wonder and perish, the form Paul cites in Acts 13:41. The Hebrew reads look among the nations and be astounded." },
-    { "ref": "Habakkuk 1:6", "note": "The Chaldeans are the Babylonians; the BSB footnote makes this identification explicit." }
+    {
+      "ref": "Habakkuk 1:1",
+      "note": "The word rendered burden, massa, is also a standard term for a prophetic oracle; it carries the sense of a weighty word the prophet must lift up and deliver."
+    },
+    {
+      "ref": "Habakkuk 1:5",
+      "note": "The Septuagint reads Look, you scoffers, wonder and perish, the form Paul cites in Acts 13:41. The Hebrew reads look among the nations and be astounded."
+    },
+    {
+      "ref": "Habakkuk 1:6",
+      "note": "The Chaldeans are the Babylonians; the BSB footnote makes this identification explicit."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Habakkuk 1:1-11. Poetic lines rendered as flowing prose within each verse." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Habakkuk 1:1-11. Poetic lines rendered as flowing prose within each verse."
+  }
 }

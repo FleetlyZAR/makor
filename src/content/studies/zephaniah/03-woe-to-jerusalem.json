@@ -18,10 +18,26 @@
         "note": "leaders who devour",
         "emphasis": "",
         "verses": [
-          { "chapter": 3, "n": 1, "text": "{{hoy|Woe}} to the city of oppressors, rebellious and defiled!" },
-          { "chapter": 3, "n": 2, "text": "She heeded no voice; she accepted no {{musar|correction}}. She does not trust in the LORD; she has not drawn near to her God." },
-          { "chapter": 3, "n": 3, "text": "Her princes are roaring lions; her judges are evening wolves, leaving nothing for the morning." },
-          { "chapter": 3, "n": 4, "text": "Her prophets are reckless, faithless men. Her priests profane the sanctuary; they do violence to the law." }
+          {
+            "chapter": 3,
+            "n": 1,
+            "text": "{{hoy|Woe}} to the city of oppressors, rebellious and defiled!"
+          },
+          {
+            "chapter": 3,
+            "n": 2,
+            "text": "She heeded no voice; she accepted no {{musar|correction}}. She does not trust in the LORD; she has not drawn near to her God."
+          },
+          {
+            "chapter": 3,
+            "n": 3,
+            "text": "Her princes are roaring lions; her judges are evening wolves, leaving nothing for the morning."
+          },
+          {
+            "chapter": 3,
+            "n": 4,
+            "text": "Her prophets are reckless, faithless men. Her priests profane the sanctuary; they do violence to the law."
+          }
         ]
       },
       {
@@ -29,7 +45,11 @@
         "note": "the great contrast",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 3, "n": 5, "text": "The LORD within her is {{tsaddiq|righteous}}; He does no wrong. He applies His {{mishpat|justice}} morning by morning; He does not fail at dawn, yet the unjust know no shame." }
+          {
+            "chapter": 3,
+            "n": 5,
+            "text": "The LORD within her is {{tsaddiq|righteous}}; He does no wrong. He applies His {{mishpat|justice}} morning by morning; He does not fail at dawn, yet the unjust know no shame."
+          }
         ]
       },
       {
@@ -37,19 +57,56 @@
         "note": "wait for the Day",
         "emphasis": "",
         "verses": [
-          { "chapter": 3, "n": 6, "text": "“I have cut off the nations; their corner towers are destroyed. I have made their streets deserted with no one to pass through. Their cities are laid waste, with no man, no inhabitant." },
-          { "chapter": 3, "n": 7, "text": "I said, ‘Surely you will fear Me and accept correction.’ Then her dwelling place would not be cut off despite all for which I punished her. But they rose early to corrupt all their deeds." },
-          { "chapter": 3, "n": 8, "text": "Therefore wait for Me,” declares the LORD, “until the day I rise to testify. For My decision is to gather nations, to assemble kingdoms, to pour out upon them My indignation, all My burning anger. For all the earth will be consumed by the fire of My {{qinah|jealousy}}." }
+          {
+            "chapter": 3,
+            "n": 6,
+            "text": "“I have cut off the nations; their corner towers are destroyed. I have made their streets deserted with no one to pass through. Their cities are laid waste, with no man, no inhabitant."
+          },
+          {
+            "chapter": 3,
+            "n": 7,
+            "text": "I said, ‘Surely you will fear Me and accept correction.’ Then her dwelling place would not be cut off despite all for which I punished her. But they rose early to corrupt all their deeds."
+          },
+          {
+            "chapter": 3,
+            "n": 8,
+            "text": "Therefore wait for Me,” declares the LORD, “until the day I rise to testify. For My decision is to gather nations, to assemble kingdoms, to pour out upon them My indignation, all My burning anger. For all the earth will be consumed by the fire of My {{qinah|jealousy}}."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "hoy": { "language": "Hebrew", "lemma": "hoy", "original": "הוי", "gloss": "Woe, a cry of doom and lament often raised over the dead. The prophet who lifted this cry over pagan Philistia in chapter two now turns it on Jerusalem itself. That the holy city receives the same funeral wail as the nations is a shock: privilege has not exempted her; if anything, it deepens her guilt." },
-    "musar": { "language": "Hebrew", "lemma": "musar", "original": "מוסר", "gloss": "Correction, discipline, instruction, the loving reproof by which a parent shapes a child. Jerusalem accepted no musar; she would not be taught, warned, or turned. Refusing correction is the mark of a hardened heart, and it is the very thing that seals her under judgment while the humble who receive it are spared." },
-    "tsaddiq": { "language": "Hebrew", "lemma": "tsaddiq", "original": "צדיק", "gloss": "Righteous, just, in the right. Set against the corrupt princes, judges, prophets, and priests, the LORD within her is tsaddiq: He does no wrong at all. His flawless righteousness both condemns the city's corruption and holds out hope, for a righteous God can be trusted to set things right and to justify those who take refuge in Him." },
-    "mishpat": { "language": "Hebrew", "lemma": "mishpat", "original": "משפט", "gloss": "Justice, judgment, the right ordering of things. Every morning, without fail, the LORD brings His mishpat to light like the dawn, a steady, reliable justice that never sleeps. The tragedy is that the unjust feel no shame before it; God's perfect justice shines daily, yet the corrupt refuse to see or fear it." },
-    "qinah": { "language": "Hebrew", "lemma": "qinah", "original": "קנאה", "gloss": "Jealousy, zeal, burning ardor. The same fire of jealousy that closed chapter one returns to close this movement: all the earth will be consumed by it. God's jealousy is His holy, covenantal passion that will not tolerate rivals or injustice; it drives the gathering of the nations for judgment and clears the ground for the purified people of chapter three's second half." }
+    "hoy": {
+      "language": "Hebrew",
+      "lemma": "hoy",
+      "original": "הוי",
+      "gloss": "Woe, a cry of doom and lament often raised over the dead. The prophet who lifted this cry over pagan Philistia in chapter two now turns it on Jerusalem itself. That the holy city receives the same funeral wail as the nations is a shock: privilege has not exempted her; if anything, it deepens her guilt."
+    },
+    "musar": {
+      "language": "Hebrew",
+      "lemma": "musar",
+      "original": "מוסר",
+      "gloss": "Correction, discipline, instruction, the loving reproof by which a parent shapes a child. Jerusalem accepted no musar; she would not be taught, warned, or turned. Refusing correction is the mark of a hardened heart, and it is the very thing that seals her under judgment while the humble who receive it are spared."
+    },
+    "tsaddiq": {
+      "language": "Hebrew",
+      "lemma": "tsaddiq",
+      "original": "צדיק",
+      "gloss": "Righteous, just, in the right. Set against the corrupt princes, judges, prophets, and priests, the LORD within her is tsaddiq: He does no wrong at all. His flawless righteousness both condemns the city's corruption and holds out hope, for a righteous God can be trusted to set things right and to justify those who take refuge in Him."
+    },
+    "mishpat": {
+      "language": "Hebrew",
+      "lemma": "mishpat",
+      "original": "משפט",
+      "gloss": "Justice, judgment, the right ordering of things. Every morning, without fail, the LORD brings His mishpat to light like the dawn, a steady, reliable justice that never sleeps. The tragedy is that the unjust feel no shame before it; God's perfect justice shines daily, yet the corrupt refuse to see or fear it."
+    },
+    "qinah": {
+      "language": "Hebrew",
+      "lemma": "qinah",
+      "original": "קנאה",
+      "gloss": "Jealousy, zeal, burning ardor. The same fire of jealousy that closed chapter one returns to close this movement: all the earth will be consumed by it. God's jealousy is His holy, covenantal passion that will not tolerate rivals or injustice; it drives the gathering of the nations for judgment and clears the ground for the purified people of chapter three's second half."
+    }
   },
   "study": {
     "basic": {
@@ -63,93 +120,274 @@
       "oneStory": "This movement lays bare the failure of God's own city and its leaders, and sets against it the flawless righteousness of the LORD who dwells within her. That righteous presence is realized in Christ, who came into Jerusalem, bore its judgment, and will return to gather the nations, clearing the way for the purified, rejoicing people the book's final movement promises."
     },
     "context": {
-      "literary": "The movement is built on a stark contrast. Verses 1-4 pile up the city's sins and the corruption of her four leadership classes: officials, judges, prophets, and priests. Verse 5 stands as the hinge, a single luminous line about the righteous LORD in her midst, mirroring the corruption point for point. Verses 6-8 then recount God's unheeded object lesson in the judged nations and close with the summons to wait for the Day, echoing the fire-of-jealousy language of 1:18 and binding the book's judgment sections together.",
-      "historical": "The oppression, violence, and false prophecy described fit Jerusalem in the decades before its fall in 586 BC. The leaders named, princes, judges, prophets, and priests, were the very classes charged with justice and true worship, now turned predator and profaner. The reference to nations already cut off, with ruined towers and deserted streets, likely recalls recent Assyrian devastations that Judah witnessed but failed to learn from.",
-      "canonical": "The indictment echoes Isaiah 1, Jeremiah, Micah 3, and Ezekiel 22, where corrupt leadership provokes judgment on Jerusalem. The theme that the LORD is righteous while His people are not runs to Paul's declaration that God is just and the justifier of those who have faith in Jesus, and to Peter's warning that judgment begins with God's household."
+      "literary": "The passage is built on a double fourfold pattern with a single line at its centre. Verse 2 lists four refusals: she heeded no voice, accepted no correction, did not trust, did not draw near. Verses 3 and 4 list four classes of leader: princes, judges, prophets, priests. The four refusals describe the inside of the city's heart and the four classes describe the outside of its public life, so that sin is shown at both levels, in attitude and in institution. Then verse 5 stands alone, a single verse about a single subject, 'The LORD within her is righteous,' and it breaks the run of indictment as a lamp is set down in a dark room.\n\nThe word 'within' matters more than the English shows. The Hebrew phrase for 'in her midst' belongs to verse 3, where the princes are within her, and to verse 5, where the LORD is within her. The two are set side by side, the predators in the middle of the city and the righteous God in the middle of the city. The same phrase returns in the promises that follow in the rest of the chapter, where a humble people, a King and a singing God are all 'in your midst.' The book is gradually replacing who stands at the centre.\n\nThere is also a thread of mornings. In verse 5 the LORD gives His justice 'morning by morning' and does not fail at dawn. In verse 7 the people 'rose early' to corrupt their deeds. In verse 8 the LORD Himself says He will rise. God's mornings, the city's mornings and the Day that He rises are three uses of one image, and the third is the answer to the first two.\n\nThe whole unit is framed by a cry and a fire. It opens with 'woe' and closes with the fire of jealousy, in words identical to those that ended chapter 1. The prophet has taken the story round a full circle and set the whole city inside the same sentence of fire.",
+      "historical": "The first thing to notice is that the city is never named in verses 1 to 8. The identification has to be made by what is said, 'her God,' 'her priests,' the sanctuary, the law, and by what has been said already, in 1:4 and 1:12, about Jerusalem. The hearers could not have missed it. The charges are the ones that Judah's prophets leveled at the capital in the century before it fell.\n\nThe four offices were the pillars of Judah's public life. Princes and judges were to sit in the gate in the morning and hear the cases of the poor, as Absalom had once pretended to do, 2 Samuel 15:2, and as Jeremiah later told the house of David, 'Administer justice every morning,' Jeremiah 21:12. Priests were to teach the people to distinguish the holy from the common, and prophets were to bring them the word of the LORD. Zephaniah's contemporaries Jeremiah and Micah say the same of each office: the rulers judge for a bribe, the priests teach for a price and the prophets divine for money, Micah 3:11, and 'from prophet to priest, all practice deceit,' Jeremiah 8:10.\n\nThe nations whose towers had been destroyed in verse 6 are most naturally those that Judah had watched fall in its own lifetime. The Assyrian campaigns of the previous century had levelled cities in Philistia and the north, and the northern kingdom of Israel itself had been taken into exile. The lesson was in front of everyone. Judah had survived Assyria by a narrow margin in Hezekiah's day, and the generation that listened to Zephaniah lived with the memory of what the Assyrians did.\n\nThe oracle is likely to date from before or during the early years of Josiah's reform, when the king was a young man and the court was still in the hands of its officials. Whatever the precise date, the pattern was the one the book of Kings describes: a long run of kings who ignored the prophets, and a people who rose early to corrupt their deeds.",
+      "canonical": "The indictment of Jerusalem in verses 1 to 4 belongs to a much longer prosecution. Isaiah mourned that the faithful city had become a harlot, her princes rebels and friends of thieves, who do not defend the fatherless, Isaiah 1:21-23. Micah accused her leaders of building Zion with bloodshed, and then of leaning on the LORD and saying, 'No disaster can come upon us,' Micah 3:9-11. Jeremiah was sent through the streets to find a single person who acts justly, Jeremiah 5:1. Ezekiel's fourfold charge of princes, priests, prophets and people is almost a transcript of Zephaniah's, and he adds a line that Zephaniah leaves out: God looked for someone to stand in the gap, 'but I found no one,' Ezekiel 22:30.\n\nThe portrait of God in verse 5 draws on the song of Moses, where the LORD is 'the Rock, His work is perfect; all His ways are just,' Deuteronomy 32:4, and on Psalm 92:15, 'in Him there is no unrighteousness.' Lamentations brings the verse to its destination after the city has fallen: 'The LORD is righteous, for I have rebelled against His command,' Lamentations 1:18. The confession that Zephaniah demands before the disaster is the one Jerusalem eventually makes after it.\n\nThe pattern of a God who sends warnings and a people who do not listen is the theme of Jeremiah's temple sermon, in which God says He sent the prophets 'again and again,' Jeremiah 7:25, and that the people 'would not receive correction,' Jeremiah 7:28. Zephaniah 3:2 and 3:7 echo the language exactly.\n\nIn the New Testament, the verdict on Jerusalem is the one Jesus gives when He weeps over the city, Luke 19:41-44, and Stephen sums up when he says that the people have always resisted the Holy Spirit and killed those who foretold the Righteous One, Acts 7:51-52. Peter says that judgment begins with the household of God, 1 Peter 4:17, and Hebrews says that the Lord disciplines the one He loves, Hebrews 12:5-6. The righteousness of the LORD in the midst of the city is finally shown in Christ, who is just and the justifier, Romans 3:26."
     },
     "hermeneutics": {
-      "authorIntent": "To expose Jerusalem's rebellion and the corruption of her leaders, to magnify by contrast the unfailing righteousness of the LORD who dwells among her, and to summon God's people to fear Him, receive correction, and wait for the certain day of His just reckoning with all the earth.",
-      "descriptionVsPrescription": "The passage describes the city's sins and God's coming judgment; the corruption of her leaders is exposed, not endorsed. The prescriptive notes are to fear the LORD and accept His correction, verse 7, and to wait for Me, verse 8, trusting God's justice rather than despairing or taking matters into our own hands.",
+      "authorIntent": "Zephaniah means the people to feel, before they feel anything else, that they have been addressed by name. The woe of verse 1 comes straight after the oracles against Nineveh and the nations, and a hearer who had been agreeing that the proud empire deserved what it got would find that the same word had turned and was pointed at him. The shock is deliberate. The book will not allow the people of God to treat judgment as other people's business.\n\nHe wants them to see that the corruption is complete. It is not enough to blame the king or the priests, since the four refusals of verse 2 belong to the whole city and the four offices of verses 3 and 4 are named one by one so that none can say the failure was elsewhere. Every office that was meant to carry God's justice to the people has instead kept it from them.\n\nAnd he wants them to see what makes the failure worse: they have never lacked a righteous God. The LORD in the middle of the city does justice every morning, and the unjust, who live in the light of it, do not even blush. The verse is placed in the middle of the section as a contrast and a witness.\n\nThe close of the passage is meant to be heard as an invitation as well as a threat. God says He had hoped they would fear Him and accept correction, and He had given them the example of the nations as a lesson. The question the first hearers were left with, after being told to wait, was whether they would learn from the lesson now.",
+      "descriptionVsPrescription": "This is a text of accusation, and it describes sins as they were: oppression, deafness to God, the greed of judges, the carelessness of prophets, the profaning of the sanctuary. None of it is commended. The conduct of the leaders is held up so that it can be named, and the passage does not suggest that the failures of those in office give anyone the right to throw off all authority. The prophet's own response is to pray and to preach, not to rebel.\n\nThe principle behind the indictment, though, does carry over. Those who hold office, in a nation or a church or a home, are accountable for the way they use it. The passage tells us that teaching, judging and leading are not neutral jobs. When they are done for gain or fear, they hurt the people they were meant to serve, and God sees it.\n\nThe things that the passage actually commands are in verses 7 and 8. 'Fear Me and accept correction' is what God wished from Jerusalem, and it remains what He wishes. 'Wait for Me' is a summons, not a prediction. Believers are to wait on God's justice and not take it into their own hands, trusting that the one who does not fail at dawn has set a day. The right application of the chapter is not to become a prosecutor of other people's leaders, but to ask whether we are the kind of people who have accepted correction. Hebrews 12:5-11 shows that correction is a sign of love, and that those who are trained by it bear peaceful fruit.",
       "debates": [
         {
-          "question": "What does it mean to wait for Me until the day I rise (verse 8)?",
+          "question": "Which city is the 'city of oppressors' in verse 1?",
           "views": [
-            { "label": "A call to the faithful remnant to trust God's timing", "case": "Amid pervasive corruption, the humble are to wait in hope for the LORD to act justly rather than lose heart or seek their own vengeance, confident that His justice, though delayed, is certain." },
-            { "label": "A sober warning that judgment is fixed", "case": "The waiting underscores that the Day is coming without fail; the verb rise pictures God taking the stand as witness and judge, so the summons presses everyone to reckon with an unavoidable reckoning." }
+            {
+              "label": "Jerusalem",
+              "case": "The majority of readers take it as Jerusalem. The city has a God, priests who profane a sanctuary and prophets, and the LORD is 'within her.' Chapter 1 has already pointed the same charges at Jerusalem, and the next chapter's promises are about her."
+            },
+            {
+              "label": "Nineveh",
+              "case": "The woe comes directly after the oracle against Nineveh, and the city has just been called a carefree city that thinks it is secure, 2:15. A few readers take the oppressor city as Nineveh, since the Hebrew has no name."
+            },
+            {
+              "label": "Deliberately unnamed",
+              "case": "The prophet leaves the name out so that the reader, who has just agreed with the judgment on Nineveh, finds the same word aimed at his own city. The unnamed woe is a literary trap meant to catch the self-righteous."
+            }
           ],
-          "bearing": "Both readings meet in the same posture: because God's justice is certain, His people wait on Him in trust, and the complacent are warned that delay is not the same as escape."
+          "bearing": "The details of verses 2 to 5 fit Jerusalem best, and the third view explains why the name is delayed. Either way the woe cannot be heard as someone else's: judgment starts with the household of God."
         },
         {
-          "question": "Why does the passage stress that the LORD within her is righteous (verse 5)?",
+          "question": "What does 'wait for Me until the day I rise' mean in verse 8?",
           "views": [
-            { "label": "To condemn the city by contrast", "case": "The flawless justice of God, delivered fresh every morning, exposes the depth of the leaders' corruption; they sin in the very presence of perfect righteousness and feel no shame." },
-            { "label": "To ground hope for the remnant", "case": "That God Himself is righteous and present means the city's corruption is not the last word; a just God can be trusted to set things right and to preserve a people for Himself." }
+            {
+              "label": "A call to the faithful to wait in hope",
+              "case": "The verb is the one used for the patient waiting of those who look for God to act, and the humble remnant who follow are to wait without taking revenge, trusting that He will set things right."
+            },
+            {
+              "label": "A grim summons to the guilty",
+              "case": "The command can be heard with irony. If they will not learn, they may wait for the day when God rises to deal with them, since the rest of the verse is about fire poured out. Delay is not escape."
+            }
           ],
-          "bearing": "The two work together: the same righteousness that condemns the unjust who know no shame is the hope of the humble, for a righteous God both judges evil and justifies those who trust Him."
+          "bearing": "The ambiguity is probably intended. The same words are comfort to the humble and warning to the proud, and the line leads straight into verse 9, where the nations are purified and the humble are gathered."
+        },
+        {
+          "question": "Does God rise 'to testify' or 'to plunder' in verse 8?",
+          "views": [
+            {
+              "label": "To testify",
+              "case": "The BSB follows the Septuagint and the Syriac, which read a word for witness, and the picture is of God taking the stand as plaintiff and judge in a covenant lawsuit, like Micah 6:1-2."
+            },
+            {
+              "label": "To plunder, or seize the prey",
+              "case": "The traditional Hebrew text, as the BSB footnote notes, reads 'rise up to plunder,' and many translations follow it. The Day is then the moment God seizes what is His in judgment."
+            }
+          ],
+          "bearing": "Both readings describe an act of God on the Day. The difference is between a courtroom and a battlefield, and the book has used both pictures. The first fits the covenant setting best."
         }
       ]
     },
-    "originalLanguages": "The movement opens with hoy, woe, the funeral cry the prophet had aimed at pagan nations, now shockingly turned on the holy city. Jerusalem's root failure is stated with a single word: she accepted no musar, no correction or discipline, the loving reproof that shapes a child; she would not be taught or turned. Against her stands the LORD, described as tsaddiq, righteous, who does no wrong and who brings His mishpat, justice, la-boqer ba-boqer, morning by morning, as reliably as the dawn, and yet the unjust know no shame before this daily blaze of righteousness. The movement closes as chapter one did, in the fire of God's qinah, His jealous, consuming zeal that will gather the nations and purge the earth, binding the book's judgment together and clearing the ground for the promised remnant.",
+    "originalLanguages": "The opening description, 'city of oppressors,' comes from a Hebrew participle meaning one who oppresses, from the verb that Exodus 22:21 uses when it forbids Israel to 'oppress' the foreign resident. The city that was told to remember what it was like to be oppressed in Egypt has become an oppressor herself. 'Rebellious' is from the verb for rebellion that Moses used of the people at Meribah, 'Listen now, you rebels,' Numbers 20:10.\n\nThe four refusals of verse 2 are carefully chosen. She did not 'heed a voice,' she did not 'take' correction, using the plain verb of receiving, she did not trust, and she did not 'draw near.' The last is the verb that was used for approaching God with an offering, so the city that was full of sacrifices had never come near to her God. Jeremiah uses the same wording of the same people, 'would not receive correction,' Jeremiah 7:28.\n\nIn verse 3 the judges are 'wolves of the evening,' the same expression Habakkuk used of the Babylonian cavalry, 'fiercer than wolves of the night,' Habakkuk 1:8. The predator from outside has its twin inside the gate. In verse 4 the prophets are 'reckless,' from a root that describes water that has lost its bounds, as when Jacob says Reuben was 'uncontrolled as the waters,' Genesis 49:4, and it also names the 'reckless men' Abimelech hired, Judges 9:4. 'Faithless' is from the root of treachery.\n\nThe priests 'do violence to the law.' The word for violence here, chamas, is the very word Genesis uses of the world before the flood, 'the earth was corrupt in the sight of God, and full of violence,' Genesis 6:11. In verse 7 the people 'corrupt' all their deeds, with the root of Genesis 6:12, 'all living creatures on the earth had corrupted their ways.' The two flood words, violence and corruption, are attached to Jerusalem, so that her sins are the sins that undid the first world.\n\nIn verse 5 the Hebrew sets related words side by side for the wrong that God does not do and the wrongdoer who has no shame, so that the verse works as a pair: the righteous God and the unrighteous man are measured against each other. 'Morning by morning' is a repeated word, morning morning, an idiom of regularity.\n\nIn verse 7 'they rose early' is a verb of eagerness, the very verb in the idiom by which God 'rose early' to send the prophets, which the BSB renders 'again and again' in Jeremiah 7:25. Zephaniah turns it around: God rose early to send, and they rose early to corrupt.\n\nIn verse 8 'wait for Me' is the verb that Habakkuk 2:3 uses of the vision, 'wait for it.' The 'burning anger' and the closing clause, 'all the earth will be consumed by the fire of My jealousy,' are word for word the ending of 1:18, so that the two judgment sections close in one voice. The final word of the verse, 'testify,' is in the BSB footnote the reading of the Septuagint and the Syriac, where the Hebrew gives 'plunder.'",
     "typology": [
-      { "type": "The righteous LORD dwelling within the corrupt city", "fulfillment": "Christ, the Righteous One, entering Jerusalem, exposing its sin and weeping over it, Luke 19:41-44 and 1 John 2:1." },
-      { "type": "The corrupt shepherds, princes, prophets, and priests", "fulfillment": "Jesus the true Shepherd, Prophet, Priest, and King who does no violence to the law but fulfills it, John 10:11 and Hebrews 7:26." },
-      { "type": "God rising to gather the nations for judgment", "fulfillment": "Christ returning to judge the living and the dead and gather all peoples before His throne, Matthew 25:31-32." }
+      {
+        "type": "The LORD within the city, Zephaniah 3:5",
+        "fulfillment": "The righteous God who stands in the middle of a corrupt Jerusalem points to the One who is literally within the city. Matthew says His name is Immanuel, 'God with us,' Matthew 1:23, and John says the Word 'made His dwelling among us,' John 1:14. The correspondence is of presence: the LORD was in the midst of the city and Jesus walked its streets. The escalation is that He comes in flesh, and the book of Revelation promises that the dwelling place of God will be with man and He will dwell with them, Revelation 21:3. The type falls short because the LORD's presence in Zion's midst could be offended, and in Christ it cannot be removed."
+      },
+      {
+        "type": "The faithless shepherds, Zephaniah 3:3-4",
+        "fulfillment": "Zephaniah's predators are the rulers who feed on the flock. Ezekiel 34 sets against such shepherds the promise of one shepherd, 'My servant David,' Ezekiel 34:23, and Jesus says, 'I am the good shepherd,' and promises that He has other sheep that He must bring in, John 10:11-16. Where the leaders of Jerusalem ate the flock, He lays down His life for it. The type does not mean that every shepherd of the church is corrupt, and Paul warns that wolves will come in from outside as well, Acts 20:29."
+      },
+      {
+        "type": "The reckless prophets, Zephaniah 3:4",
+        "fulfillment": "The prophets of verse 4 spoke without control and without faithfulness. Moses had promised a prophet like himself whom the people must listen to, Acts 3:22-23, and Jesus is that Prophet. He says, 'I have not spoken on My own, but the Father who sent Me has commanded Me what to say and how to say it,' John 12:49. Where they spoke of their own accord, He speaks only the Father's word. The type falls short only in that He is not merely a better prophet but the Word who made the world."
+      },
+      {
+        "type": "The nations cut off as an object lesson, Zephaniah 3:6-7",
+        "fulfillment": "God put the ruin of other peoples before Judah so that she would fear Him and accept correction. Paul says of Israel's own wilderness history that 'these things happened to them as examples and were written down as warnings for us,' 1 Corinthians 10:11. Jesus takes the same approach when he is told of Galileans killed by Pilate and the eighteen crushed by a tower, and answers, 'unless you repent, you too will all perish,' Luke 13:1-5. The pattern is that other people's judgment is a call, and the lesson is lost if it only produces comment."
+      },
+      {
+        "type": "The day God rises, Zephaniah 3:8",
+        "fulfillment": "The Day on which God rises to bear witness against the nations has its ground in the resurrection. Paul tells the Athenians that God has set a day to judge the world with justice by the Man He appointed, and 'has given proof of this to everyone by raising Him from the dead,' Acts 17:31. The resurrection is the pledge that the Judge has risen and will come. The type falls short in the language of the text itself, since the translators differ over the Hebrew, and the link rests on the whole shape of the book, not on a single word."
+      }
     ],
-    "christ": "Zephaniah says the LORD within her is righteous, doing no wrong; centuries later that righteous LORD walked Jerusalem's streets in the flesh. Jesus is the Righteous One who exposed the roaring-lion officials and the sanctuary-profaning priests, who wept over the city that would not accept correction or know the day of its visitation. Where her leaders devoured the flock, He is the good Shepherd who gives His life for the sheep; where her priests did violence to the law, He is the High Priest who fulfills it and cleanses the temple. He absorbed the fire of God's jealousy at the cross, so that all who fear the LORD and receive His correction are spared the Day when He rises to judge the earth.",
-    "god": "The LORD of this passage is stunningly righteous: He does no wrong, and He dispenses justice every morning without fail, as dependable as the sunrise. His presence in the midst of His people is both their glory and their greater accountability, for they sin in the light of perfect righteousness. He is a disciplining Father who sends correction in love, grieved when it is refused, and patient in delaying judgment, yet utterly resolved to rise at last and set the whole world right. His justice never sleeps even when human justice is wholly corrupt.",
+    "christ": "This passage leads to Christ most plainly by the person at the centre of verse 5. 'The LORD within her is righteous; He does no wrong.' Jerusalem's leaders did evil in the midst of the city, and then the Righteous One came into the city. Peter calls Him 'the Holy and Righteous One' whom the people rejected, Acts 3:14, and Stephen says the city killed 'those who foretold the coming of the Righteous One,' and then became His betrayers and murderers, Acts 7:52. Pilate's wife called Him 'that innocent man,' Matthew 27:19, and the centurion said, 'Surely this was a righteous man,' Luke 23:47. The one who does no wrong in the midst of the city is the one the city condemns.\n\nIt leads to Christ by the visit. God's verb for His coming to a people, in chapters 1 to 3 of this book, can mean punishing or caring. Jesus weeps over Jerusalem because 'you did not recognize the time of your visitation from God,' Luke 19:44. The city that accepted no correction did not recognise the coming of the Righteous One, and that was its fatal mistake. The lament in Matthew 23:37, 'how often I have longed to gather your children,' is the voice of the God of verse 7 who had said, 'Surely you will fear Me.'\n\nIt leads to Christ by the correction that Jerusalem refused. The Hebrew word musar, for correction or discipline, turns up again in Isaiah 53:5: 'the punishment that brought us peace was upon Him.' The city that took no correction has its correction borne by the Servant. Hebrews says that even He 'learned obedience from what He suffered,' Hebrews 5:8, and it tells believers to accept the Lord's discipline, since He disciplines those He loves, Hebrews 12:5-6.\n\nIt leads to Christ by the way He was judged. The princes and judges who were meant to defend the weak became, on the night of His arrest, the 'power of darkness' who laid hands on Him, Luke 22:53, and the psalm of the Righteous Sufferer speaks of enemies who 'open their jaws against me like lions that roar and maul,' Psalm 22:13. The wolves of the evening in verse 3 should not be turned into a coded prophecy, but the pattern is clear: Jerusalem's leaders did to the Righteous One what they had done to the poor, and in doing it they filled up the measure of the city's sin.\n\nAnd it leads to Christ by the waiting. Paul tells believers to 'await the blessed hope and glorious appearance of our great God and Savior Jesus Christ,' Titus 2:13, and to wait for God's Son from heaven, 1 Thessalonians 1:10. The summons 'wait for Me' becomes the posture of the church.\n\nAs always, the connections should not be forced. Zephaniah does not name Christ, and many of the details, such as the evening wolves and the morning justice, belong to their own setting. The reading that is most faithful rests on the New Testament's own use of the themes: the righteous God in the middle of a corrupt city, the offer of correction refused, and the day of God's rising.",
+    "god": "This passage shows a God who is righteous in a way that can be told by the clock. 'He applies His justice morning by morning; He does not fail at dawn.' His justice has the regularity of the sunrise. Human judges in the same verse sit like wolves of the evening, who come at night and finish before the morning, but God's justice is there each dawn and does not run out. This is a comfort to the oppressed, who were the ones the leaders ate. The Judge who is not corrupt knows what is done to them.\n\nHe is present, and His presence is double. He is 'within her,' and that is why Jerusalem's sin is so heavy. God had said through Amos, 'Only you have I known from all the families of the earth; therefore I will punish you for all your iniquities,' Amos 3:2. His nearness is a gift that makes accountability greater, not smaller.\n\nHe is a God who hopes in the way a teacher or a father hopes. 'I said, Surely you will fear Me and accept correction.' The sentence is spoken with the grammar of expectation. God made the cutting off of other nations into a lesson for Judah, and He wanted the lesson to work. The judgment He brings is the last resort, after a long run of voices. Jeremiah says He rose early to send the prophets, Jeremiah 7:25. The heart of God in judgment is that He would rather not.\n\nHe is a God who speaks as both plaintiff and judge. If the Septuagint reading in verse 8 is right, the day He rises is a day to testify, and the picture is a covenant lawsuit like Micah 6:1-2. He does not hide behind rumours. He states His case.\n\nHe holds anger and purpose together. The fire of jealousy that will consume all the earth is the same fire that ended chapter 1, and it is not random. The verse that follows says that its end is to restore pure lips to the peoples, Zephaniah 3:9. Divine anger in this book is never an end in itself. It clears the ground.\n\nFor worship, the chapter calls us to a trust that can wait. 'Wait for Me' is the same verb that Habakkuk heard when the vision tarried, and those who wait on a righteous God are not waiting in vain. It also calls us to humility about the leaders we depend on and the leaders we are. Anyone who teaches, judges or leads is placed under the eye of One who is in the middle of the room. The righteous God who is within us as His people is not a threat to the faithful but their security, and the fear of Him is the beginning of receiving what He wishes to give.",
     "crossReferences": [
-      { "ref": "Ezekiel 22:25-29", "note": "The same fourfold indictment of Jerusalem's princes, priests, prophets, and people, devouring and profaning." },
-      { "ref": "Luke 19:41-44", "note": "Christ weeps over Jerusalem, the city that did not accept correction or know the time of its visitation." },
-      { "ref": "1 Peter 4:17", "note": "Judgment begins with the household of God, the principle behind woe falling first on the holy city." },
-      { "ref": "Romans 3:26", "note": "God is just and the justifier of the one who has faith in Jesus, the hope grounded in the righteous LORD within her." }
+      {
+        "ref": "Isaiah 1:21-23",
+        "note": "'See how the faithful city has become a harlot!' Isaiah says that justice once lived in her and now murderers, and that her rulers are rebels who do not defend the fatherless. Zephaniah 3:1-4 is the same accusation, a century later, which shows that the corruption had been long in growing and the warnings long in coming."
+      },
+      {
+        "ref": "Micah 3:9-11",
+        "note": "Her leaders judge for a bribe, her priests teach for a price and her prophets divine for money, and yet they lean on the LORD and say that no disaster can come. Micah names the motive behind Zephaniah's four offices, and shows how religious talk can be used to cover corrupt practice."
+      },
+      {
+        "ref": "Ezekiel 22:30",
+        "note": "'I searched for a man among them to repair the wall and stand in the gap before Me on behalf of the land, so that I should not destroy it. But I found no one.' Ezekiel's indictment of the same four groups ends with a vacancy. God's search for a mediator in Jerusalem is what Christ finally fills."
+      },
+      {
+        "ref": "Jeremiah 7:25-28",
+        "note": "God sent the prophets 'again and again,' but the people stiffened their necks and 'would not receive correction.' It is the history that stands behind Zephaniah 3:2 and 3:7, and shows that the book's phrases for refusing correction belong to the larger story of a people who would not listen."
+      },
+      {
+        "ref": "Jeremiah 21:12",
+        "note": "'Administer justice every morning, and rescue the victim of robbery from the hand of his oppressor.' Jeremiah tells the house of David to do what Zephaniah says God does morning by morning. The king was meant to be the image of the Judge, and the image failed."
+      },
+      {
+        "ref": "Lamentations 3:22-23",
+        "note": "'His mercies never fail. They are new every morning; great is Your faithfulness!' The morning that was a measure of God's justice in Zephaniah 3:5 becomes in Lamentations a measure of His mercy. The poet writes after the city has fallen, and his word is that the dawn still comes."
+      },
+      {
+        "ref": "Deuteronomy 32:4",
+        "note": "'He is the Rock, His work is perfect; all His ways are just. A God of faithfulness without injustice, righteous and upright is He.' Moses' song supplies the portrait that Zephaniah 3:5 points to when it says the LORD does no wrong. The song also predicts the people's corruption, so it already contains the whole story."
+      },
+      {
+        "ref": "Habakkuk 2:3",
+        "note": "'Though it lingers, wait for it, since it will surely come and will not delay.' The verb for waiting that Habakkuk is told to use of the vision is the one that Zephaniah 3:8 uses of waiting for God. The two prophets, who spoke in the same decades, give the same instruction: patience is the right response to a promise that is certain."
+      },
+      {
+        "ref": "Zephaniah 1:18",
+        "note": "'The whole earth will be consumed by the fire of His jealousy.' The same clause closes the first judgment section and closes this one at 3:8. The repeated sentence shows that chapters 1 to 3 are one block of judgment, and that the fire of God's jealousy is the key to the whole."
+      },
+      {
+        "ref": "Hebrews 12:5-6",
+        "note": "'The Lord disciplines the one He loves, and He chastises every son He receives.' The New Testament takes the correction that Jerusalem refused and shows its purpose: it is the work of a Father. What Zephaniah 3:7 hoped for is now explained as the way sons are trained."
+      },
+      {
+        "ref": "Acts 7:51-52",
+        "note": "Stephen tells the council that they 'always resist the Holy Spirit, just as your fathers did,' and that the fathers killed those who foretold the coming of the Righteous One. It is the long record of Zephaniah 3:1-4 taken to its end: the city that would not hear the prophets would not hear the One they spoke of."
+      },
+      {
+        "ref": "Isaiah 53:5",
+        "note": "'The punishment that brought us peace was upon Him.' The Hebrew word for punishment here is the word for the correction that Jerusalem would not accept in Zephaniah 3:2. What the city refused, the Servant bore for it, and by His wounds there is healing."
+      },
+      {
+        "ref": "Matthew 23:37-39",
+        "note": "Jesus laments over Jerusalem, 'how often I have longed to gather your children together, as a hen gathers her chicks under her wings, but you were unwilling!' It is the fullest answer to the God of Zephaniah 3:7 who said, 'Surely you will fear Me,' and the same refusal is still at work, with the same sorrow."
+      }
     ],
-    "oneStory": "The woe over Jerusalem shows that even God's chosen city, with corrupt shepherds and a hardened heart, stands condemned before the righteous LORD in her midst. That contrast drives the whole story toward Christ, the Righteous One who came into the city, bore its judgment, and will return to gather the nations. The refusal of correction that dooms Jerusalem is the backdrop for the grace of the next movement, where God Himself creates a humble, honest, rejoicing remnant, doing for His people what they could never do for themselves.",
-    "sermon": { "status": "verified", "preacher": "Alistair Begg", "title": "The Danger of Spiritual Paralysis", "url": "https://www.truthforlife.org/resources/sermon/the-danger-of-spiritual-paralysis/", "why": "Begg preaches directly on Zephaniah 3:1-5, the heart of this movement, treating the corruption of the rebellious city and its leaders against the righteousness of the LORD in her midst. A clear, orthodox exposition of the passage, confirmed on the Truth For Life archive this session as a Zephaniah 3:1-5 sermon." }
+    "oneStory": "The Bible begins with a world in which God dwelt with people and judged nothing but what was good. The first human choices introduced violence and corruption into that world, and Genesis 6 describes the result in two words, violence and corruption, that Zephaniah 3 applies to Jerusalem. The chapter is a reminder that the problem is not outside the people of God. It is in the capital city, in the courts, in the pulpit and in the temple, and it is the old problem of a creature who will not receive correction from the Creator.\n\nThe covenant at Sinai was meant to be the cure. God gave His people a law, priests to teach it, judges to apply it and prophets to remind them of it, and He placed His own presence in the midst of the camp and then in the temple. The four offices of verses 3 and 4 and the presence of verse 5 are the whole of the covenant order. Zephaniah's complaint is that the order has failed at every level and that God has remained faithful in the middle of it. The history from the monarchy to the exile is the working out of that tension.\n\nThe answer comes in the person who is the LORD within the city. The Righteous One is the true Judge, the true Shepherd and the faithful Prophet and Priest, and He takes the correction that Jerusalem refused. The city that killed the prophets killed Him, and in doing so became the place where the punishment that brought peace was borne, Isaiah 53:5. Luke 19:41-44 and Matthew 23:37-39 show Him weeping over the city before it falls. The righteous LORD does not stand aloof from the corrupt city. He enters it and takes its judgment on Himself.\n\nThe Bible then closes with a city of a different kind. Revelation 21:3 says that the dwelling place of God will be with man, and in that city there will be no oppressor, no corrupt office and no night. The justice that Zephaniah said came morning by morning will come without end. In the meantime the people of God are those who wait, who accept the Lord's discipline as the training of sons, Hebrews 12:5-11, and who look for the Day He rises. The verse that follows, Zephaniah 3:9, is the first glimpse of what the fire is for: a purified people from the nations, calling on the name of the LORD and serving Him shoulder to shoulder.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "Alistair Begg",
+      "title": "The Danger of Spiritual Paralysis",
+      "url": "https://www.truthforlife.org/resources/sermon/the-danger-of-spiritual-paralysis/",
+      "why": "Begg preaches directly on Zephaniah 3:1-5, the heart of this movement, treating the corruption of the rebellious city and its leaders against the righteousness of the LORD in her midst. A clear, orthodox exposition of the passage, confirmed on the Truth For Life archive this session as a Zephaniah 3:1-5 sermon."
+    }
   },
   "quiz": [
     {
       "q": "Whom does the woe fall on in this movement?",
       "options": [
-        { "text": "Jerusalem itself, the city of oppressors, rebellious and defiled.", "weight": 100, "note": "Zephaniah 3:1 turns the prophetic woe from the nations onto the holy city." },
-        { "text": "Only the surrounding pagan nations.", "weight": 75, "note": "The nations received woe in chapter two, but here the same cry turns onto Jerusalem itself." },
-        { "text": "The Babylonians who will destroy the city.", "weight": 25, "note": "The woe is aimed at Jerusalem's own sin, not at her future invaders." },
-        { "text": "The prophet Zephaniah himself.", "weight": 0, "note": "The woe is against the corrupt city and its leaders, not the prophet." }
+        {
+          "text": "Jerusalem itself, the city of oppressors, rebellious and defiled.",
+          "weight": 100,
+          "note": "Zephaniah 3:1 turns the prophetic woe from the nations onto the holy city."
+        },
+        {
+          "text": "Only the surrounding pagan nations.",
+          "weight": 75,
+          "note": "The nations received woe in chapter two, but here the same cry turns onto Jerusalem itself."
+        },
+        {
+          "text": "The Babylonians who will destroy the city.",
+          "weight": 25,
+          "note": "The woe is aimed at Jerusalem's own sin, not at her future invaders."
+        },
+        {
+          "text": "The prophet Zephaniah himself.",
+          "weight": 0,
+          "note": "The woe is against the corrupt city and its leaders, not the prophet."
+        }
       ]
     },
     {
       "q": "How are Jerusalem's leaders described?",
       "options": [
-        { "text": "Princes like roaring lions, judges like evening wolves, reckless prophets, and priests who profane the sanctuary.", "weight": 100, "note": "Zephaniah 3:3-4 indicts all four leadership classes as corrupt predators and profaners." },
-        { "text": "Faithful shepherds who guard the people.", "weight": 0, "note": "The opposite is true; they devour and profane rather than protect." },
-        { "text": "Weak but well-meaning men doing their best.", "weight": 75, "note": "Nearer in sensing failure, but the text names active corruption and violence, not mere weakness." },
-        { "text": "Foreigners who had seized power in the city.", "weight": 25, "note": "These are Jerusalem's own officials, judges, prophets, and priests." }
+        {
+          "text": "Princes like roaring lions, judges like evening wolves, reckless prophets, and priests who profane the sanctuary.",
+          "weight": 100,
+          "note": "Zephaniah 3:3-4 indicts all four leadership classes as corrupt predators and profaners."
+        },
+        {
+          "text": "Faithful shepherds who guard the people.",
+          "weight": 0,
+          "note": "The opposite is true; they devour and profane rather than protect."
+        },
+        {
+          "text": "Weak but well-meaning men doing their best.",
+          "weight": 75,
+          "note": "Nearer in sensing failure, but the text names active corruption and violence, not mere weakness."
+        },
+        {
+          "text": "Foreigners who had seized power in the city.",
+          "weight": 25,
+          "note": "These are Jerusalem's own officials, judges, prophets, and priests."
+        }
       ]
     },
     {
       "q": "What single bright contrast stands against the city's corruption?",
       "options": [
-        { "text": "The LORD within her is righteous, doing justice morning by morning without fail.", "weight": 100, "note": "Zephaniah 3:5 sets God's flawless daily justice against the leaders' corruption." },
-        { "text": "A few honest judges still held out in the city.", "weight": 75, "note": "Closer, since it looks for righteousness in the city, but the text points not to good officials but to the righteous LORD Himself." },
-        { "text": "The temple building remained magnificent.", "weight": 25, "note": "The priests were profaning the sanctuary; the contrast is God's own righteousness, not the building." },
-        { "text": "The surrounding nations had repented.", "weight": 0, "note": "The contrast is the righteous LORD in her midst, not the nations." }
+        {
+          "text": "The LORD within her is righteous, doing justice morning by morning without fail.",
+          "weight": 100,
+          "note": "Zephaniah 3:5 sets God's flawless daily justice against the leaders' corruption."
+        },
+        {
+          "text": "A few honest judges still held out in the city.",
+          "weight": 75,
+          "note": "Closer, since it looks for righteousness in the city, but the text points not to good officials but to the righteous LORD Himself."
+        },
+        {
+          "text": "The temple building remained magnificent.",
+          "weight": 25,
+          "note": "The priests were profaning the sanctuary; the contrast is God's own righteousness, not the building."
+        },
+        {
+          "text": "The surrounding nations had repented.",
+          "weight": 0,
+          "note": "The contrast is the righteous LORD in her midst, not the nations."
+        }
       ]
     },
     {
       "q": "Why is Jerusalem's refusal of correction so serious (3:2, 7)?",
       "options": [
-        { "text": "Refusing correction reveals a hardened heart that will not fear God or turn, sealing her under judgment.", "weight": 100, "note": "She accepted no correction, 3:2, and corrupted her deeds even after warning, 3:7." },
-        { "text": "It merely showed she was independent-minded.", "weight": 25, "note": "The text treats it as hardened rebellion, not healthy independence." },
-        { "text": "It was a minor failing compared to her idolatry.", "weight": 75, "note": "It sits alongside her idolatry, but refusing correction is central here, the root that keeps her from repenting." },
-        { "text": "It had no real bearing on her judgment.", "weight": 0, "note": "Her refusal of correction is precisely why judgment stands, unlike the humble who receive it." }
+        {
+          "text": "Refusing correction reveals a hardened heart that will not fear God or turn, sealing her under judgment.",
+          "weight": 100,
+          "note": "She accepted no correction, 3:2, and corrupted her deeds even after warning, 3:7."
+        },
+        {
+          "text": "It merely showed she was independent-minded.",
+          "weight": 25,
+          "note": "The text treats it as hardened rebellion, not healthy independence."
+        },
+        {
+          "text": "It was a minor failing compared to her idolatry.",
+          "weight": 75,
+          "note": "It sits alongside her idolatry, but refusing correction is central here, the root that keeps her from repenting."
+        },
+        {
+          "text": "It had no real bearing on her judgment.",
+          "weight": 0,
+          "note": "Her refusal of correction is precisely why judgment stands, unlike the humble who receive it."
+        }
       ]
     },
     {
       "q": "How does the righteous LORD in her midst point to Christ?",
       "options": [
-        { "text": "Jesus is the Righteous One who came into Jerusalem, exposed its sin, and bore its judgment.", "weight": 100, "note": "Christ, the LORD within her in the flesh, wept over the city and gave His life, Luke 19:41." },
-        { "text": "It shows God stayed distant from the corrupt city.", "weight": 25, "note": "The point is the opposite: the righteous LORD dwells in her midst, fulfilled in Christ." },
-        { "text": "It points to the temple as the holy place in her midst.", "weight": 75, "note": "The temple did symbolize God's presence, but the righteousness in her midst is God Himself, made flesh in Christ." },
-        { "text": "It has no connection to Jesus.", "weight": 0, "note": "The righteous LORD within her is fulfilled precisely in Christ among His people." }
+        {
+          "text": "Jesus is the Righteous One who came into Jerusalem, exposed its sin, and bore its judgment.",
+          "weight": 100,
+          "note": "Christ, the LORD within her in the flesh, wept over the city and gave His life, Luke 19:41."
+        },
+        {
+          "text": "It shows God stayed distant from the corrupt city.",
+          "weight": 25,
+          "note": "The point is the opposite: the righteous LORD dwells in her midst, fulfilled in Christ."
+        },
+        {
+          "text": "It points to the temple as the holy place in her midst.",
+          "weight": 75,
+          "note": "The temple did symbolize God's presence, but the righteousness in her midst is God Himself, made flesh in Christ."
+        },
+        {
+          "text": "It has no connection to Jesus.",
+          "weight": 0,
+          "note": "The righteous LORD within her is fulfilled precisely in Christ among His people."
+        }
       ]
     }
   ],
@@ -161,10 +399,25 @@
     "The righteous LORD in the midst of the city is fulfilled in Jesus, who wept over it and bore its judgment. How does His righteous presence with you shape the way you live today?"
   ],
   "translationNotes": [
-    { "ref": "Zephaniah 3:1", "note": "City of oppressors renders a Hebrew phrase; the BSB captures the sense of a rebellious, defiled, and oppressing city, the same word later prophets use of Jerusalem's violence." },
-    { "ref": "Zephaniah 3:3", "note": "Evening wolves leaving nothing for the morning pictures judges so rapacious they devour everything by nightfall, leaving no scraps, an image of insatiable injustice." },
-    { "ref": "Zephaniah 3:5", "note": "Morning by morning renders the doubled Hebrew la-boqer ba-boqer, stressing the unfailing, daily regularity of God's justice, like the dawn that never fails to come." },
-    { "ref": "Zephaniah 3:8", "note": "I rise to testify follows the LXX and Syriac; the BSB footnote notes the Hebrew reads rise up to plunder. Either way God rises to act decisively on the Day of judgment." }
+    {
+      "ref": "Zephaniah 3:1",
+      "note": "City of oppressors renders a Hebrew phrase; the BSB captures the sense of a rebellious, defiled, and oppressing city, the same word later prophets use of Jerusalem's violence."
+    },
+    {
+      "ref": "Zephaniah 3:3",
+      "note": "Evening wolves leaving nothing for the morning pictures judges so rapacious they devour everything by nightfall, leaving no scraps, an image of insatiable injustice."
+    },
+    {
+      "ref": "Zephaniah 3:5",
+      "note": "Morning by morning renders the doubled Hebrew la-boqer ba-boqer, stressing the unfailing, daily regularity of God's justice, like the dawn that never fails to come."
+    },
+    {
+      "ref": "Zephaniah 3:8",
+      "note": "I rise to testify follows the LXX and Syriac; the BSB footnote notes the Hebrew reads rise up to plunder. Either way God rises to act decisively on the Day of judgment."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Zephaniah 3:1-8. All 8 verses reproduced contiguously. Sermon by Alistair Begg on Zephaniah 3:1-5 verified on the Truth For Life archive this session." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Zephaniah 3:1-8. All 8 verses reproduced contiguously. Sermon by Alistair Begg on Zephaniah 3:1-5 verified on the Truth For Life archive this session."
+  }
 }
