@@ -21,9 +21,16 @@ Read this first in any new session working on Makor films.
     (`script/one-minute-script.md`), `edit/short.py` (GUIDE lines from `edit/short_guide.py`),
     `exports/the-garden-in-a-minute.mp4` (59.7 s) and the WhatsApp copy, `exports/short-pack.md`.
     Rerun `edit/short.py` if the score or the keyframes change.
+  - YouTube and vertical versions built from v1 (6 October): `exports/the-garden-youtube.mp4`
+    (11:02, with `the-garden-youtube.srt`, the v1 captions moved 4 s later for the opening) and
+    `exports/the-garden-vertical.mp4` (10:38). Rebuild both after the clips land:
+    `platform_versions.py films/genesis/02-the-garden youtube vertical`, then shift the new
+    v1 captions again (`ffmpeg -itsoffset 4 -i the-garden-v1.srt the-garden-youtube.srt`).
   - Still to do after the clips: review the task's flags, trim bad clips (`clip:A-B` flag in
-    `script/shotlist.py`), rebuild, then the YouTube and vertical versions, artwork and the
-    YouTube publishing pack. Then disable the scheduled task.
+    `script/shotlist.py`), rebuild, then the YouTube and vertical versions again and the YouTube
+    publishing pack. Artwork is done (6 October): thumbnails A s023 (the garden in the east)
+    and B s088 (the garden city), with 1280x720 previews, channel icon and watermark, in
+    `exports/art/`; it does not change with the clips. Then disable the scheduled task.
 - Next film after that: movement 3, The Fall (Genesis 3:1 to 24), see `GENESIS-SECTION-MAP.md`.
 
 ## Rules (from Luyanda, never bend)
