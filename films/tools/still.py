@@ -35,8 +35,21 @@ def prompts(script: pathlib.Path) -> dict[int, str]:
     return out
 
 
-def log_cost(film: pathlib.Path, what: str, cost: float):
-    f = film / "COSTS.md"
+def meta(script: pathlib.Path):
+    """Per shot: file stem (an sNNN id when the header has one) and reference image paths."""
+    names, refs, shot = {}, {}, None
+    for line in script.read_text().splitlines():
+        m = re.match(r"### Shot (\d+):\s*(s\d{3})?", line)
+        if m:
+            shot = int(m.group(1))
+            names[shot] = m.group(2) or f"shot-{shot:02d}"
+        elif shot and line.startswith("- Refs:"):
+            refs[shot] = [r.strip() for r in line[len("- Refs:"):].split(",") if r.strip()]
+    return names, refs
+
+
+def log_cost(film: pathlib.Path, what: str, cost: float, log: str = "COSTS.md"):
+    f = film / log
     text = f.read_text()
     rows = [l for l in text.splitlines() if re.match(r"\| \d+ \|", l)]
     total = sum(float(l.split("|")[6]) for l in rows) + cost
@@ -54,17 +67,25 @@ def main():
     ap.add_argument("--out", default="stills")
     ap.add_argument("--script", default="script/day-01-script.md")
     ap.add_argument("--tag", default="", help="suffix for the file name, e.g. b for a retry")
+    ap.add_argument("--aspect", default="9:16", help="aspect ratio, e.g. 16:9 for the full film")
+    ap.add_argument("--log", default="COSTS.md", help="cost log file in the film folder")
     a = ap.parse_args()
     film = pathlib.Path(a.film)
     ps = prompts(film / a.script)
+    names, refs = meta(film / a.script)
     k = key()
     for s in a.shots:
         p = ps[s]
         bad = [w for w in BANNED if w in p.lower()]
         if bad:
             sys.exit(f"shot {s}: banned words in prompt: {bad}")
-        body = {"model": MODEL, "input": [{"type": "text", "text": p}],
-                "response_format": {"type": "image", "aspect_ratio": "9:16", "image_size": "2K"}}
+        inputs = [{"type": "text", "text": p}]
+        for r in refs.get(s, []):   # reference images for style and continuity (up to 14 allowed)
+            rp = film / r
+            mime = "image/png" if rp.suffix == ".png" else "image/jpeg"
+            inputs.append({"type": "image", "mime_type": mime, "data": base64.b64encode(rp.read_bytes()).decode()})
+        body = {"model": MODEL, "input": inputs,
+                "response_format": {"type": "image", "aspect_ratio": a.aspect, "image_size": "2K"}}
         req = urllib.request.Request(ENDPOINT, data=json.dumps(body).encode(), method="POST",
                                      headers={"x-goog-api-key": k, "Content-Type": "application/json"})
         try:
@@ -78,10 +99,10 @@ def main():
             redacted = json.dumps(res)[:1500]
             sys.exit(f"shot {s}: no image in response (status {res.get('status')}): {redacted}")
         ext = {"image/png": "png", "image/jpeg": "jpg", "image/webp": "webp"}.get(imgs[0].get("mime_type"), "png")
-        dest = film / a.out / f"shot-{s:02d}{a.tag}.{ext}"
+        dest = film / a.out / f"{names.get(s, f'shot-{s:02d}')}{a.tag}.{ext}"
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_bytes(base64.b64decode(imgs[0]["data"]))
-        total = log_cost(film, f"still shot {s}{a.tag} -> {dest.relative_to(film)}", PRICE)
+        total = log_cost(film, f"still shot {s}{a.tag} ({a.aspect}) -> {dest.relative_to(film)}", PRICE, a.log)
         print(f"shot {s}: {dest} ({dest.stat().st_size // 1024} KB), running total {total:.2f} USD")
 
 

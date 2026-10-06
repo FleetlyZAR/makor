@@ -16,6 +16,9 @@ HERE = pathlib.Path(__file__).resolve().parent
 REPO = HERE.parents[3]
 STUDY = REPO / "src/content/studies/genesis/01-the-seven-days.json"
 OUT = HERE / "movement-script.md"
+LINES = HERE / "movement-lines.json"          # every spoken line, for the voice tools
+DURS = HERE / "movement-durations.json"       # real seconds per line, written by the voice tools
+TIMELINE = HERE / "movement-timeline.json"    # every event with its start time, for the animatic and edit
 WPM = {"READER": 185, "GOD": 140, "GUIDE": 155}   # measured from the Day One renders
 GAP = 0.6                                          # breath after every line
 
@@ -207,7 +210,12 @@ def split_range(a, b, state):
 
 
 # ------------------------------------------------------------------ render
-def secs(speaker, text):
+REAL = json.loads(DURS.read_text()) if DURS.exists() else {}
+
+
+def secs(speaker, text, lid=None):
+    if lid in REAL:
+        return REAL[lid] + GAP
     words = len(re.findall(r"[\w']+", text))
     return words / WPM[speaker] * 60 + GAP
 
@@ -219,39 +227,56 @@ def tc(s):
 def main():
     state, t, used, lines, chapters = {"god": False}, 0.0, [], [], []
     words = {"READER": 0, "GOD": 0, "GUIDE": 0}
-    body = []
+    body, spoken, events = [], [], []
+
+    def line(chapter, speaker, text, ref):
+        lid = f"m{len(spoken) + 1:03d}"
+        spoken.append({"id": lid, "chapter": chapter, "speaker": speaker, "text": text, "ref": ref})
+        return lid
+
+    def ev(kind, **kw):
+        events.append({"t": round(t, 3), "kind": kind, "chapter": title, **kw})
     for title, beats in CHAPTERS:
         chapters.append((t, title))
         body.append(f"\n## {tc(t)}  {title}\n")
         for b in beats:
             kind = b[0]
             if kind == "PIC":
-                body.append(f"*Picture:* {b[1]}\n")
+                body.append(f"*Picture:* {b[1]}\n"); ev("pic", text=b[1])
             elif kind == "BEAT":
-                body.append(f"*{b[1]} s, no voice:* {b[2]}\n"); t += b[1]
+                body.append(f"*{b[1]} s, no voice:* {b[2]}\n"); ev("beat", dur=b[1], text=b[2]); t += b[1]
             elif kind == "CARD":
-                body.append(f"`ON SCREEN` {b[1]}\n"); t += 0
+                body.append(f"`ON SCREEN` {b[1]}\n"); ev("card", text=b[1])
             elif kind == "GUIDE":
-                body.append(f"**GUIDE** {b[1]}  <sub>[{b[2]}]</sub>\n")
-                t += secs("GUIDE", b[1]); words["GUIDE"] += len(b[1].split())
+                lid = line(title, "GUIDE", b[1], b[2]); ev("line", id=lid, speaker="GUIDE", text=b[1])
+                body.append(f"**GUIDE** {b[1]}  <sub>[{b[2]}] {lid}</sub>\n")
+                t += secs("GUIDE", b[1], lid); words["GUIDE"] += len(b[1].split())
             elif kind == "Q":
                 assert b[1] in STUDY_TEXT, f"quotation not verbatim in study JSON: {b[1]}"
-                body.append(f"**{b[3]}** {b[1]}  <sub>({b[2]}, quoted verbatim from the study)</sub>\n")
-                t += secs(b[3], b[1]); words[b[3]] += len(b[1].split())
+                lid = line(title, b[3], b[1], b[2]); ev("line", id=lid, speaker=b[3], text=b[1], ref=b[2])
+                body.append(f"**{b[3]}** {b[1]}  <sub>({b[2]}, quoted verbatim from the study) {lid}</sub>\n")
+                t += secs(b[3], b[1], lid); words[b[3]] += len(b[1].split())
             elif kind == "V":
                 for key, segs in split_range(b[1], b[2], state):
                     used.append(key)
-                    body.append(f"<sub>Genesis {key}</sub>  " + "  ".join(f"**{sp}** {tx}" for sp, tx in segs) + "\n")
-                    for sp, tx in segs:
-                        t += secs(sp, tx); words[sp] += len(tx.split())
+                    ids = [line(title, sp, tx, f"Genesis {key}") for sp, tx in segs]
+                    body.append(f"<sub>Genesis {key}</sub>  " + "  ".join(f"**{sp}** {tx}" for sp, tx in segs)
+                                + f"  <sub>{' '.join(ids)}</sub>\n")
+                    for (sp, tx), lid in zip(segs, ids):
+                        ev("line", id=lid, speaker=sp, text=tx, ref=f"Genesis {key}")
+                        t += secs(sp, tx, lid); words[sp] += len(tx.split())
     allkeys = [k for k, _ in VERSES]
     assert used == allkeys, f"verses missing, repeated or out of order: {set(allkeys) ^ set(used)}"
     text = "".join(body)
     for bad in ["–", "—"]:
         assert bad not in text, "dash found"
-    head = HEADER.format(total=tc(t), n=len(allkeys), r=words["READER"], g=words["GOD"], gu=words["GUIDE"],
+    basis = "from the rendered voice track" if REAL else "estimated from word counts"
+    head = HEADER.format(total=tc(t), basis=basis, n=len(allkeys), r=words["READER"], g=words["GOD"], gu=words["GUIDE"],
                          chapters="\n".join(f"{tc(s)} {name}" for s, name in chapters))
     OUT.write_text(head + text + FOOTER)
+    LINES.write_text(json.dumps(spoken, indent=1, ensure_ascii=False))
+    TIMELINE.write_text(json.dumps({"total": round(t, 3), "gap": GAP, "chapters": [[round(a, 3), n] for a, n in chapters],
+                                    "events": events}, indent=1, ensure_ascii=False))
     print(f"wrote {OUT.relative_to(REPO)}: {len(allkeys)} verses verified, est. runtime {tc(t)}, "
           f"words READER {words['READER']}, GOD {words['GOD']}, GUIDE {words['GUIDE']}")
 
@@ -261,7 +286,7 @@ HEADER = """# The Seven Days: full movement film script
 Genesis 1:1 to 2:3. One film for YouTube, built as an epic, structured on the
 Makor study. Generated by `script/movement.py`; edit that file, not this one.
 
-Estimated runtime: **{total}** before music beats are stretched in the edit.
+Runtime: **{total}** ({basis}), before music beats are stretched in the edit.
 All {n} verses of the movement appear once, in order, verbatim BSB from the
 study JSON (checked by the generator). Words: READER {r}, GOD {g}, GUIDE {gu}.
 

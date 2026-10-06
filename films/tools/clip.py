@@ -44,8 +44,8 @@ def call(url, k, body=None):
         return json.load(r)
 
 
-def log_cost(film, tool, what, units, cost):
-    f = film / "COSTS.md"
+def log_cost(film, tool, what, units, cost, log="COSTS.md"):
+    f = film / log
     text = f.read_text()
     rows = [l for l in text.splitlines() if re.match(r"\| \d+ \|", l)]
     total = sum(float(l.split("|")[6]) for l in rows) + cost
