@@ -15,10 +15,15 @@ Read this first in any new session working on Makor films.
     (10:38, depth motion on every shot, re-cut Seven Days score, 34 sound placements).
   - M5 in progress: 20 Veo clips (12 Lite, 8 Fast) via the scheduled task
     `makor-veo-daily` (09:06 daily, stops at 40 USD). Spend so far 8.25 USD of a 75 USD cap.
+    No clips yet: on 6 October the day's Veo quota had gone to The Seven Days, so the first
+    run is 7 October and Lite (about 10 a day) finishes on 8 October.
+  - One minute short done (6 October, from keyframes, free): script approved
+    (`script/one-minute-script.md`), `edit/short.py` (GUIDE lines from `edit/short_guide.py`),
+    `exports/the-garden-in-a-minute.mp4` (59.7 s) and the WhatsApp copy, `exports/short-pack.md`.
+    Rerun `edit/short.py` if the score or the keyframes change.
   - Still to do after the clips: review the task's flags, trim bad clips (`clip:A-B` flag in
-    `script/shotlist.py`), rebuild, then the YouTube and vertical versions, artwork, one minute
-    short (copy and adapt `01-the-seven-days/edit/short.py`) and publishing packs. Then disable
-    the scheduled task.
+    `script/shotlist.py`), rebuild, then the YouTube and vertical versions, artwork and the
+    YouTube publishing pack. Then disable the scheduled task.
 - Next film after that: movement 3, The Fall (Genesis 3:1 to 24), see `GENESIS-SECTION-MAP.md`.
 
 ## Rules (from Luyanda, never bend)
