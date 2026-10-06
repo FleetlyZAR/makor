@@ -18,10 +18,26 @@
         "note": "no sign but Jonah",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 16, "n": 1, "text": "Then the Pharisees and Sadducees came and tested Jesus by asking Him to show them a {{semeion|sign}} from heaven." },
-          { "chapter": 16, "n": 2, "text": "But He replied, “When evening comes, you say, ‘The weather will be fair, for the sky is red,’" },
-          { "chapter": 16, "n": 3, "text": "and in the morning, ‘Today it will be stormy, for the sky is red and overcast.’ You know how to interpret the appearance of the sky, but not the signs of the times." },
-          { "chapter": 16, "n": 4, "text": "A wicked and adulterous generation demands a sign, but none will be given it except the sign of Jonah.” Then He left them and went away." }
+          {
+            "chapter": 16,
+            "n": 1,
+            "text": "Then the Pharisees and Sadducees came and tested Jesus by asking Him to show them a {{semeion|sign}} from heaven."
+          },
+          {
+            "chapter": 16,
+            "n": 2,
+            "text": "But He replied, “When evening comes, you say, ‘The weather will be fair, for the sky is red,’"
+          },
+          {
+            "chapter": 16,
+            "n": 3,
+            "text": "and in the morning, ‘Today it will be stormy, for the sky is red and overcast.’ You know how to interpret the appearance of the sky, but not the signs of the times."
+          },
+          {
+            "chapter": 16,
+            "n": 4,
+            "text": "A wicked and adulterous generation demands a sign, but none will be given it except the sign of Jonah.” Then He left them and went away."
+          }
         ]
       },
       {
@@ -29,22 +45,69 @@
         "note": "beware their teaching",
         "emphasis": "",
         "verses": [
-          { "chapter": 16, "n": 5, "text": "When they crossed to the other side, the disciples forgot to take bread." },
-          { "chapter": 16, "n": 6, "text": "“Watch out!” Jesus told them. “Beware of the {{zyme|leaven}} of the Pharisees and Sadducees.”" },
-          { "chapter": 16, "n": 7, "text": "They discussed this among themselves and concluded, “It is because we did not bring any bread.”" },
-          { "chapter": 16, "n": 8, "text": "Aware of their conversation, Jesus said, “You of {{oligopistos|little faith}}, why are you debating among yourselves about having no bread?" },
-          { "chapter": 16, "n": 9, "text": "Do you still not understand? Do you not remember the five loaves for the five thousand, and how many basketfuls you gathered?" },
-          { "chapter": 16, "n": 10, "text": "Or the seven loaves for the four thousand, and how many basketfuls you gathered?" },
-          { "chapter": 16, "n": 11, "text": "How do you not understand that I was not telling you about bread? But beware of the leaven of the Pharisees and Sadducees.”" },
-          { "chapter": 16, "n": 12, "text": "Then they understood that He was not telling them to beware of the leaven used in bread, but of the teaching of the Pharisees and Sadducees." }
+          {
+            "chapter": 16,
+            "n": 5,
+            "text": "When they crossed to the other side, the disciples forgot to take bread."
+          },
+          {
+            "chapter": 16,
+            "n": 6,
+            "text": "“Watch out!” Jesus told them. “Beware of the {{zyme|leaven}} of the Pharisees and Sadducees.”"
+          },
+          {
+            "chapter": 16,
+            "n": 7,
+            "text": "They discussed this among themselves and concluded, “It is because we did not bring any bread.”"
+          },
+          {
+            "chapter": 16,
+            "n": 8,
+            "text": "Aware of their conversation, Jesus said, “You of {{oligopistos|little faith}}, why are you debating among yourselves about having no bread?"
+          },
+          {
+            "chapter": 16,
+            "n": 9,
+            "text": "Do you still not understand? Do you not remember the five loaves for the five thousand, and how many basketfuls you gathered?"
+          },
+          {
+            "chapter": 16,
+            "n": 10,
+            "text": "Or the seven loaves for the four thousand, and how many basketfuls you gathered?"
+          },
+          {
+            "chapter": 16,
+            "n": 11,
+            "text": "How do you not understand that I was not telling you about bread? But beware of the leaven of the Pharisees and Sadducees.”"
+          },
+          {
+            "chapter": 16,
+            "n": 12,
+            "text": "Then they understood that He was not telling them to beware of the leaven used in bread, but of the teaching of the Pharisees and Sadducees."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "semeion": { "language": "Greek", "lemma": "semeion", "original": "σημεῖον", "gloss": "A sign, a miraculous token pointing beyond itself. The leaders demand a sign from heaven to compel belief, but a heart that will not read the works already done will not be won by more; the only sign given will be the sign of Jonah." },
-    "zyme": { "language": "Greek", "lemma": "zyme", "original": "ζύμη", "gloss": "Leaven, yeast, which works invisibly to permeate a whole batch of dough. Jesus uses it as a picture of teaching: the false doctrine of the leaders spreads quietly and corrupts the whole, so it must be watched against." },
-    "oligopistos": { "language": "Greek", "lemma": "oligopistos", "original": "ὀλιγόπιστος", "gloss": "Of little faith. A gentle rebuke Jesus reserves for His own disciples, who trust Him truly but too little, forgetting the bread He has already multiplied and fretting over what they lack." }
+    "semeion": {
+      "language": "Greek",
+      "lemma": "semeion",
+      "original": "σημεῖον",
+      "gloss": "A sign, a miraculous token pointing beyond itself. The leaders demand a sign from heaven to compel belief, but a heart that will not read the works already done will not be won by more; the only sign given will be the sign of Jonah."
+    },
+    "zyme": {
+      "language": "Greek",
+      "lemma": "zyme",
+      "original": "ζύμη",
+      "gloss": "Leaven, yeast, which works invisibly to permeate a whole batch of dough. Jesus uses it as a picture of teaching: the false doctrine of the leaders spreads quietly and corrupts the whole, so it must be watched against."
+    },
+    "oligopistos": {
+      "language": "Greek",
+      "lemma": "oligopistos",
+      "original": "ὀλιγόπιστος",
+      "gloss": "Of little faith. A gentle rebuke Jesus reserves for His own disciples, who trust Him truly but too little, forgetting the bread He has already multiplied and fretting over what they lack."
+    }
   },
   "study": {
     "basic": {
@@ -58,76 +121,227 @@
       "oneStory": "As opposition hardens, Jesus refuses to prove Himself to those who will not believe and points to the one sign that will settle everything: His resurrection, the sign of Jonah. The story presses on toward the cross and the empty tomb, the sign for every generation, while His people learn to beware the leaven that would corrupt their faith."
     },
     "context": {
-      "literary": "This scene stands between two feedings and Peter's confession, and it echoes the earlier sign demand of chapter 12. Matthew unites the Pharisees and Sadducees, ordinarily opposed, to show the breadth of the rejection. The leaven warning turns on the disciples' obtuseness, a recurring motif, and it prepares the reader to hear Peter's confession in verse 16 as a God-given exception to the surrounding blindness.",
-      "historical": "The Pharisees prized the oral tradition and the resurrection; the Sadducees, a priestly aristocracy, rejected both and denied the resurrection. Their alliance against Jesus was remarkable. Weather lore from the color of the sky was common wisdom. Leaven, a piece of fermented dough, was a familiar image for a small, hidden influence spreading through the whole.",
-      "canonical": "The sign of Jonah ties to Jonah 1:17 and to Matthew 12:39-40, where Jesus makes the three days explicit. The leaven imagery recurs in 1 Corinthians 5:6-8 and Galatians 5:9. The refusal to give a compelling sign accords with the biblical pattern that faith comes by the word, not by spectacle, John 20:29."
+      "literary": "The passage is made of two scenes joined by a boat. On the near shore the leaders ask for a sign and are refused; on the water the disciples worry about bread and are corrected. Both scenes turn on a failure to read: the leaders cannot read the times, the disciples cannot read a figure of speech. The refusal in verses 1 to 4 is about what the leaders will not see, while the correction in verses 5 to 12 is about what the disciples are slow to see, and Matthew lets one illuminate the other.\n\nThe first scene has a strict shape. A request is made, verse 1. Jesus replies with a comparison, weather you can read against times you cannot, verses 2 and 3. Then He gives a verdict and a single exception, verse 4. The final sentence, 'Then He left them and went away', is a door closing, and it is the only action Matthew gives Jesus in the scene.\n\nThe second scene is built around a repeated word, 'leaven', and a pair of misunderstandings. Jesus warns in verse 6, the disciples reason in verse 7, Jesus rebukes in verses 8 to 11, and verse 12 gives the answer. A run of questions drives the rebuke, and the last two set the two feedings side by side so that the memory of the miracles becomes the argument.\n\nThis unit also borrows from earlier in Matthew. The same Pharisees and Sadducees came to John's baptism and were called a brood of vipers, Matthew 3:7, and the demand for a sign repeats the request of Matthew 12:38 to 40. The passage thus sits as a deliberate echo, closing the cycle of opposition before Jesus turns to Peter's confession in the next scene.",
+      "historical": "Pharisees and Sadducees were rivals. The Pharisees held to the oral tradition, expected resurrection and were popular with ordinary people; the Sadducees, linked to the priestly aristocracy and the temple, rejected resurrection and held to the written Torah, Matthew 22:23. That they stand together here shows how the threat of Jesus made even opponents allies. Matthew's phrasing, treating them as a single group under one teaching, suggests the same.\n\nA demand for a 'sign from heaven' belongs to a long tradition. Moses performed signs in Egypt, and prophets were expected to authenticate themselves. Deuteronomy 13:1 to 3 shows that a sign alone proves nothing, because even a true sign could accompany a false word, and Deuteronomy 18 gives the test of a prophet. By the time of Jesus, people hoped for a sign that would settle the question of who He was. They had already seen healings, exorcisms and feedings, but they wanted something on a cosmic scale, on their own terms.\n\nThe weather proverb is that of an agricultural people. A red sky at evening or morning was read as a forecast, and the sayings in verses 2 and 3 are the kind of folk wisdom any Galilean farmer knew. The Greek manuscripts differ on whether these two verses belong in Matthew, and the BSB notes that several leave them out. Luke 12:54 to 56 contains a similar saying, so the thought is secure in the Gospel tradition even if the form here is disputed.\n\nLeaven was a piece of old fermented dough used to raise new bread. It was removed from the house before Passover, Exodus 12:15, and so it was a natural picture of something that spreads and corrupts. A crossing of the lake was routine, and the disciples had to carry their own provisions, which explains the worry in verse 5.",
+      "canonical": "The refusal of a sign has deep roots. Israel kept asking for proofs and received many, yet the wilderness generation grew hard-hearted even after the plagues, and the psalmist later remembers that they tested God though they had seen His works. Isaiah 7:10 to 12 offers a sign and is refused by Ahaz who dresses his unbelief in piety: I will not test the LORD. The roles in Matthew 16 are reversed: the leaders pretend to seek, while Jesus shows what real seeking would be.\n\nJonah is the one exception. The book of Jonah says the LORD appointed a great fish and that Jonah spent three days and three nights in its belly, Jonah 1:17, and Matthew 12:40 has already tied that to the Son of Man in the heart of the earth. Nineveh repented at Jonah's preaching, and Jesus says that one greater than Jonah is here, Matthew 12:41. The sign is therefore a death and rising, together with a message that calls for repentance.\n\nThe irony of the cross is that the same people who demanded a sign later asked for the tomb to be guarded, Matthew 27:62 to 64. They remembered that He had said He would rise on the third day, and acted to prevent the very sign He had offered. John 6:30 shows a crowd asking for a sign again after the feeding, and Paul's summary is that Jews demand signs while we preach Christ crucified, 1 Corinthians 1:22 to 24.\n\nLeaven is used in a bad sense by Jesus, Paul and Luke. Luke 12:1 names the leaven of the Pharisees as hypocrisy, and Paul warns that a little leaven works through the whole batch, 1 Corinthians 5:6 and Galatians 5:9. Jesus can also use leaven for the kingdom, Matthew 13:33, so the image is not bad in itself; it is the spreading character that matters. Paul links the old leaven with the Passover, and so with Christ, 1 Corinthians 5:7."
     },
     "hermeneutics": {
-      "authorIntent": "To show Jesus refusing to authenticate Himself on demand to hardened opponents, pointing instead to His resurrection as the decisive sign, and warning His disciples to discern and resist corrupting teaching.",
-      "descriptionVsPrescription": "The refusal describes Jesus' response to a specific test; it prescribes the abiding truth that God is not obligated to satisfy unbelieving demands, and that believers must guard against false doctrine. The rebuke of little faith warns against the anxiety that forgets God's proven provision.",
+      "authorIntent": "Matthew wants his readers to see that unbelief is not a lack of evidence. Jesus has already healed the sick, fed thousands and cast out demons in front of these men, and what they ask for is not information but a performance that would put Him under their control. He records the refusal so that readers will not think that more miracles would have produced more faith. The sign that will be given is a death and a rising, and it will be given on God's terms.\n\nHe also wants to teach discernment. The leaders can read the sky and not the moment, and the disciples can read bread and not teaching. The first group's failure is a matter of will, since they have what they need to understand and will not accept it. The second group's failure is a matter of slowness, and Jesus handles it differently, with questions that jog memory and with patience.\n\nFinally, Matthew is protecting the disciples. The same teaching that has just been refused a hearing could creep into the community, and its spread would be quiet. By naming the leaven of the Pharisees and Sadducees as their teaching, verse 12, he alerts the church to the danger of a religion that is expert at argument and starved of trust. Readers are meant to attend to what shapes them as well as to who stands against them.",
+      "descriptionVsPrescription": "The passage describes Jesus' refusal of a particular demand from particular people at a particular time. It does not say that God never gives signs, since Matthew's Gospel is full of them, nor that believers should never ask Him for guidance or evidence. The prohibition is aimed at a demand made in bad faith: one that tests rather than trusts and that says in advance what would count as proof.\n\nWhat carries forward is a warning against that posture. It is possible to be surrounded by evidence and remain unmoved, and to ask for more as a way of delaying obedience. Hebrews 3:7 to 11 takes up the same warning. It is also possible to make faith depend on a spectacular experience, and Jesus' answer is that the death and resurrection, which have already happened, are the sign that has been given.\n\nThe leaven section is descriptive of a misunderstanding and prescriptive in its conclusion. The disciples are told to beware, and the church ever since has applied that to false teaching and hypocrisy. We should be careful not to treat every disagreement within the church as leaven; Jesus is speaking of a teaching that makes outward religion a substitute for the heart, as chapter 15 has just shown.",
       "debates": [
         {
-          "question": "What exactly is the sign of Jonah?",
+          "question": "What does Jesus mean by the sign of Jonah?",
           "views": [
-            { "label": "The resurrection after three days", "case": "In Matthew 12:40 Jesus links Jonah's three days in the fish to the Son of Man's three days in the earth, so the sign is chiefly His death and rising, the one vindicating miracle." },
-            { "label": "The preaching that summons to repentance", "case": "Jonah's word brought Nineveh to repentance; the sign may also be the proclamation that confronts and converts, so that the true miracle is a message believed rather than a spectacle seen." }
+            {
+              "label": "His death and resurrection",
+              "case": "Matthew 12:40 ties Jonah's three days and three nights in the fish to the Son of Man's time in the heart of the earth. The sign is chiefly the resurrection, the one vindicating act that God will give to a generation that refuses lesser signs."
+            },
+            {
+              "label": "His preaching that calls for repentance",
+              "case": "Luke 11:30 says Jonah became a sign to the people of Nineveh, and Nineveh repented at his preaching, Matthew 12:41. The sign may therefore be the message itself, which confronts a generation as Jonah's did, with the greater authority of One greater than Jonah."
+            },
+            {
+              "label": "Both together",
+              "case": "Matthew 12 includes both strands, a death and rising in verse 40 and a repentance-demanding word in verse 41. On this reading Jonah's being given back from the depths and his call to Nineveh combine into one sign: God raises His Son and summons the nations to turn."
+            }
           ],
-          "bearing": "Both cohere: the resurrection is the decisive sign, and the preaching of the crucified and risen Christ is the means by which that sign calls the world to repent."
+          "bearing": "The views are not rivals. In Matthew 16:4 the saying is compressed, and the fuller version in chapter 12 shows that both elements matter, with the resurrection as the proof and the preaching as the call."
+        },
+        {
+          "question": "What is the leaven of the Pharisees and Sadducees?",
+          "views": [
+            {
+              "label": "Their teaching",
+              "case": "Matthew himself says so in verse 12: the disciples understood that He was speaking of the teaching of the Pharisees and Sadducees. The two groups differed sharply, so the leaven is a shared way of handling God's word, in which tradition, power or doubt overrides faith."
+            },
+            {
+              "label": "Their hypocrisy",
+              "case": "Luke 12:1 says the leaven of the Pharisees is hypocrisy. This fits chapter 15, where Jesus calls them hypocrites for honoring God with their lips while their hearts are far away."
+            },
+            {
+              "label": "Their demand for signs, an attitude of unbelief",
+              "case": "The leaven warning follows the refusal of the sign immediately, so some link it to the posture of testing God. The disciples' worry about bread, which shows a failure to trust, is the same attitude in a smaller form."
+            }
+          ],
+          "bearing": "Matthew's explanation settles the main point, that it is teaching, and the other views describe what that teaching produces. The common thread is a religion that has everything except trust."
         }
       ]
     },
-    "originalLanguages": "The leaders demand a semeion, a sign from heaven that would compel belief, but Jesus knows that a heart set against Him will not be persuaded by wonders; the only sign given is the sign of Jonah, His resurrection. He then warns of the zyme, the leaven, the hidden teaching of the Pharisees and Sadducees that works through a life and a community like yeast through dough. When the disciples miss His meaning and fret about literal bread, He calls them oligopistoi, of little faith, gently rebuking those who have seen Him feed thousands yet still forget. Discernment, not spectacle, is what He asks of them.",
+    "originalLanguages": "Matthew says the Pharisees and Sadducees came 'testing' Jesus, verse 1. The verb is peirazo, the same verb used of the tempter in Matthew 4:1 and 3. By choosing it Matthew tells us that the request for a sign is not a question but a trial, and that those who ask it stand where the devil stood in the wilderness, asking Jesus to prove Himself on demand. The demand is for a semeion ek tou ouranou, a sign 'from heaven', an act on a scale that no one could attribute to earth.\n\nIn verse 4 He calls the generation 'wicked and adulterous'. Wicked is poneros, evil in the active sense, and adulterous carries the Old Testament sense of unfaithfulness to a covenant husband, as in Hosea, where Israel's idolatry is called whoredom. This is a charge that they are breaking faith with the LORD even as they claim to guard His Law. The verb 'demands' is epizeteo, to seek after or press for, which conveys hunger for something to satisfy a prior demand. It is a seeking that has already decided what it will find.\n\nThe saying about signs of the times uses kairos, 'time' in the sense of a season or critical moment, and not chronos, the mere passing of time. The leaders can read the sky, but they cannot recognize the decisive moment God has brought about in front of them.\n\nIn verse 6 Jesus gives two imperatives, horate and prosechete, 'see' and 'give heed', which together mean look and take care. Leaven is zyme, and the warning applies to its quiet, pervasive effect. The disciples 'reasoned among themselves', dialogizomai, verse 7, a word for inward, private reasoning that Mark uses of scribes questioning Jesus in their hearts, Mark 2:6 and 8. Jesus names them oligopistoi, 'little faith', a single word in Greek, which in Matthew describes worry, Matthew 6:30, fear at sea, Matthew 8:26, and doubt on the water, Matthew 14:31. In each case faith is present but small, and it is a matter of trust rather than of knowledge.\n\nJesus uses two verbs for understanding in the same scene, noeo in verse 9, to perceive with the mind, and syniemi in verse 12, to put together. The disciples finally 'put it together'. His recall of the two feedings preserves the Gospel's distinction in baskets, kophinoi for the five thousand and spyrides for the four thousand, Matthew 16:9 and 10, as the earlier narratives had it.",
     "typology": [
-      { "type": "Jonah's three days in the great fish", "fulfillment": "The Son of Man three days in the heart of the earth and His resurrection, Matthew 12:40, Jonah 1:17." },
-      { "type": "Jonah's preaching to Nineveh", "fulfillment": "The gospel proclaimed to the nations, a greater than Jonah calling all to repent, Matthew 12:41." },
-      { "type": "Leaven working through the dough", "fulfillment": "False teaching, and elsewhere sin, spreading through a community, a warning fulfilled in the church's call to purity, 1 Corinthians 5:6-8." }
+      {
+        "type": "Jonah in the great fish, Jonah 1:17",
+        "fulfillment": "Jonah was swallowed by the great fish and spent three days and three nights in its belly, and then was given back alive. Jesus says the Son of Man will be in the heart of the earth for the same span, Matthew 12:40. The correspondence is a descent into death-like darkness and a return on the third day. The escalation is that Jonah's rescue was a deliverance of one prophet, while Jesus' rising is the deliverance of a people and a world, Romans 4:25. The type falls short in that Jonah was running from his mission, while Jesus goes to the grave in obedience."
+      },
+      {
+        "type": "Nineveh's repentance, Jonah 3:5",
+        "fulfillment": "A Gentile city believed God's message and turned from its evil, and Jesus says that the men of Nineveh will condemn this generation, Matthew 12:41. The correspondence is that the nations respond to a prophet whom Israel's leaders refuse. The escalation is that the One preaching is greater than Jonah, so that the response owed is greater too. The type falls short in that Nineveh's turning was an act of reprieve, and Christ's call leads to forgiveness secured by His death."
+      },
+      {
+        "type": "Leaven and the Passover, Exodus 12:15",
+        "fulfillment": "Israel was to remove leaven from the house before the Passover, and anyone who ate it was cut off. Leaven therefore stood for what had to be cleared away for the sake of a clean start. Paul draws on the same image when he says Christ, our Passover lamb, has been sacrificed, so let us keep the feast with the bread of sincerity and truth, 1 Corinthians 5:7 and 8. The correspondence is the call to purge what spreads and corrupts. The escalation is that the feast is kept on the basis of an accomplished sacrifice. The type falls short because the old festival removed leaven once a year, while the believer's life is a continual keeping of the feast."
+      }
     ],
-    "christ": "Jesus is the greater than Jonah. He will not be reduced to a wonder-worker on demand, for the faith He seeks is not coerced by spectacle but awakened by the truth. He points beyond every lesser sign to the one that vindicates Him before the world: three days in the grave and a bodily rising, the sign of Jonah. In refusing the test He exposes the hardness of His opponents, and in warning His disciples He shepherds them toward discernment. He is the risen Lord whose empty tomb remains the sign for every generation that demands proof.",
-    "god": "God is not at the beck and call of unbelief; He will not perform to satisfy hearts that have already closed their eyes to His works. Yet He is supremely generous with the sign that counts, raising His Son from the dead as the public vindication of His whole mission. He calls His people to read the times rightly, to prize His word above sensation, and to guard against teaching that quietly corrupts, trusting the provision He has already proven.",
+    "christ": "The passage leads to Christ most directly through the sign of Jonah. Jesus refuses to perform on demand, and then names the one sign He will give, His own death and resurrection. This sign is a pattern that Jonah had lived out in outline and Christ would live out in full. In Matthew 12:40 He puts it plainly: as Jonah was three days and three nights in the belly of the great fish, so the Son of Man will be in the heart of the earth. The leaders, who ask for a miracle, are told that the miracle will be something they will try to stop, Matthew 27:62 to 64.\n\nThe passage also leads to Christ through contrast. Jonah ran from his mission, while Jesus goes to it. Jonah resented the mercy shown to Nineveh, Jonah 4:1, while Jesus weeps over Jerusalem. Jonah preached a short warning to an enemy city, and Jesus gives His life for His enemies, Romans 5:10. Where the prophet fell short, the greater Jonah does not.\n\nThird, He is the one who reads the hearts of those around Him. He knows the leaders' purpose in coming and the disciples' private talk in the boat, verse 8. His knowledge is not that of a mind-reader but of the Lord who judges and instructs. He exposes the testers and patiently teaches the slow.\n\nFourth, the feedings are on His mind. He asks the disciples to remember the baskets, and so identifies Himself as the One who supplied them. The concern about bread is made small by the presence of the Bread of life, John 6:35. The disciples should not worry, since the One in the boat with them is the one who fed thousands from loaves.\n\nIt is worth guarding against two mistakes. One is to treat Jonah as a code for every detail of the passion; the sign is the death and rising, and the details of the fish are not meant to be pressed. The other is to treat the refusal of a sign as a refusal of evidence. Christ offers abundant evidence, and the empty tomb is the final proof, Acts 17:31, where God has given assurance by raising Him from the dead.",
+    "god": "God appears in this passage as the one who will not be put to the test. The leaders come as examiners, and Jesus refuses the role of examinee. This is not pride, since Scripture itself forbids testing the LORD, Deuteronomy 6:16, and Jesus quoted that against the tempter in Matthew 4:7. God gives His signs freely, but on His terms, and no one can summon them as a matter of right.\n\nHe is also the God who gives signs. The history of Israel is full of them, from the plagues to the manna to the resurrection promised here. The statement that no sign will be given is therefore limited by an exception: there is the sign of Jonah. God's refusal is not stinginess, since He is already giving the greatest sign in the person of His Son, and the leaders will not look.\n\nThe passage shows God as sovereign over the times. The leaders cannot read the signs of the times, kairos, because the time belongs to Him. It is He who has brought the season of the Messiah, and it is His to reveal. Daniel's God is the one who changes times and seasons, Daniel 2:21, and Matthew's readers would hear that note in the phrase.\n\nThere is a tension here that deserves attention. God judges those who ask in bad faith, calling them wicked and adulterous, and yet He is patient with disciples whose faith is small. The same Jesus who departs from the Pharisees stays in the boat with the twelve and walks them through the logic of the loaves. The difference is not in the sinlessness of the two groups but in their orientation: one is testing, the other is following, however slowly.\n\nFor worship, the passage teaches that faith rests on God's word and works, which have already been given, rather than on a continual demand for fresh proofs. It also encourages anxious believers, since Jesus meets worry about provision with a reminder of what He has already done. The proper response is remembering, thanking and trusting, and God does not despise the small faith that does so.",
     "crossReferences": [
-      { "ref": "Jonah 1:17", "note": "Jonah three days and three nights in the belly of the great fish, the sign Jesus claims." },
-      { "ref": "Matthew 12:38-42", "note": "The earlier sign demand, where Jesus ties Jonah's three days to His own." },
-      { "ref": "1 Corinthians 5:6-8", "note": "A little leaven leavens the whole lump, the metaphor applied to influence within the church." },
-      { "ref": "John 20:29", "note": "Blessed are those who have not seen and yet have believed, faith resting on testimony rather than spectacle." }
+      {
+        "ref": "Matthew 12:38-42",
+        "note": "The earlier version of the demand and the fuller explanation of the sign of Jonah. It supplies the three days and three nights, the men of Nineveh who repented, and the Queen of the South who came to hear Solomon, and it makes Matthew 16:4 a deliberate repetition with the key already given."
+      },
+      {
+        "ref": "Jonah 1:17",
+        "note": "The great fish appointed by the LORD and Jonah's three days and three nights in its belly. This is the Old Testament event Jesus names as the pattern of His own death and rising, and the verse shows that God Himself arranged the deliverance."
+      },
+      {
+        "ref": "Deuteronomy 13:1-3",
+        "note": "A sign or wonder does not authenticate a message that leads away from the LORD, since God uses such things to test whether His people love Him. The verse shows why a demand for a sign can itself be a snare, and why Jesus will not be drawn into it."
+      },
+      {
+        "ref": "Isaiah 7:10-12",
+        "note": "God invites Ahaz to ask for a sign and Ahaz refuses with a pious phrase, I will not test the LORD. It shows that the problem is not always a request for a sign; it can be a refusal of one, and both can be disguises for unbelief."
+      },
+      {
+        "ref": "Luke 12:54-56",
+        "note": "A parallel saying addressed to the crowds, in which they can read cloud and wind but not the present time. It confirms the weather comparison, which some manuscripts omit in Matthew, and presses the same charge of hypocrisy."
+      },
+      {
+        "ref": "Mark 8:12",
+        "note": "Mark's version adds that Jesus sighed deeply in His spirit and says no sign will be given to this generation. The sigh shows grief beneath the refusal, and keeps us from reading the saying as mere irritation."
+      },
+      {
+        "ref": "Luke 12:1",
+        "note": "Luke gives a different gloss on the same image: the leaven of the Pharisees is hypocrisy. It adds a second layer to Matthew's explanation that the leaven is their teaching, since hypocrisy is what such teaching produces."
+      },
+      {
+        "ref": "1 Corinthians 5:6-8",
+        "note": "Paul uses the same image of a little leaven working through the whole batch, and ties it to Passover and Christ's sacrifice. It shows that the apostolic church took the leaven warning seriously and applied it to moral and doctrinal corruption."
+      },
+      {
+        "ref": "Galatians 5:9",
+        "note": "A single sentence, a little leaven works through the whole batch of dough, said in the middle of a fight over the gospel. It shows how the church read Jesus' warning: false teaching, even in small amounts, can change the character of a community."
+      },
+      {
+        "ref": "1 Corinthians 1:22-24",
+        "note": "Paul summarizes the long pattern in two lines: Jews demand signs and Greeks search for wisdom, while we preach Christ crucified. The answer to the demand for a sign is the cross and the resurrection, which is the sign of Jonah in the apostolic preaching."
+      },
+      {
+        "ref": "Matthew 14:31",
+        "note": "Peter's sinking is the first of the 'little faith' sayings addressed to a disciple who has seen a miracle and still doubts. It shows that the term describes a pattern in the twelve, and that Jesus catches them rather than casting them off."
+      },
+      {
+        "ref": "Matthew 27:62-64",
+        "note": "The leaders ask Pilate to seal the tomb because they remember the promise of a rising on the third day. It shows the demand for a sign turning into an effort to stop the sign, and it supports the claim that the empty tomb was well guarded against a forged resurrection."
+      }
     ],
-    "oneStory": "In the face of a rejection so deep that rival parties unite against Him, Jesus withholds the sign they demand and points to the only one that will settle the matter: His resurrection, the sign of Jonah. The one story drives toward the cross and the empty tomb, God's decisive vindication of His Son, while Jesus trains His people to discern truth and beware the leaven of teaching that would corrupt the faith once given."
-    ,"sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "From the beginning of the Bible, God speaks and people are asked to trust. The serpent's question in the garden was a request for a different kind of proof, and ever since, humanity has tended to put God's word on trial. The wilderness generation saw plagues, a parted sea and daily bread, and still asked, Is the LORD among us or not? This passage belongs to that history of asking, with the same Lord standing in front of the same kind of asker.\n\nWhat it answers from before is the question of how God authenticates Himself. The Old Testament offers signs, wonders and prophets, and the warnings of Deuteronomy 13 show that signs can mislead if they are cut loose from the word. Jesus' answer is that there will be one sign, the pattern God Himself wrote into the story of Jonah, a descent and a return. Everything else is preparation for it.\n\nWhat it sets up is the confession of Peter, which comes immediately after. The disciples, who could not see leaven for bread, will be asked who Jesus is, and the one who answers will do so by revelation, not by sign. The Gospel moves from a refusal of spectacle to a disclosure of identity, and from there to the road to Jerusalem where the sign will be given.\n\nThe story ends with the sign fulfilled. The tomb is empty, and the leaders who asked for a miracle will be handed a report of one, Matthew 28:11. Their reaction shows that signs alone do not create faith. In the new creation no one will need to ask, for faith will be sight and the Lamb will be the lamp of the city, Revelation 21:23. The generation that could not read the times will be replaced by a people who have come, as Jesus said, from east and west to eat with Abraham, and who know the One they follow.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "Why did Jesus refuse the demand for a sign from heaven?",
       "options": [
-        { "text": "The demand came from hardened hearts that would not believe, and He pointed instead to the sign of Jonah.", "weight": 100, "note": "Verses 1-4 show a testing, unbelieving demand met with the promise of the resurrection sign." },
-        { "text": "He was unwilling to perform miracles for the crowds.", "weight": 75, "note": "Jesus did work many miracles publicly; the issue was the testing, unbelieving motive, not miracles as such." },
-        { "text": "He had no power to give them a sign from heaven.", "weight": 25, "note": "He refused by choice, not lack of power; He promises the greatest sign, His resurrection." },
-        { "text": "He agreed to give them every sign they asked for.", "weight": 0, "note": "He explicitly refused all but the sign of Jonah." }
+        {
+          "text": "The demand came from hardened hearts that would not believe, and He pointed instead to the sign of Jonah.",
+          "weight": 100,
+          "note": "Verses 1-4 show a testing, unbelieving demand met with the promise of the resurrection sign."
+        },
+        {
+          "text": "He was unwilling to perform miracles for the crowds.",
+          "weight": 75,
+          "note": "Jesus did work many miracles publicly; the issue was the testing, unbelieving motive, not miracles as such."
+        },
+        {
+          "text": "He had no power to give them a sign from heaven.",
+          "weight": 25,
+          "note": "He refused by choice, not lack of power; He promises the greatest sign, His resurrection."
+        },
+        {
+          "text": "He agreed to give them every sign they asked for.",
+          "weight": 0,
+          "note": "He explicitly refused all but the sign of Jonah."
+        }
       ]
     },
     {
       "q": "What is the sign of Jonah?",
       "options": [
-        { "text": "Jesus' death and resurrection, foreshadowed by Jonah's three days in the great fish.", "weight": 100, "note": "Matthew 12:40 ties Jonah's three days to the Son of Man in the earth." },
-        { "text": "A warning that judgment is coming on the generation.", "weight": 75, "note": "Judgment is in view, but the sign itself is centrally the resurrection after three days." },
-        { "text": "A promise of calm weather like a red evening sky.", "weight": 25, "note": "The weather sayings are a contrast, not the sign; this confuses the two." },
-        { "text": "Another public miracle to satisfy the Pharisees.", "weight": 0, "note": "Jesus refuses more on-demand miracles; the sign is His rising, not a spectacle for them." }
+        {
+          "text": "Jesus' death and resurrection, foreshadowed by Jonah's three days in the great fish.",
+          "weight": 100,
+          "note": "Matthew 12:40 ties Jonah's three days to the Son of Man in the earth."
+        },
+        {
+          "text": "A warning that judgment is coming on the generation.",
+          "weight": 75,
+          "note": "Judgment is in view, but the sign itself is centrally the resurrection after three days."
+        },
+        {
+          "text": "A promise of calm weather like a red evening sky.",
+          "weight": 25,
+          "note": "The weather sayings are a contrast, not the sign; this confuses the two."
+        },
+        {
+          "text": "Another public miracle to satisfy the Pharisees.",
+          "weight": 0,
+          "note": "Jesus refuses more on-demand miracles; the sign is His rising, not a spectacle for them."
+        }
       ]
     },
     {
       "q": "What did Jesus mean by the leaven of the Pharisees and Sadducees?",
       "options": [
-        { "text": "Their teaching, which spreads and corrupts quietly like yeast through dough.", "weight": 100, "note": "Verse 12 says the disciples understood He meant their teaching." },
-        { "text": "A general warning to be careful around religious leaders.", "weight": 75, "note": "It does warn about the leaders, but specifically about their doctrine, which this leaves vague." },
-        { "text": "A reminder to bring enough literal bread for the journey.", "weight": 25, "note": "That is exactly the misunderstanding Jesus corrects; He was not speaking of bread." },
-        { "text": "An instruction to avoid all bread made with yeast.", "weight": 0, "note": "The leaven is a metaphor for teaching, not a dietary rule." }
+        {
+          "text": "Their teaching, which spreads and corrupts quietly like yeast through dough.",
+          "weight": 100,
+          "note": "Verse 12 says the disciples understood He meant their teaching."
+        },
+        {
+          "text": "A general warning to be careful around religious leaders.",
+          "weight": 75,
+          "note": "It does warn about the leaders, but specifically about their doctrine, which this leaves vague."
+        },
+        {
+          "text": "A reminder to bring enough literal bread for the journey.",
+          "weight": 25,
+          "note": "That is exactly the misunderstanding Jesus corrects; He was not speaking of bread."
+        },
+        {
+          "text": "An instruction to avoid all bread made with yeast.",
+          "weight": 0,
+          "note": "The leaven is a metaphor for teaching, not a dietary rule."
+        }
       ]
     },
     {
       "q": "Why did Jesus call the disciples of little faith?",
       "options": [
-        { "text": "They worried about lacking bread, forgetting that He had already fed thousands.", "weight": 100, "note": "Verses 8-11 rebuke their anxiety in light of the feedings they had witnessed." },
-        { "text": "They failed to understand a difficult metaphor at first.", "weight": 75, "note": "They did misunderstand, but the rebuke targets their forgetful anxiety, not mere slowness alone." },
-        { "text": "They had abandoned Jesus entirely.", "weight": 25, "note": "They still followed Him; the rebuke is for weak faith, not desertion." },
-        { "text": "They refused to believe He was the Messiah.", "weight": 0, "note": "In the next scene Peter confesses Him as the Christ; the issue here is anxiety, not disbelief in His identity." }
+        {
+          "text": "They worried about lacking bread, forgetting that He had already fed thousands.",
+          "weight": 100,
+          "note": "Verses 8-11 rebuke their anxiety in light of the feedings they had witnessed."
+        },
+        {
+          "text": "They failed to understand a difficult metaphor at first.",
+          "weight": 75,
+          "note": "They did misunderstand, but the rebuke targets their forgetful anxiety, not mere slowness alone."
+        },
+        {
+          "text": "They had abandoned Jesus entirely.",
+          "weight": 25,
+          "note": "They still followed Him; the rebuke is for weak faith, not desertion."
+        },
+        {
+          "text": "They refused to believe He was the Messiah.",
+          "weight": 0,
+          "note": "In the next scene Peter confesses Him as the Christ; the issue here is anxiety, not disbelief in His identity."
+        }
       ]
     }
   ],
@@ -139,9 +353,21 @@
     "Jesus asks His people to read the signs of the times. Where do you need discernment right now to tell truth from counterfeit?"
   ],
   "translationNotes": [
-    { "ref": "Matthew 16:2-3", "note": "Several early manuscripts do not include the saying about the red evening and morning sky; it is retained here as in the BSB, and its point, discerning the times, matches Jesus' rebuke." },
-    { "ref": "Matthew 16:4", "note": "A wicked and adulterous generation uses adultery as a picture of covenant unfaithfulness to God, not only marital sin; the generation is unfaithful to the Lord who sent His Son." },
-    { "ref": "Matthew 16:12", "note": "The narrator supplies the interpretation: the leaven is the teaching of the Pharisees and Sadducees, confirming that the warning concerns doctrine, not literal bread." }
+    {
+      "ref": "Matthew 16:2-3",
+      "note": "Several early manuscripts do not include the saying about the red evening and morning sky; it is retained here as in the BSB, and its point, discerning the times, matches Jesus' rebuke."
+    },
+    {
+      "ref": "Matthew 16:4",
+      "note": "A wicked and adulterous generation uses adultery as a picture of covenant unfaithfulness to God, not only marital sin; the generation is unfaithful to the Lord who sent His Son."
+    },
+    {
+      "ref": "Matthew 16:12",
+      "note": "The narrator supplies the interpretation: the leaven is the teaching of the Pharisees and Sadducees, confirming that the warning concerns doctrine, not literal bread."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched this session from bible.helloao.org for Matthew 16:1-12. Verse text assembled by concatenating segment values in order; heading, line-break, and note markers were skipped. Sermon left as none; no expositor sermon URL verified this session." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched this session from bible.helloao.org for Matthew 16:1-12. Verse text assembled by concatenating segment values in order; heading, line-break, and note markers were skipped. Sermon left as none; no expositor sermon URL verified this session."
+  }
 }
