@@ -24,6 +24,7 @@ OUT = FILM / "edit" / "short"
 GAP = 0.4
 SERIF_IT = "/System/Library/Fonts/NewYorkItalic.ttf"
 STUDY = FILM.parents[2] / "src/content/studies/genesis/01-the-seven-days.json"
+pv.URL = json.loads((FILM / "film.json").read_text())["url"]
 
 
 def ff(*a):
