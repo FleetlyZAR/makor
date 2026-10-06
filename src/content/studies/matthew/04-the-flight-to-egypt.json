@@ -18,9 +18,21 @@
         "note": "an angel warns Joseph",
         "emphasis": "",
         "verses": [
-          { "chapter": 2, "n": 13, "text": "When the Magi had gone, an angel of the Lord appeared to Joseph in a {{onar|dream}}. “Get up!” he said. “Take the Child and His mother and flee to Egypt. Stay there until I tell you, for Herod is going to search for the Child to kill Him.”" },
-          { "chapter": 2, "n": 14, "text": "So he got up, took the Child and His mother by night, and withdrew to Egypt," },
-          { "chapter": 2, "n": 15, "text": "where he stayed until the death of Herod. This {{pleroo|fulfilled}} what the Lord had spoken through the prophet: “Out of Egypt I called My {{huios|Son}}.”" }
+          {
+            "chapter": 2,
+            "n": 13,
+            "text": "When the Magi had gone, an angel of the Lord appeared to Joseph in a {{onar|dream}}. “Get up!” he said. “Take the Child and His mother and flee to Egypt. Stay there until I tell you, for Herod is going to search for the Child to kill Him.”"
+          },
+          {
+            "chapter": 2,
+            "n": 14,
+            "text": "So he got up, took the Child and His mother by night, and withdrew to Egypt,"
+          },
+          {
+            "chapter": 2,
+            "n": 15,
+            "text": "where he stayed until the death of Herod. This {{pleroo|fulfilled}} what the Lord had spoken through the prophet: “Out of Egypt I called My {{huios|Son}}.”"
+          }
         ]
       },
       {
@@ -28,9 +40,21 @@
         "note": "Herod's rage against the children",
         "emphasis": "",
         "verses": [
-          { "chapter": 2, "n": 16, "text": "When Herod saw that he had been outwitted by the Magi, he was filled with rage. Sending orders, he put to death all the boys in Bethlehem and its vicinity who were two years old and under, according to the time he had learned from the Magi." },
-          { "chapter": 2, "n": 17, "text": "Then what was spoken through the prophet Jeremiah was fulfilled:" },
-          { "chapter": 2, "n": 18, "text": "“A voice is heard in Ramah, weeping and great mourning, Rachel weeping for her children and refusing to be comforted, because they are no more.”" }
+          {
+            "chapter": 2,
+            "n": 16,
+            "text": "When Herod saw that he had been outwitted by the Magi, he was filled with rage. Sending orders, he put to death all the boys in Bethlehem and its vicinity who were two years old and under, according to the time he had learned from the Magi."
+          },
+          {
+            "chapter": 2,
+            "n": 17,
+            "text": "Then what was spoken through the prophet Jeremiah was fulfilled:"
+          },
+          {
+            "chapter": 2,
+            "n": 18,
+            "text": "“A voice is heard in Ramah, weeping and great mourning, Rachel weeping for her children and refusing to be comforted, because they are no more.”"
+          }
         ]
       },
       {
@@ -38,9 +62,21 @@
         "note": "those seeking the Child's life are dead",
         "emphasis": "",
         "verses": [
-          { "chapter": 2, "n": 19, "text": "After Herod died, an angel of the Lord appeared in a dream to Joseph in Egypt." },
-          { "chapter": 2, "n": 20, "text": "“Get up!” he said. “Take the Child and His mother and go to the land of Israel, for those seeking the Child’s life are now dead.”" },
-          { "chapter": 2, "n": 21, "text": "So Joseph got up, took the Child and His mother, and went to the land of Israel." }
+          {
+            "chapter": 2,
+            "n": 19,
+            "text": "After Herod died, an angel of the Lord appeared in a dream to Joseph in Egypt."
+          },
+          {
+            "chapter": 2,
+            "n": 20,
+            "text": "“Get up!” he said. “Take the Child and His mother and go to the land of Israel, for those seeking the Child’s life are now dead.”"
+          },
+          {
+            "chapter": 2,
+            "n": 21,
+            "text": "So Joseph got up, took the Child and His mother, and went to the land of Israel."
+          }
         ]
       },
       {
@@ -48,17 +84,45 @@
         "note": "settling in Galilee",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 2, "n": 22, "text": "But when he learned that Archelaus was reigning in Judea in place of his father Herod, he was afraid to go there. And having been warned in a dream, he withdrew to the district of Galilee," },
-          { "chapter": 2, "n": 23, "text": "and he went and lived in a town called Nazareth. So was fulfilled what was spoken through the prophets: “He will be called a {{nazoraios|Nazarene}}.”" }
+          {
+            "chapter": 2,
+            "n": 22,
+            "text": "But when he learned that Archelaus was reigning in Judea in place of his father Herod, he was afraid to go there. And having been warned in a dream, he withdrew to the district of Galilee,"
+          },
+          {
+            "chapter": 2,
+            "n": 23,
+            "text": "and he went and lived in a town called Nazareth. So was fulfilled what was spoken through the prophets: “He will be called a {{nazoraios|Nazarene}}.”"
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "onar": { "language": "Greek", "lemma": "onar", "original": "ὄναρ", "gloss": "A dream. Matthew's infancy narrative is guided by dreams, the way God directed Joseph in Genesis; here God warns and steers His people through the night, protecting the Child at every turn." },
-    "pleroo": { "language": "Greek", "lemma": "pleroo", "original": "πληρόω", "gloss": "To fill up, complete, fulfill. Matthew's signature word for showing that Jesus brings the Scriptures to their intended goal. Three times in this chapter events fulfill prophecy, presenting Jesus as the one in whom Israel's story reaches its fullness." },
-    "huios": { "language": "Greek", "lemma": "huios", "original": "υἱός", "gloss": "Son. Hosea's out of Egypt I called My Son first named Israel, God's son; Matthew applies it to Jesus, the true Son and true Israel, who relives His people's story and succeeds where they failed." },
-    "nazoraios": { "language": "Greek", "lemma": "Nazoraios", "original": "Ναζωραῖος", "gloss": "Nazarene, a person from Nazareth, an obscure and lightly regarded town. The title likely gathers the prophetic theme of a despised, lowly Messiah, and may echo the branch, netzer, of Isaiah 11:1, the shoot from Jesse's stump." }
+    "onar": {
+      "language": "Greek",
+      "lemma": "onar",
+      "original": "ὄναρ",
+      "gloss": "A dream. Matthew's infancy narrative is guided by dreams, the way God directed Joseph in Genesis; here God warns and steers His people through the night, protecting the Child at every turn."
+    },
+    "pleroo": {
+      "language": "Greek",
+      "lemma": "pleroo",
+      "original": "πληρόω",
+      "gloss": "To fill up, complete, fulfill. Matthew's signature word for showing that Jesus brings the Scriptures to their intended goal. Three times in this chapter events fulfill prophecy, presenting Jesus as the one in whom Israel's story reaches its fullness."
+    },
+    "huios": {
+      "language": "Greek",
+      "lemma": "huios",
+      "original": "υἱός",
+      "gloss": "Son. Hosea's out of Egypt I called My Son first named Israel, God's son; Matthew applies it to Jesus, the true Son and true Israel, who relives His people's story and succeeds where they failed."
+    },
+    "nazoraios": {
+      "language": "Greek",
+      "lemma": "Nazoraios",
+      "original": "Ναζωραῖος",
+      "gloss": "Nazarene, a person from Nazareth, an obscure and lightly regarded town. The title likely gathers the prophetic theme of a despised, lowly Messiah, and may echo the branch, netzer, of Isaiah 11:1, the shoot from Jesse's stump."
+    }
   },
   "study": {
     "basic": {
@@ -72,93 +136,270 @@
       "oneStory": "The Messiah's first days retrace and redeem the story of His people. He goes down into Egypt and comes out again as the true Son; He escapes a tyrant's sword as Moses did; He settles in lowly Nazareth as the despised one the prophets foresaw. Suffering shadows Him from the cradle, but so does the sovereign, saving purpose of God."
     },
     "context": {
-      "literary": "The account is organized around three fulfillment quotations, Hosea, Jeremiah, and a summary from the prophets, each anchored to a place: Egypt, Ramah, Nazareth. The repeated pattern of angelic dream, obedient action, and fulfilled Scripture binds the chapter and casts Jesus as the new Israel and the new Moses.",
-      "historical": "Egypt lay outside Herod's jurisdiction and had long been a refuge for Jews, with sizable Jewish communities. Herod's slaughter of the infants fits what history records of his cruelty near the end of his reign. Archelaus, who succeeded him in Judea, was so brutal that Rome deposed him, which explains Joseph's fear and the move to Galilee.",
-      "canonical": "The three citations gather Israel's story into Jesus: the exodus (Hosea 11:1), the exile and its promised comfort (Jeremiah 31:15), and the prophetic theme of the lowly, despised Messiah (the branch of Isaiah 11:1 and related texts). Matthew thereby presents Jesus as the true Israel, the new Moses, and the humble King foretold."
+      "literary": "The passage is a triptych, and each panel ends on a quotation. Verses 13 to 15 close with Hosea, verses 16 to 18 with Jeremiah, and verses 19 to 23 with 'the prophets'. Between the quotations the narrative is built on a repeated rhythm of command and obedience. An angel appears to Joseph 'in a dream', tells him to 'get up' and go, and Joseph gets up and goes. The rising and going is told in nearly the same words at verses 13 and 14, and again at verses 20 and 21, so that the two journeys, down to Egypt and back, are set side by side as a pair. The only variation is the one that matters: the second time, Joseph is afraid of Archelaus and needs a further warning, verse 22.\n\nThe centre panel is the bleakest in the Gospel's opening chapters, and Matthew gives it the most compressed treatment. The massacre itself is told in one sentence, verse 16, with no names and no dialogue, and the sorrow is carried instead by the Jeremiah quotation, which is poetry. Matthew lets the grief be spoken by Scripture rather than describing it himself, and the effect is to put the reader in the place of the mourners.\n\nChapter 2 also holds a pattern of three place names that carry meaning: Bethlehem (David's town), Egypt (the place of Israel's slavery), and Nazareth (the despised town). Each one is tied to a prophetic text, and each text stretches the reader's idea of where the Messiah should be found. The movement is from the royal city to the house of bondage and then to an obscure village, and in that descent Matthew is arguing that this King's path will not be the expected one.\n\nThe section also finishes the framing of the whole infancy narrative. Chapter 1 gave the Child's ancestry and name; chapter 2 shows who wants Him dead and who will keep Him alive. After verse 23 Jesus will not be named again until He appears at the Jordan in chapter 3.",
+      "historical": "Herod died in 4 BC, and the older of the two sons who inherited part of his realm, Archelaus, took Judea, Samaria and Idumea with the title of ethnarch. His reputation was bad enough that a delegation of Jews and Samaritans later complained to Augustus, who removed him in AD 6. That history explains why Joseph, returning from Egypt, 'was afraid to go there'. Antipas, another son, held Galilee, and Nazareth lay within his territory, a small hill village a few miles from the larger city of Sepphoris. Its obscurity is part of the point: it is not mentioned in the Old Testament, and John 1:46 gives a contemporary's scorn for it.\n\nEgypt was a natural place of refuge. It lay outside Herod's jurisdiction, had a large Jewish population, and was accessible by the coastal road from Judea. Earlier Israelites had fled there, such as Jeroboam from Solomon, 1 Kings 11:40, and the prophet Uriah from Jehoiakim, Jeremiah 26:21, although Uriah was dragged back and killed. The land which had been the house of slavery therefore becomes, for a time, the place of safety, which is a quiet irony within the story.\n\nThe slaughter in Bethlehem is not recorded outside Matthew. This is often raised, but it is what we would expect: Bethlehem was a small village, and the number of boys under two in it and its surroundings was probably small, and Herod was known for acts of cruelty that kept no records of their own. Matthew's account matches what Josephus tells of Herod's last years, in which he killed members of his own family out of suspicion. Matthew's limit of 'two years old and under' is set by the time he learned from the Magi, verse 16.\n\nLuke's account of the Child's early years says the family returned to Nazareth after the presentation, Luke 2:39, and does not mention Egypt. The accounts are not in conflict; they select different parts of the same story, and Luke 2:39 can be read as the end of the narrative that Matthew tells in the middle.",
+      "canonical": "Matthew supplies three quotations, and they come from three different parts of the Old Testament, so that the Law, the prophets and the hope of restoration all find their echo in a few verses. The first, from Hosea 11:1, belongs to a passage about God's love for a rebellious son, Israel. The second, from Jeremiah 31:15, belongs to the same chapter as the promise of the new covenant, Jeremiah 31:31 to 34. The third, 'He will be called a Nazarene', has no single Old Testament source and is attributed to 'the prophets' in the plural.\n\nThe exodus story shapes the whole passage. Exodus 1:22 records Pharaoh's order to throw every Hebrew son into the Nile, Exodus 2:15 says that when Moses fled Pharaoh 'sought to kill' him, and Exodus 4:19 says to Moses in Midian, 'Go back to Egypt, for all the men who sought to kill you are dead.' Matthew's angel says almost the same to Joseph, 'those seeking the Child's life are now dead', verse 20, with one difference: Moses' enemies were many and Jesus' enemy is one king, and a king now dead. The New Testament in turn says of Moses that his parents 'were unafraid of the king's edict', Hebrews 11:23.\n\nLater the pattern recurs. In Revelation 12, the dragon, 'ready to devour her child', waits for the woman's son, and after the child is caught up the woman flees to the wilderness, Revelation 12:4 to 14. Revelation 12 gives a window onto the cosmic war behind Herod's act, a war that has run since Genesis 3:15. In the Gospel the shadow reappears at once, in Matthew 14, where another Herod kills John the Baptist, and again at Calvary, where the authorities finally succeed, only to find that the King they killed has defeated death."
     },
     "hermeneutics": {
-      "authorIntent": "To show God sovereignly protecting the Messiah and fulfilling Scripture through the flight, the massacre, and the return, presenting Jesus as the true Son called out of Egypt, the new Moses, and the lowly Nazarene the prophets foretold.",
-      "descriptionVsPrescription": "The events are described as unique history, not as a template for guidance by dreams or for our own decisions. Joseph's prompt, trusting obedience is worth imitating. The abiding truths are God's sovereignty over evil, His faithfulness to His word, and Jesus' identity as the true Son.",
+      "authorIntent": "Matthew's first readers were Jewish believers who had to answer two awkward questions: why did the Messiah come from the northern backwater of Nazareth, and why did He seem to be hounded by a king from His first days? The chapter is Matthew's reply. The answer to the first is that the geography is not an accident but a fulfilment, and the answer to the second is that the shadow of persecution is exactly what a Messiah who relives and redeems Israel's story would expect.\n\nHe also wrote to comfort the grieving. By recording Rachel's weeping in the middle of the Messiah's story, Matthew refuses to skip over the pain that surrounds Jesus' birth. He does not explain it away. He places it inside the frame of Jeremiah 31, where weeping is followed by 'hope for your future', verse 17, so that sorrow and hope are held in the same chapter of Scripture.\n\nFinally, he is training his readers to read the Old Testament the way Jesus will. Verse 15 reaches back to a text that, in its own setting, speaks of the past, and applies it to a new Son. Matthew's intent is not to pretend that Hosea predicted a baby, but to show that Israel's history was always shaped by a pattern that Jesus now completes. The readers are to see the story of Israel as an unfinished one, and the Child as the one who finishes it.",
+      "descriptionVsPrescription": "The passage describes what Joseph did; it does not set a rule for how believers should seek guidance. God spoke to Joseph in dreams on four occasions in Matthew 1 and 2, and the pattern is not repeated as a method in the rest of the New Testament. Readers are not told to wait for night visions before acting. What carries forward is the character of Joseph's response: he acted at once, in the night, at cost, and with no argument recorded, and the narrative makes his obedience the quiet hinge on which the Child's safety turns.\n\nIt also records, without commending, the slaughter of the Bethlehem boys. Herod's action is condemned by implication in Jeremiah's grief and by the whole shape of the story. Nothing in the text treats the suffering of the children as something God commands or approves. Believers who read it as a teaching on evil should draw only what the text provides: God's purposes are not defeated by cruelty, and His Son enters the suffering rather than avoiding it.\n\nFinally, the 'fulfilment' quotations record how Matthew read Scripture under the Spirit's guidance. They are not a licence for every Christian to find hidden Jesus references in any Old Testament text that mentions Egypt or weeping. They invite us to learn how the apostles read, by observing the patterns they found, and to test our own readings against the whole of Scripture.",
       "debates": [
         {
-          "question": "How can Hosea 11:1, which speaks of Israel's exodus, be fulfilled in Jesus?",
+          "question": "How can Hosea 11:1 be 'fulfilled' in Jesus when it speaks of Israel's exodus?",
           "views": [
-            { "label": "Typological fulfillment: Jesus is the true Israel", "case": "Hosea recalls the past exodus of God's son, the nation; Matthew sees the pattern completed in Jesus, the true and faithful Son who relives Israel's journey and succeeds where the nation failed." },
-            { "label": "A fuller meaning intended by God", "case": "The Spirit who inspired Hosea embedded a deeper significance realized only in Christ, so that the historical statement about Israel finds its ultimate reference in God's greater Son." }
+            {
+              "label": "Typological fulfilment",
+              "case": "Hosea looks back at the exodus, but Israel is God's 'firstborn son', Exodus 4:22, and the nation's story was a pattern. Jesus, the true Son, retraces it, and what the nation failed to be, He is. The word 'fulfilled' means brought to its fullness, not merely predicted. This is the majority view and fits Matthew's practice elsewhere of seeing the Messiah as Israel's representative."
+            },
+            {
+              "label": "A deliberate reapplication",
+              "case": "Some think Matthew is simply using a verse about Israel's call to describe Jesus' own journey, as a rich analogy, which a first-century Jewish interpreter would have found natural. They hold that the argument does not rest on a hidden prediction in Hosea."
+            },
+            {
+              "label": "A prediction in the larger story",
+              "case": "A few argue that Hosea 11 itself looks to a future in which God calls His son again, verses 8 to 11, so Hosea's words already have a forward reach that Matthew takes up."
+            }
           ],
-          "bearing": "Both affirm that Matthew reads Scripture rightly, not by twisting Hosea but by seeing Jesus as the goal toward which Israel's whole story pointed."
+          "bearing": "All three views agree that Matthew sees Jesus as the true Israel. The text's own verb 'fulfill' suggests more than coincidence, and the rest of the Gospel supports the typological link: Jesus goes into the wilderness for forty days and answers the devil with texts from Israel's wilderness, Matthew 4:1 to 11."
         },
         {
-          "question": "Where is the prophecy that He will be called a Nazarene?",
+          "question": "What does 'He will be called a Nazarene' refer to?",
           "views": [
-            { "label": "A theme drawn from the prophets, not one verse", "case": "Matthew says prophets, plural, and cites no single text; Nazarene evokes the lowly, despised Messiah the prophets describe, an obscure origin fitting the rejected servant." },
-            { "label": "A wordplay on the branch, netzer, of Isaiah 11:1", "case": "Nazareth may echo the Hebrew netzer, the shoot from Jesse's stump; calling Jesus a Nazarene quietly names Him the promised Branch of David's line." }
+            {
+              "label": "The Branch of Isaiah 11:1",
+              "case": "The Hebrew word for 'Branch' in Isaiah 11:1, netser, sounds like the name Nazareth, and Matthew may be hearing the shoot from Jesse's stump in the name of His town. Isaiah 11:2 then adds that 'the Spirit of the LORD will rest on Him', which Matthew will report at the baptism."
+            },
+            {
+              "label": "The despised one",
+              "case": "'Nazarene' was a term of scorn, John 1:46, and the prophets did say that the Servant would be 'despised and rejected by men', Isaiah 53:3. Because Matthew says 'the prophets', in the plural, he may be summing up a theme rather than quoting one verse."
+            },
+            {
+              "label": "A Nazirite link",
+              "case": "Some connect it to the Nazirite, as in Judges 13:5, but Jesus is not presented as a Nazirite and the Hebrew word is different, so most reject this."
+            }
           ],
-          "bearing": "Either way the point holds: the Messiah comes from a place of no reputation, fulfilling the prophetic portrait of one despised yet chosen."
+          "bearing": "The first two readings can be held together: the name Nazareth recalls the shoot from Jesse and also the contempt in which the Servant would be held. Matthew's plural 'prophets' tells us he is not quoting a verse."
+        },
+        {
+          "question": "Why did God protect Jesus and not the other children?",
+          "views": [
+            {
+              "label": "God's purposes are served through suffering, not despite it",
+              "case": "The passage sets the children's deaths inside the larger pattern of Pharaoh and the exodus, in which the Redeemer was spared while others suffered. God's sovereignty does not remove the evil of Herod's act, but it turns it, in the end, to the salvation that Jesus will bring through His own death."
+            },
+            {
+              "label": "The question is left open",
+              "case": "Others hold that Matthew gives no answer and that we should not invent one. The grief of Rachel is recorded without a reason, and the text lets the wound stay open until the resurrection."
+            }
+          ],
+          "bearing": "Matthew neither excuses Herod nor explains why the other children were not spared. What he does give is a Messiah who will Himself be killed by a ruler, and who will bear what the innocent of Bethlehem bore."
         }
       ]
     },
-    "originalLanguages": "God directs events by an onar, a dream, guiding Joseph as He once guided the patriarch of the same name. Matthew's key term is pleroo, to fulfill, sounded three times: in Jesus the Scriptures reach their goal. Hosea's word calls Israel God's huios, His Son; Matthew applies it to Jesus, the true Son and true Israel, brought out of Egypt. And the child settles in Nazareth to be a Nazoraios, a Nazarene, a title of lowliness that likely gathers the prophetic theme of a despised Messiah and may echo the netzer, the branch, of Isaiah 11:1.",
+    "originalLanguages": "Matthew's phrasing in this passage carries more than the English can show.\n\nThe first is the formula for fulfilment. In verse 15 Matthew says 'what the Lord had spoken through the prophet', where the Greek presents God as the one who speaks (the preposition hypo) and the prophet as the channel (dia, 'through'). The same pair appears at verse 17 with Jeremiah and verse 23 with 'the prophets'. The verb is pleroo, 'to fill', 'to bring to completion', and it is the word Matthew has already used in 1:22. It does not mean 'to match a prediction' only; it means that a story or pattern is brought to its full measure. In verse 15 the clause is a purpose clause, 'in order that it might be fulfilled', which presents the events as part of God's design. In verse 17 Matthew writes tote eplerothe, 'then was fulfilled', a simpler formula that ties the sorrow to Jeremiah's words without the language of purpose. Matthew does not say God caused the massacre; he says it fell inside a story that was already being told.\n\nThe second is the word in verse 16, usually 'outwitted', where Herod 'was outwitted by the Magi'. The Greek verb is empaizo, which literally means to mock or make a fool of. Matthew uses the same verb for the way the Gentiles will 'mock' Jesus in Matthew 20:19 and for the soldiers' mockery in Matthew 27:29 and 27:31. Herod's rage is the rage of a proud man who thinks he has been laughed at, and Matthew's choice of verb quietly links it to the later scene where a mock king is crowned with thorns.\n\nThe third is the verb of Joseph's obedience, 'get up', egeiro, which occurs in the participle and imperative at verses 13, 14, 20 and 21, and earlier in 1:24. It is the verb used of waking and of rising, and in Matthew it will also be the verb of resurrection: 'He has risen', 28:6. Joseph's rising from sleep to obey is a small echo of the great rising to come.\n\nThe fourth is the sound of the Jeremiah line in verse 18. Matthew piles up words of grief, 'weeping and great mourning', and then the refusal, 'refusing to be comforted', followed by the bare reason, 'because they are no more'. Rachel is not simply sad; she will not take comfort. Matthew leaves the line unanswered, though in Jeremiah the next verses supply the answer, 'Keep your voice from weeping', 31:16.\n\nThe last is 'Nazarene', Nazoraios. Matthew writes it as the word for a person from Nazareth, and the same form appears at Matthew 26:71 for Peter's accuser, and in Acts 24:5 for the 'sect of the Nazarenes'. It links the town to the people who follow Him, and the word that was an insult becomes a name.",
     "typology": [
-      { "type": "Out of Egypt I called My Son", "fulfillment": "Jesus, the true Israel, relives the nation's descent into Egypt and exodus out of it, succeeding where Israel failed, Hosea 11:1." },
-      { "type": "The new Moses spared from a king's slaughter", "fulfillment": "As Moses survived Pharaoh's killing of the infants and led the exodus, Jesus survives Herod and leads a greater deliverance, Exodus 1-2." },
-      { "type": "Rachel weeping, yet promised comfort", "fulfillment": "Jeremiah's lament sits within a promise of return and hope; the sorrow of Bethlehem is taken up into the salvation Jesus brings, Jeremiah 31:15-17." }
+      {
+        "type": "The Son called out of Egypt, Hosea 11:1",
+        "fulfillment": "Hosea says that when Israel was a child, God loved him and 'out of Egypt I called My son', and Exodus 4:22 shows why the nation is called a son: 'Israel is My firstborn son.' Matthew sees the same pattern in Jesus. Like Israel, He goes down to Egypt and comes out again. The escalation in Christ is that where the nation, once called, 'departed' from God, Hosea 11:2, Jesus stays faithful, and the testing in the wilderness that follows is the same test Israel failed, Matthew 4:1 to 11. The type falls short because Israel as a son needed redeeming, while Jesus is the Son who redeems, as Paul says, 'God sent His Son, born of a woman, born under the law, to redeem those under the law', Galatians 4:4 and 5."
+      },
+      {
+        "type": "Moses and the slaughter of the infants, Exodus 1:22",
+        "fulfillment": "Pharaoh ordered every Hebrew son to be killed, and one child, Moses, was spared to become the deliverer. Herod's order has the same shape. The correspondence runs through the details: a tyrant, the slaughter of boys, a child kept safe, a flight, a return when 'those who sought' the child's life are dead, Exodus 4:19 and Matthew 2:20. The escalation in Christ is that Moses delivered Israel from Egypt by leading them out, while Jesus delivers from the deeper bondage of sin and death, Hebrews 2:14 and 15. And Moses said, 'The LORD your God will raise up for you a prophet like me', Deuteronomy 18:15, which Peter applies to Jesus in Acts 3:22. The type falls short because Moses died outside the land, and Jesus' journey ends in resurrection."
+      },
+      {
+        "type": "Rachel's weeping and the promise of return, Jeremiah 31:15",
+        "fulfillment": "Rachel, buried near Bethlehem, Genesis 35:19, is pictured weeping for the sons carried into exile, and the LORD answers her at once with a promise that 'your children will return to their own land', Jeremiah 31:16 and 17. Matthew hears Rachel's weeping again in Bethlehem, where mothers mourn their sons. The correspondence is of grief answered by hope. The escalation is that the return Jeremiah promised is the beginning of the new covenant, Jeremiah 31:31 to 34, and Jesus will say at the table, 'This is My blood of the covenant, which is poured out for many for the forgiveness of sins', Matthew 26:28. The type falls short because Jeremiah's hope was the return of the exiles; Jesus' death opens the return from death itself."
+      },
+      {
+        "type": "The shoot from Jesse and the despised Servant, Isaiah 11:1 and 53:2 to 3",
+        "fulfillment": "Isaiah sees a 'shoot' out of the 'stump of Jesse', a royal line cut down to a stump and then sprouting again, Isaiah 11:1, and later describes the Servant as 'like a tender shoot, and like a root out of dry ground', who 'was despised and rejected by men', Isaiah 53:2 and 3. The Nazarene of Matthew 2:23 draws both images: a humble, unlikely beginning, a Branch from a cut-down tree, and a despised obscurity. The escalation is that the Branch will bear the weight of a kingdom, Isaiah 11:2 to 10, and the despised Servant will 'justify many', Isaiah 53:11. The type falls short only in the sense that the shoot is still growing; the Branch's rule has begun but is not complete."
+      }
     ],
-    "christ": "From His first days Jesus is both the sovereignly protected Son and the hunted, sorrow-shadowed Savior. He is the true Israel, called out of Egypt, and the new Moses, spared from a tyrant's sword to lead a greater exodus from sin. The slaughter of the innocents throws the shadow of the cross across the manger: violence and grief gather around Him, and He will finally take that grief into Himself. He settles as a lowly Nazarene, a man of no reputation, in whom the prophets' portrait of a despised Messiah comes true, the Branch from Jesse's fallen line.",
-    "god": "God is unmistakably sovereign here. He warns Joseph before Herod strikes, He appoints the refuge in Egypt, He announces the tyrant's death, and He redirects the family to Galilee, all in fulfillment of words spoken centuries earlier. Herod's rage cannot touch the purpose of God. Yet God does not spare the world every sorrow; the tears of Bethlehem are not explained away but held within a larger promise of comfort and return. The God who governs kings also enters human grief in His own Son.",
+    "christ": "This passage shows Christ as the true Israel. The pattern runs through every beat. Israel was a son, Hosea 11:1; Jesus is the Son, whom Matthew has already heard named at the angel's word and will hear named from heaven at His baptism. Israel went down into Egypt through a famine and was called out; Jesus goes down through a tyrant's threat and is called out. Israel passed through the sea and spent forty years in the wilderness and failed the test, Deuteronomy 8:2 and 3; Jesus will pass through the Jordan, spend forty days in the wilderness, and, in the same Scripture that Israel failed to heed, defeat the tempter, Matthew 4:4. What the nation could not do, the One who stands for the nation does. That is why Matthew can write that the Child's flight 'fulfilled' a word spoken about Israel.\n\nIt shows Christ as the true Moses, a deliverer born under a hostile king. The flight is also the first moment in the Gospel when the cost of His mission appears. Before He has said a word, Jesus has a price on His head. The pattern of Pharaoh and Herod sets Him inside a long struggle between the kingdoms of this world and the kingdom of heaven, a struggle that Revelation 12 will show to have a dragon behind it. Herod's order is the first attempt on the life of a King who will be killed by the leaders of the nation He came for, John 1:11, and killed by a Roman governor's order.\n\nIt shows Christ as the One who enters the suffering of the world rather than staying above it. The children who die in Bethlehem die 'for' Him in the sense that the order is aimed at Him, yet He is not able to save them in the way He is saved. Matthew does not hide this, and later he will have Jesus say, 'the Son of Man has no place to lay His head', 8:20. The One who flees as a baby is the One who will not flee at Gethsemane. Hebrews 2:10 says it was fitting that God should 'make the author of their salvation perfect through suffering', and 2:17 says He was 'made like His brothers in every way'. The Child hunted in Bethlehem is the Savior who knows what it is to be hunted.\n\nAnd it shows Christ as the despised Branch. The family's settling in Nazareth is not a retirement but a fulfilment: the Servant of Isaiah 53 was 'despised and rejected by men', and Nathanael's scorn, 'Can anything good come from Nazareth?', John 1:46, is the world's verdict on Him. The King of Matthew 2 is first the King who is not wanted. The wonder of the Gospel is that He is wanted by God for the sake of those who do not want Him.\n\nThe caution is against over-reading. The text does not say that the children of Bethlehem were 'saved' by His escape, nor that Egypt itself holds a hidden symbol beyond Hosea's. The links to Israel's story are what Matthew himself draws, and they are enough.",
+    "god": "The God of this passage is shown at his most hidden and his most faithful. He does not remove Herod and He does not stop the massacre, and yet He is on every page.\n\nHe speaks, and He speaks in time. Each of the four dreams comes at the exact moment it is needed, and each one carries a command and a reason, 'for Herod is going to search for the Child to kill Him', verse 13, and 'for those seeking the Child's life are now dead', verse 20. God does not give Joseph a map, only the next step, and the next step is enough. This is the God of Genesis 46:4, who tells Jacob not to fear going down to Egypt because 'I will go down with you to Egypt, and I will surely bring you back.' The promise given to the patriarch is kept to the Son.\n\nHe is sovereign over the plans of kings without being the author of their sin. Matthew says the events 'fulfilled' what was spoken, but he never says God made Herod kill the children. Psalm 2:1 to 4 pictures the kings and rulers gathering against the LORD and His Anointed, and shows God's answer as a laugh. The slaughter is the kind of thing that Psalm describes: rage that cannot succeed. Herod's schemes end in his death, and the Child he sought outlives him, the angel says, verse 19. God's sovereignty here is that of the One who can use even the cruelty of a tyrant as a thread in His purpose without being cruel Himself. This is a tension Scripture holds throughout, from Joseph's words in Genesis 50:20, 'what you intended against me for evil, God intended for good', to Acts 4:27 and 28, where Herod and Pilate carried out what God's hand and will 'had decided beforehand'.\n\nHe is a God who weeps with those who weep. The Jeremiah quotation is a text where the LORD Himself speaks of Rachel's grief and then answers it. God does not ask Rachel to stop mourning; He promises that her children will come home. In Hosea 11:8 He says, 'My heart is turned within Me; My compassion is stirred!' The God of this chapter is no spectator of the Bethlehem grief. The Gospel says that He will enter it in His Son, who will in the end die at a ruler's order.\n\nHe keeps His promises with surprising means. Matthew's three quotations show a God who has been working on this story since the exodus, and whose purposes go through Egypt, Ramah and Nazareth, places no royal biography would choose. Worship, in this light, is trust. We may not understand why He permits what He permits, but we can know that He has not been caught off guard and that He keeps the people He guards. The right response to the Bethlehem story is neither a glib explanation nor despair, but a confession that the God who entered this grief has already begun to wipe the tears away, as Revelation 21:4 says He will.",
     "crossReferences": [
-      { "ref": "Hosea 11:1", "note": "Out of Egypt I called My Son, first of Israel, fulfilled in Jesus the true Son." },
-      { "ref": "Jeremiah 31:15-17", "note": "Rachel's weeping, set within a promise of return and hope for her children." },
-      { "ref": "Exodus 1:22-2:10", "note": "Pharaoh's slaughter of the infants and Moses' rescue, the pattern behind Herod and Jesus." },
-      { "ref": "Isaiah 11:1", "note": "The branch, netzer, from the stump of Jesse, possibly echoed in the title Nazarene." }
+      {
+        "ref": "Hosea 11:1-2",
+        "note": "The line Matthew quotes in verse 15. Hosea looks back at the exodus and then laments how the nation turned away, 'the more I called Israel, the farther they departed from Me'. Matthew sees the call answered in a Son who does not depart."
+      },
+      {
+        "ref": "Exodus 4:22-23",
+        "note": "God tells Moses to say to Pharaoh, 'Israel is My firstborn son', and to let My son go that he may worship Me. This is the root of the Son language in Hosea and Matthew: Israel was called a son in the exodus, and Jesus is the true Son who fulfils what that sonship was for."
+      },
+      {
+        "ref": "Exodus 1:22",
+        "note": "Pharaoh's command that every Hebrew son be thrown into the Nile is the pattern behind Herod's order. The two kings are linked by their fear of a deliverer and by the means they choose, and in both stories one child is preserved."
+      },
+      {
+        "ref": "Exodus 4:19",
+        "note": "God tells Moses in Midian to go back because 'all the men who sought to kill you are dead'. The angel's words to Joseph, 'those seeking the Child's life are now dead', are almost the same, which marks the return from Egypt as a new exodus."
+      },
+      {
+        "ref": "Jeremiah 31:15-17",
+        "note": "Rachel weeps for her children, and the LORD answers, 'Keep your voice from weeping', for they 'will return from the land of the enemy'. Matthew quotes the grief and relies on the hope. The chapter goes on to promise a new covenant, so the sorrow of Bethlehem is placed at the edge of that promise."
+      },
+      {
+        "ref": "Genesis 35:19",
+        "note": "Rachel died and was buried 'on the way to Ephrath (that is, Bethlehem)'. The mother of Joseph and Benjamin is tied by burial to the very town where the boys are killed, which gives the quotation from Jeremiah a local resonance as well as a prophetic one."
+      },
+      {
+        "ref": "Isaiah 11:1-2",
+        "note": "A shoot springs from the stump of Jesse, and 'the Spirit of the LORD will rest on Him'. The Hebrew word for 'Branch' sounds like Nazareth, and many take this as part of Matthew's 'Nazarene' fulfilment. The Spirit-anointed Branch is the same King who will receive the Spirit at the Jordan."
+      },
+      {
+        "ref": "Isaiah 53:2-3",
+        "note": "The Servant grows up 'like a tender shoot' and is 'despised and rejected by men'. Matthew's Nazarene is the despised one: the town's scorn, John 1:46, becomes the Servant's name, and the child hidden in a village is the man of sorrows."
+      },
+      {
+        "ref": "1 Kings 11:40",
+        "note": "Jeroboam fled to Egypt from Solomon, who 'sought to kill' him. The verse shows that Egypt was a known refuge for those hunted by Israel's own kings, and gives the flight of the Holy Family a historical precedent."
+      },
+      {
+        "ref": "Genesis 46:3-4",
+        "note": "God says to Jacob, 'Do not be afraid to go down to Egypt... I will go down with you to Egypt, and I will surely bring you back.' The promise of the descent and the return is the first form of what Matthew tells in his own words of the Son."
+      },
+      {
+        "ref": "Hebrews 2:14-17",
+        "note": "Christ shared in flesh and blood so that through death He might destroy the one who holds death's power, and He was 'made like His brothers in every way'. The hunted Child of Matthew 2 is the same One who came to share the human lot to its end."
+      },
+      {
+        "ref": "Revelation 12:4-5",
+        "note": "The dragon stands before the woman, 'ready to devour her child', and the child is 'caught up to God and to His throne'. John pulls back the curtain on what stands behind Herod: the old serpent's war on the promised seed, which began in Genesis 3:15 and runs to the end."
+      }
     ],
-    "oneStory": "The Messiah's infancy retraces the whole path of His people and begins to redeem it. He goes down to Egypt and is called out as the true Son; He escapes the sword as a new Moses; He grows up in despised Nazareth as the lowly one the prophets foretold. Around Him gather the sorrow of a weeping mother and the hostility of a murderous king, the very things that will meet Him at the cross. Yet over it all stands the sovereign hand of God, keeping His word and guarding His Savior for the day of salvation.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "The flight to Egypt is a fold in the big story in which Israel's whole history is gathered into one life. Genesis ends with a family going down into Egypt for food; Exodus has a people in bondage under a king who kills their sons, a deliverer who is saved from the slaughter, and a rescue through water. The Bible's whole account of redemption is shaped by that pattern. Matthew shows that the pattern has been waiting for the One in whom it is complete.\n\nThe passage answers the problem left by Israel's failure. The nation, called out of Egypt, went on to Baal worship and exile, Hosea 11:2. The prophets kept saying that God would call His son again, and that He would bring His children home, Hosea 11:10 and 11 and Jeremiah 31:16 and 17. Matthew's claim is that this call has now been given in a Child, who will do for Israel what Israel could not do for itself.\n\nIt also reaches back to the first promise. In Genesis 3:15 God set the offspring of the woman against the serpent. Pharaoh, Herod and the dragon of Revelation 12 are three faces of the serpent's war on that offspring. Matthew's account places Herod in a line that began in the garden, and shows the promised offspring, still a baby, escaping the serpent's reach for the first time. The struggle will not be settled until the cross, where the Child grown to a man is struck in the heel and crushes the serpent's head.\n\nThe tears of Rachel look forward to the day when God will 'wipe away every tear from their eyes', Revelation 21:4. The Bethlehem mothers are not forgotten. They stand among those for whom Jesus will say, 'Blessed are those who mourn, for they will be comforted', Matthew 5:4. In the new creation there is no Herod, no Egypt, and no hidden Child, only the King whom everyone sees, and the 'land of Israel' becomes the whole renewed earth.\n\nAnd the end of the passage reminds us that the Gospel's ordinary places matter. The Messiah settles in Nazareth, learns a trade, and lives out of sight for thirty years. The story of Scripture does not move only by great events but by long hidden obedience. In the end, the Child brought back from Egypt is the One who brings His people out of every exile, and their last journey is the one He has already made.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "Why did Joseph take the Child and His mother to Egypt?",
       "options": [
-        { "text": "An angel warned him in a dream that Herod would seek to kill the Child.", "weight": 100, "note": "Verse 13 gives the angel's warning as the reason for the flight." },
-        { "text": "He wanted to keep the family near the Jewish community abroad.", "weight": 75, "note": "Egypt did have Jewish communities, but the stated reason is the angel's warning about Herod." },
-        { "text": "He was fleeing a famine in Judea.", "weight": 25, "note": "There is no famine here; the danger was Herod's murderous intent." },
-        { "text": "He was sent by Herod to search elsewhere for the Child.", "weight": 0, "note": "Joseph fled from Herod, warned by God, not on any errand of Herod's." }
+        {
+          "text": "An angel warned him in a dream that Herod would seek to kill the Child.",
+          "weight": 100,
+          "note": "Verse 13 gives the angel's warning as the reason for the flight."
+        },
+        {
+          "text": "He wanted to keep the family near the Jewish community abroad.",
+          "weight": 75,
+          "note": "Egypt did have Jewish communities, but the stated reason is the angel's warning about Herod."
+        },
+        {
+          "text": "He was fleeing a famine in Judea.",
+          "weight": 25,
+          "note": "There is no famine here; the danger was Herod's murderous intent."
+        },
+        {
+          "text": "He was sent by Herod to search elsewhere for the Child.",
+          "weight": 0,
+          "note": "Joseph fled from Herod, warned by God, not on any errand of Herod's."
+        }
       ]
     },
     {
       "q": "What does the quotation Out of Egypt I called My Son reveal about Jesus?",
       "options": [
-        { "text": "That Jesus is the true Israel and true Son, reliving and redeeming His people's story.", "weight": 100, "note": "Matthew applies Hosea's word about Israel to Jesus, the greater Son." },
-        { "text": "That God gave the words of Hosea a fuller meaning realized in Christ.", "weight": 75, "note": "True as a description of how the text is fulfilled, but it understates the point that Jesus is the true Israel." },
-        { "text": "That the flight to Egypt was an accident of history.", "weight": 25, "note": "Matthew presents it as fulfillment of Scripture, not accident." },
-        { "text": "That Egypt would become the center of the kingdom.", "weight": 0, "note": "Egypt is a temporary refuge, not the center of anything; the point is Jesus as the Son called out." }
+        {
+          "text": "That Jesus is the true Israel and true Son, reliving and redeeming His people's story.",
+          "weight": 100,
+          "note": "Matthew applies Hosea's word about Israel to Jesus, the greater Son."
+        },
+        {
+          "text": "That God gave the words of Hosea a fuller meaning realized in Christ.",
+          "weight": 75,
+          "note": "True as a description of how the text is fulfilled, but it understates the point that Jesus is the true Israel."
+        },
+        {
+          "text": "That the flight to Egypt was an accident of history.",
+          "weight": 25,
+          "note": "Matthew presents it as fulfillment of Scripture, not accident."
+        },
+        {
+          "text": "That Egypt would become the center of the kingdom.",
+          "weight": 0,
+          "note": "Egypt is a temporary refuge, not the center of anything; the point is Jesus as the Son called out."
+        }
       ]
     },
     {
       "q": "How does Matthew frame Herod's slaughter of the infants?",
       "options": [
-        { "text": "As fulfilling Jeremiah's word of Rachel weeping, a grief set within a promise of comfort.", "weight": 100, "note": "Verses 17-18 cite Jeremiah 31:15, whose context holds out hope and return." },
-        { "text": "As proof that God had lost control of events.", "weight": 75, "note": "The opposite; God is sovereign throughout, though real grief is not denied. This misreads the framing." },
-        { "text": "As a random act with no connection to Scripture.", "weight": 25, "note": "Matthew ties it directly to Jeremiah's prophecy, not to randomness." },
-        { "text": "As a judgment God sent on Bethlehem for sin.", "weight": 0, "note": "The massacre is Herod's evil, not a divine judgment on the town." }
+        {
+          "text": "As fulfilling Jeremiah's word of Rachel weeping, a grief set within a promise of comfort.",
+          "weight": 100,
+          "note": "Verses 17-18 cite Jeremiah 31:15, whose context holds out hope and return."
+        },
+        {
+          "text": "As proof that God had lost control of events.",
+          "weight": 75,
+          "note": "The opposite; God is sovereign throughout, though real grief is not denied. This misreads the framing."
+        },
+        {
+          "text": "As a random act with no connection to Scripture.",
+          "weight": 25,
+          "note": "Matthew ties it directly to Jeremiah's prophecy, not to randomness."
+        },
+        {
+          "text": "As a judgment God sent on Bethlehem for sin.",
+          "weight": 0,
+          "note": "The massacre is Herod's evil, not a divine judgment on the town."
+        }
       ]
     },
     {
       "q": "Why did Joseph settle in Nazareth rather than Judea?",
       "options": [
-        { "text": "He feared Archelaus, Herod's son, and was warned in a dream to go to Galilee.", "weight": 100, "note": "Verse 22 gives both his fear of Archelaus and the dream warning." },
-        { "text": "He simply preferred the quiet of a small northern town.", "weight": 75, "note": "Nazareth was obscure, but the text names fear of Archelaus and a divine warning as the reasons." },
-        { "text": "Nazareth was his and Mary's original hometown by birth.", "weight": 25, "note": "They settle there, but the passage stresses the dream warning and the danger in Judea, not simply returning home." },
-        { "text": "The angel commanded him to build the kingdom's capital there.", "weight": 0, "note": "No such command is given; the move is for safety and fulfillment of prophecy." }
+        {
+          "text": "He feared Archelaus, Herod's son, and was warned in a dream to go to Galilee.",
+          "weight": 100,
+          "note": "Verse 22 gives both his fear of Archelaus and the dream warning."
+        },
+        {
+          "text": "He simply preferred the quiet of a small northern town.",
+          "weight": 75,
+          "note": "Nazareth was obscure, but the text names fear of Archelaus and a divine warning as the reasons."
+        },
+        {
+          "text": "Nazareth was his and Mary's original hometown by birth.",
+          "weight": 25,
+          "note": "They settle there, but the passage stresses the dream warning and the danger in Judea, not simply returning home."
+        },
+        {
+          "text": "The angel commanded him to build the kingdom's capital there.",
+          "weight": 0,
+          "note": "No such command is given; the move is for safety and fulfillment of prophecy."
+        }
       ]
     },
     {
       "q": "What does the title Nazarene signify about the Messiah?",
       "options": [
-        { "text": "That He comes from a place of no reputation, fulfilling the prophetic portrait of a lowly, despised Messiah.", "weight": 100, "note": "Nazareth's obscurity fits the prophets' theme of a humble, rejected Savior, perhaps echoing the branch of Isaiah 11:1." },
-        { "text": "That He is the promised Branch, netzer, from Jesse's line.", "weight": 75, "note": "A plausible wordplay, but it is one proposed sense; the broader point is His lowliness foretold by the prophets." },
-        { "text": "That He belonged to a strict religious sect at Nazareth.", "weight": 25, "note": "Nazarene here means from Nazareth, not membership in a sect." },
-        { "text": "That He was to be a wealthy and celebrated ruler.", "weight": 0, "note": "The opposite; the title marks His humble, despised origins." }
+        {
+          "text": "That He comes from a place of no reputation, fulfilling the prophetic portrait of a lowly, despised Messiah.",
+          "weight": 100,
+          "note": "Nazareth's obscurity fits the prophets' theme of a humble, rejected Savior, perhaps echoing the branch of Isaiah 11:1."
+        },
+        {
+          "text": "That He is the promised Branch, netzer, from Jesse's line.",
+          "weight": 75,
+          "note": "A plausible wordplay, but it is one proposed sense; the broader point is His lowliness foretold by the prophets."
+        },
+        {
+          "text": "That He belonged to a strict religious sect at Nazareth.",
+          "weight": 25,
+          "note": "Nazarene here means from Nazareth, not membership in a sect."
+        },
+        {
+          "text": "That He was to be a wealthy and celebrated ruler.",
+          "weight": 0,
+          "note": "The opposite; the title marks His humble, despised origins."
+        }
       ]
     }
   ],
@@ -170,9 +411,21 @@
     "Joseph obeyed each dream promptly, even at great cost and disruption. Where is God calling you to obey quickly and trust Him with the consequences?"
   ],
   "translationNotes": [
-    { "ref": "Matthew 2:15", "note": "The quotation is Hosea 11:1, which originally recalls Israel's exodus; Matthew applies it to Jesus as the true Son and true Israel." },
-    { "ref": "Matthew 2:18", "note": "The citation is Jeremiah 31:15. In Jeremiah the lament stands within a chapter of comfort and promised return, so the sorrow is framed by hope." },
-    { "ref": "Matthew 2:23", "note": "No single Old Testament verse reads He will be called a Nazarene; Matthew says prophets, plural, likely summarizing the theme of a despised, lowly Messiah, and possibly playing on netzer, branch, in Isaiah 11:1." }
+    {
+      "ref": "Matthew 2:15",
+      "note": "The quotation is Hosea 11:1, which originally recalls Israel's exodus; Matthew applies it to Jesus as the true Son and true Israel."
+    },
+    {
+      "ref": "Matthew 2:18",
+      "note": "The citation is Jeremiah 31:15. In Jeremiah the lament stands within a chapter of comfort and promised return, so the sorrow is framed by hope."
+    },
+    {
+      "ref": "Matthew 2:23",
+      "note": "No single Old Testament verse reads He will be called a Nazarene; Matthew says prophets, plural, likely summarizing the theme of a despised, lowly Messiah, and possibly playing on netzer, branch, in Isaiah 11:1."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched this session from bible.helloao.org for Matthew 2:13-23. Verse text assembled by concatenating segment values in order; poem, line-break, and note markers were skipped. Sermon left as none; no expositor sermon URL verified this session." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched this session from bible.helloao.org for Matthew 2:13-23. Verse text assembled by concatenating segment values in order; poem, line-break, and note markers were skipped. Sermon left as none; no expositor sermon URL verified this session."
+  }
 }
