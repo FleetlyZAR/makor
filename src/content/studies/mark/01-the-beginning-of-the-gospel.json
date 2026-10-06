@@ -18,7 +18,11 @@
         "note": "Jesus Christ, the Son of God",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 1, "text": "This is the beginning of the {{euangelion|gospel}} of Jesus {{christos|Christ}}, the Son of God." }
+          {
+            "chapter": 1,
+            "n": 1,
+            "text": "This is the beginning of the {{euangelion|gospel}} of Jesus {{christos|Christ}}, the Son of God."
+          }
         ]
       },
       {
@@ -26,13 +30,41 @@
         "note": "a voice in the wilderness",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 2, "text": "As it is written in Isaiah the prophet: “Behold, I will send My messenger ahead of You, who will prepare Your way.”" },
-          { "chapter": 1, "n": 3, "text": "“A voice of one calling in the wilderness, ‘Prepare the way for the Lord, make straight paths for Him.’”" },
-          { "chapter": 1, "n": 4, "text": "John the Baptist appeared in the wilderness, preaching a {{baptisma|baptism}} of {{metanoia|repentance}} for the forgiveness of sins." },
-          { "chapter": 1, "n": 5, "text": "People went out to him from all of Jerusalem and the countryside of Judea. Confessing their sins, they were baptized by him in the Jordan River." },
-          { "chapter": 1, "n": 6, "text": "John was clothed in camel’s hair, with a leather belt around his waist. His food was locusts and wild honey." },
-          { "chapter": 1, "n": 7, "text": "And he proclaimed: “After me will come One more powerful than I, the straps of whose sandals I am not worthy to stoop down and untie." },
-          { "chapter": 1, "n": 8, "text": "I baptize you with water, but He will baptize you with the Holy Spirit.”" }
+          {
+            "chapter": 1,
+            "n": 2,
+            "text": "As it is written in Isaiah the prophet: “Behold, I will send My messenger ahead of You, who will prepare Your way.”"
+          },
+          {
+            "chapter": 1,
+            "n": 3,
+            "text": "“A voice of one calling in the wilderness, ‘Prepare the way for the Lord, make straight paths for Him.’”"
+          },
+          {
+            "chapter": 1,
+            "n": 4,
+            "text": "John the Baptist appeared in the wilderness, preaching a {{baptisma|baptism}} of {{metanoia|repentance}} for the forgiveness of sins."
+          },
+          {
+            "chapter": 1,
+            "n": 5,
+            "text": "People went out to him from all of Jerusalem and the countryside of Judea. Confessing their sins, they were baptized by him in the Jordan River."
+          },
+          {
+            "chapter": 1,
+            "n": 6,
+            "text": "John was clothed in camel’s hair, with a leather belt around his waist. His food was locusts and wild honey."
+          },
+          {
+            "chapter": 1,
+            "n": 7,
+            "text": "And he proclaimed: “After me will come One more powerful than I, the straps of whose sandals I am not worthy to stoop down and untie."
+          },
+          {
+            "chapter": 1,
+            "n": 8,
+            "text": "I baptize you with water, but He will baptize you with the Holy Spirit.”"
+          }
         ]
       },
       {
@@ -40,9 +72,21 @@
         "note": "the heavens torn open, the Father's voice",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 9, "text": "In those days Jesus came from Nazareth in Galilee and was baptized by John in the Jordan." },
-          { "chapter": 1, "n": 10, "text": "As soon as Jesus came up out of the water, He saw the heavens breaking open and the {{pneuma|Spirit}} descending on Him like a dove." },
-          { "chapter": 1, "n": 11, "text": "And a voice came from heaven: “You are My beloved Son; in You I am well pleased.”" }
+          {
+            "chapter": 1,
+            "n": 9,
+            "text": "In those days Jesus came from Nazareth in Galilee and was baptized by John in the Jordan."
+          },
+          {
+            "chapter": 1,
+            "n": 10,
+            "text": "As soon as Jesus came up out of the water, He saw the heavens breaking open and the {{pneuma|Spirit}} descending on Him like a dove."
+          },
+          {
+            "chapter": 1,
+            "n": 11,
+            "text": "And a voice came from heaven: “You are My beloved Son; in You I am well pleased.”"
+          }
         ]
       },
       {
@@ -50,19 +94,57 @@
         "note": "forty days, tempted by Satan",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 12, "text": "At once the Spirit drove Jesus into the wilderness," },
-          { "chapter": 1, "n": 13, "text": "and He was there for forty days, being {{peirazo|tempted}} by Satan. He was with the wild animals, and the angels ministered to Him." }
+          {
+            "chapter": 1,
+            "n": 12,
+            "text": "At once the Spirit drove Jesus into the wilderness,"
+          },
+          {
+            "chapter": 1,
+            "n": 13,
+            "text": "and He was there for forty days, being {{peirazo|tempted}} by Satan. He was with the wild animals, and the angels ministered to Him."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "euangelion": { "language": "Greek", "lemma": "euangelion", "original": "εὐαγγέλιον", "gloss": "Good news, glad tidings, the announcement of a victory or a royal accession. Mark uses it as the title of his whole book and its first word after the heading. The good news is not first a set of ideas but the arrival of a person, Jesus, and the saving reign of God that comes with Him." },
-    "christos": { "language": "Greek", "lemma": "Christos", "original": "Χριστός", "gloss": "Anointed One, the Greek equivalent of the Hebrew Messiah. It marks Jesus as the promised King of David's line, anointed by God to rule and to rescue. Mark's Gospel will slowly unveil what kind of Messiah He is, one who reigns from a cross." },
-    "baptisma": { "language": "Greek", "lemma": "baptisma", "original": "βάπτισμα", "gloss": "A washing or immersion. John's baptism is a public act of turning, an outward sign of confessed sin and repentance, preparing people for the greater One who baptizes not merely with water but with the Holy Spirit." },
-    "metanoia": { "language": "Greek", "lemma": "metanoia", "original": "μετάνοια", "gloss": "A change of mind that turns the whole life around; repentance. It is more than regret; it is a reorientation away from sin and toward God. John's baptism of repentance readies the people to receive the coming King." },
-    "pneuma": { "language": "Greek", "lemma": "pneuma", "original": "πνεῦμα", "gloss": "Spirit, breath, wind. The Holy Spirit descends on Jesus at His baptism, anointing Him for His mission, and then drives Him into the wilderness. The same Spirit He will pour out marks the age of the good news." },
-    "peirazo": { "language": "Greek", "lemma": "peirazo", "original": "πειράζω", "gloss": "To test, try, or tempt. In the wilderness Jesus is tested by Satan, standing where Israel fell and where Adam fell, the faithful Son who does not break under trial. The verb runs through the Gospel as opponents keep testing Him." }
+    "euangelion": {
+      "language": "Greek",
+      "lemma": "euangelion",
+      "original": "εὐαγγέλιον",
+      "gloss": "Good news, glad tidings, the announcement of a victory or a royal accession. Mark uses it as the title of his whole book and its first word after the heading. The good news is not first a set of ideas but the arrival of a person, Jesus, and the saving reign of God that comes with Him."
+    },
+    "christos": {
+      "language": "Greek",
+      "lemma": "Christos",
+      "original": "Χριστός",
+      "gloss": "Anointed One, the Greek equivalent of the Hebrew Messiah. It marks Jesus as the promised King of David's line, anointed by God to rule and to rescue. Mark's Gospel will slowly unveil what kind of Messiah He is, one who reigns from a cross."
+    },
+    "baptisma": {
+      "language": "Greek",
+      "lemma": "baptisma",
+      "original": "βάπτισμα",
+      "gloss": "A washing or immersion. John's baptism is a public act of turning, an outward sign of confessed sin and repentance, preparing people for the greater One who baptizes not merely with water but with the Holy Spirit."
+    },
+    "metanoia": {
+      "language": "Greek",
+      "lemma": "metanoia",
+      "original": "μετάνοια",
+      "gloss": "A change of mind that turns the whole life around; repentance. It is more than regret; it is a reorientation away from sin and toward God. John's baptism of repentance readies the people to receive the coming King."
+    },
+    "pneuma": {
+      "language": "Greek",
+      "lemma": "pneuma",
+      "original": "πνεῦμα",
+      "gloss": "Spirit, breath, wind. The Holy Spirit descends on Jesus at His baptism, anointing Him for His mission, and then drives Him into the wilderness. The same Spirit He will pour out marks the age of the good news."
+    },
+    "peirazo": {
+      "language": "Greek",
+      "lemma": "peirazo",
+      "original": "πειράζω",
+      "gloss": "To test, try, or tempt. In the wilderness Jesus is tested by Satan, standing where Israel fell and where Adam fell, the faithful Son who does not break under trial. The verb runs through the Gospel as opponents keep testing Him."
+    }
   },
   "study": {
     "basic": {
@@ -76,93 +158,244 @@
       "oneStory": "Centuries of promise now come to a head. The Lord Himself is coming, His way prepared by a wilderness herald, and He arrives as Jesus, the anointed Son. The story that began with a fall in a garden now finds its rescuer standing firm in a wilderness, and the good news is under way."
     },
     "context": {
-      "literary": "These verses are Mark's prologue, the reader's privileged briefing. We are told plainly who Jesus is, the Christ and Son of God, before any human character in the story knows it. Mark writes fast, with his signature immediately, and stacks scenes back to back. The Father's declaration at the baptism forms an inclusio with the centurion's confession at the cross, Mark 15:39.",
-      "historical": "John the Baptist appears in the Judean wilderness dressed like Elijah, drawing crowds from Jerusalem and Judea to the Jordan. First century Jews longed for the promised messenger and the coming of God's reign after long silence. Baptism as a public act of confession and turning prepared people to meet the One greater than John.",
-      "canonical": "Mark opens the New Testament's earliest Gospel by binding it to the prophets: the way of the Lord, the messenger, the Spirit-anointed Servant of Isaiah. The tearing of the heavens and the Father's words draw on Psalm 2 and Isaiah 42, presenting Jesus as royal Son and chosen Servant in one."
+      "literary": "Mark's first thirteen verses are a prologue, and the way they are built tells the reader how to read the book. The first verse is a title. Verses 2 and 3 are Scripture. Verses 4 to 8 introduce a messenger, verses 9 to 11 the person he announced, and verses 12 to 13 the first test of that person. The pace is fast and the style is spare. Mark uses the word 'immediately' again and again through the Gospel, and here it already appears in 'as soon as' in verse 10 and 'at once' in verse 12. Nothing is said about Jesus' birth or childhood, because the aim is to bring the reader to the one who is announced.\n\nThe prologue sets up a contrast between what the reader knows and what the characters in the story do not. In the first verse Mark tells us Jesus is 'the Son of God'. In verse 11 the Father says it to Jesus alone. Nobody on earth in the story hears or sees as we do, and for most of the Gospel the human characters struggle to see who Jesus is, until the centurion at the cross, Mark 15:39. Readers are given the secret in advance, and the Gospel then asks whether they will follow it.\n\nThere is also a movement from the crowded to the solitary. John works in the wilderness with thousands coming out to him; Jesus is baptized among the crowd; then the Spirit drives Him into the wilderness alone, with wild animals. The passage ends not with a victory announcement but with a pause, 'the angels ministered to Him'. Mark leaves the nature of the testing almost unexplained, and the details are given in Matthew and Luke. His purpose is to show the shape of the whole story: the Spirit-filled Son is attacked by Satan, and God sustains Him.",
+      "historical": "The wilderness in verses 3 to 13 was no empty backdrop. For Israel, 'the wilderness' meant the place of the exodus and the testing, where God had met His people after delivering them from Egypt. It was also the place where Isaiah had said the return from exile would begin, Isaiah 40:3. A prophet appearing there and calling people to pass through the Jordan would have been heard as a call to start again as Israel.\n\nJohn's appearance and food were signals. 'Clothed in camel's hair, with a leather belt around his waist' is the description of Elijah in 2 Kings 1:8, and the last words of the Old Testament promised that Elijah would be sent before the great Day of the LORD, Malachi 4:5 to 6. Jews took baptism seriously as a rite of washing. Proselytes who joined Israel from the nations were washed, but John asked Israelites, and even the people of Jerusalem, to be baptized as though they were outsiders needing cleansing. That was a startling claim, and it explains why people came from 'all of Jerusalem and the countryside of Judea', verse 5. Luke dates John's call to the time of the high priesthood of Annas and Caiaphas, Luke 3:2 to 3.\n\nMark's first readers were probably Christians in a hard setting, many think in Rome, who needed to know who Jesus is and what following Him costs. The title 'gospel' in verse 1 would have sounded familiar to Gentile ears because the Greek word was used for proclamations of good news about a ruler's accession or victory. Mark claims such a proclamation for Jesus, and he does it in the opening line. The mention of wild animals, verse 13, may have meant real danger to a Roman-era reader, since beasts were part of the arena, and Jewish readers would have thought also of Isaiah 11:6 to 9 and of Eden before the fall.",
+      "canonical": "Mark begins his book with a scriptural citation, which is a way of saying that the whole story belongs to what God has said before. The citation in verses 2 and 3 joins three Old Testament texts. The first words recall Exodus 23:20, where God says 'I am sending an angel before you to protect you along the way'. The next recall Malachi 3:1, 'I will send My messenger, who will prepare the way before Me'. Then Isaiah 40:3 supplies the voice calling in the wilderness. The result is a single announcement: God is coming, and a messenger goes ahead of Him.\n\nThe heavens 'breaking open' recall the prayer of Isaiah 64:1, 'If only You would rend the heavens and come down', and Ezekiel's vision, 'the heavens opened', Ezekiel 1:1. The Father's words draw on several Scriptures together. 'You are My Son' echoes the royal Psalm 2:7. 'Whom I love' recalls God's words to Abraham about Isaac, 'your only son Isaac, whom you love', Genesis 22:2. And the delight of God in verse 11 recalls the Servant of Isaiah 42:1, 'My Chosen One, in whom My soul delights. I will put My Spirit on Him'. King, sacrifice and Servant are joined in the one voice.\n\nLater Scripture takes up the scene again and again. John's Gospel adds the Baptist's own testimony, 'I saw the Spirit descending from heaven like a dove', John 1:32 to 34. Peter tells Cornelius that 'God anointed Jesus of Nazareth with the Holy Spirit and with power', Acts 10:38. Mark himself will echo the Father's words at the transfiguration, 'This is My beloved Son. Listen to Him!', Mark 9:7, and the torn heavens of 1:10 return as the torn veil at the cross, Mark 15:38. The testing in the wilderness is taken up in Hebrews 4:15, where Jesus is the high priest 'tempted in every way that we are, yet was without sin'."
     },
     "hermeneutics": {
-      "authorIntent": "To announce from the first line that Jesus is the Christ, the Son of God, to show His coming as the fulfilment of prophecy, and to establish His identity by the Father's own voice and the Spirit's anointing before the ministry unfolds.",
-      "descriptionVsPrescription": "The passage describes unique, unrepeatable events, the baptism and anointing of the Son and His testing. It is not prescribing a pattern of ministry to copy step by step, though it does teach the abiding call to repent and believe and the reality of testing in the faithful life.",
+      "authorIntent": "Mark wrote to make people certain of one thing and to prepare them for another. He wants them certain that Jesus is the Son of God, a claim he puts before the reader as the first line of the book and has the Father confirm in verse 11. He also wants them ready for a Son of God whose road leads through testing, hostility and the cross. The prologue holds both together. The voice from heaven and the descent of the Spirit show the Son's identity, and the immediate drive into the wilderness shows the cost.\n\nMark also means to anchor the whole account in Scripture. By opening with Isaiah and the promised messenger, he tells his readers that Jesus did not appear from nowhere and that the good news is the fulfilment of what God had long said. John is not the centre of the story; he is the one who points away from himself, 'One more powerful than I', verse 7.\n\nThere is a pastoral intention too. Mark's first readers knew pressure and suffering. A Gospel that begins with the Spirit leading the beloved Son straight into hardship, and with God's angels serving Him there, gives them a way to read their own trials. The same Spirit who rests on Jesus is with those who follow Him, and the testing does not mean the Father has withdrawn.",
+      "descriptionVsPrescription": "The prologue is chiefly description, and we should be careful about the prescriptions we draw from it. John's camel hair clothing and diet of locusts and honey are what a prophet of his kind wore and ate; they are not a pattern for Christian dress or food. Jesus' forty days in the wilderness are not a rule that every believer must fast for forty days or go into isolation. The descent of the Spirit as a dove is a sign for Jesus at His baptism and does not have to be repeated in every believer's baptism.\n\nWhat does carry over is the pattern the scene sets out. John's call to repentance, with confession of sins, verse 5, continues to be a necessary response to the good news, as Mark 1:15 will say. Believers share in the Spirit and in the Father's love because of their union with the Son, but they receive them through Him, not by their own standing. And the sequence of approval followed by testing is a repeated experience of God's people: the one who has heard 'beloved' can still be led into the wilderness, and the leading is not proof of abandonment. The narrative invites trust in the Father while it describes Jesus' experience; it does not promise a similar experience in detail.",
       "debates": [
         {
-          "question": "Why is Jesus, who is sinless, baptized with a baptism of repentance?",
+          "question": "Why does Mark say 'as it is written in Isaiah' when verse 2 quotes Malachi and Exodus as well?",
           "views": [
-            { "label": "Identifying with sinners", "case": "Jesus is not confessing His own sin but stepping into the place of the people He came to save, standing with sinners in the Jordan and beginning the path that leads to the cross where He bears their sin." },
-            { "label": "Fulfilling all righteousness and inaugurating His mission", "case": "The baptism is His public commissioning: the Spirit anoints Him and the Father names Him, marking the formal start of the Servant's obedient work, doing everything righteousness requires." }
+            {
+              "label": "Mark names the major prophet of a composite quotation",
+              "case": "Jewish writers often joined several texts under the name of the best known source. Isaiah is the larger and more important voice and the most prominent here, since Isaiah 40:3 is the heart of the citation and the one that sets the scene in the wilderness. On this reading Mark is not making a mistake. He is giving a compressed summary of the prophetic promise, with Isaiah leading, and Matthew and Luke elsewhere handle the same texts in their own way."
+            },
+            {
+              "label": "A copyist's difficulty and the later reading 'in the prophets'",
+              "case": "The BSB notes that some later manuscripts read 'in the prophets' in verse 2, which looks like an attempt to smooth the problem. The more difficult reading, 'in Isaiah the prophet', is more likely the original, since it is harder to explain as a change. Those who take this view say the oddity points to Mark's own wording, and the difficulty is real but easily explained by the composite character of the quotation."
+            }
           ],
-          "bearing": "Either way the baptism is not a confession of personal guilt but the sinless Son taking His place with sinners and being anointed for the rescue only He can accomplish."
+          "bearing": "On either reading Mark's point stands: the beginning of the good news is anchored in what God had already promised, and the messenger is part of one plan from Exodus through Malachi to Isaiah. The reader who sees the three texts together notices something Mark does not state, that in Malachi 3:1 the one for whom the way is prepared is the LORD Himself."
         },
         {
-          "question": "What does it mean that the Spirit drove Jesus into the wilderness to be tested?",
+          "question": "Why was Jesus baptized by John, since it was a baptism of repentance?",
           "views": [
-            { "label": "A necessary proving of the faithful Son", "case": "The same Spirit who anointed Him leads Him straight into conflict; sonship is proven, not exempted from testing, and Jesus succeeds where Israel and Adam failed." },
-            { "label": "The opening skirmish of a longer war", "case": "The wilderness testing is the first clash in the Gospel's ongoing conflict with Satan, whom Jesus will keep defeating through exorcisms and finally at the cross and empty tomb." }
+            {
+              "label": "He identified with sinners to save them",
+              "case": "Jesus had no sins to confess. He went down into the Jordan alongside people confessing theirs, verse 5. In taking His place with them He began the work Mark will later describe as giving 'His life as a ransom for many', Mark 10:45. Isaiah 53:12 says of the Servant that He 'was numbered with the transgressors', and the baptism is the first public sign of that solidarity."
+            },
+            {
+              "label": "He was anointed and publicly marked as Messiah",
+              "case": "Others stress that the baptism is chiefly the occasion on which the Father names the Son and the Spirit comes on Him. It marks the beginning of His public ministry and equips and presents Him as the Spirit-anointed King and Servant. Peter later speaks of how God 'anointed Jesus of Nazareth with the Holy Spirit and with power', Acts 10:38, after the baptism John proclaimed."
+            }
           ],
-          "bearing": "Both readings hold that testing is not a sign of the Father's displeasure; the beloved Son is led into battle and stands firm, the strong One who can bind the strong man."
+          "bearing": "The two views are not rivals. The same event shows Jesus standing with sinners and being declared the Son. The reader should resist reading Mark 1:9 as a sign that Jesus Himself needed forgiveness, since the Gospel's whole portrait is of one who is tested and does not fall, and Hebrews 4:15 says He was 'without sin'."
         }
       ]
     },
-    "originalLanguages": "Mark's opening word is euangelion, good news, and its content is a person, Jesus the Christos, the anointed King and Son of God. John's ministry is a baptisma of metanoia, a baptism of repentance, a turning of the whole life toward God. At the Jordan the pneuma, the Spirit, descends on Jesus like a dove, anointing Him, and the same Spirit at once drives Him into the wilderness where He is peirazo, tested, by Satan. The vocabulary sets the stage: the Spirit-anointed King has come, and the war for the world's rescue has begun.",
+    "originalLanguages": "Mark's opening word, arche, 'beginning', is a loaded one. It is the first word of the Greek Bible in Genesis 1:1, where the Septuagint begins 'in the beginning', and Mark may well be telling his readers that a new creation is starting with Jesus. It can also mean the starting point of something that continues, so that the whole book is the 'beginning' of the good news which goes on in the church's preaching. Mark does not say which, and the double sense is useful.\n\nThe messenger in verse 2 is a Greek angelos, a word that simply means 'messenger' and may be rendered 'angel'. In Exodus 23:20 it is a heavenly angel sent before Israel; in Malachi 3:1 it is a human messenger, and Mark applies it to John. The word 'Lord' in verse 3, kyrios, is the Greek Old Testament's regular way of writing the divine name. In Isaiah 40:3 the voice cries 'Prepare the way for the LORD', and Mark has applied that to Jesus by placing it directly before His appearance. A line spoken of the LORD God has become a line spoken of Jesus.\n\nIn verse 10 Mark's verb for the heavens is schizo, 'to split' or 'to tear', and it is in the present participle, schizomenous, so the heavens are seen 'being torn'. The other Gospels say the heavens were 'opened'. Mark's stronger verb comes back in only one other place in his Gospel, when the temple veil 'was torn in two from top to bottom', Mark 15:38. The first tearing opens heaven to the Son, the last opens the sanctuary to the people, and the two frame the Gospel. The preposition in 'descending on Him' is eis, which can also mean 'into', so the Spirit comes toward and upon Him in a single movement.\n\nThe Father's words use two Greek terms worth noticing. 'Beloved' is agapetos, a word the Greek Old Testament uses of Isaac in Genesis 22:2, so it carries the sense of a uniquely loved son. 'I am well pleased', eudokesa, is in the aorist tense, which gives it a sense of settled approval already made. It is not a verdict on what Jesus is about to do but a statement about who He is before He does anything, a point of some importance for readers who suppose God's love must be earned.\n\nIn verse 12 the Spirit 'drove' Jesus into the wilderness. The verb is ekballo, 'to cast out', the same verb Mark uses for expelling demons, as in Mark 1:34 and 1:39. It is a forceful word, and it underlines that the testing was not Jesus' own idea but part of His Father's purpose. And in verse 13 the angels 'ministered', diekonoun, from diakoneo, the verb of serving. It is used of Peter's mother-in-law in Mark 1:31 and of the Son of Man in Mark 10:45, who came 'not to be served, but to serve'. The first service in Mark is given to Jesus by angels, and the last is Jesus giving Himself.",
     "typology": [
-      { "type": "The messenger who prepares the way", "fulfillment": "John the Baptist as the promised Elijah, Malachi 3:1 and 4:5, preparing the Lord's coming, Matthew 11:14." },
-      { "type": "Forty days in the wilderness", "fulfillment": "Jesus, the true Israel and last Adam, standing firm where Israel's forty years and Adam's testing ended in failure, Deuteronomy 8:2 and Romans 5:19." },
-      { "type": "The Spirit-anointed Son and Servant", "fulfillment": "Jesus as the royal Son of Psalm 2 and the chosen Servant of Isaiah 42:1, anointed by the Spirit for His mission." }
+      {
+        "type": "The wilderness testing as Israel's forty years",
+        "fulfillment": "Israel was led through the wilderness for forty years, 'to humble you and test you in order to know what was in your heart', Deuteronomy 8:2. Israel was called God's firstborn son, Exodus 4:22, and failed repeatedly under the testing. Jesus enters the same wilderness after passing through the water, as Israel did at the Red Sea, and He is tested for forty days. Matthew and Luke show Him answering the tempter with words from Deuteronomy. The correspondence is real, but the escalation matters: Israel's sonship was a calling that faltered, while Jesus is the beloved Son who stands. The type does not claim that the forty days equal the forty years, only that the faithful Son does what the first son could not."
+      },
+      {
+        "type": "The Spirit over the waters",
+        "fulfillment": "At the beginning of creation 'the Spirit of God was hovering over the surface of the waters', Genesis 1:2. At the Jordan the Spirit descends on Jesus as He comes up out of the water, and a voice speaks from heaven, as God's word came at creation. Mark's opening word, arche, strengthens the reading that something new is beginning. It is a resemblance, not a proof, since Mark nowhere states it. The correspondence points to a new creation inaugurated in the Son, and it is completed in Revelation 21:5, where the One on the throne says, 'Behold, I make all things new'."
+      },
+      {
+        "type": "Elijah who comes before the Day of the LORD",
+        "fulfillment": "John's clothing recalls Elijah, 2 Kings 1:8, and Malachi had said God would send Elijah before the great Day of the LORD, Malachi 4:5. Mark does not say 'John is Elijah' in these verses but sets the costume beside the quotation, and in Mark 9:11 to 13 Jesus speaks of Elijah having come. John is not the final Elijah returned from heaven; he is a forerunner who does the work Elijah's return was meant to do, turning people to God. The type is partial: John prepares the way but does not himself bring the kingdom, and he says plainly that the One coming after him is far greater."
+      },
+      {
+        "type": "The wild animals and the peaceable kingdom",
+        "fulfillment": "Mark's mention that Jesus 'was with the wild animals', verse 13, is brief and unexplained. Read with the Old Testament it can suggest two things at once: the danger of a wild place, and the peace of Eden restored, in which the wolf and the lamb live together, Isaiah 11:6 to 9. Adam was placed among the animals in a garden and failed; Jesus is among them in a wilderness and is served by angels. Because Mark is silent, this should be held loosely. The text neither claims nor excludes the Eden echo, and the safest thing to say is that the first Adam's world of peace is what the last Adam is beginning to restore."
+      }
     ],
-    "christ": "This passage is entirely occupied with the identity of Christ. Mark names Him in the first verse as Jesus Christ, the Son of God, and the Father confirms it from heaven: You are My beloved Son. He is the Lord whose way Isaiah promised, the mightier One John heralded, the Servant on whom the Spirit rests, and the faithful Son who withstands Satan's testing. Everything that follows in Mark, His authority, His suffering, and His resurrection, flows from who He is announced to be here.",
-    "god": "God is revealed as Father, Son, and Spirit acting in perfect harmony at the Jordan: the Spirit descends, the Son rises from the water, the Father speaks His delight. God keeps His long promise, sends the herald exactly as foretold, tears open heaven to draw near, and openly declares His love for His Son before a single miracle is done, grounding the Son's mission in the Father's pleasure rather than in any achievement yet performed.",
+    "christ": "Mark's first line tells us what the Gospel is about, and it is not a set of teachings. It is a person, and the title he gives Him contains two claims. 'Christ' means the anointed King of promise. 'Son of God' declares that this King is more than a human deliverer. Mark will let the Gospel unfold before any human being says the second title aloud, until a Roman centurion does so at the cross, Mark 15:39. The first and last titles of the book frame the story.\n\nThe prologue leads to Christ by fulfilment. Isaiah 40:3 asked for a road to be prepared 'for the LORD', and Mark sets the next verses of John's preaching and then Jesus' coming at the point where the LORD's way is to be completed. The identification is not argued, simply placed. What the prophets had said God would do, Jesus now does. John himself says so in verse 7: One 'more powerful than I', the straps of whose sandals he cannot untie. He is the one who 'will baptize you with the Holy Spirit', verse 8, which in the Old Testament is the sign that God Himself is pouring out His Spirit, Ezekiel 36:27.\n\nIt leads to Christ by the Father's own testimony. In the baptism the Father speaks three things in a single sentence, and each draws on Scripture. 'You are My beloved Son' echoes the royal Psalm 2:7. 'Beloved' recalls God's words to Abraham about Isaac, the son offered, Genesis 22:2. And 'in You I am well pleased' echoes the first Servant song, 'My Chosen One, in whom My soul delights. I will put My Spirit on Him', Isaiah 42:1. The Son who is King, the Son who is given up, and the Servant who bears the Spirit are one person. That is a remarkable sentence to say at the start of the Gospel, before He has done anything, because it tells us who will do what follows.\n\nIt leads to Christ by contrast with the first Adam and Israel. Adam fell in a garden, with every tree available. Israel fell in the wilderness, in complaint and idolatry. Jesus is tested in the wilderness, alone and hungry, and is not overcome. Hebrews describes what this means for us, a high priest who was 'tempted in every way that we are, yet was without sin', Hebrews 4:15. Mark gives only two verses to the testing, but they carry a promise that He wins the contest the others lost.\n\nA word of caution. Mark does not tell us what the tests were, and we should not fill the gap with speculation. We should also not build too much on the dove or the wild animals. The firm lines are plain: this is the Son of God, announced by prophecy, anointed by the Spirit, loved by the Father, and sent straight into the contest with Satan.",
+    "god": "The prologue lets us see God at work in three persons without ever naming a doctrine. The Father speaks from heaven, the Son comes up out of the water, and the Spirit descends. Mark gives the three together within a single moment, as readers of the New Testament will find again in the baptismal command of Matthew 28:19. The scene does not describe three gods but one God in relation, the Father speaking His love to the Son in the presence of the Spirit. The love of the Father for the Son comes before any act of the Son, which tells us that love is at the heart of God's own life and is not something He acquires by being obeyed.\n\nIt shows God as the one who keeps His word. The text of verses 2 and 3 is a promise made centuries before: a messenger will come, and then the LORD. When John appears in the wilderness the long silence between Malachi and the gospel ends. God does not forget what He has said. He acts, and the proof is a prophet in the wilderness, a baptism in the Jordan, and a voice from heaven.\n\nIt shows God as the God who comes down. Isaiah had prayed for it, 'If only You would rend the heavens and come down', Isaiah 64:1, and Mark's torn heavens are the answer. The distance between heaven and earth, which Israel had felt in the long years of exile, is closed in Jesus. And the one tearing is God, not John and not the crowd. The motif returns at the cross, where the veil is torn, Mark 15:38. God opens a way both ways, down to us and, in Christ, up to Himself.\n\nIt shows God as one who tests and sustains. The Spirit sent Jesus into the wilderness, so the testing is within God's purposes, and the angels who minister to Him are part of God's provision. This holds together two things that are hard to hold: that God leads His beloved Son into hardship, and that He sustains Him within it. The pattern is repeated for His people in Deuteronomy 8:2 to 3, where God led Israel in the wilderness to test them and fed them with manna. Evil is real, Satan is a genuine adversary, yet he acts only within the boundaries God has set.\n\nFor worship, the passage asks us to start where Mark starts, with the good news as something God has done and announced. Worship begins with receiving a word from the Father about the Son, and it continues in the confidence that the God who says 'beloved' of Jesus says it of those who are in Him. It also teaches reverence: the voice speaks from heaven, and the heavens are torn. The proper response is the awe of John, who confesses he is not worthy to stoop and untie the Lord's sandals, verse 7.",
     "crossReferences": [
-      { "ref": "Isaiah 40:3", "note": "The voice calling in the wilderness to prepare the way of the Lord, fulfilled in John." },
-      { "ref": "Malachi 3:1", "note": "God's promise to send His messenger ahead to prepare the way, applied to John the Baptist." },
-      { "ref": "Psalm 2:7", "note": "You are My Son, the royal decree echoed in the Father's voice at the baptism." },
-      { "ref": "Isaiah 42:1", "note": "The chosen Servant on whom God puts His Spirit, in whom His soul delights." }
+      {
+        "ref": "Isaiah 40:3",
+        "note": "The voice in the wilderness calls for the way of the LORD to be prepared. Mark applies it to John's ministry and to Jesus as the one coming. Notice that in Isaiah the LORD is the one for whom the road is made, which puts Jesus' arrival in the category of God coming to His people."
+      },
+      {
+        "ref": "Malachi 3:1",
+        "note": "God promises to send a messenger to prepare the way before Him, and then the Lord whom the people seek will 'suddenly come to His temple'. Mark's quotation in verse 2 draws on this, and the warning that follows in Malachi 3 explains why John's message is so urgent, a call to be ready."
+      },
+      {
+        "ref": "Exodus 23:20",
+        "note": "God says, 'I am sending an angel before you to protect you along the way.' Mark's first quotation draws on this verse, which belongs to the exodus journey. It links John's ministry with Israel's deliverance and suggests a new exodus beginning in the same wilderness."
+      },
+      {
+        "ref": "Psalm 2:7",
+        "note": "The Lord declares to the king, 'You are My Son.' The Father's words at the baptism echo this royal psalm and tell the reader that Jesus is the promised King of David's line. The psalm goes on to speak of the nations as His inheritance, which Mark's Gospel will slowly make clear."
+      },
+      {
+        "ref": "Genesis 22:2",
+        "note": "God calls Isaac 'your only son ... whom you love', and asks Abraham to offer him. The word 'beloved' at the Jordan faintly echoes this, and the Gospel will show a Father who gives up the Son He loves, a connection other New Testament writers make plain."
+      },
+      {
+        "ref": "Isaiah 42:1",
+        "note": "The Servant is the one in whom God's soul delights and on whom He puts His Spirit. At the baptism the Spirit comes on Jesus and the Father speaks of delight, so the Servant of the Lord is identified with the Son. It prepares for the suffering of the Servant in Isaiah 53."
+      },
+      {
+        "ref": "Isaiah 64:1",
+        "note": "The prophet prays that God would 'rend the heavens and come down'. Mark's choice of the verb 'tear' for the heavens in verse 10 is a response to that prayer. What Israel longed for in exile is happening at the Jordan."
+      },
+      {
+        "ref": "2 Kings 1:8",
+        "note": "Elijah is described as 'a hairy man' with 'a leather belt around his waist'. John's clothing in verse 6 matches this description and so presents him as the prophet who prepares the people. It makes the reference to Malachi 4:5 clearer."
+      },
+      {
+        "ref": "Deuteronomy 8:2-3",
+        "note": "God led Israel forty years in the wilderness to humble and test them, and taught that man lives on every word from the mouth of the LORD. Jesus' forty days of testing take up the same pattern, and where Israel failed He holds firm."
+      },
+      {
+        "ref": "Hebrews 4:15",
+        "note": "The writer says Jesus is a high priest who can sympathize with our weakness, 'tempted in every way that we are, yet was without sin'. This tells us what the wilderness means for believers: He has met the adversary and won, and He knows what testing is."
+      },
+      {
+        "ref": "Mark 15:38",
+        "note": "At Jesus' death the veil of the temple is torn in two from top to bottom. Mark uses the same verb for the heavens in 1:10, so his Gospel begins and ends with a tearing that opens the way between God and people."
+      }
     ],
-    "oneStory": "The long-promised day has come. After centuries of prophecy and silence, the Lord Himself draws near, His way prepared by a wilderness herald just as Isaiah said. He arrives as Jesus, the anointed Son, anointed by the Spirit and named by the Father. Where Adam fell and Israel failed, this Son stands firm under testing. The good news the whole Bible pointed toward is finally under way, and the rest of Mark races to show what this King has come to do.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "The Bible begins with God speaking creation into being and the Spirit hovering over the waters, Genesis 1:1 to 2. A garden follows, and a man and woman who listen to a serpent and are driven out. From that moment the story is a search for a way back, and the prophets keep saying that God Himself will come. Isaiah prays for the heavens to be torn, and the LORD answers with promises of a messenger, a Servant, a King and a new Spirit.\n\nMark 1:1 to 13 is where those promises begin to be kept. The story starts again at the Jordan, where John is the last prophet of the old age and Jesus is the first of the new. The Spirit who hovered over the first creation now rests on a man coming up from the water. The Father's voice declares who He is. And, as with Adam and as with Israel, the first thing that happens to the new representative is a test. Where the first man failed in a garden and the first nation failed in a wilderness, the beloved Son holds firm, and angels serve Him. The old story is not abandoned; it is being retold with a faithful hero.\n\nThis passage answers a question left hanging since Genesis 3: who will crush the serpent? Satan is named here for the first time in Mark, and he is not defeated in these verses but he is met and resisted. The Gospel goes on to show Jesus freeing people from unclean spirits and diseases, tying up the strong man, as He will say in Mark 3:27, and finally defeating death in the resurrection. The prologue is the first move in a campaign that ends at the empty tomb.\n\nIt also sets up everything that follows in the New Testament. The Baptist's promise that the Coming One will baptize with the Holy Spirit is fulfilled at Pentecost, Acts 1:5 and 2:4. The voice from heaven is repeated at the transfiguration, Mark 9:7. The torn heavens are matched by the torn veil. And the testing prefigures every disciple's wilderness, which Jesus walks first.\n\nThe story ends in the new creation, where the wilderness is gone and the dwelling of God is with humanity. John sees the heaven and earth made new, and the Lamb on the throne, Revelation 21:1 to 5. The voice that said 'beloved' at the Jordan will be heard in the shout of a multitude from every nation. The beginning of the gospel in Mark 1 is the first page of the account of how that came about.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What is the good news, according to Mark's opening line?",
       "options": [
-        { "text": "A person: Jesus Christ, the Son of God.", "weight": 100, "note": "Mark 1:1 announces the gospel as the arrival of Jesus, the Christ and Son of God." },
-        { "text": "A message about the coming kingdom of God.", "weight": 75, "note": "True and closely related, but Mark's headline centres the good news first on the person of Jesus." },
-        { "text": "A new set of moral teachings from a great rabbi.", "weight": 25, "note": "Jesus does teach, but Mark presents Him as far more than a teacher; the good news is who He is." },
-        { "text": "A political program to free Israel from Rome.", "weight": 0, "note": "Mark's gospel is about God's saving reign in Christ, not a nationalist revolt." }
+        {
+          "text": "A person: Jesus Christ, the Son of God.",
+          "weight": 100,
+          "note": "Mark 1:1 announces the gospel as the arrival of Jesus, the Christ and Son of God."
+        },
+        {
+          "text": "A message about the coming kingdom of God.",
+          "weight": 75,
+          "note": "True and closely related, but Mark's headline centres the good news first on the person of Jesus."
+        },
+        {
+          "text": "A new set of moral teachings from a great rabbi.",
+          "weight": 25,
+          "note": "Jesus does teach, but Mark presents Him as far more than a teacher; the good news is who He is."
+        },
+        {
+          "text": "A political program to free Israel from Rome.",
+          "weight": 0,
+          "note": "Mark's gospel is about God's saving reign in Christ, not a nationalist revolt."
+        }
       ]
     },
     {
       "q": "How does John the Baptist describe the One coming after him?",
       "options": [
-        { "text": "More powerful than John, whose sandals John is unworthy to untie, and who baptizes with the Holy Spirit.", "weight": 100, "note": "Mark 1:7-8 gives John's exact words about the mightier One." },
-        { "text": "A prophet like John who will also baptize people in the Jordan.", "weight": 75, "note": "He does baptize, but John stresses the coming One is far greater and baptizes with the Spirit, not merely water." },
-        { "text": "A teacher who will confirm John's own authority.", "weight": 25, "note": "John points away from himself to a vastly greater One, not to bolster his own standing." },
-        { "text": "A military leader who will overthrow Rome.", "weight": 0, "note": "John announces the Spirit-baptizing Lord, not a military deliverer." }
+        {
+          "text": "More powerful than John, whose sandals John is unworthy to untie, and who baptizes with the Holy Spirit.",
+          "weight": 100,
+          "note": "Mark 1:7-8 gives John's exact words about the mightier One."
+        },
+        {
+          "text": "A prophet like John who will also baptize people in the Jordan.",
+          "weight": 75,
+          "note": "He does baptize, but John stresses the coming One is far greater and baptizes with the Spirit, not merely water."
+        },
+        {
+          "text": "A teacher who will confirm John's own authority.",
+          "weight": 25,
+          "note": "John points away from himself to a vastly greater One, not to bolster his own standing."
+        },
+        {
+          "text": "A military leader who will overthrow Rome.",
+          "weight": 0,
+          "note": "John announces the Spirit-baptizing Lord, not a military deliverer."
+        }
       ]
     },
     {
       "q": "What happens at Jesus' baptism?",
       "options": [
-        { "text": "The heavens break open, the Spirit descends like a dove, and the Father calls Him His beloved Son.", "weight": 100, "note": "Mark 1:10-11 records all three: the opened heavens, the Spirit, and the Father's voice." },
-        { "text": "The Spirit descends on Jesus to anoint Him.", "weight": 75, "note": "True, but partial; the fuller answer includes the torn heavens and the Father's declaration." },
-        { "text": "John recognizes Jesus and declares Him the Messiah to the crowd.", "weight": 25, "note": "The confirmation here comes from heaven, the Father's voice, not from John announcing it to the crowd." },
-        { "text": "Nothing unusual happens; it is an ordinary baptism.", "weight": 0, "note": "Mark describes an extraordinary Trinitarian moment, not an ordinary one." }
+        {
+          "text": "The heavens break open, the Spirit descends like a dove, and the Father calls Him His beloved Son.",
+          "weight": 100,
+          "note": "Mark 1:10-11 records all three: the opened heavens, the Spirit, and the Father's voice."
+        },
+        {
+          "text": "The Spirit descends on Jesus to anoint Him.",
+          "weight": 75,
+          "note": "True, but partial; the fuller answer includes the torn heavens and the Father's declaration."
+        },
+        {
+          "text": "John recognizes Jesus and declares Him the Messiah to the crowd.",
+          "weight": 25,
+          "note": "The confirmation here comes from heaven, the Father's voice, not from John announcing it to the crowd."
+        },
+        {
+          "text": "Nothing unusual happens; it is an ordinary baptism.",
+          "weight": 0,
+          "note": "Mark describes an extraordinary Trinitarian moment, not an ordinary one."
+        }
       ]
     },
     {
       "q": "Why does the Father's declaration of delight come before Jesus has done any public work?",
       "options": [
-        { "text": "The Son is loved and approved for who He is, before and apart from any ministry achievement.", "weight": 100, "note": "The Father delights in the Son at the outset, grounding the mission in love, not in performance." },
-        { "text": "Because Jesus had already lived a sinless life in Nazareth.", "weight": 75, "note": "His prior obedience is real, but the point of the heavenly voice is the Father's settled love for His Son, not a reward earned." },
-        { "text": "Because the crowd needed to be convinced Jesus was worthy.", "weight": 25, "note": "The declaration is the Father's own delight, not a public argument staged for the crowd." },
-        { "text": "Because Jesus had earned it by being baptized.", "weight": 0, "note": "The Father's love is not a wage paid for baptism; it precedes and undergirds the whole mission." }
+        {
+          "text": "The Son is loved and approved for who He is, before and apart from any ministry achievement.",
+          "weight": 100,
+          "note": "The Father delights in the Son at the outset, grounding the mission in love, not in performance."
+        },
+        {
+          "text": "Because Jesus had already lived a sinless life in Nazareth.",
+          "weight": 75,
+          "note": "His prior obedience is real, but the point of the heavenly voice is the Father's settled love for His Son, not a reward earned."
+        },
+        {
+          "text": "Because the crowd needed to be convinced Jesus was worthy.",
+          "weight": 25,
+          "note": "The declaration is the Father's own delight, not a public argument staged for the crowd."
+        },
+        {
+          "text": "Because Jesus had earned it by being baptized.",
+          "weight": 0,
+          "note": "The Father's love is not a wage paid for baptism; it precedes and undergirds the whole mission."
+        }
       ]
     },
     {
       "q": "What is the significance of Jesus being tested in the wilderness for forty days?",
       "options": [
-        { "text": "He stands firm as the faithful Son where Israel and Adam failed under testing.", "weight": 100, "note": "The forty days echo Israel's wilderness years; Jesus succeeds where they fell." },
-        { "text": "It shows testing is a normal part of the life the Spirit leads.", "weight": 75, "note": "True, the same Spirit leads Him into testing, but the deeper point is His victorious faithfulness as the true Son." },
-        { "text": "It proves Jesus was uncertain about His mission.", "weight": 25, "note": "The testing proves His steadfastness, not uncertainty." },
-        { "text": "It means Satan is stronger than Jesus.", "weight": 0, "note": "Jesus withstands Satan; He is the strong One who will bind the strong man." }
+        {
+          "text": "He stands firm as the faithful Son where Israel and Adam failed under testing.",
+          "weight": 100,
+          "note": "The forty days echo Israel's wilderness years; Jesus succeeds where they fell."
+        },
+        {
+          "text": "It shows testing is a normal part of the life the Spirit leads.",
+          "weight": 75,
+          "note": "True, the same Spirit leads Him into testing, but the deeper point is His victorious faithfulness as the true Son."
+        },
+        {
+          "text": "It proves Jesus was uncertain about His mission.",
+          "weight": 25,
+          "note": "The testing proves His steadfastness, not uncertainty."
+        },
+        {
+          "text": "It means Satan is stronger than Jesus.",
+          "weight": 0,
+          "note": "Jesus withstands Satan; He is the strong One who will bind the strong man."
+        }
       ]
     }
   ],
@@ -174,9 +407,21 @@
     "Jesus stood firm where Adam and Israel fell. How does His faithfulness in the wilderness give you hope when you face temptation?"
   ],
   "translationNotes": [
-    { "ref": "Mark 1:1", "note": "Some early manuscripts read simply the beginning of the gospel of Jesus Christ, without the Son of God, but the strongest witnesses and Mark's whole design support the fuller reading, which frames the entire book." },
-    { "ref": "Mark 1:2", "note": "Mark attributes the combined quotation to Isaiah though verse 2 draws on Malachi 3:1 and verse 3 on Isaiah 40:3; naming the major prophet for a blended citation was a common ancient practice." },
-    { "ref": "Mark 1:10", "note": "The heavens breaking open renders a vivid Greek word for tearing; the same verb describes the temple curtain torn at Jesus' death, Mark 15:38, framing His ministry from open heaven to opened access." }
+    {
+      "ref": "Mark 1:1",
+      "note": "Some early manuscripts read simply the beginning of the gospel of Jesus Christ, without the Son of God, but the strongest witnesses and Mark's whole design support the fuller reading, which frames the entire book."
+    },
+    {
+      "ref": "Mark 1:2",
+      "note": "Mark attributes the combined quotation to Isaiah though verse 2 draws on Malachi 3:1 and verse 3 on Isaiah 40:3; naming the major prophet for a blended citation was a common ancient practice."
+    },
+    {
+      "ref": "Mark 1:10",
+      "note": "The heavens breaking open renders a vivid Greek word for tearing; the same verb describes the temple curtain torn at Jesus' death, Mark 15:38, framing His ministry from open heaven to opened access."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched this session from bible.helloao.org for Mark 1:1-13. Footnote markers, line breaks, and poem markers were dropped when assembling verse text. Sermon left as none; no expositor sermon URL verified this session." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched this session from bible.helloao.org for Mark 1:1-13. Footnote markers, line breaks, and poem markers were dropped when assembling verse text. Sermon left as none; no expositor sermon URL verified this session."
+  }
 }
