@@ -9,7 +9,7 @@ clips/movement/<id>.mp4 are skipped. On a quota error (HTTP 429) it stops
 cleanly and reports what is left, so the next day's run picks up from there.
 Costs go to COSTS-movement.md. Key from the macOS Keychain only.
 
-    python3 films/tools/movement_clips.py films/genesis/01-the-seven-days [s024 s031 ...]
+    python3 films/tools/movement_clips.py films/genesis/01-the-seven-days [s024 s031 ...] [--model lite] [--out clips/lite-test]
 """
 import base64, json, pathlib, sys, time, urllib.request
 
@@ -22,11 +22,15 @@ def img(path):
 
 
 def main():
+    args = sys.argv[2:]
+    opt = lambda k, d: args[args.index(k) + 1] if k in args else d
+    kind = opt("--model", "fast")
+    sub = opt("--out", "clips/movement")
     film = pathlib.Path(sys.argv[1])
-    only = set(sys.argv[2:])
+    only = {a for a in args if a.startswith("s")} - {kind, sub}
     shots = json.loads((film / "script" / "shotlist.json").read_text())
-    model, rate = MODELS["fast"]
-    out = film / "clips" / "movement"
+    model, rate = MODELS[kind]
+    out = film / sub
     out.mkdir(parents=True, exist_ok=True)
     todo = [(i, s) for i, s in enumerate(shots) if s["kind"] in ("veo", "ff") and (not only or s["id"] in only)
             and not (out / f"{s['id']}.mp4").exists()]
@@ -63,8 +67,8 @@ def main():
         with urllib.request.urlopen(req, timeout=300) as r:
             (out / f"{s['id']}.mp4").write_bytes(r.read())
         done += 1
-        total = log_cost(film, f"Veo 3.1 fast ({model})",
-                         f"clip {s['id']} ({s['kind']}) -> clips/movement/{s['id']}.mp4",
+        total = log_cost(film, f"Veo 3.1 {kind} ({model})",
+                         f"clip {s['id']} ({s['kind']}) -> {sub}/{s['id']}.mp4",
                          f"{SECONDS} s 1080p", SECONDS * rate, log="COSTS-movement.md")
         print(f"{s['id']}: done ({s['kind']}), running total {total:.2f} USD", flush=True)
     print(f"finished: {done} clips this run", flush=True)

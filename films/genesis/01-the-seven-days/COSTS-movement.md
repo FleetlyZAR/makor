@@ -167,5 +167,15 @@ ElevenLabs credits valued at the Creator plan rate (22 USD for 131,000 credits).
 | 158 | 2026-10-06 | Veo 3.1 fast (veo-3.1-fast-generate-preview) | clip s015 (veo) -> clips/movement/s015.mp4 | 8 s 1080p | 0.960 | 28.492 |
 | 159 | 2026-10-06 | Veo 3.1 fast (veo-3.1-fast-generate-preview) | clip s021 (veo) -> clips/movement/s021.mp4 | 8 s 1080p | 0.960 | 29.452 |
 | 160 | 2026-10-06 | Veo 3.1 fast (veo-3.1-fast-generate-preview) | clip s024 (ff) -> clips/movement/s024.mp4 | 8 s 1080p | 0.960 | 30.412 |
+| 161 | 2026-10-06 | Veo 3.1 lite (veo-3.1-lite-generate-preview) | clip s001 (veo) -> clips/lite-test/s001.mp4 | 8 s 1080p | 0.640 | 31.052 |
+| 162 | 2026-10-06 | Veo 3.1 lite (veo-3.1-lite-generate-preview) | clip s010 (veo) -> clips/lite-test/s010.mp4 | 8 s 1080p | 0.640 | 31.692 |
+| 163 | 2026-10-06 | Veo 3.1 lite (veo-3.1-lite-generate-preview) | clip s013 (veo) -> clips/lite-test/s013.mp4 | 8 s 1080p | 0.640 | 32.332 |
+| 164 | 2026-10-06 | Veo 3.1 lite (veo-3.1-lite-generate-preview) | clip s031 (veo) -> clips/movement/s031.mp4 | 8 s 1080p | 0.640 | 32.972 |
+| 165 | 2026-10-06 | Veo 3.1 lite (veo-3.1-lite-generate-preview) | clip s032 (veo) -> clips/movement/s032.mp4 | 8 s 1080p | 0.640 | 33.612 |
+| 166 | 2026-10-06 | Veo 3.1 lite (veo-3.1-lite-generate-preview) | clip s039 (veo) -> clips/movement/s039.mp4 | 8 s 1080p | 0.640 | 34.252 |
+| 167 | 2026-10-06 | Veo 3.1 lite (veo-3.1-lite-generate-preview) | clip s042 (veo) -> clips/movement/s042.mp4 | 8 s 1080p | 0.640 | 34.892 |
+| 168 | 2026-10-06 | Veo 3.1 lite (veo-3.1-lite-generate-preview) | clip s071 (veo) -> clips/movement/s071.mp4 | 8 s 1080p | 0.640 | 35.532 |
+| 169 | 2026-10-06 | Veo 3.1 lite (veo-3.1-lite-generate-preview) | clip s084 (veo) -> clips/movement/s084.mp4 | 8 s 1080p | 0.640 | 36.172 |
+| 170 | 2026-10-06 | Veo 3.1 lite (veo-3.1-lite-generate-preview) | clip s092 (veo) -> clips/movement/s092.mp4 | 8 s 1080p | 0.640 | 36.812 |
 
-Running total: 30.41
+Running total: 36.81

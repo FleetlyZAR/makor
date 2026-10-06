@@ -14,7 +14,8 @@ never printed or written to disk.
 import argparse, base64, datetime, json, pathlib, re, subprocess, sys, time, urllib.request
 
 BASE = "https://generativelanguage.googleapis.com/v1beta"
-MODELS = {"fast": ("veo-3.1-fast-generate-preview", 0.12), "standard": ("veo-3.1-generate-preview", 0.40)}
+MODELS = {"fast": ("veo-3.1-fast-generate-preview", 0.12), "standard": ("veo-3.1-generate-preview", 0.40),
+          "lite": ("veo-3.1-lite-generate-preview", 0.08)}   # per second at 1080p, Gemini API pricing page
 SECONDS = 8  # 1080p requires 8 s
 BANNED = ["deity", "god figure", "divine being", "halo", "glowing man", "angel", "temple", "idol"]
 

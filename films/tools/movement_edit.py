@@ -21,41 +21,15 @@ import json, pathlib, re, subprocess, sys
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 W, H, FPS, XF = 1920, 1080, 30, 0.5
+REPO_ROOT = pathlib.Path(__file__).resolve().parents[2]
 LEAD, TAIL = 2.0, 4.0   # seconds of dark before the first line; extra hold on the end card
 SERIF = "/System/Library/Fonts/NewYork.ttf"
 SANS = "/System/Library/Fonts/Avenir Next.ttc"
 CREAM, GOLD = (244, 236, 216, 255), (214, 170, 92, 255)
-ACTS = [("act1.wav", "Cold open"), ("act2.wav", "Day Two: the sky"), ("act3.wav", "Day Four: the lights"),
-        ("act4.wav", "Day Six: the image of God"), ("act5.wav", "Day Seven: rest"),
-        ("act6.wav", "In the beginning was the Word")]
+ACTS = []   # per film, from film.json
 # (cue, first shot, last shot, volume); paths under audio/sfx/
-SFX = [
-    ("room-tone-calm-sea.mp3", "s001", "s005", 0.35), ("wind-deep-water.mp3", "s002", "s004", 0.45),
-    ("movement/desert-camp.mp3", "s006", "s006", 0.4), ("movement/lamp-room.mp3", "s007", "s007", 0.4),
-    ("movement/storm-sea.mp3", "s008", "s008", 0.5), ("movement/lamp-room.mp3", "s009", "s009", 0.4),
-    ("movement/nile-kilns.mp3", "s010", "s010", 0.4), ("room-tone-calm-sea.mp3", "s011", "s011", 0.35),
-    ("movement/desert-camp.mp3", "s012", "s014", 0.35), ("room-tone-calm-sea.mp3", "s015", "s023", 0.3),
-    ("wind-deep-water.mp3", "s021", "s021", 0.45),
-    ("room-tone-calm-sea.mp3", "s024", "s030", 0.3), ("rumble-under-god.mp3", "s024", "s024", 0.6),
-    ("light-swell.mp3", "s024", "s024", 0.5),
-    ("movement/waters-parting.mp3", "s031", "s032", 0.45), ("room-tone-calm-sea.mp3", "s031", "s036", 0.3),
-    ("movement/land-rising.mp3", "s037", "s038", 0.5), ("movement/grass-wind.mp3", "s040", "s046", 0.3),
-    ("light-swell.mp3", "s047", "s047", 0.45), ("movement/grass-wind.mp3", "s047", "s049", 0.25),
-    ("movement/night-air.mp3", "s050", "s052", 0.35), ("movement/night-air.mp3", "s055", "s055", 0.35),
-    ("movement/lamp-room.mp3", "s056", "s056", 0.4), ("movement/night-air.mp3", "s057", "s057", 0.35),
-    ("movement/seabirds.mp3", "s058", "s065", 0.3), ("movement/whales.mp3", "s059", "s059", 0.5),
-    ("movement/whales.mp3", "s063", "s063", 0.45),
-    ("movement/herds.mp3", "s066", "s069", 0.35), ("movement/grass-wind.mp3", "s070", "s077", 0.25),
-    ("movement/herds.mp3", "s080", "s081", 0.3), ("movement/meadow-birds.mp3", "s082", "s086", 0.3),
-    ("movement/golden-stillness.mp3", "s087", "s096", 0.35), ("movement/desert-camp.mp3", "s097", "s098", 0.35),
-    ("movement/golden-stillness.mp3", "s099", "s102", 0.3),
-    ("movement/single-flame.mp3", "s103", "s104", 0.35), ("movement/garden-dawn.mp3", "s105", "s105", 0.3),
-    ("movement/single-flame.mp3", "s106", "s106", 0.35), ("movement/garden-dawn.mp3", "s107", "s110", 0.3),
-    ("movement/river-stones.mp3", "s111", "s112", 0.3),
-    ("movement/thorn-wind.mp3", "s113", "s114", 0.35), ("movement/flood.mp3", "s115", "s115", 0.45),
-    ("movement/golden-stillness.mp3", "s116", "s117", 0.3), ("movement/new-creation.mp3", "s118", "s121", 0.35),
-    ("room-tone-calm-sea.mp3", "s122", "s124", 0.3), ("light-swell.mp3", "s122", "s122", 0.45),
-]
+SFX = []    # per film, from film.json
+CFG = {}
 
 
 def ff(*a):
@@ -111,8 +85,9 @@ def build_segments(film, shots):
             use_clip = clip.exists() and byid[src]["kind"] in ("veo", "ff")
             source = clip if use_clip else key
             stamp = sdir / f"{s['id']}.flags"
-            same_flags = stamp.exists() and stamp.read_text() == byid[src]["flags"]
-            stamp.write_text(byid[src]["flags"])
+            sig = byid[src]["flags"] + (" depth" if CFG.get("depth") else "")
+            same_flags = stamp.exists() and stamp.read_text() == sig
+            stamp.write_text(sig)
             if same_flags and out.exists() and out.stat().st_mtime > source.stat().st_mtime \
                     and abs(dur(out) - n / FPS) < 0.05:
                 continue   # already built from this source at this length
@@ -137,6 +112,14 @@ def build_segments(film, shots):
             elif use_clip:
                 ff("-i", clip, "-vf", f"fps={FPS},scale={W}:{H}:flags=lanczos,setsar=1,"
                    f"tpad=stop_mode=clone:stop_duration=4", "-frames:v", n, *ENC, out)
+            elif CFG.get("depth"):
+                motion = (s["motion"] or byid[src]["motion"]).split(" Painterly")[0].lower()
+                mode = "pull" if "pull back" in motion else "drift" if any(w in motion for w in ("pan", "drift", "across")) else "push"
+                r = subprocess.run([str(REPO_ROOT / "makor-audio" / ".venv" / "bin" / "python"),
+                                    str(pathlib.Path(__file__).with_name("depth_move.py")), str(key), str(out),
+                                    f"{n / FPS:.4f}", mode], capture_output=True, text=True)
+                if r.returncode:
+                    sys.exit("depth_move failed: " + r.stderr[-1500:])
             else:
                 motion = (s["motion"] or byid[src]["motion"]).split(" Painterly")[0]
                 z, x, y = move(motion, n)
@@ -228,12 +211,20 @@ def caption_png(path, label, text):
     Image.alpha_composite(Image.alpha_composite(band, halo), img).save(path)
 
 
+def brand(size, weight=600):
+    """Fraunces, the site's display face, for titles and cards."""
+    f = ImageFont.truetype(str(pathlib.Path(__file__).resolve().parents[1] / "fonts" /
+                               "Fraunces[SOFT,WONK,opsz,wght].ttf"), size)
+    f.set_variation_by_axes([min(144, max(9, size // 3)), weight, 0, 0])
+    return f
+
+
 def title_png(path, text, size=44, y=150):
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     rows = text.split(" / ")
     for i, r in enumerate(rows):
-        f = ImageFont.truetype(SERIF, size * 2) if (i == 0 and size > 60) else ImageFont.truetype(SANS, size, index=2)
+        f = brand(size * 2) if (i == 0 and size > 60) else ImageFont.truetype(SANS, size, index=2)
         d.text((W // 2, y + i * (size * 2 + 20)), r.upper() if size <= 60 else r, font=f,
                fill=CREAM if i == 0 else GOLD, anchor="ma")
     a = img.split()[3]
@@ -289,27 +280,33 @@ def overlays(film, tl, durs):
             title_png(p, e["text"], size=64, y=330)
             items.append((p, e["t"], min(e["t"] + 8, tl["total"]), True, True))
     (film / "exports").mkdir(exist_ok=True)
-    (film / "exports" / "the-seven-days-v2.srt").write_text(
+    (film / "exports" / (CFG["edit_name"] + ".srt")).write_text(
         "\n".join(f"{i}\n{srt_time(a)} --> {srt_time(b)}\n{t}\n" for i, (a, b, t) in enumerate(srt, 1)))
     return items
 
 
 # ---------------------------------------------------------------- audio
-def build_audio(film, shots, tl):
+def build_audio(film, shots, tl, durs):
     starts = {name: t for t, name in tl["chapters"]}
     shot_t = {s["id"]: (s["start"], s["start"] + s["dur"]) for s in shots}
     total = tl["total"]
     ins, ch, labels = ["-i", str(film / "audio" / "movement" / "voice-track.wav")], [], []
     n = 1
-    for i, (f, chap) in enumerate(ACTS):
+    for i, act in enumerate(ACTS):
+        f, chap, offset = (list(act) + [0])[:3]       # an act may start part way into its track
         a = starts[chap]
         b = starts[ACTS[i + 1][1]] if i + 1 < len(ACTS) else total
         L = b - a + 2.0
-        ins += ["-i", str(film / "audio" / "music" / f)]
+        ins += ["-ss", f"{offset}", "-i", str((film / "audio" / "music" / f).resolve())]
         ch.append(f"[{n}:a]aformat=sample_rates=48000:channel_layouts=stereo,atrim=0:{L:.2f},afade=in:d=2.5,"
                   f"afade=out:st={L - 3:.2f}:d=3,adelay={int(a * 1000)}:all=1,volume=0.42[m{i}]")
         labels.append(f"[m{i}]"); n += 1
-    ch.append(f"{''.join(labels)}amix=inputs={len(labels)}:normalize=0[mus]")
+    # the score drops almost to silence under every line God speaks, so His voice stands alone
+    gods = [(e["t"] - 0.4, e["t"] + durs[e["id"]] + 0.3) for e in tl["events"]
+            if e["kind"] == "line" and e["speaker"] == "GOD"]
+    dip = "+".join(f"between(t,{x:.2f},{y:.2f})" for x, y in gods) or "0"
+    ch.append(f"{''.join(labels)}amix=inputs={len(labels)}:normalize=0,"
+              f"volume='if({dip},0.3,1)':eval=frame[mus]")
     fx = []
     for j, (cue, a_id, b_id, vol) in enumerate(SFX):
         a, b = shot_t[a_id][0], shot_t[b_id][1]
@@ -319,7 +316,10 @@ def build_audio(film, shots, tl):
                   f"afade=in:d={min(1.5, L / 3):.2f},afade=out:st={max(0, L - 1.5):.2f}:d={min(1.5, L / 3):.2f},"
                   f"volume={vol},adelay={int(a * 1000)}:all=1[f{j}]")
         fx.append(f"[f{j}]"); n += 1
-    ch.append(f"{''.join(fx)}amix=inputs={len(fx)}:normalize=0[sfx]")
+    if fx:
+        ch.append(f"{''.join(fx)}amix=inputs={len(fx)}:normalize=0[sfx]")
+    else:   # no sound effects placed yet
+        ch.append(f"anullsrc=r=48000:cl=stereo,atrim=0:{total:.2f}[sfx]")
     ch.append(f"[0:a]aformat=sample_rates=48000:channel_layouts=stereo,adelay={int(LEAD * 1000)}:all=1,"
               f"apad=whole_dur={total},asplit[v][key];"
               f"[key]asplit[k1][k2];"
@@ -351,7 +351,7 @@ def build_final(film, tl, durs):
         fc.append(f"{prev}[o{k}]overlay=0:0:eof_action=pass:enable='between(t,{a:.3f},{b:.3f})'[p{k}]")
         prev = f"[p{k}]"
     ins += ["-i", str(film / "edit" / "movement" / "mix.wav")]
-    out = film / "exports" / "the-seven-days-v2.mp4"
+    out = film / "exports" / (CFG["edit_name"] + ".mp4")
     script = film / "edit" / "movement" / "final-graph.txt"
     script.write_text(";".join(fc))
     ff(*ins, "-/filter_complex", script, "-map", prev, "-map", f"{len(items) + 1}:a",
@@ -363,14 +363,19 @@ def build_final(film, tl, durs):
 def main():
     film = pathlib.Path(sys.argv[1]).resolve()
     steps = sys.argv[2:] or ["segments", "audio", "final"]
-    shots = json.loads((film / "script" / "shotlist.json").read_text())
+    CFG.update(json.loads((film / "film.json").read_text()))
+    ACTS[:] = [tuple(a) for a in CFG["acts"]]
+    SFX[:] = [tuple(x) for x in CFG["sfx"]]
+    sl = film / "script" / "shotlist.json"
+    shots = json.loads(sl.read_text()) if sl.exists() else []   # the audio step can run before the shot list
     tl = json.loads((film / "script" / "movement-timeline.json").read_text())
     durs = json.loads((film / "script" / "movement-durations.json").read_text())
     # lead in and tail: hold the first shot LEAD s longer and the last TAIL s longer, move everything after
-    shots[0]["dur"] += LEAD
-    for sh in shots[1:]:
-        sh["start"] += LEAD
-    shots[-1]["dur"] += TAIL
+    if shots:
+        shots[0]["dur"] += LEAD
+        for sh in shots[1:]:
+            sh["start"] += LEAD
+        shots[-1]["dur"] += TAIL
     for e in tl["events"]:
         e["t"] += LEAD
     tl["chapters"] = [[t + (LEAD if i else 0), n] for i, (t, n) in enumerate(tl["chapters"])]
@@ -380,7 +385,7 @@ def main():
         build_segments(film, shots)
         build_chapters(film, shots)
     if "audio" in steps:
-        build_audio(film, shots, tl)
+        build_audio(film, shots, tl, durs)
     if "final" in steps:
         build_final(film, tl, durs)
 

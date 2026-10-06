@@ -134,7 +134,9 @@ def main():
     lst.write_text("".join(f"file '{p}'\nduration {d:.3f}\n" for p, d in concat) + f"file '{concat[-1][0]}'\n")
     out = film / "exports" / "movement-animatic.mp4"
     out.parent.mkdir(exist_ok=True)
-    music = film / "audio" / "music" / "light-breaking.wav"
+    cfg_f = film / "film.json"
+    cfg = json.loads(cfg_f.read_text()) if cfg_f.exists() else {}
+    music = (film / cfg["temp_music"]).resolve() if cfg.get("temp_music") else film / "audio" / "music" / "light-breaking.wav"
     voice = film / "audio" / "movement" / "voice-track.wav"
     total = tl["total"]
     fc = (f"[1:a]aformat=sample_rates=48000:channel_layouts=stereo,apad=whole_dur={total},asplit[v][key];"

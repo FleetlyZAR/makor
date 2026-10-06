@@ -108,6 +108,20 @@ Veo turns "swells" into breaking surf for drama. For any calm water shot, add
 to the motion prompt: "the water stays low and calm, no breaking waves, no
 whitecaps, no spray, no surf, no wave rises toward the camera".
 
+## Motion for still shots (standard from The Garden onward)
+
+Every still shot gets depth motion (`films/tools/depth_move.py`): a depth map from
+Depth Anything V2 Small (Apache 2.0, local) drives a slow push in or sideways drift in
+which near layers move more than far ones. Free, about 15 s of rendering per shot. Flat
+pushes are only a fallback.
+
+## Veo models (from The Seven Days)
+
+- Veo 3.1 Lite (0.64 USD per 8 s at 1080p): calm shots only: water, grass, landscape drift.
+  It adds halos and softens detail on lit or complex shots, and cannot interpolate.
+- Veo 3.1 Fast (0.96 USD): creatures, light, people, transitions, first and last frame.
+- Each model has its own daily limit of about 10 requests.
+
 ## Motion suffix (append to every image to video prompt)
 
     Painterly matte painting style preserved exactly, brush texture stays

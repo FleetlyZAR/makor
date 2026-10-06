@@ -8,7 +8,7 @@ The Day One cues in audio/sfx/ (wind, rumble, light swell, room tone) are reused
 
     python3 films/tools/movement_sfx.py films/genesis/01-the-seven-days
 """
-import pathlib, sys
+import json, pathlib, sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from clip import log_cost  # noqa: E402
@@ -41,12 +41,14 @@ CUES = {   # name: (seconds, loop, prompt)
 
 def main():
     film = pathlib.Path(sys.argv[1])
+    cues_f = film / "sfx-cues.json"   # a film's own cue list; The Seven Days uses the CUES above
+    cues = {k: tuple(v) for k, v in json.loads(cues_f.read_text()).items()} if cues_f.exists() else CUES
     out = film / "audio" / "sfx" / "movement"
     out.mkdir(parents=True, exist_ok=True)
     k = key()
     before = used(k)
     made = 0
-    for name, (secs, loop, text) in CUES.items():
+    for name, (secs, loop, text) in cues.items():
         dest = out / f"{name}.mp3"
         if dest.exists():
             continue

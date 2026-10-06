@@ -21,7 +21,7 @@ from voice import USD_PER_CREDIT, TTS_MODEL, VOICES, key, post  # noqa: E402
 
 # Words the GUIDE says that the Makor names lexicon does not cover yet
 # (misaki phoneme markup, US forms, in the lexicon's own style).
-FILM_NAMES = {"Marduk": "mˈɑɹdʊk", "tohu": "tˈOhu", "wabohu": "vɑbˈOhu", "tselem": "tsˈɛlɛm"}
+FILM_NAMES = {"Marduk": "mˈɑɹdʊk", "tohu": "tˈOhu", "wabohu": "vɑbˈOhu", "tselem": "tsˈɛlɛm", "ezer": "ˈɛzɛɹ"}
 
 
 def dur(path):

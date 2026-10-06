@@ -100,7 +100,7 @@ S = {
  "s030": ("still", "The deep standing calm and firm under settled light, the water perfectly still like glass to the horizon.", "Very slow push in.", ["p7"], "calm"),
  # Day Two
  "s031": ("veo", "Over the open sea in soft sourceless light, a band of clear luminous air opens horizontally across the middle of the frame, separating the waters below from heavy shining mist and waters above.", "The clear band widens slowly as the waters above lift away from the sea below.", ["p9"], "calm"),
- "s032": ("veo", "A vast clear expanse stretched between the calm sea below and a high shining canopy of waters above, like beaten gold stretched thin, soft even sourceless light. No beams, no rays, no shafts of light.", "Slow rise up into the expanse.", ["p9"], "calm"),
+ "s032": ("veo", "A vast clear expanse stretched between the calm sea below and a high shining canopy of waters above, like beaten gold stretched thin, soft even sourceless light. No beams, no rays, no shafts of light.", "Slow rise up into the expanse.", ["p9"], "calm clip:0-3.0"),
  "s033": ("still", "The new sky over the open sea at evening, the light fading softly, the sea quiet beneath.", "Very slow push in.", ["p8"], "calm"),
  "s034": ("still", "A thin sheet of hammered gold resting on dark stone, its hammer marks rippling across it like a sky.", "Slow push across the gold.", [], ""),
  "s035": ("still", "The wide expanse of sky over the open sea seen from just above the water, immense and clear, the canopy above shimmering faintly like beaten metal.", "Slow tilt up.", ["p9"], "calm"),
@@ -143,7 +143,7 @@ S = {
  "s068": ("veo", "Herds grazing across the slopes with the bay below.", "Animals graze and move slowly; slow drift.", ["herds", "bay"], ""),
  "s069": ("still", "Deer, wild goats and oxen drinking at the river mouth in peace.", "Slow push in.", ["herds", "bay"], ""),
  "s070": ("still", "The whole land falls still at first light: the herds stand quiet, the grass unmoving, a hush over the bay.", "Very slow push in.", ["herds", "bay"], "calm"),
- "s071": ("veo", "The hushed land above the bay in soft first light, the long ridge ahead, empty.", "A slow push across the land toward the ridge as the wind dies away.", ["bay"], ""),
+ "s071": ("veo", "The hushed land above the bay in soft first light, the long ridge ahead, empty.", "A slow push across the land toward the ridge as the wind dies away.", ["bay"], "clip:0-2.5"),
  "s072": ("still", "The long ridge above the bay against the dawn sky, empty, waiting.", "Very slow push in.", ["bay"], ""),
  "s073": ("still", "Tall grass in first light, dew on the blades, in close view.", "Slow push in.", [], ""),
  "s074": ("still", "A vast wide view of the new world at first light: the bay, the river, the herds on the near slopes, and far away on the crest of the ridge two tiny human shapes side by side against the bright dawn.", "Very slow push in.", ["people"], "people"),

@@ -26,7 +26,8 @@ INK, WATER, GOLD, CREAM = (14, 42, 46), (15, 108, 108), (184, 134, 47), (244, 23
 GOLD_TEXT = (214, 170, 92)
 SERIF, SERIF_IT, SANS = me.SERIF, "/System/Library/Fonts/NewYorkItalic.ttf", me.SANS
 IDENT, END = 4.0, 20.0
-URL = "makor.co.za/genesis/the-seven-days"
+URL = ""        # per film, from film.json
+CFG = {}
 
 
 def ff(*a):
@@ -36,10 +37,13 @@ def ff(*a):
 RING = (58, 176, 170)   # the brighter teal of the app icon rings, readable at small sizes
 
 
+FRAUNCES = str(pathlib.Path(__file__).resolve().parents[1] / "fonts" / "Fraunces[SOFT,WONK,opsz,wght].ttf")
+
+
 def serif(size, weight=600):
-    """New York at the wordmark's weight (Fraunces 600 on the site)."""
-    f = ImageFont.truetype(SERIF, size)
-    f.set_variation_by_axes([min(256, max(12, size // 3)), weight, 0])
+    """Fraunces, the site's display and wordmark face (OFL, films/fonts/), at the wordmark weight."""
+    f = ImageFont.truetype(FRAUNCES, size)
+    f.set_variation_by_axes([min(144, max(9, size // 3)), weight, 0, 0])   # opsz, wght, SOFT, WONK
     return f
 
 
@@ -94,7 +98,7 @@ def setup(film):
 
 def cta_window(tl, durs):
     """The last quiet moment before Day One: no Scripture on screen, between GUIDE lines."""
-    day1 = next(t for t, n in tl["chapters"] if n.startswith("Day One"))
+    day1 = next(t for t, n in tl["chapters"] if n.startswith(CFG["cta_before_chapter"]))
     return day1 - 9.0, day1 - 1.5
 
 
@@ -135,7 +139,7 @@ def ident(film, out_dir):
 
 
 def endscreen(film, out_dir, tl):
-    bg = Image.open(film / "stills" / "movement" / "s027.jpg").convert("RGB").resize((1920, 1072))
+    bg = Image.open(film / "stills" / "movement" / f"{CFG['endscreen_bg']}.jpg").convert("RGB").resize((1920, 1072))
     bg = bg.crop((0, 0, 1920, 1072)).resize((1920, 1080)).filter(ImageFilter.GaussianBlur(6))
     bg = Image.blend(bg, Image.new("RGB", bg.size, (8, 22, 24)), 0.45).convert("RGBA")
     d = ImageDraw.Draw(bg)
@@ -144,7 +148,7 @@ def endscreen(film, out_dir, tl):
     f1, f2 = ImageFont.truetype(SERIF, 54), ImageFont.truetype(SANS, 36, index=2)
     t = Image.new("RGBA", bg.size, (0, 0, 0, 0))
     td = ImageDraw.Draw(t)
-    td.text((960, 220), "Study The Seven Days", font=f1, fill=CREAM, anchor="ma")
+    td.text((960, 220), CFG["study_title"], font=f1, fill=CREAM, anchor="ma")
     td.text((960, 296), URL, font=f2, fill=GOLD_TEXT, anchor="ma")
     # quiet labels above the spaces YouTube's end screen elements will fill (set in YouTube Studio)
     lab = ImageFont.truetype(SANS, 30, index=0)
@@ -154,7 +158,7 @@ def endscreen(film, out_dir, tl):
     p = out_dir / "endscreen.png"
     bg.convert("RGB").save(p)
     out = out_dir / "endscreen.mp4"
-    act6 = film / "audio" / "music" / "act6.wav"
+    act6 = film / "audio" / "music" / CFG["endscreen_music"]
     start = max(0, me.dur(act6) - END - 2)
     ff("-loop", 1, "-framerate", 30, "-t", END, "-i", p, "-ss", start, "-i", act6, "-filter_complex",
        f"[0:v]scale=3840:-2,zoompan=z='1+0.04*(on/{int(END * 30)})':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
@@ -210,9 +214,9 @@ def youtube(film):
     wm.alpha_composite(lk, (1920 - lk.width - 60, 50))
     wm.save(out_dir / "watermark.png")
     idp, endp = ident(film, out_dir), endscreen(film, out_dir, tl)
-    main = film / "exports" / "the-seven-days-v2.mp4"
+    main = film / "exports" / f"{CFG['edit_name']}.mp4"
     total = me.dur(main)
-    wm_from = next(t for t, n in tl["chapters"] if n.startswith("A world")) - 2
+    wm_from = next(t for t, n in tl["chapters"] if n.startswith(CFG["watermark_from_chapter"])) - 2
     fc = (f"[3:v]format=rgba[wm];[4:v]format=rgba,fade=in:st=0:d=0.6:alpha=1,"
           f"fade=out:st={b - a - 0.8:.2f}:d=0.8:alpha=1,setpts=PTS+{a:.3f}/TB[cta];"
           f"[1:v][wm]overlay=0:0:enable='between(t,{wm_from:.2f},{total - 10:.2f})'[m1];"
@@ -223,7 +227,7 @@ def youtube(film):
        "-loop", 1, "-framerate", 30, "-t", f"{b - a:.3f}", "-i", cta,
        "-filter_complex", fc, "-map", "[v]", "-map", "[araw]", "-c:v", "libx264", "-crf", "18", "-preset", "slow",
        "-pix_fmt", "yuv420p", "-r", 30, "-c:a", "pcm_s16le", raw.with_suffix(".mov"))
-    final = film / "exports" / "the-seven-days-youtube.mp4"
+    final = film / "exports" / f"{CFG['out_prefix']}-youtube.mp4"
     loudnorm_copy(raw.with_suffix(".mov"), final)
     print(f"youtube: {final} {me.dur(final):.2f}s; prompt at {a + IDENT:.1f} to {b + IDENT:.1f}s")
     return a + IDENT, b + IDENT
@@ -274,8 +278,8 @@ def vertical(film):
     lk = lockup(96)
     top.alpha_composite(lk, (540 - lk.width // 2, 140))
     td = ImageDraw.Draw(top)
-    td.text((540, 268), "THE SEVEN DAYS", font=serif(66), fill=CREAM, anchor="ma")
-    td.text((540, 348), "GENESIS 1:1 TO 2:3", font=ImageFont.truetype(SANS, 30, index=0), fill=GOLD_TEXT, anchor="ma")
+    td.text((540, 268), CFG["title"], font=serif(66), fill=CREAM, anchor="ma")
+    td.text((540, 348), CFG["ref"], font=ImageFont.truetype(SANS, 30, index=0), fill=GOLD_TEXT, anchor="ma")
     halo(top).save(out_dir / "top.png")
     items = []
     probe = ImageDraw.Draw(Image.new("RGB", (10, 10)))
@@ -306,7 +310,7 @@ def vertical(film):
             p = cdir / "endcard.png"
             img = Image.new("RGBA", (VW, VH), (0, 0, 0, 0))
             d = ImageDraw.Draw(img)
-            d.text((540, CAP_TOP + 10), "Study The Seven Days", font=ImageFont.truetype(SERIF, 60), fill=CREAM, anchor="ma")
+            d.text((540, CAP_TOP + 10), CFG["study_title"], font=ImageFont.truetype(SERIF, 60), fill=CREAM, anchor="ma")
             d.text((540, CAP_TOP + 100), URL, font=ImageFont.truetype(SANS, 36, index=2), fill=GOLD_TEXT, anchor="ma")
             halo(img).save(p)
             items.append((p, e["t"], tl["total"]))
@@ -329,7 +333,7 @@ def vertical(film):
         prev = f"[p{k}]"
     graph = out_dir / "graph.txt"
     graph.write_text(";".join(fc))
-    out = film / "exports" / "the-seven-days-vertical.mp4"
+    out = film / "exports" / f"{CFG['out_prefix']}-vertical.mp4"
     ff(*ins, "-/filter_complex", graph, "-map", prev, "-map", "1:a", "-t", f"{tl['total']:.3f}",
        "-c:v", "libx264", "-crf", "20", "-preset", "medium", "-pix_fmt", "yuv420p", "-r", 30,
        "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", out)
@@ -341,7 +345,7 @@ def art(film):
     out = film / "exports" / "art"
     out.mkdir(parents=True, exist_ok=True)
     W, H = 3840, 2160
-    for name, src in [("thumbnail-a", "s025"), ("thumbnail-b", "s087")]:
+    for name, src in CFG["thumbnails"]:
         bg = Image.open(film / "stills" / "movement" / f"{src}.jpg").convert("RGB")
         r = max(W / bg.width, H / bg.height)
         bg = bg.resize((int(bg.width * r) + 1, int(bg.height * r) + 1), Image.LANCZOS).crop((0, 0, W, H)).convert("RGBA")
@@ -353,9 +357,11 @@ def art(film):
         bg.alpha_composite(shade)
         t = Image.new("RGBA", (W, H), (0, 0, 0, 0))
         d = ImageDraw.Draw(t)
-        d.text((220, 640), "THE SEVEN", font=serif(330, 560), fill=CREAM)
-        d.text((220, 990), "DAYS", font=serif(330, 560), fill=CREAM)
-        d.text((230, 1400), "GENESIS 1:1 TO 2:3", font=ImageFont.truetype(SANS, 92, index=0), fill=GOLD_TEXT)
+        words = CFG["title"].split()
+        rows = [" ".join(words[:-1]), words[-1]] if len(words) > 2 else [CFG["title"]]
+        for i, row in enumerate(rows):
+            d.text((220, 640 + i * 350 + (175 if len(rows) == 1 else 0)), row, font=serif(330, 560), fill=CREAM)
+        d.text((230, 1400), CFG["ref"], font=ImageFont.truetype(SANS, 92, index=0), fill=GOLD_TEXT)
         bg.alpha_composite(halo(t, blur=18))
         lk = lockup(230)
         bg.alpha_composite(halo(lk), (230, 1720))
@@ -369,6 +375,9 @@ def art(film):
 def main():
     film = pathlib.Path(sys.argv[1]).resolve()
     steps = sys.argv[2:] or ["youtube", "vertical", "art"]
+    CFG.update(json.loads((film / "film.json").read_text()))
+    global URL
+    URL = CFG["url"]
     if "art" in steps:
         art(film)
     if "youtube" in steps:
