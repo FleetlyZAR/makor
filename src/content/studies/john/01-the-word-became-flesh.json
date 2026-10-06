@@ -18,11 +18,31 @@
         "note": "in the beginning was the Word",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 1, "text": "In the beginning was the {{logos|Word}}, and the Word was with God, and the Word was God." },
-          { "chapter": 1, "n": 2, "text": "He was with God in the beginning." },
-          { "chapter": 1, "n": 3, "text": "Through Him all things were made, and without Him nothing was made that has been made." },
-          { "chapter": 1, "n": 4, "text": "In Him was {{zoe|life}}, and that life was the {{phos|light}} of men." },
-          { "chapter": 1, "n": 5, "text": "The Light shines in the darkness, and the darkness has not overcome it." }
+          {
+            "chapter": 1,
+            "n": 1,
+            "text": "In the beginning was the {{logos|Word}}, and the Word was with God, and the Word was God."
+          },
+          {
+            "chapter": 1,
+            "n": 2,
+            "text": "He was with God in the beginning."
+          },
+          {
+            "chapter": 1,
+            "n": 3,
+            "text": "Through Him all things were made, and without Him nothing was made that has been made."
+          },
+          {
+            "chapter": 1,
+            "n": 4,
+            "text": "In Him was {{zoe|life}}, and that life was the {{phos|light}} of men."
+          },
+          {
+            "chapter": 1,
+            "n": 5,
+            "text": "The Light shines in the darkness, and the darkness has not overcome it."
+          }
         ]
       },
       {
@@ -30,9 +50,21 @@
         "note": "he came to testify about the Light",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 6, "text": "There came a man who was sent from God. His name was John." },
-          { "chapter": 1, "n": 7, "text": "He came as a witness to testify about the Light, so that through him everyone might believe." },
-          { "chapter": 1, "n": 8, "text": "He himself was not the Light, but he came to testify about the Light." }
+          {
+            "chapter": 1,
+            "n": 6,
+            "text": "There came a man who was sent from God. His name was John."
+          },
+          {
+            "chapter": 1,
+            "n": 7,
+            "text": "He came as a witness to testify about the Light, so that through him everyone might believe."
+          },
+          {
+            "chapter": 1,
+            "n": 8,
+            "text": "He himself was not the Light, but he came to testify about the Light."
+          }
         ]
       },
       {
@@ -40,11 +72,31 @@
         "note": "to all who received Him, the right to become children of God",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 9, "text": "The true Light, who gives light to everyone, was coming into the world." },
-          { "chapter": 1, "n": 10, "text": "He was in the world, and though the world was made through Him, the world did not recognize Him." },
-          { "chapter": 1, "n": 11, "text": "He came to His own, and His own did not receive Him." },
-          { "chapter": 1, "n": 12, "text": "But to all who did receive Him, to those who {{pisteuo|believed}} in His name, He gave the right to become children of God," },
-          { "chapter": 1, "n": 13, "text": "children born not of blood, nor of the desire or will of man, but born of God." }
+          {
+            "chapter": 1,
+            "n": 9,
+            "text": "The true Light, who gives light to everyone, was coming into the world."
+          },
+          {
+            "chapter": 1,
+            "n": 10,
+            "text": "He was in the world, and though the world was made through Him, the world did not recognize Him."
+          },
+          {
+            "chapter": 1,
+            "n": 11,
+            "text": "He came to His own, and His own did not receive Him."
+          },
+          {
+            "chapter": 1,
+            "n": 12,
+            "text": "But to all who did receive Him, to those who {{pisteuo|believed}} in His name, He gave the right to become children of God,"
+          },
+          {
+            "chapter": 1,
+            "n": 13,
+            "text": "children born not of blood, nor of the desire or will of man, but born of God."
+          }
         ]
       },
       {
@@ -52,23 +104,78 @@
         "note": "we have seen His glory, full of grace and truth",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 14, "text": "The Word became flesh and made His dwelling among us. We have seen His {{doxa|glory}}, the glory of the {{monogenes|one and only}} Son from the Father, full of {{charis|grace}} and truth." },
-          { "chapter": 1, "n": 15, "text": "John testified concerning Him. He cried out, saying, “This is He of whom I said, ‘He who comes after me has surpassed me because He was before me.’”" },
-          { "chapter": 1, "n": 16, "text": "From His fullness we have all received grace upon grace." },
-          { "chapter": 1, "n": 17, "text": "For the law was given through Moses; grace and truth came through Jesus Christ." },
-          { "chapter": 1, "n": 18, "text": "No one has ever seen God, but the one and only Son, who is Himself God and is at the Father’s side, has made Him known." }
+          {
+            "chapter": 1,
+            "n": 14,
+            "text": "The Word became flesh and made His dwelling among us. We have seen His {{doxa|glory}}, the glory of the {{monogenes|one and only}} Son from the Father, full of {{charis|grace}} and truth."
+          },
+          {
+            "chapter": 1,
+            "n": 15,
+            "text": "John testified concerning Him. He cried out, saying, “This is He of whom I said, ‘He who comes after me has surpassed me because He was before me.’”"
+          },
+          {
+            "chapter": 1,
+            "n": 16,
+            "text": "From His fullness we have all received grace upon grace."
+          },
+          {
+            "chapter": 1,
+            "n": 17,
+            "text": "For the law was given through Moses; grace and truth came through Jesus Christ."
+          },
+          {
+            "chapter": 1,
+            "n": 18,
+            "text": "No one has ever seen God, but the one and only Son, who is Himself God and is at the Father’s side, has made Him known."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "logos": { "language": "Greek", "lemma": "logos", "original": "λόγος", "gloss": "Word, reason, message, the expression of a mind. In Greek thought the logos was the rational principle ordering the universe; in the Old Testament God creates and reveals by His word. John gathers both streams and startlingly personalizes them: the Word is not a principle but a person, eternally with God, Himself God, and now made flesh in Jesus. Jesus is God speaking, God fully expressed." },
-    "zoe": { "language": "Greek", "lemma": "zoe", "original": "ζωή", "gloss": "Life. In John it means far more than biological existence; it is the very life of God, eternal life that begins now in knowing the Father and the Son. This life is in the Word, and He shares it with all who believe, a key word that runs through the whole Gospel to its stated purpose in John 20:31." },
-    "phos": { "language": "Greek", "lemma": "phos", "original": "φῶς", "gloss": "Light. The life in the Word shines as light for humanity, exposing darkness and giving guidance and life. Light and darkness are running images in John; the Light comes into a dark world, and the darkness cannot overcome or comprehend it. Jesus will later say plainly, I am the light of the world." },
-    "pisteuo": { "language": "Greek", "lemma": "pisteuo", "original": "πιστεύω", "gloss": "To believe, trust, rely on. For John belief is not bare agreement but receiving and resting on Christ; those who believe in His name are given the right to become children of God. The verb appears again and again in this Gospel, which was written that we might believe and have life." },
-    "doxa": { "language": "Greek", "lemma": "doxa", "original": "δόξα", "gloss": "Glory, splendor, the visible weight of God's presence. The Old Testament glory that filled the tabernacle and temple now dwells in a person; the disciples beheld His glory. In John this glory is uniquely revealed at the cross, the hour when the Son is glorified, so that His majesty is displayed even in humiliation." },
-    "monogenes": { "language": "Greek", "lemma": "monogenes", "original": "μονογενής", "gloss": "One and only, unique, only-begotten. It marks Jesus as the Son in a class of His own, uniquely related to the Father, not one child of God among many but the eternal Son through whom others become children. He alone is at the Father's side and has made Him known." },
-    "charis": { "language": "Greek", "lemma": "charis", "original": "χάρις", "gloss": "Grace, unmerited favor, gift. The Word made flesh is full of grace and truth, and from His fullness we receive grace upon grace. The law came through Moses, but grace and truth came through Jesus Christ; grace is the free kindness of God embodied in the Son." }
+    "logos": {
+      "language": "Greek",
+      "lemma": "logos",
+      "original": "λόγος",
+      "gloss": "Word, reason, message, the expression of a mind. In Greek thought the logos was the rational principle ordering the universe; in the Old Testament God creates and reveals by His word. John gathers both streams and startlingly personalizes them: the Word is not a principle but a person, eternally with God, Himself God, and now made flesh in Jesus. Jesus is God speaking, God fully expressed."
+    },
+    "zoe": {
+      "language": "Greek",
+      "lemma": "zoe",
+      "original": "ζωή",
+      "gloss": "Life. In John it means far more than biological existence; it is the very life of God, eternal life that begins now in knowing the Father and the Son. This life is in the Word, and He shares it with all who believe, a key word that runs through the whole Gospel to its stated purpose in John 20:31."
+    },
+    "phos": {
+      "language": "Greek",
+      "lemma": "phos",
+      "original": "φῶς",
+      "gloss": "Light. The life in the Word shines as light for humanity, exposing darkness and giving guidance and life. Light and darkness are running images in John; the Light comes into a dark world, and the darkness cannot overcome or comprehend it. Jesus will later say plainly, I am the light of the world."
+    },
+    "pisteuo": {
+      "language": "Greek",
+      "lemma": "pisteuo",
+      "original": "πιστεύω",
+      "gloss": "To believe, trust, rely on. For John belief is not bare agreement but receiving and resting on Christ; those who believe in His name are given the right to become children of God. The verb appears again and again in this Gospel, which was written that we might believe and have life."
+    },
+    "doxa": {
+      "language": "Greek",
+      "lemma": "doxa",
+      "original": "δόξα",
+      "gloss": "Glory, splendor, the visible weight of God's presence. The Old Testament glory that filled the tabernacle and temple now dwells in a person; the disciples beheld His glory. In John this glory is uniquely revealed at the cross, the hour when the Son is glorified, so that His majesty is displayed even in humiliation."
+    },
+    "monogenes": {
+      "language": "Greek",
+      "lemma": "monogenes",
+      "original": "μονογενής",
+      "gloss": "One and only, unique, only-begotten. It marks Jesus as the Son in a class of His own, uniquely related to the Father, not one child of God among many but the eternal Son through whom others become children. He alone is at the Father's side and has made Him known."
+    },
+    "charis": {
+      "language": "Greek",
+      "lemma": "charis",
+      "original": "χάρις",
+      "gloss": "Grace, unmerited favor, gift. The Word made flesh is full of grace and truth, and from His fullness we receive grace upon grace. The law came through Moses, but grace and truth came through Jesus Christ; grace is the free kindness of God embodied in the Son."
+    }
   },
   "study": {
     "basic": {
@@ -82,93 +189,252 @@
       "oneStory": "The Bible's story reaches its center here. The God who spoke creation into being, who dwelt with Israel in the tabernacle, has now come in person. The eternal Word becomes flesh to bring life and light, gathering a new family of God's children, and making the invisible Father known to a world in darkness."
     },
     "context": {
-      "literary": "A carefully crafted prologue, poetic and layered, that functions as the overture to the Gospel. It moves from eternity to incarnation in a descending arc, introducing the leitmotifs of Word, life, light, darkness, witness, belief, glory, grace, and truth that will recur throughout. The Baptist material, verses 6 to 8 and 15, is woven in to prepare for the narrative of testimony that follows.",
-      "historical": "Written late in the first century, the prologue speaks into a world where Jewish readers revered the word of God and Greek readers spoke of the logos as the rational order of the cosmos. John claims both frames and bursts them: the Word is a divine person who became a real human being, a claim as scandalous to Greek dualism as to Jewish monotheism, yet grounded in the Old Testament story of the God who creates and dwells with His people.",
-      "canonical": "The prologue stands at the head of the fourth Gospel and among the New Testament's highest statements of Christ's deity and incarnation, alongside Colossians 1:15-20 and Hebrews 1:1-4. It binds creation, tabernacle, and law to their fulfillment in Christ, and it sets the interpretive key for reading the seven signs, the I am sayings, and the hour of glory that follow."
+      "literary": "The prologue is a carefully built overture, and it is built to be read twice: once as a descent and once as a return. It begins in eternity, verses 1 to 5, moves to history with the witness of John in verses 6 to 8, passes through the world's reception of the Light in verses 9 to 13, and arrives at the incarnation in verse 14, after which verses 15 to 18 reflect on what has been received. The movement is from 'in the beginning' to 'the Father's side,' so that the whole passage is a circle that begins and ends with God.\n\nMany readers have seen a chiastic design in these verses, with the incarnation of verse 14 or the gift of verses 12 to 13 near the centre. Others find a straight line of thought instead. Either way, two patterns are visible. The first is the pairing of the Word's divine being with His entry into time: 'was' in the early verses, 'became' in verse 14. The second is an interweaving of the story of John the Baptist, verses 6 to 8 and 15, among the verses about the Word, as though a human voice is placed on both sides of the central claim to say 'not me, Him.'\n\nJohn writes in short, linked statements, each picking up a word from the one before: Word, God, life, light, darkness. This chain-like style, in which the last word of a clause becomes the first of the next, gives the passage the sound of a hymn or a creed, and some think that John took over an earlier hymn. The text does not require that, and we cannot know.\n\nThe prologue also acts as a key to the Gospel. Almost every word in it returns in the narrative: Light and darkness, life, witness, believe, receive, glory, grace and truth, Father and Son, flesh. The rest of the book is the story of these words working themselves out in scenes, as the Light shines in the dark and some receive and many do not.\n\nNotice that the statement of purpose is withheld. We have to wait until John 20:31 to hear why the Gospel was written, 'that you may believe that Jesus is the Christ, the Son of God.' But the prologue has already told us who He is, before any human character knows.",
+      "historical": "The Gospel was written for readers who knew both Jewish Scripture and the wider Greek world, and the prologue speaks to both. Church tradition from early times connects the Gospel with John the apostle and with the city of Ephesus, and it is usually dated to the later part of the first century. These points are not stated in the text itself, and scholars disagree about the details. What is clear is that the Gospel looks back on a story the church had been living with for decades and that it brings out its meaning with unusual depth.\n\nThe word 'Word' met two audiences. For Jews it recalled the creative speech of Genesis 1, 'And God said, \"Let there be light,\"' the word of the LORD by which 'the heavens were made,' Psalm 33:6, and the word that 'will not return to Me empty,' Isaiah 55:11. It also recalled Wisdom, who in Proverbs 8 is with God before creation and 'at His side' as He made the world, Proverbs 8:22 to 30. In the Aramaic translations of the Scriptures read in synagogues, the 'word' of the Lord sometimes stands in for the Lord's own presence. For Greek speakers, 'logos' was a term of philosophy for the reason or order behind the world, and the Jewish thinker Philo had used it for the means by which God relates to creation. John does not quote either source. He takes the word that both audiences knew and fills it with a content neither expected: the Word is a person who became flesh.\n\nThe emphasis on John the Baptist has its own setting. John's movement had followers who continued long after his death. Acts 19:1 to 4 records men at Ephesus who knew only John's baptism. It is possible that the repeated insistence that John 'was not the Light' but 'a witness' has that history in view, though this is a reasonable inference and not a certainty.\n\nThe talk of 'His own' and the Light coming to the world speaks to the situation of a church in which many in Israel had not believed. The pain of verse 11 would have been felt directly by Jewish Christians. At the same time the offer of 'the right to become children of God' to all who believe, verse 12, opens the door to every kind of person, which a mixed congregation of Jews and Gentiles needed to hear.",
+      "canonical": "The first words, 'In the beginning,' are the first words of the Bible, Genesis 1:1, and John intends the echo. He sets the Word at the start of Genesis and claims that the One who spoke creation into being is the One who has now come among us. The light that shines in the darkness in verse 5 recalls Genesis 1:3 to 5, where God spoke light into the darkness. John is telling the story of a new creation by retelling the first.\n\nThe prologue draws on the great self-revelation of the Lord at Sinai. Moses asked, 'Please show me Your glory,' and was told, 'You cannot see My face,' and was hidden in a cleft of the rock while the glory passed, Exodus 33:18 to 22. When the Lord passed by He described Himself as 'abounding in loving devotion and faithfulness,' Exodus 34:6, and the phrase 'full of grace and truth' in verse 14 echoes it. The statement that 'No one has ever seen God,' verse 18, is a summary of that episode. The tabernacle, where 'the glory of the LORD filled the tabernacle,' Exodus 40:34, stands behind 'made His dwelling among us.'\n\nThe prologue is also echoed by the rest of the New Testament. Paul says of the Son that 'He is the image of the invisible God' and that 'all things were created through Him and for Him,' Colossians 1:15 and 16. Hebrews 1:1 to 3 says that God spoke by His Son, 'through whom He made the universe,' and that He 'is the radiance of God's glory.' Philippians 2:6 to 7 speaks of the One who existed in the form of God and was made in human likeness. 1 John 1:1 begins with what 'was from the beginning,' which was heard, seen and touched, and calls it 'the Word of life.' Revelation 19:13 names the rider, 'The Word of God.'\n\nAt the end of the Gospel, Thomas will say 'My Lord and my God,' John 20:28, and that confession closes the circle opened by 'the Word was God' in verse 1."
     },
     "hermeneutics": {
-      "authorIntent": "To declare at the outset who Jesus is, the eternal Word and God made flesh, and why He came, to bring life and light and to make the Father known, so that readers will believe and receive the right to become children of God.",
-      "descriptionVsPrescription": "The prologue is chiefly a declaration of who Christ is, not a set of commands. Yet it presses a response: the abiding call is to receive Him and believe in His name, which is the very thing the whole Gospel was written to produce.",
+      "authorIntent": "John wanted his readers to begin the story of Jesus at the right place. If they began with Bethlehem or the baptism, they might take Jesus as a gifted man chosen by God. By opening with eternity he forces the question of who Jesus is to the front, and he answers it before the first miracle or conversation: this is the one who was with God, who was God and through whom everything was made. Everything he does from here is the activity of the Creator among His creatures.\n\nHe also meant to reset the way readers think about knowing God. Every religion and every philosophy asks how the unseen God can be known. John says that God has answered by speaking, and that the speaking has a face. Because 'no one has ever seen God,' what we know of Him we know through the Son who 'has made Him known.' This is a claim about the whole of revelation, and it is meant to put every other source of knowledge in second place.\n\nHe wanted to show what response is fitting. The prologue is full of verbs of reception: 'received,' 'did not receive,' 'believed.' John does not want readers to admire the prologue as poetry. He wants them to see that the Word has come and that there are only two possible responses, and to be among those who 'received Him.' The invitation is open to all, and the birth that makes children of God is God's own act, not a human achievement.\n\nFinally, he meant the prologue to equip them for what follows: to read every sign as a disclosure of glory, every conflict as the Light meeting the dark, and every conversation as a chance for someone to receive or turn away.",
+      "descriptionVsPrescription": "The prologue is mostly description of who the Word is and what He has done, and its few commands are implicit. John does not say 'you must believe' in this passage. He reports that those who believed received the right to be God's children, and the invitation is carried by the grammar of the sentence, not by an imperative. It would be a mistake to turn the passage into a list of duties, and equally a mistake to treat it as pure doctrine with no claim on the reader.\n\nThe description of the world's response is not a prescription for how Christians should respond to rejection. Verse 11, 'His own did not receive Him,' records what happened to Jesus, not a rule that His people will always be rejected, though Jesus does warn that the disciples will share it, John 15:18 to 20. Equally, the praise of John as a witness gives a model without requiring every believer to be a prophet: the point of his life is to point away from himself.\n\nThe statement about children of God must be read for what it says. Becoming children is not by 'blood, nor of the desire or will of man,' verse 13, so it cannot be gained by family descent, by effort or by decision alone. It is the gift of God to all who believe, and the application is both humbling and open. Humbling, because no one can claim it as a birthright. Open, because no one is excluded for lack of pedigree.\n\nWe also have to be careful not to apply 'the Word became flesh' as an instruction. It is the announcement of an event, the incarnation, which does not need to be repeated, and its meaning for us lies in what it reveals and secures.",
       "debates": [
         {
-          "question": "What does John mean by calling Jesus the Word, the logos?",
+          "question": "What does 'the Word was God' say about Jesus' deity?",
           "views": [
-            { "label": "The Old Testament word of God", "case": "The strongest background is Genesis 1, where God creates by speaking, and the prophets, where the word of the LORD comes with power; John presents Jesus as that creating, revealing word now made personal and flesh." },
-            { "label": "The Greek philosophical logos", "case": "Greek readers heard logos as the rational principle ordering the universe; John engages this to say the ordering reason behind all things is not an abstraction but a person who became flesh." }
+            {
+              "label": "It asserts that the Word is fully God",
+              "case": "The clause says the Word 'was God,' and the grammar puts 'God' first in its clause for emphasis and without the definite article. The church from early times took this to mean that the Word shares the divine nature and is not simply 'a god.' The context supports it: the Word is the Creator of all things, verse 3, and John 20:28 ends with Thomas calling Jesus 'my God.' The clause that follows, 'He was with God,' stops the reading that the Word is simply the Father, and the Word is both distinct from God and God."
+            },
+            {
+              "label": "It describes the Word as divine in character but not identical in being",
+              "case": "Some groups, such as the Jehovah's Witnesses in their translation, read the missing article as showing that the Word is 'a god,' a lesser divine being. They argue that when John means the Father he uses the article, as he does in the previous clause."
+            },
+            {
+              "label": "It is a statement of quality that still means full deity",
+              "case": "Other scholars say the lack of an article makes the word describe the kind of being the Word is, 'divine' in the fullest sense, while the article marks the person. They think this is the way to say that He is not the Father and is nonetheless fully God."
+            }
           ],
-          "bearing": "Both backgrounds enrich the claim, and John transcends them: whatever word or reason means, it is ultimately Jesus, God's full self-expression, eternal and now incarnate."
+          "bearing": "The second view does not fit the rest of John, which presents the Word as the one without whom 'nothing was made that has been made' and who receives worship, John 20:28. The first and third are close to each other and both fit the Gospel's own argument. The prologue also ends where it begins: verse 18 calls the Son 'Himself God,' so the Gospel frames the claim at both ends."
         },
         {
-          "question": "In what sense did the darkness not overcome the Light, verse 5?",
+          "question": "Where does John's idea of the 'Word' come from?",
           "views": [
-            { "label": "Did not comprehend or understand", "case": "The word can mean grasp with the mind; the world, verse 10, did not recognize Him, so the darkness failed to understand the Light." },
-            { "label": "Did not overcome or extinguish", "case": "The word can also mean seize or master; the Light shines on undefeated, and the cross, far from quenching it, becomes its greatest hour, so the darkness could not overpower it." }
+            {
+              "label": "Mainly from the Hebrew Scriptures",
+              "case": "The Word of the LORD that creates, Genesis 1 and Psalm 33:6, speaks through the prophets and is personified in Wisdom, Proverbs 8, supplies everything John needs. The echoes of Exodus and Genesis in the prologue point the same way."
+            },
+            {
+              "label": "Mainly from Greek philosophy",
+              "case": "Some argue that 'logos' was a known term in Greek thought for the rational principle of the world, and that John uses it to reach Greek readers. They point out that the word hardly appears as a title elsewhere in the Gospel."
+            },
+            {
+              "label": "From the Jewish world, shaped by both",
+              "case": "Others suggest that Jewish writers in the Greek speaking world, such as Philo, had already joined the two streams and that John speaks to readers formed by both, while correcting each."
+            }
           ],
-          "bearing": "The BSB renders it overcome with a footnote for comprehend; both are true in John, the darkness neither understood nor conquered the Light, and the Gospel proves it."
+          "bearing": "The Old Testament background is the one that does the most work in the passage, since the verses quote or echo Genesis, Exodus and Proverbs. The Greek associations may have given the word a ready hearing, but John changes the sense: no philosophy had said that the Word became flesh. Whichever background is stressed, the meaning is set by John's own claims."
         }
       ]
     },
-    "originalLanguages": "The prologue is built on a handful of loaded terms. Jesus is the logos, the Word, the eternal self-expression of God, who was both with God and was God. In Him is zoe, the life of God itself, which shines as phos, the light of men, into a darkness that cannot overcome it. The Word became flesh and tabernacled among us, and the disciples beheld His doxa, His glory, the glory of the monogenes, the one and only Son, full of charis, grace, and truth. The fitting response, sounded already in verse 12, is to pisteuo, to believe, to receive Him and so become a child of God.",
+    "originalLanguages": "The Greek of the prologue is simple in vocabulary and enormous in effect. Besides the words the study already marks, several others carry the argument.\n\nThe verb 'was' in verses 1 and 2 is in the imperfect tense, a form that describes continuing existence and not a point in time. 'In the beginning was the Word' does not say that the Word began to be; it says that when the beginning began, the Word was already there. John then contrasts it with a different verb. In verse 3 all things 'were made,' a verb meaning to come into being, and in verse 14 the Word 'became' flesh, from the same verb. So the Word 'was' and does not come into being, while everything else 'came to be' through Him. And then the Word, who was, 'became.' The whole prologue turns on that difference between being and becoming.\n\nThe little word 'with' in 'the Word was with God' is a preposition that normally implies direction, 'toward,' and so suggests a face to face relationship, one facing the other. The Word is not just next to God but turned toward Him in a relationship. Verse 18 has the same idea in its final words.\n\nIn verse 5 the darkness 'has not overcome' the light. The verb can mean to seize, to grasp, to overtake, or on the mental side to comprehend, as the BSB footnote says. John seems to enjoy both meanings: the darkness neither extinguished the Light nor understood it. The same verb appears in John 12:35, where Jesus warns that the darkness may 'overtake' those who do not walk in the light.\n\nVerse 11 uses two forms of the word 'own.' The first, 'His own,' is neuter: He came to His own place, His own home. The second, 'His own did not receive Him,' is masculine and refers to His own people. The verb for 'received' there means to take alongside, to welcome, and it contrasts with the verb in verse 12, 'received,' which means to take hold of or accept. The first is rejection of a guest; the second is taking hold of a gift.\n\nIn verse 12 the 'right' is a word for authority or permission, and the verb 'gave' stresses gift. The children are 'born of God' in verse 13, so the first step is God's own act. John reserves 'children' for believers and 'Son' for Jesus in this prologue, which keeps their relationship distinct, and later Paul will speak of adoption, Galatians 4:5. A small group of ancient copies read verse 13 as 'He who was born' in the singular, but the plural is overwhelmingly supported.\n\nIn verse 15 John says of Jesus that 'He was before me,' and the Greek is a striking phrase that literally says 'first of me,' using a form we would expect to be 'earlier than,' so that it means 'before me' in rank and in time. It is a deliberate squeeze of the grammar to express what ordinary grammar cannot.\n\nVerse 16 speaks of 'grace upon grace.' The preposition translated 'upon' basically means 'in place of,' so it can be read as grace replacing grace, or grace after grace, new supply on top of the old as each is spent. Either way it means that there is no end to the supply.\n\nIn verse 17 the law 'was given,' a passive verb of giving, while grace and truth 'came.' This is the same verb as 'became' in verse 14. The law was handed over; grace and truth arrived as events, in a person. The contrast is not meant as an insult to the law, since the Gospel elsewhere says Moses wrote of Jesus, John 5:46, but as a statement of how far the arrival exceeds the gift.\n\nVerse 18 closes with a verb for 'has made known.' It is the root of 'exegesis': He has led out, interpreted, narrated. Luke uses the same verb in Luke 24:35 of the two who 'told' what happened on the road. The Son is the exegete of the Father. His position 'at the Father's side' is literally 'in the bosom of the Father,' the place of closest intimacy, and John uses the same expression of the disciple reclining 'at Jesus' side' in John 13:23. Finally, the manuscripts differ on the title in this verse. Some of the oldest read 'the only begotten God,' others 'the only Son.' Either way, it ends the prologue by calling the one who makes God known God Himself, and so it mirrors verse 1.",
     "typology": [
-      { "type": "The Word tabernacling among us, verse 14", "fulfillment": "The tent and temple where God's glory dwelt with Israel are fulfilled as God's glory dwells bodily in Jesus, Exodus 40:34-35 and John 2:21." },
-      { "type": "The law given through Moses", "fulfillment": "The grace and truth the law foreshadowed come in fullness through Jesus Christ, verse 17." },
-      { "type": "The unseen God of Sinai", "fulfillment": "The God no one has ever seen is made known in the Son who is at the Father's side, verse 18, Exodus 33:20." }
+      {
+        "type": "The tabernacle and the glory, Exodus 25:8 and 40:34",
+        "fulfillment": "The Lord told Israel to make a sanctuary 'so that I may dwell among them,' Exodus 25:8, and when it was finished 'the glory of the LORD filled the tabernacle,' Exodus 40:34. John says the Word 'made His dwelling among us,' using a verb that sounds like the Hebrew root of the 'dwelling' and means to pitch a tent. The glory that filled the tent now lives in a body: Jesus Himself calls His body the temple, John 2:21. The escalation is from a tent of cloth and gold to a person who can be seen and touched. Revelation 21:3 shows the final stage, where God's dwelling is with man. The tent was temporary and stood apart behind a veil, while the Word dwells in the midst of the people."
+      },
+      {
+        "type": "Moses at the rock, Exodus 33:18 to 23",
+        "fulfillment": "Moses asked to see God's glory and was shown only a passing glimpse from a cleft in the rock, since 'no one can see Me and live.' In verse 14 John says 'We have seen His glory,' and in verse 18 that the Son has made known the God whom no one has seen. What Moses could only glimpse from behind a rock, the disciples saw in a face. The type falls short in that Moses stood in the cleft hearing a name proclaimed, while Jesus is the glory itself, so that the one who has seen Him has seen the Father, John 14:9."
+      },
+      {
+        "type": "Creation's light, Genesis 1:3 to 5",
+        "fulfillment": "God spoke light into a world that was formless and dark, and the light was good. John's verse 5, 'The Light shines in the darkness,' begins a second creation with the same elements: word, light, darkness, life. In the Gospel Jesus says 'I am the light of the world,' John 8:12, and gives sight to a man born blind. The correspondence is that the Word that made the light is now the Light. The type reaches its fullness in Revelation 22:5, where there is no more night. It falls short in that the first light was a created thing and the second is the Creator among creatures."
+      },
+      {
+        "type": "Wisdom beside God, Proverbs 8:22 to 31",
+        "fulfillment": "Wisdom speaks as one who was with the LORD from the beginning, 'a skilled craftsman at His side,' Proverbs 8:30, delighting in the human race. John's Word is with God in the beginning and is the one through whom all things were made. Paul draws the same connection when he calls Christ 'the wisdom of God,' 1 Corinthians 1:24. The correspondence is real, but we need to be careful: the Proverbs passage is poetry that personifies Wisdom, while John says the Word is a person who becomes human. The type falls short because Wisdom is a figure of speech until Christ shows who she was pointing to."
+      }
     ],
-    "christ": "This passage is one of the clearest windows into who Christ is. He is the eternal Word, with God in the beginning and Himself God, the Creator of all things, not a made creature. In Him is life, and He is the light that darkness cannot quench. The Word became flesh, truly God and truly man, and in Him the disciples saw the glory of the one and only Son, full of grace and truth. He is greater than Moses, for the law came through Moses but grace and truth came through Him, and He is the only one who can make the invisible God known, because He alone is at the Father's side.",
-    "god": "God is revealed here as triune and as gracious. The Word was with God and was God, so God is not a solitary monad but eternal fellowship. This God creates all things, gives life and light, and, though no one has ever seen Him, draws near in His Son to make Himself known. He is full of grace and truth, and He gives to those who believe the astonishing gift of becoming His children, born not of human descent or will but of God Himself.",
+    "christ": "The prologue is a single claim about Christ stated four ways: He is eternal, He is the Creator, He is the revealer and He is the giver of life. Each claim goes beyond what a good teacher or prophet could say.\n\nHe is eternal. The imperfect 'was' puts Him already present when the beginning began. Jesus says as much in His prayer, 'Father, glorify Me in Your presence with the glory I had with You before the world existed,' John 17:5, and He speaks of the Father's love 'before the foundation of the world,' John 17:24. The One who is born in time is not a created being who came to be.\n\nHe is the Creator. 'Through Him all things were made, and without Him nothing was made that has been made.' Paul says the same, that all things were created through Him and for Him, Colossians 1:16, and Hebrews 1:2 says that through Him God made the universe. Nothing is outside His work, so no part of the world is a stranger to Him. When He later feeds a crowd, calms a storm and gives sight to the blind, He does so as the maker of these things.\n\nHe is the revealer. 'No one has ever seen God,' but the Son, who is at the Father's side, has made Him known. The invisible God, Paul says, has an image in the Son, Colossians 1:15. Jesus tells Philip, 'Anyone who has seen Me has seen the Father,' John 14:9. This is why the Gospel keeps asking its readers to look at Jesus: the one place where God's character is seen is Him. The glory is not hidden behind His humanity but shown in it, in grace and truth.\n\nHe is the giver of life and light. 'In Him was life, and that life was the light of men.' The two images tell of one gift. In the Gospel, Jesus says 'I am the light of the world,' John 8:12, and 'I have come into the world as a light, so that no one who believes in Me should remain in darkness,' John 12:46. This light does not merely illuminate but gives life, so that those who receive Him are born of God.\n\nTwo cautions. First, the prologue does not blur the Word and the Father. The Word is 'with God' and is 'God,' so the Gospel holds the distinction and the unity together without trying to resolve them. The church's later language of persons and one being was an attempt to protect exactly this. Second, we must not turn the passage into a puzzle for the intellect only. John writes it as the entrance to a story in which this Word will weep, thirst, be rejected, die and rise. The glory seen in verse 14 is the glory of the one who will be lifted up on the cross, John 12:23 and 32, and the climax of the Gospel is not an escape from flesh but its redemption.\n\nFinally, the prologue ends with the Son at the Father's side, in the place of closest intimacy, and that is where Christ remains. Those who receive Him are drawn into the same relation, as children of the Father whom the Son makes known.",
+    "god": "The God of the prologue is a God who speaks. He is not silent or hidden behind the world but is the one who has always had a Word, and the Word is with Him from before time. John does not describe a God who, at some point, decided to communicate. Communication belongs to His life: the Word is 'with God,' turned toward Him, and that mutual presence is what God is. This is the doorway into the Christian understanding of God as Father and Son, which John develops through the rest of the Gospel.\n\nHe is the Creator of everything, and He creates by His Word. The picture is the same as in Genesis, where God speaks and things are, and as in Psalm 33:6, 'By the word of the LORD the heavens were made.' It means that the world is neither an accident nor an emanation but the deliberate product of speech, and so it is good, and it can be spoken to. It also means that a world broken by darkness is still His.\n\nHe is a God who gives life and light, and the darkness has not overcome His light. The prologue does not say that darkness is imaginary. It says that darkness has met the Light and not won. God is not threatened by evil, and the history of Jesus will show Him gently, firmly stronger.\n\nHe is a God who comes. 'The Word became flesh and made His dwelling among us.' It is not a minor visit. The unseen God who told Moses 'You cannot see My face' now has a face. The unapproachable light of 1 Timothy 6:16 has taken a form that we can look at. This is the great surprise of the prologue: the God of Sinai, who was unreachable behind cloud and fire, chooses to be reached.\n\nHe is full of grace and truth. The phrase echoes what God said of Himself to Moses, 'abounding in loving devotion and faithfulness,' Exodus 34:6, and John says it is now seen in a person. It means that God's character has not changed from the Old Testament to the New: He is the same God, merciful and reliable. But it also means that the character is now displayed more fully, 'grace upon grace.'\n\nHe is a God who gives His children a new birth. The right to become children is not earned. They are born 'of God,' which echoes the language of the new birth in John 3:3, and the Father's act is entirely free. This is a God who adopts and not only a God who rules.\n\nHe is also a God who respects the freedom to refuse. 'He came to His own, and His own did not receive Him.' God does not force recognition. The Light shines, and men may close their eyes. This is the pain at the center of the prologue, and it is one that God Himself bears.\n\nFor worship, this means that praise starts from wonder. We do not praise a God who is distant but one who has come close without ceasing to be God. And it means a certain humility: the God we worship cannot be known apart from the Son who makes Him known, so that every real worship is worship through Him.",
     "crossReferences": [
-      { "ref": "Genesis 1:1-3", "note": "In the beginning God created and said, Let there be light; the prologue deliberately echoes creation, now accomplished through the Word." },
-      { "ref": "Colossians 1:15-17", "note": "The Son is the image of the invisible God, and all things were created through Him and for Him, paralleling John's Word." },
-      { "ref": "Hebrews 1:1-3", "note": "God has spoken in His Son, the radiance of His glory, through whom He made the universe, echoing the Word and the glory." },
-      { "ref": "1 John 1:1-3", "note": "The Word of life, which was from the beginning, that the apostles heard, saw, and touched, and now proclaim." }
+      {
+        "ref": "Genesis 1:1-5",
+        "note": "The prologue opens with the first words of the Bible, 'In the beginning,' and then follows the same sequence: God speaks, light shines in the darkness, and darkness does not prevail. John deliberately places the Word at the origin of Genesis, claiming that the Creator who spoke is the Word who became flesh."
+      },
+      {
+        "ref": "Proverbs 8:22-31",
+        "note": "Wisdom speaks of being with the LORD from the beginning, at His side as He made the heavens, and delighting in the children of men. The poem gave Jewish readers a way to speak of God's own wisdom as distinct and yet inseparable from Him. John takes that pattern and says the Word is a person."
+      },
+      {
+        "ref": "Psalm 33:6",
+        "note": "'By the word of the LORD the heavens were made, and all the stars by the breath of His mouth.' It states the Old Testament's view that creation comes by God's speaking, which is the background for John 1:3. The Word through whom all things were made is the one whom the psalm names as the instrument of creation."
+      },
+      {
+        "ref": "Exodus 33:18-23",
+        "note": "Moses asks to see the glory and is told that no one can see God's face and live. He is hidden in a rock while the glory passes. John 1:14 and 18 answer this: the disciples have seen glory, and the Son has made known the God whom no one has seen."
+      },
+      {
+        "ref": "Exodus 34:6",
+        "note": "The LORD describes Himself to Moses as compassionate and gracious, abounding in loving devotion and faithfulness. The phrase 'full of grace and truth' in John 1:14 and the contrast in verse 17 draw on this passage, and John's claim is that this very character of God has now been shown in a person."
+      },
+      {
+        "ref": "Exodus 40:34-35",
+        "note": "When the tabernacle was finished, the cloud covered the Tent of Meeting and the glory of the LORD filled it, so that Moses could not enter. The verse stands behind 'made His dwelling among us,' for it is the glory of the tent now made present in the Word made flesh."
+      },
+      {
+        "ref": "Colossians 1:15-17",
+        "note": "Paul says the Son is the image of the invisible God, firstborn over all creation, and that all things were created through Him and for Him and hold together in Him. It reads like a commentary on John 1:1 to 3 and 18, and shows that the church confessed this very same truth in its earliest decades."
+      },
+      {
+        "ref": "Hebrews 1:1-3",
+        "note": "God spoke long ago through the prophets, but in these last days by His Son, the radiance of His glory and exact representation of His nature. It shares John's pattern of speech from God to us, culminating in a person, and says the Son upholds all things by His powerful word."
+      },
+      {
+        "ref": "1 John 1:1-3",
+        "note": "John begins his letter with what was from the beginning, which we have heard, seen and touched, 'the Word of life.' It is the apostolic witness behind 'We have seen His glory,' and it confirms that the Word of John 1 is a person who could be handled, so that the incarnation is no metaphor."
+      },
+      {
+        "ref": "John 20:28-31",
+        "note": "The Gospel ends with Thomas's confession, 'My Lord and my God,' and the statement of purpose that these things are written so that you may believe that Jesus is the Christ, the Son of God. It closes the circle with the prologue's opening line, 'the Word was God,' and with 'children of God,' and shows what the prologue was for."
+      },
+      {
+        "ref": "Revelation 21:3",
+        "note": "'The dwelling place of God is with man, and He will dwell with them.' The verb for 'dwell' is the same family as John 1:14. The incarnation is the first stage of a dwelling that becomes complete in the new creation, where God Himself lives with His people."
+      }
     ],
-    "oneStory": "The prologue gathers the whole Bible into a single arc. The God who made all things by His word, who dwelt with Israel in a tent of glory, who gave the law through Moses and remained unseen, has now come in person. The eternal Word became flesh to bring life and light into the darkness, to make the Father known, and to gather a new family, God's children born of God. Everything after this in John, and in Scripture, unfolds what it means that the Word became flesh and dwelt among us.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "The prologue stands at the point where the Bible's story turns from promise to arrival. It reaches back before the story begins, to the beginning of Genesis, and says that creation was an act of the Word. Everything that follows in the Bible was spoken into a world that belongs to Him. When the world turned from God and the light was dimmed, as Genesis 3 describes, He did not abandon it. The darkness 'has not overcome' the Light.\n\nThe prologue also gathers up the long preparation of Israel. The tabernacle, where the glory dwelt among a people, the law given through Moses, the prophets' word, and the wisdom of Proverbs were all ways in which God made Himself known without being fully seen. John says that all of this was pointing to someone. The unseen God has now been made known by the Word, who 'became flesh,' and so the journey from Sinai to the temple to the exile and return is answered by a person.\n\nIt sets up the rest of the Gospel and the rest of the New Testament. A new family is formed of those who 'received Him,' born not of blood or of the will of man but of God. That is the church, and the whole of Acts and the letters unfold what it means to belong to it. The Light shines and divides: some receive, many do not, and that division runs through the story until the end.\n\nAnd it points to the end. The Word became flesh to dwell among us, and Revelation 21:3 says that God will dwell with His people. The story that began with creation by the Word ends with a new creation in which there is no more night and the glory of God is the light, Revelation 21:23. Those who now 'have seen His glory' in the Gospel will see Him face to face, and the God no one has seen will be seen. The prologue is the first verse of that final song, and every later page of the Bible is an unfolding of what it says in a sentence: God has spoken, and He is among us.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What does John claim about the Word in verse 1?",
       "options": [
-        { "text": "The Word was eternally with God and was Himself God.", "weight": 100, "note": "Verse 1 says the Word was in the beginning with God and was God, distinct yet fully divine." },
-        { "text": "The Word was the first and greatest being God created.", "weight": 25, "note": "A common misreading; verse 3 says all things were made through Him, so He is Creator, not a creature." },
-        { "text": "The Word was God's plan that later became a person.", "weight": 75, "note": "There is truth that the Word is God's self-expression, but John says the Word already was God and a person in the beginning, not merely a plan." },
-        { "text": "The Word was a holy man specially inspired by God.", "weight": 0, "note": "John says the Word was God and became flesh; He is not merely an inspired man." }
+        {
+          "text": "The Word was eternally with God and was Himself God.",
+          "weight": 100,
+          "note": "Verse 1 says the Word was in the beginning with God and was God, distinct yet fully divine."
+        },
+        {
+          "text": "The Word was the first and greatest being God created.",
+          "weight": 25,
+          "note": "A common misreading; verse 3 says all things were made through Him, so He is Creator, not a creature."
+        },
+        {
+          "text": "The Word was God's plan that later became a person.",
+          "weight": 75,
+          "note": "There is truth that the Word is God's self-expression, but John says the Word already was God and a person in the beginning, not merely a plan."
+        },
+        {
+          "text": "The Word was a holy man specially inspired by God.",
+          "weight": 0,
+          "note": "John says the Word was God and became flesh; He is not merely an inspired man."
+        }
       ]
     },
     {
       "q": "Why did John the Baptist come, according to verses 6 to 8?",
       "options": [
-        { "text": "As a witness to testify about the Light so that everyone might believe.", "weight": 100, "note": "Verses 7 and 8 state his role plainly: to point to the Light, not to be it." },
-        { "text": "To prepare people by preaching repentance in the wilderness.", "weight": 75, "note": "True of his wider ministry, but this passage names his role specifically as witness to the Light." },
-        { "text": "Because he himself was the Light coming into the world.", "weight": 0, "note": "Verse 8 expressly says he was not the Light." },
-        { "text": "To baptize as many people as possible before Jesus came.", "weight": 25, "note": "He did baptize, but the point here is his testimony to Christ, not baptism numbers." }
+        {
+          "text": "As a witness to testify about the Light so that everyone might believe.",
+          "weight": 100,
+          "note": "Verses 7 and 8 state his role plainly: to point to the Light, not to be it."
+        },
+        {
+          "text": "To prepare people by preaching repentance in the wilderness.",
+          "weight": 75,
+          "note": "True of his wider ministry, but this passage names his role specifically as witness to the Light."
+        },
+        {
+          "text": "Because he himself was the Light coming into the world.",
+          "weight": 0,
+          "note": "Verse 8 expressly says he was not the Light."
+        },
+        {
+          "text": "To baptize as many people as possible before Jesus came.",
+          "weight": 25,
+          "note": "He did baptize, but the point here is his testimony to Christ, not baptism numbers."
+        }
       ]
     },
     {
       "q": "According to verses 12 and 13, how does someone become a child of God?",
       "options": [
-        { "text": "By receiving Christ and believing in His name, being born of God.", "weight": 100, "note": "Verses 12 and 13 tie it to receiving and believing, and to new birth from God, not human effort." },
-        { "text": "By being born into the right family or nation.", "weight": 0, "note": "Verse 13 explicitly rules out blood and human descent." },
-        { "text": "By deciding firmly to live a better life.", "weight": 25, "note": "It is not human will that makes children of God; verse 13 says born not of the will of man." },
-        { "text": "By believing in His name and receiving Him.", "weight": 75, "note": "This is right as far as it goes, but it omits that the new birth is ultimately from God, verse 13." }
+        {
+          "text": "By receiving Christ and believing in His name, being born of God.",
+          "weight": 100,
+          "note": "Verses 12 and 13 tie it to receiving and believing, and to new birth from God, not human effort."
+        },
+        {
+          "text": "By being born into the right family or nation.",
+          "weight": 0,
+          "note": "Verse 13 explicitly rules out blood and human descent."
+        },
+        {
+          "text": "By deciding firmly to live a better life.",
+          "weight": 25,
+          "note": "It is not human will that makes children of God; verse 13 says born not of the will of man."
+        },
+        {
+          "text": "By believing in His name and receiving Him.",
+          "weight": 75,
+          "note": "This is right as far as it goes, but it omits that the new birth is ultimately from God, verse 13."
+        }
       ]
     },
     {
       "q": "What is the meaning of the Word became flesh in verse 14?",
       "options": [
-        { "text": "The eternal Son took on real human nature and dwelt among us, full of grace and truth.", "weight": 100, "note": "Verse 14 declares a true incarnation: God the Word became genuinely human and tabernacled with us." },
-        { "text": "God only appeared to be human while remaining purely spirit.", "weight": 0, "note": "That denies the incarnation; John insists the Word truly became flesh." },
-        { "text": "A good man was so filled with God that he seemed divine.", "weight": 25, "note": "Reverses the direction; it was the divine Word who became flesh, not a man who became divine." },
-        { "text": "God came near and revealed His glory in Jesus.", "weight": 75, "note": "True and beautiful, but it understates the specific claim that the Word actually became flesh." }
+        {
+          "text": "The eternal Son took on real human nature and dwelt among us, full of grace and truth.",
+          "weight": 100,
+          "note": "Verse 14 declares a true incarnation: God the Word became genuinely human and tabernacled with us."
+        },
+        {
+          "text": "God only appeared to be human while remaining purely spirit.",
+          "weight": 0,
+          "note": "That denies the incarnation; John insists the Word truly became flesh."
+        },
+        {
+          "text": "A good man was so filled with God that he seemed divine.",
+          "weight": 25,
+          "note": "Reverses the direction; it was the divine Word who became flesh, not a man who became divine."
+        },
+        {
+          "text": "God came near and revealed His glory in Jesus.",
+          "weight": 75,
+          "note": "True and beautiful, but it understates the specific claim that the Word actually became flesh."
+        }
       ]
     },
     {
       "q": "How does verse 18 say the unseen God is made known?",
       "options": [
-        { "text": "By the one and only Son, Himself God, who is at the Father's side.", "weight": 100, "note": "Verse 18 says the Son who is at the Father's side has made Him known." },
-        { "text": "Through the law given at Sinai through Moses.", "weight": 25, "note": "The law came through Moses, verse 17, but the fullest revelation of God is in the Son, not the law." },
-        { "text": "Through the witness of John the Baptist.", "weight": 0, "note": "John witnessed to the Light, but it is the Son, not John, who makes the Father known." },
-        { "text": "Through the grace and truth that came in Jesus Christ.", "weight": 75, "note": "Grace and truth in Christ do reveal God, but verse 18 specifically names the Son Himself as the one who makes God known." }
+        {
+          "text": "By the one and only Son, Himself God, who is at the Father's side.",
+          "weight": 100,
+          "note": "Verse 18 says the Son who is at the Father's side has made Him known."
+        },
+        {
+          "text": "Through the law given at Sinai through Moses.",
+          "weight": 25,
+          "note": "The law came through Moses, verse 17, but the fullest revelation of God is in the Son, not the law."
+        },
+        {
+          "text": "Through the witness of John the Baptist.",
+          "weight": 0,
+          "note": "John witnessed to the Light, but it is the Son, not John, who makes the Father known."
+        },
+        {
+          "text": "Through the grace and truth that came in Jesus Christ.",
+          "weight": 75,
+          "note": "Grace and truth in Christ do reveal God, but verse 18 specifically names the Son Himself as the one who makes God known."
+        }
       ]
     }
   ],
@@ -180,10 +446,25 @@
     "No one has ever seen God, but the Son has made Him known. When you want to know what God is really like, how often do you look first to Jesus?"
   ],
   "translationNotes": [
-    { "ref": "John 1:5", "note": "The word rendered overcome carries a double sense; the BSB footnote gives or comprehended. The darkness neither understood the Light nor could extinguish it, and both senses hold true across the Gospel." },
-    { "ref": "John 1:14", "note": "Made His dwelling translates a verb meaning to pitch a tent or tabernacle; the BSB footnote reads or and tabernacled among us. It recalls the tabernacle where God's glory dwelt with Israel, now dwelling in Jesus." },
-    { "ref": "John 1:14", "note": "One and only renders monogenes; the BSB footnote gives or the Only Begotten or the Unique One. It marks Jesus as the Son in a unique, unrepeatable relation to the Father." },
-    { "ref": "John 1:18", "note": "The BSB reads the one and only Son, who is Himself God; the footnote notes manuscript variation, only begotten God in some, only begotten Son in others. Either reading affirms the Son who alone reveals the Father." }
+    {
+      "ref": "John 1:5",
+      "note": "The word rendered overcome carries a double sense; the BSB footnote gives or comprehended. The darkness neither understood the Light nor could extinguish it, and both senses hold true across the Gospel."
+    },
+    {
+      "ref": "John 1:14",
+      "note": "Made His dwelling translates a verb meaning to pitch a tent or tabernacle; the BSB footnote reads or and tabernacled among us. It recalls the tabernacle where God's glory dwelt with Israel, now dwelling in Jesus."
+    },
+    {
+      "ref": "John 1:14",
+      "note": "One and only renders monogenes; the BSB footnote gives or the Only Begotten or the Unique One. It marks Jesus as the Son in a unique, unrepeatable relation to the Father."
+    },
+    {
+      "ref": "John 1:18",
+      "note": "The BSB reads the one and only Son, who is Himself God; the footnote notes manuscript variation, only begotten God in some, only begotten Son in others. Either reading affirms the Son who alone reveals the Father."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched this session from bible.helloao.org for John 1:1-18. Verse text assembled by concatenating content segments in order; footnote markers and line breaks skipped. Sermon left as none; no expositor sermon URL verified this session." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched this session from bible.helloao.org for John 1:1-18. Verse text assembled by concatenating content segments in order; footnote markers and line breaks skipped. Sermon left as none; no expositor sermon URL verified this session."
+  }
 }
