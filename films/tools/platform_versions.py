@@ -130,7 +130,7 @@ def ident(film, out_dir):
             img = Image.blend(Image.new("RGB", img.size, (0, 0, 0)), img, fade)
         img.save(fdir / f"{i:04d}.png")
     out = out_dir / "ident.mp4"
-    ff("-framerate", 30, "-i", fdir / "%04d.png", "-i", film / "audio" / "sfx" / "light-swell.mp3",
+    ff("-framerate", 30, "-i", fdir / "%04d.png", "-i", film / "audio" / "sfx" / CFG.get("ident_sfx", "light-swell.mp3"),
        "-filter_complex", f"[1:a]aformat=sample_rates=48000:channel_layouts=stereo,atrim=0:{IDENT},volume=0.5,"
        f"afade=out:st={IDENT - 1}:d=1,apad=whole_dur={IDENT}[a]",
        "-map", "0:v", "-map", "[a]", "-t", IDENT, "-c:v", "libx264", "-crf", "16", "-pix_fmt", "yuv420p",
@@ -316,7 +316,8 @@ def vertical(film):
             items.append((p, e["t"], tl["total"]))
     a, b = cta_window(tl, durs)
     cta = out_dir / "cta.png"
-    cta_png(cta, "follow", VW, VH, x=90, y=1180 - 40, scale=1.0)
+    # on the lower edge of the film frame, never on the caption band, which may hold a line then
+    cta_png(cta, "follow", VW, VH, x=60, y=PIC_Y + 608 - 150, scale=1.0)
     items.append((cta, a, b))
     pic = film / "edit" / "movement" / "picture.mp4"
     ins = ["-i", str(pic), "-i", str(film / "edit" / "movement" / "mix.wav"), "-i", str(out_dir / "top.png")]
