@@ -9,119 +9,18 @@ anywhere:
 """
 import sys
 from pathlib import Path
-from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageEnhance
+from PIL import Image, ImageDraw
 
 HERE = Path(__file__).resolve().parent
 FILM = HERE.parents[2]
 STILLS = FILM / "stills"
-FONT = HERE.parents[4] / "fonts" / "Fraunces[SOFT,WONK,opsz,wght].ttf"
-SANS = "/System/Library/Fonts/Avenir Next.ttc"
+sys.path.insert(0, str(HERE.parents[4] / "tools"))
+import thumbs  # noqa: E402
+from thumbs import C, G, GOLD, cover, grade, kicker, shade, text, u, vignette  # noqa: E402
 
-S = 3 if "--final" in sys.argv else 1  # layout units are 1280x720 px
-W, H = 1280 * S, 720 * S
-
-
-def u(n):
-    return round(n * S)
-CREAM = (246, 238, 220)
-GOLD = (232, 182, 78)
-
-
-def serif(size, weight=800):
-    f = ImageFont.truetype(str(FONT), u(size))
-    f.set_variation_by_axes([144, weight, 0, 0])
-    return f
-
-
-def sans(size, index=2):  # Avenir Next: 2 = Demi Bold
-    return ImageFont.truetype(SANS, u(size), index=index)
-
-
-def cover(path, box, focus=(0.5, 0.5), zoom=1.0):
-    """Scale an image to fill box (w, h), cropping around focus (0..1)."""
-    im = Image.open(path).convert("RGB")
-    bw, bh = box
-    r = max(bw / im.width, bh / im.height) * zoom
-    im = im.resize((round(im.width * r), round(im.height * r)), Image.LANCZOS)
-    x = min(max(round(im.width * focus[0] - bw / 2), 0), im.width - bw)
-    y = min(max(round(im.height * focus[1] - bh / 2), 0), im.height - bh)
-    return im.crop((x, y, x + bw, y + bh))
-
-
-def grade(im, contrast=1.12, color=1.08, bright=1.0):
-    im = ImageEnhance.Contrast(im).enhance(contrast)
-    im = ImageEnhance.Color(im).enhance(color)
-    return ImageEnhance.Brightness(im).enhance(bright)
-
-
-def shade(im, side="left", strength=0.85, reach=0.6):
-    """Darken one side with a smooth gradient so text reads."""
-    g = Image.new("L", (W, H), 0)
-    px = g.load()
-    for x in range(W):
-        t = x / W if side == "right" else 1 - x / W
-        if side == "bottom":
-            continue
-        a = max(0.0, (t - (1 - reach)) / reach)
-        v = round(255 * strength * a ** 1.1)
-        for y in range(H):
-            px[x, y] = v
-    if side == "bottom":
-        for y in range(H):
-            a = max(0.0, (y / H - (1 - reach)) / reach)
-            v = round(255 * strength * a ** 1.1)
-            for x in range(W):
-                px[x, y] = v
-    black = Image.new("RGB", (W, H), (8, 10, 8))
-    return Image.composite(black, im, g)
-
-
-def vignette(im, strength=0.45):
-    m = Image.new("L", (W, H), 0)
-    d = ImageDraw.Draw(m)
-    d.ellipse((-W * 0.25, -H * 0.3, W * 1.25, H * 1.3), fill=255)
-    m = m.filter(ImageFilter.GaussianBlur(u(160)))
-    dark = ImageEnhance.Brightness(im).enhance(1 - strength)
-    return Image.composite(im, dark, m)
-
-
-def text(im, xy, lines, size, anchor="la", spacing=0.95, shadow=14):
-    """lines: list of lines; each line is a list of (word, colour) runs."""
-    font = serif(size)
-    layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    sh = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    d, ds = ImageDraw.Draw(layer), ImageDraw.Draw(sh)
-    x0, y = u(xy[0]), u(xy[1])
-    for line in lines:
-        full = "".join(w for w, _ in line)
-        lw = d.textlength(full, font=font)
-        x = x0 - lw if anchor == "ra" else (x0 - lw / 2 if anchor == "ma" else x0)
-        for word, col in line:
-            ds.text((x + u(4), y + u(6)), word, font=font, fill=(0, 0, 0, 230))
-            d.text((x, y), word, font=font, fill=col)
-            x += d.textlength(word, font=font)
-        y += u(size) * spacing
-    sh = sh.filter(ImageFilter.GaussianBlur(u(shadow)))
-    im = im.convert("RGBA")
-    im.alpha_composite(sh)
-    im.alpha_composite(sh)
-    im.alpha_composite(layer)
-    return im.convert("RGB")
-
-
-def kicker(im, xy, label, anchor="la", colour=GOLD):
-    d = ImageDraw.Draw(im)
-    f = sans(30)
-    x, y = u(xy[0]), u(xy[1])
-    lw = d.textlength(label, font=f)
-    if anchor == "ra":
-        x -= lw
-    d.text((x + u(2), y + u(3)), label, font=f, fill=(0, 0, 0))
-    d.text((x, y), label, font=f, fill=colour)
-    return im
-
-
-C, G = CREAM, GOLD
+if "--final" in sys.argv:
+    thumbs.set_scale(3)
+W, H = thumbs.W, thumbs.H
 
 
 def concept_temple():
@@ -188,39 +87,11 @@ CONCEPTS = [
 ]
 
 
-def feed_mock(items, out):
-    """Phone-width YouTube home feed: 360 px thumb, title beside a channel dot."""
-    tw, th, pad = 360, 202, 18
-    rowh = th + 92
-    sheet = Image.new("RGB", (tw + pad * 2, pad + rowh * len(items)), (15, 15, 15))
-    d = ImageDraw.Draw(sheet)
-    tf, mf = sans(17, 2), sans(14, 0)
-    for i, (img, title) in enumerate(items):
-        y = pad + i * rowh
-        sheet.paste(img.resize((tw, th), Image.LANCZOS), (pad, y))
-        d.rounded_rectangle((pad + tw - 50, y + th - 26, pad + tw - 6, y + th - 6), 4, fill=(0, 0, 0))
-        d.text((pad + tw - 45, y + th - 25), "11:02", font=mf, fill="white")
-        d.ellipse((pad, y + th + 12, pad + 34, y + th + 46), fill=(40, 52, 44))
-        words, lines, cur = title.split(), [], ""
-        for w in words:
-            t = (cur + " " + w).strip()
-            if d.textlength(t, font=tf) > tw - 46:
-                lines.append(cur)
-                cur = w
-            else:
-                cur = t
-        lines.append(cur)
-        for j, ln in enumerate(lines[:2]):
-            d.text((pad + 46, y + th + 10 + j * 22), ln, font=tf, fill=(241, 241, 241))
-        d.text((pad + 46, y + th + 10 + min(len(lines), 2) * 22 + 2), "Makor · new", font=mf, fill=(170, 170, 170))
-    sheet.save(out, quality=90)
-
-
 FINAL = {"2-two-creations": "thumbnail-a", "5-dust": "thumbnail-b"}
 
 
 if __name__ == "__main__":
-    if S > 1:
+    if thumbs.S > 1:
         for name, fn, title in CONCEPTS:
             if name in FINAL:
                 out = HERE.parent / f"{FINAL[name]}.jpg"
@@ -237,5 +108,5 @@ if __name__ == "__main__":
         made.append((img, title))
         print(name, "|", title, f"({len(title)} chars)")
     old = Image.open(FILM / "exports/art/painted/thumbnail-a-preview.jpg").convert("RGB")
-    feed_mock([(old, "The Garden of Eden: Genesis 2 Read and Explained | Makor")] + made,
-              HERE / "feed-mock.jpg")
+    thumbs.feed_mock([(old, "The Garden of Eden: Genesis 2 Read and Explained | Makor")] + made,
+                     HERE / "feed-mock.jpg", "11:02")

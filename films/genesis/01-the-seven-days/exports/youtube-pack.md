@@ -2,7 +2,7 @@
 
 File: `exports/the-seven-days-youtube.mp4` (1920x1080, 30 fps, about 15:18, -14 LUFS).
 Captions: `exports/the-seven-days-youtube.srt` (every spoken line, timed to this file).
-Nothing here has been uploaded.
+Uploaded to YouTube (title and thumbnail A as below); see "Question thumbnails for the live video" for the test now planned.
 
 ## Title (YouTube Help: up to 100 characters, most important words first, branding at the end, accurate)
 
@@ -25,6 +25,37 @@ words people search for (seven days, creation, Genesis 1) and keep the brand las
 `exports/art/thumbnail-b.jpg` (the full world around the bay). 3840x2160, JPG, about
 1.3 MB, as YouTube recommends. Recommended: A for the first upload; it carries the film's
 one idea, light out of darkness.
+
+## Question thumbnails for the live video (7 October 2026)
+
+The video is already up with the label title and thumbnail above. Following
+`films/YOUTUBE-PLAYBOOK.md`, three question thumbnails were made to test on it, each
+asking something the film answers. They are painted (this film predates the photoreal
+cast), so they lean on light and contrast instead of a face. Made by
+`exports/art/concepts/make_concepts.py --final` (3840x2160, under 2 MB each).
+
+| File | Thumbnail | Paired title | Answered at |
+|---|---|---|---|
+| `exports/art/thumbnail-q-light.jpg` | LIGHT BEFORE THE SUN? (s026) | Light Before the Sun? Genesis 1 Explained, Day by Day | m111 and Day One |
+| `exports/art/thumbnail-q-sun.jpg` | THE SUN IS NOT A GOD (s010) | What Genesis 1 Said to the Gods of Egypt and Babylon | m007 to m010 |
+| `exports/art/thumbnail-q-how-long.jpg` | HOW LONG? (s057) | How Long Were the Seven Days? The Better Question in Genesis 1 | m089 to m092 |
+
+The film does not pick a length for the days; it sets out the views and turns to who
+God is. So the "how long" title promises "the better question", not an answer; never
+retitle it as "Were the Days 24 Hours?".
+
+### Steps in YouTube Studio
+
+1. Content, open The Seven Days, Details. Under Thumbnail choose **Test & Compare**
+   and upload the three `thumbnail-q-*` files (up to three; the current painted title
+   card can stay as one of them only if you want a baseline, in which case drop
+   `how-long`).
+2. Leave the title as it is while the thumbnail test runs, so only one thing changes.
+   If Studio offers title testing for this video, test the three paired titles instead.
+3. When YouTube picks a winner (by watch time share, up to two weeks), set the paired
+   title for that thumbnail and record the result here.
+4. Optional: open the description with the winning question in one line, above the
+   study link.
 
 ## Description
 
