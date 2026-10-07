@@ -36,6 +36,28 @@ trimming 15 v1 GUIDE lines the script estimates 15.1 minutes at that pace.
   ElevenLabs credits for about 900 words. GUIDE (Kokoro, free) to about 140 wpm.
 - **D5, style bible.** "Photoreal for every film except The Seven Days" becomes every film.
 
+## Changes on 8 October 2026
+
+**Cold open: the drop and the burst** (Luyanda's idea, shaped here). In darkness a single drop
+falls into black water and makes one point of light; "Let there be light"; the point bursts
+outward as pure light (no stars or galaxies: the stars come on Day Four, so the film makes no
+astronomical claim); a one second a shot montage runs in Genesis order through all of history to a
+city today; everything rewinds and collapses into a single point, which becomes a spark rising
+from a kiln fire in Egypt (match cut to the brick-maker). The drop returns on Day One just before
+the light breaks. The cold open is now 0:00 to 0:47; the film runs 15:05.
+
+**Music, chosen and placed** (`films/genesis/01-the-seven-days-v2/edit/score_mix.py`): Suno Theme 1
+under the burst and montage; River of Tears (Egypt, other stories); Dissemination (the light,
+peak on the break); Himalayan Moon (formless and void); The Road Less Travelled (forming); The
+Wonder of a Child (first sunrise); Overcome (the sea, peak on the breach); Forest Run (herds);
+Monuments (the image of God, peak on the man and the woman); Suno Theme 2 (rest, the family);
+Samudra (the Word, peak on the empty tomb); The Abode of Snow (all things new); Suno Theme 3
+(close). Sound design from Epidemic (drop, burst, rewind, low hits on chapter cards, whooshes)
+over v1's ambience library. Mix: -16.0 LUFS, 6.1 LU range, true peak -0.9 dBFS.
+
+**Storyboard** (`script/storyboard.py`, readable in `script/storyboard.md`): 152 shots; the
+sequence plan below is superseded where they differ.
+
 ## Sequence storyboard
 
 Times are targets. Music cue numbers refer to the cue sheet below. "Set piece" = no narration,

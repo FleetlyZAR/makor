@@ -18,12 +18,17 @@ from movement_script import Film  # noqa: E402
 
 CHAPTERS = [
     ("Cold open", [
-        ("PIC", "Black. A low sub drone fades up."),
+        ("PIC", "Black. Silence. A single drop of water falls into still black water: one ripple, and at its centre one tiny point of light."),
+        ("BEAT", 2, "The drop. Silence."),
         ("Q", "Let there be light,", "Genesis 1:3, flash-forward", "GOD"),
-        ("PIC", "Light tears across a black ocean from the horizon; spray lit gold; three cuts in four seconds. Low hit on the first frame of light."),
-        ("BEAT", 6, "Music surges with the light, then drops to a working pulse."),
-        ("PIC", "Egypt at night: brick pits by firelight, mud moulds slapped full, the brick-maker's mud-caked hands. He straightens and lifts his eyes to the sky. Music cuts out."),
-        ("BEAT", 4, "Wet clay, fire, distant work drums."),
+        ("PIC", "The point of light bursts outward: pure white-gold light floods out in every direction, filling everything. Light only, no stars, no galaxies (the stars come on Day Four)."),
+        ("BEAT", 4, "The burst: one frame of silence, then a deep boom and the score's first great swell."),
+        ("PIC", "Montage in Genesis order, about one second a shot, the score driving: the deep, the sky, land rising, forests, sea creatures, herds, the man and the woman far off in a garden, the flood, Abraham under the stars, the brick pits of Egypt, the tabernacle in the wilderness, Jerusalem at dawn, the garden tomb with its stone rolled away (no figures), the long road of the centuries, a city of today at night seen from far above."),
+        ("BEAT", 12, "Through all of history to today."),
+        ("PIC", "Everything rushes backward, faster and faster, and collapses into a single point of light. Silence. The point drifts and becomes a spark rising from a kiln fire in Egypt at night (match cut)."),
+        ("BEAT", 3, "Rewind into a single point; silence; the spark."),
+        ("PIC", "Egypt at night: brick pits by firelight, mud moulds slapped full, the brick-maker's mud-caked hands. He straightens and lifts his eyes to the sky."),
+        ("BEAT", 3, "Wet clay, fire, distant work drums."),
         ("Q", "Let Us make man in Our image,", "Genesis 1:26, flash-forward", "GOD"),
         ("PIC", "Hold on the brick-maker, chest up, firelight on his face; then black."),
         ("GUIDE", "Every nation told a story of how the world began. In Babylon's, people were made to carry the labour of the gods. Then a nation of slaves heard this one.", "study.context.historical, study.hermeneutics.authorIntent"),  # new in v2
@@ -43,7 +48,7 @@ CHAPTERS = [
         ("V", "1:1", "1:2"),
         ("PIC", "Wind moving across the water, spray lifting: the Spirit by effect only, never a figure or a bird."),
         ("BEAT", 4, "Wind passes across the water. Hold."),
-        ("PIC", "Stillness; then the horizon ignites and light floods across the water, black turning to gold; two and three second cuts, then one long wide. Day beside night; evening, then morning."),
+        ("PIC", "Stillness; a single drop falls into the black water (the sound of the opening); then the horizon ignites and light floods across the water, black turning to gold; two and three second cuts, then one long wide. Day beside night; evening, then morning."),
         ("V", "1:3", "1:3"),
         ("BEAT", 8, "Set piece: the light breaks. The score crests above where the voice sat."),
         ("V", "1:4", "1:5"),
