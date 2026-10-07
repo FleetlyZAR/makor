@@ -346,7 +346,10 @@ def art(film):
     out = film / "exports" / "art"
     out.mkdir(parents=True, exist_ok=True)
     W, H = 3840, 2160
-    for name, src in CFG["thumbnails"]:
+    custom = CFG.get("thumbnails_custom")
+    if custom:  # designed by hand (photoreal question thumbnails); keep them
+        print(f"art: thumbnails left as they are, made by {custom}")
+    for name, src in [] if custom else CFG["thumbnails"]:
         bg = Image.open(film / "stills" / "movement" / f"{src}.jpg").convert("RGB")
         r = max(W / bg.width, H / bg.height)
         bg = bg.resize((int(bg.width * r) + 1, int(bg.height * r) + 1), Image.LANCZOS).crop((0, 0, W, H)).convert("RGBA")

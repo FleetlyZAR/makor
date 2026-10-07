@@ -8,29 +8,57 @@ Drafted 6 October 2026 from the v1 cut. Shot timings stay the same when the Veo 
 so the chapter times and the call to action times below should hold; check them against the
 rebuilt file before upload.
 
-## Title (YouTube Help: up to 100 characters, most important words first, branding at the end, accurate)
+## Title (YouTube Help: up to 100 characters, most important words first, accurate)
 
-Recommended:
+Chosen 7 October 2026 (question led, after studying what clicks in this niche; see
+`exports/art/concepts/` for the five concepts tested):
+
+    Genesis 1 vs Genesis 2: Are There Two Creation Stories?
+
+Second title, paired with thumbnail B for YouTube's Test & Compare (titles can be
+tested alongside thumbnails where the channel has the feature):
+
+    Why Did God Make Adam from Dust? | Genesis 2 Explained
+
+Both are honest: the film answers each question. "Two creation stories" is answered at
+m006 ("Read as it stands, it is a close up of the sixth day, and Jesus quotes both
+chapters together"); "dust" is the whole Dust and breath chapter (Genesis 2:7). A
+neighbouring channel's "Genesis 1 vs. Genesis 2: Were There Two Creations of Humanity?"
+Short has 30K views, so the question has a proven audience.
+
+Why the change from "The Garden of Eden: Genesis 2 Read and Explained | Makor": labels
+describe, questions open a loop. In the channels studied, question titles with one
+concrete hook outperformed plain labels by 10 to 100 times. The brand is dropped from
+the title; YouTube shows the channel name under every video anyway, and the thumbnail
+and film carry Makor.
+
+Earlier label titles (kept for reference, not recommended):
 
     The Garden of Eden: Genesis 2 Read and Explained | Makor
-
-Alternatives:
-
     Formed from Dust: The Garden of Genesis 2 | Makor
-    Genesis 2:4 to 25, The Garden of Eden | Makor
-    Adam, Eve and the Garden: Genesis 2 Explained | Makor
-
-All are under 60 characters, so they show in full on most screens. They lead with the
-words people search for (Garden of Eden, Genesis 2, Adam and Eve) and keep the brand last.
-The film reads the whole passage and explains it, so "Read and Explained" is accurate.
 
 ## Thumbnail
 
-`exports/art/thumbnail-a.jpg` (the garden planted in the east, s023) or
-`exports/art/thumbnail-b.jpg` (the garden city, s088). 3840x2160, JPG, 1.0 and 1.5 MB, under
-YouTube's 2 MB limit. Recommended: A for the first upload; it says "garden" at a glance and
-matches the opening. B shows the ending (Eden restored) and is the stronger click, so use it
-as the second image if you run YouTube's thumbnail test.
+Photoreal, question led, made by `exports/art/concepts/make_concepts.py --final`
+(3840x2160 JPG, under YouTube's 2 MB limit; `film.json` sets `thumbnails_custom` so
+`platform_versions.py art` no longer overwrites them). The painted v1 thumbnails are
+kept in `exports/art/painted/`.
+
+- `exports/art/thumbnail-a.jpg` **TWO CREATIONS?** Split frame: the barren earth of
+  Genesis 1 (s004) beside Adam's face (cast/adam). Upload this as the main thumbnail.
+- `exports/art/thumbnail-b.jpg` **WHY DUST?** The first breath, the man lying in the
+  grass (s016), Genesis 2:7. Add as the second image in Test & Compare.
+
+The thumbnail words do not repeat the title; they add to it. Rules used (keep for every
+film): one face or figure, large; text never over a face; two to four words, Fraunces,
+key word in gold; bottom right corner left clear for YouTube's duration badge; judged
+at phone size (`concepts/feed-mock.jpg`) before choosing.
+
+### Test plan
+
+Run YouTube Studio's Test & Compare with A and B for its full period (up to two weeks;
+YouTube picks by watch time share, not clicks alone). Keep the winner, note the result
+here, and use it to choose the style for The Fall.
 
 ## Description
 
