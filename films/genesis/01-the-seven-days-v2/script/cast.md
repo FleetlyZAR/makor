@@ -17,3 +17,29 @@ Three candidates for Luyanda to choose from; the chosen one is saved as
 ### Shot 3: brick-maker casting portrait C (older)
 - Image prompt
 > Chest up portrait of a Hebrew slave labourer in ancient Egypt, about fifty five years old, a Semitic man of the ancient Levant: olive brown skin deeply lined by sun and work, short curly grey and black hair, a long grey and black beard, dark brown eyes, a wiry strong build, dried grey mud on his hands and forearms, a plain undyed rough linen cloth tied over one shoulder. Three quarter view, a weary, searching gaze just past the camera, quiet dignity. Behind him, softly out of focus, the mud brick pits of Egypt at dusk: rows of drying mud bricks and the orange glow of a kiln fire. Photorealistic cinematic film still, shot on 35mm film with a 50mm lens, natural skin texture, warm firelight on one side of his face and cool dusk light on the other, colour grade of deep ink teal shadows and warm muted gold highlights, calm and reverent, no text, no lettering, no watermark, not a painting, not a 3D render, not cartoon.
+
+## Chosen: B (Luyanda, 7 October 2026)
+
+`stills/cast/brickmaker.jpg` (from shot-02). The reference set below gives the animation a
+strong, consistent face from every angle and in every light the film needs. Every later shot
+of him sends `brickmaker.jpg` and `brickmaker-turnaround.jpg` as references.
+
+### Shot 4: brick-maker turnaround sheet
+- Refs: stills/cast/brickmaker.jpg
+- Image prompt
+> Character reference sheet of the man in the reference portrait: keep his face, skin tone, hair, grey in the beard and build exactly. Four views of the same man side by side on a plain warm grey background, evenly lit with soft neutral studio light: facing the camera, three quarter view, full side profile, and from behind. Framed from the head to the knees in every view, all at the same scale and height. He wears exactly what he wears in the reference portrait: a short sleeved knee length tunic of rough undyed linen, frayed, with a torn open neckline, tied at the waist with a cord, mud stains on it; dried grey mud on his hands and forearms; bare feet. Not a wrap, not a robe, not a dress. Photorealistic, shot on 35mm film, natural skin texture, sharp detail, no text, no labels, no lettering, no watermark, not a painting, not a 3D render, not cartoon.
+
+### Shot 5: brick-maker at work by firelight (cold open)
+- Refs: stills/cast/brickmaker.jpg
+- Image prompt
+> The man in the reference portrait, keep his face, skin tone, hair and beard exactly, at night in the mud brick pits of ancient Egypt, kneeling and pressing wet mud into a wooden brick mould with both hands, his forearms caked in grey mud, rows of fresh mud bricks drying beside him, the orange glow of a kiln fire behind him and other labourers far off as dark silhouettes. Medium shot from the side, framed from the head to the knees, his face in three quarter view lit by the fire. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition, full frame with no borders, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon.
+
+### Shot 6: brick-maker lifts his eyes (cold open, "Let Us make man in Our image")
+- Refs: stills/cast/brickmaker.jpg
+- Image prompt
+> The man in the reference portrait, keep his face, skin tone, hair and beard exactly, standing in the mud brick pits of ancient Egypt at night, mud on his hands, who has just straightened from his work and lifts his eyes to the night sky above him, his face turned up and lit warmly from below by a kiln fire, stars faint above, rows of drying bricks behind him. Medium shot from slightly below, framed from the chest up, his face in three quarter view looking up past the camera, a look of wonder and quiet hope. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition, full frame with no borders, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon.
+
+### Shot 7: brick-maker under Egypt's sun (the first sunrise)
+- Refs: stills/cast/brickmaker.jpg
+- Image prompt
+> The man in the reference portrait, keep his face, skin tone, hair and beard exactly, standing in the mud brick pits of ancient Egypt in harsh morning sun, raising one muddy hand to shade his eyes as he looks toward the rising sun over the Nile, sweat and dried mud on his skin, rows of drying bricks and distant kiln smoke behind him. Medium shot, framed from the chest up, his face in three quarter view, squinting into the light. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition, full frame with no borders, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon.
