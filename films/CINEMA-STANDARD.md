@@ -78,3 +78,33 @@ Distortions), not from one composer. Ten to fifteen cues per film is heavy for S
 Recommended: **Epidemic Sound for underscore and the sound effects library** (stems, cleared
 for YouTube, the hits and whooshes in point 5), and **Suno for the signature themes** (the
 promise theme and each film's colour) where a library cannot give us our own melody.
+
+## Animation rules (set by the pilot, 8 October 2026)
+
+From the first Veo Standard clips of The Seven Days v2 (the drop s002, the burst s003):
+
+1. **Veo 3.1 Standard for hero shots** (set pieces, the cold open, cast close ups); Fast for
+   teaching cover; Lite for calm landscapes. Our Gemini quota allows only about two Standard
+   clips a day, so hero shots are planned first and spread over days.
+2. **Every animation prompt carries the whole scene**, the motion, the shared photoreal motion
+   wording (`photoreal.MOTION`) and, for cast, the keep-the-face line. Motion alone drifts.
+3. **Describe light as rays, a flood or a wave, never a sphere, disc or orb**: the burst grew a
+   disc that read as the sun (Genesis gives the sun on Day Four), and had to be cut around.
+4. **Review every clip frame by frame before use** and record the usable range in the edit's trim
+   list (`edit/preview_cut.py`, CLIP_TRIMS); Veo's 8 s clips usually hold 2 to 4 good seconds.
+5. **Cut on sound**: hard cuts land on hits (the boom at the burst); slow motion stretches a
+   usable range to fill a shot (the burst: 2 s of clip across 4 s).
+6. **Montage shots under 1.2 s** move faster (a stronger push in) so they read as alive even as
+   stills; set pieces and cast shots get real motion.
+7. **No other animator is connected.** Runway, Kling, Luma or Sora would need a new account and a
+   connector; Gemini Omni Flash (`omni_clip.py`, 720p) is a cheaper fallback for non hero shots.
+8. **vidIQ (connected) animates without our Google limit**, text to video only in practice (its
+   start frame must be passed inline as base64, which is not workable from here). Use it for
+   shots with no cast: the Big Bang, the earth, clouds, aerials. Cost: Veo 3.1 Standard 640
+   credits and Fast 240 credits per 8 s clip at 1080p (plan: 2,000 a month). Fast held up well
+   for the earth zoom.
+9. **Name the geography** in any shot of the earth: Veo turned the earth to show North America;
+   ask for "Africa, Arabia and the Mediterranean facing the camera, the Tigris and Euphrates at
+   the centre" and still check every frame.
+10. **One continuous move per clip, cut across shots**: one 8 s clip can serve two or three
+   storyboard shots (the earth zoom covers s004 and s005), which halves the cost.

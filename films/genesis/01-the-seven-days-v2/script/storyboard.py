@@ -29,12 +29,16 @@ NOGOD = "No hands and no figure in the sky, in the light or in the wind."
 NOCHRIST = "No figures at all; never a figure meant to be Christ."
 DISTANT = "Any people are small and far off, faces not visible."
 BM = ("The man is the brick-maker in the reference images: keep his face, skin tone, curly dark hair with grey, "
-      "full beard with grey at the chin, build and his rough undyed knee length linen tunic exactly. Framed from the "
-      "chest up or wider, never an extreme close up of the face.")
+      "full beard with grey at the chin, build and his rough undyed knee length linen tunic exactly. He is a slave in "
+      "Egypt: worn, exhausted, grieving, never smiling. Framed from the chest up or wider, never an extreme close up "
+      "of the face.")
 MAN = ("The man is the man in the reference portrait: keep his face, skin tone, hair and beard exactly, but not the "
-       "cloth on his shoulder. He wears nothing: seen from the chest up, from behind or in profile, standing in grass "
-       "that rises to his chest, at medium or long distance. Never a close up. No other people.")
+       "cloth on his shoulder. He wears nothing; he is seen from the chest up, facing the camera, in profile or from "
+       "behind, or with tall grass covering him below the chest. Nothing below the chest is visible. No other people.")
 PAIR = PR.BEFORE_FIGS
+WOMAN = ("The woman is the woman in the reference portrait: keep her face, skin tone and long curly hair exactly, but "
+         "not the cloth on her shoulder. A head and shoulders portrait: her long thick hair falls forward over her bare "
+         "shoulders. No other people.")
 BANNED = ["deity", "god figure", "divine being", "halo", "glowing man", "angel", "temple", "idol"]
 EGYPT = "Ancient Egypt by the Nile: date palms, reeds, mud brick, no statues, no carvings of figures, no pyramids in close view."
 
@@ -53,35 +57,48 @@ SEG = {
         S("Extreme macro: a single drop of water falling in total darkness toward still black water, caught just above "
           "the surface, and at the centre of the surface one tiny point of warm white light.", "veo",
           motion="The drop falls and touches the water; one ring spreads; the point of light brightens.", w=1.2)],
-    1: [S("A single point of white-gold light bursting outward from the centre of black water in every direction, a "
-          "sphere of pure light expanding and filling the frame, spray and ripples lit gold. Light only: no stars, no "
-          "galaxies, no planets, no sun.", "veo", motion="The light expands outward and fills the frame.")],
-    2: [S("The dark primeval ocean under a low grey sky, the first dawn light breaking across the waves, no land."),
-        S("Waters parting: a vast clear sky opening between banks of mist above and a calm sea below."),
-        S("Dry land rising out of the sea, streaming water, wet rock and earth shining in early light."),
-        S("Forests and fruit trees spreading over green hills in morning light: date palms, figs, olives."),
-        S("A great whale breaching from a calm sea at dawn, spray catching gold light."),
-        S("Herds of aurochs and gazelle running across a wide grass plain, dust lit gold by the low sun."),
+    1: [S("One single continuous full frame image, no panels, no split, no border. The Big Bang: complete darkness all around, and at the very centre a single point of white-gold light "
+          "erupting outward in every direction at once, light and glowing star dust exploding toward the camera, "
+          "streams of luminous debris shooting past the lens on every side, the darkness torn open by light.", "veo",
+          motion="The light erupts from the point and rushes outward toward and past the camera, glowing dust streaming "
+          "past on all sides, the camera flying forward into the light.")],
+    # the zoom in: through the dust to the earth, down through the clouds, into the garden; then history to today
+    2: [S("Flying through glowing star dust and drifting light in darkness, a small blue and green world appearing far "
+          "ahead at the centre of the frame.", "veo", motion="The camera rushes forward through the dust toward the "
+          "world, the dust streaming past.", w=1.5),
+        S("The earth seen from space, blue seas and green land under white cloud, filling more of the frame as we "
+          "approach, darkness around it, no sun in the frame.", "veo", motion="The camera dives toward the earth.", w=1.5),
+        S("Plunging down through white clouds, a green river land opening below in morning light.", "veo",
+          motion="The camera dives down through the clouds toward the land.", w=1.5),
+        S("Aerial descent over date palms, fig and olive groves toward a winding river in a garden at first light. "
+          + PR.NEAR_EAST, "veo", motion="The camera descends toward the river and the trees.", w=1.5),
+        S("The man and the woman together in the garden at first light by the river, a close two shot framed from the "
+          "chest up, both facing the light, the dawn on their faces; her long hair falls over her chest; the bottom of the "
+          "frame is at their chests, nothing lower is in the picture.", refs=["adam", "eve"], flags="pair", w=0.6),
+        S("Fruit trees and a river in the garden in Eden, morning mist, birds over the water. " + PR.NEAR_EAST, w=0.6),
         S("The garden in Eden at first light: a clear river winding between groves of fruit trees and date palms, "
-          "meadows of tall grass, mist in the low sun. " + PR.NEAR_EAST),   # no people: the pair framing failed twice here
-        S("A great flood: dark water covering the land under heavy storm clouds, one wooden ark far off on the water."),
+          "meadows of tall grass, mist in the low sun. " + PR.NEAR_EAST, w=0.6),
+        S("A great flood: dark water covering the land under heavy storm clouds, one wooden ark far off on the water.",
+          w=0.6),
         S("An old man of the ancient Near East standing outside a goat hair tent in the desert at night, seen from "
-          "behind, looking up at a sky crowded with stars.", flags="people"),
-        S("", "reuse", src="stills/cast/shot-05.jpg"),
+          "behind, looking up at a sky crowded with stars.", flags="people", w=0.6),
+        S("", "reuse", src="stills/cast/shot-05.jpg", w=0.6),
         S("A large tent of dark woven curtains in a wilderness camp at dusk, the tabernacle of Israel, smoke rising "
-          "from an altar before it, many small tents around it, seen from a hill.", flags="distant"),
+          "from an altar before it, many small tents around it, seen from a hill.", flags="distant", w=0.6),
         S("Jerusalem in the age of the kings of Israel, about three thousand years ago, at dawn: a small walled hill "
           "city of pale limestone and flat roofed houses on terraces, thick ancient walls, seen from a hillside of olive "
-          "trees. No domes, no minarets, no towers, no modern buildings, no churches.", flags="distant"),
-        S("A rock cut tomb in a garden at first light, its round stone rolled away from the dark doorway.", flags="christ"),
+          "trees. No domes, no minarets, no towers, no modern buildings, no churches.", flags="distant", w=0.6),
+        S("A rock cut tomb in a garden at first light, its round stone rolled away from the dark doorway.", flags="christ",
+          w=0.6),
         S("An ancient paved road running across hills toward the horizon at sunset, worn stones, centuries old.",
-          flags="distant"),
-        S("A modern city at night seen from far above, rivers of light, streets glowing to the horizon.")],
-    3: [S("Streaks of light converging from every direction, above, below, left and right, into a single bright point "
-          "at the exact centre of a dark frame, a perfectly symmetrical rush inward.", "veo",
-          motion="Everything rushes inward and collapses into one point of light."),
+          flags="distant", w=0.6),
+        S("A modern city at night seen from far above, rivers of light, streets glowing to the horizon.", w=0.6)],
+    # the zoom out: back up from today to the single point, which becomes the spark in Egypt
+    3: [S("Rising fast from a modern city at night up through the clouds, the night side of the earth below, the earth "
+          "shrinking into darkness toward a single point of light.", "veo", motion="The camera pulls back and up at great "
+          "speed, the earth shrinking to a single bright point in black.", w=1.2),
         S("A single glowing spark rising from a kiln fire into the black night sky, a few embers around it.", "veo",
-          motion="The spark drifts upward and the fire comes into view below.")],
+          motion="The spark drifts upward and the fire comes into view below.", w=0.8)],
     4: [S("", "reuse", src="stills/cast/shot-05.jpg"),
         bm("His mud caked hands pressing wet clay into a wooden brick mould by firelight, rows of fresh bricks beside "
            "him; his face partly visible above, lit by the fire.", motion="He presses the clay and lifts the mould.")],
@@ -92,8 +109,8 @@ SEG = {
     6: [S("The Nile at blazing dawn, the sun disc rising over palms and reeds, the river shining. " + EGYPT),
         S("Brick kilns smoking beside the Nile, long rows of drying mud bricks, labourers small and far off. " + EGYPT,
           flags="distant"),
-        bm("Under the morning sun he carries a stack of mud bricks on his shoulder across the brick pits, sweat on his "
-           "skin. " + EGYPT, motion="He walks slowly across the frame."),
+        bm("Under the burning sun he staggers across the brick pits with a heavy stack of mud bricks on his shoulder, bent "
+           "under the weight, sweat and mud on his skin, an overseer's shadow falling across the ground. " + EGYPT, motion="He walks slowly across the frame."),
         S("A clay tablet pressed with cuneiform wedge script lying on a reed mat beside a small oil lamp, close."),
         S("The city of Babylon on the Euphrates at dusk seen from far off: mud brick walls, a stepped tower, smoke "
           "from many hearths.", flags="distant"),
@@ -181,23 +198,31 @@ SEG = {
     20: [S("Darkness over the land before dawn, the shapes of hills barely visible."),
          S("The faintest first light on the horizon over the land.", "veo", motion="The light grows very slowly."),
          S("Dawn coming slowly over a vast garden land of trees and grass by a river. " + PR.NEAR_EAST)],
-    21: [S("A vast garden land at first light; the man and the woman together far off, tiny in the frame, at the edge "
-           "of a meadow.", "veo", ["adam", "eve"], "pair", "Slow push in from far away.", w=1.3),
-         S("The man at first light, from behind, looking out over the new world.", refs=["adam"], flags="man"),
-         S("The man and the woman together looking out over the garden at sunrise.", "veo", ["adam", "eve"], "pair",
-           "The sun rises before them.", w=1.3),
+    21: [S("A vast garden land at first light; far off, the man and the woman stand side by side in reeds and grass "
+           "that rise to their chests, so only their heads and shoulders show above the green, the light growing around "
+           "them.", "veo", ["adam", "eve"], "pair", "Slow push in from far away.", w=1.2),
+         S("The man at first light in tall grass, seen from the chest up in three quarter view, his face lit by the "
+           "dawn, wonder in his eyes as he looks at the world.", "veo", ["adam"], "man", "He breathes and looks up.", w=1.2),
+         S("The woman at first light, a close portrait framed from the collarbones up, the bottom of the frame at her "
+           "collarbones, her long hair falling over her shoulders, her face lit by the dawn, calm and alive, looking out at "
+           "the world.", "veo", ["eve"], "woman", "She turns her head toward the light.",
+           w=1.2),
+         S("The man and the woman in the first light turning toward each other, a close two shot framed from the shoulders "
+           "up, faces in profile, gentle expressions, her long hair over her shoulders; the frame ends at their shoulders.",
+           "veo", ["adam", "eve"], "pair", "They turn toward each other.", w=1.3),
          S("Sunrise over the garden: river, groves and meadows in first gold light. " + PR.NEAR_EAST),
-         S("The woman from directly behind, her long hair over her back, above tall grass, the dawn before her.",
-           refs=["adam", "eve"], flags="pair"),
-         S("The two far off in the wide new world, the light growing around them.", refs=["adam", "eve"], flags="pair")],
+         S("The two standing together in tall grass that rises to their chests, seen from the front at medium distance, "
+           "looking out over the new world, the sun rising behind the camera on their faces.", refs=["adam", "eve"],
+           flags="pair", w=1.1)],
     22: [bm("Night by a small fire in the brick pits of Egypt; he sits with his forearms on his knees, his face lit by "
-            "the fire, eyes wet, quiet dignity, listening.", motion="Very slow push in."),
-         bm("He lifts his face toward the fire's light, as if hearing something for the first time.",
+            "the fire, eyes wet and heavy, face drawn with exhaustion and grief, listening.", motion="Very slow push in."),
+         bm("He lifts his weary, grief-worn face toward the fire's light, as if hearing something he hardly dares believe; no smile.",
             motion="He raises his eyes.")],
     23: [S("Fields of wild grain moving in the wind in golden light. " + PR.NEAR_EAST),
          S("Fruit trees heavy with fruit: figs, pomegranates, dates. " + PR.NEAR_EAST),
          S("Seed bearing plants and herbs close, dew on them."),
-         S("The man and the woman far off among fruit trees, tiny in the frame.", refs=["adam", "eve"], flags="pair"),
+         S("The man and the woman far off among fruit trees, tiny in the frame, standing in reeds and grass that rise to "
+           "their chests, so only their heads and shoulders show above the green.", refs=["adam", "eve"], flags="pair"),
          S("Deer and gazelle grazing in a green meadow."),
          S("A wide fertile valley with a river, groves and meadows. " + PR.NEAR_EAST),
          S("Ripe figs on a branch, close."),
@@ -252,6 +277,8 @@ def prompt_for(sh):
     f = sh["flags"]
     if f == "pair":
         who = PAIR + " " + PR.NEAR_EAST
+    elif f == "woman":
+        who = WOMAN + " " + PR.NEAR_EAST
     elif f == "man":
         who = MAN + " " + PR.NEAR_EAST
     elif f in ("bm", "family"):
@@ -302,7 +329,10 @@ def main():
         rec = dict(sh)
         if sh["kind"] in ("veo", "still"):
             p, refs = prompt_for(sh)
-            rec.update(prompt=p, refs=refs)
+            keep = PR.KEEP if sh["flags"] in ("bm", "family", "pair", "man", "woman") else ""
+            mp = f"{sh['scene']} {sh['motion']}{keep} {PR.MOTION}"
+            assert not any(w in mp.lower() for w in BANNED), sh["id"]
+            rec.update(prompt=p, refs=refs, motion=mp)
             md.append(f"### Shot {k}: {sh['id']} {sh['chapter']} ({sh['dur']:.1f} s, {sh['kind']})")
             if refs:
                 md.append("- Refs: " + ", ".join(refs))

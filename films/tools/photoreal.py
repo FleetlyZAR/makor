@@ -29,9 +29,12 @@ _CAST = ("The man and the woman are the man and the woman in the reference portr
 _FRAME = "Never a close up. No other people."
 
 # What the man and the woman wear, by stage of Genesis 2 and 3.
-BEFORE_FIGS = (_CAST + "Before they ate, they wear nothing: seen at medium or long distance, from behind or in profile, "
-               "with bare shoulders, tall grass, leaves or the landscape covering the man below the chest and the woman "
-               "below the shoulders. " + _FRAME)
+BEFORE_FIGS = (_CAST + "Before they ate, they wear nothing; modesty is kept by framing and natural cover (rule changed "
+               "8 October 2026): they may face the camera, be seen in profile or from behind, at medium distance; the "
+               "man is seen from the chest up or with tall grass, water or foliage covering him below the chest; the "
+               "woman is seen from the shoulders up with her long thick hair falling over her chest, or with tall grass, "
+               "water or foliage covering her below the shoulders; nothing below the chest is ever visible. "
+               + _FRAME)
 FIG_LEAVES = (_CAST + "Now they wear simple coverings of broad fig leaves sewn together (Genesis 3:7), and the woman's "
               "long hair falls over her shoulders; seen at medium or long distance, from behind or in profile, framed "
               "from the chest up for the man and the shoulders up for the woman, or with plants covering them. "

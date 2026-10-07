@@ -24,12 +24,14 @@ both looks.
   never the long haired screen look that reads as Christ.
 - People may be seen at medium distance and their faces may be seen. No extreme close up of a
   face; the frame stays at chest up or wider.
-- Before the Fall (Genesis 2:25) the man and the woman wear nothing. The man may be seen from
-  the chest up, from behind or in profile. The woman, and the two together, are seen only from
-  directly behind: heads and the tops of the shoulders above grass or reeds at shoulder height,
-  her long hair over her back, faces only in profile as they turn to each other. Never facing
-  the camera, never her in profile (7 October: s021, s026 of The Fall and s064, s069 of The
-  Garden broke this and were rerolled). Check every such frame at full size, not on the sheet. Never nudity below the chest. Describe the framing, never
+- Before the Fall (Genesis 2:25) the man and the woman wear nothing. **Changed 8 October 2026
+  (Luyanda): they may now be shown as people**: faces, facing the camera, in profile, from
+  behind, at medium distance, together or apart. Modesty is kept by framing and natural cover,
+  never by clothing: the man from the chest up or covered by grass, water or foliage; the woman
+  from the shoulders up with her long hair over her chest, or covered by grass, water or foliage;
+  bare backs from behind are fine. Never nudity below the chest, never a body shown below the
+  waist, never sensual. Check every such frame at full size, not on the sheet. Describe the
+  framing, never
   write "no clothing" (the image model's safety filter refuses it). After 3:21, untailored
   animal hide tied with a leather strip; no woven cloth before then.
 - Plants and animals of the ancient Near East only (date palms, figs, pomegranates, olives,

@@ -23,21 +23,23 @@ OUT = FILM / "edit/score"
 T = json.loads((FILM / "script/movement-timeline.json").read_text())
 TOTAL = T["total"]
 
-# (track, start, end, crest or None, volume, fade in, fade out)
+# (track, start, end, crest or None, volume, fade in, fade out[, seek seconds into the track])
+# Consecutive cues overlap and crossfade; a track never runs out before its scene (checked below).
 CUES = [
     ("theme-light", 4.4, 20.6, 15.0, 0.9, 0.05, 0.4),      # the burst and the run through history; cut at the rewind
-    ("river-of-tears", 23.4, 100.2, None, 0.55, 3.0, 2.0),  # Egypt and the other stories; hard cut to black at 100.2
-    ("dissemination", 101.2, 156.4, 129.5, 0.6, 2.0, 3.0),  # In the beginning: crest on the light
-    ("himalayan-moon", 156.4, 218.1, None, 0.45, 2.0, 3.0), # formless and void, teaching
-    ("road-less", 218.1, 304.8, 301.8, 0.6, 2.0, 0.6),      # forming montage, stops dead on the empty world
-    ("wonder-of-a-child", 319.7, 396.5, None, 0.6, 1.0, 3.0),  # the first sunrise
-    ("overcome", 396.5, 463.1, 439.9, 0.6, 2.0, 2.0),       # the sea teems, crest on the breach
-    ("forest-run", 463.1, 496.6, None, 0.65, 1.5, 1.0),     # herds; cut to nothing for "Then the pattern breaks"
-    ("monuments", 503.0, 659.1, 531.6, 0.7, 4.0, 4.0),      # Let Us make man: crest on the man and the woman
-    ("theme-image", 690.2, 737.8, None, 0.4, 3.0, 3.0),     # rest, the family at evening
-    ("samudra", 737.8, 822.5, 790.0, 0.6, 3.0, 3.0),        # In the beginning was the Word: crest on the empty tomb
-    ("abode-of-snow", 822.5, 872.8, 867.8, 0.6, 2.0, 3.0),  # all things new
-    ("theme-word", 872.8, TOTAL, 893.0, 0.55, 2.0, 4.0),    # light in a dark place, the light theme returns
+    ("river-of-tears", 23.4, 88.4, None, 0.55, 3.0, 4.0, 37.0),  # Egypt and the other stories; fades before its second break
+    ("dissemination", 100.8, 153.0, 129.5, 0.6, 1.5, 4.0),  # In the beginning: crest on the light
+    ("himalayan-moon", 150.0, 218.6, None, 0.45, 4.0, 3.0), # formless and void, teaching (crossfades in)
+    ("road-less", 216.0, 304.8, 301.8, 0.6, 3.0, 0.6),      # forming montage, stops dead on the empty world
+    ("wonder-of-a-child", 319.7, 397.5, None, 0.6, 1.0, 3.0),  # the first sunrise
+    ("overcome", 395.0, 463.6, 439.9, 0.6, 3.0, 1.5),       # the sea teems, crest on the breach
+    ("forest-run", 462.6, 496.6, None, 0.65, 1.0, 1.0),     # herds; cut to nothing for "Then the pattern breaks"
+    ("monuments", 503.0, 568.0, 531.6, 0.7, 4.0, 5.0),      # Let Us make man: crest on the man and the woman
+    ("theme-image", 562.0, 662.0, None, 0.5, 5.0, 4.0),     # the human theme: the brick-maker, the fields, very good
+    ("himalayan-moon", 668.0, 739.0, None, 0.3, 6.0, 3.0, 120.0),  # rest: a low pulse under the finished world
+    ("samudra", 736.5, 818.5, 790.0, 0.6, 3.0, 4.0),        # In the beginning was the Word: crest on the empty tomb
+    ("abode-of-snow", 815.0, 873.5, 867.8, 0.6, 4.0, 3.0),  # all things new
+    ("theme-word", 871.5, TOTAL, 893.0, 0.55, 2.5, 4.0),    # light in a dark place, the light theme returns
 ]
 
 # designed hits, never ducked: (file, time, volume)
@@ -51,11 +53,11 @@ HITS = [
 
 # ambience beds from v1's library, ducked lightly: (file under v1 audio/sfx, start, end, volume)
 BEDS = [
-    ("movement/nile-kilns.mp3", 23.4, 100.2, 0.3), ("wind-deep-water.mp3", 101.2, 129.0, 0.35),
+    ("movement/nile-kilns.mp3", 23.4, 100.2, 0.45), ("wind-deep-water.mp3", 86.0, 100.2, 0.35), ("wind-deep-water.mp3", 101.2, 129.0, 0.35),
     ("movement/waters-parting.mp3", 218.1, 260.0, 0.3), ("movement/land-rising.mp3", 260.0, 304.8, 0.3),
-    ("movement/meadow-birds.mp3", 319.7, 396.5, 0.2), ("movement/whales.mp3", 396.5, 463.1, 0.3),
+    ("movement/grass-wind.mp3", 304.0, 319.7, 0.35), ("movement/meadow-birds.mp3", 319.7, 396.5, 0.2), ("movement/whales.mp3", 396.5, 463.1, 0.3),
     ("movement/seabirds.mp3", 425.0, 463.1, 0.25), ("movement/herds.mp3", 463.1, 496.6, 0.35),
-    ("movement/garden-dawn.mp3", 503.0, 560.0, 0.2), ("movement/golden-stillness.mp3", 659.1, 737.8, 0.3),
+    ("movement/garden-dawn.mp3", 495.0, 560.0, 0.6), ("movement/golden-stillness.mp3", 655.0, 740.0, 0.7),
     ("movement/single-flame.mp3", 737.8, 770.0, 0.25), ("movement/new-creation.mp3", 822.5, 872.8, 0.3),
     ("room-tone-calm-sea.mp3", 872.8, TOTAL, 0.25),
 ]
@@ -75,6 +77,11 @@ def peak_time(path, win=6.0):
     return (int(np.argmax(e)) + sr * win / 2) / sr
 
 
+def dur(path):
+    return float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(path)],
+                                capture_output=True, text=True).stdout)
+
+
 def lufs(path):
     r = subprocess.run(["ffmpeg", "-nostats", "-i", str(path), "-af", "ebur128=peak=true", "-f", "null", "-"],
                        capture_output=True, text=True).stderr
@@ -88,11 +95,15 @@ def main():
     ins, fc, mus, beds, hits = ["-i", str(FILM / "audio/movement/voice-track.wav")], [], [], [], []
     n = 1
     st = "aformat=sample_rates=48000:channel_layouts=stereo"
-    for name, a, b, crest, vol, fi, fo in CUES:
+    for cue in CUES:
+        name, a, b, crest, vol, fi, fo = cue[:7]
         src = MUSIC / f"{name}.wav"
-        shift = (peak_time(src) - (crest - a)) if crest else 0.0
+        shift = (peak_time(src) - (crest - a)) if crest else (cue[7] if len(cue) > 7 else 0.0)
         ss, start = (shift, a) if shift >= 0 else (0.0, a - shift)
         L = b - start
+        left = dur(src) - ss
+        if left < L - 0.5:
+            print(f"WARNING {name}: track runs out {L - left:.1f} s before its cue ends at {b:.1f}")
         ins += ["-ss", f"{ss:.2f}", "-i", str(src)]
         fc.append(f"[{n}:a]{st},atrim=0:{L:.2f},afade=in:d={fi},afade=out:st={max(0, L - fo):.2f}:d={fo},"
                   f"volume={vol},adelay={int(start * 1000)}:all=1[m{n}]")
@@ -118,7 +129,7 @@ def main():
     for i, (r, t) in enumerate([(2, 0.03), (4, 0.03), (12, 0.02), (2, 0.03)]):
         fc.append(f"[b{i}][k{i}]sidechaincompress=threshold={t}:ratio={r}:attack=25:release=500[d{i}]")
     fc.append("[d0][d1][d2][d3]amix=inputs=4:normalize=0[musd]")
-    fc.append("[beds][k4]sidechaincompress=threshold=0.02:ratio=4:attack=30:release=500[bedsd]")
+    fc.append("[beds][k4]sidechaincompress=threshold=0.04:ratio=2:attack=30:release=600[bedsd]")
     fc.append("[musd][bedsd][hits]amix=inputs=3:normalize=0,asplit[score][score2]")
     fc.append(f"[v][score]amix=inputs=2:normalize=0,atrim=0:{TOTAL:.2f}[mix]")
     raw, music = OUT / "mix-raw.wav", OUT / "music.wav"
