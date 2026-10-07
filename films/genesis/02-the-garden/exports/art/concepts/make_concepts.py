@@ -34,13 +34,13 @@ def concept_temple():
 def concept_two_creations():
     # Split: Genesis 1 wide world vs Genesis 2 the one man, face to camera.
     left = grade(cover(STILLS / "movement/s004.jpg", (W // 2, H), focus=(0.5, 0.5), zoom=1.12), bright=0.8)
-    right = grade(cover(STILLS / "cast/adam.jpg", (W // 2, H), focus=(0.5, 0.40), zoom=1.0))
+    right = grade(cover(STILLS / "cast/adam.jpg", (W // 2, H), focus=(0.5, 0.42), zoom=1.06))
     im = Image.new("RGB", (W, H))
     im.paste(left, (0, 0))
     im.paste(right, (W // 2, 0))
     d = ImageDraw.Draw(im)
     d.rectangle((W // 2 - u(3), 0, W // 2 + u(3), H), fill=GOLD)
-    im = shade(im, "bottom", 0.85, 0.55)
+    im = shade(shade(im, "bottom", 0.85, 0.55), "bottom", 0.9, 0.22)  # second pass sinks the shoulder cloth
     im = kicker(im, (40, 36), "GENESIS 1", colour=C)
     im = kicker(im, (1280 - 40, 36), "GENESIS 2", anchor="ra", colour=C)
     return text(im, (640 - 30, 500), [[("TWO", G), (" CREATIONS?", C)]], 112, anchor="ma")
@@ -57,7 +57,7 @@ def concept_not_good():
 def concept_helper():
     # Face to face: kenegdo, "one who stands face to face with him, his match".
     adam = grade(cover(STILLS / "cast/adam.jpg", (W // 2, H), focus=(0.5, 0.42), zoom=1.0))
-    eve = grade(cover(STILLS / "cast/eve-b.jpg", (W // 2, H), focus=(0.5, 0.42), zoom=1.0))
+    eve = grade(cover(STILLS / "cast/eve.jpg", (W // 2, H), focus=(0.5, 0.42), zoom=1.0))
     im = Image.new("RGB", (W, H))
     im.paste(adam, (0, 0))
     im.paste(eve, (W // 2, 0))

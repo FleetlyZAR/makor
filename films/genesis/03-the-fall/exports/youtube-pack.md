@@ -34,6 +34,27 @@ each, under YouTube's 2 MB limit; 1280x720 previews beside them. Six candidates 
 in the feed and the film's ending image; B as the second image in YouTube's thumbnail test, since
 it says "Genesis 3" at a glance.
 
+## Question thumbnails and titles (7 October 2026, for decision)
+
+Made after the approvals above, following `films/YOUTUBE-PLAYBOOK.md` (question titles and
+photoreal faces beat labels in this niche). Recommended: upload with the question set and
+keep the approved label title and painted thumbnails as the fallback. Each question is one
+the film answers. Made by `exports/art/concepts/make_concepts.py --final` (3840x2160, under
+2 MB each, 1280x720 previews beside them); phone check in `concepts/feed-mock.jpg`.
+
+| File | Thumbnail | Paired title | Answered at |
+|---|---|---|---|
+| `exports/art/thumbnail-q-really-say.jpg` | DID GOD REALLY SAY? (Eve, the fruit in shadow) | Did God Really Say? How the Serpent Twisted God's Word | m006 to m008 |
+| `exports/art/thumbnail-q-where.jpg` | WHERE ARE YOU? (the pair hiding among the trees, s035) | Why Did God Ask Adam "Where Are You?" \| Genesis 3 Explained | m020 to m022 |
+| `exports/art/thumbnail-q-jesus.jpg` | JESUS IN GENESIS 3? (the open garden tomb, s093) | The First Promise of Jesus Is in Genesis 3 | m064 to m071 |
+
+Suggested: upload with **Did God Really Say?** (the film's first chapter title and the
+strongest face) and run Test & Compare with all three thumbnails. When YouTube picks a
+winner, switch to its paired title.
+
+If the cold open is reworked like The Garden's (playbook, Openings), it should ask the
+serpent's question in its first line.
+
 ## Description
 
     Study The Fall: https://www.makor.co.za/genesis/the-fall/
