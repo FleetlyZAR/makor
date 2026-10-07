@@ -42,7 +42,7 @@ def lines():
     mv = FILM / "audio" / "movement"
     sh = FILM / "audio" / "short"
     lt = {x["id"]: x for x in json.loads((FILM / "script" / "movement-lines.json").read_text())}
-    guide = {   # draft for C4; rendered by edit/short_guide.py
+    guide = {   # as approved 7 October 2026; rendered by edit/short_guide.py
         "g1": "If the world began so good, why is it like this? Genesis three answers.",
         "g2": "The serpent contradicts God word for word. The root of sin is not ignorance, but distrust.",
         "g3": "God comes looking for the guilty. And before He sentences the man and the woman, He makes a promise.",

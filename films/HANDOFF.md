@@ -40,7 +40,7 @@ Read this first in any new session working on Makor films.
   - M5: scheduled task `makor-fall-veo-daily` (about 09:46 daily, after The Garden's task; 19 clips,
     9 Fast and 10 Lite; stops at 25 USD for checkpoint C3).
   - M7 built from keyframes (7 October): v1 (11:30), YouTube (11:54) and vertical versions,
-    artwork (A s079, B s004), short (59.5 s), packs. Waiting at C4. Rebuild all after the clips
+    artwork (A s079, B s004), short (59.5 s), packs. C4 passed: short script and thumbnails approved. Rebuild all after the clips
     (see the film's PRODUCTION-PLAN.md). Spend 10.82 USD.
   - Working pattern: run every step without stopping, paid steps included, except checkpoints
     C1 (script), C2 (keyframe sheets), C3 (each 25 USD), C4 (finished versions and packs).

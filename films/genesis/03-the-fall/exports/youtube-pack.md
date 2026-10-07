@@ -30,7 +30,7 @@ accurate.
 `exports/art/thumbnail-b.jpg` (the small snake in the grass, s004). 3840x2160 JPG, about 1 MB
 each, under YouTube's 2 MB limit; 1280x720 previews beside them. Six candidates were made
 (`exports/art/candidate-1.jpg` to `-6.jpg`) and checked at phone size
-(`edit/review-thumbnails.jpg`). Recommended: A for the first upload, the most distinctive shape
+(`edit/review-thumbnails.jpg`). Approved by Luyanda (7 October 2026): A for the first upload, the most distinctive shape
 in the feed and the film's ending image; B as the second image in YouTube's thumbnail test, since
 it says "Genesis 3" at a glance.
 
