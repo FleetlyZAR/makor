@@ -1,10 +1,10 @@
 # Makor films: style bible
 
-**Photoreal for every film except The Seven Days (7 October 2026).** Luyanda approved the photoreal
+**Photoreal for every film (7 October 2026; The Seven Days is being rebuilt photoreal as v2, decision D5).** Luyanda approved the photoreal
 treatment after the test in `films/tests/` (Adam portrait B, the animated sample of "To
 cultivate and keep"). Shared prompt wording: `films/tools/photoreal.py`. The section "Photoreal" below replaces "The look", "People", the style
 suffix and the motion suffix for every film from The Garden on. The painted rules that follow
-it stay for reference and for The Seven Days, which keeps its painted look. Everything under
+it stay for reference and for the painted v1 of The Seven Days. Everything under
 "What is never shown", "Christ", "History and the nations" and "Banned prompt words" holds for
 both looks.
 
@@ -24,9 +24,12 @@ both looks.
   never the long haired screen look that reads as Christ.
 - People may be seen at medium distance and their faces may be seen. No extreme close up of a
   face; the frame stays at chest up or wider.
-- Before the Fall (Genesis 2:25) the man and the woman wear nothing: frame them from the
-  chest up (the woman from the shoulders up), from behind or in profile, with grass, plants
-  or landscape covering the rest. Never nudity below the chest. Describe the framing, never
+- Before the Fall (Genesis 2:25) the man and the woman wear nothing. The man may be seen from
+  the chest up, from behind or in profile. The woman, and the two together, are seen only from
+  directly behind: heads and the tops of the shoulders above grass or reeds at shoulder height,
+  her long hair over her back, faces only in profile as they turn to each other. Never facing
+  the camera, never her in profile (7 October: s021, s026 of The Fall and s064, s069 of The
+  Garden broke this and were rerolled). Check every such frame at full size, not on the sheet. Never nudity below the chest. Describe the framing, never
   write "no clothing" (the image model's safety filter refuses it). After 3:21, untailored
   animal hide tied with a leather strip; no woven cloth before then.
 - Plants and animals of the ancient Near East only (date palms, figs, pomegranates, olives,
@@ -125,6 +128,10 @@ or neon blues. Whites are warm (a pale gold cream), never pure white.
 - Context about Egypt, Babylon and other nations is shown through objects and
   landscapes only: rivers, brick kilns, clay tablets, seas, cities at a
   distance. Never images or statues of their gods.
+- Israel in Egypt is Scripture's own scene (Exodus 1:13 to 14) and may be shown with people:
+  the Hebrew brick-maker of The Seven Days v2 and his family (decision D1, 7 October 2026),
+  cast once like Adam and Eve. Egyptians as people only at a distance; never their gods,
+  temples or statues; no violence on screen.
 
 ## Banned prompt words
 

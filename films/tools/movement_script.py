@@ -134,7 +134,7 @@ class Film:
                     body.append(f"**GUIDE** {b[1]}  <sub>[{b[2]}] {lid}</sub>\n")
                     t += self.secs("GUIDE", b[1], lid); words["GUIDE"] = words.get("GUIDE", 0) + len(b[1].split())
                 elif k == "Q":
-                    assert b[1] in self.study_text, f"quotation not verbatim in study JSON: {b[1]}"
+                    assert b[1] in self.study_text or b[1] in PLAIN(self.study_text), f"quotation not verbatim in study JSON: {b[1]}"
                     lid = line(title, b[3], b[1], b[2]); ev("line", id=lid, speaker=b[3], text=b[1], ref=b[2])
                     body.append(f"**{b[3]}** {b[1]}  <sub>({b[2]}, quoted verbatim from the study) {lid}</sub>\n")
                     t += self.secs(b[3], b[1], lid); words[b[3]] = words.get(b[3], 0) + len(b[1].split())

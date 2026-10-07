@@ -36,6 +36,9 @@ def main():
     out.mkdir(parents=True, exist_ok=True)
     dfile = film / "script" / "movement-durations.json"
     durs = json.loads(dfile.read_text()) if dfile.exists() else {}
+    cfg = film / "film.json"
+    # per film pace (films/CINEMA-STANDARD.md), e.g. {"GUIDE": 0.9, "READER": 0.8, "GOD": 0.8}; default as before
+    speeds = json.loads(cfg.read_text()).get("voice_speed", {}) if cfg.exists() else {}
     k, engine, ga, credits = None, None, None, 0
     for ln in lines:
         sp, lid, text = ln["speaker"], ln["id"], ln["text"]
@@ -51,10 +54,11 @@ def main():
                 spoken = ga.apply_pronounce(spoken, overrides)
                 for word, ph in FILM_NAMES.items():
                     spoken = spoken.replace(word, f"[{word}](/{ph}/)")
-                ga.write_wav(engine(spoken, "am_michael"), dest)
+                ga.write_wav(engine(spoken, "am_michael", speeds.get("GUIDE", 1.0)), dest)
             else:
                 k = k or key()
                 vid, speed = VOICES[sp if sp == "GOD" else "NARRATOR"]
+                speed = speeds.get("GOD" if sp == "GOD" else "READER", speed)
                 audio = post(f"/text-to-speech/{vid}?output_format=mp3_44100_192",
                              {"text": text, "model_id": TTS_MODEL, "voice_settings": {"speed": speed}}, k, raw=True)
                 dest.write_bytes(audio)

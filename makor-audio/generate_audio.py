@@ -410,12 +410,12 @@ def make_torch_engine(device: str | None = None):
     model = KModel().to(device).eval()
     pipes: dict[str, object] = {}
 
-    def create(text: str, voice: str):
+    def create(text: str, voice: str, speed: float = 1.0):
         code = voice[0]  # 'a' US, 'b' UK
         if code not in pipes:
             pipes[code] = KPipeline(lang_code=code, model=model)
         chunks = []
-        for _gs, _ps, audio in pipes[code](mark_names(text, voice), voice=voice, speed=1.0):
+        for _gs, _ps, audio in pipes[code](mark_names(text, voice), voice=voice, speed=speed):
             a = audio.detach().cpu().numpy() if hasattr(audio, "detach") else np.asarray(audio)
             chunks.append(a.astype("float32"))
         return np.concatenate(chunks) if chunks else np.zeros(1, dtype="float32")
