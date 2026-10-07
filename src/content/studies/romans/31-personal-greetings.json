@@ -18,8 +18,16 @@
         "note": "a trusted saint commended and carrying the letter",
         "emphasis": "",
         "verses": [
-          { "chapter": 16, "n": 1, "text": "I commend to you our sister Phoebe, a {{diakonos|servant}} of the church in Cenchrea." },
-          { "chapter": 16, "n": 2, "text": "Welcome her in the Lord in a manner worthy of the saints, and assist her with anything she may need from you. For she has been a great help to many people, including me." }
+          {
+            "chapter": 16,
+            "n": 1,
+            "text": "I commend to you our sister Phoebe, a {{diakonos|servant}} of the church in Cenchrea."
+          },
+          {
+            "chapter": 16,
+            "n": 2,
+            "text": "Welcome her in the Lord in a manner worthy of the saints, and assist her with anything she may need from you. For she has been a great help to many people, including me."
+          }
         ]
       },
       {
@@ -27,9 +35,21 @@
         "note": "fellow workers who risked their lives",
         "emphasis": "",
         "verses": [
-          { "chapter": 16, "n": 3, "text": "Greet Prisca and Aquila, my {{sunergos|fellow workers}} in Christ Jesus," },
-          { "chapter": 16, "n": 4, "text": "who have risked their lives for me. Not only I but all the churches of the Gentiles are grateful to them." },
-          { "chapter": 16, "n": 5, "text": "Greet also the church that meets at their house. Greet my {{agapetos|beloved}} Epenetus, who was the first convert to Christ in the province of Asia." }
+          {
+            "chapter": 16,
+            "n": 3,
+            "text": "Greet Prisca and Aquila, my {{sunergos|fellow workers}} in Christ Jesus,"
+          },
+          {
+            "chapter": 16,
+            "n": 4,
+            "text": "who have risked their lives for me. Not only I but all the churches of the Gentiles are grateful to them."
+          },
+          {
+            "chapter": 16,
+            "n": 5,
+            "text": "Greet also the church that meets at their house. Greet my {{agapetos|beloved}} Epenetus, who was the first convert to Christ in the province of Asia."
+          }
         ]
       },
       {
@@ -37,27 +57,96 @@
         "note": "women and men, Jews and Gentiles, named one by one",
         "emphasis": "",
         "verses": [
-          { "chapter": 16, "n": 6, "text": "Greet Mary, who has worked very hard for you." },
-          { "chapter": 16, "n": 7, "text": "Greet Andronicus and Junia, my fellow countrymen and fellow prisoners. They are outstanding among the {{apostolos|apostles}}, and they were in Christ before I was." },
-          { "chapter": 16, "n": 8, "text": "Greet Ampliatus, my beloved in the Lord." },
-          { "chapter": 16, "n": 9, "text": "Greet Urbanus, our fellow worker in Christ, and my beloved Stachys." },
-          { "chapter": 16, "n": 10, "text": "Greet Apelles, who is approved in Christ. Greet those who belong to the household of Aristobulus." },
-          { "chapter": 16, "n": 11, "text": "Greet Herodion, my fellow countryman. Greet those from the household of Narcissus who are in the Lord." },
-          { "chapter": 16, "n": 12, "text": "Greet Tryphena and Tryphosa, women who have worked hard in the Lord. Greet my beloved Persis, who has worked very hard in the Lord." },
-          { "chapter": 16, "n": 13, "text": "Greet Rufus, chosen in the Lord, and his mother, who has been a mother to me as well." },
-          { "chapter": 16, "n": 14, "text": "Greet Asyncritus, Phlegon, Hermes, Patrobas, Hermas, and the brothers with them." },
-          { "chapter": 16, "n": 15, "text": "Greet Philologus and Julia, Nereus and his sister, and Olympas and all the saints with them." },
-          { "chapter": 16, "n": 16, "text": "{{aspazomai|Greet}} one another with a holy kiss. All the churches of Christ send you greetings." }
+          {
+            "chapter": 16,
+            "n": 6,
+            "text": "Greet Mary, who has worked very hard for you."
+          },
+          {
+            "chapter": 16,
+            "n": 7,
+            "text": "Greet Andronicus and Junia, my fellow countrymen and fellow prisoners. They are outstanding among the {{apostolos|apostles}}, and they were in Christ before I was."
+          },
+          {
+            "chapter": 16,
+            "n": 8,
+            "text": "Greet Ampliatus, my beloved in the Lord."
+          },
+          {
+            "chapter": 16,
+            "n": 9,
+            "text": "Greet Urbanus, our fellow worker in Christ, and my beloved Stachys."
+          },
+          {
+            "chapter": 16,
+            "n": 10,
+            "text": "Greet Apelles, who is approved in Christ. Greet those who belong to the household of Aristobulus."
+          },
+          {
+            "chapter": 16,
+            "n": 11,
+            "text": "Greet Herodion, my fellow countryman. Greet those from the household of Narcissus who are in the Lord."
+          },
+          {
+            "chapter": 16,
+            "n": 12,
+            "text": "Greet Tryphena and Tryphosa, women who have worked hard in the Lord. Greet my beloved Persis, who has worked very hard in the Lord."
+          },
+          {
+            "chapter": 16,
+            "n": 13,
+            "text": "Greet Rufus, chosen in the Lord, and his mother, who has been a mother to me as well."
+          },
+          {
+            "chapter": 16,
+            "n": 14,
+            "text": "Greet Asyncritus, Phlegon, Hermes, Patrobas, Hermas, and the brothers with them."
+          },
+          {
+            "chapter": 16,
+            "n": 15,
+            "text": "Greet Philologus and Julia, Nereus and his sister, and Olympas and all the saints with them."
+          },
+          {
+            "chapter": 16,
+            "n": 16,
+            "text": "{{aspazomai|Greet}} one another with a holy kiss. All the churches of Christ send you greetings."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "diakonos": { "language": "Greek", "lemma": "diakonos", "original": "διάκονος", "gloss": "A servant, minister, or attendant; the word from which we get deacon. Paul applies it to Phoebe as a servant of the church at Cenchrea. It describes one who serves the body of Christ in real, practical ministry, whether understood as a general term of honored service or as the recognized office of deaconess." },
-    "sunergos": { "language": "Greek", "lemma": "sunergos", "original": "συνεργός", "gloss": "A fellow worker, one who labors alongside another in a shared task. Paul uses it of Prisca and Aquila, coworkers in Christ Jesus who toiled and risked their lives for the gospel. The gospel enlists a team of laborers, not spectators, joined together in one work." },
-    "agapetos": { "language": "Greek", "lemma": "agapetos", "original": "ἀγαπητός", "gloss": "Beloved, dearly loved. Paul sprinkles the word through the list, calling Epenetus, Ampliatus, Stachys, and Persis his beloved. It is the same word the Father speaks over the Son, now overflowing onto ordinary saints who are dear to God and to one another in Christ." },
-    "apostolos": { "language": "Greek", "lemma": "apostolos", "original": "ἀπόστολος", "gloss": "One sent with a commission; an apostle or messenger. Paul says Andronicus and Junia are outstanding among the apostles, which may mean they were esteemed by the apostles or were themselves notable messengers sent by the churches. Either way it honors their labor and standing in Christ." },
-    "aspazomai": { "language": "Greek", "lemma": "aspazomai", "original": "ἀσπάζομαι", "gloss": "To greet, welcome, or embrace warmly. The word drums through the chapter as Paul greets saint after saint and calls them to greet one another with a holy kiss. It is the affectionate language of family, the warm recognition of those bound together in the Lord." }
+    "diakonos": {
+      "language": "Greek",
+      "lemma": "diakonos",
+      "original": "διάκονος",
+      "gloss": "A servant, minister, or attendant; the word from which we get deacon. Paul applies it to Phoebe as a servant of the church at Cenchrea. It describes one who serves the body of Christ in real, practical ministry, whether understood as a general term of honored service or as the recognized office of deaconess."
+    },
+    "sunergos": {
+      "language": "Greek",
+      "lemma": "sunergos",
+      "original": "συνεργός",
+      "gloss": "A fellow worker, one who labors alongside another in a shared task. Paul uses it of Prisca and Aquila, coworkers in Christ Jesus who toiled and risked their lives for the gospel. The gospel enlists a team of laborers, not spectators, joined together in one work."
+    },
+    "agapetos": {
+      "language": "Greek",
+      "lemma": "agapetos",
+      "original": "ἀγαπητός",
+      "gloss": "Beloved, dearly loved. Paul sprinkles the word through the list, calling Epenetus, Ampliatus, Stachys, and Persis his beloved. It is the same word the Father speaks over the Son, now overflowing onto ordinary saints who are dear to God and to one another in Christ."
+    },
+    "apostolos": {
+      "language": "Greek",
+      "lemma": "apostolos",
+      "original": "ἀπόστολος",
+      "gloss": "One sent with a commission; an apostle or messenger. Paul says Andronicus and Junia are outstanding among the apostles, which may mean they were esteemed by the apostles or were themselves notable messengers sent by the churches. Either way it honors their labor and standing in Christ."
+    },
+    "aspazomai": {
+      "language": "Greek",
+      "lemma": "aspazomai",
+      "original": "ἀσπάζομαι",
+      "gloss": "To greet, welcome, or embrace warmly. The word drums through the chapter as Paul greets saint after saint and calls them to greet one another with a holy kiss. It is the affectionate language of family, the warm recognition of those bound together in the Lord."
+    }
   },
   "study": {
     "basic": {
@@ -71,93 +160,262 @@
       "oneStory": "The gospel Paul has expounded for fifteen chapters lands in a living room in Rome, in a company of named people who love and labor together. The story that ran from Abraham to Christ now gathers Jews and Gentiles, women and men, into one beloved family. This is what God was aiming at all along: not merely saved individuals but a reconciled people who greet one another with a holy kiss."
     },
     "context": {
-      "literary": "This is the first half of the letter's extended closing, a section of greetings framed by the commendation of Phoebe at the start and the exchange of greetings between churches at the end. The repeated verb greet gives it a steady rhythm. It belongs with the final warnings and doxology that follow, together rounding off the whole epistle.",
-      "historical": "Paul writes around AD 57, probably from Corinth, and Cenchrea was Corinth's eastern port, which fits Phoebe carrying the letter. Many named here bear names common among slaves and freedmen, and some belong to great households like those of Aristobulus and Narcissus. The list reflects a real cross section of the imperial capital: immigrants, tradespeople, and servants, Jews and Gentiles together.",
-      "canonical": "The chapter shows the doctrine of the letter embodied in a concrete congregation. Justification by faith and life in the Spirit produce a reconciled community. The prominence of women who serve and labor here stands alongside the wider New Testament witness and shows the honored place of faithful women in the earliest churches."
+      "literary": "Romans 16 looks like an afterthought and is anything but. It has four panels. Verses 1 and 2 are a letter of recommendation, a standard form in the ancient world, in which a sender commends a bearer to the recipients and asks that she be received and helped. Verses 3 to 16 are a roll of greetings built on a single repeated verb, with a few lines of commendation attached to each name. Verses 17 to 20 break the pattern with a sharp warning against those who divide the church, and end on a promise. Verses 21 to 23 pass on greetings from those with Paul, including the scribe who wrote the letter. Verses 25 to 27 close with a doxology that lifts the eye from the people to the plan of God.\n\nThe greetings list is not random. Paul sorts people by what they do. Some are 'fellow workers', some 'worked very hard', some are 'beloved', some are 'approved', one is 'chosen', two are 'fellow prisoners'. Whole households appear next to individuals, and unnamed brothers and sisters appear next to them. The repeated phrase 'in the Lord' or 'in Christ' ties the names together. A reader who counts finds that women are named among the workers, and that the commendation 'worked hard' is given to four of them.\n\nThe abrupt warning of verses 17 to 20 is a deliberate hinge. Placed between the list of beloved names and the list of those who greet them from Corinth, it presents the two sorts of people the church can contain, those who labour for Christ and those who serve their own appetites. The doxology then answers with the opposite of flattery: a God who is truly able.\n\nThe last paragraph echoes the first. The letter began with 'the obedience that comes from faith', 1:5, and ends with the same phrase in 16:26. Between them the whole gospel is set, and the people greeted are the people the gospel has made.",
+      "historical": "Rome in the 50s was a city of well over a million people, and the Christian groups in it were small and scattered, meeting in homes, workshops and the upper rooms of apartment blocks. The names Paul uses are typical of such a city. Many are Greek or Latin, and several, such as Urbanus, Ampliatus, Hermes and Julia, were common among slaves and freed people. The 'households' of Aristobulus and Narcissus probably refer to slaves and dependants of those men, not to the masters themselves. Some have suggested that Narcissus was the powerful freedman of the emperor Claudius, but that is only a guess.\n\nPaul's knowledge of so many people in a city he had never visited is explained by travel. After the edict of Claudius had been lifted, Jews and others returned to Rome, and some of Paul's friends had moved. Prisca and Aquila had been expelled from Rome, met Paul in Corinth, and worked with him as tentmakers, Acts 18:2 and 3. They went with him to Ephesus and later returned to Rome. The Christian movement in the first century ran along the lines of trade, travel and household connection, and these are the lines Paul's list follows.\n\nThe letter was written down by a scribe, Tertius, who adds his own greeting in 16:22. Paul was in Corinth, and the names in verses 21 to 23 fit that city. Gaius is a host, and Erastus is the city treasurer. An inscription found in the pavement at Corinth names an Erastus who held a public office and paid for the work, but whether he is the same man is debated. If so, a man of public rank and a person of servile background could sit in the same house church.\n\nPhoebe comes from Cenchrea, the eastern port of Corinth, where Paul had once cut his hair for a vow, Acts 18:18. She is almost certainly the carrier of the letter. A traveller from Corinth to Rome in this period needed a ship, an escort and a patron in Rome, which gives the request in verse 2 its practical weight.",
+      "canonical": "The chapter gathers the whole New Testament's picture of the church as a household of named people. Prisca and Aquila appear in Acts 18, 1 Corinthians 16:19 and 2 Timothy 4:19, always as hosts and teachers, and in Acts 18:26 they take Apollos aside and explain the way of God more accurately. Timothy, Jason and Sosipater of verse 21 can be met in Acts 17:5 to 9, 19:22 and 20:4. Epaphroditus and Tychicus in other letters are the equivalent of Phoebe in Romans, trusted bearers and ministers, Philippians 2:25 and Colossians 4:7. Philippians 4:3 names women who laboured with Paul in the gospel, and Colossians 4:15 mentions Nympha and the church in her house.\n\nThe 'holy kiss' recurs in 1 Corinthians 16:20, 2 Corinthians 13:12, 1 Thessalonians 5:26 and, as a kiss of love, 1 Peter 5:14.\n\nThe warning of 16:17 to 20 belongs with Paul's other warnings about false teachers, as in 2 Corinthians 11:13 to 15, and with the instruction of 1 John 4:1 to test the spirits. Its closing promise, that God will crush Satan under their feet, carries the weight of Genesis 3:15 where the serpent's head is crushed, and of Luke 10:19 where the disciples are given authority over the power of the enemy.\n\nThe doxology joins the 'mystery' texts of Ephesians 3:3 to 10, Colossians 1:26 and 27 and 2 Timothy 1:9 and 10, in which what was hidden for ages is revealed in Christ and made known through the Scriptures. It also touches 1 Timothy 1:17 and Jude 24 and 25, where God is praised in similar terms. Ancient copies differ about where the doxology belongs, and some place it after chapter 14 or after chapter 15, but all of them end the letter on this note."
     },
     "hermeneutics": {
-      "authorIntent": "To commend Phoebe to the Roman church so they would receive and support her, and to greet by name the many believers he knew in Rome, strengthening his bond with a church he had not yet visited and honoring the labor and love of ordinary saints.",
-      "descriptionVsPrescription": "The passage describes the particular members of one first-century congregation. Its abiding lesson is prescriptive by pattern rather than by command: the gospel forms a diverse, affectionate, laboring family in which each member is known and valued, and such love and honor should mark the church in every age.",
+      "authorIntent": "Paul's immediate purpose is to introduce himself and the carrier of his letter to a church he has not met. Greeting thirty or so people by name is a way of building bridges before arriving. He is saying, in effect, that he is not coming as a stranger; he already stands among friends. Every commendation is also an act of endorsement. When he says that Prisca and Aquila risked their necks for him, or that Mary worked very hard for you, he gives those people standing in the church and tells the rest of the Romans to honour them.\n\nHe also wants the church to see itself. A congregation that includes Jews and Gentiles, men and women, free people and slaves, those with famous names and those with common ones, is the community the argument of the letter has been describing. The roll of names is the doctrine of justification by faith with faces on it.\n\nThe warning of verses 17 to 20 is meant for the same purpose. Because the church is precious, its unity must be guarded. He does not name the troublemakers, and he describes them by their effects, divisions and obstacles, and by their method, smooth talk and flattery. The Romans are to be wise about what is good and innocent about what is evil. He ends with a promise that makes the warning bearable.",
+      "descriptionVsPrescription": "The chapter is mostly description. It reports who Paul knew and what they had done. It does not prescribe a church structure, nor tell churches to greet in any exact way. A modern church that cannot kiss as a greeting can still obey the command at its heart, that believers should greet one another with warmth and honour. The kiss was the form, and the warmth is the substance.\n\nSome parts do lay down commands. Phoebe is to be welcomed and helped, 16:2. The church is to greet the named believers, 16:3 to 16. The believers are to watch out for those who create divisions, to turn away from them, and to be wise about what is good, 16:17 to 19. Those are directions for any church. The description of the commended workers is also formative, since it sets before us patterns of service to imitate: hospitality, risk taken for another, hard work, and faithful endurance.\n\nSome details need care. The description of Phoebe as a servant, and of Junia as outstanding among the apostles, has been used to argue for several different views of women's roles in the church. The passage itself gives these as facts of the early church, and the way they apply is a matter on which faithful Christians still differ. What is not in question is that Paul names, commends and relies on women in the service of the gospel.",
       "debates": [
         {
-          "question": "In what sense is Phoebe a diakonos of the church at Cenchrea?",
+          "question": "What was Phoebe's role as diakonos and prostatis?",
           "views": [
-            { "label": "A recognized servant or deaconess", "case": "Paul attaches the term to a specific local church, which many take to indicate a recognized ministry of service, so that Phoebe is honored as a deaconess who cared for the practical needs of the saints." },
-            { "label": "A general term of honored service", "case": "Others read diakonos here in its broad sense of one who serves, praising Phoebe's tireless help to many, including Paul, without pressing it into a fixed office." }
+            {
+              "label": "She held a recognised office of deacon in the church at Cenchrea",
+              "case": "The phrase is 'a diakonos of the church in Cenchrea', with a place named, which looks like a local position. Paul asks the Romans to help her, and calls her a prostatis of many, a word that in secular use describes a patron. Many hold that she was an appointed deacon, with the title used for the same kind of ministry as in Philippians 1:1 and 1 Timothy 3:8 to 11."
+            },
+            {
+              "label": "She was a servant of the church in a general sense",
+              "case": "Others note that diakonos is also the plain word for servant and minister. Paul uses it of himself, of Christ in 15:8, and of the governing authorities in 13:4. On this view the word describes her work and does not establish an office, and prostatis points to practical help given to travellers and missionaries."
+            }
           ],
-          "bearing": "On either reading Phoebe is a trusted, honored servant of Christ's church whom Paul asks the Romans to welcome and assist; the passage clearly commends faithful female service in the body of Christ."
+          "bearing": "Whichever reading is preferred, she is commended as a person of substance in the church's work. She carried the letter, she was owed hospitality and help, and she had helped many, including Paul."
         },
         {
-          "question": "What does it mean that Andronicus and Junia are outstanding among the apostles?",
+          "question": "Is Junia a woman, and what does it mean to be 'outstanding among the apostles'?",
           "views": [
-            { "label": "Well known to the apostles", "case": "The phrase can mean they were highly regarded by the apostles, esteemed by the recognized circle of Christ's sent ones without themselves holding that office." },
-            { "label": "Notable messengers among a wider group of sent ones", "case": "Others take it to mean they were prominent among a broader company of messengers commissioned by the churches, laborers in the mission, while the unique foundational office of the Twelve and Paul remains distinct." }
+            {
+              "label": "Junia was a woman, and she was counted an apostle",
+              "case": "The name Junia is a known woman's name, and the early church fathers who read Greek as their own language, including Chrysostom, took it as a woman's. The plain sense of the Greek phrase is 'outstanding among the apostles', which means she belonged to the group. The word apostolos is used for more than the Twelve, of Barnabas in Acts 14:14 and of messengers sent by the churches in 2 Corinthians 8:23 and Philippians 2:25."
+            },
+            {
+              "label": "The phrase means well regarded by the apostles",
+              "case": "Some argue that the Greek can mean 'well known to the apostles', so that they were respected by the apostles without being apostles themselves. Others have read the name as the man's name Junias, although that form is not otherwise attested in this period."
+            }
           ],
-          "bearing": "Read fairly, the verse honors Andronicus and Junia as esteemed, early, and hardworking believers, without overturning the historic distinction of the foundational apostolic office; it plainly dignifies their gospel labor."
+          "bearing": "Both views honour the pair as early believers who suffered for Christ and were known to the apostles. The wider sense of apostle as a sent one allows a role in church planting that is not the same as the unique office of the Twelve and of Paul."
+        },
+        {
+          "question": "Was Romans 16 written to Rome?",
+          "views": [
+            {
+              "label": "Yes, it belongs with the letter and was sent to Rome",
+              "case": "Ancient copies of Romans have chapter 16, and the greetings fit a church Paul wished to introduce himself to. Prisca and Aquila had come from Rome and returned there, and Paul's friends had good reason to be in the capital. A list of this length shows how much Paul did not need to establish contacts by himself."
+            },
+            {
+              "label": "It was a separate note to Ephesus",
+              "case": "Some think the list is too personal for a church Paul had never visited and suppose it was added to a copy sent to Ephesus, where he had lived for years and where Prisca, Aquila and Epenetus, the first convert in Asia, would be found. The position of the doxology in different manuscripts has fed this idea."
+            }
+          ],
+          "bearing": "The majority view keeps the chapter as part of the letter to Rome. In either case, it is canonical Scripture and shows what Paul meant when he spoke about the church's unity."
         }
       ]
     },
-    "originalLanguages": "The passage is stitched together with a few weighty words. Phoebe is a diakonos, a servant of her church, worthy of a welcome and help. Prisca and Aquila are sunergos, fellow workers who spent themselves and even risked death for the gospel. Over and over a saint is agapetos, beloved, the very word of the Father's delight now resting on ordinary Christians. Andronicus and Junia stand out among the apostolos, the sent ones. And the whole roll pulses with aspazomai, the warm command to greet and embrace one another in the Lord.",
+    "originalLanguages": "The commendation of Phoebe begins with a word that Paul uses in the form of a letter of recommendation, 'I commend', and goes on to call her a prostatis of many, rendered 'a great help' in verse 2. The noun belongs to a family from the verb 'to stand before', which in ordinary Greek speech named a patron, a person who stood before the authorities on behalf of others. It is the feminine of a title with real social weight. Paul adds 'including me', which sets the apostle among those whom she had helped. The related verb for caring and leading is used of elders and others in Romans 12:8 and 1 Thessalonians 5:12.\n\nIn verse 4 Prisca and Aquila 'have risked their lives for me'. The Greek says that they put their own necks under, hypethekan ton trachelon, a vivid idiom of offering the neck to the blade. We do not know the occasion. Paul gives only the fact, and says that all the churches of the Gentiles are grateful.\n\nThe greetings use a verb for labour that recurs. Mary, Tryphena, Tryphosa and Persis 'worked hard', from kopiao, a word for exhausting toil that Paul also uses of his own apostolic work, 1 Corinthians 15:10 and Galatians 4:11. It is not a gentle word. All four of those commended for it are women. Paul evidently used it for the real labour of ministry.\n\nIn verse 7 Andronicus and Junia are 'fellow prisoners', synaichmalotoi, literally fellow captives of war. The word lends a military colour to imprisonment, as though they had been taken in battle for Christ. The statement that they are 'outstanding among the apostles' uses the adjective episemos, notable or conspicuous, with the preposition en, 'among'. The phrase 'were in Christ before I was' places them as believers from the earliest years, perhaps before Paul's own conversion.\n\nApelles is 'approved', dokimos, the word for metal that has been tested and passed. Rufus is 'chosen', eklektos, the same word used elsewhere of the elect, which Paul applies to him not as a rank but as a description. Rufus's mother 'has been a mother to me as well', which suggests she had cared for him. The name is the same as that of Simon of Cyrene's son in Mark 15:21, and some have wondered whether it is the same man, though the name was common.\n\nVerse 16 gives the phrase philema hagion, holy kiss. 'Holy' marks the kiss as a family greeting among those set apart for God, not a social courtesy. Verse 17 names the troublemakers' work with two nouns, dichostasiai, divisions, and skandala, snares, and then describes their speech with chrestologia and eulogia, smooth talk and flattery, both of which sound like 'good words' while serving the intent of deceiving. Verse 19 asks for believers to be 'innocent', akeraios, a word for unmixed, like undiluted wine or unalloyed metal, used in Matthew 10:16 of doves. The promise in verse 20 uses syntripsei, 'will crush', in the future tense, and the phrase 'soon', en tachei, makes the promise one that the Romans can expect rather than only hope for.\n\nFinally the doxology speaks of the mysterion, the mystery, once kept silent and now disclosed 'through the writings of the prophets', and ends with the monos sophos theos, the only wise God.",
     "typology": [
-      { "type": "The naming of God's people", "fulfillment": "As Scripture numbers the tribes and registers those who return from exile, so Christ knows His new-covenant family by name, gathered here in Rome." },
-      { "type": "The blessing of the nations in Abraham", "fulfillment": "The Jews and Gentiles named side by side fulfill the promise that in Abraham's seed all the families of the earth would be blessed." },
-      { "type": "The holy kiss of the family of God", "fulfillment": "The holy kiss enacts the reconciliation the gospel accomplishes, making former strangers into one embracing household in Christ." }
+      {
+        "type": "Names borne before God, Exodus 28:9-12",
+        "fulfillment": "Aaron wore onyx stones on his shoulders engraved with the names of the sons of Israel, 'as memorial stones', and twelve more on the breastpiece, each stone engraved like a seal with a tribal name, Exodus 28:9 to 12 and 21. The priest carried the people by name before the LORD. Paul's list of names is a Christian echo. The church is a people known by name, each greeted individually. The escalation is that Christ, our high priest, intercedes for His people, Hebrews 7:25, and their names are written in the Lamb's book of life, Revelation 21:27. The type falls short in that the priest's stones were fixed in gold, while those named in Christ are held by Him personally."
+      },
+      {
+        "type": "The house church as the household of God",
+        "fulfillment": "In Israel, the household was the basic unit of covenant life. A man's family kept the Passover together, and Joshua said 'as for me and my house, we will serve the LORD', Joshua 24:15. In Romans 16 households appear again: the church that meets at Prisca and Aquila's house, the households of Aristobulus and Narcissus, Gaius who hosted the whole church. The new covenant people are formed in the homes of the city. The escalation is that Christ's family crosses every boundary, so that slaves and freeborn, Jews and Greeks, share one body, Galatians 3:28 and 1 Corinthians 12:13. The type falls short in that the household of faith is not decided by birth but by being in Christ."
+      },
+      {
+        "type": "Crushing the serpent, Genesis 3:15",
+        "fulfillment": "God told the serpent that the woman's offspring would crush its head. Paul closes his warning against deceivers with the promise that 'the God of peace will soon crush Satan under your feet'. The correspondence is direct, down to the picture of the foot. The victory of Genesis 3 is won by Christ at the cross, Colossians 2:15, and shared with His people as they stand against deception. The escalation is that the one seed has become a church of many feet. The type is not yet complete, since the final defeat of the adversary is placed at the end of the age, Revelation 20:10."
+      },
+      {
+        "type": "The mystery hidden in the prophets",
+        "fulfillment": "The promise that the nations would be blessed ran quietly through the Law and Prophets, and the doxology says it was concealed for ages and 'now revealed and made known through the writings of the prophets'. Paul does not say the prophets had no message about the nations. He says the full meaning was veiled until Christ came. Ephesians 3:5 and 6 states the content: Gentiles are fellow heirs, fellow members and fellow partakers of the promise. The type is a shadow now brought into the light, and the church's mission is to make it known, as Ephesians 3:10 says, even to the rulers and authorities in the heavenly realms."
+      }
     ],
-    "christ": "Though this is a list of human names, Christ is on every line. These believers are in Christ Jesus, in the Lord, chosen in the Lord, approved in Christ, the first fruits for Christ. He is the gravitational center that pulls slaves and nobles, Jews and Greeks, women and men into one body. The churches that greet them are the churches of Christ. The whole passage quietly proclaims that union with Christ is what makes a people out of strangers, and that He knows and treasures each one.",
-    "god": "The God who has been the subject of this letter, justifying the ungodly and pouring out His Spirit, is here seen gathering a family. He loves these people, He has chosen them, He has set them to their labors and honored their love. The passage displays a God who does not save in the abstract but binds real, named sinners into a household, delighting to call them beloved.",
+    "christ": "Christ saturates Romans 16, though almost never as a topic. He appears as the phrase that defines every person in the chapter. Prisca and Aquila are fellow workers 'in Christ Jesus', Apelles is 'approved in Christ', Rufus is 'chosen in the Lord', Mary's and Persis's labour is 'in the Lord'. These are not decorative additions. In Paul's usage 'in Christ' names the new location of a believer's life, the place where the Spirit has set him, joined to the risen Lord and to everyone else who is there. The list of names is a list of people who live at the same address.\n\nHe is also the one served. Phoebe is received 'in the Lord', and the divisive are warned because they 'are not serving our Lord Christ', verse 18. The opposition is between serving Christ and serving oneself. Paul's own words for himself at the start of the letter were 'a servant of Christ Jesus', 1:1, and the chapter now fills in what that means for ordinary people, the serving of tables, the hard work, the hosting, the risk. In the person of Phoebe, Christ's own service is on show, since Paul has just called Christ a diakonos of the circumcised in 15:8.\n\nHe is the one whose grace Paul prays for. The benediction of verse 20, 'The grace of our Lord Jesus Christ be with you', is at the heart of the chapter. Everything the people have done is the work of that grace.\n\nHe is the victor. 'The God of peace will soon crush Satan under your feet', verse 20. The promise echoes Genesis 3:15, which the first chapters of Scripture left as a riddle. Paul's use of it assumes that the seed has come. Christ crushed the head at the cross, and the church now walks with the foot of the victor. The language is important for the believers who feel themselves small. They are told that their feet will be used.\n\nHe is the one preached. 'The proclamation of Jesus Christ', verse 25, is the means by which God strengthens people, and Paul's gospel is 'my gospel' in the sense of being entrusted to him, though the content is the message about Jesus. The mystery that has been hidden through the ages is not a doctrine apart from Him. Colossians 1:27 names it: 'Christ in you, the hope of glory'.\n\nHe is the one through whom God is praised. The final words are 'to the only wise God be glory forever through Jesus Christ'. There is no worship of the Father that does not go through the Son. The long argument of the letter began with the gospel about God's Son and ends by taking praise back to the Father through Him.\n\nThe warning to keep in mind is that the details of the names themselves are not types of Christ. Rufus, Junia and Tertius are people and not pictures. What links the list to the Lord is the repeated 'in Him', and the things He does in and through them.",
+    "god": "The God of Romans 16 is the God who knows names. A list of this kind in the Bible is a theological statement. The Lord who numbers the stars and calls them by name, Psalm 147:4, is the one who holds individual men and women in His attention. The chapter shows that His love for a church is a love for each member, including the ones who have no public recognition: Hermes and Patrobas, Nereus and his sister, Olympas. Nothing is recorded about them but that they are greeted, and that is enough to say they are known.\n\nHe is the God who works through people. Paul does not treat their labour as a rival to God's work. Prisca and Aquila risked their lives, Mary worked hard, Phoebe helped many, Tertius wrote the letter, Gaius opened his house. And all of it is 'in the Lord'. The doctrine of God that holds both is one in which He acts through willing hands without ceasing to be the one who acts. This keeps a church from the double error of thinking its work is all that matters and of thinking its work does not matter at all.\n\nHe is the God of peace. The title in verse 20 sits in the middle of a warning about division, and it governs the whole paragraph. The one who is at peace with His people and who has made peace between Jew and Gentile is the one who will crush the enemy. Peace is not the absence of conflict but the possession of the victory. Believers are told to be wise about good and innocent about evil, because they are fighting on the side that has already won.\n\nHe is the God who keeps. The doxology says He 'is able to strengthen you', verse 25. The word of strength gives the letter its closing note. Paul has asked the Romans to welcome one another, to help one another, to avoid the divisive, and each of these is tough. None of it can be done in their own strength. The only wise God is able, and Paul closes by pointing them to His ability and not to their own.\n\nHe is the God of the eternal plan. The mystery was 'concealed for ages past' but 'now revealed', by the command of the eternal God. The timetable of redemption is His. The surprise that the nations come in through the Messiah was not a change of mind but a disclosure of what had been in His purpose from the start. Wisdom here is not a trait but a design, and the church is part of it, Ephesians 3:10.\n\nFor worship, the chapter gives two lessons. The first is that praise is given 'to the only wise God' for what He has done with ordinary people. The second is that a congregation's roll of faithful members, its hosts, its workers and its carriers of letters, is part of what it has to sing about. The final 'Amen' is the answer of a people who have been named, held and sent.",
     "crossReferences": [
-      { "ref": "Acts 18:1-3", "note": "Paul first meets Aquila and Priscilla in Corinth and works with them as tentmakers, the fellow workers he now greets." },
-      { "ref": "Acts 18:24-26", "note": "Priscilla and Aquila take Apollos aside and explain the way of God more accurately, showing their gift for teaching." },
-      { "ref": "Philippians 4:2-3", "note": "Paul names women who labored side by side with him in the gospel, as Mary, Tryphena, Tryphosa, and Persis do here." },
-      { "ref": "Romans 12:9-10", "note": "The command to love one another with genuine, brotherly affection is embodied in this warm roll of greetings." }
+      {
+        "ref": "Acts 18:1-3",
+        "note": "Paul meets Aquila and Priscilla in Corinth after Claudius expelled the Jews from Rome and works with them as a fellow tentmaker. It explains how Paul came to know two of the people he greets first and why they could have returned to Rome."
+      },
+      {
+        "ref": "Acts 18:24-26",
+        "note": "Priscilla and Aquila hear Apollos speak in the synagogue and explain the way of God to him more accurately. It shows what Paul meant by 'fellow workers': they taught as well as hosted, and the learned Apollos accepted their help."
+      },
+      {
+        "ref": "1 Corinthians 16:19-20",
+        "note": "Aquila and Prisca send greetings with the church that meets at their house, and the letter closes with the instruction to greet one another with a holy kiss. It confirms that the house church and the holy kiss were established practice in Paul's circle."
+      },
+      {
+        "ref": "Philippians 2:25",
+        "note": "Epaphroditus is called a brother, fellow worker, fellow soldier, messenger and minister, and is sent with a letter as Phoebe is. The comparison shows that carrying a letter and representing a church were recognised forms of service."
+      },
+      {
+        "ref": "Colossians 4:15",
+        "note": "Paul sends greetings to Nympha and the church that meets in her house. Like Prisca and Aquila, she appears as a host of the church, which shows that women with homes served as centres of the early congregations."
+      },
+      {
+        "ref": "2 Corinthians 8:23",
+        "note": "Paul describes the brothers who accompany Titus as messengers of the churches, using the plural of the word apostolos. It shows that the word can mean someone sent by a church, which bears on the sense in which Andronicus and Junia are called apostles."
+      },
+      {
+        "ref": "2 Corinthians 11:13-15",
+        "note": "False apostles masquerade as apostles of Christ, as Satan does as an angel of light. It lights up Romans 16:18, where those who divide the church look like servants of Christ but serve their appetites, and it explains why smooth talk needs a discerning ear."
+      },
+      {
+        "ref": "Genesis 3:15",
+        "note": "The seed of the woman will crush the serpent's head. Romans 16:20 draws on it in promising that the God of peace will soon crush Satan under the believers' feet. It is the plainest echo of the garden promise in Paul's letters."
+      },
+      {
+        "ref": "Ephesians 3:8-10",
+        "note": "Paul was given grace to preach the unsearchable riches of Christ to the Gentiles and to illuminate the mystery hidden for ages in God, so that through the church God's wisdom might be made known to rulers and authorities. It is the fullest commentary on the doxology of Romans 16:25 to 27."
+      },
+      {
+        "ref": "Colossians 1:26-27",
+        "note": "The mystery hidden for ages and generations is now revealed, and its content is Christ in you, the hope of glory among the Gentiles. It gives the mystery of Romans 16:25 a name and shows how Paul understood the gospel's long concealment."
+      },
+      {
+        "ref": "Philippians 4:3",
+        "note": "Paul asks that women who laboured with him for the gospel be helped, and says their names are in the Book of Life. It matches the commendations of Mary, Tryphena, Tryphosa and Persis in Romans 16 and shows that women in ministry were part of Paul's wider circle."
+      },
+      {
+        "ref": "Romans 1:1-6",
+        "note": "The letter opens with Paul as a servant and apostle set apart for the gospel, which brings about the obedience that comes from faith among all the Gentiles. Romans 16:25 to 27 closes with the same phrase, and the two passages bracket the entire letter."
+      }
     ],
-    "oneStory": "The long argument of Romans comes to rest in a room full of people. The gospel that reconciles sinners to God also reconciles them to one another, so that Jew and Gentile, master and slave, woman and man are gathered as one beloved family. From the promise to Abraham to this house church in Rome, God has been assembling a people for His Son. The list of names is the harvest of the gospel, ordinary saints known and loved by the risen Lord.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "Scripture begins with a created pair and a promise that the woman's offspring would crush the serpent. It then spends a long time on names. The genealogies of Genesis, the tribes of Numbers, the lists of Nehemiah and the families of Chronicles all say, in their own way, that God's story is carried by particular people. Romans 16 is the New Testament's version. The story that ran from Adam to Abraham, from Moses to the prophets, and from the cross to the empty tomb has arrived in a city of a million people, in the back rooms and workshops where a few dozen people, Jews and Greeks, slaves and freed, women and men, share bread and greet one another.\n\nThe chapter answers an old question about what the promised blessing of the nations would look like when it came. It does not look like an empire. It looks like Phoebe on a ship with a letter, Prisca and Aquila opening their home, Andronicus and Junia in prison, and a scribe named Tertius who adds his own hello to the apostle's. It looks like the phrase 'in the Lord' repeated in the way a family repeats a surname. The great shape of redemption becomes visible only in the small.\n\nThe warning of verses 17 to 20 puts the story's conflict on view as well. The serpent of Genesis 3 is still at work, now in the form of flattery and division. But Paul gives the church the promise that was given in the beginning, in a form that has now been fulfilled in principle. The God of peace will crush Satan under their feet. The war is real and its outcome is not in doubt.\n\nThe doxology steps back to give the whole arc, a mystery kept hidden for ages, now revealed through the prophets' writings, to bring all nations to the obedience of faith. The story that began in Genesis with a promise and a curse is described as a single plan, held by an eternal and wise God. The destination is the picture in Revelation 7:9, a multitude from every nation, tribe, people and tongue before the throne, and the book of life in which the names are written, Revelation 21:27. Every name on Paul's list is a pledge of that day. Each of those people, known and named, is a down payment on the great crowd, and the church that greets one another with a holy kiss is already rehearsing the welcome of the new creation.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "How does Paul describe Phoebe as he commends her to the Roman church?",
       "options": [
-        { "text": "As our sister and a servant of the church in Cenchrea, to be welcomed and helped.", "weight": 100, "note": "Paul calls her a sister and a diakonos of her church, worthy of a welcome and assistance." },
-        { "text": "As a wealthy patron who needs no help from the Romans.", "weight": 75, "note": "She was indeed a benefactor of many, yet Paul still asks the Romans to assist her, not to leave her unaided." },
-        { "text": "As a stranger Paul barely knows.", "weight": 25, "note": "Paul warmly commends her as a sister and a great help to many, including himself." },
-        { "text": "As someone the church should treat with suspicion.", "weight": 0, "note": "Paul urges a welcome worthy of the saints, not suspicion." }
+        {
+          "text": "As our sister and a servant of the church in Cenchrea, to be welcomed and helped.",
+          "weight": 100,
+          "note": "Paul calls her a sister and a diakonos of her church, worthy of a welcome and assistance."
+        },
+        {
+          "text": "As a wealthy patron who needs no help from the Romans.",
+          "weight": 75,
+          "note": "She was indeed a benefactor of many, yet Paul still asks the Romans to assist her, not to leave her unaided."
+        },
+        {
+          "text": "As a stranger Paul barely knows.",
+          "weight": 25,
+          "note": "Paul warmly commends her as a sister and a great help to many, including himself."
+        },
+        {
+          "text": "As someone the church should treat with suspicion.",
+          "weight": 0,
+          "note": "Paul urges a welcome worthy of the saints, not suspicion."
+        }
       ]
     },
     {
       "q": "What did Prisca and Aquila do that Paul highlights?",
       "options": [
-        { "text": "They were his fellow workers who risked their own lives for him.", "weight": 100, "note": "Paul honors them as coworkers who risked their necks for him, thanked by all the Gentile churches." },
-        { "text": "They gave money but avoided any personal risk.", "weight": 75, "note": "They did help materially, but Paul specifically says they risked their lives, not merely their resources." },
-        { "text": "They founded the church in Rome by themselves.", "weight": 25, "note": "They were genuine coworkers, but Paul does not credit them with founding the Roman church." },
-        { "text": "They opposed Paul's mission to the Gentiles.", "weight": 0, "note": "Far from opposing it, all the churches of the Gentiles are grateful to them." }
+        {
+          "text": "They were his fellow workers who risked their own lives for him.",
+          "weight": 100,
+          "note": "Paul honors them as coworkers who risked their necks for him, thanked by all the Gentile churches."
+        },
+        {
+          "text": "They gave money but avoided any personal risk.",
+          "weight": 75,
+          "note": "They did help materially, but Paul specifically says they risked their lives, not merely their resources."
+        },
+        {
+          "text": "They founded the church in Rome by themselves.",
+          "weight": 25,
+          "note": "They were genuine coworkers, but Paul does not credit them with founding the Roman church."
+        },
+        {
+          "text": "They opposed Paul's mission to the Gentiles.",
+          "weight": 0,
+          "note": "Far from opposing it, all the churches of the Gentiles are grateful to them."
+        }
       ]
     },
     {
       "q": "What does the sheer variety of names in this list reveal about the church?",
       "options": [
-        { "text": "The gospel gathers a diverse family of women and men, Jews and Gentiles, high and low, into one body.", "weight": 100, "note": "The mix of names and backgrounds shows the reconciling reach of the gospel." },
-        { "text": "The church was made up only of prominent, high-status Romans.", "weight": 75, "note": "Some named here were of high standing, but many names belong to slaves and freedmen, so it was not only the prominent." },
-        { "text": "The church excluded women from meaningful service.", "weight": 0, "note": "Many women are named and praised for their hard work in the Lord." },
-        { "text": "The church was uniformly Jewish.", "weight": 25, "note": "Jewish kinsmen are named, but so are many Gentiles; the church was mixed." }
+        {
+          "text": "The gospel gathers a diverse family of women and men, Jews and Gentiles, high and low, into one body.",
+          "weight": 100,
+          "note": "The mix of names and backgrounds shows the reconciling reach of the gospel."
+        },
+        {
+          "text": "The church was made up only of prominent, high-status Romans.",
+          "weight": 75,
+          "note": "Some named here were of high standing, but many names belong to slaves and freedmen, so it was not only the prominent."
+        },
+        {
+          "text": "The church excluded women from meaningful service.",
+          "weight": 0,
+          "note": "Many women are named and praised for their hard work in the Lord."
+        },
+        {
+          "text": "The church was uniformly Jewish.",
+          "weight": 25,
+          "note": "Jewish kinsmen are named, but so are many Gentiles; the church was mixed."
+        }
       ]
     },
     {
       "q": "How does Paul repeatedly describe individual believers in the list?",
       "options": [
-        { "text": "As beloved, and as those who have worked hard in the Lord.", "weight": 100, "note": "Paul calls several beloved and praises many for their labor in the Lord." },
-        { "text": "As useless members to be tolerated.", "weight": 0, "note": "He honors them as beloved and hardworking, never as useless." },
-        { "text": "As employees owed wages for their service.", "weight": 75, "note": "Their service is real labor, but it is in the Lord and out of love, not a matter of wages." },
-        { "text": "As anonymous faces not worth mentioning.", "weight": 25, "note": "The whole point is that Paul names them one by one and honors them." }
+        {
+          "text": "As beloved, and as those who have worked hard in the Lord.",
+          "weight": 100,
+          "note": "Paul calls several beloved and praises many for their labor in the Lord."
+        },
+        {
+          "text": "As useless members to be tolerated.",
+          "weight": 0,
+          "note": "He honors them as beloved and hardworking, never as useless."
+        },
+        {
+          "text": "As employees owed wages for their service.",
+          "weight": 75,
+          "note": "Their service is real labor, but it is in the Lord and out of love, not a matter of wages."
+        },
+        {
+          "text": "As anonymous faces not worth mentioning.",
+          "weight": 25,
+          "note": "The whole point is that Paul names them one by one and honors them."
+        }
       ]
     },
     {
       "q": "How are the believers told to greet one another, and who sends greetings to them?",
       "options": [
-        { "text": "With a holy kiss, and all the churches of Christ send them greetings.", "weight": 100, "note": "Paul calls for the holy kiss of the family and conveys greetings from all the churches of Christ." },
-        { "text": "With a formal handshake, and only Paul greets them.", "weight": 25, "note": "The text says a holy kiss, and greetings come from all the churches, not Paul alone." },
-        { "text": "With cool politeness befitting strangers.", "weight": 0, "note": "The holy kiss is the warm affection of family, not cool politeness." },
-        { "text": "With greetings only from the church in Jerusalem.", "weight": 75, "note": "Greetings do come from other churches, but Paul says all the churches of Christ send them, not Jerusalem alone." }
+        {
+          "text": "With a holy kiss, and all the churches of Christ send them greetings.",
+          "weight": 100,
+          "note": "Paul calls for the holy kiss of the family and conveys greetings from all the churches of Christ."
+        },
+        {
+          "text": "With a formal handshake, and only Paul greets them.",
+          "weight": 25,
+          "note": "The text says a holy kiss, and greetings come from all the churches, not Paul alone."
+        },
+        {
+          "text": "With cool politeness befitting strangers.",
+          "weight": 0,
+          "note": "The holy kiss is the warm affection of family, not cool politeness."
+        },
+        {
+          "text": "With greetings only from the church in Jerusalem.",
+          "weight": 75,
+          "note": "Greetings do come from other churches, but Paul says all the churches of Christ send them, not Jerusalem alone."
+        }
       ]
     }
   ],
@@ -169,9 +427,21 @@
     "The believers are told to greet one another with a holy kiss and are joined to all the churches of Christ. How can you show warmer, more concrete affection to the wider family of God?"
   ],
   "translationNotes": [
-    { "ref": "Romans 16:1", "note": "The word rendered servant is diakonos, from which we get deacon; a footnote in some editions offers deaconess. It may denote a recognized ministry of service or the general sense of one who serves; either way it honors Phoebe's faithful work for her church." },
-    { "ref": "Romans 16:3", "note": "Prisca is the shorter form of Priscilla; see Acts 18:2. Paul uses Prisca in his letters, Luke tends to use Priscilla. The same beloved coworker is meant." },
-    { "ref": "Romans 16:7", "note": "The name Junia is most likely a woman's name; a few take it as the masculine Junias. The phrase outstanding among the apostles can mean well known to the apostles or notable among a wider group of sent ones; both honor their standing in Christ." }
+    {
+      "ref": "Romans 16:1",
+      "note": "The word rendered servant is diakonos, from which we get deacon; a footnote in some editions offers deaconess. It may denote a recognized ministry of service or the general sense of one who serves; either way it honors Phoebe's faithful work for her church."
+    },
+    {
+      "ref": "Romans 16:3",
+      "note": "Prisca is the shorter form of Priscilla; see Acts 18:2. Paul uses Prisca in his letters, Luke tends to use Priscilla. The same beloved coworker is meant."
+    },
+    {
+      "ref": "Romans 16:7",
+      "note": "The name Junia is most likely a woman's name; a few take it as the masculine Junias. The phrase outstanding among the apostles can mean well known to the apostles or notable among a wider group of sent ones; both honor their standing in Christ."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched this session from bible.helloao.org for Romans 16:1-16. Footnote markers were omitted and line breaks rendered as single spaces per the spine rules. Sermon left as none; no expositor sermon URL verified this session." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched this session from bible.helloao.org for Romans 16:1-16. Footnote markers were omitted and line breaks rendered as single spaces per the spine rules. Sermon left as none; no expositor sermon URL verified this session."
+  }
 }

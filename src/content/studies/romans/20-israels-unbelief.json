@@ -18,10 +18,26 @@
         "note": "the chain of calling, believing, hearing, preaching, sending",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 10, "n": 14, "text": "How then can they call on the One in whom they have not believed? And how can they believe in the One of whom they have not heard? And how can they hear without someone to {{kerysso|preach}}?" },
-          { "chapter": 10, "n": 15, "text": "And how can they preach unless they are sent? As it is written: “How beautiful are the feet of those who bring {{euangelizo|good news}}!”" },
-          { "chapter": 10, "n": 16, "text": "But not all of them welcomed the good news. For Isaiah says, “Lord, who has believed our message?”" },
-          { "chapter": 10, "n": 17, "text": "Consequently, {{pistis|faith}} comes by {{akoe|hearing}}, and hearing by the {{rhema|word}} of Christ." }
+          {
+            "chapter": 10,
+            "n": 14,
+            "text": "How then can they call on the One in whom they have not believed? And how can they believe in the One of whom they have not heard? And how can they hear without someone to {{kerysso|preach}}?"
+          },
+          {
+            "chapter": 10,
+            "n": 15,
+            "text": "And how can they preach unless they are sent? As it is written: “How beautiful are the feet of those who bring {{euangelizo|good news}}!”"
+          },
+          {
+            "chapter": 10,
+            "n": 16,
+            "text": "But not all of them welcomed the good news. For Isaiah says, “Lord, who has believed our message?”"
+          },
+          {
+            "chapter": 10,
+            "n": 17,
+            "text": "Consequently, {{pistis|faith}} comes by {{akoe|hearing}}, and hearing by the {{rhema|word}} of Christ."
+          }
         ]
       },
       {
@@ -29,20 +45,61 @@
         "note": "they heard and understood, yet remained obstinate",
         "emphasis": "",
         "verses": [
-          { "chapter": 10, "n": 18, "text": "But I ask, did they not hear? Indeed they did: “Their voice has gone out into all the earth, their words to the ends of the world.”" },
-          { "chapter": 10, "n": 19, "text": "I ask instead, did Israel not understand? First, Moses says: “I will make you jealous by those who are not a nation; I will make you angry by a nation without understanding.”" },
-          { "chapter": 10, "n": 20, "text": "And Isaiah boldly says: “I was found by those who did not seek Me; I revealed Myself to those who did not ask for Me.”" },
-          { "chapter": 10, "n": 21, "text": "But as for Israel he says: “All day long I have held out My hands to a disobedient and obstinate people.”" }
+          {
+            "chapter": 10,
+            "n": 18,
+            "text": "But I ask, did they not hear? Indeed they did: “Their voice has gone out into all the earth, their words to the ends of the world.”"
+          },
+          {
+            "chapter": 10,
+            "n": 19,
+            "text": "I ask instead, did Israel not understand? First, Moses says: “I will make you jealous by those who are not a nation; I will make you angry by a nation without understanding.”"
+          },
+          {
+            "chapter": 10,
+            "n": 20,
+            "text": "And Isaiah boldly says: “I was found by those who did not seek Me; I revealed Myself to those who did not ask for Me.”"
+          },
+          {
+            "chapter": 10,
+            "n": 21,
+            "text": "But as for Israel he says: “All day long I have held out My hands to a disobedient and obstinate people.”"
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "kerysso": { "language": "Greek", "lemma": "kerysso", "original": "κηρύσσω", "gloss": "To proclaim as a herald, to preach. A herald does not invent his message but announces the word of his king. Paul insists that people cannot hear the gospel without a preacher, so the public heralding of Christ is an indispensable link in the chain that leads sinners to call on the Lord and be saved." },
-    "euangelizo": { "language": "Greek", "lemma": "euangelizo", "original": "εὐαγγελίζω", "gloss": "To announce good news, to preach the gospel. Isaiah celebrated the beautiful feet of those who bring good news of peace; Paul applies it to the messengers of Christ. The word ties the whole chain to the gospel itself, the glad announcement of salvation accomplished in the crucified and risen Lord." },
-    "pistis": { "language": "Greek", "lemma": "pistis", "original": "πίστις", "gloss": "Faith, trust, reliance. Paul states its origin plainly: faith comes from hearing. It is not self-generated but awakened by the message of Christ, the empty hand that receives the salvation announced in the gospel. Where the word of Christ is heard, faith is born." },
-    "akoe": { "language": "Greek", "lemma": "akoe", "original": "ἀκοή", "gloss": "Hearing, or the thing heard, the report or message. Paul says faith comes by akoe, the hearing of the message, and that message is the word of Christ. The term links the act of hearing and the content heard, underscoring that faith is bound to the gospel that reaches the ear." },
-    "rhema": { "language": "Greek", "lemma": "rhema", "original": "ῥῆμα", "gloss": "A spoken word, an utterance. The hearing that produces faith comes by the rhema of Christ, the spoken message about and from Christ. It is not vague religious feeling but the definite, proclaimed word of Christ that carries God's saving power to the hearer." }
+    "kerysso": {
+      "language": "Greek",
+      "lemma": "kerysso",
+      "original": "κηρύσσω",
+      "gloss": "To proclaim as a herald, to preach. A herald does not invent his message but announces the word of his king. Paul insists that people cannot hear the gospel without a preacher, so the public heralding of Christ is an indispensable link in the chain that leads sinners to call on the Lord and be saved."
+    },
+    "euangelizo": {
+      "language": "Greek",
+      "lemma": "euangelizo",
+      "original": "εὐαγγελίζω",
+      "gloss": "To announce good news, to preach the gospel. Isaiah celebrated the beautiful feet of those who bring good news of peace; Paul applies it to the messengers of Christ. The word ties the whole chain to the gospel itself, the glad announcement of salvation accomplished in the crucified and risen Lord."
+    },
+    "pistis": {
+      "language": "Greek",
+      "lemma": "pistis",
+      "original": "πίστις",
+      "gloss": "Faith, trust, reliance. Paul states its origin plainly: faith comes from hearing. It is not self-generated but awakened by the message of Christ, the empty hand that receives the salvation announced in the gospel. Where the word of Christ is heard, faith is born."
+    },
+    "akoe": {
+      "language": "Greek",
+      "lemma": "akoe",
+      "original": "ἀκοή",
+      "gloss": "Hearing, or the thing heard, the report or message. Paul says faith comes by akoe, the hearing of the message, and that message is the word of Christ. The term links the act of hearing and the content heard, underscoring that faith is bound to the gospel that reaches the ear."
+    },
+    "rhema": {
+      "language": "Greek",
+      "lemma": "rhema",
+      "original": "ῥῆμα",
+      "gloss": "A spoken word, an utterance. The hearing that produces faith comes by the rhema of Christ, the spoken message about and from Christ. It is not vague religious feeling but the definite, proclaimed word of Christ that carries God's saving power to the hearer."
+    }
   },
   "study": {
     "basic": {
@@ -56,93 +113,258 @@
       "oneStory": "God's plan to save everyone who calls on the Lord moves forward through the sent and preached word, so that faith is born by hearing the gospel of Christ. Yet the same chapter shows the sorrow at the heart of the story: Israel heard and understood, yet largely refused, while God stretched out His hands to them and began drawing in the nations who never sought Him."
     },
     "context": {
-      "literary": "These verses complete Romans 10, flowing directly from the promise that everyone who calls on the Lord will be saved. Verses 14 to 17 form a tightly linked chain of rhetorical questions, and verses 18 to 21 answer two objections, did they not hear, did they not understand, each settled by Scripture. The chapter ends on the poignant image of God's outstretched hands, setting up chapter eleven.",
-      "historical": "Paul writes as the apostle to the Gentiles who has seen the gospel spread across the empire while many of his own people reject it. The chain of sending and preaching reflects the missionary reality of the early church, and Israel's refusal, despite full exposure to the message, is the painful backdrop against which Paul will unfold God's ongoing purpose for Israel.",
-      "canonical": "Romans 10:14-17 became a foundational text for the church's theology of preaching and mission, and verse 17, faith comes by hearing, a watchword of the Reformation's stress on the word. The closing citations weave together the Law, the Psalms, and the Prophets to show that Israel's unbelief and the Gentiles' inclusion were foretold in Israel's own Scriptures."
+      "literary": "Romans 10:14-21 is built like a staircase going down and then a courtroom going up. Verses 14 and 15 are a run of four questions in which each answer becomes the next question, a figure the rhetoricians called a gradatio: call, believe, hear, preach, send. Paul asks them backward on purpose. He begins with the goal Joel promised in verse 13 and walks back to the one place the whole chain starts, which is God's act of sending. The staircase is capped with Scripture in verse 15 and with a hard fact in verse 16, that a message can be heard without being welcomed.\n\nFrom verse 18 the passage turns into cross examination. Paul plays the objector, 'But I ask,' twice, and each question is answered by a witness from a different part of the Hebrew Bible. Did they not hear? The Psalms say the voice has gone out, Psalm 19:4. Did Israel not understand? The Law speaks first, Deuteronomy 32:21, and then the Prophets, Isaiah 65:1 and 65:2. The three witnesses are carefully ordered. Moses and Isaiah are named, the way Paul names the two voices he most wants his Jewish hearers to respect.\n\nNotice also the shape of the ending. The first Isaiah quotation, verse 20, is about the Gentiles who found God without looking. The second, verse 21, is about Israel who was sought without ceasing. Paul sets the two quotations side by side, from the very same prophetic paragraph, so that the reader feels the contrast between a wandering people who are found and a covenant people who will not come home.\n\nThe paragraph also closes a larger unit. Chapters 9 and 10 began in grief, 9:1-3, and 10:1, and they end here with God still reaching out. Chapter 11 will ask the question this ending raises: if God held out His hands all day, has He now withdrawn them?",
+      "historical": "Paul writes from Corinth in the middle of the fifties, about to carry a collection to Jerusalem, Romans 15:25-27, and hoping to reach Rome on his way to Spain. The Roman believers were a mixed company of Jews and Gentiles. A few years earlier Claudius had ordered the Jews out of the city, Acts 18:2, and when they returned the balance in the congregations had shifted toward the Gentiles. Many readers think this is part of why Paul spends three chapters making sure no Gentile believer will look down on Israel.\n\nThe question 'how can they hear without someone to preach' was not abstract. Paul's own pattern was to go first into the synagogue and then, when he was refused, to the Gentiles, Acts 13:44-48 and Acts 18:6. The messengers were also on the road at personal cost, as the beaten and imprisoned Paul knew very well. 'Sent' in verse 15 is the verb behind the word apostle, so Paul is quietly saying that the one who sends is God, and the sent are, in a wide sense, apostles of the gospel.\n\nVerse 18 would have sounded bold to a first century Jewish ear. Psalm 19 was sung of the heavens declaring God's glory to every nation. Paul lets the same words carry the gospel itself, as Colossians 1:23 does when it speaks of a gospel proclaimed to every creature under heaven. In a world where Jewish communities had settled around the Mediterranean, from Rome to Alexandria to Asia, most cities already had a synagogue where the Scriptures were read aloud every Sabbath. The word really had gone out to the whole known world, and Israel's scattered synagogues were one of the reasons.\n\nThe two prophetic charges Paul quotes arose in earlier crises. Deuteronomy 32 is the song Moses gave Israel to remember before his death, a witness against them when they would forsake God. Isaiah 65 answers the lament of the exiles and gives God's reply: He had been available all along.",
+      "canonical": "Paul's chain of verses is a mosaic, and each tile has its own earlier setting. Joel 2:32, quoted in verse 13, ends with the words 'among the remnant called by the LORD', which is a quiet bridge into Romans 11, where the remnant takes the stage. Isaiah 52:7 is the herald announcing to Zion that its God reigns. Isaiah 53:1 is the opening sentence of the great Servant song, spoken by a group of astonished people who cannot believe what they have just witnessed. Putting those two Isaiah texts together, Paul has the good news announced in chapter 52 and the sad response in chapter 53, within a few verses of each other in the same prophetic scroll.\n\nThe New Testament carries the same pattern. John quotes Isaiah 53:1 in John 12:38 about the unbelief that met Jesus' miracles, which shows that Paul was not stretching the verse: this was already the apostolic way of reading it. Acts 13:44-48 and Acts 28:25-28 show the same movement in Paul's own ministry, the word going first to the Jews and then outward when it is refused. Romans 15:20-21 quotes Isaiah 52:15 to describe Paul's calling, to reach those who had not been told.\n\nVerse 17 has had a long life in the church's thought about preaching and Scripture. The Reformers read it as the charter for the pulpit. Other New Testament texts fit alongside it. First Thessalonians 2:13 calls the gospel the word of God that the believers 'heard from us' and which is 'at work in you who believe.' James 1:21 speaks of the implanted word. Behind them all stands the Old Testament pattern that begins at Sinai, where Israel was asked to hear, Deuteronomy 4:33 and 6:4, and the people promised to do all that the LORD had said, Exodus 24:7."
     },
     "hermeneutics": {
-      "authorIntent": "To show that salvation depends on the sent and preached word, so that the church must proclaim the gospel, and to establish that Israel's failure is not due to any lack of hearing or understanding but is culpable unbelief, thereby upholding both God's justice and His patient, outstretched grace.",
-      "descriptionVsPrescription": "The chain of sending, preaching, hearing, believing, and calling both describes how the gospel actually spreads and prescribes the necessity of proclamation for every age. The account of Israel's unbelief describes a historical reality but carries the abiding warning that hearing without faith leaves one inexcusable before God.",
+      "authorIntent": "Paul is steering between two errors his readers could easily fall into. One is to suppose that Israel's refusal means the message was weak, unclear or unheard, which would make God's plan look like it had failed for lack of delivery. The other is to suppose that Israel's refusal is a matter of fate, a decree that excuses the people involved. Paul closes both doors. The message went out, it was understood, and the refusal was real disobedience, which is a moral charge and not a misfortune.\n\nHe also wants the Roman church to see itself inside the chain. They are among those who heard and believed, which means they stand downstream of a sending that someone else did at cost. The point is not only a doctrine of how faith arises but a summons: be among the sent, and pray and give so that others can be.\n\nThe tone is the key to his intent. The last verse is not a verdict but a picture of a parent standing at the door with arms open. Paul quotes the line to make the Gentile reader feel both Israel's guilt and God's pain at it, so that nobody reads the rest of the argument with a sneer. When Paul says 'did Israel not understand,' he is not scoring points against his people. He is preparing the ground for chapter 11, where the same people will be shown to be beloved.",
+      "descriptionVsPrescription": "The chain in verses 14 and 15 is both a description and a charge, but it must be read carefully. As a description it states how faith normally comes: someone speaks, someone hears, and God works through that hearing. It does not say that God is incapable of acting by other means, and it does not say that every hearer will believe, which verse 16 settles. It prescribes, by implication, that the church must not be silent. If the message is the ordinary means, then withholding it is not a neutral act.\n\nThe portrait of Israel is a description of a historical moment and of a recurring pattern, not a template for judging any modern people. Paul himself is Jewish and writing in anguish, so the passage cannot honestly be used to justify contempt for Jewish people. It does warn that hearing the gospel repeatedly and understanding it clearly is not the same as welcoming it, and that applies to anyone who is familiar with the church and unmoved by it.\n\nThe beautiful feet are a prescribed attitude to messengers, not a prescription for a professional class. Verse 15 invites the ordinary believer to think of every act of carrying the gospel as beautiful, and invites the hearer to honour the one who brought it.",
       "debates": [
         {
-          "question": "Does faith comes by hearing make the outward preaching of the word necessary for salvation?",
+          "question": "What does 'the word of Christ' mean in verse 17?",
           "views": [
-            { "label": "The ordinary and necessary means", "case": "The historic reading holds that God has appointed the preached word as the ordinary means by which faith is awakened; hence the chain of sending and preaching, and the plain statement that faith comes by hearing the word of Christ. The church is therefore bound to send and to preach, for this is God's normal way of saving." },
-            { "label": "An absolute rule without exception", "case": "Some press the verse to mean no one is ever saved apart from hearing a human preacher; this overreaches, since Scripture also shows God sovereignly working, yet it rightly honors the priority Paul gives to the proclaimed word." }
+            {
+              "label": "The message about Christ",
+              "case": "Most commentators take the genitive as objective: the word that announces Christ, the gospel proclaimed, which is the same content as 'the word of faith we are proclaiming' in verse 8. The chain of preachers in verses 14 and 15 supports this, since what they carry is a message with Christ as its subject."
+            },
+            {
+              "label": "The message spoken by Christ",
+              "case": "Others hear a subjective genitive: the word that Christ himself speaks through His sent ones. Some manuscripts read 'word of God' instead of 'word of Christ,' and Paul's habit of calling the preacher Christ's ambassador, 2 Corinthians 5:20, makes the speaker reading possible. Luke 10:16, 'whoever listens to you listens to Me,' is a fair parallel."
+            }
           ],
-          "bearing": "The passage foregrounds the necessity and dignity of gospel proclamation as God's appointed means, summoning the church to send and preach, while leaving God free in His sovereignty; the settled point is that faith is bound to the word of Christ and does not arise from within."
+          "bearing": "The two readings do not compete in practice. Christ is both the content and the living voice of the gospel, so the preacher is faithful when the message is Christ and the Lord is heard when it is told."
         },
         {
-          "question": "Is Israel's unbelief excusable on the grounds that they did not hear or understand?",
+          "question": "In verse 18, who is the 'they' that heard, and has the gospel truly gone to all the earth?",
           "views": [
-            { "label": "Inexcusable, culpable unbelief", "case": "Paul answers his own questions with Scripture: they did hear, for the message went out to the ends of the earth, and they did understand, as Moses and Isaiah foretold. Their unbelief is therefore willful, the response of a disobedient and obstinate people, and cannot be excused by ignorance." },
-            { "label": "Mitigated by hardening", "case": "Some point to God's sovereign hardening in chapter nine and elsewhere to soften Israel's guilt; yet Paul here places the accent squarely on their disobedience and obstinacy, holding human responsibility firmly even alongside God's sovereignty." }
+            {
+              "label": "Israel, and the Jewish world of the dispersion",
+              "case": "The question 'did they not hear' follows verse 16, which is about Israel. On this reading Paul says Israel had every chance, since the gospel had already travelled through synagogues in every region."
+            },
+            {
+              "label": "People everywhere, as a statement of the gospel's reach",
+              "case": "Others take the words broadly. Paul has just said in verse 12 that there is no difference between Jew and Greek, and in Colossians 1:23 he speaks of the gospel already proclaimed to every creature under heaven. The language of Psalm 19 is deliberately worldwide."
+            },
+            {
+              "label": "The witness of creation, as a type of the gospel",
+              "case": "A third reading hears Psalm 19:1-4 as Paul's reminder that God has never been silent, with creation's voice as a parallel for the spoken gospel. It is possible, but Paul does not lean on the heavens here; he applies the text as a statement about proclamation."
+            }
           ],
-          "bearing": "The passage upholds both truths without collapsing either: God is sovereign, yet Israel's unbelief is genuinely their own fault, for they heard and understood and still refused the God who all day long held out His hands to them, so that His justice and His mercy are both magnified."
+          "bearing": "The point is the same in each: Israel's failure was not a failure of access. Paul uses the Psalm's scope to say that no excuse of ignorance can stand."
+        },
+        {
+          "question": "Is Israel's unbelief a matter of human guilt or of divine hardening?",
+          "views": [
+            {
+              "label": "Human guilt alone in this passage",
+              "case": "The charges in verses 16, 19 and 21 are moral: 'not all of them welcomed,' 'disobedient and obstinate.' The language of obstinacy is language of a will that resists, and Paul makes no appeal here to a decree."
+            },
+            {
+              "label": "Guilt and hardening together",
+              "case": "Romans 9:17-18 and 11:7-8 speak of God hardening. Many take these to be the other side of the same coin: people are responsible for what they do, and God is sovereign over it, and Scripture does not resolve the tension for us."
+            }
+          ],
+          "bearing": "Whatever one concludes about the mystery of the will, verse 21 shows the posture Scripture itself insists on: God's hands are open, and the refusal is Israel's own."
         }
       ]
     },
-    "originalLanguages": "The chain of salvation requires a herald to kerysso, to preach, and messengers who euangelizo, who bring the good news whose feet Isaiah calls beautiful. Its fruit is pistis, faith, and Paul states its origin exactly: faith comes by akoe, hearing, and that hearing comes by the rhema, the spoken word, of Christ. The vocabulary binds saving faith to the definite, proclaimed message about Christ, not to any inner impulse, so that the sending and preaching of the gospel are shown to be indispensable to the salvation of everyone who calls on the Lord.",
+    "originalLanguages": "Verse 14 uses the little word epikaleo, 'call on,' which is the verb of the Joel quotation in verse 13 and one of the oldest phrases for worship in the Old Testament, as in Genesis 4:26 where people began to call on the name of the LORD. It is a word for prayer and devotion more than for a one time request. Paul then applies it to Jesus, 'the One in whom they have not believed,' which means that Joel's 'LORD' is here understood as Jesus. That is one of the quiet but weighty identifications in Romans.\n\nThe chain moves through akouo, 'hear,' and the noun akoe. In verse 16 Paul quotes Isaiah 53:1, 'Lord, who has believed our message?' where 'message' is akoe, literally 'what was heard.' In verse 17 the same noun reappears as 'hearing.' The word means both the act of listening and the thing listened to, so Paul can say that faith comes from the report that is heard, and in the same breath from the act of hearing it. In the Greek of the next clause the related verb hypakouo, 'obey,' appears in verse 16 where the BSB reads 'welcomed.' It is made of the same stem as 'hear,' and means to hear under, to heed. Paul had used the same idea at the start of the letter when he spoke of 'the obedience that comes from faith,' Romans 1:5. For him, true hearing ends in obedience, and refusal to obey is a failure of hearing in the full sense.\n\nVerse 15 turns on the verb apostello, 'send,' which gives the word apostle. The word euangelizo, to bring good news, was used in Isaiah 52:7 of the herald who reports victory or return. In verse 17 the BSB translates 'by the word of Christ' using rhema, a spoken word, an utterance, and not the broader logos. The stress is on something said aloud.\n\nIn verse 19 Paul quotes Deuteronomy 32:21 with the verb parazeloo, 'to make jealous,' which he will take up again in 11:11 and 11:14 as the chosen tool for winning Israel back. The 'nation without understanding' is literally a nation without synesis, the faculty of discernment, which sets Moses' word beside Paul's own question about whether Israel 'understood.' The people who are not a nation are precisely those whom Israel would have called ignorant, and they are the ones who will provoke her.\n\nThe last verse closes on a pair of participles in Greek, apeitheo and antilego, 'disobeying and contradicting.' The second means to speak against, to answer back. Israel is not silent in its refusal. The verb 'held out' is the language of spreading wide the arms, an open and appealing gesture, and the phrase 'all day long' is literally 'the whole day,' which gives the picture of a long unbroken waiting.",
     "typology": [
-      { "type": "Beautiful feet of the messenger", "fulfillment": "Isaiah's herald announcing good news of peace and return is fulfilled in the messengers of Christ who proclaim the greater deliverance of the gospel to all nations." },
-      { "type": "A people who are not a nation", "fulfillment": "Moses foretold that God would provoke Israel to jealousy by those who are not a nation, fulfilled as the Gentiles are gathered in and Israel is stirred." },
-      { "type": "Found by those who did not seek", "fulfillment": "Isaiah's word about God revealing Himself to those who did not ask is fulfilled in the calling of the Gentiles, who found the God they never sought." }
+      {
+        "type": "The herald from Isaiah 52:7 and the return from exile",
+        "fulfillment": "In Isaiah the messenger runs ahead of the returning exiles to tell Zion 'Your God reigns,' a news of rescue after the long Babylonian night. Paul takes that figure and applies it to the preachers of Christ, who announce a greater return, the reign of God through the risen Lord, Romans 10:9. The correspondence is a messenger with peace and salvation on his lips. The escalation is that the news is no longer a homecoming of one nation but a reconciliation open to every nation, Romans 10:12. The type falls short because Isaiah's herald stood on the mountains of Judah waiting for a political event, while the apostles proclaim a deliverance that has already taken place in the cross and resurrection."
+      },
+      {
+        "type": "The Song of Moses: a people who are not a nation",
+        "fulfillment": "Deuteronomy 32 was meant as a witness for generations. God said that, because Israel made Him jealous with idols that are no gods, He would make them jealous by a people who were not a people. Paul sees the pattern fulfilled when Gentiles who had no covenant, no law and no land receive the gospel and the Spirit. Hosea had already described the same reversal, 'Not My People' becoming 'sons of the living God,' Romans 9:25-26. The correspondence is the provocation by outsiders; the escalation is that the jealousy is meant not for punishment but for recovery, Romans 11:11. The type falls short in one place: Moses saw the jealousy as a stern judgment, while Paul expects it to lead to mercy, Romans 11:30-31."
+      },
+      {
+        "type": "God found by those who did not seek Him, and the hands held out all day",
+        "fulfillment": "Isaiah 65:1-2 is a single oracle with two halves, a nation that did not call on God's name and a people who walk their own way. Paul splits them to show the two audiences of the gospel. The outstretched hands, a gesture of invitation, find their sharpest meaning when Jesus gives His hands to the nails and stretches them wide on a cross. That connection is an inference and Paul does not make it, but the New Testament does show the arms that waited all day finally open for a world, John 12:32. The type is incomplete without Christ, because in Isaiah the hands appeal, and in the gospel the hands also pay."
+      }
     ],
-    "christ": "Christ is the substance of the whole passage even where He is not named in every line. Faith comes by the word of Christ, so He is the content of the saving message; He is the good news the heralds carry and the Lord on whom sinners call. The message Isaiah lamented as unbelieved, who has believed our report, is ultimately the report of Christ crucified and risen. And the God who all day long stretches out His hands to a disobedient people does so to offer them His Son. To refuse the message is to refuse Christ Himself.",
-    "god": "God is the sovereign sender who commissions and sends preachers, and the one whose word has gone out to the ends of the earth. He is the God found by those who did not seek Him, freely revealing His grace to the Gentiles who never asked. And He is the wounded, patient God who all day long holds out His hands to a disobedient and obstinate people. His sovereignty in the spread of the gospel and His genuine, grieving appeal to sinners stand together, magnifying both His power and His mercy.",
+    "christ": "Paul's chain has a surprising centre, and it is Christ as the one who is called upon. Verse 13 quotes Joel 2:32, where the LORD of Israel is the one to be called on, and verse 14 asks how people can call on 'the One in whom they have not believed.' In the space of two verses a text about the covenant name is read as a text about Jesus. The apostle does not feel any need to defend that reading here, which is itself a measure of how early and how firm it was in the church, since in Philippians 2:9-11 the name above every name is given to Jesus and every tongue confesses Him as Lord.\n\nChrist is also the content of what is heard. In verse 17 it is His word that brings faith. Paul's earlier verses say the same thing in another way: the word of faith is the confession that Jesus is Lord and that God raised Him from the dead, Romans 10:8-9. So the beautiful feet of verse 15 are beautiful because of whom they carry, and the arm of the LORD in Isaiah 53:1 is revealed in the Servant who bears sin, Isaiah 53:4-6. Isaiah 52 and 53 stand as one scroll, a king announced and a servant rejected, and Jesus is both.\n\nThen there is a darker thread. Israel's refusal repeats what Jesus Himself met. John quotes the same question from Isaiah 53:1 as the explanation for why many did not believe, John 12:37-38. Stephen reminds his hearers that their fathers resisted the Holy Spirit, Acts 7:51. Jesus wept over Jerusalem, longing to gather her children as a hen gathers her chicks, 'but you were unwilling,' Matthew 23:37. When Paul writes 'a disobedient and obstinate people,' he is describing the people who stood in front of Jesus. The hands held out all day in Isaiah 65:2 become, in the gospel story, the hands of Jesus held out to the sick, to children, to Peter sinking in the water, and in the end to the nails.\n\nThis must not turn into a slur. Paul says in the next breath that God has not rejected His people, Romans 11:1, and he himself belongs to them. The Messiah who was refused by many in Israel was Israel's own, the offspring of Abraham and David, Romans 9:5. A fair reading holds both: Christ is the one Israel's leaders rejected, and Christ is Israel's own hope. Finally, Christ is the sender. The Lord Jesus, who is called upon, also sends, as in John 20:21, 'As the Father has sent Me, I am sending you.' The chain of verses 14 and 15 begins where it ends, in Him.",
+    "god": "The God of this passage is a sender. Every link in the chain below the final one depends on the first, and the first is not human. Paul does not say 'how can they preach unless they volunteer.' He says 'unless they are sent,' which is the passive of a divine decision. God is not waiting for the church to invent a mission; He starts one, and the mission is the means by which He gathers people. That is a doctrine of God the initiator, and it is the ground of Christian confidence in evangelism.\n\nThe God of this passage also speaks. The entire argument assumes a God who communicates in words, who has had heralds, prophets and apostles, and whose voice can go out 'into all the earth.' The Psalm Paul uses to prove this was written about creation, which means that the God who speaks through the sky is the same God who speaks in the gospel. Faith comes by hearing because God is a God who speaks.\n\nThen there is the God of the open hands. The Hebrew word behind the image in Isaiah 65:2 is a verb of spreading out, as one does in welcome. The God of Scripture is not remote and not cold toward the disobedient; He is wounded by their refusal and stays at the door. This is not weakness. The context in Isaiah is clear that He will also judge, Isaiah 65:6-7, and Paul has said in Romans 2:4 that God's kindness is meant to lead to repentance. Holding the hands out all day is both mercy and a testimony, and it leaves no one without excuse.\n\nThe passage also shows God's freedom with the nations. He is 'found by those who did not seek Him.' That is the God who loves first, as in 1 John 4:19, and who was not waiting for the Gentiles to qualify. At the same time He is faithful to Israel, whom He keeps pursuing. These two truths belong together, and they sharpen each other. If God can be found by those who were not looking, no one can say they were too far gone. If God keeps reaching toward those who refuse, no one can say they were never offered.\n\nFor worship, the passage teaches a kind of gratitude that is practical. We give thanks for those who sent and those who came, the missionaries and parents and neighbours whose feet we never saw. And it teaches a seriousness about hearing: because God has spoken, it is no light matter to be a listener who does not obey.",
     "crossReferences": [
-      { "ref": "Isaiah 52:7", "note": "How beautiful are the feet of the messenger who brings good news, applied to the heralds of Christ." },
-      { "ref": "Isaiah 53:1", "note": "Lord, who has believed our message, showing that unbelief toward the gospel was foretold." },
-      { "ref": "Psalm 19:4", "note": "Their voice has gone out into all the earth, cited to show the message truly went forth." },
-      { "ref": "Isaiah 65:1-2", "note": "God found by those who did not seek Him, and His hands held out all day long to a disobedient people." }
+      {
+        "ref": "Joel 2:32",
+        "note": "The promise Paul has just quoted in verse 13 ends with the words 'among the remnant called by the LORD.' The sentence that opens the chain of preaching therefore also opens the doorway into Romans 11, where the remnant is the subject. Paul's quotations are rarely random; he leaves the end of the verse hanging for the next chapter to pick up."
+      },
+      {
+        "ref": "Isaiah 52:7",
+        "note": "The herald on the mountains tells Zion 'Your God reigns.' Paul trims the verse to the feet and the good news, but the original tells what the good news is: peace, salvation and the kingship of God. Read in its setting it explains why feet that carry such news are called beautiful."
+      },
+      {
+        "ref": "Isaiah 53:1",
+        "note": "The opening of the Servant song is spoken by people who find the message incredible. Paul and John both use it to explain why the gospel met resistance, John 12:38, which shows that unbelief did not take the prophets by surprise. The sentence also pairs the message with the arm of the LORD, so faith is the answer to a revelation, not only to an argument."
+      },
+      {
+        "ref": "Psalm 19:4",
+        "note": "David's psalm of the heavens that speak without words. Paul borrows its sweep, 'into all the earth,' to say that the gospel's reach has already matched the reach of creation's witness. The Psalm goes on to praise the law of the LORD, so Paul's use joins the two halves: the world's voice and the Scripture's voice."
+      },
+      {
+        "ref": "Deuteronomy 32:21",
+        "note": "The first of Paul's witnesses against Israel's failure to understand. In the Song of Moses, God answers idolatry by choosing a people who are not a people to provoke His own. Paul reads this as a prophecy of the Gentile mission and takes the 'jealousy' as the first step in a plan that ends in mercy, Romans 11:11."
+      },
+      {
+        "ref": "Isaiah 65:1-2",
+        "note": "The two verses are one oracle in Isaiah, and Paul splits them between Gentiles and Israel. The first speaks of a nation that did not call on God's name, to whom He said 'Here I am.' The second speaks of a people who follow their own imaginations, to whom He held out His hands. It is the sharpest picture of the contrast between those found and those sought."
+      },
+      {
+        "ref": "Romans 1:5",
+        "note": "Paul's opening statement of his calling is to bring Gentiles to the obedience that comes from faith. The same unity of faith and obedience lies behind verse 16, where the verb for not obeying stands where English says 'not all welcomed the good news.' The letter's ends and its middle are joined by this idea."
+      },
+      {
+        "ref": "Romans 15:20-21",
+        "note": "Paul explains his ambition to preach where Christ was not known and quotes Isaiah 52:15: 'Those who were not told about Him will see.' The same Isaiah scroll that gives the feet of the herald also gives the apostle's mission plan, so chapter 10 is not far from his own life's work."
+      },
+      {
+        "ref": "Acts 13:44-48",
+        "note": "A living copy of the pattern in Romans 10. Paul and Barnabas speak first to the Jews, and when they are contradicted they turn to the Gentiles, quoting Isaiah's 'light for the Gentiles.' Luke's narrative shows what Paul is arguing: the word went to Israel first and was truly heard, and the refusal opened the door."
+      },
+      {
+        "ref": "John 12:37-41",
+        "note": "John quotes the same line from Isaiah 53:1 to explain the unbelief that followed Jesus' signs and adds a quotation from Isaiah's call in chapter 6. The two prophetic texts together show that rejection of the Messiah was part of a long pattern in Israel's story, which gives Romans 10:16 its apostolic weight."
+      },
+      {
+        "ref": "Matthew 23:37-39",
+        "note": "Jesus' lament over Jerusalem stands behind Paul's picture of God's outstretched hands. The one who longed to gather the children as a hen gathers chicks, and was refused, speaks with the voice of the God in Isaiah 65:2. It ends with a hope, 'Blessed is He who comes in the name of the Lord,' which Romans 11 will take up."
+      }
     ],
-    "oneStory": "God's saving purpose advances through the sent and preached word, so that faith is born as people hear the gospel of Christ, and the church is commissioned to carry it to the ends of the earth. Yet the same chapter voices the ache running through Scripture: Israel heard the message and understood it, yet largely refused, while God revealed Himself to the nations who never sought Him and stretched out His hands all day long to His own obstinate people. The story now waits for chapter eleven and the question of whether God is finished with Israel.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "The story of the Bible begins with a God who speaks and a creation that hears. In Genesis 1 the world exists because God says so, and in Genesis 3 the first sin is a failure to take God at His word. Romans 10 is the same plot at the level of salvation. Faith, which is the opposite of the first distrust, comes by hearing again, and God sends people to speak so that it can. The command to hear lies in the heart of Israel's creed, 'Hear, O Israel,' Deuteronomy 6:4, and in the sending that began with Abraham, 'go from your country,' Genesis 12:1, where the blessing was always aimed at all the families of the earth.\n\nIsrael's story is also one of hearing and not hearing. At Sinai the people heard the voice of God from the fire, Deuteronomy 4:33, and later heard the prophets, and the prophets themselves complain that few believed their message. Isaiah 53:1 is one of those complaints. Paul does not put Israel's unbelief in a special category. He sets it inside a long sorrow that began with Israel's own history, and then he shows that God's response to the sorrow was more sending, not less. When the prophets went unheard, God did not stop speaking; He sent His Son, Hebrews 1:1-2, and then sent the apostles.\n\nThe passage also looks forward. The nations who did not seek Him are already being found. That opens the door to the great gathering at the end, where people from every tribe, language and nation stand before the throne, Revelation 7:9. The chain of verses 14 and 15 is the road by which they get there. Every believer on that day will have a story that goes back through someone who was sent.\n\nYet the story is not allowed to end on Israel's refusal. The hands held out all day lead into Romans 11, where the question is whether God has finally given up. The answer will be that He has not, that Israel's stumbling has become the world's opening, and that the day will come when the natural branches are grafted in again. So the passage is the dark centre of a three chapter movement, the point where the plot seems to bend away from the promise, just before it bends back. In the new creation, every ear will hear and every mouth will praise, and the long history of refusing and sending will be over.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What is the chain Paul traces in verses 14 and 15?",
       "options": [
-        { "text": "Calling depends on believing, believing on hearing, hearing on preaching, and preaching on being sent.", "weight": 100, "note": "Paul links calling, believing, hearing, preaching, and sending in a connected chain." },
-        { "text": "Salvation depends only on an inner feeling with no outward message.", "weight": 0, "note": "The whole point is that a preacher must be sent and the word must be heard." },
-        { "text": "People can believe without ever hearing the message.", "weight": 25, "note": "Paul asks how they can believe in One of whom they have not heard; hearing is necessary." },
-        { "text": "Preachers may preach without being sent.", "weight": 75, "note": "Paul asks how they can preach unless they are sent; sending is part of the chain." }
+        {
+          "text": "Calling depends on believing, believing on hearing, hearing on preaching, and preaching on being sent.",
+          "weight": 100,
+          "note": "Paul links calling, believing, hearing, preaching, and sending in a connected chain."
+        },
+        {
+          "text": "Salvation depends only on an inner feeling with no outward message.",
+          "weight": 0,
+          "note": "The whole point is that a preacher must be sent and the word must be heard."
+        },
+        {
+          "text": "People can believe without ever hearing the message.",
+          "weight": 25,
+          "note": "Paul asks how they can believe in One of whom they have not heard; hearing is necessary."
+        },
+        {
+          "text": "Preachers may preach without being sent.",
+          "weight": 75,
+          "note": "Paul asks how they can preach unless they are sent; sending is part of the chain."
+        }
       ]
     },
     {
       "q": "According to verse 17, where does faith come from?",
       "options": [
-        { "text": "Faith comes by hearing, and hearing by the word of Christ.", "weight": 100, "note": "Verse 17 grounds faith in the hearing of the proclaimed word of Christ." },
-        { "text": "Faith arises from within by human willpower.", "weight": 0, "note": "Paul roots faith in hearing the word, not in self-generated resolve." },
-        { "text": "Faith comes chiefly by keeping the law.", "weight": 25, "note": "Faith comes by hearing the word of Christ, not by law keeping." },
-        { "text": "Faith comes mainly by miracles apart from any message.", "weight": 75, "note": "Paul names the word of Christ, the heard message, as the source of faith." }
+        {
+          "text": "Faith comes by hearing, and hearing by the word of Christ.",
+          "weight": 100,
+          "note": "Verse 17 grounds faith in the hearing of the proclaimed word of Christ."
+        },
+        {
+          "text": "Faith arises from within by human willpower.",
+          "weight": 0,
+          "note": "Paul roots faith in hearing the word, not in self-generated resolve."
+        },
+        {
+          "text": "Faith comes chiefly by keeping the law.",
+          "weight": 25,
+          "note": "Faith comes by hearing the word of Christ, not by law keeping."
+        },
+        {
+          "text": "Faith comes mainly by miracles apart from any message.",
+          "weight": 75,
+          "note": "Paul names the word of Christ, the heard message, as the source of faith."
+        }
       ]
     },
     {
       "q": "How does Paul answer the objection that Israel did not hear?",
       "options": [
-        { "text": "They did hear; their voice has gone out into all the earth, their words to the ends of the world.", "weight": 100, "note": "Verse 18 quotes Psalm 19 to show the message truly reached them." },
-        { "text": "He admits they never had a real chance to hear.", "weight": 0, "note": "Paul insists they did hear; the message went out to all." },
-        { "text": "He says only a few of them heard it.", "weight": 75, "note": "Paul says the message went out widely, not merely to a few." },
-        { "text": "He leaves the question unanswered.", "weight": 25, "note": "Paul answers it directly with Scripture: indeed they did hear." }
+        {
+          "text": "They did hear; their voice has gone out into all the earth, their words to the ends of the world.",
+          "weight": 100,
+          "note": "Verse 18 quotes Psalm 19 to show the message truly reached them."
+        },
+        {
+          "text": "He admits they never had a real chance to hear.",
+          "weight": 0,
+          "note": "Paul insists they did hear; the message went out to all."
+        },
+        {
+          "text": "He says only a few of them heard it.",
+          "weight": 75,
+          "note": "Paul says the message went out widely, not merely to a few."
+        },
+        {
+          "text": "He leaves the question unanswered.",
+          "weight": 25,
+          "note": "Paul answers it directly with Scripture: indeed they did hear."
+        }
       ]
     },
     {
       "q": "Why is Israel's unbelief inexcusable?",
       "options": [
-        { "text": "Because they both heard and understood the message, yet remained a disobedient and obstinate people.", "weight": 100, "note": "Paul settles both objections: they heard, verse 18, and understood, verse 19, yet refused." },
-        { "text": "Because they were never given the law or the promises.", "weight": 25, "note": "Israel had every privilege, as chapter nine listed; the fault was unbelief." },
-        { "text": "Because the message was too obscure to grasp.", "weight": 75, "note": "Paul shows they did understand; the message was not obscure." },
-        { "text": "Because God never appealed to them.", "weight": 0, "note": "God held out His hands to them all day long; the appeal was constant." }
+        {
+          "text": "Because they both heard and understood the message, yet remained a disobedient and obstinate people.",
+          "weight": 100,
+          "note": "Paul settles both objections: they heard, verse 18, and understood, verse 19, yet refused."
+        },
+        {
+          "text": "Because they were never given the law or the promises.",
+          "weight": 25,
+          "note": "Israel had every privilege, as chapter nine listed; the fault was unbelief."
+        },
+        {
+          "text": "Because the message was too obscure to grasp.",
+          "weight": 75,
+          "note": "Paul shows they did understand; the message was not obscure."
+        },
+        {
+          "text": "Because God never appealed to them.",
+          "weight": 0,
+          "note": "God held out His hands to them all day long; the appeal was constant."
+        }
       ]
     },
     {
       "q": "How does the chapter portray God's posture toward Israel in verse 21?",
       "options": [
-        { "text": "As one who all day long holds out His hands to a disobedient and obstinate people.", "weight": 100, "note": "Verse 21 pictures God's patient, grieving appeal to His resistant people." },
-        { "text": "As one who has already destroyed them in anger.", "weight": 0, "note": "God is shown appealing with outstretched hands, not destroying them." },
-        { "text": "As one who is indifferent to their response.", "weight": 75, "note": "Far from indifferent, God stretches out His hands all day long." },
-        { "text": "As one who never offered Himself to them at all.", "weight": 25, "note": "God repeatedly held out His hands; the offer was continual." }
+        {
+          "text": "As one who all day long holds out His hands to a disobedient and obstinate people.",
+          "weight": 100,
+          "note": "Verse 21 pictures God's patient, grieving appeal to His resistant people."
+        },
+        {
+          "text": "As one who has already destroyed them in anger.",
+          "weight": 0,
+          "note": "God is shown appealing with outstretched hands, not destroying them."
+        },
+        {
+          "text": "As one who is indifferent to their response.",
+          "weight": 75,
+          "note": "Far from indifferent, God stretches out His hands all day long."
+        },
+        {
+          "text": "As one who never offered Himself to them at all.",
+          "weight": 25,
+          "note": "God repeatedly held out His hands; the offer was continual."
+        }
       ]
     }
   ],
@@ -154,9 +376,21 @@
     "God all day long held out His hands to a disobedient people. How does this picture of God's patient appeal change the way you think about His heart toward sinners, and your own hardness?"
   ],
   "translationNotes": [
-    { "ref": "Romans 10:15", "note": "Those who bring good news renders the messengers whose feet Isaiah 52:7 calls beautiful. A textual footnote notes a longer form in some manuscripts, who bring good news of peace, who bring good news of good things; the sense is unchanged." },
-    { "ref": "Romans 10:17", "note": "The word of Christ renders rhema Christou, which can mean the word about Christ or the word spoken by Christ through His heralds; both senses point to the proclaimed gospel message as the source of faith." },
-    { "ref": "Romans 10:21", "note": "Disobedient and obstinate renders two terms for a people who both refuse to obey and stubbornly contradict; the image of God's hands held out all day long, from Isaiah 65:2, conveys patient, persistent appeal." }
+    {
+      "ref": "Romans 10:15",
+      "note": "Those who bring good news renders the messengers whose feet Isaiah 52:7 calls beautiful. A textual footnote notes a longer form in some manuscripts, who bring good news of peace, who bring good news of good things; the sense is unchanged."
+    },
+    {
+      "ref": "Romans 10:17",
+      "note": "The word of Christ renders rhema Christou, which can mean the word about Christ or the word spoken by Christ through His heralds; both senses point to the proclaimed gospel message as the source of faith."
+    },
+    {
+      "ref": "Romans 10:21",
+      "note": "Disobedient and obstinate renders two terms for a people who both refuse to obey and stubbornly contradict; the image of God's hands held out all day long, from Isaiah 65:2, conveys patient, persistent appeal."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched this session from bible.helloao.org for Romans 10:14-21. Sermon left as none; no expositor sermon URL verified this session." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched this session from bible.helloao.org for Romans 10:14-21. Sermon left as none; no expositor sermon URL verified this session."
+  }
 }

@@ -18,8 +18,16 @@
         "note": "He who gave His own Son will give us all things",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 8, "n": 31, "text": "What then shall we say in response to these things? If God is for us, who can be against us?" },
-          { "chapter": 8, "n": 32, "text": "He who did not spare His own Son but gave Him up for us all, how will He not also, along with Him, {{charizomai|freely give}} us all things?" }
+          {
+            "chapter": 8,
+            "n": 31,
+            "text": "What then shall we say in response to these things? If God is for us, who can be against us?"
+          },
+          {
+            "chapter": 8,
+            "n": 32,
+            "text": "He who did not spare His own Son but gave Him up for us all, how will He not also, along with Him, {{charizomai|freely give}} us all things?"
+          }
         ]
       },
       {
@@ -27,8 +35,16 @@
         "note": "God justifies, Christ intercedes",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 8, "n": 33, "text": "Who will bring any charge against God’s {{eklektos|elect}}? It is God who justifies." },
-          { "chapter": 8, "n": 34, "text": "Who is there to condemn us? For Christ Jesus, who died, and more than that was raised to life, is at the right hand of God, and He is interceding for us." }
+          {
+            "chapter": 8,
+            "n": 33,
+            "text": "Who will bring any charge against God’s {{eklektos|elect}}? It is God who justifies."
+          },
+          {
+            "chapter": 8,
+            "n": 34,
+            "text": "Who is there to condemn us? For Christ Jesus, who died, and more than that was raised to life, is at the right hand of God, and He is interceding for us."
+          }
         ]
       },
       {
@@ -36,21 +52,66 @@
         "note": "more than conquerors through Him who loved us",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 8, "n": 35, "text": "Who shall {{chorizo|separate}} us from the love of Christ? Shall trouble or distress or persecution or famine or nakedness or danger or sword?" },
-          { "chapter": 8, "n": 36, "text": "As it is written: “For Your sake we face death all day long; we are considered as sheep to be slaughtered.”" },
-          { "chapter": 8, "n": 37, "text": "No, in all these things we are {{hypernikao|more than conquerors}} through Him who loved us." },
-          { "chapter": 8, "n": 38, "text": "For I am convinced that neither death nor life, neither angels nor principalities, neither the present nor the future, nor any powers," },
-          { "chapter": 8, "n": 39, "text": "neither height nor depth, nor anything else in all creation, will be able to separate us from the {{agape|love}} of God that is in Christ Jesus our Lord." }
+          {
+            "chapter": 8,
+            "n": 35,
+            "text": "Who shall {{chorizo|separate}} us from the love of Christ? Shall trouble or distress or persecution or famine or nakedness or danger or sword?"
+          },
+          {
+            "chapter": 8,
+            "n": 36,
+            "text": "As it is written: “For Your sake we face death all day long; we are considered as sheep to be slaughtered.”"
+          },
+          {
+            "chapter": 8,
+            "n": 37,
+            "text": "No, in all these things we are {{hypernikao|more than conquerors}} through Him who loved us."
+          },
+          {
+            "chapter": 8,
+            "n": 38,
+            "text": "For I am convinced that neither death nor life, neither angels nor principalities, neither the present nor the future, nor any powers,"
+          },
+          {
+            "chapter": 8,
+            "n": 39,
+            "text": "neither height nor depth, nor anything else in all creation, will be able to separate us from the {{agape|love}} of God that is in Christ Jesus our Lord."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "charizomai": { "language": "Greek", "lemma": "charizomai", "original": "χαρίζομαι", "gloss": "To give freely and graciously, to bestow as a gift of grace. The word is built on grace itself. Paul reasons from the greater to the lesser: the God who did not withhold His own Son will freely and surely give His people all things along with Him. Every lesser blessing is guaranteed by the greatest gift already given." },
-    "eklektos": { "language": "Greek", "lemma": "eklektos", "original": "ἐκλεκτός", "gloss": "Chosen, elect, selected by God as His own. God's elect are those He has set His saving love upon. Because their standing rests on God's own choice and His justifying verdict, no accuser can make a charge stick against them; the highest court has already declared them righteous in Christ." },
-    "chorizo": { "language": "Greek", "lemma": "chorizo", "original": "χωρίζω", "gloss": "To separate, to divide, to put asunder. Paul asks who or what could ever separate believers from the love of Christ, then piles up every conceivable threat and answers that none of them can. The love that holds the believer is stronger than every power that would tear him from it." },
-    "hypernikao": { "language": "Greek", "lemma": "hypernikao", "original": "ὑπερνικάω", "gloss": "To be more than a conqueror, to win an overwhelming victory. Paul does not say believers merely survive their trials; through Him who loved them they are more than conquerors, so that the very things meant to destroy them are turned into occasions of triumph and deeper communion with Christ." },
-    "agape": { "language": "Greek", "lemma": "agape", "original": "ἀγάπη", "gloss": "Love, the self giving, covenant love of God. It is the love of God poured out in Christ, sealed at the cross where He gave His Son, and it is the love from which nothing in all creation can separate the believer. This divine love, not the believer's grip on God, is the ground of unbreakable security." }
+    "charizomai": {
+      "language": "Greek",
+      "lemma": "charizomai",
+      "original": "χαρίζομαι",
+      "gloss": "To give freely and graciously, to bestow as a gift of grace. The word is built on grace itself. Paul reasons from the greater to the lesser: the God who did not withhold His own Son will freely and surely give His people all things along with Him. Every lesser blessing is guaranteed by the greatest gift already given."
+    },
+    "eklektos": {
+      "language": "Greek",
+      "lemma": "eklektos",
+      "original": "ἐκλεκτός",
+      "gloss": "Chosen, elect, selected by God as His own. God's elect are those He has set His saving love upon. Because their standing rests on God's own choice and His justifying verdict, no accuser can make a charge stick against them; the highest court has already declared them righteous in Christ."
+    },
+    "chorizo": {
+      "language": "Greek",
+      "lemma": "chorizo",
+      "original": "χωρίζω",
+      "gloss": "To separate, to divide, to put asunder. Paul asks who or what could ever separate believers from the love of Christ, then piles up every conceivable threat and answers that none of them can. The love that holds the believer is stronger than every power that would tear him from it."
+    },
+    "hypernikao": {
+      "language": "Greek",
+      "lemma": "hypernikao",
+      "original": "ὑπερνικάω",
+      "gloss": "To be more than a conqueror, to win an overwhelming victory. Paul does not say believers merely survive their trials; through Him who loved them they are more than conquerors, so that the very things meant to destroy them are turned into occasions of triumph and deeper communion with Christ."
+    },
+    "agape": {
+      "language": "Greek",
+      "lemma": "agape",
+      "original": "ἀγάπη",
+      "gloss": "Love, the self giving, covenant love of God. It is the love of God poured out in Christ, sealed at the cross where He gave His Son, and it is the love from which nothing in all creation can separate the believer. This divine love, not the believer's grip on God, is the ground of unbreakable security."
+    }
   },
   "study": {
     "basic": {
@@ -64,93 +125,240 @@
       "oneStory": "The Bible's long story of God's covenant love reaches a peak here. The God who promised never to forsake His people has proven it by giving His own Son. Now Paul declares that this love, sealed at the cross, can never be broken, and God's people are carried through every enemy and trial as more than conquerors, safe forever in Christ."
     },
     "context": {
-      "literary": "These verses form the grand conclusion to the argument of chapters one through eight, marked by a rapid series of rhetorical questions and a rising crescendo that ends in the long list of things that cannot separate. The style is exalted, almost poetic, gathering courtroom, battlefield, and covenant imagery into a single triumphant assurance. It is one of the most quoted and beloved passages in all of Paul.",
-      "historical": "Written to believers in Rome who already knew hardship and would soon face fierce persecution, the catalog of trouble, persecution, famine, danger, and sword was painfully concrete. Paul assures a church living under threat that none of these things, not even the executioner's sword, can sever them from the love of God in Christ.",
-      "canonical": "This climax draws together the great biblical themes of election, justification, atonement, and covenant love, and stands as the New Testament's fullest declaration of the believer's security. It echoes the confidence of Isaiah's servant songs and the shepherd promises of the Gospels, and it has strengthened martyrs and sufferers throughout the history of the church."
+      "literary": "The paragraph is a sequence of five questions, and the shape of the questions is the argument. 'What then shall we say in response to these things?' verse 31. 'Who can be against us?' verse 31. 'Who will bring any charge?' verse 33. 'Who is there to condemn us?' verse 34. 'Who shall separate us?' verse 35. Each is answered at once, and each answer is a statement about God or Christ, not about the believer. Paul never says what we must do. He says who has acted.\n\nWithin that frame there is a movement from the court to the battlefield. Verses 33 and 34 are legal: charge, justify, condemn. Verses 35 to 37 are military: sword, slaughter, conquerors. Verses 38 and 39 are cosmic, listing powers of every scale. The passage also returns to where Romans 8 began. 'There is now no condemnation,' verse 1, has become the question 'Who is there to condemn us?' verse 34, and the chapter closes with an inclusio around the Spirit, the love of God, and the Lord Jesus Christ.\n\nThe catalogue of verses 38 and 39 is arranged in pairs, death and life, angels and principalities, present and future, with a final pair of height and depth, and then a catch all, 'anything else in all creation.' The pairs are a way of covering everything in a poetic form. The word 'neither' repeats until the one 'nor anything else' sweeps up whatever the list left out.\n\nThe paragraph also closes Part One of Romans. It echoes the opening theme of 1:16-17 and answers the wrath of 1:18 with a love that nothing can cancel.",
+      "historical": "The hardships of verse 35 would have been familiar to Roman believers and to Paul himself, who lists nearly the same series of afflictions in 2 Corinthians 11:23-27 and 6:4-5. 'Nakedness' meant being stripped of clothing and possessions, and 'sword' was the instrument of official execution. When Paul writes of 'sheep to be slaughtered,' he is quoting a psalm from a community of Israel in exile or defeat, and applying it to the church, which was starting to find itself in the same position.\n\nPersecution was not yet an official policy in Rome, but it was a social reality. Followers of Christ refused to join in the worship of the emperor and the household gods, and so were liable to be seen as disloyal or atheist. Under Nero they would soon be accused and killed in numbers, and tradition holds that Paul himself died in the city.\n\nThe unseen powers in verse 38 belong to the ancient world's way of seeing things. Many in the Roman empire believed that fate, the stars and spiritual beings governed their destiny. 'Height' and 'depth' may allude to that sense of cosmic forces overhead and below. Paul's claim is that none of the forces people feared can stand between a believer and God's love. The statement would have been liberating to anyone who had lived in fear of fate.\n\nThe courtroom language also had a plain setting in Roman life. Accusation, trial and sentence were ordinary public events, and to have no accuser left standing was the best outcome a person could hope for.",
+      "canonical": "The passage is stitched out of the Old Testament. Verse 32 recalls the binding of Isaac, where the angel says, 'you have not withheld your son, your only son, from Me,' Genesis 22:12. Paul's words, 'did not spare His own Son,' put God where Abraham stood. Abraham was stopped, and God was not. The Greek Old Testament of Genesis 22:16 uses the same verb that Paul uses here for 'spare.'\n\nVerse 33 and 34 draw on Isaiah's third Servant Song. 'He who vindicates Me is near. Who will contend with Me?' Isaiah 50:8. The Servant faces his accusers confident that the LORD helps him, and Paul gives the confidence to those who are in Christ. Verse 34 also echoes Psalm 110:1, the right hand of God, which is the New Testament's most quoted Old Testament verse about Christ's exaltation.\n\nVerse 36 quotes Psalm 44:22 exactly, in a psalm where Israel asks why God has let them be scattered and put to shame though they have not forgotten Him. Paul deliberately quotes a psalm of unexplained suffering, to show that the suffering of believers is not a sign of God's abandonment.\n\nVerse 39 anticipates the great assurances of John's Gospel, where Jesus says no one can snatch His sheep from His hand, John 10:28-29, and prays that the love with which the Father loved Him may be in them, John 17:26. The theme is carried on in 1 John 4:9-10, where love is defined by the sending of the Son, and 1 John 4:16-19. The love of God is the final word of the section, and Revelation 12:11 says of those who overcame, 'they did not love their lives so much as to shrink from death.'"
     },
     "hermeneutics": {
-      "authorIntent": "To bring the argument of the first eight chapters to a triumphant close by assuring believers that, because God is for them and has given His own Son, no accusation, condemnation, or created power can ever separate them from His love, so that they may face every trial and even death as more than conquerors in Christ.",
-      "descriptionVsPrescription": "The passage describes the settled security of everyone in Christ, grounded in God's action, not the believer's performance. Its prescriptive force is the confidence and courage it calls forth: to face suffering and threat resting in the unbreakable love of God rather than in circumstances or in one's own strength.",
+      "authorIntent": "Paul wrote this to close an argument and to start a song. He had spent seven and a half chapters on the human condition, the cross, justification, and the Spirit. Here he gathers the results into a set of assurances meant to be said aloud by a church under pressure. The questions are the kind a preacher asks when he already knows the answer and wants the congregation to say it with him.\n\nHe wants believers to know that their security rests on what God has already done and not on how well they hold on. The strongest argument in the paragraph is the reasoning from the greater to the lesser in verse 32: if God gave His own Son, the greatest gift, then He will not withhold lesser gifts. The cross is the guarantee.\n\nPaul also wants the church to count suffering honestly. He lists real sorrows and quotes a psalm of lament, and then he says that in all of them there is a victory. He does not say the believer escapes the sword, only that the sword cannot reach the love. The passage was meant to turn fear into confidence and to equip Christians to endure, and to give them something to sing in the dark.",
+      "descriptionVsPrescription": "This paragraph is nearly all description of what God and Christ have done, and the right response is faith and thanksgiving, not a program. The only thing Paul commands is implicit: believe it. Nothing in the text instructs believers to prove that they are secure by their performance, and nothing tells them to suffer for its own sake.\n\nCare is needed with the word 'conquerors.' It is a description of how believers stand through Christ, who loved them, and not a promise of earthly success or a call to triumphalism. The same verse that names the conquerors names the sheep to be slaughtered. Victory in this passage is a victory within suffering and not a way around it.\n\nThe long list of what cannot separate should also be handled as Paul meant it: as a catalogue of threats from outside. It is not a statement that believers will never doubt or feel far from God, nor does it tell anyone that sin is without consequence. Chapter 8 itself has already said that those who live according to the flesh will die, verse 13. The promise belongs to those in Christ, and it is received, not earned.",
       "debates": [
         {
-          "question": "Does nothing can separate us from God's love mean a true believer can never finally fall away?",
+          "question": "Does 'nothing can separate us' mean a true believer can never fall away?",
           "views": [
-            { "label": "The final security of God's elect", "case": "The Reformed reading, to be foregrounded, takes Paul's sweeping list, that nothing in all creation can separate us, together with the unbroken chain of verse 30, to teach that those God has justified He will surely glorify; their security rests on God's love and Christ's finished work and intercession, not on their own strength, so they cannot finally be lost." },
-            { "label": "Assurance that calls for perseverance", "case": "Others, while affirming the passage's great comfort, stress that it is addressed to those who continue in faith and read it alongside the New Testament's warnings, so that assurance and the call to persevere are held together." }
+            {
+              "label": "Yes, God preserves all whom He has justified",
+              "case": "The list includes everything that could threaten the believer, and the paragraph rests on the chain of verse 30, where the justified are glorified. The verb is not 'will not' but 'will not be able to.' Jesus says of His sheep that no one will snatch them from His hand, John 10:28-29, and Paul says God will complete what He began, Philippians 1:6. On this view, those who do fall away were never truly in Christ, 1 John 2:19."
+            },
+            {
+              "label": "Nothing external can separate, but a person may abandon faith",
+              "case": "The list names outside forces. It does not name the believer's own choice to walk away, and warnings such as Hebrews 6:4-6 and 1 Corinthians 9:27 seem to leave that possibility open. On this view the love of God is unbreakable and a person can still leave it."
+            }
           ],
-          "bearing": "Either way the ground of security is God's own love and the finished work of Christ, not the believer's grip on God; the Reformed reading, here foregrounded, gives the fullest assurance that God will keep to the end all whom He has justified in His Son."
+          "bearing": "Both views agree that no hardship, enemy or power can sever a believer, and that the warnings of Scripture are real calls to persevere. The paragraph addresses the fear of being overcome from outside, and it is given to comfort the weary and not to excuse the careless."
         },
         {
-          "question": "What does Paul mean that we are more than conquerors?",
+          "question": "Does 'God's elect' in verse 33 refer to individuals chosen before time, or to the church as a whole?",
           "views": [
-            { "label": "Overwhelming victory through Christ's love", "case": "The historic reading takes it that believers not only survive their trials but triumph gloriously in them through Him who loved us, so that suffering itself is turned to their good and to deeper communion with Christ." },
-            { "label": "A promise of escape from hardship", "case": "Some might hear it as a pledge to be spared trouble, but the very list of trials, and the quotation about being slaughtered like sheep, shows the victory is won in and through suffering, not by avoiding it." }
+            {
+              "label": "Individuals chosen in Christ",
+              "case": "The same word and its relatives appear in Ephesians 1:4 and Romans 8:29-30, where particular people are foreknown, predestined and called. The accusers have no standing against those God has chosen and justified."
+            },
+            {
+              "label": "The people of God as a body",
+              "case": "'Elect' was a title for Israel, Isaiah 45:4, and is now applied to the church, Colossians 3:12. Paul is naming the community, and individuals share the title by being in Christ."
+            }
           ],
-          "bearing": "The passage locates the victory not in the absence of suffering but in the invincible love of Christ, so that in the very midst of trouble, persecution, and death believers are already more than conquerors."
+          "bearing": "The point of the verse is the same in either case: the verdict that matters has been given by God, and no charge brought afterward can reverse it. The title is a source of security, not a ground for pride."
         }
       ]
     },
-    "originalLanguages": "The logic of the climax turns on charizomai, to give freely as an act of grace: the God who did not spare His own Son will surely and graciously give His people all things with Him. Against God's eklektos, His chosen ones, no accuser can prevail, for God is the one who justifies. Paul then asks who or what could chorizo, separate, believers from Christ's love, and piles up every threat only to answer that none can, for in all these things they are hypernikao, more than conquerors, winning an overwhelming victory through Him who loved them. The ground of it all is the agape, the covenant, self giving love of God in Christ Jesus our Lord, from which nothing in all creation can ever tear them.",
+    "originalLanguages": "The question of verse 31 turns on the preposition hyper in 'if God is for us.' It means 'on behalf of' and the same preposition recurs in verse 32, 'gave Him up for us all,' and in verse 34, where Christ is interceding for us. So the claim that God is for us is not a mood but a deed: He is for us in the giving of His Son. The opposing word, kata, 'against,' sits across from it in 'who can be against us,' and the contrast is between two prepositions. The 'if' is not doubt. It means 'since,' because the condition has already been met.\n\nThe phrase 'did not spare His own Son' uses pheidomai, to spare or hold back. The word 'own' is idios, which stresses that this was not an adopted or lesser child but one who belonged to Him in a special way. The phrase 'gave Him up' is paradidomi, the verb used for handing a person over to the authorities or to judgment. It is also the verb of Isaiah 53 in the Greek Old Testament, where the Servant is handed over for our sins, Isaiah 53:12. The same verb appears in Romans 4:25, 'delivered over to death for our trespasses.' In Romans 1:24, 1:26 and 1:28, God hands sinners over to their desires, and here He hands over His Son for those sinners.\n\nThe verb 'freely give' is charizomai, built on charis, grace, so the giving of 'all things' is itself an act of grace. It cannot be earned. The phrase 'all things' is plainly not a promise of every wish, since it is given 'along with Him,' meaning in union with the Son, and the context is the inheritance of glory, verses 17 and 30.\n\nIn verse 33 the verb 'bring a charge' is enkaleo, a courtroom word for filing an accusation, and the matching verb in verse 34, katakrino, 'condemn,' is the noun's relative of katakrima in verse 1. The two verses together cover both the charge and the sentence. 'Justifies' is dikaioo, the verb that has been the heart of the letter since chapter 3.\n\nIn verse 34 the phrase 'more than that' is mallon de, 'rather,' which moves from the death of Christ to the resurrection as the stronger ground of confidence. The sentence structure lays four statements side by side: died, raised, at the right hand, interceding. The last is in the present tense, a continuous action.\n\nThe word in verse 37 is hypernikao, 'we overwhelmingly conquer,' a compound of the verb for conquering with hyper, 'over and above.' It is found nowhere else in the New Testament, and the form means that believers conquer with a surplus. The phrase 'through Him who loved us' uses the aorist tense, a single past act, pointing to the cross.\n\nIn verse 38 the verb 'I am convinced' is pepeismai, in the perfect tense, which describes a settled state that has resulted from past persuasion. Paul has been persuaded and remains so.",
     "typology": [
-      { "type": "God not sparing His own Son", "fulfillment": "Fulfills Abraham not withholding Isaac his beloved son in Genesis 22, where God provided a substitute; now God Himself provides His own Son as the offering for us all." },
-      { "type": "Sheep to be slaughtered", "fulfillment": "The suffering of God's faithful people in Psalm 44 points to Christ the Lamb led to slaughter, in and through whom His people are made more than conquerors." },
-      { "type": "Christ at the right hand interceding", "fulfillment": "Fulfills the ministry foreshadowed by the high priest who represented the people before God, now the risen Christ pleading for His own at the Father's right hand." }
+      {
+        "type": "Abraham and Isaac on Mount Moriah, Genesis 22",
+        "fulfillment": "Abraham took his beloved son up the mountain and, when the knife was raised, was told that he had not withheld him, Genesis 22:12. Paul reverses the picture: God did not spare His own Son, and no ram was provided in His place. The correspondence is the father who gives up the beloved son, and the escalation is that Isaac was spared while Christ was handed over, as the Lamb that God Himself provided, John 1:29. The type falls short in that Isaac was a willing figure who never died, but Christ carried the wood and truly bore the sentence, John 19:17. Abraham's act was a test of obedience, while God's was an act of rescue."
+      },
+      {
+        "type": "The sheep to be slaughtered, Psalm 44:22",
+        "fulfillment": "The psalmist describes the faithful as sheep marked for slaughter, and Paul applies it to believers. The picture rests on the sacrificial animals of Israel and finds its center in Christ, who was 'like a lamb led to slaughter,' Isaiah 53:7, and who calls the disciples a flock, Luke 12:32. The correspondence is of suffering that is not a sign of abandonment. The escalation is that the Shepherd Himself became the sacrifice, John 10:11, and so the slaughter of the sheep is joined to His. The type falls short because the people's death is not atoning, whereas His is. Their suffering is shared with Him, Colossians 1:24, but never replaces His."
+      },
+      {
+        "type": "The Servant who is vindicated against accusers, Isaiah 50:7-9",
+        "fulfillment": "The Servant sets his face like flint, is confident that he will not be put to shame, and challenges any adversary to come forward, since the LORD helps him. Paul gives this confidence to believers in verses 33 and 34, joined to Christ. The correspondence is the suffering one who is declared right by God. The pattern is fulfilled in Jesus, who was raised and vindicated in the Spirit, 1 Timothy 3:16, and who gives His people a share in His vindication. The type is limited in that the Servant stands alone in Isaiah, while here an entire people stands in the verdict that He won."
+      },
+      {
+        "type": "The conqueror and the foes of Israel's wars",
+        "fulfillment": "Israel was told that the LORD would fight for them and that no enemy could stand before them, as in Joshua 1:5 and 23:9-10. The pattern is of victory given by God. Paul's list of enemies, death, powers and rulers, belongs to a larger scale, and the victory is won in the death and resurrection of Christ, who disarmed the rulers and authorities, Colossians 2:15. The correspondence is real, but the battle has been won in a different way, by being killed, and the conquest is not of land but of the powers themselves. It is not yet complete, since the last enemy to be destroyed is death, 1 Corinthians 15:26."
+      }
     ],
-    "christ": "Christ is the ground of every assurance in this passage. He is the own Son whom God did not spare but gave up for us all, the gift that guarantees every other gift. He died, was raised, ascended to the right hand of God, and there He intercedes for His people, so that no condemnation can stand against them. He is the one who loved us, through whom we are more than conquerors, and His love, one with the love of God, is the unbreakable bond that holds believers through every trial and beyond death itself. The whole triumph rests on His finished and continuing work.",
-    "god": "The passage rings with the assurance that God is for us. He is the righteous Judge whose justifying verdict no accuser can reverse, and the Father whose love is proven beyond doubt by the giving of His own Son. His love is not fragile or fickle but stronger than death, angels, powers, and every created thing. Here the character of God is displayed in its highest saving glory: a God so committed to His people that, having given His Son, He will surely give them all things and keep them in His love forever.",
+    "christ": "Christ is the answer to every question in the paragraph, and the passage names Him in four steps. He is first the Son who was given up. The Father did not spare Him, and Paul's wording is so close to Genesis 22 that the reader is meant to hear Moriah behind it. The one thing Abraham did not have to do, God did. The giving is also the greatest evidence of His love, as John 3:16 and 1 John 4:10 say.\n\nChrist is then the one who died. The first of the four statements of verse 34 is the foundation of the others: the sentence that stood against us has been carried by Him, Romans 5:8-9 and 2 Corinthians 5:21. The accuser can say only what is true, and the one who justifies has already dealt with the truth by the cross, Colossians 2:14.\n\nChrist is the one who was raised, and Paul says this is 'more than that.' The resurrection is the proof that the sacrifice was accepted, Romans 4:25, and the beginning of the new life in which His people share, Romans 6:4-5. He is at the right hand of God, in the place of rule that Psalm 110:1 gave to the Messiah, and from there He rules and reigns until His enemies are put under His feet, 1 Corinthians 15:25.\n\nAnd He is the one who intercedes. Hebrews presents Him as a High Priest who lives forever to make intercession, Hebrews 7:25, and as one who sympathizes with our weakness, Hebrews 4:15. John adds that if anyone sins, 'an Advocate with the Father,' 1 John 2:1, Jesus Christ the Righteous One. The believer faces the charge with a defender who bears the marks of the crucifixion.\n\nFinally, He is the one who loved us. The love of Christ in verse 35 and the love of God in verse 39 are the same love, and verse 39 places it 'in Christ Jesus our Lord,' so that He is the place where the love is found as well as the proof of it. Paul writes in Galatians 2:20 of 'the Son of God, who loved me and gave Himself for me.'\n\nA caution is in order. The passage does not require us to read hidden pictures of Christ in every phrase, and the sheep and the conquerors are the church, not Christ. The links are those the text makes: the Genesis 22 allusion, the Isaiah Servant, and the four verbs of verse 34.",
+    "god": "This paragraph is among the plainest portraits in Scripture of a God who is for His people. The central statement of verse 31 is not that God is powerful, though He is, but that He is on our side, and the proof is the cost He bore. The argument from the greater to the lesser in verse 32 shows God's generosity: having given the most, He will not hesitate over the less.\n\nHe is the judge who justifies. The courtroom language places God as the one whose verdict settles every dispute. When He has declared a person righteous, no other court has jurisdiction. This is justice and mercy together, because the verdict is not a pretense, and it rests on the sacrifice of verse 32. Isaiah 43:25 says He blots out transgressions for His own sake, and Romans 3:26 says He is both just and the one who justifies.\n\nHe is faithful, and His love is stronger than any force. The paragraph is a catalogue of everything that might come between a person and God, and the claim is that none of it is able. This is possible only because the love belongs to One who is himself greater than death, angels, powers and the passage of time. The love of God is not a feeling that can fade, but a commitment backed by His power, as Moses says of the covenant in Deuteronomy 7:9.\n\nHe is Trinitarian in the way He saves. The Father gives the Son, the Son dies, rises and intercedes, and the Spirit has been at work through the chapter. The love of verse 39 is the love of God the Father, found in Christ Jesus. The Father and the Son are bound together in one purpose of rescue.\n\nHe is also the God who permits suffering and still holds His people. The psalm Paul cites was about an unexplained affliction, and Paul does not explain it either. He says only that in all these things the love holds. The doctrine here is of a God who is neither absent nor the cause of evil but who is present in the middle of it.\n\nFor worship, the passage invites confident praise. Believers can sing it as a hymn, and many have, because it ends not in a command but in a doxology of trust. The right response is gratitude, rest and courage.",
     "crossReferences": [
-      { "ref": "Genesis 22:12-16", "note": "Abraham did not withhold his son, his only son, foreshadowing God who did not spare His own Son but gave Him up for us all." },
-      { "ref": "Isaiah 50:8-9", "note": "The LORD who helps His servant, so who can condemn him, language echoed in who is there to condemn us." },
-      { "ref": "Psalm 44:22", "note": "For Your sake we face death all day long, quoted in verse 36 to describe the sufferings through which believers conquer." },
-      { "ref": "John 10:28-29", "note": "Christ's sheep will never perish, and no one can snatch them from His hand, matching nothing can separate us from His love." }
+      {
+        "ref": "Genesis 22:12-16",
+        "note": "God commends Abraham because he did not withhold his only son. In Romans 8:32 the phrase is turned around: God Himself does not withhold His Son. The Moriah story is the shadow, and Calvary the substance."
+      },
+      {
+        "ref": "Isaiah 50:8-9",
+        "note": "The Servant of the LORD declares that his vindicator is near and asks who will contend with him. Paul places the believer in the same position, because the one who justifies is near, and no accuser can bring a charge that will stand."
+      },
+      {
+        "ref": "Psalm 44:22",
+        "note": "A national lament that asks why God's people face slaughter all day long though they have been faithful. Paul quotes it to show that suffering has always been the lot of God's people, and that it does not contradict His love."
+      },
+      {
+        "ref": "John 10:28-29",
+        "note": "Jesus says that He gives His sheep eternal life, that they will never perish, and that no one can snatch them from His hand or from the Father's. It is the same assurance as Romans 8:38-39, spoken by the Shepherd Himself."
+      },
+      {
+        "ref": "Psalm 110:1",
+        "note": "The LORD says to my Lord, 'Sit at My right hand.' The right hand of God in Romans 8:34 is this enthronement. The Christ who died is also the one who reigns, and His intercession is the work of a king and priest, Psalm 110:4."
+      },
+      {
+        "ref": "Hebrews 7:25",
+        "note": "Christ is able to save completely those who draw near to God through Him because He always lives to intercede for them. It explains why intercession can be unbroken, and so why condemnation can never get in."
+      },
+      {
+        "ref": "1 John 4:9-10",
+        "note": "God's love was made known by sending His one and only Son, and love consists in His sending Him as a propitiation for our sins, not in our love for Him. It states the logic of Romans 8:32 and 8:35, that the cross is the proof and measure of the love."
+      },
+      {
+        "ref": "Colossians 2:13-15",
+        "note": "God cancelled the record of debt that stood against us, nailed it to the cross, and disarmed the rulers and authorities. It stands behind the question of who can condemn and the claim of Romans 8:37 that believers conquer through Him."
+      },
+      {
+        "ref": "Romans 8:1",
+        "note": "The chapter opens with 'no condemnation for those who are in Christ Jesus,' and Romans 8:34 asks who is there to condemn. The two statements frame the chapter, and the second confirms the first with the full reasons for it."
+      },
+      {
+        "ref": "2 Timothy 4:17-18",
+        "note": "Paul, abandoned at his first defense, says the Lord stood with him and will rescue him from every evil deed and bring him safely to His heavenly kingdom. It is a personal case of verses 35 to 39, from a man who knew trouble, danger and the sword."
+      }
     ],
-    "oneStory": "The whole Bible tells of a God who binds Himself in covenant love to a people and refuses to let them go. That love is proven at the cross, where God did not spare His own Son. Here Paul lifts the story to its height: no charge, no condemnation, no power, no trial, not death itself can separate God's people from His love in Christ. Carried by that love, they pass through every enemy as more than conquerors, secure forever in Christ Jesus our Lord.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "From the garden onward, the story of Scripture is a story of separation and of the God who refuses to let it be final. Adam hid, Cain was driven out, Israel was sent into exile, and every one of these breaches seemed to say that the love of God had limits. Yet in each of them God came looking, clothed the guilty, marked a murderer for protection, and promised a return. The promise of Romans 8:35 to 39 is the end of that pattern, because it is a love tested against everything and unbroken.\n\nThe paragraph also reaches back to the covenant. God had sworn to Abraham, to Israel and to David that He would not abandon His people, and the prophets had said that the LORD loves with an everlasting love, Jeremiah 31:3. Paul shows how the promise is kept: the Father gives His Son in the place of the people He loves, and the cost of fulfilling the covenant is paid at the cross, so that the covenant love of God is no longer only promised but demonstrated.\n\nIt sets up what follows in two directions. In the near term, chapters 9 to 11 raise the question this paragraph provokes: if nothing can separate believers from the love of God, what has happened to Israel, whose unbelief seems to put them outside it? The answer will rely on the same faithfulness of God. In the long term, the paragraph looks to the end, where those who conquered by the blood of the Lamb stand before the throne, Revelation 12:11 and 7:9-17.\n\nThe end of the story is the one this paragraph promises. In the new creation, nothing is left that could separate: there is no more death, no more tears, no curse, and God dwells with His people, Revelation 21:3-4. The song of Romans 8 has become the song of the redeemed, who sing because they have reached the place the love was always taking them.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "How does Paul reason from God giving His own Son?",
       "options": [
-        { "text": "The God who did not spare His own Son will surely also freely give us all things with Him.", "weight": 100, "note": "Verse 32 argues from the greatest gift to the certainty of every lesser one." },
-        { "text": "Since God gave His Son, believers must now earn the rest for themselves.", "weight": 25, "note": "The point is that God freely gives all things, not that we earn them." },
-        { "text": "God gave His Son, but the rest remains uncertain.", "weight": 75, "note": "Closer: the gift of the Son is grasped, but that greater gift is exactly what guarantees all the rest." },
-        { "text": "God's giving of His Son has no bearing on our other needs.", "weight": 0, "note": "Paul ties every gift directly to the giving of the Son." }
+        {
+          "text": "The God who did not spare His own Son will surely also freely give us all things with Him.",
+          "weight": 100,
+          "note": "Verse 32 argues from the greatest gift to the certainty of every lesser one."
+        },
+        {
+          "text": "Since God gave His Son, believers must now earn the rest for themselves.",
+          "weight": 25,
+          "note": "The point is that God freely gives all things, not that we earn them."
+        },
+        {
+          "text": "God gave His Son, but the rest remains uncertain.",
+          "weight": 75,
+          "note": "Closer: the gift of the Son is grasped, but that greater gift is exactly what guarantees all the rest."
+        },
+        {
+          "text": "God's giving of His Son has no bearing on our other needs.",
+          "weight": 0,
+          "note": "Paul ties every gift directly to the giving of the Son."
+        }
       ]
     },
     {
       "q": "Why can no charge stand against God's elect?",
       "options": [
-        { "text": "Because it is God who justifies, and Christ who died, rose, and intercedes for us.", "weight": 100, "note": "Verses 33 and 34 silence every accuser with God's verdict and Christ's work." },
-        { "text": "Because believers have never really sinned.", "weight": 25, "note": "Believers are sinners, but God justifies them in Christ, so no charge holds." },
-        { "text": "Because there is no judge who cares about sin.", "weight": 0, "note": "God is the Judge; the point is that He Himself justifies His elect." },
-        { "text": "Because believers defend themselves well.", "weight": 75, "note": "Closer: there is a defense, but it rests on God's justifying and Christ's intercession, not our own." }
+        {
+          "text": "Because it is God who justifies, and Christ who died, rose, and intercedes for us.",
+          "weight": 100,
+          "note": "Verses 33 and 34 silence every accuser with God's verdict and Christ's work."
+        },
+        {
+          "text": "Because believers have never really sinned.",
+          "weight": 25,
+          "note": "Believers are sinners, but God justifies them in Christ, so no charge holds."
+        },
+        {
+          "text": "Because there is no judge who cares about sin.",
+          "weight": 0,
+          "note": "God is the Judge; the point is that He Himself justifies His elect."
+        },
+        {
+          "text": "Because believers defend themselves well.",
+          "weight": 75,
+          "note": "Closer: there is a defense, but it rests on God's justifying and Christ's intercession, not our own."
+        }
       ]
     },
     {
       "q": "What can separate believers from the love of Christ?",
       "options": [
-        { "text": "Nothing in all creation, not trouble, persecution, danger, death, or any power.", "weight": 100, "note": "Verses 35 to 39 declare that nothing can separate us from God's love in Christ." },
-        { "text": "Severe enough suffering or persecution.", "weight": 25, "note": "Paul lists these very things as unable to separate us." },
-        { "text": "Death itself.", "weight": 75, "note": "Closer: death is a real and great threat, but Paul names it first among the things that cannot separate us." },
-        { "text": "Our past sins, which cancel God's love.", "weight": 0, "note": "God justifies and His love holds; nothing, including past sin, can separate us." }
+        {
+          "text": "Nothing in all creation, not trouble, persecution, danger, death, or any power.",
+          "weight": 100,
+          "note": "Verses 35 to 39 declare that nothing can separate us from God's love in Christ."
+        },
+        {
+          "text": "Severe enough suffering or persecution.",
+          "weight": 25,
+          "note": "Paul lists these very things as unable to separate us."
+        },
+        {
+          "text": "Death itself.",
+          "weight": 75,
+          "note": "Closer: death is a real and great threat, but Paul names it first among the things that cannot separate us."
+        },
+        {
+          "text": "Our past sins, which cancel God's love.",
+          "weight": 0,
+          "note": "God justifies and His love holds; nothing, including past sin, can separate us."
+        }
       ]
     },
     {
       "q": "What does it mean that we are more than conquerors?",
       "options": [
-        { "text": "Through Him who loved us we win an overwhelming victory even in the midst of suffering.", "weight": 100, "note": "Verse 37 grounds the victory in Christ's love, won in and through trials." },
-        { "text": "We are promised a life free from all suffering.", "weight": 25, "note": "The victory comes in the very trials listed, not by escaping them." },
-        { "text": "We conquer by our own strength and courage.", "weight": 75, "note": "Closer: the victory is real, but it comes through Him who loved us, not our own power." },
-        { "text": "We merely manage to survive our trials.", "weight": 0, "note": "Paul says more than conquerors, an overwhelming triumph, not bare survival." }
+        {
+          "text": "Through Him who loved us we win an overwhelming victory even in the midst of suffering.",
+          "weight": 100,
+          "note": "Verse 37 grounds the victory in Christ's love, won in and through trials."
+        },
+        {
+          "text": "We are promised a life free from all suffering.",
+          "weight": 25,
+          "note": "The victory comes in the very trials listed, not by escaping them."
+        },
+        {
+          "text": "We conquer by our own strength and courage.",
+          "weight": 75,
+          "note": "Closer: the victory is real, but it comes through Him who loved us, not our own power."
+        },
+        {
+          "text": "We merely manage to survive our trials.",
+          "weight": 0,
+          "note": "Paul says more than conquerors, an overwhelming triumph, not bare survival."
+        }
       ]
     },
     {
       "q": "On what is the believer's security ultimately grounded?",
       "options": [
-        { "text": "On the love of God in Christ Jesus, proven by the giving of His own Son.", "weight": 100, "note": "The passage roots all security in God's unbreakable love shown at the cross." },
-        { "text": "On the believer's own firm grip on God.", "weight": 75, "note": "Closer: faith matters, but security rests on God's love holding us, not on our grip on Him." },
-        { "text": "On favorable circumstances staying favorable.", "weight": 25, "note": "The love holds through trouble, danger, and sword, not on good circumstances." },
-        { "text": "On nothing certain; it is finally a matter of chance.", "weight": 0, "note": "Paul is fully convinced; the ground is the sure love of God in Christ." }
+        {
+          "text": "On the love of God in Christ Jesus, proven by the giving of His own Son.",
+          "weight": 100,
+          "note": "The passage roots all security in God's unbreakable love shown at the cross."
+        },
+        {
+          "text": "On the believer's own firm grip on God.",
+          "weight": 75,
+          "note": "Closer: faith matters, but security rests on God's love holding us, not on our grip on Him."
+        },
+        {
+          "text": "On favorable circumstances staying favorable.",
+          "weight": 25,
+          "note": "The love holds through trouble, danger, and sword, not on good circumstances."
+        },
+        {
+          "text": "On nothing certain; it is finally a matter of chance.",
+          "weight": 0,
+          "note": "Paul is fully convinced; the ground is the sure love of God in Christ."
+        }
       ]
     }
   ],
@@ -162,9 +370,21 @@
     "Nothing in all creation can separate you from the love of God in Christ. How does resting your security in God's love rather than your own strength free you to face even death with hope?"
   ],
   "translationNotes": [
-    { "ref": "Romans 8:32", "note": "Did not spare His own Son deliberately echoes Genesis 22:12, where Abraham did not withhold his only son; the same verb underlines that God provided His true Son as the offering. Freely give renders charizomai, to give as an act of grace." },
-    { "ref": "Romans 8:34", "note": "The verse names four grounds of assurance: Christ died, was raised, reigns, and intercedes." },
-    { "ref": "Romans 8:36", "note": "Verse 36 quotes Psalm 44:22. The two poetic lines of the citation are set out contiguously in prose here, preserving the words while keeping the study's single running text." }
+    {
+      "ref": "Romans 8:32",
+      "note": "Did not spare His own Son deliberately echoes Genesis 22:12, where Abraham did not withhold his only son; the same verb underlines that God provided His true Son as the offering. Freely give renders charizomai, to give as an act of grace."
+    },
+    {
+      "ref": "Romans 8:34",
+      "note": "The verse names four grounds of assurance: Christ died, was raised, reigns, and intercedes."
+    },
+    {
+      "ref": "Romans 8:36",
+      "note": "Verse 36 quotes Psalm 44:22. The two poetic lines of the citation are set out contiguously in prose here, preserving the words while keeping the study's single running text."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched this session from bible.helloao.org for Romans 8:31-39. Footnote markers were omitted and line breaks treated as spaces per the source structure. The Psalm 44:22 quotation in verse 36 was rendered as contiguous prose. Marked as the climax of the letter with climax emphasis on all three units. The final-security reading is foregrounded with the perseverance view represented fairly, both grounding security in God's love and Christ's work. Sermon left as none; no expositor sermon URL verified this session." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched this session from bible.helloao.org for Romans 8:31-39. Footnote markers were omitted and line breaks treated as spaces per the source structure. The Psalm 44:22 quotation in verse 36 was rendered as contiguous prose. Marked as the climax of the letter with climax emphasis on all three units. The final-security reading is foregrounded with the perseverance view represented fairly, both grounding security in God's love and Christ's work. Sermon left as none; no expositor sermon URL verified this session."
+  }
 }

@@ -18,11 +18,31 @@
         "note": "cling to good, serve the Lord",
         "emphasis": "",
         "verses": [
-          { "chapter": 12, "n": 9, "text": "{{agape|Love}} must be {{anupokritos|sincere}}. Detest what is evil; cling to what is good." },
-          { "chapter": 12, "n": 10, "text": "Be devoted to one another in {{philadelphia|brotherly love}}. Outdo yourselves in honoring one another." },
-          { "chapter": 12, "n": 11, "text": "Do not let your zeal subside; keep your spiritual fervor, serving the Lord." },
-          { "chapter": 12, "n": 12, "text": "Be joyful in hope, patient in affliction, persistent in prayer." },
-          { "chapter": 12, "n": 13, "text": "Share with the saints who are in need. Practice hospitality." }
+          {
+            "chapter": 12,
+            "n": 9,
+            "text": "{{agape|Love}} must be {{anupokritos|sincere}}. Detest what is evil; cling to what is good."
+          },
+          {
+            "chapter": 12,
+            "n": 10,
+            "text": "Be devoted to one another in {{philadelphia|brotherly love}}. Outdo yourselves in honoring one another."
+          },
+          {
+            "chapter": 12,
+            "n": 11,
+            "text": "Do not let your zeal subside; keep your spiritual fervor, serving the Lord."
+          },
+          {
+            "chapter": 12,
+            "n": 12,
+            "text": "Be joyful in hope, patient in affliction, persistent in prayer."
+          },
+          {
+            "chapter": 12,
+            "n": 13,
+            "text": "Share with the saints who are in need. Practice hospitality."
+          }
         ]
       },
       {
@@ -30,9 +50,21 @@
         "note": "weep with those who weep",
         "emphasis": "",
         "verses": [
-          { "chapter": 12, "n": 14, "text": "Bless those who persecute you. Bless and do not curse." },
-          { "chapter": 12, "n": 15, "text": "Rejoice with those who rejoice; weep with those who weep." },
-          { "chapter": 12, "n": 16, "text": "Live in harmony with one another. Do not be proud, but associate with the lowly. Do not be conceited." }
+          {
+            "chapter": 12,
+            "n": 14,
+            "text": "Bless those who persecute you. Bless and do not curse."
+          },
+          {
+            "chapter": 12,
+            "n": 15,
+            "text": "Rejoice with those who rejoice; weep with those who weep."
+          },
+          {
+            "chapter": 12,
+            "n": 16,
+            "text": "Live in harmony with one another. Do not be proud, but associate with the lowly. Do not be conceited."
+          }
         ]
       },
       {
@@ -40,20 +72,60 @@
         "note": "leave room for God's wrath",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 12, "n": 17, "text": "Do not repay anyone evil for evil. Carefully consider what is right in the eyes of everybody." },
-          { "chapter": 12, "n": 18, "text": "If it is possible on your part, live at peace with everyone." },
-          { "chapter": 12, "n": 19, "text": "Do not avenge yourselves, beloved, but leave room for God’s wrath. For it is written: “{{ekdikesis|Vengeance}} is Mine; I will repay, says the Lord.”" },
-          { "chapter": 12, "n": 20, "text": "On the contrary, “If your enemy is hungry, feed him; if he is thirsty, give him a drink. For in so doing, you will heap burning coals on his head.”" },
-          { "chapter": 12, "n": 21, "text": "Do not be overcome by evil, but overcome evil with good." }
+          {
+            "chapter": 12,
+            "n": 17,
+            "text": "Do not repay anyone evil for evil. Carefully consider what is right in the eyes of everybody."
+          },
+          {
+            "chapter": 12,
+            "n": 18,
+            "text": "If it is possible on your part, live at peace with everyone."
+          },
+          {
+            "chapter": 12,
+            "n": 19,
+            "text": "Do not avenge yourselves, beloved, but leave room for God’s wrath. For it is written: “{{ekdikesis|Vengeance}} is Mine; I will repay, says the Lord.”"
+          },
+          {
+            "chapter": 12,
+            "n": 20,
+            "text": "On the contrary, “If your enemy is hungry, feed him; if he is thirsty, give him a drink. For in so doing, you will heap burning coals on his head.”"
+          },
+          {
+            "chapter": 12,
+            "n": 21,
+            "text": "Do not be overcome by evil, but overcome evil with good."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "agape": { "language": "Greek", "lemma": "agape", "original": "ἀγάπη", "gloss": "Love, the self-giving love that seeks the good of another. It is the banner over this whole section and the fulfillment of the law. Agape is not mere sentiment but a settled devotion that acts, the very love of God poured into our hearts by the Spirit and now flowing out to brother and enemy alike." },
-    "anupokritos": { "language": "Greek", "lemma": "anupokritos", "original": "ἀνυπόκριτος", "gloss": "Without hypocrisy, unfeigned, genuine. The word comes from the theatre, where an actor wore a mask and played a part. Christian love must wear no mask: it is to be real, not performed, sincere all the way down. Paul places it first because pretended love is no love at all." },
-    "philadelphia": { "language": "Greek", "lemma": "philadelphia", "original": "φιλαδελφία", "gloss": "Brotherly love, the warm affection of family. In Christ believers are truly brothers and sisters, so their love is to have the tenderness of kin. Paul urges a devoted, honoring affection within the household of faith that outdoes itself in preferring others." },
-    "ekdikesis": { "language": "Greek", "lemma": "ekdikesis", "original": "ἐκδίκησις", "gloss": "Vengeance, the giving of full justice. Paul quotes God's own word, vengeance is Mine, to take retribution out of the believer's hands and place it in God's. To leave room for God's wrath is to trust that the righteous Judge will settle every account, freeing His people to bless rather than avenge." }
+    "agape": {
+      "language": "Greek",
+      "lemma": "agape",
+      "original": "ἀγάπη",
+      "gloss": "Love, the self-giving love that seeks the good of another. It is the banner over this whole section and the fulfillment of the law. Agape is not mere sentiment but a settled devotion that acts, the very love of God poured into our hearts by the Spirit and now flowing out to brother and enemy alike."
+    },
+    "anupokritos": {
+      "language": "Greek",
+      "lemma": "anupokritos",
+      "original": "ἀνυπόκριτος",
+      "gloss": "Without hypocrisy, unfeigned, genuine. The word comes from the theatre, where an actor wore a mask and played a part. Christian love must wear no mask: it is to be real, not performed, sincere all the way down. Paul places it first because pretended love is no love at all."
+    },
+    "philadelphia": {
+      "language": "Greek",
+      "lemma": "philadelphia",
+      "original": "φιλαδελφία",
+      "gloss": "Brotherly love, the warm affection of family. In Christ believers are truly brothers and sisters, so their love is to have the tenderness of kin. Paul urges a devoted, honoring affection within the household of faith that outdoes itself in preferring others."
+    },
+    "ekdikesis": {
+      "language": "Greek",
+      "lemma": "ekdikesis",
+      "original": "ἐκδίκησις",
+      "gloss": "Vengeance, the giving of full justice. Paul quotes God's own word, vengeance is Mine, to take retribution out of the believer's hands and place it in God's. To leave room for God's wrath is to trust that the righteous Judge will settle every account, freeing His people to bless rather than avenge."
+    }
   },
   "study": {
     "basic": {
@@ -67,93 +139,254 @@
       "oneStory": "From the beginning God purposed a people who would bear His likeness in love. The law commanded love of neighbor; the prophets longed for changed hearts; Christ embodied love to the point of blessing His killers. Now, by the Spirit, that same love takes flesh in the church, a community that returns good for evil and so displays the God who overcomes evil with good."
     },
     "context": {
-      "literary": "Verses 9 to 21 form a string of short, punchy exhortations, many without connecting words, giving the feel of a rapid ethical portrait. Verse 9a, love must be sincere, functions as the title over the whole. The section divides naturally between love within the body, verses 9 to 13, and love toward outsiders and enemies, verses 14 to 21, which rises to a climax in the refusal of revenge.",
-      "historical": "For a small, sometimes suspected minority in Rome, the call to bless persecutors and never retaliate was intensely practical. Believers could face slander, social hostility, and worse. Paul's instruction shaped a community that would not answer hostility in kind but would win a hearing for the gospel through conspicuous, sincere love.",
-      "canonical": "This passage gathers up the ethic of Jesus in the Sermon on the Mount and restates the Old Testament wisdom of Proverbs and the justice of Deuteronomy. It anticipates 1 Peter's teaching on suffering without retaliation and stands as one of the fullest New Testament descriptions of the love that marks the true people of God."
+      "literary": "Verses 9 to 21 read like a string of beads, and the thread is not obvious in English because Paul drops most of his verbs. In Greek, many of the lines are bare participles and adjectives with no main verb: 'hating the evil, clinging to the good', 'rejoicing in hope, enduring in affliction'. They hang from the heading of verse 9, 'love without hypocrisy', and read as descriptions of what love looks like when it is moving. Translators supply imperatives, and the force is the same, but the rhythm is that of a portrait being drawn quickly.\n\nThe unit has an inclusio around good and evil. Verse 9 opens with hating evil and clinging to good; verse 21 closes with refusing to be conquered by evil and conquering evil with good. Inside that frame the passage turns on the verb for 'pursuing', diokontes, which appears first in a good sense, pursuing hospitality in verse 13, and then in a bad one, those who pursue you in verse 14. The believer chases hospitality while being chased by hostility, and is told to answer pursuit with blessing.\n\nThe movement is from the household of faith to the whole world. Verses 9 to 13 are about 'one another' and 'the saints'; verses 14 to 16 mix the inside and the outside; verses 17 to 21 speak of 'anyone', 'everyone', 'your enemy'. Verses 19 to 21 carry the argument's weight, and they are built from two Old Testament quotations, Deuteronomy 32:35 and Proverbs 25:21-22, framed by Paul's own commands in verses 17 and 18 and 21.",
+      "historical": "A century of Roman history lies behind the instruction to bless and not curse. The Christians in Rome were a minority within a minority. Many were Jews, or Gentiles associated with the synagogues, and the city had seen disturbances over this very community, which is why Claudius expelled Jews around AD 49, Acts 18:2. After his death the exiles drifted back, to a church changed by Gentile leadership and a suspicious public.\n\nIn that setting the commands about honour and hospitality had a very practical point. Believers in a city of crowded tenements and sharp status lines had little safety apart from one another. To 'share with the saints who are in need', and to pursue hospitality, meant opening a room or a table to travelling believers, a lifeline for the church's messengers and for Paul himself, who hoped to be received at Rome and sent on to Spain, Romans 15:24.\n\nThe code of honour in the Greco-Roman world held that wrongs must be repaid, and failure to do so was shameful. Paul's counsel cuts directly across that. Jewish believers knew the Torah forbids private vengeance, Leviticus 19:17-18, and the wisdom tradition teaches kindness to enemies, Proverbs 24:17-18 and 25:21-22. What is striking is that Paul asks Gentile believers to adopt that ethic as the normal shape of life. Not repaying evil with evil was not only virtue but strategy, since a church known for sincere love could not easily be dismissed as a danger to the city.",
+      "canonical": "Paul is not inventing a new ethic. Much of this passage is woven from earlier Scripture. Verse 16's 'do not be conceited' echoes Proverbs 3:7, verse 17's 'consider what is right in the eyes of everybody' picks up the Greek text of Proverbs 3:4, verse 19 quotes Deuteronomy 32:35, and verse 20 is Proverbs 25:21-22 almost word for word in the Greek. Leviticus 19:17-18 forbids hating a brother and taking vengeance, and ends with the command to love one's neighbour as oneself, which Romans 13:8-10 will take up next.\n\nThe passage also reads as a digest of the teaching of Jesus. Blessing those who curse, loving enemies and refusing retaliation are the substance of Matthew 5:38-48 and Luke 6:27-36, and many commentators hear in verse 14 a deliberate echo of Jesus' words. Paul does not say 'Jesus said', but the shape is the same.\n\nLater authors lean on the same stream. 1 Thessalonians 5:15 says to make sure no one repays evil for evil. Peter says not to return evil for evil or insult for insult but to give a blessing, 1 Peter 3:9, and he grounds it in the pattern of Christ's own suffering, 1 Peter 2:21-23. In the book of Revelation the saints overcome 'by the blood of the Lamb' and by not loving their lives, Revelation 12:11, which is Romans 12:21 lived under extreme pressure. Taken together, the canon treats non-retaliation as the characteristic stance of God's people between the first and second comings of Christ."
     },
     "hermeneutics": {
-      "authorIntent": "To describe the character produced by the gospel in the transformed community, so that sincere love, warm within the body and unretaliating toward enemies, marks the church as God's renewed people who leave judgment to God and overcome evil with good.",
-      "descriptionVsPrescription": "Though it portrays Christian character, the passage is a chain of commands and therefore fully prescriptive. Love must be sincere, bless your persecutors, do not avenge yourselves, overcome evil with good: these are binding for every believer, the abiding shape of a life shaped by mercy.",
+      "authorIntent": "Paul wanted the Roman church to be recognisable. The letter has argued that the gospel creates one people out of two, and now he sketches how that people looks from outside. Love is the heading, but the word he uses for the real thing is a negative one: love 'without hypocrisy'. The Greek word comes from the theatre, where an actor wore a mask. He meant that the church should not perform affection while holding back real commitment.\n\nHe also meant to prepare the church for chapter 13. The refusal of private vengeance in 12:19 is not a general rejection of justice. By leaving room for God's wrath, Paul sets up the next paragraph, where God's wrath works through the governing authority. The ordinary believer is not the one who carries the sword.\n\nThe pastoral aim is mutual: warm inside, gracious outside. The believers were to weep and rejoice together, be hospitable, be at peace so far as it depended on them, and meet hostility with kindness. Paul wanted them to live in the confidence that God sees, that He will repay, and that the final victory belongs to good.",
+      "descriptionVsPrescription": "The passage is made of commands and is meant to be obeyed. It does not simply describe how nice Christians are. Each line asks for something specific: bless, share, associate with the lowly, do not repay. They apply to all believers in every era.\n\nTwo careful distinctions are needed. First, the commands to live at peace 'if it is possible on your part' and to 'carefully consider what is right in the eyes of everybody' acknowledge that peace is not always possible. Paul does not promise that kindness will be reciprocated; he asks only that the believer not be the cause of the break. Second, the ban on vengeance applies to personal revenge. It does not tell victims of abuse to stay silent or stay put, nor does it forbid seeking help from lawful authorities; Romans 13:4 shows that God uses the courts and the police for that purpose. What the passage forbids is the heart that wants to hurt back.",
       "debates": [
         {
           "question": "What does heaping burning coals on his head mean in verse 20?",
           "views": [
-            { "label": "Kindness that leads to repentance", "case": "The most common reading takes the burning coals as the shame and conviction that acts of love stir in an enemy, melting hostility and moving him toward repentance, so that good genuinely overcomes evil." },
-            { "label": "An image of eventual judgment", "case": "Some take the coals as a warning that unrepented hostility will meet God's judgment, so that kindness both blesses the enemy and leaves any final reckoning to God." }
+            {
+              "label": "Kindness that leads to repentance",
+              "case": "The most common reading takes the burning coals as the shame and conviction that acts of love stir in an enemy, melting hostility and moving him toward repentance, so that good genuinely overcomes evil."
+            },
+            {
+              "label": "An image of eventual judgment",
+              "case": "Some take the coals as a warning that unrepented hostility will meet God's judgment, so that kindness both blesses the enemy and leaves any final reckoning to God."
+            }
           ],
           "bearing": "Either way the command is the same: return good for evil and leave the outcome to God; the historic reading foregrounds kindness aimed at winning the enemy, not securing his ruin."
         },
         {
           "question": "Does leaving room for God's wrath cancel all human justice?",
           "views": [
-            { "label": "It restrains personal revenge, not public justice", "case": "The historic reading limits this to private retaliation; the very next chapter says God has given the governing authority the sword as His avenger, so ordered justice remains God's appointed means." },
-            { "label": "It calls for total non-resistance to evil", "case": "Some have read it as forbidding any use of force or legal redress at all, urging pure non-resistance in every sphere." }
+            {
+              "label": "It restrains personal revenge, not public justice",
+              "case": "The historic reading limits this to private retaliation; the very next chapter says God has given the governing authority the sword as His avenger, so ordered justice remains God's appointed means."
+            },
+            {
+              "label": "It calls for total non-resistance to evil",
+              "case": "Some have read it as forbidding any use of force or legal redress at all, urging pure non-resistance in every sphere."
+            }
           ],
           "bearing": "Read alongside Romans 13, the command forbids personal vengeance while upholding the just authority God ordains; the believer trusts God's justice, whether through final judgment or the appointed magistrate."
+        },
+        {
+          "question": "What does 'associate with the lowly' mean in verse 16?",
+          "views": [
+            {
+              "label": "Be willing to mix with humble people",
+              "case": "The Greek can be taken as masculine or neuter. As masculine ('the lowly'), Paul tells the proud to keep company with people of low standing, which cuts against the status ladders of Rome. Many translations, including the BSB, follow this."
+            },
+            {
+              "label": "Be carried along with humble tasks",
+              "case": "Others take the form as neuter ('lowly things'), and the verb as 'be led along with', so that Paul says to go along with lowly work and circumstances rather than aim at high things. The sense would be an acceptance of humble duties."
+            }
+          ],
+          "bearing": "Both readings aim at the same humility. Pride shows itself in the people one cultivates and in the jobs one thinks beneath one, and the verse closes both doors."
         }
       ]
     },
-    "originalLanguages": "The section is held together by agape, the self-giving love that is the fulfillment of the law, and Paul insists it be anupokritos, without a mask, unfeigned, using a word drawn from the actor's stage. Within the household of faith this love becomes philadelphia, the warm affection of brothers and sisters who outdo one another in honor. And when wronged, the believer surrenders ekdikesis, vengeance, back to God, who has claimed it as His own right, so that the wounded can bless rather than retaliate and leave the reckoning to the righteous Judge.",
+    "originalLanguages": "The heading 'sincere' is anupokritos, from the stem that gave English 'hypocrite'. A hypokrites was an actor, someone speaking from behind a mask. Paul uses the word of love again in 2 Corinthians 6:6 and the same family in 1 Timothy 1:5 and James 3:17. Love must be 'unplayed'.\n\n'Detest' in verse 9 is apostugeo, a strong word for recoiling from something with horror, and 'cling' is kollao, the verb of gluing. Paul uses the same verb of a man joined to a prostitute and of the one joined to the Lord in 1 Corinthians 6:16-17. The pairing is therefore deliberate: recoil from the evil as one recoils from a hot stove, and stick to the good as to something that has become part of you.\n\nVerse 10 pairs two family words, philadelphia, love of a brother, and philostorgos, the tender affection that members of a family have for one another. 'Outdo yourselves in honouring' comes from a verb meaning to lead the way, proegeomai. The competition is to be first in giving honour rather than receiving it.\n\n'Fervor' in verse 11 is the participle of zeo, 'to boil'. Luke uses the same participle of Apollos, 'fervent in spirit', Acts 18:25. Some ancient manuscripts read 'serving the opportune time' instead of 'serving the Lord', a variant that scribes could easily create, but the BSB and most scholars follow the reading 'Lord'. The 'persistent' of verse 12 is proskartereo, to stay with something doggedly. The cognate participle appears in 13:6, of the tax officials who 'devote themselves' to their work, so the word is used of prayer in one chapter and of civil duty in the next.\n\nThe verb in verse 14, 'bless', is eulogeo, to speak well of, from which 'eulogy' comes, set against kataraomai, to call down evil. Paul says do not simply hold your tongue; actively speak well. 'Live in harmony' in verse 16 is the Greek 'think the same thing toward one another', using the same phronein stem as 12:3, and tying the harmony of the church to a shared, humble mind.\n\nIn verse 19 the phrase 'leave room' is didote topon, literally 'give place', and in Greek 'wrath' stands alone with the definite article: 'give place to the wrath'. The best reading is God's wrath, as the quotation from Deuteronomy confirms. The word for vengeance, ekdikesis, is related to the word ekdikos, 'avenger', which Paul will use of the ruler in 13:4. Finally the last verse contains a word play on nikao, 'conquer', with the passive and active forms: do not be conquered by evil, but conquer evil with good.",
     "typology": [
-      { "type": "The love command of the law", "fulfillment": "Love your neighbor, given at Sinai, is fulfilled in the sincere agape of the renewed community and supremely in Christ." },
-      { "type": "Feeding the hungry enemy", "fulfillment": "The wisdom of Proverbs 25 is taken up and fulfilled in the way of Christ, who returned good for evil even from the cross." },
-      { "type": "Vengeance is the Lord's", "fulfillment": "The justice promised in Deuteronomy 32 is entrusted to God, who will finally repay through Christ the appointed Judge." }
+      {
+        "type": "Joseph and his brothers, Genesis 50:15-21",
+        "fulfillment": "When Jacob died, Joseph's brothers feared he would now take revenge. Joseph wept and said, 'Am I in the place of God?', Genesis 50:19, and told them what they intended for evil God had meant for good. It is a living picture of leaving vengeance to God, and of overcoming evil by good. In Christ the pattern is raised to a new level: He is the rejected brother who did not simply spare His betrayers but died for them, Romans 5:8, and His forgiveness reaches enemies who never asked for it. Joseph's mercy fell short in that it was extended only to family."
+      },
+      {
+        "type": "David sparing Saul, 1 Samuel 24 and 26",
+        "fulfillment": "Twice David had the chance to kill the king who hunted him, and twice he refused, saying that the LORD would judge between them, 1 Samuel 24:12. His restraint rests on the same conviction as Romans 12:19: vengeance belongs to God. The anointed king declined to take what was God's. In Christ, the Son of David, the pattern is complete. He entrusted Himself to the One who judges justly, 1 Peter 2:23, and now sits at God's right hand awaiting the day of judgment. David's mercy is a picture; Christ's is the substance, achieved at a cross where He bore the wrath that the sinner deserved."
+      },
+      {
+        "type": "Elisha feeds the Aramean army, 2 Kings 6:8-23",
+        "fulfillment": "Elisha led a blinded Aramean force into Samaria, and when the king of Israel asked whether to kill them, Elisha told him to set food and water before them, after which the raiders stopped coming, 2 Kings 6:22-23. It is a startling Old Testament instance of overcoming evil with good and of feeding an enemy. In Christ the instinct becomes the pattern for His people, who are told to love their enemies and do good to those who hate them, Luke 6:27. The type falls short because it was an act of wartime strategy for one nation; the Lord's command makes it the standing way of life for the church among all nations."
+      },
+      {
+        "type": "The suffering Servant, Isaiah 53",
+        "fulfillment": "Isaiah describes a servant who was oppressed and afflicted yet did not open His mouth, who 'made intercession for the transgressors', Isaiah 53:12. In Christ the prophecy takes flesh: on the cross He prays, 'Father, forgive them', Luke 23:34, and Peter explicitly draws on Isaiah 53 to present Him as the model for those who suffer wrongfully, 1 Peter 2:21-24. The Servant is both pattern and substitute: He shows believers how to treat enemies and, by bearing sin, makes the enemies' reconciliation possible. We imitate Him in the response, but only He can do the saving."
+      }
     ],
-    "christ": "This portrait is the face of Christ. He is love without pretense, weeping with the grieving at the tomb, blessing those who cursed Him, and, when reviled, refusing to revile in return but entrusting Himself to the God who judges justly. On the cross He overcame the worst evil with the greatest good, and He prayed for His executioners. The love Paul commands is not first a duty but a gift: we love because He first loved us, and to overcome evil with good is to walk the way of our Lord.",
-    "god": "God stands at the center as the righteous Judge who alone owns the right of vengeance. Because He has said vengeance is Mine, His people can lay down retaliation and trust Him to settle every account justly. He is the God we serve with fervent zeal, the source of the love shed abroad in our hearts, and the one whose wrath makes non-retaliation not weakness but faith. To leave room for His wrath is to honor His justice.",
+    "christ": "The whole passage is a portrait of Christ before it is a portrait of the Christian. Love without hypocrisy was lived out in front of the world: He had no mask. The one who 'clung to the good' and hated evil had compassion for crowds and anger at injustice, and He wept at Lazarus's tomb, John 11:35, and rejoiced in the Spirit, Luke 10:21. 'Rejoice with those who rejoice; weep with those who weep' was His way of being in the world.\n\nThe hardest line is the command to bless persecutors and never to retaliate. At His arrest He refused to call down angels, Matthew 26:53, on the cross He prayed for His executioners, Luke 23:34, and Peter later summarises that 'when they heaped abuse on Him, He did not retaliate', but 'entrusted Himself to Him who judges justly', 1 Peter 2:23. That final phrase is the engine of Romans 12:19: He gave up the right to repay because He trusted the Father with the verdict.\n\nThe cross also explains how Paul can ask for such restraint without making God unjust. Where does the wrath of God against sin go, if believers do not execute it? Romans 3:25-26 answers: God put Christ forward as a propitiation, showing His justice in the present time. Vengeance is the Lord's, and at the cross He took it upon Himself in the person of His Son. For those who refuse that mercy, wrath still waits, but it waits with God. This means that when a believer lays down revenge, she is not pretending that evil does not matter; she is pointing at the place where it was dealt with.\n\nRomans 5:10 says we were 'enemies of God' when He reconciled us. The command to feed a hungry enemy is therefore the gospel itself acted out: God fed His enemies, at the cost of His Son. The believer overcomes evil with good because the Lord has done it first. Revelation shows the end of that road: the saints conquer 'by the blood of the Lamb', Revelation 12:11, not by killing but by following the Lamb wherever He goes.\n\nA sober note: Paul does not say that every kindness will convert the enemy, and the text does not make Christ's pattern a technique. The passage leaves no ground for pretending that those who suffer unjustly are guilty of ingratitude. It simply places them in the company of Christ.",
+    "god": "Romans 12:19 makes the strongest claim about God in the passage: He is the One to whom vengeance belongs and who will repay. This is not an embarrassing relic; Paul quotes Deuteronomy 32:35 as a ground of comfort. God is not indifferent to injustice. He keeps a full account, and none of the wrongs done to His people will be forgotten. The refusal to take revenge is therefore an act of faith in a just Judge, as much as an act of mercy to an enemy.\n\nThe same God is the source of the love that the passage asks for. Romans 5:5 has already said the love of God has been poured into believers' hearts through the Holy Spirit. The commands of chapter 12 are descriptions of the Spirit's fruit, and love that does not wear a mask is the character of a God who has no hidden agenda toward His people. He is honest, and He loves honestly.\n\nGod is also the one who works in and through ordinary kindness. The quotation of Proverbs 25:21-22 ends in the original with 'and the LORD will reward you', which Paul does not quote, though the thought stands behind the passage. God notices a cup of water. He is a God of detail and attention, who sees hospitality given in an upstairs room and prayer offered in an unnoticed affliction.\n\nThe passage holds together two truths that people often think are at odds: God's wrath and God's kindness. Paul does not soften the wrath. Nor does he make kindness conditional on whether the enemy deserves it. God's kindness is meant to lead people to repentance, Romans 2:4, and His people reflect that. He is the God who sends rain on the evil and the good, Matthew 5:45, and who commands His children to be like Him.\n\nFor worship, this passage bids the church to be a community where God's character is on show: sincere, joyful, patient, generous, humble, peaceable. It also invites honest prayer. Those who have been wronged are not told to feel nothing; they are told to bring the wrong to God and leave it with Him, as the psalmists did. A church that cannot lament, or that cannot forgive, has misread the God of Romans 12.",
     "crossReferences": [
-      { "ref": "1 Corinthians 13:4-7", "note": "The fullest description of the sincere love that is patient, kind, and never self-seeking." },
-      { "ref": "Matthew 5:43-48", "note": "Jesus commands love for enemies and blessing for persecutors, reflecting the Father's own mercy." },
-      { "ref": "Deuteronomy 32:35", "note": "The source of vengeance is Mine; I will repay, entrusting justice to God alone." },
-      { "ref": "1 Peter 2:21-23", "note": "Christ, when reviled, did not retaliate but entrusted Himself to the God who judges justly, our pattern." }
+      {
+        "ref": "Leviticus 19:17-18",
+        "note": "The Old Testament root of the whole passage: do not hate a brother in your heart, do not take vengeance, love your neighbour as yourself. Paul takes the logic one step further by applying it to enemies, and it shows that the call to non-retaliation is deep Torah, not a late Christian novelty."
+      },
+      {
+        "ref": "Deuteronomy 32:35",
+        "note": "The text Paul quotes in verse 19: 'Vengeance is Mine; I will repay.' In its setting it is God's promise to defend His people against their oppressors. Paul uses it to explain why believers can lay down revenge: the debt is not being cancelled, it is being held by the right person."
+      },
+      {
+        "ref": "Proverbs 25:21-22",
+        "note": "Verse 20 follows the Greek of these lines closely. The reward promised in the original, 'and the LORD will reward you', shows that kindness to an enemy is not naive: it is done in view of God. Paul pairs this proverb with the Deuteronomy text to show that mercy and justice both belong to God."
+      },
+      {
+        "ref": "Matthew 5:43-48",
+        "note": "Jesus tells His hearers to love their enemies and pray for those who persecute them, so that they may be children of their Father in heaven. Paul's call to bless persecutors in verse 14 is the same teaching in the language of the letters, and it grounds the command in the Father's own character."
+      },
+      {
+        "ref": "Luke 6:27-36",
+        "note": "Luke's version of the same teaching includes 'bless those who curse you' and the call to be merciful as the Father is merciful. It supplies the closest verbal parallel to Romans 12:14 and shows how widely the command was circulated in the early church."
+      },
+      {
+        "ref": "1 Peter 2:21-23",
+        "note": "Christ suffered and left an example, and when abused He did not retaliate but entrusted Himself to the just Judge. It gives the Christological root of Romans 12:19. Peter and Paul agree that non-retaliation is possible because God judges rightly."
+      },
+      {
+        "ref": "Romans 5:6-10",
+        "note": "God demonstrated His love while we were still sinners, and we were reconciled while we were enemies. This is the pattern of Romans 12:20: the enemy is fed first. Our kindness to enemies is the reflection of the way we were treated."
+      },
+      {
+        "ref": "Romans 13:1-4",
+        "note": "The very next paragraph explains that God has appointed the ruler as an avenger of wrath. Read together, the two chapters distinguish the private citizen who leaves vengeance to God from the public servant through whom God restrains evil. Neither passage cancels the other."
+      },
+      {
+        "ref": "1 Thessalonians 5:15",
+        "note": "Make sure that no one repays evil for evil, but always pursue what is good for one another and for everyone. It uses the same verb 'pursue' that frames Romans 12:13-14, and it confirms that this was settled teaching in Paul's churches."
+      },
+      {
+        "ref": "1 Corinthians 13:4-7",
+        "note": "The portrait of love that is patient, kind and not self-seeking is the same love as in Romans 12:9. It fills in what sincere love is like: it does not rejoice in wrongdoing and it bears all things. It shows that Romans 12:9-21 is not a list of tasks but a character."
+      }
     ],
-    "oneStory": "God has always been forming a people who bear His likeness in love. The law commanded love of neighbor, the prophets longed for new hearts, and Christ embodied love to the point of blessing His killers. Now, by the Spirit, that love takes flesh in the church, a community that clings to good, weeps with the weeping, refuses revenge, and returns good for evil, displaying to a watching world the God who in Christ overcame evil with good.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "Genesis 3 ends with a world in which the first murder follows hard on the first sin, and Lamech's boast of seventy-sevenfold vengeance in Genesis 4:23-24 shows how quickly retaliation became a way of life. The history of violence from Cain to Babylon is the history of people who take judgment into their own hands. His song is the opposite pole of Romans 12:21.\n\nGod's answer in the Torah was to restrain vengeance: a measured justice, 'eye for eye', that limited the cycle of revenge, with cities of refuge and an explicit ban on private grudges, Leviticus 19:18. But even that structure required a heart to keep it. The prophets looked forward to a new covenant in which God would write His law on hearts, Jeremiah 31:33, and to a Servant who would bear iniquity, Isaiah 53.\n\nRomans 12 stands at the place in the story where that promise has begun to be fulfilled. The Servant has come, and His people carry His mark. They are not asked to be passive, only to be non-retaliatory, and they do so as a community that has already tasted the end of the story: the justice of God has been satisfied at the cross, and the final settling of accounts is on the calendar.\n\nThe passage also answers the story's question about how evil is finally defeated. The answer is not that evil is matched by greater evil but that it is overcome by good, as the cross overcame the powers, Colossians 2:15. Revelation shows the Lamb conquering as the Lamb, Revelation 5:5-6, and the saints following. In the new creation, the wrongs will be judged, Revelation 20:12, and the tears wiped away, Revelation 21:4. Those who left vengeance to God will find that He has kept the account and closed it. The love that was sincere on earth will be the air of the new city, where nothing evil enters and the nations walk by God's light, Revelation 21:24-27.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What word stands as the banner over this whole section?",
       "options": [
-        { "text": "Sincere love, love without hypocrisy.", "weight": 100, "note": "Verse 9a heads the passage: love must be sincere." },
-        { "text": "Strict obedience to religious ritual.", "weight": 75, "note": "The passage centers on love, not ritual observance." },
-        { "text": "Zeal for defending one's own rights.", "weight": 25, "note": "Paul calls for the surrender of personal rights, not their defense." },
-        { "text": "Careful avoidance of all outsiders.", "weight": 0, "note": "The love commanded reaches even to persecutors and enemies." }
+        {
+          "text": "Sincere love, love without hypocrisy.",
+          "weight": 100,
+          "note": "Verse 9a heads the passage: love must be sincere."
+        },
+        {
+          "text": "Strict obedience to religious ritual.",
+          "weight": 75,
+          "note": "The passage centers on love, not ritual observance."
+        },
+        {
+          "text": "Zeal for defending one's own rights.",
+          "weight": 25,
+          "note": "Paul calls for the surrender of personal rights, not their defense."
+        },
+        {
+          "text": "Careful avoidance of all outsiders.",
+          "weight": 0,
+          "note": "The love commanded reaches even to persecutors and enemies."
+        }
       ]
     },
     {
       "q": "How are believers to respond to those who persecute them?",
       "options": [
-        { "text": "Bless them and do not curse them.", "weight": 100, "note": "Paul commands blessing, not cursing, echoing Jesus' teaching." },
-        { "text": "Repay them with the same harm they inflict.", "weight": 0, "note": "Paul forbids repaying evil for evil." },
-        { "text": "Ignore them and cut off all contact.", "weight": 75, "note": "The call is active blessing, not mere avoidance." },
-        { "text": "Take them to court to secure revenge.", "weight": 25, "note": "Personal vengeance is exactly what Paul says to leave to God." }
+        {
+          "text": "Bless them and do not curse them.",
+          "weight": 100,
+          "note": "Paul commands blessing, not cursing, echoing Jesus' teaching."
+        },
+        {
+          "text": "Repay them with the same harm they inflict.",
+          "weight": 0,
+          "note": "Paul forbids repaying evil for evil."
+        },
+        {
+          "text": "Ignore them and cut off all contact.",
+          "weight": 75,
+          "note": "The call is active blessing, not mere avoidance."
+        },
+        {
+          "text": "Take them to court to secure revenge.",
+          "weight": 25,
+          "note": "Personal vengeance is exactly what Paul says to leave to God."
+        }
       ]
     },
     {
       "q": "Why are believers not to avenge themselves?",
       "options": [
-        { "text": "Because vengeance belongs to God, who says I will repay.", "weight": 100, "note": "Paul quotes God's claim to vengeance in Deuteronomy 32:35." },
-        { "text": "Because evil does not really deserve any justice.", "weight": 0, "note": "Evil does deserve justice; Paul entrusts that justice to God." },
-        { "text": "Because retaliation is merely impractical.", "weight": 75, "note": "The reason is theological, not merely practical: vengeance is God's." },
-        { "text": "Because the wrongs done to us do not matter.", "weight": 25, "note": "The wrongs matter, which is why God, the just Judge, will repay." }
+        {
+          "text": "Because vengeance belongs to God, who says I will repay.",
+          "weight": 100,
+          "note": "Paul quotes God's claim to vengeance in Deuteronomy 32:35."
+        },
+        {
+          "text": "Because evil does not really deserve any justice.",
+          "weight": 0,
+          "note": "Evil does deserve justice; Paul entrusts that justice to God."
+        },
+        {
+          "text": "Because retaliation is merely impractical.",
+          "weight": 75,
+          "note": "The reason is theological, not merely practical: vengeance is God's."
+        },
+        {
+          "text": "Because the wrongs done to us do not matter.",
+          "weight": 25,
+          "note": "The wrongs matter, which is why God, the just Judge, will repay."
+        }
       ]
     },
     {
       "q": "What is the climactic command of the passage in verse 21?",
       "options": [
-        { "text": "Do not be overcome by evil, but overcome evil with good.", "weight": 100, "note": "This crowns the section on non-retaliation." },
-        { "text": "Overcome your enemies by matching their evil.", "weight": 0, "note": "Paul says the opposite: overcome evil with good." },
-        { "text": "Withdraw from evil people entirely.", "weight": 75, "note": "The call is to actively conquer evil with good, not merely withdraw." },
-        { "text": "Wait passively until evil exhausts itself.", "weight": 25, "note": "Overcoming evil with good is active, not passive resignation." }
+        {
+          "text": "Do not be overcome by evil, but overcome evil with good.",
+          "weight": 100,
+          "note": "This crowns the section on non-retaliation."
+        },
+        {
+          "text": "Overcome your enemies by matching their evil.",
+          "weight": 0,
+          "note": "Paul says the opposite: overcome evil with good."
+        },
+        {
+          "text": "Withdraw from evil people entirely.",
+          "weight": 75,
+          "note": "The call is to actively conquer evil with good, not merely withdraw."
+        },
+        {
+          "text": "Wait passively until evil exhausts itself.",
+          "weight": 25,
+          "note": "Overcoming evil with good is active, not passive resignation."
+        }
       ]
     },
     {
       "q": "What does it mean that love must be without hypocrisy?",
       "options": [
-        { "text": "It must be genuine and unmasked, real all the way down.", "weight": 100, "note": "Anupokritos means without the actor's mask, sincere and unfeigned." },
-        { "text": "It must be shown only to those who deserve it.", "weight": 75, "note": "Sincere love extends even to enemies, not only the deserving." },
-        { "text": "It must be a performance for others to admire.", "weight": 0, "note": "The word rejects performance; love is not to be acted or feigned." },
-        { "text": "It must be kept private and never expressed.", "weight": 25, "note": "Sincere love is active and expressed, not hidden away." }
+        {
+          "text": "It must be genuine and unmasked, real all the way down.",
+          "weight": 100,
+          "note": "Anupokritos means without the actor's mask, sincere and unfeigned."
+        },
+        {
+          "text": "It must be shown only to those who deserve it.",
+          "weight": 75,
+          "note": "Sincere love extends even to enemies, not only the deserving."
+        },
+        {
+          "text": "It must be a performance for others to admire.",
+          "weight": 0,
+          "note": "The word rejects performance; love is not to be acted or feigned."
+        },
+        {
+          "text": "It must be kept private and never expressed.",
+          "weight": 25,
+          "note": "Sincere love is active and expressed, not hidden away."
+        }
       ]
     }
   ],
@@ -165,9 +398,21 @@
     "To overcome evil with good is the way of the cross. Where is God calling you to answer a specific evil with a concrete act of good?"
   ],
   "translationNotes": [
-    { "ref": "Romans 12:9", "note": "Sincere renders anupokritos, without hypocrisy, literally without the mask an actor wore; the same word describes genuine faith and unfeigned love elsewhere in the New Testament." },
-    { "ref": "Romans 12:19", "note": "Leave room for God's wrath quotes Deuteronomy 32:35, vengeance is Mine; I will repay. It removes personal retaliation from the believer's hands and entrusts justice to God, and should be read alongside Romans 13 on the just authority God ordains." },
-    { "ref": "Romans 12:20", "note": "Heap burning coals on his head draws on Proverbs 25:21-22; most read the coals as the convicting shame that kindness stirs, moving an enemy toward repentance, so that good truly overcomes evil." }
+    {
+      "ref": "Romans 12:9",
+      "note": "Sincere renders anupokritos, without hypocrisy, literally without the mask an actor wore; the same word describes genuine faith and unfeigned love elsewhere in the New Testament."
+    },
+    {
+      "ref": "Romans 12:19",
+      "note": "Leave room for God's wrath quotes Deuteronomy 32:35, vengeance is Mine; I will repay. It removes personal retaliation from the believer's hands and entrusts justice to God, and should be read alongside Romans 13 on the just authority God ordains."
+    },
+    {
+      "ref": "Romans 12:20",
+      "note": "Heap burning coals on his head draws on Proverbs 25:21-22; most read the coals as the convicting shame that kindness stirs, moving an enemy toward repentance, so that good truly overcomes evil."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched this session from bible.helloao.org for Romans 12:9-21. Footnote markers (noteId) omitted per spine rules; the poem lines of verse 20 were concatenated contiguously with line breaks rendered as single spaces. Sermon left as none; no expositor sermon URL verified this session." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched this session from bible.helloao.org for Romans 12:9-21. Footnote markers (noteId) omitted per spine rules; the poem lines of verse 20 were concatenated contiguously with line breaks rendered as single spaces. Sermon left as none; no expositor sermon URL verified this session."
+  }
 }

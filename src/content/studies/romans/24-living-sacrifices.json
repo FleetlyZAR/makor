@@ -18,8 +18,16 @@
         "note": "your true and reasonable worship",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 12, "n": 1, "text": "Therefore I urge you, brothers, on account of God’s mercy, to offer your bodies as {{thysia|living sacrifices}}, holy and pleasing to God, which is your {{latreia|spiritual service of worship}}." },
-          { "chapter": 12, "n": 2, "text": "Do not be conformed to this world, but be {{metamorphoo|transformed}} by the {{anakainosis|renewing}} of your mind. Then you will be able to test and approve what is the good, pleasing, and perfect will of God." }
+          {
+            "chapter": 12,
+            "n": 1,
+            "text": "Therefore I urge you, brothers, on account of God’s mercy, to offer your bodies as {{thysia|living sacrifices}}, holy and pleasing to God, which is your {{latreia|spiritual service of worship}}."
+          },
+          {
+            "chapter": 12,
+            "n": 2,
+            "text": "Do not be conformed to this world, but be {{metamorphoo|transformed}} by the {{anakainosis|renewing}} of your mind. Then you will be able to test and approve what is the good, pleasing, and perfect will of God."
+          }
         ]
       },
       {
@@ -27,7 +35,11 @@
         "note": "the measure of faith",
         "emphasis": "",
         "verses": [
-          { "chapter": 12, "n": 3, "text": "For by the grace given me I say to every one of you: Do not think of yourself more highly than you ought, but think of yourself with sober judgment, according to the measure of faith God has given you." }
+          {
+            "chapter": 12,
+            "n": 3,
+            "text": "For by the grace given me I say to every one of you: Do not think of yourself more highly than you ought, but think of yourself with sober judgment, according to the measure of faith God has given you."
+          }
         ]
       },
       {
@@ -35,21 +47,66 @@
         "note": "diverse gifts of grace",
         "emphasis": "",
         "verses": [
-          { "chapter": 12, "n": 4, "text": "Just as each of us has one body with many members, and not all members have the same function," },
-          { "chapter": 12, "n": 5, "text": "so in Christ we who are many are one body, and each member belongs to one another." },
-          { "chapter": 12, "n": 6, "text": "We have different {{charisma|gifts}} according to the grace given us. If one’s gift is prophecy, let him use it in proportion to his faith;" },
-          { "chapter": 12, "n": 7, "text": "if it is serving, let him serve; if it is teaching, let him teach;" },
-          { "chapter": 12, "n": 8, "text": "if it is encouraging, let him encourage; if it is giving, let him give generously; if it is leading, let him lead with diligence; if it is showing mercy, let him do it cheerfully." }
+          {
+            "chapter": 12,
+            "n": 4,
+            "text": "Just as each of us has one body with many members, and not all members have the same function,"
+          },
+          {
+            "chapter": 12,
+            "n": 5,
+            "text": "so in Christ we who are many are one body, and each member belongs to one another."
+          },
+          {
+            "chapter": 12,
+            "n": 6,
+            "text": "We have different {{charisma|gifts}} according to the grace given us. If one’s gift is prophecy, let him use it in proportion to his faith;"
+          },
+          {
+            "chapter": 12,
+            "n": 7,
+            "text": "if it is serving, let him serve; if it is teaching, let him teach;"
+          },
+          {
+            "chapter": 12,
+            "n": 8,
+            "text": "if it is encouraging, let him encourage; if it is giving, let him give generously; if it is leading, let him lead with diligence; if it is showing mercy, let him do it cheerfully."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "thysia": { "language": "Greek", "lemma": "thysia", "original": "θυσία", "gloss": "A sacrifice, an offering laid on the altar. In the old covenant a sacrifice was slain and given wholly to God. Paul turns the image inside out: the Christian sacrifice is a living one, the whole self offered up alive to God day by day. It is not a payment for sin, which Christ has already made, but the grateful self-giving of those already redeemed by His mercy." },
-    "latreia": { "language": "Greek", "lemma": "latreia", "original": "λατρεία", "gloss": "Worship, sacred service, the ministry once carried out by priests in the temple. Paul says the offering of our bodies is our latreia, rendered spiritual or reasonable service of worship. True worship is not confined to a ritual but is the reasonable, whole-life devotion of the mind and body to God in response to His mercy." },
-    "metamorphoo": { "language": "Greek", "lemma": "metamorphoo", "original": "μεταμορφόω", "gloss": "To be transformed, to be changed in form from within. It is the word used for Christ's transfiguration. Paul sets it against being conformed, pressed into the mold of this present age. The Christian is not to be squeezed into the world's shape but inwardly transformed, and the change comes through the renewing of the mind." },
-    "anakainosis": { "language": "Greek", "lemma": "anakainosis", "original": "ἀνακαίνωσις", "gloss": "A making new, renewal, renovation. The transformation happens by the renewing of the mind, the Spirit's ongoing work of remaking how we think so that we can discern and delight in God's will. It is not self-improvement but a God-wrought renewal that reorders the whole inner life." },
-    "charisma": { "language": "Greek", "lemma": "charisma", "original": "χάρισμα", "gloss": "A gift of grace, a Spirit-given capacity for service. The word is built on charis, grace: gifts are grace made practical, given not for private display but for the good of the one body. Prophecy, serving, teaching, encouraging, giving, leading, and mercy are all charismata, to be used in proportion to faith and with wholehearted love." }
+    "thysia": {
+      "language": "Greek",
+      "lemma": "thysia",
+      "original": "θυσία",
+      "gloss": "A sacrifice, an offering laid on the altar. In the old covenant a sacrifice was slain and given wholly to God. Paul turns the image inside out: the Christian sacrifice is a living one, the whole self offered up alive to God day by day. It is not a payment for sin, which Christ has already made, but the grateful self-giving of those already redeemed by His mercy."
+    },
+    "latreia": {
+      "language": "Greek",
+      "lemma": "latreia",
+      "original": "λατρεία",
+      "gloss": "Worship, sacred service, the ministry once carried out by priests in the temple. Paul says the offering of our bodies is our latreia, rendered spiritual or reasonable service of worship. True worship is not confined to a ritual but is the reasonable, whole-life devotion of the mind and body to God in response to His mercy."
+    },
+    "metamorphoo": {
+      "language": "Greek",
+      "lemma": "metamorphoo",
+      "original": "μεταμορφόω",
+      "gloss": "To be transformed, to be changed in form from within. It is the word used for Christ's transfiguration. Paul sets it against being conformed, pressed into the mold of this present age. The Christian is not to be squeezed into the world's shape but inwardly transformed, and the change comes through the renewing of the mind."
+    },
+    "anakainosis": {
+      "language": "Greek",
+      "lemma": "anakainosis",
+      "original": "ἀνακαίνωσις",
+      "gloss": "A making new, renewal, renovation. The transformation happens by the renewing of the mind, the Spirit's ongoing work of remaking how we think so that we can discern and delight in God's will. It is not self-improvement but a God-wrought renewal that reorders the whole inner life."
+    },
+    "charisma": {
+      "language": "Greek",
+      "lemma": "charisma",
+      "original": "χάρισμα",
+      "gloss": "A gift of grace, a Spirit-given capacity for service. The word is built on charis, grace: gifts are grace made practical, given not for private display but for the good of the one body. Prophecy, serving, teaching, encouraging, giving, leading, and mercy are all charismata, to be used in proportion to faith and with wholehearted love."
+    }
   },
   "study": {
     "basic": {
@@ -63,93 +120,254 @@
       "oneStory": "The whole story of Scripture has been moving toward a people who worship God in spirit and truth. The temple and its sacrifices pointed ahead; Christ fulfilled them once for all. Now, on the far side of the cross, the redeemed offer their very selves as living sacrifices, a renewed people whose transformed minds and shared gifts display the mercy that saved them."
     },
     "context": {
-      "literary": "Chapter 12 opens the ethical section of Romans, chapters 12 to 15, which applies the gospel of chapters 1 to 11 to the life of the church and the world. The therefore of verse 1 is one of the most important connectives in the Bible, binding doctrine and duty together. Verses 1 and 2 form the heading over all that follows; verses 3 to 8 begin the concrete application in the life of the body.",
-      "historical": "Paul writes around AD 57 to a mixed church of Jewish and Gentile believers in the imperial capital, a city full of temples, sacrifices, and civic religion. Against that backdrop his call for a living sacrifice and a mind not conformed to the age would have sounded strikingly countercultural, marking the church off as a people shaped by God's mercy rather than by Rome.",
-      "canonical": "This passage is the classic New Testament statement that worship is the offering of the whole life, not merely ritual. It joins the priesthood language of Exodus and 1 Peter to the body imagery of 1 Corinthians and Ephesians, and it grounds all Christian ethics in the prior grace of God, the pattern of gospel indicative before gospel imperative that runs through the letters."
+      "literary": "Romans 12:1 is built on a verb that is easy to miss in English. Paul says 'I urge you', and the Greek parakaleo is the same root that names the gift of 'encouraging' in verse 8. The whole letter has argued; now the apostle comes alongside and pleads. He does not command from above. The appeal is grounded in a plural, 'mercies', the compassion that Romans 9 to 11 has just traced through Israel's story, and it is made to 'brothers', so that even the most personal offering is addressed to a family.\n\nThe paragraph has a clear shape. Verses 1 and 2 are the thesis: one decisive act, the presenting of the body, and one ongoing process, the renewing of the mind. Verses 3 to 8 then show that thesis at work inside a community. The link between them is a repeated word family. The mind to be renewed in verse 2 and the 'sober judgment' to be exercised in verse 3 both come from the Greek stem for thinking, and verse 3 plays on it four times in one sentence, thinking not above what one ought to think but thinking soberly. A renewed mind is first of all a realistic mind about oneself.\n\nThe list of gifts in verses 6 to 8 is not in the order of prestige. Prophecy comes first, then serving, teaching, encouraging, giving, leading and mercy. Each is a verb or participle with a matching clause, 'let him serve', 'let him teach', and the last four carry a manner of doing: generously, diligently, cheerfully. The effect is to dissolve any ladder of importance. What counts is the faithful doing of the thing, not the standing of the thing.",
+      "historical": "Paul wrote Romans from Corinth around AD 57, on the eve of his journey to Jerusalem with the collection for the poor, Romans 15:25-26. The Roman congregations he addressed were not one tidy church but several house groups, Jewish and Gentile believers living together in a city where Claudius had expelled Jews a few years earlier, Acts 18:2. Many Jewish believers had only recently returned. The tension between the two groups is the background to the whole of chapters 12 to 15, and it explains why Paul presses so hard on humble self-assessment and mutual belonging.\n\nThe picture of a 'sacrifice' would have been vivid in every direction. Gentile believers had grown up with public sacrifice in the temples of Rome, where an animal was killed, divided and eaten at civic feasts. Jewish believers had the temple in Jerusalem, still standing, with its burnt offerings, which were consumed whole on the altar. Paul's phrase is deliberately odd: a sacrifice that is alive, offered by the one who is its own priest. Neither world had anything quite like it.\n\nThe warning against being 'conformed to this world' also had local colour. The empire's religion was civic and transactional, and its honour culture ranked people carefully by status, birth and patronage. A church that asked a freedman and a senator's household to see themselves with equal sobriety, and to share one body, was challenging the social grammar of the capital.",
+      "canonical": "The picture of the body as an offering reaches back to the burnt offering of Leviticus 1, which was given entirely to God and was to be 'without defect', language that Paul echoes in the words 'holy and pleasing'. Alongside it stand the prophets who insisted that God wanted more than ritual, Psalm 51:16-17 and Micah 6:6-8, so that the call to offer one's whole self is the fulfilment of an old protest, not an invention.\n\nWithin Paul's own letters the verb 'present' in verse 1 is the same one he used in Romans 6:13 and 6:19. There he said believers must no longer present their members to sin; here he gives the positive side, the presenting of the whole person to God. Paul also describes his own apostolic work in priestly terms, with the Gentiles as the offering, Romans 15:16, and speaks of himself as poured out like a drink offering, Philippians 2:17.\n\nThe transforming of the mind returns in Ephesians 4:22-24, Colossians 3:10 and Titus 3:5, and the closing image of the one body is developed at greater length in 1 Corinthians 12 and Ephesians 4. Peter makes the priestly side explicit when he tells believers they are a holy priesthood offering spiritual sacrifices, 1 Peter 2:5, and Hebrews adds that praise and good deeds and sharing are the sacrifices that please God, Hebrews 13:15-16. Taken together, the New Testament treats the church as the true temple and its life as the true liturgy."
     },
     "hermeneutics": {
-      "authorIntent": "To turn the doctrine of the gospel into the shape of a life, calling the Roman believers to respond to God's mercy by offering themselves wholly to Him, refusing the mold of the age, being renewed in mind, thinking humbly of themselves, and serving the one body with the gifts grace has given.",
-      "descriptionVsPrescription": "This passage is directly prescriptive. Paul urges and commands: present your bodies, do not be conformed, be transformed, think with sober judgment, use your gifts. These are abiding imperatives for every believer, grounded not in law-keeping for acceptance but in gratitude for mercy already received.",
+      "authorIntent": "Paul wanted the Roman Christians to see that the gospel claims the whole person, and that this claim is the opposite of slavery. He chose the word 'bodies' on purpose. Greek thought often prized the soul and despised the body, and some Romans would have heard worship as something inward and private. Paul puts it in the physical: hands, mouths, time, money, sexual conduct, the daily grind. Nothing the body does falls outside the altar.\n\nHe also meant to correct a quiet danger in a mixed and anxious church, which was pride in one's own gift or heritage. The call to sober judgment in verse 3 is addressed to 'every one of you', and it prepares the ground for chapters 14 and 15, where the strong and the weak must bear with each other. Gifts are not credentials; they are assignments given by grace.\n\nFinally, Paul meant them to understand that this transformation is not self-improvement. The verbs of verse 2 are passive. The believer is 'transformed' and 'renewed', which means someone else is doing the work, and the believer's part is to stop resisting it and to give the mind to God's shaping through Scripture, prayer and the fellowship of the body.",
+      "descriptionVsPrescription": "The language of verses 1 and 2 is direct imperative and applies to every believer in every age. The offering of the body, the refusal of the age's mould and the renewing of the mind are commands, not descriptions of a few strong Christians. Their pattern is also clear: the indicative of mercy comes first, then the imperative.\n\nThe list of gifts in verses 6 to 8 is different in kind. Paul is not giving an exhaustive catalogue; compare the different lists in 1 Corinthians 12:8-10 and 12:28 and Ephesians 4:11. These are examples of the sort of grace given to bodies of believers, so the right use of the list is not to find one's box but to ask what the church needs and to serve in that direction. The command is to use whatever has been given, in the manner stated: generously, diligently, cheerfully. The particular gift list is illustrative, the manner of using gifts is binding.",
       "debates": [
         {
           "question": "What does spiritual service of worship, or reasonable service, mean in verse 1?",
           "views": [
-            { "label": "Reasonable, rational worship", "case": "The Greek logikos can mean reasonable or rational; the offering of the whole self is the only fitting, reasonable response to God's mercy, worship that engages the mind and will." },
-            { "label": "Spiritual, non-ritual worship", "case": "Others render it spiritual, contrasting the living sacrifice with the animal sacrifices of the temple; true worship is inward and whole-life rather than merely ceremonial." }
+            {
+              "label": "Reasonable, rational worship",
+              "case": "The Greek logikos can mean reasonable or rational; the offering of the whole self is the only fitting, reasonable response to God's mercy, worship that engages the mind and will."
+            },
+            {
+              "label": "Spiritual, non-ritual worship",
+              "case": "Others render it spiritual, contrasting the living sacrifice with the animal sacrifices of the temple; true worship is inward and whole-life rather than merely ceremonial."
+            }
           ],
           "bearing": "Either way the point holds: worship is the reasonable, spiritual offering of the entire redeemed self to God, not confined to ritual, and it is the only fitting answer to His mercy."
         },
         {
           "question": "What is the measure of faith God has given in verse 3?",
           "views": [
-            { "label": "A God-given standard for self-assessment", "case": "The measure of faith is the yardstick by which each believer honestly assesses himself, a gift that humbles pride and locates every gift and role within grace rather than merit." },
-            { "label": "An apportioned amount of faith", "case": "Others read it as a particular allotment of faith given to each, so that gifts are exercised in proportion to the faith received, guarding against both timidity and presumption." }
+            {
+              "label": "A God-given standard for self-assessment",
+              "case": "The measure of faith is the yardstick by which each believer honestly assesses himself, a gift that humbles pride and locates every gift and role within grace rather than merit."
+            },
+            {
+              "label": "An apportioned amount of faith",
+              "case": "Others read it as a particular allotment of faith given to each, so that gifts are exercised in proportion to the faith received, guarding against both timidity and presumption."
+            }
           ],
           "bearing": "Both readings undercut pride: whatever we are and have is measured out by grace, so sober self-judgment, not self-exaltation, is the fitting posture in the body."
+        },
+        {
+          "question": "What does 'in proportion to his faith' mean for prophecy in verse 6?",
+          "views": [
+            {
+              "label": "The proportion of the believer's own faith",
+              "case": "The Greek says 'according to the proportion of faith', and the previous verse spoke of the 'measure of faith' given to each. On this reading the prophet speaks as far as his own God-given confidence extends, neither overreaching nor holding back."
+            },
+            {
+              "label": "The proportion of the faith, the body of belief",
+              "case": "Others take faith as the objective content of the gospel, so that prophecy must be tested by agreement with what is believed, as 1 Corinthians 14:29 and 1 John 4:1 call for testing of spoken messages. The Reformers often read it this way, as Scripture interpreting prophecy."
+            }
+          ],
+          "bearing": "The two readings are not rivals in practice. Whether faith means personal trust or the shared gospel, the gift is bounded and humbled by grace: no one speaks beyond what God has given, and every word is open to testing against what the church has received."
         }
       ]
     },
-    "originalLanguages": "Paul's key images are drawn from worship and the body. He asks us to present our bodies as a thysia, a sacrifice, yet a living one, and names this our latreia, our reasonable service of worship, the whole-life devotion the temple rituals only foreshadowed. Against being pressed into the mold of the age, he calls for us to be metamorphoo, transformed from within, through the anakainosis, the renewing, of the mind, the Spirit's remaking of how we think. And each believer is entrusted with a charisma, a gift of grace built on the word charis, to be used humbly and lovingly for the one body.",
+    "originalLanguages": "Paul's verb in verse 1, 'present' (paristemi), is a word for bringing someone or something into the presence of another. It is used for bringing a person to stand before another, and in Romans 6:13 and 6:19 it is the act that was once given to sin and is now given to God. Here it is an aorist infinitive, a single decisive act, while the verbs of verse 2 are present imperatives, a continuing process. One offering, a lifetime of being shaped.\n\nThe 'mercies' of verse 1 are plural, oiktirmoi, the deep compassion of God, rather than the more common word for mercy used in 11:30-32. The 'service of worship' is latreia, the Septuagint's word for priestly service in the sanctuary, joined to logike, which is the source of the English 'logical' and can mean rational, reasonable, or fitting for a thinking being. The English 'spiritual' loses the connection to the mind, which is precisely where verse 2 goes.\n\n'Be conformed' is suschematizo, to take on the outward form or pattern of something. Peter uses the same verb for believers' former way of life in 1 Peter 1:14. 'Be transformed' is metamorphoo, from which we get metamorphosis, a change of inner form that shows outwardly. It is the verb used of Jesus on the mountain, Matthew 17:2, and of believers beholding the Lord's glory in 2 Corinthians 3:18. Both verbs are in the present tense and in the passive voice: do not keep letting yourselves be pressed into the age's mould, but keep being changed from within by another power. The word for 'mind', nous, is the whole orientation of thought and judgment, and 'renewing', anakainosis, is the making new of something worn out, found elsewhere in the New Testament in Titus 3:5, where it is the work of the Spirit.\n\nThe 'test and approve' of verse 2 is dokimazo, to examine something in order to approve it, as metal is assayed. A renewed mind learns to discern the will of God by experience, not by a rulebook alone.\n\nVerse 3 is a cluster of puns that English can only partly keep. Paul says not to 'think highly' (hyperphroneo), but to think with 'sober judgment', from the stem sophron, the root of the English 'sound mind'. One Greek sentence turns on four forms of the same thinking word. The 'measure' is metron, a measuring rod or portion.\n\nIn verse 8 the giver is to give 'generously', en haplotes, a word for single-mindedness without hidden motive, the same word Paul uses for the Macedonians' giving in 2 Corinthians 8:2. The 'leader' is the one who 'stands before', proistamenos, which can also mean 'who cares for', a hint that leadership is a kind of guardianship.",
     "typology": [
-      { "type": "The temple sacrifice", "fulfillment": "Fulfilled in Christ's once-for-all offering, and echoed as believers now present themselves as living sacrifices, the true worship the slain offerings pictured." },
-      { "type": "The priesthood", "fulfillment": "The redeemed become a royal priesthood offering the spiritual sacrifice of their whole lives, a role Israel's priests foreshadowed, 1 Peter 2:5." },
-      { "type": "The one body", "fulfillment": "The many members united in Christ fulfill the pattern of God's one people, now joined by the Spirit into the body of the risen Lord." }
+      {
+        "type": "The burnt offering, Leviticus 1",
+        "fulfillment": "The burnt offering was the one sacrifice given wholly to God, the entire animal rising on the altar as a pleasing aroma, Leviticus 1:9. Paul's phrase 'holy and pleasing to God' echoes its language. In Christ the pattern is both completed and opened out: He gave Himself as 'a fragrant sacrificial offering to God', Ephesians 5:2, so that His people, joined to Him, can now present their whole selves, Philippians 2:17. The type falls short on one point that matters: the animal could not choose, and it could not atone for itself, while believers offer themselves only because Christ's offering has already dealt with sin."
+      },
+      {
+        "type": "The kingdom of priests, Exodus 19:6",
+        "fulfillment": "At Sinai God told Israel they would be 'a kingdom of priests and a holy nation'. The priests alone stood close to the sanctuary, and the people were represented by them. In Christ the whole church becomes the priesthood, 1 Peter 2:5, 2:9, and Paul even describes his own mission to the Gentiles as priestly service, Romans 15:16. What was a role for one tribe becomes the life of every believer. The type is surpassed because the priesthood no longer stands on birth or ritual purity, but on being 'in Christ', and its sacrifices are bodies, praise and generosity, Hebrews 13:15-16."
+      },
+      {
+        "type": "Moses and the shining face, Exodus 34:29-35",
+        "fulfillment": "Moses came down from the mountain with a face made radiant by speaking with God, and he covered it because the people feared. Paul takes the scene in 2 Corinthians 3:18 and says that believers, with unveiled faces, are 'being transformed' (the same verb as Romans 12:2) into the image of the Lord. The radiance Moses carried briefly is given to a whole people permanently and progressively by the Spirit. The type falls short because Moses' glory faded and he stood alone, but the transformation Paul describes grows, 'with intensifying glory', in every member."
+      },
+      {
+        "type": "The body and its parts, the tabernacle, Exodus 25 to 31",
+        "fulfillment": "When God gave Israel the tabernacle He appointed craftsmen and filled Bezalel with His Spirit for skilled work, Exodus 31:1-6, so that a dwelling for God would be built through varied gifts. Paul's body imagery has the same shape: many members, one structure, one indwelling God, Ephesians 2:21-22. In Christ the dwelling is no longer a tent of cloth but a people. The type falls short because the tabernacle was built once and then maintained, whereas the body is 'being built up' as each part does its work, Ephesians 4:16."
+      }
     ],
-    "christ": "Christ stands behind every line. The mercies that ground the appeal are His mercies, the whole gospel of chapters 1 to 11. He is the one perfect sacrifice whose death for sin makes our living sacrifice possible; we offer ourselves not to be saved but because we are saved. It is in Christ that the many become one body, and the renewed mind is nothing less than the mind of Christ being formed in His people by the Spirit. Our worship is always the answering echo of His self-giving love.",
-    "god": "The passage is saturated with God. It rests on the mercies of God, aims at what is holy and pleasing to God, and seeks to prove the good and perfect will of God. God is the one to whom the sacrifice is offered, the one who renews the mind, and the one who measures out faith and apportions the gifts of grace. Worship, here, is the reasonable and grateful surrender of the whole self to this merciful God.",
+    "christ": "The appeal of verse 1 rests on 'the mercies of God', and the whole of Romans has shown where those mercies were concentrated: in Christ Jesus, whom God put forward as a propitiation, Romans 3:25, who was delivered over for our trespasses and raised for our justification, Romans 4:25, and from whose love nothing can separate us, Romans 8:39. The ground of the living sacrifice is another sacrifice. Paul can ask for our bodies only because the Son gave His own, Hebrews 10:5-10, and in that body-offering we are made holy. Our offering is never an addition to His; it is a response in His power.\n\nThe renewed mind is Christ-shaped. Romans 8:29 says believers are predestined to be 'conformed' to the image of the Son, using a cognate of the verb Paul now forbids, which means that the choice is not between conformity and freedom but between two moulds. Philippians 2:5-8 shows the mind that is meant to be in us: the one that did not exploit equality with God but took the form of a servant and became obedient to death. When Paul in verse 3 asks for sober judgment of ourselves, the model is the One who, being in the highest place, humbled Himself.\n\nThe body of verses 4 and 5 is also Christ's. In 1 Corinthians 12:27 Paul says outright, 'you are the body of Christ, and each of you is a member of it', and in Ephesians 4:15-16 Christ is the Head from whom the whole body is joined and held together. Each gift is therefore the Lord's own work through a member. Teaching is Christ teaching, mercy is Christ showing mercy, and giving is Christ giving. This is why the gifts are said to be 'according to the grace given us': they flow from the grace of the Head.\n\nIt is wise not to force more on the text. Romans 12 does not name Christ in verses 1 to 8 except in the phrase 'in Christ' in verse 5. The Christological weight is carried by the 'therefore' that gathers up chapters 1 to 11 and by the language of offering, renewal and body, which Paul himself explains by Christ elsewhere.",
+    "god": "The passage shows God as the one who has the right to ask for everything and who asks it on the basis of mercy rather than force. A lesser deity might demand a body as tribute. This God has already given His Son, and then asks his people to give themselves as the only response that makes sense, the reasonable service. The mercies come first in the sentence; the request follows.\n\nGod is also the shaper of the mind. The passive verbs of verse 2 imply a divine agent, and Titus 3:5 names Him: the Holy Spirit's renewing. God does not merely tell people to think differently; He changes how they think. He also has a will that can be known, and verse 2 gives its three marks: good, pleasing and perfect, which is another way of saying that His will is not arbitrary or a burden but the shape of human flourishing.\n\nThe passage presents God as a giver who distributes. 'According to the grace given us', 'the measure of faith God has given you', 'gifts': the language of verses 3 and 6 is the language of apportioning. He is the generous Lord of a household who entrusts differing tasks to differing servants. This protects the church from two errors at once, the one that says 'I have nothing to offer' and the one that says 'I have everything to offer'.\n\nThere is a tension the passage holds together. God is entirely sufficient, needing nothing, Acts 17:25, and yet He is pleased by what His people offer, 'holy and pleasing to God'. The two truths stand side by side because the pleasure is the pleasure of a Father in his children, not of an employer in a labourer. Psalm 50:9-14 and Hebrews 13:16 hold the same balance: God does not need our sacrifices, yet with such sacrifices He is pleased.\n\nFor worship, the passage widens the doors of the sanctuary to include Monday morning. It also asks the church to hold praise and service together, singing and giving, prayer and work. The doctrine of God here is a doctrine that makes ordinary life an act of worship, because the God who made the body and redeemed it is the God to whom the body is offered.",
     "crossReferences": [
-      { "ref": "Romans 6:12-13", "note": "Offer yourselves to God as those brought from death to life, and your members as instruments of righteousness." },
-      { "ref": "1 Corinthians 12:4-27", "note": "One body with many members and diverse gifts of the same Spirit, given for the common good." },
-      { "ref": "1 Peter 2:5", "note": "Believers are a holy priesthood, offering spiritual sacrifices acceptable to God through Jesus Christ." },
-      { "ref": "Ephesians 4:11-13", "note": "Gifts given to equip the saints and build up the body of Christ to maturity." }
+      {
+        "ref": "Romans 6:13",
+        "note": "Paul's earlier use of the same verb for presenting oneself. The members that were once offered to sin as instruments of wickedness are now offered to God as instruments of righteousness. Romans 12:1 is the positive and complete form of this: the whole body, not only isolated members, as the offering of the redeemed."
+      },
+      {
+        "ref": "Romans 8:29",
+        "note": "Predestination aims at conformity to the image of the Son. Placed beside 12:2, the warning not to be conformed to this world is the other side of the same coin: believers are being drawn toward one pattern and must refuse the competing one. The goal of the renewing is Christlikeness."
+      },
+      {
+        "ref": "2 Corinthians 3:18",
+        "note": "The same verb for transformation, applied to beholding the Lord's glory with an unveiled face. It explains the mechanism behind Romans 12:2. The mind is renewed by looking at Christ, and the change comes through the Spirit, not through effort alone."
+      },
+      {
+        "ref": "Titus 3:5",
+        "note": "The only other New Testament use of the noun for renewal, tied to the Spirit and the new birth. It confirms that the renewing of the mind in Romans 12:2 is not a self-help programme but the continuing work of the Spirit who first made believers new."
+      },
+      {
+        "ref": "1 Peter 2:5",
+        "note": "Believers as living stones built into a house and as a holy priesthood offering spiritual sacrifices acceptable to God through Jesus Christ. It supplies the priestly setting for Paul's sacrificial language and the means of acceptance, which is Christ."
+      },
+      {
+        "ref": "Hebrews 13:15-16",
+        "note": "Names the actual sacrifices of the new covenant: the praise of lips that confess Jesus' name, doing good, and sharing with others. It shows what 'living sacrifice' looks like in daily practice and links worship to generosity."
+      },
+      {
+        "ref": "Psalm 51:16-17",
+        "note": "David says God does not delight in sacrifice as such, and that the sacrifices He wants are a broken spirit and a contrite heart. It is the Old Testament root of the idea that God receives the person before the ritual, and it prepares for Paul's claim that the true sacrifice is the offered self."
+      },
+      {
+        "ref": "1 Corinthians 12:12-27",
+        "note": "The fullest development of the body image. The foot and the ear cannot say they do not belong, and the eye cannot say to the hand it has no need of it. It shows how verse 5, 'each member belongs to one another', plays out in the life of a congregation."
+      },
+      {
+        "ref": "Ephesians 4:11-16",
+        "note": "Christ gives gifted people to the church to equip all the saints for works of service until they reach maturity. It places the gifts of Romans 12:6-8 within a goal: the building up of the body into Christ, who is its Head."
+      },
+      {
+        "ref": "Philippians 2:3-8",
+        "note": "Humility as the mind of Christ. It parallels Romans 12:3, where sober self-judgment is demanded. Paul grounds that humility not in low self-esteem but in the example of the One who, though in the form of God, served."
+      }
     ],
-    "oneStory": "All through Scripture God has been forming a people to worship Him. The temple and its sacrifices were shadows; Christ is the substance, the one sacrifice for sins forever. Now, on the far side of the cross, the mercy of God gathers a redeemed people who offer not animals but themselves, living sacrifices with renewed minds, joined as one body and serving one another with the gifts of grace, until the worship of God fills the whole earth.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "Scripture's story begins with human beings made to be God's image in His world, bodies and all, set in a garden that was the first sanctuary, Genesis 2:15. The fall bent that offering inward: the body and the mind became instruments of the self. The long history of sacrifice from Abel's altar to Israel's tabernacle was God's way of teaching that sin costs a life and that approach to Him must be mediated, and also of keeping alive the promise that a way back would be made.\n\nRomans 12 stands at the point where that story turns from rescue to re-creation. Everything from Genesis 3 to the cross has been the work of mercy; now the people who have received it are asked to live as what Adam was meant to be, a creature offered wholly to God. The renewing of the mind answers the darkening of the mind described in Romans 1:21-28. The body that was given over to dishonour is now offered in holiness.\n\nThe body of many members answers Babel and the fragmentation that followed it, and it also answers the division of Jew and Gentile that Paul has been addressing since chapter 1. The new people is not defined by ethnicity or rank but by union with Christ.\n\nThe story is not finished. Believers still live in the old age, which presses on them, and they wait for what Romans 8:23 calls the redemption of the body. The offering of the body now is a down payment on that day. In the new creation the offering will be unbroken: the redeemed will serve God day and night in His temple, Revelation 7:15, and the city will have no temple at all because its temple is the Lord God Almighty and the Lamb, Revelation 21:22. The living sacrifice of Romans 12 is the beginning of a worship that will never stop.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "On what basis does Paul appeal for us to present our bodies as a living sacrifice?",
       "options": [
-        { "text": "On account of God's mercy, the whole gospel of the first eleven chapters.", "weight": 100, "note": "The therefore grounds the appeal in the mercies of God already expounded." },
-        { "text": "In order to earn God's acceptance and forgiveness.", "weight": 75, "note": "The sacrifice is a response to mercy already received, not a way to earn it." },
-        { "text": "Because the law of Moses requires new sacrifices.", "weight": 25, "note": "Paul reframes sacrifice as the whole self given in worship, not renewed ritual." },
-        { "text": "So that we can boast in our devotion to God.", "weight": 0, "note": "The passage calls for humility and sober judgment, not boasting." }
+        {
+          "text": "On account of God's mercy, the whole gospel of the first eleven chapters.",
+          "weight": 100,
+          "note": "The therefore grounds the appeal in the mercies of God already expounded."
+        },
+        {
+          "text": "In order to earn God's acceptance and forgiveness.",
+          "weight": 75,
+          "note": "The sacrifice is a response to mercy already received, not a way to earn it."
+        },
+        {
+          "text": "Because the law of Moses requires new sacrifices.",
+          "weight": 25,
+          "note": "Paul reframes sacrifice as the whole self given in worship, not renewed ritual."
+        },
+        {
+          "text": "So that we can boast in our devotion to God.",
+          "weight": 0,
+          "note": "The passage calls for humility and sober judgment, not boasting."
+        }
       ]
     },
     {
       "q": "How are believers transformed, according to verse 2?",
       "options": [
-        { "text": "By the renewing of the mind, refusing to be conformed to this world.", "weight": 100, "note": "Transformation comes through the Spirit's renewing of how we think." },
-        { "text": "By trying harder to imitate the customs of the age.", "weight": 0, "note": "Paul says the opposite: do not be conformed to this world." },
-        { "text": "By withdrawing entirely from all of society.", "weight": 25, "note": "The call is to inner transformation, not mere physical withdrawal." },
-        { "text": "By outward ritual observance alone.", "weight": 75, "note": "The change is inward, a renewed mind, not merely external ceremony." }
+        {
+          "text": "By the renewing of the mind, refusing to be conformed to this world.",
+          "weight": 100,
+          "note": "Transformation comes through the Spirit's renewing of how we think."
+        },
+        {
+          "text": "By trying harder to imitate the customs of the age.",
+          "weight": 0,
+          "note": "Paul says the opposite: do not be conformed to this world."
+        },
+        {
+          "text": "By withdrawing entirely from all of society.",
+          "weight": 25,
+          "note": "The call is to inner transformation, not mere physical withdrawal."
+        },
+        {
+          "text": "By outward ritual observance alone.",
+          "weight": 75,
+          "note": "The change is inward, a renewed mind, not merely external ceremony."
+        }
       ]
     },
     {
       "q": "How should each believer think of himself, according to verse 3?",
       "options": [
-        { "text": "With sober judgment, according to the measure of faith God has given.", "weight": 100, "note": "Paul calls for a humble, honest self-estimate grounded in grace." },
-        { "text": "More highly than others because of his gifts.", "weight": 0, "note": "Paul explicitly warns against thinking of oneself more highly than one ought." },
-        { "text": "As worthless and without any gift to offer.", "weight": 75, "note": "Sober judgment is honest, not self-loathing; each has a gift of grace." },
-        { "text": "As entirely independent of the rest of the church.", "weight": 25, "note": "We belong to one another as members of one body." }
+        {
+          "text": "With sober judgment, according to the measure of faith God has given.",
+          "weight": 100,
+          "note": "Paul calls for a humble, honest self-estimate grounded in grace."
+        },
+        {
+          "text": "More highly than others because of his gifts.",
+          "weight": 0,
+          "note": "Paul explicitly warns against thinking of oneself more highly than one ought."
+        },
+        {
+          "text": "As worthless and without any gift to offer.",
+          "weight": 75,
+          "note": "Sober judgment is honest, not self-loathing; each has a gift of grace."
+        },
+        {
+          "text": "As entirely independent of the rest of the church.",
+          "weight": 25,
+          "note": "We belong to one another as members of one body."
+        }
       ]
     },
     {
       "q": "What does Paul teach about spiritual gifts in verses 4 to 8?",
       "options": [
-        { "text": "The one body has many members with diverse gifts of grace, to be used for one another.", "weight": 100, "note": "Different gifts, one body, each serving the whole." },
-        { "text": "Every believer should have exactly the same gift.", "weight": 0, "note": "Paul stresses that not all members have the same function." },
-        { "text": "Gifts are earned rewards for the most faithful.", "weight": 75, "note": "Gifts are given according to grace, not earned as rewards." },
-        { "text": "Only a few elite Christians have any gift.", "weight": 25, "note": "Each member has a gift and belongs to one another in the body." }
+        {
+          "text": "The one body has many members with diverse gifts of grace, to be used for one another.",
+          "weight": 100,
+          "note": "Different gifts, one body, each serving the whole."
+        },
+        {
+          "text": "Every believer should have exactly the same gift.",
+          "weight": 0,
+          "note": "Paul stresses that not all members have the same function."
+        },
+        {
+          "text": "Gifts are earned rewards for the most faithful.",
+          "weight": 75,
+          "note": "Gifts are given according to grace, not earned as rewards."
+        },
+        {
+          "text": "Only a few elite Christians have any gift.",
+          "weight": 25,
+          "note": "Each member has a gift and belongs to one another in the body."
+        }
       ]
     },
     {
       "q": "What does Paul mean by our spiritual service of worship in verse 1?",
       "options": [
-        { "text": "The whole-life offering of ourselves to God, our reasonable and true worship.", "weight": 100, "note": "Worship is the offering of the entire redeemed self, not merely ritual." },
-        { "text": "Attending temple ceremonies on set days.", "weight": 75, "note": "Paul reframes worship beyond ritual to the whole life given to God." },
-        { "text": "A private, mystical experience detached from the body.", "weight": 25, "note": "He speaks of offering our bodies, a whole-person, embodied worship." },
-        { "text": "A one-time act that need never be repeated.", "weight": 0, "note": "The living sacrifice is an ongoing, daily self-giving to God." }
+        {
+          "text": "The whole-life offering of ourselves to God, our reasonable and true worship.",
+          "weight": 100,
+          "note": "Worship is the offering of the entire redeemed self, not merely ritual."
+        },
+        {
+          "text": "Attending temple ceremonies on set days.",
+          "weight": 75,
+          "note": "Paul reframes worship beyond ritual to the whole life given to God."
+        },
+        {
+          "text": "A private, mystical experience detached from the body.",
+          "weight": 25,
+          "note": "He speaks of offering our bodies, a whole-person, embodied worship."
+        },
+        {
+          "text": "A one-time act that need never be repeated.",
+          "weight": 0,
+          "note": "The living sacrifice is an ongoing, daily self-giving to God."
+        }
       ]
     }
   ],
@@ -161,9 +379,21 @@
     "Every believer has a gift of grace for the good of the body. What gift has God given you, and how are you using it to serve others rather than yourself?"
   ],
   "translationNotes": [
-    { "ref": "Romans 12:1", "note": "Spiritual service of worship renders a Greek phrase using logikos, which can mean reasonable or rational as well as spiritual; the footnote offers your reasonable service. Either way it describes the whole-life worship that is the only fitting response to God's mercy." },
-    { "ref": "Romans 12:2", "note": "Be transformed renders metamorphoo, an inward change of form set against being conformed, pressed into the mold of the age; the passive voice points to a change God works in us by the renewing of the mind." },
-    { "ref": "Romans 12:3", "note": "The measure of faith may mean the standard by which we assess ourselves or the allotment of faith given to each; both readings humble pride, locating every gift and role within God's grace rather than personal merit." }
+    {
+      "ref": "Romans 12:1",
+      "note": "Spiritual service of worship renders a Greek phrase using logikos, which can mean reasonable or rational as well as spiritual; the footnote offers your reasonable service. Either way it describes the whole-life worship that is the only fitting response to God's mercy."
+    },
+    {
+      "ref": "Romans 12:2",
+      "note": "Be transformed renders metamorphoo, an inward change of form set against being conformed, pressed into the mold of the age; the passive voice points to a change God works in us by the renewing of the mind."
+    },
+    {
+      "ref": "Romans 12:3",
+      "note": "The measure of faith may mean the standard by which we assess ourselves or the allotment of faith given to each; both readings humble pride, locating every gift and role within God's grace rather than personal merit."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched this session from bible.helloao.org for Romans 12:1-8. Footnote markers (noteId) omitted per spine rules. punctuation kept to commas, colons, and semicolons. Sermon left as none; no expositor sermon URL verified this session." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched this session from bible.helloao.org for Romans 12:1-8. Footnote markers (noteId) omitted per spine rules. punctuation kept to commas, colons, and semicolons. Sermon left as none; no expositor sermon URL verified this session."
+  }
 }
