@@ -31,7 +31,21 @@ Read this first in any new session working on Makor films.
     publishing pack. Artwork is done (6 October): thumbnails A s023 (the garden in the east)
     and B s088 (the garden city), with 1280x720 previews, channel icon and watermark, in
     `exports/art/`; it does not change with the clips. Then disable the scheduled task.
-- Next film after that: movement 3, The Fall (Genesis 3:1 to 24), see `GENESIS-SECTION-MAP.md`.
+- **The Fall** (Genesis 3:1 to 24), `films/genesis/03-the-fall/`: started 6 October 2026.
+  - M0 draft done: `script/movement.py` (24 verses verified, 11 chapters, about 11:53
+    estimated). C1 passed: script and all ten decisions approved (quotations kept), see
+    `PRODUCTION-PLAN.md`. Spend 0.00 USD (`COSTS-movement.md`).
+  - Done 6 October: voices (11:24), animatic (101 shots), world bible, shot list, sound cues,
+    film.json scores and sfx, 98 keyframes (34 rerolled after the rule check). C2 passed.
+  - M5: scheduled task `makor-fall-veo-daily` (about 09:46 daily, after The Garden's task; 19 clips,
+    9 Fast and 10 Lite; stops at 25 USD for checkpoint C3).
+  - M7 built from keyframes (7 October): v1 (11:30), YouTube (11:54) and vertical versions,
+    artwork (A s079, B s004), short (59.5 s), packs. Waiting at C4. Rebuild all after the clips
+    (see the film's PRODUCTION-PLAN.md). Spend 10.82 USD.
+  - Working pattern: run every step without stopping, paid steps included, except checkpoints
+    C1 (script), C2 (keyframe sheets), C3 (each 25 USD), C4 (finished versions and packs).
+  - `movement_script.py` gained a `SPEAKERS` override (explicit, verified per verse splits)
+    because Genesis 3 tags God's speech in ways the generic detector misses.
 
 ## Rules (from Luyanda, never bend)
 
