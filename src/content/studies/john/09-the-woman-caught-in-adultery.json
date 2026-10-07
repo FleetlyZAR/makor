@@ -18,13 +18,41 @@
         "note": "a woman used to test Jesus",
         "emphasis": "",
         "verses": [
-          { "chapter": 7, "n": 53, "text": "Then each went to his own home." },
-          { "chapter": 8, "n": 1, "text": "But Jesus went to the Mount of Olives." },
-          { "chapter": 8, "n": 2, "text": "Early in the morning He went back into the temple courts. All the people came to Him, and He sat down to teach them." },
-          { "chapter": 8, "n": 3, "text": "The scribes and Pharisees, however, brought to Him a woman caught in adultery. They made her stand before them" },
-          { "chapter": 8, "n": 4, "text": "and said, “Teacher, this woman was caught in the act of adultery." },
-          { "chapter": 8, "n": 5, "text": "In the Law Moses commanded us to stone such a woman. So what do You say?”" },
-          { "chapter": 8, "n": 6, "text": "They said this to test Him, in order to have a basis for accusing Him. But Jesus bent down and began to write on the ground with His finger." }
+          {
+            "chapter": 7,
+            "n": 53,
+            "text": "Then each went to his own home."
+          },
+          {
+            "chapter": 8,
+            "n": 1,
+            "text": "But Jesus went to the Mount of Olives."
+          },
+          {
+            "chapter": 8,
+            "n": 2,
+            "text": "Early in the morning He went back into the temple courts. All the people came to Him, and He sat down to teach them."
+          },
+          {
+            "chapter": 8,
+            "n": 3,
+            "text": "The scribes and Pharisees, however, brought to Him a woman caught in adultery. They made her stand before them"
+          },
+          {
+            "chapter": 8,
+            "n": 4,
+            "text": "and said, “Teacher, this woman was caught in the act of adultery."
+          },
+          {
+            "chapter": 8,
+            "n": 5,
+            "text": "In the Law Moses commanded us to stone such a woman. So what do You say?”"
+          },
+          {
+            "chapter": 8,
+            "n": 6,
+            "text": "They said this to test Him, in order to have a basis for accusing Him. But Jesus bent down and began to write on the ground with His finger."
+          }
         ]
       },
       {
@@ -32,9 +60,21 @@
         "note": "the accusers leave one by one",
         "emphasis": "",
         "verses": [
-          { "chapter": 8, "n": 7, "text": "When they continued to question Him, He straightened up and said to them, “Let him who is {{anamartetos|without sin}} among you be the first to cast a stone at her.”" },
-          { "chapter": 8, "n": 8, "text": "And again He bent down and wrote on the ground." },
-          { "chapter": 8, "n": 9, "text": "When they heard this, they began to go away one by one, beginning with the older ones, until only Jesus was left, with the woman standing there." }
+          {
+            "chapter": 8,
+            "n": 7,
+            "text": "When they continued to question Him, He straightened up and said to them, “Let him who is {{anamartetos|without sin}} among you be the first to cast a stone at her.”"
+          },
+          {
+            "chapter": 8,
+            "n": 8,
+            "text": "And again He bent down and wrote on the ground."
+          },
+          {
+            "chapter": 8,
+            "n": 9,
+            "text": "When they heard this, they began to go away one by one, beginning with the older ones, until only Jesus was left, with the woman standing there."
+          }
         ]
       },
       {
@@ -42,16 +82,39 @@
         "note": "mercy and the call to a new life",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 8, "n": 10, "text": "Then Jesus straightened up and asked her, “Woman, where are your accusers? Has no one condemned you?”" },
-          { "chapter": 8, "n": 11, "text": "“No one, Lord,” she answered. “Then neither do I {{katakrino|condemn}} you,” Jesus declared. “Now go and {{hamartano|sin no more}}.”" }
+          {
+            "chapter": 8,
+            "n": 10,
+            "text": "Then Jesus straightened up and asked her, “Woman, where are your accusers? Has no one condemned you?”"
+          },
+          {
+            "chapter": 8,
+            "n": 11,
+            "text": "“No one, Lord,” she answered. “Then neither do I {{katakrino|condemn}} you,” Jesus declared. “Now go and {{hamartano|sin no more}}.”"
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "anamartetos": { "language": "Greek", "lemma": "anamartetos", "original": "ἀναμάρτητος", "gloss": "Without sin, sinless. Jesus' single condition, let the one who is without sin throw the first stone, turns the searchlight on the accusers. The word does not deny that adultery is sin or that justice matters; it exposes that the accusers are themselves sinners, unfit to execute a self-righteous judgment. Only one truly sinless person stood there, and He chose mercy." },
-    "katakrino": { "language": "Greek", "lemma": "katakrino", "original": "κατακρίνω", "gloss": "To condemn, pronounce guilty and sentence. Jesus, the only one present with the right to condemn, does not. His words neither deny her guilt nor sentence her; He releases her from condemnation. This is the same word Paul uses in Romans 8:1, there is now no condemnation for those in Christ Jesus, the mercy this scene enacts in miniature." },
-    "hamartano": { "language": "Greek", "lemma": "hamartano", "original": "ἁμαρτάνω", "gloss": "To sin, to miss the mark, to do wrong. Jesus' final words, go and sin no more, show that His mercy is not indifference to sin. Grace forgives the past and calls to a changed future; the woman is not merely let off but sent out to a new life. Mercy and the call to holiness belong together in Jesus." }
+    "anamartetos": {
+      "language": "Greek",
+      "lemma": "anamartetos",
+      "original": "ἀναμάρτητος",
+      "gloss": "Without sin, sinless. Jesus' single condition, let the one who is without sin throw the first stone, turns the searchlight on the accusers. The word does not deny that adultery is sin or that justice matters; it exposes that the accusers are themselves sinners, unfit to execute a self-righteous judgment. Only one truly sinless person stood there, and He chose mercy."
+    },
+    "katakrino": {
+      "language": "Greek",
+      "lemma": "katakrino",
+      "original": "κατακρίνω",
+      "gloss": "To condemn, pronounce guilty and sentence. Jesus, the only one present with the right to condemn, does not. His words neither deny her guilt nor sentence her; He releases her from condemnation. This is the same word Paul uses in Romans 8:1, there is now no condemnation for those in Christ Jesus, the mercy this scene enacts in miniature."
+    },
+    "hamartano": {
+      "language": "Greek",
+      "lemma": "hamartano",
+      "original": "ἁμαρτάνω",
+      "gloss": "To sin, to miss the mark, to do wrong. Jesus' final words, go and sin no more, show that His mercy is not indifference to sin. Grace forgives the past and calls to a changed future; the woman is not merely let off but sent out to a new life. Mercy and the call to holiness belong together in Jesus."
+    }
   },
   "study": {
     "basic": {
@@ -65,93 +128,274 @@
       "oneStory": "The sinless Judge meets a guilty sinner and, instead of the stones her accusers demanded, gives mercy that sends her out changed. It is a small window onto the whole gospel: the one without sin takes the place of judgment so that the guilty may go free and be made new."
     },
     "context": {
-      "literary": "A self-contained scene of confrontation and reversal, set in the temple at dawn. It follows the pattern of the leaders' attempts to trap Jesus and turns their trap back on them. The narrative is spare and dramatic, framed by Jesus stooping to write, and it climaxes not in a legal ruling but in a personal word of mercy. It sits between the division of chapter 7 and the light of the world discourse that follows.",
-      "historical": "The Law of Moses prescribed death for adultery, Leviticus 20:10 and Deuteronomy 22:22, and required witnesses; notably the man is absent here, exposing the accusers' bad faith. Under Roman rule the Jewish authorities generally could not carry out executions, sharpening the trap. Jesus' writing on the ground has been much discussed; the text does not say what He wrote, and its power lies in the sentence He speaks.",
-      "canonical": "This passage, the pericope adulterae, is absent from the earliest and best Greek manuscripts of John and appears in varied locations in others, so most scholars judge it was not part of John's original text. Yet it has been received in the church for centuries as an authentic account of Jesus, deeply consistent with His character as shown throughout the Gospels. It vividly enacts the truth of John 3:17 and Romans 8:1, that Christ came to save rather than condemn."
+      "literary": "The scene is built as a trap that closes on the trappers. It has the shape of a small play in three acts. In the first, verses 3 to 6, a charge is brought and a question is put, with the narrator telling us at once that the question is a snare and not an inquiry. In the second, verses 6 to 9, Jesus answers with silence, then with one sentence, then with silence again, and the accusers leave. In the third, verses 10 and 11, the stage is cleared and only two people remain, one who has sinned and one who has not.\n\nNotice the frame of movement. Jesus is 'bent down' twice, verses 6 and 8, and 'straightened up' twice, verses 7 and 10. The two postures set the scene's rhythm: he lowers himself, he rises to speak, and each of the two sayings is flanked by an act of stooping. The woman is placed 'before them,' verse 3, in the middle, in the full view of the crowd that has come to hear teaching, verse 2. By the end she is standing alone with him, verse 9, in a scene that has become private even though it is still in the temple courts.\n\nThe reversal is carefully reasoned. They had come to judge her and to test him. Within a sentence they are the ones tested and judged, and the order of their leaving, 'beginning with the older ones,' verse 9, shows that conscience works first where there is more to remember. The only words Jesus speaks are a challenge and a question and a sentence. His first speech, verse 7, is addressed to the men. His second, verse 10, is a pair of questions to the woman, and his third, verse 11, is a release and a charge.\n\nThe scene also sits oddly in its place. It interrupts the debate of the Feast of Tabernacles and the discourse that begins at 8:12, where the light of the world is announced. The BSB notes that early manuscripts do not include it, so the literary question and the textual question cannot be fully separated, and a reader should keep both in mind. What can be said is that the passage reads smoothly where the Gospel's story of conflict with the leaders is concerned, and it shows the same technique of reversal that is found in the chapters on either side.",
+      "historical": "The Law of Moses did prescribe death for adultery, and it did so for both parties: 'both the adulterer and the adulteress must surely be put to death,' Leviticus 20:10, and 'both the man who slept with her and the woman must die,' Deuteronomy 22:22. This is the first sign that the scribes and Pharisees are acting in bad faith. They have brought the woman and not the man, though they say she was caught in the act, which would normally mean the man was present too. Deuteronomy 22:23 and 24 also provides for stoning in the case of a betrothed woman, which may be what they had in mind.\n\nThe law also had procedural rules. A person could not be put to death on the word of a lone witness, and the witnesses had to be the first to throw: 'The hands of the witnesses shall be the first in putting him to death,' Deuteronomy 17:7. The words of Jesus in verse 7 turn that rule against the accusers. If they are to be the witnesses, then they must be the ones to begin, and no one who is carrying sin of his own can do it with a clear conscience. The scene also shows what a serious thing it was to bring a capital charge, and the law elsewhere warned against false witness, Deuteronomy 19:15 to 19.\n\nThe political problem was real. John 18:31 has the Jews say 'We are not permitted to execute anyone,' which suggests that the Romans reserved capital punishment. If Jesus ordered a stoning he would invite Roman anger, and if he forbade it he could be accused of setting aside Moses. This is the double bind the text describes in verses 5 and 6. The setting is the temple courts, early in the morning, verse 2, shortly after the feast of Tabernacles had ended, with crowds still in the city.\n\nWhy the temple at dawn? Teachers sat to teach in the temple courts, and the posture of sitting, verse 2, is that of a rabbi. The accusers 'made her stand before them,' which publicly shamed her. Jesus' action of writing with his finger on the ground is described without comment, and the reader is not told what he wrote. In a world of dust floors and open courts, writing on the ground was an ordinary thing to do, and it was also something that disappeared as soon as it was done.",
+      "canonical": "The passage is entirely at home in the Bible's picture of God, even though it is a disputed passage in the manuscripts. The words of Ezekiel, 'I take no pleasure in the death of the wicked, but rather that the wicked should turn from their ways and live,' Ezekiel 33:11, are acted out. So is Micah's cry, 'Who is a God like You, who pardons iniquity,' Micah 7:18, and the psalmist's, 'He has not dealt with us according to our sins,' Psalm 103:10. Hosea had been told to love a wife who was an adulteress, as the LORD loves Israel, Hosea 3:1.\n\nWithin John, the scene belongs with the claim of 5:22 that the Father has handed all judgment to the Son, and with 3:17, that God did not send the Son to condemn the world but to save it. It also prepares for 8:15, 'I judge no one,' and for the challenge of 8:46, 'Which of you can prove Me guilty of sin?' The one who asks that question is the one who here declines to condemn. Jeremiah 17:13 may lie behind the writing on the ground, since it says that those who abandon the LORD, the fountain of living water, 'will be written in the dust.' The link is only a possibility, but Jesus had just spoken of living water in 7:37 and 38.\n\nThe rest of the New Testament takes up the same themes. Paul writes, 'Who is there to condemn us? For Christ Jesus, who died, and more than that was raised to life, is at the right hand of God,' Romans 8:34, and 'there is now no condemnation for those who are in Christ Jesus,' Romans 8:1. He also warns those who judge others in Romans 2:1, which reads like a commentary on verse 9, and Jesus himself teaches 'Do not judge, or you will be judged,' Matthew 7:1. The Bible's last word on accusation is Revelation 12:10, where 'the accuser of our brothers has been thrown down.' The woman in this scene stands on the near side of that victory and is sent out as a free person."
     },
     "hermeneutics": {
-      "authorIntent": "To display Jesus turning a malicious trap into an occasion of mercy, upholding the reality of sin while refusing to condemn the guilty, and to reveal in one scene the heart of His mission: grace that forgives and calls to a transformed life.",
-      "descriptionVsPrescription": "The scene describes a particular encounter, not a rule that abolishes justice or church discipline. Its abiding truths are that self-righteous condemnation is exposed before the sinless Christ, that Jesus forgives the guilty who come to Him, and that His forgiveness always calls to a changed life.",
+      "authorIntent": "Whoever first set this story down, and whichever way the manuscript question is judged, its purpose is plain. The story shows Jesus solving a dilemma that had no clean answer, and doing it in a way that left both justice and mercy standing. It was told to show that he is not a lenient teacher who ignores sin, nor a strict one who delights in punishment, but one whose word reaches the root of the matter. The accusers hid their own sin behind the law, and he refused to let the law be used as a weapon.\n\nThe story also means to tell its hearers who is really on trial. The question 'what do You say?' is meant to catch Jesus, and in the end the people who asked it are the ones examined. A reader is drawn to identify first with the accusers, since we all feel the pull of righteous anger, and then to find that the story turns toward us. The story wants us to stand with the woman, ashamed and exposed, and to hear what is said to her.\n\nThe final words are as important as the first. 'Neither do I condemn you' is a gift, and 'go and sin no more' is the shape the gift takes. The story is about a mercy that does not leave a person where she was. Those who first heard it were meant to take hold of that mercy for themselves and to extend it to others without losing their hold on the truth that sin is serious.",
+      "descriptionVsPrescription": "The scene is a record of one encounter. It does not set out a procedure for the church, and it must not be treated as an abolition of civil justice or church discipline. Paul says the state 'does not carry the sword in vain,' Romans 13:4, and he tells the Corinthians to deal with a flagrant sinner within the church, 1 Corinthians 5:12 and 13, and Jesus himself lays out a way of confronting sin in Matthew 18:15 to 17. None of this is contradicted by the story. The accusers' fault was not that they cared about sin but that they used a woman as a tool to trap a teacher and did not apply the same standard to themselves.\n\nWhat the story does teach is attitude. No one who is aware of his own sin may take the place of the judge with contempt. The call 'Let him who is without sin' is not a ban on all moral judgment, which Jesus himself makes elsewhere, but a test of the heart of the one who judges. The story also describes how Jesus treats the guilty who stand before him: without excuse for the sin and without condemnation of the person.\n\nFinally, 'go and sin no more' is an instruction to every forgiven person. It is not given as a condition of forgiveness, since the verdict comes first, 'neither do I condemn you,' and the charge follows it. We are told nothing about what the woman did next, and the text does not say that she repented or believed. It would be wrong to add to what the story says.",
       "debates": [
         {
           "question": "Is this passage part of the original text of John?",
           "views": [
-            { "label": "A later addition, not original to John", "case": "The earliest and best manuscripts omit it, its style differs somewhat from John, and it floats to different places in the manuscript tradition, so the strongest textual evidence indicates it was not written by John here." },
-            { "label": "An authentic tradition, rightly received", "case": "Its wide acceptance in the church, its ring of truth, and its perfect consistency with the character of Jesus have led many to treasure it as a genuine account of something Jesus did, even if not part of John's original text." }
+            {
+              "label": "A later addition",
+              "case": "The two earliest papyri of John, P66 and P75, and the great codices Sinaiticus and Vaticanus do not have it. When it does appear in later manuscripts it is placed in different positions, after John 7:52, at the end of John, or after Luke 21:38, and its vocabulary and style are unlike John's. Most textual scholars therefore judge that it was not written by John as part of the Gospel."
+            },
+            {
+              "label": "A genuine early tradition about Jesus",
+              "case": "It is found in Codex Bezae and in many later copies, and Jerome included it in the Latin Vulgate. Augustine thought some had removed it from their copies because they feared it would encourage sinning. Eusebius mentions that Papias told a story of a woman accused of many sins before the Lord, and some think this is a form of it. The story has the ring of truth, and many hold that a true memory was added to the Gospel at an early stage."
+            },
+            {
+              "label": "Original to John",
+              "case": "A smaller number of scholars argue that the passage was in John's own text and was lost or removed from the oldest copies, and they point to the way it fits the context of the feast and the conflict with the Pharisees. Few hold this today, since the manuscript evidence weighs heavily against it."
+            }
           ],
-          "bearing": "Honesty requires acknowledging the textual question; either way, no doctrine rests on this passage alone, and its portrait of Christ's mercy is confirmed everywhere else in the Gospels, so it may be read with humility and thankfulness."
+          "bearing": "No doctrine depends on this passage alone, and its portrait of Jesus agrees with the rest of the Gospels, as in Luke 7:47 and 48 and Luke 19:10. A reader can honestly say that the passage is probably not from John's pen, and can still receive it as a true story that the church has long valued, while preaching it with the care that an honest note about the manuscripts requires."
         },
         {
-          "question": "Does Jesus' mercy set aside the seriousness of sin?",
+          "question": "On what ground does Jesus decline to condemn her?",
           "views": [
-            { "label": "No, He upholds sin's gravity", "case": "Jesus never calls the adultery anything but sin, and He commands her to sin no more; His mercy addresses a real transgression rather than pretending none occurred." },
-            { "label": "His grace transforms, not merely excuses", "case": "The forgiveness is not a loophole but a release that summons her to a new life; grace and the call to holiness are held together, not opposed." }
+            {
+              "label": "The legal process had collapsed",
+              "case": "The law required witnesses, Deuteronomy 17:6 and 7, and the accusers had left. The man was not before the court, and the case had no one to bring it. Jesus' refusal to condemn is then a statement that there is no valid charge before him, not that the sin did not matter."
+            },
+            {
+              "label": "He came to save, not to judge",
+              "case": "John 3:17 says God did not send the Son to condemn the world, and John 8:15 says 'I judge no one.' Here, as in Luke 19:10, the Son of Man has come 'to seek and to save the lost.' His refusal is an expression of the purpose of his coming."
+            },
+            {
+              "label": "He would himself bear the condemnation",
+              "case": "The one person present who could throw a stone is the one who will take the condemnation on himself. Proverbs 17:15 calls it detestable to acquit the guilty, and Paul explains in Romans 3:25 and 26 how God can be both 'just and the one who justifies,' through the atoning sacrifice. On this reading the scene looks ahead to the cross, which makes the pardon just."
+            }
           ],
-          "bearing": "Both guard against cheap grace: Jesus forgives real sin fully and freely, and that very forgiveness calls the forgiven to go and sin no more."
+          "bearing": "These do not compete. The scene shows a legal failure, a mission of salvation and a pardon that is paid for later, and the third explains how the first two can be held without making God unjust."
+        },
+        {
+          "question": "What did Jesus write on the ground?",
+          "views": [
+            {
+              "label": "Something of Scripture or of the accusers' own sins",
+              "case": "Some think he wrote the sins of the accusers, or a text such as Jeremiah 17:13, which says those who turn from the LORD 'will be written in the dust.' This would explain why the men left one by one, as each saw his own name."
+            },
+            {
+              "label": "A recalling of the finger of God",
+              "case": "Others see an allusion to Exodus 31:18, the tablets 'inscribed by the finger of God,' the Lawgiver now acting as the one who writes on a different surface and with different aim."
+            },
+            {
+              "label": "A deliberate delay",
+              "case": "Many suggest that the writing was a way of refusing to be hurried. By bending down and saying nothing, Jesus gives the conscience time to speak, and the text gives no content because the content is not the point."
+            }
+          ],
+          "bearing": "The text deliberately withholds what he wrote, and its power lies in the sentence he speaks. The first two readings are conjectures, though attractive ones, and it is safest to hold the third with them."
         }
       ]
     },
-    "originalLanguages": "The drama hinges on three words. Jesus makes one condition for the stoning: let the one who is anamartetos, without sin, cast the first stone, and the searchlight swings from the woman to her accusers, who quietly withdraw. Left alone with her, He refuses to katakrino, to condemn, though as the only sinless one present He alone had the right to. And He sends her away with a command, go and hamartano no more, do not sin again, so that His mercy is neither indulgent nor cold: it forgives the past fully and calls to a holy future.",
+    "originalLanguages": "The scene turns on a handful of small words. In verse 6 the narrator says the accusers were 'testing' Jesus, from peirazo, the verb used for the temptation in the wilderness and for the testing of Israel. The question about the Law is therefore not an honest enquiry but a temptation, and Jesus is placed again where he was in Matthew 4. They also call him 'Teacher' in verse 4, didaskale, a title of respect that sits oddly on the lips of men who have no intention of being taught.\n\nTwice Jesus 'bent down,' kypto, and twice he 'straightened up,' from anakypto, the same verb with a prefix that means up. The two verbs mark a clear pattern in the account. The verb for 'straightened up' is an unusual word in John and carries the sense of lifting oneself into an upright posture. In verse 7 Jesus says that the sinless one should cast a stone 'first,' proton. The word can mean first in order, as the one who begins, in line with Deuteronomy 17:7, or first before anything else. Both senses fit the scene, since the witness must begin and the sinless must begin.\n\nThe verb that describes the departure of the accusers in verse 9 is 'they began to go away,' a single word that suggests a quiet, gradual leaving, one by one, beginning with the older men, presbyteroi. The sense of 'older' is literal, though in the Gospels the same word is used for the elders of the people, so the reader may hear both. The BSB footnote at verse 9 says that some manuscripts add that they were 'convicted by their conscience,' a phrase that explains the departure but that the earlier copies do not contain.\n\nWhen Jesus speaks to her he says 'Woman,' gynai, which in John is a respectful form of address, as in 2:4, 4:21 and 19:26. She answers 'Lord,' kyrie, which may mean no more than 'sir,' but the reader, who has heard the title used of Jesus throughout the Gospel, may hear more. The BSB footnote at verse 10 also notes that the earlier text reads 'where are they,' and that some manuscripts add the words about seeing no one but the woman.\n\nThe last command, 'go and sin no more,' is mēketi hamartane, a present imperative with the word for 'no longer.' The present imperative describes a habit or continuing course, and the sense is 'do not go on sinning,' or 'from now on, do not live in sin.' It points to an ongoing way of life, not to a single act. It is a call to a new direction that is possible because condemnation has been lifted, and not a requirement that must be met first. In the Greek the order matters: the verdict comes first, the command second.",
     "typology": [
-      { "type": "The finger of God writing the Law on stone, Exodus 31:18", "fulfillment": "The Lawgiver Himself stooping to write on the ground, bringing the mercy the Law could not give, John 8:6 and 8." },
-      { "type": "The demand of the Law for the sinner's death", "fulfillment": "Christ, the sinless one, who bears condemnation Himself at the cross so the guilty may go free, Romans 8:1-3." },
-      { "type": "The accusers silenced", "fulfillment": "The final silencing of every accuser of God's people through the forgiveness Christ secures, Romans 8:33-34." }
+      {
+        "type": "The finger of God and the tablets of stone, Exodus 31:18",
+        "fulfillment": "The Law was given on 'tablets of stone inscribed by the finger of God,' Exodus 31:18. Here the one who wrote the Law on stone writes on the ground with his finger, and speaks the verdict on a sinner who has been brought under that Law. The escalation comes through the promised new covenant: 'I will remove your heart of stone and give you a heart of flesh,' Ezekiel 36:26, and 'I will put My law in their minds and inscribe it on their hearts,' Jeremiah 31:33. Paul says believers are 'written not with ink but with the Spirit of the living God, not on tablets of stone but on tablets of human hearts,' 2 Corinthians 3:3. The type falls short in that the finger in the dust left nothing that lasted, and the lasting work of writing on the heart comes only after the cross and by the Spirit. The link to Exodus is an inference, since the text does not say what he wrote."
+      },
+      {
+        "type": "Israel the unfaithful wife, Hosea 3:1 to 3",
+        "fulfillment": "The prophets used adultery as a picture of Israel's unfaithfulness to the LORD, and Hosea is told to love an adulteress 'as the LORD loves the Israelites,' Hosea 3:1. The woman in John 8 stands where Israel stood, guilty and exposed with no defence, and receives what Hosea's wife received, love that does not follow the sentence she has earned. In Christ the picture reaches its fulfilment, for he loves the church and gave himself up for her, 'to present her to Himself as a glorious church,' Ephesians 5:25 to 27. The type falls short in that Hosea paid a price in silver and barley, while Christ pays with his own life, and the bride is not only forgiven but cleansed."
+      },
+      {
+        "type": "Joshua the high priest and the accuser, Zechariah 3:1 to 4",
+        "fulfillment": "In Zechariah's vision Joshua stands in filthy garments with Satan at his right hand to accuse him. The LORD rebukes the accuser, calls Joshua 'a firebrand snatched from the fire,' and says, 'See, I have removed your iniquity, and I will clothe you with splendid robes,' Zechariah 3:2 to 4. The scene in the temple at dawn follows the same shape: accusers, a guilty person with no defence, a verdict from the one who has authority, and the removal of the charge. Revelation 12:10 names the accuser who is finally thrown down. The type falls short in that Joshua is a priest and the woman is an ordinary sinner, and the scene in Zechariah shows the verdict without saying how it is justified, which the New Testament does by pointing to the cross, Romans 3:25 and 26."
+      },
+      {
+        "type": "The stones turned on the sinless one, John 8:59",
+        "fulfillment": "At the end of this chapter, the people who have just been unable to throw a stone at a sinner 'picked up stones to throw at Him,' John 8:59. Jesus refuses to be the executioner of the guilty, and becomes the one on whom the judgment of the guilty is laid. The cross is described in Galatians 3:13 as Christ 'becoming a curse for us,' and 2 Corinthians 5:21 says that God 'made Him who knew no sin to be sin on our behalf.' Isaiah 53:6 says the LORD laid on him 'the iniquity of us all.' The type falls short because the stones in John 8:59 did not reach him, while the judgment of the cross did, and for a purpose that no mob could have imagined."
+      }
     ],
-    "christ": "Christ stands as the only sinless person in the scene, the one truly qualified to pick up a stone, and He is the one who refuses. He does not deny the woman's guilt or soften the Law's verdict on sin; He exposes the hypocrisy of her accusers and then extends the mercy He came to bring. In refusing to condemn, He reveals the purpose of His whole mission, for God sent the Son not to condemn the world but to save it. And in commanding her to sin no more, He shows that His grace makes new. The scene foreshadows the cross, where the sinless one takes the condemnation of sinners so they can walk free.",
-    "god": "God is shown to be at once holy and merciful, never one at the expense of the other. He takes sin seriously, so Jesus calls it sin and calls her from it; yet He delights to pardon the guilty who stand defenseless before Him. This is the God of Micah 7, who pardons iniquity and does not retain His anger forever, and the God of Romans, who justifies the ungodly. In Jesus, the judgment sinners deserve gives way to mercy that heals, and the God who could rightly condemn instead sets the captive free and calls her to life.",
+    "christ": "The scene leads to Christ in the way it handles the question of who is qualified to judge. By the Law's own design the person who throws first must be without fault, and only one person in the temple that morning was. He is the one the Gospel will go on to challenge them with: 'Which of you can prove Me guilty of sin?' John 8:46. The New Testament says the same of him in other words: he 'was without sin,' Hebrews 4:15, 'He committed no sin,' 1 Peter 2:22. He alone could have thrown the stone, and he did not.\n\nThe scene also shows how he can refuse to condemn and still be just. The mercy he gives is not a casual overlooking of sin, for Proverbs 17:15 says it is detestable to acquit the guilty. Paul's answer is that God did not set justice aside but put it forward in Christ, who was 'presented as the atoning sacrifice,' so that God might be 'just and the one who justifies,' Romans 3:25 and 26. In this way the story leads to the cross. The man who bends down in the dust and says 'neither do I condemn you' is the man who will carry her sin, as the chapter's closing scene hints when stones are lifted against him in verse 59 of chapter 8. Isaiah 53:5 says 'He was pierced for our transgressions,' and that is the price of the words he says to her.\n\nThe scene shows what his mission is. In John 3:17 and in Luke 19:10 he says he came to save and seek the lost, and here a person who was within minutes of death is found by that mercy. It also shows his authority. He is the Lawgiver, who wrote on tablets, standing among those who quote the Law, and he applies it to them with perfect insight. His few words search every heart in the crowd, which is a sign of the divine knowledge that John elsewhere ascribes to him, John 2:25.\n\nCare is needed here. There is no hint that the scene is an allegory in which the woman is the church and the accusers are the demons. It is better to let it stand as it is, a real encounter that shows Christ's character, and to let the New Testament say what the cross did. Romans 8:33 and 34 puts the whole scene into one question and answer: 'Who is there to condemn us? For Christ Jesus, who died ... is at the right hand of God, and He is interceding for us.' The One who stood between the woman and the stones now stands between his people and every charge.",
+    "god": "The scene shows that the God of the Bible is holy and merciful at once. Nothing in the story calls adultery anything but sin, and Jesus' last word to the woman assumes it. Yet the God who gave the Law is the same God who says, 'I take no pleasure in the death of the wicked, but rather that the wicked should turn from their ways and live,' Ezekiel 33:11. These are not two moods in God, but two sides of one character, and the passage shows them together in a person.\n\nIt shows a God who knows. Jesus does not need to ask who is guilty. He sees at once the sin of the woman and the sins of the crowd, and John says elsewhere that he 'knew what was in a man,' John 2:25. This knowledge is a threat to those who hide behind a show of righteousness and a comfort to those who have nothing left to hide. The God who sees everything is the God who can forgive everything that is brought to him.\n\nIt shows a God who is patient with accusers. Jesus does not shame the men who bring her. He says one sentence and then lets them go. The text suggests that they were free to stay, and that it was their own conscience that moved them. God does not drive people to repentance by force, though he gives them what they need to face themselves.\n\nIt shows a God who forgives without becoming unjust. Proverbs 17:15 says that to acquit the guilty is detestable, and Micah 7:18 asks, 'Who is a God like You, who pardons iniquity?' and says that he does so because he 'delights in loving devotion.' The New Testament holds the two together at the cross, Romans 3:26. The worship that follows is both fearful and glad. Psalm 103:10 to 12 captures it: 'He has not dealt with us according to our sins,' and 'as far as the east is from the west, so far has He removed our transgressions from us.'\n\nFinally, it shows a God who wants more for people than pardon. 'Go and sin no more' is the voice of a God who desires holiness. His grace is not only release from a penalty but a summons into a new life, a thought Paul develops in Romans 6. Worship that sees this will be grateful and obedient together, and will treat other sinners as God treated this one.",
     "crossReferences": [
-      { "ref": "John 3:17", "note": "God did not send His Son to condemn the world, but to save it, the very posture Jesus takes here." },
-      { "ref": "Romans 8:1", "note": "There is now no condemnation for those in Christ Jesus, the mercy this scene enacts." },
-      { "ref": "Romans 2:1-3", "note": "You who judge others do the same things, exposing the self-righteous accusers." },
-      { "ref": "Micah 7:18-19", "note": "Who is a God like You, pardoning iniquity, the character of God displayed in Jesus' mercy." }
+      {
+        "ref": "Leviticus 20:10",
+        "note": "The law that both the adulterer and the adulteress must be put to death. It shows that the scribes and Pharisees were enforcing the law selectively, since only the woman is brought, and it exposes the bad faith behind their appeal to Moses."
+      },
+      {
+        "ref": "Deuteronomy 17:6-7",
+        "note": "A man could be executed only on the testimony of two or three witnesses, and their hands were to be the first to act. Jesus' word that the sinless one should cast the first stone, verse 7, turns the law's own procedure on the accusers and tests whether any could carry it out."
+      },
+      {
+        "ref": "Exodus 31:18",
+        "note": "The Law was given on tablets of stone inscribed by the finger of God. Jesus writes with his finger on the ground, verse 6, and many readers hear a quiet reminder that the Lawgiver himself is present. The text does not make the link explicit."
+      },
+      {
+        "ref": "Jeremiah 17:13",
+        "note": "Those who turn from the LORD, the fountain of living water, 'will be written in the dust.' Jesus had just offered living water at the feast, John 7:37, and writes in the dust before men who are abandoning him. It may be an allusion, but it is only a possibility."
+      },
+      {
+        "ref": "Ezekiel 33:11",
+        "note": "God takes no pleasure in the death of the wicked but wants them to turn and live. This is the heart of what Jesus acts out in verses 10 and 11, a pardon that is aimed at a new life."
+      },
+      {
+        "ref": "Hosea 3:1-3",
+        "note": "The prophet is told to love an adulteress as the LORD loves Israel, and he buys her back and calls her to faithfulness. The woman in John 8 receives the same kind of love, and the scene is a picture of the grace that God shows to his faithless people."
+      },
+      {
+        "ref": "Zechariah 3:1-4",
+        "note": "Joshua the high priest stands in filthy garments with Satan accusing him, and the LORD rebukes the accuser and removes his iniquity. The shape of the vision matches the scene in the temple: an accuser, a guilty person, and a verdict of grace from the one who has authority."
+      },
+      {
+        "ref": "John 3:17",
+        "note": "God did not send his Son into the world to condemn the world but to save it. The scene gives this statement a face, and the declaration in verse 11 is the Gospel's purpose in a single case."
+      },
+      {
+        "ref": "John 8:46",
+        "note": "Jesus asks, 'Which of you can prove Me guilty of sin?' Only a sinless person could throw the first stone, and this question comes later in the same chapter. The one who forgives is the one who could have condemned."
+      },
+      {
+        "ref": "Romans 2:1",
+        "note": "Paul says that whoever passes judgment on another condemns himself, because he does the same things. This reads almost as a commentary on the accusers who left, and it carries the lesson of the scene into the life of the church."
+      },
+      {
+        "ref": "Romans 8:33-34",
+        "note": "'Who is there to condemn us? For Christ Jesus, who died ... is at the right hand of God.' It gives the ground on which Jesus can say 'neither do I condemn you,' for the one who could condemn has himself borne the sentence and now pleads for his people."
+      },
+      {
+        "ref": "Revelation 12:10",
+        "note": "The accuser of the brothers has been thrown down. The scene in the temple is a small picture of that victory: accusers silenced, a guilty person set free, and the verdict spoken by the one to whom judgment belongs."
+      }
     ],
-    "oneStory": "In one brief scene the whole gospel is pictured. The sinless Judge meets a guilty sinner with no defense, and instead of the stones her accusers demanded, He gives mercy that sends her out forgiven and changed. He upholds the truth about sin and yet does not condemn, because He came to save. Here in miniature is what the cross will accomplish: the one without sin standing in the place of judgment so that the guilty may go free, released from condemnation and called to a new life. The accusers fall silent, and grace has the last word.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "The Bible's story begins with a man and a woman who hid themselves from God and then blamed one another, Genesis 3:7 to 13. From that moment, the question of how a holy God can live among a guilty people lies under every page. The Law was given to set out what sin is and what it costs, and for the sin of adultery the cost was death, Leviticus 20:10. The prophets added a second voice, in which God is the faithful husband and Israel the unfaithful wife, and in which he says he would rather see a sinner turn and live, Hosea 3:1 and Ezekiel 33:11.\n\nThis scene is a small stage on which that large question is played. A guilty person has no defence, and a law that cannot be denied demands her life. The accusers are sure they stand on the right side. Then the one who gave the Law speaks, and exposes every heart. The accusers see themselves. The woman is told that she is not condemned, and is called to a new life. Zechariah's vision of the accused high priest, Zechariah 3:1 to 4, and Hosea's purchase of his wife are drawn together into one morning in the temple.\n\nThe scene sets up the cross. The mercy offered in the dust is paid for on the tree, where Christ became 'a curse for us,' Galatians 3:13, and it is in his death that God is 'just and the one who justifies,' Romans 3:26. The chapter that follows shows that the one who refused to cast the stone becomes the one against whom stones are lifted, John 8:59. The Spirit will then do what the finger in the dust could not, writing the law on hearts, 2 Corinthians 3:3.\n\nThe story ends in a new creation where the accuser has been thrown down, Revelation 12:10, and where 'there is now no condemnation for those who are in Christ Jesus,' Romans 8:1, becomes the permanent condition of a people. Those who stand there will have no past held against them, and none of them will have anything to hold against another. For the reader of John, the last word of the scene is still the first word that every person needs to hear: 'Neither do I condemn you.'",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What was the aim of the scribes and Pharisees in bringing the woman to Jesus?",
       "options": [
-        { "text": "To trap Him, so they would have a basis for accusing Him.", "weight": 100, "note": "Verse 6 states plainly they said this to test Him and find grounds to accuse Him." },
-        { "text": "To seek His honest counsel on a hard case.", "weight": 0, "note": "Their motive was a trap, not a sincere request for wisdom." },
-        { "text": "To force Him to choose between mercy and the Law of Moses.", "weight": 75, "note": "True, this was the shape of the trap, but the text's stated aim is to have a basis for accusing Him." },
-        { "text": "To have the woman publicly shamed.", "weight": 25, "note": "She was used as bait, but the real target of the scheme was Jesus, not merely her shame." }
+        {
+          "text": "To trap Him, so they would have a basis for accusing Him.",
+          "weight": 100,
+          "note": "Verse 6 states plainly they said this to test Him and find grounds to accuse Him."
+        },
+        {
+          "text": "To seek His honest counsel on a hard case.",
+          "weight": 0,
+          "note": "Their motive was a trap, not a sincere request for wisdom."
+        },
+        {
+          "text": "To force Him to choose between mercy and the Law of Moses.",
+          "weight": 75,
+          "note": "True, this was the shape of the trap, but the text's stated aim is to have a basis for accusing Him."
+        },
+        {
+          "text": "To have the woman publicly shamed.",
+          "weight": 25,
+          "note": "She was used as bait, but the real target of the scheme was Jesus, not merely her shame."
+        }
       ]
     },
     {
       "q": "How does Jesus respond to the demand that the woman be stoned?",
       "options": [
-        { "text": "He says the one without sin should cast the first stone, exposing the accusers.", "weight": 100, "note": "Verse 7 records the sentence that turns the judgment back on the accusers." },
-        { "text": "He declares that the Law of Moses no longer applies.", "weight": 0, "note": "He does not abolish the Law; He exposes the hypocrisy of the accusers." },
-        { "text": "He simply refuses to answer their question.", "weight": 25, "note": "He does answer, with a piercing sentence, rather than merely refusing." },
-        { "text": "He challenges the accusers to examine their own hearts first.", "weight": 75, "note": "True in effect, but it softens the specific and disarming condition He set, the one without sin throwing first." }
+        {
+          "text": "He says the one without sin should cast the first stone, exposing the accusers.",
+          "weight": 100,
+          "note": "Verse 7 records the sentence that turns the judgment back on the accusers."
+        },
+        {
+          "text": "He declares that the Law of Moses no longer applies.",
+          "weight": 0,
+          "note": "He does not abolish the Law; He exposes the hypocrisy of the accusers."
+        },
+        {
+          "text": "He simply refuses to answer their question.",
+          "weight": 25,
+          "note": "He does answer, with a piercing sentence, rather than merely refusing."
+        },
+        {
+          "text": "He challenges the accusers to examine their own hearts first.",
+          "weight": 75,
+          "note": "True in effect, but it softens the specific and disarming condition He set, the one without sin throwing first."
+        }
       ]
     },
     {
       "q": "What does Jesus say to the woman when they are left alone?",
       "options": [
-        { "text": "Neither do I condemn you; now go and sin no more.", "weight": 100, "note": "Verse 11 joins mercy and the call to a changed life." },
-        { "text": "Your sin does not matter; go in peace.", "weight": 0, "note": "He never says her sin does not matter; He tells her to sin no more." },
-        { "text": "I forgive you, so you are free to live as you please.", "weight": 25, "note": "His forgiveness is real, but it comes with the command to sin no more, not license." },
-        { "text": "I do not condemn you, and He lets her go.", "weight": 75, "note": "True but incomplete; it omits the vital command, go and sin no more." }
+        {
+          "text": "Neither do I condemn you; now go and sin no more.",
+          "weight": 100,
+          "note": "Verse 11 joins mercy and the call to a changed life."
+        },
+        {
+          "text": "Your sin does not matter; go in peace.",
+          "weight": 0,
+          "note": "He never says her sin does not matter; He tells her to sin no more."
+        },
+        {
+          "text": "I forgive you, so you are free to live as you please.",
+          "weight": 25,
+          "note": "His forgiveness is real, but it comes with the command to sin no more, not license."
+        },
+        {
+          "text": "I do not condemn you, and He lets her go.",
+          "weight": 75,
+          "note": "True but incomplete; it omits the vital command, go and sin no more."
+        }
       ]
     },
     {
       "q": "What does this scene reveal about how Jesus holds justice and mercy together?",
       "options": [
-        { "text": "He neither denies her sin nor condemns her, forgiving fully and calling her to a new life.", "weight": 100, "note": "He upholds the reality of sin and yet extends mercy, the heart of the scene." },
-        { "text": "He shows that mercy means ignoring sin altogether.", "weight": 0, "note": "He does not ignore sin; He names it and calls her from it while forgiving her." },
-        { "text": "He proves that justice must always give way to leniency.", "weight": 25, "note": "It is not mere leniency; the sinless Judge extends costly mercy without excusing sin." },
-        { "text": "He forgives her and directs her toward a changed life.", "weight": 75, "note": "True, but it understates that He also upholds the seriousness of her sin even as He forgives." }
+        {
+          "text": "He neither denies her sin nor condemns her, forgiving fully and calling her to a new life.",
+          "weight": 100,
+          "note": "He upholds the reality of sin and yet extends mercy, the heart of the scene."
+        },
+        {
+          "text": "He shows that mercy means ignoring sin altogether.",
+          "weight": 0,
+          "note": "He does not ignore sin; He names it and calls her from it while forgiving her."
+        },
+        {
+          "text": "He proves that justice must always give way to leniency.",
+          "weight": 25,
+          "note": "It is not mere leniency; the sinless Judge extends costly mercy without excusing sin."
+        },
+        {
+          "text": "He forgives her and directs her toward a changed life.",
+          "weight": 75,
+          "note": "True, but it understates that He also upholds the seriousness of her sin even as He forgives."
+        }
       ]
     },
     {
       "q": "What is the honest textual situation of this passage?",
       "options": [
-        { "text": "It is absent from the earliest manuscripts, yet long received by the church as a true account consistent with Jesus' character.", "weight": 100, "note": "This reflects the manuscript evidence and the church's reception, held with humility." },
-        { "text": "It is found in every manuscript with no question at all.", "weight": 0, "note": "The earliest and best manuscripts omit it; this is a genuine textual question." },
-        { "text": "It is a proven forgery with no value.", "weight": 25, "note": "That overstates the case; while likely not original to John, it has been treasured as consistent with Christ's character." },
-        { "text": "It is missing from some early manuscripts but widely accepted in the tradition.", "weight": 75, "note": "True and close, but it understates how strong the early evidence for omission is." }
+        {
+          "text": "It is absent from the earliest manuscripts, yet long received by the church as a true account consistent with Jesus' character.",
+          "weight": 100,
+          "note": "This reflects the manuscript evidence and the church's reception, held with humility."
+        },
+        {
+          "text": "It is found in every manuscript with no question at all.",
+          "weight": 0,
+          "note": "The earliest and best manuscripts omit it; this is a genuine textual question."
+        },
+        {
+          "text": "It is a proven forgery with no value.",
+          "weight": 25,
+          "note": "That overstates the case; while likely not original to John, it has been treasured as consistent with Christ's character."
+        },
+        {
+          "text": "It is missing from some early manuscripts but widely accepted in the tradition.",
+          "weight": 75,
+          "note": "True and close, but it understates how strong the early evidence for omission is."
+        }
       ]
     }
   ],
@@ -163,9 +407,21 @@
     "The scene pictures grace that costs Jesus everything at the cross. How does the price of your forgiveness shape the way you live in response?"
   ],
   "translationNotes": [
-    { "ref": "John 7:53-8:11", "note": "This passage, the woman caught in adultery, is not found in the earliest and best Greek manuscripts of John and appears at differing places in others, so most scholars judge it was not part of John's original text. The BSB prints it with a footnote to that effect. The church has long received it as an authentic account of Jesus, and it is included here as printed in the BSB, with the manuscript question noted honestly." },
-    { "ref": "John 8:6", "note": "The text does not say what Jesus wrote on the ground; interpretations abound, but the power of the scene lies in the sentence He speaks, not in the writing." },
-    { "ref": "John 8:5", "note": "The Law prescribed death for adultery (Leviticus 20:10; Deuteronomy 22:22) and required witnesses; the conspicuous absence of the man exposes the accusers' bad faith." }
+    {
+      "ref": "John 7:53-8:11",
+      "note": "This passage, the woman caught in adultery, is not found in the earliest and best Greek manuscripts of John and appears at differing places in others, so most scholars judge it was not part of John's original text. The BSB prints it with a footnote to that effect. The church has long received it as an authentic account of Jesus, and it is included here as printed in the BSB, with the manuscript question noted honestly."
+    },
+    {
+      "ref": "John 8:6",
+      "note": "The text does not say what Jesus wrote on the ground; interpretations abound, but the power of the scene lies in the sentence He speaks, not in the writing."
+    },
+    {
+      "ref": "John 8:5",
+      "note": "The Law prescribed death for adultery (Leviticus 20:10; Deuteronomy 22:22) and required witnesses; the conspicuous absence of the man exposes the accusers' bad faith."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched this session from bible.helloao.org for John 7:53-8:11. Verse text assembled by concatenating content segments in order; footnote markers and line breaks skipped, embedded speaker turns joined with single spaces. The passage is a known textual variant, absent from the earliest manuscripts, and is included as printed in the BSB with the manuscript question noted in translationNotes. Sermon left as none; no expositor sermon URL verified this session." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched this session from bible.helloao.org for John 7:53-8:11. Verse text assembled by concatenating content segments in order; footnote markers and line breaks skipped, embedded speaker turns joined with single spaces. The passage is a known textual variant, absent from the earliest manuscripts, and is included as printed in the BSB with the manuscript question noted in translationNotes. Sermon left as none; no expositor sermon URL verified this session."
+  }
 }
