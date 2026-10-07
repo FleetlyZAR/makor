@@ -1,6 +1,6 @@
 # The Garden: Suno prompts for the score
 
-**Not used (6 October 2026):** Luyanda chose to reuse The Seven Days score instead, re-cut
+**Superseded (7 October 2026) by `suno-score.md`** (six cues with a pulse, per `films/SCORING.md`). Earlier note: Luyanda chose to reuse The Seven Days score instead, re-cut
 to The Garden's acts (see `music_note` in `film.json`). Kept here in case a new score is wanted later.
 
 Four instrumental tracks, one per act, in the same family as The Seven Days score so the
