@@ -18,11 +18,31 @@
         "note": "the fruits of justification, even in suffering",
         "emphasis": "",
         "verses": [
-          { "chapter": 5, "n": 1, "text": "Therefore, since we have been justified through faith, we have {{eirene|peace}} with God through our Lord Jesus Christ," },
-          { "chapter": 5, "n": 2, "text": "through whom we have gained access by faith into this grace in which we stand. And we rejoice in the {{elpis|hope}} of the glory of God." },
-          { "chapter": 5, "n": 3, "text": "Not only that, but we also rejoice in our sufferings, because we know that suffering produces perseverance;" },
-          { "chapter": 5, "n": 4, "text": "perseverance, character; and character, hope." },
-          { "chapter": 5, "n": 5, "text": "And hope does not disappoint us, because God has poured out His {{agape|love}} into our hearts through the Holy Spirit, whom He has given us." }
+          {
+            "chapter": 5,
+            "n": 1,
+            "text": "Therefore, since we have been justified through faith, we have {{eirene|peace}} with God through our Lord Jesus Christ,"
+          },
+          {
+            "chapter": 5,
+            "n": 2,
+            "text": "through whom we have gained access by faith into this grace in which we stand. And we rejoice in the {{elpis|hope}} of the glory of God."
+          },
+          {
+            "chapter": 5,
+            "n": 3,
+            "text": "Not only that, but we also rejoice in our sufferings, because we know that suffering produces perseverance;"
+          },
+          {
+            "chapter": 5,
+            "n": 4,
+            "text": "perseverance, character; and character, hope."
+          },
+          {
+            "chapter": 5,
+            "n": 5,
+            "text": "And hope does not disappoint us, because God has poured out His {{agape|love}} into our hearts through the Holy Spirit, whom He has given us."
+          }
         ]
       },
       {
@@ -30,9 +50,21 @@
         "note": "God proves His love while we were still sinners",
         "emphasis": "",
         "verses": [
-          { "chapter": 5, "n": 6, "text": "For at just the right time, while we were still powerless, Christ died for the ungodly." },
-          { "chapter": 5, "n": 7, "text": "Very rarely will anyone die for a righteous man, though for a good man someone might possibly dare to die." },
-          { "chapter": 5, "n": 8, "text": "But God proves His love for us in this: While we were still sinners, Christ died for us." }
+          {
+            "chapter": 5,
+            "n": 6,
+            "text": "For at just the right time, while we were still powerless, Christ died for the ungodly."
+          },
+          {
+            "chapter": 5,
+            "n": 7,
+            "text": "Very rarely will anyone die for a righteous man, though for a good man someone might possibly dare to die."
+          },
+          {
+            "chapter": 5,
+            "n": 8,
+            "text": "But God proves His love for us in this: While we were still sinners, Christ died for us."
+          }
         ]
       },
       {
@@ -40,18 +72,50 @@
         "note": "the how much more of assurance",
         "emphasis": "",
         "verses": [
-          { "chapter": 5, "n": 9, "text": "Therefore, since we have now been justified by His blood, how much more shall we be saved from wrath through Him!" },
-          { "chapter": 5, "n": 10, "text": "For if, when we were enemies of God, we were {{katallasso|reconciled}} to Him through the death of His Son, how much more, having been reconciled, shall we be saved through His life!" },
-          { "chapter": 5, "n": 11, "text": "Not only that, but we also rejoice in God through our Lord Jesus Christ, through whom we have now received reconciliation." }
+          {
+            "chapter": 5,
+            "n": 9,
+            "text": "Therefore, since we have now been justified by His blood, how much more shall we be saved from wrath through Him!"
+          },
+          {
+            "chapter": 5,
+            "n": 10,
+            "text": "For if, when we were enemies of God, we were {{katallasso|reconciled}} to Him through the death of His Son, how much more, having been reconciled, shall we be saved through His life!"
+          },
+          {
+            "chapter": 5,
+            "n": 11,
+            "text": "Not only that, but we also rejoice in God through our Lord Jesus Christ, through whom we have now received reconciliation."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "eirene": { "language": "Greek", "lemma": "eirene", "original": "εἰρήνη", "gloss": "Peace, in the deep biblical sense of wholeness and restored relationship, echoing the Hebrew shalom. This is not merely a feeling of calm but an objective reality: the war between the sinner and God is over. Having been justified, believers have peace with God, no longer under condemnation but welcomed as friends through our Lord Jesus Christ." },
-    "elpis": { "language": "Greek", "lemma": "elpis", "original": "ἐλπίς", "gloss": "Hope, confident expectation of the glory of God. Christian hope is not uncertain wishing but settled assurance grounded in what God has already done in Christ. It holds firm even in suffering and does not disappoint, because it rests not on circumstances but on the love of God poured into the heart by the Spirit." },
-    "agape": { "language": "Greek", "lemma": "agape", "original": "ἀγάπη", "gloss": "Love, the self-giving love of God. It is proved not in words but in the death of Christ for us while we were still sinners and enemies. This love is poured out into the hearts of believers by the Holy Spirit, giving inward assurance that matches the outward demonstration at the cross." },
-    "katallasso": { "language": "Greek", "lemma": "katallasso", "original": "καταλλάσσω", "gloss": "To reconcile, to change from enmity to friendship, to bring parties who were at war into peace. God reconciled us to Himself through the death of His Son while we were still His enemies. Reconciliation is His work, received as a gift, and it is the relational side of justification: the barrier is removed and the relationship restored." }
+    "eirene": {
+      "language": "Greek",
+      "lemma": "eirene",
+      "original": "εἰρήνη",
+      "gloss": "Peace, in the deep biblical sense of wholeness and restored relationship, echoing the Hebrew shalom. This is not merely a feeling of calm but an objective reality: the war between the sinner and God is over. Having been justified, believers have peace with God, no longer under condemnation but welcomed as friends through our Lord Jesus Christ."
+    },
+    "elpis": {
+      "language": "Greek",
+      "lemma": "elpis",
+      "original": "ἐλπίς",
+      "gloss": "Hope, confident expectation of the glory of God. Christian hope is not uncertain wishing but settled assurance grounded in what God has already done in Christ. It holds firm even in suffering and does not disappoint, because it rests not on circumstances but on the love of God poured into the heart by the Spirit."
+    },
+    "agape": {
+      "language": "Greek",
+      "lemma": "agape",
+      "original": "ἀγάπη",
+      "gloss": "Love, the self-giving love of God. It is proved not in words but in the death of Christ for us while we were still sinners and enemies. This love is poured out into the hearts of believers by the Holy Spirit, giving inward assurance that matches the outward demonstration at the cross."
+    },
+    "katallasso": {
+      "language": "Greek",
+      "lemma": "katallasso",
+      "original": "καταλλάσσω",
+      "gloss": "To reconcile, to change from enmity to friendship, to bring parties who were at war into peace. God reconciled us to Himself through the death of His Son while we were still His enemies. Reconciliation is His work, received as a gift, and it is the relational side of justification: the barrier is removed and the relationship restored."
+    }
   },
   "study": {
     "basic": {
@@ -65,93 +129,248 @@
       "oneStory": "From Eden the human race has been at war with God. The whole Bible moves toward peace restored. Here Paul announces that in Christ the war is over: enemies are reconciled, sinners are justified, and a sure hope of glory is given. The love that God has been showing all along is proved at the cross and poured into our hearts, carrying us all the way to glory."
     },
     "context": {
-      "literary": "Romans 5:1-11 is a hinge in the letter, turning from the proof of justification by faith to its benefits and its security. It is bound together by the word therefore and by the two how much more arguments in verses 9 and 10. Verse 1 introduces peace, access, and hope; verses 3 to 5 handle suffering; verses 6 to 8 ground everything in the cross; verses 9 to 11 crown it with assurance and joy in God.",
-      "historical": "Paul writes to believers in the imperial capital who knew the meaning of both peace and suffering. The Roman world prized the pax Romana, the peace enforced by empire; Paul speaks of a deeper peace, peace with God. His readers also faced real hardship, so his teaching that suffering produces perseverance and hope spoke directly to their situation.",
-      "canonical": "This passage is one of the great New Testament statements of assurance and of the love of God. Its language of reconciliation joins 2 Corinthians 5 and Ephesians 2 as central texts on how the cross ends the enmity between God and sinners. It anchors the doctrine that those truly justified will certainly be saved to the end."
+      "literary": "Romans 5:1-11 is one of the places where scholars disagree about where a paragraph belongs. Some attach it to chapters 1 to 4, as the close of the argument about justification. Others attach it to chapters 5 to 8, as the opening of a new section about life under grace. The truth may be that it is a hinge, and the vocabulary suggests why. The word 'justified' in verse 1 looks back, while 'peace,' 'hope,' 'love,' 'Spirit' and 'saved' look ahead, and all of them will be gathered up in chapter 8, which ends with the same confidence that nothing can separate us from the love of God.\n\nThe paragraph has a clear shape. Verses 1 and 2 state two present blessings, peace and access, and one future one, rejoicing in hope. Verses 3 to 5 expand the third by following a chain of steps from suffering to hope, ending with the love of God poured out. Verses 6 to 8 then give the ground of that love, the death of Christ, in three short lines that grow more astonishing: for the powerless, for the ungodly, for sinners. Verses 9 and 10 turn it into two arguments from the greater to the lesser, and verse 11 closes by returning to the verb that began the paragraph's third strand, 'rejoice.'\n\nNotice the triple use of the Greek verb kauchaomai, 'boast' or 'exult,' in verses 2, 3 and 11. The word that Paul banished in 3:27 and 4:2 comes back, but now the object is changed. The believer's boasting is in hope, in sufferings and in God Himself. Everything Paul has taken from human pride he gives back as praise of God.",
+      "historical": "Paul wrote to people who lived in the shadow of the pax Romana, the peace the empire claimed to have secured by arms. Roman religion also thought in terms of the pax deorum, the favour of the gods, which had to be kept through sacrifice and ritual. To a hearer in Rome, a claim to have peace with the highest God as a settled possession through faith would sound extraordinary. It would also set the Christians' loyalty apart, since their peace did not depend on the emperor or on appeasing the gods.\n\nThe sufferings Paul mentions were real. Romans 8:35-36 lists tribulation, distress, persecution, famine and sword, and Romans 12:12 and 12:14 speak of patience in affliction and of blessing persecutors. The church in Rome would soon know the emperor's hostility, and even at the time of writing, being a Christian could mean strain with family and with the civic religious life of the city. Paul does not say suffering is good in itself. He says that those who are already at peace with God can face it with a different expectation.\n\nThe scene of verse 7 also has its own context. In the ancient world, dying for a good benefactor or a righteous friend was recognised as the highest sort of loyalty, and stories of such deaths were praised. Paul draws on that ideal to measure the cross against it. If a person might dare to die for someone good, verse 7, Christ died for those who were not even that, and the 'right time' of verse 6 is part of a larger plan in which God acted in the fullness of time, Galatians 4:4.",
+      "canonical": "The words that open the paragraph reach back to the Old Testament's greeting and blessing. The priestly blessing asks that the LORD lift up His face toward His people and give them peace, Numbers 6:26. The prophets promised that a work of righteousness would bring peace and quiet confidence, Isaiah 32:17, and announced peace to those far and near, Isaiah 57:19, a text Paul will quote when he writes to the Ephesians, Ephesians 2:17. Isaiah 53:5 says the punishment that brought us peace was laid on the Servant, which is the same cross Romans 5 sets out.\n\nThe theme of access is found in the tabernacle. Only the priests drew near, and only the high priest passed behind the veil. Hebrews 10:19-22 takes the language of this paragraph and says that believers have confidence to enter the Most Holy Place by the blood of Jesus. First Peter 3:18 says Christ suffered once for sins, the righteous for the unrighteous, 'to bring you to God,' using the same family of words as Paul's 'access.'\n\nThe chain from suffering to hope appears in several places in the New Testament. James 1:2-4 speaks of the testing of faith that develops perseverance, and 1 Peter 1:6-7 says that trials prove the genuineness of faith like gold refined by fire. Paul himself returns to it in 2 Corinthians 4:17 and in Romans 8:18-25. The assurance of verses 9 and 10 is developed in Romans 8:31-39, where the logic of God not sparing His own Son is carried to its conclusion. And the language of reconciliation recurs in 2 Corinthians 5:18-21, Ephesians 2:13-18 and Colossians 1:21-22, three places where Paul states the doctrine in a different setting."
     },
     "hermeneutics": {
-      "authorIntent": "To show believers the settled benefits of being justified by faith, peace, access, and hope, and to give them unshakable assurance that the God who reconciled them by His Son's death while they were enemies will certainly save them by His Son's life.",
-      "descriptionVsPrescription": "Paul is describing the actual standing and experience of all who are justified. The truths are prescriptive for the whole church: every believer has peace with God, may rejoice even in suffering, and can rest in the certainty of final salvation grounded in Christ.",
+      "authorIntent": "Paul wants believers to live as people who are sure of their footing. After four chapters in which sin, wrath and the law have dominated the discussion, he gives the other side of the account. A justified person is at peace, stands in grace and has a hope that cannot be put to shame. Paul writes so that his readers will not mistake justification for a legal fiction that leaves them anxious and exposed. The verdict has real effects: the war has ended, the door has opened, and the future has been settled.\n\nHe also means to prepare believers for suffering. The Roman Christians did not need to be told that life is hard. They needed a way to understand it. By linking suffering to hope in verses 3 to 5, Paul gives them a reason not to be crushed by it: because God's love has been poured out within them, the troubles of the present cannot undo what has been secured.\n\nPaul has a theological purpose as well. He wants to show that the love of God is not an abstract idea but a concrete event, the death of Christ at a certain time for particular kinds of people. The cross is not only the ground of justification but the supreme demonstration of love, verse 8, and the believer's whole confidence rests on this single fact. If God has done the greater thing, He will certainly do the lesser.",
+      "descriptionVsPrescription": "The passage is almost entirely descriptive, and that is its power. Paul does not say 'try to have peace' or 'strive to hold on to hope.' He says we have peace, we stand in grace, God has poured out His love. Where there is a subjunctive in the textual tradition of verse 1, it is the only moment where the paragraph might seem to command, and even there the thing to be enjoyed already exists.\n\nOne application is that believers should let the facts set the tone of their lives. A person who is justified does not need to work his way into God's favour and so is freed from performance anxiety before God. Another is that suffering is to be met with a settled expectation, not with denial. Paul does not tell the sufferer to pretend, and he does not say that all suffering has a hidden purpose that can be named. He says that those who are in Christ will find that perseverance, character and hope are formed in them as they suffer. We should be careful not to turn the chain into a promise that every hardship will produce a stronger person automatically, since the passage states what happens within the life of the justified and under the Spirit's work.\n\nA third application is how we speak about God's love. The description of verses 6 to 8 forbids talk of earning love by worthiness. It also forbids despair, because the love was shown when we were still sinners.",
       "debates": [
         {
-          "question": "Should verse 1 read we have peace with God or let us have peace with God?",
+          "question": "Does Paul say 'we have peace' or 'let us have peace' in verse 1?",
           "views": [
-            { "label": "We have peace, the indicative", "case": "The context is a statement of fact about what justification secures, and most translations and the flow of the argument support the indicative: peace with God is a settled reality for the justified, not merely something to pursue." },
-            { "label": "Let us have peace, the exhortation", "case": "The manuscript evidence for the subjunctive is strong, and some read it as an exhortation to enjoy or hold on to the peace we have been given." }
+            {
+              "label": "We have peace, the indicative",
+              "case": "The two Greek forms, echomen with a short vowel or a long one, are almost identical in sound, and the manuscripts are divided. The BSB text reads 'we have' and notes 'let us have' as an alternative. The indicative suits the context. Everything around it is a statement of what justification has secured, and a command would sit oddly among so many descriptions. Verse 2's 'we have gained access' and verse 11's 'we have now received reconciliation' are of the same kind."
+            },
+            {
+              "label": "Let us have peace, the subjunctive",
+              "case": "Some of the earliest and best manuscripts read the subjunctive, and the Greek 'let us' could be an exhortation to enjoy and to keep the peace in the face of trouble, as in the verses that follow. It might also be read as 'let us go on having,' a call to take hold of what has been given."
+            },
+            {
+              "label": "A hybrid understanding",
+              "case": "Others hold that even the subjunctive presupposes the peace. A person cannot be told to keep what he does not have. On this reading the difference in meaning is smaller than it first seems."
+            }
           ],
-          "bearing": "Either way the peace is a gift already secured by justification; the historic reading takes it as fact, grounding assurance, while even the exhortation assumes the peace already exists to be enjoyed."
+          "bearing": "The doctrinal weight is the same either way, since peace is already given by justification. The indicative fits best with the flow of the argument, and it makes assurance depend on what God has done and not on the effort of the believer."
         },
         {
-          "question": "What is the peace with God that believers have?",
+          "question": "In reconciliation, who is reconciled to whom?",
           "views": [
-            { "label": "An objective, restored relationship", "case": "The primary meaning is that the war is over: God is no longer against the justified sinner but for him. This peace is a status, the end of enmity, grounded in the cross, echoing shalom as restored relationship." },
-            { "label": "Chiefly an inner tranquility", "case": "Some emphasize the subjective calm and rest that believers feel, the peace of God in the heart." }
+            {
+              "label": "Sinners are reconciled to God",
+              "case": "Verse 10 calls us 'enemies of God' and says we were reconciled to Him. Second Corinthians 5:20 makes the call explicit: 'be reconciled to God.' On this reading the hostility is mainly on the human side, and God has acted in love to remove the barrier that sinners raised."
+            },
+            {
+              "label": "God and sinners are reconciled to each other",
+              "case": "The Greek word for reconciliation describes a change in a relationship between two parties, and in verse 9 Paul speaks of being saved from wrath. The enmity runs in both directions: sinners are hostile to God, Colossians 1:21, and God's holy wrath rests on sin, Romans 1:18. The cross deals with both."
+            },
+            {
+              "label": "God is the one who reconciles, and He is not Himself changed",
+              "case": "Another emphasis is that God never ceases to love. He takes the initiative and reconciles us to Himself, 2 Corinthians 5:18-19. So the change is in the sinners' relation, not in God's character."
+            }
           ],
-          "bearing": "The historic reading foregrounds the objective peace with God, the settled relationship; the inner peace of heart flows from it but is not the main point, so assurance rests on what God has done, not on how we feel."
+          "bearing": "Verses 8 to 10 hold both truths. God loves us even while we are enemies, and the same cross that shows His love also turns away the wrath that the rest of Romans has described. Reconciliation is wholly His doing, from first to last."
         }
       ]
     },
-    "originalLanguages": "The passage opens with eirene, peace with God, the biblical shalom in which the war between the sinner and his Maker is ended and the relationship made whole. From that peace flows elpis, hope, the confident expectation of glory that does not disappoint even under suffering. The reason it does not disappoint is agape, the love of God poured out into the heart by the Holy Spirit and demonstrated at the cross while we were still sinners. And the deep work behind it all is katallasso, reconciliation: God changing enemies into friends through the death of His Son, a gift received, not an achievement earned.",
+    "originalLanguages": "Take the word translated 'peace,' eirene, in verse 1. In the Greek Old Testament it regularly translates the Hebrew shalom, which means far more than the absence of conflict. It means wholeness, health, and right relationships, as in the priestly blessing of Numbers 6:26. When Paul says we have eirene with God, he is saying that the relationship has been made whole, not that we have found calm feelings.\n\nIn verse 2 the word 'access' is prosagoge, from the verb prosago, 'to bring to.' That verb is used in the Greek Old Testament of bringing priests and offerings near to God, and 1 Peter 3:18 uses it of Christ bringing us to God. It is also used in the sense of an introduction into the presence of a king. The related image is that someone has opened the door and led us in. The verb for 'we stand,' hestekamen, is in the perfect tense, which means that we have taken our stand and remain standing. The posture is settled, not shaky.\n\nThe word 'rejoice' in verses 2, 3 and 11, kauchaomai, is the verb for boasting that Paul excluded in 3:27. Jeremiah 9:23-24 said let no one boast in wisdom, strength or riches but only in the knowledge of the LORD, and Paul's use echoes that. The believer boasts in hope, in trial and in God.\n\nIn verses 3 and 4 the chain runs thlipsis, hypomone, dokime, elpis. Thlipsis is pressure or affliction, literally a crushing. Hypomone, usually 'perseverance' or 'endurance,' is built from the verbs for 'remain' and 'under,' and it describes staying put beneath a load. Dokime is the quality of having been tested and passed, the word used for metal proved in the fire, as in 1 Peter 1:7, and 'character' captures the sense of approved quality. Elpis, hope, is not wishful thinking but confident expectation.\n\nVerse 5 says hope does not 'disappoint,' ou kataischynei, literally does not put to shame. It is the language of Psalm 25:3, where none who wait on the LORD will be put to shame. The love of God has been 'poured out,' ekkechytai, a perfect passive verb, which pictures a flood that has been released and still stands in the heart. The verb of pouring is the one the prophets use for the outpouring of the Spirit, Joel 2:28, and Titus 3:6 says He was poured out abundantly.\n\nIn verses 6 to 10 Paul uses four words for what we were: powerless, ungodly, sinners, enemies. Each is more severe, and the preposition hyper, 'on behalf of,' appears in each of the first three statements of Christ's death. In verse 8 'proves' is synistesin, a present tense verb meaning to commend or demonstrate, so that God is continually showing His love in the cross.\n\nThe word for reconciliation, katallasso, comes from allasso, 'to change,' and in Greek of the period it described the change of relationship between two parties, such as husband and wife, as in 1 Corinthians 7:11. In Paul's letters the word is used of God and humanity in only a few places, and in each the initiative is God's. Finally, 'how much more,' pollo mallon in verses 9 and 10, is the standard form of argument from the greater to the lesser, and 'saved from wrath' uses the article, 'the wrath,' the same term Paul has used since 1:18.",
     "typology": [
-      { "type": "Access into the presence of God", "fulfillment": "Fulfills the limited access of the temple; through Christ believers now stand freely in grace, the way to God opened by His blood." },
-      { "type": "Reconciliation of enemies", "fulfillment": "Completes what the sin offerings pictured, as God reconciles sinners to Himself once for all through the death of His Son." },
-      { "type": "Peace with God, shalom restored", "fulfillment": "The wholeness longed for since Eden, secured in Christ our peace, Ephesians 2:14-16." }
+      {
+        "type": "Access beyond the veil",
+        "fulfillment": "The tabernacle kept sinners at a distance. The high priest alone passed the veil, once a year, with blood, Leviticus 16:2-3. Paul's word for access, prosagoge, is the vocabulary of being brought near. In Christ the veil is opened, Hebrews 10:19-20, so that all believers have confidence to draw near. The type falls short because the high priest entered and left, and the people stood outside, while believers stand permanently in the grace into which they have been brought."
+      },
+      {
+        "type": "The peace offering",
+        "fulfillment": "The fellowship or peace offering, in Hebrew a word from the same root as shalom, was a meal eaten in the presence of the LORD after blood had been shed, Leviticus 7:11-15. It pictured peace with God as a shared table. In Christ the table has become permanent, since He is the one who made peace by His blood, Colossians 1:20, and who will eat with His people forever, Revelation 3:20. The type falls short in that the offerer brought the animal himself and had to bring it again, while the peace of verse 1 is a gift provided by God."
+      },
+      {
+        "type": "Testing in the wilderness",
+        "fulfillment": "Israel's forty years were a time of humbling and testing so that God might know what was in their hearts and teach them to live by every word from His mouth, Deuteronomy 8:2-5. Paul sees in the experience of the justified a similar pattern of trial that leads to proven character and hope. In Christ the pattern is fulfilled since He passed the test Israel failed, Matthew 4:1-4, and now His people are sustained in theirs by the Spirit. The type falls short because Israel's testing often ended in failure, while the believer's endurance is the fruit of God's love poured out within."
+      },
+      {
+        "type": "Hiding in the garden and walking with God",
+        "fulfillment": "After the fall the man and woman hid from God among the trees, Genesis 3:8. Their fear of His presence is the first evidence of enmity. Romans 5 reverses it: believers 'rejoice in God' and stand in His grace. The Spirit, whom they have been given, brings them into the presence from which Adam fled. The type falls short in that Adam's hiding was only a shadow of enmity, while the enmity Paul describes runs deeper than hiding."
+      }
     ],
-    "christ": "Christ is the channel of every blessing in the passage. Through our Lord Jesus Christ we have peace; through Him we gained access into grace; through His death for the ungodly God proves His love; and through His risen life we are kept and finally saved. Justified by His blood and reconciled by His death, believers are secured by His living intercession. The cross is the demonstration of divine love, and the resurrection is the guarantee of complete salvation, so Christ crucified and risen holds our assurance from beginning to end.",
-    "god": "The God of this passage takes the initiative toward those who were powerless, ungodly, sinners, and enemies. He does not wait for us to reconcile ourselves but reconciles us through the death of His Son, and pours His love into our hearts by the Spirit. His love is proved, not merely declared, at the cross, and His character guarantees that what He began He will complete. This is a God whose grace is the sure foundation of hope.",
+    "christ": "Every blessing in the paragraph is said to come 'through our Lord Jesus Christ,' verses 1, 2, 11, and the phrase is no formula. It is the place where the paragraph's logic turns. Peace is not a mood we find when circumstances improve, but a relationship opened by someone. Access is not a right we hold in ourselves but an entrance made by a person. Christ is the mediator in whom God and sinners are joined, and Ephesians 2:14 says it more briefly than Paul does here: 'He Himself is our peace.'\n\nNext, Christ is presented through a precise historical event. Verse 6 says He died 'at just the right time,' and the gospels show how true this is. His death was not a mishap in a movement that lost its way, but the point toward which God had been working, Galatians 4:4. In verse 8 Paul adds that Christ died for us while we were still sinners, and so the time of His death was not after we had cleaned ourselves up. It was in the middle of our hostility. The love of God is not only declared in Christ but displayed in a single day.\n\nThird, verse 7 sets up a comparison that exposes the depth of the cross. Paul says that very rarely will anyone die for a righteous man, though for a good man someone might possibly dare. He names no case. Then he says Christ died for people who had no claim of that kind. The cross is thus not merely generous but of an entirely different order. John 15:13 says there is no greater love than to lay down one's life for one's friends, and Romans 5 shows that Jesus laid His down for enemies.\n\nFourth, the two 'how much more' arguments show that Christ is both the payment and the guarantee. In verse 9 He is the one by whose blood we have been justified, and in verse 10 He is the one whose risen life saves us. It would be a mistake to read 'saved by His life' as though His death were not enough, since the point is that the death which reconciled enemies is joined to a life that never ends. Hebrews 7:25 says He always lives to intercede for those who draw near to God through Him, and Romans 8:34 says He is at the right hand of God interceding for us.\n\nLast, verse 11 shows that Christ's work has a goal beyond our relief. We rejoice 'in God' through Him. The cross does not only remove danger but opens enjoyment. The Son whose death made peace has also made it possible for us to take pleasure in the Father. The one who stood between God and sinners as the object of wrath now stands between them as the way to delight.\n\nThe text has no need of allegory. The relevant links are drawn by the New Testament itself: the peace made by blood in Colossians 1:20, the access through the veil in Hebrews 10, and the exchange of the righteous for the unrighteous in 1 Peter 3:18.",
+    "god": "This paragraph is one of the clearest windows in Scripture onto the character of God. The central fact is verse 8, where Paul says God 'proves His love for us.' The Greek verb is present tense, and the proof is not an argument or a feeling but a historical event. God does not demonstrate His love by words alone. He sent His Son. First John 4:10 says the same thing in other terms: love consists not in our loving God but in His loving us and sending His Son as the atoning sacrifice.\n\nThe paragraph shows that God's love comes first. We were powerless, ungodly, sinners, enemies, and nothing in the list attracts. Many pictures of the divine in the ancient world imagined gods who responded to the worthy. Paul shows a God whose love is the cause of everything else, not an answer to anything in us. That is a defining mark of grace, and it makes the doctrine of God in Romans very different from the religion of Rome.\n\nGod is also shown as holy, since the text assumes wrath and a need to be saved from it, verse 9. His love is not a soft indulgence that ignores sin. It is the love of a God who takes sin seriously enough to deal with it at the cost of His Son. The two attributes, holiness and love, are not rivals in this paragraph. The cross is where they are held together, and the believer's peace is built on both.\n\nThe paragraph is also trinitarian in its shape. The Father proves His love, the Son dies and lives, and the Holy Spirit pours the love of God into the heart, verse 5. Paul does not give a lecture on the Trinity, but the three act in a single saving movement, and the believer's assurance has all three behind it. The Spirit makes the objective love of the cross a subjective reality in the heart, and Romans 8:15-16 says the same Spirit testifies with our spirit that we are God's children.\n\nAnother attribute on display is God's faithfulness. The hope that does not disappoint rests on the fact that God has already done the hardest thing. Romans 8:32 draws the same inference: He who did not spare His own Son will freely give us all things. God's commitments are not tentative. What He began in justification He carries through to salvation, and the chain of verses 3 to 5 is the first stage of that.\n\nFor worship, the paragraph invites a particular kind of joy. Verse 11 says we rejoice in God. That means more than gratitude for gifts, since the gifts are not the end. The God who has made peace is Himself the treasure. Prayer, then, can begin from welcome and not from fear, since the Father who proved His love at the cross does not turn away those who come to Him through the Son.",
     "crossReferences": [
-      { "ref": "Romans 8:31-39", "note": "The same how much more assurance: if God gave His Son, nothing can separate us from His love." },
-      { "ref": "Ephesians 2:13-18", "note": "Christ is our peace, reconciling us to God through the cross and giving access to the Father." },
-      { "ref": "2 Corinthians 5:18-21", "note": "God reconciling the world to Himself in Christ and giving the ministry of reconciliation." },
-      { "ref": "James 1:2-4", "note": "The testing of faith produces perseverance, echoing suffering that produces character and hope." }
+      {
+        "ref": "Romans 8:31-32",
+        "note": "The conclusion of the argument that Romans 5 begins. If God did not spare His own Son but gave Him up for us all, He will not fail to give us everything else. It repeats the logic of the how much more in verses 9 and 10, and moves from peace to the certainty of final glory."
+      },
+      {
+        "ref": "Ephesians 2:13-18",
+        "note": "Christ Himself is our peace, who tore down the dividing wall and reconciled both Jew and Gentile to God in one body through the cross. The passage ends with 'access to the Father by one Spirit,' which shows that Paul's word for access in Romans 5:2 is part of a larger teaching about the Trinity and the church."
+      },
+      {
+        "ref": "2 Corinthians 5:18-19",
+        "note": "God was reconciling the world to Himself in Christ, not counting men's trespasses against them. The phrase links the doctrine of reconciliation to the earlier language of crediting in Romans 4, and it shows that reconciliation is a work of God from beginning to end, with a message committed to His people."
+      },
+      {
+        "ref": "Colossians 1:21-22",
+        "note": "Once alienated and hostile in mind, believers are now reconciled by Christ's physical body through death. Where Romans 5:10 calls us enemies, this verse shows the inner side of the enmity, which lay in the mind and in evil deeds, and adds that the goal is to be presented holy and blameless."
+      },
+      {
+        "ref": "Hebrews 10:19-22",
+        "note": "Believers have confidence to enter the Most Holy Place by the blood of Jesus, through the new and living way opened by His body. It gives the temple background of Paul's word for access and shows what stands behind the call to draw near in full assurance."
+      },
+      {
+        "ref": "James 1:2-4",
+        "note": "The testing of faith produces perseverance, and perseverance must finish its work for maturity. It runs parallel to Paul's chain in verses 3 and 4, though it goes on to call for joy in trials, and it shows that the idea was shared across the early church."
+      },
+      {
+        "ref": "1 Peter 1:6-7",
+        "note": "Trials prove the genuineness of faith like gold refined by fire, and result in praise and honour at the revelation of Jesus Christ. It gives the picture behind Paul's word for proven character, and ties the fruit of suffering to the final day."
+      },
+      {
+        "ref": "Isaiah 53:5",
+        "note": "The punishment that brought us peace was upon the Servant. Isaiah's words give the Old Testament root of the peace in Romans 5:1, showing that peace came by a substitute bearing the penalty, and that it was announced centuries before the cross."
+      },
+      {
+        "ref": "Numbers 6:26",
+        "note": "The priestly blessing asks the LORD to lift up His face and give His people peace. It shows what the peace of Romans 5:1 means in its Old Testament setting: not an inward calm but the favour of God turned toward His people, which Christ now secures for all who believe."
+      },
+      {
+        "ref": "1 John 4:10",
+        "note": "Love consists not in our love for God but in His sending of His Son as the atoning sacrifice for our sins. It gives the same reading as verse 8, that the cross is the definition of love, and shows how the first letter of John repeats Paul's teaching in simpler words."
+      }
     ],
-    "oneStory": "Since Eden humanity has stood at odds with God, hiding, guilty, and afraid. The whole Bible moves toward reconciliation. Here Paul announces that in Christ the war is over: the justified have peace with God, stand in grace, and rejoice in the hope of glory. The love God had been unfolding all along is proved at the cross, where Christ died for enemies, and poured into believing hearts by the Spirit, carrying them safely home.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "The Bible begins with a man and woman who walked with God and ends with a multitude who see His face, and the long middle is the story of how the distance was crossed. In Genesis 3 the pair hid from God and were sent out of the garden. Cain went out from the presence of the LORD, Genesis 4:16. Babel's builders tried to make their own way up. The tabernacle and temple offered a narrow, mediated, repeated access, with a veil and guards, and Israel itself went into exile away from the land and the house. Throughout, the human problem is not only guilt but distance.\n\nRomans 5:1-11 is the place where the distance is closed in the present. Paul says that we have peace, that we have gained access, and that we stand. He does not say we shall have peace one day. The reconciliation that Isaiah had foreseen, peace to the far and the near, has arrived, and the God who walked in the garden has made it possible for sinners to walk with Him again. The love of God, long visible in covenant and rescue, is now seen in its fullest form in a death for enemies.\n\nThe paragraph also sets up what follows. Because peace has come, Paul can go on to show how sin and death entered by one man and are overcome by another, Romans 5:12-21, and then how the Spirit makes God's people live in the freedom of sons, Romans 8. The assurance of verses 9 and 10 is the first of the steps that lead to the great chain of Romans 8:29-30, where those whom God justified He also glorified.\n\nThe story ends in the place that Paul's paragraph names as the goal of hope, the glory of God. In Revelation 21:3-4 the dwelling of God is with man and He wipes away every tear, and in Revelation 22:4 His servants see His face. What the paragraph calls access becomes sight, what it calls hope becomes possession, and the peace made at the cross becomes the peace of a world in which nothing stands between the Creator and His people.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What is the first result of being justified by faith, according to verse 1?",
       "options": [
-        { "text": "We have peace with God through our Lord Jesus Christ.", "weight": 100, "note": "Justification ends the enmity; the war between the sinner and God is over." },
-        { "text": "We are given a peaceful, calm feeling inside.", "weight": 75, "note": "Inner peace may follow, but the point is objective peace with God, a restored relationship." },
-        { "text": "We are freed from all suffering in this life.", "weight": 25, "note": "Paul says we still suffer, yet rejoice; peace with God is not the removal of hardship." },
-        { "text": "We earn a right standing by keeping the peace.", "weight": 0, "note": "Peace is the fruit of justification by faith, not something we earn." }
+        {
+          "text": "We have peace with God through our Lord Jesus Christ.",
+          "weight": 100,
+          "note": "Justification ends the enmity; the war between the sinner and God is over."
+        },
+        {
+          "text": "We are given a peaceful, calm feeling inside.",
+          "weight": 75,
+          "note": "Inner peace may follow, but the point is objective peace with God, a restored relationship."
+        },
+        {
+          "text": "We are freed from all suffering in this life.",
+          "weight": 25,
+          "note": "Paul says we still suffer, yet rejoice; peace with God is not the removal of hardship."
+        },
+        {
+          "text": "We earn a right standing by keeping the peace.",
+          "weight": 0,
+          "note": "Peace is the fruit of justification by faith, not something we earn."
+        }
       ]
     },
     {
       "q": "Why can believers rejoice even in their sufferings?",
       "options": [
-        { "text": "Because suffering produces perseverance, character, and hope that does not disappoint.", "weight": 100, "note": "God uses suffering to forge a hope grounded in His love poured into our hearts." },
-        { "text": "Because suffering earns them extra merit before God.", "weight": 25, "note": "Suffering forms character; it does not earn merit or acceptance." },
-        { "text": "Because they should pretend that pain does not hurt.", "weight": 0, "note": "Paul is not denying the pain but pointing to what God works through it." },
-        { "text": "Because suffering guarantees an easier life to come.", "weight": 75, "note": "Suffering does look toward a future hope, but the fruit is perseverance, character, and hope, not the promise of an easy life." }
+        {
+          "text": "Because suffering produces perseverance, character, and hope that does not disappoint.",
+          "weight": 100,
+          "note": "God uses suffering to forge a hope grounded in His love poured into our hearts."
+        },
+        {
+          "text": "Because suffering earns them extra merit before God.",
+          "weight": 25,
+          "note": "Suffering forms character; it does not earn merit or acceptance."
+        },
+        {
+          "text": "Because they should pretend that pain does not hurt.",
+          "weight": 0,
+          "note": "Paul is not denying the pain but pointing to what God works through it."
+        },
+        {
+          "text": "Because suffering guarantees an easier life to come.",
+          "weight": 75,
+          "note": "Suffering does look toward a future hope, but the fruit is perseverance, character, and hope, not the promise of an easy life."
+        }
       ]
     },
     {
       "q": "How does God prove His love for us, according to verse 8?",
       "options": [
-        { "text": "While we were still sinners, Christ died for us.", "weight": 100, "note": "God's love is demonstrated at the cross, given to the undeserving." },
-        { "text": "By waiting until we had made ourselves worthy.", "weight": 0, "note": "Christ died while we were still sinners, powerless, and ungodly." },
-        { "text": "By rewarding those who first loved Him.", "weight": 25, "note": "The love is one-way grace toward enemies, not a reward for our love." },
-        { "text": "Mainly by giving us comfortable lives.", "weight": 75, "note": "God is good to us, but the proof of His love is the death of Christ, not favorable circumstances." }
+        {
+          "text": "While we were still sinners, Christ died for us.",
+          "weight": 100,
+          "note": "God's love is demonstrated at the cross, given to the undeserving."
+        },
+        {
+          "text": "By waiting until we had made ourselves worthy.",
+          "weight": 0,
+          "note": "Christ died while we were still sinners, powerless, and ungodly."
+        },
+        {
+          "text": "By rewarding those who first loved Him.",
+          "weight": 25,
+          "note": "The love is one-way grace toward enemies, not a reward for our love."
+        },
+        {
+          "text": "Mainly by giving us comfortable lives.",
+          "weight": 75,
+          "note": "God is good to us, but the proof of His love is the death of Christ, not favorable circumstances."
+        }
       ]
     },
     {
       "q": "What is the how much more argument in verses 9 and 10?",
       "options": [
-        { "text": "If God reconciled us by His Son's death when we were enemies, He will surely save us by His life.", "weight": 100, "note": "Paul reasons from the harder act to the easier, grounding assurance." },
-        { "text": "If we try harder, God will love us even more.", "weight": 0, "note": "The argument rests on Christ's finished work, not our effort." },
-        { "text": "That salvation is now uncertain and depends on us.", "weight": 25, "note": "The point is the opposite: our salvation is made certain by Christ." },
-        { "text": "That reconciliation matters more than final salvation.", "weight": 75, "note": "Both are precious, but Paul's point is that they belong together: reconciliation guarantees final salvation." }
+        {
+          "text": "If God reconciled us by His Son's death when we were enemies, He will surely save us by His life.",
+          "weight": 100,
+          "note": "Paul reasons from the harder act to the easier, grounding assurance."
+        },
+        {
+          "text": "If we try harder, God will love us even more.",
+          "weight": 0,
+          "note": "The argument rests on Christ's finished work, not our effort."
+        },
+        {
+          "text": "That salvation is now uncertain and depends on us.",
+          "weight": 25,
+          "note": "The point is the opposite: our salvation is made certain by Christ."
+        },
+        {
+          "text": "That reconciliation matters more than final salvation.",
+          "weight": 75,
+          "note": "Both are precious, but Paul's point is that they belong together: reconciliation guarantees final salvation."
+        }
       ]
     },
     {
       "q": "What does it mean that we have received reconciliation?",
       "options": [
-        { "text": "God has changed us from enemies into friends through the death of His Son.", "weight": 100, "note": "Reconciliation is God's work, received as a gift, ending the enmity." },
-        { "text": "We have reconciled ourselves to God by our repentance.", "weight": 75, "note": "Repentance is real, but reconciliation is accomplished by God through Christ's death and then received." },
-        { "text": "God and humanity met each other halfway.", "weight": 25, "note": "God took the whole initiative toward enemies; it was not a mutual bargain." },
-        { "text": "It refers only to peace between people, not with God.", "weight": 0, "note": "Paul speaks of being reconciled to God Himself through His Son." }
+        {
+          "text": "God has changed us from enemies into friends through the death of His Son.",
+          "weight": 100,
+          "note": "Reconciliation is God's work, received as a gift, ending the enmity."
+        },
+        {
+          "text": "We have reconciled ourselves to God by our repentance.",
+          "weight": 75,
+          "note": "Repentance is real, but reconciliation is accomplished by God through Christ's death and then received."
+        },
+        {
+          "text": "God and humanity met each other halfway.",
+          "weight": 25,
+          "note": "God took the whole initiative toward enemies; it was not a mutual bargain."
+        },
+        {
+          "text": "It refers only to peace between people, not with God.",
+          "weight": 0,
+          "note": "Paul speaks of being reconciled to God Himself through His Son."
+        }
       ]
     }
   ],
@@ -163,9 +382,21 @@
     "If we were reconciled by Christ's death, how much more shall we be saved by His life. How does this how much more logic steady your assurance when you doubt your salvation?"
   ],
   "translationNotes": [
-    { "ref": "Romans 5:1", "note": "The BSB footnote records a variant, let us have peace, reflecting strong manuscript support for the subjunctive. The BSB text reads we have peace, taking it as a statement of fact about the standing justification secures; either way the peace is a gift already given." },
-    { "ref": "Romans 5:2", "note": "Rejoice renders a verb the BSB footnote notes can also be exult, used again in verses 3 and 11. It expresses confident, glad boasting in what God has done, not in ourselves." },
-    { "ref": "Romans 5:10", "note": "Reconciled renders katallasso, to change from enmity to friendship. The verse stresses that reconciliation was accomplished through the death of God's Son while we were enemies, so that final salvation through His risen life is assured." }
+    {
+      "ref": "Romans 5:1",
+      "note": "The BSB footnote records a variant, let us have peace, reflecting strong manuscript support for the subjunctive. The BSB text reads we have peace, taking it as a statement of fact about the standing justification secures; either way the peace is a gift already given."
+    },
+    {
+      "ref": "Romans 5:2",
+      "note": "Rejoice renders a verb the BSB footnote notes can also be exult, used again in verses 3 and 11. It expresses confident, glad boasting in what God has done, not in ourselves."
+    },
+    {
+      "ref": "Romans 5:10",
+      "note": "Reconciled renders katallasso, to change from enmity to friendship. The verse stresses that reconciliation was accomplished through the death of God's Son while we were enemies, so that final salvation through His risen life is assured."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched this session from bible.helloao.org for Romans 5:1-11. Footnote markers were skipped. Sermon left as none; no expositor sermon URL verified this session." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched this session from bible.helloao.org for Romans 5:1-11. Footnote markers were skipped. Sermon left as none; no expositor sermon URL verified this session."
+  }
 }

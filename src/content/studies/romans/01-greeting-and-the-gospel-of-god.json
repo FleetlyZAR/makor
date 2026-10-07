@@ -18,7 +18,11 @@
         "note": "the messenger and his commission",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 1, "text": "Paul, a {{doulos|servant}} of Christ Jesus, called to be an {{apostolos|apostle}}, and set apart for the {{euangelion|gospel}} of God:" }
+          {
+            "chapter": 1,
+            "n": 1,
+            "text": "Paul, a {{doulos|servant}} of Christ Jesus, called to be an {{apostolos|apostle}}, and set apart for the {{euangelion|gospel}} of God:"
+          }
         ]
       },
       {
@@ -26,9 +30,21 @@
         "note": "descended from David, declared Son of God by resurrection",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 2, "text": "the gospel He promised beforehand through His prophets in the Holy Scriptures," },
-          { "chapter": 1, "n": 3, "text": "regarding His Son, who was a descendant of David according to the flesh," },
-          { "chapter": 1, "n": 4, "text": "and who through the Spirit of holiness was declared with power to be the Son of God by His resurrection from the dead: Jesus Christ our Lord." }
+          {
+            "chapter": 1,
+            "n": 2,
+            "text": "the gospel He promised beforehand through His prophets in the Holy Scriptures,"
+          },
+          {
+            "chapter": 1,
+            "n": 3,
+            "text": "regarding His Son, who was a descendant of David according to the flesh,"
+          },
+          {
+            "chapter": 1,
+            "n": 4,
+            "text": "and who through the Spirit of holiness was declared with power to be the Son of God by His resurrection from the dead: Jesus Christ our Lord."
+          }
         ]
       },
       {
@@ -36,19 +52,56 @@
         "note": "the obedience of faith among the nations",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 5, "text": "Through Him and on behalf of His name, we received grace and apostleship to call all those among the Gentiles to the {{hypakoe|obedience}} that comes from faith." },
-          { "chapter": 1, "n": 6, "text": "And you also are among those who are called to belong to Jesus Christ." },
-          { "chapter": 1, "n": 7, "text": "To all in Rome who are loved by God and called to be {{hagioi|saints}}: Grace and peace to you from God our Father and the Lord Jesus Christ." }
+          {
+            "chapter": 1,
+            "n": 5,
+            "text": "Through Him and on behalf of His name, we received grace and apostleship to call all those among the Gentiles to the {{hypakoe|obedience}} that comes from faith."
+          },
+          {
+            "chapter": 1,
+            "n": 6,
+            "text": "And you also are among those who are called to belong to Jesus Christ."
+          },
+          {
+            "chapter": 1,
+            "n": 7,
+            "text": "To all in Rome who are loved by God and called to be {{hagioi|saints}}: Grace and peace to you from God our Father and the Lord Jesus Christ."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "doulos": { "language": "Greek", "lemma": "doulos", "original": "δοῦλος", "gloss": "A slave or bondservant, one wholly owned by and devoted to another. Paul opens by naming himself a slave of Christ Jesus, a title of both humility and honor, echoing the servants of the LORD in the Old Testament like Moses and the prophets. His whole life is now owned by his Master." },
-    "apostolos": { "language": "Greek", "lemma": "apostolos", "original": "ἀπόστολος", "gloss": "One sent with authority as a commissioned representative. Paul is called to be an apostle, not self-appointed but summoned by the risen Christ and set apart for the gospel. The word carries the weight of the sender: to receive the apostle's message is to receive Christ." },
-    "euangelion": { "language": "Greek", "lemma": "euangelion", "original": "εὐαγγέλιον", "gloss": "Good news, glad tidings, announcement of victory. It is the gospel of God, both from God as its source and about what God has done in His Son. In the ancient world the word announced a royal birth or a triumph; here it announces the greater triumph of God in Christ crucified and risen." },
-    "hypakoe": { "language": "Greek", "lemma": "hypakoe", "original": "ὑπακοή", "gloss": "Obedience, a hearing that submits. The obedience of faith is the response the gospel calls for among all nations: faith that trusts and therefore obeys. It frames the whole letter, which opens and closes with the obedience that comes from faith." },
-    "hagioi": { "language": "Greek", "lemma": "hagioi", "original": "ἅγιοι", "gloss": "Holy ones, saints, those set apart for God. It is not a title for the elite few but for all believers, the whole church in Rome, made holy in Christ and called to live as God's own people." }
+    "doulos": {
+      "language": "Greek",
+      "lemma": "doulos",
+      "original": "δοῦλος",
+      "gloss": "A slave or bondservant, one wholly owned by and devoted to another. Paul opens by naming himself a slave of Christ Jesus, a title of both humility and honor, echoing the servants of the LORD in the Old Testament like Moses and the prophets. His whole life is now owned by his Master."
+    },
+    "apostolos": {
+      "language": "Greek",
+      "lemma": "apostolos",
+      "original": "ἀπόστολος",
+      "gloss": "One sent with authority as a commissioned representative. Paul is called to be an apostle, not self-appointed but summoned by the risen Christ and set apart for the gospel. The word carries the weight of the sender: to receive the apostle's message is to receive Christ."
+    },
+    "euangelion": {
+      "language": "Greek",
+      "lemma": "euangelion",
+      "original": "εὐαγγέλιον",
+      "gloss": "Good news, glad tidings, announcement of victory. It is the gospel of God, both from God as its source and about what God has done in His Son. In the ancient world the word announced a royal birth or a triumph; here it announces the greater triumph of God in Christ crucified and risen."
+    },
+    "hypakoe": {
+      "language": "Greek",
+      "lemma": "hypakoe",
+      "original": "ὑπακοή",
+      "gloss": "Obedience, a hearing that submits. The obedience of faith is the response the gospel calls for among all nations: faith that trusts and therefore obeys. It frames the whole letter, which opens and closes with the obedience that comes from faith."
+    },
+    "hagioi": {
+      "language": "Greek",
+      "lemma": "hagioi",
+      "original": "ἅγιοι",
+      "gloss": "Holy ones, saints, those set apart for God. It is not a title for the elite few but for all believers, the whole church in Rome, made holy in Christ and called to live as God's own people."
+    }
   },
   "study": {
     "basic": {
@@ -62,93 +115,300 @@
       "oneStory": "The whole Bible had been promising a rescuer. Here Paul announces that the promise is kept: the good news of God, foretold by the prophets, has arrived in His Son, the son of David and Son of God, raised from the dead. The story that ran from Eden through David now opens out to all the nations, gathering a beloved, called people."
     },
     "context": {
-      "literary": "The opening sentence of the letter, verses 1 to 7, is a single, carefully built greeting: sender, gospel summary, recipients, blessing. Its center of gravity is the gospel, and especially verses 3 and 4, which appear to preserve an early creedal formula about the Son. Everything that unfolds over sixteen chapters is compressed here in seed form.",
-      "historical": "Paul writes around AD 57, likely from Corinth, to a mixed church of Jewish and Gentile believers in the imperial capital. He had never been to Rome but planned to visit on his way to Spain. Introducing himself carefully to a church he did not plant, he leads with his God-given commission and the gospel they hold in common.",
-      "canonical": "Romans is the fullest statement of the gospel in the New Testament, and its greeting sets the agenda. The confession of verses 3 and 4 joins the son of David of the promises to the risen Son of God, holding together the two Testaments. The obedience of faith brackets the letter, first here and last in the closing doxology."
+      "literary": "The seven verses are built as a nest of boxes. At the outer layer stands the standard letter form, sender, recipients, greeting, but the sender's slot swells to six verses and the recipients' slot to two clauses. Inside the sender's slot sits the gospel, and inside the gospel sits the Son, and the name of the Son is held back until the last words of verse 4, 'Jesus Christ our Lord.' Everything before that name is a description of Him; the name arrives as the answer.\n\nThe passage is organised by two small chains of 'called' language. Paul is 'called to be an apostle,' verse 1. The Romans are 'among those who are called to belong to Jesus Christ,' verse 6, and are 'called to be saints,' verse 7. The same word, kletos, ties Paul and his readers together before a single point of doctrine is argued: the apostle and the ordinary Roman believer both stand under God's summons.\n\nThe two lines of verses 3 and 4 are carefully balanced. One speaks of what He became 'according to the flesh,' the other of how He was marked out 'according to the Spirit of holiness'; one speaks of David's line, the other of God's Son; one names a descent, the other a resurrection. They are held together by the phrase 'regarding His Son,' and they are not a contrast between a lower and a higher nature so much as two phases in the one Son's history, a movement from the humility of descent to the power of the resurrection.\n\nThe passage also plants the letter's brackets. 'The obedience that comes from faith,' verse 5, comes back in the last verses of the letter, Romans 16:26, and the gospel 'promised beforehand through His prophets' is matched by the 'writings of the prophets' there. Everything between is an unfolding of these seven verses. The reader who comes to chapter 16 finds the same sentence again, with the mystery now disclosed.",
+      "historical": "Paul is writing to people he has never met, and he wants to establish credentials without stooping to self-defence. The church at Rome had no known apostolic founder. Visitors from Rome were present at Pentecost, Acts 2:10, and Priscilla and Aquila, who came from Italy when Claudius expelled the Jews, Acts 18:2, are greeted among its leaders in Romans 16:3 to 5. The believers met in households, Romans 16:5, and the congregations were a mix of Jews and Gentiles, which is why the question of how they relate to one another runs through the letter.\n\nThe vocabulary of verse 1 and verse 3 to 4 would have sounded different in the capital of an empire. The word 'gospel,' euangelion, was already used in the Greek world for official good news, such as the accession or birthday of a ruler. An inscription from Priene in Asia Minor praised the birth of Augustus in terms of good news for the world. Augustus was styled the son of the deified Julius, and the emperor was hailed as lord and saviour. Paul takes those words and applies them to a crucified Jewish carpenter. The 'gospel of God' is a rival announcement, and the Son and Lord of verses 3 and 4 is the true one.\n\nThe word doulos, which the BSB renders 'servant,' meant a slave, a person owned by another. In the Roman world slaves of the emperor's household could hold real authority, but they were still owned. Paul uses the word proudly, as the Old Testament used 'servant of the LORD' for Moses and the prophets, Joshua 1:1 and 2 Kings 17:13. Yet he is also writing to a city that held slavery as a basic fact of its economy, and some of his readers were slaves. To them 'I am Christ's slave' would have been both startling and dignifying.\n\nThe date is about AD 57 and the place is probably Corinth. Paul has completed his work in the eastern Mediterranean, Romans 15:19, and is about to take the collection to Jerusalem, Romans 15:25 and 26, then to travel on to Spain by way of Rome, Romans 15:24 and 28. The greeting is a deliberate introduction of himself and his gospel to a church that will be asked for support.",
+      "canonical": "The greeting is saturated with Old Testament promises. Verses 2 to 4 set the gospel inside the story of Scripture: it was 'promised beforehand through His prophets in the Holy Scriptures.' The strand most clearly in view is the covenant with David. In 2 Samuel 7:12 to 14 God promised to raise up David's descendant, establish his kingdom forever and say, 'I will be his Father, and he will be My son.' Psalm 2:7 turned that sonship into a royal decree, and Acts 13:33 applies the verse to the resurrection. Paul's two lines in verses 3 and 4 gather those strands. The prophets also spoke of the Branch, Isaiah 11:1 and Jeremiah 23:5, and of the herald of good news, Isaiah 40:9 and 52:7, from which the word 'gospel' draws its biblical flavour.\n\nThe verses are also echoed throughout the New Testament. Luke records the same joining of David's line and the promised king, Luke 1:32 and 33. Paul says in 2 Timothy 2:8, 'Remember Jesus Christ, raised from the dead, descended from David, as proclaimed by my gospel,' which is Romans 1:3 and 4 in brief. Paul's call to be set apart echoes Jeremiah 1:5 and Isaiah 49:1, as Galatians 1:15 and 16 shows, and he is, like those prophets, called to the nations.\n\nThe greeting 'grace and peace' appears in almost every Pauline letter, for example 1 Thessalonians 1:1 and Philippians 1:2. It joins the Greek word of favour with the Hebrew word of wholeness, shalom. And the close of the letter returns to the opening: Romans 16:25 to 27 repeats 'my gospel,' the prophets' writings, and 'the obedience that comes from faith,' now stated in light of the whole argument."
     },
     "hermeneutics": {
-      "authorIntent": "To introduce himself to a church he had not yet visited, to establish his God-given authority as an apostle, and above all to announce the gospel of God concerning His Son, so that the Roman believers would recognize the message they share and be prepared for the argument to come.",
-      "descriptionVsPrescription": "The greeting describes Paul's calling and the content of the gospel. Its abiding truth is prescriptive for the church in every age: the gospel is God's, centered on His crucified and risen Son, and it calls all peoples to the obedience that comes from faith.",
+      "authorIntent": "Paul wants the Roman Christians to know what gospel they are about to hear explained. He does not begin with an argument. He begins with a person and a pedigree. The gospel is of God, promised in Scripture, centred on the Son, confirmed by the resurrection and carried by an apostle sent to all nations. By the end of verse 7 the Romans have been told three things about themselves: that they are loved by God, that they are called, and that they belong to Jesus Christ. They are not strangers to the story.\n\nPaul also wants to claim common ground before he turns to controversy. Jews and Gentiles in Rome had to be told that they belong to one gospel and one Lord. By describing his mission as 'among all the Gentiles,' verse 5, and the church as including those 'called to belong to Jesus Christ,' verse 6, he prepares the ground for the argument that the same righteousness is for Jew and Greek alike.\n\nFinally, he establishes his own authority in a particular way. His apostleship is not a personal achievement but a received grace, 'we received grace and apostleship,' verse 5. He asks for no deference, only that his readers recognise the message he carries. The greeting is humble and bold at once.",
+      "descriptionVsPrescription": "The greeting describes who Paul is, what the gospel is and who the Romans are. It does not issue commands, yet it quietly makes claims on every reader. 'Slave of Christ' describes Paul's own calling to apostleship, which is unique. But the language of belonging, being called and being loved is addressed to all the Romans, and so to every believer. Those parts are not limited to apostles. The word 'saints' here is a title for all believers, not a rank for a few.\n\nSome things are specific to Paul: he was set apart as an apostle by the risen Christ, Acts 9:15, and to him fell the particular task of 'the obedience that comes from faith among the Gentiles.' Others carry forward directly: believers are called, loved, holy and under Christ's lordship. The phrase 'obedience that comes from faith' is not a call to earn grace but a description of the shape of the response to it. Faith that is real obeys, and obedience that is real springs from faith. A reader should not turn it into a rule for earning salvation, since the same letter says that righteousness comes by faith, Romans 3:21 and 22.",
       "debates": [
         {
           "question": "Are verses 3 and 4 an early Christian confession Paul is quoting?",
           "views": [
-            { "label": "A pre-Pauline creed", "case": "The balanced two-line structure, distinct vocabulary, and confessional feel suggest Paul is drawing on a formula already known to the churches, affirming common ground with Rome." },
-            { "label": "Paul's own fresh composition", "case": "The lines fit Paul's theology so well that he may simply be writing his own summary; either way the content is fully his." }
+            {
+              "label": "A pre-Pauline creed",
+              "case": "The balanced two-line structure, distinct vocabulary, and confessional feel suggest Paul is drawing on a formula already known to the churches, affirming common ground with Rome."
+            },
+            {
+              "label": "Paul's own fresh composition",
+              "case": "The lines fit Paul's theology so well that he may simply be writing his own summary; either way the content is fully his."
+            }
           ],
           "bearing": "Whether quoted or composed, the confession expresses the shared apostolic gospel: Jesus is David's son and the risen Son of God, and Paul stands on that common ground with the Roman church."
         },
         {
           "question": "What does declared with power to be the Son of God by His resurrection mean?",
           "views": [
-            { "label": "Publicly appointed and displayed", "case": "The eternal Son, already the Son, was openly appointed the Son of God in power at the resurrection, entering a new stage of His mission as the exalted, life-giving Lord." },
-            { "label": "Adoptionist misreading", "case": "Some have wrongly taken it to mean Jesus became the Son only at the resurrection; this contradicts verse 3, which already calls Him His Son before speaking of His human descent." }
+            {
+              "label": "Publicly appointed and displayed",
+              "case": "The eternal Son, already the Son, was openly appointed the Son of God in power at the resurrection, entering a new stage of His mission as the exalted, life-giving Lord."
+            },
+            {
+              "label": "Adoptionist misreading",
+              "case": "Some have wrongly taken it to mean Jesus became the Son only at the resurrection; this contradicts verse 3, which already calls Him His Son before speaking of His human descent."
+            }
           ],
           "bearing": "The historic reading guards Christ's eternal sonship: He was always the Son, and by the resurrection He was powerfully declared and installed as the reigning Son of God, our Lord."
+        },
+        {
+          "question": "What does 'the obedience that comes from faith' mean in verse 5?",
+          "views": [
+            {
+              "label": "The obedience that faith itself is",
+              "case": "Some take the phrase as showing that believing is the obedience to the gospel that God commands. Paul speaks of the gospel as a message to be obeyed, as in Romans 6:17, and calling people to faith is calling them to obey the truth."
+            },
+            {
+              "label": "The obedience that flows from faith",
+              "case": "Others stress that faith is the source and the obedience the result, which is how the BSB renders it. This fits Paul's whole argument that salvation is by faith, and that the new life of obedience follows, Romans 6:17 and 18."
+            }
+          ],
+          "bearing": "The two readings overlap. Either way faith and obedience cannot be separated, and neither earns anything. The phrase is repeated in Romans 16:26 and marks the whole letter's aim: that people from every nation come to trust the Lord and live under His rule."
+        },
+        {
+          "question": "Does 'the Spirit of holiness' in verse 4 mean the Holy Spirit?",
+          "views": [
+            {
+              "label": "The Holy Spirit who raised Jesus",
+              "case": "The expression is a Hebrew way of saying Holy Spirit, as in Psalm 51:11. Paul says elsewhere that the Spirit raised Christ, Romans 8:11, so the Spirit is the agent of the resurrection that declared Him Son of God. This is the most common reading."
+            },
+            {
+              "label": "Christ's own holy spirit",
+              "case": "A minority take the phrase as the human spirit or holy character of Jesus, parallel to 'flesh' in verse 3, so that the two lines contrast His human descent with His own spirit. They note that Paul does not say 'Holy Spirit' here, as he does elsewhere."
+            }
+          ],
+          "bearing": "The first reading fits Paul's usage and the parallel of Romans 8:11. Either way the resurrection is the point: God's power marked Jesus out as Son, and the passage places Father, Son and Spirit at the heart of the gospel."
+        },
+        {
+          "question": "What does 'the obedience that comes from faith' mean in verse 5?",
+          "views": [
+            {
+              "label": "The obedience that faith itself is",
+              "case": "Some take the phrase as showing that believing is the obedience to the gospel that God commands. Paul speaks of the gospel as a message to be obeyed, as in Romans 6:17, and calling people to faith is calling them to obey the truth."
+            },
+            {
+              "label": "The obedience that flows from faith",
+              "case": "Others stress that faith is the source and the obedience the result, which is how the BSB renders it. This fits Paul's whole argument that salvation is by faith, and that the new life of obedience follows, Romans 6:17 and 18."
+            }
+          ],
+          "bearing": "The two readings overlap. Either way faith and obedience cannot be separated, and neither earns anything. The phrase is repeated in Romans 16:26 and marks the whole letter's aim: that people from every nation come to trust the Lord and live under His rule."
+        },
+        {
+          "question": "Does 'the Spirit of holiness' in verse 4 mean the Holy Spirit?",
+          "views": [
+            {
+              "label": "The Holy Spirit who raised Jesus",
+              "case": "The expression is a Hebrew way of saying Holy Spirit, as in Psalm 51:11. Paul says elsewhere that the Spirit raised Christ, Romans 8:11, so the Spirit is the agent of the resurrection that declared Him Son of God. This is the most common reading."
+            },
+            {
+              "label": "Christ's own holy spirit",
+              "case": "A minority take the phrase as the human spirit or holy character of Jesus, parallel to 'flesh' in verse 3, so that the two lines contrast His human descent with His own spirit. They note that Paul does not say 'Holy Spirit' here, as he does elsewhere."
+            }
+          ],
+          "bearing": "The first reading fits Paul's usage and the parallel of Romans 8:11. Either way the resurrection is the point: God's power marked Jesus out as Son, and the passage places Father, Son and Spirit at the heart of the gospel."
         }
       ]
     },
-    "originalLanguages": "Paul introduces himself with three words that set the tone: he is a doulos, a slave owned by Christ; called to be an apostolos, sent with Christ's own authority; and set apart for the euangelion, the good news of God. The goal of that gospel is the hypakoe of faith, an obedience that is the fruit of trust, sought among all the nations. And the readers are the hagioi, the holy ones, all who belong to Jesus Christ and are loved by God.",
+    "originalLanguages": "Paul's opening is full of words that are more precise than their English equivalents. The word doulos is not a hired servant but a slave, one who belongs to a master. Paul uses it in Romans 6:16 to 18 for the two possible masters of a human life, sin and obedience, and in Romans 1:1 he declares that his own master is Christ. The ancient Jewish world gave the title 'servant of the LORD' to Moses, Joshua and the prophets, as in Joshua 1:1 and Amos 3:7, so the word is both humble and exalted.\n\nThe phrase 'called to be an apostle' is literally 'a called apostle.' Kletos, called, comes three times in these verses, verses 1, 6 and 7, so that the same adjective describes the apostle and the ordinary believer. The title 'saints,' hagioi, in verse 7 means those set apart as God's own, and the Corinthian greeting uses the same pairing, 'called to be holy,' 1 Corinthians 1:2. And 'set apart,' in verse 1, is the passive participle of aphorizo, the verb the Spirit uses at Antioch, 'Set apart for Me Barnabas and Saul,' Acts 13:2, and Paul uses of himself in Galatians 1:15.\n\nThe verb in verse 4 deserves close attention. The BSB reads 'declared with power to be the Son of God.' The Greek participle is horisthentos, from horizo, which is the word used elsewhere of appointing or designating: Jesus is 'the One appointed by God to judge the living and the dead,' Acts 10:42, and the 'Man He has appointed,' Acts 17:31. It does not mean that He became Son at the resurrection. It means that He was publicly installed in power as what He already was. The phrase 'with power,' en dynamei, qualifies the Sonship: the Son was marked out in power, not that He was made Son by power. Paul also says 'by resurrection of the dead,' in the plural, which means the resurrection of the dead in general, of which Christ's own is the first, 1 Corinthians 15:20.\n\nIn verse 3 the Son 'was a descendant of David,' with a verb, genomenou, that means He came to be. Galatians 4:4 uses the matching verb, 'born of a woman,' for the same event. The word implies that there was a Son who became something He was not, namely a descendant of David, which suits the idea that the Son pre-existed His birth, as John 17:5 and Colossians 1:15 and 16 teach.\n\nFinally, hypakoe pisteos, 'obedience of faith,' is a genitive that can be read as source, apposition or quality, as in the debate below. The word 'grace,' charis, and 'peace,' eirene, are Paul's characteristic greeting, combining the ordinary Greek form of address with the Hebrew shalom.",
     "typology": [
-      { "type": "The son of David", "fulfillment": "Fulfilled in Jesus, David's descendant according to the flesh, the promised King whose throne endures forever, 2 Samuel 7:12-16." },
-      { "type": "The servant of the LORD", "fulfillment": "Paul as a set-apart slave of Christ stands in the line of Moses and the prophets who served the LORD, now serving the risen Lord and His gospel." },
-      { "type": "The gospel promised beforehand", "fulfillment": "The prophetic promises reach their yes in Christ, so that the Holy Scriptures and the good news are one continuous story." }
+      {
+        "type": "The son of David who reigns forever",
+        "fulfillment": "God promised David a descendant whose throne would be established forever and who would be God's son, 2 Samuel 7:12 to 14. The promise was partially met by Solomon, but the deeper fulfilment was in the one of whom Gabriel said, 'The Lord God will give Him the throne of His father David,' Luke 1:32 and 33. Paul's confession in Romans 1:3 and 4 is the same fulfilment, strengthened by the resurrection, which Peter in Acts 2:30 to 32 reads as the fulfilment of David's oath. The type falls short because David's sons died and their kingdom divided, whereas the risen Son's reign has no end."
+      },
+      {
+        "type": "The servant of the LORD",
+        "fulfillment": "Moses is called the LORD's servant, Joshua 1:1, and the prophets are His servants, 2 Kings 17:13. Paul places himself in that company. But the pattern reaches its height in Christ, who 'emptied Himself, taking the form of a servant,' Philippians 2:7, and said that He came 'not to be served, but to serve, and to give His life as a ransom for many,' Matthew 20:28. Paul is the servant of the Servant. The type falls short in that every earlier servant needed rescuing, while Christ the servant is the Rescuer."
+      },
+      {
+        "type": "The prophet set apart before birth",
+        "fulfillment": "Jeremiah was set apart before he was born and appointed a prophet to the nations, Jeremiah 1:5, and the Servant in Isaiah was called from the womb, Isaiah 49:1. Paul says that God 'set me apart from my mother's womb,' Galatians 1:15, to preach Christ among the Gentiles. The pattern of an individual called to carry God's word to the nations comes to its fullness in Paul's mission. It is not that Paul is a new Jeremiah in every way, but he is another in the line of those whom God claims before they know Him. The type points beyond to Christ, in whom all the nations are blessed."
+      },
+      {
+        "type": "The holy people who belong to God",
+        "fulfillment": "At Sinai God called Israel 'a kingdom of priests and a holy nation,' Exodus 19:6, a people chosen not for their size but because the LORD loved them, Deuteronomy 7:6 to 8. Paul addresses the Roman believers, many of them Gentiles, as 'loved by God and called to be saints,' and Peter applies the Sinai words directly to the church, 1 Peter 2:9 and 10. Hosea's promise that those called 'Not My People' would become His people is applied to the Gentiles in Romans 9:25 and 26. The type escalates as the holy nation opens to all, though it is not replaced by a different people: Gentiles are brought into the people of God in Christ."
+      }
     ],
-    "christ": "Every line bends toward Christ. He is God's Son, the theme of the gospel. He is truly human, a descendant of David according to the flesh, and He is the Son of God declared in power by His resurrection from the dead. He is Jesus Christ our Lord, and it is through Him that grace and apostleship come, on behalf of His name, calling the nations to faith. The greeting shows the gospel is not a program or a philosophy but a Person, the crucified and risen King.",
-    "god": "The gospel is called the gospel of God: He is its source, its promiser, and its accomplisher. He spoke it beforehand through His prophets, He sent and raised His Son, and He now calls and loves a people, granting them grace and peace. The passage is thoroughly God-centered, presenting a God who keeps His ancient word and gathers a family from every nation for the honor of His Son's name.",
+    "christ": "The whole passage is an exposition of one sentence: the gospel is 'regarding His Son.' Paul does not begin with a doctrine of sin or salvation. He begins with a person, and he describes Him in two steps and with three titles.\n\nThe first step is His human line. 'A descendant of David according to the flesh' means that Jesus was truly human and truly the promised king. The verb in verse 3 is the same word Paul uses of the Son's birth in Galatians 4:4, where 'God sent His Son, born of a woman.' To say that He became a descendant of David is to say that He was already the Son before He took that line, and the words of Jesus in John 17:5 about the glory He had with the Father before the world existed support this. The same Paul says in Romans 8:3 that God sent 'His own Son in the likeness of sinful man,' and in Romans 9:5 that the human descent of Christ comes from Israel's fathers.\n\nThe second step is the resurrection. Paul says that through the Spirit of holiness He was 'declared with power to be the Son of God by His resurrection from the dead.' Before the resurrection He was Son in weakness, a man who was crucified. In the resurrection He was marked out in power. The correspondence with Psalm 2:7 is clear in Acts 13:33, where Paul applies 'You are My Son; today I have become Your Father' to the resurrection. It does not mean that God became His Father only then; it means that the royal Son is publicly installed. Peter preached the same truth at Pentecost: 'God has made this Jesus, whom you crucified, both Lord and Christ,' Acts 2:36.\n\nThe three titles are Jesus, Christ and Lord. 'Jesus' is the name of the man who lived and died. 'Christ' is the title of the anointed King of promise. 'Lord,' kyrios, is the name by which the Greek Old Testament renders the divine name, and Paul will say in Romans 10:9 to 13 that confessing 'Jesus is Lord' is the way of salvation, and that the Joel text about calling on the name of the Lord is spoken of Him. At the end of verse 4 the whole sentence rests on those three words, 'Jesus Christ our Lord.'\n\nThe Son is also the one through whom Paul received grace and apostleship, verse 5, and the one from whom grace and peace flow, verse 7. He is both the content of the message and its source.\n\nCare is needed not to read the resurrection as the moment Jesus became divine, which verse 3 already contradicts. Nor should the 'flesh' and 'Spirit' of the two lines be read as a contrast between a bad and a good side of Christ. They mark two phases of the one Son's history. What the passage gives us is a Saviour who is fully one of us and fully the Lord, and a gospel that is nothing else than Him.",
+    "god": "The first thing this passage tells us about God is in its first line: it is the gospel of God. Paul does not say 'my gospel' or 'the gospel of the church' but the gospel that belongs to God, which comes from Him and is about Him. This is the first assertion of the letter, and it shapes how the doctrine of God is to be understood throughout: salvation is not a human discovery or a solution to a human problem that God is called in to endorse. It is God's own project.\n\nHe is the God who promises and keeps His word. 'The gospel He promised beforehand through His prophets in the Holy Scriptures' means that the good news has a history, and that the Old Testament is not a different story. Titus 1:2 says that God 'cannot lie' and 'promised before time began,' and 2 Corinthians 1:20 says that all His promises are 'Yes' in Christ. Verse 2 is the hinge between the two Testaments, and it asserts that the God of Isaiah and David is the God who sent Jesus.\n\nHe is a Father. Verse 7 speaks of 'God our Father,' and verse 3 of 'His Son.' The relation within God is not an addition to the gospel but its heart: God sent His Son, Galatians 4:4, and 'did not spare His own Son but gave Him up for us all,' Romans 8:32. A God who sends His Son is a God whose love has a cost. That is why the Romans are described, before any other adjective, as 'loved by God,' verse 7.\n\nHe is the God who calls. The word occurs three times in these verses, and it shows that God takes the initiative. The Romans did not find their way to Christ by themselves; they were 'called to belong to Jesus Christ.' Romans 8:28 to 30 later fills in the chain of God's purpose, calling, justifying and glorifying. The doctrine of election is not a threat here but a comfort: those who belong to Christ belong because God has first called and loved them.\n\nHe is the Trinity in action. The Father sends and raises, the Son is descended and declared, and the Spirit of holiness is the one through whom the resurrection declares Him. Father, Son and Spirit are named in a single sentence and the gospel is the work of all three.\n\nFor worship, the passage teaches that grace comes first and peace follows. The believers are greeted with a gift, 'grace and peace to you from God our Father and the Lord Jesus Christ,' and the Lord Jesus stands beside the Father as a source of the blessing. Praise begins with receiving.",
     "crossReferences": [
-      { "ref": "2 Samuel 7:12-16", "note": "The promise of a son of David whose kingdom will be established forever, fulfilled in Christ." },
-      { "ref": "Habakkuk 2:4", "note": "The righteous will live by faith, the text that anchors the letter's theme of righteousness by faith." },
-      { "ref": "Acts 9:15", "note": "The risen Christ sets Paul apart as a chosen instrument to carry His name to the Gentiles." },
-      { "ref": "Romans 16:25-27", "note": "The closing doxology echoes the opening: the gospel long hidden, now revealed, bringing the obedience of faith to all nations." }
+      {
+        "ref": "2 Samuel 7:12-14",
+        "note": "God promises David a descendant whose kingdom and throne will be established forever and who will be God's son. Paul's 'descendant of David' and 'Son of God' in Romans 1:3 and 4 are the two halves of this promise, now fulfilled in a single person raised from the dead."
+      },
+      {
+        "ref": "Psalm 2:7",
+        "note": "The royal decree 'You are My Son; today I have become Your Father' is the Old Testament background for the sonship declared in verse 4. Acts 13:33 applies it directly to the resurrection, which shows how the early church heard the verse."
+      },
+      {
+        "ref": "Galatians 1:15-16",
+        "note": "Paul says God set him apart from his mother's womb, called him by grace and was pleased to reveal His Son in him so that he might preach Him among the Gentiles. It is the personal story behind Romans 1:1 and 5, and it echoes the calls of Jeremiah and Isaiah."
+      },
+      {
+        "ref": "Galatians 4:4-5",
+        "note": "'God sent His Son, born of a woman, born under the law.' The same verb of coming to be that describes the Son's descent from David in Romans 1:3. Together the two verses show a Son who was sent and who entered human history."
+      },
+      {
+        "ref": "2 Timothy 2:8",
+        "note": "Paul sums up his gospel as 'Jesus Christ, raised from the dead, descended from David.' The order and the content are the same as in Romans 1:3 and 4, which supports the view that these lines state the core of his preaching."
+      },
+      {
+        "ref": "Romans 8:11",
+        "note": "The Spirit of Him who raised Jesus from the dead gives life to believers. It supports reading the 'Spirit of holiness' of Romans 1:4 as the Holy Spirit, the agent of the resurrection and the one who brings its power to the church."
+      },
+      {
+        "ref": "Romans 10:9-13",
+        "note": "Confessing 'Jesus is Lord' and believing that God raised Him from the dead is the way of salvation for Jew and Greek. The confession of Romans 1:4, 'Jesus Christ our Lord,' is what every believer is called to say."
+      },
+      {
+        "ref": "Titus 1:1-3",
+        "note": "Paul as a servant of God and apostle, with a hope promised before time began and made evident in the proclamation entrusted to him. It parallels Romans 1:1 to 2 in its mix of calling, promise and message, and underlines that the gospel is an eternal plan revealed in time."
+      },
+      {
+        "ref": "Philippians 2:7",
+        "note": "The Son 'emptied Himself, taking the form of a servant.' The word for servant is the same Greek word Paul uses of himself in Romans 1:1, so that the apostle's slavery follows the pattern of his Lord."
+      },
+      {
+        "ref": "Romans 16:25-27",
+        "note": "The letter's closing doxology returns to the opening: my gospel, the prophets' writings and the obedience that comes from faith among all nations. The two passages enclose the letter and show that its argument serves the aim of the greeting."
+      },
+      {
+        "ref": "1 Peter 2:9-10",
+        "note": "Peter calls believers a chosen people, a royal priesthood and a holy nation, and says they were once not a people but are now the people of God. The language of Sinai is given to a mixed church, as Paul gives the title 'saints' to the Romans."
+      }
     ],
-    "oneStory": "From Eden onward God had promised a rescuer, and to David He promised a son whose reign would never end. The prophets kept announcing this good news beforehand. Now Paul declares that the promise is kept in Jesus, David's son and the risen Son of God, Lord of all. The old story of Israel opens out to embrace the nations, gathering a beloved people who answer the gospel with the obedience of faith.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "Genesis 3:15 promised a seed who would crush the serpent, and the rest of the Old Testament waits for him. The promise to Abraham that all the nations would be blessed, Galatians 3:8, and the promise to David of a son who would reign forever, 2 Samuel 7:12 and 13, narrowed the hope to a single line and a single throne. The prophets then held out that hope in the face of exile: the Branch of Jesse, Isaiah 11:1, the herald who tells Zion 'Here is your God!', Isaiah 40:9, and a new heart through God's Spirit, Ezekiel 36:26 and 27.\n\nRomans 1:1 to 7 announces that the waiting is over. The first sentence of the greatest letter in the New Testament is a summary of the story so far. The promise is fulfilled in a person who is the seed of David and the Son of God, and the proof is a grave that is empty. The shape of the whole Bible is visible in the structure of the sentence: promised beforehand, accomplished in the Son, proclaimed to the nations.\n\nIt also answers Israel's long question about the nations. God had chosen one people, but with the aim of reaching all the others. Paul's mission 'among all the Gentiles,' verse 5, and his greeting to Roman believers who were 'called to belong to Jesus Christ,' verse 6, show the promise to Abraham being kept. Those who were 'Not My People' have become His beloved, Romans 9:25 and 26.\n\nAnd the sentence points forward. The Son who was declared Lord by resurrection will be acknowledged by every tongue, Philippians 2:11, and the nations that Paul called to obedience will stand before the throne, Revelation 7:9. The God who loved and called the Roman believers will bring all He has called to the glory He promised, Romans 8:30. The greeting begins a letter, but it also begins the last chapter of the story: the gospel is out, the King is risen, and the nations are being gathered in.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "Whose gospel is it, according to Paul's opening?",
       "options": [
-        { "text": "It is the gospel of God, from Him and about what He has done in His Son.", "weight": 100, "note": "Paul calls it the gospel of God, promised by Him and centered on His Son." },
-        { "text": "It is the gospel Paul was entrusted to carry, which he calls my gospel.", "weight": 75, "note": "Paul does call it my gospel elsewhere, but only as its herald; its source is God." },
-        { "text": "It is the gospel of the Roman church that they taught Paul.", "weight": 25, "note": "The Roman believers receive the gospel; they are not its author or Paul's teachers." },
-        { "text": "It is a message with no clear source.", "weight": 0, "note": "Paul is explicit: it is the gospel of God, long promised through His prophets." }
+        {
+          "text": "It is the gospel of God, from Him and about what He has done in His Son.",
+          "weight": 100,
+          "note": "Paul calls it the gospel of God, promised by Him and centered on His Son."
+        },
+        {
+          "text": "It is the gospel Paul was entrusted to carry, which he calls my gospel.",
+          "weight": 75,
+          "note": "Paul does call it my gospel elsewhere, but only as its herald; its source is God."
+        },
+        {
+          "text": "It is the gospel of the Roman church that they taught Paul.",
+          "weight": 25,
+          "note": "The Roman believers receive the gospel; they are not its author or Paul's teachers."
+        },
+        {
+          "text": "It is a message with no clear source.",
+          "weight": 0,
+          "note": "Paul is explicit: it is the gospel of God, long promised through His prophets."
+        }
       ]
     },
     {
       "q": "How does Paul describe Jesus in verses 3 and 4?",
       "options": [
-        { "text": "David's descendant according to the flesh and the Son of God declared in power by His resurrection.", "weight": 100, "note": "The confession holds together Christ's true humanity and His divine sonship." },
-        { "text": "David's descendant who became God's Son only at His resurrection.", "weight": 75, "note": "He truly is David's son and was declared Son in power at the resurrection, but verse 3 already calls Him God's Son beforehand." },
-        { "text": "Only a human teacher descended from David.", "weight": 25, "note": "He is David's son, but also the eternal Son of God declared in power." },
-        { "text": "A spirit being who only seemed to be human.", "weight": 0, "note": "He is truly a descendant of David according to the flesh." }
+        {
+          "text": "David's descendant according to the flesh and the Son of God declared in power by His resurrection.",
+          "weight": 100,
+          "note": "The confession holds together Christ's true humanity and His divine sonship."
+        },
+        {
+          "text": "David's descendant who became God's Son only at His resurrection.",
+          "weight": 75,
+          "note": "He truly is David's son and was declared Son in power at the resurrection, but verse 3 already calls Him God's Son beforehand."
+        },
+        {
+          "text": "Only a human teacher descended from David.",
+          "weight": 25,
+          "note": "He is David's son, but also the eternal Son of God declared in power."
+        },
+        {
+          "text": "A spirit being who only seemed to be human.",
+          "weight": 0,
+          "note": "He is truly a descendant of David according to the flesh."
+        }
       ]
     },
     {
       "q": "What response does the gospel aim to produce among the nations?",
       "options": [
-        { "text": "The obedience that comes from faith.", "weight": 100, "note": "Paul names the obedience of faith as the goal, bracketing the whole letter." },
-        { "text": "A trust in Christ that also bears fruit in obeying Him.", "weight": 75, "note": "Close to the mark: faith and obedience belong together, though Paul's exact phrase is the obedience of faith." },
-        { "text": "Obedience to the law of Moses as the way of acceptance.", "weight": 25, "note": "The obedience Paul means flows from faith, not from law keeping for acceptance." },
-        { "text": "Political submission to Rome.", "weight": 0, "note": "Paul speaks of obedience to Christ through faith, not allegiance to the empire." }
+        {
+          "text": "The obedience that comes from faith.",
+          "weight": 100,
+          "note": "Paul names the obedience of faith as the goal, bracketing the whole letter."
+        },
+        {
+          "text": "A trust in Christ that also bears fruit in obeying Him.",
+          "weight": 75,
+          "note": "Close to the mark: faith and obedience belong together, though Paul's exact phrase is the obedience of faith."
+        },
+        {
+          "text": "Obedience to the law of Moses as the way of acceptance.",
+          "weight": 25,
+          "note": "The obedience Paul means flows from faith, not from law keeping for acceptance."
+        },
+        {
+          "text": "Political submission to Rome.",
+          "weight": 0,
+          "note": "Paul speaks of obedience to Christ through faith, not allegiance to the empire."
+        }
       ]
     },
     {
       "q": "Who are the recipients Paul addresses?",
       "options": [
-        { "text": "All in Rome who are loved by God and called to be saints.", "weight": 100, "note": "He writes to the whole believing church, the beloved and called saints." },
-        { "text": "All the believers in Rome, though he singles out only the leaders.", "weight": 75, "note": "He writes to all the beloved saints; the leaders are included but not singled out over the rest." },
-        { "text": "Only Jewish believers in Rome.", "weight": 25, "note": "The church was mixed, and his commission reaches the Gentiles too." },
-        { "text": "Unbelievers in the city at large.", "weight": 0, "note": "He addresses those already loved by God and called to be saints." }
+        {
+          "text": "All in Rome who are loved by God and called to be saints.",
+          "weight": 100,
+          "note": "He writes to the whole believing church, the beloved and called saints."
+        },
+        {
+          "text": "All the believers in Rome, though he singles out only the leaders.",
+          "weight": 75,
+          "note": "He writes to all the beloved saints; the leaders are included but not singled out over the rest."
+        },
+        {
+          "text": "Only Jewish believers in Rome.",
+          "weight": 25,
+          "note": "The church was mixed, and his commission reaches the Gentiles too."
+        },
+        {
+          "text": "Unbelievers in the city at large.",
+          "weight": 0,
+          "note": "He addresses those already loved by God and called to be saints."
+        }
       ]
     },
     {
       "q": "What does Paul call himself at the very start?",
       "options": [
-        { "text": "A servant of Christ Jesus, called to be an apostle, set apart for the gospel.", "weight": 100, "note": "He leads with his identity as Christ's slave and commissioned messenger." },
-        { "text": "A servant of Christ sent to carry a message he was given.", "weight": 75, "note": "True as far as it goes, but Paul also names his specific calling as an apostle set apart for the gospel." },
-        { "text": "A teacher of his own religious ideas.", "weight": 25, "note": "He is a slave of Christ carrying God's gospel, not his own ideas." },
-        { "text": "The founder of the Roman church.", "weight": 0, "note": "Paul did not found the Roman church and had not yet visited it." }
+        {
+          "text": "A servant of Christ Jesus, called to be an apostle, set apart for the gospel.",
+          "weight": 100,
+          "note": "He leads with his identity as Christ's slave and commissioned messenger."
+        },
+        {
+          "text": "A servant of Christ sent to carry a message he was given.",
+          "weight": 75,
+          "note": "True as far as it goes, but Paul also names his specific calling as an apostle set apart for the gospel."
+        },
+        {
+          "text": "A teacher of his own religious ideas.",
+          "weight": 25,
+          "note": "He is a slave of Christ carrying God's gospel, not his own ideas."
+        },
+        {
+          "text": "The founder of the Roman church.",
+          "weight": 0,
+          "note": "Paul did not found the Roman church and had not yet visited it."
+        }
       ]
     }
   ],
@@ -160,9 +420,21 @@
     "You are addressed as loved by God and called to be a saint. How would resting in being beloved and set apart change the way you live this week?"
   ],
   "translationNotes": [
-    { "ref": "Romans 1:1", "note": "The word rendered servant is doulos, a bondservant or slave; it carries both lowliness and the honor of the Old Testament servants of the LORD." },
-    { "ref": "Romans 1:4", "note": "Declared with power to be the Son of God renders a verb meaning appointed or marked out; it does not mean Jesus became the Son at the resurrection, since verse 3 already calls Him God's Son, but that He was openly installed as the reigning Son of God in power." },
-    { "ref": "Romans 1:5", "note": "The obedience that comes from faith renders a Greek phrase that can be read as the obedience which is faith or the obedience that springs from faith; either way faith and obedience belong together and frame the letter." }
+    {
+      "ref": "Romans 1:1",
+      "note": "The word rendered servant is doulos, a bondservant or slave; it carries both lowliness and the honor of the Old Testament servants of the LORD."
+    },
+    {
+      "ref": "Romans 1:4",
+      "note": "Declared with power to be the Son of God renders a verb meaning appointed or marked out; it does not mean Jesus became the Son at the resurrection, since verse 3 already calls Him God's Son, but that He was openly installed as the reigning Son of God in power."
+    },
+    {
+      "ref": "Romans 1:5",
+      "note": "The obedience that comes from faith renders a Greek phrase that can be read as the obedience which is faith or the obedience that springs from faith; either way faith and obedience belong together and frame the letter."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched this session from bible.helloao.org for Romans 1:1-7. Sermon left as none; no expositor sermon URL verified this session." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched this session from bible.helloao.org for Romans 1:1-7. Sermon left as none; no expositor sermon URL verified this session."
+  }
 }

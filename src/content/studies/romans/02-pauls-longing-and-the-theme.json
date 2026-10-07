@@ -18,11 +18,31 @@
         "note": "their faith proclaimed all over the world",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 8, "text": "First, I thank my God through Jesus Christ for all of you, because your faith is being proclaimed all over the world." },
-          { "chapter": 1, "n": 9, "text": "God, whom I serve with my spirit in preaching the gospel of His Son, is my witness how constantly I remember you" },
-          { "chapter": 1, "n": 10, "text": "in my prayers at all times, asking that now at last by God’s will I may succeed in coming to you." },
-          { "chapter": 1, "n": 11, "text": "For I long to see you so that I may impart to you some spiritual gift to strengthen you," },
-          { "chapter": 1, "n": 12, "text": "that is, that you and I may be mutually encouraged by each other’s faith." }
+          {
+            "chapter": 1,
+            "n": 8,
+            "text": "First, I thank my God through Jesus Christ for all of you, because your faith is being proclaimed all over the world."
+          },
+          {
+            "chapter": 1,
+            "n": 9,
+            "text": "God, whom I serve with my spirit in preaching the gospel of His Son, is my witness how constantly I remember you"
+          },
+          {
+            "chapter": 1,
+            "n": 10,
+            "text": "in my prayers at all times, asking that now at last by God’s will I may succeed in coming to you."
+          },
+          {
+            "chapter": 1,
+            "n": 11,
+            "text": "For I long to see you so that I may impart to you some spiritual gift to strengthen you,"
+          },
+          {
+            "chapter": 1,
+            "n": 12,
+            "text": "that is, that you and I may be mutually encouraged by each other’s faith."
+          }
         ]
       },
       {
@@ -30,9 +50,21 @@
         "note": "obligated to Greeks and non-Greeks, wise and foolish",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 13, "text": "I do not want you to be unaware, brothers, how often I planned to come to you (but have been prevented from visiting until now), in order that I might have a harvest among you, just as I have had among the other Gentiles." },
-          { "chapter": 1, "n": 14, "text": "I am obligated both to Greeks and non-Greeks, both to the wise and the foolish." },
-          { "chapter": 1, "n": 15, "text": "That is why I am so eager to preach the gospel also to you who are in Rome." }
+          {
+            "chapter": 1,
+            "n": 13,
+            "text": "I do not want you to be unaware, brothers, how often I planned to come to you (but have been prevented from visiting until now), in order that I might have a harvest among you, just as I have had among the other Gentiles."
+          },
+          {
+            "chapter": 1,
+            "n": 14,
+            "text": "I am obligated both to Greeks and non-Greeks, both to the wise and the foolish."
+          },
+          {
+            "chapter": 1,
+            "n": 15,
+            "text": "That is why I am so eager to preach the gospel also to you who are in Rome."
+          }
         ]
       },
       {
@@ -40,18 +72,51 @@
         "note": "the righteousness of God revealed from faith to faith",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 16, "text": "I am not ashamed of the {{euangelion|gospel}}, because it is the {{dynamis|power}} of God for {{soteria|salvation}} to everyone who believes, first to the Jew, then to the Greek." },
-          { "chapter": 1, "n": 17, "text": "For the gospel reveals the {{dikaiosyne|righteousness}} of God that comes by {{pistis|faith}} from start to finish, just as it is written: “The righteous will live by faith.”" }
+          {
+            "chapter": 1,
+            "n": 16,
+            "text": "I am not ashamed of the {{euangelion|gospel}}, because it is the {{dynamis|power}} of God for {{soteria|salvation}} to everyone who believes, first to the Jew, then to the Greek."
+          },
+          {
+            "chapter": 1,
+            "n": 17,
+            "text": "For the gospel reveals the {{dikaiosyne|righteousness}} of God that comes by {{pistis|faith}} from start to finish, just as it is written: “The righteous will live by faith.”"
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "euangelion": { "language": "Greek", "lemma": "euangelion", "original": "εὐαγγέλιον", "gloss": "Good news, glad tidings, the announcement of a victory or a royal accession. For Paul the gospel is the message of what God has done in the death and resurrection of His Son. It is the one thing he is set apart to preach, and here he declares that far from being ashamed of it, he glories in it as the very instrument through which God saves." },
-    "dynamis": { "language": "Greek", "lemma": "dynamis", "original": "δύναμις", "gloss": "Power, might, effective force; the root of the English word dynamite. The gospel is not merely information about salvation but the actual power of God unleashed to accomplish it. What the law could not do and human effort cannot achieve, the announced word of the cross effects, creating faith and rescuing all who believe." },
-    "soteria": { "language": "Greek", "lemma": "soteria", "original": "σωτηρία", "gloss": "Salvation, deliverance, rescue, and the wholeness that follows. It embraces rescue from wrath, sin, and death, and the restoration of the whole person to God. In Romans it stretches from justification now to final glory, a deliverance offered to everyone who believes, without distinction of Jew or Greek." },
-    "dikaiosyne": { "language": "Greek", "lemma": "dikaiosyne", "original": "δικαιοσύνη", "gloss": "Righteousness, right standing, conformity to what is just. The righteousness of God is both His own saving justice and the righteous status He gives to those who believe. Revealed in the gospel, it is not achieved by human works but received as a gift, the pivot on which the whole letter turns." },
-    "pistis": { "language": "Greek", "lemma": "pistis", "original": "πίστις", "gloss": "Faith, trust, reliance; a confident resting in God and His promise. Righteousness comes from faith to faith, by faith from first to last, so that faith is the empty hand that receives what God gives in Christ. The quotation from Habakkuk seals it: the righteous will live by faith." }
+    "euangelion": {
+      "language": "Greek",
+      "lemma": "euangelion",
+      "original": "εὐαγγέλιον",
+      "gloss": "Good news, glad tidings, the announcement of a victory or a royal accession. For Paul the gospel is the message of what God has done in the death and resurrection of His Son. It is the one thing he is set apart to preach, and here he declares that far from being ashamed of it, he glories in it as the very instrument through which God saves."
+    },
+    "dynamis": {
+      "language": "Greek",
+      "lemma": "dynamis",
+      "original": "δύναμις",
+      "gloss": "Power, might, effective force; the root of the English word dynamite. The gospel is not merely information about salvation but the actual power of God unleashed to accomplish it. What the law could not do and human effort cannot achieve, the announced word of the cross effects, creating faith and rescuing all who believe."
+    },
+    "soteria": {
+      "language": "Greek",
+      "lemma": "soteria",
+      "original": "σωτηρία",
+      "gloss": "Salvation, deliverance, rescue, and the wholeness that follows. It embraces rescue from wrath, sin, and death, and the restoration of the whole person to God. In Romans it stretches from justification now to final glory, a deliverance offered to everyone who believes, without distinction of Jew or Greek."
+    },
+    "dikaiosyne": {
+      "language": "Greek",
+      "lemma": "dikaiosyne",
+      "original": "δικαιοσύνη",
+      "gloss": "Righteousness, right standing, conformity to what is just. The righteousness of God is both His own saving justice and the righteous status He gives to those who believe. Revealed in the gospel, it is not achieved by human works but received as a gift, the pivot on which the whole letter turns."
+    },
+    "pistis": {
+      "language": "Greek",
+      "lemma": "pistis",
+      "original": "πίστις",
+      "gloss": "Faith, trust, reliance; a confident resting in God and His promise. Righteousness comes from faith to faith, by faith from first to last, so that faith is the empty hand that receives what God gives in Christ. The quotation from Habakkuk seals it: the righteous will live by faith."
+    }
   },
   "study": {
     "basic": {
@@ -65,93 +130,276 @@
       "oneStory": "The long story of Scripture reaches its turning point. The righteousness God required and humanity could never produce is now revealed as a gift in the gospel. Habakkuk's ancient promise that the righteous will live by faith becomes the door through which people of every nation enter, so that the saving power of God goes out to the whole world."
     },
     "context": {
-      "literary": "Verses 8 to 15 form the letter's thanksgiving and travelogue, a standard section of Paul's letters, expressing affection and explaining his plans. They build toward the thesis statement of verses 16 and 17, arguably the most important two verses in the letter, which announce the theme that the following chapters expound: the gospel as the saving power of God that reveals the righteousness of God by faith.",
-      "historical": "Writing around AD 57, probably from Corinth, Paul explains to a church he did not found why he has so long delayed coming. The Roman believers' faith was known across the empire. Paul intends Rome as a base for a mission to Spain, and this letter prepares the way by setting out the gospel he preaches and hopes to share with them in person.",
-      "canonical": "Romans 1:16-17 stands at the head of the doctrinal argument of the New Testament's fullest exposition of the gospel. Its citation of Habakkuk 2:4 binds the two Testaments, and the same text echoes in Galatians 3:11 and Hebrews 10:38. Historically these verses lit the Reformation, as Luther came to see the righteousness of God as a gift received by faith rather than a standard that condemns."
+      "literary": "The passage moves in two registers. Verses 8 to 15 are warm and personal, and they are bound together by a pair of 'I' statements: 'I thank,' 'I long,' 'I do not want you to be unaware,' 'I am obligated,' 'I am eager.' Then verses 16 and 17 shift to a statement about the gospel itself, in the third person and the present tense, the kind of compressed claim that a writer sets down when he is ready to argue.\n\nThe seam between the two registers is the word 'that is why' in verse 15 and the 'for' that opens verse 16. Paul's eagerness to preach in Rome comes from what the gospel is. The word 'for' then repeats at the start of verse 17 and again at verse 18, 'For the wrath of God is being revealed,' so that three consecutive verses are linked as a chain of reasons: I am not ashamed, for it is God's power; for in it God's righteousness is revealed; for God's wrath is also revealed. The last link opens the first long argument of the letter.\n\nThere is a hidden symmetry in the personal section. Paul promises to give the Romans something, 'some spiritual gift to strengthen you,' verse 11, and then at once corrects himself: 'that you and I may be mutually encouraged by each other's faith,' verse 12. The apostle who is about to teach them will also be taught. The movement from giving to sharing is a small act of courtesy and a statement of how the church works.\n\nThe thesis in verses 16 and 17 is itself carefully built. It has a negative, 'not ashamed,' and its positive ground, 'power.' It names who benefits, 'everyone who believes,' and the order of the benefit, 'first to the Jew, then to the Greek.' It describes the content, 'righteousness of God,' and the means, 'faith from start to finish,' and then closes with Scripture. Each clause is a doorway into a later part of the letter.",
+      "historical": "A letter to Rome carried the weight of the world's capital. In AD 57 the city was the centre of a vast empire under Nero, and a message that its Christians' faith was 'proclaimed all over the world,' verse 8, was literally true of a city to which all roads led. The believers there had come through the edict of Claudius, Acts 18:2, and were living in a city that could again turn on them. Paul later says that 'everyone has heard about your obedience,' Romans 16:19.\n\nThe 'not ashamed' of verse 16 meant something in a culture where honour and shame mattered a great deal. The gospel's centre was a man crucified by the Roman state, a form of death reserved for slaves and rebels. Paul says elsewhere that this message was 'a stumbling block to Jews and foolishness to Gentiles,' 1 Corinthians 1:23, and Jesus Himself warned against being ashamed of Him and His words, Mark 8:38. For a Jew, a crucified Messiah was a scandal; for a Roman, a crucified king was a joke. To bring such a message to the proud capital of the empire required a settled refusal to be embarrassed, and Paul's own later suffering in chains shows he meant it, 2 Timothy 1:8 and 12.\n\nThe phrase 'Greeks and non-Greeks,' verse 14, is literally 'Greeks and barbarians,' as the BSB footnote puts it, a standard Greek division of humanity by culture and language, and 'the wise and the foolish' is a division by education. Paul says he owes the gospel to all these groups. The Greek sense of debt here, opheiletes, is the vocabulary of a creditor and debtor, and he uses it again of the Gentiles' obligation to Jerusalem in Romans 15:27.\n\nPaul wrote from Corinth about AD 57, after finishing his work in the east, Romans 15:19, and with Spain in view. He had been hindered from coming, Romans 15:22, and elsewhere Luke shows the Spirit redirecting his travel, Acts 16:6 and 7. The letter prepares the ground for a visit that would finally happen in a very different way than he expected, as a prisoner.",
+      "canonical": "The two verses at the centre of this passage are the most quoted text in the story of the Reformation, and they draw their strength from the way they gather the Old Testament. 'Salvation' and 'righteousness' appear together in Isaiah and the Psalms as a pair that God shows to the nations. Psalm 98:2 says the LORD 'has proclaimed His salvation and revealed His righteousness to the nations,' and Isaiah 51:5 says 'My righteousness draws near, My salvation is on the way.' Isaiah 46:13 and 56:1 repeat the pairing. In the prophets God's righteousness is not first of all a standard He holds but a saving act He performs, and Paul stands in that tradition.\n\nThe quotation of Habakkuk 2:4 is the second root. In its setting the prophet is standing at his watch and waiting for an answer about Babylon's violence. God tells him to write the vision, to wait for it though it lingers, and then contrasts the proud one with the righteous who 'will live by faith,' Habakkuk 2:1 to 4. The New Testament takes the line up three times: here, in Galatians 3:11 where it proves that no one is justified by the law, and in Hebrews 10:38 where it is joined to the promise that the coming one will not delay, Hebrews 10:37 and 38.\n\nThe third root is Abraham. Paul will say in Romans 4 that Abraham 'believed God, and it was credited to him as righteousness,' Genesis 15:6, and Galatians 3:8 says that Scripture 'foretold the gospel to Abraham.' The order 'Jew first, then Greek' is repeated in Romans 2:9 and 10 and 3:1 and 2 and then turned on its head in Romans 9 to 11, where the Gentiles attain righteousness by faith and Israel stumbles, Romans 9:30 to 32. Paul's theme runs through the whole letter, and these two verses are its title page."
     },
     "hermeneutics": {
-      "authorIntent": "To assure the Roman church of his genuine love and prayers, to explain his repeated but frustrated desire to visit, and above all to announce the theme of his letter: that he is unashamed of the gospel because it is God's saving power, revealing a righteousness from God that is received by faith from first to last.",
-      "descriptionVsPrescription": "The thanksgiving and travel plans describe Paul's particular situation. The thesis of verses 16 and 17 is prescriptive and permanent: the gospel is always the power of God for salvation to everyone who believes, and righteousness is always received by faith, in every age and for every people.",
+      "authorIntent": "Paul wants the Romans to see that he comes to them in love and in debt, not as a critic. The thanksgiving is real, and the confession that he wants to be encouraged by their faith is real. He builds trust first because the letter will say hard things about Jews and Gentiles alike, about sin and the law, and the hearers need to know that the one speaking cares for them.\n\nThe thesis gives the reason for the letter. Paul does not want them to treat the gospel as a message for beginners that Christians move beyond. It is 'the power of God for salvation' to believers, and he is eager to preach it to people who are already in the church, verse 15. Believers do not outgrow the gospel; they are saved by it, and the Christian life is a deeper living in it.\n\nHe also wants to head off two misunderstandings in advance. One is that the gospel belongs to Jews alone, so he says 'everyone who believes.' The other is that it is a minor matter of religious preference, so he says 'power of God.' The reader is meant to see in these two verses both the width and the weight of the good news.",
+      "descriptionVsPrescription": "Most of verses 8 to 15 describe Paul's personal circumstances: his prayers, his plans, his delays. They are not rules for every believer. But they show a pattern worth imitating: thanksgiving for other Christians' faith, constant prayer for them, a longing for fellowship that makes both sides richer, and a sense of being in debt to everyone with the gospel. The language of debt is descriptive of Paul's apostolic calling, yet in a wider sense every believer who has received good news owes it to those who have not.\n\nVerses 16 and 17 are a statement of what the gospel is and does. They do not instruct us to feel unashamed as a mood. They tell us why we can be: the gospel is power, and the righteousness of God comes by faith. The right application is to let that truth steady us when the message seems small or the culture despises it. It is also a warning not to reverse the order, treating faith as one more work by which righteousness is earned. The righteousness is God's, and faith is how it is received.",
       "debates": [
         {
           "question": "What does the righteousness of God mean in verse 17?",
           "views": [
-            { "label": "A gift of right standing from God", "case": "The Reformation reading takes it as the righteous status God graciously gives and credits to believers in Christ, received by faith apart from works; this fits the flow into chapters 3 and 4 and the Habakkuk citation." },
-            { "label": "God's own saving activity or covenant faithfulness", "case": "Others stress it as God's own righteousness in acting to save and keep His promises; rightly held, this is not opposed to the gift but names the God who justifies, though it must not eclipse the imputed standing given to the believer." }
+            {
+              "label": "A gift of right standing from God",
+              "case": "The Reformation reading takes it as the righteous status God graciously gives and credits to believers in Christ, received by faith apart from works; this fits the flow into chapters 3 and 4 and the Habakkuk citation."
+            },
+            {
+              "label": "God's own saving activity or covenant faithfulness",
+              "case": "Others stress it as God's own righteousness in acting to save and keep His promises; rightly held, this is not opposed to the gift but names the God who justifies, though it must not eclipse the imputed standing given to the believer."
+            }
           ],
           "bearing": "The historic evangelical reading safeguards the good news that guilty sinners are declared righteous as a gift received by faith; God's saving faithfulness and the gift of right standing meet in the justification of the ungodly."
         },
         {
           "question": "What does from faith to faith, or by faith from start to finish, mean?",
           "views": [
-            { "label": "Faith from first to last", "case": "The phrase stresses that the whole of salvation, its beginning and its continuance, is by faith and nothing else; righteousness is received by faith and lived out by faith." },
-            { "label": "From God's faithfulness to human faith", "case": "Some read it as moving from God's faithfulness to the answering faith of the believer; this captures a true dynamic but the emphasis in context falls on faith as the sole means of receiving righteousness." }
+            {
+              "label": "Faith from first to last",
+              "case": "The phrase stresses that the whole of salvation, its beginning and its continuance, is by faith and nothing else; righteousness is received by faith and lived out by faith."
+            },
+            {
+              "label": "From God's faithfulness to human faith",
+              "case": "Some read it as moving from God's faithfulness to the answering faith of the believer; this captures a true dynamic but the emphasis in context falls on faith as the sole means of receiving righteousness."
+            }
           ],
           "bearing": "Either way the point stands: faith, not works, is the means from beginning to end, which is exactly why Paul can quote Habakkuk that the righteous will live by faith."
+        },
+        {
+          "question": "Does the Habakkuk quotation mean 'the righteous person will live by faith' or 'the one who is righteous by faith will live'?",
+          "views": [
+            {
+              "label": "The righteous will live by faith",
+              "case": "This is how the BSB and most translations render it, and it is the most natural way to read the Hebrew of Habakkuk 2:4, where the righteous person is contrasted with the proud and lives by trust in God. On this reading, faith is the way a righteous person lives, and righteousness is already assumed."
+            },
+            {
+              "label": "The one righteous by faith will live",
+              "case": "Others argue that Paul's argument in Romans requires the other order: the person made righteous through faith is the one who receives life. They note that the whole letter is concerned with how a person becomes righteous, and that Galatians 3:11 uses the verse to show that justification is by faith, not by law."
+            }
+          ],
+          "bearing": "The grammar allows both, and the two readings are not far apart. Faith is the way into the righteousness God gives and also the way of life that follows. Paul's thesis is that both the start and the continuance of the life God gives are by faith, which is exactly what 'from start to finish' says."
+        },
+        {
+          "question": "Does the Habakkuk quotation mean 'the righteous person will live by faith' or 'the one who is righteous by faith will live'?",
+          "views": [
+            {
+              "label": "The righteous will live by faith",
+              "case": "This is how the BSB and most translations render it, and it is the most natural way to read the Hebrew of Habakkuk 2:4, where the righteous person is contrasted with the proud and lives by trust in God. On this reading, faith is the way a righteous person lives, and righteousness is already assumed."
+            },
+            {
+              "label": "The one righteous by faith will live",
+              "case": "Others argue that Paul's argument in Romans requires the other order: the person made righteous through faith is the one who receives life. They note that the whole letter is concerned with how a person becomes righteous, and that Galatians 3:11 uses the verse to show that justification is by faith, not by law."
+            }
+          ],
+          "bearing": "The grammar allows both, and the two readings are not far apart. Faith is the way into the righteousness God gives and also the way of life that follows. Paul's thesis is that both the start and the continuance of the life God gives are by faith, which is exactly what 'from start to finish' says."
         }
       ]
     },
-    "originalLanguages": "The thesis gathers up the vocabulary that will drive the letter. Paul is unashamed of the euangelion, the good news of Christ, because it is the dynamis, the effective power, of God unto soteria, a full and final salvation, for everyone who believes. In this gospel the dikaiosyne, the righteousness of God, both His saving justice and the standing He gives, is revealed and granted by pistis, faith, from faith to faith. The Habakkuk citation crowns the terms: the one who is righteous, righteous by faith, will live.",
+    "originalLanguages": "The word 'I long,' epipotheo in verse 11, is the verb of strong desire, and Paul uses it of his yearning for the churches in other letters. The gift he wants to share is a charisma pneumatikon, a spiritual gift, from the same root as charis, grace. He is not promising a miracle but some Spirit-given strengthening, and verse 12 quickly adds that the strengthening will be mutual. The verb there is built on parakaleo, to encourage or comfort, with the prefix meaning 'together,' so that the Romans and Paul would be encouraged side by side.\n\nIn verse 14 Paul says he is opheiletes, a debtor. The same family of words appears in Romans 15:27 for the Gentiles' obligation to the poor in Jerusalem, and in the Lord's Prayer for debts. Paul is not saying the Romans have lent him something. He means that the gospel was given to him for them, so that withholding it would be a debt unpaid. The word 'eager,' prothymos, in verse 15, is literally 'forward in spirit,' a ready willingness.\n\nVerse 16 begins with a negative verb, epaischynomai, 'I am not ashamed.' The shame vocabulary is a biblical one: the Psalms pray not to be put to shame, Psalm 25:2 and 71:1, and Paul will later quote Isaiah 28:16 that the one who believes in the stone will not be put to shame, Romans 9:33 and 10:11. To be unashamed is to have a trust that is not disappointed.\n\nThe word 'power' is dynamis, the ordinary Greek word for effective ability, and Paul says the same of the cross in 1 Corinthians 1:18, where 'the message of the cross' is 'the power of God.' The gospel is not about power; it is power, an event in which God acts. 'Salvation,' soteria, covers rescue, healing and wholeness, and is used for both present deliverance and final salvation. The participle 'everyone who believes' is present, pisteuonti, picturing continuing trust, not a single moment of assent, though it includes the first.\n\nThe phrase 'first to the Jew, then to the Greek' uses the adverb proton, 'first,' which Paul uses again in Romans 2:9 and 10 and 3:2 of Israel's priority in privilege and responsibility. It is a priority of order, not of worth, and Acts 13:46 shows it in practice.\n\nThe hardest phrase is dikaiosyne theou, 'righteousness of God.' The Greek genitive can mean a righteousness that belongs to God, a righteousness that God gives, or a righteousness that God performs in saving. The verb 'is revealed' is a present passive of apokalypto, and the same verb appears at the start of verse 18, 'the wrath of God is being revealed.' Righteousness and wrath are both being unveiled in the gospel's proclamation. Finally, 'from faith to faith,' ek pisteos eis pistin, is a compressed expression that the BSB footnote gives literally. Paul quotes Habakkuk without the pronoun that appears in the Hebrew, 'his faith,' and in some forms of the Greek Old Testament, 'my faith,' so that the quotation stands open to both trust and faithfulness.",
     "typology": [
-      { "type": "The righteous who live by faith", "fulfillment": "Habakkuk's word to a people awaiting judgment is fulfilled in the gospel age, where all who believe, Jew and Greek, are justified and given life by faith in Christ, Habakkuk 2:4." },
-      { "type": "The Jew first and also the Greek", "fulfillment": "The ancient pattern of salvation coming to Israel and then to the nations is fulfilled as the gospel goes out from Israel's Messiah to everyone who believes, without distinction." },
-      { "type": "The power of God to save", "fulfillment": "The saving might God displayed in the exodus and the return from exile is surpassed in the gospel, the power of God for a salvation that reaches the whole person and the whole world." }
+      {
+        "type": "The righteous who live by faith, Habakkuk 2:4",
+        "fulfillment": "In Habakkuk the line sets the trusting righteous against the proud, in a time of Babylon's threat and a vision that tarries, Habakkuk 2:3. The Old Testament believers lived by trust in a promise not yet seen. In Paul, the same line carries the whole gospel, because the promise has now been kept in Christ and the faith that clings to it receives the righteousness of God. Hebrews 10:37 to 39 takes the line the other way, as a summons to endure until the coming one arrives. The type is fulfilled because the waiting people of Habakkuk become the justified people of the gospel, but it still looks forward to the final coming."
+      },
+      {
+        "type": "Abraham, the man who believed God",
+        "fulfillment": "Abraham 'believed God, and it was credited to him as righteousness,' Genesis 15:6, and Paul says this happened before circumcision, so that he is 'the father of all who believe but are not circumcised,' Romans 4:11. Abraham is therefore a type of the believer, not of the worker. The escalation is that Abraham trusted a promise of a son, while Christians trust the Son who has been given, 'delivered over to death for our trespasses and raised to life for our justification,' Romans 4:25. The type falls short in that Abraham's faith pointed ahead to what he could not see, where ours rests on what has happened."
+      },
+      {
+        "type": "The salvation of the LORD at the Red Sea",
+        "fulfillment": "Israel was told at the sea, 'Stand firm and you will see the LORD's salvation,' Exodus 14:13, and sang that the LORD 'has become my salvation,' Exodus 15:2. The exodus is the model of divine rescue in the Old Testament, and Isaiah draws on it for the return from exile, Isaiah 12:2. Paul says the gospel is 'the power of God for salvation,' and places a greater rescue in a greater event, the cross and resurrection. The type falls short because Israel was saved from Pharaoh's army and into a wilderness, while believers are saved from the wrath of God, Romans 5:9, and brought into a lasting peace, Romans 5:1."
+      },
+      {
+        "type": "The stone laid in Zion",
+        "fulfillment": "Isaiah 28:16 says the one who believes in the tested cornerstone laid in Zion 'will never be shaken,' and Paul reads that verse as meaning that the one who believes in Him 'will never be put to shame,' Romans 9:33 and 10:11. The foundation is Christ, and the 'not ashamed' of Romans 1:16 is the believer's confidence in it. The stone is also a stone of stumbling, for Israel did not trust it, Romans 9:32 and 33. The type is only partly typological, since Paul cites the verse directly, but it shows how the gospel's promise of an unshaken confidence rests on a person."
+      }
     ],
-    "christ": "Though Christ is not named in every line, He is everywhere present. Paul thanks God through Jesus Christ and serves in preaching the gospel of God's Son. The gospel that is the power of God is the message of the crucified and risen Christ. The righteousness of God revealed and given is the righteousness won by Christ and reckoned to all who trust Him. To live by faith is to live by faith in Him, the one in whom Habakkuk's promise comes true.",
-    "god": "The passage is saturated with God. Paul thanks his God, serves God with his spirit, submits his plans to God's will, and preaches a gospel that is the power of God revealing the righteousness of God. Salvation is God's own initiative and accomplishment, offered freely to everyone who believes. The God who kept His word to Habakkuk now reveals His righteousness and saves a people from every nation by faith.",
+    "christ": "The passage is brief on the name of Jesus, but every phrase of it is shaped by Him. Paul thanks God 'through Jesus Christ,' verse 8, so the very thanksgiving rises through a mediator. He serves God 'in preaching the gospel of His Son,' verse 9, where the gospel is not about general religion but about a person. And the gospel in verse 16 is 'the gospel of Christ' in the sense that it is about Him, the content of the power of God.\n\nThe power of God is Christ crucified. Paul says plainly in 1 Corinthians 1:23 and 24 that 'we preach Christ crucified, a stumbling block to Jews and foolishness to Gentiles, but to those who are called, both Jews and Greeks, Christ the power of God and the wisdom of God.' When he says in Romans 1:16 that the gospel is God's power for salvation, he is referring to this event. The same event that the world regards as shameful is the place where God's strength is most fully displayed.\n\nThe righteousness of God revealed in the gospel is the righteousness Christ secures. Romans 3:25 and 26 explains how God can be both just and the one who justifies: He 'presented Him as the atoning sacrifice through faith in His blood, in order to demonstrate His righteousness.' The Servant of Isaiah 53:11 'will justify many,' and 2 Corinthians 5:21 says that God made Him who knew no sin to be sin for us 'so that in Him we might become the righteousness of God.' Paul testifies to the same truth personally in Philippians 3:9, where he wants to be found in Christ, 'not having my own righteousness from the law, but that which is through faith in Christ.' The believer is not righteous because of his own record but because he is united to the One whose obedience counts for the many, Romans 5:19.\n\nChrist is also the end of the law as a way of righteousness: 'Christ is the end of the law, to bring righteousness to everyone who believes,' Romans 10:4. This is not to say that the law was bad, but that it pointed to Him, and in Him its purpose is met.\n\nThe coming one of Habakkuk 2:3 and Hebrews 10:37 is also a pointer. The vision that lingered and would not delay was waiting for a person. The Christian reading of Habakkuk's word is that the righteous live by faith in the one who has come and will come again.\n\nIt is wise not to read too much into the verse itself. The text does not mention the cross by name, and Paul's argument builds step by step. What it gives is the headline of the gospel: the saving power of God has a human face, and faith is the way people are joined to Him.",
+    "god": "The passage opens with a God who is addressed personally: 'my God,' verse 8. He is also the one whom Paul serves with his spirit, the witness of his prayers, and the one by whose will his travel plans are decided, verses 9 and 10. God is not a distant principle but a Person who hears prayer, directs a man's path and knows the secret motives of his heart. Paul can call Him as witness to how constantly he remembers the Romans, and this is the kind of intimacy of a servant with a master he trusts.\n\nThe God of the passage is the God who orders the plans of His servants in ways they do not expect. Paul asks 'now at last by God's will' to come to Rome, and the way that prayer is answered, as the end of Acts shows, is by a Roman prison escort. God does not refuse the request. He fulfils it in His own way and time. Romans 15:30 to 32 shows Paul praying for the same journey and for rescue from enemies in Judea, and still asking that 'by God's will' he may come.\n\nThe God of the thesis is the God of power. The gospel is not merely a message about power; it is God's own power at work to save. This power is not displayed in force but in the cross, 1 Corinthians 1:18 and 24, and it is effective for everyone who believes. Salvation is God's work from start to finish. The one who believes is not the author of his salvation but its recipient.\n\nHe is the God of righteousness, and Paul's claim is that this righteousness is being revealed. The Old Testament had already said that God's righteousness and salvation go together, Isaiah 51:5 and 6 and Psalm 98:2. In Romans the revelation takes a surprising form: God's own righteousness is the thing He gives, so that the one who stands before Him is not condemned but justified. Romans 3:26 says God is 'just and the one who justifies,' and the gospel is the news that His justice and His mercy do not compete. They meet in Christ.\n\nHe is the God of faithfulness, and the Habakkuk quotation points to a God who keeps His word to those who wait. The vision 'will surely come and will not delay,' Habakkuk 2:3. Believers live by faith because the One they trust is trustworthy.\n\nHe is also a God of all peoples. 'First to the Jew, then to the Greek' keeps His promises to Israel while opening the gospel to everyone. Paul is indebted to 'Greeks and non-Greeks, the wise and the foolish,' because the God he serves has no favourites in the offer of salvation.\n\nFor worship, the passage teaches thanksgiving as the first act of the church: 'First, I thank my God.' It also teaches boldness without arrogance, because the power belongs to God and not to the one who preaches.",
     "crossReferences": [
-      { "ref": "Habakkuk 2:4", "note": "The prophetic word Paul quotes: the righteous will live by faith, the seed of the whole doctrine of justification." },
-      { "ref": "1 Corinthians 1:18", "note": "The message of the cross is the power of God to those being saved, echoing the gospel as the power of God here." },
-      { "ref": "Romans 3:21-26", "note": "The righteousness of God now revealed apart from law, through faith in Jesus Christ, for all who believe." },
-      { "ref": "Romans 10:11-13", "note": "No distinction between Jew and Greek; everyone who calls on the name of the Lord will be saved, unfolding first to the Jew, then to the Greek." }
+      {
+        "ref": "Habakkuk 2:1-4",
+        "note": "The prophet stands at his post waiting for God's answer. He is told to write the vision and wait, because it will surely come. The righteous will live by faith, in contrast to the proud. Paul takes the line out of a time of waiting and shows its fullest meaning in the gospel that has now come."
+      },
+      {
+        "ref": "Galatians 3:11",
+        "note": "Paul uses the same Habakkuk text to prove that no one is justified before God by the law. It shows that Romans 1:17 is not an isolated use. For Paul the line is a settled proof text for justification by faith."
+      },
+      {
+        "ref": "Hebrews 10:37-39",
+        "note": "The writer to the Hebrews also quotes Habakkuk, joining it to the promise that the coming one will not delay, and uses it to urge endurance. It shows a second New Testament use of the text, with the accent on persevering in faith rather than on how righteousness is received."
+      },
+      {
+        "ref": "1 Corinthians 1:18-24",
+        "note": "The message of the cross looks like foolishness to those who are perishing, but to those who are called it is the power of God. It explains what Paul means in Romans 1:16 and why he must say he is not ashamed of a message the world regards with contempt."
+      },
+      {
+        "ref": "Romans 3:21-26",
+        "note": "The righteousness of God, revealed apart from law and attested by the Law and the Prophets, comes through faith in Jesus Christ to all who believe. It is the first full unpacking of Romans 1:17, and it ends by saying that God is just and the one who justifies."
+      },
+      {
+        "ref": "Psalm 98:1-3",
+        "note": "The LORD has proclaimed His salvation and revealed His righteousness to the nations. The verb of revealing and the pairing of salvation and righteousness are exactly Paul's terms. The psalm shows that the gospel's content was already a theme of Israel's praise."
+      },
+      {
+        "ref": "Isaiah 51:5-8",
+        "note": "God says that His righteousness draws near and His salvation is on the way, and that these will last forever. The righteousness here is not a verdict of condemnation but a saving act. It is a close background to the way Paul uses the phrase 'righteousness of God.'"
+      },
+      {
+        "ref": "Genesis 15:6",
+        "note": "Abraham believed the LORD, and it was credited to him as righteousness. Romans 4 will expound this verse as the pattern of justification by faith, and so it lies beneath the quotation of Habakkuk and the whole thesis of Romans 1:17."
+      },
+      {
+        "ref": "Romans 10:9-13",
+        "note": "Confessing Jesus as Lord and believing that God raised Him brings salvation, with no difference between Jew and Greek. It repeats the 'everyone who believes' of Romans 1:16 and develops its universal scope."
+      },
+      {
+        "ref": "Philippians 3:8-9",
+        "note": "Paul counts all things loss for the sake of Christ, wanting to be found in Him with the righteousness from God on the basis of faith. It is Paul's own testimony to the righteousness of God that Romans 1:17 announces."
+      },
+      {
+        "ref": "Romans 15:22-24",
+        "note": "Paul explains that he has often been hindered from coming and hopes to see the Romans on his way to Spain. It clarifies the plans and delays mentioned in Romans 1:10 and 13 and shows the mission that lies behind the letter."
+      },
+      {
+        "ref": "2 Timothy 1:8-12",
+        "note": "Paul tells Timothy not to be ashamed of the testimony of the Lord or of him, and says that he himself is not ashamed, for he knows whom he has believed. It shows the 'not ashamed' of Romans 1:16 tested in a prison."
+      }
     ],
-    "oneStory": "Scripture had promised a righteousness that God Himself would provide and a salvation that would reach the nations. Here that promise breaks into the open. The gospel of God's Son is the power of God to save everyone who believes, and in it the righteousness of God is revealed and given by faith. Habakkuk's word to a waiting people becomes the charter of the church: the righteous will live by faith, Jew first and also Greek, until the whole world hears.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "The Bible's story is the story of a righteousness that humanity lost and could not recover. In the beginning the man and the woman stood before God in the right, and Genesis 3 shows them hiding. From then on the question running through Scripture is how a guilty people can stand before a holy God. The Law shows what righteousness requires, Leviticus 18:5, but cannot produce it, Galatians 3:12. The prophets promised that God Himself would bring His righteousness near, Isaiah 46:13, and that a righteous Servant would justify many, Isaiah 53:11.\n\nAbraham stands at the start of that answer. God credited his faith to him as righteousness, Genesis 15:6, years before the law was given, and that is why Paul can say the gospel was foretold to Abraham, Galatians 3:8. The long waiting of the prophets is the waiting of Habakkuk's watchman, Habakkuk 2:1 to 3, and the faith that endured was the faith of the righteous who lived by what God had said.\n\nRomans 1:16 and 17 are where the waiting ends. The gospel is the power of God at work, and the righteousness the Old Testament promised is now revealed and given to everyone who believes. The Gentiles, who did not pursue righteousness, obtain it, Romans 9:30, and the Jews have the first claim and the first invitation. Paul's debt to Greeks and non-Greeks is the fulfilment of the promise that all nations would be blessed.\n\nThe passage also reaches toward the end. 'Righteousness' in Romans is not only a verdict for today but a status that will be completed: 'those He justified, He also glorified,' Romans 8:30. The 'shame' that believers refuse is the opposite of the glory they will receive. The multitude from every nation that stands before the throne cries 'Salvation to our God,' Revelation 7:9 and 10, and that cry is the song of those who lived by faith and were not put to shame. The two verses at the heart of this passage are the hinge between a story of loss and a story of home.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "Why does Paul say he is not ashamed of the gospel?",
       "options": [
-        { "text": "Because it is the power of God for salvation to everyone who believes.", "weight": 100, "note": "This is Paul's own stated reason in verse 16, the thesis of the letter." },
-        { "text": "Because in it the righteousness of God is revealed and received by faith.", "weight": 75, "note": "True and closely related: verse 17 gives this as a further reason, though verse 16's stated ground is that the gospel is God's saving power." },
-        { "text": "Because it is a wise philosophy that impresses the educated.", "weight": 25, "note": "Paul preaches to wise and foolish alike, but the gospel's worth is its saving power, not its cleverness." },
-        { "text": "Because Rome respected new religions.", "weight": 0, "note": "Paul's confidence is in God's power in the gospel, not in Roman tolerance." }
+        {
+          "text": "Because it is the power of God for salvation to everyone who believes.",
+          "weight": 100,
+          "note": "This is Paul's own stated reason in verse 16, the thesis of the letter."
+        },
+        {
+          "text": "Because in it the righteousness of God is revealed and received by faith.",
+          "weight": 75,
+          "note": "True and closely related: verse 17 gives this as a further reason, though verse 16's stated ground is that the gospel is God's saving power."
+        },
+        {
+          "text": "Because it is a wise philosophy that impresses the educated.",
+          "weight": 25,
+          "note": "Paul preaches to wise and foolish alike, but the gospel's worth is its saving power, not its cleverness."
+        },
+        {
+          "text": "Because Rome respected new religions.",
+          "weight": 0,
+          "note": "Paul's confidence is in God's power in the gospel, not in Roman tolerance."
+        }
       ]
     },
     {
       "q": "What is revealed in the gospel according to verse 17?",
       "options": [
-        { "text": "The righteousness of God, received by faith from first to last.", "weight": 100, "note": "Paul says the gospel reveals the righteousness of God that comes by faith, from faith to faith." },
-        { "text": "God's own saving activity and covenant faithfulness.", "weight": 75, "note": "This names a real dimension of the righteousness of God, but must not eclipse the gift of right standing received by faith." },
-        { "text": "A new law to be obeyed for acceptance.", "weight": 25, "note": "The gospel reveals a righteousness received by faith, not a law that justifies by works." },
-        { "text": "Hidden knowledge available only to the elite.", "weight": 0, "note": "It is openly revealed to everyone who believes, not secret knowledge for a few." }
+        {
+          "text": "The righteousness of God, received by faith from first to last.",
+          "weight": 100,
+          "note": "Paul says the gospel reveals the righteousness of God that comes by faith, from faith to faith."
+        },
+        {
+          "text": "God's own saving activity and covenant faithfulness.",
+          "weight": 75,
+          "note": "This names a real dimension of the righteousness of God, but must not eclipse the gift of right standing received by faith."
+        },
+        {
+          "text": "A new law to be obeyed for acceptance.",
+          "weight": 25,
+          "note": "The gospel reveals a righteousness received by faith, not a law that justifies by works."
+        },
+        {
+          "text": "Hidden knowledge available only to the elite.",
+          "weight": 0,
+          "note": "It is openly revealed to everyone who believes, not secret knowledge for a few."
+        }
       ]
     },
     {
       "q": "What Old Testament text does Paul quote to seal his theme?",
       "options": [
-        { "text": "Habakkuk 2:4, the righteous will live by faith.", "weight": 100, "note": "Paul cites Habakkuk to ground justification by faith in Scripture." },
-        { "text": "Genesis 15:6, Abraham believed God, quoted later in chapter 4.", "weight": 75, "note": "Closely related, and Paul does use it for justification by faith in chapter 4, but here the quotation is from Habakkuk 2:4." },
-        { "text": "Leviticus 18:5, do this and live.", "weight": 25, "note": "That text speaks of life by doing; Paul instead quotes Habakkuk on life by faith." },
-        { "text": "Deuteronomy 6:4, the Lord is one.", "weight": 0, "note": "The Shema is not in view here; Paul quotes Habakkuk 2:4." }
+        {
+          "text": "Habakkuk 2:4, the righteous will live by faith.",
+          "weight": 100,
+          "note": "Paul cites Habakkuk to ground justification by faith in Scripture."
+        },
+        {
+          "text": "Genesis 15:6, Abraham believed God, quoted later in chapter 4.",
+          "weight": 75,
+          "note": "Closely related, and Paul does use it for justification by faith in chapter 4, but here the quotation is from Habakkuk 2:4."
+        },
+        {
+          "text": "Leviticus 18:5, do this and live.",
+          "weight": 25,
+          "note": "That text speaks of life by doing; Paul instead quotes Habakkuk on life by faith."
+        },
+        {
+          "text": "Deuteronomy 6:4, the Lord is one.",
+          "weight": 0,
+          "note": "The Shema is not in view here; Paul quotes Habakkuk 2:4."
+        }
       ]
     },
     {
       "q": "To whom does the gospel bring salvation, and in what order?",
       "options": [
-        { "text": "To everyone who believes, first to the Jew, then to the Greek.", "weight": 100, "note": "Paul states salvation is for all who believe, with a historical priority for the Jew." },
-        { "text": "Only to Jews, since salvation belongs to Israel alone.", "weight": 75, "note": "This rightly catches the priority first to the Jew, but the gospel is expressly for the Greek too, for everyone who believes." },
-        { "text": "Only to Gentiles, since Israel had rejected the gospel.", "weight": 25, "note": "The gospel is for the Greek, but Paul insists it is first to the Jew, not Gentiles only." },
-        { "text": "To everyone automatically, whether they believe or not.", "weight": 0, "note": "Salvation is for everyone who believes; faith is the necessary means." }
+        {
+          "text": "To everyone who believes, first to the Jew, then to the Greek.",
+          "weight": 100,
+          "note": "Paul states salvation is for all who believe, with a historical priority for the Jew."
+        },
+        {
+          "text": "Only to Jews, since salvation belongs to Israel alone.",
+          "weight": 75,
+          "note": "This rightly catches the priority first to the Jew, but the gospel is expressly for the Greek too, for everyone who believes."
+        },
+        {
+          "text": "Only to Gentiles, since Israel had rejected the gospel.",
+          "weight": 25,
+          "note": "The gospel is for the Greek, but Paul insists it is first to the Jew, not Gentiles only."
+        },
+        {
+          "text": "To everyone automatically, whether they believe or not.",
+          "weight": 0,
+          "note": "Salvation is for everyone who believes; faith is the necessary means."
+        }
       ]
     },
     {
       "q": "Why had Paul not yet come to Rome?",
       "options": [
-        { "text": "He had often planned to come but had been prevented until now.", "weight": 100, "note": "Paul says he planned to come many times but was hindered until now." },
-        { "text": "He had been occupied completing his missionary work in the eastern regions.", "weight": 75, "note": "Essentially right: Romans 15 says his work in the east had kept him, which is what he means by being prevented until now." },
-        { "text": "He was waiting until the church there grew larger.", "weight": 25, "note": "He wanted a harvest among them, but the church's size was not the reason for his delay." },
-        { "text": "He was ashamed to preach in the capital.", "weight": 0, "note": "He explicitly says he is eager to preach the gospel in Rome and is not ashamed of it." }
+        {
+          "text": "He had often planned to come but had been prevented until now.",
+          "weight": 100,
+          "note": "Paul says he planned to come many times but was hindered until now."
+        },
+        {
+          "text": "He had been occupied completing his missionary work in the eastern regions.",
+          "weight": 75,
+          "note": "Essentially right: Romans 15 says his work in the east had kept him, which is what he means by being prevented until now."
+        },
+        {
+          "text": "He was waiting until the church there grew larger.",
+          "weight": 25,
+          "note": "He wanted a harvest among them, but the church's size was not the reason for his delay."
+        },
+        {
+          "text": "He was ashamed to preach in the capital.",
+          "weight": 0,
+          "note": "He explicitly says he is eager to preach the gospel in Rome and is not ashamed of it."
+        }
       ]
     }
   ],
@@ -164,9 +412,21 @@
     "The gospel is for everyone who believes, without distinction. How should the fact that God saves Jew and Greek alike shape the way you regard people unlike yourself?"
   ],
   "translationNotes": [
-    { "ref": "Romans 1:17", "note": "The phrase rendered that comes by faith from start to finish translates a Greek expression, from faith to faith, which the footnote gives as for in it is revealed the righteousness of God from faith to faith. The sense is that righteousness is received by faith from beginning to end." },
-    { "ref": "Romans 1:17", "note": "The quotation the righteous will live by faith is from Habakkuk 2:4. The same text is cited in Galatians 3:11 and Hebrews 10:38, and became a watchword of the Reformation's recovery of justification by faith." },
-    { "ref": "Romans 1:14", "note": "Greeks and non-Greeks renders a phrase that is literally to Greeks and barbarians, meaning the whole of humanity, both the cultured and those outside Greek culture; Paul owes the gospel to all alike." }
+    {
+      "ref": "Romans 1:17",
+      "note": "The phrase rendered that comes by faith from start to finish translates a Greek expression, from faith to faith, which the footnote gives as for in it is revealed the righteousness of God from faith to faith. The sense is that righteousness is received by faith from beginning to end."
+    },
+    {
+      "ref": "Romans 1:17",
+      "note": "The quotation the righteous will live by faith is from Habakkuk 2:4. The same text is cited in Galatians 3:11 and Hebrews 10:38, and became a watchword of the Reformation's recovery of justification by faith."
+    },
+    {
+      "ref": "Romans 1:14",
+      "note": "Greeks and non-Greeks renders a phrase that is literally to Greeks and barbarians, meaning the whole of humanity, both the cultured and those outside Greek culture; Paul owes the gospel to all alike."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched this session from bible.helloao.org for Romans 1:8-17. Footnote markers and inline note objects were skipped when building verse text; line breaks were treated as spaces. Sermon left as none; no expositor sermon URL verified this session." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched this session from bible.helloao.org for Romans 1:8-17. Footnote markers and inline note objects were skipped when building verse text; line breaks were treated as spaces. Sermon left as none; no expositor sermon URL verified this session."
+  }
 }

@@ -18,8 +18,16 @@
         "note": "no neutral freedom, either sin or obedience",
         "emphasis": "",
         "verses": [
-          { "chapter": 6, "n": 15, "text": "What then? Shall we sin because we are not under law, but under grace? Certainly not!" },
-          { "chapter": 6, "n": 16, "text": "Do you not know that when you offer yourselves as obedient {{doulos|slaves}}, you are slaves to the one you obey, whether you are slaves to sin leading to death, or to obedience leading to righteousness?" }
+          {
+            "chapter": 6,
+            "n": 15,
+            "text": "What then? Shall we sin because we are not under law, but under grace? Certainly not!"
+          },
+          {
+            "chapter": 6,
+            "n": 16,
+            "text": "Do you not know that when you offer yourselves as obedient {{doulos|slaves}}, you are slaves to the one you obey, whether you are slaves to sin leading to death, or to obedience leading to righteousness?"
+          }
         ]
       },
       {
@@ -27,9 +35,21 @@
         "note": "the great exchange of masters",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 6, "n": 17, "text": "But thanks be to God that, though you once were slaves to sin, you wholeheartedly obeyed the form of teaching to which you were committed." },
-          { "chapter": 6, "n": 18, "text": "You have been set free from {{hamartia|sin}} and have become slaves to righteousness." },
-          { "chapter": 6, "n": 19, "text": "I am speaking in human terms because of the weakness of your flesh. Just as you used to offer the parts of your body in slavery to impurity and to escalating wickedness, so now offer them in slavery to righteousness leading to holiness." }
+          {
+            "chapter": 6,
+            "n": 17,
+            "text": "But thanks be to God that, though you once were slaves to sin, you wholeheartedly obeyed the form of teaching to which you were committed."
+          },
+          {
+            "chapter": 6,
+            "n": 18,
+            "text": "You have been set free from {{hamartia|sin}} and have become slaves to righteousness."
+          },
+          {
+            "chapter": 6,
+            "n": 19,
+            "text": "I am speaking in human terms because of the weakness of your flesh. Just as you used to offer the parts of your body in slavery to impurity and to escalating wickedness, so now offer them in slavery to righteousness leading to holiness."
+          }
         ]
       },
       {
@@ -37,20 +57,61 @@
         "note": "the wages of sin, the gift of God",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 6, "n": 20, "text": "For when you were slaves to sin, you were free of obligation to righteousness." },
-          { "chapter": 6, "n": 21, "text": "What fruit did you reap at that time from the things of which you are now ashamed? The outcome of those things is death." },
-          { "chapter": 6, "n": 22, "text": "But now that you have been set free from sin and have become slaves to God, the fruit you reap leads to {{hagiasmos|holiness}}, and the outcome is eternal life." },
-          { "chapter": 6, "n": 23, "text": "For the {{opsonion|wages}} of sin is death, but the {{charisma|gift}} of God is eternal life in Christ Jesus our Lord." }
+          {
+            "chapter": 6,
+            "n": 20,
+            "text": "For when you were slaves to sin, you were free of obligation to righteousness."
+          },
+          {
+            "chapter": 6,
+            "n": 21,
+            "text": "What fruit did you reap at that time from the things of which you are now ashamed? The outcome of those things is death."
+          },
+          {
+            "chapter": 6,
+            "n": 22,
+            "text": "But now that you have been set free from sin and have become slaves to God, the fruit you reap leads to {{hagiasmos|holiness}}, and the outcome is eternal life."
+          },
+          {
+            "chapter": 6,
+            "n": 23,
+            "text": "For the {{opsonion|wages}} of sin is death, but the {{charisma|gift}} of God is eternal life in Christ Jesus our Lord."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "doulos": { "language": "Greek", "lemma": "doulos", "original": "δοῦλος", "gloss": "A slave or bondservant, one wholly owned by another and bound to obey. Paul uses this stark image to show there is no neutral autonomy: a person belongs either to sin or to God. To be enslaved is to be owned, directed, and answerable to a master, and the whole question is which master one serves and where that service leads." },
-    "hamartia": { "language": "Greek", "lemma": "hamartia", "original": "ἁμαρτία", "gloss": "Sin, portrayed by Paul as a slave master who owns and rules those under it. To have been set free from sin is to have been released from that ownership and transferred to a new master. Sin is not a light habit but a tyrant that claims obedience and pays its wage in death." },
-    "hagiasmos": { "language": "Greek", "lemma": "hagiasmos", "original": "ἁγιασμός", "gloss": "Sanctification or holiness, the process and state of being set apart for God and progressively conformed to His will. It is the fruit that grows from the new slavery to righteousness. Holiness is not the ground of acceptance but the harvest of a life now owned by God, and its end is eternal life." },
-    "opsonion": { "language": "Greek", "lemma": "opsonion", "original": "ὀψώνιον", "gloss": "Wages, the pay given to a soldier for service rendered. Paul says the wages of sin is death: death is what sin duly earns and pays out, a just recompense owed for service to sin. The word underlines that death is not an accident but the settled wage that sin's slavery deserves." },
-    "charisma": { "language": "Greek", "lemma": "charisma", "original": "χάρισμα", "gloss": "A free gift, a gift of grace. Paul deliberately contrasts it with wages: eternal life is not earned like a wage but given freely, out of God's grace, in Christ Jesus. Where sin pays what is owed, God gives what could never be deserved, and the gift is life without end in His Son." }
+    "doulos": {
+      "language": "Greek",
+      "lemma": "doulos",
+      "original": "δοῦλος",
+      "gloss": "A slave or bondservant, one wholly owned by another and bound to obey. Paul uses this stark image to show there is no neutral autonomy: a person belongs either to sin or to God. To be enslaved is to be owned, directed, and answerable to a master, and the whole question is which master one serves and where that service leads."
+    },
+    "hamartia": {
+      "language": "Greek",
+      "lemma": "hamartia",
+      "original": "ἁμαρτία",
+      "gloss": "Sin, portrayed by Paul as a slave master who owns and rules those under it. To have been set free from sin is to have been released from that ownership and transferred to a new master. Sin is not a light habit but a tyrant that claims obedience and pays its wage in death."
+    },
+    "hagiasmos": {
+      "language": "Greek",
+      "lemma": "hagiasmos",
+      "original": "ἁγιασμός",
+      "gloss": "Sanctification or holiness, the process and state of being set apart for God and progressively conformed to His will. It is the fruit that grows from the new slavery to righteousness. Holiness is not the ground of acceptance but the harvest of a life now owned by God, and its end is eternal life."
+    },
+    "opsonion": {
+      "language": "Greek",
+      "lemma": "opsonion",
+      "original": "ὀψώνιον",
+      "gloss": "Wages, the pay given to a soldier for service rendered. Paul says the wages of sin is death: death is what sin duly earns and pays out, a just recompense owed for service to sin. The word underlines that death is not an accident but the settled wage that sin's slavery deserves."
+    },
+    "charisma": {
+      "language": "Greek",
+      "lemma": "charisma",
+      "original": "χάρισμα",
+      "gloss": "A free gift, a gift of grace. Paul deliberately contrasts it with wages: eternal life is not earned like a wage but given freely, out of God's grace, in Christ Jesus. Where sin pays what is owed, God gives what could never be deserved, and the gift is life without end in His Son."
+    }
   },
   "study": {
     "basic": {
@@ -64,93 +125,276 @@
       "oneStory": "The Bible tells of a humanity enslaved to sin since Adam, and of a God who redeems slaves for Himself, first from Egypt, finally from sin itself. Here Paul shows the great exchange at the heart of that story: sin pays out death, but God gives the free gift of eternal life in His Son, transferring His people from one master to another forever."
     },
     "context": {
-      "literary": "This section parallels verses 1 to 14, raising the objection again, shall we sin, and answering it, this time under the image of slavery rather than death and resurrection. It moves through a renewed question, an extended metaphor of two masters, a look back at the barren fruit of the old life, and a climactic aphorism in verse 23 that gathers the whole chapter into a single sentence.",
-      "historical": "Slavery was pervasive in the Roman world, so Paul's readers knew exactly what it meant to be owned and bound to obey a master. He draws on that daily reality, while noting he speaks in human terms, to make plain that no one is truly autonomous. The form of teaching to which they were committed likely refers to the pattern of apostolic instruction they received at conversion.",
-      "canonical": "Romans 6:23 is among the most quoted verses in Scripture, a compact statement of the gospel: sin earns death, God gives eternal life in Christ. The chapter as a whole is foundational for the doctrine of sanctification, showing that those justified by grace are freed from sin's mastery and bound to serve righteousness."
+      "literary": "Romans 6 is built as a pair of panels. The first, verses 1 to 14, answers the question 'Shall we continue in sin so that grace may increase?' by pointing to a death and a resurrection. The second, verses 15 to 23, asks nearly the same thing, 'Shall we sin because we are not under law, but under grace?', and the closing clause of verse 14 is the very phrase Paul turns into the new question. The first objection came from grace being large, Romans 5:20. This one comes from grace being free of law. Paul meets them with two different pictures, union with Christ in the first and ownership in the second, so that no one can claim the argument works only if the metaphor works.\n\nInside the second panel the movement is tight. Verse 16 states a general rule in the form of a question that expects the answer yes, the same 'Do you not know' that opens Romans 7:1. Verses 17 and 18 apply it with a thanksgiving, verse 19 gives the chapter's one fresh command, and verses 20 to 22 weigh the two lives side by side with a repeated 'when' and 'now', before verse 23 compresses everything into a single balanced sentence. The shape is a ring: question, rule, then, command, then, rule restated.\n\nNotice what Paul does not say. He does not write that the wages of righteousness is life. The wage is paid to sin; life comes only as 'the gift of God'. Verse 22 speaks of an outcome, but verse 23 takes that outcome and puts it entirely on grace, so the symmetry of the two masters is deliberately broken at the end. The section also belongs to a larger run, for each of chapters 5 to 8 closes on the same title, our Lord Jesus Christ, 5:21, 6:23, 7:25 and 8:39.",
+      "historical": "Paul wrote this letter from Corinth around the middle of the first century, Romans 16:1 and 16:23, to a church he had never visited. The Jews had been ordered out of Rome under Claudius, Acts 18:2, and the Christian community that remained and later regrew was a mixed one of Jews and Gentiles. Many of its members would have known slavery from the inside. Slaves made up a substantial part of the population of the capital, and they worked as household servants, secretaries, craftsmen, managers and labourers. A slave had no standing of his own in law, and his owner had a claim on his time, his body and his obedience.\n\nPaul speaks to that world with some care. Slaves could be freed, but freedmen were often still tied to their former owners by duties and by dependence, so being 'free' did not mean being nobody's. Several names in Romans 16 were common among slaves and freed people, and Paul greets those who belong to the households of Aristobulus and Narcissus, 16:10-11. When he says there is no such thing as a person who obeys no one, his readers could see the truth of it from the street outside.\n\nHe also qualifies his image honestly. 'I am speaking in human terms because of the weakness of your flesh,' verse 19. Roman slavery was largely involuntary and often brutal, and Paul does not endorse it by borrowing its vocabulary. What he borrows is the one fact about it nobody could dispute, that a slave belonged to someone. Among Jewish hearers the word also had a noble use, for the great leaders of Israel were called servants of the LORD, as with Moses in Joshua 1:1, and Paul introduces himself in this very letter as a slave of Christ Jesus, Romans 1:1, a word the BSB renders 'servant'.",
+      "canonical": "The wage of verse 23 reaches back to the first threat in Scripture. 'In the day that you eat of it, you will surely die,' Genesis 2:17, and Ezekiel 18:4 states the principle again, that the one who sins is the one who dies. Deuteronomy 30:15 sets two ways before Israel, life and goodness against death and disaster, and Proverbs 14:12 warns of a path that seems right yet ends in death. Paul's two masters are those two ways given a face.\n\nThe idea of belonging to God is just as old. At the exodus the LORD said of Israel, 'They are My servants, whom I brought out of the land of Egypt,' Leviticus 25:55. Freedom from Pharaoh was freedom for the LORD, not for independence. The law of the Hebrew servant who loves his master and chooses to stay for life, Exodus 21:5-6, is a picture of the glad slavery Paul has in mind.\n\nIn the Gospels Jesus says that 'everyone who sins is a slave to sin' and that the Son can make them free indeed, John 8:34-36, and that no one can serve two masters, Matthew 6:24. Paul uses the same grammar in 1 Corinthians 7:22-23, where the freed man is Christ's slave, and the believer's body is bought at a price, 1 Corinthians 6:20. Galatians 5:13 and 1 Peter 2:16 guard against turning freedom into an excuse, which is exactly the abuse verse 15 imagines, and 2 Peter 2:19 states the rule that a person is a slave to whatever has mastered him. Romans 6:23 itself has become the compact summary of the gospel in countless sermons and tracts, though in Romans its place is more specific, as the closing answer to the charge that grace makes holiness unnecessary."
     },
     "hermeneutics": {
-      "authorIntent": "To answer once more the charge that grace licenses sin, by showing that freedom from law is not freedom for sin but a change of masters: believers have been set free from sin and enslaved to God, and their new service bears the fruit of holiness whose end is eternal life in Christ.",
-      "descriptionVsPrescription": "Paul describes the objective change of ownership that has taken place, once slaves of sin, now slaves of God, and prescribes the fitting response: now offer the parts of your body in slavery to righteousness leading to holiness. The command rests on the accomplished transfer from one master to another.",
+      "authorIntent": "Paul wanted the Roman believers to stop treating the question 'may we sin?' as a puzzle and to see it as a category mistake. Someone who asks it assumes that grace has left them standing in a neutral place, free to choose between obeying and not obeying. Paul's reply is that no such place exists. Every human life is already under a master, so the real question is not whether to serve but whom, and the only choice that remains is the one that has already been made at conversion.\n\nHe also meant them to take comfort from it. The tone of verses 17 and 22 is thanksgiving, not scolding. The past is described as shameful, verse 21, but over and finished, and the new service is described as having a destination, holiness now and eternal life at the end. Paul is giving them a fresh way to read their own lives: the desire to please God is not a burden laid on them from outside, it is what ownership by God feels like from within.\n\nFinally, he wanted to protect the free gift. Having spoken of service and obedience and fruit, he ends by refusing to let any of it turn into a payment. The last word is gift, so that the believer who obeys is never tempted to think of obedience as a way of earning what has already been given.",
+      "descriptionVsPrescription": "Most of the passage is description. Paul is telling the Romans what has happened to them, that they were handed over, set free and made slaves of God, and what the two ways lead to. The single command in the section is verse 19, to offer the parts of the body now in slavery to righteousness, and it rests on what has already been accomplished. Obedience here is a response to a transfer of ownership, not a way of bringing one about.\n\nTwo cautions follow for application today. First, the passage does not recommend human slavery. Paul is explicit that he uses an image, and elsewhere he tells slave owners to treat their slaves justly and calls a runaway slave a brother, Philemon 1:16, so the Bible's own movement is toward the dignity of every person. Second, the passage does not say that every Christian who still sins has no master but sin. Verse 19 itself is a command, which shows that believers can still offer their members to the wrong master. The text describes where ownership lies and calls for consistency with it, which is why the same letter can say both that sin shall not be our master, Romans 6:14, and that we must keep putting sin to death, Romans 8:13.",
       "debates": [
         {
           "question": "Is death in this passage merely physical, or something deeper?",
           "views": [
-            { "label": "The full penalty of sin, culminating in eternal death", "case": "The historic reading takes death as the whole wage of sin, physical and spiritual, ending in eternal separation from God, set in contrast to eternal life; the outcome of sin's slavery is comprehensive ruin." },
-            { "label": "Only bodily death in this life", "case": "Some limit it to physical death; but the deliberate contrast with eternal life shows Paul means far more than the grave, the final and eternal consequence of sin." }
+            {
+              "label": "The full penalty of sin, culminating in eternal death",
+              "case": "The historic reading takes death as the whole wage of sin, physical and spiritual, ending in eternal separation from God, set in contrast to eternal life; the outcome of sin's slavery is comprehensive ruin."
+            },
+            {
+              "label": "Only bodily death in this life",
+              "case": "Some limit it to physical death; but the deliberate contrast with eternal life shows Paul means far more than the grave, the final and eternal consequence of sin."
+            }
           ],
           "bearing": "Reading death as the full and final wage of sin heightens the gospel: what sinners have earned is total ruin, yet God freely gives eternal life in Christ, a gift infinitely beyond anything deserved."
         },
         {
           "question": "How does slavery to God relate to Christian freedom?",
           "views": [
-            { "label": "True freedom is glad slavery to God", "case": "The historic reading holds that being enslaved to God is the only real freedom, for it frees from sin's tyranny and death; freedom and glad service to God are not opposites but the same reality in Christ." },
-            { "label": "Slavery language is only a temporary rhetorical device", "case": "Some treat the slavery image as a concession Paul quickly drops; yet while he does note he speaks in human terms, the reality he describes, being owned by God, is his settled and joyful conviction." }
+            {
+              "label": "True freedom is glad slavery to God",
+              "case": "The historic reading holds that being enslaved to God is the only real freedom, for it frees from sin's tyranny and death; freedom and glad service to God are not opposites but the same reality in Christ."
+            },
+            {
+              "label": "Slavery language is only a temporary rhetorical device",
+              "case": "Some treat the slavery image as a concession Paul quickly drops; yet while he does note he speaks in human terms, the reality he describes, being owned by God, is his settled and joyful conviction."
+            }
           ],
           "bearing": "Seeing freedom as glad service to God guards against both legalism and license: the believer is not autonomous but joyfully belongs to God, and in that belonging finds life rather than the death sin's freedom brings."
+        },
+        {
+          "question": "What is the 'form of teaching' to which the Romans were committed, verse 17?",
+          "views": [
+            {
+              "label": "A mould of apostolic teaching",
+              "case": "The Greek word behind 'form' is typos, a stamp or mould, and the verb behind 'committed' is the one for being handed over. On this reading the gospel teaching is pictured as a pattern into which believers were poured, and the odd grammar, teaching handed over to the believer in the way a slave is handed over to an owner, is deliberate: the teaching has taken charge of them. Paul's own church had not been founded by an apostle, yet he can say they obeyed from the heart what they were given, so he assumes a shared body of basic instruction."
+            },
+            {
+              "label": "The pattern of Christ's death and resurrection",
+              "case": "Others link the form to the story Paul has just told in verses 3 to 11, dying and rising with Christ. Believers were handed over to that pattern in baptism and now live it out. This fits the immediate context, since the chapter is about a death and a new life, but it is less natural for the word 'teaching'."
+            },
+            {
+              "label": "A fixed confession or catechism",
+              "case": "Some take Paul to mean a set form of words, a creed or catechetical summary used when converts were taught. The early church certainly handed on teaching in shaped form, 1 Corinthians 15:3, but nothing here says the wording was fixed."
+            }
+          ],
+          "bearing": "All three readings agree on the thing that matters for the argument: the gospel is not only information to be assented to but a power to which a person is surrendered, and obedience 'from the heart' is the proof that the surrender was real. The word 'wholeheartedly' shows the obedience is not forced labour but the glad compliance of someone whose loyalty has genuinely changed."
+        },
+        {
+          "question": "What is the 'form of teaching' to which the Romans were committed, verse 17?",
+          "views": [
+            {
+              "label": "A mould of apostolic teaching",
+              "case": "The Greek word behind 'form' is typos, a stamp or mould, and the verb behind 'committed' is the one for being handed over. On this reading the gospel teaching is pictured as a pattern into which believers were poured, and the odd grammar, teaching handed over to the believer in the way a slave is handed over to an owner, is deliberate: the teaching has taken charge of them. Paul's own church had not been founded by an apostle, yet he can say they obeyed from the heart what they were given, so he assumes a shared body of basic instruction."
+            },
+            {
+              "label": "The pattern of Christ's death and resurrection",
+              "case": "Others link the form to the story Paul has just told in verses 3 to 11, dying and rising with Christ. Believers were handed over to that pattern in baptism and now live it out. This fits the immediate context, since the chapter is about a death and a new life, but it is less natural for the word 'teaching'."
+            },
+            {
+              "label": "A fixed confession or catechism",
+              "case": "Some take Paul to mean a set form of words, a creed or catechetical summary used when converts were taught. The early church certainly handed on teaching in shaped form, 1 Corinthians 15:3, but nothing here says the wording was fixed."
+            }
+          ],
+          "bearing": "All three readings agree on the thing that matters for the argument: the gospel is not only information to be assented to but a power to which a person is surrendered, and obedience 'from the heart' is the proof that the surrender was real. The word 'wholeheartedly' shows the obedience is not forced labour but the glad compliance of someone whose loyalty has genuinely changed."
         }
       ]
     },
-    "originalLanguages": "The passage is built on the image of the doulos, the slave who is wholly owned and bound to obey; Paul insists there is no third option beyond serving sin or serving God. Believers were once owned by hamartia, sin, but have been set free and transferred to God, and the harvest of this new ownership is hagiasmos, holiness or sanctification, a life progressively set apart for God. The climax turns on two contrasting words: opsonion, the wage that sin earns and pays out, which is death, and charisma, the free gift of God, which could never be earned, eternal life in Christ Jesus our Lord.",
+    "originalLanguages": "Several words in this passage carry more than a single English rendering shows. Start with the verb in verse 16, 'offer' yourselves. It is the same verb, paristemi, that Paul uses in verse 13 for presenting the parts of the body to sin or to God, and again in Romans 12:1 for presenting bodies as a living sacrifice. The Roman reader hears an act of self-surrender, like a person placing himself at an owner's disposal, and the chapter wants us to see that this act is never unattended: something takes charge of whoever is offered.\n\nThe tenses carry the story. In verse 18 'you have been set free' and 'have become slaves' are both aorist passives, eleutherothentes and edoulothete. Neither verb says the Romans freed or enslaved themselves; both are done to them, and the pair is the pairing of Romans 6:6 and 6:14 made into history. The same two verbs return in verse 22. In verse 17 the verb for 'committed' is also passive, paredothete, 'you were handed over', so that the teaching is the party that takes custody of them. Paul has turned the grammar of slavery on its head: the gospel is the master and the believer is the one handed over.\n\n'Escalating wickedness' in verse 19 translates a phrase that repeats a single word, anomia eis ten anomian, lawlessness unto lawlessness. The point is momentum. Sin does not stay still; each act is both a result and a cause. Set against it is hagiasmos, 'holiness', which Paul uses twice, in verses 19 and 22. The word describes the process of being made holy as well as the state, and Paul says it is both the road and the fruit of the new slavery.\n\nThe phrase 'free of obligation to righteousness' in verse 20 is easy to miss. The Greek says that as slaves of sin they were free with respect to righteousness, a freedom that sounded like liberty but meant only that righteousness had no claim on them. It is the bleakest definition of autonomy in the Bible, a freedom that is really absence.\n\nFinally, the closing verse opposes two words for what is received. Opsonion, the 'wages', was the term for a soldier's pay, rations or allowance, and it appears in Luke 3:14 where soldiers are told to be content with their wages. Sin is pictured as a paymaster that pays in full and on time. Against it Paul sets charisma, 'gift', built on the same root as charis, grace. The two words cannot be blended, for a wage is what is owed, and Romans 4:4 has already said that what is owed is not a gift. The verse is therefore as much about how God gives as about what He gives.",
     "typology": [
-      { "type": "The exodus from slavery", "fulfillment": "Israel redeemed from bondage in Egypt to serve the LORD foreshadows the believer set free from slavery to sin to serve God." },
-      { "type": "Redemption by ransom", "fulfillment": "The transfer of a slave through a price paid points to Christ, who purchases sinners from sin's ownership to belong to God." },
-      { "type": "Firstfruits and harvest", "fulfillment": "The two harvests of death and of eternal life fulfill the pattern that what is sown determines what is reaped, resolved in the fruit of holiness borne by those who belong to God." }
+      {
+        "type": "The exodus, from Pharaoh's service to the LORD's",
+        "fulfillment": "Israel was brought out of Egypt so that it might serve, the word used again and again before Pharaoh, and then belong to the LORD, Leviticus 25:55. The deliverance changed the ownership of the people, not their need of a master. Paul's believers have been through a deeper exodus, out of the slavery to sin that John 8:34 describes, and Christ is the redeemer who pays. The type falls short in that Israel's service often failed and Egypt's whip was external, while the new slavery is written on the heart and its bondage was within."
+      },
+      {
+        "type": "The servant who chooses to stay, Exodus 21:5-6",
+        "fulfillment": "A Hebrew servant who had earned his freedom could say, 'I love my master,' and have his ear pierced at the door to serve for life. It is a picture of freedom spent on love, not a loss of freedom. Paul's line that those freed from sin have become slaves to God shows the same pattern, and Christ is the truest example, taking the form of a servant and obeying to death, Philippians 2:7-8. The type falls short because the servant's love was untested, whereas Christ's chosen service secured the freedom of the very people He served."
+      },
+      {
+        "type": "Redemption by ransom",
+        "fulfillment": "The law of redemption let a relative buy back a family member sold into debt, Leviticus 25:47-49, and a slave changed owners when the price was paid. Paul speaks in the same terms elsewhere, 'you were bought at a price,' 1 Corinthians 6:20, and Romans 3:24 speaks of the redemption that is in Christ Jesus. What was only a transfer in the old law becomes a purchase with Christ's own blood, 1 Peter 1:18-19. The type falls short because the human kinsman redeemed one person at a time and for a time, while Christ's ransom is once for all."
+      },
+      {
+        "type": "The two ways, life and death",
+        "fulfillment": "Deuteronomy 30:15-19 sets before Israel two paths and pleads with them to choose life. The Wisdom writers sharpen it into the way of the righteous and the way of the wicked, Psalm 1. Paul's two slaveries give the same choice an eternal edge, and Christ calls Himself the way and the life, John 14:6. The type falls short at one point: in Moses' day the choice was set before a people who could not make it, whereas now the Spirit gives believers the ability to walk in the way of life, as Romans 8 will show."
+      }
     ],
-    "christ": "The whole passage climbs toward Christ in its final phrase: the gift of God is eternal life in Christ Jesus our Lord. Eternal life is located in Him and given through Him; He is the Redeemer who purchases slaves of sin and brings them under God's gracious lordship. The contrast between the wage of death that sin pays and the free gift of life that God gives is made possible only by His death and resurrection, so that the great exchange of masters is founded entirely on His finished work.",
-    "god": "God stands at the center as the new master to whom the redeemed now belong and as the giver of eternal life. Paul cannot describe the change without breaking into thanks to God. God does not leave sinners in the ruin their slavery earns; He sets them free, claims them as His own, and grants them a fruit and an end, holiness now and eternal life at the last, that sin could never yield. The passage exalts a God whose grace both liberates and gives.",
+    "christ": "The passage ends with a name, Christ Jesus our Lord, and everything before it is only intelligible because of Him. The chain begins with the verdict that the wages of sin is death. If that verse stood alone it would be a sentence of doom for everyone, since Romans 3:23 has already said all have sinned. The only way a gift can stand beside it is that someone has taken the wage on behalf of others. This is why the gift is 'in Christ Jesus': life is not handed out in the abstract, it is found in a person, and the person is the one who died. Isaiah's Servant 'bore their iniquities' and so could 'justify many', Isaiah 53:11, and Paul has already described how God presented Him as the atoning sacrifice, Romans 3:25.\n\nThe chapter leads to Christ by pattern as well. Romans 5:19 sets the disobedience of the first man beside the obedience of the second, and in 6:16 'obedience' is the name of the master that leads to righteousness. The word hupakoe was used of Christ in 5:19, and Paul now uses it of the believer's life, which means that the way of obedience is not only a path but a person's path, the way the Son went before. Philippians 2:8 says He became obedient to death, and the believer who walks in obedience walks in His footsteps.\n\nIt leads to Christ by contrast. He is the one man who was never a slave to sin, John 8:46, yet He took the form of a servant, Philippians 2:7, and so freely entered the condition that the rest of us entered by birth. Where sin pays wages that kill, Christ paid, not received, the price that frees. The Son who is free indeed, John 8:36, is therefore the only one qualified to make slaves free.\n\nAnd it leads to Christ by fulfilment of the promise of freedom. John 8:31-32 ties freedom to abiding in His word and knowing the truth, and Romans 6:18 reports that the freedom has arrived. Christ is then both the liberator and the new Lord. Paul will not let believers think of Him merely as a rescuer who leaves them to themselves; verse 23 names Him 'our Lord'. The one who saves is the one who now rules, and His rule, unlike sin's, ends in life.\n\nA caution keeps this honest. Paul's slave language is an image, not a doctrine of how the Son relates to the Father, and the passage does not teach that Christ was bought from sin. What it teaches is that the believer's new belonging is secured by the person and work of Christ, and the New Testament texts above are what make that link, not any decoding of the metaphor's details.",
+    "god": "This short passage shows God in a role that may surprise: He is a Master who gives. In the human world the one who owns also takes, but here the slave of God receives holiness and an unending life, and the last line calls it a gift. The God of Romans 6 is not a rival to sin who offers a harder bargain, He is a different kind of owner altogether, one who purchases people to bless them. That alone corrects a common picture of God as a taskmaster who is pleased only by what He is paid.\n\nThe text also shows God as the source of the change. Paul thanks Him, verse 17, for what has happened to the Romans, and the passive verbs of verses 17, 18 and 22 point to Him as the one who has done it. The obedience of the heart that follows is the answer to a prior act. This guards the doctrine of grace from the charge Paul has just faced: God's grace is not permissive, it is effective, for it makes people into those who obey. The God who justifies is the God who carries His people all the way to glory, and holiness lies along that road, Romans 8:30.\n\nGod is just. The wages of sin is death, and the verse does not hint that God is being arbitrary or harsh; death is the earned outcome of the master sin serves, and God's justice stands behind it. Yet He is not only just. Romans 3:26 says He acts 'to be just and to justify', and Romans 6:23 holds the same two together in a single sentence, the wage that is deserved and the gift that is not.\n\nFinally, the passage shows a God who claims. He does not simply release sinners and send them on, He makes them His own. This is the same truth behind Romans 14:8, 'we belong to the Lord', and behind 1 Corinthians 6:19-20. For worship, it means that gratitude is the right opening posture, since verse 17 begins with thanks, and that our obedience is a form of praise rather than payment. It also means that believers can face their failures without despair, since the God who owns them is the one who has promised to finish what He began, and without presumption, since the God who owns them has a say in how they live.",
     "crossReferences": [
-      { "ref": "Romans 6:1-14", "note": "The believer's death to sin and new life in union with Christ, grounding the change of masters described here." },
-      { "ref": "John 8:34-36", "note": "Everyone who sins is a slave of sin, but if the Son sets you free, you are free indeed." },
-      { "ref": "Galatians 5:19-23", "note": "The works of the flesh contrasted with the fruit of the Spirit, paralleling the two harvests." },
-      { "ref": "Romans 8:1-2", "note": "No condemnation in Christ, and the law of the Spirit of life setting free from the law of sin and death." }
+      {
+        "ref": "Romans 6:1-14",
+        "note": "The first panel of the chapter, which Paul answers with death and resurrection rather than ownership. Its closing line, 'you are not under law, but under grace', is picked up and turned into the question of verse 15, so the two halves are one argument viewed from two angles."
+      },
+      {
+        "ref": "John 8:34-36",
+        "note": "Jesus teaches that everyone who sins is a slave to sin and that only the Son can set a slave free for good, since a slave has no permanent place in the household while a son does. Paul gives the same truth its apostolic form: the one who frees is the one who now owns."
+      },
+      {
+        "ref": "Galatians 5:13",
+        "note": "Paul warns the Galatians not to use freedom as an opportunity for the flesh but to serve one another in love. It is the practical twin of Romans 6:15: freedom from law is real, yet it is freedom to serve, and love is how the service looks."
+      },
+      {
+        "ref": "Romans 5:20-21",
+        "note": "The passage that raised the first objection. Grace increased all the more where sin increased, so that grace might reign through righteousness to eternal life. Chapter 6 answers the misreading of this: grace reigns, but it reigns through righteousness, which is why holiness belongs to it."
+      },
+      {
+        "ref": "1 Corinthians 6:19-20",
+        "note": "Believers are not their own, for they were bought at a price, and so must glorify God in their bodies. This parallels the offering of the parts of the body in verse 19, and gives the reason: the body belongs to the one who bought it."
+      },
+      {
+        "ref": "Leviticus 25:55",
+        "note": "God claims Israel as His servants whom He brought out of Egypt. Redemption and ownership go together from the beginning of the story. Paul's believers repeat Israel's experience at a deeper level, delivered in order to belong to the LORD."
+      },
+      {
+        "ref": "Romans 8:12-14",
+        "note": "Paul says believers are under an obligation, but not to the flesh, and that those led by the Spirit are sons of God. The slave language of chapter 6 is the first step toward the family language of chapter 8, where the new owner is revealed as a Father."
+      },
+      {
+        "ref": "Titus 3:3-7",
+        "note": "Once we were enslaved to all sorts of desires, but when the kindness of God appeared He saved us, not by works of righteousness, but through the washing of rebirth and renewal by the Holy Spirit. The pattern of then and now, and of a saving gift rather than a wage, is exactly Paul's."
+      },
+      {
+        "ref": "Deuteronomy 30:15-20",
+        "note": "Moses sets life and death before Israel and urges them to choose life by loving and obeying the LORD. The two ways of Romans 6 stand in that tradition, though Paul adds what Moses could only hope for, that the heart itself would be changed."
+      },
+      {
+        "ref": "2 Peter 2:19",
+        "note": "False teachers promise freedom while themselves slaves to depravity, for a person is a slave to whatever has mastered him. It confirms from another apostle the rule of verse 16, and shows that the claim to be free while still ruled by sin is the oldest deception."
+      }
     ],
-    "oneStory": "Since Adam, humanity has been enslaved to sin, and the wage of that slavery is death. But the Bible tells of a God who redeems slaves for Himself, bringing Israel out of Egypt and finally bringing sinners out of bondage to sin through His Son. Here that story reaches a hinge: the great exchange of masters. Sin pays out death, but God gives the free gift of eternal life in Christ Jesus, so that those once owned by sin now belong forever to God and bear the fruit of holiness.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "The story of Scripture can be told as a story of masters. In Eden the man and woman were made to serve and keep the garden under the one who made them, Genesis 2:15. When they listened to another voice, they exchanged one lord for another and found that the new one paid in death, which is what Genesis 3 and the refrain of Genesis 5 record. From then on the whole human family lives, as Paul says, under a master it did not choose and cannot easily leave.\n\nThe Old Testament answers by showing God as a redeemer. He hears the groaning of slaves in Egypt, buys Israel back, and says that they are His, Leviticus 25:55. At Sinai the redeemed people are given a way to live as His own. But Israel's story shows that deliverance from a tyrant is not the same as a changed heart, and the prophets look for a deeper rescue, one in which the people would be given a new heart and made able to obey, Ezekiel 36:26-27.\n\nRomans 6 stands at the point where that rescue is named. The Son is the Redeemer, the transfer of ownership is complete, and the people He has bought are described as slaves who now live for holiness. This is what the exodus was a picture of, and what the Hebrew servant's pierced ear was pointing toward. The gift of verse 23 answers the wage that Genesis 2:17 promised.\n\nThe story is not finished. Believers are still in bodies subject to death, and Romans 8 will describe the creation itself groaning for freedom, 8:21. But Revelation closes the story where Romans 6 points. Those who were bought will be God's servants who see His face and have His name on their foreheads, Revelation 22:3-4, and the servitude that began as the shame of the garden ends as the joy of the city. The one who is Lord of the new creation is the same Christ Jesus our Lord named in the last words of Romans 6, and the life He gives is the unending life promised in the verse.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "According to Paul, what are the only two options for whom a person can serve?",
       "options": [
-        { "text": "Either sin, leading to death, or obedience, leading to righteousness.", "weight": 100, "note": "You are a slave of the one you obey; there is no neutral ground." },
-        { "text": "Either sin or complete personal autonomy.", "weight": 75, "note": "Close, but Paul denies any true autonomy; the alternative to serving sin is serving God." },
-        { "text": "Either the law of Moses or the Roman law.", "weight": 0, "note": "The contrast is between slavery to sin and slavery to God, not two legal codes." },
-        { "text": "Either sin now or obedience later, with a neutral middle.", "weight": 25, "note": "There is no neutral middle; one is always a slave of some master." }
+        {
+          "text": "Either sin, leading to death, or obedience, leading to righteousness.",
+          "weight": 100,
+          "note": "You are a slave of the one you obey; there is no neutral ground."
+        },
+        {
+          "text": "Either sin or complete personal autonomy.",
+          "weight": 75,
+          "note": "Close, but Paul denies any true autonomy; the alternative to serving sin is serving God."
+        },
+        {
+          "text": "Either the law of Moses or the Roman law.",
+          "weight": 0,
+          "note": "The contrast is between slavery to sin and slavery to God, not two legal codes."
+        },
+        {
+          "text": "Either sin now or obedience later, with a neutral middle.",
+          "weight": 25,
+          "note": "There is no neutral middle; one is always a slave of some master."
+        }
       ]
     },
     {
       "q": "What has happened to believers, according to verse 18?",
       "options": [
-        { "text": "They have been set free from sin and have become slaves to righteousness.", "weight": 100, "note": "A real transfer of ownership from sin to righteousness." },
-        { "text": "They have become completely free of any master at all.", "weight": 25, "note": "Freedom from sin means new service to God, not autonomy." },
-        { "text": "They remain slaves to sin but are now forgiven.", "weight": 75, "note": "Believers are truly forgiven, but Paul says more: they are actually set free from sin's mastery, not still enslaved." },
-        { "text": "They have earned their freedom by good works.", "weight": 0, "note": "The freedom is God's gift in Christ, not earned by works." }
+        {
+          "text": "They have been set free from sin and have become slaves to righteousness.",
+          "weight": 100,
+          "note": "A real transfer of ownership from sin to righteousness."
+        },
+        {
+          "text": "They have become completely free of any master at all.",
+          "weight": 25,
+          "note": "Freedom from sin means new service to God, not autonomy."
+        },
+        {
+          "text": "They remain slaves to sin but are now forgiven.",
+          "weight": 75,
+          "note": "Believers are truly forgiven, but Paul says more: they are actually set free from sin's mastery, not still enslaved."
+        },
+        {
+          "text": "They have earned their freedom by good works.",
+          "weight": 0,
+          "note": "The freedom is God's gift in Christ, not earned by works."
+        }
       ]
     },
     {
       "q": "What fruit does the new slavery to God produce?",
       "options": [
-        { "text": "Holiness, whose outcome is eternal life.", "weight": 100, "note": "The fruit is sanctification and the end is eternal life." },
-        { "text": "A sense of pride in one's own achievement.", "weight": 0, "note": "The fruit is holiness given by God, not self-congratulation." },
-        { "text": "Freedom to live however one pleases.", "weight": 25, "note": "The fruit is holiness, not license; that is the opposite of the point." },
-        { "text": "Growth in holiness, though its final outcome remains uncertain.", "weight": 75, "note": "The fruit truly is holiness, but Paul is clear its outcome is certain, eternal life." }
+        {
+          "text": "Holiness, whose outcome is eternal life.",
+          "weight": 100,
+          "note": "The fruit is sanctification and the end is eternal life."
+        },
+        {
+          "text": "A sense of pride in one's own achievement.",
+          "weight": 0,
+          "note": "The fruit is holiness given by God, not self-congratulation."
+        },
+        {
+          "text": "Freedom to live however one pleases.",
+          "weight": 25,
+          "note": "The fruit is holiness, not license; that is the opposite of the point."
+        },
+        {
+          "text": "Growth in holiness, though its final outcome remains uncertain.",
+          "weight": 75,
+          "note": "The fruit truly is holiness, but Paul is clear its outcome is certain, eternal life."
+        }
       ]
     },
     {
       "q": "What is the meaning of the wages of sin is death?",
       "options": [
-        { "text": "Death is the just recompense that sin earns and pays out.", "weight": 100, "note": "Wages are what is owed for service; sin's service earns death." },
-        { "text": "Death is an accident that has nothing to do with sin.", "weight": 0, "note": "Paul says death is precisely the wage sin pays, not an accident." },
-        { "text": "Only especially wicked sins earn any penalty.", "weight": 25, "note": "The wage belongs to sin as such, not only to extreme sins." },
-        { "text": "Death is merely the end of physical life with no deeper loss.", "weight": 75, "note": "Death here includes physical death, but the contrast with eternal life shows it means far more, the full and final penalty." }
+        {
+          "text": "Death is the just recompense that sin earns and pays out.",
+          "weight": 100,
+          "note": "Wages are what is owed for service; sin's service earns death."
+        },
+        {
+          "text": "Death is an accident that has nothing to do with sin.",
+          "weight": 0,
+          "note": "Paul says death is precisely the wage sin pays, not an accident."
+        },
+        {
+          "text": "Only especially wicked sins earn any penalty.",
+          "weight": 25,
+          "note": "The wage belongs to sin as such, not only to extreme sins."
+        },
+        {
+          "text": "Death is merely the end of physical life with no deeper loss.",
+          "weight": 75,
+          "note": "Death here includes physical death, but the contrast with eternal life shows it means far more, the full and final penalty."
+        }
       ]
     },
     {
       "q": "How does Paul describe eternal life in verse 23?",
       "options": [
-        { "text": "The free gift of God in Christ Jesus our Lord.", "weight": 100, "note": "Eternal life is a gift of grace, not a wage, given in Christ." },
-        { "text": "A wage earned by a lifetime of obedience.", "weight": 25, "note": "Paul deliberately calls it a gift, not a wage, to exclude earning." },
-        { "text": "A reward owed to those who keep the law.", "weight": 0, "note": "It is a free gift of grace, not something owed for law keeping." },
-        { "text": "Something every person receives automatically.", "weight": 75, "note": "It rightly sees eternal life as a gift, but Paul locates it in Christ Jesus, received in union with Him, not given automatically to all." }
+        {
+          "text": "The free gift of God in Christ Jesus our Lord.",
+          "weight": 100,
+          "note": "Eternal life is a gift of grace, not a wage, given in Christ."
+        },
+        {
+          "text": "A wage earned by a lifetime of obedience.",
+          "weight": 25,
+          "note": "Paul deliberately calls it a gift, not a wage, to exclude earning."
+        },
+        {
+          "text": "A reward owed to those who keep the law.",
+          "weight": 0,
+          "note": "It is a free gift of grace, not something owed for law keeping."
+        },
+        {
+          "text": "Something every person receives automatically.",
+          "weight": 75,
+          "note": "It rightly sees eternal life as a gift, but Paul locates it in Christ Jesus, received in union with Him, not given automatically to all."
+        }
       ]
     }
   ],
@@ -162,9 +406,21 @@
     "The wages of sin is death, but the gift of God is eternal life in Christ. How does the contrast between what you have earned and what God freely gives move you to worship?"
   ],
   "translationNotes": [
-    { "ref": "Romans 6:17", "note": "The form of teaching to which you were committed likely refers to the pattern of apostolic instruction received at conversion; some render it the mold into which you were handed over, picturing believers shaped by the gospel they obeyed." },
-    { "ref": "Romans 6:19", "note": "I am speaking in human terms because of the weakness of your flesh signals that Paul knows the slavery image is imperfect for describing service to God, yet he uses it to make the reality vivid and inescapable." },
-    { "ref": "Romans 6:23", "note": "Wages renders opsonion, a soldier's pay, what is duly owed; it is deliberately contrasted with gift, charisma, a gift of grace, so that death is earned but eternal life is freely given in Christ." }
+    {
+      "ref": "Romans 6:17",
+      "note": "The form of teaching to which you were committed likely refers to the pattern of apostolic instruction received at conversion; some render it the mold into which you were handed over, picturing believers shaped by the gospel they obeyed."
+    },
+    {
+      "ref": "Romans 6:19",
+      "note": "I am speaking in human terms because of the weakness of your flesh signals that Paul knows the slavery image is imperfect for describing service to God, yet he uses it to make the reality vivid and inescapable."
+    },
+    {
+      "ref": "Romans 6:23",
+      "note": "Wages renders opsonion, a soldier's pay, what is duly owed; it is deliberately contrasted with gift, charisma, a gift of grace, so that death is earned but eternal life is freely given in Christ."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched this session from bible.helloao.org for Romans 6:15-23. Sermon left as none; no expositor sermon URL verified this session." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched this session from bible.helloao.org for Romans 6:15-23. Sermon left as none; no expositor sermon URL verified this session."
+  }
 }
