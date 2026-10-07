@@ -50,7 +50,7 @@ def main():
         except urllib.error.HTTPError as e:
             msg = e.read().decode()[:400]
             if e.code == 429:
-                print(f"quota reached at {s['id']} after {done} clips today; rerun tomorrow to continue", flush=True)
+                print(f"quota reached at {s['id']} after {done} clips today; rerun tomorrow to continue ({msg[:300]})", flush=True)
                 return
             sys.exit(f"{s['id']}: HTTP {e.code}: {msg}")
         while not op.get("done"):

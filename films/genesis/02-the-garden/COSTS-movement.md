@@ -247,5 +247,8 @@ the Creator plan rate (22 USD for 131,000 credits).
 | 237 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot 84 (16:9) -> stills/movement/s084.jpg | 1 image 2K | 0.134 | 24.451 |
 | 238 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot 86 (16:9) -> stills/movement/s086.jpg | 1 image 2K | 0.134 | 24.585 |
 | 239 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot 91 (16:9) -> stills/movement/s091.jpg | 1 image 2K | 0.134 | 24.719 |
+| 240 | 2026-10-07 | Veo 3.1 standard (veo-3.1-generate-preview) | clip s016 (veo) -> clips/movement/s016.mp4 | 8 s 1080p | 3.200 | 27.919 |
+| 241 | 2026-10-07 | Veo 3.1 standard (veo-3.1-generate-preview) | clip s019 (veo) -> clips/movement/s019.mp4 | 8 s 1080p | 3.200 | 31.119 |
+| 242 | 2026-10-07 | Veo 3.1 standard (veo-3.1-generate-preview) | clip s054 (veo) -> clips/movement/s054.mp4 | 8 s 1080p | 3.200 | 34.319 |
 
-Running total: 24.72
+Running total: 34.32

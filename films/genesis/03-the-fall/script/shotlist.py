@@ -176,6 +176,22 @@ P = {
 }
 S.update(P)
 
+# Composition fixes after the C2 rule check (7 October 2026): each appended to the scene.
+FILL = " The image fills the whole frame edge to edge, with no blank, grey, faded or flat band at the bottom."
+TORN = (" The cloth is ripped apart, not drawn open: one single curtain split by a jagged rip from the very top down to "
+        "the floor, ragged torn threads hanging along both edges of the rip, the two halves still hanging straight, "
+        "not tied back, not parted like stage curtains.")
+EXTRA = {"s034": FILL, "s048": FILL, "s058": FILL, "s065": FILL,
+         "s078": " The camera stands inside the garden among the last trees, which frame the edges of the picture; "
+                 "ahead of the man and the woman there is only bare dry land and low hills to the empty horizon, no "
+                 "trees, no palms and no fire ahead of them; they walk away from the camera into the dry land." + FILL,
+         "s063": " Very close view of three or four dry thistle heads filling the frame against the pale sky, seed fluff "
+                 "drifting from them; not a wide field view.",
+         "s094": TORN, "s095": TORN + " Very close view of the ragged torn edge only."}
+for k, v in EXTRA.items():
+    kind, scene, motion, refs, flags = S[k]
+    S[k] = (kind, scene + v, motion, refs, flags)
+
 
 def main():
     shots = json.loads((HERE / "movement-shots.json").read_text())

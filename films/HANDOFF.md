@@ -42,8 +42,9 @@ Read this first in any new session working on Makor films.
     rebuild v1, YouTube, vertical, short and artwork (AI disclosure Yes).
   - The Fall: `makor-fall-veo-daily` paused (its painted clips retired). `world_bible.py` and
     `shotlist.py` converted (nothing worn before 3:7, fig leaves from 3:7, hides from 3:21;
-    key people shots nearer). Its 98 keyframes wait for Luyanda's approval to pass the 25 USD
-    checkpoint; then C2, then re-point its task.
+    key people shots nearer; 3:24 is now a whirling sword of flame, as the BSB says, not a ring).
+    World bible and all keyframes done 7 October (29.15 USD), sent for C2. Next: approval of its
+    Veo spend, then re-point its task (from 9 October, after The Garden finishes).
 - **The Fall** (Genesis 3:1 to 24), `films/genesis/03-the-fall/`: started 6 October 2026.
   - M0 draft done: `script/movement.py` (24 verses verified, 11 chapters, about 11:53
     estimated). C1 passed: script and all ten decisions approved (quotations kept), see
