@@ -21,6 +21,11 @@ different subject listed in SUBJECTS (for example "the man said" -> "MAN"); then
 film's VOICE_MAP decides which voice reads it (Makor rule: anyone other than God is
 read by the READER unless a film decides otherwise). Quoted single words such as
 names ("day," "woman,") stay with the READER.
+
+SPEAKERS override: where the narration does not fit SPEECH (for example "the LORD God
+called out to the man," or speech that comes before its tag), a film passes
+speakers={"3:9": [("READER", "..."), ("GOD", "...")]}. The segments must join, with single
+spaces, back into the exact verse text, or the build stops.
 """
 import json, pathlib, re
 
@@ -36,7 +41,7 @@ def tc(s):
 
 
 class Film:
-    def __init__(self, here, study, voice_map=None):
+    def __init__(self, here, study, voice_map=None, speakers=None):
         self.here = pathlib.Path(here)
         self.d = json.loads(pathlib.Path(study).read_text())
         self.study_text = json.dumps(self.d, ensure_ascii=False)
@@ -44,6 +49,7 @@ class Film:
                        for v in u["verses"]]
         self.vmap = dict(self.verses)
         self.voice_map = {"GOD": "GOD", "READER": "READER", **(voice_map or {})}
+        self.speakers = speakers or {}
         durs = self.here / "movement-durations.json"
         self.real = json.loads(durs.read_text()) if durs.exists() else {}
 
@@ -59,6 +65,10 @@ class Film:
         out = []
         for key in keys[keys.index(a): keys.index(b) + 1]:
             text, segs, i = self.vmap[key], [], 0
+            if key in self.speakers:   # explicit split from the film
+                segs = [(self.voice_map.get(sp, "READER"), t) for sp, t in self.speakers[key]]
+                assert " ".join(t for _, t in segs) == text, f"SPEAKERS split changed {key}"
+                out.append((key, segs)); continue
             if state.get("carry"):   # a speech carried over from the previous verse
                 j = text.find("”")
                 segs.append((state["carry"], text[: j + 1].strip())); i = j + 1; state["carry"] = None

@@ -10,7 +10,7 @@ check them against the rebuilt file before upload.
 
 ## Title (under 60 characters, most searched words first, brand last)
 
-Recommended:
+Approved by Luyanda (7 October 2026):
 
     The Fall: Genesis 3 Read and Explained | Makor
 
