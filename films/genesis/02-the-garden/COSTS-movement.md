@@ -123,5 +123,129 @@ the Creator plan rate (22 USD for 131,000 credits).
 | 113 | 2026-10-06 | Nano Banana Pro (gemini-3-pro-image) | still s084 via Batch API (half price) -> stills/movement/s084.jpg | 1 image 2K | 0.067 | 8.017 |
 | 114 | 2026-10-06 | Nano Banana Pro (gemini-3-pro-image) | still s088 via Batch API (half price) -> stills/movement/s088.jpg | 1 image 2K | 0.067 | 8.084 |
 | 115 | 2026-10-06 | ElevenLabs Sound Effects (eleven_text_to_sound_v2) | 9 movement sfx cues | 968 credits reported (counter lags) | 0.163 | 8.247 |
+| 116 | 2026-10-07 | Veo 3.1 lite (veo-3.1-lite-generate-preview) | clip s001 (veo) -> clips/movement/s001.mp4 | 8 s 1080p | 0.640 | 8.887 |
+| 117 | 2026-10-07 | Veo 3.1 lite (veo-3.1-lite-generate-preview) | clip s005 (veo) -> clips/movement/s005.mp4 | 8 s 1080p | 0.640 | 9.527 |
+| 118 | 2026-10-07 | Veo 3.1 lite (veo-3.1-lite-generate-preview) | clip s011 (veo) -> clips/movement/s011.mp4 | 8 s 1080p | 0.640 | 10.167 |
+| 119 | 2026-10-07 | Veo 3.1 lite (veo-3.1-lite-generate-preview) | clip s013 (veo) -> clips/movement/s013.mp4 | 8 s 1080p | 0.640 | 10.807 |
+| 120 | 2026-10-07 | Veo 3.1 lite (veo-3.1-lite-generate-preview) | clip s025 (veo) -> clips/movement/s025.mp4 | 8 s 1080p | 0.640 | 11.447 |
+| 121 | 2026-10-07 | Veo 3.1 lite (veo-3.1-lite-generate-preview) | clip s041 (veo) -> clips/movement/s041.mp4 | 8 s 1080p | 0.640 | 12.087 |
+| 122 | 2026-10-07 | Veo 3.1 lite (veo-3.1-lite-generate-preview) | clip s059 (veo) -> clips/movement/s059.mp4 | 8 s 1080p | 0.640 | 12.727 |
+| 123 | 2026-10-07 | Veo 3.1 lite (veo-3.1-lite-generate-preview) | clip s069 (veo) -> clips/movement/s069.mp4 | 8 s 1080p | 0.640 | 13.367 |
+| 124 | 2026-10-07 | Veo 3.1 lite (veo-3.1-lite-generate-preview) | clip s075 (veo) -> clips/movement/s075.mp4 | 8 s 1080p | 0.640 | 14.007 |
+| 125 | 2026-10-07 | Veo 3.1 lite (veo-3.1-lite-generate-preview) | clip s086 (veo) -> clips/movement/s086.mp4 | 8 s 1080p | 0.640 | 14.647 |
+| 126 | 2026-10-07 | Veo 3.1 fast (veo-3.1-fast-generate-preview) | clip s016 (veo) -> clips/movement/s016.mp4 | 8 s 1080p | 0.960 | 15.607 |
+| 127 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot 1 (3:4) -> stills/cast/shot-01.jpg | 1 image 2K | 0.134 | 15.741 |
+| 128 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot 1b (3:4) -> stills/cast/shot-01b.jpg | 1 image 2K | 0.134 | 15.875 |
+| 129 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot-01 via Batch API (half price) -> stills/world/shot-01.jpg | 1 image 2K | 0.067 | 15.942 |
+| 130 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot-02 via Batch API (half price) -> stills/world/shot-02.jpg | 1 image 2K | 0.067 | 16.009 |
+| 131 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot-03 via Batch API (half price) -> stills/world/shot-03.jpg | 1 image 2K | 0.067 | 16.076 |
+| 132 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot-04 via Batch API (half price) -> stills/world/shot-04.jpg | 1 image 2K | 0.067 | 16.143 |
+| 133 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot-06 via Batch API (half price) -> stills/world/shot-06.jpg | 1 image 2K | 0.067 | 16.210 |
+| 134 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot-07 via Batch API (half price) -> stills/world/shot-07.jpg | 1 image 2K | 0.067 | 16.277 |
+| 135 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot-09 via Batch API (half price) -> stills/world/shot-09.jpg | 1 image 2K | 0.067 | 16.344 |
+| 136 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot-10 via Batch API (half price) -> stills/world/shot-10.jpg | 1 image 2K | 0.067 | 16.411 |
+| 137 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot-11 via Batch API (half price) -> stills/world/shot-11.jpg | 1 image 2K | 0.067 | 16.478 |
+| 138 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot-12 via Batch API (half price) -> stills/world/shot-12.jpg | 1 image 2K | 0.067 | 16.545 |
+| 139 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot-13 via Batch API (half price) -> stills/world/shot-13.jpg | 1 image 2K | 0.067 | 16.612 |
+| 140 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot 11 (16:9) -> stills/world/shot-11.jpg | 1 image 2K | 0.134 | 16.746 |
+| 141 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot 1 (16:9) -> stills/world/shot-01.jpg | 1 image 2K | 0.134 | 16.880 |
+| 142 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot 2 (16:9) -> stills/world/shot-02.jpg | 1 image 2K | 0.134 | 17.014 |
+| 143 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot 12 (16:9) -> stills/world/shot-12.jpg | 1 image 2K | 0.134 | 17.148 |
+| 144 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot 13 (16:9) -> stills/world/shot-13.jpg | 1 image 2K | 0.134 | 17.282 |
+| 145 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot 12 (16:9) -> stills/world/shot-12.jpg | 1 image 2K | 0.134 | 17.416 |
+| 146 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s001 via Batch API (half price) -> stills/movement/s001.jpg | 1 image 2K | 0.067 | 17.483 |
+| 147 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s002 via Batch API (half price) -> stills/movement/s002.jpg | 1 image 2K | 0.067 | 17.550 |
+| 148 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s003 via Batch API (half price) -> stills/movement/s003.jpg | 1 image 2K | 0.067 | 17.617 |
+| 149 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s004 via Batch API (half price) -> stills/movement/s004.jpg | 1 image 2K | 0.067 | 17.684 |
+| 150 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s005 via Batch API (half price) -> stills/movement/s005.jpg | 1 image 2K | 0.067 | 17.751 |
+| 151 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s006 via Batch API (half price) -> stills/movement/s006.jpg | 1 image 2K | 0.067 | 17.818 |
+| 152 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s007 via Batch API (half price) -> stills/movement/s007.jpg | 1 image 2K | 0.067 | 17.885 |
+| 153 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s008 via Batch API (half price) -> stills/movement/s008.jpg | 1 image 2K | 0.067 | 17.952 |
+| 154 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s009 via Batch API (half price) -> stills/movement/s009.jpg | 1 image 2K | 0.067 | 18.019 |
+| 155 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s010 via Batch API (half price) -> stills/movement/s010.jpg | 1 image 2K | 0.067 | 18.086 |
+| 156 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s011 via Batch API (half price) -> stills/movement/s011.jpg | 1 image 2K | 0.067 | 18.153 |
+| 157 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s012 via Batch API (half price) -> stills/movement/s012.jpg | 1 image 2K | 0.067 | 18.220 |
+| 158 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s013 via Batch API (half price) -> stills/movement/s013.jpg | 1 image 2K | 0.067 | 18.287 |
+| 159 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s014 via Batch API (half price) -> stills/movement/s014.jpg | 1 image 2K | 0.067 | 18.354 |
+| 160 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s015 via Batch API (half price) -> stills/movement/s015.jpg | 1 image 2K | 0.067 | 18.421 |
+| 161 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s016 via Batch API (half price) -> stills/movement/s016.jpg | 1 image 2K | 0.067 | 18.488 |
+| 162 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s017 via Batch API (half price) -> stills/movement/s017.jpg | 1 image 2K | 0.067 | 18.555 |
+| 163 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s018 via Batch API (half price) -> stills/movement/s018.jpg | 1 image 2K | 0.067 | 18.622 |
+| 164 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s019 via Batch API (half price) -> stills/movement/s019.jpg | 1 image 2K | 0.067 | 18.689 |
+| 165 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s020 via Batch API (half price) -> stills/movement/s020.jpg | 1 image 2K | 0.067 | 18.756 |
+| 166 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s021 via Batch API (half price) -> stills/movement/s021.jpg | 1 image 2K | 0.067 | 18.823 |
+| 167 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s022 via Batch API (half price) -> stills/movement/s022.jpg | 1 image 2K | 0.067 | 18.890 |
+| 168 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s023 via Batch API (half price) -> stills/movement/s023.jpg | 1 image 2K | 0.067 | 18.957 |
+| 169 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s024 via Batch API (half price) -> stills/movement/s024.jpg | 1 image 2K | 0.067 | 19.024 |
+| 170 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s025 via Batch API (half price) -> stills/movement/s025.jpg | 1 image 2K | 0.067 | 19.091 |
+| 171 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s026 via Batch API (half price) -> stills/movement/s026.jpg | 1 image 2K | 0.067 | 19.158 |
+| 172 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s027 via Batch API (half price) -> stills/movement/s027.jpg | 1 image 2K | 0.067 | 19.225 |
+| 173 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s028 via Batch API (half price) -> stills/movement/s028.jpg | 1 image 2K | 0.067 | 19.292 |
+| 174 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s029 via Batch API (half price) -> stills/movement/s029.jpg | 1 image 2K | 0.067 | 19.359 |
+| 175 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s030 via Batch API (half price) -> stills/movement/s030.jpg | 1 image 2K | 0.067 | 19.426 |
+| 176 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s031 via Batch API (half price) -> stills/movement/s031.jpg | 1 image 2K | 0.067 | 19.493 |
+| 177 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s032 via Batch API (half price) -> stills/movement/s032.jpg | 1 image 2K | 0.067 | 19.560 |
+| 178 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s033 via Batch API (half price) -> stills/movement/s033.jpg | 1 image 2K | 0.067 | 19.627 |
+| 179 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s034 via Batch API (half price) -> stills/movement/s034.jpg | 1 image 2K | 0.067 | 19.694 |
+| 180 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s035 via Batch API (half price) -> stills/movement/s035.jpg | 1 image 2K | 0.067 | 19.761 |
+| 181 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s049 via Batch API (half price) -> stills/movement/s049.jpg | 1 image 2K | 0.067 | 19.828 |
+| 182 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s050 via Batch API (half price) -> stills/movement/s050.jpg | 1 image 2K | 0.067 | 19.895 |
+| 183 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s051 via Batch API (half price) -> stills/movement/s051.jpg | 1 image 2K | 0.067 | 19.962 |
+| 184 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s052 via Batch API (half price) -> stills/movement/s052.jpg | 1 image 2K | 0.067 | 20.029 |
+| 185 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s053 via Batch API (half price) -> stills/movement/s053.jpg | 1 image 2K | 0.067 | 20.096 |
+| 186 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s054 via Batch API (half price) -> stills/movement/s054.jpg | 1 image 2K | 0.067 | 20.163 |
+| 187 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s055 via Batch API (half price) -> stills/movement/s055.jpg | 1 image 2K | 0.067 | 20.230 |
+| 188 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s056 via Batch API (half price) -> stills/movement/s056.jpg | 1 image 2K | 0.067 | 20.297 |
+| 189 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s057 via Batch API (half price) -> stills/movement/s057.jpg | 1 image 2K | 0.067 | 20.364 |
+| 190 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s058 via Batch API (half price) -> stills/movement/s058.jpg | 1 image 2K | 0.067 | 20.431 |
+| 191 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s059 via Batch API (half price) -> stills/movement/s059.jpg | 1 image 2K | 0.067 | 20.498 |
+| 192 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s060 via Batch API (half price) -> stills/movement/s060.jpg | 1 image 2K | 0.067 | 20.565 |
+| 193 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s061 via Batch API (half price) -> stills/movement/s061.jpg | 1 image 2K | 0.067 | 20.632 |
+| 194 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s062 via Batch API (half price) -> stills/movement/s062.jpg | 1 image 2K | 0.067 | 20.699 |
+| 195 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s063 via Batch API (half price) -> stills/movement/s063.jpg | 1 image 2K | 0.067 | 20.766 |
+| 196 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s064 via Batch API (half price) -> stills/movement/s064.jpg | 1 image 2K | 0.067 | 20.833 |
+| 197 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s065 via Batch API (half price) -> stills/movement/s065.jpg | 1 image 2K | 0.067 | 20.900 |
+| 198 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s066 via Batch API (half price) -> stills/movement/s066.jpg | 1 image 2K | 0.067 | 20.967 |
+| 199 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s067 via Batch API (half price) -> stills/movement/s067.jpg | 1 image 2K | 0.067 | 21.034 |
+| 200 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s068 via Batch API (half price) -> stills/movement/s068.jpg | 1 image 2K | 0.067 | 21.101 |
+| 201 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s069 via Batch API (half price) -> stills/movement/s069.jpg | 1 image 2K | 0.067 | 21.168 |
+| 202 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s070 via Batch API (half price) -> stills/movement/s070.jpg | 1 image 2K | 0.067 | 21.235 |
+| 203 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s071 via Batch API (half price) -> stills/movement/s071.jpg | 1 image 2K | 0.067 | 21.302 |
+| 204 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s072 via Batch API (half price) -> stills/movement/s072.jpg | 1 image 2K | 0.067 | 21.369 |
+| 205 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s073 via Batch API (half price) -> stills/movement/s073.jpg | 1 image 2K | 0.067 | 21.436 |
+| 206 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s074 via Batch API (half price) -> stills/movement/s074.jpg | 1 image 2K | 0.067 | 21.503 |
+| 207 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s075 via Batch API (half price) -> stills/movement/s075.jpg | 1 image 2K | 0.067 | 21.570 |
+| 208 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s076 via Batch API (half price) -> stills/movement/s076.jpg | 1 image 2K | 0.067 | 21.637 |
+| 209 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s077 via Batch API (half price) -> stills/movement/s077.jpg | 1 image 2K | 0.067 | 21.704 |
+| 210 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s078 via Batch API (half price) -> stills/movement/s078.jpg | 1 image 2K | 0.067 | 21.771 |
+| 211 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s079 via Batch API (half price) -> stills/movement/s079.jpg | 1 image 2K | 0.067 | 21.838 |
+| 212 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s080 via Batch API (half price) -> stills/movement/s080.jpg | 1 image 2K | 0.067 | 21.905 |
+| 213 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s081 via Batch API (half price) -> stills/movement/s081.jpg | 1 image 2K | 0.067 | 21.972 |
+| 214 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s082 via Batch API (half price) -> stills/movement/s082.jpg | 1 image 2K | 0.067 | 22.039 |
+| 215 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s083 via Batch API (half price) -> stills/movement/s083.jpg | 1 image 2K | 0.067 | 22.106 |
+| 216 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s084 via Batch API (half price) -> stills/movement/s084.jpg | 1 image 2K | 0.067 | 22.173 |
+| 217 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s085 via Batch API (half price) -> stills/movement/s085.jpg | 1 image 2K | 0.067 | 22.240 |
+| 218 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s086 via Batch API (half price) -> stills/movement/s086.jpg | 1 image 2K | 0.067 | 22.307 |
+| 219 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s087 via Batch API (half price) -> stills/movement/s087.jpg | 1 image 2K | 0.067 | 22.374 |
+| 220 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s088 via Batch API (half price) -> stills/movement/s088.jpg | 1 image 2K | 0.067 | 22.441 |
+| 221 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s089 via Batch API (half price) -> stills/movement/s089.jpg | 1 image 2K | 0.067 | 22.508 |
+| 222 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s090 via Batch API (half price) -> stills/movement/s090.jpg | 1 image 2K | 0.067 | 22.575 |
+| 223 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s091 via Batch API (half price) -> stills/movement/s091.jpg | 1 image 2K | 0.067 | 22.642 |
+| 224 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still s092 via Batch API (half price) -> stills/movement/s092.jpg | 1 image 2K | 0.067 | 22.709 |
+| 225 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot 9 (16:9) -> stills/movement/s009.jpg | 1 image 2K | 0.134 | 22.843 |
+| 226 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot 21 (16:9) -> stills/movement/s021.jpg | 1 image 2K | 0.134 | 22.977 |
+| 227 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot 25 (16:9) -> stills/movement/s025.jpg | 1 image 2K | 0.134 | 23.111 |
+| 228 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot 27 (16:9) -> stills/movement/s027.jpg | 1 image 2K | 0.134 | 23.245 |
+| 229 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot 29 (16:9) -> stills/movement/s029.jpg | 1 image 2K | 0.134 | 23.379 |
+| 230 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot 32 (16:9) -> stills/movement/s032.jpg | 1 image 2K | 0.134 | 23.513 |
+| 231 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot 33 (16:9) -> stills/movement/s033.jpg | 1 image 2K | 0.134 | 23.647 |
+| 232 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot 57 (16:9) -> stills/movement/s057.jpg | 1 image 2K | 0.134 | 23.781 |
+| 233 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot 66 (16:9) -> stills/movement/s066.jpg | 1 image 2K | 0.134 | 23.915 |
+| 234 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot 71 (16:9) -> stills/movement/s071.jpg | 1 image 2K | 0.134 | 24.049 |
+| 235 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot 74 (16:9) -> stills/movement/s074.jpg | 1 image 2K | 0.134 | 24.183 |
+| 236 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot 76 (16:9) -> stills/movement/s076.jpg | 1 image 2K | 0.134 | 24.317 |
+| 237 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot 84 (16:9) -> stills/movement/s084.jpg | 1 image 2K | 0.134 | 24.451 |
+| 238 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot 86 (16:9) -> stills/movement/s086.jpg | 1 image 2K | 0.134 | 24.585 |
+| 239 | 2026-10-07 | Nano Banana Pro (gemini-3-pro-image) | still shot 91 (16:9) -> stills/movement/s091.jpg | 1 image 2K | 0.134 | 24.719 |
 
-Running total: 8.25
+Running total: 24.72

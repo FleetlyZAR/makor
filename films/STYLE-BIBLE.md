@@ -1,5 +1,59 @@
 # Makor films: style bible
 
+**Photoreal from The Garden onward (7 October 2026).** Luyanda approved the photoreal
+treatment after the test in `films/tests/` (Adam portrait B, the animated sample of "To
+cultivate and keep"). The section "Photoreal" below replaces "The look", "People", the style
+suffix and the motion suffix for every film from The Garden on. The painted rules that follow
+it stay for reference and for The Seven Days, which keeps its painted look. Everything under
+"What is never shown", "Christ", "History and the nations" and "Banned prompt words" holds for
+both looks.
+
+## Photoreal
+
+- Photorealistic cinema, as if shot on 35 mm film in natural light. Real skin, soil and
+  plants. Not glossy, not fantasy, no lens flares. The Makor palette is the colour grade:
+  deep ink teal shadows, warm muted gold highlights, warm cream whites, no saturated reds or
+  purples. Still and reverent; one subject; slow camera.
+- Cast once, keep for good. Each person gets a casting portrait (and a turnaround sheet)
+  approved by Luyanda, saved in the film's `stills/cast/`, and sent as a reference in every
+  shot they appear in. Adam: `films/genesis/02-the-garden/stills/cast/adam.jpg` (dark olive
+  brown, short tight black curls, short dense beard, about thirty). The woman:
+  `stills/cast/eve.jpg` (option A). Both portraits carry a cloth on the shoulder from the
+  model; every prompt says to keep the face but not the cloth.
+- People are of the ancient Near East, never the pale European figures of Renaissance art and
+  never the long haired screen look that reads as Christ.
+- People may be seen at medium distance and their faces may be seen. No extreme close up of a
+  face; the frame stays at chest up or wider.
+- Before the Fall (Genesis 2:25) the man and the woman wear nothing: frame them from the
+  chest up (the woman from the shoulders up), from behind or in profile, with grass, plants
+  or landscape covering the rest. Never nudity below the chest. Describe the framing, never
+  write "no clothing" (the image model's safety filter refuses it). After 3:21, untailored
+  animal hide tied with a leather strip; no woven cloth before then.
+- Plants and animals of the ancient Near East only (date palms, figs, pomegranates, olives,
+  vines, reeds; ibex, gazelle, fallow deer, aurochs, lion). Name them in the prompt or the
+  model drifts tropical. The tree of the knowledge of good and evil is of no recognisable
+  species, never an apple. In the garden: "no walls, no buildings, no ruins, nothing made by
+  hands", or the model adds mud brick walls.
+- YouTube AI disclosure: answer **Yes** for photoreal films (realistic people).
+- Veo: Fast for people and movement, Lite only for calm landscape. Check every people clip for
+  face drift and for the framing slipping below the chest; use only the clean seconds.
+
+Photoreal style suffix (every still prompt):
+
+    Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of
+    deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds
+    or purples, calm and reverent, wide 16:9 composition with calm low detail space in the
+    lower third, full frame with no borders or black bars, no text, no lettering, no
+    watermark, not a painting, not an illustration, not a 3D render, not cartoon.
+
+Photoreal motion suffix (every image to video prompt), plus for people: "The man's face, skin
+tone, hair and beard stay exactly the same throughout; the framing stays modest."
+
+    Photorealistic cinematic footage with natural real world motion, slow and steady camera,
+    no camera shake, no cuts, no text appears.
+
+# Painted look (The Seven Days; reference)
+
 One visual style for every Makor story film. Every still prompt and every
 motion prompt follows this page. If a shot needs to break a rule here, change
 this page first, on purpose, rather than drifting shot by shot.

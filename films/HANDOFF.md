@@ -31,6 +31,16 @@ Read this first in any new session working on Makor films.
     publishing pack. Artwork is done (6 October): thumbnails A s023 (the garden in the east)
     and B s088 (the garden city), with 1280x720 previews, channel icon and watermark, in
     `exports/art/`; it does not change with the clips. Then disable the scheduled task.
+- **Photoreal from The Garden on (7 October 2026).** Luyanda approved the photoreal treatment
+  (`STYLE-BIBLE.md`, "Photoreal") after the test in `films/tests/` (photoreal-adam: Adam
+  portrait B; photoreal-garden: the animated sample of "To cultivate and keep", 14.16 USD).
+  The Garden is being redone: painted stills in `stills/world-painted/` and
+  `stills/movement-painted/`, painted clips in `clips/movement-painted/`, cast in
+  `stills/cast/` (adam.jpg, eve.jpg = option A), `script/world_bible.py` and
+  `script/shotlist.py` rewritten (26 Veo shots, 10 Lite). s036 to s048 and the clips
+  s036, s037, s047 come from the test. `makor-veo-daily` is paused until the photoreal
+  keyframes pass checkpoint C2; then re-point it at the new Veo list. The Fall is still
+  painted and its task `makor-fall-veo-daily` still runs; decide before it spends more.
 - **The Fall** (Genesis 3:1 to 24), `films/genesis/03-the-fall/`: started 6 October 2026.
   - M0 draft done: `script/movement.py` (24 verses verified, 11 chapters, about 11:53
     estimated). C1 passed: script and all ten decisions approved (quotations kept), see
@@ -68,13 +78,13 @@ Read this first in any new session working on Makor films.
   GOD (`bItqJOjNBHK6rbwcdlOT`) only God's direct speech in the passage (plus Revelation 21:5);
   GUIDE (Kokoro `am_michael`) everything that is not Scripture. Human speakers in the text are
   read by the READER. Words of Jesus are READER quotations.
-- People only as tiny distant figures, from behind or in profile, no body, clothing or face
-  detail (`films/STYLE-BIBLE.md`).
+- People: photoreal and cast from The Garden on (`films/STYLE-BIBLE.md`, "Photoreal"); in The
+  Seven Days, tiny distant painted figures.
 - Format: 16:9 film for YouTube; vertical framed version for TikTok and Instagram; a GUIDE led
   one minute short for Reels, Shorts, TikTok and WhatsApp Status. Shorts that are not a whole
   movement are Scripture only.
 - Fraunces (in `films/fonts/`) for the wordmark and titles.
-- YouTube AI disclosure question: answer No for this painted style.
+- YouTube AI disclosure question: No for the painted Seven Days, Yes for photoreal films.
 - Depth motion for every still shot; Veo Lite for calm shots, Fast for creatures, light,
   people and transitions; each model about 10 requests a day.
 

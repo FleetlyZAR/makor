@@ -7,6 +7,10 @@ the edit), reuse (another shot's keyframe). Flags: lite (Veo 3.1 Lite, calm shot
 (decision D1 wording), calm, dark, last:sNNN (ff end frame), use:sNNN (reuse).
 
     python3 films/genesis/02-the-garden/script/shotlist.py
+
+Photoreal treatment from 7 October 2026 (films/STYLE-BIBLE.md, "Photoreal"). The painted
+version is in git history and its stills in stills/movement-painted/. Painted Seven Days
+references are no longer sent; people shots carry the cast portraits in stills/cast/.
 """
 import json, pathlib
 
@@ -16,25 +20,38 @@ SDM = "../01-the-seven-days/stills/movement"
 REF = {**{f"g{i:02d}": f"stills/world/shot-{i:02d}.jpg" for i in range(1, 14)},
        "sd_bay": f"{SDW}/shot-01.jpg", "sd_plants": f"{SDW}/shot-02.jpg", "sd_night": f"{SDW}/shot-04.jpg",
        "sd_herds": f"{SDW}/shot-06.jpg", "sd_rest": f"{SDW}/shot-08.jpg", "sd_tomb": f"{SDW}/shot-11.jpg",
-       "sd_new": f"{SDW}/shot-12.jpg", "sd_tent": f"{SDM}/s097.jpg", "sd_lamp": f"{SDM}/s056.jpg",
-       "sd_thorns": f"{SDM}/s113.jpg"}
+       "sd_new": f"{SDW}/shot-12.jpg", "sd_tent": f"{SDM}/s097.jpg", "sd_lamp": "stills/movement/s039.jpg",
+       "sd_thorns": f"{SDM}/s113.jpg", "adam": "stills/cast/adam.jpg", "eve": "stills/cast/eve.jpg"}
+PAINTED = ("../01-the-seven-days/",)   # painted references: not sent in the photoreal treatment
 EDEN = ("a vast lush garden planted in the east: groves and orderly rows of fruit trees of every kind, open glades "
         "of soft grass, a clear river flowing out of the garden toward the east")
-SUFFIX = ("Hand painted matte painting, painterly illustration with visible brush texture and soft canvas grain, "
-          "reverent, still and quiet, soft diffused light, restrained palette of deep ink teal (#0E2A2E) shadows, "
-          "water teal (#0F6C6C) midtones and warm muted gold (#B8862F) light, warm cream highlights, greens rendered "
-          "as deep teal greens within the palette, wide 16:9 cinematic composition with calm space in the lower "
-          "third, fully painted edge to edge with no blank or flat areas, full frame with no borders or black bars, "
-          "no text, no lettering, no watermark, not photoreal, not cartoon, not 3D render.")
-MOTION = ("Painterly matte painting style preserved exactly, brush texture stays visible, slow and steady camera, "
-          "no camera shake, no cuts, no text appears.")
+SUFFIX = ("Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal "
+          "shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, "
+          "wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black "
+          "bars, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon.")
+MOTION = ("Photorealistic cinematic footage with natural real world motion, slow and steady camera, no camera shake, "
+          "no cuts, no text appears.")
+NEAR_EAST = ("The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, "
+             "olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. "
+             "No walls, no buildings, no ruins, no fences, nothing made by hands.")
+BARE = ("A bare plain of the ancient Near East before anything grew: no trees, no palms, no shrubs, no grass, no "
+        "plants of any kind, bare earth to the horizon. No walls, no buildings, nothing made by hands.")
+BARE_SHOTS = {f"s{i:03d}" for i in list(range(2, 16)) + [20]} - {"s009"}
+GARDEN_REFS = {"g01", "g02", "g03", "g04", "g05", "g06", "g07", "g08", "g09", "g10", "g11"}
 CALM = " The water stays calm, no breaking waves, no spray."
 NOFIG = "No people, no figures, no faces, no silhouettes."
 NOGOD = "No hands and no figure in the sky, in the light or in the wind."
-PEOPLE = ("Any human figure is tiny and far away, seen from behind or in profile, framed by trees and light, so "
-          "small that no body, clothing or face detail can be seen. No close up, no other people.")
+PEOPLE = ("The man is the man in the reference portrait: keep his face, skin tone, hair and beard exactly, but not the "
+          "cloth on his shoulder. He is seen at medium or long distance, from behind, in profile or three quarter, "
+          "with bare shoulders, and tall grass, plants or the landscape cover him below the chest. Never a close up. "
+          "No other people.")
+WOMAN = ("The man and the woman are the man and the woman in the reference portraits: keep their faces, skin tone and "
+         "hair exactly, but not the cloth on their shoulders; before the Fall neither of them wears anything. Both are "
+         "seen at long distance with bare shoulders, tall grass and flowers covering them below the shoulders. Never a "
+         "close up. No other people.")
+KEEP = " The man's face, skin tone, hair and beard stay exactly the same throughout; the framing stays modest."
 NOCHRIST = "Never a figure meant to be Christ."
-REFNOTE = " Match the painting style, palette and light of the reference images."
+REFNOTE = " Match the light, colour grade and world of the reference images."
 
 # id: (kind, scene, motion, refs, flags)
 S = {
@@ -120,7 +137,7 @@ S = {
  # The last Adam
  "s073": ("still", "A garden at dawn: an olive grove on a hillside, dew on the grass.", "Slow push in.", ["g12"], "nofig christ"),
  "s074": ("still", "First light over the olive grove, a breath of wind in the leaves.", "Slow drift across.", ["g12"], "nofig christ"),
- "s075": ("veo", "An olive grove on a hillside at night under a pale moon, old twisted trees, the city wall faint across a valley.", "Wind moves through the olive leaves under the moon; very slow push in.", ["g12"], "lite nofig christ"),
+ "s075": ("veo", "An olive grove on a hillside at night under a full Passover moon, old twisted trees, the city wall faint across a valley.", "Wind moves through the olive leaves under the moon; very slow push in.", ["g12"], "lite nofig christ"),
  "s076": ("still", "The olive grove at night, empty, the city across the valley.", "Slow pull back.", ["g12"], "nofig christ"),
  "s077": ("still", "A rock cut tomb in a garden hillside at first light, the great round stone rolled back from the open entrance.", "Slow push in.", ["sd_tomb"], "nofig christ"),
  "s078": ("veo", "The empty tomb in the garden at first light, folded linen just visible inside.", "Sunlight slowly reaches into the open entrance and falls across the folded linen.", ["sd_tomb"], "nofig christ"),
@@ -131,7 +148,7 @@ S = {
  # Eden restored
  "s083": ("still", "Thorns and dry ground under a grey sky, the ground cursed.", "Slow pan.", ["sd_thorns"], "nofig"),
  "s084": ("still", "The eastern edge of the garden at dusk seen from far outside it: a wide opening between great trees, glowing faintly, far away and out of reach. No gate, no arch, no wall, no building.", "Slow pull back.", ["g04"], "nofig"),
- "s085": ("veo", "A radiant city of light with a clear river flowing down its great street, fruit trees on both banks, lit from everywhere.", "Light swells softly; the river flows; slow push toward the city.", ["g13"], "calm nofig"),
+ "s085": ("veo", "A radiant city of light with a clear river flowing down its great street, fruit trees on both banks, lit from everywhere, the city of pale gold stone and light of no recognisable architectural style, not classical, not modern, no columns.", "Light swells softly; the river flows; slow push toward the city.", ["g13"], "calm nofig"),
  "s086": ("veo", "The tree of life on both banks of the clear river in the city, heavy with fruit, leaves catching the light.", "The river flows and leaves stir gently.", ["g13"], "lite calm nofig"),
  "s087": ("still", "Fruit and leaves of the tree of life in close view beside the shining river.", "Slow push in.", ["g13"], "nofig"),
  "s088": ("still", "Wide: the garden city in light, the river winding through groves of fruit trees, the city of light rising beyond. No houses in the foreground, no ordinary buildings.", "Slow pull back.", ["g13"], "nofig"),
@@ -144,17 +161,61 @@ S = {
 
 BEFORE_MAN = {f"s{i:03d}" for i in range(1, 16)}
 
+# Photoreal overrides: id -> (kind, scene, motion, refs, flags). People are seen nearer than in the
+# painted version but always modestly framed; s036 to s048 match films/tests/photoreal-garden.
+P = {
+ "s016": ("veo", "On the ground at first light, the man lying on his back in deep grass where he was formed, seen from the side at medium long distance with the grass hiding him below the chest, his eyes closed, and a breath of wind and warm light passing over him like a living current, the grass bending.", "The current of wind and light passes slowly over the man and the grass; he draws his first breath, his chest rising once; nothing else moves.", ["g03", "adam"], "people"),
+ "s019": ("veo", "Morning in the garden, the same man now alive, sitting up in the tall grass and looking around in wonder, seen from the side at medium distance, the grass hiding him below the chest, wind in the grass around him.", "He slowly lifts his head and looks around at the morning; the wind moves the grass; very slow push in.", ["g03", "adam"], "people"),
+ "s036": ("veo", "At sunrise the man walks into the garden through an opening in its eastern edge, seen from behind and a little to the side at medium distance, from the waist up above tall grasses, great date palms and fig trees around him.", "He walks slowly forward into the garden away from the camera between the date palms, his shoulders and arms moving naturally, tall grass in front of him; palm fronds and grasses sway gently in a light breeze. The camera follows slowly behind him at a steady distance.", ["g08", "adam"], "people"),
+ "s037": ("veo", "Inside the garden in early light the man kneels among young fig trees, hands in dark rich soil, tending the ground, seen from the chest up at medium distance, groves of fruit trees behind him.", "He gently presses the dark soil around the young fig plant with both hands and loosens the earth with his fingers, breathing calmly; the fig leaves move slightly in a soft breeze. The camera pushes in very slowly.", ["g08", "adam"], "people"),
+ "s047": ("veo", "The man sitting in tall grass beneath a fig tree at evening, seen in profile at medium distance from the shoulders up, bare shoulders, the tall grass rising in front of him, looking out over the garden in warm low light.", "He sits still beneath the fig tree, breathing slowly, then turns his head slightly to look further out over the garden; the grass and the fig leaves move in the evening breeze. Very slow pull back.", ["g08", "adam"], "people"),
+ "s049": ("still", "The man alone at evening in the wide garden, standing among the trees, seen from behind at medium distance with tall plants around him.", "Very slow push in.", ["g08", "adam"], "people"),
+ "s054": ("veo", "A wide meadow in the garden: fallow deer, wild aurochs cattle, Nubian ibex, a lion and birds coming across the grass one after another toward the man, who stands in tall grass at the far side of the meadow, seen at long distance; every animal anatomically correct and separate.", "The animals walk slowly across the meadow toward the man; birds glide in to land; the man stands still.", ["g09", "adam"], "people"),
+ "s056": ("veo", "At the edge of a meadow the man stands in tall grass, seen from behind over his shoulder, and a single Nubian ibex stands calmly before him a few steps away as he looks at it.", "The ibex lowers its head and lifts it again; the man tilts his head slightly as he looks at it; the grass moves.", ["g09", "adam"], "people"),
+ "s057": ("still", "Animals grazing in pairs across the meadow, each with its kind, and at the edge the man standing alone in tall grass, seen from the side at long distance.", "Slow pull back.", ["g09", "adam"], "people"),
+ "s058": ("still", "The man alone at the edge of the meadow at dusk, seen from behind at medium distance in tall grass, the animals moving away in pairs.", "Very slow push in.", ["g09", "adam"], "people"),
+ "s059": ("veo", "The garden at night under stars, and beneath a great tree the man lying asleep on his side in deep grass, seen at medium long distance, moonlight on his shoulder.", "Very slow push in; the stars glint and the leaves barely stir; he breathes slowly in his sleep.", ["g10", "adam"], "people"),
+ "s060": ("still", "The garden at night, the man asleep beneath a great tree in deep grass, seen at medium long distance, a soft warm light gathering quietly near him in the dark.", "Very slow push in.", ["g10", "adam"], "people"),
+ "s064": ("veo", "Morning light in the garden, and across a glade the man and the woman meeting among the trees, seen at long distance, the light warm around them.", "The man and the woman walk slowly toward each other across the glade and stop face to face; a soft breeze in the trees.", ["g11", "adam", "eve"], "people woman"),
+ "s065": ("still", "Seen from a hill above the garden, the whole green garden spread below in morning light, and far down in a glade two small figures together, barely visible.", "Slow pull back.", ["g04", "g11"], "people woman"),
+ "s069": ("veo", "The garden in full light, and across the glade the man and the woman standing together among the trees at long distance, tall plants in front of them.", "A soft breeze moves through the trees and the grass; the man and the woman stand together and turn to look out over the garden.", ["g11", "adam", "eve"], "people woman"),
+ "s070": ("still", "The man and the woman together among the trees in full warm light, seen from behind at medium long distance, heads and shoulders above tall grass, peace and no fear.", "Very slow push in.", ["g11", "adam", "eve"], "people woman"),
+}
+S.update(P)
+
+# Composition fixes after the C2 rule check (7 October 2026): each appended to the scene.
+FILL = " The image fills the whole frame edge to edge, with no blank, faded or flat band at the bottom."
+EXTRA = {
+ "s009": " Seen naturally from a high hillside, the horizon level and the sky at the top, the bay below.",
+ "s021": " Only grass on open ground, no trees, no palms, no shrubs.",
+ "s025": FILL, "s027": FILL, "s029": FILL, "s084": FILL,
+ "s032": " Seen from very high and far, the four rivers spreading away into blue haze at the edges of the world, a completely different view from the headwaters close below." + FILL,
+ "s033": " Seen from low on the riverbank in close view, mist drifting over the water where one river splits around a reed island, early light; not an aerial view." + FILL,
+ "s057": " Exactly one man in the whole picture, small at the far edge of the meadow; the animals fill the foreground.",
+ "s066": " Seen from inside the garden at ground level beneath fruit trees, small birds on the branches close to the camera; not a view from a hill.",
+ "s071": " Seen from very high above, straight down at an angle, the garden a green island in the dry land with the river winding through it; not the view from the rocks.",
+ "s091": " Seen from the edge of the bare land looking toward the garden on the horizon, dawn light spreading across the ground toward the camera; not a view from a hill.",
+ "s074": " Close among the olive trees at ground level, dew on the grass and on the gnarled trunks, first light low through the leaves; no moon.",
+ "s076": " Wide and empty, seen from the far side of the valley looking back at the dark grove on the hillside, the city wall small in the moonlight.",
+ "s086": " Close at the riverbank: one great tree of life heavy with fruit leaning over the shining water, its roots at the water's edge; not the wide street view.",
+}
+for k, v in EXTRA.items():
+    kind, scene, motion, refs, flags = S[k]
+    S[k] = (kind, scene + v, motion, refs, flags)
+
 
 def main():
     shots = json.loads((HERE / "movement-shots.json").read_text())
     assert [s["id"] for s in shots] == sorted(S), "shot ids do not match movement-shots.json"
     banned = ["deity", "god figure", "divine being", "halo", "glowing man", "angel", "temple", "idol"]
-    md = ["# The Garden: shot list (M4)\n", "Generated by `script/shotlist.py`. Decisions D1, D2 and D4 are in every prompt.\n"]
+    md = ["# The Garden: shot list (M4, photoreal)\n", "Generated by `script/shotlist.py`. Photoreal treatment (7 October 2026); decisions D2 and D4 are in every prompt.\n"]
     out, counts = [], {}
     for i, sh in enumerate(shots, 1):
         kind, scene, motion, refs, flags = S[sh["id"]]
         counts[kind] = counts.get(kind, 0) + 1
-        if "people" in flags:
+        if "woman" in flags:
+            excl = WOMAN
+        elif "people" in flags:
             excl = PEOPLE
         elif "noanatomy" in flags:
             excl = "No anatomy, no visible body detail, no standing figures, no people anywhere else, no close up."
@@ -163,8 +224,15 @@ def main():
         excl += " " + NOGOD + (" " + NOCHRIST if "christ" in flags else "")
         if sh["id"] in BEFORE_MAN and "people" not in flags and "noanatomy" not in flags:
             excl += " No person exists yet."
-        m = motion + (CALM if "calm" in flags else "")
-        prompt = f"{scene} {excl}{REFNOTE if refs else ''} {SUFFIX}"
+        m = motion + (CALM if "calm" in flags else "") + (KEEP if "people" in flags else "")
+        refs = [r for r in refs if not REF[r].startswith(PAINTED)]
+        if sh["id"] in BARE_SHOTS:
+            land = " " + BARE
+        elif sh["id"] < "s022":   # before the garden is planted: no Eden plant list
+            land = ""
+        else:
+            land = " " + NEAR_EAST if (set(refs) & GARDEN_REFS or "people" in flags) and "christ" not in flags else ""
+        prompt = f"{scene} {excl}{land}{REFNOTE if refs else ''} {SUFFIX}"
         mprompt = f"{m} {MOTION}"
         low = (prompt + mprompt).lower()
         for w in banned:

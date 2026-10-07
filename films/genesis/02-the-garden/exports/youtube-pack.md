@@ -86,7 +86,7 @@ as the second image if you run YouTube's thumbnail test.
    for viewer" to The Garden, so the two films lead into each other.
 3. Add both films to one playlist (for example "Genesis, movement by movement") in order.
 4. Chapters appear automatically from the timestamps in the description (first at 0:00).
-5. AI disclosure: answer No for this painted style, as for The Seven Days.
+5. AI disclosure: answer Yes. From 7 October 2026 The Garden is photoreal (realistic people who did not exist); the painted v1 is superseded.
 
 ## Makor in the video
 

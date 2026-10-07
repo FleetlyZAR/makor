@@ -10,7 +10,7 @@ Files (nothing uploaded):
 Built from the keyframes with slow pushes (`edit/short.py`); script in
 `script/one-minute-script.md`. Post it after the full film is up, so the Short can link to it.
 
-AI disclosure: answer No on YouTube (painted, no real people, background music), as for the
+AI disclosure: answer Yes on YouTube once the short is rebuilt from the photoreal keyframes (realistic people). The painted short said No, as for the
 full film. The text below says "Made with AI tools" on every platform.
 
 ## YouTube Shorts
