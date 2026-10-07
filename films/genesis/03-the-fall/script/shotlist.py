@@ -8,8 +8,16 @@ the edit), reuse (another shot's keyframe). Flags: lite (Veo 3.1 Lite, calm shot
 copy:PATH (keyframe copied from another film, never generated), clip:A-B (trim a clip).
 
     python3 films/genesis/03-the-fall/script/shotlist.py
+
+Photoreal treatment from 7 October 2026 (films/STYLE-BIBLE.md, "Photoreal"; shared wording in
+films/tools/photoreal.py). What the man and the woman wear follows the text: nothing before
+they eat, sewn fig leaves from 3:7, garments of hide from 3:21. Painted stills and clips are in
+stills/movement-painted/ and clips/movement-painted/.
 """
 import json, pathlib, shutil
+import sys
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[3] / "tools"))
+import photoreal as PR  # noqa: E402
 
 HERE = pathlib.Path(__file__).resolve().parent
 FILM = HERE.parent
@@ -18,19 +26,14 @@ REF = {**{f"f{i:02d}": f"stills/world/shot-{i:02d}.jpg" for i in range(1, 15)},
        **{f"g{i:02d}": f"{G}/world/shot-{i:02d}.jpg" for i in range(1, 14)},
        "g_open": f"{G}/movement/s034.jpg", "g_tent": f"{G}/movement/s035.jpg",
        "g_tomb": f"{G}/movement/s077.jpg", "g_linen": f"{G}/movement/s078.jpg",
-       "m057": "stills/movement/s057.jpg", "m098": "stills/movement/s098.jpg", "m074": "stills/movement/s074.jpg"}
+       "m057": "stills/movement/s057.jpg", "m098": "stills/movement/s098.jpg", "m074": "stills/movement/s074.jpg",
+       "adam": PR.ADAM, "eve": PR.EVE}
 EDEN = ("a vast lush garden planted in the east: groves and orderly rows of fruit trees of every kind, open glades "
         "of soft grass, a clear river flowing out of the garden toward the east")
 SNAKE = ("a small ordinary snake, slender and muted dark olive teal, seen from far away so it is only a thin dark "
          "curve, natural and unremarkable, mouth closed, no legs, nothing monstrous")
-SUFFIX = ("Hand painted matte painting, painterly illustration with visible brush texture and soft canvas grain, "
-          "reverent, still and quiet, soft diffused light, restrained palette of deep ink teal (#0E2A2E) shadows, "
-          "water teal (#0F6C6C) midtones and warm muted gold (#B8862F) light, warm cream highlights, greens rendered "
-          "as deep teal greens within the palette, wide 16:9 cinematic composition with calm space in the lower "
-          "third, fully painted edge to edge with no blank or flat areas, full frame with no borders or black bars, "
-          "no text, no lettering, no watermark, not photoreal, not cartoon, not 3D render.")
-MOTION = ("Painterly matte painting style preserved exactly, brush texture stays visible, slow and steady camera, "
-          "no camera shake, no cuts, no text appears.")
+SUFFIX = PR.SUFFIX
+MOTION = PR.MOTION
 CALM = " The water stays calm, no breaking waves, no spray."
 NOFIG = "No people, no figures, no faces, no silhouettes."
 NOGOD = "No hands and no figure in the sky, in the light or in the wind."
@@ -39,7 +42,7 @@ PEOPLE = ("Any human figure is tiny and far away, seen from behind or in profile
 NOSNAKE = "No snake."
 NOCHRIST = "Never a figure meant to be Christ."
 FRUIT = "Any fruit is round and of no particular kind, not apples."
-REFNOTE = " Match the painting style, palette and light of the reference images."
+REFNOTE = PR.REFNOTE
 
 # id: (kind, scene, motion, refs, flags)
 S = {
@@ -130,8 +133,8 @@ S = {
  "s076": ("still", "Close view of the leaves and round fruit of the tree of life in soft light, a branch filling the frame. Nothing glowing. Not apples.", "Slow push in.", ["f11"], "nofig"),
  "s077": ("still", "The whole garden seen from far outside at dusk: a long dark line of trees across a dry plain, the last light behind them.", "Slow pull back.", ["f12"], "nofig"),
  "s078": ("veo", "Seen from inside the garden, looking out through a wide opening between great trees onto a wide dry land in the evening, and far out on the dry land two tiny human figures walking away from the garden, seen from behind.", "The two tiny figures walk slowly away into the dry land; the camera stays inside the garden and does not follow; dust drifts.", ["f12", "m074"], "people"),
- "s079": ("veo", "The eastern edge of the garden at dusk: a wide opening between the great trees, and standing in the opening a slow turning ring of flame, bright gold fire circling in the air like a wheel, lighting the trunks, nothing and no one inside the ring.", "The ring of flame turns slowly and steadily in the opening, its light flickering on the trunks; nothing else moves; very slow push in.", ["f12", "g_open"], "nofig fire"),
- "s080": ("still", "The eastern opening of the garden seen from far outside across dry land at dusk, a small turning flame of light standing in it, far away and out of reach.", "Slow pull back.", ["f12"], "nofig fire"),
+ "s079": ("veo", "The eastern edge of the garden at dusk: a wide opening between the great trees, and in the opening a whirling sword of flame: a long straight blade made only of living fire, upright in the air, its gold light flashing on the trunks, no hilt, no hand, no one holding it, no ring, no hoop, no metal sword.", "The blade of fire turns and sweeps slowly round in the opening, flashing back and forth, its light flickering on the trunks; nothing else moves; very slow push in.", ["f12", "g_open"], "nofig fire"),
+ "s080": ("still", "The eastern opening of the garden seen from far outside across dry land at dusk, a small upright blade of fire turning in it, far away and out of reach, no ring, no hoop.", "Slow pull back.", ["f12"], "nofig fire"),
  "s081": ("still", "A woven tent sanctuary in the desert at dawn, its entrance facing east toward the rising light, its curtains in muted deep teal and dull gold cloth, drawn.", "Slow push in.", ["g_tent"], "nofig"),
  "s082": ("still", "A wide dry land stretching east under the evening sky, a faint path leading away into the distance.", "Slow push in.", ["f12"], "nofig"),
  "s083": ("still", "Far behind on the horizon, the garden a dark line of trees at nightfall, the land between empty.", "Slow pull back.", ["f12"], "nofig"),
@@ -157,26 +160,51 @@ S = {
  "s101": ("still", "The garden at evening seen from a rise, soft gold light over the trees, wide open space across the middle of the frame.", "Very slow push in.", ["g04"], "nofig"),
 }
 
+# Photoreal overrides: the key people moments come nearer, with the cast portraits as references.
+P = {
+ "s006": ("still", "A wide sunlit meadow in the garden full of tall flowering grass, trees around it, and in the middle of the meadow the man and the woman in full light, seen from behind at long distance, at peace, unashamed, the tall grass around them.", "Slow drift across.", ["g05", "adam", "eve"], "people"),
+ "s011": ("veo", f"The great tree in the middle of the garden, heavy with fruit; beneath it the woman, seen in profile at medium long distance, looking up at the fruit, and low in the grass near her {SNAKE}. {FRUIT}", "The woman slowly lifts her face toward the fruit; the leaves stir; the snake stays still in the grass; very slow push in.", ["f02", "eve"], "people snake one-woman"),
+ "s015": ("still", f"Ground level behind the great roots of the tree in the middle of the garden: grass and roots in the foreground, {SNAKE} in the grass a little way off, and beyond, the woman in profile at long distance.", "Very slow push in.", ["f02", "f01", "eve"], "people snake one-woman"),
+ "s021": ("still", f"The great tree in the middle of the garden in warm light, heavy with fruit, framed by its own branches, and beneath it the man and the woman at long distance, seen in profile. {FRUIT}", "Very slow push in.", ["f02", "g05", "adam", "eve"], "people"),
+ "s026": ("still", "Across the river, beneath the great tree, the man and the woman side by side, still and silent, seen in profile at medium long distance.", "Very slow push in.", ["g11", "f02", "adam", "eve"], "people"),
+ "s027": ("still", "Broad lobed fig leaves filling the near foreground, dark against the evening light, and beyond them through a gap in the leaves, the man and the woman at medium distance withdrawn into the deep shade of the trees, their faces turned away.", "Slow push in.", ["f03", "adam", "eve"], "people"),
+ "s040": ("still", "A darkening open glade with the great tree on one side, and at the far edge of the glade the man and the woman standing apart, seen in profile at medium long distance, not looking at each other.", "Slow drift across.", ["g05", "adam", "eve"], "people"),
+ "s042": ("still", "Near the great tree at dusk, the man alone among the trunks, seen in profile at medium long distance, his head bowed.", "Very slow push in.", ["f02", "adam"], "people one-man"),
+ "s070": ("still", "First light at the edge of a misty glade, a great tree on the far side, and beneath it the man and the woman standing together, seen from behind at medium long distance, his hand on her shoulder.", "Very slow push in.", ["g05", "adam", "eve"], "people"),
+ "s074": ("still", "The man and the woman walking along the river bank in morning light, seen from behind at medium long distance, trees along the water.", "Slow drift across.", ["g05", "adam", "eve"], "people calm hides"),
+ "s078": ("veo", "Seen from inside the garden, looking out through a wide opening between great trees onto a wide dry land in the evening, and out on the dry land the man and the woman walking away from the garden, seen from behind at long distance.", "The man and the woman walk slowly away into the dry land; the camera stays inside the garden and does not follow; dust drifts.", ["f12", "m074", "adam", "eve"], "people hides"),
+}
+S.update(P)
+
 
 def main():
     shots = json.loads((HERE / "movement-shots.json").read_text())
     assert [s["id"] for s in shots] == sorted(S), "shot ids do not match movement-shots.json"
     banned = ["deity", "god figure", "divine being", "halo", "glowing man", "angel", "temple", "idol",
               "serpent", "cherub"]
-    md = ["# The Fall: shot list (M4)\n",
+    md = ["# The Fall: shot list (M4, photoreal)\n",
           "Generated by `script/shotlist.py`. Decisions D1, D3, D4, D5 and D6 are in every prompt.\n"]
     out, counts, copied = [], {}, 0
     for i, sh in enumerate(shots, 1):
         kind, scene, motion, refs, flags = S[sh["id"]]
         counts[kind] = counts.get(kind, 0) + 1
-        excl = PEOPLE if "people" in flags else NOFIG
+        n = int(sh["id"][1:])
+        if "people" in flags:
+            excl = PR.HIDES if "hides" in flags else PR.BEFORE_FIGS if n < 27 else PR.FIG_LEAVES
+            if "one-woman" in flags:
+                excl = excl.replace("The man and the woman are the man and the woman in the reference portraits", "The woman is the woman in the reference portrait")
+            elif "one-man" in flags:
+                excl = excl.replace("The man and the woman are the man and the woman in the reference portraits", "The man is the man in the reference portrait")
+        else:
+            excl = NOFIG
         excl += " " + NOGOD + ("" if "snake" in flags else " " + NOSNAKE)
         if "fire" in flags:
             excl += " No winged figures, no beings, no faces in the fire, no gate, no wall, no blade held by anyone."
         if "christ" in flags:
             excl += " " + NOCHRIST
-        m = motion + (CALM if "calm" in flags else "")
-        prompt = f"{scene} {excl}{REFNOTE if refs else ''} {SUFFIX}" if scene else ""
+        m = motion + (CALM if "calm" in flags else "") + (PR.KEEP if "people" in flags else "")
+        land = (" " + PR.NEAR_EAST) if "garden" in scene.lower() and "christ" not in flags and "fire" not in flags else ""
+        prompt = f"{scene} {excl}{land}{REFNOTE if refs else ''} {SUFFIX}" if scene else ""
         mprompt = f"{m} {MOTION}"
         if "people" not in flags and kind in ("veo", "ff"):
             mprompt += " No people, no figures appear."

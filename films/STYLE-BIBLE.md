@@ -1,8 +1,8 @@
 # Makor films: style bible
 
-**Photoreal from The Garden onward (7 October 2026).** Luyanda approved the photoreal
+**Photoreal for every film except The Seven Days (7 October 2026).** Luyanda approved the photoreal
 treatment after the test in `films/tests/` (Adam portrait B, the animated sample of "To
-cultivate and keep"). The section "Photoreal" below replaces "The look", "People", the style
+cultivate and keep"). Shared prompt wording: `films/tools/photoreal.py`. The section "Photoreal" below replaces "The look", "People", the style
 suffix and the motion suffix for every film from The Garden on. The painted rules that follow
 it stay for reference and for The Seven Days, which keeps its painted look. Everything under
 "What is never shown", "Christ", "History and the nations" and "Banned prompt words" holds for

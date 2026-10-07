@@ -31,16 +31,19 @@ Read this first in any new session working on Makor films.
     publishing pack. Artwork is done (6 October): thumbnails A s023 (the garden in the east)
     and B s088 (the garden city), with 1280x720 previews, channel icon and watermark, in
     `exports/art/`; it does not change with the clips. Then disable the scheduled task.
-- **Photoreal from The Garden on (7 October 2026).** Luyanda approved the photoreal treatment
-  (`STYLE-BIBLE.md`, "Photoreal") after the test in `films/tests/` (photoreal-adam: Adam
-  portrait B; photoreal-garden: the animated sample of "To cultivate and keep", 14.16 USD).
-  The Garden is being redone: painted stills in `stills/world-painted/` and
-  `stills/movement-painted/`, painted clips in `clips/movement-painted/`, cast in
-  `stills/cast/` (adam.jpg, eve.jpg = option A), `script/world_bible.py` and
-  `script/shotlist.py` rewritten (26 Veo shots, 10 Lite). s036 to s048 and the clips
-  s036, s037, s047 come from the test. `makor-veo-daily` is paused until the photoreal
-  keyframes pass checkpoint C2; then re-point it at the new Veo list. The Fall is still
-  painted and its task `makor-fall-veo-daily` still runs; decide before it spends more.
+- **Photoreal for every film except The Seven Days (7 October 2026).** Luyanda approved the
+  photoreal treatment (`STYLE-BIBLE.md`, "Photoreal"; shared prompt wording in
+  `tools/photoreal.py`) after the test in `films/tests/`. The Seven Days stays painted as it is.
+  Each converted film keeps its painted stills and clips in `stills/*-painted/` and
+  `clips/movement-painted/`.
+  - The Garden: cast in `stills/cast/` (adam.jpg = portrait B, eve.jpg = option A), photoreal
+    world bible and all 92 keyframes passed C2 (24.72 USD). `makor-veo-daily` is re-pointed at
+    the 23 remaining photoreal clips (13 Fast, 10 Lite; stop at 50 USD) from 8 October. Then
+    rebuild v1, YouTube, vertical, short and artwork (AI disclosure Yes).
+  - The Fall: `makor-fall-veo-daily` paused (its painted clips retired). `world_bible.py` and
+    `shotlist.py` converted (nothing worn before 3:7, fig leaves from 3:7, hides from 3:21;
+    key people shots nearer). Its 98 keyframes wait for Luyanda's approval to pass the 25 USD
+    checkpoint; then C2, then re-point its task.
 - **The Fall** (Genesis 3:1 to 24), `films/genesis/03-the-fall/`: started 6 October 2026.
   - M0 draft done: `script/movement.py` (24 verses verified, 11 chapters, about 11:53
     estimated). C1 passed: script and all ten decisions approved (quotations kept), see
