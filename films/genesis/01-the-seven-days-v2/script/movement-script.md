@@ -24,17 +24,18 @@ study JSON (checked by the generator). Words: GOD 322, GUIDE 898, READER 566.
 ```
 
 ## 0:00  Cold open
-*Picture:* Black. Silence. A single drop of water falls into still black water: one ripple, and at its centre one tiny point of light.
-*2 s, no voice:* The drop. Silence.
+*Picture:* Black. Silence. God speaks into the dark; then a single drop of water falls into still black water, and where it touches, one tiny point of light.
+*0.6 s, no voice:* Black. Silence.
 **GOD** Let there be light,  <sub>(Genesis 1:3, flash-forward, quoted verbatim from the study) m001</sub>
-*Picture:* The point of light bursts outward: pure white-gold light floods out in every direction, filling everything. Light only, no stars, no galaxies (the stars come on Day Four).
-*4 s, no voice:* The burst: one frame of silence, then a deep boom and the score's first great swell.
-*Picture:* Montage in Genesis order, about one second a shot, the score driving: the deep, the sky, land rising, forests, sea creatures, herds, the man and the woman far off in a garden, the flood, Abraham under the stars, the brick pits of Egypt, the tabernacle in the wilderness, Jerusalem at dawn, the garden tomb with its stone rolled away (no figures), the long road of the centuries, a city of today at night seen from far above.
+*2.0 s, no voice:* The drop falls and touches the water.
+*Picture:* The point of light bursts outward and white-gold light fills the whole screen, then thins and almost fades out, opening the dark of space for what comes next.
+*3.4 s, no voice:* The burst: a deep boom and the score's first great swell; the light fills everything, then dims.
+*Picture:* Small balls of starlight fly past us as space opens, and we rush into the earth and down into the garden. Then the montage in Genesis order, about one second a shot, the score driving: the deep, the sky, land rising, forests, sea creatures, herds, the man and the woman far off in a garden, the flood, Abraham under the stars, the brick pits of Egypt, the tabernacle in the wilderness, Jerusalem at dawn, the garden tomb with its stone rolled away (no figures), the long road of the centuries, a city of today at night seen from far above.
 *12 s, no voice:* Through all of history to today.
 *Picture:* Everything rushes backward, faster and faster, and collapses into a single point of light. Silence. The point drifts and becomes a spark rising from a kiln fire in Egypt at night (match cut).
-*3 s, no voice:* Rewind into a single point; silence; the spark.
+*4 s, no voice:* Rewind into a single point; silence; the spark.
 *Picture:* Egypt at night: brick pits by firelight, mud moulds slapped full, the brick-maker's mud-caked hands. He straightens and lifts his eyes to the sky.
-*3 s, no voice:* Wet clay, fire, distant work drums.
+*2 s, no voice:* Wet clay, fire, distant work drums.
 **GOD** Let Us make man in Our image,  <sub>(Genesis 1:26, flash-forward, quoted verbatim from the study) m002</sub>
 *Picture:* Hold on the brick-maker, chest up, firelight on his face; then black.
 **GUIDE** Every nation told a story of how the world began. In Babylon's, people were made to carry the labour of the gods. Then a nation of slaves heard this one.  <sub>[study.context.historical, study.hermeneutics.authorIntent] m003</sub>

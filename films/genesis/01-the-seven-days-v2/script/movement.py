@@ -18,17 +18,18 @@ from movement_script import Film  # noqa: E402
 
 CHAPTERS = [
     ("Cold open", [
-        ("PIC", "Black. Silence. A single drop of water falls into still black water: one ripple, and at its centre one tiny point of light."),
-        ("BEAT", 2, "The drop. Silence."),
+        ("PIC", "Black. Silence. God speaks into the dark; then a single drop of water falls into still black water, and where it touches, one tiny point of light."),
+        ("BEAT", 0.6, "Black. Silence."),
         ("Q", "Let there be light,", "Genesis 1:3, flash-forward", "GOD"),
-        ("PIC", "The point of light bursts outward: pure white-gold light floods out in every direction, filling everything. Light only, no stars, no galaxies (the stars come on Day Four)."),
-        ("BEAT", 4, "The burst: one frame of silence, then a deep boom and the score's first great swell."),
-        ("PIC", "Montage in Genesis order, about one second a shot, the score driving: the deep, the sky, land rising, forests, sea creatures, herds, the man and the woman far off in a garden, the flood, Abraham under the stars, the brick pits of Egypt, the tabernacle in the wilderness, Jerusalem at dawn, the garden tomb with its stone rolled away (no figures), the long road of the centuries, a city of today at night seen from far above."),
+        ("BEAT", 2.0, "The drop falls and touches the water."),
+        ("PIC", "The point of light bursts outward and white-gold light fills the whole screen, then thins and almost fades out, opening the dark of space for what comes next."),
+        ("BEAT", 3.4, "The burst: a deep boom and the score's first great swell; the light fills everything, then dims."),
+        ("PIC", "Small balls of starlight fly past us as space opens, and we rush into the earth and down into the garden. Then the montage in Genesis order, about one second a shot, the score driving: the deep, the sky, land rising, forests, sea creatures, herds, the man and the woman far off in a garden, the flood, Abraham under the stars, the brick pits of Egypt, the tabernacle in the wilderness, Jerusalem at dawn, the garden tomb with its stone rolled away (no figures), the long road of the centuries, a city of today at night seen from far above."),
         ("BEAT", 12, "Through all of history to today."),
         ("PIC", "Everything rushes backward, faster and faster, and collapses into a single point of light. Silence. The point drifts and becomes a spark rising from a kiln fire in Egypt at night (match cut)."),
-        ("BEAT", 3, "Rewind into a single point; silence; the spark."),
+        ("BEAT", 4, "Rewind into a single point; silence; the spark."),
         ("PIC", "Egypt at night: brick pits by firelight, mud moulds slapped full, the brick-maker's mud-caked hands. He straightens and lifts his eyes to the sky."),
-        ("BEAT", 3, "Wet clay, fire, distant work drums."),
+        ("BEAT", 2, "Wet clay, fire, distant work drums."),
         ("Q", "Let Us make man in Our image,", "Genesis 1:26, flash-forward", "GOD"),
         ("PIC", "Hold on the brick-maker, chest up, firelight on his face; then black."),
         ("GUIDE", "Every nation told a story of how the world began. In Babylon's, people were made to carry the labour of the gods. Then a nation of slaves heard this one.", "study.context.historical, study.hermeneutics.authorIntent"),  # new in v2

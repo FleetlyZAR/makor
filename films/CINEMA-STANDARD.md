@@ -96,8 +96,12 @@ From the first Veo Standard clips of The Seven Days v2 (the drop s002, the burst
    usable range to fill a shot (the burst: 2 s of clip across 4 s).
 6. **Montage shots under 1.2 s** move faster (a stronger push in) so they read as alive even as
    stills; set pieces and cast shots get real motion.
-7. **No other animator is connected.** Runway, Kling, Luma or Sora would need a new account and a
-   connector; Gemini Omni Flash (`omni_clip.py`, 720p) is a cheaper fallback for non hero shots.
+7. **Gemini Omni Flash is the main animator from the pilot on** (decision of 8 October 2026):
+   `films/tools/omni_clips.py` makes one 10 s clip per shot from the shot's own keyframe as the first
+   frame, with the cast portraits as references, so faces hold (the brick-maker s022 held his face,
+   beard and tunic for all 10 s). 1080p, about 1.50 USD a clip (8,688 video tokens a second at 17.50
+   USD per million), about 3 minutes each, 20 a day per Omni model at Tier 1. `omni_clip.py` is the
+   older single mode version (720p, The Garden).
 8. **vidIQ (connected) animates without our Google limit**, text to video only in practice (its
    start frame must be passed inline as base64, which is not workable from here). Use it for
    shots with no cast: the Big Bang, the earth, clouds, aerials. Cost: Veo 3.1 Standard 640
@@ -108,3 +112,13 @@ From the first Veo Standard clips of The Seven Days v2 (the drop s002, the burst
    the centre" and still check every frame.
 10. **One continuous move per clip, cut across shots**: one 8 s clip can serve two or three
    storyboard shots (the earth zoom covers s004 and s005), which halves the cost.
+11. **Continuous passages are one take, not separate clips.** Omni follows timecodes in the prompt
+   ("[0-3s] ... [3-6s] ..."), so a sequence such as light, stars, earth is written as one 10 s
+   take and cut across several shots (`omni.mode` "text" or "same" in the storyboard), then
+   continued with Omni's multi turn extension ("extend") so the next stretch joins without a seam.
+   A match cut between two different places is a "bridge": the first frame comes from the
+   previous clip at the cut point and the next shot's keyframe is the last frame.
+12. **The edit runs at 24 fps** (Omni's rate), trims sit in the middle of a clip by default,
+   montage shots run a little faster, a window never crosses a cut Omni made inside a clip, and a
+   shot longer than its clip is slowed with motion interpolation, never with repeated frames.
+

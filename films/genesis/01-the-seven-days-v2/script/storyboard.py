@@ -43,8 +43,9 @@ BANNED = ["deity", "god figure", "divine being", "halo", "glowing man", "angel",
 EGYPT = "Ancient Egypt by the Nile: date palms, reeds, mud brick, no statues, no carvings of figures, no pyramids in close view."
 
 
-def S(scene, kind="still", refs=(), flags="", motion="Slow push in.", w=1.0, src=None):
-    return dict(scene=scene, kind=kind, refs=list(refs), flags=flags, motion=motion, w=w, src=src)
+def S(scene, kind="still", refs=(), flags="", motion="Slow push in.", w=1.0, src=None, omni=None):
+    # omni: how films/tools/omni_clips.py makes this shot's clip when it is not the default (from the keyframe)
+    return dict(scene=scene, kind=kind, refs=list(refs), flags=flags, motion=motion, w=w, src=src, omni=omni)
 
 
 def bm(scene, kind="veo", motion="Slow push in.", w=1.0, flags="bm"):
@@ -53,28 +54,52 @@ def bm(scene, kind="veo", motion="Slow push in.", w=1.0, flags="bm"):
 
 # one list of shots per picture segment, in timeline order (index = PIC event number)
 SEG = {
-    0: [S("", "graphic", flags="pure black with the faintest grain: no light exists yet (made in the edit)", w=1),
+    # God speaks into the black; only then the drop (the light comes after the word)
+    0: [S("", "graphic", flags="pure black with the faintest grain while God speaks: no light exists yet (made in the edit)",
+          w=2.965),
         S("Extreme macro: a single drop of water falling in total darkness toward still black water, caught just above "
           "the surface, and at the centre of the surface one tiny point of warm white light.", "veo",
-          motion="The drop falls and touches the water; one ring spreads; the point of light brightens.", w=1.2)],
+          motion="The drop falls and touches the still water; one ring spreads; where it touched, one tiny point of warm "
+          "white light appears and brightens until it flares.", w=2.0)],
+    # one continuous take (Omni, text to video), cut into s003, s004 and s005; extended for s006 and s007
     1: [S("One single continuous full frame image, no panels, no split, no border. The Big Bang: complete darkness all around, and at the very centre a single point of white-gold light "
           "erupting outward in every direction at once, light and glowing star dust exploding toward the camera, "
           "streams of luminous debris shooting past the lens on every side, the darkness torn open by light.", "veo",
-          motion="The light erupts from the point and rushes outward toward and past the camera, glowing dust streaming "
-          "past on all sides, the camera flying forward into the light.")],
-    # the zoom in: through the dust to the earth, down through the clouds, into the garden; then history to today
-    2: [S("Flying through glowing star dust and drifting light in darkness, a small blue and green world appearing far "
-          "ahead at the centre of the frame.", "veo", motion="The camera rushes forward through the dust toward the "
-          "world, the dust streaming past.", w=1.5),
-        S("The earth seen from space, blue seas and green land under white cloud, filling more of the frame as we "
-          "approach, darkness around it, no sun in the frame.", "veo", motion="The camera dives toward the earth.", w=1.5),
+          omni=dict(mode="text", prompt=(
+              "One continuous shot, deep space, cinematic. [0-1s] Total darkness; at the exact centre a single tiny point of "
+              "white-gold light flares. [1-3s] The light erupts outward in every direction and floods toward the camera until "
+              "brilliant white-gold light fills the entire frame edge to edge. [3-4.5s] The light thins and dims, fading almost "
+              "to black, as if making room, the dark of space opening. [4.5-7.5s] Out of the dark, countless small glowing balls "
+              "of starlight fly past the camera on every side as we move forward ever faster, space opening deep and wide around "
+              "us. [7.5-10s] Far ahead a small blue and green world appears, the earth, with Africa, Arabia and the "
+              "Mediterranean facing us, and we rush toward it as the last stars stream past. Light as a flood and as points of "
+              "starlight, never a single glowing sphere in the middle of the frame. Sound: a deep sub boom at one second, "
+              "then rushing air. No music, no voices, no text.")))],
+    # the zoom in: the same take; down through the clouds into the garden; then history to today
+    2: [S("Small glowing balls of starlight streaming past the camera in deep darkness, space opening, a small blue and green "
+          "world far ahead.", "veo", motion="The camera rushes forward, the stars streaming past.", w=1.5,
+          omni=dict(mode="same", clip="s003")),
+        S("The earth seen from space, blue seas and green land under white cloud, Africa, Arabia and the Mediterranean "
+          "facing us, filling more of the frame as we approach.", "veo", motion="The camera dives toward the earth.", w=1.5,
+          omni=dict(mode="same", clip="s006")),
         S("Plunging down through white clouds, a green river land opening below in morning light.", "veo",
-          motion="The camera dives down through the clouds toward the land.", w=1.5),
+          motion="The camera dives down through the clouds toward the land.", w=1.5,
+          omni=dict(mode="extend", clip="s003", prompt=(
+              "Extend this video as one continuous shot, no cut. [0-4s] We plunge into the earth's atmosphere over the Near "
+              "East and dive down through bright white clouds; below them a green river land opens in early morning light. "
+              "[4-10s] We glide low and fast over date palms, fig and olive groves toward a winding river in a garden at first "
+              "light, mist on the water. " + PR.NEAR_EAST + " No people. Sound: wind, then birds and water. No music, no "
+              "voices, no text."))),
         S("Aerial descent over date palms, fig and olive groves toward a winding river in a garden at first light. "
-          + PR.NEAR_EAST, "veo", motion="The camera descends toward the river and the trees.", w=1.5),
+          + PR.NEAR_EAST, "veo", motion="The camera descends toward the river and the trees.", w=1.5,
+          omni=dict(mode="same", clip="s006")),
         S("The man and the woman together in the garden at first light by the river, a close two shot framed from the "
           "chest up, both facing the light, the dawn on their faces; her long hair falls over her chest; the bottom of the "
-          "frame is at their chests, nothing lower is in the picture.", refs=["adam", "eve"], flags="pair", w=0.6),
+          "frame is at their chests, nothing lower is in the picture.", refs=["adam", "eve"], flags="pair", w=0.6,
+          omni=dict(prompt="The man and the woman stand side by side in the garden at first light, framed from the chest "
+                    "up exactly as in the image, looking toward the dawn with quiet wonder. A soft breeze stirs her long "
+                    "hair, which stays where it is over her shoulders. The camera pushes in very slowly. The framing never "
+                    "widens or drops lower.")),
         S("Fruit trees and a river in the garden in Eden, morning mist, birds over the water. " + PR.NEAR_EAST, w=0.6),
         S("The garden in Eden at first light: a clear river winding between groves of fruit trees and date palms, "
           "meadows of tall grass, mist in the low sun. " + PR.NEAR_EAST, w=0.6),
@@ -95,10 +120,17 @@ SEG = {
         S("A modern city at night seen from far above, rivers of light, streets glowing to the horizon.", w=0.6)],
     # the zoom out: back up from today to the single point, which becomes the spark in Egypt
     3: [S("Rising fast from a modern city at night up through the clouds, the night side of the earth below, the earth "
-          "shrinking into darkness toward a single point of light.", "veo", motion="The camera pulls back and up at great "
-          "speed, the earth shrinking to a single bright point in black.", w=1.2),
+          "shrinking into darkness toward a single point of light.", "veo", motion="[0-2s] The camera pulls back and up at "
+          "tremendous speed from the city through the clouds into space. [2-3.5s] The night side of the earth shrinks away "
+          "into the dark until it is a single bright point of light in black. [3.5-10s] The single point of light hangs in "
+          "the black and drifts very slowly upward.", w=1.2),
         S("A single glowing spark rising from a kiln fire into the black night sky, a few embers around it.", "veo",
-          motion="The spark drifts upward and the fire comes into view below.", w=0.8)],
+          motion="The spark drifts upward and the fire comes into view below.", w=1.5,
+          omni=dict(mode="bridge", clip="s019", at=5.2, prompt=(
+              "One continuous shot. The single point of light in the black drifts upward and becomes a glowing ember, a spark "
+              "rising into a night sky; the camera tilts gently down to find the kiln fire it rose from, in the brick pits of "
+              "ancient Egypt at night, embers drifting. Use the first image as the starting frame and the second image as the "
+              "final frame. No people. Sound: crackling fire. No music, no voices, no text.")))],
     4: [S("", "reuse", src="stills/cast/shot-05.jpg"),
         bm("His mud caked hands pressing wet clay into a wooden brick mould by firelight, rows of fresh bricks beside "
            "him; his face partly visible above, lit by the fire.", motion="He presses the clay and lifts the mould.")],

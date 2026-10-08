@@ -164,5 +164,21 @@ ElevenLabs credits valued at the Creator plan rate (22 USD for 131,000 credits).
 | 156 | 2026-10-08 | Nano Banana Pro (gemini-3-pro-image) | still shot 141 (16:9) -> stills/movement/s141.jpg | 1 image 2K | 0.134 | 27.580 |
 | 157 | 2026-10-08 | Nano Banana Pro (gemini-3-pro-image) | still shot 144 (16:9) -> stills/movement/s144.jpg | 1 image 2K | 0.134 | 27.714 |
 | 158 | 2026-10-08 | Nano Banana Pro (gemini-3-pro-image) | still shot 148 (16:9) -> stills/movement/s148.jpg | 1 image 2K | 0.134 | 27.848 |
+| 159 | 2026-10-08 | Gemini Omni (gemini-omni-1.1-flash) | clip s019 1080p | 86880 video tokens | 1.522 | 29.370 |
+| 160 | 2026-10-08 | Gemini Omni (gemini-omni-1.1-flash) | clip s003 1080p | 86880 video tokens | 1.521 | 30.891 |
+| 161 | 2026-10-08 | Gemini Omni (gemini-omni-1.1-flash) | clip s002 1080p | 86880 video tokens | 1.522 | 32.413 |
+| 162 | 2026-10-08 | Gemini Omni (gemini-omni-1.1-flash) | clip s006 1080p | 86880 video tokens | 1.607 | 34.020 |
+| 163 | 2026-10-08 | Gemini Omni (gemini-omni-1.1-flash) | clip s009 1080p | 86880 video tokens | 1.522 | 35.542 |
+| 164 | 2026-10-08 | Gemini Omni (gemini-omni-flash-preview) | clip s020 1080p | 86880 video tokens | 1.524 | 37.066 |
+| 165 | 2026-10-08 | Gemini Omni (gemini-omni-flash-preview) | clip s011 1080p | 86880 video tokens | 1.522 | 38.588 |
+| 166 | 2026-10-08 | Gemini Omni (gemini-omni-flash-preview) | clip s012 1080p | 86880 video tokens | 1.522 | 40.110 |
+| 167 | 2026-10-08 | Gemini Omni (gemini-omni-flash-preview) | clip s010 1080p | 86880 video tokens | 1.522 | 41.632 |
+| 168 | 2026-10-08 | Gemini Omni (gemini-omni-flash-preview) | clip s013 1080p | 86880 video tokens | 1.522 | 43.154 |
+| 169 | 2026-10-08 | Gemini Omni (gemini-omni-flash-preview) | clip s014 1080p | 86880 video tokens | 1.522 | 44.676 |
+| 170 | 2026-10-08 | Gemini Omni (gemini-omni-flash-preview) | clip s015 1080p | 86880 video tokens | 1.522 | 46.198 |
+| 171 | 2026-10-08 | Gemini Omni (gemini-omni-flash-preview) | clip s017 1080p | 86880 video tokens | 1.522 | 47.720 |
+| 172 | 2026-10-08 | Gemini Omni (gemini-omni-flash-preview) | clip s016 1080p | 86880 video tokens | 1.522 | 49.242 |
+| 173 | 2026-10-08 | Gemini Omni (gemini-omni-flash-preview) | clip s018 1080p | 86880 video tokens | 1.522 | 50.764 |
+| 174 | 2026-10-08 | Gemini Omni (gemini-omni-flash-preview) | clip s021 1080p | 86880 video tokens | 1.522 | 52.286 |
 
-Running total: 27.85
+Running total: 52.29

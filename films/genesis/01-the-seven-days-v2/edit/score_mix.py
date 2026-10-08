@@ -26,7 +26,7 @@ TOTAL = T["total"]
 # (track, start, end, crest or None, volume, fade in, fade out[, seek seconds into the track])
 # Consecutive cues overlap and crossfade; a track never runs out before its scene (checked below).
 CUES = [
-    ("theme-light", 4.4, 20.6, 15.0, 0.9, 0.05, 0.4),      # the burst and the run through history; cut at the rewind
+    ("theme-light", 5.0, 20.6, 15.0, 0.9, 0.05, 0.4),      # the burst and the run through history; cut at the rewind
     ("river-of-tears", 23.4, 88.4, None, 0.55, 3.0, 4.0, 37.0),  # Egypt and the other stories; fades before its second break
     ("dissemination", 100.8, 153.0, 129.5, 0.6, 1.5, 4.0),  # In the beginning: crest on the light
     ("himalayan-moon", 150.0, 218.6, None, 0.45, 4.0, 3.0), # formless and void, teaching (crossfades in)
@@ -44,7 +44,8 @@ CUES = [
 
 # designed hits, never ducked: (file, time, volume)
 HITS = [
-    ("drop", 0.6, 1.0), ("bang", 4.35, 1.0), ("rewind", 17.5, 0.8), ("hit", 43.1, 0.8),
+    ("drop", 3.0, 1.0), ("bang", 5.04, 1.0),   # God speaks in the black, then the drop, then the burst
+    ("rewind", 17.5, 0.8), ("hit", 43.1, 0.8),
     ("drop", 121.6, 0.9), ("hit", 129.5, 0.7),               # Day One: the opening's drop returns, then the break
     ("hit", 531.6, 0.6), ("hit", 790.0, 0.6), ("hit", 867.8, 0.5),
 ] + [("whoosh", t, 0.25) for t in (9.0, 11.5, 14.0, 16.5)] \
