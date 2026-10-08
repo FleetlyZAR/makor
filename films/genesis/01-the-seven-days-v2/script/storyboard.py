@@ -93,9 +93,10 @@ SEG = {
         S("Aerial descent over date palms, fig and olive groves toward a winding river in a garden at first light. "
           + PR.NEAR_EAST, "veo", motion="The camera descends toward the river and the trees.", w=1.5,
           omni=dict(mode="same", clip="s006")),
-        S("The man and the woman together in the garden at first light by the river, a close two shot framed from the "
-          "chest up, both facing the light, the dawn on their faces; her long hair falls over her chest; the bottom of the "
-          "frame is at their chests, nothing lower is in the picture.", refs=["adam", "eve"], flags="pair", w=0.6,
+        S("The man and the woman together in the garden at first light by the river, a tight two shot of their heads and "
+          "shoulders only, both facing the light, the dawn on their faces; her long thick hair falls forward over both her "
+          "shoulders; the bottom edge of the frame is at their collarbones, so no chest is in the picture at all; "
+          "palms and pomegranate trees soft behind them.", refs=["adam", "eve"], flags="pair", w=0.6,
           omni=dict(prompt="The man and the woman stand side by side in the garden at first light, framed from the chest "
                     "up exactly as in the image, looking toward the dawn with quiet wonder. A soft breeze stirs her long "
                     "hair, which stays where it is over her shoulders. The camera pushes in very slowly. The framing never "
@@ -292,8 +293,12 @@ SEG = {
            motion="The water spreads over the land."),
          S("Storm over the flood, rain and dark water to the horizon."),
          S("The clouds breaking and light pouring down on the water."),
-         S("A radiant city of light on a high mountain, gates of pearl standing open, no sun in the sky, light coming "
-           "from the city itself.", "veo", motion="Slow rise toward the city.", w=1.2),
+         S("The new Jerusalem seen from far off at dusk: a vast square city of pale gold stone and clear crystal walls on a "
+           "great high mountain, its walls glowing from within with warm light, a high gate of pearl standing open in the "
+           "wall with light pouring out across the mountainside; low, broad and ancient in form, simple flat roofed "
+           "buildings of the ancient Near East behind the walls. No sun in the sky; the light comes from the city itself. "
+           "No castle, no spires, no turrets, no domes, no fairytale palace, no European architecture.", "veo",
+           motion="Slow rise toward the city.", w=1.2),
          S("A clear river of the water of life flowing from the city through a broad street, trees of life on both "
            "banks bearing fruit.", "veo", motion="Slow push along the river.", w=1.2),
          S("A new world of hills and rivers in radiant light, with no sea anywhere, a land without end.", w=1.2),

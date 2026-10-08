@@ -2,8 +2,9 @@
 """Picture preview of a stretch of The Seven Days v2 with the full mix underneath.
 
 Each shot from script/shotlist.json becomes a 1920x1080, 24 fps segment. Its clip is the Omni clip
-(clips/omni, films/tools/omni_clips.py; a shot marked "same" cuts from another shot's clip), else an older
-Veo clip (clips/movement), else its still with a slow move; graphics are black. CLIP_TRIMS sets the source
+(clips/omni, films/tools/omni_clips.py; a shot marked "same" cuts from another shot's clip), else the LTX
+clip (clips/ltx, films/tools/ltx_clips.py; PREFER_LTX turns the order round), else an older Veo clip
+(clips/movement), else its still with a slow move; graphics are black. CLIP_TRIMS sets the source
 ranges by hand (joined to fill the shot); without one the window is chosen automatically: the middle of the
 clip, a little faster for montage shots, moved clear of any cut Omni put inside the clip, and shots longer
 than the clip are slowed with motion interpolation so they stay smooth. The mix (edit/score/mix.wav) runs
@@ -28,8 +29,11 @@ CLIP_TRIMS = {
     "s019": [(0.4, 5.2)],                 # from the city up through the clouds; the earth shrinks to one point
     "s020": [(2.0, 10.0)],                # bridge from s019's point: the point becomes a spark; the kiln fire below
     "s022": [(6.8, 9.9)],                 # Omni from the keyframe: he presses the mud, lifts the mould
+    "s023": [(0.2, 5.5)],                 # stop before the push ends in an extreme close up (style bible)
 }
-CROPS = {}                                # by hand when bars() gets a clip wrong
+PREFER_LTX = set()                        # shots where the LTX clip (clips/ltx) beats the Omni one
+CROPS = {                                 # by hand: bars() got a clip wrong, or framing must be tightened
+}
 SHOTS = {s["id"]: s for s in json.loads((FILM / "script/shotlist.json").read_text())}
 TITLES = {"s025": ("THE SEVEN DAYS", "Genesis 1:1 to 2:3", 2.9)}   # shot: (title, subtitle, seconds in)
 
@@ -83,7 +87,8 @@ def bars(path):
 def clip_for(sh):
     o = sh.get("omni") or {}
     src = o.get("clip") if o.get("mode") == "same" else sh["id"]
-    for p in (FILM / "clips/omni" / f"{src}.mp4", FILM / "clips/movement" / f"{src}.mp4"):
+    order = ["ltx", "omni"] if src in PREFER_LTX else ["omni", "ltx"]
+    for p in [FILM / "clips" / d / f"{src}.mp4" for d in order] + [FILM / "clips/movement" / f"{src}.mp4"]:
         if p.exists():
             return p
     return None

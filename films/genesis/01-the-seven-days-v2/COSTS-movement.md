@@ -180,5 +180,25 @@ ElevenLabs credits valued at the Creator plan rate (22 USD for 131,000 credits).
 | 172 | 2026-10-08 | Gemini Omni (gemini-omni-flash-preview) | clip s016 1080p | 86880 video tokens | 1.522 | 49.242 |
 | 173 | 2026-10-08 | Gemini Omni (gemini-omni-flash-preview) | clip s018 1080p | 86880 video tokens | 1.522 | 50.764 |
 | 174 | 2026-10-08 | Gemini Omni (gemini-omni-flash-preview) | clip s021 1080p | 86880 video tokens | 1.522 | 52.286 |
+| 175 | 2026-10-08 | Gemini Omni (gemini-omni-flash-preview) | clip s023 1080p | 86880 video tokens | 1.522 | 53.808 |
+| 176 | 2026-10-08 | Gemini Omni (gemini-omni-flash-preview) | clip s024 1080p | 86880 video tokens | 1.522 | 55.330 |
+| 177 | 2026-10-08 | Gemini Omni (gemini-omni-flash-preview) | clip s025 1080p | 86880 video tokens | 1.522 | 56.852 |
+| 178 | 2026-10-08 | Gemini Omni (gemini-omni-flash-preview) | clip s026 1080p | 86880 video tokens | 1.522 | 58.374 |
+| 179 | 2026-10-08 | Gemini Omni (gemini-omni-flash-preview) | clip s027 1080p | 86880 video tokens | 1.522 | 59.896 |
+| 180 | 2026-10-08 | Gemini Omni (gemini-omni-flash-preview) | clip s028 1080p | 86880 video tokens | 1.524 | 61.420 |
+| 181 | 2026-10-08 | Gemini Omni (gemini-omni-flash-preview) | clip s029 1080p | 86880 video tokens | 1.522 | 62.942 |
+| 182 | 2026-10-08 | Gemini Omni (gemini-omni-flash-preview) | clip s030 1080p | 86880 video tokens | 1.522 | 64.464 |
+| 183 | 2026-10-08 | Nano Banana 2 (gemini-3.1-flash-image) | still shot 112 (16:9) -> stills/movement/s112.jpg | 1 image 2K | 0.067 | 64.531 |
+| 184 | 2026-10-08 | Nano Banana 2 (gemini-3.1-flash-image) | still shot 142 (16:9) -> stills/movement/s142.jpg | 1 image 2K | 0.067 | 64.598 |
+| 185 | 2026-10-08 | Nano Banana 2 (gemini-3.1-flash-image) | still shot 143 (16:9) -> stills/movement/s143.jpg | 1 image 2K | 0.067 | 64.665 |
+| 186 | 2026-10-08 | Nano Banana 2 (gemini-3.1-flash-image) | still shot 145 (16:9) -> stills/movement/s145.jpg | 1 image 2K | 0.067 | 64.732 |
+| 187 | 2026-10-08 | Nano Banana 2 (gemini-3.1-flash-image) | still shot 146 (16:9) -> stills/movement/s146.jpg | 1 image 2K | 0.067 | 64.799 |
+| 188 | 2026-10-08 | Nano Banana 2 (gemini-3.1-flash-image) | still shot 147 (16:9) -> stills/movement/s147.jpg | 1 image 2K | 0.067 | 64.866 |
+| 189 | 2026-10-08 | Nano Banana 2 (gemini-3.1-flash-image) | still shot 149 (16:9) -> stills/movement/s149.jpg | 1 image 2K | 0.067 | 64.933 |
+| 190 | 2026-10-08 | Nano Banana 2 (gemini-3.1-flash-image) | still shot 150 (16:9) -> stills/movement/s150.jpg | 1 image 2K | 0.067 | 65.000 |
+| 191 | 2026-10-08 | Nano Banana 2 (gemini-3.1-flash-image) | still shot 151 (16:9) -> stills/movement/s151.jpg | 1 image 2K | 0.067 | 65.067 |
+| 192 | 2026-10-08 | Nano Banana 2 (gemini-3.1-flash-image) | still shot 145 (16:9) -> stills/movement/s145.jpg | 1 image 2K | 0.067 | 65.134 |
+| 193 | 2026-10-08 | Nano Banana 2 (gemini-3.1-flash-image) | still shot 145 (16:9) -> stills/movement/s145.jpg | 1 image 2K | 0.067 | 65.201 |
+| 194 | 2026-10-08 | Nano Banana 2 (gemini-3.1-flash-image) | still shot 8 (16:9) -> stills/movement/s008.jpg | 1 image 2K | 0.067 | 65.268 |
 
-Running total: 52.29
+Running total: 65.27

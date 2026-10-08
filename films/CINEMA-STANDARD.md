@@ -121,4 +121,10 @@ From the first Veo Standard clips of The Seven Days v2 (the drop s002, the burst
 12. **The edit runs at 24 fps** (Omni's rate), trims sit in the middle of a clip by default,
    montage shots run a little faster, a window never crosses a cut Omni made inside a clip, and a
    shot longer than its clip is slowed with motion interpolation, never with repeated frames.
+13. **LTX-2.5 on the Mac is the free workhorse** (`films/tools/ltx_clips.py`, 8 October 2026): it
+   animates from our keyframes at 1280x704, about 1.3 s of rendering per frame (a 4 s clip in about
+   2 minutes, the whole film in about 10 hours), with no cost, no daily limit and no safety filter.
+   Its faces hold as well as Omni's (the brick-maker s022). Because nothing filters it, **every LTX
+   shot with people is checked at full size for modesty before use**; s008 (the pair) showed her upper
+   chest at the bottom of the frame, so its keyframe was re-rolled as a heads and shoulders two shot.
 

@@ -13,8 +13,10 @@ never printed or written to disk.
 import argparse, base64, datetime, json, pathlib, re, subprocess, sys, urllib.request
 
 MODEL = "gemini-3-pro-image"
+# --model swaps the image model when Pro's daily limit (250 at Tier 1) is spent; costs per 2K image (estimates for Flash)
+NAMES = {"gemini-3-pro-image": "Nano Banana Pro", "gemini-3.1-flash-image": "Nano Banana 2"}
+PRICE = {"gemini-3-pro-image": 0.134, "gemini-3.1-flash-image": 0.067}
 ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/interactions"
-PRICE = 0.134  # USD per 1K or 2K image, Gemini API pricing page
 BANNED = ["deity", "god figure", "divine being", "halo", "glowing man", "angel", "temple", "idol"]
 
 
@@ -53,7 +55,7 @@ def log_cost(film: pathlib.Path, what: str, cost: float, log: str = "COSTS.md"):
     text = f.read_text()
     rows = [l for l in text.splitlines() if re.match(r"\| \d+ \|", l)]
     total = sum(float(l.split("|")[6]) for l in rows) + cost
-    row = (f"| {len(rows) + 1} | {datetime.date.today()} | Nano Banana Pro ({MODEL}) | {what} "
+    row = (f"| {len(rows) + 1} | {datetime.date.today()} | {NAMES.get(MODEL, 'Gemini image')} ({MODEL}) | {what} "
            f"| 1 image 2K | {cost:.3f} | {total:.3f} |")
     text = re.sub(r"\nRunning total: [\d.]+", "", text).rstrip("\n")
     f.write_text(text + "\n" + row + f"\n\nRunning total: {total:.2f}\n")
@@ -61,6 +63,7 @@ def log_cost(film: pathlib.Path, what: str, cost: float, log: str = "COSTS.md"):
 
 
 def main():
+    global MODEL
     ap = argparse.ArgumentParser()
     ap.add_argument("film")
     ap.add_argument("shots", nargs="+", type=int)
@@ -69,7 +72,9 @@ def main():
     ap.add_argument("--tag", default="", help="suffix for the file name, e.g. b for a retry")
     ap.add_argument("--aspect", default="9:16", help="aspect ratio, e.g. 16:9 for the full film")
     ap.add_argument("--log", default="COSTS.md", help="cost log file in the film folder")
+    ap.add_argument("--model", default=MODEL, choices=sorted(PRICE), help="image model")
     a = ap.parse_args()
+    MODEL = a.model
     film = pathlib.Path(a.film)
     ps = prompts(film / a.script)
     names, refs = meta(film / a.script)
@@ -102,7 +107,7 @@ def main():
         dest = film / a.out / f"{names.get(s, f'shot-{s:02d}')}{a.tag}.{ext}"
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_bytes(base64.b64decode(imgs[0]["data"]))
-        total = log_cost(film, f"still shot {s}{a.tag} ({a.aspect}) -> {dest.relative_to(film)}", PRICE, a.log)
+        total = log_cost(film, f"still shot {s}{a.tag} ({a.aspect}) -> {dest.relative_to(film)}", PRICE[MODEL], a.log)
         print(f"shot {s}: {dest} ({dest.stat().st_size // 1024} KB), running total {total:.2f} USD")
 
 
