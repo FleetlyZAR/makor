@@ -81,7 +81,7 @@ def bars(path):
     x, y = max(left, right), max(top, bottom)
     if x >= lim or y >= lim or (x < 6 and y < 6):
         return ""                            # no bars, or a dark frame where the edges say nothing
-    return f"crop={W - 2 * x - 4}:{H - 2 * y - 4},"
+    return f"scale={W}:{H},crop={W - 2 * x - 4}:{H - 2 * y - 4},"   # measured at 1080p, so crop at 1080p (LTX is 704p)
 
 
 def clip_for(sh):

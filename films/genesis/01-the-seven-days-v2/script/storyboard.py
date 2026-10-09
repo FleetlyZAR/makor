@@ -299,10 +299,11 @@ SEG = {
            "buildings of the ancient Near East behind the walls. No sun in the sky; the light comes from the city itself. "
            "No castle, no spires, no turrets, no domes, no fairytale palace, no European architecture.", "veo",
            motion="Slow rise toward the city.", w=1.2),
-         S("A clear river of the water of life flowing from the city through a broad street, trees of life on both "
-           "banks bearing fruit.", "veo", motion="Slow push along the river.", w=1.2),
+         S("A clear river of the water of life flowing out from the city along a broad street of pale gold stone, trees of "
+           "life on both banks bearing fruit, the city walls glowing behind: a vast square city of pale gold stone with glowing crystal walls, low flat roofed buildings of the ancient Near East, no towers, no spires, no domes, no castle, no skyscrapers, no modern or European architecture.", "veo",
+           motion="Slow push along the river.", w=1.2),
          S("A new world of hills and rivers in radiant light, with no sea anywhere, a land without end.", w=1.2),
-         S("The new creation from far above, the city shining at its centre.")],
+         S("The new creation from far above at golden light: hills, rivers and fields to the horizon, and at the centre, small and shining, the city: a vast square city of pale gold stone with glowing crystal walls, low flat roofed buildings of the ancient Near East, no towers, no spires, no domes, no castle, no skyscrapers, no modern or European architecture. Full frame, no black bars.")],
     32: [S("The dark deep at night, still and black.", motion="Slow push."),
          S("Light breaking across the dark deep along the horizon.", "veo", motion="The light spreads across the water."),
          S("Warm light on the water, the darkness lifting.")],

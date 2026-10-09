@@ -200,5 +200,8 @@ ElevenLabs credits valued at the Creator plan rate (22 USD for 131,000 credits).
 | 192 | 2026-10-08 | Nano Banana 2 (gemini-3.1-flash-image) | still shot 145 (16:9) -> stills/movement/s145.jpg | 1 image 2K | 0.067 | 65.134 |
 | 193 | 2026-10-08 | Nano Banana 2 (gemini-3.1-flash-image) | still shot 145 (16:9) -> stills/movement/s145.jpg | 1 image 2K | 0.067 | 65.201 |
 | 194 | 2026-10-08 | Nano Banana 2 (gemini-3.1-flash-image) | still shot 8 (16:9) -> stills/movement/s008.jpg | 1 image 2K | 0.067 | 65.268 |
+| 195 | 2026-10-08 | Nano Banana 2 (gemini-3.1-flash-image) | still shot 146 (16:9) -> stills/movement/s146.jpg | 1 image 2K | 0.067 | 65.335 |
+| 196 | 2026-10-08 | Nano Banana 2 (gemini-3.1-flash-image) | still shot 148 (16:9) -> stills/movement/s148.jpg | 1 image 2K | 0.067 | 65.402 |
+| 197 | 2026-10-08 | Nano Banana 2 (gemini-3.1-flash-image) | still shot 146 (16:9) -> stills/movement/s146.jpg | 1 image 2K | 0.067 | 65.469 |
 
-Running total: 65.27
+Running total: 65.47

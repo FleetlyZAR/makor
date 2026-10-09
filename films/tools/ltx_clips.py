@@ -78,6 +78,10 @@ def main():
                 continue
             cmd += ["--image", str(key), "0", "1.0"]
             prompt = o.get("prompt") or sh["motion"]
+            if sh.get("flags") == "pair":
+                # modesty: LTX let the pair rise out of the grass (s101, s112), so the last frame is the keyframe too
+                cmd += ["--image", str(key), "last", "1.0"]
+                prompt += " They stay where they are; the framing ends as it began, the grass and their hair as in the image."
         dest = out / f"{sh['id']}.mp4"
         # only a real render (a Python process running the ltx-2-mlx script), never a shell whose text mentions it
         while subprocess.run(["pgrep", "-f", r"^[^ ]*[Pp]ython[^ ]* [^ ]*ltx-2-mlx generate"],
