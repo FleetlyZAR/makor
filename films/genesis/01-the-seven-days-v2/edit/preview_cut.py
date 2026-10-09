@@ -105,8 +105,65 @@ def auto_window(clip, d):
     return [(round(a, 2), round(min(n, a + L), 2))]
 
 
-def segment(sh, out, tmp):
-    d = sh["dur"]
+def realms(sh, out, tmp, nf):
+    """s048: the frame of Genesis 1. Forming on the left (light, sky and sea, land), filling on the right (lights,
+    birds and fish, animals and people), each filling arriving as the GUIDE names it; the seventh day above."""
+    from PIL import Image, ImageDraw, ImageFont
+    sys.path.insert(0, str(FILM / "script"))
+    import storyboard as SB
+    T = json.loads((FILM / "script/movement-timeline.json").read_text())
+    durs = json.loads((FILM / "script/movement-durations.json").read_text())
+    t0, t1 = sh["start"], sh["start"] + sh["dur"]
+    at = lambda w, floor: max(floor, SB.cue_time(T, durs, w, t0 - 30, t1) - t0)   # never before the shot shows it
+    serif = lambda s, wt=500: (lambda f: (f.set_variation_by_axes([min(144, s // 3), wt, 0, 0]), f)[1])(
+        ImageFont.truetype(str(FONT), s))
+    W, H = 420, 236
+    tiles = [("DAY ONE", "Light", "s043", 0.0, 0), ("DAY TWO", "Sky and sea", "s053", 0.25, 1),
+             ("DAY THREE", "Land", "s064", 0.5, 2),
+             ("DAY FOUR", "Lights", "s068", at("lights for the light", 1.0), 0),
+             ("DAY FIVE", "Birds and fish", "s083", at("birds and fish", 2.0), 1),
+             ("DAY SIX", "Animals and people", "s106", at("animals and people", 3.0), 2)]
+    rest_at = at("seventh day stands apart", 4.0)
+    pics = {k: Image.open(FILM / f"stills/movement/{k}.jpg").convert("RGB").resize((W, H)) for _, _, k, _, _ in tiles}
+    rest = Image.open(FILM / "stills/movement/s120.jpg").convert("RGB").resize((900, 150))
+    xs, y0, gap = (510, 990), 300, 14
+    bg = Image.new("RGB", (1920, 1080), (8, 22, 24))
+    d = ImageDraw.Draw(bg)
+    d.text((510 + W // 2, 280), "FORMING", font=serif(30, 600), fill=(214, 170, 92), anchor="ms")
+    d.text((990 + W // 2, 280), "FILLING", font=serif(30, 600), fill=(214, 170, 92), anchor="ms")
+    fdir = tmp / "realms"
+    fdir.mkdir(exist_ok=True)
+    for i in range(nf):
+        t = i / FPS
+        im = bg.copy()
+        dr = ImageDraw.Draw(im, "RGBA")
+        for brow, name, k, ta, row in tiles:
+            a = max(0.0, min(1.0, (t - ta) / 0.6))
+            if a <= 0:
+                continue
+            col = 0 if brow in ("DAY ONE", "DAY TWO", "DAY THREE") else 1
+            x, y = xs[col], y0 + row * (H + gap)
+            tile = Image.blend(Image.new("RGB", (W, H), (8, 22, 24)), pics[k], a)
+            im.paste(tile, (x, y))
+            dr.rectangle([x, y + H - 64, x + W, y + H], fill=(8, 22, 24, int(170 * a)))
+            dr.text((x + 18, y + H - 40), brow, font=serif(22, 600), fill=(214, 170, 92, int(255 * a)), anchor="ls")
+            dr.text((x + 18, y + H - 12), name, font=serif(30, 500), fill=(244, 236, 216, int(255 * a)), anchor="ls")
+        a = max(0.0, min(1.0, (t - rest_at) / 0.8))
+        if a > 0:
+            im.paste(Image.blend(Image.new("RGB", rest.size, (8, 22, 24)), rest, a), (510, 70))
+            dr.rectangle([510, 115, 1410, 175], fill=(8, 22, 24, int(170 * a)))
+            dr.text((960, 145), "DAY SEVEN  ·  REST", font=serif(34, 600), fill=(244, 236, 216, int(255 * a)), anchor="mm")
+        im.save(fdir / f"{i:04d}.png")
+    ff("-framerate", FPS, "-i", fdir / "%04d.png", "-frames:v", nf, "-c:v", "libx264", "-crf", "16", "-pix_fmt", "yuv420p",
+       out)
+
+
+GRAPHICS = {"s048": realms}
+
+
+def segment(sh, out, tmp, nf):
+    """One shot as exactly nf frames, so the picture never drifts from the sound (it did: 1.35 s by the end)."""
+    d = nf / FPS
     clip = clip_for(sh) if sh["kind"] != "graphic" else None
     base = "scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,setsar=1"
     if clip:
@@ -115,17 +172,20 @@ def segment(sh, out, tmp):
         chain = "".join(f"[0:v]trim={a}:{b},setpts=PTS-STARTPTS[p{i}];" for i, (a, b) in enumerate(parts))
         chain += "".join(f"[p{i}]" for i in range(len(parts))) + f"concat=n={len(parts)}:v=1:a=0," + (CROPS.get(sh["id"], "") or bars(clip)) + f"{base},"
         slow = d / tot
-        chain += f"setpts=PTS*{slow:.4f}," + (f"minterpolate=fps={FPS}:mi_mode=mci:mc_mode=aobmc:vsbmc=1[v]"
-                                                if slow > 1.15 else f"fps={FPS}[v]")
-        ff("-i", clip, "-filter_complex", chain, "-map", "[v]", "-t", f"{d:.3f}", "-an", "-c:v", "libx264", "-crf", "16",
+        chain += f"setpts=PTS*{slow:.4f}," + (f"minterpolate=fps={FPS}:mi_mode=mci:mc_mode=aobmc:vsbmc=1"
+                                                if slow > 1.15 else f"fps={FPS}") + ",tpad=stop_mode=clone:stop_duration=3[v]"
+        ff("-i", clip, "-filter_complex", chain, "-map", "[v]", "-frames:v", nf, "-an", "-c:v", "libx264", "-crf", "16",
            "-pix_fmt", "yuv420p", "-r", FPS, out)
         return
     if sh["kind"] == "graphic":
-        ff("-f", "lavfi", "-i", f"color=c=0x060808:s=1920x1080:r={FPS}:d={d:.3f}", "-c:v", "libx264", "-crf", "16",
-           "-pix_fmt", "yuv420p", out)
+        if sh["id"] in GRAPHICS:
+            GRAPHICS[sh["id"]](sh, out, tmp, nf)
+        else:
+            ff("-f", "lavfi", "-i", f"color=c=0x060808:s=1920x1080:r={FPS}", "-frames:v", nf, "-c:v", "libx264",
+               "-crf", "16", "-pix_fmt", "yuv420p", out)
         return
     img = FILM / (sh["src"] if sh["kind"] == "reuse" else f"stills/movement/{sh['id']}.jpg")
-    n = max(2, round(d * FPS))
+    n = nf
     fast = d < 1.2                          # montage shots move faster so a 0.8 s shot still feels alive
     z = f"1.04+{0.10 if fast else 0.06}*on/{n}"
     vf = (f"scale=3840:2160:force_original_aspect_ratio=increase,crop=3840:2160,"
@@ -156,7 +216,11 @@ def main():
     parts = []
     for sh in shots:
         p = tmp / f"{sh['id']}.mp4"
-        segment(sh, p, tmp)
+        f0, f1 = round(sh["start"] * FPS), round((sh["start"] + sh["dur"]) * FPS)
+        segment(sh, p, tmp, f1 - f0)
+        got = int(subprocess.run(["ffprobe", "-v", "error", "-count_frames", "-select_streams", "v:0", "-show_entries",
+                                  "stream=nb_read_frames", "-of", "csv=p=0", str(p)], capture_output=True, text=True).stdout)
+        assert got == f1 - f0, f"{sh['id']}: {got} frames, wanted {f1 - f0}"
         parts.append(p)
     lst = tmp / "list.txt"
     lst.write_text("".join(f"file '{p}'\n" for p in parts))

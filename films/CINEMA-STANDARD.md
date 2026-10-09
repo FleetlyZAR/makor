@@ -127,4 +127,10 @@ From the first Veo Standard clips of The Seven Days v2 (the drop s002, the burst
    Its faces hold as well as Omni's (the brick-maker s022). Because nothing filters it, **every LTX
    shot with people is checked at full size for modesty before use**; s008 (the pair) showed her upper
    chest at the bottom of the frame, so its keyframe was re-rolled as a heads and shoulders two shot.
+14. **Before any cut leaves the Mac, audit it** (learned 9 October 2026, when a cut went out with
+   errors): every shot is cut to an exact frame count from the running total and checked (shots
+   rounded one by one drifted 1.35 s from the voice by the end); a labelled frame from every shot
+   is reviewed against its scene and its words; every frame is scanned for flat bands and seams
+   (the image models sometimes leave them); text sits above the bottom 120 px, where YouTube's
+   controls cover it; no graphic is left as black; no music cue stops dead.
 

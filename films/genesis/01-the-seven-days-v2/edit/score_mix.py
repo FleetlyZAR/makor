@@ -26,29 +26,37 @@ TOTAL = T["total"]
 # (track, start, end, crest or None, volume, fade in, fade out[, seek seconds into the track])
 # Consecutive cues overlap and crossfade; a track never runs out before its scene (checked below).
 CUES = [
-    ("theme-light", 5.0, 20.6, 15.0, 0.9, 0.05, 0.4),      # the burst and the run through history; cut at the rewind
+    ("last-frontier", 4.0, 26.4, None, 0.9, 0.6, 5.0, 109.26),  # the burst (its hit at 110.3 s lands on 5.04), the
+                                                            # starlight, the dive and history; then a 5 s fade under the
+                                                            # pull back and the spark, into the track's own dip at 131.5 s
+                                                            # (no hard stop: Luyanda, 9 October)
     ("river-of-tears", 23.4, 88.4, None, 0.55, 3.0, 4.0, 37.0),  # Egypt and the other stories; fades before its second break
-    ("dissemination", 100.8, 153.0, 129.5, 0.6, 1.5, 4.0),  # In the beginning: crest on the light
-    ("himalayan-moon", 150.0, 218.6, None, 0.45, 4.0, 3.0), # formless and void, teaching (crossfades in)
-    ("road-less", 216.0, 304.8, 301.8, 0.6, 3.0, 0.6),      # forming montage, stops dead on the empty world
+    ("dissemination", 100.8, 152.0, 127.3, 0.6, 1.5, 4.0),  # In the beginning: crest on the light
+    ("himalayan-moon", 147.0, 218.6, None, 0.45, 4.0, 3.0), # formless and void, teaching (crossfades in, no gap)
+    ("road-less", 216.0, 304.8, 301.8, 0.6, 3.0, 2.0),      # forming montage, stops dead on the empty world
     ("wonder-of-a-child", 319.7, 397.5, None, 0.6, 1.0, 3.0),  # the first sunrise
-    ("overcome", 395.0, 463.6, 439.9, 0.6, 3.0, 1.5),       # the sea teems, crest on the breach
-    ("forest-run", 462.6, 496.6, None, 0.65, 1.0, 1.0),     # herds; cut to nothing for "Then the pattern breaks"
-    ("monuments", 503.0, 568.0, 531.6, 0.7, 4.0, 5.0),      # Let Us make man: crest on the man and the woman
+    ("overcome", 395.0, 463.6, 417.0, 0.6, 3.0, 1.5),       # the sea teems, crest on the breach
+    ("forest-run", 462.6, 496.6, None, 0.65, 1.0, 2.0),     # herds; cut to nothing for "Then the pattern breaks"
+    ("monuments", 503.0, 568.0, 528.3, 0.7, 4.0, 5.0),      # Let Us make man: crest on the man and the woman
     ("theme-image", 562.0, 662.0, None, 0.5, 5.0, 4.0),     # the human theme: the brick-maker, the fields, very good
-    ("himalayan-moon", 668.0, 739.0, None, 0.3, 6.0, 3.0, 120.0),  # rest: a low pulse under the finished world
+    ("himalayan-moon", 659.0, 739.0, None, 0.3, 5.0, 3.0, 111.0),  # rest: a low pulse, in under the fade (no 6 s gap)
     ("samudra", 736.5, 818.5, 790.0, 0.6, 3.0, 4.0),        # In the beginning was the Word: crest on the empty tomb
     ("abode-of-snow", 815.0, 873.5, 867.8, 0.6, 4.0, 3.0),  # all things new
-    ("theme-word", 871.5, TOTAL, 893.0, 0.55, 2.5, 4.0),    # light in a dark place, the light theme returns
+    ("theme-word", 871.5, TOTAL, 884.0, 0.55, 2.5, 4.0),    # light in a dark place, the light theme returns
 ]
 
-# designed hits, never ducked: (file, time, volume)
+# designed hits, never ducked: (file, time, volume[, seconds into the file])
 HITS = [
     ("drop", 3.0, 1.0), ("bang", 5.04, 1.0),   # God speaks in the black, then the drop, then the burst
+    # the expansion, sound designed to the picture: a riser peaking on the burst, a big boom with it, starlight
+    # flying past, a low hit on the earth, the wind of the atmosphere peaking in the clouds
+    ("riser", 1.0, 0.9, 2.6), ("boom-big", 4.46, 1.0),
+    ("flyby1", 7.62, 0.7), ("flyby3", 8.47, 0.6), ("flyby2", 8.51, 0.55),
+    ("hit", 9.8, 0.45), ("windrush", 8.55, 0.7),
     ("rewind", 17.5, 0.8), ("hit", 43.1, 0.8),
-    ("drop", 121.6, 0.9), ("hit", 129.5, 0.7),               # Day One: the opening's drop returns, then the break
-    ("hit", 531.6, 0.6), ("hit", 790.0, 0.6), ("hit", 867.8, 0.5),
-] + [("whoosh", t, 0.25) for t in (9.0, 11.5, 14.0, 16.5)] \
+    ("drop", 123.4, 0.9), ("hit", 127.3, 0.7),               # Day One: the opening's drop returns, then the break
+    ("hit", 528.3, 0.6), ("hit", 790.0, 0.6), ("hit", 867.8, 0.5),
+] + [("whoosh", t, 0.25) for t in (14.0, 16.5)] \
   + [("whoosh", t, 0.35) for t in (288.0, 292.0, 296.0)] \
   + [("hit", t, 0.35) for t, n in T["chapters"] if n not in ("Cold open", "In the beginning")]
 
@@ -116,8 +124,8 @@ def main():
         fc.append(f"[{n}:a]{st},atrim=0:{L:.2f},afade=in:d=1.5,afade=out:st={max(0, L - 1.5):.2f}:d=1.5,"
                   f"volume={vol},adelay={int(a * 1000)}:all=1[a{n}]")
         beds.append(f"[a{n}]"); n += 1
-    for f, t, vol in HITS:
-        ins += ["-i", str(SFX / f"{f}.wav")]
+    for f, t, vol, *seek in HITS:
+        ins += (["-ss", f"{seek[0]}"] if seek else []) + ["-i", str(SFX / f"{f}.wav")]
         fc.append(f"[{n}:a]{st},volume={vol},adelay={int(t * 1000)}:all=1[h{n}]")
         hits.append(f"[h{n}]"); n += 1
     pad = f"apad=whole_dur={TOTAL:.2f}"
@@ -139,7 +147,7 @@ def main():
     ff(*ins, "-/filter_complex", graph, "-map", "[mix]", "-ar", 48000, raw, "-map", "[score2]", "-ar", 48000, music)
     i, lra, pk = lufs(raw)
     gain = -16 - i
-    ff("-i", raw, "-af", f"volume={gain:.2f}dB,alimiter=limit=0.89:level=false:attack=5:release=80", "-ar", 48000,
+    ff("-i", raw, "-af", f"volume={gain:.2f}dB,alimiter=limit=0.79:level=false:attack=5:release=80", "-ar", 48000,
        OUT / "mix.wav")
     ff("-i", OUT / "mix.wav", "-c:a", "aac", "-b:a", "192k", OUT / "mix.m4a")
     i2, lra2, pk2 = lufs(OUT / "mix.wav")
