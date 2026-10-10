@@ -39,6 +39,9 @@ PAIR = PR.BEFORE_FIGS
 WOMAN = ("The woman is the woman in the reference portrait: keep her face, skin tone and long curly hair exactly, but "
          "not the cloth on her shoulder. A head and shoulders portrait: her long thick hair falls forward over her bare "
          "shoulders. No other people.")
+# the image model often blurs or hazes the bottom of a wide frame (s043, s058, s070, s076, s088, s089, s094, s119)
+SHARP = ("Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and "
+         "detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom.")
 BANNED = ["deity", "god figure", "divine being", "halo", "glowing man", "angel", "temple", "idol"]
 EGYPT = "Ancient Egypt by the Nile: date palms, reeds, mud brick, no statues, no carvings of figures, no pyramids in close view."
 
@@ -169,10 +172,10 @@ SEG = {
         S("The same ocean at evening, light fading to deep blue.", w=1.0, cue="And there was evening"),
         S("The same ocean at first morning light, soft gold on calm water.", w=1.0, cue="and there was morning")],
     10: [S("A formless dark world: black water covering everything, mist lying low on it, the dark water clearly visible: heavy black rolling swells to the horizon, their crests catching a faint cold blue-grey sheen so the surface reads as water, utter darkness above, no light source, no moon, no stars, no land."),
-         S("Wind moving over the face of the deep, ripples and drifting mist, nothing in it.", "veo",
-           motion="Slow drift with the wind over the water."),
-         S("", "graphic", flags="frame of three realms and three fillings, built in the edit from shots 34, 37, 48, 60, 69"),
-         S("The surface of the deep at dawn, wind moving softly across it."),
+         S("", "graphic", flags="the seven days explained, first part (days one to three), built in the edit",
+           cue="Days one to three"),
+         S("", "graphic", flags="the seven days explained, second part (days four to seven), built in the edit"),
+         S("The surface of the deep at dawn, wind moving softly across it.", cue="Over the deep, the Spirit"),
          S("Open water to every horizon, the first soft light before any sun lying on it, no shore, no land, no trees anywhere.")],
     11: [S("Waters rising in great columns of mist from the sea, light between them.", "veo",
            motion="The mist rises and parts."),
@@ -327,7 +330,7 @@ def prompt_for(sh):
     else:
         who = NOFIG
     refs = [REF[r] for r in sh["refs"]]
-    p = f"{sh['scene']} {who} {NOGOD}{PR.REFNOTE if refs else ''} {PR.SUFFIX}"
+    p = f"{sh['scene']} {who} {NOGOD}{PR.REFNOTE if refs else ''} {PR.SUFFIX} {SHARP}"
     low = p.lower() + sh["motion"].lower()
     for w in BANNED:
         assert w not in low, f"banned word {w!r} in: {sh['scene'][:60]}"

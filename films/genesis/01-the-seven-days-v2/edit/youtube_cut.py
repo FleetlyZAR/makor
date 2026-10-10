@@ -25,7 +25,7 @@ sys.path.insert(0, str(FILM.parents[1] / "tools"))
 import platform_versions as pv  # noqa: E402
 
 OUT = FILM / "edit" / "youtube"
-MAIN = FILM / "exports" / "full-cut-v3.mp4"
+MAIN = FILM / "exports" / "full-cut-v4.mp4"
 FINAL = FILM / "exports" / "the-seven-days-v2-youtube.mp4"
 END = 20.0
 T = json.loads((FILM / "script" / "movement-timeline.json").read_text())
@@ -61,6 +61,61 @@ def canvas():
     return Image.new("RGBA", (1920, 1080), (0, 0, 0, 0))
 
 
+SCRIPTURE_BOOKS = ("Genesis", "Exodus", "John", "Matthew", "Revelation")
+CAP_W = 1500                                 # caption width; two lines at most, above YouTube's controls
+
+
+def wrap(text, font, width):
+    words, lines, cur = text.split(), [], ""
+    d = ImageDraw.Draw(Image.new("RGB", (1, 1)))
+    for w in words:
+        test = (cur + " " + w).strip()
+        if d.textlength(test, font=font) <= width or not cur:
+            cur = test
+        else:
+            lines.append(cur)
+            cur = w
+    return lines + ([cur] if cur else [])
+
+
+def chunks(text, a, b):
+    """Split a spoken line into pieces of at most two caption lines, each timed by its share of the characters
+    (the voices keep an even pace), so the words on screen follow the voice."""
+    f = pv.serif(46, 500)
+    lines = wrap(text, f, CAP_W)
+    pieces = [" ".join(lines[i:i + 2]) for i in range(0, len(lines), 2)]
+    total = sum(len(x) for x in pieces)
+    out, t = [], a
+    for x in pieces:
+        d = (b - a) * len(x) / total
+        out.append((x, t, t + d))
+        t += d
+    out[-1] = (out[-1][0], out[-1][1], b + 0.4)      # the last piece lingers a moment after the voice
+    return out
+
+
+def scripture_png(p, text, ref, god):
+    img = canvas()
+    f = pv.serif(46, 500)
+    lines = wrap(text, f, CAP_W)
+    # a soft, feathered shade behind the words, so they read over bright water, grass and dust (5:46, 7:45, 8:05)
+    from PIL import ImageFilter
+    widest = max(ImageDraw.Draw(img).textlength(ln, font=f) for ln in lines)
+    top = 905 - 58 * len(lines) - 26
+    shade = Image.new("L", img.size, 0)
+    ImageDraw.Draw(shade).rounded_rectangle([960 - widest / 2 - 90, top - 10, 960 + widest / 2 + 90, 960], radius=60, fill=135)
+    shade = shade.filter(ImageFilter.GaussianBlur(44))
+    img = Image.composite(Image.new("RGBA", img.size, (6, 14, 16, 255)), img, shade)
+    d = ImageDraw.Draw(img)
+    colour = (240, 218, 168) if god else pv.CREAM
+    y = 905 - 58 * len(lines)                     # the block ends above the reference, which ends above y 940
+    for ln in lines:
+        d.text((960, y), ln, font=f, fill=colour, anchor="ma")
+        y += 58
+    d.text((960, y + 8), ref.upper(), font=pv.serif(26, 600), fill=pv.GOLD_TEXT, anchor="ma")
+    pv.halo(img, blur=9, k=1.8).save(p)
+
+
 def title_png(p):
     img = canvas()
     lk = pv.lockup(84)
@@ -76,10 +131,15 @@ def title_png(p):
 
 
 def chapter_png(p, name, brow_text):
+    from PIL import ImageFilter
     img = canvas()
-    d = ImageDraw.Draw(img)
     brow, f = pv.serif(28, 600), pv.serif(64, 500)
-    x, y = 120, 690
+    x, y = 110, 70          # top left: the bottom of the frame belongs to the Scripture
+    w = ImageDraw.Draw(img).textlength(name, font=f)
+    shade = Image.new("L", img.size, 0)        # the same soft shade as the Scripture, for bright skies
+    ImageDraw.Draw(shade).rounded_rectangle([x - 70, y - 40, x + w + 70, y + 160], radius=60, fill=125)
+    img = Image.composite(Image.new("RGBA", img.size, (6, 14, 16, 255)), img, shade.filter(ImageFilter.GaussianBlur(44)))
+    d = ImageDraw.Draw(img)
     d.text((x, y), brow_text, font=brow, fill=pv.GOLD_TEXT)
     d.line([(x, y + 46), (x + 90, y + 46)], fill=(*pv.GOLD, 255), width=3)
     d.text((x, y + 62), name, font=f, fill=pv.CREAM)
@@ -164,16 +224,20 @@ def overlays():
             p = OUT / f"chapter-{int(t):04d}.png"
             chapter_png(p, SHOWN.get((name, round(t)), name), EYEBROW[name])
             items.append((p, t + 0.8, t + 5.3))
-    last, k = None, 0
+    # the Scripture itself on screen as it is read (READER and GOD lines), with its reference; the GUIDE's teaching
+    # stays in the caption file only, so the frame never fills with text
+    k = 0
     for e in T["events"]:
         ref = e.get("ref", "")
-        if e["kind"] != "line" or "flash" in ref or not ref or ref.startswith(("study", "lexicon", "section")):
+        if e["kind"] != "line" or e.get("speaker") not in ("READER", "GOD") or not ref.split(" ")[0] in SCRIPTURE_BOOKS:
             continue
-        if ref != last:
-            last, k = ref, k + 1
-            p = OUT / f"ref-{k:02d}.png"
-            ref_png(p, ref)
-            items.append((p, e["t"] + 0.2, e["t"] + 4.2))
+        a, b = e["t"], e["t"] + DURS.get(e["id"], 2.0)
+        ref = ref.replace(", flash-forward", "")
+        for text, ca, cb in chunks(e["text"], a, b):
+            k += 1
+            p = OUT / f"scripture-{k:03d}.png"
+            scripture_png(p, text, ref, e["speaker"] == "GOD")
+            items.append((p, ca, cb))
     for kind, a, b in PROMPTS:
         p = OUT / f"prompt-{int(a):04d}.png"
         comment_png(p) if kind == "comment" else pv.cta_png(p, "youtube")

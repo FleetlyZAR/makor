@@ -7,36 +7,37 @@ this file). Built by `edit/youtube_cut.py` from `exports/full-cut-v2.mp4`.
 This replaces the painted v1 on the channel. Plan agreed earlier (D-list in V2-TREATMENT.md): upload v2, then
 unlist v1 a week later so its views and comments are not lost at once.
 
-## Title (most searched words first, brand last, under 70 characters)
+## Title (from the vidIQ research, `vidiq-research.md`)
 
-Recommended:
+Recommended (keep while the thumbnail test runs):
 
-    In the Beginning: Genesis 1 and the Seven Days of Creation | Makor
+    Genesis 1 Like You've Never Seen It: The 7 Days of Creation
 
-Alternatives:
+Alternates, paired with the thumbnails below:
 
-    The Seven Days of Creation, Like You've Never Seen Them | Genesis 1 | Makor
-    Light Before the Sun? Genesis 1, Day by Day | Makor
-    Genesis 1 Explained: What Israel Heard in Egypt | Makor
+    The 7 Days of Creation: What Genesis 1 Told a Nation of Slaves
+    Light Before the Sun? Genesis 1 and the 7 Days of Creation
 
-Search data (vidIQ, 8 October 2026): "in the beginning" about 23,000 searches a month with low competition
-(26/100); "genesis 1" about 33,000 (42/100); "creation" about 126,000 (41/100); "bible study" about 241,000.
+No "| Makor" in the title: it lowered vidIQ's score every time and YouTube shows the channel under the video.
+Primary keyword "genesis 1" (about 32,900 searches a month, competition 42); "genesis chapter 1" is the
+easiest win (competition 18); "book of genesis" is rising (up 142%).
 
-## Thumbnails (Test & Compare, all three)
+## Thumbnails (Test & Compare, all three; from the vidIQ research)
 
-Made by `exports/art/concepts/make_concepts.py --final` from the film's own frames (3840x2160, under 2 MB each).
-Upload all three to Test & Compare (`films/YOUTUBE-PLAYBOOK.md`); keep the recommended title while the test runs,
-then set the paired title for the winner.
+Made by `exports/art/concepts/make_concepts_research.py --final` (3840x2160, under 1.4 MB each).
 
-| File | Thumbnail | Paired title | Answered at |
-|---|---|---|---|
-| `exports/art/thumbnail-v2-light.jpg` | LIGHT BEFORE THE SUN? (s040, light racing across the black deep) | Light Before the Sun? Genesis 1, Day by Day \| Makor | Day One and 3:25 |
-| `exports/art/thumbnail-v2-slave.jpg` | A SLAVE HEARD THIS FIRST (s022, the brick-maker at the kiln) | A Slave in Egypt Heard This First: Genesis 1 \| Makor | 0:24 and 9:25 |
-| `exports/art/thumbnail-v2-beginning.jpg` | IN THE BEGINNING (the burst, s003) | In the Beginning: Genesis 1 and the Seven Days of Creation \| Makor | the cold open |
+| File | Thumbnail | Paired title |
+|---|---|---|
+| `exports/art/thumbnail-r1.jpg` | MADE IN GOD'S IMAGE, Genesis 1:27, the brick-maker's face by the kiln (the research's pick to win: one large face, few gold words) | The 7 Days of Creation: What Genesis 1 Told a Nation of Slaves |
+| `exports/art/thumbnail-r2.jpg` | WHERE'S THE SUN?, Day One, Genesis 1:3, gold light racing across the black deep | Light Before the Sun? Genesis 1 and the 7 Days of Creation |
+| `exports/art/thumbnail-r3.jpg` | GENESIS 1, The Seven Days, the earth from space (movie poster style) | Genesis 1 Like You've Never Seen It: The 7 Days of Creation |
+
+The earlier drafts (`thumbnail-v2-light`, `-slave`, `-beginning`) stay as spares.
 
 ## Description
 
-    Study The Seven Days: https://www.makor.co.za/genesis/the-seven-days/
+    Genesis 1 like you've never seen it: the 7 days of creation read in full (Genesis 1:1 to 2:3), filmed day by day, and what it meant to a nation of slaves coming out of Egypt.
+    Why is there light before the sun? Why does the seventh day have no evening? Study it free: https://www.makor.co.za/genesis/the-seven-days/
 
     A slave in the brick pits of Egypt hears the first page of the Bible for the first time. Every nation had a
     story of how the world began; in Babylon's, people were made to carry the labour of the gods. Then came this
@@ -65,16 +66,20 @@ then set the paired title for the winner.
     Makor walks through the Bible one movement at a time: the text, its world, and its place in the one story
     that leads to Christ. Genesis, episode 1.
 
-## Tags
+## Tags (422 characters, from the keyword research)
 
-    genesis 1, the seven days of creation, in the beginning, creation, genesis creation story, bible study,
-    bible study for beginners, genesis bible study, days of creation, let there be light, image of god,
-    sabbath rest, genesis explained, old testament, bible story, adam and eve, makor
+    genesis 1, the 7 days of creation, seven days of creation, genesis chapter 1, creation story,
+    in the beginning, let there be light, genesis creation, book of genesis, genesis explained,
+    genesis 1 explained, genesis 1 bible study, genesis bible study, bible study, creation of the
+    world, how god created the world, light before the sun, image of god, sabbath, cinematic bible,
+    bible movie, bible story, old testament, makor
 
 ## Pinned comment
 
-    On the first day God said, let there be light, before the sun existed. Where do you need to ask God to speak
-    light into a dark place? Tell us below.
+    On Day One there is light, but the sun does not appear until Day Four, and Genesis 1 never even
+    calls it by name: in Egypt the sun was a god, here it is simply a light God sets in the sky.
+    What stayed with you most: the light before the sun, the image of God given to slaves, or the
+    seventh day with no evening? The full study with notes: makor.co.za/genesis/the-seven-days
 
 ## In the video (already built in)
 
@@ -82,8 +87,8 @@ then set the paired title for the winner.
 |---|---|---|
 | 0:43 to 0:47 | Makor lockup above the title, "Genesis · Episode 1" below | brands the title card without delaying the hook |
 | 0:47 to the end screen | Makor lockup, top right, 60% | quiet brand presence after the cold open |
-| at each movement | chapter title lower left (eyebrow such as DAY ONE over its name); Day Six has two: Living creatures, then The image of God on "Let Us make man" | orients the viewer; matches the chapters |
-| as each verse begins | Scripture reference lower left (GENESIS 1:3, JOHN 1:1 ...), 4 s, kept above the bottom 120 px where the player's controls sit | every quotation is sourced on screen |
+| at each movement | chapter title, top left (eyebrow such as DAY ONE over its name); Day Six has two: Living creatures, then The image of God on "Let Us make man" | orients the viewer; matches the chapters |
+| whenever Scripture is read | the words themselves, centred at the bottom above the player controls, at most two lines at a time and timed to the voice, with the reference beneath; God's spoken words in warm gold-cream, the reader's in cream; the GUIDE's teaching is left to the caption file | many watch with the sound off; the Scripture is the heart of the film |
 | 1:32 to 1:39 | LIKE / SUBSCRIBE pill | the hook has landed, just before Day One begins |
 | 11:42 to 11:50 | LIKE / SUBSCRIBE pill | the quiet of the seventh day, two thirds in |
 | 14:43 to 14:53 | TELL US IN THE COMMENTS, with the closing question | the reflection question, to start the comments |

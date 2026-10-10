@@ -106,59 +106,83 @@ def auto_window(clip, d):
 
 
 def realms(sh, out, tmp, nf):
-    """s048: the frame of Genesis 1. Forming on the left (light, sky and sea, land), filling on the right (lights,
-    birds and fish, animals and people), each filling arriving as the GUIDE names it; the seventh day above."""
+    """s047 and s048, one continuous graphic (2:44.6 to 3:11.2): the seven days explained as the GUIDE speaks them.
+    Forming on the left (days one to three), filling on the right (four to six), the seventh day above. Each day
+    arrives on its own words and is lit while it is being spoken; earlier days stay, a little dimmer. Every picture
+    moves slowly so the frame is never a still."""
     from PIL import Image, ImageDraw, ImageFont
     sys.path.insert(0, str(FILM / "script"))
     import storyboard as SB
     T = json.loads((FILM / "script/movement-timeline.json").read_text())
     durs = json.loads((FILM / "script/movement-durations.json").read_text())
-    t0, t1 = sh["start"], sh["start"] + sh["dur"]
-    at = lambda w, floor: max(floor, SB.cue_time(T, durs, w, t0 - 30, t1) - t0)   # never before the shot shows it
+    g0 = SHOTS["s047"]["start"]                     # the graphic's own clock starts with s047
+    off = sh["start"] - g0
+    cue = lambda w: SB.cue_time(T, durs, w, g0 - 1, g0 + 40) - g0
     serif = lambda s, wt=500: (lambda f: (f.set_variation_by_axes([min(144, s // 3), wt, 0, 0]), f)[1])(
         ImageFont.truetype(str(FONT), s))
     W, H = 420, 236
-    tiles = [("DAY ONE", "Light", "s043", 0.0, 0), ("DAY TWO", "Sky and sea", "s053", 0.25, 1),
-             ("DAY THREE", "Land", "s064", 0.5, 2),
-             ("DAY FOUR", "Lights", "s068", at("lights for the light", 1.0), 0),
-             ("DAY FIVE", "Birds and fish", "s083", at("birds and fish", 2.0), 1),
-             ("DAY SIX", "Animals and people", "s106", at("animals and people", 3.0), 2)]
-    rest_at = at("seventh day stands apart", 4.0)
-    pics = {k: Image.open(FILM / f"stills/movement/{k}.jpg").convert("RGB").resize((W, H)) for _, _, k, _, _ in tiles}
-    rest = Image.open(FILM / "stills/movement/s120.jpg").convert("RGB").resize((900, 150))
+    tiles = [("DAY ONE", "Light from darkness", "s043", cue("light from darkness"), 0, 0),
+             ("DAY TWO", "Sky and sea", "s053", cue("the waters above"), 0, 1),
+             ("DAY THREE", "Dry land", "s064", cue("the sea from the dry land"), 0, 2),
+             ("DAY FOUR", "Lights", "s068", cue("lights for the light"), 1, 0),
+             ("DAY FIVE", "Birds and fish", "s083", cue("birds and fish"), 1, 1),
+             ("DAY SIX", "Animals and people", "s106", cue("animals and people"), 1, 2)]
+    rest_at = cue("seventh day stands apart")
+    starts = sorted([x[3] for x in tiles] + [rest_at])
+    big = {k: Image.open(FILM / f"stills/movement/{k}.jpg").convert("RGB").resize((W + 60, H + 34)) for *_, k, _, _, _ in
+           [(x[0], x[1], x[2], x[3], x[4], x[5]) for x in tiles]}
+    rest_big = Image.open(FILM / "stills/movement/s120.jpg").convert("RGB").resize((960, 170))
     xs, y0, gap = (510, 990), 300, 14
     bg = Image.new("RGB", (1920, 1080), (8, 22, 24))
     d = ImageDraw.Draw(bg)
     d.text((510 + W // 2, 280), "FORMING", font=serif(30, 600), fill=(214, 170, 92), anchor="ms")
     d.text((990 + W // 2, 280), "FILLING", font=serif(30, 600), fill=(214, 170, 92), anchor="ms")
-    fdir = tmp / "realms"
+    fdir = tmp / f"realms-{sh['id']}"
     fdir.mkdir(exist_ok=True)
+
+    def current(t):                                # the day being spoken: the latest one to have arrived
+        past = [s for s in starts if s <= t]
+        return max(past) if past else None
+
     for i in range(nf):
-        t = i / FPS
+        t = off + i / FPS
         im = bg.copy()
         dr = ImageDraw.Draw(im, "RGBA")
-        for brow, name, k, ta, row in tiles:
+        now = current(t)
+        for brow, name, k, ta, col, row in tiles:
             a = max(0.0, min(1.0, (t - ta) / 0.6))
             if a <= 0:
                 continue
-            col = 0 if brow in ("DAY ONE", "DAY TWO", "DAY THREE") else 1
+            z = min(1.0, (t - ta) / 12)            # a slow push in on each picture once it is up
+            src = big[k]
+            cw, ch = int(src.width - 60 * z), int(src.height - 34 * z)
+            x0, y0c = (src.width - cw) // 2, (src.height - ch) // 2
+            pic = src.crop((x0, y0c, x0 + cw, y0c + ch)).resize((W, H))
+            lit = 1.0 if ta == now else 0.62
+            pic = Image.blend(Image.new("RGB", (W, H), (8, 22, 24)), pic, a * lit)
             x, y = xs[col], y0 + row * (H + gap)
-            tile = Image.blend(Image.new("RGB", (W, H), (8, 22, 24)), pics[k], a)
-            im.paste(tile, (x, y))
+            im.paste(pic, (x, y))
+            if ta == now:
+                dr.rectangle([x - 3, y - 3, x + W + 2, y + H + 2], outline=(214, 170, 92, int(255 * a)), width=3)
             dr.rectangle([x, y + H - 64, x + W, y + H], fill=(8, 22, 24, int(170 * a)))
             dr.text((x + 18, y + H - 40), brow, font=serif(22, 600), fill=(214, 170, 92, int(255 * a)), anchor="ls")
             dr.text((x + 18, y + H - 12), name, font=serif(30, 500), fill=(244, 236, 216, int(255 * a)), anchor="ls")
         a = max(0.0, min(1.0, (t - rest_at) / 0.8))
         if a > 0:
-            im.paste(Image.blend(Image.new("RGB", rest.size, (8, 22, 24)), rest, a), (510, 70))
+            im.paste(Image.blend(Image.new("RGB", (900, 150), (8, 22, 24)),
+                                 rest_big.crop((30, 10, 930, 160)), a), (510, 70))
+            if now == rest_at:
+                dr.rectangle([507, 67, 1412, 222], outline=(214, 170, 92, int(255 * a)), width=3)
             dr.rectangle([510, 115, 1410, 175], fill=(8, 22, 24, int(170 * a)))
             dr.text((960, 145), "DAY SEVEN  ·  REST", font=serif(34, 600), fill=(244, 236, 216, int(255 * a)), anchor="mm")
+        if t < 0.8:                                 # fade up from the shot before
+            im = Image.blend(Image.new("RGB", im.size, (8, 22, 24)), im, max(0.0, t / 0.8))
         im.save(fdir / f"{i:04d}.png")
     ff("-framerate", FPS, "-i", fdir / "%04d.png", "-frames:v", nf, "-c:v", "libx264", "-crf", "16", "-pix_fmt", "yuv420p",
        out)
 
 
-GRAPHICS = {"s048": realms}
+GRAPHICS = {"s047": realms, "s048": realms}
 
 
 def segment(sh, out, tmp, nf):

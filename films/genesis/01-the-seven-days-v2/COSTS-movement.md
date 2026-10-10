@@ -222,5 +222,13 @@ ElevenLabs credits valued at the Creator plan rate (22 USD for 131,000 credits).
 | 214 | 2026-10-09 | Nano Banana 2 (gemini-3.1-flash-image) | still shot 129 (16:9) -> stills/movement/s129.jpg | 1 image 2K | 0.067 | 66.608 |
 | 215 | 2026-10-09 | Nano Banana 2 (gemini-3.1-flash-image) | still shot 82 (16:9) -> stills/movement/s082.jpg | 1 image 2K | 0.067 | 66.675 |
 | 216 | 2026-10-09 | Nano Banana 2 (gemini-3.1-flash-image) | still shot 87 (16:9) -> stills/movement/s087.jpg | 1 image 2K | 0.067 | 66.742 |
+| 217 | 2026-10-09 | Nano Banana 2 (gemini-3.1-flash-image) | still shot 43 (16:9) -> stills/movement/s043.jpg | 1 image 2K | 0.067 | 66.809 |
+| 218 | 2026-10-09 | Nano Banana 2 (gemini-3.1-flash-image) | still shot 58 (16:9) -> stills/movement/s058.jpg | 1 image 2K | 0.067 | 66.876 |
+| 219 | 2026-10-09 | Nano Banana 2 (gemini-3.1-flash-image) | still shot 70 (16:9) -> stills/movement/s070.jpg | 1 image 2K | 0.067 | 66.943 |
+| 220 | 2026-10-09 | Nano Banana 2 (gemini-3.1-flash-image) | still shot 76 (16:9) -> stills/movement/s076.jpg | 1 image 2K | 0.067 | 67.010 |
+| 221 | 2026-10-09 | Nano Banana 2 (gemini-3.1-flash-image) | still shot 88 (16:9) -> stills/movement/s088.jpg | 1 image 2K | 0.067 | 67.077 |
+| 222 | 2026-10-09 | Nano Banana 2 (gemini-3.1-flash-image) | still shot 89 (16:9) -> stills/movement/s089.jpg | 1 image 2K | 0.067 | 67.144 |
+| 223 | 2026-10-09 | Nano Banana 2 (gemini-3.1-flash-image) | still shot 94 (16:9) -> stills/movement/s094.jpg | 1 image 2K | 0.067 | 67.211 |
+| 224 | 2026-10-09 | Nano Banana 2 (gemini-3.1-flash-image) | still shot 119 (16:9) -> stills/movement/s119.jpg | 1 image 2K | 0.067 | 67.278 |
 
-Running total: 66.74
+Running total: 67.28
