@@ -127,7 +127,8 @@
   "anim": false,
   "verb": null,
   "omni": null,
-  "prompt": "An extreme close view of the man's eyes, from the brow to the cheekbones only, lying on the ground in first light: his eyes opening for the first time, dew on his lashes, light in his eyes. The man is the man in the reference portrait: keep his face, skin tone, hair and beard exactly, but not the cloth on his shoulder. He wears nothing; he is seen from the chest up, facing the camera, in profile or from behind, or with tall grass covering him below the chest. Nothing below the chest is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
+  "prompt": "An extreme close view of the man's eyes, from the brow to the cheekbones only, lying on the ground in first light: his eyes opening for the first time, dew on his lashes, light in his eyes. The man is the man in the reference portrait: keep his face, skin tone, hair and beard exactly, but not the cloth on his shoulder. He wears nothing; he is seen from the chest up, facing the camera, in profile or from behind, or with tall grass covering him below the chest. Nothing below the chest is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom.",
+  "lock": true
  },
  {
   "id": "s007",
@@ -179,7 +180,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s024.jpg",
   "cue": null,
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -216,9 +217,10 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s060.jpg",
   "cue": null,
-  "anim": false,
+  "anim": true,
   "verb": null,
-  "omni": null
+  "omni": null,
+  "lock": true
  },
  {
   "id": "s012",
@@ -239,7 +241,8 @@
   "anim": false,
   "verb": null,
   "omni": null,
-  "prompt": "The woman's face in morning light among garden leaves, three quarter view, from the brow to the chin, her long dark curly hair framing her face, calm and full of wonder. The woman is the woman in the reference portrait: keep her face, skin tone and long curly hair exactly, but not the cloth on her shoulder. A head and shoulders view: her long thick hair falls forward over her bare shoulders and chest. Nothing below the shoulders is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
+  "prompt": "The woman's face in morning light among garden leaves, three quarter view, from the brow to the chin, her long dark curly hair framing her face, calm and full of wonder. The woman is the woman in the reference portrait: keep her face, skin tone and long curly hair exactly, but not the cloth on her shoulder. A head and shoulders view: her long thick hair falls forward over her bare shoulders and chest. Nothing below the shoulders is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom.",
+  "lock": true
  },
  {
   "id": "s013",
@@ -247,18 +250,21 @@
   "start": 15.99,
   "dur": 0.998,
   "picture": "Flash-forward montage, about one second a shot, the score driving: a river splitting into four from far above; gold glinting in a riverbed; two trees standing apart in soft light; a lion, an ibex, an eagle passing before the man; the man asleep under a tree at night; a woman's face in morning light (Eve, cast portrait); two hands meeting. Then black.",
-  "scene": "Two bare hands, a man's and a woman's, reaching toward each other and meeting, fingers interlacing, in warm morning light against blurred green leaves; only the bare hands and bare forearms in the frame, no sleeves, no clothing, no watch, no rings, no jewellery.",
+  "scene": "Two bare hands reaching toward each other and meeting, fingers interlacing, in warm morning light: on the left the man's hand, deep dark brown skin exactly like the man in the first reference image, on the right the woman's hand, warm dark olive brown skin exactly like the woman in the second reference image; neither hand is pale or light skinned. morning light against blurred green leaves; only the bare hands and bare forearms in the frame, no sleeves, no clothing, no watch, no rings, no jewellery.",
   "kind": "veo",
-  "refs": [],
+  "refs": [
+   "stills/cast/adam.jpg",
+   "stills/cast/eve.jpg"
+  ],
   "flags": "",
-  "motion": "Two bare hands, a man's and a woman's, reaching toward each other and meeting, fingers interlacing, in warm morning light against blurred green leaves; only the bare hands and bare forearms in the frame, no sleeves, no clothing, no watch, no rings, no jewellery. The hands meet and hold. Photorealistic cinematic footage with natural real world motion, slow and steady camera, no camera shake, no cuts, no text appears.",
+  "motion": "Two bare hands reaching toward each other and meeting, fingers interlacing, in warm morning light: on the left the man's hand, deep dark brown skin exactly like the man in the first reference image, on the right the woman's hand, warm dark olive brown skin exactly like the woman in the second reference image; neither hand is pale or light skinned. morning light against blurred green leaves; only the bare hands and bare forearms in the frame, no sleeves, no clothing, no watch, no rings, no jewellery. The hands meet and hold. Photorealistic cinematic footage with natural real world motion, slow and steady camera, no camera shake, no cuts, no text appears.",
   "w": 1.0,
   "src": null,
   "cue": null,
   "anim": false,
   "verb": null,
   "omni": null,
-  "prompt": "Two bare hands, a man's and a woman's, reaching toward each other and meeting, fingers interlacing, in warm morning light against blurred green leaves; only the bare hands and bare forearms in the frame, no sleeves, no clothing, no watch, no rings, no jewellery. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
+  "prompt": "Two bare hands reaching toward each other and meeting, fingers interlacing, in warm morning light: on the left the man's hand, deep dark brown skin exactly like the man in the first reference image, on the right the woman's hand, warm dark olive brown skin exactly like the woman in the second reference image; neither hand is pale or light skinned. morning light against blurred green leaves; only the bare hands and bare forearms in the frame, no sleeves, no clothing, no watch, no rings, no jewellery. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
   "id": "s014",
@@ -374,7 +380,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s002.jpg",
   "cue": "It looks like one",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -392,7 +398,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s003.jpg",
   "cue": null,
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -410,7 +416,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s004.jpg",
   "cue": "when they were created",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -428,7 +434,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s007.jpg",
   "cue": "Listen to the turn",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -464,7 +470,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s008.jpg",
   "cue": null,
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -482,7 +488,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s005.jpg",
   "cue": "In chapter one He speaks",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -500,7 +506,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s010.jpg",
   "cue": "Here He stoops",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -518,9 +524,10 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s016.jpg",
   "cue": "He forms",
-  "anim": false,
+  "anim": true,
   "verb": "FORMS",
-  "omni": null
+  "omni": null,
+  "lock": true
  },
  {
   "id": "s028",
@@ -536,9 +543,10 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s019.jpg",
   "cue": "breathes,",
-  "anim": false,
+  "anim": true,
   "verb": "BREATHES",
-  "omni": null
+  "omni": null,
+  "lock": true
  },
  {
   "id": "s029",
@@ -554,7 +562,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s023.jpg",
   "cue": "plants,",
-  "anim": false,
+  "anim": true,
   "verb": "PLANTS",
   "omni": null
  },
@@ -572,9 +580,10 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s036.jpg",
   "cue": "takes,",
-  "anim": false,
+  "anim": true,
   "verb": "TAKES",
-  "omni": null
+  "omni": null,
+  "lock": true
  },
  {
   "id": "s031",
@@ -590,9 +599,10 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s037.jpg",
   "cue": "places,",
-  "anim": false,
+  "anim": true,
   "verb": "PLACES",
-  "omni": null
+  "omni": null,
+  "lock": true
  },
  {
   "id": "s032",
@@ -608,7 +618,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s040.jpg",
   "cue": "commands,",
-  "anim": false,
+  "anim": true,
   "verb": "COMMANDS",
   "omni": null
  },
@@ -626,9 +636,10 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s054.jpg",
   "cue": "brings,",
-  "anim": false,
+  "anim": true,
   "verb": "BRINGS",
-  "omni": null
+  "omni": null,
+  "lock": true
  },
  {
   "id": "s034",
@@ -644,9 +655,10 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s060.jpg",
   "cue": "closes and",
-  "anim": false,
+  "anim": true,
   "verb": "CLOSES",
-  "omni": null
+  "omni": null,
+  "lock": true
  },
  {
   "id": "s035",
@@ -662,9 +674,10 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s065.jpg",
   "cue": "builds",
-  "anim": false,
+  "anim": true,
   "verb": "BUILDS",
-  "omni": null
+  "omni": null,
+  "lock": true
  },
  {
   "id": "s036",
@@ -680,7 +693,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s009.jpg",
   "cue": "This is not a second",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -698,7 +711,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s022.jpg",
   "cue": "close up of the sixth",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -716,7 +729,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s011.jpg",
   "cue": null,
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -734,7 +747,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s012.jpg",
   "cue": "nor had any plant",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -752,7 +765,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s006.jpg",
   "cue": "had not yet sent rain",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -772,7 +785,8 @@
   "cue": "But springs",
   "anim": true,
   "verb": null,
-  "omni": null
+  "omni": null,
+  "ltx_prompt": "Clear spring water seeps up and spreads slowly over the dust, darkening it; gentle mist; no spray, no steam jets, no spouts. Photorealistic cinematic footage with natural real world motion, slow and steady camera, no camera shake, no cuts, no text appears."
  },
  {
   "id": "s042",
@@ -807,7 +821,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s014.jpg",
   "cue": "rain, and no man",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -891,7 +905,8 @@
    "mode": "same",
    "clip": "s046",
    "at": 6.3
-  }
+  },
+  "lock": true
  },
  {
   "id": "s048",
@@ -932,7 +947,8 @@
   "anim": false,
   "verb": null,
   "omni": null,
-  "prompt": "Lying on his back in deep grass at first light, seen from the side at head and shoulder height, his chest rising with his first deep breath, eyes open to the sky. The man is the man in the reference portrait: keep his face, skin tone, hair and beard exactly, but not the cloth on his shoulder. He wears nothing; he is seen from the chest up, facing the camera, in profile or from behind, or with tall grass covering him below the chest. Nothing below the chest is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
+  "prompt": "Lying on his back in deep grass at first light, seen from the side at head and shoulder height, his chest rising with his first deep breath, eyes open to the sky. The man is the man in the reference portrait: keep his face, skin tone, hair and beard exactly, but not the cloth on his shoulder. He wears nothing; he is seen from the chest up, facing the camera, in profile or from behind, or with tall grass covering him below the chest. Nothing below the chest is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom.",
+  "lock": true
  },
  {
   "id": "s050",
@@ -973,7 +989,8 @@
   "anim": false,
   "verb": null,
   "omni": null,
-  "prompt": "Close, chest up: his face as first light moves across it, eyes wide in wonder, breathing. The man is the man in the reference portrait: keep his face, skin tone, hair and beard exactly, but not the cloth on his shoulder. He wears nothing; he is seen from the chest up, facing the camera, in profile or from behind, or with tall grass covering him below the chest. Nothing below the chest is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
+  "prompt": "Close, chest up: his face as first light moves across it, eyes wide in wonder, breathing. The man is the man in the reference portrait: keep his face, skin tone, hair and beard exactly, but not the cloth on his shoulder. He wears nothing; he is seen from the chest up, facing the camera, in profile or from behind, or with tall grass covering him below the chest. Nothing below the chest is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom.",
+  "lock": true
  },
  {
   "id": "s052",
@@ -991,7 +1008,8 @@
   "cue": null,
   "anim": true,
   "verb": null,
-  "omni": null
+  "omni": null,
+  "lock": true
  },
  {
   "id": "s053",
@@ -1084,7 +1102,7 @@
   "w": 1.0,
   "src": "../01-the-seven-days-v2/stills/movement/s027.jpg",
   "cue": "The nations also told",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -1102,7 +1120,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s023.jpg",
   "cue": "Genesis is different",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -1120,7 +1138,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s020.jpg",
   "cue": "Man, adam",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -1138,7 +1156,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s014.jpg",
   "cue": "We are earthy creatures",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -1343,7 +1361,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s025.jpg",
   "cue": "Eden means delight",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -1361,7 +1379,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s026.jpg",
   "cue": "Notice the two trees",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -1379,7 +1397,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s024.jpg",
   "cue": "with the man, the woman",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -1508,7 +1526,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s031.jpg",
   "cue": "the Tigris",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -1600,7 +1618,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s032.jpg",
   "cue": "The geography is deliberately",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -1618,7 +1636,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s031.jpg",
   "cue": "Every Israelite knew",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -1636,7 +1654,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s030.jpg",
   "cue": "cannot be identified",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -1673,7 +1691,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s027.jpg",
   "cue": "Here a river flows out",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -1828,7 +1846,8 @@
   "cue": null,
   "anim": true,
   "verb": null,
-  "omni": null
+  "omni": null,
+  "lock": true
  },
  {
   "id": "s098",
@@ -1850,7 +1869,8 @@
   "anim": false,
   "verb": null,
   "omni": null,
-  "prompt": "In the garden at first light he tends a grapevine, lifting a heavy branch onto a living trellis of young trees, seen from the chest up at medium distance among the leaves. The man is the man in the reference portrait: keep his face, skin tone, hair and beard exactly, but not the cloth on his shoulder. He wears nothing; he is seen from the chest up, facing the camera, in profile or from behind, or with tall grass covering him below the chest. Nothing below the chest is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
+  "prompt": "In the garden at first light he tends a grapevine, lifting a heavy branch onto a living trellis of young trees, seen from the chest up at medium distance among the leaves. The man is the man in the reference portrait: keep his face, skin tone, hair and beard exactly, but not the cloth on his shoulder. He wears nothing; he is seen from the chest up, facing the camera, in profile or from behind, or with tall grass covering him below the chest. Nothing below the chest is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom.",
+  "lock": true
  },
  {
   "id": "s099",
@@ -1866,7 +1886,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s038.jpg",
   "cue": "Cultivate and keep",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -1943,7 +1963,9 @@
   "cue": "Adam's work is farming",
   "anim": true,
   "verb": null,
-  "omni": null
+  "omni": null,
+  "ltx_prompt": "He stands still among the trees, seen from behind; only the wind moves the leaves and the grass. He does not walk. Photorealistic cinematic footage with natural real world motion, slow and steady camera, no camera shake, no cuts, no text appears.",
+  "lock": true
  },
  {
   "id": "s104",
@@ -2001,7 +2023,8 @@
   "anim": false,
   "verb": null,
   "omni": null,
-  "prompt": "Seen from behind at long distance, small, standing in tall grass before the great tree at the centre of the garden, the tree filling the frame above him. The man is the man in the reference portrait: keep his face, skin tone, hair and beard exactly, but not the cloth on his shoulder. He wears nothing; he is seen from the chest up, facing the camera, in profile or from behind, or with tall grass covering him below the chest. Nothing below the chest is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
+  "prompt": "Seen from behind at long distance, small, standing in tall grass before the great tree at the centre of the garden, the tree filling the frame above him. The man is the man in the reference portrait: keep his face, skin tone, hair and beard exactly, but not the cloth on his shoulder. He wears nothing; he is seen from the chest up, facing the camera, in profile or from behind, or with tall grass covering him below the chest. Nothing below the chest is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom.",
+  "lock": true
  },
  {
   "id": "s107",
@@ -2035,7 +2058,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s044.jpg",
   "cue": "but you must not",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -2053,7 +2076,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s042.jpg",
   "cue": "Listen to the order",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -2071,7 +2094,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s043.jpg",
   "cue": "only then sets one limit",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -2107,7 +2130,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s041.jpg",
   "cue": "And the warning is plain",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -2125,7 +2148,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s026.jpg",
   "cue": "His word defines",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -2180,7 +2203,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s044.jpg",
   "cue": "Whatever the knowledge",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -2198,7 +2221,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s040.jpg",
   "cue": "or seize it",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -2216,7 +2239,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s025.jpg",
   "cue": "So the garden has everything",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -2234,7 +2257,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s048.jpg",
   "cue": "And then God Himself",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -2254,7 +2277,9 @@
   "cue": null,
   "anim": true,
   "verb": null,
-  "omni": null
+  "omni": null,
+  "ltx_prompt": "He stands still at evening, seen from behind; only the wind moves the leaves. He does not walk or turn. Photorealistic cinematic footage with natural real world motion, slow and steady camera, no camera shake, no cuts, no text appears.",
+  "lock": true
  },
  {
   "id": "s121",
@@ -2270,7 +2295,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s050.jpg",
   "cue": "It is not good",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -2288,9 +2313,10 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s047.jpg",
   "cue": "The first thing in the Bible",
-  "anim": false,
+  "anim": true,
   "verb": null,
-  "omni": null
+  "omni": null,
+  "lock": true
  },
  {
   "id": "s123",
@@ -2306,7 +2332,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s051.jpg",
   "cue": "Helper is ezer",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -2342,7 +2368,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s053.jpg",
   "cue": "Suitable means",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -2362,7 +2388,9 @@
   "cue": null,
   "anim": true,
   "verb": null,
-  "omni": null
+  "omni": null,
+  "ltx_prompt": "The animals walk slowly across the meadow; the man stands still in the tall grass, far off. He does not walk. Photorealistic cinematic footage with natural real world motion, slow and steady camera, no camera shake, no cuts, no text appears.",
+  "lock": true
  },
  {
   "id": "s127",
@@ -2418,7 +2446,8 @@
   "cue": null,
   "anim": true,
   "verb": null,
-  "omni": null
+  "omni": null,
+  "lock": true
  },
  {
   "id": "s130",
@@ -2515,7 +2544,8 @@
   "anim": false,
   "verb": null,
   "omni": null,
-  "prompt": "Chest up, three quarter view: he looks at something before him and speaks a name, attentive, grass around his shoulders. The man is the man in the reference portrait: keep his face, skin tone, hair and beard exactly, but not the cloth on his shoulder. He wears nothing; he is seen from the chest up, facing the camera, in profile or from behind, or with tall grass covering him below the chest. Nothing below the chest is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
+  "prompt": "Chest up, three quarter view: he looks at something before him and speaks a name, attentive, grass around his shoulders. The man is the man in the reference portrait: keep his face, skin tone, hair and beard exactly, but not the cloth on his shoulder. He wears nothing; he is seen from the chest up, facing the camera, in profile or from behind, or with tall grass covering him below the chest. Nothing below the chest is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom.",
+  "lock": true
  },
  {
   "id": "s135",
@@ -2550,9 +2580,10 @@
   "w": 0.8,
   "src": "../02-the-garden/stills/movement/s057.jpg",
   "cue": "But for Adam",
-  "anim": false,
+  "anim": true,
   "verb": null,
-  "omni": null
+  "omni": null,
+  "lock": true
  },
  {
   "id": "s137",
@@ -2570,7 +2601,8 @@
   "cue": "God brings the animals",
   "anim": true,
   "verb": null,
-  "omni": null
+  "omni": null,
+  "lock": true
  },
  {
   "id": "s138",
@@ -2604,9 +2636,10 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s059.jpg",
   "cue": "while he slept",
-  "anim": false,
+  "anim": true,
   "verb": null,
-  "omni": null
+  "omni": null,
+  "lock": true
  },
  {
   "id": "s140",
@@ -2624,7 +2657,8 @@
   "cue": "from the rib",
   "anim": true,
   "verb": null,
-  "omni": null
+  "omni": null,
+  "lock": true
  },
  {
   "id": "s141",
@@ -2640,7 +2674,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s061.jpg",
   "cue": "The deep sleep is the same",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -2658,7 +2692,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s062.jpg",
   "cue": "God works while",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -2737,7 +2771,8 @@
   "anim": false,
   "verb": null,
   "omni": null,
-  "prompt": "The woman walking through the garden toward the camera in morning light among fruit trees, seen from the shoulders up at medium distance, her long thick dark curly hair falling over her shoulders and chest. The woman is the woman in the reference portrait: keep her face, skin tone and long curly hair exactly, but not the cloth on her shoulder. A head and shoulders view: her long thick hair falls forward over her bare shoulders and chest. Nothing below the shoulders is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
+  "prompt": "The woman walking through the garden toward the camera in morning light among fruit trees, seen from the shoulders up at medium distance, her long thick dark curly hair falling over her shoulders and chest. The woman is the woman in the reference portrait: keep her face, skin tone and long curly hair exactly, but not the cloth on her shoulder. A head and shoulders view: her long thick hair falls forward over her bare shoulders and chest. Nothing below the shoulders is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom.",
+  "lock": true
  },
  {
   "id": "s147",
@@ -2759,7 +2794,9 @@
   "anim": false,
   "verb": null,
   "omni": null,
-  "prompt": "He wakes beneath the great tree and sits up in the deep grass, seen in profile from the chest up, turning toward the light. The man is the man in the reference portrait: keep his face, skin tone, hair and beard exactly, but not the cloth on his shoulder. He wears nothing; he is seen from the chest up, facing the camera, in profile or from behind, or with tall grass covering him below the chest. Nothing below the chest is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
+  "prompt": "He wakes beneath the great tree and sits up in the deep grass, seen in profile from the chest up, turning toward the light. The man is the man in the reference portrait: keep his face, skin tone, hair and beard exactly, but not the cloth on his shoulder. He wears nothing; he is seen from the chest up, facing the camera, in profile or from behind, or with tall grass covering him below the chest. Nothing below the chest is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom.",
+  "ltx_prompt": "He sits in the deep grass beneath the tree and turns his head toward the light; he does not stand up. Photorealistic cinematic footage with natural real world motion, slow and steady camera, no camera shake, no cuts, no text appears.",
+  "lock": true
  },
  {
   "id": "s148",
@@ -2781,7 +2818,8 @@
   "anim": false,
   "verb": null,
   "omni": null,
-  "prompt": "Chest up, facing the camera: his face as he sees her for the first time, wonder and joy breaking over it. The man is the man in the reference portrait: keep his face, skin tone, hair and beard exactly, but not the cloth on his shoulder. He wears nothing; he is seen from the chest up, facing the camera, in profile or from behind, or with tall grass covering him below the chest. Nothing below the chest is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
+  "prompt": "Chest up, facing the camera: his face as he sees her for the first time, wonder and joy breaking over it. The man is the man in the reference portrait: keep his face, skin tone, hair and beard exactly, but not the cloth on his shoulder. He wears nothing; he is seen from the chest up, facing the camera, in profile or from behind, or with tall grass covering him below the chest. Nothing below the chest is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom.",
+  "lock": true
  },
  {
   "id": "s149",
@@ -2802,7 +2840,9 @@
   "anim": false,
   "verb": null,
   "omni": null,
-  "prompt": "Head and shoulders, three quarter view: her face as she sees him, calm and glad, morning light, long hair over her shoulders. The woman is the woman in the reference portrait: keep her face, skin tone and long curly hair exactly, but not the cloth on her shoulder. A head and shoulders view: her long thick hair falls forward over her bare shoulders and chest. Nothing below the shoulders is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
+  "prompt": "Head and shoulders, three quarter view: her face as she sees him, calm and glad, morning light, long hair over her shoulders. The woman is the woman in the reference portrait: keep her face, skin tone and long curly hair exactly, but not the cloth on her shoulder. A head and shoulders view: her long thick hair falls forward over her bare shoulders and chest. Nothing below the shoulders is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom.",
+  "ltx_prompt": "She turns her face slowly toward the light and smiles a little; no other people, nobody else appears. Photorealistic cinematic footage with natural real world motion, slow and steady camera, no camera shake, no cuts, no text appears.",
+  "lock": true
  },
  {
   "id": "s150",
@@ -2824,7 +2864,8 @@
   "anim": false,
   "verb": null,
   "omni": null,
-  "prompt": "The man and the woman face to face in profile, close but not touching, seen from the shoulders up, morning light between them, garden leaves behind. The man and the woman are the man and the woman in the reference portraits: keep their faces, skin tone and hair exactly, but not the cloth on their shoulders in the portraits. Before they ate, they wear nothing; modesty is kept by framing and natural cover (rule changed 8 October 2026): they may face the camera, be seen in profile or from behind, at medium distance; the man is seen from the chest up or with tall grass, water or foliage covering him below the chest; the woman is seen from the shoulders up with her long thick hair falling over her chest, or with tall grass, water or foliage covering her below the shoulders; nothing below the chest is ever visible. Never a close up. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
+  "prompt": "The man and the woman face to face in profile, close but not touching, seen from the shoulders up, morning light between them, garden leaves behind. The man and the woman are the man and the woman in the reference portraits: keep their faces, skin tone and hair exactly, but not the cloth on their shoulders in the portraits. Before they ate, they wear nothing; modesty is kept by framing and natural cover (rule changed 8 October 2026): they may face the camera, be seen in profile or from behind, at medium distance; the man is seen from the chest up or with tall grass, water or foliage covering him below the chest; the woman is seen from the shoulders up with her long thick hair falling over her chest, or with tall grass, water or foliage covering her below the shoulders; nothing below the chest is ever visible. Never a close up. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom.",
+  "lock": true
  },
  {
   "id": "s151",
@@ -2842,7 +2883,8 @@
   "cue": "This is now bone",
   "anim": true,
   "verb": null,
-  "omni": null
+  "omni": null,
+  "lock": true
  },
  {
   "id": "s152",
@@ -2858,9 +2900,10 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s065.jpg",
   "cue": "for out of man",
-  "anim": false,
+  "anim": true,
   "verb": null,
-  "omni": null
+  "omni": null,
+  "lock": true
  },
  {
   "id": "s153",
@@ -2876,7 +2919,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s066.jpg",
   "cue": "These are the first recorded",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -2894,7 +2937,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s068.jpg",
   "cue": "Bone of my bones is",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -2994,7 +3037,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s067.jpg",
   "cue": "Marriage is a loyalty",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -3012,7 +3055,7 @@
   "w": 1.0,
   "src": "../01-the-seven-days-v2/stills/movement/s128.jpg",
   "cue": "This chapter was written",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -3032,7 +3075,8 @@
   "cue": null,
   "anim": true,
   "verb": null,
-  "omni": null
+  "omni": null,
+  "lock": true
  },
  {
   "id": "s162",
@@ -3048,7 +3092,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s071.jpg",
   "cue": "not ashamed",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -3085,7 +3129,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s072.jpg",
   "cue": "Naked, and not ashamed",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -3103,9 +3147,10 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s069.jpg",
   "cue": "Every gift",
-  "anim": false,
+  "anim": true,
   "verb": null,
-  "omni": null
+  "omni": null,
+  "lock": true
  },
  {
   "id": "s166",
@@ -3158,7 +3203,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s076.jpg",
   "cue": "Adam was placed",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -3176,7 +3221,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s075.jpg",
   "cue": "He failed at every point",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -3212,7 +3257,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s078.jpg",
   "cue": "Mary thinks",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -3267,7 +3312,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s079.jpg",
   "cue": "That evening",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -3285,7 +3330,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s080.jpg",
   "cue": "Receive the Holy Spirit",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -3303,7 +3348,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s081.jpg",
   "cue": "And Paul says",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -3317,11 +3362,11 @@
   "kind": "reuse",
   "refs": [],
   "flags": "",
-  "motion": "Dawn over the garden with a city of light far beyond it. Slow push. Photorealistic cinematic footage with natural real world motion, slow and steady camera, no camera shake, no cuts, no text appears.",
+  "motion": "Two vines grown together around one another on a living trellis, in warm light. Slow push. Photorealistic cinematic footage with natural real world motion, slow and steady camera, no camera shake, no cuts, no text appears.",
   "w": 1.0,
-  "src": "../02-the-garden/stills/movement/s082.jpg",
+  "src": "../02-the-garden/stills/movement/s068.jpg",
   "cue": "I am speaking about Christ",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -3394,7 +3439,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s084.jpg",
   "cue": "and the way to the tree",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -3558,17 +3603,18 @@
   "start": 868.755,
   "dur": 7.575,
   "picture": "Set piece: Eden restored. A radiant city with a river of clear water running through its centre, and the tree of life on both banks, fruit hanging in the light.",
-  "scene": "",
-  "kind": "reuse",
+  "scene": "Dawn over the garden from a rise: groves of fruit trees and a river winding toward the horizon, and far beyond them, small and shining, a vast square city of pale gold stone glowing with its own light, low flat roofed buildings of the ancient Near East, no towers, no spires, no pinnacles, no cathedral, no domes, no castle.",
+  "kind": "veo",
   "refs": [],
   "flags": "",
-  "motion": "Dawn over the garden with a city of light far beyond it. Slow push. Photorealistic cinematic footage with natural real world motion, slow and steady camera, no camera shake, no cuts, no text appears.",
+  "motion": "Dawn over the garden from a rise: groves of fruit trees and a river winding toward the horizon, and far beyond them, small and shining, a vast square city of pale gold stone glowing with its own light, low flat roofed buildings of the ancient Near East, no towers, no spires, no pinnacles, no cathedral, no domes, no castle. Slow push toward the city. Photorealistic cinematic footage with natural real world motion, slow and steady camera, no camera shake, no cuts, no text appears.",
   "w": 1.0,
-  "src": "../02-the-garden/stills/movement/s082.jpg",
+  "src": null,
   "cue": "The garden has become a city",
   "anim": false,
   "verb": null,
-  "omni": null
+  "omni": null,
+  "prompt": "Dawn over the garden from a rise: groves of fruit trees and a river winding toward the horizon, and far beyond them, small and shining, a vast square city of pale gold stone glowing with its own light, low flat roofed buildings of the ancient Near East, no towers, no spires, no pinnacles, no cathedral, no domes, no castle. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
   "id": "s191",
@@ -3642,7 +3688,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s091.jpg",
   "cue": "change how you see",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },
@@ -3679,7 +3725,7 @@
   "w": 1.0,
   "src": "../02-the-garden/stills/movement/s072.jpg",
   "cue": "In the next chapter",
-  "anim": false,
+  "anim": true,
   "verb": null,
   "omni": null
  },

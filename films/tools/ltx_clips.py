@@ -77,8 +77,9 @@ def main():
                 print(f"{sh['id']}: no keyframe", flush=True)
                 continue
             cmd += ["--image", str(key), "0", "1.0"]
-            prompt = o.get("prompt") or sh["motion"]
-            if sh.get("flags") == "pair":
+            prompt = o.get("prompt") or sh.get("ltx_prompt") or sh["motion"]
+            if sh.get("flags") == "pair" or sh.get("lock"):
+                # lock: The Garden v2, unclothed figures that LTX dressed or moved (s147 trousers, s149 extra women)
                 # modesty: LTX let the pair rise out of the grass (s101, s112), so the last frame is the keyframe too
                 cmd += ["--image", str(key), "last", "1.0"]
                 prompt += " They stay where they are; the framing ends as it began, the grass and their hair as in the image."

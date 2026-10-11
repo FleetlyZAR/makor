@@ -64,7 +64,7 @@ def S(scene, kind="still", refs=(), flags="", motion="Slow push in.", w=1.0, src
                 anim=anim, verb=verb, omni=omni)
 
 
-def R(src, motion="Slow push in.", w=1.0, cue=None, anim=False, verb=None, note="", omni=None):
+def R(src, motion="Slow push in.", w=1.0, cue=None, anim=True, verb=None, note="", omni=None):
     return S(note, "reuse", src=src, motion=motion, w=w, cue=cue, anim=anim, verb=verb, omni=omni)
 
 
@@ -110,9 +110,12 @@ SEG = {
         S("The woman's face in morning light among garden leaves, three quarter view, from the brow to the chin, her long "
           "dark curly hair framing her face, calm and full of wonder.", "veo", ["eve"], "woman",
           motion="She turns her face toward the camera."),
-        S("Two bare hands, a man's and a woman's, reaching toward each other and meeting, fingers interlacing, in warm "
+        S("Two bare hands reaching toward each other and meeting, fingers interlacing, in warm morning light: on the left "
+          "the man's hand, deep dark brown skin exactly like the man in the first reference image, on the right the "
+          "woman's hand, warm dark olive brown skin exactly like the woman in the second reference image; neither hand "
+          "is pale or light skinned. "
           "morning light against blurred green leaves; only the bare hands and bare forearms in the frame, no sleeves, "
-          "no clothing, no watch, no rings, no jewellery.", "veo",
+          "no clothing, no watch, no rings, no jewellery.", "veo", ["adam", "eve"],
           motion="The hands meet and hold."),
         S("", "graphic", flags="black: God's line, 'It is not good for the man to be alone.' (made in the edit)", w=5.0)],
     # 3 the camp at night; the hook; title over dry ground
@@ -372,7 +375,7 @@ SEG = {
          R(V1 + "s079.jpg", "Slow push.", cue="That evening"),
          R(V1 + "s080.jpg", "Slow push.", cue="Receive the Holy Spirit"),
          R(V1 + "s081.jpg", "Slow push.", cue="And Paul says"),
-         R(V1 + "s082.jpg", "Slow push.", cue="I am speaking about Christ")],
+         R(V1 + "s068.jpg", "Slow push.", cue="I am speaking about Christ")],  # two vines grown into one (v1 s082 has a spired city)
     # 22 dark flash-forward to chapter three; the prophets' promise in the wilderness
     22: [R(FALL + "s060.jpg", "Fast push.", anim=True, w=0.8),
          S("Close: a man's bare scratched hands tearing at thorn bushes in hard cracked ground, dust and sweat, no tools, "
@@ -399,7 +402,10 @@ SEG = {
            "European architecture.", "veo", motion="Leaves move over the water."),
          S("Wide at golden light: the garden city, the clear river winding through groves of fruit trees on both banks, "
            "and beyond them a vast square city of pale gold stone glowing with its own light, low flat roofed buildings of the ancient Near East, no towers, no spires, no pinnacles, no arches reaching up, no cathedral, no domes, no castle, no modern or European architecture.", "veo", motion="Slow push."),
-         R(V1 + "s082.jpg", "Slow push.", cue="The garden has become a city")],
+         S("Dawn over the garden from a rise: groves of fruit trees and a river winding toward the horizon, and far beyond "
+           "them, small and shining, a vast square city of pale gold stone glowing with its own light, low flat roofed "
+           "buildings of the ancient Near East, no towers, no spires, no pinnacles, no cathedral, no domes, no castle.",
+           "veo", motion="Slow push toward the city.", cue="The garden has become a city")],
     # 24 dust that breathes
     24: [R(V1 + "s089.jpg", "A breath of wind lifts the dust.", anim=True),
          bm("At dawn in the camp he opens his hand and the wind lifts the dust from his palm. " + CAMP,
@@ -425,6 +431,18 @@ def _orig():
 
 
 ORIG = _orig()
+
+
+PEOPLE = {"man", "woman", "pair"}
+STILL_PEOPLE = {   # shot: LTX motion, with the clip's last frame locked to the keyframe (clip review, 11 October)
+    "s103": "He stands still among the trees, seen from behind; only the wind moves the leaves and the grass. He does not walk.",
+    "s120": "He stands still at evening, seen from behind; only the wind moves the leaves. He does not walk or turn.",
+    "s126": "The animals walk slowly across the meadow; the man stands still in the tall grass, far off. He does not walk.",
+    "s147": "He sits in the deep grass beneath the tree and turns his head toward the light; he does not stand up.",
+    "s149": "She turns her face slowly toward the light and smiles a little; no other people, nobody else appears.",
+}
+CALM = {"s041": "Clear spring water seeps up and spreads slowly over the dust, darkening it; gentle mist; no spray, no "
+                "steam jets, no spouts."}
 
 
 def prompt_for(sh):
@@ -530,6 +548,10 @@ def main():
             keep = PR.KEEP if orig.get("flags") in ("pair", "man", "woman", "bm", "family") else ""
             rec.update(motion=f"{orig.get('scene', '')} {sh['motion']}{keep} {PR.MOTION}".strip(),
                        flags=orig.get("flags", ""))
+        if rec["id"] in STILL_PEOPLE or rec["id"] in CALM:
+            rec["ltx_prompt"] = (STILL_PEOPLE.get(rec["id"]) or CALM[rec["id"]]) + " " + PR.MOTION
+        if rec.get("flags") in PEOPLE:
+            rec["lock"] = True
         out.append(rec)
     (HERE / "movement-shots.json").write_text(json.dumps(
         [dict(id=s["id"], chapter=s["chapter"], n=0, start=s["start"], dur=s["dur"], picture=s["scene"] or s["picture"])
