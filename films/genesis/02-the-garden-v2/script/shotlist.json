@@ -14,7 +14,11 @@
   "src": "../02-the-garden/stills/movement/s001.jpg",
   "cue": null,
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": {
+   "mode": "image",
+   "prompt": "One continuous shot, the camera falling from the sky to the ground. [0-2.5s] High above a wide bay at rest in long golden light, the camera tips forward and begins to dive. [2.5-5s] Plunging fast down through white clouds, a dry river land opening below. [5-7.5s] Rushing low and fast over bare dry red brown ground at first light, the ground filling the frame. [7.5-10s] The camera slows hard and comes to rest in extreme close up on single grains of dry dust, one grain catching the light; stillness. No people, no animals, no buildings, nothing made by hands. Sound: wind rushing, then silence."
+  }
  },
  {
   "id": "s002",
@@ -32,6 +36,11 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": {
+   "mode": "same",
+   "clip": "s001",
+   "at": 2.5
+  },
   "prompt": "Plunging down through white clouds in golden morning light, a dry river land opening far below. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -49,7 +58,12 @@
   "src": "../02-the-garden/stills/movement/s002.jpg",
   "cue": null,
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": {
+   "mode": "same",
+   "clip": "s001",
+   "at": 5.0
+  }
  },
  {
   "id": "s004",
@@ -67,6 +81,11 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": {
+   "mode": "same",
+   "clip": "s001",
+   "at": 7.5
+  },
   "prompt": "Extreme macro of dry dust on bare ground: individual grains of red brown earth, sharp, one grain at the centre catching first light. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -85,6 +104,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Extreme macro of dark damp dust on the ground at first light; the grains begin to lift and swirl in a low wind. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -106,6 +126,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "An extreme close view of the man's eyes, from the brow to the cheekbones only, lying on the ground in first light: his eyes opening for the first time, dew on his lashes, light in his eyes. The man is the man in the reference portrait: keep his face, skin tone, hair and beard exactly, but not the cloth on his shoulder. He wears nothing; he is seen from the chest up, facing the camera, in profile or from behind, or with tall grass covering him below the chest. Nothing below the chest is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -123,7 +144,8 @@
   "src": "../02-the-garden/stills/movement/s028.jpg",
   "cue": null,
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s008",
@@ -140,7 +162,8 @@
   "src": "../02-the-garden/stills/movement/s029.jpg",
   "cue": null,
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s009",
@@ -157,7 +180,8 @@
   "src": "../02-the-garden/stills/movement/s024.jpg",
   "cue": null,
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s010",
@@ -175,6 +199,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "A lion in long golden grass in the garden, walking straight toward the camera, calm and unafraid, morning light. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -192,7 +217,8 @@
   "src": "../02-the-garden/stills/movement/s060.jpg",
   "cue": null,
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s012",
@@ -212,6 +238,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "The woman's face in morning light among garden leaves, three quarter view, from the brow to the chin, her long dark curly hair framing her face, calm and full of wonder. The woman is the woman in the reference portrait: keep her face, skin tone and long curly hair exactly, but not the cloth on her shoulder. A head and shoulders view: her long thick hair falls forward over her bare shoulders and chest. Nothing below the shoulders is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -230,6 +257,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Two bare hands, a man's and a woman's, reaching toward each other and meeting, fingers interlacing, in warm morning light against blurred green leaves; only the bare hands and bare forearms in the frame, no sleeves, no clothing, no watch, no rings, no jewellery. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -247,7 +275,8 @@
   "src": null,
   "cue": null,
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s015",
@@ -265,6 +294,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Night in the wilderness camp under countless stars: rows of black goat hair tents, and at the centre the tent sanctuary in its white linen courtyard, fire and smoke rising before its gate. A wilderness camp of Israel in the Sinai desert in the time of Moses: low tents of black goat hair in rows on sand and gravel, rocky desert mountains behind, cooking fires; at the centre of the camp a large tent sanctuary of woven curtains inside a courtyard fence of white linen hung on posts. No stone buildings, no towers, no statues, no carvings of figures, no domes. Any people are small and far off, faces not visible. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -286,6 +316,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Night: he sits at the door of his goat hair tent with his forearms on his knees, firelight on his face, looking across the camp toward the sanctuary's fire. A wilderness camp of Israel in the Sinai desert in the time of Moses: low tents of black goat hair in rows on sand and gravel, rocky desert mountains behind, cooking fires; at the centre of the camp a large tent sanctuary of woven curtains inside a courtyard fence of white linen hung on posts. No stone buildings, no towers, no statues, no carvings of figures, no domes. The man is the brick-maker in the reference images, now free in the wilderness: keep his face, skin tone, curly dark hair with grey, full beard with grey at the chin and build exactly; he wears a plain undyed knee length linen tunic, clean now, no mud. Quiet, thoughtful, at peace, never grinning. Framed from the chest up or wider, never an extreme close up of the face. No other people close to the camera. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -304,6 +335,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "The gate of the tent sanctuary at night from across the camp: the courtyard's white linen walls glowing with firelight, smoke rising into the stars, the gate facing east. A wilderness camp of Israel in the Sinai desert in the time of Moses: low tents of black goat hair in rows on sand and gravel, rocky desert mountains behind, cooking fires; at the centre of the camp a large tent sanctuary of woven curtains inside a courtyard fence of white linen hung on posts. No stone buildings, no towers, no statues, no carvings of figures, no domes. Any people are small and far off, faces not visible. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -325,6 +357,7 @@
   "cue": "They would have noticed",
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Close: his face in the firelight, chest up, eyes on the sanctuary, thinking. A wilderness camp of Israel in the Sinai desert in the time of Moses: low tents of black goat hair in rows on sand and gravel, rocky desert mountains behind, cooking fires; at the centre of the camp a large tent sanctuary of woven curtains inside a courtyard fence of white linen hung on posts. No stone buildings, no towers, no statues, no carvings of figures, no domes. The man is the brick-maker in the reference images, now free in the wilderness: keep his face, skin tone, curly dark hair with grey, full beard with grey at the chin and build exactly; he wears a plain undyed knee length linen tunic, clean now, no mud. Quiet, thoughtful, at peace, never grinning. Framed from the chest up or wider, never an extreme close up of the face. No other people close to the camera. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -342,7 +375,8 @@
   "src": "../02-the-garden/stills/movement/s002.jpg",
   "cue": "It looks like one",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s020",
@@ -359,7 +393,8 @@
   "src": "../02-the-garden/stills/movement/s003.jpg",
   "cue": null,
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s021",
@@ -376,7 +411,8 @@
   "src": "../02-the-garden/stills/movement/s004.jpg",
   "cue": "when they were created",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s022",
@@ -393,7 +429,8 @@
   "src": "../02-the-garden/stills/movement/s007.jpg",
   "cue": "Listen to the turn",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s023",
@@ -410,7 +447,8 @@
   "src": "../02-the-garden/stills/movement/s006.jpg",
   "cue": "the camera comes down",
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s024",
@@ -427,7 +465,8 @@
   "src": "../02-the-garden/stills/movement/s008.jpg",
   "cue": null,
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s025",
@@ -444,7 +483,8 @@
   "src": "../02-the-garden/stills/movement/s005.jpg",
   "cue": "In chapter one He speaks",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s026",
@@ -461,7 +501,8 @@
   "src": "../02-the-garden/stills/movement/s010.jpg",
   "cue": "Here He stoops",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s027",
@@ -478,7 +519,8 @@
   "src": "../02-the-garden/stills/movement/s016.jpg",
   "cue": "He forms",
   "anim": false,
-  "verb": "FORMS"
+  "verb": "FORMS",
+  "omni": null
  },
  {
   "id": "s028",
@@ -495,7 +537,8 @@
   "src": "../02-the-garden/stills/movement/s019.jpg",
   "cue": "breathes,",
   "anim": false,
-  "verb": "BREATHES"
+  "verb": "BREATHES",
+  "omni": null
  },
  {
   "id": "s029",
@@ -512,7 +555,8 @@
   "src": "../02-the-garden/stills/movement/s023.jpg",
   "cue": "plants,",
   "anim": false,
-  "verb": "PLANTS"
+  "verb": "PLANTS",
+  "omni": null
  },
  {
   "id": "s030",
@@ -529,7 +573,8 @@
   "src": "../02-the-garden/stills/movement/s036.jpg",
   "cue": "takes,",
   "anim": false,
-  "verb": "TAKES"
+  "verb": "TAKES",
+  "omni": null
  },
  {
   "id": "s031",
@@ -546,7 +591,8 @@
   "src": "../02-the-garden/stills/movement/s037.jpg",
   "cue": "places,",
   "anim": false,
-  "verb": "PLACES"
+  "verb": "PLACES",
+  "omni": null
  },
  {
   "id": "s032",
@@ -563,7 +609,8 @@
   "src": "../02-the-garden/stills/movement/s040.jpg",
   "cue": "commands,",
   "anim": false,
-  "verb": "COMMANDS"
+  "verb": "COMMANDS",
+  "omni": null
  },
  {
   "id": "s033",
@@ -580,7 +627,8 @@
   "src": "../02-the-garden/stills/movement/s054.jpg",
   "cue": "brings,",
   "anim": false,
-  "verb": "BRINGS"
+  "verb": "BRINGS",
+  "omni": null
  },
  {
   "id": "s034",
@@ -597,7 +645,8 @@
   "src": "../02-the-garden/stills/movement/s060.jpg",
   "cue": "closes and",
   "anim": false,
-  "verb": "CLOSES"
+  "verb": "CLOSES",
+  "omni": null
  },
  {
   "id": "s035",
@@ -614,7 +663,8 @@
   "src": "../02-the-garden/stills/movement/s065.jpg",
   "cue": "builds",
   "anim": false,
-  "verb": "BUILDS"
+  "verb": "BUILDS",
+  "omni": null
  },
  {
   "id": "s036",
@@ -631,7 +681,8 @@
   "src": "../02-the-garden/stills/movement/s009.jpg",
   "cue": "This is not a second",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s037",
@@ -648,7 +699,8 @@
   "src": "../02-the-garden/stills/movement/s022.jpg",
   "cue": "close up of the sixth",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s038",
@@ -665,7 +717,8 @@
   "src": "../02-the-garden/stills/movement/s011.jpg",
   "cue": null,
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s039",
@@ -682,7 +735,8 @@
   "src": "../02-the-garden/stills/movement/s012.jpg",
   "cue": "nor had any plant",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s040",
@@ -699,7 +753,8 @@
   "src": "../02-the-garden/stills/movement/s006.jpg",
   "cue": "had not yet sent rain",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s041",
@@ -716,7 +771,8 @@
   "src": "../02-the-garden/stills/movement/s013.jpg",
   "cue": "But springs",
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s042",
@@ -734,6 +790,7 @@
   "cue": "The scene opens",
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Macro: clear spring water spreading in thin ribbons through dry red brown dust, darkening it, tiny bubbles rising, first light. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -751,7 +808,8 @@
   "src": "../02-the-garden/stills/movement/s014.jpg",
   "cue": "rain, and no man",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s044",
@@ -769,6 +827,7 @@
   "cue": "Every lack",
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Macro: single drops of water falling into damp dust, each one darkening a small circle, silence. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -786,7 +845,8 @@
   "src": "../02-the-garden/stills/movement/s015.jpg",
   "cue": null,
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s046",
@@ -794,17 +854,22 @@
   "start": 138.821,
   "dur": 3.249,
   "picture": "Set piece: the forming. The damp dust stirs and gathers, drawn together by wind and light into the shape of a man lying on the ground, seen from far off; nothing else moves. No hands, no figure: only the effect. Then a wind passes over him, low and close, the grass bending. His chest rises. His eyes open.",
-  "scene": "A very wide plain of damp earth at dawn; close to the ground, the damp dust drawn together by a low whirling wind into the long shape of a man lying on his back, still only earth, seen from far off and low, a soft warm light on it. No hands, no figure above it.",
+  "scene": "Low at ground level at dawn on a wide plain of damp red brown earth with tall grass at its edges: a long low drift of loose damp dust lying on the ground, the length and outline of a man lying on his back, still only earth, a thin whirl of dust lifting around it, soft warm light across it. No rocks, no boulders, no mound of stone, no hill, no hands, no figure above it.",
   "kind": "veo",
   "refs": [],
   "flags": "",
-  "motion": "A very wide plain of damp earth at dawn; close to the ground, the damp dust drawn together by a low whirling wind into the long shape of a man lying on his back, still only earth, seen from far off and low, a soft warm light on it. No hands, no figure above it. The dust settles into the shape; wind moves over it. Photorealistic cinematic footage with natural real world motion, slow and steady camera, no camera shake, no cuts, no text appears.",
+  "motion": "Low at ground level at dawn on a wide plain of damp red brown earth with tall grass at its edges: a long low drift of loose damp dust lying on the ground, the length and outline of a man lying on his back, still only earth, a thin whirl of dust lifting around it, soft warm light across it. No rocks, no boulders, no mound of stone, no hill, no hands, no figure above it. The dust settles into the shape; wind moves over it. Photorealistic cinematic footage with natural real world motion, slow and steady camera, no camera shake, no cuts, no text appears.",
   "w": 1.0,
   "src": null,
   "cue": "formed man from the dust",
   "anim": false,
   "verb": null,
-  "prompt": "A very wide plain of damp earth at dawn; close to the ground, the damp dust drawn together by a low whirling wind into the long shape of a man lying on his back, still only earth, seen from far off and low, a soft warm light on it. No hands, no figure above it. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
+  "omni": {
+   "mode": "morph",
+   "last": "../02-the-garden/stills/movement/s016.jpg",
+   "prompt": "One continuous shot, low at ground level at dawn. [0-4s] A low whirling wind draws loose damp dust together on the ground into the long outline of a man lying on his back; the earth gathers and settles. [4-8s] Grass rises around it and the shape of dust becomes a man lying still in deep grass, seen from the side, the grass covering him below the chest. [8-10s] Stillness; soft warm light. No hands and no figure above him, nothing in the sky; the wind is the only cause. Nothing below his chest is ever visible. Sound: low wind, then silence."
+  },
+  "prompt": "Low at ground level at dawn on a wide plain of damp red brown earth with tall grass at its edges: a long low drift of loose damp dust lying on the ground, the length and outline of a man lying on his back, still only earth, a thin whirl of dust lifting around it, soft warm light across it. No rocks, no boulders, no mound of stone, no hill, no hands, no figure above it. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
   "id": "s047",
@@ -821,7 +886,12 @@
   "src": "../02-the-garden/stills/movement/s016.jpg",
   "cue": "breathed the breath",
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": {
+   "mode": "same",
+   "clip": "s046",
+   "at": 6.3
+  }
  },
  {
   "id": "s048",
@@ -839,6 +909,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Wind rushing low across tall grass toward the camera at first light, the grass bending in one long wave. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -860,6 +931,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Lying on his back in deep grass at first light, seen from the side at head and shoulder height, his chest rising with his first deep breath, eyes open to the sky. The man is the man in the reference portrait: keep his face, skin tone, hair and beard exactly, but not the cloth on his shoulder. He wears nothing; he is seen from the chest up, facing the camera, in profile or from behind, or with tall grass covering him below the chest. Nothing below the chest is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -878,6 +950,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Close: a man's bare hand lying on dark earth closing slowly around a handful of soil, grass around it, first light; only the bare hand and bare forearm in the frame, no sleeve, no clothing, no watch, no rings. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -899,6 +972,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Close, chest up: his face as first light moves across it, eyes wide in wonder, breathing. The man is the man in the reference portrait: keep his face, skin tone, hair and beard exactly, but not the cloth on his shoulder. He wears nothing; he is seen from the chest up, facing the camera, in profile or from behind, or with tall grass covering him below the chest. Nothing below the chest is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -916,7 +990,8 @@
   "src": "../02-the-garden/stills/movement/s019.jpg",
   "cue": null,
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s053",
@@ -933,7 +1008,8 @@
   "src": "../02-the-garden/stills/movement/s021.jpg",
   "cue": null,
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s054",
@@ -954,6 +1030,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "By day in the wilderness camp he kneels on the sand and lets dry dust run through his fingers, looking at it. A wilderness camp of Israel in the Sinai desert in the time of Moses: low tents of black goat hair in rows on sand and gravel, rocky desert mountains behind, cooking fires; at the centre of the camp a large tent sanctuary of woven curtains inside a courtyard fence of white linen hung on posts. No stone buildings, no towers, no statues, no carvings of figures, no domes. The man is the brick-maker in the reference images, now free in the wilderness: keep his face, skin tone, curly dark hair with grey, full beard with grey at the chin and build exactly; he wears a plain undyed knee length linen tunic, clean now, no mud. Quiet, thoughtful, at peace, never grinning. Framed from the chest up or wider, never an extreme close up of the face. No other people close to the camera. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -972,6 +1049,7 @@
   "cue": "hands shaping clay",
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Close: a man's work scarred hands letting dry desert dust run through the fingers in the sun; only the hands in the frame. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -989,7 +1067,8 @@
   "src": "../02-the-garden/stills/movement/s018.jpg",
   "cue": "we are the clay",
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s057",
@@ -1006,7 +1085,8 @@
   "src": "../01-the-seven-days-v2/stills/movement/s027.jpg",
   "cue": "The nations also told",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s058",
@@ -1023,7 +1103,8 @@
   "src": "../02-the-garden/stills/movement/s023.jpg",
   "cue": "Genesis is different",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s059",
@@ -1040,7 +1121,8 @@
   "src": "../02-the-garden/stills/movement/s020.jpg",
   "cue": "Man, adam",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s060",
@@ -1057,7 +1139,8 @@
   "src": "../02-the-garden/stills/movement/s014.jpg",
   "cue": "We are earthy creatures",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s061",
@@ -1074,7 +1157,8 @@
   "src": "../02-the-garden/stills/movement/s021.jpg",
   "cue": "the breath of the Almighty",
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s062",
@@ -1092,6 +1176,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Time-lapse at ground level: green shoots breaking up through dark damp earth at first light. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -1110,6 +1195,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "One single full frame photograph, not a sequence, no panels: a young fig tree with broad unfurling leaves standing alone on bare open ground in a wide green valley in the east, morning sun; no walls, no buildings. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -1128,6 +1214,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Time-lapse: young trees rising across a wide valley in the east, the land turning green. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -1146,6 +1233,7 @@
   "cue": "every tree that is pleasing",
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Close: figs swelling and ripening on the branch, dew, warm light, blurred fig leaves and trees behind; no walls, no stones, nothing made by hands. One single continuous full frame image. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -1164,6 +1252,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Close: pomegranates ripening red gold on the branch in warm light. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -1182,6 +1271,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Close: heavy clusters of dates ripening on a date palm against the sky. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -1200,6 +1290,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Close: grape clusters ripening on the vine, sun through the leaves. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -1217,7 +1308,8 @@
   "src": "../02-the-garden/stills/movement/s023.jpg",
   "cue": "good for food",
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s070",
@@ -1234,7 +1326,8 @@
   "src": "../02-the-garden/stills/movement/s024.jpg",
   "cue": "And in the middle",
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s071",
@@ -1251,7 +1344,8 @@
   "src": "../02-the-garden/stills/movement/s025.jpg",
   "cue": "Eden means delight",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s072",
@@ -1268,7 +1362,8 @@
   "src": "../02-the-garden/stills/movement/s026.jpg",
   "cue": "Notice the two trees",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s073",
@@ -1285,7 +1380,8 @@
   "src": "../02-the-garden/stills/movement/s024.jpg",
   "cue": "with the man, the woman",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s074",
@@ -1302,7 +1398,8 @@
   "src": "../02-the-garden/stills/movement/s027.jpg",
   "cue": null,
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s075",
@@ -1320,6 +1417,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Flying fast and low just above a clear river through a green garden, trees blurring past on both banks, the water sparkling below. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -1338,6 +1436,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Climbing up from the river into the sky as it splits below into four great headwaters, the land spreading out to the horizon. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -1356,6 +1455,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "From the air, a broad river winding through a land of ochre hills and pale sand in the east, gold glinting in its bed, early light. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -1373,7 +1473,8 @@
   "src": "../02-the-garden/stills/movement/s029.jpg",
   "cue": "And the gold of that land",
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s079",
@@ -1390,7 +1491,8 @@
   "src": "../02-the-garden/stills/movement/s030.jpg",
   "cue": "the Gihon",
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s080",
@@ -1407,7 +1509,8 @@
   "src": "../02-the-garden/stills/movement/s031.jpg",
   "cue": "the Tigris",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s081",
@@ -1424,7 +1527,8 @@
   "src": "../02-the-garden/stills/movement/s028.jpg",
   "cue": "And the fourth river",
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s082",
@@ -1442,6 +1546,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Sweeping aerial over two great rivers converging across a vast green plain at golden light, the camera banking. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -1460,6 +1565,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "From very high above at golden evening light, the four great rivers running out across a vast land toward four horizons, shining like threads of gold. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -1477,7 +1583,8 @@
   "src": "../02-the-garden/stills/movement/s033.jpg",
   "cue": null,
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s085",
@@ -1494,7 +1601,8 @@
   "src": "../02-the-garden/stills/movement/s032.jpg",
   "cue": "The geography is deliberately",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s086",
@@ -1511,7 +1619,8 @@
   "src": "../02-the-garden/stills/movement/s031.jpg",
   "cue": "Every Israelite knew",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s087",
@@ -1528,7 +1637,8 @@
   "src": "../02-the-garden/stills/movement/s030.jpg",
   "cue": "cannot be identified",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s088",
@@ -1546,6 +1656,7 @@
   "cue": "the dwelling of a god",
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "High on a mountain at first light, a great spring pouring from the rock and running down in streams that spread out over the land below. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -1563,7 +1674,8 @@
   "src": "../02-the-garden/stills/movement/s027.jpg",
   "cue": "Here a river flows out",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s090",
@@ -1584,6 +1696,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Sunrise in the camp: he walks between the goat hair tents toward the tent sanctuary at the centre, seen from behind and to the side. A wilderness camp of Israel in the Sinai desert in the time of Moses: low tents of black goat hair in rows on sand and gravel, rocky desert mountains behind, cooking fires; at the centre of the camp a large tent sanctuary of woven curtains inside a courtyard fence of white linen hung on posts. No stone buildings, no towers, no statues, no carvings of figures, no domes. The man is the brick-maker in the reference images, now free in the wilderness: keep his face, skin tone, curly dark hair with grey, full beard with grey at the chin and build exactly; he wears a plain undyed knee length linen tunic, clean now, no mud. Quiet, thoughtful, at peace, never grinning. Framed from the chest up or wider, never an extreme close up of the face. No other people close to the camera. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -1602,6 +1715,7 @@
   "cue": "Its entrance faces east",
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "The gate of the tent sanctuary's courtyard facing east straight into the rising sun, its curtain of blue, purple and scarlet woven linen lit by the sunrise. A wilderness camp of Israel in the Sinai desert in the time of Moses: low tents of black goat hair in rows on sand and gravel, rocky desert mountains behind, cooking fires; at the centre of the camp a large tent sanctuary of woven curtains inside a courtyard fence of white linen hung on posts. No stone buildings, no towers, no statues, no carvings of figures, no domes. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -1620,6 +1734,7 @@
   "cue": "Gold and onyx",
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Inside the courtyard at sunrise: gold catching the light on the posts and furnishings of the tent sanctuary, polished bronze basin, smoke from the altar. Any people are small and far off, faces not visible. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -1638,6 +1753,7 @@
   "cue": "two onyx stones",
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Close on the shoulders of a priest of Israel seen from behind and to the side: on each shoulder of his woven gold, blue and scarlet garment, a large dark onyx stone set in gold, engraved with rows of ancient Hebrew letters; his face not visible. One single continuous full frame image with the sky and camp behind. Any people are small and far off, faces not visible. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -1656,6 +1772,7 @@
   "cue": "God walks in the garden",
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Inner curtains of fine woven linen in blue, purple and scarlet thread, embroidered with stylised palm trees and open flowers, ancient Near Eastern weaving, lit by lamplight; no figures, no creatures, no faces, no wings. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -1674,6 +1791,7 @@
   "cue": "I will walk among you",
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "From a rocky rise at dawn, the whole camp below: thousands of tents in ordered rows around the tent sanctuary at the centre, smoke rising, people small and far off moving between the tents. A wilderness camp of Israel in the Sinai desert in the time of Moses: low tents of black goat hair in rows on sand and gravel, rocky desert mountains behind, cooking fires; at the centre of the camp a large tent sanctuary of woven curtains inside a courtyard fence of white linen hung on posts. No stone buildings, no towers, no statues, no carvings of figures, no domes. Any people are small and far off, faces not visible. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -1691,7 +1809,8 @@
   "src": "../02-the-garden/stills/movement/s034.jpg",
   "cue": "Israel's worship",
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s097",
@@ -1708,7 +1827,8 @@
   "src": "../02-the-garden/stills/movement/s037.jpg",
   "cue": null,
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s098",
@@ -1729,6 +1849,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "In the garden at first light he tends a grapevine, lifting a heavy branch onto a living trellis of young trees, seen from the chest up at medium distance among the leaves. The man is the man in the reference portrait: keep his face, skin tone, hair and beard exactly, but not the cloth on his shoulder. He wears nothing; he is seen from the chest up, facing the camera, in profile or from behind, or with tall grass covering him below the chest. Nothing below the chest is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -1746,7 +1867,8 @@
   "src": "../02-the-garden/stills/movement/s038.jpg",
   "cue": "Cultivate and keep",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s100",
@@ -1764,6 +1886,7 @@
   "cue": "the ordinary word for serving God",
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Close: a man's bare hands pressing dark soil firmly around a young fig seedling in the garden at first light; only the bare hands and bare forearms, no sleeves, no clothing, no watch, no rings. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -1782,6 +1905,7 @@
   "cue": "The second means",
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "In the courtyard of the tent sanctuary at first light a Levite in a plain white linen tunic tends the altar fire, adding wood, seen from the side at medium distance, his face turned away. A wilderness camp of Israel in the Sinai desert in the time of Moses: low tents of black goat hair in rows on sand and gravel, rocky desert mountains behind, cooking fires; at the centre of the camp a large tent sanctuary of woven curtains inside a courtyard fence of white linen hung on posts. No stone buildings, no towers, no statues, no carvings of figures, no domes. Any people are small and far off, faces not visible. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -1800,6 +1924,7 @@
   "cue": "Together they describe",
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "A Levite in a white linen tunic stands guard at the gate of the sanctuary courtyard with a staff, seen from behind at medium distance, the camp beyond. A wilderness camp of Israel in the Sinai desert in the time of Moses: low tents of black goat hair in rows on sand and gravel, rocky desert mountains behind, cooking fires; at the centre of the camp a large tent sanctuary of woven curtains inside a courtyard fence of white linen hung on posts. No stone buildings, no towers, no statues, no carvings of figures, no domes. Any people are small and far off, faces not visible. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -1817,7 +1942,8 @@
   "src": "../02-the-garden/stills/movement/s036.jpg",
   "cue": "Adam's work is farming",
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s104",
@@ -1834,7 +1960,8 @@
   "src": "../02-the-garden/stills/movement/s024.jpg",
   "cue": "A keeper of a sanctuary",
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s105",
@@ -1851,7 +1978,8 @@
   "src": "../02-the-garden/stills/movement/s040.jpg",
   "cue": null,
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s106",
@@ -1872,6 +2000,7 @@
   "cue": "commanded him",
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Seen from behind at long distance, small, standing in tall grass before the great tree at the centre of the garden, the tree filling the frame above him. The man is the man in the reference portrait: keep his face, skin tone, hair and beard exactly, but not the cloth on his shoulder. He wears nothing; he is seen from the chest up, facing the camera, in profile or from behind, or with tall grass covering him below the chest. Nothing below the chest is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -1889,7 +2018,8 @@
   "src": "../02-the-garden/stills/movement/s046.jpg",
   "cue": "You may eat freely",
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s108",
@@ -1906,7 +2036,8 @@
   "src": "../02-the-garden/stills/movement/s044.jpg",
   "cue": "but you must not",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s109",
@@ -1923,7 +2054,8 @@
   "src": "../02-the-garden/stills/movement/s042.jpg",
   "cue": "Listen to the order",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s110",
@@ -1940,7 +2072,8 @@
   "src": "../02-the-garden/stills/movement/s043.jpg",
   "cue": "only then sets one limit",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s111",
@@ -1957,7 +2090,8 @@
   "src": "../02-the-garden/stills/movement/s046.jpg",
   "cue": "God's commands are not",
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s112",
@@ -1974,7 +2108,8 @@
   "src": "../02-the-garden/stills/movement/s041.jpg",
   "cue": "And the warning is plain",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s113",
@@ -1991,7 +2126,8 @@
   "src": "../02-the-garden/stills/movement/s026.jpg",
   "cue": "His word defines",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s114",
@@ -2008,7 +2144,8 @@
   "src": "../02-the-garden/stills/movement/s045.jpg",
   "cue": "life depends",
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s115",
@@ -2026,6 +2163,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Close: one heavy fruit hanging on the great tree, leaves moving around it in the wind, beautiful, nothing glowing. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -2043,7 +2181,8 @@
   "src": "../02-the-garden/stills/movement/s044.jpg",
   "cue": "Whatever the knowledge",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s117",
@@ -2060,7 +2199,8 @@
   "src": "../02-the-garden/stills/movement/s040.jpg",
   "cue": "or seize it",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s118",
@@ -2077,7 +2217,8 @@
   "src": "../02-the-garden/stills/movement/s025.jpg",
   "cue": "So the garden has everything",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s119",
@@ -2094,7 +2235,8 @@
   "src": "../02-the-garden/stills/movement/s048.jpg",
   "cue": "And then God Himself",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s120",
@@ -2111,7 +2253,8 @@
   "src": "../02-the-garden/stills/movement/s049.jpg",
   "cue": null,
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s121",
@@ -2128,7 +2271,8 @@
   "src": "../02-the-garden/stills/movement/s050.jpg",
   "cue": "It is not good",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s122",
@@ -2145,7 +2289,8 @@
   "src": "../02-the-garden/stills/movement/s047.jpg",
   "cue": "The first thing in the Bible",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s123",
@@ -2162,7 +2307,8 @@
   "src": "../02-the-garden/stills/movement/s051.jpg",
   "cue": "Helper is ezer",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s124",
@@ -2179,7 +2325,8 @@
   "src": "../02-the-garden/stills/movement/s052.jpg",
   "cue": "My help comes",
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s125",
@@ -2196,7 +2343,8 @@
   "src": "../02-the-garden/stills/movement/s053.jpg",
   "cue": "Suitable means",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s126",
@@ -2213,7 +2361,8 @@
   "src": "../02-the-garden/stills/movement/s054.jpg",
   "cue": null,
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s127",
@@ -2231,6 +2380,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "A lion walking through tall golden grass in the garden toward the camera, unafraid, morning light. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -2249,6 +2399,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "A herd of gazelle bounding across a wide open green meadow in the garden, fruit trees all around, morning light; no buildings, no walls, no paths. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -2266,7 +2417,8 @@
   "src": "../02-the-garden/stills/movement/s056.jpg",
   "cue": null,
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s130",
@@ -2284,6 +2436,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "A great eagle landing on a branch of a fruit tree, wings spread wide. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -2301,7 +2454,8 @@
   "src": "../02-the-garden/stills/movement/s055.jpg",
   "cue": null,
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s132",
@@ -2319,6 +2473,7 @@
   "cue": "The man gave names",
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "A Syrian brown bear walking slowly out of the trees into a meadow in the garden, calm. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -2337,6 +2492,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "A pair of turtle doves on a branch, side by side, morning light. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -2358,6 +2514,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Chest up, three quarter view: he looks at something before him and speaks a name, attentive, grass around his shoulders. The man is the man in the reference portrait: keep his face, skin tone, hair and beard exactly, but not the cloth on his shoulder. He wears nothing; he is seen from the chest up, facing the camera, in profile or from behind, or with tall grass covering him below the chest. Nothing below the chest is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -2376,6 +2533,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Wild aurochs cattle and Nubian ibex walking in pairs across a meadow in the garden. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -2393,7 +2551,8 @@
   "src": "../02-the-garden/stills/movement/s057.jpg",
   "cue": "But for Adam",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s137",
@@ -2410,7 +2569,8 @@
   "src": "../02-the-garden/stills/movement/s058.jpg",
   "cue": "God brings the animals",
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s138",
@@ -2427,7 +2587,8 @@
   "src": "../02-the-garden/stills/movement/s062.jpg",
   "cue": null,
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s139",
@@ -2444,7 +2605,8 @@
   "src": "../02-the-garden/stills/movement/s059.jpg",
   "cue": "while he slept",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s140",
@@ -2461,7 +2623,8 @@
   "src": "../02-the-garden/stills/movement/s060.jpg",
   "cue": "from the rib",
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s141",
@@ -2478,7 +2641,8 @@
   "src": "../02-the-garden/stills/movement/s061.jpg",
   "cue": "The deep sleep is the same",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s142",
@@ -2495,7 +2659,8 @@
   "src": "../02-the-garden/stills/movement/s062.jpg",
   "cue": "God works while",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s143",
@@ -2513,6 +2678,7 @@
   "cue": "Rib can mean side",
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Night in the wilderness camp: the framework of the tent sanctuary being raised, upright boards of acacia wood overlaid with gold standing side by side in silver bases, lamplight on them, no people. A wilderness camp of Israel in the Sinai desert in the time of Moses: low tents of black goat hair in rows on sand and gravel, rocky desert mountains behind, cooking fires; at the centre of the camp a large tent sanctuary of woven curtains inside a courtyard fence of white linen hung on posts. No stone buildings, no towers, no statues, no carvings of figures, no domes. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -2530,7 +2696,8 @@
   "src": "../02-the-garden/stills/movement/s063.jpg",
   "cue": "God builds the woman",
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s145",
@@ -2548,6 +2715,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Morning light breaking through the trees of the garden in long shafts, dew shining, birds lifting. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -2568,6 +2736,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "The woman walking through the garden toward the camera in morning light among fruit trees, seen from the shoulders up at medium distance, her long thick dark curly hair falling over her shoulders and chest. The woman is the woman in the reference portrait: keep her face, skin tone and long curly hair exactly, but not the cloth on her shoulder. A head and shoulders view: her long thick hair falls forward over her bare shoulders and chest. Nothing below the shoulders is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -2589,6 +2758,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "He wakes beneath the great tree and sits up in the deep grass, seen in profile from the chest up, turning toward the light. The man is the man in the reference portrait: keep his face, skin tone, hair and beard exactly, but not the cloth on his shoulder. He wears nothing; he is seen from the chest up, facing the camera, in profile or from behind, or with tall grass covering him below the chest. Nothing below the chest is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -2610,6 +2780,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Chest up, facing the camera: his face as he sees her for the first time, wonder and joy breaking over it. The man is the man in the reference portrait: keep his face, skin tone, hair and beard exactly, but not the cloth on his shoulder. He wears nothing; he is seen from the chest up, facing the camera, in profile or from behind, or with tall grass covering him below the chest. Nothing below the chest is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -2630,6 +2801,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Head and shoulders, three quarter view: her face as she sees him, calm and glad, morning light, long hair over her shoulders. The woman is the woman in the reference portrait: keep her face, skin tone and long curly hair exactly, but not the cloth on her shoulder. A head and shoulders view: her long thick hair falls forward over her bare shoulders and chest. Nothing below the shoulders is visible. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -2651,6 +2823,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "The man and the woman face to face in profile, close but not touching, seen from the shoulders up, morning light between them, garden leaves behind. The man and the woman are the man and the woman in the reference portraits: keep their faces, skin tone and hair exactly, but not the cloth on their shoulders in the portraits. Before they ate, they wear nothing; modesty is kept by framing and natural cover (rule changed 8 October 2026): they may face the camera, be seen in profile or from behind, at medium distance; the man is seen from the chest up or with tall grass, water or foliage covering him below the chest; the woman is seen from the shoulders up with her long thick hair falling over her chest, or with tall grass, water or foliage covering her below the shoulders; nothing below the chest is ever visible. Never a close up. No other people. The land is the ancient Near East by the Tigris and Euphrates: date palms, fig trees, pomegranate trees, olive trees, grape vines, reeds along the river, no tropical plants, no mango, no banana, no apple trees. No walls, no buildings, no ruins, no fences, nothing made by hands. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -2668,7 +2841,8 @@
   "src": "../02-the-garden/stills/movement/s064.jpg",
   "cue": "This is now bone",
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s152",
@@ -2685,7 +2859,8 @@
   "src": "../02-the-garden/stills/movement/s065.jpg",
   "cue": "for out of man",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s153",
@@ -2702,7 +2877,8 @@
   "src": "../02-the-garden/stills/movement/s066.jpg",
   "cue": "These are the first recorded",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s154",
@@ -2719,7 +2895,8 @@
   "src": "../02-the-garden/stills/movement/s068.jpg",
   "cue": "Bone of my bones is",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s155",
@@ -2740,6 +2917,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Evening in the wilderness camp: the brick-maker and his wife sit together at the door of their goat hair tent, side by side, the sanctuary's fire far beyond. The man is the brick-maker in the reference images, now free in the wilderness: keep his face, skin tone, curly dark hair with grey, full beard with grey at the chin and build exactly; he wears a plain undyed knee length linen tunic, clean now, no mud. Quiet, thoughtful, at peace, never grinning. Framed from the chest up or wider, never an extreme close up of the face. The woman is the brick-maker's wife in the reference images: keep her face, skin tone, grey strands in her hair, long black braid, plain undyed linen head cloth and long undyed wool tunic exactly. Framed from the chest up or wider. A wilderness camp of Israel in the Sinai desert in the time of Moses: low tents of black goat hair in rows on sand and gravel, rocky desert mountains behind, cooking fires; at the centre of the camp a large tent sanctuary of woven curtains inside a courtyard fence of white linen hung on posts. No stone buildings, no towers, no statues, no carvings of figures, no domes. No other people close to the camera. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -2758,6 +2936,7 @@
   "cue": "The narrator steps out",
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Inside a goat hair tent by lamplight, two small children asleep under a woven blanket, faces turned away. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -2779,6 +2958,7 @@
   "cue": "the word Ruth uses",
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Close, chest up, filling the frame: her face in the evening light at the tent door, looking toward her husband off camera; no other person in the frame. The woman is the brick-maker's wife in the reference images: keep her face, skin tone, grey strands in her hair, long black braid, plain undyed linen head cloth and long undyed wool tunic exactly. Framed from the chest up or wider. A wilderness camp of Israel in the Sinai desert in the time of Moses: low tents of black goat hair in rows on sand and gravel, rocky desert mountains behind, cooking fires; at the centre of the camp a large tent sanctuary of woven curtains inside a courtyard fence of white linen hung on posts. No stone buildings, no towers, no statues, no carvings of figures, no domes. No other people close to the camera. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -2797,6 +2977,7 @@
   "cue": "Hold fast to Him",
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Close: his hand resting over hers on her knee in the firelight; only the hands and forearms, his plain undyed linen sleeve and her plain undyed smooth woven wool sleeve, no knit pattern, no rings. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -2814,7 +2995,8 @@
   "src": "../02-the-garden/stills/movement/s067.jpg",
   "cue": "Marriage is a loyalty",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s160",
@@ -2831,7 +3013,8 @@
   "src": "../01-the-seven-days-v2/stills/movement/s128.jpg",
   "cue": "This chapter was written",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s161",
@@ -2848,7 +3031,8 @@
   "src": "../02-the-garden/stills/movement/s070.jpg",
   "cue": null,
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s162",
@@ -2865,7 +3049,8 @@
   "src": "../02-the-garden/stills/movement/s071.jpg",
   "cue": "not ashamed",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s163",
@@ -2883,6 +3068,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Dusk at the foot of the great tree in the middle of the garden: the tall grass at its roots stirs and parts as something unseen moves through it; long shadows. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -2900,7 +3086,8 @@
   "src": "../02-the-garden/stills/movement/s072.jpg",
   "cue": "Naked, and not ashamed",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s165",
@@ -2917,7 +3104,8 @@
   "src": "../02-the-garden/stills/movement/s069.jpg",
   "cue": "Every gift",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s166",
@@ -2934,7 +3122,8 @@
   "src": "../02-the-garden/stills/movement/s073.jpg",
   "cue": null,
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s167",
@@ -2952,6 +3141,7 @@
   "cue": "The first man Adam",
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "An olive grove on a hillside at night under a full moon, old twisted trees, and torches moving between the trees far off, carried by small distant figures, faces not visible. Any people are small and far off, faces not visible. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -2969,7 +3159,8 @@
   "src": "../02-the-garden/stills/movement/s076.jpg",
   "cue": "Adam was placed",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s169",
@@ -2986,7 +3177,8 @@
   "src": "../02-the-garden/stills/movement/s075.jpg",
   "cue": "He failed at every point",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s170",
@@ -3003,7 +3195,8 @@
   "src": "../02-the-garden/stills/movement/s077.jpg",
   "cue": "Jesus is arrested",
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s171",
@@ -3020,7 +3213,8 @@
   "src": "../02-the-garden/stills/movement/s078.jpg",
   "cue": "Mary thinks",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s172",
@@ -3038,6 +3232,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Sunrise in the garden of the tomb: light flooding along the stone path out of the open tomb, the grass and leaves bending in a sudden wind. No figures. No figures at all; never a figure meant to be Christ. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -3055,7 +3250,8 @@
   "src": "../02-the-garden/stills/movement/s074.jpg",
   "cue": null,
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s174",
@@ -3072,7 +3268,8 @@
   "src": "../02-the-garden/stills/movement/s079.jpg",
   "cue": "That evening",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s175",
@@ -3089,7 +3286,8 @@
   "src": "../02-the-garden/stills/movement/s080.jpg",
   "cue": "Receive the Holy Spirit",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s176",
@@ -3106,7 +3304,8 @@
   "src": "../02-the-garden/stills/movement/s081.jpg",
   "cue": "And Paul says",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s177",
@@ -3123,7 +3322,8 @@
   "src": "../02-the-garden/stills/movement/s082.jpg",
   "cue": "I am speaking about Christ",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s178",
@@ -3140,7 +3340,8 @@
   "src": "../03-the-fall/stills/movement/s060.jpg",
   "cue": null,
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s179",
@@ -3158,6 +3359,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Close: a man's bare scratched hands tearing at thorn bushes in hard cracked ground, dust and sweat, no tools, no metal; only the bare hands and forearms. One single continuous full frame image. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -3175,7 +3377,8 @@
   "src": "../03-the-fall/stills/movement/s079.jpg",
   "cue": null,
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s181",
@@ -3192,7 +3395,8 @@
   "src": "../02-the-garden/stills/movement/s084.jpg",
   "cue": "and the way to the tree",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s182",
@@ -3213,6 +3417,7 @@
   "cue": "But the prophets",
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "At the edge of the camp at dusk he stands looking out over the empty desert, seen from the side, wind in his tunic. A wilderness camp of Israel in the Sinai desert in the time of Moses: low tents of black goat hair in rows on sand and gravel, rocky desert mountains behind, cooking fires; at the centre of the camp a large tent sanctuary of woven curtains inside a courtyard fence of white linen hung on posts. No stone buildings, no towers, no statues, no carvings of figures, no domes. The man is the brick-maker in the reference images, now free in the wilderness: keep his face, skin tone, curly dark hair with grey, full beard with grey at the chin and build exactly; he wears a plain undyed knee length linen tunic, clean now, no mud. Quiet, thoughtful, at peace, never grinning. Framed from the chest up or wider, never an extreme close up of the face. No other people close to the camera. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -3231,6 +3436,7 @@
   "cue": "will make her wilderness",
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "One single continuous full frame image, no panels, no split, no grid. A dry desert valley breaking into green, grass and flowers spreading over the sand after rain, water running in the wadi. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -3239,16 +3445,18 @@
   "start": 839.908,
   "dur": 4.056,
   "picture": "Set piece: Eden restored. A radiant city with a river of clear water running through its centre, and the tree of life on both banks, fruit hanging in the light.",
-  "scene": "",
-  "kind": "reuse",
+  "scene": "Before dawn, no sun in the sky, the light coming from the city itself: the radiant city of the new creation, its pale gold stone shining from within as if lit by gold and crystal, warm light pouring from every doorway and along the street, seen along its great street: a clear river flowing down the middle of the street, fruit trees on both banks, a vast square city of pale gold stone glowing with its own light, low flat roofed buildings of the ancient Near East, no towers, no spires, no pinnacles, no arches reaching up, no cathedral, no domes, no castle, no modern or European architecture.",
+  "kind": "veo",
   "refs": [],
   "flags": "",
-  "motion": "A radiant city of light with a clear river flowing down its great street, fruit trees on both banks, lit from everywhere, the city of pale gold stone and light of no recognisable architectural style, not classical, not modern, no columns. Slow rise toward the city. Photorealistic cinematic footage with natural real world motion, slow and steady camera, no camera shake, no cuts, no text appears.",
+  "motion": "Before dawn, no sun in the sky, the light coming from the city itself: the radiant city of the new creation, its pale gold stone shining from within as if lit by gold and crystal, warm light pouring from every doorway and along the street, seen along its great street: a clear river flowing down the middle of the street, fruit trees on both banks, a vast square city of pale gold stone glowing with its own light, low flat roofed buildings of the ancient Near East, no towers, no spires, no pinnacles, no arches reaching up, no cathedral, no domes, no castle, no modern or European architecture. Slow rise toward the city. Photorealistic cinematic footage with natural real world motion, slow and steady camera, no camera shake, no cuts, no text appears.",
   "w": 1.0,
-  "src": "../02-the-garden/stills/movement/s085.jpg",
+  "src": null,
   "cue": null,
-  "anim": true,
-  "verb": null
+  "anim": false,
+  "verb": null,
+  "omni": null,
+  "prompt": "Before dawn, no sun in the sky, the light coming from the city itself: the radiant city of the new creation, its pale gold stone shining from within as if lit by gold and crystal, warm light pouring from every doorway and along the street, seen along its great street: a clear river flowing down the middle of the street, fruit trees on both banks, a vast square city of pale gold stone glowing with its own light, low flat roofed buildings of the ancient Near East, no towers, no spires, no pinnacles, no arches reaching up, no cathedral, no domes, no castle, no modern or European architecture. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
   "id": "s185",
@@ -3256,16 +3464,18 @@
   "start": 843.964,
   "dur": 10.244,
   "picture": "Set piece: Eden restored. A radiant city with a river of clear water running through its centre, and the tree of life on both banks, fruit hanging in the light.",
-  "scene": "",
-  "kind": "reuse",
+  "scene": "Before dawn, no sun in the sky, the light coming from the city itself. Close at the riverbank: one great tree of life beside the clear river in the city, heavy with fruit, its leaves lit warmly from the shining city behind, catching the light, its roots at the water; behind it, softly out of focus, a vast square city of pale gold stone glowing with its own light, low flat roofed buildings of the ancient Near East, no towers, no spires, no pinnacles, no arches reaching up, no cathedral, no domes, no castle, no modern or European architecture.",
+  "kind": "veo",
   "refs": [],
   "flags": "",
-  "motion": "The tree of life on both banks of the clear river in the city, heavy with fruit, leaves catching the light. Close at the riverbank: one great tree of life heavy with fruit leaning over the shining water, its roots at the water's edge; not the wide street view. Leaves move; the river flows. Photorealistic cinematic footage with natural real world motion, slow and steady camera, no camera shake, no cuts, no text appears.",
+  "motion": "Before dawn, no sun in the sky, the light coming from the city itself. Close at the riverbank: one great tree of life beside the clear river in the city, heavy with fruit, its leaves lit warmly from the shining city behind, catching the light, its roots at the water; behind it, softly out of focus, a vast square city of pale gold stone glowing with its own light, low flat roofed buildings of the ancient Near East, no towers, no spires, no pinnacles, no arches reaching up, no cathedral, no domes, no castle, no modern or European architecture. Leaves move; the river flows. Photorealistic cinematic footage with natural real world motion, slow and steady camera, no camera shake, no cuts, no text appears.",
   "w": 1.0,
-  "src": "../02-the-garden/stills/movement/s086.jpg",
+  "src": null,
   "cue": "The river of the water of life",
-  "anim": true,
-  "verb": null
+  "anim": false,
+  "verb": null,
+  "omni": null,
+  "prompt": "Before dawn, no sun in the sky, the light coming from the city itself. Close at the riverbank: one great tree of life beside the clear river in the city, heavy with fruit, its leaves lit warmly from the shining city behind, catching the light, its roots at the water; behind it, softly out of focus, a vast square city of pale gold stone glowing with its own light, low flat roofed buildings of the ancient Near East, no towers, no spires, no pinnacles, no arches reaching up, no cathedral, no domes, no castle, no modern or European architecture. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
   "id": "s186",
@@ -3282,7 +3492,8 @@
   "src": "../02-the-garden/stills/movement/s087.jpg",
   "cue": "eat from the tree of life",
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s187",
@@ -3300,6 +3511,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Full frame with no black bars. A great aerial rise over the city of light: a clear river running through its centre between groves of the tree of life, the city of pale gold stone glowing with its own light, low flat roofed buildings of the ancient Near East, no towers, no spires, no domes, no castle, no modern or European architecture. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -3318,6 +3530,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "Close at the riverbank in the city of light: leaves of the tree of life moving over the clear water, fruit hanging in the light; behind, only more trees of life and soft glowing light, no bridge, no buildings, no European architecture. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -3326,16 +3539,18 @@
   "start": 865.118,
   "dur": 3.637,
   "picture": "Set piece: Eden restored. A radiant city with a river of clear water running through its centre, and the tree of life on both banks, fruit hanging in the light.",
-  "scene": "",
-  "kind": "reuse",
+  "scene": "Wide at golden light: the garden city, the clear river winding through groves of fruit trees on both banks, and beyond them a vast square city of pale gold stone glowing with its own light, low flat roofed buildings of the ancient Near East, no towers, no spires, no pinnacles, no arches reaching up, no cathedral, no domes, no castle, no modern or European architecture.",
+  "kind": "veo",
   "refs": [],
   "flags": "",
-  "motion": "Wide: the garden city in light, the river winding through groves of fruit trees, the city of light rising beyond. No houses in the foreground, no ordinary buildings. Slow push. Photorealistic cinematic footage with natural real world motion, slow and steady camera, no camera shake, no cuts, no text appears.",
+  "motion": "Wide at golden light: the garden city, the clear river winding through groves of fruit trees on both banks, and beyond them a vast square city of pale gold stone glowing with its own light, low flat roofed buildings of the ancient Near East, no towers, no spires, no pinnacles, no arches reaching up, no cathedral, no domes, no castle, no modern or European architecture. Slow push. Photorealistic cinematic footage with natural real world motion, slow and steady camera, no camera shake, no cuts, no text appears.",
   "w": 1.0,
-  "src": "../02-the-garden/stills/movement/s088.jpg",
+  "src": null,
   "cue": null,
-  "anim": true,
-  "verb": null
+  "anim": false,
+  "verb": null,
+  "omni": null,
+  "prompt": "Wide at golden light: the garden city, the clear river winding through groves of fruit trees on both banks, and beyond them a vast square city of pale gold stone glowing with its own light, low flat roofed buildings of the ancient Near East, no towers, no spires, no pinnacles, no arches reaching up, no cathedral, no domes, no castle, no modern or European architecture. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
   "id": "s190",
@@ -3352,7 +3567,8 @@
   "src": "../02-the-garden/stills/movement/s082.jpg",
   "cue": "The garden has become a city",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s191",
@@ -3369,7 +3585,8 @@
   "src": "../02-the-garden/stills/movement/s089.jpg",
   "cue": null,
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s192",
@@ -3390,6 +3607,7 @@
   "cue": "Every good gift",
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "At dawn in the camp he opens his hand and the wind lifts the dust from his palm. A wilderness camp of Israel in the Sinai desert in the time of Moses: low tents of black goat hair in rows on sand and gravel, rocky desert mountains behind, cooking fires; at the centre of the camp a large tent sanctuary of woven curtains inside a courtyard fence of white linen hung on posts. No stone buildings, no towers, no statues, no carvings of figures, no domes. The man is the brick-maker in the reference images, now free in the wilderness: keep his face, skin tone, curly dark hair with grey, full beard with grey at the chin and build exactly; he wears a plain undyed knee length linen tunic, clean now, no mud. Quiet, thoughtful, at peace, never grinning. Framed from the chest up or wider, never an extreme close up of the face. No other people close to the camera. No hands and no figure in the sky, in the light or in the wind. Match the light, colour grade and world of the reference images. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -3407,7 +3625,8 @@
   "src": "../02-the-garden/stills/movement/s090.jpg",
   "cue": "You were formed",
   "anim": true,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s194",
@@ -3424,7 +3643,8 @@
   "src": "../02-the-garden/stills/movement/s091.jpg",
   "cue": "change how you see",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s195",
@@ -3442,6 +3662,7 @@
   "cue": null,
   "anim": false,
   "verb": null,
+  "omni": null,
   "prompt": "The great tree in the middle of the garden at dusk, the light going; at its foot the grass moves as something unseen passes through it. No people, no figures, no faces, no silhouettes. No hands and no figure in the sky, in the light or in the wind. Photorealistic cinematic film still, shot on 35mm film, natural light, colour grade of deep ink teal shadows and warm muted gold highlights, warm cream whites, no saturated reds or purples, calm and reverent, wide 16:9 composition with calm low detail space in the lower third, full frame with no borders or black bars, the image filling the whole frame edge to edge with no blank or faded band, no text, no lettering, no watermark, not a painting, not an illustration, not a 3D render, not cartoon. Sharp focus from the foreground to the horizon: the ground or water at the bottom of the frame is crisp and detailed right to the bottom edge, with no blur, no haze, no fog, no mist band and no faded band at the bottom."
  },
  {
@@ -3459,7 +3680,8 @@
   "src": "../02-the-garden/stills/movement/s072.jpg",
   "cue": "In the next chapter",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  },
  {
   "id": "s197",
@@ -3476,6 +3698,7 @@
   "src": null,
   "cue": "Study The Garden",
   "anim": false,
-  "verb": null
+  "verb": null,
+  "omni": null
  }
 ]

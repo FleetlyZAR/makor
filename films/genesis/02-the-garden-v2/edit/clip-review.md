@@ -42,3 +42,15 @@ bands on s016, s068, s131, s134, s157, s172, s180. A 2 to 8 percent crop before 
 - s184, s185, s189 (reused from v1): the city of light has spires and a cathedral look, against the
   treatment's low flat roofed city (the new s187 aerial is right).
 - s001 to s004: the fall from the sky barely moves; needs a stronger move (Omni or Veo, or a speed ramp).
+
+## Redone (11 October 2026, Luyanda approved)
+
+- New keyframes: s046 (a man-length drift of damp dust), s083 (the four rivers, clean frame), s184, s185
+  and s189 (the city of light, low and flat roofed, glowing from within; v1's spired city retired). Two
+  city rerolls: the first came out as an ordinary sunset town.
+- Hero clips with Gemini Omni (1.52 USD each): s001, one continuous fall from the bay through the clouds
+  over the land to one grain of dust, cut across s001 to s004; s046, a new "morph" mode in
+  `films/tools/omni_clips.py` (first frame the dust, last frame v1's man in the grass): the wind gathers
+  the dust into the outline of a man, which dissolves into Adam lying in the grass, modest throughout.
+  s047 is cut from the same take, so the forming and the breath are one shot.
+- LTX for s083, s184, s185 (first 70 percent), s189: all usable.

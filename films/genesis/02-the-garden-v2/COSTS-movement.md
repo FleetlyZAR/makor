@@ -102,5 +102,14 @@ ElevenLabs credits valued at the Creator plan rate (22 USD for 131,000 credits).
 | 94 | 2026-10-11 | Nano Banana Pro (gemini-3-pro-image) | still shot 188 (16:9) -> stills/movement/s188.jpg | 1 image 2K | 0.134 | 8.037 |
 | 95 | 2026-10-11 | Nano Banana Pro (gemini-3-pro-image) | still shot 63 (16:9) -> stills/movement/s063.jpg | 1 image 2K | 0.134 | 8.171 |
 | 96 | 2026-10-11 | Nano Banana Pro (gemini-3-pro-image) | still shot 65 (16:9) -> stills/movement/s065.jpg | 1 image 2K | 0.134 | 8.305 |
+| 97 | 2026-10-11 | Nano Banana Pro (gemini-3-pro-image) | still shot 46 (16:9) -> stills/movement/s046.jpg | 1 image 2K | 0.134 | 8.439 |
+| 98 | 2026-10-11 | Nano Banana Pro (gemini-3-pro-image) | still shot 83 (16:9) -> stills/movement/s083.jpg | 1 image 2K | 0.134 | 8.573 |
+| 99 | 2026-10-11 | Nano Banana Pro (gemini-3-pro-image) | still shot 184 (16:9) -> stills/movement/s184.jpg | 1 image 2K | 0.134 | 8.707 |
+| 100 | 2026-10-11 | Nano Banana Pro (gemini-3-pro-image) | still shot 185 (16:9) -> stills/movement/s185.jpg | 1 image 2K | 0.134 | 8.841 |
+| 101 | 2026-10-11 | Nano Banana Pro (gemini-3-pro-image) | still shot 189 (16:9) -> stills/movement/s189.jpg | 1 image 2K | 0.134 | 8.975 |
+| 102 | 2026-10-11 | Nano Banana Pro (gemini-3-pro-image) | still shot 184 (16:9) -> stills/movement/s184.jpg | 1 image 2K | 0.134 | 9.109 |
+| 103 | 2026-10-11 | Nano Banana Pro (gemini-3-pro-image) | still shot 185 (16:9) -> stills/movement/s185.jpg | 1 image 2K | 0.134 | 9.243 |
+| 104 | 2026-10-11 | Gemini Omni (gemini-omni-1.1-flash) | clip s001 1080p | 86880 video tokens | 1.522 | 10.765 |
+| 105 | 2026-10-11 | Gemini Omni (gemini-omni-1.1-flash) | clip s046 1080p | 86880 video tokens | 1.524 | 12.289 |
 
-Running total: 8.31
+Running total: 12.29

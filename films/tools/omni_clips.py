@@ -103,6 +103,11 @@ def request_for(sh, film, log, args, tmp):
         imgs = [frame_at(src, o["at"], tmp / f"{sh['id']}-first.jpg"), key_img]
         tags = ["[# Sources <FIRST_FRAME>@Image1 <LAST_FRAME>@Image2]"]
         text = o["prompt"]
+    elif mode == "morph":
+        # one take from this shot's keyframe to another approved image (The Garden v2: dust becoming the man)
+        imgs = [key_img, film / o["last"]]
+        tags = ["[# Sources <FIRST_FRAME>@Image1 <LAST_FRAME>@Image2]"]
+        text = o["prompt"]
     else:
         refs = [film / r for r in sh.get("refs", []) if not r.endswith("turnaround.jpg")]
         imgs = [key_img] + refs

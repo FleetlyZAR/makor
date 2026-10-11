@@ -56,14 +56,16 @@ SHARP = ("Sharp focus from the foreground to the horizon: the ground or water at
 BANNED = ["deity", "god figure", "divine being", "halo", "glowing man", "angel", "temple", "idol"]
 
 
-def S(scene, kind="still", refs=(), flags="", motion="Slow push in.", w=1.0, src=None, cue=None, anim=False, verb=None):
+def S(scene, kind="still", refs=(), flags="", motion="Slow push in.", w=1.0, src=None, cue=None, anim=False, verb=None,
+      omni=None):
     # cue: words in the narration; the shot starts as they are spoken. verb: on screen word (Down to the ground).
+    # omni: how films/tools/omni_clips.py makes a hero clip (image, morph to a last frame, or same: cut from another)
     return dict(scene=scene, kind=kind, refs=list(refs), flags=flags, motion=motion, w=w, src=src, cue=cue,
-                anim=anim, verb=verb)
+                anim=anim, verb=verb, omni=omni)
 
 
-def R(src, motion="Slow push in.", w=1.0, cue=None, anim=False, verb=None, note=""):
-    return S(note, "reuse", src=src, motion=motion, w=w, cue=cue, anim=anim, verb=verb)
+def R(src, motion="Slow push in.", w=1.0, cue=None, anim=False, verb=None, note="", omni=None):
+    return S(note, "reuse", src=src, motion=motion, w=w, cue=cue, anim=anim, verb=verb, omni=omni)
 
 
 def bm(scene, kind="veo", motion="Slow push in.", w=1.0, cue=None):
@@ -76,12 +78,22 @@ def man(scene, kind="veo", motion="Slow push in.", w=1.0, cue=None):
 
 SEG = {
     # 0 Cold open: from the finished world of The Seven Days down to one grain of dust (one continuous fall)
-    0: [R(V1 + "s001.jpg", "The camera tips forward and begins to fall toward the land.", w=1.6, anim=True),
+    0: [R(V1 + "s001.jpg", "The camera tips forward and begins to fall toward the land.", w=1.6, anim=True,
+          omni=dict(mode="image", prompt=(
+              "One continuous shot, the camera falling from the sky to the ground. [0-2.5s] High above a wide bay at rest "
+              "in long golden light, the camera tips forward and begins to dive. [2.5-5s] Plunging fast down through "
+              "white clouds, a dry river land opening below. [5-7.5s] Rushing low and fast over bare dry red brown "
+              "ground at first light, the ground filling the frame. [7.5-10s] The camera slows hard and comes to rest "
+              "in extreme close up on single grains of dry dust, one grain catching the light; stillness. No people, "
+              "no animals, no buildings, nothing made by hands. Sound: wind rushing, then silence."))),
         S("Plunging down through white clouds in golden morning light, a dry river land opening far below.", "veo",
-          motion="Fast dive down through the clouds.", w=1.6),
-        R(V1 + "s002.jpg", "Fast descent toward the ground, slowing hard at the end.", w=1.4, anim=True),
+          motion="Fast dive down through the clouds.", w=1.6,
+          omni=dict(mode="same", clip="s001", at=2.5)),
+        R(V1 + "s002.jpg", "Fast descent toward the ground, slowing hard at the end.", w=1.4, anim=True,
+          omni=dict(mode="same", clip="s001", at=5.0)),
         S("Extreme macro of dry dust on bare ground: individual grains of red brown earth, sharp, one grain at the centre "
-          "catching first light.", "veo", motion="The fall stops dead; stillness.", w=1.4)],
+          "catching first light.", "veo", motion="The fall stops dead; stillness.", w=1.4,
+          omni=dict(mode="same", clip="s001", at=7.5))],
     # 1 the breath: dust lifts; hard cut to the eye opening
     1: [S("Extreme macro of dark damp dust on the ground at first light; the grains begin to lift and swirl in a low "
           "wind.", "veo", motion="A wind passes across the dust and lifts it in a swirl.", w=2.0),
@@ -138,11 +150,20 @@ SEG = {
           motion="Drops fall into the dust.", cue="Every lack")],
     # 7 SET PIECE 1: the forming and the breath
     7: [R(V1 + "s015.jpg", "The dust whirls and gathers.", anim=True),
-        S("A very wide plain of damp earth at dawn; close to the ground, the damp dust drawn together by a low whirling "
-          "wind into the long shape of a man lying on his back, still only earth, seen from far off and low, a soft warm "
-          "light on it. No hands, no figure above it.", "veo", motion="The dust settles into the shape; wind moves over it.",
-          cue="formed man from the dust"),
-        R(V1 + "s016.jpg", "Slow push in.", cue="breathed the breath", anim=True),
+        S("Low at ground level at dawn on a wide plain of damp red brown earth with tall grass at its edges: a long low "
+          "drift of loose damp dust lying on the ground, the length and outline of a man lying on his back, still only "
+          "earth, a thin whirl of dust lifting around it, soft warm light across it. No rocks, no boulders, no mound of "
+          "stone, no hill, no hands, no figure above it.", "veo",
+          motion="The dust settles into the shape; wind moves over it.", cue="formed man from the dust",
+          omni=dict(mode="morph", last=V1 + "s016.jpg", prompt=(
+              "One continuous shot, low at ground level at dawn. [0-4s] A low whirling wind draws loose damp dust together "
+              "on the ground into the long outline of a man lying on his back; the earth gathers and settles. [4-8s] "
+              "Grass rises around it and the shape of dust becomes a man lying still in deep grass, seen from the side, "
+              "the grass covering him below the chest. [8-10s] Stillness; soft warm light. No hands and no figure above "
+              "him, nothing in the sky; the wind is the only cause. Nothing below his chest is ever visible. "
+              "Sound: low wind, then silence."))),
+        R(V1 + "s016.jpg", "Slow push in.", cue="breathed the breath", anim=True,
+          omni=dict(mode="same", clip="s046", at=6.3)),  # the forming and the man in the grass are one take
         S("Wind rushing low across tall grass toward the camera at first light, the grass bending in one long wave.", "veo",
           motion="A single strong gust sweeps across the grass toward the camera.", w=0.8),
         man("Lying on his back in deep grass at first light, seen from the side at head and shoulder height, his chest "
@@ -363,8 +384,11 @@ SEG = {
          S("One single continuous full frame image, no panels, no split, no grid. A dry desert valley breaking into green, grass and flowers spreading over the sand after rain, "
            "water running in the wadi.", "veo", motion="The desert turns green.", cue="will make her wilderness")],
     # 23 SET PIECE 4: Eden restored
-    23: [R(V1 + "s085.jpg", "Slow rise toward the city.", anim=True),
-         R(V1 + "s086.jpg", "Leaves move; the river flows.", cue="The river of the water of life", anim=True),
+    23: [S("Before dawn, no sun in the sky, the light coming from the city itself: the radiant city of the new creation, its pale gold stone shining from within as if lit by gold and crystal, warm light pouring from every doorway and along the street, seen along its great street: a clear river flowing down the middle of the "
+           "street, fruit trees on both banks, a vast square city of pale gold stone glowing with its own light, low flat roofed buildings of the ancient Near East, no towers, no spires, no pinnacles, no arches reaching up, no cathedral, no domes, no castle, no modern or European architecture.", "veo", motion="Slow rise toward the city."),
+         S("Before dawn, no sun in the sky, the light coming from the city itself. Close at the riverbank: one great tree of life beside the clear river in the city, heavy with fruit, its leaves lit warmly from the shining city behind, "
+           "catching the light, its roots at the water; behind it, softly out of focus, a vast square city of pale gold stone glowing with its own light, low flat roofed buildings of the ancient Near East, no towers, no spires, no pinnacles, no arches reaching up, no cathedral, no domes, no castle, no modern or European architecture.", "veo",
+           motion="Leaves move; the river flows.", cue="The river of the water of life"),
          R(V1 + "s087.jpg", "The river shines.", cue="eat from the tree of life", anim=True),
          S("Full frame with no black bars. A great aerial rise over the city of light: a clear river running through its centre between groves of the "
            "tree of life, the city of pale gold stone glowing with its own light, low flat roofed buildings of the "
@@ -373,7 +397,8 @@ SEG = {
          S("Close at the riverbank in the city of light: leaves of the tree of life moving over the clear water, fruit "
            "hanging in the light; behind, only more trees of life and soft glowing light, no bridge, no buildings, no "
            "European architecture.", "veo", motion="Leaves move over the water."),
-         R(V1 + "s088.jpg", "Slow push.", anim=True),
+         S("Wide at golden light: the garden city, the clear river winding through groves of fruit trees on both banks, "
+           "and beyond them a vast square city of pale gold stone glowing with its own light, low flat roofed buildings of the ancient Near East, no towers, no spires, no pinnacles, no arches reaching up, no cathedral, no domes, no castle, no modern or European architecture.", "veo", motion="Slow push."),
          R(V1 + "s082.jpg", "Slow push.", cue="The garden has become a city")],
     # 24 dust that breathes
     24: [R(V1 + "s089.jpg", "A breath of wind lifts the dust.", anim=True),
