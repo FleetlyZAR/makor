@@ -133,4 +133,10 @@ From the first Veo Standard clips of The Seven Days v2 (the drop s002, the burst
    is reviewed against its scene and its words; every frame is scanned for flat bands and seams
    (the image models sometimes leave them); text sits above the bottom 120 px, where YouTube's
    controls cover it; no graphic is left as black; no music cue stops dead.
+15. **LTX invents clothes and people when unclothed figures move** (learned 11 October 2026, The Garden v2):
+   Adam stood up in modern trousers, two extra women walked in beside Eve, and a white garment appeared at
+   Adam's waist whenever he walked. Before Genesis 3:7, animate the man and the woman with LTX only where they
+   stay in place (lying, sitting, standing still, a turn of the head); anything that walks or rises is depth
+   motion on the approved keyframe. Rerolled keyframes can carry thin black side bars: scan every keyframe's
+   edges, not only the sheet (`films/genesis/02-the-garden-v2/edit/clip-review.md`).
 
