@@ -32,7 +32,7 @@ DURS = json.loads((FILM / "script/movement-durations.json").read_text())
 LINES = {e["id"]: e for e in T["events"] if e["kind"] == "line"}
 SHOTS = {s["id"]: s for s in json.loads((FILM / "script/shotlist.json").read_text())}
 FOCUS = dict(SV.FOCUS, s101=0.47, s102=0.42, s103=0.5, s104=0.5, s107=0.5, s108=0.55, s128=0.6, s075=0.45,
-             s028=0.42, s022=0.36, s021=0.42)
+             s028=0.42, s022=0.36, s021=0.42, s130=0.68, s080=0.5, s008=0.47)
 BOX = {"s047": (500, 60, 920, 980), "s048": (500, 60, 920, 980)}   # x, y, w, h of the graphic in the film frame
 
 # ---------------------------------------------------------------- the four Shorts (exports/shorts-from-the-film.md)
@@ -84,6 +84,88 @@ SHORTS = {
             dict(lines=["m035", "m036"], shots=["s064", "s065"], headline="SHAPED. BUT EMPTY."),
             dict(lines=[("m053", 3.1, None, "The whole account moves from emptiness to fullness, because God gives.")],
                  shots=["s087"]),
+        ]),
+    "polemic": dict(
+        title="What Genesis 1 Said to the Gods of Babylon and Egypt", music=("river-of-tears", 37.0, 0.3),
+        beats=[
+            dict(lines=[("new", "polemic-hook", "Was Genesis one written against the gods of Babylon and Egypt?")],
+                 shots=["s030"], headline="EVERY NATION HAD A STORY"),
+            dict(lines=["m005"], shots=["s031", "s029"], headline="BABYLON"),
+            dict(lines=["m006"], shots=["s026", "s077"], headline="EGYPT"),
+            dict(lines=["m007"], shots=["s034", "s040"], headline="ONE GOD MADE THEM ALL"),
+            dict(lines=["m067"], shots=["s028"]),
+        ]),
+    "poem": dict(
+        title="The Poetry Hidden in Genesis 1", music=("wonder-of-a-child", 0.0, 0.3),
+        beats=[
+            dict(lines=[("new", "poem-hook", "Genesis one is written with the cadence of worship.")],
+                 shots=["s034"], headline="IS GENESIS 1 A POEM?"),
+            dict(lines=["m010", "m028", "m034"], shots=["s038", "s056", "s063"], headline="THE REFRAINS"),
+            dict(lines=[("new", "poem-seven", "The first verse is seven Hebrew words long, and the whole passage "
+                         "leans toward the seventh day.")], shots=["s008", "s120"], headline="SEVEN WORDS"),
+            dict(lines=["m061", "m062"], shots=["s101", "s102", "s103"], headline="CREATED, CREATED, CREATED"),
+            dict(lines=["m078"], shots=["s121", "s122"]),
+            dict(lines=["m073"], shots=["s118"], headline="VERY GOOD"),
+        ]),
+    "seventh": dict(
+        title="Why the 7th Day of Creation Never Ends", music=("abode-of-snow", 0.0, 0.3),
+        beats=[
+            dict(lines=["m074"], shots=["s119"], headline="WHY NO EVENING?"),
+            dict(lines=["m075", "m076"], shots=["s120", "s121"]),
+            dict(lines=["m078"], shots=["s123", "s124"], headline="NO EVENING. NO MORNING."),
+            dict(lines=["m079"], shots=["s130"]),
+            dict(lines=["m080"], shots=["s127"], headline="THE FIRST HOLY THING: A DAY"),
+        ]),
+    "us": dict(
+        title="Who Is Us in Genesis 1:26?", music=("monuments", 0.0, 0.3),
+        beats=[
+            dict(lines=[("m060", 0.0, 4.7, "\u201cLet Us make man in Our image, after Our likeness,")],
+                 shots=["s098"], headline="WHO IS \u201cUS\u201d?"),
+            dict(lines=[("new", "us-royal", "Some hear a royal plural: God speaking with Himself in solemn resolve.")],
+                 shots=["s066"], headline="1. GOD'S OWN RESOLVE"),
+            dict(lines=[("new", "us-court", "Some hear God announcing His decision to His heavenly court, though "
+                         "verse twenty seven makes God alone the Maker.")], shots=["s131"], headline="2. HIS HEAVENLY COURT"),
+            dict(lines=[("new", "us-trinity", "The church fathers heard a first hint of the Trinity: the Spirit "
+                         "hovering in verse two, and the Word through whom all things were made.")],
+                 shots=["s037", "s132"], headline="3. A HINT OF THE TRINITY"),
+            dict(lines=["m061"], shots=["s101", "s103"]),
+        ]),
+    "jesus": dict(
+        title="Jesus Is in Genesis 1. Here Is Where.", music=("samudra", 0.0, 0.3),
+        beats=[
+            dict(lines=["m084"], shots=["s131"], headline="WHERE IS JESUS IN GENESIS 1?"),
+            dict(lines=["m085", "m086"], shots=["s132"]),
+            dict(lines=["m087"], shots=["s133"], headline="THE WORD IS A PERSON"),
+            dict(lines=["m088"], shots=["s134"]),
+            dict(lines=["m089"], shots=["s136", "s137", "s138"], headline="DAY ONE, AGAIN"),
+        ]),
+    "formless": dict(
+        title="Formless and Void: What Genesis 1:2 Means", music=("himalayan-moon", 0.0, 0.32),
+        beats=[
+            dict(lines=["m009"], shots=["s034", "s036"], headline="FORMLESS AND VOID"),
+            dict(lines=["m015"], shots=["s046"], headline="TOHU WABOHU"),
+            dict(lines=[("new", "formless-jer", "Jeremiah uses the same two words for a land under judgement, "
+                         "sliding back into the condition of Genesis one, verse two.")], shots=["s142", "s143"]),
+            dict(lines=[("new", "formless-isa", "Isaiah says God did not create the world to be empty. So He shapes "
+                         "it, and He fills it.")], shots=["s064", "s087"], headline="SHAPED AND FILLED"),
+        ]),
+    "sea": dict(
+        title="The Sea Monsters of Genesis 1", music=("overcome", 0.0, 0.3),
+        beats=[
+            dict(lines=[("new", "sea-hook", "Genesis one mentions great sea creatures. The word means sea monsters.")],
+                 shots=["s080"], headline="SEA MONSTERS?"),
+            dict(lines=["m047"], shots=["s078", "s082"]),
+            dict(lines=["m048"], shots=["s080", "s081"]),
+            dict(lines=["m052"], shots=["s031"], headline="NOT GODS. CREATURES."),
+            dict(lines=["m053"], shots=["s087"]),
+        ]),
+    "firstpage": dict(
+        title="The First Page of the Bible Explains the Last", music=("theme-word", 0.0, 0.3),
+        beats=[
+            dict(lines=["m093"], shots=["s142", "s143"], headline="WHY THE FIRST PAGE MATTERS"),
+            dict(lines=["m094"], shots=["s145", "s146"], headline="THE LAST PAGE ECHOES IT"),
+            dict(lines=["m095"], shots=["s147"]),
+            dict(lines=["m096"], shots=["s148", "s151"]),
         ]),
 }
 

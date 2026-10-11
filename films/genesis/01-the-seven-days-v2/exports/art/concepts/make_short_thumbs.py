@@ -68,3 +68,34 @@ if __name__ == "__main__":
         out = HERE.parent / f"{name}.jpg"
         fn().save(out, quality=90, optimize=True)
         print(out)
+
+
+# one thumbnail per question Short (exports/shorts/<name>.mp4), saved as exports/shorts/<name>-thumbnail.jpg
+M = FILM / "stills" / "movement"
+QA = {
+    "light": (M / "s040.jpg", 0.55, "GENESIS 1:3", [[("WHERE'S", C)], [("THE SUN?", G)]]),
+    "image": (FILM / "stills" / "cast" / "shot-06.jpg", 0.52, "GENESIS 1:27", [[("MADE IN", C)], [("GOD'S IMAGE", G)]]),
+    "days": (M / "s044.jpg", 0.5, "GENESIS 1", [[("HOW", C)], [("LONG?", G)]]),
+    "pattern": (M / "s064.jpg", 0.45, "GENESIS 1", [[("THE HIDDEN", C)], [("PATTERN", G)]]),
+    "polemic": (M / "s077.jpg", 0.62, "GENESIS 1 VS EGYPT", [[("THE SUN IS", C)], [("NOT A GOD", G)]]),
+    "poem": (M / "s061.jpg", 0.5, "GENESIS 1", [[("IT'S A", C)], [("POEM", G)]]),
+    "seventh": (M / "s120.jpg", 0.4, "GENESIS 2:2", [[("NO", C)], [("EVENING?", G)]]),
+    "us": (M / "s098.jpg", 0.5, "GENESIS 1:26", [[("WHO IS", C)], [("“US”?", G)]]),
+    "jesus": (M / "s132.jpg", 0.5, "JOHN 1:1", [[("JESUS IN", C)], [("GENESIS 1?", G)]]),
+    "formless": (M / "s046.jpg", 0.5, "GENESIS 1:2", [[("TOHU", C)], [("WABOHU", G)]]),
+    "sea": (M / "s080.jpg", 0.5, "GENESIS 1:21", [[("SEA", C)], [("MONSTERS?", G)]]),
+    "firstpage": (M / "s145.jpg", 0.32, "REVELATION 21", [[("THE FIRST", C)], [("PAGE", G)]]),
+}
+
+
+def qa_thumbs():
+    for name, (src, fx, kick, lines) in QA.items():
+        im = shade(vcover(src, fx), 1050, 1500, 0.8)
+        size = 128 if max(len("".join(t for t, _ in ln)) for ln in lines) > 8 else 150
+        out = FILM / "exports" / "shorts" / f"{name}-thumbnail.jpg"
+        words(im, lines, 1110, size, kick).save(out, quality=90, optimize=True)
+        print(out.name)
+
+
+if __name__ == "__main__":
+    qa_thumbs()
