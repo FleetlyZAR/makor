@@ -390,7 +390,7 @@ SEG = {
          G("black: AND THEN HE DIED, Genesis 5:5", cue="and then he died"),
          R(F1 + "s073.jpg", "Slow push.", cue="Yet mercy"),
          R(F1 + "s055.jpg", "Slow push.", cue="Work goes on"),
-         R(F1 + "s093.jpg", "Slow push.", cue="Judgment is real")],
+         R(F1 + "s098.jpg", "Slow push.", cue="Judgment is real", anim=False)],
     # 19 3:20 Eve, living
     19: [R(F1 + "s070.jpg", "Slow push."),
          S("At first light in a misty glade, the woman, head and shoulders, her face lifting toward the light.", "veo",

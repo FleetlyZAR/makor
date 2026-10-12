@@ -191,7 +191,13 @@ wings (Exodus 26:31), in the same form.
 dust to dust built from The Garden v2's own clips played backward. 107 keyframes through the Batch API, 24 rerolled after review
 (`edit/review/C2-notes.md`), sheets in `edit/review/C2-keyframes-*.jpg`. Temp score and sound design
 (`edit/score_mix.py`, 11 new effects): `exports/movement-animatic-scored.mp4`, -16.4 LUFS, 7.6 LU range,
-set pieces 3 to 10 LU above the teaching. Spend 11.59 USD. Waiting at C2.
+set pieces 3 to 10 LU above the teaching. Spend 11.59 USD. C2 approved.
+
+**First cut, 12 October 2026.** 8 Omni hero takes (12.18 USD), then LTX for everything (Luyanda: "from now on,
+lets use ltx for all animation"): 183 clips on the Mac, reviewed frame by frame (`edit/clip-review.md`); 10 shots back
+to their keyframe, 8 trimmed, 3 cropped. `edit/full_cut.py` built `exports/full-cut-v1.mp4` (18:26.6, frame exact,
+-16.4 LUFS, 7.5 LU), audited shot by shot (`edit/review/audit-*.jpg`). Review copies: `exports/the-fall-v2-first-cut-720p.mp4`
+and `-phone.mp4`. Spend 23.77 USD.
 
 ## Decisions for Luyanda (as proposed)
 
