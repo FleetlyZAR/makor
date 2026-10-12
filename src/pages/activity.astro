@@ -102,7 +102,7 @@ function loadFeed(){
     var rows=r.data||[];
     if(!rows.length){
       status.hidden=false;
-      status.innerHTML='Nothing here yet. Use the <b>Find friends</b> tab to add fellow readers, and the studies they complete or listen to will appear here alongside your own.';
+      status.innerHTML='Nothing here yet. Use the <b>Find friends</b> tab to add fellow readers, and the studies they complete, listen to or watch will appear here alongside your own.';
       $('ac-feed').innerHTML='';
       return;
     }
@@ -112,7 +112,7 @@ function loadFeed(){
       var dl=dayLabel(x.created_at);
       if(dl!==lastDay){ out+='<p class="ac-day">'+escH(dl)+'</p>'; lastDay=dl; }
       var who=(x.user_id===me.id)?'You':(x.display_name||'A friend');
-      var verb=(x.phase==='listen')?'listened to':'completed';
+      var verb=(x.phase==='listen')?'listened to':(x.phase==='watch')?'watched':'completed';
       var url='/'+kebab(x.book||'')+'/'+encodeURIComponent(x.study_slug)+'/';
       out+='<div class="ac-row">'+
         '<img src="'+escH(avatarSrc(x.avatar_url))+'" alt="" referrerpolicy="no-referrer">'+

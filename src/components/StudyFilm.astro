@@ -3,7 +3,7 @@
 // never clickable once playing (a shield covers it and our own bar drives the
 // player), a cover hides YouTube's pause and end suggestions, and playback
 // stops at `end`, before the upload's end screen. Watching to the end records
-// the study as done (phase 'listen', like an audio listen-through) and fires
+// the study as done (phase 'watch', unscored like an audio 'listen') and fires
 // 'makor-film-watched'; the page then opens the questions.
 const { film, place = 'top' } = Astro.props;
 const id = film.youtubeId;
@@ -205,7 +205,12 @@ const thumb = `https://i.ytimg.com/vi/${id}/maxresdefault.jpg`;
       const m = document.getElementById('study-meta');
       if (!m || !w.makorSaveAttempt) return;
       try {
-        const res = await w.makorSaveAttempt({ slug: m.dataset.slug, book: m.dataset.book, title: m.dataset.title, phase: 'listen', score: 0, answers: { via: 'film', youtubeId: id } });
+        const row = { slug: m.dataset.slug, book: m.dataset.book, title: m.dataset.title, phase: 'watch', score: 0, answers: { via: 'film', youtubeId: id } };
+        let res = await w.makorSaveAttempt(row);
+        // Before the 'watch' phase migration is applied the check constraint
+        // rejects it; save as a listen-through so the study still counts.
+        if (res && res.error) res = await w.makorSaveAttempt({ ...row, phase: 'listen' });
+        if (res && res.error) throw res.error;
         if (res && res.skipped) status.innerHTML = w.makorSignInBlock ? w.makorSignInBlock('Sign in to count films you watch in your progress.') : 'Sign in to count films you watch in your progress.';
         else { status.textContent = 'Watched. Saved to your progress.'; if (w.makorRefreshProgress) w.makorRefreshProgress(); }
       } catch (e) { w.__mkFilmSaved = false; }
