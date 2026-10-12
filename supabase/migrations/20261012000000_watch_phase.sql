@@ -5,11 +5,8 @@
 -- completion (score 0), so it counts as a study done everywhere 'listen' does:
 -- the friend activity feed (which says "watched" for it) and the studies_done
 -- tally in the admin People and Users views. Pre and post score averages are
--- untouched.
---
--- Apply this before (or with) the site push that starts saving 'watch'. The
--- player falls back to saving 'listen' if this check still rejects 'watch',
--- so the order is not fatal, but those early watches will read as listens.
+-- untouched. Applied to project oztgjzncxgobcszcwibp via the Supabase MCP on
+-- 12 October 2026; kept here for version control.
 
 alter table public.attempts drop constraint if exists attempts_phase_check;
 alter table public.attempts add constraint attempts_phase_check
