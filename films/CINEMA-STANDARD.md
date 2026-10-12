@@ -96,7 +96,9 @@ From the first Veo Standard clips of The Seven Days v2 (the drop s002, the burst
    usable range to fill a shot (the burst: 2 s of clip across 4 s).
 6. **Montage shots under 1.2 s** move faster (a stronger push in) so they read as alive even as
    stills; set pieces and cast shots get real motion.
-7. **Gemini Omni Flash is the main animator from the pilot on** (decision of 8 October 2026):
+7. **LTX for all animation from 12 October 2026** (Luyanda: "from now on, lets use ltx for all animation"):
+   every shot of every film is animated with `films/tools/ltx_clips.py` on the Mac, free; no Omni, Veo or vidIQ clips
+   unless Luyanda asks. The Omni notes below are kept for the record. Earlier: **Gemini Omni Flash was the main animator from the pilot on** (decision of 8 October 2026):
    `films/tools/omni_clips.py` makes one 10 s clip per shot from the shot's own keyframe as the first
    frame, with the cast portraits as references, so faces hold (the brick-maker s022 held his face,
    beard and tunic for all 10 s). 1080p, about 1.50 USD a clip (8,688 video tokens a second at 17.50

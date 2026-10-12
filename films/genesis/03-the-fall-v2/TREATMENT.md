@@ -188,8 +188,10 @@ wings (Exodus 26:31), in the same form.
 (110 s from East of Eden into The seed of the woman was the worst), runtime **18:26**. Animatic:
 `exports/movement-animatic.mp4` (158 draft shots, temp music). Storyboard: `script/storyboard.py`,
 227 shots (107 new keyframes, 112 reused from v1 and The Garden v2, 8 graphics), 11 Omni hero takes,
-dust to dust built from The Garden v2's own clips played backward. Keyframes sent to the Batch API;
-C2 next.
+dust to dust built from The Garden v2's own clips played backward. 107 keyframes through the Batch API, 24 rerolled after review
+(`edit/review/C2-notes.md`), sheets in `edit/review/C2-keyframes-*.jpg`. Temp score and sound design
+(`edit/score_mix.py`, 11 new effects): `exports/movement-animatic-scored.mp4`, -16.4 LUFS, 7.6 LU range,
+set pieces 3 to 10 LU above the teaching. Spend 11.59 USD. Waiting at C2.
 
 ## Decisions for Luyanda (as proposed)
 

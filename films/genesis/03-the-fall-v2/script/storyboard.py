@@ -132,7 +132,7 @@ SEG = {
           motion="The blade of fire ignites and flares.",
           omni=dict(mode="image", prompt="A blade of living fire bursts alight between two great trees at dusk and "
                     "begins to turn; sparks; no hand, no figure. Very fast push in.")),
-        S(f"Extreme close view: a round fruit torn from a branch, the branch springing back, leaves scattering, warm light. "
+        S(f"Extreme close view among the green leafy branches of a great fruit tree in a lush garden, leaves filling the whole frame: a round fruit being torn from its stem, the branch springing back, green leaves scattering, warm light. No dry ground, no dust. "
           f"{FRUIT}", "veo", "", "The fruit tears away and the branch springs back."),
         S(f"Extreme close view of a serpent's eye among dark leaves, the slit pupil, olive teal scales. {SNAKE}", "veo", "",
           "The eye shifts toward the camera."),
@@ -154,12 +154,12 @@ SEG = {
           f"the middle of the garden, its body a long line in the blades. {SNAKE}", "veo", "",
           "The serpent glides through the grass toward the tree."),
         S(f"A serpent coiling up the trunk of the great fruit tree into its lower branches, bark and leaves sharp, warm "
-          f"light. {SNAKE}", "veo", "", "The serpent climbs into the branches.", cue="any beast of the field"),
+          f"light; all around the tree a lush green garden of fruit trees and long grass, no bare ground, no open plain. {SNAKE}", "veo", "", "The serpent climbs into the branches.", cue="any beast of the field"),
         S("Beneath the great fruit tree, the woman, head and shoulders, turning her face up toward a sound in the "
           "branches above her, curious, unafraid, warm light through the leaves.", "veo", "woman",
           "She turns her head toward the branches; she does not move otherwise.", cue="And he said to the woman"),
-        S(f"Among the leaves of the great tree, a serpent's head close, looking down, fruit hanging around it. {SNAKE} "
-          f"{FRUIT}", "veo", "", "The head turns slowly.", cue="Did God really say"),
+        S(f"One single continuous image: among the leaves of the great tree, a serpent's head close, looking down, fruit hanging around it, the leaves filling the frame from top to bottom. {SNAKE} "
+          f"{FRUIT} No split, no second image, no panels.", "veo", "", "The head turns slowly.", cue="Did God really say"),
         R(F1 + "s005.jpg", "Slow push in.", cue="The chapter opens"),
         R(F1 + "s019.jpg", "Slow push in.", verb="ARUMMIM / NAKED", cue="naked, arummim", anim=False),
         S(f"A serpent coiled along a branch in late light, still, watching. {SNAKE}", "still", "",
@@ -168,8 +168,8 @@ SEG = {
     4: [S("Egypt in the time of the pharaohs: a mud brick yard under a white sun, rows of drying bricks, and above it on "
           "a palace wall a huge painted stone relief of a pharaoh in profile wearing the rearing cobra on the brow of "
           "his crown, gold catching the light.", "still", "carving"),
-        S("Close on a painted stone relief: the gold rearing cobra on the brow of a pharaoh's crown, carved in profile, "
-          "its hood spread, cracked paint, hard sun.", "still", "", cue="a rearing cobra"),
+        S("Close on an ancient Egyptian painted stone relief: the head of a pharaoh carved in profile wearing the tall crown, "
+          "and on the brow of the crown a gold rearing cobra with its hood spread, clearly a snake, cracked paint, hard sun.", "still", "", cue="a rearing cobra"),
         bm("By day at his tent door he sits looking down at the dust, an old scar across his forearm, remembering.",
            cue="In that world"),
         R(F1 + "s043.jpg", "Slow push in.", cue="Genesis refuses"),
@@ -191,7 +191,7 @@ SEG = {
         S(f"At the height of the woman's eyes: the serpent's head among the leaves, close, facing the camera. {SNAKE}",
           "veo", "", "The head moves a little closer.", cue="You will not surely die"),
         R(F1 + "s024.jpg", "Slow push in.", cue="For God knows"),
-        S(f"The woman's eyes, from the brow to the chin, looking up at the fruit, light from it on her face. {FRUIT}",
+        S(f"Beneath the great fruit tree, the woman's face from the brow to the chin, looking up at the fruit in the branches above, dappled sunlight through the leaves on her face. {FRUIT} The fruit does not glow; no glowing light.",
           "veo", "woman", "Her eyes widen a little; she does not move.", cue="your eyes will be opened")],
     # 6 word against word on screen; the name drops out; distrust
     6: [R(F1 + "s021.jpg", "Very slow push.", note="on screen: Genesis 2:16 to 17, God's words, then hers below",
@@ -203,27 +203,25 @@ SEG = {
         R(F1 + "s017.jpg", "Very slow push.", note="on screen: THE LORD GOD, then GOD", cue="Notice too"),
         S(f"A serpent coiled on the branch above the hanging fruit, its head low over it, deep warm shade. {SNAKE} "
           f"{FRUIT}", "veo", "", "Very slow push in; the serpent is still.", cue="The root of sin"),
-        S(f"Close: one round fruit hanging perfectly still in warm light, a single leaf turning beside it. {FRUIT}",
+        S(f"Close: one round golden fig shaped fruit, pale gold and green, hanging perfectly still on a leafy branch in warm light, a single leaf turning beside it. Not red, not an apple. {FRUIT}",
           "still", "", cue=66.6)],
     # 7 3:6 read, then SET PIECE 1 the eating
     7: [R(F1 + "s022.jpg", "Slow push in."),
-        S(f"The woman's eyes and face, from the brow to the chin, gazing at the fruit, warm light on her skin. {FRUIT}",
+        S(f"Beneath the great fruit tree, the woman's eyes and face, from the brow to the chin, gazing up at one fruit hanging in the branches above her, warm light on her skin, leaves around her. No baskets, no piles of fruit, no table. {FRUIT}",
           "veo", "woman", "Her gaze holds on the fruit; she does not move.", cue="pleasing to the eyes"),
         R(F1 + "s011.jpg", "Slow push in.", cue="desirable for obtaining wisdom"),
         man("Beside the tree, the man, chest up, in profile, silent, watching her, warm light.", "man",
             "He watches; he does not move.", cue="who was with her"),
-        S(f"Extreme slow motion: a woman's bare hand rising through the leaves toward a hanging fruit. {HANDS} {FRUIT}",
+        S(f"Extreme slow motion, among the green leaves of a fruit tree with the sky behind: a woman's bare hand and forearm reaching up from the bottom edge of the frame toward one hanging fruit. The arm comes from below the frame, not from the ground. {HANDS} {FRUIT}",
           "veo", "hands", "The hand rises slowly through the leaves.", cue=19.2),
-        S(f"Extreme close, slow motion: fingers closing around a round fruit on the branch. {HANDS} {FRUIT}", "veo",
+        S(f"Extreme close, slow motion: one woman's hand alone, its fingers closing around a round fruit still hanging on its stem on the branch. Only one hand in the frame, no second hand, no giving. {HANDS} {FRUIT}", "veo",
           "hands", "The fingers close around the fruit.",
           omni=dict(mode="image", prompt="Extreme slow motion. Fingers close around a round fruit and pull; the stem "
                     "gives. Only the hand in the frame.")),
-        S(f"Slow motion: the branch springing back as the fruit comes away, leaves shaking loose and falling through "
-          f"warm light. {FRUIT}", "veo", "", "The branch springs back; leaves fall.",
+        S(f"Slow motion, high in a leafy fruit tree against the sky: a living green branch still attached to the tree springing back upward after a fruit has been picked from it, a few leaves shaking loose and drifting down through warm light. Nothing on the ground, no fallen branch, no flying fruit. {FRUIT}", "veo", "", "The branch springs back; leaves fall.",
           omni=dict(mode="image", prompt="Extreme slow motion. The branch springs back, leaves shake loose and fall "
                     "through the light. No hands remain in the frame.")),
-        S(f"The woman, head and shoulders, turning toward the camera, holding the fruit out in her hand at the edge of the "
-          f"frame. {FRUIT}", "veo", "woman", "She turns and holds out the fruit; she does not walk."),
+        S(f"The woman, head and shoulders, turning toward the camera and lifting one round fruit in her own hand beside her face, offering it. Her own hand, her own arm; no other hands. {FRUIT}", "veo", "woman", "She turns and holds out the fruit; she does not walk."),
         S(f"Close: the man's bare hand reaching in and taking the round fruit from the woman's hand. {HANDS} {FRUIT}",
           "veo", "hands", "His hand takes the fruit."),
         S("From above the garden: a cloud's shadow sweeping fast across the treetops, the warm light going cold and "
@@ -348,7 +346,7 @@ SEG = {
          S("A great unfinished tower of fired brick rising on a flat plain at dusk, crowds of small people walking toward "
            "it from the west.", "veo", "distant", "Fast push toward the tower.", verb="AND THEN HE DIED"),
          S("A long column of captives walking east across a desert under guard toward a great walled city of blue glazed "
-           "brick, dust rising, everyone small and far off.", "veo", "distant", "Fast push along the column.",
+           "brick with flat topped walls and towers, no domes, no minarets, dust rising, everyone small and far off.", "veo", "distant", "Fast push along the column.",
            verb="AND THEN HE DIED"),
          S(f"Close in dust in hard light: a serpent striking forward, mouth open, fangs bared. {SNAKE}".replace(
              "mouth closed, never speaking", "never speaking"), "veo", "", "The serpent strikes.",
@@ -370,7 +368,7 @@ SEG = {
            cue="cursed is the ground"),
          R(F1 + "s061.jpg", "Slow push.", cue="Both thorns"),
          R(F1 + "s062.jpg", "Slow push.", cue="and you will eat the plants"),
-         man("Under a hot white sky, the man, chest up, sweat running down his brow, squinting into the sun, exhausted.",
+         man("In a hard field of thorns and cracked dry ground under a hot white sky, no river, no trees: the man, chest up, sweat running down his brow and dust on his skin, squinting into the sun, exhausted.",
              "manf", "Sweat runs down; he breathes hard; he does not move.", cue="By the sweat of your brow"),
          S(f"Close: the man's bare hands tearing at thorn stems in cracked ground, scratched and bleeding. {HANDS}",
            "veo", "hands", "The hands pull at the thorns.", cue="until you return"),
@@ -402,8 +400,7 @@ SEG = {
          man("At first light, the man, chest up, in profile, looking at the woman off camera, the first hope in his "
              "face.", "manf", "He looks; he does not move.", cue="he names her")],
     # 20 3:21 the garments of skin
-    20: [S("Close in warm morning light: rough garments of soft brown animal hide settling over two pairs of shoulders, "
-           "broad fig leaves falling away to the ground.", "veo", "hideclose",
+    20: [S("Close in warm morning light, seen from behind: rough garments of soft brown animal hide settling over the bare shoulders of a man and a woman standing side by side, and below them on the grass a few loose fig leaves lying where they fell. No leaves on the hides.", "veo", "hideclose",
            "The hides settle over the shoulders; fig leaves fall."),
          R(F1 + "s072.jpg", "Slow push.", cue="and He clothed them")],
     # 21 the priests clothed; the brick-maker watches; a life taken
@@ -436,23 +433,21 @@ SEG = {
            f"their wings of fire spread, firelight on the trunks. {CHERUB}", "veo", "cherub",
            "The wings of fire move; flashes of light run among them.", cue="and stationed cherubim"),
          R(F1 + "s079.jpg", "The blade of fire turns.", cue="along with a whirling sword"),
-         S("Close: a whirling sword of flame, a long blade of living fire turning in the air with a roar, sparks flying, "
-           "no hilt, no hand, no one holding it.", "veo", "", "The blade turns and roars.", cue=21.0,
+         S("Close at dusk in the eastern opening of a garden between great dark trees: a whirling sword of flame, a long straight blade made only of living fire, upright, turning in the air with a roar, sparks flying; it is one single straight vertical column of fire shaped like a long blade, with no crossbar, no cross shape, no side flares, no metal, no hilt, no handle, no crossguard, no hand, no one holding it.", "veo", "", "The blade turns and roars.", cue=21.0,
            omni=dict(mode="image", prompt="A blade of living fire whirls and roars in the air at dusk, sparks flying; "
                      "no hand, no figure holding it. Slow push in.")),
-         S(f"Wide: the cherubim's great wings of fire spread wide across the eastern opening of the garden, their tips "
-           f"touching, flame running along them. {CHERUB}", "veo", "cherub", "The wings of fire rise and spread."),
-         S(f"Close in firelight: one cherub's four faces, the man at the front and the lion, the ox and the eagle "
-           f"turning with it, solemn and unmoving, flame between them. {CHERUB}", "veo", "cherub",
+         S(f"Wide at dusk: the cherubim's great wings of fire spread wide across the open gap between two great trees at the eastern edge of the garden, their tips touching, flame running along them; beyond, an open dry land. No gate, no doorway, no walls, no arch, no stone, nothing built. {CHERUB}", "veo", "cherub", "The wings of fire rise and spread."),
+         S(f"Close in firelight at dusk: one living cherub's four faces, a man's face of the ancient Near East at the front with dark skin and dark eyes, a lion's face, an ox's face and an eagle's face, all living flesh and feather lit by fire, solemn and watchful, wings of flame behind. A living being, not a statue, not marble, not carved, not white stone. {CHERUB}", "veo", "cherub",
            "Fire moves; the faces are still and watchful."),
-         S("The man and the woman in hides looking back over their shoulders, firelight on their faces, at medium "
-           "distance in a dry land at dusk.", "veo", "hides", "They look back; the firelight flickers."),
+         S("Standing in a dry land at dusk, the man and the woman in hides turn and look back over their shoulders toward the garden, an orange glow of great fire far behind the camera lighting their faces, at medium distance. They stand; no campfire, no fire near them, not sitting.", "veo", "hides", "They look back; the firelight flickers."),
          R(F1 + "s080.jpg", "One long pull back and up: from the two figures to two specks in the dark land, one point "
            "of fire behind them.", w=2.0,
            omni=dict(mode="image", prompt=(
-               "One continuous shot. The camera pulls back and rises from two small figures walking east in a dry land at "
-               "dusk until they are two specks, and behind them the garden is a dark line with one small point of fire "
-               "in it. No other people."))),
+               "One continuous shot at dusk. [0-4s] Two small figures in rough hide garments walk toward the camera across a "
+               "dry cracked land, away from the dark line of the garden behind them, where one blade of fire burns in "
+               "the gap between the trees. [4-10s] The camera rises high into the air and pulls back as they keep walking "
+               "toward it, until they are two specks on a vast dark plain and the fire is one small point far behind "
+               "them. No other people."))),
          R(F1 + "s083.jpg", "Very slow push."),
          R(G2 + "s143.jpg", "Slow push.", verb="SHAKAN / TO DWELL", cue=37.0)],
     # 24 the veil; barred; Israel's exile; east
@@ -482,8 +477,7 @@ SEG = {
          S("An old scroll partly unrolled on a wooden table in lamplight, columns of faint ancient writing too small "
            "to read.", "still", "", cue="Luke traces"),
          R(F1 + "s086.jpg", "Slow push.", cue="and the very next scene"),
-         S("Close in hard noon light: stones on the wilderness floor, each one round and brown like a loaf of bread, "
-           "heat shimmer beyond.", "still", "", cue="hungry instead"),
+         S("Close at ground level in hard noon light: a few stones on the rocky wilderness floor, each one round and brown like a loaf of bread, the stony ground sharp right to the bottom edge of the frame, heat shimmer beyond.", "still", "", cue="hungry instead"),
          R(F1 + "s087.jpg", "Slow push.", cue="Jesus answers")],
     # 26 the contrasts: tree, garden prayer, thorns, tomb; Hebrews 2:14
     26: [R(F1 + "s088.jpg", "Slow push."),
@@ -496,15 +490,14 @@ SEG = {
          S("A rough wooden beam standing against a dark sky on a hill, seen from below.", "still", "christ",
            cue="He shared our flesh"),
          R(F1 + "s089.jpg", "Slow push.", cue="so that by His death"),
-         S("A bare hill under a sky gone dark at midday, the sun a dim smudge behind black cloud.", "veo", "christ",
+         S("A bare rocky hill outside an ancient walled city under a sky gone dark at midday, the sun a dim smudge behind black cloud, stony ground and dry grass in the foreground right to the bottom edge of the frame.", "veo", "christ",
            "The darkness deepens.", cue="The strike to the heel")],
     # 27 SET PIECE 5 the veil to the empty tomb
     27: [S("A land gone dark at midday, a black sky over hills and a walled city.", "veo", "christ",
            "The darkness rolls over the land.", w=1.0),
          S("Close at ground level: dust and small stones jumping on bare rock as the ground shakes.", "veo", "christ",
            "The ground shakes; dust jumps.", w=1.0),
-         S("In a dim lofty hall of stone, a vast veil of blue, purple and scarlet woven cloth with gold cherubim in its "
-           "weave tearing from top to bottom, blinding light flooding through the tear. No people.", "veo", "christ",
+         S("Inside a dim lofty room of plain dressed limestone blocks with a flat cedar beamed ceiling, in the style of Herod's Jerusalem, a vast veil of blue, purple and scarlet woven cloth with gold cherubim in its weave tearing from top to bottom, blinding light flooding through the tear. No arches, no vaults, no gothic columns, no church. No people.", "veo", "christ",
            "The veil tears from top to bottom; light floods through.", w=1.5,
            omni=dict(mode="image", prompt="A vast woven veil tears from the top down to the bottom in one stroke; "
                      "blinding light pours through the tear. No people, no hands.")),
@@ -513,8 +506,10 @@ SEG = {
          S(f"At the foot of a rock cut tomb at sunrise, in the dust of the path, a dead serpent lying still; the "
            f"wind passes and it crumbles and blows away as dust. {SNAKE}", "veo", "christ",
            "The serpent crumbles into dust and blows away.", w=1.3,
-           omni=dict(mode="image", prompt="At sunrise a dead serpent lies in the dust of a garden path; a wind passes "
-                     "and its body crumbles into dust and blows away in the light. No people.")),
+           omni=dict(mode="image", prompt="At sunrise a dead serpent lies still in the dust of the path before a rock cut "
+                     "tomb. [0-3s] Stillness. [3-6s] Its body turns grey, cracks along its length and collapses into a "
+                     "line of fine dust. [6-10s] A wind passes along the path and blows the dust away completely, leaving "
+                     "only the clean path in the morning light. No people, no hands.")),
          R(F1 + "s092.jpg", "Slow push; wind in the trees.", w=1.0)],
     # 28 the way back: the mercy seat, the veil, the city
     28: [S("The cover of the ark of the covenant in lamplight: two cherubim of hammered gold, one at each end, facing "
@@ -536,8 +531,7 @@ SEG = {
          bm("Close, chest up: his face in first light, eyes closed, at peace.", cue="What are you using"),
          R(G2 + "s092.jpg", "Slow push.", cue=28.3)],
     # 30 open loop into Cain and Abel; end card
-    30: [S("East of Eden at evening: a field of hard ground, two smokes rising from two stone altars, and between them a "
-           "young man seen from behind looking back over his shoulder toward a dark doorway in the dusk.", "veo",
+    30: [S("East of Eden at evening: an open field of hard ground, two smokes rising from two stone altars, and between them a young man of the ancient Near East seen from behind, in a plain knee length undyed wool tunic with a rope belt, barefoot, looking back over his shoulder into the dusk; no modern clothes, no trousers, no shirt. No houses, no huts, no buildings anywhere.", "veo",
            "distant", "Very slow push; the smoke rises."),
          G("black", cue="it will be about a brother"),
          G("end card: Study The Fall / makor.co.za/genesis/the-fall, WATCH NEXT Cain and Abel", cue=12.6)],
@@ -658,8 +652,12 @@ def main():
             keep = PR.KEEP if orig["flags"] in ("pair", "man", "bm") else ""
             rec.update(motion=f"{orig.get('scene', '')} {sh['motion']}{keep} {PR.MOTION}".strip(),
                        flags=orig["flags"])
-        if rec.get("flags") in PEOPLE:
-            rec["lock"] = True
+        if rec.get("flags") in PEOPLE and rec.get("flags") != "hides":
+            rec["lock"] = True      # hides (from 3:21) may walk, so the exile is not locked to its keyframe
+        o = rec.get("omni")
+        if o and o.get("mode") == "image" and "[0-" not in o["prompt"] and rec["kind"] in ("veo", "still"):
+            # the whole scene goes with the motion (VIDEO-METHODS rule 2)
+            rec["omni"] = dict(o, prompt=f"{sh['scene']} {o['prompt']}{PR.KEEP if sh['flags'] in PEOPLE else ''}")
         out.append(rec)
     (HERE / "movement-shots.json").write_text(json.dumps(
         [dict(id=s["id"], chapter=s["chapter"], n=0, start=s["start"], dur=s["dur"], picture=s["scene"] or s["picture"])
