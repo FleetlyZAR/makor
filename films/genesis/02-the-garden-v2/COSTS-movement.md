@@ -113,5 +113,8 @@ ElevenLabs credits valued at the Creator plan rate (22 USD for 131,000 credits).
 | 105 | 2026-10-11 | Gemini Omni (gemini-omni-1.1-flash) | clip s046 1080p | 86880 video tokens | 1.524 | 12.289 |
 | 106 | 2026-10-11 | Nano Banana Pro (gemini-3-pro-image) | still shot 190 (16:9) -> stills/movement/s190.jpg | 1 image 2K | 0.134 | 12.423 |
 | 107 | 2026-10-11 | Nano Banana Pro (gemini-3-pro-image) | still shot 13 (16:9) -> stills/movement/s013.jpg | 1 image 2K | 0.134 | 12.557 |
+| 108 | 2026-10-12 | Nano Banana Pro (gemini-3-pro-image) | still shot 50 (16:9) -> stills/movement/s050.jpg | 1 image 2K | 0.134 | 12.691 |
+| 109 | 2026-10-12 | Nano Banana Pro (gemini-3-pro-image) | still shot 90 (16:9) -> stills/movement/s090.jpg | 1 image 2K | 0.134 | 12.825 |
+| 110 | 2026-10-12 | Nano Banana Pro (gemini-3-pro-image) | still shot 100 (16:9) -> stills/movement/s100.jpg | 1 image 2K | 0.134 | 12.959 |
 
-Running total: 12.56
+Running total: 12.96

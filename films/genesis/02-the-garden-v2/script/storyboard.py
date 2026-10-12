@@ -171,8 +171,8 @@ SEG = {
           motion="A single strong gust sweeps across the grass toward the camera.", w=0.8),
         man("Lying on his back in deep grass at first light, seen from the side at head and shoulder height, his chest "
             "rising with his first deep breath, eyes open to the sky.", motion="His chest rises; a first deep breath.", w=1.2),
-        S("Close: a man's bare hand lying on dark earth closing slowly around a handful of soil, grass around it, first "
-          "light; only the bare hand and bare forearm in the frame, no sleeve, no clothing, no watch, no rings.", "veo", motion="The fingers close on the earth."),
+        S("Close: the hand of the man in the reference portrait: deep dark brown skin exactly like his face, never pale, never light skinned; a bare hand lying on dark earth closing slowly around a handful of soil, grass around it, first "
+          "light; only the bare hand and bare forearm in the frame, no sleeve, no clothing, no watch, no rings.", "veo", ["adam"], motion="The fingers close on the earth."),
         man("Close, chest up: his face as first light moves across it, eyes wide in wonder, breathing.",
             motion="Light crosses his face; he breathes.", w=1.2),
         R(V1 + "s019.jpg", "Slow push.", anim=True),
@@ -233,7 +233,9 @@ SEG = {
          R(V1 + "s027.jpg", "Slow push.", cue="Here a river flows out")],
     # 12 the sanctuary turn: the camp at sunrise
     12: [bm("Sunrise in the camp: he walks between the goat hair tents toward the tent sanctuary at the centre, seen from "
-            "behind and to the side. " + CAMP, motion="He walks toward the sanctuary."),
+            "behind and to the side. He wears one long plain undyed tunic falling below his knees to mid calf, belted "
+            "with a cord, and a plain cloak over his shoulders; no shorts, no trousers, no separate garment on his legs. "
+            + CAMP, motion="He walks toward the sanctuary."),
          S(f"The gate of the tent sanctuary's courtyard facing east straight into the rising sun, its curtain of blue, "
            f"purple and scarlet woven linen lit by the sunrise. {CAMP}", "veo", motion="The sun rises behind the camera; "
            "light floods into the gate.", cue="Its entrance faces east"),
@@ -255,8 +257,9 @@ SEG = {
          man("In the garden at first light he tends a grapevine, lifting a heavy branch onto a living trellis of young "
              "trees, seen from the chest up at medium distance among the leaves.", motion="He lifts the vine."),
          R(V1 + "s038.jpg", "Slow push.", cue="Cultivate and keep"),
-         S("Close: a man's bare hands pressing dark soil firmly around a young fig seedling in the garden at first light; "
-           "only the bare hands and bare forearms, no sleeves, no clothing, no watch, no rings.", "still", cue="the ordinary word for serving God"),
+         S("Close: the hands of the man in the reference portrait: deep dark brown skin exactly like his face, never pale, never light skinned; bare hands pressing dark soil firmly around a young fig seedling in the garden at first light; "
+           "only the bare hands and bare forearms, no sleeves, no clothing, no watch, no rings.", "still", ["adam"],
+           cue="the ordinary word for serving God"),
          S(f"In the courtyard of the tent sanctuary at first light a Levite in a plain white linen tunic tends the altar "
            f"fire, adding wood, seen from the side at medium distance, his face turned away. {CAMP}", "veo",
            flags="distant", motion="He lays wood on the fire.", cue="The second means"),
