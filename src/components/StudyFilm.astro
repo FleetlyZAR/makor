@@ -1,0 +1,284 @@
+---
+// A Makor film from YouTube, locked to that one video. YouTube's own UI is
+// never clickable once playing (a shield covers it and our own bar drives the
+// player), a cover hides YouTube's pause and end suggestions, and playback
+// stops at `end`, before the upload's end screen. Watching to the end records
+// the study as done (phase 'listen', like an audio listen-through) and fires
+// 'makor-film-watched'; the page then opens the questions.
+const { film, place = 'top' } = Astro.props;
+const id = film.youtubeId;
+const mins = film.end ? Math.round(film.end / 60) : null;
+const thumb = `https://i.ytimg.com/vi/${id}/maxresdefault.jpg`;
+---
+<section class:list={['film', `film-${place}`]} data-film data-yt={id} data-end={film.end || ''} data-place={place}>
+  <p class="step-label">{place === 'top' ? 'Watch the film' : 'Watch more'}</p>
+  <p class="film-intro">
+    {place === 'top'
+      ? <>This passage as a film{mins && <>, about {mins} minutes</>}. Watching it to the end counts as your study for today, and the questions open when it finishes.</>
+      : <>The film of this passage{mins && <>, about {mins} minutes</>}. When it ends, the questions open.</>}
+  </p>
+  <div class="film-box">
+    <div class="film-frame">
+      <div class="film-player"></div>
+      <button class="film-poster" type="button" aria-label={`Play the film: ${film.title || 'Makor'}`}>
+        <img src={thumb} alt="" loading="lazy" />
+        <span class="film-play" aria-hidden="true"><svg viewBox="0 0 24 24" width="30" height="30"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg></span>
+      </button>
+      <div class="film-shield" hidden></div>
+      <div class="film-cover" hidden style={`--film-thumb: url(${thumb})`}>
+        <p class="film-cover-msg"></p>
+        <div class="film-cover-actions">
+          <button type="button" class="film-btn" data-act="resume">Resume</button>
+          <button type="button" class="film-btn" data-act="questions" hidden>Answer the questions</button>
+          <button type="button" class="film-btn film-btn-quiet" data-act="again" hidden>Watch again</button>
+          <a class="film-btn film-btn-quiet" data-act="youtube" href={`https://www.youtube.com/watch?v=${id}`} target="_blank" rel="noopener" hidden>Open on YouTube</a>
+        </div>
+      </div>
+    </div>
+    <div class="film-bar" hidden>
+      <button type="button" class="film-ctl" data-act="toggle" aria-label="Pause">
+        <svg class="i-pause" viewBox="0 0 24 24" width="18" height="18"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z" fill="currentColor"/></svg>
+        <svg class="i-play" viewBox="0 0 24 24" width="18" height="18"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg>
+      </button>
+      <span class="film-time" aria-live="off">0:00</span>
+      <input class="film-seek" type="range" min="0" max="100" step="1" value="0" aria-label="Seek" />
+      <button type="button" class="film-ctl film-cc" data-act="cc" aria-pressed="false" aria-label="Captions">CC</button>
+      <button type="button" class="film-ctl" data-act="fs" aria-label="Full screen">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>
+      </button>
+    </div>
+  </div>
+  {film.caption && <p class="film-caption">{film.caption}</p>}
+  <p class="film-foot">
+    <button type="button" class="film-link" data-act="questions">Watched it already? Answer the questions</button>
+    <span class="film-status"></span>
+  </p>
+</section>
+
+<style is:global>
+  .film { margin: 1.4rem 0 1.6rem; }
+  .film-intro { margin: 0.2rem 0 0.8rem; color: var(--muted); font-family: var(--sans); font-size: 0.92rem; }
+  .film-box { border-radius: 10px; overflow: hidden; border: 1px solid var(--line); background: #000; }
+  .film-frame { position: relative; width: 100%; padding-top: 56.25%; background: #000; }
+  .film-player, .film-player iframe, .film-poster, .film-shield, .film-cover { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+  .film-poster { padding: 0; cursor: pointer; background: #000; display: grid; place-items: center; }
+  .film-poster img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .film-play { position: relative; width: 68px; height: 68px; border-radius: 50%; display: grid; place-items: center; background: var(--water); color: #fff; box-shadow: 0 6px 22px rgba(0,0,0,.35); padding-left: 4px; }
+  .film-poster:hover .film-play { transform: scale(1.06); }
+  .film-shield { background: transparent; cursor: pointer; z-index: 2; }
+  .film-cover { z-index: 3; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.9rem; padding: 1rem; text-align: center;
+    background: linear-gradient(rgba(11,33,36,.78), rgba(11,33,36,.88)), var(--film-thumb) center / cover no-repeat, #0b2124; color: #f4eedf; }
+  .film-cover[hidden], .film-shield[hidden], .film-bar[hidden], .film-poster[hidden] { display: none; }
+  .film-cover-msg { margin: 0; font-family: var(--sans); font-size: 0.98rem; max-width: 30rem; }
+  .film-cover-msg:empty { display: none; }
+  .film-cover-actions { display: flex; flex-wrap: wrap; gap: 0.6rem; justify-content: center; }
+  .film-btn { font-family: var(--sans); font-size: 0.92rem; font-weight: 600; background: var(--water); color: #fff; border: none; border-radius: 999px; padding: 0.6rem 1.15rem; cursor: pointer; text-decoration: none; }
+  .film-btn-quiet { background: rgba(255,255,255,.14); }
+  .film-btn[hidden] { display: none; }
+  .film-bar { display: flex; align-items: center; gap: 0.55rem; padding: 0.45rem 0.6rem; background: #0b2124; color: #f4eedf; font-family: var(--sans); font-size: 0.8rem; }
+  .film-ctl { background: none; border: none; color: inherit; cursor: pointer; display: grid; place-items: center; padding: 4px; min-width: 32px; min-height: 32px; border-radius: 6px; }
+  .film-ctl:focus-visible, .film-btn:focus-visible, .film-poster:focus-visible { outline: 2px solid var(--light, #d8aa58); outline-offset: 2px; }
+  .film-ctl .i-play { display: none; }
+  .film.is-paused .film-ctl .i-play { display: block; }
+  .film.is-paused .film-ctl .i-pause { display: none; }
+  .film-cc { font-weight: 700; font-size: 0.72rem; letter-spacing: .04em; opacity: .6; }
+  .film-cc[aria-pressed="true"] { opacity: 1; box-shadow: inset 0 -2px 0 currentColor; }
+  .film-time { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .film-seek { flex: 1; min-width: 0; accent-color: var(--water); }
+  .film-caption { margin: 0.4rem 0 0; font-size: 0.85rem; color: var(--muted); font-family: var(--sans); font-style: italic; }
+  .film-foot { margin: 0.5rem 0 0; display: flex; flex-wrap: wrap; gap: 0.4rem 0.9rem; align-items: center; font-family: var(--sans); font-size: 0.85rem; }
+  .film-link { background: none; border: none; padding: 0; color: var(--water); font: inherit; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+  .film-status { color: var(--muted); }
+  .film-status:empty { display: none; }
+  .film-box:fullscreen { display: flex; flex-direction: column; border: 0; border-radius: 0; }
+  .film-box:fullscreen .film-frame { flex: 1; padding-top: 0; }
+  .film-box:-webkit-full-screen { display: flex; flex-direction: column; width: 100%; height: 100%; }
+  .film-box:-webkit-full-screen .film-frame { flex: 1; padding-top: 0; }
+</style>
+
+<script>
+  type YTPlayer = any;
+  const roots = Array.from(document.querySelectorAll<HTMLElement>('[data-film]'));
+  const all: { pause: () => void }[] = [];
+  let apiReady: Promise<void> | null = null;
+
+  function loadApi(): Promise<void> {
+    const w = window as any;
+    if (w.YT && w.YT.Player) return Promise.resolve();
+    if (apiReady) return apiReady;
+    apiReady = new Promise((resolve, reject) => {
+      const prev = w.onYouTubeIframeAPIReady;
+      w.onYouTubeIframeAPIReady = () => { if (prev) prev(); resolve(); };
+      const s = document.createElement('script');
+      s.src = 'https://www.youtube.com/iframe_api';
+      s.async = true;
+      s.onerror = () => { apiReady = null; reject(new Error('api')); };
+      document.head.appendChild(s);
+    });
+    return apiReady;
+  }
+
+  function fmt(t: number) {
+    t = Math.max(0, Math.floor(t || 0));
+    const m = Math.floor(t / 60), s = t % 60;
+    return m + ':' + (s < 10 ? '0' : '') + s;
+  }
+
+  function fsElement() { const d = document as any; return d.fullscreenElement || d.webkitFullscreenElement || null; }
+  function exitFs() { const d = document as any; if (!fsElement()) return; (d.exitFullscreen || d.webkitExitFullscreen).call(d); }
+
+  roots.forEach((root) => {
+    const id = root.dataset.yt!;
+    const end = Number(root.dataset.end) || 0;
+    const q = <T extends Element = HTMLElement>(sel: string) => root.querySelector(sel) as unknown as T;
+    const box = q('.film-box'), holder = q('.film-player'), poster = q('.film-poster');
+    const shield = q('.film-shield'), cover = q('.film-cover'), coverMsg = q('.film-cover-msg');
+    const bar = q('.film-bar'), timeEl = q('.film-time'), seek = q<HTMLInputElement>('.film-seek');
+    const toggleBtn = q('[data-act="toggle"]'), ccBtn = q('[data-act="cc"]'), fsBtn = q('[data-act="fs"]');
+    const status = q('.film-status');
+    const act = (name: string) => q(`.film-cover [data-act="${name}"]`);
+
+    let player: YTPlayer = null;
+    let started = false, finished = false, dragging = false, ccOn = false;
+    let timer: number | null = null;
+
+    const d = document as any;
+    if (!(d.fullscreenEnabled || d.webkitFullscreenEnabled)) fsBtn.hidden = true;
+
+    function length() { return end || (player && player.getDuration ? player.getDuration() : 0) || 0; }
+    function tick() {
+      if (!player || !player.getCurrentTime) return;
+      const t = player.getCurrentTime(), len = length();
+      if (len) seek.max = String(Math.floor(len));
+      if (!dragging) seek.value = String(Math.floor(t));
+      timeEl.textContent = fmt(t) + ' / ' + fmt(len);
+      // Belt and braces: stop at the cut even if the end parameter is ignored.
+      if (end && t >= end - 0.25 && !finished) { player.pauseVideo(); onEnded(); }
+    }
+    function startTimer() { if (timer == null) timer = window.setInterval(tick, 250); }
+    function stopTimer() { if (timer != null) { clearInterval(timer); timer = null; } }
+
+    function showCover(mode: 'paused' | 'ended' | 'error') {
+      act('resume').hidden = mode !== 'paused';
+      act('questions').hidden = mode !== 'ended';
+      act('again').hidden = mode !== 'ended';
+      act('youtube').hidden = mode !== 'error';
+      coverMsg.textContent = mode === 'ended' ? 'You have watched the film. That counts as your study for today.'
+        : mode === 'error' ? 'This film cannot play here right now.' : '';
+      cover.hidden = false;
+      shield.hidden = true;
+    }
+
+    function onPlaying() {
+      started = true;
+      poster.hidden = true;
+      cover.hidden = true;
+      shield.hidden = false;
+      bar.hidden = false;
+      root.classList.remove('is-paused');
+      toggleBtn.setAttribute('aria-label', 'Pause');
+      startTimer();
+      all.forEach((o) => { if (o !== self) o.pause(); });
+      document.querySelectorAll('audio, video').forEach((m) => { try { (m as HTMLMediaElement).pause(); } catch (e) {} });
+    }
+    function onPaused() {
+      root.classList.add('is-paused');
+      toggleBtn.setAttribute('aria-label', 'Play');
+      stopTimer(); tick();
+      if (started && !finished) showCover('paused');
+    }
+    function onEnded() {
+      if (finished) return;
+      finished = true;
+      stopTimer();
+      root.classList.add('is-paused');
+      exitFs();
+      showCover('ended');
+      recordWatch();
+      window.dispatchEvent(new CustomEvent('makor-film-watched', { detail: { place: root.dataset.place } }));
+    }
+
+    async function recordWatch() {
+      const w = window as any;
+      if (w.__mkFilmSaved) return;
+      w.__mkFilmSaved = true;
+      const m = document.getElementById('study-meta');
+      if (!m || !w.makorSaveAttempt) return;
+      try {
+        const res = await w.makorSaveAttempt({ slug: m.dataset.slug, book: m.dataset.book, title: m.dataset.title, phase: 'listen', score: 0, answers: { via: 'film', youtubeId: id } });
+        if (res && res.skipped) status.innerHTML = w.makorSignInBlock ? w.makorSignInBlock('Sign in to count films you watch in your progress.') : 'Sign in to count films you watch in your progress.';
+        else { status.textContent = 'Watched. Saved to your progress.'; if (w.makorRefreshProgress) w.makorRefreshProgress(); }
+      } catch (e) { w.__mkFilmSaved = false; }
+    }
+
+    function create() {
+      poster.hidden = true;
+      loadApi().then(() => {
+        const YT = (window as any).YT;
+        const vars: Record<string, any> = { autoplay: 1, controls: 0, rel: 0, fs: 0, disablekb: 1, iv_load_policy: 3, playsinline: 1, cc_load_policy: 0, modestbranding: 1 };
+        if (end) vars.end = end;
+        if (/^https?:/.test(location.origin)) vars.origin = location.origin;
+        player = new YT.Player(holder, {
+          host: 'https://www.youtube-nocookie.com',
+          videoId: id,
+          width: '100%', height: '100%',
+          playerVars: vars,
+          events: {
+            onStateChange: (e: any) => {
+              if (e.data === 1) onPlaying();
+              else if (e.data === 2) onPaused();
+              else if (e.data === 0) onEnded();
+            },
+            onError: () => { stopTimer(); showCover('error'); },
+          },
+        });
+      }).catch(() => showCover('error'));
+    }
+
+    function play() { if (player && player.playVideo) { cover.hidden = true; player.playVideo(); } }
+    function pause() { if (player && player.pauseVideo && started && !finished) player.pauseVideo(); }
+    const self = { pause };
+    all.push(self);
+
+    poster.addEventListener('click', create);
+    shield.addEventListener('click', pause);
+    toggleBtn.addEventListener('click', () => {
+      if (!player) return;
+      if (player.getPlayerState && player.getPlayerState() === 1) pause(); else if (!finished) play();
+    });
+    act('resume').addEventListener('click', play);
+    act('again').addEventListener('click', () => {
+      if (!player) return;
+      finished = false;
+      player.seekTo(0, true);
+      play();
+    });
+    root.querySelectorAll('[data-act="questions"]').forEach((b) => b.addEventListener('click', () => {
+      pause();
+      window.dispatchEvent(new CustomEvent('makor-film-questions'));
+    }));
+    seek.addEventListener('input', () => { dragging = true; timeEl.textContent = fmt(Number(seek.value)) + ' / ' + fmt(length()); });
+    seek.addEventListener('change', () => {
+      dragging = false;
+      if (!player) return;
+      const t = Math.min(Number(seek.value), Math.max(0, length() - 1));
+      finished = false;
+      player.seekTo(t, true);
+      tick();
+    });
+    ccBtn.addEventListener('click', () => {
+      if (!player) return;
+      ccOn = !ccOn;
+      try {
+        if (ccOn) { player.loadModule('captions'); player.setOption('captions', 'track', { languageCode: 'en' }); }
+        else player.unloadModule('captions');
+      } catch (e) {}
+      ccBtn.setAttribute('aria-pressed', ccOn ? 'true' : 'false');
+    });
+    fsBtn.addEventListener('click', () => {
+      const b = box as any;
+      if (fsElement()) exitFs();
+      else (b.requestFullscreen || b.webkitRequestFullscreen).call(b);
+    });
+  });
+</script>
