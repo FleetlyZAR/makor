@@ -18,7 +18,8 @@ Everything else is generated from those two:
 | --- | --- |
 | `public/daily/<slug>.png` (1080x1920), `<slug>-share.png` (1200x630), `<slug>/index.html` | `render.py` |
 | `src/data/daily.js` (core rotation, scheduled verses, calendar) | `build.py` |
-| `out/sync.sql` (upserts `comms.daily_pool` and `comms.daily_schedule`) | `build.py` |
+| `public/daily/feed.json` (calendar and email fields, pulled by Supabase) | `build.py` |
+| `out/sync.sql` (manual fallback: the same upserts as SQL) | `build.py` |
 
 ## Tools
 
@@ -61,7 +62,12 @@ tools/daily/.venv/bin/pip install pillow numpy
 7. **The app never goes blank.** The app bundle is frozen at build time. It
    carries the calendar from its build date onward, and for any date beyond
    that it falls back to the core 50 rotation by day of the year.
-8. **The email never goes blank.** `comms.pick_today()` reads
+8. **The email follows the site by itself.** Supabase fetches
+   `/daily/feed.json` with pg_net three times a day (03:10, 04:10 and 18:10 UTC,
+   before the 05:00 UTC send), validates it, and only then upserts
+   `comms.daily_pool` and `comms.daily_schedule` (`comms.daily_sync_apply()`,
+   log in `comms.daily_sync`). A bad fetch or feed changes nothing.
+9. **The email never goes blank.** `comms.pick_today()` reads
    `comms.daily_schedule` first and falls back to the original least sent random
    pick if today has no row or its verse is inactive.
 

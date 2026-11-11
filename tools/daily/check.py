@@ -231,6 +231,11 @@ def main(argv):
         have = open(lib.DAILY_JS, encoding="utf-8").read()
         if want != have:
             err("daily.js: out of date (run build.py)")
+        import build
+        feed_want, _ = build.feed_text(verses, cal)
+        feed_have = open(build.FEED, encoding="utf-8").read() if os.path.exists(build.FEED) else ""
+        if feed_want != feed_have:
+            err("feed.json: public/daily/feed.json out of date (run build.py)")
 
     summary = (f"daily calendar: {covered} days covered from {today}, last date {future[-1] if future else '-'}, "
                f"{len(used)} verses scheduled, {len(verses)} in library, {len(errors)} errors, {len(warnings)} warnings")

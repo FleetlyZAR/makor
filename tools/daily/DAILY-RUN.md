@@ -49,15 +49,20 @@ Python is `tools/daily/.venv/bin/python` (call it PY below). All paths are from
      or en dashes; end with the line
      `Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>`)
    - `git push origin main`. If the push fails, report and stop.
-7. Email calendar: run the contents of `tools/daily/out/sync.sql` with the
-   Supabase `execute_sql` tool on project `oztgjzncxgobcszcwibp`. It is
-   idempotent (upserts; past dates are never rewritten), so rerunning is safe.
+7. Email calendar. The database syncs itself from the live
+   `https://makor.co.za/daily/feed.json` (written by build.py) at 03:10, 04:10
+   and 18:10 UTC, so this step only speeds it up and confirms it. About three
+   minutes after the push (Cloudflare needs about two to deploy), run with the
+   Supabase `execute_sql` tool on project `oztgjzncxgobcszcwibp`:
+   `select comms.daily_sync_request();` then, a minute later,
+   `select comms.daily_sync_apply();`. It should return `ok: ...`. `pending`
+   means wait a little and run the apply again; anything else is in
+   `select * from comms.daily_sync order by id desc limit 3;`. If the feed was
+   not yet deployed (the new dates are missing), wait and repeat once. Never
+   paste verse content into SQL by hand.
 8. Verify: `PY tools/daily/check.py --summary` and, in Supabase,
    `select * from comms.daily_schedule_horizon();`. Both should report at least
-   60 covered days. If the database is behind the repo (for example a previous
-   run pushed but failed at step 7), run
-   `PY tools/daily/build.py` (no `--from`, so every date from today) and apply
-   `tools/daily/out/sync.sql` in chunks of about 20 statements.
+   60 covered days and the same last date.
 9. Report in three lines: dates and references added, the commit hash pushed,
    and the two horizons (repo and email). Stop.
 

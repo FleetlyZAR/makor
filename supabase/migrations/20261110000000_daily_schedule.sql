@@ -109,3 +109,7 @@ as $$
   select coalesce((select count(*)::int from run where grp = (select t.d - 1 from t)), 0),
          (select max(on_date) from comms.daily_schedule);
 $$;
+
+-- Same lockdown as comms.pick_today(): no execute for public, anon or authenticated.
+revoke execute on function comms.daily_schedule_horizon() from public, anon, authenticated;
+revoke all on table comms.daily_schedule from anon, authenticated;

@@ -71,8 +71,55 @@ def write_daily_js(verses, cal):
     return len(core), len(scheduled)
 
 
+FEED = os.path.join(lib.PUBLIC, "feed.json")
+FEED_DAYS = 400   # the feed carries the last FEED_DAYS days of the calendar
+
+
+def feed_text(verses, cal):
+    """public/daily/feed.json: the calendar and the email fields for each verse.
+    comms.daily_sync_apply() in Supabase fetches it from makor.co.za every
+    morning, so the email calendar follows the deployed site on its own.
+    Deterministic for a given calendar (no dependence on today's date)."""
+    import datetime as dt
+    if not cal:
+        dates = []
+    else:
+        last = lib.parse_date(max(cal))
+        cut = lib.iso(last - dt.timedelta(days=FEED_DAYS))
+        dates = [d for d in sorted(cal) if d >= cut]
+    slugs = sorted({cal[d] for d in dates})
+    feed = {
+        "version": 1,
+        "calendar": {d: cal[d] for d in dates},
+        "verses": {s: {
+            "ref": verses[s]["ref"],
+            "verse_text": verses[s]["verse"],
+            "writeup_html": writeup_html(verses[s]["story"]),
+            "writeup_txt": "\n\n".join(verses[s]["story"]),
+            "study_url": lib.SITE + verses[s]["studyUrl"],
+            "daily_page_url": f"{lib.SITE}/daily/{s}/",
+            "image_path": f"/daily/{s}.png",
+            "og_image_path": f"/daily/{s}-share.png",
+        } for s in slugs},
+    }
+    return json.dumps(feed, ensure_ascii=False, indent=1) + "\n", len(dates)
+
+
+def write_feed(verses, cal):
+    text, n = feed_text(verses, cal)
+    with open(FEED, "w", encoding="utf-8") as f:
+        f.write(text)
+    return n
+
+
 def sq(s):
-    return "'" + str(s).replace("'", "''") + "'"
+    """SQL string literal. Text with line breaks becomes an E'' literal with \\n
+    escapes, so every statement in sync.sql stays on one line and can be split
+    into chunks line by line."""
+    s = str(s)
+    if "\n" in s or "\\" in s:
+        return "E'" + s.replace("\\", "\\\\").replace("'", "''").replace("\n", "\\n") + "'"
+    return "'" + s.replace("'", "''") + "'"
 
 
 def write_sync_sql(verses, cal, start, end):
@@ -115,8 +162,10 @@ def main(argv):
     if missing:
         raise SystemExit(f"calendar names verses with no write-up yet: {sorted(set(missing))}")
     ncore, nsched = write_daily_js(verses, cal)
+    nfeed = write_feed(verses, cal)
     path, nd, ns = write_sync_sql(verses, cal, start, end)
     print(f"daily.js: {ncore} core, {nsched} scheduled verses, {len(cal)} calendar days")
+    print(f"feed.json: {nfeed} dates -> public/daily/feed.json (the email database pulls this)")
     print(f"sync.sql: {nd} dates, {ns} pool rows -> {os.path.relpath(path, lib.REPO)}")
 
 
