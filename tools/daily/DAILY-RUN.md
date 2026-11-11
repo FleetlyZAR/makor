@@ -49,14 +49,17 @@ Python is `tools/daily/.venv/bin/python` (call it PY below). All paths are from
      or en dashes; end with the line
      `Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>`)
    - `git push origin main`. If the push fails, report and stop.
-7. Email calendar. About three minutes after the push (Cloudflare usually
-   deploys in two, but a large push can take 15), confirm
-   `curl -s "https://makor.co.za/daily/feed.json?t=$(date +%s)"` contains the new
-   dates. Then, with the Supabase `execute_sql` tool on project
-   `oztgjzncxgobcszcwibp`, follow `tools/daily/sync_from_feed.sql`: run its
-   `net.http_get` line, then the block with the returned id in place of
-   `__REQ__`. The block validates the feed and raises (changing nothing) if
-   anything is wrong; if it says pending, wait a few seconds and run it again.
+7. Email calendar. Supabase pulls the live `https://makor.co.za/daily/feed.json`
+   by itself with pg_cron at 03:10, 04:10 and 18:10 UTC (before the 05:00 UTC
+   email), so this step only makes the new day land at once. About three
+   minutes after the push (a large push can take 15), confirm
+   `curl -s "https://makor.co.za/daily/feed.json?t=$(date +%s)"` has the new
+   dates, then with the Supabase `execute_sql` tool on project
+   `oztgjzncxgobcszcwibp` run `select comms.daily_sync_request();` and, a few
+   seconds later, `select comms.daily_sync_apply();`. It should return
+   `ok: ...`; `pending` means run the apply again shortly. Any other result is
+   logged in `select * from comms.daily_sync order by id desc limit 3;` and
+   changed nothing. `tools/daily/sync_from_feed.sql` is the manual fallback.
    Never paste verse content into SQL by hand.
 8. Verify: `PY tools/daily/check.py --summary` and, in Supabase,
    `select * from comms.daily_schedule_horizon();`. Both should report at least

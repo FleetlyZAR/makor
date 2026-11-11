@@ -1,6 +1,3 @@
--- PROPOSED, NOT APPLIED. Needs Luyanda's approval: it adds recurring pg_cron jobs.
--- If approved, move it back to supabase/migrations/ and apply it.
-
 -- The email calendar syncs itself from the deployed site.
 --
 -- tools/daily/build.py publishes https://makor.co.za/daily/feed.json with the

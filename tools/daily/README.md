@@ -62,11 +62,12 @@ tools/daily/.venv/bin/pip install pillow numpy
 7. **The app never goes blank.** The app bundle is frozen at build time. It
    carries the calendar from its build date onward, and for any date beyond
    that it falls back to the core 50 rotation by day of the year.
-8. **The email follows the site.** The daily run has Supabase fetch the live
-   `/daily/feed.json` with pg_net and apply it through
-   `sync_from_feed.sql`, which validates first and changes nothing on any error.
-   Making this fully automatic with pg_cron is drafted in
-   `proposed-feed-sync-cron.sql`, awaiting approval.
+8. **The email follows the site by itself.** pg_cron has Supabase fetch the
+   live `/daily/feed.json` at 03:10, 04:10 and 18:10 UTC (before the 05:00 UTC
+   send) and apply it with `comms.daily_sync_apply()`, which validates first and
+   changes nothing on any error (log in `comms.daily_sync`). So even if a daily
+   run fails after pushing, the email still catches up the same morning.
+   `sync_from_feed.sql` is the manual fallback.
 9. **The email never goes blank.** `comms.pick_today()` reads
    `comms.daily_schedule` first and falls back to the original least sent random
    pick if today has no row or its verse is inactive.
