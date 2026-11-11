@@ -4,9 +4,19 @@
 // the day with share, a Continue card that resumes the last unfinished study, a
 // reading plan nudge, and a quiet view of the reader's walk. Signed out, it
 // shows the verse and an invitation to sign in. The website is never touched.
-import { dailyEntries } from '../data/daily.js';
+import { dailyEntries, dailyVerses, dailyCalendar } from '../data/daily.js';
+
+// Ship the dated calendar from a few days before this build onward (the app
+// bundle is frozen at build time, so it carries the whole horizon), plus the core
+// rotation as the fallback for any day the calendar does not cover.
+const fromDate = new Date(Date.now() - 3 * 86400000).toISOString().slice(0, 10);
+const dated = {};
+for (const [date, slug] of Object.entries(dailyCalendar)) {
+  if (date >= fromDate && dailyVerses[slug]) dated[date] = dailyVerses[slug];
+}
+const dailyPayload = { rotation: dailyEntries, dated };
 ---
-<script type="application/json" id="app-home-daily" set:html={JSON.stringify(dailyEntries)}></script>
+<script type="application/json" id="app-home-daily" set:html={JSON.stringify(dailyPayload)}></script>
 <div id="app-home" hidden>
   <div class="ah-top">
     <svg class="ah-mark" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="13.5" fill="none" stroke="var(--water)" stroke-width="1.4" opacity="0.35"/><circle cx="16" cy="16" r="9.5" fill="none" stroke="var(--water)" stroke-width="1.4" opacity="0.6"/><circle cx="16" cy="16" r="5.3" fill="none" stroke="var(--water)" stroke-width="1.4"/><circle cx="16" cy="16" r="2.1" fill="var(--light)"/></svg>
@@ -72,8 +82,12 @@ import { dailyEntries } from '../data/daily.js';
     var dataEl = document.getElementById('app-home-daily');
     if (!home || !body) return;
 
-    var entries = [];
-    try { entries = JSON.parse(dataEl.textContent || '[]'); } catch (e) {}
+    var entries = [], dated = {};
+    try {
+      var payload = JSON.parse(dataEl.textContent || '{}');
+      if (Array.isArray(payload)) entries = payload;
+      else { entries = payload.rotation || []; dated = payload.dated || {}; }
+    } catch (e) {}
 
     // Take over the home page: hide the site header and the default content.
     document.body.classList.add('has-apphome');
@@ -89,10 +103,13 @@ import { dailyEntries } from '../data/daily.js';
     var base = 'https://makor.co.za';
     function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
 
-    // Verse of the day, one per calendar day.
+    // Verse of the day: the dated calendar (the same verse as the email) when it
+    // covers today, otherwise the core rotation, one per calendar day.
     function todaysVerse() {
-      if (!entries.length) return null;
       var now = new Date();
+      var key = now.getFullYear() + '-' + String(now.getMonth() + 1).padStart(2, '0') + '-' + String(now.getDate()).padStart(2, '0');
+      if (dated[key]) return dated[key];
+      if (!entries.length) return null;
       var start = new Date(now.getFullYear(), 0, 0);
       var day = Math.floor((now - start) / 86400000);
       return entries[day % entries.length];

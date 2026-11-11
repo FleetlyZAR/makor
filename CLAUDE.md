@@ -19,6 +19,22 @@ may commit and push its own Go deeper batches to main after a clean
 those runs and only the files they list; everything else still follows the
 rule above.
 
+Standing exception (11 November 2026): the scheduled task `makor-daily-scripture`
+may commit and push its own scripture of the day additions to main after
+`tools/daily/check.py` exits 0 and `npm run build` succeeds, and may apply its
+generated `tools/daily/out/sync.sql` to the comms schema in Supabase, as set out
+in `tools/daily/DAILY-RUN.md`. This covers only those runs and only
+`tools/daily/verses`, `tools/daily/calendar.json`, `public/daily` and
+`src/data/daily.js`.
+
+## Scripture of the day (permanent)
+
+Every date has its own verse, planned 90 days ahead, and the app, the landing
+page, the cards and the weekday email all show the same one. The source of
+truth is `tools/daily/verses/*.json` and `tools/daily/calendar.json`; everything
+else is generated. Method, tools and the fail safe layers: `tools/daily/README.md`.
+Published dates (today and earlier) never change.
+
 Commit handoff format (permanent): whenever work is ready, Claude gives a single
 ready to paste terminal block that runs from ANY terminal on the Mac, not only
 one already sitting in the repo. The block opens with `cd ~/makor || exit 1`

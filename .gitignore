@@ -33,3 +33,7 @@ films/**/edit/*
 
 # Python bytecode
 __pycache__/
+
+# Daily scripture: local render venv and generated sync SQL
+tools/daily/.venv/
+tools/daily/out/

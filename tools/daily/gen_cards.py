@@ -9,7 +9,8 @@ from PIL import Image, ImageDraw, ImageFont
 import math
 import numpy as np
 
-T = "/tmp/ttf/"
+import os
+T = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts") + "/"
 FR = {w: T + f"fraunces-{w}.ttf" for w in (400, 600)}
 NR = {w: T + f"newsreader-{w}.ttf" for w in (400, 500)}
 NR_IT = T + "newsreader-400-italic.ttf"
@@ -119,7 +120,7 @@ def render_vertical(verse, ref):
     cx = Wc // 2
     img = _base_vertical()
     d = ImageDraw.Draw(img)
-    vfont, lines, lh = _fit(d, verse, FR[400], [64,60,56,52,48,44,40], int(780*SS), 640, 1.42)
+    vfont, lines, lh = _fit(d, verse, FR[400], [64,60,56,52,48,44,40], int(780*SS), 560, 1.42)
     vy = int(1150*SS) - (lh*len(lines))//2
     for ln in lines:
         _centered(d, ln, vfont, cx, vy, CREAM); vy += lh
@@ -156,6 +157,8 @@ def render_share(verse, ref):
     return img.resize((W, H), Image.LANCZOS)
 
 if __name__ == "__main__":
-    render_vertical("The heavens declare the glory of God; the skies proclaim the work of His hands.", "Psalm 19:1").save("/tmp/sample-vertical.png")
-    render_share("The heavens declare the glory of God; the skies proclaim the work of His hands.", "Psalm 19:1").save("/tmp/sample-share.png")
+    import sys
+    out = sys.argv[1] if len(sys.argv) > 1 else "."
+    render_vertical("The heavens declare the glory of God; the skies proclaim the work of His hands.", "Psalm 19:1").save(os.path.join(out, "sample-vertical.png"))
+    render_share("The heavens declare the glory of God; the skies proclaim the work of His hands.", "Psalm 19:1").save(os.path.join(out, "sample-share.png"))
     print("wrote samples")

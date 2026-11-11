@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2 Timothy 1:7 · Scripture of the day · Makor</title>
+<meta name="description" content="For God has not given us a spirit of fear, but of power, love, and self-control.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Makor">
+<meta property="og:title" content="2 Timothy 1:7">
+<meta property="og:description" content="For God has not given us a spirit of fear, but of power, love, and self-control.">
+<meta property="og:image" content="https://makor.co.za/daily/2-timothy-1-7-share.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://makor.co.za/daily/2-timothy-1-7/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://makor.co.za/daily/2-timothy-1-7-share.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+<style>
+  :root{--ink:#0E2A2E;--water:#0F6C6C;--light:#B8862F;--cream:#F4EEDF;--muted:#9BB0AD;}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:radial-gradient(circle at 50% 30%, #12363B 0%, #0E2A2E 55%, #0A2023 100%);
+    color:var(--cream);font-family:'Newsreader',Georgia,serif;min-height:100vh;
+    padding:44px 20px 60px;-webkit-font-smoothing:antialiased}
+  main{max-width:640px;margin:0 auto;text-align:center}
+  .wordmark{font-family:'Fraunces',serif;font-weight:600;letter-spacing:.5em;font-size:20px;color:var(--water);padding-left:.5em}
+  .rule{width:64px;height:1px;background:var(--light);opacity:.5;margin:16px auto 12px}
+  .eyebrow{font-style:italic;color:var(--muted);font-size:16px;margin-bottom:28px}
+  .card{width:100%;height:auto;border-radius:12px;display:block;margin:0 auto 34px;box-shadow:0 20px 50px -24px rgba(0,0,0,.6)}
+  .verse{font-family:'Fraunces',serif;font-weight:400;font-size:26px;line-height:1.45;color:var(--cream);margin:0 auto 10px;max-width:560px}
+  .ref{font-family:'Fraunces',serif;font-weight:500;letter-spacing:.2em;font-size:15px;color:var(--light);margin-bottom:32px}
+  .writeup{text-align:left;max-width:560px;margin:0 auto 36px}
+  .writeup p{font-size:18px;line-height:1.7;color:#E7E0CF;margin-bottom:18px}
+  .btn{display:block;max-width:420px;width:100%;margin:0 auto 14px;padding:15px 24px;border-radius:8px;border:0;cursor:pointer;
+    font-family:'Fraunces',serif;font-weight:500;font-size:17px;text-decoration:none;text-align:center}
+  a.btn{line-height:1.2}
+  .primary{background:var(--light);color:#0A2023}
+  .share{background:var(--water);color:#fff}
+  footer{margin-top:44px;color:var(--muted);font-size:13px;line-height:1.7}
+  footer a{color:var(--water);text-decoration:none}
+</style>
+</head>
+<body>
+<main>
+  <div class="wordmark">MAKOR</div>
+  <div class="rule"></div>
+  <div class="eyebrow">Scripture of the day</div>
+  <img class="card" src="/daily/2-timothy-1-7.png" width="1080" height="1920" alt="2 Timothy 1:7 scripture card">
+  <p class="verse">For God has not given us a spirit of fear, but of power, love, and self-control.</p>
+  <p class="ref">2 Timothy 1:7</p>
+  <div class="writeup"><p>Paul is writing from a prison cell, near the end of his life, to a younger man who seems to be tempted toward shyness and shame.</p><p>Timothy had a gift from God, and Paul urges him to fan it into flame. Then comes this reminder: God did not give us a spirit of fear. What He gave is power, love, and self-control. These are not our own stock of courage but gifts of the Spirit who lives in the believer. Notice that love sits in the middle, between power and self-control, so that strength is kept gentle and discipline stays warm. Paul says in the next verse that Timothy need not be ashamed of the gospel.</p><p>If fear is speaking loudly today, remember what He has actually given you. Use it.</p></div>
+  <a class="btn primary" href="https://makor.co.za/2-timothy/encouragement-to-faithfulness/">Read the full study</a>
+  <button class="btn share" type="button" onclick="makorShare()">Share</button>
+  <footer>Makor &middot; <a href="https://makor.co.za">makor.co.za</a><br>Every study an act of discipleship.</footer>
+</main>
+<script>
+async function makorShare(){
+  var url="https://makor.co.za/daily/2-timothy-1-7/";
+  var text="\"For God has not given us a spirit of fear, but of power, love, and self-control.\" (2 Timothy 1:7)";
+  var imgUrl="https://makor.co.za/daily/2-timothy-1-7.png";
+  try{
+    if(navigator.canShare){
+      try{
+        var r=await fetch(imgUrl); var b=await r.blob();
+        var f=new File([b],"2-timothy-1-7.png",{type:"image/png"});
+        if(navigator.canShare({files:[f]})){ await navigator.share({files:[f],text:text+"\\n\\n"+url}); return; }
+      }catch(e){}
+    }
+    if(navigator.share){ await navigator.share({title:"Makor",text:text,url:url}); return; }
+  }catch(e){ return; }
+  try{ await navigator.clipboard.writeText(text+"\\n\\n"+url); alert("Link copied. Paste it anywhere to share."); }
+  catch(e){ window.prompt("Copy this link to share:", url); }
+}
+</script>
+</body>
+</html>
