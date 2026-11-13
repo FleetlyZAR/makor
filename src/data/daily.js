@@ -640,6 +640,13 @@ export const dailyVerses = {
     story: ["Job has lost his children, his health, and his friends' kindness, and from the ash heap he makes a declaration.", "He knows that his Redeemer lives. The word describes a family defender who steps in to vindicate and rescue, and Job believes that Someone will do this for him though no one seems to be on his side. In the end, he says, that Redeemer will stand upon the earth. Job speaks it in the dark, with his questions still unanswered. For Christians this hope has found its face in the risen Jesus.", "If your own circumstances are silent today, say it anyway: my Redeemer lives. It is true whether or not you feel it."],
     studyUrl: "/job/my-redeemer-lives/"
   },
+  "joel-2-13": {
+    slug: "joel-2-13",
+    ref: "Joel 2:13",
+    verse: "So rend your hearts and not your garments, and return to the LORD your God. For He is gracious and compassionate, slow to anger, abounding in loving devotion. And He relents from sending disaster.",
+    story: ["With the locusts gone through the land and a darker day on the horizon, God says something no one expected: even now, come back.", "In Israel grief was shown by tearing your clothes. Joel asks for a deeper tear. Rip open the heart, the inner core where God alone sees, and turn your whole self back toward Him. The reason to come is not the size of the fast but the character of the LORD. Joel reaches back to the words God spoke to Moses at Sinai: gracious, compassionate, slow to anger, full of steadfast love. The door is open because of who stands behind it.", "Ash Wednesday marks us with dust, but the invitation is not to despair. Bring Him an honest heart today; He is already turned toward you."],
+    studyUrl: "/joel/return-to-the-lord/"
+  },
   "john-1-14": {
     slug: "john-1-14",
     ref: "John 1:14",
@@ -1098,5 +1105,6 @@ export const dailyCalendar = {
   "2027-02-06": "titus-3-5",
   "2027-02-07": "isaiah-43-2",
   "2027-02-08": "2-timothy-1-7",
-  "2027-02-09": "isaiah-26-3"
+  "2027-02-09": "isaiah-26-3",
+  "2027-02-10": "joel-2-13"
 };
