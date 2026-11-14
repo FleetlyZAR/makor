@@ -717,6 +717,13 @@ export const dailyVerses = {
     story: ["Old Zechariah has been silent for nine months, and when his tongue is freed he sings about sunrise.", "The reason for the coming light is the tender mercy of God, a phrase that speaks of His deep compassion, not of anything we have earned. The Dawn from on high will visit people living in darkness and the shadow of death. It will not merely shine upon them but guide their feet, step by step, into the path of peace. Christians have always seen this Dawn as Christ.", "Where it is still dark for you, you are not forgotten. The light is coming toward you, and it has promised to lead."],
     studyUrl: "/luke/the-birth-of-john-and-the-benedictus/"
   },
+  "luke-18-13": {
+    slug: "luke-18-13",
+    ref: "Luke 18:13",
+    verse: "But the tax collector stood at a distance, unwilling even to lift up his eyes to heaven. Instead, he beat his breast and said, \u2018God, have mercy on me, a sinner!\u2019",
+    story: ["Two men go up to the temple to pray, and Jesus surprises His hearers by making the despised tax collector the hero of the story.", "The Pharisee stands near and lists his virtues. The tax collector stays back, eyes down, striking his chest as if the trouble lives there. He brings no record at all, only a plea. The word he uses for mercy comes from the temple's sacrifices: be atoned toward me, the sinner. He asks God to deal with his sin in the one way he cannot. Jesus says this man, not the other, went home justified, counted righteous by God's mercy alone.", "Lent is not a season for polishing our record before God. Come as you are today, with nothing in your hands, and ask for the mercy He gives."],
+    studyUrl: "/luke/parables-of-prayer-and-the-rich-ruler/"
+  },
   "luke-2-10": {
     slug: "luke-2-10",
     ref: "Luke 2:10-11",
@@ -1106,5 +1113,6 @@ export const dailyCalendar = {
   "2027-02-07": "isaiah-43-2",
   "2027-02-08": "2-timothy-1-7",
   "2027-02-09": "isaiah-26-3",
-  "2027-02-10": "joel-2-13"
+  "2027-02-10": "joel-2-13",
+  "2027-02-11": "luke-18-13"
 };
