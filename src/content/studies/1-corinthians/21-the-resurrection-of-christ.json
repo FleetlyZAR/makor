@@ -18,8 +18,16 @@
         "note": "the ground on which you stand and are saved",
         "emphasis": "",
         "verses": [
-          { "chapter": 15, "n": 1, "text": "Now, brothers, I want to remind you of the {{euangelion|gospel}} I preached to you, which you received, and in which you stand firm." },
-          { "chapter": 15, "n": 2, "text": "By this gospel you are saved, if you hold firmly to the word I preached to you. Otherwise, you have believed in vain." }
+          {
+            "chapter": 15,
+            "n": 1,
+            "text": "Now, brothers, I want to remind you of the {{euangelion|gospel}} I preached to you, which you received, and in which you stand firm."
+          },
+          {
+            "chapter": 15,
+            "n": 2,
+            "text": "By this gospel you are saved, if you hold firmly to the word I preached to you. Otherwise, you have believed in vain."
+          }
         ]
       },
       {
@@ -27,9 +35,21 @@
         "note": "died, buried, raised, appeared",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 15, "n": 3, "text": "For what I received I passed on to you as of first importance: that Christ died for our sins according to the {{graphe|Scriptures}}," },
-          { "chapter": 15, "n": 4, "text": "that He was buried, that He was {{egeiro|raised}} on the third day according to the Scriptures," },
-          { "chapter": 15, "n": 5, "text": "and that He appeared to Cephas and then to the Twelve." }
+          {
+            "chapter": 15,
+            "n": 3,
+            "text": "For what I received I passed on to you as of first importance: that Christ died for our sins according to the {{graphe|Scriptures}},"
+          },
+          {
+            "chapter": 15,
+            "n": 4,
+            "text": "that He was buried, that He was {{egeiro|raised}} on the third day according to the Scriptures,"
+          },
+          {
+            "chapter": 15,
+            "n": 5,
+            "text": "and that He appeared to Cephas and then to the Twelve."
+          }
         ]
       },
       {
@@ -37,21 +57,65 @@
         "note": "grace made him an apostle",
         "emphasis": "",
         "verses": [
-          { "chapter": 15, "n": 6, "text": "After that, He appeared to more than five hundred brothers at once, most of whom are still living, though some have fallen asleep." },
-          { "chapter": 15, "n": 7, "text": "Then He appeared to James, then to all the apostles." },
-          { "chapter": 15, "n": 8, "text": "And last of all He appeared to me also, as to one of untimely birth." },
-          { "chapter": 15, "n": 9, "text": "For I am the least of the apostles and am unworthy to be called an apostle, because I persecuted the church of God." },
-          { "chapter": 15, "n": 10, "text": "But by the {{charis|grace}} of God I am what I am, and His grace to me was not in vain. No, I worked harder than all of them, yet not I, but the grace of God that was with me." },
-          { "chapter": 15, "n": 11, "text": "Whether, then, it was I or they, this is what we preach, and this is what you believed." }
+          {
+            "chapter": 15,
+            "n": 6,
+            "text": "After that, He appeared to more than five hundred brothers at once, most of whom are still living, though some have fallen asleep."
+          },
+          {
+            "chapter": 15,
+            "n": 7,
+            "text": "Then He appeared to James, then to all the apostles."
+          },
+          {
+            "chapter": 15,
+            "n": 8,
+            "text": "And last of all He appeared to me also, as to one of untimely birth."
+          },
+          {
+            "chapter": 15,
+            "n": 9,
+            "text": "For I am the least of the apostles and am unworthy to be called an apostle, because I persecuted the church of God."
+          },
+          {
+            "chapter": 15,
+            "n": 10,
+            "text": "But by the {{charis|grace}} of God I am what I am, and His grace to me was not in vain. No, I worked harder than all of them, yet not I, but the grace of God that was with me."
+          },
+          {
+            "chapter": 15,
+            "n": 11,
+            "text": "Whether, then, it was I or they, this is what we preach, and this is what you believed."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "euangelion": { "language": "Greek", "lemma": "euangelion", "original": "εὐαγγέλιον", "gloss": "Good news, gospel. Not a set of tips or techniques but an announcement of what God has done in Christ. Paul reminds the Corinthians that the gospel is not one message among many but the message they received, in which they stand, and by which they are being saved. Its content is fixed: Christ crucified, buried, risen, and seen." },
-    "graphe": { "language": "Greek", "lemma": "graphe", "original": "γραφή", "gloss": "Writing, Scripture. Twice Paul says the death and resurrection of Christ happened according to the Scriptures, meaning the whole Old Testament pattern of a suffering and vindicated servant. The gospel is not a break with what came before but the fulfillment God had promised all along." },
-    "egeiro": { "language": "Greek", "lemma": "egeiro", "original": "ἐγείρω", "gloss": "To raise, to wake, to lift up. Used throughout the chapter for the resurrection. The passive form, He was raised, points to the Father raising the Son, a public act of God vindicating the crucified Christ. This is the hinge of the whole confession and of the whole chapter." },
-    "charis": { "language": "Greek", "lemma": "charis", "original": "χάρις", "gloss": "Grace, unmerited favor. Paul, who persecuted the church, calls himself the least of the apostles, yet by grace he is what he is. Grace both makes him an apostle and empowers his labor, so that even his hard work is finally the grace of God at work in him. All boasting is excluded." }
+    "euangelion": {
+      "language": "Greek",
+      "lemma": "euangelion",
+      "original": "εὐαγγέλιον",
+      "gloss": "Good news, gospel. Not a set of tips or techniques but an announcement of what God has done in Christ. Paul reminds the Corinthians that the gospel is not one message among many but the message they received, in which they stand, and by which they are being saved. Its content is fixed: Christ crucified, buried, risen, and seen."
+    },
+    "graphe": {
+      "language": "Greek",
+      "lemma": "graphe",
+      "original": "γραφή",
+      "gloss": "Writing, Scripture. Twice Paul says the death and resurrection of Christ happened according to the Scriptures, meaning the whole Old Testament pattern of a suffering and vindicated servant. The gospel is not a break with what came before but the fulfillment God had promised all along."
+    },
+    "egeiro": {
+      "language": "Greek",
+      "lemma": "egeiro",
+      "original": "ἐγείρω",
+      "gloss": "To raise, to wake, to lift up. Used throughout the chapter for the resurrection. The passive form, He was raised, points to the Father raising the Son, a public act of God vindicating the crucified Christ. This is the hinge of the whole confession and of the whole chapter."
+    },
+    "charis": {
+      "language": "Greek",
+      "lemma": "charis",
+      "original": "χάρις",
+      "gloss": "Grace, unmerited favor. Paul, who persecuted the church, calls himself the least of the apostles, yet by grace he is what he is. Grace both makes him an apostle and empowers his labor, so that even his hard work is finally the grace of God at work in him. All boasting is excluded."
+    }
   },
   "study": {
     "basic": {
@@ -65,85 +129,244 @@
       "oneStory": "This confession is the center of the whole Bible in a few lines. The promises of the Old Testament come to their point in a Christ who dies for sins and rises on the third day. From here the story runs outward to the whole world through the witnesses who saw Him, including a former enemy remade by grace, and forward to the resurrection of all who belong to Him."
     },
     "context": {
-      "literary": "Chapter fifteen is the theological climax of the letter, and verses 1 to 11 are its foundation stone. Paul frames the section with the language of tradition, what I received I passed on to you, and quotes a compact confession in balanced clauses: died, buried, raised, appeared. He then extends the list of resurrection appearances and closes with his own case, moving from settled creed to personal testimony.",
-      "historical": "Some Corinthians, shaped by Greek assumptions that the body is a prison and only the soul matters, were denying a future bodily resurrection. Paul answers not with philosophy but with history and testimony: a confession already circulating in the churches, and a roll of named eyewitnesses, more than five hundred at once, most still living, whom his readers could in principle question.",
-      "canonical": "This is the earliest datable summary of the gospel in the New Testament, a creed Paul received within a few years of the events. It stands with the sermons in Acts and the Gospel passion and resurrection narratives as the church's foundational testimony, and it anchors the doctrine of resurrection that the rest of the chapter will defend and explain."
+      "literary": "Chapter 15 is the last long argument of the letter and the one on which Paul places the most weight, and these first eleven verses are its foundation. They are built like a legal deposition. Verses 1 and 2 are a preamble: Paul reminds them of a word they already hold, and adds a condition. Verses 3 to 5 are the body of a formal statement, set out in four short clauses introduced by 'that': Christ died, He was buried, He was raised, He appeared. Verses 5 to 8 then run through the witnesses with a string of 'then' and 'last of all,' like an examiner calling people to the stand. Verses 9 to 11 turn to Paul himself and close with a verdict that joins him to all the other preachers: 'this is what we preach, and this is what you believed.'\n\nThe four-clause creed has a careful rhythm. The first and third clauses carry the phrase 'according to the Scriptures,' so that death and rising are tied to the Old Testament as the two pillars, while the burial and the appearances are the proofs that each was real. A burial shows the death was no swoon, and the appearances show the empty tomb was not the only evidence.\n\nThe paragraph also pivots on the verb 'received' and the verb 'passed on' in verse 3, two words that were used for handing down a trusted tradition. Paul is not inventing a gospel but guarding one. The paragraph is therefore both content and credential, and it prepares the question of verse 12, 'how can some of you say that there is no resurrection of the dead?' The Corinthians already stand on this ground, so to deny the resurrection of the dead is to saw off the branch they sit on.",
+      "historical": "Paul wrote this letter from Ephesus, probably in the middle of the 50s of the first century, and the events he recites had happened some twenty years earlier. What he says he 'received' he had received soon after his own conversion. Galatians 1:18 to 19 reports that three years after his call he went up to Jerusalem to confer with Cephas and saw James, the Lord's brother, and these are two of the very men named in verses 5 and 7. It is reasonable to think the summary took shape in the first years of the church, in Jerusalem, within a few years of the crucifixion.\n\nThe list of witnesses is a deliberate appeal to evidence. Paul says more than five hundred brothers saw the Lord at once, 'most of whom are still living,' verse 6. In a letter to be read aloud in a church, that was an invitation: you can ask them. The note that 'some have fallen asleep' acknowledges the passage of time. Cephas, the Twelve, James and 'all the apostles' form the leaders; the five hundred are an ordinary crowd.\n\nGreek and Roman culture at Corinth did not expect a bodily rising. Greek thought mostly hoped, at best, for the survival of a soul, and the educated treated a rising corpse as absurd, as Paul's hearers had seen in Athens, Acts 17:32. Many Jews of the day expected a general resurrection at the end of the age, Daniel 12:2, but not the raising of one man in the middle of history. That is why the claim in verse 4 was so unusual: someone had been raised first, and before the end.\n\nPaul's own story gives the setting for verses 8 to 10. He had been a violent persecuting zealot, Acts 8:3 and 9:1 to 2, and the title 'least of the apostles' is the language of a man who knows what he was.",
+      "canonical": "The creed leans on the Old Testament at two points, both marked 'according to the Scriptures.' For the death, the great background is Isaiah 53, where the Servant 'was pierced for our transgressions' and 'the LORD has laid upon Him the iniquity of us all,' Isaiah 53:5 to 6. For the third day, scholars point to Hosea 6:2, 'on the third day He will raise us up, that we may live in His presence,' and to Psalm 16:10, 'nor will You let Your Holy One see decay,' which Peter and Paul both applied to the resurrection, Acts 2:25 to 31 and 13:35 to 37. Jesus Himself said that the Law, the Prophets and the Psalms spoke of the Christ's suffering and rising, Luke 24:44 to 46, so the plural 'Scriptures' is not a stretch.\n\nThe pattern of the Old Testament is full of deliverance on the third day, such as Isaac spared on the third day, Genesis 22:4, and Jonah delivered from the fish after three days, which Jesus took as His own sign, Matthew 12:40. The text does not say Paul has these in view, but the shape is the same: death faced and then life given back.\n\nIn the New Testament the confession is repeated everywhere. Romans 4:25 gives it in two lines: 'He was delivered over to death for our trespasses and was raised to life for our justification.' Romans 1:4 says that Jesus was 'declared with power to be the Son of God by His resurrection from the dead.' Luke 24:34 preserves an early report that 'the Lord has indeed risen and has appeared to Simon,' which matches the first witness in verse 5. Acts 1:21 to 22 makes an eyewitness to the resurrection the mark of an apostle."
     },
     "hermeneutics": {
-      "authorIntent": "To recall the Corinthians to the fixed, received gospel as the foundation of their faith, to establish the death and resurrection of Christ as historical events attested by many witnesses and promised in Scripture, and so to lay the groundwork for defending the resurrection of believers.",
-      "descriptionVsPrescription": "Verses 3 to 5 are confession, the settled facts of the gospel, not a command. Verse 2, if you hold firmly, and verse 1, in which you stand, carry the abiding call: to receive this gospel and keep holding it. The events are given; the fitting response is faith that endures.",
+      "authorIntent": "Paul's aim was to set the Corinthians back on solid ground before he argued with them. Some of them thought they could keep Christ and drop the resurrection of the dead. He does not begin by arguing; he begins by reminding. The gospel is something they have already received, in which they already stand, and by which they are being saved, a trio of verbs that places the whole life of faith inside the gospel.\n\nHe also meant them to feel the weight of the little word 'if' in verse 2. The warning, 'if you hold firmly,' is not meant to terrify true believers but to say that faith which lets go of the central facts was never real faith, 'in vain.' Perseverance is the mark of the real thing.\n\nAnd he wanted them to see that this gospel is public. By citing named witnesses, many still alive, he turned a private conviction into a testable claim. He assumed that people who doubted could ask. He also set himself among the witnesses with disarming honesty, as 'one of untimely birth,' so that the argument rests not on his standing but on what Christ had done.\n\nThe first hearers were meant to leave with confidence and humility: confidence that the faith rests on events, and humility that every apostle, himself included, stands there by grace.",
+      "descriptionVsPrescription": "The paragraph is a statement of fact and a call to hold fast, not a procedure. Its details, the appearance to Cephas, to the Twelve, to five hundred, to James, and last to Paul, describe what happened and are not commands. We are not told to look for new appearances, and Paul's 'last of all' means the series closed with him.\n\nWhat does carry over as instruction is the shape of the faith. The gospel is to be received, held firmly and passed on, which is exactly what Paul himself did, verse 3. Churches that hand on the same four clauses, death for sins, burial, raising on the third day, and appearances, are doing what Paul asks. It also carries over that perseverance is part of salvation's life, verse 2.\n\nPaul's testimony in verses 9 to 10 is description with a lesson. He is not instructing others to call themselves the least of anything; he is describing how grace looks from the inside. The lesson is that no one stands in the gospel by his own merit, and that grace makes a person work harder, not less. The words 'I worked harder than all of them' are not boasting but wonder, and he corrects it in the next breath: 'yet not I, but the grace of God that was with me.'",
       "debates": [
         {
           "question": "What does Paul mean when he says Christ died and rose according to the Scriptures?",
           "views": [
-            { "label": "Specific texts fulfilled", "case": "Paul has particular passages in view, such as Isaiah 53 for the atoning death and texts like Psalm 16 and Hosea 6:2 for rising, read as promising the third-day vindication." },
-            { "label": "The whole scriptural pattern", "case": "The phrase points more broadly to the entire Old Testament shape of a suffering, dying, and vindicated one, which the cross and resurrection bring to fulfillment, rather than to a single proof text." }
+            {
+              "label": "Specific texts fulfilled",
+              "case": "Paul has particular passages in view, such as Isaiah 53 for the atoning death and texts like Psalm 16 and Hosea 6:2 for rising, read as promising the third-day vindication."
+            },
+            {
+              "label": "The whole scriptural pattern",
+              "case": "The phrase points more broadly to the entire Old Testament shape of a suffering, dying, and vindicated one, which the cross and resurrection bring to fulfillment, rather than to a single proof text."
+            }
           ],
           "bearing": "Either way the point holds: the gospel is the fulfillment of God's promise, not a novelty, and the Scriptures are its authoritative witness."
+        },
+        {
+          "question": "Was the appearance to Paul the same kind of event as the appearances to the others?",
+          "views": [
+            {
+              "label": "The same kind of encounter",
+              "case": "Paul uses the same verb for his own seeing as for the others, 'He appeared to me also,' verse 8, and elsewhere says, 'Have I not seen Jesus our Lord?' 1 Corinthians 9:1. On this view the risen Lord really met him as He had met them, and Paul's apostleship rests on that."
+            },
+            {
+              "label": "A unique, later encounter",
+              "case": "Others stress that Paul's came after the ascension, from heaven, in a blaze of light, Acts 9:3, and that Paul himself calls it 'untimely,' as if out of order. It was still real, but was an exceptional and final act of grace."
+            }
+          ],
+          "bearing": "Both views agree that Paul counts his meeting as a true seeing of the risen Christ, and that it was the last in the list. He is not reporting an inner feeling but an encounter that changed his life and made him a witness."
         }
       ]
     },
-    "originalLanguages": "The passage turns on a few weighty words. Euangelion, gospel, names an announcement of what God has accomplished in Christ, the message the Corinthians received and in which they stand. Twice Paul says these things happened according to the graphe, the Scriptures, binding the cross and the empty tomb to God's long promise. The pivotal verb is egeiro, He was raised, a divine passive: the Father raised the Son, publicly vindicating the crucified one. And Paul sums up his entire apostleship in charis, grace, for the persecutor of the church is now its preacher only because God was gracious, so that even his tireless labor is the grace of God at work in him.",
+    "originalLanguages": "The two verbs of verse 3, paralambano, 'I received,' and paradidomi, 'I passed on,' were the standard words for handing on a fixed tradition. Paul uses them in the same sense of the Lord's Supper in 11:23. The gospel is not Paul's invention, and it is not his to alter. It is a deposit, and he is a faithful steward of it.\n\nThe phrase 'of first importance,' en protois, can mean first in time or first in rank. Here both fit. It was what Paul first told them, and it is first in weight. Everything else in the letter, however important, stands below it.\n\nThe tenses in verses 3 to 5 are worth noticing. 'Died,' apethanen, and 'was buried,' etaphe, are aorists, snapshots of events that happened once. But 'was raised,' egegertai, is a perfect, which looks back to a past act and says its result still stands. The resurrection is not only a thing that happened but a thing that remains true: He is the risen One. The verb is also passive, which implies that God raised Him, as in verse 15. Then 'He appeared,' ophthe, returns to the aorist.\n\nThat verb ophthe, from the verb 'to see,' is used four times in the paragraph. In the Septuagint the same form describes God making Himself seen to the patriarchs, as in Genesis 12:7, 'the LORD appeared to Abram.' Its force is not 'he was seen by a vision in the mind' but 'he caused himself to be seen,' so the initiative lies with the one who appears. The risen Christ takes the initiative with every witness.\n\nIn verse 6 the dead are said to have 'fallen asleep,' koimao. Paul and the Gospels often used this gentle word for the death of believers, as in John 11:11 and 1 Thessalonians 4:13. The word does not mean the soul sleeps; it means death is temporary, since a sleeper is expected to wake. The same word is used again in verses 18, 20 and 51.\n\nPaul calls himself 'one of untimely birth,' ektroma, in verse 8. The word is a rare one for a miscarriage or an abortive birth. It may have been a taunt thrown at him, and he takes it up with humility: he was born into the apostolic family at the wrong time and in the wrong way, like a child brought out of the womb before its time. In verse 10 he says he 'worked harder,' from kopiao, to toil to weariness, a word Paul often uses for apostolic labour, as in 1 Corinthians 4:12 and Galatians 4:11.\n\nFinally, 'believed in vain,' verse 2, is eike, 'without cause, to no purpose.' It names faith that never had substance. Paul uses the same word of futile suffering in Galatians 3:4, and it contrasts with the end of the chapter, where he says that labour in the Lord is 'not in vain,' verse 58, a different word, kenos, empty.",
     "typology": [
-      { "type": "Raised on the third day", "fulfillment": "Fulfills the Scriptural pattern of vindication after suffering, from Jonah's three days in the deep, which Jesus named as a sign, to the servant of Isaiah 53 who is cut off yet prolongs his days." },
-      { "type": "Christ died for our sins", "fulfillment": "Fulfills the sacrificial system and the sin-bearing servant of Isaiah 53, the true and final offering that takes away sin once for all." }
+      {
+        "type": "Isaac on the third day",
+        "fulfillment": "Abraham 'looked up and saw the place in the distance' on the third day, Genesis 22:4, and from his point of view Isaac was as good as dead, so that Hebrews 11:19 says Abraham reasoned that God could raise the dead, from which, 'figuratively speaking,' he received Isaac back. The correspondence is a beloved son, a journey of three days, and a life given back. It is a picture, not a prophecy. The escalation in Christ is that no ram took His place: the Father did not spare His own Son, Romans 8:32, and the third day was a real rising and not a reprieve."
+      },
+      {
+        "type": "Jonah's three days and nights",
+        "fulfillment": "Jesus Himself called Jonah's time in the fish a sign, 'so the Son of Man will be three days and three nights in the heart of the earth,' Matthew 12:40. Jonah prayed from the depths and said God had brought up his life from the pit, Jonah 2:6, and he was given a second commission. The type shows a man swallowed by death and restored to bring a message to the nations. The escalation is that Jonah was running from his call, whereas Christ went to death in obedience, and Jonah was delivered to preach, while Christ was raised to give life to many. The type falls short in that Jonah did not die for anyone."
+      },
+      {
+        "type": "The Servant who dies and sees light",
+        "fulfillment": "Isaiah 53 describes a Servant who is 'crushed for our iniquities' and then, 'after the anguish of His soul, He will see the light of life and be satisfied,' Isaiah 53:5, 11. The pattern is death, as a guilt offering, followed by a prolonged life and a portion with the great, verses 10 and 12. Paul's creed packs those moves into four clauses. The escalation lies in the exactness: what Isaiah saw from a distance happened at a known place and time, with named witnesses. The type falls short in that Isaiah does not say who the Servant is or how He rises, which the apostles supply."
+      },
+      {
+        "type": "Paul as the one brought out of death",
+        "fulfillment": "Paul's own life is a smaller echo of the creed. The man who stood by when Stephen died, Acts 7:58, was himself laid low on the road, and he rose to serve the one he had hated. He calls the change a pattern: Christ Jesus showed His patience 'as an example for those who would believe in Him,' 1 Timothy 1:16. The correspondence is real but not exact, since Paul's rescue was from sin and not from the grave. The type falls short in that Paul's conversion is only the shadow of a larger rising, and the pattern holds only because Christ was raised first."
+      }
     ],
-    "christ": "The gospel here is entirely Christ-shaped. He died for our sins, taking the place and penalty that were ours; He was buried, truly dead; He was raised on the third day, vindicated by God; and He appeared, bodily and repeatedly, to Cephas, the Twelve, five hundred at once, James, all the apostles, and last of all to Paul. The resurrection is not a symbol of springtime or a survival of the soul but the raising of the crucified Jesus, God's verdict that His atoning death was accepted. On this Christ everything in the chapter, and in the Christian hope, depends.",
-    "god": "God is the unseen actor in every line. He gave the Scriptures that promised these things; He raised Christ from the dead; He saves those who believe the gospel; and He poured out grace on Paul, turning a violent enemy of the church into its hardest-working apostle. The transformation of Paul is itself a small gospel: God justifies the ungodly and calls them into His service, so that all boasting is in Him alone.",
+    "christ": "This paragraph is the centre of the Gospel's christology, and it rests on the three events that Paul places side by side. The first is the death 'for our sins.' The little word 'for' is huper, 'on behalf of,' the language of substitution. Christ did not die as a martyr whose example we admire, but as the Servant who bore 'the iniquity of us all,' Isaiah 53:6. Peter says the same: 'Christ also suffered for you,' 1 Peter 2:21, and that He 'bore our sins in His body on the tree,' 1 Peter 2:24.\n\nThe second is the burial. It is easy to pass over, but it is the sign that Jesus really died. John records that the body was wrapped and laid in a new tomb, John 19:40 to 42, and the empty tomb, John 20:1 to 8, is the sequel. Paul does not mention the empty tomb in so many words, but the order, buried and then raised, assumes it.\n\nThe third is the raising 'on the third day.' This is not a revival of a dying man but the vindication of the Son. Romans 1:4 says Jesus 'was declared with power to be the Son of God by His resurrection from the dead,' and Romans 4:25 says He 'was raised to life for our justification.' The cross deals with the guilt, and the resurrection is God's public declaration that the payment was accepted. To remove the resurrection is to leave us with a death whose result cannot be known.\n\nThe fourth is the appearing. Christ does not leave His rising to be inferred from an empty tomb. He shows Himself, to Peter, to the Twelve, to a crowd, to James, to Paul. On the evening of the first day He ate with His disciples and showed them His hands and feet, Luke 24:39 to 43. A glorified body can still be touched and can still share a meal.\n\nA fifth thing follows. The risen Christ is the Lord who turns enemies into servants. Saul had persecuted His church, and Jesus said, 'Why do you persecute Me?' Acts 9:4. The Lord identifies Himself with His people so closely that to strike them is to strike Him, and His appearing to Saul in a blaze is the grace that made an apostle out of a persecutor.\n\nA word of caution: the detail of the third day and the Scriptures should not be pressed into a code. Paul gives no verse. What he provides is the shape, and the New Testament elsewhere supplies particular texts. The strength of the christology is not any single proof text but the fact that the events happened, were witnessed, and were understood by the first Christians as the fulfilment of everything God had promised.",
+    "god": "The paragraph shows God as the God who acts in history. Nothing here is a timeless idea. Christ died, was buried, was raised and appeared, each of them events that could be located and witnessed. The God of the Bible is the one who brought Israel out of Egypt and who now has raised Jesus; His acts are the basis of His people's faith, as in Psalm 77:11 to 12.\n\nHe is the God who keeps His word. The creed says the death and the rising were 'according to the Scriptures,' and that is a claim about God's faithfulness across centuries. Promises given to Abraham, to David and through the prophets were not forgotten. 'For all of God's promises are \"Yes\" in Christ,' 2 Corinthians 1:20. The cross and the empty tomb are God keeping faith.\n\nHe is the God who raises the dead. The passive 'was raised' hides the actor, who is God, as Paul says outright in verse 15, 'He raised Christ from the dead.' Nothing is too hard for Him, and nothing in death lies beyond His reach, as Abraham believed about 'the God who gives life to the dead,' Romans 4:17. If God can do this, no situation in our lives lies beyond His power.\n\nHe is the God of grace. Paul's account of himself is the plainest case study of grace in the New Testament. God did not pick a man on the strength of his record, since Paul's was an ugly one. He picked a persecutor and made him a preacher. Grace is not a reward but a gift given to the unworthy, and Paul states the result in a single sentence: 'by the grace of God I am what I am,' verse 10. Grace does not make a person passive. It makes him labour, and then it takes the credit.\n\nHe is the God who uses witnesses. God did not choose to prove the resurrection by a bare declaration from heaven. He appeared to a succession of ordinary people and then sent them to speak. That tells us something about His character: He engages the whole person, mind and memory, and He is willing for His truth to be tested. The gospel can bear examination.\n\nGod's holiness and love meet here. The sins that Christ died for are real, and the cost was real. Yet it was 'the LORD's will to crush Him,' Isaiah 53:10, and the Father did not spare His own Son, Romans 8:32. The same God who judges sin provides the offering that removes it, so that justice and mercy are not at odds.\n\nFor worship, this paragraph invites thanks before it invites analysis. Verse 57 will say, 'thanks be to God,' and every believer who recites these four clauses is joining a very old song. We worship the God who acted, who kept His word, who raises the dead, and who turns enemies into servants.",
     "crossReferences": [
-      { "ref": "Isaiah 53:1-12", "note": "The servant who dies for the sins of many and is afterward vindicated and satisfied, the backdrop to Christ died for our sins according to the Scriptures." },
-      { "ref": "Luke 24:44-47", "note": "The risen Christ opens the Scriptures to show that the Messiah must suffer and rise on the third day, exactly Paul's according to the Scriptures." },
-      { "ref": "Romans 4:25", "note": "Christ was delivered over for our trespasses and raised for our justification, linking His death and resurrection to our standing before God." },
-      { "ref": "Galatians 1:11-16", "note": "Paul receives the gospel by revelation and is called by grace, the persecutor made an apostle, matching verses 8 to 10." },
-      { "ref": "Acts 9:1-19", "note": "The risen Christ appears to Saul on the Damascus road, the last of the resurrection appearances Paul recounts here." }
+      {
+        "ref": "Isaiah 53:1-12",
+        "note": "The great prophecy of the Servant who is pierced for transgressions, bears the iniquity of all, and then sees the light of life. It stands behind the clause 'died for our sins,' and verse 10 is especially striking: He is made a guilt offering and then prolongs His days, which is a promise of life after death."
+      },
+      {
+        "ref": "Luke 24:44-47",
+        "note": "The risen Jesus tells His disciples that everything written about Him in the Law, the Prophets and the Psalms had to be fulfilled, and that the Christ would suffer and rise on the third day. This is Jesus Himself teaching the pattern that Paul calls 'according to the Scriptures.'"
+      },
+      {
+        "ref": "Romans 4:25",
+        "note": "Paul gives the same gospel in two lines. 'Delivered over to death for our trespasses' matches the death for sins, and 'raised to life for our justification' ties the resurrection to our being declared righteous. It shows that the resurrection is not an afterthought to the cross but its verdict."
+      },
+      {
+        "ref": "Galatians 1:11-16",
+        "note": "Paul insists that his gospel came 'by revelation from Jesus Christ,' and describes how he had violently persecuted the church before God was pleased to reveal His Son in him. It is the first-hand version of the story told briefly in verses 8 to 10 here."
+      },
+      {
+        "ref": "Acts 9:1-19",
+        "note": "Luke's account of Saul on the road to Damascus, struck down by a light from heaven and addressed by Jesus. It is the appearance 'last of all,' and shows that the risen Lord not only appeared but commissioned. Saul's three days of blindness are the beginning of the change grace worked."
+      },
+      {
+        "ref": "Hosea 6:2",
+        "note": "'After two days He will revive us; on the third day He will raise us up, that we may live in His presence.' Spoken of Israel's restoration, it is the best-known Old Testament use of the third day for raising up, and many readers hear it in the background of verse 4."
+      },
+      {
+        "ref": "Psalm 16:8-11",
+        "note": "David says God will not abandon his soul to Sheol or let His Holy One see decay. Peter argued in Acts 2:25 to 31 that David was speaking of the Christ, since David himself did see decay, and Paul argued the same in Acts 13:35 to 37. It is a leading text for the rising the creed describes."
+      },
+      {
+        "ref": "Luke 24:33-35",
+        "note": "The two travellers from Emmaus return and are told, 'The Lord has indeed risen and has appeared to Simon!' This is the earliest hint in the Gospels of what verse 5 records, that Cephas was the first of the men to see Him, and it shows the message was spreading before any of the Gospels was written."
+      },
+      {
+        "ref": "1 Corinthians 9:1",
+        "note": "'Have I not seen Jesus our Lord?' Paul's earlier letter claims the apostolic mark in the same words he uses here. It shows he counted his meeting with Christ as a true seeing, in the same line as the others."
+      },
+      {
+        "ref": "Acts 1:21-22",
+        "note": "When the eleven chose a replacement for Judas, the requirement was someone who could be 'a witness with us of His resurrection.' Being a witness of the risen Christ is the defining mark of an apostle, which is why Paul in verses 8 and 9 both claims and protests his place."
+      },
+      {
+        "ref": "Galatians 1:18-19",
+        "note": "Paul went up to Jerusalem 'to confer with Cephas,' and stayed fifteen days, and saw James. These are two of the witnesses of verses 5 and 7, so his statement that he had spoken with the leaders is not rhetoric but part of his own story."
+      }
     ],
-    "oneStory": "These few lines are the hinge of the whole Bible. The Scriptures had long promised a Christ who would suffer for sins and be vindicated, and here that promise lands in history: Jesus died, was buried, was raised, and was seen. From this center the story runs out to the nations through eyewitnesses, one of them a former enemy remade by grace, and it runs forward to the day when all who belong to Christ will share His resurrection. The gospel received is the gospel that saves.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "The whole Bible answers a question that Genesis 3 opened: what happens to a world under the curse of sin and death? The sentence given there was, 'to dust you shall return,' Genesis 3:19, and the rest of the Old Testament story is crowded with graves. Abraham buried Sarah, Jacob was embalmed in Egypt, and even the best of kings went down to the grave. Yet through the story run threads of hope, such as the promise that the seed of the woman would crush the serpent, Genesis 3:15, Job's cry, 'I know that my Redeemer lives,' Job 19:25, and the vision of dry bones in Ezekiel 37 brought back to life.\n\nThis paragraph is where those threads are pulled together. The gospel is the announcement that the promised seed has come, died the death that sin deserved, and been raised in the middle of history. In creation, God made a good world. In the fall, sin and death entered. In redemption, Christ dies for sins and is raised. In new creation, the harvest will follow. Paul will build exactly that line in the verses after this paragraph, with Christ as the 'firstfruits,' verse 20.\n\nThe paragraph also records the beginning of the church's mission. A handful of men and women, and a crowd of five hundred, saw the risen Lord, and that was the seed of the preaching that went to the nations. Jesus had promised that repentance and forgiveness would be preached in His name to all nations, beginning from Jerusalem, Luke 24:47. Paul is now writing to Gentiles in Greece because that mission has reached them, and he is himself the persecutor whom grace turned into its most travelled messenger.\n\nLooking forward, what is true in this paragraph is not the end. The appearances closed with Paul, but the story moves on to a day when Christ will appear again. Hebrews 9:28 says He will appear a second time, not to bear sin but to bring salvation to those who wait for Him. The first appearances give the church her confidence, and the last will give her her inheritance.\n\nIn the new creation the sign of death is gone and the creed is complete. The tree of life is back, Revelation 22:2, 'no more death or mourning or crying or pain,' Revelation 21:4, and the One who died and rose stands at the centre, 'the Lamb who was slain,' Revelation 5:12. The four clauses of verses 3 to 5 are the hinge between a world in which graves have the last word and one in which they do not.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What does Paul call of first importance?",
       "options": [
-        { "text": "That Christ died for our sins, was buried, was raised on the third day, and appeared.", "weight": 100, "note": "This is the confession Paul received and passed on as the heart of the gospel." },
-        { "text": "That believers should stand firm and not quarrel.", "weight": 75, "note": "Standing firm matters, but the first importance is the gospel facts themselves." },
-        { "text": "That the Corinthians should give to the collection.", "weight": 25, "note": "That comes later in chapter sixteen, not here." },
-        { "text": "That spiritual gifts must be used in order.", "weight": 0, "note": "That was chapters twelve to fourteen; here the focus is the gospel." }
+        {
+          "text": "That Christ died for our sins, was buried, was raised on the third day, and appeared.",
+          "weight": 100,
+          "note": "This is the confession Paul received and passed on as the heart of the gospel."
+        },
+        {
+          "text": "That believers should stand firm and not quarrel.",
+          "weight": 75,
+          "note": "Standing firm matters, but the first importance is the gospel facts themselves."
+        },
+        {
+          "text": "That the Corinthians should give to the collection.",
+          "weight": 25,
+          "note": "That comes later in chapter sixteen, not here."
+        },
+        {
+          "text": "That spiritual gifts must be used in order.",
+          "weight": 0,
+          "note": "That was chapters twelve to fourteen; here the focus is the gospel."
+        }
       ]
     },
     {
       "q": "Why does Paul list so many eyewitnesses of the risen Christ?",
       "options": [
-        { "text": "To ground the resurrection in public, checkable testimony, including hundreds still living.", "weight": 100, "note": "The appearances make the resurrection a matter of history, not private feeling." },
-        { "text": "To show that Jesus favored some disciples over others.", "weight": 25, "note": "The list is about testimony, not favoritism." },
-        { "text": "To show the appearances were to many people, not to Paul alone.", "weight": 75, "note": "True and important, though Paul's deeper aim is public, checkable testimony that grounds the resurrection in history." },
-        { "text": "To suggest the resurrection was only a vision in their minds.", "weight": 0, "note": "Paul presents real appearances to real people, the opposite of a mere vision." }
+        {
+          "text": "To ground the resurrection in public, checkable testimony, including hundreds still living.",
+          "weight": 100,
+          "note": "The appearances make the resurrection a matter of history, not private feeling."
+        },
+        {
+          "text": "To show that Jesus favored some disciples over others.",
+          "weight": 25,
+          "note": "The list is about testimony, not favoritism."
+        },
+        {
+          "text": "To show the appearances were to many people, not to Paul alone.",
+          "weight": 75,
+          "note": "True and important, though Paul's deeper aim is public, checkable testimony that grounds the resurrection in history."
+        },
+        {
+          "text": "To suggest the resurrection was only a vision in their minds.",
+          "weight": 0,
+          "note": "Paul presents real appearances to real people, the opposite of a mere vision."
+        }
       ]
     },
     {
       "q": "What does the phrase according to the Scriptures tell us about the gospel?",
       "options": [
-        { "text": "The death and resurrection of Christ fulfill God's promises in the Old Testament.", "weight": 100, "note": "The gospel is the fulfillment of Scripture, not a novelty." },
-        { "text": "The gospel replaces and cancels the Old Testament.", "weight": 25, "note": "Paul says it fulfills the Scriptures, not that it cancels them." },
-        { "text": "Paul was quoting a single verse only.", "weight": 75, "note": "He may have texts in view, but the phrase points to the whole scriptural pattern." },
-        { "text": "The events had no connection to earlier Scripture.", "weight": 0, "note": "The whole point is that they happened according to the Scriptures." }
+        {
+          "text": "The death and resurrection of Christ fulfill God's promises in the Old Testament.",
+          "weight": 100,
+          "note": "The gospel is the fulfillment of Scripture, not a novelty."
+        },
+        {
+          "text": "The gospel replaces and cancels the Old Testament.",
+          "weight": 25,
+          "note": "Paul says it fulfills the Scriptures, not that it cancels them."
+        },
+        {
+          "text": "Paul was quoting a single verse only.",
+          "weight": 75,
+          "note": "He may have texts in view, but the phrase points to the whole scriptural pattern."
+        },
+        {
+          "text": "The events had no connection to earlier Scripture.",
+          "weight": 0,
+          "note": "The whole point is that they happened according to the Scriptures."
+        }
       ]
     },
     {
       "q": "How does Paul explain his becoming an apostle?",
       "options": [
-        { "text": "By the grace of God, though he had persecuted the church.", "weight": 100, "note": "Grace made the persecutor an apostle and empowered his labor." },
-        { "text": "By his hard work, which earned him the role.", "weight": 75, "note": "He did work hard, but he insists it was not he but the grace of God with him." },
-        { "text": "By his natural gifts and training.", "weight": 25, "note": "Paul credits grace, not his own qualifications." },
-        { "text": "By being the most worthy of the apostles.", "weight": 0, "note": "He calls himself the least, unworthy to be called an apostle." }
+        {
+          "text": "By the grace of God, though he had persecuted the church.",
+          "weight": 100,
+          "note": "Grace made the persecutor an apostle and empowered his labor."
+        },
+        {
+          "text": "By his hard work, which earned him the role.",
+          "weight": 75,
+          "note": "He did work hard, but he insists it was not he but the grace of God with him."
+        },
+        {
+          "text": "By his natural gifts and training.",
+          "weight": 25,
+          "note": "Paul credits grace, not his own qualifications."
+        },
+        {
+          "text": "By being the most worthy of the apostles.",
+          "weight": 0,
+          "note": "He calls himself the least, unworthy to be called an apostle."
+        }
       ]
     },
     {
       "q": "What does Paul say saves the Corinthians?",
       "options": [
-        { "text": "The gospel they received, if they hold firmly to it.", "weight": 100, "note": "By this gospel you are saved, if you hold firmly to the word." },
-        { "text": "Their loyalty to Paul as their teacher.", "weight": 25, "note": "Paul points them to the gospel, not to himself." },
-        { "text": "Their initial belief, whether or not they continue in it.", "weight": 75, "note": "Close: they did believe, but Paul stresses holding firmly, otherwise you believed in vain." },
-        { "text": "Nothing can be known for sure about salvation.", "weight": 0, "note": "Paul speaks with confidence about the saving gospel." }
+        {
+          "text": "The gospel they received, if they hold firmly to it.",
+          "weight": 100,
+          "note": "By this gospel you are saved, if you hold firmly to the word."
+        },
+        {
+          "text": "Their loyalty to Paul as their teacher.",
+          "weight": 25,
+          "note": "Paul points them to the gospel, not to himself."
+        },
+        {
+          "text": "Their initial belief, whether or not they continue in it.",
+          "weight": 75,
+          "note": "Close: they did believe, but Paul stresses holding firmly, otherwise you believed in vain."
+        },
+        {
+          "text": "Nothing can be known for sure about salvation.",
+          "weight": 0,
+          "note": "Paul speaks with confidence about the saving gospel."
+        }
       ]
     }
   ],
@@ -155,9 +378,21 @@
     "Paul worked harder than all, yet said it was not he but the grace of God. How can you labor wholeheartedly while giving God all the credit?"
   ],
   "translationNotes": [
-    { "ref": "1 Corinthians 15:3-4", "note": "The phrase according to the Scriptures appears twice, once for the death for our sins and once for the raising on the third day, framing both events as the fulfillment of God's promise in the Old Testament." },
-    { "ref": "1 Corinthians 15:4", "note": "He was raised renders a Greek passive, often called the divine passive, pointing to God the Father as the one who raised the Son, a public act of vindication." },
-    { "ref": "1 Corinthians 15:8", "note": "One of untimely birth translates a vivid word for an abnormal or violent birth, Paul's humble image for his sudden, unexpected calling as the last to see the risen Christ." }
+    {
+      "ref": "1 Corinthians 15:3-4",
+      "note": "The phrase according to the Scriptures appears twice, once for the death for our sins and once for the raising on the third day, framing both events as the fulfillment of God's promise in the Old Testament."
+    },
+    {
+      "ref": "1 Corinthians 15:4",
+      "note": "He was raised renders a Greek passive, often called the divine passive, pointing to God the Father as the one who raised the Son, a public act of vindication."
+    },
+    {
+      "ref": "1 Corinthians 15:8",
+      "note": "One of untimely birth translates a vivid word for an abnormal or violent birth, Paul's humble image for his sudden, unexpected calling as the last to see the risen Christ."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for 1 Corinthians 15:1-11. wording is unchanged." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for 1 Corinthians 15:1-11. wording is unchanged."
+  }
 }
