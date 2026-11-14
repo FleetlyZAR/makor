@@ -18,9 +18,21 @@
         "note": "no divisions, but united in mind",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 10, "text": "I appeal to you, brothers, in the name of our Lord Jesus Christ, that all of you agree together, so that there may be no {{schisma|divisions}} among you and that you may be united in mind and conviction." },
-          { "chapter": 1, "n": 11, "text": "My brothers, some from Chloe’s household have informed me that there are {{eris|quarrels}} among you." },
-          { "chapter": 1, "n": 12, "text": "What I mean is this: Individuals among you are saying, “I follow Paul,” “I follow Apollos,” “I follow Cephas,” or “I follow Christ.”" }
+          {
+            "chapter": 1,
+            "n": 10,
+            "text": "I appeal to you, brothers, in the name of our Lord Jesus Christ, that all of you agree together, so that there may be no {{schisma|divisions}} among you and that you may be united in mind and conviction."
+          },
+          {
+            "chapter": 1,
+            "n": 11,
+            "text": "My brothers, some from Chloe’s household have informed me that there are {{eris|quarrels}} among you."
+          },
+          {
+            "chapter": 1,
+            "n": 12,
+            "text": "What I mean is this: Individuals among you are saying, “I follow Paul,” “I follow Apollos,” “I follow Cephas,” or “I follow Christ.”"
+          }
         ]
       },
       {
@@ -28,10 +40,26 @@
         "note": "Christ is not divided",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 13, "text": "Is Christ divided? Was Paul crucified for you? Were you {{baptizo|baptized}} into the name of Paul?" },
-          { "chapter": 1, "n": 14, "text": "I thank God that I did not baptize any of you except Crispus and Gaius," },
-          { "chapter": 1, "n": 15, "text": "so no one can say that you were baptized into my name." },
-          { "chapter": 1, "n": 16, "text": "Yes, I also baptized the household of Stephanas; beyond that I do not remember if I baptized anyone else." }
+          {
+            "chapter": 1,
+            "n": 13,
+            "text": "Is Christ divided? Was Paul crucified for you? Were you {{baptizo|baptized}} into the name of Paul?"
+          },
+          {
+            "chapter": 1,
+            "n": 14,
+            "text": "I thank God that I did not baptize any of you except Crispus and Gaius,"
+          },
+          {
+            "chapter": 1,
+            "n": 15,
+            "text": "so no one can say that you were baptized into my name."
+          },
+          {
+            "chapter": 1,
+            "n": 16,
+            "text": "Yes, I also baptized the household of Stephanas; beyond that I do not remember if I baptized anyone else."
+          }
         ]
       },
       {
@@ -39,17 +67,46 @@
         "note": "lest the cross be emptied of its power",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 17, "text": "For Christ did not send me to baptize, but to {{euangelizo|preach the gospel}}, not with words of wisdom, lest the {{stauros|cross}} of Christ be emptied of its power." }
+          {
+            "chapter": 1,
+            "n": 17,
+            "text": "For Christ did not send me to baptize, but to {{euangelizo|preach the gospel}}, not with words of wisdom, lest the {{stauros|cross}} of Christ be emptied of its power."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "schisma": { "language": "Greek", "lemma": "schisma", "original": "σχίσμα", "gloss": "A tear, a split, a division, the word used for a rip in a garment. Applied to the church it pictures the body of Christ being torn along seams of human loyalty. Paul appeals that there be no such rifts, but that the church be knit together in the same mind and judgment." },
-    "eris": { "language": "Greek", "lemma": "eris", "original": "ἔρις", "gloss": "Strife, quarreling, contention, rivalry. Reported by Chloe's household, it is the visible symptom of the deeper schism. Paul lists eris elsewhere among the works of the flesh, marking the Corinthian quarrels not as harmless preference but as spiritually serious." },
-    "baptizo": { "language": "Greek", "lemma": "baptizo", "original": "βαπτίζω", "gloss": "To baptize, to immerse, to identify a person publicly with the one into whose name they are baptized. Paul's point is that no one was baptized into his name; baptism unites believers to Christ, not to a favorite teacher, which is why forming parties around leaders contradicts the very meaning of the rite." },
-    "euangelizo": { "language": "Greek", "lemma": "euangelizo", "original": "εὐαγγελίζω", "gloss": "To announce good news, to preach the gospel. Paul defines his commission by this word: Christ sent him not chiefly to baptize but to proclaim the good news of the cross. The content and power lie in the message itself, not in the eloquence of the messenger." },
-    "stauros": { "language": "Greek", "lemma": "stauros", "original": "σταυρός", "gloss": "The cross, the Roman instrument of execution, and by extension the saving death of Christ upon it. The cross is the true center that the party spirit obscures. Paul refuses fine rhetoric precisely so that the cross is not emptied of its power, for its power lies in what Christ did, not in how skillfully it is described." }
+    "schisma": {
+      "language": "Greek",
+      "lemma": "schisma",
+      "original": "σχίσμα",
+      "gloss": "A tear, a split, a division, the word used for a rip in a garment. Applied to the church it pictures the body of Christ being torn along seams of human loyalty. Paul appeals that there be no such rifts, but that the church be knit together in the same mind and judgment."
+    },
+    "eris": {
+      "language": "Greek",
+      "lemma": "eris",
+      "original": "ἔρις",
+      "gloss": "Strife, quarreling, contention, rivalry. Reported by Chloe's household, it is the visible symptom of the deeper schism. Paul lists eris elsewhere among the works of the flesh, marking the Corinthian quarrels not as harmless preference but as spiritually serious."
+    },
+    "baptizo": {
+      "language": "Greek",
+      "lemma": "baptizo",
+      "original": "βαπτίζω",
+      "gloss": "To baptize, to immerse, to identify a person publicly with the one into whose name they are baptized. Paul's point is that no one was baptized into his name; baptism unites believers to Christ, not to a favorite teacher, which is why forming parties around leaders contradicts the very meaning of the rite."
+    },
+    "euangelizo": {
+      "language": "Greek",
+      "lemma": "euangelizo",
+      "original": "εὐαγγελίζω",
+      "gloss": "To announce good news, to preach the gospel. Paul defines his commission by this word: Christ sent him not chiefly to baptize but to proclaim the good news of the cross. The content and power lie in the message itself, not in the eloquence of the messenger."
+    },
+    "stauros": {
+      "language": "Greek",
+      "lemma": "stauros",
+      "original": "σταυρός",
+      "gloss": "The cross, the Roman instrument of execution, and by extension the saving death of Christ upon it. The cross is the true center that the party spirit obscures. Paul refuses fine rhetoric precisely so that the cross is not emptied of its power, for its power lies in what Christ did, not in how skillfully it is described."
+    }
   },
   "study": {
     "basic": {
@@ -63,81 +120,243 @@
       "oneStory": "God is gathering one people around one crucified Lord. The Corinthian parties tear at that unity, but the cross that saves them is also the center that unites them. The whole story runs toward one redeemed people belonging to Christ, not a crowd fragmented behind human names."
     },
     "context": {
-      "literary": "Verse 10 states the thesis of the whole first section of the letter: no divisions, but unity of mind. Verses 11 and 12 give the report and the slogans; verse 13 fires three rhetorical questions expecting the answer no; verses 14 to 16 give the baptism aside; and verse 17 pivots to the cross and eloquence, launching the great argument of 1:18 to 2:16.",
-      "historical": "Corinth prized rhetoric and celebrity teachers; students commonly attached themselves to a famous orator. The church had imported this culture, ranking Paul, Apollos, and Cephas as rival sophists. Chloe was evidently a believer whose household members carried news to Paul, likely in Ephesus.",
-      "canonical": "The passage stands with the New Testament's repeated calls to unity in Christ and its warnings against dividing the body over personalities. It sets up Paul's sustained contrast between worldly wisdom and the wisdom of the cross that fills the rest of chapters 1 and 2."
+      "literary": "First Corinthians 1:10 opens the body of the letter with the verb Paul uses when he moves from thanks to business, 'I appeal to you,' and the appeal is made 'in the name of our Lord Jesus Christ.' That is a deliberate choice. The name in which the Corinthians were baptized, and the name that the factions are dishonouring, is the name Paul invokes to end the quarrel. The sentence that follows is a triple request, built on the pattern of agreement, no divisions, and being joined in mind and conviction, and it runs from outward speech to inward thought.\n\nThe passage then moves in a clear sequence. Verses 10 to 12 report the problem and quote the slogans. Verse 13 is a rapid run of three questions, each expecting the answer no, and each reaching deeper, from the Lord's unity to the price paid to the owner of the baptized. The first denies that the Lord can be split, the second denies that any teacher died for them, and the third denies that any teacher owns them. Verses 14 to 16 are a short and almost comic aside in which Paul counts the people he baptized, and then catches himself with 'beyond that I do not remember.' Verse 17 states the thesis that the aside was building toward: Christ sent him to preach the gospel, and not with eloquent wisdom, lest the cross be emptied of its power.\n\nThe last clause of verse 17 is the hinge for the next section. 'Words of wisdom' and 'the cross' are the two poles around which verses 18 to 31 turn. The party slogans in verse 12 are therefore not the whole of the problem. They are a symptom of a church that treats the gospel as one more philosophy, and rival teachers as rival schools.\n\nThe structure also hides a rhetorical irony. A church that admired eloquence is addressed with a short, plain sequence of questions that need no skill to follow. Paul argues in the very style he says the cross requires, directness without ornament.",
+      "historical": "In the Greek and Roman world, an ambitious person attached himself to a teacher, and teachers gathered pupils and rivals. Philosophers and orators competed for students, and loyalty to a master could carry social weight. The Corinthians' slogans sound like the language of those schools. The Greek of verse 12, which the BSB renders 'I follow Paul,' is literally a statement of belonging, something like 'I am of Paul,' with a genitive that marks ownership. It is the same grammar as the question in verse 13 about being baptized 'into the name of Paul,' and Paul answers the slogan on its own terms: only one person owns them.\n\nThe leaders named were real and each had a link to the city. Paul planted the church, Acts 18:1 to 11. Apollos, 'an eloquent man, well versed in the Scriptures,' came from Alexandria and taught in Corinth after Paul left, Acts 18:24 to 19:1. He would have appealed to those who valued polished speech. Cephas is Peter, as the BSB footnote says, and we have no record that he visited Corinth, though his name carried weight among Jewish believers, and Paul mentions his travelling with a wife in 9:5. The mention may reflect contact with Jewish Christians who admired him.\n\nThe report came from 'Chloe's household,' verse 11. Chloe is otherwise unknown, and the phrase may refer to slaves or dependents of hers who had travelled to Ephesus on business. Paul names the source openly, so that the Corinthians cannot dismiss his information as gossip.\n\nBaptism in that world could carry the sense of a patron's mark. Paul counts those he baptized with some care: Crispus, who had been the synagogue leader, Acts 18:8, Gaius, the host of the church, Romans 16:23, and the household of Stephanas, 16:15, who were the first converts in Achaia. These were people of standing, and the fact that Paul can list them from memory suggests his baptizing was rare. The important point is that many cities in the Roman world had clubs and associations centred on a patron, and a church in which people took a name could easily resemble one.",
+      "canonical": "The problem of factions around a leader has a long history in Scripture. Israel's judges and kings repeatedly divided the people into camps. The division of the kingdom under Rehoboam and Jeroboam, 1 Kings 12, left Israel and Judah as two nations, and the prophets longed for the day they would be one, Ezekiel 37:22. Paul's concern for the unity of the church stands in that line. The flock has one Shepherd, John 10:16, and prayer for that unity is at the heart of John 17:20 to 23.\n\nIn the New Testament, Paul's appeal here is picked up across his letters. Ephesians 4:3 to 6 asks believers to keep the unity of the Spirit, because there is one body, one Spirit, one Lord, one faith and one baptism. Philippians 2:1 to 4 uses language close to verse 10, calling the church to be of one mind. The idea that the church is formed by a single crucifixion also recurs, Ephesians 2:14 to 16, where Christ breaks down the wall of hostility and makes the two groups one in His body through the cross.\n\nWithin First Corinthians itself the passage is only the first move. Chapter 3 returns to the slogans and says that Paul and Apollos are servants, one planting and one watering, while God gives the growth. Chapter 11 deals with divisions at the Lord's Supper, and Paul uses the same word there, schismata, 11:18. Chapter 12 develops the body with many members. The first three chapters thus announce a theme that the entire letter works out.\n\nThe cross and eloquence contrast of verse 17 looks forward to 2:1 to 5, where Paul says that he came 'not with eloquence or wisdom' and resolved to know only Christ and Him crucified, so that faith would rest on God's power. The warning against loyalty to men also resembles Jesus' words in Matthew 23:8 to 10: you have one Teacher and one Father, and you are all brothers."
     },
     "hermeneutics": {
-      "authorIntent": "To end the party spirit by exposing its folly and refocusing the church on the crucified Christ, and to insist that Paul's ministry, and all Christian ministry, points away from the messenger to the cross, whose power does not depend on human eloquence.",
-      "descriptionVsPrescription": "The report of quarrels is description; the appeal for unity and the priority of the cross over eloquence are prescriptive and enduring. Paul's own practice of baptizing few is not a rule against baptism but an illustration that his calling centered on preaching the cross.",
+      "authorIntent": "Paul's aim is to end the party spirit, and his method is to show the Corinthians what they are really doing. He does not argue about which teacher is better, and he does not take sides. He removes the ground under all the sides. By asking whether Christ is divided, he asks them to imagine the absurdity of tearing apart the one they all say they belong to. By asking whether Paul was crucified for them, he reminds them that no leader did what Christ did. By asking whether they were baptized in Paul's name, he reminds them that the name that owns them is Christ's.\n\nHe also wants to protect his own ministry from being used as a banner. His aside about baptizing few is no defensive manoeuvre. It shows that he never meant to gather a following, and he is willing to appear forgetful so that he can say the point more plainly. In writing this way he teaches the church how to treat its leaders: with gratitude, and without allegiance.\n\nThe deepest purpose is to prepare for the next section. The factions grow out of a wrong estimate of wisdom. If the church thinks the gospel is a system to be admired for its brilliance, it will choose teachers the way people choose philosophers. The cross is the corrective, because it cannot be dressed up. The first hearers were meant to leave verse 17 uneasy about their own admiration of cleverness.",
+      "descriptionVsPrescription": "The quotation of the slogans, the report of Chloe's household and the list of those Paul baptized are description. They record what happened in a particular church. The appeal to agree, to be united, and to remember that the cross is not to be emptied is prescription, and it applies in every generation.\n\nTwo cautions help with application. The first concerns verse 10, 'that all of you agree together.' This does not ask for uniformity of opinion on every matter. In Romans 14 and 15 Paul allows disagreement over food and days. The agreement asked for here is unity around the apostolic message, and the quarrels that bother him are those which set believers against one another because of whom they follow. The second concerns baptism. Paul's statement that Christ did not send him to baptize is a statement about his own calling and does not set aside the command of Matthew 28:19 or the practice of the apostolic churches. Verse 16 shows that he did baptize, and that he does not regard the practice as unimportant, only that he is not making it the centre of his work.",
       "debates": [
         {
           "question": "What is wrong with the group that says I follow Christ?",
           "views": [
-            { "label": "A rival party using Christ as a slogan", "case": "Listed alongside the other factions, this group had turned even the name of Christ into a badge of superiority over other believers, making Christ the mascot of one clique rather than the Lord of all." },
-            { "label": "Paul's own corrective answer misquoted as a faction", "case": "Some read it as the right rallying cry that the Corinthians had wrongly reduced to just another party line, since belonging to Christ is exactly what verse 13 defends." }
+            {
+              "label": "A rival party using Christ as a slogan",
+              "case": "Listed alongside the other factions, this group had turned even the name of Christ into a badge of superiority over other believers, making Christ the mascot of one clique rather than the Lord of all."
+            },
+            {
+              "label": "Paul's own corrective answer misquoted as a faction",
+              "case": "Some read it as the right rallying cry that the Corinthians had wrongly reduced to just another party line, since belonging to Christ is exactly what verse 13 defends."
+            }
           ],
-          "bearing": "Either way, the point stands: Christ cannot be claimed by a faction to divide the church, for the whole church belongs to the one undivided Christ." },
+          "bearing": "Either way, the point stands: Christ cannot be claimed by a faction to divide the church, for the whole church belongs to the one undivided Christ."
+        },
         {
           "question": "Does verse 17 downplay baptism?",
           "views": [
-            { "label": "A matter of emphasis, not value", "case": "Paul affirms baptism throughout his letters; here he simply stresses that his primary commission was to preach the gospel, and that the Corinthians' fixation on who baptized them was fueling their factions." },
-            { "label": "A caution against tying baptism to a leader's prestige", "case": "By thanking God he baptized so few, Paul removes any basis for a personality cult, showing that the rite unites people to Christ, not to the one who performed it." }
+            {
+              "label": "A matter of emphasis, not value",
+              "case": "Paul affirms baptism throughout his letters; here he simply stresses that his primary commission was to preach the gospel, and that the Corinthians' fixation on who baptized them was fueling their factions."
+            },
+            {
+              "label": "A caution against tying baptism to a leader's prestige",
+              "case": "By thanking God he baptized so few, Paul removes any basis for a personality cult, showing that the rite unites people to Christ, not to the one who performed it."
+            }
           ],
-          "bearing": "The verse elevates the cross without diminishing baptism; it corrects a distortion that made baptism a party marker rather than union with Christ." }
+          "bearing": "The verse elevates the cross without diminishing baptism; it corrects a distortion that made baptism a party marker rather than union with Christ."
+        },
+        {
+          "question": "Were the Corinthian parties real theological camps or social loyalties?",
+          "views": [
+            {
+              "label": "Theological camps",
+              "case": "Some have seen distinct teachings behind each name: Paul as the champion of freedom from the law, Peter as the representative of Jewish tradition, Apollos as a more philosophical teacher. The later chapters on wisdom, the resurrection and spiritual gifts are read as attacks on the specific errors of these groups."
+            },
+            {
+              "label": "Personal and social loyalties",
+              "case": "Others note that Paul never answers a distinct doctrinal position from any of the four names. In chapter 3 he says that he and Apollos are on the same side, and the problem he names is boasting in men, 3:21. On this view the factions arose from admiration of style and status, as pupils of rival teachers might compare their masters."
+            }
+          ],
+          "bearing": "The text itself supports the second view more directly, since Paul addresses boasting and not doctrine in these verses. The first view can still be right about some of the later problems in the letter. In either case Paul's cure is the same, and it is to put the cross in the centre."
+        },
+        {
+          "question": "Does Paul's thanks that he baptized few mean he regretted baptizing?",
+          "views": [
+            {
+              "label": "A statement about his calling, not a regret",
+              "case": "Verse 17 says that Christ did not send him to baptize 'but to preach the gospel.' He is describing a division of labour in his own work, and others in his company probably baptized. He had no reason to regret what he had done. He is simply thankful that no one can tie their baptism to his name."
+            },
+            {
+              "label": "A sign that he treated baptism as secondary",
+              "case": "Some use the verse to say that baptism is a lesser rite, and that Paul's real concern was the word. The sharp phrasing 'not to baptize' is read as a statement of priority."
+            }
+          ],
+          "bearing": "Paul elsewhere speaks warmly of baptism as union with Christ, Romans 6:3 to 4 and Galatians 3:27, so the verse should be read as a statement about his commission and as a warning against making a minister the object of loyalty, and not as a statement that the rite is unimportant."
+        }
       ]
     },
-    "originalLanguages": "Paul pleads against schisma, a tear in the fabric of the church, and against the eris, strife, reported by Chloe's people. His three questions turn on baptizo: no one was baptized into Paul's name, for baptism unites to Christ alone. He redefines his calling with euangelizo, to preach the gospel, over against merely baptizing. And the whole argument rests on the stauros, the cross of Christ, which words of human wisdom must not empty of its power, since its power lies in the deed of Christ, not the skill of the speaker.",
+    "originalLanguages": "The vocabulary of unity and division in these verses has more texture than the English suggests. In verse 10 Paul asks that the Corinthians be 'united,' katertismenoi, a perfect passive participle from katartizo. The word was used of mending nets, as in Mark 1:19, where James and John are 'mending their nets,' and of setting a broken bone. The picture is of something torn being put back into working order. Paul does not ask for a new group but for the repair of the one that exists. The perfect tense describes a lasting condition, so the request is for a settled state of repair, not a single act of reconciliation.\n\nHe then names the two places where unity must be restored: 'in the same mind,' nous, and 'in the same judgment,' gnome. The first is the settled way of thinking, and the second is the particular conclusions drawn from it. Paul wants agreement in outlook and in the decisions that follow. The 'agree together' of the same verse is literally 'say the same thing,' a phrase from Greek political life used of factions at peace.\n\nThe word translated 'quarrels' in verse 11 is eris, and the list of works of the flesh in Galatians 5:20 includes it beside 'rivalries' and 'factions.' Paul treats it as a mark of the unspiritual, and in 3:3 he links it to 'jealousy.' The noun for 'divisions' in verse 10, schismata, is a tear in cloth, as in Mark 2:21, where a patch pulls away from the garment and makes the tear worse. In John 7:43 the same noun is used for the split among the crowd over Jesus. At this stage the schismata are splits within one fellowship that still meets together, and Paul will later speak of a different sort of division at the Lord's Supper, 11:18.\n\nThe slogans in verse 12 use a genitive of belonging, 'I am of Paul.' The grammar of ownership matters because it makes verse 13 an answer to each slogan. If a person belongs to Paul, then Paul must have bought him, and so Paul must have been crucified for him. The answer to such a claim is that the price was paid by another. The phrase 'baptized into the name,' eis to onoma, is a formula of transfer. Baptism into the name of Jesus, as in Matthew 28:19 and Acts 8:16, marks a person as belonging to Him, and Paul's question in verse 13 points to the wrong owner.\n\nThe verb in the last clause, kenothe, 'be emptied,' is from kenoo, 'to make empty.' It is the verb used of Christ in Philippians 2:7, 'emptied Himself,' and in Romans 4:14 for faith being made 'useless.' Paul's worry is that clever speech might drain the cross of its content, so that people are impressed by the preacher and unmoved by the Lord. The cross has real power, and the speaker may either carry or block it. Finally, 'words of wisdom,' sophia logou, can be read as 'wisdom of speech,' the polished rhetoric that Corinthian audiences enjoyed.",
     "typology": [
-      { "type": "Baptism into the name of Christ", "fulfillment": "Fulfills and surpasses the old covenant washings and initiations, marking the believer as belonging wholly to the Lord rather than to any human leader." },
-      { "type": "One crucified for the many", "fulfillment": "Paul's question, Was Paul crucified for you, points to Christ alone as the one who died on behalf of the people, fulfilling the sacrificial pattern of substitution." }
+      {
+        "type": "Baptized into Moses, 1 Corinthians 10:1-2",
+        "fulfillment": "Paul himself supplies the type. He says that Israel's forefathers 'were all baptized into Moses in the cloud and in the sea,' 1 Corinthians 10:2. Passing through the sea put the whole people under Moses' leadership and marked a new life of belonging. The correspondence is that a rescue event joined a people to a leader and to a name. The escalation in Christ is that believers are baptized into one whose death and resurrection are the rescue itself, and not into a human servant who stood beside it. Moses was faithful as a servant in God's house, Hebrews 3:5 to 6, while Christ is the Son over the house. The type falls short because Moses could lead a people out of Egypt but could not bring them through death."
+      },
+      {
+        "type": "The divided kingdom and one king, Ezekiel 37:15-22",
+        "fulfillment": "When the kingdom split in 1 Kings 12, Israel's people were divided under rival rulers. Ezekiel was told to join two sticks, one for Judah and one for Joseph, so that they became one in his hand, and God promised that one king would rule over all of them, Ezekiel 37:22. The Corinthian parties repeat the old problem of a people with many masters. The prophecy is fulfilled as Christ gathers Jew and Gentile into one body, Ephesians 2:14 to 16, and as the church is told it has one Lord, not four. The type is still unfolding, since the full gathering of the nations belongs to the end, Revelation 7:9."
+      },
+      {
+        "type": "One who died for the many, Isaiah 53 and the Passover",
+        "fulfillment": "Paul's question, 'Was Paul crucified for you?' assumes that someone was. In the Old Testament, the Passover lamb died so that the household might live, Exodus 12:13, and Isaiah's servant was 'pierced for our transgressions,' Isaiah 53:5. In 1 Corinthians 5:7 Paul calls Christ 'our Passover lamb.' The correspondence is substitution, where one life is given in place of others. The escalation is that the Lamb is also the Lord who owns those He bought, so the people are His in a way no teacher can claim. The type falls short in that animal sacrifices had to be repeated each year, while the death of Christ is once for all, Hebrews 10:10."
+      }
     ],
-    "christ": "Christ crucified is the heart of the passage and the antidote to division. Paul's three questions all converge on Him: Christ is not to be divided into party pieces; Christ, not Paul, was crucified for them; and it was into the name of Christ, not any leader, that they were baptized. Paul's whole commission is to preach the cross of Christ, and he guards that message from being emptied by clever speech, because its saving power resides in what Christ accomplished there.",
-    "god": "God stands behind Paul's ministry and the church's unity. Paul thanks God that he baptized so few, so that no faction could form around him, revealing God's concern that the church cling to Christ and not to men. The power that saves is God's power, carried in the plain word of the cross, so that human eloquence adds nothing and can only obscure it.",
+    "christ": "The three questions of verse 13 are a short Christology, and each one points to what Christ alone is. The first, 'Is Christ divided?' says that Christ is one. The Greek can be read as a question or as a flat statement, but in either case the force is the same. Christ is not a body to be shared out among the parties like an inheritance. The Corinthians are in Christ Jesus, 1:2 and 1:30, and when they pull in different directions the one in whom they live is being pulled with them. A few chapters on, Paul will say that the church is the body of Christ, 12:27, and that to wound it is to wound Him.\n\nThe second question, 'Was Paul crucified for you?', puts the cross at the centre of the argument. Paul does not say that he is unimportant. He says that the thing that makes anyone belong to God is a death, and that the death was not his. The cross is the title deed of the church. Acts 20:28 speaks of the church of God, 'which He purchased with His own blood,' and 1 Corinthians 6:20 says 'you were bought at a price.' Because He bought them they belong to Him alone, and no leader can make that claim.\n\nThe third question moves to baptism, and here Christ is the name that owns. To be baptized 'into the name' of someone is to pass into his possession. The right name is the name of the Lord Jesus, and so the baptized person leaves the old master and enters a new belonging. Romans 6:3 to 4 develops this, saying that those baptized into Christ Jesus were baptized into His death.\n\nVerse 17 gives the two ways Christ can be hidden or shown. If preachers rely on eloquent wisdom, the cross is emptied, and Christ is hidden behind the speaker. If the gospel is preached plainly, Christ is seen. The word of the cross in the next verses is not a theory about Him but the proclamation of what He did, and the fuller exposition of that, 'Christ crucified,' comes in 1:23 and 2:2.\n\nThere is also a quiet note of Christ as Lord of the church's names. The slogan 'I follow Christ' looks like the right answer, and it is the only one of the four that is true. Yet when it is used as one party's boast against the others, it divides the one it names. Paul's reply does not tell them to drop the name. It tells them that Christ is not one of the parties, and that He owns all of them together. Jesus Himself prayed that His people would be one, John 17:21, so that the world might believe, and the division at Corinth undoes in a small way what He prayed for.\n\nA caution: not every detail of the passage is a picture of Christ. Chloe's household and the list of baptized believers are not coded messages. The links to Christ are in the three questions and in the appeal that begins and ends with His name and His cross.",
+    "god": "The passage says less about God directly than the verses that follow, but it assumes a good deal. God is the one who calls the church into being and owns it. The church at Corinth is 'the church of God' in verse 2 of this chapter, and the appeal of verse 10 is made in the name of the Lord Jesus. The divisions are wrong for a reason that is theological before it is practical: they treat what belongs to God as if it belonged to men.\n\nPaul's thanks in verse 14, 'I thank God that I did not baptize any of you except Crispus and Gaius,' shows that he sees God's hand in the way events turned out. He does not claim that he planned his ministry to prevent a personality cult. He sees in the outcome a mercy. He also speaks with humility about his own memory in verse 16, and in doing so he suggests that the truth of the gospel never rested on the precision of his records. God uses a messenger who forgets.\n\nThe commission in verse 17, 'Christ did not send me to baptize, but to preach the gospel,' tells us that God assigns different tasks to different servants and does not need the same method from each. Paul plants and Apollos waters, 3:6, and neither is the source of life. It also tells us something about the way God works: He chooses plain means, a spoken message, and gives it power. The next verses will call the message of the cross 'the power of God.'\n\nThe warning that the cross can be emptied of its power does not mean that God's power is fragile. Paul does not say that eloquence can defeat God. He says that the power of the message is displayed when it is carried without rival supports, and that a preacher who depends on his own cleverness will obscure what God is doing. God's power is complete, and His chosen way of showing it is through what looks weak.\n\nHere we see a tension that the whole letter holds. God is sovereign over the church and gives it its life, and yet He entrusts it to human servants who can mishandle it. The Corinthians are responsible for their divisions, and God is the one to whom the church belongs. Paul's answer is not to weaken either point but to call the church back to its owner.\n\nFor worship, the passage teaches that praise belongs to God and not to the instruments He uses. We may thank God for faithful teachers without making them rivals. A congregation that learns to say that its pastors are servants and that God gives the growth has taken the first step toward the unity Paul asks for.",
     "crossReferences": [
-      { "ref": "1 Corinthians 3:4-9", "note": "Paul returns to the Paul and Apollos parties, calling the leaders mere servants through whom God gave the growth." },
-      { "ref": "Ephesians 4:1-6", "note": "A plea to keep the unity of the Spirit, one body, one Lord, one faith, one baptism, against all division." },
-      { "ref": "John 17:20-23", "note": "Jesus prays that His people may be one, so the world may believe, the unity the party spirit fractures." },
-      { "ref": "Galatians 1:10", "note": "Paul refuses to please men or dress up the gospel, matching his refusal of words of wisdom that would empty the cross." }
+      {
+        "ref": "1 Corinthians 3:4-9",
+        "note": "Paul returns to the slogans 'I follow Paul' and 'I follow Apollos' and says that they are mere servants through whom the Corinthians came to believe. One planted and the other watered, but God gave the growth. The later passage supplies the positive teaching that verse 12 of chapter 1 prepares for: teachers are fellow workers under one Master."
+      },
+      {
+        "ref": "Ephesians 4:1-6",
+        "note": "Believers are urged to keep the unity of the Spirit in the bond of peace, because there is one body, one Spirit, one Lord, one faith and one baptism. This is the positive form of Paul's appeal in 1 Corinthians 1:10, and the phrase 'one baptism' answers the Corinthian temptation to tie baptism to one's baptizer."
+      },
+      {
+        "ref": "John 17:20-23",
+        "note": "Jesus prays that all who believe through the apostles' word may be one, so that the world may know the Father sent Him. The prayer shows that unity is part of the mission and not only a matter of comfort. The factions in Corinth blur the very witness that Jesus asked for."
+      },
+      {
+        "ref": "Philippians 2:1-4",
+        "note": "Paul asks the Philippians to be of the same mind, with the same love, in one accord, and to look to one another's interests. The language closely matches 1 Corinthians 1:10. In both letters the cure for division is humility, and the pattern is set by Christ who emptied Himself."
+      },
+      {
+        "ref": "Romans 6:3-4",
+        "note": "Those who were baptized into Christ Jesus were baptized into His death and raised to walk in newness of life. The text explains what 'baptized into the name' means in 1 Corinthians 1:13. To enter His name is to be joined to His death, which is why no human leader can claim a share."
+      },
+      {
+        "ref": "Galatians 1:10",
+        "note": "Paul asks whether he is trying to win the approval of men or of God, and says that if he were still pleasing men he would not be a servant of Christ. The verse matches the spirit of 1 Corinthians 1:12 to 17, where Paul declines to collect followers and refuses to rely on persuasion that gains personal loyalty."
+      },
+      {
+        "ref": "Ezekiel 37:22",
+        "note": "God promises to make Israel one nation with one king, so that they will never again be divided into two kingdoms. The prophecy lies behind the Bible's concern for the church's unity and gives a long background to Paul's question 'Is Christ divided?' The one king of Ezekiel's vision is the one Lord of the church."
+      },
+      {
+        "ref": "Matthew 23:8-10",
+        "note": "Jesus tells His disciples not to be called 'Rabbi,' because they have one Teacher and are all brothers, and not to call anyone on earth 'father,' because they have one Father. The teaching anticipates the Corinthian problem. Honouring human teachers is fine, but giving them the loyalty owed to Christ turns a gift into a rival."
+      },
+      {
+        "ref": "1 Corinthians 2:1-5",
+        "note": "Paul recalls that he came to Corinth not with eloquence or human wisdom but resolved to know nothing among them except Jesus Christ and Him crucified, so that their faith would rest on God's power. This is the expansion of verse 17 and explains why he declined to build a following by rhetoric."
+      },
+      {
+        "ref": "1 Corinthians 11:17-22",
+        "note": "At the Lord's Supper Paul hears of divisions again, using the same noun, and the rich go ahead with their meals while the poor go hungry. The echo shows that the party spirit of chapter 1 was not an isolated matter but a habit that reached into worship."
+      },
+      {
+        "ref": "Acts 18:24-19:1",
+        "note": "Luke introduces Apollos, an eloquent Alexandrian who taught in Corinth after Paul had left. The account fills in the background of the second slogan in verse 12 and shows that Paul and Apollos worked as partners. It also explains why admirers of style might have gathered around him."
+      }
     ],
-    "oneStory": "God is forming one people around one crucified Lord. The Corinthian factions tear at that unity by exalting human teachers, but the very cross that saves them is the center meant to hold them together. Baptism binds them to Christ, not to a leader, and the message of the cross is the power of God. The story moves toward a single redeemed people who belong to Christ and to Christ alone.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "From the beginning the Bible's story is about one family gathered around one Lord, and about the enemy's attempts to break it apart. In Eden the first division was between God and the pair He had made, and the second was between the man and woman, as each blamed the other. At Babel the nations were scattered, Genesis 11:8 to 9. After Solomon the kingdom split, 1 Kings 12. The Old Testament ends with a divided people longing for a shepherd who would gather them, and Ezekiel promised one king over one flock.\n\nThe cross is where the story turns toward gathering. Christ died, as John 11:52 says, 'the scattered children of God, to gather them together into one,' and Ephesians 2:14 to 16 says that He made the two groups one by breaking down the wall of hostility. The Corinthian factions sit awkwardly in that story, since they take the very people the cross has joined and divide them by loyalty to messengers. Paul's response is to bring them back to the event in which they were joined.\n\nThe passage also sets up what comes next in the letter. The questions of verse 13 lead into the word of the cross in verses 18 to 25, and the whole first section of the letter argues that the gospel's power does not come from human wisdom. The theme of the one body then recurs in chapter 12, where the many members belong to one Lord, and in chapter 15, where the same Christ who was crucified is raised.\n\nThe same pull between unity and division runs through the church's history, and the pattern that Paul describes is one that later generations recognise. People attach themselves to teachers, movements and styles, and the name of Christ is made to serve as a banner. The passage speaks to every such moment.\n\nThe story ends in a gathered people. In Revelation 7:9 a great multitude from every nation, tribe, people and language stands before the throne, with no sign of the divisions that mark the present age. The unity Paul asks of the Corinthians is a foretaste of that gathering. In the new creation no one will say 'I follow Paul' or 'I follow Apollos.' The one who was crucified will be seen as He is, and the whole company will give Him the praise that the divided church struggles to give now.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What was the root problem Paul confronts in this passage?",
       "options": [
-        { "text": "The church had split into parties rallying around human leaders.", "weight": 100, "note": "They were saying I follow Paul, Apollos, Cephas, or Christ, tearing the church into factions." },
-        { "text": "The church had stopped baptizing new believers.", "weight": 75, "note": "Baptism comes up, but the real issue is division over leaders, not a lack of baptism." },
-        { "text": "The church had abandoned the gospel entirely.", "weight": 25, "note": "They still held the gospel, but were fracturing over personalities around it." },
-        { "text": "The church was persecuting Paul personally.", "weight": 0, "note": "The problem is internal division among the Corinthians, not persecution of Paul." }
+        {
+          "text": "The church had split into parties rallying around human leaders.",
+          "weight": 100,
+          "note": "They were saying I follow Paul, Apollos, Cephas, or Christ, tearing the church into factions."
+        },
+        {
+          "text": "The church had stopped baptizing new believers.",
+          "weight": 75,
+          "note": "Baptism comes up, but the real issue is division over leaders, not a lack of baptism."
+        },
+        {
+          "text": "The church had abandoned the gospel entirely.",
+          "weight": 25,
+          "note": "They still held the gospel, but were fracturing over personalities around it."
+        },
+        {
+          "text": "The church was persecuting Paul personally.",
+          "weight": 0,
+          "note": "The problem is internal division among the Corinthians, not persecution of Paul."
+        }
       ]
     },
     {
       "q": "What is the point of Paul's three questions in verse 13?",
       "options": [
-        { "text": "To show that Christ alone was crucified for them and that they were baptized into His name, not a leader's.", "weight": 100, "note": "The questions expect the answer no and drive all loyalty back to Christ." },
-        { "text": "To prove that Paul was the most important of the teachers.", "weight": 75, "note": "The opposite; Paul deliberately removes himself as an object of loyalty." },
-        { "text": "To suggest that baptism does not matter at all.", "weight": 25, "note": "Baptism matters; his point is that it unites to Christ, not to the baptizer." },
-        { "text": "To encourage each group to defend its own favorite leader.", "weight": 0, "note": "He is dismantling the parties, not endorsing them." }
+        {
+          "text": "To show that Christ alone was crucified for them and that they were baptized into His name, not a leader's.",
+          "weight": 100,
+          "note": "The questions expect the answer no and drive all loyalty back to Christ."
+        },
+        {
+          "text": "To prove that Paul was the most important of the teachers.",
+          "weight": 75,
+          "note": "The opposite; Paul deliberately removes himself as an object of loyalty."
+        },
+        {
+          "text": "To suggest that baptism does not matter at all.",
+          "weight": 25,
+          "note": "Baptism matters; his point is that it unites to Christ, not to the baptizer."
+        },
+        {
+          "text": "To encourage each group to defend its own favorite leader.",
+          "weight": 0,
+          "note": "He is dismantling the parties, not endorsing them."
+        }
       ]
     },
     {
       "q": "Why does Paul say he preaches not with words of wisdom?",
       "options": [
-        { "text": "So that the cross of Christ is not emptied of its power.", "weight": 100, "note": "Verse 17 grounds the point: the cross's power must not be obscured by eloquence." },
-        { "text": "Because he was incapable of speaking eloquently.", "weight": 75, "note": "It is a deliberate choice to protect the message, not an inability." },
-        { "text": "Because words and preaching are unimportant.", "weight": 25, "note": "He is sent to preach; the point is the content and power of the cross, not silence." },
-        { "text": "Because the gospel is too simple to require any explanation.", "weight": 0, "note": "The issue is misplaced trust in rhetoric, not the simplicity of the message." }
+        {
+          "text": "So that the cross of Christ is not emptied of its power.",
+          "weight": 100,
+          "note": "Verse 17 grounds the point: the cross's power must not be obscured by eloquence."
+        },
+        {
+          "text": "Because he was incapable of speaking eloquently.",
+          "weight": 75,
+          "note": "It is a deliberate choice to protect the message, not an inability."
+        },
+        {
+          "text": "Because words and preaching are unimportant.",
+          "weight": 25,
+          "note": "He is sent to preach; the point is the content and power of the cross, not silence."
+        },
+        {
+          "text": "Because the gospel is too simple to require any explanation.",
+          "weight": 0,
+          "note": "The issue is misplaced trust in rhetoric, not the simplicity of the message."
+        }
       ]
     },
     {
       "q": "Why does Paul thank God that he baptized so few of the Corinthians?",
       "options": [
-        { "text": "So that no one could form a party claiming to be baptized into his name.", "weight": 100, "note": "Verses 14 to 15 remove any basis for a personality cult around Paul." },
-        { "text": "Because baptism is unnecessary for believers.", "weight": 75, "note": "Paul values baptism; he is guarding against factions, not dismissing the rite." },
-        { "text": "Because he preferred others to do the harder work.", "weight": 25, "note": "His reason is theological, protecting unity, not a matter of preference or labor." },
-        { "text": "Because those he baptized had fallen away.", "weight": 0, "note": "Nothing suggests that; the point is preventing division around his name." }
+        {
+          "text": "So that no one could form a party claiming to be baptized into his name.",
+          "weight": 100,
+          "note": "Verses 14 to 15 remove any basis for a personality cult around Paul."
+        },
+        {
+          "text": "Because baptism is unnecessary for believers.",
+          "weight": 75,
+          "note": "Paul values baptism; he is guarding against factions, not dismissing the rite."
+        },
+        {
+          "text": "Because he preferred others to do the harder work.",
+          "weight": 25,
+          "note": "His reason is theological, protecting unity, not a matter of preference or labor."
+        },
+        {
+          "text": "Because those he baptized had fallen away.",
+          "weight": 0,
+          "note": "Nothing suggests that; the point is preventing division around his name."
+        }
       ]
     }
   ],
@@ -149,9 +368,21 @@
     "Chloe's household cared enough to speak honestly about the quarrels. How can you raise concerns about division in a way that seeks unity rather than adding to the strife?"
   ],
   "translationNotes": [
-    { "ref": "1 Corinthians 1:12", "note": "Cephas is the Aramaic name for Peter, meaning rock; Paul uses it to name the same apostle the Gospels call Peter, showing the Corinthian factions even claimed the leading apostles." },
-    { "ref": "1 Corinthians 1:13", "note": "The three questions are framed in Greek to expect the answer no; the BSB preserves their force as a rapid triple challenge that undercuts every party." },
-    { "ref": "1 Corinthians 1:17", "note": "Words of wisdom translates a phrase for skilled rhetoric or clever eloquence prized in Corinth; the concern is not learning itself but trusting persuasive style in place of the cross's own power." }
+    {
+      "ref": "1 Corinthians 1:12",
+      "note": "Cephas is the Aramaic name for Peter, meaning rock; Paul uses it to name the same apostle the Gospels call Peter, showing the Corinthian factions even claimed the leading apostles."
+    },
+    {
+      "ref": "1 Corinthians 1:13",
+      "note": "The three questions are framed in Greek to expect the answer no; the BSB preserves their force as a rapid triple challenge that undercuts every party."
+    },
+    {
+      "ref": "1 Corinthians 1:17",
+      "note": "Words of wisdom translates a phrase for skilled rhetoric or clever eloquence prized in Corinth; the concern is not learning itself but trusting persuasive style in place of the cross's own power."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for 1 Corinthians 1:10-17. wording is otherwise unchanged." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for 1 Corinthians 1:10-17. wording is otherwise unchanged."
+  }
 }

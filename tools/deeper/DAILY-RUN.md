@@ -9,7 +9,7 @@ files or agent transcripts; rely on agent reports and the validator.
 
 1. `cd ~/makor`. Run `python3 tools/deeper/next.py 16 --json`: up to four
    groups of four unfinished studies. If it prints `[]`, the campaign is done:
-   skip to step 6 (upload), report, and stop.
+   skip to step 7, report, and stop.
 2. Launch one background Agent per group with `model: "sonnet"`, TWO AT A TIME
    (start two, wait for both, then the next two). Prompt:
 
@@ -37,12 +37,17 @@ files or agent transcripts; rely on agent reports and the validator.
      (no em or en dashes; end with the line
      `Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>`)
    - `git push origin main`. If the push fails, report it and stop.
-6. Audio (runs in the background after this session ends):
-   - If `makor-audio/.env` exists, upload what earlier runs finished rendering:
-     `cd makor-audio && nohup .venv/bin/python gpu_run.py --upload-staged >> _logs/upload.log 2>&1 &`
-   - Write the passing study paths from step 3, one per line, to
-     `makor-audio/_logs/render-<date-time>.txt`, then start four render shards:
-     `for i in 1 2 3 4; do nohup .venv/bin/python gpu_run.py --files _logs/render-<date-time>.txt --offline --shard $i/4 --threads 3 >> _logs/render.log 2>&1 & done`
+6. Audio (runs in the background after this session ends). All audio goes
+   through one battery governed render (`makor-audio/battery_audio.sh`: pause
+   at 10% battery, resume at 40%, low priority beside any film render, uploads
+   each study to R2 as it finishes). Never start `gpu_run.py` shards or
+   `--upload-staged` directly, and never start a second governor.
+   - `cd ~/makor/makor-audio`. Append the passing study paths from step 3,
+     one per line, to `_logs/v4-queue.txt` (skip any already listed).
+   - If `pgrep -f battery_audio.sh` finds nothing, start it:
+     `nohup ./battery_audio.sh $PWD/_logs/v4-queue.txt 2 10 40 >/dev/null 2>&1 &`
+     If it is already running, do nothing more: it goes round again when the
+     queue has grown.
 7. Report in four lines: studies deepened and pushed this run, total passing
    out of 1354 (`python3 tools/deeper/check.py --all --summary | tail -1`), the
    commit hash pushed, and any new lines in `tools/deeper/FLAGS.md`. Stop.

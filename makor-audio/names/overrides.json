@@ -20,6 +20,45 @@
    "say": "ah-ROOM",
    "lang": "Hebrew",
    "case": "exact"
+  },
+  "hevel": {
+   "us": "hˈɛvɛl",
+   "gb": "hˈɛvɛl",
+   "say": "HEV-el",
+   "lang": "Hebrew",
+   "case": "any"
+  },
+  "ot": {
+   "us": "ˈOt",
+   "gb": "ˈQt",
+   "say": "OHT",
+   "lang": "Hebrew",
+   "case": "exact"
+  },
+  "na": {
+   "us": "nˈɑ",
+   "gb": "nˈɑː",
+   "say": "NAH",
+   "lang": "Hebrew",
+   "case": "exact",
+   "avoid": [
+    "na'",
+    "na’"
+   ]
+  },
+  "ir": {
+   "us": "ˈiɹ",
+   "gb": "ˈɪə",
+   "say": "EER",
+   "lang": "Hebrew",
+   "case": "exact"
+  },
+  "shith": {
+   "us": "ʃˈit",
+   "gb": "ʃˈiːt",
+   "say": "SHEET",
+   "lang": "Hebrew",
+   "case": "any"
   }
  }
 }

@@ -18,9 +18,21 @@
         "note": "an apostle to the sanctified church",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 1, "text": "Paul, called to be an apostle of Christ Jesus by the will of God, and our brother Sosthenes," },
-          { "chapter": 1, "n": 2, "text": "To the church of God in Corinth, to those {{hagiazo|sanctified}} in Christ Jesus and called to be holy, together with all those everywhere who call on the name of our Lord Jesus Christ, their Lord and ours:" },
-          { "chapter": 1, "n": 3, "text": "Grace and peace to you from God our Father and the Lord Jesus Christ." }
+          {
+            "chapter": 1,
+            "n": 1,
+            "text": "Paul, called to be an apostle of Christ Jesus by the will of God, and our brother Sosthenes,"
+          },
+          {
+            "chapter": 1,
+            "n": 2,
+            "text": "To the church of God in Corinth, to those {{hagiazo|sanctified}} in Christ Jesus and called to be holy, together with all those everywhere who call on the name of our Lord Jesus Christ, their Lord and ours:"
+          },
+          {
+            "chapter": 1,
+            "n": 3,
+            "text": "Grace and peace to you from God our Father and the Lord Jesus Christ."
+          }
         ]
       },
       {
@@ -28,10 +40,26 @@
         "note": "enriched in every way, lacking no gift",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 4, "text": "I always thank my God for you because of the {{charis|grace}} He has given you in Christ Jesus." },
-          { "chapter": 1, "n": 5, "text": "For in Him you have been enriched in every way, in all speech and all knowledge," },
-          { "chapter": 1, "n": 6, "text": "because our testimony about Christ was confirmed in you." },
-          { "chapter": 1, "n": 7, "text": "Therefore you do not lack any {{charisma|spiritual gift}} as you eagerly await the revelation of our Lord Jesus Christ." }
+          {
+            "chapter": 1,
+            "n": 4,
+            "text": "I always thank my God for you because of the {{charis|grace}} He has given you in Christ Jesus."
+          },
+          {
+            "chapter": 1,
+            "n": 5,
+            "text": "For in Him you have been enriched in every way, in all speech and all knowledge,"
+          },
+          {
+            "chapter": 1,
+            "n": 6,
+            "text": "because our testimony about Christ was confirmed in you."
+          },
+          {
+            "chapter": 1,
+            "n": 7,
+            "text": "Therefore you do not lack any {{charisma|spiritual gift}} as you eagerly await the revelation of our Lord Jesus Christ."
+          }
         ]
       },
       {
@@ -39,18 +67,51 @@
         "note": "sustained blameless to the end",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 8, "text": "He will sustain you to the end, so that you will be blameless on the day of our Lord Jesus Christ." },
-          { "chapter": 1, "n": 9, "text": "God, who has called you into {{koinonia|fellowship}} with His Son Jesus Christ our Lord, is {{pistos|faithful}}." }
+          {
+            "chapter": 1,
+            "n": 8,
+            "text": "He will sustain you to the end, so that you will be blameless on the day of our Lord Jesus Christ."
+          },
+          {
+            "chapter": 1,
+            "n": 9,
+            "text": "God, who has called you into {{koinonia|fellowship}} with His Son Jesus Christ our Lord, is {{pistos|faithful}}."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "hagiazo": { "language": "Greek", "lemma": "hagiazo", "original": "ἁγιάζω", "gloss": "To sanctify, to set apart as holy, to consecrate to God. Paul addresses the Corinthians as already sanctified in Christ Jesus, a settled status given by God, and then calls them to become in practice what they already are, holy. Their sanctification is rooted not in their own performance, which the letter will expose as badly flawed, but in their union with Christ." },
-    "charis": { "language": "Greek", "lemma": "charis", "original": "χάρις", "gloss": "Grace, unearned favor, the free gift of God. It frames the whole greeting: grace and peace from God, and grace given in Christ Jesus. Everything the Corinthians possess, their standing, their speech, their knowledge, and their gifts, flows from grace, so that boasting in themselves is ruled out from the first sentence." },
-    "charisma": { "language": "Greek", "lemma": "charisma", "original": "χάρισμα", "gloss": "A gift of grace, a spiritual endowment freely given by God for service. The Corinthians lacked no gift, yet the letter shows that gifts without love and humility breed pride and division. The word shares its root with charis, marking every gift as an outflow of grace, not a badge of merit." },
-    "koinonia": { "language": "Greek", "lemma": "koinonia", "original": "κοινωνία", "gloss": "Fellowship, sharing, communion, a genuine partnership of life. God has called the Corinthians into fellowship with His Son, a bond that both unites them to Christ and binds them to one another. This word quietly undercuts the party spirit Paul is about to confront: those who share in Christ cannot rightly splinter into rival camps." },
-    "pistos": { "language": "Greek", "lemma": "pistos", "original": "πιστός", "gloss": "Faithful, trustworthy, reliable, one who keeps his word. The paragraph ends on this word about God, who is faithful. The Corinthians' security to the end does not rest on their own steadfastness, which is fragile, but on the unbreakable faithfulness of the God who called them." }
+    "hagiazo": {
+      "language": "Greek",
+      "lemma": "hagiazo",
+      "original": "ἁγιάζω",
+      "gloss": "To sanctify, to set apart as holy, to consecrate to God. Paul addresses the Corinthians as already sanctified in Christ Jesus, a settled status given by God, and then calls them to become in practice what they already are, holy. Their sanctification is rooted not in their own performance, which the letter will expose as badly flawed, but in their union with Christ."
+    },
+    "charis": {
+      "language": "Greek",
+      "lemma": "charis",
+      "original": "χάρις",
+      "gloss": "Grace, unearned favor, the free gift of God. It frames the whole greeting: grace and peace from God, and grace given in Christ Jesus. Everything the Corinthians possess, their standing, their speech, their knowledge, and their gifts, flows from grace, so that boasting in themselves is ruled out from the first sentence."
+    },
+    "charisma": {
+      "language": "Greek",
+      "lemma": "charisma",
+      "original": "χάρισμα",
+      "gloss": "A gift of grace, a spiritual endowment freely given by God for service. The Corinthians lacked no gift, yet the letter shows that gifts without love and humility breed pride and division. The word shares its root with charis, marking every gift as an outflow of grace, not a badge of merit."
+    },
+    "koinonia": {
+      "language": "Greek",
+      "lemma": "koinonia",
+      "original": "κοινωνία",
+      "gloss": "Fellowship, sharing, communion, a genuine partnership of life. God has called the Corinthians into fellowship with His Son, a bond that both unites them to Christ and binds them to one another. This word quietly undercuts the party spirit Paul is about to confront: those who share in Christ cannot rightly splinter into rival camps."
+    },
+    "pistos": {
+      "language": "Greek",
+      "lemma": "pistos",
+      "original": "πιστός",
+      "gloss": "Faithful, trustworthy, reliable, one who keeps his word. The paragraph ends on this word about God, who is faithful. The Corinthians' security to the end does not rest on their own steadfastness, which is fragile, but on the unbreakable faithfulness of the God who called them."
+    }
   },
   "study": {
     "basic": {
@@ -64,75 +125,233 @@
       "oneStory": "God has always been gathering a people for Himself, set apart and kept by His own faithfulness. Here that people is the church in Corinth, sanctified in Christ and awaiting His return. The same faithful God who called them will bring them safely to the day of Christ, the goal of the whole story."
     },
     "context": {
-      "literary": "This is the letter opening in the ancient form: sender, recipients, greeting, then thanksgiving. Paul expands each part theologically. The thanksgiving in verses 4 to 9 previews the letter's key words, grace, speech, knowledge, gifts, the day of Christ, so that the greeting doubles as a table of contents for what follows.",
-      "historical": "Corinth was a wealthy, cosmopolitan Roman colony, proud of its rhetoric, status, and worldly wisdom. Paul had founded the church on his second missionary journey. Now, hearing of divisions and disorder, he writes from Ephesus. Sosthenes, likely the synagogue ruler of Acts 18, joins him as a witness to the church he once opposed.",
-      "canonical": "The greeting sets Corinthian identity within the whole people of God, together with all those everywhere who call on the name of the Lord. It joins the New Testament pattern of opening thanksgivings and anchors the letter in the gospel of grace before addressing any error."
+      "literary": "First Corinthians 1:1 to 9 follows the three part pattern of an ordinary Greek letter: sender, recipients and greeting in verses 1 to 3, then a thanksgiving, then the body of the letter, which starts at verse 10. Paul bends each part. The sender line gives him the title 'called to be an apostle,' and adds a coworker, Sosthenes, so that the letter speaks with more than one voice. The recipient line is the longest in the passage and ends by reaching beyond Corinth, 'together with all those everywhere who call on the name of our Lord Jesus Christ, their Lord and ours.' A church that was proud of its own special status is reminded, in the address itself, that it is one among many.\n\nThe thanksgiving, verses 4 to 9, is built around one repeated pair of ideas, what God has given and what God will do. Verses 4 to 7 look backward and speak in the past tense of enrichment and confirmation. Verses 8 and 9 look forward with the future tense, 'He will sustain you.' The hinge is verse 7, where the present is described as eager waiting. The whole movement runs from 'grace given' to 'blameless on the day,' with the faithfulness of God as the last word.\n\nPaul also plants words in this opening that return later in the letter. Speech and knowledge in verse 5 become the subject of chapters 8 and 12 to 14. 'Spiritual gift' in verse 7 introduces the long section on gifts. 'Revelation' and 'the day' anticipate chapter 15. 'Fellowship' in verse 9 comes back in the discussion of the Lord's Table, 10:16. 'Sanctified' in verse 2 returns in 6:11, which tells the same church that this is what some of them were washed from. A reader who knows the whole letter hears the opening as a first statement of themes.\n\nThe thanksgiving is also notable for what it leaves out. Paul has plenty to criticise, yet he praises only what God has done. Most readers take that as pastoral strategy, and it is also theology: the Corinthians' real status comes from God's act, and their faults are measured against it and cannot cancel it.",
+      "historical": "Corinth was rebuilt as a Roman colony in 44 BC, after Rome had destroyed the old Greek city in 146 BC. It sat on a narrow land bridge with a harbour on each side, so goods and travellers passed through constantly, and the biennial Isthmian Games drew crowds. The population was mixed and upwardly mobile, with freedmen, merchants and artisans, and the city had a reputation for wealth and loose living. Its temples included the shrine of Aphrodite, though the common picture of thousands of temple prostitutes comes from an earlier age and should be treated with caution.\n\nPaul had founded the church about three years before this letter, Acts 18:1 to 18. He stayed a year and a half, Acts 18:11, working with Aquila and Priscilla at tentmaking, and he began in the synagogue. Sosthenes may be the synagogue leader who was beaten before the proconsul Gallio in Acts 18:17, though the name was common and the identification is a possibility only.\n\nThe letter was written from Ephesus, 1 Corinthians 16:8, probably in the middle of the AD 50s. Paul had already sent an earlier letter, 1 Corinthians 5:9, and the present one answers two sources of information: oral reports from 'Chloe's household,' 1:11, and a written list of questions from the church, 7:1. Messengers named in 16:17, Stephanas, Fortunatus and Achaicus, probably carried that letter to Paul.\n\nA Greek audience would have heard the thanksgiving as a polite and expected opening. A Jewish ear would hear something more. 'Called to be holy' and 'sanctified' are the language of Israel at Sinai, where God declared a people holy to Himself, Exodus 19:6. 'The church of God' recalls the Greek Old Testament's word for the assembly of the people, as in 'the day of the assembly' in Deuteronomy 9:10. In a city obsessed with rank, Paul's first claim is that these people, with their mixed backgrounds, belong to God's own assembly.",
+      "canonical": "The language of verses 1 to 9 belongs to a family of Pauline openings. Romans 1:7 uses 'called to be saints,' Philippians 1:3 to 6 gives thanks in much the same pattern and promises that God will bring His work to completion, and 1 Thessalonians 5:23 to 24 sets out the same sequence, God sanctifies and God keeps because 'He who calls you is faithful.' The relation of these passages shows that assurance rooted in God's faithfulness was a stable part of Paul's teaching and not a one time remark.\n\nThe phrase 'call on the name of our Lord Jesus Christ' in verse 2 takes a line from Joel 2:32, 'everyone who calls on the name of the LORD will be saved,' and applies it to Jesus. Paul does the same in Romans 10:13. For a Jewish writer to transfer the name of the LORD to Jesus without comment is one of the earliest clear signs of the church's confession of His deity.\n\n'The day of our Lord Jesus Christ' in verse 8 is an adaptation of the Old Testament 'day of the LORD,' which the prophets described as a day of judgment and of rescue, Joel 2:11 and Malachi 3:2. Paul uses forms of the phrase for the return of Christ in 5:5, 2 Corinthians 1:14, Philippians 1:6 and 1:10. The promise that believers will be 'blameless' on that day is repeated in Colossians 1:22 and in Jude 24, where God is able to present them 'without blemish before His glorious presence.'\n\nThe word 'fellowship' for life with the Son anticipates John's language in 1 John 1:3, 'this fellowship of ours is with the Father and with His Son, Jesus Christ.' Seen across the canon, the verses lay out a pattern that is repeated by many writers: God calls, God gives, God keeps, and the end is the presence of Christ."
     },
     "hermeneutics": {
-      "authorIntent": "To establish the Corinthians' true identity and security in Christ by grace, and to give thanks for God's work among them, so that the hard corrections to come are received as words to a beloved and secure people, not as threats to their standing.",
-      "descriptionVsPrescription": "These verses describe what God has done and declares to be true of the church; they are gospel indicative before any command. The implied call, to live as those sanctified and to await Christ, flows from the status God has already given, not the reverse.",
+      "authorIntent": "Paul wanted the Corinthians to hear who they were before he told them what they had done wrong. A church that had grown proud of its gifts and fractured over its leaders needed first to be reminded that every gift was given and nothing was earned. The opening works as a quiet rebuke by way of reminder: the speech and knowledge in which they boasted were enrichment from Christ, verses 5 and 6, and not their own achievement. Pride and thankfulness cannot live in the same sentence.\n\nHe also meant them to take comfort. Some in the church, hearing the sharp corrections to come, might wonder if they had forfeited their place. Verses 8 and 9 answer that fear before it is raised: the one who called them is faithful and will sustain them to the end. The assurance is meant to steady them for what follows, not to excuse them.\n\nA third purpose lies in the address, 'all those everywhere who call on the name.' By linking Corinth with believers everywhere Paul is preparing for the argument that their practices must answer to what is true in all the churches, 4:17 and 11:16 and 14:33. The congregation is not a free standing club with its own customs.",
+      "descriptionVsPrescription": "The greeting and thanksgiving describe what God has done and what Paul gives thanks for. They are not an order to feel thankful or a list of conditions. Nothing in these verses says that believers must prove they are sanctified before they may be called saints. The title comes first, and the life follows. Later in the letter Paul will command the Corinthians to behave as the holy people they are, and the prescriptions of chapters 5 and 6 depend on the description given here.\n\nCare is needed with the thanksgiving. Paul's praise for the Corinthians' gifts is not an endorsement of every way they used them, and the same letter spends three chapters correcting that use. The 'blameless' of verse 8 is a promise about the day of Christ and not a claim that the church is currently without fault. Believers today are not asked to ignore their failings in order to be thankful. They are asked to see that God's work in them is real, and that His faithfulness is the ground on which correction is received.",
       "debates": [
         {
           "question": "If God will keep them blameless to the end, why does Paul spend the rest of the letter correcting them so sharply?",
           "views": [
-            { "label": "Assurance grounds obedience", "case": "God's faithfulness to keep His people is the very reason to pursue holiness; grace is not a license to sin but the power and motive for repentance. The security is real, and it fuels the corrections rather than making them pointless." },
-            { "label": "Perseverance is worked out through the corrections", "case": "God keeps His people precisely by means of apostolic warning and discipline; the letter is one of the instruments through which the faithful God sustains them blameless to the day of Christ." }
+            {
+              "label": "Assurance grounds obedience",
+              "case": "God's faithfulness to keep His people is the very reason to pursue holiness; grace is not a license to sin but the power and motive for repentance. The security is real, and it fuels the corrections rather than making them pointless."
+            },
+            {
+              "label": "Perseverance is worked out through the corrections",
+              "case": "God keeps His people precisely by means of apostolic warning and discipline; the letter is one of the instruments through which the faithful God sustains them blameless to the day of Christ."
+            }
           ],
           "bearing": "Both readings hold that final security rests on God's faithfulness, not human merit, and that this assurance drives, rather than dissolves, the call to holiness."
+        },
+        {
+          "question": "Are the Corinthians' gifts, speech and knowledge, praised sincerely or with irony?",
+          "views": [
+            {
+              "label": "Sincere thanks",
+              "case": "Paul says that he gives thanks 'always,' and says that the testimony about Christ was truly confirmed among them, verse 6. He treats the gifts as real works of God's grace. The correction in later chapters is aimed at their use, not their reality, and a pastor can honestly thank God for gifts that are being misused."
+            },
+            {
+              "label": "Gentle irony preparing for rebuke",
+              "case": "Speech and knowledge are exactly the things the Corinthians boast about, as chapters 4, 8 and 14 show, so some hear a note of pointed courtesy. On this reading Paul gives credit where it is due and quietly signals that he has noticed what they prize."
+            }
+          ],
+          "bearing": "Whether or not an edge is present, the words say that the gifts are enrichment given 'in Him,' and so the proper response is gratitude to the Giver, not pride in the gift."
+        },
+        {
+          "question": "What does 'blameless on the day' promise?",
+          "views": [
+            {
+              "label": "God's declaration and final sanctification",
+              "case": "The word points to a legal setting, no charge standing against them, and the verb 'sustain' says that God Himself will see them through. The weight falls on what God does, so believers can be sure of standing in the judgment."
+            },
+            {
+              "label": "A promise that works through human faithfulness",
+              "case": "Others stress the Corinthians' own responsibility, since the letter warns them about idolatry and immorality, 10:12 and 6:9 to 10, and the promise is to be received by those who keep on trusting. God sustains, and He does so by means of their perseverance."
+            }
+          ],
+          "bearing": "Verse 9 grounds the promise in God's faithfulness, and the letter's warnings are the means by which the promise is kept. The two readings differ in emphasis and agree that no one reaches the day on the strength of his own record."
         }
       ]
     },
-    "originalLanguages": "The greeting is saturated with grace. The Corinthians are hagiazo, sanctified, set apart in Christ Jesus, a status God gives before they act. Twice charis, grace, sounds out: grace and peace from God, and grace given in Christ. They lack no charisma, gift of grace, the word rooted in charis to mark every endowment as gift, not achievement. God has called them into koinonia, fellowship, real partnership with His Son and so with one another. And the paragraph rests at last on pistos, faithful, the character of the God who will keep them to the end.",
+    "originalLanguages": "Several Greek words in these nine verses repay a closer look, beyond the ones named in the basic text. The first is the perfect passive participle in verse 2, hegiasmenois, 'those who have been sanctified.' The perfect tense describes a completed act whose result continues, so Paul is describing a status that God has made and that stands. It is followed by a second description, 'called to be holy,' where the Greek says literally 'called saints,' a title and not just a task. The same church that will be rebuked for lawsuits and immorality is addressed as 'saints' because the name rests on God's act. The verb sits beside 6:11, 'you were sanctified,' where the same status is recalled in the middle of a hard rebuke.\n\nThe second is the verb behind 'enriched,' ploutizo, in verse 5. It is in the aorist passive, 'you were enriched,' a divine passive in which God is the unmentioned agent. The word shares a root with 'wealth,' and Paul uses the idea again in 2 Corinthians 8:9, 'though He was rich, yet for your sakes He became poor, so that you through His poverty might become rich.' Enrichment is therefore tied to what Christ gave up. The areas of wealth named, 'all speech and all knowledge,' logos and gnosis, are precisely the gifts that Corinthian culture prized, so Paul names the treasures they admired and traces them to a gift.\n\nThe third is a quiet link between verses 6 and 8. In verse 6 the testimony 'was confirmed,' ebebaiothe, and in verse 8 God 'will sustain' or 'will confirm' them, bebaiosei. Both come from the same verb, bebaioo, which means to make firm or secure. English hides the repetition by using two different verbs. God has already made the message firm in them, and He will make them firm to the end. What He began in the testimony He will finish in the people.\n\nThe fourth is the verb for waiting, apekdechomai, rendered 'eagerly await' in verse 7. It carries the sense of expectant waiting that does not fold its arms. Paul uses it of creation in Romans 8:19 and of believers waiting for the redemption of their bodies in Romans 8:23. The gifts of the Spirit and the hope of Christ's return are thus tied together, and the Corinthians are not being told to value the gifts less but to see them as a part of waiting.\n\nThe fifth is the word for 'blameless,' anegkletos, in verse 8. It is built from a root meaning to bring a charge, with a negative in front, so it describes someone against whom no accusation can be lodged. It belongs to the language of the courtroom. Colossians 1:22 uses a related thought for believers presented 'holy, unblemished, and blameless in His presence.'\n\nThe sixth is the sentence order of verse 9. In the Greek, the word 'faithful,' pistos, comes first: 'Faithful is God.' The sentence opens with the truth that holds everything else up. The ending 'who has called you,' with the aorist tense, points to a single, completed act, and the object of the calling is koinonia, shared life with the Son, a participation that the word 'fellowship' captures only in part.",
     "typology": [
-      { "type": "The called and holy assembly", "fulfillment": "The language of a people set apart to the LORD, once spoken over Israel, is now fulfilled in the church of God gathered in Christ from every place, Jew and Gentile together." },
-      { "type": "Kept blameless for the day of the Lord", "fulfillment": "The prophets' hope of a purified people able to stand before God is realized in those whom the faithful God sustains blameless for the day of Christ." }
+      {
+        "type": "The holy assembly of Sinai, Exodus 19:5-6 and Deuteronomy 9:10",
+        "fulfillment": "At Sinai the LORD called Israel His treasured possession, a kingdom of priests and a holy nation, Exodus 19:5 to 6, and Moses later speaks of 'the day of the assembly,' Deuteronomy 9:10. Paul addresses the Corinthian believers as the church of God, sanctified and called holy, which is the same pair of ideas moved onto a mixed company of Jews and Gentiles. The correspondence is that holiness is first a status given by God's call and only then a way of life. The escalation is that membership no longer depends on descent or on a single land. The type falls short where Israel's assembly gathered at one mountain, since the church gathers wherever the name of Christ is called upon, as verse 2 says."
+      },
+      {
+        "type": "The day of the LORD, Joel 2:11 and Malachi 3:2",
+        "fulfillment": "Joel asks of the day of the LORD, 'who can endure it?' Joel 2:11, and Malachi asks who can endure the day of His coming, Malachi 3:2. The prophets pictured a day when God would judge and also refine a people who could stand before Him. Paul takes the same day and calls it 'the day of our Lord Jesus Christ,' and then he answers the prophets' question: those whom God sustains will be 'blameless.' The correspondence is the day of reckoning and the purified people. The escalation is that the Judge is the one who saved them. The type is not exhausted, because the day itself is still to come, and the church's present blamelessness is a promise held in hope."
+      },
+      {
+        "type": "Calling on the name of the LORD, Joel 2:32",
+        "fulfillment": "Joel promises that everyone who calls on the name of the LORD will be saved. Paul applies the phrase to Jesus in verse 2, 'all those everywhere who call on the name of our Lord Jesus Christ,' and does so as if nothing remarkable were happening. The correspondence is the act itself, a prayer of rescue addressed to the divine name. The escalation is that the Name now belongs to the Son, so that prayer to Jesus is prayer to the God of Joel. The pattern is also widened, since 'everyone' in Joel meant the scattered of Israel on Mount Zion, and in Paul it includes Greeks. The picture stays open at one point: the full salvation that the promise names still waits for the day of verse 8."
+      },
+      {
+        "type": "Faithful in covenant, Deuteronomy 7:9",
+        "fulfillment": "Moses tells Israel that the LORD their God is 'the faithful God who keeps His covenant of loving devotion for a thousand generations of those who love Him' Deuteronomy 7:9. Paul ends his opening with the same attribute: 'God, who has called you into fellowship with His Son, is faithful.' The correspondence is the character of God as a keeper of His word. The escalation is the content of the promise. Israel was promised land and blessing, and the Corinthians are promised a share in the life of the Son and a secure arrival at His day. The type falls short in that Israel's faithfulness failed again and again, whereas here the promise rests on God and on His Son alone."
+      }
     ],
-    "christ": "Jesus Christ dominates the opening, named repeatedly as the sphere and source of everything. The Corinthians are sanctified in Christ Jesus, enriched in Him, confirmed by the testimony about Him, awaiting the revelation of Him, kept blameless for His day, and called into fellowship with Him. Paul's very apostleship is of Christ Jesus by the will of God. From the first line, Christ is not one theme among many but the ground of the church's identity, its present life, and its future hope.",
-    "god": "God is the initiator and the sustainer. It is God's will that made Paul an apostle, God's church that gathers in Corinth, God's grace that enriches them, God who confirmed the testimony about Christ, and God who will sustain them to the end. The final word, faithful, reveals His character: the One who calls also keeps. Assurance is therefore not presumption but confidence in the trustworthiness of God.",
+    "christ": "Christ is named in every one of these nine verses except one, and the way Paul names Him tells the story of what He does. In verse 1 He is the one who calls and sends, since Paul is 'an apostle of Christ Jesus.' In verse 2 He is the sphere of holiness, and also the Lord whose name is called upon. In verse 3 He is joined with the Father as the source of grace and peace, which is a remarkable thing to say of a man who had been crucified within living memory. In verse 4 grace is given 'in Christ Jesus.' In verses 5 to 6 He is the one in whom they were enriched and the one about whom the testimony was given. In verse 7 He is the one who will be revealed. In verse 8 His day is the horizon of the believer's life, and in verse 9 He is the Son with whom believers share fellowship.\n\nThe most striking move is the use of 'Lord' for Jesus in verses 2, 3, 7, 8 and 9. In the Greek Old Testament 'Lord' translates the divine name. Paul uses it for Jesus without explanation, and in verse 2 he even takes up the prophet's phrase about calling on the LORD's name. The title 'Son' in verse 9 adds the family relation: the fellowship offered is not with a distant ruler but with the Son of the Father named in verse 3.\n\nThe 'revelation' in verse 7 is the unveiling of a person, the Greek word apokalupsis. Believers are not waiting for an event or a system. They are waiting for Him to be seen. The same thought lies behind 1 John 3:2, 'when Christ appears, we will be like Him, for we will see Him as He is.' The day is His day, 'the day of our Lord Jesus Christ,' and the Old Testament day when the LORD would judge and rescue is now the day of the returning Christ.\n\nThe word 'fellowship' also leads to Christ. In 10:16 Paul calls the cup 'a participation in the blood of Christ,' and the same word koinonia is used. To be called into fellowship with the Son is to be brought into a share of what He did, His death, His resurrection and His life, which is how the 'sanctified in Christ Jesus' of verse 2 is possible.\n\nA reading of this passage that finds hidden pictures of Christ in every word would be forced. The links that count lie on the surface. The New Testament writers call Jesus the Lord and Son, they describe Him as the one who will appear, and they speak of Him as the one through whom grace is given. These are statements about a person, and in this opening they stand in front of a church that is about to be told how badly it has treated His body. The cure Paul will offer, the cross in chapters 1 and 2, the resurrection in chapter 15, rests on who this passage says He is.",
+    "god": "The first thing the passage says about God is that He is a giver. 'The grace He has given you,' verse 4, is a gift already received and not a payment to come. Paul thanks 'my God,' and in the Greek the thanks is addressed to the one who owns the gift. Everything that follows, the enrichment, the confirmation, the absence of any lack, is treated as His doing.\n\nHe is also the God who calls. Verse 9 describes the call as a past act with a lasting effect, and the call is into the very life of the Son. The calling in verses 1, 2 and 9 runs from apostle to church to each believer, and the same word binds them. Paul is an apostle by the will of God, the church is holy by the call of God, and believers are brought into fellowship by the call of God. None of the three offices is self made. The church in Corinth could not be proud of its standing when its standing was given.\n\nHe is the God who keeps. Verse 8 says 'He will sustain you to the end,' and the grammar makes God the subject. Elsewhere Paul says that believers are to work out their salvation, Philippians 2:12, and still holds that it is God who works in them, Philippians 2:13. This passage states the second half without the first. The doctrine of perseverance rests here and in verse 9 on the divine character, not on the believer's grip.\n\nHe is the God who is faithful, and the Bible gives that attribute a particular meaning. Faithfulness is the quality of one who keeps his word whatever it costs him, as in Deuteronomy 7:9 and Lamentations 3:22 to 23. It is set up in the Greek as the opening word of the sentence in verse 9. Paul returns to it in 10:13, 'God is faithful; He will not let you be tempted beyond what you can bear,' and in 2 Timothy 2:13, 'if we are faithless, He remains faithful.' It means that God's reliability does not depend on ours.\n\nThe passage holds together two things that the rest of the letter will stretch. God is the sure keeper of His people, and yet the Corinthians are in real danger from their behaviour. Paul does not resolve this by weakening either side. The faithfulness of God is complete, and the warnings are real, and the two meet in the means: the God who keeps His people does so by the apostolic word, including the sharp word that is about to follow.\n\nThe Trinitarian shape of the opening also deserves notice. Grace and peace come 'from God our Father and the Lord Jesus Christ,' the call is into the fellowship of the Son, and the gifts of verse 7 are 'spiritual,' language that Paul develops in chapter 12 as the work of the Spirit. The one God acts as Father who gives, Son who is the sphere of life and Spirit who gives gifts.\n\nFor worship, the passage teaches that gratitude is the first response to the church's life. Before he corrects anything, Paul gives thanks. A congregation that learns to see God's grace in its own life, flaws and all, is better able to hear a hard word without despair.",
     "crossReferences": [
-      { "ref": "Philippians 1:3-6", "note": "A parallel thanksgiving and the promise that God will complete the good work He began, matching the confidence of verses 8 and 9." },
-      { "ref": "1 Thessalonians 5:23-24", "note": "God who calls is faithful and will keep His people blameless at the coming of Christ, echoing verse 9." },
-      { "ref": "Ephesians 2:8-9", "note": "Salvation is by grace, not works, so that no one may boast, grounding the grace-centered greeting." },
-      { "ref": "Jude 24-25", "note": "God is able to keep His people from stumbling and present them blameless, the same keeping power Paul assures here." }
+      {
+        "ref": "Philippians 1:3-6",
+        "note": "Paul thanks God for a church and then says that He who began a good work in them will carry it on to completion until the day of Christ Jesus. The parallel shows that the pattern of thanks followed by assurance was one Paul used often, and it gives the same promise as verse 8 in different words."
+      },
+      {
+        "ref": "1 Thessalonians 5:23-24",
+        "note": "God Himself sanctifies the believers completely and keeps them blameless at the coming of the Lord, 'for He who calls you is faithful, and He will do it.' This is the nearest verbal match to 1 Corinthians 1:8 to 9, and it states plainly what the Corinthian passage implies: God keeps because He is the one who called."
+      },
+      {
+        "ref": "Romans 1:7",
+        "note": "Paul writes to those 'loved by God and called to be saints,' with the same pair of ideas found in verse 2. Seeing the phrase in both letters shows that 'saint' was a standing title for ordinary believers, given by God's call, and that the address to a troubled church in Corinth was the same as that to the church in Rome."
+      },
+      {
+        "ref": "Joel 2:32",
+        "note": "The promise that everyone who calls on the name of the LORD will be saved is the source of the phrase in verse 2. Paul applies it to Jesus, a step that treats the Son as the bearer of the divine name. The link shows that the church's earliest worship included prayer addressed to Christ."
+      },
+      {
+        "ref": "Deuteronomy 7:9",
+        "note": "Moses calls the LORD 'the faithful God' who keeps His covenant for a thousand generations. The statement about God's character in verse 9 stands in that line, and the connection explains why Paul can say that the Corinthians are safe: the God who called them is the same God who kept His promises to Israel for centuries."
+      },
+      {
+        "ref": "2 Corinthians 1:18-20",
+        "note": "Paul says that God is faithful and that every promise of God finds its Yes in Christ. Written to the same church a short time later, the passage shows how he thinks about God's faithfulness: it is displayed in Christ, so that the Corinthians' security and the person of Jesus cannot be pulled apart."
+      },
+      {
+        "ref": "1 Corinthians 10:13",
+        "note": "Here the same word appears again, 'God is faithful,' in the middle of a warning against idolatry. The echo of 1:9 shows that the phrase is a refrain in this letter. God's faithfulness is both the comfort at the start and the resource in each temptation along the way."
+      },
+      {
+        "ref": "Colossians 1:21-23",
+        "note": "Believers who were once alienated are now presented 'holy, unblemished, and blameless' in His presence if they continue in the faith. The passage uses a close relative of the word for 'blameless' in 1 Corinthians 1:8, and its mention of continuing helps to hold together the promise of God and the call to persevere."
+      },
+      {
+        "ref": "Jude 24-25",
+        "note": "Jude closes with praise to the God who is able to keep believers from stumbling and to present them without blemish before His glory. The match with verse 8 is clear, and it shows that the New Testament writers draw on a shared confidence: the end of the journey is in God's hands."
+      },
+      {
+        "ref": "1 John 1:3",
+        "note": "John writes that 'this fellowship of ours is with the Father and with His Son, Jesus Christ.' The word is the same as in 1 Corinthians 1:9, and John's use shows what the fellowship means, a shared life with the Father and the Son that the apostles had seen and heard and now declare."
+      },
+      {
+        "ref": "2 Corinthians 8:9",
+        "note": "Christ, though rich, became poor so that believers might become rich through His poverty. This explains the 'enriched' of verse 5. The wealth in speech and knowledge that the Corinthians enjoy was bought by a cost that Christ paid, and the verse turns what could be boasting into thankfulness."
+      }
     ],
-    "oneStory": "From the beginning God has been calling out a people for Himself, setting them apart and keeping them by His own faithfulness. In Corinth that people takes the form of a flawed but genuine church, sanctified in Christ and enriched by grace. The faithful God who called them into fellowship with His Son will not abandon them but will bring them safe to the day of Christ, the destination toward which the whole biblical story moves.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "The Bible's story begins with God calling a people out of the world to be His own, and this passage is a snapshot of that call reaching Corinth. In Genesis 12 Abraham is called from his father's house, in Exodus 19 Israel is called out of Egypt to be a holy nation, and in the prophets a faithful remnant is promised. Here, in a Roman colony built on trade and ambition, a mixed company of Jews and Greeks is addressed as 'the church of God,' 'sanctified in Christ Jesus.' The old promise of a holy people has arrived among the nations.\n\nThe passage answers a question left open by the Old Testament: how can a sinful people ever stand in the presence of a holy God on the day of reckoning? The prophets pictured the day of the LORD and asked who could endure it. Verse 8 gives the answer in a single line. It is God who sustains, and the people will be 'blameless' because of what He does, not what they have done. The story of Israel's failures, from the golden calf to the exile, had shown that a people could not keep itself. Now a keeper has been named.\n\nThe Corinthians' own history shows how much is still unfinished. The church that is called holy in verse 2 will be found in the later chapters tolerating immorality, suing each other and misusing the Lord's Supper. The story has not reached its end, and the people of God are still in the middle of it, awaiting the revelation of the Lord, as verse 7 says. The tension between 'already sanctified' and 'not yet blameless' is the tension of the whole age between Christ's first coming and His second.\n\nThe story points forward to a day that Paul keeps in view across the whole letter. In chapter 15 the dead are raised and the last enemy is destroyed, and in Revelation the church is pictured as a bride prepared for her husband, Revelation 19:7 to 8. In the new creation the promise of verse 8 is complete. Believers stand 'blameless' before the throne, not by their own record but as those whom the faithful God kept. The call that began in Corinth ends in the city where God Himself lives with His people, Revelation 21:3, and the fellowship with the Son that verse 9 promised becomes a life that no division, no sin and no death can interrupt.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "How does Paul describe the Corinthians in the greeting, before addressing any of their problems?",
       "options": [
-        { "text": "As sanctified in Christ Jesus and called to be holy, the church of God.", "weight": 100, "note": "He grounds them in their God-given identity by grace before any correction." },
-        { "text": "As a gifted church that simply needed some fine-tuning.", "weight": 75, "note": "They were richly gifted, but Paul's first word is their holy standing in Christ, not their gifting." },
-        { "text": "As people who had earned God's favor by their spiritual maturity.", "weight": 25, "note": "Their standing rests on grace and God's call, not earned merit; the letter exposes their immaturity." },
-        { "text": "As unbelievers with no real relationship to God.", "weight": 0, "note": "Paul calls them the church of God, sanctified in Christ and given every grace." }
+        {
+          "text": "As sanctified in Christ Jesus and called to be holy, the church of God.",
+          "weight": 100,
+          "note": "He grounds them in their God-given identity by grace before any correction."
+        },
+        {
+          "text": "As a gifted church that simply needed some fine-tuning.",
+          "weight": 75,
+          "note": "They were richly gifted, but Paul's first word is their holy standing in Christ, not their gifting."
+        },
+        {
+          "text": "As people who had earned God's favor by their spiritual maturity.",
+          "weight": 25,
+          "note": "Their standing rests on grace and God's call, not earned merit; the letter exposes their immaturity."
+        },
+        {
+          "text": "As unbelievers with no real relationship to God.",
+          "weight": 0,
+          "note": "Paul calls them the church of God, sanctified in Christ and given every grace."
+        }
       ]
     },
     {
       "q": "On what basis does Paul say the Corinthians will be kept blameless to the end?",
       "options": [
-        { "text": "On the faithfulness of God, who called them into fellowship with His Son.", "weight": 100, "note": "Verse 9 grounds their security in God's faithfulness, not their own strength." },
-        { "text": "On their careful use of their spiritual gifts.", "weight": 75, "note": "They were richly gifted, but their keeping rests on God, not on their gifts." },
-        { "text": "On their steady progress in holiness over time.", "weight": 25, "note": "The letter shows their progress was faltering; God's faithfulness is the true ground." },
-        { "text": "On their own determination to hold on to the end.", "weight": 0, "note": "Their security rests on the faithful God who sustains them, not on their grip." }
+        {
+          "text": "On the faithfulness of God, who called them into fellowship with His Son.",
+          "weight": 100,
+          "note": "Verse 9 grounds their security in God's faithfulness, not their own strength."
+        },
+        {
+          "text": "On their careful use of their spiritual gifts.",
+          "weight": 75,
+          "note": "They were richly gifted, but their keeping rests on God, not on their gifts."
+        },
+        {
+          "text": "On their steady progress in holiness over time.",
+          "weight": 25,
+          "note": "The letter shows their progress was faltering; God's faithfulness is the true ground."
+        },
+        {
+          "text": "On their own determination to hold on to the end.",
+          "weight": 0,
+          "note": "Their security rests on the faithful God who sustains them, not on their grip."
+        }
       ]
     },
     {
       "q": "Why does Paul give thanks for the Corinthians' speech, knowledge, and gifts?",
       "options": [
-        { "text": "Because they are all evidence of the grace God has given them in Christ.", "weight": 100, "note": "Verses 4 to 7 trace every enrichment back to grace given in Christ Jesus." },
-        { "text": "Because these achievements proved how spiritually advanced they were.", "weight": 75, "note": "The gifts are real, but Paul credits grace, not their achievement, and later warns against pride." },
-        { "text": "Because their gifts made them superior to other churches.", "weight": 25, "note": "The gifts are gifts of grace for service, not a badge of superiority." },
-        { "text": "Because they had generated these gifts by their own effort.", "weight": 0, "note": "Every gift is charisma, an outflow of grace freely given by God." }
+        {
+          "text": "Because they are all evidence of the grace God has given them in Christ.",
+          "weight": 100,
+          "note": "Verses 4 to 7 trace every enrichment back to grace given in Christ Jesus."
+        },
+        {
+          "text": "Because these achievements proved how spiritually advanced they were.",
+          "weight": 75,
+          "note": "The gifts are real, but Paul credits grace, not their achievement, and later warns against pride."
+        },
+        {
+          "text": "Because their gifts made them superior to other churches.",
+          "weight": 25,
+          "note": "The gifts are gifts of grace for service, not a badge of superiority."
+        },
+        {
+          "text": "Because they had generated these gifts by their own effort.",
+          "weight": 0,
+          "note": "Every gift is charisma, an outflow of grace freely given by God."
+        }
       ]
     },
     {
       "q": "What does the word fellowship (koinonia) in verse 9 imply for a divided church?",
       "options": [
-        { "text": "That those who share in Christ are bound together and should not splinter into rival camps.", "weight": 100, "note": "Fellowship with the Son binds believers to one another, undercutting the coming party spirit." },
-        { "text": "That believers simply attend the same gatherings from time to time.", "weight": 75, "note": "Koinonia is deeper than attendance; it is a genuine partnership of life in Christ." },
-        { "text": "That each believer relates to Christ privately with no bond to others.", "weight": 25, "note": "Fellowship with the Son necessarily joins believers to one another as well." },
-        { "text": "That fellowship depends on all agreeing about their favorite teacher.", "weight": 0, "note": "The bond is in Christ Himself, not in loyalty to human leaders." }
+        {
+          "text": "That those who share in Christ are bound together and should not splinter into rival camps.",
+          "weight": 100,
+          "note": "Fellowship with the Son binds believers to one another, undercutting the coming party spirit."
+        },
+        {
+          "text": "That believers simply attend the same gatherings from time to time.",
+          "weight": 75,
+          "note": "Koinonia is deeper than attendance; it is a genuine partnership of life in Christ."
+        },
+        {
+          "text": "That each believer relates to Christ privately with no bond to others.",
+          "weight": 25,
+          "note": "Fellowship with the Son necessarily joins believers to one another as well."
+        },
+        {
+          "text": "That fellowship depends on all agreeing about their favorite teacher.",
+          "weight": 0,
+          "note": "The bond is in Christ Himself, not in loyalty to human leaders."
+        }
       ]
     }
   ],
@@ -144,9 +363,21 @@
     "Paul lived with the day of Christ in view. How would eagerly awaiting Christ's return reshape your priorities this week?"
   ],
   "translationNotes": [
-    { "ref": "1 Corinthians 1:1", "note": "Sosthenes is likely the synagogue ruler of Acts 18:17, who was beaten in Corinth; if so, his appearance here as Paul's brother is a quiet testimony to the gospel's power to transform a former opponent." },
-    { "ref": "1 Corinthians 1:2", "note": "Called to be holy renders the same root as sanctified earlier in the verse; the BSB captures both the settled status, set apart in Christ, and the ongoing calling to live it out." },
-    { "ref": "1 Corinthians 1:8", "note": "The day of our Lord Jesus Christ echoes the Old Testament day of the LORD, now centered on Christ's return, when His people will be found blameless." }
+    {
+      "ref": "1 Corinthians 1:1",
+      "note": "Sosthenes is likely the synagogue ruler of Acts 18:17, who was beaten in Corinth; if so, his appearance here as Paul's brother is a quiet testimony to the gospel's power to transform a former opponent."
+    },
+    {
+      "ref": "1 Corinthians 1:2",
+      "note": "Called to be holy renders the same root as sanctified earlier in the verse; the BSB captures both the settled status, set apart in Christ, and the ongoing calling to live it out."
+    },
+    {
+      "ref": "1 Corinthians 1:8",
+      "note": "The day of our Lord Jesus Christ echoes the Old Testament day of the LORD, now centered on Christ's return, when His people will be found blameless."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for 1 Corinthians 1:1-9. wording is otherwise unchanged." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for 1 Corinthians 1:1-9. wording is otherwise unchanged."
+  }
 }
