@@ -18,8 +18,16 @@
         "note": "Paul lays down his authority",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 8, "text": "So although in Christ I am bold enough to order you to do what is proper," },
-          { "chapter": 1, "n": 9, "text": "I prefer to {{parakaleo|appeal}} on the basis of love. For I, Paul, am now aged, and a prisoner of Christ Jesus as well." }
+          {
+            "chapter": 1,
+            "n": 8,
+            "text": "So although in Christ I am bold enough to order you to do what is proper,"
+          },
+          {
+            "chapter": 1,
+            "n": 9,
+            "text": "I prefer to {{parakaleo|appeal}} on the basis of love. For I, Paul, am now aged, and a prisoner of Christ Jesus as well."
+          }
         ]
       },
       {
@@ -27,9 +35,21 @@
         "note": "the wordplay on his name",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 10, "text": "I appeal to you for my {{teknon|child}} {{onesimos|Onesimus}}, whose father I became while I was in chains." },
-          { "chapter": 1, "n": 11, "text": "Formerly he was {{achrestos|useless}} to you, but now he has become {{euchrestos|useful}} both to you and to me." },
-          { "chapter": 1, "n": 12, "text": "I am sending back to you him who is my very {{splagchna|heart}}." }
+          {
+            "chapter": 1,
+            "n": 10,
+            "text": "I appeal to you for my {{teknon|child}} {{onesimos|Onesimus}}, whose father I became while I was in chains."
+          },
+          {
+            "chapter": 1,
+            "n": 11,
+            "text": "Formerly he was {{achrestos|useless}} to you, but now he has become {{euchrestos|useful}} both to you and to me."
+          },
+          {
+            "chapter": 1,
+            "n": 12,
+            "text": "I am sending back to you him who is my very {{splagchna|heart}}."
+          }
         ]
       },
       {
@@ -37,8 +57,16 @@
         "note": "goodness that is free",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 13, "text": "I would have liked to keep him with me, so that on your behalf he could minister to me in my chains for the gospel." },
-          { "chapter": 1, "n": 14, "text": "But I did not want to do anything without your consent, so that your goodness will not be out of compulsion, but by your own free will." }
+          {
+            "chapter": 1,
+            "n": 13,
+            "text": "I would have liked to keep him with me, so that on your behalf he could minister to me in my chains for the gospel."
+          },
+          {
+            "chapter": 1,
+            "n": 14,
+            "text": "But I did not want to do anything without your consent, so that your goodness will not be out of compulsion, but by your own free will."
+          }
         ]
       },
       {
@@ -46,20 +74,63 @@
         "note": "the gospel remakes the relationship",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 15, "text": "For perhaps this is why he was separated from you for a while, so that you might have him back for good:" },
-          { "chapter": 1, "n": 16, "text": "no longer as a {{doulos|slave}}, but better than a slave, as a beloved brother. He is especially beloved to me, but even more so to you, both in person and in the Lord." }
+          {
+            "chapter": 1,
+            "n": 15,
+            "text": "For perhaps this is why he was separated from you for a while, so that you might have him back for good:"
+          },
+          {
+            "chapter": 1,
+            "n": 16,
+            "text": "no longer as a {{doulos|slave}}, but better than a slave, as a beloved brother. He is especially beloved to me, but even more so to you, both in person and in the Lord."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "parakaleo": { "language": "Greek", "lemma": "parakaleo", "original": "παρακαλέω", "gloss": "To appeal, urge, exhort, comfort, or come alongside. Though in Christ he is bold enough to command, Paul deliberately chooses to appeal, to plead by love rather than compel by authority. The word signals the whole method of the letter: persuasion born of love in place of coercion." },
-    "teknon": { "language": "Greek", "lemma": "teknon", "original": "τέκνον", "gloss": "A child. Paul calls Onesimus his child, whose father he became while in chains, meaning he led Onesimus to faith in Christ during his imprisonment. The word conveys tender spiritual fatherhood and stakes Paul's own heart in the request." },
-    "onesimos": { "language": "Greek", "lemma": "Onesimos", "original": "Ὀνήσιμος", "gloss": "Onesimus, a common name given to slaves, meaning useful or beneficial. Paul plays on its meaning: the man named Useful had once been useless, but in Christ has become truly useful, living up to his name at last. The pun carries the good news that Christ makes people what they were meant to be." },
-    "achrestos": { "language": "Greek", "lemma": "achrestos", "original": "ἄχρηστος", "gloss": "Useless, unprofitable, good for nothing. Paul uses it of Onesimus before his conversion, a pointed play on the name Useful. The root chrestos sounds much like Christos, Christ, so many hear a further echo: apart from Christ he was useless, but in Christ he is not." },
-    "euchrestos": { "language": "Greek", "lemma": "euchrestos", "original": "εὔχρηστος", "gloss": "Useful, serviceable, profitable, of good use. Now, transformed by the gospel, Onesimus has become useful both to Philemon and to Paul. The word completes the wordplay and pictures the practical fruit of a changed life in Christ." },
-    "splagchna": { "language": "Greek", "lemma": "splagchna", "original": "σπλάγχνα", "gloss": "Literally the inward parts, used figuratively for the deepest affections, the heart. Paul says Onesimus is his very splagchna; to send him back is to send his own heart. The word binds Paul's love for Onesimus to the refreshing of hearts he praised in verse 7 and will ask for again in verse 20." },
-    "doulos": { "language": "Greek", "lemma": "doulos", "original": "δοῦλος", "gloss": "A slave or bondservant, someone owned and bound to serve. It names the social reality Paul is quietly overturning: Onesimus is to be received no longer merely as a slave but as a beloved brother, a new relationship in which the old category can no longer hold the same meaning." }
+    "parakaleo": {
+      "language": "Greek",
+      "lemma": "parakaleo",
+      "original": "παρακαλέω",
+      "gloss": "To appeal, urge, exhort, comfort, or come alongside. Though in Christ he is bold enough to command, Paul deliberately chooses to appeal, to plead by love rather than compel by authority. The word signals the whole method of the letter: persuasion born of love in place of coercion."
+    },
+    "teknon": {
+      "language": "Greek",
+      "lemma": "teknon",
+      "original": "τέκνον",
+      "gloss": "A child. Paul calls Onesimus his child, whose father he became while in chains, meaning he led Onesimus to faith in Christ during his imprisonment. The word conveys tender spiritual fatherhood and stakes Paul's own heart in the request."
+    },
+    "onesimos": {
+      "language": "Greek",
+      "lemma": "Onesimos",
+      "original": "Ὀνήσιμος",
+      "gloss": "Onesimus, a common name given to slaves, meaning useful or beneficial. Paul plays on its meaning: the man named Useful had once been useless, but in Christ has become truly useful, living up to his name at last. The pun carries the good news that Christ makes people what they were meant to be."
+    },
+    "achrestos": {
+      "language": "Greek",
+      "lemma": "achrestos",
+      "original": "ἄχρηστος",
+      "gloss": "Useless, unprofitable, good for nothing. Paul uses it of Onesimus before his conversion, a pointed play on the name Useful. The root chrestos sounds much like Christos, Christ, so many hear a further echo: apart from Christ he was useless, but in Christ he is not."
+    },
+    "euchrestos": {
+      "language": "Greek",
+      "lemma": "euchrestos",
+      "original": "εὔχρηστος",
+      "gloss": "Useful, serviceable, profitable, of good use. Now, transformed by the gospel, Onesimus has become useful both to Philemon and to Paul. The word completes the wordplay and pictures the practical fruit of a changed life in Christ."
+    },
+    "splagchna": {
+      "language": "Greek",
+      "lemma": "splagchna",
+      "original": "σπλάγχνα",
+      "gloss": "Literally the inward parts, used figuratively for the deepest affections, the heart. Paul says Onesimus is his very splagchna; to send him back is to send his own heart. The word binds Paul's love for Onesimus to the refreshing of hearts he praised in verse 7 and will ask for again in verse 20."
+    },
+    "doulos": {
+      "language": "Greek",
+      "lemma": "doulos",
+      "original": "δοῦλος",
+      "gloss": "A slave or bondservant, someone owned and bound to serve. It names the social reality Paul is quietly overturning: Onesimus is to be received no longer merely as a slave but as a beloved brother, a new relationship in which the old category can no longer hold the same meaning."
+    }
   },
   "study": {
     "basic": {
@@ -73,92 +144,264 @@
       "oneStory": "The gospel does not merely improve the old order; it makes new people who cannot see one another the old way again. In turning a slave and his master into brothers, this passage shows the reconciling power that runs through the whole Bible and will one day heal every division."
     },
     "context": {
-      "literary": "The body and climax of the letter. Paul's rhetoric is careful and warm: he first disarms by declining to command, then names Onesimus only after building affection, saving the name for verse 10. The wordplay in verse 11 is the hinge, and the movement rises to its point in verse 16, no longer a slave but a beloved brother.",
-      "historical": "Onesimus was Philemon's slave who had run away, quite possibly having wronged or robbed him, a capital-level offense under Roman law where runaways could be branded, imprisoned, or killed. He somehow reached Paul in prison, was converted, and is now being sent back, which was legally required, but with a letter that transforms the terms of his return. Roman slavery was widespread and not race based, an economic and social institution into which people fell through debt, war, or birth.",
-      "canonical": "The letter became a touchstone in later debates over slavery. Read rightly, it does not endorse the institution but sows the seed of its undoing: by making master and slave brothers, equally beloved and equally in the Lord, it plants a truth that slavery cannot finally survive."
+      "literary": "This is the pivot of the letter, and Paul builds it with the care of a trained speaker. The two verses that open it, 8 and 9, are a pair of clauses set side by side: 'although I am bold enough to order,' 'I prefer to appeal.' He states what he could do before he says what he will do, so that Philemon hears the authority and the restraint in one breath. The restraint is the point.\n\nThe request itself is delayed. Verse 10 begins 'I appeal to you for my child,' adds a clause about fatherhood 'while I was in chains,' and only then, at the very end of the Greek sentence, supplies the name Onesimus. A man who has been waiting for the name hears it only after he has been told who the child is and what he cost. The name that Philemon associates with a runaway comes to him wrapped in tenderness.\n\nVerses 11 to 14 move by contrast. Useless becomes useful. 'To you' is joined to 'to me.' 'I am sending back' is set against 'I would have liked to keep.' 'Compulsion' is set against 'free will.' The balance is deliberate, and every pair keeps both men in view, so that neither the slave nor the master is lost.\n\nVerses 15 and 16 give the reason, and they are phrased gently. 'Perhaps' softens the claim, and the reasoning turns on a passive verb, 'he was separated,' that does not say who did the separating. The climactic word of the whole section is 'brother,' placed at the end of verse 16 and reinforced by three phrases, 'better than a slave,' 'especially beloved to me, but even more so to you,' and 'both in person and in the Lord.' The 'more so' is a quiet shift of the weight from Paul to Philemon.\n\nThe unit is also tied to what has gone before. 'Heart,' 'appeal' and 'good' all return from verses 5 to 7, and they have been given their first meaning there.",
+      "historical": "Onesimus was a slave in a Roman household, and the law gave his owner wide power over him. A slave who ran away was a fugitive. Harbouring one was an offence, owners could hire professional trackers, and a recaptured runaway could expect harsh punishment. Paul's sending of Onesimus back is therefore a risk for Onesimus, and Paul puts the weight of his own name behind him. A person in Onesimus's position had few choices, and those who ran often went to cities where they could hide.\n\nHow Onesimus came to Paul is not told. Some have suggested that he knew Paul through his master's house, since Philemon was Paul's convert and Paul's name would have been familiar there. Others think they met in a place of custody, since verse 10 speaks of Paul's 'chains.' A third proposal draws on discussions in Roman legal writers of a slave who flees to a friend of his master to plead for him, so that he is not counted a true runaway. The letter does not choose among these, and its argument works under each.\n\nSlavery in the Roman world was widespread and varied. Many slaves worked in households as servants, accountants, teachers or craftsmen, and some were treated with real regard, while others were exploited without limit. Manumission was common, though it often left the freed person bound by duties to the former owner. 'Onesimus' was a name often given to slaves, and Paul's wordplay on it works because it was an ordinary name for a person of his rank.\n\nPaul writes from a position of limited means. He is 'now aged,' verse 9, and a prisoner, and the ancient world esteemed age. Paul's age and long service were a form of authority, and he sets them aside as a gift.\n\nThe household church makes the appeal public. The letter will be read in the presence of the believers who meet at Philemon's house, and in that setting an act of generosity or of harshness toward Onesimus would be seen by all.",
+      "canonical": "Paul's refusal to command echoes his practice elsewhere. In 1 Thessalonians 2:6 and 7 he says that he could have asserted authority 'as apostles of Christ' but was 'gentle among you, like a nursing mother.' In 2 Corinthians 8:8 he says 'I am not making a demand,' and in 1 Peter 5:2 and 3 elders are told to shepherd 'not out of compulsion' and not 'lording it over those entrusted to you.' Jesus gave the standard: 'It shall not be this way among you,' Matthew 20:26. The same word for compulsion is in 2 Corinthians 9:7, where God loves a cheerful giver 'not out of regret or compulsion.' Philemon's goodness must be free, or it is not goodness.\n\nThe treatment of slavery in the Bible gives the passage its context. The Torah regulates servitude and limits it: Hebrew servants went free in the seventh year, Exodus 21:2 and Deuteronomy 15:12, with a reminder that Israel too had been 'slaves in the land of Egypt,' Deuteronomy 15:15. Kidnapping a man to sell him was a capital crime, Exodus 21:16, and Paul's list of sinners in 1 Timothy 1:10 includes 'slave traders.' Jeremiah 34:8 to 17 records God's anger at Judah for taking back the slaves it had freed.\n\nDeuteronomy 23:15 and 16 forbids returning a slave who has 'taken refuge with you,' and some readers see a tension with Paul's sending Onesimus back. Genesis 16:9, where the angel tells Hagar to go back to her mistress, shows that Scripture is not a single rule on the matter. Paul's act is a persuasion, not a rendition, and he does not claim that the law requires it.\n\nThe New Testament teaches in several places what the passage enacts. 'There is neither ... slave nor free ... for you are all one in Christ Jesus,' Galatians 3:28. 'Here there is no ... slave, or free, but Christ is all and is in all,' Colossians 3:11. First Timothy 6:2 speaks of masters who are 'believing' and tells slaves not to 'show disrespect because they are brothers,' and Colossians 4:1 tells masters to supply their slaves 'with what is right and fair.' The lost son in Luke 15, who is welcomed back by a running father, is the nearest parable of the scene Paul asks Philemon to repeat."
     },
     "hermeneutics": {
-      "authorIntent": "To win, not force, Philemon's glad reception of Onesimus as a brother, by appealing to love, by staking his own affection on the man, and by reframing the whole relationship in the light of Christ, so that grace rather than law governs the outcome.",
-      "descriptionVsPrescription": "Paul describes and requests a specific reconciliation; he does not prescribe a rule about legal manumission. What he prescribes, and it is revolutionary, is that believers must regard one another as beloved brothers regardless of social station, a truth that quietly dismantles the logic of slavery.",
+      "authorIntent": "Paul wanted the reception of Onesimus to be an act of Philemon's own free love, and he arranged the appeal so that nothing but love could be the cause of it. He lays aside the authority he has, says 'I prefer to appeal,' and then builds an argument from relationship: Onesimus is his child, his heart, and the man who has been useful to him, and now stands as someone Philemon can receive.\n\nHe also wanted Philemon to see Onesimus anew. The name had meant 'useful' and had come to mean 'runaway,' and Paul sets the old meaning of the word beside the new in verse 11 so that Philemon will be tempted to think again. The permission to look at the matter in two ways, as a past of loss and a present of use, is a way of asking for forgiveness without saying 'forgive.'\n\nHe wanted, third, to keep God's hand in view. 'Perhaps this is why he was separated from you,' verse 15, invites Philemon to see in his loss a purpose he could not have planned. Paul does not claim to know it. He puts it as a possibility, and he says 'perhaps' so that Philemon's own mind can recognise it.\n\nFinally, he meant to reorder the household. A slave who is now 'better than a slave,' a brother 'both in person and in the Lord,' cannot be handled as before. Paul does not tell Philemon what that must mean in law. He puts the claim of brotherhood in front of him and trusts the church and the man himself to read its demand.",
+      "descriptionVsPrescription": "The passage records what Paul said and did in one case. It does not command that every Christian send a runaway back to an owner, and it does not command that slavery stand. Paul worked in a world where slavery existed in law, and his sending of Onesimus is a response to a particular man's circumstances and to the dangers of harbouring a fugitive. To read the letter as a charter for the institution is to mistake a description of an appeal for a policy.\n\nWhat the passage prescribes by example is how Christians treat people who have wronged them and how they use influence. Paul does not use his rank; he gives up the use of command and relies on love and on witness. He also treats the person who has wronged as a person with a future, an approach that bears on every setting where a fault has been done.\n\nThe passage does speak to ownership in one clear way. If a believing owner must regard a slave as a beloved brother, then the claim in verse 16 sets the weight of the gospel against the practice. Later Christians who argued against slavery pointed to texts like this one, and they were right to do so. The letter does not give the final law, but it gives a direction, and the direction must be followed to its end.",
       "debates": [
         {
           "question": "Does Philemon endorse or undermine slavery?",
           "views": [
-            { "label": "It undermines slavery from within", "case": "By insisting Onesimus be received no longer as a slave but as a beloved brother, both in person and in the Lord, Paul plants a truth incompatible with owning him. Colossians 3:11 and 1 Corinthians 7 point the same way; the gospel dissolves the relationship from the inside rather than by decree." },
-            { "label": "It merely regulates an existing institution", "case": "Paul works within Roman law, sends the slave back, and does not explicitly demand freedom, which some read as tacit acceptance of slavery as a social given rather than a call to abolish it." }
+            {
+              "label": "It undermines slavery from within",
+              "case": "By insisting Onesimus be received no longer as a slave but as a beloved brother, both in person and in the Lord, Paul plants a truth incompatible with owning him. Colossians 3:11 and 1 Corinthians 7 point the same way; the gospel dissolves the relationship from the inside rather than by decree."
+            },
+            {
+              "label": "It merely regulates an existing institution",
+              "case": "Paul works within Roman law, sends the slave back, and does not explicitly demand freedom, which some read as tacit acceptance of slavery as a social given rather than a call to abolish it."
+            }
           ],
           "bearing": "The stronger reading is that Paul plants the seed of abolition: he does not overthrow Rome by force, but he makes a brotherhood that cannot coexist with bondage. The New Testament ethic he sets in motion undid slavery wherever it was truly believed."
         },
         {
           "question": "Is Paul hinting that Philemon should set Onesimus free?",
           "views": [
-            { "label": "Yes, by strong implication", "case": "Better than a slave, the hope that Philemon will do even more than asked in verse 21, and the offer to repay all debts, together nudge Philemon toward manumission without commanding it, leaving the costly choice to love." },
-            { "label": "The main aim is reconciliation, not manumission", "case": "Paul's explicit request is that Onesimus be welcomed as a brother; freedom may follow, but the letter's heart is restored relationship rather than a change of legal status." }
+            {
+              "label": "Yes, by strong implication",
+              "case": "Better than a slave, the hope that Philemon will do even more than asked in verse 21, and the offer to repay all debts, together nudge Philemon toward manumission without commanding it, leaving the costly choice to love."
+            },
+            {
+              "label": "The main aim is reconciliation, not manumission",
+              "case": "Paul's explicit request is that Onesimus be welcomed as a brother; freedom may follow, but the letter's heart is restored relationship rather than a change of legal status."
+            }
           ],
           "bearing": "Whether or not freedom is formally granted, the relationship can never be the same; a brother beloved in the Lord cannot be treated as mere property, and love is left to draw the obvious conclusion."
+        },
+        {
+          "question": "Was Onesimus a runaway, or had Philemon sent him to Paul?",
+          "views": [
+            {
+              "label": "A runaway who met Paul",
+              "case": "The traditional reading takes verse 15, 'he was separated from you,' and verse 18, 'if he has wronged you ... or owes you anything,' as signs that Onesimus left without leave and perhaps took money. His flight explains why Paul must plead and why he sends the man back with such care."
+            },
+            {
+              "label": "A slave who sought a friend of his master",
+              "case": "Some have proposed that Onesimus fled to Paul as a friend of the household to ask for help in a quarrel, a recognised course in Roman practice, so that he was never a true fugitive. The letter's vague wording, 'separated,' and the absence of the word 'runaway' fit this, and Paul's act becomes an intercession for him."
+            }
+          ],
+          "bearing": "The reading of the gospel in the letter does not rest on the choice. The traditional reading makes Paul's appeal bolder, and the other makes it more tender. On any of them, Philemon is asked to receive a man with a past, as a brother."
+        },
+        {
+          "question": "Does Deuteronomy 23:15 and 16 make Paul's return of Onesimus wrong?",
+          "views": [
+            {
+              "label": "Yes, the law forbids returning a refugee slave",
+              "case": "Moses says 'Do not return a slave to his master if he has taken refuge with you.' If the principle holds in the new covenant, then Paul's sending is a lapse, or at least a hard compromise with a legal order that did not deserve respect."
+            },
+            {
+              "label": "No, the law speaks of a different case",
+              "case": "The Deuteronomy text speaks of a slave who has escaped into Israel from another people, and it is addressed to the nation. Paul is not handing Onesimus over, he is sending him with a letter that asks for him to be received as a brother, and Onesimus goes by choice. Hagar's return in Genesis 16:9 shows that Scripture does not give a single rule."
+            }
+          ],
+          "bearing": "The difference between a rendition and a persuasion is the heart of the matter. Paul sends Onesimus back under the protection of a letter that changes what a return would mean."
         }
       ]
     },
-    "originalLanguages": "The words carry the argument. Paul could command, but prefers to parakaleo, to appeal in love. He names Onesimus his teknon, his child, born to him in chains. Then comes the pun: Onesimus means useful, yet he had been achrestos, useless, and is now euchrestos, useful, the wordplay turning on a changed life, with the root chrestos echoing Christos, Christ, so that apart from Christ he was useless and in Christ he is not. Onesimus is Paul's splagchna, his very heart. And the goal is that he be received no longer as a doulos, a slave, but as a beloved brother. Every key term bends toward reconciliation.",
+    "originalLanguages": "Six words or constructions in these verses show how carefully Paul built the appeal.\n\nFirst, the 'bold' of verse 8 is parresia, a word for freedom and openness of speech, used in Acts 4:13 and 2 Corinthians 3:12 and often of frankness before God and men. The phrase 'to order you to do what is proper' sets the verb of command, epitasso, beside anekon, 'what is fitting.' A form of the same verb occurs in Colossians 3:18, 'as is fitting in the Lord.' Paul claims that the fitting thing is clear enough to be ordered, then declines to order it.\n\nSecond, 'aged' in verse 9 is presbutes, 'old man.' Many scholars have suggested that Paul wrote presbeutes, 'ambassador,' with the difference of a single letter, because Ephesians 6:20 calls him 'an ambassador in chains.' The manuscripts read 'old man' and the BSB follows them. Both thoughts fit the verse, and neither is needed for its argument. The adverb 'now' sets his age against the usual weight of his position.\n\nThird, 'became' in verse 10 translates the verb for fathering, gennao. Paul used the same image in 1 Corinthians 4:15, 'in Christ Jesus I became your father through the gospel,' and in Galatians 4:19, 'for whom I am again in the pains of childbirth.' The word places Onesimus in a new birth, and the name of the child waits at the very end of the sentence.\n\nFourth, 'sending back,' anapempo, in verse 12, can mean 'send up' to a higher authority as well as 'send back.' Luke 23:7 uses it of Pilate sending Jesus to Herod, and Acts 25:21 of sending Paul to Caesar. It fits Paul's act well: he refers the case to the one with proper claim to it. And in verse 13 the phrase 'on your behalf,' hyper sou, means 'in your place.' Onesimus could have served Paul in Philemon's stead, which anticipates the substitution of verses 17 to 19 and echoes Philippians 2:30, where Epaphroditus makes up 'your deficit of service to me.'\n\nFifth, verse 14 sets 'consent,' gnome, which means a considered opinion or decision, against two phrases that give the whole contrast: 'compulsion,' from the word for necessity, and 'free will,' the word for what is done willingly. First Peter 5:2 uses a related pair in an elder's charge, 'not out of compulsion, but because it is God's will.'\n\nSixth, the 'perhaps' of verse 15, a modest word for a claim about providence, and the passive 'was separated,' hide the actor. The phrase 'for a while' is literally 'for an hour,' and 'for good' is the word aionios, which usually means 'eternal.' A slave could be kept for life, but a brother is kept forever. The 'better than a slave' of verse 16 is hyper doulon, 'above a slave,' a phrase that does not say 'not a slave at all' and does not deny it. And 'in person' is literally 'in the flesh,' set beside 'in the Lord,' so that the new tie is lived out in real human circumstances and not only in the spirit.",
     "typology": [
-      { "type": "The runaway received back no longer as a slave but as a beloved brother", "fulfillment": "The gospel welcome of sinners: Christ takes in the useless and the lost, makes them useful and beloved, and brings them home as family, no longer slaves but sons, Galatians 4:7." },
-      { "type": "Onesimus as Paul's very heart, sent to be received", "fulfillment": "A picture of the beloved sent and welcomed; as Paul stakes his heart on Onesimus, so the Father gives what is dearest that the estranged might be received." }
+      {
+        "type": "Joseph sent ahead, Genesis 45:5-8",
+        "fulfillment": "Joseph tells his brothers, 'it was to save lives that God sent me before you,' and later, 'what you intended against me for evil, God intended for good,' Genesis 50:20. Paul's 'perhaps this is why he was separated from you' reads the loss of Onesimus in the same way, and the same quiet providence is visible. The correspondence is a pattern of how God turns separation into salvation, and it is not a type of Onesimus. The escalation lies in Christ, whose being 'sent' and handed over served a purpose no human could plan. The pattern falls short because Paul says only 'perhaps' where Joseph speaks with full knowledge."
+      },
+      {
+        "type": "The lost son received home, Luke 15:20",
+        "fulfillment": "The father in Jesus' parable 'saw him and was filled with compassion' and 'ran to his son, embraced him, and kissed him.' Onesimus's return, with a letter that asks to be received 'as a beloved brother,' has the same shape: a man who left comes back to a household that must choose how to greet him. The parable is a teaching and not a type, and the likeness is of form and not of detail. The fulfilment is in Christ, who 'welcomes sinners,' Luke 15:2, and the likeness fails at one point, since Philemon is the one who must decide, whereas the Father has already."
+      },
+      {
+        "type": "The slave who goes free, Exodus 21:2",
+        "fulfillment": "The Torah released a Hebrew servant in the seventh year, with provision, Deuteronomy 15:13 and 14. Verse 16's 'better than a slave' echoes that direction of travel from bondage toward brotherhood, though the letter does not say that Onesimus must go free. The echo is real but incomplete. Christ fulfils it when He 'proclaims liberty to the captives,' Isaiah 61:1 and Luke 4:18, and when 'if the Son sets you free, you will be free indeed,' John 8:36. The type falls short because the seventh year freed a servant from a master, while Christ frees His people from sin and death."
+      }
     ],
-    "christ": "The wordplay preaches Christ: apart from Him a man is useless, in Him he is made new and truly useful. Christ is the one who pursues the runaway, converts him in a prison cell, and turns a fugitive into a beloved brother. Paul's fatherly love for Onesimus and his willingness to send away the one who is his own heart mirror the Savior who loves the lost and gives what is dearest to bring them home. The whole appeal only makes sense because in Christ there is neither slave nor free.",
-    "god": "God is at work in the least likely places, using a slave's flight, a wrong committed, and an apostle's chains to bring one man to salvation. He reaches to the lowest and the seemingly useless, gives them a new heart and a new family, and delights to remake strangers and even enemies into brothers. This is the God whose grace levels every social wall in Christ.",
+    "christ": "The passage leads to Christ most plainly by pattern. Philippians 2:7 says that Christ 'emptied Himself, taking the form of a servant,' and Mark 10:45 says that 'the Son of Man did not come to be served, but to serve.' Paul's decision to give up command and plead in love is an imitation of that pattern. He does not use what he is entitled to, which is exactly what Christ did in Philippians 2:6.\n\nIt leads to Christ by the new birth. Onesimus is a 'child' whose father Paul became in chains. That is the language of conversion, and conversion is Christ's work. Paul calls himself a father, but the birth is God's, John 1:12 and 13, and the child is Christ's before he is Paul's. Because Onesimus is born again, he is placed in the family of which Christ is the elder brother, 'so that He would be the firstborn among many brothers,' Romans 8:29. Hebrews 2:11 adds that 'Jesus is not ashamed to call them brothers,' and Hebrews 2:17 that He was 'made like His brothers in every way.' Paul's demand that a slave be received as a brother is possible because of that brotherhood.\n\nIt leads to Christ by the change from useless to useful. Second Timothy 2:21 calls a cleansed believer 'useful to the Master,' and the same adjective is used of Mark in 2 Timothy 4:11. A person made useful is a person who has been cleansed and sanctified. No one makes himself useful. Christ does it by washing and by adopting, and the passage shows the result in one man.\n\nIt leads to Christ by freedom and the Lord's ownership. First Corinthians 7:22 says that 'he who was a slave when he was called by the Lord is the Lord's freedman,' and Galatians 4:7 says 'you are no longer a slave, but a son.' The words 'no longer a slave' of verse 16 are in the same family as these. In the gospel, every believer has been bought and set free, and is simultaneously the Lord's slave. The tie that Philemon holds on Onesimus is placed under that larger tie.\n\nThe passage also leads to Christ by Paul's own restraint, which keeps the free character of grace. God did not compel us, and 'the kindness of God our Savior and His love for mankind appeared,' Titus 3:4. The brother who is given willingly is a better picture of salvation than one who is taken by force.\n\nA caution keeps the reading honest. Onesimus is not Christ, and Philemon is not the Father. The passage uses the ordinary forms of human life to show what is true in Christ, and the likeness is one of pattern. The actual link rests on the New Testament's own words about brothers, freedom and new birth.",
+    "god": "The passage shows God as the one who works in what looks like a loss. Paul says 'perhaps this is why he was separated from you for a while.' The phrase does not claim to explain; it says that a man's flight may have been the road by which God brought him to a prison cell and to faith. Genesis 45:5 says the same of Joseph, 'God sent me before you,' and Genesis 50:20 says 'God intended it for good.' Romans 8:28 gives the doctrine in general form, that God 'works all things together for the good of those who love Him.' The hiddenness matters: Paul uses a passive and a 'perhaps,' because the hand of God here is trusted and not read off the surface.\n\nGod is the Father who makes brothers. Ephesians 4:6 speaks of 'one God and Father of all,' and Ephesians 2:19 of a household in which strangers are made family. Onesimus as 'beloved brother' is the working-out of that fatherhood. God does not leave the sinner in the place his sin put him, and He does not leave the owner free to treat the sinner as before.\n\nGod is the one who changes a person's worth. Onesimus 'formerly ... useless' is now 'useful.' This is a recurring work of grace, and Ephesians 2:4 to 7 says that God, 'rich in mercy,' made us alive with Christ and shows 'the surpassing riches of His grace, demonstrated by His kindness to us.' The word 'kindness' there belongs to the same family as the 'useful' of verse 11. The passage reveals a God who makes useful what was useless, and who does so freely.\n\nGod is also not coercive. The point of verses 8 and 14 is that goodness 'out of compulsion' is not the goodness God seeks. Second Corinthians 9:7 says that 'God loves a cheerful giver,' and 1 Peter 5:2 says to shepherd 'not out of compulsion, but because it is God's will.' God invites His people to willing obedience, and the gospel works by persuasion and love. Yet the same God has authority, and Paul says he could have commanded. The passage holds together divine authority and divine gentleness in the person of His servant.\n\nAnd God is just. The letter does not pretend that the wrong done to Philemon is nothing. 'If he has wronged you' is taken seriously in verse 18. A God who forgives does not deny wrong, and a God who receives a runaway is not indifferent to the debt.\n\nFor worship, the passage invites us to praise the God who finds the lost, and to treat as sacred the freedom with which He draws us. It also steadies a reader who is in a loss that has no explanation. Paul's 'perhaps' invites patient trust.",
     "crossReferences": [
-      { "ref": "Colossians 3:11", "note": "In Christ there is no Greek or Jew, slave or free; Christ is all and in all, the truth that reframes Onesimus and Philemon." },
-      { "ref": "1 Corinthians 7:22", "note": "The one called as a slave is the Lord's freedman, and the free person is Christ's slave, relativizing all earthly status." },
-      { "ref": "Galatians 3:28", "note": "There is neither slave nor free, for all are one in Christ Jesus, the principle undoing slavery from within." },
-      { "ref": "Luke 15:20-24", "note": "The lost son welcomed home by a running father, an image of Onesimus received back and of every sinner brought home." }
+      {
+        "ref": "Colossians 4:9",
+        "note": "Paul sends Onesimus to Colossae with Tychicus and calls him 'our faithful and beloved brother, who is one of you.' The letter to the church gives the same verdict as Philemon 16, in public, so Philemon's reception of Onesimus will take place before a congregation that has already been told how to regard him."
+      },
+      {
+        "ref": "Colossians 3:11",
+        "note": "'Here there is no Greek or Jew ... slave, or free, but Christ is all and is in all.' The letter sent with Onesimus states the principle that Philemon 16 applies to a single man. The two texts together show that the principle was not left abstract but was brought to one house."
+      },
+      {
+        "ref": "1 Corinthians 7:20-24",
+        "note": "'He who was a slave when he was called by the Lord is the Lord's freedman,' and 'do not become slaves of men.' Paul also says that a slave who can gain freedom should take the opportunity. It shows that Paul valued freedom, and that Philemon 16 can be read in the same direction."
+      },
+      {
+        "ref": "Galatians 4:1-7",
+        "note": "'So you are no longer a slave, but a son.' Paul's argument about adoption uses the language of slavery and sonship that the passage in Philemon puts into practice. Onesimus, a slave, has been made a brother in the household of God, as every believer has been made a child."
+      },
+      {
+        "ref": "Genesis 45:5-8",
+        "note": "Joseph tells the brothers who sold him that 'God sent me before you to preserve you.' The cautious 'perhaps' of Philemon 15 reads a separation in the same way, as an event that God may have used to bring about a larger good, without claiming that the wrong done was good."
+      },
+      {
+        "ref": "Deuteronomy 23:15-16",
+        "note": "'Do not return a slave to his master if he has taken refuge with you.' The text is often raised against Paul's sending of Onesimus. It deserves an honest hearing, and a reader should note that the law speaks of a runaway who has fled to Israel, while Paul asks for a brother's welcome."
+      },
+      {
+        "ref": "1 Thessalonians 2:6-8",
+        "note": "Paul says that as apostles they 'had authority to demand' respect but were 'gentle among you, like a nursing mother caring for her children.' It is the same manner in which he declines to command in Philemon 8 and 9, and shows that restraint was his regular method."
+      },
+      {
+        "ref": "2 Timothy 2:20-21",
+        "note": "A believer who is cleansed becomes a vessel 'sanctified, useful to the Master.' The same adjective is applied to Onesimus in Philemon 11, and it shows what Paul means: usefulness is a result of being made clean for the Lord's service."
+      },
+      {
+        "ref": "Luke 15:20-24",
+        "note": "The father 'was filled with compassion,' ran to his lost son, and called a feast, 'for this son of mine was dead and is alive again!' It is the nearest parable of a returned member of a household. Philemon is asked to be the father at the road, receiving a man whom his own heart might have excluded."
+      },
+      {
+        "ref": "Philippians 2:25-30",
+        "note": "Paul sends Epaphroditus back to the Philippians and says that he risked his life 'to make up for your deficit of service to me.' It is a close parallel to Philemon 13, where Onesimus could serve Paul 'on your behalf,' and it shows that Paul regularly thought of a church's service as carried out by a friend in its stead."
+      }
     ],
-    "oneStory": "The gospel does not merely reform the old order; it creates new people who can no longer see one another the old way. By turning a slave and his master into beloved brothers, this passage displays the reconciling power that runs through the whole Bible, from a divided humanity toward the day when every wall is down and the redeemed of every station are one family in Christ.",
-    "sermon": { "status": "verified", "preacher": "Alistair Begg", "title": "On the Basis of Love", "url": "https://www.truthforlife.org/resources/sermon/the-basis-of-love/", "why": "The central message of Begg's series A Study in Philemon takes exactly this passage, Philemon 1:8-16, showing how Paul appeals on the basis of love rather than authority and how the gospel transforms Onesimus from useless runaway to beloved brother. A clear, orthodox exposition of this movement's climax." }
+    "oneStory": "The story of the Bible is a story of people made for one another and divided by sin. Genesis 1:27 makes man in God's image, and Genesis 4 shows brothers who kill. Genesis 9 and 10 spread humanity across the earth, and the history of the nations is largely a history of masters and servants, of the strong who take and the weak who are taken. Slavery is not part of the original design. It is a product of the world after Genesis 3, and Scripture knows it. That is why Israel's own law starts from the memory that 'you were slaves in the land of Egypt,' Deuteronomy 15:15, and why the God who brought the people out of 'the house of slavery,' Exodus 20:2, expects them to treat servants differently from the world.\n\nThe prophets point to a day when the oppressed will be set free. Isaiah 61:1 speaks of one who will 'proclaim liberty to the captives and freedom to the prisoners,' and Jesus reads that scroll in Luke 4:18 and says that today it is fulfilled. The rest of the New Testament explains what freedom means: freedom from sin, Romans 6:22, from fear of death, Hebrews 2:15, and from the 'yoke of slavery,' Galatians 5:1. It also explains its form: a family in which 'there is neither ... slave nor free,' Galatians 3:28.\n\nPhilemon is where this larger story touches a particular case. A slave in a Roman house, who has run, is found by an old man in prison and made a child of God. Paul sends him back with a letter that asks for him to be received as a brother. It is a demonstration of what the gospel does when it enters the world as it is: it does not publish a law that undoes Rome in a week, it changes the persons inside the structure so that the structure can no longer stand as it was. The way Paul writes keeps freedom's cost and gift together, since Philemon must give it willingly.\n\nThe story is still moving. Galatians 3:28 does not say that every household has been reformed. The tension between the new family and the old order continued in the churches, and the church has repeatedly had to learn what this letter implies. Later believers argued over this letter, and those who opposed slavery found in verse 16 a claim that no person made in God's image and redeemed by Christ could be treated as property.\n\nThe story ends in a household. A great multitude 'from every nation and tribe and people and tongue' stands before the throne, Revelation 7:9, and all God's servants, free of curse and fear, 'will see His face,' Revelation 22:3 and 4. In that city no one is a runaway and no one is a master over another. The welcome that Paul asks Philemon to give is a small first form of the welcome that will be given to all.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "Alistair Begg",
+      "title": "On the Basis of Love",
+      "url": "https://www.truthforlife.org/resources/sermon/the-basis-of-love/",
+      "why": "The central message of Begg's series A Study in Philemon takes exactly this passage, Philemon 1:8-16, showing how Paul appeals on the basis of love rather than authority and how the gospel transforms Onesimus from useless runaway to beloved brother. A clear, orthodox exposition of this movement's climax."
+    }
   },
   "quiz": [
     {
       "q": "Why does Paul choose to appeal to Philemon rather than command him?",
       "options": [
-        { "text": "He wants Philemon's goodness to be free and from love, not forced by authority.", "weight": 100, "note": "Paul says he prefers to appeal on the basis of love so Philemon acts by his own free will, verses 9 and 14." },
-        { "text": "He is not sure he actually has any authority over Philemon.", "weight": 75, "note": "Paul says he is bold enough to command; he simply chooses not to, for love's sake." },
-        { "text": "He is afraid Philemon will refuse a direct order.", "weight": 25, "note": "Paul is confident of Philemon's obedience; his motive is love, not fear." },
-        { "text": "He thinks commands are always wrong.", "weight": 0, "note": "Paul can and does give commands elsewhere; here he chooses appeal to honor Philemon's willing love." }
+        {
+          "text": "He wants Philemon's goodness to be free and from love, not forced by authority.",
+          "weight": 100,
+          "note": "Paul says he prefers to appeal on the basis of love so Philemon acts by his own free will, verses 9 and 14."
+        },
+        {
+          "text": "He is not sure he actually has any authority over Philemon.",
+          "weight": 75,
+          "note": "Paul says he is bold enough to command; he simply chooses not to, for love's sake."
+        },
+        {
+          "text": "He is afraid Philemon will refuse a direct order.",
+          "weight": 25,
+          "note": "Paul is confident of Philemon's obedience; his motive is love, not fear."
+        },
+        {
+          "text": "He thinks commands are always wrong.",
+          "weight": 0,
+          "note": "Paul can and does give commands elsewhere; here he chooses appeal to honor Philemon's willing love."
+        }
       ]
     },
     {
       "q": "What is the point of Paul's wordplay on the name Onesimus?",
       "options": [
-        { "text": "Onesimus means useful; once he was useless, but in Christ he has become truly useful.", "weight": 100, "note": "The pun in verse 11 pictures how the gospel transforms a person into what they were meant to be." },
-        { "text": "It highlights that God can use anyone, even a lowly slave, for good.", "weight": 75, "note": "A fair application, but the precise point is the transformation from useless to useful in Christ." },
-        { "text": "It shows that Onesimus was always a good and useful servant.", "weight": 25, "note": "The text says he was formerly useless; the change came through Christ." },
-        { "text": "It proves Onesimus never really ran away.", "weight": 0, "note": "He had run away; the point is his transformation, not his innocence." }
+        {
+          "text": "Onesimus means useful; once he was useless, but in Christ he has become truly useful.",
+          "weight": 100,
+          "note": "The pun in verse 11 pictures how the gospel transforms a person into what they were meant to be."
+        },
+        {
+          "text": "It highlights that God can use anyone, even a lowly slave, for good.",
+          "weight": 75,
+          "note": "A fair application, but the precise point is the transformation from useless to useful in Christ."
+        },
+        {
+          "text": "It shows that Onesimus was always a good and useful servant.",
+          "weight": 25,
+          "note": "The text says he was formerly useless; the change came through Christ."
+        },
+        {
+          "text": "It proves Onesimus never really ran away.",
+          "weight": 0,
+          "note": "He had run away; the point is his transformation, not his innocence."
+        }
       ]
     },
     {
       "q": "How does Paul ask Philemon to receive Onesimus back?",
       "options": [
-        { "text": "No longer as a slave but as a beloved brother, both in person and in the Lord.", "weight": 100, "note": "Verse 16 reframes the whole relationship; brotherhood in Christ changes everything." },
-        { "text": "As a forgiven servant restored to his former place.", "weight": 75, "note": "Forgiveness is included, but Paul asks for far more than restored servitude: welcome as a beloved brother." },
-        { "text": "As a hired worker owed wages.", "weight": 25, "note": "Paul reframes him not as an employee but as a beloved brother." },
-        { "text": "As a slave who must be punished for running away.", "weight": 0, "note": "Paul asks for welcome as a brother, not punishment." }
+        {
+          "text": "No longer as a slave but as a beloved brother, both in person and in the Lord.",
+          "weight": 100,
+          "note": "Verse 16 reframes the whole relationship; brotherhood in Christ changes everything."
+        },
+        {
+          "text": "As a forgiven servant restored to his former place.",
+          "weight": 75,
+          "note": "Forgiveness is included, but Paul asks for far more than restored servitude: welcome as a beloved brother."
+        },
+        {
+          "text": "As a hired worker owed wages.",
+          "weight": 25,
+          "note": "Paul reframes him not as an employee but as a beloved brother."
+        },
+        {
+          "text": "As a slave who must be punished for running away.",
+          "weight": 0,
+          "note": "Paul asks for welcome as a brother, not punishment."
+        }
       ]
     },
     {
       "q": "How does this letter bear on the question of slavery?",
       "options": [
-        { "text": "It undermines slavery from within by making master and slave beloved brothers in Christ.", "weight": 100, "note": "Paul plants a truth, brotherhood in the Lord, that slavery cannot finally survive, Colossians 3:11 and Galatians 3:28." },
-        { "text": "It commands the immediate legal abolition of all slavery.", "weight": 75, "note": "Paul does not issue a decree; he plants the deeper truth that dissolves slavery from the inside." },
-        { "text": "It approves of slavery as a good institution.", "weight": 25, "note": "Paul never calls slavery good; he transforms the relationship at its root." },
-        { "text": "It has nothing to say about how people treat one another.", "weight": 0, "note": "The letter is precisely about how the gospel reshapes a real human relationship." }
+        {
+          "text": "It undermines slavery from within by making master and slave beloved brothers in Christ.",
+          "weight": 100,
+          "note": "Paul plants a truth, brotherhood in the Lord, that slavery cannot finally survive, Colossians 3:11 and Galatians 3:28."
+        },
+        {
+          "text": "It commands the immediate legal abolition of all slavery.",
+          "weight": 75,
+          "note": "Paul does not issue a decree; he plants the deeper truth that dissolves slavery from the inside."
+        },
+        {
+          "text": "It approves of slavery as a good institution.",
+          "weight": 25,
+          "note": "Paul never calls slavery good; he transforms the relationship at its root."
+        },
+        {
+          "text": "It has nothing to say about how people treat one another.",
+          "weight": 0,
+          "note": "The letter is precisely about how the gospel reshapes a real human relationship."
+        }
       ]
     },
     {
       "q": "What does Paul mean by calling Onesimus his very heart?",
       "options": [
-        { "text": "Onesimus is his beloved child in the faith, so dear that sending him back is like sending his own heart.", "weight": 100, "note": "Paul uses splagchna, the deep affections, staking his own love on Onesimus, verse 12." },
-        { "text": "Onesimus had become a deeply valued helper and companion to Paul.", "weight": 75, "note": "He was a valued helper, but the phrase conveys far deeper affection: his very heart." },
-        { "text": "Onesimus was a close relative of Paul by blood.", "weight": 25, "note": "The bond is spiritual, not biological; Paul became his father in the faith." },
-        { "text": "It is only a figure of speech with no real feeling.", "weight": 0, "note": "Paul's love for Onesimus is deeply felt and central to the appeal." }
+        {
+          "text": "Onesimus is his beloved child in the faith, so dear that sending him back is like sending his own heart.",
+          "weight": 100,
+          "note": "Paul uses splagchna, the deep affections, staking his own love on Onesimus, verse 12."
+        },
+        {
+          "text": "Onesimus had become a deeply valued helper and companion to Paul.",
+          "weight": 75,
+          "note": "He was a valued helper, but the phrase conveys far deeper affection: his very heart."
+        },
+        {
+          "text": "Onesimus was a close relative of Paul by blood.",
+          "weight": 25,
+          "note": "The bond is spiritual, not biological; Paul became his father in the faith."
+        },
+        {
+          "text": "It is only a figure of speech with no real feeling.",
+          "weight": 0,
+          "note": "Paul's love for Onesimus is deeply felt and central to the appeal."
+        }
       ]
     }
   ],
@@ -170,9 +413,21 @@
     "Paul staked his own heart on Onesimus and sent him back. Who might God be calling you to advocate for, at real cost to yourself?"
   ],
   "translationNotes": [
-    { "ref": "Philemon 1:10", "note": "Onesimus means useful, per the BSB footnote, or beneficial as in verse 20; the name is the key to the wordplay in verse 11." },
-    { "ref": "Philemon 1:11", "note": "Useless and useful render achrestos and euchrestos, a deliberate pun on the name Onesimus; the shared root also echoes the Greek word for Christ, hinting that apart from Christ he was useless." },
-    { "ref": "Philemon 1:16", "note": "Both in person and in the Lord, literally in the flesh and in the Lord, means Onesimus is a brother both in everyday life and in their shared union with Christ." }
+    {
+      "ref": "Philemon 1:10",
+      "note": "Onesimus means useful, per the BSB footnote, or beneficial as in verse 20; the name is the key to the wordplay in verse 11."
+    },
+    {
+      "ref": "Philemon 1:11",
+      "note": "Useless and useful render achrestos and euchrestos, a deliberate pun on the name Onesimus; the shared root also echoes the Greek word for Christ, hinting that apart from Christ he was useless."
+    },
+    {
+      "ref": "Philemon 1:16",
+      "note": "Both in person and in the Lord, literally in the flesh and in the Lord, means Onesimus is a brother both in everyday life and in their shared union with Christ."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Philemon 1:8-16." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Philemon 1:8-16."
+  }
 }

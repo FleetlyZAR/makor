@@ -18,9 +18,21 @@
         "note": "substitution in miniature",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 17, "text": "So if you consider me a {{koinonos|partner}}, receive him as you would receive me." },
-          { "chapter": 1, "n": 18, "text": "But if he has wronged you in any way or owes you anything, {{ellogeo|charge it to my account}}." },
-          { "chapter": 1, "n": 19, "text": "I, Paul, write this with my own hand. I will {{apotino|repay}} it; not to mention that you owe me your very self." }
+          {
+            "chapter": 1,
+            "n": 17,
+            "text": "So if you consider me a {{koinonos|partner}}, receive him as you would receive me."
+          },
+          {
+            "chapter": 1,
+            "n": 18,
+            "text": "But if he has wronged you in any way or owes you anything, {{ellogeo|charge it to my account}}."
+          },
+          {
+            "chapter": 1,
+            "n": 19,
+            "text": "I, Paul, write this with my own hand. I will {{apotino|repay}} it; not to mention that you owe me your very self."
+          }
         ]
       },
       {
@@ -28,7 +40,11 @@
         "note": "the appeal renewed",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 20, "text": "Yes, brother, let me have some {{onaimen|benefit}} from you in the Lord. {{anapauo|Refresh}} my {{splagchna|heart}} in Christ." }
+          {
+            "chapter": 1,
+            "n": 20,
+            "text": "Yes, brother, let me have some {{onaimen|benefit}} from you in the Lord. {{anapauo|Refresh}} my {{splagchna|heart}} in Christ."
+          }
         ]
       },
       {
@@ -36,19 +52,57 @@
         "note": "expecting more than he asks",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 21, "text": "Confident of your obedience, I write to you, knowing that you will do even more than I ask." },
-          { "chapter": 1, "n": 22, "text": "In the meantime, prepare a guest room for me, because I hope that through your prayers I will be restored to you." }
+          {
+            "chapter": 1,
+            "n": 21,
+            "text": "Confident of your obedience, I write to you, knowing that you will do even more than I ask."
+          },
+          {
+            "chapter": 1,
+            "n": 22,
+            "text": "In the meantime, prepare a guest room for me, because I hope that through your prayers I will be restored to you."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "koinonos": { "language": "Greek", "lemma": "koinonos", "original": "κοινωνός", "gloss": "A partner, sharer, one who holds things in common, the personal cousin of the word koinonia from verse 6. Paul appeals to their shared partnership in the gospel: if Philemon counts Paul a partner, then he must welcome Onesimus with the same welcome he would give Paul. The bond of partnership becomes the ground of the request." },
-    "ellogeo": { "language": "Greek", "lemma": "ellogeo", "original": "ἐλλογέω", "gloss": "A commercial term meaning to charge to someone's account, to reckon or impute a debt. Paul tells Philemon to put whatever Onesimus owes onto Paul's ledger. The same accounting language describes how our sin is charged to Christ and His righteousness credited to us, making this a vivid picture of imputation." },
-    "apotino": { "language": "Greek", "lemma": "apotino", "original": "ἀποτίνω", "gloss": "To pay back in full, to repay or make compensation, a legal term for satisfying a debt or damages. Paul writes his personal IOU: I will repay it. He takes on himself a debt he did not incur, standing in Onesimus's place, a small enactment of substitution." },
-    "onaimen": { "language": "Greek", "lemma": "oninemi", "original": "ὀναίμην", "gloss": "May I have benefit, profit, or joy, an optative form expressing a wish. It is a deliberate play on the name Onesimus, which comes from the same root and means useful or beneficial: Paul is saying, in effect, let me have some Onesimus from you, let me profit from you in the Lord. The pun ties his personal request to the very man he is pleading for." },
-    "anapauo": { "language": "Greek", "lemma": "anapauo", "original": "ἀναπαύω", "gloss": "To refresh, give rest, or revive. Paul now asks for himself the very thing he praised Philemon for doing to others in verse 7: refresh my heart. The request turns Philemon's known kindness back toward Paul, and toward Onesimus, whose welcome would be that refreshment." },
-    "splagchna": { "language": "Greek", "lemma": "splagchna", "original": "σπλάγχνα", "gloss": "The inward parts, used figuratively for the deepest affections, the heart. It closes the thread begun in verse 7 and continued in verse 12: Philemon refreshed the hearts of the saints, Onesimus is Paul's own heart, and now Paul asks Philemon to refresh his heart by receiving him." }
+    "koinonos": {
+      "language": "Greek",
+      "lemma": "koinonos",
+      "original": "κοινωνός",
+      "gloss": "A partner, sharer, one who holds things in common, the personal cousin of the word koinonia from verse 6. Paul appeals to their shared partnership in the gospel: if Philemon counts Paul a partner, then he must welcome Onesimus with the same welcome he would give Paul. The bond of partnership becomes the ground of the request."
+    },
+    "ellogeo": {
+      "language": "Greek",
+      "lemma": "ellogeo",
+      "original": "ἐλλογέω",
+      "gloss": "A commercial term meaning to charge to someone's account, to reckon or impute a debt. Paul tells Philemon to put whatever Onesimus owes onto Paul's ledger. The same accounting language describes how our sin is charged to Christ and His righteousness credited to us, making this a vivid picture of imputation."
+    },
+    "apotino": {
+      "language": "Greek",
+      "lemma": "apotino",
+      "original": "ἀποτίνω",
+      "gloss": "To pay back in full, to repay or make compensation, a legal term for satisfying a debt or damages. Paul writes his personal IOU: I will repay it. He takes on himself a debt he did not incur, standing in Onesimus's place, a small enactment of substitution."
+    },
+    "onaimen": {
+      "language": "Greek",
+      "lemma": "oninemi",
+      "original": "ὀναίμην",
+      "gloss": "May I have benefit, profit, or joy, an optative form expressing a wish. It is a deliberate play on the name Onesimus, which comes from the same root and means useful or beneficial: Paul is saying, in effect, let me have some Onesimus from you, let me profit from you in the Lord. The pun ties his personal request to the very man he is pleading for."
+    },
+    "anapauo": {
+      "language": "Greek",
+      "lemma": "anapauo",
+      "original": "ἀναπαύω",
+      "gloss": "To refresh, give rest, or revive. Paul now asks for himself the very thing he praised Philemon for doing to others in verse 7: refresh my heart. The request turns Philemon's known kindness back toward Paul, and toward Onesimus, whose welcome would be that refreshment."
+    },
+    "splagchna": {
+      "language": "Greek",
+      "lemma": "splagchna",
+      "original": "σπλάγχνα",
+      "gloss": "The inward parts, used figuratively for the deepest affections, the heart. It closes the thread begun in verse 7 and continued in verse 12: Philemon refreshed the hearts of the saints, Onesimus is Paul's own heart, and now Paul asks Philemon to refresh his heart by receiving him."
+    }
   },
   "study": {
     "basic": {
@@ -62,84 +116,258 @@
       "oneStory": "The whole Bible moves toward a Mediator who pays what we owe and secures our welcome with the Father. Paul's charge it to my account is one small, bright reflection of that gospel, showing that reconciliation is real, costly, and finally grounded in Christ who took our place."
     },
     "context": {
-      "literary": "The climax of the appeal and its most personal moment. Paul drops into first person emphasis, I, Paul, write this with my own hand, giving the promise the force of a legal note. He renews the earlier language of partnership, benefit, and refreshing, gathering the letter's threads, then softens the pressure with confidence in Philemon and the warm expectation of a visit.",
-      "historical": "Signing in his own hand marks this as a binding personal guarantee, an ancient promissory note. The reminder that Philemon owes Paul his very self likely means Paul had led him to faith. The request to prepare a guest room signals Paul's hoped-for release and the accountability of a coming visit, a gentle encouragement to Philemon to do right.",
-      "canonical": "The passage has long been treasured as an illustration of imputation and substitutionary atonement. The accounting and legal vocabulary, charge it to my account, I will repay, receive him as me, gives concrete, everyday shape to truths the New Testament states directly elsewhere."
+      "literary": "The most striking feature of these verses is how many times Paul speaks of himself. Count the first person in verses 17 to 20: 'consider me,' 'receive him as you would receive me,' 'charge it to my account,' 'I, Paul,' 'my own hand,' 'I will repay,' 'owe me,' 'let me have,' 'my heart.' The passage is saturated with 'I' and 'me,' and Onesimus is never named again. After verse 10 he is only 'him.' Paul has folded the slave into his own person, so that whatever Philemon does to one he does to the other.\n\nThe argument runs in a clean chain of conditions and commands. 'If you consider me a partner' sets the ground, and 'receive him' is the first command. 'If he has wronged you' faces the worst case, and 'charge it to my account' is the second. The signed promise follows, with its sidelong reminder of what Philemon owes. Then the plea is renewed in verse 20, 'Yes, brother,' with a third command, 'Refresh my heart.' Each step answers an objection Philemon might raise before he raises it.\n\nThree earlier words come back. 'Partner,' koinonos in verse 17, belongs to the 'partnership' of verse 6. 'Refresh' and 'heart' in verse 20 are the words of verse 7, where Philemon was praised for refreshing the hearts of the saints. 'Brother' in verse 20 recalls the 'brother' at the close of verse 7 and the 'brother' of verse 16. The thanksgiving made a promise that the appeal now calls in.\n\nEvery imperative in the section is framed as a favour to Paul: receive him as me, charge it to me, refresh my heart, prepare a guest room for me. Having said in verse 8 that he would not order, Paul gives commands only in his own name, as a friend asks a favour.\n\nThe end turns outward. Verse 21 states confidence, verse 22 speaks of a visit, and the 'you' of verse 22 is plural, 'through your prayers,' so the whole church is brought back to hear the close.",
+      "historical": "A runaway slave in the Roman world owed his owner more than his labour. If he left without leave, the time lost was reckoned a loss, and whatever he took or damaged on the way was a further charge. Paul's 'if he has wronged you in any way or owes you anything,' verse 18, is cautious, and it leaves open whether there was a theft, a loss of work, or both. He does not claim to know, and he does not deny.\n\nHis offer to pay is a legal act of a recognised kind. A debt could be taken on by another person, who then became answerable for it, and Paul's 'I will repay it' uses the language of a written promise. He adds, 'I, Paul, write this with my own hand.' Paul regularly dictated his letters and then added a line in his own hand as a mark of authenticity, 1 Corinthians 16:21, Galatians 6:11, Colossians 4:18 and 2 Thessalonians 3:17. Here the personal line has legal weight, for a handwritten acknowledgement of debt was binding, and the wording matches the way such papers were written.\n\nPaul had little to pay with. He was a prisoner who depended on the gifts of churches, and Philippians 4:18 tells of a gift sent through Epaphroditus. The promise is better read as a pledge backed by his friends and by the trust Philemon has in him than as a sum from his own purse. The costliness lies in what Paul puts at risk, his name and the credit of his word before a church.\n\nThe reminder that Philemon 'owes me your very self' points to Paul's part in Philemon's conversion. In an honour culture, a debt of that size outweighs any money. Paul does not collect it. He mentions it and leaves it.\n\nThe request for a guest room places the whole in the culture of hospitality. A visit would let Paul see how Onesimus has been received. The word for the room is the word for lodging that Paul had in Rome, Acts 28:23, and the hope of release agrees with his statements in Philippians 1:25 and 2:24.",
+      "canonical": "The offer to be answerable for another has a long line behind it. When Jacob will not let Benjamin go to Egypt, Judah says, 'I will guarantee his safety. You may hold me personally responsible,' Genesis 43:9. And when Benjamin is accused, Judah goes further, 'please let your servant stay here as my lord's slave in place of the boy,' Genesis 44:33. A man steps into the place of one who is in danger and offers himself as the price. Proverbs warns against such pledges for strangers, Proverbs 11:15 and 17:18, but it does not say that a man should never pledge for a brother, and Paul's 'child' is more than a stranger.\n\nThe law of restitution provides another background. A man who wronged his neighbour was to 'make restitution in full, add a fifth of the value,' and to bring a guilt offering, Leviticus 6:5 to 7 and Numbers 5:7. Paul's pledge to repay the whole sum is at least the first half of that requirement, and Zacchaeus in Luke 19:8 shows a convert going beyond it with a fourfold repayment. The redemption law of Leviticus 25:47 to 49 says that a man sold into bondage 'retains the right of redemption,' and that 'one of his brothers may redeem him.' A family member pays so that a man can go home.\n\nIn the New Testament the same logic is the logic of the gospel. Isaiah 53:6 says that 'the LORD has laid upon Him the iniquity of us all,' and 2 Corinthians 5:21 says that God 'made Him who knew no sin to be sin on our behalf.' Colossians 2:14, which was sent to Colossae with Onesimus, speaks of 'the debt ascribed to us' that God cancelled and 'nailing it to the cross.' Hebrews 7:22 calls Jesus 'the guarantee of a better covenant,' which is the part Judah played, now in a better covenant.\n\nThe command to receive appears in Romans 15:7, 'Accept one another, then, just as Christ accepted you.' And the story in Matthew 18:23 to 35 of a servant forgiven an enormous debt who refused to forgive a small one speaks to Philemon, who has himself been forgiven much."
     },
     "hermeneutics": {
-      "authorIntent": "To secure Onesimus's full welcome by placing himself in Onesimus's stead, offering to pay any debt and asking that the runaway be received as Paul himself, while expressing confident love that expects Philemon to do even more than requested.",
-      "descriptionVsPrescription": "Paul describes a specific, personal act of debt-bearing love; he is not laying down a general rule of finance. The enduring pattern is that gospel reconciliation is costly and often requires a mediator willing to absorb the wrong, supremely fulfilled in Christ.",
+      "authorIntent": "Paul meant to make a refusal costly. By saying 'receive him as you would receive me,' he ties the reception of Onesimus to his own standing with Philemon, so that to turn the slave away is to turn Paul away. By saying 'charge it to my account,' he removes the practical obstacle. By noting what Philemon owes him, he lifts the whole question out of the market and into the world of gifts.\n\nHe meant to do it without force. The letter has already refused to command, and the pledge in verse 19 is a gift, not a demand. The pledge says: whatever Onesimus has cost you, I will bear. It is not a threat but an offer to take the loss, and it leaves Philemon's goodness his own.\n\nHe also meant to show what peacemaking looks like. The one who reconciles two people stands between them and takes on the cost of the breach. Paul does not tell Philemon to forgive from a distance; he gets into the place between the two and pays. Philemon is invited to see what Paul has done and to do likewise.\n\nFinally, Paul meant to leave room. 'You will do even more than I ask' tells Philemon that Paul trusts him with the shape of the answer. And the announcement of a visit is both a warm hope and a gentle sign that Paul will see the result. The letter ends in confidence, and the confidence is an instrument of the appeal.",
+      "descriptionVsPrescription": "The passage records a particular pledge by a particular man in a particular dispute. It does not say that every Christian must stand surety for every debt. Proverbs warns about careless pledges, and the text does not set that aside. Paul's offer is bounded, personal, written out and costly, the act of a man who knows the case and the person.\n\nWhat it prescribes by example is the willingness to stand between an offender and the person offended, and to bear the cost of the breach. Believers are told to 'carry one another's burdens,' Galatians 6:2, and to forgive 'as the Lord forgave you,' Colossians 3:13. Paul shows what this looks like when it has a price attached.\n\nThere is a further caution about how to read the passage as a picture of the gospel. It is a good picture, and the church has used it for centuries. But Paul is not offering a theory of atonement here, and his pledge is a human one. The texts that teach substitution are elsewhere, in Isaiah 53, Romans 3, 2 Corinthians 5 and 1 Peter 3:18. This scene illustrates them. It does not carry the weight of them.\n\nIt also does not tell us whether Paul's money was ever called for. The letter does not record Philemon's answer, so a reader should not claim to know it.",
       "debates": [
         {
           "question": "Is Paul's offer to pay the debt a literal legal promise or a rhetorical gesture of love?",
           "views": [
-            { "label": "A genuine, binding pledge", "case": "Paul signs it in his own hand with the formal language of a promissory note, I will repay it, treating the debt as real and assumable and giving Philemon no financial reason to withhold welcome." },
-            { "label": "A loving gesture that also reminds Philemon of his own debt", "case": "In the same breath Paul notes that Philemon owes him his very self, gently implying the account is more than settled, so the offer functions as much to melt resistance as to transfer funds." }
+            {
+              "label": "A genuine, binding pledge",
+              "case": "Paul signs it in his own hand with the formal language of a promissory note, I will repay it, treating the debt as real and assumable and giving Philemon no financial reason to withhold welcome."
+            },
+            {
+              "label": "A loving gesture that also reminds Philemon of his own debt",
+              "case": "In the same breath Paul notes that Philemon owes him his very self, gently implying the account is more than settled, so the offer functions as much to melt resistance as to transfer funds."
+            }
           ],
           "bearing": "Either way the effect is the same and the gospel picture stands: Paul places himself between the offended and the offender and takes the cost upon himself, so that Onesimus can be freely received."
+        },
+        {
+          "question": "What does 'you will do even more than I ask' (verse 21) point to?",
+          "views": [
+            {
+              "label": "Freeing Onesimus",
+              "case": "Paul has said Onesimus is 'better than a slave' and has spoken of a debt he will pay. Many readers hear in 'even more than I ask' a hint that Philemon should release him, since nothing short of that would exceed a welcome as a brother."
+            },
+            {
+              "label": "Sending Onesimus back to Paul",
+              "case": "Verse 13 said that Paul would like to keep him to serve him 'in my chains for the gospel.' Some have proposed that the 'more' is Philemon's sending Onesimus back to help Paul in his ministry, whether freed or not."
+            },
+            {
+              "label": "A fuller welcome and forgiveness",
+              "case": "The 'more' may only mean that Philemon will go beyond the minimum, receiving Onesimus warmly, forgiving the debt altogether and making him feel at home. The request is the hospitable one, and Paul trusts Philemon to go further than the bare request."
+            }
+          ],
+          "bearing": "The text does not choose, and it may be that Paul wants it that way. In every reading the 'more' is Philemon's own willing act. The letter leaves the decision to a man who has been asked to love."
+        },
+        {
+          "question": "Is Paul's offer a picture of imputation and substitution?",
+          "views": [
+            {
+              "label": "Yes, a deliberate picture of the gospel",
+              "case": "The language of receiving 'as me' and charging 'to my account' is the language of transfer. Reformation readers, Luther among them, saw in Paul's offer a picture of what Christ does for sinners, taking the debt on Himself and giving us His standing before the Father, and many have preached it so."
+            },
+            {
+              "label": "A human act that resembles the gospel",
+              "case": "Paul says nothing about atonement here, and his promise concerns a money debt and a social welcome. On this view it is a Christlike act that illustrates the gospel, but the doctrine of imputation rests on texts that say it, such as Romans 4 and 2 Corinthians 5:21."
+            }
+          ],
+          "bearing": "Both readings keep the picture and keep it honest. The scene helps us see what substitution looks like in human life, while the doctrine stands on the clear statements of Scripture. It is an illustration and not a proof."
         }
       ]
     },
-    "originalLanguages": "The vocabulary of the marketplace and the courtroom is bent toward grace. Paul appeals as a koinonos, a partner: receive him as you would me. He uses ellogeo, an accounting term, charge it to my account, and apotino, a legal term, I will repay it, signing the note in his own hand. Then he puns once more on the name Onesimus with onaimen, may I have benefit from you, and asks Philemon to anapauo, refresh, his splagchna, his heart, closing the thread from verse 7. Business language becomes the language of substitution.",
+    "originalLanguages": "Five details of the Greek show how Paul built the section.\n\nFirst, 'receive' in verse 17 is a form of proslambano, a verb for taking someone to oneself, and so for welcoming. It is the word in Romans 15:7, 'Accept one another, then, just as Christ accepted you,' and in Romans 14:1, and the islanders of Acts 28:2 'welcomed' Paul's company with it. It is a verb of hospitality and of acceptance. The phrase 'as me' is a short, blunt one in Greek, and Paul uses it to place Onesimus in his own seat.\n\nSecond, the pair of nouns 'wronged' and 'owes' in verse 18 comes from two kinds of language. The verb 'wronged,' adikeo, is the language of injury or injustice, the same verb used in Colossians 3:25, 'Whoever does wrong will be repaid for his wrong,' in the household instructions that Colossians sends to the same town. The verb 'owes,' opheilo, is the language of debt. Paul covers both a moral and a financial claim. The verb 'charge,' ellogeo, belongs to the vocabulary of accounts, and Paul uses it again in Romans 5:13, 'sin is not taken into account when there is no law.' To ask that something be put on his account is to ask that it be moved from one ledger to another.\n\nThird, 'with my own hand' is a dative phrase, and its wording matches the way handwritten bonds were written. A related word in Colossians 2:14, cheirographon, is the 'handwritten' certificate of debt that God cancelled at the cross, rendered 'the debt ascribed to us.' Paul signs a bond for Onesimus in Philemon, and God cancels the bond against us in Colossians. The same letter bearer carried both.\n\nFourth, 'not to mention that you owe me your very self' uses a figure the ancients named paralipsis: one says a thing by saying that one will not say it. The verb for 'owe in addition' is a compound of the ordinary verb for owing. Paul declines to collect the debt and, in declining, collects it.\n\nFifth, 'obedience' in verse 21 is hupakoe, the word of submission, set after Paul has refused to order. It need not mean obedience to Paul's person, since Paul has just said he does not command, and it may well mean obedience to the gospel and to the word Philemon has already heard. 'More than I ask' is literally 'above the things I say.' In verse 22 the word for 'guest room' means lodging for a guest, and the verb 'I will be restored,' charizomai, comes from the same root as grace, so that the last personal request of the letter is again a gift. Even a prisoner's release is 'graciously granted.'",
     "typology": [
-      { "type": "Receive him as you would receive me, verse 17", "fulfillment": "The Father receives believers as He receives His Son; united to Christ, we are welcomed in His name and with His standing, Ephesians 1:6." },
-      { "type": "Charge his debt to my account, I will repay it, verses 18 to 19", "fulfillment": "Christ takes our debt of sin upon Himself and cancels the record against us, paying in full at the cross, Colossians 2:14 and 2 Corinthians 5:21." }
+      {
+        "type": "Judah's pledge for Benjamin, Genesis 43:9 and 44:33",
+        "fulfillment": "Judah offered himself as a guarantee for his brother, and then asked to stay as a slave in his place. Paul's 'charge it to my account' and 'receive him as me' have the same shape: one man takes the position of another so that the other can go free. The escalation in Christ is that He is the 'guarantee of a better covenant,' Hebrews 7:22, and that He did not offer to be a slave in our stead but took our death, 1 Peter 3:18. Judah's offer was never tested and Paul's may never be called in, whereas Christ's was paid in full."
+      },
+      {
+        "type": "The brother who redeems, Leviticus 25:47-49",
+        "fulfillment": "A man who had sold himself into bondage could be redeemed by a relative, 'one of his brothers,' who paid the price. Paul stands as a brother to Onesimus, and his offer to pay is a small version of the redeemer's work. Christ is the Brother who fulfils it, 'made like His brothers in every way,' Hebrews 2:17, who redeems 'by His own blood, thus securing eternal redemption,' Hebrews 9:12. The type falls short because a human redeemer paid a price to a master and the price could be counted out, while Christ's redemption cost His life and was paid to no one's gain but ours."
+      },
+      {
+        "type": "Restitution and the guilt offering, Leviticus 6:4-7",
+        "fulfillment": "The law asked a wrongdoer to repay what he had taken, add a fifth, and bring a ram so that the priest could make atonement. Paul's pledge to repay stands in that line. Isaiah 53:10 says that the Servant's soul 'is made a guilt offering,' and Christ pays both what is owed and the cost of atonement together. The pattern is a general one, the offender made right with the one offended, and a reader should not press the details. Paul is not a priest and his pledge is not a sacrifice. It is the human act that the sacrifice makes clear."
+      }
     ],
-    "christ": "This is the letter's brightest window onto the gospel. As Paul says of Onesimus, receive him as me and charge his debt to me, so Christ takes our debt to Himself and clothes us in His own welcome, so that the Father receives us as He receives His beloved Son. Paul stands between the wronged master and the guilty slave and offers to bear the loss; Christ stands between a holy God and guilty sinners and bears the loss in full. Paul offers an IOU written in ink; Christ signs our pardon in His own blood. The shadow here helps us feel the weight of the reality.",
-    "god": "God is revealed as the reconciler who does not merely excuse wrong but absorbs its cost. In Paul's readiness to pay a debt he never ran up, we catch the very heart of God, who in Christ takes responsibility for what we owe so that we, the guilty and the estranged, can be brought home and welcomed as family. This is grace that is neither cheap nor pretended, but paid for.",
+    "christ": "The passage leads to Christ by the clearest pattern in the letter. Paul stands between an offended master and an offending slave and says two things: 'receive him as you would receive me,' and 'charge it to my account.' Those two sentences are the exchange at the heart of the gospel. Our debt is placed on Christ, and His standing is given to us. Second Corinthians 5:21 says that God 'made Him who knew no sin to be sin on our behalf, so that in Him we might become the righteousness of God.' Isaiah 53:6 says that 'the LORD has laid upon Him the iniquity of us all.' Paul's offer is a small, human image of this, and it is no accident that the apostle who wrote Romans 5 and Colossians 2 should write the sentence.\n\nThe first half, 'receive him as me,' matches what Scripture says about our standing. Grace is 'freely given us in the Beloved One,' Ephesians 1:6, and the Father receives us for the Son's sake. Philippians 3:9 speaks of being 'found in Him, not having my own righteousness from the law, but that which is through faith in Christ.' Philemon is asked to see Onesimus as he would see Paul, and the believer is received by the Father as He receives His Son.\n\nThe second half, 'charge it to my account,' matches what Scripture says about our debt. Colossians 2:14 tells of 'the debt ascribed to us' that God cancelled, 'nailing it to the cross,' and Romans 4:8 says 'Blessed is the man whose sin the Lord will never count against him.' Peter writes that Christ 'bore our sins in His body on the tree,' 1 Peter 2:24, and 'suffered for sins once for all, the righteous for the unrighteous, to bring you to God,' 1 Peter 3:18. The cost to Paul is a sum of money and a risk to his name. The cost to Christ was His life, and Romans 5:8 says that He paid it 'while we were still sinners.'\n\nPaul is also, in the sense of Hebrews 7:25, an intercessor. Christ 'always lives to intercede,' and 1 John 2:1 calls Him 'an advocate before the Father.' Paul pleads before Philemon for a guilty man, and Christ pleads before the Father for His people, with His own life as the argument.\n\nThe Lord who bears the debt does not hold it over those He saves. Paul does not hold his debt over Philemon either; he mentions it and drops it. It is the way of grace to give without calculating.\n\nThe caution is plain. Paul is not Christ, and his pledge is not atonement. Paul's offer is a pointer, and what it points to is stated by the New Testament in plain words. The picture is useful because it makes visible, in one household, what Christ has done for sinners.",
+    "god": "The passage shows a God who pays what He does not owe. In Paul's offer the reader sees, as through a window, the heart of God who does not merely forgive sin but bears its cost. Romans 3:25 and 26 say that God presented Christ as the atoning sacrifice 'to demonstrate His righteousness,' so as to be 'just and to justify the one who has faith in Jesus.' God does not pretend the debt is nothing. He takes it. First John 4:10 says that love consists in this: that He 'loved us and sent His Son as the atoning sacrifice for our sins.' Paul's 'I will repay it' is a distant echo of that sentence.\n\nGod is also the one who receives. 'Receive him as you would receive me' is the language of a welcome that is not grudging. The father in Luke 15:20 runs to the son, and the Lord in John 6:37 says, 'the one who comes to Me I will never drive away.' The Father's acceptance of sinners is for the sake of the Son, and is full and not partial.\n\nGod is just and merciful at once. The pledge does not dissolve the claim; it meets it. This is what Romans 3:26 means by 'just and justifier.' A God who simply waved away wrong would not be just, and a God who simply exacted payment would not be merciful. In the pledge of verses 18 and 19 both are present, since the wrong is named and paid.\n\nGod is a God who gives freely and who makes the recipient free to respond. Paul does not hand Philemon a bill or a threat; he leaves the final act to Philemon's love. God likewise draws sinners without forcing them, and the willing welcome He wants is a response of love, not of fear.\n\nGod also gives more than is asked. 'You will do even more than I ask' expresses a trust that goodness overflows, and Ephesians 3:20 speaks of the One 'who is able to do so much more than all we ask or imagine.' Paul's hope in Philemon mirrors a larger hope in the God who has begun the work in him.\n\nFinally, God hears prayer and brings His servants back. 'Through your prayers I will be restored to you' places Philemon's prayers among the means by which God acts. The word 'restored' is a word of grace.\n\nFor worship, the passage asks us to stand in wonder at a God who takes a debt on Himself and then asks nothing but trust, and to see that the same God asks us to extend to others what He has extended to us. Anyone forgiven a great debt, as in Matthew 18:27, is expected to be the kind of person who forgives.",
     "crossReferences": [
-      { "ref": "2 Corinthians 5:21", "note": "God made Christ, who knew no sin, to be sin for us, that we might become the righteousness of God in Him, the exchange Paul pictures here." },
-      { "ref": "Colossians 2:13-14", "note": "God cancelled the record of debt against us, nailing it to the cross, the reality behind charge it to my account." },
-      { "ref": "Romans 5:8", "note": "God shows His love in that while we were still sinners Christ died for us, the costly welcome of the guilty." },
-      { "ref": "Ephesians 1:6", "note": "We are accepted in the Beloved; the Father receives us as He receives His Son, mirrored in receive him as you would receive me." }
+      {
+        "ref": "Genesis 43:9",
+        "note": "Judah says to Jacob, 'I will guarantee his safety. You may hold me personally responsible.' This is the first great surety in Scripture. Paul's 'charge it to my account' is a smaller offer of the same kind, and both show a man taking the risk for another."
+      },
+      {
+        "ref": "Genesis 44:32-34",
+        "note": "Judah asks 'let your servant stay here as my lord's slave in place of the boy.' A free man offers to become a slave so that another can go home. In Philemon 18 and 19 Paul offers to pay what a slave owes so that the slave can be received, which is a close family likeness."
+      },
+      {
+        "ref": "Leviticus 25:47-49",
+        "note": "A man sold into bondage 'retains the right of redemption,' and 'one of his brothers may redeem him.' The brother pays so that the man can be restored. It sits behind the idea that a person bound to another's claim can be freed by someone who stands in as kin."
+      },
+      {
+        "ref": "Isaiah 53:5-6",
+        "note": "'The LORD has laid upon Him the iniquity of us all.' The prophet's verse says in a single sentence what Paul's 'charge it to my account' pictures at human scale: one person takes on what another owes, and the other is made whole."
+      },
+      {
+        "ref": "2 Corinthians 5:21",
+        "note": "'God made Him who knew no sin to be sin on our behalf, so that in Him we might become the righteousness of God.' The exchange in Paul's request, his debt for the slave's standing, is the exchange that God has made in Christ for sinners."
+      },
+      {
+        "ref": "Colossians 2:13-14",
+        "note": "God 'forgave us all our trespasses, having canceled the debt ascribed to us in the decrees that stood against us. He took it away, nailing it to the cross.' This letter was carried to Colossae with Philemon's. A bond written by Paul's hand in one letter has its heavenly counterpart in the other."
+      },
+      {
+        "ref": "Romans 4:6-8",
+        "note": "'Blessed is the man whose sin the Lord will never count against him.' The accounting language of Paul's pledge belongs to the same field as this verse. Paul asks that Onesimus's debt be counted to him, and the psalm blesses the person whose debt is not counted against him at all."
+      },
+      {
+        "ref": "Hebrews 7:22-25",
+        "note": "Jesus 'has become the guarantee of a better covenant,' and 'He always lives to intercede for them.' The writer's word for guarantee suits the scene in Philemon, where Paul acts as guarantor and intercessor for a guilty man."
+      },
+      {
+        "ref": "Matthew 18:23-35",
+        "note": "A servant forgiven a huge debt will not forgive a small one, and his master asks, 'Shouldn't you have had mercy on your fellow servant, just as I had on you?' The parable puts Philemon's choice in its widest frame: the forgiven forgive."
+      },
+      {
+        "ref": "Luke 15:20-24",
+        "note": "The father 'was filled with compassion,' ran to the returning son, and called for a robe, a ring and a feast. It is the picture of the 'receive him' that Paul asks, and it shows what a welcome looks like when it has no strings."
+      },
+      {
+        "ref": "Galatians 6:2",
+        "note": "'Carry one another's burdens, and in this way you will fulfill the law of Christ.' Paul's pledge is this verse in action. Philemon's own part in the exchange is to bear a loss, and the verse treats that as the law of Christ."
+      }
     ],
-    "oneStory": "The whole Bible moves toward a Mediator who pays what we owe and secures our welcome with the Father. Paul's charge it to my account is one small, bright reflection of that gospel: reconciliation is real, it is costly, and it rests on a substitute who takes our place. In this little letter the grand story of the cross is rehearsed in the affairs of a slave, a master, and an apostle in chains.",
-    "sermon": { "status": "verified", "preacher": "Alistair Begg", "title": "Refresh My Heart", "url": "https://www.truthforlife.org/resources/sermon/refresh-heart/", "why": "The closing message of Begg's series A Study in Philemon covers Philemon 1:17-25, including this passage, and draws out how Paul's offer to bear the debt pictures the gospel and how the appeal is made in love. A faithful, orthodox handling of this movement." }
+    "oneStory": "The Bible's story is a story of debt and of one who pays. Genesis 3 begins it with a creature who owes everything to the Creator and takes what was not given. The law then describes a world of accounts: restitution, redemption, jubilee, the guilt offering and the Day of Atonement, where the sins of the people are placed on a goat's head, Leviticus 16:21. All of these are ways of saying that wrong has a cost, and that the cost has to be borne by someone.\n\nJudah's offer in Genesis 44 is the first time in the story that a man offers to stand in another's place, and the rest of the Old Testament leans toward a Servant who 'will justify many' by bearing 'their iniquities,' Isaiah 53:11. The prophets see that no animal and no man can finally pay. They see that someone must come.\n\nPaul's note to Philemon sits in the story as a small, clear sign of that coming. It is not the answer, and the apostle does not pretend that it is. It is an example, set down in a real household with a real debt, of what the answer looks like: the guilty is received as the righteous, and the righteous pays. Onesimus the runaway, who owes and cannot pay, stands where every sinner stands.\n\nThe story moves on to a cross where the exchange is made, and the New Testament tells it in the very terms the note uses. 'God made Him who knew no sin to be sin on our behalf,' 2 Corinthians 5:21. 'We have peace with God,' Romans 5:1. 'There is now no condemnation for those who are in Christ Jesus,' Romans 8:1. The one who has been received because of another is then asked to receive others, and Philemon is asked to enact the thing he has already experienced.\n\nThe story ends with a welcome. 'Blessed are those who are invited to the marriage supper of the Lamb,' Revelation 19:9, and Jesus says 'I will come back and welcome you into My presence,' John 14:3. The room Paul asks Philemon to prepare is a small version of the one Christ is preparing, and 'In My Father's house are many rooms,' John 14:2. Those who have been received as the Son is received come to the place where no debt is left on any account.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "Alistair Begg",
+      "title": "Refresh My Heart",
+      "url": "https://www.truthforlife.org/resources/sermon/refresh-heart/",
+      "why": "The closing message of Begg's series A Study in Philemon covers Philemon 1:17-25, including this passage, and draws out how Paul's offer to bear the debt pictures the gospel and how the appeal is made in love. A faithful, orthodox handling of this movement."
+    }
   },
   "quiz": [
     {
       "q": "What does Paul ask Philemon to do with Onesimus in verse 17?",
       "options": [
-        { "text": "Receive him exactly as he would receive Paul himself.", "weight": 100, "note": "On the basis of their partnership, Paul asks that Onesimus be welcomed with Paul's own welcome." },
-        { "text": "Welcome him back warmly as a fellow believer.", "weight": 75, "note": "Right direction, but Paul asks for more: receive him as he would receive Paul himself." },
-        { "text": "Give him a fair hearing before deciding.", "weight": 25, "note": "Paul asks for full welcome as a brother, not a hearing." },
-        { "text": "Send him back to Paul at once.", "weight": 0, "note": "Paul has sent Onesimus to Philemon; here he asks that he be received." }
+        {
+          "text": "Receive him exactly as he would receive Paul himself.",
+          "weight": 100,
+          "note": "On the basis of their partnership, Paul asks that Onesimus be welcomed with Paul's own welcome."
+        },
+        {
+          "text": "Welcome him back warmly as a fellow believer.",
+          "weight": 75,
+          "note": "Right direction, but Paul asks for more: receive him as he would receive Paul himself."
+        },
+        {
+          "text": "Give him a fair hearing before deciding.",
+          "weight": 25,
+          "note": "Paul asks for full welcome as a brother, not a hearing."
+        },
+        {
+          "text": "Send him back to Paul at once.",
+          "weight": 0,
+          "note": "Paul has sent Onesimus to Philemon; here he asks that he be received."
+        }
       ]
     },
     {
       "q": "What does Paul offer to do about any debt or wrong Onesimus owes?",
       "options": [
-        { "text": "Charge it to Paul's own account; he will repay it himself.", "weight": 100, "note": "Paul takes the debt on himself and signs the promise in his own hand, verses 18 to 19." },
-        { "text": "Remind Philemon the debt is trivial, since Philemon owes Paul his very self.", "weight": 75, "note": "Paul does say this, yet his explicit offer is to personally repay whatever is owed." },
-        { "text": "Ask the church to cover the loss together.", "weight": 25, "note": "Paul personally assumes the debt; he does not pass it to the church." },
-        { "text": "Argue that Onesimus owes nothing at all.", "weight": 0, "note": "Paul allows the debt may be real and offers to cover it, rather than denying it." }
+        {
+          "text": "Charge it to Paul's own account; he will repay it himself.",
+          "weight": 100,
+          "note": "Paul takes the debt on himself and signs the promise in his own hand, verses 18 to 19."
+        },
+        {
+          "text": "Remind Philemon the debt is trivial, since Philemon owes Paul his very self.",
+          "weight": 75,
+          "note": "Paul does say this, yet his explicit offer is to personally repay whatever is owed."
+        },
+        {
+          "text": "Ask the church to cover the loss together.",
+          "weight": 25,
+          "note": "Paul personally assumes the debt; he does not pass it to the church."
+        },
+        {
+          "text": "Argue that Onesimus owes nothing at all.",
+          "weight": 0,
+          "note": "Paul allows the debt may be real and offers to cover it, rather than denying it."
+        }
       ]
     },
     {
       "q": "How does this passage picture the gospel?",
       "options": [
-        { "text": "Paul stands in for the guilty, taking the debt and asking that Onesimus be received in his place, just as Christ takes our sin and gives us His welcome.", "weight": 100, "note": "Charge it to my account and receive him as me picture imputation and substitution, 2 Corinthians 5:21." },
-        { "text": "It shows that debts should always be forgiven and forgotten.", "weight": 75, "note": "It teaches costly reconciliation, but the deeper picture is Christ bearing our debt in our place." },
-        { "text": "It teaches that we must earn our own acceptance with God.", "weight": 25, "note": "The opposite: acceptance comes because another pays the debt for us." },
-        { "text": "It has no connection to the gospel at all.", "weight": 0, "note": "This is the letter's clearest gospel picture." }
+        {
+          "text": "Paul stands in for the guilty, taking the debt and asking that Onesimus be received in his place, just as Christ takes our sin and gives us His welcome.",
+          "weight": 100,
+          "note": "Charge it to my account and receive him as me picture imputation and substitution, 2 Corinthians 5:21."
+        },
+        {
+          "text": "It shows that debts should always be forgiven and forgotten.",
+          "weight": 75,
+          "note": "It teaches costly reconciliation, but the deeper picture is Christ bearing our debt in our place."
+        },
+        {
+          "text": "It teaches that we must earn our own acceptance with God.",
+          "weight": 25,
+          "note": "The opposite: acceptance comes because another pays the debt for us."
+        },
+        {
+          "text": "It has no connection to the gospel at all.",
+          "weight": 0,
+          "note": "This is the letter's clearest gospel picture."
+        }
       ]
     },
     {
       "q": "What does Paul mean by asking Philemon to refresh his heart?",
       "options": [
-        { "text": "He asks Philemon to do to him the very kindness he praised Philemon for, by welcoming Onesimus.", "weight": 100, "note": "Verse 20 echoes verse 7; welcoming Onesimus would refresh Paul's heart, using splagchna and anapauo." },
-        { "text": "He longs to be encouraged and cheered by Philemon's obedience.", "weight": 75, "note": "That obedience would encourage him, but specifically the glad welcome of Onesimus is what would refresh his heart." },
-        { "text": "He is asking Philemon to send him money.", "weight": 25, "note": "The request is for the refreshment of a welcomed brother, not funds." },
-        { "text": "He is complaining that no one cares for him.", "weight": 0, "note": "Paul writes in warm confidence, not complaint." }
+        {
+          "text": "He asks Philemon to do to him the very kindness he praised Philemon for, by welcoming Onesimus.",
+          "weight": 100,
+          "note": "Verse 20 echoes verse 7; welcoming Onesimus would refresh Paul's heart, using splagchna and anapauo."
+        },
+        {
+          "text": "He longs to be encouraged and cheered by Philemon's obedience.",
+          "weight": 75,
+          "note": "That obedience would encourage him, but specifically the glad welcome of Onesimus is what would refresh his heart."
+        },
+        {
+          "text": "He is asking Philemon to send him money.",
+          "weight": 25,
+          "note": "The request is for the refreshment of a welcomed brother, not funds."
+        },
+        {
+          "text": "He is complaining that no one cares for him.",
+          "weight": 0,
+          "note": "Paul writes in warm confidence, not complaint."
+        }
       ]
     },
     {
       "q": "Why does Paul mention preparing a guest room and his hope to visit?",
       "options": [
-        { "text": "He hopes to be released and to come, which gently encourages Philemon to do the right thing.", "weight": 100, "note": "The coming visit adds warm accountability to the appeal, verse 22." },
-        { "text": "He genuinely longs to see Philemon and the church again.", "weight": 75, "note": "He does long to visit, and the hoped-for visit also lends gentle accountability to the appeal." },
-        { "text": "He is demanding free lodging as his right.", "weight": 25, "note": "It is a hopeful request among friends, not a demand of right." },
-        { "text": "He has already been released and is on his way.", "weight": 0, "note": "Paul writes as a prisoner hoping to be restored to them, not yet freed." }
+        {
+          "text": "He hopes to be released and to come, which gently encourages Philemon to do the right thing.",
+          "weight": 100,
+          "note": "The coming visit adds warm accountability to the appeal, verse 22."
+        },
+        {
+          "text": "He genuinely longs to see Philemon and the church again.",
+          "weight": 75,
+          "note": "He does long to visit, and the hoped-for visit also lends gentle accountability to the appeal."
+        },
+        {
+          "text": "He is demanding free lodging as his right.",
+          "weight": 25,
+          "note": "It is a hopeful request among friends, not a demand of right."
+        },
+        {
+          "text": "He has already been released and is on his way.",
+          "weight": 0,
+          "note": "Paul writes as a prisoner hoping to be restored to them, not yet freed."
+        }
       ]
     }
   ],
@@ -151,9 +379,21 @@
     "Real reconciliation cost Paul something. Is there a relationship where you have been waiting for it to be free, when love may be asking you to pay?"
   ],
   "translationNotes": [
-    { "ref": "Philemon 1:18", "note": "Charge it to my account renders ellogeo, a bookkeeping term for reckoning a debt to someone; the same accounting idea underlies the New Testament's language of imputation." },
-    { "ref": "Philemon 1:19", "note": "I, Paul, write this with my own hand marks a formal, personally guaranteed promise." },
-    { "ref": "Philemon 1:20", "note": "Let me have some benefit renders the Greek onaimen, a play on the name Onesimus, which means useful or beneficial, per the BSB footnote." }
+    {
+      "ref": "Philemon 1:18",
+      "note": "Charge it to my account renders ellogeo, a bookkeeping term for reckoning a debt to someone; the same accounting idea underlies the New Testament's language of imputation."
+    },
+    {
+      "ref": "Philemon 1:19",
+      "note": "I, Paul, write this with my own hand marks a formal, personally guaranteed promise."
+    },
+    {
+      "ref": "Philemon 1:20",
+      "note": "Let me have some benefit renders the Greek onaimen, a play on the name Onesimus, which means useful or beneficial, per the BSB footnote."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Philemon 1:17-22." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Philemon 1:17-22."
+  }
 }
