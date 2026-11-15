@@ -18,8 +18,16 @@
         "note": "because Jesus died and rose",
         "emphasis": "",
         "verses": [
-          { "chapter": 4, "n": 13, "text": "Brothers, we do not want you to be uninformed about those who {{koimaomai|sleep}} in death, so that you will not grieve like the rest, who are without {{elpis|hope}}." },
-          { "chapter": 4, "n": 14, "text": "For since we believe that Jesus died and rose again, we also believe that God will bring with Jesus those who have fallen asleep in Him." }
+          {
+            "chapter": 4,
+            "n": 13,
+            "text": "Brothers, we do not want you to be uninformed about those who {{koimaomai|sleep}} in death, so that you will not grieve like the rest, who are without {{elpis|hope}}."
+          },
+          {
+            "chapter": 4,
+            "n": 14,
+            "text": "For since we believe that Jesus died and rose again, we also believe that God will bring with Jesus those who have fallen asleep in Him."
+          }
         ]
       },
       {
@@ -27,24 +35,85 @@
         "note": "the dead raised, the living caught up, all with the Lord",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 4, "n": 15, "text": "By the word of the Lord, we declare to you that we who are alive and remain until the {{parousia|coming}} of the Lord will by no means precede those who have fallen asleep." },
-          { "chapter": 4, "n": 16, "text": "For the Lord Himself will descend from heaven with a loud {{keleusma|command}}, with the voice of an {{archangelos|archangel}}, and with the {{salpinx|trumpet}} of God, and the dead in Christ will be the first to rise." },
-          { "chapter": 4, "n": 17, "text": "After that, we who are alive and remain will be {{harpazo|caught up}} together with them in the clouds to {{apantesis|meet}} the Lord in the air. And so we will always be with the Lord." },
-          { "chapter": 4, "n": 18, "text": "Therefore {{parakaleo|encourage}} one another with these words." }
+          {
+            "chapter": 4,
+            "n": 15,
+            "text": "By the word of the Lord, we declare to you that we who are alive and remain until the {{parousia|coming}} of the Lord will by no means precede those who have fallen asleep."
+          },
+          {
+            "chapter": 4,
+            "n": 16,
+            "text": "For the Lord Himself will descend from heaven with a loud {{keleusma|command}}, with the voice of an {{archangelos|archangel}}, and with the {{salpinx|trumpet}} of God, and the dead in Christ will be the first to rise."
+          },
+          {
+            "chapter": 4,
+            "n": 17,
+            "text": "After that, we who are alive and remain will be {{harpazo|caught up}} together with them in the clouds to {{apantesis|meet}} the Lord in the air. And so we will always be with the Lord."
+          },
+          {
+            "chapter": 4,
+            "n": 18,
+            "text": "Therefore {{parakaleo|encourage}} one another with these words."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "koimaomai": { "language": "Greek", "lemma": "koimaomai", "original": "κοιμάομαι", "gloss": "To fall asleep, used gently for the death of believers. Paul repeatedly speaks of those who sleep in death, a tender image that assumes an awakening. Death for the Christian is not annihilation but a sleep from which God will raise them, so the word itself already carries the hope of resurrection." },
-    "elpis": { "language": "Greek", "lemma": "elpis", "original": "ἐλπίς", "gloss": "Hope, confident expectation grounded in God's promise. Paul says the world grieves as those without hope, but believers do not. Christian hope is not vague optimism but sure confidence in resurrection, anchored in the fact that Jesus rose. This hope reshapes even how believers mourn." },
-    "parousia": { "language": "Greek", "lemma": "parousia", "original": "παρουσία", "gloss": "Coming, arrival, presence, used for the return of the Lord Jesus. The whole passage centers on the parousia, when the Lord descends and gathers His people. It is the great future event toward which Christian hope strains, the moment when the dead are raised and the living are caught up to be with Him." },
-    "keleusma": { "language": "Greek", "lemma": "keleusma", "original": "κέλευσμα", "gloss": "A loud command or shout of authority, like an officer's cry that sets an army in motion. The Lord descends with a keleusma, a commanding shout that summons the dead to rise. The word conveys the sovereign authority of Christ's return, a royal command that creation and the grave must obey." },
-    "archangelos": { "language": "Greek", "lemma": "archangelos", "original": "ἀρχάγγελος", "gloss": "An archangel, a chief or ruling angel. The Lord's coming is accompanied by the voice of an archangel, part of the majestic, public, unmistakable character of His return. Far from a secret event, Christ's coming is heralded with heavenly authority and splendor." },
-    "salpinx": { "language": "Greek", "lemma": "salpinx", "original": "σάλπιγξ", "gloss": "A trumpet. The trumpet of God sounds at the Lord's coming, echoing the Old Testament use of trumpets to announce God's presence, assembly, and decisive acts. It signals the gathering of God's people and the climactic moment of resurrection, a summons no one can miss." },
-    "harpazo": { "language": "Greek", "lemma": "harpazo", "original": "ἁρπάζω", "gloss": "To seize, snatch, or catch up suddenly and forcibly. Believers who are alive will be caught up together with the risen dead to meet the Lord. The Latin translation of this word, rapere, gives us the term rapture. It pictures God powerfully and swiftly gathering His people to Himself at Christ's coming." },
-    "apantesis": { "language": "Greek", "lemma": "apantesis", "original": "ἀπάντησις", "gloss": "A meeting, especially a formal going out to welcome an arriving dignitary and escort him in. Believers go up to meet the Lord in the air, a picture drawn from cities greeting a visiting king. The word suggests not a departure to somewhere else but a joyful welcome of the returning Lord." },
-    "parakaleo": { "language": "Greek", "lemma": "parakaleo", "original": "παρακαλέω", "gloss": "To encourage, comfort, or exhort, to come alongside with strengthening words. Paul ends by telling them to encourage one another with these words. The teaching about the Lord's coming is given not to satisfy curiosity but to comfort grieving hearts, and it is meant to be shared for mutual strengthening." }
+    "koimaomai": {
+      "language": "Greek",
+      "lemma": "koimaomai",
+      "original": "κοιμάομαι",
+      "gloss": "To fall asleep, used gently for the death of believers. Paul repeatedly speaks of those who sleep in death, a tender image that assumes an awakening. Death for the Christian is not annihilation but a sleep from which God will raise them, so the word itself already carries the hope of resurrection."
+    },
+    "elpis": {
+      "language": "Greek",
+      "lemma": "elpis",
+      "original": "ἐλπίς",
+      "gloss": "Hope, confident expectation grounded in God's promise. Paul says the world grieves as those without hope, but believers do not. Christian hope is not vague optimism but sure confidence in resurrection, anchored in the fact that Jesus rose. This hope reshapes even how believers mourn."
+    },
+    "parousia": {
+      "language": "Greek",
+      "lemma": "parousia",
+      "original": "παρουσία",
+      "gloss": "Coming, arrival, presence, used for the return of the Lord Jesus. The whole passage centers on the parousia, when the Lord descends and gathers His people. It is the great future event toward which Christian hope strains, the moment when the dead are raised and the living are caught up to be with Him."
+    },
+    "keleusma": {
+      "language": "Greek",
+      "lemma": "keleusma",
+      "original": "κέλευσμα",
+      "gloss": "A loud command or shout of authority, like an officer's cry that sets an army in motion. The Lord descends with a keleusma, a commanding shout that summons the dead to rise. The word conveys the sovereign authority of Christ's return, a royal command that creation and the grave must obey."
+    },
+    "archangelos": {
+      "language": "Greek",
+      "lemma": "archangelos",
+      "original": "ἀρχάγγελος",
+      "gloss": "An archangel, a chief or ruling angel. The Lord's coming is accompanied by the voice of an archangel, part of the majestic, public, unmistakable character of His return. Far from a secret event, Christ's coming is heralded with heavenly authority and splendor."
+    },
+    "salpinx": {
+      "language": "Greek",
+      "lemma": "salpinx",
+      "original": "σάλπιγξ",
+      "gloss": "A trumpet. The trumpet of God sounds at the Lord's coming, echoing the Old Testament use of trumpets to announce God's presence, assembly, and decisive acts. It signals the gathering of God's people and the climactic moment of resurrection, a summons no one can miss."
+    },
+    "harpazo": {
+      "language": "Greek",
+      "lemma": "harpazo",
+      "original": "ἁρπάζω",
+      "gloss": "To seize, snatch, or catch up suddenly and forcibly. Believers who are alive will be caught up together with the risen dead to meet the Lord. The Latin translation of this word, rapere, gives us the term rapture. It pictures God powerfully and swiftly gathering His people to Himself at Christ's coming."
+    },
+    "apantesis": {
+      "language": "Greek",
+      "lemma": "apantesis",
+      "original": "ἀπάντησις",
+      "gloss": "A meeting, especially a formal going out to welcome an arriving dignitary and escort him in. Believers go up to meet the Lord in the air, a picture drawn from cities greeting a visiting king. The word suggests not a departure to somewhere else but a joyful welcome of the returning Lord."
+    },
+    "parakaleo": {
+      "language": "Greek",
+      "lemma": "parakaleo",
+      "original": "παρακαλέω",
+      "gloss": "To encourage, comfort, or exhort, to come alongside with strengthening words. Paul ends by telling them to encourage one another with these words. The teaching about the Lord's coming is given not to satisfy curiosity but to comfort grieving hearts, and it is meant to be shared for mutual strengthening."
+    }
   },
   "study": {
     "basic": {
@@ -58,92 +127,256 @@
       "oneStory": "Death entered the world through sin, but God promised to defeat it. In the risen Jesus that victory is won, and here Paul unfolds what it means for those who die in Christ: they will rise, and with the living they will be caught up to be with the Lord forever, the sure end of the whole biblical story."
     },
     "context": {
-      "literary": "This is the first of two closely linked passages on the last things, answering a question about believers who have died, before chapter five turns to the timing of the day of the Lord. The structure moves from the pastoral principle, do not grieve without hope, to its ground in Jesus death and resurrection, to a detailed word of the Lord about the sequence of events, and back to the pastoral aim, encourage one another. The frame is comfort, not speculation.",
-      "historical": "The Thessalonians had received Paul's teaching about Christ's return but were unsettled when members of the congregation died before it happened. Their grief suggests confusion about whether the dead would share in the coming glory. Paul, writing soon after founding the church, addresses this fresh pastoral crisis with a specific reassurance grounded in apostolic teaching he calls the word of the Lord.",
-      "canonical": "Together with 1 Corinthians 15, this is one of the two central New Testament passages on the resurrection of believers and the return of Christ. Verse 17 is the source of the term rapture, from the Latin for caught up, and the passage has been much discussed in debates over the end times, though its primary and clear purpose is to comfort the grieving with resurrection hope."
+      "literary": "The passage opens with a formula Paul uses when he wants to correct a gap in knowledge: 'we do not want you to be uninformed,' verse 13, the same pattern as Romans 1:13 and 1 Corinthians 10:1. The ignorance in view is not stubbornness but a hole in what the young church had been taught in the few weeks Paul spent with them. He fills it in a tight, almost liturgical shape. A pastoral aim opens it, 'so that you will not grieve like the rest,' and the same aim closes it, 'encourage one another with these words,' verse 18. Between those two bookends sit a creed and a quotation.\n\nThe creed is verse 14. Paul does not argue for the resurrection of Jesus here; he assumes it as common ground, 'since we believe that Jesus died and rose again,' and draws the inference. The conditional is real, not doubtful. It works like 'since' in English, a fact accepted by both sides from which something follows. The whole comfort is a deduction from the one event the Thessalonians already trusted.\n\nVerses 15 to 17 then give the content as a single long sentence in Greek, built on three coordinated actions of the Lord and two groups of people. The Lord descends, the dead in Christ rise first, and after that the living are caught up together with them. The word order matters: the dead are mentioned first in the sequence because their fate was the worry. The two groups are named by contrast, 'those who have fallen asleep' and 'we who are alive and remain,' and the passage works to remove any hint that one group has the advantage.\n\nThe last clause, 'And so we will always be with the Lord,' is the destination toward which every earlier phrase leans. In the larger letter this section is the first of two linked answers about the end, the second beginning at 5:1 with 'Now about,' a formula Paul often uses to take up the next question the church had raised, as in 1 Corinthians 7:1 and 12:1.",
+      "historical": "Paul had been in Thessalonica for only a short time, perhaps three Sabbaths in the synagogue followed by further weeks of teaching, Acts 17:2. Then trouble forced him out at night, Acts 17:5 to 10. In that brief window he had taught that Jesus would return, 1 Thessalonians 1:10. What he evidently had not covered was what happens to a believer who dies before that day. Now some had died, perhaps through the same persecution that scattered the missionaries, and the survivors did not know where to place them.\n\nThe world around them gave little help. Greek and Roman writers often spoke of death as a final night. The Roman poet Catullus wrote that when our brief light has set, one unbroken night remains for sleeping. Burial inscriptions in Latin sometimes carried a short formula of shrugging resignation about having been, not being, and not caring. Mystery cults offered private hopes of a better lot, but nothing like a public promise that bodies would rise. Against that backdrop Paul's phrase 'the rest, who are without hope' is a plain description, not an insult.\n\nThe imagery of verse 16 and 17 draws on the public life of an ancient city. The word parousia, used here for the Lord's coming, was a standard term for the arrival of a ruler or official, and apantesis, the word for 'meet,' belongs to the custom in which citizens went out through the gates to greet a visiting dignitary and escort him back into the city. Acts 28:15 shows the custom in a Christian setting: believers from Rome walked out as far as the Forum of Appius and the Three Taverns to meet Paul and bring him in. Many scholars therefore read verse 17 as the church going out to welcome the returning King and accompany Him on His arrival, rather than as a departure from the earth for good. The text does not say what happens next, and Paul does not stop to say.\n\nThe trumpet and the archangel's voice belong to the language of Jewish expectation about the last day, not to the pagan world, which tells us where Paul's teaching came from.",
+      "canonical": "The hope of verse 14 and 16 is the New Testament's flowering of seeds planted in the Old. Job speaks of seeing God in his flesh after his skin is destroyed, Job 19:25 to 27. Isaiah promises, 'Your dead will live; their bodies will rise,' Isaiah 26:19, and that the Lord 'will swallow up death forever' and wipe away tears from every face, Isaiah 25:8. Ezekiel's valley of dry bones pictures graves opened and the Spirit put into the dead so that they live, Ezekiel 37:12 to 14. Daniel gives the clearest statement: many who sleep in the dust will awake, some to everlasting life, Daniel 12:2. Paul's word 'sleep' is no accident, since Daniel already speaks of those who sleep in the dust.\n\nThe New Testament takes these promises and fastens them to a person. Jesus says to Martha, 'I am the resurrection and the life,' John 11:25, and teaches that all in the graves will hear His voice, John 5:28 and 29. In the Gospels He calls death sleep, as when He says of Lazarus that he has fallen asleep, John 11:11. The apostle then lays out the full order in 1 Corinthians 15: Christ the firstfruits, then at His coming those who belong to Him, verses 20 to 23, with the change of the living at the last trumpet, verses 51 and 52. That passage and this one are two views of the same event, one stressing the nature of the transformed body, the other the pastoral question of who goes first.\n\nOther texts supply the surrounding picture. Jesus' promise to come back and take His own to be where He is, John 14:3, is the same hope in other words. Paul's later letters speak of our citizenship in heaven and the Savior who will transform our lowly bodies, Philippians 3:20 and 21, and of appearing with Christ in glory when He appears, Colossians 3:4. Revelation ends the story with God's dwelling among His people and every tear wiped away, Revelation 21:3 and 4. Paul's phrase 'always with the Lord' is where the Bible's last chapters live."
     },
     "hermeneutics": {
-      "authorIntent": "To comfort a grieving church by assuring them that believers who have died will lose nothing at the Lord's coming but will be raised first, and that all God's people, living and dead, will be caught up together to be forever with the Lord.",
-      "descriptionVsPrescription": "The passage mainly describes what will happen at Christ's coming, given as a sure word of the Lord. Its one command is pastoral: encourage one another with these words. The certain hope of resurrection and reunion with the Lord is meant to be believed and to shape how Christians face death and comfort one another.",
+      "authorIntent": "Paul wrote to people who loved their dead and were frightened for them, and he meant to put steel under that love. He does not hand them a theory of death. He gives them an event, the coming of Jesus, and places their loved ones inside it with a position of honor, the first to rise. The pastoral logic runs from the past to the future: because Jesus did die and did rise, the story of those who belong to Him will follow His pattern.\n\nHe also meant to correct a quiet assumption that the first generation of Christians held an advantage. The church had been waiting expectantly for the Lord, and the deaths of some looked like missed appointments. Paul removes the idea with the strong double negative of verse 15, which declares that the living will by no means get there ahead of the dead.\n\nHe is also teaching them how to grieve. The verse does not forbid tears; it forbids grieving 'like the rest, who are without hope.' Christian sorrow is real sorrow with a horizon in it. And he gives the church a task for each other: speak these words aloud, 'encourage one another,' so that the truth does its work in the community and not merely in the mind of the individual who reads it.\n\nHe did not intend to satisfy curiosity about the calendar or the geography of the event. Nothing in the passage tells us when, and it leaves out much that a diagram of the end would need.",
+      "descriptionVsPrescription": "Almost everything in the passage describes what will happen: the descent, the voice, the trumpet, the rising of the dead, the gathering of the living. The text gives one command, verse 18, to encourage one another with these words, and one implied command in verse 13, to grieve with hope. The descriptions are there to serve those two acts, not to feed speculation.\n\nThat shapes how the passage should be used. It is fitting at a graveside, in a hospital room, and with a friend whose husband or child has died. It is not fitting as the starting point for date setting or for building a detailed timetable that goes beyond what is written. Paul himself includes himself among 'we who are alive,' verse 17, which shows that he spoke from within the expectation of the church, without claiming to know the hour, as he says plainly in 5:1 and 2.\n\nIt is also worth noticing what the passage does not say. It does not say that dead believers are unconscious, nor that they are already in heaven; it speaks of them from the viewpoint of the day of the Lord's coming. Other texts speak to their present condition. And it does not give the unbelieving dead a verdict. The hope is stated for those 'in Christ,' and Paul keeps his focus there.",
       "debates": [
         {
-          "question": "How does the catching up, or rapture, relate to Christ's return?",
+          "question": "How does the meeting in the air relate to the Lord's coming and the tribulation?",
           "views": [
-            { "label": "One glorious return", "case": "Most read this as a single, public, glorious coming of the Lord at which the dead are raised and the living are caught up to welcome and escort Him, as a city goes out to meet its king." },
-            { "label": "A distinct rapture event", "case": "Some traditions distinguish a catching up of the church from a later visible return; they read verse 17 as describing believers being taken before a period of tribulation." }
+            {
+              "label": "A single coming, with the church meeting the King to escort Him down",
+              "case": "This view stresses the civic background of parousia and apantesis, and Acts 28:15, where the greeters turn and walk back with the one they meet. It also notes that the trumpet and the angels recall Matthew 24:30 and 31, where the elect are gathered at the visible coming of the Son of Man. On this reading 1 Thessalonians 4 and 1 Corinthians 15 describe one event at the end of the age, and the church is not removed before the final trials."
+            },
+            {
+              "label": "A removal of the church before a period of tribulation, with a later visible return",
+              "case": "This view, held by many dispensational and evangelical readers, points out that nothing in verses 13 to 18 mentions judgment or earthly turmoil, that the church is taken to be with the Lord rather than shown returning to earth, and that 5:9 says God has not appointed us to suffer wrath. It reads the passage as a distinct moment that precedes the events of Revelation."
+            },
+            {
+              "label": "A removal at some midpoint or later stage of the trouble",
+              "case": "A smaller group places the gathering partway through the tribulation. It tries to combine the warnings of Matthew 24 with the promise of 5:9, holding that the church passes through part of the trial but is taken up before the worst outpouring of divine wrath."
+            }
           ],
-          "bearing": "The debate concerns sequence and timing; the shared and central certainty is resurrection and being forever with the Lord, which is the passage's comforting point."
+          "bearing": "Believers who love the same Lord and the same Bible hold each of these positions in good faith. Paul does not give the detail that would settle it, and the passage's stated purpose is comfort. The safest use of the text is to hold what all three share, that the Lord Himself comes, the dead in Christ rise first, and His people are with Him forever, and to hold the rest with humility."
         },
         {
-          "question": "What is the state of those who sleep in death?",
+          "question": "What is the condition of believers between death and the resurrection?",
           "views": [
-            { "label": "Present with the Lord, awaiting resurrection", "case": "Sleep describes the body; the believer is with Christ at death, and the body will be raised at His coming, so nothing of the person is lost." },
-            { "label": "A gentle image for death itself", "case": "Sleep chiefly softens the language of death and assumes an awakening; the stress falls on the certain resurrection rather than on the intermediate state." }
+            {
+              "label": "Conscious presence with Christ",
+              "case": "Paul says elsewhere that he desires 'to depart and be with Christ, which is far better,' Philippians 1:23, and that to be away from the body is to be at home with the Lord, 2 Corinthians 5:8. Jesus tells the criminal, 'today you will be with Me in Paradise,' Luke 23:43. Read together, these point to a conscious intermediate state in which the dead in Christ already enjoy His presence, awaiting the resurrection of the body."
+            },
+            {
+              "label": "Unconscious sleep until the resurrection",
+              "case": "This view takes the sleep language literally, and notes that 1 Thessalonians 4 places the reunion at the coming of the Lord and not at death. Some also point to Old Testament passages that speak of the dead as silent. They read Philippians 1:23 as written from the viewpoint of the one who dies, for whom no time passes before the resurrection."
+            },
+            {
+              "label": "Presence with Christ, outside ordinary time",
+              "case": "A mediating view holds that the departed are with Christ in a manner not measured by our clock. Their experience of the interval is not drawn out, so the comfort of being with the Lord and the hope of the coming resurrection are both true."
+            }
           ],
-          "bearing": "Either way, death for the believer is not the end; God will raise them, and they will be with the Lord forever."
+          "bearing": "The passage itself speaks of the dead 'in Christ' and does not describe the interval. What it does insist on is that dying in Christ is no loss and no delay of the promise. Whichever way the intermediate state is understood, the Thessalonians' fear that their dead had missed something is answered."
         }
       ]
     },
-    "originalLanguages": "Paul speaks of believers who koimaomai, sleep, in death, so that Christians need not grieve like those with no elpis, hope. The ground is the historical fact that Jesus died and rose, on the basis of which God will bring the sleeping ones with Him at the parousia, the coming of the Lord. That coming is majestic and unmistakable: the Lord descends with a keleusma, a commanding shout, the voice of an archangelos, archangel, and the salpinx, the trumpet of God, at which the dead in Christ rise first. Then the living are harpazo, snatched up, to apantesis, a formal welcome, of the Lord in the air, so that they are forever with Him. The passage ends with the imperative to parakaleo, to comfort and encourage one another with these very words.",
+    "originalLanguages": "Paul's verb for dying in these verses is koimaomai, 'to fall asleep,' used here in the present participle in verse 13, 'those who sleep in death,' and in the aorist passive in verses 14 and 15, 'those who have fallen asleep.' The Gospels already use the same word for death, as when Jesus says Lazarus has fallen asleep, John 11:11, and Paul uses it again in 1 Corinthians 15:20. It is a euphemism with a hope inside it, because a sleeper can be awakened. In chapter 5 Paul will use a different verb, katheudo, for moral drowsiness in verses 6 and 7, and then for the sleep of death in verse 10, so the Thessalonians heard two senses of sleep in one letter.\n\nVerse 15 contains a strong double negative, ou me phthasomen, 'will by no means precede.' The verb phthano can mean to arrive before. Ou me is the most emphatic way Greek has to deny that something will happen. Paul wants no ground left for the fear that the survivors would arrive first. The phrase before it, 'by the word of the Lord,' en logo kyriou, signals that he is passing on an authoritative word, whether a saying of Jesus or a direct revelation. Scholars have long compared the picture to Matthew 24:30 and 31 without claiming a quotation.\n\nThe term parousia in verse 15 means presence or arrival. In the Greek world it was used for a ruler's official visit. Paul uses it for the coming of Christ in 2:19, 3:13, 5:23 and in 1 Corinthians 15:23. It is not a word about leaving but about arriving, so that the center of gravity in the passage is the Lord's presence and not our departure.\n\nThe verb harpazo, 'caught up,' means to seize or snatch with force. It is used of the Spirit snatching Philip away in Acts 8:39, of Paul being caught up to the third heaven in 2 Corinthians 12:2 and 4, and of the child taken up to God in Revelation 12:5. The Latin Bible rendered Paul's word rapiemur, which is the root of the English word rapture. Greek harpazo carries the sense of sudden, irresistible action by another; the people are acted upon, not climbing.\n\nThe verb of verse 18, parakaleo, 'encourage,' can also mean to comfort, exhort or call alongside. It comes from the same family as paraklesis, comfort, and the title Paraclete that John gives the Spirit in John 14:16. Paul is asking the church to be for each other what the Spirit is for them, a presence called alongside. The phrase 'with these words' means the community's comfort is meant to be carried in speech.",
     "typology": [
-      { "type": "The trumpet and descent of the Lord", "fulfillment": "Echoes God descending on Sinai with trumpet blast, now fulfilled in Christ descending from heaven to gather His people." },
-      { "type": "Going out to meet the arriving king", "fulfillment": "The custom of a city welcoming a visiting dignitary is fulfilled as believers rise to meet and escort the returning Lord Jesus." }
+      {
+        "type": "The trumpet and the descent at Sinai, Exodus 19:16 to 19",
+        "fulfillment": "At Sinai the Lord came down in fire, with thunder and a long blast of the ram's horn, and 'Moses brought the people out of the camp to meet with God,' Exodus 19:17. The people trembled. Paul's picture of the Lord descending 'with a loud command, with the voice of an archangel, and with the trumpet of God' recalls that meeting, and the church also goes out to meet Him. The escalation is that the trumpet that once kept the people back now calls the dead out of their graves, and those who meet Him do so as His own, not in terror. The writer to the Hebrews draws the same contrast, saying believers have not come to a mountain that can be touched but to Mount Zion, Hebrews 12:18 to 24. The type falls short because Sinai was a meeting that ended, while this one ends in always being with Him."
+      },
+      {
+        "type": "The trumpet of jubilee, Leviticus 25:9",
+        "fulfillment": "On the Day of Atonement in the jubilee year the horn was sounded throughout the land, proclaiming release for slaves and a return of each family to its own property, Leviticus 25:9 and 10. The last trumpet that wakes the dead and gathers the living is the final jubilee, the proclamation that every bondage is over, including the bondage of death, 1 Corinthians 15:52 and 54. The correspondence is of function: both are horn blasts that announce freedom and homecoming. The older jubilee freed people for a season and was repeated every fiftieth year; this one is the last and needs no repetition."
+      },
+      {
+        "type": "Enoch and Elijah taken up, Genesis 5:24 and 2 Kings 2:11",
+        "fulfillment": "The Old Testament records two people who did not die in the ordinary way. 'Enoch walked with God, and then he was no more, because God had taken him away,' Genesis 5:24, and Elijah 'went up into heaven in a whirlwind,' 2 Kings 2:11. They are not types of the church's gathering in a strict sense, since Scripture does not link them to it, but they show that God can take human beings into His presence without passing through the grave. What Paul adds is that this is no longer an exception for two saints but the pattern for all the living who belong to Christ at His coming. The pictures also fall short, because those two were taken early, whereas the whole church is gathered together, with the dead raised first."
+      },
+      {
+        "type": "The valley of dry bones, Ezekiel 37:1 to 14",
+        "fulfillment": "Ezekiel saw bones come together, bodies take shape and the breath enter them, and heard the Lord say, 'I will open your graves and bring you up from them,' Ezekiel 37:12. The vision was first a promise of Israel's national restoration from exile, yet its language of open graves and Spirit-given life sets the template Paul draws on when he says the dead in Christ will rise. In Christ the picture becomes literal. The risen Jesus is the firstfruits, 1 Corinthians 15:20, and the Spirit who raised Him gives life to mortal bodies, Romans 8:11. The type is limited in that Ezekiel's valley described one nation, while Paul's promise covers every one who belongs to Christ, from every nation."
+      }
     ],
-    "christ": "The entire hope of the passage stands on Jesus who died and rose again. Because He was raised, God will raise those who have fallen asleep in Him. Christ Himself is the actor at the climax: the Lord descends from heaven with a commanding shout, raises the dead in Him, and gathers the living to Himself. The goal is not merely resurrection but union: we will always be with the Lord. In death and beyond it, the believer's comfort is the risen, returning Christ who will not lose one of His own.",
-    "god": "God is the one who raised Jesus from the dead and who will, on that same basis, bring with Jesus those who have died in Him. The whole event is God keeping His promise to defeat death and to gather His people. He is a God who reunites, who acts in power at the last trumpet, and who guarantees that nothing, not even the grave, can separate His people from Him. The comfort of grieving believers rests on the character and power of this God.",
+    "christ": "This passage brings Christ in at three points, and each is carried by a different verb. He is the one who died and rose, the one who comes, and the one with whom we will be.\n\nFirst, He is the guarantee, in the plain logic of verse 14. Paul does not say 'we hope the dead will rise.' He says that since Jesus rose, God will bring with Jesus those who have fallen asleep in Him. The phrase 'in Him' ties the destiny of the sleepers to His own. In 1 Corinthians 15:20 and 23 Paul calls Him the firstfruits, the first sheaf of a harvest that has begun, and the later reaping, 'those who belong to Him,' is the same crop. A harvest does not stay half gathered. The risen body of Jesus is the down payment and the pattern of ours, as Philippians 3:21 says, when He will transform our lowly bodies to be like His glorious body.\n\nSecond, He is the one who comes Himself. 'The Lord Himself will descend from heaven.' No angel is sent to fetch His people on His behalf. The same promise sits behind John 14:3, 'I will come back and welcome you into My presence,' and behind the words of the two men at the ascension that this same Jesus will return in the way He went, Acts 1:11. The bodily Jesus who ate fish by the lake and was carried up from the Mount of Olives is the Jesus who returns. The comfort is personal. It does not depend on an idea of the afterlife but on a face.\n\nThird, He is the goal. 'And so we will always be with the Lord.' The preposition syn, 'with,' is the one Paul uses in Philippians 1:23 for the desire to depart and be with Christ. The Christian hope in these verses is less a place than a Person. John says that when He appears we will be like Him, for we will see Him as He is, 1 John 3:2.\n\nThere are also contrasts worth noticing. Jesus Himself entered death and came out; the passage speaks of the voice of command that He once spoke to a dead friend in Bethany, 'Lazarus, come out,' John 11:43, and that will one day be heard in every cemetery, John 5:28 and 29. Death that once swallowed Jesus is itself swallowed up, 1 Corinthians 15:54.\n\nWe should keep from forcing the details into allegory. The archangel, the trumpet and the clouds are not coded signs for something else. They are the apocalyptic furniture of a real event that Paul expects to happen. What the passage asks us to see is that grief which has Jesus in it is a different thing from grief that has only the grave.",
+    "god": "The passage opens up the Father's work more than any other person's. Verse 14 says God 'will bring with Jesus those who have fallen asleep in Him.' God is the active agent of the whole rescue: He raised Jesus, and He will bring the sleepers. The Thessalonians' worry assumed that death was a force that might slip past God's attention. Paul answers by showing God as the one who has already beaten it once.\n\nHe is the God who keeps His word to the dead. Death is the point at which human promises stop, because a person cannot keep a vow once he has died. God's promises do not stop there. The same Lord who shaped Adam from the ground and breathed into him, Genesis 2:7, will call people up out of the dust. Isaiah 25:8 says He will swallow up death forever, and Hosea 13:14 puts the challenge in His own mouth: 'I will ransom them from the power of Sheol; I will redeem them from Death.' The Christian hope of resurrection is in this sense an expression of God's faithfulness and not an add-on to His character.\n\nHe is also a God who comforts through other people. The command of verse 18 is not that each person should console himself but that the church should speak these words. The God of all comfort, as 2 Corinthians 1:3 and 4 puts it, works His comfort through those He has comforted. The doctrine of God here is therefore not abstract: He is present in a local church's kitchens and funerals.\n\nHe is sovereign over the timing and over the order. The dead rise first and then the living; no one is left out and no one jumps ahead. The loud command, the archangel and the trumpet show a God who is not surprised by the end and who conducts it in an orderly way. Paul's note elsewhere that all things are done 'each in his own turn,' 1 Corinthians 15:23, matches that.\n\nHe is also the God who longs for His people's presence. 'Always with the Lord' answers a thread that runs from Eden, where God walked in the garden, Genesis 3:8, through the tabernacle and temple, to Revelation 21:3, 'the dwelling place of God is with man.' What God first wanted in creation He keeps wanting at the end.\n\nThere is a tension to hold. God allows His people to die and to be buried in tears, and the Thessalonians' grief is real. Yet the same God says the grief will not be like the world's grief. It is not the case that God ignores death, and it is not the case that He cannot undo it. For worship this means that funerals can contain both lament and singing in the same service. We stand at the grave as people who weep and as people who trust.",
     "crossReferences": [
-      { "ref": "1 Corinthians 15:20-23", "note": "Christ the firstfruits guarantees the resurrection of those who belong to Him at His coming." },
-      { "ref": "1 Corinthians 15:51-52", "note": "At the last trumpet the dead are raised and the living changed, closely paralleling this passage." },
-      { "ref": "John 11:25-26", "note": "Jesus declares He is the resurrection and the life, the ground of the hope Paul teaches here." },
-      { "ref": "2 Thessalonians 2:1", "note": "Paul again speaks of the coming of the Lord Jesus and our being gathered together to Him." }
+      {
+        "ref": "1 Corinthians 15:51-52",
+        "note": "The companion passage on the same event. Paul reveals a mystery that not all will sleep but all will be changed in a moment, at the last trumpet, when the dead are raised imperishable. Where 1 Thessalonians 4 answers who goes first, 1 Corinthians 15 answers what kind of body we will have."
+      },
+      {
+        "ref": "John 11:23-26",
+        "note": "Jesus answers Martha's grief at Bethany before He raises Lazarus. She believes in a resurrection at the last day, but He puts a person in the center: 'I am the resurrection and the life.' Paul's comfort works the same way, by moving the hope from an event on a calendar to the One who holds it."
+      },
+      {
+        "ref": "Matthew 24:30-31",
+        "note": "Jesus speaks of the Son of Man coming on the clouds, and of angels sending a loud trumpet call to gather His elect from the four winds. The parallels in trumpet, clouds and gathering are why many readers connect Paul's 'word of the Lord' in 1 Thessalonians 4:15 with the Olivet teaching."
+      },
+      {
+        "ref": "Acts 28:15",
+        "note": "The believers of Rome went out to the Forum of Appius and the Three Taverns to meet Paul and bring him in. The noun for meeting that Paul uses in verse 17, apantesis, is also the word in Matthew 25:6, 'Come out to meet him,' and in this scene it plainly describes a welcoming party that goes out to greet the one who is arriving."
+      },
+      {
+        "ref": "Daniel 12:2",
+        "note": "The clearest Old Testament statement of bodily resurrection: many who sleep in the dust will awake, some to everlasting life. Paul's chosen verb for the dead is not casual. It continues Daniel's picture of sleepers in dust who will wake when God calls."
+      },
+      {
+        "ref": "Isaiah 25:8",
+        "note": "The Lord will swallow up death forever and wipe tears from every face. Paul quotes this prophecy in 1 Corinthians 15:54, and Revelation 21:4 applies it to the new creation. It is the Old Testament promise that gives Christian comfort in the face of death its shape."
+      },
+      {
+        "ref": "Philippians 3:20-21",
+        "note": "Our citizenship is in heaven, and we eagerly await a Savior who will transform our lowly bodies to be like His glorious body. It fills in what 1 Thessalonians 4 leaves unsaid about the bodies of those who rise, and it uses the same language of eager waiting for a returning Lord."
+      },
+      {
+        "ref": "Philippians 1:23",
+        "note": "Paul's own desire to depart and be with Christ, 'which is far better indeed.' It is the key text for those who hold that believers who die are already with Christ before the final resurrection, and it explains why the dead in Christ are not described in 1 Thessalonians 4 as lost or absent."
+      },
+      {
+        "ref": "John 14:3",
+        "note": "Jesus tells His troubled disciples that He will come back and welcome them into His presence so that they may be where He is. 'Always with the Lord' in verse 17 is this promise in Paul's words, spoken to a church that was worried about those who had already gone."
+      },
+      {
+        "ref": "2 Thessalonians 2:1",
+        "note": "Written soon afterward to the same church, this verse speaks of 'the coming of our Lord Jesus Christ and our being gathered together to Him.' It uses the same two ideas, coming and gathering, and shows that Paul treated them as parts of one hope the church was meant to keep hold of."
+      },
+      {
+        "ref": "Revelation 21:3-4",
+        "note": "God's dwelling is with man, He wipes away every tear, and there is no more death or mourning. This is where 'always with the Lord' arrives. What Paul promises to a grieving church in a few lines is shown at full length in John's final vision."
+      },
+      {
+        "ref": "Ezekiel 37:12-14",
+        "note": "The Lord promises to open graves, bring His people up and put His Spirit in them so that they live. Its language of open graves and breath is the background to Paul's confident 'the dead in Christ will be the first to rise,' even though Ezekiel first spoke of Israel's restoration."
+      }
     ],
-    "oneStory": "Death entered the world through sin, but from the first promise in Eden God pledged to undo it. In the death and resurrection of Jesus that victory is decisively won, and here Paul unfolds what it means for those who die in Christ. They will not be left behind or forgotten; they will rise first, and with the living they will be caught up to meet the Lord and be with Him forever. This is where the whole biblical story is heading: the return of the King, the raising of the dead, and an unending life in the presence of God.",
-    "sermon": { "status": "verified", "preacher": "John Piper", "title": "What to Say to the Grieving: 1 Thessalonians 4:13-18, Part 1", "url": "https://www.desiringgod.org/labs/what-to-say-to-the-grieving", "why": "Piper shows how the resurrection hope does not erase grief but gives it ballast, so believers grieve differently from those without hope, and he grounds that comfort in Jesus death and resurrection, the heart of this movement." }
+    "oneStory": "The Bible's story begins with life given and death threatened, and with a warning that eating from the forbidden tree would bring death, Genesis 2:17. When the warning came true, death became the standing fact of every life, tolling through the genealogies of Genesis 5. From then on the question hanging over the whole story is whether God can undo what the fall did. The patriarchs die in hope, and Job reaches for a Redeemer who will stand on the earth. Isaiah, Ezekiel and Daniel say in different ways that the dead will live. But for centuries those were glimpses, not a settled promise that an ordinary believer could lean his weight on.\n\nThe resurrection of Jesus turned the glimpses into a foundation. This is the point at which Paul stands in 1 Thessalonians 4: the first fruits have been raised, and so the harvest can be spoken of as a thing that will happen. The passage is where the story's central rescue meets its most ordinary human pain. A new church has buried its first dead, and the apostle tells them that the whole sweep of redemption includes their mother, their friend and their child.\n\nIt also looks forward. After this passage the picture is filled in by the rest of the New Testament: Christ's reign until the last enemy, death, is destroyed, 1 Corinthians 15:25 and 26; the dead standing before God, Revelation 20; and a new heaven and a new earth, Isaiah 65:17 and Revelation 21:1. The 'meeting' of verse 17 is not the end of the story but the opening of its final scene, in which the people of God are with their God without an interval and without a curse.\n\nPaul's closing phrase, 'always with the Lord,' gathers the Bible's recurring longing into a sentence. Eden had God walking with His creatures, the tabernacle had God dwelling among a camp, the temple had His glory in a house, and in Jesus God had come in flesh. At the end there is no building or garden to keep in good repair and no veil to cross. The word 'always' removes the last limit. Everything the first chapters of Genesis lost is not simply restored but surpassed, because the people who come are those who have been raised, and the God who receives them is the God who raised them.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "John Piper",
+      "title": "What to Say to the Grieving: 1 Thessalonians 4:13-18, Part 1",
+      "url": "https://www.desiringgod.org/labs/what-to-say-to-the-grieving",
+      "why": "Piper shows how the resurrection hope does not erase grief but gives it ballast, so believers grieve differently from those without hope, and he grounds that comfort in Jesus death and resurrection, the heart of this movement."
+    }
   },
   "quiz": [
     {
       "q": "Why does Paul say Christians do not grieve like the rest of the world?",
       "options": [
-        { "text": "Because they have hope, grounded in Jesus death and resurrection.", "weight": 100, "note": "Verses 13-14 base this hope on Jesus dying and rising." },
-        { "text": "Because Christians are not supposed to feel sadness at all.", "weight": 75, "note": "Paul does not forbid grief; he transforms it with hope." },
-        { "text": "Because death is not real for believers.", "weight": 25, "note": "Death is real, but it is a sleep from which God will raise them." },
-        { "text": "Because they will avoid dying altogether.", "weight": 0, "note": "Believers do die, yet they will be raised; that is the hope." }
+        {
+          "text": "Because they have hope, grounded in Jesus death and resurrection.",
+          "weight": 100,
+          "note": "Verses 13-14 base this hope on Jesus dying and rising."
+        },
+        {
+          "text": "Because Christians are not supposed to feel sadness at all.",
+          "weight": 75,
+          "note": "Paul does not forbid grief; he transforms it with hope."
+        },
+        {
+          "text": "Because death is not real for believers.",
+          "weight": 25,
+          "note": "Death is real, but it is a sleep from which God will raise them."
+        },
+        {
+          "text": "Because they will avoid dying altogether.",
+          "weight": 0,
+          "note": "Believers do die, yet they will be raised; that is the hope."
+        }
       ]
     },
     {
       "q": "What happens first at the coming of the Lord, according to verse 16?",
       "options": [
-        { "text": "The dead in Christ rise first.", "weight": 100, "note": "Verse 16 says the dead in Christ will be the first to rise." },
-        { "text": "The living are taken and the dead are left behind.", "weight": 75, "note": "The reverse: the dead rise first, then the living are caught up with them." },
-        { "text": "The world is destroyed before anyone rises.", "weight": 25, "note": "The focus is the Lord descending and the dead rising, not prior destruction." },
-        { "text": "Nothing happens to those who have died.", "weight": 0, "note": "The dead in Christ are precisely the ones raised first." }
+        {
+          "text": "The dead in Christ rise first.",
+          "weight": 100,
+          "note": "Verse 16 says the dead in Christ will be the first to rise."
+        },
+        {
+          "text": "The living are taken and the dead are left behind.",
+          "weight": 75,
+          "note": "The reverse: the dead rise first, then the living are caught up with them."
+        },
+        {
+          "text": "The world is destroyed before anyone rises.",
+          "weight": 25,
+          "note": "The focus is the Lord descending and the dead rising, not prior destruction."
+        },
+        {
+          "text": "Nothing happens to those who have died.",
+          "weight": 0,
+          "note": "The dead in Christ are precisely the ones raised first."
+        }
       ]
     },
     {
       "q": "What is the final comfort Paul gives about the Lord's coming?",
       "options": [
-        { "text": "We will always be with the Lord.", "weight": 100, "note": "Verse 17 ends with the promise of being forever with the Lord." },
-        { "text": "We will finally learn the exact date of the end.", "weight": 75, "note": "The comfort is being with the Lord, not knowing a date." },
-        { "text": "We will escape all future responsibility.", "weight": 25, "note": "The hope is eternal union with the Lord, not escape." },
-        { "text": "We will be separated from other believers.", "weight": 0, "note": "The living and the dead are caught up together, united with the Lord." }
+        {
+          "text": "We will always be with the Lord.",
+          "weight": 100,
+          "note": "Verse 17 ends with the promise of being forever with the Lord."
+        },
+        {
+          "text": "We will finally learn the exact date of the end.",
+          "weight": 75,
+          "note": "The comfort is being with the Lord, not knowing a date."
+        },
+        {
+          "text": "We will escape all future responsibility.",
+          "weight": 25,
+          "note": "The hope is eternal union with the Lord, not escape."
+        },
+        {
+          "text": "We will be separated from other believers.",
+          "weight": 0,
+          "note": "The living and the dead are caught up together, united with the Lord."
+        }
       ]
     },
     {
       "q": "On what does Paul base the certainty that the dead in Christ will be raised?",
       "options": [
-        { "text": "On the fact that Jesus Himself died and rose again.", "weight": 100, "note": "Verse 14 grounds the resurrection of believers in Jesus own resurrection." },
-        { "text": "On human optimism about the future.", "weight": 75, "note": "The ground is Jesus resurrection, not optimism." },
-        { "text": "On the good behavior of the believers.", "weight": 25, "note": "The basis is Christ's work, not the believers merits." },
-        { "text": "On a guess about what might happen.", "weight": 0, "note": "It is a sure word of the Lord, grounded in Jesus resurrection." }
+        {
+          "text": "On the fact that Jesus Himself died and rose again.",
+          "weight": 100,
+          "note": "Verse 14 grounds the resurrection of believers in Jesus own resurrection."
+        },
+        {
+          "text": "On human optimism about the future.",
+          "weight": 75,
+          "note": "The ground is Jesus resurrection, not optimism."
+        },
+        {
+          "text": "On the good behavior of the believers.",
+          "weight": 25,
+          "note": "The basis is Christ's work, not the believers merits."
+        },
+        {
+          "text": "On a guess about what might happen.",
+          "weight": 0,
+          "note": "It is a sure word of the Lord, grounded in Jesus resurrection."
+        }
       ]
     },
     {
       "q": "For what purpose does Paul give this teaching about the Lord's coming?",
       "options": [
-        { "text": "So that believers would encourage one another with these words.", "weight": 100, "note": "Verse 18 states the purpose: mutual encouragement." },
-        { "text": "So that they could calculate the date of Christ's return.", "weight": 75, "note": "The aim is comfort, not date-setting." },
-        { "text": "So that they would argue about end-times charts.", "weight": 25, "note": "The purpose is encouragement, not controversy." },
-        { "text": "So that they would fear the future.", "weight": 0, "note": "The teaching gives comfort and hope, not fear." }
+        {
+          "text": "So that believers would encourage one another with these words.",
+          "weight": 100,
+          "note": "Verse 18 states the purpose: mutual encouragement."
+        },
+        {
+          "text": "So that they could calculate the date of Christ's return.",
+          "weight": 75,
+          "note": "The aim is comfort, not date-setting."
+        },
+        {
+          "text": "So that they would argue about end-times charts.",
+          "weight": 25,
+          "note": "The purpose is encouragement, not controversy."
+        },
+        {
+          "text": "So that they would fear the future.",
+          "weight": 0,
+          "note": "The teaching gives comfort and hope, not fear."
+        }
       ]
     }
   ],
@@ -155,9 +388,21 @@
     "Paul says to encourage one another with these words. Who in your life is grieving or afraid, and how could you comfort them with this hope this week?"
   ],
   "translationNotes": [
-    { "ref": "1 Thessalonians 4:13", "note": "The BSB footnote notes that those who sleep in death renders a phrase literally meaning those who have fallen asleep, the same expression used in verses 14 and 15." },
-    { "ref": "1 Thessalonians 4:17", "note": "Caught up translates harpazo; the Latin rendering rapere is the source of the English term rapture." },
-    { "ref": "1 Thessalonians 4:17", "note": "To meet the Lord renders apantesis, a word used for a delegation going out to welcome and escort an arriving dignitary." }
+    {
+      "ref": "1 Thessalonians 4:13",
+      "note": "The BSB footnote notes that those who sleep in death renders a phrase literally meaning those who have fallen asleep, the same expression used in verses 14 and 15."
+    },
+    {
+      "ref": "1 Thessalonians 4:17",
+      "note": "Caught up translates harpazo; the Latin rendering rapere is the source of the English term rapture."
+    },
+    {
+      "ref": "1 Thessalonians 4:17",
+      "note": "To meet the Lord renders apantesis, a word used for a delegation going out to welcome and escort an arriving dignitary."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for 1 Thessalonians 4:13-18." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for 1 Thessalonians 4:13-18."
+  }
 }

@@ -18,7 +18,11 @@
         "note": "grace and peace to a young church",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 1, "text": "Paul, Silvanus, and Timothy, To the {{ekklesia|church}} of the Thessalonians in God the Father and the Lord Jesus Christ: {{charis|Grace}} and peace to you." }
+          {
+            "chapter": 1,
+            "n": 1,
+            "text": "Paul, Silvanus, and Timothy, To the {{ekklesia|church}} of the Thessalonians in God the Father and the Lord Jesus Christ: {{charis|Grace}} and peace to you."
+          }
         ]
       },
       {
@@ -26,11 +30,31 @@
         "note": "the triad that proves the gospel came in power",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 2, "text": "We always thank God for all of you, remembering you in our prayers" },
-          { "chapter": 1, "n": 3, "text": "and continually recalling before our God and Father your work of {{pistis|faith}}, your labor of {{agape|love}}, and your enduring {{elpis|hope}} in our Lord Jesus Christ." },
-          { "chapter": 1, "n": 4, "text": "Brothers who are beloved by God, we know that He has {{eklegomai|chosen}} you," },
-          { "chapter": 1, "n": 5, "text": "because our {{euangelion|gospel}} came to you not only in word, but also in power, in the Holy Spirit, and with great conviction, just as you know we lived among you for your sake." },
-          { "chapter": 1, "n": 6, "text": "And you became {{mimetes|imitators}} of us and of the Lord when you welcomed the message with the joy of the Holy Spirit, in spite of your great suffering." }
+          {
+            "chapter": 1,
+            "n": 2,
+            "text": "We always thank God for all of you, remembering you in our prayers"
+          },
+          {
+            "chapter": 1,
+            "n": 3,
+            "text": "and continually recalling before our God and Father your work of {{pistis|faith}}, your labor of {{agape|love}}, and your enduring {{elpis|hope}} in our Lord Jesus Christ."
+          },
+          {
+            "chapter": 1,
+            "n": 4,
+            "text": "Brothers who are beloved by God, we know that He has {{eklegomai|chosen}} you,"
+          },
+          {
+            "chapter": 1,
+            "n": 5,
+            "text": "because our {{euangelion|gospel}} came to you not only in word, but also in power, in the Holy Spirit, and with great conviction, just as you know we lived among you for your sake."
+          },
+          {
+            "chapter": 1,
+            "n": 6,
+            "text": "And you became {{mimetes|imitators}} of us and of the Lord when you welcomed the message with the joy of the Holy Spirit, in spite of your great suffering."
+          }
         ]
       },
       {
@@ -38,26 +62,97 @@
         "note": "an example that rings out, a people who turned to serve and to wait",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 7, "text": "As a result, you have become an example to all the believers in Macedonia and Achaia." },
-          { "chapter": 1, "n": 8, "text": "For not only did the message of the Lord ring out from you to Macedonia and Achaia, but your faith in God has gone out to every place, so that we have no need to say anything more." },
-          { "chapter": 1, "n": 9, "text": "For they themselves report what kind of welcome you gave us, and how you turned to God from {{eidolon|idols}} to serve the living and true God" },
-          { "chapter": 1, "n": 10, "text": "and to await His Son from heaven, whom He raised from the dead, Jesus our {{rhyomai|deliverer}} from the coming {{orge|wrath}}." }
+          {
+            "chapter": 1,
+            "n": 7,
+            "text": "As a result, you have become an example to all the believers in Macedonia and Achaia."
+          },
+          {
+            "chapter": 1,
+            "n": 8,
+            "text": "For not only did the message of the Lord ring out from you to Macedonia and Achaia, but your faith in God has gone out to every place, so that we have no need to say anything more."
+          },
+          {
+            "chapter": 1,
+            "n": 9,
+            "text": "For they themselves report what kind of welcome you gave us, and how you turned to God from {{eidolon|idols}} to serve the living and true God"
+          },
+          {
+            "chapter": 1,
+            "n": 10,
+            "text": "and to await His Son from heaven, whom He raised from the dead, Jesus our {{rhyomai|deliverer}} from the coming {{orge|wrath}}."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "ekklesia": { "language": "Greek", "lemma": "ekklesia", "original": "ἐκκλησία", "gloss": "An assembly or congregation, the gathered people of God. Paul addresses not a building or an institution but the church of the Thessalonians, and locates them in God the Father and the Lord Jesus Christ. The word underlines that even this new, small, persecuted group is a true assembly belonging to God." },
-    "charis": { "language": "Greek", "lemma": "charis", "original": "χάρις", "gloss": "Grace, God's unearned favor and kindness. Paul opens with grace and peace, a signature Christian greeting that weds the Greek word for favor to the Hebrew shalom. It sets the tone of the whole letter: everything the Thessalonians are and have flows first from God's grace in Christ." },
-    "pistis": { "language": "Greek", "lemma": "pistis", "original": "πίστις", "gloss": "Faith, trust, and faithfulness toward God. Paul praises their work of faith, faith that is not idle but active and visible. It is the first member of the triad faith, love, and hope, and the theme the whole letter returns to as evidence that God has truly worked among them." },
-    "agape": { "language": "Greek", "lemma": "agape", "original": "ἀγάπη", "gloss": "Self-giving love, the love God pours out and calls His people to show. Paul commends their labor of love, love that costs effort and toil. It is the second member of the triad and, later in the letter, something Paul prays will increase and overflow toward one another and toward all." },
-    "elpis": { "language": "Greek", "lemma": "elpis", "original": "ἐλπίς", "gloss": "Hope, confident expectation of what God has promised, not wishful thinking. Their enduring hope in the Lord Jesus produces steadfastness under suffering. This forward look to Christ's return is the third member of the triad and the beating heart of the letter's later teaching on the coming of the Lord." },
-    "eklegomai": { "language": "Greek", "lemma": "eklegomai", "original": "ἐκλέγομαι", "gloss": "To choose or elect. Paul says he knows God has chosen these believers, and his evidence is the gospel's power and their transformed lives. Election here is a pastoral comfort: their faith, love, and hope are the visible fruit of God's prior, gracious choice of them." },
-    "euangelion": { "language": "Greek", "lemma": "euangelion", "original": "εὐαγγέλιον", "gloss": "The gospel, the good news of what God has done in Jesus Christ. Paul stresses that this gospel came not merely in words but in power, in the Holy Spirit, and with deep conviction. The message itself, carried by the Spirit, is what created the church and changed everything." },
-    "mimetes": { "language": "Greek", "lemma": "mimetes", "original": "μιμητής", "gloss": "An imitator, one who follows a pattern. The Thessalonians became imitators of Paul and of the Lord by receiving the word with joy even amid affliction. Imitation of Christ, especially His pattern of joy in suffering, marks them out and then spills over as they become an example to others." },
-    "eidolon": { "language": "Greek", "lemma": "eidolon", "original": "εἴδωλον", "gloss": "An idol, a false god or image. Their conversion is described as turning from idols to serve the living and true God. In a pagan city full of shrines, this decisive turning captures the essence of repentance: leaving dead idols to serve the God who is alive." },
-    "rhyomai": { "language": "Greek", "lemma": "rhyomai", "original": "ῥύομαι", "gloss": "To rescue, deliver, or draw out of danger. Jesus is named as the one who delivers His people from the coming wrath. The word points to real rescue from real judgment, and it frames the whole letter's hope: the Son they await is the Savior who snatches them from wrath." },
-    "orge": { "language": "Greek", "lemma": "orge", "original": "ὀργή", "gloss": "Wrath, God's settled and righteous judgment against sin. The coming wrath is the judgment from which Jesus rescues His people. Far from a loss of temper, it is God's just response to evil, and Paul returns to it later to assure believers they are not appointed to wrath but to salvation." }
+    "ekklesia": {
+      "language": "Greek",
+      "lemma": "ekklesia",
+      "original": "ἐκκλησία",
+      "gloss": "An assembly or congregation, the gathered people of God. Paul addresses not a building or an institution but the church of the Thessalonians, and locates them in God the Father and the Lord Jesus Christ. The word underlines that even this new, small, persecuted group is a true assembly belonging to God."
+    },
+    "charis": {
+      "language": "Greek",
+      "lemma": "charis",
+      "original": "χάρις",
+      "gloss": "Grace, God's unearned favor and kindness. Paul opens with grace and peace, a signature Christian greeting that weds the Greek word for favor to the Hebrew shalom. It sets the tone of the whole letter: everything the Thessalonians are and have flows first from God's grace in Christ."
+    },
+    "pistis": {
+      "language": "Greek",
+      "lemma": "pistis",
+      "original": "πίστις",
+      "gloss": "Faith, trust, and faithfulness toward God. Paul praises their work of faith, faith that is not idle but active and visible. It is the first member of the triad faith, love, and hope, and the theme the whole letter returns to as evidence that God has truly worked among them."
+    },
+    "agape": {
+      "language": "Greek",
+      "lemma": "agape",
+      "original": "ἀγάπη",
+      "gloss": "Self-giving love, the love God pours out and calls His people to show. Paul commends their labor of love, love that costs effort and toil. It is the second member of the triad and, later in the letter, something Paul prays will increase and overflow toward one another and toward all."
+    },
+    "elpis": {
+      "language": "Greek",
+      "lemma": "elpis",
+      "original": "ἐλπίς",
+      "gloss": "Hope, confident expectation of what God has promised, not wishful thinking. Their enduring hope in the Lord Jesus produces steadfastness under suffering. This forward look to Christ's return is the third member of the triad and the beating heart of the letter's later teaching on the coming of the Lord."
+    },
+    "eklegomai": {
+      "language": "Greek",
+      "lemma": "eklegomai",
+      "original": "ἐκλέγομαι",
+      "gloss": "To choose or elect. Paul says he knows God has chosen these believers, and his evidence is the gospel's power and their transformed lives. Election here is a pastoral comfort: their faith, love, and hope are the visible fruit of God's prior, gracious choice of them."
+    },
+    "euangelion": {
+      "language": "Greek",
+      "lemma": "euangelion",
+      "original": "εὐαγγέλιον",
+      "gloss": "The gospel, the good news of what God has done in Jesus Christ. Paul stresses that this gospel came not merely in words but in power, in the Holy Spirit, and with deep conviction. The message itself, carried by the Spirit, is what created the church and changed everything."
+    },
+    "mimetes": {
+      "language": "Greek",
+      "lemma": "mimetes",
+      "original": "μιμητής",
+      "gloss": "An imitator, one who follows a pattern. The Thessalonians became imitators of Paul and of the Lord by receiving the word with joy even amid affliction. Imitation of Christ, especially His pattern of joy in suffering, marks them out and then spills over as they become an example to others."
+    },
+    "eidolon": {
+      "language": "Greek",
+      "lemma": "eidolon",
+      "original": "εἴδωλον",
+      "gloss": "An idol, a false god or image. Their conversion is described as turning from idols to serve the living and true God. In a pagan city full of shrines, this decisive turning captures the essence of repentance: leaving dead idols to serve the God who is alive."
+    },
+    "rhyomai": {
+      "language": "Greek",
+      "lemma": "rhyomai",
+      "original": "ῥύομαι",
+      "gloss": "To rescue, deliver, or draw out of danger. Jesus is named as the one who delivers His people from the coming wrath. The word points to real rescue from real judgment, and it frames the whole letter's hope: the Son they await is the Savior who snatches them from wrath."
+    },
+    "orge": {
+      "language": "Greek",
+      "lemma": "orge",
+      "original": "ὀργή",
+      "gloss": "Wrath, God's settled and righteous judgment against sin. The coming wrath is the judgment from which Jesus rescues His people. Far from a loss of temper, it is God's just response to evil, and Paul returns to it later to assure believers they are not appointed to wrath but to salvation."
+    }
   },
   "study": {
     "basic": {
@@ -71,92 +166,244 @@
       "oneStory": "God has always called a people out of idolatry to serve Him and to wait for His saving intervention. Here that story reaches a young Greek city, where the gospel creates a church that turns from idols to the living God and waits for the risen Son, the deliverer from wrath."
     },
     "context": {
-      "literary": "The letter opens with a brief tri-part greeting, then an extended thanksgiving that runs from verse 2 through the end of the chapter and beyond. Paul stacks up the marks of a genuine work of God: the triad of faith, love, and hope; the gospel in power; joyful endurance; and a witness that has spread far. It functions as an overture, sounding themes the rest of the letter develops.",
-      "historical": "Thessalonica was a major, prosperous port city and the capital of Macedonia, full of pagan cults and imperial religion. According to Acts 17, Paul preached in the synagogue for three Sabbaths, saw many turn, and was then driven out by a mob within weeks. This letter, written soon after from Corinth around AD 50 or 51, is likely among the earliest of Paul's letters, addressed to a church that is new and under pressure.",
-      "canonical": "As one of the earliest New Testament documents, this thanksgiving gives an unusually early window into apostolic preaching and its effect. The triad of faith, love, and hope becomes a fixed Christian summary, and the closing note about awaiting the Son and rescue from wrath sets up the letter's later teaching on the coming of the Lord."
+      "literary": "The opening follows the shape of an ordinary Greek letter of the day, sender, recipients, greeting, and then a thanksgiving, but every piece has been baptised. The sender line names three men and no title, the recipients are described by where they stand ('in God the Father and the Lord Jesus Christ'), and the usual wish for good health becomes 'grace and peace.' The thanksgiving then does what such openings usually do in Paul: it announces the letter's themes in miniature. Faith, love, and hope in verse 3 are picked up again in 3:6 and 5:8. The theme of imitation in verse 6 returns in 2:14. The turning from idols and the waiting for the Son in verses 9 and 10 look ahead to the whole of chapters 4 and 5.\n\nInside the thanksgiving there is a clear movement. Verses 2 and 3 describe what Paul does, remembering and giving thanks. Verses 4 and 5 give his reason, a knowledge of their election grounded in how the gospel arrived. Verses 6 to 8 trace the ripple outward, from the Thessalonians imitating the apostles, to Macedonia and Achaia imitating the Thessalonians. Verses 9 and 10 turn the camera around: the report that others carry back about them is a compact creed with three movements, turning from idols, serving the living God, and waiting for His Son. Many readers hear the whole section as one long swelling sentence in Greek, and the pile of phrases gives the effect of a man who cannot stop saying thank you.",
+      "historical": "Thessalonica was the largest city of the Roman province of Macedonia and sat on the Egnatian Way, the great road running east to west across the north of Greece. A harbour, a main road, and a mixed population made it a place where news and ideas travelled fast, which helps explain verse 8. Its religious life was crowded: many Greek cults, Egyptian cults, and the worship of Rome and its rulers all had a place, so 'turned to God from idols' describes a real break with the public life of a city, not only a private change of mind.\n\nActs 17:1 to 9 gives the founding story. Paul reasoned in the synagogue on three Sabbaths, some Jews and a large number of devout Greeks believed, jealous opponents stirred up a crowd, and Jason, who had hosted the missionaries, was dragged before the city officials. The missionaries left by night, Acts 17:10. The mention of persecution in verse 6 here fits that picture. A church of mostly Gentile converts, with little time to be taught, was left in a hostile city. Paul writes within months, probably from Corinth around AD 50 or 51, and the letter's warmth is partly the warmth of a man still shaken by how quickly he was torn from them. Silvanus is the Silas of Acts, and Timothy had joined the team at Lystra, Acts 16:1 to 3.",
+      "canonical": "Within the New Testament this is among the earliest written glimpses of what the gospel did to people, and it is striking how much doctrine is already assumed: God as Father, Jesus as Lord and Son, the Spirit, election, resurrection, and the return of Christ. Paul does not argue for any of it. He treats it as the common ground of a church only a few months old.\n\nThe triad of faith, love, and hope is not unique to this verse. Paul sets it out again in 1 Corinthians 13:13, in Colossians 1:4 and 5, and in the armour of 1 Thessalonians 5:8, and the same three virtues echo through Hebrews 10:22 to 24 and 1 Peter 1:3 to 8. The description of conversion as a turn from idols to the living God was evidently a stock summary of Gentile mission preaching, compare Acts 14:15 and Acts 17:29 to 31. The language of being 'chosen' and 'beloved' reaches back to Israel, Deuteronomy 7:6 to 8, and forward to the church in Ephesians 1:4 and Colossians 3:12. The hope of the Son from heaven and rescue from wrath is the seed of the letter's long teaching on the Lord's coming and shapes Romans 5:9 and Revelation 6:16 and 17."
     },
     "hermeneutics": {
-      "authorIntent": "To assure a young, suffering church of God's electing love by rehearsing the clear evidence of the gospel's power among them, and to anchor their identity in serving the living God and awaiting His Son.",
-      "descriptionVsPrescription": "The passage mainly describes what God did in Thessalonica, yet it holds up an enduring pattern: genuine conversion shows itself in faith, love, and hope, in joyful endurance of suffering, and in turning from idols to serve and to wait. What is described of them is meant to be recognizable in every true church.",
+      "authorIntent": "Paul wants the Thessalonians to read their own story the way God reads it. They are a few months old in the faith, they have lost their teachers, and they are being squeezed by neighbours who once shared their gods. In that position a young believer easily decides that the opposition proves something is wrong. Paul turns the evidence over. The opposition and the joy together are the fingerprints of the Spirit's work, and their own reputation across Greece shows that this is not a small private matter. He is also quietly preparing the ground for what comes next. Because he has first warmed their hearts with how much he thinks of them, the instructions and corrections of chapters 4 and 5 will land on friendly ground. He writes to settle them in a confidence that does not rest on their own strength, so that when more trouble comes they know whose work this is.",
+      "descriptionVsPrescription": "Nothing in these verses is a command. Paul reports what he has seen and what he does, and the only things he asks of the reader are implied. Two cautions follow. First, we should not turn the description of one church's reputation into a measurement every church must hit, as though a congregation that is quiet and unnoticed must be failing. The point is the pattern of the three marks, not the geography of their fame. Second, the description is not only history. Paul expects the same marks, a work that comes from faith, a toil driven by love, and an endurance carried by hope, to be recognisable in any group that has truly received the gospel. Churches today can fairly use it as a mirror, asking whether they see turning, serving, and waiting, while remembering that the passage was written to comfort the discouraged, not to shame them.",
       "debates": [
         {
-          "question": "How should we understand Paul's confidence that God has chosen them?",
+          "question": "What does Paul mean by saying he knows their election?",
           "views": [
-            { "label": "Election grounds the assurance", "case": "Paul knows they are chosen because God's grace came first; the power of the gospel and their changed lives are the visible fruit and proof of that prior choice." },
-            { "label": "Changed lives are the evidence, not the basis", "case": "Some stress that Paul infers election from observable fruit, so the emphasis falls on the reality of transformed lives as the ground of pastoral assurance, without speculation about hidden decrees." }
+            {
+              "label": "He means God's eternal choice of individuals",
+              "case": "The word for election speaks of God's own choosing, and elsewhere Paul says God chose believers 'from the beginning,' 2 Thessalonians 2:13, and 'before the foundation of the world,' Ephesians 1:4. Reformed readers take verse 4 as a statement that the Thessalonians belong to God by His sovereign choice, which explains why the gospel came with power to them."
+            },
+            {
+              "label": "He means God's choice of a people, known by their response",
+              "case": "Arminian and many other readers stress that the passage infers election from what Paul saw, the reception of the gospel and the changed lives. Election, on this view, is God's choice of a body in Christ, and the individual is known to belong through faith, which Paul takes as the sign."
+            },
+            {
+              "label": "The emphasis falls on assurance, not mechanism",
+              "case": "Some say the text is not answering the question of how choice and faith relate at all. Paul is simply telling a frightened church that their experience has a divine origin."
+            }
           ],
-          "bearing": "Either way, assurance rests not on feelings but on the gospel's power producing real faith, love, and hope, all traced back to God's gracious initiative."
+          "bearing": "Every view agrees on what Paul does with the doctrine here: he uses it as comfort for the suffering, not as a puzzle for debate. Election is introduced as the reason to thank God, which is a warning against using it to boast or to argue the neighbours out of the faith."
         },
         {
-          "question": "What is the coming wrath from which Jesus delivers?",
+          "question": "What is the 'coming wrath' from which Jesus rescues?",
           "views": [
-            { "label": "God's final judgment", "case": "The wrath is God's just, future judgment on sin at the last day, from which Jesus rescues His people, as Paul develops in chapter five." },
-            { "label": "Judgment already breaking in", "case": "Some see wrath as both a present reality against sin and a future certainty, so deliverance is both a present rescue and a sure hope." }
+            {
+              "label": "The final judgment at the end of the age",
+              "case": "The participle 'coming' points ahead, and Paul's later teaching places this wrath on the day of the Lord, 1 Thessalonians 5:2 to 9, where believers are 'destined' not for wrath but for salvation. Romans 2:5 and 5:9 use similar language of a future outpouring."
+            },
+            {
+              "label": "A present and a future reality together",
+              "case": "Others point to Romans 1:18, where wrath is already being revealed against ungodliness, and to 1 Thessalonians 2:16, where wrath has already overtaken those who hinder the gospel. They hold that the wrath is already in motion and reaches its climax at the end."
+            }
           ],
-          "bearing": "In both readings Jesus is the rescuer from real judgment, and awaiting Him is a hope grounded in His resurrection."
+          "bearing": "On both readings Jesus is the one who rescues from real judgment and believers need not fear it. The tense of the word matters less than the one it names: the rescuer is already known, and His resurrection is the pledge."
         }
       ]
     },
-    "originalLanguages": "The heart of the thanksgiving is the triad: work of pistis, faith; labor of agape, love; endurance of elpis, hope. Each noun is paired with a term of effort, so faith works, love labors, and hope endures. Paul knows God has chosen (eklegomai) them because the euangelion, gospel, came in power and by the Holy Spirit. They became mimetes, imitators, of the Lord, receiving the word with joy amid affliction. Their conversion is summed up as turning from eidolon, idols, to serve the living and true God and to await His Son, Jesus, the rhyomai, the one who rescues, from the coming orge, the settled wrath of God against sin.",
+    "originalLanguages": "Beyond the triad Paul names, three details in verse 3 repay a closer look. Each of the three virtues is paired with a noun of effort: 'work' (ergon) of faith, 'labor' (kopos) of love, and 'endurance' (hypomone) of hope. Kopos is the word for toil that wears you out, the word Paul uses of his own tentmaking in 2:9. Hypomone is not passive resignation. It is the patient staying-power of someone who is under pressure and does not move, and Paul regularly connects it with hope, as in Romans 8:25. The three phrases together say that faith acts, love sweats, and hope stays.\n\nVerse 5 says the gospel came 'in power, in the Holy Spirit, and with great conviction.' The last word translates plerophoria, which carries the sense of full assurance or complete confidence, as a sail is full of wind. It most likely describes the effect on the hearers, the settled certainty the message produced in them, though some also hear the confidence of the preachers. Either way, the clause sets the gospel against speech that merely persuades, as Paul says in 1 Corinthians 2:4 and 5.\n\nVerse 4 calls the readers 'beloved by God' with a perfect participle, a love that has been shown and still stands. In the same verse the noun behind 'chosen' is the plain word for election or selection, the word Paul will use again in Romans 9:11 and 11:5.\n\nVerse 9 describes the turn as a double verb: they 'turned' (epistrephō, the standard word for conversion) and then 'to serve' (douleuein), the verb of a slave. The living God is not a hobby to be added to a busy life. It is a change of master. The two adjectives 'living and true' set God against idols that are dead and counterfeit, a contrast the Old Testament loves, compare Jeremiah 10:10 and Isaiah 44:9 to 20.\n\nFinally, 'coming' in verse 10 is a present participle, 'the wrath that is coming', which speaks of something certain and already on the way. That is quite different from a possible wrath that might one day arrive. Paul's wording also marks the rescue as a settled fact of the Son's identity, not a wish: He is the one who delivers, and the Thessalonians know Him by that name.",
     "typology": [
-      { "type": "Turning from idols to the living God", "fulfillment": "Takes up Israel's call to abandon false gods, now fulfilled as Gentiles turn to the true God through the gospel of His Son." },
-      { "type": "Awaiting God's Son from heaven", "fulfillment": "The Old Testament hope of God coming to save is focused on the risen Jesus, who will return to rescue His people from wrath." }
+      {
+        "type": "Turning from idols to serve, like the Exodus, 1 Thessalonians 1:9",
+        "fulfillment": "God sent Moses to Pharaoh with the demand that His people be released so that they might serve Him, Exodus 4:23 and 7:16. The Thessalonians' turn has the same shape: freed from one master in order to serve another. In Christ the pattern deepens. The bondage was not Egypt but sin and idolatry, and the deliverance is by the Son's death and resurrection, Colossians 1:13. The type falls short in that Israel went on a long road toward a land, while the Thessalonians are rescued within the city where they live, and now wait for a Son rather than a place."
+      },
+      {
+        "type": "Chosen and beloved, 1 Thessalonians 1:4",
+        "fulfillment": "Israel was told that God set His love on them not because they were great but because He loved them, Deuteronomy 7:6 to 8. Paul transfers the vocabulary of that love and choice to a congregation of Gentiles, and the same language is applied to the church in Colossians 3:12 and 1 Peter 2:9. The escalation is that the people of God is no longer drawn along one family line, and the choice is realised in Christ, Ephesians 1:4. The type is incomplete because Israel's election was tied to a covenant at Sinai, while the church's is bound to the Spirit given in the new covenant, Ezekiel 36:26 and 27."
+      },
+      {
+        "type": "Idols that cannot speak or save, 1 Thessalonians 1:9",
+        "fulfillment": "The psalmist says of idols that they have mouths but cannot speak and that those who make them become like them, Psalm 115:4 to 8. The Thessalonian turn is a deliverance from that likeness. In Christ believers are renewed in the image of the Creator, Colossians 3:10, and are 'being transformed' by beholding the glory of the Lord, 2 Corinthians 3:18. The type falls short because the prophets could only mock the idols from outside; the gospel actually changes the worshippers."
+      },
+      {
+        "type": "Waiting for God to save, 1 Thessalonians 1:10",
+        "fulfillment": "Isaiah 25:9 imagines a day when God's people will say that they waited for Him and that He saved them. Paul sees that waiting focused on a particular Person: the Son, raised from the dead and coming from heaven. The hope of Israel is not replaced but concentrated. The type falls short in that Isaiah's picture has no name attached; Paul can say that the Saviour is Jesus, who has already been raised, so that the waiting is no longer for something to begin but for something to be completed."
+      }
     ],
-    "christ": "Jesus stands at the center of the thanksgiving: the church exists in Him, their hope is in Him, and their whole conversion is oriented to Him. He is the Son whom God raised from the dead and whom they await from heaven. Above all He is named the deliverer, the one who rescues His people from the coming wrath. The gospel that is about Him came in power by the Spirit, and imitating Him, particularly His pattern of joy in the midst of suffering, becomes the visible signature of those who belong to Him.",
-    "god": "God the Father is named alongside the Lord Jesus at the very start, the source of grace and peace. He is the living and true God, sharply contrasted with the dead idols the Thessalonians abandoned. He loves and chooses His people, He sends the gospel in power by His Holy Spirit, and He raised Jesus from the dead. He is both the God who saves now and the God whose righteous wrath is coming, yet He has provided in His Son the rescue from that very judgment.",
+    "christ": "Verse 10 gives a short portrait of Christ in four strokes: Son, from heaven, raised from the dead, and the deliverer. Each stroke has a root in the wider New Testament. 'His Son' places Jesus on the divine side of the line between Creator and creature, which is why Paul can speak in verse 1 of grace and peace from 'God the Father and the Lord Jesus Christ' without any sense of a second god. 'From heaven' recalls Jesus' own words about the Son of Man coming on the clouds, Mark 14:62, and the angels' promise at the ascension that He would return in the same way, Acts 1:11.\n\nThe resurrection is the hinge. Paul does not say here that Jesus died, though the rest of the letter does, 4:14 and 5:10, but that God raised Him. The Thessalonians' hope of being rescued rests on that act. If He is alive, His promise of deliverance cannot be an empty sentiment. Romans 5:9 states the same link from the other side: believers are saved from wrath through Him because of the blood already shed.\n\nThere is also a quieter christological claim in verse 3. The hope that endures is hope 'in our Lord Jesus Christ.' Faith, love, and hope have the same centre. And in verse 6 the Thessalonians became imitators 'of us and of the Lord.' The Lord is the pattern for sufferers: He too received the word of the Father and endured, Hebrews 12:2 and 3, and the joy of the Spirit in suffering is a gift from the One who first went that road, Luke 10:21.\n\nA word of caution: the passage does not force an allegory on the idols or on Macedonia. Christ appears openly in the text, as the one waited for and the one who delivers. The way to see Him is to read the verses plainly and notice how much weight Paul hangs on the one fact of a risen and returning Son.",
+    "god": "The title Paul gives God in verse 9, 'living and true', is the thesis of the whole thanksgiving. A living God acts, speaks, hears, and judges, and the thanksgiving is full of His actions: He chose them, sent the gospel in power, gave the Spirit with joy, raised His Son, and rescues from wrath. A true God is genuine, as opposed to the counterfeit gods the Thessalonians had trusted. The two words together answer the pagan world's religion directly, and the same words are the foundation of Jeremiah 10:10.\n\nGod is called 'Father' three times in the first three verses, and the Father is also the one who loves and chooses. The relation is not abstract. He is 'our God and Father' in verse 3, which means the creator of the world addresses people who until recently had no claim on Him, as His own. Election, in verse 4, is thus an expression of fatherly affection, not a cold decree.\n\nThe passage also holds together two things that people tend to pull apart. God is the one who saves, with a love that comes before any deserving. And God is the one whose wrath is coming. Paul does not soften either. The Father who loves is the same God from whom the Son rescues, and neither love nor wrath is allowed to swallow the other. The rescue is possible only because the Father Himself provided the Son.\n\nThe Spirit appears as the one who makes the message effective and also the source of the joy that holds in affliction, verses 5 and 6. God is not only the content of the gospel but the One who works through it, and this explains why Paul can be confident about the Thessalonians even though he has been absent.\n\nFor worship, the passage invites thanksgiving in the first place. The proper response to the news of changed lives is to give thanks to God, not to praise human achievement. It also gives a pattern for prayer: remembering people by name before God, with gratitude for the specific things He has done in them, verses 2 and 3.",
     "crossReferences": [
-      { "ref": "1 Corinthians 13:13", "note": "Faith, hope, and love abide as the enduring marks of the Christian life, the same triad Paul praises here." },
-      { "ref": "Acts 17:1-9", "note": "The founding of the Thessalonian church amid opposition, the background to this letter." },
-      { "ref": "Romans 5:9", "note": "Believers are saved from God's wrath through Jesus, echoing the deliverer from the coming wrath." },
-      { "ref": "1 Thessalonians 5:9", "note": "God has not appointed us to wrath but to salvation, developing the hope introduced in verse 10." }
+      {
+        "ref": "Acts 17:1-9",
+        "note": "The founding of the church by Luke's account. The three Sabbaths, the angry crowd, and Jason hauled before the city officials fill in the 'great suffering' of verse 6 and show how little time the converts had before the pressure came."
+      },
+      {
+        "ref": "1 Corinthians 13:13",
+        "note": "The same three virtues in a different order, with love placed last as the greatest. Paul's use of the triad in both letters suggests he had been using it as a standing summary of Christian life since the earliest days."
+      },
+      {
+        "ref": "Colossians 1:4-5",
+        "note": "The triad again, but with an added explanation: faith and love spring from the hope stored up in heaven. It shows that hope is not the third item on the list but the ground the other two stand on."
+      },
+      {
+        "ref": "1 Corinthians 2:4-5",
+        "note": "Paul says his preaching came with a demonstration of the Spirit's power so that their faith might rest on God's power and not on human wisdom. It is the same contrast as 'not only in word, but also in power.'"
+      },
+      {
+        "ref": "Jeremiah 10:10",
+        "note": "The prophet declares that the LORD is the true God and the living God. Paul's phrase 'living and true God' in verse 9 takes this directly, and it shows how Jewish preaching to idolaters was carried over into the Gentile mission."
+      },
+      {
+        "ref": "Isaiah 44:9-20",
+        "note": "The longest mockery of idol making in Scripture: a man burns half a log for his fire and carves the rest into a god. It lets the reader feel what turning 'from idols' meant, an exchange of nonsense for the living God."
+      },
+      {
+        "ref": "Deuteronomy 7:6-8",
+        "note": "God tells Israel that He set His love on them and chose them, not because they were many but because He loved them. Paul's 'beloved by God' and 'chosen' in verse 4 borrow this language and apply it to a Gentile church."
+      },
+      {
+        "ref": "1 Thessalonians 5:9",
+        "note": "Paul answers the 'coming wrath' of 1:10 here: God has not destined us for wrath but for obtaining salvation through our Lord Jesus Christ. The hope introduced in the opening is explained at the close."
+      },
+      {
+        "ref": "Romans 5:9",
+        "note": "The same rescue from wrath is based here on the blood of Christ, which Paul does not mention in 1 Thessalonians 1. Together the two texts give the whole picture: His death pays, His resurrection and return deliver."
+      },
+      {
+        "ref": "Acts 14:15",
+        "note": "Paul tells a Lycaonian crowd to turn from worthless things to the living God, who made heaven and earth. It is an earlier, recorded example of the very preaching that Paul summarises in 1 Thessalonians 1:9."
+      }
     ],
-    "oneStory": "From the beginning God has called a people out of idolatry to serve Him and to wait for His saving intervention. Here that long story reaches a young Greek city, where the gospel of the risen Son creates a church marked by faith, love, and hope. They turn from idols to the living and true God and lift their eyes to heaven, awaiting Jesus, the deliverer from wrath. Their story is a fresh instance of God gathering a people for Himself, and their forward-looking hope points to the day the whole story is heading toward.",
-    "sermon": { "status": "verified", "preacher": "John Piper", "title": "Hope Will Put You to Work: 1 Thessalonians 1:2-7, Part 1", "url": "https://www.desiringgod.org/labs/hope-will-put-you-to-work", "why": "In this Look at the Book study, Piper works through the opening thanksgiving, showing how the triad of faith, love, and hope drives real work, labor, and endurance, and why hope in Christ energizes the Christian life. A careful, orthodox treatment of this movement." }
+    "oneStory": "Genesis 3 began with a human choice to listen to another voice than God's, and the rest of Genesis shows idolatry spreading from it until nations cluster around gods of their own making. Babel, Genesis 11, and the world of Abraham's fathers, Joshua 24:2, are the same story. God's response is to call out one man and then one people to serve Him, and the Old Testament is the story of how often they were drawn back toward other gods. The prophets mock the idols and promise a day when the nations will turn to the living God, Isaiah 45:22 and Zechariah 8:20 to 23.\n\nThis thanksgiving records the first stage of that promise arriving. A group of Greeks in a port city turn, serve, and wait, and their reputation travels along the Roman roads. It is the story of Abraham's blessing reaching the nations, Genesis 12:3, seen from the inside. Nothing special about the Thessalonians explains it; verse 4 puts the credit with God's choice, and verse 5 with the Spirit's power.\n\nThe passage also points forward. The waiting of verse 10 is the same waiting that fills the last chapters of the Bible, when the Son who was raised returns and the wrath that has been coming finally arrives. Revelation 7:9 to 10 pictures the end of this story: a multitude from every nation standing before the throne, those who once belonged to other gods now serving the living God, with the deliverance credited to God and to the Lamb. The Thessalonian church is a first fruit of that crowd, and what happened in their city is the small beginning of what the new creation will make complete.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "John Piper",
+      "title": "Hope Will Put You to Work: 1 Thessalonians 1:2-7, Part 1",
+      "url": "https://www.desiringgod.org/labs/hope-will-put-you-to-work",
+      "why": "In this Look at the Book study, Piper works through the opening thanksgiving, showing how the triad of faith, love, and hope drives real work, labor, and endurance, and why hope in Christ energizes the Christian life. A careful, orthodox treatment of this movement."
+    }
   },
   "quiz": [
     {
       "q": "What three things does Paul give thanks for in the Thessalonians?",
       "options": [
-        { "text": "Their work of faith, labor of love, and endurance of hope.", "weight": 100, "note": "Verse 3 names the famous triad of faith, love, and hope." },
-        { "text": "Their wealth, size, and social standing in the city.", "weight": 75, "note": "Paul commends spiritual fruit, not status or numbers." },
-        { "text": "Their impressive buildings and organization.", "weight": 25, "note": "The church was new and under pressure; Paul praises faith, love, and hope." },
-        { "text": "Their careful keeping of Jewish festivals.", "weight": 0, "note": "These were Gentiles who turned from idols to the living God, not festival-keepers." }
+        {
+          "text": "Their work of faith, labor of love, and endurance of hope.",
+          "weight": 100,
+          "note": "Verse 3 names the famous triad of faith, love, and hope."
+        },
+        {
+          "text": "Their wealth, size, and social standing in the city.",
+          "weight": 75,
+          "note": "Paul commends spiritual fruit, not status or numbers."
+        },
+        {
+          "text": "Their impressive buildings and organization.",
+          "weight": 25,
+          "note": "The church was new and under pressure; Paul praises faith, love, and hope."
+        },
+        {
+          "text": "Their careful keeping of Jewish festivals.",
+          "weight": 0,
+          "note": "These were Gentiles who turned from idols to the living God, not festival-keepers."
+        }
       ]
     },
     {
       "q": "How did the gospel come to the Thessalonians?",
       "options": [
-        { "text": "Not only in word, but in power, in the Holy Spirit, and with deep conviction.", "weight": 100, "note": "Verse 5 stresses the gospel came with Spirit-given power and conviction." },
-        { "text": "Only as clever human arguments.", "weight": 75, "note": "Words were involved, but the power was the Holy Spirit's, not mere rhetoric." },
-        { "text": "Through signs alone, without any message.", "weight": 25, "note": "The message came in word, yet accompanied by power and the Spirit." },
-        { "text": "By force and compulsion.", "weight": 0, "note": "They welcomed the message with joy; it was received, not forced." }
+        {
+          "text": "Not only in word, but in power, in the Holy Spirit, and with deep conviction.",
+          "weight": 100,
+          "note": "Verse 5 stresses the gospel came with Spirit-given power and conviction."
+        },
+        {
+          "text": "Only as clever human arguments.",
+          "weight": 75,
+          "note": "Words were involved, but the power was the Holy Spirit's, not mere rhetoric."
+        },
+        {
+          "text": "Through signs alone, without any message.",
+          "weight": 25,
+          "note": "The message came in word, yet accompanied by power and the Spirit."
+        },
+        {
+          "text": "By force and compulsion.",
+          "weight": 0,
+          "note": "They welcomed the message with joy; it was received, not forced."
+        }
       ]
     },
     {
       "q": "How is the Thessalonians' conversion summed up in verses 9 and 10?",
       "options": [
-        { "text": "They turned from idols to serve the living God and to await His Son from heaven.", "weight": 100, "note": "Verses 9-10 give this threefold summary: turned, serve, await." },
-        { "text": "They kept their idols but added Jesus alongside them.", "weight": 75, "note": "They turned from idols; there was a decisive break, not an addition." },
-        { "text": "They stopped believing in any god at all.", "weight": 25, "note": "They turned to the living and true God, not away from all faith." },
-        { "text": "They simply changed their moral behavior with no change of allegiance.", "weight": 0, "note": "The turning was a change of worship and allegiance to God through His Son." }
+        {
+          "text": "They turned from idols to serve the living God and to await His Son from heaven.",
+          "weight": 100,
+          "note": "Verses 9-10 give this threefold summary: turned, serve, await."
+        },
+        {
+          "text": "They kept their idols but added Jesus alongside them.",
+          "weight": 75,
+          "note": "They turned from idols; there was a decisive break, not an addition."
+        },
+        {
+          "text": "They stopped believing in any god at all.",
+          "weight": 25,
+          "note": "They turned to the living and true God, not away from all faith."
+        },
+        {
+          "text": "They simply changed their moral behavior with no change of allegiance.",
+          "weight": 0,
+          "note": "The turning was a change of worship and allegiance to God through His Son."
+        }
       ]
     },
     {
       "q": "How is Jesus described in relation to the coming wrath?",
       "options": [
-        { "text": "As the deliverer who rescues His people from the coming wrath.", "weight": 100, "note": "Verse 10 names Jesus our deliverer from the coming wrath." },
-        { "text": "As the one who ignores the coming wrath.", "weight": 75, "note": "The wrath is real and coming; Jesus rescues from it rather than ignoring it." },
-        { "text": "As the cause of wrath against His people.", "weight": 25, "note": "Jesus is the rescuer from wrath, not its source against His own." },
-        { "text": "As someone unrelated to judgment.", "weight": 0, "note": "Jesus is precisely the deliverer from the coming judgment." }
+        {
+          "text": "As the deliverer who rescues His people from the coming wrath.",
+          "weight": 100,
+          "note": "Verse 10 names Jesus our deliverer from the coming wrath."
+        },
+        {
+          "text": "As the one who ignores the coming wrath.",
+          "weight": 75,
+          "note": "The wrath is real and coming; Jesus rescues from it rather than ignoring it."
+        },
+        {
+          "text": "As the cause of wrath against His people.",
+          "weight": 25,
+          "note": "Jesus is the rescuer from wrath, not its source against His own."
+        },
+        {
+          "text": "As someone unrelated to judgment.",
+          "weight": 0,
+          "note": "Jesus is precisely the deliverer from the coming judgment."
+        }
       ]
     },
     {
       "q": "Why does Paul say he knows God has chosen the Thessalonians?",
       "options": [
-        { "text": "Because the gospel came in power and produced real, changed lives.", "weight": 100, "note": "Verses 4-6 tie the assurance of election to the gospel's power and their fruit." },
-        { "text": "Because they were naturally more religious than others.", "weight": 75, "note": "The ground is God's work in them, not their natural religiosity." },
-        { "text": "Because they had earned God's favor by their efforts.", "weight": 25, "note": "Their fruit flows from God's grace and choice, not from earning favor." },
-        { "text": "Because they were wealthy and successful.", "weight": 0, "note": "Election is shown by faith, love, and hope, not by prosperity." }
+        {
+          "text": "Because the gospel came in power and produced real, changed lives.",
+          "weight": 100,
+          "note": "Verses 4-6 tie the assurance of election to the gospel's power and their fruit."
+        },
+        {
+          "text": "Because they were naturally more religious than others.",
+          "weight": 75,
+          "note": "The ground is God's work in them, not their natural religiosity."
+        },
+        {
+          "text": "Because they had earned God's favor by their efforts.",
+          "weight": 25,
+          "note": "Their fruit flows from God's grace and choice, not from earning favor."
+        },
+        {
+          "text": "Because they were wealthy and successful.",
+          "weight": 0,
+          "note": "Election is shown by faith, love, and hope, not by prosperity."
+        }
       ]
     }
   ],
@@ -168,7 +415,13 @@
     "Jesus is described as the deliverer from the coming wrath. How does resting in that rescue change the way you face the future?"
   ],
   "translationNotes": [
-    { "ref": "1 Thessalonians 1:1", "note": "Silvanus is the fuller form of the name Silas, Paul's companion in Acts. The BSB footnote notes this." }
+    {
+      "ref": "1 Thessalonians 1:1",
+      "note": "Silvanus is the fuller form of the name Silas, Paul's companion in Acts. The BSB footnote notes this."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for 1 Thessalonians 1:1-10." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for 1 Thessalonians 1:1-10."
+  }
 }
