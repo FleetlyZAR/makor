@@ -18,11 +18,31 @@
         "note": "a catalog of self-love",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 3, "n": 1, "text": "But understand this: In the {{eschatos|last days}} terrible times will come." },
-          { "chapter": 3, "n": 2, "text": "For men will be {{philautos|lovers of themselves}}, lovers of money, boastful, arrogant, abusive, disobedient to their parents, ungrateful, unholy," },
-          { "chapter": 3, "n": 3, "text": "unloving, unforgiving, slanderous, without self-control, brutal, without love of good," },
-          { "chapter": 3, "n": 4, "text": "traitorous, reckless, conceited, lovers of pleasure rather than lovers of God," },
-          { "chapter": 3, "n": 5, "text": "having a {{morphosis|form}} of godliness but denying its power. Turn away from such as these!" }
+          {
+            "chapter": 3,
+            "n": 1,
+            "text": "But understand this: In the {{eschatos|last days}} terrible times will come."
+          },
+          {
+            "chapter": 3,
+            "n": 2,
+            "text": "For men will be {{philautos|lovers of themselves}}, lovers of money, boastful, arrogant, abusive, disobedient to their parents, ungrateful, unholy,"
+          },
+          {
+            "chapter": 3,
+            "n": 3,
+            "text": "unloving, unforgiving, slanderous, without self-control, brutal, without love of good,"
+          },
+          {
+            "chapter": 3,
+            "n": 4,
+            "text": "traitorous, reckless, conceited, lovers of pleasure rather than lovers of God,"
+          },
+          {
+            "chapter": 3,
+            "n": 5,
+            "text": "having a {{morphosis|form}} of godliness but denying its power. Turn away from such as these!"
+          }
         ]
       },
       {
@@ -30,8 +50,16 @@
         "note": "always learning, never arriving",
         "emphasis": "",
         "verses": [
-          { "chapter": 3, "n": 6, "text": "They are the kind who worm their way into households and captivate vulnerable women who are weighed down with sins and led astray by various passions," },
-          { "chapter": 3, "n": 7, "text": "who are always learning but never able to come to a knowledge of the truth." }
+          {
+            "chapter": 3,
+            "n": 6,
+            "text": "They are the kind who worm their way into households and captivate vulnerable women who are weighed down with sins and led astray by various passions,"
+          },
+          {
+            "chapter": 3,
+            "n": 7,
+            "text": "who are always learning but never able to come to a knowledge of the truth."
+          }
         ]
       },
       {
@@ -39,17 +67,45 @@
         "note": "like Jannes and Jambres",
         "emphasis": "",
         "verses": [
-          { "chapter": 3, "n": 8, "text": "Just as Jannes and Jambres opposed Moses, so also these men oppose the truth. They are depraved in mind and {{adokimos|disqualified}} from the faith." },
-          { "chapter": 3, "n": 9, "text": "But they will not advance much further. For just like Jannes and Jambres, their folly will be plain to everyone." }
+          {
+            "chapter": 3,
+            "n": 8,
+            "text": "Just as Jannes and Jambres opposed Moses, so also these men oppose the truth. They are depraved in mind and {{adokimos|disqualified}} from the faith."
+          },
+          {
+            "chapter": 3,
+            "n": 9,
+            "text": "But they will not advance much further. For just like Jannes and Jambres, their folly will be plain to everyone."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "eschatos": { "language": "Greek", "lemma": "eschatos", "original": "ἔσχατος", "gloss": "Last, final. The last days in the New Testament are not only a brief span before the very end but the whole era inaugurated by Christ's first coming and closed by His return. Paul tells Timothy these days, already present, will bring seasons of moral difficulty, so the warning is not merely about the distant future but about the age the church now lives in." },
-    "philautos": { "language": "Greek", "lemma": "philautos", "original": "φίλαυτος", "gloss": "Lover of self. It heads the whole vice list and sets its tone: disordered self-love is the root from which the other sins grow. The catalog is bracketed by love words gone wrong, lovers of self and money at the start, lovers of pleasure rather than lovers of God at the end, exposing a heart whose loves are aimed everywhere but at God." },
-    "morphosis": { "language": "Greek", "lemma": "morphosis", "original": "μόρφωσις", "gloss": "An outward form, shape, or appearance. These people keep the external shell of religion, its language and routines, while denying its inner power to change the life. It is the most chilling item in the list: not open unbelief but a counterfeit godliness, a form without force, which is why Paul says turn away from such as these." },
-    "adokimos": { "language": "Greek", "lemma": "adokimos", "original": "ἀδόκιμος", "gloss": "Failing the test, disqualified, rejected as counterfeit. It is the exact opposite of dokimos, the approved workman of chapter 2. These opponents of the truth, tested and found false, are disqualified regarding the faith. Their corrupt minds cannot pass the assay, and their counterfeit religion will finally be shown for what it is." }
+    "eschatos": {
+      "language": "Greek",
+      "lemma": "eschatos",
+      "original": "ἔσχατος",
+      "gloss": "Last, final. The last days in the New Testament are not only a brief span before the very end but the whole era inaugurated by Christ's first coming and closed by His return. Paul tells Timothy these days, already present, will bring seasons of moral difficulty, so the warning is not merely about the distant future but about the age the church now lives in."
+    },
+    "philautos": {
+      "language": "Greek",
+      "lemma": "philautos",
+      "original": "φίλαυτος",
+      "gloss": "Lover of self. It heads the whole vice list and sets its tone: disordered self-love is the root from which the other sins grow. The catalog is bracketed by love words gone wrong, lovers of self and money at the start, lovers of pleasure rather than lovers of God at the end, exposing a heart whose loves are aimed everywhere but at God."
+    },
+    "morphosis": {
+      "language": "Greek",
+      "lemma": "morphosis",
+      "original": "μόρφωσις",
+      "gloss": "An outward form, shape, or appearance. These people keep the external shell of religion, its language and routines, while denying its inner power to change the life. It is the most chilling item in the list: not open unbelief but a counterfeit godliness, a form without force, which is why Paul says turn away from such as these."
+    },
+    "adokimos": {
+      "language": "Greek",
+      "lemma": "adokimos",
+      "original": "ἀδόκιμος",
+      "gloss": "Failing the test, disqualified, rejected as counterfeit. It is the exact opposite of dokimos, the approved workman of chapter 2. These opponents of the truth, tested and found false, are disqualified regarding the faith. Their corrupt minds cannot pass the assay, and their counterfeit religion will finally be shown for what it is."
+    }
   },
   "study": {
     "basic": {
@@ -63,92 +119,266 @@
       "oneStory": "Ever since the fall, human hearts have turned their love inward and away from God, and the last days intensify that rebellion. Yet God has always limited and exposed those who oppose His truth, from Pharaoh's magicians onward, and He will do so fully when Christ, the truth they resist, appears as Judge."
     },
     "context": {
-      "literary": "The movement opens with a solemn marker, understand this, and unleashes a rapid-fire list of about nineteen vices, a rhetorical technique common in ancient moral writing. The list is framed by misdirected loves and peaks in the phrase a form of godliness but denying its power, followed by a sharp command. Paul then narrows from the general portrait to specific predatory behavior, and closes with a historical comparison that carries a promise of exposure.",
-      "historical": "The false teachers at Ephesus gained access to households, then a private sphere, and influenced women who were burdened by guilt and hungry to learn but were being led astray. Jannes and Jambres were the traditional names, known from Jewish writings, for the Egyptian magicians who withstood Moses before Pharaoh, a comparison every Scripture-taught reader would grasp.",
-      "canonical": "This is one of the New Testament's fullest catalogs of the moral character of the last days, sitting alongside Romans 1 and the warnings of Second Peter and Jude. Its enduring value is diagnostic: it helps the church recognize a religion that keeps the shape of faith while denying its transforming power."
+      "literary": "Chapter 3 begins with a sharp change of key. Chapter 2 ended on the hope that God might grant repentance to opponents; chapter 3 opens with 'But understand this,' a call to see clearly what is coming. The passage then falls into four movements. Verse 1 gives the warning, verses 2 to 4 give the catalogue, verse 5 gives the diagnosis and a command, and verses 6 to 9 show how the people described actually behave and where they end.\n\nThe catalogue is long, eighteen terms in the BSB, and it is arranged with care. It starts with 'lovers of themselves' and 'lovers of money,' and it ends with 'lovers of pleasure rather than lovers of God.' The list is bracketed by love turned in the wrong direction, so that the first and last items name the same disorder. Between them are sins of the mouth, 'boastful, arrogant, abusive,' sins in the family, 'disobedient to their parents, ungrateful, unholy, unloving, unforgiving,' sins against society, 'slanderous, brutal, traitorous, reckless,' and sins of the mind, 'conceited.' Paul does not give an order of seriousness. He gives a portrait of what happens when love of self takes the place of love of God.\n\nThe most important grammatical movement is in the tense. Verses 1 and 2 are future: terrible times 'will come' and men 'will be' such people. From verse 6 the verbs are present: 'They are the kind who worm their way into households,' and in verse 8 these men 'oppose the truth.' Timothy is told about the future in order to recognise what he already sees. The 'last days' are not only ahead of him.\n\nVerse 5 is the hinge. 'Having a form of godliness but denying its power' summarises the list, and the command 'Turn away from such as these!' is the only imperative in the passage. The chapter closes by pointing ahead: verse 10 begins 'You, however,' and sets Timothy's way of life against this one.",
+      "historical": "Timothy was working in Ephesus, a large city whose religious life included the temple of Artemis, the magic books mentioned in Acts 19:19 and a mixed population of Jews, Greeks and converts. In that setting the 'form of godliness' would not have meant atheism. It would have meant religion that could use the words of faith, hold meetings and teach, while leaving the heart and life untouched. The false teachers Paul has in view come from inside the Christian movement, since their offence is to deny the power of godliness, which presupposes that they have the form of it.\n\nThe households of verse 6 are the homes that served as meeting places for the early churches. The wording 'worm their way into' pictures people slipping in by stealth, and Titus 1:11 describes the same kind of teacher as undermining entire households 'for the sake of dishonorable gain.' The women mentioned are said to be weighed down with sins and led by various passions. Paul does not say that women are especially gullible. He is describing a particular group that these teachers targeted, perhaps because homes were where the teachers found hospitality and a hearing, and because people burdened by guilt are open to anyone who promises relief.\n\nJannes and Jambres are not named in the Old Testament. Exodus 7:11 speaks of the 'wise men and sorcerers and magicians of Egypt' who copied Moses' signs, and later Jewish writings supplied names for two of them. Paul uses the tradition in the same way that Jude draws on Jewish tradition in Jude 9 and 14, taking what his readers know and applying it. The Exodus story itself fits his point. The magicians matched the first signs, Exodus 7:11 and 7:22, but could not produce gnats, 8:18, confessed 'the finger of God,' 8:19, and could not even stand before Moses because of the boils, 9:11.",
+      "canonical": "The list of vices has close relatives elsewhere in Paul. Romans 1:28-32 describes people God gave up to a depraved mind, who are 'arrogant, and boastful,' who 'disobey their parents' and are 'heartless, merciless.' Galatians 5:19-21 sets out the acts of the flesh. What is distinctive here is the setting: Romans describes the pagan world, while 2 Timothy 3 describes a world with a religious cover. The two lists overlap but the surroundings are different.\n\nThe 'last days' is a New Testament term for the whole period since Christ came, not only a final short span. Hebrews 1:1-2 says 'in these last days He has spoken to us by His Son,' and Peter at Pentecost applies Joel's 'last days' to the outpouring of the Spirit, Acts 2:17. First Corinthians 10:11 says 'the fulfillment of the ages has come' on those in the church, and 1 John 2:18 says 'it is the last hour' because many antichrists have appeared. The prediction of 2 Timothy 3 sits alongside similar ones in 1 Timothy 4:1-2, 2 Peter 3:3 and Jude 17-19, where scoffers will follow their own desires and cause divisions. Jesus Himself said that many false prophets would arise and 'the love of most will grow cold,' Matthew 24:11-12.\n\nForm without power is an old problem. Isaiah 29:13 says, 'These people draw near to Me with their mouths and honor Me with their lips, but their hearts are far from Me,' and Jesus quotes it against the Pharisees in Mark 7:6-7. Titus 1:16 says that such people 'profess to know God, but by their actions they deny Him.' And 1 Corinthians 4:20 gives the other side, 'the kingdom of God is not a matter of talk but of power.'"
     },
     "hermeneutics": {
-      "authorIntent": "To alert Timothy to the moral character of the present age, to command him to turn away from those who counterfeit godliness, and to reassure him that such opponents of the truth, however active, are limited and will be exposed as fools.",
-      "descriptionVsPrescription": "The vice list and the account of predatory teachers are descriptive, portraying a recurring reality of the last days. The clear prescription is the command turn away from such as these, and by implication to be the opposite: genuinely godly, submitted to the power of God.",
+      "authorIntent": "Paul does not write to frighten Timothy or to give him a prediction to trade on. He writes so that Timothy will not be surprised, and so that he can read the situation around him as the kind of thing Scripture said would occur. A leader who thinks the church should be easy will be crushed when it is not. A leader who knows that hard times are part of the age can keep going.\n\nThe long list is also a mirror. Paul wants Timothy to see what the opponents are like, but the words 'lovers of themselves' and 'lovers of money' would also have sounded to every reader as a warning about the heart. The passage is not written so that Christians can sort the world into villains and the rest, and its list of sins is only half of the picture. The other half is the quiet call, in verse 5, to turn away from those who wear the clothes of religion and have no life in them.\n\nAbove all, Paul wants Timothy to know how it will end. 'They will not advance much further.' The statement is meant to steady the heart. Error is loud and often wins a following, but it does not last. The comparison with Jannes and Jambres puts the current opponents in a long line of failures, and it says that Timothy is in the line of Moses.",
+      "descriptionVsPrescription": "The passage describes a character type and a pattern of behaviour; it does not give a checklist for spotting unbelievers. The sins named are common to people inside and outside the church, and it would be a misuse of the passage to read a list of faults in a neighbour and decide that the last days have come to his door. Paul's concern is with those who combine such lives with the claim to be godly teachers.\n\nThe prediction of verses 1 to 4 is also not a timetable. Neither this passage nor the other New Testament passages on the last days give a date or an order of events, and treating the vice list as a gauge of how near the end is has misled many. Paul says the times are 'terrible' and gives Timothy a task, not a forecast to monitor.\n\nThe commands are plain and apply now: understand that hard times are normal, turn away from those who have a form of godliness without its power, and do not be shaken when error finds a following. 'Turn away' must be read in light of 2 Timothy 2:24-26, where the Lord's servant gently corrects opponents. What Paul forbids here is partnership with false teachers and being taken in by them, not caring for the people who are deceived.",
       "debates": [
         {
-          "question": "When are the last days that Paul describes?",
+          "question": "Who are the 'men' of verses 2 to 5, and are they inside the church?",
           "views": [
-            { "label": "The whole era between Christ's comings", "case": "The New Testament regularly calls the present age the last days, so Paul warns of difficulties already breaking in, not only a final future crisis." },
-            { "label": "Intensifying seasons, especially near the end", "case": "The phrase terrible times will come may point to particular periods of concentrated evil that recur and sharpen as history moves toward Christ's return." }
+            {
+              "label": "False teachers within the church",
+              "case": "The 'form of godliness' presupposes a religious setting, and verses 6 to 9 speak of people who enter households, teach, and oppose the truth as Jannes and Jambres opposed Moses. On this view the whole list is a portrait of the false teachers, with their lives revealing what their message is. Titus 1:16 supports the link between profession and denial."
+            },
+            {
+              "label": "Society in general, with false teachers as its leaders",
+              "case": "Because verse 2 begins 'men will be,' some read the list as describing the character of people in general in the last days, and verse 6 then narrows to a subset, 'the kind who worm their way into households.' On this view the list is wide and the teachers within the church are a particular case of it."
+            },
+            {
+              "label": "Nominal believers in the pews",
+              "case": "A third view reads the list as a description of people who attend church but whose lives are untouched, a category that may include teachers and hearers alike. This fits 'having a form of godliness' and the warning to turn away, but is less obvious from the household description."
+            }
           ],
-          "bearing": "Either way the warning is urgent and present: the church in every generation must recognize and resist counterfeit godliness now."
+          "bearing": "All three agree that the form of godliness is the defining mark and that the opposition is to truth. The practical question for a reader is the same: do I have the power, or only the form?"
         },
         {
-          "question": "Why single out the vulnerable women in verse 6?",
+          "question": "How does 'turn away from such as these' fit with 'gently reprove those who oppose him' in 2:25?",
           "views": [
-            { "label": "A description of the predators' tactics", "case": "The point is the deceivers' method, exploiting those weighed down by guilt and unsettled by passions, not a blanket statement about women." },
-            { "label": "A caution about untethered learning", "case": "Always learning but never arriving warns against a restless appetite for novelty that never submits to the truth, a danger for anyone." }
+            {
+              "label": "Different people",
+              "case": "Some distinguish between the deceived, who are to be gently reproved in hope of repentance, and the teachers who knowingly lead others astray, who are to be avoided. Titus 3:10 speaks of avoiding a divisive person after warnings."
+            },
+            {
+              "label": "Different stages",
+              "case": "Others say the two commands belong to one process. Timothy corrects gently first, and if the person persists in opposition, he turns away. This keeps both texts in force and matches the pattern Paul follows elsewhere."
+            },
+            {
+              "label": "Different dangers",
+              "case": "A third view says that 2:25 concerns the heart of the servant, who must not be harsh, while 3:5 concerns his relationships, which must not be entangled. The first protects the opponent and the second protects Timothy and the church."
+            }
           ],
-          "bearing": "The verse exposes how false teachers prey on the guilt-burdened and unanchored, calling the church to protect the vulnerable and to ground all learning in the truth."
+          "bearing": "Paul gives no sign that he sees a contradiction. The two commands together describe a leader who is gentle in manner and firm in boundaries."
+        },
+        {
+          "question": "How can they 'not advance much further' when evil men 'go from bad to worse' in verse 13?",
+          "views": [
+            {
+              "label": "Different kinds of progress",
+              "case": "The same Greek verb is used in both verses. In verse 9 the claim is that their influence will be checked, and in verse 13 the claim is that their own character will worsen. They may grow in wickedness while their success is limited."
+            },
+            {
+              "label": "Different time frames",
+              "case": "Verse 9 looks to the exposure that will come, as it came to the Egyptian magicians, while verse 13 is a general observation about the course of evil in the meantime. Both can be true at once."
+            }
+          ],
+          "bearing": "The two verses together say that evil deepens within and fails in the end. Timothy should neither be surprised by how bad it gets nor fear that it will win."
         }
       ]
     },
-    "originalLanguages": "The movement is shaped by pointed Greek terms. The eschatos, last days, name the whole present age inaugurated by Christ, so the warning is for now, not just later. The vice list is framed by disordered loves: it opens with philautos, lover of self, and closes with lovers of pleasure rather than lovers of God, a heart whose affections point everywhere but heavenward. Its darkest note is morphosis, a mere form or outward shape, of godliness that denies the very power that makes it real, a counterfeit shell. And the opponents are adokimos, disqualified, having failed the test, the exact opposite of the dokimos, approved, workman of the previous movement. The contrast is deliberate: God approves the genuine and rejects the counterfeit.",
+    "originalLanguages": "Paul opens with enistemi, 'will come,' a verb meaning to stand near or be at hand, in the future tense. The times are called chalepoi, 'terrible' or 'hard to deal with,' a word that the New Testament uses elsewhere only in Matthew 8:28, of two demon possessed men so violent that no one could pass. It is the sense of dangerous more than of merely unpleasant.\n\nThe list begins with philautoi and philargyroi, 'lovers of self' and 'lovers of money,' and ends with philedonoi and philotheoi, 'lovers of pleasure' and 'lovers of God.' The Greek ear would catch the repeated 'phil' sound, four words built on the root for love, three misdirected and the last the one that should have come first. Luke 16:14 uses philargyros of the Pharisees, which prepares the link between money and religion. Alazones, 'boastful,' appears in Romans 1:30, and hyperephanoi, 'arrogant,' in Romans 1:30 and James 4:6, where God opposes the proud.\n\n'Abusive' translates blasphemoi, literally 'blasphemers,' words that wound God or people. 'Slanderous,' diaboloi, is the plural of the word for the devil, used in 1 Timothy 3:11 and Titus 2:3 of people who speak against others. Astorgoi, 'unloving,' names the lack of natural family affection, and it occurs elsewhere only in Romans 1:31. The word for 'traitorous,' prodotai, is the word used of Judas, Luke 6:16, and of those who betrayed Jesus, Acts 7:52. 'Reckless,' propetes, is used in Acts 19:36 of rash action. 'Conceited' is tetyphomenoi, from typhos, smoke or mist, a person puffed up and clouded by pride, as in 1 Timothy 3:6 and 6:4.\n\nThe key phrase of verse 5 is morphosin eusebeias, 'a form of godliness.' Morphosis is the outline or appearance of something. Paul uses the same word in Romans 2:20 for the 'embodiment' of knowledge and truth that a person has in the law. The phrase 'denying its power' uses arneomai, the verb of 2:12 and Titus 1:16, 'by their actions they deny Him.' The power, dynamis, is what Paul describes in 1:7 and 1:8. The verb apotrepo, 'turn away,' appears only here in the New Testament.\n\nIn verse 7 the knowledge they can never reach is epignosis aletheias, 'knowledge of the truth,' the same phrase that appears in 2:25, 1 Timothy 2:4 and Titus 1:1. The pairing of 2:25 and 3:7 is deliberate. The opponents of chapter 2 might come to this knowledge by repentance; the learners of chapter 3 never do. In verse 8 'oppose' is anthistamai, to stand against, as Paul used of himself when he opposed Peter, Galatians 2:11, and 'disqualified' is adokimos, the opposite of the dokimos of 2:15, found also in Romans 1:28, 1 Corinthians 9:27 and Titus 1:16. In verse 9 'folly' is anoia, which Luke uses in Luke 6:11 of the fury of the scribes and Pharisees; it means a lack of understanding that shows itself in senseless behaviour. The verb 'advance,' prokopto, returns in verse 13 with a different object, 'to more' in verse 9 and 'to worse' in verse 13.",
     "typology": [
-      { "type": "Jannes and Jambres opposing Moses", "fulfillment": "A type of all who resist God's truth, granted brief success but finally exposed and defeated, as every counterfeit religion will be." },
-      { "type": "A form of godliness without power", "fulfillment": "The counterfeit that awaits unmasking when Christ, the true power of godliness, appears as Judge." }
+      {
+        "type": "Jannes and Jambres, the magicians who matched Moses, Exodus 7:11",
+        "fulfillment": "The Egyptian magicians copied the first signs, Exodus 7:11 and 7:22, then failed at the third and told Pharaoh, 'This is the finger of God,' 8:19. They could not stand before Moses, 9:11. Paul sees in them the pattern of imitation that wins attention and then runs out. The New Testament carries the pattern into later conflicts: the lawless one will come 'with every kind of power, sign, and false wonder,' 2 Thessalonians 2:9, and false Christs will perform 'great signs and wonders,' Matthew 24:24. The escalation is that the final contest is not between Moses and magicians but between Christ and the one who counterfeits Him. The type falls short in that Pharaoh's magicians had no part in teaching the people, whereas Paul's opponents claim to speak for Christ."
+      },
+      {
+        "type": "The people who honor God with their lips, Isaiah 29:13",
+        "fulfillment": "Isaiah's generation drew near with their mouths while their hearts were far off, and their worship was 'rules taught by men.' Jesus applies the same words to the Pharisees in Mark 7:6-7 and calls them whitewashed tombs, beautiful outside and full of dead men's bones within, Matthew 23:27-28. Paul's 'form of godliness' is the same pattern in a new setting. In Christ the escalation is that He supplies the very power that form lacks, giving the Spirit who produces the fruit of Galatians 5:22-23, which the vice list lacks. The type is not complete because the Pharisees had a genuine zeal that Paul's opponents may not share."
+      },
+      {
+        "type": "The weary and burdened of the households, Matthew 11:28",
+        "fulfillment": "The women of verse 6 are weighed down with sins and led by many desires. The teachers offer them a religion that keeps them learning and never arriving. Jesus' invitation, 'Come to Me, all you who are weary and burdened, and I will give you rest,' is the opposite offer. The pattern is one of true and false shepherds, which Ezekiel 34 already used when it condemned shepherds who feed themselves, and in which Christ appears as the Good Shepherd, John 10:11. The correspondence is of contrast rather than of likeness, and it falls short only in that the burdened are not passive. Their sin is real, and the rest Jesus gives is a rest from guilt as well as from false teaching."
+      }
     ],
-    "christ": "The truth these people oppose is the gospel of Jesus Christ, and the power they deny is His, the power of God that alone makes godliness real rather than a hollow shell. Christ is the answer to every misdirected love in the list, the One worthy of the love they lavish on self, money, and pleasure. And He is the coming Judge before whom the folly of all counterfeit religion will at last be plain to everyone, just as the magicians' trickery was finally outshone by the power of God through Moses.",
-    "god": "God is the true object of love that this godless age refuses, the standard against which its self-worship is exposed. He is sovereign over the spread of evil, decreeing that the opponents will not advance much further. Though counterfeit faith may flourish for a season and prey on the weak, God guarantees its exposure, for He will not allow His truth to be finally overthrown, and He measures every heart by whether it is genuinely His or merely wears the form.",
+    "christ": "The passage leads to Christ by showing what He is not. The people it describes are lovers of themselves, and He is the one who 'loved the church and gave Himself up for her,' Ephesians 5:25. They are lovers of money, and He had nowhere to lay His head, Luke 9:58. They are boastful and arrogant, and He is gentle and humble in heart, Matthew 11:29. They are disobedient, unforgiving and unloving; He was obedient to death, Philippians 2:8, and prayed 'Father, forgive them,' Luke 23:34. Read slowly, the vice list is a negative of the character of Jesus, and every item names a way of not being like Him.\n\nThe central phrase, 'a form of godliness but denying its power,' also leads to Him, because the power in view is the power of the gospel. Romans 1:16 says the gospel 'is the power of God for salvation,' and 1 Corinthians 1:18 says the message of the cross is 'the power of God' to those being saved. To deny the power is to deny the crucified and risen Christ as the source of any real change in a person. A religion of manners, rules and ritual is not condemned for caring about conduct. It is condemned for treating conduct as something people can supply on their own, apart from the work of the Spirit that Christ gives.\n\nThe passage also leads to Christ through the idea of truth. These people are 'always learning but never able to come to a knowledge of the truth.' In John 14:6 Jesus says 'I am the way and the truth and the life,' and in John 17:17 He prays 'Your word is truth.' The truth they cannot reach is not a set of facts alone but a Person. A person can accumulate teaching, as these women under false teachers did, without ever being brought to Him who is the truth. To know the truth is to be brought to Christ and held by Him.\n\nChrist is also the one before whom folly will be made plain. Verse 9 says that the folly of the opponents will be 'plain to everyone.' Paul's whole letter looks toward the appearing of the Lord who will judge the living and the dead, 2 Timothy 4:1, and who is the 'righteous Judge,' 4:8. The exposure of false religion belongs to Him. In the Gospels it is Jesus who calls the Pharisees whitewashed tombs and who warns of false prophets, Matthew 7:15 and 24:24. The same Lord who exposes counterfeits is the Lord who welcomes the weary and burdened, so that the exposure serves rescue.\n\nOne caution is needed. The passage should not be turned into a claim that Christ is unconcerned with sinners who show these traits. The Lord ate with tax collectors, and the early church included people who had once been 'lovers of money' and 'abusive,' as Paul himself says of his former life in 1 Timothy 1:13. The sins of the list are the kind of sins Christ came to forgive. What is condemned is the form without the power, and the refusal to come to the One who has the power.",
+    "god": "This passage shows God as the standard by which a human life is weighed. The vice list is a catalogue of what happens when love is turned away from Him, and its last line names the root problem: 'lovers of pleasure rather than lovers of God.' The Bible treats God as the proper object of the heart's deepest love, as in Deuteronomy 6:5, and so every disorder in the list comes down to a disorder in that love. In worship, this means that the first question about any sin is not which rule it breaks but which love it has replaced.\n\nGod is also the one who holds the times in His hand. The 'terrible times' are not outside His control. Paul says they 'will come,' as a matter of knowledge and not of dread, and the way he tells Timothy to 'understand this' presupposes that God has told the church in advance. Jesus did the same in Matthew 24:11-12, and Peter and Jude pass on the same forewarning. A God who tells His people what to expect is a God who stays with them through it. This is a quiet form of providence: he does not remove hard times, but He prepares for them.\n\nGod limits what evil can do. 'They will not advance much further.' The same God who permits opposition sets a boundary on it. The Exodus story is the model. Pharaoh's magicians were allowed to imitate up to a point and no further, Exodus 8:18-19, and then they could not even stand, 9:11. This is not because evil is weak in itself, but because it is under God's authority. The doctrine of providence here is concrete, and it explains why Paul can speak of such opposition without despair.\n\nGod is a God of truth who cannot be imitated for long. The false teachers have the form but not the power, and the passage shows that the power is God's alone. Words, rituals and teaching can all be reproduced, but the life that comes from the Spirit cannot. In 1 Corinthians 4:20 Paul says that the kingdom of God is not a matter of talk but of power, and in 1 Thessalonians 1:5 he says the gospel came 'not only in word, but also in power, in the Holy Spirit.' The Holy Spirit is the mark of the real thing, and Jude says of the divisive ones that they are 'devoid of the Spirit,' Jude 19.\n\nGod is just. The folly of the opponents will be plain to everyone, and 2 Peter 2:3 says that their destruction 'does not sleep.' But this passage is restrained about judgment, because it speaks of exposure and not of vengeance. The picture is of a God who shows what is false for what it is, and thereby protects the weak.\n\nHe is also the God who gives the opposite of everything on the list. The fruit of the Spirit, Galatians 5:22-23, is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness and self-control, and the last of those is the one Paul named in 1:7 as God's gift. For worship, the passage sends the reader back to the question of what God has actually put in us, and to ask for the power along with the form.",
     "crossReferences": [
-      { "ref": "Romans 1:28-32", "note": "A parallel catalog of vices flowing from refusing to honor God, echoing this portrait of the last days." },
-      { "ref": "2 Peter 2:1-3", "note": "False teachers who secretly bring in destructive heresies and exploit believers, like those described here." },
-      { "ref": "Exodus 7:11-12", "note": "The Egyptian magicians, traditionally named Jannes and Jambres, who opposed Moses and were finally overcome." },
-      { "ref": "Matthew 15:8", "note": "People who honor God with their lips while their hearts are far from Him, a form of godliness without its power." }
+      {
+        "ref": "Romans 1:28-32",
+        "note": "Describes people given up to a depraved mind, listing arrogance, boasting, disobedience to parents and heartlessness. It shares many items with 2 Timothy 3:2-4 and shows that the vice list belongs to a recognisable Pauline picture of human life apart from God, now seen in a religious setting."
+      },
+      {
+        "ref": "Galatians 5:19-21",
+        "note": "Lists the acts of the flesh and warns that those who practice such things will not inherit the kingdom of God. It gives the broader context for the vice list and, with Galatians 5:22-23, shows the contrast between what the flesh produces and what the Spirit produces."
+      },
+      {
+        "ref": "1 Timothy 4:1-2",
+        "note": "Says that in later times some will abandon the faith to follow deceitful spirits and teachings of demons, through hypocrisy of liars whose consciences are seared. It is an earlier forecast to the same reader, and the common theme is that apostasy comes through teachers who lie."
+      },
+      {
+        "ref": "2 Peter 3:3",
+        "note": "Warns that in the last days scoffers will come, following their own evil desires. Together with 2 Timothy 3:2, it shows that the early church treated self-directed desire as the mark of the last days, and Peter, like Paul, treats the present as already part of them."
+      },
+      {
+        "ref": "Jude 1:17-19",
+        "note": "Reminds readers that the apostles foretold scoffers in the last times who follow ungodly desires, who cause divisions, are worldly and devoid of the Spirit. It parallels 'a form of godliness but denying its power' and gives the diagnosis in terms of the Spirit's absence."
+      },
+      {
+        "ref": "Titus 1:16",
+        "note": "Says that such people profess to know God but deny Him by their actions. It supplies a close parallel to 2 Timothy 3:5, with the same verb for denying, and shows that the gap between profession and life was a recurring problem in the churches Paul wrote to."
+      },
+      {
+        "ref": "Isaiah 29:13",
+        "note": "The Lord complains that these people honor Him with their lips while their hearts are far away. It is the Old Testament source for form without power, and Jesus quotes it in Mark 7:6-7, so Paul's description is rooted in the prophets and the Lord's own teaching."
+      },
+      {
+        "ref": "Exodus 7:11-12",
+        "note": "The first meeting of Moses and the Egyptian magicians, who copied the staff turned into a serpent, though Aaron's staff swallowed theirs. It is the story behind Jannes and Jambres, and it shows that the imitation of a true sign can look impressive before it fails."
+      },
+      {
+        "ref": "Exodus 9:11",
+        "note": "Records that the magicians could not stand before Moses because of the boils. It is the end of their opposition and the best commentary on 'they will not advance much further,' since the people who had once matched Moses could not even stay in his presence."
+      },
+      {
+        "ref": "1 Corinthians 4:20",
+        "note": "Says that the kingdom of God is not a matter of talk but of power. It sets out the principle that 2 Timothy 3:5 applies to false teachers: where there is only talk, there is no true presence of God's kingdom."
+      },
+      {
+        "ref": "2 Timothy 2:24-26",
+        "note": "Tells the Lord's servant to correct opponents gently in the hope that God will grant repentance. It forms a pair with 3:5, which says to turn away from such people, and the two together describe the posture Timothy must keep: patience for the deceived, and distance from those who deceive."
+      },
+      {
+        "ref": "2 Timothy 3:13",
+        "note": "Says that evil men and imposters go from bad to worse, deceiving and being deceived. It repeats the verb for advancing from verse 9, and it shows that the two statements are not in contradiction, since they describe an inner decline combined with a limit on success."
+      }
     ],
-    "oneStory": "Since the fall the human heart has curved inward, loving self, money, and pleasure in place of God, and the last days bring that rebellion to a head. Yet from Pharaoh's magicians to the deceivers at Ephesus, God has always limited and unmasked those who resist His truth. The story runs toward the day when Christ, the truth they oppose and the power they deny, appears to expose every counterfeit and vindicate the genuine faith of His people.",
-    "sermon": { "status": "verified", "preacher": "Alistair Begg", "title": "Times of Difficulty", "url": "https://www.truthforlife.org/resources/sermon/times-difficulty/", "why": "Part of Begg's series A Study in 2 Timothy, this message expounds 2 Timothy 3:1-5, the marks of the last days and the searching vice list that climaxes in a form of godliness that denies its power, calling the church to genuine, Spirit-empowered faith rather than a hollow shell." }
+    "oneStory": "The story of the Bible starts with a love that was meant to be directed toward God and was turned toward self. In Genesis 3 the woman saw that the fruit was good for food and desirable for gaining wisdom, and that first turn inward has run through every period since. The list in this passage is a record of where that turn leads, with a clear line from Eden to Romans 1 and on to this letter. The 'last days' do not bring a new kind of sin. They intensify the old one, with a religious cover.\n\nThe passage also belongs to the long story of counterfeit and true. Cain brought an offering that was not accepted. Pharaoh's magicians copied Moses. The prophets of Baal were set against Elijah. The false prophets of Jeremiah's day said 'peace' when there was no peace. In the Gospels the Pharisees kept the form and missed the heart. Here the same pattern is in the church. Each time, the true word of God is attended by power that the imitation lacks, and in each case the imitation is exposed. The Exodus is the pattern Paul chooses, since it is the story in which God makes the contest between His word and the powers of Egypt plain.\n\nIt sets up what follows in the letter. Chapter 3 will go on from the opponents to Timothy, who is told to continue in what he has learned, and to the Scriptures that are able to make him wise for salvation. The warning is balanced by a resource. Chapter 4 then adds the charge to preach the word because a time will come when people will not tolerate sound teaching. The pieces fit together: God has told the church that false religion will come, has given it the Scriptures to meet it, and has promised that the Lord will appear to judge.\n\nIt also shows what God does with the weak who are victims of false teaching. They are described as burdened and led astray, but they are not written off. The earlier chapter has said that God may grant repentance, and the invitation of Jesus to the weary is still open. The story of redemption includes the rescue of those who were captured, a theme from the exodus from Egypt to the cross.\n\nThe end of the story is a world in which none of this is possible. The new creation has no deception, since the devil is thrown into the lake of fire, Revelation 20:10, and 'sorcerers and idolaters and all liars' have no place there, Revelation 21:8. Love is given its true direction, and the people of God see His face. Where Paul's list begins with lovers of self and ends with those who do not love God, the new creation begins and ends with the God who is loved above all, and who makes His people like Himself.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "Alistair Begg",
+      "title": "Times of Difficulty",
+      "url": "https://www.truthforlife.org/resources/sermon/times-difficulty/",
+      "why": "Part of Begg's series A Study in 2 Timothy, this message expounds 2 Timothy 3:1-5, the marks of the last days and the searching vice list that climaxes in a form of godliness that denies its power, calling the church to genuine, Spirit-empowered faith rather than a hollow shell."
+    }
   },
   "quiz": [
     {
       "q": "What are the last days Paul refers to in verse 1?",
       "options": [
-        { "text": "The whole present age between Christ's first and second comings.", "weight": 100, "note": "The New Testament calls this present era the last days, already marked by difficulty." },
-        { "text": "Only a brief final week just before the world ends.", "weight": 25, "note": "The phrase reaches wider than a final week; it names the present age." },
-        { "text": "A period long past that has no bearing on us.", "weight": 0, "note": "Paul warns of difficulties already breaking in and continuing now." },
-        { "text": "The era Christ inaugurated, in which seasons of difficulty come.", "weight": 75, "note": "True and close, capturing that these difficult times fall within the present age." }
+        {
+          "text": "The whole present age between Christ's first and second comings.",
+          "weight": 100,
+          "note": "The New Testament calls this present era the last days, already marked by difficulty."
+        },
+        {
+          "text": "Only a brief final week just before the world ends.",
+          "weight": 25,
+          "note": "The phrase reaches wider than a final week; it names the present age."
+        },
+        {
+          "text": "A period long past that has no bearing on us.",
+          "weight": 0,
+          "note": "Paul warns of difficulties already breaking in and continuing now."
+        },
+        {
+          "text": "The era Christ inaugurated, in which seasons of difficulty come.",
+          "weight": 75,
+          "note": "True and close, capturing that these difficult times fall within the present age."
+        }
       ]
     },
     {
       "q": "What sits at the head of Paul's vice list, setting its tone?",
       "options": [
-        { "text": "Love of self, the root from which the other sins grow.", "weight": 100, "note": "The list begins with lovers of self and is framed by disordered loves." },
-        { "text": "Physical violence above every other sin.", "weight": 25, "note": "Brutality appears, but the list is headed by love of self, not violence." },
-        { "text": "Honest doubt about God's existence.", "weight": 0, "note": "The problem is misdirected love and counterfeit religion, not honest doubt." },
-        { "text": "Misdirected love, aimed at self, money, and pleasure rather than God.", "weight": 75, "note": "True and close, capturing the frame of loves gone wrong that brackets the list." }
+        {
+          "text": "Love of self, the root from which the other sins grow.",
+          "weight": 100,
+          "note": "The list begins with lovers of self and is framed by disordered loves."
+        },
+        {
+          "text": "Physical violence above every other sin.",
+          "weight": 25,
+          "note": "Brutality appears, but the list is headed by love of self, not violence."
+        },
+        {
+          "text": "Honest doubt about God's existence.",
+          "weight": 0,
+          "note": "The problem is misdirected love and counterfeit religion, not honest doubt."
+        },
+        {
+          "text": "Misdirected love, aimed at self, money, and pleasure rather than God.",
+          "weight": 75,
+          "note": "True and close, capturing the frame of loves gone wrong that brackets the list."
+        }
       ]
     },
     {
       "q": "What is most chilling about the people Paul describes in verse 5?",
       "options": [
-        { "text": "They keep a form of godliness while denying its power.", "weight": 100, "note": "The counterfeit shell of religion without transforming power is the sharpest warning." },
-        { "text": "They openly reject all religion and mock believers.", "weight": 25, "note": "The danger here is subtler: they keep religion's form, not reject it openly." },
-        { "text": "They are sincere seekers who simply need more time.", "weight": 0, "note": "Paul calls them to be turned away from, not patiently waited for." },
-        { "text": "They wear the outward shape of faith without its inner reality.", "weight": 75, "note": "True and close, restating the form of godliness that denies its power." }
+        {
+          "text": "They keep a form of godliness while denying its power.",
+          "weight": 100,
+          "note": "The counterfeit shell of religion without transforming power is the sharpest warning."
+        },
+        {
+          "text": "They openly reject all religion and mock believers.",
+          "weight": 25,
+          "note": "The danger here is subtler: they keep religion's form, not reject it openly."
+        },
+        {
+          "text": "They are sincere seekers who simply need more time.",
+          "weight": 0,
+          "note": "Paul calls them to be turned away from, not patiently waited for."
+        },
+        {
+          "text": "They wear the outward shape of faith without its inner reality.",
+          "weight": 75,
+          "note": "True and close, restating the form of godliness that denies its power."
+        }
       ]
     },
     {
       "q": "How does Paul use the example of Jannes and Jambres?",
       "options": [
-        { "text": "To show that opposing God's truth ends in exposure and defeat.", "weight": 100, "note": "Their folly, like the magicians who opposed Moses, will be plain to all." },
-        { "text": "To prove that false teachers always succeed in the end.", "weight": 0, "note": "The opposite: Paul says they will not advance much further." },
-        { "text": "To celebrate their impressive magical powers.", "weight": 25, "note": "They are cited as opponents doomed to exposure, not as admirable figures." },
-        { "text": "To assure Timothy that such opponents are limited by God.", "weight": 75, "note": "True and close; their reach is limited and their folly finally revealed." }
+        {
+          "text": "To show that opposing God's truth ends in exposure and defeat.",
+          "weight": 100,
+          "note": "Their folly, like the magicians who opposed Moses, will be plain to all."
+        },
+        {
+          "text": "To prove that false teachers always succeed in the end.",
+          "weight": 0,
+          "note": "The opposite: Paul says they will not advance much further."
+        },
+        {
+          "text": "To celebrate their impressive magical powers.",
+          "weight": 25,
+          "note": "They are cited as opponents doomed to exposure, not as admirable figures."
+        },
+        {
+          "text": "To assure Timothy that such opponents are limited by God.",
+          "weight": 75,
+          "note": "True and close; their reach is limited and their folly finally revealed."
+        }
       ]
     },
     {
       "q": "What does Paul tell Timothy to do about such people?",
       "options": [
-        { "text": "Turn away from them.", "weight": 100, "note": "Verse 5 ends with the direct command, turn away from such as these." },
-        { "text": "Join their households to learn their methods.", "weight": 0, "note": "It is these deceivers who worm into households; Timothy is to avoid them." },
-        { "text": "Debate them endlessly until they concede.", "weight": 25, "note": "Paul commands turning away, not endless dispute with counterfeits." },
-        { "text": "Keep his distance and refuse their influence.", "weight": 75, "note": "True and close, restating the command to turn away from such as these." }
+        {
+          "text": "Turn away from them.",
+          "weight": 100,
+          "note": "Verse 5 ends with the direct command, turn away from such as these."
+        },
+        {
+          "text": "Join their households to learn their methods.",
+          "weight": 0,
+          "note": "It is these deceivers who worm into households; Timothy is to avoid them."
+        },
+        {
+          "text": "Debate them endlessly until they concede.",
+          "weight": 25,
+          "note": "Paul commands turning away, not endless dispute with counterfeits."
+        },
+        {
+          "text": "Keep his distance and refuse their influence.",
+          "weight": 75,
+          "note": "True and close, restating the command to turn away from such as these."
+        }
       ]
     }
   ],
@@ -160,10 +390,25 @@
     "God promises that the folly of those who oppose the truth will finally be exposed. How does that assurance steady you when counterfeit faith seems to be winning?"
   ],
   "translationNotes": [
-    { "ref": "2 Timothy 3:1", "note": "The last days in the New Testament denote the whole era inaugurated by Christ's first coming, not only a final future crisis." },
-    { "ref": "2 Timothy 3:2-4", "note": "The Greek stacks roughly nineteen vices in a compact list; several are single words rendered by short English phrases, and the whole is framed by misdirected love." },
-    { "ref": "2 Timothy 3:6", "note": "Vulnerable women translates a term for weak or burdened little women; the emphasis falls on the predators' exploitation of the guilt-laden and unsettled." },
-    { "ref": "2 Timothy 3:8", "note": "Jannes and Jambres are the traditional Jewish names for the Egyptian magicians who opposed Moses; the BSB footnote cites Jasher 79:27 for the tradition." }
+    {
+      "ref": "2 Timothy 3:1",
+      "note": "The last days in the New Testament denote the whole era inaugurated by Christ's first coming, not only a final future crisis."
+    },
+    {
+      "ref": "2 Timothy 3:2-4",
+      "note": "The Greek stacks roughly nineteen vices in a compact list; several are single words rendered by short English phrases, and the whole is framed by misdirected love."
+    },
+    {
+      "ref": "2 Timothy 3:6",
+      "note": "Vulnerable women translates a term for weak or burdened little women; the emphasis falls on the predators' exploitation of the guilt-laden and unsettled."
+    },
+    {
+      "ref": "2 Timothy 3:8",
+      "note": "Jannes and Jambres are the traditional Jewish names for the Egyptian magicians who opposed Moses; the BSB footnote cites Jasher 79:27 for the tradition."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for 2 Timothy 3:1-9." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for 2 Timothy 3:1-9."
+  }
 }

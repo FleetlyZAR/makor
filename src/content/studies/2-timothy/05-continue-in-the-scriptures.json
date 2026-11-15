@@ -18,10 +18,26 @@
         "note": "persecution and rescue",
         "emphasis": "",
         "verses": [
-          { "chapter": 3, "n": 10, "text": "You, however, have observed my teaching, my conduct, my purpose, my faith, my patience, my love, my perseverance," },
-          { "chapter": 3, "n": 11, "text": "my persecutions, and the sufferings that came upon me in Antioch, Iconium, and Lystra. What persecutions I endured! Yet the Lord rescued me from all of them." },
-          { "chapter": 3, "n": 12, "text": "Indeed, all who desire to live godly lives in Christ Jesus will be persecuted," },
-          { "chapter": 3, "n": 13, "text": "while evil men and imposters go from bad to worse, deceiving and being deceived." }
+          {
+            "chapter": 3,
+            "n": 10,
+            "text": "You, however, have observed my teaching, my conduct, my purpose, my faith, my patience, my love, my perseverance,"
+          },
+          {
+            "chapter": 3,
+            "n": 11,
+            "text": "my persecutions, and the sufferings that came upon me in Antioch, Iconium, and Lystra. What persecutions I endured! Yet the Lord rescued me from all of them."
+          },
+          {
+            "chapter": 3,
+            "n": 12,
+            "text": "Indeed, all who desire to live godly lives in Christ Jesus will be persecuted,"
+          },
+          {
+            "chapter": 3,
+            "n": 13,
+            "text": "while evil men and imposters go from bad to worse, deceiving and being deceived."
+          }
         ]
       },
       {
@@ -29,8 +45,16 @@
         "note": "wise for salvation",
         "emphasis": "",
         "verses": [
-          { "chapter": 3, "n": 14, "text": "But as for you, {{meno|continue}} in the things you have learned and firmly believed, since you know from whom you have learned them." },
-          { "chapter": 3, "n": 15, "text": "From infancy you have known the {{hieragrammata|Holy Scriptures}}, which are able to make you wise for salvation through faith in Christ Jesus." }
+          {
+            "chapter": 3,
+            "n": 14,
+            "text": "But as for you, {{meno|continue}} in the things you have learned and firmly believed, since you know from whom you have learned them."
+          },
+          {
+            "chapter": 3,
+            "n": 15,
+            "text": "From infancy you have known the {{hieragrammata|Holy Scriptures}}, which are able to make you wise for salvation through faith in Christ Jesus."
+          }
         ]
       },
       {
@@ -38,18 +62,51 @@
         "note": "the man of God fully equipped",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 3, "n": 16, "text": "All Scripture is {{theopneustos|God-breathed}} and is {{ophelimos|useful}} for instruction, for conviction, for correction, and for training in righteousness," },
-          { "chapter": 3, "n": 17, "text": "so that the man of God may be {{artios|complete}}, fully equipped for every good work." }
+          {
+            "chapter": 3,
+            "n": 16,
+            "text": "All Scripture is {{theopneustos|God-breathed}} and is {{ophelimos|useful}} for instruction, for conviction, for correction, and for training in righteousness,"
+          },
+          {
+            "chapter": 3,
+            "n": 17,
+            "text": "so that the man of God may be {{artios|complete}}, fully equipped for every good work."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "meno": { "language": "Greek", "lemma": "meno", "original": "μένω", "gloss": "To remain, abide, continue, stay put. Against imposters who go from bad to worse, Timothy is to do the opposite: not move on to novelty but stay rooted in what he has learned and firmly believed. Faithfulness here is a settled, ongoing abiding in the truth, holding the ground already given rather than drifting with the times." },
-    "hieragrammata": { "language": "Greek", "lemma": "hiera grammata", "original": "ἱερὰ γράμματα", "gloss": "Sacred writings, holy letters, a common term for the Old Testament Scriptures Timothy learned as a child from Lois and Eunice. Paul says these writings are able to make one wise for salvation through faith in Christ Jesus, so the whole of Scripture points to and finds its saving goal in Him. The Bible's purpose is not mere information but saving wisdom." },
-    "theopneustos": { "language": "Greek", "lemma": "theopneustos", "original": "θεόπνευστος", "gloss": "God-breathed, breathed out by God. This single compound word, found only here in the New Testament, teaches that Scripture originates in God: it is the product of His own breath, His speech. It grounds the Bible's authority and trustworthiness not in human insight but in divine origin. Because God breathed it out, every part is His word and therefore true and reliable." },
-    "ophelimos": { "language": "Greek", "lemma": "ophelimos", "original": "ὠφέλιμος", "gloss": "Useful, profitable, beneficial. Because Scripture is God-breathed, it is also supremely practical: profitable for teaching what is true, convicting of what is false, correcting what is wrong, and training in right living. Its four uses cover doctrine and life together, so the Bible is not only authoritative in origin but sufficient in use for shaping godly people." },
-    "artios": { "language": "Greek", "lemma": "artios", "original": "ἄρτιος", "gloss": "Complete, fitted, fully suited for a task. Paired with the phrase fully equipped, it describes the man of God as capable and ready, lacking nothing needed for the work God gives. Scripture is what makes him so: through the God-breathed word he is furnished for every good work, which underlines the Bible's sufficiency for the whole of the Christian life and ministry." }
+    "meno": {
+      "language": "Greek",
+      "lemma": "meno",
+      "original": "μένω",
+      "gloss": "To remain, abide, continue, stay put. Against imposters who go from bad to worse, Timothy is to do the opposite: not move on to novelty but stay rooted in what he has learned and firmly believed. Faithfulness here is a settled, ongoing abiding in the truth, holding the ground already given rather than drifting with the times."
+    },
+    "hieragrammata": {
+      "language": "Greek",
+      "lemma": "hiera grammata",
+      "original": "ἱερὰ γράμματα",
+      "gloss": "Sacred writings, holy letters, a common term for the Old Testament Scriptures Timothy learned as a child from Lois and Eunice. Paul says these writings are able to make one wise for salvation through faith in Christ Jesus, so the whole of Scripture points to and finds its saving goal in Him. The Bible's purpose is not mere information but saving wisdom."
+    },
+    "theopneustos": {
+      "language": "Greek",
+      "lemma": "theopneustos",
+      "original": "θεόπνευστος",
+      "gloss": "God-breathed, breathed out by God. This single compound word, found only here in the New Testament, teaches that Scripture originates in God: it is the product of His own breath, His speech. It grounds the Bible's authority and trustworthiness not in human insight but in divine origin. Because God breathed it out, every part is His word and therefore true and reliable."
+    },
+    "ophelimos": {
+      "language": "Greek",
+      "lemma": "ophelimos",
+      "original": "ὠφέλιμος",
+      "gloss": "Useful, profitable, beneficial. Because Scripture is God-breathed, it is also supremely practical: profitable for teaching what is true, convicting of what is false, correcting what is wrong, and training in right living. Its four uses cover doctrine and life together, so the Bible is not only authoritative in origin but sufficient in use for shaping godly people."
+    },
+    "artios": {
+      "language": "Greek",
+      "lemma": "artios",
+      "original": "ἄρτιος",
+      "gloss": "Complete, fitted, fully suited for a task. Paired with the phrase fully equipped, it describes the man of God as capable and ready, lacking nothing needed for the work God gives. Scripture is what makes him so: through the God-breathed word he is furnished for every good work, which underlines the Bible's sufficiency for the whole of the Christian life and ministry."
+    }
   },
   "study": {
     "basic": {
@@ -63,92 +120,240 @@
       "oneStory": "God has spoken, breathing out Scripture to lead His people to salvation in Christ and to equip them for His work. From the writings Timothy learned as a child to the gospel Paul preached, one God-breathed word runs through the whole story, making people wise for salvation and ready for every good work until Christ returns."
     },
     "context": {
-      "literary": "The movement opens with an emphatic contrast, you, however, setting Timothy against the imposters of verses 1 to 9. Paul appeals first to his own observed example, then to Timothy's lifelong instruction, and finally rises to a doctrinal summit in verses 16 and 17 about the nature and use of Scripture. The flow moves from personal example, to continue in what you know, to the ground of it all, the God-breathed word.",
-      "historical": "Paul recalls specific sufferings at Antioch, Iconium, and Lystra, places Timothy knew well, since Timothy was from that region and joined Paul there. Timothy had been taught the Old Testament from infancy by his mother and grandmother. The false teachers of the day prized novelty and secret knowledge, so Paul's insistence on the settled, sufficient, God-breathed Scriptures cut directly against them.",
-      "canonical": "Verses 16 and 17 are the New Testament's foundational text on the inspiration and sufficiency of Scripture, standing with Second Peter 1:20 to 21. The single word God-breathed has shaped the church's confession that the Bible is the word of God, authoritative and trustworthy in all it teaches."
+      "literary": "Second Timothy 3 is built on a hinge. Verses 1 to 9 describe the counterfeit: lovers of self, lovers of money, people with a form of godliness who deny its power. Verses 10 and 14 each begin with the same small, weighty pair of words, \"You, however\" and \"But as for you,\" so that Timothy is set against the false teachers twice over. The first contrast is about a life, verses 10 to 13, and the second is about a book, verses 14 to 17. Paul answers a bad example with a good example, and a bad teaching with a good text.\n\nWithin the first half the list in verse 10 is a catalogue of eight things Timothy has seen up close, and it deliberately mirrors the vice list of the preceding paragraph. Where the deceivers are boastful, abusive and without self-control, Paul offers teaching, conduct, purpose, faith, patience, love and perseverance. The towns named in verse 11 are Antioch, Iconium and Lystra, the places of Acts 13 and 14, and Lystra was Timothy's own home, Acts 16:1. Verse 12 then widens one man's story into a rule, and verse 13 sets the opposite trajectory beside it: Paul's followers are rescued and tested, the impostors only slide.\n\nThe second half is a single long sentence in the Greek of verses 16 and 17, and it is carefully stepped. All Scripture is God-breathed and profitable, and the profit is spelled out in two matched pairs: instruction and conviction, correction and training. The pairs run from belief to behaviour, from what to think to how to live. A purpose clause then closes the thought, so that the man of God may be complete and fully equipped. The shape of the whole is cause (God-breathed), means (four uses), and goal (equipped for good work).\n\nThe unit also looks forward. Chapter 4 opens with \"Preach the word,\" and the charge is grounded here: the word Timothy is to preach is the word he is told to continue in. The two chapters are one argument cut by a chapter division.",
+      "historical": "Paul writes from a Roman prison near the end of his life, knowing that the Lord's rescues of the past, which he lists here, will not take the form of a release this time. The places in verse 11 belong to the first missionary journey. In Acts 13:50 Jews stirred up leading citizens in Pisidian Antioch and drove Paul and Barnabas out. At Iconium a plot to stone them forced them to flee, Acts 14:5-6. At Lystra Paul was actually stoned and dragged outside the city as if dead, Acts 14:19, and the next day he got up and went on to Derbe. Timothy, a young man of Lystra, Acts 16:1, may well have been among the disciples who stood around Paul that day, though the text does not say so.\n\nWhat Timothy had learned came from home. His mother Eunice and grandmother Lois taught him, 2 Timothy 1:5. \"From infancy\" in verse 15 points to a Jewish household in which a child was taught the sacred writings from the earliest years, in line with Deuteronomy 6:6-7. His father was Greek, Acts 16:1, so the training he received came through the women of the house, an unusual and affecting detail.\n\nThe \"Scriptures\" of verse 15 can only be the Old Testament, in the form the synagogues read, probably in Greek in the Diaspora. There was no collected New Testament in the 60s of the first century. The church's own writings were still being circulated, yet Paul already treats the words of Jesus as Scripture alongside Moses, 1 Timothy 5:18, and Peter places Paul's letters beside \"the other Scriptures,\" 2 Peter 3:16. So when Paul says \"all Scripture\" he speaks of a category that was already open at the edges.\n\nThe false teachers of verse 13 are the same sort of people who troubled Ephesus, where Timothy was stationed. Their trade was deception, and Paul's word for them suggests the swindler, one who works on people by trickery. In a city known for magic and charms, Acts 19:19, the contrast with a plain book read aloud and obeyed would have been sharp.",
+      "canonical": "The statement that Scripture is breathed out by God gathers up a whole Old Testament habit of speech. The heavens were made by the word of the Lord and by the breath of His mouth, Psalm 33:6. In Genesis 2:7 God breathes into the man's nostrils and he becomes a living being. Paul draws on that picture: the Bible is not merely about the living God, it is the product of His breath, and like the first breath it gives life.\n\nThe companion text is 2 Peter 1:20-21, which says that no prophecy came by the will of man, but that men spoke from God as they were carried along by the Holy Spirit. Paul looks at Scripture from God's side, and Peter from the side of the human writer. Between them the two verses hold together divine origin and real human authorship, which the rest of the Bible demonstrates by showing distinct styles, personalities and circumstances behind each book.\n\nThe usefulness of Scripture is celebrated in Psalm 19:7-9 and throughout Psalm 119, where the word revives, makes wise, gives light and keeps the young from sin. Joshua is told to let the book of the law not depart from his mouth, Joshua 1:8, and the king in Deuteronomy 17:18-19 is to copy it and read it all his days. Romans 15:4 states the same principle as Paul does here: whatever was written before was written for our instruction, that we might have hope.\n\nJesus Himself is the key. He said to the scholars of His day that the Scriptures testify about Him, John 5:39, and on the Emmaus road He explained to two disciples what was written about Himself in all the Scriptures, Luke 24:27. The line of 2 Timothy 3:15, \"wise for salvation through faith in Christ Jesus,\" is the same claim in Paul's own words. Hebrews 4:12 adds that the word of God is living and active, which is what \"profitable\" looks like in action."
     },
     "hermeneutics": {
-      "authorIntent": "To anchor Timothy against deception by rooting him in Paul's tested example and, decisively, in the God-breathed Scriptures, showing that the Bible is both authoritative in origin and sufficient in use to make God's servant complete for every good work.",
-      "descriptionVsPrescription": "Paul's autobiography and the reminder of Timothy's upbringing are descriptive examples. The commands to continue in the Scriptures and the teaching that all Scripture is God-breathed and profitable are prescriptive and doctrinal, binding the church to receive and use the whole Bible as God's word.",
+      "authorIntent": "Paul wants Timothy steady at the moment when steadiness is hardest. He has just told him that evil people will go from bad to worse. The risk is that Timothy will answer pressure by looking for something new: a cleverer method, a more impressive message, a way to avoid the suffering that verse 12 promises. Paul's answer is the opposite. Remain. The remedy for deception is not novelty but depth in what has already been received, and the surety is twofold: the people who taught Timothy and the book he was taught from.\n\nParagraph two of the passage aims to settle what Timothy leans on. Paul does not say that the Scriptures are inspiring, or helpful when properly interpreted. He says they are God's own breath, and then he says what they do. The four uses chart the whole pastoral task. Timothy will need to teach what is true, expose what is false, restore the one who strays, and train the one who is growing. No other tool is named, because no other is needed.\n\nPaul also means Timothy to hear a warning about the goal. The Scriptures are given so that God's servant may be equipped for good works. A Timothy who knew the text and did not act on it would have missed the point of verse 17. The word is not given to win arguments but to produce a person ready to serve, and so Paul's last sentence ends in action, not in knowledge.",
+      "descriptionVsPrescription": "Verses 10 to 12 describe Paul's experience; they do not command Timothy to seek suffering. The promise that all who want to live godly lives will be persecuted is a prediction about how a world opposed to Christ will react, not a measuring stick that makes a trouble-free believer a lesser one. Persecution takes different forms in different places and ages, and the text does not say every Christian will be imprisoned. It says that a godly life in a hostile world will meet opposition of some kind.\n\nVerse 13 is likewise a description. Deceivers will worsen, and that is a fact about their path, not a policy for the church to imitate or a prophecy that dates the end.\n\nThe commands in the passage are few and plain: continue, and remember who taught you. The statements about Scripture in verses 16 and 17 are doctrine, which carries its own implications. If Scripture is God-breathed, we are to receive it as His word. If it is for conviction and correction, we are to bring ourselves under it rather than above it. If it equips for good work, we are not to treat it as an end in itself. The passage does not prescribe a particular method of Bible reading, a number of chapters a day, or a pattern of memorisation. It prescribes loyalty to the word and obedience to what it says.",
       "debates": [
         {
-          "question": "Does all Scripture is God-breathed teach the inspiration of every part of the Bible?",
+          "question": "How should the opening of verse 16 be read: 'All Scripture is God-breathed and profitable' or 'Every God-breathed Scripture is also profitable'?",
           "views": [
-            { "label": "Yes, all Scripture without exception", "case": "The word all with Scripture, along with God-breathed, affirms that every part of the sacred writings originates from God and shares His authority and truthfulness." },
-            { "label": "The stress falls on its profitable use", "case": "Some render it every God-breathed Scripture is also profitable, but even this assumes divine inspiration and simply highlights the practical sufficiency that follows from it." }
+            {
+              "label": "All Scripture is God-breathed, and also profitable",
+              "case": "The Greek has no verb 'is' in the sentence, and the two adjectives, theopneustos and ophelimos, are joined by 'and.' The natural reading is that both describe Scripture: it is breathed out and it is useful. Most English versions, including the BSB, and most commentators take it this way, and the following reasoning in verse 17 makes more sense if inspiration is the stated ground of usefulness."
+            },
+            {
+              "label": "Every God-breathed Scripture is also profitable",
+              "case": "Some older versions render the second adjective as part of the predicate and place 'is' after the first, so that the sentence speaks of profit only for those writings that are God-breathed. The grammar permits this, but even then Paul is speaking of the sacred writings of verse 15 as God-breathed. The change in rendering does not shift which writings are in view."
+            }
           ],
-          "bearing": "Either rendering affirms that Scripture comes from God and is profitable; the church confesses both its inspiration and its sufficiency for doctrine and life."
+          "bearing": "Either way, the same writings are meant, and Paul speaks of Scripture as God's breath. The practical weight of the verse falls on usefulness: because it comes from God, it equips a believer for every good work."
         },
         {
-          "question": "What is the scope of the Scripture Paul has in view?",
+          "question": "Which writings does 'all Scripture' include?",
           "views": [
-            { "label": "Primarily the Old Testament", "case": "The sacred writings Timothy knew from infancy were the Hebrew Scriptures, so Paul's immediate reference is the Old Testament, which points to Christ." },
-            { "label": "Extending in principle to the apostolic writings", "case": "The New Testament elsewhere places apostolic writings alongside Scripture, so the principle that God-breathed writings are authoritative applies to the whole canon." }
+            {
+              "label": "The Old Testament only",
+              "case": "Paul has just spoken of the Holy Scriptures Timothy knew from infancy, verse 15. In that sense Timothy could only have known the Old Testament, and the statement in verse 16 follows directly from it. On this reading Paul is naming a closed collection that already existed."
+            },
+            {
+              "label": "The Old Testament, and in principle whatever is God's word to His church",
+              "case": "The word 'all' is broad, and the New Testament shows the category extending. Paul quotes a saying of Jesus as Scripture in 1 Timothy 5:18, and Peter ranks Paul's letters among 'the other Scriptures,' 2 Peter 3:16. The principle in verse 16 does not depend on how many books had been written by then, and the church has applied it to the New Testament writings as they were recognised."
+            }
           ],
-          "bearing": "The doctrine of inspiration articulated here undergirds the authority of the entire Bible the church now confesses as God's word."
+          "bearing": "Paul's direct reference is to the Old Testament, so that is what Timothy would have heard. The reason Paul gives, that it is God-breathed, is a reason that carries to every writing the church has received as God's word, and the later apostolic writings claim that status themselves."
         }
       ]
     },
-    "originalLanguages": "The movement climbs to its height on four key words. Timothy is to meno, to remain and continue, in what he has learned, the settled abiding that is the opposite of the imposters who drift from bad to worse. He has known from infancy the hiera grammata, the sacred writings, able to make him wise for salvation through faith in Christ. Then comes the summit: all Scripture is theopneustos, God-breathed, a single compound word found only here, teaching that the Bible originates in the breath of God and therefore carries His authority and truth. Because it is God-breathed it is ophelimos, profitable, useful for teaching, conviction, correction, and training in righteousness, doctrine and life together. The result is that the man of God is artios, complete and fitted, fully equipped for every good work, which is the Bible's own claim to sufficiency.",
+    "originalLanguages": "Verse 10 uses a vivid verb for what Timothy has done with Paul's life. The BSB renders it \"observed,\" but the Greek, parakoloutheo, means to follow alongside, to track closely. The word suggests a pupil who has walked beside his teacher and watched how he handled success, insult and weariness. Paul is saying that Timothy's knowledge of him is not secondhand. The same verb stands in Luke 1:3, where Luke says he has followed all things carefully from the start, and the idea there too is close attention to what is being told.\n\nVerse 13 calls the evil people \"imposters,\" from the Greek goes. The word carries the sense of a trickster who works by spells or by smooth patter, and it gives Paul's picture of false teachers a darker edge: they are not honest mistaken men but operators. The next phrase, \"deceiving and being deceived,\" is a pair of present participles, one active and one passive, and the sentence closes on the sad logic that those who deceive others end up deceived themselves. The verb for their progress, prokopto, is a word elsewhere used of good advance, as when Jesus \"grew\" in wisdom, Luke 2:52. Paul uses a word that normally sounds like improvement to describe a descent, and the irony is deliberate.\n\nIn verse 14 Timothy is told to continue in what he \"learned and firmly believed.\" The two Greek verbs, emathes and episteuthes, are in the aorist and so point to settled past events: he learned, and he was convinced. The second verb is built on the same root as pistis, faith, and carries the sense of being assured, brought to full confidence. The ground of his continuing is that he knows \"from whom\" he learned. Many readers take that \"whom\" to include Paul, Lois, Eunice and the whole chain of those who taught him, not only a single person.\n\nIn verse 16 theopneustos is, in the New Testament, found only here. It is a compound of theos, God, and a form of the verb pneo, to blow or breathe, and it describes Scripture as something \"breathed out\" by God. The emphasis falls on the source of the writings, not on the writers being breathed into. That is why the idea is best called the Scripture's origin, and it is close to the Old Testament language that God spoke by the breath of His mouth, Psalm 33:6.\n\nThe four uses are worth separating. Didaskalia, instruction, is positive teaching of what is true. Elegmos, translated \"conviction,\" is exposure and proof of what is wrong, the bringing of sin or error to light. Epanorthosis, \"correction,\" is a word of restoration, setting a thing back on its feet. Paideia, \"training,\" is the word for the upbringing and discipline of a child, used in Ephesians 6:4 and Hebrews 12:5-11, and here it is said to aim at righteousness. Taken together they run from teaching, to exposure, to restoring, to forming.\n\nIn verse 17 artios, \"complete,\" is found only here in the New Testament, and the verb behind \"fully equipped,\" exartizo, is its intensified relative. The two words echo each other to make a sentence in which the man of God is thoroughly fitted out, like a ship made seaworthy or a craftsman handed a full set of tools. The phrase \"man of God\" itself was an Old Testament title for prophets and messengers such as Moses, Deuteronomy 33:1, and Elijah, 1 Kings 17:18. Paul applies it to Timothy and so places a young pastor in that line of servants who speak for God.",
     "typology": [
-      { "type": "The sacred writings known from infancy", "fulfillment": "The Old Testament Scriptures that make one wise for salvation through faith in Christ, finding their goal in Him." },
-      { "type": "The Lord's rescue of Paul from every persecution", "fulfillment": "A foreshadowing of the final deliverance of all who suffer for godliness, secured in Christ." }
+      {
+        "type": "The sacred writings taught from infancy, 2 Timothy 3:15",
+        "fulfillment": "Israel was told to impress God's words on its children, to speak of them at home, on the road, lying down and rising up, Deuteronomy 6:6-7. Timothy is a living example of that pattern working: a child taught at his grandmother's and mother's knee becomes a minister of the gospel. The correspondence is real, but it is an escalation. The writings that taught obedience under the law now make one 'wise for salvation through faith in Christ Jesus,' because Christ is the one to whom they pointed, Luke 24:27. The pattern falls short in this respect: a household can hand on the writings, but only faith can make them saving."
+      },
+      {
+        "type": "Paul's rescue from persecution, 2 Timothy 3:11",
+        "fulfillment": "The Lord delivered Paul from stoning at Lystra and from the other trials of the first journey, as He delivered David from the lion and the bear, 1 Samuel 17:37, and Daniel from the den, Daniel 6:22. Each rescue is a sign and a promise, not a guarantee of release. The shape is one of suffering that ends in deliverance, and it finds its full form in Christ, who was not rescued from the cross but through it, Hebrews 5:7-9, and who rose. The pattern falls short in that Paul's rescues were repeated and temporary, whereas Christ's resurrection is the one that gives believers a final rescue, 2 Timothy 4:18."
+      },
+      {
+        "type": "The man of God, 2 Timothy 3:17",
+        "fulfillment": "Moses, Samuel, Elijah and others are called men of God because they carried God's word to His people, Deuteronomy 33:1 and 1 Samuel 9:6. Timothy now takes that title as a minister of the new covenant. The correspondence lies in the task of speaking for God, and the escalation is that the word is now complete in the gospel of Christ, to whom the earlier men of God pointed, Hebrews 1:1-2. The title does not set Timothy apart as a superior class, because 1 Timothy 6:11 also addresses him so, and Paul's point in 2 Timothy 3:17 is that any servant of God is equipped by the same Scripture."
+      }
     ],
-    "christ": "Christ is the saving goal of the Scriptures: they are able to make one wise for salvation through faith in Christ Jesus. All the sacred writings Timothy learned as a child were pointing to Him, and their wisdom is received only through faith in Him. The God-breathed word both testifies to Christ and equips His servants to do the good works He has prepared. To continue in the Scriptures, then, is to keep coming to Christ, in whom the whole Bible finds its meaning and its saving power.",
-    "god": "God is the author of Scripture, which He breathes out as His own speech, and this is the ground of the Bible's authority, truthfulness, and profit. The same God who inspired the word governs the lives of His servants, rescuing Paul from every persecution and promising that godliness, though it invites suffering, is held in His hands. Through His breathed-out word God makes His people complete and furnishes them for every good work, so that His character and purposes are known and obeyed.",
+    "christ": "Paul's sentence about Scripture is not left standing on its own. It is tied to Christ at its centre, in verse 15: the writings can make Timothy \"wise for salvation through faith in Christ Jesus.\" That one phrase gives the whole Old Testament a Christ-shaped purpose. Jesus said as much to people who studied the Scriptures keenly and missed Him: \"These are the very words that testify about Me,\" John 5:39. After the resurrection He opened the Law, the Prophets and the Psalms to two disciples, Luke 24:27 and 24:44-45, and from that day the church has read the older writings as pointing to Him. Paul does the same in 2 Timothy 3:15, for the salvation of which he speaks is only reached by faith in Jesus, and the Scriptures are the road that leads there.\n\nChrist is also the pattern behind the life Paul describes in verses 10 to 12. The persecution of the godly echoes what happened to the Lord. He said that a servant is not greater than his master, and that if the world persecuted Him, it would persecute His followers, John 15:20. When Paul lists his afflictions he is telling Timothy that the shape of Christ's own way, suffering and then vindication, is the shape of the disciple's way. And \"all who desire to live godly lives in Christ Jesus\" has Christ in its very grammar: godliness is life in Him, not a code of conduct apart from Him.\n\nChrist is the one who gives Scripture its authority as well. The Spirit who breathed out the writings is the Spirit of Christ, 1 Peter 1:10-11, who spoke through the prophets about His sufferings and the glories to follow. The Lord Himself quoted Scripture as the last word in His struggle with the tempter, Matthew 4:4, and He staked His cross-bound ministry on the fulfilment of what was written, Luke 24:44. For Paul to say that Scripture equips the believer is for him to say that Christ equips through His word.\n\nA guard is needed here. Not every text of the Old Testament speaks of Jesus in the same way, and a reader should not have to find hidden codes in every verse. What Paul claims is that the whole of the Scriptures leads to Christ, by promise, by pattern, by the law that shows our need, and by the sacrifices and kings that await their meaning. Reading with that purpose does not distort the text; it follows the instruction of the Lord who wrote it, and keeps Christ, not the reader's own cleverness, as the goal of Bible study.",
+    "god": "The doctrine at the centre of this passage is that God speaks. The word theopneustos puts the origin of Scripture in God's own breath, and that means the Bible is more than a record of human religious experience. It is the product of the God who communicates, and who has chosen to make Himself known in words. A God who breathed out Scripture is a God who has not left His people guessing about who He is or what He asks of them.\n\nThis same God is faithful in rescue. Paul says the Lord delivered him from the persecutions at Antioch, Iconium and Lystra, verse 11, and the writer of the whole letter will say in 4:17-18 that the Lord stood by him. The God who gives a word is also the God who stands behind the one who lives by it. His speaking and His saving are not separate acts. The Scriptures make a person wise for salvation, and the same Lord makes good on what the Scriptures promise.\n\nThe passage also shows God's concern for the formation of His servants. He does not simply use people; He equips them. The Scripture's four uses are acts of care, teaching what is true, exposing what is wrong, restoring those who stumble and training those who grow. A God who corrects is a God who loves, as Hebrews 12:6 says, and the fact that He gives His own words for this work shows how seriously He takes the growth of His people.\n\nThere is a tension to hold. The God who rescues Paul from every persecution in verse 11 is the same God who has allowed Paul to be in a Roman prison and to expect death. The promise of verse 12 that the godly will be persecuted sits next to the claim that the Lord rescued him from all of them. The two are reconciled in Paul's expectation in 4:18 that the Lord will rescue him from every evil deed and bring him into His heavenly kingdom. God's rescue is sure, though it does not always come in the form we would choose.\n\nFor worship, the passage invites a posture of reverent hearing. If the Bible is God's breath, then opening it is closer to listening than to studying. We bring ourselves under it, ready to be taught, rebuked, set right and trained, and we do so with gratitude that God has spoken at all.",
     "crossReferences": [
-      { "ref": "2 Peter 1:20-21", "note": "Scripture came not by human will but as men were carried along by the Holy Spirit, the companion text on inspiration." },
-      { "ref": "Psalm 19:7-11", "note": "The law of the Lord is perfect, reviving the soul, celebrating the profit of God's word." },
-      { "ref": "Luke 24:27, 44-45", "note": "Christ shows that all the Scriptures point to Him, grounding wisdom for salvation through faith in Him." },
-      { "ref": "2 Timothy 1:5", "note": "Timothy's sincere faith, first in Lois and Eunice, who taught him the sacred writings from infancy." }
+      {
+        "ref": "2 Peter 1:20-21",
+        "note": "The partner text to verse 16, looking from the other side. Paul speaks of God breathing out the writings, while Peter describes prophecy as never brought forth by human will, with speakers borne along by the Spirit. Together they teach that Scripture is fully God's word and also truly spoken by people."
+      },
+      {
+        "ref": "Psalm 19:7-9",
+        "note": "A hymn to the usefulness of God's word. The law is perfect and revives the soul, the testimony makes wise the simple, the precepts bring joy and the commandments give light to the eyes. It matches the claim of verse 15 that the Scriptures make a person wise, and shows that Paul's praise for the word had deep roots in Israel's own worship."
+      },
+      {
+        "ref": "Luke 24:27",
+        "note": "The risen Jesus begins with Moses and all the Prophets and explains what was written about Himself in all the Scriptures. This is the key to verse 15: the writings make one wise for salvation 'through faith in Christ Jesus' because they speak of Him from beginning to end."
+      },
+      {
+        "ref": "Acts 14:19-22",
+        "note": "The stoning at Lystra and the return visit to strengthen the disciples. It supplies the event behind verse 11 and the prediction behind verse 12, since Paul and Barnabas told the new believers that they must endure many hardships to enter the kingdom of God. Timothy's own home town had seen Paul left for dead."
+      },
+      {
+        "ref": "2 Timothy 1:5",
+        "note": "The earlier account of Timothy's inheritance, his sincere faith dwelling first in his grandmother Lois and his mother Eunice. It gives the 'whom' of 3:14 a human face and shows how the infancy learning of 3:15 took root in a household of faith."
+      },
+      {
+        "ref": "Deuteronomy 6:6-7",
+        "note": "Israel's command to keep God's words on the heart and teach them to children at home, on the road, lying down and rising up. Timothy's upbringing is an example of that command obeyed, and the verses show why teaching the sacred writings to the very young is a duty and not an extra."
+      },
+      {
+        "ref": "Joshua 1:8",
+        "note": "Joshua is told that the Book of the Law must not depart from his mouth, and that he is to meditate on it day and night so that he may be careful to do everything written in it. It is the Old Testament's own picture of a leader equipped by the book for every task, and it fits the purpose clause of verse 17."
+      },
+      {
+        "ref": "Romans 15:4",
+        "note": "Paul's wider statement that everything written in the past was written for our instruction, so that through endurance and the encouragement of the Scriptures we might have hope. It confirms that the Old Testament remains useful for Christians, and joins endurance and Scripture just as 2 Timothy 3:11-17 does."
+      },
+      {
+        "ref": "1 Timothy 5:18",
+        "note": "Paul quotes 'The worker is worthy of his wages' and introduces it with 'For the Scripture says,' alongside a line from Deuteronomy. The saying matches Luke 10:7, which suggests that the words of Jesus were already counted as Scripture, and so bears on what 'all Scripture' in 3:16 may include."
+      },
+      {
+        "ref": "Hebrews 4:12",
+        "note": "The word of God is living and active, sharper than a double-edged sword. It shows what 'profitable' means in practice: Scripture does not sit passive on the page but works on the reader, judging the thoughts and intentions of the heart, which is exactly the work of conviction and correction in verse 16."
+      },
+      {
+        "ref": "Matthew 4:4",
+        "note": "Jesus meets the tempter with 'It is written,' quoting Deuteronomy 8:3, that man lives on every word from the mouth of God. He is the perfect example of a man of God equipped by Scripture for the hardest work, and so a model for the Timothy of verse 17."
+      }
     ],
-    "oneStory": "God has spoken, breathing out Scripture so that His people might be made wise for salvation in Christ and equipped for His work. The same word Timothy learned at his grandmother's knee, the word Paul preached and suffered for, is the God-breathed word the church still holds. It runs through the whole story of redemption, leading generation after generation to Christ and fitting them for every good work until He comes.",
-    "sermon": { "status": "verified", "preacher": "Alistair Begg", "title": "Scripture: God-Breathed", "url": "https://www.truthforlife.org/resources/sermon/scripture-god-breathed/", "why": "Part of Begg's series A Study in 2 Timothy, this message expounds 2 Timothy 3:16, the claim that all Scripture is God-breathed, unfolding the Bible's divine origin, authority, and trustworthiness as the ground of the Christian's confidence in God's word." }
+    "oneStory": "Creation began with a word. God spoke and the world came to be, and He breathed life into the first man. Scripture is the continuation of that speaking. After the fall, when the human race had lost its way, the Lord did not leave people with only creation as a witness. He gave a written word, entrusted first to Moses and the prophets and handed down, as in Timothy's own family, from one generation to the next. The sacred writings thus stand in the story as the means by which a fallen world learns that it needs rescue, and how rescue comes.\n\nThe whole Old Testament was written looking forward. It promises a seed, a king, a prophet like Moses, a servant who will suffer, a new covenant written on hearts. The answer to every one of those promises is found in Jesus, which is why Paul can say the Scriptures make a person wise for salvation through faith in Him. A reader who finishes the Old Testament and stops has the question without the answer. Timothy, who knew the writings from infancy, came to the answer when he met the gospel.\n\nThe passage also places believers in a hard and honest chapter of the story. Between the first coming of Christ and His return, the godly will be opposed and deceivers will grow worse. Paul does not hide that. What he gives for this interval is not a secret technique but two things already in hand: the example of faithful people, and the God-breathed word. The church lives by these until the end.\n\nThe story's last pages return to the same themes. The word that made the world and was given in the Scriptures becomes in the end the Word who is Christ, who is called Faithful and True, Revelation 19:11-13. The good works for which Scripture equips God's servants will be seen to have mattered, for their deeds follow them, Revelation 14:13. In the new creation the Scriptures will not be needed to rescue anyone from deceit, because there will be no deceiver and no persecution. The people of God will see the one of whom the writings spoke, and what began as breath on the first man will be seen to have been for this, a people made complete in Him.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "Alistair Begg",
+      "title": "Scripture: God-Breathed",
+      "url": "https://www.truthforlife.org/resources/sermon/scripture-god-breathed/",
+      "why": "Part of Begg's series A Study in 2 Timothy, this message expounds 2 Timothy 3:16, the claim that all Scripture is God-breathed, unfolding the Bible's divine origin, authority, and trustworthiness as the ground of the Christian's confidence in God's word."
+    }
   },
   "quiz": [
     {
       "q": "What does Paul say Timothy should expect if he lives a godly life in Christ?",
       "options": [
-        { "text": "That he, like all who desire godliness in Christ, will be persecuted.", "weight": 100, "note": "Verse 12 states plainly that all who desire to live godly will be persecuted." },
-        { "text": "That he will be spared all hardship and opposition.", "weight": 0, "note": "The opposite: godliness in Christ invites persecution." },
-        { "text": "That only pastors and apostles face persecution.", "weight": 25, "note": "Paul says all who desire godly lives, not only leaders." },
-        { "text": "That opposition is a normal part of following Christ faithfully.", "weight": 75, "note": "True and close, generalizing the specific promise that the godly will be persecuted." }
+        {
+          "text": "That he, like all who desire godliness in Christ, will be persecuted.",
+          "weight": 100,
+          "note": "Verse 12 states plainly that all who desire to live godly will be persecuted."
+        },
+        {
+          "text": "That he will be spared all hardship and opposition.",
+          "weight": 0,
+          "note": "The opposite: godliness in Christ invites persecution."
+        },
+        {
+          "text": "That only pastors and apostles face persecution.",
+          "weight": 25,
+          "note": "Paul says all who desire godly lives, not only leaders."
+        },
+        {
+          "text": "That opposition is a normal part of following Christ faithfully.",
+          "weight": 75,
+          "note": "True and close, generalizing the specific promise that the godly will be persecuted."
+        }
       ]
     },
     {
       "q": "What does God-breathed mean in verse 16?",
       "options": [
-        { "text": "That Scripture originates from God, breathed out as His own word.", "weight": 100, "note": "The compound word teaches the Bible's divine origin and authority." },
-        { "text": "That the Bible merely contains helpful human wisdom.", "weight": 0, "note": "Paul roots Scripture in God's breath, not human insight." },
-        { "text": "That only some inspiring passages come from God.", "weight": 25, "note": "Paul says all Scripture is God-breathed, not only select parts." },
-        { "text": "That the Bible carries God's own authority because He is its author.", "weight": 75, "note": "True and close, drawing out the authority that follows from divine origin." }
+        {
+          "text": "That Scripture originates from God, breathed out as His own word.",
+          "weight": 100,
+          "note": "The compound word teaches the Bible's divine origin and authority."
+        },
+        {
+          "text": "That the Bible merely contains helpful human wisdom.",
+          "weight": 0,
+          "note": "Paul roots Scripture in God's breath, not human insight."
+        },
+        {
+          "text": "That only some inspiring passages come from God.",
+          "weight": 25,
+          "note": "Paul says all Scripture is God-breathed, not only select parts."
+        },
+        {
+          "text": "That the Bible carries God's own authority because He is its author.",
+          "weight": 75,
+          "note": "True and close, drawing out the authority that follows from divine origin."
+        }
       ]
     },
     {
       "q": "For what is Scripture profitable, according to verse 16?",
       "options": [
-        { "text": "Teaching, conviction, correction, and training in righteousness.", "weight": 100, "note": "Verse 16 lists all four uses covering doctrine and life." },
-        { "text": "Only for private comfort, not for correcting error.", "weight": 0, "note": "Paul explicitly includes conviction and correction." },
-        { "text": "Mainly for winning debates with opponents.", "weight": 25, "note": "Its purpose is to equip for godliness and good works, not scoring points." },
-        { "text": "Shaping both what we believe and how we live.", "weight": 75, "note": "True and close, summarizing the fourfold use of the word." }
+        {
+          "text": "Teaching, conviction, correction, and training in righteousness.",
+          "weight": 100,
+          "note": "Verse 16 lists all four uses covering doctrine and life."
+        },
+        {
+          "text": "Only for private comfort, not for correcting error.",
+          "weight": 0,
+          "note": "Paul explicitly includes conviction and correction."
+        },
+        {
+          "text": "Mainly for winning debates with opponents.",
+          "weight": 25,
+          "note": "Its purpose is to equip for godliness and good works, not scoring points."
+        },
+        {
+          "text": "Shaping both what we believe and how we live.",
+          "weight": 75,
+          "note": "True and close, summarizing the fourfold use of the word."
+        }
       ]
     },
     {
       "q": "What is the goal of Scripture's work in a person, according to verse 17?",
       "options": [
-        { "text": "That the man of God be complete, fully equipped for every good work.", "weight": 100, "note": "Verse 17 names completeness and equipping for good works as the aim." },
-        { "text": "That he simply accumulate more information.", "weight": 25, "note": "The goal is not mere knowledge but a life equipped for good works." },
-        { "text": "That he feel proud of how much Bible he knows.", "weight": 0, "note": "The aim is godly usefulness, not pride." },
-        { "text": "That he be made ready and able for the work God gives.", "weight": 75, "note": "True and close, restating being complete and fully equipped." }
+        {
+          "text": "That the man of God be complete, fully equipped for every good work.",
+          "weight": 100,
+          "note": "Verse 17 names completeness and equipping for good works as the aim."
+        },
+        {
+          "text": "That he simply accumulate more information.",
+          "weight": 25,
+          "note": "The goal is not mere knowledge but a life equipped for good works."
+        },
+        {
+          "text": "That he feel proud of how much Bible he knows.",
+          "weight": 0,
+          "note": "The aim is godly usefulness, not pride."
+        },
+        {
+          "text": "That he be made ready and able for the work God gives.",
+          "weight": 75,
+          "note": "True and close, restating being complete and fully equipped."
+        }
       ]
     },
     {
       "q": "Why does Paul point Timothy back to the Scriptures he knew from infancy?",
       "options": [
-        { "text": "Because they are able to make him wise for salvation through faith in Christ.", "weight": 100, "note": "Verse 15 names their saving purpose, fulfilled in Christ." },
-        { "text": "Because childhood memories are pleasant to recall.", "weight": 0, "note": "The point is the saving power of the Scriptures, not nostalgia." },
-        { "text": "Because old teaching is always better than new.", "weight": 25, "note": "The issue is not age but that these are the God-breathed Scriptures leading to Christ." },
-        { "text": "Because they ground him in the truth that leads to salvation.", "weight": 75, "note": "True and close, capturing their role in saving wisdom through faith in Christ." }
+        {
+          "text": "Because they are able to make him wise for salvation through faith in Christ.",
+          "weight": 100,
+          "note": "Verse 15 names their saving purpose, fulfilled in Christ."
+        },
+        {
+          "text": "Because childhood memories are pleasant to recall.",
+          "weight": 0,
+          "note": "The point is the saving power of the Scriptures, not nostalgia."
+        },
+        {
+          "text": "Because old teaching is always better than new.",
+          "weight": 25,
+          "note": "The issue is not age but that these are the God-breathed Scriptures leading to Christ."
+        },
+        {
+          "text": "Because they ground him in the truth that leads to salvation.",
+          "weight": 75,
+          "note": "True and close, capturing their role in saving wisdom through faith in Christ."
+        }
       ]
     }
   ],
@@ -160,10 +365,25 @@
     "The Bible aims to make you complete and equipped for every good work. Is there a good work God is preparing you for that His word is shaping you to do?"
   ],
   "translationNotes": [
-    { "ref": "2 Timothy 3:11", "note": "Antioch, Iconium, and Lystra recall Paul's sufferings on his first missionary journey, in the region Timothy came from, events Timothy would have known well." },
-    { "ref": "2 Timothy 3:15", "note": "Holy Scriptures renders sacred writings, a term for the Old Testament that Timothy was taught from infancy by his mother and grandmother." },
-    { "ref": "2 Timothy 3:16", "note": "God-breathed translates a single Greek compound found only here; some render the clause every God-breathed Scripture is also profitable, but both readings affirm divine inspiration and profit." },
-    { "ref": "2 Timothy 3:16", "note": "The four uses, rendered instruction, conviction, correction, and training in righteousness, together cover both sound doctrine and godly living." }
+    {
+      "ref": "2 Timothy 3:11",
+      "note": "Antioch, Iconium, and Lystra recall Paul's sufferings on his first missionary journey, in the region Timothy came from, events Timothy would have known well."
+    },
+    {
+      "ref": "2 Timothy 3:15",
+      "note": "Holy Scriptures renders sacred writings, a term for the Old Testament that Timothy was taught from infancy by his mother and grandmother."
+    },
+    {
+      "ref": "2 Timothy 3:16",
+      "note": "God-breathed translates a single Greek compound found only here; some render the clause every God-breathed Scripture is also profitable, but both readings affirm divine inspiration and profit."
+    },
+    {
+      "ref": "2 Timothy 3:16",
+      "note": "The four uses, rendered instruction, conviction, correction, and training in righteousness, together cover both sound doctrine and godly living."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for 2 Timothy 3:10-17." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for 2 Timothy 3:10-17."
+  }
 }

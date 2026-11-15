@@ -18,9 +18,21 @@
         "note": "grace overflowing to Paul",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 12, "text": "I thank Christ Jesus our Lord, who has strengthened me, that He considered me faithful and appointed me to service." },
-          { "chapter": 1, "n": 13, "text": "I was formerly a {{blasphemos|blasphemer}}, a persecutor, and a violent man; yet because I had acted in ignorance and unbelief, I was shown {{eleos|mercy}}." },
-          { "chapter": 1, "n": 14, "text": "And the {{charis|grace}} of our Lord overflowed to me, along with the faith and love that are in Christ Jesus." }
+          {
+            "chapter": 1,
+            "n": 12,
+            "text": "I thank Christ Jesus our Lord, who has strengthened me, that He considered me faithful and appointed me to service."
+          },
+          {
+            "chapter": 1,
+            "n": 13,
+            "text": "I was formerly a {{blasphemos|blasphemer}}, a persecutor, and a violent man; yet because I had acted in ignorance and unbelief, I was shown {{eleos|mercy}}."
+          },
+          {
+            "chapter": 1,
+            "n": 14,
+            "text": "And the {{charis|grace}} of our Lord overflowed to me, along with the faith and love that are in Christ Jesus."
+          }
         ]
       },
       {
@@ -28,9 +40,21 @@
         "note": "the trustworthy saying and doxology",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 15, "text": "This is a {{pistos|trustworthy saying}}, worthy of full acceptance: Christ Jesus came into the world to save sinners, of whom I am the worst." },
-          { "chapter": 1, "n": 16, "text": "But for this very reason I was shown mercy, so that in me, the worst of sinners, Christ Jesus might display His perfect {{makrothymia|patience}} as an example to those who would believe in Him for eternal life." },
-          { "chapter": 1, "n": 17, "text": "Now to the King eternal, immortal, and invisible, the only God, be honor and glory forever and ever. Amen." }
+          {
+            "chapter": 1,
+            "n": 15,
+            "text": "This is a {{pistos|trustworthy saying}}, worthy of full acceptance: Christ Jesus came into the world to save sinners, of whom I am the worst."
+          },
+          {
+            "chapter": 1,
+            "n": 16,
+            "text": "But for this very reason I was shown mercy, so that in me, the worst of sinners, Christ Jesus might display His perfect {{makrothymia|patience}} as an example to those who would believe in Him for eternal life."
+          },
+          {
+            "chapter": 1,
+            "n": 17,
+            "text": "Now to the King eternal, immortal, and invisible, the only God, be honor and glory forever and ever. Amen."
+          }
         ]
       },
       {
@@ -38,21 +62,68 @@
         "note": "fight the good fight",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 18, "text": "Timothy, my child, I entrust you with this command in keeping with the previous prophecies about you, so that by them you may {{strateuomai|fight the good fight}}," },
-          { "chapter": 1, "n": 19, "text": "holding on to faith and a good conscience, which some have rejected and thereby {{nauageo|shipwrecked}} their faith." },
-          { "chapter": 1, "n": 20, "text": "Among them are Hymenaeus and Alexander, whom I have handed over to Satan to be taught not to blaspheme." }
+          {
+            "chapter": 1,
+            "n": 18,
+            "text": "Timothy, my child, I entrust you with this command in keeping with the previous prophecies about you, so that by them you may {{strateuomai|fight the good fight}},"
+          },
+          {
+            "chapter": 1,
+            "n": 19,
+            "text": "holding on to faith and a good conscience, which some have rejected and thereby {{nauageo|shipwrecked}} their faith."
+          },
+          {
+            "chapter": 1,
+            "n": 20,
+            "text": "Among them are Hymenaeus and Alexander, whom I have handed over to Satan to be taught not to blaspheme."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "blasphemos": { "language": "Greek", "lemma": "blasphemos", "original": "βλάσφημος", "gloss": "A blasphemer, one who reviles and slanders, especially against God. Paul owns this label of his old life as a persecutor of Christ's people. That the chief blasphemer became a herald of the gospel is the sharpest proof of the mercy he describes." },
-    "eleos": { "language": "Greek", "lemma": "eleos", "original": "ἔλεος", "gloss": "Mercy, compassion shown to the undeserving and miserable. Paul says he was shown mercy twice over, in verses 13 and 16. Where grace gives what is not earned, mercy withholds the judgment that is due; both flooded over the former persecutor." },
-    "charis": { "language": "Greek", "lemma": "charis", "original": "χάρις", "gloss": "Grace, God's free and undeserved favor. Paul says the grace of our Lord overflowed, a word picturing a flood beyond measure, carrying faith and love with it. Grace is not merely enough for Paul's sin; it superabounds over it." },
-    "pistos": { "language": "Greek", "lemma": "pistos ho logos", "original": "πιστὸς ὁ λόγος", "gloss": "A trustworthy or faithful saying, a formula marking a settled, reliable summary of the gospel, found five times in the Pastoral Epistles. Here it introduces the heart of the good news: Christ Jesus came into the world to save sinners." },
-    "makrothymia": { "language": "Greek", "lemma": "makrothymia", "original": "μακροθυμία", "gloss": "Patience, long-suffering, a slowness to anger that bears long with offenders. Christ displayed His perfect patience in saving even the worst of sinners, making Paul a living pattern, an example, of hope for everyone who will believe." },
-    "strateuomai": { "language": "Greek", "lemma": "strateuomai", "original": "στρατεύομαι", "gloss": "To serve as a soldier, to wage war. Paul casts the ministry as warfare: Timothy is to fight the good fight, or wage the good warfare, backed by the prophecies once spoken over him. The Christian life and ministry are a real battle, not a leisure." },
-    "nauageo": { "language": "Greek", "lemma": "nauageo", "original": "ναυαγέω", "gloss": "To suffer shipwreck, to be dashed and broken as a ship on the rocks. Some who cast off faith and a good conscience have made shipwreck of their faith. The vivid image warns that abandoning conscience wrecks doctrine and life together." }
+    "blasphemos": {
+      "language": "Greek",
+      "lemma": "blasphemos",
+      "original": "βλάσφημος",
+      "gloss": "A blasphemer, one who reviles and slanders, especially against God. Paul owns this label of his old life as a persecutor of Christ's people. That the chief blasphemer became a herald of the gospel is the sharpest proof of the mercy he describes."
+    },
+    "eleos": {
+      "language": "Greek",
+      "lemma": "eleos",
+      "original": "ἔλεος",
+      "gloss": "Mercy, compassion shown to the undeserving and miserable. Paul says he was shown mercy twice over, in verses 13 and 16. Where grace gives what is not earned, mercy withholds the judgment that is due; both flooded over the former persecutor."
+    },
+    "charis": {
+      "language": "Greek",
+      "lemma": "charis",
+      "original": "χάρις",
+      "gloss": "Grace, God's free and undeserved favor. Paul says the grace of our Lord overflowed, a word picturing a flood beyond measure, carrying faith and love with it. Grace is not merely enough for Paul's sin; it superabounds over it."
+    },
+    "pistos": {
+      "language": "Greek",
+      "lemma": "pistos ho logos",
+      "original": "πιστὸς ὁ λόγος",
+      "gloss": "A trustworthy or faithful saying, a formula marking a settled, reliable summary of the gospel, found five times in the Pastoral Epistles. Here it introduces the heart of the good news: Christ Jesus came into the world to save sinners."
+    },
+    "makrothymia": {
+      "language": "Greek",
+      "lemma": "makrothymia",
+      "original": "μακροθυμία",
+      "gloss": "Patience, long-suffering, a slowness to anger that bears long with offenders. Christ displayed His perfect patience in saving even the worst of sinners, making Paul a living pattern, an example, of hope for everyone who will believe."
+    },
+    "strateuomai": {
+      "language": "Greek",
+      "lemma": "strateuomai",
+      "original": "στρατεύομαι",
+      "gloss": "To serve as a soldier, to wage war. Paul casts the ministry as warfare: Timothy is to fight the good fight, or wage the good warfare, backed by the prophecies once spoken over him. The Christian life and ministry are a real battle, not a leisure."
+    },
+    "nauageo": {
+      "language": "Greek",
+      "lemma": "nauageo",
+      "original": "ναυαγέω",
+      "gloss": "To suffer shipwreck, to be dashed and broken as a ship on the rocks. Some who cast off faith and a good conscience have made shipwreck of their faith. The vivid image warns that abandoning conscience wrecks doctrine and life together."
+    }
   },
   "study": {
     "basic": {
@@ -66,92 +137,244 @@
       "oneStory": "The gospel that runs through the whole Bible reaches its point here: Christ came to save sinners. Paul's rescue is a signpost of God's mercy to the undeserving, and the charge to fight the good fight hands that gospel on to the next generation, part of God's long work of saving and keeping a people through His Son."
     },
     "context": {
-      "literary": "Paul moves from the gospel entrusted to him, verse 11, to the gospel that saved him, weaving testimony, creed, and doxology. The trustworthy saying in verse 15 is the first of five such formulas in the Pastorals. The doxology in verse 17 caps the personal section before the renewed charge in verse 18 returns to Timothy and the false teachers.",
-      "historical": "Paul recalls his past as a persecutor of the church, known from Acts 8 and 9. Hymenaeus and Alexander are named as real men who abandoned the faith; handing over to Satan reflects the church's serious discipline, aimed not at destruction but at repentance.",
-      "canonical": "This passage joins Paul's other autobiographical confessions and stands as a template of conversion by sheer grace. The trustworthy saying became a treasured summary of the gospel across the church's history."
+      "literary": "The paragraph is built as a single movement of gratitude, and its grammar shows it. It begins 'I thank' in verse 12, runs through a confession in verse 13, and reaches its summit in verse 15 before the doxology in verse 17 releases the pressure. The pattern is thanks, past, mercy, saying, purpose, praise. Paul's tenses carry the message. He writes 'I was formerly a blasphemer' in verse 13, but in verse 15 the verb is present: 'of whom I am the worst.' The Greek word behind 'worst' also means first, and it recurs in verse 16, 'in me, the worst of sinners.' Paul does not talk about his sin as a closed chapter that no longer touches him; he keeps standing in the place where grace found him.\n\nVerses 12 to 17 are also built as a contrast with verses 3 to 11. The false teachers wanted the dignity of 'teachers of the law.' Paul describes himself as a man who was entrusted with the gospel because of mercy, not merit. One sets pride beside the other.\n\nVerses 18 to 20 return to the command. The noun 'command' in verse 18 takes up the same family of words used in verses 3 and 5, so the chapter is framed by commission. The 'faith and a good conscience' of verse 19 recall the 'sincere faith' and 'clear conscience' that verse 5 named as the goal of instruction. Two named men, Hymenaeus and Alexander, close the chapter as a negative picture set against Paul's positive one. Even the vocabulary rhymes: Paul was a 'blasphemer' in verse 13, and the two men are handed over to be taught 'not to blaspheme' in verse 20, so that mercy seen in Paul is hoped for in them.",
+      "historical": "The first readers knew Paul's earlier life well. Luke records that Saul approved of Stephen's execution, Acts 7:58 and 8:1, and that he went house to house dragging men and women off to prison, Acts 8:3. Paul himself later told the story with a kind of shuddering clarity: he tried to make believers blaspheme and chased them to foreign cities, Acts 26:11, he detained 'both men and women,' Acts 22:4, and he regarded himself as 'faultless' in the law, Philippians 3:6. So 'blasphemer, persecutor, and violent man' is no rhetorical flourish. The third word describes an insolent, bullying kind of cruelty.\n\nPaul also says why mercy reached him: 'I had acted in ignorance and unbelief.' This does not excuse him. It places his sin in the category the Law of Moses distinguished from defiant sin, Numbers 15:27 to 31, where a person who sinned in error could find atonement and the one who sinned 'defiantly' could not. Paul is saying that he was sincerely wrong, a zealot acting in blind conviction, and that God had a way to reach him.\n\nThe two men named in verse 20 were real. Hymenaeus appears again in 2 Timothy 2:17 with Philetus, teaching that the resurrection had already happened. Alexander was a common name, and Paul mentions an Alexander the coppersmith in 2 Timothy 4:14, though we cannot be sure it is the same man.\n\nHanding someone 'over to Satan' repeats the language of 1 Corinthians 5:5. It describes removal from the fellowship of the church into the realm outside, with the aim of restoration, as the 'to be taught' of verse 20 implies. Ephesus was a seaport, and Paul had been shipwrecked at least three times by the time he wrote 2 Corinthians 11:25, so the image of a wrecked ship came from experience.",
+      "canonical": "Paul tells his story repeatedly in the New Testament, and each version stresses a different side. Acts 9, 22 and 26 are the narrative accounts. In 1 Corinthians 15:8 to 10 he calls himself 'one of untimely birth' and 'the least of the apostles' and still insists that 'by the grace of God I am what I am.' In Galatians 1:13 to 16 the emphasis falls on his zeal and on God's choice. Philippians 3:4 to 11 counts his credentials as loss. The 1 Timothy account is the shortest and the most theological, because it is composed as a lesson rather than a defence.\n\nThe trustworthy saying sounds like a summary of the Gospels. Jesus said that 'the Son of Man came to seek and to save the lost,' Luke 19:10, and that he had come to call 'sinners,' Matthew 9:13. Romans 5:8 gives the same message in a sentence of its own, 'While we were still sinners, Christ died for us.' This is the first of five 'trustworthy sayings' in the Pastoral Letters, with 3:1, 4:9, 2 Timothy 2:11 and Titus 3:8.\n\nThe doxology resembles the benedictions Paul places at the end of Romans, 16:27, and in 1 Timothy 6:15 and 16, and it echoes the Old Testament's proclamation that 'the LORD will reign forever and ever,' Exodus 15:18. Daniel's king learned to praise 'Him who lives forever,' Daniel 4:34.\n\nThe warning about shipwreck has parallels in Hebrews 6:4 to 6 and 10:26, which also warn of those who fall away after knowing the truth. These texts keep the call to persevere alongside the promise of grace."
     },
     "hermeneutics": {
-      "authorIntent": "To ground the gospel Paul guards in his own experience of mercy, to hold himself out as a pattern of hope for all sinners, and to charge Timothy to wage the good warfare while holding faith and a good conscience.",
-      "descriptionVsPrescription": "Paul's testimony describes his unique conversion, but he explicitly makes it prescriptive as an example, verse 16: what happened to the worst is a pattern of hope for all. The charge to Timothy, and the warning against shipwreck, are prescriptive for every believer and minister.",
+      "authorIntent": "Paul wanted Timothy and the church to see that the gospel is not an idea he defends but a rescue he has lived. The longest argument against false teachers in this chapter is not a rebuttal but a testimony. By putting his own record on the table, he shows what the gospel does to a proud, zealous and violent man, and he makes that account the pattern for everyone else.\n\nHe also wanted to answer the temptation to think that some people are too far gone. Verse 16 is explicit: Christ displayed his patience in the worst of sinners 'as an example to those who would believe.' Timothy will meet hard cases, and so will the church in Ephesus. If a persecutor can be turned into an apostle, then no one in the city is beyond hope.\n\nThird, he turned thanks into obligation. The first thing Paul says is 'I thank Christ Jesus our Lord.' Gratitude for appointment to service is the root of faithful ministry. A man who remembers where he came from does not preach with contempt.\n\nFinally, Paul linked Timothy's task to the earlier prophecies about him. The command of verse 18 is not a sudden burden but something God has been preparing, and Timothy is to fight in the strength of what was spoken over him, holding faith and a good conscience. The two named failures show what happens to a minister who lets conscience go: the faith goes with it, as a ship that loses its rudder loses everything else.",
+      "descriptionVsPrescription": "Paul's conversion on the road to Damascus is unique in its details, and the church should not expect a flash of light or a voice from heaven as a norm. What he himself makes normative is the pattern: Christ shows patience, a sinner receives mercy, and that mercy turns into service. He says so, 'as an example to those who would believe in Him,' verse 16.\n\nThe statement 'of whom I am the worst' describes Paul's own estimate of himself and should not be turned into a rule that every believer must rank himself last on a scale of sins. It is better heard as the voice of a person who has seen what he was saved from and does not dilute it. Elsewhere Paul can say that he worked harder than the others, 1 Corinthians 15:10, so humility here is not false modesty.\n\nThe handing over of Hymenaeus and Alexander is a description of what Paul did as an apostle, in line with 1 Corinthians 5:5. The principle that carries over is that churches take sin and false teaching seriously and that their discipline aims at restoring people, not destroying them. How that is carried out belongs to the wisdom of each congregation, using passages like Matthew 18:17 and 2 Thessalonians 3:14 and 15, which call for firmness without treating the person as an enemy.\n\nThe warning about shipwreck is prescriptive for every believer: faith and conscience stand or fall together.",
       "debates": [
         {
           "question": "In what sense is Paul the worst of sinners?",
           "views": [
-            { "label": "Genuine present self-assessment", "case": "Paul uses the present tense, I am the worst, in ongoing humility before the God whose grace he never stops marveling at, not as false modesty." },
-            { "label": "Chiefly his past as persecutor", "case": "The context, verse 13, roots the claim in his history of blaspheming and persecuting the church, making him the standout trophy of grace." }
+            {
+              "label": "The worst by the scale of his deeds",
+              "case": "He persecuted the church, assented to a killing, and forced believers to blaspheme, Acts 8:1 and 26:11. The sin was not private; it targeted Christ's own people. On this view, Paul simply states a fact about the extent of his guilt."
+            },
+            {
+              "label": "The worst by the measure of what he knew",
+              "case": "Paul had every advantage, a first rate education in the law and a deep zeal for God. The better a man knows the Scriptures, the more his rebellion weighs. This explains why he says 'worst' and also 'ignorance,' because his ignorance was of Christ, not of the Bible."
+            },
+            {
+              "label": "A humility that reads sin by its nearness",
+              "case": "Others say Paul speaks as a person who sees sin more clearly the closer he gets to Christ, as Isaiah did in Isaiah 6:1 to 5. 'I am the worst' is then the language of repentance rather than a ranking."
+            }
           ],
-          "bearing": "Both keep the same point: the mercy that reached the worst leaves no sinner beyond hope, and it keeps the saved humble."
+          "bearing": "All three agree on the function of the statement. Paul uses his worst moment as evidence that Christ's patience is unlimited, and so no reader can claim to be beyond it."
         },
         {
-          "question": "What does handing Hymenaeus and Alexander over to Satan mean?",
+          "question": "What does it mean that Hymenaeus and Alexander have been handed over to Satan?",
           "views": [
-            { "label": "Formal excommunication", "case": "Putting them outside the protection of the church, into Satan's domain, the world, as in 1 Corinthians 5, so that discipline might bring them to their senses." },
-            { "label": "A remedial, not final, judgment", "case": "The stated aim is that they be taught not to blaspheme; the goal is correction and repentance, not damnation." }
+            {
+              "label": "Excommunication from the church",
+              "case": "The parallel in 1 Corinthians 5:5 and the instruction in Matthew 18:17 point to removal from the fellowship. Outside the church a person is exposed to the world where Satan rules, and the experience can lead to repentance. The purpose clause, 'to be taught not to blaspheme,' suggests a corrective aim."
+            },
+            {
+              "label": "An apostolic act with physical consequences",
+              "case": "Others note the phrase 'destruction of the flesh' in 1 Corinthians 5:5 and think Paul used apostolic authority to bring about bodily suffering or illness. They point to the apostolic acts of judgment in Acts 5 and 13."
+            },
+            {
+              "label": "A final judgment on apostates",
+              "case": "A smaller group reads the language as a settled verdict. Against this, the verb 'taught' in verse 20 implies discipline that can still reach its goal, so the sentence is better read as remedial."
+            }
           ],
-          "bearing": "Either way church discipline here is serious yet restorative, meant to recover the erring, not merely to punish them."
+          "bearing": "The remedial reading best fits the text's own purpose clause. Whatever its form, discipline in the church is meant to restore, which is how 2 Thessalonians 3:15 describes it: warn him 'as a brother.'"
         }
       ]
     },
-    "originalLanguages": "Paul stacks his old identity: blasphemos, blasphemer, with persecutor and violent man. To such a man came eleos, mercy, the withholding of deserved judgment, and charis, grace, God's free favor, which overflowed, a verb picturing a flood that superabounds. The gospel is announced as a pistos ho logos, a trustworthy saying, the fixed and reliable word. In saving the worst, Christ shows His makrothymia, long-suffering patience, making Paul a pattern for future believers. Timothy is then called to strateuomai, to soldier and wage the good warfare, holding faith and a good conscience, unlike those who nauageo, shipwreck, their faith on the rocks of a rejected conscience.",
+    "originalLanguages": "Paul says he acted 'in ignorance,' from the Greek verb agnoeo, to be unaware or not to know, and 'in unbelief.' The word group is used in Luke 23:34, where Jesus prays 'Father, forgive them, for they do not know what they are doing,' and in Acts 7:60, where Stephen asks the Lord not to hold the sin against his killers, a prayer the young Saul heard. Ignorance in Scripture is not an innocent void: it is a state of blindness for which one remains accountable, but it is also the condition in which mercy most plainly meets the sinner.\n\nThe word 'example' in verse 16 is hypotyposis, a noun built from a verb meaning to sketch or outline. It means a first draft or model, the preliminary pattern to be followed. Paul uses it again in 2 Timothy 1:13, 'the pattern of sound teaching.' So his own life is both the display and the template: Christ's perfect patience has been drawn on one canvas so that others can see how he acts.\n\nThe adjective rendered 'worst' in verses 15 and 16 is protos, 'first.' It carries the sense of foremost, so that Paul is the first in a line, a leading specimen. English translations choose 'worst' because the context is sin, but the Greek leaves the second sense available: Paul is also first in the line of those displayed as examples.\n\nIn the doxology, God is 'King eternal.' The Greek is literally 'King of the ages,' a Jewish way of speaking about God's reign over all time. 'Immortal' is aphthartos, 'incorruptible,' and 'invisible' is aoratos. Paul uses the same word of the Son in Colossians 1:15, 'the image of the invisible God,' and Hebrews 11:27 uses it of the God Moses saw by faith. The adjective 'only' before 'God' is the Greek monos, which Jesus also uses when he calls the Father 'the only true God' in John 17:3.\n\nIn verse 19 the verb translated 'rejected' is apotheomai, to push or thrust away. It is a deliberate, active act. Paul chooses it to say that those who abandon a good conscience do so by shoving it aside. The ship that is wrecked thereafter, the verb the basic text names, is the consequence, not the cause.\n\nFinally, 'taught' in verse 20 is the verb paideuo, used of the training and discipline of a child, and it belongs to the same family as the 'training in righteousness' of 2 Timothy 3:16. The point is not to destroy but to correct.",
     "typology": [
-      { "type": "Paul as the pattern trophy of grace", "fulfillment": "An example, verse 16, of every sinner saved by Christ's perfect patience, showing no one is beyond reach." },
-      { "type": "The King eternal, immortal, and invisible", "fulfillment": "The invisible God made known in Christ, the image of the invisible God, Colossians 1:15, who came into the world to save." }
+      {
+        "type": "Paul as the pattern of mercy for those who would believe, verse 16",
+        "fulfillment": "Paul says Christ made him an 'example,' a sketch drawn so others could see the outline of grace. Israel's story offers parallels where a hostile person was changed by God's patience, as Nebuchadnezzar learned to praise the Most High, Daniel 4:34, but Paul's case is that of a persecutor turned messenger to the nations, Acts 9:15. The fulfilment is in Christ himself, whose patience is displayed: 'God's kindness leads you to repentance,' Romans 2:4. Paul's life is a copy and an illustration, but it is Christ's patience that sits at its centre."
+      },
+      {
+        "type": "The King of the ages, verse 17",
+        "fulfillment": "Israel confessed that 'the LORD will reign forever and ever,' Exodus 15:18, and sang 'The LORD is King forever and ever,' Psalm 10:16. Paul's doxology picks up that confession and aims it at the same God. The escalation comes in the full revelation of the Son: 'No one has ever seen God, but the one and only Son... has made Him known,' John 1:18. The invisible King of the ages is now seen in Christ, and Revelation 5:13 shows the creatures praising 'Him who sits on the throne and the Lamb.' The type falls short only in being incomplete: the Old Testament could proclaim the King without showing his face."
+      },
+      {
+        "type": "Shipwreck and the good fight, verses 18 to 20",
+        "fulfillment": "Israel's story is full of sea and storm as images of danger, and Peter sees the flood and the ark as a picture of salvation, 1 Peter 3:20 and 21. In Paul's letter the voyage belongs to the soldier's call to 'fight the good fight,' and he links it to a good conscience. The escalation comes in Christ, who stills the storm and is himself the ark of those who trust him. Paul says elsewhere that the weapons of the church 'have divine power to demolish strongholds,' 2 Corinthians 10:4, so the warfare depends on Christ's strength. The picture falls short if it suggests that believers sail in their own strength."
+      }
     ],
-    "christ": "The heart of the passage, and of the letter, is verse 15: Christ Jesus came into the world to save sinners. He is the pre-existent Lord who entered the world on a rescue mission, and His saving reach extends even to the worst. His perfect patience toward Paul is set forth as both proof that the gospel is true and a pattern that invites every sinner to believe in Him for eternal life. The doxology to the King eternal flows straight out of wonder at this Savior.",
-    "god": "God is praised as the King eternal, immortal, and invisible, the only God, to whom belong honor and glory forever. He is rich in mercy and lavish in grace, delighting to save the undeserving and to turn a persecutor into a preacher. His patience is saving patience, and His discipline, even handing men over to Satan, aims at their recovery. He is the God who keeps and strengthens those He calls to service.",
+    "christ": "The central sentence of the passage is the most Christ centred statement in the chapter: 'Christ Jesus came into the world to save sinners.' It has three parts that deserve slowing down for. The first is 'came into the world,' which assumes that he existed before he came. Paul does not describe a man who became important; he describes a person who entered history from somewhere else. John says the same in John 3:17, 'God did not send His Son into the world to condemn the world, but to save the world through Him.'\n\nThe second is 'to save sinners.' Paul does not say that Christ came to help the willing or to improve the decent. He came for sinners, and he came to save, which means to rescue from a condition that people cannot repair. Jesus announced his own mission with the same words, 'I have not come to call the righteous, but sinners,' Matthew 9:13, and 'the Son of Man came to seek and to save the lost,' Luke 19:10. Paul's saying distils those lines into a creed.\n\nThe third is that Christ himself 'strengthened' Paul and 'considered me faithful,' verses 12 and 14. The one who saves is also the one who equips. Verse 12 thanks 'Christ Jesus our Lord,' not merely God in general, which shows how naturally Paul gives thanks to the Son as Lord. He had once hated that name and persecuted its bearers; now he gives it thanks.\n\nVerse 16 says that in Paul, Christ displayed his 'perfect patience.' Patience is not a minor trait of Christ. It is how the Lord waits for rebels to turn, as Peter says of the ark's long building, 1 Peter 3:20. The Damascus road shows it: the risen Lord asks 'why do you persecute Me?' and treats the attack on his people as an attack on himself, then makes the attacker his chosen instrument, Acts 9:15.\n\nThe doxology goes on to say that the invisible God is to be honoured. The same invisible God has been made known by his Son, John 1:18, and Colossians 1:15 says the Son is 'the image of the invisible God.' Paul does not leave the King unseen. He has been displayed in Jesus.\n\nThe link to Christ rests on the text's own claims. The chapter does not turn each detail into a hidden picture, but it shows that the gospel is Christ coming for sinners and Christ displayed in the person he saves.",
+    "god": "This passage presents a God who is both exalted beyond sight and near enough to rescue a persecutor. The doxology names him 'King eternal, immortal, and invisible, the only God.' Each adjective says something distinct. 'Eternal' says he stands outside the limits of time, and Psalm 90:2 puts it, 'from everlasting to everlasting You are God.' 'Immortal' says he cannot decay or die, and 6:16 adds that he alone has immortality. 'Invisible' says he cannot be seen as creatures see one another, so that Exodus 33:20 holds, 'no one can see Me and live.' 'The only God' denies that anyone shares his rank.\n\nAlongside this transcendence, Paul tells a story of incredible nearness. The same God has dealt with one violent man personally, strengthening him, appointing him, showing mercy and causing grace to overflow. His mercy is not a vague feeling; it has an address and a history. Paul can point to the day.\n\nThe passage also shows God's patience and his justice working together. Mercy comes to Paul because he sinned in ignorance, and the patience of Christ is displayed in him. Yet the chapter ends with two men who rejected conscience and are handed over to discipline. God is not indifferent to sin. He is slow to anger, and he disciplines for the sake of restoration.\n\nThe doxology teaches something about worship. Paul does not offer a theory of the divine nature and then move on. He breaks into praise because of what God has done for him. The doctrine of God belongs in song, and a person who really grasps the grace described in verses 13 and 14 will naturally say 'Amen.'\n\nGod's character also shapes how the church should treat the worst of sinners. If he showed patience to Paul, believers cannot decide that someone is outside his reach. Romans 2:4 says his kindness 'leads you to repentance,' and the patience shown is a motive for believers to be patient in their turn. And since God is faithful as well as merciful, Timothy can hold to the command with confidence: the God who began the work through prophecy will see it through. The God of verse 17 has the whole of time in his hands, and there is no shipwreck he cannot prevent or repair.",
     "crossReferences": [
-      { "ref": "1 Corinthians 15:9-10", "note": "I am the least of the apostles, yet by the grace of God I am what I am; grace was not in vain." },
-      { "ref": "Romans 5:20-21", "note": "Where sin increased, grace increased all the more, the pattern of Paul's own rescue." },
-      { "ref": "Acts 9:1-19", "note": "The conversion of Saul the persecutor, the history behind this testimony." },
-      { "ref": "2 Timothy 4:7", "note": "I have fought the good fight, the same warfare image Timothy is charged to take up." }
+      {
+        "ref": "Acts 9:1-6",
+        "note": "The Damascus road, where Saul is breathing out threats and meets the risen Lord who asks why he is persecuting him. It is the story behind verses 13 and 14, and it shows 'mercy' arriving at the moment of fiercest opposition."
+      },
+      {
+        "ref": "Acts 8:1-3",
+        "note": "Saul gives approval to Stephen's death and then tries to destroy the church house by house. These verses show concretely what Paul means by the words 'persecutor' and 'violent man' when he looks back in 1 Timothy 1:13."
+      },
+      {
+        "ref": "1 Corinthians 15:8-10",
+        "note": "Paul calls himself 'one of untimely birth' and 'the least of the apostles' and credits 'the grace of God.' Together with 1 Timothy 1:14 it shows that his humility and his energy come from the same source, grace."
+      },
+      {
+        "ref": "Luke 19:10",
+        "note": "Jesus says he came 'to seek and to save the lost.' The trustworthy saying of verse 15 is a faithful summary of this mission, in the language of the Gospels rather than a new teaching."
+      },
+      {
+        "ref": "Romans 5:20",
+        "note": "'Where sin increased, grace increased all the more.' The same pattern that Paul discovers in his own life is stated as a principle: the greatest sin meets even greater grace, which is why he can say grace 'overflowed.'"
+      },
+      {
+        "ref": "Numbers 15:27-31",
+        "note": "The law distinguished sin committed in error from defiant sin. Paul's phrase 'in ignorance and unbelief' draws on that category, explaining why mercy could reach him and also why he is not minimising his guilt."
+      },
+      {
+        "ref": "1 Timothy 6:15-16",
+        "note": "A second doxology to the 'blessed and only Sovereign One,' who 'alone is immortal' and dwells in unapproachable light. It develops the words of 1:17, 'immortal, and invisible,' and shows that both are meant to frame the letter."
+      },
+      {
+        "ref": "1 Corinthians 5:5",
+        "note": "The nearest parallel to handing someone 'over to Satan.' The aim is that 'his spirit may be saved on the Day of the Lord,' which supports the view that the discipline in 1 Timothy 1:20 is meant to be remedial."
+      },
+      {
+        "ref": "2 Timothy 4:7",
+        "note": "At the end of his life Paul says 'I have fought the good fight, I have finished the race, I have kept the faith.' It shows what he meant when he told Timothy to fight the good fight: he was not asking for something he had not done himself."
+      },
+      {
+        "ref": "Luke 23:34",
+        "note": "Jesus prays for forgiveness for those who 'do not know what they are doing.' It is the same language of ignorance Paul uses, and it shows that mercy for the ignorant is rooted in the Lord's own prayer on the cross."
+      }
     ],
-    "oneStory": "The long story of Scripture aims at this: Christ came into the world to save sinners. Paul's rescue is a bright signpost of God's mercy to the undeserving, and his charge to Timothy passes the gospel and its warfare to the next generation. It is one chapter in God's unbroken work of saving a people by grace and keeping them through faith and a good conscience until the King eternal is seen face to face.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "From the first chapters of Genesis, the story of the Bible has been the story of a God who pursues people who run from him. Adam and Eve hid, and God came looking. Cain killed his brother, and God spoke to him. Israel rebelled again and again, and God kept sending prophets. The question that hangs over all of it is whether anyone is too far gone for his patience. 1 Timothy 1:12 to 20 offers a human answer from someone who had every reason to be written off.\n\nPaul stands at an important point in the plot. He is the persecutor of the church who becomes its apostle to the nations. That reversal belongs to the story God promised to Abraham, that all nations would be blessed, and it shows how far the gospel reaches. The persecutor of the church becomes a chief builder of it. Acts presents the same event as the hinge between a mostly Jewish church and a Gentile mission.\n\nThe passage also says something about the time in which it was written. The 'ignorance' Paul describes belongs to an era that Paul elsewhere says God 'overlooked' while he waited, and the arrival of Christ has made the call to repent clear, as Acts 17:30 teaches. Verse 17's phrase 'King of the ages' places that moment within a plan that spans all time, from before the ages began, 2 Timothy 1:9, to the age to come.\n\nThe charge to Timothy is the next step in the story. Having been rescued, Paul is entrusted with the gospel, and Timothy is entrusted in turn. The church's life is a relay in which the good news passes from those who have been saved to those who will be.\n\nThe story ends in a place where the King of the ages is seen. Paul's doxology looks forward to the day when what is now invisible will be unveiled, and when every creature will join in the praise, Revelation 5:13. There no one will be shipwrecked, no conscience will be wounded, and the men and women who were the worst of sinners will be among the loudest in praise. Paul's testimony is, among other things, a small sample of what that crowd will sound like.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What is the trustworthy saying at the center of this passage?",
       "options": [
-        { "text": "Christ Jesus came into the world to save sinners.", "weight": 100, "note": "Verse 15 states the gospel in its clearest form." },
-        { "text": "God helps those who help themselves.", "weight": 75, "note": "This popular slogan is not in the Bible and runs against grace to the undeserving." },
-        { "text": "Christ came to reward the righteous for their good lives.", "weight": 25, "note": "He came to save sinners, not to reward the self-righteous." },
-        { "text": "Only respectable people can be saved.", "weight": 0, "note": "Paul, the worst of sinners, is the proof that this is false." }
+        {
+          "text": "Christ Jesus came into the world to save sinners.",
+          "weight": 100,
+          "note": "Verse 15 states the gospel in its clearest form."
+        },
+        {
+          "text": "God helps those who help themselves.",
+          "weight": 75,
+          "note": "This popular slogan is not in the Bible and runs against grace to the undeserving."
+        },
+        {
+          "text": "Christ came to reward the righteous for their good lives.",
+          "weight": 25,
+          "note": "He came to save sinners, not to reward the self-righteous."
+        },
+        {
+          "text": "Only respectable people can be saved.",
+          "weight": 0,
+          "note": "Paul, the worst of sinners, is the proof that this is false."
+        }
       ]
     },
     {
       "q": "Why was Paul shown mercy, according to verse 16?",
       "options": [
-        { "text": "So that Christ might display His perfect patience in him as an example to future believers.", "weight": 100, "note": "Paul is made a pattern of hope for all who would believe." },
-        { "text": "Because he had earned it by his zeal for the law.", "weight": 75, "note": "His zeal made him a persecutor; mercy was unearned, not a reward." },
-        { "text": "Because his sins were really quite minor.", "weight": 25, "note": "He calls himself the worst of sinners; mercy met great sin." },
-        { "text": "Because he promised to make up for his past.", "weight": 0, "note": "Mercy came before and apart from any repayment on Paul's part." }
+        {
+          "text": "So that Christ might display His perfect patience in him as an example to future believers.",
+          "weight": 100,
+          "note": "Paul is made a pattern of hope for all who would believe."
+        },
+        {
+          "text": "Because he had earned it by his zeal for the law.",
+          "weight": 75,
+          "note": "His zeal made him a persecutor; mercy was unearned, not a reward."
+        },
+        {
+          "text": "Because his sins were really quite minor.",
+          "weight": 25,
+          "note": "He calls himself the worst of sinners; mercy met great sin."
+        },
+        {
+          "text": "Because he promised to make up for his past.",
+          "weight": 0,
+          "note": "Mercy came before and apart from any repayment on Paul's part."
+        }
       ]
     },
     {
       "q": "How does Paul describe God in his doxology?",
       "options": [
-        { "text": "The King eternal, immortal, and invisible, the only God.", "weight": 100, "note": "Verse 17 gives this praise to God." },
-        { "text": "A distant force with no interest in individuals.", "weight": 75, "note": "The very context shows God's personal mercy to Paul." },
-        { "text": "One god among many equals.", "weight": 25, "note": "Paul calls Him the only God, not one among many." },
-        { "text": "A God who cannot forgive great sinners.", "weight": 0, "note": "The whole passage proves the opposite." }
+        {
+          "text": "The King eternal, immortal, and invisible, the only God.",
+          "weight": 100,
+          "note": "Verse 17 gives this praise to God."
+        },
+        {
+          "text": "A distant force with no interest in individuals.",
+          "weight": 75,
+          "note": "The very context shows God's personal mercy to Paul."
+        },
+        {
+          "text": "One god among many equals.",
+          "weight": 25,
+          "note": "Paul calls Him the only God, not one among many."
+        },
+        {
+          "text": "A God who cannot forgive great sinners.",
+          "weight": 0,
+          "note": "The whole passage proves the opposite."
+        }
       ]
     },
     {
       "q": "What does Paul charge Timothy to do?",
       "options": [
-        { "text": "To fight the good fight, holding on to faith and a good conscience.", "weight": 100, "note": "Verses 18 and 19 give the charge and its safeguard." },
-        { "text": "To avoid all conflict and keep everyone comfortable.", "weight": 75, "note": "Ministry is pictured as warfare, not the avoidance of every conflict." },
-        { "text": "To trust his gifting and ignore his conscience.", "weight": 25, "note": "Rejecting a good conscience is exactly what shipwrecks faith." },
-        { "text": "To rely on his own strength alone.", "weight": 0, "note": "It is Christ who strengthens; the fight is fought in His grace." }
+        {
+          "text": "To fight the good fight, holding on to faith and a good conscience.",
+          "weight": 100,
+          "note": "Verses 18 and 19 give the charge and its safeguard."
+        },
+        {
+          "text": "To avoid all conflict and keep everyone comfortable.",
+          "weight": 75,
+          "note": "Ministry is pictured as warfare, not the avoidance of every conflict."
+        },
+        {
+          "text": "To trust his gifting and ignore his conscience.",
+          "weight": 25,
+          "note": "Rejecting a good conscience is exactly what shipwrecks faith."
+        },
+        {
+          "text": "To rely on his own strength alone.",
+          "weight": 0,
+          "note": "It is Christ who strengthens; the fight is fought in His grace."
+        }
       ]
     },
     {
       "q": "What happened to those who rejected faith and a good conscience?",
       "options": [
-        { "text": "They shipwrecked their faith, like Hymenaeus and Alexander.", "weight": 100, "note": "Verses 19 and 20 give the warning and name the men." },
-        { "text": "They simply grew tired and took a rest.", "weight": 75, "note": "This softens a serious warning; they made shipwreck of faith." },
-        { "text": "They were rewarded for their independent thinking.", "weight": 25, "note": "Rejecting conscience led to ruin, not reward." },
-        { "text": "Nothing at all changed for them.", "weight": 0, "note": "The consequence was real: shipwrecked faith and church discipline." }
+        {
+          "text": "They shipwrecked their faith, like Hymenaeus and Alexander.",
+          "weight": 100,
+          "note": "Verses 19 and 20 give the warning and name the men."
+        },
+        {
+          "text": "They simply grew tired and took a rest.",
+          "weight": 75,
+          "note": "This softens a serious warning; they made shipwreck of faith."
+        },
+        {
+          "text": "They were rewarded for their independent thinking.",
+          "weight": 25,
+          "note": "Rejecting conscience led to ruin, not reward."
+        },
+        {
+          "text": "Nothing at all changed for them.",
+          "weight": 0,
+          "note": "The consequence was real: shipwrecked faith and church discipline."
+        }
       ]
     }
   ],
@@ -163,9 +386,21 @@
     "Some shipwrecked their faith by rejecting a good conscience. Where are you tempted to silence your conscience, and what might it cost you if you do?"
   ],
   "translationNotes": [
-    { "ref": "1 Timothy 1:15", "note": "Trustworthy saying renders a fixed formula, pistos ho logos, marking a reliable gospel summary; it recurs in 3:1, 4:9, 2 Timothy 2:11, and Titus 3:8." },
-    { "ref": "1 Timothy 1:16", "note": "The worst of sinners translates a word meaning foremost or chief; Paul uses the present tense, keeping the confession current, not merely past." },
-    { "ref": "1 Timothy 1:18", "note": "Fight the good fight renders military language, literally to wage the good warfare, picturing ministry and the Christian life as a real battle." }
+    {
+      "ref": "1 Timothy 1:15",
+      "note": "Trustworthy saying renders a fixed formula, pistos ho logos, marking a reliable gospel summary; it recurs in 3:1, 4:9, 2 Timothy 2:11, and Titus 3:8."
+    },
+    {
+      "ref": "1 Timothy 1:16",
+      "note": "The worst of sinners translates a word meaning foremost or chief; Paul uses the present tense, keeping the confession current, not merely past."
+    },
+    {
+      "ref": "1 Timothy 1:18",
+      "note": "Fight the good fight renders military language, literally to wage the good warfare, picturing ministry and the Christian life as a real battle."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for 1 Timothy 1:12-20 this session." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for 1 Timothy 1:12-20 this session."
+  }
 }

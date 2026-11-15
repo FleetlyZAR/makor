@@ -18,9 +18,21 @@
         "note": "truth that leads to godliness",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 1, "text": "Paul, a {{doulos|servant}} of God and an apostle of Jesus Christ for the faith of God’s elect and their {{epignosis|knowledge of the truth}} that leads to {{eusebeia|godliness}}," },
-          { "chapter": 1, "n": 2, "text": "in the hope of eternal life, which God, who {{apseudes|cannot lie}}, promised before time began." },
-          { "chapter": 1, "n": 3, "text": "In His own time He has made His word evident in the proclamation entrusted to me by the command of God our {{soter|Savior}}." }
+          {
+            "chapter": 1,
+            "n": 1,
+            "text": "Paul, a {{doulos|servant}} of God and an apostle of Jesus Christ for the faith of God’s elect and their {{epignosis|knowledge of the truth}} that leads to {{eusebeia|godliness}},"
+          },
+          {
+            "chapter": 1,
+            "n": 2,
+            "text": "in the hope of eternal life, which God, who {{apseudes|cannot lie}}, promised before time began."
+          },
+          {
+            "chapter": 1,
+            "n": 3,
+            "text": "In His own time He has made His word evident in the proclamation entrusted to me by the command of God our {{soter|Savior}}."
+          }
         ]
       },
       {
@@ -28,17 +40,46 @@
         "note": "the apostolic blessing",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 4, "text": "To Titus, my true child in our common faith: Grace and peace from God the Father and Christ Jesus our {{soter|Savior}}." }
+          {
+            "chapter": 1,
+            "n": 4,
+            "text": "To Titus, my true child in our common faith: Grace and peace from God the Father and Christ Jesus our {{soter|Savior}}."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "doulos": { "language": "Greek", "lemma": "doulos", "original": "δοῦλος", "gloss": "A slave or bondservant, one wholly owned by another. Paul opens not with rank but with belonging: he is God's slave before he is Christ's apostle. The title marks total submission to a Master, yet for Paul it is an honour, echoing the servants of the LORD in the Old Testament like Moses and the prophets." },
-    "epignosis": { "language": "Greek", "lemma": "epignosis", "original": "ἐπίγνωσις", "gloss": "Full, deep, personal knowledge, stronger than bare information. It is a recurring aim in the Pastoral Epistles: not curiosity but a settled recognition of the truth that grips the whole person. Here it is the knowledge of the truth that produces godliness, so that right belief and right living are bound together." },
-    "eusebeia": { "language": "Greek", "lemma": "eusebeia", "original": "εὐσέβεια", "gloss": "Godliness, true devotion to God that shapes conduct, a favourite word of the Pastoral Epistles. It is not mere religion but reverence that shows in daily life. In Titus the whole point of sound doctrine is a godliness the watching world can see, so truth and holiness are never separated." },
-    "apseudes": { "language": "Greek", "lemma": "apseudes", "original": "ἀψευδής", "gloss": "Free from falsehood, unable to lie, entirely truthful. Used only here in the New Testament, it grounds the believer's hope not in wishful thinking but in the character of God Himself. On Crete, an island famed for lying, Paul anchors everything on the one God who cannot deceive." },
-    "soter": { "language": "Greek", "lemma": "soter", "original": "σωτήρ", "gloss": "Saviour, one who rescues and preserves. Titus uses the title six times, applied both to God the Father and to Christ Jesus, weaving them together. In a culture where Caesar was hailed as saviour, Paul insists that God our Saviour, made known in Jesus, is the true source of rescue." }
+    "doulos": {
+      "language": "Greek",
+      "lemma": "doulos",
+      "original": "δοῦλος",
+      "gloss": "A slave or bondservant, one wholly owned by another. Paul opens not with rank but with belonging: he is God's slave before he is Christ's apostle. The title marks total submission to a Master, yet for Paul it is an honour, echoing the servants of the LORD in the Old Testament like Moses and the prophets."
+    },
+    "epignosis": {
+      "language": "Greek",
+      "lemma": "epignosis",
+      "original": "ἐπίγνωσις",
+      "gloss": "Full, deep, personal knowledge, stronger than bare information. It is a recurring aim in the Pastoral Epistles: not curiosity but a settled recognition of the truth that grips the whole person. Here it is the knowledge of the truth that produces godliness, so that right belief and right living are bound together."
+    },
+    "eusebeia": {
+      "language": "Greek",
+      "lemma": "eusebeia",
+      "original": "εὐσέβεια",
+      "gloss": "Godliness, true devotion to God that shapes conduct, a favourite word of the Pastoral Epistles. It is not mere religion but reverence that shows in daily life. In Titus the whole point of sound doctrine is a godliness the watching world can see, so truth and holiness are never separated."
+    },
+    "apseudes": {
+      "language": "Greek",
+      "lemma": "apseudes",
+      "original": "ἀψευδής",
+      "gloss": "Free from falsehood, unable to lie, entirely truthful. Used only here in the New Testament, it grounds the believer's hope not in wishful thinking but in the character of God Himself. On Crete, an island famed for lying, Paul anchors everything on the one God who cannot deceive."
+    },
+    "soter": {
+      "language": "Greek",
+      "lemma": "soter",
+      "original": "σωτήρ",
+      "gloss": "Saviour, one who rescues and preserves. Titus uses the title six times, applied both to God the Father and to Christ Jesus, weaving them together. In a culture where Caesar was hailed as saviour, Paul insists that God our Saviour, made known in Jesus, is the true source of rescue."
+    }
   },
   "study": {
     "basic": {
@@ -52,84 +93,240 @@
       "oneStory": "The letter begins where the whole Bible begins, with a God who plans salvation before time, keeps His promise because He cannot lie, and reveals it in Christ. Titus is sent to plant that gospel in ordinary lives on a difficult island, one more link in God's long work of saving a people for Himself."
     },
     "context": {
-      "literary": "An unusually full salutation for such a brief letter, front-loading the letter's key themes: truth, godliness, hope, and salvation. It follows the ancient letter form, sender, recipient, greeting, but expands each part into a dense summary of the gospel that frames all that follows.",
-      "historical": "Paul writes, most likely in the mid-60s between his Roman imprisonments, to Titus, a Gentile convert and proven coworker, left on Crete to bring order to newly planted churches. Crete had a notorious reputation in the ancient world, which sharpens Paul's stress on truth from a God who cannot lie.",
-      "canonical": "One of the three Pastoral Epistles, alongside 1 and 2 Timothy, concerned with church order, sound doctrine, and godly leadership. The greeting sets Titus within the sweep of God's redemptive plan, from a promise before time to its proclamation now."
+      "literary": "The first four verses of Titus are a single Greek sentence, and it is one of the longest and most compressed openings in the letters of Paul, comparable in weight to the opening of Romans. A reader who hurries through it as a courtesy misses its design. The sentence begins with the sender, \"Paul, a servant of God and an apostle of Jesus Christ,\" and then, instead of moving to the recipient, it opens out into a statement of what his apostleship is for. It runs through faith, knowledge, godliness, hope and life, steps back into eternity with \"before time began,\" comes forward again to \"in His own time,\" and only then arrives at the address, \"To Titus.\" The greeting itself is the shortest part.\n\nThe movement is one of a great arc. It starts in eternity, with a promise made before the ages. It passes through history, the moment when God made His word evident. It lands in the present, in the proclamation entrusted to Paul. The pattern is past promise, present revelation, current commission, and it is the pattern of the gospel itself in miniature. The two uses of \"Savior,\" one for God in verse 3 and one for Christ Jesus in verse 4, frame the final stretch like bookends, so that the sentence turns around the saving work of both.\n\nThere are three pairs inside the sentence that repay a slow reading. Faith is paired with knowledge, so that belief rests on understanding. Truth is paired with godliness, so that knowing leads to living. Hope is paired with the promise of a God who does not lie, so that expectation rests on character. These pairings anticipate the shape of the whole letter, where sound doctrine and good works are held together at every turn, Titus 2:1 and 3:8.\n\nIn comparison with the greetings to Timothy, this opening is longer, more doctrinal, and more formal. It reads as if Paul wants the letter, which was meant to be read to the churches of Crete, to carry his credentials and message before it gives a single instruction. It is an introduction that doubles as a creed.",
+      "historical": "The letter is addressed to Titus, a Gentile Christian who had worked with Paul for many years. Paul took him to Jerusalem and refused to have him circumcised under pressure, Galatians 2:1-3. He served as Paul's envoy to the troubled church at Corinth, where his coming brought comfort, 2 Corinthians 2:13 and 7:6, and he organized the collection there, 2 Corinthians 8:16-17. Now he has been left in Crete with a task that Paul describes in the next verse: to set in order what was unfinished and appoint elders in every town, Titus 1:5.\n\nCrete is a long island in the Mediterranean, with many towns, which explains the phrase \"in every town.\" Cretans were present in Jerusalem on the day of Pentecost, Acts 2:11, which may be how the faith first reached the island. Paul's ship sailed along its southern coast on the way to Rome, Acts 27:7-8, though it is not told that he preached there. The letter implies a later visit by Paul, since he says he left Titus there. The churches were young, without settled leadership, and facing pressure from teachers who came from the circumcision party, Titus 1:10-11.\n\nA first-century letter normally began with the sender's name, then the recipient's, then a greeting. Paul keeps the pattern but fills the first part with a statement of his authority. This is a sign that the letter was intended to be read publicly. The Cretan churches would hear the apostle's credentials as Titus read them, and Titus himself would have the authority to appoint leaders in Paul's name. The opening is therefore as much a letter of commission as a personal word.\n\nThe phrase \"servant of God\" was a title of honor in Israel, borne by Moses and David and the prophets. Paul uses it for himself here and only here, at the start of a letter, in this exact form, and the pairing with \"apostle of Jesus Christ\" shows both the humility and the authority of his position. The word \"Savior\" had a worldwide ring in a Roman world where emperors and gods were called by the title, and Paul's use of it for God and for Christ Jesus is a quiet counter-claim.",
+      "canonical": "The sentence reaches back through the whole Bible. The title \"servant of God\" has an Old Testament lineage: Moses is called the servant of the LORD, Joshua 1:1, and the prophets are spoken of in the same way. Paul places himself in that company, not as a successor to Moses but as one who serves the same God in a new age.\n\nThe promise of eternal life before time began connects to the prophetic hope of an everlasting salvation, to the patriarchal promises, and to the \"mystery concealed for ages past but now revealed\" of Romans 16:25-26. Paul says something very close in 2 Timothy 1:9-10, where grace was given in Christ Jesus before time began and has now been revealed through His appearing. Ephesians 1:4 adds that God chose His people in Christ before the foundation of the world. The three texts together show that the gospel was not a second thought but the plan of God from eternity.\n\nThe affirmation that God cannot lie reflects a basic Old Testament conviction. Numbers 23:19 says that God is not a man, that He should lie, and asks whether He will speak and not act. Hebrews 6:17-18 builds on it, calling God's promise and oath two unchangeable things in which it is impossible for God to lie. Paul's confidence in the hope of eternal life rests on that character.\n\nThe title \"Savior\" is used of God in the Old Testament, as in Isaiah 43:11, where the LORD declares that besides Him there is no savior, and in the Psalms. The New Testament carries it across to Christ, so that Titus can hold the two together. Chapter 2 will speak of \"our great God and Savior Jesus Christ,\" Titus 2:13, and chapter 3 will tell the story again of God our Savior and Jesus Christ our Savior, Titus 3:4-6. The greeting plants the seed of the letter's chief theme.\n\nThe final blessing, \"grace and peace,\" is Paul's usual greeting. Its form joins the Greek word for grace with the Hebrew shalom, and the greeting is a small gospel in itself."
     },
     "hermeneutics": {
-      "authorIntent": "To establish Paul's God-given authority and the truth of the gospel at the very start, so that everything Titus is charged to teach and do rests on a sure foundation rather than on human opinion.",
-      "descriptionVsPrescription": "This is largely descriptive of the gospel and Paul's calling, yet it carries an abiding prescription for all ministry: sound teaching aims at godliness, and Christian hope rests on the trustworthiness of God, not on results or personality.",
+      "authorIntent": "Paul wants the Cretan churches to know that the instructions to follow come with an authority and a purpose that cannot be separated. He is writing to a young colleague who will have to work against opposition, and he knows that what Titus says will be tested by the question, \"Who sent you?\" The opening gives the answer in full. Paul is sent by God, with a message that God promised and revealed, and with a goal that is godliness.\n\nThe greeting says that truth is not an end in itself. The knowledge of the truth is described as truth \"that leads to godliness,\" and that single phrase sets the direction of the whole letter, which will insist that sound doctrine be seen in lives. Paul does not want a church that argues well and lives badly, which was the very problem of the Cretans he describes later in the chapter. He wants a church whose doctrine shows in behavior, so that the opening is already an argument against any split between belief and conduct.\n\nThe repeated claim that this is God's own plan has a pastoral aim as well. Titus is facing a hard assignment on a difficult island. By recalling that the salvation he proclaims was promised before time and is guaranteed by a God who cannot lie, Paul gives him something to stand on. The work is not his invention and it will not fail because the people are difficult. The one who promised is faithful, and He has put His word into the apostle's hands.",
+      "descriptionVsPrescription": "The greeting is description, not command. Paul identifies himself, states what his apostleship is for, and gives a blessing. Nothing in these verses tells Titus or the reader to do anything. The imperatives begin in verse 5.\n\nIt follows that care is needed in drawing application. The description of Paul as an apostle \"for the faith of God's elect\" is not a prescription that every believer must claim apostolic authority, and the statement that God \"promised before time began\" is not a command to speculate about eternity. The statements are given as the ground on which the later commands rest. They tell the reader why the instructions of the letter should be believed and followed.\n\nThe application that does flow from these verses is of a different kind. Believers are meant to see their own faith and godliness as part of God's plan, and to take comfort in the God who cannot lie. They are meant to see that the proclamation of the gospel is entrusted to people by God's command, and that the church's teaching has a source outside itself. And they are meant to receive grace and peace as the standing gifts of the Father and the Son, not as a reward earned. None of these needs a rule. They are the truths that give the rules their meaning.",
       "debates": [
         {
-          "question": "What does Paul mean by knowledge of the truth that leads to godliness?",
+          "question": "What does Paul mean by 'the faith of God's elect' in verse 1?",
           "views": [
-            { "label": "Knowledge produces holy living", "case": "True knowledge of the gospel necessarily bears fruit in godliness; doctrine and life cannot be split, which is the whole burden of Titus." },
-            { "label": "Godliness is the aim, not a mere byproduct", "case": "Paul frames the truth as being for the sake of godliness, so that right belief is never an end in itself but is ordered toward a transformed life." }
+            {
+              "label": "Apostleship serves the faith of those whom God has chosen",
+              "case": "The preposition kata can mean 'for the sake of' or 'in the interest of.' Paul's apostleship exists to bring the elect to faith and knowledge. This is how Paul speaks in 2 Timothy 2:10, where he endures everything for the sake of the elect so that they may obtain salvation. Election in this reading is God's sovereign choice of a people, which the preaching of the gospel brings to faith."
+            },
+            {
+              "label": "Apostleship is in line with the faith that marks God's people",
+              "case": "Kata can also mean 'according to,' so that Paul is an apostle in a manner consistent with the faith of God's people. On this reading 'elect' is a title for the whole company of believers, as in Romans 8:33 and Colossians 3:12, and the phrase does not by itself tell us how election works."
+            }
           ],
-          "bearing": "Either way, Titus refuses to separate creed from conduct: sound doctrine that leaves life unchanged is not the knowledge Paul means."
+          "bearing": "Both readings affirm that the church belongs to God by His own choice and not by its own merit. Where Christians differ is on how that choice relates to human response, a question the verse does not settle. What the verse does settle is that those who believe are God's, and that Paul's work serves them."
+        },
+        {
+          "question": "When and to whom was eternal life promised 'before time began'?",
+          "views": [
+            {
+              "label": "Promised in the eternal counsel of God, to Christ on behalf of His people",
+              "case": "Because no human being existed before the ages, a promise made then must have been made within God Himself. Many in the Reformed tradition read it as a pledge between the Father and the Son, and appeal to 2 Timothy 1:9, where grace was given to us in Christ Jesus before time began."
+            },
+            {
+              "label": "Promised long ago in the Old Testament, to Abraham and the fathers",
+              "case": "The phrase 'before time began' can be read as 'long ages ago,' since the Greek speaks of 'eternal times.' The promise then refers to the hope of life that runs through the patriarchs and prophets and now has been made evident, as Romans 16:25-26 puts it."
+            },
+            {
+              "label": "Promised in God's purpose from eternity, announced in time",
+              "case": "Others combine the two: God purposed eternal life before the ages, and made that purpose known in promise as history unfolded. The verse itself puts the promise before the ages and the revelation 'in His own time,' which fits a plan that was fixed in eternity and unfolded over time."
+            }
+          ],
+          "bearing": "Whatever the precise sense, Paul's purpose is to show that the hope of eternal life is old, deliberate and secure. It rests on the character of the God who made it, and not on the strength of the people who receive it."
         }
       ]
     },
-    "originalLanguages": "Paul introduces himself as a doulos, a slave owned by God, before naming himself an apostle, so belonging comes before office. His ministry serves the faith and the epignosis, the full knowledge, of the truth, and that truth is ordered toward eusebeia, godliness, a favourite Pastorals word for reverence that shows in life. The hope of eternal life rests on the God who is apseudes, incapable of lying, a pointed word on an island proverbial for deceit. Twice Paul names our soter, our Saviour: first God the Father, then Christ Jesus, binding the two together as the single fountain of salvation.",
+    "originalLanguages": "The opening title is doulos theou. In his other letters Paul normally calls himself a servant of Christ Jesus, as in Romans 1:1 and Philippians 1:1, and the form \"servant of God\" is rare in his openings. The word doulos means a bondservant, one who belongs to a master with no claim of his own, and in the Greek Old Testament it translates the Hebrew ebed, the term for Moses and the prophets. Here it joins with \"apostle,\" a person sent with authority, so that the two titles give both sides of his role: owned and sent.\n\nThe phrase \"for the faith of God's elect\" uses the preposition kata, which has a wide range: according to, for, in line with. The translators of the BSB take it as \"for,\" meaning that the apostleship aims at the faith of the elect. The word eklektos, elect or chosen, is used of Israel in the Old Testament and now of the church, and it carries the idea of choice that begins with God.\n\nThe expression \"knowledge of the truth\" renders epignosis aletheias. Epignosis is a compound of gnosis, knowledge, with a prefix that intensifies it, and is often taken to mean full or exact knowledge. The expression is a favorite in the pastoral letters, appearing in 1 Timothy 2:4, 2 Timothy 2:25 and 3:7, and it describes the knowledge that comes with coming to the gospel, not mere information. The truth that this knowledge grasps is said to be kat' eusebeian, in accord with godliness. The word eusebeia, godliness or reverent piety, is a distinctive word of these letters, occurring in 1 Timothy 3:16 where the \"mystery of godliness\" is summed up in the story of Christ. Godliness here is not a separate topic from truth; it is the shape of truth lived.\n\nThe description of God as apseudes, one who cannot lie, is a compound of the negative a with the root for falsehood. It occurs only here in the New Testament, and it is a strong statement that falsehood is foreign to God's nature. The Old Testament says the same in Numbers 23:19, and Hebrews 6:18 uses a related phrase in its argument about the oath.\n\nThe expression pro chronon aionion, \"before time began,\" literally means before eternal times or ages. The same idea appears in 2 Timothy 1:9, where the grace given to us in Christ Jesus is placed before time began. The Greek uses the word for age, aion, in a plural phrase, so that the thought is of the long sweep of ages that all lie after the promise.\n\nIn verse 3 God \"made evident,\" ephanerosen, from the verb phaneroo, to bring into the open. It is the verb used of Christ's appearing in 1 Timothy 3:16, \"He appeared in the flesh.\" The words \"in His own time\" are kairois idiois, literally \"in His own seasons,\" which stresses that the timing belongs to God. The proclamation that Paul is entrusted with is the kerygma, the heralded message, and the verb \"entrusted,\" episteuthen, is the passive form of the verb for faith, so that Paul is the one who has been trusted.\n\nIn verse 4 Titus is called gnesion teknon, a true or legitimate child, the same expression used for Timothy in 1 Timothy 1:2. The word gnesios marks genuineness. Titus is Paul's real child \"in our common faith,\" koine pistis. The word koine means shared, and it carries weight in the case of Titus, a Greek who shared the same faith as the Jewish apostle, Galatians 2:3.\n\nThe word soter, Savior, occurs six times in this short letter, in Titus 1:3, 1:4, 2:10, 2:13, 3:4 and 3:6, and it is applied alternately to God the Father and to Christ Jesus. The greeting, in Greek, differs from those to Timothy in leaving out mercy, offering simply grace and peace.",
     "typology": [
-      { "type": "Paul as servant of God entrusted with His word", "fulfillment": "He stands in the line of Moses and the prophets, servants of the LORD, now carrying the gospel of the risen Christ to the nations." },
-      { "type": "Eternal life promised before time began", "fulfillment": "The ancient promise, hidden in God's purpose, is now revealed and proclaimed in Jesus at the proper time." }
+      {
+        "type": "The servant of God, Titus 1:1",
+        "fulfillment": "Moses is called the servant of the LORD at his death, Deuteronomy 34:5, and Joshua after him, Joshua 1:1. Paul's use of the title places him in the line of those who were given God's word to carry to His people. The correspondence is clear: a man set apart to speak for God. The escalation is that Paul serves in the age when the word has been fully made known in Christ, Hebrews 1:1-2, and that he is a servant of the one who Himself took the form of a servant, Philippians 2:7. The type falls short in that Moses mediated a covenant of law, whereas Paul announces a Savior who has already come."
+      },
+      {
+        "type": "A promise before time, revealed in its season",
+        "fulfillment": "The pattern of a hidden purpose that is made known at the appointed time runs through the Old Testament, in the promise to Abraham, Genesis 12:3, and in the prophets' hope of a coming salvation. Paul says it has now come to light, as in Romans 16:25-26 and 2 Timothy 1:10. The correspondence is that God's plan unfolds on His timetable, and the escalation is that what the earlier ages saw in shadow is now visible in Christ, Galatians 4:4. The pattern has no real limit, but a limit in our understanding: the full revelation of the promise still awaits the appearing of Christ in glory, Titus 2:13."
+      },
+      {
+        "type": "The true child in a common faith",
+        "fulfillment": "The relationship of a father in the faith to a child in the faith echoes the line of spiritual parents and children in Israel, as Elijah and Elisha, 2 Kings 2:12. Paul's care for Titus is more than a teacher's: it is a bond of family created by a shared gospel. The escalation is that the family is made not by blood but by the new birth, John 1:12-13, and it includes Jew and Gentile alike, Galatians 3:28. Titus, an uncircumcised Greek counted a true son, shows the point in a living person. The limit of the type is that human fathers in the faith pass away, while the one Father remains."
+      }
     ],
-    "christ": "The greeting holds Father and Son together as our Saviour, verse 3 naming God our Saviour and verse 4 naming Christ Jesus our Saviour. The eternal life God promised before time began is grounded in Christ and made known through the gospel Paul preaches. Jesus is the one in whom God's timeless plan of salvation steps into history, so that the truth Titus teaches is not a new idea but the appearing of what God intended from the beginning.",
-    "god": "God is sovereign, choosing a people, His elect, before the world began. He is utterly truthful, one who cannot lie, so His promises are unshakable. He is purposeful, revealing His word at the proper time, and He is a Saviour by nature, a title Paul gives Him again and again in this letter. This is the God whose character makes Christian hope secure.",
+    "christ": "The greeting does not mention the cross or the resurrection, but Christ stands at its center, and the whole sentence can be read as a statement of who He is. Paul is \"an apostle of Jesus Christ,\" sent by Him as the one who has authority to send. The blessing at the end comes \"from God the Father and Christ Jesus our Savior,\" placing Christ alongside the Father as the source of grace and peace. A person who was only a prophet or a teacher could not be named as the giver of grace beside God.\n\nThe repeated title \"Savior\" is where the claim is clearest. In verse 3 it is God the Father who is called our Savior, in the sense that He planned and commanded the proclamation of salvation. In verse 4 it is Christ Jesus. The letter will keep the two titles together, and later in chapter 2 it will speak of \"our great God and Savior Jesus Christ,\" Titus 2:13, a verse that many take as a direct statement of Christ's deity. The opening sets that high claim in motion: the Father and the Son together are the one source of rescue.\n\nChrist is also the content of the promise made before the ages. The eternal life promised there is, as 2 Timothy 1:9-10 says, given to us in Christ Jesus before time began and now revealed through His appearing, since He has abolished death and brought life and immortality to light through the gospel. The proclamation Paul is entrusted with is the announcement of what the Son has done. John's Gospel says that eternal life is to know the only true God and Jesus Christ whom He sent, John 17:3, and 1 John 5:11 says that this life is in the Son.\n\nThe movement from eternity to history in the sentence is the movement of the incarnation. God made His word evident \"in His own time,\" and the fullness of that time is the sending of the Son, Galatians 4:4. The word that was promised became flesh. What was hidden in the ages was seen in a Man who walked in Galilee.\n\nA guard against forcing the text: Paul does not describe the cross here, and we should not read atonement into words that speak of promise and proclamation. What the verses give is the setting of the cross, the plan, the promise and the purpose. Chapter 2 and chapter 3 will supply what is here only implied, that He gave Himself for us to redeem us from all lawlessness, Titus 2:14, and that He saved us through the washing of new birth, Titus 3:5. The greeting prepares the way for those great passages by naming the Savior first.",
+    "god": "The God of the greeting is a God who plans. Eternal life was promised before time began, which means that salvation did not arise as an emergency measure when sin entered the world. The Father had it in mind from eternity. That shows a God of foresight and purpose, who is neither surprised by human failure nor forced to change course.\n\nHe is a God of truth. The statement that He cannot lie is the foundation of the hope Paul offers. A promise is only as good as the one who makes it, and Paul rests the whole structure of hope on the character of God. For anyone who has been let down by human promises, this is a deep comfort. The God who spoke before the ages has not gone back on His word, and He will not. The same truth is the reason Scripture can be trusted, as the Old Testament says in Numbers 23:19.\n\nHe is a God who reveals. He \"made His word evident\" in His own time. The knowledge of God is not a human achievement but a gift; God brings His purposes into the open. And He does so by entrusting the message to people, to an apostle, and through him to Titus and the churches. The God of this letter works by the proclamation of a word, not by hidden mysteries available only to a few.\n\nHe is a God who chooses. The phrase \"God's elect\" says that His people belong to Him by His own initiative, and Paul speaks of it as a ground of comfort and responsibility. The elect are called to knowledge and godliness, and the letter will go on to say that the grace which brings salvation also teaches us to live well, Titus 2:11-12. Election in Paul's hands is never a license for ease but a basis for confidence and holiness.\n\nHe is a God who saves, and the repeated title \"Savior\" shows that rescue is His very character. He is not reluctantly merciful. In the Greek world the title was given to rulers and benefactors, but Paul gives it to the one who really saves. And He shares that title with the Son, which is a pointer to the Trinity that the letter will later make explicit in Titus 3:4-6, where the Father, the Son and the Holy Spirit are all at work in one act of salvation.\n\nFor worship, the passage invites us to stand in awe of a plan older than the world and to rest on the word of a God who cannot lie. It teaches us to pray with confidence, knowing that the grace and peace we ask for come from the one who has already settled the matter in His own purpose.",
     "crossReferences": [
-      { "ref": "2 Timothy 1:9-10", "note": "Grace given in Christ before time began, now revealed through the appearing of our Saviour, closely parallels Titus 1:2-3." },
-      { "ref": "Ephesians 1:4", "note": "God chose His people in Christ before the foundation of the world, the election Paul assumes here." },
-      { "ref": "Numbers 23:19", "note": "God is not a man, that He should lie, the Old Testament root of Paul's God who cannot lie." },
-      { "ref": "Romans 1:1-5", "note": "Paul's parallel greeting, servant and apostle set apart for the gospel that calls the nations to the obedience of faith." }
+      {
+        "ref": "2 Timothy 1:9-10",
+        "note": "Paul says that God saved us and called us 'not because of our works, but by His own purpose and by the grace He granted us in Christ Jesus before time began,' and that this grace has now been revealed through the appearing of our Savior. It is the nearest parallel to Titus 1:2-3 and shows the same thought in the same words."
+      },
+      {
+        "ref": "Romans 16:25-26",
+        "note": "The mystery concealed for ages past but now revealed and made known through the writings of the prophets by the command of the eternal God. It parallels the movement of Titus 1:2-3 from hidden to revealed, and it adds that the prophets' writings were part of the making known."
+      },
+      {
+        "ref": "Numbers 23:19",
+        "note": "Balaam says that God is not a man that He should lie, and asks whether He will speak and not act, promise and not fulfill. It is the Old Testament foundation for the confession that God cannot lie, and it shows that Paul's affirmation is rooted in Israel's own understanding of God."
+      },
+      {
+        "ref": "Hebrews 6:17-18",
+        "note": "God guaranteed His purpose with an oath, so that by two unchangeable things in which it is impossible for God to lie, the heirs of the promise might be encouraged. It develops the idea behind the phrase 'cannot lie' and ties it directly to the hope that believers grasp."
+      },
+      {
+        "ref": "Ephesians 1:4-5",
+        "note": "God chose us in Him before the foundation of the world to be holy and blameless, and predestined us for adoption. It unfolds the 'elect' of Titus 1:1 and the 'before time began' of verse 2, and it shows that the choice aims at holiness, as the 'godliness' of verse 1 does."
+      },
+      {
+        "ref": "Galatians 2:1-3",
+        "note": "Paul took Titus along to Jerusalem, and not even Titus, a Greek, was compelled to be circumcised. It gives the background to 'my true child in our common faith,' showing that Titus's membership in the family of faith was never a matter of ethnic identity but of the gospel."
+      },
+      {
+        "ref": "2 Corinthians 8:16-17",
+        "note": "Paul thanks God who put into the heart of Titus the same devotion he had himself, and says that Titus was eagerly coming of his own volition. It is a window into Titus's character as a willing and reliable coworker, which explains why Paul trusted him with the hard work in Crete."
+      },
+      {
+        "ref": "Titus 3:4-7",
+        "note": "The later passage in the same letter that tells again of God our Savior and Jesus Christ our Savior, with the Holy Spirit poured out. It is the great expansion of the title in the greeting and shows how the letter's opening is answered by its closing statement of the gospel."
+      },
+      {
+        "ref": "1 Timothy 2:3-4",
+        "note": "God our Savior wants everyone to be saved and to come to the knowledge of the truth. It uses the same phrase, knowledge of the truth, and the same title for God, and so shows what Paul means by the knowledge that his apostleship serves."
+      },
+      {
+        "ref": "Romans 1:1-5",
+        "note": "Paul's fullest opening, in which he too calls himself a servant and an apostle, and tells of a gospel promised beforehand through the prophets in the Holy Scriptures. It is the closest in form to the opening of Titus and shows that the compressed doctrinal greeting is typical of Paul when he wants to establish authority and message together."
+      }
     ],
-    "oneStory": "Titus opens on the same note as the whole Bible: a God who purposed salvation before time, who cannot lie, and who reveals His word in Christ at the right moment. Paul, a servant carrying that word, is a link in the long chain of God's saving work, and Titus is sent to root the gospel in the everyday life of a struggling church. The letter's first breath is the promise that runs from eternity to the cross and out to the nations.",
-    "sermon": { "status": "verified", "preacher": "Alistair Begg", "title": "Titus: An Introduction", "url": "https://www.truthforlife.org/resources/sermon/titus-introduction/", "why": "Begg opens his expository series A Study in Titus with these first four verses, setting the letter in its Cretan context and drawing out Paul's gospel-saturated greeting: the truth that leads to godliness, the God who cannot lie, and grace from God our Saviour. A clear, orthodox handling of this movement." }
+    "oneStory": "The Bible begins with a God who speaks and a people who doubt His word. In Eden the serpent's lie was that God could not be trusted, and the whole fall rests on believing it. The greeting of Titus answers it at the root. God \"cannot lie.\" The promise He made is as sure as His own nature. A human race that began by doubting His word is brought back by hearing a promise that cannot fail.\n\nThe passage also shows that the rescue had been planned before the creation of the world. The story of salvation in the Bible is not a patch applied after the damage. It unfolds from a purpose that the Father held in eternity, and each step of the story, the call of Abraham, the exodus, the covenant with David, the exile and return, is a stage in the carrying out of what was promised. The long wait of the Old Testament was not a delay but the timing of a God who works in His own seasons.\n\nThen comes the moment of revelation. \"In His own time\" He made His word evident, and the story's center is the coming of the Savior. Paul stands in the period that follows, the period of proclamation, when the message is entrusted to messengers and carried to the nations. Titus on the island of Crete is a small instance of this large movement: a young man sent to a rough place, with a message older than the world, to gather a people for God.\n\nThe passage looks forward as well, to the hope of eternal life. The promise points past the present age to a day when the life that was promised is given in full. The same letter will speak of waiting for the blessed hope and the appearing of the glory of our great God and Savior Jesus Christ, Titus 2:13, and of becoming heirs with the hope of eternal life, Titus 3:7.\n\nThe story ends where the greeting hints it will. In the new creation the promise made before time is seen in full: God's people see His face, death is no more, and the life He pledged before the ages is theirs. The God who cannot lie is shown to have kept every word, and the people who were chosen, called and taught to live godly lives find themselves at home in the place He prepared, Revelation 21:3-4.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "Alistair Begg",
+      "title": "Titus: An Introduction",
+      "url": "https://www.truthforlife.org/resources/sermon/titus-introduction/",
+      "why": "Begg opens his expository series A Study in Titus with these first four verses, setting the letter in its Cretan context and drawing out Paul's gospel-saturated greeting: the truth that leads to godliness, the God who cannot lie, and grace from God our Saviour. A clear, orthodox handling of this movement."
+    }
   },
   "quiz": [
     {
       "q": "How does Paul describe himself at the very start of the letter?",
       "options": [
-        { "text": "As a servant, or slave, of God and an apostle of Jesus Christ.", "weight": 100, "note": "Paul names his belonging to God before his office, verse 1." },
-        { "text": "As the founder and head of the church in Crete.", "weight": 75, "note": "Paul planted churches, but he introduces himself as God's servant and apostle, not their head." },
-        { "text": "As a free citizen writing on his own authority.", "weight": 25, "note": "His authority is derived, by the command of God, not his own." },
-        { "text": "As a stranger unknown to Titus.", "weight": 0, "note": "He calls Titus his true child in a common faith; they are close coworkers." }
+        {
+          "text": "As a servant, or slave, of God and an apostle of Jesus Christ.",
+          "weight": 100,
+          "note": "Paul names his belonging to God before his office, verse 1."
+        },
+        {
+          "text": "As the founder and head of the church in Crete.",
+          "weight": 75,
+          "note": "Paul planted churches, but he introduces himself as God's servant and apostle, not their head."
+        },
+        {
+          "text": "As a free citizen writing on his own authority.",
+          "weight": 25,
+          "note": "His authority is derived, by the command of God, not his own."
+        },
+        {
+          "text": "As a stranger unknown to Titus.",
+          "weight": 0,
+          "note": "He calls Titus his true child in a common faith; they are close coworkers."
+        }
       ]
     },
     {
       "q": "What is the goal of the knowledge of the truth that Paul serves?",
       "options": [
-        { "text": "Godliness, a life of reverence that flows from knowing the truth.", "weight": 100, "note": "The truth leads to godliness, binding doctrine and life together, verse 1." },
-        { "text": "Winning arguments against false teachers.", "weight": 75, "note": "Sound doctrine does refute error later, but its aim here is godly living." },
-        { "text": "Gaining secret or advanced spiritual information.", "weight": 25, "note": "Paul means truth that transforms life, not hidden knowledge." },
-        { "text": "Personal comfort with no change in behaviour.", "weight": 0, "note": "The whole point is a changed, godly life." }
+        {
+          "text": "Godliness, a life of reverence that flows from knowing the truth.",
+          "weight": 100,
+          "note": "The truth leads to godliness, binding doctrine and life together, verse 1."
+        },
+        {
+          "text": "Winning arguments against false teachers.",
+          "weight": 75,
+          "note": "Sound doctrine does refute error later, but its aim here is godly living."
+        },
+        {
+          "text": "Gaining secret or advanced spiritual information.",
+          "weight": 25,
+          "note": "Paul means truth that transforms life, not hidden knowledge."
+        },
+        {
+          "text": "Personal comfort with no change in behaviour.",
+          "weight": 0,
+          "note": "The whole point is a changed, godly life."
+        }
       ]
     },
     {
       "q": "On what does Paul ground the hope of eternal life?",
       "options": [
-        { "text": "On God, who cannot lie, and who promised it before time began.", "weight": 100, "note": "Hope rests on God's truthful character and ancient promise, verse 2." },
-        { "text": "On the sincerity of the believer's feelings.", "weight": 75, "note": "Assurance is real, but its foundation is God's promise, not our feelings." },
-        { "text": "On the good reputation of the Cretan churches.", "weight": 25, "note": "Crete was famed for the opposite; hope rests on God, not on them." },
-        { "text": "On keeping the law perfectly.", "weight": 0, "note": "The hope is promised by grace, grounded in God who cannot lie." }
+        {
+          "text": "On God, who cannot lie, and who promised it before time began.",
+          "weight": 100,
+          "note": "Hope rests on God's truthful character and ancient promise, verse 2."
+        },
+        {
+          "text": "On the sincerity of the believer's feelings.",
+          "weight": 75,
+          "note": "Assurance is real, but its foundation is God's promise, not our feelings."
+        },
+        {
+          "text": "On the good reputation of the Cretan churches.",
+          "weight": 25,
+          "note": "Crete was famed for the opposite; hope rests on God, not on them."
+        },
+        {
+          "text": "On keeping the law perfectly.",
+          "weight": 0,
+          "note": "The hope is promised by grace, grounded in God who cannot lie."
+        }
       ]
     },
     {
       "q": "Who is called Saviour in this greeting?",
       "options": [
-        { "text": "Both God the Father and Christ Jesus, held together as our Saviour.", "weight": 100, "note": "Verse 3 names God our Saviour and verse 4 Christ Jesus our Saviour." },
-        { "text": "Only Christ Jesus.", "weight": 75, "note": "Christ is our Saviour, but Paul also calls the Father our Saviour here." },
-        { "text": "Only God the Father.", "weight": 25, "note": "The Father is called Saviour, but so is Christ Jesus in the next verse." },
-        { "text": "Titus, who saves the church by his leadership.", "weight": 0, "note": "Salvation belongs to God and Christ, not to Titus." }
+        {
+          "text": "Both God the Father and Christ Jesus, held together as our Saviour.",
+          "weight": 100,
+          "note": "Verse 3 names God our Saviour and verse 4 Christ Jesus our Saviour."
+        },
+        {
+          "text": "Only Christ Jesus.",
+          "weight": 75,
+          "note": "Christ is our Saviour, but Paul also calls the Father our Saviour here."
+        },
+        {
+          "text": "Only God the Father.",
+          "weight": 25,
+          "note": "The Father is called Saviour, but so is Christ Jesus in the next verse."
+        },
+        {
+          "text": "Titus, who saves the church by his leadership.",
+          "weight": 0,
+          "note": "Salvation belongs to God and Christ, not to Titus."
+        }
       ]
     },
     {
       "q": "Why does Paul pack so much gospel into a simple greeting?",
       "options": [
-        { "text": "To lay the foundation of truth on which the whole letter's instructions will rest.", "weight": 100, "note": "The opening frames everything that follows in God's saving plan." },
-        { "text": "Simply to fill space before the real content.", "weight": 75, "note": "It is far from filler; it is the theological foundation of the letter." },
-        { "text": "To show off his learning to Titus.", "weight": 25, "note": "Paul aims to establish gospel truth, not to impress." },
-        { "text": "Because he had nothing practical to say.", "weight": 0, "note": "The letter is intensely practical; the greeting grounds that practice in the gospel." }
+        {
+          "text": "To lay the foundation of truth on which the whole letter's instructions will rest.",
+          "weight": 100,
+          "note": "The opening frames everything that follows in God's saving plan."
+        },
+        {
+          "text": "Simply to fill space before the real content.",
+          "weight": 75,
+          "note": "It is far from filler; it is the theological foundation of the letter."
+        },
+        {
+          "text": "To show off his learning to Titus.",
+          "weight": 25,
+          "note": "Paul aims to establish gospel truth, not to impress."
+        },
+        {
+          "text": "Because he had nothing practical to say.",
+          "weight": 0,
+          "note": "The letter is intensely practical; the greeting grounds that practice in the gospel."
+        }
       ]
     }
   ],
@@ -141,9 +338,21 @@
     "Twice God is called our Saviour. What are you tempted to look to as a saviour instead, and what would it mean to rest in the one true Saviour this week?"
   ],
   "translationNotes": [
-    { "ref": "Titus 1:1", "note": "The phrase can be read as the faith of God's elect and their knowledge of the truth, or as Paul's apostleship being for the sake of that faith and knowledge; the sense is that his ministry serves God's chosen people toward saving truth." },
-    { "ref": "Titus 1:2", "note": "Before time began renders a Greek phrase literally meaning before times eternal, as the BSB footnote notes, pointing to God's plan in eternity past." },
-    { "ref": "Titus 1:3", "note": "God our Savior in verse 3 refers to the Father, while verse 4 gives the same title to Christ Jesus, a deliberate pairing that runs through the letter." }
+    {
+      "ref": "Titus 1:1",
+      "note": "The phrase can be read as the faith of God's elect and their knowledge of the truth, or as Paul's apostleship being for the sake of that faith and knowledge; the sense is that his ministry serves God's chosen people toward saving truth."
+    },
+    {
+      "ref": "Titus 1:2",
+      "note": "Before time began renders a Greek phrase literally meaning before times eternal, as the BSB footnote notes, pointing to God's plan in eternity past."
+    },
+    {
+      "ref": "Titus 1:3",
+      "note": "God our Savior in verse 3 refers to the Father, while verse 4 gives the same title to Christ Jesus, a deliberate pairing that runs through the letter."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Titus 1:1-4." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Titus 1:1-4."
+  }
 }
