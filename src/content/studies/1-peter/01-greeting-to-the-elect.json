@@ -18,7 +18,11 @@
         "note": "chosen sojourners in a hostile world",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 1, "text": "Peter, an apostle of Jesus Christ, To the {{eklektois|elect}} who are {{parepidemois|exiles}} of the {{diaspora|Dispersion}} throughout Pontus, Galatia, Cappadocia, Asia, and Bithynia, chosen" }
+          {
+            "chapter": 1,
+            "n": 1,
+            "text": "Peter, an apostle of Jesus Christ, To the {{eklektois|elect}} who are {{parepidemois|exiles}} of the {{diaspora|Dispersion}} throughout Pontus, Galatia, Cappadocia, Asia, and Bithynia, chosen"
+          }
         ]
       },
       {
@@ -26,18 +30,52 @@
         "note": "the triune ground of election",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 2, "text": "according to the {{prognosis|foreknowledge}} of God the Father and {{hagiasmos|sanctified by the Spirit}} for obedience to Jesus Christ and {{rhantismos|sprinkling by His blood}}: Grace and peace be yours in abundance." }
+          {
+            "chapter": 1,
+            "n": 2,
+            "text": "according to the {{prognosis|foreknowledge}} of God the Father and {{hagiasmos|sanctified by the Spirit}} for obedience to Jesus Christ and {{rhantismos|sprinkling by His blood}}: Grace and peace be yours in abundance."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "eklektois": { "language": "Greek", "lemma": "eklektos", "original": "ἐκλεκτός", "gloss": "Chosen, elect, selected by God. Peter's first word for his readers is not their weakness or their scattering but their election. The very people the world treats as outsiders are the ones God has personally chosen, and this dignity anchors the whole letter." },
-    "parepidemois": { "language": "Greek", "lemma": "parepidemos", "original": "παρεπίδημος", "gloss": "A resident alien, a temporary sojourner, one living away from home. It pictures believers as strangers passing through a land not their own. Their citizenship is elsewhere, so the hostility they meet in this world fits their status as pilgrims, not a sign that God has forgotten them." },
-    "diaspora": { "language": "Greek", "lemma": "diaspora", "original": "διασπορά", "gloss": "The Dispersion, the scattering of a people away from their homeland. Once used of Jews scattered among the nations, Peter applies it to Christians spread across the provinces. God's chosen people are sown throughout the world, exiles by circumstance yet gathered as one by grace." },
-    "prognosis": { "language": "Greek", "lemma": "prognosis", "original": "πρόγνωσις", "gloss": "Foreknowledge, God's knowing beforehand that carries the sense of choosing and setting His love upon. Election rests on the Father's prior, loving purpose, not on anything the believer first did. It means God's choice of His people reaches back before they were ever aware of Him." },
-    "hagiasmos": { "language": "Greek", "lemma": "hagiasmos", "original": "ἁγιασμός", "gloss": "Sanctification, being set apart and made holy. Here it is the Spirit's work of consecrating believers to God. Election becomes real in experience as the Spirit sets a person apart, marking out the chosen as those being made holy for the Lord's service." },
-    "rhantismos": { "language": "Greek", "lemma": "rhantismos", "original": "ῥαντισμός", "gloss": "Sprinkling, the ritual application of sacrificial blood. It recalls Moses sprinkling the covenant blood on Israel, Exodus 24, now fulfilled in Christ. Believers are brought into the new covenant and cleansed by the sprinkled blood of Jesus, sealing them for obedience to Him." }
+    "eklektois": {
+      "language": "Greek",
+      "lemma": "eklektos",
+      "original": "ἐκλεκτός",
+      "gloss": "Chosen, elect, selected by God. Peter's first word for his readers is not their weakness or their scattering but their election. The very people the world treats as outsiders are the ones God has personally chosen, and this dignity anchors the whole letter."
+    },
+    "parepidemois": {
+      "language": "Greek",
+      "lemma": "parepidemos",
+      "original": "παρεπίδημος",
+      "gloss": "A resident alien, a temporary sojourner, one living away from home. It pictures believers as strangers passing through a land not their own. Their citizenship is elsewhere, so the hostility they meet in this world fits their status as pilgrims, not a sign that God has forgotten them."
+    },
+    "diaspora": {
+      "language": "Greek",
+      "lemma": "diaspora",
+      "original": "διασπορά",
+      "gloss": "The Dispersion, the scattering of a people away from their homeland. Once used of Jews scattered among the nations, Peter applies it to Christians spread across the provinces. God's chosen people are sown throughout the world, exiles by circumstance yet gathered as one by grace."
+    },
+    "prognosis": {
+      "language": "Greek",
+      "lemma": "prognosis",
+      "original": "πρόγνωσις",
+      "gloss": "Foreknowledge, God's knowing beforehand that carries the sense of choosing and setting His love upon. Election rests on the Father's prior, loving purpose, not on anything the believer first did. It means God's choice of His people reaches back before they were ever aware of Him."
+    },
+    "hagiasmos": {
+      "language": "Greek",
+      "lemma": "hagiasmos",
+      "original": "ἁγιασμός",
+      "gloss": "Sanctification, being set apart and made holy. Here it is the Spirit's work of consecrating believers to God. Election becomes real in experience as the Spirit sets a person apart, marking out the chosen as those being made holy for the Lord's service."
+    },
+    "rhantismos": {
+      "language": "Greek",
+      "lemma": "rhantismos",
+      "original": "ῥαντισμός",
+      "gloss": "Sprinkling, the ritual application of sacrificial blood. It recalls Moses sprinkling the covenant blood on Israel, Exodus 24, now fulfilled in Christ. Believers are brought into the new covenant and cleansed by the sprinkled blood of Jesus, sealing them for obedience to Him."
+    }
   },
   "study": {
     "basic": {
@@ -51,92 +89,256 @@
       "oneStory": "God has always been gathering a chosen people for Himself, from Israel called out of the nations to the church scattered through the provinces. These exiles are the latest chapter of that one story, chosen by the Father, sanctified by the Spirit, and sealed by the blood of Christ, on their way home."
     },
     "context": {
-      "literary": "This is the letter's salutation, following the ancient form of writer, readers, and greeting, but Peter fills each part with gospel weight. The naming of five Roman provinces traces a rough circuit through Asia Minor, likely the route the letter carrier would travel. The dense description of the readers in verses 1 to 2 sets the themes of election, holiness, obedience, and suffering that the whole letter develops.",
-      "historical": "Peter writes, most take it, from Rome, called Babylon in 5:13, in the early to mid 60s, to mixed congregations of Jewish and Gentile believers in the northern and central provinces of Asia Minor. These Christians were a social minority, viewed with suspicion, facing slander and growing pressure. The exile language names their real experience of not belonging.",
-      "canonical": "The greeting joins the Bible's long story of election and covenant. The language of chosen people, dispersion, and sprinkled blood deliberately draws Old Testament Israel's vocabulary onto the church. It also stands among the New Testament letters as an example of how apostolic greetings compress rich theology into a few opening lines."
+      "literary": "The opening of 1 Peter follows the standard shape of a Greek letter, sender to recipients with a greeting, and then enlarges each part until it carries a theology. The sender is one word, 'apostle.' The recipients are given the longest description, a string of nouns and place names. The greeting is the usual wish of grace, with peace added and a verb that asks that both be multiplied.\n\nThe sentence is built on a pattern of three. Verse 2 hangs three phrases off the word 'elect,' each opening with a different preposition: 'according to' the foreknowledge of the Father, 'in' the sanctification of the Spirit, and 'unto' obedience and sprinkling of Jesus Christ. The Father is the source, the Spirit the sphere in which the work is done, and the Son the goal. Peter sets the persons of the Trinity side by side without comment, as though it were the ordinary way for Christians to speak of their salvation.\n\nThe verse also seeds the letter. Every phrase returns later. Foreknowledge comes back when Christ is called 'known before the foundation of the world,' 1:20. Obedience returns in 1:14 and 1:22. The call to be holy in 1:15 and 16 grows from sanctification. The sprinkling of blood reappears as the 'precious blood of Christ' in 1:19. Even the word exile is picked up in 1:17 and 2:11.\n\nThe letter closes by echoing its opening. In 5:13 the church in 'Babylon' is 'chosen together with you,' and 5:14 ends with a wish of peace, so that the letter is wrapped in election and peace from first line to last.",
+      "historical": "The five regions of verse 1 lie in what is now Turkey and form a large arc across northern and central Asia Minor. They are named in an order that moves roughly from the northeast round to the north west, and many scholars suggest this is the route a messenger would take to carry the letter from church to church. Some of these places already had a Christian presence early on. Acts 2:9 lists Pontus, Cappadocia and Asia among the places represented at Pentecost, and Aquila, who became a friend of Paul, came from Pontus, Acts 18:2. Interestingly, Acts 16:6 and 7 reports that the Holy Spirit and 'the Spirit of Jesus' redirected Paul's missionary band away from Asia and Bithynia, so Peter's letter shows that the gospel reached these provinces by other routes.\n\nThe word 'exiles' had a legal edge. A parepidemos was a resident foreigner, someone living in a city without full citizen rights and always aware of it. In the Greek cities of Asia Minor such people were tolerated and often mistrusted. The letter indicates that many readers were converts from paganism, 1:14 and 18, and 4:3, who had lost the shared life of their families and guilds. They were doubly outsiders, ordinary in the eyes of the law and now odd in the eyes of their neighbours.\n\nPeter writes from 'Babylon,' 5:13, which the early church usually understood as a code word for Rome, the great imperial city that had taken over Babylon's place as the world's oppressor. His description of himself as an apostle, and not as an old fisherman or a friend of Jesus, gives the letter the weight of an official commission to a scattered group who had never met him.",
+      "canonical": "The two verses are crowded with Old Testament allusions, and the New Testament mirrors them. The names 'elect' and 'holy' and the language of a people called out belong to Exodus 19:5 and 6, where God tells Israel that out of all the nations they will be His treasured possession, a kingdom of priests and a holy nation. Peter will say this to the church directly in 2:9. 'Dispersion' belongs to the experience of exile, which Deuteronomy 28:64 warned of, and which James uses for the church's own scattering in James 1:1.\n\nThe pairing of obedience and blood echoes Sinai. In Exodus 24:7 and 8 the people promise to be obedient, and then Moses takes the blood, sprinkles it on them and calls it 'the blood of the covenant.' Hebrews 9:19 and 20 retells the scene and 12:24 speaks of 'the sprinkled blood that speaks a better word than the blood of Abel.' Ezekiel 36:25 to 27 adds a promise of clean water sprinkled and of God's Spirit placed within, which ties the Spirit's work to the cleansing.\n\nElsewhere in the New Testament, the same three-part scheme of election appears. Romans 8:28 to 30 moves from foreknowledge through calling to glory. Ephesians 1:3 to 6 praises the Father who chose in Christ before the foundation of the world. And 2 Thessalonians 2:13 says God chose believers 'to be saved by the sanctification of the Spirit and by faith in the truth.' Peter's wording is among the briefest and fullest of these, and in the same breath he uses the greeting formula of Paul's letters."
     },
     "hermeneutics": {
-      "authorIntent": "To identify Peter as Christ's apostle, to name his scattered readers by their true identity as God's chosen exiles, and to ground that identity in the saving work of Father, Spirit, and Son before asking anything of them.",
-      "descriptionVsPrescription": "These verses are almost entirely description: they tell believers who they are and what God has done. There is no command here, only the pronouncement of grace and peace. The prescriptions of the letter, be holy, submit, endure, all rest on this prior description of identity.",
+      "authorIntent": "Peter's immediate task is to say to a small, scattered and slightly bewildered group that God knows them by name. The word he picks for them is the loaded 'elect,' which Israel had used for itself as the people God had called out. He means his Gentile and Jewish readers to hear that they now carry that title.\n\nHe also means the readers to hear that the title is for them in particular, in their exile and not despite it. The two descriptions sit side by side, chosen and exiled, because the second is the result of the first. They are strangers because they belong to God, and they are loved because He chose them. A believer who feels the loneliness of being out of step with the culture can therefore regard that loneliness as evidence of belonging.\n\nPeter does not intend the reference to election to produce pride or speculation about who is in or out. He puts it as a source of security, and as the root of the obedience he is about to ask for. The Trinitarian structure is meant to show that salvation is not a project that depends on the readers' strength. It begins in the Father's purpose, is carried through the Spirit's work and arrives in obedience to Christ and the cleansing of His blood.",
+      "descriptionVsPrescription": "These verses describe. They make claims about who the readers are, and they contain a wish, but they contain no imperative. That is itself a lesson: Peter does not start with demands. The commands of the letter, to hope, to be holy, to love, to submit, to suffer without retaliation, all come after, and they are grounded on this identity.\n\nThe things described are not an invitation to look inside oneself for evidence of election. The readers are not told to check whether they are chosen. They are told that they are. Applied now, the verses are an assurance for any believer, and the right response is thankfulness, a sense of belonging and a readiness to live out what God has made them.\n\nThe wish of 'grace and peace' is a prayer, not a formula. It is a request that the readers receive more and more of both. Christians pray it for one another, as Paul and Peter do, and it is not a statement that these things are already complete.\n\nThe 'exile' language also needs care. It describes the readers' position in a particular social setting and, by extension, the pilgrim character of all Christians. It does not command believers to withdraw from society. The rest of the letter, especially 2:12 and 3:15, asks them to live among their neighbours with good conduct and gentle answers.",
       "debates": [
         {
-          "question": "In what sense are the readers exiles and of the Dispersion?",
+          "question": "What does 'foreknowledge' mean in verse 2?",
           "views": [
-            { "label": "Primarily spiritual and figurative", "case": "The whole letter treats believers as strangers whose citizenship is in heaven; the exile is their status as pilgrims in a world that is not their home, whatever their ethnic background." },
-            { "label": "Also socially and literally true", "case": "These were real people genuinely displaced and marginalized in their provinces, some perhaps Jewish believers of the actual Dispersion, so the term names both a social reality and a spiritual truth." }
+            {
+              "label": "God foresaw who would believe",
+              "case": "Arminian interpreters read the foreknowledge as God's advance awareness of the faith that people would place in Him, so that election is grounded on foreseen response. They point to the order in the verse and to texts that stress human faith, such as 2 Thessalonians 2:13, 'faith in the truth.'"
+            },
+            {
+              "label": "God set His love on them beforehand",
+              "case": "Reformed interpreters argue that in the Bible to 'know' someone is to enter a relationship, as in Jeremiah 1:5 and Amos 3:2. The noun used in 1 Peter 1:2 appears also in Acts 2:23, where it stands beside 'set plan,' and in 1:20 the verb is used of Christ, whom God 'knew' before the world began. So the knowledge is purposeful, a chosen love and not simply a prediction."
+            },
+            {
+              "label": "Election of the people in Christ",
+              "case": "Others stress that election in the New Testament is mainly corporate. God chose a people, the church, in the Chosen One, Ephesians 1:4, and individuals share in that election by being united to Christ through faith."
+            }
           ],
-          "bearing": "Either way the point holds: God's chosen live as sojourners in this age. The pilgrim identity shapes how they face suffering and hold their possessions loosely, longing for their true home."
+          "bearing": "The bearing on the passage is largely the same on each view: Peter offers election as a comfort to the afflicted, and the verse says nothing that can be used as an excuse for complacency."
         },
         {
-          "question": "What does chosen according to the foreknowledge of God mean?",
+          "question": "Who are the readers: Jews, Gentiles or both?",
           "views": [
-            { "label": "Foreknowledge as God's sovereign, loving choice", "case": "In Scripture God's knowing of His people is covenantal and elective, setting His love on them beforehand. Election rests on the Father's gracious purpose, not on foreseen merit or faith as its cause." },
-            { "label": "Foreknowledge as God foreseeing a response", "case": "Others read it as God knowing in advance who would believe. Even so, Peter's stress falls on God's initiative and the security it gives; the chosen are held by the Father's prior knowledge of them." }
+            {
+              "label": "Jewish believers of the Dispersion",
+              "case": "The words 'exiles' and 'Dispersion' were used of Jews living outside the land, and James 1:1 uses the second for Jewish Christians. Peter was called to the circumcised, Galatians 2:8, so some conclude that his readers were Jewish believers."
+            },
+            {
+              "label": "Mostly Gentile Christians described in Israel's language",
+              "case": "Peter speaks of their 'former ignorance' and the empty way of life they inherited, 1:14 and 18, and tells them that they 'once were not a people,' 2:10, and that they used to join pagan excesses, 4:3. These sound like Gentile converts, and Peter simply applies Israel's titles to the church, as Paul does in Romans 9:25 and 26."
+            },
+            {
+              "label": "A mixed church",
+              "case": "The churches of these provinces had both Jews and Gentiles, so the letter naturally speaks to both and uses language that fits both."
+            }
           ],
-          "bearing": "Both orthodox readings assure suffering believers that their standing rests on God's eternal purpose, not their own strength. Election is meant here as comfort and dignity, not cold speculation."
+          "bearing": "The majority view is the second or third, and in all of them the practical point is the same: the church inherits the identity and calling of Israel, and an exile is no less a part of God's people."
         }
       ]
     },
-    "originalLanguages": "Peter addresses the eklektoi, the chosen, who live as parepidemoi, resident aliens, in the diaspora, the scattering. Their election flows from the prognosis of the Father, His loving foreknowledge that sets His purpose on them before they sought Him. It is worked out by the hagiasmos of the Spirit, the setting apart that makes them holy, and it is sealed by the rhantismos of Christ's blood, the sprinkling that brings them into the covenant and cleanses them for obedience. In one dense sentence the salvation of these exiles is shown to be the work of Father, Spirit, and Son together.",
+    "originalLanguages": "Peter's one-sentence greeting rewards a look at its words. He calls the readers eklektoi, 'elect,' a word that in the Greek Old Testament translates the Hebrew for chosen ones and is used of Israel as God's chosen people. It is placed first in the Greek sentence and everything in verse 2 hangs from it. The BSB's 'chosen' at the end of verse 1 is the translator's way of carrying the idea across the line break.\n\nHe pairs it with parepidemoi, which comes from words meaning 'beside' and 'people,' so a foreigner dwelling alongside the locals. It appears again in 2:11, where it sits next to paroikoi, 'sojourners,' and in Hebrews 11:13 of the patriarchs who confessed that they were 'strangers and exiles on the earth.' The word 'Dispersion,' diaspora, was the ordinary name for Jews scattered outside their land, and the same term is used of the church in James 1:1.\n\nThe word for 'foreknowledge,' prognosis, is a rare noun in the New Testament. Its other occurrence is Acts 2:23, where Jesus was delivered up by 'God's set plan and foreknowledge,' and its verb form appears in Romans 8:29 and 1 Peter 1:20. The grammar of the three phrases in verse 2 is parallel but not identical. 'According to' (kata) gives the standard, 'in' (en) gives the sphere or means, and 'unto' (eis) gives the aim.\n\nThe word for 'sanctified,' hagiasmos, is a noun and means a setting apart, with the sense of being made holy. 2 Thessalonians 2:13 uses it of the Spirit's work at the beginning of salvation, and many commentators read it that way here, as the Spirit's act of setting apart that precedes obedience, and not primarily the long process of growing in holiness.\n\n'Obedience' (hypakoe) in the New Testament often means the obedience that faith gives to the gospel, as in Romans 1:5. 'Sprinkling,' rhantismos, is a ritual word. Hebrews 12:24 calls Christ's blood 'the sprinkled blood,' and Hebrews 9:19 to 21 describes Moses sprinkling the scroll and the people. The order of obedience and then sprinkling in Peter's phrase matches the order at Sinai.\n\nThe greeting asks that 'grace and peace be multiplied.' The verb is in the optative mood, the mood of a wish or prayer, and it is also used in 2 Peter 1:2 and Jude 2. Grace is the Greek greeting turned into a theological word, peace is the Hebrew shalom, and together they are Peter's blessing for a mixed people.",
     "typology": [
-      { "type": "Sprinkling of blood, verse 2", "fulfillment": "The covenant sealed at Sinai by Moses sprinkling blood on the people, Exodus 24:8, fulfilled in the blood of Christ that brings believers into the new covenant and cleanses them." },
-      { "type": "The Dispersion of God's people", "fulfillment": "Israel scattered among the nations, now answered in the church gathered from every province and people as one chosen family in Christ." }
+      {
+        "type": "Blood sprinkled at Sinai",
+        "fulfillment": "At Sinai Moses read the book of the covenant, the people answered that they would be obedient, and he sprinkled them with blood, saying, 'This is the blood of the covenant,' Exodus 24:7 and 8. Peter's phrase, obedience and sprinkling, follows that sequence. Hebrews 9:19 to 22 retells the scene to show that a covenant needs blood, and Hebrews 12:24 sets Jesus as mediator of a new covenant whose sprinkled blood speaks a better word. The escalation is that the animals' blood marked a promise the people soon broke, while Christ's blood establishes a covenant in which God Himself supplies what He asks, Ezekiel 36:27. The type falls short in that bulls' blood could not remove sin, Hebrews 10:4."
+      },
+      {
+        "type": "The Day of Atonement blood on the mercy seat",
+        "fulfillment": "On the Day of Atonement the high priest sprinkled blood seven times before the mercy seat for himself and the people, Leviticus 16:14 and 15. The act of sprinkling is the visible form of cleansing, which makes the word rhantismos readable as more than a covenant seal: it is also the application of cleansing for sin. In Christ the high priest and the offering are one, and He entered the true sanctuary once for all, Hebrews 9:11 to 14. The type falls short because the high priest had to repeat the act each year, and because the people stayed outside while he entered."
+      },
+      {
+        "type": "Israel, the chosen and scattered people",
+        "fulfillment": "Israel was chosen out of all the nations, Exodus 19:5, and scattered among them when the covenant was broken, Deuteronomy 28:64. Peter writes to the church using exactly those two experiences, chosen and scattered, and goes on to give them the titles of Exodus 19:6 in 2:9. In Christ the scattering becomes a mission and the chosen people becomes an international body drawn from every background. The correspondence has limits: Israel's scattering was a judgment, while the church's is simply its condition as a pilgrim people, and the church has no national land to which it expects to be gathered."
+      },
+      {
+        "type": "The patriarchs as strangers and exiles",
+        "fulfillment": "Abraham and the patriarchs lived as foreigners in a land that God had promised and that they did not yet hold. Hebrews 11:13 to 16 says they confessed that they were strangers and exiles, and that they longed for a better country, a heavenly one. Leviticus 25:23 lays down the principle behind this: the land is God's and Israel were 'but foreigners and residents with Me.' Believers in Christ are in the same posture, with citizenship in heaven, Philippians 3:20, and a Saviour awaited from there. The type is fulfilled in that the heavenly country is no longer only a hope, since the city has been prepared, and its King has already come."
+      }
     ],
-    "christ": "Jesus Christ frames the whole greeting. Peter writes as His apostle, sent by His authority. The readers are chosen for obedience to Him, brought under His lordship. And they are sealed by the sprinkling of His blood, the sacrifice that cleanses and covenants them to God. The Father chooses and the Spirit sanctifies, but the movement is all toward belonging to Christ, obeying Him and being made clean by His shed blood.",
-    "god": "God is presented as one and yet as Father, Spirit, and Son together working salvation. The Father chooses His people according to His own foreknowledge, setting His love on them before they ever turned to Him. The Spirit sanctifies, setting them apart as holy. The Son sheds His blood to cleanse and claim them. This is a generous, saving God who lavishes grace and peace in abundance on exiles who might otherwise feel abandoned.",
+    "christ": "The two verses name the Lord Jesus Christ at the start and at the end, and He is the center of what lies between. Peter introduces himself as His apostle, which means that the letter speaks with His authority, and his readers are chosen for obedience to Him. The word 'Lord' will carry its full weight in the letter: believers are told in 3:15 to 'sanctify Christ as Lord' in their hearts.\n\nThe sprinkling of His blood is the way Christ is the means of salvation, and it is a rich phrase. It recalls the sealing of the covenant at Sinai, Exodus 24:8, and the sprinkling of blood in the sanctuary, Leviticus 16:14. It also recalls the Servant of Isaiah 52:15, who 'will sprinkle many nations' after being disfigured beyond that of any man, a passage that sits at the start of the great Servant song that Peter will quote in 2:22 to 25. The blood is applied to those who have already been set apart by the Spirit and who obey.\n\nThere is a paradox here that the letter develops. Christ is both the one to whom obedience is owed and the one whose obedience made the sprinkling possible, since His death was the act of a Son who did what the Father asked, Hebrews 5:8 and 9. So the readers' obedience follows His, and is called out by His blood.\n\nFinally, Christ is the one who was 'known before the foundation of the world,' as 1:20 says, with the same verb as the election of His people. The foreknown Lamb and the foreknown people belong together, and believers can rest in the thought that they were in the Father's purposes in the same way and for the same reason as His Son.\n\nThe cautionary note is that the verse does not teach that obedience earns the sprinkling or that the sprinkling guarantees obedience without a response. It sets them in order and leaves Peter to work out in the rest of the letter how a people cleansed by Christ's blood live as strangers who belong to Him.",
+    "god": "This short greeting is among the clearest places in the Bible where the three persons of the Godhead are named together in the work of salvation, and it does it without defence or explanation. The Father is the planner and the source, the Spirit the one who sets apart, and the Son the one to whom obedience is given and by whose blood the people are cleansed. Peter does not say that these are three gods or three phases of one. He treats each as fully active and as working in harmony, which is the ground on which the church later formulated the doctrine of the Trinity. The same pattern is found in Matthew 28:19, 2 Corinthians 13:14 and Ephesians 1:3 to 14.\n\nThe God of the passage is a God who chooses. He does not wait for a scattered group of nobodies to come to Him. He set His love on them. Their election is old, since it rests on His foreknowledge, and it is personal, since it is the Father's. Yet it does not cancel the human part, because the end of election is 'obedience,' and the sprinkling of blood is for those who respond to the gospel.\n\nHe is a God of holiness. 'Sanctified' means that He has marked His people off for Himself. The letter will soon draw out the implication, quoting Leviticus 19:2, 'Be holy, because I am holy,' in 1:16.\n\nHe is a God who gives and multiplies. The wish for grace and peace to be multiplied is addressed to a God who is generous, whose supply for the afflicted is not exhausted. The readers are in a place of lack, and Peter points them to one who gives abundantly.\n\nFor worship, the passage invites believers to praise the Father for choosing, the Spirit for setting apart, and the Son for His blood. It moves a believer's thought away from self assessment and towards gratitude, because the whole of the work is God's before it is theirs.",
     "crossReferences": [
-      { "ref": "Exodus 24:3-8", "note": "Moses seals the covenant by sprinkling blood on the people, the picture Peter says is fulfilled in the sprinkled blood of Christ." },
-      { "ref": "Ephesians 1:3-5", "note": "God chose us in Christ before the foundation of the world, matching Peter's stress on election by the Father's foreknowledge." },
-      { "ref": "Deuteronomy 7:6-8", "note": "God sets His love on a people and chooses them, not for their strength, the pattern behind calling these exiles the elect." },
-      { "ref": "John 17:6-9", "note": "The Father gives a people to the Son, the triune shape of election that Peter compresses into his greeting." }
+      {
+        "ref": "Exodus 24:6-8",
+        "note": "Moses sprinkles blood on the altar and then on the people after they promise to be obedient, calling it the blood of the covenant. Peter's order, obedience and then sprinkling, follows this scene exactly, and shows that the church has entered a covenant sealed in blood."
+      },
+      {
+        "ref": "Exodus 19:3-6",
+        "note": "God promises Israel that they will be His treasured possession, a kingdom of priests and a holy nation. This is the original of the titles Peter gives the church in 2:9, and it explains why he begins with the word elect."
+      },
+      {
+        "ref": "Leviticus 25:23",
+        "note": "God says that the land is His and that Israel are foreigners and residents with Him. Even in the promised land, God's people were to know they were guests. Peter's exiles share that ancient posture, and it is no loss of dignity."
+      },
+      {
+        "ref": "Ezekiel 36:25-27",
+        "note": "God promises to sprinkle clean water on His people, give them a new heart and put His Spirit within them. Peter's pairing of the Spirit's sanctification with sprinkling suggests that this prophecy of cleansing and inner renewal is being fulfilled in the church."
+      },
+      {
+        "ref": "Isaiah 52:13-15",
+        "note": "The Servant is disfigured beyond that of any man, yet He will sprinkle many nations. The verb of sprinkling is bound to the Servant's suffering, and Peter will use the same Servant song in 2:22 to 25, so that the sprinkling of verse 2 is the Servant's work."
+      },
+      {
+        "ref": "Romans 8:28-30",
+        "note": "Paul lays out a chain from foreknowing to predestining, calling, justifying and glorifying. It parallels Peter's three phrases, shows that the foreknowledge of verse 2 leads on to glory, and says that God's purpose for His people is conformity to His Son."
+      },
+      {
+        "ref": "Ephesians 1:3-6",
+        "note": "Paul praises the Father who chose us in Christ before the foundation of the world. The opening words match 1 Peter 1:3 exactly, and the content, election in Christ with a view to holiness, is the same as Peter's description of the elect in verse 2."
+      },
+      {
+        "ref": "2 Thessalonians 2:13-14",
+        "note": "Paul says that God chose believers from the beginning to be saved by the sanctification of the Spirit and by faith in the truth. Together with Peter it shows that this three-part work was a common way for the apostles to describe how a person is brought to Christ."
+      },
+      {
+        "ref": "Hebrews 12:22-24",
+        "note": "Believers have come to Jesus the mediator of a new covenant and to the sprinkled blood that speaks a better word than the blood of Abel. It names the thing Peter's readers already have, and shows that sprinkling is a present privilege, not a distant hope."
+      },
+      {
+        "ref": "Hebrews 11:13-16",
+        "note": "The patriarchs died in faith, confessing that they were strangers and exiles and longing for a better country. It gives Peter's exiles company, and reminds them that God is not ashamed to be called the God of those who live as pilgrims."
+      },
+      {
+        "ref": "Acts 2:22-23",
+        "note": "Peter preaches that Jesus was delivered up by God's set plan and foreknowledge. The same noun appears in 1 Peter 1:2, so the foreknowledge that the apostle applies to believers is of the same kind as the purpose that stood behind the cross."
+      },
+      {
+        "ref": "John 15:16",
+        "note": "Jesus tells His disciples that they did not choose Him but that He chose them, and appointed them to bear fruit that will remain. It is the Lord's own statement of the truth Peter opens his letter with, and it comes from the one who gave Peter his commission."
+      }
     ],
-    "oneStory": "From the beginning God has been gathering a chosen people for Himself, calling Abraham, redeeming Israel, sealing them in covenant blood. When His people were scattered among the nations, the promise did not fail; it widened. Now the church, spread through the provinces as exiles, is that chosen people, selected by the Father, made holy by the Spirit, and cleansed by the blood of the Son. The greeting sets these strangers within the one great story that runs from election to homecoming.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "The Bible's story begins with a people placed in a garden in the presence of God and ends with a people in a city where God lives among them. In between, the story is one of loss of home and a search for it. Adam and Eve are sent east of Eden, Genesis 3:24. Humanity's attempt to build a name for itself ends in scattering at Babel, Genesis 11. Abraham is called out of his country to a land he does not yet possess, and his descendants are chosen, rescued and then driven out among the nations when they break the covenant. By the first century the people of God are scattered across the Roman world and, for many, are forgotten.\n\nPeter's opening verses place a handful of churches in Asia Minor inside this story. They are the elect of Exodus 19, the pilgrims of Hebrews 11 and the dispersed of Deuteronomy 28, and yet they are not one more chapter of exile. They are in the new covenant promised by Ezekiel, sprinkled with clean water and given a new Spirit, and gathered not by a border but by the blood of Christ. What was true of Israel at Sinai, that God drew a people to Himself on the basis of blood and obedience, is true of them in a greater way.\n\nThe verses look forward as well. Peter's readers are told that they are strangers now because they have a place elsewhere. The letter will go on to describe an inheritance kept in heaven, a living hope, and a day when Christ is revealed. The exile is real, and it is temporary.\n\nThe story ends in the new creation, where there are no more exiles. Revelation 7:9 pictures a great crowd from every nation, tribe and language before the throne, and Revelation 21:3 says that God will dwell with His people. The scattered are gathered, the foreigners are made citizens, and the blood that was sprinkled in a distant province is seen to have reached all the way home.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What is the first thing Peter calls his scattered readers?",
       "options": [
-        { "text": "The elect, God's chosen people.", "weight": 100, "note": "Verse 1: before naming their suffering, Peter names their election." },
-        { "text": "Exiles of the Dispersion.", "weight": 75, "note": "True, and vivid, but their exile is framed by the deeper truth that they are chosen." },
-        { "text": "Weak believers who need correction.", "weight": 25, "note": "Peter opens with dignity and grace, not rebuke." },
-        { "text": "Citizens fully at home in their cities.", "weight": 0, "note": "The opposite: they are sojourners whose true home is with God." }
+        {
+          "text": "The elect, God's chosen people.",
+          "weight": 100,
+          "note": "Verse 1: before naming their suffering, Peter names their election."
+        },
+        {
+          "text": "Exiles of the Dispersion.",
+          "weight": 75,
+          "note": "True, and vivid, but their exile is framed by the deeper truth that they are chosen."
+        },
+        {
+          "text": "Weak believers who need correction.",
+          "weight": 25,
+          "note": "Peter opens with dignity and grace, not rebuke."
+        },
+        {
+          "text": "Citizens fully at home in their cities.",
+          "weight": 0,
+          "note": "The opposite: they are sojourners whose true home is with God."
+        }
       ]
     },
     {
       "q": "How does Peter describe the basis of the readers' election?",
       "options": [
-        { "text": "The foreknowledge of God the Father, His loving choice set on them beforehand.", "weight": 100, "note": "Verse 2: election rests on the Father's prior purpose." },
-        { "text": "God foreseeing that they would one day believe.", "weight": 75, "note": "A held view, though Peter's stress falls on God's own initiative and the security it gives." },
-        { "text": "Their faithful obedience earning God's favor.", "weight": 25, "note": "Obedience is the goal of election here, not its ground." },
-        { "text": "Their membership in a particular nation by birth.", "weight": 0, "note": "The chosen are gathered from many provinces by grace, not by ancestry." }
+        {
+          "text": "The foreknowledge of God the Father, His loving choice set on them beforehand.",
+          "weight": 100,
+          "note": "Verse 2: election rests on the Father's prior purpose."
+        },
+        {
+          "text": "God foreseeing that they would one day believe.",
+          "weight": 75,
+          "note": "A held view, though Peter's stress falls on God's own initiative and the security it gives."
+        },
+        {
+          "text": "Their faithful obedience earning God's favor.",
+          "weight": 25,
+          "note": "Obedience is the goal of election here, not its ground."
+        },
+        {
+          "text": "Their membership in a particular nation by birth.",
+          "weight": 0,
+          "note": "The chosen are gathered from many provinces by grace, not by ancestry."
+        }
       ]
     },
     {
       "q": "Which persons of the Godhead are at work in these two verses?",
       "options": [
-        { "text": "Father, Spirit, and Son all together in the readers' salvation.", "weight": 100, "note": "Verse 2: chosen by the Father, sanctified by the Spirit, sprinkled by the blood of the Son." },
-        { "text": "The Father and the Son, with the Spirit implied.", "weight": 75, "note": "Close, but the Spirit is named explicitly as the one who sanctifies." },
-        { "text": "Only God the Father, acting alone.", "weight": 25, "note": "The Father chooses, but the Spirit and Son are named as well." },
-        { "text": "Only Jesus Christ, without the Father or Spirit.", "weight": 0, "note": "All three persons appear; the work is triune." }
+        {
+          "text": "Father, Spirit, and Son all together in the readers' salvation.",
+          "weight": 100,
+          "note": "Verse 2: chosen by the Father, sanctified by the Spirit, sprinkled by the blood of the Son."
+        },
+        {
+          "text": "The Father and the Son, with the Spirit implied.",
+          "weight": 75,
+          "note": "Close, but the Spirit is named explicitly as the one who sanctifies."
+        },
+        {
+          "text": "Only God the Father, acting alone.",
+          "weight": 25,
+          "note": "The Father chooses, but the Spirit and Son are named as well."
+        },
+        {
+          "text": "Only Jesus Christ, without the Father or Spirit.",
+          "weight": 0,
+          "note": "All three persons appear; the work is triune."
+        }
       ]
     },
     {
       "q": "What does the sprinkling by His blood recall from the Old Testament?",
       "options": [
-        { "text": "Moses sealing the covenant by sprinkling blood on the people at Sinai.", "weight": 100, "note": "Exodus 24:8, fulfilled in the covenant blood of Christ that cleanses believers." },
-        { "text": "The Passover lamb's blood on the doorposts.", "weight": 75, "note": "A related sacrificial picture, though the sprinkling here points chiefly to the covenant at Sinai." },
-        { "text": "The washing rituals of ordinary daily life.", "weight": 25, "note": "This is covenant and sacrificial blood, not ordinary washing." },
-        { "text": "Nothing; it is only a figure of speech.", "weight": 0, "note": "It draws directly on the covenant sacrifices of Israel, now fulfilled in Christ." }
+        {
+          "text": "Moses sealing the covenant by sprinkling blood on the people at Sinai.",
+          "weight": 100,
+          "note": "Exodus 24:8, fulfilled in the covenant blood of Christ that cleanses believers."
+        },
+        {
+          "text": "The Passover lamb's blood on the doorposts.",
+          "weight": 75,
+          "note": "A related sacrificial picture, though the sprinkling here points chiefly to the covenant at Sinai."
+        },
+        {
+          "text": "The washing rituals of ordinary daily life.",
+          "weight": 25,
+          "note": "This is covenant and sacrificial blood, not ordinary washing."
+        },
+        {
+          "text": "Nothing; it is only a figure of speech.",
+          "weight": 0,
+          "note": "It draws directly on the covenant sacrifices of Israel, now fulfilled in Christ."
+        }
       ]
     },
     {
       "q": "Why does Peter begin with the readers' identity before any command?",
       "options": [
-        { "text": "Because gospel identity comes first, and obedience flows out of who God has made us.", "weight": 100, "note": "Grace before demand is the pattern of the whole letter." },
-        { "text": "Because he wants to encourage them before asking hard things of them.", "weight": 75, "note": "True pastorally, though the deeper reason is the gospel order of gift then response." },
-        { "text": "Because their conduct does not really matter to him.", "weight": 25, "note": "Conduct matters greatly; it simply rests on identity, which comes first." },
-        { "text": "Because he had nothing to ask of them.", "weight": 0, "note": "The letter is full of exhortation; it is grounded here in identity." }
+        {
+          "text": "Because gospel identity comes first, and obedience flows out of who God has made us.",
+          "weight": 100,
+          "note": "Grace before demand is the pattern of the whole letter."
+        },
+        {
+          "text": "Because he wants to encourage them before asking hard things of them.",
+          "weight": 75,
+          "note": "True pastorally, though the deeper reason is the gospel order of gift then response."
+        },
+        {
+          "text": "Because their conduct does not really matter to him.",
+          "weight": 25,
+          "note": "Conduct matters greatly; it simply rests on identity, which comes first."
+        },
+        {
+          "text": "Because he had nothing to ask of them.",
+          "weight": 0,
+          "note": "The letter is full of exhortation; it is grounded here in identity."
+        }
       ]
     }
   ],
@@ -148,9 +350,21 @@
     "Peter wishes grace and peace in abundance. Where do you most need God's abundant grace and peace to meet you right now?"
   ],
   "translationNotes": [
-    { "ref": "1 Peter 1:1", "note": "The elect who are exiles of the Dispersion renders a phrase that literally reads the elect sojourners of the Diaspora; the provinces named lie in what is now Turkey." },
-    { "ref": "1 Peter 1:2", "note": "Foreknowledge translates prognosis, which in Scripture carries the sense of God's loving, elective choice beforehand, not merely knowing facts in advance." },
-    { "ref": "1 Peter 1:2", "note": "Sprinkling by His blood echoes the covenant sealing of Exodus 24, applying the sacrificial cleansing of Christ to the believer." }
+    {
+      "ref": "1 Peter 1:1",
+      "note": "The elect who are exiles of the Dispersion renders a phrase that literally reads the elect sojourners of the Diaspora; the provinces named lie in what is now Turkey."
+    },
+    {
+      "ref": "1 Peter 1:2",
+      "note": "Foreknowledge translates prognosis, which in Scripture carries the sense of God's loving, elective choice beforehand, not merely knowing facts in advance."
+    },
+    {
+      "ref": "1 Peter 1:2",
+      "note": "Sprinkling by His blood echoes the covenant sealing of Exodus 24, applying the sacrificial cleansing of Christ to the believer."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for 1 Peter 1:1-2." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for 1 Peter 1:1-2."
+  }
 }

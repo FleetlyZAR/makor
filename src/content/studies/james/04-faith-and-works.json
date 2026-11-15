@@ -18,10 +18,26 @@
         "note": "words without deeds are useless",
         "emphasis": "",
         "verses": [
-          { "chapter": 2, "n": 14, "text": "What good is it, my brothers, if someone claims to have {{pistis|faith}}, but has no {{erga|deeds}}? Can such faith save him?" },
-          { "chapter": 2, "n": 15, "text": "Suppose a brother or sister is without clothes and daily food." },
-          { "chapter": 2, "n": 16, "text": "If one of you tells him, “Go in peace; stay warm and well fed,” but does not provide for his physical needs, what good is that?" },
-          { "chapter": 2, "n": 17, "text": "So too, faith by itself, if it does not result in action, is {{nekra|dead}}." }
+          {
+            "chapter": 2,
+            "n": 14,
+            "text": "What good is it, my brothers, if someone claims to have {{pistis|faith}}, but has no {{erga|deeds}}? Can such faith save him?"
+          },
+          {
+            "chapter": 2,
+            "n": 15,
+            "text": "Suppose a brother or sister is without clothes and daily food."
+          },
+          {
+            "chapter": 2,
+            "n": 16,
+            "text": "If one of you tells him, “Go in peace; stay warm and well fed,” but does not provide for his physical needs, what good is that?"
+          },
+          {
+            "chapter": 2,
+            "n": 17,
+            "text": "So too, faith by itself, if it does not result in action, is {{nekra|dead}}."
+          }
         ]
       },
       {
@@ -29,9 +45,21 @@
         "note": "show me your faith",
         "emphasis": "",
         "verses": [
-          { "chapter": 2, "n": 18, "text": "But someone will say, “You have faith and I have deeds.” Show me your faith without deeds, and I will show you my faith by my deeds." },
-          { "chapter": 2, "n": 19, "text": "You believe that God is one. Good for you! Even the demons believe that, and shudder." },
-          { "chapter": 2, "n": 20, "text": "O foolish man, do you want evidence that faith without deeds is worthless?" }
+          {
+            "chapter": 2,
+            "n": 18,
+            "text": "But someone will say, “You have faith and I have deeds.” Show me your faith without deeds, and I will show you my faith by my deeds."
+          },
+          {
+            "chapter": 2,
+            "n": 19,
+            "text": "You believe that God is one. Good for you! Even the demons believe that, and shudder."
+          },
+          {
+            "chapter": 2,
+            "n": 20,
+            "text": "O foolish man, do you want evidence that faith without deeds is worthless?"
+          }
         ]
       },
       {
@@ -39,21 +67,65 @@
         "note": "living faith proven by works",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 2, "n": 21, "text": "Was not our father Abraham {{dikaioo|justified}} by what he did when he offered his son Isaac on the altar?" },
-          { "chapter": 2, "n": 22, "text": "You see that his faith was working with his actions, and his faith was perfected by what he did." },
-          { "chapter": 2, "n": 23, "text": "And the Scripture was fulfilled that says, “Abraham believed God, and it was credited to him as righteousness,” and he was called a friend of God." },
-          { "chapter": 2, "n": 24, "text": "As you can see, a man is justified by his deeds and not by faith alone." },
-          { "chapter": 2, "n": 25, "text": "In the same way, was not even Rahab the prostitute justified by her actions when she welcomed the spies and sent them off on another route?" },
-          { "chapter": 2, "n": 26, "text": "As the body without the spirit is dead, so faith without deeds is dead." }
+          {
+            "chapter": 2,
+            "n": 21,
+            "text": "Was not our father Abraham {{dikaioo|justified}} by what he did when he offered his son Isaac on the altar?"
+          },
+          {
+            "chapter": 2,
+            "n": 22,
+            "text": "You see that his faith was working with his actions, and his faith was perfected by what he did."
+          },
+          {
+            "chapter": 2,
+            "n": 23,
+            "text": "And the Scripture was fulfilled that says, “Abraham believed God, and it was credited to him as righteousness,” and he was called a friend of God."
+          },
+          {
+            "chapter": 2,
+            "n": 24,
+            "text": "As you can see, a man is justified by his deeds and not by faith alone."
+          },
+          {
+            "chapter": 2,
+            "n": 25,
+            "text": "In the same way, was not even Rahab the prostitute justified by her actions when she welcomed the spies and sent them off on another route?"
+          },
+          {
+            "chapter": 2,
+            "n": 26,
+            "text": "As the body without the spirit is dead, so faith without deeds is dead."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "pistis": { "language": "Greek", "lemma": "pistis", "original": "πίστις", "gloss": "Faith, trust, belief. James does not attack faith itself but a certain counterfeit: a bare claim to faith that produces nothing. True pistis is a living trust that unites with and works through deeds; the faith that merely asserts and never acts he calls dead." },
-    "erga": { "language": "Greek", "lemma": "erga", "original": "ἔργα", "gloss": "Works or deeds, actions that flow from faith. For James these are not merit that earns salvation but the necessary fruit and proof of a faith that is alive. Faith and works belong together as body and breath, and works complete or perfect what faith begins." },
-    "nekra": { "language": "Greek", "lemma": "nekros", "original": "νεκρός", "gloss": "Dead, lifeless. James uses it twice of a faith that has no works, framing his whole argument: such faith is a corpse. As a body without the spirit is a dead body, so faith without deeds is not merely weak faith but no living faith at all." },
-    "dikaioo": { "language": "Greek", "lemma": "dikaioo", "original": "δικαιόω", "gloss": "To justify, to declare or show to be righteous. The verb can mean to be reckoned righteous before God, as in Paul, or to be shown and vindicated as righteous, as here in James of Abraham and Rahab. James uses it of faith demonstrated and proven by works, not of earning acceptance with God." }
+    "pistis": {
+      "language": "Greek",
+      "lemma": "pistis",
+      "original": "πίστις",
+      "gloss": "Faith, trust, belief. James does not attack faith itself but a certain counterfeit: a bare claim to faith that produces nothing. True pistis is a living trust that unites with and works through deeds; the faith that merely asserts and never acts he calls dead."
+    },
+    "erga": {
+      "language": "Greek",
+      "lemma": "erga",
+      "original": "ἔργα",
+      "gloss": "Works or deeds, actions that flow from faith. For James these are not merit that earns salvation but the necessary fruit and proof of a faith that is alive. Faith and works belong together as body and breath, and works complete or perfect what faith begins."
+    },
+    "nekra": {
+      "language": "Greek",
+      "lemma": "nekros",
+      "original": "νεκρός",
+      "gloss": "Dead, lifeless. James uses it twice of a faith that has no works, framing his whole argument: such faith is a corpse. As a body without the spirit is a dead body, so faith without deeds is not merely weak faith but no living faith at all."
+    },
+    "dikaioo": {
+      "language": "Greek",
+      "lemma": "dikaioo",
+      "original": "δικαιόω",
+      "gloss": "To justify, to declare or show to be righteous. The verb can mean to be reckoned righteous before God, as in Paul, or to be shown and vindicated as righteous, as here in James of Abraham and Rahab. James uses it of faith demonstrated and proven by works, not of earning acceptance with God."
+    }
   },
   "study": {
     "basic": {
@@ -67,94 +139,258 @@
       "oneStory": "The Bible tells of a God who justifies sinners by faith and then makes that faith fruitful, from Abraham who believed and obeyed to Rahab who trusted and acted. James applies this to the church: a faith that never changes how you live is no living faith at all. This does not contradict the gospel of grace; it guards it, insisting that the faith which alone saves is never finally alone, but works itself out in love as it did in Christ, the true and faithful one."
     },
     "context": {
-      "literary": "This is the theological heart of chapter 2 and, in a sense, of the letter, gathering the earlier calls to be doers and to keep the royal law into a direct argument about the nature of saving faith. It proceeds by illustration, verses 14 to 17, dialogue with an objector, verses 18 to 20, and scriptural proof from Abraham and Rahab, verses 21 to 26, bracketed by the refrain that faith without works is dead.",
-      "historical": "James likely writes before or apart from the sharpest Pauline controversies, addressing a practical danger among his readers: a faith reduced to verbal profession and orthodox belief without a changed life. Some may have misused slogans about faith to excuse a loveless, inactive religion, the very error James dismantles with the case of the hungry brother.",
-      "canonical": "The passage sits alongside Paul's teaching on justification and, rightly read, complements it. Together with Romans and Galatians it forms the New Testament's full account: justification is by faith apart from works of law, and the faith that justifies is a living faith that produces works. Hebrews 11 confirms the reading by praising the very deeds of Abraham and Rahab as acts of faith."
+      "literary": "Like chapter 2 verses 1 to 13, this section is an argument with an imagined opponent, and it is built in three rounds. The first round, verses 14 to 17, is a case from daily life, the hungry brother and the empty blessing, ending in a verdict: faith by itself is dead. The second round, verses 18 to 20, hands the floor to an objector and answers him with a challenge and a sharp example, the demons. The third round, verses 21 to 25, brings two witnesses from Scripture, Abraham the patriarch and Rahab the outsider, and verse 26 closes the whole with a final image, the body without the spirit.\n\nThe structure repeats a refrain. Verse 17 says faith without works is dead, verse 20 says it is useless, and verse 26 says again that it is dead. The word 'works' appears throughout, and the ring structure gives the whole passage a shape of repeated hammer blows. The choice of two witnesses is also careful. Abraham is the greatest man of Israel's history and Rahab was a woman of Canaan and a prostitute, so James has chosen the two ends of the spectrum, and both show the same thing.\n\nThe passage should also be read with what comes before and after it. The section on favoritism ends with mercy, 2:13, and this section begins by asking what good faith is if it does not show mercy to the hungry. It prepares the way for the next, on the tongue, where the same theme of integrity between inner and outer life continues.",
+      "historical": "The scene in verses 15 and 16 describes something very ordinary in the ancient world: a poor brother or sister in a community without social welfare. Clothing and daily bread were the basic necessities, and hunger and cold were never far away. The blessing 'Go in peace' is the common Hebrew farewell, shalom, and could be said with real goodwill. James's point is that a wish is not a loaf.\n\nThe question of whether faith and works go together was alive in the Judaism of the time. Many Jewish teachers read Abraham's offering of Isaac as the great proof of his faithfulness, and stories of his testing were widely told. James appeals to a tradition his readers knew. The belief that God is one, the Shema of Deuteronomy 6:4, was the heart of Jewish confession, and James's remark that the demons share it is a pointed reminder that correct belief is not enough.\n\nThe relation of James to Paul has long been discussed. Paul's letters to Galatians and Romans were written against those who said Gentile believers must keep the law to be saved, and Paul's phrase 'works of the law', Romans 3:28, refers to the identity markers of the Jewish law such as circumcision. James has no such controversy in view. He writes to people who confess faith in Christ and shows that confession without life is hollow. Both men use Abraham, Genesis 15:6, because both were answering different questions.",
+      "canonical": "The passage rests on two Old Testament stories. The first is Genesis 15:6, where Abraham believed the LORD and it was credited to him as righteousness, and the second is Genesis 22, where he obeyed and offered Isaac, and the angel said, 'now I know that you fear God,' Genesis 22:12. James reads the two together. The second is the visible proof of the first. Abraham is also called the friend of God in Isaiah 41:8 and 2 Chronicles 20:7. Rahab's story is in Joshua 2 and 6, where her confession of the LORD, Joshua 2:11, is followed by her action in hiding the spies.\n\nThe New Testament contains the same dialogue in other voices. Paul quotes Genesis 15:6 to show that Abraham was counted righteous before he did anything, Romans 4:2 to 3 and Galatians 3:6, and insists that we are saved by grace through faith, not by works, Ephesians 2:8 to 9, yet in the very next verse he says that we are created in Christ Jesus to do good works, Ephesians 2:10. Paul speaks of faith that works through love, Galatians 5:6, and recalls the work of faith of the Thessalonians, 1 Thessalonians 1:3. John writes that love must be in action and truth, 1 John 3:18.\n\nThe author of Hebrews names Rahab among the heroes of faith, Hebrews 11:31, and Abraham's offering of Isaac is called an act of faith, Hebrews 11:17. Jesus Himself says that a tree is known by its fruit, Matthew 7:16 to 20, and that those who say 'Lord, Lord' but do not do the will of the Father will not enter the kingdom, Matthew 7:21."
     },
     "hermeneutics": {
-      "authorIntent": "To expose and refute a dead, merely professed faith, to show that genuine saving faith necessarily produces works, and to prove from Scripture that Abraham and Rahab were vindicated as righteous by a faith that acted.",
-      "descriptionVsPrescription": "The passage is both argumentative and prescriptive. It describes the difference between living and dead faith and argues its case; its prescriptive force is a summons to examine whether one's faith is real and to let true faith show itself in deeds of love. It does not prescribe works as the ground of acceptance but as the fruit and evidence of faith.",
+      "authorIntent": "James aimed to rescue his readers from a faith that had become an opinion. The people he wrote to were willing to say the right words, to agree that God is one and that Jesus is Lord, and to wish a hungry brother well. He wanted them to see that this was not enough, and that the real question was whether what they believed had any hold on their lives. His method is deliberately sharp, using irony and a startling comparison with demons so that the comfortable are shaken.\n\nHe did not set out to write a doctrine of justification. The word 'justified' is used to answer a practical question, what proves that faith is real, and the examples chosen are of people whose faith was put to a costly test. He wanted the community to be a place where faith is visible in mercy, and where a person who said he believed could be known by what he did.",
+      "descriptionVsPrescription": "The passage mostly argues and illustrates rather than commands. The commands are implied: let faith show itself in works, give to the brother in need, offer a faith that can be seen. The examples of Abraham and Rahab are descriptions of what happened, taken as models of faith that acts. We should not read them as saying that every act of faith must be as dramatic as sacrificing a son, or that Rahab's lie, whatever one makes of it, is a pattern. The thing commended is the faith that acted at cost.\n\nIt also must not be read as a licence to measure other people's hearts. James says that works make faith visible to others and to ourselves, but he does not say that anyone can calculate another's standing before God by counting good deeds. The passage is aimed at those who confess faith while no work follows, as a call to self examination.",
       "debates": [
         {
-          "question": "Does James contradict Paul on justification by faith?",
+          "question": "Does James contradict Paul on justification?",
           "views": [
-            { "label": "No; they use justify and faith in different senses", "case": "This is the strongest orthodox reading. Paul asks how a sinner is first accepted by God and answers by faith apart from works of law, using justify to mean declared righteous before God. James asks what kind of faith is genuine and answers a faith that works, using justify to mean shown or proven righteous, as a tree is known by its fruit. When James denies faith alone he means a faith that is alone, a bare claim with no deeds. Both affirm salvation by faith and both affirm that real faith works; they defend one gospel from opposite errors, legalism on one side and empty profession on the other." },
-            { "label": "They stress complementary truths for different dangers", "case": "Others frame it less as different definitions and more as different pastoral targets: Paul fights those who would add law-keeping to grace, James fights those who would subtract obedience from faith. Even Paul insists faith works through love, Galatians 5:6, and that we are created for good works, Ephesians 2:10; James simply presses that same point from the other side." }
+            {
+              "label": "No, they use 'justify' and 'works' differently",
+              "case": "Paul writes about how a sinner is first declared righteous and says that is by faith, apart from works of the law, Romans 3:28. James writes about how true faith is demonstrated and says that is by works. For Paul, works of the law are the badges of Jewish identity or attempts to earn favour. For James, works are the fruit of a living faith. Paul himself calls for the obedience of faith, Romans 1:5, and James himself quotes Genesis 15:6 as fulfilled."
+            },
+            {
+              "label": "They represent different emphases within early Christianity",
+              "case": "Some scholars think James was written to correct a misuse of Paul's teaching, or reflects a different tradition that was uneasy with it. Martin Luther famously struggled with the letter for this reason."
+            },
+            {
+              "label": "They address different opponents and stages",
+              "case": "Others say Paul is dealing with the entry point of salvation and James with its life, so that they are two halves of a single account, as when Paul says in Galatians 5:6 that what counts is faith working through love."
+            }
           ],
-          "bearing": "On either framing there is no real contradiction. The Reformation summary holds: we are justified by faith alone, but the faith that justifies is never alone. James guards the gospel against the deadly idea that one can be saved by a faith that leaves the life unchanged."
+          "bearing": "The majority view in the church has been that the two are compatible, because both reject a faith that does not change a life and both reject a righteousness earned by deeds. James still has to be read on his own terms."
         },
         {
-          "question": "In what sense was Abraham justified by works, verse 21?",
+          "question": "What does James mean by 'justified' in verses 21 to 25?",
           "views": [
-            { "label": "Shown and vindicated as righteous", "case": "Abraham was already counted righteous by faith in Genesis 15:6, decades before he offered Isaac in Genesis 22. So when James says he was justified by works, he means his faith was demonstrated, proven, and brought to its intended completion by his obedience. The offering of Isaac fulfilled and displayed the faith that had long since been credited to him." },
-            { "label": "Faith perfected and confirmed in obedience", "case": "Others stress verse 22, that his faith was working with his actions and was perfected by them; the deed did not create the righteousness but matured and confirmed the faith. The Scripture was fulfilled, that is, the earlier verdict of Genesis 15:6 was borne out in action." }
+            {
+              "label": "Shown to be righteous",
+              "case": "The word can mean to vindicate or demonstrate, as in Luke 7:35. Abraham's offering of Isaac shows that his faith was real, and the Scripture that said he was counted righteous was 'fulfilled' in the sense that it was borne out."
+            },
+            {
+              "label": "Declared righteous at the last judgment",
+              "case": "Others see it as the final verdict, because James uses the language of judgment and salvation in the nearby verses, so the works are the evidence on which the final verdict is given, in keeping with Matthew 12:37."
+            }
           ],
-          "bearing": "Both readings keep James in harmony with Genesis and with Paul: Abraham was reckoned righteous by faith, and that living faith was later vindicated and completed by the obedience it produced."
+          "bearing": "Both views agree that the faith James has in view is the kind that acts, and that works are inseparable from the faith that is acceptable to God. The first reading fits Genesis 15:6 best, since Abraham was counted righteous long before the offering."
+        },
+        {
+          "question": "Is the dead faith of verse 17 real faith that has failed, or no faith at all?",
+          "views": [
+            {
+              "label": "A counterfeit faith",
+              "case": "The faith of the demons is the faith of an opinion, and James calls it a faith that cannot save. So the faith of verse 14 was never true faith."
+            },
+            {
+              "label": "A real but defective faith",
+              "case": "Some think James is warning true believers who have stalled. Their faith is alive but needs to grow, and the warning is to bring it to maturity."
+            }
+          ],
+          "bearing": "The language of verse 26, a body without a spirit, suggests that what is described has lost the principle of life, and so is not what James would call saving faith."
         }
       ]
     },
-    "originalLanguages": "The debate lives in a few Greek words. Pistis is faith, and erga are works or deeds; James pits a workless pistis against a living one and calls the former nekra, dead, a corpse without breath. The decisive word is dikaioo, to justify. In Paul it commonly means to declare a sinner righteous before God, received by faith apart from works of law. In James it carries its other proper sense, to show or prove righteous, to vindicate: Abraham and Rahab were justified by works in that their faith was publicly demonstrated and confirmed by what they did. And when James rejects being justified by faith alone in verse 24, the alone he denies is a faith standing by itself with no deeds, not the faith-alone of the gospel. Read this way, James and Paul use the same terms differently and teach one harmonious truth.",
+    "originalLanguages": "The opening question uses the phrase 'can that faith save him', where the Greek has the definite article before faith, he pistis, so that it reads 'can that faith save him?' James is not asking whether faith can save but whether this kind of faith, the one that claims to exist and has no deeds, can. The verb is sozo, the word for rescue and salvation, and the question expects the answer no.\n\nIn verse 15 the two needs named are gymnos, naked or poorly clothed, and leipomenoi tes ephemerou trophes, lacking daily food. The second phrase uses the word ephemeros, from which we get ephemeral, meaning for the day. The brother is out of what he needs for today. In verse 16 'be warmed' and 'be filled' are imperatives in a form that is passive or middle, so the speaker only wishes the thing done and does not do it himself. 'Go in peace' is the Hebrew blessing shalom, and James shows how a good phrase can become a way of excusing oneself.\n\nVerse 17 says that faith by itself is dead. The Greek says kath' heauten, which can mean by itself, alone, or in itself. It is dead in its own nature, not only in its effects. The word nekra, dead, is used of corpses, and the image is carried through to verse 26 with the body and the spirit. The word for spirit there is pneuma, which also means breath, so the body without breath is a corpse.\n\nIn verse 19 James uses the verb phrisso, to bristle or shudder, which in the ancient world described the bristling of hair or the shivering of fear. The demons believe, pisteuousin, in the same word used for faith, and they react, but they do not obey. The comparison is with demons because in the Gospels they recognise Jesus and call Him the Holy One of God, Mark 1:24, and yet remain enemies.\n\nVerse 21 uses edikaiothe, from dikaioo, to justify. Paul uses the same verb for declaring righteous, Romans 3:28. In James the context is evidence, and the verb is used with the sense of vindicate or demonstrate. Verse 22 says that faith 'was working together' with his works, synergei, a word from which synergy comes, and that faith was 'completed', eteleiothe, from teleioo, to bring to its goal. The word teleios appeared in 1:4 and 1:25, so the faith reaches maturity by being exercised.\n\nVerse 23 says that the Scripture was 'fulfilled', eplerothe. James does not mean that Genesis 15:6 was a prediction but that the statement of Abraham's righteousness found its complete expression in the offering of Isaac. The title philos theou, friend of God, comes from Isaiah 41:8 and 2 Chronicles 20:7. Verse 24 says 'not by faith alone', ouk ek pisteos monon, where the word monon, alone, is attached to faith, meaning faith that stands alone.",
     "typology": [
-      { "type": "Abraham offering Isaac", "fulfillment": "A foreshadowing of the Father who did not spare His own Son but gave Him up for us all, Romans 8:32; tested faith resting in God's provision." },
-      { "type": "Rahab the prostitute welcomed into God's people", "fulfillment": "The gospel reaching the outsider; Rahab enters the ancestry of Christ, Matthew 1:5, a trophy of faith that acted." },
-      { "type": "Living faith perfected by works", "fulfillment": "Fulfilled in the faithful obedience of Jesus, whose trust in the Father was proven in perfect action and at the cross." }
+      {
+        "type": "Abraham offering Isaac",
+        "fulfillment": "The sacrifice of Isaac is the great proof of Abraham's faith in James, and it is also a pattern pointing forward. A father is asked to give up his only son, and God provides a substitute, Genesis 22:8 and 22:13. The correspondence is fulfilled in Christ, where the Father gives His own beloved Son, Romans 8:32, and the true Lamb is provided. Abraham's faith in God who raises the dead, Hebrews 11:19, anticipates the resurrection. The type falls short because Isaac was spared, while Christ was not."
+      },
+      {
+        "type": "Rahab, the outsider brought in",
+        "fulfillment": "Rahab was a Canaanite and a prostitute, yet she confessed that the LORD is God in heaven above and on earth below, Joshua 2:11, and was brought into Israel, Joshua 6:25. Matthew lists her in the genealogy of Jesus, Matthew 1:5. She stands as the first fruits of the Gentiles who would be drawn in, those who by faith become part of God's people. In Christ the door opens to every nation, Ephesians 2:12 to 19. The type falls short in that she was saved by a scarlet cord and an act, whereas the nations are saved by the blood of Christ."
+      },
+      {
+        "type": "The body without the spirit",
+        "fulfillment": "At creation God formed man from the dust and breathed into him the breath of life, Genesis 2:7, and a body without that breath is a corpse. James uses the picture of a body without spirit for faith without works. The fulfillment is in Christ, who gives life by the Spirit, John 6:63, and who by His resurrection makes the dead alive, Ephesians 2:5. The new birth gives a living faith, which will show itself. The picture falls short if it suggests that works are the spirit; the Spirit is God's gift, and works are the sign of His presence."
+      }
     ],
-    "christ": "Abraham's offering of Isaac on the altar points to the Father who gave His only Son, and the ram provided in the thicket foreshadows the substitute God supplies in Christ. The righteousness credited to Abraham by faith is precisely the righteousness now given to everyone who believes in Jesus, who was delivered up for our trespasses and raised for our justification. And the living, working faith James commends finds its perfect pattern in Christ Himself, the pioneer and perfecter of faith, whose trust in the Father was demonstrated in flawless obedience unto death.",
-    "god": "God is the one who credits righteousness to those who simply believe Him, as He did with Abraham, and who honors such a believer by calling him His friend. He is not fooled by words; He sees whether faith is alive. The same God who freely justifies the ungodly by faith also gives His people a new heart, so that the faith He counts as righteousness inevitably bears the fruit of good works. Grace that saves is grace that changes.",
+    "christ": "Christ is the answer to the question that sits beneath this whole passage, what kind of faith saves. It is faith in Him, and not faith as a general belief. James says earlier that our faith is held in 'our glorious Lord Jesus Christ', 2:1. The faith that saves is not faith in faith, nor faith that a doctrine is true, but trust in a person, and trust in a living person produces a life. The demons believe a fact about God and tremble; believers trust a Saviour and follow Him.\n\nChrist is also the fulfilment of the offering of Isaac. Abraham told his servants that he and the boy would worship and return, and the writer of Hebrews says he reasoned that God could raise the dead, Hebrews 11:19. In the end God provided a ram. But the story waits for the greater fulfilment in which the Father did not spare His own Son, Romans 8:32. The mount of Moriah, where Abraham offered Isaac, is traditionally linked with Jerusalem, where the Son was offered. James uses the story as an example of obedience, and the cross is the answer that makes obedience possible.\n\nThe deeds that James demands are the deeds of Christ, continued by His people. He gave bread to the hungry and clothes to the naked in His own ministry, and He told His disciples that whatever they did for the least of His brothers they did for Him, Matthew 25:40. When James criticises the empty words 'be warm and well fed', he is describing the opposite of the Saviour who fed the five thousand and said, 'You give them something to eat,' Mark 6:37. Faith in that Christ will look like Him.\n\nFinally Christ is the one who gives the living faith. James says faith without works is dead, and Paul tells us that we were dead in transgressions and that God made us alive with Christ, Ephesians 2:5. The new life comes from outside us. We do not produce the works to bring ourselves to life; the life He gives produces the works, and this is the meaning of being 'created in Christ Jesus to do good works', Ephesians 2:10. We should not turn Abraham or Rahab into allegories of Christ, but their stories point to the kind of faith He creates.",
+    "god": "The passage shows God as the one God, and the confession that He is one is true and good. James does not mock the confession. 'Good for you!' he says, and then points out that it is not enough. God is not only to be affirmed; He is to be trusted and obeyed. The God of the Shema is the God who commands love with all the heart, Deuteronomy 6:5, and so to say that He is one and to leave the heart untouched is to miss what the confession means.\n\nHe is a God who tests and who knows. The angel's words to Abraham, 'now I know that you fear God,' Genesis 22:12, do not mean that God learned something new; they mean that Abraham's faith had been brought out into the open. God is not looking for something that He cannot see. He builds relationships in which faith is brought to full growth, and trials are the place where it is perfected, as James said in 1:2 to 4.\n\nHe is the God who credits righteousness to the one who believes. Verse 23 repeats Genesis 15:6, and with Paul in Romans 4:5 we learn that He justifies the ungodly. That gift of righteousness is a free declaration, a divine verdict given on the basis of faith. James does not deny it; he assumes it. What he adds is that the God who declares righteous is also the God who gives life, so the righteousness He credits is accompanied by a changed life.\n\nHe is the friend of those who trust Him. Abraham was called the friend of God, and there is warmth in the title. The God of this passage cares about a hungry brother and a sister without clothes, and He expects His people to share that care. For worship this means that the creed is only half of what we bring. What we confess with our lips we should show with our hands. The God who is one expects an undivided response, in which the faith that rests in Him also moves toward His people.",
     "crossReferences": [
-      { "ref": "Romans 4:1-5", "note": "Paul uses Abraham to teach justification by faith apart from works, the counterpart James assumes and complements." },
-      { "ref": "Genesis 15:6", "note": "Abraham believed God and it was credited as righteousness, quoted by both James and Paul, dated before the offering of Isaac." },
-      { "ref": "Galatians 5:6", "note": "In Christ what counts is faith working through love, Paul's own statement that real faith works." },
-      { "ref": "Ephesians 2:8-10", "note": "Saved by grace through faith, not by works, yet created in Christ for good works, holding both truths together." },
-      { "ref": "Hebrews 11:17-19, 31", "note": "Both Abraham's offering of Isaac and Rahab's welcome of the spies are praised as acts of faith." }
+      {
+        "ref": "Genesis 15:6",
+        "note": "The verse James quotes in 2:23. Abraham believed the LORD and it was credited to him as righteousness. The statement comes before the birth of Isaac and long before the offering of Genesis 22, so James must be using it as a statement that was later shown to be true in action."
+      },
+      {
+        "ref": "Genesis 22:12",
+        "note": "After Abraham raised the knife, the angel said, 'now I know that you fear God.' This is the scene James has in mind in 2:21. It makes plain that Abraham's obedience was the fruit and evidence of his trust in God."
+      },
+      {
+        "ref": "Romans 4:2-3",
+        "note": "Paul quotes the same verse of Genesis to show that Abraham was not justified by works so as to have something to boast about. Reading it with James shows that both start from Genesis 15:6 and use it to answer different questions."
+      },
+      {
+        "ref": "Galatians 5:6",
+        "note": "Paul says that all that matters is faith expressed through love. It is probably the closest summary of the position of both writers. Faith is the root and love is the fruit, and the two are not separate."
+      },
+      {
+        "ref": "Ephesians 2:8-10",
+        "note": "Saved by grace through faith, not by works, and yet created for good works. These three verses carry the argument of Paul and James together in a single paragraph, showing that the apostles did not see the two as opposed."
+      },
+      {
+        "ref": "1 John 3:17-18",
+        "note": "John asks how God's love can abide in someone who sees a brother in need and closes his heart, and urges love in action and truth. The scene is very close to James 2:15 and 2:16, and shows the same concern for faith that works."
+      },
+      {
+        "ref": "Hebrews 11:31",
+        "note": "The writer of Hebrews lists Rahab, who welcomed the spies in peace, among those who lived by faith. It confirms that her action was an act of faith, which is exactly what James says."
+      },
+      {
+        "ref": "Joshua 2:9-11",
+        "note": "Rahab's confession that the LORD your God is God in the heavens above and on the earth below shows the faith beneath her action. James points to what she did, but the account makes clear that what she did came from what she believed."
+      },
+      {
+        "ref": "Matthew 7:21",
+        "note": "Not everyone who says 'Lord, Lord' will enter the kingdom, but the one who does the will of the Father. The saying of Jesus sits behind James, and shows that the demand for faith that acts was part of the teaching of Jesus from the beginning."
+      },
+      {
+        "ref": "Matthew 25:35-40",
+        "note": "The King says that what was done for the hungry and the naked was done for Him. It gives the deepest reason for James's example of the brother without clothes: to ignore him is to ignore Christ."
+      },
+      {
+        "ref": "Mark 1:23-24",
+        "note": "A man with an unclean spirit cries out that Jesus is the Holy One of God. It is an example of the demonic belief that James describes in 2:19, which is accurate and fearful and completely without surrender."
+      }
     ],
-    "oneStory": "Scripture tells of a God who justifies sinners by faith and then makes that faith fruitful, from Abraham who believed and was reckoned righteous, then proved it on Moriah, to Rahab who trusted the God of Israel and showed it by hiding the spies. James brings this to the church to kill a deadly counterfeit: a faith that talks but never acts, no better than the trembling belief of demons. Far from contradicting the gospel of grace, he guards it, teaching that the faith which alone justifies is never finally alone but works through love, just as it did supremely in Christ, the faithful Son, in whom our righteousness is secured and our good works are born.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "From the beginning, the pattern of Scripture is that God speaks and a person answers. In Eden the question was whether the man and woman would trust God's word, Genesis 3. After the fall, the line of faith runs through Abel, Noah and Abraham, each of whom believed God and acted on it, Hebrews 11:4 to 8. Abraham stands at the centre of that line because God made a covenant with him, Genesis 15, and gave him a promise that all nations would be blessed. His faith was credited as righteousness, and then proved in his obedience.\n\nWhat this passage answers from before is the question of what faith is. In Israel the answer was always lived: the people were to believe the LORD and keep His commands, and when they said they believed and lived otherwise the prophets spoke against them. Isaiah 29:13 says the people honour God with their lips while their hearts are far away. James takes up that prophetic concern for integrity between word and life and places it inside the new covenant.\n\nWhat it sets up is the remainder of the letter. The faith that works is the faith that is patient in trial, 5:7 to 11, that prays, 5:13 to 18, and that restores the wandering brother, 5:19 to 20. It also joins the larger conversation of the New Testament about justification. The reformers who clarified justification by faith alone took care to say that this faith is never alone, and for that reason James is not an enemy of the gospel but its necessary guard.\n\nThe story ends with a new creation in which faith becomes sight and works are the lasting record of lives lived for God. Revelation says the dead will be judged according to their works, Revelation 20:12, and that the righteous deeds of the saints are their bright linen, Revelation 19:8, a gift given to them. The faith that began with a promise to Abraham will end with his children, from every nation, in the city whose builder and maker is God, Hebrews 11:10. Every act of mercy done in faith now is a first instalment of that life.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What is James's main point about faith that produces no works?",
       "options": [
-        { "text": "Such faith is dead and cannot save; genuine faith shows itself in action.", "weight": 100, "note": "Verses 17 and 26: workless faith is a corpse, not living, saving faith." },
-        { "text": "Faith by itself, without deeds, is useless like empty words to a hungry brother.", "weight": 75, "note": "True to the illustration in verses 15 to 17, capturing the same truth." },
-        { "text": "Works earn our salvation apart from faith.", "weight": 25, "note": "James makes works the fruit and proof of faith, not the earning of salvation." },
-        { "text": "Faith and works have nothing to do with each other.", "weight": 0, "note": "The whole point is that living faith and works belong inseparably together." }
+        {
+          "text": "Such faith is dead and cannot save; genuine faith shows itself in action.",
+          "weight": 100,
+          "note": "Verses 17 and 26: workless faith is a corpse, not living, saving faith."
+        },
+        {
+          "text": "Faith by itself, without deeds, is useless like empty words to a hungry brother.",
+          "weight": 75,
+          "note": "True to the illustration in verses 15 to 17, capturing the same truth."
+        },
+        {
+          "text": "Works earn our salvation apart from faith.",
+          "weight": 25,
+          "note": "James makes works the fruit and proof of faith, not the earning of salvation."
+        },
+        {
+          "text": "Faith and works have nothing to do with each other.",
+          "weight": 0,
+          "note": "The whole point is that living faith and works belong inseparably together."
+        }
       ]
     },
     {
       "q": "How is James's teaching best reconciled with Paul's justification by faith?",
       "options": [
-        { "text": "They use justify and faith differently; we are justified by faith alone, but that faith is never alone.", "weight": 100, "note": "Paul means declared righteous before God; James means shown righteous by a living faith." },
-        { "text": "Paul fights adding works to grace; James fights subtracting obedience from faith.", "weight": 75, "note": "True to the different dangers each addresses, complementary not contradictory." },
-        { "text": "Paul and James simply disagree about how people are saved.", "weight": 25, "note": "There is no real contradiction; both teach salvation by living faith." },
-        { "text": "James teaches that faith is unnecessary if you have works.", "weight": 0, "note": "James never sets works against faith; he insists true faith produces works." }
+        {
+          "text": "They use justify and faith differently; we are justified by faith alone, but that faith is never alone.",
+          "weight": 100,
+          "note": "Paul means declared righteous before God; James means shown righteous by a living faith."
+        },
+        {
+          "text": "Paul fights adding works to grace; James fights subtracting obedience from faith.",
+          "weight": 75,
+          "note": "True to the different dangers each addresses, complementary not contradictory."
+        },
+        {
+          "text": "Paul and James simply disagree about how people are saved.",
+          "weight": 25,
+          "note": "There is no real contradiction; both teach salvation by living faith."
+        },
+        {
+          "text": "James teaches that faith is unnecessary if you have works.",
+          "weight": 0,
+          "note": "James never sets works against faith; he insists true faith produces works."
+        }
       ]
     },
     {
       "q": "What does the example of the demons in verse 19 show?",
       "options": [
-        { "text": "Mere intellectual belief, even correct belief, is not saving faith.", "weight": 100, "note": "Verse 19: the demons believe God is one, and only shudder." },
-        { "text": "Even demons hold orthodox beliefs, yet it does them no good.", "weight": 75, "note": "True to the verse, illustrating belief without trust or fruit." },
-        { "text": "Believing the right doctrines guarantees salvation.", "weight": 25, "note": "The demons prove that bare assent to truth is not enough." },
-        { "text": "Doctrine does not matter at all.", "weight": 0, "note": "James affirms the truth that God is one; he denies that assent alone saves." }
+        {
+          "text": "Mere intellectual belief, even correct belief, is not saving faith.",
+          "weight": 100,
+          "note": "Verse 19: the demons believe God is one, and only shudder."
+        },
+        {
+          "text": "Even demons hold orthodox beliefs, yet it does them no good.",
+          "weight": 75,
+          "note": "True to the verse, illustrating belief without trust or fruit."
+        },
+        {
+          "text": "Believing the right doctrines guarantees salvation.",
+          "weight": 25,
+          "note": "The demons prove that bare assent to truth is not enough."
+        },
+        {
+          "text": "Doctrine does not matter at all.",
+          "weight": 0,
+          "note": "James affirms the truth that God is one; he denies that assent alone saves."
+        }
       ]
     },
     {
       "q": "In what sense was Abraham justified by works when he offered Isaac?",
       "options": [
-        { "text": "His faith, already credited as righteousness, was shown and completed by his obedience.", "weight": 100, "note": "Verses 21 to 23: Genesis 15:6 preceded and was fulfilled by the deed of Genesis 22." },
-        { "text": "His faith was working with his actions and perfected by what he did.", "weight": 75, "note": "True to verse 22, describing faith matured and confirmed by obedience." },
-        { "text": "His obedience earned his acceptance with God from scratch.", "weight": 25, "note": "He was already reckoned righteous by faith years earlier; the deed proved it." },
-        { "text": "His works replaced any need for faith.", "weight": 0, "note": "His works flowed from and demonstrated his faith, not replaced it." }
+        {
+          "text": "His faith, already credited as righteousness, was shown and completed by his obedience.",
+          "weight": 100,
+          "note": "Verses 21 to 23: Genesis 15:6 preceded and was fulfilled by the deed of Genesis 22."
+        },
+        {
+          "text": "His faith was working with his actions and perfected by what he did.",
+          "weight": 75,
+          "note": "True to verse 22, describing faith matured and confirmed by obedience."
+        },
+        {
+          "text": "His obedience earned his acceptance with God from scratch.",
+          "weight": 25,
+          "note": "He was already reckoned righteous by faith years earlier; the deed proved it."
+        },
+        {
+          "text": "His works replaced any need for faith.",
+          "weight": 0,
+          "note": "His works flowed from and demonstrated his faith, not replaced it."
+        }
       ]
     },
     {
       "q": "Why does James bring in Rahab the prostitute?",
       "options": [
-        { "text": "To show a second case where genuine faith proved itself by action.", "weight": 100, "note": "Verse 25: she welcomed the spies, faith shown in a costly deed." },
-        { "text": "To show that even an outsider's faith is vindicated by what she does.", "weight": 75, "note": "True, underscoring that living faith acts, whoever the believer is." },
-        { "text": "To prove that a person's past keeps them from being justified.", "weight": 25, "note": "The opposite: her acting faith justified her despite her past." },
-        { "text": "To argue that good deeds alone, without faith, saved her.", "weight": 0, "note": "Her deeds expressed a real faith in Israel's God; they were not faithless works." }
+        {
+          "text": "To show a second case where genuine faith proved itself by action.",
+          "weight": 100,
+          "note": "Verse 25: she welcomed the spies, faith shown in a costly deed."
+        },
+        {
+          "text": "To show that even an outsider's faith is vindicated by what she does.",
+          "weight": 75,
+          "note": "True, underscoring that living faith acts, whoever the believer is."
+        },
+        {
+          "text": "To prove that a person's past keeps them from being justified.",
+          "weight": 25,
+          "note": "The opposite: her acting faith justified her despite her past."
+        },
+        {
+          "text": "To argue that good deeds alone, without faith, saved her.",
+          "weight": 0,
+          "note": "Her deeds expressed a real faith in Israel's God; they were not faithless works."
+        }
       ]
     }
   ],
@@ -166,8 +402,17 @@
     "If someone watched your life this week, what deeds would show them your faith is alive? Which one is God nudging you to start?"
   ],
   "translationNotes": [
-    { "ref": "James 2:20", "note": "Worthless renders the same idea as dead; a footnote notes that some manuscripts (BYZ and TR) read dead, matching the refrain of verses 17 and 26." },
-    { "ref": "James 2:24", "note": "Justified renders dikaioo, here in the sense of shown or proven righteous; the faith alone that James denies is a faith standing by itself with no works, not the gospel's justification by faith." }
+    {
+      "ref": "James 2:20",
+      "note": "Worthless renders the same idea as dead; a footnote notes that some manuscripts (BYZ and TR) read dead, matching the refrain of verses 17 and 26."
+    },
+    {
+      "ref": "James 2:24",
+      "note": "Justified renders dikaioo, here in the sense of shown or proven righteous; the faith alone that James denies is a faith standing by itself with no works, not the gospel's justification by faith."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for James 2:14-26." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for James 2:14-26."
+  }
 }

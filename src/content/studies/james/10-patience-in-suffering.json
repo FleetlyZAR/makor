@@ -18,9 +18,21 @@
         "note": "wait like the farmer",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 5, "n": 7, "text": "Be {{makrothymeo|patient}}, then, brothers, until the {{parousia|Lord’s coming}}. See how the farmer awaits the precious fruit of the soil, how patient he is for the fall and spring rains." },
-          { "chapter": 5, "n": 8, "text": "You, too, be patient and strengthen your hearts, because the Lord’s coming is near." },
-          { "chapter": 5, "n": 9, "text": "Do not complain about one another, brothers, so that you will not be judged. Look, the Judge is standing at the door!" }
+          {
+            "chapter": 5,
+            "n": 7,
+            "text": "Be {{makrothymeo|patient}}, then, brothers, until the {{parousia|Lord’s coming}}. See how the farmer awaits the precious fruit of the soil, how patient he is for the fall and spring rains."
+          },
+          {
+            "chapter": 5,
+            "n": 8,
+            "text": "You, too, be patient and strengthen your hearts, because the Lord’s coming is near."
+          },
+          {
+            "chapter": 5,
+            "n": 9,
+            "text": "Do not complain about one another, brothers, so that you will not be judged. Look, the Judge is standing at the door!"
+          }
         ]
       },
       {
@@ -28,8 +40,16 @@
         "note": "blessed are those who endure",
         "emphasis": "",
         "verses": [
-          { "chapter": 5, "n": 10, "text": "Brothers, as an example of patience in affliction, take the prophets who spoke in the name of the Lord." },
-          { "chapter": 5, "n": 11, "text": "See how blessed we consider those who have persevered. You have heard of Job’s {{hypomone|perseverance}} and have seen the outcome from the Lord. The Lord is full of compassion and mercy." }
+          {
+            "chapter": 5,
+            "n": 10,
+            "text": "Brothers, as an example of patience in affliction, take the prophets who spoke in the name of the Lord."
+          },
+          {
+            "chapter": 5,
+            "n": 11,
+            "text": "See how blessed we consider those who have persevered. You have heard of Job’s {{hypomone|perseverance}} and have seen the outcome from the Lord. The Lord is full of compassion and mercy."
+          }
         ]
       },
       {
@@ -37,15 +57,34 @@
         "note": "plain, honest speech",
         "emphasis": "",
         "verses": [
-          { "chapter": 5, "n": 12, "text": "Above all, my brothers, do not swear, not by heaven or earth or by any other oath. Simply let your “Yes” be yes, and your “No,” no, so that you will not fall under judgment." }
+          {
+            "chapter": 5,
+            "n": 12,
+            "text": "Above all, my brothers, do not swear, not by heaven or earth or by any other oath. Simply let your “Yes” be yes, and your “No,” no, so that you will not fall under judgment."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "makrothymeo": { "language": "Greek", "lemma": "makrothymeo", "original": "μακροθυμέω", "gloss": "To be patient, long-suffering, literally long-tempered; to hold out under provocation or delay without giving up. James commands this patience toward the Lord's coming, like a farmer waiting through the seasons for the harvest. It is active, hopeful endurance, not passive resignation." },
-    "parousia": { "language": "Greek", "lemma": "parousia", "original": "παρουσία", "gloss": "Coming, arrival, presence; the standard term for the return of Christ in glory. James grounds the call to patience in the nearness of the Lord's parousia, when the Judge who stands at the door will right every wrong. The certainty of His coming steadies the suffering heart." },
-    "hypomone": { "language": "Greek", "lemma": "hypomone", "original": "ὑπομονή", "gloss": "Endurance, steadfast perseverance, remaining under a burden without collapsing. James praises the hypomone of the prophets and of Job, whose endurance was blessed by the Lord's compassionate outcome. It is the mature perseverance that trials are meant to produce, as chapter one taught." }
+    "makrothymeo": {
+      "language": "Greek",
+      "lemma": "makrothymeo",
+      "original": "μακροθυμέω",
+      "gloss": "To be patient, long-suffering, literally long-tempered; to hold out under provocation or delay without giving up. James commands this patience toward the Lord's coming, like a farmer waiting through the seasons for the harvest. It is active, hopeful endurance, not passive resignation."
+    },
+    "parousia": {
+      "language": "Greek",
+      "lemma": "parousia",
+      "original": "παρουσία",
+      "gloss": "Coming, arrival, presence; the standard term for the return of Christ in glory. James grounds the call to patience in the nearness of the Lord's parousia, when the Judge who stands at the door will right every wrong. The certainty of His coming steadies the suffering heart."
+    },
+    "hypomone": {
+      "language": "Greek",
+      "lemma": "hypomone",
+      "original": "ὑπομονή",
+      "gloss": "Endurance, steadfast perseverance, remaining under a burden without collapsing. James praises the hypomone of the prophets and of Job, whose endurance was blessed by the Lord's compassionate outcome. It is the mature perseverance that trials are meant to produce, as chapter one taught."
+    }
   },
   "study": {
     "basic": {
@@ -59,94 +98,252 @@
       "oneStory": "God's people have always waited, through affliction, for the Lord to come and set things right, from the prophets and Job to the suffering church. James gathers up that long endurance and points it forward to the parousia, the coming of Christ the Judge, near at the door. The pattern of suffering followed by a compassionate outcome, seen in Job, is fulfilled in Christ and promised to all who endure, so the church waits with patient, honest, established hearts."
     },
     "context": {
-      "literary": "This section pivots from the woe against the rich to comfort for their victims, joined by the theme of the Lord's coming judgment. It moves from the command to patience with agricultural imagery, verses 7 to 9, to biblical examples of endurance, verses 10 to 11, to a capstone command about oaths, verse 12, which many see as closing the body of the letter before its final section on prayer.",
-      "historical": "James addresses believers suffering economic oppression and injustice, tempted to grumble against one another under the strain. Agricultural imagery of early and late rains would be immediately familiar in Palestine, where the autumn and spring rains framed the growing season. Casual oath-taking was common in that culture as a way to bolster one's word.",
-      "canonical": "The passage draws on the whole biblical hope of the Lord's coming and the vindication of the righteous, and its examples, the prophets and Job, root Christian patience in the Old Testament story. Its teaching on oaths aligns directly with Jesus in the Sermon on the Mount, showing James's deep dependence on the teaching of his brother and Lord."
+      "literary": "This section is the hinge of the letter's last chapter. Verses 1 to 6 are an oracle of woe in the manner of the prophets, addressed to the rich and written in the third person of judgment. At verse 7 the tone changes with one small word, 'then' (oun), which marks the conclusion drawn from the oracle: since judgment is coming on those who press the poor, the pressed can afford to wait. The address also changes from 'you who are rich' to 'brothers,' a word that appears in verses 7, 9, 10 and 12, and the rhythm of the section is a string of tender imperatives.\n\nThe unit is built round three images and one prohibition. The farmer of verse 7 is a picture drawn from the field. The prophets and Job in verses 10 and 11 are pictures drawn from Israel's story, and James supplies the verdict on both: 'blessed' (verse 11) is the same beatitude word that opens his promise in 1:12. Verse 12 looks like an abrupt change of subject, but the vocabulary shows it is not. The warning against complaint in verse 9 and the warning against oaths in verse 12 both end on the same threat, judgment, and both are failures of the tongue under pressure, which is the theme James has been working since 1:19 and 3:1 to 12.\n\nThere is also a frame. The section opens with the Lord's coming (parousia) in verse 7 and closes with falling 'under judgment' in verse 12, and the Judge 'standing at the door' sits at its centre in verse 9. Everything is lit by an approaching arrival.",
+      "historical": "James writes to Jewish believers scattered abroad, 1:1, many of them poor and dependent on landowners. Verse 4 pictures day labourers whose wages were held back, and Deuteronomy 24:14 and 15 had commanded that a hired man be paid on the day he earned it. For people in that position the instruction to wait is not a counsel of comfort for the well off. It is a word to those who have no legal remedy and no power.\n\nThe farming picture is exact for the land of Israel. Rain came in two seasons. The autumn rains arrived around October and November and softened the ground for sowing, and the spring rains in March and April filled out the grain before harvest. The promise of both is written into Deuteronomy 11:14, and Joel 2:23 repeats it. A farmer could do nothing to hurry either season. He could only prepare, trust and wait, knowing that a failed rain meant a lean year for his family.\n\nOaths were everywhere in the ancient world, and the Jewish teachers of James's day had built a casuistry around them. Some formulas were held to bind and others not, which Jesus ridiculed in Matthew 23:16 to 22. People swore by heaven, by Jerusalem, by the temple, by their own heads, partly to avoid the divine name and partly to appear to bind themselves while keeping a way out. The result was a culture in which ordinary speech could not be trusted unless it was propped up. James, like his brother's teaching, asks for a community where it need not be.\n\nThe imminence of the Lord's coming was a living conviction of the early church, and the persecuted took particular strength from it.",
+      "canonical": "The section gathers threads from across the Bible. The patient farmer stands in a long line of rain and harvest pictures: the covenant promise of rain in Deuteronomy 11:14, Hosea's call to know the Lord, who will come 'like the rain, like the spring showers that water the earth' (Hosea 6:3), and Joel's autumn and spring rains, Joel 2:23. The expectation that waiting will be rewarded appears in Habakkuk 2:3, 'Though it lingers, wait for it,' which Hebrews 10:37 applies to the coming Lord.\n\nIn the prophets James has in view, Jeremiah is beaten and put in the stocks, Jeremiah 20:2, and Stephen can ask which of the prophets the fathers did not persecute, Acts 7:52. Hebrews 11:35 to 38 lists the ones who were mocked, flogged, stoned and sawn in two. Job is the only figure named, and he comes into the New Testament only here. His story of loss and restoration, Job 1 and 42, was well known, and James expects his readers to have 'heard' of it.\n\nThe warning against oaths is the clearest case of James's debt to Jesus. Matthew 5:33 to 37 forbids swearing by heaven, earth or Jerusalem and says to let a yes be yes. Paul uses the same pattern in 2 Corinthians 1:17 to 20, where he insists that the gospel message is not 'Yes' and 'No' because Christ is the Yes to all God's promises.\n\nAnd the nearness of the Judge lines up with Jesus' own words in Mark 13:29, 'know that He is near, right at the door,' and with the closing prayer of the Bible, Revelation 22:20."
     },
     "hermeneutics": {
-      "authorIntent": "To comfort and steady suffering believers by directing them to the nearness of the Lord's coming, to hold up the farmer, the prophets, and Job as models of patient endurance rewarded by a compassionate God, and to call for plain, trustworthy speech instead of grumbling and oaths.",
-      "descriptionVsPrescription": "The passage is chiefly prescriptive: be patient, strengthen your hearts, do not grumble, do not swear. The examples of the farmer, prophets, and Job are illustrative, and the truth that the Lord is compassionate and merciful is descriptive ground for the commands. Its abiding call is patient, hopeful, honest endurance in light of Christ's return.",
+      "authorIntent": "James meant two things at once, and both are pastoral. First, he wanted a people who are being wronged to know that waiting is not weakness or resignation. The Greek word he uses carries the sense of a slow burning of the temper, a long fuse, so the command is to refuse to let anger and bitterness decide what they do. They are not told that the wrong does not matter. Verses 1 to 6 have just said that it matters enormously. They are told that God will deal with it, and that their part is to remain steady and kind in the meantime.\n\nSecond, he wanted the church to guard its own life under pressure. Suffering people tend to turn on one another, grumbling about who has more, who is to blame, who is not helping. The warning of verse 9 is aimed at that, and it sits beside a reminder that the Judge is close. The charge about oaths belongs here too. People under strain are tempted either to exaggerate or to bind themselves with grand words, and James wants a community whose plain speech is reliable, because a patient heart has nothing to prove.\n\nThe first hearers were meant to leave with steadier hearts, a ready love for each other, and a picture of the end that made today's loss bearable.",
+      "descriptionVsPrescription": "Almost everything here is prescription, and it is addressed to the church as a whole: be patient, strengthen your hearts, do not grumble, do not swear. The descriptions, the farmer, the prophets and Job, are there to make the commands credible by showing that others have done this and been vindicated.\n\nThree cautions help in applying it. First, patience here is not passivity about injustice. The same letter condemns the oppressor and calls the church to care for the poor, 1:27 and 2:15 and 16, so the call to wait is not a ban on seeking justice. Second, Job is held up for his endurance and for the outcome the Lord gave, not as a model of every word he spoke, since God later rebukes his questioning, Job 38:2. Third, verse 12 forbids using oaths to cover untrustworthy speech. It is quoted from the Sermon on the Mount, and the church has long debated whether it bars every formal oath, such as one taken in a court. The safe application for everyone is that a believer's word should be so dependable that no oath is needed.",
       "debates": [
         {
-          "question": "How can James say the Lord's coming is near?",
+          "question": "Does James forbid every oath, or only careless ones?",
           "views": [
-            { "label": "Imminence as the church's constant posture", "case": "The New Testament consistently presents Christ's return as the next great redemptive event, near and imminent, to be lived toward in every generation. Nearness is less about a datable countdown than about the certainty and priority of the coming, which should always shape how believers wait and act." },
-            { "label": "The last days inaugurated at Christ's first coming", "case": "Others stress that with Christ's death and resurrection the last days have already begun, so the church lives in the final era before the end. In this sense the coming is genuinely near, the culmination of an age already underway." }
+            {
+              "label": "Every oath is forbidden",
+              "case": "The wording is sweeping: 'do not swear, not by heaven or earth or by any other oath,' and Jesus said 'not to swear at all,' Matthew 5:34. Anabaptists and Quakers took this at face value and refused courtroom oaths, trusting that a believer's plain word should be enough. They argue that a standard of truth that needs an oath to raise it is a lesser standard."
+            },
+            {
+              "label": "Only frivolous or evasive oaths",
+              "case": "Calvin and most Reformers read the ban as aimed at the casual and manipulative swearing Jesus attacked in Matthew 23:16 to 22. They point out that God Himself swore an oath, Hebrews 6:13 to 17, that Jesus answered when the high priest put Him under oath, Matthew 26:63 and 64, and that Paul called God as his witness, 2 Corinthians 1:23. A solemn oath before a judge, they say, honours truth rather than undermining it."
+            }
           ],
-          "bearing": "Both readings uphold the truth and nearness of Christ's return without embarrassment. The point is pastoral: because the Judge is at the door, suffering believers can endure, and all should live ready."
+          "bearing": "Both camps agree on the point James cares about, that a Christian's ordinary word must be fully reliable. They differ on whether a formal oath in court is the exception, and each side can hold the text with a clear conscience."
         },
         {
-          "question": "Does verse 12 forbid all oaths?",
+          "question": "What does 'the Lord's coming is near' mean when it has not come yet?",
           "views": [
-            { "label": "It forbids casual, manipulative swearing", "case": "James, echoing Jesus, condemns the frivolous or evasive oaths people used to prop up unreliable speech. The remedy is such thoroughgoing honesty that a plain yes or no suffices. On this view solemn oaths in weighty settings, which Scripture elsewhere permits, are not in view." },
-            { "label": "A strong call to total truthfulness", "case": "Others take it as a sweeping call to truthfulness that makes oaths largely unnecessary among God's people, whether or not it absolutely bans every formal oath. The heart of it is a life so honest that extra guarantees are superfluous." }
+            {
+              "label": "It is always imminent",
+              "case": "The coming could happen at any time, and the church is meant to live as though it might be today. The Bible gives no timetable, and Jesus Himself said no one knows the day, Mark 13:32. The nearness is a pastoral pressure on the heart rather than a calendar entry."
+            },
+            {
+              "label": "Near by God's reckoning of time",
+              "case": "Peter says that with the Lord a day is like a thousand years, 2 Peter 3:8, and the delay reflects His patience that wants people to repent, 2 Peter 3:9. Near means that nothing further must happen before He can come, and that God's own timing is long but sure."
+            },
+            {
+              "label": "The first generation expected a nearer return",
+              "case": "Some argue that James and his readers expected the end within their own lifetimes, and that the New Testament shows the expectation being refined as the church grew. Others reply that the writers knew their uncertainty and still taught readiness."
+            }
           ],
-          "bearing": "Either way the command aims at transparent integrity. Among Christ's people, words should be reliable enough that a simple yes or no can be trusted without reinforcement."
+          "bearing": "On every reading the practical meaning is the same: the Judge's arrival is certain and has been drawing closer, so patience is justified and complaint is premature."
         }
       ]
     },
-    "originalLanguages": "The controlling verb is makrothymeo, to be long-suffering, to hold out patiently, illustrated by the farmer who waits through the early and late rains for the precious harvest. The horizon that makes such patience reasonable is the parousia, the coming of the Lord, so near that the Judge is pictured standing at the door. The examples embody hypomone, steadfast endurance under burden: the prophets who suffered for speaking in the Lord's name, and Job, whose perseverance met a compassionate outcome from the Lord. The vocabulary knits together active patience, confident hope in Christ's return, and the proven endurance that trials are meant to yield.",
+    "originalLanguages": "Two verbs of waiting carry the section, and they are not quite synonyms. Makrothymeo in verses 7 and 8 joins makros, 'long,' with thymos, 'temper' or 'anger.' It is the verb of someone who is slow to boil. In the Septuagint the related adjective makrothymos translates God's own self description in Exodus 34:6, 'slow to anger,' so the believer is being asked to share a trait of God. In Matthew 18:26 the servant begs his master for patience with this verb. The noun hypomone in verse 11, and the matching participle in the same verse, describe a different kind of staying power: 'remaining under' a load. It is the word of James 1:3 and 1:12, and it points to endurance under pressure of circumstances, where makrothymia is often used of restraint toward people who provoke us. The two together cover how to treat the person who wrongs you and how to bear the weight of what happens to you.\n\nVerse 8 says the Lord's coming 'is near,' and the verb is eggiken, in the perfect tense: it has drawn near and stays near. It does not describe a point on a clock but a settled state of closeness. The same perfect, in the participle hesteken in verse 9, says the Judge 'is standing' at the door, as a person who has arrived and has not yet knocked.\n\nThe command 'strengthen your hearts' uses sterizo, to fix firmly in place. Luke 22:32 uses the same verb when Jesus tells Peter to 'strengthen your brothers,' and Luke 9:51 uses it of Jesus 'setting His face' toward Jerusalem. The heart is to be made steady and not left to drift.\n\nThe complaint of verse 9 is literally 'groan,' stenazo. Romans 8:22 and 23 uses the same verb of creation and believers groaning for redemption, which shows what James is getting at. There is a groaning that waits on God in hope, and there is a groaning that turns inward against the neighbour. Only the second is forbidden.\n\nIn verse 11 the 'outcome from the Lord,' to telos kyriou, may mean the end that the Lord brought about, which is Job's restoration, Job 42:10, or the end the Lord Himself has in view, and in both senses the word tells the reader that the story is going somewhere. 'Full of compassion' translates polysplanchnos, built on splanchna, the inner organs where the Greeks felt deep emotion. The Lord is moved in His whole being.\n\nFinally, the 'Yes' and 'No' of verse 12 are doubled in the Greek, nai nai and ou ou, as in Matthew 5:37, a plain pair that needs no support.",
     "typology": [
-      { "type": "The farmer awaiting the harvest through early and late rains", "fulfillment": "Pictures patient waiting for the final harvest at Christ's coming, Matthew 13:39, Revelation 14:15." },
-      { "type": "Job's endurance and vindicated outcome", "fulfillment": "Foreshadows the pattern of suffering followed by glory, fulfilled in Christ and promised to His people, Romans 8:17-18." },
-      { "type": "The suffering prophets who spoke in the Lord's name", "fulfillment": "Anticipate Christ, the greatest prophet, who suffered and was vindicated, and the persecuted church that follows Him." }
+      {
+        "type": "The farmer and the coming harvest",
+        "fulfillment": "Jesus used seed and sickle for the kingdom in Mark 4:26 to 29, where the sower scatters the seed, cannot hasten the growth, and swings the sickle only when the grain is ripe. Matthew 13:39 names the end of the age as the harvest, and Revelation 14:15 shows the reaping. The farmer's patience therefore becomes the church's patience for the day when the Lord gathers in. The type escalates because the Lord of the harvest is Himself the grain that fell into the ground and died, John 12:24. It falls short in that a farmer waits for rain he does not control, while believers wait for a Person who has already come once and is certainly returning."
+      },
+      {
+        "type": "Job, the sufferer who was vindicated",
+        "fulfillment": "Job loses everything, yet worships, Job 1:20 to 22, and in his darkest hour looks beyond the grave: 'I know that my Redeemer lives,' Job 19:25. He asks for a mediator and finds none, Job 9:33, and at the end he prays for his friends and the Lord restores him, Job 42:8 to 10. Each beat finds an answer in Jesus. The Redeemer who lives is the risen Christ, the mediator who lays a hand on both God and man is Jesus, 1 Timothy 2:5, and the righteous sufferer who prays for those who wronged Him is Jesus on the cross, Luke 23:34. Job's story falls short because Job needed a mediator and had none, while his sufferings, real as they were, could not bear anyone else's sin."
+      },
+      {
+        "type": "The prophets who suffered for the word",
+        "fulfillment": "The prophets spoke in the Lord's name and paid for it. Jeremiah was beaten and put in the stocks, Jeremiah 20:2, and Hebrews 11:36 to 38 names those who were mocked, flogged and killed. Stephen charged the leaders with persecuting every prophet and then killing those who foretold the Righteous One, Acts 7:52. Jesus lamented Jerusalem as the city that kills the prophets, Luke 13:34. In Him the line reaches its end: the last and greatest Prophet, Hebrews 1:1 and 2, the Word Himself, suffers for speaking truth. The correspondence breaks at one point. Where the prophets pointed to a coming deliverance, Jesus is the deliverance, and His suffering is the price of it."
+      },
+      {
+        "type": "The plain Yes of the faithful word",
+        "fulfillment": "A person whose yes is yes mirrors the character of Jesus, who is called 'the Amen, the faithful and true Witness,' Revelation 3:14. Paul says that in Him it has always been 'Yes,' and that all the promises of God are 'Yes' in Christ, 2 Corinthians 1:19 and 20. That is the escalation: the believer's reliable word is a small echo of the One in whom God's word never wavers. The type falls short because even the most honest believer sometimes fails, and the church's truthfulness is a work of the Spirit still in progress, while Christ's is complete."
+      }
     ],
-    "christ": "The passage lives toward the coming of the Lord Jesus, whose return is the hope that makes patience possible and whose nearness steadies the suffering heart. He is the Judge standing at the door, who will right every wrong the oppressed have borne. The path of Job, deep suffering followed by a compassionate outcome from the Lord, is fulfilled supremely in Christ, who suffered and entered glory, and whose story assures His people that endurance ends in mercy. And Jesus Himself gave the very command of verse 12, let your yes be yes, calling His people to transparent honesty.",
-    "god": "God is coming as Judge, near and at the door, so that no injustice endured by His people will finally stand unaddressed. Yet the same Lord is, as Job learned, full of compassion and mercy, so the outcome of every trial can be entrusted to Him. He spoke through the prophets and upheld them in affliction, He blessed Job's perseverance, and He calls His people to reflect His own faithfulness in speech so honest that a simple word can be trusted. Patience rests on His certain coming and His tender heart.",
+    "christ": "Everything in the passage leans toward a person who is named only as 'the Lord,' and in the New Testament that name belongs to Jesus. The parousia of verse 7 is His appearing, and the nearness of verse 8 is His nearness. Mark 13:29 has Jesus say of Himself that 'He is near, right at the door,' and Revelation 22:20 gives the church its last word, 'Come, Lord Jesus.' The Judge at the door is the same Jesus who first came as a servant. John 5:22 says the Father has entrusted all judgment to the Son, and Acts 17:31 says God will judge the world through the man He appointed, whom He proved by raising Him from the dead. The suffering believer's comfort is that the one who will weigh every wrong knows what suffering is.\n\nHe is also the supreme example of the patience the passage commands. Peter says that when He was abused 'He did not retaliate; when He suffered, He made no threats, but entrusted Himself to Him who judges justly,' 1 Peter 2:23. Hebrews 12:2 and 3 sets Him before weary believers as the one 'who for the joy set before Him endured the cross' and asks them to 'consider Him who endured such hostility from sinners.' The verb there is the same hypomone family as in verse 11. Job's perseverance and the Lord's compassionate outcome are real, but they are a shadow. Christ's endurance ends in a resurrection that is the first harvest of the field James has in mind, 1 Corinthians 15:20.\n\nHe is the prophet who stands at the end of the line of the suffering prophets, and He is the Amen whose word is never doubled or qualified. Where James forbids oaths, he echoes the Sermon on the Mount, Matthew 5:34 to 37, in which Jesus gave the command, and Paul holds Him up as the Yes of God, 2 Corinthians 1:19 and 20.\n\nA caution keeps the reading honest. The farmer is not an allegory of Jesus, and Job is not a disguised portrait of Christ in every detail. The links hold where the New Testament makes them: Christ's coming as the Judge, His example in suffering, His fulfilment of the prophetic line, and His faithful Yes.",
+    "god": "The passage shows God as the Judge who is close. The picture of a Judge standing at the door says that He is not distant or indifferent to the suffering of the oppressed. The cries of the wronged harvesters in verse 4 reached 'the ears of the Lord of Hosts,' and the Lord of Hosts is the commander of every power in heaven and earth. The waiting in verses 7 to 12 is therefore not the waiting of people ignored, but of people whose case has already been heard. James is clear that His judgment is not reserved for the rich only. It falls on the grumbling believer too, and on the one who plays games with oaths. God's justice is impartial and applies to all.\n\nIt shows God as merciful. Verse 11 draws on the great self disclosure of Exodus 34:6, where the Lord passes before Moses and declares Himself 'compassionate and gracious, slow to anger.' Slow to anger in the Greek Old Testament is makrothymos, the very word family James uses for the patience he demands. God asks His people to be patient because He is patient first. Peter says the same of the delay, 2 Peter 3:9: the Lord 'is patient with you, not wanting anyone to perish but everyone to come to repentance.'\n\nIt shows a God who rewards faithfulness without being bound by human logic. Job's restoration is a mark of His generosity, not of a rule that suffering will always be reversed in this life. The prophets who suffered are called blessed even though many were not vindicated before their deaths, Hebrews 11:39. The outcome from the Lord is bigger than a lifespan.\n\nIt shows God as a truth teller whose word can be trusted without a guarantee. Hebrews 6:13 to 18 says that God swore by Himself to help human beings believe, because He had no one greater to swear by. The oath of God is a concession to human weakness, not a sign that His word needs help.\n\nFor worship, the passage invites the groaning of Romans 8:23 offered to God rather than to each other. Believers may lament, but the lament is to be laid before the Judge who is also the compassionate Father.",
     "crossReferences": [
-      { "ref": "Matthew 5:34-37", "note": "Jesus' teaching, do not swear at all; let your yes be yes and your no be no, directly behind verse 12." },
-      { "ref": "Philippians 4:5", "note": "The Lord is near, the same nearness that grounds James's call to patience." },
-      { "ref": "Job 42:10-17", "note": "The outcome the Lord brought to Job after his perseverance, showing God's compassion and mercy." },
-      { "ref": "Matthew 5:11-12", "note": "Jesus blesses those persecuted as the prophets were, matching James's example of the prophets." },
-      { "ref": "Revelation 22:20", "note": "Surely I am coming soon, the church's answering hope, Amen, come, Lord Jesus." }
+      {
+        "ref": "Deuteronomy 11:14",
+        "note": "God promises rain in its season, the autumn and spring rains, so that Israel may gather grain, new wine and oil. It is the background to James's farmer. The rains are a gift of God's covenant care, which is why waiting for them is an act of trust and not of guesswork."
+      },
+      {
+        "ref": "Hosea 6:3",
+        "note": "The returning people say that the Lord will appear as surely as the sun rises, and 'He will come to us like the rain, like the spring showers that water the earth.' The coming of God is described with the very rain imagery James uses, which makes the farmer's wait a picture of the Lord's own arrival."
+      },
+      {
+        "ref": "Exodus 34:6-7",
+        "note": "God declares Himself compassionate, gracious and slow to anger, yet not leaving the guilty unpunished. James 5:11 borrows the first half for the Lord's character and verse 9 the second half for the Judge. The text holds mercy and justice side by side as James does."
+      },
+      {
+        "ref": "Job 19:25-27",
+        "note": "In his lowest hour Job says, 'I know that my Redeemer lives,' and expects to see God. This is what James means by Job's perseverance: not silence, but a stubborn hope fastened on a living Redeemer, long before the outcome could be seen."
+      },
+      {
+        "ref": "Job 42:7-10",
+        "note": "The Lord says Job has spoken of Him accurately, has Job pray for his friends, and then restores his prosperity. The outcome from the Lord that James mentions is spelled out here, and it includes Job's willingness to intercede for those who wronged him."
+      },
+      {
+        "ref": "Matthew 5:33-37",
+        "note": "Jesus forbids swearing by heaven, earth, Jerusalem or one's own head, and says to let a yes be yes and a no be no. James repeats the pattern almost word for word, which shows how deeply the Sermon on the Mount shaped the first generation of teaching."
+      },
+      {
+        "ref": "Matthew 23:16-22",
+        "note": "Jesus exposes the habit of ranking oaths so that some bind and others do not. Every such oath, He says, ends up invoking God. Reading this passage explains why James calls for plain speech: elaborate formulas were a way of seeming to promise without being held to it."
+      },
+      {
+        "ref": "2 Corinthians 1:17-20",
+        "note": "Paul answers the charge that he says 'Yes, yes' and 'No, no' lightly, by pointing to the God of faithful promises, whose Son was never 'Yes' and 'No.' The plain word of the believer rests on the unwavering word of God in Christ."
+      },
+      {
+        "ref": "Hebrews 10:35-37",
+        "note": "Hebrews urges perseverance by quoting Habakkuk: in just a little while He who is coming will come and will not delay. It is the same argument as James, patience grounded in the certainty and nearness of the coming Lord, here made explicit with a prophetic text."
+      },
+      {
+        "ref": "Hebrews 12:1-3",
+        "note": "Hebrews sets a cloud of witnesses behind weary believers and fixes their eyes on Jesus, who endured the cross. It is James's chain of examples extended to its goal: after the prophets and Job comes Christ, the one who ran this race to its end."
+      },
+      {
+        "ref": "Revelation 6:9-11",
+        "note": "The slain cry, 'How long, O Lord,' and are told to rest a little longer. It is the same waiting that James asks of the church, set in the heavenly scene where the Lord has heard and will act, but in His time and when the full number is complete."
+      },
+      {
+        "ref": "Acts 7:52",
+        "note": "Stephen asks which of the prophets the fathers did not persecute. It confirms James's claim that the prophets suffered, and it shows that the pattern reached its climax in the persecution of the Righteous One Himself."
+      }
     ],
-    "oneStory": "God's people have always waited through affliction for the Lord to come and set things right, from the persecuted prophets and long-suffering Job to the oppressed church James addresses. He draws that long endurance to a point in the parousia, the coming of Christ the Judge, near and at the door. The Job pattern, suffering answered by a compassionate outcome, is fulfilled in Christ, who suffered and entered glory, and is promised to all who endure, so the church waits with patient, honest, established hearts until He appears.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "The Bible begins with a world meant to be at rest under God, and the fall of Genesis 3 introduced a long season in which wrongs go unanswered and righteous people suffer. This section stands inside that season. Its question is the one asked from Abel's blood in Genesis 4:10 and from the slain under the altar in Revelation 6:10: how long? James answers with a posture and a promise. The posture is steadfast waiting. The promise is that the Judge is nearer than the troubled believer thinks.\n\nThe Old Testament supplies the pattern. The covenant promise of rain in Deuteronomy 11 sets the rhythm of waiting and receiving. The prophets announce the day of the Lord and are rejected for it. Job faces the silence of God and the accusations of his friends and ends with God's own voice. The exile, in which the people sit in Babylon and ask whether God has forgotten them, is the great national version of the same wait, and Habakkuk is told that the vision will surely come.\n\nThe New Testament answers by showing that the waiting has already been entered by the Lord Himself. Christ was patient under wrong, and was vindicated by the resurrection, which Paul calls the firstfruits of the harvest, 1 Corinthians 15:20. The church now lives between that first fruit and the full harvest, and James is the pastor of that interval.\n\nThe ending of the story is a world in which patience is no longer needed. In the new creation the oppressors are gone, the cry of the harvesters is answered, the Judge has come and every tear is wiped away, Revelation 21:4. The people who learned to speak plainly, bear provocation and trust the compassion of the Lord will find that the end of the Lord was always kind, as Job found, and that the wait was never wasted.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What reason does James give for being patient in suffering?",
       "options": [
-        { "text": "The Lord's coming is near, and the Judge is standing at the door.", "weight": 100, "note": "Verses 7 to 9: Christ's imminent return grounds the call to patience." },
-        { "text": "Patience is worthwhile as the farmer waits for the precious harvest.", "weight": 75, "note": "True to the illustration in verse 7, pointing to the same hope." },
-        { "text": "Suffering will simply go away on its own soon.", "weight": 25, "note": "The hope is the Lord's coming, not that trouble merely passes." },
-        { "text": "God is indifferent, so patience is all that is left.", "weight": 0, "note": "James grounds patience in God's certain, compassionate coming." }
+        {
+          "text": "The Lord's coming is near, and the Judge is standing at the door.",
+          "weight": 100,
+          "note": "Verses 7 to 9: Christ's imminent return grounds the call to patience."
+        },
+        {
+          "text": "Patience is worthwhile as the farmer waits for the precious harvest.",
+          "weight": 75,
+          "note": "True to the illustration in verse 7, pointing to the same hope."
+        },
+        {
+          "text": "Suffering will simply go away on its own soon.",
+          "weight": 25,
+          "note": "The hope is the Lord's coming, not that trouble merely passes."
+        },
+        {
+          "text": "God is indifferent, so patience is all that is left.",
+          "weight": 0,
+          "note": "James grounds patience in God's certain, compassionate coming."
+        }
       ]
     },
     {
       "q": "How does James use the example of the farmer?",
       "options": [
-        { "text": "As a picture of patient waiting through the seasons for a valuable harvest.", "weight": 100, "note": "Verse 7: the farmer waits for the rains and the precious fruit." },
-        { "text": "To show that good things are worth waiting for with patience.", "weight": 75, "note": "True to the point of the image." },
-        { "text": "To teach that hard work always guarantees immediate results.", "weight": 25, "note": "The image is about patient waiting, not instant reward." },
-        { "text": "To discourage believers from expecting any harvest at all.", "weight": 0, "note": "The farmer confidently expects the harvest; so may believers." }
+        {
+          "text": "As a picture of patient waiting through the seasons for a valuable harvest.",
+          "weight": 100,
+          "note": "Verse 7: the farmer waits for the rains and the precious fruit."
+        },
+        {
+          "text": "To show that good things are worth waiting for with patience.",
+          "weight": 75,
+          "note": "True to the point of the image."
+        },
+        {
+          "text": "To teach that hard work always guarantees immediate results.",
+          "weight": 25,
+          "note": "The image is about patient waiting, not instant reward."
+        },
+        {
+          "text": "To discourage believers from expecting any harvest at all.",
+          "weight": 0,
+          "note": "The farmer confidently expects the harvest; so may believers."
+        }
       ]
     },
     {
       "q": "What do the prophets and Job illustrate?",
       "options": [
-        { "text": "Steadfast endurance in affliction, blessed by a compassionate Lord.", "weight": 100, "note": "Verses 10 to 11: patient perseverance meets God's mercy." },
-        { "text": "That those who persevere are counted blessed.", "weight": 75, "note": "True to verse 11, one side of the example." },
-        { "text": "That the faithful never actually suffer.", "weight": 25, "note": "They suffered greatly; the point is enduring through it." },
-        { "text": "That endurance earns God's favor as a wage.", "weight": 0, "note": "God's compassion is His mercy, not a wage owed to endurance." }
+        {
+          "text": "Steadfast endurance in affliction, blessed by a compassionate Lord.",
+          "weight": 100,
+          "note": "Verses 10 to 11: patient perseverance meets God's mercy."
+        },
+        {
+          "text": "That those who persevere are counted blessed.",
+          "weight": 75,
+          "note": "True to verse 11, one side of the example."
+        },
+        {
+          "text": "That the faithful never actually suffer.",
+          "weight": 25,
+          "note": "They suffered greatly; the point is enduring through it."
+        },
+        {
+          "text": "That endurance earns God's favor as a wage.",
+          "weight": 0,
+          "note": "God's compassion is His mercy, not a wage owed to endurance."
+        }
       ]
     },
     {
       "q": "What does James teach about oaths in verse 12?",
       "options": [
-        { "text": "Do not swear; let your yes be yes and your no be no.", "weight": 100, "note": "Verse 12: plain, honest speech instead of bolstering oaths." },
-        { "text": "Be so truthful that a simple word can be trusted without oaths.", "weight": 75, "note": "True to the heart of the command, the aim of the ban." },
-        { "text": "Always reinforce your promises with solemn oaths.", "weight": 25, "note": "The opposite: James discourages such swearing." },
-        { "text": "Honesty does not matter as long as intentions are good.", "weight": 0, "note": "The command is precisely about reliable, honest speech." }
+        {
+          "text": "Do not swear; let your yes be yes and your no be no.",
+          "weight": 100,
+          "note": "Verse 12: plain, honest speech instead of bolstering oaths."
+        },
+        {
+          "text": "Be so truthful that a simple word can be trusted without oaths.",
+          "weight": 75,
+          "note": "True to the heart of the command, the aim of the ban."
+        },
+        {
+          "text": "Always reinforce your promises with solemn oaths.",
+          "weight": 25,
+          "note": "The opposite: James discourages such swearing."
+        },
+        {
+          "text": "Honesty does not matter as long as intentions are good.",
+          "weight": 0,
+          "note": "The command is precisely about reliable, honest speech."
+        }
       ]
     },
     {
       "q": "How does James describe the Lord at the end of verse 11?",
       "options": [
-        { "text": "Full of compassion and mercy.", "weight": 100, "note": "Verse 11: the God who blesses endurance is tender and merciful." },
-        { "text": "A merciful Lord who brings a good outcome to those who persevere.", "weight": 75, "note": "True to the verse, as seen in Job's story." },
-        { "text": "A harsh master who ignores the suffering of His people.", "weight": 25, "note": "The opposite of what verse 11 says." },
-        { "text": "A distant judge with no concern for mercy.", "weight": 0, "note": "James stresses His compassion and mercy, not distance." }
+        {
+          "text": "Full of compassion and mercy.",
+          "weight": 100,
+          "note": "Verse 11: the God who blesses endurance is tender and merciful."
+        },
+        {
+          "text": "A merciful Lord who brings a good outcome to those who persevere.",
+          "weight": 75,
+          "note": "True to the verse, as seen in Job's story."
+        },
+        {
+          "text": "A harsh master who ignores the suffering of His people.",
+          "weight": 25,
+          "note": "The opposite of what verse 11 says."
+        },
+        {
+          "text": "A distant judge with no concern for mercy.",
+          "weight": 0,
+          "note": "James stresses His compassion and mercy, not distance."
+        }
       ]
     }
   ],
@@ -158,9 +355,21 @@
     "James calls for speech so honest that a plain yes or no can be trusted. Where do you need to become more simply truthful in what you say?"
   ],
   "translationNotes": [
-    { "ref": "James 5:7", "note": "A footnote gives the literal for it until it receives the early and the late, that is, the autumn and spring rains." },
-    { "ref": "James 5:8", "note": "The Lord's coming renders parousia, the term for Christ's return in glory; its nearness is the ground of the call to patience." },
-    { "ref": "James 5:11", "note": "Perseverance renders hypomone, steadfast endurance under burden; the outcome from the Lord refers to how God vindicated and blessed Job in the end." }
+    {
+      "ref": "James 5:7",
+      "note": "A footnote gives the literal for it until it receives the early and the late, that is, the autumn and spring rains."
+    },
+    {
+      "ref": "James 5:8",
+      "note": "The Lord's coming renders parousia, the term for Christ's return in glory; its nearness is the ground of the call to patience."
+    },
+    {
+      "ref": "James 5:11",
+      "note": "Perseverance renders hypomone, steadfast endurance under burden; the outcome from the Lord refers to how God vindicated and blessed Job in the end."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for James 5:7-12." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for James 5:7-12."
+  }
 }

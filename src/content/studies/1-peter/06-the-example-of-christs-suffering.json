@@ -18,9 +18,21 @@
         "note": "commendable before God",
         "emphasis": "",
         "verses": [
-          { "chapter": 2, "n": 18, "text": "Servants, {{hypotasso|submit yourselves}} to your masters with all respect, not only to those who are good and gentle, but even to those who are unreasonable." },
-          { "chapter": 2, "n": 19, "text": "For if anyone endures the pain of unjust suffering because he is conscious of God, this is to be commended." },
-          { "chapter": 2, "n": 20, "text": "How is it to your credit if you are beaten for doing wrong and you endure it? But if you suffer for doing good and you endure it, this is commendable before God." }
+          {
+            "chapter": 2,
+            "n": 18,
+            "text": "Servants, {{hypotasso|submit yourselves}} to your masters with all respect, not only to those who are good and gentle, but even to those who are unreasonable."
+          },
+          {
+            "chapter": 2,
+            "n": 19,
+            "text": "For if anyone endures the pain of unjust suffering because he is conscious of God, this is to be commended."
+          },
+          {
+            "chapter": 2,
+            "n": 20,
+            "text": "How is it to your credit if you are beaten for doing wrong and you endure it? But if you suffer for doing good and you endure it, this is commendable before God."
+          }
         ]
       },
       {
@@ -28,9 +40,21 @@
         "note": "follow in His footsteps",
         "emphasis": "",
         "verses": [
-          { "chapter": 2, "n": 21, "text": "For to this you were called, because Christ also suffered for you, leaving you an {{hypogrammos|example}}, that you should follow in His footsteps:" },
-          { "chapter": 2, "n": 22, "text": "“He committed no sin, and no deceit was found in His mouth.”" },
-          { "chapter": 2, "n": 23, "text": "When they heaped abuse on Him, He did not retaliate; when He suffered, He made no threats, but entrusted Himself to Him who judges justly." }
+          {
+            "chapter": 2,
+            "n": 21,
+            "text": "For to this you were called, because Christ also suffered for you, leaving you an {{hypogrammos|example}}, that you should follow in His footsteps:"
+          },
+          {
+            "chapter": 2,
+            "n": 22,
+            "text": "“He committed no sin, and no deceit was found in His mouth.”"
+          },
+          {
+            "chapter": 2,
+            "n": 23,
+            "text": "When they heaped abuse on Him, He did not retaliate; when He suffered, He made no threats, but entrusted Himself to Him who judges justly."
+          }
         ]
       },
       {
@@ -38,19 +62,57 @@
         "note": "by His stripes you are healed",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 2, "n": 24, "text": "He Himself bore our sins in His body on the {{xylon|tree}}, so that we might die to sin and live to righteousness. “By His stripes you are {{iaomai|healed}}.”" },
-          { "chapter": 2, "n": 25, "text": "For “you were like sheep going astray,” but now you have returned to the {{poimen|Shepherd}} and {{episkopos|Overseer}} of your souls." }
+          {
+            "chapter": 2,
+            "n": 24,
+            "text": "He Himself bore our sins in His body on the {{xylon|tree}}, so that we might die to sin and live to righteousness. “By His stripes you are {{iaomai|healed}}.”"
+          },
+          {
+            "chapter": 2,
+            "n": 25,
+            "text": "For “you were like sheep going astray,” but now you have returned to the {{poimen|Shepherd}} and {{episkopos|Overseer}} of your souls."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "hypotasso": { "language": "Greek", "lemma": "hypotasso", "original": "ὑποτάσσω", "gloss": "To submit, to place oneself under. Here household servants are to submit to their masters with all respect, even harsh ones. As throughout the letter, this is voluntary submission offered out of reverence for God, not a claim that the master's cruelty is right. It sets the stage for the example of Christ." },
-    "hypogrammos": { "language": "Greek", "lemma": "hypogrammos", "original": "ὑπογραμμός", "gloss": "A pattern to be traced over, like the copy a child follows when learning to write. Christ leaves us such a pattern in His suffering, that we might follow in His footsteps. The word pictures His life as the model script the believer copies, especially in patient endurance of wrong." },
-    "xylon": { "language": "Greek", "lemma": "xylon", "original": "ξύλον", "gloss": "Wood, a tree, here the cross. Peter deliberately calls the cross the tree, echoing Deuteronomy 21:23, cursed is everyone hung on a tree. Christ bore our sins on the tree, taking the curse in our place, so the word carries the weight of substitution and the fulfilment of the law's curse." },
-    "iaomai": { "language": "Greek", "lemma": "iaomai", "original": "ἰάομαι", "gloss": "To heal, to make whole. Quoting Isaiah 53, Peter says by His wounds you are healed. The healing is chiefly the deep restoration of sinners to God, forgiveness and new life, wrought through Christ's suffering. His stripes are the cost by which our sin-sick souls are made well." },
-    "poimen": { "language": "Greek", "lemma": "poimen", "original": "ποιμήν", "gloss": "Shepherd, one who tends and guards the flock. Straying like lost sheep, believers have now returned to Christ the Shepherd of their souls. The image runs through Scripture, from the Lord as Israel's shepherd to Jesus the Good Shepherd, and anticipates the Chief Shepherd of chapter five." },
-    "episkopos": { "language": "Greek", "lemma": "episkopos", "original": "ἐπίσκοπος", "gloss": "Overseer, guardian, one who watches over. Paired with Shepherd, it describes Christ's tender, vigilant care for His people. He does not merely rescue wandering sheep; He watches over their souls with constant, protective oversight, guarding them safely home." }
+    "hypotasso": {
+      "language": "Greek",
+      "lemma": "hypotasso",
+      "original": "ὑποτάσσω",
+      "gloss": "To submit, to place oneself under. Here household servants are to submit to their masters with all respect, even harsh ones. As throughout the letter, this is voluntary submission offered out of reverence for God, not a claim that the master's cruelty is right. It sets the stage for the example of Christ."
+    },
+    "hypogrammos": {
+      "language": "Greek",
+      "lemma": "hypogrammos",
+      "original": "ὑπογραμμός",
+      "gloss": "A pattern to be traced over, like the copy a child follows when learning to write. Christ leaves us such a pattern in His suffering, that we might follow in His footsteps. The word pictures His life as the model script the believer copies, especially in patient endurance of wrong."
+    },
+    "xylon": {
+      "language": "Greek",
+      "lemma": "xylon",
+      "original": "ξύλον",
+      "gloss": "Wood, a tree, here the cross. Peter deliberately calls the cross the tree, echoing Deuteronomy 21:23, cursed is everyone hung on a tree. Christ bore our sins on the tree, taking the curse in our place, so the word carries the weight of substitution and the fulfilment of the law's curse."
+    },
+    "iaomai": {
+      "language": "Greek",
+      "lemma": "iaomai",
+      "original": "ἰάομαι",
+      "gloss": "To heal, to make whole. Quoting Isaiah 53, Peter says by His wounds you are healed. The healing is chiefly the deep restoration of sinners to God, forgiveness and new life, wrought through Christ's suffering. His stripes are the cost by which our sin-sick souls are made well."
+    },
+    "poimen": {
+      "language": "Greek",
+      "lemma": "poimen",
+      "original": "ποιμήν",
+      "gloss": "Shepherd, one who tends and guards the flock. Straying like lost sheep, believers have now returned to Christ the Shepherd of their souls. The image runs through Scripture, from the Lord as Israel's shepherd to Jesus the Good Shepherd, and anticipates the Chief Shepherd of chapter five."
+    },
+    "episkopos": {
+      "language": "Greek",
+      "lemma": "episkopos",
+      "original": "ἐπίσκοπος",
+      "gloss": "Overseer, guardian, one who watches over. Paired with Shepherd, it describes Christ's tender, vigilant care for His people. He does not merely rescue wandering sheep; He watches over their souls with constant, protective oversight, guarding them safely home."
+    }
   },
   "study": {
     "basic": {
@@ -64,93 +126,256 @@
       "oneStory": "Israel's prophets foretold a Servant who would suffer silently and bear the sins of many, and a Shepherd God who would gather His straying flock. In Christ both come true at the cross: He takes the curse on the tree, heals by His wounds, and draws wandering sheep home. The suffering of God's people, when it is for doing good, now traces the footsteps of that Servant and Shepherd."
     },
     "context": {
-      "literary": "The passage completes the household teaching begun with citizens, addressing servants, and then rises into a hymn-like meditation on Christ's suffering built almost entirely from Isaiah 53. Verses 18 to 20 give the exhortation; verse 21 pivots to Christ as example; verses 22 to 25 unfold His sinless endurance and sin-bearing death in a series of clauses drawn from the prophet. It is the theological summit of the letter's teaching on suffering.",
-      "historical": "Household servants formed a large part of the early church and often served masters who could punish them at will, sometimes unjustly. Peter neither endorses the institution nor calls for revolt; he addresses believers caught within it, dignifying their patient endurance as sharing in Christ's own path. The passage would have spoken with special force to the powerless.",
-      "canonical": "This is one of the New Testament's fullest expositions of Isaiah 53, reading the Suffering Servant directly of Christ. It brings together substitutionary atonement, moral example, and the shepherd theme, and it feeds the wider biblical portrait of the cross as both the place where sin is borne and the pattern for cross-shaped discipleship."
+      "literary": "The passage is an instruction that turns into a creed. Verses 18 to 20 give a command to one group in the household and a principle about credit before God. Then at verse 21 the grammar pivots on the word 'because,' and for four verses Peter writes a hymn-like portrait of Christ that has little to do with servants at all. Scholars have long noticed that the portrait is built from the language of Isaiah 53, and that it has the rhythm and compactness of an early confession. The household instruction is the occasion, and the portrait is the foundation.\n\nThe portrait has its own shape. Verse 21 states the calling and the pattern. Verse 22 quotes Isaiah 53:9 for what Christ was. Verse 23 uses three verbs in a row, each negated, to say what He did not do: He did not retaliate, did not threaten, and instead entrusted Himself. Verse 24 turns from what He refrained from to what He accomplished, and from example to substitution, with the emphatic 'He Himself.' Verse 25 closes with the effect on those who were straying. The whole piece moves from imitation to atonement and ends in belonging.\n\nThere is also a tidy echo with the beginning of the chapter. In verse 1 Peter told the readers to put off deceit. In verse 22 he says no deceit was found in Christ's mouth. The first command and the last portrait share a word. What Christians are asked to shed is what He never had, and in this way the example is not an arbitrary demand but a call to share a character.\n\nThe final image of the shepherd also joins the passage to the rest of the letter. Peter ends the book with 'the Chief Shepherd,' 5:4, and exhorts elders to 'shepherd God's flock,' 5:2. The sheep who have returned in 2:25 become the flock in chapter 5.",
+      "historical": "The people addressed are not slaves in the general sense but oiketai, household servants, the domestic workers and attendants who lived within a master's house. Slavery was a normal part of the Roman economy. A master held broad power over a servant's body and treatment, and the law gave little protection from his anger. The word 'unreasonable' in verse 18 describes a master whose temper or moral crookedness made life hard, and the mention of being beaten in verse 20 refers to a very real possibility.\n\nIt is striking that Peter addresses only the servants. Other New Testament household codes speak to masters as well, Ephesians 6:9 and Colossians 4:1, but here Peter's attention is on the vulnerable. There were also Christian servants whose masters were not believers, which raised a particular difficulty: they could not lean on a shared faith to restrain cruelty. Peter gives them a dignity that their position had never offered, by addressing them as moral agents who act 'because he is conscious of God.'\n\nThe passage does not claim that slavery is good. It speaks to the situation as it was, and it carries seeds that undermine the institution from the inside. Paul told Philemon to receive Onesimus 'no longer as a slave, but better than a slave, as a beloved brother,' Philemon 1:16, and said 'do not become slaves of men,' 1 Corinthians 7:23. Peter does not state a political programme. He states a way to hold dignity and obedience together when freedom is out of reach.\n\nFor first-century Jewish readers the language of Isaiah 53 had a rich background. The Servant who suffers in silence was a subject of reflection, and the early Christians read the chapter as their key to the cross. The shepherd language would also have been familiar, since Israel's leaders were often described as shepherds, and Ezekiel 34 had condemned those shepherds for failing the flock.",
+      "canonical": "The passage is the New Testament's most concentrated use of Isaiah 53. Four lines of that chapter are taken up in turn. Verse 22 follows Isaiah 53:9: 'nor was any deceit in His mouth.' Verse 23 recalls Isaiah 53:7, where He 'did not open His mouth,' and the picture of the Servant who commits His cause to God. Verse 24 draws on Isaiah 53:4 and 53:12, 'He took on our infirmities,' 'He bore the sin of many,' and on Isaiah 53:5, 'by His stripes we are healed.' Verse 25 borrows from Isaiah 53:6, 'We all like sheep have gone astray.' Peter has not simply quoted a verse. He has walked through the chapter.\n\nOther writers read the cross in the same way. Matthew 8:17 applies Isaiah 53:4 to Jesus' healing ministry, Acts 8:32 to 35 has Philip begin from Isaiah 53 and preach Jesus, Romans 4:25 says He was delivered over for our trespasses, and Hebrews 9:28 says that He was offered 'to bear the sins of many.' Jesus had said of Himself that the Son of Man came 'to give His life as a ransom for many,' Mark 10:45, echoing the same chapter.\n\nThe word 'tree' belongs to a second line. Deuteronomy 21:22 to 23 says that anyone hung on a tree is under God's curse. Galatians 3:13 says that Christ redeemed us from the curse of the law by becoming a curse for us, and Acts 5:30 and 10:39 speak of the cross as hanging on a tree. The shepherd imagery belongs to a third line, from Psalm 23 and Ezekiel 34 to Jesus' own words, 'I am the good shepherd,' John 10:11, and Hebrews 13:20, where He is 'that great Shepherd of the sheep.'"
     },
     "hermeneutics": {
-      "authorIntent": "To call believers who suffer unjustly for doing good to patient endurance after the example of Christ, and to ground that call in the deeper truth that Christ suffered as their sin-bearing Savior, taking their sins on the tree and returning them as straying sheep to the Shepherd of their souls.",
-      "descriptionVsPrescription": "Verses 18 to 21 prescribe: submit, endure, follow. Verses 22 to 25 describe what Christ did, and there the description of His sin-bearing death is not something believers imitate but something they receive. The example is to be followed; the atonement is to be trusted. Reading either as the other distorts the passage.",
+      "authorIntent": "Peter's immediate aim was pastoral and specific. He wanted servants who were being mistreated to understand that their endurance was not wasted and not shameful. In a world that regarded slaves as having no honor to lose, he told them that they could stand before God with a credit that no master could take away. The whole of the passage is built to give them courage by putting them in company with Christ.\n\nHis wider aim is to teach the whole church what suffering for doing good means. He does not tell his readers to seek suffering, nor to pretend it does not hurt. The phrase 'to this you were called' says that unjust suffering is not a surprise for those who follow Jesus, and that it has a meaning within His own path. The guiding example is a refusal of the two natural responses to abuse: to answer in kind and to threaten. In their place Peter puts a settled trust in the God who judges justly.\n\nThe move from example to substitution in verse 24 shows what he meant to guard against. If Christ were only an example, the servants would be left with a standard they could not meet. Peter says He is first the one who bore their sins, and that is why the example can be followed at all. People who have been healed by His wounds can walk in His footsteps.",
+      "descriptionVsPrescription": "The command is to servants, and Peter's description of their situation is realistic: they may be beaten even for doing good. The passage does not describe this as just or as something to be sought. It prescribes how to respond when it happens, and it ties the response to a person, not to a rule. That is why the Christ portrait takes over the passage.\n\nTwo cautions follow. The first is that the passage must not be turned into advice for people in abusive situations today to remain in danger. Peter speaks to those with no legal exit and no social power, and he calls injustice what it is. He does not say that the abuse is good, only that endurance with a clear conscience is honored by God. Elsewhere Scripture rejoices in freedom, 1 Corinthians 7:21, and commands masters to give up threats, Ephesians 6:9. The second caution is that the 'example' is selective. Christ's refusal to retaliate does not mean that He never spoke. He rebuked the leaders in plain terms, and Peter's own pattern in Acts is to speak boldly. What the passage holds up is the refusal of vengeance, not silence about wrong.\n\nVerses 24 and 25 are description, not instruction. Believers are not asked to bear sins or to heal. They are told that this has been done for them, and the commands of the passage rest on that.",
       "debates": [
         {
-          "question": "Is Christ's suffering here mainly an example or mainly substitution?",
+          "question": "Does 'by His stripes you are healed,' verse 24, mean spiritual healing only, or physical healing too?",
           "views": [
-            { "label": "Both, held together", "case": "Verses 21 to 23 present Christ as the pattern for enduring wrong, while verses 24 to 25 present Him as the substitute who bore our sins on the tree. Peter deliberately joins the two: the Savior we trust is also the model we follow." },
-            { "label": "Substitution as the foundation of the example", "case": "Others stress that the sin-bearing of verse 24 is primary and unique; the example only has power because He is first the Savior. We follow His footsteps because He has first borne our sins and made us His own." }
+            {
+              "label": "Healing from sin",
+              "case": "In Peter's sentence, the healing follows from dying to sin and living to righteousness, and the sheep image of verse 25 describes straying and returning. The wound heals the condition of sin, and Isaiah 53:5 sits beside 'the punishment that brought us peace' and 'our iniquities.'"
+            },
+            {
+              "label": "Spiritual healing with physical healing guaranteed by the atonement",
+              "case": "Others point to Matthew 8:17, where Isaiah 53:4 is applied to physical healing in the ministry of Jesus, and argue that the atonement secures bodily healing too, so that believers may seek it as part of the cross's benefits."
+            },
+            {
+              "label": "Healing now and in full at the resurrection",
+              "case": "A third reading says that the atonement guarantees every healing in the end, at the resurrection, Romans 8:23, while giving foretastes now. The Isaiah text covers all of it, but Peter's use focuses on the healing of the soul."
+            }
           ],
-          "bearing": "Both guard against reducing the cross to a mere moral lesson. Christ's unique, sin-bearing death is the ground; His patient endurance is the pattern His redeemed people trace in their own suffering."
+          "bearing": "Peter's own context is sin and righteousness, and that sets the controlling meaning. Whatever one concludes about bodily healing, the passage does not promise that every believer will be healed in this life, and it is the sin-healing that Peter uses to comfort the suffering."
         },
         {
-          "question": "What healing is meant by by His stripes you are healed, verse 24?",
+          "question": "Does this passage support or undermine slavery?",
           "views": [
-            { "label": "Chiefly spiritual healing from sin", "case": "The context is bearing sins and dying to sin, so the healing is the deep restoration of sinners to God, forgiveness and new life. Straying sheep are made well by returning to the Shepherd of their souls." },
-            { "label": "A healing that anticipates full restoration", "case": "Others note that Christ's atonement secures the whole person's final wholeness, so while the present focus is spiritual, it points toward the complete healing of body and soul in the resurrection." }
+            {
+              "label": "It accepts the institution while setting limits",
+              "case": "Peter addresses servants as they are and does not command their liberation. Some readers conclude that the New Testament tolerated slavery for the time being, and that Peter's concern is for the witness of those caught in it."
+            },
+            {
+              "label": "It undermines the institution from within",
+              "case": "Others point to the dignity Peter gives servants, to the same Christ who is Lord of masters and servants, Ephesians 6:9, and to Philemon 1:16 and 1 Corinthians 7:21 to 23, which push toward freedom. On this view the gospel's logic eventually brings slavery down, as the movement against it later showed."
+            },
+            {
+              "label": "It speaks to a situation without endorsing it",
+              "case": "A third view says that the question is a modern one, and that Peter gives pastoral counsel to people with no power rather than a moral judgment on the system. Silence on abolition is not approval, and verse 19 calls unjust suffering what it is."
+            }
           ],
-          "bearing": "Both keep the primary sense spiritual, the healing of sin's deadly wound, while affirming that this restoration will one day be complete. It is not a promise of guaranteed physical cure now."
+          "bearing": "The passage can never be used to defend the ownership or mistreatment of people. It gives dignity to the powerless and speaks about their conduct, and the rest of Scripture shows where that dignity leads."
         }
       ]
     },
-    "originalLanguages": "Servants hypotasso, submit, even to unreasonable masters, and patient endurance of unjust suffering for God's sake is commendable. Christ then becomes the model: He leaves a hypogrammos, a copybook pattern to trace over, and He suffered without sin, without deceit, without retaliation, entrusting Himself to the just Judge. Yet He is more than pattern. He bore our sins in His body on the xylon, the tree, taking the law's curse, so that we might die to sin and live to righteousness, and by His wounds we are iaomai, healed, restored from sin's deadly sickness. Once straying sheep, we have returned to the poimen and episkopos, the Shepherd and Overseer, of our souls, the one who both gathers and guards His flock.",
+    "originalLanguages": "The word for the people addressed in verse 18 is oiketai, household servants, not the more general douloi, 'slaves.' Peter has used doulos of every believer in verse 16, 'servants of God,' and the choice here sets the domestic servant in the household of a human master and then, by implication, under the Master of heaven. 'With all respect' translates a phrase with phobos, fear, which in this letter is aimed at God, 1:17 and 2:17, so the servant's deference is placed inside the fear of God. The word for 'unreasonable' is skolios, literally crooked, bent. Paul uses it of a 'crooked and perverse generation,' Philippians 2:15, while 'good and gentle' contrasts straightness with bending.\n\nVerses 19 and 20 turn on a word that is translated differently in each verse. The Greek says literally 'this is grace,' and the BSB gives 'commended' and 'commendable.' The word is charis, the same word that carries God's grace everywhere else, and here it carries the sense of credit or favor. The reason is 'conscious of God,' a phrase with syneidesis, conscience, which says that the servant acts out of an awareness of God. The verb for 'beaten' in verse 20 refers to being struck with the fist, the same word used of what happened to Jesus in Matthew 26:67 and Mark 14:65, so the servant's blows already bring him into the company of his Lord.\n\nIn verse 21 'example' is hypogrammos, a word used of a model of letters that a child traced over when learning to write. The believer is a pupil tracing the letters of Christ's life. The 'footsteps' are literally the tracks or prints left in the ground, and the verb 'follow' is built on a root meaning to come after, close behind. The tense of 'called' is the aorist and points back to a specific call, 'to this.'\n\nVerse 22 takes Isaiah 53:9 but alters one word. The Greek Isaiah says that the Servant 'did no lawlessness,' and Peter says that He 'did no sin.' Peter then uses 'deceit,' the word he used in 2:1, so that the Christian's first stripping off and Christ's perfect speech are tied. The statement is about His character, not about His silence in general.\n\nVerse 23 gives three imperfect verbs in a row, and the imperfect describes what was done repeatedly. 'Heaped abuse' and 'did not retaliate' use the same root for reviling, while 'made no threats' is a verb for threatening. The last verb, 'entrusted,' is the verb that elsewhere means to hand over, and the same verb family is used of how Jesus was handed over to the authorities. He was handed over by men, and He handed Himself over to the One who judges rightly.\n\nIn verse 24 the verb 'bore' is anaphero, which means to carry up. The Septuagint uses it for offering a sacrifice on an altar, and it appears in the Greek of Isaiah 53:12, so the cross is pictured as the place where the sins were carried up and offered. 'He Himself' is emphatic. The 'stripes' of the English is a singular word in Greek, molops, a welt or bruise, and the verb 'healed' is in the aorist, 'you were healed,' a completed act. In verse 25 'overseer,' episkopos, comes from the family that gives 'visits' in 2:12, episkope, so the Overseer is the one who comes to look upon His people.",
     "typology": [
-      { "type": "The Suffering Servant of Isaiah 53", "fulfillment": "Christ, who committed no sin, was silent before His accusers, bore the sins of many, and healed by His wounds, exactly as Isaiah foretold." },
-      { "type": "The curse of hanging on a tree, Deuteronomy 21:23", "fulfillment": "Christ bearing our sins on the tree, taking upon Himself the curse due to us." },
-      { "type": "The Shepherd gathering straying sheep, Ezekiel 34 and Psalm 23", "fulfillment": "Christ the Shepherd and Overseer of souls, to whom the wandering flock has now returned." }
+      {
+        "type": "The Suffering Servant, Isaiah 53",
+        "fulfillment": "The Servant is innocent, silent under oppression, led like a lamb, crushed by the LORD's will, and made a guilt offering for many, Isaiah 53:7 to 10. Peter takes the portrait line by line and sets it on Jesus. The escalation is that what Isaiah describes in poetry the cross does in history, and the many whose iniquities He bore are now named as those who return to the Shepherd. Jesus Himself read His mission through this Servant, Luke 22:37 and Mark 10:45. The type falls short only in that Isaiah did not name the Servant, and the chapter waited for the life of Jesus to show whose face it described."
+      },
+      {
+        "type": "The sacrifice carried up to the altar",
+        "fulfillment": "Israel's sacrifices were brought up and offered on an altar, and the animal bore the guilt of the worshipper in a symbolic way, Leviticus 1:4 and 16:21 to 22. Peter's verb for 'bore' belongs to that world, and he says the Christ carried the sins in His own body to the tree. The escalation is that the offering is the offerer: the priest, the victim and the altar are one person, Hebrews 9:14. The type falls short because the animals could not truly remove sin, Hebrews 10:4, and had to be offered again and again. This sacrifice was offered once for all."
+      },
+      {
+        "type": "The one hanged on a tree, Deuteronomy 21:22-23",
+        "fulfillment": "The law taught that a body hung on a tree was under God's curse and must be buried before nightfall so that the land would not be defiled. Peter's word 'tree' brings that law into the cross. Paul says plainly that Christ became a curse for us, quoting the same text, Galatians 3:13. The correspondence is that the one who was cursed in public was not guilty. The escalation is that the curse falls on the sinless one, so that it might be lifted from those who deserve it. The type falls short in that the law's curse was on a convicted criminal, while Christ's was a voluntary exchange."
+      },
+      {
+        "type": "The shepherd who seeks the lost, Ezekiel 34",
+        "fulfillment": "God promised through Ezekiel that He Himself would search for His scattered sheep, bring back the strays, bind up the broken and shepherd them with justice, Ezekiel 34:11 to 16, after condemning the shepherds who ruled them with cruelty. Peter's closing image gathers that promise. The straying sheep have returned to the Shepherd and Overseer. Jesus said, 'I am the good shepherd. The good shepherd lays down His life for the sheep,' John 10:11. The escalation is that the Shepherd does not only seek the sheep; He dies for them. The type falls short in that the promise in Ezekiel looked to a restored flock in a land, while Peter speaks of souls restored to God."
+      }
     ],
-    "christ": "Christ is presented as the Suffering Servant of Isaiah 53, and the passage will not let us choose between example and atonement. As example, He is sinless, truthful, and non-retaliating, entrusting Himself to the God who judges justly, so that suffering believers have footsteps to follow. As Savior, He bore our sins in His body on the tree, took the curse, and healed us by His wounds, doing what no example could accomplish. He is the crucified sin-bearer and the risen Shepherd and Overseer to whom straying sinners return and under whose care they are kept.",
-    "god": "God is revealed as the just Judge to whom Christ entrusted Himself, the one before whom patient endurance of unjust suffering is truly commendable. Because He judges justly, believers need not retaliate; they can leave their case in His hands. He is also the God who accomplished redemption through the suffering of His Son, and who through Christ shepherds and oversees the souls of His people, bringing wandering sheep safely home. He is just, saving, and watchful over His flock.",
+    "christ": "The passage presents Christ as two things that we usually keep apart, pattern and price, and it refuses to let either swallow the other. He is the pattern in verses 21 to 23 and the price in verses 24 to 25. Peter's genius here is to show that the Person who can be followed is the same Person who has already done what we could never do.\n\nAs pattern, He is sinless in deed and in speech, Isaiah 53:9. The apostle who had once seen Him taunted and struck, and who had himself failed to stand beside Him in the courtyard, now says that Jesus did not threaten when He suffered. Peter had seen it. The Gospels bear it out, Matthew 27:12 to 14, where He gave no answer to the charges, and Luke 23:34, where He said, 'Father, forgive them, for they do not know what they are doing.' The first martyr Stephen would copy this at his own death, Acts 7:60. The example is not a theory.\n\nHis secret was trust. He 'entrusted Himself to Him who judges justly.' The refusal to retaliate was not weakness or resignation but confidence that the Judge would put things right. He could let go of vengeance because He did not need to hold it, and this is the thing Peter offers the household servants: they may be silent because there is a Judge. Paul gives the same ground when he says, 'Vengeance is Mine; I will repay,' Romans 12:19.\n\nAs price, He bore sins 'in His body on the tree.' It was His own body, and the verb is that of an offering carried up and laid down. Paul teaches that God 'made Him who knew no sin to be sin on our behalf, so that in Him we might become the righteousness of God,' 2 Corinthians 5:21, and Hebrews says He 'was offered once to bear the sins of many,' Hebrews 9:28. The purpose clause matters: 'so that we might die to sin and live to righteousness.' The cross is meant to change the people it saves, which Paul explains at length in Romans 6:2 to 11.\n\nHe is the Shepherd and Overseer. The one who bore the sins is the one who now tends the souls He saved. Hebrews calls Him 'that great Shepherd of the sheep,' Hebrews 13:20, and Peter will call Him the Chief Shepherd, 5:4. The Lamb of the first chapter is the Shepherd of the second, and the Servant who was silent is the one who now speaks to His flock.\n\nThe reading should be kept honest. Peter says what Isaiah 53 says; he does not use the passage to prove that every detail of the Servant song has a secret counterpart. What he gives is a Christ we can imitate because He first bore what we could not.",
+    "god": "The passage shows God as a just judge, and the phrase 'Him who judges justly' is the foundation of everything else. Christ's silence was possible because He knew that the judgment of God is not arbitrary or absent. Wrongs are not erased by being endured, and the servant who bites back a retort is not abandoning justice but handing it to the right person. Because God judges justly, vengeance is safe in His hands, and that is the freedom the passage offers to people who have no power of their own.\n\nHe is also the God who sees what no one else regards. A servant's endurance 'because he is conscious of God' earns credit with Him, though no master would notice it. In the ledger of the household it counts for nothing, and in the ledger of God it is commended. The word for credit is the word for grace, and God treats faithful endurance as a kind of grace that He returns. The God of the Bible keeps better accounts than the world.\n\nHe is the God who laid sin on His Son. Isaiah says it was the LORD's will to crush Him, Isaiah 53:10, and the LORD laid upon Him the iniquity of us all, Isaiah 53:6. Peter's 'He Himself bore' does not make the Father a bystander. The cross is the Father's plan and the Son's willing act, and it shows that justice and mercy do not need to be traded off. The sins are punished, in a body on a tree, and the sinners are healed.\n\nHe is the God who heals. The word is used for the restoration of those who were sick with sin, and the healing is accomplished by wounds that are not ours. This reveals a God whose way of mending is to take the damage into Himself. It is a different kind of power from the world's, and the passage presents it as the true one.\n\nHe is the Shepherd and Overseer. The God of Ezekiel 34 promised that He Himself would seek His flock, and Peter says that He has. It is the care of one who knows His sheep and will not let them be lost. Because He is also the Overseer, the one who watches, no sheep is out of His view.\n\nFor worship the passage invites a quiet confidence. We praise a God who judges rightly and so we can set down our resentment, and a God who bore our sins and so we can stop pretending to be righteous. The last word of the passage is a homecoming, and the right response is the one the returned sheep makes: to stay close to the Shepherd.",
     "crossReferences": [
-      { "ref": "Isaiah 53:4-9", "note": "The Servant bears our sins, is silent before His accusers, and heals by His wounds, the passage Peter quotes throughout verses 22 to 25." },
-      { "ref": "Deuteronomy 21:22-23", "note": "Cursed is everyone hung on a tree, the curse Christ took when He bore our sins on the tree." },
-      { "ref": "Ezekiel 34:11-16", "note": "God promises to seek and shepherd His scattered sheep, fulfilled in Christ the Shepherd of souls." },
-      { "ref": "Romans 6:11", "note": "Consider yourselves dead to sin and alive to God, matching Peter's die to sin and live to righteousness." }
+      {
+        "ref": "Isaiah 53:4-12",
+        "note": "The chapter that supplies Peter's language throughout verses 22 to 25: no deceit in His mouth, silence under oppression, the bearing of sin, healing by His stripes, and straying sheep. Reading it whole shows how closely Peter follows it, and how the Servant's suffering is both unjust and purposeful."
+      },
+      {
+        "ref": "Deuteronomy 21:22-23",
+        "note": "A body hung on a tree was under God's curse. Peter's use of 'tree' for the cross carries this law with it. It explains why the cross was an offense to Jews, and why Paul would say that Christ became a curse for us."
+      },
+      {
+        "ref": "Galatians 3:13",
+        "note": "Paul quotes the Deuteronomy text and says that Christ redeemed us from the curse of the law by becoming a curse for us. Peter's 'bore our sins in His body on the tree' and Paul's curse language describe the same exchange from two angles."
+      },
+      {
+        "ref": "Ephesians 6:5-9",
+        "note": "Paul's instruction to slaves and masters has the same pattern as Peter's: respect and sincerity, service as to the Lord, and the warning to masters that the Master of both is in heaven and shows no favoritism. It shows that the household instruction was shared across the apostolic churches."
+      },
+      {
+        "ref": "Philemon 1:15-16",
+        "note": "Paul asks Philemon to receive Onesimus no longer as a slave but as a beloved brother. It shows how the gospel's dignity pressed against the institution, and it gives a sense of the direction in which Peter's address to the servants was already moving."
+      },
+      {
+        "ref": "1 Peter 3:13-17",
+        "note": "Peter returns to suffering for what is right: blessed if you suffer, ready to give a reason for hope, with gentleness, a clear conscience, so that slanderers are put to shame. It extends the servants' calling to the whole church."
+      },
+      {
+        "ref": "Hebrews 12:2-3",
+        "note": "Believers are told to fix their eyes on Jesus who endured the cross and to consider Him who endured such hostility so as not to grow weary. It shares Peter's idea that looking at Christ's endurance gives strength for ours."
+      },
+      {
+        "ref": "Romans 6:2-11",
+        "note": "Paul explains what dying to sin and living to righteousness means: union with Christ in His death and resurrection, so that the old self is crucified and sin loses its rule. It unpacks the purpose clause of 1 Peter 2:24."
+      },
+      {
+        "ref": "2 Corinthians 5:21",
+        "note": "God made Him who knew no sin to be sin on our behalf, so that in Him we might become the righteousness of God. It matches Peter's pairing of Christ's sinlessness in verse 22 with His sin-bearing in verse 24."
+      },
+      {
+        "ref": "Ezekiel 34:11-16",
+        "note": "The LORD Himself promises to search for His scattered sheep, rescue them, and shepherd them with justice. Peter's returning sheep in verse 25 are the answer to this promise, and the Shepherd is the one who has come to look for them."
+      },
+      {
+        "ref": "John 10:11-16",
+        "note": "Jesus is the good shepherd who lays down His life for the sheep, and He knows His own. Peter's picture of the sheep who return to the Shepherd and Overseer of their souls looks to this self-giving Shepherd."
+      },
+      {
+        "ref": "Luke 23:34",
+        "note": "On the cross Jesus prays for those who are killing Him. It is the plainest picture of a man who 'did not retaliate' and who entrusted Himself to the Father, and it shows what verse 23 looks like when lived."
+      }
     ],
-    "oneStory": "The prophets foretold a Servant who would suffer in silence and bear the sins of many, and a Shepherd God who would gather His straying flock. At the cross both promises meet: Christ takes the curse on the tree, heals by His wounds, and turns wandering sheep toward home. The unjust suffering of God's people, when borne for doing good, now traces the footsteps of that Servant, and their homecoming to the Shepherd of their souls is a foretaste of the whole story's end, the flock safe under its King.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "The passage touches the whole drama in a small space. The first sheep to go astray were in a garden, and every human story has followed them, Genesis 3. By Isaiah 53 the prophet could say of all of us that we like sheep have gone astray and each has turned to his own way. The question that runs through the Old Testament is how a flock so scattered can be brought home, and who is the shepherd able to do it. Ezekiel heard God say that He would do it Himself, Ezekiel 34:11. Isaiah heard that a Servant would bear the iniquity of all. Peter says these two promises are one event.\n\nThe passage also answers the question of suffering. From Job to the psalms of lament, Scripture asks why the righteous suffer. Peter gives an answer that does not explain the pain but places it. The one perfectly righteous Person suffered the most unjust death, and He did it on purpose and with a purpose. Unjust suffering is therefore not a sign that God has abandoned His people. It is the path that the Servant took, and those who follow Him in it are in His company, as Paul says when he speaks of sharing in His sufferings so that we may be glorified with Him, Romans 8:17.\n\nIt answers the question of the curse as well. In Genesis 3 the ground was cursed, and in Deuteronomy the one hung on a tree was cursed. On the tree of Calvary the curse is borne by the Son, and the tree of the garden that led to exile is answered by the tree that leads home. In Revelation the tree of life appears again, with leaves for the healing of the nations, Revelation 22:2, and the word 'healing' there is of a piece with Peter's.\n\nThe passage ends with the Shepherd, and the story ends with the same figure. In Revelation the Lamb at the centre of the throne is the one who will shepherd His people and lead them to springs of living water, Revelation 7:17. The returned sheep of 1 Peter 2:25 are the beginning of that flock. Until the day when every tear is wiped away, the people of God walk in the footsteps of the one who was wounded for them and who now watches over their souls.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What kind of suffering does Peter say is commendable before God?",
       "options": [
-        { "text": "Enduring unjust suffering for doing good, out of consciousness of God.", "weight": 100, "note": "Verses 19 to 20: suffering for doing good and enduring it is what God commends." },
-        { "text": "Suffering that comes as punishment for doing wrong.", "weight": 0, "note": "Peter says there is no credit in enduring a beating deserved for wrongdoing." },
-        { "text": "Any hardship at all, regardless of its cause.", "weight": 25, "note": "The commendable suffering is specifically for doing good, not suffering in general." },
-        { "text": "Patient endurance of mistreatment while doing right.", "weight": 75, "note": "True and close, though the answer should include that it is done out of consciousness of God." }
+        {
+          "text": "Enduring unjust suffering for doing good, out of consciousness of God.",
+          "weight": 100,
+          "note": "Verses 19 to 20: suffering for doing good and enduring it is what God commends."
+        },
+        {
+          "text": "Suffering that comes as punishment for doing wrong.",
+          "weight": 0,
+          "note": "Peter says there is no credit in enduring a beating deserved for wrongdoing."
+        },
+        {
+          "text": "Any hardship at all, regardless of its cause.",
+          "weight": 25,
+          "note": "The commendable suffering is specifically for doing good, not suffering in general."
+        },
+        {
+          "text": "Patient endurance of mistreatment while doing right.",
+          "weight": 75,
+          "note": "True and close, though the answer should include that it is done out of consciousness of God."
+        }
       ]
     },
     {
       "q": "In what way did Christ leave us an example in His suffering?",
       "options": [
-        { "text": "He committed no sin and did not retaliate, but entrusted Himself to God who judges justly.", "weight": 100, "note": "Verses 22 to 23: sinless, silent, non-retaliating, trusting the just Judge." },
-        { "text": "He avoided suffering wherever He could.", "weight": 0, "note": "He suffered for us; the example is how He bore it, not that He escaped it." },
-        { "text": "He fought back against those who wronged Him.", "weight": 25, "note": "The opposite: He did not retaliate or threaten." },
-        { "text": "He bore mistreatment patiently, leaving a pattern to follow.", "weight": 75, "note": "True, He leaves a pattern to trace, though the answer should name His sinlessness and trust in God." }
+        {
+          "text": "He committed no sin and did not retaliate, but entrusted Himself to God who judges justly.",
+          "weight": 100,
+          "note": "Verses 22 to 23: sinless, silent, non-retaliating, trusting the just Judge."
+        },
+        {
+          "text": "He avoided suffering wherever He could.",
+          "weight": 0,
+          "note": "He suffered for us; the example is how He bore it, not that He escaped it."
+        },
+        {
+          "text": "He fought back against those who wronged Him.",
+          "weight": 25,
+          "note": "The opposite: He did not retaliate or threaten."
+        },
+        {
+          "text": "He bore mistreatment patiently, leaving a pattern to follow.",
+          "weight": 75,
+          "note": "True, He leaves a pattern to trace, though the answer should name His sinlessness and trust in God."
+        }
       ]
     },
     {
       "q": "What did Christ do that goes beyond leaving an example?",
       "options": [
-        { "text": "He bore our sins in His body on the tree so we might die to sin and live to righteousness.", "weight": 100, "note": "Verse 24: substitution, not mere example, is the heart of the cross here." },
-        { "text": "He showed that good people sometimes suffer.", "weight": 0, "note": "That misses the unique, sin-bearing work only He could accomplish." },
-        { "text": "He healed us by His wounds, restoring us from sin's deadly sickness.", "weight": 75, "note": "True, verse 24, and part of the sin-bearing work, though the answer should name that He bore our sins." },
-        { "text": "He taught a new philosophy of endurance.", "weight": 25, "note": "The cross is atonement, not merely a teaching about suffering." }
+        {
+          "text": "He bore our sins in His body on the tree so we might die to sin and live to righteousness.",
+          "weight": 100,
+          "note": "Verse 24: substitution, not mere example, is the heart of the cross here."
+        },
+        {
+          "text": "He showed that good people sometimes suffer.",
+          "weight": 0,
+          "note": "That misses the unique, sin-bearing work only He could accomplish."
+        },
+        {
+          "text": "He healed us by His wounds, restoring us from sin's deadly sickness.",
+          "weight": 75,
+          "note": "True, verse 24, and part of the sin-bearing work, though the answer should name that He bore our sins."
+        },
+        {
+          "text": "He taught a new philosophy of endurance.",
+          "weight": 25,
+          "note": "The cross is atonement, not merely a teaching about suffering."
+        }
       ]
     },
     {
       "q": "Why does Peter call the cross the tree?",
       "options": [
-        { "text": "To echo the curse on anyone hung on a tree, which Christ took in our place.", "weight": 100, "note": "Verse 24 draws on Deuteronomy 21:23; Christ bore the curse for us." },
-        { "text": "Simply because the cross was made of wood.", "weight": 25, "note": "It was wooden, but the deeper point is the curse language of Deuteronomy." },
-        { "text": "To soften the horror of crucifixion.", "weight": 0, "note": "The term intensifies, not softens, pointing to the curse Christ bore." },
-        { "text": "To connect His death with the law's judgment on sin.", "weight": 75, "note": "True to the sense, though the answer should name the specific curse of hanging on a tree." }
+        {
+          "text": "To echo the curse on anyone hung on a tree, which Christ took in our place.",
+          "weight": 100,
+          "note": "Verse 24 draws on Deuteronomy 21:23; Christ bore the curse for us."
+        },
+        {
+          "text": "Simply because the cross was made of wood.",
+          "weight": 25,
+          "note": "It was wooden, but the deeper point is the curse language of Deuteronomy."
+        },
+        {
+          "text": "To soften the horror of crucifixion.",
+          "weight": 0,
+          "note": "The term intensifies, not softens, pointing to the curse Christ bore."
+        },
+        {
+          "text": "To connect His death with the law's judgment on sin.",
+          "weight": 75,
+          "note": "True to the sense, though the answer should name the specific curse of hanging on a tree."
+        }
       ]
     },
     {
       "q": "How does Peter describe the believers' return to Christ?",
       "options": [
-        { "text": "As straying sheep who have returned to the Shepherd and Overseer of their souls.", "weight": 100, "note": "Verse 25: lost sheep brought home to the Shepherd who watches over them." },
-        { "text": "As citizens who have joined a new nation.", "weight": 25, "note": "The image here is sheep returning to a shepherd, not a change of citizenship." },
-        { "text": "As wanderers now cared for and guarded by Christ.", "weight": 75, "note": "True to the sense, though the answer should name the Shepherd and Overseer of souls." },
-        { "text": "As people who never really went astray.", "weight": 0, "note": "Peter says they were like sheep going astray before their return." }
+        {
+          "text": "As straying sheep who have returned to the Shepherd and Overseer of their souls.",
+          "weight": 100,
+          "note": "Verse 25: lost sheep brought home to the Shepherd who watches over them."
+        },
+        {
+          "text": "As citizens who have joined a new nation.",
+          "weight": 25,
+          "note": "The image here is sheep returning to a shepherd, not a change of citizenship."
+        },
+        {
+          "text": "As wanderers now cared for and guarded by Christ.",
+          "weight": 75,
+          "note": "True to the sense, though the answer should name the Shepherd and Overseer of souls."
+        },
+        {
+          "text": "As people who never really went astray.",
+          "weight": 0,
+          "note": "Peter says they were like sheep going astray before their return."
+        }
       ]
     }
   ],
@@ -162,9 +387,21 @@
     "You were a straying sheep who has returned to the Shepherd of your souls. Where are you tempted to wander now, and how does the Shepherd's watchful care draw you back?"
   ],
   "translationNotes": [
-    { "ref": "1 Peter 2:21", "note": "Example translates hypogrammos, the copybook pattern a child traces to learn to write, picturing Christ's life as the model believers copy." },
-    { "ref": "1 Peter 2:24", "note": "Verses 22 to 25 quote and echo Isaiah 53 repeatedly; by His stripes you are healed comes from Isaiah 53:5, chiefly meaning spiritual restoration from sin." },
-    { "ref": "1 Peter 2:24", "note": "In His body on the tree uses xylon, wood or tree, evoking Deuteronomy 21:23 and the curse Christ bore in our place." }
+    {
+      "ref": "1 Peter 2:21",
+      "note": "Example translates hypogrammos, the copybook pattern a child traces to learn to write, picturing Christ's life as the model believers copy."
+    },
+    {
+      "ref": "1 Peter 2:24",
+      "note": "Verses 22 to 25 quote and echo Isaiah 53 repeatedly; by His stripes you are healed comes from Isaiah 53:5, chiefly meaning spiritual restoration from sin."
+    },
+    {
+      "ref": "1 Peter 2:24",
+      "note": "In His body on the tree uses xylon, wood or tree, evoking Deuteronomy 21:23 and the curse Christ bore in our place."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for 1 Peter 2:18-25." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for 1 Peter 2:18-25."
+  }
 }

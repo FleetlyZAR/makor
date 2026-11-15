@@ -18,8 +18,16 @@
         "note": "good deeds that silence slander",
         "emphasis": "",
         "verses": [
-          { "chapter": 2, "n": 11, "text": "Beloved, I urge you, as {{paroikoi|foreigners and exiles}}, to abstain from the desires of the flesh, which war against your soul." },
-          { "chapter": 2, "n": 12, "text": "Conduct yourselves with such {{anastrophe|honor}} among the Gentiles that, though they slander you as evildoers, they may see your good deeds and glorify God on the day He visits us." }
+          {
+            "chapter": 2,
+            "n": 11,
+            "text": "Beloved, I urge you, as {{paroikoi|foreigners and exiles}}, to abstain from the desires of the flesh, which war against your soul."
+          },
+          {
+            "chapter": 2,
+            "n": 12,
+            "text": "Conduct yourselves with such {{anastrophe|honor}} among the Gentiles that, though they slander you as evildoers, they may see your good deeds and glorify God on the day He visits us."
+          }
         ]
       },
       {
@@ -27,22 +35,72 @@
         "note": "for the Lord's sake",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 2, "n": 13, "text": "{{hypotasso|Submit yourselves}} for the Lord’s sake to every human {{ktisis|institution}}, whether to the king as the supreme authority," },
-          { "chapter": 2, "n": 14, "text": "or to governors as those sent by him to punish those who do wrong and to praise those who do right." },
-          { "chapter": 2, "n": 15, "text": "For it is God’s will that by doing good you should silence the ignorance of foolish men." },
-          { "chapter": 2, "n": 16, "text": "Live in {{eleutheria|freedom}}, but do not use your freedom as a cover-up for evil; live as {{douloi|servants of God}}." },
-          { "chapter": 2, "n": 17, "text": "Treat everyone with high regard: Love the brotherhood of believers, fear God, honor the king." }
+          {
+            "chapter": 2,
+            "n": 13,
+            "text": "{{hypotasso|Submit yourselves}} for the Lord’s sake to every human {{ktisis|institution}}, whether to the king as the supreme authority,"
+          },
+          {
+            "chapter": 2,
+            "n": 14,
+            "text": "or to governors as those sent by him to punish those who do wrong and to praise those who do right."
+          },
+          {
+            "chapter": 2,
+            "n": 15,
+            "text": "For it is God’s will that by doing good you should silence the ignorance of foolish men."
+          },
+          {
+            "chapter": 2,
+            "n": 16,
+            "text": "Live in {{eleutheria|freedom}}, but do not use your freedom as a cover-up for evil; live as {{douloi|servants of God}}."
+          },
+          {
+            "chapter": 2,
+            "n": 17,
+            "text": "Treat everyone with high regard: Love the brotherhood of believers, fear God, honor the king."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "paroikoi": { "language": "Greek", "lemma": "paroikoi kai parepidemoi", "original": "πάροικοι καὶ παρεπίδημοι", "gloss": "Foreigners and exiles, resident aliens and temporary sojourners. The pair stresses that believers do not finally belong to this world; their home is with God. This pilgrim identity is the ground of the appeal: because they are strangers here, they live differently, holding earthly life loosely." },
-    "anastrophe": { "language": "Greek", "lemma": "anastrophe", "original": "ἀναστροφή", "gloss": "Manner of life, conduct, the whole pattern of how one behaves. Peter urges an honorable anastrophe among outsiders. It is a favorite word in the letter, pointing to visible, everyday behavior that others observe and that can either dishonor or glorify God." },
-    "hypotasso": { "language": "Greek", "lemma": "hypotasso", "original": "ὑποτάσσω", "gloss": "To submit, to place oneself under, an ordering term from the military and household world. Peter calls believers to submit to governing authority for the Lord's sake. It is voluntary submission for God's honor, not servile fear, and it runs through the letter's teaching on citizens, servants, and wives." },
-    "ktisis": { "language": "Greek", "lemma": "anthropine ktisis", "original": "ἀνθρωπίνη κτίσις", "gloss": "A human institution or created ordering, here every human authority. Government is a human arrangement, yet ordained by God for order and justice. Believers submit to it for the Lord's sake, recognizing that even earthly authority serves God's purposes of restraining evil and commending good." },
-    "eleutheria": { "language": "Greek", "lemma": "eleutheros", "original": "ἐλεύθερος", "gloss": "Free, at liberty. Believers are truly free, no longer enslaved to sin or to human opinion. Yet Peter warns against using freedom as a cover for evil. Christian liberty is not license; it is the freedom of God's servants, expressed in glad, self-giving obedience." },
-    "douloi": { "language": "Greek", "lemma": "douloi theou", "original": "δοῦλοι θεοῦ", "gloss": "Servants or slaves of God. The paradox is deliberate: the free are God's slaves. True freedom is found in belonging wholly to God. Because believers serve God as their true Master, they can honor human authorities without fear, since their ultimate allegiance is secure in Him." }
+    "paroikoi": {
+      "language": "Greek",
+      "lemma": "paroikoi kai parepidemoi",
+      "original": "πάροικοι καὶ παρεπίδημοι",
+      "gloss": "Foreigners and exiles, resident aliens and temporary sojourners. The pair stresses that believers do not finally belong to this world; their home is with God. This pilgrim identity is the ground of the appeal: because they are strangers here, they live differently, holding earthly life loosely."
+    },
+    "anastrophe": {
+      "language": "Greek",
+      "lemma": "anastrophe",
+      "original": "ἀναστροφή",
+      "gloss": "Manner of life, conduct, the whole pattern of how one behaves. Peter urges an honorable anastrophe among outsiders. It is a favorite word in the letter, pointing to visible, everyday behavior that others observe and that can either dishonor or glorify God."
+    },
+    "hypotasso": {
+      "language": "Greek",
+      "lemma": "hypotasso",
+      "original": "ὑποτάσσω",
+      "gloss": "To submit, to place oneself under, an ordering term from the military and household world. Peter calls believers to submit to governing authority for the Lord's sake. It is voluntary submission for God's honor, not servile fear, and it runs through the letter's teaching on citizens, servants, and wives."
+    },
+    "ktisis": {
+      "language": "Greek",
+      "lemma": "anthropine ktisis",
+      "original": "ἀνθρωπίνη κτίσις",
+      "gloss": "A human institution or created ordering, here every human authority. Government is a human arrangement, yet ordained by God for order and justice. Believers submit to it for the Lord's sake, recognizing that even earthly authority serves God's purposes of restraining evil and commending good."
+    },
+    "eleutheria": {
+      "language": "Greek",
+      "lemma": "eleutheros",
+      "original": "ἐλεύθερος",
+      "gloss": "Free, at liberty. Believers are truly free, no longer enslaved to sin or to human opinion. Yet Peter warns against using freedom as a cover for evil. Christian liberty is not license; it is the freedom of God's servants, expressed in glad, self-giving obedience."
+    },
+    "douloi": {
+      "language": "Greek",
+      "lemma": "douloi theou",
+      "original": "δοῦλοι θεοῦ",
+      "gloss": "Servants or slaves of God. The paradox is deliberate: the free are God's slaves. True freedom is found in belonging wholly to God. Because believers serve God as their true Master, they can honor human authorities without fear, since their ultimate allegiance is secure in Him."
+    }
   },
   "study": {
     "basic": {
@@ -56,92 +114,248 @@
       "oneStory": "God's people have always lived as sojourners among the nations, from Abraham to Israel in exile to the scattered church. In every age they are called to live honorably in a watching world, honoring earthly authority while keeping their deepest allegiance for God. This pilgrim faithfulness, doing good under suspicion, points to the day God visits and every knee bows to Christ the true King."
     },
     "context": {
-      "literary": "Verse 11 marks a turn in the letter with beloved, I urge you, moving from identity to conduct in the world. Verses 11 to 12 give the general principle of honorable living; verses 13 to 17 apply it to civic authority, opening a series of submission texts that will extend to servants, wives, and husbands. The section is framed by the theme of good deeds observed by outsiders and ends with a crisp fourfold summary.",
-      "historical": "Written under the Roman Empire, likely in Nero's reign, to a marginalized minority already suffering slander as evildoers. Christians were suspected of disloyalty and secret vice. Peter's teaching answers this directly: exemplary conduct and orderly submission would refute the slanders and adorn the gospel, even as believers reserved their ultimate fear for God alone.",
-      "canonical": "The passage stands alongside Romans 13 and Jesus' teaching on Caesar as a foundation for Christian thinking about church and state. It holds together genuine submission to human authority with the supremacy of God, and it sets that civic teaching within the larger biblical theme of God's people as sojourners in a world not yet their home."
+      "literary": "The unit is the hinge of the letter. Everything before 2:11 describes who the readers are, born again, redeemed, chosen, a holy nation. Everything after it, to 3:12, describes how that identity works itself out in the three most binding relationships of their world: citizen and state, servant and master, wife and husband. Verse 11 opens with 'Beloved, I urge you,' a change of register from announcement to appeal, and the appeal is built as a statement of principle followed by an application. The principle is verses 11 to 12, and verses 13 to 17 are the first application.\n\nThe passage is held together by a pair of purpose clauses that look at the watching world. In verse 12 the outsiders who slander will 'see your good deeds and glorify God.' In verse 15 doing good will 'silence the ignorance of foolish men.' One clause is hopeful, the other is restrained, and between them is the whole strategy of the letter: no retaliation, no withdrawal, no flattery, but a beautiful life that leaves the critic without an answer.\n\nVerses 16 and 17 are a small piece of careful rhetoric. Verse 16 gives three clauses beginning with the same 'as': as free, as having no cover-up for evil, as servants of God. Verse 17 then gives four short commands in a tight balance, with the word for 'honor' used for everyone and again for the king, while 'fear' is kept apart for God alone. The structure is a ranking of loyalties. The final four commands are so brief that they work almost like a proverb, which is probably why this verse was memorized and quoted for centuries.",
+      "historical": "Peter writes to churches in the provinces of Asia Minor, 1 Peter 1:1, under Roman rule. The 'king' of verse 13 is the emperor, called basileus in Greek, the ordinary eastern title for him, and the 'governors' are the Roman officials who administered the provinces and who held the power of the sword. The readers lived in cities where local elites flattered the emperor with temples and festivals, and where loyalty to the empire and worship of its gods were hard to tell apart.\n\nThe accusation of 'evildoers' in verse 12 reflects a real suspicion. Christians were outsiders who refused to share in ancestral sacrifices, who met privately, and who spoke of another King. Peter's own letter returns to the charge in 3:16 and 4:14 to 16, where he distinguishes suffering for wrongdoing from suffering 'as a Christian.' Within a generation a Roman historian would describe Christians as a group despised for their vices, so the slander was both common and persistent. Peter's advice is not to argue about it but to live in such a way that the accusation visibly fails.\n\nThe immediate background to the passage is not the severe persecution of later decades, though the letter looks forward to a 'fiery trial,' 4:12. It is the ordinary pressure of social contempt, with the threat of worse. This is why the command is so practical. Taxes had to be paid, the emperor's officers answered to, and the peace of the city kept. Jesus had set the pattern in the matter of the temple tax, which He paid so as not to cause offense, Matthew 17:27, and in the answer, 'Give to Caesar what is Caesar's, and to God what is God's,' Matthew 22:21.\n\nThere was also a Jewish precedent for exiles living under foreign power. Jeremiah's letter to the exiles in Babylon told them to build houses, plant gardens and 'seek the prosperity of the city,' praying to the LORD on its behalf, Jeremiah 29:5 to 7. Peter's readers had been given the identity of exiles, and Jeremiah showed how exiles behave.",
+      "canonical": "The command to submit stands among a family of texts that treat government as an arrangement under God. Proverbs 8:15 has wisdom say, 'By me kings reign,' and Daniel 2:21 says that God 'removes kings and establishes them.' Paul gives the longest New Testament treatment in Romans 13:1 to 7, where rulers are God's servants for the good of the people and where taxes are to be paid, and he commands prayer for kings in 1 Timothy 2:1 to 2 and obedience to rulers in Titus 3:1. Peter's short paragraph belongs to this teaching and agrees with it.\n\nThe same Bible also shows the limit. The Hebrew midwives feared God and refused the king's order to kill the boys, Exodus 1:17, and Daniel's friends said they would not serve the king's gods even if God did not deliver them, Daniel 3:17 to 18. Peter himself, before the council, said that 'We must obey God rather than men,' Acts 5:29. In Revelation 13 the state appears as a beast that makes war on the saints, Revelation 13:7. Peter's command to honor the king and the book of Revelation's picture of the beast belong to one canon, and both are true of states at different times.\n\nThe theme of foreigners and exiles has its own canonical line. Abraham told the Hittites 'I am a foreigner and an outsider among you,' Genesis 23:4, David said 'we are foreigners and strangers in Your presence,' 1 Chronicles 29:15, and Hebrews 11:13 to 16 says the patriarchs sought a better country, a heavenly one. Paul says our citizenship is in heaven, Philippians 3:20. The idea of freedom and service has its parallels too, in Galatians 5:13 and Romans 6:22, where the freed become slaves of God."
     },
     "hermeneutics": {
-      "authorIntent": "To call believers to honorable, distinct lives as pilgrims in the world, and to glad submission to human authority for the Lord's sake, so that their good conduct silences slander, fulfills God's will, and leads outsiders to glorify God, while their ultimate allegiance remains to God alone.",
-      "descriptionVsPrescription": "The section is largely prescriptive: abstain, conduct yourselves, submit, honor, love, fear. Yet the commands rest on the description of who they are, foreigners and exiles, free people, servants of God. The prescriptions are the outworking of that identity in the public square.",
+      "authorIntent": "Peter wrote to people with no power over the state and every reason to resent it. He wanted them to see that their situation was not a reason to retreat into a private religion, nor a call for resistance, but a setting for witness. The point of verses 11 and 12 is not citizenship in itself but reputation. Gentiles watch; they slander; the believers' conduct is the evidence that can contradict the slander. Submission is therefore a form of testimony.\n\nHe also meant to protect the readers from two opposite mistakes. One is the temptation to treat their heavenly citizenship as a reason to despise earthly order, to use their freedom as a cover for evil. The other is to treat the state as the final authority. The ranking in verse 17 prevents both: everyone is to be honored, the king is to be honored, but only God is to be feared. The sentence puts the emperor in his proper place without insulting him.\n\nThe tone of the passage is not defensive. Peter expects that good deeds will produce a good result, 'glorify God on the day He visits us,' and so the passage assumes that those who submit are the ones pursuing the larger win. He wanted a church that could be recognized by its deeds and could not be accused of the crimes it was charged with.",
+      "descriptionVsPrescription": "The passage commands, but the commands are placed in a particular situation. Peter addresses a minority of believers under an empire they could not influence by votes or by law. The command to submit 'to every human institution' fits those conditions. Applying it to a believer who lives in a democracy, with a voice, a vote and a duty to speak for the vulnerable, takes more than copying the words, though the heart of the command, honor and honest dealing, still holds. What carries over is the stance: respect, lawfulness, good deeds and refusal to use faith as a cover for sin.\n\nThe passage does not describe the state as always just, nor does it command believers to approve of what the state does. The governors are described by their intended function: to punish wrongdoers and to praise those who do right, verse 14. That is a description of what governors are meant to do, and the same Peter would later say in Acts 5:29 that obedience to God comes first. The command is also bounded by its phrase 'for the Lord's sake.' It is not a blanket instruction to do anything a ruler says.\n\nVerse 16 prevents another misreading. Peter does not say that submission cancels freedom. He says to live free and to live as God's servants. The command is addressed to free people who choose a posture, not to people who have no choice.",
       "debates": [
         {
-          "question": "Is submission to authority absolute, or are there limits?",
+          "question": "What does 'every human institution' mean, verse 13?",
           "views": [
-            { "label": "Submission bounded by obedience to God", "case": "Because it is for the Lord's sake and God's will, submission can never require sin. When rulers command what God forbids, believers must obey God rather than men, as Peter himself did in Acts. The command assumes a Godward limit." },
-            { "label": "A strong general call to submit under unjust regimes", "case": "Others stress how sweeping the command is: even under a Nero, believers submit and do good, refusing rebellion. The emphasis falls on peaceable, honorable submission rather than on the exceptions, though the exceptions are real." }
+            {
+              "label": "Every human institution or authority",
+              "case": "The BSB follows the common reading: ktisis refers to what is created or established, and 'human' marks it as an arrangement made among people. The examples that follow, king and governors, show that Peter means government, and the parallel in Romans 13:1 supports this."
+            },
+            {
+              "label": "Every human creature",
+              "case": "Another view keeps the older sense of the word, 'created thing,' and reads 'every human creature,' so that believers are to defer to every person in authority. The following list is then a specification of those persons."
+            },
+            {
+              "label": "An institution created by God through human agency",
+              "case": "A third view stresses that both words matter. The authorities are human in their form and appointment, yet they exist within God's order, so 'for the Lord's sake' acknowledges that their legitimacy rests ultimately on God."
+            }
           ],
-          "bearing": "Both hold that Christians are to be peaceable, honorable citizens who honor rulers, yet reserve ultimate obedience and fear for God. Submission is genuine but never idolatrous."
+          "bearing": "All three land in the same place. Peter means the structures of government and the people who hold them, and he asks for a posture of respect that is motivated by the Lord, not by fear or flattery of the officeholder."
         },
         {
-          "question": "What is the difference between fear God and honor the king, verse 17?",
+          "question": "What is 'the day He visits us,' verse 12?",
           "views": [
-            { "label": "A deliberate ranking of allegiances", "case": "The king receives honor, but God alone receives fear. Peter carefully assigns the higher word to God, teaching that earthly rulers are due respect but never the reverence that belongs to God alone." },
-            { "label": "Both due their proper regard", "case": "Others read the fourfold list as simply assigning each party its fitting due: everyone respect, believers love, God fear, king honor. Even so, the words are not interchangeable, and God's place remains supreme." }
+            {
+              "label": "A day of salvation",
+              "case": "The 'visitation' is when God draws the slanderers to Himself, so they glorify Him by believing. This fits the evangelistic goal of good deeds in the passage and in 3:1 to 2, where wives win their husbands without words."
+            },
+            {
+              "label": "A day of judgment",
+              "case": "Others note that 'visitation' language in the Old Testament and in Luke 19:44 often means a time when God comes to judge. On this view the outsiders will be forced to acknowledge God on the last day, even if they refused to do so earlier."
+            },
+            {
+              "label": "Either, depending on the response",
+              "case": "A mediating reading says the word itself is neutral. God's coming will be salvation for those who respond and judgment for those who do not, and Peter leaves it open."
+            }
           ],
-          "bearing": "Either way, the verse guards against idolizing the state. Rulers are honored; God is feared. When a ruler demands the fear owed to God, the believer's supreme allegiance is clear."
+          "bearing": "What matters for Peter's readers is that the day exists and that their conduct is seen on it. They are not asked to determine who will be saved. They are asked to live in a way that leaves the slanderers nothing to say."
         }
       ]
     },
-    "originalLanguages": "Peter appeals to his readers as paroikoi kai parepidemoi, foreigners and exiles, whose home is elsewhere, so they abstain from fleshly desires that war on the soul. Their anastrophe, their whole manner of life among the Gentiles, is to be so honorable that slander turns to praise of God. They hypotasso, submit, for the Lord's sake to every human ktisis, every human institution, from the emperor to his governors, since God wills that doing good silences foolish critics. They are eleutheroi, genuinely free, yet they live as douloi theou, servants of God, and so they can honor the king without fear, giving each their due: respect to all, love to the brotherhood, fear to God, honor to the king.",
+    "originalLanguages": "Verse 11 contains a phrase that is easy to hear past. The readers are 'foreigners and exiles,' and the second of the pair, parepidemos, also stands in 1:1 and in Hebrews 11:13. The Septuagint of Genesis 23:4 puts the same two nouns in Abraham's mouth when he asks the Hittites for a burial site, which gives Peter's pair a patriarchal ring. The verb used for the desires that 'war' against the soul is a military word, the language of a campaign, and it appears again when James asks where wars come from, James 4:1. The passions are not neutral temptations but an army camped against the soul.\n\nIn verse 12 the word for 'honor' is the adjective kalos, more often translated 'good' or 'beautiful' or 'noble,' and it modifies 'conduct.' The same adjective modifies 'deeds,' so Peter is asking for a life that is attractive as well as upright. The phrase 'good deeds' recalls Matthew 5:16, 'that they may see your good deeds and glorify your Father in heaven.' The verb 'see' is epopteuo, 'observe closely,' a word that Peter uses again for the way husbands will watch their wives' conduct, 3:2. People will take a good look.\n\nIn verse 13 the verb hypotasso, 'submit,' is built on a word for arranging in order. It does not mean to obey in everything, and it is a different word from the one for obedience in 1:14 and 1:22. The word for 'supreme' in 'the king as the supreme authority' is from the verb that Romans 13:1 uses for the authorities that hold superior position. In verse 14 the 'punish' is a noun for retribution that Paul also uses of the ruler as God's agent, Romans 13:4. Peter's word for 'praise,' epainos, matches Paul's 'you will have his approval,' Romans 13:3.\n\nVerse 15 has a vivid verb. 'Silence' is the verb that means to muzzle, the very one used in the Greek of the ox that must not be muzzled, 1 Corinthians 9:9. The ignorance of the foolish is to be gagged, and the gag is made of good deeds. The phrase 'doing good' translates a single participle, and Peter returns to its family again and again, 2:14, 2:20, 3:6, 3:17 and 4:19.\n\nIn verse 16 the 'cover-up' is a word for a veil or a covering, something laid over a thing so that it cannot be seen. Freedom can be used as a cloak for badness, and Peter forbids it. Paul gives a close parallel in Galatians 5:13, 'do not use your freedom as an opportunity for the flesh.' The three clauses that open with 'as' hold free, covered and servants together. The word for 'servants' in 'servants of God' is doulos, slave, so the freedom is a freedom in the household of the Master.\n\nVerse 17 is built on four verbs. The first, 'treat with high regard,' is in a form that looks at the whole, and the other three, 'love,' 'fear,' 'honor,' are in a form that suggests continued action. Proverbs 24:21 says, 'fear the LORD and the king,' and Peter splits the pair. The word 'brotherhood,' adelphotes, appears in the New Testament only in this letter, here and in 5:9.",
     "typology": [
-      { "type": "Foreigners and exiles in the world", "fulfillment": "The patriarchs and Israel who lived as sojourners seeking a homeland, fulfilled in the church whose citizenship is in heaven, awaiting the city of God." },
-      { "type": "The day He visits us", "fulfillment": "The Old Testament day of the Lord's visitation, now the return of Christ, when hidden good is vindicated and God is glorified." }
+      {
+        "type": "Israel in exile, Jeremiah 29",
+        "fulfillment": "Jeremiah told the exiles in Babylon to settle, build, plant, marry and seek the city's welfare, trusting that their exile would end in God's time, Jeremiah 29:5 to 7 and 29:10. Peter treats the church as an exile community living under foreign rule. The correspondence is a people displaced yet commanded to do good where they are. In Christ the exile deepens: the believers are not waiting to return to a land but to receive 'the grace to be given you at the revelation of Jesus Christ,' 1:13. The type falls short because Babylon's exile had a fixed term, whereas the church's sojourn lasts until Christ appears."
+      },
+      {
+        "type": "Abraham the foreigner and outsider, Genesis 23:4",
+        "fulfillment": "Abraham owned no land except a tomb and lived in tents as a guest. Hebrews 11:9 to 16 reads this as a sign that he sought a city whose builder is God. Peter's readers share that stance. The escalation in Christ is that the patriarchs saw the promise from far off, and the church is already part of the city's life, as Paul says our citizenship is in heaven, Philippians 3:20. The type falls short in that Abraham had no way to enter the promise in his lifetime, whereas believers already belong to the new people of God."
+      },
+      {
+        "type": "Free servants, from the exodus",
+        "fulfillment": "Israel was freed from Pharaoh in order to serve the LORD, and the same verb of service is used for both, Exodus 8:1 and 4:23. Redemption gave a change of master, not the end of mastery. Peter's 'free' people who are 'servants of God' stand in that line. In Christ the pattern is complete, because Paul says that believers set free from sin have become slaves to God, Romans 6:22, and that those whom the Son sets free are free indeed, John 8:36. The type falls short because Israel's service to God was repeatedly broken, while the freedom Christ gives goes together with a new heart."
+      }
     ],
-    "christ": "Christ governs this whole section as the Lord for whose sake submission is offered. The believer honors earthly authority not because rulers are ultimate but because the true Lord commands it. And the pattern Peter sets, doing good even while slandered, is the road Christ Himself walked, as the very next passage will show. He is the King above kings whose people give the state its honor while reserving their worship for Him, and whose righteous conduct under hostility they are called to imitate.",
-    "god": "God is sovereign over every human authority; even the empire is a human institution serving under His hand for order and justice. It is His will that His people silence ignorance by doing good. He alone is to be feared, ranked above every earthly ruler. Believers are His servants first and last, so their obedience to human authorities flows from, and is bounded by, their prior allegiance to God. He is the supreme Lord who orders society and claims His people wholly.",
+    "christ": "Christ is not named in verses 11 to 17 except as 'the Lord' for whose sake submission is made, but He is everywhere behind them. The reason given for honoring the king is not that kings deserve it but that it is 'for the Lord's sake.' The believer's relation to the state is therefore a relation to Christ, and each honest tax and respectful word is offered to Him. Peter does not tell his readers to submit because power is power. He tells them to submit because Jesus Christ is Lord, and because the way they treat Caesar is part of the way they confess Him.\n\nThe passage also rests on how Jesus lived. He paid the temple tax so that He would not give offense, though as the Son He was free of it, Matthew 17:24 to 27. He said, 'Give to Caesar what is Caesar's, and to God what is God's,' Matthew 22:21. Before Pilate He did not deny that Pilate had authority; He said, 'You would have no authority over Me if it were not given to you from above,' John 19:11. He submitted to the state's verdict without surrendering His allegiance to the Father. Peter's readers are asked to walk the same road.\n\nChrist is also the pattern of the 'free servant.' Paul says that He who was in the form of God took the form of a servant, Philippians 2:6 to 8. He was the freest person who ever lived, and He lived as the servant of all. The believer who does good to the foolish and the hostile is walking where He walked. This will become explicit in the next passage, where Peter says that Christ 'suffered for you, leaving you an example,' 2:21.\n\nHe is the one who 'visits' as well. The visitation of verse 12 is the day when God comes, and in the gospel He came in Jesus. Zechariah said that the Lord 'has visited and redeemed His people,' Luke 1:68. The day Peter looks to is the day when the visitation that began with Christ is completed.\n\nThe passage should not be forced to say more. It does not use Old Testament types of Christ here, and it is better to see the passage as describing the shape of life under His lordship than to squeeze a hidden symbol from each word. What it gives us is the Lord whose name governs the way His people live inside an unbelieving society.",
+    "god": "The God of this passage is the Lord of all authority. Peter does not hesitate to call the structures of government 'human institutions,' and he does not hesitate to say that believers obey them 'for the Lord's sake.' Both are true: the structures are human, and the Lord stands over them. Daniel 2:21 says that God removes kings and establishes them, and Proverbs 8:15 that by wisdom kings reign. The believer need not be afraid of the state, because the state is not God, and need not despise it, because it is under God.\n\nHe is a God who wills the good of His creation even in fallen structures. The governors are said to be sent to punish those who do wrong and to praise those who do right, verse 14. This is a high view of what government is for, and it assumes that God cares about order and justice in a world where sin is real. Even imperfect rule restrains harm, and Peter's readers are asked to cooperate with that restraint.\n\nHe is a God whose will is revealed. 'It is God's will that by doing good you should silence the ignorance of foolish men,' verse 15. The will of God is not only the secret decree but a pattern of conduct His people can know and follow. The goal is not only that they should be safe, but that outsiders should be silenced and in the end drawn to glorify Him.\n\nHe is a God who frees and who claims. The freedom of verse 16 is real, and it is not a license, because the believers belong to God as servants. The freedom is a gift of the Father in the Son, and it is exercised in service. Without this, freedom becomes a cover-up for evil.\n\nHe is the only one who is to be feared. The ranking of verse 17 is a statement about God's rank. The king is to be honored, but only God receives that awe which governs the whole of life. A king who demanded such fear would be claiming what is God's. Because God is God, no earthly power has an ultimate claim on the conscience.\n\nHe is also a God who visits. The day of visitation says that God is not distant. He will come, and what His people have done in quietness will be seen. For worship, the passage invites a steady, grateful loyalty: to live as good neighbors and honest citizens because the Lord is Lord of the nations and of each heart.",
     "crossReferences": [
-      { "ref": "Romans 13:1-7", "note": "Governing authorities are instituted by God to punish evil and commend good, closely paralleling Peter's teaching on submission." },
-      { "ref": "Jeremiah 29:4-7", "note": "Exiles are told to seek the welfare of the city where God has placed them, the sojourner ethic Peter assumes." },
-      { "ref": "Acts 5:29", "note": "We must obey God rather than men, marking the Godward limit of submission to human authority." },
-      { "ref": "Matthew 22:21", "note": "Give to Caesar what is Caesar's and to God what is God's, distinguishing honor to rulers from worship owed to God." }
+      {
+        "ref": "Romans 13:1-7",
+        "note": "Paul's longer treatment of the same subject. Rulers are God's servants, authority exists by God's appointment, taxes are to be paid, and respect and honor given to whom they are due. Together with Peter it shows that this was settled apostolic teaching and not one man's opinion."
+      },
+      {
+        "ref": "Jeremiah 29:4-7",
+        "note": "The letter of God's word to exiles in Babylon: build, plant, marry, and seek the welfare of the city to which they had been sent. It is the Old Testament pattern for living faithfully as a minority under a foreign power, and it fits Peter's 'foreigners and exiles' exactly."
+      },
+      {
+        "ref": "Matthew 22:21",
+        "note": "Jesus gives Caesar what bears Caesar's image and God what belongs to God. It is the same ranking Peter makes in verse 17, in which the king is honored but only God is feared. Neither text says what belongs to which, only that both claims are real and that God's is the greater."
+      },
+      {
+        "ref": "Matthew 17:24-27",
+        "note": "Jesus pays the temple tax although as the Son He was exempt, 'so that we may not offend them.' It illustrates the freedom of verse 16: free people who choose to submit, so that their conduct gives no needless offense and their witness is clear."
+      },
+      {
+        "ref": "Acts 5:29",
+        "note": "Peter, before the council, says 'We must obey God rather than men.' It shows the limit of submission in the same apostle's life. When rulers command what God forbids, loyalty to God overrides, and this is why Peter's own letter speaks of submission 'for the Lord's sake.'"
+      },
+      {
+        "ref": "Daniel 3:16-18",
+        "note": "The three friends refuse to worship the statue even if God does not deliver them. The text shows what the boundary looks like in practice: respectful, unafraid refusal of a particular command, without rebellion against the king himself."
+      },
+      {
+        "ref": "Daniel 2:21",
+        "note": "God changes times and seasons and removes kings and establishes them. It supplies the theology behind Peter's command: rulers hold their position within a sovereignty that is greater than theirs, so honoring them is not the same as fearing them."
+      },
+      {
+        "ref": "Genesis 23:4",
+        "note": "Abraham calls himself a foreigner and an outsider among the Hittites. Peter's double term for his readers echoes the patriarch's words. It places the church in the line of those who live in a land that is not their final home."
+      },
+      {
+        "ref": "Hebrews 11:13-16",
+        "note": "The patriarchs acknowledged that they were strangers and exiles on the earth and were longing for a better country. The passage supplies the hope that lies behind Peter's identity language: those who are exiles now are heading to a city God has prepared."
+      },
+      {
+        "ref": "Galatians 5:13",
+        "note": "Paul says believers were called to freedom but must not use it as an opportunity for the flesh, and should serve one another in love. It is the closest parallel to Peter's warning against freedom as a cover-up for evil, and it states the same positive turn: freedom exists in order to serve."
+      },
+      {
+        "ref": "1 Peter 3:13-17",
+        "note": "Peter develops the idea of verse 15 further: suffering for what is right, answering critics with gentleness and respect, and keeping a clear conscience so that slanderers are put to shame. It shows how the strategy of good deeds continues even when good conduct is not rewarded."
+      }
     ],
-    "oneStory": "From Abraham the sojourner to Israel in exile to the scattered church, God's people have always lived as strangers among the nations, called to bless the places they dwell while keeping their hearts fixed on their true home. Peter's call to honorable living and orderly submission continues that pilgrim story. It looks toward the day God visits, when the quiet good works of His people are vindicated, the slanders are silenced, and every earthly throne bows before Christ the King who alone is worthy of fear.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "The passage touches one of the Bible's oldest problems: how does a people who belong to God live among those who do not? The story begins with a world in which one family and one rule held everything together. After the fall and the flood, God scattered the nations at Babel and set human government to restrain violence, Genesis 9:6 and 11:8. From then on, the story of redemption runs inside structures of human power, some benign and some monstrous. Abraham sojourns under Canaanite kings, Joseph serves Pharaoh, Daniel serves Nebuchadnezzar and Darius, and Esther lives under Xerxes. In every case God's people are called to a double loyalty, to the Lord first and to the king as a servant of the Lord's order.\n\nPeter takes up that long history and hands it to the church. His readers are the next generation of exiles, and the Old Testament stories supply their models: Jeremiah's letter, Daniel's courage, Joseph's patient service. The church lives between the ascension and the return, and in that gap it is called to a life that answers the world's suspicion with goodness.\n\nThe passage also points to the end. The states of this age are not the last word. Revelation shows empire at its worst, a beast demanding worship, Revelation 13:7, and then its collapse, and it shows the kings of the earth finally bringing their glory into a city whose light is the Lamb, Revelation 21:24. The authority that Peter says to honor is real but temporary, and it will be replaced by the kingdom of God and of His Christ.\n\nIn the new creation, the tension between citizenship and exile is resolved. The people who were exiles in every nation are citizens of a city that does not need a temple or a throne apart from God's. The freedom that Peter describes as a servant's freedom becomes full: 'they will reign forever and ever,' Revelation 22:5. Until then, the quiet goodness of those who honor everyone and fear God is a small, steady preview of what that kingdom will look like.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "Why does Peter urge believers to abstain from the desires of the flesh?",
       "options": [
-        { "text": "Because they are foreigners and exiles, and those desires wage war against the soul.", "weight": 100, "note": "Verse 11: pilgrim identity and the soul's welfare ground the appeal." },
-        { "text": "Because pleasure is always wrong in itself.", "weight": 25, "note": "The issue is fleshly desires that war on the soul, not pleasure as such." },
-        { "text": "Because they must earn their salvation by self-denial.", "weight": 0, "note": "Their identity is already given; conduct flows from it, it does not earn it." },
-        { "text": "Because such desires make them look bad to outsiders.", "weight": 75, "note": "Reputation matters, verse 12, but the stated reason is the war against the soul." }
+        {
+          "text": "Because they are foreigners and exiles, and those desires wage war against the soul.",
+          "weight": 100,
+          "note": "Verse 11: pilgrim identity and the soul's welfare ground the appeal."
+        },
+        {
+          "text": "Because pleasure is always wrong in itself.",
+          "weight": 25,
+          "note": "The issue is fleshly desires that war on the soul, not pleasure as such."
+        },
+        {
+          "text": "Because they must earn their salvation by self-denial.",
+          "weight": 0,
+          "note": "Their identity is already given; conduct flows from it, it does not earn it."
+        },
+        {
+          "text": "Because such desires make them look bad to outsiders.",
+          "weight": 75,
+          "note": "Reputation matters, verse 12, but the stated reason is the war against the soul."
+        }
       ]
     },
     {
       "q": "What is the aim of living honorably among the Gentiles?",
       "options": [
-        { "text": "That even those who slander them may see their good deeds and glorify God.", "weight": 100, "note": "Verse 12: good conduct turns slander into God's glory on the day He visits." },
-        { "text": "That believers may be admired and gain social status.", "weight": 25, "note": "The goal is God's glory, not the believers' reputation for its own sake." },
-        { "text": "That they may avoid all contact with outsiders.", "weight": 0, "note": "The point is visible good deeds among outsiders, not withdrawal." },
-        { "text": "That their behavior may commend the gospel to a watching world.", "weight": 75, "note": "True and close, though Peter names glorifying God as the explicit aim." }
+        {
+          "text": "That even those who slander them may see their good deeds and glorify God.",
+          "weight": 100,
+          "note": "Verse 12: good conduct turns slander into God's glory on the day He visits."
+        },
+        {
+          "text": "That believers may be admired and gain social status.",
+          "weight": 25,
+          "note": "The goal is God's glory, not the believers' reputation for its own sake."
+        },
+        {
+          "text": "That they may avoid all contact with outsiders.",
+          "weight": 0,
+          "note": "The point is visible good deeds among outsiders, not withdrawal."
+        },
+        {
+          "text": "That their behavior may commend the gospel to a watching world.",
+          "weight": 75,
+          "note": "True and close, though Peter names glorifying God as the explicit aim."
+        }
       ]
     },
     {
       "q": "For what reason are believers to submit to human authority?",
       "options": [
-        { "text": "For the Lord's sake, because it is God's will that doing good silences ignorance.", "weight": 100, "note": "Verses 13 to 15: submission is Godward in motive and purpose." },
-        { "text": "Because the government is always right.", "weight": 0, "note": "Submission is for the Lord's sake and bounded by obedience to God, not blind approval." },
-        { "text": "Because rulers are ordained by God to punish wrong and commend right.", "weight": 75, "note": "True, verse 14, though the core reason given is for the Lord's sake and God's will." },
-        { "text": "Because resistance would be too dangerous.", "weight": 25, "note": "The motive is honoring the Lord, not mere self-preservation." }
+        {
+          "text": "For the Lord's sake, because it is God's will that doing good silences ignorance.",
+          "weight": 100,
+          "note": "Verses 13 to 15: submission is Godward in motive and purpose."
+        },
+        {
+          "text": "Because the government is always right.",
+          "weight": 0,
+          "note": "Submission is for the Lord's sake and bounded by obedience to God, not blind approval."
+        },
+        {
+          "text": "Because rulers are ordained by God to punish wrong and commend right.",
+          "weight": 75,
+          "note": "True, verse 14, though the core reason given is for the Lord's sake and God's will."
+        },
+        {
+          "text": "Because resistance would be too dangerous.",
+          "weight": 25,
+          "note": "The motive is honoring the Lord, not mere self-preservation."
+        }
       ]
     },
     {
       "q": "How does Peter describe Christian freedom?",
       "options": [
-        { "text": "Genuine freedom that is never a cover for evil, lived out as servants of God.", "weight": 100, "note": "Verse 16: the free are God's servants; liberty is not license." },
-        { "text": "Freedom to do whatever one pleases.", "weight": 0, "note": "Peter explicitly forbids using freedom as a cover-up for evil." },
-        { "text": "Freedom that must always be hidden to avoid offense.", "weight": 25, "note": "The point is not hiding freedom but not abusing it, living as God's servants." },
-        { "text": "A liberty that expresses itself in glad obedience to God.", "weight": 75, "note": "True to the sense, though the answer should name the paradox of being servants of God." }
+        {
+          "text": "Genuine freedom that is never a cover for evil, lived out as servants of God.",
+          "weight": 100,
+          "note": "Verse 16: the free are God's servants; liberty is not license."
+        },
+        {
+          "text": "Freedom to do whatever one pleases.",
+          "weight": 0,
+          "note": "Peter explicitly forbids using freedom as a cover-up for evil."
+        },
+        {
+          "text": "Freedom that must always be hidden to avoid offense.",
+          "weight": 25,
+          "note": "The point is not hiding freedom but not abusing it, living as God's servants."
+        },
+        {
+          "text": "A liberty that expresses itself in glad obedience to God.",
+          "weight": 75,
+          "note": "True to the sense, though the answer should name the paradox of being servants of God."
+        }
       ]
     },
     {
       "q": "What does the command fear God, honor the king teach?",
       "options": [
-        { "text": "God alone receives fear, while the king receives honor, so the state is never idolized.", "weight": 100, "note": "Verse 17 ranks the allegiances: reverence for God, respect for rulers." },
-        { "text": "God and the king are owed exactly the same reverence.", "weight": 0, "note": "The words differ deliberately: fear for God, honor for the king." },
-        { "text": "Each party is given its proper due in the fourfold list.", "weight": 75, "note": "True, everyone respect, believers love, God fear, king honor, though the key point is God's supremacy." },
-        { "text": "The king should be obeyed even above God.", "weight": 25, "note": "The reverse: God is feared above every ruler." }
+        {
+          "text": "God alone receives fear, while the king receives honor, so the state is never idolized.",
+          "weight": 100,
+          "note": "Verse 17 ranks the allegiances: reverence for God, respect for rulers."
+        },
+        {
+          "text": "God and the king are owed exactly the same reverence.",
+          "weight": 0,
+          "note": "The words differ deliberately: fear for God, honor for the king."
+        },
+        {
+          "text": "Each party is given its proper due in the fourfold list.",
+          "weight": 75,
+          "note": "True, everyone respect, believers love, God fear, king honor, though the key point is God's supremacy."
+        },
+        {
+          "text": "The king should be obeyed even above God.",
+          "weight": 25,
+          "note": "The reverse: God is feared above every ruler."
+        }
       ]
     }
   ],
@@ -153,9 +367,21 @@
     "Fear God, honor the king. Is there any earthly authority or opinion you are tempted to fear more than God, and how do you reset that order?"
   ],
   "translationNotes": [
-    { "ref": "1 Peter 2:11", "note": "Foreigners and exiles renders paroikoi kai parepidemoi, resident aliens and sojourners, echoing the pilgrim identity introduced in 1:1 and 1:17." },
-    { "ref": "1 Peter 2:13", "note": "Every human institution translates anthropine ktisis; the term frames government as a human arrangement that nonetheless serves under God's ordering." },
-    { "ref": "1 Peter 2:17", "note": "The four commands assign distinct dues: high regard to all, love to the brotherhood, fear to God, honor to the king; the word fear is reserved for God." }
+    {
+      "ref": "1 Peter 2:11",
+      "note": "Foreigners and exiles renders paroikoi kai parepidemoi, resident aliens and sojourners, echoing the pilgrim identity introduced in 1:1 and 1:17."
+    },
+    {
+      "ref": "1 Peter 2:13",
+      "note": "Every human institution translates anthropine ktisis; the term frames government as a human arrangement that nonetheless serves under God's ordering."
+    },
+    {
+      "ref": "1 Peter 2:17",
+      "note": "The four commands assign distinct dues: high regard to all, love to the brotherhood, fear to God, honor to the king; the word fear is reserved for God."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for 1 Peter 2:11-17." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for 1 Peter 2:11-17."
+  }
 }
