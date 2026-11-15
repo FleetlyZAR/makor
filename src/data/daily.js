@@ -472,6 +472,13 @@ export const dailyVerses = {
     story: ["Israel stands on the shore with the sea in front, Pharaoh's chariots behind, and Moses telling them to do nothing.", "The command is not a call to passivity but to trust. The people cannot outrun an army or cross a sea, so the LORD takes the fight into His own hands. Moses asks only that they stand firm and watch. That night the water is divided, Israel walks through on dry ground, and the pursuers are swept away. By morning the people fear the LORD and believe in Him. The battle was never theirs to win; it was theirs to see.", "Some fights today are too big for you. Be still where you must, and let God do what you cannot."],
     studyUrl: "/exodus/crossing-the-red-sea/"
   },
+  "ezekiel-36-26": {
+    slug: "ezekiel-36-26",
+    ref: "Ezekiel 36:26",
+    verse: "I will give you a new heart and put a new spirit within you; I will remove your heart of stone from your flesh and give you a heart of flesh.",
+    story: ["Ezekiel spoke these words to exiles in Babylon, a people whose city lay in ruins because their hearts had turned hard toward God.", "The LORD does not tell them to try harder. He promises to do the work Himself, and not because they had earned it: for the sake of His own holy name. A heart of stone cannot feel, cannot respond, cannot love; no amount of effort softens it. So God says He will take it out and give a living heart in its place, and in the next breath He promises His own Spirit within them. Jesus pointed Nicodemus back to this promise when He spoke of being born again, and it is fulfilled in the new covenant sealed by His blood.", "Repentance is not making yourself new. It is bringing God the hard places and asking Him to do what only He can."],
+    studyUrl: "/ezekiel/a-new-heart-and-a-new-spirit/"
+  },
   "galatians-2-20": {
     slug: "galatians-2-20",
     ref: "Galatians 2:20",
@@ -1114,5 +1121,6 @@ export const dailyCalendar = {
   "2027-02-08": "2-timothy-1-7",
   "2027-02-09": "isaiah-26-3",
   "2027-02-10": "joel-2-13",
-  "2027-02-11": "luke-18-13"
+  "2027-02-11": "luke-18-13",
+  "2027-02-12": "ezekiel-36-26"
 };
