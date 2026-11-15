@@ -18,9 +18,21 @@
         "note": "the image of God, firstborn over all creation",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 15, "text": "The Son is the {{eikon|image}} of the invisible God, the {{prototokos|firstborn}} over all creation." },
-          { "chapter": 1, "n": 16, "text": "For in Him all things were created, things in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities. All things were created through Him and for Him." },
-          { "chapter": 1, "n": 17, "text": "He is before all things, and in Him all things hold together." }
+          {
+            "chapter": 1,
+            "n": 15,
+            "text": "The Son is the {{eikon|image}} of the invisible God, the {{prototokos|firstborn}} over all creation."
+          },
+          {
+            "chapter": 1,
+            "n": 16,
+            "text": "For in Him all things were created, things in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities. All things were created through Him and for Him."
+          },
+          {
+            "chapter": 1,
+            "n": 17,
+            "text": "He is before all things, and in Him all things hold together."
+          }
         ]
       },
       {
@@ -28,9 +40,21 @@
         "note": "head of the church, in whom all fullness dwells and reconciles",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 18, "text": "And He is the head of the body, the church; He is the beginning and firstborn from among the dead, so that in all things He may have {{proteuo|preeminence}}." },
-          { "chapter": 1, "n": 19, "text": "For God was pleased to have all His {{pleroma|fullness}} dwell in Him," },
-          { "chapter": 1, "n": 20, "text": "and through Him to {{apokatallasso|reconcile}} to Himself all things, whether things on earth or things in heaven, by making peace through the blood of His cross." }
+          {
+            "chapter": 1,
+            "n": 18,
+            "text": "And He is the head of the body, the church; He is the beginning and firstborn from among the dead, so that in all things He may have {{proteuo|preeminence}}."
+          },
+          {
+            "chapter": 1,
+            "n": 19,
+            "text": "For God was pleased to have all His {{pleroma|fullness}} dwell in Him,"
+          },
+          {
+            "chapter": 1,
+            "n": 20,
+            "text": "and through Him to {{apokatallasso|reconcile}} to Himself all things, whether things on earth or things in heaven, by making peace through the blood of His cross."
+          }
         ]
       },
       {
@@ -38,19 +62,56 @@
         "note": "once alienated, now presented holy",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 21, "text": "Once you were alienated from God and were hostile in your minds, engaging in evil deeds." },
-          { "chapter": 1, "n": 22, "text": "But now He has reconciled you by Christ’s physical body through death to present you holy, unblemished, and blameless in His presence," },
-          { "chapter": 1, "n": 23, "text": "if indeed you continue in your faith, established and firm, not moved from the hope of the gospel you heard, which has been proclaimed to every creature under heaven, and of which I, Paul, have become a servant." }
+          {
+            "chapter": 1,
+            "n": 21,
+            "text": "Once you were alienated from God and were hostile in your minds, engaging in evil deeds."
+          },
+          {
+            "chapter": 1,
+            "n": 22,
+            "text": "But now He has reconciled you by Christ’s physical body through death to present you holy, unblemished, and blameless in His presence,"
+          },
+          {
+            "chapter": 1,
+            "n": 23,
+            "text": "if indeed you continue in your faith, established and firm, not moved from the hope of the gospel you heard, which has been proclaimed to every creature under heaven, and of which I, Paul, have become a servant."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "eikon": { "language": "Greek", "lemma": "eikon", "original": "εἰκών", "gloss": "Image, likeness, a visible representation that truly reveals what it images. To call the Son the image of the invisible God is to say that in Christ the unseen God is made known, not a copy at a distance but the exact revealing of God's own being. It also recalls humanity made in God's image, now perfectly displayed and restored in Christ." },
-    "prototokos": { "language": "Greek", "lemma": "prototokos", "original": "πρωτότοκος", "gloss": "Firstborn, a title of rank, priority, and heirship rather than of being created first. In the Old Testament the firstborn holds the place of supremacy and inheritance, and verse 16 immediately shows why: all things were created through Him. Firstborn over all creation means preeminent Lord and heir of all, not the first creature." },
-    "proteuo": { "language": "Greek", "lemma": "proteuo", "original": "πρωτεύω", "gloss": "To be first, to hold the first place, to have preeminence. The whole hymn drives to this word: in all things, creation and new creation, seen and unseen, Christ is to be supreme. It is the letter's answer to any teaching that would give Christ a share of glory rather than the first place in everything." },
-    "pleroma": { "language": "Greek", "lemma": "pleroma", "original": "πλήρωμα", "gloss": "Fullness, the sum total, the complete measure. God was pleased to have all His fullness dwell in the Son, so that nothing of deity is lacking in Christ and nothing more is needed beside Him. The word reappears in 2:9, all the fullness of the Deity dwells in Him bodily, sealing the argument against seeking completeness anywhere else." },
-    "apokatallasso": { "language": "Greek", "lemma": "apokatallasso", "original": "ἀποκαταλλάσσω", "gloss": "To reconcile fully, to restore a broken relationship to peace. God reconciles all things to Himself through the Son, making peace by the blood of the cross. The same power that created all things now restores what sin has fractured, and the cost of that peace is Christ's own blood." }
+    "eikon": {
+      "language": "Greek",
+      "lemma": "eikon",
+      "original": "εἰκών",
+      "gloss": "Image, likeness, a visible representation that truly reveals what it images. To call the Son the image of the invisible God is to say that in Christ the unseen God is made known, not a copy at a distance but the exact revealing of God's own being. It also recalls humanity made in God's image, now perfectly displayed and restored in Christ."
+    },
+    "prototokos": {
+      "language": "Greek",
+      "lemma": "prototokos",
+      "original": "πρωτότοκος",
+      "gloss": "Firstborn, a title of rank, priority, and heirship rather than of being created first. In the Old Testament the firstborn holds the place of supremacy and inheritance, and verse 16 immediately shows why: all things were created through Him. Firstborn over all creation means preeminent Lord and heir of all, not the first creature."
+    },
+    "proteuo": {
+      "language": "Greek",
+      "lemma": "proteuo",
+      "original": "πρωτεύω",
+      "gloss": "To be first, to hold the first place, to have preeminence. The whole hymn drives to this word: in all things, creation and new creation, seen and unseen, Christ is to be supreme. It is the letter's answer to any teaching that would give Christ a share of glory rather than the first place in everything."
+    },
+    "pleroma": {
+      "language": "Greek",
+      "lemma": "pleroma",
+      "original": "πλήρωμα",
+      "gloss": "Fullness, the sum total, the complete measure. God was pleased to have all His fullness dwell in the Son, so that nothing of deity is lacking in Christ and nothing more is needed beside Him. The word reappears in 2:9, all the fullness of the Deity dwells in Him bodily, sealing the argument against seeking completeness anywhere else."
+    },
+    "apokatallasso": {
+      "language": "Greek",
+      "lemma": "apokatallasso",
+      "original": "ἀποκαταλλάσσω",
+      "gloss": "To reconcile fully, to restore a broken relationship to peace. God reconciles all things to Himself through the Son, making peace by the blood of the cross. The same power that created all things now restores what sin has fractured, and the cost of that peace is Christ's own blood."
+    }
   },
   "study": {
     "basic": {
@@ -64,102 +125,277 @@
       "oneStory": "Christ is the center of the whole story: the one through whom all things were created, and the one through whom all things are reconciled. What was fractured in Eden is being made new in Him. The maker of the world becomes its redeemer, and the Colossians, once alienated, are brought home through the blood of His cross."
     },
     "context": {
-      "literary": "Verses 15 to 20 form a tightly structured hymn in two balanced strophes: Christ supreme over creation, verses 15 to 17, and Christ supreme over the new creation, verses 18 to 20, each opening with a relational statement and each grounded by for. Verses 21 to 23 apply the hymn directly to the readers, moving from the cosmic all things to you, the Colossians.",
-      "historical": "The teaching threatening Colossae seems to have diminished Christ by slotting Him among spiritual powers and requiring extra rules, rituals, and angelic mediation. The hymn dismantles this by placing Christ above every throne, dominion, ruler, and authority, the very language such speculation prized, and by locating all of God's fullness in Him alone.",
-      "canonical": "This is one of the New Testament's supreme Christological passages, alongside John 1:1-18, Philippians 2:6-11, and Hebrews 1:1-4. Its themes, the image of God, firstborn, creation through the Son, fullness, and reconciliation by blood, gather up Genesis, the sacrificial system, and the wisdom tradition and focus them on Jesus."
+      "literary": "The passage is built from a single sentence of praise that grows into an argument. Verses 15 to 20 are usually read as a hymn or hymn-like prose, because the rhythm and the repeated phrases are so regular. Two stanzas stand side by side. The first begins 'The Son is the image of the invisible God, the firstborn over all creation,' and the second begins 'He is the beginning and firstborn from among the dead.' Each is introduced by a statement about who He is and then supported by a clause beginning 'for,' verses 16 and 19.\n\nThe repeated small words carry the argument. 'In Him,' 'through Him' and 'for Him' in verse 16 name the sphere, the agent and the goal of creation. The phrase 'all things' occurs again and again, and in the second stanza it moves from creation to reconciliation, 'all things' made and 'all things' reconciled. The word 'first' carries the same pairing: 'firstborn over all creation' in verse 15, 'firstborn from among the dead' in verse 18, and the purpose clause 'so that in all things He may have preeminence,' a word from the same family. The two stanzas are mirror images, and the middle of the hymn is not a single claim but a pivot from the old creation to the new.\n\nThe movement from verse 20 to verse 21 is the hinge of the whole passage. The sweeping 'all things' of the hymn narrows suddenly to 'you,' and the heavenly scale gives way to personal history: 'once you were alienated... But now He has reconciled you.' The contrast 'once' and 'but now' is Paul's regular way of marking the arrival of the gospel in a life. The final verse then states the condition, 'if indeed you continue,' and gives the argument a pastoral edge. The doctrine is not only to be admired but to be held.",
+      "historical": "The teaching troubling Colossae seems to have reduced Christ to one of many spiritual intermediaries and added rules about food, festivals and angel-related devotion, Colossians 2:16-23. Paul's hymn is a direct answer to this. The list in verse 16, 'thrones or dominions or rulers or authorities,' uses the vocabulary that rival teachers associated with invisible ranks of angelic powers. Paul does not deny that such powers exist. He says they too were created in the Son, through Him and for Him, and so they are beneath Him, as he says again in Colossians 2:10 and 2:15.\n\nThe language of image and firstborn would have been understood against a Jewish background. Genesis 1:26-27 spoke of humanity as made in God's image, and Jewish writings about wisdom spoke of a figure present at creation, Proverbs 8:22-31. Paul brings these together and says that what was said of wisdom and of humanity finds its fullest expression in the Son. He also adapts the firstborn language of Israel, Exodus 4:22, and of the king, Psalm 89:27, which spoke of rank and inheritance and not of birth order.\n\nThe reference to peace made by blood would have sounded to a Jewish listener like the sacrificial system, where blood reconciled the worshipper to God, Leviticus 17:11. To a Gentile listener it might have recalled the peace the empire claimed to bring by force. Paul says peace comes by the blood of a cross, the instrument of Roman execution, which turns the imperial claim upside down. The Colossians, most of them Gentile, are described in verse 21 as alienated, a word that suggests exclusion from the community of Israel, as Ephesians 2:12 also puts it. They are being told that they have been brought in.",
+      "canonical": "This is one of the great Christological summits of the New Testament, and it should be read with its companions. John 1:1-3 says that all things were made through the Word, and that nothing was made without Him. Hebrews 1:2-3 calls the Son the one through whom God made the universe, the radiance of God's glory and the exact representation of His being, who upholds all things by His powerful word. Philippians 2:6-11 describes the Son in the form of God who humbled Himself and is now exalted. Each passage has its own emphasis, but the four together build the confession that the Son is both Creator and Redeemer.\n\nThe language of image runs from Genesis 1:26-27 to 2 Corinthians 4:4, where Christ is 'the image of God,' and to Romans 8:29, where believers are being conformed to the image of the Son so that He might be the firstborn among many brothers. The firstborn theme links Psalm 89:27, where the Davidic king is made firstborn, with Revelation 1:5, which calls Jesus the firstborn from the dead. Verse 18's 'beginning' recalls Genesis 1:1, so that the new creation begins with Christ as the old began with God's word.\n\nThe reconciliation of all things belongs with Romans 8:19-23, where creation waits to be set free, and Ephesians 1:10, where God's plan is to unite all things in Christ. The mention of the church as the body belongs with Ephesians 1:22-23 and 1 Corinthians 12:27. The condition of verse 23 sits beside Hebrews 3:14, 'we have come to share in Christ if indeed we hold firmly till the end,' and John 15:6."
     },
     "hermeneutics": {
-      "authorIntent": "To exalt the Son as supreme over all creation and all redemption so completely that the Colossians see there is nothing to add to Him, and then to apply that supremacy pastorally: the reconciling Lord has made peace with them, so they must continue firm in the gospel.",
-      "descriptionVsPrescription": "Verses 15 to 20 are doctrinal declaration, the settled truth about who Christ is. Verses 21 to 22 declare what God has done for the readers. Verse 23, if indeed you continue, is a genuine call to persevere, not a hint that reconciliation can be earned; perseverance is the mark and evidence of true faith.",
+      "authorIntent": "Paul meant these verses to do more than inform the Colossians about Christ. He meant them to settle a question of allegiance. If the Son is the image of the invisible God, then no angel, ritual or secret teaching can show them more of God than they already see in Him. If all things were made in Him, then every rival power is a creature. If all the fullness of God was pleased to dwell in Him, then nothing is missing that might be found elsewhere. The hymn is a rule for the whole letter: whatever anyone proposes to add to Christ is by definition less than Christ.\n\nHe also meant the hymn to be sung, or at least spoken, as worship. The language is exalted and balanced because it is meant to lead hearts, not only minds. The readers are invited to see that what they have confessed in a simple way, that Jesus is Lord, is as large as the universe.\n\nFinally, he meant the vast scope of the hymn to land on the individual. Verses 21 to 23 are not an appendix. They show that the cosmic Christ has dealt with the particular Colossian: hostile, alienated, doing evil, and now reconciled and presented holy. The conditional in verse 23 is not meant to frighten but to call them to remain where they have been placed.",
+      "descriptionVsPrescription": "The hymn is description, and its force is to say who Christ is. It does not command anything until verse 23, and even there the instruction is gentle: continue in the faith. This matters for how the passage is used. It is not a set of rules but a portrait from which a way of living follows. The right response is worship, trust, and the refusal to trade the Son for anything lesser.\n\nThe hymn has often been mined for statements about the ultimate fate of creation, and these need care. Paul says all things are to be reconciled, but he does not here describe how each part of the creation relates to that reconciliation. He describes the scope of the work and leaves the details to other passages. What we are given to apply is the confidence that nothing falls outside Christ's lordship, and the assurance that the believer's reconciliation is complete in the death of Christ's body, verse 22.\n\nVerse 23 is the one place where the passage addresses the readers' conduct. It does not teach that salvation is earned by endurance, since the whole movement of verses 21 and 22 is that reconciliation is already done. It teaches that those who have been reconciled show it by remaining in the faith. This is description of what real faith does, and a summons to do it.",
       "debates": [
         {
-          "question": "Does firstborn over all creation mean Christ is a created being?",
+          "question": "What does 'firstborn over all creation' mean?",
           "views": [
-            { "label": "A title of rank and heirship", "case": "Firstborn denotes supremacy and inheritance, and verse 16 immediately grounds it: all things were created through Him and for Him. The maker of all things cannot be one of the things made." },
-            { "label": "A statement of origin, wrongly read as created", "case": "Some groups have taken firstborn to mean first created, but this contradicts verses 16 and 17, which place Him before and above all creation as its source and sustainer." }
+            {
+              "label": "A title of supremacy and inheritance",
+              "case": "In the Old Testament firstborn can be a rank and not a birth order. Israel is called God's firstborn, Exodus 4:22, and David is made firstborn, 'the most exalted of the kings of the earth,' Psalm 89:27, though he was the youngest of his brothers. Verse 16 grounds the title at once: all things were created in Him."
+            },
+            {
+              "label": "The first created being",
+              "case": "Arius, in the fourth century, took the phrase to mean that the Son was the first of God's creatures. Later groups have followed him. The reading rests on the word 'firstborn' alone and leaves verses 16 and 17 unexplained."
+            },
+            {
+              "label": "Wisdom personified, a creature brought forth",
+              "case": "Some point to Proverbs 8:22, where wisdom says the LORD brought her forth at the beginning, and read Paul as applying that language to Christ literally. But Proverbs 8 is poetry about wisdom, and Paul's next line says that all things, without exception, were created in the Son."
+            }
           ],
-          "bearing": "The orthodox reading confesses the Son as eternal Lord and heir, not a creature; the whole hymn collapses if He is merely the highest of created things."
+          "bearing": "The first view fits the grammar and the context and is the view of the church councils. The one in whom all things were created cannot be one of the created things. 'Firstborn' declares His rank, not His origin."
         },
         {
-          "question": "What does it mean that God reconciles all things, even things in heaven?",
+          "question": "What is the 'if' of verse 23?",
           "views": [
-            { "label": "Cosmic peace, not universal salvation", "case": "The cross restores order to a fractured cosmos and pacifies rebel powers, whether by redemption or by subjugation; verse 23 shows individual reconciliation still comes through continuing in faith." },
-            { "label": "The scope of Christ's lordship", "case": "All things on earth and in heaven are brought under the peace Christ establishes, declaring the reach of His finished work over every realm and power." }
+            {
+              "label": "A test of genuine faith",
+              "case": "Paul says 'if indeed you continue in your faith.' On this reading, continuing is the evidence that the reconciliation was real. Those who do not remain show that they never truly belonged, as John says in 1 John 2:19. The Reformed tradition has often taken it this way."
+            },
+            {
+              "label": "A real condition for those now in Christ",
+              "case": "Another tradition reads the condition as genuine. Believers are reconciled and are called to remain, and there is a real danger of drifting from the hope of the gospel. Warnings of this kind appear in Hebrews 3:14 and 6:4-6."
+            },
+            {
+              "label": "A call to hold the gospel Paul preached",
+              "case": "Some stress what the 'if' attaches to: remaining in 'the hope of the gospel you heard,' the message they first received, as against the new teaching that is unsettling them. The condition is about not being moved to another gospel."
+            }
           ],
-          "bearing": "The verse magnifies the universal scope of Christ's reconciling work without teaching that every person or power is finally saved; the following verses stress persevering faith."
+          "bearing": "All three agree that a settled faith is the mark of the reconciled and that the Colossians must not let go. They differ over what happens to someone who does. The passage urges steadfastness and relies on the assurance of verse 22 that Christ presents His people holy and blameless."
         }
       ]
     },
-    "originalLanguages": "The hymn crowns Christ with titles the false teachers could not touch. He is the eikon of the invisible God, the true and full revealing of the unseen One, not a faint copy. He is prototokos, firstborn, a Hebrew idiom of rank, priority, and inheritance, and verse 16 proves the point by naming Him the creator of all things, so firstborn cannot mean first created. The two strophes drive to proteuo, that in everything He might have the first place. The reason is that all the pleroma, the entire fullness of God, was pleased to dwell in Him, a claim sharpened in 2:9. And the goal of that indwelling fullness is apokatallasso, thorough reconciliation, God making peace through the blood of Christ's cross and restoring what sin had shattered.",
+    "originalLanguages": "The first word of the hymn is eikon, 'image,' and it is more than a likeness. In Greek the word could mean an impression on a coin, a statue, or a portrait, something that shows what another thing is like. In the Septuagint it is the word of Genesis 1:26-27 for humanity made in the image of God. Paul says the Son is the eikon of 'the invisible God,' and the adjective is important: the God no one can see is made visible in Him. The same word appears in 2 Corinthians 4:4. Hebrews makes the same claim with another word, charakter, 'exact representation,' Hebrews 1:3.\n\nThe word 'firstborn,' prototokos, has the sense of rank. The word for 'created,' ektisthe, in verse 16 is an aorist passive, a single completed act of creation, while the later 'have been created,' ektistai, is a perfect, describing a state that continues: all things were made through Him and for Him and remain His. In verse 17 the corresponding word for 'hold together,' synesteken, is also a perfect. The Son is not only the One who began the universe but the One in whom it continues to cohere.\n\nVerse 18 gives two titles, 'head' and 'beginning.' The word for beginning is arche, which is also the first word of the Septuagint of Genesis, en arche. It means both 'start' and 'ruling source.' The phrase that follows, 'so that in all things He may have preeminence,' contains the verb proteuo, 'to hold first place,' which does not occur elsewhere in the New Testament. It is formed from protos, 'first,' and the effect is of a hammered theme: first over creation, first from the dead, first in everything.\n\nVerse 19 says that 'all His fullness' was pleased to dwell in the Son. The word is pleroma, 'fullness,' a word the Colossian teachers probably used for the whole body of spiritual powers between God and humanity. Paul says that the whole fullness lives in one Person. The verb for 'was pleased,' eudokeo, is the word of divine choice, used of the Father's voice at Jesus' baptism, and the verb 'dwell,' katoikeo, means to take up permanent residence. Colossians 2:9 repeats it with the added word 'bodily.'\n\nVerse 20 uses the compound apokatallasso, 'reconcile,' to which the prefix gives the sense of a full restoration to a former state. The verb appears in the New Testament only in Colossians and Ephesians, Colossians 1:20 and 1:22 and Ephesians 2:16. It is joined to a participle, eirenopoieo, 'making peace,' and the means is stated: 'the blood of His cross.' The scope, 'all things... things on earth or things in heaven,' is large, and the question of what it includes is taken up in the debates.\n\nVerse 21 describes the Colossians with a perfect participle, apellotriomenoi, 'alienated,' a settled state of being estranged, and with 'hostile,' echthros, a word of active enmity. Verse 22 then gives the action with a past tense, apokatellaxen, 'He has reconciled,' and the means as 'Christ's physical body through death,' a phrase that stresses that the death was real and bodily, against teachers who prized the spiritual and the angelic. Finally verse 23's 'if indeed you continue,' ei ge epimenete, uses a present tense verb of staying and two perfect participles, tethemeliomenoi, 'founded' as on a foundation, and hedraioi, 'firm' as in a seat. The BSB footnote notes that 'every creature under heaven' can also be read 'in all creation.'",
     "typology": [
-      { "type": "Christ the image of God", "fulfillment": "Fulfills and perfects humanity created in God's image in Genesis 1:26-27, displaying the true likeness of God and restoring it in His people." },
-      { "type": "Christ the firstborn", "fulfillment": "Takes up the Old Testament rank of the firstborn heir, applied to Israel and to the Davidic king, now realized in the supreme Son and heir of all things." },
-      { "type": "Reconciliation by blood", "fulfillment": "Fulfills the sacrificial system that made peace between God and His people, accomplished decisively and once for all by the blood of Christ's cross." }
+      {
+        "type": "Christ the image, and Adam made in God's image, Genesis 1:26-27",
+        "fulfillment": "Humanity was made to be God's image on earth, to represent Him and to rule for Him. Adam failed to be the faithful image, and the image was marred. Paul says that the Son is the true image, 2 Corinthians 4:4, and that believers are being renewed 'in knowledge in the image of its Creator,' Colossians 3:10, and conformed to the image of the Son, Romans 8:29. The correspondence is the image-bearing vocation, and the escalation is that Christ is not merely a good image but the exact one, who reveals the invisible God. The type falls short in that Adam was made in the image, while the Son is the image, eternally and by nature."
+      },
+      {
+        "type": "The firstborn heir, Exodus 4:22 and Psalm 89:27",
+        "fulfillment": "Israel was called God's firstborn son, and the Davidic king was made firstborn, the highest of the earthly kings. In both cases the title meant privilege, inheritance and responsibility. Paul gathers these into Christ, who is the true Son of the Father and the true Davidic king, Romans 1:3-4. The escalation is that the Son's firstborn rank is over all creation and over the dead, and that He shares His inheritance with the many brothers, Romans 8:17 and 8:29. The type falls short because Israel and David each failed in their sonship, while Christ keeps it perfectly."
+      },
+      {
+        "type": "Reconciliation by blood, Leviticus 17:11 and the sacrifices",
+        "fulfillment": "The blood of the sacrifices was given 'to make atonement for your souls,' and Israel's whole system of approach to God depended on it. Paul says that peace has now been made through the blood of Christ's cross, and that He has reconciled believers 'by Christ's physical body through death.' The correspondence is blood given for peace. The escalation, drawn out by Hebrews 9:11-14 and 10:11-14, is that the sacrifices were repeated and symbolic, while Christ's one offering was real and final. The type falls short because animal blood could not take away sins, Hebrews 10:4."
+      },
+      {
+        "type": "The new creation beginning with the firstborn from the dead, Genesis 1:1",
+        "fulfillment": "The creation story begins with 'In the beginning,' and Paul calls Christ 'the beginning' in verse 18. The resurrection is a new first day. Paul calls Christ 'the firstfruits' in 1 Corinthians 15:20, and 2 Corinthians 5:17 says that anyone in Christ is a new creation. The correspondence is of a fresh start, and the escalation is that this is a start that death cannot undo. The comparison is limited, since Genesis 1 begins from nothing, while the new creation takes up the old and renews it."
+      }
     ],
-    "christ": "There are few loftier portraits of Christ anywhere in Scripture. He is the image of the invisible God, making the unseen known. He is the agent of creation: all things in heaven and earth, visible and invisible, thrones, dominions, rulers, authorities, were made through Him and for Him, and He holds them all together. He is the head of the church and the firstborn from the dead, the founder of a new humanity, so that in everything He is preeminent. In Him all the fullness of God gladly dwells, and through His blood God reconciles all things. The maker of the world is also its redeemer, and the two truths belong together.",
-    "god": "The invisible God is not unknowable, for He has revealed Himself in the Son who is His exact image. God is the one who was pleased to have His entire fullness dwell in Christ, so that to meet Christ is to meet God fully. And God is the great reconciler, taking the initiative to make peace with a hostile world at the cost of His Son's blood. Here we see a God who delights both to reveal Himself and to reconcile rebels to Himself.",
+    "christ": "This is a passage about Christ from beginning to end, so the question is less how it leads to Him than what it says about Him. Four claims stand out, and each is made with a text from elsewhere in the New Testament.\n\nFirst, He is the image of the invisible God. Jesus said to Philip, 'Anyone who has seen Me has seen the Father,' John 14:9, and John 1:18 says that the only Son has made the Father known. Paul's claim in 2 Corinthians 4:4 and 4:6 is that the knowledge of the glory of God is found in the face of Christ. If someone wants to know what God is like, there is nowhere better to look than at Jesus, His kindness, His anger at the hard of heart, and His death.\n\nSecond, He is the Creator and sustainer of everything. John 1:3 says that without Him nothing was made, and Hebrews 1:3 says that He upholds the universe by His powerful word. Verse 16 gives three prepositions, in, through and for. The Son is the place where creation was designed, the agent by which it was made, and the goal toward which it moves. This lifts the claim above a moral example. The man who walked in Galilee is the one by whom the galaxies were made.\n\nThird, He is the head of the church and the firstborn from the dead. Because He rose first, He is the source of a new humanity. Acts 26:23 says that He would be the first to rise from the dead, and 1 Corinthians 15:20 calls Him the firstfruits of those who have fallen asleep. The church is His body, and His authority over it is not that of a distant ruler but of a head to a body, which draws life from Him.\n\nFourth, He is the reconciler. The fullness of God dwells in Him, and it is through Him that God makes peace by the blood of His cross. Paul's thought here is bold: the same Person who is the image of God and the maker of all things is the one who died on a Roman cross. 2 Corinthians 5:19 says that God was in Christ reconciling the world to Himself, and Ephesians 2:14-16 says that He is our peace, who reconciled both groups to God in one body through the cross.\n\nA word of care is in order. The passage does not mean that the pre-existent Son was a different person from Jesus of Nazareth, or that the cross was only symbolic. The same Person who made the world was born, bled and rose. The Colossians were being told that they needed no other mediator, and the reason is not that other powers are evil but that the Son is enough.",
+    "god": "This passage speaks of God by speaking of the Son, but it still tells us a great deal about the Father and about the God who is revealed. First, God is invisible. The hymn begins by saying so. He cannot be seen, and no one has ever seen Him, John 1:18 and 1 Timothy 6:16. That is not a reason for despair, because the passage says He has made Himself known in the Son. The doctrine of God here is a doctrine of a hidden God who chooses to be seen.\n\nSecond, God is the Creator who makes through the Son and for the Son. This shapes the doctrine of the Trinity. The Father creates, and creates through and for His Son, John 1:3 and 1 Corinthians 8:6. The Father does not compete with the Son or work apart from Him. The creation is a work of love, shared between the persons of the Godhead, and it is made for the delight of the Son whom the Father loves.\n\nThird, God is the One who is pleased. Verse 19 says that 'God was pleased to have all His fullness dwell in Him.' The language of pleasure describes the Father's choice, and it shows that the fullness of God dwelling in Christ was not forced. It also shows that the work of reconciliation, which follows at once, is part of that pleasure. God is not reluctantly forgiving but delighting to make peace. This matches the picture of Luke 15, where the father runs to meet the returning son.\n\nFourth, God is the reconciler. Verse 20 says that God, through the Son, reconciles 'to Himself' all things. The initiative lies with God, and the purpose is that people and the world be brought home to Him. Humanity is described as hostile, and God as the one who makes the first move at the greatest cost, the blood of His cross. Romans 5:10 says that while we were enemies we were reconciled to God through the death of His Son. The doctrine is of a God whose justice and love meet at the cross.\n\nFifth, God is the One who presents His people holy, unblemished and blameless. Verse 22 is a statement about final outcomes. He who began the work will complete it, Philippians 1:6, and the holiness is not self-made but given.\n\nFor worship, the hymn teaches that the fitting response to God is to see how large the Son is and to bow. The passage is a hymn because there is no adequate reply except praise. It also teaches that the God who is invisible and vast is the God who has come near in blood and body, and that is a reason for both awe and deep confidence.",
     "crossReferences": [
-      { "ref": "John 1:1-18", "note": "The Word through whom all things were made and who reveals the unseen God, parallel to the image and creator language here." },
-      { "ref": "Philippians 2:6-11", "note": "The Son in the form of God who humbled Himself to death on a cross and is exalted above all, matching His preeminence." },
-      { "ref": "Hebrews 1:1-4", "note": "The Son as the radiance of God's glory and exact imprint, who upholds all things, close kin to verses 15 to 17." },
-      { "ref": "2 Corinthians 5:18-21", "note": "God reconciling the world to Himself through Christ, the reconciliation applied in verses 20 to 22." }
+      {
+        "ref": "John 1:1-18",
+        "note": "John says the Word was with God and was God, that all things were made through Him, and that the only Son has made the Father known. It supplies the narrative form of what Colossians 1:15-17 says in a hymn: the Son is the Creator who is also the revealer of the unseen God."
+      },
+      {
+        "ref": "Hebrews 1:1-4",
+        "note": "The writer calls the Son heir of all things, the one through whom God made the universe, the radiance of God's glory and the exact representation of His being, who upholds all things by His powerful word. It closely parallels Colossians 1:15-20 and confirms that the church saw these claims as a shared confession."
+      },
+      {
+        "ref": "Philippians 2:6-11",
+        "note": "Another early hymn, in which the Son who is in the form of God humbles Himself to death on a cross and is exalted so that every knee should bow. It shows the same movement as Colossians 1: from the highest place, to the cross, to universal lordship."
+      },
+      {
+        "ref": "Genesis 1:26-27",
+        "note": "God makes humanity in His own image to rule on His behalf. It is the background of the Son as 'image' in Colossians 1:15. What Adam was meant to be and failed to be, the Son is: the true image of God."
+      },
+      {
+        "ref": "Proverbs 8:22-31",
+        "note": "Wisdom speaks of being with the LORD at the creation, delighting in the world as His master craftsman. Jewish readers saw in this the pattern of God's agent in making the world, and Paul takes up its themes of priority and creative role and says that they are fulfilled in the Son."
+      },
+      {
+        "ref": "Psalm 89:27",
+        "note": "God promises that He will make David His firstborn, the most exalted of the kings of the earth. It explains how 'firstborn' can be a title of rank. Paul sees the promise fulfilled in the Son of David, whose rule is over all creation and not only over Israel."
+      },
+      {
+        "ref": "Ephesians 2:14-16",
+        "note": "Christ is our peace, who made the two groups one and reconciled both to God through the cross. It uses the same rare verb for reconciliation as Colossians 1:20 and 1:22 and shows that the peace of the cross reaches between people as well as between God and people."
+      },
+      {
+        "ref": "Romans 8:19-23",
+        "note": "Creation waits in eager expectation for the children of God to be revealed, longing to be set free from its bondage to decay. It sets out the cosmic dimension of redemption that Colossians 1:20 states in a sentence, and it shows that the reconciliation of all things includes the renewal of the physical world."
+      },
+      {
+        "ref": "1 Corinthians 15:20-23",
+        "note": "Christ has been raised, the firstfruits of those who have fallen asleep, and in Him all will be made alive, each in his own order. It explains what 'firstborn from among the dead' means in practice: He is the first of a harvest."
+      },
+      {
+        "ref": "Colossians 2:9-10",
+        "note": "In Christ all the fullness of the Deity lives in bodily form, and believers have been brought to fullness in Him, who is the head over every power and authority. It returns to the claims of 1:19 and draws out the practical conclusion that believers lack nothing."
+      },
+      {
+        "ref": "Hebrews 3:14",
+        "note": "The writer says that believers have come to share in Christ if they hold firmly till the end the confidence they had at first. It is the nearest parallel to the condition of Colossians 1:23 and shows that both writers pair assurance in Christ with a call to hold fast."
+      }
     ],
-    "oneStory": "Christ stands at the very center of the Bible's story. He is the one through whom all things were made in the beginning and the one through whom all things are being reconciled in the end. What was broken at the fall, the fracture of humanity and creation, is answered in the Son who is the image of God and the peacemaker by His blood. The Colossians, once alienated and hostile, are brought home, a picture of the whole redeemed cosmos finding its peace in the preeminent Christ.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "Genesis opens with God speaking the world into being and making humanity in His image. Within three chapters the image is marred, the ground cursed, and the first couple sent from the garden. The rest of the Old Testament waits for a figure who will do what Adam failed to do and put right what he broke. Colossians 1:15-23 is the New Testament's most concentrated answer to that waiting: the one who will repair the creation is the one by whom it was made.\n\nThe hymn says what was hidden in the Old Testament's language of wisdom, image and firstborn. Israel was God's firstborn, the king was His firstborn, wisdom was beside Him at the start. In each case the title pointed beyond itself. Here it comes to rest in a Person. The Son stands before and above every created thing, including the 'thrones and dominions' that human beings feared and worshipped.\n\nThe middle of the hymn is the resurrection. He is 'the beginning and firstborn from among the dead,' and so the new creation has already started in Him. The cross is the means by which it began, since the peace is made by the blood of His cross. Paul says in verses 21 and 22 that this peace has reached the Colossians, who were once Gentile outsiders. The gospel, which has been proclaimed 'to every creature under heaven,' is the beginning of the fulfilment of the promise to Abraham that all nations would be blessed, Genesis 12:3.\n\nThe story is not yet finished. All things are to be reconciled, but creation still groans, Romans 8:22, and the church waits to be presented before Him. The tension between 'has reconciled' and 'all things' yet to be set right is the tension of the time in which the church lives.\n\nThe story ends in the new creation. Revelation 5:13 hears every creature in heaven and on earth and under the earth singing to the one on the throne and to the Lamb. Revelation 21:5 has the One on the throne say, 'I am making everything new.' The Son who made all things, and who reconciled them in the cross, is the one in whom all things are finally put right. The hymn of Colossians is the first verse of a song that will be sung by the whole of creation.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What does Paul mean by calling the Son the firstborn over all creation?",
       "options": [
-        { "text": "That He holds supreme rank and heirship over all things, as their maker.", "weight": 100, "note": "Firstborn is a title of rank; verse 16 says all things were created through Him." },
-        { "text": "That He was the first being God created.", "weight": 75, "note": "A common misreading; verses 16 and 17 make Him the creator, not a creature." },
-        { "text": "That He was Mary's first child only.", "weight": 25, "note": "The context is cosmic supremacy over creation, not merely family order." },
-        { "text": "That He ranks below the angels.", "weight": 0, "note": "He is above every throne, dominion, ruler, and authority." }
+        {
+          "text": "That He holds supreme rank and heirship over all things, as their maker.",
+          "weight": 100,
+          "note": "Firstborn is a title of rank; verse 16 says all things were created through Him."
+        },
+        {
+          "text": "That He was the first being God created.",
+          "weight": 75,
+          "note": "A common misreading; verses 16 and 17 make Him the creator, not a creature."
+        },
+        {
+          "text": "That He was Mary's first child only.",
+          "weight": 25,
+          "note": "The context is cosmic supremacy over creation, not merely family order."
+        },
+        {
+          "text": "That He ranks below the angels.",
+          "weight": 0,
+          "note": "He is above every throne, dominion, ruler, and authority."
+        }
       ]
     },
     {
       "q": "According to verses 16 and 17, what is Christ's relationship to creation?",
       "options": [
-        { "text": "All things were created through Him and for Him, and in Him they hold together.", "weight": 100, "note": "Christ is the agent, goal, and sustainer of all creation." },
-        { "text": "He observed creation from a distance but did not make it.", "weight": 75, "note": "Paul says all things were created through Him and for Him." },
-        { "text": "He created only spiritual things, not physical ones.", "weight": 25, "note": "The text says things visible and invisible, in heaven and on earth." },
-        { "text": "Creation continues without any need of Him.", "weight": 0, "note": "In Him all things hold together; creation depends on Him." }
+        {
+          "text": "All things were created through Him and for Him, and in Him they hold together.",
+          "weight": 100,
+          "note": "Christ is the agent, goal, and sustainer of all creation."
+        },
+        {
+          "text": "He observed creation from a distance but did not make it.",
+          "weight": 75,
+          "note": "Paul says all things were created through Him and for Him."
+        },
+        {
+          "text": "He created only spiritual things, not physical ones.",
+          "weight": 25,
+          "note": "The text says things visible and invisible, in heaven and on earth."
+        },
+        {
+          "text": "Creation continues without any need of Him.",
+          "weight": 0,
+          "note": "In Him all things hold together; creation depends on Him."
+        }
       ]
     },
     {
       "q": "What does it mean that all God's fullness dwells in Christ?",
       "options": [
-        { "text": "The complete fullness of God lives in the Son, so nothing is lacking or needed beside Him.", "weight": 100, "note": "Verse 19, echoed in 2:9, locates all of deity in Christ alone." },
-        { "text": "Christ has a portion of God's power among many mediators.", "weight": 75, "note": "The point is all the fullness, not a share alongside others." },
-        { "text": "Fullness comes only when we add rules and rituals.", "weight": 25, "note": "That is the error Paul refutes; fullness is in Christ already." },
-        { "text": "God's fullness is spread evenly through all creatures.", "weight": 0, "note": "Paul says it was pleased to dwell in Him, the Son." }
+        {
+          "text": "The complete fullness of God lives in the Son, so nothing is lacking or needed beside Him.",
+          "weight": 100,
+          "note": "Verse 19, echoed in 2:9, locates all of deity in Christ alone."
+        },
+        {
+          "text": "Christ has a portion of God's power among many mediators.",
+          "weight": 75,
+          "note": "The point is all the fullness, not a share alongside others."
+        },
+        {
+          "text": "Fullness comes only when we add rules and rituals.",
+          "weight": 25,
+          "note": "That is the error Paul refutes; fullness is in Christ already."
+        },
+        {
+          "text": "God's fullness is spread evenly through all creatures.",
+          "weight": 0,
+          "note": "Paul says it was pleased to dwell in Him, the Son."
+        }
       ]
     },
     {
       "q": "How did God reconcile all things to Himself?",
       "options": [
-        { "text": "Through Christ, making peace by the blood of His cross.", "weight": 100, "note": "Verse 20 grounds reconciliation in the cross." },
-        { "text": "By overlooking sin without any cost.", "weight": 75, "note": "Peace came at the cost of Christ's blood, not by ignoring sin." },
-        { "text": "By human effort and religious rule-keeping.", "weight": 25, "note": "Reconciliation is God's work through the cross, not our rules." },
-        { "text": "By destroying creation and starting over.", "weight": 0, "note": "He reconciles and makes peace, not annihilates." }
+        {
+          "text": "Through Christ, making peace by the blood of His cross.",
+          "weight": 100,
+          "note": "Verse 20 grounds reconciliation in the cross."
+        },
+        {
+          "text": "By overlooking sin without any cost.",
+          "weight": 75,
+          "note": "Peace came at the cost of Christ's blood, not by ignoring sin."
+        },
+        {
+          "text": "By human effort and religious rule-keeping.",
+          "weight": 25,
+          "note": "Reconciliation is God's work through the cross, not our rules."
+        },
+        {
+          "text": "By destroying creation and starting over.",
+          "weight": 0,
+          "note": "He reconciles and makes peace, not annihilates."
+        }
       ]
     },
     {
       "q": "How does Paul describe the Colossians before and after Christ's work?",
       "options": [
-        { "text": "Once alienated and hostile, now reconciled to be presented holy and blameless.", "weight": 100, "note": "Verses 21 and 22 apply the reconciliation directly to them." },
-        { "text": "Always basically good, needing only minor improvement.", "weight": 75, "note": "Paul says they were alienated and hostile in mind and deed." },
-        { "text": "Beyond hope, with no possibility of reconciliation.", "weight": 25, "note": "The whole point is that they have now been reconciled." },
-        { "text": "Reconciled by their own good works.", "weight": 0, "note": "He reconciled them by Christ's body through death, not their works." }
+        {
+          "text": "Once alienated and hostile, now reconciled to be presented holy and blameless.",
+          "weight": 100,
+          "note": "Verses 21 and 22 apply the reconciliation directly to them."
+        },
+        {
+          "text": "Always basically good, needing only minor improvement.",
+          "weight": 75,
+          "note": "Paul says they were alienated and hostile in mind and deed."
+        },
+        {
+          "text": "Beyond hope, with no possibility of reconciliation.",
+          "weight": 25,
+          "note": "The whole point is that they have now been reconciled."
+        },
+        {
+          "text": "Reconciled by their own good works.",
+          "weight": 0,
+          "note": "He reconciled them by Christ's body through death, not their works."
+        }
       ]
     },
     {
       "q": "What does verse 23 add to the promise of reconciliation?",
       "options": [
-        { "text": "A call to continue in the faith, firm and not moved from the gospel.", "weight": 100, "note": "Perseverance is the mark and evidence of genuine reconciliation." },
-        { "text": "That reconciliation can be earned by continued effort.", "weight": 75, "note": "Continuing is the evidence of true faith, not the price of reconciliation." },
-        { "text": "That the gospel is only for a small hidden group.", "weight": 25, "note": "Paul says it has been proclaimed to every creature under heaven." },
-        { "text": "That believers can safely drift from the gospel.", "weight": 0, "note": "The call is to remain established and firm, not to drift." }
+        {
+          "text": "A call to continue in the faith, firm and not moved from the gospel.",
+          "weight": 100,
+          "note": "Perseverance is the mark and evidence of genuine reconciliation."
+        },
+        {
+          "text": "That reconciliation can be earned by continued effort.",
+          "weight": 75,
+          "note": "Continuing is the evidence of true faith, not the price of reconciliation."
+        },
+        {
+          "text": "That the gospel is only for a small hidden group.",
+          "weight": 25,
+          "note": "Paul says it has been proclaimed to every creature under heaven."
+        },
+        {
+          "text": "That believers can safely drift from the gospel.",
+          "weight": 0,
+          "note": "The call is to remain established and firm, not to drift."
+        }
       ]
     }
   ],
@@ -171,8 +407,17 @@
     "Verse 23 calls you to continue firm in the gospel. What helps you stay established and unmoved when you are tempted to drift?"
   ],
   "translationNotes": [
-    { "ref": "Colossians 1:15", "note": "Firstborn translates prototokos, a title of rank, priority, and heirship in Hebrew usage, not a statement that the Son was created; verse 16 names Him the creator of all things." },
-    { "ref": "Colossians 1:20", "note": "Reconcile to Himself all things describes the cosmic scope of Christ's peace over every realm and power; verse 23 shows personal reconciliation is received through continuing in faith." }
+    {
+      "ref": "Colossians 1:15",
+      "note": "Firstborn translates prototokos, a title of rank, priority, and heirship in Hebrew usage, not a statement that the Son was created; verse 16 names Him the creator of all things."
+    },
+    {
+      "ref": "Colossians 1:20",
+      "note": "Reconcile to Himself all things describes the cosmic scope of Christ's peace over every realm and power; verse 23 shows personal reconciliation is received through continuing in faith."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Colossians 1:15-23. wording is unchanged." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Colossians 1:15-23. wording is unchanged."
+  }
 }

@@ -18,12 +18,36 @@
         "note": "Christ in you, the hope of glory",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 24, "text": "Now I rejoice in my sufferings for you, and I fill up in my flesh what is lacking in regard to Christ’s afflictions for the sake of His body, which is the church." },
-          { "chapter": 1, "n": 25, "text": "I became its servant by the commission God gave me to fully proclaim to you the word of God," },
-          { "chapter": 1, "n": 26, "text": "the {{mysterion|mystery}} that was hidden for ages and generations but is now revealed to His saints." },
-          { "chapter": 1, "n": 27, "text": "To them God has chosen to make known among the Gentiles the glorious riches of this mystery, which is Christ in you, the hope of glory." },
-          { "chapter": 1, "n": 28, "text": "We proclaim Him, admonishing and teaching everyone with all wisdom, so that we may present everyone {{teleios|perfect}} in Christ." },
-          { "chapter": 1, "n": 29, "text": "To this end I also labor, {{agonizomai|striving}} with all His energy working powerfully within me." }
+          {
+            "chapter": 1,
+            "n": 24,
+            "text": "Now I rejoice in my sufferings for you, and I fill up in my flesh what is lacking in regard to Christ’s afflictions for the sake of His body, which is the church."
+          },
+          {
+            "chapter": 1,
+            "n": 25,
+            "text": "I became its servant by the commission God gave me to fully proclaim to you the word of God,"
+          },
+          {
+            "chapter": 1,
+            "n": 26,
+            "text": "the {{mysterion|mystery}} that was hidden for ages and generations but is now revealed to His saints."
+          },
+          {
+            "chapter": 1,
+            "n": 27,
+            "text": "To them God has chosen to make known among the Gentiles the glorious riches of this mystery, which is Christ in you, the hope of glory."
+          },
+          {
+            "chapter": 1,
+            "n": 28,
+            "text": "We proclaim Him, admonishing and teaching everyone with all wisdom, so that we may present everyone {{teleios|perfect}} in Christ."
+          },
+          {
+            "chapter": 1,
+            "n": 29,
+            "text": "To this end I also labor, {{agonizomai|striving}} with all His energy working powerfully within me."
+          }
         ]
       },
       {
@@ -31,20 +55,60 @@
         "note": "encouraged, united, safe from deception",
         "emphasis": "",
         "verses": [
-          { "chapter": 2, "n": 1, "text": "For I want you to know how much I am struggling for you and for those at Laodicea, and for all who have not met me face to face," },
-          { "chapter": 2, "n": 2, "text": "that they may be encouraged in heart, knit together in love, and filled with the full riches of complete understanding, so that they may know the mystery of God, namely Christ," },
-          { "chapter": 2, "n": 3, "text": "in whom are hidden all the {{thesauros|treasures}} of wisdom and knowledge." },
-          { "chapter": 2, "n": 4, "text": "I say this so that no one will deceive you by smooth rhetoric." },
-          { "chapter": 2, "n": 5, "text": "For although I am absent from you in body, I am present with you in spirit, and I delight to see your orderly condition and firm faith in Christ." }
+          {
+            "chapter": 2,
+            "n": 1,
+            "text": "For I want you to know how much I am struggling for you and for those at Laodicea, and for all who have not met me face to face,"
+          },
+          {
+            "chapter": 2,
+            "n": 2,
+            "text": "that they may be encouraged in heart, knit together in love, and filled with the full riches of complete understanding, so that they may know the mystery of God, namely Christ,"
+          },
+          {
+            "chapter": 2,
+            "n": 3,
+            "text": "in whom are hidden all the {{thesauros|treasures}} of wisdom and knowledge."
+          },
+          {
+            "chapter": 2,
+            "n": 4,
+            "text": "I say this so that no one will deceive you by smooth rhetoric."
+          },
+          {
+            "chapter": 2,
+            "n": 5,
+            "text": "For although I am absent from you in body, I am present with you in spirit, and I delight to see your orderly condition and firm faith in Christ."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "mysterion": { "language": "Greek", "lemma": "mysterion", "original": "μυστήριον", "gloss": "A mystery, not a puzzle to be solved but a truth once hidden and now openly revealed by God. The mystery is not secret higher knowledge for an elite, the very thing the false teachers offered, but the open gospel: Christ dwelling in His people, including the Gentiles, as their hope of glory. What was concealed for ages is now proclaimed to all." },
-    "teleios": { "language": "Greek", "lemma": "teleios", "original": "τέλειος", "gloss": "Complete, mature, having reached its intended goal. Paul's aim is to present everyone teleios in Christ, fully formed and grown up in Him, not a special class of initiates. Against a teaching that promised advancement to a higher tier, maturity is defined simply as being complete in Christ." },
-    "agonizomai": { "language": "Greek", "lemma": "agonizomai", "original": "ἀγωνίζομαι", "gloss": "To struggle, contend, or strive as in an athletic contest, the root of the word agony. Paul labors and agonizes for the churches, and 2:1 uses the same idea of his struggle for people he has never met. His toil is real and costly, yet carried by Christ's own energy powerfully at work in him." },
-    "thesauros": { "language": "Greek", "lemma": "thesauros", "original": "θησαυρός", "gloss": "A treasure or treasury, a store of great worth. All the treasures of wisdom and knowledge are hidden in Christ, not in the speculations on offer at Colossae. The word hidden here means stored up and available in Christ, so seekers need look nowhere else for true wisdom." }
+    "mysterion": {
+      "language": "Greek",
+      "lemma": "mysterion",
+      "original": "μυστήριον",
+      "gloss": "A mystery, not a puzzle to be solved but a truth once hidden and now openly revealed by God. The mystery is not secret higher knowledge for an elite, the very thing the false teachers offered, but the open gospel: Christ dwelling in His people, including the Gentiles, as their hope of glory. What was concealed for ages is now proclaimed to all."
+    },
+    "teleios": {
+      "language": "Greek",
+      "lemma": "teleios",
+      "original": "τέλειος",
+      "gloss": "Complete, mature, having reached its intended goal. Paul's aim is to present everyone teleios in Christ, fully formed and grown up in Him, not a special class of initiates. Against a teaching that promised advancement to a higher tier, maturity is defined simply as being complete in Christ."
+    },
+    "agonizomai": {
+      "language": "Greek",
+      "lemma": "agonizomai",
+      "original": "ἀγωνίζομαι",
+      "gloss": "To struggle, contend, or strive as in an athletic contest, the root of the word agony. Paul labors and agonizes for the churches, and 2:1 uses the same idea of his struggle for people he has never met. His toil is real and costly, yet carried by Christ's own energy powerfully at work in him."
+    },
+    "thesauros": {
+      "language": "Greek",
+      "lemma": "thesauros",
+      "original": "θησαυρός",
+      "gloss": "A treasure or treasury, a store of great worth. All the treasures of wisdom and knowledge are hidden in Christ, not in the speculations on offer at Colossae. The word hidden here means stored up and available in Christ, so seekers need look nowhere else for true wisdom."
+    }
   },
   "study": {
     "basic": {
@@ -58,85 +122,252 @@
       "oneStory": "The long-hidden plan of God is now out in the open: Christ dwelling in His people, gathering the nations into the hope of glory. Paul suffers and strives to spread this one message, and the whole story bends toward a matured people, complete in Christ, in whom all the treasures of wisdom are found."
     },
     "context": {
-      "literary": "This section pivots from the exalted hymn to Paul's personal ministry, linking the two by the theme of the church, Christ's body. Key words gather here: mystery, wisdom, knowledge, understanding, and maturity, the very vocabulary the false teachers prized, now redefined around Christ. Chapter 2:1-5 narrows from Paul's general labor to his specific struggle for the Lycus Valley churches and prepares directly for the warning of 2:6 onward.",
-      "historical": "Paul writes as a prisoner, which frames his talk of suffering. He had never visited Colossae or Laodicea; the churches were planted through Epaphras. This explains why he stresses his struggle for those who have not met him face to face and why he must warn from a distance against persuasive local teachers using smooth, plausible speech.",
-      "canonical": "The theme of the revealed mystery links Colossians to Ephesians and Romans, where the inclusion of the Gentiles is the open secret of God's plan. The idea of a suffering apostle who completes a ministry of proclamation stands in the line of the suffering servant and of Christ's own path of glory through suffering."
+      "literary": "After the soaring hymn, the letter comes down to earth in the first person. The pronoun 'I' dominates verses 24 to 29 and 2:1 to 5, and the shift is deliberate. Paul has just said who Christ is, and he now says who he is in relation to Christ: a servant, a steward, a labourer, a fighter. The section answers the unspoken question of how the Colossians, who have never met him, should regard the man writing to them.\n\nThe passage has a clear inner shape. Verses 24 to 27 are about suffering and stewardship and climb to the phrase 'Christ in you, the hope of glory.' Verses 28 and 29 state the aim and the effort, 'we proclaim Him' and 'I labor, striving.' Chapter 2 verses 1 to 3 widen the circle from the Colossians to Laodicea and to everyone who has not met him, and they climb again to 'Christ, in whom are hidden all the treasures of wisdom and knowledge.' Verses 4 and 5 then bring the section to its practical point: do not be deceived, and stay firm.\n\nThe vocabulary of the whole letter is gathered here. 'Mystery,' 'wisdom,' 'knowledge,' 'understanding,' 'perfect' and 'riches' are all words the rival teachers prized. Paul takes each one and gives it a single centre. The word 'all' keeps its place from the hymn: 'all wisdom' in verse 28, 'all His energy' in verse 29, 'all the treasures' in 2:3, 'everyone' three times in verse 28. The repetition says that the gospel is for the whole church and holds the whole of wisdom.\n\nThe movement from 1:28 to 2:2 also repeats a pair, 'present everyone perfect' and 'filled with the full riches of complete understanding.' Maturity and understanding are tied together as two sides of one growth. The passage forms a bridge. It looks back to the hymn by stressing that all fullness is in Christ, and it looks forward to 2:6, where 'as you received Christ Jesus the Lord, continue to live in Him' begins the direct argument against the false teaching.",
+      "historical": "Paul writes as a prisoner, as Colossians 4:3 and 4:18 make clear, and the suffering he speaks of is not abstract. It includes the chains and the uncertainty he faces for the sake of the gospel to the Gentiles. The Acts account sets the pattern: at his call, the Lord said how much he must suffer for His name, Acts 9:16, and his own letters list beatings, shipwrecks and hardships, 2 Corinthians 11:23-27. In a world that honoured status and strength, a suffering apostle looked more like a failure than an authority. Paul answers that his suffering is not a sign that the gospel fails but a way it advances.\n\nThe word 'mystery' had a double background. In Greek religion it named a secret rite known to initiates. In the Jewish writings of the period, and in the book of Daniel especially, it named a plan of God that had been hidden and was revealed by Him, Daniel 2:18-19 and 2:27-30. Paul uses the second meaning, but he is probably aware that the first was in the air at Colossae, where teachers apparently spoke of fullness and hidden knowledge reserved for a few. His mystery is not for the few. It is announced to every person and its content is a Person.\n\nThe Laodiceans are named because the two churches were close neighbours, and the letter was meant to be passed between them, Colossians 4:16. Neither had met Paul. He addresses them across a gap of distance and has to warn without the weight of presence. Verse 5 speaks of this gap with gentle humour and affection: he is absent in body but present in spirit, and the army-like words he uses for their 'orderly condition' and 'firm faith' suggest a company standing in formation. Smooth rhetoric, verse 4, belonged to the world of the travelling speaker, and the Greek city was full of eloquent teachers who could make a poor argument sound convincing.",
+      "canonical": "The theme of the revealed mystery is among the great threads of Paul's letters. Romans 16:25-26 speaks of the mystery hidden for long ages and now disclosed through the prophetic writings and made known to all nations. Ephesians 3:2-12 gives the longest treatment, saying that the mystery was not made known to earlier generations as it has been now, namely that the Gentiles are fellow heirs, members of one body and sharers in the promise in Christ Jesus. Colossians gives the same truth in a single phrase, 'Christ in you, the hope of glory.' Behind it stands Daniel 2, where God is called the revealer of mysteries and a stone becomes a kingdom that fills the earth.\n\nThe suffering of the apostle belongs with Paul's theology of the cross in 2 Corinthians 4:7-12, where the treasure of the gospel is carried in jars of clay, and with 2 Corinthians 1:5, where the sufferings of Christ overflow into our lives. Philippians 3:10 speaks of sharing in His sufferings. Behind them lies the portrait of the suffering servant of Isaiah 52:13 to 53:12 and the saying of Jesus that a servant is not greater than his master, John 15:20. Peter takes up the same pattern in 1 Peter 4:13.\n\nThe description of Christ as the storehouse of wisdom and knowledge draws on the wisdom tradition. Proverbs 2:1-6 speaks of searching for wisdom as for hidden treasure, and Paul says that the treasure is Christ. The concern for maturity belongs with Ephesians 4:11-16, where the gifts are given so that the body may grow to the fullness of Christ, and with Hebrews 5:11 to 6:3. The warning against deception runs through Acts 20:29-30 and 2 Corinthians 11:3-4."
     },
     "hermeneutics": {
-      "authorIntent": "To present Paul's suffering, Christ-empowered ministry as the trustworthy channel of the open gospel mystery, to define Christian maturity as completeness in Christ, and to assure the Colossians of his earnest struggle for them so they will resist deceptive teaching and rest in the treasures found in Christ alone.",
-      "descriptionVsPrescription": "Paul's unique apostolic sufferings and commission describe his particular calling, not a template every believer repeats. What is prescriptive is the aim, growing everyone toward maturity in Christ, the warning against persuasive error, and the truth that all wisdom is found in Christ, which holds for every reader.",
+      "authorIntent": "Paul meant the Colossians to see their own situation as part of a much larger purpose. The gospel that reached them is not a small local religion but the unveiling of a plan God has held since before the ages. They are Gentiles, and they are the proof of it: Christ is in them. A people who had been outsiders discover that they stand at the centre of what God has been doing.\n\nHe also meant to establish his standing without pulling rank. He describes his sufferings and his labour not to boast but to show that he is spending himself for their sake, and for churches he has never visited. The point is that a man who bleeds for them is not a threat to them. When he warns them against smooth talk in 2:4, they have just heard how much he loves them.\n\nAnd he meant to redirect their ambition. Everyone who wants wisdom must look at Christ, because all the treasures of wisdom and knowledge are hidden in Him. To grow up means to grow into Him, 'perfect in Christ.' No higher teaching exists above Him, and no step beyond Him is needed. The passage ends with a gentle call to stand firm, to keep their order and their faith, and to resist the plausible speaker.",
+      "descriptionVsPrescription": "Most of the passage describes Paul's own calling and experience. The commission 'God gave me,' verse 25, belongs to him as an apostle and cannot be copied. The sufferings he rejoices in are his, and he does not command other believers to seek them. His struggle for Laodicea is a specific labour of prayer and correspondence. Reading these verses as a general rule that every Christian must suffer in a particular way, or as a claim to his apostolic office, misses what they are.\n\nWhat does carry over is the pattern. Every believer shares the gospel, and every minister is a steward of what has been entrusted. Pastors and teachers are meant to labour so that people may be 'perfect in Christ,' with a mixture of admonishing and teaching, and to do so by relying on His energy, not their own. All believers are meant to give Christ the central place in their search for wisdom and to be wary of smooth speech. The suffering that comes with faithful witness is not a sign of failure but is something Paul sees as part of the Lord's way with His people. At the same time, the passage should not be used to say that Christ's death was incomplete. Verse 24 is about the church's mission and not about the cross's sufficiency.",
       "debates": [
         {
-          "question": "What does Paul mean by filling up what is lacking in Christ's afflictions?",
+          "question": "What is 'lacking' in Christ's afflictions?",
           "views": [
-            { "label": "Sharing and spreading Christ's sufferings", "case": "Christ's atoning work is finished and complete; Paul fills up the ongoing sufferings that fall to Christ's body as the gospel advances, bearing them for the church's sake." },
-            { "label": "A measure of appointed suffering", "case": "There is a set measure of affliction the church must endure in this age for the gospel, and Paul gladly takes his share of it for the churches." }
+            {
+              "label": "The sufferings that fall to the church as the gospel spreads",
+              "case": "Christ's atoning work is complete, as Colossians 1:20 and 2:13-14 say. What remains is the suffering that comes to His body as it carries the message into a hostile world. Paul takes his share. 'Afflictions' here is the word for pressure and trouble, not the word for Christ's atoning sufferings, and Paul says he does it 'for the sake of His body.'"
+            },
+            {
+              "label": "A fixed measure of tribulation for the age",
+              "case": "Some link the phrase to a Jewish idea of an appointed quota of suffering before the end, so that each affliction borne brings the final deliverance nearer. Paul gladly takes up his portion, as Mark 13:8-13 and Romans 8:17-18 suggest that the people of God must endure trouble."
+            },
+            {
+              "label": "A supplement to the merit of Christ",
+              "case": "Some in the medieval and later Catholic tradition have used the verse to speak of the church sharing in the application of Christ's merits through sacrifice and suffering. The Reformers answered that it cannot mean adding to the work of the cross, because the same letter insists that Christ's death is sufficient and that He disarmed the powers there, Colossians 2:13-15."
+            }
           ],
-          "bearing": "Neither view adds to the saving sufficiency of the cross; both affirm that Paul's suffering serves the church by carrying the finished gospel forward, not by completing redemption."
+          "bearing": "The first two readings agree that Paul's suffering extends Christ's saving work to others in proclamation and does not complete its power. That is the only reading consistent with the hymn that comes just before the verse."
+        },
+        {
+          "question": "Is the mystery 'Christ in you' or 'Christ among you'?",
+          "views": [
+            {
+              "label": "Christ dwelling in each believer",
+              "case": "The Greek phrase en hymin can mean 'in you,' and the thought of the indwelling Christ appears in Galatians 2:20, Romans 8:10 and Ephesians 3:17. The hope of glory rests on His presence within."
+            },
+            {
+              "label": "Christ among the Gentiles",
+              "case": "The phrase can also mean 'among you,' and the sentence begins 'among the Gentiles.' The mystery is then that Christ is now preached to the nations, and the stress is on the corporate inclusion of the Gentiles. This fits Ephesians 3:6."
+            },
+            {
+              "label": "Both senses at once",
+              "case": "The preposition may be deliberately open: Christ is present in the community and in each of its members. The two senses do not compete, and the context supports both a corporate and an individual note."
+            }
+          ],
+          "bearing": "Either translation says that the long-hidden secret is a Person who has taken up His home with Gentile believers. The difference changes the emphasis, not the gospel."
         }
       ]
     },
-    "originalLanguages": "Paul calls himself a servant charged to proclaim the word of God, which he defines as the mysterion, the truth long hidden and now openly disclosed, its content being Christ in you, the hope of glory. This is a direct rebuke to teachers peddling secret knowledge, for the real mystery is publicly preached. His pastoral goal is to present everyone teleios, complete and mature, in Christ, not to graduate a few into a higher tier. To that end he labors and agonizomai, contending like an athlete, yet by Christ's own energy at work in him, and 2:1 stretches that striving even to churches he has never seen. The reason error is so serious is that all the thesauros, the treasures of wisdom and knowledge, are stored up in Christ, so to be drawn from Christ is to be drawn from the only treasury of truth.",
+    "originalLanguages": "The most debated word in the passage is the one in verse 24 that the BSB renders 'I fill up,' antanapleroo, a double compound that appears nowhere else in the New Testament. It joins the idea of filling up with the prefix anti, 'in turn,' and the sense is of supplying something on the other side to make up a lack. The thing lacking is called hysterema, 'what is lacking,' a word for a shortfall, as in 2 Corinthians 8:14 and Philippians 2:30. The genitive 'of Christ's afflictions' uses thlipsis, 'pressure' or 'tribulation,' and not pathema, 'suffering,' which Paul uses of the sufferings of Christ elsewhere. The word choice supports reading the passage as describing the afflictions Christ's people suffer because of Him, not His atoning death.\n\nVerse 25 gives Paul's role as oikonomia, 'commission,' the work of a household steward who manages what belongs to another. The same word and image appear in Ephesians 3:2 and in 1 Corinthians 4:1, where Paul calls himself a steward of God's mysteries. The verb that follows, plerosai, 'to fully proclaim,' literally 'to fill up' or 'complete,' repeats the filling vocabulary of the passage. He is to bring the word of God to its full measure.\n\nThe central word of the section is mysterion, 'mystery,' in verses 26 and 27 and in 2:2. In the Septuagint of Daniel 2 it is the word for the king's dream and its meaning, which God alone could reveal, and the pattern is one of hiddenness followed by revelation. Paul uses it in this sense: a secret kept 'for ages and generations' now disclosed 'to His saints.' The content is stated in the clause that follows, 'which is Christ in you, the hope of glory.' The preposition en can mean 'in' or 'among,' and the BSB chooses 'in.'\n\nVerse 28 gives two verbs of ministry, nouthetountes, 'admonishing,' and didaskontes, 'teaching.' The first is the more personal word, to put sense into someone's mind, and the second is instruction. The goal is expressed by paristemi, 'to present,' the language used of bringing an offering or presenting a bride, 2 Corinthians 11:2, and the adjective teleios, which the BSB renders 'perfect' and a footnote suggests might be 'fully mature.' It is the word for something that has reached its goal, and it was a favourite of teachers who spoke of 'the perfect' as a spiritual elite. Paul offers perfection to everyone, and defines it as being in Christ.\n\nVerse 29 turns to the athletic life with agonizomai, 'striving,' from which the English word agony derives, and in 2:1 the cognate noun agon, 'struggle,' is used of the contest. Paul's labour is an athletic or military effort. Yet the energy is not his, since the verb energeo and the noun energeia, 'energy working powerfully,' are both used of God's work in him. The word for 'powerfully,' dynamis, completes the thought: he strives, but the strength is Christ's.\n\nIn 2:2 the believers are 'knit together' in love, symbibazo, a word that can mean to bring together or to join as a body, as in Ephesians 4:16. They are to be filled with 'the full riches of complete understanding,' using plerophoria, 'full assurance,' and synesis, 'understanding.' Verse 3 calls Christ the place where all the treasures, thesauroi, of wisdom and knowledge are apokryphoi, 'hidden,' a word that would later give its name to books kept secret. In Paul's usage the treasures are hidden for the seeker to find, not locked away from him. Verse 4 names the danger as pithanologia, 'smooth rhetoric,' persuasive talk, and the verb paralogizomai, 'to deceive' by false reasoning. Finally verse 5 uses two terms, taxis, 'order,' and stereoma, 'firmness,' that could describe a disciplined body of soldiers, which would suit the picture of a church standing in formation.",
     "typology": [
-      { "type": "The mystery revealed to the nations", "fulfillment": "Fulfills the Old Testament hope that the Gentiles would be gathered to worship the God of Israel, now realized in Christ dwelling among and within all peoples." },
-      { "type": "Christ in you, the hope of glory", "fulfillment": "Realizes the temple and tabernacle promise of God dwelling with His people, now fulfilled as Christ indwells the church by His Spirit." },
-      { "type": "The suffering servant of the gospel", "fulfillment": "Paul's suffering for the church reflects the pattern of the suffering servant and of Christ, glory reached through affliction borne for others." }
+      {
+        "type": "The mystery revealed, Colossians 1:26-27 and Daniel 2",
+        "fulfillment": "Nebuchadnezzar's dream troubled a king whose wise men could not tell it, and Daniel answered that there is a God in heaven who reveals mysteries, Daniel 2:27-28. The dream showed a stone cut without hands that struck the statue and became a mountain filling the earth, Daniel 2:34-35 and 2:44. The correspondence is that God discloses what had been hidden, and that the disclosure concerns a kingdom for all nations. In Colossians the mystery is Christ present among the Gentiles, the stone's kingdom in a person. The pattern falls short in that Daniel's mystery was a vision to be waited for, while Paul's is a reality already given."
+      },
+      {
+        "type": "Christ in you, the hope of glory, and the temple",
+        "fulfillment": "God told Moses to make a sanctuary so that He might dwell among His people, Exodus 25:8, and the glory filled the tabernacle, Exodus 40:34-35. Later the prophets promised that He would put His dwelling among them for ever, Ezekiel 37:27. Paul tells Gentiles that Christ is in them, and elsewhere says that the believer's body is a temple of the Holy Spirit, 1 Corinthians 6:19, and that the church is a dwelling for God in the Spirit, Ephesians 2:21-22. The escalation is that the presence is no longer in one building at one place but in people everywhere. It falls short of a simple equation: the temple was a place, while the church is a people, and the indwelling is the first instalment of glory, not its fullness."
+      },
+      {
+        "type": "Paul's labour and Moses the intercessor",
+        "fulfillment": "Moses stood between God and an unfaithful people and was ready to be blotted out for them, Exodus 32:30-32. He carried a burden for people who did not always follow him. Paul's struggle for churches he has never met, and his prayer in 2:1 that they may be encouraged, has the same shape: costly care for a flock. The escalation is that the one for whom Paul labours is not a stubborn nation but a church that is already reconciled and that he is helping to stand. Moses is also only a servant, Hebrews 3:5-6, while Christ is the Son. The correspondence is partial, since Paul claims no atoning role, only a ministry that serves the gospel."
+      },
+      {
+        "type": "The treasures of wisdom, Proverbs 2:1-6",
+        "fulfillment": "Proverbs tells the learner to seek wisdom as silver and search for it as for hidden treasure, because the LORD gives wisdom and from His mouth come knowledge and understanding. Paul takes the image and says that the treasure has a name. Christ is the place where all of it is stored, and so the search of every wise person ends in Him. Paul also says in 1 Corinthians 1:24 that Christ is the wisdom of God. The correspondence is of treasure and quest. It falls short at the point of finding: the proverb makes the search a long human effort, while the gospel announces that the treasure has been opened and given."
+      }
     ],
-    "christ": "Christ is the entire substance of Paul's ministry. The mystery hidden for ages is simply Christ in you, the hope of glory, and in 2:2 the mystery of God is named as Christ Himself. Paul does not preach a system or a technique; he says we proclaim Him. Maturity is measured only by being presented complete in Christ, and 2:3 declares that in Him are hidden all the treasures of wisdom and knowledge, so that every quest for truth ends at Jesus. Against teachers offering more, Paul insists that Christ is both the message and the treasure, indwelling His people and securing their glory.",
-    "god": "God is the sovereign author of the plan. He gave Paul his commission to fully proclaim the word, and He chose to make known the riches of the mystery among the Gentiles, freely widening His mercy to the nations. It is God's own energy that works powerfully in Paul's striving, so that even human labor for the church is finally God's work. Here God is the revealer of long-hidden purposes and the one who delights to dwell in His people through Christ.",
+    "christ": "The whole of this passage is gathered around a single sentence, and the sentence is a Person: 'the mystery of God, namely Christ,' 2:2. Paul does not say that the mystery is a doctrine about Christ or an experience Christ gives. He says that Christ is the mystery. This is a claim about the identity of the long-hidden plan. Everything God was doing in Israel, in the law, in the prophets and in the promises, was moving toward one who would be the content of the plan and not just its messenger.\n\nThe link with the Old Testament is by revelation. Daniel 2 says that God reveals mysteries, and Isaiah 49:6 and 42:6 say that the servant would be a light to the nations. Paul says that this is now fulfilled: Christ among the Gentiles, Christ in them, the hope of glory. Romans 16:25-26 and Ephesians 3:4-6 say that the prophets had spoken of it and that its full shape was not seen until Christ came. The revealed mystery is not an addition to the old promises but the key that opens them.\n\nChrist is also the content of apostolic preaching. 'We proclaim Him,' verse 28, is Paul's summary of his ministry. In 1 Corinthians 2:2 he says he resolved to know nothing among them except Jesus Christ and Him crucified, and in 2 Corinthians 4:5 he says that we do not proclaim ourselves but Jesus Christ as Lord. The weight of the apostle's ministry is on a Person. Teaching and admonishing exist so that people may be presented mature in Christ, and maturity is not an achievement beyond Him but a deeper life in Him.\n\nThe passage also says that Christ is the treasury of wisdom. The storehouse language of 2:3 echoes Proverbs 2 and the picture of wisdom, and in 1 Corinthians 1:30 Paul says that Christ became for us wisdom from God, our righteousness, holiness and redemption. This is a strong claim against any teacher who offers a higher knowledge. If all the treasures are in Christ, then no one can bring a deeper treasure from elsewhere. And since the treasures are 'hidden,' the right posture is not suspicion but searching: come to Christ and dig.\n\nChrist is the hope of glory, and the glory comes through His presence. Romans 8:17 says that we are heirs with Christ, if we suffer with Him so that we may also be glorified with Him. Colossians 3:4 says that when Christ appears, we also will appear with Him in glory. His presence in believers now is the guarantee of the full glory later. A note of care: the sufferings of verse 24 are not the sufferings that save. Christ's atoning death is the subject of the hymn in 1:20 to 22, and Paul's afflictions are the ones that follow from preaching it.",
+    "god": "God appears here chiefly as the One who reveals what was hidden. The mystery was kept 'for ages and generations' and then, in a deliberate act, 'God has chosen to make known' its glorious riches. The verb of choice, 'chosen,' puts the revelation on God's good pleasure and not on human discovery. This is a doctrine of divine disclosure. Truth about God is not the result of human speculation, and it does not belong to a class of the clever. God decides when and to whom to make Himself known, and He has decided to make Himself known to Gentiles.\n\nGod is also generous. The mystery is described as having 'glorious riches,' and the revelation is among the Gentiles. The God who chose Abraham has not been confined to one people. The phrase in Genesis 12:3 that all the families of the earth will be blessed is now seen to have been the plan from the start. Paul calls this mystery 'the mystery of God' in 2:2, so that its author is clear.\n\nGod commissions and empowers. Paul says the commission 'God gave me,' and speaks of 'all His energy working powerfully within me.' The God of this passage does not call people to work and leave them alone. The same God who sends gives the strength, as in Philippians 2:13, where God works in believers both to will and to act. This guards against two errors, that Paul's toil was self-powered, and that it was unnecessary. He labours, and God works in him.\n\nGod is a God who dwells. The hope of glory is Christ in His people, and in Ephesians 3:17 Paul prays that Christ may dwell in their hearts through faith. The God who once filled a tent and a temple now makes His home in people. That shapes the doctrine of God's nearness: He is not remote from His church but present in it.\n\nGod is the source of all wisdom. The treasures are in Christ, and Christ is the wisdom of God. That means God is not hidden behind His own gifts. He puts all His wisdom in a Person who can be known.\n\nThe passage also shows God's patience and respect for time. Ages and generations passed, and He did not rush. He was working toward a fulfilment that was worth waiting for. For worship, the right response is wonder at a plan so long in the making and so freely announced, and trust in a God who reveals Himself to those who might never have expected an invitation.",
     "crossReferences": [
-      { "ref": "Ephesians 3:1-13", "note": "The same mystery, hidden for ages and now revealed, that the Gentiles share in the promise through the gospel." },
-      { "ref": "Romans 16:25-27", "note": "The mystery kept secret for long ages but now disclosed to bring the nations to faith." },
-      { "ref": "2 Corinthians 4:7-12", "note": "The treasure of the gospel carried in weak, suffering servants, matching Paul's labor and affliction." },
-      { "ref": "Galatians 2:20", "note": "Christ living in the believer, the personal reality behind Christ in you, the hope of glory." }
+      {
+        "ref": "Ephesians 3:2-12",
+        "note": "Paul describes the same mystery in more detail: that through the gospel the Gentiles are fellow heirs, members of the same body and sharers of the promise in Christ Jesus. It reads like a commentary on Colossians 1:26-27 and shows what 'Christ in you' meant for the nations."
+      },
+      {
+        "ref": "Romans 16:25-26",
+        "note": "Paul speaks of the mystery hidden for long ages but now revealed and made known through the prophetic writings, so that all nations might come to the obedience of faith. It confirms the pattern of hiddenness and disclosure that Colossians 1:26 assumes, and ties the mystery to the Old Testament."
+      },
+      {
+        "ref": "Daniel 2:27-30",
+        "note": "Daniel tells the king that no wise man can reveal the mystery, but there is a God in heaven who reveals mysteries. This is the background of Paul's use of the word. The same God who showed Nebuchadnezzar what would happen has now shown what He has done in Christ."
+      },
+      {
+        "ref": "2 Corinthians 4:7-12",
+        "note": "Paul says we have the treasure of the gospel in jars of clay, so that the surpassing power may be seen to belong to God. It explains Colossians 1:24-29 in a parallel way: the weakness and suffering of the servant are the setting in which God's power is displayed."
+      },
+      {
+        "ref": "Philippians 3:10",
+        "note": "Paul wants to know Christ and the power of His resurrection and the fellowship of sharing in His sufferings. It shows that Colossians 1:24 is not a stray remark but part of Paul's settled outlook that sharing in Christ includes sharing in His afflictions."
+      },
+      {
+        "ref": "Proverbs 2:1-6",
+        "note": "The learner is told to search for wisdom as for hidden treasure, and the LORD gives wisdom, knowledge and understanding. Paul's claim that all the treasures of wisdom and knowledge are hidden in Christ, 2:3, draws on this picture and says where the search ends."
+      },
+      {
+        "ref": "1 Corinthians 1:24-30",
+        "note": "Christ is the power of God and the wisdom of God, and has become for us wisdom from God. It makes explicit what Colossians 2:3 implies and pushes against any wisdom that depends on human sophistication."
+      },
+      {
+        "ref": "Colossians 4:12-13",
+        "note": "Epaphras, one of the Colossians, is always wrestling in prayer for them and works hard for them and for the believers at Laodicea and Hierapolis. It shows that Paul's 'struggle' in 2:1 is shared by others and uses the same athletic picture."
+      },
+      {
+        "ref": "Acts 9:15-16",
+        "note": "The Lord tells Ananias that Paul is His chosen instrument to carry His name before the Gentiles and kings, and that he will be shown how much he must suffer for the sake of His name. It is the root of Colossians 1:24-27, where suffering and the mission to the Gentiles are bound together."
+      },
+      {
+        "ref": "Ephesians 4:11-16",
+        "note": "Christ gives gifts to the church so that the body may be built up until all reach unity in the faith and become mature, attaining the full measure of Christ, and are no longer carried about by every wind of teaching. It matches Paul's aim of presenting everyone mature in Christ and the warning against deception."
+      },
+      {
+        "ref": "2 Corinthians 11:2-3",
+        "note": "Paul says he promised the Corinthians as a pure bride to one husband, and fears they will be led astray as Eve was by the serpent's cunning. It uses the same idea of presenting the church to Christ and the same concern about deception that runs through Colossians 1:28 and 2:4."
+      }
     ],
-    "oneStory": "The plan God kept hidden through long ages is now made public in Christ, who dwells in His people and gathers the nations into the hope of glory. Paul suffers and strives to carry this one message to churches near and far, and the storyline drives toward a mature people, complete in Christ, in whom all the treasures of wisdom are stored. The temple hope of God dwelling with His people is fulfilled as Christ lives within the church.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "From the garden onward, the Bible's story has been one of hiddenness and approach. God walked in Eden, and the exile from it put a veil between Him and humanity. The tabernacle and temple were a partial restoration, a place where God dwelt among His people but behind curtains. The prophets spoke of a day when He would dwell among them for ever, Ezekiel 37:27, and when the nations would stream to Him, Isaiah 2:2-3. The mystery of Colossians is that this day has dawned.\n\nChrist in you, the hope of glory, is the answer to the long search. The God who walked with Adam, filled the tent and the temple, and then became flesh among us, now lives in His people by His Spirit. The hiddenness has ended and the nations are included. Paul's own journey, from persecutor to servant to prisoner, is part of how the news spread. The suffering of the messenger is not a flaw in the plan but one of its marks, as the pattern of the servant in Isaiah and of Jesus Himself has already said.\n\nThe passage also answers the question of wisdom that the Old Testament had left open. Proverbs sets out a long search for wisdom and promises that those who seek will find. Job asks where wisdom is found, and the answer is that God alone knows its place, Job 28:12 and 28:23. Paul says that wisdom has been found, in a Person, and that its treasures are open to all who come to Him. The quest of the wise ends at the feet of the Son.\n\nThe church that Paul addresses is an example of the story's mid-point. The hidden things have been revealed, and the Gentiles are in. Yet the full glory is still future, and a time of struggle and teaching and warning continues. The church waits as a people knit together in love and filled with understanding, growing to maturity and watching for deceivers.\n\nThe story ends in the new creation, where the hope of glory becomes sight. Revelation 21:3 hears a loud voice saying that God's dwelling is now with humanity, and that He will dwell with them. Revelation 22:4 says that they will see His face. What is a mystery now, Christ in you, will be an open fact, and the treasures of wisdom will no longer be hidden but will be the possession of a people who know even as they are known, 1 Corinthians 13:12.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "How does Paul regard his sufferings for the church?",
       "options": [
-        { "text": "He rejoices in them, filling up Christ's afflictions for the sake of the body, the church.", "weight": 100, "note": "Verse 24 turns suffering into glad service for the church." },
-        { "text": "He resents them as meaningless setbacks.", "weight": 75, "note": "Paul rejoices in his sufferings rather than resenting them." },
-        { "text": "He believes they complete the saving work of the cross.", "weight": 25, "note": "The cross is finished; his suffering spreads the gospel, it does not save." },
-        { "text": "He hides them so no one will know.", "weight": 0, "note": "He openly tells the churches how he struggles for them." }
+        {
+          "text": "He rejoices in them, filling up Christ's afflictions for the sake of the body, the church.",
+          "weight": 100,
+          "note": "Verse 24 turns suffering into glad service for the church."
+        },
+        {
+          "text": "He resents them as meaningless setbacks.",
+          "weight": 75,
+          "note": "Paul rejoices in his sufferings rather than resenting them."
+        },
+        {
+          "text": "He believes they complete the saving work of the cross.",
+          "weight": 25,
+          "note": "The cross is finished; his suffering spreads the gospel, it does not save."
+        },
+        {
+          "text": "He hides them so no one will know.",
+          "weight": 0,
+          "note": "He openly tells the churches how he struggles for them."
+        }
       ]
     },
     {
       "q": "What is the mystery that Paul says is now revealed?",
       "options": [
-        { "text": "Christ in you, the hope of glory, made known even among the Gentiles.", "weight": 100, "note": "Verse 27 defines the mystery as the indwelling Christ for all peoples." },
-        { "text": "A secret code available only to a spiritual elite.", "weight": 75, "note": "That is the false teaching; the mystery is openly proclaimed to all." },
-        { "text": "A set of rituals that unlock higher status.", "weight": 25, "note": "The mystery is a person, Christ, not a ritual system." },
-        { "text": "A hidden truth still kept from the saints.", "weight": 0, "note": "It was hidden but is now revealed to His saints." }
+        {
+          "text": "Christ in you, the hope of glory, made known even among the Gentiles.",
+          "weight": 100,
+          "note": "Verse 27 defines the mystery as the indwelling Christ for all peoples."
+        },
+        {
+          "text": "A secret code available only to a spiritual elite.",
+          "weight": 75,
+          "note": "That is the false teaching; the mystery is openly proclaimed to all."
+        },
+        {
+          "text": "A set of rituals that unlock higher status.",
+          "weight": 25,
+          "note": "The mystery is a person, Christ, not a ritual system."
+        },
+        {
+          "text": "A hidden truth still kept from the saints.",
+          "weight": 0,
+          "note": "It was hidden but is now revealed to His saints."
+        }
       ]
     },
     {
       "q": "What is Paul's goal in his preaching and teaching?",
       "options": [
-        { "text": "To present everyone mature and complete in Christ.", "weight": 100, "note": "Verse 28 states the aim: everyone perfect, that is mature, in Christ." },
-        { "text": "To create an inner circle of advanced initiates.", "weight": 75, "note": "He labors for everyone, not a select tier, against the false teaching." },
-        { "text": "To gather a following loyal to himself.", "weight": 25, "note": "He proclaims Christ, aiming at maturity in Him, not personal loyalty." },
-        { "text": "To entertain audiences with clever speech.", "weight": 0, "note": "He warns against smooth rhetoric and aims at Christlike maturity." }
+        {
+          "text": "To present everyone mature and complete in Christ.",
+          "weight": 100,
+          "note": "Verse 28 states the aim: everyone perfect, that is mature, in Christ."
+        },
+        {
+          "text": "To create an inner circle of advanced initiates.",
+          "weight": 75,
+          "note": "He labors for everyone, not a select tier, against the false teaching."
+        },
+        {
+          "text": "To gather a following loyal to himself.",
+          "weight": 25,
+          "note": "He proclaims Christ, aiming at maturity in Him, not personal loyalty."
+        },
+        {
+          "text": "To entertain audiences with clever speech.",
+          "weight": 0,
+          "note": "He warns against smooth rhetoric and aims at Christlike maturity."
+        }
       ]
     },
     {
       "q": "Where does Paul say the treasures of wisdom and knowledge are found?",
       "options": [
-        { "text": "Hidden in Christ, in whom all such treasures are stored.", "weight": 100, "note": "Verse 3 locates all wisdom and knowledge in Christ alone." },
-        { "text": "In the secret teachings of the local philosophers.", "weight": 75, "note": "Paul directs them to Christ, not to the local speculation." },
-        { "text": "In strict rules about food and festivals.", "weight": 25, "note": "Those rules are addressed and rejected in the next chapter." },
-        { "text": "In each person's own inner light apart from Christ.", "weight": 0, "note": "The treasures are in Christ, not in ourselves apart from Him." }
+        {
+          "text": "Hidden in Christ, in whom all such treasures are stored.",
+          "weight": 100,
+          "note": "Verse 3 locates all wisdom and knowledge in Christ alone."
+        },
+        {
+          "text": "In the secret teachings of the local philosophers.",
+          "weight": 75,
+          "note": "Paul directs them to Christ, not to the local speculation."
+        },
+        {
+          "text": "In strict rules about food and festivals.",
+          "weight": 25,
+          "note": "Those rules are addressed and rejected in the next chapter."
+        },
+        {
+          "text": "In each person's own inner light apart from Christ.",
+          "weight": 0,
+          "note": "The treasures are in Christ, not in ourselves apart from Him."
+        }
       ]
     },
     {
       "q": "Why does Paul tell them of his struggle for churches he has never met?",
       "options": [
-        { "text": "So they would be encouraged, united in love, and safe from deceptive arguments.", "weight": 100, "note": "Verses 2 and 4 give the pastoral aim of his struggle." },
-        { "text": "So they would feel guilty for his suffering.", "weight": 75, "note": "His aim is their encouragement and stability, not guilt." },
-        { "text": "So they would send him money and supplies.", "weight": 25, "note": "His concern is their faith and protection from error, not support." },
-        { "text": "So they would replace their local leaders with him.", "weight": 0, "note": "He commends their order and faith; his goal is their maturity in Christ." }
+        {
+          "text": "So they would be encouraged, united in love, and safe from deceptive arguments.",
+          "weight": 100,
+          "note": "Verses 2 and 4 give the pastoral aim of his struggle."
+        },
+        {
+          "text": "So they would feel guilty for his suffering.",
+          "weight": 75,
+          "note": "His aim is their encouragement and stability, not guilt."
+        },
+        {
+          "text": "So they would send him money and supplies.",
+          "weight": 25,
+          "note": "His concern is their faith and protection from error, not support."
+        },
+        {
+          "text": "So they would replace their local leaders with him.",
+          "weight": 0,
+          "note": "He commends their order and faith; his goal is their maturity in Christ."
+        }
       ]
     }
   ],
@@ -148,9 +379,21 @@
     "Paul warns that smooth, plausible words can deceive. How do you test the teaching you take in, and who helps keep you anchored in the gospel?"
   ],
   "translationNotes": [
-    { "ref": "Colossians 1:24", "note": "Filling up what is lacking in Christ's afflictions refers to the ongoing sufferings borne by Christ's body as the gospel spreads, not any deficiency in Christ's finished atoning work." },
-    { "ref": "Colossians 1:28", "note": "Perfect renders teleios, better understood as mature or complete; the goal is full Christian growth, not sinless perfection in this life." },
-    { "ref": "Colossians 2:2", "note": "The mystery of God, namely Christ follows the reading that identifies the mystery directly with Christ Himself, as the literal text the mystery of God: Christ indicates." }
+    {
+      "ref": "Colossians 1:24",
+      "note": "Filling up what is lacking in Christ's afflictions refers to the ongoing sufferings borne by Christ's body as the gospel spreads, not any deficiency in Christ's finished atoning work."
+    },
+    {
+      "ref": "Colossians 1:28",
+      "note": "Perfect renders teleios, better understood as mature or complete; the goal is full Christian growth, not sinless perfection in this life."
+    },
+    {
+      "ref": "Colossians 2:2",
+      "note": "The mystery of God, namely Christ follows the reading that identifies the mystery directly with Christ Himself, as the literal text the mystery of God: Christ indicates."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Colossians 1:24-2:5." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Colossians 1:24-2:5."
+  }
 }

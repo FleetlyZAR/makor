@@ -18,8 +18,16 @@
         "note": "grace and peace to the saints at Philippi",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 1, "text": "Paul and Timothy, servants of Christ Jesus, To all the {{hagioi|saints}} in Christ Jesus at Philippi, together with the overseers and deacons:" },
-          { "chapter": 1, "n": 2, "text": "Grace and peace to you from God our Father and the Lord Jesus Christ." }
+          {
+            "chapter": 1,
+            "n": 1,
+            "text": "Paul and Timothy, servants of Christ Jesus, To all the {{hagioi|saints}} in Christ Jesus at Philippi, together with the overseers and deacons:"
+          },
+          {
+            "chapter": 1,
+            "n": 2,
+            "text": "Grace and peace to you from God our Father and the Lord Jesus Christ."
+          }
         ]
       },
       {
@@ -27,12 +35,36 @@
         "note": "partnership in the gospel, a work God will finish",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 3, "text": "I thank my God every time I remember you." },
-          { "chapter": 1, "n": 4, "text": "In every prayer for all of you, I always pray with joy," },
-          { "chapter": 1, "n": 5, "text": "because of your {{koinonia|partnership}} in the gospel from the first day until now," },
-          { "chapter": 1, "n": 6, "text": "being confident of this, that He who began a good work in you will {{epiteleo|carry it on to completion}} until the day of Christ Jesus." },
-          { "chapter": 1, "n": 7, "text": "It is right for me to feel this way about all of you, since I have you in my heart. For in my chains and in my defense and confirmation of the gospel, you are all partners in grace with me." },
-          { "chapter": 1, "n": 8, "text": "God is my witness how I long for all of you with the {{splanchna|affection}} of Christ Jesus." }
+          {
+            "chapter": 1,
+            "n": 3,
+            "text": "I thank my God every time I remember you."
+          },
+          {
+            "chapter": 1,
+            "n": 4,
+            "text": "In every prayer for all of you, I always pray with joy,"
+          },
+          {
+            "chapter": 1,
+            "n": 5,
+            "text": "because of your {{koinonia|partnership}} in the gospel from the first day until now,"
+          },
+          {
+            "chapter": 1,
+            "n": 6,
+            "text": "being confident of this, that He who began a good work in you will {{epiteleo|carry it on to completion}} until the day of Christ Jesus."
+          },
+          {
+            "chapter": 1,
+            "n": 7,
+            "text": "It is right for me to feel this way about all of you, since I have you in my heart. For in my chains and in my defense and confirmation of the gospel, you are all partners in grace with me."
+          },
+          {
+            "chapter": 1,
+            "n": 8,
+            "text": "God is my witness how I long for all of you with the {{splanchna|affection}} of Christ Jesus."
+          }
         ]
       },
       {
@@ -40,19 +72,56 @@
         "note": "love abounding in knowledge unto the fruit of righteousness",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 9, "text": "And this is my prayer: that your love may abound more and more in knowledge and depth of insight," },
-          { "chapter": 1, "n": 10, "text": "so that you may be able to {{dokimazo|test and prove}} what is best and may be pure and blameless for the day of Christ," },
-          { "chapter": 1, "n": 11, "text": "filled with the fruit of righteousness that comes through Jesus Christ, to the glory and praise of God." }
+          {
+            "chapter": 1,
+            "n": 9,
+            "text": "And this is my prayer: that your love may abound more and more in knowledge and depth of insight,"
+          },
+          {
+            "chapter": 1,
+            "n": 10,
+            "text": "so that you may be able to {{dokimazo|test and prove}} what is best and may be pure and blameless for the day of Christ,"
+          },
+          {
+            "chapter": 1,
+            "n": 11,
+            "text": "filled with the fruit of righteousness that comes through Jesus Christ, to the glory and praise of God."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "hagioi": { "language": "Greek", "lemma": "hagios", "original": "ἅγιος", "gloss": "Holy ones, saints, those set apart for God. Paul does not reserve the word for a spiritual elite; every believer in Christ at Philippi is a saint, made holy not by achievement but by being in Christ Jesus. The whole church, with its overseers and deacons, is addressed as God's set apart people." },
-    "koinonia": { "language": "Greek", "lemma": "koinonia", "original": "κοινωνία", "gloss": "Fellowship, partnership, sharing in common. It is one of the key words of the letter. The Philippians are not merely spectators of Paul's mission but true partners in it, sharing in the gospel through prayer, gifts, and suffering from the first day until now. Their partnership is with Paul and, deeper still, with Christ and His gospel." },
-    "epiteleo": { "language": "Greek", "lemma": "epiteleo", "original": "ἐπιτελέω", "gloss": "To bring fully to completion, to finish what was started. God is the one who began the good work of salvation and God is the one who will carry it through to the end. The word grounds Christian assurance not in the believer's staying power but in God's faithfulness to complete His own work by the day of Christ." },
-    "splanchna": { "language": "Greek", "lemma": "splanchna", "original": "σπλάγχνα", "gloss": "The inward parts, the seat of deep affection; a yearning felt in the gut. Paul longs for the Philippians not with mere sentiment but with the very affection of Christ Jesus, as though Christ's own heart of love beats through him toward this church." },
-    "dokimazo": { "language": "Greek", "lemma": "dokimazo", "original": "δοκιμάζω", "gloss": "To test, examine, and approve what is genuine after proving it, as metals are assayed. Paul prays that growing love and knowledge will give the Philippians the discernment to test and approve what is best, so that they are pure and blameless for the day of Christ." }
+    "hagioi": {
+      "language": "Greek",
+      "lemma": "hagios",
+      "original": "ἅγιος",
+      "gloss": "Holy ones, saints, those set apart for God. Paul does not reserve the word for a spiritual elite; every believer in Christ at Philippi is a saint, made holy not by achievement but by being in Christ Jesus. The whole church, with its overseers and deacons, is addressed as God's set apart people."
+    },
+    "koinonia": {
+      "language": "Greek",
+      "lemma": "koinonia",
+      "original": "κοινωνία",
+      "gloss": "Fellowship, partnership, sharing in common. It is one of the key words of the letter. The Philippians are not merely spectators of Paul's mission but true partners in it, sharing in the gospel through prayer, gifts, and suffering from the first day until now. Their partnership is with Paul and, deeper still, with Christ and His gospel."
+    },
+    "epiteleo": {
+      "language": "Greek",
+      "lemma": "epiteleo",
+      "original": "ἐπιτελέω",
+      "gloss": "To bring fully to completion, to finish what was started. God is the one who began the good work of salvation and God is the one who will carry it through to the end. The word grounds Christian assurance not in the believer's staying power but in God's faithfulness to complete His own work by the day of Christ."
+    },
+    "splanchna": {
+      "language": "Greek",
+      "lemma": "splanchna",
+      "original": "σπλάγχνα",
+      "gloss": "The inward parts, the seat of deep affection; a yearning felt in the gut. Paul longs for the Philippians not with mere sentiment but with the very affection of Christ Jesus, as though Christ's own heart of love beats through him toward this church."
+    },
+    "dokimazo": {
+      "language": "Greek",
+      "lemma": "dokimazo",
+      "original": "δοκιμάζω",
+      "gloss": "To test, examine, and approve what is genuine after proving it, as metals are assayed. Paul prays that growing love and knowledge will give the Philippians the discernment to test and approve what is best, so that they are pure and blameless for the day of Christ."
+    }
   },
   "study": {
     "basic": {
@@ -66,92 +135,250 @@
       "oneStory": "God has always been gathering a people for Himself and pledging to keep them to the end. Here that great story lands on a small church in Philippi: those He has made saints in Christ He will carry all the way to the day of Christ, bearing fruit for His glory."
     },
     "context": {
-      "literary": "The passage follows the standard shape of an ancient letter opening, sender, recipients, greeting, then a thanksgiving and prayer, but Paul fills the form with gospel content. The thanksgiving in verses 3 to 8 flows into an intercessory prayer in verses 9 to 11, and the themes it sounds, joy, partnership, confidence, the day of Christ, run through the entire letter.",
-      "historical": "Philippi was a Roman colony in Macedonia, proud of its citizenship, where Paul first preached in Europe, with Lydia and the Philippian jailer among the earliest converts. Paul writes as a prisoner, most likely in Rome, yet the tone is thankful and warm, for this church had repeatedly sent him aid and stood by him.",
-      "canonical": "The letter belongs with Paul's prison epistles. Its opening confidence, that God completes what He begins, states in miniature the biblical doctrine of God's persevering grace, a thread that runs from the covenant promises through Romans 8 to the final gathering of the redeemed."
+      "literary": "Philippians 1:1 to 11 follows the standard shape of an ancient letter opening: sender, recipients, greeting, and a thanksgiving that previews the letter's business. Paul bends each element. The sender is not 'apostle' but 'servants,' joined with Timothy, and no authority is claimed because none is needed. The recipients are 'all the saints,' and the word 'all' sounds again in verses 4, 7 and 8, as though Paul wanted every person at Philippi to feel included. The greeting joins grace, the Greek farewell and entry word, with peace, the Hebrew shalom, and places both under 'God our Father and the Lord Jesus Christ.'\n\nThe thanksgiving is built as one unfolding sentence of memory, confidence and prayer. Verses 3 to 6 look back and forward, thanks for a past partnership and trust in a future completion; verses 7 and 8 explain why Paul may feel this way, with the heart and with God as his witness; verses 9 to 11 turn to petition, a three-step prayer that love may abound, that they may discern what is best, and that they may be filled with the fruit of righteousness. The bookends are the same phrase, 'the day of Christ,' in verses 6 and 10, which frame the prayer as a movement from now to the end.\n\nThe passage also plants the letter's vocabulary. Joy appears in verse 4 and recurs in each chapter, partnership returns at 1:7, 2:1, 3:10 and 4:14 and 15, the heart appears here and at 4:7, and 'all' is echoed throughout. Paul's confidence about a completed work (1:6) is the other hinge: the letter will ask the Philippians to work out what God is working in them, 2:12 and 13, and the thanksgiving has already told them who the real worker is.",
+      "historical": "Philippi was a Roman colony in Macedonia, and Acts 16:12 calls it the leading city of its district. The city's name goes back to Philip of Macedon, and in Roman times it was settled with veterans of the army, which gave it both pride in Rome and a strongly military character. Paul planted the church on his second journey, Acts 16:11 to 40, and the founding members were a motley group: Lydia, a merchant in purple cloth, a slave girl freed from a spirit, and a Roman jailer with his household who believed in the night after an earthquake. The church was born through a prison, so it is fitting that Paul now writes to them from one.\n\nPaul writes from custody, verses 7, 13 and 17, traditionally in Rome around the early 60s, and Timothy joins him in the greeting. The Philippians had supported him repeatedly, Philippians 4:15 and 16, and they had recently sent a gift with Epaphroditus, 4:18. Their partnership was financial, but it was also personal and costly, for they had themselves met opposition, 1:29 and 30. This is the setting in which Paul says 'my chains' and 'my defense and confirmation of the gospel' in verse 7, language that belongs to the courtroom.\n\nThe mention of 'overseers and deacons' is unusual. Paul does not usually address officials in the opening of a letter. The terms probably name those who led the church's care and service, and their place after 'all the saints' signals that office does not displace the people. The words 'in Christ Jesus at Philippi' also give the church a double address, to a Roman colony and to Christ. That double citizenship becomes a theme at 1:27 and 3:20.",
+      "canonical": "The thanksgiving draws on three strands of Scripture. First, the greeting adapts Israel's blessing language. 'Grace and peace' stands in the opening of Paul's letters, and 'peace' carries the whole Old Testament idea of shalom, wholeness under God's care, as in the priestly blessing of Numbers 6:24 to 26. The pairing with God our Father and the Lord Jesus Christ puts the Son in the place of the source of blessing alongside the Father.\n\nSecond, the confident hope of verse 6 sits within a long tradition of God finishing what He starts. Psalm 138:8 says, 'The LORD will fulfill His purpose for me,' and Isaiah 46:10 and 11 shows God declaring and then doing. In the New Testament 1 Corinthians 1:8 says He will sustain you to the end so that you will be blameless on the day of our Lord Jesus Christ, 1 Thessalonians 5:23 and 24 says 'The One who calls you is faithful, and He will do it,' and Romans 8:30 traces the chain from calling to glory. 'The day of Christ' echoes the Old Testament day of the LORD, only now the Judge is the Lord Jesus.\n\nThird, 'the fruit of righteousness' in verse 11 recalls Proverbs 11:30, 'The fruit of the righteous is a tree of life,' and the Old Testament habit of describing a righteous life as a harvest, with the warning of Amos 6:12 that justice can be turned into poison and the fruit of righteousness into wormwood. Paul says that this harvest comes 'through Jesus Christ.' James 3:18 and Galatians 5:22 and 23 point in the same direction, that the Spirit and the gospel, not human effort, produce the harvest."
     },
     "hermeneutics": {
-      "authorIntent": "To greet a beloved church, to express heartfelt thanks and joy for their gospel partnership, to assure them that God will finish the work He began in them, and to pray that their love would grow into discernment and holiness that glorify God.",
-      "descriptionVsPrescription": "The thanksgiving describes Paul's genuine feeling for this specific church, yet the truths it rests on are prescriptive for all: God completes His work, and love is meant to abound in knowledge and bear the fruit of righteousness. The confidence of verse 6 is a promise to be trusted, not merely Paul's private optimism.",
+      "authorIntent": "Paul wrote to a church he trusted and a friendship he treasured, but he did not write idly. The thanksgiving establishes the relationship on which every later request depends. He wanted the Philippians to know that he remembered them with joy and not with anxiety, that their partnership had been seen and valued, and that their future was safe in God's hands. In the letter that follows he will ask them to stand firm, put others first and rejoice in the Lord, and it is much easier to take hard advice from someone whose confidence in you has been made clear.\n\nHe also meant to teach them how to pray for each other. The prayer in verses 9 to 11 is a model: not for comfort or success but for love that grows with knowledge, for the discernment to choose well and for a life that is blameless in the end and fruitful in the meantime. A church that was tempted toward rivalry, as chapters 2 and 4 show, needed a vision of what to desire for one another. Finally Paul wanted them to hear that he was 'in chains' and still thankful, so that his imprisonment would not discourage them.",
+      "descriptionVsPrescription": "This section is mostly description: Paul reports what he feels, what he prays and what he is sure of. There are no commands, and that is part of its power. The reader is invited to overhear a prayer and to be shaped by it, not to receive a task. Where the passage prescribes, it does so by example: the church is meant to pray with joy for one another, to keep partnering in the gospel, and to want the same things Paul wants for them.\n\nTwo cautions help. First, verse 6 is a promise to the Philippians, in the context of the saints God was working in at Philippi, and it applies to every believer only in the sense that every believer shares the same God and the same gospel. It is not a promise that every project a Christian begins will succeed, a mistake popular readings sometimes make; the work in view is the good work of salvation and the fruit of righteousness. Second, the prayer in verses 9 to 11 describes what Paul asked for, and the church may borrow it as its own, but verse 10's 'test and prove what is best' does not promise a private revelation about decisions. It describes moral and spiritual discernment shaped by love and knowledge.",
       "debates": [
         {
           "question": "What is the good work God will complete, and how sure is the outcome?",
           "views": [
-            { "label": "God's saving work in the believer", "case": "The good work is the salvation God began at their conversion, and He pledges to bring it to completion at the day of Christ; assurance rests on God's faithfulness, not human effort." },
-            { "label": "Their partnership in the gospel", "case": "Some link the good work to the Philippians' active partnership just mentioned in verse 5; yet even this is God's own doing in them, so the confidence still rests on Him." }
+            {
+              "label": "God's saving work in the believer",
+              "case": "The good work is the salvation God began at their conversion, and He pledges to bring it to completion at the day of Christ. Paul's confidence rests on God's faithfulness and not on the Philippians' record; 1 Thessalonians 5:24 and 1 Corinthians 1:8 say the same. Reformed readers see here a warrant for the perseverance of the saints, since the one who begins is the one who finishes."
+            },
+            {
+              "label": "Their partnership in the gospel",
+              "case": "Some link the good work to the Philippians' active partnership mentioned in verse 5, since the phrase 'in you' follows right after. Even then the work is God's own doing in them, so the confidence still rests on Him. Arminian and many other readers add that the passage promises completion to those who stay in the relationship, citing the warnings at 2:12 and 3:12 to 16."
+            }
           ],
-          "bearing": "Either way the guarantee is God's; the verse anchors Christian assurance in the character of the one who starts and finishes salvation."
+          "bearing": "Either way the guarantee is God's, and the passage's point is assurance. Paul does not set the promise against the later calls to work out salvation; he places them together at 2:12 and 13, where God works in them to will and to act. Both views hold that believers should answer the promise with continuing effort."
         },
         {
           "question": "Does Paul address overseers and deacons as fixed church offices?",
           "views": [
-            { "label": "Recognized leaders in the church", "case": "The overseers and deacons are named alongside the saints as the church's servant leaders, an early witness to ordered ministry in the congregation." },
-            { "label": "Simply the whole church served by its helpers", "case": "The emphasis falls on all the saints; the leaders are greeted with them, not set above them, reflecting servant leadership rather than hierarchy." }
+            {
+              "label": "Recognised leaders in the church",
+              "case": "The overseers and deacons are named alongside the saints as the church's servant leaders, an early witness to ordered ministry in the congregation. Acts 14:23 and 1 Timothy 3:1 to 13 show that churches were led by identifiable people with defined roles, and Philippians 1:1 puts those roles on the page."
+            },
+            {
+              "label": "Simply the whole church served by its helpers",
+              "case": "The emphasis falls on all the saints; the leaders are greeted with them, not set above them, reflecting servant leadership rather than hierarchy. The offices were new and not yet fixed in the pattern later centuries gave them, and the letter never speaks again of them."
+            }
           ],
-          "bearing": "The passage honors leadership while keeping the whole body, all the saints, at the center of the greeting."
+          "bearing": "The passage honours leadership while keeping the whole body, all the saints, at the centre of the greeting, and it fits a church in which service and oversight are real but sit inside a community of equals before Christ."
+        },
+        {
+          "question": "Is the 'partnership' of verse 5 chiefly financial, or something wider?",
+          "views": [
+            {
+              "label": "Shared work and suffering in the gospel",
+              "case": "Koinonia in this letter reaches beyond money. 1:7 calls them partners in grace in Paul's chains and defence, 2:1 speaks of fellowship with the Spirit, and 3:10 of fellowship in Christ's sufferings. The partnership is a shared life in the gospel that includes giving."
+            },
+            {
+              "label": "Especially their gifts and support",
+              "case": "At 4:15 Paul uses the same family of words for their sharing in giving and receiving and says no other church did so. 'From the first day until now' fits a history of repeated support, Philippians 4:15 and 16, and some commentators think the thanks is aimed first at the recent gift."
+            }
+          ],
+          "bearing": "The two views fit together. The Philippians' gifts expressed a deeper union, and Paul thanks God for both. The application is that partnership with a gospel worker is a spiritual act, not merely a transaction."
         }
       ]
     },
-    "originalLanguages": "The greeting names the whole church as hagioi, saints, holy ones set apart in Christ, not a special class but every believer. The heart of the thanksgiving is koinonia, partnership or fellowship, one of the letter's signature words: the Philippians share in the gospel with Paul through prayer, gifts, and suffering. Paul's confidence turns on epiteleo, to complete fully, God will finish the good work He began. His longing is described with splanchna, the inward parts, the deep visceral affection of Christ working through him. And his prayer aims at dokimazo, the ability to test and approve what is best, the fruit of a love that grows in knowledge and depth of insight.",
+    "originalLanguages": "Paul begins with doulos, a slave, not a hired servant. In a world where slaves belonged entirely to a master, calling himself and Timothy slaves of Christ Jesus puts them under the Lord's ownership and also, in the Old Testament, in the company of Moses and the prophets, who are called the LORD's servants. It is a title of honour that carries no claim of rank over the Philippians.\n\nVerse 3 is ambiguous in a useful way. 'Every time I remember you' renders epi pase te mneia hymon, which can mean 'at every remembrance of you' or 'in all my remembrance by you,' that is, the thanks arises when Paul thinks of them, or because of their remembering him with gifts and prayer. Translators usually choose the first, and the second echoes the letter's closing in chapter 4. The prayer 'with joy,' meta charas, is the first of many joys in the letter. The word translated 'prayer' in verse 4 is deesis, a request or petition, and Paul pairs it with an overflowing gratitude, which previews 4:6.\n\nIn verse 6 'began' is enarxamenos, a participle used of the first move in a work. Paul uses the same word in Galatians 3:3 of those who 'began by the Spirit,' and the pairing with epiteleo (complete) makes the work a single arc from start to finish with one worker. The word 'confident' is pepoitha, a perfect tense, a settled persuasion that rests on something already true. 'In you' (en hymin) can also mean 'among you,' so some see a corporate work in the community as well as in each person.\n\nIn verse 7 apologia and bebaiosis, 'defense and confirmation,' are legal terms, the first a defence speech and the second the confirmation of a case. Paul treats his trial as a place where the gospel is being formally defended and established. In verse 8 'I long for' is epipotho, an intense desire, and verses 9 and 10 build with epignosis, a full or accurate knowledge, and aisthesis, perception or moral insight. Love grows only when joined to these, which shows that Paul does not set love and discernment against each other. Verse 10 ends with two adjectives for the day of Christ: eilikrines, pure or sincere, and aproskopos, without cause for stumbling or being tripped. 'Filled with the fruit of righteousness' uses the verb pleroo, to fill, in the perfect tense, so the harvest is pictured as already supplied. The phrase karpon dikaiosynes echoes Proverbs 11:30 and Amos 6:12, and the 'through Jesus Christ' attributes the harvest to Him.",
     "typology": [
-      { "type": "The fruit of righteousness", "fulfillment": "Fulfills the Old Testament longing for a people who bear good fruit for God, the vine and planting of the Lord, now produced through Jesus Christ to God's glory." },
-      { "type": "The day of Christ", "fulfillment": "Takes up the prophets' day of the Lord and centers it on Jesus, the day when His people are found pure and blameless and God's work in them is complete." }
+      {
+        "type": "The harvest of righteousness, Proverbs 11:30 and Isaiah 5:1 to 7",
+        "fulfillment": "Isaiah's vineyard song shows God planting a vine in expectation of good fruit and finding wild grapes, so the fruit of righteousness is what Israel failed to bear. Philippians 1:11 speaks of a church 'filled with the fruit of righteousness that comes through Jesus Christ.' The escalation is that the fruit now comes from union with the true vine, John 15:5, and by the Spirit, Galatians 5:22 and 23, and not from the law. The type falls short because Israel's vineyard was a nation, while the church includes Gentiles from a Roman colony."
+      },
+      {
+        "type": "God completing what He starts, the temple and the exodus",
+        "fulfillment": "Zerubbabel's hands laid the foundation of the temple and his hands would finish it, Zechariah 4:9, and God brought Israel from Egypt to the land that He promised. Paul's confidence that God 'will carry it on to completion until the day of Christ' fits that pattern. The correspondence is not tight verbal typology but a repeated shape: God begins and God completes. The fulfilment in Christ is that the work is now a new creation in people, Ephesians 2:10, completed at His appearing, 1 John 3:2."
+      },
+      {
+        "type": "The day of the LORD becomes the day of Christ",
+        "fulfillment": "The prophets look to a coming day on which God judges and saves, Isaiah 13:6 and Joel 2:31. In verses 6 and 10 Paul names the same day and gives it Christ's name. The correspondence is of event and person: what the Old Testament assigned to the LORD, the New Testament assigns to Jesus, and it does so without strain. The escalation is that for believers it is a day of completion, not terror, Romans 8:1 and 1 Thessalonians 5:9. The pattern is not a type in the strict sense but an identity: the Judge and Saviour is one."
+      }
     ],
-    "christ": "Christ Jesus saturates the opening. The saints are in Him, grace and peace flow from Him alongside the Father, the good work will be completed by His day, Paul longs for the church with His very affection, and the fruit of righteousness comes through Him to God's glory. Christ is not one theme among many but the atmosphere in which the whole church lives and the one to whose day everything moves.",
-    "god": "God is the giver of grace and peace, the object of Paul's constant thanks, and above all the faithful worker who begins and completes salvation. The confidence of verse 6 reveals a God who does not abandon what He starts. He is the one who deserves all glory and praise, and the growth of His people in love and righteousness is finally for His honor, not merely their improvement.",
+    "christ": "Everything in this passage is 'in Christ Jesus,' and the preposition is the key. The saints are in Christ Jesus, verse 1; grace and peace come from Christ with the Father, verse 2; Paul's affection is the affection 'of Christ Jesus,' verse 8; the fruit of righteousness comes 'through Jesus Christ,' verse 11; and the end of everything is 'the day of Christ Jesus,' verse 6. The thanksgiving, which on its surface is about friends, is on a deeper level a statement of who has made the friends and what will happen to them.\n\nVerse 8 deserves attention. Paul does not say he longs for them with his own affection but 'with the affection of Christ Jesus,' that is, with the very inward feeling of the Lord. The text suggests that Christ's heart is working through Paul's, and that the Philippians are loved by Christ at the same time as they are loved by Paul. It is a short step to the hymn in chapter 2, where the Lord's mind is described in detail, and to Jesus' own words in John 13:34 about loving one another as He has loved.\n\nVerse 6 gives Christ the role of the goal. The day of Christ is the day on which He appears, 1 John 3:2, and the day on which the good work is complete. Philippians 3:20 and 21 supplies the content: the Lord Jesus Christ 'will transform our lowly bodies to be like His glorious body.' That is the end of the work God began. The one who finishes the work is also the one who sets the standard, since believers are being conformed to His image, Romans 8:29.\n\nThere is also a pattern. Jesus prayed for His disciples with joy and with confidence about the Father's keeping, John 17:11 to 15, and the apostle's prayer here follows the same shape. The righteousness in verse 11 is both the gift and the product of Jesus' work: He is the one 'wisdom from God: our righteousness, holiness, and redemption,' 1 Corinthians 1:30, and the fruit that grows is His. Christ is therefore the substance of the greeting, the object of the confidence, the source of the love and the finish line of the prayer.",
+    "god": "The passage opens with God as Father, 'God our Father,' and the pronoun is plural and shared. The Philippians, a mixed group of Jews, Gentiles, slaves and free, have a single Father. The Father is joined with the Lord Jesus Christ as the source of grace and peace, which is the pattern of Paul's blessings and shows that, for him, giving grace and peace is a divine act that the Son shares fully with the Father.\n\nPaul calls the Father 'my God,' verse 3, in a phrase of deep personal attachment, and then 'God' as a witness to his longing, verse 8. The same apostle who can say God is the God of all the earth speaks as one who has been known by God and answers in the first person. In worship this joins the grand and the intimate. The one who finishes the work of salvation is also the God to whom a prisoner says 'my.'\n\nThe central attribute is faithfulness shown as completion. Verse 6 says that 'He who began a good work in you will carry it on to completion.' God does not leave projects half-built. Paul does not say 'I am confident that you will persevere' but that God will. That rests on the character of the God who calls, as in 1 Thessalonians 5:24 and 1 Corinthians 1:9. It does not remove the believer's effort, since the next chapter says that God works in them 'to will and to act,' 2:13, but it fixes where the weight of the work is.\n\nA second theme is that God is glorified in the lives of ordinary people. The passage ends with 'to the glory and praise of God.' The harvest is not for the church's reputation or Paul's but for God. The fruit of righteousness is both a gift from Him and a gift back to Him, which keeps all boasting out of the picture.\n\nThird, God is the hearer of prayer. Paul can pray with joy because he trusts that God listens and acts, and the prayer's content is that God would do in the Philippians what only He can do: grow love, give discernment and make them blameless on the day. For worship, this passage invites a church to thank God for particular people by name, to pray for love with knowledge and to wait with confidence, because God is the kind of God who finishes what He begins.",
     "crossReferences": [
-      { "ref": "Philippians 2:12-13", "note": "God is the one who works in believers to will and to act, the ground of the confidence in verse 6." },
-      { "ref": "1 Thessalonians 5:23-24", "note": "The faithful God who calls you will sanctify you completely and will surely do it, echoing the promise to complete the work." },
-      { "ref": "Romans 8:29-30", "note": "Those God foreknew He also glorifies, the unbroken chain behind the confidence that He finishes what He begins." },
-      { "ref": "John 15:1-8", "note": "Branches in the vine bear much fruit, the fruit of righteousness Paul prays for here." }
+      {
+        "ref": "Philippians 2:12-13",
+        "note": "The partner text to verse 6. The Philippians are to 'work out' their salvation, and the reason is that 'it is God who works in you to will and to act on behalf of His good purpose.' It shows that the good work God begins in 1:6 is the very work they are to pursue, so confidence and effort belong together."
+      },
+      {
+        "ref": "1 Thessalonians 5:23-24",
+        "note": "Paul prays that God would sanctify the church completely and keep them blameless at the coming of our Lord, then adds 'The One who calls you is faithful, and He will do it.' It repeats the logic of verses 6 and 10: blamelessness on the day rests on God's faithfulness."
+      },
+      {
+        "ref": "1 Corinthians 1:8",
+        "note": "'He will sustain you to the end, so that you will be blameless on the day of our Lord Jesus Christ.' This is the same promise in a church far less admirable than Philippi, which shows that Paul's confidence rests on God and not on the quality of the people."
+      },
+      {
+        "ref": "Acts 16:11-15",
+        "note": "Luke's account of the church's beginning at Philippi, where the Lord opened Lydia's heart. Reading it beside verse 6 shows what Paul meant by 'from the first day': the good work began with a prayer meeting by a river, and God was the one who opened her heart."
+      },
+      {
+        "ref": "Acts 16:25-34",
+        "note": "Paul and Silas, beaten and in prison, pray and sing hymns at midnight, and the jailer and his household believe. This is the origin story of the church that Paul now writes to from another prison, and it explains why the letter is soaked in joy that does not depend on circumstances."
+      },
+      {
+        "ref": "Philippians 4:15-16",
+        "note": "Paul recalls that when he left Macedonia no church but Philippi partnered with him in giving and receiving, and that they supported him again and again in Thessalonica. It gives concrete content to 'partnership in the gospel from the first day until now' in 1:5."
+      },
+      {
+        "ref": "Romans 8:29-30",
+        "note": "God foreknew, predestined, called, justified and glorified, with no break in the chain. It sets Paul's confidence about completion in a larger doctrine of salvation and shows that 'carry it on to completion' ends in glory."
+      },
+      {
+        "ref": "Colossians 1:9-10",
+        "note": "A prayer written in the same prison season that asks God to fill the church with the knowledge of His will so that they may walk worthily, bearing fruit in every good work. Its likeness to Philippians 1:9 to 11 shows what Paul habitually prayed for churches."
+      },
+      {
+        "ref": "John 15:5-8",
+        "note": "Jesus says whoever remains in Him bears much fruit and that the Father is glorified when they do. Philippians 1:11 describes the same fruit and ends in the same glory, and it supplies the source Paul names: the fruit of righteousness comes 'through Jesus Christ.'"
+      },
+      {
+        "ref": "Isaiah 5:1-7",
+        "note": "God plants a vineyard looking for good fruit and finds wild grapes. It gives the Old Testament background of 'fruit of righteousness' as the thing God has always sought and sometimes not found, so the church that bears it is a fulfilment of the vineyard's purpose."
+      }
     ],
-    "oneStory": "From Abraham onward God has taken the initiative to save a people and pledged to keep them to the end. That covenant faithfulness now rests on a colony church in Philippi: God who began His good work in them will carry it through to the day of Christ, and their growing, fruitful love points to the harvest of the whole redeemed people gathered to God's praise.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "The Bible's story is one of God starting and finishing, and this thanksgiving reads like a small part of it. In creation God made a good world and a people in His image, Genesis 1:26 to 31. In the fall that work was spoiled, and what followed was a long history of God keeping His promise to put it right, through Abraham, Israel, David and the prophets, until the Son came. Verse 6 puts the next chapter in a single sentence: He who began a good work in you will complete it.\n\nThe passage is also about the church as a new kind of people. In Philippi the gospel gathered a businesswoman, a former slave girl and a Roman jailer into one community, a living sign of what God had promised Abraham, that all nations would be blessed, Genesis 12:3 and 22:18. That gathering is the 'partnership in the gospel' that Paul thanks God for, and it is an advance picture of the multitude from every nation in Revelation 7:9.\n\nThe passage looks backward and forward. It looks back to the day the Lord opened Lydia's heart, to the earthquake and the jailer's household, and to the first gift Philippi sent. It looks forward to 'the day of Christ.' That day is the climax of redemption, the moment when the work of salvation is complete, believers are blameless, and Christ's glory is displayed, Philippians 3:20 and 21, 1 Corinthians 15:23 and 24. Between the beginning and the end, the church lives on grace, grows in love, tests and approves what is best, and bears fruit.\n\nIn the new creation the harvest will be fully gathered. The 'fruit of righteousness' of verse 11 is a first taste of the world in which righteousness is at home, 2 Peter 3:13, and the 'tree of life' that Proverbs uses as an image of the righteous person's fruit is the tree that stands beside the river in Revelation 22:2. The prayer that love would abound more and more is a prayer that will be answered without end when the Lord Jesus appears, and the glory and praise of verse 11 will fill the new heaven and earth.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "Why is Paul so confident about the Philippians' future?",
       "options": [
-        { "text": "Because God who began a good work in them will carry it to completion.", "weight": 100, "note": "Verse 6 grounds assurance in God's faithfulness to finish His own work." },
-        { "text": "Because the Philippians are strong enough to finish on their own.", "weight": 75, "note": "The confidence rests on God's work, not on their strength." },
-        { "text": "Because they have wealthy patrons to support them.", "weight": 25, "note": "The ground is God's completing work, not human resources." },
-        { "text": "Because no trouble will ever come to them.", "weight": 0, "note": "Paul writes from chains; the confidence is about God finishing, not a trouble free life." }
+        {
+          "text": "Because God who began a good work in them will carry it to completion.",
+          "weight": 100,
+          "note": "Verse 6 grounds assurance in God's faithfulness to finish His own work."
+        },
+        {
+          "text": "Because the Philippians are strong enough to finish on their own.",
+          "weight": 75,
+          "note": "The confidence rests on God's work, not on their strength."
+        },
+        {
+          "text": "Because they have wealthy patrons to support them.",
+          "weight": 25,
+          "note": "The ground is God's completing work, not human resources."
+        },
+        {
+          "text": "Because no trouble will ever come to them.",
+          "weight": 0,
+          "note": "Paul writes from chains; the confidence is about God finishing, not a trouble free life."
+        }
       ]
     },
     {
       "q": "What does Paul mean by the Philippians' partnership in the gospel?",
       "options": [
-        { "text": "Their shared fellowship in the gospel work through prayer, gifts, and suffering.", "weight": 100, "note": "Koinonia means true partnership from the first day until now." },
-        { "text": "Their agreement to admire Paul from a distance.", "weight": 75, "note": "It is active partnership, not mere admiration." },
-        { "text": "A business contract for mutual profit.", "weight": 25, "note": "The sharing is in the gospel, not commercial gain." },
-        { "text": "Their decision to keep the gospel to themselves.", "weight": 0, "note": "Partnership means sharing in the gospel's spread, not hoarding it." }
+        {
+          "text": "Their shared fellowship in the gospel work through prayer, gifts, and suffering.",
+          "weight": 100,
+          "note": "Koinonia means true partnership from the first day until now."
+        },
+        {
+          "text": "Their agreement to admire Paul from a distance.",
+          "weight": 75,
+          "note": "It is active partnership, not mere admiration."
+        },
+        {
+          "text": "A business contract for mutual profit.",
+          "weight": 25,
+          "note": "The sharing is in the gospel, not commercial gain."
+        },
+        {
+          "text": "Their decision to keep the gospel to themselves.",
+          "weight": 0,
+          "note": "Partnership means sharing in the gospel's spread, not hoarding it."
+        }
       ]
     },
     {
       "q": "What does Paul pray for the Philippians?",
       "options": [
-        { "text": "That their love would abound in knowledge and insight, bearing the fruit of righteousness.", "weight": 100, "note": "Verses 9 to 11 pray for love that grows into discernment and holiness." },
-        { "text": "That they would gain wealth and comfort.", "weight": 75, "note": "His prayer is for growing love and righteousness, not material ease." },
-        { "text": "That they would simply feel happy.", "weight": 25, "note": "The aim is discerning love and fruit to God's glory, deeper than feeling." },
-        { "text": "That they would keep their love vague and untested.", "weight": 0, "note": "He prays love would grow in knowledge to test and approve what is best." }
+        {
+          "text": "That their love would abound in knowledge and insight, bearing the fruit of righteousness.",
+          "weight": 100,
+          "note": "Verses 9 to 11 pray for love that grows into discernment and holiness."
+        },
+        {
+          "text": "That they would gain wealth and comfort.",
+          "weight": 75,
+          "note": "His prayer is for growing love and righteousness, not material ease."
+        },
+        {
+          "text": "That they would simply feel happy.",
+          "weight": 25,
+          "note": "The aim is discerning love and fruit to God's glory, deeper than feeling."
+        },
+        {
+          "text": "That they would keep their love vague and untested.",
+          "weight": 0,
+          "note": "He prays love would grow in knowledge to test and approve what is best."
+        }
       ]
     },
     {
       "q": "Whom does Paul address as saints at Philippi?",
       "options": [
-        { "text": "All the believers there, together with the overseers and deacons.", "weight": 100, "note": "Every believer in Christ is a saint, the whole church with its leaders." },
-        { "text": "Only a spiritual elite who had reached perfection.", "weight": 75, "note": "Saint means set apart in Christ, not an elite class." },
-        { "text": "Only the overseers and deacons.", "weight": 25, "note": "He greets all the saints, with the leaders alongside them." },
-        { "text": "People made holy by their own good works.", "weight": 0, "note": "They are holy by being in Christ Jesus, not by achievement." }
+        {
+          "text": "All the believers there, together with the overseers and deacons.",
+          "weight": 100,
+          "note": "Every believer in Christ is a saint, the whole church with its leaders."
+        },
+        {
+          "text": "Only a spiritual elite who had reached perfection.",
+          "weight": 75,
+          "note": "Saint means set apart in Christ, not an elite class."
+        },
+        {
+          "text": "Only the overseers and deacons.",
+          "weight": 25,
+          "note": "He greets all the saints, with the leaders alongside them."
+        },
+        {
+          "text": "People made holy by their own good works.",
+          "weight": 0,
+          "note": "They are holy by being in Christ Jesus, not by achievement."
+        }
       ]
     },
     {
       "q": "To what end does the fruit of righteousness finally point?",
       "options": [
-        { "text": "To the glory and praise of God.", "weight": 100, "note": "Verse 11 makes God's glory the goal of the fruit that comes through Christ." },
-        { "text": "To the believer's reputation.", "weight": 75, "note": "The fruit is real, but its aim is God's glory, not personal credit." },
-        { "text": "To earning a place in God's family.", "weight": 25, "note": "The fruit comes through Jesus Christ; it flows from salvation rather than earning it." },
-        { "text": "To nothing in particular.", "weight": 0, "note": "Paul names a clear goal, the glory and praise of God." }
+        {
+          "text": "To the glory and praise of God.",
+          "weight": 100,
+          "note": "Verse 11 makes God's glory the goal of the fruit that comes through Christ."
+        },
+        {
+          "text": "To the believer's reputation.",
+          "weight": 75,
+          "note": "The fruit is real, but its aim is God's glory, not personal credit."
+        },
+        {
+          "text": "To earning a place in God's family.",
+          "weight": 25,
+          "note": "The fruit comes through Jesus Christ; it flows from salvation rather than earning it."
+        },
+        {
+          "text": "To nothing in particular.",
+          "weight": 0,
+          "note": "Paul names a clear goal, the glory and praise of God."
+        }
       ]
     }
   ],
@@ -163,9 +390,21 @@
     "The fruit of righteousness is for the glory and praise of God. How does that goal change why you pursue a holy life?"
   ],
   "translationNotes": [
-    { "ref": "Philippians 1:1", "note": "Servants renders douloi, bondservants or slaves; Paul and Timothy present themselves as wholly owned by Christ Jesus. The BSB sets the recipients on a new line; here it is joined with a space, with no change to wording." },
-    { "ref": "Philippians 1:6", "note": "Carry it on to completion translates epiteleo, to bring fully to an end; the subject throughout is God, so the guarantee of perseverance rests on Him." },
-    { "ref": "Philippians 1:8", "note": "Affection renders splanchna, literally the inward parts, an idiom for deep, visceral love; Paul feels it with the very affection of Christ Jesus." }
+    {
+      "ref": "Philippians 1:1",
+      "note": "Servants renders douloi, bondservants or slaves; Paul and Timothy present themselves as wholly owned by Christ Jesus. The BSB sets the recipients on a new line; here it is joined with a space, with no change to wording."
+    },
+    {
+      "ref": "Philippians 1:6",
+      "note": "Carry it on to completion translates epiteleo, to bring fully to an end; the subject throughout is God, so the guarantee of perseverance rests on Him."
+    },
+    {
+      "ref": "Philippians 1:8",
+      "note": "Affection renders splanchna, literally the inward parts, an idiom for deep, visceral love; Paul feels it with the very affection of Christ Jesus."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Philippians 1:1-11 this session. Verse 1 joins the two BSB lines with a space; wording unchanged." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Philippians 1:1-11 this session. Verse 1 joins the two BSB lines with a space; wording unchanged."
+  }
 }
