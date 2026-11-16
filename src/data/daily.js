@@ -381,6 +381,13 @@ export const dailyVerses = {
     story: ["John has written a great deal about love in this letter, and here he gives it a starting point in one short sentence.", "Our love is a response, and the order matters. Our love is not where the story begins; it is an answer. God sent His Son as the atoning sacrifice for our sins, and that act came before any of our trying. John says that this love, once received, drives out fear and leads us to love others. We are not asked to manufacture warmth from nothing. We are asked to pass on what has already been given to us, freely and first.", "Think of one person who is hard to love today. Begin from how you have been loved, and let that set the pace."],
     studyUrl: "/1-john/god-is-love/"
   },
+  "1-peter-2-24": {
+    slug: "1-peter-2-24",
+    ref: "1 Peter 2:24",
+    verse: "He Himself bore our sins in His body on the tree, so that we might die to sin and live to righteousness. \u201cBy His stripes you are healed.\u201d",
+    story: ["Peter is writing to servants who may be beaten for doing good, and he points them to the One who was beaten for them.", "He reaches for Isaiah's song of the suffering Servant and says it plainly: Christ carried our sins Himself, in His own body, on the wood of the cross. Not a symbol of them, and not a share of them. He took them there so that sin would lose its claim on us and a new life, a righteous one, could begin. His wounds are where our healing comes from. The verse that follows says we were sheep going astray, and now we have been brought back to the Shepherd.", "Lent is a road toward that tree. Bring what you are carrying today; He has already borne it."],
+    studyUrl: "/1-peter/the-example-of-christs-suffering/"
+  },
   "1-peter-5-7": {
     slug: "1-peter-5-7",
     ref: "1 Peter 5:7",
@@ -1122,5 +1129,6 @@ export const dailyCalendar = {
   "2027-02-09": "isaiah-26-3",
   "2027-02-10": "joel-2-13",
   "2027-02-11": "luke-18-13",
-  "2027-02-12": "ezekiel-36-26"
+  "2027-02-12": "ezekiel-36-26",
+  "2027-02-13": "1-peter-2-24"
 };
