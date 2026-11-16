@@ -18,9 +18,21 @@
         "note": "Israel, angels, Sodom",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 5, "text": "Although you are fully aware of this, I want to remind you that after Jesus had delivered His people out of the land of Egypt, He {{apollymi|destroyed}} those who did not believe." },
-          { "chapter": 1, "n": 6, "text": "And the angels who did not stay within their own domain but abandoned their proper dwelling, these He has {{tereo|kept}} in eternal chains under darkness, bound for judgment on that great day." },
-          { "chapter": 1, "n": 7, "text": "In like manner, Sodom and Gomorrah and the cities around them, who indulged in sexual immorality and pursued {{sarx_heteros|strange flesh}}, are on display as an example of those who sustain the punishment of {{aionios|eternal}} fire." }
+          {
+            "chapter": 1,
+            "n": 5,
+            "text": "Although you are fully aware of this, I want to remind you that after Jesus had delivered His people out of the land of Egypt, He {{apollymi|destroyed}} those who did not believe."
+          },
+          {
+            "chapter": 1,
+            "n": 6,
+            "text": "And the angels who did not stay within their own domain but abandoned their proper dwelling, these He has {{tereo|kept}} in eternal chains under darkness, bound for judgment on that great day."
+          },
+          {
+            "chapter": 1,
+            "n": 7,
+            "text": "In like manner, Sodom and Gomorrah and the cities around them, who indulged in sexual immorality and pursued {{sarx_heteros|strange flesh}}, are on display as an example of those who sustain the punishment of {{aionios|eternal}} fire."
+          }
         ]
       },
       {
@@ -28,20 +40,62 @@
         "note": "Michael's restraint versus their slander",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 8, "text": "Yet in the same way these {{enypniazomai|dreamers}} defile their bodies, reject authority, and slander glorious beings." },
-          { "chapter": 1, "n": 9, "text": "But even the archangel Michael, when he disputed with the devil over the body of Moses, did not presume to bring a slanderous charge against him, but said, “The Lord rebuke you!”" },
-          { "chapter": 1, "n": 10, "text": "These men, however, {{blasphemeo|slander}} what they do not understand, and like irrational animals, they will be destroyed by the things they do instinctively." }
+          {
+            "chapter": 1,
+            "n": 8,
+            "text": "Yet in the same way these {{enypniazomai|dreamers}} defile their bodies, reject authority, and slander glorious beings."
+          },
+          {
+            "chapter": 1,
+            "n": 9,
+            "text": "But even the archangel Michael, when he disputed with the devil over the body of Moses, did not presume to bring a slanderous charge against him, but said, “The Lord rebuke you!”"
+          },
+          {
+            "chapter": 1,
+            "n": 10,
+            "text": "These men, however, {{blasphemeo|slander}} what they do not understand, and like irrational animals, they will be destroyed by the things they do instinctively."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "apollymi": { "language": "Greek", "lemma": "apollymi", "original": "ἀπόλλυμι", "gloss": "To destroy utterly, to ruin, to bring to eternal loss. God saved Israel out of Egypt and then destroyed the generation that refused to believe. The word warns that being rescued once is no guarantee against ruin if unbelief takes hold." },
-    "tereo": { "language": "Greek", "lemma": "tereo", "original": "τηρέω", "gloss": "To keep, guard, hold in reserve. The same word that assured believers they are kept in Christ, verse 1, now falls on the rebel angels: God has kept them in chains for judgment. The Keeper of His people is also the keeper of the condemned." },
-    "sarx_heteros": { "language": "Greek", "lemma": "sarx hetera", "original": "σὰρξ ἑτέρα", "gloss": "Strange or other flesh. The phrase describes the unnatural lust of Sodom and the cities around it, a pursuit of what God never sanctioned. It marks their sin as a rebellion against the created order, not mere weakness." },
-    "aionios": { "language": "Greek", "lemma": "aionios", "original": "αἰώνιος", "gloss": "Eternal, everlasting, age lasting. Sodom's ruin stands as a visible example pointing to the eternal fire that awaits the ungodly. The temporal judgment is a signpost to a final and lasting one." },
-    "enypniazomai": { "language": "Greek", "lemma": "enypniazomai", "original": "ἐνυπνιάζομαι", "gloss": "To dream, to be given to dreams or visions. Jude calls the false teachers dreamers, likely mocking their claim to special revelations that justify their sin. Lost in their own imaginings, they defile the body and despise authority." },
-    "blasphemeo": { "language": "Greek", "lemma": "blasphemeo", "original": "βλασφημέω", "gloss": "To slander, revile, speak abusively, blaspheme. The dreamers slander glorious beings and revile what they do not understand. Even Michael, contending with the devil himself, would not stoop to such reckless abuse, leaving judgment to the Lord." }
+    "apollymi": {
+      "language": "Greek",
+      "lemma": "apollymi",
+      "original": "ἀπόλλυμι",
+      "gloss": "To destroy utterly, to ruin, to bring to eternal loss. God saved Israel out of Egypt and then destroyed the generation that refused to believe. The word warns that being rescued once is no guarantee against ruin if unbelief takes hold."
+    },
+    "tereo": {
+      "language": "Greek",
+      "lemma": "tereo",
+      "original": "τηρέω",
+      "gloss": "To keep, guard, hold in reserve. The same word that assured believers they are kept in Christ, verse 1, now falls on the rebel angels: God has kept them in chains for judgment. The Keeper of His people is also the keeper of the condemned."
+    },
+    "sarx_heteros": {
+      "language": "Greek",
+      "lemma": "sarx hetera",
+      "original": "σὰρξ ἑτέρα",
+      "gloss": "Strange or other flesh. The phrase describes the unnatural lust of Sodom and the cities around it, a pursuit of what God never sanctioned. It marks their sin as a rebellion against the created order, not mere weakness."
+    },
+    "aionios": {
+      "language": "Greek",
+      "lemma": "aionios",
+      "original": "αἰώνιος",
+      "gloss": "Eternal, everlasting, age lasting. Sodom's ruin stands as a visible example pointing to the eternal fire that awaits the ungodly. The temporal judgment is a signpost to a final and lasting one."
+    },
+    "enypniazomai": {
+      "language": "Greek",
+      "lemma": "enypniazomai",
+      "original": "ἐνυπνιάζομαι",
+      "gloss": "To dream, to be given to dreams or visions. Jude calls the false teachers dreamers, likely mocking their claim to special revelations that justify their sin. Lost in their own imaginings, they defile the body and despise authority."
+    },
+    "blasphemeo": {
+      "language": "Greek",
+      "lemma": "blasphemeo",
+      "original": "βλασφημέω",
+      "gloss": "To slander, revile, speak abusively, blaspheme. The dreamers slander glorious beings and revile what they do not understand. Even Michael, contending with the devil himself, would not stoop to such reckless abuse, leaving judgment to the Lord."
+    }
   },
   "study": {
     "basic": {
@@ -55,93 +109,262 @@
       "oneStory": "The whole Bible testifies that God judges the ungodly, from the flood to Sodom to the wilderness. Jude gathers these witnesses to warn the church and to assure them that the intruders' doom is certain, while the same Lord who judges is the one who keeps His own safe for the day when He sets everything right."
     },
     "context": {
-      "literary": "A tight triad of examples, verses 5 to 7, each introduced to build a cumulative case, followed by the application, verses 8 to 10. Jude loves triads and vivid contrast; here the restraint of Michael, verse 9, is set sharply against the reckless slander of the dreamers, verse 10. The structure moves from proof to indictment.",
-      "historical": "Jude draws on shared Jewish memory: the Exodus generation, the fall of angels linked in some traditions to Genesis 6, and Sodom. Verse 9 alludes to a lost ending of a Jewish work, the Assumption or Testament of Moses, which described a dispute over Moses' body. Jude's first readers would have recognized the reference at once.",
-      "canonical": "These same examples recur in 2 Peter 2, marking a common apostolic stock of warnings. They tie Jude into the whole canon's witness that God judges rebellion, from the Torah through the prophets to the New Testament's final reckoning."
+      "literary": "Verses 5 to 7 form a closely built triplet, and Jude introduces them as a reminder, not as news. Each example is given in a single sentence, and each tracks a different level of creation: a nation, heavenly beings, and cities. The sins named differ too, unbelief, leaving one's proper place, and sexual vice. What unites them is the verdict, and the way Jude ends each with a note of finality: destroyed, kept in eternal chains for judgment, and on display as an example of eternal fire.\n\nThe sentences are linked by small connecting words. 'In like manner' in verse 7 ties Sodom to the angels, and 'in the same way' in verse 8 turns from the examples to the men who are the point. The word 'these' recurs through verses 8 to 10 and marks Jude's habit of pointing at the culprits. The movement is from history to application: this is what God did, and these dreamers are doing the same.\n\nVerse 8 names three offenses in a row, defiling the body, rejecting authority and slandering glorious beings, and verse 9 answers the third with the story of Michael. The contrast is exact. The men insult what they do not understand; the archangel will not even insult the devil. Verse 10 closes the section with a tight antithesis of what they blaspheme out of ignorance and what they know by instinct, and a final irony: the very instincts they follow destroy them.",
+      "historical": "The three examples were stock material for Jewish teachers in this period. Sirach 16:7 to 10 and the Wisdom of Solomon 10 group Sodom and the generation of the exodus as examples of judgment, and later Jewish writings add the fallen watchers. Jude's readers would have recognized all three at once, and the reminder in verse 5 that 'you are fully aware' assumes they had heard the stories many times.\n\nThe wilderness generation is described in Numbers 14, where the people refused to enter the land after the report of the spies, and the LORD swore that none of that generation would see it, except Caleb and Joshua, Numbers 14:22 to 30. The point of the story is that deliverance did not guarantee arrival. Jude's readers, who had been saved by faith, would feel the weight of that.\n\nThe angels of verse 6 are widely linked to Genesis 6:1 to 4 and to the Jewish expansion of that account in 1 Enoch, which describes the watchers who came down and were bound. Peter's parallel in 2 Peter 2:4 does not use the word watchers, and it is debated how much Jude relies on Enoch here. Sodom, destroyed in Genesis 19, stood in the prophets as the standard example of divine judgment, Isaiah 1:9 and Ezekiel 16:49 to 50, and Jesus used the same comparison, Matthew 10:15 and Luke 17:28 to 30.\n\nVerse 9 comes from a tradition about Moses' death. Deuteronomy 34:6 says God buried him and that no one knows the place of his grave, and a Jewish account elaborated the story with a struggle between Michael and the devil over the body. Origen and others link Jude's words to a work called the Assumption or Testament of Moses, which survives only in part.",
+      "canonical": "Few passages of the New Testament use the Old Testament's judgments so economically. Numbers 14, Genesis 6 and Genesis 19 appear together in only a few places, and Jude's use of them is best compared with 2 Peter 2:4 to 8, where Peter also lists angels, the flood and Sodom. Jude omits the flood and adds the exodus generation. Paul gives the exodus warning its fullest treatment in 1 Corinthians 10:1 to 12, where those who passed through the sea and ate the same spiritual food still fell in the desert, and the lesson is 'let him who thinks he is standing take heed that he does not fall.' Hebrews 3:16 to 19 draws the same conclusion from Numbers 14: they could not enter because of unbelief.\n\nSodom becomes the pattern of judgment throughout the prophets and Jesus' teaching, and Jude's phrase 'eternal fire' joins Matthew 25:41 and Revelation 20:10 to 15. Michael is named in Daniel 10:13, 10:21 and 12:1, and in Revelation 12:7, where he fights the dragon, so Jude's picture of him as a figure of restraint adds to the way Scripture speaks of him as a warrior who still defers to the Lord.\n\nVerse 9's citation of 'The Lord rebuke you' matches the words of the angel of the LORD in Zechariah 3:2, spoken against Satan, so the saying itself is one the Old Testament already records. Jude's account of the occasion is the unusual part."
     },
     "hermeneutics": {
-      "authorIntent": "To prove from three well known instances that God certainly judges the ungodly, and thus to seal the doom of the intruders while warning the faithful not to presume on past deliverance.",
-      "descriptionVsPrescription": "The examples describe historical judgments; the enduring lesson is prescriptive by implication: do not follow the way of unbelief, rebellion, and immorality, and leave slander and vengeance to the Lord, as Michael did.",
+      "authorIntent": "Jude meant to take away any comfort the readers might draw from the rising success of the intruders. Three histories show that status before God can be lost. The exodus generation were rescued and then destroyed; the angels held high rank and were chained; Sodom lay in a fertile plain and was burned. None of these was an obscure group, so no one could say the false teachers were too ordinary or too well placed for judgment to reach them.\n\nHe also meant to describe the character of the men: they act on dreams, not on revelation, and they treat as nothing what they do not understand. The story of Michael is chosen to expose a form of pride. Even the greatest of the angels would not take the Lord's judgment into his own hands, yet these men insult powers beyond their reach.\n\nHe did not intend to settle every question about angels, Enoch or Sodom, and he does not elaborate. What he wanted was a clear lesson: God has judged before and God will judge again.",
+      "descriptionVsPrescription": "The three examples describe what God did; they are not commands. Jude does not tell the church to carry out judgment, and verse 9 argues the reverse: leave rebuke with the Lord. What the passage does prescribe by implication is humility before what we do not understand, and seriousness about sin, since both the rescued and the exalted can fall.\n\nThe handling of Michael's story also raises a question about how to apply a detail that is known only from outside the Bible. A responsible reading treats it as Jude's illustration, which is true to the point he wants to make, rather than as a source of doctrine about angels and the dead. Believers should not build a theory of spiritual warfare on verse 9, nor use it to mock any power. It teaches a posture: answer evil by appealing to God's authority, not by a boast of one's own.",
       "debates": [
         {
           "question": "How should we understand Jude's use of the Assumption of Moses in verse 9?",
           "views": [
-            { "label": "Citing a true detail preserved in a Jewish tradition", "case": "Jude, under inspiration, affirms a genuine event, Michael's refusal to slander the devil, that had been passed down in the Testament of Moses. Origen linked the account to that book. Inspiration can affirm a true report found in an uninspired source, just as Paul quotes pagan poets, Acts 17:28, without endorsing their whole works." },
-            { "label": "Using a well known story to make a moral point", "case": "Others hold that Jude appeals to a story his readers knew, whether or not every detail is historically verifiable, in order to teach a lesson about restraint, without thereby canonizing the book it came from." }
+            {
+              "label": "Jude affirms a true detail preserved in a Jewish tradition",
+              "case": "Under inspiration Jude reports a real event, Michael's refusal to slander the devil, that was known through the Testament of Moses. Origen linked the account to that book. Inspiration can affirm a true report found in an uninspired source, as Paul quotes pagan poets, Acts 17:28, without endorsing their whole work."
+            },
+            {
+              "label": "Jude uses a well known story as an illustration",
+              "case": "Others hold that Jude's readers knew the story, and that he cites it for the moral point without claiming its historical truth. It is like referring to a familiar tale to make an argument, which does not guarantee every detail."
+            },
+            {
+              "label": "Jude draws on Zechariah 3:2",
+              "case": "A third approach notes that the words spoken, 'The Lord rebuke you,' come from Zechariah 3:2, where the angel of the LORD speaks them against Satan over Joshua the high priest. Jude may be combining the Zechariah scene with the Moses tradition."
+            }
           ],
-          "bearing": "Either way, Jude does not treat the Assumption of Moses as Scripture. He uses a recognized account to teach that even the mightiest angel left judgment to God, a rebuke to the dreamers who slander freely. The point is moral, and the orthodox reading keeps the book outside the canon while honoring the truth Jude draws from it."
+          "bearing": "All three agree on the main point: a mighty angel left judgment to God. The question is how Jude knew, and Scripture does not say. Because the lesson is plain, the reader can follow it without settling the source."
         },
         {
-          "question": "Who are the angels who did not stay within their own domain?",
+          "question": "What are the 'angels who did not stay within their own domain' in verse 6?",
           "views": [
-            { "label": "Angels who fell and were imprisoned", "case": "Jude refers to angelic beings who abandoned their proper place and are now kept in chains for judgment, echoing traditions built on Genesis 6 and reflected in 2 Peter 2:4." },
-            { "label": "A specific rebellion at the fall of Satan", "case": "Some connect it more broadly to the original angelic rebellion; the details are not spelled out, but the certainty of their judgment is." }
+            {
+              "label": "The sons of God of Genesis 6",
+              "case": "Many link verse 6 with Genesis 6:1 to 4, where 'the sons of God' took wives, and with 1 Enoch, which tells of angels bound for this sin. Jude's phrase about abandoning their proper dwelling suits a crossing of the boundary between heaven and earth."
+            },
+            {
+              "label": "The angels who fell with Satan",
+              "case": "Others read it of the original rebellion of angels, which Scripture treats in a general way, as in 2 Peter 2:4 and Revelation 12:7 to 9. 'Their own domain' would then refer to their original place of rank."
+            },
+            {
+              "label": "Human descendants of Seth",
+              "case": "A minority view takes the sons of God in Genesis 6 as the line of Seth, not angels. This does not fit Jude well, since verse 6 plainly speaks of angels."
+            }
           ],
-          "bearing": "The specifics are secondary to Jude's point: if God did not spare even rebel angels but keeps them for judgment, the false teachers will not escape either."
+          "bearing": "Jude gives no account of what the angels did except that they left their proper place. The lesson is the same either way: rank in the heavens gives no immunity, and sin is judged at every level of creation."
+        },
+        {
+          "question": "What is 'strange flesh' in verse 7?",
+          "views": [
+            {
+              "label": "Same sex relations",
+              "case": "The cities pursued desire that goes against the order of creation, which is how Genesis 19:4 to 5 and Leviticus 18:22 read, and the phrase 'strange flesh' as another kind of flesh than the proper partner. Most commentators take this view."
+            },
+            {
+              "label": "Desire for angelic beings",
+              "case": "The men of Sodom sought the two visitors, who were angels, Genesis 19:1 and 19:5. Some therefore read 'other flesh' as a desire for beings of another order. This would echo verse 6."
+            },
+            {
+              "label": "Both together",
+              "case": "The two senses can be held together: the crowd sought what is not theirs by nature, and their act crossed the boundary which God set for creatures."
+            }
+          ],
+          "bearing": "The context stresses that the sin was sexual and that it crossed an order God had made. Jude's emphasis lies on the fire that fell, not the exact form of the vice."
         }
       ]
     },
-    "originalLanguages": "The verbs carry the weight. God apollymi, destroyed, the unbelieving generation He had just rescued, a warning that deliverance is no license for unbelief. He has tereo, kept, the fallen angels in eternal chains, the same verb that guards believers in verse 1, now guarding the condemned for judgment; the Keeper cuts both ways. Sodom pursued sarx hetera, strange flesh, and is displayed under aionios, eternal, fire. The intruders are enypniazomai, dreamers, drifting on their own visions, who blasphemeo, slander, glorious beings and revile what they cannot understand, unlike Michael, who left even the devil to the Lord's rebuke.",
+    "originalLanguages": "Verse 5 shows a textual variation worth knowing. The BSB reads 'Jesus' as the One who delivered Israel from Egypt, while other manuscript traditions read 'the Lord,' as the footnote records. Whichever reading is original, the verb is 'delivered,' and the subject is the divine Rescuer who is also the Judge in the second half of the verse. The second verb, apolesen, 'destroyed,' is the same root as in the name Apollyon and is used of what is lost or ruined, in Luke 15:4 and John 3:16. Here it falls on 'those who did not believe,' mē pisteusantas, an aorist participle that names the unbelief as the reason, as Hebrews 3:19 does.\n\nIn verse 6 Jude uses 'domain,' arche, and 'proper dwelling,' idion oiketerion. The first word usually means rule or beginning, so the angels abandoned either their sphere of authority or their original state. The second appears in the New Testament elsewhere in 2 Corinthians 5:2, where it names the heavenly dwelling Paul longs for. That makes the angels' sin a leaving of a God given home. They are held in 'eternal chains,' desmois aidiois. Jude chooses aidios, a word for what has no end in time, which Paul uses of God's eternal power in Romans 1:20, while verse 7 uses aionios of the fire. The darkness of verse 6 is zophos, which returns in verse 13 for the blackest darkness reserved for the false teachers. The same word thus joins the angels' fate to theirs.\n\nVerse 7 says the cities 'are on display,' prokeintai, a present tense that stresses that the example stands before the eyes now. The word deigma, 'example,' means something shown as a pattern or sample. 'Sustain the punishment,' dike hypechousai, is also a present participle, so the sentence says the cities continue to undergo, in the ruin that remains, the penalty of eternal fire. The phrase 'strange flesh,' sarkos heteras, uses heteros, 'other of a different kind,' not allos, 'another of the same kind,' a distinction that gives the sin the sense of crossing a boundary.\n\nIn verse 8 'dreamers,' enypniazomenoi, is the verb used in Joel 2:28 in the Greek Old Testament and in Acts 2:17 of God given dreams. Jude turns it around: these are people whose dreams are their own and who rely on them as authority. 'Slander,' blasphemousin, is the word for speaking in a way that harms the honor of what is spoken of, and is used of the devil in verse 9 and against God in verse 15. Jude's verb 'rebuke' in verse 9, epitimesai, is the Greek form found in the Septuagint of Zechariah 3:2.",
     "typology": [
-      { "type": "The wilderness generation destroyed in unbelief", "fulfillment": "A warning type of those who profess deliverance yet perish through unbelief, fulfilled in the final judgment of the ungodly, 1 Corinthians 10:1-12." },
-      { "type": "The angels kept in chains for the great day", "fulfillment": "A pledge that all rebellion, however exalted, faces God's certain judgment on the last day." },
-      { "type": "Sodom and Gomorrah under eternal fire", "fulfillment": "A visible example set forth to point to the everlasting judgment awaiting the impenitent, 2 Peter 2:6." }
+      {
+        "type": "The wilderness generation",
+        "fulfillment": "Israel's journey from Egypt to the land is a pattern of the Christian pilgrimage. Paul says these things 'happened to them as examples' and were written for our admonition, 1 Corinthians 10:6 and 10:11. Rescue by the sea and food from heaven did not secure entry, because unbelief intervened, Hebrews 3:19. The escalation in Christ is that He is the better Moses who brings His people into the true rest, Hebrews 4:8 to 9. The type serves as a warning here, and it falls short in that Israel's land was a shadow, while the rest that remains for the people of God is the reality."
+      },
+      {
+        "type": "Sodom and the cities of the plain",
+        "fulfillment": "Sodom's fire is God's judgment made visible, and the New Testament takes it as a pattern of the end. Jesus compares the day of the Son of Man to the day Lot left Sodom, Luke 17:28 to 30, and Peter says the cities were made an example of what is coming on the ungodly, 2 Peter 2:6. Jude's own phrase, 'on display,' sets them as a standing exhibit. The type finds its fulfillment in the final judgment, and it falls short because Sodom's fire destroyed a plain while the final judgment concerns all the earth."
+      },
+      {
+        "type": "Michael and the Lord's rebuke",
+        "fulfillment": "The picture of a heavenly champion who defers to the Lord's judgment prefigures a larger pattern: the Lord Himself brings the verdict, and no creature may usurp it. Revelation 12:7 to 9 shows Michael and his angels at war, and the victory is won by the blood of the Lamb, Revelation 12:11. The correspondence is that judgment belongs to God and to His Christ, John 5:22. It falls short in that Michael is only a servant, while the Son is the appointed judge."
+      },
+      {
+        "type": "Angels held in chains",
+        "fulfillment": "The chained angels show that God's final reckoning is already in view, kept in custody until the great day. This matches Peter's note that they are 'held for judgment,' 2 Peter 2:4, and Paul's statement that believers will judge angels, 1 Corinthians 6:3. The correspondence points to Christ's triumph over the powers, Colossians 2:15. The picture falls short because Scripture says little about what the chains are, and a type should not be pressed to give details the text does not supply."
+      }
     ],
-    "christ": "Verse 5 makes the arresting claim that it was Jesus who delivered His people out of Egypt and then destroyed the unbelievers, presenting the Son as active Lord over Israel's salvation and judgment. The Lord who redeemed and judged then is the same Lord who saves and will judge now. His present patience is not indifference; the One who rained fire on Sodom will execute judgment on that great day, even as He keeps His own secure for it.",
-    "god": "God is shown to be perfectly consistent and just. He judges unbelief among His own rescued people, He holds even fallen angels in chains, and He makes Sodom a public example of the fate of the ungodly. His justice is neither arbitrary nor forgetful. Yet these fearful warnings are set down in mercy, to keep His people from the path that leads to ruin and to assure them that evil will not have the last word.",
+    "christ": "Verse 5 is one of the boldest statements about Christ in the New Testament. In the BSB it says that Jesus delivered His people out of Egypt and then destroyed those who did not believe. Even where manuscripts read 'the Lord' in that verse, the whole letter speaks of Jesus as the Master and Lord, so the point of the verse does not stand or fall on one reading. If 'Jesus' is original, Jude treats the exodus as the work of the Son, which matches Paul's statement in 1 Corinthians 10:4 that the spiritual rock which accompanied Israel 'was Christ,' and his warning in verse 9 that some 'tested Christ.' The Son was present in Israel's history, saving and judging.\n\nThat gives the passage an unusual shape. The Saviour of Egypt is also the One who struck the unbelieving. He is not two characters, a kind redeemer and a stern judge. The same Lord does both. The judgment of verse 5 is not a different act from the deliverance but its other face: those who refuse the One who rescued them cut themselves off from Him.\n\nVerse 9 also bears on Christ. Michael's words, 'The Lord rebuke you,' hand the matter over to the Lord, and in the New Testament the Lord to whom judgment is entrusted is Jesus Christ, John 5:22 and Acts 17:31. The archangel's restraint shows how great that office is: even a prince of angels will not take it up. Jesus Himself, though, was tempted by the same enemy and rebuked him with Scripture, Matthew 4:10, and the devil's final defeat is described in Revelation 20:10.\n\nA caution is in order. Jude does not say what Christ was doing with the angels or how He relates to Sodom, and a reader should not invent a full account of the pre-incarnate Son from these verses. What the passage provides is a clear claim, that Jesus is Lord over Israel's history and over judgment, and from that claim comes the seriousness of denying Him. The Master who is denied by the false teachers is the same One who wields the final verdict, and the safety of the church lies in belonging to Him.",
+    "god": "The first thing these verses teach about God is that His judgments are consistent. There is a pattern across the nation, the angels and the cities. God is not impressed by status, by past favors or by the ability to endure for a time. Israel had seen miracles and the angels had seen His glory, yet both were judged. This presses against an easy assumption that being near God is the same as being safe.\n\nThe passage also shows His patience. The exodus generation heard the report of the spies, had the evidence of signs, and for forty years received food and guidance before the sentence was complete, Numbers 14:33 to 34. Sodom was given the intercession of Abraham, Genesis 18:22 to 33. Judgment was never the first word. Jude's readers can see that it falls only after a refusal that has hardened.\n\nGod's justice is measured and tied to what each did. The angels left their place and are held in a place. Sodom pursued flesh outside its order and received fire. Unbelievers who refused a land received a wilderness grave. In each case the punishment matches the wrong, and in each case it is God who acts, not a human avenger.\n\nVerse 9 adds something about God's honor. Even the greatest of His servants will not speak of the devil in terms that belong to God alone, and the whole matter is left with the Lord. This is how God's own authority is guarded: the rebuke is His to give.\n\nFinally, the passage teaches that God's word on judgment is something He has given to be remembered. Jude says 'I want to remind you,' meaning God has told His people these things in order to keep them. Warning is a kindness. The God who showed His wrath in history has made it known so that His people may flee to the refuge He has provided in Christ, and for worship the right response is both awe and trust: awe because He judges, and trust because He has kept, verse 1, those who are His.",
     "crossReferences": [
-      { "ref": "Numbers 14:26-38", "note": "The Exodus generation perishes in the wilderness for unbelief, the first example Jude cites." },
-      { "ref": "2 Peter 2:4-10", "note": "The same triad of angels, the flood era, and Sodom used to prove God judges the ungodly and rescues the godly." },
-      { "ref": "Genesis 19:23-29", "note": "The destruction of Sodom and Gomorrah, cited throughout Scripture as a pattern of judgment." },
-      { "ref": "1 Corinthians 10:1-12", "note": "Israel's wilderness judgments written as warnings for us, so let anyone who thinks he stands take heed." }
+      {
+        "ref": "Numbers 14:26-35",
+        "note": "The LORD decrees that the generation which grumbled will die in the wilderness and not enter the land, though their children will. This is the account behind Jude's first example, and it shows that unbelief after deliverance had a specific, serious outcome."
+      },
+      {
+        "ref": "Hebrews 3:16-19",
+        "note": "The writer asks who it was that heard and rebelled, and answers that they were those who left Egypt under Moses, and that they could not enter because of unbelief. This draws the same lesson as Jude 5, aimed at Christians tempted to drift."
+      },
+      {
+        "ref": "1 Corinthians 10:1-12",
+        "note": "Paul lists the privileges of Israel in the wilderness, the cloud, the sea and the spiritual rock, then shows that most were struck down, as examples for us. It confirms Jude's use of the exodus as a warning for the church, and says the rock was Christ."
+      },
+      {
+        "ref": "Genesis 6:1-4",
+        "note": "The sons of God take wives from the daughters of men. This is the passage most often connected with Jude 6, although Genesis does not say that these beings were bound, and the link depends on later Jewish tradition and on Peter's parallel."
+      },
+      {
+        "ref": "2 Peter 2:4-10",
+        "note": "Peter lists angels who sinned, the flood and Sodom, and says the Lord knows how to rescue the godly and hold the unrighteous for judgment. It is the closest parallel to Jude and shows two apostles drawing on the same set of warnings."
+      },
+      {
+        "ref": "Genesis 19:24-29",
+        "note": "The LORD rains sulfur and fire on Sodom and Gomorrah, and Abraham looks down at the smoke rising from the land. This is the event Jude calls an example, and it shows that the smoke was still a sign long after the destruction."
+      },
+      {
+        "ref": "Zechariah 3:1-5",
+        "note": "The angel of the LORD defends Joshua the high priest, and the LORD rebukes Satan, who stands to accuse. The words Jude gives to Michael are those of this scene, which shows that judgment is left to the Lord."
+      },
+      {
+        "ref": "Deuteronomy 34:5-6",
+        "note": "Moses dies in Moab, and the LORD buries him in a valley, and no one knows the place of his grave. This is the biblical ground for the tradition about the body of Moses, though Scripture does not mention any dispute."
+      },
+      {
+        "ref": "Joel 2:28",
+        "note": "God promises to pour out His Spirit so that old men will dream dreams and young men see visions. Against this true gift of revelation, Jude's 'dreamers' are people who claim the authority of dreams, and who in fact have only their own desires."
+      }
     ],
-    "oneStory": "Scripture's long record of judgment, the wilderness, the fallen angels, the burning cities, all bears one witness: God judges the ungodly and will not be mocked. Jude marshals these witnesses to warn the church against the intruders' path and to assure believers that the same Lord who judged then, and who keeps rebels in chains, is keeping His own people safe for the great day when He makes all things right in Christ.",
-    "sermon": { "status": "verified", "preacher": "Alistair Begg", "title": "Don't Forget This!", "url": "https://www.truthforlife.org/resources/sermon/dont-forget/", "why": "From Begg's series A Study in Jude, this message expounds Jude 1:5-7, the three historical examples of God's judgment on the unbelieving, the fallen angels, and Sodom, showing how they warn the church. A clear, orthodox handling of this movement's core." }
+    "oneStory": "The story of Scripture holds judgment and salvation together from the start. Adam and Eve are driven from the garden, Genesis 3:23 to 24, and the flood closes an age in Genesis 6 to 8, yet each time a remnant is preserved. Jude's three examples are chapters from that long story, and each has a rescued group and a lost group beside it. Israel left Egypt in a great deliverance and many fell. Lot was taken out while Sodom burned. Even among the angels, some kept their positions and some did not.\n\nThis shapes what is being asked of the reader. The Bible never promises that belonging to a community is the same as belonging to God, and it keeps showing that faith is the dividing line, Hebrews 3:19. The apostles know the same pattern: the church too is a mixed company, and Jesus said there would be weeds among the wheat, Matthew 13:24 to 30.\n\nThe passage also looks ahead. The 'great day' of verse 6 is the day of the Lord, the end of the story as the prophets and the apostles describe it. The angels are kept until then, and Sodom's fire is an example now of what will be shown to all. Jesus used the same pictures when He spoke about the end, Luke 17:26 to 30, and Revelation brings them to their conclusion in the judgment of the dragon, the beast and all who follow them, Revelation 20:10 to 15.\n\nIn the new creation judgment is finished. The old order has passed, and there is no more darkness or chain or fire for God's people. What Jude's warnings protect is the entry into that world: they are told so that those who hear may stay on the right side of the line. The God who judged Egypt's oppressors and the faithless in the wilderness is the One who wipes away every tear, Revelation 21:4.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "Alistair Begg",
+      "title": "Don't Forget This!",
+      "url": "https://www.truthforlife.org/resources/sermon/dont-forget/",
+      "why": "From Begg's series A Study in Jude, this message expounds Jude 1:5-7, the three historical examples of God's judgment on the unbelieving, the fallen angels, and Sodom, showing how they warn the church. A clear, orthodox handling of this movement's core."
+    }
   },
   "quiz": [
     {
       "q": "Why does Jude list Israel, the fallen angels, and Sodom?",
       "options": [
-        { "text": "To prove from history that God certainly judges the ungodly, so the intruders will not escape.", "weight": 100, "note": "Jude 1:5-7 builds a cumulative case that God always judges rebellion." },
-        { "text": "To show that God only judged people in the distant past.", "weight": 0, "note": "The examples point forward to the certain judgment of the false teachers too." },
-        { "text": "To give an interesting history lesson unrelated to his warning.", "weight": 25, "note": "The history is directly aimed at warning about present false teachers." },
-        { "text": "To remind readers of stories they had mostly forgotten.", "weight": 75, "note": "He says they already know these things; the aim is to apply them, not merely recall them." }
+        {
+          "text": "To prove from history that God certainly judges the ungodly, so the intruders will not escape.",
+          "weight": 100,
+          "note": "Jude 1:5-7 builds a cumulative case that God always judges rebellion."
+        },
+        {
+          "text": "To show that God only judged people in the distant past.",
+          "weight": 0,
+          "note": "The examples point forward to the certain judgment of the false teachers too."
+        },
+        {
+          "text": "To give an interesting history lesson unrelated to his warning.",
+          "weight": 25,
+          "note": "The history is directly aimed at warning about present false teachers."
+        },
+        {
+          "text": "To remind readers of stories they had mostly forgotten.",
+          "weight": 75,
+          "note": "He says they already know these things; the aim is to apply them, not merely recall them."
+        }
       ]
     },
     {
       "q": "What is striking about who delivered Israel from Egypt, according to verse 5?",
       "options": [
-        { "text": "It was Jesus who delivered them and then destroyed the unbelievers.", "weight": 100, "note": "The BSB text names Jesus, presenting the Son as active Lord in Israel's history." },
-        { "text": "It was an unnamed angel acting alone.", "weight": 25, "note": "The text points to the Lord Himself, not merely an angel." },
-        { "text": "It was Moses by his own power.", "weight": 0, "note": "Moses led, but the deliverance and judgment are attributed to the Lord." },
-        { "text": "It was the Father, with no role for the Son.", "weight": 75, "note": "The verse specifically highlights the Son's involvement in the deliverance." }
+        {
+          "text": "It was Jesus who delivered them and then destroyed the unbelievers.",
+          "weight": 100,
+          "note": "The BSB text names Jesus, presenting the Son as active Lord in Israel's history."
+        },
+        {
+          "text": "It was an unnamed angel acting alone.",
+          "weight": 25,
+          "note": "The text points to the Lord Himself, not merely an angel."
+        },
+        {
+          "text": "It was Moses by his own power.",
+          "weight": 0,
+          "note": "Moses led, but the deliverance and judgment are attributed to the Lord."
+        },
+        {
+          "text": "It was the Father, with no role for the Son.",
+          "weight": 75,
+          "note": "The verse specifically highlights the Son's involvement in the deliverance."
+        }
       ]
     },
     {
       "q": "What lesson does Michael's dispute with the devil teach in verse 9?",
       "options": [
-        { "text": "Even the mightiest angel left judgment to the Lord rather than hurling slander.", "weight": 100, "note": "Jude 1:9 sets Michael's restraint against the dreamers' reckless slander." },
-        { "text": "That believers should try to argue with the devil directly.", "weight": 25, "note": "The point is restraint and deferring to the Lord, not seeking such disputes." },
-        { "text": "That Michael was weaker than the devil.", "weight": 0, "note": "It shows humility and reverence, not weakness; he said, The Lord rebuke you." },
-        { "text": "That angels never confront evil at all.", "weight": 75, "note": "Michael did contend, but without slander, leaving the rebuke to God." }
+        {
+          "text": "Even the mightiest angel left judgment to the Lord rather than hurling slander.",
+          "weight": 100,
+          "note": "Jude 1:9 sets Michael's restraint against the dreamers' reckless slander."
+        },
+        {
+          "text": "That believers should try to argue with the devil directly.",
+          "weight": 25,
+          "note": "The point is restraint and deferring to the Lord, not seeking such disputes."
+        },
+        {
+          "text": "That Michael was weaker than the devil.",
+          "weight": 0,
+          "note": "It shows humility and reverence, not weakness; he said, The Lord rebuke you."
+        },
+        {
+          "text": "That angels never confront evil at all.",
+          "weight": 75,
+          "note": "Michael did contend, but without slander, leaving the rebuke to God."
+        }
       ]
     },
     {
       "q": "How should we understand Jude's use of the account about Moses' body?",
       "options": [
-        { "text": "He draws a true moral point from a known Jewish tradition without treating that book as Scripture.", "weight": 100, "note": "Jude affirms the lesson of restraint without canonizing the Assumption of Moses." },
-        { "text": "He proves that the Assumption of Moses is inspired Scripture.", "weight": 0, "note": "Using a source is not endorsing it as Scripture; Paul likewise quoted pagan poets." },
-        { "text": "He is simply mistaken and included a legend by accident.", "weight": 25, "note": "Jude uses the reference deliberately and under inspiration to teach a real lesson." },
-        { "text": "He refers to a story his readers knew to make his point vivid.", "weight": 75, "note": "True as far as it goes, but the fuller point is that he affirms the moral truth it carries." }
+        {
+          "text": "He draws a true moral point from a known Jewish tradition without treating that book as Scripture.",
+          "weight": 100,
+          "note": "Jude affirms the lesson of restraint without canonizing the Assumption of Moses."
+        },
+        {
+          "text": "He proves that the Assumption of Moses is inspired Scripture.",
+          "weight": 0,
+          "note": "Using a source is not endorsing it as Scripture; Paul likewise quoted pagan poets."
+        },
+        {
+          "text": "He is simply mistaken and included a legend by accident.",
+          "weight": 25,
+          "note": "Jude uses the reference deliberately and under inspiration to teach a real lesson."
+        },
+        {
+          "text": "He refers to a story his readers knew to make his point vivid.",
+          "weight": 75,
+          "note": "True as far as it goes, but the fuller point is that he affirms the moral truth it carries."
+        }
       ]
     },
     {
       "q": "How does the word kept, used of the angels, connect to the rest of Jude?",
       "options": [
-        { "text": "The same God who keeps believers safe also keeps rebels in chains for judgment.", "weight": 100, "note": "Tereo runs through Jude, cutting both ways: security for the saints, reservation for the guilty." },
-        { "text": "It shows God has lost track of the fallen angels.", "weight": 0, "note": "The opposite: they are securely held for the day of judgment." },
-        { "text": "It means the angels are being protected for their own good.", "weight": 25, "note": "They are kept for judgment, not preserved for blessing." },
-        { "text": "It is an unrelated use of a common word.", "weight": 75, "note": "It is a deliberate keyword linking the fate of the wicked to the safety of the saved." }
+        {
+          "text": "The same God who keeps believers safe also keeps rebels in chains for judgment.",
+          "weight": 100,
+          "note": "Tereo runs through Jude, cutting both ways: security for the saints, reservation for the guilty."
+        },
+        {
+          "text": "It shows God has lost track of the fallen angels.",
+          "weight": 0,
+          "note": "The opposite: they are securely held for the day of judgment."
+        },
+        {
+          "text": "It means the angels are being protected for their own good.",
+          "weight": 25,
+          "note": "They are kept for judgment, not preserved for blessing."
+        },
+        {
+          "text": "It is an unrelated use of a common word.",
+          "weight": 75,
+          "note": "It is a deliberate keyword linking the fate of the wicked to the safety of the saved."
+        }
       ]
     }
   ],
@@ -153,10 +376,25 @@
     "The same Lord who judged Sodom keeps His own people safe for the great day. How does holding both truths together, His justice and His keeping, shape the way you live?"
   ],
   "translationNotes": [
-    { "ref": "Jude 1:5", "note": "The BSB reads Jesus, with a footnote that some manuscripts read the Lord. Either reading points to the Lord's own action in delivering and judging Israel." },
-    { "ref": "Jude 1:6", "note": "Eternal chains under darkness pictures secure imprisonment awaiting judgment." },
-    { "ref": "Jude 1:7", "note": "Strange flesh renders sarx hetera, describing the unnatural desire of Sodom; the cities stand as a public example of eternal fire." },
-    { "ref": "Jude 1:9", "note": "This alludes to a Jewish account, attributed by Origen to the Assumption or Testament of Moses, describing a dispute over Moses' body; Jude cites it for its moral lesson, not as Scripture." }
+    {
+      "ref": "Jude 1:5",
+      "note": "The BSB reads Jesus, with a footnote that some manuscripts read the Lord. Either reading points to the Lord's own action in delivering and judging Israel."
+    },
+    {
+      "ref": "Jude 1:6",
+      "note": "Eternal chains under darkness pictures secure imprisonment awaiting judgment."
+    },
+    {
+      "ref": "Jude 1:7",
+      "note": "Strange flesh renders sarx hetera, describing the unnatural desire of Sodom; the cities stand as a public example of eternal fire."
+    },
+    {
+      "ref": "Jude 1:9",
+      "note": "This alludes to a Jewish account, attributed by Origen to the Assumption or Testament of Moses, describing a dispute over Moses' body; Jude cites it for its moral lesson, not as Scripture."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Jude 1:5-10. Verse 5 follows the BSB reading Jesus, noting the variant the Lord in the footnote." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Jude 1:5-10. Verse 5 follows the BSB reading Jesus, noting the variant the Lord in the footnote."
+  }
 }

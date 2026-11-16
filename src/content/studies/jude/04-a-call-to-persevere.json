@@ -18,9 +18,21 @@
         "note": "the apostles foretold scoffers",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 17, "text": "But you, beloved, remember what was foretold by the apostles of our Lord Jesus Christ" },
-          { "chapter": 1, "n": 18, "text": "when they said to you, “In the last times there will be {{empaiktes|scoffers}} who will follow after their own ungodly desires.”" },
-          { "chapter": 1, "n": 19, "text": "These are the ones who cause divisions, who are worldly and {{psychikos|devoid of the Spirit}}." }
+          {
+            "chapter": 1,
+            "n": 17,
+            "text": "But you, beloved, remember what was foretold by the apostles of our Lord Jesus Christ"
+          },
+          {
+            "chapter": 1,
+            "n": 18,
+            "text": "when they said to you, “In the last times there will be {{empaiktes|scoffers}} who will follow after their own ungodly desires.”"
+          },
+          {
+            "chapter": 1,
+            "n": 19,
+            "text": "These are the ones who cause divisions, who are worldly and {{psychikos|devoid of the Spirit}}."
+          }
         ]
       },
       {
@@ -28,8 +40,16 @@
         "note": "faith, prayer, hope",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 20, "text": "But you, beloved, by {{epoikodomeo|building yourselves up}} in your most holy faith and praying in the Holy Spirit," },
-          { "chapter": 1, "n": 21, "text": "{{tereo|keep}} yourselves in the love of God as you await the mercy of our Lord Jesus Christ to bring you eternal life." }
+          {
+            "chapter": 1,
+            "n": 20,
+            "text": "But you, beloved, by {{epoikodomeo|building yourselves up}} in your most holy faith and praying in the Holy Spirit,"
+          },
+          {
+            "chapter": 1,
+            "n": 21,
+            "text": "{{tereo|keep}} yourselves in the love of God as you await the mercy of our Lord Jesus Christ to bring you eternal life."
+          }
         ]
       },
       {
@@ -37,19 +57,57 @@
         "note": "snatch others from the fire",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 22, "text": "And indeed, have {{eleos|mercy}} on those who doubt;" },
-          { "chapter": 1, "n": 23, "text": "save others by {{harpazo|snatching them from the fire}}; and to still others show mercy tempered with fear, hating even the clothing stained by the flesh." }
+          {
+            "chapter": 1,
+            "n": 22,
+            "text": "And indeed, have {{eleos|mercy}} on those who doubt;"
+          },
+          {
+            "chapter": 1,
+            "n": 23,
+            "text": "save others by {{harpazo|snatching them from the fire}}; and to still others show mercy tempered with fear, hating even the clothing stained by the flesh."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "empaiktes": { "language": "Greek", "lemma": "empaiktes", "original": "ἐμπαίκτης", "gloss": "A mocker, scoffer, one who ridicules. The apostles foretold that in the last times such scoffers would come, following their own ungodly desires. Their appearance is not a surprise but a fulfillment of what was predicted, so believers should not be shaken by it." },
-    "psychikos": { "language": "Greek", "lemma": "psychikos", "original": "ψυχικός", "gloss": "Natural, worldly, governed by the unspiritual self rather than the Spirit. Despite their claims to special insight, these dividers do not have the Spirit at all. They live on a merely natural level, which is why they cause divisions in the church." },
-    "epoikodomeo": { "language": "Greek", "lemma": "epoikodomeo", "original": "ἐποικοδομέω", "gloss": "To build up upon a foundation. Believers are to keep building themselves up on the foundation of their most holy faith, the apostolic gospel. Perseverance is active and constructive, not passive; it grows on what has been once for all delivered." },
-    "tereo": { "language": "Greek", "lemma": "tereo", "original": "τηρέω", "gloss": "To keep, guard, hold securely. In verse 1 God keeps believers; here believers are to keep themselves in the love of God. The two are not in tension: those whom God keeps are the very ones who, by His grace, keep themselves near His love." },
-    "eleos": { "language": "Greek", "lemma": "eleos", "original": "ἔλεος", "gloss": "Mercy, compassion toward the needy. Having received mercy and awaiting Christ's mercy, believers extend mercy to others, to the doubting and the endangered. Mercy received overflows into mercy shown, even amid a fight for the truth." },
-    "harpazo": { "language": "Greek", "lemma": "harpazo", "original": "ἁρπάζω", "gloss": "To snatch, seize, or carry off quickly and forcefully. Some must be saved by snatching them from the fire, rescued with urgency from real danger. Love for the endangered is not passive well wishing but a decisive reaching in to pull them to safety." }
+    "empaiktes": {
+      "language": "Greek",
+      "lemma": "empaiktes",
+      "original": "ἐμπαίκτης",
+      "gloss": "A mocker, scoffer, one who ridicules. The apostles foretold that in the last times such scoffers would come, following their own ungodly desires. Their appearance is not a surprise but a fulfillment of what was predicted, so believers should not be shaken by it."
+    },
+    "psychikos": {
+      "language": "Greek",
+      "lemma": "psychikos",
+      "original": "ψυχικός",
+      "gloss": "Natural, worldly, governed by the unspiritual self rather than the Spirit. Despite their claims to special insight, these dividers do not have the Spirit at all. They live on a merely natural level, which is why they cause divisions in the church."
+    },
+    "epoikodomeo": {
+      "language": "Greek",
+      "lemma": "epoikodomeo",
+      "original": "ἐποικοδομέω",
+      "gloss": "To build up upon a foundation. Believers are to keep building themselves up on the foundation of their most holy faith, the apostolic gospel. Perseverance is active and constructive, not passive; it grows on what has been once for all delivered."
+    },
+    "tereo": {
+      "language": "Greek",
+      "lemma": "tereo",
+      "original": "τηρέω",
+      "gloss": "To keep, guard, hold securely. In verse 1 God keeps believers; here believers are to keep themselves in the love of God. The two are not in tension: those whom God keeps are the very ones who, by His grace, keep themselves near His love."
+    },
+    "eleos": {
+      "language": "Greek",
+      "lemma": "eleos",
+      "original": "ἔλεος",
+      "gloss": "Mercy, compassion toward the needy. Having received mercy and awaiting Christ's mercy, believers extend mercy to others, to the doubting and the endangered. Mercy received overflows into mercy shown, even amid a fight for the truth."
+    },
+    "harpazo": {
+      "language": "Greek",
+      "lemma": "harpazo",
+      "original": "ἁρπάζω",
+      "gloss": "To snatch, seize, or carry off quickly and forcefully. Some must be saved by snatching them from the fire, rescued with urgency from real danger. Love for the endangered is not passive well wishing but a decisive reaching in to pull them to safety."
+    }
   },
   "study": {
     "basic": {
@@ -63,92 +121,262 @@
       "oneStory": "God has always kept a people for Himself through every season of danger. Jude shows how: rooted in the once for all faith, praying in the Spirit, abiding in the Father's love, and awaiting the Son's mercy, God's people persevere, and reach out to snatch others from the fire, until Christ brings them home to eternal life."
     },
     "context": {
-      "literary": "The hinge from denunciation to exhortation, marked by the affectionate but you, beloved, repeated in verses 17 and 20, deliberately contrasting the readers with these men of the previous section. Verses 20 to 21 form a compact structure with keep yourselves at the center, surrounded by building, praying, and awaiting. Verses 22 to 23 give three objects of mercy.",
-      "historical": "The apostolic warning about scoffers, verse 18, closely matches 2 Peter 3:3, reflecting a shared apostolic message the churches had received. The reference to clothing stained by the flesh, verse 23, may draw on Zechariah 3, where filthy garments picture defilement, urging both compassion and caution toward those entangled in sin.",
-      "canonical": "This movement gathers the New Testament's teaching on perseverance, growth in the faith, prayer in the Spirit, and abiding in God's love, and joins it to the church's mission to rescue the perishing, all under the hope of Christ's return."
+      "literary": "The letter turns at verse 17 on two small words, 'But you,' and the same words open verse 20. Together they carve the closing section into a pair of contrasts with the men of verses 4 to 16: they are the ones, 'these are the ones' in verse 19, and you are the beloved. The whole of Jude's argument has been about them; now it is about you.\n\nThe section has a clear plan. Verses 17 to 19 are a remembering, and they give the apostles' prediction and its fulfillment. Verses 20 and 21 are the heart, and they contain a single main command, 'keep yourselves in the love of God,' carried by three participles: building yourselves up, praying in the Holy Spirit and awaiting the mercy of our Lord. The command is the verb; the three are the means. Verses 22 and 23 then turn outward, with the mercy shown in three ways and three kinds of people.\n\nThe form is again a triad, and the Trinity stands behind the central one: the Holy Spirit in prayer, the love of God, and the mercy of our Lord Jesus Christ. The earlier part of the letter spoke mostly of judgment; this part begins to speak of mercy, and the word mercy is found in verses 21, 22 and 23, so the letter that opened with 'mercy' in verse 2 closes the main body with it.",
+      "historical": "The apostles' prediction of verse 18 has parallels in the New Testament, but Jude's quotation does not match any single verse exactly. The closest is 2 Peter 3:3, which the BSB footnote cites, but similar warnings appear in Acts 20:29 to 30, 1 Timothy 4:1 to 3, 2 Timothy 3:1 to 5 and 1 John 2:18. Jude's expression 'the apostles of our Lord Jesus Christ' places himself outside the group: he speaks as one who received the apostolic teaching, not as one of the Twelve.\n\nThe phrase 'last times' belongs to a way of speaking that the New Testament uses for the whole period between the first and second coming of Christ. John can say 'it is the last hour' in his own day, 1 John 2:18, and Peter says Christ was revealed 'in these last times,' 1 Peter 1:20. For Jude's first readers this meant that scoffers were not a surprise but evidence that the age was moving as the apostles said.\n\nThe pastoral setting seems to include factions. The men 'cause divisions,' and in the early churches such groups could form around claims to special knowledge or the Spirit. Paul had to correct the Corinthians for treating spiritual gifts as marks of status, 1 Corinthians 12 to 14, and John writes of those who left the community, 1 John 2:19. The command to pray in the Spirit would have been heard against that background, as a correction to a claim of Spirit possession that the men made but did not live.\n\nThe call to mercy in verses 22 and 23 assumes a church in which some are wavering, some are being drawn in and some are in grave danger. Such a mixed situation suits a congregation where the false teaching had begun to take hold but had not captured all.",
+      "canonical": "Jude's closing commands gather many threads of the New Testament. 'Building yourselves up' is the language of Acts 20:32 and Ephesians 2:20 to 22, and of Paul's picture of the church growing as a building. 'Praying in the Holy Spirit' joins Ephesians 6:18 and Romans 8:26 to 27, where the Spirit helps believers who do not know how to pray. 'Keep yourselves in the love of God' echoes Jesus' words, 'Remain in My love,' John 15:9.\n\nThe hope of 'eternal life' at 'the mercy of our Lord' links to 1 Peter 1:3 to 5, which describes an inheritance kept in heaven, and to Titus 2:13 on awaiting the blessed hope. Paul prays for Onesiphorus to find mercy 'on that day,' 2 Timothy 1:18, which uses mercy in the same forward looking sense.\n\nThe ministry of rescue draws on the Old Testament pictures of a brand plucked from the fire, Zechariah 3:2 and Amos 4:11, and on the New Testament's command to restore those who stray, Galatians 6:1 and James 5:19 to 20. Rescuing people on the brink of death is also the thought of Proverbs 24:11. Hating the stained clothing has a background in Zechariah 3:3 to 5, where filthy garments are removed, and in Revelation 3:4, where a few in Sardis 'have not soiled their garments.'"
     },
     "hermeneutics": {
-      "authorIntent": "To equip the beloved to persevere amid false teaching by remembering the apostles' warning and by actively keeping themselves in God's love, and to direct their compassion outward in discerning rescue of others.",
-      "descriptionVsPrescription": "Verses 17 to 19 describe the foretold scoffers; verses 20 to 23 are strongly prescriptive, a series of commands for how believers are to live and love. These commands hold for the church in every age facing the same dangers.",
+      "authorIntent": "Jude wanted his readers to know that the defense of the faith has a positive shape. Contending is not mainly an argument that is won; it is a life that is lived. The first demand is to remember what the apostles taught, so that the experience of scoffers does not shake them. The second is to build up the faith, to pray in the Spirit and to stay in God's love. The third is to go after others.\n\nHe meant the three to be held together. A church that only remembers becomes defensive. A church that only builds itself becomes inward. A church that only rescues becomes weak without foundations. Jude joins them in a single sequence, so that the fight for the faith is also a work of love.\n\nHe also wanted the readers to see the diversity of need. 'Some' doubt, some are in the fire, and some are in a danger so great that mercy must be mixed with fear. Different people call for different handling, and Jude trusts the church to discern.",
+      "descriptionVsPrescription": "Verses 17 to 19 describe what the apostles said and what is now happening. The rest of the passage is prescription, in the imperative mood, and it applies to every believer in every age. There is nothing here that can be limited to the first century.\n\nThe passage needs careful use at two points. First, the command to keep yourselves in God's love is not a call to earn that love. The love is God's, verse 1, and the keeping is staying in the place where it is received. Second, the call to snatch others from the fire does not give license to intrude without care. Jude joins it to mercy and to fear, so rescue is done with humility and awareness of one's own weakness, Galatians 6:1. It also does not tell us who the 'others' are in a way that could be pressed into a rule. It assumes a pastor's judgment.",
       "debates": [
         {
           "question": "How do we reconcile God keeping us, verse 1, with the command to keep ourselves, verse 21?",
           "views": [
-            { "label": "Two sides of one grace", "case": "God's keeping is primary and secure, verses 1 and 24, and it works itself out through our active keeping, verse 21. Those whom God preserves are enabled and commanded to persevere; the command is the means by which the promise is fulfilled, as in Philippians 2:12-13." },
-            { "label": "A genuine human responsibility", "case": "Others stress that the command is real and must not be softened: believers truly must keep themselves in God's love, using the means Jude names, or drift into danger." }
+            {
+              "label": "Two sides of one grace",
+              "case": "God's keeping is primary and secure, verses 1 and 24, and it works itself out through our own keeping, verse 21. Those whom God preserves are enabled and commanded to persevere, so the command is the means by which the promise is fulfilled, as in Philippians 2:12 to 13."
+            },
+            {
+              "label": "Real human responsibility",
+              "case": "Others stress that the command is genuine and must not be softened: believers truly must stay in God's love, and warnings like Hebrews 3:12 to 14 are meant to be taken as warnings."
+            },
+            {
+              "label": "Keeping as staying in the place of blessing",
+              "case": "A third approach notes that Jude says 'keep yourselves in the love of God,' not 'keep God's love for yourselves.' Our keeping is staying within the love that holds us, as Jesus says to remain in His love in John 15:9 to 10."
+            }
           ],
-          "bearing": "The best reading holds both without contradiction: assurance rests on God's keeping, while that assurance fuels rather than cancels our diligent keeping. Grace does not make us passive; it makes us persevere."
+          "bearing": "All three agree that the command is real and that its basis is God's own preserving. Jude would not want us to rest on the promise without moving, or to move as if the promise were not there."
         },
         {
-          "question": "What are the three groups in verses 22 to 23, and how are they treated?",
+          "question": "How many groups does Jude describe in verses 22 and 23, and what are they?",
           "views": [
-            { "label": "Three distinct groups needing tailored mercy", "case": "The doubting are to be shown gentle mercy, the endangered are to be urgently snatched from the fire, and the dangerously entangled are to be helped with mercy mixed with fear, hating the sin that stains them. Discernment shapes how love acts." },
-            { "label": "A general call to varied compassion", "case": "Some read the distinctions more loosely as one call to wise, differentiated mercy toward those affected by false teaching, without pressing sharp boundaries between the groups." }
+            {
+              "label": "Three groups",
+              "case": "The BSB follows a Greek text with three clauses: those who doubt, those to be snatched from the fire, and those to be shown mercy with fear. The three types suggest a range from the wavering to the deeply entangled."
+            },
+            {
+              "label": "Two groups",
+              "case": "Some manuscripts have a shorter text with two clauses, and some translations follow it, with a first group to be convinced or shown mercy and a second to be saved by fear. The manuscripts do divide on this point."
+            },
+            {
+              "label": "The doubters as disputers",
+              "case": "The word translated 'doubt' can also mean to dispute or contend, so the first group may be people who argue against the church, not just people with uncertainty. Mercy would then be directed to the argumentative."
+            }
           ],
-          "bearing": "Either way the passage teaches that love must be both bold and careful: eager to rescue, yet watchful not to be defiled, matching its approach to each person's need and danger."
+          "bearing": "The three group reading has the best textual support and gives a coherent progression. On either reading the main point stands: believers are to treat people differently according to their need, always with mercy."
+        },
+        {
+          "question": "What does it mean to pray 'in the Holy Spirit'?",
+          "views": [
+            {
+              "label": "Prayer led and enabled by the Spirit",
+              "case": "Ephesians 6:18 and Romans 8:26 to 27 speak of the Spirit helping believers pray. Praying 'in' the Spirit means praying in His power and under His guidance, as every believer does."
+            },
+            {
+              "label": "Praying in tongues",
+              "case": "Some, especially in Pentecostal and charismatic traditions, connect the phrase with praying in tongues, citing 1 Corinthians 14:14 to 15. They understand it as one form of Spirit led prayer."
+            },
+            {
+              "label": "Prayer shaped by the truth the Spirit gives",
+              "case": "Others point out that Jude has just said the intruders lack the Spirit, verse 19, so praying in the Spirit marks those who pray according to the apostolic word."
+            }
+          ],
+          "bearing": "The text does not narrow the phrase beyond what Scripture elsewhere says, and the contrast with the men in verse 19 is the key. The believer prays as one who has the Spirit, and that is the sign of belonging."
         }
       ]
     },
-    "originalLanguages": "The section pivots on tender address and active verbs. The apostles foretold empaiktes, scoffers, so their coming should steady rather than shake the church. The dividers are psychikos, merely natural and Spirit-less, for all their pretended insight. Believers, by contrast, epoikodomeo, build themselves up on the most holy faith, and pray in the Spirit, and then tereo, keep, themselves in the love of God, the very verb God used of keeping them, showing that His preserving grace and our diligence run together. From that security flows eleos, mercy: gentle to doubters, and urgent enough to harpazo, snatch, the endangered out of the fire, yet careful enough to hate even the garment stained by the flesh.",
+    "originalLanguages": "The scoffers of verse 18 are empaiktai, a word that means mockers, those who treat serious things as a joke. Peter uses the same word in 2 Peter 3:3. They 'follow after their own ungodly desires,' kata tas heauton epithymias, a phrase that sets desire as the compass. The phrase 'cause divisions,' apodiorizontes, belongs to the idea of marking off or separating, so the men draw lines within the church to create parties.\n\nVerse 19 calls them psychikoi, 'worldly,' or in older versions 'sensual,' and adds pneuma me echontes, 'not having the Spirit.' Psychikos is the adjective from psyche, soul, and in 1 Corinthians 2:14 it names the 'natural man' who does not accept the things of the Spirit. James uses it for wisdom that is 'earthly, natural, demonic,' James 3:15. In Paul's usage the contrast is between a person who has only the natural life and one who has the Spirit, pneumatikos. Jude applies the contrast pointedly to men who probably claimed to be the spiritual ones.\n\nVerse 20 introduces the three means with participles. 'Building yourselves up,' epoikodomountes, adds the prefix epi to the verb for building, giving the sense of building upon, which suits a faith described as already laid. The idea is found in Acts 20:32 and Ephesians 2:20. 'Most holy faith,' tei hagiotatei hymon pistei, is a superlative, and here the faith is again the body of truth, as in verse 3. 'Praying in the Holy Spirit' is en pneumati hagio proseuchomenoi, set parallel to Ephesians 6:18.\n\nThe main verb of verse 21, terésate, 'keep,' is an aorist imperative, which commands an act with decisive force, a settled choice. It is the same verb as in verses 1 and 6, so the readers who are kept are told to keep, and the angels who failed to keep their domain stand as a warning. The phrase 'await,' prosdechomenoi, means to wait with expectation and is used of the blessed hope in Titus 2:13 and of those awaiting the Lord's return in Luke 12:36.\n\nIn verse 22 the 'mercy' is the verb eleate, used for the compassion shown to those in need. Verse 23 has the verb harpazontes, 'snatching,' which is the word for seizing with force, as in Acts 8:39 for the Spirit snatching Philip away. Zechariah 3:2 pictures the same rescue of a brand taken from the fire. The 'clothing stained,' espilomenon chitona, uses a perfect participle of the verb for staining and the word for the tunic worn next to the skin. The stain remains and clings.",
     "typology": [
-      { "type": "Snatching others from the fire", "fulfillment": "Echoes the rescue of Lot and the brand plucked from the burning, Zechariah 3:2, and pictures the church's urgent share in Christ's rescue of sinners from judgment." },
-      { "type": "Keeping oneself in the love of God", "fulfillment": "Fulfills the covenant call to abide in God's love, realized in Christ's own words, Abide in My love, John 15:9-10." }
+      {
+        "type": "A brand plucked from the fire, Zechariah 3:2",
+        "fulfillment": "Joshua the high priest stood in filthy garments and was rescued by the LORD, who removed his iniquity and clothed him in splendid robes, Zechariah 3:3 to 4. Jude's image of snatching from the fire draws on that scene. The fulfillment is in Christ, who takes away the filthy clothing of sin and gives His own righteousness, 2 Corinthians 5:21. The type falls short because the vision pictures a people's high priest, and Jude's call is to a mission to individuals."
+      },
+      {
+        "type": "Lot taken out of Sodom",
+        "fulfillment": "When Lot hesitated, the angels seized his hand and led him out because of the LORD's compassion, Genesis 19:16. The urgency and the hands that pull him out give a picture of what Jude asks of believers. The escalation is in Christ, who came to seek and save the lost, Luke 19:10, and who sent His people to do the same. The type falls short because Lot was led out by angels for one escape from one city, while the rescue in Christ is from final judgment and gives a new life."
+      },
+      {
+        "type": "The garments of the saved",
+        "fulfillment": "The command to hate even the stained garment recalls the high priest's clothing and the few in Sardis who did not soil theirs, Revelation 3:4. The picture of clothing as character runs from the priestly garments of Exodus 28 to the white robes of the redeemed in Revelation 7:14. The fulfillment is that Christ washes His people so that they stand clean, and the type falls short because priestly garments could be soiled again, while the final garments are made clean in the blood of the Lamb."
+      },
+      {
+        "type": "Building on the foundation",
+        "fulfillment": "The picture of a faith built up recalls the temple built stone upon stone and its fulfillment in the church as a spiritual house, 1 Peter 2:4 to 5. Paul says the foundation is Christ and that each builder must take care how he builds, 1 Corinthians 3:10 to 11. The correspondence is that the people of God are now the dwelling of God, Ephesians 2:21 to 22. It falls short because a temple of stone was local, and the new temple is a people spread across the world."
+      }
     ],
-    "christ": "The movement is oriented toward Christ's return: believers await the mercy of our Lord Jesus Christ that brings eternal life. He is the Savior whose past mercy has redeemed them and whose future mercy is their sure hope. Because they have received His mercy and look for more, they can afford to be merciful to others, even the doubting and the endangered. And the love of God in which they keep themselves is the love supremely shown and secured in Him.",
-    "god": "God is the Father whose love is the believer's dwelling place, keep yourselves in the love of God. He is not a taskmaster driving anxious effort but the one whose love holds His people and calls them to remain within it through faith, prayer, and hope. His purpose is life: through the mercy of Christ He brings His own to eternal life, and He shapes them into a people who extend that same merciful heart to a perishing world.",
+    "christ": "Christ appears in this passage as the object of the church's hope, the source of its mercy and the standard of its rescue. The central phrase is 'the mercy of our Lord Jesus Christ to bring you eternal life.' Mercy is here something to be awaited, so it refers to a gift still to come at His appearing. Paul makes the same connection when he prays that Onesiphorus will find mercy from the Lord 'on that day,' 2 Timothy 1:18. Christ's coming for His people is therefore an act of mercy, not only of judgment, and the Lord who comes with myriads of holy ones in verse 14 is the same Lord whose mercy is awaited in verse 21.\n\nThe passage also shows how Christ's own mercy becomes the pattern for the church. The three ways of showing mercy in verses 22 and 23 are like the stories of Jesus in the Gospels. He went after the lost sheep, Luke 15:4, He touched the unclean and was not made unclean, Mark 1:41, and He spoke to the self righteous with warning, Matthew 23. The church's rescue of others follows His own way of seeking and saving the lost, Luke 19:10.\n\nThe central command to keep ourselves in God's love echoes the teaching of Christ in John 15:9 to 10, where He says, 'Remain in My love.' It also draws on His prayer in John 17:11 to 12 that the Father would protect His own. Jude's readers abide in a love that Christ has shown and that the Father has given. The staining of the garment in verse 23 is answered by the Lamb, whose blood makes robes white, Revelation 7:14.\n\nThere is a point of caution. The 'fire' from which people are snatched is not a picture of the cross, and Jude does not say who the rescuer is beyond the believers. The Christ centered reading arises from the passage's setting: the church acts as His body, doing what He does, with the mercy He has shown and the mercy He will give. It is better to see Christ as the pattern and the source than to treat each image as a symbol of Him. The final word is that He is the one for whom the church waits, and what the church does while waiting is done in His name.",
+    "god": "The passage places God at the center of the believer's perseverance, and it does so in the form of a love. Believers are told to keep themselves in 'the love of God.' The phrase shows that the Christian life takes place inside a relationship, and the relationship is not primarily a task but an atmosphere. The same love that was named in verse 1, when the readers were 'loved by God the Father,' is the place in which they are to remain. The command to keep is therefore a command to stay at home.\n\nThe three persons are named together in verses 20 and 21: the Holy Spirit, in whom believers pray; God, whose love is their dwelling; and our Lord Jesus Christ, whose mercy they await. This is one of the New Testament's neat trinitarian arrangements, and it appears in a call to action. The Trinity is not only a doctrine to be defended but the shape of the life of prayer, love and hope. Each person has a role in the believer's staying power.\n\nGod is also shown as merciful in a way that is concerned with differences. The commands in verses 22 and 23 assume that He deals with people as they are: with the doubting gently, with those in danger urgently, and with those whose sin is entrenched carefully and with fear. He is not an indifferent God who treats all people the same. His mercy is personal, and it asks His people to be personal in the same way.\n\nThere is also in the passage a note of holiness. The hatred of the garment stained by the flesh shows that God's mercy does not make light of sin. The same God who reaches into the fire hates what the fire consumes. His mercy and His holiness do not conflict; they work together, and the church is asked to hold both.\n\nFor worship, the passage turns attention to the God who loves, who gives the Spirit, and who will bring His people to eternal life through the mercy of the Lord. The right response is to wait with joy, to pray in dependence, and to go out to others with the same mercy by which we have been held.",
     "crossReferences": [
-      { "ref": "2 Peter 3:1-3", "note": "The apostolic prediction of scoffers in the last days, following their own evil desires, which Jude recalls." },
-      { "ref": "Acts 20:29-31", "note": "Paul warns the Ephesian elders that fierce wolves will come, urging watchfulness, akin to Jude's remember." },
-      { "ref": "John 15:9-10", "note": "Abide in My love, the pattern behind keeping yourselves in the love of God." },
-      { "ref": "Zechariah 3:1-4", "note": "A brand snatched from the fire and filthy garments removed, imagery echoed in snatching others and hating the stained clothing." }
+      {
+        "ref": "2 Peter 3:3-4",
+        "note": "Peter says that in the last days scoffers will come, following their own desires and asking where the promised coming is. It is the nearest parallel to Jude 18 and shows two apostolic letters drawing on a shared apostolic warning."
+      },
+      {
+        "ref": "1 Corinthians 2:14-15",
+        "note": "Paul says the natural man does not accept the things of the Spirit, while the spiritual person judges all things. This supplies the background to Jude's psychikoi, men who lack the Spirit even while speaking about spiritual things."
+      },
+      {
+        "ref": "Romans 8:26-27",
+        "note": "The Spirit helps believers in their weakness and intercedes for them when they do not know how to pray. It shows what praying in the Holy Spirit means for ordinary believers, who pray in dependence and not in strength."
+      },
+      {
+        "ref": "John 15:9-10",
+        "note": "Jesus tells His disciples to remain in His love, and ties remaining to keeping His commandments. This gives Jude's 'keep yourselves in the love of God' its sense: staying where love is received and obeying from within it."
+      },
+      {
+        "ref": "Titus 2:13",
+        "note": "Believers await the blessed hope and the appearing of the glory of our great God and Savior Jesus Christ. It matches Jude's call to await the Lord's mercy, and shows that the waiting is for a person, not only an event."
+      },
+      {
+        "ref": "Zechariah 3:1-5",
+        "note": "Joshua, a brand snatched from the fire, is cleansed of his filthy garments and clothed with splendid robes. It is the source of Jude's picture of rescue from the fire and of the hatred of stained clothing."
+      },
+      {
+        "ref": "Amos 4:11",
+        "note": "The LORD says some Israelites were like a firebrand snatched from a blaze, yet they did not return to Him. It shows that being rescued from the fire is not the end of the story, and that those who are saved are meant to turn to Him."
+      },
+      {
+        "ref": "Galatians 6:1",
+        "note": "Those who are spiritual are to restore someone caught in a trespass gently, while watching themselves lest they be tempted. This is the pastoral guard on Jude's call to snatch others from the fire: rescue with care for oneself."
+      },
+      {
+        "ref": "James 5:19-20",
+        "note": "Whoever brings back a sinner from wandering saves his soul from death and covers a multitude of sins. James, Jude's brother, makes the same point in other words: the rescue of a wandering believer is a work of great weight."
+      }
     ],
-    "oneStory": "Through every age of danger God has preserved a people, and Jude shows the shape of that perseverance: built on the faith once delivered, praying in the Spirit, abiding in the Father's love, awaiting the Son's mercy. From that safe place the church turns outward to snatch others from the fire. It is the same rescuing love that runs through the whole Bible, flowing from the God who keeps His own all the way to the eternal life Christ's mercy secures.",
-    "sermon": { "status": "verified", "preacher": "Alistair Begg", "title": "Keep Yourselves", "url": "https://www.truthforlife.org/resources/sermon/keep-yourselves/", "why": "From Begg's series A Study in Jude, this message expounds Jude 1:20-21, the heart of the call to persevere: building up in the faith, praying in the Spirit, and keeping oneself in the love of God while awaiting Christ's mercy. A clear, orthodox handling of this movement." }
+    "oneStory": "The story of Scripture is also the story of a people who have been warned and who have stood or fallen according to their response. From the garden to the prophets, God's people have been told that voices will come to turn them aside. Jude's closing section addresses the question that story raises: what should the faithful do in the meantime? The answer is a life with three centers: the faith once delivered, the love of God, and the hope of the Lord's return.\n\nThe call to mercy joins the story of redemption. The God who rescued Lot, who pulled Israel from Egypt and who sent His Son to seek the lost is the God whose people are now to rescue others. The church inherits the mission of Israel to be a light, and takes the form of a rescue party, going into dangerous places with a hand held out. The mixture of mercy and fear reflects what the whole Bible knows about sin: it is serious, and it is also forgivable.\n\nThe 'last times' belong to a larger plan. The apostles said that this period would include scoffers, and the church has seen that come true again and again. The pattern shows the story is moving as foretold, and it gives confidence that the end will also be as foretold. The scoffers asked where the promise of His coming was, 2 Peter 3:4, and Jude's answer is to keep waiting.\n\nIn the new creation the waiting ends. The mercy of our Lord Jesus Christ arrives in the form of eternal life, and the love of God, in which the church has been kept, becomes the open home of the people of God. There will be no more fire from which to snatch anyone, no stain on any garment and no scoffer to answer. The robes of the redeemed will be washed in the blood of the Lamb, Revelation 7:14, and the God who kept them will have brought them through.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "Alistair Begg",
+      "title": "Keep Yourselves",
+      "url": "https://www.truthforlife.org/resources/sermon/keep-yourselves/",
+      "why": "From Begg's series A Study in Jude, this message expounds Jude 1:20-21, the heart of the call to persevere: building up in the faith, praying in the Spirit, and keeping oneself in the love of God while awaiting Christ's mercy. A clear, orthodox handling of this movement."
+    }
   },
   "quiz": [
     {
       "q": "Why does Jude tell believers to remember what the apostles foretold?",
       "options": [
-        { "text": "So the coming of scoffers steadies rather than shakes them, since it was predicted.", "weight": 100, "note": "Jude 1:17-18 grounds the church against surprise: the scoffers fulfill apostolic warning." },
-        { "text": "So they can identify exactly which year the scoffers would arrive.", "weight": 25, "note": "The point is expectancy and steadiness, not calculating dates." },
-        { "text": "Because the apostles were unsure whether trouble would come.", "weight": 0, "note": "The apostles clearly predicted scoffers; there was no uncertainty." },
-        { "text": "So they would feel free to ignore the danger.", "weight": 75, "note": "Remembering leads to vigilance and perseverance, not complacency." }
+        {
+          "text": "So the coming of scoffers steadies rather than shakes them, since it was predicted.",
+          "weight": 100,
+          "note": "Jude 1:17-18 grounds the church against surprise: the scoffers fulfill apostolic warning."
+        },
+        {
+          "text": "So they can identify exactly which year the scoffers would arrive.",
+          "weight": 25,
+          "note": "The point is expectancy and steadiness, not calculating dates."
+        },
+        {
+          "text": "Because the apostles were unsure whether trouble would come.",
+          "weight": 0,
+          "note": "The apostles clearly predicted scoffers; there was no uncertainty."
+        },
+        {
+          "text": "So they would feel free to ignore the danger.",
+          "weight": 75,
+          "note": "Remembering leads to vigilance and perseverance, not complacency."
+        }
       ]
     },
     {
       "q": "How does Jude describe the dividers in verse 19?",
       "options": [
-        { "text": "Worldly and devoid of the Spirit, despite any claims to special insight.", "weight": 100, "note": "Jude 1:19 calls them psychikos, natural, not having the Spirit at all." },
-        { "text": "Spiritually mature but socially awkward.", "weight": 0, "note": "The text denies they have the Spirit; maturity is not the issue." },
-        { "text": "Sincere believers who simply love debate.", "weight": 25, "note": "They are described as Spirit-less dividers, not sincere believers." },
-        { "text": "Gifted teachers with minor flaws.", "weight": 75, "note": "Their flaw is fundamental: they cause divisions and lack the Spirit." }
+        {
+          "text": "Worldly and devoid of the Spirit, despite any claims to special insight.",
+          "weight": 100,
+          "note": "Jude 1:19 calls them psychikos, natural, not having the Spirit at all."
+        },
+        {
+          "text": "Spiritually mature but socially awkward.",
+          "weight": 0,
+          "note": "The text denies they have the Spirit; maturity is not the issue."
+        },
+        {
+          "text": "Sincere believers who simply love debate.",
+          "weight": 25,
+          "note": "They are described as Spirit-less dividers, not sincere believers."
+        },
+        {
+          "text": "Gifted teachers with minor flaws.",
+          "weight": 75,
+          "note": "Their flaw is fundamental: they cause divisions and lack the Spirit."
+        }
       ]
     },
     {
       "q": "What is at the center of Jude's call to persevere in verses 20 to 21?",
       "options": [
-        { "text": "Keep yourselves in the love of God, by building up in faith, praying in the Spirit, and awaiting Christ's mercy.", "weight": 100, "note": "Jude 1:20-21 frames keeping oneself in God's love with faith, prayer, and hope." },
-        { "text": "Withdraw entirely from anyone who struggles.", "weight": 0, "note": "The next verses call for merciful outreach, not withdrawal." },
-        { "text": "Rely on feelings to know you are saved.", "weight": 25, "note": "Jude points to concrete means of grace, not mere feelings." },
-        { "text": "Work hard enough to earn God's love.", "weight": 75, "note": "We keep ourselves in a love already given, not earn it by effort." }
+        {
+          "text": "Keep yourselves in the love of God, by building up in faith, praying in the Spirit, and awaiting Christ's mercy.",
+          "weight": 100,
+          "note": "Jude 1:20-21 frames keeping oneself in God's love with faith, prayer, and hope."
+        },
+        {
+          "text": "Withdraw entirely from anyone who struggles.",
+          "weight": 0,
+          "note": "The next verses call for merciful outreach, not withdrawal."
+        },
+        {
+          "text": "Rely on feelings to know you are saved.",
+          "weight": 25,
+          "note": "Jude points to concrete means of grace, not mere feelings."
+        },
+        {
+          "text": "Work hard enough to earn God's love.",
+          "weight": 75,
+          "note": "We keep ourselves in a love already given, not earn it by effort."
+        }
       ]
     },
     {
       "q": "How do God keeping us and our keeping ourselves fit together?",
       "options": [
-        { "text": "They are two sides of one grace: God preserves us, and that assurance fuels our diligence.", "weight": 100, "note": "Verses 1, 21, and 24 hold God's keeping and our keeping together, as in Philippians 2:12-13." },
-        { "text": "They contradict each other, so one must be false.", "weight": 0, "note": "Scripture holds both without contradiction; grace enables our perseverance." },
-        { "text": "God's keeping makes our effort pointless.", "weight": 25, "note": "His keeping does not cancel the command; it empowers it." },
-        { "text": "Our keeping earns God's keeping in return.", "weight": 75, "note": "Our keeping flows from His grace; it does not purchase it." }
+        {
+          "text": "They are two sides of one grace: God preserves us, and that assurance fuels our diligence.",
+          "weight": 100,
+          "note": "Verses 1, 21, and 24 hold God's keeping and our keeping together, as in Philippians 2:12-13."
+        },
+        {
+          "text": "They contradict each other, so one must be false.",
+          "weight": 0,
+          "note": "Scripture holds both without contradiction; grace enables our perseverance."
+        },
+        {
+          "text": "God's keeping makes our effort pointless.",
+          "weight": 25,
+          "note": "His keeping does not cancel the command; it empowers it."
+        },
+        {
+          "text": "Our keeping earns God's keeping in return.",
+          "weight": 75,
+          "note": "Our keeping flows from His grace; it does not purchase it."
+        }
       ]
     },
     {
       "q": "How does Jude say believers should treat others in verses 22 to 23?",
       "options": [
-        { "text": "With discerning mercy: gentle to doubters, urgent to snatch the endangered, careful with those entangled in sin.", "weight": 100, "note": "Jude 1:22-23 calls for tailored, bold yet watchful compassion." },
-        { "text": "With harsh condemnation for everyone affected.", "weight": 0, "note": "The command is mercy, not blanket condemnation." },
-        { "text": "With total indifference to those in danger.", "weight": 25, "note": "The opposite: snatch them from the fire with urgency." },
-        { "text": "With unlimited mercy that ignores all danger of sin.", "weight": 75, "note": "Mercy is real but discerning, hating even the clothing stained by the flesh." }
+        {
+          "text": "With discerning mercy: gentle to doubters, urgent to snatch the endangered, careful with those entangled in sin.",
+          "weight": 100,
+          "note": "Jude 1:22-23 calls for tailored, bold yet watchful compassion."
+        },
+        {
+          "text": "With harsh condemnation for everyone affected.",
+          "weight": 0,
+          "note": "The command is mercy, not blanket condemnation."
+        },
+        {
+          "text": "With total indifference to those in danger.",
+          "weight": 25,
+          "note": "The opposite: snatch them from the fire with urgency."
+        },
+        {
+          "text": "With unlimited mercy that ignores all danger of sin.",
+          "weight": 75,
+          "note": "Mercy is real but discerning, hating even the clothing stained by the flesh."
+        }
       ]
     }
   ],
@@ -160,9 +388,21 @@
     "We are to show mercy while hating even the sin that clings to people. How can you love those caught in sin without being pulled into it yourself?"
   ],
   "translationNotes": [
-    { "ref": "Jude 1:18", "note": "This apostolic saying closely parallels 2 Peter 3:3, reflecting a warning the churches had already received from the apostles." },
-    { "ref": "Jude 1:19", "note": "Devoid of the Spirit renders psychikos, meaning natural or unspiritual; the same word Paul uses in 1 Corinthians 2:14 for the person without the Spirit." },
-    { "ref": "Jude 1:22-23", "note": "The manuscripts vary in how they divide these groups, but the sense is a threefold, discerning mercy: gentle to the doubting, urgent to snatch the endangered, and careful with those entangled in sin. Hating the clothing stained by the flesh echoes Zechariah 3." }
+    {
+      "ref": "Jude 1:18",
+      "note": "This apostolic saying closely parallels 2 Peter 3:3, reflecting a warning the churches had already received from the apostles."
+    },
+    {
+      "ref": "Jude 1:19",
+      "note": "Devoid of the Spirit renders psychikos, meaning natural or unspiritual; the same word Paul uses in 1 Corinthians 2:14 for the person without the Spirit."
+    },
+    {
+      "ref": "Jude 1:22-23",
+      "note": "The manuscripts vary in how they divide these groups, but the sense is a threefold, discerning mercy: gentle to the doubting, urgent to snatch the endangered, and careful with those entangled in sin. Hating the clothing stained by the flesh echoes Zechariah 3."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Jude 1:17-23." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Jude 1:17-23."
+  }
 }

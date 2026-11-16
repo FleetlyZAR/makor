@@ -18,7 +18,11 @@
         "note": "the One who holds the seven Spirits and seven stars",
         "emphasis": "",
         "verses": [
-          { "chapter": 3, "n": 1, "text": "To the angel of the church in Sardis write: These are the words of the One who holds the {{hepta_pneumata|seven Spirits}} of God and the seven stars. I know your deeds; you have a reputation for being alive, yet you are dead." }
+          {
+            "chapter": 3,
+            "n": 1,
+            "text": "To the angel of the church in Sardis write: These are the words of the One who holds the {{hepta_pneumata|seven Spirits}} of God and the seven stars. I know your deeds; you have a reputation for being alive, yet you are dead."
+          }
         ]
       },
       {
@@ -26,8 +30,16 @@
         "note": "or I will come like a thief",
         "emphasis": "",
         "verses": [
-          { "chapter": 3, "n": 2, "text": "{{gregoreo|Wake up}} and strengthen what remains, which was about to die; for I have found your deeds incomplete in the sight of My God." },
-          { "chapter": 3, "n": 3, "text": "Remember, then, what you have received and heard. Keep it and repent. If you do not wake up, I will come like a thief, and you will not know the hour when I will come upon you." }
+          {
+            "chapter": 3,
+            "n": 2,
+            "text": "{{gregoreo|Wake up}} and strengthen what remains, which was about to die; for I have found your deeds incomplete in the sight of My God."
+          },
+          {
+            "chapter": 3,
+            "n": 3,
+            "text": "Remember, then, what you have received and heard. Keep it and repent. If you do not wake up, I will come like a thief, and you will not know the hour when I will come upon you."
+          }
         ]
       },
       {
@@ -35,18 +47,50 @@
         "note": "dressed in white, never blotted out",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 3, "n": 4, "text": "But you do have a few people in Sardis who have not soiled their garments, and because they are worthy, they will walk with Me in white." },
-          { "chapter": 3, "n": 5, "text": "Like them, he who {{nikon|overcomes}} will be dressed in white. And I will never blot out his name from the {{biblos_zoes|Book of Life}}, but I will confess his name before My Father and His angels." },
-          { "chapter": 3, "n": 6, "text": "He who has an ear, let him hear what the Spirit says to the churches." }
+          {
+            "chapter": 3,
+            "n": 4,
+            "text": "But you do have a few people in Sardis who have not soiled their garments, and because they are worthy, they will walk with Me in white."
+          },
+          {
+            "chapter": 3,
+            "n": 5,
+            "text": "Like them, he who {{nikon|overcomes}} will be dressed in white. And I will never blot out his name from the {{biblos_zoes|Book of Life}}, but I will confess his name before My Father and His angels."
+          },
+          {
+            "chapter": 3,
+            "n": 6,
+            "text": "He who has an ear, let him hear what the Spirit says to the churches."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "hepta_pneumata": { "language": "Greek", "lemma": "hepta pneumata", "original": "ἑπτὰ πνεύματα", "gloss": "The seven Spirits of God, echoing Revelation 1:4 and 4:5. Most read this as a picture of the Holy Spirit in the fullness of His sevenfold perfection, drawing on Isaiah 11:2, rather than seven separate spirit-beings. Christ who holds them also holds the seven stars, the churches' messengers, showing His sovereign care even over a nearly dead congregation." },
-    "gregoreo": { "language": "Greek", "lemma": "gregoreo", "original": "γρηγορέω", "gloss": "To watch, stay awake, be alert. Sardis had twice fallen to surprise night attacks because its guards grew complacent on its supposedly unconquerable citadel, so Christ's command to wake up strikes at the city's own history as much as the church's spiritual condition." },
-    "nikon": { "language": "Greek", "lemma": "ho nikon", "original": "ὁ νικῶν", "gloss": "The one who overcomes or conquers, the recurring title closing every one of the seven letters. It names ordinary, persevering faith, not a special class of elite believers, and here it is joined to the promise of white garments and an unblotted name." },
-    "biblos_zoes": { "language": "Greek", "lemma": "biblos tes zoes", "original": "βίβλος τῆς ζωῆς", "gloss": "The Book of Life, the register of those who belong to God, pictured throughout Revelation. The promise never to blot out a name uses a strong double negative in Greek, assuring the overcomer of unshaken, eternal belonging before the Father and His angels." }
+    "hepta_pneumata": {
+      "language": "Greek",
+      "lemma": "hepta pneumata",
+      "original": "ἑπτὰ πνεύματα",
+      "gloss": "The seven Spirits of God, echoing Revelation 1:4 and 4:5. Most read this as a picture of the Holy Spirit in the fullness of His sevenfold perfection, drawing on Isaiah 11:2, rather than seven separate spirit-beings. Christ who holds them also holds the seven stars, the churches' messengers, showing His sovereign care even over a nearly dead congregation."
+    },
+    "gregoreo": {
+      "language": "Greek",
+      "lemma": "gregoreo",
+      "original": "γρηγορέω",
+      "gloss": "To watch, stay awake, be alert. Sardis had twice fallen to surprise night attacks because its guards grew complacent on its supposedly unconquerable citadel, so Christ's command to wake up strikes at the city's own history as much as the church's spiritual condition."
+    },
+    "nikon": {
+      "language": "Greek",
+      "lemma": "ho nikon",
+      "original": "ὁ νικῶν",
+      "gloss": "The one who overcomes or conquers, the recurring title closing every one of the seven letters. It names ordinary, persevering faith, not a special class of elite believers, and here it is joined to the promise of white garments and an unblotted name."
+    },
+    "biblos_zoes": {
+      "language": "Greek",
+      "lemma": "biblos tes zoes",
+      "original": "βίβλος τῆς ζωῆς",
+      "gloss": "The Book of Life, the register of those who belong to God, pictured throughout Revelation. The promise never to blot out a name uses a strong double negative in Greek, assuring the overcomer of unshaken, eternal belonging before the Father and His angels."
+    }
   },
   "study": {
     "basic": {
@@ -60,85 +104,248 @@
       "oneStory": "A church with a reputation for life was actually dying, coasting on a name it no longer deserved. Jesus refuses to let reputation substitute for reality, calling His people to wake, remember, and repent, while promising unshaken, eternal belonging in His Book of Life to every one who overcomes, whatever their church's outward state."
     },
     "context": {
-      "literary": "The fifth of the seven letters, following the same address, title, verdict, exhortation, and promise pattern, but unusually front-loading the verdict of death before any positive word, and reserving commendation only for a small remnant.",
-      "historical": "Sardis had once been the wealthy capital of the ancient Lydian kingdom, but its acropolis had twice been captured by surprise night attack because its defenders assumed the position unconquerable and grew complacent; by John's day it was a faded shadow of its former greatness, a vivid backdrop for 'you have a reputation for being alive, yet you are dead' and 'I will come like a thief.'",
-      "canonical": "Draws directly on Revelation 1:4, 1:16, and 1:20 for the seven Spirits and seven stars, and anticipates the Book of Life's role throughout Revelation, culminating in the New Jerusalem's guest list in Revelation 21:27."
+      "literary": "The letter to Sardis opens the second half of the seven, and it is built on a sharp opposition between appearance and fact. The verdict in verse 1 turns on the word 'yet': a reputation for being alive, 'yet you are dead.' Everything that follows unwinds from that hinge. The church is told what it seems to be, what it is, and what it may become if it wakes.\n\nThe commands in verses 2 and 3 are arranged as a chain of five imperatives: wake up, strengthen, remember, keep, repent. The first and last are the poles, waking and turning, and the three between give the content. To wake is to see the facts, to strengthen is to act on what remains, to remember is to go back to the beginning, to keep is to hold fast, and to repent is to turn around. The order is that of a person coming to himself and then moving.\n\nVerse 3 contains the threat in the conditional form, 'If you do not wake up, I will come like a thief.' The promise that the church will not know the hour is a statement of what will happen if the warning is not heeded, not an arbitrary decree.\n\nThe middle of the letter, verse 4, brings a sudden turn to the positive. 'But you do have a few people in Sardis.' The word that BSB renders 'people' is the Greek for names, so that the remnant is described as a handful of names. The point is picked up again in verse 5, where the overcomer's name will not be blotted out of the Book of Life. The letter is held together by the theme of name: the church has a name for being alive, a few have names that are worth something, and the overcomer's name is safe.\n\nThe letter shares one feature with the letter to Laodicea. They are the only two churches in which the Lord finds nothing to commend in the community as a whole, and they stand in contrast to Smyrna and Philadelphia, which receive no rebuke.",
+      "historical": "Sardis was an old and wealthy city, once the capital of the Lydian kingdom and the seat of Croesus, whose name became a proverb for riches. Its citadel stood on a steep hill that was thought to be impregnable. Yet the city fell twice by the same oversight: it was taken by Cyrus of Persia in the sixth century before Christ and by Antiochus the Great in the third century before Christ, each time after a small party of attackers climbed an unguarded cliff by night. A church addressed with the words 'wake up' and 'I will come like a thief' was being spoken to in the language of its own city's history.\n\nIn the New Testament period Sardis was a city of former greatness. A severe earthquake in AD 17 had devastated it, and it was rebuilt with help from the emperor Tiberius. It was known for wool and the dyeing of cloth, and the talk of garments in verses 4 and 5, soiled and white, would have had a local ring. A large Jewish community had lived there for a long time, and the city had a temple of Artemis whose ruins are still impressive.\n\nThe church itself had a name for life. It may have been prosperous, well regarded, busy, and at peace with its neighbours. There is no mention of persecution or of a false teacher. The letter does not say that the church was shaken by trouble, and that silence is part of the diagnosis. A church that suffers no opposition and meets no challenge may be one that no longer troubles anyone.\n\nThe faithful 'few' who have not soiled their garments are likely those who had refused the easy accommodations of a comfortable place, perhaps in the matter of the pagan cults of the city or of the standards of the surrounding culture. The letter does not say what the soil was, only that it could be avoided.",
+      "canonical": "The theme of waking from sleep is strong in the New Testament. Paul writes, 'Wake up, O sleeper, rise up from the dead, and Christ will shine on you,' Ephesians 5:14, and he says in Romans 13:11 that the hour has come to wake from slumber. In 1 Thessalonians 5:6 he says, 'let us not sleep as the others do, but let us remain awake and sober.' Jesus told His disciples to keep watch, Mark 13:35 to 37, and the parable of the ten virgins, Matthew 25:1 to 13, is a story about a church that fell asleep and nearly missed the bridegroom.\n\nThe thief is a standing image of the day of the Lord. Jesus used it, Matthew 24:43 and Luke 12:39 to 40, and so did Paul, 1 Thessalonians 5:2, and Peter, 2 Peter 3:10. Revelation uses it again in Revelation 16:15, 'Behold, I am coming like a thief. Blessed is the one who remains awake and clothed.' In the letter to Sardis it is applied to a church, as a warning that a congregation as well as the world can be caught unready.\n\nWhite garments are woven through Scripture. In Zechariah 3:3 to 5 Joshua stands in filthy clothes and is given splendid robes in place of them as his iniquity is removed. Isaiah 1:18 promises that crimson sins will be made white. Revelation 7:14 says that the great crowd has 'washed their robes and made them white in the blood of the Lamb,' and Revelation 19:8 says that the Bride's fine linen is 'the righteous acts of the saints.'\n\nThe Book of Life appears in Exodus 32:32, where Moses asks to be blotted out of God's book, in Psalm 69:28, and in Daniel 12:1. It reappears at the end of Revelation, in Revelation 20:12 and 20:15 and 21:27. The promise that Jesus will confess the overcomer's name before the Father is a use of His own words in Matthew 10:32 and Luke 12:8."
     },
     "hermeneutics": {
-      "authorIntent": "To expose the gap between reputation and reality in a nearly dead church, to summon it to wake, remember, keep, and repent, and to promise unshaken, eternal belonging to the small faithful remnant and to every true overcomer.",
-      "descriptionVsPrescription": "The letter describes a specific church's spiritual condition using its own city's history as a warning picture; the abiding principle applies to any church or believer tempted to coast on a reputation for spiritual life that no longer matches reality.",
+      "authorIntent": "The Lord intends the church to hear a verdict that it does not expect, and the shock is the purpose. A congregation that thinks well of itself is told that it is dead, and the plain statement is meant to break the spell of reputation. He does not soften it, because the danger lies in the comfort.\n\nHe also means the church to understand that the remedy is within reach. 'Strengthen what remains' implies that something remains, and that it can be built up. The call to remember what they received and heard sends them back to the gospel they first believed. The church is not asked to invent anything new but to return to what it was given.\n\nHe means the warning to have an edge. The coming like a thief is a threat as well as a promise, and the church is meant to hear that its unreadiness has a cost. Yet the threat is made conditional, and the Lord's intention is that it should not need to be carried out.\n\nFinally He means to honour the few who have not soiled their garments. They are not lost in the large failure of the community, and the Lord knows them by name. For every Christian in a dull or drifting church, the letter says that faithfulness is seen, that it is worthy in His eyes, and that it will be rewarded with His company in white.",
+      "descriptionVsPrescription": "The letter describes a church whose outward vigour had come apart from its inward life. It does not say that every active or well regarded church is dead; it says that this one was. A reader should not turn the letter into a suspicion of success or a rule that the larger and quieter a church is, the more likely it is to be failing.\n\nThe commands, though, are for every church and every Christian: wake up, strengthen what remains, remember, keep, repent. They are not suggestions and they are not tied to Sardis's particular history. The Lord gives them as the pattern of recovery for any community or person that has slipped into sleep.\n\nThe promises of white garments, the confession of the name and a place in the Book of Life are given to the overcomer, and they describe what the Lord will do. They are not a bargain in which the believer earns salvation by effort. Elsewhere in Revelation the white robes are washed in the blood of the Lamb, Revelation 7:14, which makes clear that the whiteness is a gift. The overcomer is the one who holds to Christ to the end, and the letter's calls to repentance are the means by which the Lord keeps His people.",
       "debates": [
         {
-          "question": "Does 'I will never blot out his name from the Book of Life' imply that some names could be removed, threatening the eternal security of true believers?",
+          "question": "Can a name be blotted out of the Book of Life?",
           "views": [
-            { "label": "A real, conditional warning aimed at nominal profession", "case": "Some read this as implying names could in principle be removed, a sober warning against false or merely nominal profession that never bore genuine fruit, consistent with other warnings in Revelation against those who fall away." },
-            { "label": "An emphatic assurance phrased as a strong negative", "case": "Others read the Greek's strong double negative as pure promise, akin to Christ's assurance in John 10:28 that no one will snatch His sheep from His hand, meaning only genuine believers were ever written there, so the verse offers certainty, not a live threat." }
+            {
+              "label": "The promise is negative only, and carries no threat",
+              "case": "Many readers hold that the Lord is making a solemn promise by the figure of denying its opposite. 'I will never blot out his name' is a way of saying 'I will most certainly keep it.' They point to the fact that the book is written 'from the foundation of the world,' Revelation 13:8 and 17:8, and to John 10:28 to 29, where Christ's sheep will never perish. On this view the verse offers security and does not imply that a name could be removed."
+            },
+            {
+              "label": "The promise implies that removal is possible",
+              "case": "Others note that Exodus 32:32 to 33 and Psalm 69:28 speak of names being blotted out, and that the letter is addressed to a church in danger. They read the promise as a warning that a person who does not overcome may lose his place. They add that the letters repeatedly warn of real loss, as in Revelation 2:5."
+            },
+            {
+              "label": "The book records the visible church, not the elect alone",
+              "case": "Some suggest that the name may be written in the book in the sense of belonging to the community, so that blotting out means exclusion from it for those who prove not to belong, as 1 John 2:19 describes. The overcomer's name is not removed because he truly belongs."
+            }
           ],
-          "bearing": "Either reading presses hearers away from false security in reputation and toward genuine, persevering faith that is known and kept by the One who holds their name."
+          "bearing": "The letter's immediate aim is to encourage the faithful and to warn the complacent, and each view can be read in that light. It should not be used to feed anxiety in believers who are trusting in Christ, nor to give assurance to those who show no sign of life. The call to overcome remains the way the promise is kept."
+        },
+        {
+          "question": "In what sense is Sardis 'dead'?",
+          "views": [
+            {
+              "label": "A church of unbelievers",
+              "case": "The strongest language of the verdict, 'dead,' is taken to mean that most of the members lacked saving faith, and the few who had not soiled their garments are the true believers. This fits the contrast between the few and the many."
+            },
+            {
+              "label": "A church of real believers who had gone spiritually cold",
+              "case": "Others note that the Lord says what 'remains' can be strengthened, and that he addresses the church as a body that can repent. On this view 'dead' describes a state of spiritual lifelessness, from which believers can be roused. James 2:17 speaks of faith without deeds as dead in a similar way."
+            },
+            {
+              "label": "A church that was dead in its works",
+              "case": "A third view stresses the phrase 'I have found your deeds incomplete.' The deadness lies in the failure of the church's works to match its profession, so that the verdict is on the pattern of life rather than on each person's standing."
+            }
+          ],
+          "bearing": "The letter does not decide the matter, and it does not need to. It gives a call to wake, and it describes a church with some who are alive. The reader is meant to ask not who in Sardis was saved but whether his own church's life matches its name."
         }
       ]
     },
-    "originalLanguages": "Christ holds the hepta pneumata, the seven Spirits of God, sovereign presence even over a nearly dead church, and commands it to gregoreo, wake up and watch, an order that echoes Sardis's own history of falling to surprise attack while its guards slept. The one who overcomes, ho nikon, is promised that his name will never be blotted from the biblos zoes, the Book of Life, a strong double negative of assurance in the Greek.",
+    "originalLanguages": "The command in verse 2, ginou gregoron, is a compound form: the verb ginomai, 'become,' with the participle gregoron, 'being awake.' It has the force of 'become wakeful' or 'prove to be watching.' The tense is present, which signals that the waking must be sustained and not a single moment. The same verb gregoreo is used by Jesus in the Garden when He asks the disciples to keep watch with Him, Matthew 26:38 to 41, and in the warnings about His return in Mark 13:35 to 37.\n\nThe church is told to strengthen 'what remains,' ta loipa, and the things are 'about to die,' emellon apothanein. The Greek speaks of a thing at the point of dying, not one already dead, which sits oddly beside the verdict in verse 1 that the church 'is dead.' The tension is intended. The church is dead in its name and in danger of death in what remains, and the Lord's command is aimed at what can still be saved.\n\nThe Lord says that He has not found their deeds 'incomplete,' where the Greek is peplerōmena, a perfect passive participle of pleroo, 'to fill' or 'to fulfil,' with a negative. The deeds are unfilled: they have a shape but not a content. It is an image of vessels not filled to the brim, and the phrase 'in the sight of My God' says that the standard is God's.\n\nThe pair of verbs 'received' and 'heard' in verse 3, eilephas and ekousas, are in different tenses. The first is a perfect, which points to something received once and still in force, and the second an aorist, which looks at the hearing as a past event. The church is asked to go back to the moment it first heard the gospel and to the lasting deposit it received.\n\nIn verse 4 the Greek says literally that they have 'a few names,' oliga onomata, in Sardis, and the word 'worthy,' axioi, describes those who will walk with Him in white. Worthiness is the Lord's judgment on them, and it is not self made. The expression 'walk with Me in white' uses leukos, which is the colour of heaven's garments elsewhere in the book.\n\nThe 'Book of Life,' tes biblou tes zoes, is the register of those who belong to God. The negative 'I will never blot out,' ou me exaleipso, uses the strongest form of Greek denial, a double negative that means 'certainly not.' The verb exaleipho, 'to wipe out,' is the same verb used of blotting out a debt or a record, and in Revelation 3:5 it is set against the Lord's act of confessing, homologeso, the name before the Father.",
     "typology": [
-      { "type": "Sardis's fall to surprise night attacks", "fulfillment": "A historical picture of spiritual complacency, echoed in Christ's warning that He will come like a thief on those who fail to watch." },
-      { "type": "The white garments of the faithful few", "fulfillment": "Anticipates the fine linen, the righteous deeds of the saints, worn at the marriage supper of the Lamb in Revelation 19:8." },
-      { "type": "The unblotted name in the Book of Life", "fulfillment": "Fulfilled in the final judgment and the New Jerusalem, where only those written in the Lamb's Book of Life may enter, Revelation 21:27." }
+      {
+        "type": "The fall of the citadel by night",
+        "fulfillment": "Sardis had twice lost its acropolis to enemies who found an unguarded face of the rock and climbed it while the watch slept. The Lord speaks to a church in a city with that memory and says that He will come like a thief if it does not wake. The correspondence is not a prophecy about the city but a use of its own story as a warning. The escalation is that the enemy is now the Lord's own coming, and that the unreadiness is a spiritual one. The pattern falls short as a type of Christ, since He comes as judge and not as invader, and He gives warning first."
+      },
+      {
+        "type": "Joshua's filthy garments, Zechariah 3:3 to 5",
+        "fulfillment": "The high priest Joshua stood before the angel in filthy clothes, and they were taken off and replaced with splendid robes as his iniquity was removed. The correspondence with Sardis is the change of garments as a sign of cleansing. The escalation is that those in Sardis who have not soiled their clothes will walk in white, and that the overcomer is dressed in white by Christ. Revelation 7:14 says the robes are washed in the blood of the Lamb, so the garments are Christ's gift. The type falls short in that Joshua is one man, and the white garments are for a multitude."
+      },
+      {
+        "type": "The book of those who belong to the LORD",
+        "fulfillment": "The Old Testament speaks of a book in which God writes the names of His people. Moses offers to be blotted from it for Israel's sake, Exodus 32:32, and Daniel 12:1 says that everyone whose name is found written will be delivered. In Revelation the book becomes the register of the Lamb, and the letter promises that the overcomer's name stays in it. The escalation is that the book belongs to the slain Lamb, Revelation 13:8, so that belonging is secured by His death. Philippians 4:3 and Luke 10:20 show the same register in the New Testament."
+      },
+      {
+        "type": "The thief in the night",
+        "fulfillment": "Jesus used the image of a householder who did not know when the thief was coming, Matthew 24:43, to teach readiness for His return. The image is not that Christ is a criminal but that His coming will be unannounced to those who are not watching. In Sardis the image is turned on the church. The correspondence is the suddenness and the surprise, and the escalation is that it applies to those who bear His name. It falls short if pressed to say that Christ takes anything unjustly, since the Lord is coming for His own."
+      }
     ],
-    "christ": "Jesus holds the sevenfold Spirit and the seven stars, sovereign even over a church that is dying. He exposes the gap between reputation and reality with unflinching honesty, commands watchfulness, and promises to confess the overcomer's name before His Father and His angels, echoing His own teaching in Matthew 10:32 that whoever confesses Him He will confess before His Father in heaven.",
-    "god": "God's Spirit remains fully present even in a nearly dead church, and God is not deceived by outward reputation; He measures deeds in the sight of His own searching gaze. Yet He preserves a faithful remnant who have not soiled their garments and promises that His book of life holds their names with unshaken permanence.",
+    "christ": "The Lord describes Himself in this letter as the one who has the seven Spirits of God and the seven stars. The seven Spirits recall the sevenfold description of the Spirit in Isaiah 11:2, the Spirit of wisdom, understanding, counsel, strength, knowledge and the fear of the LORD, which rests on the Messiah. In Revelation 5:6 the seven Spirits are the seven eyes of the Lamb, sent out into all the earth. A church that has a name for life is addressed by the one who actually has the Spirit of life, and who is able to give it again.\n\nHe holds the seven stars, which are the angels or messengers of the churches, Revelation 1:20. A dying church is not outside His grasp. The stars are in His right hand, the hand that He laid on John, and the church in Sardis, however far gone, is in the grip of the one who is able to revive it. The same Lord who finds the deeds incomplete holds the church in His hand.\n\nHe is the one who knows. 'I know your deeds' is spoken to a church whose neighbours thought well of it, and He is not deceived by a name. This is the Christ who rebuked those who looked clean outside and were full of dead men's bones within, Matthew 23:27. He sees the facts and He says them plainly. His honesty is a form of mercy, because a church cannot recover from a condition it has not been told about.\n\nHe is the one who comes. 'I will come like a thief' belongs to His own teaching about His return, and in Revelation 16:15 the same word of warning is given a blessing: blessed is the one who stays awake. His coming is not only a judgment but the hope of the church, and the letter asks it to be ready for what it ought to be longing for.\n\nHe is the confessor of names. 'I will confess his name before My Father and His angels' repeats what He said in His ministry, Matthew 10:32 and Luke 12:8. The one who is the faithful witness will stand in the heavenly court and speak for those who have held to Him. The promise is made by the very person who will be there to keep it.\n\nHe is the one who dresses His people in white. The robes are washed in His blood, Revelation 7:14, and the worthy of Sardis are made worthy by Him. The letter does not ask Sardis to make its own garments clean but to keep them from being soiled and to look to the one who gives white clothing.",
+    "god": "The God of this letter is first the one who is not deceived. 'In the sight of My God' sets the church's works against His standard, and no public opinion is a substitute. The Old Testament says the same when it describes a people who honour the LORD with their lips while their hearts are far from Him, Isaiah 29:13. God is not impressed by names.\n\nHe is the Lord of the Spirit. The seven Spirits of God stand before His throne, Revelation 1:4, and they are His own in fullness. A church can lose its vitality, but the Spirit is not exhausted. The God who has the seven Spirits can send them again, and the call to wake is made by one who can give what is asked for.\n\nHe is patient and insistent. The commands of verses 2 and 3 come with a threat, and also with a call to repent that means the way is still open. God does not announce His judgment and then wait to fulfil it; He announces it to avert it. The pattern is the same as in the prophets, who warned in order that the people might turn.\n\nHe is faithful to the few. The Lord knows those who are His, 2 Timothy 2:19, and He knows the handful in Sardis by name. It is a mark of the God of the Bible that He preserves a remnant, in the time of Elijah and in the age of the exile, and now in a dying church. He does not abandon the faithful because the many have failed.\n\nHe is the keeper of the book. The names of His people are written in it, and He promises that He will not blot them out. This is the language of a God who keeps covenant. The same God confesses names before the Father, which means that He is not ashamed to acknowledge His people.\n\nHe is holy and He is close. The white garments speak of purity, and the walking with Him speaks of fellowship. For worship, the letter teaches a church to ask whether it lives for the name that men give or the name that He confesses, and to praise the God who is able to raise what is nearly dead.",
     "crossReferences": [
-      { "ref": "Revelation 1:4, 16, 20", "note": "Introduces the seven Spirits and the seven stars that Christ holds, background for the title used here." },
-      { "ref": "Matthew 10:32", "note": "Jesus promises to confess before His Father anyone who confesses Him, echoed in the promise to Sardis's overcomer." },
-      { "ref": "Matthew 24:42-43", "note": "Jesus teaches that He will come like a thief for those who fail to watch, the same warning given to Sardis." },
-      { "ref": "Revelation 21:27", "note": "Only those written in the Lamb's Book of Life enter the New Jerusalem, the final unveiling of the promise made here." }
+      {
+        "ref": "Revelation 1:4",
+        "note": "John greets the seven churches with grace and peace from the seven Spirits before the throne. This is the first mention of the seven Spirits that Christ holds in the letter to Sardis. It shows that the same fullness of the Spirit that blesses the churches at the start of the book is offered to a church that has lost its life."
+      },
+      {
+        "ref": "Zechariah 4:10",
+        "note": "The seven eyes of the LORD scan the whole earth and rejoice over the day of small things. The background to the seven Spirits is this picture of the LORD's all seeing eyes. Sardis is a church whose works are judged by that gaze, and also a church whose few faithful are seen and rejoiced over."
+      },
+      {
+        "ref": "Ephesians 5:14",
+        "note": "'Wake up, O sleeper, rise up from the dead, and Christ will shine on you.' It reads like a call to Sardis. Paul links sleep with death and promises that Christ will give light. The letter's own call to wake and its promise of white garments are made in the same spirit."
+      },
+      {
+        "ref": "1 Thessalonians 5:2-4",
+        "note": "The Day of the Lord will come like a thief in the night, but believers who are in the light are not to be overtaken by it. Paul's words tell the church how the threat of the thief is to be heard. For the awake it is no surprise, and for the sleeping it is a calamity."
+      },
+      {
+        "ref": "Matthew 24:43",
+        "note": "Jesus says that a householder who knew when the thief was coming would have kept watch. It is the saying behind Revelation's 'like a thief.' The letter to Sardis applies it to a church whose members have forgotten that the Lord's return was meant to shape their life now."
+      },
+      {
+        "ref": "Zechariah 3:3-5",
+        "note": "Joshua is stripped of his filthy garments and clothed with splendid robes, a sign that his sin is removed. Sardis's white garments echo the vision. The cleansing is the Lord's act, and the clean clothing is His gift. The few who have not soiled their garments are those who have held on to that gift."
+      },
+      {
+        "ref": "Revelation 7:13-14",
+        "note": "The great multitude in white robes has washed its robes in the blood of the Lamb. This says how garments are made white. The white of Sardis's promise is not the result of the church's effort but of the Lamb's death, and the passage guards against reading the promise as a reward for merit."
+      },
+      {
+        "ref": "Exodus 32:32-33",
+        "note": "Moses asks to be blotted out of God's book if God will not forgive Israel, and the LORD answers that whoever has sinned will be blotted out. It is the first place where blotting out of a book is spoken of, and it shapes the promise of Sardis. The letter's 'I will never blot out' is spoken against this background."
+      },
+      {
+        "ref": "Matthew 10:32-33",
+        "note": "Jesus says that He will confess before His Father the one who confesses Him before men. The promise to the overcomer in Sardis repeats it nearly word for word. The Lord of Revelation is the same as the Lord of the Gospels, and He keeps His word."
+      },
+      {
+        "ref": "Revelation 21:27",
+        "note": "Nothing unclean will enter the city, but only those whose names are written in the Lamb's Book of Life. It shows the book at the end of the story as the list of the city's citizens. The promise to Sardis is therefore a promise of a place in the new Jerusalem."
+      }
     ],
-    "oneStory": "A church with a name for being alive was quietly dying, coasting on a reputation it no longer deserved. Jesus will not let appearances substitute for reality; He calls His people to wake, remember, and repent, while promising unshaken, eternal belonging in His Book of Life to every one who overcomes, whatever their surrounding church's outward condition.",
-    "sermon": { "status": "verified", "preacher": "John Piper", "title": "Good and Evil in the Churches of Asia and Bethlehem", "url": "https://www.desiringgod.org/messages/good-and-evil-in-the-churches-of-asia-and-bethlehem", "why": "Piper directly expounds Revelation 3:1-2 and 3:4, Sardis's reputation for life but actual death and its small faithful remnant, within a message on the four mixed churches of Revelation 2-3, finding hope for a compromised congregation." }
+    "oneStory": "The story of Scripture is a story of the line between life and death. In Eden the tree of life stood beside the tree that brought death, and the choice of the wrong one began a history in which people have a name for being alive and are dying, Genesis 2:9 and 3:19. The letter to Sardis speaks to a church that has not yet learned that its vigour is only a name, and the Lord's verdict is a statement of the Bible's whole account of the human condition.\n\nThe story is also one of remnant. Whenever the people of God have drifted, a few have kept faith. There were seven thousand who had not bowed to Baal in the days of Elijah, 1 Kings 19:18, and there was a remnant that returned from exile. Sardis's few are one more of these faithful remnants. They remind the reader that God's purpose is not defeated by the failure of the many, and that He has never been without a people.\n\nIt is a story of garments. The first couple covered themselves with leaves, and God clothed them in skins, Genesis 3:7 and 3:21. Joshua is given new robes in Zechariah. The saints of Revelation wear white, and in the end the Bride is dressed in fine linen, Revelation 19:8. The promise of white garments to Sardis belongs to this long history of the shame covered and the guilty clothed.\n\nIt is also a story of a book and a name. God remembers His own. Moses is willing to be blotted out, and Christ is the one who is, in the sense that He bears the curse so that others may stay in the book. The register of the Lamb who was slain is the answer to the old question of how sinners can have their names written in the book of God.\n\nThe story ends in the city where nothing unclean enters and in which those whose names are written live in the light of God. The church that was nearly dead is raised, the awake are rewarded, and the Lord confesses their names. The thief has come, but He has come as the bridegroom, and the dressed and watching church goes in with Him to the feast, Revelation 19:9.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "John Piper",
+      "title": "Good and Evil in the Churches of Asia and Bethlehem",
+      "url": "https://www.desiringgod.org/messages/good-and-evil-in-the-churches-of-asia-and-bethlehem",
+      "why": "Piper directly expounds Revelation 3:1-2 and 3:4, Sardis's reputation for life but actual death and its small faithful remnant, within a message on the four mixed churches of Revelation 2-3, finding hope for a compromised congregation."
+    }
   },
   "quiz": [
     {
       "q": "What is Christ's central charge against the church in Sardis?",
       "options": [
-        { "text": "It has a reputation for being alive, but it is actually dead.", "weight": 100, "note": "Verse 1 states this verdict directly and starkly." },
-        { "text": "It has grown too strict and legalistic in its practices.", "weight": 75, "note": "The letter does not raise legalism; the charge is spiritual deadness beneath a living reputation." },
-        { "text": "It has openly rejected Christ and turned to idols.", "weight": 25, "note": "The problem is complacency and incomplete deeds, not open apostasy to idolatry." },
-        { "text": "Nothing is wrong; the letter is pure commendation.", "weight": 0, "note": "This is nearly the opposite of the letter, which contains almost no commendation." }
+        {
+          "text": "It has a reputation for being alive, but it is actually dead.",
+          "weight": 100,
+          "note": "Verse 1 states this verdict directly and starkly."
+        },
+        {
+          "text": "It has grown too strict and legalistic in its practices.",
+          "weight": 75,
+          "note": "The letter does not raise legalism; the charge is spiritual deadness beneath a living reputation."
+        },
+        {
+          "text": "It has openly rejected Christ and turned to idols.",
+          "weight": 25,
+          "note": "The problem is complacency and incomplete deeds, not open apostasy to idolatry."
+        },
+        {
+          "text": "Nothing is wrong; the letter is pure commendation.",
+          "weight": 0,
+          "note": "This is nearly the opposite of the letter, which contains almost no commendation."
+        }
       ]
     },
     {
       "q": "What does Jesus command the church to do in response?",
       "options": [
-        { "text": "Wake up, strengthen what remains, remember what they received, keep it, and repent.", "weight": 100, "note": "Verses 2-3 give this specific fourfold summons." },
-        { "text": "Leave the city of Sardis entirely.", "weight": 75, "note": "No relocation is commanded; the call is to spiritual renewal within the existing church." },
-        { "text": "Wait patiently for persecution to strengthen their faith.", "weight": 25, "note": "The letter does not mention persecution at Sardis; the danger named is complacency, not suffering." },
-        { "text": "Nothing; the letter offers no instruction, only judgment.", "weight": 0, "note": "The letter gives clear, active commands to wake, remember, keep, and repent." }
+        {
+          "text": "Wake up, strengthen what remains, remember what they received, keep it, and repent.",
+          "weight": 100,
+          "note": "Verses 2-3 give this specific fourfold summons."
+        },
+        {
+          "text": "Leave the city of Sardis entirely.",
+          "weight": 75,
+          "note": "No relocation is commanded; the call is to spiritual renewal within the existing church."
+        },
+        {
+          "text": "Wait patiently for persecution to strengthen their faith.",
+          "weight": 25,
+          "note": "The letter does not mention persecution at Sardis; the danger named is complacency, not suffering."
+        },
+        {
+          "text": "Nothing; the letter offers no instruction, only judgment.",
+          "weight": 0,
+          "note": "The letter gives clear, active commands to wake, remember, keep, and repent."
+        }
       ]
     },
     {
       "q": "What happens if the church does not wake up?",
       "options": [
-        { "text": "Christ will come like a thief, at a time they do not expect.", "weight": 100, "note": "Verse 3 gives this exact warning." },
-        { "text": "The church will simply be renamed.", "weight": 75, "note": "No renaming is mentioned; the warning concerns Christ's sudden, unexpected coming." },
-        { "text": "Nothing further will happen beyond the current reputation.", "weight": 25, "note": "A real and serious consequence, being caught unprepared, is explicitly threatened." },
-        { "text": "The seven Spirits will be removed from the church.", "weight": 0, "note": "This specific threat is not made; the warning is Christ's sudden coming." }
+        {
+          "text": "Christ will come like a thief, at a time they do not expect.",
+          "weight": 100,
+          "note": "Verse 3 gives this exact warning."
+        },
+        {
+          "text": "The church will simply be renamed.",
+          "weight": 75,
+          "note": "No renaming is mentioned; the warning concerns Christ's sudden, unexpected coming."
+        },
+        {
+          "text": "Nothing further will happen beyond the current reputation.",
+          "weight": 25,
+          "note": "A real and serious consequence, being caught unprepared, is explicitly threatened."
+        },
+        {
+          "text": "The seven Spirits will be removed from the church.",
+          "weight": 0,
+          "note": "This specific threat is not made; the warning is Christ's sudden coming."
+        }
       ]
     },
     {
       "q": "What is promised to the few in Sardis who have not soiled their garments, and to every overcomer?",
       "options": [
-        { "text": "They will walk with Christ in white, and their name will never be blotted from the Book of Life.", "weight": 100, "note": "Verses 4-5 give this specific double promise." },
-        { "text": "They will receive a new city to govern.", "weight": 75, "note": "This promise belongs to a different letter, Philadelphia's pillar and city imagery, not Sardis." },
-        { "text": "They will be spared from ever facing hardship again.", "weight": 25, "note": "The promise concerns future vindication and belonging, not exemption from present hardship." },
-        { "text": "Nothing; the letter offers no promise at all.", "weight": 0, "note": "Verses 4-5 give a clear, rich promise to the faithful few and to the overcomer." }
+        {
+          "text": "They will walk with Christ in white, and their name will never be blotted from the Book of Life.",
+          "weight": 100,
+          "note": "Verses 4-5 give this specific double promise."
+        },
+        {
+          "text": "They will receive a new city to govern.",
+          "weight": 75,
+          "note": "This promise belongs to a different letter, Philadelphia's pillar and city imagery, not Sardis."
+        },
+        {
+          "text": "They will be spared from ever facing hardship again.",
+          "weight": 25,
+          "note": "The promise concerns future vindication and belonging, not exemption from present hardship."
+        },
+        {
+          "text": "Nothing; the letter offers no promise at all.",
+          "weight": 0,
+          "note": "Verses 4-5 give a clear, rich promise to the faithful few and to the overcomer."
+        }
       ]
     },
     {
       "q": "What does the promise never to blot out a name from the Book of Life mean for the overcomer?",
       "options": [
-        { "text": "Unshaken, eternal belonging to God, confessed by Christ before the Father and His angels.", "weight": 100, "note": "Verse 5 pairs the unblotted name with Christ's own confession before His Father." },
-        { "text": "A guarantee that the church itself will never face further correction.", "weight": 75, "note": "The promise concerns the individual overcomer's belonging, not a guarantee against future correction of the church." },
-        { "text": "An assurance limited only to those who lived before the church became complacent.", "weight": 25, "note": "The promise applies to every overcomer, not merely an earlier generation of the church." },
-        { "text": "Nothing significant; it is simply a figure of speech with no real content.", "weight": 0, "note": "The promise is treated throughout Revelation as a real and weighty assurance of belonging to God." }
+        {
+          "text": "Unshaken, eternal belonging to God, confessed by Christ before the Father and His angels.",
+          "weight": 100,
+          "note": "Verse 5 pairs the unblotted name with Christ's own confession before His Father."
+        },
+        {
+          "text": "A guarantee that the church itself will never face further correction.",
+          "weight": 75,
+          "note": "The promise concerns the individual overcomer's belonging, not a guarantee against future correction of the church."
+        },
+        {
+          "text": "An assurance limited only to those who lived before the church became complacent.",
+          "weight": 25,
+          "note": "The promise applies to every overcomer, not merely an earlier generation of the church."
+        },
+        {
+          "text": "Nothing significant; it is simply a figure of speech with no real content.",
+          "weight": 0,
+          "note": "The promise is treated throughout Revelation as a real and weighty assurance of belonging to God."
+        }
       ]
     }
   ],
@@ -150,9 +357,21 @@
     "Jesus promises never to blot out the overcomer's name and to confess it before His Father. How does that promise steady you when your own faith feels weak or your reputation uncertain?"
   ],
   "translationNotes": [
-    { "ref": "Revelation 3:1", "note": "The BSB footnote allows 'the sevenfold Spirit' as an alternate rendering of 'the seven Spirits,' underscoring that this pictures the Holy Spirit's fullness rather than seven distinct spirit-beings." },
-    { "ref": "Revelation 3:5", "note": "The BSB footnote notes 'blot out' can also be rendered 'scrape off,' the image of erasing a name from a roll or register." },
-    { "ref": "Revelation 3:3", "note": "'I will come like a thief' deliberately echoes Sardis's own history of being twice conquered by surprise night attack, sharpening the warning for a church tempted to complacency." }
+    {
+      "ref": "Revelation 3:1",
+      "note": "The BSB footnote allows 'the sevenfold Spirit' as an alternate rendering of 'the seven Spirits,' underscoring that this pictures the Holy Spirit's fullness rather than seven distinct spirit-beings."
+    },
+    {
+      "ref": "Revelation 3:5",
+      "note": "The BSB footnote notes 'blot out' can also be rendered 'scrape off,' the image of erasing a name from a roll or register."
+    },
+    {
+      "ref": "Revelation 3:3",
+      "note": "'I will come like a thief' deliberately echoes Sardis's own history of being twice conquered by surprise night attack, sharpening the warning for a church tempted to complacency."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched this session via the repo's makor-scripture tool for Revelation 3:1-6." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched this session via the repo's makor-scripture tool for Revelation 3:1-6."
+  }
 }

@@ -18,7 +18,11 @@
         "note": "Cain, Balaam, Korah",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 11, "text": "{{ouai|Woe}} to them! They have traveled the path of Cain; they have rushed headlong into the error of Balaam; they have perished in Korah's {{antilogia|rebellion}}." }
+          {
+            "chapter": 1,
+            "n": 11,
+            "text": "{{ouai|Woe}} to them! They have traveled the path of Cain; they have rushed headlong into the error of Balaam; they have perished in Korah's {{antilogia|rebellion}}."
+          }
         ]
       },
       {
@@ -26,8 +30,16 @@
         "note": "empty, dangerous, doomed",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 12, "text": "These men are {{spilas|hidden reefs}} in your love feasts, shamelessly feasting with you but shepherding only themselves. They are clouds without water, carried along by the wind; fruitless trees in autumn, twice dead after being uprooted." },
-          { "chapter": 1, "n": 13, "text": "They are wild waves of the sea, foaming up their own shame; wandering stars, for whom {{zophos|blackest darkness}} has been reserved forever." }
+          {
+            "chapter": 1,
+            "n": 12,
+            "text": "These men are {{spilas|hidden reefs}} in your love feasts, shamelessly feasting with you but shepherding only themselves. They are clouds without water, carried along by the wind; fruitless trees in autumn, twice dead after being uprooted."
+          },
+          {
+            "chapter": 1,
+            "n": 13,
+            "text": "They are wild waves of the sea, foaming up their own shame; wandering stars, for whom {{zophos|blackest darkness}} has been reserved forever."
+          }
         ]
       },
       {
@@ -35,21 +47,68 @@
         "note": "the Lord comes to judge",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 14, "text": "Enoch, the seventh from Adam, also {{propheteuo|prophesied}} about them: “Behold, the Lord is coming with myriads of His holy ones" },
-          { "chapter": 1, "n": 15, "text": "to execute judgment on everyone, and to convict all the {{asebes|ungodly}} of every ungodly act of wickedness and every harsh word spoken against Him by ungodly sinners.”" },
-          { "chapter": 1, "n": 16, "text": "These men are discontented {{gongystes|grumblers}}, following after their own lusts; their mouths spew arrogance; they flatter others for their own advantage." }
+          {
+            "chapter": 1,
+            "n": 14,
+            "text": "Enoch, the seventh from Adam, also {{propheteuo|prophesied}} about them: “Behold, the Lord is coming with myriads of His holy ones"
+          },
+          {
+            "chapter": 1,
+            "n": 15,
+            "text": "to execute judgment on everyone, and to convict all the {{asebes|ungodly}} of every ungodly act of wickedness and every harsh word spoken against Him by ungodly sinners.”"
+          },
+          {
+            "chapter": 1,
+            "n": 16,
+            "text": "These men are discontented {{gongystes|grumblers}}, following after their own lusts; their mouths spew arrogance; they flatter others for their own advantage."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "ouai": { "language": "Greek", "lemma": "ouai", "original": "οὐαί", "gloss": "Woe, an exclamation of grief and impending doom. It is the cry the prophets and Jesus Himself raised over the unrepentant. Jude pronounces it over the intruders, marking them as under God's certain judgment." },
-    "antilogia": { "language": "Greek", "lemma": "antilogia", "original": "ἀντιλογία", "gloss": "Contradiction, dispute, rebellious opposition. Korah's antilogia was his defiance of God's appointed leaders, Numbers 16. The false teachers share his spirit, setting themselves against God given authority and perishing in the same rebellion." },
-    "spilas": { "language": "Greek", "lemma": "spilas", "original": "σπιλάς", "gloss": "A hidden reef or rock just beneath the surface. Such reefs wreck ships that never see them coming. The intruders share the church's love feasts while secretly endangering the whole fellowship, a hidden hazard among trusting believers." },
-    "zophos": { "language": "Greek", "lemma": "zophos", "original": "ζόφος", "gloss": "Gloom, deep darkness, the blackness of the nether world. Like wandering stars that give no reliable light, the false teachers are destined for the blackest darkness reserved forever, a fitting end for those who lead others astray." },
-    "propheteuo": { "language": "Greek", "lemma": "propheteuo", "original": "προφητεύω", "gloss": "To prophesy, to speak forth a message from God about what is to come. Jude says Enoch prophesied about these very men, applying an ancient word of coming judgment directly to the intruders of his own day." },
-    "asebes": { "language": "Greek", "lemma": "asebes", "original": "ἀσεβής", "gloss": "Ungodly, irreverent, without fear of God. The word hammers four times in verse 15, ungodly people, ungodly acts, ungodly way, ungodly words. It is the defining mark of those Enoch foresaw and Jude condemns." },
-    "gongystes": { "language": "Greek", "lemma": "gongystes", "original": "γογγυστής", "gloss": "A grumbler, a discontented murmurer. It echoes Israel's grumbling in the wilderness. Beneath the intruders' arrogant, flattering speech lies a restless discontent with God, chasing their own desires rather than trusting His will." }
+    "ouai": {
+      "language": "Greek",
+      "lemma": "ouai",
+      "original": "οὐαί",
+      "gloss": "Woe, an exclamation of grief and impending doom. It is the cry the prophets and Jesus Himself raised over the unrepentant. Jude pronounces it over the intruders, marking them as under God's certain judgment."
+    },
+    "antilogia": {
+      "language": "Greek",
+      "lemma": "antilogia",
+      "original": "ἀντιλογία",
+      "gloss": "Contradiction, dispute, rebellious opposition. Korah's antilogia was his defiance of God's appointed leaders, Numbers 16. The false teachers share his spirit, setting themselves against God given authority and perishing in the same rebellion."
+    },
+    "spilas": {
+      "language": "Greek",
+      "lemma": "spilas",
+      "original": "σπιλάς",
+      "gloss": "A hidden reef or rock just beneath the surface. Such reefs wreck ships that never see them coming. The intruders share the church's love feasts while secretly endangering the whole fellowship, a hidden hazard among trusting believers."
+    },
+    "zophos": {
+      "language": "Greek",
+      "lemma": "zophos",
+      "original": "ζόφος",
+      "gloss": "Gloom, deep darkness, the blackness of the nether world. Like wandering stars that give no reliable light, the false teachers are destined for the blackest darkness reserved forever, a fitting end for those who lead others astray."
+    },
+    "propheteuo": {
+      "language": "Greek",
+      "lemma": "propheteuo",
+      "original": "προφητεύω",
+      "gloss": "To prophesy, to speak forth a message from God about what is to come. Jude says Enoch prophesied about these very men, applying an ancient word of coming judgment directly to the intruders of his own day."
+    },
+    "asebes": {
+      "language": "Greek",
+      "lemma": "asebes",
+      "original": "ἀσεβής",
+      "gloss": "Ungodly, irreverent, without fear of God. The word hammers four times in verse 15, ungodly people, ungodly acts, ungodly way, ungodly words. It is the defining mark of those Enoch foresaw and Jude condemns."
+    },
+    "gongystes": {
+      "language": "Greek",
+      "lemma": "gongystes",
+      "original": "γογγυστής",
+      "gloss": "A grumbler, a discontented murmurer. It echoes Israel's grumbling in the wilderness. Beneath the intruders' arrogant, flattering speech lies a restless discontent with God, chasing their own desires rather than trusting His will."
+    }
   },
   "study": {
     "basic": {
@@ -63,93 +122,262 @@
       "oneStory": "The rebels of the old covenant, Cain, Balaam, Korah, live on in every generation of those who corrupt God's people. Jude sets them under the ancient promise, carried even by Enoch, that the Lord will come to judge all ungodliness, a promise that finds its focus in the return of Christ to convict the wicked and vindicate His own."
     },
     "context": {
-      "literary": "A crescendo of condemnation. Verse 11 packs three historical rebels into one woe. Verses 12 to 13 give six escalating images from land, sky, and sea: reefs, waterless clouds, fruitless trees, wild waves, wandering stars. Verses 14 to 15 climax with a prophetic oracle, and verse 16 lands with a plain character sketch. It is Hebrew style denunciation in Greek dress.",
-      "historical": "Cain, Balaam, and Korah were stock examples of wickedness in Jewish teaching. The love feasts, verse 12, were shared fellowship meals of the early church, where the intruders fed themselves shamelessly. Verse 14 quotes 1 Enoch 1:9, a well known Jewish apocalyptic work that Jude's readers would recognize.",
-      "canonical": "The three rebels and the six images root Jude deeply in the Old Testament, while the Enoch citation shows Jude engaging the Jewish literature of his day. The oracle of the Lord's coming to judge ties the passage to the whole Bible's expectation of a final reckoning fulfilled in Christ's return."
+      "literary": "This section is the letter's densest piece of rhetoric, and it is built in three movements: a woe with three names in verse 11, a run of five images in verses 12 and 13, and a prophecy with its application in verses 14 to 16. The images are chosen from the whole created order, sea, sky, land and heaven. Reefs and waves belong to the sea, clouds and wind to the air, trees to the land, and stars to the heavens. Jude uses all four to say the same thing in different registers: these men look as though they are carrying life, and they carry none.\n\nThe verbs of verse 11 are tightly set. The first, 'traveled,' is a path; the second, 'rushed headlong,' is a plunge; the third, 'perished,' is an end. They speak of a progression from a way of life to a headlong error to a ruin. The three tenses are all past, which makes the woe sound like a verdict already entered, as if the story is told backward from its end.\n\nThe quotation from Enoch in verses 14 and 15 acts as the climax of the section, and Jude shapes it with great care. He takes a prophecy about the Lord's coming and presses on its repeated word 'ungodly,' which appears several times in the Greek of verse 15. He then names what ungodliness looks like in practice in verse 16: grumbling, lust, arrogant speech and flattery. The section ends by returning from prophecy to the men themselves, so the verdict of heaven and the conduct on earth are joined.",
+      "historical": "Cain, Balaam and Korah were fixed types in Jewish teaching of the period. Each was remembered for a distinct failing. Cain was the first murderer, whose envy of a brother's acceptable offering led to blood, Genesis 4:3 to 8, and 1 John 3:12 treats him as the pattern of hatred. Balaam was a seer hired by the king of Moab to curse Israel, Numbers 22 to 24, who, as Numbers 31:16 shows, afterward advised the plan that led Israel into sexual sin and idolatry at Peor, Numbers 25:1 to 3. Revelation 2:14 describes this as teaching 'Balak to place a stumbling block before the Israelites.' Korah led a revolt against Moses and Aaron with the claim that the whole congregation was holy, Numbers 16:3, and the ground swallowed him and his household, Numbers 16:31 to 33.\n\nThe 'love feasts' of verse 12 were shared meals of the early church, in which believers ate together, probably in connection with the Lord's Supper. Paul had already seen how such meals could be abused when some went ahead without sharing and one remained hungry while another was drunk, 1 Corinthians 11:20 to 22. Jude's picture is of teachers who sit at the common table and take from it for themselves.\n\nThe prophecy of Enoch comes from the Jewish book known as 1 Enoch, which circulated among Jews in the centuries before Christ. The BSB footnote identifies the quotation as 1 Enoch 1:9. Enoch was an admired figure, since Genesis 5:24 says he walked with God and was taken, and later traditions credited him with visions and writings. By Jude's day the book was well known and widely read, though never part of the Hebrew canon.",
+      "canonical": "Jude's three names are a compressed biblical argument that works from Genesis to Numbers, and each connects to the wider witness of the New Testament. Cain's way appears in 1 John 3:12 and Hebrews 11:4. Balaam is condemned in 2 Peter 2:15 for loving the wages of wickedness and in Revelation 2:14 for his teaching to the church in Pergamum. Korah's rebellion has a counterpart in the church's call to respect appointed leaders, Hebrews 13:17, and in Paul's treatment of those who refused his authority, 2 Corinthians 10 to 13.\n\nThe images also have roots. The wicked compared to a stormy sea in Isaiah 57:20 lies behind the wild waves. Proverbs 25:14 describes a man who boasts of gifts never given as 'clouds and wind without rain.' Ezekiel 34:2 condemns the shepherds who feed themselves, which is Jude's 'shepherding only themselves.' Jesus used fruit to judge false prophets in Matthew 7:16 to 20.\n\nThe prophecy of the Lord coming with myriads of holy ones has an Old Testament source in Deuteronomy 33:2 and Zechariah 14:5, and the New Testament takes it up for Christ's return in 1 Thessalonians 3:13 and Revelation 19:11 to 14. The theme of the grumbling that cuts people off from God goes back to the wilderness and is recalled by Paul in 1 Corinthians 10:10."
     },
     "hermeneutics": {
-      "authorIntent": "To expose the false teachers as empty, dangerous, and doomed by likening them to notorious rebels and to natural images of barrenness and peril, and to declare their certain judgment through Enoch's prophecy of the Lord's coming.",
-      "descriptionVsPrescription": "The passage describes and denounces the intruders; it does not prescribe imitation. Its abiding force is a warning: do not walk the path of Cain, Balaam, or Korah, and reverence the Lord who comes to judge every ungodly deed and word.",
+      "authorIntent": "Jude wanted to strip the intruders of every attraction. The images of verses 12 and 13 move from the dangerous to the disappointing to the doomed. A reef wrecks the ship that trusts it. A cloud without water promises rain and delivers none. A tree without fruit after autumn is dead twice over. Wild waves foam up their own shame. Wandering stars guide no one. The readers, who might be impressed by eloquent teachers, are given a series of reasons not to follow them.\n\nHe also meant the readers to recognize a family resemblance. Cain's envy, Balaam's greed and Korah's pride are the same three roots from which false teaching grows: hatred of what is righteous, profit from religion, and refusal of God's appointed order. By naming them, Jude gives readers a way to test the motives of any teacher, not only these.\n\nThe quotation from Enoch is the center of the argument. Jude wanted his audience to hear that judgment had been announced long before and that it covers words as well as deeds.",
+      "descriptionVsPrescription": "These verses are a description, and a severe one, of particular people. It would be wrong to turn them into a checklist for labelling anyone with whom one disagrees. Jude is speaking of those who deny the Master and turn grace into license, and the images belong to the whole pattern. A single grumble or a single proud moment does not make a believer a wandering star.\n\nWhat the passage does prescribe is a sober awareness of how corruption looks. Believers should notice when teaching serves the teacher's profit, flatters its hearers, or sets itself above God's order. The rest of the letter tells the church how to respond: remember, build up, pray and show mercy, verses 17 to 23. The language of woe is the Lord's to use, and it is not a model for personal insult. Jude's quotation of the prophecy also does not bless every idea found in the book he drew it from. He affirms one true saying.",
       "debates": [
         {
-          "question": "How can Jude quote the book of 1 Enoch in verses 14 to 15?",
+          "question": "How can Jude quote the book of 1 Enoch in verses 14 and 15?",
           "views": [
-            { "label": "Affirming a true prophecy without canonizing the book", "case": "Jude cites a specific saying, 1 Enoch 1:9, as a genuine word of coming judgment. Inspiration can affirm a true statement wherever it is found, just as Paul quotes the pagan poets Aratus and Epimenides in Acts 17:28 and Titus 1:12 to assert something true. Endorsing one true line is not endorsing the whole work, and the early church never received 1 Enoch as Scripture, apart from the Ethiopian tradition." },
-            { "label": "Treating Enoch as historically inspired prophecy", "case": "A minority hold that Enoch, the seventh from Adam, truly uttered this prophecy, later preserved in the book, so Jude quotes an authentic ancient word rather than the book as such. This still stops short of canonizing 1 Enoch." }
+            {
+              "label": "He affirms one true saying without canonizing the book",
+              "case": "Jude cites a specific line, 1 Enoch 1:9, as a genuine word about judgment. Inspiration can affirm a true statement wherever it is found, as Paul quotes pagan poets in Acts 17:28 and Titus 1:12. Endorsing one line does not endorse the whole work, and the early church generally did not receive 1 Enoch as Scripture."
+            },
+            {
+              "label": "He treats Enoch as a true prophet whose words survived in the book",
+              "case": "Jude says Enoch 'prophesied,' which suggests he believed the saying really came from the patriarch. On this view the book preserved a genuine ancient oracle that Scripture otherwise does not record."
+            },
+            {
+              "label": "He uses a familiar text to make an argument",
+              "case": "Others hold that Jude simply draws on a work his readers knew, in the way a preacher might cite a known writer, without claiming that Enoch literally spoke those words."
+            }
           ],
-          "bearing": "On either view, Jude's inspired use of the quotation does not make 1 Enoch Scripture. The Spirit affirms the truth of this saying about the Lord's coming judgment, and the orthodox church has consistently kept 1 Enoch outside the canon while receiving Jude within it. What Jude vouches for is the truth quoted, not the book quoted."
+          "bearing": "All three views agree that Jude's use of the line is accurate in what it teaches: the Lord will come to judge. The doctrine rests on what Scripture elsewhere confirms, Deuteronomy 33:2 and Zechariah 14:5, so the reader need not settle how Enoch's words reached Jude."
         },
         {
-          "question": "What do the three rebels, Cain, Balaam, and Korah, represent?",
+          "question": "Are the intruders 'hidden reefs' or 'blemishes' at the love feasts?",
           "views": [
-            { "label": "Three facets of the false teachers' sin", "case": "Cain pictures hatred and a false approach to God, Balaam pictures greed that leads others into sin, and Korah pictures rebellion against God appointed authority. Together they diagnose the intruders' hearts." },
-            { "label": "A single escalating way of apostasy", "case": "The three form a path, way, error, rebellion, a downward road from envy to greed to open defiance, ending in destruction like Korah's." }
+            {
+              "label": "Hidden reefs",
+              "case": "The Greek word can mean a rock in the sea, and the next images, clouds, trees and waves, are all natural pictures. Reefs are dangerous because they are unseen, which fits men who 'crept in unnoticed' in verse 4. The BSB adopts this reading."
+            },
+            {
+              "label": "Blemishes or stains",
+              "case": "A similar word in 2 Peter 2:13 means blots and blemishes, and the BSB footnote on Jude 12 offers 'blemishes.' On this view the men are stains on the shared meal, polluting what should be pure."
+            },
+            {
+              "label": "Both ideas together",
+              "case": "Some suggest the ambiguity is deliberate, for the men are both unseen dangers and a stain upon the community."
+            }
           ],
-          "bearing": "Both readings expose the intruders as heirs of the Bible's archetypal rebels, and both press the warning: their end, like Korah's, is destruction."
+          "bearing": "Either image makes the same point: the love feast, meant to show the church's unity, is being damaged from inside. The difference is whether the damage is wreckage or contamination."
+        },
+        {
+          "question": "Who are the 'holy ones' with the Lord in verse 14?",
+          "views": [
+            {
+              "label": "Angels",
+              "case": "Zechariah 14:5 and Matthew 25:31 describe the Lord coming with angels, and Deuteronomy 33:2 speaks of holy ones in a setting that Jewish tradition read of angels. This is the majority reading."
+            },
+            {
+              "label": "Believers",
+              "case": "In Paul's letters 'saints' are the people of God, and 1 Thessalonians 3:13 speaks of Christ's coming 'with all His saints.' The armies of Revelation 19:14 are also described in clothing suited to the redeemed."
+            },
+            {
+              "label": "Both",
+              "case": "Some hold that the retinue includes angels and the redeemed together, which fits the wide range of the Old Testament phrase."
+            }
+          ],
+          "bearing": "The text does not insist on one answer. The central point is the Lord's own coming and His authority to convict, not the makeup of His company."
         }
       ]
     },
-    "originalLanguages": "The passage bristles with charged words. Jude opens with ouai, woe, the prophetic cry of doom. Korah's sin is antilogia, defiant contradiction of God's order. The teachers are spilas, hidden reefs that wreck the unwary, and their end is zophos, the blackest darkness, reserved forever. Enoch propheteuo, prophesied, of the Lord coming to convict the asebes, and the ungodly word drums four times in verse 15, branding every part of their lives. Verse 16 unmasks them as gongystes, grumblers, whose proud, flattering mouths cannot hide a heart discontented with God, chasing its own lusts.",
+    "originalLanguages": "The woe of verse 11, ouai, is the cry the prophets used and that Jesus used against hypocrites, Matthew 23:13 to 29. Here it is followed by three aorist verbs of passage, and the middle one deserves attention. 'Rushed headlong' translates exechythesan, a passive of ekcheo, to pour out. The picture is of a flood poured out, so the men have let themselves be swept along into Balaam's error for the sake of profit. The error of Balaam is described as planē, the word from which we get the planets, a wandering. The 'path' of Cain uses hodos, the word for a way of life, which is the term the early Christians used of their own movement in Acts 9:2.\n\nKorah's 'rebellion,' antilogia, is a word meaning contradiction or speaking against. It appears in Hebrews 12:3 for the 'hostility' Jesus endured from sinners and in Hebrews 7:7 for a dispute. The root, 'to speak against,' fits Korah's speech in Numbers 16:3. 'Perished,' apolonto, is an aorist, which Jude uses even though he is speaking of men still alive. The aorist treats their end as already as good as done.\n\nIn verse 12 the verb 'shepherding,' poimainontes, is the ordinary word for tending a flock, used of the elders in 1 Peter 5:2. The twist is the reflexive: they shepherd 'only themselves,' echoing Ezekiel 34:2. 'Fruitless trees in autumn,' dendra phthinoporina akarpa, uses a word for late autumn, the time when fruit should be present and is not. 'Twice dead' is dis apothanonta, and Jude joins it to 'uprooted,' so a tree that bore nothing and is now torn out has no further hope.\n\nVerse 13 calls the false teachers 'wandering stars,' asteres planetai. These are not the fixed stars by which sailors steer but stars that move without a path, like the Greek 'planets.' The 'blackest darkness,' zophos tou skotous, adds a word for gloom to the word for darkness, giving a doubled phrase.\n\nIn verse 15 the root of 'ungodly,' asebes, occurs four times in the Greek, in the noun, the verb and the adjective, and the repetition is the sharpest rhetorical device of the passage. Verse 16 calls the men gongystai, a word imitating the sound of muttering, which the Greek Old Testament uses for Israel's complaints in the wilderness and Paul for the grumbling in 1 Corinthians 10:10. They are also mempsimoiroi, 'complainers' or those who find fault with their lot. Their flattery is thaumazontes prosopa, literally 'admiring faces,' for the sake of ophelia, advantage, a phrase that shows flattery as a trade.",
     "typology": [
-      { "type": "Cain, the way of hatred and false worship", "fulfillment": "A type of those who approach God on their own terms and hate the righteous, fulfilled in the false teachers who oppose the true gospel, 1 John 3:12." },
-      { "type": "Balaam, greed that leads others into sin", "fulfillment": "A type of teachers who exploit God's people for gain and entice them to immorality, fulfilled in the intruders' love of money and license, Revelation 2:14." },
-      { "type": "Korah, rebellion against God given authority", "fulfillment": "A type of those who defy the Lord's appointed order and perish, a warning realized in the destruction awaiting the false teachers, Numbers 16." }
+      {
+        "type": "The way of Cain, Genesis 4:3 to 8",
+        "fulfillment": "Cain's rejection of the correction God gave him, Genesis 4:6 to 7, and his murder of Abel make him the pattern of those who hate the righteous because of envy. John draws the same line, 1 John 3:12. The escalation is in Christ, whose righteous blood is better than Abel's, Hebrews 12:24, and who was put to death by the envy of leaders, Matthew 27:18. The type falls short in that Abel's blood cried out for vengeance, while Christ's blood speaks forgiveness."
+      },
+      {
+        "type": "Balaam, who sells his gift",
+        "fulfillment": "Balaam spoke true blessings over Israel and then, according to Numbers 31:16, advised the scheme that led Israel into sin, so his gift served his greed. The false teacher who trades on religion for profit repeats the pattern, 2 Peter 2:15 and 1 Timothy 6:5. The fulfillment in Christ is the true Shepherd who gives Himself and refuses the world's kingdoms, Matthew 4:8 to 10, and the true priest who is not for sale. The type falls short because Balaam was an outsider hired to curse, while Jude's false teachers sit inside the church."
+      },
+      {
+        "type": "Korah's rebellion against appointed leaders",
+        "fulfillment": "Korah claimed that all the congregation was holy and so challenged the priesthood God had set, Numbers 16:3 and 16:10. The Letter to the Hebrews points to Christ as the one great priest appointed by God, Hebrews 5:4 to 6, and to the church's call to submit to those who lead, Hebrews 13:17. The type falls short in that Korah's error was a rejection of a human priesthood, while the final danger is rejection of the Priest who is God's Son."
+      },
+      {
+        "type": "Enoch, the prophet of the coming Lord",
+        "fulfillment": "Enoch walked with God and was taken, Genesis 5:24, and Hebrews 11:5 says he pleased God. Jude makes him a witness who looked ahead to the Lord's coming in judgment. The escalation is in Christ, the Lord who actually comes, 1 Thessalonians 3:13 and Revelation 19:11 to 14. The type falls short because Enoch spoke of the coming, while Christ is the one who comes and also the one who was taken up and will return, Acts 1:11."
+      }
     ],
-    "christ": "Enoch's prophecy declares, Behold, the Lord is coming with myriads of His holy ones to execute judgment. Read in the full light of the New Testament, this is the return of the Lord Jesus in glory with His angels to judge the living and the dead, Matthew 25:31. The Christ who first came in lowliness to bear judgment for sinners will come again to convict all who persist in ungodliness. Those who now deny Him as Master will one day meet Him as Judge, while His own are vindicated at His appearing.",
-    "god": "God is revealed as the perfectly righteous Judge. Verse 15 emphasizes the completeness of His justice: He will convict everyone, of every ungodly deed, and even of every harsh word spoken against Him. Nothing escapes His notice and nothing is left unaddressed. This is fearful for the ungodly and comforting for the faithful, for it means evil will finally be named, judged, and undone by a God who forgets nothing and overlooks no wrong.",
+    "christ": "The prophecy in verses 14 and 15 speaks of 'the Lord' coming with myriads of holy ones to execute judgment. In the Enoch passage this Lord is God Himself. In Jude's letter the Lord who comes is the one he has just named as 'our only Master and Lord, Jesus Christ,' in verse 4, and who will bring mercy to eternal life in verse 21. The same name is used throughout, and the New Testament links the coming of the Lord with Christ's return, 1 Thessalonians 3:13 and 2 Thessalonians 1:7 to 10. So an Old Testament and Jewish expectation of God's arrival is given its meaning in Jesus.\n\nThe passage presents Christ as the judge to whom the whole story points. Jesus said that the Father has entrusted all judgment to the Son, John 5:22, and Paul told the Athenians that God has fixed a day when He will judge the world through a man He appointed, Acts 17:31. The false teachers have denied Him; they will meet Him. The words 'every harsh word spoken against Him' in verse 15 make this personal. The harsh speech is aimed at the Lord, and the Lord will hear the case.\n\nThe passage also holds up the three rebels as shadows against which Christ shows. Against Cain, who killed a brother out of envy, stands the Son who laid down His life for His brothers. Against Balaam, who used his gift for gain, stands the Shepherd who gave Himself for the flock, John 10:11. Against Korah, who set himself against God's appointed mediator, stands the one appointed Mediator, 1 Timothy 2:5.\n\nA caution protects the reading. Jude does not tell us that Enoch knew the name of Jesus, and we should not press the patriarch's words for more than they say. What the passage gives is a plain direction: the Judge who comes is the Lord Jesus, and for His people He is also the one who keeps them and will bring them through. The fearful picture of judgment therefore points toward the shelter found in Him, and the safest place on that day is among those who belong to the Master.",
+    "god": "The passage shows a God who sees and who keeps account. Verse 15 says He will convict all the ungodly of every act and every word. Nothing is overlooked, and nothing needs to be proved by a human accuser. The picture is of a judge who knows the whole record and speaks from a position of complete knowledge. That is both a threat to the unrepentant and a comfort for the wronged: the God who sees the arrogant and the flatterer also sees those they trample.\n\nHe is also shown as the one who has told His people what He will do. The prophecy of Enoch is an old word about a future coming, and Jude treats it as reliable. God does not take His people by surprise; He announces judgment ahead of time through Enoch, through Moses, through the prophets and through the apostles. His word is a gift that allows people to turn.\n\nThe three names also say something about His character. He is the God who confronts Cain and gives him a way back, Genesis 4:6 to 7; He is the God who turned Balaam's curse into a blessing, Numbers 23:11 to 12 and 24:10; and He is the God who vindicated His appointed leaders when Korah challenged them, Numbers 16:28 to 33. In each case His holiness meets human pride, and in each case the outcome is on His side.\n\nThe images of reefs, clouds, trees and stars imply a world He made and governs. The sea, wind and heavens belong to Him, and nothing in the created order can be turned into a reason for hope apart from Him. What looks like a rival source of life, a cloud, a tree, a guiding star, is empty unless God supplies it.\n\nFor worship, the verses invite reverence before the Lord who comes. They also call for gratitude that the Judge is the One who has loved, called and kept His own. The same coming that frightens the proud is the hope of the humble, and the right response is to cling to the Master and to refuse the grumbling and flattery of those who do not.",
     "crossReferences": [
-      { "ref": "Numbers 16:1-35", "note": "Korah's rebellion against Moses and Aaron, and the destruction that swallowed the rebels, echoed in Korah's rebellion." },
-      { "ref": "Numbers 22-24; 31:16", "note": "Balaam, whose greed and counsel led Israel into sin, the pattern of teachers who corrupt for gain." },
-      { "ref": "2 Peter 2:15-17", "note": "Parallel condemnation naming Balaam and describing waterless springs and mists driven by a storm." },
-      { "ref": "Matthew 25:31", "note": "The Son of Man comes in glory with all His angels to judge the nations, fulfilling the oracle of the Lord coming with His holy ones." }
+      {
+        "ref": "Genesis 4:3-8",
+        "note": "Cain is angry when his offering is not accepted and kills his brother, though God warned him that sin was crouching at the door. This is the first path Jude names: envy that refuses correction and ends in violence."
+      },
+      {
+        "ref": "Numbers 22:5-7",
+        "note": "Balak sends for Balaam with the fee for divination in hand, seeking a curse on Israel. The picture of a prophet in the market for a reward explains why Jude connects Balaam with those who use religion for gain."
+      },
+      {
+        "ref": "Numbers 31:16",
+        "note": "Moses says the women caused Israel to turn from the LORD at Peor by Balaam's counsel. It shows that Balaam's real harm was not his words but his advice to seduce the people, which is why Jude says he led others into error."
+      },
+      {
+        "ref": "Numbers 16:1-3",
+        "note": "Korah, with Dathan, Abiram and 250 leaders, confronts Moses and Aaron, claiming that all the congregation is holy. It is the source of Jude's third name and shows rebellion dressed in the language of equality."
+      },
+      {
+        "ref": "Ezekiel 34:1-10",
+        "note": "The LORD speaks against shepherds who feed themselves and not the flock. This is the background to the men who feast shamelessly and shepherd only themselves, and it shows what the prophets expected of leaders."
+      },
+      {
+        "ref": "Isaiah 57:20-21",
+        "note": "The wicked are like the churning sea, and there is no peace for them. This stands behind Jude's wild waves foaming up their own shame, and teaches that restlessness is the mark of those who turn from God."
+      },
+      {
+        "ref": "Zechariah 14:3-5",
+        "note": "The LORD will go out to fight and will come with all the holy ones with Him. This gives biblical support for the picture of the Lord's arrival that Jude takes from Enoch, and it ties it to the final day."
+      },
+      {
+        "ref": "1 Corinthians 10:10",
+        "note": "Paul warns against grumbling as some in the wilderness did, who were killed by the destroying angel. It shows that Jude's 'grumblers' belong to an old pattern and that grumbling against God's provision is not a trivial fault."
+      },
+      {
+        "ref": "Matthew 7:15-20",
+        "note": "Jesus tells His disciples to judge false prophets by their fruit. Jude's fruitless trees in autumn are the same test applied: the teachers promise much and produce nothing that nourishes."
+      }
     ],
-    "oneStory": "The great rebels of Israel's story, Cain, Balaam, and Korah, are not relics; their spirit lives in every corrupter of God's people. Jude places the intruders under the ancient and unbroken promise that the Lord will come with His holy ones to judge all ungodliness. That promise runs from Enoch through the prophets to its fulfillment in the return of Christ, who convicts the wicked, silences every ungodly word, and gathers His kept and faithful people to Himself.",
-    "sermon": { "status": "verified", "preacher": "Alistair Begg", "title": "Lessons from the Past", "url": "https://www.truthforlife.org/resources/sermon/lessons-past/", "why": "From Begg's series A Study in Jude, this message treats Jude 1:11-13, the woe over the false teachers, the way of Cain, Balaam, and Korah, and the six vivid word pictures of their emptiness. A clear, orthodox handling of this movement's warnings." }
+    "oneStory": "Genesis 3 opens the human story with a voice that makes God sound stingy, and Genesis 4 shows its first fruit, a brother murdered. Cain is the opening pattern in a long line, and Jude reads the later story of Israel in the same light. Balaam and Korah are Cain's heirs, one selling a gift and the other grabbing authority. Between them they show that rebellion can come from outside, as with Balaam, and from within the covenant community, as with Korah.\n\nThe passage also joins Enoch to the story. Enoch walked with God in the generations before the flood and was taken, Genesis 5:24, and the faithful remnant has always included those who look ahead. Jude's choice of Enoch, the seventh from Adam, places the warning at the very beginning of human history, so that judgment is no late invention. It was announced in the earliest times.\n\nThe future side of the story comes in the Lord's coming. The prophets looked for the day when the LORD would arrive, and the New Testament names Him as Jesus, who will return in glory with His people and His angels. The wicked, who have been taking advantage of the church's meals and the church's trust, will be made to give an account.\n\nIn the new creation there are no hidden reefs and no waterless clouds. Revelation closes with a river of the water of life and a tree whose leaves are for the healing of the nations, Revelation 22:1 to 2, which is the fulfillment of what the false teachers only pretend to offer. There will be no more shepherding of self; the Lamb will be their shepherd, Revelation 7:17. The story ends with real water, real fruit and real light, and with the grumbling over.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "Alistair Begg",
+      "title": "Lessons from the Past",
+      "url": "https://www.truthforlife.org/resources/sermon/lessons-past/",
+      "why": "From Begg's series A Study in Jude, this message treats Jude 1:11-13, the woe over the false teachers, the way of Cain, Balaam, and Korah, and the six vivid word pictures of their emptiness. A clear, orthodox handling of this movement's warnings."
+    }
   },
   "quiz": [
     {
       "q": "Why does Jude link the false teachers to Cain, Balaam, and Korah?",
       "options": [
-        { "text": "They are heirs of the Bible's great rebels, and their end will be destruction like Korah's.", "weight": 100, "note": "Jude 1:11 diagnoses their sin through three archetypal rebels and their doom." },
-        { "text": "To show the teachers were direct descendants of these men.", "weight": 25, "note": "The link is one of spirit and pattern, not physical descent." },
-        { "text": "Because these three were the only sinners in the Old Testament.", "weight": 0, "note": "They are chosen as vivid examples, not because they were the only sinners." },
-        { "text": "To celebrate the courage of Cain, Balaam, and Korah.", "weight": 75, "note": "The opposite: Jude condemns their way, he does not celebrate it." }
+        {
+          "text": "They are heirs of the Bible's great rebels, and their end will be destruction like Korah's.",
+          "weight": 100,
+          "note": "Jude 1:11 diagnoses their sin through three archetypal rebels and their doom."
+        },
+        {
+          "text": "To show the teachers were direct descendants of these men.",
+          "weight": 25,
+          "note": "The link is one of spirit and pattern, not physical descent."
+        },
+        {
+          "text": "Because these three were the only sinners in the Old Testament.",
+          "weight": 0,
+          "note": "They are chosen as vivid examples, not because they were the only sinners."
+        },
+        {
+          "text": "To celebrate the courage of Cain, Balaam, and Korah.",
+          "weight": 75,
+          "note": "The opposite: Jude condemns their way, he does not celebrate it."
+        }
       ]
     },
     {
       "q": "What do the six word pictures in verses 12 to 13 reveal about the false teachers?",
       "options": [
-        { "text": "They are empty, dangerous, and doomed, like reefs, waterless clouds, and wandering stars.", "weight": 100, "note": "The images stack up their barrenness, peril, and reserved judgment." },
-        { "text": "They are fruitful and reliable guides.", "weight": 0, "note": "The images say the opposite: fruitless, waterless, and wandering." },
-        { "text": "They are harmless if simply ignored.", "weight": 25, "note": "Hidden reefs are precisely the danger you do not see coming; they are far from harmless." },
-        { "text": "They are merely a little disappointing.", "weight": 75, "note": "The images convey serious danger and certain doom, not mild disappointment." }
+        {
+          "text": "They are empty, dangerous, and doomed, like reefs, waterless clouds, and wandering stars.",
+          "weight": 100,
+          "note": "The images stack up their barrenness, peril, and reserved judgment."
+        },
+        {
+          "text": "They are fruitful and reliable guides.",
+          "weight": 0,
+          "note": "The images say the opposite: fruitless, waterless, and wandering."
+        },
+        {
+          "text": "They are harmless if simply ignored.",
+          "weight": 25,
+          "note": "Hidden reefs are precisely the danger you do not see coming; they are far from harmless."
+        },
+        {
+          "text": "They are merely a little disappointing.",
+          "weight": 75,
+          "note": "The images convey serious danger and certain doom, not mild disappointment."
+        }
       ]
     },
     {
       "q": "How should we understand Jude quoting the book of 1 Enoch?",
       "options": [
-        { "text": "He affirms a true saying about judgment without making the whole book Scripture.", "weight": 100, "note": "Inspiration can affirm a true statement wherever found, as Paul quotes pagan poets." },
-        { "text": "He proves that 1 Enoch belongs in the Bible.", "weight": 0, "note": "The church has consistently kept 1 Enoch outside the canon while receiving Jude." },
-        { "text": "He made an error by quoting a non biblical book.", "weight": 25, "note": "Jude's use is deliberate and inspired, affirming the truth of the quoted line." },
-        { "text": "He cites an ancient prophecy his readers would recognize.", "weight": 75, "note": "True, but the fuller point is that he vouches for the truth quoted, not the book." }
+        {
+          "text": "He affirms a true saying about judgment without making the whole book Scripture.",
+          "weight": 100,
+          "note": "Inspiration can affirm a true statement wherever found, as Paul quotes pagan poets."
+        },
+        {
+          "text": "He proves that 1 Enoch belongs in the Bible.",
+          "weight": 0,
+          "note": "The church has consistently kept 1 Enoch outside the canon while receiving Jude."
+        },
+        {
+          "text": "He made an error by quoting a non biblical book.",
+          "weight": 25,
+          "note": "Jude's use is deliberate and inspired, affirming the truth of the quoted line."
+        },
+        {
+          "text": "He cites an ancient prophecy his readers would recognize.",
+          "weight": 75,
+          "note": "True, but the fuller point is that he vouches for the truth quoted, not the book."
+        }
       ]
     },
     {
       "q": "What does Enoch's prophecy in verses 14 to 15 announce?",
       "options": [
-        { "text": "The Lord is coming with His holy ones to judge and convict all the ungodly.", "weight": 100, "note": "Jude 1:14-15 declares certain, thorough judgment on every ungodly deed and word." },
-        { "text": "That God will overlook the false teachers' sins.", "weight": 0, "note": "The prophecy stresses conviction of every ungodly act, not overlooking sin." },
-        { "text": "That judgment is only for deeds, never for words.", "weight": 25, "note": "It explicitly includes every harsh word spoken against God." },
-        { "text": "That the Lord's coming is uncertain and far off.", "weight": 75, "note": "The tone is one of certainty; the Lord is coming to judge." }
+        {
+          "text": "The Lord is coming with His holy ones to judge and convict all the ungodly.",
+          "weight": 100,
+          "note": "Jude 1:14-15 declares certain, thorough judgment on every ungodly deed and word."
+        },
+        {
+          "text": "That God will overlook the false teachers' sins.",
+          "weight": 0,
+          "note": "The prophecy stresses conviction of every ungodly act, not overlooking sin."
+        },
+        {
+          "text": "That judgment is only for deeds, never for words.",
+          "weight": 25,
+          "note": "It explicitly includes every harsh word spoken against God."
+        },
+        {
+          "text": "That the Lord's coming is uncertain and far off.",
+          "weight": 75,
+          "note": "The tone is one of certainty; the Lord is coming to judge."
+        }
       ]
     },
     {
       "q": "What does verse 16 reveal lies beneath the teachers' proud and flattering speech?",
       "options": [
-        { "text": "A discontented, grumbling heart that chases its own desires rather than trusting God.", "weight": 100, "note": "Jude 1:16 exposes grumblers who follow their own lusts behind the arrogant words." },
-        { "text": "A genuine, humble love for the church.", "weight": 0, "note": "Their flattery serves their own advantage, not the good of the church." },
-        { "text": "A harmless eccentricity of personality.", "weight": 25, "note": "It is moral and spiritual rebellion, not mere personality." },
-        { "text": "A sincere but misguided zeal for God.", "weight": 75, "note": "The text names self serving lust and discontent, not zeal for God." }
+        {
+          "text": "A discontented, grumbling heart that chases its own desires rather than trusting God.",
+          "weight": 100,
+          "note": "Jude 1:16 exposes grumblers who follow their own lusts behind the arrogant words."
+        },
+        {
+          "text": "A genuine, humble love for the church.",
+          "weight": 0,
+          "note": "Their flattery serves their own advantage, not the good of the church."
+        },
+        {
+          "text": "A harmless eccentricity of personality.",
+          "weight": 25,
+          "note": "It is moral and spiritual rebellion, not mere personality."
+        },
+        {
+          "text": "A sincere but misguided zeal for God.",
+          "weight": 75,
+          "note": "The text names self serving lust and discontent, not zeal for God."
+        }
       ]
     }
   ],
@@ -161,10 +389,25 @@
     "The Lord is coming with His holy ones to judge and to vindicate His people. How does the certainty of His return steady you when evil seems to flourish now?"
   ],
   "translationNotes": [
-    { "ref": "Jude 1:11", "note": "Korah's rebellion renders a phrase, the antilogia of Korah, meaning his defiant opposition to God's appointed leaders in Numbers 16." },
-    { "ref": "Jude 1:12", "note": "Hidden reefs translates spilas; a footnote notes the alternative rendering blemishes. Love feasts were the shared fellowship meals of the early church." },
-    { "ref": "Jude 1:14", "note": "This quotes 1 Enoch 1:9, a Jewish work outside the canon; Jude affirms the truth of the saying about the Lord's coming judgment without endorsing the whole book." },
-    { "ref": "Jude 1:15", "note": "The word ungodly appears four times, ungodly people, ungodly deeds, ungodly way, and ungodly words, underscoring the completeness of the coming judgment." }
+    {
+      "ref": "Jude 1:11",
+      "note": "Korah's rebellion renders a phrase, the antilogia of Korah, meaning his defiant opposition to God's appointed leaders in Numbers 16."
+    },
+    {
+      "ref": "Jude 1:12",
+      "note": "Hidden reefs translates spilas; a footnote notes the alternative rendering blemishes. Love feasts were the shared fellowship meals of the early church."
+    },
+    {
+      "ref": "Jude 1:14",
+      "note": "This quotes 1 Enoch 1:9, a Jewish work outside the canon; Jude affirms the truth of the saying about the Lord's coming judgment without endorsing the whole book."
+    },
+    {
+      "ref": "Jude 1:15",
+      "note": "The word ungodly appears four times, ungodly people, ungodly deeds, ungodly way, and ungodly words, underscoring the completeness of the coming judgment."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Jude 1:11-16, including the poetic lines of verses 14-15." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Jude 1:11-16, including the poetic lines of verses 14-15."
+  }
 }

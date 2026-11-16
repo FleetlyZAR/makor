@@ -18,8 +18,16 @@
         "note": "called, loved, and kept",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 1, "text": "Jude, a {{doulos|servant}} of Jesus Christ and a brother of James, To those who are called, loved by God the Father, and {{tereo|kept}} in Jesus Christ:" },
-          { "chapter": 1, "n": 2, "text": "Mercy, peace, and love be multiplied to you." }
+          {
+            "chapter": 1,
+            "n": 1,
+            "text": "Jude, a {{doulos|servant}} of Jesus Christ and a brother of James, To those who are called, loved by God the Father, and {{tereo|kept}} in Jesus Christ:"
+          },
+          {
+            "chapter": 1,
+            "n": 2,
+            "text": "Mercy, peace, and love be multiplied to you."
+          }
         ]
       },
       {
@@ -27,21 +35,69 @@
         "note": "contend for the faith",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 3, "text": "Beloved, although I made every effort to write to you about the salvation we share, I felt it necessary to write and urge you to {{epagonizomai|contend earnestly}} for the faith entrusted {{hapax|once for all}} to the saints." },
-          { "chapter": 1, "n": 4, "text": "For certain men have {{pareisduo|crept in among you unnoticed}}, {{asebes|ungodly}} ones who were designated long ago for condemnation. They turn the grace of our God into a license for {{aselgeia|immorality}}, and they deny our only {{despotes|Master}} and Lord, Jesus Christ." }
+          {
+            "chapter": 1,
+            "n": 3,
+            "text": "Beloved, although I made every effort to write to you about the salvation we share, I felt it necessary to write and urge you to {{epagonizomai|contend earnestly}} for the faith entrusted {{hapax|once for all}} to the saints."
+          },
+          {
+            "chapter": 1,
+            "n": 4,
+            "text": "For certain men have {{pareisduo|crept in among you unnoticed}}, {{asebes|ungodly}} ones who were designated long ago for condemnation. They turn the grace of our God into a license for {{aselgeia|immorality}}, and they deny our only {{despotes|Master}} and Lord, Jesus Christ."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "doulos": { "language": "Greek", "lemma": "doulos", "original": "δοῦλος", "gloss": "A slave or bondservant. Jude, likely a half brother of Jesus, does not lead with family privilege but calls himself a slave of Jesus Christ. It is a title of total belonging and glad submission to the Lord he once did not believe in, John 7:5." },
-    "tereo": { "language": "Greek", "lemma": "tereo", "original": "τηρέω", "gloss": "To keep, guard, watch over, hold securely. This is a keyword that threads through the whole letter. Here believers are kept in Jesus Christ; later the ungodly are kept for judgment. The same God who guards His own also holds the wicked in reserve." },
-    "epagonizomai": { "language": "Greek", "lemma": "epagonizomai", "original": "ἐπαγωνίζομαι", "gloss": "To contend earnestly, to struggle or fight for. It is built on the word from which we get agonize, picturing an athlete straining or a soldier fighting. Jude urges not mild agreement but strenuous, costly defense of the faith against those who would corrupt it." },
-    "hapax": { "language": "Greek", "lemma": "hapax", "original": "ἅπαξ", "gloss": "Once for all, once and never to be repeated. The faith was delivered once for all to the saints, a fixed and finished deposit of truth. It is not up for revision or reinvention; the church guards it and passes it on rather than adding to it." },
-    "pareisduo": { "language": "Greek", "lemma": "pareisduo", "original": "παρεισδύω", "gloss": "To slip in secretly, to sneak in alongside, unnoticed. The danger did not storm the gates; it crept in quietly, from within the fellowship. The word captures the stealth of false teachers who look like insiders while undermining the faith." },
-    "asebes": { "language": "Greek", "lemma": "asebes", "original": "ἀσεβής", "gloss": "Ungodly, impious, without reverence for God. This word and its relatives sound like a drumbeat through Jude, marking those whose lives and teaching show no true fear of God. Their condemnation was written long ago." },
-    "aselgeia": { "language": "Greek", "lemma": "aselgeia", "original": "ἀσέλγεια", "gloss": "Sensuality, unrestrained indulgence, shameless excess. The intruders twist God's grace into a permit for it, treating forgiveness as freedom to sin. It names the moral rot that always follows when grace is severed from holiness." },
-    "despotes": { "language": "Greek", "lemma": "despotes", "original": "δεσπότης", "gloss": "Master, sovereign owner, the one with absolute rights over a household. To deny Jesus as our only Master is to reject His ownership and rule. Their license for sin is, at root, a refusal of the Lord who bought them." }
+    "doulos": {
+      "language": "Greek",
+      "lemma": "doulos",
+      "original": "δοῦλος",
+      "gloss": "A slave or bondservant. Jude, likely a half brother of Jesus, does not lead with family privilege but calls himself a slave of Jesus Christ. It is a title of total belonging and glad submission to the Lord he once did not believe in, John 7:5."
+    },
+    "tereo": {
+      "language": "Greek",
+      "lemma": "tereo",
+      "original": "τηρέω",
+      "gloss": "To keep, guard, watch over, hold securely. This is a keyword that threads through the whole letter. Here believers are kept in Jesus Christ; later the ungodly are kept for judgment. The same God who guards His own also holds the wicked in reserve."
+    },
+    "epagonizomai": {
+      "language": "Greek",
+      "lemma": "epagonizomai",
+      "original": "ἐπαγωνίζομαι",
+      "gloss": "To contend earnestly, to struggle or fight for. It is built on the word from which we get agonize, picturing an athlete straining or a soldier fighting. Jude urges not mild agreement but strenuous, costly defense of the faith against those who would corrupt it."
+    },
+    "hapax": {
+      "language": "Greek",
+      "lemma": "hapax",
+      "original": "ἅπαξ",
+      "gloss": "Once for all, once and never to be repeated. The faith was delivered once for all to the saints, a fixed and finished deposit of truth. It is not up for revision or reinvention; the church guards it and passes it on rather than adding to it."
+    },
+    "pareisduo": {
+      "language": "Greek",
+      "lemma": "pareisduo",
+      "original": "παρεισδύω",
+      "gloss": "To slip in secretly, to sneak in alongside, unnoticed. The danger did not storm the gates; it crept in quietly, from within the fellowship. The word captures the stealth of false teachers who look like insiders while undermining the faith."
+    },
+    "asebes": {
+      "language": "Greek",
+      "lemma": "asebes",
+      "original": "ἀσεβής",
+      "gloss": "Ungodly, impious, without reverence for God. This word and its relatives sound like a drumbeat through Jude, marking those whose lives and teaching show no true fear of God. Their condemnation was written long ago."
+    },
+    "aselgeia": {
+      "language": "Greek",
+      "lemma": "aselgeia",
+      "original": "ἀσέλγεια",
+      "gloss": "Sensuality, unrestrained indulgence, shameless excess. The intruders twist God's grace into a permit for it, treating forgiveness as freedom to sin. It names the moral rot that always follows when grace is severed from holiness."
+    },
+    "despotes": {
+      "language": "Greek",
+      "lemma": "despotes",
+      "original": "δεσπότης",
+      "gloss": "Master, sovereign owner, the one with absolute rights over a household. To deny Jesus as our only Master is to reject His ownership and rule. Their license for sin is, at root, a refusal of the Lord who bought them."
+    }
   },
   "study": {
     "basic": {
@@ -55,92 +111,254 @@
       "oneStory": "From Eden onward, God's word has been twisted by those who promise freedom and deliver bondage. Jude calls the church to hold fast the faith once for all delivered, the gospel of the only Master, Jesus Christ, and to fight for it, secure in the knowledge that they are kept by the very Lord they contend for."
     },
     "context": {
-      "literary": "The formal opening of a compact letter. Verses 1 to 2 are a standard greeting, but loaded with three great assurances, called, loved, kept. Verses 3 to 4 form the thesis statement of the whole book: the occasion, an urgent change of subject, and the reason, intruders described in a single damning sentence. Everything that follows unpacks verse 4.",
-      "historical": "Jude, also called Judas, is most likely the brother of James the Just and thus a half brother of Jesus, Matthew 13:55. Writing probably in the AD 60s or later, he addresses churches infiltrated by traveling teachers who claimed the name of Christ while living immoral lives, a recurring peril in the first century.",
-      "canonical": "Jude stands near the close of the New Testament as a fierce guardian of apostolic truth. It shares striking overlap with 2 Peter 2 and belongs to the general epistles' concern for the church's purity as the apostolic age drew toward its end."
+      "literary": "Jude is a one chapter letter that follows the ordinary Greek pattern: sender, recipients and greeting in verses 1 and 2, then the reason for writing in verses 3 and 4. Those two verses are the hinge of the whole letter. Everything after verse 4 is an argument built on them, and everything before them is a warm preparation for them. Notice how the greeting prepares the ground. Before a single warning is issued, the readers are named as called, loved and kept, so that the letter's fear is set inside a settled confidence.\n\nVerse 3 turns on a confession of a change of plan. Jude says he had been making every effort to write about a shared salvation, then found it necessary to write something else. The word 'necessary' tells us the pressure came from outside; he did not choose this letter, circumstances forced it. The commanding verb, to contend, is placed at the end of a long sentence, with the faith described before the fight is named, so the reader meets the treasure before the battle.\n\nVerse 4 supplies three reasons in tight sequence, each introduced by a participle or relative clause: the men crept in, they were long ago marked out for condemnation, and they behave in two ways, perverting grace and denying the Master. The rest of the letter will return to every one of these in turn. Jude's habit of triads, called, loved, kept; mercy, peace, love; and later three examples, three rebels and three duties, starts here. He likes threes, and the opening verses show it.",
+      "historical": "The letter carries no address, so we cannot name the churches. Its detailed use of Jewish traditions and of the Old Testament, together with its Semitic style, suggests readers with a strong Jewish background, perhaps in Palestine or the surrounding region, though that is an inference. Jude gives himself no title beyond servant and brother of James. In the early church the name James at once meant the leader of the Jerusalem church, Acts 15:13 and Galatians 1:19, so Jude is quietly claiming a place in that family without boasting of kinship with Jesus.\n\nThe Gospels name four brothers of Jesus, James, Joses, Judas and Simon, Mark 6:3. Judas is the same name as Jude in English, for both come from Judah. John 7:5 reports that His brothers did not believe in Him during His ministry, yet Acts 1:14 finds them praying with the apostles after the resurrection, and 1 Corinthians 9:5 mentions the Lord's brothers travelling in ministry. An early tradition preserved by Eusebius speaks of Jude's grandsons being questioned before the emperor Domitian, which fits a family that remained known to the churches, though the details come from a later source.\n\nThe false teachers fit a pattern the first generation of Christians knew well. Paul had warned of 'false brothers' who 'had come in under false pretenses,' Galatians 2:4, and of wolves who would come after his departure, Acts 20:29. Jude's own line, that grace was being turned into a license, answers a misuse of Paul's preaching that Paul himself fought, Romans 6:1. Nothing in the letter dates it precisely. Most place it in the middle decades of the first century, with the apostles still living and 'remember what was foretold by the apostles' of verse 17 reading as a recent memory.",
+      "canonical": "Jude was not received without hesitation. Because it quotes 1 Enoch and an account about Moses' body, some early Christians doubted it, and Eusebius listed it among the books spoken against by some, though read openly in most churches. It was nonetheless in the Muratorian list and was accepted across the church by the fourth century. Its short length hides a wide reach.\n\nThe letter stands beside 2 Peter in the canon, and the overlap is plain. Compare Jude 4 to 18 with 2 Peter 2 and 3: the same angels in chains, the same Sodom, the same Balaam, the same scoffers in the last days. Scholars disagree on who borrowed from whom, or whether both drew on a shared source, and the study of that question is a debate in its own right. Either way, two apostolic voices agree on what to expect.\n\nWhat Jude says about the faith 'entrusted once for all' joins the pastoral letters, which speak of a deposit to be guarded, 1 Timothy 6:20 and 2 Timothy 1:14. His warning against perverting grace joins Paul's argument in Romans 6 and Galatians 5:13, and his picture of the called and kept people of God joins John 17:11 and 1 Peter 1:5. In Jesus' own words in Matthew 7:15 and in 1 John 2:19, the threat from inside the fellowship is a standing biblical theme, and Jude's opening is its most compact statement."
     },
     "hermeneutics": {
-      "authorIntent": "To interrupt a planned letter of encouragement with an urgent call to defend the faith, alerting the churches to intruders who pervert grace and deny Christ, and to root that call in the security believers already have in God.",
-      "descriptionVsPrescription": "The description is the danger, false teachers who have crept in. The prescription is enduring: contend earnestly for the faith once for all delivered. The command is not to be quarrelsome but to guard and stand for the gospel in every age.",
+      "authorIntent": "Jude wanted his readers to do something specific: to contend. He did not write an essay on heresy for its own sake. He wrote to rouse a church that may have been drifting toward either denial or indifference. The tone of verse 3 is urgent, not anxious. He opens by naming them beloved, which is a signal that the fight he calls for is a family loyalty, not a dispute among strangers.\n\nHe also meant to give them a means of recognizing the problem. The men he describes are not obvious outsiders. They crept in unnoticed, and they are described by what they do with grace and with Christ, not by a party label. The two marks, license and a denied Master, are doctrine and conduct together, and Jude expects ordinary believers to be able to test a teacher on both. A teacher who lets people sin freely and who diminishes Jesus has failed regardless of charm.\n\nFinally, Jude meant the first hearers to remember that their security does not rest on their vigilance. They are kept before they are told to contend. The sequence is the comfort and the command at once.",
+      "descriptionVsPrescription": "The description in verse 4 is of particular men in a particular church, and Jude does not tell later readers to hunt for villains. What is commanded is verse 3: contend earnestly for the faith. That command stands for every generation, because the faith is a fixed deposit and the same denial keeps returning. It is worth noticing what the command does not authorize. Jude says nothing about violence, shaming people or controlling their consciences. The contest is for a message, and Scripture elsewhere says how it is fought: with gentleness, patience and truth, 2 Timothy 2:24 to 25, and with mercy, as Jude himself will say in verses 22 and 23.\n\nIt is also worth separating what Jude says about the false teachers' fate from what he asks readers to do about it. The condemnation of verse 4 is God's, and it was designated long ago. The believer's task is not to pronounce judgment but to hold fast and to protect the flock.",
       "debates": [
         {
           "question": "Who is the Jude who wrote this letter?",
           "views": [
-            { "label": "The brother of James and half brother of Jesus", "case": "He names himself brother of James, the well known leader of the Jerusalem church, and both are listed among Jesus' brothers in Matthew 13:55 and Mark 6:3. His humility in calling himself a servant rather than the Lord's brother fits a family member who came to faith after the resurrection." },
-            { "label": "Another Jude, such as the apostle Judas son of James", "case": "Some point to the apostle named in Luke 6:16, but that Jude is son of James, not brother, and the letter's link to James the Just is more natural." }
+            {
+              "label": "The brother of James and half brother of Jesus",
+              "case": "He calls himself brother of James, whom the church knew as the leader at Jerusalem, and Mark 6:3 lists a Judas among Jesus' brothers. Calling himself a servant, not the Lord's brother, fits a man who once did not believe, John 7:5, and now bows to Jesus as Master."
+            },
+            {
+              "label": "Another Jude, such as the apostle Judas son of James",
+              "case": "Luke 6:16 and Acts 1:13 name a Judas son of James among the Twelve. But the Greek there says only 'of James,' which most take as 'son of,' while Jude here says 'brother of James,' and he speaks of the apostles as a group apart in verse 17."
+            },
+            {
+              "label": "A later writer using Jude's name",
+              "case": "A minority hold the letter was written later in his name, citing its language and its sense that the faith is a settled deposit. Against this, the Jewish background and the plain, early features of the situation weigh toward the first century."
+            }
           ],
-          "bearing": "Either way the letter carries apostolic era authority. The strongest and traditional reading is that this is Jude the brother of James, giving the warning the weight of one who knew the Lord in the flesh yet bowed to Him as Master."
+          "bearing": "The brother of James is the traditional and best supported view, and it gives the warning the weight of a man who knew the Lord in the flesh. Nothing in the letter's teaching depends on settling the question, because its authority rests on its place in Scripture."
         },
         {
-          "question": "What is the faith that was once for all delivered?",
+          "question": "What does it mean that the faith was delivered 'once for all'?",
           "views": [
-            { "label": "The objective body of gospel truth", "case": "The faith here is not personal trust but the content believed, the apostolic teaching about Christ. Delivered once for all, hapax, it is a fixed deposit to be guarded, not an evolving tradition." },
-            { "label": "A broader way of life and belief", "case": "Some read it more loosely as the Christian religion in general, but the sharp contrast with those who deny our only Master shows Jude means definite, doctrinal truth." }
+            {
+              "label": "A fixed body of apostolic teaching",
+              "case": "The faith is the content believed, not personal trust. The Greek behind 'once for all' stresses a single, unrepeatable act of giving, and the verb 'entrusted' is the language of handing on a tradition, 1 Corinthians 15:3. It matches the 'deposit' of 2 Timothy 1:14."
+            },
+            {
+              "label": "The Christian way of life and belief together",
+              "case": "Others hold that faith here includes how the gospel is lived, since the false teachers are also condemned for their conduct in verse 4. The deposit is truth and life as one."
+            },
+            {
+              "label": "Open to development",
+              "case": "A third view allows later doctrine to grow, but it must answer the plain emphasis on 'once for all,' which closes the revelation of what is to be believed."
+            }
           ],
-          "bearing": "Reading the faith as a settled deposit grounds the whole letter: there is something objective to contend for, and the false teachers can be measured against it and found wanting."
+          "bearing": "The first two views are compatible, since the content of the faith includes how grace trains conduct, Titus 2:11 to 12. The third view fits the text least, because Jude's whole argument rests on a standard that is already settled."
+        },
+        {
+          "question": "Is 'kept in Jesus Christ' something God does for us, by Him, or in Him?",
+          "views": [
+            {
+              "label": "Kept by Jesus Christ",
+              "case": "The dative case can express the agent, so that Jesus Christ is the one who keeps. This fits John 17:12, where Jesus says He protected those given to Him."
+            },
+            {
+              "label": "Kept for Jesus Christ",
+              "case": "The same case can express advantage, 'preserved for Jesus Christ,' meaning kept for His return. That would link to verse 21, where the readers await His mercy."
+            },
+            {
+              "label": "Kept in Jesus Christ",
+              "case": "The BSB reads the dative as sphere, believers held within union with Him. This is the least strained for a phrase set beside 'loved by God the Father.'"
+            }
+          ],
+          "bearing": "The three senses do not exclude each other. The effect is the same: the people who must contend are first the people who are held."
         }
       ]
     },
-    "originalLanguages": "The opening words set the tone. Jude is a doulos, a slave wholly owned by Jesus Christ. His readers are three things at once: called, loved by the Father, and tereo, kept, in Jesus Christ, a word that will recur to describe both the security of the saints and the reserved doom of the wicked. The faith was delivered hapax, once for all, a finished deposit. Against it stand men who pareisduo, slipped in unnoticed, who are asebes, ungodly, who turn grace into aselgeia, unbridled sensuality, and who deny our only despotes, Master. The single word epagonizomai, contend earnestly, sounds the letter's battle cry: strain and struggle, like an athlete or soldier, for the gospel.",
+    "originalLanguages": "Verse 1 calls the readers 'kept,' and the Greek form deserves attention. It is a perfect participle, tetereumenois, which describes a standing condition that began in the past and continues now. The readers are not being kept only at the moment of reading; they are in a state of having been guarded and still being so. The same verb will return in verse 6 for the angels held in chains and in verse 21 as a command to believers, so the word frames the whole letter. The dative with 'Jesus Christ' is ambiguous: it can mean by, for or in, as the debate above sets out.\n\nVerse 2 says mercy, peace and love 'be multiplied.' The verb is in the optative mood, plethunetheie, the mood of a wish or prayer. A fuller blessing than the usual 'grace and peace,' it is a prayer that these gifts keep growing. Peter uses the same verb in his greetings, 1 Peter 1:2 and 2 Peter 1:2, and Nebuchadnezzar's greeting in Daniel 4:1 uses a similar wish. Jude's order of mercy, peace and love begins with mercy, which fits the letter's later weight on mercy in verses 22 and 23.\n\nVerse 3 puts 'contend earnestly' in the present infinitive, epagonizesthai. A present infinitive describes an ongoing struggle, not a single act. The root is agon, the word for an athletic contest, and Paul uses related verbs for the Christian life, 1 Timothy 6:12, Colossians 1:29 and 1 Corinthians 9:25. The compound adds the sense of contending upon or for something. The faith is what is contended for, never an opponent to be defeated by personal strength. The phrase 'once for all' is hapax, which the New Testament also uses for the single sacrifice of Christ, Hebrews 9:28 and 1 Peter 3:18, so the same word says that the gospel and the work behind it are finished.\n\nIn verse 4, 'designated long ago' is the verb prographo, to write beforehand. It is not that the men were written off by name in an old book, but that the pattern of judgment was already written in the record of Scripture and in the history Jude is about to cite. The same root appears in Romans 15:4 for what was 'written in former days.' The phrase 'our only Master and Lord' joins two titles under a single Greek article, despotes and kyrios. That grammar points to one person, Jesus Christ, who is both. The word despotes is the term for a master with absolute ownership of slaves, the counterpart to the doulos with whom Jude opened.",
     "typology": [
-      { "type": "Faithful servants of God against intruders who corrupt from within", "fulfillment": "A pattern running from the false prophets of Israel to the wolves Jesus warned of, fulfilled in the church's ongoing call to guard the deposit of truth in Christ." },
-      { "type": "The only Master and Lord whom the ungodly deny", "fulfillment": "Jesus Christ, the true Sovereign and Owner of His people, whose lordship exposes every counterfeit gospel that severs grace from obedience." }
+      {
+        "type": "The deposit entrusted to the saints",
+        "fulfillment": "The tabernacle and the temple were places of trust, where a holy thing was kept for the people and guarded by priests and Levites, Numbers 3:5 to 10. The faith 'entrusted' to the saints in verse 3 carries that thought into the church: a holy treasure given, not invented, and guarded. In Christ the treasure becomes a person and His message, and the guardians are all believers, not one tribe, 2 Timothy 1:14. The type falls short in that Israel's holy things could be touched by the unclean only at cost, while the gospel goes out freely to be believed."
+      },
+      {
+        "type": "Those who creep in among the flock",
+        "fulfillment": "Israel knew counterfeit prophets who spoke peace where there was none, Jeremiah 6:14 and 23:16 to 17, and Jesus described wolves in sheep's clothing, Matthew 7:15. Jude's intruders are the New Testament form of the same figure. The escalation lies in what they distort: not only the law but the grace of God in Christ. The pattern points forward to the final deceiver, 2 Thessalonians 2:3 to 4, and finds its answer in the Good Shepherd who knows His sheep, John 10:11 to 14. The type falls short because a false prophet of old could be stoned, while Jude's counsel is to contend and to show mercy."
+      },
+      {
+        "type": "Servant of the Lord, brother of James",
+        "fulfillment": "Moses and the prophets were called servants of the Lord, Exodus 14:31 and Joshua 24:29. Jude takes the title and gives it a new Master: Jesus Christ. In Jesus the servant theme reaches its height, for He took 'the form of a servant,' Philippians 2:7, and His people serve Him as Lord. Jude's relationship to Jesus by blood, which he does not mention, is surpassed by his relationship by faith, which is the one he names, Mark 3:33 to 35. The correspondence falls short only in that Jude serves by grace, while the Lord served by giving His life."
+      }
     ],
-    "christ": "Jesus stands at the center of these verses in two ways. He is the only Master and Lord, despotes and kyrios, whose absolute ownership the false teachers reject when they turn grace into license. And He is the keeper of His people: believers are kept in Jesus Christ, held fast by the very One they are called to contend for. The letter opens and closes with His keeping power, so the fight for the faith is never a fight in our own strength but under the protection of the Lord who bought us.",
-    "god": "God the Father is the source of the believer's identity: they are called by Him, loved by Him, and kept for Christ. His grace is real and lavish, yet it is holy, and to twist it into a permit for sin is to attack His character. He is also the sovereign judge whose sentence on the ungodly was designated long ago, so no infiltration of the church catches Him by surprise or escapes His justice.",
+    "christ": "The letter names Jesus Christ three times in its first four verses, and each mention tells us something different. In verse 1 He is the One in whom believers are kept. In verse 4 He is the 'only Master and Lord' whom the intruders deny. Verse 3 does not name Him, but the 'salvation we share' and the 'faith entrusted' are His, and the whole deposit stands or falls with who He is.\n\nThe phrase 'our only Master and Lord' is a strong claim. The Greek despotes was the word a slave used of an owner with total authority, and Jude joins it to kyrios, the title the early church used for Jesus and the Greek Old Testament for the LORD Himself. Peter has the same thought in 2 Peter 2:1, where false teachers deny 'the Master who bought them.' To deny Jesus is therefore not only to hold a wrong opinion; it is to refuse the One who owns and redeemed His people. That is why license and denial belong together in verse 4: if Jesus is Master, grace cannot be a permit, for those who belong to Him are not their own, 1 Corinthians 6:19 to 20.\n\nThe keeping in verse 1 leads to Christ's own prayer. In John 17:11 He asked the Father to protect His people 'by Your name,' and in verse 12 He said that He protected them and none was lost except the son of destruction. Jude's readers are held by that prayer. The faith they contend for is not a theory but the testimony about a Person who lived, died and rose, 1 Corinthians 15:3 to 4. The fight for the faith is therefore a fight to keep Christ Himself in His place as Lord.\n\nIt would be a mistake to read every picture of intruders and servants as an allegory of Jesus. The connection here is plain and direct: the letter's first claim is who Jesus is, and everything else, the warning and the comfort, rests on it. The only Master has not abandoned the people He bought, and the same Lord who is denied by some is the one who keeps others.",
+    "god": "The opening verses place the believer inside the love and care of the Trinity before any danger is mentioned. God the Father loves, verse 1. Jesus Christ keeps, verses 1 and 4. The Holy Spirit appears later, in verses 19 and 20, but the pattern is already set: the readers' safety is the work of the whole Godhead. The letter will return to this in verses 20 and 21, where Spirit, Father and Son are named together.\n\nThe verses also show God as the author of calling. 'Called' in verse 1 is the language of effectual invitation, the kind that creates what it names, as in Romans 8:30. The call comes first, then the love, then the keeping. The order undercuts any notion that the believer earns standing by contending. It is God who has set His love on them, and it is that settled love which makes the contest bearable.\n\nVerse 4 gives a harder picture. The men who corrupt the church were 'designated long ago for condemnation.' This does not make God the author of their wickedness; Jude blames them for what they do, calling them ungodly and describing their conduct. It does say that God is not surprised, that their rise has not unsettled His plan, and that judgment was foretold in the record of Scripture. Divine sovereignty and human responsibility stand side by side, as they do in Acts 2:23.\n\nThe verses also teach something about what grace is. God's grace is not softness toward sin. To turn it into a license is to misread the character of the Giver, whose grace trains us to renounce ungodliness, Titus 2:11 to 12. The same God who is merciful and patient is also the one who judges, and the letter will not let either truth swallow the other.\n\nFor worship, the greeting teaches us to start with God's hold on us, not our hold on Him. Before we are told to contend, we are told that we are called, loved and kept. A church that remembers this can fight without despair, and a church that forgets it will either panic or give up.",
     "crossReferences": [
-      { "ref": "2 Peter 2:1-3", "note": "Parallel warning about false teachers who secretly bring in destructive heresies and deny the Master who bought them." },
-      { "ref": "Galatians 1:6-9", "note": "Paul pronounces a curse on anyone who preaches a gospel other than the one delivered, echoing Jude's concern to guard the faith." },
-      { "ref": "Matthew 7:15", "note": "Jesus warns of false prophets who come in sheep's clothing but inwardly are ravenous wolves, the very stealth Jude describes." },
-      { "ref": "1 John 2:19", "note": "Those who went out from us were not really of us, showing how threats to the faith often arise from within the fellowship." }
+      {
+        "ref": "Galatians 2:4",
+        "note": "Paul describes 'false brothers' who 'had come in under false pretenses' to spy on freedom in Christ. The picture of people entering the community by stealth, and with a purpose to enslave, is the same as Jude's men who crept in unnoticed."
+      },
+      {
+        "ref": "Acts 20:29-30",
+        "note": "Paul warns the Ephesian elders that savage wolves will come in among them and that men will rise from their own number to distort the truth. Jude's warning has the same two sources, the outsider who slips in and the one who arises within."
+      },
+      {
+        "ref": "2 Timothy 1:13-14",
+        "note": "Timothy is told to follow the pattern of sound teaching and to guard the treasure entrusted to him with the help of the Holy Spirit. This is the other New Testament place where the faith is a deposit to be guarded, which fills out what Jude means by faith 'entrusted' to the saints."
+      },
+      {
+        "ref": "Romans 6:1-2",
+        "note": "Paul meets the charge that grace encourages sin with a firm denial: those who died to sin cannot live in it. Jude is answering a later form of the same distortion, which makes grace a ground for living as one likes."
+      },
+      {
+        "ref": "Titus 2:11-12",
+        "note": "The grace of God has appeared, bringing salvation, and it trains us to say no to ungodliness and worldly passions. This is the right account of grace against the one Jude condemns in verse 4, because it shows that grace and holy living are not rivals."
+      },
+      {
+        "ref": "John 17:11-12",
+        "note": "Jesus prays that the Father will protect those He has given Him and says that none has been lost but the son of destruction. This is the foundation for the 'kept' of Jude 1, and shows that the keeping rests on Jesus' own prayer."
+      },
+      {
+        "ref": "1 John 4:1",
+        "note": "Believers are told not to trust every spirit but to test them, because many false prophets have gone out into the world. Jude's call to contend presumes the same ability to examine teaching and teachers against what was received."
+      },
+      {
+        "ref": "2 Peter 2:1",
+        "note": "Peter predicts false teachers who will secretly bring in destructive heresies and deny the Master who bought them. The parallel to Jude 4 is close enough that the two letters are often read together, and the shared word Master shows what is at stake."
+      }
     ],
-    "oneStory": "Since the garden, God's word has been twisted by voices promising freedom while delivering ruin. Jude joins the long line of those who guard the truth, calling the church to contend for the faith once for all delivered, the gospel of our only Master, Jesus Christ. And he grounds the fight in grace: those summoned to battle are already called, loved, and kept by the God whose story runs on to the day when Christ presents them faultless before His glory.",
-    "sermon": { "status": "verified", "preacher": "Alistair Begg", "title": "Reason for Writing", "url": "https://www.truthforlife.org/resources/sermon/reason-writing/", "why": "From Begg's series A Study in Jude, this message treats Jude 1:3-4, the change of plan and the urgent call to contend for the faith once for all delivered, against those who pervert grace and deny Christ. A clear, orthodox handling of this movement's heart." }
+    "oneStory": "The question of who may be trusted to speak for God begins in the garden, where a voice reframed what God had said and the first people believed it, Genesis 3:1 to 5. From then on the story is full of competing voices. False prophets contradict true ones in the days of Jeremiah, and Jesus warns that wolves will come dressed as sheep. Jude's letter is a short chapter in that long conflict, set in the first generation of the church.\n\nIt also stands at a point where the story turns on a single word, 'once.' The Old Testament waited for a decisive act of God. In Christ it came, and the apostles handed on its meaning. Jude's phrase 'once for all' marks the faith as complete in that sense: the revelation of what God has done in Christ is given, and the church's duty is to guard and proclaim it, not to add to it. The same note is struck in Hebrews 1:1 to 2, where God has spoken in His Son.\n\nThe letter looks backward and forward. Backward, it reads Israel's history as a series of warnings, as Paul does in 1 Corinthians 10:6 to 11. Forward, it expects the Lord to come in judgment, verses 14 and 15, and to bring believers to eternal life, verse 21. Between those points the church is a people being kept, and keeping.\n\nIn the new creation there will be no more intruders. The book of Revelation shows the false and the faithless excluded, Revelation 21:8, and the people of God no longer needing to contend, because deception is gone. The faith that was once for all delivered will have become sight. Until then, Jude's call stands: remember that you are called, loved and kept, and hold fast to the faith that was handed on.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "Alistair Begg",
+      "title": "Reason for Writing",
+      "url": "https://www.truthforlife.org/resources/sermon/reason-writing/",
+      "why": "From Begg's series A Study in Jude, this message treats Jude 1:3-4, the change of plan and the urgent call to contend for the faith once for all delivered, against those who pervert grace and deny Christ. A clear, orthodox handling of this movement's heart."
+    }
   },
   "quiz": [
     {
       "q": "Why did Jude change what he had planned to write about?",
       "options": [
-        { "text": "A threat had arisen: ungodly men had crept into the church, so he urged them to contend for the faith.", "weight": 100, "note": "Jude 1:3-4 names the intruders as the reason he wrote a call to arms instead." },
-        { "text": "He simply preferred to write about warnings rather than salvation.", "weight": 75, "note": "It was necessity, not preference; he felt compelled by the danger." },
-        { "text": "He had run out of things to say about their shared salvation.", "weight": 25, "note": "He longed to write about salvation but was forced to address the crisis." },
-        { "text": "The apostles told him to change his topic.", "weight": 0, "note": "The text gives the intruders, not a command from the apostles, as the cause." }
+        {
+          "text": "A threat had arisen: ungodly men had crept into the church, so he urged them to contend for the faith.",
+          "weight": 100,
+          "note": "Jude 1:3-4 names the intruders as the reason he wrote a call to arms instead."
+        },
+        {
+          "text": "He simply preferred to write about warnings rather than salvation.",
+          "weight": 75,
+          "note": "It was necessity, not preference; he felt compelled by the danger."
+        },
+        {
+          "text": "He had run out of things to say about their shared salvation.",
+          "weight": 25,
+          "note": "He longed to write about salvation but was forced to address the crisis."
+        },
+        {
+          "text": "The apostles told him to change his topic.",
+          "weight": 0,
+          "note": "The text gives the intruders, not a command from the apostles, as the cause."
+        }
       ]
     },
     {
       "q": "What does it mean that the faith was delivered once for all to the saints?",
       "options": [
-        { "text": "It is a settled, finished deposit of gospel truth to be guarded, not revised.", "weight": 100, "note": "The word hapax means once for all; the faith is fixed and handed down." },
-        { "text": "It was delivered to only one generation and no longer applies.", "weight": 25, "note": "Once for all means final and abiding, not limited to one generation." },
-        { "text": "It is a personal feeling of trust that each believer invents.", "weight": 75, "note": "Here the faith is the objective body of truth believed, not merely private trust." },
-        { "text": "It can be updated and improved in every age.", "weight": 0, "note": "The point is the opposite: it is delivered once for all and must be kept." }
+        {
+          "text": "It is a settled, finished deposit of gospel truth to be guarded, not revised.",
+          "weight": 100,
+          "note": "The word hapax means once for all; the faith is fixed and handed down."
+        },
+        {
+          "text": "It was delivered to only one generation and no longer applies.",
+          "weight": 25,
+          "note": "Once for all means final and abiding, not limited to one generation."
+        },
+        {
+          "text": "It is a personal feeling of trust that each believer invents.",
+          "weight": 75,
+          "note": "Here the faith is the objective body of truth believed, not merely private trust."
+        },
+        {
+          "text": "It can be updated and improved in every age.",
+          "weight": 0,
+          "note": "The point is the opposite: it is delivered once for all and must be kept."
+        }
       ]
     },
     {
       "q": "How does Jude describe the false teachers in verse 4?",
       "options": [
-        { "text": "Ungodly men who twist grace into license and deny Jesus as Master and Lord.", "weight": 100, "note": "Jude 1:4 names both their immorality and their denial of Christ's lordship." },
-        { "text": "Sincere believers who simply made a few doctrinal mistakes.", "weight": 25, "note": "Jude calls them ungodly and designated for condemnation, not mistaken believers." },
-        { "text": "Outsiders who openly attacked the church from a distance.", "weight": 75, "note": "The danger was that they crept in unnoticed, from within, not from outside." },
-        { "text": "Faithful teachers whom Jude misunderstood.", "weight": 0, "note": "The text presents them as genuinely ungodly, perverting grace and denying Christ." }
+        {
+          "text": "Ungodly men who twist grace into license and deny Jesus as Master and Lord.",
+          "weight": 100,
+          "note": "Jude 1:4 names both their immorality and their denial of Christ's lordship."
+        },
+        {
+          "text": "Sincere believers who simply made a few doctrinal mistakes.",
+          "weight": 25,
+          "note": "Jude calls them ungodly and designated for condemnation, not mistaken believers."
+        },
+        {
+          "text": "Outsiders who openly attacked the church from a distance.",
+          "weight": 75,
+          "note": "The danger was that they crept in unnoticed, from within, not from outside."
+        },
+        {
+          "text": "Faithful teachers whom Jude misunderstood.",
+          "weight": 0,
+          "note": "The text presents them as genuinely ungodly, perverting grace and denying Christ."
+        }
       ]
     },
     {
       "q": "What assurance does Jude give before he calls the church to fight?",
       "options": [
-        { "text": "They are called, loved by God the Father, and kept in Jesus Christ.", "weight": 100, "note": "Jude 1:1 grounds the summons in the believer's security in God." },
-        { "text": "That they will never face any real danger.", "weight": 25, "note": "He warns of real danger; the assurance is that God keeps them through it." },
-        { "text": "That the false teachers will quickly give up.", "weight": 0, "note": "The letter expects a struggle, not an easy retreat by the intruders." },
-        { "text": "That their own effort will be enough to win.", "weight": 75, "note": "The security rests in God's keeping, not merely in their own effort." }
+        {
+          "text": "They are called, loved by God the Father, and kept in Jesus Christ.",
+          "weight": 100,
+          "note": "Jude 1:1 grounds the summons in the believer's security in God."
+        },
+        {
+          "text": "That they will never face any real danger.",
+          "weight": 25,
+          "note": "He warns of real danger; the assurance is that God keeps them through it."
+        },
+        {
+          "text": "That the false teachers will quickly give up.",
+          "weight": 0,
+          "note": "The letter expects a struggle, not an easy retreat by the intruders."
+        },
+        {
+          "text": "That their own effort will be enough to win.",
+          "weight": 75,
+          "note": "The security rests in God's keeping, not merely in their own effort."
+        }
       ]
     },
     {
       "q": "What lies at the root of turning grace into a license for immorality?",
       "options": [
-        { "text": "Denying Jesus as the only Master and Lord who owns and rules His people.", "weight": 100, "note": "Jude 1:4 ties the moral rot to a rejection of Christ's lordship." },
-        { "text": "A minor disagreement about church customs.", "weight": 25, "note": "It is far graver than custom; it is a denial of the Master Himself." },
-        { "text": "An honest confusion about what grace means.", "weight": 75, "note": "It looks like confusion, but Jude names it as willful denial of the Lord." },
-        { "text": "Too much emphasis on holiness.", "weight": 0, "note": "The problem is the abandonment of holiness, not an excess of it." }
+        {
+          "text": "Denying Jesus as the only Master and Lord who owns and rules His people.",
+          "weight": 100,
+          "note": "Jude 1:4 ties the moral rot to a rejection of Christ's lordship."
+        },
+        {
+          "text": "A minor disagreement about church customs.",
+          "weight": 25,
+          "note": "It is far graver than custom; it is a denial of the Master Himself."
+        },
+        {
+          "text": "An honest confusion about what grace means.",
+          "weight": 75,
+          "note": "It looks like confusion, but Jude names it as willful denial of the Lord."
+        },
+        {
+          "text": "Too much emphasis on holiness.",
+          "weight": 0,
+          "note": "The problem is the abandonment of holiness, not an excess of it."
+        }
       ]
     }
   ],
@@ -152,9 +370,21 @@
     "Jude calls Jesus our only Master and Lord. What would it look like this week to live more fully under His ownership of your whole life?"
   ],
   "translationNotes": [
-    { "ref": "Jude 1:1", "note": "Kept in Jesus Christ can also be rendered kept for Jesus Christ; either way it stresses that believers are guarded by and held safe in Him." },
-    { "ref": "Jude 1:3", "note": "The salvation we share is literally our common salvation; Jude had intended a warm letter on this theme before the crisis redirected him." },
-    { "ref": "Jude 1:4", "note": "License for immorality translates a word, aselgeia, meaning unrestrained sensuality." }
+    {
+      "ref": "Jude 1:1",
+      "note": "Kept in Jesus Christ can also be rendered kept for Jesus Christ; either way it stresses that believers are guarded by and held safe in Him."
+    },
+    {
+      "ref": "Jude 1:3",
+      "note": "The salvation we share is literally our common salvation; Jude had intended a warm letter on this theme before the crisis redirected him."
+    },
+    {
+      "ref": "Jude 1:4",
+      "note": "License for immorality translates a word, aselgeia, meaning unrestrained sensuality."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for Jude 1:1-4." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for Jude 1:1-4."
+  }
 }

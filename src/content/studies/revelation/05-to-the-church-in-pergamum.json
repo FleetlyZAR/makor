@@ -18,8 +18,16 @@
         "note": "even to the death of Antipas",
         "emphasis": "",
         "verses": [
-          { "chapter": 2, "n": 12, "text": "To the angel of the church in Pergamum write: These are the words of the One who holds the sharp, double-edged sword." },
-          { "chapter": 2, "n": 13, "text": "I know where you live, where {{thronos_satana|the throne of Satan}} sits. Yet you have held fast to My name and have not denied your faith in Me, even in the day when My faithful witness Antipas was killed among you, where Satan dwells." }
+          {
+            "chapter": 2,
+            "n": 12,
+            "text": "To the angel of the church in Pergamum write: These are the words of the One who holds the sharp, double-edged sword."
+          },
+          {
+            "chapter": 2,
+            "n": 13,
+            "text": "I know where you live, where {{thronos_satana|the throne of Satan}} sits. Yet you have held fast to My name and have not denied your faith in Me, even in the day when My faithful witness Antipas was killed among you, where Satan dwells."
+          }
         ]
       },
       {
@@ -27,20 +35,61 @@
         "note": "compromise with the world",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 2, "n": 14, "text": "But I have a few things against you, because some of you hold to the teaching of {{balaam|Balaam}}, who taught Balak to place a stumbling block before the Israelites so they would eat food sacrificed to idols and commit {{porneia|sexual immorality}}." },
-          { "chapter": 2, "n": 15, "text": "In the same way, some of you also hold to the teaching of the Nicolaitans." },
-          { "chapter": 2, "n": 16, "text": "Therefore repent! Otherwise I will come to you shortly and wage war against them with the sword of My mouth." },
-          { "chapter": 2, "n": 17, "text": "He who has an ear, let him hear what the Spirit says to the churches. To the one who overcomes, I will give the {{manna_kekrymmenon|hidden manna}}. I will also give him a {{psephos_leuke|white stone}} inscribed with a new name, known only to the one who receives it." }
+          {
+            "chapter": 2,
+            "n": 14,
+            "text": "But I have a few things against you, because some of you hold to the teaching of {{balaam|Balaam}}, who taught Balak to place a stumbling block before the Israelites so they would eat food sacrificed to idols and commit {{porneia|sexual immorality}}."
+          },
+          {
+            "chapter": 2,
+            "n": 15,
+            "text": "In the same way, some of you also hold to the teaching of the Nicolaitans."
+          },
+          {
+            "chapter": 2,
+            "n": 16,
+            "text": "Therefore repent! Otherwise I will come to you shortly and wage war against them with the sword of My mouth."
+          },
+          {
+            "chapter": 2,
+            "n": 17,
+            "text": "He who has an ear, let him hear what the Spirit says to the churches. To the one who overcomes, I will give the {{manna_kekrymmenon|hidden manna}}. I will also give him a {{psephos_leuke|white stone}} inscribed with a new name, known only to the one who receives it."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "thronos_satana": { "language": "Greek", "lemma": "ho thronos tou Satana", "original": "ὁ θρόνος τοῦ Σατανᾶ", "gloss": "The throne of Satan, likely evoking Pergamum's massed imperial cult temples and altars, which made the city the leading center of emperor worship and pagan religious power in Roman Asia; to confess Christ openly there was to live in especially hostile territory." },
-    "balaam": { "language": "Greek", "lemma": "Balaam", "original": "Βαλαάμ", "gloss": "The Old Testament prophet who, unable to curse Israel directly (Numbers 22-24), counseled Balak to lure Israel into idolatry and sexual sin through the Moabite women (Numbers 25; 31:16). His name became shorthand for a teacher who leads God's people into compromise for personal gain." },
-    "porneia": { "language": "Greek", "lemma": "porneia", "original": "πορνεία", "gloss": "Sexual immorality, often paired, as in the Old Testament prophets, with spiritual unfaithfulness through idolatry. Eating food sacrificed to idols and porneia named together the compromise of table fellowship with pagan cult and moral standards alike." },
-    "manna_kekrymmenon": { "language": "Greek", "lemma": "to manna to kekrymmenon", "original": "τὸ μάννα τὸ κεκρυμμένον", "gloss": "The hidden manna, recalling the manna kept in a jar before the ark (Exodus 16:32-34) as a memorial of God's provision in the wilderness; promised here as future, hidden nourishment for those who refuse to compromise with the world's table." },
-    "psephos_leuke": { "language": "Greek", "lemma": "psephos leuke", "original": "ψῆφος λευκή", "gloss": "A white stone, possibly evoking a victor's admission token, a judicial verdict of acquittal, or a guest's token of welcome to a feast. Inscribed with a new name known only to its recipient, it pictures an intimate, personal assurance of belonging to Christ." }
+    "thronos_satana": {
+      "language": "Greek",
+      "lemma": "ho thronos tou Satana",
+      "original": "ὁ θρόνος τοῦ Σατανᾶ",
+      "gloss": "The throne of Satan, likely evoking Pergamum's massed imperial cult temples and altars, which made the city the leading center of emperor worship and pagan religious power in Roman Asia; to confess Christ openly there was to live in especially hostile territory."
+    },
+    "balaam": {
+      "language": "Greek",
+      "lemma": "Balaam",
+      "original": "Βαλαάμ",
+      "gloss": "The Old Testament prophet who, unable to curse Israel directly (Numbers 22-24), counseled Balak to lure Israel into idolatry and sexual sin through the Moabite women (Numbers 25; 31:16). His name became shorthand for a teacher who leads God's people into compromise for personal gain."
+    },
+    "porneia": {
+      "language": "Greek",
+      "lemma": "porneia",
+      "original": "πορνεία",
+      "gloss": "Sexual immorality, often paired, as in the Old Testament prophets, with spiritual unfaithfulness through idolatry. Eating food sacrificed to idols and porneia named together the compromise of table fellowship with pagan cult and moral standards alike."
+    },
+    "manna_kekrymmenon": {
+      "language": "Greek",
+      "lemma": "to manna to kekrymmenon",
+      "original": "τὸ μάννα τὸ κεκρυμμένον",
+      "gloss": "The hidden manna, recalling the manna kept in a jar before the ark (Exodus 16:32-34) as a memorial of God's provision in the wilderness; promised here as future, hidden nourishment for those who refuse to compromise with the world's table."
+    },
+    "psephos_leuke": {
+      "language": "Greek",
+      "lemma": "psephos leuke",
+      "original": "ψῆφος λευκή",
+      "gloss": "A white stone, possibly evoking a victor's admission token, a judicial verdict of acquittal, or a guest's token of welcome to a feast. Inscribed with a new name known only to its recipient, it pictures an intimate, personal assurance of belonging to Christ."
+    }
   },
   "study": {
     "basic": {
@@ -54,93 +103,248 @@
       "oneStory": "In the very city most saturated with pagan and imperial power, Christ's church is called not merely to survive persecution from outside but to refuse compromise from within, following ancient warnings as old as Balaam's counsel to Balak. The reward for faithfulness is intimate and personal, hidden manna and a new name known only to Christ and the one who receives it, the whole Bible's promise of God's provision and closeness pressed into a single, precious image."
     },
     "context": {
-      "literary": "The third of seven letters, following the same sevenfold pattern, but distinguished by the sharpest concentration of specific historical and cultural detail: Satan's throne, the martyr Antipas, and named false teachings, Balaam and the Nicolaitans.",
-      "historical": "Pergamum was the former capital of the Attalid dynasty and, under Rome, a leading center of the imperial cult, home also to a famous altar to Zeus and to the god of healing, Asclepius, whose symbol was a serpent. Confessing Christ publicly here carried unusually direct exposure to state and pagan religious power.",
-      "canonical": "The Balaam narrative (Numbers 22-25, 31) becomes a recurring New Testament warning against teachers who trade truth for gain, echoed again in 2 Peter 2:15-16 and Jude 11, showing this letter draws on a well-established biblical type."
+      "literary": "Pergamum's letter is the first of the seven to mix praise and blame in nearly equal measure, and its shape shows it. A commendation fills verse 13, a complaint verse 14 and 15, a summons verse 16, and a promise verse 17. The complaint is introduced with the words 'I have a few things against you,' which is gentler than the 'I have this against you' used at Ephesus and Thyatira, and yet what follows is stern. The church is small in its fault and large in its danger.\n\nThe letter is built around the sword. The title in verse 12, 'the One who holds the sharp, double-edged sword,' is the first thing the church hears, and the sword returns as a threat in verse 16, 'the sword of My mouth.' The two mentions frame the rebuke like the two edges of the blade. Between them the speaker praises faithfulness and rebukes tolerance, and both are done by His word.\n\nA notable shift of pronoun sits in verse 16. The church is told to repent, and if it does not, 'I will come to you shortly and wage war against them.' The war is not aimed at the whole congregation but at the party holding the false teaching, so the church is given a chance to separate itself from them before the Lord does so by force.\n\nThe promise of verse 17 is the strangest of all the seven, a hidden manna and a white stone with a secret name. Both are things concealed, and they answer a church that has been asked to live in the open where Satan's throne stands. What is public and dangerous in this life is matched by what is hidden and intimate in the next.\n\nThe letter also pairs a past act and a present problem. Antipas, a martyr, stands for the faithful past, and Balaam, a villain of long ago, stands for the unfaithful present. The reader hears from both ends of history in a single short text.",
+      "historical": "Pergamum was the old capital of the province of Asia, and its hill rose above the plain with palaces, temples and a theatre cut into the slope. It had a library of great fame and a celebrated sanctuary of Asklepios, the god of healing, whose emblem was a serpent. The city had been among the first to build a temple to Rome and the emperor, and it kept its place as a centre of the worship of Caesar. To call such a place the dwelling of Satan's throne was to say that the empire's claim to be worshipped had found its home there.\n\nThe phrase 'throne of Satan' has been taken to point to several things at once: the great altar of Zeus on the acropolis, the serpent cult of Asklepios, the temple of the emperor, and the seat of the Roman governor who held the power of the sword. No one of these can be proved to be the single referent, and the letter does not name it. What it makes clear is that to hold fast in Pergamum was to stand in the place where pressure to give way was greatest.\n\nAntipas is named only here. He is 'My faithful witness,' and he was killed 'among you,' in the city. The letter gives no detail of how or why, and later legends about him should not be treated as part of the text. The Lord's own title for him is the point: he is given the same adjective that Jesus is given in Revelation 1:5 and 3:14.\n\nThe twin sins of verse 14, eating food sacrificed to idols and sexual immorality, would have been a live matter in a city of temples. Meat from sacrifices was sold in markets and served at festivals and at the dinners of guilds, and sexual practice was part of some cult occasions. To refuse was to risk offence and to risk one's place in society, and the teaching that a Christian might go along with it must have been appealing.",
+      "canonical": "The story of Balaam lies in Numbers 22 to 25, with its sequel in Numbers 31:16. Balak, king of Moab, hired Balaam to curse Israel, and Balaam could not do so because God would not allow it, Numbers 23:8. Yet Numbers 31:16 recalls that the women of Midian caused Israel to turn unfaithful at Peor 'through the counsel of Balaam,' and the account in Numbers 25:1 to 3 tells how the people were drawn into sexual immorality and the sacrifices of foreign gods. Revelation reads the two together: the stumbling block placed before Israel was a seduction, not a curse.\n\nBalaam becomes a standing warning in later books. Peter says false teachers 'have left the straight way and wandered off to follow the way of Balaam son of Beor, who loved the wages of wickedness,' 2 Peter 2:15, and Jude says that they 'rushed headlong into the error of Balaam,' Jude 1:11. Pergamum belongs to a wider apostolic concern about teachers who profit from compromise.\n\nThe food and the immorality named in verse 14 repeat the pair in the Jerusalem decision of Acts 15:29, where gentile believers were asked to abstain from 'food sacrificed to idols' and 'sexual immorality.' Paul's discussion of idol food in 1 Corinthians 8 and 10 treats the same topic with more nuance, and the letter to Pergamum sides with the strict end of it: some eating is participation in the table of demons, 1 Corinthians 10:20 to 21.\n\nThe hidden manna looks back to Exodus 16:32 to 34, where a jar of manna was kept before the Testimony, and to Hebrews 9:4, which says the golden jar of manna was inside the ark. The new name picks up Isaiah 62:2 and Isaiah 65:15, where God promises His people a name given by His own mouth."
     },
     "hermeneutics": {
-      "authorIntent": "To honor real courage shown under persecution and martyrdom while pressing the church to see that tolerating false teachers who counsel idolatrous and immoral compromise is itself a serious failure requiring repentance, not a lesser concern beside outward faithfulness.",
-      "descriptionVsPrescription": "The letter describes Pergamum's specific mix of courage and compromise; it is not a claim that every church facing persecution will necessarily also face this exact false teaching. Its abiding truth is that fidelity to Christ under pressure from outside must be matched by refusal to tolerate compromise from within.",
+      "authorIntent": "The Lord who speaks wants the church to see that faithfulness has two fronts. The pressure from outside, shown in the death of Antipas, is real and honoured. But a church can pass that test and still fail at the front inside, where the pressure is not violence but invitation. Pergamum had stood against the sword and been tempted by the table.\n\nHe means the church to take responsibility for what it allows. The accusation in verse 14 is not that the whole congregation ate idol food, but that 'some of you hold to the teaching of Balaam.' The rest are not named as guilty of the practice, yet they are held to account for the teaching. Tolerance is a fault when the thing tolerated erodes the church's loyalty.\n\nHe means them to hear the urgency of 'Therefore repent!' The verb is a command, and it is followed by a consequence: 'I will come to you shortly.' This is not a long and leisurely correction. The church is meant to understand that there is a time limit on its patience with error.\n\nFinally He means the overcomer to hear a promise that is warm. The reader who is asked to refuse the idol's meat is offered the hidden manna of heaven, and the one who refuses the world's names is offered a new name given by Christ. The letter does not leave the church with only a prohibition but with a better food and a truer identity.",
+      "descriptionVsPrescription": "The letter describes a church that had held under persecution and yet harboured a faction that followed the teaching of Balaam and that of the Nicolaitans. It does not describe a pattern to copy, only a situation to avoid. Praise for Antipas and for the church's loyalty is a description of what the Lord approves; it is not a command that every Christian seek the same fate.\n\nThe prescription lies in the verbs: hold fast, do not deny, repent. These apply wherever a church is pressed to accommodate itself to practices that contradict the Lord. The particular sins named, idol food and sexual immorality, will not take the same form in every age. A reader should ask what in his own setting plays the part of the temple banquet, the occasion where loyalty to Christ is quietly traded for belonging.\n\nCare is needed with the sword. The sword of His mouth is the Lord's own, to be used by Him at His coming. It is not given to the church to wield against its members. Church discipline has its own path, as in Matthew 18:15 to 17, and the letter does not authorise violence in the name of purity.",
       "debates": [
         {
-          "question": "What was 'the throne of Satan' in Pergamum?",
+          "question": "Are the Nicolaitans the same as the followers of Balaam?",
           "views": [
-            { "label": "The concentration of imperial cult worship", "case": "Pergamum was a leading administrative and religious center for emperor worship in Roman Asia, making public refusal to honor Caesar as divine especially dangerous there, so 'Satan's throne' names this concentrated state-backed pagan power." },
-            { "label": "The cult of Asclepius and its serpent symbol", "case": "Pergamum's famous healing temple to Asclepius, whose emblem was a serpent-entwined staff drawing pilgrims from across the region, may be specifically in view, evoking the ancient serpent, Satan, directly rather than only imperial politics." }
+            {
+              "label": "Two names for one teaching",
+              "case": "The phrase 'in the same way' in verse 15 and the shared sins of idol food and immorality have led many to treat the two as one movement. Some also point to the proposal that Nicolaitan can be read as 'conqueror of the people,' which would match Balaam's name as 'devourer of the people.' That play on words is possible but cannot be shown."
+            },
+            {
+              "label": "Two related groups",
+              "case": "Others note that the Ephesian church 'hated' the works of the Nicolaitans, Revelation 2:6, and that Pergamum has both the Balaamites and the Nicolaitans in view. The verse says 'some of you also hold,' which could name a separate party. On this reading the two groups share a tendency but not an organisation."
+            },
+            {
+              "label": "A group known only by its name",
+              "case": "The early church left conflicting reports about the origin of the Nicolaitans, and no certain account survives. A cautious reading says that we know them by their works, which the letters call hateful, and by their agreement with the Balaam pattern."
+            }
           ],
-          "bearing": "Whichever specific cult is chiefly meant, both readings agree Pergamum concentrated pagan religious and political power in a way that made public faithfulness to Christ unusually costly, explaining both Antipas's martyrdom and the pressure toward compromise the letter goes on to rebuke."
+          "bearing": "The letter does not need the question answered. Whether one movement or two, the offence is the same: a teaching that lets Christians share in idol feasts and immorality. The reader is helped by the pattern, not by the label."
         },
         {
-          "question": "Are 'the teaching of Balaam' and 'the teaching of the Nicolaitans' in verses 14-15 the same error or two distinct errors?",
+          "question": "What is the white stone?",
           "views": [
-            { "label": "One and the same compromise under two names", "case": "Balaam's Old Testament strategy of luring Israel into idol food and sexual immorality (Numbers 25, 31:16) is read as simply the historical type the contemporary Nicolaitans were repeating in Pergamum, so 'teaching of Balaam' functions almost as a nickname for the Nicolaitans' actual practice." },
-            { "label": "Two related but distinct teachings", "case": "Others read them as two identifiable groups or strands of teaching present together in Pergamum's churches, both leading in the same direction of accommodation with the surrounding pagan culture, but not strictly identical." }
+            {
+              "label": "A stone of acquittal",
+              "case": "The Greek word psephos was used for a pebble that was cast as a vote, and Acts 26:10 uses the related verb for casting a vote. A white stone could have meant a verdict of not guilty. On this view the overcomer is declared innocent by Christ."
+            },
+            {
+              "label": "A token of admission or hospitality",
+              "case": "Small stones or tokens served as tickets to banquets and festivals, and a name written on one marked the holder as an invited guest. This fits the pairing with manna, a heavenly meal, and it answers the idol banquets that the church was tempted to join."
+            },
+            {
+              "label": "A victor's or amulet stone",
+              "case": "Some suggest the stone as a prize given to a winner at the games, or as an engraved stone with a divine name worn for protection. These readings fit the 'overcomer' language but are less closely tied to anything else in the text."
+            }
           ],
-          "bearing": "Either way, Christ treats the church's doctrinal tolerance of such teachers as a serious charge against the whole congregation, not merely against the individual teachers themselves, calling the church corporately to repent."
+          "bearing": "The image is concrete enough to be felt and open enough to resist a single decoding. What is clear is that the stone carries a name known only to the receiver, which stresses the personal and intimate nature of the Lord's reward over against the public pageant of the city's gods."
         }
       ]
     },
-    "originalLanguages": "Christ knows Pergamum lives where ho thronos tou Satana sits, the throne of Satan, likely the city's massed imperial and pagan cult centers. Within the church itself, some hold the teaching of Balaam, tied to porneia, sexual immorality, and idol food, alongside the teaching of the Nicolaitans. The promised reward for the one who overcomes is intimate and hidden: to manna to kekrymmenon, the hidden manna, and a psephos leuke, a white stone, bearing a new name known only to its recipient.",
+    "originalLanguages": "The verb in 'you have held fast,' krateis, and the verb in 'some of you hold to the teaching of Balaam,' kratountas, are the same Greek verb, krateo, in verses 13, 14 and 15. The church is praised for holding fast to Christ's name and rebuked for holding to a rival teaching, and the repetition makes the contrast visible. Krateo means to grip or grasp firmly, and the question the letter puts is what a person's hand is closed around.\n\nThe word for 'witness' in 'My faithful witness Antipas' is martys. In the New Testament the word still means someone who testifies, and its development into the sense of someone who dies for the testimony is later. The Lord's description of Antipas gives him the same pair of terms, 'witness' and 'faithful,' that Revelation uses of Jesus in Revelation 1:5 and 3:14. A person who dies for loyalty to Christ is bearing the Lord's own title.\n\nThe 'stumbling block' of verse 14 is skandalon, originally the trigger of a trap and so anything that causes a person to fall. The picture is of Balaam setting a trap by seducing the people, and the trap works through appetite.\n\nThe sword is rhomphaia, a long, broad blade of the Thracian type, and it differs from the shorter machaira. In Revelation it is the weapon from the mouth of Christ in Revelation 1:16, 2:12, 2:16 and 19:15, and its edge is the word of judgment. Hebrews 4:12 says that the word of God is sharper than any double edged sword, and Paul calls the word of God the sword of the Spirit, Ephesians 6:17.\n\nThe verb in 'repent,' metanoeson, is an aorist imperative, which gives the sense of an urgent, decisive act rather than a gradual process. It is the same command given to Ephesus in Revelation 2:5 and to Sardis in 3:3. The warning that follows, 'I will come to you shortly,' uses tachy, quickly, and the Lord does not leave the church time to wait.\n\nThe 'hidden manna,' to manna to kekrymmenon, uses a perfect passive participle, which pictures manna that has been hidden and remains hidden. The 'name known only to the one who receives it' reads in the Greek as a name that no one knows except the one who receives it, and the same idea of a name known only to its bearer is used of Christ in Revelation 19:12.",
     "typology": [
-      { "type": "The hidden manna kept before the ark, Exodus 16:32-34", "fulfillment": "Fulfilled in Christ, the true bread from heaven, John 6:31-35, and promised here as future, hidden nourishment for the faithful." },
-      { "type": "Balaam's counsel to Balak, Numbers 22-25", "fulfillment": "A lasting warning type against teachers who lead God's people into idolatrous and immoral compromise, echoed again in 2 Peter 2:15-16 and Jude 11." },
-      { "type": "The new name promised by the Lord, Isaiah 62:2", "fulfillment": "Echoed in the white stone's new name here, and again in Christ's own unknown name in Revelation 19:12." }
+      {
+        "type": "The jar of manna kept before the Testimony, Exodus 16:32 to 34",
+        "fulfillment": "Moses ordered a jar of manna to be kept so that later generations could see the bread God had provided in the wilderness, and Hebrews 9:4 places it within the ark. It was bread preserved as a memorial, hidden from ordinary view. Jesus tells the crowd that He is 'the bread of life,' John 6:35, and that the true bread from heaven is given by His Father. Where the old jar was a memorial that no one could eat, Christ offers Himself as food for those who believe. The hidden manna of Pergamum answers the idol table with a better meal. The type falls short in that the old manna fed the body for a day, and the true manna gives life that does not end."
+      },
+      {
+        "type": "Balaam and Balak as the pattern of seduction",
+        "fulfillment": "Balaam's story is a warning that God's people can be defeated by invitation when they cannot be defeated by curse. Revelation holds up the pattern for the church: the enemy who cannot destroy from outside will try to dissolve loyalty from inside through feasting and sexual sin. The correspondence is not that Pergamum's teachers literally descend from Balaam but that they work in his way. The pattern is a warning and not a promise; it shows what to avoid, and its only fulfilment is that the same temptation comes again in every generation."
+      },
+      {
+        "type": "The new name, Isaiah 62:2",
+        "fulfillment": "God promised the restored Zion a new name that the mouth of the LORD would give. Revelation turns the promise from a city to a person: each overcomer receives a name written on a stone, and Revelation 3:12 adds that the Lord writes His own name and the name of the city of God on him. The escalation is from a corporate renaming to a personal one, and the giver is the Lord Jesus. The new name stands against the names that the empire gave to its subjects, and it affirms an identity that cannot be taken away. The type falls short only in that the full naming is still to come."
+      },
+      {
+        "type": "The sword of the mouth, Isaiah 49:2",
+        "fulfillment": "The Servant says that the LORD made His mouth like a sharp sword. The image of the mouth as a weapon is thus rooted in the prophetic picture of the Messiah. Revelation shows this fulfilled in Christ, whose word judges, and 2 Thessalonians 2:8 says the Lord Jesus will slay the lawless one with the breath of His mouth. In the letter the sword is first a warning to the church and then a promise of final victory in Revelation 19:15. The type is not exhausted until the Lord comes."
+      }
     ],
-    "christ": "Christ addresses Pergamum as the one with the sharp, double-edged sword from his mouth, the very image John saw in the opening vision, now turned specifically against those teaching compromise within the church. He honors Antipas's martyrdom by name, calling him 'my faithful witness,' yet warns that he will personally war against false teachers with that same sword if the church does not repent of tolerating them, showing that his commendation of courage under persecution never excuses complacency toward compromise from within.",
-    "god": "God is shown honoring costly faithfulness by name, remembering Antipas as his faithful witness even in death, while just as directly confronting doctrinal compromise tolerated inside the church for the sake of an easier peace with the surrounding culture. His reward for overcoming is deeply personal, hidden manna and a new name known only between himself and the believer, showing that intimacy with God, not mere survival, is the goal of faithfulness.",
+    "christ": "The Lord appears in this letter as the one who holds the sword, and that choice of image is the key to the whole message. The church is in a city where the governor bears the sword of Rome, with the power over life and death, and the Lord reminds it that the true sword is in His own hand. Pergamum's rulers can kill Antipas, but they cannot touch what Christ does with His word.\n\nThe sword comes from His mouth, not from His hand, and the difference matters. He does not need an army to enforce His verdicts; His speech is enough. The same image appears in Isaiah 49:2, where the Servant's mouth is made like a sharp sword, and in Isaiah 11:4, where He strikes the earth with the rod of His mouth. Pergamum's letter reads these prophecies as being fulfilled in Jesus. Hebrews 4:12 shows what the sword does in the church now: it exposes the thoughts and intentions of the heart, and the letter's rebuke is that very exposure.\n\nHe is the faithful witness who has a faithful witness in Antipas. The Lord does not forget a single martyr; He names Antipas, gives him the highest title, and tells the church that His own witness is honoured in the death of His servants. The Lord who gave His testimony before Pilate, 1 Timothy 6:13, shares the title with those who follow Him.\n\nHe is the true bread from heaven. The promise of the hidden manna is an offer of Himself, as John 6:35 says: whoever comes to Him will not hunger. A church tempted by banquets of the world's gods is promised a table the world has never seen. The white stone with the new name speaks of the intimate knowledge that Christ has of each of His own, as He knows His sheep by name, John 10:3.\n\nHe is also the one who calls to repentance before judgment. The sword is drawn at the end of verse 16, but the letter says 'repent' first. His patience is the setting of the warning, and the warning is the sign of His patience. A reader who sees Christ only as the stern judge has missed the opening verb of the sentence.",
+    "god": "The God of this letter is first the one who sees where His people live. 'I know where you live' is a statement of personal knowledge, and it adds that He knows the place is the throne of Satan. God does not call His church to hold fast in a pleasant spot; He places it where the pressure is greatest and promises to know it there. The same Lord who sent Moses to Pharaoh and Daniel to Babylon sends His church to Pergamum.\n\nHe is jealous for the loyalty of His people. The jealousy is not petty but the zeal of a covenant partner. He opposes the teaching of Balaam because it divides the church's love. Exodus 20:5 and Numbers 25:11 describe the same holy jealousy, and in Numbers 25 it fell on Israel for the very sins named here. The letter shows that God does not treat idolatry and sexual immorality as small matters of private conscience.\n\nHe is a just and patient judge. The threat of war in verse 16 is conditional, and the church is given room to repent. This is the pattern of God's dealings from the flood to the exile: warning, delay, and then action. His patience is not indifference, and His threat is not sudden temper.\n\nHe honours His servants who suffer. Antipas dies, but he is remembered by name before the whole church. God does not leave martyrs in the dust; He keeps their record in His own hand, as the cry of the slain under the altar in Revelation 6:9 to 11 shows. The God who permits such deaths is the God who remembers and will vindicate.\n\nHe is generous in what He gives to the faithful. The manna in the wilderness was the sign of His provision, and the hidden manna is a promise that He still provides. He gives a name as well as a meal, which shows that He wants to be known by His people and to know them. The God of this letter is both sovereign and intimate.\n\nFor worship, the letter teaches the church to praise a God whose word is sharper than any sword. It asks the congregation to take its meals with Him, to resist the invitation of the world's tables, and to look forward to the name that He will give.",
     "crossReferences": [
-      { "ref": "Numbers 22-25", "note": "Balaam's full story: unable to curse Israel directly, he counsels Balak to lure them into idolatry and immorality instead." },
-      { "ref": "Exodus 16:32-34", "note": "The hidden manna kept before the ark as a memorial of God's provision in the wilderness." },
-      { "ref": "Isaiah 62:2", "note": "The Lord promises his people a new name, echoed in the white stone's inscribed new name." },
-      { "ref": "Revelation 19:12", "note": "Christ himself is shown bearing a name that no one knows but he himself." }
+      {
+        "ref": "Numbers 22:5-7",
+        "note": "Balak sends for Balaam to curse Israel, and the fee for divination shows the money in the story. This is the background to Revelation's 'Balaam, who taught Balak.' The letter points out that the man who could not curse Israel found another way to harm it, and the sin of Pergamum is the same kind of invitation."
+      },
+      {
+        "ref": "Numbers 25:1-3",
+        "note": "Israel is drawn into sexual immorality and idol feasts at Peor, and the anger of the LORD burns against them. This is the event behind the 'stumbling block' of verse 14. The two sins named in the letter are the two sins of this chapter, and so the letter reads the old story as a warning for a new church."
+      },
+      {
+        "ref": "Numbers 31:16",
+        "note": "The text names Balaam's counsel as the cause of Israel's unfaithfulness at Peor. It confirms that Balaam's part was not the curse that failed but the plan that worked. Without it the letter's claim that Balaam taught Balak to set a stumbling block would be hard to trace."
+      },
+      {
+        "ref": "2 Peter 2:15",
+        "note": "Peter describes false teachers who follow the way of Balaam, who loved the wages of wickedness. He adds the motive of profit that the Numbers account hints at. Pergamum's teachers are therefore part of a wider pattern, and the church is not alone in having to face them."
+      },
+      {
+        "ref": "Acts 15:28-29",
+        "note": "The Jerusalem letter asks gentile believers to abstain from food sacrificed to idols and from sexual immorality. The two prohibitions are the two sins of Pergamum. The Lord's letter shows that the apostolic rule was meant to be kept, and that a teaching that relaxes it opposes the church's own founding decision."
+      },
+      {
+        "ref": "1 Corinthians 10:20-21",
+        "note": "Paul says that sacrifices are offered to demons and that believers cannot share the Lord's table and the table of demons. This gives the reason for the strictness of Pergamum's letter. Eating at an idol's table is not neutral, and the church that does so shares in something it cannot share with Christ."
+      },
+      {
+        "ref": "Exodus 16:32-34",
+        "note": "The commandment to keep a jar of manna before the LORD as a memorial. The hidden manna of Pergamum draws on this image of food set aside in God's presence. The promise is that the overcomer is given what Israel could only keep as a reminder."
+      },
+      {
+        "ref": "John 6:32-35",
+        "note": "Jesus says that the Father gives the true bread from heaven and that He is the bread of life. It is the New Testament key to the hidden manna: the heavenly food promised in the letter is Christ Himself, and those who come to Him will not hunger. The reader who holds the two passages together sees how the promise is fulfilled."
+      },
+      {
+        "ref": "Isaiah 62:2",
+        "note": "In the prophet the restored city receives a name that the LORD Himself bestows, and the white stone carries the same gift to an individual believer. It tells the reader that the overcomer will be known by God in a way that no earthly title can supply."
+      },
+      {
+        "ref": "Revelation 19:12",
+        "note": "The rider on the white horse has a name written that only He knows. It shows that a name known only to its bearer belongs to Christ Himself, so that the new name given to the overcomer is a share in His own hidden identity. The church is promised not only a reward but a likeness to its Lord."
+      }
     ],
-    "oneStory": "In the city most saturated with pagan and imperial power, a church that had already paid in blood for its public faithfulness is nonetheless called to refuse the quieter, more comfortable compromise of tolerating false teachers within its own walls. Christ's reward for overcoming is as old as the wilderness and as personal as a name only he and the believer will ever know, the whole Bible's story of provision and intimacy with God pressed into two small, precious images: hidden manna and a white stone.",
-    "sermon": { "status": "verified", "preacher": "Sinclair Ferguson", "title": "Pergamum, Church that Compromised", "url": "https://www.thegospelcoalition.org/sermon/pergamum-church-that-compromised/", "why": "Ferguson works directly through Revelation 2:12-17, drawing out how a church can show real courage under persecution from without while still tolerating serious doctrinal compromise from within, and what repentance, the hidden manna, and the white stone mean for such a church." }
+    "oneStory": "The story of Scripture is one of food and of naming. In the garden God gave every tree for food and set one apart, and the first sin was a meal that God had forbidden, Genesis 3:6. When Israel left Egypt God fed them with manna, and at Peor they ate at the tables of other gods. The Bible's story of idolatry is a story of the wrong table, and Pergamum's letter sets the story in the Roman world.\n\nThe temptation of Balaam is a repetition of the serpent's. It does not storm the gate; it offers a good that is withheld and a freedom that is denied. The church that tolerates the teaching of Balaam is a church that has listened again to the question of Genesis 3:1, and the Lord's answer, 'Therefore repent,' is the call of the God who sought Adam in the garden.\n\nThe letter also anticipates the end of the book. The beast of Revelation 13 will demand worship, and the dragon will give it its authority, Revelation 13:4. Pergamum, with its throne, is a picture of the whole age in which the church lives: a long season in which loyalty to Christ costs something and in which the kingdoms of the world offer attractive terms. Those who refuse are the witnesses of Revelation 12:11, who conquered 'by the blood of the Lamb and by the word of their testimony.'\n\nThe story's end is the answer to Pergamum's hunger and namelessness. In the new creation the Lamb's followers will eat from the tree of life, Revelation 22:2, and they will have His name on their foreheads, Revelation 22:4. The manna kept in the ark becomes a feast, the stone becomes a name, and the throne of Satan is replaced by the throne of God and of the Lamb, Revelation 22:3. The city of idols will have no place in the city that has no temple, because the Lord God Almighty and the Lamb are its temple, Revelation 21:22.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "Sinclair Ferguson",
+      "title": "Pergamum, Church that Compromised",
+      "url": "https://www.thegospelcoalition.org/sermon/pergamum-church-that-compromised/",
+      "why": "Ferguson works directly through Revelation 2:12-17, drawing out how a church can show real courage under persecution from without while still tolerating serious doctrinal compromise from within, and what repentance, the hidden manna, and the white stone mean for such a church."
+    }
   },
   "quiz": [
     {
       "q": "What does Christ commend the church in Pergamum for?",
       "options": [
-        { "text": "Holding fast his name and not denying their faith, even when Antipas was martyred among them.", "weight": 100, "note": "Verse 13 gives this exact commendation." },
-        { "text": "Their complete rejection of every form of false teaching.", "weight": 75, "note": "The letter goes on to rebuke them for tolerating false teaching; the commendation is specifically about fidelity under persecution." },
-        { "text": "Their success in converting the city's pagan temples.", "weight": 25, "note": "The commendation concerns steadfast confession under pressure, not a claim about converting the city." },
-        { "text": "Nothing; the letter contains only rebuke.", "weight": 0, "note": "Verse 13 gives real, specific commendation before the complaint." }
+        {
+          "text": "Holding fast his name and not denying their faith, even when Antipas was martyred among them.",
+          "weight": 100,
+          "note": "Verse 13 gives this exact commendation."
+        },
+        {
+          "text": "Their complete rejection of every form of false teaching.",
+          "weight": 75,
+          "note": "The letter goes on to rebuke them for tolerating false teaching; the commendation is specifically about fidelity under persecution."
+        },
+        {
+          "text": "Their success in converting the city's pagan temples.",
+          "weight": 25,
+          "note": "The commendation concerns steadfast confession under pressure, not a claim about converting the city."
+        },
+        {
+          "text": "Nothing; the letter contains only rebuke.",
+          "weight": 0,
+          "note": "Verse 13 gives real, specific commendation before the complaint."
+        }
       ]
     },
     {
       "q": "What does 'the teaching of Balaam' represent in this letter?",
       "options": [
-        { "text": "Counsel to compromise with pagan culture through idol food and sexual immorality.", "weight": 100, "note": "Verse 14 explicitly ties Balaam's teaching to eating food sacrificed to idols and sexual immorality." },
-        { "text": "A call to complete separation from all non-believers.", "weight": 75, "note": "The teaching is toward compromise with pagan practice, the opposite of separation." },
-        { "text": "A demand for stricter observance of the law.", "weight": 25, "note": "Balaam's counsel led toward compromise and sin, not toward stricter faithfulness." },
-        { "text": "It has no specific content mentioned in the letter.", "weight": 0, "note": "Verse 14 names the specific content of this teaching directly." }
+        {
+          "text": "Counsel to compromise with pagan culture through idol food and sexual immorality.",
+          "weight": 100,
+          "note": "Verse 14 explicitly ties Balaam's teaching to eating food sacrificed to idols and sexual immorality."
+        },
+        {
+          "text": "A call to complete separation from all non-believers.",
+          "weight": 75,
+          "note": "The teaching is toward compromise with pagan practice, the opposite of separation."
+        },
+        {
+          "text": "A demand for stricter observance of the law.",
+          "weight": 25,
+          "note": "Balaam's counsel led toward compromise and sin, not toward stricter faithfulness."
+        },
+        {
+          "text": "It has no specific content mentioned in the letter.",
+          "weight": 0,
+          "note": "Verse 14 names the specific content of this teaching directly."
+        }
       ]
     },
     {
       "q": "What does Christ call the church to do about the teaching of Balaam and the Nicolaitans?",
       "options": [
-        { "text": "Repent, or he will come and war against them with the sword of his mouth.", "weight": 100, "note": "Verse 16 gives this exact call and warning." },
-        { "text": "Simply ignore the teachers and hope they leave on their own.", "weight": 75, "note": "The letter calls for active repentance, not passive waiting." },
-        { "text": "Join the teaching in order to keep peace within the congregation.", "weight": 25, "note": "The letter calls the church to repent of tolerating this teaching, not to join it." },
-        { "text": "Nothing is required of the church regarding this teaching.", "weight": 0, "note": "A direct call to repent is issued in verse 16." }
+        {
+          "text": "Repent, or he will come and war against them with the sword of his mouth.",
+          "weight": 100,
+          "note": "Verse 16 gives this exact call and warning."
+        },
+        {
+          "text": "Simply ignore the teachers and hope they leave on their own.",
+          "weight": 75,
+          "note": "The letter calls for active repentance, not passive waiting."
+        },
+        {
+          "text": "Join the teaching in order to keep peace within the congregation.",
+          "weight": 25,
+          "note": "The letter calls the church to repent of tolerating this teaching, not to join it."
+        },
+        {
+          "text": "Nothing is required of the church regarding this teaching.",
+          "weight": 0,
+          "note": "A direct call to repent is issued in verse 16."
+        }
       ]
     },
     {
       "q": "What is promised to the one who overcomes in this letter?",
       "options": [
-        { "text": "The hidden manna and a white stone with a new name known only to the receiver.", "weight": 100, "note": "Verse 17 gives this exact twofold promise." },
-        { "text": "Political rule over the city of Pergamum.", "weight": 75, "note": "The promise is spiritual and intimate, not earthly political power." },
-        { "text": "Immediate exemption from all future persecution.", "weight": 25, "note": "The promise concerns hidden manna and a new name, not a guarantee against future hardship." },
-        { "text": "No promise is given, only warning.", "weight": 0, "note": "A specific, twofold reward closes the letter." }
+        {
+          "text": "The hidden manna and a white stone with a new name known only to the receiver.",
+          "weight": 100,
+          "note": "Verse 17 gives this exact twofold promise."
+        },
+        {
+          "text": "Political rule over the city of Pergamum.",
+          "weight": 75,
+          "note": "The promise is spiritual and intimate, not earthly political power."
+        },
+        {
+          "text": "Immediate exemption from all future persecution.",
+          "weight": 25,
+          "note": "The promise concerns hidden manna and a new name, not a guarantee against future hardship."
+        },
+        {
+          "text": "No promise is given, only warning.",
+          "weight": 0,
+          "note": "A specific, twofold reward closes the letter."
+        }
       ]
     },
     {
       "q": "What does the phrase 'where Satan's throne sits' most likely describe?",
       "options": [
-        { "text": "Pergamum's concentration of imperial cult worship and pagan religious power.", "weight": 100, "note": "This is the leading historical understanding of the phrase, given Pergamum's role as a center of emperor worship." },
-        { "text": "A literal throne visible to John in his vision.", "weight": 75, "note": "It describes the city's spiritual and political character, not a literal object John saw." },
-        { "text": "A reference to the church's own leadership structure.", "weight": 25, "note": "It describes the city itself as a center of hostile pagan power, not the church's internal leadership." },
-        { "text": "It has no connection to Pergamum's actual historical situation.", "weight": 0, "note": "It is closely tied to Pergamum's well-documented role as a leading imperial cult center." }
+        {
+          "text": "Pergamum's concentration of imperial cult worship and pagan religious power.",
+          "weight": 100,
+          "note": "This is the leading historical understanding of the phrase, given Pergamum's role as a center of emperor worship."
+        },
+        {
+          "text": "A literal throne visible to John in his vision.",
+          "weight": 75,
+          "note": "It describes the city's spiritual and political character, not a literal object John saw."
+        },
+        {
+          "text": "A reference to the church's own leadership structure.",
+          "weight": 25,
+          "note": "It describes the city itself as a center of hostile pagan power, not the church's internal leadership."
+        },
+        {
+          "text": "It has no connection to Pergamum's actual historical situation.",
+          "weight": 0,
+          "note": "It is closely tied to Pergamum's well-documented role as a leading imperial cult center."
+        }
       ]
     }
   ],
@@ -152,9 +356,21 @@
     "Christ calls the whole church to repent of what some among them were teaching. How do you take responsibility, not just for your own faithfulness, but for what your community tolerates?"
   ],
   "translationNotes": [
-    { "ref": "Revelation 2:13", "note": "'Antipas was killed among you' preserves almost no independent historical detail beyond this verse; early church tradition later expanded his story, but the text itself simply honors him as Christ's faithful witness." },
-    { "ref": "Revelation 2:14", "note": "'Food sacrificed to idols' refers to meat from pagan temple sacrifices, often served at trade guild banquets; eating it could signal participation in the guild's patron god's worship, the compromise Balaam's teaching is said to have encouraged." },
-    { "ref": "Revelation 2:17", "note": "'A white stone' has been read as a courtroom acquittal token, a festival admission ticket, or a victor's prize marker; the text itself leaves the precise image open, focusing instead on the personal, hidden new name it bears." }
+    {
+      "ref": "Revelation 2:13",
+      "note": "'Antipas was killed among you' preserves almost no independent historical detail beyond this verse; early church tradition later expanded his story, but the text itself simply honors him as Christ's faithful witness."
+    },
+    {
+      "ref": "Revelation 2:14",
+      "note": "'Food sacrificed to idols' refers to meat from pagan temple sacrifices, often served at trade guild banquets; eating it could signal participation in the guild's patron god's worship, the compromise Balaam's teaching is said to have encouraged."
+    },
+    {
+      "ref": "Revelation 2:17",
+      "note": "'A white stone' has been read as a courtroom acquittal token, a festival admission ticket, or a victor's prize marker; the text itself leaves the precise image open, focusing instead on the personal, hidden new name it bears."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched this session via the project's makor-scripture toolkit for Revelation 2:12-17. Sermon link for Sinclair Ferguson's 'Pergamum, Church that Compromised' verified live this session on thegospelcoalition.org, covering this exact passage." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched this session via the project's makor-scripture toolkit for Revelation 2:12-17. Sermon link for Sinclair Ferguson's 'Pergamum, Church that Compromised' verified live this session on thegospelcoalition.org, covering this exact passage."
+  }
 }

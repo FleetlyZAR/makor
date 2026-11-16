@@ -18,9 +18,21 @@
         "note": "what must soon come to pass",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 1, "text": "This is the {{apokalypsis|revelation}} of Jesus Christ, which God gave Him to show His servants what must soon come to pass. He made it known by sending His angel to His servant John," },
-          { "chapter": 1, "n": 2, "text": "who testifies to everything he saw. This is the word of God and the {{martyria|testimony}} of Jesus Christ." },
-          { "chapter": 1, "n": 3, "text": "{{makarios|Blessed}} is the one who reads aloud the words of this prophecy, and blessed are those who hear and obey what is written in it, because the time is near." }
+          {
+            "chapter": 1,
+            "n": 1,
+            "text": "This is the {{apokalypsis|revelation}} of Jesus Christ, which God gave Him to show His servants what must soon come to pass. He made it known by sending His angel to His servant John,"
+          },
+          {
+            "chapter": 1,
+            "n": 2,
+            "text": "who testifies to everything he saw. This is the word of God and the {{martyria|testimony}} of Jesus Christ."
+          },
+          {
+            "chapter": 1,
+            "n": 3,
+            "text": "{{makarios|Blessed}} is the one who reads aloud the words of this prophecy, and blessed are those who hear and obey what is written in it, because the time is near."
+          }
         ]
       },
       {
@@ -28,9 +40,21 @@
         "note": "grace, peace, and praise to the one who freed us",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 4, "text": "John, To the seven churches in the province of Asia: Grace and peace to you from Him who is and was and is to come, and from the seven Spirits before His throne," },
-          { "chapter": 1, "n": 5, "text": "and from Jesus Christ, the faithful witness, the firstborn from the dead, and the ruler of the kings of the earth. To Him who loves us and has released us from our sins by His blood," },
-          { "chapter": 1, "n": 6, "text": "who has made us to be a {{basileia|kingdom}}, priests to His God and Father, to Him be the glory and power forever and ever! Amen." }
+          {
+            "chapter": 1,
+            "n": 4,
+            "text": "John, To the seven churches in the province of Asia: Grace and peace to you from Him who is and was and is to come, and from the seven Spirits before His throne,"
+          },
+          {
+            "chapter": 1,
+            "n": 5,
+            "text": "and from Jesus Christ, the faithful witness, the firstborn from the dead, and the ruler of the kings of the earth. To Him who loves us and has released us from our sins by His blood,"
+          },
+          {
+            "chapter": 1,
+            "n": 6,
+            "text": "who has made us to be a {{basileia|kingdom}}, priests to His God and Father, to Him be the glory and power forever and ever! Amen."
+          }
         ]
       },
       {
@@ -38,19 +62,57 @@
         "note": "he is coming with the clouds",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 7, "text": "Behold, He is coming with the clouds, and every eye will see Him, even those who pierced Him. And all the tribes of the earth will mourn because of Him. So shall it be! Amen." },
-          { "chapter": 1, "n": 8, "text": "“I am the {{alpha_omega|Alpha and the Omega}},” says the Lord God, who is and was and is to come, the {{pantokrator|Almighty}}." }
+          {
+            "chapter": 1,
+            "n": 7,
+            "text": "Behold, He is coming with the clouds, and every eye will see Him, even those who pierced Him. And all the tribes of the earth will mourn because of Him. So shall it be! Amen."
+          },
+          {
+            "chapter": 1,
+            "n": 8,
+            "text": "“I am the {{alpha_omega|Alpha and the Omega}},” says the Lord God, who is and was and is to come, the {{pantokrator|Almighty}}."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "apokalypsis": { "language": "Greek", "lemma": "apokalypsis", "original": "ἀποκάλυψις", "gloss": "An unveiling, uncovering, disclosure of what was hidden. The book takes its name from this very word: it exists not to conceal but to reveal the risen Christ and what must soon come to pass, for the strengthening of his servants." },
-    "martyria": { "language": "Greek", "lemma": "martyria", "original": "μαρτυρία", "gloss": "Testimony, witness, borne in something like a legal or eyewitness sense. John's book is his testified witness of what he saw, joined to the testimony Jesus himself bears; the word is the root of the English martyr, one who bears such testimony even at the cost of life." },
-    "makarios": { "language": "Greek", "lemma": "makarios", "original": "μακάριος", "gloss": "Blessed, happy, to be congratulated, the word of the Beatitudes. This is the first of seven beatitudes scattered through Revelation, pronounced here on those who read the prophecy aloud, hear it, and keep what is written in it." },
-    "basileia": { "language": "Greek", "lemma": "basileia", "original": "βασιλεία", "gloss": "Kingdom, royal rule. Christ has made those he has freed to be a kingdom, priests to his God and Father, echoing Exodus 19:6's calling of Israel as a kingdom of priests, now given to the church redeemed by his blood." },
-    "alpha_omega": { "language": "Greek", "lemma": "Alpha ... Omega", "original": "Ἄλφα ... Ὦ", "gloss": "The first and last letters of the Greek alphabet, a title of absolute sovereignty over history's whole span, claimed here by the Lord God and later, in Revelation 22:13, claimed by the risen Christ himself." },
-    "pantokrator": { "language": "Greek", "lemma": "pantokrator", "original": "παντοκράτωρ", "gloss": "The Almighty, the one who holds and rules all things. A favorite divine title in Revelation, it grounds every terror the book will describe in the unshaken sovereignty of the God who is, and was, and is to come." }
+    "apokalypsis": {
+      "language": "Greek",
+      "lemma": "apokalypsis",
+      "original": "ἀποκάλυψις",
+      "gloss": "An unveiling, uncovering, disclosure of what was hidden. The book takes its name from this very word: it exists not to conceal but to reveal the risen Christ and what must soon come to pass, for the strengthening of his servants."
+    },
+    "martyria": {
+      "language": "Greek",
+      "lemma": "martyria",
+      "original": "μαρτυρία",
+      "gloss": "Testimony, witness, borne in something like a legal or eyewitness sense. John's book is his testified witness of what he saw, joined to the testimony Jesus himself bears; the word is the root of the English martyr, one who bears such testimony even at the cost of life."
+    },
+    "makarios": {
+      "language": "Greek",
+      "lemma": "makarios",
+      "original": "μακάριος",
+      "gloss": "Blessed, happy, to be congratulated, the word of the Beatitudes. This is the first of seven beatitudes scattered through Revelation, pronounced here on those who read the prophecy aloud, hear it, and keep what is written in it."
+    },
+    "basileia": {
+      "language": "Greek",
+      "lemma": "basileia",
+      "original": "βασιλεία",
+      "gloss": "Kingdom, royal rule. Christ has made those he has freed to be a kingdom, priests to his God and Father, echoing Exodus 19:6's calling of Israel as a kingdom of priests, now given to the church redeemed by his blood."
+    },
+    "alpha_omega": {
+      "language": "Greek",
+      "lemma": "Alpha ... Omega",
+      "original": "Ἄλφα ... Ὦ",
+      "gloss": "The first and last letters of the Greek alphabet, a title of absolute sovereignty over history's whole span, claimed here by the Lord God and later, in Revelation 22:13, claimed by the risen Christ himself."
+    },
+    "pantokrator": {
+      "language": "Greek",
+      "lemma": "pantokrator",
+      "original": "παντοκράτωρ",
+      "gloss": "The Almighty, the one who holds and rules all things. A favorite divine title in Revelation, it grounds every terror the book will describe in the unshaken sovereignty of the God who is, and was, and is to come."
+    }
   },
   "study": {
     "basic": {
@@ -64,93 +126,252 @@
       "oneStory": "Before a single vision unfolds, Revelation tells us plainly what kind of book this is and who stands at its center: the crucified and risen Christ, already loving and freeing his people, already ruling the kings of the earth, and certainly coming again. The whole sweep of Scripture, creation, fall, promise, exodus, kingdom, exile, and gospel, arrives here at its final chapter's opening line: blessed are those who keep what is written, because the one who is, and was, and is to come, holds the end as surely as he held the beginning."
     },
     "context": {
-      "literary": "A self-contained prologue combining three genres at once: apocalypse (v.1, an unveiling), prophecy (v.3, a prophecy to be read aloud), and letter (vv.4-6, a greeting to named churches). This threefold identity shapes how the whole book should be read: as a Spirit-given disclosure, meant to be heard in worship, addressed to real congregations under real pressure.",
-      "historical": "Written to seven churches in the Roman province of Asia, cities under the pressures of emperor cult, trade guild idolatry, and social exclusion for refusing to honor Rome's gods. The prologue's opening claim, that Jesus Christ is the ruler of the kings of the earth, is a direct counter-claim to Caesar's own propaganda.",
-      "canonical": "Revelation is the last book of the Christian canon, and its prologue signals that it intends to bring the whole biblical story to its close: the kingdom of priests promised at Sinai, the coming Son of Man from Daniel, and the divine self-naming of Isaiah's LORD, all converge here on Jesus Christ."
+      "literary": "The first eight verses do the work of three genres at once, and John says so himself. Verse 1 calls the book an unveiling, the opening word of the Greek and the name later given to the whole class of apocalyptic writing. Verse 3 calls it 'prophecy', which places it beside the prophets of Israel, who spoke God's word to a people in the middle of history. Verses 4 to 6 use the form of an ordinary letter, with a sender, a list of recipients and a greeting of grace and peace. The book is a vision, a prophecy and a pastoral letter, and the prologue does not choose among these.\n\nThe structure of the passage runs in a descending line and then rises. Verses 1 and 2 trace a chain of delivery: God gave the message to Christ, Christ made it known through an angel, the angel brought it to John, and John testifies to the churches. Verse 3 sets a reader, a group of hearers and a blessing at the end of that chain. Verses 4 to 6 turn the movement into praise, with a threefold name for God's gift of Christ and a doxology. Verses 7 and 8 break in with two short sayings, one a promise from the prophets and one spoken in God's own voice, and each ends in a solemn affirmation, 'So shall it be! Amen.'\n\nThe prologue is also paired with the epilogue, Revelation 22:6 to 21. Both speak of what 'must soon take place', 22:6, both pronounce a blessing on the one who keeps the words, 22:7, both speak of the angel, and both ring with Christ's coming. The book is framed so that a reader who begins at verse 1 and ends at chapter 22 meets the same message from both sides.",
+      "historical": "The author names himself only as John and assumes his readers know who he is. The church of the second century, including Irenaeus, identified him with the apostle and dated the vision to the reign of the emperor Domitian, around AD 95. Some modern readers prefer an earlier date under Nero, and the dating question affects how the book's references to persecution are read. Either way, the setting is a Christian movement in the Roman province of Asia, in what is now western Turkey, that was small, dispersed and increasingly under pressure from a world that demanded loyalty to the emperor and his gods.\n\nThe seven churches of verse 4 sit on a rough circuit of roads, and the order of the letters in chapters 2 and 3 follows it. A courier carrying the scroll would pass through each in turn, which is why a book that fills so many pages is addressed to them as a group. Their communities were not wealthy. They met in homes, and their members had to reckon with the guilds, festivals and temples that tied every part of public life to the Roman order.\n\nIn that world, the claims made for Christ in verse 5 were pointed. 'The ruler of the kings of the earth' placed above the emperor a ruler the emperor did not know. 'Faithful witness' belongs in the language of the law court, where witnesses testified at risk to themselves. A congregation that heard these titles read aloud was being told in public, in the open air of its own assemblies, that the real king was not in Rome.\n\nThe reading aloud of verse 3 is itself a historical detail. Few could read, and books were rare. The book is made to be heard in a gathering, with one voice reading and the rest listening.",
+      "canonical": "The prologue is dense with the Old Testament, and the allusions are meant. The 'kingdom, priests' of verse 6 reaches back to Exodus 19:6, where Israel at Sinai is promised that status, and Isaiah 61:6 repeats it for the people of the LORD. The grace and peace of the greeting follow the usual apostolic form, but the words 'who is and was and is to come' unfold the divine name given at the burning bush, 'I AM WHO I AM', Exodus 3:14.\n\nThe coming with the clouds in verse 7 combines two prophecies. Daniel saw 'One like the Son of Man coming with the clouds of heaven', Daniel 7:13, and Zechariah spoke of the people who 'will look on Me, the One they have pierced', and mourn, Zechariah 12:10. Jesus Himself uses the first in Matthew 24:30, with 'all the tribes of the earth will mourn', and John's Gospel quotes the second of the crucifixion, John 19:37. The Alpha and Omega of verse 8 is the New Testament's form of what Isaiah heard from the LORD, 'I am the first and I am the last', Isaiah 44:6, and repeated in Isaiah 41:4 and 48:12.\n\nThe prologue is also taken up later in the book. The titles of Christ in verse 5 return in Revelation 3:14 and 19:11, the kingdom and priests in 5:10 and 20:6, and the Alpha and Omega in 21:6 and 22:13. The words 'who is and was and is to come' are echoed in the song of the living creatures, Revelation 4:8. Part of the pleasure of reading the book is recognizing a phrase from chapter 1 when it comes back."
     },
     "hermeneutics": {
-      "authorIntent": "To identify this book as a genuine disclosure of Jesus Christ, given through a traceable chain of transmission from God to Christ to angel to John to the churches, so that hearing and keeping it carries real authority, and to set the whole book's tone with praise of the crucified, reigning Christ and the certainty of his coming.",
-      "descriptionVsPrescription": "The prologue describes what this book is and does, revelation, testimony, prophecy, blessing; it does not prescribe a detailed timetable for future events. Its abiding call is to read, hear, and keep what is written, trusting the one who is, and was, and is to come.",
+      "authorIntent": "John meant his readers to treat the book as a message with authority and a purpose, not as a puzzle. The chain of delivery in verses 1 and 2 is there to establish that what follows is God's word, passed on faithfully, and that John is a witness to what he saw, not an inventor of images. The first hearers were meant to feel the weight of that and to respond to it in the way verse 3 describes, by reading, hearing and keeping.\n\nHe also meant them to be encouraged. The prologue gives Christ's titles and deeds before any of the dreadful scenes begin: He loves them, He has freed them and made them priests, and He is coming. A persecuted congregation that heard these words was meant to read every vision that followed in the light of this one. Whatever the dragon and the beast might do, the readers already knew who held the keys.\n\nFinally, John meant the prologue to settle the question of authority between Christ and Caesar. The titles in verse 5 belong to a king whose reign is already underway, and the 'Almighty' of verse 8 is above every ruler of the earth. The book's purpose is to hold a small, vulnerable people steady in worship, by showing them to whom their loyalty is owed and how the story ends.",
+      "descriptionVsPrescription": "The prologue describes how the book was given and what Christ has done and will do, and it prescribes only a few things: read it aloud, hear it, and keep it. The blessing in verse 3 is a promise attached to that response. It is not a promise to those who can map the visions or predict the future, and a reader who spends years on timelines but never obeys has missed the condition.\n\nThe doxology in verses 5 and 6 describes what Christ has done for His people, and it models what a response looks like. Believers are not told to make themselves a kingdom or priests. They are told that Christ already has, and invited to say 'to Him be the glory and power forever and ever'. The status is received, and the praise is offered in reply.\n\nThe prologue also teaches how to approach the rest of the book. It describes a message passed through a chain and received as a gift, so readers are meant to come as hearers, not as experts. A person who reads Revelation fearfully or cynically has to be reminded that the opening is a blessing. The proper way to read the whole is the one John describes at the start: with an ear open and a will ready.",
       "debates": [
         {
-          "question": "What does it mean that 'what must soon come to pass' (v.1) and 'the time is near' (v.3), given that nearly two thousand years have now passed?",
+          "question": "Who are the 'seven Spirits before His throne' in verse 4?",
           "views": [
-            { "label": "Genuinely imminent for the first readers", "case": "Preterist and near-term readers stress that these words carried real urgency for the seven churches then facing pressure and persecution, and that much of Revelation's early material found substantial fulfillment in events close to their own time." },
-            { "label": "Certain rather than scheduled", "case": "Futurist and idealist readers note that apocalyptic language regularly uses 'soon' and 'near' to express the certainty and nearness of God's purposes rather than a strict human timetable, since with the Lord a day is as a thousand years, so the same words can rightly describe events still future to us." }
+            {
+              "label": "The Holy Spirit in the fullness of His work",
+              "case": "Seven is the number of completeness in the book. Isaiah 11:2 names a sevenfold description of the Spirit who rests on the coming king, and Zechariah 4:2 and 4:10 picture a lampstand with seven lamps and 'seven eyes of the LORD', which the prophet ties to the word 'by My Spirit', Zechariah 4:6. Revelation later says the seven Spirits are 'sent out into all the earth', 5:6, and that the One who holds them also holds the seven stars, 3:1. Greetings that come from the Father, the Spirit and the Son would fit a Trinitarian form."
+            },
+            {
+              "label": "Seven angels who serve before the throne",
+              "case": "Jewish writing of the period spoke of seven angels before God, and the placing of the Spirits 'before His throne' resembles the position of angels in heaven. Revelation 4:5 does call them the seven Spirits of God and sets them as seven torches, which some read as heavenly beings. On this view the greeting names the highest servants of the throne."
+            }
           ],
-          "bearing": "However the timing is read, every school agrees the purpose is the same: to press urgent, wide-awake obedience on the churches now, not to fuel speculative date-setting calculations."
+          "bearing": "A greeting that puts the seven Spirits between the Father and Jesus Christ is hard to read as angelic, since grace and peace are given by God alone. Most readers therefore take the phrase as the Holy Spirit named in his sevenfold fullness. Either way the verse puts the whole of God's working before the churches at the very start."
         },
         {
-          "question": "How should the four major traditions for reading Revelation, preterist, historicist, futurist, and idealist, be held as the book begins?",
+          "question": "What does 'He is coming with the clouds' say about timing and the response of the nations?",
           "views": [
-            { "label": "The book primarily addresses its own first century", "case": "Preterist readers see most of Revelation's judgments fulfilled substantially in the fall of Jerusalem or the pressures of Roman persecution under emperors like Domitian, close to John's own day." },
-            { "label": "The book maps church history, or describes the very end, or pictures recurring realities", "case": "Historicist readers trace the visions across the centuries of church history; futurist readers see most of the book, especially from chapter 4 onward, describing events still to come at history's close; idealist readers see the symbols picturing the recurring conflict between Christ's church and the world in every age." }
+            {
+              "label": "A literal, visible return of Christ at the end",
+              "case": "Verse 7 says 'every eye will see Him', and the clouds recall the way Jesus left, Acts 1:9 to 11, where angels said He would return 'in the same way you have seen Him go'. Matthew 24:30 puts the same words in Jesus' own mouth. On this reading, the coming is a single public event at the end of the age."
+            },
+            {
+              "label": "A coming in judgment within history, expressed in prophetic language",
+              "case": "Cloud-coming language in the prophets often describes God arriving in judgment on a city or nation, and some readers hold that verse 7 first describes Christ's coming against those who rejected Him, with the final return as its completion. On this view the mourning of the tribes is lament over a judgment already begun."
+            },
+            {
+              "label": "Mourning as repentance or as dread",
+              "case": "The 'tribes of the earth' may be mourning because they look on the One they pierced and are grieved, as Zechariah 12:10 says of a people who receive a spirit of grace. Others hear in the word an anguish of dread, since the verse says they mourn 'because of Him' and not that they turn to Him."
+            }
           ],
-          "bearing": "Faithful interpreters across these traditions often blend elements of more than one; the prologue itself puts the weight not on solving this scheme first but on reading, hearing, and keeping the prophecy now, whatever its precise unfolding proves to be."
+          "bearing": "The verse keeps the focus on a coming that no one can miss. It does not give a calendar. Believers are meant to wait, and unbelievers are meant to hear a warning."
         }
       ]
     },
-    "originalLanguages": "The book names itself an apokalypsis, an unveiling, and John's own martyria, testimony, is bound to the testimony of Jesus. The first of the book's seven beatitudes calls its hearers makarios, blessed, for keeping what is written. Christ has already made his freed people a basileia, a kingdom, of priests. And the prologue closes with two overlapping titles of total sovereignty: the Alpha and the Omega, spanning the Greek alphabet's whole span, and the Pantokrator, the Almighty, the one who holds and rules all things, however fearsome the visions to come.",
+    "originalLanguages": "Verse 1 says God 'made it known', and the Greek verb is esemanen, from semaino, 'to signify'. It is the verb John's Gospel uses of Jesus indicating by what kind of death He would die, John 12:33. The word carries the sense of communication by sign. The revelation is not a plain statement but a message in signs, which is why the book keeps asking its readers to understand what a picture stands for.\n\nThe recipients are 'servants', douloi, the plain word for slaves. The word is not an insult in this setting. It sets the prophets and John in the line of those who belong entirely to the Lord and receive His secrets, Amos 3:7. Verse 3's 'reads aloud' is a singular participle, 'the one who reads', set against the plural 'those who hear', so one voice reads and many listen. The word 'near' in 'the time is near' is eggys, and the 'time' is kairos, a season or appointed moment, not chronos, a measure of days. Verse 1 says 'soon', en tachei, which means quickly or suddenly, and the same phrase closes the book, Revelation 22:6.\n\nThe greeting in verse 4 contains a famous irregularity. After the preposition apo, 'from', Greek expects the genitive case, but John writes 'from the one who is and who was and who is coming' with a nominative that does not bend. Most readers take the oddity as deliberate. It treats the divine name as an unchangeable title that cannot be inflected, as though it were God's own name. The third part also differs from the usual 'will be', since it says 'the coming one', ho erchomenos, and so looks to arrival and not to bare existence.\n\nChrist's three titles in verse 5 each rest on a distinct word. 'Faithful witness' joins martys, a witness, to pistos, faithful, and the word later gives English 'martyr', so the title already points to a witness who dies. 'Firstborn' is prototokos, the word of Psalm 89:27 for the appointed heir of the kings of the earth, and of Colossians 1:18 for the One who is the beginning and firstborn from the dead. 'Ruler' is archon, a prince, and the verse sets the Lamb above all the kings of the earth.\n\nThere is a manuscript question in verse 5. The BSB reads 'released us from our sins', from lysanti, to loose, while some ancient copies read lousanti, 'washed'. Both ideas appear elsewhere in the book, and the difference is a single letter. 'Released' fits the picture of a slave set free, and the new priests of verse 6 are freed to serve.\n\nVerse 7 says 'those who pierced Him', and the verb is ekkenteo, the same one John's Gospel uses of the crucifixion in John 19:37. The 'tribes of the earth' are phylai tes ges, and the word ge can also mean 'land', so the phrase may echo the tribes of the land of Israel in Zechariah 12:12 and be widened to every people.",
     "typology": [
-      { "type": "A kingdom of priests, Exodus 19:6", "fulfillment": "Fulfilled in the church, freed by Christ's blood and made a kingdom and priests to God and Father." },
-      { "type": "I am the first and I am the last, Isaiah 44:6", "fulfillment": "Claimed here by God and claimed again by the risen Christ himself in Revelation 22:13, the Alpha and the Omega." },
-      { "type": "One like a son of man coming with the clouds of heaven, Daniel 7:13", "fulfillment": "The oracle of verse 7, Christ coming with the clouds, seen by every eye, including those who pierced him." }
+      {
+        "type": "A kingdom of priests, Exodus 19:6",
+        "fulfillment": "At Sinai the LORD told Israel they would be 'a kingdom of priests and a holy nation', but only one tribe actually served at the altar and only one man entered the Most Holy Place, once a year. Revelation 1:6 says that Christ has made His people what Israel was only promised to be, and 5:10 says they 'will reign upon the earth'. Peter agrees when he calls the church 'a royal priesthood, a holy nation', 1 Peter 2:9. The correspondence escalates because the priesthood is now universal among believers and the cost is Christ's blood. The type falls short in that Israel's nation was a political people, while this kingdom is gathered from every tribe, Revelation 5:9."
+      },
+      {
+        "type": "The I AM who is first and last, Isaiah 44:6",
+        "fulfillment": "The LORD says through Isaiah, 'I am the first and I am the last, and there is no God but Me.' The title was a claim of unique deity, spoken against the gods of the nations. In Revelation 1:8 God uses the Alpha and Omega of Himself, and in 22:13 the risen Christ uses it of Himself with 'the First and the Last, the Beginning and the End'. The escalation is that the one title is shared without strain between the Father and the Son, and that Christ takes the name without being a second God. The type falls short only in that Isaiah's hearers did not yet see the Son, and Revelation lets the title go on unfolding."
+      },
+      {
+        "type": "The Son of Man coming with clouds, Daniel 7:13",
+        "fulfillment": "In Daniel's vision, 'One like the Son of Man' comes with the clouds to the Ancient of Days and is given 'an everlasting dominion that will not pass away', Daniel 7:14. Jesus took that figure to Himself and said His hearers would see Him 'coming on the clouds of heaven', Matthew 24:30. Revelation 1:7 announces the same coming, and verse 13 of the next passage shows the Son of Man in glory. The fulfillment escalates from a vision to a person who has died and been raised. It is still unfolding, because verse 7 speaks in the present tense of a coming not yet completed."
+      },
+      {
+        "type": "The pierced one who is mourned, Zechariah 12:10",
+        "fulfillment": "Zechariah says the people will look on the One they pierced and mourn 'as one mourns for an only child'. John's Gospel quotes the verse at the cross, John 19:37, and Revelation 1:7 places it at the return. The correspondence is that the one pierced for a people is the one before whom every people stands. It escalates the picture from a grieving city to the whole earth. It falls short only as a type of the response, because Zechariah promises a spirit of grace and prayer, and Revelation leaves open whether every tribe mourns in repentance."
+      }
     ],
-    "christ": "In four short verses Christ is named the faithful witness, who did not waver even to death; the firstborn from the dead, the first of a great resurrection harvest; and the ruler of the kings of the earth, already reigning over every throne, however it may look otherwise. He has already loved his people and released them from their sins by his blood, already made them a kingdom and priests. And the prologue's climactic oracle, he is coming with the clouds, and every eye will see him, even those who pierced him, identifies him with the Alpha and Omega, the eternal God himself.",
-    "god": "God is named with a title stretched across all of time, who is and was and is to come, and, at the prologue's close, the Almighty, the Pantokrator, who rules all things absolutely. This is the God under whose sovereignty every terror in the pages ahead will unfold, and whose sevenfold Spirit stands before his throne, present with his churches from the very first greeting.",
+    "christ": "Before the first vision appears, the prologue has already shown the reader a complete Christ. He is the content of the book, since the opening words call it the revelation 'of Jesus Christ', and He is the source, since God gave it to Him. He is the witness who tells the truth about God, and the title recalls how He 'made the good confession' before Pontius Pilate, 1 Timothy 6:13, and told Pilate He had come 'to testify to the truth', John 18:37. The word witness already has a cross in it, and the next title confirms it.\n\nHe is the firstborn from the dead, the first fruits of the resurrection harvest, 1 Corinthians 15:20. Because He rose, His people will. The title takes up the language of Psalm 89:27, where God appoints the Davidic king as 'firstborn, the highest of the kings of the earth'. The third title, ruler of the kings of the earth, completes the line, and Revelation 3:14 and 19:11 will return to Him as 'faithful'. The three titles run through death, resurrection and rule, and they trace the shape of the gospel.\n\nHe is also the one who loves. The present tense of verse 5, 'loves us', is followed by the past tense of a single deed, 'released us from our sins by His blood'. The love is continuous and the rescue is complete. The same book later calls Him the Lamb, 5:6, and John the Baptist's greeting, 'Look, the Lamb of God', John 1:29, is one of the earliest uses of the image. Hebrews 13:12 adds that He 'suffered outside the city gate, to sanctify the people by His own blood'.\n\nHe is the coming one. Verse 7 gives Him the cloud, which in Daniel belongs to the one who receives everlasting dominion. And verse 8 may be the Lord God speaking of Himself, but the book will soon give the same titles to Christ, so the line between Father and Son is held together with care. The book that has a Lamb at its center begins by saying who He is.\n\nA caution applies. The prologue does not teach that every coming in the book is the final one, and it does not give a schedule. It says that Jesus is the faithful witness, risen and ruling, and that He will return to a world that cannot ignore Him.",
+    "god": "The prologue shows a God who speaks and who sends. The unveiling begins with Him, 'God gave Him', and travels by messengers to the people for whom it was meant. Revelation is not a secret that the faithful must dig out of a locked room. It is a gift handed down a chain by a God who wants to be known. That fits the pattern of the prophets, to whom He reveals His plan, Amos 3:7, and the pattern of Daniel, where 'there is a God in heaven who reveals mysteries', Daniel 2:28.\n\nHe is eternal in a way that holds the whole of time. The formula 'who is and was and is to come' puts the present first, then the past and the future, which reads as though John wanted to say first that He is here. The phrase gives the divine name in the language of a letter, and the living creatures sing it in the throne room, 4:8. Verse 8 adds Alpha and Omega, first and last letters of the alphabet. It gives a God who begins and ends everything, the one 'before all' and the one who will close the account, and He says so again at the end, 21:6.\n\nHe is almighty, and the word is pantokrator, which means the one who holds all things. The rest of the book will show a world full of powers that claim their own authority, and the title says that none of them is free of Him. The choir in chapter 19 can cry 'the Lord our God the Almighty reigns' because He always has, 19:6.\n\nHe is triune in the shape of the greeting. Grace and peace come from the Father who is and was and is to come, from the seven Spirits and from Jesus Christ, and the order treats them as one source. The gospel is trinitarian from the first greeting.\n\nHe is a God who loves His people, because His Son loves them, and who makes them priests, so that they can approach Him. For worship, the prologue gives its own pattern. Verse 6 breaks into praise because the writer cannot get to the end of the sentence without it, and the rest of the book is full of such outbursts. Believers are invited to read the whole book with that same readiness to say Amen.",
     "crossReferences": [
-      { "ref": "Exodus 19:6", "note": "Israel called a kingdom of priests, now fulfilled in the church freed by Christ's blood." },
-      { "ref": "Isaiah 44:6", "note": "The LORD says, 'I am the first and I am the last,' the root of the Alpha and Omega title." },
-      { "ref": "Daniel 7:13", "note": "One like a son of man coming with the clouds of heaven, echoed in the coming oracle of verse 7." },
-      { "ref": "Revelation 22:13", "note": "The risen Christ claims the Alpha and Omega title for himself at the book's close, framing the whole book." }
+      {
+        "ref": "Exodus 19:6",
+        "note": "At Sinai the LORD promised Israel they would be 'a kingdom of priests and a holy nation'. John uses nearly the same words of the church in verse 6, so the people of Christ inherit Israel's calling. The title is now held by a body drawn from all nations, as Revelation 5:9 makes plain."
+      },
+      {
+        "ref": "Isaiah 44:6",
+        "note": "'I am the first and I am the last, and there is no God but Me.' The claim of unique deity lies behind the Alpha and Omega of Revelation 1:8, and the same words are used of Christ in 1:17 and 22:13. The title marks both a God who has no rival and a Christ who shares His identity."
+      },
+      {
+        "ref": "Daniel 7:13-14",
+        "note": "The Son of Man comes with the clouds and is given an everlasting kingdom. Revelation 1:7 takes the image and announces the coming, and the vision that follows in 1:13 shows the same figure among the churches. John reads Daniel as a promise now moving toward fulfillment."
+      },
+      {
+        "ref": "Zechariah 12:10",
+        "note": "The people will look on the One they have pierced and mourn as for an only child. John's Gospel applies the verse to the cross, John 19:37, and Revelation 1:7 applies it to the return. The same text connects the crucifixion to the last day."
+      },
+      {
+        "ref": "Psalm 89:27",
+        "note": "God appoints the Davidic king as 'My firstborn, the highest of the kings of the earth'. Revelation 1:5 takes both titles together for Jesus, so His rule is the fulfillment of the promise to David, now extended over every earthly power."
+      },
+      {
+        "ref": "Exodus 3:14",
+        "note": "The divine name, 'I AM WHO I AM', lies beneath the unusual formula 'who is and was and is to come'. The phrase tells the readers that the God of the burning bush is the God who sends this book and who comes to them."
+      },
+      {
+        "ref": "Zechariah 4:6",
+        "note": "The seven-lamped lampstand is explained by the word 'Not by might nor by power, but by My Spirit.' The picture helps explain why John could name the Spirit with the number seven and set Him before the throne in Revelation 1:4."
+      },
+      {
+        "ref": "Revelation 22:6-7",
+        "note": "The epilogue repeats the prologue's words about what 'must soon take place' and the blessing on one who keeps the words of the book. The frame shows that the opening and closing are one message, and the repeated promise 'I am coming soon' holds the book together."
+      },
+      {
+        "ref": "1 Peter 2:9",
+        "note": "Peter calls the church 'a chosen people, a royal priesthood, a holy nation', the same Exodus 19 tradition John draws on. Together they show that the idea of a priestly people was common in early Christian thought, and that it was never limited to leaders."
+      },
+      {
+        "ref": "Matthew 24:30",
+        "note": "Jesus says all the tribes of the earth will mourn when they see the Son of Man coming on the clouds. The wording is almost the same as Revelation 1:7, so John is passing on the teaching of Jesus Himself and not inventing a new scene."
+      },
+      {
+        "ref": "Acts 1:9-11",
+        "note": "As the disciples watch, a cloud takes Jesus out of sight, and two men promise that He will return in the same way. The cloud of Revelation 1:7 completes that promise and keeps the hope of the earliest church in the opening of the last book."
+      },
+      {
+        "ref": "Colossians 1:18",
+        "note": "Christ is 'the beginning and firstborn from among the dead, so that in all things He may have preeminence'. Paul's statement explains John's title 'firstborn from the dead' and shows that both writers treat the resurrection as the ground of Christ's rule over all."
+      }
     ],
-    "oneStory": "Revelation opens by naming itself: an unveiling of Jesus Christ, passed down a chain of trust to reach ordinary churches under real pressure, promising blessing to those who read, hear, and keep it. Its first beatitude, its greeting, and its doxology all converge on one figure, the faithful witness, firstborn from the dead, ruler of earth's kings, who is coming with the clouds and who, with God the Almighty, holds the Alpha and the Omega of the whole story the Bible has been telling since Genesis one.",
-    "sermon": { "status": "verified", "preacher": "D. A. Carson", "title": "Revelation (Part 2)", "url": "https://www.thegospelcoalition.org/sermon/revelation-part-2/", "why": "Carson works closely through Revelation 1:4-8, the greeting, the doxology to Christ, and the coming oracle at the heart of this prologue, drawing out the sovereignty of God and the certainty of Christ's return." }
+    "oneStory": "The Bible begins with a God who creates by speaking and who places humans in the world as His image bearers, and it ends with a God who speaks once more to a people at the edge of the world. The prologue of Revelation stands at that second edge. It answers the question that rises from every earlier book, whether the God who made all things will finish what He began, and it answers by showing the Lamb as already enthroned and the story as already won.\n\nSeveral of the story's oldest promises are caught up in these verses. The people who were promised to be a kingdom of priests, Exodus 19:6, are made so by Christ's blood. The Son of Man of Daniel 7 is announced as coming. The pierced one of Zechariah 12 is announced as seen. And the divine name given at the bush has grown into the threefold description of the God who is and was and is to come. In each case, the prologue shows that what was promised in shadow is now carried by Christ.\n\nThe prologue also gathers what the story has said about sin and rescue. The people who were released from their sins by His blood are the people who were freed in the exodus and called out of Babylon, and the book is written to those who live under a new empire and need the same message of deliverance. It sets them in the long line of the faithful who have waited for the day.\n\nIt leads forward, to the new creation, with two promises. The first is that Christ is coming, and the book spends its last chapter saying so, Revelation 22:20. The second is that the God who is Alpha and Omega will finish as He started. 'It is done,' He says in 21:6, 'I am the Alpha and the Omega, the Beginning and the End.' The people who were made priests will see His face, and they will serve in a city where the Lord God Almighty and the Lamb are the temple, 21:22. The prologue is the first sign of that ending.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "D. A. Carson",
+      "title": "Revelation (Part 2)",
+      "url": "https://www.thegospelcoalition.org/sermon/revelation-part-2/",
+      "why": "Carson works closely through Revelation 1:4-8, the greeting, the doxology to Christ, and the coming oracle at the heart of this prologue, drawing out the sovereignty of God and the certainty of Christ's return."
+    }
   },
   "quiz": [
     {
       "q": "What does the word 'revelation' (apokalypsis) tell us about the purpose of this book?",
       "options": [
-        { "text": "It exists to unveil and disclose Jesus Christ and what must soon come to pass, not to conceal him.", "weight": 100, "note": "The book's very name announces disclosure, not obscurity or secrecy." },
-        { "text": "It is a coded book that only specialists can ever understand.", "weight": 75, "note": "The imagery is often symbolic, but the book calls itself an unveiling, meant to be read aloud and understood." },
-        { "text": "It is mainly a collection of predictions with no connection to Jesus Christ.", "weight": 25, "note": "It is explicitly the revelation of Jesus Christ, centered on his person." },
-        { "text": "It is meant to remain permanently hidden from the church.", "weight": 0, "note": "The opposite; it is meant to be read, heard, and kept, verse 3." }
+        {
+          "text": "It exists to unveil and disclose Jesus Christ and what must soon come to pass, not to conceal him.",
+          "weight": 100,
+          "note": "The book's very name announces disclosure, not obscurity or secrecy."
+        },
+        {
+          "text": "It is a coded book that only specialists can ever understand.",
+          "weight": 75,
+          "note": "The imagery is often symbolic, but the book calls itself an unveiling, meant to be read aloud and understood."
+        },
+        {
+          "text": "It is mainly a collection of predictions with no connection to Jesus Christ.",
+          "weight": 25,
+          "note": "It is explicitly the revelation of Jesus Christ, centered on his person."
+        },
+        {
+          "text": "It is meant to remain permanently hidden from the church.",
+          "weight": 0,
+          "note": "The opposite; it is meant to be read, heard, and kept, verse 3."
+        }
       ]
     },
     {
       "q": "Who does the first beatitude of Revelation (v.3) bless?",
       "options": [
-        { "text": "Those who read the prophecy aloud, hear it, and keep what is written in it.", "weight": 100, "note": "Verse 3 names all three: reading, hearing, and keeping." },
-        { "text": "Only those who correctly predict the book's future events.", "weight": 75, "note": "The blessing is for obedient hearing and keeping, not for successful prediction." },
-        { "text": "Only the apostle John himself.", "weight": 25, "note": "The blessing extends to readers, hearers, and keepers generally, not to John alone." },
-        { "text": "No one; the blessing is only for a future generation.", "weight": 0, "note": "The blessing is pronounced because the time is near, addressed to the churches then and now." }
+        {
+          "text": "Those who read the prophecy aloud, hear it, and keep what is written in it.",
+          "weight": 100,
+          "note": "Verse 3 names all three: reading, hearing, and keeping."
+        },
+        {
+          "text": "Only those who correctly predict the book's future events.",
+          "weight": 75,
+          "note": "The blessing is for obedient hearing and keeping, not for successful prediction."
+        },
+        {
+          "text": "Only the apostle John himself.",
+          "weight": 25,
+          "note": "The blessing extends to readers, hearers, and keepers generally, not to John alone."
+        },
+        {
+          "text": "No one; the blessing is only for a future generation.",
+          "weight": 0,
+          "note": "The blessing is pronounced because the time is near, addressed to the churches then and now."
+        }
       ]
     },
     {
       "q": "What has Christ already done for believers, according to the doxology in verses 5-6?",
       "options": [
-        { "text": "Loved them and released them from their sins by his blood, and made them a kingdom and priests.", "weight": 100, "note": "Verses 5-6 state this directly as an accomplished doxology." },
-        { "text": "Promised to love them only after they overcome every trial in the book.", "weight": 75, "note": "The love and freeing are already accomplished, not conditioned on surviving the book's trials." },
-        { "text": "Made them earthly kings with political power over Rome.", "weight": 25, "note": "The kingdom given is priestly and spiritual, not a claim to worldly political rule." },
-        { "text": "Left them to earn their own release from sin.", "weight": 0, "note": "The text says Christ released them by his blood, a finished work, not a wage they earned." }
+        {
+          "text": "Loved them and released them from their sins by his blood, and made them a kingdom and priests.",
+          "weight": 100,
+          "note": "Verses 5-6 state this directly as an accomplished doxology."
+        },
+        {
+          "text": "Promised to love them only after they overcome every trial in the book.",
+          "weight": 75,
+          "note": "The love and freeing are already accomplished, not conditioned on surviving the book's trials."
+        },
+        {
+          "text": "Made them earthly kings with political power over Rome.",
+          "weight": 25,
+          "note": "The kingdom given is priestly and spiritual, not a claim to worldly political rule."
+        },
+        {
+          "text": "Left them to earn their own release from sin.",
+          "weight": 0,
+          "note": "The text says Christ released them by his blood, a finished work, not a wage they earned."
+        }
       ]
     },
     {
       "q": "What is the content of the coming oracle in verse 7?",
       "options": [
-        { "text": "Christ is coming with the clouds, and every eye will see him, including those who pierced him, and all tribes will mourn.", "weight": 100, "note": "This is the direct content of the oracle, echoing Daniel 7:13 and Zechariah 12:10." },
-        { "text": "Christ will return invisibly and only a few will notice.", "weight": 75, "note": "The opposite; every eye will see him, a public, universal event." },
-        { "text": "Only the seven churches in Asia will witness Christ's coming.", "weight": 25, "note": "The oracle says every eye and all the tribes of the earth, a universal scope." },
-        { "text": "It describes a past event already completed in the first century.", "weight": 0, "note": "It is framed as a still-future coming oracle, sealed with 'so shall it be, Amen.'" }
+        {
+          "text": "Christ is coming with the clouds, and every eye will see him, including those who pierced him, and all tribes will mourn.",
+          "weight": 100,
+          "note": "This is the direct content of the oracle, echoing Daniel 7:13 and Zechariah 12:10."
+        },
+        {
+          "text": "Christ will return invisibly and only a few will notice.",
+          "weight": 75,
+          "note": "The opposite; every eye will see him, a public, universal event."
+        },
+        {
+          "text": "Only the seven churches in Asia will witness Christ's coming.",
+          "weight": 25,
+          "note": "The oracle says every eye and all the tribes of the earth, a universal scope."
+        },
+        {
+          "text": "It describes a past event already completed in the first century.",
+          "weight": 0,
+          "note": "It is framed as a still-future coming oracle, sealed with 'so shall it be, Amen.'"
+        }
       ]
     },
     {
       "q": "What does the title 'Alpha and the Omega' claim?",
       "options": [
-        { "text": "Total sovereignty over the whole span of history, from beginning to end.", "weight": 100, "note": "The first and last letters of the Greek alphabet picture complete, sovereign scope." },
-        { "text": "That God only cares about the beginning of history, not its end.", "weight": 75, "note": "The title spans both ends together, beginning and end alike." },
-        { "text": "A minor literary flourish with no real theological weight.", "weight": 25, "note": "It is a weighty divine self-declaration, echoed by Christ himself in Revelation 22:13." },
-        { "text": "A title used only once in Revelation and never repeated.", "weight": 0, "note": "The risen Christ claims the same title again in Revelation 22:13." }
+        {
+          "text": "Total sovereignty over the whole span of history, from beginning to end.",
+          "weight": 100,
+          "note": "The first and last letters of the Greek alphabet picture complete, sovereign scope."
+        },
+        {
+          "text": "That God only cares about the beginning of history, not its end.",
+          "weight": 75,
+          "note": "The title spans both ends together, beginning and end alike."
+        },
+        {
+          "text": "A minor literary flourish with no real theological weight.",
+          "weight": 25,
+          "note": "It is a weighty divine self-declaration, echoed by Christ himself in Revelation 22:13."
+        },
+        {
+          "text": "A title used only once in Revelation and never repeated.",
+          "weight": 0,
+          "note": "The risen Christ claims the same title again in Revelation 22:13."
+        }
       ]
     }
   ],
@@ -162,10 +383,25 @@
     "God calls himself the Alpha and the Omega, the beginning and the end. Where in your life right now do you most need to remember that he holds both ends of your story?"
   ],
   "translationNotes": [
-    { "ref": "Revelation 1:1", "note": "'Soon' can also be rendered suddenly or quickly, stressing the swift, decisive nature of the events once they begin rather than only their nearness in time." },
-    { "ref": "Revelation 1:4", "note": "'The province of Asia' is literally just 'Asia' in the Greek, referring to the Roman province in what is now western Turkey, not the continent." },
-    { "ref": "Revelation 1:4", "note": "'The seven Spirits before His throne' can also be rendered the sevenfold Spirit, understood as a description of the fullness of the one Holy Spirit rather than seven separate spirits." },
-    { "ref": "Revelation 1:8", "note": "Some later manuscripts (the Textus Receptus) read 'the Alpha and the Omega, the Beginning and the End,' adding a second, explanatory pair of titles to the same claim." }
+    {
+      "ref": "Revelation 1:1",
+      "note": "'Soon' can also be rendered suddenly or quickly, stressing the swift, decisive nature of the events once they begin rather than only their nearness in time."
+    },
+    {
+      "ref": "Revelation 1:4",
+      "note": "'The province of Asia' is literally just 'Asia' in the Greek, referring to the Roman province in what is now western Turkey, not the continent."
+    },
+    {
+      "ref": "Revelation 1:4",
+      "note": "'The seven Spirits before His throne' can also be rendered the sevenfold Spirit, understood as a description of the fullness of the one Holy Spirit rather than seven separate spirits."
+    },
+    {
+      "ref": "Revelation 1:8",
+      "note": "Some later manuscripts (the Textus Receptus) read 'the Alpha and the Omega, the Beginning and the End,' adding a second, explanatory pair of titles to the same claim."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched this session via the project's makor-scripture toolkit for Revelation 1:1-8. Sermon link for D. A. Carson's 'Revelation (Part 2)' verified live this session on thegospelcoalition.org; it covers verses 4-8 of this section directly." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched this session via the project's makor-scripture toolkit for Revelation 1:1-8. Sermon link for D. A. Carson's 'Revelation (Part 2)' verified live this session on thegospelcoalition.org; it covers verses 4-8 of this section directly."
+  }
 }

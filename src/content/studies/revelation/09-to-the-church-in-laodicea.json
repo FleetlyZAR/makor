@@ -18,7 +18,11 @@
         "note": "the Originator of God's creation",
         "emphasis": "",
         "verses": [
-          { "chapter": 3, "n": 14, "text": "To the angel of the church in Laodicea write: These are the words of the {{amen|Amen}}, the faithful and true Witness, the Originator of God's creation." }
+          {
+            "chapter": 3,
+            "n": 14,
+            "text": "To the angel of the church in Laodicea write: These are the words of the {{amen|Amen}}, the faithful and true Witness, the Originator of God's creation."
+          }
         ]
       },
       {
@@ -26,9 +30,21 @@
         "note": "wretched, pitiful, poor, blind, and naked",
         "emphasis": "",
         "verses": [
-          { "chapter": 3, "n": 15, "text": "I know your deeds; you are neither cold nor hot. How I wish you were one or the other!" },
-          { "chapter": 3, "n": 16, "text": "So because you are {{chliaros|lukewarm}}, neither hot nor cold, I am about to {{emeo|vomit}} you out of My mouth!" },
-          { "chapter": 3, "n": 17, "text": "You say, 'I am rich; I have grown wealthy and need nothing.' But you do not realize that you are wretched, pitiful, poor, blind, and naked." }
+          {
+            "chapter": 3,
+            "n": 15,
+            "text": "I know your deeds; you are neither cold nor hot. How I wish you were one or the other!"
+          },
+          {
+            "chapter": 3,
+            "n": 16,
+            "text": "So because you are {{chliaros|lukewarm}}, neither hot nor cold, I am about to {{emeo|vomit}} you out of My mouth!"
+          },
+          {
+            "chapter": 3,
+            "n": 17,
+            "text": "You say, 'I am rich; I have grown wealthy and need nothing.' But you do not realize that you are wretched, pitiful, poor, blind, and naked."
+          }
         ]
       },
       {
@@ -36,9 +52,21 @@
         "note": "those I love, I rebuke and discipline",
         "emphasis": "",
         "verses": [
-          { "chapter": 3, "n": 18, "text": "I counsel you to buy from Me gold refined by fire so that you may become rich, white garments so that you may be clothed and your shameful nakedness not exposed, and salve to anoint your eyes so that you may see." },
-          { "chapter": 3, "n": 19, "text": "Those I love, I rebuke and discipline. Therefore be earnest and repent." },
-          { "chapter": 3, "n": 20, "text": "Behold, I stand at the door and knock. If anyone hears My voice and opens the door, I will come in and dine with him, and he with Me." }
+          {
+            "chapter": 3,
+            "n": 18,
+            "text": "I counsel you to buy from Me gold refined by fire so that you may become rich, white garments so that you may be clothed and your shameful nakedness not exposed, and salve to anoint your eyes so that you may see."
+          },
+          {
+            "chapter": 3,
+            "n": 19,
+            "text": "Those I love, I rebuke and discipline. Therefore be earnest and repent."
+          },
+          {
+            "chapter": 3,
+            "n": 20,
+            "text": "Behold, I stand at the door and knock. If anyone hears My voice and opens the door, I will come in and dine with him, and he with Me."
+          }
         ]
       },
       {
@@ -46,17 +74,45 @@
         "note": "to sit with Christ on His throne",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 3, "n": 21, "text": "To the one who {{nikon|overcomes}}, I will grant the right to sit with Me on My throne, just as I overcame and sat down with My Father on His throne." },
-          { "chapter": 3, "n": 22, "text": "He who has an ear, let him hear what the Spirit says to the churches." }
+          {
+            "chapter": 3,
+            "n": 21,
+            "text": "To the one who {{nikon|overcomes}}, I will grant the right to sit with Me on My throne, just as I overcame and sat down with My Father on His throne."
+          },
+          {
+            "chapter": 3,
+            "n": 22,
+            "text": "He who has an ear, let him hear what the Spirit says to the churches."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "amen": { "language": "Greek", "lemma": "ho Amen", "original": "ὁ Ἀμήν", "gloss": "The Amen, used here as a title, not merely a liturgical word. It means the reliable, the faithful, God's own 'yes' to His promises, as Paul writes in 2 Corinthians 1:20. By taking this as a name, Christ claims to be utterly trustworthy just before delivering His sternest rebuke of all seven letters." },
-    "chliaros": { "language": "Greek", "lemma": "chliaros", "original": "χλιαρός", "gloss": "Lukewarm, tepid. Laodicea's water arrived by aqueduct from hot springs at nearby Hierapolis, cooling along the way to something neither refreshingly cold like the springs at Colossae nor usably hot for bathing, just tepid and nauseating, a vivid local picture of half-hearted, self-satisfied faith." },
-    "emeo": { "language": "Greek", "lemma": "emeo", "original": "ἐμέω", "gloss": "To vomit, to spit out, a blunt and physical verb for revulsion. It describes Christ's reaction to lukewarm religion that is neither a refreshing help nor a bracing confrontation, but simply nauseating, unfit to be swallowed." },
-    "nikon": { "language": "Greek", "lemma": "ho nikon", "original": "ὁ νικῶν", "gloss": "The one who overcomes or conquers, the recurring title closing every one of the seven letters, here joined to the highest of all seven promises, a shared seat on Christ's own throne." }
+    "amen": {
+      "language": "Greek",
+      "lemma": "ho Amen",
+      "original": "ὁ Ἀμήν",
+      "gloss": "The Amen, used here as a title, not merely a liturgical word. It means the reliable, the faithful, God's own 'yes' to His promises, as Paul writes in 2 Corinthians 1:20. By taking this as a name, Christ claims to be utterly trustworthy just before delivering His sternest rebuke of all seven letters."
+    },
+    "chliaros": {
+      "language": "Greek",
+      "lemma": "chliaros",
+      "original": "χλιαρός",
+      "gloss": "Lukewarm, tepid. Laodicea's water arrived by aqueduct from hot springs at nearby Hierapolis, cooling along the way to something neither refreshingly cold like the springs at Colossae nor usably hot for bathing, just tepid and nauseating, a vivid local picture of half-hearted, self-satisfied faith."
+    },
+    "emeo": {
+      "language": "Greek",
+      "lemma": "emeo",
+      "original": "ἐμέω",
+      "gloss": "To vomit, to spit out, a blunt and physical verb for revulsion. It describes Christ's reaction to lukewarm religion that is neither a refreshing help nor a bracing confrontation, but simply nauseating, unfit to be swallowed."
+    },
+    "nikon": {
+      "language": "Greek",
+      "lemma": "ho nikon",
+      "original": "ὁ νικῶν",
+      "gloss": "The one who overcomes or conquers, the recurring title closing every one of the seven letters, here joined to the highest of all seven promises, a shared seat on Christ's own throne."
+    }
   },
   "study": {
     "basic": {
@@ -70,93 +126,284 @@
       "oneStory": "A wealthy, self-satisfied church thought it needed nothing, but Christ exposes its true poverty and, out of love, disciplines it toward repentance, standing patiently at the door of its own heart. To whoever hears His voice and opens the door, He offers not only fellowship now but a shared seat on His throne forever, the highest promise given to any of the seven churches."
     },
     "context": {
-      "literary": "The seventh and final of the seven letters, following the same address and closing pattern, but uniquely containing no commendation at all, moving straight from title to indictment, then to counsel, discipline, invitation, and the highest promise of the seven.",
-      "historical": "Laodicea was a wealthy banking, textile, and medical center, famous for glossy black wool garments and a renowned eye salve; it was so affluent that after a devastating earthquake in AD 60 it refused imperial financial aid and rebuilt entirely on its own resources, the background for its boast, 'I have prospered and need nothing.' Its water supply, piped by aqueduct from hot springs, arrived lukewarm, unlike the cold springs of nearby Colossae or the hot springs of Hierapolis.",
-      "canonical": "Christ's title as the Amen and the Originator of God's creation echoes John 1:3 and Colossians 1:16-17; His counsel to buy without money echoes Isaiah 55:1; His knock and shared meal anticipate the marriage supper of the Lamb in Revelation 19."
+      "literary": "The seventh letter closes the series, and it is built as a courtroom exchange turned into an invitation. Christ opens with three titles that all concern truthful testimony and original authority. He is the Amen, the faithful and true Witness, and the Originator of God's creation. A Witness is about to give evidence, and the evidence is against a church that thinks well of itself.\n\nThe structure of the letter is a pair of speeches set against each other. In verse 17 the church speaks: 'I am rich; I have grown wealthy and need nothing.' Christ answers with a five-word verdict, 'wretched, pitiful, poor, blind, and naked.' Then in verse 18 He counsels, and His three remedies, gold, garments and salve, answer three of those five words: poor, naked, blind. The church's self-assessment is taken apart one claim at a time, and then rebuilt with offers that can only be had from Him.\n\nThe letter turns again at verse 19, where the severity is explained by love, and at verse 20 the rhetoric of judgment gives way to a picture of a knock at a door and a shared meal. The throne promise of verse 21 then goes further than any of the six earlier promises.\n\nThe letter also looks ahead. The door and the throne reappear at once in the next chapter. Christ stands at a door in 3:20; John sees an open door in heaven in 4:1. Christ promises a seat on His throne in 3:21; John sees a throne in 4:2. The last promise to the churches opens the vision that follows. There is no rebuke in the whole book more bracing, and no invitation warmer.",
+      "historical": "Laodicea stood in the Lycus valley beside Colossae and Hierapolis, on the main trade road through the province of Asia. It was founded in the third century BC and named for the wife of the Seleucid king Antiochus II. By the first century it was one of the richest cities in the province. It was a banking centre, it was known for fine glossy wool, and it had a medical tradition that was associated with an eye remedy.\n\nIts wealth was proudly independent. Tacitus records that after the severe earthquake of about AD 60 the city rebuilt from its own resources and did not ask for help from Rome. A church that said 'I need nothing' lived in a city that had actually said much the same thing.\n\nThe city had no good water of its own. Water was brought in by an aqueduct from a distance, and it is commonly suggested that by the time it arrived it was lukewarm, in contrast to the hot springs of Hierapolis and the cold streams near Colossae. Whether or not John had the aqueduct in mind, the neighbouring towns supplied exactly the contrast he draws: water that is hot and healing, water that is cold and refreshing, and Laodicea's water which is neither.\n\nThe church was probably begun in the years when Paul was based at Ephesus, through the work of Epaphras, who 'goes to great pains' for the believers at Colossae, Hierapolis and Laodicea, Colossians 4:13. Paul struggled for them, Colossians 2:1, sent greetings to Nympha and the church in her house, and asked that his letter to Colossae be read in Laodicea and that the church read 'the letter from Laodicea,' Colossians 4:15-16. A generation later that same church had grown comfortable.",
+      "canonical": "The first title is the Old Testament's own. In Isaiah 65:16 the BSB reads 'the God of truth,' which in the Hebrew is literally the God of Amen, and Revelation gives the title to Christ. Paul says the same thing in different words: every promise of God is 'Yes' in Christ, and our 'Amen' answers through Him, 2 Corinthians 1:20. The 'faithful witness' repeats the title in Revelation 1:5, and 'Originator of God's creation' stands with Colossians 1:15-18 and John 1:3, where all things were made through the Son.\n\nThe church's boast has Old Testament ancestors. Ephraim says in Hosea 12:8, 'How rich I have become! I have found wealth for myself,' and Paul uses a bitterly ironic version with the Corinthians: 'Already you have become rich,' 1 Corinthians 4:8. The counsel to 'buy' without money has its source in Isaiah 55:1. The promise that Christ will rebuke those He loves is Proverbs 3:11-12, quoted again in Hebrews 12:5-6.\n\nThe knock at the door is tied to the Song of Songs, where the beloved knocks, Song of Songs 5:2, and to the parable of servants who wait for a master who comes and knocks, Luke 12:36-37, in which the master then serves them at table. The meal looks forward to 'the marriage supper of the Lamb,' Revelation 19:9. The throne promise echoes Luke 22:28-30, where Jesus bestows a kingdom on those who stood by Him, and Matthew 19:28. Revelation 16:15 gives a final warning about nakedness and shame."
     },
     "hermeneutics": {
-      "authorIntent": "To strip away Laodicea's self-deceived confidence in material wealth, to expose lukewarm religion as nauseating rather than acceptable, and to summon urgent repentance while holding out both Christ's loving discipline and the highest promise of any of the seven letters to the one who overcomes.",
-      "descriptionVsPrescription": "The letter describes a specific, historically wealthy and self-satisfied church using its own city's industries as an ironic backdrop; the abiding principle warns every generation against mistaking material comfort or outward success for spiritual health.",
+      "authorIntent": "Christ means the seventh church to hear the truth about itself from the only witness who can give it. The church has formed an opinion based on the city's standards, wealth and self-sufficiency, and Christ replaces that opinion with His own. The strong words are not meant to destroy but to awaken, which is why the letter explains in verse 19 that those He loves are the ones He rebukes.\n\nThe letter is also written to shock a comfortable community into noticing what it lacks. Five words in verse 17 pile up like a charge, but each of them names something that Christ can supply. A reader is meant to move from 'I have everything' to 'I need everything' and so to the door. Because the letter ends the series, it also serves as a summary for the other six. Any church may be tempted to substitute its own resources for Christ, and any church may hear the knock.\n\nJohn also intends the invitation to be taken at face value. Christ is not stationed at the end of a long road of penance. He is at the door now, and the one who hears and opens will find Him a guest who becomes the host, 'I will come in and dine with him, and he with Me.' The promise of the throne then shows how far that welcome reaches.",
+      "descriptionVsPrescription": "The letter describes the condition of one wealthy church and records what Christ said to it. It does not teach that prosperity is sinful or that a believer in a rich city is automatically lukewarm. The charge is self-sufficiency, not money as such. Other letters praise churches that were poor, Smyrna in Revelation 2:9, and warn others about poverty of spirit, so wealth is neither the sign of favour nor the mark of failure.\n\nThe temperature image is similarly a description of a particular reaction. Christ does not say that coldness is good. He says He wishes the church would be one or the other, which is the cry of a Lord who finds indifference more resistant to His word than open need.\n\nVerse 20 is often used as an invitation to unbelievers, and it is a legitimate application of its pattern, since Christ does seek a welcome. But it is first addressed to a church, and the 'anyone' who hears is one of its members. The prescriptive point is that Christ's discipline is a sign of His love and the right response is earnest repentance, not defensiveness.",
       "debates": [
         {
           "question": "Is the lukewarm condition a picture of false, nominal Christianity, or of genuine believers grown complacent?",
           "views": [
-            { "label": "A warning to nominal, self-deceived professors", "case": "The severity of 'I will vomit you out of My mouth' and the call to 'buy' true riches from Christ suggests people who never truly possessed saving faith, mistaking material comfort for spiritual reality." },
-            { "label": "A rebuke of genuine believers grown complacent, called to renewed repentance", "case": "Verse 19, 'those I love I rebuke and discipline,' is addressed as to true children, and the picture of opening the door to dine together pictures restored fellowship with those already known by Christ, not a call to initial conversion." }
+            {
+              "label": "A warning to nominal, self-deceived professors",
+              "case": "The severity of 'I will vomit you out of My mouth' and the call to 'buy' true riches from Christ suggests people who never truly possessed saving faith, mistaking material comfort for spiritual reality."
+            },
+            {
+              "label": "A rebuke of genuine believers grown complacent, called to renewed repentance",
+              "case": "Verse 19, 'those I love I rebuke and discipline,' is addressed as to true children, and the picture of opening the door to dine together pictures restored fellowship with those already known by Christ, not a call to initial conversion."
+            }
           ],
           "bearing": "Either reading refuses easy comfort in nominal faith or coasting complacency; both summon urgent, earnest repentance and renewed dependence on Christ alone for true riches."
         },
         {
           "question": "Is Revelation 3:20, 'I stand at the door and knock,' primarily addressed to unconverted sinners or to a lukewarm church?",
           "views": [
-            { "label": "Addressed to the church, a call to restored fellowship", "case": "In context Christ speaks to the whole congregation of Laodicea, professing believers who have shut Him out of the center of their common life; the knock calls for renewed intimacy, not a first step of conversion." },
-            { "label": "Applied more broadly as an evangelistic appeal", "case": "Many preachers rightly use the verse to invite any unconverted person to open the door of the heart to Christ, since the principle of personal response to Christ's gracious approach holds true for anyone still outside a relationship with Him." }
+            {
+              "label": "Addressed to the church, a call to restored fellowship",
+              "case": "In context Christ speaks to the whole congregation of Laodicea, professing believers who have shut Him out of the center of their common life; the knock calls for renewed intimacy, not a first step of conversion."
+            },
+            {
+              "label": "Applied more broadly as an evangelistic appeal",
+              "case": "Many preachers rightly use the verse to invite any unconverted person to open the door of the heart to Christ, since the principle of personal response to Christ's gracious approach holds true for anyone still outside a relationship with Him."
+            }
           ],
           "bearing": "Both uses are legitimate and complementary; the verse's first audience is a compromised church, but its picture of Christ's patient knocking speaks also to anyone who has kept Him on the outside of their life."
+        },
+        {
+          "question": "What does 'neither cold nor hot' mean?",
+          "views": [
+            {
+              "label": "Zeal against indifference",
+              "case": "Hot stands for burning devotion and cold for its absence, and Christ would rather have either than the half-hearted middle, because the lukewarm are neither stirred by His word nor honest about their need."
+            },
+            {
+              "label": "Two kinds of usefulness",
+              "case": "Hot water heals and cold water refreshes, as in the springs of Hierapolis and the streams near Colossae, and Laodicea's water, piped in and tepid, does neither. On this view the charge is that the church is no use, not that it lacks emotion."
+            }
+          ],
+          "bearing": "Both readings place the problem in fruitless, self-satisfied religion. Neither suggests that Christ wants anything other than a church that is useful to its neighbours and honest before Him."
+        },
+        {
+          "question": "Is Christ knocking at the church's door or at the individual heart?",
+          "views": [
+            {
+              "label": "The door of the individual believer or hearer",
+              "case": "The verse says 'if anyone hears My voice and opens the door.' The singular suggests a personal response, and the verse has long been used as a call to any person, believer or not, to welcome Christ."
+            },
+            {
+              "label": "The door of the congregation",
+              "case": "The letter is addressed to a church, and the picture of Christ outside the very community that bears His name is a stronger rebuke than any individual case. The 'anyone' invites each member to answer, but the Lord is outside a church life that has no room for Him."
+            }
+          ],
+          "bearing": "The two can stand together. The setting is the church, the response is personal, and the pattern holds for anyone, which is why the verse has been rightly used in both ways."
         }
       ]
     },
-    "originalLanguages": "Christ names Himself ho Amen, God's own reliable yes to His promises, before delivering the sharpest rebuke of all seven letters. The church is chliaros, lukewarm like its city's own tepid aqueduct water, provoking Christ to emeo, spit it out, a startlingly physical verb of revulsion. Yet to the one who overcomes, ho nikon, He extends the highest of all seven promises, a shared seat on His own throne, won because He Himself first overcame.",
+    "originalLanguages": "The three titles in verse 14 each carry weight. 'Witness' is martys, from which English gets martyr. In Revelation it is already tied to costly faithfulness, since Jesus is the faithful witness of Revelation 1:5, and Antipas is 'My faithful witness' in 2:13. 'Faithful' (pistos) is joined with alethinos, 'true' in the sense of genuine, the same adjective as in the Philadelphia letter. Together they say that His testimony can be trusted because He has given it at a cost. 'Originator' translates arche, a word that means beginning, but also ruler or first principle. The BSB footnote notes the alternatives 'Beginning or Ruler.' Colossians 1:18 uses the same word of Christ, 'the beginning and firstborn from among the dead,' beside the statement that all things were created in Him. In the fourth-century dispute over Christ's nature, some pressed the verse to say that the Son was the first thing created, but the sense of arche as source or sovereign, and the surrounding texts that say all things were made through Him, John 1:3, point the other way.\n\nVerses 15 and 16 give three words for temperature. 'Hot' is zestos, 'cold' is psychros, and 'lukewarm' is chliaros, which appears nowhere else in the New Testament. Christ says 'I wish' with the particle ophelon, an expression of longing that Paul also uses to the rich Corinthians, 1 Corinthians 4:8, where he sets a wish against a boast of wealth. The verb of rejection, 'I am about to,' is mello, which expresses something close to hand but not yet done, a note of warning with a door still open.\n\nIn verse 17 the church says 'I am rich and have grown wealthy,' and the second verb, peplouteka, is a perfect: I have become rich and I now stand wealthy. The words of Christ in reply are governed by a single article in Greek, 'the wretched one and pitiful one and poor and blind and naked,' as though all five were one condition. 'Poor' is ptochos, the word for the destitute beggar, not the working poor.\n\nThe remedies come from three sources. The gold is described by a perfect participle, pepyromenon, 'having been refined,' so that it has already passed through fire and is pure. The 'salve' is kollourion, the word that gives English 'collyrium' for an eye ointment. 'Buy' is agorasai, from the marketplace word, which sounds like an economic transaction while the price in Isaiah 55:1 is nothing. Christ sells what He alone has and asks only to be asked.\n\nThe imperatives of verse 19 are carefully chosen. 'Be earnest' is zeleue, a present imperative, a continuing zeal, and 'repent' is metanoeson, an aorist imperative, a decisive change. A turn is to be made and then maintained. The verb for His love is phileo, the warm love of friendship, and the verbs 'rebuke' and 'discipline' are elencho and paideuo, the second being the word for training a child, as in Hebrews 12:5-6.\n\nIn verse 20 the pair of tenses is telling. 'I stand' is hesteka, a perfect, I have taken my stand and am here, and 'I knock' is krouo, a present, I am knocking now. The word for dining is deipneo, from the evening meal, the main meal of the day, in which hosts and guests settled in.",
     "typology": [
-      { "type": "Gold refined by fire", "fulfillment": "Answers Laodicea's banking wealth with the true riches found only in Christ, tested and purified faith, 1 Peter 1:7." },
-      { "type": "White garments", "fulfillment": "Answers Laodicea's famous black wool with the righteousness of the saints, the fine linen of Revelation 19:8." },
-      { "type": "Eye salve", "fulfillment": "Answers Laodicea's renowned eye medicine with true spiritual sight granted by Christ alone, opening blind eyes as in John 9." }
+      {
+        "type": "Nakedness and the covering garment, Genesis 3:7 and 3:21",
+        "fulfillment": "In Eden the first pair sewed leaves and God clothed them. Laodicea sews its own covering from wealth and reputation, and Christ offers white garments that are His to give, as He did in Revelation 3:5 and as the saints will wear in 19:8. Isaiah says that God has clothed him with garments of salvation, Isaiah 61:10. The correspondence is the same, human cover-up versus divine clothing. The escalation is that the garments are now not made of skin but come at the cost of Christ's own life. Revelation 16:15 adds a warning that those caught naked will be exposed."
+      },
+      {
+        "type": "Refined gold and tested faith, Zechariah 13:9 and 1 Peter 1:7",
+        "fulfillment": "The Old Testament speaks of God refining His people as silver and gold are refined, and Peter says that the tested genuineness of faith is more precious than gold, though gold is refined by fire. Laodicea's gold is its bank balance; Christ's is a faith that has passed through trial. The pattern asks us to see that the church's wealth did not come through the fire and could not be refined. What Christ offers is the proven reality of trust in Him, which costs a church something and cannot be stored in a vault."
+      },
+      {
+        "type": "The blind who say they see, Isaiah 35:5 and John 9:39-41",
+        "fulfillment": "Isaiah looked for a day when the eyes of the blind would be opened, and Jesus gave sight to the blind man of John 9 and then told the Pharisees that those who claimed to see were the ones who stayed blind. Laodicea is that second group, a church with a famous eye remedy that could not see its own condition. The salve is the work of the Spirit who opens eyes to the truth about ourselves and about Christ. The type falls short only in that Laodicea is told its blindness while it still has time to be healed."
+      },
+      {
+        "type": "The knock, the meal and the waiting master, Song of Songs 5:2 and Luke 12:36-37",
+        "fulfillment": "In the Song the beloved knocks at the door of the one he loves. In Jesus' parable servants wait for a master who knocks, and the master, astonishingly, serves them at his own table. Revelation 3:20 gathers both. Christ knocks as the lover and as the master who returns, and He promises a meal in which He and the church sit as friends. The meal reaches its fulfilment at the marriage supper of the Lamb, Revelation 19:9. The Song's door closed against the beloved; here it can still be opened."
+      },
+      {
+        "type": "Sitting with the king, Daniel 7:18 and Luke 22:28-30",
+        "fulfillment": "Daniel saw the saints of the Most High receive the kingdom and possess it forever. Jesus told His disciples that He bestowed a kingdom on them as His Father had bestowed one on Him, so that they would eat at His table and sit on thrones. Revelation 3:21 makes this pattern personal. The overcomer shares Christ's own throne, just as Christ shares the Father's. The correspondence is deliberate, since the same verb 'overcame' stands behind both. The throne itself is not a gift of power apart from Him; it is the place at His side."
+      }
     ],
-    "christ": "Jesus is the Amen, the faithful and true Witness, the Originator of God's creation, present at the beginning of all things and utterly reliable even in delivering His sternest rebuke. He counsels a self-satisfied, lukewarm church to find true riches, covering, and sight only in Him, disciplines those He loves precisely because He loves them, and stands patiently knocking at the door of a church that has shut Him outside its own daily life, promising the overcomer the highest reward of all seven letters, a shared seat with Him on His Father's throne, won because He first overcame.",
-    "god": "God's discipline of those He loves is itself an act of love, not rejection; He would rather His people be honestly cold than falsely, comfortably lukewarm. God's own creative authority stands behind Christ's title as the Originator of all things, giving full weight to both His rebuke of self-sufficiency and His gracious invitation to shared fellowship.",
+    "christ": "The letter presents Christ as the only reliable witness. In a city that valued its own assessment, He says what is true and says it at His own cost. The title 'Amen' is not simply a closing word. It makes Him the one in whom all God's promises find their yes, 2 Corinthians 1:20, and who therefore speaks of the church with the same final authority with which He speaks of God's promises. The title is rooted in Isaiah 65:16, where the God of Amen is the God who cannot lie.\n\nHe is the Originator of God's creation, which places Him at the beginning and gives Him the right to speak to any city, any wealth and any person. The parallel texts matter. Colossians 1:16 says all things were created through Him and for Him, and John 1:3 says without Him nothing was made. It is the Creator who knocks at the door of His own people.\n\nHe is also the discipliner who loves. Hebrews 12 reminds readers that a father disciplines a son in whom he delights, and the voice that says 'be earnest and repent' is the voice of that Father in the person of the Son. His harshest words in the seven letters are spoken to a church He has not stopped loving.\n\nHe is the one who offers Himself as the answer to every need the church thought it had met. The gold, the garments and the salve are all His to give, and they are freely given, Isaiah 55:1. The church's true wealth is Christ's righteousness, in which it is clothed, Isaiah 61:10, and its true sight is the Spirit's work.\n\nHe is the one who stands at the door. In Luke 12 He is the master who returns and waits on His servants. Here He is also the guest who comes in, and the table He promises is His own.\n\nAnd He is the one who overcame. In the throne promise He points back to His own victory, to a cross and a resurrection, and tells the weakest church that it may sit where He sits. John 14:23 speaks of the Father and Son making their home with the one who loves Him, and this verse offers the same.\n\nWe should not take every item in the letter as a code. The aqueduct, the wool and the salve are historical colour, not secret references to Christ. The letter makes its own claim plainly: He is the true witness, the Lord of creation, and the one who loves enough to rebuke and to knock.",
+    "god": "The letter shows God as truthful. The Amen speaks the plain truth about the church, and there is nothing cruel in it, because truth told with love is the only thing that can lead to repentance. God knows a church better than it knows itself, and His knowledge is the first mercy. A congregation can fool its neighbours and itself, but it cannot fool the one who knows its deeds.\n\nHe is also the Creator who made all things, and for that reason He owns the right to ask all things of His people. Nothing the church had, whether its money, its cloth or its eye remedy, was outside His giving. That makes the church's boast absurd and its poverty curable. The one who made all things can supply what is lacking.\n\nHe is the God of holy love. Revulsion and love are placed side by side: He is about to spit the church out, and He rebukes it because He loves it. The two are not contradictory. A holy God cannot be indifferent to a church that does not need Him, and a loving God cannot stop wishing that it would. The 'wish' of verse 15 is the grief of a love that is not returned.\n\nHe is generous. He offers gold, garments and sight without a price, and His discipline is shaped to bring people home. The text is also honest about the cost, since those who buy must give up the belief that they are already rich.\n\nHe is patient. The one who knocks has not yet left, and the door is not yet shut. There is also a limit, since the threat of rejection is real. The letter holds both: His kindness is not to be presumed on, and His anger is not final.\n\nHe is a God who shares His rule. The promise of a seat on the throne tells us that God does not guard His glory as a thing to be hoarded. The Father who sat Christ at His right hand will seat those who overcome with Christ. For worship, the letter teaches us to come to God without a list of our achievements. The right posture is open hands, not a full purse, and the right response to the knock is to open the door and sit down to eat.",
     "crossReferences": [
-      { "ref": "2 Corinthians 1:20", "note": "Christ is God's Amen, His yes to every promise, the background for the title Christ claims here." },
-      { "ref": "Colossians 1:16-17", "note": "Christ as the source and sustainer of all creation, background for 'the Originator of God's creation.'" },
-      { "ref": "Hebrews 12:5-11", "note": "The Lord disciplines those He loves, directly echoed in verse 19's 'those I love, I rebuke and discipline.'" },
-      { "ref": "Isaiah 55:1", "note": "An invitation to buy true riches, wine and milk, without money, the pattern behind Christ's counsel to buy gold, garments, and salve." }
+      {
+        "ref": "Isaiah 65:16",
+        "note": "In the BSB the verse speaks of the God of truth, which in Hebrew is the God of Amen. The letter's first title for Christ draws from here, and so claims for Him the reliability that belongs to God alone."
+      },
+      {
+        "ref": "2 Corinthians 1:20",
+        "note": "All the promises of God are Yes in Christ, and so our Amen is spoken through Him. Paul thus explains the title Christ takes: in Him God's word is fully confirmed, so that to hear Him is to hear God's own Yes."
+      },
+      {
+        "ref": "Colossians 1:15-18",
+        "note": "Christ is the firstborn over all creation, all things were created in Him, and He is the beginning. This stands behind the title Originator of God's creation. Paul asked the Laodiceans to read his letter to Colossae, Colossians 4:16, so they had heard this claim before."
+      },
+      {
+        "ref": "Colossians 4:13-16",
+        "note": "Paul mentions Epaphras's work for Laodicea, the church in Nympha's house and a letter from Laodicea. These verses show that the church had a real history of apostolic care, which makes its later complacency more pointed."
+      },
+      {
+        "ref": "Hosea 12:8",
+        "note": "Ephraim boasts of wealth and claims that no sin can be found in him. The same speech of self-sufficiency is put in Laodicea's mouth, and in both the boast hides the truth that God sees."
+      },
+      {
+        "ref": "1 Corinthians 4:8",
+        "note": "Paul's ironic words to the rich Corinthians, 'Already you have become rich,' use the same Greek wish that appears in Revelation 3:15. The danger of a church that has forgotten its need is as old as the apostles."
+      },
+      {
+        "ref": "Isaiah 55:1",
+        "note": "The invitation to buy wine and milk without money is the pattern for Christ's counsel to buy gold from Him. The market language is used to tell the poor they may come, so that the price is the admission of need."
+      },
+      {
+        "ref": "Proverbs 3:11-12",
+        "note": "The LORD disciplines the one He loves, as a father the son in whom he delights. Verse 19 is built on this wisdom saying, and it explains the rebuke as the work of love."
+      },
+      {
+        "ref": "Hebrews 12:5-6",
+        "note": "The author calls Proverbs 3 an exhortation addressed to sons and says the Lord chastises every son He receives. It shows that the rebuke of Revelation 3:19 belongs to the ordinary ways of the Father and not to a rejection."
+      },
+      {
+        "ref": "Song of Songs 5:2",
+        "note": "The beloved knocks and asks to be let in. The image of a lover at the door gives Christ's knock its tenderness, and it also warns that the beloved may be left waiting."
+      },
+      {
+        "ref": "Luke 12:36-37",
+        "note": "Servants wait for a master who knocks, and when he finds them ready he serves them at the table. Revelation 3:20 shares the scene, and shows that the one who comes to the door is the one who serves."
+      },
+      {
+        "ref": "Revelation 19:9",
+        "note": "Blessed are those invited to the marriage supper of the Lamb. The meal promised in Laodicea is a foretaste of this feast, so that an open door now leads to the table at the end."
+      },
+      {
+        "ref": "Revelation 3:21",
+        "note": "The promise to the overcomer to sit with Christ on His throne. The same verb 'overcame' is used of Christ in Revelation 5:5, and the throne is then pictured in Revelation 4:2, so that the last letter leads straight into the throne room vision."
+      }
     ],
-    "oneStory": "A wealthy, self-satisfied church believed it needed nothing, but Christ, the reliable Amen, exposes its true spiritual poverty and, out of love, disciplines it toward repentance, standing patiently at the door of its own heart. To whoever hears His voice and opens the door, He offers not only present fellowship but the highest promise given to any church in Revelation, a shared seat on His throne forever, because He Himself first overcame.",
-    "sermon": { "status": "verified", "preacher": "John Piper", "title": "How to Buy Gold When You're Broke", "url": "https://www.desiringgod.org/messages/how-to-buy-gold-when-youre-broke", "why": "Piper's message works verse by verse through Revelation 3:14-22, Laodicea's lukewarmness, self-deceived wealth, Christ's counsel to buy true riches, and His knock at the door, matching this section's passage precisely and calling the church to earnest repentance." }
+    "oneStory": "The Bible begins with a Creator who gives His creatures every good thing and asks only that they trust Him. The fall is the choice to be self-sufficient, to decide for ourselves what we need, and to cover our own nakedness. Laodicea is that choice grown old and prosperous. 'I am rich; I have grown wealthy and need nothing' is the garden story told in the language of a banking city, and the first reaction to it, as in Eden, is to put on a covering of our own making.\n\nThe prophets spent centuries saying the same thing to Israel. Ephraim boasted of its wealth, Hosea 12:8, and God complained that His people had dug cisterns that could hold no water, Jeremiah 2:13, when He was the spring of living water. The letter's remedy is in Isaiah's invitation to the thirsty to come and buy without money. What God offers has always been free to those who know they have nothing.\n\nThe story also holds a promise. God did not leave Adam naked but clothed him, and He did not leave Israel without prophets. Here Christ stands at the door and offers to come in. That is the gospel in its simplest form: the Creator who was shut out comes to the door of His own house and asks to be let in, and what He brings is a meal.\n\nThe end of the story is the marriage supper of the Lamb, Revelation 19:9, and a throne where the overcomer sits, Revelation 3:21. The door that is knocked on in chapter 3 becomes the door that stands open in heaven in chapter 4, and the throne promised to the overcomer is the one John sees. In the new creation the city will not need a sun or a lamp, since the glory of God gives it light, Revelation 21:23, and the saints will reign forever, Revelation 22:5. Everything Laodicea thought it had will be lost, and everything it lacked will be given.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "John Piper",
+      "title": "How to Buy Gold When You're Broke",
+      "url": "https://www.desiringgod.org/messages/how-to-buy-gold-when-youre-broke",
+      "why": "Piper's message works verse by verse through Revelation 3:14-22, Laodicea's lukewarmness, self-deceived wealth, Christ's counsel to buy true riches, and His knock at the door, matching this section's passage precisely and calling the church to earnest repentance."
+    }
   },
   "quiz": [
     {
       "q": "How does Jesus describe Laodicea's spiritual condition?",
       "options": [
-        { "text": "Lukewarm, neither cold nor hot, and so nauseating that He is about to vomit them out of His mouth.", "weight": 100, "note": "Verses 15-16 give this exact, vivid description." },
-        { "text": "Cold and openly hostile to the gospel.", "weight": 75, "note": "Jesus specifically says they are not cold; the problem is a nauseating middle state, not open hostility." },
-        { "text": "Zealous but doctrinally confused.", "weight": 25, "note": "The letter names complacent self-satisfaction, not confused zeal, as the core problem." },
-        { "text": "Faithful and pleasing to Christ in every way.", "weight": 0, "note": "This letter contains no commendation at all, the only one of the seven with none." }
+        {
+          "text": "Lukewarm, neither cold nor hot, and so nauseating that He is about to vomit them out of His mouth.",
+          "weight": 100,
+          "note": "Verses 15-16 give this exact, vivid description."
+        },
+        {
+          "text": "Cold and openly hostile to the gospel.",
+          "weight": 75,
+          "note": "Jesus specifically says they are not cold; the problem is a nauseating middle state, not open hostility."
+        },
+        {
+          "text": "Zealous but doctrinally confused.",
+          "weight": 25,
+          "note": "The letter names complacent self-satisfaction, not confused zeal, as the core problem."
+        },
+        {
+          "text": "Faithful and pleasing to Christ in every way.",
+          "weight": 0,
+          "note": "This letter contains no commendation at all, the only one of the seven with none."
+        }
       ]
     },
     {
       "q": "What is the irony in Laodicea's self-assessment, 'I am rich, I have grown wealthy, and need nothing'?",
       "options": [
-        { "text": "They were actually wretched, pitiful, poor, blind, and naked in spiritual reality.", "weight": 100, "note": "Verse 17 states this contrast directly." },
-        { "text": "They were financially poor despite claiming spiritual wealth.", "weight": 75, "note": "The irony runs the other way; they were materially wealthy but spiritually impoverished, not the reverse." },
-        { "text": "They were correct about their spiritual condition all along.", "weight": 25, "note": "Christ directly contradicts their self-assessment as false and self-deceived." },
-        { "text": "There is no irony; the statement was simply accurate.", "weight": 0, "note": "The entire point of verse 17 is to expose the gap between their claim and the truth." }
+        {
+          "text": "They were actually wretched, pitiful, poor, blind, and naked in spiritual reality.",
+          "weight": 100,
+          "note": "Verse 17 states this contrast directly."
+        },
+        {
+          "text": "They were financially poor despite claiming spiritual wealth.",
+          "weight": 75,
+          "note": "The irony runs the other way; they were materially wealthy but spiritually impoverished, not the reverse."
+        },
+        {
+          "text": "They were correct about their spiritual condition all along.",
+          "weight": 25,
+          "note": "Christ directly contradicts their self-assessment as false and self-deceived."
+        },
+        {
+          "text": "There is no irony; the statement was simply accurate.",
+          "weight": 0,
+          "note": "The entire point of verse 17 is to expose the gap between their claim and the truth."
+        }
       ]
     },
     {
       "q": "What does Christ counsel the church to buy from Him?",
       "options": [
-        { "text": "Gold refined by fire, white garments, and salve to anoint their eyes.", "weight": 100, "note": "Verse 18 lists these three specific counsels, each answering one of Laodicea's civic industries." },
-        { "text": "Land and property to secure their financial future.", "weight": 75, "note": "The counsel concerns spiritual riches, covering, and sight, not literal property or land." },
-        { "text": "Weapons to defend the church from persecution.", "weight": 25, "note": "No military or defensive counsel is given; the imagery is entirely about spiritual poverty, nakedness, and blindness." },
-        { "text": "Nothing; Christ offers no counsel, only condemnation.", "weight": 0, "note": "Verse 18 gives specific, gracious counsel alongside the earlier rebuke." }
+        {
+          "text": "Gold refined by fire, white garments, and salve to anoint their eyes.",
+          "weight": 100,
+          "note": "Verse 18 lists these three specific counsels, each answering one of Laodicea's civic industries."
+        },
+        {
+          "text": "Land and property to secure their financial future.",
+          "weight": 75,
+          "note": "The counsel concerns spiritual riches, covering, and sight, not literal property or land."
+        },
+        {
+          "text": "Weapons to defend the church from persecution.",
+          "weight": 25,
+          "note": "No military or defensive counsel is given; the imagery is entirely about spiritual poverty, nakedness, and blindness."
+        },
+        {
+          "text": "Nothing; Christ offers no counsel, only condemnation.",
+          "weight": 0,
+          "note": "Verse 18 gives specific, gracious counsel alongside the earlier rebuke."
+        }
       ]
     },
     {
       "q": "Why does Jesus rebuke and discipline this church?",
       "options": [
-        { "text": "Because He loves them, and calls them to be earnest and repent.", "weight": 100, "note": "Verse 19 explicitly grounds the discipline in Christ's love for the church." },
-        { "text": "Because He has already rejected them completely.", "weight": 75, "note": "The rebuke is a call to repentance grounded in love, not a declaration of final rejection." },
-        { "text": "Because they had committed a specific sin not mentioned elsewhere.", "weight": 25, "note": "The rebuke concerns their lukewarm self-sufficiency generally, not an unnamed specific sin." },
-        { "text": "For no reason at all; the discipline is arbitrary.", "weight": 0, "note": "Verse 19 gives a clear reason: love that seeks their repentance." }
+        {
+          "text": "Because He loves them, and calls them to be earnest and repent.",
+          "weight": 100,
+          "note": "Verse 19 explicitly grounds the discipline in Christ's love for the church."
+        },
+        {
+          "text": "Because He has already rejected them completely.",
+          "weight": 75,
+          "note": "The rebuke is a call to repentance grounded in love, not a declaration of final rejection."
+        },
+        {
+          "text": "Because they had committed a specific sin not mentioned elsewhere.",
+          "weight": 25,
+          "note": "The rebuke concerns their lukewarm self-sufficiency generally, not an unnamed specific sin."
+        },
+        {
+          "text": "For no reason at all; the discipline is arbitrary.",
+          "weight": 0,
+          "note": "Verse 19 gives a clear reason: love that seeks their repentance."
+        }
       ]
     },
     {
       "q": "What is the highest promise given to the one who overcomes in this letter?",
       "options": [
-        { "text": "The right to sit with Christ on His own throne, just as He overcame and sat down with His Father.", "weight": 100, "note": "Verse 21 gives this promise, widely regarded as the highest of all seven letters' promises." },
-        { "text": "Freedom from ever facing further rebuke.", "weight": 75, "note": "The promise concerns shared reign with Christ, not merely an end to correction." },
-        { "text": "A new name written on a white stone.", "weight": 25, "note": "That specific promise belongs to the letter to Pergamum, not Laodicea." },
-        { "text": "No promise is given at all in this letter.", "weight": 0, "note": "Verse 21 gives an explicit and remarkable promise." }
+        {
+          "text": "The right to sit with Christ on His own throne, just as He overcame and sat down with His Father.",
+          "weight": 100,
+          "note": "Verse 21 gives this promise, widely regarded as the highest of all seven letters' promises."
+        },
+        {
+          "text": "Freedom from ever facing further rebuke.",
+          "weight": 75,
+          "note": "The promise concerns shared reign with Christ, not merely an end to correction."
+        },
+        {
+          "text": "A new name written on a white stone.",
+          "weight": 25,
+          "note": "That specific promise belongs to the letter to Pergamum, not Laodicea."
+        },
+        {
+          "text": "No promise is given at all in this letter.",
+          "weight": 0,
+          "note": "Verse 21 gives an explicit and remarkable promise."
+        }
       ]
     }
   ],
@@ -168,9 +415,21 @@
     "Jesus stands at the door and knocks, waiting to be let into full fellowship. Is there a part of your life you have kept shut against Him, and what would it mean to open that door this week?"
   ],
   "translationNotes": [
-    { "ref": "Revelation 3:14", "note": "The BSB footnote allows 'Beginning' or 'Ruler' as alternate renderings of 'Originator,' both consistent with Christ's role as the source and sustainer of all creation rather than the first created being." },
-    { "ref": "Revelation 3:16", "note": "Laodicea's lukewarm water, piped by aqueduct from hot springs and cooled along the way, gave the city's own residents a vivid, local picture for the spiritual condition Christ describes." },
-    { "ref": "Revelation 3:18", "note": "Each of Christ's three counsels, gold, white garments, and eye salve, directly answers one of Laodicea's three sources of civic pride: its banking wealth, its famous black wool textiles, and its renowned eye medicine." }
+    {
+      "ref": "Revelation 3:14",
+      "note": "The BSB footnote allows 'Beginning' or 'Ruler' as alternate renderings of 'Originator,' both consistent with Christ's role as the source and sustainer of all creation rather than the first created being."
+    },
+    {
+      "ref": "Revelation 3:16",
+      "note": "Laodicea's lukewarm water, piped by aqueduct from hot springs and cooled along the way, gave the city's own residents a vivid, local picture for the spiritual condition Christ describes."
+    },
+    {
+      "ref": "Revelation 3:18",
+      "note": "Each of Christ's three counsels, gold, white garments, and eye salve, directly answers one of Laodicea's three sources of civic pride: its banking wealth, its famous black wool textiles, and its renowned eye medicine."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched this session via the repo's makor-scripture tool for Revelation 3:14-22." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched this session via the repo's makor-scripture tool for Revelation 3:14-22."
+  }
 }

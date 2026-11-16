@@ -18,9 +18,21 @@
         "note": "I know your works",
         "emphasis": "",
         "verses": [
-          { "chapter": 2, "n": 1, "text": "“To the {{aggelos|angel}} of the church in Ephesus write: These are the words of Him who holds the seven stars in His right hand and walks among the seven golden lampstands." },
-          { "chapter": 2, "n": 2, "text": "I know your {{ergon|deeds}}, your labor, and your perseverance. I know that you cannot tolerate those who are evil, and you have tested and exposed as liars those who falsely claim to be apostles." },
-          { "chapter": 2, "n": 3, "text": "Without growing weary, you have persevered and endured many things for the sake of My name." }
+          {
+            "chapter": 2,
+            "n": 1,
+            "text": "“To the {{aggelos|angel}} of the church in Ephesus write: These are the words of Him who holds the seven stars in His right hand and walks among the seven golden lampstands."
+          },
+          {
+            "chapter": 2,
+            "n": 2,
+            "text": "I know your {{ergon|deeds}}, your labor, and your perseverance. I know that you cannot tolerate those who are evil, and you have tested and exposed as liars those who falsely claim to be apostles."
+          },
+          {
+            "chapter": 2,
+            "n": 3,
+            "text": "Without growing weary, you have persevered and endured many things for the sake of My name."
+          }
         ]
       },
       {
@@ -28,20 +40,61 @@
         "note": "you have abandoned your first love",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 2, "n": 4, "text": "But I have this against you: You have abandoned your {{prote_agape|first love}}." },
-          { "chapter": 2, "n": 5, "text": "Therefore, keep in mind how far you have fallen. Repent and perform the deeds you did at first. But if you do not repent, I will come to you and remove your lampstand from its place." },
-          { "chapter": 2, "n": 6, "text": "But you have this to your credit: You hate the works of the Nicolaitans, which I also hate." },
-          { "chapter": 2, "n": 7, "text": "He who has an ear, let him hear what the Spirit says to the churches. To {{ho_nikon|the one who overcomes}}, I will grant the right to eat from the tree of life in the {{paradeisos|Paradise}} of God." }
+          {
+            "chapter": 2,
+            "n": 4,
+            "text": "But I have this against you: You have abandoned your {{prote_agape|first love}}."
+          },
+          {
+            "chapter": 2,
+            "n": 5,
+            "text": "Therefore, keep in mind how far you have fallen. Repent and perform the deeds you did at first. But if you do not repent, I will come to you and remove your lampstand from its place."
+          },
+          {
+            "chapter": 2,
+            "n": 6,
+            "text": "But you have this to your credit: You hate the works of the Nicolaitans, which I also hate."
+          },
+          {
+            "chapter": 2,
+            "n": 7,
+            "text": "He who has an ear, let him hear what the Spirit says to the churches. To {{ho_nikon|the one who overcomes}}, I will grant the right to eat from the tree of life in the {{paradeisos|Paradise}} of God."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "aggelos": { "language": "Greek", "lemma": "aggelos", "original": "ἄγγελος", "gloss": "Messenger, angel. Each letter is addressed to 'the angel' of its church, variously understood as a guardian angel, the congregation personified, or the human messenger or leader who represents and answers for that church before Christ." },
-    "ergon": { "language": "Greek", "lemma": "erga", "original": "ἔργα", "gloss": "Works, deeds. Every one of the seven letters opens 'I know your works': the Christ who walks among the lampstands watches not mere profession but the actual fruit, labor, and endurance of each congregation's life." },
-    "prote_agape": { "language": "Greek", "lemma": "prote agape", "original": "πρώτη ἀγάπη", "gloss": "First love, the ardent, wholehearted devotion of the church's earliest days. Ephesus kept sound doctrine and hard labor, yet let this love grow cold, the single charge Christ brings against an otherwise commendable church." },
-    "ho_nikon": { "language": "Greek", "lemma": "ho nikon", "original": "ὁ νικῶν", "gloss": "The one who overcomes, conquers, prevails. Every letter closes with a promise 'to the one who overcomes,' language echoed in 1 John 5:4-5, where the victory in view is simply persevering faith in Jesus." },
-    "paradeisos": { "language": "Greek", "lemma": "paradeisos", "original": "παράδεισος", "gloss": "Paradise, a loanword for a walled garden or royal park. It recalls Eden and anticipates the tree of life restored in the new creation of Revelation 22:2, promised here to the one who overcomes." }
+    "aggelos": {
+      "language": "Greek",
+      "lemma": "aggelos",
+      "original": "ἄγγελος",
+      "gloss": "Messenger, angel. Each letter is addressed to 'the angel' of its church, variously understood as a guardian angel, the congregation personified, or the human messenger or leader who represents and answers for that church before Christ."
+    },
+    "ergon": {
+      "language": "Greek",
+      "lemma": "erga",
+      "original": "ἔργα",
+      "gloss": "Works, deeds. Every one of the seven letters opens 'I know your works': the Christ who walks among the lampstands watches not mere profession but the actual fruit, labor, and endurance of each congregation's life."
+    },
+    "prote_agape": {
+      "language": "Greek",
+      "lemma": "prote agape",
+      "original": "πρώτη ἀγάπη",
+      "gloss": "First love, the ardent, wholehearted devotion of the church's earliest days. Ephesus kept sound doctrine and hard labor, yet let this love grow cold, the single charge Christ brings against an otherwise commendable church."
+    },
+    "ho_nikon": {
+      "language": "Greek",
+      "lemma": "ho nikon",
+      "original": "ὁ νικῶν",
+      "gloss": "The one who overcomes, conquers, prevails. Every letter closes with a promise 'to the one who overcomes,' language echoed in 1 John 5:4-5, where the victory in view is simply persevering faith in Jesus."
+    },
+    "paradeisos": {
+      "language": "Greek",
+      "lemma": "paradeisos",
+      "original": "παράδεισος",
+      "gloss": "Paradise, a loanword for a walled garden or royal park. It recalls Eden and anticipates the tree of life restored in the new creation of Revelation 22:2, promised here to the one who overcomes."
+    }
   },
   "study": {
     "basic": {
@@ -55,92 +108,252 @@
       "oneStory": "The very first letter of Revelation warns that faithful labor can survive even as love for Christ quietly cools, and calls the church back to remember, repent, and return. It closes with a promise stretching back to Eden and forward to the new creation: the tree of life, lost in the garden, restored at last to everyone who overcomes in Christ."
     },
     "context": {
-      "literary": "The first of seven letters sharing an identical sevenfold pattern: address, self-description, commendation, complaint, remedy, promise, and the call 'he who has an ear, let him hear.' Ephesus's letter establishes this template that the following six letters vary and develop.",
-      "historical": "Ephesus was a major port city and the leading church of Roman Asia, founded through Paul's extended ministry there (Acts 19) and later associated with Timothy and John. It was known for confronting false teaching, as this letter itself commends, but also for the pressures of long-established, perhaps routine, religious life.",
-      "canonical": "This letter's warning about losing first love while maintaining outward orthodoxy and labor echoes prophetic warnings against ritual without heart (Isaiah 29:13, Hosea 6:6) and anticipates Jesus's own teaching that not all who say 'Lord, Lord' truly know him (Matthew 7:21-23)."
+      "literary": "The letter to Ephesus is the template for six others, and reading it closely teaches the reader how to read all seven. Each letter has the same parts in the same order: an address to 'the angel of the church', a self-introduction beginning 'These are the words of', a statement 'I know', a commendation or rebuke or both, a command, a warning or promise, a call to hear, and a promise to the one who overcomes. Its movement is plain. Verses 2 and 3 praise, verse 4 turns on the word 'But', verse 5 gives the remedy and the threat, verse 6 brings a second commendation, and verse 7 closes with the call and the promise.\n\nThe structure carries an argument. The praise is longer than the complaint, and it is repeated, once in verses 2 and 3 and again in verse 6, so that the single charge in verse 4 is held inside a frame of approval. Christ does not rebuke a church He thinks little of. The complaint also comes after the church's strongest claims, labor, endurance and sound doctrine, as though to say that every one of these can stand while the root is dying.\n\nThe commands in verse 5 form a sequence of three, remember, repent, do, and the order is deliberate. Memory comes first because the church cannot return to a place it has forgotten. The second commendation in verse 6 sits oddly after the threat, which has led readers to see it as a pause before the final call. It reminds the church that its hatred of false teaching is shared with Christ Himself, 'which I also hate', and so keeps the rebuke from being heard as a rejection of everything the church has done.",
+      "historical": "Ephesus was the greatest city of the province of Asia, a harbor and commercial center on the road system that ran inland, and the home of the temple of Artemis, one of the grandest buildings of the ancient world. Acts 19 describes a riot there when silversmiths feared that Paul's preaching would discredit 'the temple of the great goddess Artemis', Acts 19:27. A Christian church that held to one Lord stood in the shadow of that shrine, with all the economic and civic pressure that came with it.\n\nThe church's history was long by first century standards. Paul taught in Ephesus for two years, 'so that everyone who lived in the province of Asia, Jews and Greeks alike, heard the word of the Lord', Acts 19:10. He later warned the elders there, 'savage wolves will come in among you', and that 'from your own number, men will rise up and distort the truth', Acts 20:29 and 20:30. Timothy was left at Ephesus to deal with false teaching, 1 Timothy 1:3. The commendation in verse 2, that they had tested and exposed false apostles, is the harvest of that early warning.\n\nPaul wrote his own letter to the church, praising their 'faith in the Lord Jesus and your love for all the saints', Ephesians 1:15, and closing with a blessing on 'all who love our Lord Jesus Christ with an undying love', Ephesians 6:24. By the time of this letter, a generation or two later, the first of those had weakened. The 'Nicolaitans' of verse 6 are named again at Pergamum, 2:15, and their teaching seems to have involved a compromise with the surrounding pagan life. Later writers connected them to the Nicolas of Acts 6:5, but the connection is uncertain and the text does not say.",
+      "canonical": "The tree of life is one of the Bible's bookends. It stands in the middle of the garden in Genesis 2:9, and after the fall cherubim and a flaming sword guard the way to it, Genesis 3:24. Wisdom literature borrows the phrase for the blessings of a good life, 'She is a tree of life to those who embrace her', Proverbs 3:18. In the last chapter of the Bible it grows beside the river of the city, 'bearing twelve kinds of fruit and yielding a fresh crop for each month', Revelation 22:2, and the blessing of the final beatitude is the 'right to the tree of life', Revelation 22:14. The promise of verse 7 is therefore a promise drawn from the book's last scene and written into the first letter.\n\nThe word 'Paradise' is also a link across the Bible. The Greek translators used it for the garden of Eden in Genesis 2 and 3. In the New Testament Jesus tells the dying thief, 'today you will be with Me in Paradise', Luke 23:43, and Paul is 'caught up to Paradise' to hear what cannot be told, 2 Corinthians 12:4. In Revelation, that same Paradise is placed 'of God', which shows it is not a place of the dead but God's own presence.\n\nThe charge about first love echoes older words. The LORD says through Jeremiah, 'I remember the devotion of your youth, your love as a bride', Jeremiah 2:2, and Jesus predicts that 'the love of most will grow cold', Matthew 24:12. Christ's own summary of the law ranks love for God first, Matthew 22:37 and 22:38, and John's first letter binds that love to love for the brother, 1 John 4:20. The lampstand image comes from the tabernacle, Exodus 25:31, and from Zechariah 4:2."
     },
     "hermeneutics": {
-      "authorIntent": "To commend Ephesus's real doctrinal vigilance and hard labor honestly, while naming the deeper problem of cooling devotion to Christ, calling the church to remember, repent, and return to their first works, with both a warning and a promise attached.",
-      "descriptionVsPrescription": "The letter describes Ephesus's specific condition; it is not a universal claim that every hardworking church has necessarily lost its first love. Its abiding pattern is the call to examine whether outward faithfulness is matched by inward devotion, and to repent where it is not.",
+      "authorIntent": "Christ meant this letter to do two things at once. The first is to console. A church that had worked hard for decades, endured hardship and resisted false teaching is told that He knows and has noticed every bit of it. The repeated 'I know' is a promise that nothing is forgotten. Believers who feel that no one sees their long faithfulness are meant to hear it.\n\nThe second is to correct. He sets a single flaw next to those real virtues and treats it as grave. The letter's point is that the quality of a church is not measured by its output, its orthodoxy or even its endurance, but by whether the heart behind them is still turned toward Him. A church could pass every inspection and be warned that its lampstand would be taken away.\n\nFor the churches that heard it read, the letter also taught how to hear all the others. They would hear the same pattern in their own letters and so see that Christ is fair in how He speaks: He names what is good, names what is wrong, tells them what to do, and tells them what lies ahead. The note that closes it, 'He who has an ear, let him hear what the Spirit says to the churches', tells every congregation that each letter is meant for all of them.",
+      "descriptionVsPrescription": "The letter describes the condition of one church at one time and prescribes the remedy for it. The commands are not general in form, but they are general in application, because the Spirit says they are for 'the churches'. The sequence of remembering, repenting and returning to earlier works is a pattern that any congregation or believer can follow when love grows cool.\n\nThe passage does not give a list of what first love looked like, and it would be a mistake to turn the 'deeds you did at first' into a fixed program. The point is the direction of the heart, and the deeds are the expression of it. It also does not say that the Ephesians' hard work or their discernment were wrong. The commendations stand, and the instruction is to add the missing love, not to give up the rest.\n\nThe warning in verse 5 is conditional. Christ says 'if you do not repent', and so the threat describes what will follow persistent refusal and not what has already happened. Readers should not conclude from this letter that churches that lose their first love are already abandoned, only that they are called back and that the call has a limit.",
       "debates": [
         {
-          "question": "What exactly is the 'first love' Ephesus is charged with abandoning?",
+          "question": "What is the 'first love' the Ephesians abandoned?",
           "views": [
-            { "label": "Love for Christ himself", "case": "The letter's whole frame is Christ's own relationship to the church; the charge most naturally reads as cooling personal devotion to him, even while doctrine and discipline remained intact." },
-            { "label": "Love for one another within the congregation", "case": "Some read the cooling love primarily in relational terms, noting that vigorous doctrinal watchfulness, tolerating no evil and testing every claim, can curdle into suspicion and coldness toward fellow believers." }
+            {
+              "label": "Love for Christ Himself",
+              "case": "The letter speaks of a love lost, set against the church's works and Christ's own presence among them. Jeremiah 2:2 uses the picture of the devotion of a bride, and Jesus says the first and greatest commandment is to love God, Matthew 22:37 and 22:38. On this view, the Ephesians kept the forms of faithfulness but let their affection for Christ cool, as in Matthew 24:12."
+            },
+            {
+              "label": "Love for one another",
+              "case": "The Ephesians are praised for their endurance and doctrine but not for their warmth. John's first letter says love of God cannot be separated from love of the brother, 1 John 4:20, and Paul had praised their 'love for all the saints', Ephesians 1:15. A church preoccupied with detecting false teachers could easily lose its charity toward its own members."
+            },
+            {
+              "label": "Both, as one love",
+              "case": "Jesus tied the two together when He said that everyone will know His disciples 'if you love one another', John 13:35, and when He said 'Remain in My love', John 15:9. The letter does not choose between them, because in Scripture love for God and love for people are two sides of one devotion."
+            }
           ],
-          "bearing": "Scripture rarely separates the two loves cleanly (1 John 4:19-21), so the remedy, remember, repent, and do the first works, likely addresses devotion to Christ and to his people together, not one to the exclusion of the other."
+          "bearing": "Whichever love is meant, the remedy is the same: remember what the church was, repent and take up again the works that flowed from that love. The warning applies to any church whose work has become stronger than its warmth."
         },
         {
-          "question": "Do the seven churches, beginning with Ephesus, also represent seven successive ages of church history?",
+          "question": "What does the threat to remove the lampstand mean, and does 'overcome' put salvation at risk?",
           "views": [
-            { "label": "Primarily seven real, historical churches", "case": "The letters are addressed to actual, named, geographically locatable congregations with specific, identifiable problems, and most interpreters across traditions read them first and foremost as real pastoral correspondence." },
-            { "label": "Also a prophetic outline of church history", "case": "A historicist strand of interpretation has long read the seven letters, from Ephesus's apostolic-era coolness to Laodicea's end-time lukewarmness, as a panoramic sketch of successive periods of church history." }
+            {
+              "label": "The church loses its place as a witness",
+              "case": "The lampstand is the church as a bearer of light, and to remove it is to end that congregation's standing as Christ's lamp in the city. Church history bears this out, since Ephesus itself later dwindled. On this reading, the threat concerns the corporate witness and says nothing about the salvation of individual members."
+            },
+            {
+              "label": "Individuals who do not repent forfeit the reward",
+              "case": "The promise in verse 7 is given to 'the one who overcomes', and the threat in verse 5 is conditional on repentance. Texts such as Revelation 3:5 say that the one who overcomes will not have his name blotted out of the Book of Life. Some readers take this to mean that perseverance is a condition of final salvation."
+            },
+            {
+              "label": "The overcomer is every true believer",
+              "case": "John's first letter describes the one who overcomes as the person who believes that Jesus is the Son of God, 1 John 5:5, and in that sense every believer overcomes. On this view, the letters describe the faith that lasts and warn those who only seem to have it, and the promises are the common inheritance of Christ's people."
+            }
           ],
-          "bearing": "Nearly every tradition affirms the primary, historical address to real churches; the epochal reading is a minority overlay that should never be allowed to eclipse the direct, pastoral force these words carry for any congregation, in any era, that recognizes its own condition here."
+          "bearing": "All three readings agree that Christ speaks seriously, that repentance is the way back, and that the promise at the end is generous. Readers should neither dismiss the warning as empty nor read it as a reason for fear in those who are holding to Christ."
         }
       ]
     },
-    "originalLanguages": "The letter opens with Christ's familiar refrain, 'I know your erga,' your works, naming Ephesus's real labor, perseverance, and doctrinal discernment. Yet the charge against them concerns their prote agape, their first love, now abandoned. The closing promise belongs to ho nikon, the one who overcomes, who will eat from the tree of life in the paradeisos, the Paradise, of God, a word that carries all the resonance of Eden regained.",
+    "originalLanguages": "The self-introduction in verse 1 uses two present participles. Christ is 'the one who holds', ho kratōn, the seven stars, and 'the one who walks', ho peripatōn, among the lampstands. The word for 'holds' means to grasp firmly and keep in one's power, so the stars are not merely carried but kept. The verb for 'walks' is the ordinary word for walking about, and the Old Testament uses it for God's presence among His people, as in the garden, Genesis 3:8, and the camp of Israel, Leviticus 26:12.\n\nThe formula 'These are the words of', tade legei, is the Greek Old Testament's rendering of the prophet's 'Thus says the LORD'. Christ speaks here in the prophetic voice that Israel knew. The word translated 'labor' in verse 2 is kopos, toil to the point of weariness, and the verb in verse 3, kekopiakes, 'you have not grown weary', is its cousin. The Ephesians' work was costly. 'Perseverance' is the hypomone of the earlier letter, a patient endurance under pressure. The two words together describe a church that worked hard and kept going.\n\nThe verb 'cannot tolerate' is literally 'cannot bear', ou dynē bastasai. They could not carry the weight of evil people among them. The test of false apostles uses peirazo, to put to the proof, the same verb as 'tempt' elsewhere, and 'found them liars' uses heuriskō, to find after searching. The picture is of a church that examined its teachers and rejected those who failed.\n\nThe charge in verse 4 turns on a single verb, aphēkas, 'you have left' or 'you have let go'. It is the same word used elsewhere for forgiving, sending away or leaving. The tense is aorist, so it describes a completed act, a point at which the church departed from its earlier love. The commands that follow are strong. 'Keep in mind', mnēmoneue, is a present imperative, 'keep remembering', and 'how far you have fallen' is from pothen peptōkas, literally 'from where you have fallen'. The verb 'repent' is the aorist metanoēson, an urgent single act, and 'perform the deeds' is poiēson, also aorist. The 'first' deeds are ta prota erga.\n\nThe verb 'remove', kinēsō, means to set in motion or shift, and the future tense 'I will come' and 'I will remove' states what will follow if the church refuses. The call in verse 7, 'He who has an ear, let him hear', uses a formula Jesus used in the Gospels, Matthew 11:15, and the 'Spirit' who speaks to 'the churches' in the plural shows that every letter is for every church.\n\nThe promise is 'I will grant', dōsō, 'to eat', phagein, 'from the tree of life'. The Greek is xylon zoēs, literally 'wood of life', the same phrase the Greek Old Testament uses at Genesis 2:9. The Persian loanword paradeisos, 'enclosed garden', is the word the Greek translators chose for Eden.",
     "typology": [
-      { "type": "The tree of life, barred in Genesis 3:22-24", "fulfillment": "Restored and offered here, and fully realized in the new creation of Revelation 22:2, to everyone who overcomes." },
-      { "type": "The golden lampstand of Zechariah 4", "fulfillment": "Fulfilled in Christ walking among the seven golden lampstands, God's presence and light dwelling among his gathered people." }
+      {
+        "type": "The tree of life guarded by cherubim, Genesis 2:9 and 3:24",
+        "fulfillment": "The tree of life stood in the middle of Eden, and after the fall God stationed cherubim and a flaming sword to guard the way to it, Genesis 3:24. In verse 7, Christ promises that the one who overcomes will eat from it. The correspondence is exact and the escalation is that what was shut by judgment is opened by grace. The tree of Proverbs 3:18, which stands for wisdom, comes into view as well. The final reading is in Revelation 22:2 and 22:14, where the tree stands in the city and those who wash their robes have the right to it. The type is not complete in this letter, because the promise points forward to a feast that has not yet come."
+      },
+      {
+        "type": "The lampstand in the sanctuary, Exodus 25:31",
+        "fulfillment": "The golden lampstand burned in the holy place, and its light never went out while it was tended, Exodus 25:31 to 25:37. In Revelation each church is such a lamp, and Christ walks among them as the priest tends the lamp. The correspondence escalates from a single piece of temple furniture to many congregations, and from a priest who trims the wicks to the Lord who has the right to remove one. The type falls short in that the tabernacle lampstand could not lose its place by neglect of love, and the warning of verse 5 shows that the churches stand in His light only as long as they answer Him."
+      },
+      {
+        "type": "Israel's love as a bride, Jeremiah 2:2",
+        "fulfillment": "The LORD said to Israel, 'I remember the devotion of your youth, your love as a bride, how you followed Me in the wilderness.' The language of first love in verse 4 belongs to the same picture of a covenant relationship that began in warmth and cooled. Hosea and Jeremiah both describe Israel's drift as a loss of the love that marked the beginning. The church, as the bride of Christ in Ephesians 5:25 to 5:27, stands in the same relation. The correspondence escalates because Christ's love for His bride is proved at the cross. The type falls short at the end, because the relationship does not end in divorce but in the marriage supper of the Lamb."
+      }
     ],
-    "christ": "Christ addresses Ephesus exactly as John saw him, holding the seven stars and walking among the lampstands, present and watchful over his church's actual life, not merely its reputation. He commends genuine labor and courage against false teaching, yet presses past outward performance to the heart, naming cooling love as the deeper danger, and offering, to whoever overcomes, the restored fruit of the tree of life.",
-    "god": "God's evaluation here is neither harshly dismissive nor merely flattering: he names real good honestly and real fault honestly in the same breath. The warning to remove the lampstand shows he takes cooling devotion seriously enough to threaten a church's very existence as a light-bearing witness, while the promise of Paradise regained shows his reward for faithful repentance is nothing less than Eden restored.",
+    "christ": "Christ opens this letter by naming Himself in two ways that fit the church He is addressing. He is the one who 'holds the seven stars in His right hand', which tells a church wondering whether anyone noticed their toil that they are in a safe place, and He is the one who 'walks among the seven golden lampstands', which tells a church drifting in its love that He is near enough to see it. The two images together describe a Lord who is both secure in His power and present in His closeness.\n\nHis knowledge is searching and fair. 'I know' is the opening of every letter, and in this one it comes with a list of what He has seen. He has seen their labor, their patience, their discernment and their endurance for His name. Nothing is missing from the account. Yet He has also seen what lies behind it. The same eyes that John saw as 'a blazing fire' read the heart, and they do not merely add up the deeds. Jesus had said that many would say on that day, 'Lord, Lord, did we not prophesy', and He would answer that He never knew them, Matthew 7:22 and 7:23, so the concern with the heart is part of His consistent teaching.\n\nHis complaint is a lover's complaint. 'I have this against you' is said by someone who wants the church's love, and it explains the severity. Those He loves, He rebukes and disciplines, 3:19, and in the letter to Laodicea He stands at the door and knocks, 3:20. The One who is the faithful witness does not pretend that a loveless faithfulness is enough.\n\nHe is also the Lord who promises life. The tree of life is His to give, and the one who overcomes will eat from it by His grant. Christ has overcome, as He says in 3:21, and the church shares His victory. Jesus said 'Remain in My love', John 15:9, and this letter is that command applied.\n\nA caution applies. The letter does not teach that Christ's love for the church is conditional on its performance, or that a lapse in love ends the relationship. It teaches that He wants the church's love and will go to the length of removing a lampstand rather than accept a hollow one.",
+    "god": "The letter shows a God who looks at everything and tells the truth about it. His commendation is generous and specific. He does not hurry to the fault, and He names the church's labor, patience and discernment first. That fairness is part of His character. Anyone tempted to think of God as quick to find fault should notice how long He lingers over what was good.\n\nIt shows a God who cares more about love than about performance. He does not set aside the works, and He hates what the Nicolaitans do. But the thing He names as the central failure is not a failure of works at all. The scriptures say the same in other places. 'If I give all I possess to the poor... but have not love, I gain nothing', 1 Corinthians 13:3, and the first commandment is love, Matthew 22:37 and 22:38. God desires the heart and not only the hand.\n\nIt shows a God who is patient and who sets limits. 'Repent' is a command, and 'if you do not repent' is a warning. Mercy comes with a call to respond. His patience is not an excuse for putting off the response, and He does not leave the church without a way back. The three steps of remembering, repenting and doing give the church something concrete to do.\n\nIt shows a God who is holy in His standards and generous in His gifts. The same God who may remove a lampstand will give the tree of life to those who overcome. Because He is the one who keeps the stars and walks among the lights, His judgment and His promises are both certain.\n\nIt shows a God who hates evil and shares His hatred with His people. 'Which I also hate' invites the church to stand with Him against what corrupts. For worship, the letter teaches that devotion is not an add on to correct belief and diligent work. The proper response to Christ's knowledge is not to hide behind what is good but to return to Him with the love that was there at first, and to receive His promise of life.",
     "crossReferences": [
-      { "ref": "Genesis 3:22-24", "note": "Access to the tree of life is barred after the fall, the loss this letter's promise reverses." },
-      { "ref": "Revelation 22:1-2", "note": "The tree of life is fully restored in the new creation at the book's close." },
-      { "ref": "1 John 4:19-21", "note": "Love for God and love for fellow believers are bound together, bearing on what 'first love' includes." },
-      { "ref": "Acts 19:1-20", "note": "Paul's extended founding ministry in Ephesus, the church now addressed generations later." }
+      {
+        "ref": "Genesis 2:9",
+        "note": "The tree of life stands in the middle of the garden alongside the tree of the knowledge of good and evil. The promise in verse 7 takes the reader back to this tree, so the church is promised what the first humans had and lost, and the Greek phrase for the tree is the same."
+      },
+      {
+        "ref": "Genesis 3:24",
+        "note": "After the fall, cherubim and a flaming sword guard the way to the tree of life. Christ's promise to the overcomer overturns that exclusion, and Revelation 22:14 says that those who wash their robes will have the right to enter by the gates."
+      },
+      {
+        "ref": "Revelation 22:2",
+        "note": "The tree of life grows beside the river in the new city, with twelve kinds of fruit and leaves for the healing of the nations. This is where the promise of the first letter is finally kept, and it shows that the reward is a share in the renewed creation."
+      },
+      {
+        "ref": "Jeremiah 2:2",
+        "note": "The LORD remembers 'the devotion of your youth, your love as a bride'. The picture of a first love that cooled over time lies behind Christ's charge, and the same two ideas appear: remembering how it was, and returning."
+      },
+      {
+        "ref": "Matthew 24:12",
+        "note": "Jesus warns that because of the multiplication of wickedness 'the love of most will grow cold'. Ephesus shows this at the level of a single congregation. Cooling love is a danger that pressures from outside and inside both produce."
+      },
+      {
+        "ref": "Matthew 22:37-38",
+        "note": "Jesus calls love for God with all the heart, soul and mind 'the first and greatest commandment'. The Ephesians' fault is a failure at the first commandment while they kept many lesser ones, which is why Christ treats it as serious."
+      },
+      {
+        "ref": "1 Corinthians 13:1-3",
+        "note": "Paul says that tongues, prophecy, knowledge, faith and even self sacrifice amount to nothing without love. Ephesus had many of these virtues, and the passage gives a pattern for how a church can be impressive and still be empty."
+      },
+      {
+        "ref": "1 John 4:19-21",
+        "note": "We love because He first loved us, and anyone who says he loves God but hates his brother is a liar. The passage ties love for God to love for others, which bears on what first love includes and on the cost of a church that is only critical."
+      },
+      {
+        "ref": "Acts 20:29-31",
+        "note": "Paul warns the Ephesian elders that savage wolves will come and that men will rise from among them. He reminds them that he warned them for three years with tears. The commendation of verse 2 shows that the church listened, and the sequel shows how love can fade even among the watchful."
+      },
+      {
+        "ref": "Ephesians 1:15",
+        "note": "Paul praises the church's faith in the Lord Jesus and its love for all the saints. The letter to Ephesus in Revelation shows the church years later, with its doctrine intact and its love cooled, and gives the reader a measure of what was lost."
+      },
+      {
+        "ref": "Zechariah 4:2",
+        "note": "A lampstand of solid gold with seven lamps stands in the prophet's vision. The prophet is told that its light comes 'by My Spirit', and the image helps explain why Christ can remove a lampstand and why the churches need the Spirit to burn."
+      },
+      {
+        "ref": "Revelation 3:19-20",
+        "note": "Christ says that those He loves He rebukes and disciplines, and that He stands at the door and knocks. Though addressed to Laodicea, these verses explain the tone of every letter, including this one, where the rebuke is the voice of love."
+      }
     ],
-    "oneStory": "The very first letter to the churches warns that a congregation can keep sound doctrine, hard labor, and real courage against error, and still let its first love for Christ quietly cool. Christ calls Ephesus to remember, repent, and return, promising the one who overcomes the very thing lost in Eden: free access to the tree of life, in the Paradise of God, the whole story's hope of restored communion with God finally regained.",
-    "sermon": { "status": "verified", "preacher": "Sinclair Ferguson", "title": "Ephesus, Church that Fell", "url": "https://www.thegospelcoalition.org/sermon/ephesus-church-that-fell/", "why": "Ferguson works directly through Revelation 2:1-7, drawing out how a doctrinally sound, hardworking church can nonetheless fall through losing its first love for Christ, and what repentance and the promised tree of life mean for such a church." }
+    "oneStory": "The story of the Bible is the story of a God who made a people for love and who has been calling them back to it since the first break. In Eden the first couple walked with God and lost the way to the tree of life. Israel, brought out of Egypt and wed to the LORD at Sinai, drifted from the devotion of its youth, and the prophets spoke in the language of a husband whose bride had gone away. Every part of the Old Testament carries the sorrow of a love that cooled.\n\nThe letter to Ephesus places the church inside the same story. The people of the new covenant are the bride of Christ, and the risk of losing the first love belongs to them too. The letter's remedy follows the old pattern. Remember, because the memory of what God has done keeps love alive. Repent, because the way back is not to try harder but to turn. Return, because love shows itself in action.\n\nThe letter also shows how the story of the Bible moves toward its end. The tree that was withheld in Genesis 3:24 is promised in verse 7, and it stands in the city of Revelation 22 with leaves for the healing of the nations. The 'Paradise of God' is the garden restored and enlarged. What Adam lost, the one who overcomes will receive, because the last Adam overcame, as Christ says in 3:21.\n\nIt also looks ahead to the end of the warning. The lampstand that may be removed is a reminder that the story is not guaranteed for any single congregation, but the story itself is guaranteed. In the new creation, God will wipe away every tear and live with His people, 21:3 and 21:4, and no church will need to be told that its love has cooled, because they will see His face, 22:4. The letter to Ephesus is the first reminder that the road there goes through a love that was never meant to fade.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "Sinclair Ferguson",
+      "title": "Ephesus, Church that Fell",
+      "url": "https://www.thegospelcoalition.org/sermon/ephesus-church-that-fell/",
+      "why": "Ferguson works directly through Revelation 2:1-7, drawing out how a doctrinally sound, hardworking church can nonetheless fall through losing its first love for Christ, and what repentance and the promised tree of life mean for such a church."
+    }
   },
   "quiz": [
     {
       "q": "What does Christ commend the Ephesian church for?",
       "options": [
-        { "text": "Their labor, perseverance, and discernment in testing and exposing false apostles.", "weight": 100, "note": "Verses 2-3 name these specific commendable qualities." },
-        { "text": "Only their large size and wealth as a city church.", "weight": 75, "note": "The commendation is about spiritual labor and discernment, not size or wealth." },
-        { "text": "Their tolerance of every teacher who came to them.", "weight": 25, "note": "The opposite; they are praised for refusing to tolerate false apostles." },
-        { "text": "Nothing; the letter is entirely a rebuke.", "weight": 0, "note": "Verses 2-3 and 6 give real, specific commendation before the complaint." }
+        {
+          "text": "Their labor, perseverance, and discernment in testing and exposing false apostles.",
+          "weight": 100,
+          "note": "Verses 2-3 name these specific commendable qualities."
+        },
+        {
+          "text": "Only their large size and wealth as a city church.",
+          "weight": 75,
+          "note": "The commendation is about spiritual labor and discernment, not size or wealth."
+        },
+        {
+          "text": "Their tolerance of every teacher who came to them.",
+          "weight": 25,
+          "note": "The opposite; they are praised for refusing to tolerate false apostles."
+        },
+        {
+          "text": "Nothing; the letter is entirely a rebuke.",
+          "weight": 0,
+          "note": "Verses 2-3 and 6 give real, specific commendation before the complaint."
+        }
       ]
     },
     {
       "q": "What single charge does Christ bring against Ephesus?",
       "options": [
-        { "text": "They have abandoned their first love.", "weight": 100, "note": "Verse 4 names this as the one thing Christ holds against them." },
-        { "text": "They have completely abandoned sound doctrine.", "weight": 75, "note": "Their doctrinal vigilance is actually commended, not condemned; the charge is cooling love." },
-        { "text": "They have joined the Nicolaitans' teaching.", "weight": 25, "note": "The letter says they hate the works of the Nicolaitans, to their credit, not that they joined them." },
-        { "text": "They have stopped meeting together entirely.", "weight": 0, "note": "The letter addresses their ongoing life as a congregation, not an absence of gathering." }
+        {
+          "text": "They have abandoned their first love.",
+          "weight": 100,
+          "note": "Verse 4 names this as the one thing Christ holds against them."
+        },
+        {
+          "text": "They have completely abandoned sound doctrine.",
+          "weight": 75,
+          "note": "Their doctrinal vigilance is actually commended, not condemned; the charge is cooling love."
+        },
+        {
+          "text": "They have joined the Nicolaitans' teaching.",
+          "weight": 25,
+          "note": "The letter says they hate the works of the Nicolaitans, to their credit, not that they joined them."
+        },
+        {
+          "text": "They have stopped meeting together entirely.",
+          "weight": 0,
+          "note": "The letter addresses their ongoing life as a congregation, not an absence of gathering."
+        }
       ]
     },
     {
       "q": "What remedy does Christ prescribe for Ephesus's condition?",
       "options": [
-        { "text": "Remember how far they have fallen, repent, and perform the deeds they did at first.", "weight": 100, "note": "Verse 5 gives this exact threefold remedy." },
-        { "text": "Simply work harder at the same activities they were already doing.", "weight": 75, "note": "The remedy centers on repentance and returning to first works, not merely increasing existing activity." },
-        { "text": "Leave Ephesus and start a new congregation elsewhere.", "weight": 25, "note": "The call is to repentance within the existing church, not relocation." },
-        { "text": "There is no remedy offered, only judgment.", "weight": 0, "note": "A clear remedy and a promise are both offered alongside the warning." }
+        {
+          "text": "Remember how far they have fallen, repent, and perform the deeds they did at first.",
+          "weight": 100,
+          "note": "Verse 5 gives this exact threefold remedy."
+        },
+        {
+          "text": "Simply work harder at the same activities they were already doing.",
+          "weight": 75,
+          "note": "The remedy centers on repentance and returning to first works, not merely increasing existing activity."
+        },
+        {
+          "text": "Leave Ephesus and start a new congregation elsewhere.",
+          "weight": 25,
+          "note": "The call is to repentance within the existing church, not relocation."
+        },
+        {
+          "text": "There is no remedy offered, only judgment.",
+          "weight": 0,
+          "note": "A clear remedy and a promise are both offered alongside the warning."
+        }
       ]
     },
     {
       "q": "What is promised to 'the one who overcomes' in verse 7?",
       "options": [
-        { "text": "The right to eat from the tree of life in the Paradise of God.", "weight": 100, "note": "This is the exact promise given at the letter's close." },
-        { "text": "Immediate exemption from all future hardship.", "weight": 75, "note": "The promise is specifically the tree of life in Paradise, not a guarantee against present trials." },
-        { "text": "Political rule over the city of Ephesus.", "weight": 25, "note": "The reward is spiritual and eschatological, the tree of life, not earthly political power." },
-        { "text": "Nothing; overcomers receive no reward.", "weight": 0, "note": "A specific, generous reward is explicitly promised." }
+        {
+          "text": "The right to eat from the tree of life in the Paradise of God.",
+          "weight": 100,
+          "note": "This is the exact promise given at the letter's close."
+        },
+        {
+          "text": "Immediate exemption from all future hardship.",
+          "weight": 75,
+          "note": "The promise is specifically the tree of life in Paradise, not a guarantee against present trials."
+        },
+        {
+          "text": "Political rule over the city of Ephesus.",
+          "weight": 25,
+          "note": "The reward is spiritual and eschatological, the tree of life, not earthly political power."
+        },
+        {
+          "text": "Nothing; overcomers receive no reward.",
+          "weight": 0,
+          "note": "A specific, generous reward is explicitly promised."
+        }
       ]
     },
     {
       "q": "What warning does Christ attach if Ephesus does not repent?",
       "options": [
-        { "text": "He will come and remove their lampstand from its place.", "weight": 100, "note": "Verse 5 states this warning directly." },
-        { "text": "He will immediately destroy the entire city of Ephesus.", "weight": 75, "note": "The warning concerns the church's lampstand, its witness, not the city's destruction." },
-        { "text": "He will replace their leaders with the Nicolaitans.", "weight": 25, "note": "The warning is about removing the lampstand, unrelated to installing the Nicolaitans." },
-        { "text": "No warning is given, only encouragement.", "weight": 0, "note": "A real, specific warning is attached to the call to repent." }
+        {
+          "text": "He will come and remove their lampstand from its place.",
+          "weight": 100,
+          "note": "Verse 5 states this warning directly."
+        },
+        {
+          "text": "He will immediately destroy the entire city of Ephesus.",
+          "weight": 75,
+          "note": "The warning concerns the church's lampstand, its witness, not the city's destruction."
+        },
+        {
+          "text": "He will replace their leaders with the Nicolaitans.",
+          "weight": 25,
+          "note": "The warning is about removing the lampstand, unrelated to installing the Nicolaitans."
+        },
+        {
+          "text": "No warning is given, only encouragement.",
+          "weight": 0,
+          "note": "A real, specific warning is attached to the call to repent."
+        }
       ]
     }
   ],
@@ -152,9 +365,21 @@
     "Every letter ends, 'he who has an ear, let him hear what the Spirit says to the churches.' What do you sense the Spirit saying to you personally through this letter to Ephesus?"
   ],
   "translationNotes": [
-    { "ref": "Revelation 2:4", "note": "'Your first love' can also be rendered 'the love you had at first,' pointing to an earlier state of devotion rather than a single past event." },
-    { "ref": "Revelation 2:6", "note": "'The Nicolaitans' is left untranslated as a proper name; their precise identity and teaching are not fully certain, though the letters treat their influence as a serious compromise the churches must reject." },
-    { "ref": "Revelation 2:7", "note": "'The one who overcomes' (ho nikon) can also be rendered 'the one who conquers' or 'the victor,' language that recurs with variation at the close of all seven letters." }
+    {
+      "ref": "Revelation 2:4",
+      "note": "'Your first love' can also be rendered 'the love you had at first,' pointing to an earlier state of devotion rather than a single past event."
+    },
+    {
+      "ref": "Revelation 2:6",
+      "note": "'The Nicolaitans' is left untranslated as a proper name; their precise identity and teaching are not fully certain, though the letters treat their influence as a serious compromise the churches must reject."
+    },
+    {
+      "ref": "Revelation 2:7",
+      "note": "'The one who overcomes' (ho nikon) can also be rendered 'the one who conquers' or 'the victor,' language that recurs with variation at the close of all seven letters."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched this session via the project's makor-scripture toolkit for Revelation 2:1-7. Sermon link for Sinclair Ferguson's 'Ephesus, Church that Fell' verified live this session on thegospelcoalition.org, covering this exact passage." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched this session via the project's makor-scripture toolkit for Revelation 2:1-7. Sermon link for Sinclair Ferguson's 'Ephesus, Church that Fell' verified live this session on thegospelcoalition.org, covering this exact passage."
+  }
 }

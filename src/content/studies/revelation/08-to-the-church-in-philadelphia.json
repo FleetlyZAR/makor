@@ -18,8 +18,16 @@
         "note": "an open door no one can shut",
         "emphasis": "",
         "verses": [
-          { "chapter": 3, "n": 7, "text": "To the angel of the church in Philadelphia write: These are the words of the One who is holy and true, who holds the {{kleis_dauid|key of David}}. What He opens no one can shut, and what He shuts no one can open." },
-          { "chapter": 3, "n": 8, "text": "I know your deeds. See, I have placed before you an open door, which no one can shut. For you have only a little strength, yet you have kept My word and have not denied My name." }
+          {
+            "chapter": 3,
+            "n": 7,
+            "text": "To the angel of the church in Philadelphia write: These are the words of the One who is holy and true, who holds the {{kleis_dauid|key of David}}. What He opens no one can shut, and what He shuts no one can open."
+          },
+          {
+            "chapter": 3,
+            "n": 8,
+            "text": "I know your deeds. See, I have placed before you an open door, which no one can shut. For you have only a little strength, yet you have kept My word and have not denied My name."
+          }
         ]
       },
       {
@@ -27,8 +35,16 @@
         "note": "kept through the hour of testing",
         "emphasis": "",
         "verses": [
-          { "chapter": 3, "n": 9, "text": "Look at those who belong to the synagogue of Satan, who claim to be Jews but are liars instead. I will make them come and bow down at your feet, and they will know that I love you." },
-          { "chapter": 3, "n": 10, "text": "Because you have kept My command to persevere, I will also keep you from the {{hora_peirasmou|hour of testing}} that is about to come upon the whole world, to test those who dwell on the earth." }
+          {
+            "chapter": 3,
+            "n": 9,
+            "text": "Look at those who belong to the synagogue of Satan, who claim to be Jews but are liars instead. I will make them come and bow down at your feet, and they will know that I love you."
+          },
+          {
+            "chapter": 3,
+            "n": 10,
+            "text": "Because you have kept My command to persevere, I will also keep you from the {{hora_peirasmou|hour of testing}} that is about to come upon the whole world, to test those who dwell on the earth."
+          }
         ]
       },
       {
@@ -36,18 +52,50 @@
         "note": "a pillar in the temple of God, inscribed with three names",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 3, "n": 11, "text": "I am coming soon. Hold fast to what you have, so that no one will take your crown." },
-          { "chapter": 3, "n": 12, "text": "The one who {{nikon|overcomes}} I will make a {{stylos|pillar}} in the temple of My God, and he will never again leave it. Upon him I will write the name of My God, and the name of the city of My God (the new Jerusalem that comes down out of heaven from My God), and My new name." },
-          { "chapter": 3, "n": 13, "text": "He who has an ear, let him hear what the Spirit says to the churches." }
+          {
+            "chapter": 3,
+            "n": 11,
+            "text": "I am coming soon. Hold fast to what you have, so that no one will take your crown."
+          },
+          {
+            "chapter": 3,
+            "n": 12,
+            "text": "The one who {{nikon|overcomes}} I will make a {{stylos|pillar}} in the temple of My God, and he will never again leave it. Upon him I will write the name of My God, and the name of the city of My God (the new Jerusalem that comes down out of heaven from My God), and My new name."
+          },
+          {
+            "chapter": 3,
+            "n": 13,
+            "text": "He who has an ear, let him hear what the Spirit says to the churches."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "kleis_dauid": { "language": "Greek", "lemma": "kleis tou Dauid", "original": "κλεὶς τοῦ Δαυίδ", "gloss": "The key of David, drawn from Isaiah 22:22, where Eliakim is given the key of the house of David, authority to open and shut with no appeal. Applied to Christ, it declares His absolute authority over entry into the messianic kingdom, an authority no synagogue, empire, or opponent can overrule." },
-    "hora_peirasmou": { "language": "Greek", "lemma": "hora tes peirasmou", "original": "ὥρα τοῦ πειρασμοῦ", "gloss": "The hour of trial or testing, a period of testing coming upon the whole inhabited world. The promise to keep Philadelphia 'from' it (Greek ek) is read by some as removal before it and by others as preservation through it, but either way it is Christ's own faithful keeping, not the church's own strength, that secures them." },
-    "nikon": { "language": "Greek", "lemma": "ho nikon", "original": "ὁ νικῶν", "gloss": "The one who overcomes or conquers, the recurring title closing every one of the seven letters, naming ordinary, persevering faith rather than a special elite class." },
-    "stylos": { "language": "Greek", "lemma": "stylos", "original": "στῦλος", "gloss": "A pillar, a permanent structural support in a building. Against Philadelphia's history of repeated earthquakes that forced residents to flee unstable buildings again and again, the promise of being made an immovable pillar in God's temple, never again to leave, is a vivid, deeply local comfort." }
+    "kleis_dauid": {
+      "language": "Greek",
+      "lemma": "kleis tou Dauid",
+      "original": "κλεὶς τοῦ Δαυίδ",
+      "gloss": "The key of David, drawn from Isaiah 22:22, where Eliakim is given the key of the house of David, authority to open and shut with no appeal. Applied to Christ, it declares His absolute authority over entry into the messianic kingdom, an authority no synagogue, empire, or opponent can overrule."
+    },
+    "hora_peirasmou": {
+      "language": "Greek",
+      "lemma": "hora tes peirasmou",
+      "original": "ὥρα τοῦ πειρασμοῦ",
+      "gloss": "The hour of trial or testing, a period of testing coming upon the whole inhabited world. The promise to keep Philadelphia 'from' it (Greek ek) is read by some as removal before it and by others as preservation through it, but either way it is Christ's own faithful keeping, not the church's own strength, that secures them."
+    },
+    "nikon": {
+      "language": "Greek",
+      "lemma": "ho nikon",
+      "original": "ὁ νικῶν",
+      "gloss": "The one who overcomes or conquers, the recurring title closing every one of the seven letters, naming ordinary, persevering faith rather than a special elite class."
+    },
+    "stylos": {
+      "language": "Greek",
+      "lemma": "stylos",
+      "original": "στῦλος",
+      "gloss": "A pillar, a permanent structural support in a building. Against Philadelphia's history of repeated earthquakes that forced residents to flee unstable buildings again and again, the promise of being made an immovable pillar in God's temple, never again to leave, is a vivid, deeply local comfort."
+    }
   },
   "study": {
     "basic": {
@@ -61,93 +109,262 @@
       "oneStory": "A small, weak church that had simply kept Christ's word and not denied His name receives an open door no one can shut, the promise of vindication before its opponents, and the assurance of permanent, named belonging in God's presence, a picture of how Christ's own faithfulness, not human strength, secures His people to the end."
     },
     "context": {
-      "literary": "The sixth of the seven letters, following the same address, title, and closing pattern, but, like Smyrna, containing only commendation and promise, with no rebuke at all.",
-      "historical": "Philadelphia sat on a major fault line and suffered repeated devastating earthquakes; residents sometimes lived outside the city walls in fear of further tremors, a vivid backdrop for the promise of being made an immovable pillar who will never again leave God's temple. The city's small Jewish community appears to have excluded Christian converts, background to the reference to a 'synagogue of Satan.'",
-      "canonical": "Draws on Isaiah 22:22's key of the house of David and anticipates the New Jerusalem described fully in Revelation 21, whose name is inscribed on the overcomer here in advance."
+      "literary": "The sixth letter keeps the frame shared by all seven: a command to write, a title of Christ, 'I know your deeds,' a verdict, an exhortation, the call to hear, and a promise to the overcomer. What marks this letter is that its images cluster around two things, doors and a temple. The title in verse 7 is not lifted from the vision of chapter 1. There Christ held the keys of Death and Hades, Revelation 1:18; here He holds 'the key of David,' a phrase taken straight from Isaiah 22:22, and the rest of the letter grows out of that borrowed title.\n\nThe promises are a chain of reversals. The church has little strength, and is given a door nobody can close. It has been pushed out of the synagogue, and is given a Lord who alone opens and shuts. Its opponents are to come and bow at its feet. Its city is one people flee when the ground shakes, and the overcomer 'will never again leave' the temple of God, verse 12.\n\nA second pattern runs through the middle of the letter. The Greek verb for 'keep' (tereo) appears twice, once in each direction. The church 'kept My word' in verse 8 and 'kept My command to persevere' in verse 10, and Christ answers, 'I will also keep you,' in the same verse. Its keeping is met by His. The only command in the whole letter, 'Hold fast to what you have,' is saved for verse 11, and the promise then climbs by three steps: a pillar, a threefold name, and a city. Verse 12 closes with the new Jerusalem, and the letter ends by pointing past itself to the last two chapters of the book.",
+      "historical": "Philadelphia lay in the region of Lydia, southeast of Sardis, in a volcanic and earthquake-prone valley. It was founded by the kings of Pergamum and took its name from Attalus II, who was called Philadelphus for his devotion to his brother. The city was badly shaken in the great earthquake of AD 17 that devastated Sardis and several neighbours, and the geographer Strabo describes it as a place where tremors never really stopped and where many people preferred to live out in the fields. A church told that its overcomer will never again go out of God's temple was hearing a promise addressed to a very practical fear.\n\nThe letter was written in the closing decades of the first century, and the traditional date for Revelation is the reign of Domitian, around AD 95. Churches of Asia lived under a Roman order in which civic life, trade guilds and the imperial cult were bound together. A small church with 'a little strength' could not expect much protection from any of it.\n\nThe tension with the local synagogue is the other piece of background. Jewish communities in Asia Minor had a recognised, tolerated place under Rome, and a Jewish community that disowned Christian converts could leave them exposed as a group with no legal cover. Some fifteen to twenty years later Ignatius of Antioch wrote to the church at Philadelphia and warned it about teaching that pulled it back toward Judaism, which suggests the friction was long lived. Doors were also a familiar picture in Asia: Paul spoke of a door opened to him at Ephesus, 1 Corinthians 16:9, so the language of an open door for the gospel was current among these churches.",
+      "canonical": "Everything in verse 7 and verse 12 is inherited. The key of David comes from Isaiah 22:20-22, where God removes the steward Shebna and installs Eliakim, putting 'the key to the house of David' on his shoulder. The steward's authority to admit and exclude is now claimed by Christ Himself, and Christ has already said that He holds the keys of Death and Hades, Revelation 1:18. In the Gospels He gave a share of such authority to His apostles, Matthew 16:19, but here no delegation is in view: He alone opens and shuts.\n\nThe bowing of opponents at the feet of the faithful borrows the language of Isaiah 49:23 and 60:14, where the nations and the sons of Israel's oppressors come to honour Zion. Zechariah 8:23 has the same picture of the nations clinging to the robe of a Jew. Revelation turns the picture around in a striking way: the honour is not paid to a nation but to a persecuted congregation, and the point of it is that they 'will know that I love you.'\n\nThe temple pillar recalls the two bronze pillars Jachin and Boaz at the temple door, 1 Kings 7:21, and Paul's remark that James, Cephas and John were 'reputed to be pillars,' Galatians 2:9. The name of the city and the name written on the forehead return in Revelation 14:1 and 22:4, and the descent of the new Jerusalem is told in Revelation 21:2 and 21:10-14. This letter therefore sits as a hinge: it gathers Isaiah and the temple and hands them forward to the end of the book."
     },
     "hermeneutics": {
-      "authorIntent": "To commend a small, faithful church for keeping Christ's word under pressure, to promise it vindication before its opponents and Christ's own keeping through coming testing, and to assure the overcomer of permanent, inscribed belonging in God's presence.",
-      "descriptionVsPrescription": "The letter describes a specific church's faithful endurance amid local exclusion and its city's earthquake history; the abiding principle is that Christ Himself opens doors no opposition can shut and keeps His faithful people through testing by His own power.",
+      "authorIntent": "John wants a small and vulnerable congregation to stop measuring itself by its standing in the city, in the synagogue, or in the eyes of the empire. Christ's own verdict is the only one that finally counts, and His verdict is generous: He knows its works, He sets the open door before it, He loves it, and He keeps it. The details of that verdict are chosen to answer its particular losses. A church that has been shut out is told that the one who shuts and opens is on its side.\n\nJohn also means the letter to produce endurance, not comfort alone. The promise 'I am coming soon' is joined to a command, 'Hold fast to what you have,' and what they are to hold is plain: the word they kept and the name they did not deny. The overcomer image carries the same intent. Victory here is not a conquest of others but faithfulness that lasts, and its reward is belonging. Because the letter ends with the call to hear what the Spirit says to the churches, every congregation of every age is meant to overhear it. A reader in a strong, well-resourced church is asked whether he knows what it is to depend on Christ's keeping rather than on his own capacity.",
+      "descriptionVsPrescription": "The letter describes what Christ saw in one church and what He promised it. It does not promise that every faithful church will grow, or that an open door guarantees visible success. Paul's door at Ephesus came with many opponents, 1 Corinthians 16:9, and the door here is opened by Christ's authority, not by the church's effort. What carries over is the pattern: faithfulness under weakness, loyalty to Christ's word and name, and trust in His keeping.\n\nTake care with the strong phrases. 'Synagogue of Satan' is Christ's judgment on a particular group in a particular setting, uttered inside a Jewish movement by a Jewish author about those who rejected the Messiah. It is not a licence to call any Jewish community by that name, and the history of such misuse is a warning. Likewise the bowing at the feet of the church is something Christ says He will bring about, 'I will make them,' and its purpose is that they know Christ's love for His people. It is not a mandate for believers to seek revenge or public humiliation of opponents.",
       "debates": [
         {
           "question": "What is the 'hour of testing' Christ promises to keep Philadelphia from?",
           "views": [
-            { "label": "Futurist: removal from a specific future tribulation", "case": "Some read this as a promise of removal from a coming, identifiable period of end-time tribulation affecting the whole earth, an argument used in some discussions of the timing of the church's deliverance from final trials." },
-            { "label": "Idealist or historicist: preservation through recurring trials", "case": "Others read it as God's preserving care through repeated seasons of testing that come upon the whole world in every age, since Revelation elsewhere pictures saints suffering and persevering through trial rather than being physically removed from it." }
+            {
+              "label": "Futurist: removal from a specific future tribulation",
+              "case": "Some read this as a promise of removal from a coming, identifiable period of end-time tribulation affecting the whole earth, an argument used in some discussions of the timing of the church's deliverance from final trials."
+            },
+            {
+              "label": "Idealist or historicist: preservation through recurring trials",
+              "case": "Others read it as God's preserving care through repeated seasons of testing that come upon the whole world in every age, since Revelation elsewhere pictures saints suffering and persevering through trial rather than being physically removed from it."
+            }
           ],
           "bearing": "Whichever school is followed, all agree the promise is Christ's own sovereign, personal keeping of His weak but faithful people, not their own strength to endure."
         },
         {
           "question": "Who are those who claim to be Jews but are liars, the 'synagogue of Satan'?",
           "views": [
-            { "label": "Ethnic Jews in Philadelphia who rejected Jesus as Messiah", "case": "The plain historical reading points to a local Jewish community that rejected Jesus as Messiah and opposed the mixed Jewish-Gentile church, their claim to covenant standing judged false because they rejected Him in whom the covenant is fulfilled." },
-            { "label": "Any hostile religious opposition posing as God's true people", "case": "A broader reading applies 'synagogue of Satan' typologically to any body that claims covenant standing while actively opposing Christ and His church, not ethnic Jews as such." }
+            {
+              "label": "Ethnic Jews in Philadelphia who rejected Jesus as Messiah",
+              "case": "The plain historical reading points to a local Jewish community that rejected Jesus as Messiah and opposed the mixed Jewish-Gentile church, their claim to covenant standing judged false because they rejected Him in whom the covenant is fulfilled."
+            },
+            {
+              "label": "Any hostile religious opposition posing as God's true people",
+              "case": "A broader reading applies 'synagogue of Satan' typologically to any body that claims covenant standing while actively opposing Christ and His church, not ethnic Jews as such."
+            }
           ],
           "bearing": "Both readings warn against resting on religious identity or heritage apart from faith in the Messiah, and both anticipate the promised reversal, opponents coming to acknowledge Christ's love for His true people."
+        },
+        {
+          "question": "Does the open door in verse 8 mean a door for evangelism or entry into Christ's kingdom?",
+          "views": [
+            {
+              "label": "An opportunity for gospel witness",
+              "case": "Paul uses the same picture for an opening for the word, 1 Corinthians 16:9 and Colossians 4:3. Philadelphia lay on a road leading inland, and the church, though weak, is given a place of effective witness that its opponents cannot close."
+            },
+            {
+              "label": "Access to the Messiah's kingdom and presence",
+              "case": "The door is set beside the key of David, whose function in Isaiah 22:22 is to admit and exclude from the royal house. On this reading Christ is telling a church that has been shut out of the synagogue that He has opened for it the way into God's house, which fits the temple and city promises of verse 12."
+            }
+          ],
+          "bearing": "The two readings are not rivals, since entry into the kingdom is the ground of the witness. In both, the point is that the opening is Christ's gift, which no opposition can close."
         }
       ]
     },
-    "originalLanguages": "Christ holds the kleis Dauid, the key of David, the unchallengeable authority of Isaiah 22:22 now vested fully in Him. He promises to keep the faithful through the hora tes peirasmou, the hour of testing coming on the whole world. The one who overcomes, ho nikon, becomes a stylos, an immovable pillar, a promise aimed directly at a city repeatedly shaken by earthquakes and forced to flee its own buildings.",
+    "originalLanguages": "Verse 7 calls Christ ho hagios, ho alethinos, 'the holy one, the true one.' The second adjective is alethinos, which in John's writing means genuine, the real thing as against its imitations, and it is the word John uses for the true light and the true bread in his Gospel, John 1:9 and 6:32. Christ is the real Holy One, not a rival's copy, and He speaks to a church surrounded by claims to divinity and covenant standing that He regards as counterfeit.\n\nThe door of verse 8 is thura eneoigmene, a perfect participle: a door that has been opened and now stands open. The verb for the gift, 'I have placed' (dedoka), is also perfect. The action is finished by Christ and its result stands, which is what the church needs to hear, because a door that has been opened by Him is not waiting on a decision of its own.\n\nThe pair of keeping verbs is the grammatical heart of the letter. In verse 8 the church 'kept' (eterese) My word, in verse 10 it kept 'the word of My perseverance,' and Christ promises tereso ek, 'I will keep out of' the hour of testing. The word for the church's endurance is hypomone, which is staying power under pressure rather than passive waiting. The preposition ek is at the centre of the debate about the hour of testing. It usually means 'out of,' but the same combination, 'keep out of the evil one,' occurs in John 17:15, where Jesus says He is not asking the Father to take His disciples out of the world but to keep them. That verse shows the phrase can describe protection while people remain in the danger, which is why neither side can win the argument from the grammar alone. The 'whole world' of verse 10 is the oikoumene, the inhabited world, a term that in Luke 2:1 stands for the Roman world.\n\nIn verse 9 Christ says 'I give' (dido) some from the synagogue, and then 'I will make them' (poieso) come and bow, using proskuneo, the verb for obeisance and worship. The same verb is used of what the nations do before God in Revelation 15:4, so the word has a heavy sense, though here the bowing is directed toward the church, as Isaiah 49:23 pictures, and is tied to knowledge, 'they will know that I love you.'\n\nVerse 12 says the overcomer will 'never again' go out, a double negative with 'any more' (ou me exelthe eti), the strongest way Greek has to deny a future event. The 'new name' is kainon, and kainos tends to mean new in quality rather than merely new in time, which suits a name that belongs to the age to come.",
     "typology": [
-      { "type": "The key of the house of David, Isaiah 22:22", "fulfillment": "Fulfilled in Christ, who holds unchallengeable authority to open and shut the way into God's kingdom." },
-      { "type": "The immovable pillar in God's temple", "fulfillment": "Answers Philadelphia's earthquake-shaken history with the picture of the overcomer's permanent, unshakable security in God's presence." },
-      { "type": "The threefold inscribed name", "fulfillment": "Anticipates the citizens of the new Jerusalem in Revelation 21 and 22, marked forever as belonging to God and to Christ." }
+      {
+        "type": "Eliakim and the key of the house of David, Isaiah 22:20-22",
+        "fulfillment": "Eliakim was a servant given the royal steward's authority, with the key placed on his shoulder so that what he opened no one could shut. Christ is the greater fulfilment because He holds the key as the heir of David, not as a servant on loan, and His authority extends to the kingdom of God, not a palace in Jerusalem. The type also falls short in a way the Old Testament itself notices. The peg that was driven in firmly gave way in the end, Isaiah 22:25, and the steward's office could not hold. Christ's does not fail, and He is the one who is Himself the door, John 10:9."
+      },
+      {
+        "type": "Zion honoured by the nations, Isaiah 49:23 and 60:14",
+        "fulfillment": "The prophets promised that those who had oppressed Zion would come bowing and call her 'the City of the LORD.' Revelation takes up the picture and fulfils it in an unexpected form. The honour falls not on a political Zion but on a small congregation of Jesus' followers, and those who come may be among its former opponents. The escalation lies in the purpose: they are made to see that Christ loves His people. The correspondence is partial. The earlier texts picture power reversed, while the letter keeps the weight on knowledge of love, and nothing in it describes the church taking revenge."
+      },
+      {
+        "type": "The pillar and the temple, 1 Kings 7:21",
+        "fulfillment": "Two named pillars stood at the door of Solomon's temple, fixed and visible to all who came in. The overcomer is made a pillar in the temple itself, never to leave. In the New Testament the church is the temple, 1 Corinthians 3:16, built as living stones, 1 Peter 2:5, and Revelation 21:22 says the city has no temple, because its temple is the Lord God and the Lamb. The promise therefore does not describe a building but a permanent place of belonging in the presence of God. It also answers Adam's exile and Israel's expulsion by saying that this time no one is driven out."
+      },
+      {
+        "type": "The name written on the overcomer",
+        "fulfillment": "The high priest wore a plate engraved 'HOLY TO THE LORD' on his turban, Exodus 28:36, so that he carried the sign of consecration on his forehead. In Revelation the whole company of the redeemed wears the name of the Lamb and His Father on their foreheads, Revelation 14:1, and in the new Jerusalem 'His name will be on their foreheads,' Revelation 22:4. What was once set apart for one man in one office is given to every overcomer. The correspondence is not exact, since the letter speaks of three names, but the movement from priest to people matches the movement of 1 Peter 2:9."
+      }
     ],
-    "christ": "Jesus is holy and true, holding the key of David with unchallengeable authority to open and shut the way into God's kingdom. He honors small, faithful strength with an open door for ministry that no opposition can close, promises public vindication before those who excluded His people, and pledges to make the overcomer a permanent pillar bearing God's name, the new Jerusalem's name, and His own new name.",
-    "god": "God's own name, the name of His city, and Christ's new name are written on the one who overcomes, marking eternal, unshakable belonging. God keeps His weak but faithful people through testing not because of their own strength but because of His sovereign, faithful keeping.",
+    "christ": "The letter begins with a title that reaches past the church to the whole Old Testament. 'The One who is holy' is a name Israel gave to God, the Holy One of Israel, and Christ takes it without comment. He also says He is true, in the sense of genuine, and then adds the key of David. In a Davidic reading of the Old Testament, the key marks the king's own authority to decide who enters and who is shut out. The risen Christ, whom Revelation calls the Root of David, Revelation 5:5 and 22:16, claims that authority personally. In the Gospels He called Himself the door, John 10:9, and the way, John 14:6. Here the key, the door and the one who holds them are the same Person.\n\nHe is also the Christ who loves. In verse 9 He says that those who now oppose the church will know that He has loved it, and the Greek form is a past action with lasting effect. The church's standing rests not on its strength but on His settled love. This is the same Jesus who told Peter that He prayed for him that his faith would not fail, and the keeping He promises in verse 10 is of a piece with that.\n\nHe is the one who overcame. In Revelation 3:21 He will speak to Laodicea of the throne He took 'just as I overcame,' and the victory He gives to Philadelphia's overcomer is a share in His own. When He promises to write 'My new name' on the overcomer, He means a name He has received. Philippians 2:9 says God gave Him the name above every name, and Revelation 19:12 says He has a name that only He knows. To be given His name is to be given a place within His own glory.\n\nHe speaks about God as 'My God' four times in verse 12, which is the voice of the Son who has been vindicated and glorified, and who still calls the Father His God. That is both a confession of His humanity and the language of the covenant Son who shares the Father's own temple and city.\n\nThe letter also ties His coming to His church's endurance. 'I am coming soon' is not a prediction offered for calculation. It is a promise that the Lord of the open door is near, and it comes with the plain command to hold fast. We should not look for Christ in every detail. The pillar and the earthquakes are not secretly pictures of Him. The letter's own claims are clear enough: He holds the kingdom's key, He loves a small church, and He will bring His faithful ones home.",
+    "god": "The first thing this letter shows about God is that He is the one who controls access. The key of David, the open door and the closed door are all said to be in the hand of Christ, which means that no human institution has the final say over who belongs. A synagogue that excluded believers could not shut the door that Christ had opened, and an empire that threatened a small church could not shut the door that He held. This is not an abstract sovereignty. It is placed in the service of a church too weak to defend itself.\n\nGod is also holy and true. Holiness here is not remote. The One who is holy is the one who loves and keeps. His truth is the quality of a promise that stands, and the whole letter depends on it, since the church is invited to trust a verdict that the world around it contradicts.\n\nHe honours smallness. A church with 'a little strength' is not told to seek more, and it receives commendation without a single rebuke. That fits a pattern across Scripture: God did not set His love on Israel because it was numerous, Deuteronomy 7:7, and Zechariah asks who has despised the day of small things, Zechariah 4:10. Strength is not the thing He is looking for. Keeping His word and not denying His name is.\n\nHe is also the keeper. The repeated verb 'keep' makes it plain that endurance is both asked of the church and promised by Christ. The two are not in competition. Believers are called to persevere and are told that they will be kept, and the letter allows both to stand. Whatever the hour of testing means, it is Christ who does the keeping.\n\nThere is a tension the letter holds without resolving. God loves this church and yet its trials continue. He is coming 'soon' and yet the church must hold fast. He will vindicate His people and yet that vindication is not yet visible. The letter does not explain the delay. It asks the church to live in the interval by trusting the one whose word has been proved true.\n\nFor worship, the letter teaches us to bring our weakness to God honestly. A church that thinks itself strong has little to ask. A church that knows it has little strength has every reason to pray, and Christ's response to that kind of church is an open door.",
     "crossReferences": [
-      { "ref": "Isaiah 22:22", "note": "The original picture of the key of the house of David, given to Eliakim, now claimed by Christ." },
-      { "ref": "1 Corinthians 16:9", "note": "Paul describes a wide door for effective ministry opened despite many adversaries, similar language to the open door given Philadelphia." },
-      { "ref": "Revelation 2:9", "note": "Smyrna receives the same reference to a 'synagogue of Satan,' showing this was a shared pressure on the churches of Asia." },
-      { "ref": "Revelation 21:2", "note": "The new Jerusalem coming down from heaven, whose name is inscribed in advance on Philadelphia's overcomer." }
+      {
+        "ref": "Isaiah 22:20-22",
+        "note": "The source of the key. God replaces one steward with Eliakim and puts the key to David's house on his shoulder. What he opens no one can shut. Revelation lifts the sentence almost word for word and applies it to Christ, whose authority over the kingdom is without rival."
+      },
+      {
+        "ref": "Revelation 1:18",
+        "note": "In the opening vision Christ holds the keys of Death and Hades. The key of David in chapter 3 is a second key, for the kingdom of God and not only for the grave, and together they show that He controls both ends of human destiny."
+      },
+      {
+        "ref": "Isaiah 49:23",
+        "note": "The promise that nations will bow before Zion and that those who hope in the LORD will never be put to shame. Philadelphia hears the same vindication, now applied to a small church of Jesus' followers and tied to the knowledge of Christ's love."
+      },
+      {
+        "ref": "Isaiah 60:14",
+        "note": "The sons of Zion's oppressors come and bow down and call her the City of the LORD. The letter echoes this reversal, and Revelation 3:12 then gives the overcomer the name of the city of God, so the title is carried into the new Jerusalem."
+      },
+      {
+        "ref": "1 Corinthians 16:9",
+        "note": "Paul speaks of a great door opened for effective work, even though many oppose him. It shows the image of an open door was already used for gospel opportunity in Asia, and that open doors and opposition regularly appear together."
+      },
+      {
+        "ref": "John 17:15",
+        "note": "Jesus asks the Father not to take His disciples out of the world but to keep them from the evil one. The wording is close to Revelation 3:10 and shows that to be kept can mean protected within the danger, which weighs on the debate about the hour of testing."
+      },
+      {
+        "ref": "1 Thessalonians 1:10",
+        "note": "Jesus is called our deliverer from the coming wrath. Readers who see Revelation 3:10 as removal before a final tribulation often pair it with this verse, and others reply that the wrath here is final judgment, which believers escape by faith in all ages."
+      },
+      {
+        "ref": "1 Kings 7:21",
+        "note": "Solomon set two bronze pillars at the temple porch and named them Jachin and Boaz. They stood at the entrance to the house of God. The overcomer is made a pillar inside the temple and, unlike a pillar of bronze, never goes out."
+      },
+      {
+        "ref": "Galatians 2:9",
+        "note": "James, Cephas and John are described as those reputed to be pillars of the church. The image was already used for people whose standing supported others, which helps show that Christ's promise is of a settled, honoured place among His people."
+      },
+      {
+        "ref": "Revelation 14:1",
+        "note": "The Lamb stands on Mount Zion with those who have His name and His Father's name written on their foreheads. This is the fulfilment of the promise made to Philadelphia's overcomer, who is marked with God's name and Christ's."
+      },
+      {
+        "ref": "Revelation 21:2",
+        "note": "John sees the holy city, the new Jerusalem, coming down out of heaven from God. The name of this city is already written on the overcomer in Philadelphia, so the church that feared an earthquake is promised citizenship in a city that cannot fall."
+      },
+      {
+        "ref": "Revelation 22:4",
+        "note": "The servants of God will see His face, and His name will be on their foreheads. The promise to the overcomer reaches its end here, with the inscription no longer a promise but a settled fact of the city."
+      }
     ],
-    "oneStory": "A small, weak church that simply kept Christ's word and did not deny His name is given an open door no one can shut, the promise of vindication before those who opposed it, and the assurance of becoming a permanent, named pillar in God's presence, showing that Christ's own faithfulness, not human strength, is what secures His people to the very end.",
-    "sermon": { "status": "verified", "preacher": "Alistair Begg", "title": "Long-Suffering Community", "url": "https://www.truthforlife.org/resources/sermon/long-suffering-community/", "why": "Begg studies Revelation 3:7-13 directly alongside Smyrna's letter, showing how Christ works through weakness and trial to give the church at Philadelphia strength to be faithful and confidence of eternal security, matching this section's passage precisely." }
+    "oneStory": "The Bible opens with God dwelling with His creatures in a garden, and ends the first act with humanity driven east and guarded out by cherubim, Genesis 3:24. From that point the whole story is a search for a way back in. Israel's tabernacle and temple were an answer in picture form: a house with a door, pillars at the entrance, and priests who could go in only at appointed times. The kings of David's house were meant to be stewards of that arrangement, and Isaiah 22 shows how easily a steward could fail. Shebna was removed, Eliakim was put in his place, and the peg that was driven in was finally cut down.\n\nThe letter to Philadelphia stands where that long story turns. It is told by the one who holds the key that no steward could hold for good, and it is told to a church that has been shut out by the very community that claimed the heritage of the temple and the covenant. The answer is that the door of the kingdom is in Christ's hand and that He has opened it, not on grounds of ancestry but because a weak church kept His word. In this letter the people of God are no longer a nation defined by descent but those marked by the name of God and of Christ.\n\nIt also answers the exile at the start. Adam and Eve were put out, Israel was sent east to Babylon, and a church of Asia lived under a power that could exile or kill. Against these, Christ promises a place from which the overcomer will 'never again' go out. The pillar does not leave the temple, and the city does not fall to an earthquake.\n\nThe end of the story is the new creation, and the letter's last words set it before us. The holy city comes down from heaven, Revelation 21:2, the dwelling place of God is with man, Revelation 21:3, and there is no longer any curse. The servants of God see His face and wear His name, Revelation 22:3-4. The name the overcomer carries is the sign of the one who has come home, and the small church in an earthquake-prone town is given a seat in that story.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "Alistair Begg",
+      "title": "Long-Suffering Community",
+      "url": "https://www.truthforlife.org/resources/sermon/long-suffering-community/",
+      "why": "Begg studies Revelation 3:7-13 directly alongside Smyrna's letter, showing how Christ works through weakness and trial to give the church at Philadelphia strength to be faithful and confidence of eternal security, matching this section's passage precisely."
+    }
   },
   "quiz": [
     {
       "q": "What authority does Christ claim over Philadelphia by holding 'the key of David'?",
       "options": [
-        { "text": "Unchallengeable authority to open and shut the way into God's kingdom, an authority no one can overrule.", "weight": 100, "note": "Verse 7 states plainly that what He opens no one can shut, and what He shuts no one can open." },
-        { "text": "Authority limited only to matters of the city's civic government.", "weight": 75, "note": "The key of David, drawn from Isaiah 22:22, concerns entry into the messianic kingdom, not merely civic affairs." },
-        { "text": "A shared authority that the synagogue could also exercise over the church.", "weight": 25, "note": "The letter presents Christ's authority as unchallengeable and exclusive, not shared with His opponents." },
-        { "text": "No real authority; the phrase is only decorative language.", "weight": 0, "note": "The phrase grounds a real, decisive claim about who controls entry into God's kingdom." }
+        {
+          "text": "Unchallengeable authority to open and shut the way into God's kingdom, an authority no one can overrule.",
+          "weight": 100,
+          "note": "Verse 7 states plainly that what He opens no one can shut, and what He shuts no one can open."
+        },
+        {
+          "text": "Authority limited only to matters of the city's civic government.",
+          "weight": 75,
+          "note": "The key of David, drawn from Isaiah 22:22, concerns entry into the messianic kingdom, not merely civic affairs."
+        },
+        {
+          "text": "A shared authority that the synagogue could also exercise over the church.",
+          "weight": 25,
+          "note": "The letter presents Christ's authority as unchallengeable and exclusive, not shared with His opponents."
+        },
+        {
+          "text": "No real authority; the phrase is only decorative language.",
+          "weight": 0,
+          "note": "The phrase grounds a real, decisive claim about who controls entry into God's kingdom."
+        }
       ]
     },
     {
       "q": "What does Jesus commend about the church in Philadelphia?",
       "options": [
-        { "text": "Though it has only a little strength, it has kept His word and not denied His name.", "weight": 100, "note": "Verse 8 gives this exact, specific commendation." },
-        { "text": "Its great wealth and influence in the region.", "weight": 75, "note": "The letter highlights the church's weakness, not wealth or influence, as the setting for its faithfulness." },
-        { "text": "Its skill in resolving conflict with the local synagogue.", "weight": 25, "note": "The letter describes ongoing opposition from the synagogue, not a resolved conflict." },
-        { "text": "Nothing at all; the letter is pure rebuke.", "weight": 0, "note": "This letter, like Smyrna's, contains only commendation and promise, no rebuke." }
+        {
+          "text": "Though it has only a little strength, it has kept His word and not denied His name.",
+          "weight": 100,
+          "note": "Verse 8 gives this exact, specific commendation."
+        },
+        {
+          "text": "Its great wealth and influence in the region.",
+          "weight": 75,
+          "note": "The letter highlights the church's weakness, not wealth or influence, as the setting for its faithfulness."
+        },
+        {
+          "text": "Its skill in resolving conflict with the local synagogue.",
+          "weight": 25,
+          "note": "The letter describes ongoing opposition from the synagogue, not a resolved conflict."
+        },
+        {
+          "text": "Nothing at all; the letter is pure rebuke.",
+          "weight": 0,
+          "note": "This letter, like Smyrna's, contains only commendation and promise, no rebuke."
+        }
       ]
     },
     {
       "q": "What does Christ promise regarding 'the hour of testing that is about to come upon the whole world'?",
       "options": [
-        { "text": "Because they kept His command to persevere, He will keep them through it.", "weight": 100, "note": "Verse 10 links their perseverance directly to Christ's promise to keep them." },
-        { "text": "The testing will only affect unbelievers outside the church.", "weight": 75, "note": "The testing is said to come upon 'those who dwell on the earth,' the whole world, and readers debate exactly how this touches the church, but the letter's promise is about Christ keeping His own, not a claim the trial bypasses everyone else entirely." },
-        { "text": "The church will need to keep itself through its own strength.", "weight": 25, "note": "The promise rests on Christ's keeping power, following from His command kept, not on the church's own strength." },
-        { "text": "No promise is given regarding this coming testing.", "weight": 0, "note": "Verse 10 gives an explicit promise concerning the hour of testing." }
+        {
+          "text": "Because they kept His command to persevere, He will keep them through it.",
+          "weight": 100,
+          "note": "Verse 10 links their perseverance directly to Christ's promise to keep them."
+        },
+        {
+          "text": "The testing will only affect unbelievers outside the church.",
+          "weight": 75,
+          "note": "The testing is said to come upon 'those who dwell on the earth,' the whole world, and readers debate exactly how this touches the church, but the letter's promise is about Christ keeping His own, not a claim the trial bypasses everyone else entirely."
+        },
+        {
+          "text": "The church will need to keep itself through its own strength.",
+          "weight": 25,
+          "note": "The promise rests on Christ's keeping power, following from His command kept, not on the church's own strength."
+        },
+        {
+          "text": "No promise is given regarding this coming testing.",
+          "weight": 0,
+          "note": "Verse 10 gives an explicit promise concerning the hour of testing."
+        }
       ]
     },
     {
       "q": "What is promised to the one who overcomes in this letter?",
       "options": [
-        { "text": "To be made a pillar in God's temple, inscribed with the names of God, the new Jerusalem, and Christ's new name.", "weight": 100, "note": "Verse 12 gives this specific, threefold promise." },
-        { "text": "Authority to rule over the nations with an iron scepter.", "weight": 75, "note": "That promise belongs to the letter to Thyatira, not Philadelphia." },
-        { "text": "Freedom from ever again facing an earthquake.", "weight": 25, "note": "While the pillar imagery answers Philadelphia's earthquake history, the actual promise is spiritual permanence in God's presence, not a literal guarantee about geology." },
-        { "text": "Nothing beyond what was already commended.", "weight": 0, "note": "Verse 12 adds a specific new promise beyond the earlier commendation." }
+        {
+          "text": "To be made a pillar in God's temple, inscribed with the names of God, the new Jerusalem, and Christ's new name.",
+          "weight": 100,
+          "note": "Verse 12 gives this specific, threefold promise."
+        },
+        {
+          "text": "Authority to rule over the nations with an iron scepter.",
+          "weight": 75,
+          "note": "That promise belongs to the letter to Thyatira, not Philadelphia."
+        },
+        {
+          "text": "Freedom from ever again facing an earthquake.",
+          "weight": 25,
+          "note": "While the pillar imagery answers Philadelphia's earthquake history, the actual promise is spiritual permanence in God's presence, not a literal guarantee about geology."
+        },
+        {
+          "text": "Nothing beyond what was already commended.",
+          "weight": 0,
+          "note": "Verse 12 adds a specific new promise beyond the earlier commendation."
+        }
       ]
     },
     {
       "q": "What does Jesus mean by promising vindication before 'the synagogue of Satan'?",
       "options": [
-        { "text": "Those who opposed and excluded the church will one day come and acknowledge that Christ loves His people.", "weight": 100, "note": "Verse 9 states this reversal explicitly." },
-        { "text": "The opposing group will be immediately destroyed with no opportunity to see the truth.", "weight": 75, "note": "The text describes them coming and bowing to acknowledge Christ's love, a form of vindication and recognition, not simply destruction." },
-        { "text": "The church itself will take up arms against its opponents.", "weight": 25, "note": "The promised reversal is Christ's own doing, not a call for the church to fight its opponents." },
-        { "text": "No vindication is promised at all.", "weight": 0, "note": "Verse 9 gives an explicit promise of vindication before those who opposed the church." }
+        {
+          "text": "Those who opposed and excluded the church will one day come and acknowledge that Christ loves His people.",
+          "weight": 100,
+          "note": "Verse 9 states this reversal explicitly."
+        },
+        {
+          "text": "The opposing group will be immediately destroyed with no opportunity to see the truth.",
+          "weight": 75,
+          "note": "The text describes them coming and bowing to acknowledge Christ's love, a form of vindication and recognition, not simply destruction."
+        },
+        {
+          "text": "The church itself will take up arms against its opponents.",
+          "weight": 25,
+          "note": "The promised reversal is Christ's own doing, not a call for the church to fight its opponents."
+        },
+        {
+          "text": "No vindication is promised at all.",
+          "weight": 0,
+          "note": "Verse 9 gives an explicit promise of vindication before those who opposed the church."
+        }
       ]
     }
   ],
@@ -159,9 +376,21 @@
     "Jesus writes His own new name, alongside God's name and the new Jerusalem's name, on the one who overcomes. What does it mean to you that your ultimate identity will be marked by belonging to Him?"
   ],
   "translationNotes": [
-    { "ref": "Revelation 3:7", "note": "The BSB footnote points to Isaiah 22:22 as the source of the key of David imagery, where Eliakim receives unchallengeable authority over the house of David." },
-    { "ref": "Revelation 3:11", "note": "The BSB footnote allows 'suddenly' or 'quickly' as an alternate sense for 'soon,' stressing the manner and certainty of Christ's coming as much as its timing." },
-    { "ref": "Revelation 3:12", "note": "The 'pillar' image drew special force from Philadelphia's repeated earthquakes, after which residents often could not safely return to buildings for long periods, making permanent, unshaken standing a vivid comfort." }
+    {
+      "ref": "Revelation 3:7",
+      "note": "The BSB footnote points to Isaiah 22:22 as the source of the key of David imagery, where Eliakim receives unchallengeable authority over the house of David."
+    },
+    {
+      "ref": "Revelation 3:11",
+      "note": "The BSB footnote allows 'suddenly' or 'quickly' as an alternate sense for 'soon,' stressing the manner and certainty of Christ's coming as much as its timing."
+    },
+    {
+      "ref": "Revelation 3:12",
+      "note": "The 'pillar' image drew special force from Philadelphia's repeated earthquakes, after which residents often could not safely return to buildings for long periods, making permanent, unshaken standing a vivid comfort."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched this session via the repo's makor-scripture tool for Revelation 3:7-13." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched this session via the repo's makor-scripture tool for Revelation 3:7-13."
+  }
 }
