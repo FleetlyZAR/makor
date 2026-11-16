@@ -18,7 +18,11 @@
         "note": "the wrath of God completed",
         "emphasis": "",
         "verses": [
-          { "chapter": 15, "n": 1, "text": "Then I saw another great and marvelous sign in heaven: seven angels with the seven final plagues, with which the {{thymos|wrath}} of God is completed." }
+          {
+            "chapter": 15,
+            "n": 1,
+            "text": "Then I saw another great and marvelous sign in heaven: seven angels with the seven final plagues, with which the {{thymos|wrath}} of God is completed."
+          }
         ]
       },
       {
@@ -26,9 +30,21 @@
         "note": "safe beside the sea of glass mixed with fire",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 15, "n": 2, "text": "And I saw something like a sea of glass mixed with fire, beside which stood those who had {{nikao|conquered}} the beast and its image and the number of its name. They were holding harps from God," },
-          { "chapter": 15, "n": 3, "text": "and they sang the {{ode|song}} of God's servant Moses and of the Lamb: “Great and wonderful are Your works, O Lord God Almighty! Just and true are Your ways, O King of the nations!" },
-          { "chapter": 15, "n": 4, "text": "Who will not fear You, O Lord, and glorify Your name? For You alone are holy. All nations will come and worship before You, for Your righteous acts have been revealed.”" }
+          {
+            "chapter": 15,
+            "n": 2,
+            "text": "And I saw something like a sea of glass mixed with fire, beside which stood those who had {{nikao|conquered}} the beast and its image and the number of its name. They were holding harps from God,"
+          },
+          {
+            "chapter": 15,
+            "n": 3,
+            "text": "and they sang the {{ode|song}} of God's servant Moses and of the Lamb: “Great and wonderful are Your works, O Lord God Almighty! Just and true are Your ways, O King of the nations!"
+          },
+          {
+            "chapter": 15,
+            "n": 4,
+            "text": "Who will not fear You, O Lord, and glorify Your name? For You alone are holy. All nations will come and worship before You, for Your righteous acts have been revealed.”"
+          }
         ]
       },
       {
@@ -36,7 +52,11 @@
         "note": "the tabernacle of the Testimony",
         "emphasis": "",
         "verses": [
-          { "chapter": 15, "n": 5, "text": "After this I looked, and the temple, the {{skene|tabernacle}} of the Testimony, was opened in heaven." }
+          {
+            "chapter": 15,
+            "n": 5,
+            "text": "After this I looked, and the temple, the {{skene|tabernacle}} of the Testimony, was opened in heaven."
+          }
         ]
       },
       {
@@ -44,18 +64,50 @@
         "note": "none can enter until the plagues are complete",
         "emphasis": "",
         "verses": [
-          { "chapter": 15, "n": 6, "text": "And out of the temple came the seven angels with the seven plagues, dressed in clean and bright linen and girded with golden sashes around their chests." },
-          { "chapter": 15, "n": 7, "text": "Then one of the four living creatures gave the seven angels seven golden bowls full of the wrath of God, who lives forever and ever." },
-          { "chapter": 15, "n": 8, "text": "And the temple was filled with smoke from the glory of God and from His power; and no one could enter the temple until the seven plagues of the seven angels were completed." }
+          {
+            "chapter": 15,
+            "n": 6,
+            "text": "And out of the temple came the seven angels with the seven plagues, dressed in clean and bright linen and girded with golden sashes around their chests."
+          },
+          {
+            "chapter": 15,
+            "n": 7,
+            "text": "Then one of the four living creatures gave the seven angels seven golden bowls full of the wrath of God, who lives forever and ever."
+          },
+          {
+            "chapter": 15,
+            "n": 8,
+            "text": "And the temple was filled with smoke from the glory of God and from His power; and no one could enter the temple until the seven plagues of the seven angels were completed."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "thymos": { "language": "Greek", "lemma": "thymos", "original": "θυμός", "gloss": "Passion, fury, wrath poured out to completion. The seven final plagues are called the wrath of God completed, the last and full expression of a righteous anger already announced earlier in Revelation, held back until this appointed hour." },
-    "nikao": { "language": "Greek", "lemma": "nikao", "original": "νικάω", "gloss": "To conquer, to overcome, to win the victory. Those standing beside the sea of glass have conquered the beast, its image, and its number, not by armed resistance but, as chapter 12 makes clear, by the blood of the Lamb and the word of their testimony." },
-    "ode": { "language": "Greek", "lemma": "ode", "original": "ᾠδή", "gloss": "A song, especially one sung in worship. Here it is called the song of God's servant Moses and of the Lamb, joining the ancient song of deliverance at the Red Sea, Exodus 15, to a greater and final deliverance accomplished by the Lamb." },
-    "skene": { "language": "Greek", "lemma": "skene", "original": "σκηνή", "gloss": "A tent or tabernacle, the dwelling place of God among His people. The tabernacle of the Testimony recalls the wilderness tent that housed the tablets of the covenant, now opened in heaven itself as the source from which the last plagues proceed." }
+    "thymos": {
+      "language": "Greek",
+      "lemma": "thymos",
+      "original": "θυμός",
+      "gloss": "Passion, fury, wrath poured out to completion. The seven final plagues are called the wrath of God completed, the last and full expression of a righteous anger already announced earlier in Revelation, held back until this appointed hour."
+    },
+    "nikao": {
+      "language": "Greek",
+      "lemma": "nikao",
+      "original": "νικάω",
+      "gloss": "To conquer, to overcome, to win the victory. Those standing beside the sea of glass have conquered the beast, its image, and its number, not by armed resistance but, as chapter 12 makes clear, by the blood of the Lamb and the word of their testimony."
+    },
+    "ode": {
+      "language": "Greek",
+      "lemma": "ode",
+      "original": "ᾠδή",
+      "gloss": "A song, especially one sung in worship. Here it is called the song of God's servant Moses and of the Lamb, joining the ancient song of deliverance at the Red Sea, Exodus 15, to a greater and final deliverance accomplished by the Lamb."
+    },
+    "skene": {
+      "language": "Greek",
+      "lemma": "skene",
+      "original": "σκηνή",
+      "gloss": "A tent or tabernacle, the dwelling place of God among His people. The tabernacle of the Testimony recalls the wilderness tent that housed the tablets of the covenant, now opened in heaven itself as the source from which the last plagues proceed."
+    }
   },
   "study": {
     "basic": {
@@ -69,93 +121,248 @@
       "oneStory": "This brief vision ties the first exodus, Moses and the Red Sea, to the final exodus accomplished by the Lamb, showing the whole Bible's pattern: God delivers His people through judgment on their oppressors. Before the last plagues fall, heaven itself pauses to worship, because the outcome, praise for the conquerors and complete justice for the impenitent, is already settled in Christ."
     },
     "context": {
-      "literary": "A short, self-contained overture to the bowl judgments, John's fourth 'great sign' in heaven. It structurally parallels the throne room vision before the seals in chapters 4 and 5 and the sealing and silent interlude before the trumpets in chapters 7 and 8, each series of judgments preceded by a scene of heavenly worship or preparation.",
-      "historical": "For believers under the pressure of the beast's imperial cult, this vision assures them that those who refuse to worship the beast, even at great cost, are already standing victorious in heaven's own sight, singing praise safely beside the very sea from which judgment proceeds.",
-      "canonical": "The song of Moses and of the Lamb draws Exodus 15 directly into Revelation's climax, tying the first great act of redemption, the exodus from Egypt, to the last. The tabernacle of the Testimony echoes the wilderness tent of Exodus and Numbers, now opened in heaven as the true, heavenly pattern of that earthly shadow."
+      "literary": "Revelation 15 is only eight verses long, and it works as a hinge. It opens with a sign, 'another great and marvelous sign,' that recalls the sign of the woman in 12:1 and the sign of the dragon in 12:3, and it closes in 15:8 with a temple so full of smoke that no one can enter. Between those two edges there are two scenes that mirror each other. In verses 2 to 4 John looks at the people on the sea and hears their song. In verses 5 to 8 he looks at the temple and sees the angels come out. The first scene is human and musical, the second priestly and silent. The song is the longest speech in the chapter and it is about God's character, while the final scene is about God's action.\n\nThe structure is a deliberate delay. Chapter 14 ended with the winepress and its flood of blood, so a reader expects the bowls to begin at once. Instead John pauses, as he paused before the seals in chapters 4 and 5, and as he paused before the trumpets with the sealing and the silence in chapters 7 and 8. Each septet of judgment is preceded by a view of worship. The pause also sets a frame around the bowls, since the words 'completed' in verse 1 and again in verse 8 enclose the whole chapter. The wrath is said to be completed, then the plagues are said to need completing, and the one word does the work of an opening and a closing bracket.",
+      "historical": "The scene stands on the oldest event in Israel's memory. When Israel came out of Egypt, the Lord brought them through the sea and drowned Pharaoh's army, and Moses and the people sang, Exodus 15:1 to 18. Every Jewish household that kept Passover had retold that story for centuries before John wrote. A first century Christian in Asia, probably with a Jewish or God fearing background, would hear 'the song of God's servant Moses' and immediately think of liberation from an empire that claimed to be a god. The beast of Revelation is cast in the pharaoh's role, and the sea of glass stands where the Red Sea stood.\n\nThe second image comes from the tabernacle. The 'tabernacle of the Testimony' was the tent that housed the ark and the two tablets of the covenant, Numbers 1:50 and Exodus 38:21. The Greek translation of the Old Testament, which John's churches used, speaks of it in nearly these words. When the tent was finished, the glory of the Lord filled it and Moses could not go in, Exodus 40:34 to 35, and a similar scene occurred when Solomon's temple was dedicated, 1 Kings 8:10 to 11. The angels' dress, bright linen with golden sashes, has the feel of priestly service. The Roman world offered its own pictures of purple, gold and triumph, but John's imagery is rooted in the sanctuary of the God whose people had been freed from Egypt.",
+      "canonical": "The chapter is a patchwork of Old Testament echoes, and each one is chosen. The song of Moses and the Red Sea, Exodus 15, supply the central scene. The words of the song itself are not a quotation of one passage but a weaving of several. 'Great and wonderful are Your works' is the language of the Psalms, which delight in the works of the Lord, and 'Who will not fear You' resembles Jeremiah 10:7, where the prophet says no one is like the Lord, 'King of nations.' The line about all nations coming to worship before Him repeats the hope of Psalm 86:9 and of Isaiah 66:23, so a song first sung by one rescued people ends by naming every nation.\n\nThe glory filling the temple recalls Exodus 40:34 to 35, 1 Kings 8:10 to 11, and Isaiah 6:4, where the temple was filled with smoke. The same verbs are used. The 'bowls' appear earlier in Revelation as golden bowls of incense, the prayers of the saints, 5:8, and they return here filled with something else, so that the prayers of the persecuted and the wrath of God are poured from the same kind of vessel. The chapter also looks forward. Chapter 16 opens with the voice from the temple, and chapter 21 uses the word 'tabernacle' again in a different mood: 'the tabernacle of God is with men,' 21:3. The tent that had to be closed to all comers in 15:8 becomes the place where God lives with His people without barrier."
     },
     "hermeneutics": {
-      "authorIntent": "To assure suffering believers, before the final plagues are unleashed, that those who have conquered the beast through the Lamb already stand secure in heaven's presence, praising God's just and holy ways, and that the coming wrath, however severe, is the deliberate, complete, and righteous act of a holy God, not chaos.",
-      "descriptionVsPrescription": "The vision describes a scene of heavenly preparation and worship rather than prescribing a specific timeline for readers to calculate. Its abiding call is to worship God as holy and just even in seasons of coming judgment, and to find assurance in belonging to those who have conquered through the Lamb.",
+      "authorIntent": "John wanted persecuted believers to see the end of the story before they read the worst of it. By placing the victory song before the plagues, he tells them that the conquerors are already safe by the sea while the bowls are still in the angels' hands. The chapter says that the outcome of the contest with the beast is not suspended on the bowls. The song is sung because the conquest has happened, not because it is about to.\n\nHe also wanted them to hear the reason for the plagues in the words of the song. 'Just and true are Your ways' is the vindication of the God who will do something terrible, and it is placed in the mouths of people who have suffered under the beast. The scene prevents a reading of the bowls as arbitrary cruelty. It also prevents a reading of them as personal vengeance by the saints, because the saints' words are praise.\n\nLast, the closed temple would have impressed the first hearers. When the glory fills it, no one can enter. The time for intercession and delay is over, and the plagues are fixed to the moment when they are complete. For believers who had begged 'How long?' in 6:10, the message is that the delay has an end that God has chosen.",
+      "descriptionVsPrescription": "Almost nothing in this chapter is a command. John reports what he saw and heard: the sign, the sea, the song, the temple, the bowls and the smoke. The only imperative language is inside the song, where the rhetorical question 'Who will not fear You?' invites a response but is not a rule. So the chapter should be read as a description of what is true in heaven, offered to shape how believers see the world, and not as a pattern for believers to copy by some act of their own.\n\nWhat the chapter does model is posture. The conquerors sing before the judgments begin, and their song is about God's character, not about their own deliverance alone. That is an invitation for the church to let its worship be shaped by the justice and truth of God even while the world is not yet put right. It would be a mistake to read the scene as saying that the church should expect to be removed from all suffering, since the same people are those who 'conquered the beast,' which means they met it. And it would be a mistake to draw a timetable for the plagues from it, since the text says only that the plagues come out of the open temple at the time God has set.",
       "debates": [
         {
-          "question": "Is 'the song of Moses and of the Lamb' one united song or two songs sung together?",
+          "question": "What is 'the song of Moses and of the Lamb'?",
           "views": [
-            { "label": "One united song", "case": "The sentence names a single song with two figures in view, reading Israel's ancient deliverance and the Lamb's greater deliverance as one continuous act of salvation, so the redeemed sing a single new song that fulfills and completes the song of Exodus 15 rather than reciting two separate compositions." },
-            { "label": "Two songs sung together", "case": "Moses' song at the Red Sea, Exodus 15, is a specific, known historical composition, so some read this as two distinct songs, the old song of Moses and a new song of the Lamb, sung together in the same act of worship, joining old and new covenant praise side by side rather than merging them into a single text." }
+            {
+              "label": "One song with two themes",
+              "case": "The Greek links 'Moses' and 'the Lamb' in one phrase and gives a single set of words that follows. The content is about God's works, ways and righteous acts, and is a single hymn. The two names stand for two great acts of rescue, one old and one new, which the one song celebrates."
+            },
+            {
+              "label": "The old song of Exodus 15 taken up and completed",
+              "case": "Moses' own song celebrated the Lord's victory at the sea and looked to His dwelling among His people, Exodus 15:13 to 18. The Lamb's song is that same song carried to its goal, now sung by people from all nations. The text thus connects the hymn that began the nation with the hymn that ends the age, and only the second includes the nations."
+            },
+            {
+              "label": "Two songs sung together",
+              "case": "Some take 'of Moses and of the Lamb' to mean that two different songs are being sung, the law's song of deliverance and the gospel's song of redemption, blended in the same voices. This reading stresses the distinct roles of Moses as servant and the Lamb as Redeemer."
+            }
           ],
-          "bearing": "Either reading ties the final deliverance directly to the exodus. God's people, standing safely on the far side of judgment, praise Him in words that echo Moses even as they celebrate a greater rescue accomplished by the Lamb."
+          "bearing": "On any reading, the saints sing a song of exodus. The grammar leaves room for a single hymn, and the words that are actually given are a hymn to God and not to Moses. The more important point is that the church sings the deliverance of Israel as its own."
         },
         {
-          "question": "Do the seal, trumpet, and bowl judgments follow one another in strict chronological sequence, or do they portray the same period of judgment from different angles?",
+          "question": "How do the seals, trumpets and bowls relate in time?",
           "views": [
-            { "label": "Sequential, escalating judgments (a broadly futurist or historicist reading)", "case": "Each series of judgments intensifies in scope, and the bowls are explicitly called the last plagues that complete God's wrath, so many read the seals, trumpets, and bowls as a chronological progression building toward a definite future consummation." },
-            { "label": "Recapitulated, parallel visions of the same conflict (a broadly idealist or some preterist readings)", "case": "The seventh seal opens directly into the trumpets, and the seventh trumpet already announces the kingdom's arrival in 11:15, which sits awkwardly if a full further sequence of bowl judgments must still follow afterward; on this reading, the three series retell the same age-long conflict between God and the beast with increasing clarity and intensity, rather than stacking three separate future periods end to end." }
+            {
+              "label": "A strict sequence",
+              "case": "The three series follow one another with numbering and with the visible escalation from a quarter of the earth under the seals, to a third under the trumpets, to the whole under the bowls. The phrase 'the seven final plagues' in 15:1 reads as a last stage."
+            },
+            {
+              "label": "Recapitulation",
+              "case": "Others notice the parallels among the three: the earth, the sea, the rivers, the sun and the final shaking appear in each. They also notice that each series ends with a scene that looks like the end, the sixth seal in 6:12 to 17, the seventh trumpet in 11:15 to 19, and the seventh bowl in 16:17 to 21. On that reading the series describe the same age from different angles with growing intensity."
+            },
+            {
+              "label": "Overlapping with a progressive build",
+              "case": "A middle view says the series overlap, with each revealing more of the same conflict, and the bowls are the last and the full measure. The 'final' of 15:1 does not describe a point in a timeline but the close of the series."
+            }
           ],
-          "bearing": "Whichever structure is right, chapter 15 functions the same way either time: it marks a deliberate pause that assures suffering readers, before the worst is described, that the outcome is already decided and worship, not fear, is the fitting response."
+          "bearing": "The chapter is unambiguous that these are the last and complete plagues, for the wrath is 'completed' by them. What the interpreter decides about time does not change what the chapter says about God's justice or the safety of the conquerors."
         }
       ]
     },
-    "originalLanguages": "A handful of words carry this brief vision. The plagues complete God's thymos, His wrath, held back until its appointed and final hour. Those who stand safely beside the sea have nikao, conquered, the beast, not by force of arms but through the Lamb who was slain. They lift an ode, a song, naming both Moses and the Lamb as its source, the first exodus and the final one joined in a single act of praise. And the temple that opens is the skene, the tabernacle of the Testimony, the heavenly reality behind Israel's wilderness tent, from which the last plagues now proceed.",
+    "originalLanguages": "Start with the very first words, 'another great and marvelous sign.' The Greek word for sign is semeion, and John has used it of the woman in heaven and of the great red dragon in chapter 12, and of the false signs of the beast in 13:13. The word here points out that the heavenly sign is a counter to those. The adjective rendered 'marvelous' is thaumastos, and it is a different word from the thauma, wonder, which stirs John's amazement in chapter 17. Here the wonder belongs to God.\n\nThe people beside the sea are described by a participle in the present tense, tous nikontas, 'those who are overcoming.' John is not describing a group who once overcame and then stopped. The verb names their continuing character, and the preposition that follows has the sense of coming out from the beast and its image. The picture is of people who have come out of the contest, in the way that Israel came out of the sea. They hold 'harps from God,' kitharas tou theou, an instrument that belongs to worship and that the elders also hold in 5:8.\n\nThe song uses two words for holiness that are not the same. In verse 4, 'You alone are holy' uses hosios, the word for one who is faithful and devout, and in 16:5 the angel of the waters addresses God as ho hosios, 'the Holy One.' It is a word that the Old Testament Greek uses for those who are loyal to the Lord's covenant. That the song uses it, and not the word the seraphs used in Isaiah 6:3, stresses God's faithfulness as well as His separateness.\n\nIn verse 5 the 'Testimony' is martyrion, which in the tabernacle meant the tablets of the covenant kept in the ark. John's word is chosen because the plagues are evidence, witness, against those who broke the covenant. The angels then wear a zone, a belt or sash, golden and around the chest, and Christ is dressed in the same way in 1:13. Finally, the bowls, phialai, are the same vessels as the bowls of incense in 5:8, so that the prayers and the wrath are poured from similar vessels. The pairing is deliberate: a bowl is a vessel meant to be emptied, and what fills it in each case is what heaven has received.",
     "typology": [
-      { "type": "The sea of glass mixed with fire", "fulfillment": "The crystal sea before God's throne in Revelation 4:6, here touched with the fire of coming judgment, standing beside which the redeemed sing in safety." },
-      { "type": "The song of Moses at the Red Sea", "fulfillment": "Fulfilled and surpassed in the song of Moses and of the Lamb, joining the first exodus to the final deliverance accomplished by Christ, Exodus 15:1-18." },
-      { "type": "The tabernacle of the Testimony", "fulfillment": "The wilderness tent that housed the tablets of the covenant, Exodus 38:21 and Numbers 1:50, now revealed as a shadow of the true, heavenly tabernacle opened here." }
+      {
+        "type": "The Red Sea and the sea of glass",
+        "fulfillment": "Israel stood on the shore of a sea that had just destroyed their oppressor, and Moses led them in a song, Exodus 15:1. John's conquerors stand beside, or on, a sea of glass mixed with fire, and the fire is a mark of the judgment that has come. The escalation is that this is a final exodus out of the beast's empire and not merely out of Egypt, and it is accomplished through the Lamb's blood, 12:11. The correspondence falls short in one respect: Israel sang on the far shore of a sea that closed behind them, while here the sea of glass is before the throne and is a place of permanent standing."
+      },
+      {
+        "type": "The tabernacle of the Testimony",
+        "fulfillment": "The tent of the Testimony was the place where God dwelt among Israel and where the tablets of the covenant were kept, Numbers 1:50. When the glory filled it, no one could enter, Exodus 40:35. In Revelation 15:5 the heavenly original is opened and the angels come out of it, and in 15:8 it is filled again with glory and smoke. The tabernacle of Moses was, according to Hebrews 8:5, a copy and shadow of heavenly things, so Revelation shows the reality behind it. Its limit is that the earthly tent could be entered by priests in season, while this temple is closed until the wrath is done."
+      },
+      {
+        "type": "The priestly vestments of the angels",
+        "fulfillment": "Israel's priests wore linen and a sash when they served, Exodus 28:39 to 41 and Leviticus 16:4. The seven angels come out of the temple in clean linen and golden sashes, so that their work is presented as priestly service and the bowls as sacred acts. The same garb belongs to the Son of Man in 1:13 and to the bride in 19:8. The correspondence escalates: the priests offered the people's sacrifices to God, while these angels carry out God's judgment on the earth. The image falls short if pressed, because angels are not priests in the Levitical sense and do not offer atonement."
+      },
+      {
+        "type": "Moses the servant and the Lamb",
+        "fulfillment": "Moses is called 'God's servant,' and Hebrews 3:5 to 6 calls him faithful in God's house as a servant, while Christ is faithful as a Son over the house. The pairing of Moses and the Lamb in one song makes the contrast concrete. Moses led out of Egypt and the Lamb leads out of the world's bondage to the beast. The type falls short because Moses himself could not enter the land, Deuteronomy 34:4, while the Lamb brings His people into the city."
+      }
     ],
-    "christ": "The conquerors beside the sea of glass have overcome the beast specifically through the Lamb, and it is the Lamb, alongside God's servant Moses, whom their song celebrates as the author of a greater deliverance than the exodus from Egypt. Even as the last plagues are prepared, the scene keeps Christ at its center: victory belongs to Him, and the praise of the redeemed is addressed as much to the Lamb as to the Lord God Almighty.",
-    "god": "God is praised here as holy, just, and true even before a single plague is poured out, a declaration that the coming wrath will be neither random nor excessive but the deliberate, righteous act of the One whose ways are altogether just. His glory and power fill the heavenly temple so completely that no one, not even an angel, may enter until the appointed judgment is finished.",
+    "christ": "The chapter does not mention Jesus by name, and it does not need to. He is present in two places, in the song and in the sash. The song is the song 'of the Lamb,' and it makes Him the one who accomplishes the rescue that Moses only anticipated. Moses stood at the shore, and the Lamb does what no servant could. If the exodus is the Old Testament's pattern for salvation, then the Lamb's work is the pattern's fulfilment. Luke 9:31 uses the word 'departure,' exodos, for what Jesus would accomplish at Jerusalem, so the New Testament had already spoken of the cross in the vocabulary of the exodus.\n\nThe conquerors are those who conquered 'the beast and its image and the number of its name,' and chapter 12 said how: 'they overcame him by the blood of the Lamb and by the word of their testimony,' 12:11. In other words, the victory the song celebrates was won through suffering. The people sing on the sea because the Lamb was slain, not because they fought better.\n\nThe angels' sashes link Christ to the judgment. In 1:13 the Son of Man wore a golden sash around His chest, and the angels who now carry the bowls wear the same. That does not make the angels Christ, but it shows that the bowls come from His court and carry His authority. The Lamb is not absent from the wrath. Chapter 14 said the guilty would be tormented 'in the presence of the Lamb,' and now the instruments of that judgment appear dressed as His servants.\n\nThe closed temple makes one more point. Nobody could enter until the plagues were completed, and yet the New Testament says that through Christ's blood believers have confidence to enter the holy places, Hebrews 10:19. The closing of the sanctuary in 15:8 is a limited, final act, a pause in access during the last hour of wrath, and does not reverse what the Lamb has opened for His people. The tent is closed to all comers only until the work is done, and the opening is described again in 21:3, where God's dwelling is with men. The chapter should not be pressed to find Christ in every detail, such as the golden bowls. The sure points are the Lamb in the song, the victory by His blood, and the court from which the plagues come.",
+    "god": "The most striking feature of this chapter is that it speaks about God before it shows what God will do. The song is a statement of who He is: Lord God Almighty, King of the nations, the One who is holy, just and true. It is placed first so that the bowls can be read in its light. God's wrath is not the swing of a temper but the expression of a character, and the saints who will not be touched by the plagues are the first to say so.\n\nThe song uses three families of words together. 'Great and wonderful' speaks of works, what God does. 'Just and true' speaks of ways, how He acts. 'Holy' and 'righteous acts' speak of what He is, and of the moral order the deeds uphold. The sentence that 'all nations will come and worship before You, for Your righteous acts have been revealed' says that judgment is a form of revelation. The nations come to worship not despite the plagues but, in part, because they have shown who God is. Few doctrines of God are as sober or as hopeful as that: His justice is the road by which the nations are brought to see Him.\n\nThe chapter also shows God's holiness in the closed temple. The glory and the power fill it, and no one can enter. That recalls Isaiah's vision and Moses' failure at the tent door, so that the church is reminded that God is not to be handled. Yet the God who is shut in His own glory is also the God who is 'living forever and ever,' who is not diminished by the passing of the beast's kingdom. The title in 15:7 is a reminder that all the powers of the world are dying, and He is not.\n\nFinally, the scene reveals the God who controls timing. The plagues are in the angels' hands, but they cannot begin until the sanctuary opens, and then the temple is closed until they end. God holds both the start and the finish. For worship, this means that believers can sing before the world is made right, because the One they praise has already settled how the story ends.",
     "crossReferences": [
-      { "ref": "Exodus 15:1-18", "note": "The original song of Moses after Israel's deliverance through the Red Sea, echoed and fulfilled in the song sung here." },
-      { "ref": "Exodus 40:34-35", "note": "The glory of the Lord filling the tabernacle so that Moses could not enter, the pattern behind the temple filled with smoke in verse 8." },
-      { "ref": "Revelation 4:1-6", "note": "The throne room vision, including the sea of glass, that precedes the opening of the seven seals, the same structural pattern repeated here before the bowls." },
-      { "ref": "Revelation 7:1-3", "note": "The sealing of God's servants before the trumpet judgments, another instance of preparation and protection preceding a series of plagues." }
+      {
+        "ref": "Exodus 15:1-18",
+        "note": "Moses and Israel sing of a warrior who threw horse and rider into the sea and who leads a redeemed people toward His holy dwelling. John's saints take up the very hymn of that shore, so the glassy sea is a second Red Sea, and the destination of the song in verse 17, the sanctuary, is exactly what chapter 15 goes on to show."
+      },
+      {
+        "ref": "Exodus 15:11",
+        "note": "'Who among the gods is like You, O LORD?' The question in the song of Moses is mirrored by the question in Revelation 15:4, 'Who will not fear You?' Both are rhetorical, and both point to the incomparable holiness of God."
+      },
+      {
+        "ref": "Jeremiah 10:7",
+        "note": "The prophet asks who would not fear the King of nations, since there is none like Him among all the nations' wise men. The song of the Lamb takes that question and puts it in the mouths of those who have been delivered, turning a prophet's protest into a hymn."
+      },
+      {
+        "ref": "Psalm 86:9",
+        "note": "All the nations the Lord made will come and bow before Him. Revelation 15:4 says all nations will come and worship before Him. The psalm's hope, which no earlier generation saw, is announced as certain in the song."
+      },
+      {
+        "ref": "Exodus 40:34-35",
+        "note": "The glory of the Lord fills the tabernacle and Moses cannot enter. Revelation 15:8 repeats the situation in heaven: the temple is filled with smoke from God's glory and power and none may enter. The same God who dwelt with Israel is the God of the final judgment."
+      },
+      {
+        "ref": "1 Kings 8:10-11",
+        "note": "At Solomon's dedication the cloud filled the house so that the priests could not minister. It supplies a second precedent for the closed temple in Revelation 15:8, showing that the pattern of glory too great to approach runs through the whole life of Israel's worship."
+      },
+      {
+        "ref": "Isaiah 6:4",
+        "note": "The temple filled with smoke at the sound of the seraphs' voices. Isaiah, like John, saw a sanctuary overwhelmed by God's holiness and was undone by it. John's scene belongs to the same line of visions."
+      },
+      {
+        "ref": "Revelation 5:8",
+        "note": "The golden bowls full of incense, which are the prayers of the saints. The bowls of Revelation 15:7 are the same kind of vessel, now filled with wrath, as though the saints' prayers for justice were being answered from the vessels that carried them."
+      },
+      {
+        "ref": "Revelation 12:11",
+        "note": "The saints overcame the dragon by the blood of the Lamb and by their testimony. This explains how the conquerors in 15:2 conquered the beast: not by weapons but by faithful witness unto death, resting on the Lamb's blood."
+      },
+      {
+        "ref": "Revelation 21:3",
+        "note": "The tabernacle of God is with men, and He will live with them. The tent that had to be closed in 15:8 is open for good here, so the two verses frame the whole movement from a closed sanctuary during judgment to an open dwelling in the new creation."
+      }
     ],
-    "oneStory": "This brief, quiet vision joins the first great act of deliverance, the exodus through the Red Sea under Moses, to the last, accomplished by the Lamb who was slain. Before the final plagues fall on a world that has worshiped the beast, heaven pauses so that those who conquered through the Lamb can sing of God's holy, just, and true ways, a pattern that runs through the whole Bible: God delivers His people through judgment on their oppressors, and every act of that judgment and deliverance finds its fullest meaning in Christ.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "The Bible keeps returning to the sea. In the first chapter of Genesis the waters are the deep over which the Spirit hovers and which God sets bounds to. In Genesis 7 they come back as judgment, and in Exodus 14 they open to let a rescued people through and close on their oppressors. The prophets promise that the Lord will make a way through the sea again, Isaiah 43:16, and in the Psalms the sea is a symbol of the chaos that God rules. When John sees a sea of glass mixed with fire, he sees all of that gathered up: the sea has become a floor on which the conquerors stand, and it is calm, because the thing the sea stood for, the power that threatens, has been overcome. In the new creation, 21:1 says, there is no longer any sea.\n\nThis chapter answers a question that arises in every generation of the faithful: when God judges, are His people safe, and is He right? The Old Testament's answer began in Egypt, where the same plagues that struck Pharaoh left Israel untouched, and in Babylon, where the exiles saw their captor fall. The vision here says that the pattern holds at the end. God delivers through judgment, and the delivered can sing of His justice because they have seen His faithfulness.\n\nIt also sets up everything that follows. The bowls of chapter 16 will fall in a sequence that echoes Egypt's plagues, the fall of Babylon in chapters 17 and 18 will show the great oppressor's end, and the marriage supper of chapter 19 will show where the song leads. The first exodus brought Israel to Sinai, where God gave a tent so that He could live among them. The last exodus brings the nations to a city whose temple is the Lord God Almighty and the Lamb, 21:22. The closed sanctuary of chapter 15 is the final night before that opening. The story that began with God walking in a garden in Genesis 3:8 ends with His dwelling with His people, and Revelation 15 is the quiet breath between the last judgment and the first morning of the world made new.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "What are the seven angels of chapter 15 carrying?",
       "options": [
-        { "text": "The seven final plagues, with which the wrath of God is completed.", "weight": 100, "note": "Revelation 15:1 states this directly." },
-        { "text": "Seven crowns to reward the beast's followers.", "weight": 75, "note": "The angels carry plagues of judgment, not crowns for the beast's followers." },
-        { "text": "Seven scrolls sealed with seven seals.", "weight": 25, "note": "The seven seals belong to an earlier vision, chapters 5 and 6, not this scene." },
-        { "text": "Nothing; the angels appear empty-handed here.", "weight": 0, "note": "They are explicitly described as carrying the seven final plagues." }
+        {
+          "text": "The seven final plagues, with which the wrath of God is completed.",
+          "weight": 100,
+          "note": "Revelation 15:1 states this directly."
+        },
+        {
+          "text": "Seven crowns to reward the beast's followers.",
+          "weight": 75,
+          "note": "The angels carry plagues of judgment, not crowns for the beast's followers."
+        },
+        {
+          "text": "Seven scrolls sealed with seven seals.",
+          "weight": 25,
+          "note": "The seven seals belong to an earlier vision, chapters 5 and 6, not this scene."
+        },
+        {
+          "text": "Nothing; the angels appear empty-handed here.",
+          "weight": 0,
+          "note": "They are explicitly described as carrying the seven final plagues."
+        }
       ]
     },
     {
       "q": "Who stands beside the sea of glass mixed with fire, and how did they conquer?",
       "options": [
-        { "text": "Those who conquered the beast, its image, and its number, standing safely with harps from God.", "weight": 100, "note": "Revelation 15:2 describes this scene." },
-        { "text": "Soldiers who defeated the beast in battle.", "weight": 75, "note": "Revelation consistently shows the beast conquered through the Lamb's blood and faithful testimony, not armed combat." },
-        { "text": "The beast's own followers celebrating its victory.", "weight": 25, "note": "These are the beast's conquerors, not its followers." },
-        { "text": "No one stands there; the sea is empty.", "weight": 0, "note": "The conquerors are explicitly described standing beside the sea." }
+        {
+          "text": "Those who conquered the beast, its image, and its number, standing safely with harps from God.",
+          "weight": 100,
+          "note": "Revelation 15:2 describes this scene."
+        },
+        {
+          "text": "Soldiers who defeated the beast in battle.",
+          "weight": 75,
+          "note": "Revelation consistently shows the beast conquered through the Lamb's blood and faithful testimony, not armed combat."
+        },
+        {
+          "text": "The beast's own followers celebrating its victory.",
+          "weight": 25,
+          "note": "These are the beast's conquerors, not its followers."
+        },
+        {
+          "text": "No one stands there; the sea is empty.",
+          "weight": 0,
+          "note": "The conquerors are explicitly described standing beside the sea."
+        }
       ]
     },
     {
       "q": "What is the content of the song sung beside the sea of glass?",
       "options": [
-        { "text": "Praise for God's great and wonderful works, His just and true ways, and His holiness, calling all nations to worship Him.", "weight": 100, "note": "Revelation 15:3-4 gives the song's content." },
-        { "text": "A lament over the destruction of the earth.", "weight": 75, "note": "The song is praise and worship, not a lament." },
-        { "text": "A request for the beast's forgiveness.", "weight": 25, "note": "The song has nothing to do with the beast's forgiveness; it praises God alone." },
-        { "text": "No words are recorded, only instrumental music.", "weight": 0, "note": "The full words of the song are recorded in verses 3-4." }
+        {
+          "text": "Praise for God's great and wonderful works, His just and true ways, and His holiness, calling all nations to worship Him.",
+          "weight": 100,
+          "note": "Revelation 15:3-4 gives the song's content."
+        },
+        {
+          "text": "A lament over the destruction of the earth.",
+          "weight": 75,
+          "note": "The song is praise and worship, not a lament."
+        },
+        {
+          "text": "A request for the beast's forgiveness.",
+          "weight": 25,
+          "note": "The song has nothing to do with the beast's forgiveness; it praises God alone."
+        },
+        {
+          "text": "No words are recorded, only instrumental music.",
+          "weight": 0,
+          "note": "The full words of the song are recorded in verses 3-4."
+        }
       ]
     },
     {
       "q": "What happens after the temple, the tabernacle of the Testimony, is opened in heaven?",
       "options": [
-        { "text": "The seven angels come out dressed in priestly linen and are given seven golden bowls full of God's wrath.", "weight": 100, "note": "Revelation 15:5-7 describes this sequence." },
-        { "text": "The temple is immediately destroyed.", "weight": 75, "note": "The temple is filled with the glory of God, not destroyed." },
-        { "text": "All the saints are invited to enter and worship inside.", "weight": 25, "note": "The text says no one could enter the temple until the plagues were completed." },
-        { "text": "Nothing follows; the vision simply ends.", "weight": 0, "note": "The opening of the temple leads directly to the angels emerging with the bowls of wrath." }
+        {
+          "text": "The seven angels come out dressed in priestly linen and are given seven golden bowls full of God's wrath.",
+          "weight": 100,
+          "note": "Revelation 15:5-7 describes this sequence."
+        },
+        {
+          "text": "The temple is immediately destroyed.",
+          "weight": 75,
+          "note": "The temple is filled with the glory of God, not destroyed."
+        },
+        {
+          "text": "All the saints are invited to enter and worship inside.",
+          "weight": 25,
+          "note": "The text says no one could enter the temple until the plagues were completed."
+        },
+        {
+          "text": "Nothing follows; the vision simply ends.",
+          "weight": 0,
+          "note": "The opening of the temple leads directly to the angels emerging with the bowls of wrath."
+        }
       ]
     },
     {
       "q": "Why could no one enter the temple until the seven plagues were completed?",
       "options": [
-        { "text": "Because it was filled with smoke from the glory of God and from His power.", "weight": 100, "note": "Revelation 15:8 states this directly, echoing Exodus 40:34-35." },
-        { "text": "Because the doors were sealed shut by the beast.", "weight": 75, "note": "The barrier is God's own glory and power filling the temple, not the beast's action." },
-        { "text": "Because the angels had locked the temple for their own protection.", "weight": 25, "note": "The reason given is the temple filling with God's glory, not angelic self-protection." },
-        { "text": "There is no stated reason; entry was simply forbidden by decree.", "weight": 0, "note": "The text gives a specific reason: the temple filled with the smoke of God's glory and power." }
+        {
+          "text": "Because it was filled with smoke from the glory of God and from His power.",
+          "weight": 100,
+          "note": "Revelation 15:8 states this directly, echoing Exodus 40:34-35."
+        },
+        {
+          "text": "Because the doors were sealed shut by the beast.",
+          "weight": 75,
+          "note": "The barrier is God's own glory and power filling the temple, not the beast's action."
+        },
+        {
+          "text": "Because the angels had locked the temple for their own protection.",
+          "weight": 25,
+          "note": "The reason given is the temple filling with God's glory, not angelic self-protection."
+        },
+        {
+          "text": "There is no stated reason; entry was simply forbidden by decree.",
+          "weight": 0,
+          "note": "The text gives a specific reason: the temple filled with the smoke of God's glory and power."
+        }
       ]
     }
   ],
@@ -167,10 +374,25 @@
     "No one could enter the temple until the plagues were finished, showing the weight and holiness of God's presence. How does a right sense of God's holiness shape your reverence in worship and prayer?"
   ],
   "translationNotes": [
-    { "ref": "Revelation 15:2", "note": "The sea of glass mixed with fire recalls the sea of glass, clear as crystal, before God's throne in Revelation 4:6; here it is mingled with fire, picturing both the purity of God's throne and the judgment about to proceed from it." },
-    { "ref": "Revelation 15:3", "note": "The song of God's servant Moses and of the Lamb directly recalls Exodus 15:1-18, Israel's song of praise after being delivered through the Red Sea." },
-    { "ref": "Revelation 15:5", "note": "The tabernacle of the Testimony is a phrase drawn from the wilderness tabernacle that housed the tablets of the covenant, Exodus 38:21 and Numbers 1:50, here shown as opened in its true, heavenly form." },
-    { "ref": "Revelation 15:8", "note": "No one could enter the temple while it was filled with smoke from God's glory, directly echoing Exodus 40:34-35 and 1 Kings 8:10-11, where the glory of the Lord filling the sanctuary prevented entry." }
+    {
+      "ref": "Revelation 15:2",
+      "note": "The sea of glass mixed with fire recalls the sea of glass, clear as crystal, before God's throne in Revelation 4:6; here it is mingled with fire, picturing both the purity of God's throne and the judgment about to proceed from it."
+    },
+    {
+      "ref": "Revelation 15:3",
+      "note": "The song of God's servant Moses and of the Lamb directly recalls Exodus 15:1-18, Israel's song of praise after being delivered through the Red Sea."
+    },
+    {
+      "ref": "Revelation 15:5",
+      "note": "The tabernacle of the Testimony is a phrase drawn from the wilderness tabernacle that housed the tablets of the covenant, Exodus 38:21 and Numbers 1:50, here shown as opened in its true, heavenly form."
+    },
+    {
+      "ref": "Revelation 15:8",
+      "note": "No one could enter the temple while it was filled with smoke from God's glory, directly echoing Exodus 40:34-35 and 1 Kings 8:10-11, where the glory of the Lord filling the sanctuary prevented entry."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB verse text supplied pre-verified this session; Straight quotation marks and apostrophes were rendered as curly quotation marks to match this repo's typographic convention; no wording was altered." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB verse text supplied pre-verified this session; Straight quotation marks and apostrophes were rendered as curly quotation marks to match this repo's typographic convention; no wording was altered."
+  }
 }
