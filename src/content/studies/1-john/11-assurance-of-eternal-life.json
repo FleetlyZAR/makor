@@ -18,7 +18,11 @@
         "note": "written so you may be sure",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 5, "n": 13, "text": "I have written these things to you who believe in the name of the Son of God, so that you may {{oida|know}} that you have {{zoe|eternal life}}." }
+          {
+            "chapter": 5,
+            "n": 13,
+            "text": "I have written these things to you who believe in the name of the Son of God, so that you may {{oida|know}} that you have {{zoe|eternal life}}."
+          }
         ]
       },
       {
@@ -26,10 +30,26 @@
         "note": "asking according to His will",
         "emphasis": "",
         "verses": [
-          { "chapter": 5, "n": 14, "text": "And this is the {{parresia|confidence}} that we have before Him: If we ask anything according to His will, He hears us." },
-          { "chapter": 5, "n": 15, "text": "And if we know that He hears us in whatever we ask, we know that we already possess what we have asked of Him." },
-          { "chapter": 5, "n": 16, "text": "If anyone sees his brother committing a sin not leading to death, he should ask God, who will give life to those who commit this kind of sin. There is a {{hamartia|sin}} that leads to death; I am not saying he should ask regarding that sin." },
-          { "chapter": 5, "n": 17, "text": "All unrighteousness is sin, yet there is sin that does not lead to death." }
+          {
+            "chapter": 5,
+            "n": 14,
+            "text": "And this is the {{parresia|confidence}} that we have before Him: If we ask anything according to His will, He hears us."
+          },
+          {
+            "chapter": 5,
+            "n": 15,
+            "text": "And if we know that He hears us in whatever we ask, we know that we already possess what we have asked of Him."
+          },
+          {
+            "chapter": 5,
+            "n": 16,
+            "text": "If anyone sees his brother committing a sin not leading to death, he should ask God, who will give life to those who commit this kind of sin. There is a {{hamartia|sin}} that leads to death; I am not saying he should ask regarding that sin."
+          },
+          {
+            "chapter": 5,
+            "n": 17,
+            "text": "All unrighteousness is sin, yet there is sin that does not lead to death."
+          }
         ]
       },
       {
@@ -37,9 +57,21 @@
         "note": "born of God, belonging to God, knowing the true God",
         "emphasis": "",
         "verses": [
-          { "chapter": 5, "n": 18, "text": "We know that anyone born of God does not keep on sinning; the One who was born of God protects him, and the evil one cannot touch him." },
-          { "chapter": 5, "n": 19, "text": "We know that we are of God, and that the whole world is under the power of the evil one." },
-          { "chapter": 5, "n": 20, "text": "And we know that the Son of God has come and has given us understanding, so that we may know Him who is {{alethinos|true}}; and we are in Him who is true, in His Son Jesus Christ. He is the true God and eternal life." }
+          {
+            "chapter": 5,
+            "n": 18,
+            "text": "We know that anyone born of God does not keep on sinning; the One who was born of God protects him, and the evil one cannot touch him."
+          },
+          {
+            "chapter": 5,
+            "n": 19,
+            "text": "We know that we are of God, and that the whole world is under the power of the evil one."
+          },
+          {
+            "chapter": 5,
+            "n": 20,
+            "text": "And we know that the Son of God has come and has given us understanding, so that we may know Him who is {{alethinos|true}}; and we are in Him who is true, in His Son Jesus Christ. He is the true God and eternal life."
+          }
         ]
       },
       {
@@ -47,18 +79,52 @@
         "note": "the closing charge",
         "emphasis": "",
         "verses": [
-          { "chapter": 5, "n": 21, "text": "Little children, keep yourselves from {{eidolon|idols}}." }
+          {
+            "chapter": 5,
+            "n": 21,
+            "text": "Little children, keep yourselves from {{eidolon|idols}}."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "oida": { "language": "Greek", "lemma": "oida", "original": "οἶδα", "gloss": "To know, and to know with settled certainty. John writes so that believers may know they have eternal life. This is not a hopeful guess but assured knowledge, resting on God's testimony about His Son. The word rings through the closing verses: we know, we know, we know." },
-    "zoe": { "language": "Greek", "lemma": "zoe", "original": "ζωή", "gloss": "Life, eternal life, the very life of God given in Christ. John's aim is that believers may know they have this life now, a present possession secured in the Son and reaching into eternity." },
-    "parresia": { "language": "Greek", "lemma": "parresia", "original": "παρρησία", "gloss": "Confidence, boldness, freedom of speech before another. It is the settled assurance with which the child of God comes to the Father in prayer, certain of a hearing when the request accords with His will. The same word marked the believer's confidence at the day of judgment earlier in the letter." },
-    "hamartia": { "language": "Greek", "lemma": "hamartia", "original": "ἁμαρτία", "gloss": "Sin, a missing of the mark, offence against God and His law. John distinguishes a sin that leads to death from sin that does not, and calls all unrighteousness sin. The sin that leads to death is best understood as the settled, unrepentant rejection of Christ, not a single act." },
-    "alethinos": { "language": "Greek", "lemma": "alethinos", "original": "ἀληθινός", "gloss": "True, real, genuine, as opposed to the false or counterfeit. The Son has come and given understanding to know the One who is true; believers are in Him who is true, in His Son Jesus Christ, who is the true God and eternal life. This word sets the real God against the idols of the closing verse." },
-    "eidolon": { "language": "Greek", "lemma": "eidolon", "original": "εἴδωλον", "gloss": "An idol, an image of a false god, and by extension anything put in God's place. John's closing charge is to keep from idols, guarding the true knowledge of the true God just given. Any rival to Christ, however refined, is an idol to be refused." }
+    "oida": {
+      "language": "Greek",
+      "lemma": "oida",
+      "original": "οἶδα",
+      "gloss": "To know, and to know with settled certainty. John writes so that believers may know they have eternal life. This is not a hopeful guess but assured knowledge, resting on God's testimony about His Son. The word rings through the closing verses: we know, we know, we know."
+    },
+    "zoe": {
+      "language": "Greek",
+      "lemma": "zoe",
+      "original": "ζωή",
+      "gloss": "Life, eternal life, the very life of God given in Christ. John's aim is that believers may know they have this life now, a present possession secured in the Son and reaching into eternity."
+    },
+    "parresia": {
+      "language": "Greek",
+      "lemma": "parresia",
+      "original": "παρρησία",
+      "gloss": "Confidence, boldness, freedom of speech before another. It is the settled assurance with which the child of God comes to the Father in prayer, certain of a hearing when the request accords with His will. The same word marked the believer's confidence at the day of judgment earlier in the letter."
+    },
+    "hamartia": {
+      "language": "Greek",
+      "lemma": "hamartia",
+      "original": "ἁμαρτία",
+      "gloss": "Sin, a missing of the mark, offence against God and His law. John distinguishes a sin that leads to death from sin that does not, and calls all unrighteousness sin. The sin that leads to death is best understood as the settled, unrepentant rejection of Christ, not a single act."
+    },
+    "alethinos": {
+      "language": "Greek",
+      "lemma": "alethinos",
+      "original": "ἀληθινός",
+      "gloss": "True, real, genuine, as opposed to the false or counterfeit. The Son has come and given understanding to know the One who is true; believers are in Him who is true, in His Son Jesus Christ, who is the true God and eternal life. This word sets the real God against the idols of the closing verse."
+    },
+    "eidolon": {
+      "language": "Greek",
+      "lemma": "eidolon",
+      "original": "εἴδωλον",
+      "gloss": "An idol, an image of a false god, and by extension anything put in God's place. John's closing charge is to keep from idols, guarding the true knowledge of the true God just given. Any rival to Christ, however refined, is an idol to be refused."
+    }
   },
   "study": {
     "basic": {
@@ -72,94 +138,274 @@
       "oneStory": "The whole story moves toward a people who know their God, belong to Him, and worship Him alone. Here John gives that people assurance: you may know you have eternal life in the Son. He is the true God, and the ancient call away from idols to the living God finds its rest in Him. The letter closes where the Bible is heading, in sure fellowship with the true God through His Son."
     },
     "context": {
-      "literary": "The conclusion of the letter, marked by the repeated 'we know'. John states his purpose, so that you may know that you have eternal life, then draws out the confidence, the certainties, and the closing charge. It gathers the letter's tests of belief, obedience, and love into settled assurance.",
-      "historical": "Written to believers unsettled by teachers who had left the fellowship claiming superior knowledge, John reassures those who held to Christ that they, not the departed, possess eternal life. In a world full of idols, literal and refined, the final charge warned a young church to hold to the true God against every counterfeit.",
-      "canonical": "The passage is a fountainhead for the doctrine of assurance, that believers may know they are saved, and a strong witness to the deity of Christ, who is called the true God and eternal life. Its closing warning against idols joins the whole canon's insistence on worshipping the one true God alone."
+      "literary": "This is the epilogue of the letter, and it is built like one. Verse 13 looks back over everything written and states the purpose. Verses 14 to 17 carry that purpose into prayer. Verses 18 to 20 give three declarations introduced by the same two words, 'we know', and verse 21 ends with a single command. The pattern is the same as the close of John's Gospel, where 20:30-31 states a purpose and a following chapter adds a final scene, and the repeated phrase 'eternal life' in verse 13 and in verse 20 sets the first and last statements of the section side by side.\n\nThe three 'we know' sentences are carefully matched. Each opens with a statement about the believer and each ends with a statement about God or the evil one. Verse 18 says the believer is protected and the evil one cannot touch him. Verse 19 says we are of God while the whole world lies under the evil one. Verse 20 says the Son has come and we are in the True One. The sentences move from what God does for us, to where we stand, to whom we know. Together they make a compact creed of assurance.\n\nAnother thread is the word 'true' and its relatives. The 'true God' and 'the True One' in verse 20 bring the letter back to its first theme, since the opening spoke of truth and of walking in light, 1:5-7. The final phrase, 'eternal life', is also the thing the letter's opening announced in 1:2, and it brings the beginning and end into a ring.\n\nThe command about idols can seem abrupt. But it follows hard on 'He is the true God', and in Greek the word for idols is the last word of the letter in the earliest manuscripts, as the BSB footnote on verse 21 indicates. The sentence works as a seal: the One we know is the true God, so every substitute must be refused.",
+      "historical": "Prayer for others was an established practice in the congregations. James tells the elders to pray over the sick and says that the prayer of faith will save the one who is ill, and he adds that those who bring back a wanderer from the truth save a soul from death, James 5:14-20. John's counsel to ask God on behalf of a brother who sins is part of the same culture of mutual care. Churches met in homes and the failures of members were known to all, so the question of how to respond was a daily matter.\n\nThe setting of the 'sin that leads to death' lies in the secession that has hung over the whole letter. Those who left, 2:19, had abandoned the confession of Jesus Christ come in the flesh, and John has said that they do not have the Father, 2:23. The Old Testament drew a sharp line between sins committed in error, for which atonement was provided, and sin committed defiantly, with a raised hand, for which none was offered and the offender was cut off, Numbers 15:27-31. The first hearers, steeped in the Law, would have known that categories like these existed, and would have heard 'sin leading to death' against that background.\n\nThe pagan world around them was also thick with idols. In an Asian city like Ephesus, public life was threaded with temples, trade guilds with patron gods, civic festivals and the worship of the emperor. Refusing to take part cost people jobs, friendships and sometimes safety. The command at the end of the letter is not abstract. For believers there were daily moments in the market, the guild feast or the civic procession when a quiet compromise would have been easy, as Paul's discussion of food offered to idols in 1 Corinthians 8 to 10 shows.\n\nFinally, the claim that the 'whole world is under the power of the evil one' stood against the empire's claim to be the guarantor of peace and order. John does not deny the world's institutions have some goodness, but he refuses to see them as neutral ground. The letter is generally placed in the last decades of the first century.",
+      "canonical": "Assurance is a theme that spans the Bible's story of promise. God gave Abraham a sign to confirm the covenant, Genesis 15, and Paul says that God, wishing to show the heirs the unchanging character of his purpose, guaranteed it with an oath, Hebrews 6:17-18. Jesus says of his sheep, 'I give them eternal life, and they will never perish. No one can snatch them out of My hand', John 10:28-29, and Paul is confident that the one who began a good work will carry it on to completion, Philippians 1:6. John's own Gospel closes with the purpose, 'that by believing you may have life in His name', John 20:31, and the letter returns to that purpose.\n\nThe teaching on prayer gathers up earlier words. Jesus said, 'If you remain in Me and My words remain in you, ask whatever you wish', John 15:7, and taught his disciples to pray 'Your will be done', Matthew 6:10. John himself had said that we receive what we ask because we keep his commandments, 3:22. Paul adds that the Spirit helps us in our weakness and intercedes according to the will of God, Romans 8:26-27. James warns that asking with wrong motives gets nothing, James 4:3. The condition 'according to His will' is therefore not a limit invented in this verse but a thread through the whole of Scripture on prayer.\n\nThe idea of being kept from the evil one echoes Jesus' own prayer. 'I am not asking that You take them out of the world, but that You keep them from the evil one', John 17:15, and the petition 'deliver us from the evil one', Matthew 6:13. Paul gives the same promise to the Thessalonians, 2 Thessalonians 3:3, and Jude closes by praising the one who is able to keep us from stumbling, Jude 24.\n\nThe call to refuse idols belongs to the first and second commandments, Exodus 20:3-5, to the prophets' mockery of idol makers, Isaiah 44:9-20, and to Paul's praise of the Thessalonians who 'turned to God from idols to serve the living and true God', 1 Thessalonians 1:9. The word 'true' in verse 20 recalls the language of that verse and of Jesus' prayer in John 17:3."
     },
     "hermeneutics": {
-      "authorIntent": "To assure those who believe in the Son that they have eternal life, to give them confidence in prayer, to fix their certainty on what God has done in His Son, and to charge them to guard that knowledge by keeping from every idol.",
-      "descriptionVsPrescription": "The passage describes what believers may know, that they have life, that God hears them, that they are kept and belong to Him, and it prescribes the responses: pray with confidence, pray for a straying brother, and keep yourselves from idols. The certainties ground the commands.",
+      "authorIntent": "John wants the people who have read the letter to put it down with their feet firmly planted. The letter began with the eyewitness announcement that fellowship with the Father and the Son is available, and it ends with a declaration of what the readers can now know. The word 'know' is the keynote, and John uses it in verses 13, 15, 18, 19 and 20. He does not want believers to be vague about their standing, and he does not want them to be proud. He wants them to be sure because God has spoken.\n\nHe also intends to show where certainty leads. It leads to prayer, which can be offered boldly and for others. It leads to a settled difference between the believer and the world, so that the believer is neither unsure of his own belonging nor naive about the world. And it leads to a sharp sense of exclusivity: the God known in Christ is the true God and no other. John does not offer this exclusivity as a point of pride but as the only ground on which assurance can stand.\n\nThe paragraph on the sin that leads to death is meant to give a pastoral instruction without inviting speculation. John wants his readers to pray for the brother who falls into ordinary sin, confident that God will answer, and not to be paralysed by a hard case. Believers are to bear one another's weaknesses in prayer. The sin that leads to death is a limit stated briefly, and John does not elaborate because he is not writing a manual of casuistry.\n\nFinally, the abrupt warning about idols is the parting word of an elderly pastor who knows how easily the heart takes up a substitute for the true God. It is as tender as it is blunt: 'little children'. He means them to take it with them into the market, the guild and the home.",
+      "descriptionVsPrescription": "The statements in verses 13 to 15 combine a description and a promise: God hears, and we have what we ask. These are statements about the relationship and not rules that guarantee the outcome of every petition. They are tied to the phrase 'according to His will', which keeps prayer from becoming a technique for getting what we want. Believers are to pray with confidence and with submission, as Jesus did in Gethsemane, Matthew 26:39.\n\nVerses 16 and 17 contain a command in the form of a permission: 'he should ask'. The command to pray for an erring brother can be applied directly. What is described, rather than commanded, is the existence of a sin leading to death, and the passage stops short of telling us exactly what it is. The more important application is that we should pray readily and hopefully for others who stumble, and should not conclude too quickly that someone is beyond help. John says nothing to encourage a hunt for the unforgivable.\n\nVerses 18 to 20 are pure description: what the believer knows to be true. They are not demands. They are the facts on which a reader may rest, and they ought to be received as gift before they are turned into obligation. The command in verse 21 is the only plain imperative of the passage, and it is one the reader can obey in the knowledge that all that precedes is true. It is a command to guard, and applies to every era. What counts as an idol will differ from one culture to another, but the structure of the temptation, putting something else where God belongs, is the same, as Colossians 3:5 suggests when it says greed is idolatry.",
       "debates": [
         {
-          "question": "What is the sin that leads to death (verses 16 and 17)?",
+          "question": "What is the 'sin that leads to death'?",
           "views": [
-            { "label": "The settled, unrepentant rejection of Christ", "case": "The strongest reading, in light of the whole letter, is that the sin leading to death is not a single act but a hardened, final turning from Christ, like the antichrists who left the fellowship, 1 John 2:19. Such apostasy, persisted in, ends in death because it refuses the only source of life. John does not forbid praying for such a person, but he does not command it, since the sin is defined by rejecting the Son in whom life is found." },
-            { "label": "A specific grievous act of sin", "case": "Some identify it with a particular sin, such as murder or blasphemy; but John does not name an act, and the letter frames life and death around having or not having the Son." },
-            { "label": "Physical death as divine discipline", "case": "Others link it to bodily death under God's discipline, as in 1 Corinthians 11:30; possible, but the letter's contrast is between spiritual life in the Son and death apart from Him." }
+            {
+              "label": "Final rejection of Christ, apostasy",
+              "case": "The letter has already described those who left the fellowship and denied the Son, 2:19 and 2:22-23, and Hebrews warns of those who fall away after receiving the knowledge of the truth, Hebrews 6:4-6 and 10:26-27. On this reading John means a settled refusal of the one source of life, which is why he does not tell the reader to pray about it. It fits the contrast between life in the Son and death apart from him in verses 11 and 12."
+            },
+            {
+              "label": "A specific deliberate sin, mortal as opposed to venial",
+              "case": "Some traditions have taken the passage as the root of a distinction between mortal and lesser sins, treating the former as sins that destroy the life of grace. The verse does admit two kinds of sin, but John gives no list, and elsewhere he writes that if anyone sins we have an advocate, 2:1. A reading that divides sins by a catalogue goes beyond what the text says."
+            },
+            {
+              "label": "Sin that brings physical death under God's discipline",
+              "case": "In the church at Corinth, abuses at the Lord's table led to some being weak and sick and some having died, 1 Corinthians 11:30, and Ananias and Sapphira died after lying to the Holy Spirit, Acts 5:1-5. On this view John refers to a member whose sin brings God's judgment in this life. The difficulty is that in the verse 16 the result of prayer is life, which fits the spiritual meaning John gives to life throughout the letter."
+            }
           ],
-          "bearing": "The strongest reading is that the sin that leads to death is the settled rejection of Christ, the only source of life, rather than a particular deed. This keeps assurance intact for the struggling believer, whose ongoing repentance shows life, while taking seriously the deadly end of turning finally from the Son."
+          "bearing": "Whichever reading is chosen, the passage does not threaten the struggling believer. John has just said that everyone who has been born of God is kept. A person troubled by sin who still turns to Christ for forgiveness is showing the opposite of final rejection, and John's whole letter assures such a person that confession is met by God's faithfulness and justice, 1:9."
         },
         {
-          "question": "Can a believer truly know they have eternal life?",
+          "question": "Who is the 'One who was born of God' in verse 18?",
           "views": [
-            { "label": "Yes, assurance is possible and intended", "case": "The strongest reading is that God means His children to be sure. John says outright that he wrote so that you may know that you have eternal life. That assurance rests on God's objective testimony about His Son and the gift of life in Him, confirmed inwardly by the Spirit and outwardly by the fruit of faith, obedience, and love that the letter has described. It is confidence in God's work, not in our own." },
-            { "label": "Assurance is presumption; no one can be sure", "case": "Some hold that claiming to know is arrogant and that believers should remain uncertain; but this contradicts John's stated purpose, that you may know, and treats God's clear testimony as insufficient." },
-            { "label": "Assurance rests on inner feelings", "case": "Others ground assurance in emotional experience; but feelings rise and fall, while John grounds knowing in God's testimony about His Son and the evidences of a changed life." }
+            {
+              "label": "Jesus Christ, the Son, guards the believer",
+              "case": "The verse uses two forms of the verb: the believer 'is born' of God and 'the One who was born of God' protects him. The second is a different grammatical form and most naturally describes Christ, so that the one who is born again is guarded by the unique Son. This matches Jesus' prayer to keep the disciples from the evil one, John 17:15, and the BSB text and footnote support it."
+            },
+            {
+              "label": "The believer keeps himself",
+              "case": "A reading found in some manuscripts, mentioned in the footnote as 'protects himself', takes the second phrase as the believer, who guards himself. This would make the verse about the believer's own watchfulness, though it would use the same expression for two different persons in a single sentence."
+            },
+            {
+              "label": "God protects the one born of him",
+              "case": "The footnote also offers 'God protects the one born of Him', treating both phrases as God's work. The result is the same comfort, that God is the one who keeps."
+            }
           ],
-          "bearing": "The strongest orthodox reading is that believers may and should know they have eternal life, resting on God's testimony about His Son and confirmed by the Spirit and the fruit of faith and love. Assurance is neither presumption nor mere feeling but confidence in what God has done in Christ."
+          "bearing": "The first reading gives the best sense of the grammar and fits Jesus' prayer. On every reading the believer is not left to hold on alone. Responsibility and security stand together, as in Jude 24, where the one who is able to keep us from stumbling is praised."
+        },
+        {
+          "question": "To whom does 'This is the true God and eternal life' refer?",
+          "views": [
+            {
+              "label": "Jesus Christ, the nearest antecedent",
+              "case": "The closest person named just before is 'His Son Jesus Christ', so that the sentence says of him that he is the true God and eternal life. The identification fits John 1:1, John 20:28, and the words of Paul that Christ 'is God over all', Romans 9:5, and 'our great God and Savior Jesus Christ', Titus 2:13. The phrase 'eternal life' has already been used of the Son in 1:2 and 5:11-12."
+            },
+            {
+              "label": "The Father, 'Him who is true'",
+              "case": "Others refer 'this' back to 'Him who is true', the Father, observing that the phrase 'the true God' is used of the Father in John 17:3. They say that John would hardly have called Jesus the true God without qualification. The difficulty is that the very last phrase, 'eternal life', has been predicated of the Son, not the Father."
+            },
+            {
+              "label": "Both together, as one fellowship",
+              "case": "Some argue that John's thought is so tightly bound that the distinction does not matter: the Father is known only in the Son, and the Son is the life that comes from the Father. To be in the True One is to be in his Son."
+            }
+          ],
+          "bearing": "The grammar and the flow of the letter favour the first view, and the result is one of the most direct affirmations of Christ's deity in the New Testament. Even those who prefer the second view must agree that the letter makes the Son inseparable from the true God."
         }
       ]
     },
-    "originalLanguages": "The closing verses ring with certainty. John writes so that we may oida, know beyond doubt, that we have zoe, eternal life, and that knowledge yields parresia, confident, free access to God in prayer. He weighs hamartia, sin, distinguishing the sin that leads to death, best read as the settled rejection of Christ, from the sin that does not. Three times he says 'we know', and the last of these lands on the alethinos, the true God, whom the Son has come to make known. So the letter ends where knowledge of the true God demands: keep yourselves from every eidolon, every idol that would take His place.",
+    "originalLanguages": "Verse 13 states the purpose with the verb oida, 'to know', in the perfect subjunctive (eidete). It is one of the two main verbs for knowing in the New Testament. The other, ginosko, tends to stress knowing by experience or by coming to know, and John uses both, often interchangeably. Oida, however, describes settled and secure knowledge, which is why it suits a verse about certainty. The verb for 'have' in the same verse is present (echete), so the believer 'has' eternal life now. It is not only a prospect. The BSB footnote notes that a longer reading in the Byzantine and received text adds an expression about believing in the name of the Son of God.\n\nParresia in verse 14 is the word translated 'confidence'. It comes from the Greek words for 'all' and 'speech', so that it first means freedom to say everything, the outspokenness of a citizen in the assembly. John uses it four times in the letter, 2:28, 3:21, 4:17 and here, and in each case it describes our standing before God, once at his coming, once in prayer, once at the judgment, and once with a clear conscience. Hebrews 10:19 uses the same word for the believer's boldness to enter the Most Holy Place by the blood of Jesus.\n\nThe phrase 'according to His will' (kata to thelema autou) is the limit within which asking operates. In verse 15, the Greek says we know that we 'have the requests' (echomen ta aitemata) which we have asked from him. The noun aitema is a thing asked for. The present tense 'have' states a settled position. The prayer is already heard and its answer, in whatever form God gives it, is already secured in his will.\n\nIn verse 16, the phrase 'sin not leading to death' translates the preposition pros, 'toward'. The sin that is 'toward death' is one whose direction and end is death, and the word hamartia is used in both clauses, so John is speaking about one thing, sin, with two destinations. The verse also uses a change in verbs for asking in the Greek, but we should not push that detail beyond what the text says. In verse 17 'unrighteousness' (adikia) is said to be all sin, which keeps John from minimising any sin.\n\nVerse 18 opens with 'we know' (oidamen), and the same verb opens verses 19 and 20, so the three statements form a threefold chant. The verb for 'does not keep on sinning' is a present tense (ouch hamartanei), the same present tense that John uses in 3:6 and 3:9. The present of continuing action is the key to reconciling this verse with 1:8 to 2:1, where believers who do sin have an advocate. The believer does not make sin a way of life. The verb for 'touch' (haptetai) means to lay hold of or grasp. The evil one may prowl but cannot seize.\n\nIn verse 19, the Greek says the whole world 'lies in the evil one' (en to poneroi keitai). The verb keimai means to lie, to be laid out, and the picture is of the world resting in the evil one's grasp, almost like a child in the lap of a master. The word ponēros, 'evil one', is used of Satan elsewhere in the letter, 2:13 and 3:12.\n\nIn verse 20, the noun dianoia, 'understanding', is the mind that grasps. John does not use it anywhere else in his letters. The word 'true' is alethinos, meaning genuine or real as opposed to counterfeit, and it differs from alethes, which means true as opposed to false. The same word is in John 17:3, 'the only true God', and the chain 'true God' and 'eternal life' recalls that verse. The Greek says 'we may know the True One' with a masculine article, so John means a person.\n\nIn verse 21, 'keep yourselves' is an aorist imperative (phylaxate), a command to guard decisively, using the military and prison-guard vocabulary of watching. 'Idols' is eidola, from the word for an image or form. The word covers physical images, as in 1 Corinthians 8:4, and anything that takes the place of God in the heart, as in Ezekiel 14:3.",
     "typology": [
-      { "type": "Confident access to God in prayer", "fulfillment": "The old covenant distance, when only the priest drew near on set terms, opened so that every child of God comes with boldness through the Son." },
-      { "type": "The charge to keep from idols", "fulfillment": "The first commandment and the prophets' long war on idolatry, brought to rest in holding to the true God revealed in Jesus Christ." }
+      {
+        "type": "The high priest alone in the Most Holy Place",
+        "fulfillment": "Under the law only one man entered God's presence, once a year, with blood, Leviticus 16:2 and 16:15. The people stood outside and could draw near only through him. John's statement that we have 'confidence before Him' belongs to the great reversal. Hebrews says that we now have confidence to enter the Most Holy Place by the blood of Jesus, by the new and living way through the curtain of his body, Hebrews 10:19-22, and that we have a great priest over the house of God, who always lives to intercede for us, Hebrews 7:25. The type falls short because the old priest's access was brief and partial, while believers come freely and continually."
+      },
+      {
+        "type": "The golden calf and Israel's idolatry",
+        "fulfillment": "While Moses was on the mountain receiving the law, the people made a calf of gold and said it had brought them out of Egypt, Exodus 32:1-6. They kept the language of the true God but gave it to an image. John's warning against idols echoes that failure, and the prophets repeat it, Jeremiah 2:13, where God's people forsook the fountain of living water for broken cisterns. The escalation in Christ is that the true image of God has now been shown, since he is 'the image of God', 2 Corinthians 4:4, and the believer needs no substitute. The type falls short because Israel's idolatry was largely a matter of physical images, while John's warning reaches into the heart."
+      },
+      {
+        "type": "The sin with a high hand and the unintentional sin",
+        "fulfillment": "The law gave a sin offering for sin done unintentionally, with atonement and forgiveness, but the person who sinned defiantly was cut off, because he had despised the word of the LORD, Numbers 15:27-31. This division stands in the background of John's distinction between sin that does not lead to death and sin that does. The escalation is that in Christ the sacrifice that deals with sin is complete, and he is the advocate for those who sin, 2:1-2. What is left outside is only the final refusal of him, which Hebrews describes as trampling the Son of God underfoot, Hebrews 10:26-29. The type falls short because the law could only name the line, while Christ meets the sinner who comes to him."
+      },
+      {
+        "type": "The Lord who guards his people, Israel in the wilderness",
+        "fulfillment": "The LORD kept Israel through the wilderness, with a cloud by day and fire by night, and kept them from destruction by their enemies, Exodus 13:21-22. His keeping was the ground of their journey. John's statement that the One born of God protects the believer and that the evil one cannot touch him carries the thought further. Jesus prayed that the Father would keep his disciples from the evil one, John 17:15, and Jude praises the one who is able to keep us from stumbling and present us blameless, Jude 24. The type falls short because Israel did not reach the land through that generation's faithlessness, while the believer's keeping reaches to the end."
+      }
     ],
-    "christ": "Christ is the ground and object of every certainty here. Believers know they have eternal life because they believe in the name of the Son of God. The Son has come and given understanding to know the true God, and John says of Him plainly, He is the true God and eternal life, a direct affirmation of Christ's deity. To be in the Son is to be in the true One and to have life; to turn from Him to an idol is to lose both.",
-    "god": "God is the faithful Father who hears His children when they ask according to His will, and who keeps those born of Him so the evil one cannot touch them. He is the true God, real and living, over against the idols that clutter the world. Made known in His Son, He gives eternal life and invites His people into confident, unafraid fellowship with Himself.",
+    "christ": "The central claim of the passage is that Christ is the ground and the object of assurance. John writes to those who 'believe in the name of the Son of God', and the name stands for the whole person and what he has done. A person who rests on that name is resting on something that has already happened, and not on the changing state of their own heart. Assurance is not first looking inward at our progress but looking outward to the one who has given himself.\n\nThe passage shows Christ as the one who gives us understanding. 'The Son of God has come and has given us understanding, so that we may know Him who is true.' The Son's coming is not only an act of rescue but an act of revelation. We do not reason our way to the true God. He gives us the mind to know him, and so Jesus can say, in John 17:3, that this is eternal life, that they may know the only true God and Jesus Christ whom he has sent. The Father and the Son are known together.\n\nVerse 20 ends with the statement that the Son 'is the true God and eternal life'. On the most natural reading, John applies to Jesus the language he has used of God from the first page of the letter. Elsewhere Thomas says to him, 'My Lord and my God', John 20:28, and the Gospel opens by saying the Word was God, John 1:1. This is not a stray phrase but the settled conviction of the whole apostolic witness, and John means us to take it in. The one to whom believers cling is no creature.\n\nHe is also the believer's protector. The 'One who was born of God' guards the believer in the reading that most suits the grammar. This is the same Jesus who prayed that the Father would keep his own from the evil one, John 17:15, and who says of his sheep that no one can snatch them from his hand, John 10:28. Assurance rests on his grip and not ours.\n\nHe is the one in whom we stand. 'We are in Him who is true, in His Son Jesus Christ.' That preposition is the language of union, and Paul uses it constantly, 'in Christ Jesus there is now no condemnation', Romans 8:1. We pray in his name, John 14:13-14, we come to God by him, Hebrews 7:25, and our confidence at his coming is the confidence of those who remain in him, 2:28.\n\nFinally, he is the answer to idolatry. The charge in verse 21 follows directly because every idol offers a substitute for what is found in him. The Son who is eternal life leaves no room for a rival source of life. A careful reader will not read each sentence as a hidden picture of Jesus, but here John's own words place Christ at every point of the passage: the name we believe in, the understanding we receive, the true God we know, and the life in which we live.",
+    "god": "The God of this passage is a God who hears. In verse 14 John states it without qualification, 'He hears us', and in verse 15 he adds that the hearing is as good as the having. That is a remarkable thing to say about the Lord of heaven. He is neither remote nor distracted, and prayer is not an attempt to catch the attention of someone who may not be listening. He is a Father who listens to children.\n\nHe is a God of will. The phrase 'according to His will' says that his purposes are good and wise, and the believer's prayer is shaped by them. This stands against both a view of prayer as a means of getting our wishes and a view that prayer is pointless because God has already decided. God invites us into his purposes by asking. Paul says the Spirit helps us pray, since we do not know how we ought to pray, and he intercedes according to the will of God, Romans 8:26-27. So the one to whom we pray also helps us pray.\n\nHe is a God who gives life. In verse 16, it is God who will give life to the sinning brother in answer to prayer. This keeps us from thinking that our prayers rescue anyone by their own force. It is he who gives, and he chooses to give through the prayers of his people. The same God shields his children from the adversary. His faithfulness is the ground of Paul's promise to the Thessalonians, that the Lord is faithful and will strengthen and guard them from the evil one, 2 Thessalonians 3:3.\n\nHe is a God who is true. The word means the real as against the counterfeit. A world full of gods and powers, in John's day and in ours, offers many objects of devotion, and the believer is told that only one is real. This reaches back to Jeremiah, who asked whether a nation has ever changed its gods, though they are no gods at all, Jeremiah 2:11. God is jealous for his people, Exodus 20:5, not because he is needy but because they are made for him and ruined by anything else.\n\nHe is a God who is known. Notice that knowledge is the keynote, but it is knowledge given: he has given understanding. The God of the Bible takes the initiative to be known. John does not describe a God who must be guessed at, but one who has come in his Son.\n\nFor worship, this means we pray with confidence and we praise with exclusivity. Our worship has no place for hedging. We approach with boldness, since the one before whom we stand has opened the way, and with a single heart, since there is no other God. The close of the letter is, in effect, a call to hold on to him and to let nothing sit where he belongs.",
     "crossReferences": [
-      { "ref": "John 20:31", "note": "Written that you may believe and have life in His name, the same purpose as 5:13." },
-      { "ref": "1 John 2:19", "note": "Those who left us were never truly of us, the background to the sin that leads to death." },
-      { "ref": "Hebrews 4:16", "note": "Approach the throne of grace with confidence, matching the boldness John describes in prayer." },
-      { "ref": "Exodus 20:3", "note": "You shall have no other gods before Me, the commandment behind the closing charge to keep from idols." }
+      {
+        "ref": "John 20:31",
+        "note": "The Gospel closes with its own statement of purpose, that readers may believe and have life in Jesus' name. John's letter closes in the same way, so that the two books share one aim: that those who believe may know they have life."
+      },
+      {
+        "ref": "1 John 3:21-22",
+        "note": "If our hearts do not condemn us we have confidence before God and receive whatever we ask, because we keep his commandments. This earlier statement supplies the context for 5:14: confident prayer belongs to a life lived in obedient fellowship."
+      },
+      {
+        "ref": "John 15:7",
+        "note": "Jesus promises that if his disciples remain in him and his words remain in them they may ask whatever they wish. This is the same condition John means by asking 'according to His will': a heart shaped by Christ's own words."
+      },
+      {
+        "ref": "Romans 8:26-27",
+        "note": "The Spirit helps us in our weakness and intercedes for the saints according to the will of God. It shows how we can ask according to his will even when we do not know what to pray, since the Spirit prays within us."
+      },
+      {
+        "ref": "Numbers 15:27-31",
+        "note": "The law distinguishes sin done unintentionally, for which atonement was available, from sin done defiantly, for which the offender was cut off. It supplies the likeliest background for John's two kinds of sin, one that can be forgiven and one that despises the word of the LORD."
+      },
+      {
+        "ref": "Hebrews 10:26-27",
+        "note": "If we deliberately go on sinning after receiving the knowledge of the truth, no sacrifice remains, only a fearful expectation of judgment. This is a close parallel to the sin that leads to death: not an ordinary lapse but a deliberate turning from the one sacrifice."
+      },
+      {
+        "ref": "1 John 1:8-10",
+        "note": "John says that to claim no sin is to deceive ourselves, while confession brings forgiveness. It guards the reading of 5:18: 'does not keep on sinning' cannot mean that believers never sin, for the same letter says we must confess when we do."
+      },
+      {
+        "ref": "John 17:15",
+        "note": "Jesus asks the Father not to take his disciples out of the world but to keep them from the evil one. It is the prayer behind John's statement that the evil one cannot touch the one born of God, and it shows that the guarding is Christ's own work."
+      },
+      {
+        "ref": "John 17:3",
+        "note": "Eternal life is knowing the only true God and Jesus Christ whom he sent. The language of 5:20, the true God, knowing him and eternal life, draws directly from this verse, and the two together show that life consists in a relationship, not in a possession."
+      },
+      {
+        "ref": "Hebrews 4:16",
+        "note": "We approach the throne of grace with confidence to receive mercy and grace in our time of need. It is the same boldness John calls parresia, grounded in the great high priest, and it explains why prayer can be made without fear."
+      },
+      {
+        "ref": "1 Thessalonians 1:9",
+        "note": "Paul praises those who turned to God from idols to serve the living and true God. The conversion pattern, from idols to the true God, is the pattern John closes with, and it shows the command in 5:21 belongs to every believer's story."
+      },
+      {
+        "ref": "Exodus 20:3-5",
+        "note": "The first commandments forbid other gods before the LORD and the making of idols, and the LORD declares himself a jealous God. John's final charge returns to this foundation of the law and shows that the gospel does not relax the first commandment but fulfils it."
+      }
     ],
-    "oneStory": "Scripture moves toward a people who know the true God, belong to Him, and worship Him alone through His Son. John's letter closes on exactly this: you may know you have eternal life, God hears you, He keeps you, and He is the true God made known in Jesus Christ. The ancient summons out of idolatry into fellowship with the living God finds its rest in the Son, in whom the whole story arrives at assurance and home.",
-    "sermon": { "status": "verified", "preacher": "Alistair Begg", "title": "Christian Certainties", "url": "https://www.truthforlife.org/resources/sermon/christian-certainties/", "why": "Begg preaches this closing section, 1 John 5:13-21, on the certainty that believers have eternal life, confidence in prayer, God's keeping of His own, and the final charge to keep from idols. A clear, orthodox handling of the letter's conclusion." }
+    "oneStory": "The first great question in Scripture is whether human beings will trust the true God or follow a substitute. In the garden the serpent offered a better deal, and the first couple took it. The story from then on is a long record of idols, from the golden calf to the high places of the kings, and a long record of God's patience. The prophets mocked the makers of idols and said that the gods of the nations were nothing, and God promised a day when his people would be given a new heart to know him, Jeremiah 31:33-34. John's closing verses declare that the promise has come true.\n\n'We know' is the language of that new covenant. In Jeremiah, God promised that all would know him, from the least to the greatest. John tells his readers that the Son has come and has given them understanding to know the True One. Knowing God is not a privilege for the learned but a gift for every child of God. What the prophets looked ahead to, the church can say it has.\n\nThe text also touches the long story of prayer. Adam walked and talked with God, and in exile that closeness was lost. The tabernacle and temple allowed a sort of approach through priests and sacrifices. The psalms are the prayers of people who cried out and were heard. John says that now, through the Son, we have confidence before him, and that he hears. The boldness of the believer in the new covenant is the fulfilment of the privilege the old worship pointed to but could not give.\n\nThe world 'under the evil one' is the stage on which the conflict of Genesis 3 is still played out. The Son of God was revealed to destroy the devil's works, 3:8, and believers live in the interval between the victory won and the victory completed. They are kept, and the enemy cannot finally hold them. The last book of the Bible shows him bound and thrown down, and shows the nations free from his deceit, Revelation 20:1-3 and 20:10.\n\nFinally, the letter looks toward the new creation in its last words about life and idols. In the holy city nothing impure will enter, and outside are 'those who practice idolatry', Revelation 22:15. Inside is the tree of life, the throne of God and the Lamb, and his servants will see his face, Revelation 22:1-4. The charge 'keep yourselves from idols' is a charge to remain in the true God until the day when idols will no longer exist and every longing is met in the One who is true and who is eternal life.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "Alistair Begg",
+      "title": "Christian Certainties",
+      "url": "https://www.truthforlife.org/resources/sermon/christian-certainties/",
+      "why": "Begg preaches this closing section, 1 John 5:13-21, on the certainty that believers have eternal life, confidence in prayer, God's keeping of His own, and the final charge to keep from idols. A clear, orthodox handling of the letter's conclusion."
+    }
   },
   "quiz": [
     {
       "q": "Why did John write this letter, according to verse 13?",
       "options": [
-        { "text": "So that those who believe in the name of the Son of God may know that they have eternal life.", "weight": 100, "note": "Assurance is the stated goal of the letter." },
-        { "text": "So that believers would grow in knowledge and love over time.", "weight": 75, "note": "Growth is a fruit, but John's stated aim here is assured knowledge of eternal life." },
-        { "text": "So that believers might hope they are saved without ever being sure.", "weight": 25, "note": "John wrote so that you may know, not merely hope." },
-        { "text": "So that readers would earn eternal life by obeying his instructions.", "weight": 0, "note": "Eternal life is God's gift in the Son, not a wage earned by obedience." }
+        {
+          "text": "So that those who believe in the name of the Son of God may know that they have eternal life.",
+          "weight": 100,
+          "note": "Assurance is the stated goal of the letter."
+        },
+        {
+          "text": "So that believers would grow in knowledge and love over time.",
+          "weight": 75,
+          "note": "Growth is a fruit, but John's stated aim here is assured knowledge of eternal life."
+        },
+        {
+          "text": "So that believers might hope they are saved without ever being sure.",
+          "weight": 25,
+          "note": "John wrote so that you may know, not merely hope."
+        },
+        {
+          "text": "So that readers would earn eternal life by obeying his instructions.",
+          "weight": 0,
+          "note": "Eternal life is God's gift in the Son, not a wage earned by obedience."
+        }
       ]
     },
     {
       "q": "What is the confidence believers have in prayer (verses 14 and 15)?",
       "options": [
-        { "text": "That when we ask anything according to God's will, He hears us.", "weight": 100, "note": "Confidence is anchored to asking according to His will." },
-        { "text": "That God hears our prayers and works out what is good, in His way and time.", "weight": 75, "note": "True and pastoral, but John's specific point is asking according to His will." },
-        { "text": "That God grants whatever we ask if we believe hard enough.", "weight": 25, "note": "The measure is God's will, not the intensity of our belief." },
-        { "text": "That God gives us whatever we want with no regard to His will.", "weight": 0, "note": "John ties the promise directly to praying according to His will." }
+        {
+          "text": "That when we ask anything according to God's will, He hears us.",
+          "weight": 100,
+          "note": "Confidence is anchored to asking according to His will."
+        },
+        {
+          "text": "That God hears our prayers and works out what is good, in His way and time.",
+          "weight": 75,
+          "note": "True and pastoral, but John's specific point is asking according to His will."
+        },
+        {
+          "text": "That God grants whatever we ask if we believe hard enough.",
+          "weight": 25,
+          "note": "The measure is God's will, not the intensity of our belief."
+        },
+        {
+          "text": "That God gives us whatever we want with no regard to His will.",
+          "weight": 0,
+          "note": "John ties the promise directly to praying according to His will."
+        }
       ]
     },
     {
       "q": "How is the sin that leads to death best understood (verses 16 and 17)?",
       "options": [
-        { "text": "As the settled, unrepentant rejection of Christ, the only source of life.", "weight": 100, "note": "Read with the whole letter, it is a hardened turning from the Son, not one act." },
-        { "text": "As bodily death brought about by God's discipline.", "weight": 75, "note": "Some read it this way, but the letter frames life and death around having the Son." },
-        { "text": "As one particular act, such as murder or blasphemy.", "weight": 25, "note": "John names no specific act; the issue is rejecting the Son in whom life is found." },
-        { "text": "As any sin at all, so that a single sin cuts a believer off from life.", "weight": 0, "note": "John says all unrighteousness is sin, yet distinguishes sin that does not lead to death." }
+        {
+          "text": "As the settled, unrepentant rejection of Christ, the only source of life.",
+          "weight": 100,
+          "note": "Read with the whole letter, it is a hardened turning from the Son, not one act."
+        },
+        {
+          "text": "As bodily death brought about by God's discipline.",
+          "weight": 75,
+          "note": "Some read it this way, but the letter frames life and death around having the Son."
+        },
+        {
+          "text": "As one particular act, such as murder or blasphemy.",
+          "weight": 25,
+          "note": "John names no specific act; the issue is rejecting the Son in whom life is found."
+        },
+        {
+          "text": "As any sin at all, so that a single sin cuts a believer off from life.",
+          "weight": 0,
+          "note": "John says all unrighteousness is sin, yet distinguishes sin that does not lead to death."
+        }
       ]
     },
     {
       "q": "What does John affirm about Jesus Christ in verse 20?",
       "options": [
-        { "text": "He is the true God and eternal life, in whom believers know the One who is true.", "weight": 100, "note": "A direct affirmation of the Son's deity." },
-        { "text": "He is the Son through whom God gives understanding of Himself.", "weight": 75, "note": "True as far as it goes, but John goes further and calls the Son the true God and eternal life." },
-        { "text": "He is a true teacher who points us to God but is not Himself God.", "weight": 25, "note": "John says more than this; He is the true God." },
-        { "text": "He is one true way to God among several.", "weight": 0, "note": "John locates life in the Son alone, who is the true God." }
+        {
+          "text": "He is the true God and eternal life, in whom believers know the One who is true.",
+          "weight": 100,
+          "note": "A direct affirmation of the Son's deity."
+        },
+        {
+          "text": "He is the Son through whom God gives understanding of Himself.",
+          "weight": 75,
+          "note": "True as far as it goes, but John goes further and calls the Son the true God and eternal life."
+        },
+        {
+          "text": "He is a true teacher who points us to God but is not Himself God.",
+          "weight": 25,
+          "note": "John says more than this; He is the true God."
+        },
+        {
+          "text": "He is one true way to God among several.",
+          "weight": 0,
+          "note": "John locates life in the Son alone, who is the true God."
+        }
       ]
     },
     {
       "q": "What is the closing charge of the letter (verse 21)?",
       "options": [
-        { "text": "Little children, keep yourselves from idols.", "weight": 100, "note": "The letter ends by guarding the true knowledge of the true God against every rival." },
-        { "text": "Love one another, for that sums up the whole letter.", "weight": 75, "note": "A true and central command of the letter, but the actual closing charge is to keep from idols." },
-        { "text": "Return to keeping the ceremonial law.", "weight": 25, "note": "John's concern is undivided worship of the true God, not a return to ceremonial law." },
-        { "text": "Feel free to add other loyalties alongside God.", "weight": 0, "note": "This is the opposite of the charge to keep from idols." }
+        {
+          "text": "Little children, keep yourselves from idols.",
+          "weight": 100,
+          "note": "The letter ends by guarding the true knowledge of the true God against every rival."
+        },
+        {
+          "text": "Love one another, for that sums up the whole letter.",
+          "weight": 75,
+          "note": "A true and central command of the letter, but the actual closing charge is to keep from idols."
+        },
+        {
+          "text": "Return to keeping the ceremonial law.",
+          "weight": 25,
+          "note": "John's concern is undivided worship of the true God, not a return to ceremonial law."
+        },
+        {
+          "text": "Feel free to add other loyalties alongside God.",
+          "weight": 0,
+          "note": "This is the opposite of the charge to keep from idols."
+        }
       ]
     }
   ],
@@ -171,10 +417,25 @@
     "The letter ends, keep yourselves from idols. What rivals to God, subtle or obvious, most tempt to take His place in your heart right now?"
   ],
   "translationNotes": [
-    { "ref": "1 John 5:13", "note": "Some manuscripts add 'and that you may believe in the name of the Son of God', as the BSB footnote notes; either way the verse states John's purpose that believers may know they have eternal life." },
-    { "ref": "1 John 5:16", "note": "'The sin that leads to death' is much debated; in light of the whole letter it most likely refers to the settled, unrepentant rejection of Christ rather than a particular act. John does not forbid praying for such a person but does not command it." },
-    { "ref": "1 John 5:18", "note": "The clause 'the One who was born of God protects him' can also be rendered 'he who was born of God keeps himself', as the BSB footnote notes; the sense is that the believer is kept safe so the evil one cannot hold him." },
-    { "ref": "1 John 5:20", "note": "'He is the true God and eternal life' most naturally refers to Jesus Christ, the nearest antecedent, making this one of the New Testament's clear affirmations of the deity of the Son." }
+    {
+      "ref": "1 John 5:13",
+      "note": "Some manuscripts add 'and that you may believe in the name of the Son of God', as the BSB footnote notes; either way the verse states John's purpose that believers may know they have eternal life."
+    },
+    {
+      "ref": "1 John 5:16",
+      "note": "'The sin that leads to death' is much debated; in light of the whole letter it most likely refers to the settled, unrepentant rejection of Christ rather than a particular act. John does not forbid praying for such a person but does not command it."
+    },
+    {
+      "ref": "1 John 5:18",
+      "note": "The clause 'the One who was born of God protects him' can also be rendered 'he who was born of God keeps himself', as the BSB footnote notes; the sense is that the believer is kept safe so the evil one cannot hold him."
+    },
+    {
+      "ref": "1 John 5:20",
+      "note": "'He is the true God and eternal life' most naturally refers to Jesus Christ, the nearest antecedent, making this one of the New Testament's clear affirmations of the deity of the Son."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for 1 John 5:13-21, reaching the end of the letter at 5:21. the wording is otherwise unchanged. Textual and interpretive notes at 5:13, 5:16, 5:18, and 5:20 follow the BSB footnotes and the letter's own framing." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for 1 John 5:13-21, reaching the end of the letter at 5:21. the wording is otherwise unchanged. Textual and interpretive notes at 5:13, 5:16, 5:18, and 5:20 follow the BSB footnotes and the letter's own framing."
+  }
 }

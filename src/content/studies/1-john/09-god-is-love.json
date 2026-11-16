@@ -18,10 +18,26 @@
         "note": "the atoning sacrifice for our sins",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 4, "n": 7, "text": "Beloved, let us {{agape|love}} one another, because love comes from God. Everyone who loves has been born of God and knows God." },
-          { "chapter": 4, "n": 8, "text": "Whoever does not love does not know God, because God is love." },
-          { "chapter": 4, "n": 9, "text": "This is how God's love was revealed among us: God sent His {{monogenes|one and only}} Son into the world, so that we might live through Him." },
-          { "chapter": 4, "n": 10, "text": "And love consists in this: not that we loved God, but that He loved us and sent His Son as the {{hilasmos|atoning sacrifice}} for our sins." }
+          {
+            "chapter": 4,
+            "n": 7,
+            "text": "Beloved, let us {{agape|love}} one another, because love comes from God. Everyone who loves has been born of God and knows God."
+          },
+          {
+            "chapter": 4,
+            "n": 8,
+            "text": "Whoever does not love does not know God, because God is love."
+          },
+          {
+            "chapter": 4,
+            "n": 9,
+            "text": "This is how God's love was revealed among us: God sent His {{monogenes|one and only}} Son into the world, so that we might live through Him."
+          },
+          {
+            "chapter": 4,
+            "n": 10,
+            "text": "And love consists in this: not that we loved God, but that He loved us and sent His Son as the {{hilasmos|atoning sacrifice}} for our sins."
+          }
         ]
       },
       {
@@ -29,11 +45,31 @@
         "note": "His love perfected in us",
         "emphasis": "",
         "verses": [
-          { "chapter": 4, "n": 11, "text": "Beloved, if God so loved us, we also ought to love one another." },
-          { "chapter": 4, "n": 12, "text": "No one has ever seen God; but if we love one another, God remains in us, and His love is {{teleioo|perfected}} in us." },
-          { "chapter": 4, "n": 13, "text": "By this we know that we remain in Him, and He in us: He has given us of His Spirit." },
-          { "chapter": 4, "n": 14, "text": "And we have seen and testify that the Father has sent His Son to be the Savior of the world." },
-          { "chapter": 4, "n": 15, "text": "If anyone confesses that Jesus is the Son of God, God abides in him, and he in God." }
+          {
+            "chapter": 4,
+            "n": 11,
+            "text": "Beloved, if God so loved us, we also ought to love one another."
+          },
+          {
+            "chapter": 4,
+            "n": 12,
+            "text": "No one has ever seen God; but if we love one another, God remains in us, and His love is {{teleioo|perfected}} in us."
+          },
+          {
+            "chapter": 4,
+            "n": 13,
+            "text": "By this we know that we remain in Him, and He in us: He has given us of His Spirit."
+          },
+          {
+            "chapter": 4,
+            "n": 14,
+            "text": "And we have seen and testify that the Father has sent His Son to be the Savior of the world."
+          },
+          {
+            "chapter": 4,
+            "n": 15,
+            "text": "If anyone confesses that Jesus is the Son of God, God abides in him, and he in God."
+          }
         ]
       },
       {
@@ -41,9 +77,21 @@
         "note": "confidence on the day of judgment",
         "emphasis": "",
         "verses": [
-          { "chapter": 4, "n": 16, "text": "And we have come to know and believe the love that God has for us. God is love; whoever {{meno|abides}} in love abides in God, and God in him." },
-          { "chapter": 4, "n": 17, "text": "In this way, love has been perfected among us, so that we may have confidence on the day of judgment; for in this world we are just like Him." },
-          { "chapter": 4, "n": 18, "text": "There is no {{phobos|fear}} in love, but perfect love drives out fear, because fear involves punishment. The one who fears has not been perfected in love." }
+          {
+            "chapter": 4,
+            "n": 16,
+            "text": "And we have come to know and believe the love that God has for us. God is love; whoever {{meno|abides}} in love abides in God, and God in him."
+          },
+          {
+            "chapter": 4,
+            "n": 17,
+            "text": "In this way, love has been perfected among us, so that we may have confidence on the day of judgment; for in this world we are just like Him."
+          },
+          {
+            "chapter": 4,
+            "n": 18,
+            "text": "There is no {{phobos|fear}} in love, but perfect love drives out fear, because fear involves punishment. The one who fears has not been perfected in love."
+          }
         ]
       },
       {
@@ -51,20 +99,62 @@
         "note": "loving God and brother as one",
         "emphasis": "",
         "verses": [
-          { "chapter": 4, "n": 19, "text": "We love because He first loved us." },
-          { "chapter": 4, "n": 20, "text": "If anyone says, “I love God,” but hates his brother, he is a liar. For anyone who does not love his brother, whom he has seen, cannot love God, whom he has not seen." },
-          { "chapter": 4, "n": 21, "text": "And we have this commandment from Him: Whoever loves God must love his brother as well." }
+          {
+            "chapter": 4,
+            "n": 19,
+            "text": "We love because He first loved us."
+          },
+          {
+            "chapter": 4,
+            "n": 20,
+            "text": "If anyone says, “I love God,” but hates his brother, he is a liar. For anyone who does not love his brother, whom he has seen, cannot love God, whom he has not seen."
+          },
+          {
+            "chapter": 4,
+            "n": 21,
+            "text": "And we have this commandment from Him: Whoever loves God must love his brother as well."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "agape": { "language": "Greek", "lemma": "agape", "original": "ἀγάπη", "gloss": "Love, self-giving love that seeks another's good at cost to oneself. It comes from God and reflects His very nature, for God is love. This is the love displayed at the cross and poured into believers, who love one another because they have first been loved." },
-    "monogenes": { "language": "Greek", "lemma": "monogenes", "original": "μονογενής", "gloss": "One and only, unique, only-begotten. It marks Jesus as the Father's one and only Son, utterly unique in His relation to the Father. That God sent this Son, and not a lesser gift, into the world shows the immeasurable costliness of His love." },
-    "hilasmos": { "language": "Greek", "lemma": "hilasmos", "original": "ἱλασμός", "gloss": "Atoning sacrifice, propitiation, the offering that both covers sin and turns away wrath. God's love is defined not by sentiment but by sending His Son as the hilasmos for our sins, so that at the cross His justice and His love meet and the way to life is opened." },
-    "teleioo": { "language": "Greek", "lemma": "teleioo", "original": "τελειόω", "gloss": "To complete, bring to its goal, make perfect in the sense of mature and fully realised. God's love reaches its intended end when it is received and then expressed in love for one another, and it gives confidence for the day of judgment. It is love coming to full flower, not sinless flawlessness." },
-    "meno": { "language": "Greek", "lemma": "meno", "original": "μένω", "gloss": "To remain, abide, dwell, continue. John's key word for mutual indwelling: whoever abides in love abides in God, and God in him. To live in love is to live in God, and it is the sphere in which the believer and God share an ongoing, settled communion." },
-    "phobos": { "language": "Greek", "lemma": "phobos", "original": "φόβος", "gloss": "Fear, dread, terror. The fear that has to do with punishment, the cringing dread of judgment, is driven out by perfect love. This is not the reverent awe Scripture commends but the servile terror of condemnation, which cannot coexist with the assurance of being loved by God." }
+    "agape": {
+      "language": "Greek",
+      "lemma": "agape",
+      "original": "ἀγάπη",
+      "gloss": "Love, self-giving love that seeks another's good at cost to oneself. It comes from God and reflects His very nature, for God is love. This is the love displayed at the cross and poured into believers, who love one another because they have first been loved."
+    },
+    "monogenes": {
+      "language": "Greek",
+      "lemma": "monogenes",
+      "original": "μονογενής",
+      "gloss": "One and only, unique, only-begotten. It marks Jesus as the Father's one and only Son, utterly unique in His relation to the Father. That God sent this Son, and not a lesser gift, into the world shows the immeasurable costliness of His love."
+    },
+    "hilasmos": {
+      "language": "Greek",
+      "lemma": "hilasmos",
+      "original": "ἱλασμός",
+      "gloss": "Atoning sacrifice, propitiation, the offering that both covers sin and turns away wrath. God's love is defined not by sentiment but by sending His Son as the hilasmos for our sins, so that at the cross His justice and His love meet and the way to life is opened."
+    },
+    "teleioo": {
+      "language": "Greek",
+      "lemma": "teleioo",
+      "original": "τελειόω",
+      "gloss": "To complete, bring to its goal, make perfect in the sense of mature and fully realised. God's love reaches its intended end when it is received and then expressed in love for one another, and it gives confidence for the day of judgment. It is love coming to full flower, not sinless flawlessness."
+    },
+    "meno": {
+      "language": "Greek",
+      "lemma": "meno",
+      "original": "μένω",
+      "gloss": "To remain, abide, dwell, continue. John's key word for mutual indwelling: whoever abides in love abides in God, and God in him. To live in love is to live in God, and it is the sphere in which the believer and God share an ongoing, settled communion."
+    },
+    "phobos": {
+      "language": "Greek",
+      "lemma": "phobos",
+      "original": "φόβος",
+      "gloss": "Fear, dread, terror. The fear that has to do with punishment, the cringing dread of judgment, is driven out by perfect love. This is not the reverent awe Scripture commends but the servile terror of condemnation, which cannot coexist with the assurance of being loved by God."
+    }
   },
   "study": {
     "basic": {
@@ -78,94 +168,252 @@
       "oneStory": "The whole Bible has been unveiling the love of a holy God for undeserving people. Here it reaches its fullest statement: God is love, and He proved it by giving His only Son as the atoning sacrifice. That love, received and returned in love for one another, casts out fear and forms the family of God, the goal toward which the entire story has moved."
     },
     "context": {
-      "literary": "The theological heart of the letter, weaving together the themes of love, new birth, knowing God, abiding, the sending of the Son, the Spirit, and assurance. It circles repeatedly around 'God is love', deepening each time, and joins doctrine, God's love in the cross, to ethics, our love for one another.",
-      "historical": "Against teachers who prized knowledge of God while failing to love the believers they left, John insists that no one who fails to love truly knows God, for God is love. The costly love of the cross rebukes any spirituality that is high on claims and empty of self-giving.",
-      "canonical": "The passage crowns the biblical revelation of God's love, joining John 3:16 and Romans 5:8, and it grounds Christian ethics in the character and act of God. Its teaching that God is love must be read with the whole canon's witness to God's holiness and justice, held together at the cross."
+      "literary": "This is the second time John works through love in the letter. The first round, 2:7-11 and 3:10-24, leaned on commandment and on the sign of laying down one's life. Chapter 4 returns to it from a deeper side. The passage spirals rather than marches. Love for one another is grounded in God in verses 7 to 12, then confirmed by the Spirit and the testimony in verses 13 to 16, then carried through to the day of judgment in verses 17 to 18, and finally brought back to the ordinary table of verses 19 to 21, where love must be seen in the brother in front of us.\n\nSeveral devices hold the unit together. Verse 7 and verse 21 form a frame: both say that love for God and love for one another cannot be pulled apart, and both are cast as a command. The phrase 'God is love' occurs twice, in verses 8 and 16, and each time it is followed by a consequence about the believer: the one who does not love does not know God, the one who abides in love abides in God. The central claim is therefore set at the two hinges of the passage, not in the middle of one sentence.\n\nVerses 10 and 19 are the mirrored statements of the whole, 'not that we loved God, but that He loved us', and 'We love because He first loved us'. They hold priority in the order of grace. Between them, the language of sending (verses 9, 10 and 14) and of abiding (verses 12, 13, 15 and 16) alternates as the two movements of love, God coming to us and then dwelling in us.\n\nFinally, the passage ends in an abrupt little syllogism. If anyone says 'I love God' and hates his brother, he is a liar. John's argument runs from the unseen to the seen, from what cannot be checked to what can, and it is deliberately blunt after such elevated words.",
+      "historical": "The Greek word agape was not a common word for love in the wider Greek world, where other terms for affection and desire were more usual. Jewish and Christian writers adopted it, and John's letter shows how fully the New Testament fills it with the shape of Christ's self-giving. When a first-century hearer in a cosmopolitan city like Ephesus heard 'God is love', it would have sounded very different from what they knew of temple religion. The gods of the Greek and Roman world were petitioned and appeased with sacrifices, and their favour could not be counted on. John says that God has taken the initiative and provided the sacrifice himself, 4:10.\n\nThe congregation was also wounded. Some had left the fellowship, 2:19, and their departure had left bitterness. In 2:9-11 and 3:14-15 John has already spoken of the hater in darkness, so the closing of this passage is a sharp comment on a live situation: some members claimed deep spirituality yet treated brothers coldly. A house church of a few families, meeting in homes and sharing meals, knew who was and was not loved. Claims to love God could be tested at the table, in the care of the poor, and in the settling of quarrels.\n\nFear of judgment was also part of the world's furniture. Jewish readers lived with the expectation of a day of judgment, and the Greco-Roman world feared the anger of the gods and the shadows of the underworld. John's phrase 'the day of judgment', 4:17, speaks to a real anxiety. Those who had been shaken by false teachers and by the loss of friends needed to hear that confidence before God was possible. The letter is generally dated to the last decades of the first century and traditionally connected with the church at Ephesus.",
+      "canonical": "John's claim that God's love is first, gratuitous and costly rests on the whole story. Moses told Israel that the LORD set his affection on them not because they were many but because he loved them, Deuteronomy 7:7-8. Jeremiah heard God say, 'I have loved you with an everlasting love', Jeremiah 31:3. Hosea acted that love out, buying back a faithless wife. The old covenant name of God in Exodus 34:6 speaks of compassion, grace and abounding loving devotion, but nowhere does the Old Testament say in so many words 'God is love'. John says it because he has seen what the old texts promised.\n\nThe New Testament elsewhere explains how that love is shown. John 3:16 and 3:17 say God gave his only Son so that the world might be saved, not condemned. Paul writes that God proves his love in that Christ died for us while we were still sinners, Romans 5:8, and that God did not spare his own Son but gave him up for us all, Romans 8:32. Ephesians 2:4-5 speaks of God's great love for us even when we were dead in transgressions. All of these anchor love in an act, not a feeling.\n\nThe call to love one another echoes the new commandment of Jesus, John 13:34-35, which John takes up in 3:23 and here. James gathers the second table of the law under love of neighbour, James 2:8, and Paul says love is the fulfilling of the law, Romans 13:8-10. Peter says that love covers a multitude of sins, 1 Peter 4:8. John's contribution is to anchor all this in the nature of God himself and in the order: first his love, then ours.\n\nThe passage on fear in verse 18 connects to Paul's statement that believers did not receive a spirit of slavery returning them to fear but the Spirit of sonship, Romans 8:15, and to Hebrews, which says Christ freed those who were all their lives held in slavery by fear of death, Hebrews 2:15."
     },
     "hermeneutics": {
-      "authorIntent": "To ground the command to love one another in the nature and act of God, who is love and who sent His Son as the atoning sacrifice, and to assure believers that receiving and returning this love brings God's indwelling, casts out fear, and gives confidence for the day of judgment.",
-      "descriptionVsPrescription": "The passage both describes God, God is love, and His act, He sent His Son, and prescribes the response, let us love one another. The assurances, God abides in us, perfect love casts out fear, describe the settled experience of those who rest in and reflect God's love.",
+      "authorIntent": "John does not give a lecture on the attributes of God. He gives a reason to act. Everything he says about God's nature is aimed at the believers' behaviour: since God is like this, you must live like this. The pivot is verse 11: 'if God so loved us, we also ought to love one another.' The word 'ought' carries the sense of a debt that has been incurred.\n\nHe also means to correct a dangerous kind of piety. Some in his circle had a lofty religion with a cold neighbour, and he cuts that apart in verse 20. An unseen God can be loved only by the person who loves the seen brother, since love of God is not a private mood but a way of treating people. John closes the door on any spirituality that bypasses other believers.\n\nAt the same time he intends to comfort. Verses 17 and 18 are written for people who feared they would not stand in the judgment. John gives them a ground for confidence in two parts: God's own love that was proved by the sending of the Son, and the likeness to Christ that love produces, 'in this world we are just like Him'. The confidence is not that they have achieved something, but that they have been loved and are being remade.\n\nLast, he intends believers to see that the love they show is not their own invention. It is the visible form of the invisible God. 'No one has ever seen God', and yet when believers love, God's love is 'perfected in us', and the unseen God becomes seen in the life of the community.",
+      "descriptionVsPrescription": "John's statements about love are a mix of description and command, and the mix matters. 'God is love' and 'He loved us and sent His Son' are descriptions of God and of what he has done, true whether or not anyone responds. 'Let us love one another' and 'we ought to love one another' are the commands that follow. The order is the point: command grows from description, and obedience is a response to grace rather than a means of earning it.\n\nThe verses about fear and confidence are descriptions of a condition that love produces. They are not a command to feel unafraid, which would crush a person who feels afraid, but a promise that as one grows in knowing God's love, the dread of punishment loses its hold. Readers who struggle with anxiety about their standing should not read verse 18 as a sentence against them. Verse 18 says fear is a sign that love has not yet had its full effect, not that the person is outside God's family.\n\nVerse 20 is a test, and it is meant to be applied first to ourselves. It does not give us licence to doubt the faith of others whenever they fail to love well. It is a mirror for the one who says 'I love God', and applies to the church as a community as well as to the individual. It also does not demand that we feel warm affection for every person. The kind of love John describes in 3:16-18 is seen in what we do and give.",
       "debates": [
         {
-          "question": "What does 'God is love' mean, and what does it not mean?",
+          "question": "Is hilasmos best translated 'propitiation' or 'expiation'?",
           "views": [
-            { "label": "Love is essential to God's nature, defined by the cross and held with His holiness", "case": "John says God is love and immediately defines it by the sending of the Son as the propitiation for sins, so love is central to who God is, yet it is holy, costly, and self-giving, not mere sentiment. Read with the letter's insistence that God is light, 1 John 1:5, and just, this means God's love and holiness are not in tension but meet at the cross. This is the strongest orthodox reading." },
-            { "label": "God is only love, and nothing else about Him matters", "case": "Some make love the sole attribute, so that holiness, justice, and wrath are denied; but the same letter says God is light and presents Christ as the propitiation that turns away wrath." },
-            { "label": "'God is love' means love itself is divine", "case": "Others invert it to 'love is God', sanctifying any strong affection as divine; but John says God is love, defined by the cross, not that every human love is God." }
+            {
+              "label": "Propitiation: the sacrifice turns away God's wrath",
+              "case": "The word group is used in Greek of appeasing an offended party, and the Old Testament background in the Day of Atonement, Leviticus 16:15-16, deals with God's holiness being offended by sin. Romans 3:25 says God presented Christ as an atoning sacrifice 'to demonstrate His righteousness', and Romans 1:18 speaks of divine wrath. Defenders say that a sacrifice that only removed sin without dealing with God's justice would leave the heart of the matter untouched. The note in the BSB gives 'propitiation' as an alternative."
+            },
+            {
+              "label": "Expiation: the sacrifice cleanses and removes sin",
+              "case": "Some argue that the biblical idea is the removal of guilt and defilement, not the soothing of a God who might otherwise be angry. They note that in Scripture it is God who provides the sacrifice, which looks unlike pagan appeasement, and that the English word propitiation suggests bribing a god. Hebrews 9:26 speaks of putting away sin by sacrifice."
+            },
+            {
+              "label": "Both together: the sacrifice removes sin and satisfies justice",
+              "case": "Many hold that the two are not rivals. Sin is cleansed because the penalty is borne, and God's wrath is turned aside because he himself supplied the offering. The cross is a display of love and righteousness at once, Romans 3:25-26."
+            }
           ],
-          "bearing": "The strongest reading holds that love is essential to God's very being, supremely displayed in giving His Son as the atoning sacrifice, and that this love is inseparable from His holiness and justice. This guards against both a sentimental god with no holiness and a cold god with no love, keeping the cross at the centre."
+          "bearing": "In 4:10 John joins the word to love, 'love consists in this', so that whichever shade of meaning is preferred, the sacrifice is not something wrung from God but given by him. A reading that leaves out the seriousness of sin makes the cross merely an example, while a reading that leaves out the Father's love makes the cross a transaction against him. John keeps both in view."
         },
         {
-          "question": "How does 'perfect love drives out fear' relate to the fear of God the Bible commends?",
+          "question": "Whose love is 'perfected' in verse 12 and verse 17?",
           "views": [
-            { "label": "It removes the servile dread of punishment, not reverent awe", "case": "John specifies that the fear cast out 'involves punishment', the cringing terror of condemnation on the day of judgment. Perfect love gives the believer confidence before God because Christ is the propitiation and we are made like Him. This is different from the reverent, worshipful fear of the Lord that Scripture commends. This distinction is the strongest reading and fits the context of confidence at judgment." },
-            { "label": "It abolishes all fear of God whatsoever", "case": "Some take it to mean no fear of God of any kind remains; but Scripture elsewhere commends the fear of the Lord, so John must mean the specific dread of punishment." },
-            { "label": "It means believers should feel no anxiety about anything", "case": "Others generalise it to freedom from all anxiety; but John's point is narrower, the fear of judgment removed by assurance in God's love." }
+            {
+              "label": "God's love for us, reaching its goal in us",
+              "case": "The phrase 'His love is perfected in us' in verse 12 most naturally means that the love God has for us achieves its intended result in a community that loves. The love of the Father is complete when it flows through his people. This fits verse 10 and verse 19, which stress that God's love comes first."
+            },
+            {
+              "label": "Our love for God, reaching maturity",
+              "case": "Some take the genitive as our love for God, so that the believer's own love is brought to full maturity through loving others. They point to 2:5, where the love of God is said to be truly perfected in the one who keeps his word."
+            },
+            {
+              "label": "Love in general, both directions at once",
+              "case": "Others say John's phrasing deliberately holds both, because in the believer the love God gives and the love the believer returns are one reality. The distinction between God's love for us and ours for God is real but the passage will not let them be separated."
+            }
           ],
-          "bearing": "The strongest orthodox reading is that perfect love casts out the servile fear of punishment and condemnation, giving confidence before God grounded in Christ's atoning work, while leaving intact the reverent awe of God that Scripture calls the beginning of wisdom. Assurance and reverence stand together."
+          "bearing": "The first reading best suits the argument of verses 7 to 12, which begin with God's initiative. What is perfected is God's own love finding its expression in a people, not a human achievement. Even so, the second reading reminds us that believers are changed, and a love that never reached outward would not have reached its goal."
         }
       ]
     },
-    "originalLanguages": "John lifts the call to love to its highest ground: God is agape, love, in His very being. That love is not sentiment but was revealed when God sent His monogenes, His one and only Son, as the hilasmos, the atoning sacrifice that covers sin and turns away wrath. Received and returned, this love is teleioo, brought to its goal in us, so that whoever lives, meno, abides in love, abides in God and God in him. And where that love has come to its full flower, there is confidence at judgment, for perfect love drives out phobos, the cringing fear that has to do with punishment. The order is everything: we love because He first loved us.",
+    "originalLanguages": "The most striking grammar in the passage is the shape of verse 8, 'God is love'. In Greek the word for love, agape, stands without the article, which means it is the predicate, not an interchangeable subject. John does not say 'love is God'. Compare 1:5, 'God is light', and John 4:24, 'God is spirit'. Each is a statement of character, not a definition that can be turned around. The verse before also uses two tenses with care. The one who loves 'has been born' of God (the perfect gegennetai, a standing result), and 'knows' God (a present tense). The one who does not love 'did not know' God, a simple aorist, which suggests that the knowledge never took place.\n\nIn verse 9 the verb for 'revealed' is a form of phaneroo, 'to make visible', a favourite word in this letter, 1:2, 3:5, 3:8, and used of Christ's coming. The love of God was a hidden reality which became visible when the Son was sent. And 'has sent' is a perfect (apestalken), in verses 9, 10 and 14, which presents the sending as having lasting effect. The sending stands as a fact in the present.\n\nThe word monogenes in 4:9 is used in the New Testament of an only child, Luke 7:12 and 8:42, and of Isaac in Hebrews 11:17, and John uses it of Jesus in his Gospel and here, John 1:14 and 3:16. It carries the sense of uniqueness, one of a kind, and also of a beloved only child. The BSB footnote offers 'only begotten or unique'. Either way, the cost is the point: what is given is the one Son and no other.\n\nThe word hilasmos in verse 10 occurs only twice in the New Testament, here and in 2:2. It is related to hilasterion in Romans 3:25 and Hebrews 9:5, the latter being the mercy seat, and to the verb hilaskomai in Hebrews 2:17. The BSB renders it 'atoning sacrifice' with a footnote offering 'propitiation'.\n\nIn verse 12, 'no one has ever seen God' uses the perfect of theaomai, 'to behold', and the opening matches John 1:18. Two verses later John says 'we have seen' with the same verb, verse 14. The invisible God has been beheld in the Son, and John bears witness to that.\n\nThe verb for 'perfected' in verses 12 and 17 is the perfect passive of teleioo in verse 12, 'has been brought to its goal', and the adjective teleia in verse 18, 'perfect'. Verse 18 contains a vivid phrase: perfect love 'drives out' fear, which is literally 'throws outside' (ballei exo), as one might eject an intruder. The noun for punishment is kolasis, which Jesus uses in Matthew 25:46 of the punishment of the wicked. Fear in this verse is 'having kolasis', fear that is bound up with the expectation of punishment, and the participle 'the one who fears' is present, describing a continuing state. Perfect love has nothing in common with that, for those whom God loves have no punishment to fear.\n\nFinally, verse 17 says 'we may have confidence', parresia, on 'the day of judgment' (hemera kriseos). Parresia is the openness of speech and standing of a free citizen, and John uses it of boldness before Christ at his coming, 2:28, and before God in prayer, 3:21 and 5:14.",
     "typology": [
-      { "type": "God sending His one and only Son as the atoning sacrifice", "fulfillment": "The whole sacrificial system and the offering of the beloved son foreshadowed in Isaac, Genesis 22, fulfilled in the Father giving His only Son as the propitiation for our sins." },
-      { "type": "Perfect love casting out the fear of judgment", "fulfillment": "The terror of standing before a holy God under the old covenant, stilled for those in Christ who are made like Him and await the day of judgment with confidence." }
+      {
+        "type": "Isaac, the beloved only son offered on Moriah",
+        "fulfillment": "God told Abraham, 'Take your son, your only son Isaac, whom you love', Genesis 22:2, and Hebrews 11:17 uses the same word monogenes that John uses of Jesus. Abraham lifted the knife, and God provided a ram in the place of the son. The correspondence is that a father gives what he loves most. The escalation in Christ is that no substitute was spared for him: Paul says God did not spare his own Son but gave him up for us all, Romans 8:32. The type falls short because Isaac was never actually sacrificed, and he was a sinner himself, whereas the Son was given, and given without sin."
+      },
+      {
+        "type": "The mercy seat on the Day of Atonement",
+        "fulfillment": "Once a year the high priest entered behind the veil and sprinkled blood on the mercy seat to make atonement for the sins of the people, Leviticus 16:15-16. The Greek word for mercy seat, hilasterion, is related to John's hilasmos, and Paul says God presented Christ as the atoning sacrifice, Romans 3:25. The correspondence is blood on the place of meeting. The escalation is that God himself provides the offering and offers himself as the one who enters, Hebrews 9:11-12, and that the sacrifice need not be repeated, Hebrews 10:10-12. The type falls short because the priest had to offer for his own sins as well, and the blood of animals could not finally take away sin, Hebrews 10:4."
+      },
+      {
+        "type": "The terror at Sinai and the fear that has punishment",
+        "fulfillment": "At the mountain the people trembled and begged that God not speak to them lest they die, Exodus 20:18-19. Fear was a fitting response to a holy God with sinners standing before him, and boundary lines were set around the mountain, Exodus 19:12. John's statement that perfect love drives out fear answers that scene. Hebrews 12:18-24 sets Sinai beside Mount Zion and says believers have come to Jesus, the mediator of a new covenant, and to the sprinkled blood that speaks better than Abel's. The type falls short because Sinai's holiness was real and still is. John does not abolish reverence but the terror of condemnation, for the God who is a consuming fire, Hebrews 12:29, has made peace through the Son."
+      },
+      {
+        "type": "Moses' request to see God's glory",
+        "fulfillment": "Moses asked to see the glory of God and was told that no one could see his face and live, Exodus 33:18-23. He was hidden in the cleft of the rock and saw God pass by, hearing the name proclaimed, Exodus 34:6-7. John's 'No one has ever seen God' repeats that limit and then adds that God's love has been made visible in a person and in a community. The escalation is that the glory once glimpsed from behind is now seen in the face of Jesus Christ, 2 Corinthians 4:6, and in the Son who has made God known, John 1:18. The type falls short in that Moses saw only a passing glimpse, and the fullness of seeing awaits the day when we see Him as He is, 1 John 3:2."
+      }
     ],
-    "christ": "Christ is the measure and the means of the love that John celebrates. God's love is defined by the sending of the one and only Son as the propitiation for our sins, so that we might live through Him. To confess Jesus as the Son of God is the point where God comes to abide in us, and because in this world we are being made like Him, we can face the day of judgment with confidence rather than dread. The cross is where God is love is proven and where our fear is answered.",
-    "god": "God is love in His essential being, and He is love that gives, not merely feels: He sent His only Son as the atoning sacrifice while we were still unloving. This same God is light and just, so His love takes the costly form of propitiation rather than the cheap form of indulgence. He loved first, before we loved Him, and He gives His Spirit and His Son so that His love may reach its goal in a people transformed to love one another and freed from the fear of judgment.",
+    "christ": "The whole passage is an exposition of what the Son did, and John is careful to put the cross at the centre of the definition. Notice his phrase in verse 10: 'love consists in this'. John does not say that love is displayed in this among other things. He says the substance of love is found here. Whatever else is called love is measured by it. In 3:16 the same thought runs in the other direction: 'By this we know what love is: Jesus laid down His life for us.'\n\nJohn gives the Son three titles in a short stretch: the 'one and only' Son in verse 9, the 'atoning sacrifice' in verse 10, and 'the Savior of the world' in verse 14. The first stresses who he is and what the Father gave up. The second stresses what he does about sin. The third stresses the reach of his work, a title the Samaritans use in John 4:42. These are not three separate Christs. The unique Son is the one who bears the sin, and the one who bears it is able to save all who come.\n\nThe mission of the Son also reveals the Father's heart. John 3:16-17 says the Father gave the Son so that the world might be saved through him. Nothing in the passage allows us to imagine a kind Son placating an unwilling Father. The Father 'sent' the Son and the Son came, and in Romans 8:32 and Galatians 2:20 the giving is spoken of as the act of both. This is why love can be defined at the cross without reducing God to sentiment.\n\nChrist is also the model for the love believers show. 'Jesus laid down His life for us, and we ought to lay down our lives for our brothers', 3:16. The new commandment of John 13:34 sets the same pattern, 'as I have loved you'. His love is both the root and the form of ours. And in John 15:9-10 he invites his followers to abide in his love, the same verb John uses in verse 16.\n\nThere is also a promise in verse 17: 'in this world we are just like Him'. That is not a claim of sinless perfection. It points to the believer's union with Christ, in whom the believer stands as he stands before the Father. Because Jesus is accepted, the believer joined to him need not fear the day of judgment. John 5:24 says whoever hears his word and believes the One who sent him has eternal life and will not come into judgment but has passed from death to life.\n\nA caution is useful. The passage should not be turned into a picture of a gentle Jesus in contrast to a harsh Father, nor into a case that all love is Christian. John's point is that the Son's death is the pattern and source of true love.",
+    "god": "The central thing this passage teaches about God is that his nature is the source of love. Love is not one of several actions he takes on occasion; it is who he is. That matters for how we understand the world. If love comes from God, then every genuine love between people has a derivation, and the believer who loves is acting in line with the grain of the universe.\n\nThe love is specific and costly. John does not leave us to guess. It is shown in the sending of the Son 'into the world, so that we might live through Him', verse 9. The God of the passage is a God who moves toward the helpless, since love consists in his initiative, not ours, verse 10. This speaks against any religion that thinks of God as waiting for us to climb up to him.\n\nThe passage also shows a God who is holy and who deals with sin. The word 'atoning sacrifice' shows that sin was a real obstacle, and that God does not wave it away. Because the letter has already said that God is light, 1:5, and that the blood of Jesus cleanses, 1:7, the love of 4:7-21 should never be set against holiness. The cross is where the two are one.\n\nThe three persons are at work. The Father sends, the Son is sent and gives himself, and the Spirit is the sign that we abide in God, verse 13. John does not state a doctrine of the Trinity in so many words, but the passage makes no sense without it. God's love has a shape: from the Father, through the Son, in the Spirit.\n\nGod is also invisible and yet known. 'No one has ever seen God' sets a limit on all human religion, but John goes on to say that God makes himself known in the Son and in the community of love. The hidden God is not hidden in the sense of being absent. His presence is felt in the believers' mutual love and in the Spirit's witness.\n\nFor worship, the passage invites a response in two directions. We worship by marvelling that God loved first, and by loving others. Praise that never leads to love for the brother is, in John's word, a lie, verse 20. The God who is love is worshipped when his people are marked by love, and the confidence he gives, when we stand before him with no dread of punishment, is itself a form of praise.",
     "crossReferences": [
-      { "ref": "John 3:16", "note": "God so loved the world that He gave His one and only Son, the sending John points to as the revelation of God's love." },
-      { "ref": "Romans 5:8", "note": "God shows His love in that while we were still sinners, Christ died for us, matching love defined by the cross, not our worthiness." },
-      { "ref": "Romans 8:31-39", "note": "Nothing can separate us from the love of God in Christ, the ground of the confidence that casts out fear." },
-      { "ref": "1 John 2:2", "note": "Jesus is the atoning sacrifice for our sins, the same propitiation that here defines the love of God." }
+      {
+        "ref": "John 3:16-17",
+        "note": "The Father gives his one and only Son so that the world may be saved through him, and not condemned. John's letter takes the same Gospel truth and applies it to the community: the one who has been loved this way must love the people around them."
+      },
+      {
+        "ref": "Romans 5:5-8",
+        "note": "God has poured out his love into our hearts through the Holy Spirit, and he proves it by Christ's death for sinners. Paul's 'while we were still sinners' is the same thought as John's 'not that we loved God, but that He loved us'."
+      },
+      {
+        "ref": "Romans 8:15",
+        "note": "Believers did not receive a spirit of slavery that returns to fear but the Spirit of sonship. This is Paul's version of the freedom from fear in verse 18, grounded in belonging to the family and not in achievement."
+      },
+      {
+        "ref": "John 13:34-35",
+        "note": "Jesus gives a new commandment to love one another as he has loved, and says all will know his disciples by it. John's 'we ought to love one another' in verse 11 returns to that commandment and shows its source."
+      },
+      {
+        "ref": "1 John 3:16-18",
+        "note": "John defines love at the cross and then at the level of money and need: if someone has the world's goods and sees a brother in need, love must act. The earlier passage supplies the practical shape of what 4:20 demands."
+      },
+      {
+        "ref": "John 1:18",
+        "note": "No one has ever seen God, but the one and only Son has made him known. John uses the same words about the unseen God in verse 12 and then explains how God is known, through the Son and through the love of his people."
+      },
+      {
+        "ref": "Romans 3:25",
+        "note": "God presented Christ as the atoning sacrifice through faith in his blood, to show his righteousness. This explains why love can take the form of an atoning sacrifice: God is both just and the one who puts things right."
+      },
+      {
+        "ref": "Hebrews 2:17",
+        "note": "Jesus had to be made like his brothers so that he might become a merciful and faithful high priest and make atonement for the sins of the people. It shows the priestly meaning of hilasmos and ties the atonement to his real humanity."
+      },
+      {
+        "ref": "Genesis 22:2",
+        "note": "God tells Abraham to take his beloved only son to Moriah. The story of a father giving up the son he loves lies behind the idea that God's love is costly, and Hebrews 11:17 uses John's word for 'only' of Isaac."
+      },
+      {
+        "ref": "Jeremiah 31:3",
+        "note": "The LORD says he has loved Israel with an everlasting love and drawn them with loving devotion. John's 'He first loved us' puts into the new covenant what the prophet had already told Israel: God's love was there before any response."
+      },
+      {
+        "ref": "John 15:9-10",
+        "note": "Jesus says that as the Father loved him so he has loved his disciples, and tells them to remain in his love by keeping his commands. The verb 'remain' is John's verb for abiding in verse 16, and the chain Father to Son to disciples is the same."
+      }
     ],
-    "oneStory": "The whole of Scripture has been unveiling the love of a holy God for people who did not deserve it. Here that revelation reaches its fullest word: God is love, and He proved it by giving His one and only Son as the atoning sacrifice for our sins. Received and returned in love for one another, this love casts out fear and forms the family of God. The God who is love has been drawing His people to Himself from the beginning, and at the cross the story's deepest truth stands revealed.",
-    "sermon": { "status": "verified", "preacher": "Alistair Begg", "title": "Let Us Love One Another", "url": "https://www.truthforlife.org/resources/sermon/let-us-love-one-another/", "why": "Begg preaches this section, 1 John 4:7-12, on love that comes from God, God's love revealed in sending His Son as the atoning sacrifice, and love perfected in us. A clear, orthodox handling of the letter's summit." }
+    "oneStory": "The Bible's first chapters show a world made by a God who is generous, and the rest of the story asks whether that generosity will hold when humanity turns away. John's answer is that it does, and that this holding is the very essence of God. At the garden's edge God clothed the guilty. At Sinai he gave the law out of a rescue. Through the prophets he called himself husband, father and shepherd to an unfaithful people. All of that is love in action, and in this passage John names it plainly.\n\nThe promise to Abraham begins to take its shape at Moriah, where the father is asked to give up his only son and God provides a substitute. That act points forward to a day when the Father himself will give his Son. The tabernacle and the Day of Atonement add a second strand: a holy God dwelling among sinners can only do so by blood. In 4:10 these strands meet in one place. The love that sends and the sacrifice that atones are the same event.\n\nThe story then moves outward. The Son who was sent is 'the Savior of the world', verse 14, which recalls the promise that all nations would be blessed through Abraham's offspring, Genesis 12:3. The new people formed by the Son are marked by one thing above all, their love, John 13:35. The church becomes the place where the unseen God is made visible, an image of what Israel was meant to be among the nations, a community that shows God's character.\n\nFinally the passage sets up the end of the story. Verse 17 speaks of the day of judgment and confidence before God. Revelation shows that day arriving, with the dead judged by what is written in the books, and the people of the Lamb whose names are in the book of life, Revelation 20:12 and 21:27. The believer's confidence is that the Judge is the Father who first loved us, and the One who bore our sins is the Lamb.\n\nThe new creation is the world of perfected love. John pictures God dwelling with his people, wiping away every tear, and no more death or mourning or crying or pain, Revelation 21:3-4. Fear will be finished, because nothing will be left to fear. What began in love before the foundation of the world ends in love, in a family who love one another because God, who is love, lives among them.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "Alistair Begg",
+      "title": "Let Us Love One Another",
+      "url": "https://www.truthforlife.org/resources/sermon/let-us-love-one-another/",
+      "why": "Begg preaches this section, 1 John 4:7-12, on love that comes from God, God's love revealed in sending His Son as the atoning sacrifice, and love perfected in us. A clear, orthodox handling of the letter's summit."
+    }
   },
   "quiz": [
     {
       "q": "How does John define God's love in verses 9 and 10?",
       "options": [
-        { "text": "God sent His one and only Son as the atoning sacrifice for our sins.", "weight": 100, "note": "Love is defined by the cross, God's costly gift of His Son, not by sentiment." },
-        { "text": "God feels warmly toward everyone regardless of the cross.", "weight": 25, "note": "John grounds love in the sending of the Son as the propitiation, not in feeling alone." },
-        { "text": "God rewards those who love Him first.", "weight": 0, "note": "John says the opposite: not that we loved God, but that He loved us first." },
-        { "text": "God gives good gifts in this life.", "weight": 75, "note": "God does give good gifts, but the defining act of love here is sending His Son as the atoning sacrifice." }
+        {
+          "text": "God sent His one and only Son as the atoning sacrifice for our sins.",
+          "weight": 100,
+          "note": "Love is defined by the cross, God's costly gift of His Son, not by sentiment."
+        },
+        {
+          "text": "God feels warmly toward everyone regardless of the cross.",
+          "weight": 25,
+          "note": "John grounds love in the sending of the Son as the propitiation, not in feeling alone."
+        },
+        {
+          "text": "God rewards those who love Him first.",
+          "weight": 0,
+          "note": "John says the opposite: not that we loved God, but that He loved us first."
+        },
+        {
+          "text": "God gives good gifts in this life.",
+          "weight": 75,
+          "note": "God does give good gifts, but the defining act of love here is sending His Son as the atoning sacrifice."
+        }
       ]
     },
     {
       "q": "What does 'God is love' mean, and not mean?",
       "options": [
-        { "text": "Love is essential to God's nature, shown at the cross and held together with His holiness.", "weight": 100, "note": "God is love and also light; the two meet in the propitiation, not in tension." },
-        { "text": "God is only love, so holiness and justice do not matter.", "weight": 75, "note": "Love truly is essential to God, but the same letter says God is light and presents Christ as the propitiation, so holiness and justice are not set aside." },
-        { "text": "Love itself is God, so any strong affection is divine.", "weight": 25, "note": "John says God is love defined by the cross, not that every human love is God." },
-        { "text": "God is distant and His love is only an idea.", "weight": 0, "note": "God's love is concrete and active, proven by sending His Son into the world." }
+        {
+          "text": "Love is essential to God's nature, shown at the cross and held together with His holiness.",
+          "weight": 100,
+          "note": "God is love and also light; the two meet in the propitiation, not in tension."
+        },
+        {
+          "text": "God is only love, so holiness and justice do not matter.",
+          "weight": 75,
+          "note": "Love truly is essential to God, but the same letter says God is light and presents Christ as the propitiation, so holiness and justice are not set aside."
+        },
+        {
+          "text": "Love itself is God, so any strong affection is divine.",
+          "weight": 25,
+          "note": "John says God is love defined by the cross, not that every human love is God."
+        },
+        {
+          "text": "God is distant and His love is only an idea.",
+          "weight": 0,
+          "note": "God's love is concrete and active, proven by sending His Son into the world."
+        }
       ]
     },
     {
       "q": "According to verse 19, why do believers love?",
       "options": [
-        { "text": "Because He first loved us.", "weight": 100, "note": "Our love is always a response to God's prior love, never its cause." },
-        { "text": "Because loving earns God's love in return.", "weight": 0, "note": "God loved us first; our love does not purchase His." },
-        { "text": "Because it feels good to be loving.", "weight": 25, "note": "The root is God's prior love for us, not the pleasant feeling of loving." },
-        { "text": "Because others love us and we return it.", "weight": 75, "note": "Human love matters, but John grounds our love in God loving us first." }
+        {
+          "text": "Because He first loved us.",
+          "weight": 100,
+          "note": "Our love is always a response to God's prior love, never its cause."
+        },
+        {
+          "text": "Because loving earns God's love in return.",
+          "weight": 0,
+          "note": "God loved us first; our love does not purchase His."
+        },
+        {
+          "text": "Because it feels good to be loving.",
+          "weight": 25,
+          "note": "The root is God's prior love for us, not the pleasant feeling of loving."
+        },
+        {
+          "text": "Because others love us and we return it.",
+          "weight": 75,
+          "note": "Human love matters, but John grounds our love in God loving us first."
+        }
       ]
     },
     {
       "q": "What does 'perfect love drives out fear' mean (verse 18)?",
       "options": [
-        { "text": "It removes the servile dread of punishment, giving confidence before God at judgment.", "weight": 100, "note": "The fear cast out involves punishment; reverent awe of God remains." },
-        { "text": "It abolishes every kind of fear of God, including reverent awe.", "weight": 75, "note": "Love truly drives out the dread of judgment, but Scripture commends the reverent fear of the Lord, which remains." },
-        { "text": "It guarantees believers will never feel any anxiety about anything.", "weight": 25, "note": "John's point is narrower: the fear of judgment removed by assurance in God's love." },
-        { "text": "It means judgment is not real for anyone.", "weight": 0, "note": "John speaks of confidence on the day of judgment, which he treats as real." }
+        {
+          "text": "It removes the servile dread of punishment, giving confidence before God at judgment.",
+          "weight": 100,
+          "note": "The fear cast out involves punishment; reverent awe of God remains."
+        },
+        {
+          "text": "It abolishes every kind of fear of God, including reverent awe.",
+          "weight": 75,
+          "note": "Love truly drives out the dread of judgment, but Scripture commends the reverent fear of the Lord, which remains."
+        },
+        {
+          "text": "It guarantees believers will never feel any anxiety about anything.",
+          "weight": 25,
+          "note": "John's point is narrower: the fear of judgment removed by assurance in God's love."
+        },
+        {
+          "text": "It means judgment is not real for anyone.",
+          "weight": 0,
+          "note": "John speaks of confidence on the day of judgment, which he treats as real."
+        }
       ]
     },
     {
       "q": "What does John say about claiming to love God while hating a brother?",
       "options": [
-        { "text": "Such a person is a liar; you cannot love the God you have not seen while hating the brother you have.", "weight": 100, "note": "Verse 20 exposes love for God that ignores the brother as false." },
-        { "text": "It is acceptable as long as your feelings toward God are sincere.", "weight": 25, "note": "John calls it a lie; love for God and brother cannot be separated." },
-        { "text": "Loving God and loving people are entirely unrelated.", "weight": 0, "note": "John binds them together; the command is to love God and brother alike." },
-        { "text": "Loving God is what matters; loving people is optional.", "weight": 75, "note": "John makes love for the brother the test of love for God, not an optional extra." }
+        {
+          "text": "Such a person is a liar; you cannot love the God you have not seen while hating the brother you have.",
+          "weight": 100,
+          "note": "Verse 20 exposes love for God that ignores the brother as false."
+        },
+        {
+          "text": "It is acceptable as long as your feelings toward God are sincere.",
+          "weight": 25,
+          "note": "John calls it a lie; love for God and brother cannot be separated."
+        },
+        {
+          "text": "Loving God and loving people are entirely unrelated.",
+          "weight": 0,
+          "note": "John binds them together; the command is to love God and brother alike."
+        },
+        {
+          "text": "Loving God is what matters; loving people is optional.",
+          "weight": 75,
+          "note": "John makes love for the brother the test of love for God, not an optional extra."
+        }
       ]
     }
   ],
@@ -177,9 +425,21 @@
     "God abides in those who love one another. How have you experienced God's presence become more real as you have given yourself in love to others?"
   ],
   "translationNotes": [
-    { "ref": "1 John 4:9", "note": "'One and only' renders monogenes, unique or only-begotten, as the BSB footnote notes; it marks the singular, costly nature of the Son the Father sent." },
-    { "ref": "1 John 4:10", "note": "'Atoning sacrifice' renders hilasmos, which the BSB footnote gives as 'propitiation'; it carries both the covering of sin and the turning away of God's wrath, defining love by the cross." },
-    { "ref": "1 John 4:19", "note": "'We love' follows a shorter reading; the BSB footnote notes some texts read 'We love Him'. Either way our love is a response to God's prior love." }
+    {
+      "ref": "1 John 4:9",
+      "note": "'One and only' renders monogenes, unique or only-begotten, as the BSB footnote notes; it marks the singular, costly nature of the Son the Father sent."
+    },
+    {
+      "ref": "1 John 4:10",
+      "note": "'Atoning sacrifice' renders hilasmos, which the BSB footnote gives as 'propitiation'; it carries both the covering of sin and the turning away of God's wrath, defining love by the cross."
+    },
+    {
+      "ref": "1 John 4:19",
+      "note": "'We love' follows a shorter reading; the BSB footnote notes some texts read 'We love Him'. Either way our love is a response to God's prior love."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for 1 John 4:7-21. Footnotes at 4:9, 4:10, and 4:19 noted per the BSB." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for 1 John 4:7-21. Footnotes at 4:9, 4:10, and 4:19 noted per the BSB."
+  }
 }

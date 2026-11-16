@@ -18,7 +18,11 @@
         "note": "two loves that cannot share a heart",
         "emphasis": "",
         "verses": [
-          { "chapter": 2, "n": 15, "text": "Do not {{agapao|love}} the {{kosmos|world}} or anything in the world. If anyone loves the world, the love of the Father is not in him." }
+          {
+            "chapter": 2,
+            "n": 15,
+            "text": "Do not {{agapao|love}} the {{kosmos|world}} or anything in the world. If anyone loves the world, the love of the Father is not in him."
+          }
         ]
       },
       {
@@ -26,7 +30,11 @@
         "note": "the cravings that are not from the Father",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 2, "n": 16, "text": "For all that is in the world, the {{epithymia|desires}} of the flesh, the desires of the eyes, and the {{alazoneia|pride}} of life, is not from the Father but from the world." }
+          {
+            "chapter": 2,
+            "n": 16,
+            "text": "For all that is in the world, the {{epithymia|desires}} of the flesh, the desires of the eyes, and the {{alazoneia|pride}} of life, is not from the Father but from the world."
+          }
         ]
       },
       {
@@ -34,19 +42,58 @@
         "note": "but the one who does God's will remains",
         "emphasis": "",
         "verses": [
-          { "chapter": 2, "n": 17, "text": "The world is {{parago|passing away}}, along with its desires; but whoever does the {{thelema|will}} of God {{meno|remains}} forever." }
+          {
+            "chapter": 2,
+            "n": 17,
+            "text": "The world is {{parago|passing away}}, along with its desires; but whoever does the {{thelema|will}} of God {{meno|remains}} forever."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "agapao": { "language": "Greek", "lemma": "agapao", "original": "ἀγαπάω", "gloss": "To love, to set one's affection and devotion on something. It is the same strong verb used for love of God and neighbour. Here it is misdirected: to love the world in this way is to give it the devotion owed to the Father, and the two cannot share the same heart." },
-    "kosmos": { "language": "Greek", "lemma": "kosmos", "original": "κόσμος", "gloss": "World, order, system. In John it often means not the created earth or people as objects of God's love, but the whole system of human life organised in rebellion against God. It is this God-opposing order, with its values and cravings, that believers must not love." },
-    "epithymia": { "language": "Greek", "lemma": "epithymia", "original": "ἐπιθυμία", "gloss": "Desire, craving, longing, often for what is forbidden. The desires of the flesh and of the eyes are disordered appetites, wanting and coveting apart from God. The word is neutral in itself but here names the sinful cravings that the world stirs up and feeds." },
-    "alazoneia": { "language": "Greek", "lemma": "alazoneia", "original": "ἀλαζονεία", "gloss": "Pride, boastful pretension, the arrogance of self-display. The pride of life is the boasting in what one has and does, the swagger of self-sufficiency. It is the opposite of humble dependence on the Father and belongs to the world, not to Him." },
-    "parago": { "language": "Greek", "lemma": "parago", "original": "παράγω", "gloss": "To pass away, pass by, be in the process of vanishing. The present tense pictures the world already passing off the scene like a receding tide. To love the world is to bind one's heart to what is even now slipping away." },
-    "thelema": { "language": "Greek", "lemma": "thelema", "original": "θέλημα", "gloss": "Will, desire, purpose. The will of God is what He wills and commands, and doing it marks those who belong to Him rather than to the world. Set against the fleeting cravings of the world, God's will is the path of what endures." },
-    "meno": { "language": "Greek", "lemma": "meno", "original": "μένω", "gloss": "To remain, abide, continue, endure. The same key Johannine word for abiding in Christ. Whoever does the will of God remains forever, standing in sharp contrast to the world and its desires that are passing away. What is done in line with God's will has permanence." }
+    "agapao": {
+      "language": "Greek",
+      "lemma": "agapao",
+      "original": "ἀγαπάω",
+      "gloss": "To love, to set one's affection and devotion on something. It is the same strong verb used for love of God and neighbour. Here it is misdirected: to love the world in this way is to give it the devotion owed to the Father, and the two cannot share the same heart."
+    },
+    "kosmos": {
+      "language": "Greek",
+      "lemma": "kosmos",
+      "original": "κόσμος",
+      "gloss": "World, order, system. In John it often means not the created earth or people as objects of God's love, but the whole system of human life organised in rebellion against God. It is this God-opposing order, with its values and cravings, that believers must not love."
+    },
+    "epithymia": {
+      "language": "Greek",
+      "lemma": "epithymia",
+      "original": "ἐπιθυμία",
+      "gloss": "Desire, craving, longing, often for what is forbidden. The desires of the flesh and of the eyes are disordered appetites, wanting and coveting apart from God. The word is neutral in itself but here names the sinful cravings that the world stirs up and feeds."
+    },
+    "alazoneia": {
+      "language": "Greek",
+      "lemma": "alazoneia",
+      "original": "ἀλαζονεία",
+      "gloss": "Pride, boastful pretension, the arrogance of self-display. The pride of life is the boasting in what one has and does, the swagger of self-sufficiency. It is the opposite of humble dependence on the Father and belongs to the world, not to Him."
+    },
+    "parago": {
+      "language": "Greek",
+      "lemma": "parago",
+      "original": "παράγω",
+      "gloss": "To pass away, pass by, be in the process of vanishing. The present tense pictures the world already passing off the scene like a receding tide. To love the world is to bind one's heart to what is even now slipping away."
+    },
+    "thelema": {
+      "language": "Greek",
+      "lemma": "thelema",
+      "original": "θέλημα",
+      "gloss": "Will, desire, purpose. The will of God is what He wills and commands, and doing it marks those who belong to Him rather than to the world. Set against the fleeting cravings of the world, God's will is the path of what endures."
+    },
+    "meno": {
+      "language": "Greek",
+      "lemma": "meno",
+      "original": "μένω",
+      "gloss": "To remain, abide, continue, endure. The same key Johannine word for abiding in Christ. Whoever does the will of God remains forever, standing in sharp contrast to the world and its desires that are passing away. What is done in line with God's will has permanence."
+    }
   },
   "study": {
     "basic": {
@@ -60,76 +107,215 @@
       "oneStory": "From the first temptation, the world has offered what is pleasing to the eye and promising to make us wise apart from God. John exposes that same lure and sets against it the will of God, done perfectly in Christ, which alone endures. To love the Father over the passing world is to belong to the story that does not end."
     },
     "context": {
-      "literary": "A compact, three-verse unit built on sharp contrasts: love of the world against love of the Father, the cravings of the world against what is from the Father, and the passing world against the one who remains forever. The threefold description in verse 16 is almost proverbial in its rhythm.",
-      "historical": "The readers lived in a culture saturated with idolatry, consumption, and status-seeking, and the false teachers may have made peace with these worldly values. John calls the church to a rival allegiance, warning that the surrounding order is under judgment and passing away.",
-      "canonical": "The passage joins the consistent biblical warning against divided loyalty, Matthew 6:24, James 4:4, and against the idolatry of the nations, and it echoes the temptation narratives where Jesus refuses the world's offers, setting the pattern His people follow."
+      "literary": "These three verses are a small hinge in the larger movement of the letter. Each half of the first main section, 1:5 to 2:11, ran on the pair of light and darkness; now the letter turns from testing to exhorting, and John does it by addressing groups, 'children,' 'fathers,' 'young men,' in 2:12 to 14, before the command of 2:15 lands. That command arrives in the plainest possible form, a negative imperative with no argument offered first. The reasoning follows it, and it comes in three short steps. Verse 15 gives the incompatibility, verse 16 gives the diagnosis, and verse 17 gives the verdict of time.\n\nNotice how tightly the three verses are built. Verse 16 begins with 'for' and lists three items, each joined to the next by 'and' with the same 'of the' pattern, so that the list reads like an inventory taken at a customs gate. Then it closes with a single contrast, 'not from the Father but from the world.' The word 'world' occurs six times in these three verses, and the Father twice, so the very rhythm of the passage keeps the two in view side by side. Verse 17 turns the contrast round with a 'but' that sets the dissolving world against the one who remains, and the weight of the sentence falls on its last word, 'forever.'\n\nThe passage also looks both ways. Behind it stand the earlier tests, especially 2:3 to 6 on keeping His commandments and 2:9 to 11 on hating a brother while claiming to be in the light, so that love of the world turns out to be the third way to fail the same exam. Ahead of it lies the next section on antichrists, 2:18 to 27, where the world's lies take a human face. The three verses therefore sit where the letter shifts from ethics toward doctrinal warning, and they explain why both are needed: what the heart loves and what the mind believes tend to move together.",
+      "historical": "John writes to congregations in the cities of Roman Asia, and the church tradition from the second century places him in Ephesus. Those believers lived inside a world that was not neutral about religion. Civic life ran on festivals, guild banquets and the honour due to the emperor and the gods, so a person who withdrew from these things risked loss of work, standing and friends. 'The world' in such a setting was not an abstraction. It was the social order that asked for small compromises and rewarded those who made them.\n\nThe three cravings in verse 16 would also have been recognisable against that backdrop. The pleasures of the flesh were on open offer in a pagan city. 'The desires of the eyes' fits a culture of spectacle, of the theatre, the games, and display, where possession was something to be seen. And the 'pride of life' fits a society built on rank, patronage and reputation, in which a person's worth was measured by wealth and status. John's readers did not need these terms explained.\n\nThere was a second pressure close to home. The letter's later sections show that some had left the fellowship, 2:19, and that false teachers were circulating, 4:1. Wealth and ease may have tempted those who stayed to drift toward a version of faith that cost nothing. Against that, John gives a Jewish framework his readers would have known. The passing of the age is a prophetic theme, and the believer's loyalty to the one God is the first commandment of the Law. Quietly, the Greek 'world' carries a second meaning for them as well, since by the first century it also meant the present age as opposed to the age to come, an idea Paul uses in 1 Corinthians 7:31.",
+      "canonical": "The warning against love of the world is not John's invention. It gathers a long line of Scripture that sets one love against all rivals. Deuteronomy 6:5 asks for the whole heart, and the Old Testament names the rivals again and again: the gods of the nations, the wealth of Egypt, the pride of Babylon. Jesus makes the same point when He says no one can serve two masters, Matthew 6:24, and James puts it in blunt marital language, 'friendship with the world is hostility toward God,' James 4:4. Paul tells the Romans not to be conformed to this world, Romans 12:2, and tells Timothy that the love of money is a root of every kind of evil, 1 Timothy 6:10.\n\nThe three cravings of verse 16 also reach back to Eden. Genesis 3:6 says the tree was 'good for food and pleasing to the eyes,' and 'desirable for obtaining wisdom,' which are, in order, the flesh, the eyes and the proud wish to be wise apart from God. The same threefold pattern appears when the devil tempts Jesus in Luke 4:1-13: bread for the appetite, the kingdoms of the world shown 'in an instant' to the eyes, and the pinnacle of the temple as the stage for a display of status.\n\nThe final verse has its own echoes. Isaiah 40:8 sets the withering grass against the word of our God that 'stands forever,' and Daniel 7:14 gives a kingdom that 'will not pass away.' Paul says plainly that 'this world in its present form is passing away,' 1 Corinthians 7:31, and Peter describes the day when the heavens pass away with a roar, 2 Peter 3:10. In the letter itself, 5:4 and 5:19 carry the theme forward: believers overcome the world by faith, even while the whole world lies under the evil one."
     },
     "hermeneutics": {
-      "authorIntent": "To warn believers that love for the world and love for the Father cannot coexist, to expose the world's offer as craving and pride that come from the world rather than from God, and to anchor them in the hope that doing God's will leads to what endures forever.",
-      "descriptionVsPrescription": "Verse 15 is a direct command, do not love the world, and verses 16 and 17 give the reasons: the nature of the world's offer and its passing away. The abiding principle is undivided love for the Father and a life shaped by His enduring will.",
+      "authorIntent": "John did not want his readers to flee from creation, trade or culture. The tradition he stands in says that God loves the world, John 3:16, and he himself says in 2:2 that Christ is the atoning sacrifice for the whole world, so what he forbids must be something narrower than the created order and its people. What he wants is for his readers to notice where their ordinary wants lead and to be honest about it. Each of the three cravings begins as something that can be good, appetite, sight and a sense of one's place, and each turns into the world's property the moment it asks to be ruled by nothing above itself.\n\nHe also writes to settle an anxiety. A church that was small and pressed on every side may have felt it was the loser, since the world had the numbers, the money and the confidence. John answers by changing the clock. The world is on its way out, and those who do God's will are not. That is why he can speak so sharply about love and still speak so gently to his 'children.' He is trying to protect them from investing everything in something that cannot keep it. His aim is both warning and encouragement: to stop loving what is dissolving and to hold on to what lasts.",
+      "descriptionVsPrescription": "This passage is almost wholly prescriptive, a command and its reasons, so the question is less what is merely recorded and more how far the command reaches. It does not forbid enjoying food, beauty or honest work, which Scripture calls good gifts, 1 Timothy 4:4. It forbids a love that competes with the Father's. The test is not whether a person owns things or enjoys them but whether they rule the person.\n\nBecause the three cravings are named in general terms, they also leave room for the Spirit's conviction in particular cases. Two believers may differ on what a faithful use of money, entertainment or ambition looks like in their own city. John gives the diagnosis and does not draw up a list of permitted and forbidden activities, and readers should be slow to invent one for others. What does carry over without any translation is the question each verse puts to the heart: whose approval, whose pleasure and whose glory am I living for? The command applies to believers in every age, since it addresses the pull itself and not a particular culture's version of it.",
       "debates": [
         {
-          "question": "What is 'the world' that believers must not love, given that God loves the world in John 3:16?",
+          "question": "What exactly is 'the world' that believers must not love?",
           "views": [
-            { "label": "The God-opposing system of values, not creation or people", "case": "John uses 'world' in several senses; here the world is the whole order of human life organised against God, marked by the cravings of flesh and eyes and the pride of life. This is distinct from the created order God made good and the people God loves and sends His Son to save. This reading harmonises John 3:16 with 1 John 2:15 and fits the description in verse 16." },
-            { "label": "The physical creation itself, to be despised", "case": "Some have read this as a call to reject the material world as evil; but that contradicts the goodness of creation and God's love for the world in John 3:16." },
-            { "label": "Simply other people, to be kept at arm's length", "case": "Others reduce it to avoiding non-Christians; but John elsewhere sends believers to love and witness to the world God loves." }
+            {
+              "label": "The fallen world system",
+              "case": "Most readers take 'the world' as the order of human life organised without God, its values, appetites and power structures. John uses the word this way in 5:19, where the whole world lies under the evil one, and in John 17:14-16, where Jesus says His people are not of the world though He sends them into it. On this reading the command is about allegiance, not about avoiding people or places."
+            },
+            {
+              "label": "The visible, material creation",
+              "case": "A smaller group argues that the verse targets things, possessions and pleasures, and that a withdrawal from material attachment is what John asks. This fits 'anything in the world' in verse 15, but it struggles against 1 Timothy 4:4 and against John's own insistence in 2:2 and John 3:16 that God loves the world He made."
+            },
+            {
+              "label": "The present evil age",
+              "case": "Others stress the time dimension, the world as the passing age that opposes the coming one, as in verse 17 and in Paul's 'present evil age,' Galatians 1:4. This view ties the command to hope, and it overlaps with the first view because the age and its values are the same thing."
+            }
           ],
-          "bearing": "The strongest orthodox reading takes 'the world' as the sinful system opposed to God, its cravings and pride, not the good creation or the people God loves. Believers are to enjoy God's gifts and love their neighbours while refusing to give their hearts to the world's godless order."
+          "bearing": "The first and third views fit the letter best, and they come to one claim: the thing forbidden is the heart's loyalty to a way of life that has no room for God, not creation itself. That leaves believers free to receive good gifts with thanks while refusing to let those gifts become their master."
+        },
+        {
+          "question": "Does verse 16 describe three separate sins or three faces of one?",
+          "views": [
+            {
+              "label": "Three distinct categories",
+              "case": "The flesh, the eyes and pride are sometimes treated as three sections of a catalogue of sins, bodily, visual and social. The three-part wording supports this, and it is helpful for self-examination since each can be asked of the heart separately."
+            },
+            {
+              "label": "One root with three expressions",
+              "case": "Others see a single disposition, self-reliance, appearing in the body's wants, the eyes' covetousness and the boasting of the one who trusts in his own resources. They point to Genesis 3:6, where one act contains all three, and to Luke 4, where each temptation also comes as a single package."
+            }
+          ],
+          "bearing": "The two readings do not compete in practice. Whether one counts three or one, the cure is the same, a love for the Father that gives the heart something better to want, and a trust in His will that makes boasting unnecessary."
         }
       ]
     },
-    "originalLanguages": "The command is blunt: do not agapao, do not love, the kosmos, the world understood as the whole order of life set against God. Its whole offer is summed up in three cravings: the epithymia, the desires, of the flesh and of the eyes, and the alazoneia, the proud, boastful self-display John calls the pride of life. None of it comes from the Father. And it carries the seed of its own end, for the world is parago, passing away, even now slipping off the scene, while the one who does the thelema, the will of God, will meno, remain, abide forever. The same verb used for abiding in Christ marks the permanence of a life lived toward God.",
+    "originalLanguages": "John's word for 'world,' kosmos, carries three senses in his writings, and the reader has to ask which is in view. It can mean the created order, as in John 17:24; the human race that God loves, John 3:16; and the system of rebellion set against God, John 12:31 and 1 John 5:19. The verses here belong to the third sense, which is why the same John can say in 2:2 that Christ is the atoning sacrifice for the whole world and then forbid love for it.\n\nThe 'pride of life' is, in Greek, he alazoneia tou biou. The word alazoneia means the boastful pretension of the braggart, the 'impostor' tone of someone who claims more than he has. It appears in the New Testament only here and in James 4:16, 'you boast in your arrogance.' The second word, bios, is not the word John uses for spiritual life, zoe, as in 'eternal life.' Bios is life as lived on earth, a person's resources and livelihood. John uses it again in 3:17, where the BSB renders it 'earthly possessions,' so the 'pride of life' can be heard as swagger about one's means, standing and achievements.\n\nThe verb 'desires' is epithymia, a word that is not bad in itself. It is the ordinary term for strong longing, and Jesus uses its verb form for His own desire in Luke 22:15. What makes it dangerous here is its object and its master. It is also the Greek verb of the tenth commandment in the Septuagint, 'you shall not covet,' Exodus 20:17, and Paul uses it for the sin-stirred craving that the Law exposes, Romans 7:7. 'The desires of the eyes' is a genitive phrase, and it can mean the desires that the eyes awaken, that is, covetousness that begins in looking.\n\nThe present tense of 'is passing away,' paragetai, is significant. John does not say the world will one day pass but that it is passing now, as in 2:8, where the darkness is passing away as the true light shines. The verb is middle or passive, a thing in motion that no one is stopping, like a stage set being dismantled. Against that stands the present participle with the article, 'the one who does,' ho poion, which marks the habitual doer of God's will, and the verb meno, 'remains,' set against the passing world, so that stability belongs to the one who is attached to God's will, not to the setting around them. 'Will,' thelema, is the same word Jesus uses for the purpose that drove His whole mission, 'not to do My own will, but to do the will of Him who sent Me,' John 6:38.\n\nFinally, the Greek of verse 15 reads literally 'the love of the Father is not in him,' and the phrase is open in two directions. It can mean the Father's love for us, or the love we have for the Father. Most commentators take it as our love for the Father, since the sentence is about what fills the heart, but the ambiguity itself teaches something, because in John the two are never fully separated, 4:19.",
     "typology": [
-      { "type": "The two rival loves, the world and the Father", "fulfillment": "The covenant call to love the LORD with the whole heart and have no other gods, brought to its point in Jesus who served God alone and refused the world's offers, Matthew 4:1-11." },
-      { "type": "The passing world set against what endures", "fulfillment": "The prophetic contrast between the fading nations and the kingdom that will not pass away, fulfilled in Christ and the eternal life He gives to those who do God's will." }
+      {
+        "type": "The first commandment of the Law, Deuteronomy 6:5 and Exodus 20:3",
+        "fulfillment": "Israel was told to love the LORD with all the heart, soul and strength and to have no other gods before Him. The Shema asks for undivided love, which is what verse 15 restates for the church: if the world has the heart, the Father does not. The correspondence deepens in Christ, who as the true Israel served God alone when offered the kingdoms of the world, Luke 4:8. The fulfilment also moves the idols inside. Where Israel's rivals were carved statues and foreign gods, the rivals are now cravings that need no altar. The type falls short because Israel's love under the Law kept failing; the new covenant gives the heart that is able to love, Jeremiah 31:33."
+      },
+      {
+        "type": "The first temptation in Eden, Genesis 3:6",
+        "fulfillment": "The woman saw that the tree was good for food, pleasing to the eyes and desirable for wisdom, and she acted. John's triple list reads like a description of the same moment, and the Gospels show Jesus facing its three shapes in the wilderness, Luke 4:1-13. Where Adam and Eve took what was offered, Christ refused it and chose the Father's word. The correspondence is a pattern of temptation, not a code; John does not say the three cravings are a deliberate echo of Genesis 3, and the link is best seen as shared shape. The type falls short because Eden was a single garden and a single test, while the world John describes presses on every day of a believer's life."
+      },
+      {
+        "type": "The fading creation and the unfading kingdom, Isaiah 40:6-8 and Daniel 7:14",
+        "fulfillment": "Isaiah sets the withering grass and fallen flower against the word of our God that stands, and Daniel sees a dominion given to the Son of Man that will not pass away. John's last verse joins them: what belongs to the world is on its way out, and what belongs to God's will remains. The escalation is that the abiding thing is now not only a word or a kingdom to wait for but a person's whole life lived in union with Him, who says in John 8:35 that a son belongs in the family forever. The type falls short in one respect: Isaiah and Daniel speak of the nations and the kingdom, while John applies the pattern to the individual heart in the present."
+      }
     ],
-    "christ": "Jesus faced the very offers John names, the craving for bread, the spectacle before the eyes, and the pride of power, and He refused them all, loving the Father with an undivided heart. He overcame the world, and in Him the will of God is done perfectly. He is the one in whom those who do God's will remain forever, so that resisting the world's pull is not grim self-denial but following the Lord who has already conquered.",
-    "god": "The Father rightly claims our whole love and warns that it cannot be shared with the world. He is not a rival to our joy but its true home, for His will is the one thing that endures when the world and its desires fade. To align our lives with Him is to be caught up into what lasts forever, which shows a God who calls us away from passing things for our lasting good.",
+    "christ": "John says nothing here about Christ by name, and that silence is part of the argument. The command rests on what has already been established: Jesus Christ the Righteous One is the believer's advocate, 2:1, and walking as He walked is the measure of a Christian life, 2:6. So the question 'what is the world offering?' is quietly followed by 'what did Jesus do with it?'\n\nThe Gospels answer in the wilderness, Luke 4:1-13. The three offers made to Him in the desert are the three John lists. Bread to a starving man is the desire of the flesh. The kingdoms of the world shown 'in an instant' appeal to the eyes, and the devil's claim that the authority 'has been relinquished to me' shows that he works through the world's systems. The pinnacle of the temple, where Jesus is asked to prove Himself to a watching crowd, belongs to the pride of life. Jesus refuses each one with a line from Deuteronomy, which means the Son of God answers temptation by living on the Father's word and not on the offer.\n\nHe also says in John 16:33, 'I have overcome the world,' and that victory is the basis for John's confidence later, 5:4 to 5, where faith in Jesus as the Son of God is the victory that has overcome the world. The world's lure is not strong enough to hold those who are united to the One who has already beaten it. John 12:31 says the prince of this world is cast out at the cross, so the world that John says is passing away has already received its sentence.\n\nThe other half of the passage, 'whoever does the will of God remains forever,' points to Christ in a second way. In John 6:38 He says He came down to do the will of the Father, and in Gethsemane He submits His own will, Matthew 26:39. In Him the will of God was done perfectly, and in Him the hope of verse 17 is not an ideal but a fact. He remains, and those joined to Him remain. John 14:19 puts it in His own words: 'Because I live, you also will live.'\n\nThe caution is that John does not offer the temptation story as a hidden code behind verse 16, and an interpreter should not insist that the three cravings are the three temptations in so many words. The overlap is real, but it is a shared shape. What the passage offers about Christ is the pattern of refusal and the reality of victory, and both are drawn from the Gospels' own accounts, not read into John's list.",
+    "god": "The Father in this passage is the one who can be loved, and who is, in a sense, rivalled. The strongest picture John gives of God here is relational, not abstract: there are two possible loves for a human heart, and the Father is one of them. That suggests that God is not content with obedience alone. He wants the heart, which is why the Old Testament speaks of Him as a jealous God, Exodus 20:5, and why James calls friendship with the world a kind of adultery, James 4:4. The jealousy is not insecurity; it is the exclusivity of a covenant love that will not share its bride with something that cannot love her back.\n\nThe passage also shows the Father as the source of a different list of cravings. Verse 16 says the desires of the flesh, the eyes and pride are 'not from the Father.' That is a quiet doctrine of God's goodness: the Father is not the author of the cravings that ruin people. He is the giver of every good gift, so the same appetite that the world twists, He designed with a proper object. The things themselves are not the problem. The problem is the claim that they can be had apart from Him.\n\nJohn also shows God as the one whose will outlasts everything. Verse 17 says the world and its desires are passing, but the one who does His will remains forever. God's will is not a rule to be put up with but the one thing in the universe that does not decay. That makes the doctrine of God's immutability and eternity something practical: a person who aligns with His will is attached to the only thing that lasts. The Father's will is also gracious, since the same chapter says the promise He made is eternal life, 2:25.\n\nFinally, the passage holds together God's love for the world and His opposition to its system. He loved the world enough to send His Son, John 3:16, and opposes what the world has become, 5:19. That is the shape of holiness and mercy together. For worship, the passage invites a plain examination: what do I find most worth wanting, and is it something that will still be there when everything else is gone? The Father offers Himself as the answer.",
     "crossReferences": [
-      { "ref": "Matthew 6:24", "note": "No one can serve two masters; you cannot serve both God and money, the same undivided loyalty John presses." },
-      { "ref": "James 4:4", "note": "Friendship with the world is enmity with God, echoing that love of the world crowds out love for the Father." },
-      { "ref": "Matthew 4:1-11", "note": "Jesus refuses the cravings and pride the world offers, the pattern His people follow in not loving the world." },
-      { "ref": "Romans 12:2", "note": "Do not be conformed to this world but be transformed, and so discern and do the will of God that endures." }
+      {
+        "ref": "Matthew 6:24",
+        "note": "Jesus says no one can serve two masters and names God and money as the rivals. It states the incompatibility of verse 15 in the language of service: a heart can only be devoted to one, and the other will be despised."
+      },
+      {
+        "ref": "James 4:4",
+        "note": "James speaks of friendship with the world as hostility toward God and addresses readers as adulteresses. It supplies the covenant background of John's warning: love of the world is unfaithfulness to the one who has already given Himself."
+      },
+      {
+        "ref": "Genesis 3:6",
+        "note": "The tree was good for food, pleasing to the eyes and desirable for wisdom. The three motives line up with John's three cravings, and the verse shows how a single act of seizing can hold all three together."
+      },
+      {
+        "ref": "Luke 4:1-13",
+        "note": "The temptations of Jesus, with bread, the kingdoms of the world and the temple's pinnacle, mirror the flesh, the eyes and the pride of life. Jesus answers each one with Scripture, showing how the cravings are met."
+      },
+      {
+        "ref": "Romans 12:2",
+        "note": "Paul commands that believers not be conformed to this world but be transformed by the renewing of the mind. Where John states what not to love, Paul adds the positive means: a renewed mind that can test and approve God's will."
+      },
+      {
+        "ref": "1 Corinthians 7:31",
+        "note": "Paul says the world in its present form is passing away and tells believers to hold its goods lightly. It is the same clock John sets ticking in verse 17, put as a practical rule for marriage, grief, work and possessions."
+      },
+      {
+        "ref": "1 John 5:4-5",
+        "note": "The letter's later answer to its own warning: everyone born of God overcomes the world, and the victory is faith that Jesus is the Son of God. The command here is possible because of a prior victory that faith shares."
+      },
+      {
+        "ref": "Galatians 6:14",
+        "note": "Paul boasts only in the cross, through which the world has been crucified to him and he to the world. It shows the cure for the pride of life: a boast placed somewhere the world cannot reach."
+      },
+      {
+        "ref": "1 Timothy 6:9-10",
+        "note": "Those who want to be rich fall into foolish desires, and the love of money is a root of all kinds of evil. It is an example of how the desire of the flesh and eyes grows into ruin, and why John treats the matter as urgent."
+      },
+      {
+        "ref": "John 16:33",
+        "note": "Jesus tells His disciples they will have tribulation in the world but He has overcome it. The warning of verse 15 is not written by someone fleeing the world's strength but by those who follow the one who has already won."
+      }
     ],
-    "oneStory": "Since the garden the world has dangled what looks good to the eye and promises life apart from God. John names that ancient lure, craving and pride, and sets against it the will of God, done perfectly by Jesus who refused every offer and overcame the world. The world is already passing away; only what is done in line with God's will remains forever. To love the Father above the fading world is to belong to the one story that does not end.",
-    "sermon": { "status": "verified", "preacher": "Tim Keller", "title": "The Love of the World (Part 2)", "url": "https://gospelinlife.com/sermon/the-love-of-the-world-part-2/", "why": "Keller preaches this passage, 1 John 2:15-17, on what it means to love the world, the cravings and pride it offers, and the freedom of loving the Father whose will endures forever. A clear, gospel-centred handling of the text." }
+    "oneStory": "The story of the Bible begins with a good world and two people who are asked to trust their Maker, and it breaks when they believe the world can give them what the Maker has withheld. John's three cravings are the long afterlife of that moment. Every generation since has been offered the same bargain, appetite, sight and status apart from God, and every generation has had to say whether it will take it. This passage names that bargain and gives the reason to refuse it.\n\nThe same story includes the people of God being formed to love one thing. Israel is brought out of Egypt to belong to the LORD and warned again and again against the gods of the nations. The prophets keep watch over that love, and Hosea turns it into a marriage. When Jesus comes He lives the Shema perfectly, refuses the world in the wilderness and at the cross, and by His death casts out the prince of this world, John 12:31. The church that John addresses lives in the time between that victory and its full display. The world is still present, still attractive, and already condemned.\n\nThe letter then points on to what is coming. 'The world is passing away' is not a wish but a reading of where the story ends, with a new heaven and a new earth where the first things have passed away, Revelation 21:1-4. Everything in the world that was good will be given back, free of what spoiled it, while what belongs to the world's rebellion will be gone. The person who does the will of God does not lose the world at that point but receives it renewed, which is the meaning of 'remains forever.' Those who loved the world as an end in itself will find that they loved something that has gone.\n\nThat is why the command is not drab. Loving the Father is how a person takes hold of the only world that will last, and refusing the passing one is not loss but a way of keeping the gifts for the day they are made whole.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "Tim Keller",
+      "title": "The Love of the World (Part 2)",
+      "url": "https://gospelinlife.com/sermon/the-love-of-the-world-part-2/",
+      "why": "Keller preaches this passage, 1 John 2:15-17, on what it means to love the world, the cravings and pride it offers, and the freedom of loving the Father whose will endures forever. A clear, gospel-centred handling of the text."
+    }
   },
   "quiz": [
     {
       "q": "What does John mean by 'the world' that believers must not love?",
       "options": [
-        { "text": "The whole system of life organised against God, with its cravings and pride.", "weight": 100, "note": "Verse 16 defines it by desire and pride; it is the God-opposing order, not creation or people." },
-        { "text": "Other people in general, to be kept at a distance.", "weight": 75, "note": "It is not people as such, whom God loves; it is the godless system and its values." },
-        { "text": "The physical creation, which is evil and to be despised.", "weight": 25, "note": "Creation is good; John targets the sinful order, not the material world itself." },
-        { "text": "Anything enjoyable, since pleasure is sinful.", "weight": 0, "note": "John does not condemn enjoyment of God's gifts but love given to the godless world." }
+        {
+          "text": "The whole system of life organised against God, with its cravings and pride.",
+          "weight": 100,
+          "note": "Verse 16 defines it by desire and pride; it is the God-opposing order, not creation or people."
+        },
+        {
+          "text": "Other people in general, to be kept at a distance.",
+          "weight": 75,
+          "note": "It is not people as such, whom God loves; it is the godless system and its values."
+        },
+        {
+          "text": "The physical creation, which is evil and to be despised.",
+          "weight": 25,
+          "note": "Creation is good; John targets the sinful order, not the material world itself."
+        },
+        {
+          "text": "Anything enjoyable, since pleasure is sinful.",
+          "weight": 0,
+          "note": "John does not condemn enjoyment of God's gifts but love given to the godless world."
+        }
       ]
     },
     {
       "q": "According to verse 16, where do the world's cravings and pride come from?",
       "options": [
-        { "text": "From the world, not from the Father.", "weight": 100, "note": "John says plainly they are not from the Father but from the world." },
-        { "text": "From the Father, as good gifts to be pursued.", "weight": 0, "note": "The opposite; these cravings are expressly not from the Father." },
-        { "text": "From a neutral source with no spiritual significance.", "weight": 25, "note": "John treats them as spiritually significant, marking the world against the Father." },
-        { "text": "Partly from God and partly from the world.", "weight": 75, "note": "John draws a clean line; they are from the world, not a mixture." }
+        {
+          "text": "From the world, not from the Father.",
+          "weight": 100,
+          "note": "John says plainly they are not from the Father but from the world."
+        },
+        {
+          "text": "From the Father, as good gifts to be pursued.",
+          "weight": 0,
+          "note": "The opposite; these cravings are expressly not from the Father."
+        },
+        {
+          "text": "From a neutral source with no spiritual significance.",
+          "weight": 25,
+          "note": "John treats them as spiritually significant, marking the world against the Father."
+        },
+        {
+          "text": "Partly from God and partly from the world.",
+          "weight": 75,
+          "note": "John draws a clean line; they are from the world, not a mixture."
+        }
       ]
     },
     {
       "q": "Why is loving the world so foolish, according to verse 17?",
       "options": [
-        { "text": "Because the world is passing away, while the one who does God's will remains forever.", "weight": 100, "note": "To love the world is to bind your heart to what is already vanishing." },
-        { "text": "Because the world will always be here, so it is boring.", "weight": 0, "note": "The point is the opposite: the world is passing away, not permanent." },
-        { "text": "Because enjoying anything is always a distraction.", "weight": 25, "note": "The issue is misplaced love, not enjoyment as such." },
-        { "text": "Because the world sometimes disappoints us.", "weight": 75, "note": "Deeper than disappointment: the world is passing away entirely, while God's will endures." }
+        {
+          "text": "Because the world is passing away, while the one who does God's will remains forever.",
+          "weight": 100,
+          "note": "To love the world is to bind your heart to what is already vanishing."
+        },
+        {
+          "text": "Because the world will always be here, so it is boring.",
+          "weight": 0,
+          "note": "The point is the opposite: the world is passing away, not permanent."
+        },
+        {
+          "text": "Because enjoying anything is always a distraction.",
+          "weight": 25,
+          "note": "The issue is misplaced love, not enjoyment as such."
+        },
+        {
+          "text": "Because the world sometimes disappoints us.",
+          "weight": 75,
+          "note": "Deeper than disappointment: the world is passing away entirely, while God's will endures."
+        }
       ]
     },
     {
       "q": "What does John say cannot coexist in a person's heart?",
       "options": [
-        { "text": "Love for the world and the love of the Father.", "weight": 100, "note": "Verse 15: if anyone loves the world, the love of the Father is not in him." },
-        { "text": "Enjoyment of good gifts and gratitude to God.", "weight": 25, "note": "These can and should coexist; the clash is love of the godless world versus love for the Father." },
-        { "text": "Hard work and rest.", "weight": 0, "note": "This is not John's contrast at all." },
-        { "text": "Friendship with unbelievers and faithfulness to God.", "weight": 75, "note": "Loving people is right; it is devotion to the world's godless order that clashes with love for the Father." }
+        {
+          "text": "Love for the world and the love of the Father.",
+          "weight": 100,
+          "note": "Verse 15: if anyone loves the world, the love of the Father is not in him."
+        },
+        {
+          "text": "Enjoyment of good gifts and gratitude to God.",
+          "weight": 25,
+          "note": "These can and should coexist; the clash is love of the godless world versus love for the Father."
+        },
+        {
+          "text": "Hard work and rest.",
+          "weight": 0,
+          "note": "This is not John's contrast at all."
+        },
+        {
+          "text": "Friendship with unbelievers and faithfulness to God.",
+          "weight": 75,
+          "note": "Loving people is right; it is devotion to the world's godless order that clashes with love for the Father."
+        }
       ]
     }
   ],
@@ -141,9 +327,21 @@
     "Jesus refused the world's cravings and pride and calls us to follow. How does knowing that He already overcame the world help you resist its pull?"
   ],
   "translationNotes": [
-    { "ref": "1 John 2:15", "note": "'The world' here translates kosmos in the sense of the God-opposing order of life, distinct from the created world and the people God loves in John 3:16; context fixes the sense." },
-    { "ref": "1 John 2:16", "note": "'The pride of life' renders alazoneia, boastful pretension over one's possessions and status; the phrase describes arrogant self-display, not simply having possessions." },
-    { "ref": "1 John 2:17", "note": "'Is passing away' translates a present tense picturing the world already in the act of vanishing, set against 'remains forever', the same verb John uses for abiding in Christ." }
+    {
+      "ref": "1 John 2:15",
+      "note": "'The world' here translates kosmos in the sense of the God-opposing order of life, distinct from the created world and the people God loves in John 3:16; context fixes the sense."
+    },
+    {
+      "ref": "1 John 2:16",
+      "note": "'The pride of life' renders alazoneia, boastful pretension over one's possessions and status; the phrase describes arrogant self-display, not simply having possessions."
+    },
+    {
+      "ref": "1 John 2:17",
+      "note": "'Is passing away' translates a present tense picturing the world already in the act of vanishing, set against 'remains forever', the same verb John uses for abiding in Christ."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for 1 John 2:15-17. the pride of life, is not from the Father') are rendered as commas per Makor style." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for 1 John 2:15-17. the pride of life, is not from the Father') are rendered as commas per Makor style."
+  }
 }
