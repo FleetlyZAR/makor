@@ -18,7 +18,11 @@
         "note": "the letter's purpose",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 5, "n": 12, "text": "Through {{silouanos|Silvanus}}, whom I regard as a faithful brother, I have written to you briefly, encouraging you and testifying that this is the {{charis|true grace}} of God. Stand firm in it." }
+          {
+            "chapter": 5,
+            "n": 12,
+            "text": "Through {{silouanos|Silvanus}}, whom I regard as a faithful brother, I have written to you briefly, encouraging you and testifying that this is the {{charis|true grace}} of God. Stand firm in it."
+          }
         ]
       },
       {
@@ -26,18 +30,51 @@
         "note": "one chosen family in Christ",
         "emphasis": "",
         "verses": [
-          { "chapter": 5, "n": 13, "text": "The church in {{babylon|Babylon}}, chosen together with you, sends you greetings, as does my son Mark." },
-          { "chapter": 5, "n": 14, "text": "Greet one another with a {{philema|kiss of love}}. {{eirene|Peace}} to all of you who are in Christ." }
+          {
+            "chapter": 5,
+            "n": 13,
+            "text": "The church in {{babylon|Babylon}}, chosen together with you, sends you greetings, as does my son Mark."
+          },
+          {
+            "chapter": 5,
+            "n": 14,
+            "text": "Greet one another with a {{philema|kiss of love}}. {{eirene|Peace}} to all of you who are in Christ."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "silouanos": { "language": "Greek", "lemma": "Silouanos", "original": "Σιλουανός", "gloss": "Silvanus, also known as Silas, a trusted companion of both Paul and Peter. Peter writes through him, likely meaning Silvanus helped compose or carried and delivered the letter. Peter calls him a faithful brother, a mark of the trust placed in those who served the churches by bearing and commending apostolic letters." },
-    "charis": { "language": "Greek", "lemma": "charis alethes", "original": "χάρις ἀληθής", "gloss": "The true grace of God. Peter sums up the whole letter as a testimony to God's genuine grace, the grace that saves, sustains through suffering, and leads to glory. To call it true sets it apart from any counterfeit and grounds the final command: stand firm in this grace, do not drift from it." },
-    "babylon": { "language": "Greek", "lemma": "Babylon", "original": "Βαβυλών", "gloss": "Babylon, most likely a coded name for Rome, the great city from which Peter writes, echoing the Old Testament symbol of the world power opposed to God. Just as the readers are exiles, so the sending church lives in Babylon, a fitting image for the people of God dwelling as strangers in a hostile world." },
-    "philema": { "language": "Greek", "lemma": "philema agapes", "original": "φίλημα ἀγάπης", "gloss": "A kiss of love, the customary greeting of affection among early believers. Peter calls for it as an expression of the family bond that unites the church. In a scattered, suffering community, such tangible affection embodies the deep love he has commanded throughout the letter, marking believers as one household in Christ." },
-    "eirene": { "language": "Greek", "lemma": "eirene", "original": "εἰρήνη", "gloss": "Peace, wholeness, well-being, the deep shalom of God. Peter closes as he opened, with peace, now pronounced on all who are in Christ. It is the settled peace that suffering cannot take away, flowing from union with the risen Lord, and it forms a fitting last word to an embattled but secure people." }
+    "silouanos": {
+      "language": "Greek",
+      "lemma": "Silouanos",
+      "original": "Σιλουανός",
+      "gloss": "Silvanus, also known as Silas, a trusted companion of both Paul and Peter. Peter writes through him, likely meaning Silvanus helped compose or carried and delivered the letter. Peter calls him a faithful brother, a mark of the trust placed in those who served the churches by bearing and commending apostolic letters."
+    },
+    "charis": {
+      "language": "Greek",
+      "lemma": "charis alethes",
+      "original": "χάρις ἀληθής",
+      "gloss": "The true grace of God. Peter sums up the whole letter as a testimony to God's genuine grace, the grace that saves, sustains through suffering, and leads to glory. To call it true sets it apart from any counterfeit and grounds the final command: stand firm in this grace, do not drift from it."
+    },
+    "babylon": {
+      "language": "Greek",
+      "lemma": "Babylon",
+      "original": "Βαβυλών",
+      "gloss": "Babylon, most likely a coded name for Rome, the great city from which Peter writes, echoing the Old Testament symbol of the world power opposed to God. Just as the readers are exiles, so the sending church lives in Babylon, a fitting image for the people of God dwelling as strangers in a hostile world."
+    },
+    "philema": {
+      "language": "Greek",
+      "lemma": "philema agapes",
+      "original": "φίλημα ἀγάπης",
+      "gloss": "A kiss of love, the customary greeting of affection among early believers. Peter calls for it as an expression of the family bond that unites the church. In a scattered, suffering community, such tangible affection embodies the deep love he has commanded throughout the letter, marking believers as one household in Christ."
+    },
+    "eirene": {
+      "language": "Greek",
+      "lemma": "eirene",
+      "original": "εἰρήνη",
+      "gloss": "Peace, wholeness, well-being, the deep shalom of God. Peter closes as he opened, with peace, now pronounced on all who are in Christ. It is the settled peace that suffering cannot take away, flowing from union with the risen Lord, and it forms a fitting last word to an embattled but secure people."
+    }
   },
   "study": {
     "basic": {
@@ -51,83 +88,241 @@
       "oneStory": "The letter ends where God's story is heading: a chosen people, scattered in Babylon and across the provinces, held together by grace and love, resting in the peace of Christ. From exile toward homecoming, the church stands firm in the true grace of God, one family under one Lord, until the Chief Shepherd appears and the true grace gives way to unfading glory."
     },
     "context": {
-      "literary": "The closing follows the conventions of ancient letters: the mention of the secretary or bearer, greetings from the sending community, a call to a shared greeting, and a final blessing. Yet Peter fills them with theology. The summary phrase the true grace of God gathers the whole letter, and the final peace to those in Christ echoes the grace and peace of the opening, framing the letter as a whole.",
-      "historical": "Silvanus, or Silas, was a well-known coworker who had traveled with Paul and now serves Peter, showing the interconnected leadership of the early church. Babylon almost certainly denotes Rome, from which Peter writes, and Mark is the John Mark associated with both Peter and Paul. The kiss of love was the ordinary warm greeting of the early Christian assemblies.",
-      "canonical": "The ending links Peter's circle to the wider apostolic network, including Silas and Mark, and its use of Babylon for Rome anticipates the same symbolism in Revelation. The summary of the gospel as the true grace of God and the closing peace place this brief conclusion firmly within the New Testament's pattern of grounding all Christian life in grace and peace through Christ."
+      "literary": "These three verses are the letter's postscript, and they close the letter in the same key it opened. The first verses of the letter, 1 Peter 1:1-2, named a sender, a set of recipients scattered across five provinces, the Father, the Spirit and Christ, and a blessing of 'grace and peace' in abundance. The last verses return to every one of these. The sender gives his helper's name, the recipients are named again as those who are 'chosen,' the exile theme comes back under the name of Babylon, and the blessing returns as peace. The pair 'grace' and 'peace' that framed the greeting is now split across the ending, grace in verse 12 and peace in verse 14.\n\nVerse 12 is the only place where Peter says what he has been doing. Three participles carry the weight, 'encouraging,' 'testifying,' and, in the command that closes it, 'stand firm.' He calls his writing an appeal and a witness, not a lecture, and he names the content in one phrase, the true grace of God. The summary is not an afterthought; it is the key to the five chapters before it, which have moved from the grace that gave a living hope, 1:3, to the God of all grace who restores, 5:10.\n\nVerses 13 and 14 are the formal sign off of an ancient letter, greetings from those with the writer and greetings among those who receive it. A small chiastic feel is possible: from the church that sends, to a man, Mark, who sends, to the readers' own act of greeting, to peace on all. The movement goes from the writer outward and then inward to the readers, from far to near, and the final word falls on all of them together, 'all of you who are in Christ.'\n\nThe ending also keeps the letter's habit of naming small details that carry theology: 'briefly,' 'faithful,' 'chosen together,' 'my son,' 'kiss of love.' Each phrase describes a relationship, not a doctrine, and together they show what the true grace of God looks like when it lands in a human community.",
+      "historical": "Ancient letters were rarely written by the sender's own hand. Paul dictated Romans to Tertius, who adds his own greeting, Romans 16:22, and he sometimes picked up the pen himself to sign, 1 Corinthians 16:21 and Galatians 6:11. Peter, a Galilean fisherman, wrote to provinces where Greek was the common tongue, so it is natural that he leaned on a skilled helper. Silvanus is the Latin form of the name Silas. He was a leading man in the Jerusalem church, Acts 15:22, was chosen to carry the apostles' letter to Antioch, and then travelled with Paul, was beaten and jailed at Philippi, and prayed and sang there at midnight, Acts 16:25. Paul uses the form Silvanus in his own letters, 1 Thessalonians 1:1 and 2 Corinthians 1:19. He had worked with both Paul and Peter, which made him an ideal bridge for a letter meant to confirm one gospel in many churches.\n\nLetters were also carried by hand, over long distances and by people the senders trusted. The route of the first readers, 1 Peter 1:1, loops from Pontus around to Bithynia, and whoever carried the letter had to be someone able to explain and, if needed, read it aloud.\n\nMark appears in Acts as John Mark, whose mother's house served as a prayer gathering in Jerusalem, Acts 12:12. He left Paul and Barnabas on the first journey, Acts 13:13, and that caused the sharp parting in Acts 15:37-39, but he was later welcomed back by Paul, Colossians 4:10, Philemon 24, and 2 Timothy 4:11. Peter calls him 'my son,' which most take as a spiritual son, a man he had led or trained. Early Christian writers from the second century linked Mark with Peter's teaching, a tradition that sits comfortably with this verse.\n\n'Babylon' was by this time a loaded name. The old city on the Euphrates was no longer a world power, yet Jewish writers after the destruction of the Temple used the name for Rome, the new empire that had taken Jerusalem. A Christian audience hearing that name would have heard the word 'exile.'",
+      "canonical": "The final verses of the letter reach back into the Old Testament and forward into the rest of the New. The first biblical Babylon is Babel, Genesis 11:9, the city whose name means confusion and where the nations were scattered. Babylon later takes Judah into exile, and Psalm 137:1 gives the grief of the exiles in a single line, 'By the rivers of Babylon we sat and wept when we remembered Zion.' Jeremiah then wrote to those exiles, telling them to settle, build, and seek the good of the city, Jeremiah 29:4-7, and promised that after seventy years God would restore them, Jeremiah 29:10. Peter's letter takes up that strategy for a new exile, sojourners who must live among the nations without becoming of them, 1 Peter 2:11-12.\n\nLater Scripture lets Babylon stand for every proud, godless power. Jeremiah 51:6-9 calls the people to flee her and not be destroyed in her judgment. In Revelation 14:8, 17:5 and 18:2 the name belongs to the great city that corrupts the nations and is brought down. The Bible's use of the name runs from the first scattering to the last fall, and Peter places the church in the middle of that line.\n\nThe holy kiss is a greeting Paul used at the close of several letters, Romans 16:16, 1 Corinthians 16:20, 2 Corinthians 13:12, and 1 Thessalonians 5:26. Peter's phrase is a kiss of love, so the same family practice carries a different adjective in each apostle.\n\nPeace is the closing word of the Old Testament's great blessing, Numbers 6:24-26. Jesus promises it in a form the world cannot give, John 14:27, and says that in Him we will have it though we meet tribulation in the world, John 16:33. Paul says Christ Himself is our peace, Ephesians 2:14. The ending of 1 Peter gathers all of this into three words, 'in Christ.'"
     },
     "hermeneutics": {
-      "authorIntent": "To identify the letter's bearer and coauthor, to state its purpose as a testimony to the true grace of God in which the readers must stand firm, and to bind scattered, suffering believers into one chosen family marked by love and the peace of Christ.",
-      "descriptionVsPrescription": "The closing is mostly description, naming people and sending greetings, but it contains two key commands: stand firm in the true grace of God, and greet one another with a kiss of love. The first tells readers how to hold the whole letter; the second calls for tangible expression of the love commanded throughout.",
+      "authorIntent": "Peter's closing words are written to people who may feel that they are small and forgotten, so he states his purpose plainly and gives them company. The purpose is not to inform but to anchor. He has written briefly, but what he has written is meant to leave them standing in something real, not leaning on a rumour. He tells them that this is the true grace of God, which means that the blessings and the suffering they have been reading about belong together. They are not in the grace of God in spite of the trials; the trials are the setting in which grace is proved.\n\nBy naming Silvanus and Mark he gives the readers faces. These are people who share both the work and the risk. By sending greetings from 'the church in Babylon' he reminds scattered believers in Asia Minor that they are not the only ones living as strangers in an empire that does not share their faith. The word 'chosen together with you' makes the point from the other side: the church in Rome and the churches of Pontus and Galatia are one chosen people.\n\nThe kiss and the peace direct the readers' attention to one another. A letter that has been about public conduct among hostile neighbours ends with a command about private tenderness inside the family. Peter wants them to leave hearing that their steadiest protection is not a strategy but a community in which people are known, greeted, and wished well.",
+      "descriptionVsPrescription": "The two imperatives in this section are direct: stand firm in the true grace of God, and greet one another with a kiss of love. The first is for every reader in every generation. The second is more culturally shaped. Paul and Peter both tell their churches to greet in this way, but what is commanded is a warm, family greeting, and the particular form, a kiss, was a normal sign of affection in that world. Many churches have kept the form, and many have kept the substance in a handshake, an embrace or a word. The command is to show real love, in a manner the culture recognises as warm and not as flirtation or formality.\n\nThe rest of the passage is description. Silvanus's role, Mark's presence, and the church in Babylon tell us who was around Peter and what the letter's circumstances were, and they should not be turned into rules about how letters are to be written or where churches are to be found. The use of 'Babylon' tells us how an early Christian read the world around him, and it does not give us a code for every later city. Where Revelation or the prophets use the name, the context decides the meaning.\n\nThe peace pronounced at the end is a blessing, not a command. Peter does not tell the readers to feel peace; he declares it over them as something that belongs to those who are in Christ.",
       "debates": [
         {
-          "question": "What does Babylon refer to in verse 13?",
+          "question": "What is 'Babylon' in verse 13?",
           "views": [
-            { "label": "A symbolic name for Rome", "case": "Most hold that Babylon is a coded reference to Rome, the great world power and place of exile for God's people, fitting the letter's theme of Christians as sojourners and matching the same usage in Revelation." },
-            { "label": "The literal city of Babylon or another location", "case": "A minority take it as the actual city in Mesopotamia, or occasionally another place, arguing for a plain reading. Even so, the theological point of God's people in exile stands regardless of the precise location." }
+            {
+              "label": "A coded name for Rome",
+              "case": "Jewish writers after AD 70 used Babylon for Rome, since both had destroyed Jerusalem and the Temple, and Revelation 17:5 and 18:2 use the name for a great city of power. Early Christian tradition places Peter in Rome toward the end of his life, and a code name would have protected a church under threat from Roman authority."
+            },
+            {
+              "label": "The literal city on the Euphrates",
+              "case": "Babylon is mentioned as a place name with no sign that the word is symbolic, and there was a large Jewish community in Mesopotamia. Peter's mission to the circumcised, Galatians 2:7-8, might have taken him east. Taking the name at face value avoids guessing at a code."
+            },
+            {
+              "label": "Another city, such as a place in Egypt",
+              "case": "A small fortress town called Babylon stood on the Nile, and a few have wondered if Peter meant it. There is little to support it, and it is the least held of the three."
+            }
           ],
-          "bearing": "Whether symbolic or literal, the phrase places the sending church, chosen together with the readers, among God's people living faithfully in exile, awaiting their true home."
+          "bearing": "Most Christians through history have taken it as Rome, because the letter's whole theme is exile and because the word chosen with the readers fits the symbolic key. The meaning holds either way: the church where Peter writes is a body of strangers in a powerful, pagan city, and it is bound to the readers by election."
         },
         {
-          "question": "What is the role of Silvanus, written through Silvanus, verse 12?",
+          "question": "What did Silvanus do, 'through' whom Peter wrote?",
           "views": [
-            { "label": "Secretary and or letter carrier", "case": "Through Silvanus likely means he served as the amanuensis who helped compose the letter, or as the trusted bearer who delivered and commended it to the churches, or both. Peter's calling him a faithful brother fits either role." },
-            { "label": "A trusted coworker lending his hand", "case": "Others stress the shared labor of the apostolic mission: Silvanus, known from Paul's circle, contributes his skill and standing, so the letter reflects Peter's authority conveyed through a faithful team member." }
+            {
+              "label": "Secretary who shaped the wording",
+              "case": "The Greek of 1 Peter is polished, and a Galilean fisherman who spoke Aramaic might well have given a trained associate a free hand. Secretaries in the ancient world varied from stenographers to co-composers. Silvanus's long work with Paul would explain some shared vocabulary."
+            },
+            {
+              "label": "Courier who delivered and explained the letter",
+              "case": "The phrase 'through Silvanus' can name the one who carried the letter, as in Acts 15:22-23, where the Jerusalem church sent its letter with chosen men. Peter commends him as faithful, which suits a trusted messenger charged to read and explain."
+            },
+            {
+              "label": "Both",
+              "case": "The two roles overlap and nothing forces a choice. A trusted man might write at Peter's direction and also carry the letter to the churches, answering their questions on arrival."
+            }
           ],
-          "bearing": "Either way, the note shows how apostolic letters reached the churches through trusted brothers, and it commends Silvanus as faithful, modeling the reliable service the whole letter calls for."
+          "bearing": "Either way Peter takes responsibility for the message, 'I have written,' and offers it as his own testimony. The reading does not affect the letter's authority, and it adds to our picture of how apostolic letters reached the churches."
+        },
+        {
+          "question": "Is the final command 'Stand firm in it' or the statement 'in which you stand'?",
+          "views": [
+            {
+              "label": "An imperative: stand firm",
+              "case": "This is the reading the BSB follows, and it suits the letter's repeated calls to hold fast, 5:9 and 5:10. It fits the preceding purpose clause, 'encouraging you,' since encouragement ends in a command."
+            },
+            {
+              "label": "A statement: in which you stand",
+              "case": "A different form of the Greek verb, supported by some manuscripts, would read 'the true grace of God in which you stand,' as in Romans 5:2. It describes the readers' present position instead of commanding it."
+            }
+          ],
+          "bearing": "The difference is small. Either way the readers are in grace and are to remain there, and Romans 5:2 shows that Paul and Peter share the picture of grace as ground on which one stands."
         }
       ]
     },
-    "originalLanguages": "Peter writes through Silouanos, Silvanus, whom he commends as a faithful brother, whether as the one who helped compose the letter or carried it to the churches. He names the letter's whole aim: it testifies to the charis alethes, the true grace of God, and the command follows, stand firm in it. Greetings come from the church in Babylon, chosen together with the readers, a name that most likely veils Rome and evokes exile. Believers are to greet one another with a philema agapes, a kiss of love, the family embrace of the church, and the letter closes with eirene, peace, to all who are in Christ, the deep shalom that suffering cannot steal.",
+    "originalLanguages": "The name 'Silvanus' in the Greek is Silouanos, the Latin Silvanus written in Greek letters, and it is the form Paul uses of the same man in 1 Thessalonians 1:1 and 2 Corinthians 1:19. Acts calls him Silas, 15:22 and 15:40, a shorter form that probably served as his name among Greek and Aramaic speakers. The phrase 'through Silvanus I have written' puts a preposition, dia, before his name; it means by or through the agency of, and it can describe a scribe, a co-author or a bearer, as the debate on this verse shows. Peter adds 'whom I regard,' from logizomai, a verb of reckoning or judging, so his commendation is a considered verdict, 'a faithful brother in my estimation.'\n\nThe words 'I have written briefly' translate di' oligou, literally 'through a little.' The same idea shows in Hebrews 13:22, where the writer asks his readers to bear with a word of exhortation and says he has written 'briefly.' It may be modest, since five chapters are not so short, or it may reflect the ancient courtesy of calling any letter brief. Two verbs describe the letter's purpose, parakalon, 'encouraging' or exhorting, and epimartyron, 'testifying,' a stronger word that adds the idea of bearing witness upon something. Peter does both, he comforts and he attests.\n\nThe object of that testimony is alethe charis, 'true grace.' The adjective alethes can mean true as opposed to false or real as opposed to counterfeit. There may be a contrast with what rival teachers offered, but Peter names none here. The phrase directs the readers to the grace they received in the gospel, which is the same grace that the prophets spoke of, 1 Peter 1:10, and that has been the subject of the letter. A small textual variation is found in the next words, where the Greek can be read as 'stand in it' or 'in which you stand,' a point taken up in the debates.\n\nThe 'church' of verse 13 is not actually in the Greek. Peter writes that she who is in Babylon, syneklekte, 'co-chosen,' sends greetings. The word is feminine and has an implied noun, and almost all take it as the church, as the BSB supplies. The prefix syn- means with, so the church in Babylon is chosen together with the readers; the Greek 'elect' of 1 Peter 1:1, eklektois, is now carried by a compound. Peter's 'my son Mark' uses huios, son, in the sense of spiritual child; Paul speaks the same way of Timothy and Titus, 1 Timothy 1:2 and Titus 1:4.\n\n'Kiss of love' is philema agapes. The word philema, a kiss, is the normal family greeting, and Paul's phrase is philema hagion, holy kiss, Romans 16:16. Peter swaps the adjective for the noun, agape, which has been the controlling word of his letter, 1 Peter 1:22 and 4:8.\n\nFinally, 'peace' is eirene, and behind it stands the Hebrew shalom, wholeness and well being, the word of Numbers 6:26. The blessing is for all 'in Christ,' en Christo, a phrase Peter uses only three times in this letter, 3:16, 5:10 and 5:14. It is no accident that two of them frame the closing section. Union with Christ is the sphere of the glory in verse 10 and the sphere of the peace in verse 14.",
     "typology": [
-      { "type": "Babylon as the place of exile", "fulfillment": "The Old Testament symbol of the proud world power and the captivity of God's people, embodied now in the church living faithfully as exiles in Rome and throughout the world." },
-      { "type": "The chosen sending church", "fulfillment": "God's one elect people, scattered yet united, chosen together across cities and provinces, awaiting the homecoming the whole letter anticipates." }
+      {
+        "type": "Babylon, the city of exile and pride, Genesis 11:9 and Revelation 18:2",
+        "fulfillment": "Babylon begins as Babel, the city of scattering, then becomes the empire that carried Judah away, and finally the picture of every proud power that persecutes God's people. Peter's use of the name is not a prediction but a recognition that the church lives in the same position as the exiles who wept by Babylon's rivers, Psalm 137:1. The escalation in Christ is that the exiles are now a chosen people who already belong to the kingdom, and their return is to 'the city that is to come,' Hebrews 13:14. The type is incomplete in that the church has no commanded return to a land; its homeland is above."
+      },
+      {
+        "type": "Peace, the priestly blessing, Numbers 6:24-26",
+        "fulfillment": "The priests were told to bless Israel, ending, 'may the LORD lift up His countenance toward you and give you peace.' Peter closes with a pastoral version of the same blessing, but he gives the peace to those 'in Christ.' Paul explains the fulfilment: Christ 'Himself is our peace,' making peace and reconciling both Jew and Gentile to God through the cross, Ephesians 2:14-16. Jesus gives what the world cannot, John 14:27. The type falls short because the priests could only pronounce a hope; Christ makes the peace that He gives."
+      },
+      {
+        "type": "The kiss of the reunited family, Genesis 45:15",
+        "fulfillment": "When Joseph made himself known to the brothers who had sold him, 'Joseph kissed each of his brothers as he wept over them,' and the scattered family became one again. The kiss in the Old Testament often seals reconciliation, as with Esau and Jacob, Genesis 33:4, and with the father who runs to the returning son, Luke 15:20. Peter's churches were made up of Jews and Gentiles who had been strangers, and the apostle tells them to greet one another as a family. The correspondence is one of pattern, not prediction, and it is fulfilled in the one new family that Christ makes, Ephesians 2:15-16."
+      }
     ],
-    "christ": "Christ is the content and center of the true grace of God that the whole letter commends, His sufferings and glory, His atoning death, resurrection, and reign. The closing peace is granted specifically to those who are in Christ, making union with Him the very sphere in which peace is enjoyed. Everything Peter has written, and everything he now commends his readers to stand firm in, rests entirely on what Christ has done and on belonging to Him.",
-    "god": "God is the source of the true grace to which the whole letter bears witness, and the giver of the peace that closes it. He is the God who chooses, so that the sending church is chosen together with the readers, one elect people scattered across the world. In this brief ending He is shown as gracious, choosing, and peace-giving, gathering a suffering, scattered family into unity and holding them fast in His genuine grace until glory.",
+    "christ": "The ending of the letter is easy to read as a list of names, but its centre is Christ, who is named in the last words. 'In Christ' is the clause that carries all the weight. The peace pronounced at the end is not a general good wish but a peace that belongs to a place, and the place is union with Christ. That is the same language Peter uses of the glory in verse 10, where God has called His people 'to His eternal glory in Christ,' and of the good behaviour the readers are urged to show 'in Christ,' 3:16. The grace and the peace are both given in Him.\n\nPeter also says what the true grace of God is by implication. He has told the readers that they were redeemed 'with the precious blood of Christ, a lamb without blemish or spot,' 1 Peter 1:18-19, that Christ 'bore our sins in His body on the tree,' 2:24, and that He suffered 'once for all, the righteous for the unrighteous, to bring you to God,' 3:18. To say that this is the true grace is to say that grace has a name and a face and a history, and is not an attitude. Grace is what Christ did, and the closing command to stand firm in it is a command to stay in Christ.\n\nThe peace in verse 14 echoes the words of the risen Lord to His disciples, 'Peace be with you,' John 20:19, and the promise of John 16:33, that in Him they might have peace though in the world they would have tribulation. Peter was among the disciples to whom those words were first spoken, after his denial. The peace he pronounces is not a wish from a man who has no knowledge of failure but the gift of a Lord who came back to those who had failed Him.\n\nEven the details of the sign off point to Him. Mark and Silvanus, men once divided, Acts 15:37-39, now share a single work, and that reconciliation is a small witness to the peace Christ makes, Ephesians 2:14-16. The kiss of love is a sign of the family that He has gathered, from Jews and Gentiles, from Rome and the provinces. Christ's love for the church, Ephesians 5:25, is what the kiss expresses.\n\nA caution about the reading: this is not allegory. The text does not turn Silvanus or Babylon into Christ. The link is through the phrase 'in Christ' and through what the whole letter has said about the grace revealed in Him.",
+    "god": "The first thing the closing verses show about God is that He is the giver of grace and that His grace is real. Peter sums up the letter as 'the true grace of God,' and the possessive is deliberate. The grace belongs to God, begins in Him, and flows from Him to a people who had no claim on it. The letter has already called Him 'the God of all grace' in 5:10, and this verse completes the thought: the grace of the God who chooses, calls, sustains, and finishes is true because He is true.\n\nHe is a God who chooses. The 'chosen together with you' of verse 13 takes up the opening of the letter, which spoke of the elect chosen 'according to the foreknowledge of God the Father,' 1 Peter 1:1-2. Election in the letter is never presented as a private privilege. It makes a family. The church in Babylon and the churches of Asia Minor have never met, yet they share one calling, and the word of the One who called them binds them together. God's choice creates a community, and the community greets itself with love.\n\nHe is a God who gives peace. In the Bible peace is first a name of God, and the blessing of Numbers 6:26 says that He lifts up His face toward His people and gives it. Paul calls Him 'the God of peace' more than once, Romans 16:20 and 1 Thessalonians 5:23, and the author of Hebrews uses the same title, Hebrews 13:20. Peter's last word is the gift of that God. It is not the absence of trouble, since the whole letter has said that trouble will come, but the settled security of those who are in Christ.\n\nHe is a God who works through ordinary people. A faithful brother carries the letter, a young man once rejected for failing, now useful, stands at the writer's side, and a church in a great city sends its greetings. None of them is a hero, and each of them is mentioned by name. God does not need a spectacle to hold His people together. He uses a letter, a messenger, a family greeting and a shared work.\n\nHe is a God who keeps His people standing. The command 'stand firm' is not a call to hold on by effort alone, because the verb is joined to the grace in which they stand. The same God who earlier promised to 'establish' them, 5:10, now tells them to remain in what He has established. His commands and His promises are two sides of one care.\n\nFor worship, this means that the proper response to this ending is thanks. The believer who reads a final greeting and hears in it the word 'grace' is meant to leave the page thankful, not anxious, and to turn from the page to the people nearby with warmth.",
     "crossReferences": [
-      { "ref": "Acts 15:22-40", "note": "Silas, the Silvanus of verse 12, a leading brother sent to strengthen the churches and later a companion in mission." },
-      { "ref": "Revelation 17:5", "note": "Babylon as the symbolic name for the great world power opposed to God, matching the likely reference in verse 13." },
-      { "ref": "Romans 16:16", "note": "Greet one another with a holy kiss, the Christian greeting Peter calls a kiss of love." },
-      { "ref": "John 14:27", "note": "Christ's gift of peace to His own, the peace Peter pronounces on all who are in Christ." }
+      {
+        "ref": "1 Peter 1:1-2",
+        "note": "The opening of the letter names the sender, the elect exiles across five provinces, the Father, the Spirit and Christ, and prays that grace and peace may be multiplied. The ending returns to all of this, to the chosen, the exile theme under the name of Babylon, and the peace, so that the letter closes with the same blessing with which it began."
+      },
+      {
+        "ref": "Acts 15:22",
+        "note": "Silas appears here as one of two leading men chosen by the Jerusalem church to carry its letter to Antioch. The man who delivered the apostles' decision to the churches is the one who now helps Peter with a letter. His history shows why Peter calls him faithful."
+      },
+      {
+        "ref": "Acts 12:12",
+        "note": "After Peter's release from prison, he went to the house of Mary the mother of John Mark, where many were praying. The link between Peter and the household of Mark goes back to this scene, which helps explain why Peter can call Mark 'my son.'"
+      },
+      {
+        "ref": "2 Timothy 4:11",
+        "note": "Near the end of his life Paul asks that Mark be brought, since he is useful for the ministry. Mark, who had once left the work, Acts 13:13, is now wanted by both great apostles. His presence beside Peter in 1 Peter 5:13 is a quiet picture of failure turned into service."
+      },
+      {
+        "ref": "Romans 16:16",
+        "note": "Paul tells the Roman believers to greet one another with a holy kiss, and adds that all the churches of Christ send greetings. The same shape, a greeting within the church and greetings from other churches, is in Peter's close, showing that both apostles are using one common practice."
+      },
+      {
+        "ref": "Psalm 137:1",
+        "note": "The grief of the exiles in Babylon, who sat and wept as they remembered Zion. Peter's use of the name Babylon draws on this memory. The church lives as an exile, and the longing in the psalm becomes the church's longing for the city to come."
+      },
+      {
+        "ref": "Jeremiah 29:4-7",
+        "note": "Jeremiah's letter to the exiles tells them to build houses, plant gardens and seek the prosperity of the city where they have been sent. Peter's counsel in the letter, to honour the king and do good among hostile neighbours, 1 Peter 2:11-17, follows this strategy for living faithfully in a city that is not home."
+      },
+      {
+        "ref": "Revelation 18:2",
+        "note": "An angel cries, 'Fallen, fallen is Babylon the great!' The name that Peter uses for the place of exile becomes in Revelation the name of the city whose power is broken. The church that shares the greeting of Babylon in 1 Peter will see Babylon fall."
+      },
+      {
+        "ref": "John 14:27",
+        "note": "Jesus gives His peace and says He does not give as the world gives. Peter, who heard it, ends his letter with the same gift. The peace of verse 14 is not a convention but the particular peace of Christ, which holds when hearts are troubled."
+      },
+      {
+        "ref": "Ephesians 2:14-17",
+        "note": "Christ Himself is our peace; He tore down the wall between Jew and Gentile and made one new humanity through the cross. This is the ground of Peter's closing wish and of the kiss of love, since the family he addresses is a family that Christ has made."
+      },
+      {
+        "ref": "Numbers 6:24-26",
+        "note": "The priestly blessing ends with the LORD giving peace. Peter closes his letter with a priestly word, in keeping with his description of the church as a holy priesthood, 1 Peter 2:5 and 2:9, and he gives the peace to all who are in Christ."
+      },
+      {
+        "ref": "2 Peter 3:18",
+        "note": "Peter's second letter ends with a command very close in spirit to 1 Peter 5:12: grow in the grace and knowledge of our Lord and Savior. The two letters bracket the same concern, that believers remain in the grace they have received."
+      }
     ],
-    "oneStory": "The letter ends pointing where the whole story is going: a chosen people, scattered in Babylon and across the provinces, bound together by grace and love and resting in the peace of Christ. From exile toward homecoming, the church stands firm in the true grace of God, one family under one Lord. The final peace to those in Christ is a foretaste of the unfading glory that will come when the Chief Shepherd appears and the pilgrimage of God's exiles is ended at last.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "The Bible begins with a family in a garden and a God who walks with them, and the whole story that follows is the story of how that family is scattered and gathered. The scattering starts in Babel, Genesis 11:8-9, and it deepens in the exile to Babylon, where the people of God sit by foreign rivers. Behind both is the earlier separation from Eden, east of the garden. The Bible's name for the place of exile is Babylon, and the Bible's longing is to be gathered, Ezekiel 34:12.\n\nJesus comes to gather. He says that He will draw people to Himself and bring other sheep into one flock, John 10:16 and 12:32, and He prays that His people may be one, John 17:21. The church of Peter's letter is that gathering in its early stage, Jews and Gentiles, scattered through five provinces, and linked to a church in the heart of the world's power by nothing but election and love. The greetings of verse 13 are the first signs of what the gospel does: it makes a family out of strangers.\n\nThe letter also treats Babylon honestly. The church is not told to flee the city or to rule it. It is told to live as a people whose home is elsewhere, doing good, suffering without revenge, and offering a different kind of life, 1 Peter 2:11-12. The old strategy of Jeremiah 29 is the strategy of the new people, and it is held in place by hope. God will bring His people home as He promised after seventy years, Jeremiah 29:10, and the new home is not a rebuilt Jerusalem but 'a new heaven and a new earth,' 2 Peter 3:13.\n\nThe story ends where the letter's last word points. Babylon falls, Revelation 18:2. The scattered people are gathered from every tribe and tongue, Revelation 5:9-10. The peace that Christ gives in part now is given in full, as God dwells with His people and wipes away every tear, Revelation 21:3-4. They will see His face, Revelation 22:4, and the kiss of love will not need to be a sign of a family partly gathered. It will be the greeting of a family complete, in the city whose light is the Lord God Himself, Revelation 22:5.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "How does Peter sum up the purpose of his whole letter?",
       "options": [
-        { "text": "As a testimony that this is the true grace of God, in which they must stand firm.", "weight": 100, "note": "Verse 12: the letter's aim is to testify to God's true grace and call them to stand fast." },
-        { "text": "As a set of rules to earn God's approval.", "weight": 0, "note": "The summary is grace to stand firm in, not rules to earn favor." },
-        { "text": "As general advice they may take or leave.", "weight": 25, "note": "He commands them to stand firm in it, not merely consider it." },
-        { "text": "As encouragement to hold fast to God's genuine grace.", "weight": 75, "note": "True to the sense, though the answer should name the true grace of God and the call to stand firm." }
+        {
+          "text": "As a testimony that this is the true grace of God, in which they must stand firm.",
+          "weight": 100,
+          "note": "Verse 12: the letter's aim is to testify to God's true grace and call them to stand fast."
+        },
+        {
+          "text": "As a set of rules to earn God's approval.",
+          "weight": 0,
+          "note": "The summary is grace to stand firm in, not rules to earn favor."
+        },
+        {
+          "text": "As general advice they may take or leave.",
+          "weight": 25,
+          "note": "He commands them to stand firm in it, not merely consider it."
+        },
+        {
+          "text": "As encouragement to hold fast to God's genuine grace.",
+          "weight": 75,
+          "note": "True to the sense, though the answer should name the true grace of God and the call to stand firm."
+        }
       ]
     },
     {
       "q": "Who is Silvanus in relation to the letter?",
       "options": [
-        { "text": "A faithful brother through whom Peter wrote, likely helping compose or carrying it.", "weight": 100, "note": "Verse 12: Peter writes through Silvanus, commending him as faithful." },
-        { "text": "The main recipient of the letter.", "weight": 0, "note": "The recipients are the scattered churches; Silvanus is the bearer or coauthor." },
-        { "text": "An opponent Peter is warning against.", "weight": 25, "note": "He is commended as a faithful brother, not opposed." },
-        { "text": "A trusted coworker serving the churches.", "weight": 75, "note": "True, though the answer should note he is the one through whom Peter wrote." }
+        {
+          "text": "A faithful brother through whom Peter wrote, likely helping compose or carrying it.",
+          "weight": 100,
+          "note": "Verse 12: Peter writes through Silvanus, commending him as faithful."
+        },
+        {
+          "text": "The main recipient of the letter.",
+          "weight": 0,
+          "note": "The recipients are the scattered churches; Silvanus is the bearer or coauthor."
+        },
+        {
+          "text": "An opponent Peter is warning against.",
+          "weight": 25,
+          "note": "He is commended as a faithful brother, not opposed."
+        },
+        {
+          "text": "A trusted coworker serving the churches.",
+          "weight": 75,
+          "note": "True, though the answer should note he is the one through whom Peter wrote."
+        }
       ]
     },
     {
       "q": "What does Babylon most likely refer to in verse 13?",
       "options": [
-        { "text": "Rome, a symbolic name fitting the letter's theme of exile.", "weight": 100, "note": "Most read Babylon as coded for Rome, echoing the exile motif and Revelation." },
-        { "text": "The literal ancient city in Mesopotamia only.", "weight": 25, "note": "A minority view; even so, the point of God's people in exile stands." },
-        { "text": "A purely fictional place with no meaning.", "weight": 0, "note": "It carries rich meaning as the symbol of the world power and exile." },
-        { "text": "The great world power where God's people dwell as strangers.", "weight": 75, "note": "True to the symbolism, though the answer should identify it as Rome." }
+        {
+          "text": "Rome, a symbolic name fitting the letter's theme of exile.",
+          "weight": 100,
+          "note": "Most read Babylon as coded for Rome, echoing the exile motif and Revelation."
+        },
+        {
+          "text": "The literal ancient city in Mesopotamia only.",
+          "weight": 25,
+          "note": "A minority view; even so, the point of God's people in exile stands."
+        },
+        {
+          "text": "A purely fictional place with no meaning.",
+          "weight": 0,
+          "note": "It carries rich meaning as the symbol of the world power and exile."
+        },
+        {
+          "text": "The great world power where God's people dwell as strangers.",
+          "weight": 75,
+          "note": "True to the symbolism, though the answer should identify it as Rome."
+        }
       ]
     },
     {
       "q": "What is Peter's final word to his readers?",
       "options": [
-        { "text": "Peace to all of you who are in Christ.", "weight": 100, "note": "Verse 14: the letter closes with peace to those in Christ." },
-        { "text": "A warning of certain doom.", "weight": 0, "note": "He ends with peace, not doom." },
-        { "text": "A demand for stricter obedience.", "weight": 25, "note": "The last word is peace, resting on union with Christ." },
-        { "text": "A blessing of well-being grounded in union with Christ.", "weight": 75, "note": "True to the sense, though the answer should name peace to those in Christ specifically." }
+        {
+          "text": "Peace to all of you who are in Christ.",
+          "weight": 100,
+          "note": "Verse 14: the letter closes with peace to those in Christ."
+        },
+        {
+          "text": "A warning of certain doom.",
+          "weight": 0,
+          "note": "He ends with peace, not doom."
+        },
+        {
+          "text": "A demand for stricter obedience.",
+          "weight": 25,
+          "note": "The last word is peace, resting on union with Christ."
+        },
+        {
+          "text": "A blessing of well-being grounded in union with Christ.",
+          "weight": 75,
+          "note": "True to the sense, though the answer should name peace to those in Christ specifically."
+        }
       ]
     }
   ],
@@ -139,9 +334,21 @@
     "The letter ends with peace to all who are in Christ. Where do you most need Christ's peace right now, the peace that suffering cannot take away?"
   ],
   "translationNotes": [
-    { "ref": "1 Peter 5:12", "note": "Through Silvanus indicates his role as secretary or letter carrier, or both; Silvanus is the same coworker called Silas in Acts." },
-    { "ref": "1 Peter 5:13", "note": "The church in Babylon renders literally she who is in Babylon, taken by most as the church in Rome, with Babylon as a symbolic name." },
-    { "ref": "1 Peter 5:14", "note": "Kiss of love, the customary greeting of affection in the early church; some manuscripts add Amen after peace to all of you who are in Christ." }
+    {
+      "ref": "1 Peter 5:12",
+      "note": "Through Silvanus indicates his role as secretary or letter carrier, or both; Silvanus is the same coworker called Silas in Acts."
+    },
+    {
+      "ref": "1 Peter 5:13",
+      "note": "The church in Babylon renders literally she who is in Babylon, taken by most as the church in Rome, with Babylon as a symbolic name."
+    },
+    {
+      "ref": "1 Peter 5:14",
+      "note": "Kiss of love, the customary greeting of affection in the early church; some manuscripts add Amen after peace to all of you who are in Christ."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for 1 Peter 5:12-14." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for 1 Peter 5:12-14."
+  }
 }

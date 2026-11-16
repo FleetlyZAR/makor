@@ -18,11 +18,31 @@
         "note": "the Spirit of glory rests on you",
         "emphasis": "",
         "verses": [
-          { "chapter": 4, "n": 12, "text": "Beloved, do not be surprised at the {{pyrosis|fiery trial}} that has come upon you, as though something strange were happening to you." },
-          { "chapter": 4, "n": 13, "text": "But rejoice that you {{koinoneo|share}} in the sufferings of Christ, so that you may be overjoyed at the revelation of His glory." },
-          { "chapter": 4, "n": 14, "text": "If you are insulted for the name of Christ, you are blessed, because the Spirit of glory and of God rests on you." },
-          { "chapter": 4, "n": 15, "text": "Indeed, none of you should suffer as a murderer or thief or wrongdoer, or even as a meddler." },
-          { "chapter": 4, "n": 16, "text": "But if you suffer as a {{christianos|Christian}}, do not be ashamed, but glorify God that you bear that name." }
+          {
+            "chapter": 4,
+            "n": 12,
+            "text": "Beloved, do not be surprised at the {{pyrosis|fiery trial}} that has come upon you, as though something strange were happening to you."
+          },
+          {
+            "chapter": 4,
+            "n": 13,
+            "text": "But rejoice that you {{koinoneo|share}} in the sufferings of Christ, so that you may be overjoyed at the revelation of His glory."
+          },
+          {
+            "chapter": 4,
+            "n": 14,
+            "text": "If you are insulted for the name of Christ, you are blessed, because the Spirit of glory and of God rests on you."
+          },
+          {
+            "chapter": 4,
+            "n": 15,
+            "text": "Indeed, none of you should suffer as a murderer or thief or wrongdoer, or even as a meddler."
+          },
+          {
+            "chapter": 4,
+            "n": 16,
+            "text": "But if you suffer as a {{christianos|Christian}}, do not be ashamed, but glorify God that you bear that name."
+          }
         ]
       },
       {
@@ -30,19 +50,56 @@
         "note": "entrust your soul to the faithful Creator",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 4, "n": 17, "text": "For it is time for {{krima|judgment}} to begin with the family of God; and if it begins with us, what will the outcome be for those who disobey the gospel of God?" },
-          { "chapter": 4, "n": 18, "text": "And, “If it is hard for the righteous to be saved, what will become of the ungodly and the sinner?”" },
-          { "chapter": 4, "n": 19, "text": "So then, those who suffer according to God’s will should entrust their souls to their faithful {{ktistes|Creator}} and continue to do good." }
+          {
+            "chapter": 4,
+            "n": 17,
+            "text": "For it is time for {{krima|judgment}} to begin with the family of God; and if it begins with us, what will the outcome be for those who disobey the gospel of God?"
+          },
+          {
+            "chapter": 4,
+            "n": 18,
+            "text": "And, “If it is hard for the righteous to be saved, what will become of the ungodly and the sinner?”"
+          },
+          {
+            "chapter": 4,
+            "n": 19,
+            "text": "So then, those who suffer according to God’s will should entrust their souls to their faithful {{ktistes|Creator}} and continue to do good."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "pyrosis": { "language": "Greek", "lemma": "pyrosis", "original": "πύρωσις", "gloss": "A burning, a fiery ordeal. The word recalls the refining of metal in fire, echoing the tested faith of chapter one. Persecution is a fiery trial, but not a strange or pointless one; like a furnace it purifies. Peter tells believers not to be shocked by it, but to see God's refining purpose within it." },
-    "koinoneo": { "language": "Greek", "lemma": "koinoneo", "original": "κοινωνέω", "gloss": "To share in, to have fellowship with, to partake. Believers share in the sufferings of Christ, participating in what He endured. This is not mere imitation but real fellowship with Him in suffering, which is why it brings joy and points ahead to sharing in the joy of His revealed glory." },
-    "christianos": { "language": "Greek", "lemma": "Christianos", "original": "Χριστιανός", "gloss": "A Christian, one who belongs to Christ. The name was likely first used by outsiders, sometimes as a label of scorn. Peter tells believers not to be ashamed if they suffer under it, but to glorify God for bearing that name. To be identified with Christ, even in reproach, is an honor, not a disgrace." },
-    "krima": { "language": "Greek", "lemma": "krima", "original": "κρίμα", "gloss": "Judgment, the act or process of judging. Peter says judgment begins with the household of God. For believers this judgment is purifying, a refining discipline, not condemnation; but it is a sobering warning of the far worse end awaiting those who disobey the gospel. Judgment starts at God's own house." },
-    "ktistes": { "language": "Greek", "lemma": "ktistes", "original": "κτίστης", "gloss": "Creator, maker. Used only here in the New Testament, it grounds the believer's confidence: the God who made them is faithful and can be trusted with their very souls. Those who suffer according to His will entrust themselves to their faithful Creator, resting in the One who formed them and keeps them." }
+    "pyrosis": {
+      "language": "Greek",
+      "lemma": "pyrosis",
+      "original": "πύρωσις",
+      "gloss": "A burning, a fiery ordeal. The word recalls the refining of metal in fire, echoing the tested faith of chapter one. Persecution is a fiery trial, but not a strange or pointless one; like a furnace it purifies. Peter tells believers not to be shocked by it, but to see God's refining purpose within it."
+    },
+    "koinoneo": {
+      "language": "Greek",
+      "lemma": "koinoneo",
+      "original": "κοινωνέω",
+      "gloss": "To share in, to have fellowship with, to partake. Believers share in the sufferings of Christ, participating in what He endured. This is not mere imitation but real fellowship with Him in suffering, which is why it brings joy and points ahead to sharing in the joy of His revealed glory."
+    },
+    "christianos": {
+      "language": "Greek",
+      "lemma": "Christianos",
+      "original": "Χριστιανός",
+      "gloss": "A Christian, one who belongs to Christ. The name was likely first used by outsiders, sometimes as a label of scorn. Peter tells believers not to be ashamed if they suffer under it, but to glorify God for bearing that name. To be identified with Christ, even in reproach, is an honor, not a disgrace."
+    },
+    "krima": {
+      "language": "Greek",
+      "lemma": "krima",
+      "original": "κρίμα",
+      "gloss": "Judgment, the act or process of judging. Peter says judgment begins with the household of God. For believers this judgment is purifying, a refining discipline, not condemnation; but it is a sobering warning of the far worse end awaiting those who disobey the gospel. Judgment starts at God's own house."
+    },
+    "ktistes": {
+      "language": "Greek",
+      "lemma": "ktistes",
+      "original": "κτίστης",
+      "gloss": "Creator, maker. Used only here in the New Testament, it grounds the believer's confidence: the God who made them is faithful and can be trusted with their very souls. Those who suffer according to His will entrust themselves to their faithful Creator, resting in the One who formed them and keeps them."
+    }
   },
   "study": {
     "basic": {
@@ -56,93 +113,240 @@
       "oneStory": "Throughout Scripture God refines His people through fire and begins His purifying work with His own house. In Christ, who suffered and entered glory, that pattern is fulfilled and shared: the suffering church partakes of His sufferings now and will partake of His glory. Entrusting their souls to the faithful Creator, believers pass through the fire toward the joy of the revealed glory of Christ."
     },
     "context": {
-      "literary": "Verse 12 restarts the direct address with beloved, marking the letter's final major section on suffering, and it deliberately echoes the tested faith of 1:6 to 7. Verses 12 to 16 reframe persecution as sharing Christ's sufferings; verses 17 to 19 set it within God's purifying judgment, supported by a quotation from Proverbs, and close with the pivotal command to entrust the soul to the faithful Creator.",
-      "historical": "The fiery trial suggests intensifying hostility, whether local mob pressure, social ostracism, or official action. The name Christian, still relatively new, was used against believers as a term of accusation, so suffering as a Christian meant being punished simply for the name. Peter dignifies that experience rather than minimizing its cost.",
-      "canonical": "The passage develops the biblical theme of purifying judgment beginning with God's people and the refiner's fire, and it stands with the Beatitudes and Acts in treating persecution for Christ as blessing. The unique title faithful Creator anchors trust in suffering to the doctrine of God as Maker, tying the end of the letter back to the sovereignty of God over all."
+      "literary": "The passage is the hinge of the letter. Peter has written a long first half on identity and conduct and now turns, with the address 'Beloved' in verse 12, to the fire itself. The same word signals the opening of a new section, and the rest of the letter will keep returning to suffering, 5:1, 5:9-10.\n\nThe structure is a chain of reasons. Do not be surprised, because the fire is not strange. Rejoice, because you share Christ's sufferings. Rejoice, because glory will be revealed. Count yourselves blessed, because the Spirit rests on you. Be careful what you suffer for, because only one cause is honorable. Glorify God, because to be named a Christian is not shame. Expect judgment at the house of God first, because that is how God deals with His people. Entrust yourselves to Him, because He is faithful. Each command stands on the one before.\n\nVerses 12 to 14 and 15 to 16 make a pair. The first sets the believer's suffering as a Christian within the sufferings of Christ and the rest of the Spirit. The second draws a boundary: murder, theft and wrongdoing are never to be the cause. The 'meddler' that closes the list is the surprising item, a reminder that even small offenses against other people's peace must not be mistaken for persecution.\n\nVerses 17 and 18 shift into argument from the lesser to the greater, 'if it begins with us, what will the outcome be for those who disobey the gospel of God?' It is a rhetorical form common in Jewish teaching, and it is followed by a quotation which makes the same argument in other words. The closing verse is a command, the heart of the section, with 'faithful Creator' as the final anchor.\n\nA word that links the beginning and the end is 'suffer'. It runs through every verse except 17 and 18, which turn to the larger frame of judgment. The effect is a paragraph in which suffering is first named, then given meaning, bounded, set within God's dealings with the world, and finally answered with trust.",
+      "historical": "The word 'Christian' was still new. Luke records that the disciples were first called Christians at Antioch, Acts 11:26, and the only other New Testament uses are Agrippa's remark to Paul in Acts 26:28 and this verse. It seems to have been a label given by outsiders, with an ending that marks followers of a person, and not a name the believers chose for themselves. Peter's instruction that no one should be ashamed of it suggests that by his time the name was a mark of social contempt.\n\nThat fits what is known from outside the New Testament. Writing about the fire of Rome in the 60s, the historian Tacitus says Christians were already a despised group, punished as scapegoats and charged with hatred of the human race. A generation or so later, Pliny, governor in Bithynia, one of the provinces named in 1:1, wrote to the emperor Trajan to ask how to treat people accused of being Christians, and he describes testing them by having them curse Christ and offer to the gods. The bare name could be enough to bring a person before a court. Peter does not need to describe an empire-wide persecution for his words to ring true; the pressure of being known by the name was real at every level.\n\nThe three offenses Peter lists, murder, theft and wrongdoing, were ordinary crimes that any court would punish, and the fourth, the meddler, was a person who interfered in the affairs of others. Roman society was suspicious of a group that refused civic worship, and any real crime committed by a Christian would have confirmed the suspicion.\n\nThe thought that judgment begins at the house of God was familiar to Jewish readers from the prophets, and from the experience of exile, in which the people who bore the name of the LORD were the first to suffer. For readers who knew the Scriptures, a time of fire was not proof that God had left them but could be a sign of His closeness.",
+      "canonical": "The refining image runs through the Old Testament. God tells Israel in Isaiah 48:10 that He has refined them in the furnace of affliction, and in Zechariah 13:9 He says He will bring a remnant through the fire, refine them like silver and test them like gold, and they will call on His name and He will answer. Malachi 3:2-3 speaks of the Lord who comes to His temple like a refiner's fire and purifies the sons of Levi. Peter himself used the image at 1:6-7, where faith is proven as gold is tested by fire. The fire of 4:12 is the same fire, now burning.\n\nThe thought that judgment begins at the sanctuary draws on Ezekiel 9:5-6, where the executioners are told to begin at the temple, though those who grieve over the city's sin are marked and spared, Ezekiel 9:4. Jeremiah 25:29 says that if disaster falls on the city that bears God's name, no one else will go unpunished. Peter applies this to the church, now called the house of God, as in 2:5 and Hebrews 3:6.\n\nThe quotation in verse 18 follows the Greek translation of Proverbs 11:31. The Hebrew, as the BSB renders it, says that if the righteous receive their due on earth, how much more the ungodly, while the Greek speaks of the righteous being saved with difficulty. Peter uses the form he knew, and the thrust of both is the same: if God's own people are not exempt, the unrepentant will not be.\n\nThe teaching on rejoicing in suffering resonates with the Sermon on the Mount, Matthew 5:10-12, and with the apostles in Acts 5:41, who left the council rejoicing that they had been counted worthy to suffer for the Name. Paul speaks of the fellowship of Christ's sufferings in Philippians 3:10, 2 Corinthians 1:5 and Colossians 1:24, and of suffering with Him in order to be glorified with Him in Romans 8:17-18.\n\nThe command to entrust the soul to God echoes Psalm 31:5, which Jesus Himself prayed on the cross, Luke 23:46."
     },
     "hermeneutics": {
-      "authorIntent": "To reframe the fiery trial of persecution as a shared participation in Christ's sufferings and a cause for joy, to distinguish suffering for Christ from suffering for wrongdoing, to set present suffering within God's purifying judgment, and to call sufferers to entrust their souls to their faithful Creator while continuing to do good.",
-      "descriptionVsPrescription": "The section blends description and command. It describes the meaning of Christian suffering, sharing Christ's sufferings under God's refining judgment, and prescribes the response: do not be surprised, rejoice, do not be ashamed, glorify God, entrust your soul, keep doing good. The commands rest on the reframed meaning of suffering.",
+      "authorIntent": "Peter writes to people who had begun to think something had gone wrong. The slander and the isolation were growing, and the instinct was to believe that if God were really with them, life would be easier. He opens with the word 'beloved' and tells them in the plainest way that nothing strange is happening. The fire is part of the road.\n\nHe then gives the reason to rejoice. The believers are not simply enduring; they share in what Christ went through, and so they will share in what He receives. This turns the question from 'why is this happening to us?' to 'whom am I with when it happens?' It is a question about companionship more than about explanation.\n\nHe also corrects a possible confusion. Not every hardship is persecution, and some sufferings are earned. Peter wants a clean line between being punished as a criminal and being reviled as a Christian, because only the second is a cause for blessing. The warning keeps the church honest and keeps its witness credible.\n\nFinally, he puts suffering inside God's larger dealings. The fire that falls on believers is a sign that judgment has begun at the house of God and will not stop there. Peter does not use that fact to frighten. He uses it to make clear what is at stake, and then gives the answer, which is trust in the Creator and continued goodness.\n\nHis first readers were meant to come away with courage, discernment and a quiet confidence in a God who keeps what is entrusted to Him.",
+      "descriptionVsPrescription": "Much of this passage is direct instruction and applies unchanged. Do not be surprised. Rejoice in sharing Christ's sufferings. Do not suffer as a wrongdoer. Do not be ashamed of the name. Entrust your souls to God and keep doing good. None of these commands is bound to a first-century setting.\n\nSome lines describe rather than command. The statement that the Spirit of glory rests on those who are insulted for Christ is a promise about what is true of them, and the statement that judgment begins with God's household is a description of how God acts. Neither tells believers to seek out suffering. Nothing in the text commands anyone to provoke hostility, and verse 15 excludes the idea of earning it.\n\nThe call to rejoice needs careful reading. It does not ask the believer to feel pleasure in pain or to pretend that insult does not hurt. Peter says elsewhere that his readers have been grieved by trials, 1:6, and the joy he means lives alongside the grief, resting on what is coming. It is also not a command to stay in situations of real abuse that a person can lawfully and safely leave; the whole letter assumes that believers will use ordinary prudence.\n\nThe passage is not about every form of suffering. Illness, bereavement and ordinary misfortune are not what Peter has in view here, though the final command, to entrust oneself to the faithful Creator, is fitting in those cases as well. The principle carries over, even where the particular reason does not.",
       "debates": [
         {
           "question": "What is the judgment that begins with the household of God, verse 17?",
           "views": [
-            { "label": "A purifying discipline, not condemnation", "case": "For believers, the present suffering is God's refining judgment that purges and strengthens His family, echoing the refiner's fire. It is fatherly discipline, sobering but not damning, distinct from the wrath awaiting those who reject the gospel." },
-            { "label": "The beginning of the end-time judgment", "case": "Others see the last judgment as already dawning, starting with God's people through their trials, so that the church experiences its opening stage as testing while the disobedient face its full weight later. Even so, the outcome for believers is salvation, not condemnation." }
+            {
+              "label": "A purifying discipline, not condemnation",
+              "case": "For believers, the present suffering is God's refining judgment that purges and strengthens His family, echoing the refiner's fire. It is fatherly discipline, sobering but not damning, distinct from the wrath awaiting those who reject the gospel."
+            },
+            {
+              "label": "The beginning of the end-time judgment",
+              "case": "Others see the last judgment as already dawning, starting with God's people through their trials, so that the church experiences its opening stage as testing while the disobedient face its full weight later. Even so, the outcome for believers is salvation, not condemnation."
+            }
           ],
           "bearing": "Both hold that the suffering of God's people is not God's rejection but part of His refining purpose, while the far worse end belongs to those who disobey the gospel. Trials sift and purify the family of God."
         },
         {
           "question": "Why does Peter call God the faithful Creator here, verse 19?",
           "views": [
-            { "label": "To ground trust in God's power and faithfulness as Maker", "case": "The God who made us can surely keep us; the Creator who formed our souls is faithful to preserve them. Naming Him Creator in a call to entrust the soul roots confidence in His sovereign power over all He has made." },
-            { "label": "To recall God's covenant faithfulness to His own", "case": "Others stress faithful: the Maker of Israel who promised never to forsake His people is the same God to whom sufferers commit themselves. His faithfulness, proven across the story, secures the soul entrusted to Him." }
+            {
+              "label": "To ground trust in God's power and faithfulness as Maker",
+              "case": "The God who made us can surely keep us; the Creator who formed our souls is faithful to preserve them. Naming Him Creator in a call to entrust the soul roots confidence in His sovereign power over all He has made."
+            },
+            {
+              "label": "To recall God's covenant faithfulness to His own",
+              "case": "Others stress faithful: the Maker of Israel who promised never to forsake His people is the same God to whom sufferers commit themselves. His faithfulness, proven across the story, secures the soul entrusted to Him."
+            }
           ],
           "bearing": "Both readings unite power and faithfulness: the Creator who made us is faithful to keep us, so those who suffer in His will can safely commit their souls to Him and go on doing good."
         }
       ]
     },
-    "originalLanguages": "Believers are not to be surprised at the pyrosis, the fiery ordeal, as though it were strange, for it is a furnace that refines. Instead they rejoice to koinoneo, to share, in the very sufferings of Christ, so that they will also share His joy when His glory is revealed. Insulted for the name, they are blessed, for the Spirit of glory rests on them. Let none suffer as a wrongdoer; but if one suffers as a christianos, a Christian, let him glorify God for the name. The krima, judgment, begins with the household of God as a purifying, a sobering sign of the far worse end for the disobedient. So sufferers entrust their souls to their faithful ktistes, Creator, the Maker who is able and faithful to keep them, and they continue to do good.",
+    "originalLanguages": "The noun in verse 12 for 'fiery trial' is pyrosis, which is related to the word for fire. Peter uses fire imagery at 1:7, where gold is tested by fire, and pyrosis can describe a burning or a test by burning. The point is not that the readers are being punished but that they are being tried, as metal is in a furnace. The verb for being surprised, xenizo, is related to the word for 'stranger' and 'foreigner', and Peter used it in 4:4 of the pagans who found it 'strange' that Christians would not join their excess. The two uses are a pair: the world finds the believer's life strange, and the believer must not find the world's reaction strange.\n\nThe verb in verse 13, koinoneo, means to share, to be a partner in. It is related to koinonia, fellowship, which Paul uses of the 'fellowship of His sufferings' in Philippians 3:10. The tense is present, so the sharing is going on now. The same verse uses a verb for rejoicing and then an intensified form for being overjoyed, a verb Peter also uses in 1:6 and 1:8 for the joy of believers. The 'revelation of His glory' picks up the same noun used in 1:7 and 1:13.\n\nIn verse 14 the verb for 'insulted' is the one Jesus uses in Matthew 5:11, 'blessed are you when people insult you'. The Greek of the second half says the Spirit 'of glory and of God' rests on you, using a verb for coming to rest, which in the Greek version of Isaiah 11:2 describes the Spirit of the LORD resting on the Messiah. The believer who is reviled is marked by the same Spirit.\n\nThe name 'Christian' in verse 16, christianos, is a coined word and occurs only three times in the New Testament. Peter's command is to glorify God 'in that name', as the footnote in the BSB indicates, so the name itself becomes a place of praise and not of shame.\n\nThe Greek word for 'judgment' in verse 17, krima, can mean a verdict or a process of judging. The context suggests a process begun, and the phrase 'the house of God' picks up the temple language of 2:5. In verse 18 'hard' translates a word meaning scarcely or with difficulty, as the Greek of Proverbs 11:31 has it, and the BSB footnote notes that the Hebrew reads differently.\n\nThe verb in verse 19 translated 'entrust' is paratithemai, to place alongside someone for safekeeping, as when one deposits a valuable. It is the verb Jesus used on the cross in Luke 23:46, 'Father, into Your hands I commit My Spirit'. The faithful Creator is the trustee of what believers deposit with Him. The phrase 'continue to do good' is built on a noun for doing good, so the command is to go on working at goodness, even while the soul is in His hands.",
     "typology": [
-      { "type": "The fiery trial as refiner's fire", "fulfillment": "The purifying furnace of Malachi 3 and the prophets, fulfilled as God refines His church through the fires of persecution." },
-      { "type": "Judgment beginning at God's house", "fulfillment": "Ezekiel's vision of judgment starting at the sanctuary, now realized as God's purifying judgment begins with His own family before the disobedient face its full weight." },
-      { "type": "The faithful Creator who keeps His own", "fulfillment": "The God who formed and preserved Israel, to whom suffering believers now entrust their souls, confident He will not forsake His people." }
+      {
+        "type": "The refiner's fire",
+        "fulfillment": "Zechariah 13:9 speaks of a third of the people brought through the fire and refined like silver, and Malachi 3:2-3 of the Lord purifying the sons of Levi. The correspondence is of purpose: God uses affliction to purify a people for Himself. In Peter's church the fire is persecution, and the gold is faith that proves genuine, 1:7. The type is fulfilled in a people who are made holy in Christ, Titus 2:14. It falls short only in that the refining here is not for atonement; Christ's death has already done that."
+      },
+      {
+        "type": "Judgment beginning at the sanctuary",
+        "fulfillment": "In Ezekiel 9 the executioners begin with the elders at the temple, and those who grieve over the city's sin carry a mark that spares them, Ezekiel 9:4-6. Peter says that judgment begins with the household of God, which is now the church, 2:5. The correspondence is that nearness to God brings the sharpest scrutiny. The escalation is that, in Christ, the judgment that falls on believers is discipline, Hebrews 12:5-11, and not destruction. The type is limited by its context of national wrath; the church faces refining, not rejection."
+      },
+      {
+        "type": "The furnace and the fourth figure",
+        "fulfillment": "In Daniel 3 three men are bound and thrown into a blazing furnace, and the king sees a fourth figure walking with them in the fire, Daniel 3:25. Isaiah 43:2 promises that when God's people walk through the fire they will not be scorched. The picture of God present in the flames is fulfilled in the Spirit of glory who rests on persecuted believers, and in Christ who shares their sufferings. The type falls short in that Daniel's friends were not burned, while believers may truly suffer and die."
+      },
+      {
+        "type": "The suffering and glory of Christ as the pattern",
+        "fulfillment": "The sequence in verse 13, sufferings now and glory revealed, follows the path of the Messiah, 1:11, and is the pattern for His followers, Romans 8:17-18. Peter, who calls himself a witness of Christ's sufferings and a partaker of the glory to be revealed, 5:1, sets the church in His footprints. The correspondence is complete in shape and unequal in power: only Christ's suffering atones, while the believer's suffering is a share in His path, not a payment."
+      }
     ],
-    "christ": "Christ is the one whose sufferings believers share and whose glory they await. Their trials are not random misfortune but a real participation in what He endured, which is why suffering for His name is cause for joy rather than shame. To be called a Christian is to be marked as His. Having suffered and entered glory Himself, Christ is both the pattern of the church's path and the guarantee that present reproach will give way to overflowing joy when His glory is revealed. The suffering church walks the road its Lord has already traveled.",
-    "god": "God is revealed as the faithful Creator, able and faithful to keep the souls committed to Him, and as the righteous Judge whose refining judgment begins with His own household. Far from abandoning His people in the fire, He is present with them: the Spirit of glory and of God rests on those insulted for Christ. He purifies His family through trial while reserving a far graver reckoning for those who reject the gospel. He is faithful, present, purifying, and utterly trustworthy.",
+    "christ": "The passage leads to Christ most directly through the phrase 'the sufferings of Christ'. Peter does not say that believers suffer like Christ or for Christ, though both are true; he says they share in His sufferings. Paul speaks the same way in 2 Corinthians 1:5, where the sufferings of Christ overflow to us, and in Philippians 3:10 of the fellowship of His sufferings. The language assumes a union so close that what happens to the members touches the Head. Jesus had said as much to Saul on the Damascus road when He asked why he was persecuting Him, Acts 9:4.\n\nThe passage also leads to Christ by the name. To suffer as a Christian is to suffer for belonging to Him. 'The name of Christ' is the ground of both the insult and the blessing, and it is also the place where God is glorified. The believer carries a name that is not only a label but a banner, and it ties the believer's story to His.\n\nIt leads to Christ by the Spirit. The Spirit of glory and of God resting on the insulted believer is the same Spirit who rested on Jesus at His baptism and of whom Isaiah said that He would rest on the Messiah, Isaiah 11:2. Where the world sees shame, heaven sees the Messiah's own anointing extended to His people.\n\nIt leads to Christ through the pattern of suffering followed by glory. The path of the Messiah, as Peter already said in 1:11, was sufferings and then the glories to follow, and he repeats it in verse 13 and again at 5:10. Because Christ has gone that way and is risen, the believer's suffering is not an ending. 'If we endure, we will also reign with Him', 2 Timothy 2:12.\n\nIt leads finally to Christ as the model of entrusting. On the cross He committed His Spirit to the Father, Luke 23:46, and 2:23 says He entrusted Himself to Him who judges justly. The command of 4:19 invites believers to do what He did.\n\nA caution is needed. Peter's talk of sharing Christ's sufferings does not mean that believers add anything to the atonement. Colossians 1:24 is sometimes misread that way, but the point there and here is about the church's participation in the Lord's afflictions in the world, not about completing what He finished on the cross. The sufferings believers share are those of faithful witness, and the cross itself stands alone.",
+    "god": "The passage shows God as the one who keeps His people company in the fire. Peter's promise of the resting Spirit is more than comfort. In the Old Testament, the glory of God was the cloud that filled the tabernacle and the temple, Exodus 40:34-35, and the Spirit's resting presence marked those on whom God's favor lay. Peter says that same presence now rests on ordinary believers in disgrace. God is not far from His suffering people; He is on them.\n\nHe is a God who judges His household first. This is not cruelty. It is the seriousness of a Father who disciplines those He loves, Hebrews 12:5-11, and of a holy God who dwells among a people He means to purify. The same verse that warns the church also warns the world, with the argument from lesser to greater making clear that God's standards are not lowered for outsiders. The outcome for those who disobey the gospel of God is described as a question to be pondered.\n\nHe is a God who wills suffering in a certain sense and does not cause sin. Verse 19 speaks of those who suffer 'according to God's will'. The text does not say that God delights in affliction, and it does not hide that He permits and uses it. The tension is held without explanation, and Peter assumes that the believer can trust a God whose reasons are not given.\n\nHe is the Creator. Peter's choice of 'Creator' here is unusual. The One who made all things is able to keep what has been committed to Him, as Isaiah 40:28 says of the LORD, who does not grow tired or weary. Creation is the ground of confidence: nothing outside His control can undo what He has made and holds.\n\nHe is faithful. The word describes someone who can be relied on to do what he has promised. In a letter that has spoken of a living hope and an inheritance kept in heaven, 1:3-4, faithfulness is the quality that makes the hope firm. The God of the covenant does not abandon those who bear His name.\n\nFor worship, the passage leads us to rejoice that we are not alone in the trial, to take God's discipline seriously without fear of rejection, and to hand over to Him, daily, whatever we cannot keep safe ourselves.",
     "crossReferences": [
-      { "ref": "Malachi 3:2-3", "note": "The Lord as a refiner's fire purifying His people, the imagery behind the fiery trial that tests and refines." },
-      { "ref": "Ezekiel 9:5-6", "note": "Judgment begins at the sanctuary, the pattern of judgment starting with the household of God." },
-      { "ref": "Acts 5:41", "note": "The apostles rejoice to be counted worthy to suffer dishonor for the name, matching rejoicing to suffer as a Christian." },
-      { "ref": "Matthew 5:11-12", "note": "Blessed are you when reviled and persecuted for Christ's sake; rejoice, for your reward is great, echoed in verses 13 to 14." }
+      {
+        "ref": "Malachi 3:2-3",
+        "note": "The Lord comes like a refiner's fire and a launderer's soap, purifying the sons of Levi until they present offerings in righteousness. It is the plainest Old Testament picture of fire that cleanses and not merely destroys, and it explains how Peter can call a trial something to rejoice in."
+      },
+      {
+        "ref": "Zechariah 13:9",
+        "note": "God will bring a third through the fire, refine them like silver and test them like gold, and they will call on His name. The result is a restored covenant: He answers, and they say the LORD is their God. It anticipates Peter's hope that fire leaves a purified people."
+      },
+      {
+        "ref": "Ezekiel 9:5-6",
+        "note": "The command to begin at the sanctuary is the source for Peter's judgment beginning at the house of God. In the same chapter, those who grieve over sin are marked and spared, which keeps the passage from being read as bare condemnation of the faithful."
+      },
+      {
+        "ref": "Jeremiah 25:29",
+        "note": "God asks how a people who bear His name could go unpunished when He is bringing disaster on the city called by it. The reasoning is the same as Peter's, that nearness to God raises accountability rather than lowering it."
+      },
+      {
+        "ref": "Acts 5:41",
+        "note": "The apostles leave the council rejoicing that they have been counted worthy to suffer disgrace for the Name. It shows the rejoicing of verse 13 in practice, by the same Peter who wrote this letter, and sets the first-century pattern for how believers received insult."
+      },
+      {
+        "ref": "Matthew 5:10-12",
+        "note": "Jesus calls the persecuted blessed and tells them to rejoice because their reward is great and because the prophets suffered before them. Peter's 'you are blessed' in verse 14 is an echo of this teaching, which he and the other apostles would have heard directly."
+      },
+      {
+        "ref": "Philippians 3:10",
+        "note": "Paul longs to know Christ, the power of His resurrection and the fellowship of His sufferings. It shows that sharing in Christ's sufferings was understood as a privilege of knowing Him and not just a burden, and it joins suffering and resurrection in one sentence."
+      },
+      {
+        "ref": "Romans 8:17-18",
+        "note": "Believers are co-heirs with Christ if they suffer with Him, so as to be glorified with Him, and present sufferings are not comparable to the glory to be revealed. This is the same logic as 1 Peter 4:13, set out at greater length."
+      },
+      {
+        "ref": "Hebrews 12:5-11",
+        "note": "The Lord disciplines the one He loves, and discipline later yields the peaceful fruit of righteousness. It supports the reading of verse 17 as fatherly refining and not rejection, and helps explain why God's own household is dealt with first."
+      },
+      {
+        "ref": "Luke 23:46",
+        "note": "Jesus on the cross says, 'Father, into Your hands I commit My Spirit', quoting Psalm 31:5. The verb for commit is the one Peter uses for entrusting the soul. It shows that the command of verse 19 is the last act of Jesus and so the pattern for every suffering believer."
+      }
     ],
-    "oneStory": "All through Scripture God refines His people in the fire and begins His purifying work with His own house. In Christ, who suffered and entered glory, that pattern reaches its fulfilment and becomes something His people share. The suffering church partakes now of Christ's sufferings and will partake of His revealed glory. Entrusting their souls to the faithful Creator and continuing to do good, believers pass through the furnace of this age toward the joy that waits on the far side, when the glory of Christ is unveiled.",
-    "sermon": { "status": "none", "preacher": "", "title": "", "url": "", "why": "" }
+    "oneStory": "The passage addresses the question of what God is doing when His people suffer. From the beginning the human story has been marked by the clash between the serpent's offspring and the woman's, Genesis 3:15, and the wounding of the heel is the shape suffering takes for those who belong to the promised line. Abel was killed for righteousness, Genesis 4, and every generation of the faithful found hostility waiting for them.\n\nIsrael's own history shows the other side. Exile and affliction came as God's discipline on a people called by His name, and the prophets spoke of fire that would refine a remnant, Zechariah 13:9, and of judgment starting at the sanctuary, Ezekiel 9. Peter says the church stands in that tradition. It is the new people of God, and so it is dealt with as Israel was, first and most closely.\n\nChrist gathers the two lines into one. He is the righteous sufferer whom the world rejected and the glory-bearing Messiah on whom the Spirit rests. His sufferings were unique and sufficient for sin, and His people share in them as witnesses and as members of His body. After His resurrection, suffering is no longer simply the sign of the curse; for His people it is a place where the Spirit of glory rests and where Christ is made known.\n\nBetween His coming and His return, the church lives in what Peter calls a 'little while', 5:10. The fire will not last, but the world's hostility will not end until the Lord comes. Peter's counsel is to endure, to do good and to trust.\n\nAt the end, the Bible shows the fire's work completed. Revelation 7:14 speaks of those who came out of the great tribulation and washed their robes in the blood of the Lamb, and Revelation 21:3-4 says that God Himself will dwell with His people and wipe away every tear. The glory that is revealed will be the presence of the One who was faithful all along, and the shame of the name will turn into the honor of a people who bear it before His throne.",
+    "sermon": {
+      "status": "none",
+      "preacher": "",
+      "title": "",
+      "url": "",
+      "why": ""
+    }
   },
   "quiz": [
     {
       "q": "How should believers regard the fiery trial that comes upon them?",
       "options": [
-        { "text": "Not as something strange, but as sharing in the sufferings of Christ, a cause for joy.", "weight": 100, "note": "Verses 12 to 13: suffering for Christ is participation in His sufferings, not a strange event." },
-        { "text": "As a sign that God has abandoned them.", "weight": 0, "note": "The opposite: the Spirit of glory rests on them, and God is refining them." },
-        { "text": "As pointless misfortune to be endured grimly.", "weight": 25, "note": "It has purpose: sharing Christ's sufferings and pointing to His glory." },
-        { "text": "As a trial that refines and unites them with Christ.", "weight": 75, "note": "True to the sense, though the answer should name rejoicing in sharing Christ's sufferings." }
+        {
+          "text": "Not as something strange, but as sharing in the sufferings of Christ, a cause for joy.",
+          "weight": 100,
+          "note": "Verses 12 to 13: suffering for Christ is participation in His sufferings, not a strange event."
+        },
+        {
+          "text": "As a sign that God has abandoned them.",
+          "weight": 0,
+          "note": "The opposite: the Spirit of glory rests on them, and God is refining them."
+        },
+        {
+          "text": "As pointless misfortune to be endured grimly.",
+          "weight": 25,
+          "note": "It has purpose: sharing Christ's sufferings and pointing to His glory."
+        },
+        {
+          "text": "As a trial that refines and unites them with Christ.",
+          "weight": 75,
+          "note": "True to the sense, though the answer should name rejoicing in sharing Christ's sufferings."
+        }
       ]
     },
     {
       "q": "What distinction does Peter draw about the kind of suffering that honors God?",
       "options": [
-        { "text": "Suffering as a Christian for the name, not as a murderer, thief, or wrongdoer.", "weight": 100, "note": "Verses 15 to 16: suffer for Christ, not for doing evil." },
-        { "text": "All suffering equally glorifies God regardless of its cause.", "weight": 25, "note": "Peter carefully distinguishes suffering for Christ from suffering for wrongdoing." },
-        { "text": "Only suffering that is physically severe counts.", "weight": 0, "note": "The issue is the cause, bearing Christ's name, not the severity." },
-        { "text": "Suffering that comes because one belongs to Christ.", "weight": 75, "note": "True, though the answer should include the contrast with suffering for wrongdoing." }
+        {
+          "text": "Suffering as a Christian for the name, not as a murderer, thief, or wrongdoer.",
+          "weight": 100,
+          "note": "Verses 15 to 16: suffer for Christ, not for doing evil."
+        },
+        {
+          "text": "All suffering equally glorifies God regardless of its cause.",
+          "weight": 25,
+          "note": "Peter carefully distinguishes suffering for Christ from suffering for wrongdoing."
+        },
+        {
+          "text": "Only suffering that is physically severe counts.",
+          "weight": 0,
+          "note": "The issue is the cause, bearing Christ's name, not the severity."
+        },
+        {
+          "text": "Suffering that comes because one belongs to Christ.",
+          "weight": 75,
+          "note": "True, though the answer should include the contrast with suffering for wrongdoing."
+        }
       ]
     },
     {
       "q": "What does Peter mean that judgment begins with the household of God?",
       "options": [
-        { "text": "God's purifying, refining discipline starts with His own family, though their outcome is salvation.", "weight": 100, "note": "Verse 17: for believers this judgment purifies; the disobedient face a far worse end." },
-        { "text": "God condemns His people first and hardest.", "weight": 0, "note": "For believers it is refining discipline, not condemnation." },
-        { "text": "The church will escape all judgment entirely.", "weight": 25, "note": "Judgment begins with God's house, but as purifying, not condemnation." },
-        { "text": "The church experiences the first, testing stage of God's judgment.", "weight": 75, "note": "True to one reading, though the answer should note it is purifying, not condemning, for believers." }
+        {
+          "text": "God's purifying, refining discipline starts with His own family, though their outcome is salvation.",
+          "weight": 100,
+          "note": "Verse 17: for believers this judgment purifies; the disobedient face a far worse end."
+        },
+        {
+          "text": "God condemns His people first and hardest.",
+          "weight": 0,
+          "note": "For believers it is refining discipline, not condemnation."
+        },
+        {
+          "text": "The church will escape all judgment entirely.",
+          "weight": 25,
+          "note": "Judgment begins with God's house, but as purifying, not condemnation."
+        },
+        {
+          "text": "The church experiences the first, testing stage of God's judgment.",
+          "weight": 75,
+          "note": "True to one reading, though the answer should note it is purifying, not condemning, for believers."
+        }
       ]
     },
     {
       "q": "What are those who suffer according to God's will told to do?",
       "options": [
-        { "text": "Entrust their souls to their faithful Creator and continue to do good.", "weight": 100, "note": "Verse 19: the pivotal command, commit the soul to God and keep doing good." },
-        { "text": "Withdraw from doing good until the trial passes.", "weight": 0, "note": "They are to continue to do good, not to withdraw." },
-        { "text": "Demand that God explain their suffering at once.", "weight": 25, "note": "The call is to trust the faithful Creator, not to demand explanations." },
-        { "text": "Commit themselves to God and keep living faithfully.", "weight": 75, "note": "True to the sense, though the answer should name the faithful Creator specifically." }
+        {
+          "text": "Entrust their souls to their faithful Creator and continue to do good.",
+          "weight": 100,
+          "note": "Verse 19: the pivotal command, commit the soul to God and keep doing good."
+        },
+        {
+          "text": "Withdraw from doing good until the trial passes.",
+          "weight": 0,
+          "note": "They are to continue to do good, not to withdraw."
+        },
+        {
+          "text": "Demand that God explain their suffering at once.",
+          "weight": 25,
+          "note": "The call is to trust the faithful Creator, not to demand explanations."
+        },
+        {
+          "text": "Commit themselves to God and keep living faithfully.",
+          "weight": 75,
+          "note": "True to the sense, though the answer should name the faithful Creator specifically."
+        }
       ]
     },
     {
       "q": "Why does Peter call God the faithful Creator in verse 19?",
       "options": [
-        { "text": "Because the God who made us is faithful and able to keep the souls entrusted to Him.", "weight": 100, "note": "Verse 19 grounds trust in God's power and faithfulness as Maker." },
-        { "text": "Because creation proves God does not intervene in our lives.", "weight": 0, "note": "The opposite: as Creator He is faithful to keep and preserve His own." },
-        { "text": "Because he wants to change the subject from suffering.", "weight": 25, "note": "The title directly supports trusting God amid suffering." },
-        { "text": "Because the Maker of all is faithful to His people across the story.", "weight": 75, "note": "True to the covenant sense, though the answer should include His power to keep our souls." }
+        {
+          "text": "Because the God who made us is faithful and able to keep the souls entrusted to Him.",
+          "weight": 100,
+          "note": "Verse 19 grounds trust in God's power and faithfulness as Maker."
+        },
+        {
+          "text": "Because creation proves God does not intervene in our lives.",
+          "weight": 0,
+          "note": "The opposite: as Creator He is faithful to keep and preserve His own."
+        },
+        {
+          "text": "Because he wants to change the subject from suffering.",
+          "weight": 25,
+          "note": "The title directly supports trusting God amid suffering."
+        },
+        {
+          "text": "Because the Maker of all is faithful to His people across the story.",
+          "weight": 75,
+          "note": "True to the covenant sense, though the answer should include His power to keep our souls."
+        }
       ]
     }
   ],
@@ -154,9 +358,21 @@
     "Even under pressure, believers are to continue to do good. What good work is God calling you to keep doing, even when it is costly or unappreciated?"
   ],
   "translationNotes": [
-    { "ref": "1 Peter 4:12", "note": "Fiery trial renders pyrosis, a burning or refining by fire, deliberately echoing the tested faith more precious than gold of 1:6 to 7." },
-    { "ref": "1 Peter 4:16", "note": "Christian, Christianos, appears here as a name likely given by outsiders; some manuscripts read glorify God in this matter rather than in that name." },
-    { "ref": "1 Peter 4:18", "note": "The saying if it is hard for the righteous to be saved quotes Proverbs 11:31 in its Greek form, underscoring the seriousness of the coming reckoning." }
+    {
+      "ref": "1 Peter 4:12",
+      "note": "Fiery trial renders pyrosis, a burning or refining by fire, deliberately echoing the tested faith more precious than gold of 1:6 to 7."
+    },
+    {
+      "ref": "1 Peter 4:16",
+      "note": "Christian, Christianos, appears here as a name likely given by outsiders; some manuscripts read glorify God in this matter rather than in that name."
+    },
+    {
+      "ref": "1 Peter 4:18",
+      "note": "The saying if it is hard for the righteous to be saved quotes Proverbs 11:31 in its Greek form, underscoring the seriousness of the coming reckoning."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for 1 Peter 4:12-19." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for 1 Peter 4:12-19."
+  }
 }

@@ -18,7 +18,11 @@
         "note": "spotless and blameless",
         "emphasis": "",
         "verses": [
-          { "chapter": 3, "n": 14, "text": "Therefore, beloved, as you anticipate these things, make every effort to be found at peace, {{aspilos|spotless}} and {{amometos|blameless}} in His sight." }
+          {
+            "chapter": 3,
+            "n": 14,
+            "text": "Therefore, beloved, as you anticipate these things, make every effort to be found at peace, {{aspilos|spotless}} and {{amometos|blameless}} in His sight."
+          }
         ]
       },
       {
@@ -26,8 +30,16 @@
         "note": "Paul also wrote, and Scripture is twisted",
         "emphasis": "",
         "verses": [
-          { "chapter": 3, "n": 15, "text": "Consider also that our Lord’s {{makrothumia|patience}} brings salvation, just as our beloved brother Paul also wrote you with the wisdom God gave him." },
-          { "chapter": 3, "n": 16, "text": "He writes this way in all his letters, speaking in them about such matters. Some parts of his letters are hard to understand, which ignorant and unstable people {{streblousin|distort}}, as they do the rest of the Scriptures, to their own destruction." }
+          {
+            "chapter": 3,
+            "n": 15,
+            "text": "Consider also that our Lord’s {{makrothumia|patience}} brings salvation, just as our beloved brother Paul also wrote you with the wisdom God gave him."
+          },
+          {
+            "chapter": 3,
+            "n": 16,
+            "text": "He writes this way in all his letters, speaking in them about such matters. Some parts of his letters are hard to understand, which ignorant and unstable people {{streblousin|distort}}, as they do the rest of the Scriptures, to their own destruction."
+          }
         ]
       },
       {
@@ -35,21 +47,69 @@
         "note": "grace, knowledge, and glory to Christ",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 3, "n": 17, "text": "Therefore, beloved, since you already know these things, be on your guard so that you will not be carried away by the error of the lawless and fall from your {{sterigmos|secure standing}}." },
-          { "chapter": 3, "n": 18, "text": "But {{auxanete|grow}} in the {{charis|grace}} and {{gnosis|knowledge}} of our Lord and Savior Jesus Christ. To Him be the glory both now and to the day of eternity. Amen." }
+          {
+            "chapter": 3,
+            "n": 17,
+            "text": "Therefore, beloved, since you already know these things, be on your guard so that you will not be carried away by the error of the lawless and fall from your {{sterigmos|secure standing}}."
+          },
+          {
+            "chapter": 3,
+            "n": 18,
+            "text": "But {{auxanete|grow}} in the {{charis|grace}} and {{gnosis|knowledge}} of our Lord and Savior Jesus Christ. To Him be the glory both now and to the day of eternity. Amen."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "aspilos": { "language": "Greek", "lemma": "aspilos", "original": "ἄσπιλος", "gloss": "Without spot, unstained, unblemished. Believers are to be found spotless when Christ appears, a deliberate contrast to the false teachers who were called blots and blemishes. The word describes moral purity kept clean from the corruption of the world." },
-    "amometos": { "language": "Greek", "lemma": "amometos", "original": "ἀμώμητος", "gloss": "Blameless, without fault, beyond reproach. Paired with spotless, it pictures the believer standing before God with nothing justly charged against him. It is sacrificial language, the wholeness once required of an offering, now the character in which Christ's people are to be found." },
-    "makrothumia": { "language": "Greek", "lemma": "makrothumia", "original": "μακροθυμία", "gloss": "Patience, long-suffering, forbearance. The very patience that the scoffers mistook for slowness is here named salvation: the Lord's delay is the time in which sinners are saved. What mockers despise, believers are to count as mercy and opportunity." },
-    "streblousin": { "language": "Greek", "lemma": "strebloo", "original": "στρεβλοῦσιν", "gloss": "To twist, wrench, or distort, as one racks or strains something out of shape. Ignorant and unstable people wrench Paul's harder words, and all Scripture, into meanings that suit them, and so destroy themselves. The verb pictures the violence done to the text by those without stability in the truth." },
-    "sterigmos": { "language": "Greek", "lemma": "sterigmos", "original": "στηριγμός", "gloss": "Firmness, steadfastness, a secure and settled standing. Believers are warned not to be carried away and lose their stability, the very quality the unstable lack. It is the firm footing in the truth from which error would drag them away." },
-    "auxanete": { "language": "Greek", "lemma": "auxano", "original": "αὐξάνετε", "gloss": "To grow, increase, become greater. The letter's closing command is not merely to hold ground but to grow, a present continuous call to ongoing increase. The safeguard against being carried away is not stagnation but living growth in Christ." },
-    "charis": { "language": "Greek", "lemma": "charis", "original": "χάρις", "gloss": "Grace, God's unearned favor and the power by which the Christian life is lived. Believers are to grow in grace, sinking deeper into the favor of God in Christ. It is the same grace the false teachers twisted into license, here held out as the soil of true maturity." },
-    "gnosis": { "language": "Greek", "lemma": "gnosis", "original": "γνῶσις", "gloss": "Knowledge, here a growing personal knowledge of our Lord and Savior Jesus Christ. The whole letter has pressed the knowledge of Christ as the ground of godliness; it now ends by commanding its increase. To grow in this knowledge is the true antidote to the errors that destroy." }
+    "aspilos": {
+      "language": "Greek",
+      "lemma": "aspilos",
+      "original": "ἄσπιλος",
+      "gloss": "Without spot, unstained, unblemished. Believers are to be found spotless when Christ appears, a deliberate contrast to the false teachers who were called blots and blemishes. The word describes moral purity kept clean from the corruption of the world."
+    },
+    "amometos": {
+      "language": "Greek",
+      "lemma": "amometos",
+      "original": "ἀμώμητος",
+      "gloss": "Blameless, without fault, beyond reproach. Paired with spotless, it pictures the believer standing before God with nothing justly charged against him. It is sacrificial language, the wholeness once required of an offering, now the character in which Christ's people are to be found."
+    },
+    "makrothumia": {
+      "language": "Greek",
+      "lemma": "makrothumia",
+      "original": "μακροθυμία",
+      "gloss": "Patience, long-suffering, forbearance. The very patience that the scoffers mistook for slowness is here named salvation: the Lord's delay is the time in which sinners are saved. What mockers despise, believers are to count as mercy and opportunity."
+    },
+    "streblousin": {
+      "language": "Greek",
+      "lemma": "strebloo",
+      "original": "στρεβλοῦσιν",
+      "gloss": "To twist, wrench, or distort, as one racks or strains something out of shape. Ignorant and unstable people wrench Paul's harder words, and all Scripture, into meanings that suit them, and so destroy themselves. The verb pictures the violence done to the text by those without stability in the truth."
+    },
+    "sterigmos": {
+      "language": "Greek",
+      "lemma": "sterigmos",
+      "original": "στηριγμός",
+      "gloss": "Firmness, steadfastness, a secure and settled standing. Believers are warned not to be carried away and lose their stability, the very quality the unstable lack. It is the firm footing in the truth from which error would drag them away."
+    },
+    "auxanete": {
+      "language": "Greek",
+      "lemma": "auxano",
+      "original": "αὐξάνετε",
+      "gloss": "To grow, increase, become greater. The letter's closing command is not merely to hold ground but to grow, a present continuous call to ongoing increase. The safeguard against being carried away is not stagnation but living growth in Christ."
+    },
+    "charis": {
+      "language": "Greek",
+      "lemma": "charis",
+      "original": "χάρις",
+      "gloss": "Grace, God's unearned favor and the power by which the Christian life is lived. Believers are to grow in grace, sinking deeper into the favor of God in Christ. It is the same grace the false teachers twisted into license, here held out as the soil of true maturity."
+    },
+    "gnosis": {
+      "language": "Greek",
+      "lemma": "gnosis",
+      "original": "γνῶσις",
+      "gloss": "Knowledge, here a growing personal knowledge of our Lord and Savior Jesus Christ. The whole letter has pressed the knowledge of Christ as the ground of godliness; it now ends by commanding its increase. To grow in this knowledge is the true antidote to the errors that destroy."
+    }
   },
   "study": {
     "basic": {
@@ -63,92 +123,270 @@
       "oneStory": "Scripture ends its warnings not in fear but in growth. The whole story of God's people moves toward a Day of reckoning and a new creation, and the fitting response is to be found in Christ, spotless and steadily maturing. Against the unstable who twist the word to their ruin stand those who grow in grace and knowledge, kept by the God who gave the Scriptures and glorified in the Son to whom the letter gives its final praise."
     },
     "context": {
-      "literary": "These verses form the letter's conclusion, marked by the repeated beloved and by therefore, drawing conclusions from all that precedes. The structure moves from exhortation to holiness, verse 14, to a supporting appeal to Paul and a warning about twisting Scripture, verses 15 to 16, to a final charge and doxology, verses 17 to 18. The letter ends, as it began, on the knowledge of Christ.",
-      "historical": "Peter writes as the false teachers are actively unsettling the churches. His reference to Paul shows the early recognition of Paul's letters as authoritative and widely circulated, and his complaint that they are twisted reflects a real controversy over their meaning, likely including Paul's teaching on grace and freedom that the libertines abused. The unstable are those without grounding, easily swept along by the confident lawless.",
-      "canonical": "Verses 15 to 16 are a landmark text: an apostle places Paul's letters alongside the rest of the Scriptures, an early witness to the emerging New Testament canon and to the inspired authority of the apostolic writings. The passage also warns of the danger of private, self-serving interpretation, a theme that runs through the church's whole approach to reading Scripture rightly."
+      "literary": "These five verses are the last paragraph of a letter, and Peter writes them as a hinge between warning and blessing. The opening word of both verse 14 and verse 17 is the same address, \"beloved,\" and each time it is followed by \"therefore.\" That repeated pair holds the paragraph like two bookends. Verse 14 looks back to the Day described in verses 10 to 13 and asks what that certainty should do to a life. Verse 17 looks back to the false teachers of chapter 2 and asks what the warning should do to a mind. Between the bookends sits the longest sentence in the section, the digression about Paul in verses 15 and 16, which Peter uses as a witness for the first point and a caution for the second.\n\nThe paragraph also closes the letter by quietly returning to its opening. The letter began with grace and peace \"multiplied\" through the knowledge of God and of Jesus our Lord, 2 Peter 1:2, and with a command to make every effort to add virtue and knowledge to faith, 2 Peter 1:5. It now ends with peace, with the same call to make every effort, with grace and knowledge, and with Jesus Christ as Lord and Savior, a title that has appeared at the start, 2 Peter 1:1, and at the heart of the letter, 2 Peter 2:20. A reader who started at chapter 1 and arrives at verse 18 has travelled in a circle that has also climbed.\n\nNotice the two sets of opposites in the middle verses. The false teachers of chapter 2 are described as blots and blemishes, 2 Peter 2:13. Peter's readers are to be found without spot or blemish. The false teachers are \"unstable,\" and they are said to lead others away from a secure standing. The readers are to stand and to grow. The paragraph is built on this contrast, and it ends not with a warning but with a doxology, which tells you which of the two Peter most wants his hearers to carry out of the room.",
+      "historical": "Peter writes as one who expects to die soon. He says he knows that his tent will soon be laid aside, as the Lord Jesus Christ made clear to him, 2 Peter 1:14, and that he wants his readers to remember these things after his departure, 2 Peter 1:15. Early Christian tradition places Peter's last years in Rome, and the letter reads like a farewell address, in the long tradition of leaders who gather their final instructions before leaving, as Moses did in Deuteronomy and as Paul did to the Ephesian elders in Acts 20. The authorship of the letter has been debated since early centuries, and the letter itself claims to come from Simon Peter, 2 Peter 1:1, and to be his second letter to the same readers, 2 Peter 3:1. Whatever one concludes about the date, the situation it describes is clear enough: teachers have arisen inside the church who mock the promise of Christ's return, 2 Peter 3:3 and 3:4, and who promise freedom while living as slaves of depravity, 2 Peter 2:19.\n\nThe mention of Paul is the most striking historical detail. Peter calls him \"our beloved brother Paul,\" which tells us that whatever tensions Paul and Peter had at Antioch, Galatians 2:11 to 14, they were not permanent. He says that Paul wrote to these same readers, but the letter in view is not named. Paul's letters spoke of patience, of the day of the Lord and of grace, and several of them, such as Romans 2:4 and 1 Thessalonians 5, treat the very themes Peter has just handled. The letters of Paul were by this time being read aloud in congregations and passed from church to church, and Peter's phrase \"the rest of the Scriptures\" assumes that the collection was already being treated with the weight of the Old Testament.\n\nThe distortion Peter describes was real in the first century. Some twisted Paul's teaching on grace into an excuse for lawlessness, a charge that Paul himself answers in Romans 6:1 and 6:15. The grace that Peter urges readers to grow in is the grace of Titus 2:11 and 2:12, which \"instructs us to renounce ungodliness.\"\n",
+      "canonical": "Verse 14 draws on the language of sacrifice and of final presentation. The lamb of the Passover had to be unblemished, Exodus 12:5, and Peter has already described Christ as \"a lamb without blemish or spot,\" 1 Peter 1:19. Paul uses the same family of words for the goal of the church: that Christ will present believers \"holy, unblemished, and blameless in His presence,\" Colossians 1:22, and that God chose us \"to be holy and blameless in His presence,\" Ephesians 1:4. Jude ends his letter with the same hope, that God is able \"to present you unblemished in His glorious presence, with great joy,\" Jude 1:24. So the verse sits in a wide stream of New Testament teaching that holiness is both what Christ accomplishes for His people and what He expects to find in them at the end.\n\nVerse 15 echoes the Old Testament revelation of the divine character. When the LORD passed in front of Moses He proclaimed Himself \"slow to anger,\" Exodus 34:6, and Israel returned to that confession again and again. The New Testament states the same thing about the delay before judgment: \"God's kindness leads you to repentance,\" Romans 2:4, and \"God waited patiently in the days of Noah,\" 1 Peter 3:20.\n\nVerse 16 is one of the earliest statements that a New Testament writing stands alongside the Old. Paul himself wrote that \"all Scripture is God-breathed,\" 2 Timothy 3:16. Peter now includes Paul's letters among \"the rest of the Scriptures.\"\n\nVerse 18 is a doxology that belongs with others addressed to the Lord Jesus, such as Revelation 1:6, \"to Him be the glory and dominion forever and ever,\" and with Jude 1:25, which gives the glory to God \"through Jesus Christ our Lord.\" Peter's phrase \"to the day of eternity\" has no direct parallel, but its sense is the same as Jude's \"before all time, and now, and for all eternity.\""
     },
     "hermeneutics": {
-      "authorIntent": "To bring the letter to a close by turning eschatological certainty into ethical urgency: to be found spotless and at peace, to read God's patience as saving mercy, to beware the distortion of Scripture by the unstable, and to press on in the grace and knowledge of Christ, ending in worship of Him.",
-      "descriptionVsPrescription": "This section is overwhelmingly prescriptive: make every effort, be on your guard, grow. Verse 16 also describes a danger, the twisting of Scripture, but it too functions as warning. The abiding commands are to pursue blamelessness, to hold a firm standing, and above all to keep growing in the grace and knowledge of Jesus Christ.",
+      "authorIntent": "Peter wanted his readers to leave the letter with two fixed commitments, one active and one defensive. The active one is to live in the present as people who know how history ends. The Day is coming, and it is not their enemy; they are to be found at peace and without stain. The defensive one is to refuse to be moved. Peter has spent two chapters describing teachers who are clever, attractive and wrong, and he does not want his readers to retain only a vague unease. He wants them to know, by name, that these teachers twist Scripture, that their method is distortion rather than discovery, and that the fruit is ruin.\n\nPeter also intended to settle a question his readers could not have avoided. If the Lord is coming and has not come, what is He doing? His answer is that He is saving people, and he adds Paul's voice to his own so that no one can pit the apostles against each other. Many in the churches would have heard that Paul taught grace and Peter taught effort; Peter shows that both taught the same patient Lord and the same holy life.\n\nThe last verse tells the readers what to do on Monday: keep growing. The ending is not a rule but a direction. The way to avoid being carried off is not to build a wall of suspicion but to deepen a relationship, with Jesus Christ as the object of knowledge and the giver of grace.",
+      "descriptionVsPrescription": "Verses 14 and 17 are commands and are meant to be obeyed: make every effort, be on your guard, grow. They are addressed to believers and presuppose that the Day and the new creation are already settled facts. Verses 15 and 16 are mostly description. Peter reports what Paul wrote and what some do with it. He does not command anyone to read Paul in a certain way, and he does not say which letters or which passages are hard. What carries over is not a list of difficult texts but a posture: take the hard parts seriously, expect to be stretched, and refuse the temptation to bend the text to a wish.\n\nIt is also worth noticing what the paragraph does not say. It does not say that every difficult text will be clear if you try hard enough, and it does not say that readers who find Paul hard are unstable. The unstable are those who distort. Plenty of faithful Christians find Romans or Ephesians difficult and keep reading, asking, and waiting. Peter's sentence makes room for that and treats it as ordinary. The danger lies in a person who finds a text hard and makes it say something comfortable instead.",
       "debates": [
         {
-          "question": "What does it mean that unstable people twist Paul's letters, and how does verse 16 bear on Scripture, verses 15 to 16?",
+          "question": "What does Peter mean by being carried away and falling from a secure standing, verse 17?",
           "views": [
-            { "label": "It affirms Paul's letters as Scripture and warns against distorting hard texts", "case": "Peter places Paul's letters among the rest of the Scriptures, an early and weighty recognition of their inspired authority. The problem is not the difficulty of some passages in itself but the ignorant and unstable readers who wrench them, and all Scripture, to fit their own ends, to their own destruction. The safeguard is a settled grounding in the truth and humble submission to the text." },
-            { "label": "It merely notes that Paul is sometimes obscure", "case": "A lighter reading takes the verse simply as Peter's candid admission that Paul can be hard to follow, without a strong claim about canon or a warning about the reader's heart. On this view the accent falls on Paul's difficulty rather than on the distorters. Yet Peter's own stress is on the unstable who twist, and on the ruin that follows, which points beyond mere obscurity." }
+            {
+              "label": "A true believer could lose salvation",
+              "case": "Peter warns that readers could be carried off by error and fall. Some read this as describing the real possibility of leaving the faith, and they point to the earlier description of those who escaped the world's corruption through the knowledge of Christ and were then overcome again, 2 Peter 2:20 to 22. On this view the warnings would be empty if the danger were unreal."
+            },
+            {
+              "label": "The warning is a means by which God keeps His own",
+              "case": "Others hold that Peter warns precisely because warnings are one of the ways God preserves His people. They note that the readers are called 'beloved' and that Peter says they 'already know these things,' that Jude speaks of God as 'able to keep you from stumbling,' Jude 1:24, and that John says those who left 'did not belong to us,' 1 John 2:19. The warning shows how real the danger is and, at the same time, that the faithful use it to stand."
+            },
+            {
+              "label": "The standing is practical stability, not final salvation",
+              "case": "A third reading takes the fall to be a loss of steadiness, comfort and usefulness, a spiritual slide that harms the church and the believer's witness without settling the question of final salvation. It points to the focus on growth in verse 18 and to the way chapter 1 describes the fruitful life, 2 Peter 1:8 to 10."
+            }
           ],
-          "bearing": "The stronger reading, that Peter affirms Paul's writings as Scripture and warns against self-serving distortion, has shaped the church's doctrine of canon and its care in interpretation. Either way the pastoral point holds: hard texts are not a license for reckless handling, and stability in the truth guards against the twisting that destroys."
+          "bearing": "Every reading agrees on what Peter wants done: pay attention to the warning, hold to what you have been taught, and keep growing. The difference shows up in how a believer who has drifted should be addressed, with a summons to return and a promise that the patient Lord receives those who do."
         },
         {
-          "question": "Why does the letter end with a command to grow rather than merely to hold fast, verse 18?",
+          "question": "What is the 'patience' that brings salvation, verse 15?",
           "views": [
-            { "label": "Growth in grace and knowledge is the true safeguard against error", "case": "Peter has just warned against being carried away and losing one's firm standing. The remedy he gives is not static defense but living growth: keep increasing in the grace and knowledge of Christ. A maturing believer, deepening in Christ, is far less prey to the confident errors of the lawless than one merely trying to hold ground. Growth is the positive counterpart to guarding." },
-            { "label": "The command is a general closing encouragement without special weight", "case": "Some treat grow in grace as a familiar benediction-like flourish, a warm final word rather than a pointed strategy against error. On this view its force is mainly devotional. Yet its placement, directly after the warning of verse 17 and the strong therefore, ties it closely to the danger, giving the command real strategic weight in the letter's argument." }
+            {
+              "label": "The delay gives time for the elect to repent",
+              "case": "Peter has already said that the Lord is 'not wanting anyone to perish but everyone to come to repentance,' 2 Peter 3:9. On this reading the delay of the Day has a purpose, that the number of those who will believe be filled. The salvation in view is the future gathering of God's people, and the patience is the time it takes."
+            },
+            {
+              "label": "The delay is an offer to all",
+              "case": "Others emphasize the word 'anyone' and 'everyone' in verse 9, and read patience as the universal offer of the gospel that the Lord holds open as long as He wills, leaving each person without excuse. They compare Romans 2:4, which speaks of kindness that leads to repentance, and the long waiting in the days of Noah, 1 Peter 3:20."
+            },
+            {
+              "label": "The delay is a mercy to believers who are still growing",
+              "case": "A third emphasis falls on the readers: the patience is also toward them, because they are still being made holy and the Lord's delay gives the time they need. Peter writes 'with you' in verse 9, and the patience of verse 15 is pointed at those already inside the church."
+            }
           ],
-          "bearing": "Read in context, the closing command is Peter's deliberate answer to the danger of the whole letter: the best protection against false teaching and drift is ongoing growth in the grace and knowledge of Jesus Christ. The letter ends by turning defense into pursuit, and pursuit into worship of the Lord who is glorified forever."
+          "bearing": "The three views are not rivals so much as emphases, and all of them lead to the same pastoral conclusion: the delay is not neglect but kindness, and a person who treats it as permission has misread it."
+        },
+        {
+          "question": "Which letters of Paul does Peter have in mind, and are they 'Scripture' in the same sense as the Old Testament?",
+          "views": [
+            {
+              "label": "Romans and the letters on patience and the day of the Lord",
+              "case": "Romans 2:4 speaks of God's patience leading to repentance, and Romans 9 to 11 and 1 and 2 Thessalonians speak of the day of the Lord and its timing. Many think these are among the letters Peter has in mind."
+            },
+            {
+              "label": "Paul's letters as a whole",
+              "case": "Peter says Paul writes this way 'in all his letters,' which suggests a general pattern rather than one text, and he does not name any. He may have in mind the collection of Paul's letters as circulated at the time."
+            },
+            {
+              "label": "Scripture meaning the whole inspired collection",
+              "case": "Because Peter says 'the rest of the Scriptures,' he treats Paul's letters as already part of that category. Some take this as an early witness to a developing New Testament, others as a general claim about apostolic writings that the church later recognized fully."
+            }
+          ],
+          "bearing": "Whichever letters are in view, Peter puts the apostles' writings on the same level as the prophets, which is why the church later received them as Scripture and why twisting them carries the same serious consequence as twisting the Old Testament."
         }
       ]
     },
-    "originalLanguages": "Peter's closing words are chosen with care. Believers are to be found aspilos, spotless, and amometos, blameless, sacrificial words for an offering without defect, in pointed contrast to the false teachers who were blots. The Lord's makrothumia, long-suffering, is to be counted salvation, the very patience the scoffers despised. Meanwhile the unstable streblousin, wrench and rack, Paul's harder words and all Scripture into ruinous shapes. So the readers must keep their sterigmos, their firm and settled footing, and above all auxanete, keep on growing, in the charis, grace, and gnosis, knowledge, of Christ. The letter that has pressed the knowledge of Christ from its opening closes by commanding its increase, and then breaks into glory offered directly to the Lord Jesus.",
+    "originalLanguages": "Verse 14 asks the readers to be found, eurethenai, \"in peace,\" en eirene. The verb \"to be found\" is the language of the last assessment: it asks what will be discovered when the Lord looks. The same root appears in 2 Peter 3:10 in a difficult textual note, where some manuscripts read \"will be found\" of the earth's works, a clause the BSB footnote records as a variant. The readers are to be found aspilos and amometos. Aspilos is the negation of spilos, a stain, and the opposite word in chapter 2 is spiloi and momoi, \"blots and blemishes,\" 2 Peter 2:13, which describes the false teachers feasting with the church. The second word is built on momos, the matching term for a blemish, and the sacrificial background is plain, since the lamb must be without defect, 1 Peter 1:19. Peter's pair also appears in Jude 1:24 and Colossians 1:22 in related forms, which suggests a stock phrase.\n\n\"Make every effort\" translates spoudasate, an urgent aorist imperative from the same root as the \"effort\" of 2 Peter 1:5 and the \"be all the more diligent\" of 2 Peter 1:10. The letter opens and closes with that eagerness.\n\nVerse 15 asks the readers to \"consider,\" hegeisthe, a verb for reaching a settled judgment. They are to regard the delay as salvation, not merely to tolerate it. The patience is makrothumia, which means literally \"long of temper,\" the opposite of a short fuse. In 3:9 the verb form makrothumei eis humas, \"is patient toward you,\" uses the same root, and the Greek Old Testament uses makrothumos for the LORD in Exodus 34:6, the \"slow to anger\" of the great confession.\n\nIn verse 16 the hard things are dusnoeta, from dus, difficult, and a root for understanding, and the unlearned and unstable who twist them are amatheis kai asteriktoi. Asteriktoi means \"not supported\" or \"unfixed,\" and it prepares a wordplay: in verse 17 Peter warns against falling from your sterigmos, from the same family as sterizo, to make firm. Unstable people try to unsettle people who are settled. The verb streblousin carries the picture of wrenching something out of its natural shape, which fits a word used of reading Scripture against its grain. Peter's phrase \"the rest of the Scriptures\" translates tas loipas graphas, and graphe is the ordinary word for a sacred writing.\n\nVerse 17 warns of being \"carried away,\" sunapachthentes, a compound meaning \"led away together with.\" Paul uses the same verb of Barnabas being carried along by the hypocrisy of the others at Antioch, Galatians 2:13. It describes being swept along by a group, not walking off alone.\n\nFinally, auxanete is a present imperative, \"keep on growing.\" The same verb belongs to Paul's prayer that the Colossians be \"growing in the knowledge of God,\" Colossians 1:10, and to Peter's earlier counsel to crave pure spiritual milk \"so that by it you may grow up in your salvation,\" 1 Peter 2:2. In 2 Peter 1:2, 1:3 and 1:8 the word for knowledge is the fuller epignosis; here it is the plainer gnosis. The words are close in sense, and the letter wraps its whole argument in knowledge of Jesus.",
     "typology": [
-      { "type": "The spotless and blameless offering", "fulfillment": "The Old Testament sacrifice without defect prefigures the character in which Christ's people are to be found, itself grounded in Christ the spotless Lamb, Exodus 12:5 and 1 Peter 1:19." },
-      { "type": "The stability of the wise builder", "fulfillment": "The firm footing believers are to keep answers to the wisdom that builds on the rock, so that the storms of error do not carry them away, Matthew 7:24 to 25." }
+      {
+        "type": "The unblemished lamb",
+        "fulfillment": "The lamb for Passover had to be an unblemished year-old male, Exodus 12:5, and the sacrifices of Israel had to be without defect. Peter has already said that believers were redeemed by Christ, 'a lamb without blemish or spot,' 1 Peter 1:19. What was required of the animal becomes in verse 14 the character in which God's people are to be found. The escalation is that the offering and the worshipper now share the same word. The type falls short because the animal could not make anyone clean; Christ is both the offering and the one who makes the offerer 'blameless,' Colossians 1:22."
+      },
+      {
+        "type": "The patient waiting in the days of Noah",
+        "fulfillment": "Peter says that God 'waited patiently in the days of Noah while the ark was being built,' 1 Peter 3:20, and chapter 3 of this letter uses the flood as proof that God judges, 2 Peter 3:6. The long building of the ark was a period of grace before a judgment, and eight people were saved. The delay of the Day in verse 15 follows the same pattern on a larger scale: patience that is salvation, followed by a fire that is certain. The correspondence stops at the scope: Noah's waiting saved eight, while the Lord's patience is extended to everyone, 2 Peter 3:9."
+      },
+      {
+        "type": "The tree planted by streams",
+        "fulfillment": "Psalm 1:3 pictures the person who delights in the law as a tree planted by streams of water that yields fruit in its season. The picture is of steady growth in the right soil, and verse 18 gives a New Testament account of the soil: the grace and knowledge of Christ. Paul says believers are being transformed into the Lord's image with 'intensifying glory,' 2 Corinthians 3:18. The type reaches its fulfillment in Christ, who is the source of the nourishment and the pattern of the fruit. It is a picture rather than a prophecy, and it should not be pressed beyond the common image of growth."
+      }
     ],
-    "christ": "The letter closes wholly on Christ. He is the Lord in whose sight His people are to be found spotless and blameless, the Savior whose patience is salvation, and the One in whose grace and knowledge believers are to grow without ceasing. The final doxology, to Him be the glory both now and to the day of eternity, is worship offered directly to Jesus, a plain confession that the Lord and Savior is God, worthy of eternal glory. The whole aim of the Christian life, and the sure defense against error, is to know and grow in Him.",
-    "god": "God is gracious, patient, and faithful. His patience is not delay but salvation, the time in which He saves. He gave Paul wisdom to write, so that the apostolic letters stand with the rest of the Scriptures as His inspired word. His grace is the very ground in which His people grow, and His purpose is that they be found blameless at the last. The letter's closing glory to Christ reveals the Son as fully God, sharing the eternal glory that belongs to God alone.",
+    "christ": "Peter's last lines hold three portraits of Christ, each tied to a title. First, He is the Lord in whose sight the believer wishes to be found spotless. This changes the meaning of holiness. The readers are not being measured against an abstract standard but against the pleasure of a person who has already given Himself for them. The Lamb without blemish or spot, 1 Peter 1:19, is the same Lord who will look at their lives, and the same Lord who will present them, Colossians 1:22. Peter's urgency about holiness is therefore not anxiety but readiness for a meeting.\n\nSecond, He is the Lord whose patience is salvation. The \"long temper\" of Exodus 34:6 is not described abstractly in the New Testament; it walks around in a person. Jesus weeps over a city, Luke 19:41, and receives sinners, Luke 15:2. When Peter says the delay of the Day is patience, he is describing what the church has known of Jesus: He holds open a door.\n\nThird, He is the object of all growth. The grace in which readers grow is \"of our Lord and Savior Jesus Christ,\" and so is the knowledge. Growth is not an improved version of oneself but an increasing acquaintance with a person, in the sense of John 17:3: \"that they may know You, the only true God, and Jesus Christ, whom You have sent.\" Peter has said that everything needed for life and godliness comes \"through the knowledge of Him who called us,\" 2 Peter 1:3, and now he ends by sending the readers back to that source.\n\nThe doxology is the plainest evidence of how Peter thinks of Christ. Glory is given to Him \"both now and to the day of eternity.\" Glory belongs to God alone, Isaiah 42:8, and the early church sang it to Jesus without hesitation, as Revelation 5:12 to 13 shows, where the Lamb receives the praise that is also given to the One on the throne. The one who prayed this doxology could not have thought of Jesus as less than God, and he writes it as the natural last word.\n\nA caution belongs here. Peter does not make Paul's difficulties into a Christological puzzle, and the paragraph should not be read as a hidden allegory. The Christ it shows is the one on the surface: the Lord who comes, who waits, who saves, and who is to be known and honored.",
+    "god": "The God of this paragraph is first of all patient, and the patience is neither weak nor indifferent. Peter has just explained that the delay of the Day is held in the hand of the one who made the world by His word and will judge it by the same word, 2 Peter 3:5 to 7. Patience here is power under restraint. A God who could end everything and chooses to wait so that more may repent is not slow but kind, as 2 Peter 3:9 and Romans 2:4 say. This shapes the doctrine of God in a way people often miss: His slowness to anger is among His attributes, not a gap in them, and Exodus 34:6 places it beside compassion and faithfulness.\n\nHe is also the God who speaks through human writers in a way that leaves their personalities intact. Peter says Paul wrote \"with the wisdom God gave him,\" and in the same breath calls those letters part of the Scriptures. Paul's own style, his long sentences and his compressed arguments, are not removed by inspiration; they are used. That is a quiet but significant statement about how God works: He gives wisdom to a person, who then writes in his own voice, and the result carries divine authority. The same God, in 2 Timothy 3:16, is the one who breathes out Scripture.\n\nThird, He is the source of both stability and growth. Peter tells readers to stand and to grow, which can sound like a task. But grace is the sphere of the growing: the soil is given, and God is the one who builds up, as Paul says in Acts 20:32, \"the word of His grace, which can build you up and give you an inheritance.\" Jude says God is \"able to keep you from stumbling,\" Jude 1:24. The commands of verses 14 to 18 are real, but they are not asked of people who stand alone.\n\nFinally, He is a God who is worthy of worship at the end of a hard letter. Peter has described judgment by fire and the harm done by false teachers, and he ends on glory. This models the way the doctrine of God should land: warnings serve worship rather than replacing it. The God who will melt the elements is the God who prepares a new heaven and new earth where righteousness dwells, 2 Peter 3:13, and the only fitting response from His people is a doxology that does not end.",
     "crossReferences": [
-      { "ref": "Ephesians 1:4", "note": "Chosen to be holy and blameless in His sight, the goal Peter presses in verse 14." },
-      { "ref": "Romans 2:4", "note": "God's patience is meant to lead to repentance, the truth behind counting His patience as salvation, verse 15." },
-      { "ref": "2 Timothy 3:16", "note": "All Scripture is God-breathed, alongside Peter's placing of Paul's letters among the Scriptures, verse 16." },
-      { "ref": "Ephesians 4:15", "note": "Growing up in all things into Christ, the aim of the closing command to grow, verse 18." }
+      {
+        "ref": "2 Peter 1:5-8",
+        "note": "The letter's opening call to make every effort and to add knowledge to faith is picked up again at the end, where the effort is turned toward peace and growth. Verse 8 there promises that these qualities, if they increase, keep the believer from being ineffective and unproductive in the knowledge of Christ, which is the same goal as 3:18."
+      },
+      {
+        "ref": "2 Peter 2:13",
+        "note": "Here the false teachers are called blots and blemishes who feast with the church. The readers are told in 3:14 to be found without spot or blemish. Setting the two verses side by side shows the contrast Peter is drawing between hypocrites and the people God is preparing for His presence."
+      },
+      {
+        "ref": "2 Peter 3:9",
+        "note": "The statement that the Lord is patient, not wanting anyone to perish but everyone to come to repentance, is the explanation behind verse 15. Peter wants readers to hear that the delay is not slowness but a deliberate mercy, which is why patience can be called salvation."
+      },
+      {
+        "ref": "Romans 2:4",
+        "note": "Paul asks whether we disregard the riches of God's kindness, tolerance and patience, not realizing that His kindness leads to repentance. It is a ready example of what Peter says Paul wrote about the same subject, and it shows apostles in agreement about what delay means."
+      },
+      {
+        "ref": "Exodus 34:6",
+        "note": "The LORD describes Himself as compassionate, gracious and slow to anger. The Old Testament confession lies behind Peter's word for patience and shows that the Lord's patient character is very old, not a late softening of His justice."
+      },
+      {
+        "ref": "Galatians 2:11-14",
+        "note": "Paul once opposed Peter to his face at Antioch, and Barnabas was led astray by the hypocrisy of the others. When Peter calls Paul 'our beloved brother,' the memory makes the phrase more moving, and the verb for being led away is the one Peter uses in verse 17."
+      },
+      {
+        "ref": "Jude 1:24-25",
+        "note": "Jude ends with a promise and a doxology that run parallel to Peter's: God is able to keep His people from stumbling and to present them unblemished with great joy, and glory belongs to the only God our Savior through Jesus Christ. The two letters share vocabulary and concern, and each ends in worship."
+      },
+      {
+        "ref": "Colossians 1:22",
+        "note": "Paul says Christ has reconciled believers through His death to present them holy, unblemished and blameless in His presence. This is the work behind Peter's command: the blamelessness believers are told to pursue is the blamelessness Christ has already provided and will complete."
+      },
+      {
+        "ref": "2 Timothy 3:16",
+        "note": "Paul says all Scripture is God-breathed and useful for instruction, conviction, correction and training in righteousness. Peter's inclusion of Paul's letters among the Scriptures takes the same view of Scripture and, with his warning, adds that what is useful can also be misused."
+      },
+      {
+        "ref": "Ephesians 4:14-15",
+        "note": "Paul wants believers to stop being infants tossed about by every wind of teaching and instead to speak the truth in love and grow up into Christ. It is the same pairing as Peter's: stability against deceitful teaching and growth toward Christ as the answer."
+      },
+      {
+        "ref": "1 Peter 2:2",
+        "note": "Peter earlier told his readers to crave pure spiritual milk so that they might grow up in their salvation. The word for growing is the one he uses in 2 Peter 3:18, so the letter's end repeats his consistent advice about the way a Christian life develops."
+      },
+      {
+        "ref": "Titus 2:11-12",
+        "note": "The grace of God has appeared and instructs us to renounce ungodliness and live upright lives. This is the corrective to those who twisted grace into permission. The grace in which Peter says to grow is a teacher as well as a gift."
+      }
     ],
-    "oneStory": "The Bible's warnings against error end not in anxiety but in growth and worship. Across the whole story God matures His people toward the Day, calling them to be found spotless and to keep increasing in the grace and knowledge of Christ. The unstable who twist the word are set against those who stand firm and grow, and the letter closes by lifting all glory to the Lord Jesus, in whom the knowledge of God is found and to whom the eternal praise of His people belongs.",
-    "sermon": { "status": "verified", "preacher": "Alistair Begg", "title": "Grow in Grace", "url": "https://www.truthforlife.org/resources/sermon/grow-in-grace/", "why": "From Begg's series A Study in 2 Peter, this message expounds 2 Peter 3:14-18 directly: the call to be found at peace and blameless, the Lord's patience as salvation, Paul's letters as Scripture that the unstable twist, and the closing charge to stand firm and grow in the grace and knowledge of Christ. A clear, orthodox handling of this movement." }
+    "oneStory": "This paragraph answers a question that has run through Scripture since the first sin: what will God do with a world that has rebelled against Him, and how long will He wait? The earliest chapters of Genesis show a God who judged and yet preserved, flooding the earth and saving a family. The prophets then lived in the tension between warning and mercy, hearing of a day of the LORD that was close and coming and yet delayed. The delay was not an accident; Peter says it was kindness, and the Old Testament had already described the LORD as slow to anger.\n\nIn the story's middle, Christ comes and takes the judgment on Himself. After that the story has a long interval, the time of the church, which the New Testament calls the last days. Peter's paragraph is a handbook for living in that interval. It tells the church how to see the delay, as mercy that gives time for repentance, how to guard itself, against the voices that say the story has no ending, and how to spend the time, in growth. The warning about Paul is a reminder that the interval has its own dangers, and that Scripture itself, God's gift, is the first thing a deceiver will try to bend.\n\nPeter also ties the end to the beginning. Verse 14 asks for peace and blamelessness, which in Genesis were lost in the garden when shame came and people hid. The goal of salvation is to be found, not hiding, in God's sight without a stain. The picture of growth recalls the original command to be fruitful and increase, now fulfilled in a different sense as the people of God grow in the knowledge of their Lord.\n\nThe story ends in the new creation. Peter's letter names it as a new heaven and a new earth where righteousness dwells, 2 Peter 3:13, and in Revelation the Lamb is the lamp of the city, 21:23, and God Himself shines on His people, 22:5. The doxology of verse 18 anticipates the day when the praise now offered in faith will be offered in sight. The command to grow in grace and knowledge is a command to begin now a knowledge that will not end, and so the letter that opens with the knowledge of Christ ends with the promise that it will be completed in His presence.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "Alistair Begg",
+      "title": "Grow in Grace",
+      "url": "https://www.truthforlife.org/resources/sermon/grow-in-grace/",
+      "why": "From Begg's series A Study in 2 Peter, this message expounds 2 Peter 3:14-18 directly: the call to be found at peace and blameless, the Lord's patience as salvation, Paul's letters as Scripture that the unstable twist, and the closing charge to stand firm and grow in the grace and knowledge of Christ. A clear, orthodox handling of this movement."
+    }
   },
   "quiz": [
     {
       "q": "In light of the coming Day, what does Peter urge believers to pursue in verse 14?",
       "options": [
-        { "text": "To make every effort to be found at peace, spotless and blameless in His sight.", "weight": 100, "note": "Verse 14: hope in the new creation issues in the pursuit of purity and peace with God." },
-        { "text": "To withdraw from the world and wait passively for the end.", "weight": 0, "note": "Peter calls for active effort toward blamelessness, not passive withdrawal." },
-        { "text": "To live in a way that anticipates and prepares for these things.", "weight": 75, "note": "True to verse 14, though the specific aim is to be found spotless and blameless at peace." },
-        { "text": "To secure their reputation among other believers.", "weight": 25, "note": "The concern is to be blameless in His sight, before God, not to guard human reputation." }
+        {
+          "text": "To make every effort to be found at peace, spotless and blameless in His sight.",
+          "weight": 100,
+          "note": "Verse 14: hope in the new creation issues in the pursuit of purity and peace with God."
+        },
+        {
+          "text": "To withdraw from the world and wait passively for the end.",
+          "weight": 0,
+          "note": "Peter calls for active effort toward blamelessness, not passive withdrawal."
+        },
+        {
+          "text": "To live in a way that anticipates and prepares for these things.",
+          "weight": 75,
+          "note": "True to verse 14, though the specific aim is to be found spotless and blameless at peace."
+        },
+        {
+          "text": "To secure their reputation among other believers.",
+          "weight": 25,
+          "note": "The concern is to be blameless in His sight, before God, not to guard human reputation."
+        }
       ]
     },
     {
       "q": "How are believers to regard the Lord's patient delay, according to verse 15?",
       "options": [
-        { "text": "As salvation, the time in which the Lord graciously saves.", "weight": 100, "note": "Verse 15: what scoffers mocked as slowness, believers count as saving mercy." },
-        { "text": "As proof that the promise of His coming has failed.", "weight": 0, "note": "That is the scoffers' error; Peter reads the delay as salvation, not failure." },
-        { "text": "As something Paul also wrote about with God-given wisdom.", "weight": 75, "note": "True to verse 15, though the point is to count the patience itself as salvation." },
-        { "text": "As a reason to delay their own repentance.", "weight": 25, "note": "God's patience is meant to lead to repentance, not to excuse postponing it." }
+        {
+          "text": "As salvation, the time in which the Lord graciously saves.",
+          "weight": 100,
+          "note": "Verse 15: what scoffers mocked as slowness, believers count as saving mercy."
+        },
+        {
+          "text": "As proof that the promise of His coming has failed.",
+          "weight": 0,
+          "note": "That is the scoffers' error; Peter reads the delay as salvation, not failure."
+        },
+        {
+          "text": "As something Paul also wrote about with God-given wisdom.",
+          "weight": 75,
+          "note": "True to verse 15, though the point is to count the patience itself as salvation."
+        },
+        {
+          "text": "As a reason to delay their own repentance.",
+          "weight": 25,
+          "note": "God's patience is meant to lead to repentance, not to excuse postponing it."
+        }
       ]
     },
     {
       "q": "What does Peter say about Paul's letters in verse 16?",
       "options": [
-        { "text": "Some parts are hard to understand, and the ignorant and unstable distort them, as they do the rest of the Scriptures.", "weight": 100, "note": "Verse 16: Peter places Paul's letters among the Scriptures and warns of their being twisted." },
-        { "text": "They are so clear that no one could ever misread them.", "weight": 0, "note": "Peter says some parts are hard to understand and are distorted by the unstable." },
-        { "text": "They are twisted by unstable people to their own destruction.", "weight": 75, "note": "True to verse 16, though Peter also notably ranks them with the rest of the Scriptures." },
-        { "text": "They should be read only by mature teachers, not ordinary believers.", "weight": 25, "note": "Peter warns against distortion by the unstable, not against ordinary believers reading Paul." }
+        {
+          "text": "Some parts are hard to understand, and the ignorant and unstable distort them, as they do the rest of the Scriptures.",
+          "weight": 100,
+          "note": "Verse 16: Peter places Paul's letters among the Scriptures and warns of their being twisted."
+        },
+        {
+          "text": "They are so clear that no one could ever misread them.",
+          "weight": 0,
+          "note": "Peter says some parts are hard to understand and are distorted by the unstable."
+        },
+        {
+          "text": "They are twisted by unstable people to their own destruction.",
+          "weight": 75,
+          "note": "True to verse 16, though Peter also notably ranks them with the rest of the Scriptures."
+        },
+        {
+          "text": "They should be read only by mature teachers, not ordinary believers.",
+          "weight": 25,
+          "note": "Peter warns against distortion by the unstable, not against ordinary believers reading Paul."
+        }
       ]
     },
     {
       "q": "What danger does Peter warn against in verse 17?",
       "options": [
-        { "text": "Being carried away by the error of the lawless and falling from a secure standing.", "weight": 100, "note": "Verse 17: forewarned, believers must guard against being swept from their firm footing." },
-        { "text": "Becoming too rigid and unwilling to consider new teaching.", "weight": 0, "note": "The danger is the opposite: being carried away by error, not being too firm in truth." },
-        { "text": "Losing their stability by drifting after the lawless.", "weight": 75, "note": "True to verse 17, essentially restating the warning about a secure standing." },
-        { "text": "Neglecting to memorize the words of the prophets.", "weight": 25, "note": "The warning concerns being led away by error, not a failure of memorization." }
+        {
+          "text": "Being carried away by the error of the lawless and falling from a secure standing.",
+          "weight": 100,
+          "note": "Verse 17: forewarned, believers must guard against being swept from their firm footing."
+        },
+        {
+          "text": "Becoming too rigid and unwilling to consider new teaching.",
+          "weight": 0,
+          "note": "The danger is the opposite: being carried away by error, not being too firm in truth."
+        },
+        {
+          "text": "Losing their stability by drifting after the lawless.",
+          "weight": 75,
+          "note": "True to verse 17, essentially restating the warning about a secure standing."
+        },
+        {
+          "text": "Neglecting to memorize the words of the prophets.",
+          "weight": 25,
+          "note": "The warning concerns being led away by error, not a failure of memorization."
+        }
       ]
     },
     {
       "q": "How does the letter close in verse 18?",
       "options": [
-        { "text": "With a command to grow in the grace and knowledge of Christ, and glory offered to Him forever.", "weight": 100, "note": "Verse 18: ongoing growth in Christ, sealed with a doxology to the Lord Jesus." },
-        { "text": "With a final warning that most believers will fall away.", "weight": 0, "note": "The letter ends on growth and worship, not on a prediction of mass apostasy." },
-        { "text": "With a doxology giving glory to Christ both now and to the day of eternity.", "weight": 75, "note": "True to verse 18, though the command to grow in grace and knowledge comes first." },
-        { "text": "With instructions to appoint new elders in each church.", "weight": 25, "note": "Peter's closing concerns growth and glory to Christ, not church appointments." }
+        {
+          "text": "With a command to grow in the grace and knowledge of Christ, and glory offered to Him forever.",
+          "weight": 100,
+          "note": "Verse 18: ongoing growth in Christ, sealed with a doxology to the Lord Jesus."
+        },
+        {
+          "text": "With a final warning that most believers will fall away.",
+          "weight": 0,
+          "note": "The letter ends on growth and worship, not on a prediction of mass apostasy."
+        },
+        {
+          "text": "With a doxology giving glory to Christ both now and to the day of eternity.",
+          "weight": 75,
+          "note": "True to verse 18, though the command to grow in grace and knowledge comes first."
+        },
+        {
+          "text": "With instructions to appoint new elders in each church.",
+          "weight": 25,
+          "note": "Peter's closing concerns growth and glory to Christ, not church appointments."
+        }
       ]
     }
   ],
@@ -160,10 +398,25 @@
     "The letter ends with a command to grow, not merely to hold on. What would growing in the grace and knowledge of Christ look like for you in this season?"
   ],
   "translationNotes": [
-    { "ref": "2 Peter 3:14", "note": "Spotless and blameless render aspilos and amometos, sacrificial terms for an offering without defect; a footnote allows to be found by Him in peace, without spot and without blemish." },
-    { "ref": "2 Peter 3:15", "note": "Patience renders makrothymia, long-suffering; our beloved brother Paul shows the warm regard between the apostles and the early circulation of Paul's letters." },
-    { "ref": "2 Peter 3:16", "note": "Distort renders strebloo, to twist or wrench; the rest of the Scriptures places Paul's letters among the inspired writings, an early witness to the New Testament canon." },
-    { "ref": "2 Peter 3:18", "note": "Grow renders auxano, a present continuous call to ongoing increase; the closing doxology offers glory directly to Christ. Some manuscripts do not include the final Amen." }
+    {
+      "ref": "2 Peter 3:14",
+      "note": "Spotless and blameless render aspilos and amometos, sacrificial terms for an offering without defect; a footnote allows to be found by Him in peace, without spot and without blemish."
+    },
+    {
+      "ref": "2 Peter 3:15",
+      "note": "Patience renders makrothymia, long-suffering; our beloved brother Paul shows the warm regard between the apostles and the early circulation of Paul's letters."
+    },
+    {
+      "ref": "2 Peter 3:16",
+      "note": "Distort renders strebloo, to twist or wrench; the rest of the Scriptures places Paul's letters among the inspired writings, an early witness to the New Testament canon."
+    },
+    {
+      "ref": "2 Peter 3:18",
+      "note": "Grow renders auxano, a present continuous call to ongoing increase; the closing doxology offers glory directly to Christ. Some manuscripts do not include the final Amen."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for 2 Peter 3:14-18. All verses confirmed against the API. wording is otherwise unchanged." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for 2 Peter 3:14-18. All verses confirmed against the API. wording is otherwise unchanged."
+  }
 }

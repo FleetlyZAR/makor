@@ -18,8 +18,16 @@
         "note": "eyewitness testimony",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 1, "text": "That which was from {{arche|the beginning}}, which we have heard, which we have seen with our own eyes, which we have {{theaomai|gazed upon}} and touched with our own hands, this is the {{logos|Word}} of life." },
-          { "chapter": 1, "n": 2, "text": "And this is the {{zoe|life}} that was revealed; we have seen it and testified to it, and we proclaim to you the {{aionios|eternal}} life that was with the Father and was revealed to us." }
+          {
+            "chapter": 1,
+            "n": 1,
+            "text": "That which was from {{arche|the beginning}}, which we have heard, which we have seen with our own eyes, which we have {{theaomai|gazed upon}} and touched with our own hands, this is the {{logos|Word}} of life."
+          },
+          {
+            "chapter": 1,
+            "n": 2,
+            "text": "And this is the {{zoe|life}} that was revealed; we have seen it and testified to it, and we proclaim to you the {{aionios|eternal}} life that was with the Father and was revealed to us."
+          }
         ]
       },
       {
@@ -27,7 +35,11 @@
         "note": "with the Father and the Son",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 1, "n": 3, "text": "We proclaim to you what we have seen and heard, so that you also may have {{koinonia|fellowship}} with us. And this fellowship of ours is with the Father and with His Son, Jesus Christ." }
+          {
+            "chapter": 1,
+            "n": 3,
+            "text": "We proclaim to you what we have seen and heard, so that you also may have {{koinonia|fellowship}} with us. And this fellowship of ours is with the Father and with His Son, Jesus Christ."
+          }
         ]
       },
       {
@@ -35,19 +47,58 @@
         "note": "the aim of the letter",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 4, "text": "We write these things so that our {{chara|joy}} may be complete." }
+          {
+            "chapter": 1,
+            "n": 4,
+            "text": "We write these things so that our {{chara|joy}} may be complete."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "arche": { "language": "Greek", "lemma": "arche", "original": "ἀρχή", "gloss": "Beginning, origin, first. John opens with the same phrase as his Gospel, that which was from the beginning. It reaches back before creation to the eternal Son who was already with the Father, the life that has no start and no end." },
-    "theaomai": { "language": "Greek", "lemma": "theaomai", "original": "θεάομαι", "gloss": "To gaze upon, to behold with attention, to contemplate. It is stronger than a passing glance. The apostles did not merely notice Jesus; they beheld Him closely over time, which is why their testimony that the Word came in real flesh can be trusted." },
-    "logos": { "language": "Greek", "lemma": "logos", "original": "λόγος", "gloss": "Word, message, the self-expression of God. Here it is the Word of life, echoing John 1:1 where the Word was with God and was God. The eternal Word became touchable in Jesus, so that the very life of God could be heard, seen, and handled." },
-    "zoe": { "language": "Greek", "lemma": "zoe", "original": "ζωή", "gloss": "Life, and in John especially the life of God shared with His people. This life is not an idea but a person; it was revealed, seen, and testified to. To have the Son is to have this life, a theme the whole letter returns to." },
-    "aionios": { "language": "Greek", "lemma": "aionios", "original": "αἰώνιος", "gloss": "Eternal, everlasting, belonging to the age to come. The eternal life was with the Father and has now appeared. It is not only endless duration but a quality of life, knowing God, that begins now for those who believe." },
-    "koinonia": { "language": "Greek", "lemma": "koinonia", "original": "κοινωνία", "gloss": "Fellowship, sharing, partnership, communion. It is a shared common life, not mere friendliness. The gospel is proclaimed so that hearers may be drawn into the apostles' fellowship, which is itself fellowship with the Father and the Son." },
-    "chara": { "language": "Greek", "lemma": "chara", "original": "χαρά", "gloss": "Joy, gladness. John writes so that joy may be complete, filled to the full. True Christian joy is not manufactured but flows from real fellowship with God, and it grows as the readers are secured in the truth about Christ." }
+    "arche": {
+      "language": "Greek",
+      "lemma": "arche",
+      "original": "ἀρχή",
+      "gloss": "Beginning, origin, first. John opens with the same phrase as his Gospel, that which was from the beginning. It reaches back before creation to the eternal Son who was already with the Father, the life that has no start and no end."
+    },
+    "theaomai": {
+      "language": "Greek",
+      "lemma": "theaomai",
+      "original": "θεάομαι",
+      "gloss": "To gaze upon, to behold with attention, to contemplate. It is stronger than a passing glance. The apostles did not merely notice Jesus; they beheld Him closely over time, which is why their testimony that the Word came in real flesh can be trusted."
+    },
+    "logos": {
+      "language": "Greek",
+      "lemma": "logos",
+      "original": "λόγος",
+      "gloss": "Word, message, the self-expression of God. Here it is the Word of life, echoing John 1:1 where the Word was with God and was God. The eternal Word became touchable in Jesus, so that the very life of God could be heard, seen, and handled."
+    },
+    "zoe": {
+      "language": "Greek",
+      "lemma": "zoe",
+      "original": "ζωή",
+      "gloss": "Life, and in John especially the life of God shared with His people. This life is not an idea but a person; it was revealed, seen, and testified to. To have the Son is to have this life, a theme the whole letter returns to."
+    },
+    "aionios": {
+      "language": "Greek",
+      "lemma": "aionios",
+      "original": "αἰώνιος",
+      "gloss": "Eternal, everlasting, belonging to the age to come. The eternal life was with the Father and has now appeared. It is not only endless duration but a quality of life, knowing God, that begins now for those who believe."
+    },
+    "koinonia": {
+      "language": "Greek",
+      "lemma": "koinonia",
+      "original": "κοινωνία",
+      "gloss": "Fellowship, sharing, partnership, communion. It is a shared common life, not mere friendliness. The gospel is proclaimed so that hearers may be drawn into the apostles' fellowship, which is itself fellowship with the Father and the Son."
+    },
+    "chara": {
+      "language": "Greek",
+      "lemma": "chara",
+      "original": "χαρά",
+      "gloss": "Joy, gladness. John writes so that joy may be complete, filled to the full. True Christian joy is not manufactured but flows from real fellowship with God, and it grows as the readers are secured in the truth about Christ."
+    }
   },
   "study": {
     "basic": {
@@ -61,85 +112,262 @@
       "oneStory": "The whole Bible moves toward God dwelling with His people. Here the eternal life steps into history in Jesus, is seen and touched, and is proclaimed so that people may be brought into fellowship with the Father and the Son, the very life the rest of Scripture promises."
     },
     "context": {
-      "literary": "The prologue of the letter, deliberately echoing the prologue of John's Gospel. It is one long, weighty sentence in Greek, piling up verbs of perception before finally naming the Word of life, then stating the purpose, fellowship, and the aim, complete joy.",
-      "historical": "Written to churches troubled by teachers who had left the fellowship and who denied that the Son had genuinely come in the flesh, ideas linked to early docetic and proto-gnostic thought. John, an aged eyewitness, answers with the physical reality of what he saw and touched.",
-      "canonical": "It stands with John 1:1-18 and the resurrection accounts as a cornerstone of the church's confession that the eternal Son truly became man. It also frames the letter's tests of true faith, which all assume that the life of God has really appeared in Jesus."
+      "literary": "The first three verses of 1 John are a single sentence in Greek, and it does not behave like a normal sentence. It begins with four clauses that all start with \"which,\" each naming something the apostles experienced, and it does not reach its main verb, \"we proclaim,\" until verse 3. In between, verse 2 drops in as a parenthesis that stops to say that the life was revealed, as if the writer could not wait to say it. The stacking of \"which\" clauses piles up the evidence before the claim. By the time the verb arrives, the reader has been given a list of what the apostles heard, saw, gazed upon and touched, and the sentence cannot be read as a rumour or an idea.\n\nThe verbs form their own ladder. \"Heard\" and \"seen\" are in the perfect tense, which describes an experience whose result remains with the speaker: they have heard and it still rings, they have seen and it still stands in their memory. \"Gazed upon\" and \"touched\" are in the aorist, a single completed act, and they climb from distance to contact: the ear, the eye, the long look, the hand. The thing described is neuter, \"that which,\" so the sentence opens on a puzzle: what is the \"which,\" a message, a person, or both? Verse 2 resolves it by saying \"the life,\" and verse 3 by naming \"His Son, Jesus Christ.\"\n\nThe passage also works as a prologue in the way ancient writers framed their books. Luke's preface speaks of what was \"handed down to us by the initial eyewitnesses,\" Luke 1:2, and John's Gospel opens with the Word, John 1:1 to 18. This letter does not copy either but draws on both: it takes the Gospel's vocabulary of beginning, life and Word, and the Gospel's emphasis on witness, and condenses them into an overture for the arguments to come about light, love and truth.",
+      "historical": "The letter is anonymous in the sense that the writer never gives his name, but from the earliest centuries the church received it as the work of the apostle John, writing from Ephesus in his old age. The voice supports that: the writer speaks as an eyewitness, claims to have touched the Word of life, and addresses his readers with the tenderness of a pastor, calling them \"little children\" and \"beloved.\" The date is most likely late in the first century, after the Gospel, when the church had faced decades of controversy.\n\nThe occasion of the letter explains the stress on the senses. The community has been split. \"They went out from us, but they did not belong to us,\" 1 John 2:19. The people who left denied that Jesus is the Christ, 1 John 2:22, and the letter later says that every spirit that does not confess that Jesus Christ has come in the flesh is not from God, 1 John 4:2 to 3. We do not have their writings, so we must be careful about describing them in detail. What the letter itself shows is that they claimed spiritual insight, boasted of their knowledge of God and sinlessness, 1 John 1:8 and 1:10, and yet did not walk in obedience or love, 1 John 2:4 and 4:20. The prologue answers the claim by pointing to something they could not edit: a life that was heard, seen and handled.\n\nIn the ancient world, a witness was the central category for establishing a past event. A court had no cameras; it had people who had been there. John does not ask for belief on the strength of a philosophy but on the testimony of those who stood close. The word he uses for \"testify,\" martureo, is a legal word. The prologue is a deposition, and the letter's purpose is to bring readers into the fellowship it creates.",
+      "canonical": "Behind the prologue stand two earlier beginnings. The first is Genesis 1:1, \"In the beginning,\" which John's Gospel quotes in its first words. The second is the prologue of the Gospel itself: \"In the beginning was the Word, and the Word was with God, and the Word was God,\" John 1:1. The letter says \"from the beginning\" rather than \"in the beginning,\" and \"life\" rather than \"light\" first, but the same figure is in view: the one who was there before anything was made, and who has now been made known, John 1:3, 1:14, 1:18.\n\nThe link to Luke 24 and John 20 is just as close. The risen Jesus invited His frightened disciples to touch Him, saying, \"Touch Me and see, for a spirit does not have flesh and bones,\" Luke 24:39, and He told Thomas to reach out and stop doubting, John 20:27. The verb in the letter for \"touched\" is related to the one in Luke 24:39, so the letter speaks of the same hands. The apostles' witness is first of all a witness to the resurrection, and the church preaches it as a matter of first importance, 1 Corinthians 15:3 to 8.\n\nThe concern for joy to be complete echoes Jesus' own words in the upper room, \"I have told you these things so that My joy may be in you and your joy may be complete,\" John 15:11, and the same purpose appears in John 16:24 and 2 John 1:12. Fellowship with God by way of Christ is also Paul's language in 1 Corinthians 1:9, \"God, who has called you into fellowship with His Son Jesus Christ our Lord, is faithful.\" The apostles' refusal to stay silent about what they have seen and heard, Acts 4:20, and Jesus' word that His disciples would testify because they had been with Him from the beginning, John 15:27, are fulfilled in these lines."
     },
     "hermeneutics": {
-      "authorIntent": "To ground the readers' faith and joy in the apostolic eyewitness testimony that the eternal life appeared in a real, touchable Jesus, and to draw them into fellowship with the Father and the Son.",
-      "descriptionVsPrescription": "These verses are chiefly testimony and statement of purpose rather than command. The abiding truths are that the Son truly came in the flesh, that the apostolic witness is trustworthy, and that God's aim in the gospel is shared fellowship and full joy.",
+      "authorIntent": "John wanted his readers to be sure about something they could easily begin to doubt under pressure. When teachers leave a church and say they have a deeper knowledge, the people who remain can start to wonder whether they have missed something. John's first move is to tell them what they have not missed. The faith they received was not a hint or a mood but the report of people who stood in the presence of the eternal life when it appeared in a body, and nothing the departing teachers claim can be added to that or take away from it.\n\nJohn also intended fellowship to be the point, not information. The apostles proclaim so that readers may share in what they have, and what they have is fellowship with the Father and the Son. This is why the letter is written as a pastor writes, not as a lecturer. He is inviting people into something he lives in, and he assumes they will recognize it when they hear it described.\n\nThe last verse tells us how he measures success: the joy is to be complete. A letter that goes on to speak of sin, obedience, hatred and love might seem severe, but John tells us at the start that all of it is for the sake of joy. His readers should read the demanding passages that follow as the work of someone who wants them glad, secure and close to God.",
+      "descriptionVsPrescription": "The prologue mostly describes. It reports what the apostles heard, saw and touched, and says why they proclaim it. There is no command in it, and the verbs we are tempted to turn into instructions, such as \"see\" and \"touch,\" are verbs about the apostles, not about us. We cannot ourselves touch the Word of life in the way they did, and the letter does not ask us to. What it asks, by implication, is that we receive their testimony, which is why the same letter later says that those who hear the apostles have fellowship with them, 1 John 1:3.\n\nThat has a practical consequence. The passage does not authorize a faith that depends on private experiences of the sort the apostles had. It points us to a faith resting on a public event, witnessed and handed on. Jesus said as much to Thomas: \"Blessed are those who have not seen and yet have believed,\" John 20:29, and John writes his Gospel so that readers may believe, John 20:31. Believers today share in the apostles' fellowship by trusting what the apostles reported.\n\nWhat does carry over as a command is the posture of witness. Peter and John told the authorities, \"we cannot stop speaking about what we have seen and heard,\" Acts 4:20. The church inherits the task to speak of Christ as people who have been given a message, and John's pattern of experience, testimony and invitation remains the pattern of Christian witness.",
       "debates": [
         {
-          "question": "What does John mean by 'that which was from the beginning' and 'the Word of life'?",
+          "question": "Does 'that which was from the beginning' refer to eternity or to the start of Jesus' ministry?",
           "views": [
-            { "label": "The eternal Son, the person of Christ", "case": "The parallels with John 1:1-14, where the Word is a person who was with God and became flesh, and the sensory verbs, heard, seen, touched, point to a person, not merely a message. The eternal life that was with the Father and was revealed is Jesus Himself. This is the strongest reading and it fits the letter's insistence on the incarnation." },
-            { "label": "The gospel message about Christ", "case": "Some stress that John proclaims a message and writes these things, so 'the Word of life' could mean the life-giving message rather than the person." },
-            { "label": "A deliberate blend of person and message", "case": "Others hold that John hovers between the person and the proclamation about Him, since the two cannot be separated in his thought." }
+            {
+              "label": "The eternal beginning",
+              "case": "The echo of John 1:1 suggests that 'the beginning' is the same as in the Gospel, before creation. The life 'was with the Father,' verse 2, and the phrase fits the one who was before the world. Many early and later readers take it this way, and the verb 'was' points to existence before the apostles encountered it."
+            },
+            {
+              "label": "The beginning of the gospel message",
+              "case": "Other readers hear 'from the beginning' as the start of the apostolic message or of Jesus' public ministry, as in John 15:27, 'you have been with Me from the beginning.' The letter uses the phrase this way when it speaks of the commandment 'you have had from the beginning,' 1 John 2:7, which means since they first heard the gospel, not since creation."
+            },
+            {
+              "label": "Both at once",
+              "case": "Because the clause is neuter and open, some think John intentionally lets the phrase carry both senses: the life that had no beginning appeared at a point in history, and the message of it has a beginning in the apostles' witness. The deliberate ambiguity makes the eternal life known in time."
+            }
           ],
-          "bearing": "The strongest orthodox reading centres on the person of the eternal Son who became touchable in Jesus, while gladly affirming that the message about Him is inseparable from Him. Either way the incarnation is real and the apostolic testimony to it is sure, which is exactly the assurance John wants his readers to have."
+          "bearing": "Either way, the clause sets the Word of life against anything newer. A claimed insight that goes beyond what was there from the beginning is, by that standard, an addition and not a deepening."
+        },
+        {
+          "question": "What is the 'Word of life,' a message or a person?",
+          "views": [
+            {
+              "label": "The person of Christ",
+              "case": "The language of hearing, seeing and touching suggests a person, and the phrase recalls the Gospel's Word who was with God and became flesh, John 1:1 and 1:14. Verse 2 identifies the life with the Son who was 'with the Father.'"
+            },
+            {
+              "label": "The gospel message",
+              "case": "The word 'logos' often means message or word in the New Testament. Paul speaks of 'the word of life' as something believers hold forth to a dark world, Philippians 2:16. On this reading the apostles heard and saw and touched events and a person, but the phrase refers to the message about life that they proclaim."
+            },
+            {
+              "label": "The message that is the person",
+              "case": "Many take the phrase to hold both: the message is nothing but the person, so that proclaiming the word of life is proclaiming Christ. The overlap is likely deliberate, for what is heard in the gospel is the voice of the one it is about."
+            }
+          ],
+          "bearing": "The difference is small in practice. The message John proclaims cannot be separated from Jesus, and this is exactly the point against those who would keep a spiritual message but drop the flesh-and-blood Son."
+        },
+        {
+          "question": "Is the joy 'our joy' or 'your joy' in verse 4?",
+          "views": [
+            {
+              "label": "'Our joy'",
+              "case": "The BSB reads 'our joy,' following the better known early manuscripts. The apostles' joy is completed when their readers share the fellowship they proclaim, in the way Paul speaks of the joy he has in his converts, Philippians 4:1."
+            },
+            {
+              "label": "'Your joy'",
+              "case": "A footnote in the BSB notes that the Byzantine tradition and the Textus Receptus read 'your joy.' This fits Jesus' words, 'that your joy may be complete,' John 15:11 and 16:24, and the translation in older English versions."
+            }
+          ],
+          "bearing": "The two readings are close in sense. The joy is shared: the apostles are glad when their readers are, and readers are glad because they have been brought into the apostles' fellowship."
         }
       ]
     },
-    "originalLanguages": "John reaches back to the arche, the beginning, the same word that opens his Gospel and the Greek Old Testament, to speak of the eternal Word, logos, of life. He piles up verbs of the senses, and the strongest of them, theaomai, means to gaze upon and contemplate, not merely to glimpse. What was gazed upon is the life, zoe, that is eternal, aionios, and was with the Father before appearing among us. All of it is proclaimed for one end, koinonia, a shared common life with the Father and the Son, and so that joy, chara, may be filled to the full.",
+    "originalLanguages": "Verse 1 opens with the neuter relative ho, \"that which,\" and then repeats it. The grammar leaves the object open until verse 2 names it. The first two verbs are in the perfect tense: akekoamen, \"we have heard,\" and heorakamen, \"we have seen.\" The perfect describes a past action whose effect is still present, which suits eyewitnesses who are still carrying what they saw. The next two verbs shift to the aorist: etheasametha, \"we gazed upon,\" and epselaphesan, \"our hands handled.\" Theaomai is the verb of a steady, attentive look, the contemplation of something worth studying, and it is the same verb John uses in his Gospel when he says \"we have seen His glory,\" John 1:14. Pselaphao, to feel or handle, is related to the word the risen Jesus used when He said \"Touch Me and see,\" Luke 24:39. John chooses verbs that ask for sustained attention and for contact, and that deny that what he saw could be an appearance only.\n\nThe word for \"revealed\" in verse 2, ephanerothe, is repeated twice in the verse. Phaneroo means to make visible or bring into the open, and John uses it for the incarnation again and again: Christ \"appeared to take away sins,\" 1 John 3:5, \"the Son of God was revealed to destroy the works of the devil,\" 1 John 3:8, and \"God's love was revealed among us,\" 1 John 4:9. The word does not suggest that the life began when it was revealed; it says that what was hidden with the Father came into view.\n\nThe apostles \"testify\" and \"proclaim,\" martyroumen and apangellomen. The first is the language of a witness, and the second is the language of a herald who brings a message. Both appear in verse 2 and the second returns in verse 3, so the apostles stand in the roles of witness and messenger together.\n\nThe phrase \"was with the Father\" is pros ton patera, the same preposition pros used in John 1:1, \"the Word was with God.\" It suggests more than nearness; it pictures a face turned toward another. That personal relation, before the creation, is what the apostles saw come into the world.\n\nKoinonia, \"fellowship,\" comes from the root koinos, \"common.\" The idea is sharing something in common, a joint participation. Paul uses it of the fellowship with God's Son into which believers are called, 1 Corinthians 1:9. In this verse John says the fellowship is \"with us\" and also \"with the Father and with His Son,\" so that the apostles' own circle of friendship is a doorway into God's own life, and it comes by way of the Son. The phrase \"that your fellowship may be with us\" is not about belonging to an organization but about sharing in the truth.\n\nFinally, pepleromene, \"complete,\" in verse 4 is a perfect passive participle, so the joy is \"having been filled\" and remains full, a state brought about by something else rather than achieved by effort. The same verb is used for the joy Jesus wants His disciples to have in John 15:11.",
     "typology": [
-      { "type": "The Word who was from the beginning and became touchable", "fulfillment": "The eternal Son, John 1:1-14, in whom God comes to dwell with His people, answering the tabernacle and temple where God met Israel behind a veil." },
-      { "type": "The eternal life revealed and handled by the apostles", "fulfillment": "The risen Christ who invited the disciples to see and touch Him, Luke 24:39, John 20:27, and who gives His life to all who believe." }
+      {
+        "type": "The tabernacle and temple, where God dwelt with His people",
+        "fulfillment": "In the tabernacle and temple God's presence was real but veiled; the people stood outside and only priests came near, Leviticus 16:2 and 16:15. The prologue shows what that dwelling was pointing toward: the life of God made seen, heard and handled. John's Gospel says the Word 'made His dwelling among us,' John 1:14, which echoes the tent of the wilderness. In Christ the veil is no longer between God and His people, and the author of Hebrews says the way has been opened, Hebrews 10:19 to 20. The type falls short in that the temple was a place; Christ is a person who can be touched, and fellowship with Him extends to every believer."
+      },
+      {
+        "type": "Eyewitnesses and the law of witnesses",
+        "fulfillment": "Israel's law required more than one witness to establish a matter, Deuteronomy 19:15, and the prophets were sent to testify to the people. The apostles take up that role as the appointed witnesses to Jesus, as Jesus said, 'you have been with Me from the beginning,' John 15:27. The writer's repeated 'we' echoes a court of witnesses. The fulfillment is that the witnesses testify not to a law or a promise but to the person in whom the promise has arrived. The pattern has a limit: the apostolic witness is unrepeatable, and later believers testify to what they have received from the apostles, not to what they themselves have touched."
+      },
+      {
+        "type": "The creation of light and life in the beginning",
+        "fulfillment": "The prologue's 'from the beginning' recalls Genesis 1:1 and the first word of creation. God spoke and light came, Genesis 1:3, and later Scripture treats the first creation as a sign of the second: 'the God who said, Let light shine out of darkness, made His light shine in our hearts,' 2 Corinthians 4:6. The Word who spoke the world into being appears in the flesh, John 1:3 and 1:14. The correspondence is real, but it should not be pressed into a point-for-point allegory; the prologue draws on Genesis for its themes of beginning and life, not as a hidden code."
+      }
     ],
-    "christ": "Jesus is the Word of life, the eternal life that was with the Father now made visible, audible, and touchable. John insists on the physical reality of the Son against any teaching that He only seemed to be human. The whole letter rests on this: because the Son truly came in the flesh, the life of God is really offered to us, and fellowship with the Father comes only through the Son, Jesus Christ.",
-    "god": "God the Father is the source of the eternal life that appeared in the Son. He is not remote but self-giving, sending His Son so that people may know Him and share His life. His purpose in the gospel is fellowship, a shared common life with Himself, and joy made complete, which shows a God who delights to be known and to gladden His people.",
+    "christ": "The prologue presents Jesus as the life of God made accessible to human senses. That is a larger claim than it first appears. Scripture says that no one has seen God, John 1:18, and the Old Testament says that no one can see Him and live, Exodus 33:20. John says that what could not be seen has been seen, and it was seen in a man who ate and walked and could be touched. The Son \"who is Himself God and is at the Father's side, has made Him known,\" John 1:18. The one who was with the Father is the one who stood in a room with the apostles.\n\nThe eternity of the Son is part of the same claim. The life \"was with the Father\" and \"was from the beginning.\" John does not say that a man became divine. He says that the life that had always existed in fellowship with the Father appeared in history. This is the doctrine the church later confessed in saying that the Son is eternal, of one nature with the Father, and truly human.\n\nThe reality of His body matters because of what John is about to say about sin. The letter will tell us that His blood cleanses us from all sin, 1 John 1:7, and that He is the atoning sacrifice for our sins, 1 John 2:2. A sacrifice cannot be offered by a phantom. The same apostle who says Jesus could be touched also says that He came 'by water and blood,' 1 John 5:6. So the prologue is not a preface to a different topic; it lays down the ground on which atonement stands.\n\nNotice too how Christ relates to fellowship. Fellowship with the Father is \"with His Son, Jesus Christ.\" There is no route to the Father around the Son. Jesus Himself said, \"this is eternal life, that they may know You, the only true God, and Jesus Christ, whom You have sent,\" John 17:3, and Paul speaks of being called into fellowship with the Son, 1 Corinthians 1:9. The apostles do not offer their readers a vague spirituality but a person to know.\n\nFinally, Christ is the source of joy. His joy, He told the disciples, is meant to be in them so that theirs might be complete, John 15:11. The letter's aim of complete joy is not separate from Christ's own wish for His people. It would be a forced reading to find Christ hidden in every phrase of the prologue, and none is needed: the passage is about Him from its first word.",
+    "god": "The God of the prologue is a God who makes Himself known. The verbs of the opening, heard, seen, gazed upon and touched, all belong to the apostles, but the verb that matters is the one John applies to the life itself: it was revealed. The initiative is God's. People do not climb to the life of God by thinking or by religious effort; the life comes down and appears. That is the shape of the doctrine of revelation in the New Testament, and it makes the letter's later demands sound different. The commands to love and obey are not terms for gaining access to a distant God but ways of living in the nearness He has already given.\n\nHe is also a God of relationship within Himself. The eternal life \"was with the Father,\" and the fellowship the apostles describe is \"with the Father and with His Son.\" John does not use a theory of the Trinity here, but his language assumes personal distinctions in God, a Father and a Son who share a life in which believers are invited to participate. The God who creates fellowship is a God who is fellowship, and the love John will speak of in chapter 4 is first the love between the Father and the Son, John 17:24.\n\nFurther, He is a God who wants joy for people. The purpose of the whole letter, John says, is that joy be complete. This is not what many expect from a writing that deals with sin and judgment. The God John knows is not content to see His people merely forgiven or merely correct; He wants them glad. When Jesus says, \"I have told you these things so that My joy may be in you and your joy may be complete,\" John 15:11, He speaks of His own joy being shared. The Father and Son wish their joy to be ours.\n\nFinally, He is a God who works through human witness. The life was revealed to the apostles, and the apostles tell others, and through their telling readers enter into fellowship with God. God has chosen to make Himself known through a chain of people who say what they have seen, and this is why proclamation matters in the church. The one who gave the message is trustworthy, and those who passed it on were chosen to be eyewitnesses, which is why the letter can assume that the testimony is reliable. Worship that follows from this passage is the response of those who have been told, by people who were there, that the life of God has come near.",
     "crossReferences": [
-      { "ref": "John 1:1-14", "note": "The Word was with God and was God, and became flesh; the prologue John's letter deliberately echoes." },
-      { "ref": "John 20:24-28", "note": "The risen Jesus invites Thomas to touch Him, grounding the apostolic testimony that the Son came in real flesh." },
-      { "ref": "Luke 24:39", "note": "Touch Me and see; a spirit does not have flesh and bones, the same physical reality John proclaims." },
-      { "ref": "1 John 5:11-13", "note": "God has given us eternal life, and this life is in His Son, the same eternal life named here and the aim of the whole letter." }
+      {
+        "ref": "John 1:1-5",
+        "note": "The Gospel's prologue speaks of the Word who was in the beginning with God, in whom was life. The letter's opening draws from these verses in language and idea, so reading them together shows that the Word of life and the eternal life with the Father are the same person described in two writings."
+      },
+      {
+        "ref": "John 1:14",
+        "note": "The Word became flesh and made His dwelling among us, and we have seen His glory. The same verb for beholding appears in the letter, and the verse states in plain terms what the letter assumes: the eternal Word took a real body that could be seen and touched."
+      },
+      {
+        "ref": "Luke 24:36-43",
+        "note": "The risen Jesus invites the frightened disciples to look at His hands and feet and to touch Him, and then eats in front of them. The scene shows what John means by touching with our own hands, and why the apostles could speak of the resurrection body as something handled."
+      },
+      {
+        "ref": "John 20:24-29",
+        "note": "Thomas is told to put his finger into the wounds and to stop doubting, and then he confesses Jesus as Lord and God. The episode is the nearest narrative to the letter's claim and the end of it, 'blessed are those who have not seen,' reaches the readers who come later."
+      },
+      {
+        "ref": "Acts 4:18-20",
+        "note": "Ordered to stop speaking in Jesus' name, Peter and John answer that they cannot stop speaking about what they have seen and heard. The words are those of the letter's first verse, and they show the pressure under which the apostolic testimony was given."
+      },
+      {
+        "ref": "1 Corinthians 15:3-8",
+        "note": "Paul lists those to whom the risen Christ appeared, including more than five hundred at once. It is an early statement of the same appeal to witnesses, and it shows that the church from the start rested its message on people who had seen."
+      },
+      {
+        "ref": "1 John 4:9-10",
+        "note": "God's love was revealed when He sent His one and only Son into the world so that we might live through Him. The word 'revealed' is the same as in 1:2, and the verses show the purpose of the life's appearing: that people might live, through an atoning sacrifice."
+      },
+      {
+        "ref": "1 John 5:13",
+        "note": "John writes so that believers may know they have eternal life. The purpose clause matches 1:4 and shows the letter's two aims side by side: complete joy and settled assurance, and the first rests on the second."
+      },
+      {
+        "ref": "John 15:11",
+        "note": "Jesus tells the disciples that He has spoken so that His joy may be in them and their joy may be complete. This is the source of the letter's phrase about joy, and it shows that the apostles are carrying forward Jesus' own purpose."
+      },
+      {
+        "ref": "Philippians 2:15-16",
+        "note": "Paul speaks of believers shining as lights in the world while holding forth the word of life. The phrase 'the word of life' appears here as something believers hold out to others, which helps explain the sense in which John's message is also a word."
+      },
+      {
+        "ref": "1 Corinthians 1:9",
+        "note": "God has called believers into fellowship with His Son, Jesus Christ our Lord, and He is faithful. The verse gives Paul's version of the fellowship that John describes, and the note of faithfulness answers the doubts the opening of the letter is meant to settle."
+      }
     ],
-    "oneStory": "Scripture's one story runs toward God dwelling with His people in fullness of joy. Here the eternal life that was with the Father steps into history in Jesus, is truly seen and touched, and is proclaimed by eyewitnesses so that hearers may be drawn into fellowship with the Father and the Son. The life the whole Bible promises has a face and a name, and John writes so that our joy in Him may be complete.",
-    "sermon": { "status": "verified", "preacher": "Alistair Begg", "title": "The Word of Life", "url": "https://www.truthforlife.org/resources/sermon/the-word-of-life/", "why": "Begg preaches this opening, 1 John 1:1-4, on the eternal Word of life whom the apostles heard, saw, and touched, and on the fellowship and joy the gospel brings. A clear, orthodox handling of the letter's prologue." }
+    "oneStory": "From the garden onward the Bible is the story of a God who made people for fellowship with Himself and of what became of that fellowship. In Eden the LORD God walked in the garden and spoke with the man and woman, Genesis 3:8, and after the fall they hid and were sent out. The rest of the story is the search of God for His people and the slow rebuilding of a place where He can live among them: the covenant at Sinai, the tabernacle, the temple, and the prophets' promise that God would one day dwell with His people in a new way.\n\nThe prologue of 1 John says that the promise has been fulfilled at a particular moment. What had been hidden with the Father was revealed, and people who lived in a specific time and place saw and touched it. In the larger story this is the turning point: the Word that spoke creation into being became flesh and entered the world He made. The tent that the LORD pitched among Israel is now a body.\n\nThe prologue also answers the question that the fall raised: can people share in the life of God again? Its answer is yes, and it is offered not as a vague hope but as an invitation. The apostles proclaim what they saw \"so that you also may have fellowship.\" The fellowship is open to those who were not there, because the apostles carry the message to the next generation, and they in turn carry it to the next. The story of Scripture from Pentecost onward is a chain of such proclamation, through which people from every nation come to share in the life of the Father and the Son.\n\nThe end of the story is also visible here. John says the joy will be complete, and the book of Revelation shows what the complete form of that fellowship is: God's dwelling is with people, He lives with them, and they see His face, Revelation 21:3 and 22:4. What the apostles touched in a room in Galilee and Jerusalem is what all of God's people will see without a veil. The words 'from the beginning' point back to creation, and the words 'complete joy' point forward to the new creation, so that the opening of this little letter holds the shape of the whole Bible in four verses.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "Alistair Begg",
+      "title": "The Word of Life",
+      "url": "https://www.truthforlife.org/resources/sermon/the-word-of-life/",
+      "why": "Begg preaches this opening, 1 John 1:1-4, on the eternal Word of life whom the apostles heard, saw, and touched, and on the fellowship and joy the gospel brings. A clear, orthodox handling of the letter's prologue."
+    }
   },
   "quiz": [
     {
       "q": "What does John emphasize about the Word of life in verses 1 and 2?",
       "options": [
-        { "text": "That the eternal life was really heard, seen, and touched by the apostles.", "weight": 100, "note": "John piles up verbs of the senses to insist the Son truly came in the flesh." },
-        { "text": "That the message about Jesus is inspiring even if His body was not real.", "weight": 25, "note": "This denies the very point; John stresses the physical reality of the Son." },
-        { "text": "That Jesus began to exist when He was born.", "weight": 0, "note": "John says He was from the beginning, with the Father, before appearing among us." },
-        { "text": "That Jesus was a great teacher whose words gave life.", "weight": 75, "note": "His words do give life, but John's emphasis is that the eternal life itself appeared and was touched." }
+        {
+          "text": "That the eternal life was really heard, seen, and touched by the apostles.",
+          "weight": 100,
+          "note": "John piles up verbs of the senses to insist the Son truly came in the flesh."
+        },
+        {
+          "text": "That the message about Jesus is inspiring even if His body was not real.",
+          "weight": 25,
+          "note": "This denies the very point; John stresses the physical reality of the Son."
+        },
+        {
+          "text": "That Jesus began to exist when He was born.",
+          "weight": 0,
+          "note": "John says He was from the beginning, with the Father, before appearing among us."
+        },
+        {
+          "text": "That Jesus was a great teacher whose words gave life.",
+          "weight": 75,
+          "note": "His words do give life, but John's emphasis is that the eternal life itself appeared and was touched."
+        }
       ]
     },
     {
       "q": "Why does John proclaim what he has seen and heard?",
       "options": [
-        { "text": "So that his readers may share fellowship with the apostles, the Father, and the Son.", "weight": 100, "note": "Verse 3 names fellowship with the Father and His Son as the purpose." },
-        { "text": "So that his readers will admire the apostles' experiences.", "weight": 25, "note": "The aim is not admiration but shared fellowship with God." },
-        { "text": "So that his readers may gain secret knowledge unavailable to others.", "weight": 0, "note": "John opposes secret-knowledge teaching; the testimony is open and for all." },
-        { "text": "So that his readers will have accurate information about history.", "weight": 75, "note": "The testimony is accurate, but the goal is fellowship, not information alone." }
+        {
+          "text": "So that his readers may share fellowship with the apostles, the Father, and the Son.",
+          "weight": 100,
+          "note": "Verse 3 names fellowship with the Father and His Son as the purpose."
+        },
+        {
+          "text": "So that his readers will admire the apostles' experiences.",
+          "weight": 25,
+          "note": "The aim is not admiration but shared fellowship with God."
+        },
+        {
+          "text": "So that his readers may gain secret knowledge unavailable to others.",
+          "weight": 0,
+          "note": "John opposes secret-knowledge teaching; the testimony is open and for all."
+        },
+        {
+          "text": "So that his readers will have accurate information about history.",
+          "weight": 75,
+          "note": "The testimony is accurate, but the goal is fellowship, not information alone."
+        }
       ]
     },
     {
       "q": "What is the stated aim of John's writing in verse 4?",
       "options": [
-        { "text": "That joy may be complete, filled to the full.", "weight": 100, "note": "John writes so that joy, rooted in fellowship with God, may be made complete." },
-        { "text": "That the readers would feel guilty enough to change.", "weight": 25, "note": "The aim named is full joy, not guilt, though the letter does call to holiness." },
-        { "text": "That the readers would fear losing their salvation daily.", "weight": 0, "note": "The letter aims at assurance and joy, not anxious fear." },
-        { "text": "That the readers would enjoy a well-written letter.", "weight": 75, "note": "The letter is well crafted, but the aim is joy grounded in fellowship with the Father and Son." }
+        {
+          "text": "That joy may be complete, filled to the full.",
+          "weight": 100,
+          "note": "John writes so that joy, rooted in fellowship with God, may be made complete."
+        },
+        {
+          "text": "That the readers would feel guilty enough to change.",
+          "weight": 25,
+          "note": "The aim named is full joy, not guilt, though the letter does call to holiness."
+        },
+        {
+          "text": "That the readers would fear losing their salvation daily.",
+          "weight": 0,
+          "note": "The letter aims at assurance and joy, not anxious fear."
+        },
+        {
+          "text": "That the readers would enjoy a well-written letter.",
+          "weight": 75,
+          "note": "The letter is well crafted, but the aim is joy grounded in fellowship with the Father and Son."
+        }
       ]
     },
     {
       "q": "What does 'that which was from the beginning' most likely refer to?",
       "options": [
-        { "text": "The eternal Son who was with the Father before appearing in the flesh.", "weight": 100, "note": "Echoing John 1:1, it points to the eternal Word, a person, now revealed in Jesus." },
-        { "text": "The life-giving message about Jesus, inseparable from Him.", "weight": 75, "note": "The message is inseparable from Him, but the phrase centres on the eternal person." },
-        { "text": "The start of John's own ministry.", "weight": 25, "note": "The beginning here is far earlier, reaching before creation to the Father." },
-        { "text": "The founding of the first church.", "weight": 0, "note": "The reference is to the eternal Son, not the church's founding." }
+        {
+          "text": "The eternal Son who was with the Father before appearing in the flesh.",
+          "weight": 100,
+          "note": "Echoing John 1:1, it points to the eternal Word, a person, now revealed in Jesus."
+        },
+        {
+          "text": "The life-giving message about Jesus, inseparable from Him.",
+          "weight": 75,
+          "note": "The message is inseparable from Him, but the phrase centres on the eternal person."
+        },
+        {
+          "text": "The start of John's own ministry.",
+          "weight": 25,
+          "note": "The beginning here is far earlier, reaching before creation to the Father."
+        },
+        {
+          "text": "The founding of the first church.",
+          "weight": 0,
+          "note": "The reference is to the eternal Son, not the church's founding."
+        }
       ]
     },
     {
       "q": "How is fellowship with God made possible, according to these verses?",
       "options": [
-        { "text": "Through the Son, Jesus Christ, whom the apostles proclaim.", "weight": 100, "note": "Verse 3 ties fellowship with the Father to fellowship with His Son, Jesus Christ." },
-        { "text": "Through sincere effort to be a good person.", "weight": 25, "note": "Fellowship comes through the Son, not through self-improvement." },
-        { "text": "Through private mystical experiences apart from Christ.", "weight": 0, "note": "John grounds fellowship in the proclaimed Son, not in experiences that bypass Him." },
-        { "text": "Through belonging to the right community.", "weight": 75, "note": "The apostolic fellowship matters, but it is fellowship with the Father and the Son that is decisive." }
+        {
+          "text": "Through the Son, Jesus Christ, whom the apostles proclaim.",
+          "weight": 100,
+          "note": "Verse 3 ties fellowship with the Father to fellowship with His Son, Jesus Christ."
+        },
+        {
+          "text": "Through sincere effort to be a good person.",
+          "weight": 25,
+          "note": "Fellowship comes through the Son, not through self-improvement."
+        },
+        {
+          "text": "Through private mystical experiences apart from Christ.",
+          "weight": 0,
+          "note": "John grounds fellowship in the proclaimed Son, not in experiences that bypass Him."
+        },
+        {
+          "text": "Through belonging to the right community.",
+          "weight": 75,
+          "note": "The apostolic fellowship matters, but it is fellowship with the Father and the Son that is decisive."
+        }
       ]
     }
   ],
@@ -151,9 +379,21 @@
     "This eternal life was with the Father from the beginning and has now appeared. How does the eternity and reality of Christ steady you when your faith feels shaky?"
   ],
   "translationNotes": [
-    { "ref": "1 John 1:1", "note": "The opening string of relative clauses has no clear subject until 'the Word of life', building suspense; the neuter 'that which' embraces both the eternal person and all that was revealed in Him." },
-    { "ref": "1 John 1:1", "note": "The BSB reads 'touched with our own hands' where the Greek uses a verb meaning to feel or handle, the same idea as the risen Jesus inviting the disciples to handle Him in Luke 24:39." },
-    { "ref": "1 John 1:4", "note": "Some manuscripts read 'your joy' rather than 'our joy', as the BSB footnote notes; either way the joy flows from shared fellowship and is meant to be complete." }
+    {
+      "ref": "1 John 1:1",
+      "note": "The opening string of relative clauses has no clear subject until 'the Word of life', building suspense; the neuter 'that which' embraces both the eternal person and all that was revealed in Him."
+    },
+    {
+      "ref": "1 John 1:1",
+      "note": "The BSB reads 'touched with our own hands' where the Greek uses a verb meaning to feel or handle, the same idea as the risen Jesus inviting the disciples to handle Him in Luke 24:39."
+    },
+    {
+      "ref": "1 John 1:4",
+      "note": "Some manuscripts read 'your joy' rather than 'our joy', as the BSB footnote notes; either way the joy flows from shared fellowship and is meant to be complete."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for 1 John 1:1-4." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for 1 John 1:1-4."
+  }
 }

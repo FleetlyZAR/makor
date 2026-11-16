@@ -18,7 +18,11 @@
         "note": "the foundational message",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 5, "text": "And this is the message we have heard from Him and announce to you: God is {{phos|light}}, and in Him there is no {{skotia|darkness}} at all." }
+          {
+            "chapter": 1,
+            "n": 5,
+            "text": "And this is the message we have heard from Him and announce to you: God is {{phos|light}}, and in Him there is no {{skotia|darkness}} at all."
+          }
         ]
       },
       {
@@ -26,8 +30,16 @@
         "note": "honesty versus pretence",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 6, "text": "If we say we have fellowship with Him yet {{peripateo|walk}} in the darkness, we lie and do not practice the truth." },
-          { "chapter": 1, "n": 7, "text": "But if we walk in the light as He is in the light, we have fellowship with one another, and the blood of Jesus His Son {{katharizo|cleanses}} us from all sin." }
+          {
+            "chapter": 1,
+            "n": 6,
+            "text": "If we say we have fellowship with Him yet {{peripateo|walk}} in the darkness, we lie and do not practice the truth."
+          },
+          {
+            "chapter": 1,
+            "n": 7,
+            "text": "But if we walk in the light as He is in the light, we have fellowship with one another, and the blood of Jesus His Son {{katharizo|cleanses}} us from all sin."
+          }
         ]
       },
       {
@@ -35,9 +47,21 @@
         "note": "confession and cleansing",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 8, "text": "If we say we have no sin, we deceive ourselves, and the truth is not in us." },
-          { "chapter": 1, "n": 9, "text": "If we {{homologeo|confess}} our sins, He is faithful and just to forgive us our sins and to cleanse us from all unrighteousness." },
-          { "chapter": 1, "n": 10, "text": "If we say we have not sinned, we make Him out to be a liar, and His word is not in us." }
+          {
+            "chapter": 1,
+            "n": 8,
+            "text": "If we say we have no sin, we deceive ourselves, and the truth is not in us."
+          },
+          {
+            "chapter": 1,
+            "n": 9,
+            "text": "If we {{homologeo|confess}} our sins, He is faithful and just to forgive us our sins and to cleanse us from all unrighteousness."
+          },
+          {
+            "chapter": 1,
+            "n": 10,
+            "text": "If we say we have not sinned, we make Him out to be a liar, and His word is not in us."
+          }
         ]
       },
       {
@@ -45,20 +69,63 @@
         "note": "Jesus Christ, the Righteous One",
         "emphasis": "climax",
         "verses": [
-          { "chapter": 2, "n": 1, "text": "My little children, I am writing these things to you so that you will not sin. But if anyone does sin, we have an {{parakletos|advocate}} before the Father, Jesus Christ, the Righteous One." },
-          { "chapter": 2, "n": 2, "text": "He Himself is the {{hilasmos|atoning sacrifice}} for our sins, and not only for ours but also for the sins of the whole world." }
+          {
+            "chapter": 2,
+            "n": 1,
+            "text": "My little children, I am writing these things to you so that you will not sin. But if anyone does sin, we have an {{parakletos|advocate}} before the Father, Jesus Christ, the Righteous One."
+          },
+          {
+            "chapter": 2,
+            "n": 2,
+            "text": "He Himself is the {{hilasmos|atoning sacrifice}} for our sins, and not only for ours but also for the sins of the whole world."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "phos": { "language": "Greek", "lemma": "phos", "original": "φῶς", "gloss": "Light. To say God is light speaks of His holiness, purity, and truth, and of His self-revelation. In Him there is no darkness at all, no shadow of evil, deceit, or sin. Light is both what God is and what He shines out so that we may see and be exposed." },
-    "skotia": { "language": "Greek", "lemma": "skotia", "original": "σκοτία", "gloss": "Darkness. In John it stands for moral evil, ignorance of God, and the realm opposed to Him. To walk in darkness is to live in sin and falsehood while perhaps still claiming to know God. There is no darkness in God, so fellowship with Him cannot coexist with a settled life in darkness." },
-    "peripateo": { "language": "Greek", "lemma": "peripateo", "original": "περιπατέω", "gloss": "To walk, and figuratively to conduct one's whole life. It pictures a settled direction and habit, not a single step. To walk in the light is to live an ongoing life of honesty and obedience before God, the natural path of those who know the God who is light." },
-    "katharizo": { "language": "Greek", "lemma": "katharizo", "original": "καθαρίζω", "gloss": "To cleanse, purify, make clean. The blood of Jesus cleanses from all sin, an ongoing cleansing for those who walk in the light. It carries the imagery of ritual purification now fulfilled: the sacrifice of the Son truly removes defilement, not merely covers it." },
-    "homologeo": { "language": "Greek", "lemma": "homologeo", "original": "ὁμολογέω", "gloss": "To confess, to say the same thing as, to agree openly. To confess our sins is to agree with God about them rather than deny or excuse them. It is the honest response of one walking in the light, and God meets it with faithful, just forgiveness." },
-    "parakletos": { "language": "Greek", "lemma": "parakletos", "original": "παράκλητος", "gloss": "Advocate, one called alongside to help, a defender or counsel for the defence. Jesus stands before the Father on behalf of sinners. The same word names the Spirit in John's Gospel; here the risen, righteous Christ pleads our case on the ground of His own finished sacrifice." },
-    "hilasmos": { "language": "Greek", "lemma": "hilasmos", "original": "ἱλασμός", "gloss": "Atoning sacrifice, propitiation, the offering that turns away wrath and covers sin. Jesus is Himself the hilasmos for our sins. It means both that our guilt is expiated and that God's righteous anger against sin is satisfied at the cross, so the Advocate pleads on the basis of a real payment." }
+    "phos": {
+      "language": "Greek",
+      "lemma": "phos",
+      "original": "φῶς",
+      "gloss": "Light. To say God is light speaks of His holiness, purity, and truth, and of His self-revelation. In Him there is no darkness at all, no shadow of evil, deceit, or sin. Light is both what God is and what He shines out so that we may see and be exposed."
+    },
+    "skotia": {
+      "language": "Greek",
+      "lemma": "skotia",
+      "original": "σκοτία",
+      "gloss": "Darkness. In John it stands for moral evil, ignorance of God, and the realm opposed to Him. To walk in darkness is to live in sin and falsehood while perhaps still claiming to know God. There is no darkness in God, so fellowship with Him cannot coexist with a settled life in darkness."
+    },
+    "peripateo": {
+      "language": "Greek",
+      "lemma": "peripateo",
+      "original": "περιπατέω",
+      "gloss": "To walk, and figuratively to conduct one's whole life. It pictures a settled direction and habit, not a single step. To walk in the light is to live an ongoing life of honesty and obedience before God, the natural path of those who know the God who is light."
+    },
+    "katharizo": {
+      "language": "Greek",
+      "lemma": "katharizo",
+      "original": "καθαρίζω",
+      "gloss": "To cleanse, purify, make clean. The blood of Jesus cleanses from all sin, an ongoing cleansing for those who walk in the light. It carries the imagery of ritual purification now fulfilled: the sacrifice of the Son truly removes defilement, not merely covers it."
+    },
+    "homologeo": {
+      "language": "Greek",
+      "lemma": "homologeo",
+      "original": "ὁμολογέω",
+      "gloss": "To confess, to say the same thing as, to agree openly. To confess our sins is to agree with God about them rather than deny or excuse them. It is the honest response of one walking in the light, and God meets it with faithful, just forgiveness."
+    },
+    "parakletos": {
+      "language": "Greek",
+      "lemma": "parakletos",
+      "original": "παράκλητος",
+      "gloss": "Advocate, one called alongside to help, a defender or counsel for the defence. Jesus stands before the Father on behalf of sinners. The same word names the Spirit in John's Gospel; here the risen, righteous Christ pleads our case on the ground of His own finished sacrifice."
+    },
+    "hilasmos": {
+      "language": "Greek",
+      "lemma": "hilasmos",
+      "original": "ἱλασμός",
+      "gloss": "Atoning sacrifice, propitiation, the offering that turns away wrath and covers sin. Jesus is Himself the hilasmos for our sins. It means both that our guilt is expiated and that God's righteous anger against sin is satisfied at the cross, so the Advocate pleads on the basis of a real payment."
+    }
   },
   "study": {
     "basic": {
@@ -72,95 +139,270 @@
       "oneStory": "The Bible's story of a holy God making a way to dwell with sinners reaches a peak here. Because God is light, sin must be dealt with, and because Jesus is the atoning sacrifice and advocate, it truly is. Confession, not pretence, is the path of those walking with the God who is light."
     },
     "context": {
-      "literary": "The body of the letter begins with a thesis, God is light, followed by a series of conditional statements, 'If we say', that expose false claims and set out true responses. It builds to the climax of chapter 2 verses 1 and 2, where Jesus is named advocate and atoning sacrifice.",
-      "historical": "The false teachers seem to have downplayed sin, perhaps claiming a spiritual enlightenment that made moral failure irrelevant. John counters that God is light and that honesty about sin, not its denial, marks those who know Him.",
-      "canonical": "The passage draws on the sacrificial theology of Leviticus and joins the New Testament witness to Christ's atonement and intercession in Romans, Hebrews, and John's Gospel, where Jesus is the light of the world and the Lamb of God."
+      "literary": "After the prologue John begins his argument with a statement that is a message, not a command: \"God is light.\" Everything in the next eight verses is an application of that sentence, and the application is built in a tight, repeated pattern. Five \"if\" clauses, each in the same Greek construction, alternate between a false claim and its correction. \"If we say we have fellowship with Him yet walk in the darkness,\" verse 6. \"If we walk in the light,\" verse 7. \"If we say we have no sin,\" verse 8. \"If we confess our sins,\" verse 9. \"If we say we have not sinned,\" verse 10. The two kinds of \"if\" run side by side like two roads. The \"if we say\" lines are what a person claims; the other lines are what a person does. Where claim and conduct agree, there is fellowship and cleansing; where they disagree, there is deceit.\n\nThe three false claims are not repeated but climb. The first claims fellowship with God while living in darkness, a gap between words and walk. The second claims to have no sin, which is a statement about one's present condition. The third claims not to have sinned, which is a statement about one's past. Each claim meets a sharper charge: \"we lie and do not practice the truth,\" then \"we deceive ourselves, and the truth is not in us,\" then \"we make Him out to be a liar, and His word is not in us.\" By the third, the speaker is not only wrong about himself but is accusing God.\n\nThe passage then turns in 2:1. Having said enough about the reality of sin, John states his purpose: \"I am writing these things to you so that you will not sin.\" The next sentence starts with \"But if anyone does sin.\" The shift from \"we\" to \"anyone\" and the tender \"My little children\" mark a change from diagnosis to pastoral care. The unit ends with Jesus Christ the Righteous One, the advocate and atoning sacrifice, so that the last word of the section is not sin but the one who answers it.",
+      "historical": "The teaching John answers was presumably rooted in a view of the spiritual life that treated sin as unreal or irrelevant for those who had advanced. We cannot reconstruct the doctrine from this letter alone and should not name it more confidently than the evidence allows. What the letter itself tells us is that the people who left the community, 1 John 2:19, claimed fellowship with God, claimed to be free of sin, and yet did not keep His commandments or love their brothers, 1 John 2:4 and 3:10. The three \"if we say\" statements are probably slogans, or close to them, which the writer quotes in order to answer.\n\nThe imagery of light and darkness would have been familiar in several settings. The Old Testament speaks of the LORD as light, Psalm 27:1, and of a people walking in darkness who have seen a great light, Isaiah 9:2. Jesus announced Himself as the light of the world, John 8:12, and John's Gospel says that people loved the darkness rather than the Light because their deeds were evil, John 3:19. The community at Qumran by the Dead Sea also spoke of sons of light and sons of darkness, though their sense of the terms was different from John's: there the division was by sect and fate, while in John it is by the relationship to Jesus and the way of life that follows.\n\nThe words about blood and atonement would have had direct associations for readers who knew the Scriptures. The Day of Atonement, described in Leviticus 16, was the one day in the year when blood was brought behind the veil and sprinkled on the mercy seat, and the sins of the people were removed, Leviticus 16:15 to 16 and 16:30. Early Christians read the death of Jesus in these terms, and the letter states it briefly because its readers already knew the background. The \"advocate\" would also have been a recognizable figure, a person who stands beside another to plead his cause.",
+      "canonical": "The statement \"God is light\" belongs with two others in the same letter and in John's Gospel: \"God is love,\" 1 John 4:8, and \"God is spirit,\" John 4:24. Each describes what God is, not only what He does. Light is the image of His holiness and truth, and the Old Testament uses it for His presence: the LORD is \"my light and my salvation,\" Psalm 27:1, and the prophets look for the day when \"the LORD will be your everlasting light,\" Isaiah 60:19. Revelation brings the image to its end, where the city needs no lamp because God Himself will shine on His people, Revelation 21:23 and 22:5.\n\nThe demand to confess sins has a long background. Proverbs 28:13 says that whoever conceals sin will not prosper but whoever confesses and renounces it will find mercy, and Psalm 32:5 records David's experience: \"I acknowledged my sin to You and did not hide my iniquity... and You forgave the guilt of my sin.\" James says, \"Confess your sins to each other,\" James 5:16. The promise that God forgives is rooted in His own character, as in Exodus 34:6 to 7 and Micah 7:18, and John's phrase \"faithful and just\" belongs to the same circle of confidence.\n\nThe title \"advocate\" belongs to the vocabulary of the Upper Room, where Jesus promised \"another Advocate\" to be with His disciples forever, John 14:16, which implies that He was the first. Paul says Christ Jesus \"is interceding for us,\" Romans 8:34, and Hebrews says that He \"always lives to intercede for them,\" Hebrews 7:25. The phrase \"atoning sacrifice\" is taken up again in 1 John 4:10, where it shows the love of God, and it is related to Paul's wording in Romans 3:25 and to Hebrews' \"to make atonement for the sins of the people,\" Hebrews 2:17. The passage is therefore one of the places where the whole biblical teaching about sin, sacrifice and priesthood is gathered into a few lines."
     },
     "hermeneutics": {
-      "authorIntent": "To establish that God is light, to expose false claims that deny or excuse sin, and to assure believers that walking in the light means honest confession met by the cleansing blood, faithful forgiveness, and the advocacy and atonement of Jesus Christ.",
-      "descriptionVsPrescription": "The passage both describes reality, God is light, all have sin, and prescribes response, walk in the light, confess your sins. The promise that God is faithful and just to forgive is a standing assurance for all who come to Him honestly through Christ.",
+      "authorIntent": "John meant his readers to leave this passage with two convictions that look like opposites. The first is that God is holy and that people who belong to Him cannot be indifferent to sin. The second is that God forgives and that people who have sinned need not hide. Many in the church feel pulled to hold one and drop the other: some stress holiness until the conscience is crushed, and some stress grace until sin is ignored. John holds both at once, and the glue is honesty. A person who lives in the light is not a person without sin but a person who lets God see everything and brings it to Him.\n\nHe also intended to rob the opponents of their central claim. If the departing teachers said that they were beyond sin, John's answer is that no one is, and that the claim itself is the first mark of being in the dark. His readers, who may have been shaken by these confident voices, could rest easy: their awareness of sin was not evidence that they were outside the circle but evidence that they were honest.\n\nFinally, John wanted to give his readers a way to deal with failure that did not lead to despair. The sentence in 2:1, \"if anyone does sin, we have an advocate,\" is written for the believer who has just done what he should not have done. It does not lower the standard, since John has just said he writes so that they may not sin. It makes sure that the moment after failure is spent in turning to Jesus rather than in hiding from Him.",
+      "descriptionVsPrescription": "The passage mixes statements of fact, commands, and conditional promises, and each needs reading in its own way. \"God is light\" is a statement of fact about God. \"If we confess our sins, He is faithful and just to forgive\" is a promise attached to a condition, and it describes how God deals with His people. \"I am writing these things to you so that you will not sin\" is an explicit command in the form of a purpose. The three false claims are descriptions of what people say, not instructions to say them.\n\nOne misreading is to turn verse 9 into a formula that works by saying the right words, as if a quick confession could clear the account while the life remained the same. The context blocks this: confession belongs to a person who walks in the light, who has fellowship, and who is writing in order to sin less. The opposite misreading is to hear verses 6 to 10 as a test that anyone who sins is outside. That would contradict verses 8 to 10, which say all believers sin. The passage describes believers who sin and confess, and unbelievers who deny that they sin, and the line between the two is honesty before God, not sinlessness.\n\nThe practical direction is clear: tell the truth to God about yourself, expect forgiveness because of who He is and what Christ has done, and do not take the promise as permission.",
       "debates": [
         {
-          "question": "How can John say 'so that you will not sin' yet also say anyone who claims to have no sin is a liar?",
+          "question": "Does 'walk in the light' mean sinless perfection?",
           "views": [
-            { "label": "Both are true: aim at holiness, be honest when you fail", "case": "John writes so that his readers will not sin, holding out real holiness as the goal, while insisting that all still sin and must confess. The two are not in tension but describe the normal Christian life: pursuing obedience, and dealing honestly with failure through Christ. This is the strongest reading and it fits the whole letter, which both calls to righteousness and provides an advocate for sinners." },
-            { "label": "Sinless perfection is attainable now", "case": "Some read 'so that you will not sin' as teaching that believers can reach a state of not sinning; but this collides directly with verses 8 and 10, which call such a claim self-deception." },
-            { "label": "Sin does not really matter for believers", "case": "Others, like the false teachers, treat sin lightly since God forgives; but John's whole point is that God is light and sin must be honestly confessed, not excused." }
+            {
+              "label": "Yes, a life without sin is the standard",
+              "case": "Some have read verse 7 to say that those who walk in the light live without sin, and they connect it with 1 John 3:6 and 3:9, where the one born of God does not sin. On this reading, John describes the Christian life as sinless in practice."
+            },
+            {
+              "label": "No, it describes honest transparency",
+              "case": "Most readers observe that verses 8 and 10 explicitly deny sinlessness and that verse 9 expects confession. Walking in the light is therefore living openly before God, not being flawless. The blood of Jesus 'cleanses us from all sin,' which assumes that there is sin to cleanse."
+            },
+            {
+              "label": "It describes direction and habit",
+              "case": "A third view takes 'walk' as a settled direction of life, as distinct from a single act, so that someone who walks in the light is moving toward Christ and honesty, while someone who walks in darkness is moving away. Sin occurs but is not the road."
+            }
           ],
-          "bearing": "The strongest orthodox reading holds both truths: God calls His children to genuine holiness and takes sin seriously, and He provides full forgiveness and cleansing when they sin and confess. Assurance rests on Christ the advocate and atoning sacrifice, not on a claim to be already sinless."
+          "bearing": "The letter's own sequence settles it: John says he writes so that we will not sin, and in the same breath provides for those who do. The passage excludes both complacency and despair."
         },
         {
-          "question": "What does it mean that Jesus is the atoning sacrifice for the sins of the whole world?",
+          "question": "Is hilasmos best translated 'atoning sacrifice,' 'propitiation,' or 'expiation'?",
           "views": [
-            { "label": "His sacrifice is sufficient for all and effective for all who believe", "case": "The cross is of infinite worth, genuinely offered to the whole world, Jew and Gentile alike, and actually saves all who trust Him. This reading honours the universal scope of the language and the particular application to those who confess and believe. It is the mainstream orthodox reading across traditions." },
-            { "label": "It stresses that salvation is not limited to one nation or group", "case": "Some emphasise that John counters any narrowing of the gospel: the atonement reaches beyond the readers to people of every nation, not only to us." },
-            { "label": "It teaches that every person without exception is finally saved", "case": "Taken to mean universal final salvation, this clashes with the letter's insistence that whoever does not have the Son does not have life, 1 John 5:12." }
+            {
+              "label": "Propitiation: the turning away of God's wrath",
+              "case": "The word group in Greek is used for appeasing or making favorable, and the context of Romans 3:25 and the logic of the Day of Atonement suggest that sin brings divine wrath that the sacrifice turns aside. The BSB footnote at 1 John 2:2 gives 'the propitiation' as an alternative. Defenders point to the picture of God's righteousness being satisfied when Christ is presented as a sacrifice."
+            },
+            {
+              "label": "Expiation: the removal of sin",
+              "case": "Others stress that the focus of the Old Testament language is the cleansing and covering of sin and defilement. On this view the point is that sin is dealt with, not that an angry God is soothed, and God is the one who provides the sacrifice."
+            },
+            {
+              "label": "Atoning sacrifice includes both",
+              "case": "The BSB's rendering 'atoning sacrifice' is chosen to hold both ideas. Many point out that in 1 John 4:10 it is God who loves and sends the Son as the hilasmos, so that God is both the one satisfied and the one who provides."
+            }
           ],
-          "bearing": "The strongest reading affirms both the boundless sufficiency of Christ's atoning sacrifice, truly for the whole world, and its saving effect for all who believe, while denying that all are automatically saved apart from having the Son. The Advocate pleads a real, sufficient payment for sinners."
+          "bearing": "All views agree that sin is real, that it is serious, and that Christ's death deals with it completely and by God's own initiative. They differ on how much to say about divine wrath, which is a question the broader New Testament treats in other places, such as Romans 1 to 3."
+        },
+        {
+          "question": "What does 'the whole world' in 2:2 mean?",
+          "views": [
+            {
+              "label": "People everywhere, without distinction",
+              "case": "Many read 'the whole world' as meaning that Christ's sacrifice is for people of every nation and not only for the Jewish believers John's first readers might have had in mind, in line with John 4:42 and Revelation 5:9."
+            },
+            {
+              "label": "Every person, in that the offer is universal",
+              "case": "Others take the phrase to say that the sacrifice is sufficient for every person, and that the gospel can be freely offered to all, in line with John 3:16 and 1 Timothy 2:6."
+            },
+            {
+              "label": "The world of God's people scattered everywhere",
+              "case": "Some Reformed readers take 'world' to mean the elect among all nations, and hold that the atonement was designed to secure the salvation of the people given to the Son, John 11:51 to 52."
+            }
+          ],
+          "bearing": "All agree that the gospel is for every nation and that no one is excluded by race or place. The debate concerns the intended scope of the atonement, and the passage itself is more concerned with the breadth of Christ's work than with its mechanics."
         }
       ]
     },
-    "originalLanguages": "The message is stark: God is phos, light, and in Him there is no skotia, darkness, at all. To walk, peripateo, in the light is not a single act but a settled manner of life, and there the blood of Jesus keeps on cleansing, katharizo, from all sin. Denial of sin is self-deception; but to confess, homologeo, to say the same thing God says about our sin, brings faithful forgiveness. The ground of it is a person and a work: Jesus Christ, our parakletos, the advocate called alongside to plead for us before the Father, who is Himself the hilasmos, the atoning sacrifice that both covers our guilt and turns away wrath.",
+    "originalLanguages": "John's central statement is theos phos estin, \"God is light.\" The word phos has no article, so it names what God is, not simply one of His roles. The same grammar gives \"God is love,\" ho theos agape estin, in 1 John 4:8. Darkness, skotia, is the opposite, and John adds that in Him there is \"no darkness at all,\" a double negative that rules out any shade. The phrase \"at all\" is the force of oudemia, and the Greek makes it as strong as it can be.\n\nThe verb for \"walk,\" peripateo, literally \"walk around,\" is the biblical word for a whole way of life, as in Ephesians 5:8, \"Walk as children of light.\" In verses 6 and 7 it appears in the present tense, so John describes a continuing pattern, not a single step. \"Practice the truth\" in verse 6 is literally \"do the truth,\" a Hebrew-shaped phrase that treats truth as something to be done as well as believed, as Jesus says in John 3:21, \"whoever practices the truth comes into the Light.\"\n\nAt the end of verse 7 the verb katharizei, \"cleanses,\" is in the present tense. A natural reading is that the blood of Jesus goes on cleansing, a continuing work and not a single event in the past. The idea echoes Leviticus 16:30, where on the Day of Atonement the people are cleansed from all their sins before the LORD. The word is joined to \"from all sin\" and in verse 9 \"from all unrighteousness,\" so that sin and unrighteousness are treated as distinct stains that are both removed.\n\nHomologeo, \"confess,\" is built from homo, \"same,\" and lego, \"say.\" To confess is to say the same thing as another, which here means to agree with God about our sin: to call it what He calls it. It is the opposite of verse 8's self-deception. The promise that follows turns on two attributes, pistos and dikaios, \"faithful\" and \"just.\" God forgives because He is faithful to His promise and because He is just: the debt has been paid, which is why forgiveness does not compromise His righteousness. The verb for forgive is aphiemi, \"send away.\"\n\nThe title parakletos in 2:1 means literally one called alongside. It points to a person who stands with another and speaks on his behalf, a helper in court. In John 14:16 Jesus promises \"another,\" allos, Advocate, which implies that He Himself has been one. The Father is the one before whom Jesus stands, pros ton patera, and the phrase gives the picture of a defense counsel who is also the Son.\n\nHilasmos, in verse 2, is related to hilasterion, the word for the mercy seat and the \"atoning sacrifice\" in Romans 3:25, and to hilaskomai, \"make atonement,\" in Hebrews 2:17. It appears again in 1 John 4:10. John calls Jesus the hilasmos, not that He provides one, so the person is the sacrifice, and he adds \"not only for ours but also for the sins of the whole world.\" The final adjective in 2:1, dikaios, \"Righteous,\" repeats the word used of God in 1:9, a quiet sign that our advocate is of the same character as the judge.",
     "typology": [
-      { "type": "The blood that cleanses from all sin", "fulfillment": "The sacrificial blood of the Old Testament, especially the Day of Atonement in Leviticus 16, fulfilled in the blood of Jesus that truly purifies, Hebrews 9:14." },
-      { "type": "The atoning sacrifice, the hilasmos", "fulfillment": "The mercy seat and sin offering where wrath was turned away, fulfilled in Christ who is Himself the propitiation for our sins, Romans 3:25." },
-      { "type": "The advocate before the Father", "fulfillment": "The high priest who entered God's presence for the people, fulfilled in the risen Christ who ever lives to intercede, Hebrews 7:25." }
+      {
+        "type": "The Day of Atonement and the blood on the mercy seat",
+        "fulfillment": "On the Day of Atonement the high priest brought blood behind the veil and sprinkled it on the mercy seat to make atonement for the Most Holy Place and the people, Leviticus 16:15 to 16, and the people were cleansed 'from all your sins before the LORD,' Leviticus 16:30. John's 'blood of Jesus His Son cleanses us from all sin' borrows both the act and the extent. The escalation is complete: the offering is no longer an animal but the Son, the entrance is no longer once a year but open, Hebrews 9:11 to 14 and 10:19 to 20, and the cleansing reaches the conscience. The type falls short because the yearly repetition showed that the sacrifices did not finish the work."
+      },
+      {
+        "type": "The priest who stands between God and the people",
+        "fulfillment": "Israel's priests drew near to God on behalf of the people, and Aaron bore their names before the LORD. The letter says that believers have an advocate before the Father, and Hebrews says that Jesus 'always lives to intercede,' Hebrews 7:25, as a high priest who sympathizes with weakness, Hebrews 4:15 to 16. The correspondence is real: the one who pleads is the one who offered. What exceeds the type is that the priest and the sacrifice are the same person, and that He needs no sacrifice for Himself, since He is the Righteous One. The type's limit is that no human priest could say that."
+      },
+      {
+        "type": "Light in the darkness at creation and at the exodus",
+        "fulfillment": "God's first creative word was 'Let there be light,' Genesis 1:3, and at the exodus a pillar of fire gave light to Israel while darkness covered Egypt, Exodus 10:21 to 23 and 13:21. The New Testament carries both pictures forward: the true Light 'was coming into the world,' John 1:9, and God 'made His light shine in our hearts,' 2 Corinthians 4:6. John 1:5 says the darkness has not overcome the Light. The fulfillment is that light is a person who shines and invites people to walk. The picture is not a code for each detail of the Old Testament accounts but a recurring image that Christ gathers up."
+      }
     ],
-    "christ": "Christ stands at the centre as Son, advocate, and atoning sacrifice. His blood cleanses from all sin; as the Righteous One He pleads our case before the Father; and He is Himself the propitiation that satisfies God's justice against our sin. Because the payment is real and sufficient for the whole world, and because He ever lives to intercede, the sinner who confesses has sure forgiveness grounded not in personal merit but in Him.",
-    "god": "God is light, the very picture of holiness, purity, and truth, with no darkness in Him at all. Yet the same God is faithful and just to forgive. His justice is not set aside but satisfied in the atoning sacrifice of His Son, so that forgiveness is both free and righteous. He refuses to indulge our denial of sin, and He delights to cleanse all who come to Him honestly through Christ.",
+    "christ": "The passage presents Christ in three ways, each answering one of the claims that undid the opponents. To the claim that sin does not matter, John answers with the blood of Jesus: the cost of cleansing was a death, and what could be cleansed was real. To the claim that the worshipper is without sin, John answers that Jesus is the Righteous One, which is a title that no one else in the passage can claim. And to the despair of those who know they have failed, he answers that this same Righteous One stands before the Father as advocate.\n\nThe title \"Righteous One\" gives the advocate His qualification. A defense counsel who was guilty himself would be of no use. Isaiah looked ahead to the Servant who would \"justify many\" because He bore their iniquities, Isaiah 53:11, and Peter later says that Christ the righteous suffered for the unrighteous, 1 Peter 3:18. Here John joins the two: the Righteous One is both the advocate and the sacrifice. The same person pleads the case and has paid the price, so that He does not argue that we are innocent but shows what has been done.\n\nNotice also that Christ's advocacy does not depend on our standing. The text does not say that He advocates for those who have confessed adequately, but \"if anyone does sin, we have an advocate.\" This is the same truth Paul states in Romans 8:34: \"Who is there to condemn us? For Christ Jesus, who died, and more than that was raised to life, is at the right hand of God, and He is interceding for us.\" The ground of acceptance is the work and the presence of Christ, not the quality of the believer's confession.\n\nThere is a further link between this passage and the prologue. The \"blood of Jesus\" is the blood of one whose body was heard, seen and touched. John is not speaking of a symbol but of a death. The Word of life became a man who bled, and what was done in the flesh is what cleanses.\n\nThe scope, \"the sins of the whole world,\" carries Christ's work beyond the people of the first readers. Jesus said that He had come not to condemn but to save the world, John 3:17, and this verse bears that out. Care should be taken not to force every detail of Leviticus 16 onto Christ; the New Testament itself uses the Day of Atonement selectively, and Hebrews 9 and 10 should guide how far to press it.",
+    "god": "The first thing the passage says about God is that He is light, and the second is what the statement rules out: no darkness at all. A God who is light cannot be partly evil, cannot be fooled, and cannot be reached by pretense. This sets the terms of every approach to Him. There is no corner of the self from which He is absent and no excuse that will make Him blind. That sounds severe, but it is the basis of confidence. A God without darkness is a God who can be trusted entirely, whose promises have no hidden clause and whose judgments are without malice.\n\nThe second thing is that this God is faithful and just in forgiving. The two words can seem to pull apart: if God is just, how can He forgive the guilty? John's answer is that the sacrifice has been made and that the forgiveness rests on it. God forgives not by overlooking sin but by dealing with it, and so His mercy is not a lapse in His justice. Psalm 130:3 and 4 had already seen the tension, asking who could stand if the LORD kept account of iniquities, and answering that with Him there is forgiveness. The cross is the place where both are fully true.\n\nThird, He is a God who provides what He requires. The Father is the one before whom the advocate stands, and the Father is also the one who sent the Son as the atoning sacrifice, as 1 John 4:10 says. The sacrifice is not wrung from an unwilling God by a gracious Son. It is the Father's own gift, and the Son's own offering, both of them acting together. The doctrine of the Trinity is not argued in this passage, but it is assumed in the picture of the Father, the Son who pleads and the Son who is the sacrifice.\n\nFourth, His truthfulness is at stake in how we speak of sin. To say that we have not sinned is to make God a liar, because His word says that we have, and it shows that God's word is not a private opinion but a fixed point against which our self-estimates are measured. His word is truth, and John says that when we deny our sin His word is not in us.\n\nFor worship this is a gift. We do not have to approach a God who is light with a polished account of ourselves. We can come as we are, saying what is so, because the One who sees everything has already provided the means of cleansing. Honesty, in this letter, is the doorway to praise.",
     "crossReferences": [
-      { "ref": "Leviticus 16:30", "note": "On the Day of Atonement the people are cleansed from all their sins, the pattern fulfilled in the blood of Jesus that cleanses from all sin." },
-      { "ref": "Romans 3:25-26", "note": "God presented Christ as a propitiation, so that He is both just and the justifier of the one who has faith in Jesus." },
-      { "ref": "Hebrews 7:25", "note": "Christ always lives to intercede for those who come to God through Him, the advocacy John describes." },
-      { "ref": "John 8:12", "note": "Jesus is the light of the world; whoever follows Him will never walk in darkness, matching the call to walk in the light." }
+      {
+        "ref": "Psalm 27:1",
+        "note": "David calls the LORD his light and his salvation and asks whom he should fear. The psalm shows that the image of God as light was already linked with safety and rescue in Israel's worship, and that John's statement gathers up an old and comforting description."
+      },
+      {
+        "ref": "Isaiah 9:2",
+        "note": "The people walking in darkness have seen a great light. Matthew applies the verse to Jesus' ministry in Galilee, and the image prepares for John's claim that those who walk in the light share in what the prophet looked forward to."
+      },
+      {
+        "ref": "John 8:12",
+        "note": "Jesus says He is the light of the world and promises that whoever follows Him will not walk in darkness but have the light of life. The passage supplies the source of John's imagery: walking in the light is following Jesus."
+      },
+      {
+        "ref": "John 3:19-21",
+        "note": "Men loved the darkness because their deeds were evil, and whoever does evil does not come into the Light for fear of exposure, while whoever practices the truth comes into the Light. The passage explains why honesty about sin is the mark of walking in the light."
+      },
+      {
+        "ref": "Leviticus 16:15-16",
+        "note": "On the Day of Atonement the high priest brought the blood of the goat behind the veil and sprinkled it on the mercy seat. The verse is the background for the blood that cleanses, and shows what kind of event John has in mind when he speaks of atonement."
+      },
+      {
+        "ref": "Psalm 32:5",
+        "note": "David says that when he acknowledged his sin and did not hide his iniquity, God forgave the guilt of his sin. It is a living example of the promise of 1 John 1:9, and shows that confession and forgiveness were already joined in Israel's experience."
+      },
+      {
+        "ref": "Proverbs 28:13",
+        "note": "Whoever conceals sin will not prosper, but whoever confesses and renounces it finds mercy. The proverb pairs confession with turning away, which fits the way John joins confession with the writer's aim that his readers not sin."
+      },
+      {
+        "ref": "John 14:16",
+        "note": "Jesus promises another Advocate who will be with the disciples forever. The word 'another' implies that Jesus has been an advocate Himself, and John's title for Him in 1 John 2:1 draws on that."
+      },
+      {
+        "ref": "Romans 8:34",
+        "note": "Paul asks who can condemn those for whom Christ died, was raised, and now intercedes at God's right hand. It is the same truth as the advocate before the Father and shows how the apostles agreed that Christ's present work is part of the believer's security."
+      },
+      {
+        "ref": "Hebrews 7:25",
+        "note": "Jesus always lives to intercede for those who draw near to God through Him, and so can save them completely. The verse explains the permanence of the advocacy and links it with His priesthood."
+      },
+      {
+        "ref": "Romans 3:25",
+        "note": "God presented Jesus as the atoning sacrifice through faith in His blood, to show His righteousness. The verse uses a word related to John's hilasmos and shows that the sacrifice vindicates God's justice as well as removing sin."
+      },
+      {
+        "ref": "1 John 4:10",
+        "note": "Love consists not in our loving God but in His loving us and sending His Son as the atoning sacrifice for our sins. The verse repeats the word of 2:2 and shows that the sacrifice is a gift of the Father's love, not a price extracted from Him."
+      }
     ],
-    "oneStory": "From Eden onward the Bible asks how sinners can dwell with a holy God. Here the answer rings clear: God is light and will not wink at sin, yet He is faithful and just to forgive because Jesus is the advocate and the atoning sacrifice for our sins. The way to walk with the God who is light is not to deny our darkness but to confess it and be cleansed by the blood of His Son, the very reconciliation the whole story has been moving toward.",
-    "sermon": { "status": "verified", "preacher": "Alistair Begg", "title": "Three Spurious Claims", "url": "https://www.truthforlife.org/resources/sermon/three-spurious-claims/", "why": "Begg preaches this passage, 1 John 1:5-2:2, on God as light, the three false claims about sin, and the cleansing blood and advocacy of Jesus Christ. A clear, orthodox handling of confession and assurance." }
+    "oneStory": "This passage answers a problem that begins in Genesis 3. After the first sin the man and woman hid from the presence of the LORD among the trees, Genesis 3:8, and the pattern of hiding has been the human reflex ever since. Sin brings shame, shame makes people hide, and hiding becomes lying. John's three false claims are three ways to stay in the trees. To say we have no sin, or have not sinned, is to cover ourselves with leaves. The call to walk in the light is the call to come out and be seen, and the astonishing news of the passage is that coming into the light is safe.\n\nThe rest of the Old Testament shows how God made it safe. He set up the tabernacle and the Day of Atonement, and through the prophets and psalms He taught His people to confess and to expect mercy: \"with You there is forgiveness,\" Psalm 130:4. Yet the sacrifices were repeated every year, and Hebrews says they could not take away sins, Hebrews 10:4. The people lived with a promise that was not yet fulfilled in a single, final act.\n\nJohn writes after that act. The blood of Jesus, the Son, cleanses from all sin, and an advocate stands before the Father. In the larger story, this is the heart of redemption: God Himself provides the sacrifice and the priest, and the world He loves is the world for which the sacrifice is made. The atoning sacrifice that is 'for the sins of the whole world' is the fulfillment of God's promise to Abraham that all nations would be blessed, Genesis 12:3.\n\nThe passage also describes life in the time between the cross and the end. Believers still sin, and the letter does not pretend otherwise. It gives a pattern for that time: walk in the light, confess, receive cleansing, and look to the advocate. This is the way the church lives until the end.\n\nThe end is already pictured in the image John began with. In the new creation there will be no more night, and God Himself will be the light of His people, Revelation 22:5. The darkness that Genesis 1 divided from the light will be gone, and those who have learned to walk in the light now will find that it is where they have always been going. The passage thus ties the first light of creation to the last light of the new creation, and in between it sets the blood that makes the walk possible.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "Alistair Begg",
+      "title": "Three Spurious Claims",
+      "url": "https://www.truthforlife.org/resources/sermon/three-spurious-claims/",
+      "why": "Begg preaches this passage, 1 John 1:5-2:2, on God as light, the three false claims about sin, and the cleansing blood and advocacy of Jesus Christ. A clear, orthodox handling of confession and assurance."
+    }
   },
   "quiz": [
     {
       "q": "What is the message John says he heard from Jesus and announces?",
       "options": [
-        { "text": "God is light, and in Him there is no darkness at all.", "weight": 100, "note": "Verse 5 states the foundational message: God's perfect holiness and purity." },
-        { "text": "God is loving and therefore overlooks all sin.", "weight": 25, "note": "God is love, but here the message is that He is light; sin is dealt with, not overlooked." },
-        { "text": "God is distant and cannot be known.", "weight": 0, "note": "The letter proclaims a God who reveals Himself and offers fellowship." },
-        { "text": "God is powerful and rules over all things.", "weight": 75, "note": "God is sovereign, but the specific message named is that God is light." }
+        {
+          "text": "God is light, and in Him there is no darkness at all.",
+          "weight": 100,
+          "note": "Verse 5 states the foundational message: God's perfect holiness and purity."
+        },
+        {
+          "text": "God is loving and therefore overlooks all sin.",
+          "weight": 25,
+          "note": "God is love, but here the message is that He is light; sin is dealt with, not overlooked."
+        },
+        {
+          "text": "God is distant and cannot be known.",
+          "weight": 0,
+          "note": "The letter proclaims a God who reveals Himself and offers fellowship."
+        },
+        {
+          "text": "God is powerful and rules over all things.",
+          "weight": 75,
+          "note": "God is sovereign, but the specific message named is that God is light."
+        }
       ]
     },
     {
       "q": "According to verse 9, what happens when we confess our sins?",
       "options": [
-        { "text": "God, being faithful and just, forgives our sins and cleanses us from all unrighteousness.", "weight": 100, "note": "Confession is met by God's faithful and just forgiveness grounded in Christ." },
-        { "text": "God forgives only after we have made up for the wrong.", "weight": 25, "note": "Forgiveness rests on Christ's atoning work, not our making amends." },
-        { "text": "God overlooks the sin as if it never mattered.", "weight": 0, "note": "God does not overlook sin; He forgives it justly because of the atoning sacrifice." },
-        { "text": "God forgives, though it strains His justice to do so.", "weight": 75, "note": "It does not strain His justice; He is faithful and just to forgive because of the cross." }
+        {
+          "text": "God, being faithful and just, forgives our sins and cleanses us from all unrighteousness.",
+          "weight": 100,
+          "note": "Confession is met by God's faithful and just forgiveness grounded in Christ."
+        },
+        {
+          "text": "God forgives only after we have made up for the wrong.",
+          "weight": 25,
+          "note": "Forgiveness rests on Christ's atoning work, not our making amends."
+        },
+        {
+          "text": "God overlooks the sin as if it never mattered.",
+          "weight": 0,
+          "note": "God does not overlook sin; He forgives it justly because of the atoning sacrifice."
+        },
+        {
+          "text": "God forgives, though it strains His justice to do so.",
+          "weight": 75,
+          "note": "It does not strain His justice; He is faithful and just to forgive because of the cross."
+        }
       ]
     },
     {
       "q": "Who does John say we have when anyone sins?",
       "options": [
-        { "text": "An advocate before the Father, Jesus Christ, the Righteous One.", "weight": 100, "note": "Verse 2:1 names Jesus as our advocate who pleads for us before the Father." },
-        { "text": "A set of rules that restore us if followed carefully.", "weight": 25, "note": "Our standing rests on the advocate, not on rule-keeping." },
-        { "text": "No help at all; we must simply try harder.", "weight": 0, "note": "We are not left alone; we have Jesus as our advocate and atoning sacrifice." },
-        { "text": "Other believers who forgive us in God's place.", "weight": 75, "note": "Believers can encourage confession, but the advocate before the Father is Jesus Himself." }
+        {
+          "text": "An advocate before the Father, Jesus Christ, the Righteous One.",
+          "weight": 100,
+          "note": "Verse 2:1 names Jesus as our advocate who pleads for us before the Father."
+        },
+        {
+          "text": "A set of rules that restore us if followed carefully.",
+          "weight": 25,
+          "note": "Our standing rests on the advocate, not on rule-keeping."
+        },
+        {
+          "text": "No help at all; we must simply try harder.",
+          "weight": 0,
+          "note": "We are not left alone; we have Jesus as our advocate and atoning sacrifice."
+        },
+        {
+          "text": "Other believers who forgive us in God's place.",
+          "weight": 75,
+          "note": "Believers can encourage confession, but the advocate before the Father is Jesus Himself."
+        }
       ]
     },
     {
       "q": "What does John mean that Jesus is the atoning sacrifice for the sins of the whole world?",
       "options": [
-        { "text": "His sacrifice is sufficient for all and effective for all who believe.", "weight": 100, "note": "The cross is of boundless worth, truly for the world, and saves all who trust Him." },
-        { "text": "The gospel reaches beyond one nation to people of every kind.", "weight": 75, "note": "True in part, but it also means His atoning work is fully sufficient, not merely wide in offer." },
-        { "text": "Every person is automatically saved regardless of faith.", "weight": 25, "note": "This clashes with 1 John 5:12; life belongs to those who have the Son." },
-        { "text": "Only a select few could ever benefit from it.", "weight": 0, "note": "John stresses the whole world, not a narrow benefit." }
+        {
+          "text": "His sacrifice is sufficient for all and effective for all who believe.",
+          "weight": 100,
+          "note": "The cross is of boundless worth, truly for the world, and saves all who trust Him."
+        },
+        {
+          "text": "The gospel reaches beyond one nation to people of every kind.",
+          "weight": 75,
+          "note": "True in part, but it also means His atoning work is fully sufficient, not merely wide in offer."
+        },
+        {
+          "text": "Every person is automatically saved regardless of faith.",
+          "weight": 25,
+          "note": "This clashes with 1 John 5:12; life belongs to those who have the Son."
+        },
+        {
+          "text": "Only a select few could ever benefit from it.",
+          "weight": 0,
+          "note": "John stresses the whole world, not a narrow benefit."
+        }
       ]
     },
     {
       "q": "How does John hold together 'so that you will not sin' and 'if we say we have no sin, we deceive ourselves'?",
       "options": [
-        { "text": "Aim at real holiness, yet be honest and confess when you sin.", "weight": 100, "note": "Both are true: pursue obedience, and deal honestly with failure through Christ." },
-        { "text": "Believers can reach sinless perfection in this life.", "weight": 25, "note": "This collides with verses 8 and 10, which call such a claim self-deception." },
-        { "text": "Sin does not really matter because God forgives.", "weight": 0, "note": "John takes sin seriously; confession, not indifference, is the path." },
-        { "text": "We should expect to sin constantly and not resist it.", "weight": 75, "note": "John does write so that we will not sin; failure is met by grace but not embraced." }
+        {
+          "text": "Aim at real holiness, yet be honest and confess when you sin.",
+          "weight": 100,
+          "note": "Both are true: pursue obedience, and deal honestly with failure through Christ."
+        },
+        {
+          "text": "Believers can reach sinless perfection in this life.",
+          "weight": 25,
+          "note": "This collides with verses 8 and 10, which call such a claim self-deception."
+        },
+        {
+          "text": "Sin does not really matter because God forgives.",
+          "weight": 0,
+          "note": "John takes sin seriously; confession, not indifference, is the path."
+        },
+        {
+          "text": "We should expect to sin constantly and not resist it.",
+          "weight": 75,
+          "note": "John does write so that we will not sin; failure is met by grace but not embraced."
+        }
       ]
     }
   ],
@@ -172,9 +414,21 @@
     "Jesus is the atoning sacrifice for the sins of the whole world. How does the sufficiency of His sacrifice give you both assurance and boldness to share the gospel?"
   ],
   "translationNotes": [
-    { "ref": "1 John 1:7", "note": "Some manuscripts omit 'But' at the start of the verse, as the BSB footnote notes; the sense of contrast with verse 6 is unchanged." },
-    { "ref": "1 John 1:7", "note": "'Cleanses' translates a present tense, indicating ongoing cleansing for those who walk in the light, not a one-time event only." },
-    { "ref": "1 John 2:2", "note": "'Atoning sacrifice' renders the Greek hilasmos, which the BSB footnote gives as 'propitiation'; it carries both the covering of sin and the turning away of God's wrath." }
+    {
+      "ref": "1 John 1:7",
+      "note": "Some manuscripts omit 'But' at the start of the verse, as the BSB footnote notes; the sense of contrast with verse 6 is unchanged."
+    },
+    {
+      "ref": "1 John 1:7",
+      "note": "'Cleanses' translates a present tense, indicating ongoing cleansing for those who walk in the light, not a one-time event only."
+    },
+    {
+      "ref": "1 John 2:2",
+      "note": "'Atoning sacrifice' renders the Greek hilasmos, which the BSB footnote gives as 'propitiation'; it carries both the covering of sin and the turning away of God's wrath."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for 1 John 1:5-2:2. Verse 2:2 footnote 'Or the propitiation' noted." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for 1 John 1:5-2:2. Verse 2:2 footnote 'Or the propitiation' noted."
+  }
 }

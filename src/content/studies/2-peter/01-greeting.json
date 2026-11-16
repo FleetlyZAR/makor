@@ -18,7 +18,11 @@
         "note": "servant, apostle, equal faith",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 1, "text": "Simon Peter, a {{doulos|servant}} and {{apostolos|apostle}} of Jesus Christ, To those who through the {{dikaiosyne|righteousness}} of our God and {{soter|Savior}} Jesus Christ have received {{isotimos|a faith as precious as ours}}:" }
+          {
+            "chapter": 1,
+            "n": 1,
+            "text": "Simon Peter, a {{doulos|servant}} and {{apostolos|apostle}} of Jesus Christ, To those who through the {{dikaiosyne|righteousness}} of our God and {{soter|Savior}} Jesus Christ have received {{isotimos|a faith as precious as ours}}:"
+          }
         ]
       },
       {
@@ -26,18 +30,52 @@
         "note": "multiplied through knowledge",
         "emphasis": "",
         "verses": [
-          { "chapter": 1, "n": 2, "text": "Grace and peace be multiplied to you through the {{epignosis|knowledge}} of God and of Jesus our Lord." }
+          {
+            "chapter": 1,
+            "n": 2,
+            "text": "Grace and peace be multiplied to you through the {{epignosis|knowledge}} of God and of Jesus our Lord."
+          }
         ]
       }
     ]
   },
   "lexicon": {
-    "doulos": { "language": "Greek", "lemma": "doulos", "original": "δοῦλος", "gloss": "A slave or bondservant, one wholly owned by and devoted to a master. Peter names himself a doulos before he names himself an apostle. The great apostle is first and always a servant of Jesus Christ, and so his authority rests on belonging entirely to his Lord." },
-    "apostolos": { "language": "Greek", "lemma": "apostolos", "original": "ἀπόστολος", "gloss": "One sent out with a commission, an authorized representative. Peter writes as an apostle of Jesus Christ, sent and empowered to speak with His authority. This grounds the whole letter: what follows is not private opinion but the message of one Christ Himself appointed." },
-    "dikaiosyne": { "language": "Greek", "lemma": "dikaiosyne", "original": "δικαιοσύνη", "gloss": "Righteousness, justice, the quality of being right and fair. Peter says the readers received their faith through the righteousness of our God and Savior. God's own fair and faithful character, not human merit, is why believers everywhere share an equal standing before Him." },
-    "soter": { "language": "Greek", "lemma": "soter", "original": "σωτήρ", "gloss": "Savior, deliverer, rescuer. The phrase our God and Savior Jesus Christ, by a rule of Greek grammar, calls the one person Jesus both God and Savior. Peter opens by confessing the full deity of Christ, the very truth the false teachers will deny." },
-    "isotimos": { "language": "Greek", "lemma": "isotimos", "original": "ἰσότιμος", "gloss": "Of equal value, equally precious, of the same honor. The faith the newest and humblest believer receives is of the same worth as that of Peter the apostle. No one in Christ holds a second-class faith; all share one precious standing given by God." },
-    "epignosis": { "language": "Greek", "lemma": "epignosis", "original": "ἐπίγνωσις", "gloss": "Full, deep, personal knowledge, a recognition that goes beyond bare information. This word runs through 2 Peter as the antidote to false teaching. Grace and peace grow not by novelty but by an ever deeper knowledge of God and of Jesus our Lord." }
+    "doulos": {
+      "language": "Greek",
+      "lemma": "doulos",
+      "original": "δοῦλος",
+      "gloss": "A slave or bondservant, one wholly owned by and devoted to a master. Peter names himself a doulos before he names himself an apostle. The great apostle is first and always a servant of Jesus Christ, and so his authority rests on belonging entirely to his Lord."
+    },
+    "apostolos": {
+      "language": "Greek",
+      "lemma": "apostolos",
+      "original": "ἀπόστολος",
+      "gloss": "One sent out with a commission, an authorized representative. Peter writes as an apostle of Jesus Christ, sent and empowered to speak with His authority. This grounds the whole letter: what follows is not private opinion but the message of one Christ Himself appointed."
+    },
+    "dikaiosyne": {
+      "language": "Greek",
+      "lemma": "dikaiosyne",
+      "original": "δικαιοσύνη",
+      "gloss": "Righteousness, justice, the quality of being right and fair. Peter says the readers received their faith through the righteousness of our God and Savior. God's own fair and faithful character, not human merit, is why believers everywhere share an equal standing before Him."
+    },
+    "soter": {
+      "language": "Greek",
+      "lemma": "soter",
+      "original": "σωτήρ",
+      "gloss": "Savior, deliverer, rescuer. The phrase our God and Savior Jesus Christ, by a rule of Greek grammar, calls the one person Jesus both God and Savior. Peter opens by confessing the full deity of Christ, the very truth the false teachers will deny."
+    },
+    "isotimos": {
+      "language": "Greek",
+      "lemma": "isotimos",
+      "original": "ἰσότιμος",
+      "gloss": "Of equal value, equally precious, of the same honor. The faith the newest and humblest believer receives is of the same worth as that of Peter the apostle. No one in Christ holds a second-class faith; all share one precious standing given by God."
+    },
+    "epignosis": {
+      "language": "Greek",
+      "lemma": "epignosis",
+      "original": "ἐπίγνωσις",
+      "gloss": "Full, deep, personal knowledge, a recognition that goes beyond bare information. This word runs through 2 Peter as the antidote to false teaching. Grace and peace grow not by novelty but by an ever deeper knowledge of God and of Jesus our Lord."
+    }
   },
   "study": {
     "basic": {
@@ -51,83 +89,229 @@
       "oneStory": "God has always called servants to carry His word, and always given faith as a gift of grace. Peter, a servant of the risen Christ, greets a church that shares the one precious faith of all God's people across the ages, a faith secured by the righteousness of Jesus, God and Savior, in whom the whole story finds its center."
     },
     "context": {
-      "literary": "A standard ancient letter opening, writer to readers with a greeting, but every element is weighted toward the letter's themes. Naming Jesus as God and Savior, stressing an equal faith, and highlighting knowledge all preview the coming battle against false teachers who deny the Master and peddle a false, elite wisdom.",
-      "historical": "Peter writes near the end of his life, likely from Rome in the mid 60s, to churches in Asia Minor already addressed in his first letter. False teachers are rising, so he opens by anchoring his readers in shared apostolic faith and in the true knowledge of Christ before he names the danger.",
-      "canonical": "As the second of Peter's letters, this greeting joins the New Testament's chorus confessing Jesus as both God and Savior. It sets the note of true knowledge that will be sounded against counterfeit teaching, and it echoes the apostolic pattern of grace and peace that opens the epistles."
+      "literary": "A letter greeting in the ancient world had a fixed frame: the sender, the recipients, and a wish, usually a single word, 'greetings.' Peter keeps the frame and fills it. The sender's line is expanded to two names and two titles, the recipients' line to a full clause about how they came by their faith, and the wish becomes a prayer in two parts, grace and peace, with a verb that asks for more and more. The whole of the letter's argument is folded into these two verses.\n\nThree themes are planted here that the rest of the letter will water. The first is knowledge. The word 'knowledge' closes the greeting in verse 2, returns in verse 3 as the means by which God gives all things, in verse 8 as what the virtues keep from being barren, and in 3:18 as the thing the readers must grow in. The second is the person of Christ, who is called Savior and Lord throughout the letter, and in verse 1 is named God and Savior together. The third is the equality of believers. The faith Peter shares with his readers is 'as precious as ours,' which sets up his assurance in 1:12 that they already know and stand in the truth, and his warning in chapter 2 against teachers who exploit them.\n\nThe sentence is built in a way that rewards slow reading. 'Servant and apostle' is one phrase under one article, so that Peter is a servant and an apostle at once. 'Of Jesus Christ' completes both. The readers are then defined, not by place or nation as in 1 Peter 1:1, but by what has happened to them: they have 'received' a faith, and the giver is the righteousness of Christ. There is no geography because this letter, as 3:1 says, is the second to the same people.\n\nThe second sentence is just seven words in Greek and could be read as a formula, but the final phrase, 'through the knowledge of God and of Jesus our Lord,' ties the wish to the argument. Grace and peace are not floating blessings; they are multiplied in the soil of knowing.",
+      "historical": "This is the letter of an ageing apostle, and the next verses in the chapter make that explicit: he knows that his 'tent' will soon be laid aside, as the Lord had made clear to him, 1:13-14, and he is writing so that after his departure the readers can recall these things, 1:15. The Lord's word to him is probably the one recorded in John 21:18-19, that he would stretch out his hands and be led where he did not want to go. A letter written in such circumstances belongs to the family of farewell speeches in the Bible, such as Moses' last words in Deuteronomy and Paul's address to the Ephesian elders, and its opening reflects that mood of passing a trust.\n\nThe readers face a danger of a different sort from the readers of 1 Peter. Instead of persecution from outside, the chief danger is false teaching from inside. Chapter 2 speaks of false teachers who 'secretly introduce destructive heresies, even denying the Master who bought them,' 2:1, and chapter 3 of scoffers who say, 'Where is the promise of His coming?' 3:4. These people prized knowledge, claimed freedom, and had no patience for the apostolic word. Peter's greeting is the first answer: the knowledge worth having is of God and of Jesus our Lord, and the faith that matters is equal for every believer.\n\nThe name in verse 1 deserves a note. Most Greek manuscripts read Symeon, the older Hebrew form of Simon, a name that appears for Peter in Acts 15:14. The BSB uses the more familiar 'Simon,' and the choice makes no difference to the sense, though the Semitic spelling fits a Jewish apostle writing in his own voice.\n\nThe titles 'servant' and 'savior' were common in the Greek world as well. Roman emperors were hailed as lords and saviors, and the cities of Asia Minor addressed them so. Peter, who gives the same titles to Jesus, is making a statement that his readers would have heard against that background.",
+      "canonical": "The greeting places Peter in the line of those who open their letters as servants of Christ. James writes as a 'servant of God and of the Lord Jesus Christ,' James 1:1, Jude as 'a servant of Jesus Christ,' Jude 1:1, and Paul as 'a servant of God and an apostle,' Titus 1:1. The Old Testament supplies the root of the title, since Moses is called 'His servant Moses,' Exodus 14:31, and Joshua is introduced as the one who followed after 'His servant Moses,' Joshua 1:1. To be the Lord's servant was a title of honour in Israel, and Peter takes it up without apology.\n\nThe confession that Jesus is God and Savior has a clear Old Testament background. Isaiah 45:21 says, 'There is no other God but Me, a righteous God and Savior; there is none but Me.' The phrase in 2 Peter 1:1, 'the righteousness of our God and Savior Jesus Christ,' joins the same three ideas, righteousness, God, Savior, and applies them to Jesus. The New Testament sets the same confession in other places, Titus 2:13, John 20:28, and Romans 9:5, each time in a setting of worship.\n\nThe wish for grace and peace to be multiplied recalls 1 Peter 1:2, and the same pattern of multiplied blessing appears in Jude 2. The knowledge theme runs through the whole Bible. Isaiah promised a day when 'the earth will be full of the knowledge of the LORD as the sea is full of water,' Isaiah 11:9, and Jeremiah promised a covenant in which 'they will all know Me, from the least of them to the greatest,' Jeremiah 31:34. Jesus defines eternal life as knowing the Father and Jesus Christ, John 17:3, and Paul counts all things loss for 'the surpassing excellence of knowing Christ Jesus my Lord,' Philippians 3:8.\n\nFinally, 2 Peter 3:15-16 shows that Peter knew Paul's letters and regarded them as Scripture. The apostolic circle in verse 1 is not a series of isolated voices but a single witness, and Peter's greeting stands in line with the greetings of the other apostles."
     },
     "hermeneutics": {
-      "authorIntent": "To establish Peter's authority as a servant and apostle of Christ, to assure ordinary believers that their faith is fully equal to an apostle's, and to root the whole letter in the deity of Jesus and the growing knowledge of Him.",
-      "descriptionVsPrescription": "The greeting mainly describes who Peter is, who his readers are, and what God has given them. Its abiding call is implicit but real: hold fast the one precious faith, confess Jesus as God and Savior, and pursue the knowledge of Him in which grace and peace grow.",
+      "authorIntent": "Peter intends his greeting to settle two questions before he begins. The first is who is speaking and with what right. He writes as a servant and an apostle of Jesus Christ, and he ties both words to the one Lord. Whatever authority he has, it is borrowed, and he lays it down in front of the readers by calling himself first a slave. The second is who the readers are. They are not a lesser class of believers waiting for a higher initiation. They have 'received' a faith equal in value to his own, and they have received it from the same source.\n\nThis matters because the people disturbing the church were offering something more. Their claims to special knowledge implied that ordinary believers had an incomplete faith. Peter replies before any argument starts, simply by the way he addresses the readers. To the members of a church that is being told it needs more, he says that what you have is already precious, as precious as mine, and it came as a gift.\n\nHe also wants the readers to hear that Jesus is not merely a teacher or a prophet. The phrase 'our God and Savior Jesus Christ' puts Jesus in the place that the Old Testament reserves for the one God who saves. The prayer that follows, grace and peace multiplied through the knowledge of God and of Jesus, then shows what Peter wants for them: not a new secret, but a deeper acquaintance with the one they already know.",
+      "descriptionVsPrescription": "The greeting is mostly description, and it is meant to be received as fact before it is turned into duty. The writer is a servant and apostle; the readers have received a faith; the faith is as precious as the apostle's; and the grace and peace are wished for them. None of this is a command. What it does is give the ground on which the later commands, 'make every effort,' 1:5, will stand.\n\nIt would therefore be a misreading to take the verse as a rule about titles, as though every Christian leader should call himself a servant in a letter, or as a rule about how to begin a letter. Peter is using a custom of his time and bending it. What carries over to us is the shape of the claim: those who lead do so as servants, and those who follow are not second class. The principle of equal value in the faith should shape how any church treats its members.\n\nIt is also worth noticing what is not claimed. The verse does not say that every believer has the same gifts or the same office. Peter is an apostle and they are not. The equality is in the faith they hold and in the way they received it, not in their roles.\n\nThe prayer in verse 2 describes what Peter asks of God and invites the reader to ask the same. We are not told to produce grace, only to seek it, and the seeking runs through knowing God and Jesus our Lord.",
       "debates": [
         {
-          "question": "Does verse 1 call Jesus our God, or distinguish God from Jesus?",
+          "question": "Does verse 1 call Jesus God, or does it name two persons?",
           "views": [
-            { "label": "One person, our God and Savior Jesus Christ", "case": "The Granville Sharp rule of Greek grammar, where a single article governs two nouns joined by and, points to one person. Peter is confessing Jesus as both God and Savior, just as Titus 2:13 does. This reading fits the letter's aim of exalting Christ against those who deny Him." },
-            { "label": "Two distinct persons, of God and of the Savior", "case": "A few would read a distinction, our God, and our Savior Jesus Christ, paralleling the wording of verse 2. Yet even here Peter would affirm both God's righteousness and Christ's saving work as the ground of faith." }
+            {
+              "label": "One person: our God and Savior, Jesus Christ",
+              "case": "A single article before 'God and Savior' joins the two nouns, which in Greek usually means one person is meant, and the same construction is used in verse 11, 2:20, 3:2 and 3:18 of Jesus alone: 'our Lord and Savior Jesus Christ.' Peter never calls the Father 'Savior' in this letter, and every time the word Savior appears it is Jesus. Titus 2:13 has the same shape."
+            },
+            {
+              "label": "Two persons: our God, and the Savior Jesus Christ",
+              "case": "A few take the phrase as 'the righteousness of our God, and of the Savior Jesus Christ.' They note that verse 2 distinguishes 'God and Jesus our Lord,' and that the New Testament often names the Father as God and the Son as Lord. A proper name like Jesus Christ can change how the rule applies."
+            }
           ],
-          "bearing": "The stronger grammar and the letter's Christ-exalting purpose favor reading Jesus as our God and Savior. Either way the passage confesses the saving righteousness that gives believers their faith, and the majority orthodox reading sees here a clear witness to the full deity of Christ."
+          "bearing": "The first reading has more going for it in this letter, since Peter keeps Savior for Jesus and uses the same pattern for Him elsewhere, and the greeting then fits the letter's aim of honouring Christ against His deniers. Even if one preferred the second, the New Testament confesses Jesus as God in other places, John 20:28, Romans 9:5, and Titus 2:13, so the doctrine does not depend on this single verse."
         },
         {
-          "question": "What does it mean that the readers received a faith as precious as ours?",
+          "question": "What is the 'righteousness' of Jesus in verse 1?",
           "views": [
-            { "label": "Equal standing shared by all believers", "case": "The word isotimos means of equal value. The faith of every believer, including recent Gentile converts, is worth as much as that of Peter and the apostles. There is no spiritual aristocracy; all hold one precious faith by grace." },
-            { "label": "The same faith once delivered", "case": "Others stress that faith here means the body of truth believed, so all share the same apostolic gospel. This still guards against any group claiming a higher, secret faith than the one handed down." }
+            {
+              "label": "His saving righteousness, given in justification",
+              "case": "Paul describes the righteousness of God revealed 'through faith in Jesus Christ to all who believe,' Romans 3:22, and says that in Christ we become the righteousness of God, 2 Corinthians 5:21. Faith comes to people through what Christ accomplished."
+            },
+            {
+              "label": "His fairness and impartial justice",
+              "case": "The word that follows is isotimos, 'of equal honour,' and the context speaks of Gentile and Jewish believers receiving the same faith. Some read the righteousness as God's even handedness, the fair dealing that gives every believer the same standing. Romans 3:22 itself says that there is no distinction."
+            }
           ],
-          "bearing": "Both readings undercut the false teachers' pretensions to superior knowledge. Whether faith means personal trust or the common gospel, Peter insists it is one and equal for all, given by God and precious beyond price."
+          "bearing": "These are close. A faith of equal value is given because the Savior's righteousness has put everyone who believes on the same footing, with no distinction, and the saving work and the fairness are two sides of one act."
+        },
+        {
+          "question": "Was this letter written by Simon Peter himself?",
+          "views": [
+            {
+              "label": "Peter wrote it, perhaps with a different helper",
+              "case": "The letter says it was written by Simon Peter, mentions the Transfiguration as an eyewitness, 1:16-18, speaks of his coming death, 1:14, and calls itself a second letter, 3:1. A different secretary from the one who helped with 1 Peter would explain the change of style, as the use of Silvanus in 1 Peter 5:12 shows that Peter used helpers."
+            },
+            {
+              "label": "A later writer in Peter's name",
+              "case": "The Greek is more elaborate than 1 Peter, the letter appears later in the church's lists, and its relation to Jude has raised questions. Some scholars think a follower wrote in Peter's name soon after his death. The early church was slower to receive the letter than 1 Peter, and Eusebius counted it among the disputed books."
+            }
+          ],
+          "bearing": "The letter itself claims Peter, and the church eventually received it as his. Readers who weigh the debate still agree about what the letter teaches, and the greeting presents itself as the testimony of one commissioned by Christ."
         }
       ]
     },
-    "originalLanguages": "The opening compresses the letter's theology into a few words. Peter is a doulos, a bondservant wholly owned by his Master, before he is an apostolos, a commissioned messenger. The readers hold an isotimos faith, of equal honor with his own, granted through the dikaiosyne, the righteousness, of Jesus their God and soter, Savior. By the Granville Sharp construction, that single phrase confesses Christ as both God and Savior. And the blessing flows through epignosis, the deep, personal knowledge of God that is the letter's great theme and the true safeguard against every counterfeit.",
+    "originalLanguages": "Peter calls himself doulos, 'servant,' but the Greek word means a slave, someone owned by his master, and the English 'servant' softens it. The word was used in the Greek Old Testament of Moses, Joshua and David, and in the New Testament of nearly every apostle who writes a letter, so that a Christian leader's first title is that he belongs. 'Apostle' is apostolos, one sent with authority, and the two titles stand under one article, 'a slave and apostle,' as two sides of one office. His name, Symeon in many manuscripts, is the Hebrew form of Simon, the same form James uses of him in Acts 15:14.\n\nThe readers are those who 'received' a faith, from lanchano, a verb that originally meant to obtain by lot. In Acts 1:17 Judas 'shared' in the ministry, using the same verb, and in Luke 1:9 the priest Zechariah was chosen by lot to burn incense, and in John 19:24 the soldiers drew lots for the robe. The verb stresses that the faith was handed over, not earned. The adjective isotimos, 'of equal honour,' occurs nowhere else in the New Testament, and it describes something of equal worth or privilege. Peter says that readers outside the apostolic circle have a faith that stands on the same footing as his own.\n\nThe noun dikaiosyne, 'righteousness,' can mean right standing, right conduct, or fair dealing. The context, a faith received as a gift through the righteousness of Jesus, favours the sense of His saving righteousness, the one that Paul describes in Romans 3:22. The phrase 'our God and Savior,' tou theou hemon kai soteros, has one article before both nouns. The title soter, 'savior,' appears five times in this short letter, and in each of them, 1:1, 1:11, 2:20, 3:2 and 3:18, it names Jesus.\n\nIn verse 2 the verb 'be multiplied,' plethyntheie, is a wish in the optative mood, the mood of prayer, and it is in the passive: grace and peace are not produced by the readers but increased for them. The same verb is in 1 Peter 1:2 and in Jude 2. 'Grace' is charis, the free favour of God, and 'peace' is eirene, which carries the Hebrew sense of wholeness. The two are the standard Christian greeting, but here they are asked in increasing measure.\n\nThe key word is epignosis, 'knowledge,' which gives the verse its closing note. It appears four times in this letter, 1:2, 1:3, 1:8 and 2:20, and its simpler relative gnosis in 1:5, 1:6 and 3:18. The prefix epi- may give a sense of direction or fullness, a knowing aimed at an object, and some translators render the word 'full knowledge' or 'recognition.' Scholars are careful, though, not to press the difference too hard, since Paul and Peter use the two words close together. What matters is that this knowledge is of a person, 'of God and of Jesus our Lord,' and is not information. The two persons are joined under one verb of knowing, in the pattern of John 17:3.",
     "typology": [
-      { "type": "The servant of the Lord", "fulfillment": "Peter takes up the title borne by Moses, David, and the prophets, now as a servant of the risen Christ, showing the continuity of those God sends to speak His word." },
-      { "type": "The knowledge of God promised in the new covenant", "fulfillment": "Jeremiah 31:34 promised a day when all God's people would know Him; Peter grounds grace and peace in that knowledge of God and of Jesus, poured out in Christ." }
+      {
+        "type": "The servants of the LORD, from Moses to the Servant of Isaiah",
+        "fulfillment": "The Old Testament gives the title 'servant of the LORD' to Moses, Exodus 14:31, and to Joshua, Joshua 1:1, as a mark of those who carry God's word. Isaiah then looks ahead to a Servant in whom the LORD delights, who 'will bring justice to the nations,' Isaiah 42:1, and who 'will justify many,' Isaiah 53:11. Jesus fulfils this by taking 'the form of a slave,' Philippians 2:7, and Peter is His servant in turn. The correspondence is clear, but the type falls short in that the earlier servants could carry a word, while the final Servant bears the sins of the people."
+      },
+      {
+        "type": "The equal share of the people of God, from the lot to the faith",
+        "fulfillment": "Israel's land was divided by lot among the tribes so that every family received an inheritance, Numbers 26:55. Peter uses the verb for obtaining by lot of faith, and says his readers have received a share of equal worth to his own. The echo is possible, though Peter does not cite the lot passages, so it is best taken as a likeness. The escalation is that the inheritance is no longer a stretch of land but the faith in Christ and the kingdom of 1:11, and it is open to every nation. The picture is limited in that a lot gave a piece of ground, while faith gives a share in Christ Himself."
+      },
+      {
+        "type": "The righteous God and Savior, from Isaiah 45 to Jesus",
+        "fulfillment": "Isaiah 45:21 says the LORD is 'a righteous God and Savior; there is none but Me,' and the next verse calls all the earth to turn and be saved. Peter's phrase, 'the righteousness of our God and Savior Jesus Christ,' joins the same words and gives them to Jesus. The pattern, in which what Israel's prophets said of the LORD the apostles say of Jesus, is found in Titus 2:13 and John 20:28. The correspondence is not a type in the strict sense, since it is a title and not an event, but it shows the Old Testament God's identity answered in the New. It is open to the difficulty that the grammar can be debated, as noted above."
+      },
+      {
+        "type": "The knowledge of the LORD filling the earth",
+        "fulfillment": "Isaiah foresaw a day when 'the earth will be full of the knowledge of the LORD as the sea is full of water,' Isaiah 11:9, and Jeremiah promised a covenant in which all would know Him, Jeremiah 31:34. Peter's prayer that grace and peace be multiplied 'through the knowledge of God and of Jesus our Lord' is an early installment. The knowledge is no longer a hope but a gift being given in churches, through the Spirit and the word. The promise is not yet complete, since the earth is not yet full of it, and Peter writes in the time between."
+      }
     ],
-    "christ": "The greeting places Jesus Christ at the center from the first syllable. Peter is His servant and His apostle. It is the righteousness of Christ, our God and Savior, that secures the believer's precious faith, and the grammar of verse 1 confesses Jesus as God Himself. Grace and peace flow through the knowledge of Him. Here, before any argument begins, is the confession the whole letter defends: Jesus is fully God, the only Savior, and the true and living object of a faith shared equally by all His people.",
-    "god": "God is revealed as righteous and impartial. He gives a faith of equal value to every believer, apostle and new convert alike, so that no one boasts and no one is excluded. His righteousness, not human merit, is the ground of that faith. And He is lavishly generous, multiplying grace and peace to all who press on to know Him. This is a God whose fairness and kindness shape the very first words of the letter.",
+    "christ": "The greeting is Christ from end to end. He is named three times in two verses, 'Jesus Christ,' 'our God and Savior Jesus Christ,' 'Jesus our Lord,' and each title says something different. Peter's own identity depends on Him: he is His slave and His sent one. The readers' faith depends on Him: it is received through His righteousness. And the prayer is directed to Him: grace and peace are multiplied through knowing Him.\n\nThe title 'God and Savior' is the heart of the verse. The Old Testament taught that there is one God and that only He saves, Isaiah 43:11 and 45:21, so to give the title 'Savior' to Jesus is to give Him the place of God. Peter does this without fanfare and keeps doing it in the letter. In 1:11 the eternal kingdom is that of 'our Lord and Savior Jesus Christ,' in 2:20 the knowledge of 'the Lord and Savior' is what the false teachers turned from, and in 3:18 the readers are told to grow in His grace and knowledge. Peter's confession matches Thomas's cry, 'My Lord and my God,' John 20:28, and Paul's 'our great God and Savior,' Titus 2:13. It is the same faith, expressed by three different apostles.\n\nThe word 'righteousness' points to what He did. Paul writes that God presented Him 'as the atoning sacrifice through faith in His blood, in order to demonstrate His righteousness,' Romans 3:25, and that 'in Him we might become the righteousness of God,' 2 Corinthians 5:21. The faith Peter's readers have comes through what Christ accomplished, not through anything they had to bring. Isaiah had said that the righteous Servant would justify many, Isaiah 53:11, and Peter, who has already said that Christ 'bore our sins in His body on the tree,' 1 Peter 2:24, now lets the greeting say that what He did gave the church its faith.\n\nHe is also 'Lord,' the title of the one who has authority over the churches, and who will return. The title ties the prayer in verse 2 to the promise of His coming in 1:16 and 3:4. The one whom the readers are to know is the one who was seen in majesty on the mountain and who will be seen again.\n\nA caution is in order. The greeting does not turn Peter's slavery or the readers' faith into types of Christ. The link is the direct confession of who He is, and the New Testament's use of the same titles.",
+    "god": "The first thing the greeting shows about God is that He gives, and gives equally. The faith in verse 1 is 'received.' The verb says that it was allotted, not earned, and the adjective says that everyone who receives it receives something of the same value. God does not give a lesser faith to ordinary believers and a better one to apostles. His dealings with His people are even handed, and He does not hold back.\n\nHe is righteous, and that righteousness is the ground of the gift. Peter attaches the received faith to 'the righteousness of our God and Savior,' which means that the faith does not rest on the believer's character but on God's. Paul says in Romans 3:26 that God acted 'so as to be just and to justify the one who has faith in Jesus,' and Peter's phrase belongs to that thought. God can give a faith to sinners without compromising His justice, because the saving work of Christ has met it.\n\nHe is a God who saves. The title 'Savior' is joined in this verse to the word 'God,' and in the Old Testament the two belong together: 'a righteous God and Savior,' Isaiah 45:21. God's identity is bound to His rescuing. When Peter gives the same title to Jesus, he is not dividing God's glory but showing that the one who saves is God Himself in the Person of the Son, and that the Father who gave the Son is behind the rescue.\n\nHe is a God who wants to be known. The prayer asks for grace and peace to be multiplied 'through the knowledge of God and of Jesus our Lord,' and the word for knowledge, epignosis, speaks of a deep acquaintance. The God of the Bible is not remote or hidden. He speaks, He sends, and He draws near, and the highest good He gives is to be known. Jesus says as much in John 17:3.\n\nHe is a God who is generous in measure. 'Multiplied' says that He is not stingy with grace and peace. Where there is need of more, more is asked and given. This is the same God who, according to 1:3, has already given 'everything we need for life and godliness,' so that the prayer of verse 2 and the claim of verse 3 belong together.\n\nFor worship, the verse invites us to receive before we act. We are asked to rest in a faith we did not make and a righteousness we did not earn, and to ask for more grace, more peace, and more knowledge of the God who gave them.",
     "crossReferences": [
-      { "ref": "Titus 2:13", "note": "Waiting for the blessed hope and the appearing of the glory of our great God and Savior Jesus Christ, the same confession of Christ's deity as in verse 1." },
-      { "ref": "1 Peter 1:1-2", "note": "Peter's first letter opens with the same greeting of grace and peace to the same scattered churches." },
-      { "ref": "Romans 1:1", "note": "Paul, like Peter, calls himself a servant and an apostle, set apart for the gospel of God." },
-      { "ref": "John 17:3", "note": "Eternal life is to know the only true God and Jesus Christ whom He sent, the knowledge Peter blesses his readers with." }
+      {
+        "ref": "Titus 2:13",
+        "note": "Paul speaks of awaiting 'the blessed hope and glorious appearance of our great God and Savior Jesus Christ.' The grammar matches 2 Peter 1:1 closely, with one article before 'God and Savior.' The two apostles use the same pattern in different letters, and both in the context of worship and hope."
+      },
+      {
+        "ref": "John 20:28",
+        "note": "Thomas, seeing the risen Jesus, says, 'My Lord and my God!' This confession comes from a man who had doubted. Peter's greeting gives the same confession a settled, public form that a church can use."
+      },
+      {
+        "ref": "Isaiah 45:21-22",
+        "note": "The LORD declares that there is no other God but Him, 'a righteous God and Savior,' and calls the ends of the earth to turn and be saved. The words in 2 Peter 1:1 line up with this verse, righteous, God, Savior, and show that Peter reads the Old Testament title as true of Jesus."
+      },
+      {
+        "ref": "Romans 1:1",
+        "note": "Paul opens his great letter as 'a servant of Christ Jesus' and an apostle set apart for the gospel. Like Peter, he names both titles at the start, so that the authority to teach rests on belonging to Christ. Together the two openings show a common apostolic pattern."
+      },
+      {
+        "ref": "1 Peter 1:1-2",
+        "note": "The first letter greets the elect exiles and prays that grace and peace be theirs in abundance. The second letter uses the same pair of words and the same idea of increase. The two letters are meant to be read together, as 2 Peter 3:1 says."
+      },
+      {
+        "ref": "John 17:3",
+        "note": "Jesus says that eternal life is knowing the only true God and Jesus Christ whom He has sent. Peter's 'knowledge of God and of Jesus our Lord' echoes this. Knowing God and knowing the Son are one knowing, and that is the life the grace and peace of verse 2 are meant to deepen."
+      },
+      {
+        "ref": "Romans 3:21-26",
+        "note": "Paul explains the righteousness of God that comes through faith in Jesus Christ for all who believe, without distinction. It shows what lies behind Peter's phrase, 'through the righteousness of our God and Savior,' and why the faith received by all believers is of equal worth."
+      },
+      {
+        "ref": "Jude 1:1",
+        "note": "Jude writes as a servant of Jesus Christ to those who are called, loved and kept, and wishes them mercy, peace and love in abundance, Jude 2. His letter is closely related to 2 Peter, and the opening shows the same pattern of a servant writing to a people who are held by God, in a time of false teaching."
+      },
+      {
+        "ref": "2 Peter 3:15-18",
+        "note": "The letter ends with the same two words that closed the greeting, grace and knowledge: 'grow in the grace and knowledge of our Lord and Savior Jesus Christ.' The prayer of 1:2 is answered by the command of 3:18, so that the letter forms a single frame from the first words to the last."
+      },
+      {
+        "ref": "Philippians 3:8-9",
+        "note": "Paul counts everything as loss compared with 'the surpassing excellence of knowing Christ Jesus my Lord,' and wants a righteousness 'from God on the basis of faith.' Knowledge, righteousness and faith are joined as they are in Peter's greeting, and Paul shows what such knowing can cost and what it gains."
+      }
     ],
-    "oneStory": "From the beginning God has raised up servants to carry His word and has given faith as a gift of grace. Peter, a bondservant of the risen Christ, greets churches that share the one precious faith of all God's people through every age. That faith rests on the righteousness of Jesus, confessed here as God and Savior, and grows through the knowledge of Him. The letter's opening thus stands squarely on the whole Bible's story, which finds its center and its rescuer in Christ.",
-    "sermon": { "status": "verified", "preacher": "Alistair Begg", "title": "Grace and Peace", "url": "https://www.truthforlife.org/resources/sermon/grace-and-peace/", "why": "From Begg's series A Study in 2 Peter, this message opens the letter at 2 Peter 1:1-4, treating Peter's self-description, the precious faith shared by all believers, and the confession of Jesus as our God and Savior. A clear, orthodox handling of the greeting." }
+    "oneStory": "The Bible's story is the story of God making Himself known and a people coming to know Him. In the garden the first man and woman knew God and walked with Him, and the fall broke that knowing, Genesis 3:8. The rest of Scripture is God's patient work of bringing people back, first by promise and then by person. He calls servants, Moses and Joshua and David and the prophets, to carry His word, and He looks ahead to a day when the knowledge of the LORD will fill the earth, Isaiah 11:9, and every member of His people will know Him, Jeremiah 31:34.\n\nIn Jesus that day begins. The one whom Isaiah called a righteous God and Savior is the one who came, who was seen, who died and rose. The apostles are His servants, sent to carry the news. Peter's greeting stands inside that moment. He is a slave of Christ writing to people who have received a faith through Christ's righteousness, and he prays that the knowing they have begun may deepen.\n\nThe greeting also reflects the way the story widens. The first people of God were Israel, and the faith was handed down through the tribes. Now the faith has been received by people in many places, Jew and Gentile, and it is given the same weight as the apostle's own. The promise to Abraham that all nations would be blessed, Genesis 12:3, is arriving. The 'equal honour' of the faith is a sign that the wall between near and far has come down, as Paul says in Ephesians 2:14.\n\nThe greeting also sets the letter's concern for faithfulness in a time of waiting. The readers have received much and are warned of teachers who will take it away. They are to hold to the apostolic word until the Lord returns, 1:16 and 3:4, and to grow in the grace and knowledge of Christ, 3:18.\n\nThe story ends in a world full of the knowledge of God. In 3:13 Peter looks for 'a new heaven and a new earth, where righteousness dwells,' and Revelation shows God's servants worshipping Him and seeing His face, Revelation 22:3-4. The greeting's prayer will then be answered completely, and the knowing that began with a faith received will become a seeing, when 'we will see Him as He is,' 1 John 3:2.",
+    "sermon": {
+      "status": "verified",
+      "preacher": "Alistair Begg",
+      "title": "Grace and Peace",
+      "url": "https://www.truthforlife.org/resources/sermon/grace-and-peace/",
+      "why": "From Begg's series A Study in 2 Peter, this message opens the letter at 2 Peter 1:1-4, treating Peter's self-description, the precious faith shared by all believers, and the confession of Jesus as our God and Savior. A clear, orthodox handling of the greeting."
+    }
   },
   "quiz": [
     {
       "q": "Why does Peter call himself a servant before he calls himself an apostle?",
       "options": [
-        { "text": "Because he is first of all owned by and devoted to Christ, and his authority rests on belonging to his Master.", "weight": 100, "note": "Doulos, bondservant, comes first; apostolic authority flows from serving Christ." },
-        { "text": "Because being an apostle was unimportant to him.", "weight": 25, "note": "Apostleship matters greatly; he names it too, but servanthood comes first." },
-        { "text": "To show he was merely one of many ordinary workers with no special role.", "weight": 75, "note": "He is a servant, yet he also claims real apostolic commission and authority." },
-        { "text": "Because he was ashamed of being an apostle.", "weight": 0, "note": "There is no shame here; he gladly names both titles under Christ." }
+        {
+          "text": "Because he is first of all owned by and devoted to Christ, and his authority rests on belonging to his Master.",
+          "weight": 100,
+          "note": "Doulos, bondservant, comes first; apostolic authority flows from serving Christ."
+        },
+        {
+          "text": "Because being an apostle was unimportant to him.",
+          "weight": 25,
+          "note": "Apostleship matters greatly; he names it too, but servanthood comes first."
+        },
+        {
+          "text": "To show he was merely one of many ordinary workers with no special role.",
+          "weight": 75,
+          "note": "He is a servant, yet he also claims real apostolic commission and authority."
+        },
+        {
+          "text": "Because he was ashamed of being an apostle.",
+          "weight": 0,
+          "note": "There is no shame here; he gladly names both titles under Christ."
+        }
       ]
     },
     {
       "q": "What does Peter mean when he says his readers have received a faith as precious as ours?",
       "options": [
-        { "text": "Every believer's faith is of equal value to an apostle's; there is no spiritual aristocracy.", "weight": 100, "note": "Isotimos means of equal honor; all share one precious faith by grace." },
-        { "text": "The readers' faith is the same apostolic gospel handed down to all.", "weight": 75, "note": "True and related, but the word stresses equal value, not only shared content." },
-        { "text": "Apostles hold a higher grade of faith than ordinary Christians.", "weight": 25, "note": "The opposite: Peter insists the faith is equal for all." },
-        { "text": "Faith is a reward earned by the most disciplined believers.", "weight": 0, "note": "Faith is received as a gift through God's righteousness, not earned." }
+        {
+          "text": "Every believer's faith is of equal value to an apostle's; there is no spiritual aristocracy.",
+          "weight": 100,
+          "note": "Isotimos means of equal honor; all share one precious faith by grace."
+        },
+        {
+          "text": "The readers' faith is the same apostolic gospel handed down to all.",
+          "weight": 75,
+          "note": "True and related, but the word stresses equal value, not only shared content."
+        },
+        {
+          "text": "Apostles hold a higher grade of faith than ordinary Christians.",
+          "weight": 25,
+          "note": "The opposite: Peter insists the faith is equal for all."
+        },
+        {
+          "text": "Faith is a reward earned by the most disciplined believers.",
+          "weight": 0,
+          "note": "Faith is received as a gift through God's righteousness, not earned."
+        }
       ]
     },
     {
       "q": "How does the greeting describe Jesus Christ?",
       "options": [
-        { "text": "As our God and Savior, whose righteousness secures the believer's faith.", "weight": 100, "note": "Verse 1, by the Granville Sharp construction, confesses Jesus as God and Savior." },
-        { "text": "As a great teacher and example, but not as God.", "weight": 25, "note": "Peter goes further, naming Jesus our God and Savior." },
-        { "text": "As Savior only, with no claim to deity.", "weight": 75, "note": "He is Savior, but the same phrase also calls Him our God." },
-        { "text": "As one prophet among many.", "weight": 0, "note": "The greeting exalts Christ far above the prophets, as God and Savior." }
+        {
+          "text": "As our God and Savior, whose righteousness secures the believer's faith.",
+          "weight": 100,
+          "note": "Verse 1, by the Granville Sharp construction, confesses Jesus as God and Savior."
+        },
+        {
+          "text": "As a great teacher and example, but not as God.",
+          "weight": 25,
+          "note": "Peter goes further, naming Jesus our God and Savior."
+        },
+        {
+          "text": "As Savior only, with no claim to deity.",
+          "weight": 75,
+          "note": "He is Savior, but the same phrase also calls Him our God."
+        },
+        {
+          "text": "As one prophet among many.",
+          "weight": 0,
+          "note": "The greeting exalts Christ far above the prophets, as God and Savior."
+        }
       ]
     },
     {
       "q": "How do grace and peace grow in the believer, according to verse 2?",
       "options": [
-        { "text": "Through the deep, personal knowledge of God and of Jesus our Lord.", "weight": 100, "note": "Epignosis, true knowledge of Christ, is the channel and the letter's key theme." },
-        { "text": "Through gaining new and secret teachings beyond the gospel.", "weight": 0, "note": "The false teachers offered novelty; Peter points to knowing Christ Himself." },
-        { "text": "By deeper acquaintance with the Lord we already trust.", "weight": 75, "note": "True, though the verse names knowledge of God specifically as the channel." },
-        { "text": "By personal effort alone, apart from knowing God.", "weight": 25, "note": "Effort matters later, but here grace and peace flow through knowledge of God." }
+        {
+          "text": "Through the deep, personal knowledge of God and of Jesus our Lord.",
+          "weight": 100,
+          "note": "Epignosis, true knowledge of Christ, is the channel and the letter's key theme."
+        },
+        {
+          "text": "Through gaining new and secret teachings beyond the gospel.",
+          "weight": 0,
+          "note": "The false teachers offered novelty; Peter points to knowing Christ Himself."
+        },
+        {
+          "text": "By deeper acquaintance with the Lord we already trust.",
+          "weight": 75,
+          "note": "True, though the verse names knowledge of God specifically as the channel."
+        },
+        {
+          "text": "By personal effort alone, apart from knowing God.",
+          "weight": 25,
+          "note": "Effort matters later, but here grace and peace flow through knowledge of God."
+        }
       ]
     }
   ],
@@ -138,9 +322,21 @@
     "Grace and peace grow through knowing God more deeply. What is one concrete way you can pursue the knowledge of Christ this week rather than settling for what you already know?"
   ],
   "translationNotes": [
-    { "ref": "2 Peter 1:1", "note": "A faith as precious as ours renders isotimos, of equal value or honor; the faith of every believer is worth as much as an apostle's." },
-    { "ref": "2 Peter 1:1", "note": "Our God and Savior Jesus Christ follows a Greek construction (the Granville Sharp rule) that most naturally names one person, confessing Jesus as both God and Savior; a footnote tradition allows the alternative rendering that distinguishes God from the Savior." },
-    { "ref": "2 Peter 1:2", "note": "Knowledge renders epignosis, a full and personal knowledge, a key term repeated through the letter as the safeguard against false teaching." }
+    {
+      "ref": "2 Peter 1:1",
+      "note": "A faith as precious as ours renders isotimos, of equal value or honor; the faith of every believer is worth as much as an apostle's."
+    },
+    {
+      "ref": "2 Peter 1:1",
+      "note": "Our God and Savior Jesus Christ follows a Greek construction (the Granville Sharp rule) that most naturally names one person, confessing Jesus as both God and Savior; a footnote tradition allows the alternative rendering that distinguishes God from the Savior."
+    },
+    {
+      "ref": "2 Peter 1:2",
+      "note": "Knowledge renders epignosis, a full and personal knowledge, a key term repeated through the letter as the safeguard against false teaching."
+    }
   ],
-  "meta": { "textToVerify": [], "notes": "BSB text fetched from bible.helloao.org for 2 Peter 1:1-2." }
+  "meta": {
+    "textToVerify": [],
+    "notes": "BSB text fetched from bible.helloao.org for 2 Peter 1:1-2."
+  }
 }
