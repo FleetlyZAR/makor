@@ -1,24 +1,16 @@
 # Reply to App Review, submission 308349f1-8275-48ba-b104-349bb360ca28
 
 Paste the body below into "Reply to App Review" in App Store Connect, then attach
-build 1.0 (12) to the version and resubmit.
+build 1.0 (15) to the version and resubmit.
 
 ---
 
-Both issues are resolved in build 1.0 (12).
-
-## Guideline 4, Design, Sign in with Apple
-
-Every Sign in with Apple control in the app is now a standard Sign in with Apple button, built to the Human Interface Guidelines:
-
-1. It carries the Apple logo and the title "Sign in with Apple".
-2. It is a solid black button on light backgrounds and the white style on dark backgrounds.
-3. It is 48 points tall, the same size as the Google button beside it, and it is listed first.
-
-It appears in this form on every screen that offers sign in: the welcome screens, the Home tab, the top menu, the sign in bar, the You (profile) screen, Friends, Notifications, My progress, the reading plan, the quiz on each study, notification settings, and delete account. In the top menu, sign in was previously shown as plain menu text, and several screens only told the reader to sign in from the menu. Each of them now shows the same pair of buttons.
+The issue from your review of 16 October 2026 is resolved in build 1.0 (15).
 
 ## Guideline 2.1(a), Performance, App Completeness
 
-The crash on iPad Air 11-inch (M3) when choosing Camera from Change Photo is fixed. The crash log you attached shows the app was terminated for requesting the camera without a camera usage description. Build 12 declares the camera and photo library purposes, and Makor uses them only when the reader chooses to take or pick a profile photo.
+Tapping Sign in with Apple or Sign in with Google on iPad opened a window with no content. The app was presenting the sign in page in a popover, which on iPad appeared as a small empty floating window. On iPhone the same code presented a full screen page, which is why we did not catch it.
 
-We tested the full Change Photo flow in build 12 on iPad and iPhone, choosing Take Photo, Photo Library and Choose File, with the permission prompt both allowed and denied. The app no longer crashes on any of these paths.
+Build 15 presents the sign in page full screen on every device. Tapping Sign in with Apple now opens the Apple Account sign in page, and tapping Sign in with Google opens the Google sign in page, each filling the screen with the address shown at the top and a close button.
+
+We tested both buttons in build 15 on iPad Air 11-inch running iPadOS 27, the same device class and OS version as your review, from a fresh install, and on iPhone.

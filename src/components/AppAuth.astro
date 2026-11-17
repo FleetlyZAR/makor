@@ -23,7 +23,9 @@
         var res = await c.auth.signInWithOAuth({ provider: provider, options: { redirectTo: SCHEME, skipBrowserRedirect: true } });
         var url = res && res.data && res.data.url;
         var Browser = window.Capacitor.Plugins && window.Capacitor.Plugins.Browser;
-        if (url && Browser) { await Browser.open({ url: url, presentationStyle: 'popover' }); }
+        // Full screen on purpose. The 'popover' style draws an empty floating
+        // window on iPad (App Review, build 12, iPad Air on iPadOS 27).
+        if (url && Browser) { await Browser.open({ url: url, presentationStyle: 'fullscreen' }); }
         else if (url) { window.location.href = url; }
       } catch (e) {}
     };

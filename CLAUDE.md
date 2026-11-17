@@ -87,11 +87,14 @@ frozen at build time while the site keeps gaining studies.
 
 ## iOS build numbers (permanent)
 
-App Store Connect has used build numbers up to 11. Build 10 crashed on launch
-under the iOS 27 SDK (no scene life cycle); build 11 carries the App Review fixes
-for guidelines 4 and 2.1a plus the scene fix, September 2026. Every new upload needs a higher
-number. `CURRENT_PROJECT_VERSION` in `ios/App/App.xcodeproj/project.pbxproj` is
-set to the next unused number, 12 at the time of writing; bump it after every
+App Store Connect has used build numbers up to 12, and possibly 13 and 14. Build
+10 crashed on launch under the iOS 27 SDK (no scene life cycle); build 11 carried
+the App Review fixes for guidelines 4 and 2.1a plus the scene fix; build 12 was
+rejected on 16 October 2026 because sign in opened an empty popover on iPad
+(fixed by opening the sign in page full screen in `src/components/AppAuth.astro`).
+Every new upload needs a higher number. `CURRENT_PROJECT_VERSION` in
+`ios/App/App.xcodeproj/project.pbxproj` is set to the next unused number, 15 at
+the time of writing (November 2026); bump it after every
 upload. Xcode Cloud numbers its own builds, so keep its "next build number"
 setting above the last upload as well.
 
