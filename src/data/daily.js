@@ -962,6 +962,13 @@ export const dailyVerses = {
     story: ["David wrote this psalm after the prophet Nathan confronted him over Bathsheba, and he does not make excuses.", "He asks for more than pardon. He asks God to create a clean heart in him, using the verb the Bible reserves for God's own acts, as when He made the heavens. A clean heart cannot be produced by trying harder; it must be given. David also asks for a renewed, steady spirit within him. He knows the trouble is inside, and only God can remake what is inside.", "If you are carrying something you wish you had not done, bring it to Him honestly. He delights to make a heart new."],
     studyUrl: "/psalms/psalm-051/"
   },
+  "psalm-51-17": {
+    slug: "psalm-51-17",
+    ref: "Psalm 51:17",
+    verse: "The sacrifices of God are a broken spirit; a broken and a contrite heart, O God, You will not despise.",
+    story: ["A king who could afford any offering on earth comes to God with empty hands.", "David has sinned with Bathsheba, and he knows no bull or ram can cover it. God takes no pleasure in burnt offerings brought to settle the account, he says, or he would bring them. What God asks for is the one thing David has left: a spirit that has stopped defending itself, a heart crushed by what it has done. That, David is sure, God will not turn away. He has already prayed for a clean heart; here he trusts that the broken one is welcome first. The mercy he leans on is the mercy that would one day be opened wide in Christ.", "You do not have to mend yourself before you come. Bring Him the truth today; He will not despise it."],
+    studyUrl: "/psalms/psalm-051/"
+  },
   "psalm-62-1": {
     slug: "psalm-62-1",
     ref: "Psalm 62:1",
@@ -1130,5 +1137,6 @@ export const dailyCalendar = {
   "2027-02-10": "joel-2-13",
   "2027-02-11": "luke-18-13",
   "2027-02-12": "ezekiel-36-26",
-  "2027-02-13": "1-peter-2-24"
+  "2027-02-13": "1-peter-2-24",
+  "2027-02-14": "psalm-51-17"
 };
