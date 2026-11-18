@@ -423,6 +423,13 @@ export const dailyVerses = {
     story: ["Paul writes this to a church that has treated him badly, and it comes in the middle of his appeal to be reconciled to God.", "To be in Christ is to be joined to Him, and the result is a new creation, a fresh act of God like the first morning of the world. The old, with its guilt and its way of sizing people up by outward things, has passed. Something new has come. Paul does not say the person is merely improved. He says God has done something, because He has reconciled us to Himself through Christ and no longer counts our sins against us.", "You are not what you were. When an old accusation speaks this morning, answer it with what God has made new."],
     studyUrl: "/2-corinthians/the-ministry-of-reconciliation/"
   },
+  "2-corinthians-7-10": {
+    slug: "2-corinthians-7-10",
+    ref: "2 Corinthians 7:10",
+    verse: "Godly sorrow brings repentance that leads to salvation without regret, but worldly sorrow brings death.",
+    story: ["Paul had sent the church in Corinth a letter so severe that for a while he wished he had not written it.", "Then Titus came back with news: the letter had hurt, and the hurt had turned them around. So Paul names two kinds of sorrow. One is grief as God intends it, which does not stop at feeling bad but moves a person back toward Him, and no one who ends up there wishes the tears unshed. The other is the world's grief, which is sorry to be caught or sorry for itself, circles its own shame, and ends in death. The difference lies in where the sorrow carries you.", "If something weighs on your conscience today, do not just carry it. Bring it to God, and let the sorrow do its work."],
+    studyUrl: "/2-corinthians/pauls-joy-at-their-repentance/"
+  },
   "2-samuel-7-16": {
     slug: "2-samuel-7-16",
     ref: "2 Samuel 7:16",
@@ -1138,5 +1145,6 @@ export const dailyCalendar = {
   "2027-02-11": "luke-18-13",
   "2027-02-12": "ezekiel-36-26",
   "2027-02-13": "1-peter-2-24",
-  "2027-02-14": "psalm-51-17"
+  "2027-02-14": "psalm-51-17",
+  "2027-02-15": "2-corinthians-7-10"
 };
