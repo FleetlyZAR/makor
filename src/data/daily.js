@@ -864,6 +864,13 @@ export const dailyVerses = {
     story: ["A proverb about planning sounds almost like a joke at the planner's expense, and it is meant gently.", "The heart makes its plans, and that is good; God has given us minds to think ahead. But the LORD is the one who decides where the next step lands. Both halves are true at once. We are responsible to plan with care, and we are never in sole charge. Wisdom, in the surrounding verses, commits its work to the LORD and holds the plan with open hands.", "Make your plans today, and make them well. Then hold them loosely, trusting that He is leading your steps."],
     studyUrl: "/proverbs/the-lord-directs-the-steps/"
   },
+  "proverbs-28-13": {
+    slug: "proverbs-28-13",
+    ref: "Proverbs 28:13",
+    verse: "He who conceals his sins will not prosper, but whoever confesses and renounces them will find mercy.",
+    story: ["In a chapter where the wicked run though no one is chasing them, one proverb names what they are running from.", "Hidden sin does not stay quiet. The proverb says the one who covers it will not prosper, because what we bury keeps its hold on us. Then comes the other road, and it has two steps: to confess, which is to say the plain truth about what we did, and to renounce, which is to leave it behind. Words alone are not the whole of it; the turning belongs with the telling. And the promise at the end is not a lighter sentence or a second trial. It is mercy, the gift the cross would one day make sure.", "You do not have to keep guarding what God already sees. Bring it into the light today, turn from it, and find Him merciful."],
+    studyUrl: "/proverbs/the-righteous-and-the-wicked/"
+  },
   "psalm-1-3": {
     slug: "psalm-1-3",
     ref: "Psalm 1:3",
@@ -1146,5 +1153,6 @@ export const dailyCalendar = {
   "2027-02-12": "ezekiel-36-26",
   "2027-02-13": "1-peter-2-24",
   "2027-02-14": "psalm-51-17",
-  "2027-02-15": "2-corinthians-7-10"
+  "2027-02-15": "2-corinthians-7-10",
+  "2027-02-16": "proverbs-28-13"
 };
