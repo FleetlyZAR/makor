@@ -794,6 +794,13 @@ export const dailyVerses = {
     story: ["Joseph has decided to end his engagement quietly when an angel tells him the child is of the Holy Spirit.", "Matthew pauses to say that all this fulfils what Isaiah spoke: a virgin will conceive and bear a son, and His name will be Immanuel. Matthew translates it for his readers so that nobody misses it. The name is a statement about who is in the manger. God has not sent a message from a distance; He has come to live among His people, and the child will save them from their sins.", "Whatever this season holds for you, you are not facing it with God far off. He has made Himself near."],
     studyUrl: "/matthew/the-birth-of-jesus/"
   },
+  "matthew-16-24": {
+    slug: "matthew-16-24",
+    ref: "Matthew 16:24",
+    verse: "Then Jesus told His disciples, \u201cIf anyone wants to come after Me, he must deny himself and take up his cross and follow Me.",
+    story: ["Peter has just tried to talk Jesus out of the cross, and Jesus answers by handing a cross to everyone who would follow Him.", "At Caesarea Philippi Peter had confessed Him as the Christ, and Jesus at once began to teach that the Christ must suffer, die, and rise. Peter wanted the glory without the suffering. So Jesus turns to all His disciples and names the cost: to come after Him is to say no to yourself, take up a cross, and walk where He walks. In that world a man carrying a cross was on his way to die. Yet His next words hold a promise: whoever loses his life for His sake will find it. The road is hard, and He is on it ahead of us.", "Lent is a good time to ask what you are still holding back. Lay it down today, and follow Him."],
+    studyUrl: "/matthew/peters-confession/"
+  },
   "matthew-2-2": {
     slug: "matthew-2-2",
     ref: "Matthew 2:2",
@@ -1154,5 +1161,6 @@ export const dailyCalendar = {
   "2027-02-13": "1-peter-2-24",
   "2027-02-14": "psalm-51-17",
   "2027-02-15": "2-corinthians-7-10",
-  "2027-02-16": "proverbs-28-13"
+  "2027-02-16": "proverbs-28-13",
+  "2027-02-17": "matthew-16-24"
 };
