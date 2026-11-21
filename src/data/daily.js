@@ -836,6 +836,13 @@ export const dailyVerses = {
     story: ["Of all the towns God could have chosen, He names the one most people had never noticed.", "Bethlehem was small among the clans of Judah, a village rather than a capital. Yet from it, God says, will come a ruler over Israel, and His origins reach back to ancient days, to eternity. Micah then pictures this ruler as a shepherd who feeds His flock in the strength of the LORD. The promise is for people who feel overlooked: God builds His greatest work from places the world dismisses.", "If you feel small this week, notice where God likes to begin. Bethlehem was enough."],
     studyUrl: "/micah/the-ruler-from-bethlehem/"
   },
+  "micah-7-18": {
+    slug: "micah-7-18",
+    ref: "Micah 7:18",
+    verse: "Who is a God like You, who pardons iniquity and passes over the transgression of the remnant of His inheritance, who does not retain His anger forever, because He delights in loving devotion?",
+    story: ["A prophet whose own name means who is like the LORD ends his book by asking that very question, and answers it with mercy.", "Micah has just described a land with no upright person left, and he has owned his own sin. Then he looks up. What sets God apart is not first His power but His pardon: the Hebrew verb means to lift iniquity and carry it away. He does not hold His anger forever, and the reason given is not our worthiness but His own heart. He delights in loyal, covenant love. His mercy is not reluctant. That lifting and carrying reached its end at the cross, where Christ bore our sins in His body.", "Bring Him today the thing you keep carrying. He is glad to lift it."],
+    studyUrl: "/micah/misery-then-hope/"
+  },
   "nahum-1-7": {
     slug: "nahum-1-7",
     ref: "Nahum 1:7",
@@ -1162,5 +1169,6 @@ export const dailyCalendar = {
   "2027-02-14": "psalm-51-17",
   "2027-02-15": "2-corinthians-7-10",
   "2027-02-16": "proverbs-28-13",
-  "2027-02-17": "matthew-16-24"
+  "2027-02-17": "matthew-16-24",
+  "2027-02-18": "micah-7-18"
 };
