@@ -738,6 +738,13 @@ export const dailyVerses = {
     story: ["Old Zechariah has been silent for nine months, and when his tongue is freed he sings about sunrise.", "The reason for the coming light is the tender mercy of God, a phrase that speaks of His deep compassion, not of anything we have earned. The Dawn from on high will visit people living in darkness and the shadow of death. It will not merely shine upon them but guide their feet, step by step, into the path of peace. Christians have always seen this Dawn as Christ.", "Where it is still dark for you, you are not forgotten. The light is coming toward you, and it has promised to lead."],
     studyUrl: "/luke/the-birth-of-john-and-the-benedictus/"
   },
+  "luke-15-20": {
+    slug: "luke-15-20",
+    ref: "Luke 15:20",
+    verse: "So he got up and went to his father. But while he was still in the distance, his father saw him and was filled with compassion. He ran to his son, embraced him, and kissed him.",
+    story: ["Jesus tells this story to grumbling religious leaders, and the most startling figure in it is not the son who comes home but the father who runs.", "The younger son has wasted everything and rehearsed a speech, hoping only to be taken back as a hired hand. He never gets to finish it. The father has been watching the road; he sees him while he is still far off. The Greek word for his compassion reaches down into the gut: mercy felt from deep within. Then an older man in that world gathers his robes and sprints, throws his arms around a son still smelling of the pigs, and kisses him. This is how Jesus says God receives a sinner who turns home, with joy heaven itself shares.", "If you have been rehearsing your speech, stop and come. The Father is already running toward you."],
+    studyUrl: "/luke/the-lost-sheep-coin-and-son/"
+  },
   "luke-18-13": {
     slug: "luke-18-13",
     ref: "Luke 18:13",
@@ -1170,5 +1177,6 @@ export const dailyCalendar = {
   "2027-02-15": "2-corinthians-7-10",
   "2027-02-16": "proverbs-28-13",
   "2027-02-17": "matthew-16-24",
-  "2027-02-18": "micah-7-18"
+  "2027-02-18": "micah-7-18",
+  "2027-02-19": "luke-15-20"
 };
