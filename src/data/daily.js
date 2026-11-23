@@ -899,6 +899,13 @@ export const dailyVerses = {
     story: ["Before the Psalms say anything else, they hand us a picture of a tree by a stream.", "The person who delights in the LORD's instruction is rooted like a tree set beside channels of water. Fruit comes in its own season, not on demand, and the leaf stays green because the roots find water in every kind of weather. The psalm does not promise a life without heat or drought, only a life with a hidden supply that does not run dry.", "You cannot hurry the fruit, but you can choose where to plant yourself. Sink your roots into His word today."],
     studyUrl: "/psalms/psalm-001/"
   },
+  "psalm-103-12": {
+    slug: "psalm-103-12",
+    ref: "Psalm 103:12",
+    verse: "As far as the east is from the west, so far has He removed our transgressions from us.",
+    story: ["David has just said that the LORD does not repay us as our sins deserve, and now he reaches for the widest distance he can picture.", "Heaven above the earth measures the height of God's loving devotion; east and west measure how far our guilt has been carried. The sunrise and the sunset mark the edges of every horizon, and the two never meet. Forgiveness here is not a debt filed away to be read out later. It is removal. The same covenant love that spared Israel would carry our transgressions to the cross, where Christ bore them away for good.", "If an old failure keeps returning to accuse you this Lent, send it back where God has sent it. He is not keeping the record you keep."],
+    studyUrl: "/psalms/psalm-103/"
+  },
   "psalm-118-24": {
     slug: "psalm-118-24",
     ref: "Psalm 118:24",
@@ -1178,5 +1185,6 @@ export const dailyCalendar = {
   "2027-02-16": "proverbs-28-13",
   "2027-02-17": "matthew-16-24",
   "2027-02-18": "micah-7-18",
-  "2027-02-19": "luke-15-20"
+  "2027-02-19": "luke-15-20",
+  "2027-02-20": "psalm-103-12"
 };
