@@ -451,6 +451,13 @@ export const dailyVerses = {
     story: ["The risen Jesus gave His friends one last instruction before He rose out of their sight on the Mount of Olives.", "They had asked about the kingdom and about timing. He told them instead about a gift and a job. The Holy Spirit would come on them with power, and they would be His witnesses, beginning at home in Jerusalem, then through Judea and Samaria, and finally to the farthest places on earth. A witness does not invent the story; a witness tells what he has seen and heard of Christ.", "You are not asked to be impressive today, only to be truthful about Jesus where you already are."],
     studyUrl: "/acts/the-ascension/"
   },
+  "acts-3-19": {
+    slug: "acts-3-19",
+    ref: "Acts 3:19",
+    verse: "Repent, then, and turn back, so that your sins may be wiped away,",
+    story: ["A crowd has run to Solomon's Colonnade to stare at a man lame from birth now leaping, and Peter tells them the guilt for the cross is theirs.", "They handed over the Holy and Righteous One and killed the Author of life. Peter does not soften it, yet he says they acted in ignorance, and that God used even their rejection to fulfil what the prophets foretold: His Christ would suffer. So the charge becomes an open door. Repent and turn back, he says, not to earn a pardon but to receive one. The word for wiped away pictures writing erased from a page. The same Jesus they crucified, whom God raised, is the one who clears the record, and times of refreshing follow.", "Whatever is written against you this morning, bring it to Him. Turning back is the way the page is wiped clean."],
+    studyUrl: "/acts/the-lame-beggar-healed/"
+  },
   "colossians-3-23": {
     slug: "colossians-3-23",
     ref: "Colossians 3:23",
@@ -1186,5 +1193,6 @@ export const dailyCalendar = {
   "2027-02-17": "matthew-16-24",
   "2027-02-18": "micah-7-18",
   "2027-02-19": "luke-15-20",
-  "2027-02-20": "psalm-103-12"
+  "2027-02-20": "psalm-103-12",
+  "2027-02-21": "acts-3-19"
 };
