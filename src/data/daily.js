@@ -724,6 +724,13 @@ export const dailyVerses = {
     story: ["Jeremiah's lament is full of ruin, and then, in the middle of it, one steady sentence about goodness.", "The writer has described pain in plain and bitter terms. But he chooses to call to mind the LORD's steadfast love and unfailing mercies, and from that ground he draws a quiet conclusion: God is good to those who wait for Him and to the soul that seeks Him. Waiting here is not wasted time. It is the posture in which people meet a God who draws near and says, do not be afraid.", "Seeking is itself a kind of answer. Wait on Him today, even if all you can offer is a tired and open hand."],
     studyUrl: "/lamentations/the-prophets-grief-and-hope/"
   },
+  "lamentations-3-40": {
+    slug: "lamentations-3-40",
+    ref: "Lamentations 3:40",
+    verse: "Let us examine and test our ways, and turn back to the LORD.",
+    story: ["In the middle of his grief over a ruined Jerusalem, the poet stops speaking only for himself and turns to the people beside him.", "Until now the chapter has been one man's lament, but here the voice becomes plural: let us. He has just remembered that the LORD's mercies are new every morning, and that memory gives him the courage to look honestly at sin. He does not ask God to inspect them from a distance. He calls them to search their own ways, to name what they find, and then to come home. Repentance here is not despair; it is the road back to a God whose loving devotion has not run out.", "Lent invites the same slow, honest look. Whatever you find today, you are not turning toward a closed door but toward the LORD who is waiting."],
+    studyUrl: "/lamentations/the-prophets-grief-and-hope/"
+  },
   "luke-1-38": {
     slug: "luke-1-38",
     ref: "Luke 1:38",
@@ -1194,5 +1201,6 @@ export const dailyCalendar = {
   "2027-02-18": "micah-7-18",
   "2027-02-19": "luke-15-20",
   "2027-02-20": "psalm-103-12",
-  "2027-02-21": "acts-3-19"
+  "2027-02-21": "acts-3-19",
+  "2027-02-22": "lamentations-3-40"
 };
