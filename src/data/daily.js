@@ -794,6 +794,13 @@ export const dailyVerses = {
     story: ["The Old Testament closes on a warning about fire, and then, almost unexpectedly, on a sunrise.", "The coming Day of the LORD will divide people. It burns for the arrogant, but for those who fear God's name, the sun of righteousness will rise with healing in its wings. Malachi pictures them leaping out like calves released from the stall, free and glad. Until that day, God tells His people to remember His law and wait for Elijah, who came in the person of John the Baptist, heralding Christ.", "Whatever has kept you penned in, hold on to the sunrise. Healing is coming with the dawn."],
     studyUrl: "/malachi/the-day-of-the-lord-and-elijah-to-come/"
   },
+  "mark-1-15": {
+    slug: "mark-1-15",
+    ref: "Mark 1:15",
+    verse: "\u201cThe time is fulfilled,\u201d He said, \u201cand the kingdom of God is near. Repent and believe in the gospel!\u201d",
+    story: ["John has just been arrested, and in that dark moment Jesus walks into Galilee with the first words of His public ministry.", "He announces that the waiting is over. The time the prophets looked toward has reached its fullness, and God's reign has come near because the King Himself is standing among them. The word Mark uses for gospel means good news, an announcement of something already done. So Jesus asks for two things that belong together: turn around, and trust. Repentance is not a toll paid before the good news; it is the right response to it, a whole life turning toward God and resting on His promise in Christ.", "Lent is a season for that same turning. The kingdom is near to you this morning; turn toward the King and believe Him."],
+    studyUrl: "/mark/ministry-begins-in-galilee/"
+  },
   "mark-10-45": {
     slug: "mark-10-45",
     ref: "Mark 10:45",
@@ -1202,5 +1209,6 @@ export const dailyCalendar = {
   "2027-02-19": "luke-15-20",
   "2027-02-20": "psalm-103-12",
   "2027-02-21": "acts-3-19",
-  "2027-02-22": "lamentations-3-40"
+  "2027-02-22": "lamentations-3-40",
+  "2027-02-23": "mark-1-15"
 };
