@@ -21,7 +21,22 @@ from voice import USD_PER_CREDIT, TTS_MODEL, VOICES, key, post  # noqa: E402
 
 # Words the GUIDE says that the Makor names lexicon does not cover yet
 # (misaki phoneme markup, US forms, in the lexicon's own style).
-FILM_NAMES = {"Marduk": "mˈɑɹdʊk", "tohu": "tˈOhu", "wabohu": "vɑbˈOhu", "tselem": "tsˈɛlɛm", "ezer": "ˈɛzɛɹ"}
+FILM_NAMES = {"Marduk": "mˈɑɹdʊk", "tohu": "tˈOhu", "wabohu": "vɑbˈOhu", "tselem": "tsˈɛlɛm", "ezer": "ˈɛzɛɹ", "Lamechs": "lˈAmɛks",
+              # From Adam to Noah C3: "Lived becomes walked" was read as the adjective (laɪvd)
+              "Lived": "lˈɪvd",
+              # The Grief of God: not in the names lexicon
+              "Nephilim": "nˈɛfɪlˌɪm", "Gilgamesh": "ɡˈɪlɡəmˌɛʃ",
+              # Noah and the Ark: the lexicon only has the name Tebah (TEE-buh); the word for the ark is tay-VAH
+              "tebah": "tAvˈɑ",
+              # The Waters Recede: the Hebrew form of Noah's name (NOH-akh), said beside nuach
+              "Noach": "nˈOɑx",
+              # The Covenant with Noah: tselem opens a sentence; qeshet (KEH-shet) is not in the lexicon
+              "Tselem": "tsˈɛlɛm", "qeshet": "kˈɛʃɛt",
+              # mora (mo-RAH) and chat (KHAHT), kept as one phrase so the English word chat is never touched
+              "mora and chat": "mOɹˈɑ ænd xˈɑt",
+              # Noah's Sons: galah (gah-LAH) is not in the lexicon; Ebed opens a sentence and the lexicon's
+              # exact Ebed is the man (EE-bed), so the phrase is marked whole; Habakkuk huh-BAK-uk
+              "galah": "ɡɑlˈɑ", "Ebed abadim": "ˈɛbɛd ˌɑbɑdˈim", "Habakkuk": "həbˈækək"}
 
 
 def dur(path):
