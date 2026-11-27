@@ -563,6 +563,13 @@ export const dailyVerses = {
     story: ["Hosea's people have been wounded by their own choices, and for a moment they say the right thing: let us return to the LORD.", "They speak of pressing on to know Him, and of His coming as surely as the sunrise, as sure and gentle as spring rain on dry ground. The picture is lovely. But the verses that follow show that their love was thin, like morning mist, and God asks for steadfast love, chesed, and the true knowledge of Himself. Even so, the promise stands, that He is a God who arrives, as dependable as the dawn. We are called not to a brief burst of feeling but to a knowing that deepens over time.", "Choose one steady way to know Him better this week. He will come, as the rain comes."],
     studyUrl: "/hosea/a-call-to-return/"
   },
+  "isaiah-1-18": {
+    slug: "isaiah-1-18",
+    ref: "Isaiah 1:18",
+    verse: "\u201cCome now, let us reason together,\u201d says the LORD. \u201cThough your sins are like scarlet, they will be as white as snow; though they are as red as crimson, they will become like wool.",
+    story: ["God has just called heaven and earth as witnesses against His people, and the case looks lost; then the Judge Himself steps down and offers terms.", "Judah had kept every feast and filled the courts with offerings, while their hands were stained with injustice toward the widow and the orphan. God refused the ritual and named the stain. Scarlet and crimson were dyes that soaked deep into cloth; no amount of scrubbing could lift them. Yet the LORD promises what no washer could do: snow, and wool still white from the flock. The cleansing is His work, and it calls for a willing, obedient heart in return. Isaiah will later show the cost of it in a Servant wounded for our transgressions.", "Come to Him today without excuses or bargains. The stain you cannot lift, He can make white."],
+    studyUrl: "/isaiah/the-rebellious-nation/"
+  },
   "isaiah-11-1": {
     slug: "isaiah-11-1",
     ref: "Isaiah 11:1",
@@ -1210,5 +1217,6 @@ export const dailyCalendar = {
   "2027-02-20": "psalm-103-12",
   "2027-02-21": "acts-3-19",
   "2027-02-22": "lamentations-3-40",
-  "2027-02-23": "mark-1-15"
+  "2027-02-23": "mark-1-15",
+  "2027-02-24": "isaiah-1-18"
 };
