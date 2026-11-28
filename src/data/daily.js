@@ -556,6 +556,13 @@ export const dailyVerses = {
     story: ["The writer of Hebrews sends tired believers a simple instruction about where to point their eyes.", "Jesus began our faith and He will bring it to completion. He is not only our example but the One who finished the course. He walked toward the cross because of the joy beyond it, treated its public shame as small, and now sits at the Father's right hand. Looking at Him steadies a runner who is worn out and tempted to stop.", "If the race feels long today, look up from your feet and find Him. He has already run it."],
     studyUrl: "/hebrews/running-the-race/"
   },
+  "hebrews-4-16": {
+    slug: "hebrews-4-16",
+    ref: "Hebrews 4:16",
+    verse: "Let us then approach the throne of grace with confidence, so that we may receive mercy and find grace to help us in our time of need.",
+    story: ["For a people who knew the temple veil and the trembling of the high priest once a year, this is an astonishing invitation.", "The writer has just shown us Jesus, the great high priest who has passed through the heavens and yet was tempted in every way we are, without sin. He does not watch our weakness from a distance; He feels it alongside us. So the throne of God, which we might expect to be a seat of judgment, has become a throne of grace. The word for confidence means freedom of speech: we come not cowering but speaking plainly, as welcome children. There we receive mercy for what we have done, and grace timed for the hour we are in.", "Whatever you carry into this morning, take it to Him. The way to the throne is open, and He already understands."],
+    studyUrl: "/hebrews/our-great-high-priest/"
+  },
   "hosea-6-3": {
     slug: "hosea-6-3",
     ref: "Hosea 6:3",
@@ -1218,5 +1225,6 @@ export const dailyCalendar = {
   "2027-02-21": "acts-3-19",
   "2027-02-22": "lamentations-3-40",
   "2027-02-23": "mark-1-15",
-  "2027-02-24": "isaiah-1-18"
+  "2027-02-24": "isaiah-1-18",
+  "2027-02-25": "hebrews-4-16"
 };
